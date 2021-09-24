@@ -26,10 +26,10 @@ items:
   fullName: SuperOffice.IO.ProviderStream
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nStream for reading from and writing to the document archive.\n"
   syntax:
@@ -109,10 +109,10 @@ items:
   fullName: SuperOffice.IO.ProviderStream.GetProviderStream(SuperOffice.IO.IStreamProvider, SuperOffice.IO.ProviderStream.AccessMode)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nGet a new instance of the <xref href=\"SuperOffice.IO.ProviderStream\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
@@ -147,10 +147,10 @@ items:
   fullName: SuperOffice.IO.ProviderStream.Read(System.Byte[], System.Int32, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nRead a block of bytes from a stream, and insert them into the given position in the\ncallers buffer array\n"
   remarks: "\nNote that the actual remote stream or file may be read using other chunk sizes than what is\nuse in the incoming &apos;count&apos; parameter. The <xref href=\"SuperOffice.IO.ProviderStream.Position\" data-throw-if-not-resolved=\"false\"></xref> property will report the\nposition as seen by the caller, not the position as read from the file.\n"
@@ -193,10 +193,10 @@ items:
   fullName: SuperOffice.IO.ProviderStream.Write(System.Byte[], System.Int32, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrite a chunk of bytes to a stream, potentially triggering a write to the\nunderlying file or remote stream\n"
   syntax:
@@ -235,10 +235,10 @@ items:
   fullName: SuperOffice.IO.ProviderStream.Flush()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\n\n"
   syntax:
@@ -264,10 +264,10 @@ items:
   fullName: SuperOffice.IO.ProviderStream.Close()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\n\n"
   syntax:
@@ -293,10 +293,10 @@ items:
   fullName: SuperOffice.IO.ProviderStream.SetLength(System.Int64)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\n\n"
   syntax:
@@ -325,10 +325,10 @@ items:
   fullName: SuperOffice.IO.ProviderStream.Seek(System.Int64, System.IO.SeekOrigin)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\n\n"
   syntax:
@@ -361,10 +361,10 @@ items:
   fullName: SuperOffice.IO.ProviderStream.Dispose()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nDispose of the document stream\n"
   syntax:
@@ -389,10 +389,10 @@ items:
   fullName: SuperOffice.IO.ProviderStream.CanSeek
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nDoes the stream support seeking?\n"
   syntax:
@@ -423,10 +423,10 @@ items:
   fullName: SuperOffice.IO.ProviderStream.CanRead
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nDoes the stream support reading?\n"
   syntax:
@@ -457,10 +457,10 @@ items:
   fullName: SuperOffice.IO.ProviderStream.CanWrite
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nDoes the stream support writing?\n"
   syntax:
@@ -491,10 +491,10 @@ items:
   fullName: SuperOffice.IO.ProviderStream.Length
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\n\n"
   syntax:
@@ -525,10 +525,10 @@ items:
   fullName: SuperOffice.IO.ProviderStream.Position
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nCurrent position in stream buffer, as seen by caller (not internal chunk buffer position)\n"
   syntax:

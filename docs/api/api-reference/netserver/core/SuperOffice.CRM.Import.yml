@@ -24,24 +24,12 @@ items:
   assemblies:
   - SoDataBase
 references:
-- uid: SuperOffice.CRM.Import.ProductToDictionaryConverter
-  commentId: T:SuperOffice.CRM.Import.ProductToDictionaryConverter
+- uid: SuperOffice.CRM.Import.ContactAndPersonImporter
+  commentId: T:SuperOffice.CRM.Import.ContactAndPersonImporter
   isExternal: true
-  name: ProductToDictionaryConverter
-  nameWithType: ProductToDictionaryConverter
-  fullName: SuperOffice.CRM.Import.ProductToDictionaryConverter
-- uid: SuperOffice.CRM.Import.ProductDuplicateHelper
-  commentId: T:SuperOffice.CRM.Import.ProductDuplicateHelper
-  isExternal: true
-  name: ProductDuplicateHelper
-  nameWithType: ProductDuplicateHelper
-  fullName: SuperOffice.CRM.Import.ProductDuplicateHelper
-- uid: SuperOffice.CRM.Import.ProductImporter
-  commentId: T:SuperOffice.CRM.Import.ProductImporter
-  isExternal: true
-  name: ProductImporter
-  nameWithType: ProductImporter
-  fullName: SuperOffice.CRM.Import.ProductImporter
+  name: ContactAndPersonImporter
+  nameWithType: ContactAndPersonImporter
+  fullName: SuperOffice.CRM.Import.ContactAndPersonImporter
 - uid: SuperOffice.CRM.Import.ContactPersonIdItem
   commentId: T:SuperOffice.CRM.Import.ContactPersonIdItem
   isExternal: true
@@ -66,18 +54,30 @@ references:
   name: ImportItem
   nameWithType: ImportItem
   fullName: SuperOffice.CRM.Import.ImportItem
-- uid: SuperOffice.CRM.Import.ContactAndPersonImporter
-  commentId: T:SuperOffice.CRM.Import.ContactAndPersonImporter
+- uid: SuperOffice.CRM.Import.ProductDuplicateHelper
+  commentId: T:SuperOffice.CRM.Import.ProductDuplicateHelper
   isExternal: true
-  name: ContactAndPersonImporter
-  nameWithType: ContactAndPersonImporter
-  fullName: SuperOffice.CRM.Import.ContactAndPersonImporter
+  name: ProductDuplicateHelper
+  nameWithType: ProductDuplicateHelper
+  fullName: SuperOffice.CRM.Import.ProductDuplicateHelper
 - uid: SuperOffice.CRM.Import.ProductImageImportHelper
   commentId: T:SuperOffice.CRM.Import.ProductImageImportHelper
   isExternal: true
   name: ProductImageImportHelper
   nameWithType: ProductImageImportHelper
   fullName: SuperOffice.CRM.Import.ProductImageImportHelper
+- uid: SuperOffice.CRM.Import.ProductImporter
+  commentId: T:SuperOffice.CRM.Import.ProductImporter
+  isExternal: true
+  name: ProductImporter
+  nameWithType: ProductImporter
+  fullName: SuperOffice.CRM.Import.ProductImporter
+- uid: SuperOffice.CRM.Import.ProductToDictionaryConverter
+  commentId: T:SuperOffice.CRM.Import.ProductToDictionaryConverter
+  isExternal: true
+  name: ProductToDictionaryConverter
+  nameWithType: ProductToDictionaryConverter
+  fullName: SuperOffice.CRM.Import.ProductToDictionaryConverter
 - uid: SuperOffice.CRM.Import.UdefImportHelper
   commentId: T:SuperOffice.CRM.Import.UdefImportHelper
   isExternal: true

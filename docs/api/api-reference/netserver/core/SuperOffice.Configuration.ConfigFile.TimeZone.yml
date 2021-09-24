@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.TimeZone
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nConfiguration values related to TimeZone.\n"
   syntax:
@@ -52,10 +52,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.TimeZone.ServiceUrl
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nURL for the TimeZone service\n"
   syntax:

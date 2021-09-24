@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.SaleDone
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValues for the &apos;done&apos; field in the sale table\nThis Enum is used by:  sale.done; SaleHist.done\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.SaleDone.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Sale Done/Not done state is unknown\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.SaleDone.NotDone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Sale is not done\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.SaleDone.Done
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Sale is done\n"
   syntax:

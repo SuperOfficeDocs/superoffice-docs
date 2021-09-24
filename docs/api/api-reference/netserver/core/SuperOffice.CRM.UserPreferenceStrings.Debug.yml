@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Debug
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public static class Debug
@@ -53,10 +53,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Debug.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public const string Section = "Debug"
@@ -81,10 +81,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Debug.ColCritInfo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public const string ColCritInfo = "colCritInfo"
@@ -109,10 +109,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Debug.ColCritShowIgnored
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public const string ColCritShowIgnored = "colCritShowIgnored"

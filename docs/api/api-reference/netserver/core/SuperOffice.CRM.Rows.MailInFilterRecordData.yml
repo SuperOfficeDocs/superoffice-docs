@@ -116,10 +116,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nEnum indicating the protocol to use (POP/IMAP). \n"
   syntax:
-    content: public short ServerType
+    content: public MailboxType ServerType
     return:
-      type: System.Int16
-    content.vb: Public ServerType As Short
+      type: SuperOffice.Data.MailboxType
+    content.vb: Public ServerType As MailboxType
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1473,13 +1473,19 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
+- uid: SuperOffice.Data.MailboxType
+  commentId: T:SuperOffice.Data.MailboxType
+  parent: SuperOffice.Data
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  name: MailboxType
+  nameWithType: MailboxType
+  fullName: SuperOffice.Data.MailboxType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -1494,6 +1500,13 @@ references:
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.CRM.Rows.MailInFilterRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.MailInFilterRecordData.#ctor
   isExternal: true

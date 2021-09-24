@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.CRM.QuoteUtility
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nTranslate enums into strings for Quote Version state. Used in building tooltips and lists.\n"
   syntax:
@@ -57,10 +57,10 @@ items:
   fullName: SuperOffice.CRM.QuoteUtility.GetQuoteVersionStateText(SuperOffice.Data.QuoteVersionState, SuperOffice.Data.QuoteVersionState)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public static string GetQuoteVersionStateText(QuoteVersionState state, QuoteVersionState archivedState)
@@ -91,10 +91,10 @@ items:
   fullName: SuperOffice.CRM.QuoteUtility.GetQuoteVersionText(SuperOffice.Data.QuoteVersionState, SuperOffice.Data.QuoteVersionState, System.DateTime, System.DateTime, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public static string GetQuoteVersionText(QuoteVersionState state, QuoteVersionState archivedState, DateTime sentDate, DateTime updatedDate, int rank)
@@ -131,10 +131,10 @@ items:
   fullName: SuperOffice.CRM.QuoteUtility.GetQuoteVersionStateIcon(SuperOffice.Data.QuoteVersionState)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public static string GetQuoteVersionStateIcon(QuoteVersionState state)

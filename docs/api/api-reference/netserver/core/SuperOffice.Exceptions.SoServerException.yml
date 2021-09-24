@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Exceptions.SoServerException
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nThis exception wrappes a SoExceptionInfo.  \nUse <xref href=\"SuperOffice.Exceptions.SoServerException.ExceptionInfo\" data-throw-if-not-resolved=\"false\"></xref> to analyze the inner exception.\n"
   syntax:
@@ -81,10 +81,10 @@ items:
   fullName: SuperOffice.Exceptions.SoServerException.SoServerException(SuperOffice.Exceptions.SoExceptionInfo)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nDefault constructor wrapping a <xref href=\"SuperOffice.Exceptions.SoExceptionInfo\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
@@ -111,10 +111,10 @@ items:
   fullName: SuperOffice.Exceptions.SoServerException.SoServerException(System.String, SuperOffice.Exceptions.SoExceptionInfo)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nDefault constructor wrapping a <xref href=\"SuperOffice.Exceptions.SoExceptionInfo\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
@@ -144,10 +144,10 @@ items:
   fullName: SuperOffice.Exceptions.SoServerException.ExceptionInfo
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nInner Exception\n"
   syntax:

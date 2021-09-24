@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Threading.SetThreadState<TThreadState, TThreadCleanupState>
   type: Delegate
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nOperation signature used to assign state on to a new thread - passed on from a calling thread. \n"
   syntax:
@@ -62,10 +62,10 @@ items:
   fullName: SuperOffice.Threading.SetThreadState<TThreadState, TThreadCleanupState>.SetThreadState(System.Object, System.IntPtr)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public SetThreadState(object object, IntPtr method)
@@ -94,10 +94,10 @@ items:
   fullName: SuperOffice.Threading.SetThreadState<TThreadState, TThreadCleanupState>.Invoke(TThreadState)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public virtual TThreadCleanupState Invoke(TThreadState threadState)
@@ -128,10 +128,10 @@ items:
   fullName: SuperOffice.Threading.SetThreadState<TThreadState, TThreadCleanupState>.BeginInvoke(TThreadState, System.AsyncCallback, System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public virtual IAsyncResult BeginInvoke(TThreadState threadState, AsyncCallback callback, object object)
@@ -166,10 +166,10 @@ items:
   fullName: SuperOffice.Threading.SetThreadState<TThreadState, TThreadCleanupState>.EndInvoke(System.IAsyncResult)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public virtual TThreadCleanupState EndInvoke(IAsyncResult result)

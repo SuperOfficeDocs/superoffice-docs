@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionMainHeading(System.Int16,System.Int32)
   - SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionType(System.Int32)
   - SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionType(System.String)
+  - SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypeFromProviderName(System.String)
   - SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypeFromSelectionId(System.Int32)
   - SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypes
   langs:
@@ -148,6 +149,36 @@ items:
       description: <strong>null</strong> if there is no such table, or if the table does not have selection support
     content.vb: Public Function GetSelectionType(tableNumber As Integer) As SelectionTypeInfo
   overload: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypeFromProviderName(System.String)
+  commentId: M:SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypeFromProviderName(System.String)
+  id: GetSelectionTypeFromProviderName(System.String)
+  parent: SuperOffice.CRM.Entities.SelectionTypeManager
+  langs:
+  - csharp
+  - vb
+  name: GetSelectionTypeFromProviderName(String)
+  nameWithType: SelectionTypeManager.GetSelectionTypeFromProviderName(String)
+  fullName: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypeFromProviderName(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public SelectionTypeInfo GetSelectionTypeFromProviderName(string providerName)
+    parameters:
+    - id: providerName
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Entities.SelectionTypeInfo
+    content.vb: Public Function GetSelectionTypeFromProviderName(providerName As String) As SelectionTypeInfo
+  overload: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypeFromProviderName*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -871,6 +902,12 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypeFromProviderName*
+  commentId: Overload:SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypeFromProviderName
+  isExternal: true
+  name: GetSelectionTypeFromProviderName
+  nameWithType: SelectionTypeManager.GetSelectionTypeFromProviderName
+  fullName: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypeFromProviderName
 - uid: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypeFromSelectionId*
   commentId: Overload:SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypeFromSelectionId
   isExternal: true

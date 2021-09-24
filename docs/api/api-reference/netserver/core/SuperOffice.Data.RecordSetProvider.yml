@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.RecordSetProvider
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nClass which can convert entities into sets of <xref href=\"SuperOffice.Data.Record\" data-throw-if-not-resolved=\"false\"></xref>-instances.\n"
   syntax:
@@ -72,10 +72,10 @@ items:
   fullName: SuperOffice.Data.RecordSetProvider.GetRecordsFor<T>(T)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nConverts the provided entity into a set of records.\n"
   syntax:
@@ -113,10 +113,10 @@ items:
   fullName: SuperOffice.Data.RecordSetProvider.GetRecordsFor<T>(T, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nConverts the provided entity into a set of records.\n"
   syntax:
@@ -157,10 +157,10 @@ items:
   fullName: SuperOffice.Data.RecordSetProvider.RecordSetProvider()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public RecordSetProvider()
@@ -182,10 +182,10 @@ items:
   fullName: SuperOffice.Data.RecordSetProvider.Delimiter
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nGets or sets the delimiter used to delimit entity-bounderies when setting up the keys used\nfor Record-values.\n"
   syntax:

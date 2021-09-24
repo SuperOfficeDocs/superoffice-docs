@@ -15,6 +15,7 @@ items:
   - SuperOffice.CRM.Rows.EjMessageRows.ForEach(System.Action{SuperOffice.CRM.Rows.EjMessageRow})
   - SuperOffice.CRM.Rows.EjMessageRows.GetFromCustomSearch(SuperOffice.CRM.Rows.EjMessageRows.CustomSearch)
   - SuperOffice.CRM.Rows.EjMessageRows.GetFromIdxBodyAttachment(System.Int32)
+  - SuperOffice.CRM.Rows.EjMessageRows.GetFromIdxCreatedAt(System.DateTime)
   - SuperOffice.CRM.Rows.EjMessageRows.GetFromIdxCreatedBy(System.Int32)
   - SuperOffice.CRM.Rows.EjMessageRows.GetFromIdxCustomerId(System.Int32)
   - SuperOffice.CRM.Rows.EjMessageRows.GetFromIdxHtmlBodyAttachment(System.Int32)
@@ -639,6 +640,41 @@ items:
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
     content.vb: Public Shared Function GetFromIdxSearchTitleBodyHtmlBody(searchTitle As String, body As String, htmlBody As String) As EjMessageRows
   overload: SuperOffice.CRM.Rows.EjMessageRows.GetFromIdxSearchTitleBodyHtmlBody*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.EjMessageRows.GetFromIdxCreatedAt(System.DateTime)
+  commentId: M:SuperOffice.CRM.Rows.EjMessageRows.GetFromIdxCreatedAt(System.DateTime)
+  id: GetFromIdxCreatedAt(System.DateTime)
+  parent: SuperOffice.CRM.Rows.EjMessageRows
+  langs:
+  - csharp
+  - vb
+  name: GetFromIdxCreatedAt(DateTime)
+  nameWithType: EjMessageRows.GetFromIdxCreatedAt(DateTime)
+  fullName: SuperOffice.CRM.Rows.EjMessageRows.GetFromIdxCreatedAt(System.DateTime)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCreate a new instance of the EjMessageRow object, by querying the database table via the index &apos;IDXEj_messageCreated_at&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
+  remarks: "\nThis method represents one of the unique indexes on the EjMessage table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.EjMessageRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
+  syntax:
+    content: public static EjMessageRows GetFromIdxCreatedAt(DateTime createdAt)
+    parameters:
+    - id: createdAt
+      type: System.DateTime
+    return:
+      type: SuperOffice.CRM.Rows.EjMessageRows
+      description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
+    content.vb: Public Shared Function GetFromIdxCreatedAt(createdAt As Date) As EjMessageRows
+  overload: SuperOffice.CRM.Rows.EjMessageRows.GetFromIdxCreatedAt*
   modifiers.csharp:
   - public
   - static
@@ -3927,6 +3963,19 @@ references:
   name: GetFromIdxSearchTitleBodyHtmlBody
   nameWithType: EjMessageRows.GetFromIdxSearchTitleBodyHtmlBody
   fullName: SuperOffice.CRM.Rows.EjMessageRows.GetFromIdxSearchTitleBodyHtmlBody
+- uid: SuperOffice.CRM.Rows.EjMessageRows.GetFromIdxCreatedAt*
+  commentId: Overload:SuperOffice.CRM.Rows.EjMessageRows.GetFromIdxCreatedAt
+  isExternal: true
+  name: GetFromIdxCreatedAt
+  nameWithType: EjMessageRows.GetFromIdxCreatedAt
+  fullName: SuperOffice.CRM.Rows.EjMessageRows.GetFromIdxCreatedAt
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
 - uid: SuperOffice.CRM.Rows.EjMessageRows.GetFromReader*
   commentId: Overload:SuperOffice.CRM.Rows.EjMessageRows.GetFromReader
   isExternal: true

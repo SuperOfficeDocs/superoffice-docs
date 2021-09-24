@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Security.Cryptography.So3Des112Crypto
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Cryptography
   summary: "\nWrapper for Triple DES \n"
   syntax:
@@ -58,10 +58,10 @@ items:
   fullName: SuperOffice.Security.Cryptography.So3Des112Crypto.So3Des112Crypto(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Cryptography
   summary: "\nDefault constructor taking the DbTag in the format it is in the database.\n"
   syntax:
@@ -88,10 +88,10 @@ items:
   fullName: SuperOffice.Security.Cryptography.So3Des112Crypto.So3Des112Crypto(System.Byte[])
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Cryptography
   summary: "\nDefault constructor taking the DbTag as a byte array.\n"
   syntax:
@@ -121,10 +121,10 @@ items:
   fullName: SuperOffice.Security.Cryptography.So3Des112Crypto.Encrypt(System.Byte[], System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Cryptography
   summary: "\nEncrypt data symmetrically using the provided DbTag\n"
   syntax:
@@ -174,10 +174,10 @@ items:
   fullName: SuperOffice.Security.Cryptography.So3Des112Crypto.Encrypt(System.Byte[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Cryptography
   summary: "\nEncrypt data symmetrically using the provided DbTag\n"
   syntax:
@@ -210,10 +210,10 @@ items:
   fullName: SuperOffice.Security.Cryptography.So3Des112Crypto.Decrypt(System.Byte[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Cryptography
   summary: "\nDecrypt data encrypted with the <xref href=\"SuperOffice.Security.Cryptography.So3Des112Crypto.Encrypt(System.Byte%5b%5d%2cSystem.Boolean)\" data-throw-if-not-resolved=\"false\"></xref> method.\n"
   syntax:

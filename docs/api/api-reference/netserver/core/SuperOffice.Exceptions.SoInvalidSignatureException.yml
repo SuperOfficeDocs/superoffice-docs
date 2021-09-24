@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Exceptions.SoInvalidSignatureException
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nException thrown when an illegal signature is used.\n"
   syntax:
@@ -83,10 +83,10 @@ items:
   fullName: SuperOffice.Exceptions.SoInvalidSignatureException.SoInvalidSignatureException()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   syntax:
     content: public SoInvalidSignatureException()
@@ -108,10 +108,10 @@ items:
   fullName: SuperOffice.Exceptions.SoInvalidSignatureException.SoInvalidSignatureException(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nDefault constructor.\n"
   syntax:
@@ -138,10 +138,10 @@ items:
   fullName: SuperOffice.Exceptions.SoInvalidSignatureException.SoInvalidSignatureException(System.String, System.Exception)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nDefault constructor.\n"
   syntax:

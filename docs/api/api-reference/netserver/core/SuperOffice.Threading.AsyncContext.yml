@@ -30,10 +30,10 @@ items:
   fullName: SuperOffice.Threading.AsyncContext
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nSummary description for AsyncContext.\n"
   syntax:
@@ -74,10 +74,10 @@ items:
   fullName: SuperOffice.Threading.AsyncContext.AsyncContext(System.Boolean, System.Boolean)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nProtected constructor to be called by implementations.\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Threading.AsyncContext.Start()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public void Start()
@@ -130,10 +130,10 @@ items:
   fullName: SuperOffice.Threading.AsyncContext.ExecuteAsyncOperation()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nExecute the async operation\n"
   syntax:
@@ -158,10 +158,10 @@ items:
   fullName: SuperOffice.Threading.AsyncContext.Thread
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nThe thread executing the asynchronous operation.\n"
   syntax:
@@ -189,10 +189,10 @@ items:
   fullName: SuperOffice.Threading.AsyncContext.HasError
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nHas an exception been thrown while executing the asynchronous operation?\n"
   syntax:
@@ -220,10 +220,10 @@ items:
   fullName: SuperOffice.Threading.AsyncContext.Error
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nException thrown while executing the asynchronous operation\n"
   syntax:
@@ -251,10 +251,10 @@ items:
   fullName: SuperOffice.Threading.AsyncContext.BreakOnError
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nShall an attached debugger break if there has been errors executing the thread.\nTrue is the default value.\n"
   syntax:
@@ -282,10 +282,10 @@ items:
   fullName: SuperOffice.Threading.AsyncContext.DisableTimeLogging
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nDisable logging of times from the inner thread.\n"
   syntax:
@@ -313,10 +313,10 @@ items:
   fullName: SuperOffice.Threading.AsyncContext.ThreadName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nName of the thread.\n"
   syntax:
@@ -344,10 +344,10 @@ items:
   fullName: SuperOffice.Threading.AsyncContext.ManagedThreadId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nIf we&apos;re running in genuine multithread mode, return the managed thread ID of the worker thread. If we&apos;re\nrunning in singlethread mode, return a pseudo ID, unique to each AsyncContext even though they all run in the same thread\n"
   syntax:
@@ -375,10 +375,10 @@ items:
   fullName: SuperOffice.Threading.AsyncContext.ManagedParentThreadId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nGet managed thread id for the thread starting the thread represented by the <xref href=\"SuperOffice.Threading.AsyncContext\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
@@ -406,10 +406,10 @@ items:
   fullName: SuperOffice.Threading.AsyncContext.ContextIdentifier
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public string ContextIdentifier { get; }
@@ -436,10 +436,10 @@ items:
   fullName: SuperOffice.Threading.AsyncContext.CurrentContext
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nGet <xref href=\"SuperOffice.Threading.AsyncContext\" data-throw-if-not-resolved=\"false\"></xref> for the currently executing thread.  This will be null for operations not performed by the <xref href=\"SuperOffice.Threading.ThreadManager\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
@@ -469,10 +469,10 @@ items:
   fullName: SuperOffice.Threading.AsyncContext.TerminationEvent
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nUse this handle for waiting for completion. The ThreadManager.<xref href=\"SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete(System.Int32%2cSuperOffice.Threading.AsyncContext%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> method\ncan be used to wait for one or more specified AsyncContext-described threads to complete, without iterations and Sleep calls.\n"
   syntax:
@@ -500,10 +500,10 @@ items:
   fullName: SuperOffice.Threading.AsyncContext.OperationStartingEvent
   type: Event
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nThis event is called whenever a new asynchronous operation is starting.\nThe thread is running, but the callers&apos; <see cref=\"!:AsyncOperation\"></see> delegate has not\nyet been called.\n"
   syntax:
@@ -527,10 +527,10 @@ items:
   fullName: SuperOffice.Threading.AsyncContext.OperationFailureEvent
   type: Event
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nThis event is called\nwhenever an asynchronous operation throws an exception.\n"
   syntax:
@@ -554,10 +554,10 @@ items:
   fullName: SuperOffice.Threading.AsyncContext.OperationTerminatingEvent
   type: Event
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nThis event is called\nwhenever a new asynchronous operation is terminating. The thread is still running,\nand execution of the callers&apos; <see cref=\"!:AsyncOperation\"></see> delegate has just completed.\n"
   syntax:

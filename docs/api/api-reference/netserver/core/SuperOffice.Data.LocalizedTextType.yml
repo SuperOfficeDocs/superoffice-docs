@@ -31,10 +31,10 @@ items:
   fullName: SuperOffice.Data.LocalizedTextType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nThe type of the locale text strings\n"
   syntax:
@@ -63,10 +63,10 @@ items:
   fullName: SuperOffice.Data.LocalizedTextType.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown - used when initializing\n"
   syntax:
@@ -91,10 +91,10 @@ items:
   fullName: SuperOffice.Data.LocalizedTextType.Label
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: 1 = fieldlabels \n"
   syntax:
@@ -119,10 +119,10 @@ items:
   fullName: SuperOffice.Data.LocalizedTextType.Table
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: \n"
   syntax:
@@ -147,10 +147,10 @@ items:
   fullName: SuperOffice.Data.LocalizedTextType.Column
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: \n"
   syntax:
@@ -175,10 +175,10 @@ items:
   fullName: SuperOffice.Data.LocalizedTextType.ImportField
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: 4 - import system field names \n"
   syntax:
@@ -203,10 +203,10 @@ items:
   fullName: SuperOffice.Data.LocalizedTextType.ImportObject
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: 5 - import system table names\n"
   syntax:
@@ -231,10 +231,10 @@ items:
   fullName: SuperOffice.Data.LocalizedTextType.ImportGUICategory
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: 6 - import system table groups\n"
   syntax:
@@ -259,10 +259,10 @@ items:
   fullName: SuperOffice.Data.LocalizedTextType.StartupHints
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: 7  (languageid > 0)\n"
   syntax:
@@ -287,10 +287,10 @@ items:
   fullName: SuperOffice.Data.LocalizedTextType.FunctionRightLabel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n11: 11 (languageid > 0)\n"
   syntax:
@@ -315,10 +315,10 @@ items:
   fullName: SuperOffice.Data.LocalizedTextType.FunctionRightDesc
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n12: 12 (languageid > 0)\n"
   syntax:
@@ -343,10 +343,10 @@ items:
   fullName: SuperOffice.Data.LocalizedTextType.StatusMonitorName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16: languageid = 0\n"
   syntax:
@@ -371,10 +371,10 @@ items:
   fullName: SuperOffice.Data.LocalizedTextType.UdefContactLabel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n19: 19  (languageid = 0)\n"
   syntax:
@@ -399,10 +399,10 @@ items:
   fullName: SuperOffice.Data.LocalizedTextType.UdefPersonLabel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n20: 20  (languageid = 0)\n"
   syntax:
@@ -427,10 +427,10 @@ items:
   fullName: SuperOffice.Data.LocalizedTextType.UdefProjectLabel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n21: 21  (languageid = 0)\n"
   syntax:
@@ -455,10 +455,10 @@ items:
   fullName: SuperOffice.Data.LocalizedTextType.UdefSaleLabel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n22: 22 (languageid = 0) \n"
   syntax:
@@ -483,10 +483,10 @@ items:
   fullName: SuperOffice.Data.LocalizedTextType.UdefAppointmentLabel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n23: 23 (languageid = 0)\n"
   syntax:
@@ -511,10 +511,10 @@ items:
   fullName: SuperOffice.Data.LocalizedTextType.UdefDocumentLabel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n24: 24 (languageid = 0)\n"
   syntax:
@@ -539,10 +539,10 @@ items:
   fullName: SuperOffice.Data.LocalizedTextType.PushNotificationText
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n41: 41 - push notification tex\n"
   syntax:

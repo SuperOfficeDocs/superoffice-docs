@@ -39,7 +39,9 @@ items:
   - SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation
   - SuperOffice.CRM.ArchiveLists.Aggregation.ExpressionAggregation
   - SuperOffice.CRM.ArchiveLists.Aggregation.GroupAggregation
+  - SuperOffice.CRM.ArchiveLists.Aggregation.MaxAggregation
   - SuperOffice.CRM.ArchiveLists.Aggregation.MedianAggregation
+  - SuperOffice.CRM.ArchiveLists.Aggregation.MinAggregation
   - SuperOffice.CRM.ArchiveLists.Aggregation.NoAggregation
   - SuperOffice.CRM.ArchiveLists.Aggregation.PercentOfTotalAggregation
   - SuperOffice.CRM.ArchiveLists.Aggregation.SumAggregation

@@ -19,7 +19,7 @@ items:
   fullName: SuperOffice.Security.Util
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
 - uid: SuperOffice.Security.Util.DocumentArchiveUser
   commentId: T:SuperOffice.Security.Util.DocumentArchiveUser

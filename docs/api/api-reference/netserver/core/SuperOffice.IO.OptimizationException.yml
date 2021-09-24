@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.IO.OptimizationException
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nException thrown when a value being optimized does not meet the required criteria for optimization.\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.IO.OptimizationException.OptimizationException(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   syntax:
     content: public OptimizationException(string message)

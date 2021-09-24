@@ -10,6 +10,8 @@ items:
   - SuperOffice.CRM.Data.SelectionTableInfo.ChartKey
   - SuperOffice.CRM.Data.SelectionTableInfo.CombinationType
   - SuperOffice.CRM.Data.SelectionTableInfo.CompanyUnique
+  - SuperOffice.CRM.Data.SelectionTableInfo.DashboardTileDefinitionId
+  - SuperOffice.CRM.Data.SelectionTableInfo.DashboardTileDefinitionId_InnerJoin_DashboardTileDefinition
   - SuperOffice.CRM.Data.SelectionTableInfo.Definition
   - SuperOffice.CRM.Data.SelectionTableInfo.DictionaryTableName
   - SuperOffice.CRM.Data.SelectionTableInfo.DictionaryTableNumber
@@ -23,6 +25,8 @@ items:
   - SuperOffice.CRM.Data.SelectionTableInfo.LastMembershipChange
   - SuperOffice.CRM.Data.SelectionTableInfo.LastMembershipChangeBy
   - SuperOffice.CRM.Data.SelectionTableInfo.LastMembershipChangeBy_InnerJoin_Associate
+  - SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId
+  - SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SelectionId
   - SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_SelectionMember_SelectionId
   - SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_SLink_AddContactSelection
   - SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_SLink_RemoveContactSelection
@@ -1007,6 +1011,37 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.CRM.Data.SelectionTableInfo.DashboardTileDefinitionId
+  commentId: P:SuperOffice.CRM.Data.SelectionTableInfo.DashboardTileDefinitionId
+  id: DashboardTileDefinitionId
+  parent: SuperOffice.CRM.Data.SelectionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileDefinitionId
+  nameWithType: SelectionTableInfo.DashboardTileDefinitionId
+  fullName: SuperOffice.CRM.Data.SelectionTableInfo.DashboardTileDefinitionId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;dashboard_tile_definition_id&apos; in table &apos;selection&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe associated tile definition\n"
+  syntax:
+    content: public Int32FieldInfo DashboardTileDefinitionId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property DashboardTileDefinitionId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.SelectionTableInfo.DashboardTileDefinitionId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SelectionTableInfo.SystemType
   commentId: P:SuperOffice.CRM.Data.SelectionTableInfo.SystemType
   id: SystemType
@@ -1472,6 +1507,37 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.CRM.Data.SelectionTableInfo.DashboardTileDefinitionId_InnerJoin_DashboardTileDefinition
+  commentId: P:SuperOffice.CRM.Data.SelectionTableInfo.DashboardTileDefinitionId_InnerJoin_DashboardTileDefinition
+  id: DashboardTileDefinitionId_InnerJoin_DashboardTileDefinition
+  parent: SuperOffice.CRM.Data.SelectionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileDefinitionId_InnerJoin_DashboardTileDefinition
+  nameWithType: SelectionTableInfo.DashboardTileDefinitionId_InnerJoin_DashboardTileDefinition
+  fullName: SuperOffice.CRM.Data.SelectionTableInfo.DashboardTileDefinitionId_InnerJoin_DashboardTileDefinition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key DashboardTileDefinitionId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<DashboardTileDefinitionTableInfo> DashboardTileDefinitionId_InnerJoin_DashboardTileDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo}
+    content.vb: Public ReadOnly Property DashboardTileDefinitionId_InnerJoin_DashboardTileDefinition As TargetedInnerJoin(Of DashboardTileDefinitionTableInfo)
+  overload: SuperOffice.CRM.Data.SelectionTableInfo.DashboardTileDefinitionId_InnerJoin_DashboardTileDefinition*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SelectionTableInfo.LastLoadedBy_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.SelectionTableInfo.LastLoadedBy_InnerJoin_Associate
   id: LastLoadedBy_InnerJoin_Associate
@@ -1683,6 +1749,68 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SLinkTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_SLink_RemoveContactSelection As TargetedLeftOuterJoin(Of SLinkTableInfo)
   overload: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_SLink_RemoveContactSelection*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SelectionId
+  commentId: P:SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SelectionId
+  id: LeftOuterJoin_DashboardTileDefinition_SelectionId
+  parent: SuperOffice.CRM.Data.SelectionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_DashboardTileDefinition_SelectionId
+  nameWithType: SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SelectionId
+  fullName: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SelectionId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key SelectionId on this table, to DashboardTileDefinition.<xref href=\"SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SelectionId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<DashboardTileDefinitionTableInfo> LeftOuterJoin_DashboardTileDefinition_SelectionId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_DashboardTileDefinition_SelectionId As TargetedLeftOuterJoin(Of DashboardTileDefinitionTableInfo)
+  overload: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId
+  commentId: P:SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId
+  id: LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId
+  parent: SuperOffice.CRM.Data.SelectionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId
+  nameWithType: SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId
+  fullName: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key SelectionId on this table, to DashboardTileDefinition.<xref href=\"SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SecondarySelectionId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<DashboardTileDefinitionTableInfo> LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId As TargetedLeftOuterJoin(Of DashboardTileDefinitionTableInfo)
+  overload: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId*
   modifiers.csharp:
   - public
   - get
@@ -2708,6 +2836,12 @@ references:
   name: RightSelectionId
   nameWithType: SelectionTableInfo.RightSelectionId
   fullName: SuperOffice.CRM.Data.SelectionTableInfo.RightSelectionId
+- uid: SuperOffice.CRM.Data.SelectionTableInfo.DashboardTileDefinitionId*
+  commentId: Overload:SuperOffice.CRM.Data.SelectionTableInfo.DashboardTileDefinitionId
+  isExternal: true
+  name: DashboardTileDefinitionId
+  nameWithType: SelectionTableInfo.DashboardTileDefinitionId
+  fullName: SuperOffice.CRM.Data.SelectionTableInfo.DashboardTileDefinitionId
 - uid: SuperOffice.CRM.Data.SelectionTableInfo.SystemType*
   commentId: Overload:SuperOffice.CRM.Data.SelectionTableInfo.SystemType
   isExternal: true
@@ -3064,6 +3198,56 @@ references:
   name: RightSelectionId_InnerJoin_Selection
   nameWithType: SelectionTableInfo.RightSelectionId_InnerJoin_Selection
   fullName: SuperOffice.CRM.Data.SelectionTableInfo.RightSelectionId_InnerJoin_Selection
+- uid: SuperOffice.CRM.Data.SelectionTableInfo.DashboardTileDefinitionId_InnerJoin_DashboardTileDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.SelectionTableInfo.DashboardTileDefinitionId_InnerJoin_DashboardTileDefinition
+  isExternal: true
+  name: DashboardTileDefinitionId_InnerJoin_DashboardTileDefinition
+  nameWithType: SelectionTableInfo.DashboardTileDefinitionId_InnerJoin_DashboardTileDefinition
+  fullName: SuperOffice.CRM.Data.SelectionTableInfo.DashboardTileDefinitionId_InnerJoin_DashboardTileDefinition
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<DashboardTileDefinitionTableInfo>
+  nameWithType: TargetedInnerJoin<DashboardTileDefinitionTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of DashboardTileDefinitionTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo)
+  name.vb: TargetedInnerJoin(Of DashboardTileDefinitionTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+    name: DashboardTileDefinitionTableInfo
+    nameWithType: DashboardTileDefinitionTableInfo
+    fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+    name: DashboardTileDefinitionTableInfo
+    nameWithType: DashboardTileDefinitionTableInfo
+    fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.SelectionTableInfo.LastLoadedBy_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.SelectionTableInfo.LastLoadedBy_InnerJoin_Associate
   isExternal: true
@@ -3321,3 +3505,59 @@ references:
   name: LeftOuterJoin_SLink_RemoveContactSelection
   nameWithType: SelectionTableInfo.LeftOuterJoin_SLink_RemoveContactSelection
   fullName: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_SLink_RemoveContactSelection
+- uid: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SelectionId*
+  commentId: Overload:SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SelectionId
+  isExternal: true
+  name: LeftOuterJoin_DashboardTileDefinition_SelectionId
+  nameWithType: SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SelectionId
+  fullName: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SelectionId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<DashboardTileDefinitionTableInfo>
+  nameWithType: TargetedLeftOuterJoin<DashboardTileDefinitionTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of DashboardTileDefinitionTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of DashboardTileDefinitionTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+    name: DashboardTileDefinitionTableInfo
+    nameWithType: DashboardTileDefinitionTableInfo
+    fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+    name: DashboardTileDefinitionTableInfo
+    nameWithType: DashboardTileDefinitionTableInfo
+    fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId*
+  commentId: Overload:SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId
+  isExternal: true
+  name: LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId
+  nameWithType: SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId
+  fullName: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId

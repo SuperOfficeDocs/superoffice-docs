@@ -8,6 +8,7 @@ items:
   - SuperOffice.Data.Dictionary.SoTable.TableKind.CSExtraTable
   - SuperOffice.Data.Dictionary.SoTable.TableKind.PartnerDefined
   - SuperOffice.Data.Dictionary.SoTable.TableKind.System
+  - SuperOffice.Data.Dictionary.SoTable.TableKind.TempTable
   langs:
   - csharp
   - vb
@@ -112,6 +113,34 @@ items:
   summary: "\nExtraTable from Customer Service\n"
   syntax:
     content: CSExtraTable = 2
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable.TableKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Dictionary.SoTable.TableKind.TempTable
+  commentId: F:SuperOffice.Data.Dictionary.SoTable.TableKind.TempTable
+  id: TempTable
+  parent: SuperOffice.Data.Dictionary.SoTable.TableKind
+  langs:
+  - csharp
+  - vb
+  name: TempTable
+  nameWithType: SoTable.TableKind.TempTable
+  fullName: SuperOffice.Data.Dictionary.SoTable.TableKind.TempTable
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nTemporary table, typically used by Mass Upsert\n"
+  syntax:
+    content: TempTable = 3
     return:
       type: SuperOffice.Data.Dictionary.SoTable.TableKind
   modifiers.csharp:

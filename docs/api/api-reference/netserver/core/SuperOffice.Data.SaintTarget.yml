@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.SaintTarget
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nTarget of saint data, contact or project\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.SaintTarget.Contact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nSaint data targeted to Contact\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.SaintTarget.Project
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nSaint data targete to Project\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.SaintTarget.Sale
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nSaint data on sale\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.SaintTarget.Person
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nSaint data on Person, both persons with company and those without\n"
   syntax:

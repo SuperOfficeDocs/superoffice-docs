@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveResultInformation
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nContainer for additional results from an archive provider\n"
   syntax:
@@ -58,10 +58,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveResultInformation.CombineWith(SuperOffice.CRM.ArchiveLists.ArchiveResultInformation)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nCombine the contents of this instance, with another instance\n"
   remarks: "\nThe combination takes into account initialized and un-initialized values, so that\nwe get a proper combination (sum, in case of row count).\n"
@@ -88,10 +88,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveResultInformation.ArchiveResultInformation()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveResultInformation()
@@ -113,10 +113,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveResultInformation.RowCount
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public int RowCount { get; set; }

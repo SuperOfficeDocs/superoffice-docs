@@ -5,6 +5,7 @@ items:
   id: StringHelper
   parent: SuperOffice.Util
   children:
+  - SuperOffice.Util.StringHelper.ConvertDoubledQuotesToBackslashQuote(System.String)
   - SuperOffice.Util.StringHelper.Deinternationalize(System.String)
   - SuperOffice.Util.StringHelper.IsNonEmptyStringMatch(System.String,System.String)
   - SuperOffice.Util.StringHelper.NewlineNormalized(System.String)
@@ -16,10 +17,10 @@ items:
   fullName: SuperOffice.Util.StringHelper
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static class StringHelper
@@ -53,10 +54,10 @@ items:
   fullName: SuperOffice.Util.StringHelper.IsNonEmptyStringMatch(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static bool IsNonEmptyStringMatch(string a, string b)
@@ -75,6 +76,41 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.Util.StringHelper.ConvertDoubledQuotesToBackslashQuote(System.String)
+  commentId: M:SuperOffice.Util.StringHelper.ConvertDoubledQuotesToBackslashQuote(System.String)
+  id: ConvertDoubledQuotesToBackslashQuote(System.String)
+  parent: SuperOffice.Util.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: ConvertDoubledQuotesToBackslashQuote(String)
+  nameWithType: StringHelper.ConvertDoubledQuotesToBackslashQuote(String)
+  fullName: SuperOffice.Util.StringHelper.ConvertDoubledQuotesToBackslashQuote(System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nConverts a string containing &apos;&apos; doubled escaped quotes to \\&apos; backslash escaped quotes\n"
+  syntax:
+    content: public static string ConvertDoubledQuotesToBackslashQuote(string restrictions)
+    parameters:
+    - id: restrictions
+      type: System.String
+      description: '&quot;foo&apos;&apos;bar&quot;'
+    return:
+      type: System.String
+      description: '&quot;foo\&apos;bar&quot;'
+    content.vb: Public Shared Function ConvertDoubledQuotesToBackslashQuote(restrictions As String) As String
+  overload: SuperOffice.Util.StringHelper.ConvertDoubledQuotesToBackslashQuote*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.StringHelper.Deinternationalize(System.String)
   commentId: M:SuperOffice.Util.StringHelper.Deinternationalize(System.String)
   id: Deinternationalize(System.String)
@@ -87,10 +123,10 @@ items:
   fullName: SuperOffice.Util.StringHelper.Deinternationalize(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConverts most letters outside ASCII-range to their ASCII counterparts.\nMake them email-friendly.\n\nØ -> O\nÅ -> A\nÜ -> U\n\nEtc.\n"
   syntax:
@@ -121,10 +157,10 @@ items:
   fullName: SuperOffice.Util.StringHelper.NewlineNormalized(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static string NewlineNormalized(this string source)
@@ -463,6 +499,12 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: SuperOffice.Util.StringHelper.ConvertDoubledQuotesToBackslashQuote*
+  commentId: Overload:SuperOffice.Util.StringHelper.ConvertDoubledQuotesToBackslashQuote
+  isExternal: true
+  name: ConvertDoubledQuotesToBackslashQuote
+  nameWithType: StringHelper.ConvertDoubledQuotesToBackslashQuote
+  fullName: SuperOffice.Util.StringHelper.ConvertDoubledQuotesToBackslashQuote
 - uid: SuperOffice.Util.StringHelper.Deinternationalize*
   commentId: Overload:SuperOffice.Util.StringHelper.Deinternationalize
   isExternal: true

@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Exceptions.SoMassOperationException
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   syntax:
     content: 'public class SoMassOperationException : SoException, ISerializable, _Exception'
@@ -78,10 +78,10 @@ items:
   fullName: SuperOffice.Exceptions.SoMassOperationException.SoMassOperationException(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   syntax:
     content: public SoMassOperationException(string message)

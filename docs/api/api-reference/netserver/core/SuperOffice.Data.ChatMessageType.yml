@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.ChatMessageType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nChat Message type\nThis Enum is used by:  chat_message.type\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.ChatMessageType.Invalid
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Invalid\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.ChatMessageType.ToCustomer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Message is from user agent to customer\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.ChatMessageType.ToUser
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Message is from customer to user agent\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.ChatMessageType.Special
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Special message - see SpecialType field for details\n"
   syntax:

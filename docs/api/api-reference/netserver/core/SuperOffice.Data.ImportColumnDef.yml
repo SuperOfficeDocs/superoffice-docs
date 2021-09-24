@@ -127,10 +127,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nClass containing a dictionary of all import columns available\n"
   syntax:
@@ -165,10 +165,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonFirstname
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonFirstname = "person.firstname"
@@ -193,10 +193,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonMiddlename
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonMiddlename = "person.middlename"
@@ -221,10 +221,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonLastname
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonLastname = "person.lastname"
@@ -249,10 +249,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonFullname
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonFullname = "person.fullname"
@@ -277,10 +277,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonMrmrs
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonMrmrs = "person.mrmrs"
@@ -305,10 +305,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonTitle
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonTitle = "person.title"
@@ -333,10 +333,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonBirthDate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonBirthDate = "person.birthdate"
@@ -361,10 +361,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonEmail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonEmail = "person.email"
@@ -389,10 +389,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonPrivatePhones
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonPrivatePhones = "person.privatephones"
@@ -417,10 +417,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonFaxes
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonFaxes = "person.faxes"
@@ -445,10 +445,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonOther
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonOther = "person.other"
@@ -473,10 +473,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonMobilePhones
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonMobilePhones = "person.mobilephones"
@@ -501,10 +501,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonOfficePhones
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonOfficePhones = "person.officephones"
@@ -529,10 +529,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonPosition
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonPosition = "person.position"
@@ -557,10 +557,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonCountry
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonCountry = "person.country"
@@ -585,10 +585,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonPersonNumber
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonPersonNumber = "person.personnumber"
@@ -613,10 +613,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonNoMailing
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonNoMailing = "person.nomailing"
@@ -641,10 +641,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonUsePersonAddress
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonUsePersonAddress = "person.usepersonaddress"
@@ -669,10 +669,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonUrl
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonUrl = "person.url"
@@ -697,10 +697,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonAddress1
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonAddress1 = "person.address1"
@@ -725,10 +725,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonAddress2
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonAddress2 = "person.address2"
@@ -753,10 +753,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonAddress3
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonAddress3 = "person.address3"
@@ -781,10 +781,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonCity
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonCity = "person.city"
@@ -809,10 +809,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonCounty
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonCounty = "person.county"
@@ -837,10 +837,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonState
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonState = "person.state"
@@ -865,10 +865,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonZipcode
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonZipcode = "person.zipcode"
@@ -893,10 +893,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonWgs84Latitude
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonWgs84Latitude = "person.wgs84latitude"
@@ -921,10 +921,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonWgs84Longitude
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonWgs84Longitude = "person.wgs84longitude"
@@ -949,10 +949,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonBusiness
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonBusiness = "person.business"
@@ -977,10 +977,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonCategory
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonCategory = "person.category"
@@ -1005,10 +1005,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonDepartment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonDepartment = "person.department"
@@ -1033,10 +1033,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonInfo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonInfo = "person.info"
@@ -1061,10 +1061,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonInitials
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonInitials = "person.initials"
@@ -1089,10 +1089,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonInternetPhones
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonInternetPhones = "person.internetphones"
@@ -1117,10 +1117,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonSalutation
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonSalutation = "person.salutation"
@@ -1145,10 +1145,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonChat
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonChat = "person.chat"
@@ -1173,10 +1173,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonInterest
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonInterest = "person.interest"
@@ -1201,10 +1201,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonOurContact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonOurContact = "person.ourcontact"
@@ -1229,10 +1229,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonId = "person.id"
@@ -1257,10 +1257,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonErpPersPos
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonErpPersPos = "person.erpperspos"
@@ -1285,10 +1285,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.PersonRetired
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PersonRetired = "person.retired"
@@ -1313,10 +1313,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactBusiness
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactBusiness = "contact.business"
@@ -1341,10 +1341,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactCategory
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactCategory = "contact.category"
@@ -1369,10 +1369,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactCountry
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactCountry = "contact.country"
@@ -1397,10 +1397,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactDepartment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactDepartment = "contact.department"
@@ -1425,10 +1425,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactEmail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactEmail = "contact.email"
@@ -1453,10 +1453,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactPhone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactPhone = "contact.phone"
@@ -1481,10 +1481,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactFax
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactFax = "contact.fax"
@@ -1509,10 +1509,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactInfo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactInfo = "contact.info"
@@ -1537,10 +1537,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactName = "contact.name"
@@ -1565,10 +1565,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactNoMailing
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactNoMailing = "contact.nomailing"
@@ -1593,10 +1593,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactNumber1
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactNumber1 = "contact.number1"
@@ -1621,10 +1621,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactNumber2
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactNumber2 = "contact.number2"
@@ -1649,10 +1649,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactOrgNr
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactOrgNr = "contact.orgnr"
@@ -1677,10 +1677,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactPostalAddress1
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactPostalAddress1 = "contact.postaladdress1"
@@ -1705,10 +1705,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactPostalAddress2
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactPostalAddress2 = "contact.postaladdress2"
@@ -1733,10 +1733,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactPostalAddress3
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactPostalAddress3 = "contact.postaladdress3"
@@ -1761,10 +1761,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactPostalCity
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactPostalCity = "contact.postalcity"
@@ -1789,10 +1789,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactPostalCounty
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactPostalCounty = "contact.postalcounty"
@@ -1817,10 +1817,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactPostalState
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactPostalState = "contact.postalstate"
@@ -1845,10 +1845,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactPostalZipcode
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactPostalZipcode = "contact.postalzipcode"
@@ -1873,10 +1873,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactPostalWgs84Latitude
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactPostalWgs84Latitude = "contact.postalwgs84latitude"
@@ -1901,10 +1901,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactPostalWgs84Longitude
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactPostalWgs84Longitude = "contact.postalwgs84longitude"
@@ -1929,10 +1929,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactStreetAddress1
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactStreetAddress1 = "contact.streetaddress1"
@@ -1957,10 +1957,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactStreetAddress2
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactStreetAddress2 = "contact.streetaddress2"
@@ -1985,10 +1985,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactStreetAddress3
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactStreetAddress3 = "contact.streetaddress3"
@@ -2013,10 +2013,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactStreetCity
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactStreetCity = "contact.streetcity"
@@ -2041,10 +2041,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactStreetCounty
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactStreetCounty = "contact.streetcounty"
@@ -2069,10 +2069,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactStreetState
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactStreetState = "contact.streetstate"
@@ -2097,10 +2097,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactStreetZipcode
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactStreetZipcode = "contact.streetzipcode"
@@ -2125,10 +2125,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactStreetWgs84Latitude
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactStreetWgs84Latitude = "contact.streetwgs84latitude"
@@ -2153,10 +2153,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactStreetWgs84Longitude
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactStreetWgs84Longitude = "contact.streetwgs84longitude"
@@ -2181,10 +2181,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactUrl
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactUrl = "contact.url"
@@ -2209,10 +2209,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactXstop
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactXstop = "contact.xstop"
@@ -2237,10 +2237,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactInterest
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactInterest = "contact.interest"
@@ -2265,10 +2265,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactOurContact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactOurContact = "contact.ourcontact"
@@ -2293,10 +2293,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactId = "contact.id"
@@ -2321,10 +2321,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactErpBusiness
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactErpBusiness = "contact.erpbusiness"
@@ -2349,10 +2349,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactErpCategory
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactErpCategory = "contact.erpcategory"
@@ -2377,10 +2377,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ContactErpOurContact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ContactErpOurContact = "contact.erpourcontact"
@@ -2405,10 +2405,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductErpProductKey
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductErpProductKey = "product.erpproductkey"
@@ -2433,10 +2433,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductName = "product.name"
@@ -2461,10 +2461,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductDescription
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductDescription = "product.description"
@@ -2489,10 +2489,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductCode
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductCode = "product.code"
@@ -2517,10 +2517,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductQuantityUnit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductQuantityUnit = "product.quantityunit"
@@ -2545,10 +2545,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductPriceUnit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductPriceUnit = "product.priceunit"
@@ -2573,10 +2573,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductIsSubscription
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductIsSubscription = "product.issubscription"
@@ -2601,10 +2601,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductSubscriptionUnit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductSubscriptionUnit = "product.subscriptionunit"
@@ -2629,10 +2629,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductDefaultSubscriptionquantity
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductDefaultSubscriptionquantity = "product.defaultsubscriptionquantity"
@@ -2657,10 +2657,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductItemNumber
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductItemNumber = "product.itemnumber"
@@ -2685,10 +2685,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductUrl
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductUrl = "product.url"
@@ -2713,10 +2713,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductCategory
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductCategory = "product.category"
@@ -2741,10 +2741,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductFamily
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductFamily = "product.family"
@@ -2769,10 +2769,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductType
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductType = "product.type"
@@ -2797,10 +2797,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductVatInfo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductVatInfo = "product.vatinfo"
@@ -2825,10 +2825,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductVat
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductVat = "product.vat"
@@ -2853,10 +2853,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductUnitCost
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductUnitCost = "product.unitcost"
@@ -2881,10 +2881,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductUnitMinimumPrice
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductUnitMinimumPrice = "product.unitminimumprice"
@@ -2909,10 +2909,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductUnitListPrice
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductUnitListPrice = "product.unitlistprice"
@@ -2937,10 +2937,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductExtraInfo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductExtraInfo = "product.extrainfo"
@@ -2965,10 +2965,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductInAssortment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductInAssortment = "product.inassortment"
@@ -2993,10 +2993,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductSupplier
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductSupplier = "product.supplier"
@@ -3021,10 +3021,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductSupplierCode
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductSupplierCode = "product.suppliercode"
@@ -3049,10 +3049,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductRights
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductRights = "product.rights"
@@ -3077,10 +3077,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductRule
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductRule = "product.rule"
@@ -3105,10 +3105,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductExtraField1
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductExtraField1 = "product.extrafield1"
@@ -3133,10 +3133,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductExtraField2
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductExtraField2 = "product.extrafield2"
@@ -3161,10 +3161,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductExtraField3
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductExtraField3 = "product.extrafield3"
@@ -3189,10 +3189,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductExtraField4
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductExtraField4 = "product.extrafield4"
@@ -3217,10 +3217,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductExtraField5
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductExtraField5 = "product.extrafield5"
@@ -3245,10 +3245,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductImage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductImage = "product.image"
@@ -3273,10 +3273,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ProductId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProductId = "product.id"
@@ -3301,10 +3301,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ImportColumns
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public static OrderedDictionary ImportColumns
@@ -3329,10 +3329,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ImportProductColumns
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public static OrderedDictionary ImportProductColumns

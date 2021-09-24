@@ -118,6 +118,7 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.CRM.Rows.IdxBase,SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+  - SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
   - SuperOffice.CRM.Rows.TableRowBase.SetSaveOwner(SuperOffice.Data.INestedPersist)
   - SuperOffice.CRM.Rows.TableRowBase.Save
   - SuperOffice.CRM.Rows.TableRowBase.Delete
@@ -335,10 +336,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.SLinkCustomerStaticalRow.LinkType\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: protected short _persistedLinkType
+    content: protected ShipmentLinkType _persistedLinkType
     return:
-      type: System.Int16
-    content.vb: Protected _persistedLinkType As Short
+      type: SuperOffice.Data.ShipmentLinkType
+    content.vb: Protected _persistedLinkType As ShipmentLinkType
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -551,10 +552,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.SLinkCustomerStaticalRow.LinkType\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: protected short _currentLinkType
+    content: protected ShipmentLinkType _currentLinkType
     return:
-      type: System.Int16
-    content.vb: Protected _currentLinkType As Short
+      type: SuperOffice.Data.ShipmentLinkType
+    content.vb: Protected _currentLinkType As ShipmentLinkType
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1652,14 +1653,14 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: short. If this is a link to a link or an image (gif/jpeg). See SpmLink::LinkType \n"
-  remarks: "\nOriginal type in dictionary:  Bool.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  summary: "\n.NET type: ShipmentLinkType. If this is a link to a link or an image (gif/jpeg). See SpmLink::LinkType \n"
+  remarks: "\nOriginal type in dictionary:  Enum.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
   syntax:
-    content: public virtual short LinkType { get; set; }
+    content: public virtual ShipmentLinkType LinkType { get; set; }
     parameters: []
     return:
-      type: System.Int16
-    content.vb: Public Overridable Property LinkType As Short
+      type: SuperOffice.Data.ShipmentLinkType
+    content.vb: Public Overridable Property LinkType As ShipmentLinkType
   overload: SuperOffice.CRM.Rows.SLinkCustomerStaticalRow.LinkType*
   modifiers.csharp:
   - public
@@ -1864,10 +1865,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.SLinkCustomerStaticalRow.LinkType\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
   syntax:
-    content: protected event OnFieldChange<short> _onLinkTypeChange
+    content: protected event OnFieldChange<ShipmentLinkType> _onLinkTypeChange
     return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onLinkTypeChange As OnFieldChange(Of Short)
+      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.ShipmentLinkType}
+    content.vb: Protected Event _onLinkTypeChange As OnFieldChange(Of ShipmentLinkType)
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -2053,10 +2054,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nEvent raised when LinkType is changing.\n"
   syntax:
-    content: public event OnFieldChange<short> OnLinkTypeChange
+    content: public event OnFieldChange<ShipmentLinkType> OnLinkTypeChange
     return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnLinkTypeChange As OnFieldChange(Of Short)
+      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.ShipmentLinkType}
+    content.vb: Public Event OnLinkTypeChange As OnFieldChange(Of ShipmentLinkType)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -2781,6 +2782,63 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: SetDefaults(DashboardTileDefinitionRow, String)
+  nameWithType: TableRowBase.SetDefaults(DashboardTileDefinitionRow, String)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -4792,13 +4850,13 @@ references:
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
+- uid: SuperOffice.Data.ShipmentLinkType
+  commentId: T:SuperOffice.Data.ShipmentLinkType
+  parent: SuperOffice.Data
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  name: ShipmentLinkType
+  nameWithType: ShipmentLinkType
+  fullName: SuperOffice.Data.ShipmentLinkType
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -5848,16 +5906,16 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+- uid: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.ShipmentLinkType}
+  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.ShipmentLinkType}
   parent: SuperOffice.CRM.Rows
   definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<Int16>
-  nameWithType: OnFieldChange<Int16>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.Int16>
-  nameWithType.vb: OnFieldChange(Of Int16)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.Int16)
-  name.vb: OnFieldChange(Of Int16)
+  name: OnFieldChange<ShipmentLinkType>
+  nameWithType: OnFieldChange<ShipmentLinkType>
+  fullName: SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.ShipmentLinkType>
+  nameWithType.vb: OnFieldChange(Of ShipmentLinkType)
+  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.ShipmentLinkType)
+  name.vb: OnFieldChange(Of ShipmentLinkType)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.OnFieldChange`1
     name: OnFieldChange
@@ -5867,10 +5925,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: System.Int16
-    name: Int16
-    nameWithType: Int16
-    fullName: System.Int16
+  - uid: SuperOffice.Data.ShipmentLinkType
+    name: ShipmentLinkType
+    nameWithType: ShipmentLinkType
+    fullName: SuperOffice.Data.ShipmentLinkType
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -5884,10 +5942,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: System.Int16
-    name: Int16
-    nameWithType: Int16
-    fullName: System.Int16
+  - uid: SuperOffice.Data.ShipmentLinkType
+    name: ShipmentLinkType
+    nameWithType: ShipmentLinkType
+    fullName: SuperOffice.Data.ShipmentLinkType
     isExternal: true
   - name: )
     nameWithType: )

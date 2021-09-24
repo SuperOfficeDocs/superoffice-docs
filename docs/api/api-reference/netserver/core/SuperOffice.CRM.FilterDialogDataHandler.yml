@@ -133,7 +133,7 @@ items:
     content: public static DateTime GetFromDate()
     return:
       type: System.DateTime
-      description: Date of earliest visible activity, always earlier than today
+      description: Date of earliest visible activity, not necessarily earlier than today
     content.vb: Public Shared Function GetFromDate As Date
   overload: SuperOffice.CRM.FilterDialogDataHandler.GetFromDate*
   modifiers.csharp:
@@ -164,7 +164,7 @@ items:
     content: public static DateTime GetToDate()
     return:
       type: System.DateTime
-      description: Date of latest visible activity, always greater than today
+      description: Date of latest visible activity, not necessarily greater than today
     content.vb: Public Shared Function GetToDate As Date
   overload: SuperOffice.CRM.FilterDialogDataHandler.GetToDate*
   modifiers.csharp:

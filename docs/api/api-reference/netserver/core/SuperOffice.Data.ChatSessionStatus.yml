@@ -25,10 +25,10 @@ items:
   fullName: SuperOffice.Data.ChatSessionStatus
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nChat Session status\nThis Enum is used by:  chat_session.status\n"
   syntax:
@@ -57,10 +57,10 @@ items:
   fullName: SuperOffice.Data.ChatSessionStatus.Invalid
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown\n"
   syntax:
@@ -85,10 +85,10 @@ items:
   fullName: SuperOffice.Data.ChatSessionStatus.PreChatForm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: PreChatForm\n"
   syntax:
@@ -113,10 +113,10 @@ items:
   fullName: SuperOffice.Data.ChatSessionStatus.Faq
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: FAQ\n"
   syntax:
@@ -141,10 +141,10 @@ items:
   fullName: SuperOffice.Data.ChatSessionStatus.OfflineForm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: OfflineForm\n"
   syntax:
@@ -169,10 +169,10 @@ items:
   fullName: SuperOffice.Data.ChatSessionStatus.InQueue
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: InQueue - waiting to be picked up\n"
   syntax:
@@ -197,10 +197,10 @@ items:
   fullName: SuperOffice.Data.ChatSessionStatus.CustomerLast
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: CustomerLast - customer wrote last message\n"
   syntax:
@@ -225,10 +225,10 @@ items:
   fullName: SuperOffice.Data.ChatSessionStatus.UserLast
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: UserLast - user agent wrote last message\n"
   syntax:
@@ -253,10 +253,10 @@ items:
   fullName: SuperOffice.Data.ChatSessionStatus.Finished
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: Finished - may be deleted later\n"
   syntax:
@@ -281,10 +281,10 @@ items:
   fullName: SuperOffice.Data.ChatSessionStatus.Deleted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Deleted - ready to delete. Usually cleaned within 24 hrs\n"
   syntax:
@@ -309,10 +309,10 @@ items:
   fullName: SuperOffice.Data.ChatSessionStatus.Closed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n9: Closed\n"
   syntax:
@@ -337,10 +337,10 @@ items:
   fullName: SuperOffice.Data.ChatSessionStatus.RequestPosted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n10: RequestPosted\n"
   syntax:
@@ -365,10 +365,10 @@ items:
   fullName: SuperOffice.Data.ChatSessionStatus.ClosedFromQueue
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n11: ClosedFromQueue\n"
   syntax:

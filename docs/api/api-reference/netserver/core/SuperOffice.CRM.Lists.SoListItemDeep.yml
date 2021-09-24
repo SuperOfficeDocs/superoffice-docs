@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItemDeep
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nDefault ListProvider item\n"
   syntax:
@@ -80,10 +80,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItemDeep.SoListItemDeep(System.Int32, System.String, System.String, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   syntax:
     content: public SoListItemDeep(int Id, string Name, string Tooltip, string ExtraInfo)
@@ -114,10 +114,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItemDeep.SoListItemDeep(SuperOffice.CRM.Lists.ISoListItem)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   syntax:
     content: public SoListItemDeep(ISoListItem item)
@@ -142,10 +142,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItemDeep.SoListItemDeep(SuperOffice.CRM.Lists.ISoListItemDeep)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   syntax:
     content: public SoListItemDeep(ISoListItemDeep item)
@@ -170,10 +170,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItemDeep.SoListItemDeep(System.Int32, System.String, System.String, System.Int16, System.Boolean, System.String, System.Int32, System.String, System.String, System.String, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   syntax:
     content: public SoListItemDeep(int Id, string Name, string Tooltip, short Rank, bool Deleted, string Type, int Color, string IconHint, string StyleHint, string ExtraInfo, string FullName = "")
@@ -218,10 +218,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItemDeep.ChildItems
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n\n"
   syntax:

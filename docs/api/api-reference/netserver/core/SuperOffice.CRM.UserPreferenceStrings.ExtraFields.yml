@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.ExtraFields
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public static class ExtraFields
@@ -53,10 +53,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.ExtraFields.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public const string Section = "ExtraFields"
@@ -81,10 +81,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.ExtraFields.DateTimeBindToDefaultTimeZone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public const string DateTimeBindToDefaultTimeZone = "DateTimeBindToDefaultTimeZone"
@@ -109,10 +109,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.ExtraFields.DateTimeBindToDefaultTimeZone_HardDefault
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public const bool DateTimeBindToDefaultTimeZone_HardDefault = false

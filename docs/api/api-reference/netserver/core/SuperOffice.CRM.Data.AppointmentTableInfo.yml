@@ -83,6 +83,7 @@ items:
   - SuperOffice.CRM.Data.AppointmentTableInfo.MotherAssociateId_InnerJoin_Associate
   - SuperOffice.CRM.Data.AppointmentTableInfo.MotherId
   - SuperOffice.CRM.Data.AppointmentTableInfo.MotherId_InnerJoin_Appointment
+  - SuperOffice.CRM.Data.AppointmentTableInfo.OriginalStartDate
   - SuperOffice.CRM.Data.AppointmentTableInfo.PersonId
   - SuperOffice.CRM.Data.AppointmentTableInfo.PersonId_InnerJoin_Person
   - SuperOffice.CRM.Data.AppointmentTableInfo.PreferredTZLocation
@@ -2865,6 +2866,37 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.OriginalStartDate
+  commentId: P:SuperOffice.CRM.Data.AppointmentTableInfo.OriginalStartDate
+  id: OriginalStartDate
+  parent: SuperOffice.CRM.Data.AppointmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: OriginalStartDate
+  nameWithType: AppointmentTableInfo.OriginalStartDate
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.OriginalStartDate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;original_start_date&apos; in table &apos;appointment&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe original start date for an appointment in a recurring series\n"
+  syntax:
+    content: public DateTimeFieldInfo OriginalStartDate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property OriginalStartDate As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.AppointmentTableInfo.OriginalStartDate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.AppointmentTableInfo.CautionWarning
   commentId: P:SuperOffice.CRM.Data.AppointmentTableInfo.CautionWarning
   id: CautionWarning
@@ -5374,6 +5406,12 @@ references:
   name: CentralserviceVideomeetId
   nameWithType: AppointmentTableInfo.CentralserviceVideomeetId
   fullName: SuperOffice.CRM.Data.AppointmentTableInfo.CentralserviceVideomeetId
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.OriginalStartDate*
+  commentId: Overload:SuperOffice.CRM.Data.AppointmentTableInfo.OriginalStartDate
+  isExternal: true
+  name: OriginalStartDate
+  nameWithType: AppointmentTableInfo.OriginalStartDate
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.OriginalStartDate
 - uid: SuperOffice.CRM.Data.AppointmentTableInfo.CautionWarning*
   commentId: Overload:SuperOffice.CRM.Data.AppointmentTableInfo.CautionWarning
   isExternal: true

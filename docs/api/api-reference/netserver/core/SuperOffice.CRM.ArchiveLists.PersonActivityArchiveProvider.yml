@@ -46,6 +46,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityAppointment
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityToDo
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityDocument
+  - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.IconCommon
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.GetRows(System.String)
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.SetDesiredEntities(System.String[])
@@ -241,6 +242,13 @@ references:
   name: EntityDocument
   nameWithType: ActivityArchiveProviderBase.EntityDocument
   fullName: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityDocument
+- uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.IconCommon
+  commentId: F:SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.IconCommon
+  parent: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase
+  isExternal: true
+  name: IconCommon
+  nameWithType: ActivityArchiveProviderBase.IconCommon
+  fullName: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.IconCommon
 - uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.GetRows(System.String)
   commentId: M:SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.GetRows(System.String)
   parent: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase

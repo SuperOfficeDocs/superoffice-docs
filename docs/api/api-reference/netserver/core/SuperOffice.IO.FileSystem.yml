@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.IO.FileSystem
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nDefault implementation of <xref href=\"SuperOffice.IO.IFileSystem\" data-throw-if-not-resolved=\"false\"></xref>.\nThis implementation proxies all method-calls to the corresponding classes\nand methods in the System.IO-namespace.\n"
   syntax:
@@ -71,10 +71,10 @@ items:
   fullName: SuperOffice.IO.FileSystem.ReadAllText(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   syntax:
     content: public string ReadAllText(string fileName)
@@ -103,10 +103,10 @@ items:
   fullName: SuperOffice.IO.FileSystem.FileExists(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   syntax:
     content: public bool FileExists(string fileName)
@@ -135,10 +135,10 @@ items:
   fullName: SuperOffice.IO.FileSystem.FileSystem()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   syntax:
     content: public FileSystem()

@@ -13,10 +13,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nPublic string constants for the Archive List system\n"
   remarks: "\nThis class contains a number of subclasses, that define &apos;sections&apos; of strings. Within each subclass you will find a number\nof string constants that are used in the Archive List system - display and restriction data types, icon hints etc.\n<p></p>\nOther constants, such as (the main) column names can be found in type archive row classes, for instance in <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveActivityRow\" data-throw-if-not-resolved=\"false\"></xref>.\n"

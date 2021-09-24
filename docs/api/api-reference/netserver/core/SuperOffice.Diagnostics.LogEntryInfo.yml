@@ -22,10 +22,10 @@ items:
   fullName: SuperOffice.Diagnostics.LogEntryInfo
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nClass representing an issue that can be logged\n"
   example:
@@ -67,10 +67,10 @@ items:
   fullName: SuperOffice.Diagnostics.LogEntryInfo.LogEntryInfo()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nThis constructor is only to be used by the serializer!\n"
   syntax:
@@ -93,10 +93,10 @@ items:
   fullName: SuperOffice.Diagnostics.LogEntryInfo.LogEntryInfo(System.Diagnostics.EventLogEntryType)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nDefault constructor.\n"
   syntax:
@@ -123,10 +123,10 @@ items:
   fullName: SuperOffice.Diagnostics.LogEntryInfo.LogEntryInfo(System.Diagnostics.EventLogEntryType, System.Exception)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nDefault constructor. \n"
   syntax:
@@ -156,10 +156,10 @@ items:
   fullName: SuperOffice.Diagnostics.LogEntryInfo.LogEntryInfo(System.Diagnostics.EventLogEntryType, SuperOffice.Exceptions.SoExceptionInfo)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public LogEntryInfo(EventLogEntryType logType, SoExceptionInfo exception)
@@ -186,10 +186,10 @@ items:
   fullName: SuperOffice.Diagnostics.LogEntryInfo.AddElement(System.Type, System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nAdd information to the issue.\n"
   syntax:
@@ -222,10 +222,10 @@ items:
   fullName: SuperOffice.Diagnostics.LogEntryInfo.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nGet a string containing the entire errormessage.\n"
   syntax:
@@ -254,10 +254,10 @@ items:
   fullName: SuperOffice.Diagnostics.LogEntryInfo.EnvironmentInfo
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nName and value pair collection holding a snapshot of information that can \nrelevant to the issue, taken at the moment immediately preceding the \noccurrence of the issue.\n"
   syntax:
@@ -285,10 +285,10 @@ items:
   fullName: SuperOffice.Diagnostics.LogEntryInfo.LogEntryType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nEvent type.\n"
   syntax:
@@ -316,10 +316,10 @@ items:
   fullName: SuperOffice.Diagnostics.LogEntryInfo.LogElement
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nInformation about the issue\n"
   syntax:

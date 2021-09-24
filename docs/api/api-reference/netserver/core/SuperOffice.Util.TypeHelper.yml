@@ -29,10 +29,10 @@ items:
   fullName: SuperOffice.Util.TypeHelper
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nUtility/Extension class to assist analysis of data-types when doing reflection-code.\n"
   syntax:
@@ -68,10 +68,10 @@ items:
   fullName: SuperOffice.Util.TypeHelper.IsEnumerable(System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nChecks if the instance represents an enumerable type.\n<remarks>\nWhile <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> technically is an enumerable of char, it will\nnot be reported as an enumerable type.\n</remarks>\n"
   syntax:
@@ -107,10 +107,10 @@ items:
   fullName: SuperOffice.Util.TypeHelper.IsEnumerable(System.Type, out System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nChecks if the instance represents an enumerable type and attempts to\ndiscover the type it enumerates over.\n<remarks>\nWhile <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> technically is an enumerable of char, it will\nnot be reported as an enumerable type.\n</remarks>\n"
   syntax:
@@ -152,10 +152,10 @@ items:
   fullName: SuperOffice.Util.TypeHelper.IsDictionary(System.Type, out System.Type, out System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nChecks is the instance repesent an generic dictionary and attempts to discover the types used for its key/value-pairs.\n"
   syntax:
@@ -200,10 +200,10 @@ items:
   fullName: SuperOffice.Util.TypeHelper.IsGenericIDictionary(System.Type, out System.Type, out System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nChecks is the instance repesent an generic dictionary and attempts to discover the types used for its key/value-pairs.\n"
   syntax:
@@ -248,10 +248,10 @@ items:
   fullName: SuperOffice.Util.TypeHelper.IsNonGenericIDictionary(System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nChecks is the instance repesent an non-generic dictionary.\n"
   syntax:
@@ -287,10 +287,10 @@ items:
   fullName: SuperOffice.Util.TypeHelper.IsGenericEnumerable(System.Type, out System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nChecks is the instance repesent an generic enemurable and attempts to discover the type it\nenumerates over.\n"
   syntax:
@@ -332,10 +332,10 @@ items:
   fullName: SuperOffice.Util.TypeHelper.IsNongenericEnumerable(System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nChecks is the instance repesent an non-generic IEnumerable.\n<remarks>\nWhile <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> technically is an enumerable of char, it will\nnot be reported as an enumerable type.\n</remarks>\n"
   syntax:
@@ -371,10 +371,10 @@ items:
   fullName: SuperOffice.Util.TypeHelper.IsGenericIList(System.Type, out System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nChecks is the instance repesent an generic List and attempts to discover the type it\nenumerates over.\n"
   syntax:
@@ -416,10 +416,10 @@ items:
   fullName: SuperOffice.Util.TypeHelper.IsNongenericIList(System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nChecks is the instance repesent an non-generic IList.\n"
   syntax:
@@ -455,10 +455,10 @@ items:
   fullName: SuperOffice.Util.TypeHelper.GetPublicReadableProperties(System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGets the public, readable instance-properties of a type.\n"
   syntax:
@@ -494,10 +494,10 @@ items:
   fullName: SuperOffice.Util.TypeHelper.IsSimple(System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nDetermines if the type represents a simple/primitive type.\n"
   syntax:
@@ -533,10 +533,10 @@ items:
   fullName: SuperOffice.Util.TypeHelper.IsDecimalNumber(System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nDetermins if the type represents a type which can represent decimal nubers.\n"
   syntax:
@@ -572,10 +572,10 @@ items:
   fullName: SuperOffice.Util.TypeHelper.IsNullable(System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nDetermines if the provided type is a Nullable one.\n"
   syntax:
@@ -609,10 +609,10 @@ items:
   fullName: SuperOffice.Util.TypeHelper.IsComplex(System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nDetermines if the type represents a complex type.\n"
   syntax:
@@ -648,10 +648,10 @@ items:
   fullName: SuperOffice.Util.TypeHelper.GetAllInterfaces(System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGets all interfaces implemented by the type.\nThis may includes the type itself it if itself is an interface.\n"
   syntax:
@@ -685,10 +685,10 @@ items:
   fullName: SuperOffice.Util.TypeHelper.CreateDefaultEntity(System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nSafely creates a default-value for the specified type.\n"
   syntax:

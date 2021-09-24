@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Threading.ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nThis class provides a thread-per-operation execution model, where (in principle) a new\nthread is spawned and immediately starts executing for each asynchronous operation. The\nnumber of threads is limited by configuration information, and callers will block once\nthe limit is reached.\n"
   syntax:
@@ -78,10 +78,10 @@ items:
   fullName: SuperOffice.Threading.ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ThreadPerOperationBase()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nConstructor, only called from derived classes\n"
   syntax:
@@ -106,10 +106,10 @@ items:
   fullName: SuperOffice.Threading.ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nScheduling strategy method, provides the basic &quot;queue and process in FIFO order&quot; strategy\n"
   remarks: "\nThread number limiting is a global responsibility, handled by the <xref href=\"SuperOffice.Threading.ThreadManager\" data-throw-if-not-resolved=\"false\"></xref>\nclass. It will block if no thread slots are available.\n"

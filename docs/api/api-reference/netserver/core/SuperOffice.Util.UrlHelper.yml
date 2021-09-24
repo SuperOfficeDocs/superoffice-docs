@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Util.UrlHelper
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nClass to assist working with URLs.\n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.Util.UrlHelper.ResolveApplicationRoot(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nTry to resolve a the application-root url based on a pre-provided URL stem which may or may not \ncontain noise.\n\nExample of usage is asking user for URL to the CRM website.\nThe user will typically copy paste from the browser:\nhttp://server.com/virtualdir/default.aspx?lotsOfParameters\n\nThey may copy things from config-files\nhttp://server.com/virtualdir/remote/Services75\n\nOr the link may actually be correctly formatted:\nhttp://server.com/virtualdir/\n\nFrom any of these inputs we want to be able find the appliaction root.\n"
   syntax:
@@ -87,10 +87,10 @@ items:
   fullName: SuperOffice.Util.UrlHelper.Combine(System.String, System.String, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nSafely appends one URL-segment on to another.\nThis involves validating the individual URL parts and possibly throwing on invalid data or combinations of parts.\n"
   syntax:
@@ -126,10 +126,10 @@ items:
   fullName: SuperOffice.Util.UrlHelper.ResolveServiceUrl(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nResolve the location of a service based on a URL which represents a part of the current\napplication, and which may contains &quot;noise&quot;.\n"
   syntax:

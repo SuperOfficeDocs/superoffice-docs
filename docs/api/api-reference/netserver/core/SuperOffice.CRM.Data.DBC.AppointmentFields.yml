@@ -32,6 +32,7 @@ items:
   - SuperOffice.CRM.Data.DBC.AppointmentFields.Location
   - SuperOffice.CRM.Data.DBC.AppointmentFields.MotherAssociateId
   - SuperOffice.CRM.Data.DBC.AppointmentFields.MotherId
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.OriginalStartDate
   - SuperOffice.CRM.Data.DBC.AppointmentFields.PersonId
   - SuperOffice.CRM.Data.DBC.AppointmentFields.PreferredTZLocation
   - SuperOffice.CRM.Data.DBC.AppointmentFields.PriorityIdx
@@ -1475,6 +1476,35 @@ items:
     return:
       type: System.String
     content.vb: Public Const CentralserviceVideomeetId As String = "centralservice_videomeet_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.OriginalStartDate
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.OriginalStartDate
+  id: OriginalStartDate
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: OriginalStartDate
+  nameWithType: DBC.AppointmentFields.OriginalStartDate
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.OriginalStartDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.OriginalStartDate: The original start date for an appointment in a recurring series\n"
+  syntax:
+    content: public const string OriginalStartDate = "original_start_date"
+    return:
+      type: System.String
+    content.vb: Public Const OriginalStartDate As String = "original_start_date"
   modifiers.csharp:
   - public
   - const

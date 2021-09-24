@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.DocTmplDirection
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValue for field &apos;direction&apos; in table &apos;doctmpl&apos;.\nThis Enum is used by:  DocTmpl.direction\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.DocTmplDirection.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: The direction of documents from this template is unknown/undecided\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.DocTmplDirection.Incoming
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Document template for incoming documents\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.DocTmplDirection.Outgoing
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Document template is used for outgoing documents\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.DocTmplDirection.SaintAll
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: All&apos; choice for Saint. This is NOT an acceptable value for a task definition, but is used by the Saint system for indexing all directions\n"
   syntax:

@@ -10,6 +10,12 @@ items:
   - SuperOffice.CRM.Rows.ChatTopicRow._currentAlertTemplate
   - SuperOffice.CRM.Rows.ChatTopicRow._currentAlertTimeout
   - SuperOffice.CRM.Rows.ChatTopicRow._currentBadgeHeader
+  - SuperOffice.CRM.Rows.ChatTopicRow._currentBotEnabled
+  - SuperOffice.CRM.Rows.ChatTopicRow._currentBotMessageReceivedScriptid
+  - SuperOffice.CRM.Rows.ChatTopicRow._currentBotName
+  - SuperOffice.CRM.Rows.ChatTopicRow._currentBotRegisterScriptid
+  - SuperOffice.CRM.Rows.ChatTopicRow._currentBotSessionChangedScriptid
+  - SuperOffice.CRM.Rows.ChatTopicRow._currentBotSessionCreatedScriptid
   - SuperOffice.CRM.Rows.ChatTopicRow._currentCategoryId
   - SuperOffice.CRM.Rows.ChatTopicRow._currentChatTopicId
   - SuperOffice.CRM.Rows.ChatTopicRow._currentCustomQueueText
@@ -21,6 +27,8 @@ items:
   - SuperOffice.CRM.Rows.ChatTopicRow._currentKbCategoryId
   - SuperOffice.CRM.Rows.ChatTopicRow._currentLanguageId
   - SuperOffice.CRM.Rows.ChatTopicRow._currentLastAccept
+  - SuperOffice.CRM.Rows.ChatTopicRow._currentLunchStart
+  - SuperOffice.CRM.Rows.ChatTopicRow._currentLunchStop
   - SuperOffice.CRM.Rows.ChatTopicRow._currentManagerWarningNewChat
   - SuperOffice.CRM.Rows.ChatTopicRow._currentMonEnabled
   - SuperOffice.CRM.Rows.ChatTopicRow._currentMonStart
@@ -41,12 +49,14 @@ items:
   - SuperOffice.CRM.Rows.ChatTopicRow._currentTueStart
   - SuperOffice.CRM.Rows.ChatTopicRow._currentTueStop
   - SuperOffice.CRM.Rows.ChatTopicRow._currentTzLocationId
+  - SuperOffice.CRM.Rows.ChatTopicRow._currentUseLunchHours
   - SuperOffice.CRM.Rows.ChatTopicRow._currentUseOpeningHours
   - SuperOffice.CRM.Rows.ChatTopicRow._currentWarningNewChat
   - SuperOffice.CRM.Rows.ChatTopicRow._currentWedEnabled
   - SuperOffice.CRM.Rows.ChatTopicRow._currentWedStart
   - SuperOffice.CRM.Rows.ChatTopicRow._currentWedStop
   - SuperOffice.CRM.Rows.ChatTopicRow._currentWelcomeMessage
+  - SuperOffice.CRM.Rows.ChatTopicRow._currentWidgetAgentUseFirstname
   - SuperOffice.CRM.Rows.ChatTopicRow._currentWidgetAutoFaq
   - SuperOffice.CRM.Rows.ChatTopicRow._currentWidgetColor
   - SuperOffice.CRM.Rows.ChatTopicRow._currentWidgetEnableTicket
@@ -71,6 +81,12 @@ items:
   - SuperOffice.CRM.Rows.ChatTopicRow._onAlertTemplateChange
   - SuperOffice.CRM.Rows.ChatTopicRow._onAlertTimeoutChange
   - SuperOffice.CRM.Rows.ChatTopicRow._onBadgeHeaderChange
+  - SuperOffice.CRM.Rows.ChatTopicRow._onBotEnabledChange
+  - SuperOffice.CRM.Rows.ChatTopicRow._onBotMessageReceivedScriptidChange
+  - SuperOffice.CRM.Rows.ChatTopicRow._onBotNameChange
+  - SuperOffice.CRM.Rows.ChatTopicRow._onBotRegisterScriptidChange
+  - SuperOffice.CRM.Rows.ChatTopicRow._onBotSessionChangedScriptidChange
+  - SuperOffice.CRM.Rows.ChatTopicRow._onBotSessionCreatedScriptidChange
   - SuperOffice.CRM.Rows.ChatTopicRow._onCategoryIdChange
   - SuperOffice.CRM.Rows.ChatTopicRow._onCustomQueueTextChange
   - SuperOffice.CRM.Rows.ChatTopicRow._onDescriptionChange
@@ -81,6 +97,8 @@ items:
   - SuperOffice.CRM.Rows.ChatTopicRow._onKbCategoryIdChange
   - SuperOffice.CRM.Rows.ChatTopicRow._onLanguageIdChange
   - SuperOffice.CRM.Rows.ChatTopicRow._onLastAcceptChange
+  - SuperOffice.CRM.Rows.ChatTopicRow._onLunchStartChange
+  - SuperOffice.CRM.Rows.ChatTopicRow._onLunchStopChange
   - SuperOffice.CRM.Rows.ChatTopicRow._onManagerWarningNewChatChange
   - SuperOffice.CRM.Rows.ChatTopicRow._onMonEnabledChange
   - SuperOffice.CRM.Rows.ChatTopicRow._onMonStartChange
@@ -101,12 +119,14 @@ items:
   - SuperOffice.CRM.Rows.ChatTopicRow._onTueStartChange
   - SuperOffice.CRM.Rows.ChatTopicRow._onTueStopChange
   - SuperOffice.CRM.Rows.ChatTopicRow._onTzLocationIdChange
+  - SuperOffice.CRM.Rows.ChatTopicRow._onUseLunchHoursChange
   - SuperOffice.CRM.Rows.ChatTopicRow._onUseOpeningHoursChange
   - SuperOffice.CRM.Rows.ChatTopicRow._onWarningNewChatChange
   - SuperOffice.CRM.Rows.ChatTopicRow._onWedEnabledChange
   - SuperOffice.CRM.Rows.ChatTopicRow._onWedStartChange
   - SuperOffice.CRM.Rows.ChatTopicRow._onWedStopChange
   - SuperOffice.CRM.Rows.ChatTopicRow._onWelcomeMessageChange
+  - SuperOffice.CRM.Rows.ChatTopicRow._onWidgetAgentUseFirstnameChange
   - SuperOffice.CRM.Rows.ChatTopicRow._onWidgetAutoFaqChange
   - SuperOffice.CRM.Rows.ChatTopicRow._onWidgetColorChange
   - SuperOffice.CRM.Rows.ChatTopicRow._onWidgetEnableTicketChange
@@ -131,6 +151,12 @@ items:
   - SuperOffice.CRM.Rows.ChatTopicRow._persistedAlertTemplate
   - SuperOffice.CRM.Rows.ChatTopicRow._persistedAlertTimeout
   - SuperOffice.CRM.Rows.ChatTopicRow._persistedBadgeHeader
+  - SuperOffice.CRM.Rows.ChatTopicRow._persistedBotEnabled
+  - SuperOffice.CRM.Rows.ChatTopicRow._persistedBotMessageReceivedScriptid
+  - SuperOffice.CRM.Rows.ChatTopicRow._persistedBotName
+  - SuperOffice.CRM.Rows.ChatTopicRow._persistedBotRegisterScriptid
+  - SuperOffice.CRM.Rows.ChatTopicRow._persistedBotSessionChangedScriptid
+  - SuperOffice.CRM.Rows.ChatTopicRow._persistedBotSessionCreatedScriptid
   - SuperOffice.CRM.Rows.ChatTopicRow._persistedCategoryId
   - SuperOffice.CRM.Rows.ChatTopicRow._persistedChatTopicId
   - SuperOffice.CRM.Rows.ChatTopicRow._persistedCustomQueueText
@@ -142,6 +168,8 @@ items:
   - SuperOffice.CRM.Rows.ChatTopicRow._persistedKbCategoryId
   - SuperOffice.CRM.Rows.ChatTopicRow._persistedLanguageId
   - SuperOffice.CRM.Rows.ChatTopicRow._persistedLastAccept
+  - SuperOffice.CRM.Rows.ChatTopicRow._persistedLunchStart
+  - SuperOffice.CRM.Rows.ChatTopicRow._persistedLunchStop
   - SuperOffice.CRM.Rows.ChatTopicRow._persistedManagerWarningNewChat
   - SuperOffice.CRM.Rows.ChatTopicRow._persistedMonEnabled
   - SuperOffice.CRM.Rows.ChatTopicRow._persistedMonStart
@@ -162,12 +190,14 @@ items:
   - SuperOffice.CRM.Rows.ChatTopicRow._persistedTueStart
   - SuperOffice.CRM.Rows.ChatTopicRow._persistedTueStop
   - SuperOffice.CRM.Rows.ChatTopicRow._persistedTzLocationId
+  - SuperOffice.CRM.Rows.ChatTopicRow._persistedUseLunchHours
   - SuperOffice.CRM.Rows.ChatTopicRow._persistedUseOpeningHours
   - SuperOffice.CRM.Rows.ChatTopicRow._persistedWarningNewChat
   - SuperOffice.CRM.Rows.ChatTopicRow._persistedWedEnabled
   - SuperOffice.CRM.Rows.ChatTopicRow._persistedWedStart
   - SuperOffice.CRM.Rows.ChatTopicRow._persistedWedStop
   - SuperOffice.CRM.Rows.ChatTopicRow._persistedWelcomeMessage
+  - SuperOffice.CRM.Rows.ChatTopicRow._persistedWidgetAgentUseFirstname
   - SuperOffice.CRM.Rows.ChatTopicRow._persistedWidgetAutoFaq
   - SuperOffice.CRM.Rows.ChatTopicRow._persistedWidgetColor
   - SuperOffice.CRM.Rows.ChatTopicRow._persistedWidgetEnableTicket
@@ -192,6 +222,12 @@ items:
   - SuperOffice.CRM.Rows.ChatTopicRow.AlertTemplate
   - SuperOffice.CRM.Rows.ChatTopicRow.AlertTimeout
   - SuperOffice.CRM.Rows.ChatTopicRow.BadgeHeader
+  - SuperOffice.CRM.Rows.ChatTopicRow.BotEnabled
+  - SuperOffice.CRM.Rows.ChatTopicRow.BotMessageReceivedScriptid
+  - SuperOffice.CRM.Rows.ChatTopicRow.BotName
+  - SuperOffice.CRM.Rows.ChatTopicRow.BotRegisterScriptid
+  - SuperOffice.CRM.Rows.ChatTopicRow.BotSessionChangedScriptid
+  - SuperOffice.CRM.Rows.ChatTopicRow.BotSessionCreatedScriptid
   - SuperOffice.CRM.Rows.ChatTopicRow.CategoryId
   - SuperOffice.CRM.Rows.ChatTopicRow.ChatTopicId
   - SuperOffice.CRM.Rows.ChatTopicRow.ChatTopicTableInfo
@@ -217,6 +253,8 @@ items:
   - SuperOffice.CRM.Rows.ChatTopicRow.KbCategoryId
   - SuperOffice.CRM.Rows.ChatTopicRow.LanguageId
   - SuperOffice.CRM.Rows.ChatTopicRow.LastAccept
+  - SuperOffice.CRM.Rows.ChatTopicRow.LunchStart
+  - SuperOffice.CRM.Rows.ChatTopicRow.LunchStop
   - SuperOffice.CRM.Rows.ChatTopicRow.ManagerWarningNewChat
   - SuperOffice.CRM.Rows.ChatTopicRow.MonEnabled
   - SuperOffice.CRM.Rows.ChatTopicRow.MonStart
@@ -226,6 +264,12 @@ items:
   - SuperOffice.CRM.Rows.ChatTopicRow.OnAlertTemplateChange
   - SuperOffice.CRM.Rows.ChatTopicRow.OnAlertTimeoutChange
   - SuperOffice.CRM.Rows.ChatTopicRow.OnBadgeHeaderChange
+  - SuperOffice.CRM.Rows.ChatTopicRow.OnBotEnabledChange
+  - SuperOffice.CRM.Rows.ChatTopicRow.OnBotMessageReceivedScriptidChange
+  - SuperOffice.CRM.Rows.ChatTopicRow.OnBotNameChange
+  - SuperOffice.CRM.Rows.ChatTopicRow.OnBotRegisterScriptidChange
+  - SuperOffice.CRM.Rows.ChatTopicRow.OnBotSessionChangedScriptidChange
+  - SuperOffice.CRM.Rows.ChatTopicRow.OnBotSessionCreatedScriptidChange
   - SuperOffice.CRM.Rows.ChatTopicRow.OnCategoryIdChange
   - SuperOffice.CRM.Rows.ChatTopicRow.OnCustomQueueTextChange
   - SuperOffice.CRM.Rows.ChatTopicRow.OnDescriptionChange
@@ -237,6 +281,8 @@ items:
   - SuperOffice.CRM.Rows.ChatTopicRow.OnLanguageIdChange
   - SuperOffice.CRM.Rows.ChatTopicRow.OnLastAcceptChange
   - SuperOffice.CRM.Rows.ChatTopicRow.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.CRM.Rows.ChatTopicRow.OnLunchStartChange
+  - SuperOffice.CRM.Rows.ChatTopicRow.OnLunchStopChange
   - SuperOffice.CRM.Rows.ChatTopicRow.OnManagerWarningNewChatChange
   - SuperOffice.CRM.Rows.ChatTopicRow.OnMonEnabledChange
   - SuperOffice.CRM.Rows.ChatTopicRow.OnMonStartChange
@@ -259,12 +305,14 @@ items:
   - SuperOffice.CRM.Rows.ChatTopicRow.OnTueStartChange
   - SuperOffice.CRM.Rows.ChatTopicRow.OnTueStopChange
   - SuperOffice.CRM.Rows.ChatTopicRow.OnTzLocationIdChange
+  - SuperOffice.CRM.Rows.ChatTopicRow.OnUseLunchHoursChange
   - SuperOffice.CRM.Rows.ChatTopicRow.OnUseOpeningHoursChange
   - SuperOffice.CRM.Rows.ChatTopicRow.OnWarningNewChatChange
   - SuperOffice.CRM.Rows.ChatTopicRow.OnWedEnabledChange
   - SuperOffice.CRM.Rows.ChatTopicRow.OnWedStartChange
   - SuperOffice.CRM.Rows.ChatTopicRow.OnWedStopChange
   - SuperOffice.CRM.Rows.ChatTopicRow.OnWelcomeMessageChange
+  - SuperOffice.CRM.Rows.ChatTopicRow.OnWidgetAgentUseFirstnameChange
   - SuperOffice.CRM.Rows.ChatTopicRow.OnWidgetAutoFaqChange
   - SuperOffice.CRM.Rows.ChatTopicRow.OnWidgetColorChange
   - SuperOffice.CRM.Rows.ChatTopicRow.OnWidgetEnableTicketChange
@@ -306,6 +354,7 @@ items:
   - SuperOffice.CRM.Rows.ChatTopicRow.TueStart
   - SuperOffice.CRM.Rows.ChatTopicRow.TueStop
   - SuperOffice.CRM.Rows.ChatTopicRow.TzLocationId
+  - SuperOffice.CRM.Rows.ChatTopicRow.UseLunchHours
   - SuperOffice.CRM.Rows.ChatTopicRow.UseOpeningHours
   - SuperOffice.CRM.Rows.ChatTopicRow.Validate(SuperOffice.CRM.Rows.RowValidator)
   - SuperOffice.CRM.Rows.ChatTopicRow.WarningNewChat
@@ -313,6 +362,7 @@ items:
   - SuperOffice.CRM.Rows.ChatTopicRow.WedStart
   - SuperOffice.CRM.Rows.ChatTopicRow.WedStop
   - SuperOffice.CRM.Rows.ChatTopicRow.WelcomeMessage
+  - SuperOffice.CRM.Rows.ChatTopicRow.WidgetAgentUseFirstname
   - SuperOffice.CRM.Rows.ChatTopicRow.WidgetAutoFaq
   - SuperOffice.CRM.Rows.ChatTopicRow.WidgetColor
   - SuperOffice.CRM.Rows.ChatTopicRow.WidgetEnableTicket
@@ -383,6 +433,7 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.CRM.Rows.IdxBase,SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+  - SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
   - SuperOffice.CRM.Rows.TableRowBase.SetSaveOwner(SuperOffice.Data.INestedPersist)
   - SuperOffice.CRM.Rows.TableRowBase.Save
   - SuperOffice.CRM.Rows.TableRowBase.Delete
@@ -2093,6 +2144,276 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._persistedBotEnabled
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRow._persistedBotEnabled
+  id: _persistedBotEnabled
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedBotEnabled
+  nameWithType: ChatTopicRow._persistedBotEnabled
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._persistedBotEnabled
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.BotEnabled\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected short _persistedBotEnabled
+    return:
+      type: System.Int16
+    content.vb: Protected _persistedBotEnabled As Short
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._persistedBotName
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRow._persistedBotName
+  id: _persistedBotName
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedBotName
+  nameWithType: ChatTopicRow._persistedBotName
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._persistedBotName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.BotName\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected string _persistedBotName
+    return:
+      type: System.String
+    content.vb: Protected _persistedBotName As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._persistedBotRegisterScriptid
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRow._persistedBotRegisterScriptid
+  id: _persistedBotRegisterScriptid
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedBotRegisterScriptid
+  nameWithType: ChatTopicRow._persistedBotRegisterScriptid
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._persistedBotRegisterScriptid
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.BotRegisterScriptid\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _persistedBotRegisterScriptid
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedBotRegisterScriptid As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._persistedBotSessionCreatedScriptid
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRow._persistedBotSessionCreatedScriptid
+  id: _persistedBotSessionCreatedScriptid
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedBotSessionCreatedScriptid
+  nameWithType: ChatTopicRow._persistedBotSessionCreatedScriptid
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._persistedBotSessionCreatedScriptid
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.BotSessionCreatedScriptid\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _persistedBotSessionCreatedScriptid
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedBotSessionCreatedScriptid As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._persistedBotSessionChangedScriptid
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRow._persistedBotSessionChangedScriptid
+  id: _persistedBotSessionChangedScriptid
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedBotSessionChangedScriptid
+  nameWithType: ChatTopicRow._persistedBotSessionChangedScriptid
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._persistedBotSessionChangedScriptid
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.BotSessionChangedScriptid\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _persistedBotSessionChangedScriptid
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedBotSessionChangedScriptid As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._persistedBotMessageReceivedScriptid
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRow._persistedBotMessageReceivedScriptid
+  id: _persistedBotMessageReceivedScriptid
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedBotMessageReceivedScriptid
+  nameWithType: ChatTopicRow._persistedBotMessageReceivedScriptid
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._persistedBotMessageReceivedScriptid
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.BotMessageReceivedScriptid\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _persistedBotMessageReceivedScriptid
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedBotMessageReceivedScriptid As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._persistedUseLunchHours
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRow._persistedUseLunchHours
+  id: _persistedUseLunchHours
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedUseLunchHours
+  nameWithType: ChatTopicRow._persistedUseLunchHours
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._persistedUseLunchHours
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.UseLunchHours\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected short _persistedUseLunchHours
+    return:
+      type: System.Int16
+    content.vb: Protected _persistedUseLunchHours As Short
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._persistedLunchStart
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRow._persistedLunchStart
+  id: _persistedLunchStart
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedLunchStart
+  nameWithType: ChatTopicRow._persistedLunchStart
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._persistedLunchStart
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.LunchStart\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected DateTime _persistedLunchStart
+    return:
+      type: System.DateTime
+    content.vb: Protected _persistedLunchStart As Date
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._persistedLunchStop
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRow._persistedLunchStop
+  id: _persistedLunchStop
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedLunchStop
+  nameWithType: ChatTopicRow._persistedLunchStop
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._persistedLunchStop
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.LunchStop\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected DateTime _persistedLunchStop
+    return:
+      type: System.DateTime
+    content.vb: Protected _persistedLunchStop As Date
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._persistedWidgetAgentUseFirstname
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRow._persistedWidgetAgentUseFirstname
+  id: _persistedWidgetAgentUseFirstname
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedWidgetAgentUseFirstname
+  nameWithType: ChatTopicRow._persistedWidgetAgentUseFirstname
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._persistedWidgetAgentUseFirstname
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.WidgetAgentUseFirstname\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected short _persistedWidgetAgentUseFirstname
+    return:
+      type: System.Int16
+    content.vb: Protected _persistedWidgetAgentUseFirstname As Short
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.ChatTopicRow._currentChatTopicId
   commentId: F:SuperOffice.CRM.Rows.ChatTopicRow._currentChatTopicId
   id: _currentChatTopicId
@@ -3740,6 +4061,276 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._currentBotEnabled
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRow._currentBotEnabled
+  id: _currentBotEnabled
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _currentBotEnabled
+  nameWithType: ChatTopicRow._currentBotEnabled
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._currentBotEnabled
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.BotEnabled\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected short _currentBotEnabled
+    return:
+      type: System.Int16
+    content.vb: Protected _currentBotEnabled As Short
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._currentBotName
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRow._currentBotName
+  id: _currentBotName
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _currentBotName
+  nameWithType: ChatTopicRow._currentBotName
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._currentBotName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.BotName\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected string _currentBotName
+    return:
+      type: System.String
+    content.vb: Protected _currentBotName As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._currentBotRegisterScriptid
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRow._currentBotRegisterScriptid
+  id: _currentBotRegisterScriptid
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _currentBotRegisterScriptid
+  nameWithType: ChatTopicRow._currentBotRegisterScriptid
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._currentBotRegisterScriptid
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.BotRegisterScriptid\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _currentBotRegisterScriptid
+    return:
+      type: System.Int32
+    content.vb: Protected _currentBotRegisterScriptid As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._currentBotSessionCreatedScriptid
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRow._currentBotSessionCreatedScriptid
+  id: _currentBotSessionCreatedScriptid
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _currentBotSessionCreatedScriptid
+  nameWithType: ChatTopicRow._currentBotSessionCreatedScriptid
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._currentBotSessionCreatedScriptid
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.BotSessionCreatedScriptid\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _currentBotSessionCreatedScriptid
+    return:
+      type: System.Int32
+    content.vb: Protected _currentBotSessionCreatedScriptid As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._currentBotSessionChangedScriptid
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRow._currentBotSessionChangedScriptid
+  id: _currentBotSessionChangedScriptid
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _currentBotSessionChangedScriptid
+  nameWithType: ChatTopicRow._currentBotSessionChangedScriptid
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._currentBotSessionChangedScriptid
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.BotSessionChangedScriptid\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _currentBotSessionChangedScriptid
+    return:
+      type: System.Int32
+    content.vb: Protected _currentBotSessionChangedScriptid As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._currentBotMessageReceivedScriptid
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRow._currentBotMessageReceivedScriptid
+  id: _currentBotMessageReceivedScriptid
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _currentBotMessageReceivedScriptid
+  nameWithType: ChatTopicRow._currentBotMessageReceivedScriptid
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._currentBotMessageReceivedScriptid
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.BotMessageReceivedScriptid\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _currentBotMessageReceivedScriptid
+    return:
+      type: System.Int32
+    content.vb: Protected _currentBotMessageReceivedScriptid As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._currentUseLunchHours
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRow._currentUseLunchHours
+  id: _currentUseLunchHours
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _currentUseLunchHours
+  nameWithType: ChatTopicRow._currentUseLunchHours
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._currentUseLunchHours
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.UseLunchHours\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected short _currentUseLunchHours
+    return:
+      type: System.Int16
+    content.vb: Protected _currentUseLunchHours As Short
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._currentLunchStart
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRow._currentLunchStart
+  id: _currentLunchStart
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _currentLunchStart
+  nameWithType: ChatTopicRow._currentLunchStart
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._currentLunchStart
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.LunchStart\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected DateTime _currentLunchStart
+    return:
+      type: System.DateTime
+    content.vb: Protected _currentLunchStart As Date
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._currentLunchStop
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRow._currentLunchStop
+  id: _currentLunchStop
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _currentLunchStop
+  nameWithType: ChatTopicRow._currentLunchStop
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._currentLunchStop
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.LunchStop\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected DateTime _currentLunchStop
+    return:
+      type: System.DateTime
+    content.vb: Protected _currentLunchStop As Date
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._currentWidgetAgentUseFirstname
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRow._currentWidgetAgentUseFirstname
+  id: _currentWidgetAgentUseFirstname
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _currentWidgetAgentUseFirstname
+  nameWithType: ChatTopicRow._currentWidgetAgentUseFirstname
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._currentWidgetAgentUseFirstname
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.WidgetAgentUseFirstname\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected short _currentWidgetAgentUseFirstname
+    return:
+      type: System.Int16
+    content.vb: Protected _currentWidgetAgentUseFirstname As Short
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.ChatTopicRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.ChatTopicRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -5017,7 +5608,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: int. Contains the user notify time in seconds \n"
+  summary: "\n.NET type: int. Contains the user notify time in minutes \n"
   remarks: "\nOriginal type in dictionary:  Int.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
   syntax:
     content: public virtual int WarningNewChat { get; set; }
@@ -5051,7 +5642,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: int. Contains the manager notify time in seconds \n"
+  summary: "\n.NET type: int. Contains the manager notify time in minutes \n"
   remarks: "\nOriginal type in dictionary:  Int.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
   syntax:
     content: public virtual int ManagerWarningNewChat { get; set; }
@@ -6658,6 +7249,346 @@ items:
       type: System.String
     content.vb: Public Overridable Property CustomQueueText As String
   overload: SuperOffice.CRM.Rows.ChatTopicRow.CustomQueueText*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.BotEnabled
+  commentId: P:SuperOffice.CRM.Rows.ChatTopicRow.BotEnabled
+  id: BotEnabled
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: BotEnabled
+  nameWithType: ChatTopicRow.BotEnabled
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.BotEnabled
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: short. Enable chatbot on this topic. Run the trigger scripts on bot events. \n"
+  remarks: "\nOriginal type in dictionary:  Bool.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual short BotEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property BotEnabled As Short
+  overload: SuperOffice.CRM.Rows.ChatTopicRow.BotEnabled*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.BotName
+  commentId: P:SuperOffice.CRM.Rows.ChatTopicRow.BotName
+  id: BotName
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: BotName
+  nameWithType: ChatTopicRow.BotName
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.BotName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: string. Chatbot name \n"
+  remarks: "\nOriginal type in dictionary:  String[81].\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual string BotName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property BotName As String
+  overload: SuperOffice.CRM.Rows.ChatTopicRow.BotName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.BotRegisterScriptid
+  commentId: P:SuperOffice.CRM.Rows.ChatTopicRow.BotRegisterScriptid
+  id: BotRegisterScriptid
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: BotRegisterScriptid
+  nameWithType: ChatTopicRow.BotRegisterScriptid
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.BotRegisterScriptid
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: int. Script id to register/unregister chatbot. 0 if there is no bot \n"
+  remarks: "\nOriginal type in dictionary:  FK.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual int BotRegisterScriptid { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property BotRegisterScriptid As Integer
+  overload: SuperOffice.CRM.Rows.ChatTopicRow.BotRegisterScriptid*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.BotSessionCreatedScriptid
+  commentId: P:SuperOffice.CRM.Rows.ChatTopicRow.BotSessionCreatedScriptid
+  id: BotSessionCreatedScriptid
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: BotSessionCreatedScriptid
+  nameWithType: ChatTopicRow.BotSessionCreatedScriptid
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.BotSessionCreatedScriptid
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: int. Script id to run on new session. \n"
+  remarks: "\nOriginal type in dictionary:  FK.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual int BotSessionCreatedScriptid { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property BotSessionCreatedScriptid As Integer
+  overload: SuperOffice.CRM.Rows.ChatTopicRow.BotSessionCreatedScriptid*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.BotSessionChangedScriptid
+  commentId: P:SuperOffice.CRM.Rows.ChatTopicRow.BotSessionChangedScriptid
+  id: BotSessionChangedScriptid
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: BotSessionChangedScriptid
+  nameWithType: ChatTopicRow.BotSessionChangedScriptid
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.BotSessionChangedScriptid
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: int. Script id to run when session state changes. \n"
+  remarks: "\nOriginal type in dictionary:  FK.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual int BotSessionChangedScriptid { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property BotSessionChangedScriptid As Integer
+  overload: SuperOffice.CRM.Rows.ChatTopicRow.BotSessionChangedScriptid*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.BotMessageReceivedScriptid
+  commentId: P:SuperOffice.CRM.Rows.ChatTopicRow.BotMessageReceivedScriptid
+  id: BotMessageReceivedScriptid
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: BotMessageReceivedScriptid
+  nameWithType: ChatTopicRow.BotMessageReceivedScriptid
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.BotMessageReceivedScriptid
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: int. Script id to run when new messages received from customer. \n"
+  remarks: "\nOriginal type in dictionary:  FK.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual int BotMessageReceivedScriptid { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property BotMessageReceivedScriptid As Integer
+  overload: SuperOffice.CRM.Rows.ChatTopicRow.BotMessageReceivedScriptid*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.UseLunchHours
+  commentId: P:SuperOffice.CRM.Rows.ChatTopicRow.UseLunchHours
+  id: UseLunchHours
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: UseLunchHours
+  nameWithType: ChatTopicRow.UseLunchHours
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.UseLunchHours
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: short. Whether to use lunch hours or not. \n"
+  remarks: "\nOriginal type in dictionary:  Bool.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual short UseLunchHours { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property UseLunchHours As Short
+  overload: SuperOffice.CRM.Rows.ChatTopicRow.UseLunchHours*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.LunchStart
+  commentId: P:SuperOffice.CRM.Rows.ChatTopicRow.LunchStart
+  id: LunchStart
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: LunchStart
+  nameWithType: ChatTopicRow.LunchStart
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.LunchStart
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: DateTime. When opening hours starts for lunch. Only time-part is used. \n"
+  remarks: "\nOriginal type in dictionary:  DateTime.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual DateTime LunchStart { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property LunchStart As Date
+  overload: SuperOffice.CRM.Rows.ChatTopicRow.LunchStart*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.LunchStop
+  commentId: P:SuperOffice.CRM.Rows.ChatTopicRow.LunchStop
+  id: LunchStop
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: LunchStop
+  nameWithType: ChatTopicRow.LunchStop
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.LunchStop
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: DateTime. When opening hours stops for lunch. Only time-part is used. \n"
+  remarks: "\nOriginal type in dictionary:  DateTime.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual DateTime LunchStop { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property LunchStop As Date
+  overload: SuperOffice.CRM.Rows.ChatTopicRow.LunchStop*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.WidgetAgentUseFirstname
+  commentId: P:SuperOffice.CRM.Rows.ChatTopicRow.WidgetAgentUseFirstname
+  id: WidgetAgentUseFirstname
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: WidgetAgentUseFirstname
+  nameWithType: ChatTopicRow.WidgetAgentUseFirstname
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.WidgetAgentUseFirstname
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: short. Whether to use the firstname of the agent in the chat widget. \n"
+  remarks: "\nOriginal type in dictionary:  Bool.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual short WidgetAgentUseFirstname { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property WidgetAgentUseFirstname As Short
+  overload: SuperOffice.CRM.Rows.ChatTopicRow.WidgetAgentUseFirstname*
   modifiers.csharp:
   - public
   - virtual
@@ -8286,6 +9217,276 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._onBotEnabledChange
+  commentId: E:SuperOffice.CRM.Rows.ChatTopicRow._onBotEnabledChange
+  id: _onBotEnabledChange
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _onBotEnabledChange
+  nameWithType: ChatTopicRow._onBotEnabledChange
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._onBotEnabledChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.BotEnabled\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
+  syntax:
+    content: protected event OnFieldChange<short> _onBotEnabledChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+    content.vb: Protected Event _onBotEnabledChange As OnFieldChange(Of Short)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._onBotNameChange
+  commentId: E:SuperOffice.CRM.Rows.ChatTopicRow._onBotNameChange
+  id: _onBotNameChange
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _onBotNameChange
+  nameWithType: ChatTopicRow._onBotNameChange
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._onBotNameChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.BotName\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
+  syntax:
+    content: protected event OnFieldChange<string> _onBotNameChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
+    content.vb: Protected Event _onBotNameChange As OnFieldChange(Of String)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._onBotRegisterScriptidChange
+  commentId: E:SuperOffice.CRM.Rows.ChatTopicRow._onBotRegisterScriptidChange
+  id: _onBotRegisterScriptidChange
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _onBotRegisterScriptidChange
+  nameWithType: ChatTopicRow._onBotRegisterScriptidChange
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._onBotRegisterScriptidChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.BotRegisterScriptid\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
+  syntax:
+    content: protected event OnFieldChange<int> _onBotRegisterScriptidChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Event _onBotRegisterScriptidChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._onBotSessionCreatedScriptidChange
+  commentId: E:SuperOffice.CRM.Rows.ChatTopicRow._onBotSessionCreatedScriptidChange
+  id: _onBotSessionCreatedScriptidChange
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _onBotSessionCreatedScriptidChange
+  nameWithType: ChatTopicRow._onBotSessionCreatedScriptidChange
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._onBotSessionCreatedScriptidChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.BotSessionCreatedScriptid\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
+  syntax:
+    content: protected event OnFieldChange<int> _onBotSessionCreatedScriptidChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Event _onBotSessionCreatedScriptidChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._onBotSessionChangedScriptidChange
+  commentId: E:SuperOffice.CRM.Rows.ChatTopicRow._onBotSessionChangedScriptidChange
+  id: _onBotSessionChangedScriptidChange
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _onBotSessionChangedScriptidChange
+  nameWithType: ChatTopicRow._onBotSessionChangedScriptidChange
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._onBotSessionChangedScriptidChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.BotSessionChangedScriptid\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
+  syntax:
+    content: protected event OnFieldChange<int> _onBotSessionChangedScriptidChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Event _onBotSessionChangedScriptidChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._onBotMessageReceivedScriptidChange
+  commentId: E:SuperOffice.CRM.Rows.ChatTopicRow._onBotMessageReceivedScriptidChange
+  id: _onBotMessageReceivedScriptidChange
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _onBotMessageReceivedScriptidChange
+  nameWithType: ChatTopicRow._onBotMessageReceivedScriptidChange
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._onBotMessageReceivedScriptidChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.BotMessageReceivedScriptid\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
+  syntax:
+    content: protected event OnFieldChange<int> _onBotMessageReceivedScriptidChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Event _onBotMessageReceivedScriptidChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._onUseLunchHoursChange
+  commentId: E:SuperOffice.CRM.Rows.ChatTopicRow._onUseLunchHoursChange
+  id: _onUseLunchHoursChange
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _onUseLunchHoursChange
+  nameWithType: ChatTopicRow._onUseLunchHoursChange
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._onUseLunchHoursChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.UseLunchHours\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
+  syntax:
+    content: protected event OnFieldChange<short> _onUseLunchHoursChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+    content.vb: Protected Event _onUseLunchHoursChange As OnFieldChange(Of Short)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._onLunchStartChange
+  commentId: E:SuperOffice.CRM.Rows.ChatTopicRow._onLunchStartChange
+  id: _onLunchStartChange
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _onLunchStartChange
+  nameWithType: ChatTopicRow._onLunchStartChange
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._onLunchStartChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.LunchStart\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
+  syntax:
+    content: protected event OnFieldChange<DateTime> _onLunchStartChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
+    content.vb: Protected Event _onLunchStartChange As OnFieldChange(Of Date)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._onLunchStopChange
+  commentId: E:SuperOffice.CRM.Rows.ChatTopicRow._onLunchStopChange
+  id: _onLunchStopChange
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _onLunchStopChange
+  nameWithType: ChatTopicRow._onLunchStopChange
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._onLunchStopChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.LunchStop\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
+  syntax:
+    content: protected event OnFieldChange<DateTime> _onLunchStopChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
+    content.vb: Protected Event _onLunchStopChange As OnFieldChange(Of Date)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatTopicRow._onWidgetAgentUseFirstnameChange
+  commentId: E:SuperOffice.CRM.Rows.ChatTopicRow._onWidgetAgentUseFirstnameChange
+  id: _onWidgetAgentUseFirstnameChange
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: _onWidgetAgentUseFirstnameChange
+  nameWithType: ChatTopicRow._onWidgetAgentUseFirstnameChange
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow._onWidgetAgentUseFirstnameChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow.WidgetAgentUseFirstname\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
+  syntax:
+    content: protected event OnFieldChange<short> _onWidgetAgentUseFirstnameChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+    content.vb: Protected Event _onWidgetAgentUseFirstnameChange As OnFieldChange(Of Short)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.ChatTopicRow.OnDescriptionChange
   commentId: E:SuperOffice.CRM.Rows.ChatTopicRow.OnDescriptionChange
   id: OnDescriptionChange
@@ -9906,6 +11107,276 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.OnBotEnabledChange
+  commentId: E:SuperOffice.CRM.Rows.ChatTopicRow.OnBotEnabledChange
+  id: OnBotEnabledChange
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: OnBotEnabledChange
+  nameWithType: ChatTopicRow.OnBotEnabledChange
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.OnBotEnabledChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when BotEnabled is changing.\n"
+  syntax:
+    content: public event OnFieldChange<short> OnBotEnabledChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+    content.vb: Public Event OnBotEnabledChange As OnFieldChange(Of Short)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.OnBotNameChange
+  commentId: E:SuperOffice.CRM.Rows.ChatTopicRow.OnBotNameChange
+  id: OnBotNameChange
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: OnBotNameChange
+  nameWithType: ChatTopicRow.OnBotNameChange
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.OnBotNameChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when BotName is changing.\n"
+  syntax:
+    content: public event OnFieldChange<string> OnBotNameChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
+    content.vb: Public Event OnBotNameChange As OnFieldChange(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.OnBotRegisterScriptidChange
+  commentId: E:SuperOffice.CRM.Rows.ChatTopicRow.OnBotRegisterScriptidChange
+  id: OnBotRegisterScriptidChange
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: OnBotRegisterScriptidChange
+  nameWithType: ChatTopicRow.OnBotRegisterScriptidChange
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.OnBotRegisterScriptidChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when BotRegisterScriptid is changing.\n"
+  syntax:
+    content: public event OnFieldChange<int> OnBotRegisterScriptidChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Event OnBotRegisterScriptidChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.OnBotSessionCreatedScriptidChange
+  commentId: E:SuperOffice.CRM.Rows.ChatTopicRow.OnBotSessionCreatedScriptidChange
+  id: OnBotSessionCreatedScriptidChange
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: OnBotSessionCreatedScriptidChange
+  nameWithType: ChatTopicRow.OnBotSessionCreatedScriptidChange
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.OnBotSessionCreatedScriptidChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when BotSessionCreatedScriptid is changing.\n"
+  syntax:
+    content: public event OnFieldChange<int> OnBotSessionCreatedScriptidChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Event OnBotSessionCreatedScriptidChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.OnBotSessionChangedScriptidChange
+  commentId: E:SuperOffice.CRM.Rows.ChatTopicRow.OnBotSessionChangedScriptidChange
+  id: OnBotSessionChangedScriptidChange
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: OnBotSessionChangedScriptidChange
+  nameWithType: ChatTopicRow.OnBotSessionChangedScriptidChange
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.OnBotSessionChangedScriptidChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when BotSessionChangedScriptid is changing.\n"
+  syntax:
+    content: public event OnFieldChange<int> OnBotSessionChangedScriptidChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Event OnBotSessionChangedScriptidChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.OnBotMessageReceivedScriptidChange
+  commentId: E:SuperOffice.CRM.Rows.ChatTopicRow.OnBotMessageReceivedScriptidChange
+  id: OnBotMessageReceivedScriptidChange
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: OnBotMessageReceivedScriptidChange
+  nameWithType: ChatTopicRow.OnBotMessageReceivedScriptidChange
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.OnBotMessageReceivedScriptidChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when BotMessageReceivedScriptid is changing.\n"
+  syntax:
+    content: public event OnFieldChange<int> OnBotMessageReceivedScriptidChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Event OnBotMessageReceivedScriptidChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.OnUseLunchHoursChange
+  commentId: E:SuperOffice.CRM.Rows.ChatTopicRow.OnUseLunchHoursChange
+  id: OnUseLunchHoursChange
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: OnUseLunchHoursChange
+  nameWithType: ChatTopicRow.OnUseLunchHoursChange
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.OnUseLunchHoursChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when UseLunchHours is changing.\n"
+  syntax:
+    content: public event OnFieldChange<short> OnUseLunchHoursChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+    content.vb: Public Event OnUseLunchHoursChange As OnFieldChange(Of Short)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.OnLunchStartChange
+  commentId: E:SuperOffice.CRM.Rows.ChatTopicRow.OnLunchStartChange
+  id: OnLunchStartChange
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: OnLunchStartChange
+  nameWithType: ChatTopicRow.OnLunchStartChange
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.OnLunchStartChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when LunchStart is changing.\n"
+  syntax:
+    content: public event OnFieldChange<DateTime> OnLunchStartChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
+    content.vb: Public Event OnLunchStartChange As OnFieldChange(Of Date)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.OnLunchStopChange
+  commentId: E:SuperOffice.CRM.Rows.ChatTopicRow.OnLunchStopChange
+  id: OnLunchStopChange
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: OnLunchStopChange
+  nameWithType: ChatTopicRow.OnLunchStopChange
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.OnLunchStopChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when LunchStop is changing.\n"
+  syntax:
+    content: public event OnFieldChange<DateTime> OnLunchStopChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
+    content.vb: Public Event OnLunchStopChange As OnFieldChange(Of Date)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.OnWidgetAgentUseFirstnameChange
+  commentId: E:SuperOffice.CRM.Rows.ChatTopicRow.OnWidgetAgentUseFirstnameChange
+  id: OnWidgetAgentUseFirstnameChange
+  parent: SuperOffice.CRM.Rows.ChatTopicRow
+  langs:
+  - csharp
+  - vb
+  name: OnWidgetAgentUseFirstnameChange
+  nameWithType: ChatTopicRow.OnWidgetAgentUseFirstnameChange
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.OnWidgetAgentUseFirstnameChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when WidgetAgentUseFirstname is changing.\n"
+  syntax:
+    content: public event OnFieldChange<short> OnWidgetAgentUseFirstnameChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+    content.vb: Public Event OnWidgetAgentUseFirstnameChange As OnFieldChange(Of Short)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -10572,6 +12043,63 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: SetDefaults(DashboardTileDefinitionRow, String)
+  nameWithType: TableRowBase.SetDefaults(DashboardTileDefinitionRow, String)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -13807,6 +15335,66 @@ references:
   name: CustomQueueText
   nameWithType: ChatTopicRow.CustomQueueText
   fullName: SuperOffice.CRM.Rows.ChatTopicRow.CustomQueueText
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.BotEnabled*
+  commentId: Overload:SuperOffice.CRM.Rows.ChatTopicRow.BotEnabled
+  isExternal: true
+  name: BotEnabled
+  nameWithType: ChatTopicRow.BotEnabled
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.BotEnabled
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.BotName*
+  commentId: Overload:SuperOffice.CRM.Rows.ChatTopicRow.BotName
+  isExternal: true
+  name: BotName
+  nameWithType: ChatTopicRow.BotName
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.BotName
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.BotRegisterScriptid*
+  commentId: Overload:SuperOffice.CRM.Rows.ChatTopicRow.BotRegisterScriptid
+  isExternal: true
+  name: BotRegisterScriptid
+  nameWithType: ChatTopicRow.BotRegisterScriptid
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.BotRegisterScriptid
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.BotSessionCreatedScriptid*
+  commentId: Overload:SuperOffice.CRM.Rows.ChatTopicRow.BotSessionCreatedScriptid
+  isExternal: true
+  name: BotSessionCreatedScriptid
+  nameWithType: ChatTopicRow.BotSessionCreatedScriptid
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.BotSessionCreatedScriptid
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.BotSessionChangedScriptid*
+  commentId: Overload:SuperOffice.CRM.Rows.ChatTopicRow.BotSessionChangedScriptid
+  isExternal: true
+  name: BotSessionChangedScriptid
+  nameWithType: ChatTopicRow.BotSessionChangedScriptid
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.BotSessionChangedScriptid
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.BotMessageReceivedScriptid*
+  commentId: Overload:SuperOffice.CRM.Rows.ChatTopicRow.BotMessageReceivedScriptid
+  isExternal: true
+  name: BotMessageReceivedScriptid
+  nameWithType: ChatTopicRow.BotMessageReceivedScriptid
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.BotMessageReceivedScriptid
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.UseLunchHours*
+  commentId: Overload:SuperOffice.CRM.Rows.ChatTopicRow.UseLunchHours
+  isExternal: true
+  name: UseLunchHours
+  nameWithType: ChatTopicRow.UseLunchHours
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.UseLunchHours
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.LunchStart*
+  commentId: Overload:SuperOffice.CRM.Rows.ChatTopicRow.LunchStart
+  isExternal: true
+  name: LunchStart
+  nameWithType: ChatTopicRow.LunchStart
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.LunchStart
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.LunchStop*
+  commentId: Overload:SuperOffice.CRM.Rows.ChatTopicRow.LunchStop
+  isExternal: true
+  name: LunchStop
+  nameWithType: ChatTopicRow.LunchStop
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.LunchStop
+- uid: SuperOffice.CRM.Rows.ChatTopicRow.WidgetAgentUseFirstname*
+  commentId: Overload:SuperOffice.CRM.Rows.ChatTopicRow.WidgetAgentUseFirstname
+  isExternal: true
+  name: WidgetAgentUseFirstname
+  nameWithType: ChatTopicRow.WidgetAgentUseFirstname
+  fullName: SuperOffice.CRM.Rows.ChatTopicRow.WidgetAgentUseFirstname
 - uid: SuperOffice.CRM.Rows.OnFieldChange{System.String}
   commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.String}
   parent: SuperOffice.CRM.Rows

@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Util.HttpHelper.RequestType
   type: Enum
   source:
-    path: SoDataBase
+    path: SoCore
     isExternal: true
   assemblies:
-  - SoDataBase
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public enum RequestType
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Util.HttpHelper.RequestType.GET
   type: Field
   source:
-    path: SoDataBase
+    path: SoCore
     isExternal: true
   assemblies:
-  - SoDataBase
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: GET = 0
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.Util.HttpHelper.RequestType.PUT
   type: Field
   source:
-    path: SoDataBase
+    path: SoCore
     isExternal: true
   assemblies:
-  - SoDataBase
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: PUT = 1
@@ -102,10 +102,10 @@ items:
   fullName: SuperOffice.Util.HttpHelper.RequestType.POST
   type: Field
   source:
-    path: SoDataBase
+    path: SoCore
     isExternal: true
   assemblies:
-  - SoDataBase
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: POST = 2
@@ -129,10 +129,10 @@ items:
   fullName: SuperOffice.Util.HttpHelper.RequestType.DELETE
   type: Field
   source:
-    path: SoDataBase
+    path: SoCore
     isExternal: true
   assemblies:
-  - SoDataBase
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: DELETE = 3

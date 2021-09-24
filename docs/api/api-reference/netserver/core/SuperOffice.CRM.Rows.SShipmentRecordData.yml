@@ -395,10 +395,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nSending/stopped/failed etc. \n"
   syntax:
-    content: public short Status
+    content: public ShipmentStatus Status
     return:
-      type: System.Int16
-    content.vb: Public Status As Short
+      type: SuperOffice.Data.ShipmentStatus
+    content.vb: Public Status As ShipmentStatus
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1739,13 +1739,19 @@ references:
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
+- uid: SuperOffice.Data.ShipmentStatus
+  commentId: T:SuperOffice.Data.ShipmentStatus
+  parent: SuperOffice.Data
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  name: ShipmentStatus
+  nameWithType: ShipmentStatus
+  fullName: SuperOffice.Data.ShipmentStatus
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
 - uid: System.UInt32
   commentId: T:System.UInt32
   parent: System
@@ -1753,6 +1759,13 @@ references:
   name: UInt32
   nameWithType: UInt32
   fullName: System.UInt32
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.RecipientSorting
   commentId: T:SuperOffice.Data.RecipientSorting
   parent: SuperOffice.Data
@@ -1760,12 +1773,6 @@ references:
   name: RecipientSorting
   nameWithType: RecipientSorting
   fullName: SuperOffice.Data.RecipientSorting
-- uid: SuperOffice.Data
-  commentId: N:SuperOffice.Data
-  isExternal: true
-  name: SuperOffice.Data
-  nameWithType: SuperOffice.Data
-  fullName: SuperOffice.Data
 - uid: SuperOffice.CRM.Rows.SShipmentRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.SShipmentRecordData.#ctor
   isExternal: true

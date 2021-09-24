@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Threading.AsyncOperation<TArgument>
   type: Delegate
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nDelegate describing the function signature required for the method that is\ncalled to initiate user processing in a new NetServer thread\n"
   syntax:
@@ -59,10 +59,10 @@ items:
   fullName: SuperOffice.Threading.AsyncOperation<TArgument>.AsyncOperation(System.Object, System.IntPtr)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public AsyncOperation(object object, IntPtr method)
@@ -91,10 +91,10 @@ items:
   fullName: SuperOffice.Threading.AsyncOperation<TArgument>.Invoke(SuperOffice.Threading.AsyncContext, TArgument)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public virtual void Invoke(AsyncContext context, TArgument argument)
@@ -125,10 +125,10 @@ items:
   fullName: SuperOffice.Threading.AsyncOperation<TArgument>.BeginInvoke(SuperOffice.Threading.AsyncContext, TArgument, System.AsyncCallback, System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public virtual IAsyncResult BeginInvoke(AsyncContext context, TArgument argument, AsyncCallback callback, object object)
@@ -165,10 +165,10 @@ items:
   fullName: SuperOffice.Threading.AsyncOperation<TArgument>.EndInvoke(System.IAsyncResult)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public virtual void EndInvoke(IAsyncResult result)

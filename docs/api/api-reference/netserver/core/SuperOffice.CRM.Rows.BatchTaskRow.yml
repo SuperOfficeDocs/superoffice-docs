@@ -12,6 +12,7 @@ items:
   - SuperOffice.CRM.Rows.BatchTaskRow._currentDescription
   - SuperOffice.CRM.Rows.BatchTaskRow._currentDetailsRecord
   - SuperOffice.CRM.Rows.BatchTaskRow._currentDetailsTable
+  - SuperOffice.CRM.Rows.BatchTaskRow._currentFileName
   - SuperOffice.CRM.Rows.BatchTaskRow._currentLastStarted
   - SuperOffice.CRM.Rows.BatchTaskRow._currentProgressDescription
   - SuperOffice.CRM.Rows.BatchTaskRow._currentProgressPercent
@@ -29,6 +30,7 @@ items:
   - SuperOffice.CRM.Rows.BatchTaskRow._onDescriptionChange
   - SuperOffice.CRM.Rows.BatchTaskRow._onDetailsRecordChange
   - SuperOffice.CRM.Rows.BatchTaskRow._onDetailsTableChange
+  - SuperOffice.CRM.Rows.BatchTaskRow._onFileNameChange
   - SuperOffice.CRM.Rows.BatchTaskRow._onLastStartedChange
   - SuperOffice.CRM.Rows.BatchTaskRow._onProgressDescriptionChange
   - SuperOffice.CRM.Rows.BatchTaskRow._onProgressPercentChange
@@ -47,6 +49,7 @@ items:
   - SuperOffice.CRM.Rows.BatchTaskRow._persistedDescription
   - SuperOffice.CRM.Rows.BatchTaskRow._persistedDetailsRecord
   - SuperOffice.CRM.Rows.BatchTaskRow._persistedDetailsTable
+  - SuperOffice.CRM.Rows.BatchTaskRow._persistedFileName
   - SuperOffice.CRM.Rows.BatchTaskRow._persistedLastStarted
   - SuperOffice.CRM.Rows.BatchTaskRow._persistedProgressDescription
   - SuperOffice.CRM.Rows.BatchTaskRow._persistedProgressPercent
@@ -67,6 +70,7 @@ items:
   - SuperOffice.CRM.Rows.BatchTaskRow.Description
   - SuperOffice.CRM.Rows.BatchTaskRow.DetailsRecord
   - SuperOffice.CRM.Rows.BatchTaskRow.DetailsTable
+  - SuperOffice.CRM.Rows.BatchTaskRow.FileName
   - SuperOffice.CRM.Rows.BatchTaskRow.GetFromCustomSearch(SuperOffice.CRM.Rows.BatchTaskRow.CustomSearch)
   - SuperOffice.CRM.Rows.BatchTaskRow.GetFromIdxBatchTaskId(System.Int32)
   - SuperOffice.CRM.Rows.BatchTaskRow.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.BatchTaskTableInfo)
@@ -85,6 +89,7 @@ items:
   - SuperOffice.CRM.Rows.BatchTaskRow.OnDescriptionChange
   - SuperOffice.CRM.Rows.BatchTaskRow.OnDetailsRecordChange
   - SuperOffice.CRM.Rows.BatchTaskRow.OnDetailsTableChange
+  - SuperOffice.CRM.Rows.BatchTaskRow.OnFileNameChange
   - SuperOffice.CRM.Rows.BatchTaskRow.OnLastStartedChange
   - SuperOffice.CRM.Rows.BatchTaskRow.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.BatchTaskRow.OnProgressDescriptionChange
@@ -168,6 +173,7 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.CRM.Rows.IdxBase,SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+  - SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
   - SuperOffice.CRM.Rows.TableRowBase.SetSaveOwner(SuperOffice.Data.INestedPersist)
   - SuperOffice.CRM.Rows.TableRowBase.Save
   - SuperOffice.CRM.Rows.TableRowBase.Delete
@@ -717,6 +723,33 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.BatchTaskRow._persistedFileName
+  commentId: F:SuperOffice.CRM.Rows.BatchTaskRow._persistedFileName
+  id: _persistedFileName
+  parent: SuperOffice.CRM.Rows.BatchTaskRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedFileName
+  nameWithType: BatchTaskRow._persistedFileName
+  fullName: SuperOffice.CRM.Rows.BatchTaskRow._persistedFileName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.BatchTaskRow.FileName\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected string _persistedFileName
+    return:
+      type: System.String
+    content.vb: Protected _persistedFileName As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.BatchTaskRow._currentBatchTaskId
   commentId: F:SuperOffice.CRM.Rows.BatchTaskRow._currentBatchTaskId
   id: _currentBatchTaskId
@@ -1199,6 +1232,33 @@ items:
     return:
       type: System.Int16
     content.vb: Protected _currentUpdatedCount As Short
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.BatchTaskRow._currentFileName
+  commentId: F:SuperOffice.CRM.Rows.BatchTaskRow._currentFileName
+  id: _currentFileName
+  parent: SuperOffice.CRM.Rows.BatchTaskRow
+  langs:
+  - csharp
+  - vb
+  name: _currentFileName
+  nameWithType: BatchTaskRow._currentFileName
+  fullName: SuperOffice.CRM.Rows.BatchTaskRow._currentFileName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.BatchTaskRow.FileName\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected string _currentFileName
+    return:
+      type: System.String
+    content.vb: Protected _currentFileName As String
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -2667,6 +2727,40 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Rows.BatchTaskRow.FileName
+  commentId: P:SuperOffice.CRM.Rows.BatchTaskRow.FileName
+  id: FileName
+  parent: SuperOffice.CRM.Rows.BatchTaskRow
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: BatchTaskRow.FileName
+  fullName: SuperOffice.CRM.Rows.BatchTaskRow.FileName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: string. The filename related to the batchtask. \n"
+  remarks: "\nOriginal type in dictionary:  String[261].\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual string FileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FileName As String
+  overload: SuperOffice.CRM.Rows.BatchTaskRow.FileName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Rows.BatchTaskRow._onBatchTaskDefinitionIdChange
   commentId: E:SuperOffice.CRM.Rows.BatchTaskRow._onBatchTaskDefinitionIdChange
   id: _onBatchTaskDefinitionIdChange
@@ -3126,6 +3220,33 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.BatchTaskRow._onFileNameChange
+  commentId: E:SuperOffice.CRM.Rows.BatchTaskRow._onFileNameChange
+  id: _onFileNameChange
+  parent: SuperOffice.CRM.Rows.BatchTaskRow
+  langs:
+  - csharp
+  - vb
+  name: _onFileNameChange
+  nameWithType: BatchTaskRow._onFileNameChange
+  fullName: SuperOffice.CRM.Rows.BatchTaskRow._onFileNameChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.BatchTaskRow.FileName\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
+  syntax:
+    content: protected event OnFieldChange<string> _onFileNameChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
+    content.vb: Protected Event _onFileNameChange As OnFieldChange(Of String)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.BatchTaskRow.OnBatchTaskDefinitionIdChange
   commentId: E:SuperOffice.CRM.Rows.BatchTaskRow.OnBatchTaskDefinitionIdChange
   id: OnBatchTaskDefinitionIdChange
@@ -3581,6 +3702,33 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
     content.vb: Public Event OnUpdatedCountChange As OnFieldChange(Of Short)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.BatchTaskRow.OnFileNameChange
+  commentId: E:SuperOffice.CRM.Rows.BatchTaskRow.OnFileNameChange
+  id: OnFileNameChange
+  parent: SuperOffice.CRM.Rows.BatchTaskRow
+  langs:
+  - csharp
+  - vb
+  name: OnFileNameChange
+  nameWithType: BatchTaskRow.OnFileNameChange
+  fullName: SuperOffice.CRM.Rows.BatchTaskRow.OnFileNameChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when FileName is changing.\n"
+  syntax:
+    content: public event OnFieldChange<string> OnFileNameChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
+    content.vb: Public Event OnFileNameChange As OnFieldChange(Of String)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -4251,6 +4399,63 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: SetDefaults(DashboardTileDefinitionRow, String)
+  nameWithType: TableRowBase.SetDefaults(DashboardTileDefinitionRow, String)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -7207,6 +7412,12 @@ references:
   name: UpdatedCount
   nameWithType: BatchTaskRow.UpdatedCount
   fullName: SuperOffice.CRM.Rows.BatchTaskRow.UpdatedCount
+- uid: SuperOffice.CRM.Rows.BatchTaskRow.FileName*
+  commentId: Overload:SuperOffice.CRM.Rows.BatchTaskRow.FileName
+  isExternal: true
+  name: FileName
+  nameWithType: BatchTaskRow.FileName
+  fullName: SuperOffice.CRM.Rows.BatchTaskRow.FileName
 - uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   parent: SuperOffice.CRM.Rows

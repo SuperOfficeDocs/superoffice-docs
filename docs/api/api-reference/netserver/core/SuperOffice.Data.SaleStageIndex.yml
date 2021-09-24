@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.SaleStageIndex
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nConstant index values for sale stage\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.SaleStageIndex.Open
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nSale is still open\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.SaleStageIndex.Lost
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nSale has been lost\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.SaleStageIndex.Sold
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nSale has been sold\n"
   syntax:

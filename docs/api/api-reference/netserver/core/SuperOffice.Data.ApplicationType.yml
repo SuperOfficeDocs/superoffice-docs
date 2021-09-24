@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Data.ApplicationType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n"
   syntax:
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.Data.ApplicationType.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nUnknown - used when initializing \n"
   syntax:
@@ -79,10 +79,10 @@ items:
   fullName: SuperOffice.Data.ApplicationType.ExtApplication
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: EXE file of some kind, corresponds to the &apos;External application&apos; radio button\n"
   syntax:
@@ -107,10 +107,10 @@ items:
   fullName: SuperOffice.Data.ApplicationType.IntegratedHTML
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: HTML output from someplace (does not seem to be implemented in SOCRM)\n"
   syntax:
@@ -135,10 +135,10 @@ items:
   fullName: SuperOffice.Data.ApplicationType.IntegratedURL
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: URL, content to be shown using integrated browser (does not seem to be implemented in SOCRM)\n"
   syntax:
@@ -163,10 +163,10 @@ items:
   fullName: SuperOffice.Data.ApplicationType.URL
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: URL, to be shown using whatever installed browser, correponds to the &apos;URL&apos; radio button\n"
   syntax:
@@ -191,10 +191,10 @@ items:
   fullName: SuperOffice.Data.ApplicationType.ExtURL
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: URL, to be shown externally (start new browser window) (does not seem to be implemented in SOCRM)\n"
   syntax:

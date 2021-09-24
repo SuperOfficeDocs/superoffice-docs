@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nUtility class for WindowsIdentity\n"
   syntax:
@@ -58,10 +58,10 @@ items:
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonUser(System.String, System.String, System.String, SuperOffice.Security.Util.WindowsIdentityHelper.LogonType, SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nThe LogonUser function attempts to log a user on to the local computer, that is, to the computer from \nwhich LogonUser was called. You cannot use LogonUser to log on to a remote computer. You specify the \nuser with a user name and domain, and authenticate the user with a clear-text password. If the \nfunction succeeds, you receive a WindowsIdentity that represents the logged-on user.\n"
   remarks: For further reference, se the platform SDK (e.g. Advapi32.lib and advapi32.dll) for method LogonUser.
@@ -112,10 +112,10 @@ items:
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.TryLogonUser(System.String, System.String, System.String, SuperOffice.Security.Util.WindowsIdentityHelper.LogonType, SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nAttempt to log on to the local computer. Same functionality as <xref href=\"SuperOffice.Security.Util.WindowsIdentityHelper.LogonUser(System.String%2cSystem.String%2cSystem.String%2cSystem.Int32%2cSystem.Int32%2cSystem.Int32%40)\" data-throw-if-not-resolved=\"false\"></xref>, but does not throw exceptions on failure (null return)\n"
   syntax:
@@ -159,10 +159,10 @@ items:
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.GetErrorMessage()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nGet an error message through the underlying  Platform SDK.\n"
   syntax:

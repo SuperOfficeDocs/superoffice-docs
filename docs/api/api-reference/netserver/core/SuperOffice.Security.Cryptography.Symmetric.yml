@@ -22,10 +22,10 @@ items:
   fullName: SuperOffice.Security.Cryptography.Symmetric
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Cryptography
   summary: "\nUtility class for performing simple symmetric encryption and decryption \nbased upon values in the <xref href=\"SuperOffice.Configuration.ConfigFile.Security.Cryptography\" data-throw-if-not-resolved=\"false\"></xref>.\n\nThe encrypted data has an encryption header in this general format:\nVersion | IV | EncryptedData | Signature\n\nVersion 1 uses AES256 (in CBC mode) and HMACSHA256 as the encryption and signature algorithms. \n"
   syntax:
@@ -66,10 +66,10 @@ items:
   fullName: SuperOffice.Security.Cryptography.Symmetric.Encrypt(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Cryptography
   summary: "\nEncrypts the string and return it as a Base64 encoded encrypted string.\n"
   remarks: "\nThe data is encrypted and signed. \n"
@@ -102,10 +102,10 @@ items:
   fullName: SuperOffice.Security.Cryptography.Symmetric.EncryptUTF8(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Cryptography
   syntax:
     content: public static string EncryptUTF8(string text)
@@ -134,10 +134,10 @@ items:
   fullName: SuperOffice.Security.Cryptography.Symmetric.EncryptBytes(System.Byte[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Cryptography
   summary: "\nEncrypts the byte array (e.g. byte[]) and return it as a Base64 encoded encrypted string.\n"
   remarks: "\nThe data is encrypted and signed. \n"
@@ -173,10 +173,10 @@ items:
   fullName: SuperOffice.Security.Cryptography.Symmetric.Decrypt(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Cryptography
   summary: "\nDecrypts the Base64 encoded string and return it as a clear-text string.\n"
   remarks: "\nThe signature of the data is verified before the data is decrypted.\n"
@@ -209,10 +209,10 @@ items:
   fullName: SuperOffice.Security.Cryptography.Symmetric.DecryptUTF8(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Cryptography
   summary: "\nDecrypts the base64 encoded version. Throws SoInvalidSignatureException if the signature is invalid.  \n"
   syntax:
@@ -242,10 +242,10 @@ items:
   fullName: SuperOffice.Security.Cryptography.Symmetric.DecryptBytes(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Cryptography
   summary: "\nDecrypts the Base64 encoded string and return it as a byte array (e.g. byte[]).\n"
   remarks: "\nThe signature of the data is verified before the data is decrypted.\n"
@@ -278,10 +278,10 @@ items:
   fullName: SuperOffice.Security.Cryptography.Symmetric.GenerateEncryptionKeyAsBase64()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Cryptography
   summary: "\nGenerate a new key for usage on the current encryption algorithm. \n"
   syntax:
@@ -309,10 +309,10 @@ items:
   fullName: SuperOffice.Security.Cryptography.Symmetric.GenerateSigningKeyAsBase64()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Cryptography
   summary: "\nGenerate a new &quot;secret&quot; which is used when signing the encrypted data.\n"
   syntax:
@@ -340,10 +340,10 @@ items:
   fullName: SuperOffice.Security.Cryptography.Symmetric.Symmetric()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Cryptography
   syntax:
     content: public Symmetric()

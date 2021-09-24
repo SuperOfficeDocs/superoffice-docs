@@ -300,13 +300,13 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;server_type&apos; in table &apos;mail_in_filter&apos;: Dictionary type Enum, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nEnum indicating the protocol to use (POP/IMAP).\n"
+  summary: "\nField &apos;server_type&apos; in table &apos;mail_in_filter&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.MailboxType\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nEnum indicating the protocol to use (POP/IMAP).\n"
   syntax:
-    content: public UInt16FieldInfo ServerType { get; }
+    content: public MailboxTypeFieldInfo ServerType { get; }
     parameters: []
     return:
-      type: SuperOffice.Data.SQL.UInt16FieldInfo
-    content.vb: Public ReadOnly Property ServerType As UInt16FieldInfo
+      type: SuperOffice.Data.SQL.MailboxTypeFieldInfo
+    content.vb: Public ReadOnly Property ServerType As MailboxTypeFieldInfo
   overload: SuperOffice.CRM.Data.MailInFilterTableInfo.ServerType*
   modifiers.csharp:
   - public
@@ -2189,13 +2189,13 @@ references:
   name: ServerType
   nameWithType: MailInFilterTableInfo.ServerType
   fullName: SuperOffice.CRM.Data.MailInFilterTableInfo.ServerType
-- uid: SuperOffice.Data.SQL.UInt16FieldInfo
-  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.Data.SQL.MailboxTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.MailboxTypeFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  name: UInt16FieldInfo
-  nameWithType: UInt16FieldInfo
-  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+  name: MailboxTypeFieldInfo
+  nameWithType: MailboxTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.MailboxTypeFieldInfo
 - uid: SuperOffice.CRM.Data.MailInFilterTableInfo.PopServer*
   commentId: Overload:SuperOffice.CRM.Data.MailInFilterTableInfo.PopServer
   isExternal: true
@@ -2276,6 +2276,13 @@ references:
   name: Noautoreply
   nameWithType: MailInFilterTableInfo.Noautoreply
   fullName: SuperOffice.CRM.Data.MailInFilterTableInfo.Noautoreply
+- uid: SuperOffice.Data.SQL.UInt16FieldInfo
+  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: UInt16FieldInfo
+  nameWithType: UInt16FieldInfo
+  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
 - uid: SuperOffice.CRM.Data.MailInFilterTableInfo.LastSuccess*
   commentId: Overload:SuperOffice.CRM.Data.MailInFilterTableInfo.LastSuccess
   isExternal: true

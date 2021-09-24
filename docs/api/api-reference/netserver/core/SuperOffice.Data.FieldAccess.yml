@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.FieldAccess
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nAccess restrictions and mandatory status, if any.\nThis Enum is used by:  ErpField.Access\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.FieldAccess.Normal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Normal field, no particular restrictions\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.FieldAccess.Mandatory
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: This field is mandatory.\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.FieldAccess.ReadOnly
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: This field is read-only.\n"
   syntax:

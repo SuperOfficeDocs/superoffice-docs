@@ -29,10 +29,10 @@ items:
   fullName: SuperOffice.CRM.Services.ParticipantInfo
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nClass representing an appointment participant.\n"
   syntax:
@@ -72,10 +72,10 @@ items:
   fullName: SuperOffice.CRM.Services.ParticipantInfo.ParticipantInfo()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public ParticipantInfo()
@@ -97,10 +97,10 @@ items:
   fullName: SuperOffice.CRM.Services.ParticipantInfo.ParticipantInfo(System.Int32, System.Int32, System.Int32, System.Int32, System.Boolean)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\n\n"
   syntax:
@@ -136,10 +136,10 @@ items:
   fullName: SuperOffice.CRM.Services.ParticipantInfo.ParticipantInfo(System.Int32, System.Int32, System.Int32, System.Int32, System.Boolean, SuperOffice.Data.InvitationStatus)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\n\n"
   syntax:
@@ -178,10 +178,10 @@ items:
   fullName: SuperOffice.CRM.Services.ParticipantInfo.GetHashCode()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nGenerate a unique integer based on the associate/person id\n"
   syntax:
@@ -209,10 +209,10 @@ items:
   fullName: SuperOffice.CRM.Services.ParticipantInfo.Equals(SuperOffice.CRM.Services.ParticipantInfo)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nDetermine equality: Equal if associate_ids match or if person_ids match. Unequal otherwise\n"
   syntax:
@@ -242,10 +242,10 @@ items:
   fullName: SuperOffice.CRM.Services.ParticipantInfo.Equality(SuperOffice.CRM.Services.ParticipantInfo, SuperOffice.CRM.Services.ParticipantInfo)
   type: Operator
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nDetermine if the objects are identical.\n"
   syntax:
@@ -278,10 +278,10 @@ items:
   fullName: SuperOffice.CRM.Services.ParticipantInfo.Inequality(SuperOffice.CRM.Services.ParticipantInfo, SuperOffice.CRM.Services.ParticipantInfo)
   type: Operator
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nDetermine if the objects differ.\n"
   syntax:
@@ -314,10 +314,10 @@ items:
   fullName: SuperOffice.CRM.Services.ParticipantInfo.Equals(System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nDetermine if the provided object is identical to this one.\n"
   syntax:
@@ -350,10 +350,10 @@ items:
   fullName: SuperOffice.CRM.Services.ParticipantInfo.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nReturn a string that&apos;s nice for debugging\n"
   syntax:
@@ -381,10 +381,10 @@ items:
   fullName: SuperOffice.CRM.Services.ParticipantInfo.ToString(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public string ToString(string prefix)
@@ -411,10 +411,10 @@ items:
   fullName: SuperOffice.CRM.Services.ParticipantInfo.AssociateId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nAssociate id of the participant if the participant is an associate (or resource)\n"
   syntax:
@@ -442,10 +442,10 @@ items:
   fullName: SuperOffice.CRM.Services.ParticipantInfo.PersonId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nPerson id of the participant if the participant is a person\n"
   syntax:
@@ -473,10 +473,10 @@ items:
   fullName: SuperOffice.CRM.Services.ParticipantInfo.ContactId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nContact id of the participant if the participant is an associate or person\n"
   syntax:
@@ -504,10 +504,10 @@ items:
   fullName: SuperOffice.CRM.Services.ParticipantInfo.EmailId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nThe email id of the email belonging to the appointment record belonging to this person\n"
   syntax:
@@ -535,10 +535,10 @@ items:
   fullName: SuperOffice.CRM.Services.ParticipantInfo.SendEmail
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nTrue if the participant has been sent an email or should be sent an email\n"
   syntax:
@@ -566,10 +566,10 @@ items:
   fullName: SuperOffice.CRM.Services.ParticipantInfo.InvitationStatus
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nThe participant status for the appointment\n"
   syntax:

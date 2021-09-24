@@ -23,10 +23,10 @@ items:
   fullName: SuperOffice.Data.ReportCategory
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nThe avaliable category\n"
   syntax:
@@ -55,10 +55,10 @@ items:
   fullName: SuperOffice.Data.ReportCategory.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: New/empty report\n"
   syntax:
@@ -83,10 +83,10 @@ items:
   fullName: SuperOffice.Data.ReportCategory.All
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: All reports\n"
   syntax:
@@ -111,10 +111,10 @@ items:
   fullName: SuperOffice.Data.ReportCategory.Contact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: 2: Company reports\n"
   syntax:
@@ -139,10 +139,10 @@ items:
   fullName: SuperOffice.Data.ReportCategory.Project
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: 3: Project reports\n"
   syntax:
@@ -167,10 +167,10 @@ items:
   fullName: SuperOffice.Data.ReportCategory.Sale
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: 4: Sale reports\n"
   syntax:
@@ -195,10 +195,10 @@ items:
   fullName: SuperOffice.Data.ReportCategory.Appointment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: 5: Appointment reports\n"
   syntax:
@@ -223,10 +223,10 @@ items:
   fullName: SuperOffice.Data.ReportCategory.Selection
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: 6: Selection reports\n"
   syntax:
@@ -251,10 +251,10 @@ items:
   fullName: SuperOffice.Data.ReportCategory.Person
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: 7: Person reports\n"
   syntax:
@@ -279,10 +279,10 @@ items:
   fullName: SuperOffice.Data.ReportCategory.Diary
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: 8: Diary reports\n"
   syntax:
@@ -307,10 +307,10 @@ items:
   fullName: SuperOffice.Data.ReportCategory.Favorites
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n9: Favorite reports for an associate\n"
   syntax:

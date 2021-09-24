@@ -39,12 +39,18 @@ items:
   - SuperOffice.Data.SQL.CountAll
   - SuperOffice.Data.SQL.CredentialUsageFieldInfo
   - SuperOffice.Data.SQL.CrmActorTypeFieldInfo
+  - SuperOffice.Data.SQL.DashTileCurrencyModeFieldInfo
+  - SuperOffice.Data.SQL.DashTileEntityTypeFieldInfo
+  - SuperOffice.Data.SQL.DashTileMeasureFieldInfo
+  - SuperOffice.Data.SQL.DashTileTypeFieldInfo
   - SuperOffice.Data.SQL.DatabaseFieldAttribute
   - SuperOffice.Data.SQL.DatabaseFunctions
   - SuperOffice.Data.SQL.DatabaseTableAttribute
   - SuperOffice.Data.SQL.DateTimeFieldInfo
   - SuperOffice.Data.SQL.Day
   - SuperOffice.Data.SQL.Delete
+  - SuperOffice.Data.SQL.DeltaStateFieldInfo
+  - SuperOffice.Data.SQL.DeltaTypeFieldInfo
   - SuperOffice.Data.SQL.DesignTypeFieldInfo
   - SuperOffice.Data.SQL.Difference
   - SuperOffice.Data.SQL.Distinct
@@ -101,6 +107,7 @@ items:
   - SuperOffice.Data.SQL.Like
   - SuperOffice.Data.SQL.LoginFlagsFieldInfo
   - SuperOffice.Data.SQL.Lower
+  - SuperOffice.Data.SQL.MailboxTypeFieldInfo
   - SuperOffice.Data.SQL.MathematicalExpression
   - SuperOffice.Data.SQL.Max
   - SuperOffice.Data.SQL.Min
@@ -153,8 +160,10 @@ items:
   - SuperOffice.Data.SQL.ShipmentAddrStatusFieldInfo
   - SuperOffice.Data.SQL.ShipmentLinkActionFieldInfo
   - SuperOffice.Data.SQL.ShipmentLinkTaskFlagsFieldInfo
+  - SuperOffice.Data.SQL.ShipmentLinkTypeFieldInfo
   - SuperOffice.Data.SQL.ShipmentListStatusFieldInfo
   - SuperOffice.Data.SQL.ShipmentMessageTypeFieldInfo
+  - SuperOffice.Data.SQL.ShipmentStatusFieldInfo
   - SuperOffice.Data.SQL.ShowStateFieldInfo
   - SuperOffice.Data.SQL.ShowWindowStateFieldInfo
   - SuperOffice.Data.SQL.Soundex
@@ -427,6 +436,13 @@ references:
   name: EmailTypeFieldInfo
   nameWithType: EmailTypeFieldInfo
   fullName: SuperOffice.Data.SQL.EmailTypeFieldInfo
+- uid: SuperOffice.Data.SQL.ShipmentStatusFieldInfo
+  commentId: T:SuperOffice.Data.SQL.ShipmentStatusFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: ShipmentStatusFieldInfo
+  nameWithType: ShipmentStatusFieldInfo
+  fullName: SuperOffice.Data.SQL.ShipmentStatusFieldInfo
 - uid: SuperOffice.Data.SQL.ShipmentAddrStatusFieldInfo
   commentId: T:SuperOffice.Data.SQL.ShipmentAddrStatusFieldInfo
   parent: SuperOffice.Data.SQL
@@ -448,6 +464,13 @@ references:
   name: ShipmentLinkTaskFlagsFieldInfo
   nameWithType: ShipmentLinkTaskFlagsFieldInfo
   fullName: SuperOffice.Data.SQL.ShipmentLinkTaskFlagsFieldInfo
+- uid: SuperOffice.Data.SQL.ShipmentLinkTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.ShipmentLinkTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: ShipmentLinkTypeFieldInfo
+  nameWithType: ShipmentLinkTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.ShipmentLinkTypeFieldInfo
 - uid: SuperOffice.Data.SQL.ShipmentListStatusFieldInfo
   commentId: T:SuperOffice.Data.SQL.ShipmentListStatusFieldInfo
   parent: SuperOffice.Data.SQL
@@ -616,6 +639,34 @@ references:
   name: SelectionSystemTypeFieldInfo
   nameWithType: SelectionSystemTypeFieldInfo
   fullName: SuperOffice.Data.SQL.SelectionSystemTypeFieldInfo
+- uid: SuperOffice.Data.SQL.DashTileTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DashTileTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DashTileTypeFieldInfo
+  nameWithType: DashTileTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.DashTileTypeFieldInfo
+- uid: SuperOffice.Data.SQL.DashTileCurrencyModeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DashTileCurrencyModeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DashTileCurrencyModeFieldInfo
+  nameWithType: DashTileCurrencyModeFieldInfo
+  fullName: SuperOffice.Data.SQL.DashTileCurrencyModeFieldInfo
+- uid: SuperOffice.Data.SQL.DashTileMeasureFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DashTileMeasureFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DashTileMeasureFieldInfo
+  nameWithType: DashTileMeasureFieldInfo
+  fullName: SuperOffice.Data.SQL.DashTileMeasureFieldInfo
+- uid: SuperOffice.Data.SQL.DashTileEntityTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DashTileEntityTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DashTileEntityTypeFieldInfo
+  nameWithType: DashTileEntityTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.DashTileEntityTypeFieldInfo
 - uid: SuperOffice.Data.SQL.TemporaryKeyDomainFieldInfo
   commentId: T:SuperOffice.Data.SQL.TemporaryKeyDomainFieldInfo
   parent: SuperOffice.Data.SQL
@@ -672,6 +723,27 @@ references:
   name: VideoMeetingStatusFieldInfo
   nameWithType: VideoMeetingStatusFieldInfo
   fullName: SuperOffice.Data.SQL.VideoMeetingStatusFieldInfo
+- uid: SuperOffice.Data.SQL.MailboxTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.MailboxTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: MailboxTypeFieldInfo
+  nameWithType: MailboxTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.MailboxTypeFieldInfo
+- uid: SuperOffice.Data.SQL.DeltaTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DeltaTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DeltaTypeFieldInfo
+  nameWithType: DeltaTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.DeltaTypeFieldInfo
+- uid: SuperOffice.Data.SQL.DeltaStateFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DeltaStateFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DeltaStateFieldInfo
+  nameWithType: DeltaStateFieldInfo
+  fullName: SuperOffice.Data.SQL.DeltaStateFieldInfo
 - uid: SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
   commentId: T:SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
   parent: SuperOffice.Data.SQL
@@ -868,136 +940,6 @@ references:
   name: ChatMessageSpecialTypeFieldInfo
   nameWithType: ChatMessageSpecialTypeFieldInfo
   fullName: SuperOffice.Data.SQL.ChatMessageSpecialTypeFieldInfo
-- uid: SuperOffice.Data.SQL.CountAll
-  commentId: T:SuperOffice.Data.SQL.CountAll
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: CountAll
-  nameWithType: CountAll
-  fullName: SuperOffice.Data.SQL.CountAll
-- uid: SuperOffice.Data.SQL.Extensions
-  commentId: T:SuperOffice.Data.SQL.Extensions
-  isExternal: true
-  name: Extensions
-  nameWithType: Extensions
-  fullName: SuperOffice.Data.SQL.Extensions
-- uid: SuperOffice.Data.SQL.InAll
-  commentId: T:SuperOffice.Data.SQL.InAll
-  isExternal: true
-  name: InAll
-  nameWithType: InAll
-  fullName: SuperOffice.Data.SQL.InAll
-- uid: SuperOffice.Data.SQL.InsertFromSelect
-  commentId: T:SuperOffice.Data.SQL.InsertFromSelect
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: InsertFromSelect
-  nameWithType: InsertFromSelect
-  fullName: SuperOffice.Data.SQL.InsertFromSelect
-- uid: SuperOffice.Data.SQL.IntArrayOperatorBase
-  commentId: T:SuperOffice.Data.SQL.IntArrayOperatorBase
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: IntArrayOperatorBase
-  nameWithType: IntArrayOperatorBase
-  fullName: SuperOffice.Data.SQL.IntArrayOperatorBase
-- uid: SuperOffice.Data.SQL.HasAny
-  commentId: T:SuperOffice.Data.SQL.HasAny
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: HasAny
-  nameWithType: HasAny
-  fullName: SuperOffice.Data.SQL.HasAny
-- uid: SuperOffice.Data.SQL.HasAll
-  commentId: T:SuperOffice.Data.SQL.HasAll
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: HasAll
-  nameWithType: HasAll
-  fullName: SuperOffice.Data.SQL.HasAll
-- uid: SuperOffice.Data.SQL.MissingAny
-  commentId: T:SuperOffice.Data.SQL.MissingAny
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: MissingAny
-  nameWithType: MissingAny
-  fullName: SuperOffice.Data.SQL.MissingAny
-- uid: SuperOffice.Data.SQL.MissingAll
-  commentId: T:SuperOffice.Data.SQL.MissingAll
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: MissingAll
-  nameWithType: MissingAll
-  fullName: SuperOffice.Data.SQL.MissingAll
-- uid: SuperOffice.Data.SQL.NotInAll
-  commentId: T:SuperOffice.Data.SQL.NotInAll
-  isExternal: true
-  name: NotInAll
-  nameWithType: NotInAll
-  fullName: SuperOffice.Data.SQL.NotInAll
-- uid: SuperOffice.Data.SQL.Soundex
-  commentId: T:SuperOffice.Data.SQL.Soundex
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Soundex
-  nameWithType: Soundex
-  fullName: SuperOffice.Data.SQL.Soundex
-- uid: SuperOffice.Data.SQL.Trim
-  commentId: T:SuperOffice.Data.SQL.Trim
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Trim
-  nameWithType: Trim
-  fullName: SuperOffice.Data.SQL.Trim
-- uid: SuperOffice.Data.SQL.NonCoercedArgumentFunction
-  commentId: T:SuperOffice.Data.SQL.NonCoercedArgumentFunction
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: NonCoercedArgumentFunction
-  nameWithType: NonCoercedArgumentFunction
-  fullName: SuperOffice.Data.SQL.NonCoercedArgumentFunction
-- uid: SuperOffice.Data.SQL.Year
-  commentId: T:SuperOffice.Data.SQL.Year
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Year
-  nameWithType: Year
-  fullName: SuperOffice.Data.SQL.Year
-- uid: SuperOffice.Data.SQL.Month
-  commentId: T:SuperOffice.Data.SQL.Month
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Month
-  nameWithType: Month
-  fullName: SuperOffice.Data.SQL.Month
-- uid: SuperOffice.Data.SQL.Day
-  commentId: T:SuperOffice.Data.SQL.Day
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Day
-  nameWithType: Day
-  fullName: SuperOffice.Data.SQL.Day
-- uid: SuperOffice.Data.SQL.Hour
-  commentId: T:SuperOffice.Data.SQL.Hour
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Hour
-  nameWithType: Hour
-  fullName: SuperOffice.Data.SQL.Hour
-- uid: SuperOffice.Data.SQL.Minute
-  commentId: T:SuperOffice.Data.SQL.Minute
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Minute
-  nameWithType: Minute
-  fullName: SuperOffice.Data.SQL.Minute
-- uid: SuperOffice.Data.SQL.Second
-  commentId: T:SuperOffice.Data.SQL.Second
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Second
-  nameWithType: Second
-  fullName: SuperOffice.Data.SQL.Second
 - uid: SuperOffice.Data.SQL.Add
   commentId: T:SuperOffice.Data.SQL.Add
   parent: SuperOffice.Data.SQL
@@ -1109,6 +1051,13 @@ references:
   name: Count
   nameWithType: Count
   fullName: SuperOffice.Data.SQL.Count
+- uid: SuperOffice.Data.SQL.CountAll
+  commentId: T:SuperOffice.Data.SQL.CountAll
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: CountAll
+  nameWithType: CountAll
+  fullName: SuperOffice.Data.SQL.CountAll
 - uid: SuperOffice.Data.SQL.DatabaseFunctions
   commentId: T:SuperOffice.Data.SQL.DatabaseFunctions
   parent: SuperOffice.Data.SQL
@@ -1116,6 +1065,55 @@ references:
   name: DatabaseFunctions
   nameWithType: DatabaseFunctions
   fullName: SuperOffice.Data.SQL.DatabaseFunctions
+- uid: SuperOffice.Data.SQL.NonCoercedArgumentFunction
+  commentId: T:SuperOffice.Data.SQL.NonCoercedArgumentFunction
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: NonCoercedArgumentFunction
+  nameWithType: NonCoercedArgumentFunction
+  fullName: SuperOffice.Data.SQL.NonCoercedArgumentFunction
+- uid: SuperOffice.Data.SQL.Year
+  commentId: T:SuperOffice.Data.SQL.Year
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Year
+  nameWithType: Year
+  fullName: SuperOffice.Data.SQL.Year
+- uid: SuperOffice.Data.SQL.Month
+  commentId: T:SuperOffice.Data.SQL.Month
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Month
+  nameWithType: Month
+  fullName: SuperOffice.Data.SQL.Month
+- uid: SuperOffice.Data.SQL.Day
+  commentId: T:SuperOffice.Data.SQL.Day
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Day
+  nameWithType: Day
+  fullName: SuperOffice.Data.SQL.Day
+- uid: SuperOffice.Data.SQL.Hour
+  commentId: T:SuperOffice.Data.SQL.Hour
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Hour
+  nameWithType: Hour
+  fullName: SuperOffice.Data.SQL.Hour
+- uid: SuperOffice.Data.SQL.Minute
+  commentId: T:SuperOffice.Data.SQL.Minute
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Minute
+  nameWithType: Minute
+  fullName: SuperOffice.Data.SQL.Minute
+- uid: SuperOffice.Data.SQL.Second
+  commentId: T:SuperOffice.Data.SQL.Second
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Second
+  nameWithType: Second
+  fullName: SuperOffice.Data.SQL.Second
 - uid: SuperOffice.Data.SQL.Delete
   commentId: T:SuperOffice.Data.SQL.Delete
   parent: SuperOffice.Data.SQL
@@ -1151,6 +1149,12 @@ references:
   name: Equal
   nameWithType: Equal
   fullName: SuperOffice.Data.SQL.Equal
+- uid: SuperOffice.Data.SQL.Extensions
+  commentId: T:SuperOffice.Data.SQL.Extensions
+  isExternal: true
+  name: Extensions
+  nameWithType: Extensions
+  fullName: SuperOffice.Data.SQL.Extensions
 - uid: SuperOffice.Data.SQL.FieldInfo
   commentId: T:SuperOffice.Data.SQL.FieldInfo
   parent: SuperOffice.Data.SQL
@@ -1294,6 +1298,12 @@ references:
   name: In
   nameWithType: In
   fullName: SuperOffice.Data.SQL.In
+- uid: SuperOffice.Data.SQL.InAll
+  commentId: T:SuperOffice.Data.SQL.InAll
+  isExternal: true
+  name: InAll
+  nameWithType: InAll
+  fullName: SuperOffice.Data.SQL.InAll
 - uid: SuperOffice.Data.SQL.InnerJoin
   commentId: T:SuperOffice.Data.SQL.InnerJoin
   parent: SuperOffice.Data.SQL
@@ -1386,6 +1396,48 @@ references:
   name: Insert
   nameWithType: Insert
   fullName: SuperOffice.Data.SQL.Insert
+- uid: SuperOffice.Data.SQL.InsertFromSelect
+  commentId: T:SuperOffice.Data.SQL.InsertFromSelect
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: InsertFromSelect
+  nameWithType: InsertFromSelect
+  fullName: SuperOffice.Data.SQL.InsertFromSelect
+- uid: SuperOffice.Data.SQL.IntArrayOperatorBase
+  commentId: T:SuperOffice.Data.SQL.IntArrayOperatorBase
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: IntArrayOperatorBase
+  nameWithType: IntArrayOperatorBase
+  fullName: SuperOffice.Data.SQL.IntArrayOperatorBase
+- uid: SuperOffice.Data.SQL.HasAny
+  commentId: T:SuperOffice.Data.SQL.HasAny
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: HasAny
+  nameWithType: HasAny
+  fullName: SuperOffice.Data.SQL.HasAny
+- uid: SuperOffice.Data.SQL.HasAll
+  commentId: T:SuperOffice.Data.SQL.HasAll
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: HasAll
+  nameWithType: HasAll
+  fullName: SuperOffice.Data.SQL.HasAll
+- uid: SuperOffice.Data.SQL.MissingAny
+  commentId: T:SuperOffice.Data.SQL.MissingAny
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: MissingAny
+  nameWithType: MissingAny
+  fullName: SuperOffice.Data.SQL.MissingAny
+- uid: SuperOffice.Data.SQL.MissingAll
+  commentId: T:SuperOffice.Data.SQL.MissingAll
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: MissingAll
+  nameWithType: MissingAll
+  fullName: SuperOffice.Data.SQL.MissingAll
 - uid: SuperOffice.Data.SQL.Intersect
   commentId: T:SuperOffice.Data.SQL.Intersect
   isExternal: true
@@ -1504,6 +1556,12 @@ references:
   name: NotIn
   nameWithType: NotIn
   fullName: SuperOffice.Data.SQL.NotIn
+- uid: SuperOffice.Data.SQL.NotInAll
+  commentId: T:SuperOffice.Data.SQL.NotInAll
+  isExternal: true
+  name: NotInAll
+  nameWithType: NotInAll
+  fullName: SuperOffice.Data.SQL.NotInAll
 - uid: SuperOffice.Data.SQL.NotLike
   commentId: T:SuperOffice.Data.SQL.NotLike
   parent: SuperOffice.Data.SQL
@@ -1701,6 +1759,13 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.SQL.Soundex
+  commentId: T:SuperOffice.Data.SQL.Soundex
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Soundex
+  nameWithType: Soundex
+  fullName: SuperOffice.Data.SQL.Soundex
 - uid: SuperOffice.Data.SQL.SqlCommand
   commentId: T:SuperOffice.Data.SQL.SqlCommand
   parent: SuperOffice.Data.SQL
@@ -1770,6 +1835,13 @@ references:
   name: Top
   nameWithType: Top
   fullName: SuperOffice.Data.SQL.Top
+- uid: SuperOffice.Data.SQL.Trim
+  commentId: T:SuperOffice.Data.SQL.Trim
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Trim
+  nameWithType: Trim
+  fullName: SuperOffice.Data.SQL.Trim
 - uid: SuperOffice.Data.SQL.Union
   commentId: T:SuperOffice.Data.SQL.Union
   parent: SuperOffice.Data.SQL

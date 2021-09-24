@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Threading.GetThreadState<TThreadState>
   type: Delegate
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nOperation signature used to grab state from a calling thread and later pass it on to a newly created thread.\n"
   syntax:
@@ -56,10 +56,10 @@ items:
   fullName: SuperOffice.Threading.GetThreadState<TThreadState>.GetThreadState(System.Object, System.IntPtr)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public GetThreadState(object object, IntPtr method)
@@ -88,10 +88,10 @@ items:
   fullName: SuperOffice.Threading.GetThreadState<TThreadState>.Invoke()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public virtual TThreadState Invoke()
@@ -119,10 +119,10 @@ items:
   fullName: SuperOffice.Threading.GetThreadState<TThreadState>.BeginInvoke(System.AsyncCallback, System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object object)
@@ -155,10 +155,10 @@ items:
   fullName: SuperOffice.Threading.GetThreadState<TThreadState>.EndInvoke(System.IAsyncResult)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public virtual TThreadState EndInvoke(IAsyncResult result)

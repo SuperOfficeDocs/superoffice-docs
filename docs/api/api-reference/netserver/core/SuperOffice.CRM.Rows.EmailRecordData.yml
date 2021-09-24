@@ -14,6 +14,8 @@ items:
   - SuperOffice.CRM.Rows.EmailRecordData.EmailAddress
   - SuperOffice.CRM.Rows.EmailRecordData.EmailId
   - SuperOffice.CRM.Rows.EmailRecordData.LastBounce
+  - SuperOffice.CRM.Rows.EmailRecordData.LastBounceCode
+  - SuperOffice.CRM.Rows.EmailRecordData.LastBounceReason
   - SuperOffice.CRM.Rows.EmailRecordData.LastSent
   - SuperOffice.CRM.Rows.EmailRecordData.PersonId
   - SuperOffice.CRM.Rows.EmailRecordData.ProjectId
@@ -630,6 +632,60 @@ items:
     return:
       type: System.Int32
     content.vb: Public AppointmentId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailRecordData.LastBounceCode
+  commentId: F:SuperOffice.CRM.Rows.EmailRecordData.LastBounceCode
+  id: LastBounceCode
+  parent: SuperOffice.CRM.Rows.EmailRecordData
+  langs:
+  - csharp
+  - vb
+  name: LastBounceCode
+  nameWithType: EmailRecordData.LastBounceCode
+  fullName: SuperOffice.CRM.Rows.EmailRecordData.LastBounceCode
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIf this email address has bounced and we have a bounce code, this field will contain the code for the last bounce \n"
+  syntax:
+    content: public int LastBounceCode
+    return:
+      type: System.Int32
+    content.vb: Public LastBounceCode As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailRecordData.LastBounceReason
+  commentId: F:SuperOffice.CRM.Rows.EmailRecordData.LastBounceReason
+  id: LastBounceReason
+  parent: SuperOffice.CRM.Rows.EmailRecordData
+  langs:
+  - csharp
+  - vb
+  name: LastBounceReason
+  nameWithType: EmailRecordData.LastBounceReason
+  fullName: SuperOffice.CRM.Rows.EmailRecordData.LastBounceReason
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIf this email address has bounced and we have a bounce reason, this field will contain the reason for the last bounce \n"
+  syntax:
+    content: public string LastBounceReason
+    return:
+      type: System.String
+    content.vb: Public LastBounceReason As String
   modifiers.csharp:
   - public
   modifiers.vb:

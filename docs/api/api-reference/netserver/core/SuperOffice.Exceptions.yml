@@ -35,32 +35,8 @@ items:
   fullName: SuperOffice.Exceptions
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
-- uid: SuperOffice.Exceptions.SoDuplicateException
-  commentId: T:SuperOffice.Exceptions.SoDuplicateException
-  isExternal: true
-  name: SoDuplicateException
-  nameWithType: SoDuplicateException
-  fullName: SuperOffice.Exceptions.SoDuplicateException
-- uid: SuperOffice.Exceptions.SoInvalidSignatureException
-  commentId: T:SuperOffice.Exceptions.SoInvalidSignatureException
-  isExternal: true
-  name: SoInvalidSignatureException
-  nameWithType: SoInvalidSignatureException
-  fullName: SuperOffice.Exceptions.SoInvalidSignatureException
-- uid: SuperOffice.Exceptions.SoMassOperationException
-  commentId: T:SuperOffice.Exceptions.SoMassOperationException
-  isExternal: true
-  name: SoMassOperationException
-  nameWithType: SoMassOperationException
-  fullName: SuperOffice.Exceptions.SoMassOperationException
-- uid: SuperOffice.Exceptions.SoNotFoundException
-  commentId: T:SuperOffice.Exceptions.SoNotFoundException
-  isExternal: true
-  name: SoNotFoundException
-  nameWithType: SoNotFoundException
-  fullName: SuperOffice.Exceptions.SoNotFoundException
 - uid: SuperOffice.Exceptions.ExceptionHelper
   commentId: T:SuperOffice.Exceptions.ExceptionHelper
   parent: SuperOffice.Exceptions
@@ -68,30 +44,24 @@ references:
   name: ExceptionHelper
   nameWithType: ExceptionHelper
   fullName: SuperOffice.Exceptions.ExceptionHelper
-- uid: SuperOffice.Exceptions.SoDbAccessException
-  commentId: T:SuperOffice.Exceptions.SoDbAccessException
-  isExternal: true
-  name: SoDbAccessException
-  nameWithType: SoDbAccessException
-  fullName: SuperOffice.Exceptions.SoDbAccessException
-- uid: SuperOffice.Exceptions.SoInvalidCharacterException
-  commentId: T:SuperOffice.Exceptions.SoInvalidCharacterException
-  isExternal: true
-  name: SoInvalidCharacterException
-  nameWithType: SoInvalidCharacterException
-  fullName: SuperOffice.Exceptions.SoInvalidCharacterException
-- uid: SuperOffice.Exceptions.SoInvalidPasswordException
-  commentId: T:SuperOffice.Exceptions.SoInvalidPasswordException
-  isExternal: true
-  name: SoInvalidPasswordException
-  nameWithType: SoInvalidPasswordException
-  fullName: SuperOffice.Exceptions.SoInvalidPasswordException
 - uid: SuperOffice.Exceptions.PerformanceMonitoring
   commentId: T:SuperOffice.Exceptions.PerformanceMonitoring
   isExternal: true
   name: PerformanceMonitoring
   nameWithType: PerformanceMonitoring
   fullName: SuperOffice.Exceptions.PerformanceMonitoring
+- uid: SuperOffice.Exceptions.SoDbAccessException
+  commentId: T:SuperOffice.Exceptions.SoDbAccessException
+  isExternal: true
+  name: SoDbAccessException
+  nameWithType: SoDbAccessException
+  fullName: SuperOffice.Exceptions.SoDbAccessException
+- uid: SuperOffice.Exceptions.SoDuplicateException
+  commentId: T:SuperOffice.Exceptions.SoDuplicateException
+  isExternal: true
+  name: SoDuplicateException
+  nameWithType: SoDuplicateException
+  fullName: SuperOffice.Exceptions.SoDuplicateException
 - uid: SuperOffice.Exceptions.SoIllegalXmlException
   commentId: T:SuperOffice.Exceptions.SoIllegalXmlException
   isExternal: true
@@ -104,12 +74,42 @@ references:
   name: SoInvalidArgumentException
   nameWithType: SoInvalidArgumentException
   fullName: SuperOffice.Exceptions.SoInvalidArgumentException
+- uid: SuperOffice.Exceptions.SoInvalidCharacterException
+  commentId: T:SuperOffice.Exceptions.SoInvalidCharacterException
+  isExternal: true
+  name: SoInvalidCharacterException
+  nameWithType: SoInvalidCharacterException
+  fullName: SuperOffice.Exceptions.SoInvalidCharacterException
+- uid: SuperOffice.Exceptions.SoInvalidPasswordException
+  commentId: T:SuperOffice.Exceptions.SoInvalidPasswordException
+  isExternal: true
+  name: SoInvalidPasswordException
+  nameWithType: SoInvalidPasswordException
+  fullName: SuperOffice.Exceptions.SoInvalidPasswordException
+- uid: SuperOffice.Exceptions.SoInvalidSignatureException
+  commentId: T:SuperOffice.Exceptions.SoInvalidSignatureException
+  isExternal: true
+  name: SoInvalidSignatureException
+  nameWithType: SoInvalidSignatureException
+  fullName: SuperOffice.Exceptions.SoInvalidSignatureException
 - uid: SuperOffice.Exceptions.SoLicenseException
   commentId: T:SuperOffice.Exceptions.SoLicenseException
   isExternal: true
   name: SoLicenseException
   nameWithType: SoLicenseException
   fullName: SuperOffice.Exceptions.SoLicenseException
+- uid: SuperOffice.Exceptions.SoMassOperationException
+  commentId: T:SuperOffice.Exceptions.SoMassOperationException
+  isExternal: true
+  name: SoMassOperationException
+  nameWithType: SoMassOperationException
+  fullName: SuperOffice.Exceptions.SoMassOperationException
+- uid: SuperOffice.Exceptions.SoNotFoundException
+  commentId: T:SuperOffice.Exceptions.SoNotFoundException
+  isExternal: true
+  name: SoNotFoundException
+  nameWithType: SoNotFoundException
+  fullName: SuperOffice.Exceptions.SoNotFoundException
 - uid: SuperOffice.Exceptions.SoNotSupportedException
   commentId: T:SuperOffice.Exceptions.SoNotSupportedException
   isExternal: true

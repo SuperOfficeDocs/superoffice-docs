@@ -20,10 +20,10 @@ items:
   fullName: SuperOffice.Diagnostics.ExecutionStopwatch
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nStopwathc to meassure CPU time.\n"
   syntax:
@@ -62,10 +62,10 @@ items:
   fullName: SuperOffice.Diagnostics.ExecutionStopwatch.Start()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nStart measuring\n"
   syntax:
@@ -88,10 +88,10 @@ items:
   fullName: SuperOffice.Diagnostics.ExecutionStopwatch.StartNew()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nCreate a new stopwatch and start measuring\n"
   syntax:
@@ -118,10 +118,10 @@ items:
   fullName: SuperOffice.Diagnostics.ExecutionStopwatch.Stop()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nStop measuring\n"
   syntax:
@@ -144,10 +144,10 @@ items:
   fullName: SuperOffice.Diagnostics.ExecutionStopwatch.Reset()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nReset timers.\n"
   syntax:
@@ -170,10 +170,10 @@ items:
   fullName: SuperOffice.Diagnostics.ExecutionStopwatch.ExecutionStopwatch()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public ExecutionStopwatch()
@@ -195,10 +195,10 @@ items:
   fullName: SuperOffice.Diagnostics.ExecutionStopwatch.Elapsed
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nElapsed time from start to stop\n"
   syntax:
@@ -226,10 +226,10 @@ items:
   fullName: SuperOffice.Diagnostics.ExecutionStopwatch.IsRunning
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nIs the timer running\n"
   syntax:

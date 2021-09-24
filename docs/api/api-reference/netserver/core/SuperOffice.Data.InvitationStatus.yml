@@ -23,10 +23,10 @@ items:
   fullName: SuperOffice.Data.InvitationStatus
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nStatus if this appointment represents an invitation\n"
   syntax:
@@ -55,10 +55,10 @@ items:
   fullName: SuperOffice.Data.InvitationStatus.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown - used when initializing\n"
   syntax:
@@ -83,10 +83,10 @@ items:
   fullName: SuperOffice.Data.InvitationStatus.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: 1: Default value when the appointment is not a booking child\n"
   syntax:
@@ -111,10 +111,10 @@ items:
   fullName: SuperOffice.Data.InvitationStatus.Accepted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: 2: The invitation has been accepted\n"
   syntax:
@@ -139,10 +139,10 @@ items:
   fullName: SuperOffice.Data.InvitationStatus.Hidden
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: 4: Hidden\n"
   syntax:
@@ -167,10 +167,10 @@ items:
   fullName: SuperOffice.Data.InvitationStatus.Invitation
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: 5: An invitation to a meeting not observed by the attending party\n"
   syntax:
@@ -195,10 +195,10 @@ items:
   fullName: SuperOffice.Data.InvitationStatus.Moved
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: 6: The meeting has been moved\n"
   syntax:
@@ -223,10 +223,10 @@ items:
   fullName: SuperOffice.Data.InvitationStatus.Seen
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: 7: An invitation to a meeting observed by the attending party. This can also be viewed upon as a tentative response to participate in the meeting.\n"
   syntax:
@@ -251,10 +251,10 @@ items:
   fullName: SuperOffice.Data.InvitationStatus.MovedSeen
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: 8: The meeting has been moved, and this is observed by the attending party\n"
   syntax:
@@ -279,10 +279,10 @@ items:
   fullName: SuperOffice.Data.InvitationStatus.Declined
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n9: 9: The invitation has been declined/rejected\n"
   syntax:
@@ -307,10 +307,10 @@ items:
   fullName: SuperOffice.Data.InvitationStatus.Cancelled
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n10: 10: The meeting has been cancelled.\n"
   syntax:

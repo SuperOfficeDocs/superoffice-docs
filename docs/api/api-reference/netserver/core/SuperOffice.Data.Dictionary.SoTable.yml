@@ -44,6 +44,7 @@ items:
   - SuperOffice.Data.Dictionary.SoTable.SoftDeletedDate
   - SuperOffice.Data.Dictionary.SoTable.SystemTable
   - SuperOffice.Data.Dictionary.SoTable.TableNumber
+  - SuperOffice.Data.Dictionary.SoTable.TempTableCreationStamp
   - SuperOffice.Data.Dictionary.SoTable.ToString
   - SuperOffice.Data.Dictionary.SoTable.TravelTransactionLog
   langs:
@@ -1320,6 +1321,37 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property AutoGenerateGuid As Boolean
   overload: SuperOffice.Data.Dictionary.SoTable.AutoGenerateGuid*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.Dictionary.SoTable.TempTableCreationStamp
+  commentId: P:SuperOffice.Data.Dictionary.SoTable.TempTableCreationStamp
+  id: TempTableCreationStamp
+  parent: SuperOffice.Data.Dictionary.SoTable
+  langs:
+  - csharp
+  - vb
+  name: TempTableCreationStamp
+  nameWithType: SoTable.TempTableCreationStamp
+  fullName: SuperOffice.Data.Dictionary.SoTable.TempTableCreationStamp
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nIf != null, then this is the UTC creation time for this Temporary Table; otherwise, this is not a temporary table\n"
+  syntax:
+    content: public DateTime TempTableCreationStamp { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property TempTableCreationStamp As Date
+  overload: SuperOffice.Data.Dictionary.SoTable.TempTableCreationStamp*
   modifiers.csharp:
   - public
   - get
@@ -2735,6 +2767,19 @@ references:
   name: AutoGenerateGuid
   nameWithType: SoTable.AutoGenerateGuid
   fullName: SuperOffice.Data.Dictionary.SoTable.AutoGenerateGuid
+- uid: SuperOffice.Data.Dictionary.SoTable.TempTableCreationStamp*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoTable.TempTableCreationStamp
+  isExternal: true
+  name: TempTableCreationStamp
+  nameWithType: SoTable.TempTableCreationStamp
+  fullName: SuperOffice.Data.Dictionary.SoTable.TempTableCreationStamp
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
 - uid: SuperOffice.Data.Dictionary.SoTable.Kind*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.Kind
   isExternal: true

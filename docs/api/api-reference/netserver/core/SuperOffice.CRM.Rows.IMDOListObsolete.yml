@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.CRM.Rows.IMDOListObsolete
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Rows
   summary: "\nInterface for the MDO-lists.\n"
   remarks: Implement this when making a MDO List.
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.CRM.Rows.IMDOListObsolete.HistoryNodesCount
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Rows
   summary: "\nThe number of history-nodes in the list.\n"
   syntax:
@@ -83,10 +83,10 @@ items:
   fullName: SuperOffice.CRM.Rows.IMDOListObsolete.RootNodesCount
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Rows
   summary: "\nThe number of root-nodes in the list.\n"
   syntax:
@@ -112,10 +112,10 @@ items:
   fullName: SuperOffice.CRM.Rows.IMDOListObsolete.HeadingsCount
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Rows
   summary: "\nThe number of headings in the MDO-list.\n"
   syntax:
@@ -141,10 +141,10 @@ items:
   fullName: SuperOffice.CRM.Rows.IMDOListObsolete.HistoryNodes
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Rows
   summary: "\n\n"
   syntax:
@@ -170,10 +170,10 @@ items:
   fullName: SuperOffice.CRM.Rows.IMDOListObsolete.RootNodes
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Rows
   summary: "\n\n"
   syntax:
@@ -199,10 +199,10 @@ items:
   fullName: SuperOffice.CRM.Rows.IMDOListObsolete.Headings
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Rows
   summary: "\n\n"
   syntax:

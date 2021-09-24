@@ -22,10 +22,10 @@ items:
   fullName: SuperOffice.Data.CalMethod
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValid iCal methods\n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.Data.CalMethod.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Method is not known\n"
   syntax:
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.Data.CalMethod.Add
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Add one or more instances to an existing event.\n"
   syntax:
@@ -110,10 +110,10 @@ items:
   fullName: SuperOffice.Data.CalMethod.Cancel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Cancel one or more instances of an existing event.\n"
   syntax:
@@ -138,10 +138,10 @@ items:
   fullName: SuperOffice.Data.CalMethod.Counter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Counter a REQUEST with an alternative proposal, Sent by an &apos;Attendee&apos; to the &apos;Organizer&apos;. \n"
   syntax:
@@ -166,10 +166,10 @@ items:
   fullName: SuperOffice.Data.CalMethod.DeclineCounter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Decline a counter proposal. Sent to an &apos;Attendee&apos; by the &apos;Organizer&apos;.\n"
   syntax:
@@ -194,10 +194,10 @@ items:
   fullName: SuperOffice.Data.CalMethod.Publish
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Post notification of an event. Used primarily as a method of advertising the existence of an event.\n"
   syntax:
@@ -222,10 +222,10 @@ items:
   fullName: SuperOffice.Data.CalMethod.Refresh
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: A request is sent to an &apos;Organizer&apos; by an &apos;Attendee&apos; asking for the latest version of an event to be resent to the requester.\n"
   syntax:
@@ -250,10 +250,10 @@ items:
   fullName: SuperOffice.Data.CalMethod.Reply
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: Reply to an event request. Clients may set their status (&apos;partstat&apos;) to ACCEPTED, DECLINED, TENTATIVE, or DELEGATED.\n"
   syntax:
@@ -278,10 +278,10 @@ items:
   fullName: SuperOffice.Data.CalMethod.Request
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Make a request for an event. This is an explicit invitation to one or more &apos;Attendees&apos;. Event Requests are also used to update or change an existing event. Clients that cannot handle REQUEST may degrade the event to view it as an PUBLISH.\n"
   syntax:

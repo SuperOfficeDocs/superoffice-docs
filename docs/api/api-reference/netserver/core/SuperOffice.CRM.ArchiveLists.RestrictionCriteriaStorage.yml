@@ -17,6 +17,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.GetRestrictions(System.String,System.String)
   - SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.GetRestrictionsForGroup(System.String,System.String,System.Int32)
   - SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.GetSpecifiedRestrictionsWithDefaults(System.String,System.String,System.String[])
+  - SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.GetStrippedProviderName(System.String)
   - SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.SaveRestrictionGroup(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup)
   - SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.SaveRestrictions(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   - SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.StorageType
@@ -127,6 +128,41 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.GetStrippedProviderName(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.GetStrippedProviderName(System.String)
+  id: GetStrippedProviderName(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage
+  langs:
+  - csharp
+  - vb
+  name: GetStrippedProviderName(String)
+  nameWithType: RestrictionCriteriaStorage.GetStrippedProviderName(String)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.GetStrippedProviderName(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nExtract the actual provider name from a possible providerName|guiName composite name string\n"
+  syntax:
+    content: public static string GetStrippedProviderName(string rawProviderName)
+    parameters:
+    - id: rawProviderName
+      type: System.String
+      description: raw provider name, may contain a pipe symbol and a gui name
+    return:
+      type: System.String
+      description: Provider name; what is in front of the optional pipe, or everything if no pipe is present
+    content.vb: Public Shared Function GetStrippedProviderName(rawProviderName As String) As String
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.GetStrippedProviderName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.SaveRestrictions(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.SaveRestrictions(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   id: SaveRestrictions(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
@@ -1724,6 +1760,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.GetStrippedProviderName*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.GetStrippedProviderName
+  isExternal: true
+  name: GetStrippedProviderName
+  nameWithType: RestrictionCriteriaStorage.GetStrippedProviderName
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.GetStrippedProviderName
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageBase.SaveRestrictions(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionStorageBase.SaveRestrictions(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   parent: SuperOffice.CRM.ArchiveLists.RestrictionStorageBase

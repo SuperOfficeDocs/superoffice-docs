@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.MoveMergeOperation
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public enum MoveMergeOperation
@@ -47,10 +47,10 @@ items:
   fullName: SuperOffice.Data.MoveMergeOperation.Move
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Move = 0
@@ -74,10 +74,10 @@ items:
   fullName: SuperOffice.Data.MoveMergeOperation.Merge
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Merge = 1
@@ -101,10 +101,10 @@ items:
   fullName: SuperOffice.Data.MoveMergeOperation.Copy
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Copy = 2

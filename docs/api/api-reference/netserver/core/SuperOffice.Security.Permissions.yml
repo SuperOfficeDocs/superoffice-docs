@@ -4,6 +4,7 @@ items:
   commentId: N:SuperOffice.Security.Permissions
   id: SuperOffice.Security.Permissions
   children:
+  - SuperOffice.Security.Permissions.SoSentryOverridePermission
   - SuperOffice.Security.Permissions.SoStrongName
   langs:
   - csharp
@@ -13,8 +14,14 @@ items:
   fullName: SuperOffice.Security.Permissions
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
+- uid: SuperOffice.Security.Permissions.SoSentryOverridePermission
+  commentId: T:SuperOffice.Security.Permissions.SoSentryOverridePermission
+  isExternal: true
+  name: SoSentryOverridePermission
+  nameWithType: SoSentryOverridePermission
+  fullName: SuperOffice.Security.Permissions.SoSentryOverridePermission
 - uid: SuperOffice.Security.Permissions.SoStrongName
   commentId: T:SuperOffice.Security.Permissions.SoStrongName
   isExternal: true

@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Util.XmlSchemaUtil
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nThis class holds helper methods for XML Schema reading and writing\n"
   syntax:
@@ -57,10 +57,10 @@ items:
   fullName: SuperOffice.Util.XmlSchemaUtil.ConvertToSchemaType(System.Type, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturns the correct Schema type from the CLR type.\nTo be used when writing Schemas without using a XMLWriter class\n"
   syntax:
@@ -95,10 +95,10 @@ items:
   fullName: SuperOffice.Util.XmlSchemaUtil.XmlSchemaUtil()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public XmlSchemaUtil()

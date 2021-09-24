@@ -33,10 +33,10 @@ items:
   fullName: SuperOffice.Data.ETableRight
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nTable right is a combination of bits representing permissions on a row.\nThis Enum consists of flag values that can be combined.\n"
   syntax:
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.Data.ETableRight.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: The row should be hidden from the user.\n"
   syntax:
@@ -103,10 +103,10 @@ items:
   fullName: SuperOffice.Data.ETableRight.Select
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: The user is allowed to see the row.\n"
   syntax:
@@ -131,10 +131,10 @@ items:
   fullName: SuperOffice.Data.ETableRight.Update
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: The user is allowed to modify the values in this row.\n"
   syntax:
@@ -159,10 +159,10 @@ items:
   fullName: SuperOffice.Data.ETableRight.Insert
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: The user is allowed to add new rows to the table.\n"
   syntax:
@@ -187,10 +187,10 @@ items:
   fullName: SuperOffice.Data.ETableRight.Delete
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: The user is allowed to delete this row.\n"
   syntax:
@@ -215,10 +215,10 @@ items:
   fullName: SuperOffice.Data.ETableRight.Filtering
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16: A flag used to indicate that some fields may be hidden.\n"
   syntax:
@@ -243,10 +243,10 @@ items:
   fullName: SuperOffice.Data.ETableRight.RestrictedUpdate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n32: A hint flag used to indicate that some fields may not be updateable, even though the user has update access to the row.\n"
   syntax:
@@ -271,10 +271,10 @@ items:
   fullName: SuperOffice.Data.ETableRight.Unused1
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n64: Unused value only present for serializatrion purposes\n"
   syntax:
@@ -299,10 +299,10 @@ items:
   fullName: SuperOffice.Data.ETableRight.Uninitialized
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n128: Magic value to indicate not\n"
   syntax:
@@ -327,10 +327,10 @@ items:
   fullName: SuperOffice.Data.ETableRight.FULL
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n15: Select, Update, Insert, Delete - no restrictions\n"
   syntax:
@@ -355,10 +355,10 @@ items:
   fullName: SuperOffice.Data.ETableRight.WRITE
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n38: Update/RestrictedUpdate or Insert\n"
   syntax:
@@ -383,10 +383,10 @@ items:
   fullName: SuperOffice.Data.ETableRight.URU
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n34: Update or RestrictedUpdate\n"
   syntax:
@@ -411,10 +411,10 @@ items:
   fullName: SuperOffice.Data.ETableRight.UDR
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n11: Select, Update, Delete\n"
   syntax:
@@ -439,10 +439,10 @@ items:
   fullName: SuperOffice.Data.ETableRight.UR
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Select or Update\n"
   syntax:
@@ -467,10 +467,10 @@ items:
   fullName: SuperOffice.Data.ETableRight.URI
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: Select, Update, Insert\n"
   syntax:
@@ -495,10 +495,10 @@ items:
   fullName: SuperOffice.Data.ETableRight.R
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Select only\n"
   syntax:
@@ -523,10 +523,10 @@ items:
   fullName: SuperOffice.Data.ETableRight.RI
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Select and Insert (Anonymous)\n"
   syntax:
@@ -551,10 +551,10 @@ items:
   fullName: SuperOffice.Data.ETableRight.RF
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n17: Select or Filter\n"
   syntax:
@@ -579,10 +579,10 @@ items:
   fullName: SuperOffice.Data.ETableRight.F
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16: just Filtering\n"
   syntax:
@@ -607,10 +607,10 @@ items:
   fullName: SuperOffice.Data.ETableRight.FI
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n20: Filtering and Insert (Anonymous)\n"
   syntax:

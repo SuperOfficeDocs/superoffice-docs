@@ -35,6 +35,8 @@ items:
   - SuperOffice.CRM.Rows.SystemEventRow.SystemEventRowIdxBase
   derivedClasses:
   - SuperOffice.CRM.Rows.SystemEventRows.CustomSearch
+  - SuperOffice.CRM.Rows.SystemEventRows.IdxEventkey
+  - SuperOffice.CRM.Rows.SystemEventRows.IdxEventkeyScope
   implements:
   - System.ICloneable
   - SuperOffice.CRM.Security.ISentryIgnorable

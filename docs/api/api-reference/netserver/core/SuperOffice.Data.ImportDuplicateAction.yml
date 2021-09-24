@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.ImportDuplicateAction
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDuplicate action for import\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.ImportDuplicateAction.Add
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Add\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.ImportDuplicateAction.MergeBlank
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Merge blank\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.ImportDuplicateAction.Replace
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Replace\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.ImportDuplicateAction.Skip
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Skip\n"
   syntax:

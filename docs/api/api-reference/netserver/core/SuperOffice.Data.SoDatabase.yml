@@ -50,8 +50,6 @@ items:
   - SuperOffice.Data.SoDatabase.LoginRights
   - SuperOffice.Data.SoDatabase.LogOut
   - SuperOffice.Data.SoDatabase.LogOutInProgress
-  - SuperOffice.Data.SoDatabase.OnAfterLogOut
-  - SuperOffice.Data.SoDatabase.OnBeforeLogOut
   - SuperOffice.Data.SoDatabase.OwnerContactId
   - SuperOffice.Data.SoDatabase.RemoteTravel
   - SuperOffice.Data.SoDatabase.ReporterStudio
@@ -446,19 +444,17 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: public static bool LogOutInProgress { get; }
+    content: public bool LogOutInProgress { get; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Shared ReadOnly Property LogOutInProgress As Boolean
+    content.vb: Public ReadOnly Property LogOutInProgress As Boolean
   overload: SuperOffice.Data.SoDatabase.LogOutInProgress*
   modifiers.csharp:
   - public
-  - static
   - get
   modifiers.vb:
   - Public
-  - Shared
   - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.DatabaseCountryId
   commentId: P:SuperOffice.Data.SoDatabase.DatabaseCountryId
@@ -2138,90 +2134,6 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: SuperOffice.Data.SoDatabase.OnBeforeLogOut
-  commentId: E:SuperOffice.Data.SoDatabase.OnBeforeLogOut
-  id: OnBeforeLogOut
-  parent: SuperOffice.Data.SoDatabase
-  langs:
-  - csharp
-  - vb
-  name: OnBeforeLogOut
-  nameWithType: SoDatabase.OnBeforeLogOut
-  fullName: SuperOffice.Data.SoDatabase.OnBeforeLogOut
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  syntax:
-    content: >-
-      [Obsolete("Use SoDatabaseContext.OnBeforeLogOut", true)]
-
-      public static event SoDatabaseLogOut OnBeforeLogOut
-    return:
-      type: SuperOffice.SoDatabaseLogOut
-    content.vb: >-
-      <Obsolete("Use SoDatabaseContext.OnBeforeLogOut", True)>
-
-      Public Shared Event OnBeforeLogOut As SoDatabaseLogOut
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use SoDatabaseContext.OnBeforeLogOut
-    - type: System.Boolean
-      value: true
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Data.SoDatabase.OnAfterLogOut
-  commentId: E:SuperOffice.Data.SoDatabase.OnAfterLogOut
-  id: OnAfterLogOut
-  parent: SuperOffice.Data.SoDatabase
-  langs:
-  - csharp
-  - vb
-  name: OnAfterLogOut
-  nameWithType: SoDatabase.OnAfterLogOut
-  fullName: SuperOffice.Data.SoDatabase.OnAfterLogOut
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  syntax:
-    content: >-
-      [Obsolete("Use SoDatabaseContext.OnBeforeLogOut", false)]
-
-      public static event SoDatabaseLogOut OnAfterLogOut
-    return:
-      type: SuperOffice.SoDatabaseLogOut
-    content.vb: >-
-      <Obsolete("Use SoDatabaseContext.OnBeforeLogOut", False)>
-
-      Public Shared Event OnAfterLogOut As SoDatabaseLogOut
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use SoDatabaseContext.OnBeforeLogOut
-    - type: System.Boolean
-      value: false
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
@@ -3127,16 +3039,3 @@ references:
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
-- uid: SuperOffice.SoDatabaseLogOut
-  commentId: T:SuperOffice.SoDatabaseLogOut
-  parent: SuperOffice
-  isExternal: true
-  name: SoDatabaseLogOut
-  nameWithType: SoDatabaseLogOut
-  fullName: SuperOffice.SoDatabaseLogOut
-- uid: SuperOffice
-  commentId: N:SuperOffice
-  isExternal: true
-  name: SuperOffice
-  nameWithType: SuperOffice
-  fullName: SuperOffice

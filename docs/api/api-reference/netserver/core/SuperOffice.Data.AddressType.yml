@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Data.AddressType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nThe type of Address\nThis Enum is used by:  address.atype_idx\n"
   syntax:
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.Data.AddressType.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown - used when initializing \n"
   syntax:
@@ -79,10 +79,10 @@ items:
   fullName: SuperOffice.Data.AddressType.ContactPostalAddress
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: The address is a contact&apos;s postal address\n"
   syntax:
@@ -107,10 +107,10 @@ items:
   fullName: SuperOffice.Data.AddressType.ContactStreetAddress
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: The address is a contact&apos;s street address\n"
   syntax:
@@ -135,10 +135,10 @@ items:
   fullName: SuperOffice.Data.AddressType.PersonPrivateAddress
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16387: The address is a person&apos;s private address\n"
   syntax:
@@ -163,10 +163,10 @@ items:
   fullName: SuperOffice.Data.AddressType.QuoteBillingAddress
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8196: The address is the shipping address for a quote\n"
   syntax:
@@ -191,10 +191,10 @@ items:
   fullName: SuperOffice.Data.AddressType.QuoteShippingAddress
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8197: The address is the shipping address for a quote\n"
   syntax:

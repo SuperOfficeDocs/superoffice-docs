@@ -18,7 +18,9 @@ items:
   - SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin
   - SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationScalarPlugin
   - SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin
+  - SuperOffice.CRM.ArchiveLists.Aggregation.MaxAggregation
   - SuperOffice.CRM.ArchiveLists.Aggregation.MedianAggregation
+  - SuperOffice.CRM.ArchiveLists.Aggregation.MinAggregation
   - SuperOffice.CRM.ArchiveLists.Aggregation.NoAggregation
   - SuperOffice.CRM.ArchiveLists.Aggregation.PercentOfTotalAggregation
   - SuperOffice.CRM.ArchiveLists.Aggregation.SumAggregation
@@ -122,12 +124,24 @@ references:
   name: AggregationPluginAttribute
   nameWithType: AggregationPluginAttribute
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginAttribute
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.MaxAggregation
+  commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.MaxAggregation
+  isExternal: true
+  name: MaxAggregation
+  nameWithType: MaxAggregation
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.MaxAggregation
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.MedianAggregation
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.MedianAggregation
   isExternal: true
   name: MedianAggregation
   nameWithType: MedianAggregation
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.MedianAggregation
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.MinAggregation
+  commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.MinAggregation
+  isExternal: true
+  name: MinAggregation
+  nameWithType: MinAggregation
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.MinAggregation
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.NoAggregation
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.NoAggregation
   isExternal: true

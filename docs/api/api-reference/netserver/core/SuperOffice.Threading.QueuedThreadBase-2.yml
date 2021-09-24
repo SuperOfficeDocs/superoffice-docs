@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nThis class is a base class for execution strategies that queue asynchronous work.\n"
   remarks: "\nThis class provides a queued execution strategy. However, it does not provide a concrete implementation\nof the queue itself, since there are several ways to skin that particular cat.\n"
@@ -83,10 +83,10 @@ items:
   fullName: SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.QueuedThreadBase()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nConstructor, only called from derived classes.\n"
   syntax:
@@ -111,10 +111,10 @@ items:
   fullName: SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nScheduling strategy method, provides the basic &quot;queue and process in FIFO order&quot; strategy\n"
   remarks: "\nThe queue actually used is an abstract property, that must be implemented by a derived class.\nThis ducks the question of what kind of queue we&apos;re using, whether it is static by the calling\nthread, or whatever.\n<p></p>\nIf no worker thread is currently running, one is created after the work has been queued.\n"
@@ -143,10 +143,10 @@ items:
   fullName: SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInformation
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nThe derived class must provide an implementation of actual storage/allocation of \nunits of work, in whatever manner supports the execution model.\n"
   syntax:

@@ -20,10 +20,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThis section governs authentication behaviour when users are explicitly authenticated, typically by calling SoSession.Authenticate or the corresponding WCF service\n"
   syntax:
@@ -58,10 +58,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.PartnerAllowed
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nIs partner access allowed: [True|False]\n"
   syntax:
@@ -91,10 +91,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.EmployeeAllowed
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nIs employee access allowed: [True|False]\n"
   syntax:
@@ -124,10 +124,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.SystemAllowed
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nIs system user access allowed: [True|False]\n"
   syntax:
@@ -157,10 +157,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.AnonymousAllowed
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nIs anonymous access allowed: [True|False]\n"
   syntax:
@@ -190,10 +190,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.DBUser
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nDatabase user when running on behalf of explicitly authenticated users\n"
   syntax:
@@ -223,10 +223,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.DBPassword
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nDatabase user password\n"
   syntax:
@@ -256,10 +256,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.CommonDBConnection
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nUse the same connection string for all users, applying the common User and Password from this section, vs. using the one provided elsewhere.\n"
   syntax:

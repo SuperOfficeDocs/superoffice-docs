@@ -1,0 +1,1007 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  commentId: T:SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  id: DBC.DashboardTileDefinitionFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.CurrencyId
+  - SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.CurrencyMode
+  - SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.DashboardTileDefinitionId
+  - SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.DefaultHeight
+  - SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.DefaultWidth
+  - SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.Description
+  - SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.EntityName
+  - SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.EntityType
+  - SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.LayoutConfig
+  - SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.Measure
+  - SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.MeasureByField
+  - SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.MeasureField
+  - SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.Name
+  - SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.Registered
+  - SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.SecondarySelectionId
+  - SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.SelectionId
+  - SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.SortBy
+  - SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.TileType
+  - SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.Updated
+  - SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.DashboardTileDefinitionFields
+  nameWithType: DBC.DashboardTileDefinitionFields
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for DashboardTileDefinition, Describes the contents of a tile\n"
+  syntax:
+    content: public static class DashboardTileDefinitionFields
+    content.vb: Public Module DashboardTileDefinitionFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.DashboardTileDefinitionId
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.DashboardTileDefinitionId
+  id: DashboardTileDefinitionId
+  parent: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileDefinitionId
+  nameWithType: DBC.DashboardTileDefinitionFields.DashboardTileDefinitionId
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.DashboardTileDefinitionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTileDefinition.DashboardTileDefinitionId: Primary key\n"
+  syntax:
+    content: public const string DashboardTileDefinitionId = "dashboard_tile_definition_id"
+    return:
+      type: System.String
+    content.vb: Public Const DashboardTileDefinitionId As String = "dashboard_tile_definition_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.DashboardTileDefinitionFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTileDefinition.Name: The name of the tile\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.Description
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DBC.DashboardTileDefinitionFields.Description
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTileDefinition.Description: Detailed description\n"
+  syntax:
+    content: public const string Description = "description"
+    return:
+      type: System.String
+    content.vb: Public Const Description As String = "description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.DefaultWidth
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.DefaultWidth
+  id: DefaultWidth
+  parent: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: DefaultWidth
+  nameWithType: DBC.DashboardTileDefinitionFields.DefaultWidth
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.DefaultWidth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTileDefinition.DefaultWidth: Default width when added to a dashboard\n"
+  syntax:
+    content: public const string DefaultWidth = "default_width"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultWidth As String = "default_width"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.DefaultHeight
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.DefaultHeight
+  id: DefaultHeight
+  parent: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: DefaultHeight
+  nameWithType: DBC.DashboardTileDefinitionFields.DefaultHeight
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.DefaultHeight
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTileDefinition.DefaultHeight: Default height when added to a dashboard\n"
+  syntax:
+    content: public const string DefaultHeight = "default_height"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultHeight As String = "default_height"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.TileType
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.TileType
+  id: TileType
+  parent: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: TileType
+  nameWithType: DBC.DashboardTileDefinitionFields.TileType
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.TileType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTileDefinition.TileType: Dashboard tile type\n"
+  syntax:
+    content: public const string TileType = "tile_type"
+    return:
+      type: System.String
+    content.vb: Public Const TileType As String = "tile_type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.EntityType
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.EntityType
+  id: EntityType
+  parent: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: EntityType
+  nameWithType: DBC.DashboardTileDefinitionFields.EntityType
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.EntityType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTileDefinition.EntityType: Dashboard entity type\n"
+  syntax:
+    content: public const string EntityType = "entity_type"
+    return:
+      type: System.String
+    content.vb: Public Const EntityType As String = "entity_type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.DashboardTileDefinitionFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTileDefinition.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.DashboardTileDefinitionFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTileDefinition.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.DashboardTileDefinitionFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTileDefinition.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.DashboardTileDefinitionFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTileDefinition.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.DashboardTileDefinitionFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTileDefinition.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.SelectionId
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.SelectionId
+  id: SelectionId
+  parent: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: DBC.DashboardTileDefinitionFields.SelectionId
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.SelectionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTileDefinition.SelectionId: Selection holding the criterias for the tile definition\n"
+  syntax:
+    content: public const string SelectionId = "selection_id"
+    return:
+      type: System.String
+    content.vb: Public Const SelectionId As String = "selection_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.CurrencyId
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.CurrencyId
+  id: CurrencyId
+  parent: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: CurrencyId
+  nameWithType: DBC.DashboardTileDefinitionFields.CurrencyId
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.CurrencyId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTileDefinition.CurrencyId: Currency of sale\n"
+  syntax:
+    content: public const string CurrencyId = "currency_id"
+    return:
+      type: System.String
+    content.vb: Public Const CurrencyId As String = "currency_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.CurrencyMode
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.CurrencyMode
+  id: CurrencyMode
+  parent: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: CurrencyMode
+  nameWithType: DBC.DashboardTileDefinitionFields.CurrencyMode
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.CurrencyMode
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTileDefinition.CurrencyMode: Dashboard currency mode\n"
+  syntax:
+    content: public const string CurrencyMode = "currency_mode"
+    return:
+      type: System.String
+    content.vb: Public Const CurrencyMode As String = "currency_mode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.SortBy
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.SortBy
+  id: SortBy
+  parent: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: SortBy
+  nameWithType: DBC.DashboardTileDefinitionFields.SortBy
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.SortBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTileDefinition.SortBy: Sort by field\n"
+  syntax:
+    content: public const string SortBy = "sort_by"
+    return:
+      type: System.String
+    content.vb: Public Const SortBy As String = "sort_by"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.Measure
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.Measure
+  id: Measure
+  parent: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: Measure
+  nameWithType: DBC.DashboardTileDefinitionFields.Measure
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.Measure
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTileDefinition.Measure: Dashboard measure type (Count, Sum, Avg, etc.)\n"
+  syntax:
+    content: public const string Measure = "measure"
+    return:
+      type: System.String
+    content.vb: Public Const Measure As String = "measure"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.MeasureField
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.MeasureField
+  id: MeasureField
+  parent: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: MeasureField
+  nameWithType: DBC.DashboardTileDefinitionFields.MeasureField
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.MeasureField
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTileDefinition.MeasureField: Field to be measured\n"
+  syntax:
+    content: public const string MeasureField = "measure_field"
+    return:
+      type: System.String
+    content.vb: Public Const MeasureField As String = "measure_field"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.SecondarySelectionId
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.SecondarySelectionId
+  id: SecondarySelectionId
+  parent: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: SecondarySelectionId
+  nameWithType: DBC.DashboardTileDefinitionFields.SecondarySelectionId
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.SecondarySelectionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTileDefinition.SecondarySelectionId: Selection holding the replaced or changed criterias (period comparisons etc)\n"
+  syntax:
+    content: public const string SecondarySelectionId = "secondary_selection_id"
+    return:
+      type: System.String
+    content.vb: Public Const SecondarySelectionId As String = "secondary_selection_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.LayoutConfig
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.LayoutConfig
+  id: LayoutConfig
+  parent: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: LayoutConfig
+  nameWithType: DBC.DashboardTileDefinitionFields.LayoutConfig
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.LayoutConfig
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTileDefinition.LayoutConfig: The JSON formatted layout config\n"
+  syntax:
+    content: public const string LayoutConfig = "layout_config"
+    return:
+      type: System.String
+    content.vb: Public Const LayoutConfig As String = "layout_config"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.EntityName
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.EntityName
+  id: EntityName
+  parent: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: EntityName
+  nameWithType: DBC.DashboardTileDefinitionFields.EntityName
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.EntityName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTileDefinition.EntityName: The entity measured by this tile, defines what provider to use\n"
+  syntax:
+    content: public const string EntityName = "entity_name"
+    return:
+      type: System.String
+    content.vb: Public Const EntityName As String = "entity_name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.MeasureByField
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.MeasureByField
+  id: MeasureByField
+  parent: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: MeasureByField
+  nameWithType: DBC.DashboardTileDefinitionFields.MeasureByField
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields.MeasureByField
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTileDefinition.MeasureByField: Field to group by\n"
+  syntax:
+    content: public const string MeasureByField = "measure_by_field"
+    return:
+      type: System.String
+    content.vb: Public Const MeasureByField As String = "measure_by_field"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

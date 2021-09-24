@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<TAsynchronousArgument>
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nBase class for processing carried out by <xref href=\"SuperOffice.Threading.AsynchronousHandler%602\" data-throw-if-not-resolved=\"false\"></xref>\nand implementations of such.  \n"
   remarks: "\nThread handling and processing are separated into two parts.  This part represents processing.  \nImplementations of this class needs to have a default constructor to work with <xref href=\"SuperOffice.Threading.AsynchronousHandler%602\" data-throw-if-not-resolved=\"false\"></xref>.\nThis class is instantiated by the <xref href=\"SuperOffice.Threading.AsynchronousHandler%602\" data-throw-if-not-resolved=\"false\"></xref>.\n"
@@ -74,10 +74,10 @@ items:
   fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<TAsynchronousArgument>.OnSetup(TAsynchronousArgument)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nCalled by <xref href=\"SuperOffice.Threading.AsynchronousHandler%602\" data-throw-if-not-resolved=\"false\"></xref> to initiate processing.\n"
   remarks: The default implementation copies the argument to a member variable exposed by the <xref href="SuperOffice.Threading.AsynchronousHandlerProcessor%601.Argument" data-throw-if-not-resolved="false"></xref> property
@@ -112,10 +112,10 @@ items:
   fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<TAsynchronousArgument>.ExecuteWork()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nImplemented by sub classes to execute the actual work.\n"
   syntax:
@@ -142,10 +142,10 @@ items:
   fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<TAsynchronousArgument>.AsynchronousHandlerProcessor()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: protected AsynchronousHandlerProcessor()
@@ -169,10 +169,10 @@ items:
   fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<TAsynchronousArgument>.HasWorkToDo
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nImplemented by sub classes.  Get if there are work to be carried out.\n"
   syntax:
@@ -204,10 +204,10 @@ items:
   fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<TAsynchronousArgument>.Argument
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nArgument for the processor to work with.\n"
   syntax:
@@ -237,10 +237,10 @@ items:
   fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<TAsynchronousArgument>.ThreadName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nImplemented by sub classes to get the name of the thread.\n"
   remarks: "\nUsed by <xref href=\"SuperOffice.Threading.AsynchronousHandler%602\" data-throw-if-not-resolved=\"false\"></xref> to\nget a meaning full name of the thread.\n"

@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Diagnostics.ResourceTraceWriter
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: >-
@@ -68,10 +68,10 @@ items:
   fullName: SuperOffice.Diagnostics.ResourceTraceWriter.RecordUsage(SuperOffice.Diagnostics.SoTimerType, System.String, System.Func<System.String>, System.TimeSpan, System.TimeSpan, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public void RecordUsage(SoTimerType type, string category, Func<string> getDescription, TimeSpan clockTime, TimeSpan cpuTime, int items)
@@ -109,10 +109,10 @@ items:
   fullName: SuperOffice.Diagnostics.ResourceTraceWriter.ResourceTraceWriter()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public ResourceTraceWriter()

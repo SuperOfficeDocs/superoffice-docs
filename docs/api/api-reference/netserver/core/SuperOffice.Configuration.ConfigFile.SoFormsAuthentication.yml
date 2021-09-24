@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.SoFormsAuthentication
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nUtility class used to access the SoFormsAuthentication section in the config file.\n"
   syntax:
@@ -53,10 +53,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.SoFormsAuthentication.IgnoreList
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nList of pages and folders the SoFormsAuthentication should ignore.\n"
   syntax:
@@ -86,10 +86,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.SoFormsAuthentication.Pages
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nList of pages. Should contain a dictionaty with the following keys; LoginUrl and DefaultUrl, and optional LogoutUrl and PocketCrmLoginPage\n"
   syntax:

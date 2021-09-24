@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoContextProviderAttribute
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nAttribute declaring a plug-in for handling storage of NetServer&apos;s internal current context.  \nPlug-ins declared with this attribute needs to implement the <xref href=\"SuperOffice.Security.Principal.ISoContextProvider\" data-throw-if-not-resolved=\"false\"></xref> interface.\n"
   syntax:
@@ -100,10 +100,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoContextProviderAttribute.SoContextProviderAttribute(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nAttribute declaring a plug-in for handling storage of NetServer&apos;s internal current context.  \nPlug-ins declared with this attribute needs to implement the <xref href=\"SuperOffice.Security.Principal.ISoContextProvider\" data-throw-if-not-resolved=\"false\"></xref> interface.\n"
   syntax:

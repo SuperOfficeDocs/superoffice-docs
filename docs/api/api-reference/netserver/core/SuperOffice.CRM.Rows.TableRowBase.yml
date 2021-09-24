@@ -50,6 +50,7 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.Save
   - SuperOffice.CRM.Rows.TableRowBase.Sentries
   - SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+  - SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
   - SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DefaulterStrategy)
   - SuperOffice.CRM.Rows.TableRowBase.SetDirty(System.Int32,System.Object,System.Object)
   - SuperOffice.CRM.Rows.TableRowBase.SetPrimaryKey(System.Int32)
@@ -123,6 +124,7 @@ items:
   - SuperOffice.CRM.Rows.BusinessGroupLinkRow
   - SuperOffice.CRM.Rows.BusinessHeadingLinkRow
   - SuperOffice.CRM.Rows.BusinessRow
+  - SuperOffice.CRM.Rows.CacheInvalidationRow
   - SuperOffice.CRM.Rows.CacheTablesRow
   - SuperOffice.CRM.Rows.CategoryFamilyRow
   - SuperOffice.CRM.Rows.CategoryGroupLinkRow
@@ -139,6 +141,7 @@ items:
   - SuperOffice.CRM.Rows.ComptrHeadingLinkRow
   - SuperOffice.CRM.Rows.ComptrRow
   - SuperOffice.CRM.Rows.ConfigRow
+  - SuperOffice.CRM.Rows.ConfigurableScreenDeltaRow
   - SuperOffice.CRM.Rows.ConnectionConfigFieldRow
   - SuperOffice.CRM.Rows.ConsentPersonRow
   - SuperOffice.CRM.Rows.ConsentPurposeRow
@@ -163,6 +166,11 @@ items:
   - SuperOffice.CRM.Rows.CustConfigRow
   - SuperOffice.CRM.Rows.CustLangRow
   - SuperOffice.CRM.Rows.CustomTableRow`1
+  - SuperOffice.CRM.Rows.DashboardRow
+  - SuperOffice.CRM.Rows.DashboardThemeRow
+  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+  - SuperOffice.CRM.Rows.DashboardTileFieldRow
+  - SuperOffice.CRM.Rows.DashboardTileRow
   - SuperOffice.CRM.Rows.DatabaseModelRow
   - SuperOffice.CRM.Rows.DataRightRow
   - SuperOffice.CRM.Rows.DbiAgentFieldRow
@@ -1272,6 +1280,39 @@ items:
   syntax:
     content: public void SetDefaults()
     content.vb: Public Sub SetDefaults
+  overload: SuperOffice.CRM.Rows.TableRowBase.SetDefaults*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  id: SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(DashboardTileDefinitionRow, String)
+  nameWithType: TableRowBase.SetDefaults(DashboardTileDefinitionRow, String)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSet default values for the appointment&apos;s main row, and for any udef fields it may have.\n"
+  syntax:
+    content: public void SetDefaults(DashboardTileDefinitionRow row, string entityName)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+      description: DashboardTileDefinitionRow
+    - id: entityName
+      type: System.String
+      description: entity Name
+    content.vb: Public Sub SetDefaults(row As DashboardTileDefinitionRow, entityName As String)
   overload: SuperOffice.CRM.Rows.TableRowBase.SetDefaults*
   modifiers.csharp:
   - public
@@ -4503,6 +4544,13 @@ references:
   name: SetDefaults
   nameWithType: TableRowBase.SetDefaults
   fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+  commentId: T:SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: DashboardTileDefinitionRow
+  nameWithType: DashboardTileDefinitionRow
+  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
 - uid: SuperOffice.CRM.Rows.DefaulterStrategy
   commentId: T:SuperOffice.CRM.Rows.DefaulterStrategy
   parent: SuperOffice.CRM.Rows

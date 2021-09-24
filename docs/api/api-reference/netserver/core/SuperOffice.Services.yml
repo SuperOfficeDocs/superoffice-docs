@@ -14,7 +14,7 @@ items:
   fullName: SuperOffice.Services
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
 - uid: SuperOffice.Services.ServiceVersion
   commentId: T:SuperOffice.Services.ServiceVersion

@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Data.AllDayEvent
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nIs this an all day event: 0 = No, 1 = Yes\nThis Enum is used by:  appointment.alldayEvent; Task.defaultAlldayEvent\n"
   syntax:
@@ -47,10 +47,10 @@ items:
   fullName: SuperOffice.Data.AllDayEvent.No
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: \n"
   syntax:
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.Data.AllDayEvent.Yes
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: \n"
   syntax:

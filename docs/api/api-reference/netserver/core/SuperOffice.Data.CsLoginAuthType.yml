@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Data.CsLoginAuthType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDefines the authentication type of a logged in user in the login table\n"
   syntax:
@@ -47,10 +47,10 @@ items:
   fullName: SuperOffice.Data.CsLoginAuthType.AuthenticationTypeUsernamePassword
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AuthenticationTypeUsernamePassword = 1
@@ -74,10 +74,10 @@ items:
   fullName: SuperOffice.Data.CsLoginAuthType.AuthenticationTypeWebServer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AuthenticationTypeWebServer = 2

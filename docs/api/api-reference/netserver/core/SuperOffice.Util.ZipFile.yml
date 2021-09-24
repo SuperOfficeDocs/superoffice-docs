@@ -26,10 +26,10 @@ items:
   fullName: SuperOffice.Util.ZipFile
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nClass to handle zip file structures\n"
   syntax:
@@ -68,10 +68,10 @@ items:
   fullName: SuperOffice.Util.ZipFile.ZipFile()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nCreate a new instance.\n"
   syntax:
@@ -94,10 +94,10 @@ items:
   fullName: SuperOffice.Util.ZipFile.ZipFile(System.Int16)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nCreate a new instance.\n"
   syntax:
@@ -124,10 +124,10 @@ items:
   fullName: SuperOffice.Util.ZipFile.ZipFile(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nLoad instance from a file.\n"
   syntax:
@@ -154,10 +154,10 @@ items:
   fullName: SuperOffice.Util.ZipFile.ZipFile(System.IO.Stream)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nLoad instance from a stream.\n"
   syntax:
@@ -184,10 +184,10 @@ items:
   fullName: SuperOffice.Util.ZipFile.GetEntries()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAll entries in the zip file. Not available for new entries.\n"
   syntax:
@@ -212,10 +212,10 @@ items:
   fullName: SuperOffice.Util.ZipFile.GetStream(System.Int64)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nRetrieve the uncompressed stream of an entry in the zip file. Not available for new entries.\n"
   syntax:
@@ -245,10 +245,10 @@ items:
   fullName: SuperOffice.Util.ZipFile.GetStream(SuperOffice.Util.ZipEntry)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nRetrieve the uncompressed stream of an entry in the zip file. Not available for new entries.\n"
   syntax:
@@ -278,10 +278,10 @@ items:
   fullName: SuperOffice.Util.ZipFile.AddEntry(SuperOffice.Util.ZipEntry)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdd a new entry to the zip file.  Only available for new entries.\n"
   syntax:
@@ -308,10 +308,10 @@ items:
   fullName: SuperOffice.Util.ZipFile.AddEntry(System.String, System.IO.Stream)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdd a new entry to the zip file, including content of entry as a stream. Only available for new entries.\n"
   syntax:
@@ -341,10 +341,10 @@ items:
   fullName: SuperOffice.Util.ZipFile.AddEntryStream(System.IO.Stream)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdd data stream to the file.  Clients need to add an entry first.  Only available for new entries.\n"
   syntax:
@@ -371,10 +371,10 @@ items:
   fullName: SuperOffice.Util.ZipFile.Finish()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nFinishes the stream. This will write the central directory at the end of the zip file and flush the stream.\n"
   syntax:
@@ -397,10 +397,10 @@ items:
   fullName: SuperOffice.Util.ZipFile.IsNew
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nTrue if this is a new zip entry.\n"
   syntax:
@@ -428,10 +428,10 @@ items:
   fullName: SuperOffice.Util.ZipFile.ZipStream
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nStream to the compressed data. Only available for new entries.\n"
   syntax:

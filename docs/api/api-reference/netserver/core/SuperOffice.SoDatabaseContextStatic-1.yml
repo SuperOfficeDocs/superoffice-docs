@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.SoDatabaseContextStatic<T>
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHelper class for storing things in a Database Context (that used to be static)\n"
   remarks: Call SafeGetValue to make sure the inner object is created as needed
@@ -69,10 +69,10 @@ items:
   fullName: SuperOffice.SoDatabaseContextStatic<T>.SafeGetValue(System.Func<T>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nGet value from the database instance container and create a new if needed.\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.SoDatabaseContextStatic<T>.SoDatabaseContextStatic()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public SoDatabaseContextStatic()
@@ -131,10 +131,10 @@ items:
   fullName: SuperOffice.SoDatabaseContextStatic<T>.Value
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nGet the inner value from the database instance context.\n"
   syntax:

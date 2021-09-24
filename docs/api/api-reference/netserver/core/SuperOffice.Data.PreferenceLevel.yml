@@ -20,10 +20,10 @@ items:
   fullName: SuperOffice.Data.PreferenceLevel
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValue for field &apos;deflevel&apos; in table &apos;userpreference&apos;.\nThis Enum is used by:  UserPreference.deflevel; UserPreference.maxlevel; PrefDesc.maxLevel; PrefDesc.sysMaxLevel\n"
   syntax:
@@ -52,10 +52,10 @@ items:
   fullName: SuperOffice.Data.PreferenceLevel.Undefined
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Undefined value (error)\n"
   syntax:
@@ -80,10 +80,10 @@ items:
   fullName: SuperOffice.Data.PreferenceLevel.HardDefault
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Default value used if no other value has been specified\n"
   syntax:
@@ -108,10 +108,10 @@ items:
   fullName: SuperOffice.Data.PreferenceLevel.SystemWide
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Value valid for all databases under this licence\n"
   syntax:
@@ -136,10 +136,10 @@ items:
   fullName: SuperOffice.Data.PreferenceLevel.Database
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Value valid for this database\n"
   syntax:
@@ -164,10 +164,10 @@ items:
   fullName: SuperOffice.Data.PreferenceLevel.Group
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Value valid for this group\n"
   syntax:
@@ -192,10 +192,10 @@ items:
   fullName: SuperOffice.Data.PreferenceLevel.Individual
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Value valid for this user\n"
   syntax:
@@ -220,10 +220,10 @@ items:
   fullName: SuperOffice.Data.PreferenceLevel.PC
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: Value valid for this computer (note: stored in the Registry, not in the database)\n"
   syntax:

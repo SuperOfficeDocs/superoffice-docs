@@ -40,6 +40,7 @@ items:
   - SuperOffice.CRM.Lists.ISoListProvider
   - SuperOffice.CRM.Lists.ISoList
   inheritedMembers:
+  - SuperOffice.CRM.Lists.TimeZoneProvider.ProviderName
   - SuperOffice.CRM.Lists.TimeZoneProvider._additionalInfo
   - SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoListProvider#Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
   - SuperOffice.CRM.Lists.TimeZoneProvider.GenerateName(System.String,System.Double)
@@ -202,6 +203,13 @@ references:
   name: ISoList
   nameWithType: ISoList
   fullName: SuperOffice.CRM.Lists.ISoList
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider.ProviderName
+  commentId: F:SuperOffice.CRM.Lists.TimeZoneProvider.ProviderName
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: ProviderName
+  nameWithType: TimeZoneProvider.ProviderName
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider.ProviderName
 - uid: SuperOffice.CRM.Lists.TimeZoneProvider._additionalInfo
   commentId: F:SuperOffice.CRM.Lists.TimeZoneProvider._additionalInfo
   parent: SuperOffice.CRM.Lists.TimeZoneProvider

@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.CRM.Security.GenericRight
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nBase class for <xref href=\"SuperOffice.CRM.Security.TableRight\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"SuperOffice.CRM.Security.FieldRight\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.CRM.Security.FunctionRight\" data-throw-if-not-resolved=\"false\"></xref>.\nProvides a read-only reason field. Sub-classes define one or more permissions that the right can allow.\nFor example: FieldRight defines Read+Write+Mandatory rights on a field.\n"
   remarks: "\nGet fresh rights from the <see cref=\"!:PrivateSentryAgentFactory\"></see>, where they are made to order.\nRights are read-only, static objects. You cannot modify a field-right or table right object.\nThis is because a field-right object may be a shared instance, so modifying it will modify all fields, \nnot just one.\n"
@@ -65,10 +65,10 @@ items:
   fullName: SuperOffice.CRM.Security.GenericRight._reason
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: protected string _reason
@@ -91,10 +91,10 @@ items:
   fullName: SuperOffice.CRM.Security.GenericRight.GenericRight()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: protected GenericRight()
@@ -116,10 +116,10 @@ items:
   fullName: SuperOffice.CRM.Security.GenericRight.HasAll
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nReturns true if the right has all the permissions implied by the right. \n"
   remarks: "\nFor a <xref href=\"SuperOffice.CRM.Security.FunctionRight\" data-throw-if-not-resolved=\"false\"></xref> this implies that the right is active.\nFor a <xref href=\"SuperOffice.CRM.Security.FieldRight\" data-throw-if-not-resolved=\"false\"></xref> this implies that the field has Read+Write permissions.\n"
@@ -150,10 +150,10 @@ items:
   fullName: SuperOffice.CRM.Security.GenericRight.HasNone
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nReturns true if the right has none of the permissions implied by the right.\n"
   remarks: "\nFor a <xref href=\"SuperOffice.CRM.Security.FunctionRight\" data-throw-if-not-resolved=\"false\"></xref> this means that the right is not active.\nFor a <xref href=\"SuperOffice.CRM.Security.FieldRight\" data-throw-if-not-resolved=\"false\"></xref> this means that the field is hidden (no read+no write permission)\n"
@@ -184,10 +184,10 @@ items:
   fullName: SuperOffice.CRM.Security.GenericRight.IgnoreReason
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nShould the reason be ignored?\n"
   syntax:
@@ -217,10 +217,10 @@ items:
   fullName: SuperOffice.CRM.Security.GenericRight.Reason
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nContains a string that explains why the right is not available. The reason is blank if HasAll is true.\n"
   syntax:

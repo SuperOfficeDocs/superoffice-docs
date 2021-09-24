@@ -37,10 +37,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nStyle hints for archive list data rows. A style hint says something about how the row should be styled, but this is\nindirect - thus a hint. A style hint will be something like &apos;processed&apos; or &apos;expired&apos;; the GUI will then translate that into\nsome concrete behavior, such as boldface, coloured font or whatever.\n"
   syntax:
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Bold
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUnseen emails\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.NegativeResponse
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nNegative response to booking, usually red\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Processed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nInvitations that have been processed\n"
   syntax:
@@ -162,10 +162,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.New
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nInvitations that are new\n"
   syntax:
@@ -191,10 +191,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Owner
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nParticipant who is the owner of the meeting\n"
   syntax:
@@ -220,10 +220,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Conflict
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nAppointment is in conflict with at least one other appointment\n"
   syntax:
@@ -249,10 +249,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Expired
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nAppointment is expired/overdue\n"
   syntax:
@@ -278,10 +278,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Private
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nAppointment is private (to person, not group)\n"
   syntax:
@@ -307,10 +307,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.NoMail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nContact or Person does not wish to receive mailings\n"
   syntax:
@@ -336,10 +336,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.RankOne
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThe (hopefully only) person with rank 1 on this contact\n"
   syntax:
@@ -365,10 +365,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Stop
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nContact has STOP property set (big red X in contact card)\n"
   syntax:
@@ -394,10 +394,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Retired
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nAssociate has retired and is no longer active\n"
   syntax:
@@ -423,10 +423,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Active
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nCriteria is active\n"
   syntax:
@@ -452,10 +452,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.InActive
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nCriteria is inactive\n"
   syntax:
@@ -481,10 +481,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.LoggedOnWin
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nIs there an activeuser record, indicating that an associate is logged on to the windows client\n"
   syntax:
@@ -510,10 +510,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.TicketUnread
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nTicket not read by owner\n"
   syntax:
@@ -539,10 +539,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.DeletedItem
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nDeleted item\n"
   syntax:
@@ -568,10 +568,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Lost
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nLost sales\n"
   syntax:
@@ -597,10 +597,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Sold
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nLost sales\n"
   syntax:
@@ -626,10 +626,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Stalled
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nStalled sales\n"
   syntax:
@@ -655,10 +655,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.SoftDeleted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nSoft deleted entity\n"
   syntax:
@@ -684,10 +684,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.Rank0
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nRank 0, in SuperListColumnSize indicates a column that is currently not shown\n"
   syntax:
@@ -713,10 +713,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.NotInSync
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nCaution warning: NotInSync\n"
   syntax:
@@ -742,10 +742,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints.NotNotifiedByEmail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nCaution warning: NotNotifiedByEmail\n"
   syntax:

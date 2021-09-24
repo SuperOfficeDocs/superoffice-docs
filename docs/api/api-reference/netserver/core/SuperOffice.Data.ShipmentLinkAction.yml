@@ -27,10 +27,10 @@ items:
   fullName: SuperOffice.Data.ShipmentLinkAction
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nBitmask defining what action should be taken\nThis Enum is used by:  s_link.action_flags\nThis Enum consists of flag values that can be combined.\n"
   syntax:
@@ -69,10 +69,10 @@ items:
   fullName: SuperOffice.Data.ShipmentLinkAction.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: No action\n"
   syntax:
@@ -97,10 +97,10 @@ items:
   fullName: SuperOffice.Data.ShipmentLinkAction.SetPersonInterest
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Set an interest on the recipient-who-is-a-person\n"
   syntax:
@@ -125,10 +125,10 @@ items:
   fullName: SuperOffice.Data.ShipmentLinkAction.RemovePersonInterest
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Remove an interest from the recipient-who-is-a-person\n"
   syntax:
@@ -153,10 +153,10 @@ items:
   fullName: SuperOffice.Data.ShipmentLinkAction.SetContactInterest
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Set an interest on the recipient-who-is-a-contact\n"
   syntax:
@@ -181,10 +181,10 @@ items:
   fullName: SuperOffice.Data.ShipmentLinkAction.RemoveContactInterest
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Remove an interest from the recipient-who-is-a-contact\n"
   syntax:
@@ -209,10 +209,10 @@ items:
   fullName: SuperOffice.Data.ShipmentLinkAction.AddToSmSelection
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16: Add person id of recipient to a static S&amp;M selection\n"
   syntax:
@@ -237,10 +237,10 @@ items:
   fullName: SuperOffice.Data.ShipmentLinkAction.RemoveFromSmSelection
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n32: Remove person id of recipient from a static S&amp;M selection\n"
   syntax:
@@ -265,10 +265,10 @@ items:
   fullName: SuperOffice.Data.ShipmentLinkAction.AddToSmProject
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n64: Add person id of recipient as a member of an S&amp;M project\n"
   syntax:
@@ -293,10 +293,10 @@ items:
   fullName: SuperOffice.Data.ShipmentLinkAction.RemoveFromSmProject
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n128: Remove person id of recipient as a member of an S&amp;M project\n"
   syntax:
@@ -321,10 +321,10 @@ items:
   fullName: SuperOffice.Data.ShipmentLinkAction.AddTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n256: Add a task in an S&amp;M diary\n"
   syntax:
@@ -349,10 +349,10 @@ items:
   fullName: SuperOffice.Data.ShipmentLinkAction.AddRequest
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n512: Add a request (ticket) in CS\n"
   syntax:
@@ -377,10 +377,10 @@ items:
   fullName: SuperOffice.Data.ShipmentLinkAction.AddToCsSelection
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1024: Add person to a Customer Support selection\n"
   syntax:
@@ -405,10 +405,10 @@ items:
   fullName: SuperOffice.Data.ShipmentLinkAction.RemoveFromCsSelection
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2048: Remove person from a Customer Service selection\n"
   syntax:
@@ -433,10 +433,10 @@ items:
   fullName: SuperOffice.Data.ShipmentLinkAction.ExecuteScript
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4096: Execute an ejScript\n"
   syntax:

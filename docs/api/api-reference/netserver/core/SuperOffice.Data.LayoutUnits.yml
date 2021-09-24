@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Data.LayoutUnits
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public enum LayoutUnits
@@ -46,10 +46,10 @@ items:
   fullName: SuperOffice.Data.LayoutUnits.Centimeters
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Centimeters = 1
@@ -73,10 +73,10 @@ items:
   fullName: SuperOffice.Data.LayoutUnits.Inches
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Inches = 2

@@ -40,10 +40,10 @@ items:
   fullName: SuperOffice.License.ProductLicense
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nDifferent licenses that products can require.\n"
   syntax:
@@ -93,10 +93,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.All
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nAll available licenses.\n"
   syntax:
@@ -122,10 +122,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.Site
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nAll possible site licenses.\n"
   syntax:
@@ -151,10 +151,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.User
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nAll possible user licenses.\n"
   syntax:
@@ -180,10 +180,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.Deprecatable
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nAll licenses that can be deprecated. But what does this really mean??\n"
   syntax:
@@ -209,10 +209,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nNo available licenses\n"
   syntax:
@@ -238,10 +238,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.Login
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nThe user is licensed to log in.\n"
   syntax:
@@ -267,10 +267,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.WinLogin
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nThe user is licensed to log in to windows clients.\n"
   syntax:
@@ -296,10 +296,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.WebLogin
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nThe user is licensed to log in to web clients.\n"
   syntax:
@@ -325,10 +325,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.Publish
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nThe user is permitted to publish.\n"
   syntax:
@@ -354,10 +354,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.CreateExternalPerson
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nThe user is permitted to create external persons.\n"
   syntax:
@@ -383,10 +383,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.ConfidentialAppointment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nThe user is permitted to create external appointments.\n"
   syntax:
@@ -412,10 +412,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.ReporterStudio
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nThe user is licensed to use reporter studio.\n"
   syntax:
@@ -441,10 +441,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.Travel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nTBD\n"
   syntax:
@@ -470,10 +470,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.RemoteTravel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nThe user is licensed to use remote travel.\n"
   syntax:
@@ -499,10 +499,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.SyncEngine
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nThe user is licensed to use the sync engine.\n"
   syntax:
@@ -528,10 +528,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.PocketLogin
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nPocket CRM license is required\n"
   syntax:
@@ -557,10 +557,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.Win
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nWindows client\n"
   syntax:
@@ -586,10 +586,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.Web
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nWebClient (SIX.Web) license is required.\n"
   syntax:
@@ -615,10 +615,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.Audience
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nAudience license is required.\n"
   syntax:
@@ -644,10 +644,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.ExpanderKey
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nExpanderKey license is required.\n"
   syntax:
@@ -673,10 +673,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.ExpanderForCollaboration
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nExpander for collaboration license is required\n"
   syntax:
@@ -702,10 +702,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.WebServices
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nWebServices license is required.\n"
   syntax:
@@ -731,10 +731,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.Saint
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nSaint license is required\n"
   syntax:
@@ -760,10 +760,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.Pocket
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nPocket CRM license is present\n"
   syntax:
@@ -789,10 +789,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.ProductTypeCRMSoftware
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nProduct type is &quot;conventional, installed&quot;\n"
   syntax:
@@ -818,10 +818,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.ProductTypeOnlineStd
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nProduct type is &quot;Online, standard edition&quot;\n"
   syntax:
@@ -847,10 +847,10 @@ items:
   fullName: SuperOffice.License.ProductLicense.ProductTypeOnlinePro
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nProduct type is &quot;Online, professional edition&quot;\n"
   syntax:

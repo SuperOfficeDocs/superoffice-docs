@@ -59,18 +59,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Single
+    content: public const string Single = "single"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Single As String
+    content.vb: Public Const Single As String = "single"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ValueTypes.Double
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ValueTypes.Double
   id: Double
@@ -89,18 +87,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Double
+    content: public const string Double = "double"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Double As String
+    content.vb: Public Const Double As String = "double"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ValueTypes.Multiple
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ValueTypes.Multiple
   id: Multiple
@@ -119,18 +115,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Multiple
+    content: public const string Multiple = "multiple"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Multiple As String
+    content.vb: Public Const Multiple As String = "multiple"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 references:
 - uid: SuperOffice.CRM.BulkUpdate
   commentId: N:SuperOffice.CRM.BulkUpdate

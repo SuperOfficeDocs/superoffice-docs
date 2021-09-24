@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.WindowsIdentityHelperException
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nException class wrapping error messages passed from the underlying  LogonMethod.\n"
   syntax:
@@ -81,10 +81,10 @@ items:
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.WindowsIdentityHelperException.ErrorCode
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nGet error-code as returned from Win32 (e.g. kernel32.dll) GetLastError().\n"
   syntax:

@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.ActivityStatus
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCompleted status enum common to appointments, documents and sales\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.ActivityStatus.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: 0: Unknown - used when initializing\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.ActivityStatus.NotStarted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: 1: Appointment has not been started\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.ActivityStatus.Started
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: 2: Appointment has been started, but not completed\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.ActivityStatus.Completed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: 3: Appointment is completed\n"
   syntax:

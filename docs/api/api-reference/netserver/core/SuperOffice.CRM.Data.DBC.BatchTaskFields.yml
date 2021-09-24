@@ -11,6 +11,7 @@ items:
   - SuperOffice.CRM.Data.DBC.BatchTaskFields.Description
   - SuperOffice.CRM.Data.DBC.BatchTaskFields.DetailsRecord
   - SuperOffice.CRM.Data.DBC.BatchTaskFields.DetailsTable
+  - SuperOffice.CRM.Data.DBC.BatchTaskFields.FileName
   - SuperOffice.CRM.Data.DBC.BatchTaskFields.LastStarted
   - SuperOffice.CRM.Data.DBC.BatchTaskFields.ProgressDescription
   - SuperOffice.CRM.Data.DBC.BatchTaskFields.ProgressPercent
@@ -573,6 +574,35 @@ items:
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BatchTaskFields.FileName
+  commentId: F:SuperOffice.CRM.Data.DBC.BatchTaskFields.FileName
+  id: FileName
+  parent: SuperOffice.CRM.Data.DBC.BatchTaskFields
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: DBC.BatchTaskFields.FileName
+  fullName: SuperOffice.CRM.Data.DBC.BatchTaskFields.FileName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBatchTask.FileName: The filename related to the batchtask.\n"
+  syntax:
+    content: public const string FileName = "FileName"
+    return:
+      type: System.String
+    content.vb: Public Const FileName As String = "FileName"
   modifiers.csharp:
   - public
   - const

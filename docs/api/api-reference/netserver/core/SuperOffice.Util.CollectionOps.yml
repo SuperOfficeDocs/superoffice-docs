@@ -64,10 +64,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nUtility class for operations on collections of various kinds. You will find operations for\nconverting between various kinds of collections, converting the data inside collections,\ncomparisons and more\n"
   syntax:
@@ -102,10 +102,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.DeepCloneArray<T>(T[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nClone an array, by cloning each element of it\n"
   syntax:
@@ -144,10 +144,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.CloneArray<MemberType>(MemberType[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nClone (deep copy) an array of elements, by creating a new array and cloning each element\n"
   syntax:
@@ -187,10 +187,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.ArraysEquivalent<T>(T[], T[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nCheck if two arrays have the same contents. The arrays must be of the same type, and the \nbase type must be comparable so that it can be sorted. The algorithm is O(log n) if the arrays\nhave the same size, otherwise it is very fast.\n"
   remarks: "\nType inference means that you do not have to explicitly specify the actual type, simply\npass in two arrays.\n<example>\nThis example shows how:\n<pre><code>int[] allAssocs = AssociateCache.GetCurrent().GetAssociateIds();\nint[] myAssocs = { 1, 2, 3 };\nbool areMyAllThereAre = SuperOffice.Util.ArraysEquivalent( allAssocs, myAssocs );</code></pre>\n</example>\n"
@@ -232,10 +232,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.ConvertArray<SourceType, ReturnType>(SourceType[], SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConvert an array of some type to an equal-length array of another type, using a converter\n"
   syntax:
@@ -278,10 +278,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.ConvertArray<SourceType, ReturnType>(SourceType[], SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>, System.Predicate<SourceType>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConditionally Convert an array of some type to an equal-length array of another type, using a converter and a predicate on the source type\n"
   syntax:
@@ -326,10 +326,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.ConvertToArray<SourceType, ReturnType>(System.Collections.Generic.ICollection<SourceType>, SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConvert an array of some type to an equal-length array of another type, using a converter\n"
   syntax:
@@ -372,10 +372,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.ConvertArray<SourceType, ReturnType>(System.Collections.Generic.ICollection<SourceType>, SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>, System.Predicate<SourceType>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConditionally Convert an array of some type to an equal-length array of another type, using a converter and a predicate on the source type\n"
   syntax:
@@ -420,10 +420,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.ConvertToStringArray<SourceType>(System.Collections.Generic.ICollection<SourceType>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConvert a collection of source elements into an array of string, using each element&apos;s ToString() method.\nA null input will result in a null output. An empty input will give an empty output (not null).\n"
   syntax:
@@ -461,10 +461,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.ConvertToStringArray<SourceType>(SourceType[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConvert an array of source elements into an array of string, using each element&apos;s ToString() method.\nA null input will result in a null output. An empty input will give an empty output (not null).\n"
   syntax:
@@ -502,10 +502,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.NullToEmpty<T>(T[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConvert a null pointer into an empty array \n"
   syntax:
@@ -543,10 +543,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.NullToEmpty(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConvert a null string into an empty string\n"
   syntax:
@@ -578,10 +578,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.DictionaryKeysToArray<KeyType, ValueType>(System.Collections.Generic.Dictionary<KeyType, ValueType>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nExtract the key collection from a dictionary, and return it as an array of the dictionary key type\n"
   remarks: "\nType inference means that you do not have to explicitly specify the types involved,\nsimply pass in a dictionary and the generic code will adapt.\n<example>\nThis is how it works:\n<pre><code>Dictionary&lt;string, MyType> dictionary = new Dictionary&lt;string, MyType>();\n// add some members somehow\nstring[] myKeys = SuperOffice.Util.DictionaryKeysToArray( dictionary );</code></pre>\n</example>\n"
@@ -622,10 +622,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.DictionaryValuesToArray<KeyType, ValueType>(System.Collections.Generic.Dictionary<KeyType, ValueType>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nExtract the value collection from a dictionary, and return it as an array of the dictionary value type\n"
   remarks: "\nType inference means that you do not have to explicitly specify the types involved,\nsimply pass in a dictionary and the generic code will adapt.\n<example>\nThis is how it works:\n<pre><code>Dictionary&lt;string, MyType> dictionary = new Dictionary&lt;string, MyType>();\n// add some members somehow\nMyType[] myValues = SuperOffice.Util.DictionaryValuesToArray( dictionary );</code></pre>\n</example>\n"
@@ -666,10 +666,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.GetFirstElement<K, V>(System.Collections.Generic.Dictionary<K, V>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn the first element in a dictionary\n"
   syntax:
@@ -709,10 +709,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.AddToArray<T>(T[], T)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nLogically add an element to an array by creating a new array with one more slot, copying all the\nexisting elements (by reference) and adding the new element at the end. This is an O(n) operation\nwhere n is the number of elements in the array\n"
   syntax:
@@ -755,10 +755,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.AddToArray<T>(T[], T[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nLogically add an array of elements to an array by creating a new array with one more slot, copying all the\nexisting elements (by reference) and adding the new element at the end. This is an O(n) operation\nwhere n is the number of elements in the array\n"
   syntax:
@@ -801,10 +801,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.AddToDictionary<Key, Value>(System.Collections.Generic.Dictionary<Key, Value>, Key, Value)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdd an element to a dictionary, overwriting it is it already exists\n"
   syntax:
@@ -847,10 +847,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.IsNullOrEmpty<BaseType>(BaseType[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nCheck if a given collection/array is null, or contains no elements. Semantically equivalent to string.<xref href=\"System.String.IsNullOrEmpty(System.String)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
@@ -888,10 +888,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.IsNullOrEmpty<BaseType>(System.Collections.Generic.ICollection<BaseType>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nCheck if a given collection/array is null, or contains no elements. Semantically equivalent to string.<xref href=\"System.String.IsNullOrEmpty(System.String)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
@@ -929,10 +929,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray<KeyType, ValueType>(ValueType[], SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nCreate a dictionary of key, item pairs from an array if items and a method that extract the key information\n"
   syntax:
@@ -978,10 +978,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray<KeyType, ValueType>(ValueType[], SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, System.Collections.Generic.IEqualityComparer<KeyType>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nCreate a dictionary of key, item pairs from an array of items and a method that extract the key information\n"
   syntax:
@@ -1030,10 +1030,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray<KeyType, ValueType>(ValueType[], SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, System.Predicate<ValueType>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConditionally create a dictionary of key, item pairs from an array if items and a method that extract the key information\n"
   syntax:
@@ -1082,10 +1082,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray<KeyType, ValueType>(ValueType[], SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, System.Collections.Generic.IEqualityComparer<KeyType>, System.Predicate<ValueType>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConditionally create a dictionary of key, item pairs from an array if items and a method that extract the key information\n"
   syntax:
@@ -1136,10 +1136,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection<KeyType, ValueType>(System.Collections.Generic.ICollection<ValueType>, SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nCreate a dictionary of key, item pairs from a collection of items and a method that extract the key information\n"
   syntax:
@@ -1185,10 +1185,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection<KeyType, ValueType>(System.Collections.Generic.ICollection<ValueType>, SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, System.Predicate<ValueType>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConditionally create a dictionary of key, item pairs from a collection of items and a method that extract the key information\n"
   syntax:
@@ -1236,10 +1236,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection<KeyType, ValueType>(System.Collections.Generic.ICollection<ValueType>, SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, System.Collections.Generic.IEqualityComparer<KeyType>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nCreate a dictionary of key, item pairs from a collection of items and a method that extract the key information\n"
   syntax:
@@ -1286,10 +1286,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection<KeyType, ValueType>(System.Collections.Generic.ICollection<ValueType>, SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, System.Collections.Generic.IEqualityComparer<KeyType>, System.Predicate<ValueType>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConditionally create a dictionary of key, item pairs from a collection of items and a method that extract the key information\n"
   syntax:
@@ -1339,10 +1339,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable<KeyType, ValueType>(System.Collections.Generic.IEnumerable<ValueType>, SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nCreate a dictionary of key, item pairs from a collection of items and a method that extract the key information\n"
   syntax:
@@ -1387,10 +1387,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable<KeyType, ValueType>(System.Collections.Generic.IEnumerable<ValueType>, SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, System.Predicate<ValueType>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConditionally create a dictionary of key, item pairs from a collection of items and a method that extract the key information\n"
   syntax:
@@ -1438,10 +1438,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable<KeyType, ValueType>(System.Collections.Generic.IEnumerable<ValueType>, SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, System.Collections.Generic.IEqualityComparer<KeyType>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nCreate a dictionary of key, item pairs from a collection of items and a method that extract the key information\n"
   syntax:
@@ -1488,10 +1488,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable<KeyType, ValueType>(System.Collections.Generic.IEnumerable<ValueType>, SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, System.Collections.Generic.IEqualityComparer<KeyType>, System.Predicate<ValueType>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConditionally create a dictionary of key, item pairs from a collection of items and a method that extract the key information\n"
   syntax:
@@ -1542,10 +1542,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.AddRange<T, S>(System.Collections.Generic.Dictionary<T, S>, System.Collections.Generic.Dictionary<T, S>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static void AddRange<T, S>(this Dictionary<T, S> target, Dictionary<T, S> source)
@@ -1584,10 +1584,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.AddToDictionaryList<KeyType, ValueType>(System.Collections.Generic.Dictionary<KeyType, System.Collections.Generic.List<ValueType>>, KeyType, ValueType)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdd a value to a data structure that is a dictionary, where each value is a list of some type\n"
   example:
@@ -1635,10 +1635,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.GetPairs(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nParse a string that contains one or more key=value pairs into a list of KeyValuePair&lt;string,string>.\nNOTE that key names are lower-cased during parsing!\n"
   syntax:
@@ -1670,10 +1670,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.CloneArray(System.String[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static string[] CloneArray(string[] originalArray)
@@ -1706,10 +1706,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.GetNamedValue(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn a value from a name/value collection string of the form name=value&amp;name2=value2\n"
   syntax:
@@ -1748,10 +1748,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.GetNamedBoolValue(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nFind and parse a bool-typed option in a named-value string, and return the result\n"
   syntax:
@@ -1790,10 +1790,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.HasName(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nCheck if a named-value string (querystring) contains a given name; null-tolerant and case-insensitive like all such operations\n"
   syntax:
@@ -1829,10 +1829,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.GetNamedIntValue(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nFind and parse a int-typed option in a named-value string, and return the result\n"
   syntax:
@@ -1871,10 +1871,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.GetNamedDateTimeValue(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nFind and parse a DateTime-typed option in a named-value string, and return the result\n"
   syntax:
@@ -1913,10 +1913,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.GetNamedDoubleValue(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nFind and parse a double-typed option in a named-value string, and return the result\n"
   syntax:
@@ -1955,10 +1955,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.ReplaceNamedValue(System.String, System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReplace a value in a name/value collection string of the form name=value&amp;name2=value2\n"
   syntax:
@@ -2000,10 +2000,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.RemoveNamedValue(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nRemove values in a name/value collection string of the form name=value&amp;name2=value2.\nAll occurances of the key will be removed.\n"
   syntax:
@@ -2041,10 +2041,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.AddNamedValue(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdd a value to a name/value collection string of the form name=value&amp;name2=value2\n"
   syntax:
@@ -2083,10 +2083,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.AddNamedValue(System.String, System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdd a value to a name/value collection string of the form name=value&amp;name2=value2\n"
   syntax:
@@ -2128,10 +2128,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.SortNamedValuesByNames(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nSort a name/value collection string of the form name=value&amp;name2=value2 by key names alphabetically ascending\n"
   syntax:
@@ -2166,10 +2166,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.ParseDelimitedStringToIntArray(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nParse a delimited string like &apos;1, 3,4,56,   23 15&apos; to the int[]{1, 3, 4, 56, 23, 15}.\nThis overload uses space, comma and semicolon as delimiters.\n"
   remarks: "\nThis method will split apart the input string according to the delimiters, treating multiple consecutive delimiters as one.\nEach substring will be parsed using int.<xref href=\"System.Int32.TryParse(System.String%2cSystem.Int32%40)\" data-throw-if-not-resolved=\"false\"></xref>, and the result\nplaced in the return list. If TryParse fails, no value is parsed (no exceptions thrown).\nAn empty input will yield an empty (Length == 0) result.\n"
@@ -2202,10 +2202,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.ParseDelimitedStringToIntArray(System.String, System.Char[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nParse a delimited string like &apos;1, 3,4,56,   23 15&apos; to the int[]{1, 3, 4, 56, 23, 15}\n"
   remarks: "\nThis method will split apart the input string according to the delimiters, treating multiple consecutive delimiters as one.\nEach substring will be parsed using int.<xref href=\"System.Int32.TryParse(System.String%2cSystem.Int32%40)\" data-throw-if-not-resolved=\"false\"></xref>, and the result\nplaced in the return list. If TryParse fails, no value is parsed (no exceptions thrown).\nAn empty input will yield an empty (Length == 0) result.\n"
@@ -2244,10 +2244,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.StringDictionaryToStringArray(System.Collections.Generic.Dictionary<System.String, System.String>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConvert a <see cref=\"!:StringDictionary\"></see> into an array of key=value strings\n"
   syntax:
@@ -2282,10 +2282,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.StringArrayToStringDictionary(System.String[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConvert an array of key=value pairs into a <see cref=\"!:StringDictionary\"></see>, using the\nfirst equals sign in each string as the key/value delimiter\n"
   syntax:
@@ -2321,10 +2321,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.AtLeastOne<T>(System.Collections.Generic.IEnumerable<T>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static IEnumerable<T> AtLeastOne<T>(this IEnumerable<T> sequence)

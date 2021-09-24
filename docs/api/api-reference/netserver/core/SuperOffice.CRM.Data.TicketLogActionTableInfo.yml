@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.Data.TicketLogActionTableInfo.CustomerId_InnerJoin_Person
   - SuperOffice.CRM.Data.TicketLogActionTableInfo.Definition
   - SuperOffice.CRM.Data.TicketLogActionTableInfo.Description
+  - SuperOffice.CRM.Data.TicketLogActionTableInfo.Details
   - SuperOffice.CRM.Data.TicketLogActionTableInfo.DictionaryTableName
   - SuperOffice.CRM.Data.TicketLogActionTableInfo.DictionaryTableNumber
   - SuperOffice.CRM.Data.TicketLogActionTableInfo.LeftOuterJoin_TicketLogChange_ActionId
@@ -505,6 +506,37 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Description As StringFieldInfo
   overload: SuperOffice.CRM.Data.TicketLogActionTableInfo.Description*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TicketLogActionTableInfo.Details
+  commentId: P:SuperOffice.CRM.Data.TicketLogActionTableInfo.Details
+  id: Details
+  parent: SuperOffice.CRM.Data.TicketLogActionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Details
+  nameWithType: TicketLogActionTableInfo.Details
+  fullName: SuperOffice.CRM.Data.TicketLogActionTableInfo.Details
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;details&apos; in table &apos;ticket_log_action&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nField for storing details of the log action as e.g. JSON\n"
+  syntax:
+    content: public StringFieldInfo Details { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Details As StringFieldInfo
+  overload: SuperOffice.CRM.Data.TicketLogActionTableInfo.Details*
   modifiers.csharp:
   - public
   - get
@@ -1605,6 +1637,12 @@ references:
   name: StringFieldInfo
   nameWithType: StringFieldInfo
   fullName: SuperOffice.Data.SQL.StringFieldInfo
+- uid: SuperOffice.CRM.Data.TicketLogActionTableInfo.Details*
+  commentId: Overload:SuperOffice.CRM.Data.TicketLogActionTableInfo.Details
+  isExternal: true
+  name: Details
+  nameWithType: TicketLogActionTableInfo.Details
+  fullName: SuperOffice.CRM.Data.TicketLogActionTableInfo.Details
 - uid: SuperOffice.CRM.Data.TicketLogActionTableInfo.TicketId_InnerJoin_Ticket*
   commentId: Overload:SuperOffice.CRM.Data.TicketLogActionTableInfo.TicketId_InnerJoin_Ticket
   isExternal: true

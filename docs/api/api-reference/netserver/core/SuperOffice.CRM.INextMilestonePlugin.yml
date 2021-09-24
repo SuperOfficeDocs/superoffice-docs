@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.CRM.INextMilestonePlugin
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nContains the algorithm for calculating the next due date for a given sale or all sales.\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: NextDateInfo CalculateNextMilestoneDate(int projectId)
@@ -74,10 +74,10 @@ items:
   fullName: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: void BatchUpdateNextMilestone(ProgressEstimateCallback estimate, ProgressStepCallback step)
@@ -100,10 +100,10 @@ items:
   fullName: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: NextDateInfo GetNextMilestoneDate(int projectId)

@@ -5,8 +5,8 @@ items:
   id: FieldValueInfo
   parent: SuperOffice.CRM.BulkUpdate
   children:
-  - SuperOffice.CRM.BulkUpdate.FieldValueInfo.#ctor
   - SuperOffice.CRM.BulkUpdate.FieldValueInfo.#ctor(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
+  - SuperOffice.CRM.BulkUpdate.FieldValueInfo.#ctor(SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType)
   - SuperOffice.CRM.BulkUpdate.FieldValueInfo.CanSupportMultiUse
   - SuperOffice.CRM.BulkUpdate.FieldValueInfo.Clone
   - SuperOffice.CRM.BulkUpdate.FieldValueInfo.ControlInfos
@@ -21,6 +21,7 @@ items:
   - SuperOffice.CRM.BulkUpdate.FieldValueInfo.IsActive
   - SuperOffice.CRM.BulkUpdate.FieldValueInfo.IsModified
   - SuperOffice.CRM.BulkUpdate.FieldValueInfo.Key
+  - SuperOffice.CRM.BulkUpdate.FieldValueInfo.KeyType
   - SuperOffice.CRM.BulkUpdate.FieldValueInfo.Mandatory
   - SuperOffice.CRM.BulkUpdate.FieldValueInfo.OperationInfos
   - SuperOffice.CRM.BulkUpdate.FieldValueInfo.Values
@@ -57,8 +58,6 @@ items:
   - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.BulkUpdate.FieldValueInfo.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.BulkUpdate.FieldValueInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
-  - SuperOffice.CRM.BulkUpdate.FieldValueInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.CRM.BulkUpdate.FieldValueInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -166,6 +165,32 @@ items:
     return:
       type: System.Boolean
     content.vb: Public IsActive As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.KeyType
+  commentId: F:SuperOffice.CRM.BulkUpdate.FieldValueInfo.KeyType
+  id: KeyType
+  parent: SuperOffice.CRM.BulkUpdate.FieldValueInfo
+  langs:
+  - csharp
+  - vb
+  name: KeyType
+  nameWithType: FieldValueInfo.KeyType
+  fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.KeyType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public FieldValueInfo.EKeyType KeyType
+    return:
+      type: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType
+    content.vb: Public KeyType As FieldValueInfo.EKeyType
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -509,16 +534,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.#ctor
-  commentId: M:SuperOffice.CRM.BulkUpdate.FieldValueInfo.#ctor
-  id: '#ctor'
+- uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.#ctor(SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType)
+  commentId: M:SuperOffice.CRM.BulkUpdate.FieldValueInfo.#ctor(SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType)
+  id: '#ctor(SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType)'
   parent: SuperOffice.CRM.BulkUpdate.FieldValueInfo
   langs:
   - csharp
   - vb
-  name: FieldValueInfo()
-  nameWithType: FieldValueInfo.FieldValueInfo()
-  fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.FieldValueInfo()
+  name: FieldValueInfo(FieldValueInfo.EKeyType)
+  nameWithType: FieldValueInfo.FieldValueInfo(FieldValueInfo.EKeyType)
+  fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.FieldValueInfo(SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType)
   type: Constructor
   source:
     path: SoDataBase
@@ -527,8 +552,11 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public FieldValueInfo()
-    content.vb: Public Sub New
+    content: public FieldValueInfo(FieldValueInfo.EKeyType keyType = FieldValueInfo.EKeyType.kStandard)
+    parameters:
+    - id: keyType
+      type: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType
+    content.vb: Public Sub New(keyType As FieldValueInfo.EKeyType = FieldValueInfo.EKeyType.kStandard)
   overload: SuperOffice.CRM.BulkUpdate.FieldValueInfo.#ctor*
   modifiers.csharp:
   - public
@@ -925,84 +953,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<FieldValueInfo>(FieldValueInfo)
-  nameWithType: ObjectExtensions.AssignByReflection<FieldValueInfo>(FieldValueInfo)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.BulkUpdate.FieldValueInfo>(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FieldValueInfo)(FieldValueInfo)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.BulkUpdate.FieldValueInfo)(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
-  name.vb: AssignByReflection(Of FieldValueInfo)(FieldValueInfo)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<FieldValueInfo>
-    nameWithType: ObjectExtensions.AssignByReflection<FieldValueInfo>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.BulkUpdate.FieldValueInfo>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo
-    name: FieldValueInfo
-    nameWithType: FieldValueInfo
-    fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of FieldValueInfo)
-    nameWithType: ObjectExtensions.AssignByReflection(Of FieldValueInfo)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.BulkUpdate.FieldValueInfo)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo
-    name: FieldValueInfo
-    nameWithType: FieldValueInfo
-    fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<FieldValueInfo>()
-  nameWithType: ObjectExtensions.GraphCopy<FieldValueInfo>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.BulkUpdate.FieldValueInfo>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of FieldValueInfo)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.BulkUpdate.FieldValueInfo)()
-  name.vb: GraphCopy(Of FieldValueInfo)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<FieldValueInfo>
-    nameWithType: ObjectExtensions.GraphCopy<FieldValueInfo>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.BulkUpdate.FieldValueInfo>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of FieldValueInfo)
-    nameWithType: ObjectExtensions.GraphCopy(Of FieldValueInfo)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.BulkUpdate.FieldValueInfo)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
@@ -1088,103 +1038,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -1231,12 +1084,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -1250,6 +1097,13 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType
+  commentId: T:SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType
+  parent: SuperOffice.CRM.BulkUpdate
+  isExternal: true
+  name: FieldValueInfo.EKeyType
+  nameWithType: FieldValueInfo.EKeyType
+  fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType
 - uid: System.String
   commentId: T:System.String
   parent: System

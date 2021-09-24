@@ -43,6 +43,7 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.ColumnFormSubmissionId
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase._colFormSubmissionId
+  - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase._colFormSubmissionStatus
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase._colIcon
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase._colDate
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase._colTime
@@ -55,6 +56,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase._colUpdatedDate
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase._colRegisteredBy
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase._colRegisteredDate
+  - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase._colRecordTypeText
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.GetAssociateIdField
   - SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
@@ -63,6 +65,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.FormSubmissionTableInfo}.MainTableName
   - SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.FormSubmissionTableInfo}.GetRankRestriction(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.FormSubmissionTableInfo}.StyleHintPrefix
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.Visible
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.Invisible
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AllowOrderBy
@@ -145,6 +148,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddLastUpdatedMapping(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedBy(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo[])
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetIdFieldTag(SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetArchiveColumnName(SuperOffice.Data.Dictionary.SoField)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ExtensibleHelper
@@ -443,6 +447,13 @@ references:
   name: _colFormSubmissionId
   nameWithType: FormSubmissionExtenderBase._colFormSubmissionId
   fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase._colFormSubmissionId
+- uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase._colFormSubmissionStatus
+  commentId: F:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase._colFormSubmissionStatus
+  parent: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase
+  isExternal: true
+  name: _colFormSubmissionStatus
+  nameWithType: FormSubmissionExtenderBase._colFormSubmissionStatus
+  fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase._colFormSubmissionStatus
 - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase._colIcon
   commentId: F:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase._colIcon
   parent: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase
@@ -527,6 +538,13 @@ references:
   name: _colRegisteredDate
   nameWithType: FormSubmissionExtenderBase._colRegisteredDate
   fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase._colRegisteredDate
+- uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase._colRecordTypeText
+  commentId: F:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase._colRecordTypeText
+  parent: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase
+  isExternal: true
+  name: _colRecordTypeText
+  nameWithType: FormSubmissionExtenderBase._colRecordTypeText
+  fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase._colRecordTypeText
 - uid: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.InnerModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase.InnerModifyQuery
   parent: SuperOffice.CRM.ArchiveLists.FormSubmissionExtenderBase
@@ -749,6 +767,13 @@ references:
   fullName: SuperOffice.CRM.ArchiveLists.ExtenderBase<SuperOffice.CRM.Data.FormSubmissionTableInfo>.StyleHintPrefix
   nameWithType.vb: ExtenderBase(Of FormSubmissionTableInfo).StyleHintPrefix
   fullName.vb: SuperOffice.CRM.ArchiveLists.ExtenderBase(Of SuperOffice.CRM.Data.FormSubmissionTableInfo).StyleHintPrefix
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
+  commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  isExternal: true
+  name: _minuteFields
+  nameWithType: ExtensibleColumnsBase._minuteFields
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.Visible
   commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.Visible
   parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
@@ -4964,6 +4989,104 @@ references:
     nameWithType: FieldInfo
     fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  isExternal: true
+  name: AddAssociateFullName(SoDataReader, ArchiveRow, ArchiveColumnInfo, FieldInfo[])
+  nameWithType: ExtensibleColumnsBase.AddAssociateFullName(SoDataReader, ArchiveRow, ArchiveColumnInfo, FieldInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo, SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: ExtensibleColumnsBase.AddAssociateFullName(SoDataReader, ArchiveRow, ArchiveColumnInfo, FieldInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo, SuperOffice.Data.SQL.FieldInfo())
+  name.vb: AddAssociateFullName(SoDataReader, ArchiveRow, ArchiveColumnInfo, FieldInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo[])
+    name: AddAssociateFullName
+    nameWithType: ExtensibleColumnsBase.AddAssociateFullName
+    fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo[])
+    name: AddAssociateFullName
+    nameWithType: ExtensibleColumnsBase.AddAssociateFullName
+    fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
     nameWithType: )
     fullName: )

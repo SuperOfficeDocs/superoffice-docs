@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Security.Principal.ISoContextProvider
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nInterface that needs to be implemented by plug-ins handling the internal NetServer context.\nPlug-ins implemented with this interface needs to be mareked with the <xref href=\"SuperOffice.Security.Principal.SoContextProviderAttribute\" data-throw-if-not-resolved=\"false\"></xref> attribute.\n"
   syntax:
@@ -47,10 +47,10 @@ items:
   fullName: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThis method is called every time the current context needs to be stored. \n"
   remarks: "\nThis method will be called when a user authenticates or continues a session.  \nIt will be called with a NULL value when a user closes or suspends his session.\n<p>\nThis method might be called from any thread.  This means that worker threads will \ncall it in addition to threads held by the application (i.e. IIS).\n</p>\n<p>\nImplementations can call the <xref href=\"SuperOffice.Threading.ThreadManager.IsWorkerThread\" data-throw-if-not-resolved=\"false\"></xref> \nto check if the thread has been executed by the <xref href=\"SuperOffice.Threading.ThreadManager\" data-throw-if-not-resolved=\"false\"></xref>.  \nThis will be the case for all worker threads initiated automatically within NetServer.\n</p>\n<p>It is safe to serialize and de-serialize the value of the context.</p>\n"
@@ -74,10 +74,10 @@ items:
   fullName: SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThis method will be called every time the current context is required by anybody in NetServer\n"
   remarks: "\nThis method might be called from any thread.  This means that worker threads will \ncall it in addition to threads held by the application (i.e. IIS).\n<p>\nImplementations can call the <xref href=\"SuperOffice.Threading.ThreadManager.IsWorkerThread\" data-throw-if-not-resolved=\"false\"></xref> \nto check if the thread has been executed by the <xref href=\"SuperOffice.Threading.ThreadManager\" data-throw-if-not-resolved=\"false\"></xref>.  \nThis will be the case for all worker threads initiated automatically within NetServer.\n</p>\n"

@@ -24,10 +24,10 @@ items:
   fullName: SuperOffice.UserPreferenceDefaults
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nDefines user preference default values\n"
   syntax:
@@ -62,10 +62,10 @@ items:
   fullName: SuperOffice.UserPreferenceDefaults.DefaultHistoryListSize
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nThe default value of the History list length\n"
   syntax:
@@ -91,10 +91,10 @@ items:
   fullName: SuperOffice.UserPreferenceDefaults.AllDayStartTime
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nAll day/work day starts at 08:00\n"
   syntax:
@@ -120,10 +120,10 @@ items:
   fullName: SuperOffice.UserPreferenceDefaults.AllDayEndTime
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nAll day/work day ends at 16:00\n"
   syntax:
@@ -149,10 +149,10 @@ items:
   fullName: SuperOffice.UserPreferenceDefaults.LunchStartTime
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nLunch starts at 12:00\n"
   syntax:
@@ -178,10 +178,10 @@ items:
   fullName: SuperOffice.UserPreferenceDefaults.LunchEndTime
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nLunch ends at 13:00\n"
   syntax:
@@ -207,10 +207,10 @@ items:
   fullName: SuperOffice.UserPreferenceDefaults.SilentAfter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHow long an alarm should sound\n"
   syntax:
@@ -236,10 +236,10 @@ items:
   fullName: SuperOffice.UserPreferenceDefaults.PollingInterval
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nPolling interval for invitations and alarm checks\n"
   syntax:
@@ -265,10 +265,10 @@ items:
   fullName: SuperOffice.UserPreferenceDefaults.FilterCompletedFromTodo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nFilter: Removes completed activities from the checklist\n"
   syntax:
@@ -294,10 +294,10 @@ items:
   fullName: SuperOffice.UserPreferenceDefaults.GetAdvanceDays
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nNumber of days ahead to display tasks in the checklist. Default is 21 days\n"
   syntax:
@@ -323,10 +323,10 @@ items:
   fullName: SuperOffice.UserPreferenceDefaults.ValueOrDefault(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nReturn the actual value, unless it is blank, in which case the default value is returned\n"
   syntax:
@@ -361,10 +361,10 @@ items:
   fullName: SuperOffice.UserPreferenceDefaults.ValueOrDefault(System.Int32, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nReturn the actual value, unless it is 0, in which case the default value is returned\n"
   syntax:

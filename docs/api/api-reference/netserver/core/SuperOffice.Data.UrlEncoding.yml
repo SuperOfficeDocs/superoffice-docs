@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.UrlEncoding
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nUrl encoding\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.UrlEncoding.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.UrlEncoding.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: No encoding\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.UrlEncoding.ANSI
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: ANSI\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.UrlEncoding.Unicode
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Unicode\n"
   syntax:

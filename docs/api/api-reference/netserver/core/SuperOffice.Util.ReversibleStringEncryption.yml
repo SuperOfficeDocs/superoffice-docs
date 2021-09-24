@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Util.ReversibleStringEncryption
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nThis class implements a simple string encryptor/decryptor using the <xref href=\"System.Security.Cryptography.RijndaelManaged\" data-throw-if-not-resolved=\"false\"></xref> crypto provider.\nThe class will encrypt strings \n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.Util.ReversibleStringEncryption.Encrypt(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nEncrypts the passed System.Xml.XmlNode object from a configuration file.\n"
   syntax:
@@ -91,10 +91,10 @@ items:
   fullName: SuperOffice.Util.ReversibleStringEncryption.IsEncrypted(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturns true if the provided text is encrypted.\n"
   syntax:

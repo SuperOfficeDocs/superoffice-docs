@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.CRM.Services.stringObjectDictionaryExt
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public static class stringObjectDictionaryExt
@@ -52,10 +52,10 @@ items:
   fullName: SuperOffice.CRM.Services.stringObjectDictionaryExt.ToStringObjectDictionary(System.Collections.Generic.Dictionary<System.String, System.Object>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public static StringObjectDictionary ToStringObjectDictionary(this Dictionary<string, object> input)

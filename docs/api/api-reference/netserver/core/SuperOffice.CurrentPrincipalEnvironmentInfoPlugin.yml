@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.CurrentPrincipalEnvironmentInfoPlugin
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: >-
@@ -71,10 +71,10 @@ items:
   fullName: SuperOffice.CurrentPrincipalEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public void UpdateEnvironmentInfo(NameValueCollection environmentInfo)
@@ -101,10 +101,10 @@ items:
   fullName: SuperOffice.CurrentPrincipalEnvironmentInfoPlugin.CurrentPrincipalEnvironmentInfoPlugin()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public CurrentPrincipalEnvironmentInfoPlugin()

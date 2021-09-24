@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Data.FormType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nWhat kind of form is this\nThis Enum is used by:  form.type\n"
   syntax:
@@ -47,10 +47,10 @@ items:
   fullName: SuperOffice.Data.FormType.Normal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: A form instance\n"
   syntax:
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.Data.FormType.Template
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: A form template\n"
   syntax:

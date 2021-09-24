@@ -31,10 +31,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreference keys for the mini panel.\n"
   syntax:
@@ -69,10 +69,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:
@@ -98,10 +98,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportContactDuplicate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nContact duplicate definition on import\n"
   syntax:
@@ -127,10 +127,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportContactDuplicateAction
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nContact duplicate action on import\n"
   syntax:
@@ -156,10 +156,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportContactBlankAction
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nContact blank action on import\n"
   syntax:
@@ -185,10 +185,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportPersonDuplicate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPerson duplicate definition on import\n"
   syntax:
@@ -214,10 +214,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportPersonDuplicateAction
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPerson blank action on import\n"
   syntax:
@@ -243,10 +243,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewCategoryItems
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nAction on new list items on import\n"
   syntax:
@@ -272,10 +272,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewBusinessItems
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nAction on new list items on import\n"
   syntax:
@@ -301,10 +301,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewPositionItems
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nAction on new list items on import\n"
   syntax:
@@ -330,10 +330,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewUDListItems
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nAction on new list items on import\n"
   syntax:
@@ -359,10 +359,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewInterestItems
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nAction on new list items on import\n"
   syntax:
@@ -388,10 +388,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportPhoneNumbers
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nAction on new phone numbers on import\n"
   syntax:
@@ -417,10 +417,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportUrlsEmails
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nAction on urls and emails on import\n"
   syntax:
@@ -446,10 +446,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportProductDuplicate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nProduct duplicate definition on import\n"
   syntax:
@@ -475,10 +475,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportProductDuplicateAction
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nProduct duplicate action on import\n"
   syntax:
@@ -504,10 +504,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewProductCategoryItems
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nAction on new list items in product category on import\n"
   syntax:
@@ -533,10 +533,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewProductFamilyItems
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nAction on new list items in product family on import\n"
   syntax:
@@ -562,10 +562,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.AdminImportRules.AdminImportNewProductTypeItems
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nAction on new list items in product type on import\n"
   syntax:

@@ -25,10 +25,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -63,10 +63,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Type
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -92,10 +92,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Mask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -121,10 +121,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.MaxLength
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -150,10 +150,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Rows
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -179,10 +179,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.TextAlign
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -208,10 +208,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Left
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -237,10 +237,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Right
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -266,10 +266,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Center
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -295,10 +295,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Alphanumeric
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -324,10 +324,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Integer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -353,10 +353,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Float
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -382,10 +382,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Money
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:

@@ -22,10 +22,10 @@ items:
   fullName: SuperOffice.Data.Domain
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nHierarchy domain\n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.Data.Domain.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown folders\n"
   syntax:
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.Data.Domain.ExtraTables
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: ExtraTable folders\n"
   syntax:
@@ -110,10 +110,10 @@ items:
   fullName: SuperOffice.Data.Domain.ScreenDefinitions
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: ScreenDefinition folders\n"
   syntax:
@@ -138,10 +138,10 @@ items:
   fullName: SuperOffice.Data.Domain.Scripts
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Script folders\n"
   syntax:
@@ -166,10 +166,10 @@ items:
   fullName: SuperOffice.Data.Domain.Selections
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Selection folders\n"
   syntax:
@@ -194,10 +194,10 @@ items:
   fullName: SuperOffice.Data.Domain.ExternalDocuments
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: ExternalDocument folders\n"
   syntax:
@@ -222,10 +222,10 @@ items:
   fullName: SuperOffice.Data.Domain.UserGroups
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: UserGroup folders\n"
   syntax:
@@ -250,10 +250,10 @@ items:
   fullName: SuperOffice.Data.Domain.ExternalDocumentRelatedToSpmMessage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: ExternalDocuments related to spam messages folders\n"
   syntax:
@@ -278,10 +278,10 @@ items:
   fullName: SuperOffice.Data.Domain.Dashboards
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Dashboard folders\n"
   syntax:

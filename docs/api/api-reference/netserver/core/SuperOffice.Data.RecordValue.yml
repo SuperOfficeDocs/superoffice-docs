@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.RecordValue
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nClass used to contain a record&apos;s value.\nInclude actual value and its defined type.\n"
   syntax:
@@ -58,10 +58,10 @@ items:
   fullName: SuperOffice.Data.RecordValue.RecordValue()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public RecordValue()
@@ -83,10 +83,10 @@ items:
   fullName: SuperOffice.Data.RecordValue.Value
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nGets or sets a <xref href=\"SuperOffice.Data.Record\" data-throw-if-not-resolved=\"false\"></xref>&apos;s actual value.\n"
   syntax:
@@ -114,10 +114,10 @@ items:
   fullName: SuperOffice.Data.RecordValue.Type
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nGets or sets a <xref href=\"SuperOffice.Data.Record\" data-throw-if-not-resolved=\"false\"></xref>&apos;s declared type.\nUsed to prepare a record&apos;s columns because <xref href=\"SuperOffice.Data.RecordValue.Value\" data-throw-if-not-resolved=\"false\"></xref> can be null.\n"
   syntax:

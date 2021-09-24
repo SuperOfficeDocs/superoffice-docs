@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.Address
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.All
+  - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.Appointment
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.Associate
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.Consent
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.ConsentPerson
@@ -28,6 +29,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.None
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.PersonEmailInSelection
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.Phones
+  - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.ProjectMember
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.Request
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.Saint
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.SearchAddress
@@ -751,6 +753,60 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.ProjectMember
+  commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.ProjectMember
+  id: ProjectMember
+  parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: ProjectMember
+  nameWithType: PersonExtenderBase.Features.ProjectMember
+  fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.ProjectMember
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: ProjectMember = 16777216
+    return:
+      type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.Appointment
+  commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.Appointment
+  id: Appointment
+  parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Appointment
+  nameWithType: PersonExtenderBase.Features.Appointment
+  fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.Appointment
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Appointment = 33554432
+    return:
+      type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.All
   commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.All
   id: All
@@ -769,7 +825,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: All = 14824441
+    content: All = 65156089
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
   modifiers.csharp:
@@ -823,7 +879,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: SelectionPerson = 15337436
+    content: SelectionPerson = 65669084
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
   modifiers.csharp:
@@ -850,7 +906,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: SelectionStaticPerson = 16745438
+    content: SelectionStaticPerson = 67077086
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
   modifiers.csharp:
@@ -877,7 +933,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: NewSelectionPerson = 16745438
+    content: NewSelectionPerson = 67077086
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
   modifiers.csharp:

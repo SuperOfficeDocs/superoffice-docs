@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrencePatternBase
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nAbstract class representing a pattern for recurrence\n"
   syntax:
@@ -67,10 +67,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrencePatternBase.Clone()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public abstract object Clone()
@@ -98,10 +98,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrencePatternBase.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: protected virtual void CopyTo(RecurrencePatternBase destination)
@@ -128,10 +128,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrencePatternBase.RecurrencePatternBase()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: protected RecurrencePatternBase()
@@ -153,10 +153,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrencePatternBase.Cycle
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nThe number of intervals (day, week, month) between each recurrence.\n"
   syntax:

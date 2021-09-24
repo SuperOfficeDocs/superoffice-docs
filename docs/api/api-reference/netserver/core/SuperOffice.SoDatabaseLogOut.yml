@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.SoDatabaseLogOut
   type: Delegate
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nEvent raised as part of dissconnect database process (formerly referred to as the database logout process)\n"
   syntax:
@@ -47,10 +47,10 @@ items:
   fullName: SuperOffice.SoDatabaseLogOut.SoDatabaseLogOut(System.Object, System.IntPtr)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public SoDatabaseLogOut(object object, IntPtr method)
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.SoDatabaseLogOut.Invoke()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public virtual void Invoke()
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.SoDatabaseLogOut.BeginInvoke(System.AsyncCallback, System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object object)
@@ -138,10 +138,10 @@ items:
   fullName: SuperOffice.SoDatabaseLogOut.EndInvoke(System.IAsyncResult)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public virtual void EndInvoke(IAsyncResult result)

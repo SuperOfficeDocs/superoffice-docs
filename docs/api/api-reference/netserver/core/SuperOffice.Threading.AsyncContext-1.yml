@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Threading.AsyncContext<TArgument>
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nImplementation of abstract class <xref href=\"SuperOffice.Threading.AsyncContext\" data-throw-if-not-resolved=\"false\"></xref>, isolating the use of template arguments.\n"
   syntax:
@@ -80,10 +80,10 @@ items:
   fullName: SuperOffice.Threading.AsyncContext<TArgument>.ExecuteAsyncOperation()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nExecute the async operation.\n"
   syntax:

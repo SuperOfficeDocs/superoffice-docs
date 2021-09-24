@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Exceptions.PerformanceMonitoring
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nThis class is an encapsulation of the Windows Performance Counters. Use the static Increment/Decrement methods\ncombined with the Counters enum to do your counting. All public methods are thread safe.\n"
   remarks: "\nPerformance counter categories cannot be edited, i.e., you cannot add a new counter to an already existing category.\nAt the same time, enumerating all counters to see if they match the current definitions in the code takes a loooong\ntime, there is some kind of timeout or hangup in there.\n<p></p>\nTherefore, you must set the CreateCounters property to true in the Diagnostics section of the config file, and run once\nto re-create all categories, if you run for the first time or have changed/added to the counter definitions.\n<p></p>\nTo add a new counter, you need to do several things: 1) Add a new member to the <see cref=\"!:Counters\"></see> enum.\n2) Add corresponding cases or switches (if new category) to the <see cref=\"!:CounterEnumFromCategoryAndName\"></see>,\nto bind the enum to a category and counter name. Finally, you must add counter creation data to the \n<see cref=\"!:CreateCountersForThreading\"></see> or other creation method (make a new one for a new category); this is where you\nset up the counter name, help and type information that is needed by the system and shown in Perfmon.\n"
@@ -71,10 +71,10 @@ items:
   fullName: SuperOffice.Exceptions.PerformanceMonitoring.PerformanceMonitoring()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   syntax:
     content: public PerformanceMonitoring()

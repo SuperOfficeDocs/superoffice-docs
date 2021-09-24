@@ -34,8 +34,8 @@ items:
   - SuperOffice.CRM.Data.BusinessGroupLinkTableInfo
   - SuperOffice.CRM.Data.BusinessHeadingLinkTableInfo
   - SuperOffice.CRM.Data.BusinessTableInfo
+  - SuperOffice.CRM.Data.CacheInvalidationTableInfo
   - SuperOffice.CRM.Data.CacheTablesTableInfo
-  - SuperOffice.CRM.Data.CacheTabsTableInfo
   - SuperOffice.CRM.Data.CategoryFamilyTableInfo
   - SuperOffice.CRM.Data.CategoryGroupLinkTableInfo
   - SuperOffice.CRM.Data.CategoryHeadingLinkTableInfo
@@ -51,6 +51,7 @@ items:
   - SuperOffice.CRM.Data.ComptrHeadingLinkTableInfo
   - SuperOffice.CRM.Data.ComptrTableInfo
   - SuperOffice.CRM.Data.ConfigTableInfo
+  - SuperOffice.CRM.Data.ConfigurableScreenDeltaTableInfo
   - SuperOffice.CRM.Data.ConnectionConfigFieldTableInfo
   - SuperOffice.CRM.Data.ConsentPersonTableInfo
   - SuperOffice.CRM.Data.ConsentPurposeTableInfo
@@ -59,7 +60,6 @@ items:
   - SuperOffice.CRM.Data.ContactTableInfo
   - SuperOffice.CRM.Data.ContIntGroupLinkTableInfo
   - SuperOffice.CRM.Data.ContIntHeadingLinkTableInfo
-  - SuperOffice.CRM.Data.ContIntListTableInfo
   - SuperOffice.CRM.Data.ContIntTableInfo
   - SuperOffice.CRM.Data.CounterValueTableInfo
   - SuperOffice.CRM.Data.CountryGroupLinkTableInfo
@@ -75,9 +75,13 @@ items:
   - SuperOffice.CRM.Data.CustCategoryTableInfo
   - SuperOffice.CRM.Data.CustConfigTableInfo
   - SuperOffice.CRM.Data.CustLangTableInfo
+  - SuperOffice.CRM.Data.DashboardTableInfo
+  - SuperOffice.CRM.Data.DashboardThemeTableInfo
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  - SuperOffice.CRM.Data.DashboardTileFieldTableInfo
+  - SuperOffice.CRM.Data.DashboardTileTableInfo
   - SuperOffice.CRM.Data.DatabaseModelTableInfo
   - SuperOffice.CRM.Data.DataRightTableInfo
-  - SuperOffice.CRM.Data.DateTestTableInfo
   - SuperOffice.CRM.Data.DBC
   - SuperOffice.CRM.Data.DBC.AccessScriptFields
   - SuperOffice.CRM.Data.DBC.ActiveUserFields
@@ -109,6 +113,7 @@ items:
   - SuperOffice.CRM.Data.DBC.BusinessFields
   - SuperOffice.CRM.Data.DBC.BusinessGroupLinkFields
   - SuperOffice.CRM.Data.DBC.BusinessHeadingLinkFields
+  - SuperOffice.CRM.Data.DBC.CacheInvalidationFields
   - SuperOffice.CRM.Data.DBC.CacheTablesFields
   - SuperOffice.CRM.Data.DBC.CategoryFamilyFields
   - SuperOffice.CRM.Data.DBC.CategoryFields
@@ -125,6 +130,7 @@ items:
   - SuperOffice.CRM.Data.DBC.ComptrGroupLinkFields
   - SuperOffice.CRM.Data.DBC.ComptrHeadingLinkFields
   - SuperOffice.CRM.Data.DBC.ConfigFields
+  - SuperOffice.CRM.Data.DBC.ConfigurableScreenDeltaFields
   - SuperOffice.CRM.Data.DBC.ConnectionConfigFieldFields
   - SuperOffice.CRM.Data.DBC.ConsentPersonFields
   - SuperOffice.CRM.Data.DBC.ConsentPurposeFields
@@ -148,6 +154,11 @@ items:
   - SuperOffice.CRM.Data.DBC.CustCategoryFields
   - SuperOffice.CRM.Data.DBC.CustConfigFields
   - SuperOffice.CRM.Data.DBC.CustLangFields
+  - SuperOffice.CRM.Data.DBC.DashboardFields
+  - SuperOffice.CRM.Data.DBC.DashboardThemeFields
+  - SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  - SuperOffice.CRM.Data.DBC.DashboardTileFieldFields
+  - SuperOffice.CRM.Data.DBC.DashboardTileFields
   - SuperOffice.CRM.Data.DBC.DatabaseModelFields
   - SuperOffice.CRM.Data.DBC.DataRightFields
   - SuperOffice.CRM.Data.DBC.DbiAgentFieldFields
@@ -651,7 +662,6 @@ items:
   - SuperOffice.CRM.Data.HelpTableInfo
   - SuperOffice.CRM.Data.HierarchyTableInfo
   - SuperOffice.CRM.Data.HistoryTableInfo
-  - SuperOffice.CRM.Data.HistTableInfo
   - SuperOffice.CRM.Data.HotlistTableInfo
   - SuperOffice.CRM.Data.ImportDefaultTableInfo
   - SuperOffice.CRM.Data.ImportFieldTableInfo
@@ -734,7 +744,6 @@ items:
   - SuperOffice.CRM.Data.PaymentTypeTableInfo
   - SuperOffice.CRM.Data.PersIntGroupLinkTableInfo
   - SuperOffice.CRM.Data.PersIntHeadingLinkTableInfo
-  - SuperOffice.CRM.Data.PersIntListTableInfo
   - SuperOffice.CRM.Data.PersIntTableInfo
   - SuperOffice.CRM.Data.PersonInterestTableInfo
   - SuperOffice.CRM.Data.PersonTableInfo
@@ -749,7 +758,6 @@ items:
   - SuperOffice.CRM.Data.PrefDescLineTableInfo
   - SuperOffice.CRM.Data.PrefDescTableInfo
   - SuperOffice.CRM.Data.PreferenceTableInfo
-  - SuperOffice.CRM.Data.PreferenTableInfo
   - SuperOffice.CRM.Data.PriceListTableInfo
   - SuperOffice.CRM.Data.PriceUnitGroupLinkTableInfo
   - SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo
@@ -999,6 +1007,118 @@ items:
   assemblies:
   - SoDataBase
 references:
+- uid: SuperOffice.CRM.Data.AccessScriptTableInfo
+  commentId: T:SuperOffice.CRM.Data.AccessScriptTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: AccessScriptTableInfo
+  nameWithType: AccessScriptTableInfo
+  fullName: SuperOffice.CRM.Data.AccessScriptTableInfo
+- uid: SuperOffice.CRM.Data.ActiveUserTableInfo
+  commentId: T:SuperOffice.CRM.Data.ActiveUserTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ActiveUserTableInfo
+  nameWithType: ActiveUserTableInfo
+  fullName: SuperOffice.CRM.Data.ActiveUserTableInfo
+- uid: SuperOffice.CRM.Data.AddressTableInfo
+  commentId: T:SuperOffice.CRM.Data.AddressTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: AddressTableInfo
+  nameWithType: AddressTableInfo
+  fullName: SuperOffice.CRM.Data.AddressTableInfo
+- uid: SuperOffice.CRM.Data.AddressFormatTableInfo
+  commentId: T:SuperOffice.CRM.Data.AddressFormatTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: AddressFormatTableInfo
+  nameWithType: AddressFormatTableInfo
+  fullName: SuperOffice.CRM.Data.AddressFormatTableInfo
+- uid: SuperOffice.CRM.Data.AmountClassTableInfo
+  commentId: T:SuperOffice.CRM.Data.AmountClassTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: AmountClassTableInfo
+  nameWithType: AmountClassTableInfo
+  fullName: SuperOffice.CRM.Data.AmountClassTableInfo
+- uid: SuperOffice.CRM.Data.AmountClassGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.AmountClassGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: AmountClassGroupLinkTableInfo
+  nameWithType: AmountClassGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.AmountClassGroupLinkTableInfo
+- uid: SuperOffice.CRM.Data.AmountClassHeadingLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.AmountClassHeadingLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: AmountClassHeadingLinkTableInfo
+  nameWithType: AmountClassHeadingLinkTableInfo
+  fullName: SuperOffice.CRM.Data.AmountClassHeadingLinkTableInfo
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo
+  commentId: T:SuperOffice.CRM.Data.AppointmentTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: AppointmentTableInfo
+  nameWithType: AppointmentTableInfo
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo
+- uid: SuperOffice.CRM.Data.AreaTableInfo
+  commentId: T:SuperOffice.CRM.Data.AreaTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: AreaTableInfo
+  nameWithType: AreaTableInfo
+  fullName: SuperOffice.CRM.Data.AreaTableInfo
+- uid: SuperOffice.CRM.Data.AreaUserAssignmentTableInfo
+  commentId: T:SuperOffice.CRM.Data.AreaUserAssignmentTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: AreaUserAssignmentTableInfo
+  nameWithType: AreaUserAssignmentTableInfo
+  fullName: SuperOffice.CRM.Data.AreaUserAssignmentTableInfo
+- uid: SuperOffice.CRM.Data.AreaUserInclusionTableInfo
+  commentId: T:SuperOffice.CRM.Data.AreaUserInclusionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: AreaUserInclusionTableInfo
+  nameWithType: AreaUserInclusionTableInfo
+  fullName: SuperOffice.CRM.Data.AreaUserInclusionTableInfo
+- uid: SuperOffice.CRM.Data.AssociateTableInfo
+  commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: AssociateTableInfo
+  nameWithType: AssociateTableInfo
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo
+- uid: SuperOffice.CRM.Data.AssociateGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.AssociateGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: AssociateGroupLinkTableInfo
+  nameWithType: AssociateGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.AssociateGroupLinkTableInfo
+- uid: SuperOffice.CRM.Data.AssociateHeadingLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.AssociateHeadingLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: AssociateHeadingLinkTableInfo
+  nameWithType: AssociateHeadingLinkTableInfo
+  fullName: SuperOffice.CRM.Data.AssociateHeadingLinkTableInfo
+- uid: SuperOffice.CRM.Data.AssociateHistoryTableInfo
+  commentId: T:SuperOffice.CRM.Data.AssociateHistoryTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: AssociateHistoryTableInfo
+  nameWithType: AssociateHistoryTableInfo
+  fullName: SuperOffice.CRM.Data.AssociateHistoryTableInfo
+- uid: SuperOffice.CRM.Data.AttachmentTableInfo
+  commentId: T:SuperOffice.CRM.Data.AttachmentTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: AttachmentTableInfo
+  nameWithType: AttachmentTableInfo
+  fullName: SuperOffice.CRM.Data.AttachmentTableInfo
 - uid: SuperOffice.CRM.Data.AttachmentLocationTableInfo
   commentId: T:SuperOffice.CRM.Data.AttachmentLocationTableInfo
   parent: SuperOffice.CRM.Data
@@ -1006,12 +1126,118 @@ references:
   name: AttachmentLocationTableInfo
   nameWithType: AttachmentLocationTableInfo
   fullName: SuperOffice.CRM.Data.AttachmentLocationTableInfo
-- uid: SuperOffice.CRM.Data.CacheTabsTableInfo
-  commentId: T:SuperOffice.CRM.Data.CacheTabsTableInfo
+- uid: SuperOffice.CRM.Data.AudienceConfigTableInfo
+  commentId: T:SuperOffice.CRM.Data.AudienceConfigTableInfo
+  parent: SuperOffice.CRM.Data
   isExternal: true
-  name: CacheTabsTableInfo
-  nameWithType: CacheTabsTableInfo
-  fullName: SuperOffice.CRM.Data.CacheTabsTableInfo
+  name: AudienceConfigTableInfo
+  nameWithType: AudienceConfigTableInfo
+  fullName: SuperOffice.CRM.Data.AudienceConfigTableInfo
+- uid: SuperOffice.CRM.Data.AudienceLayoutTableInfo
+  commentId: T:SuperOffice.CRM.Data.AudienceLayoutTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: AudienceLayoutTableInfo
+  nameWithType: AudienceLayoutTableInfo
+  fullName: SuperOffice.CRM.Data.AudienceLayoutTableInfo
+- uid: SuperOffice.CRM.Data.AudienceLayoutLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.AudienceLayoutLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: AudienceLayoutLinkTableInfo
+  nameWithType: AudienceLayoutLinkTableInfo
+  fullName: SuperOffice.CRM.Data.AudienceLayoutLinkTableInfo
+- uid: SuperOffice.CRM.Data.AudienceVisibilityTableInfo
+  commentId: T:SuperOffice.CRM.Data.AudienceVisibilityTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: AudienceVisibilityTableInfo
+  nameWithType: AudienceVisibilityTableInfo
+  fullName: SuperOffice.CRM.Data.AudienceVisibilityTableInfo
+- uid: SuperOffice.CRM.Data.AutosaveTableInfo
+  commentId: T:SuperOffice.CRM.Data.AutosaveTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: AutosaveTableInfo
+  nameWithType: AutosaveTableInfo
+  fullName: SuperOffice.CRM.Data.AutosaveTableInfo
+- uid: SuperOffice.CRM.Data.BaseTZLocationTableInfo
+  commentId: T:SuperOffice.CRM.Data.BaseTZLocationTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: BaseTZLocationTableInfo
+  nameWithType: BaseTZLocationTableInfo
+  fullName: SuperOffice.CRM.Data.BaseTZLocationTableInfo
+- uid: SuperOffice.CRM.Data.BatchTaskTableInfo
+  commentId: T:SuperOffice.CRM.Data.BatchTaskTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: BatchTaskTableInfo
+  nameWithType: BatchTaskTableInfo
+  fullName: SuperOffice.CRM.Data.BatchTaskTableInfo
+- uid: SuperOffice.CRM.Data.BatchTaskDefinitionTableInfo
+  commentId: T:SuperOffice.CRM.Data.BatchTaskDefinitionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: BatchTaskDefinitionTableInfo
+  nameWithType: BatchTaskDefinitionTableInfo
+  fullName: SuperOffice.CRM.Data.BatchTaskDefinitionTableInfo
+- uid: SuperOffice.CRM.Data.BinaryObjectTableInfo
+  commentId: T:SuperOffice.CRM.Data.BinaryObjectTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: BinaryObjectTableInfo
+  nameWithType: BinaryObjectTableInfo
+  fullName: SuperOffice.CRM.Data.BinaryObjectTableInfo
+- uid: SuperOffice.CRM.Data.BinaryObjectLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.BinaryObjectLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: BinaryObjectLinkTableInfo
+  nameWithType: BinaryObjectLinkTableInfo
+  fullName: SuperOffice.CRM.Data.BinaryObjectLinkTableInfo
+- uid: SuperOffice.CRM.Data.BusinessTableInfo
+  commentId: T:SuperOffice.CRM.Data.BusinessTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: BusinessTableInfo
+  nameWithType: BusinessTableInfo
+  fullName: SuperOffice.CRM.Data.BusinessTableInfo
+- uid: SuperOffice.CRM.Data.BusinessGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.BusinessGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: BusinessGroupLinkTableInfo
+  nameWithType: BusinessGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.BusinessGroupLinkTableInfo
+- uid: SuperOffice.CRM.Data.BusinessHeadingLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.BusinessHeadingLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: BusinessHeadingLinkTableInfo
+  nameWithType: BusinessHeadingLinkTableInfo
+  fullName: SuperOffice.CRM.Data.BusinessHeadingLinkTableInfo
+- uid: SuperOffice.CRM.Data.CacheInvalidationTableInfo
+  commentId: T:SuperOffice.CRM.Data.CacheInvalidationTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CacheInvalidationTableInfo
+  nameWithType: CacheInvalidationTableInfo
+  fullName: SuperOffice.CRM.Data.CacheInvalidationTableInfo
+- uid: SuperOffice.CRM.Data.CacheTablesTableInfo
+  commentId: T:SuperOffice.CRM.Data.CacheTablesTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CacheTablesTableInfo
+  nameWithType: CacheTablesTableInfo
+  fullName: SuperOffice.CRM.Data.CacheTablesTableInfo
+- uid: SuperOffice.CRM.Data.CategoryTableInfo
+  commentId: T:SuperOffice.CRM.Data.CategoryTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CategoryTableInfo
+  nameWithType: CategoryTableInfo
+  fullName: SuperOffice.CRM.Data.CategoryTableInfo
 - uid: SuperOffice.CRM.Data.CategoryFamilyTableInfo
   commentId: T:SuperOffice.CRM.Data.CategoryFamilyTableInfo
   parent: SuperOffice.CRM.Data
@@ -1019,6 +1245,104 @@ references:
   name: CategoryFamilyTableInfo
   nameWithType: CategoryFamilyTableInfo
   fullName: SuperOffice.CRM.Data.CategoryFamilyTableInfo
+- uid: SuperOffice.CRM.Data.CategoryGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.CategoryGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CategoryGroupLinkTableInfo
+  nameWithType: CategoryGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.CategoryGroupLinkTableInfo
+- uid: SuperOffice.CRM.Data.CategoryHeadingLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.CategoryHeadingLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CategoryHeadingLinkTableInfo
+  nameWithType: CategoryHeadingLinkTableInfo
+  fullName: SuperOffice.CRM.Data.CategoryHeadingLinkTableInfo
+- uid: SuperOffice.CRM.Data.CategoryMembershipTableInfo
+  commentId: T:SuperOffice.CRM.Data.CategoryMembershipTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CategoryMembershipTableInfo
+  nameWithType: CategoryMembershipTableInfo
+  fullName: SuperOffice.CRM.Data.CategoryMembershipTableInfo
+- uid: SuperOffice.CRM.Data.ChatMessageTableInfo
+  commentId: T:SuperOffice.CRM.Data.ChatMessageTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ChatMessageTableInfo
+  nameWithType: ChatMessageTableInfo
+  fullName: SuperOffice.CRM.Data.ChatMessageTableInfo
+- uid: SuperOffice.CRM.Data.ChatSessionTableInfo
+  commentId: T:SuperOffice.CRM.Data.ChatSessionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ChatSessionTableInfo
+  nameWithType: ChatSessionTableInfo
+  fullName: SuperOffice.CRM.Data.ChatSessionTableInfo
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo
+  commentId: T:SuperOffice.CRM.Data.ChatTopicTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ChatTopicTableInfo
+  nameWithType: ChatTopicTableInfo
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo
+- uid: SuperOffice.CRM.Data.ChatTopicUserTableInfo
+  commentId: T:SuperOffice.CRM.Data.ChatTopicUserTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ChatTopicUserTableInfo
+  nameWithType: ChatTopicUserTableInfo
+  fullName: SuperOffice.CRM.Data.ChatTopicUserTableInfo
+- uid: SuperOffice.CRM.Data.CompanyTableInfo
+  commentId: T:SuperOffice.CRM.Data.CompanyTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CompanyTableInfo
+  nameWithType: CompanyTableInfo
+  fullName: SuperOffice.CRM.Data.CompanyTableInfo
+- uid: SuperOffice.CRM.Data.CompanyDomainTableInfo
+  commentId: T:SuperOffice.CRM.Data.CompanyDomainTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CompanyDomainTableInfo
+  nameWithType: CompanyDomainTableInfo
+  fullName: SuperOffice.CRM.Data.CompanyDomainTableInfo
+- uid: SuperOffice.CRM.Data.ComptrTableInfo
+  commentId: T:SuperOffice.CRM.Data.ComptrTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ComptrTableInfo
+  nameWithType: ComptrTableInfo
+  fullName: SuperOffice.CRM.Data.ComptrTableInfo
+- uid: SuperOffice.CRM.Data.ComptrGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.ComptrGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ComptrGroupLinkTableInfo
+  nameWithType: ComptrGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.ComptrGroupLinkTableInfo
+- uid: SuperOffice.CRM.Data.ComptrHeadingLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.ComptrHeadingLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ComptrHeadingLinkTableInfo
+  nameWithType: ComptrHeadingLinkTableInfo
+  fullName: SuperOffice.CRM.Data.ComptrHeadingLinkTableInfo
+- uid: SuperOffice.CRM.Data.ConfigTableInfo
+  commentId: T:SuperOffice.CRM.Data.ConfigTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ConfigTableInfo
+  nameWithType: ConfigTableInfo
+  fullName: SuperOffice.CRM.Data.ConfigTableInfo
+- uid: SuperOffice.CRM.Data.ConfigurableScreenDeltaTableInfo
+  commentId: T:SuperOffice.CRM.Data.ConfigurableScreenDeltaTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ConfigurableScreenDeltaTableInfo
+  nameWithType: ConfigurableScreenDeltaTableInfo
+  fullName: SuperOffice.CRM.Data.ConfigurableScreenDeltaTableInfo
 - uid: SuperOffice.CRM.Data.ConnectionConfigFieldTableInfo
   commentId: T:SuperOffice.CRM.Data.ConnectionConfigFieldTableInfo
   parent: SuperOffice.CRM.Data
@@ -1047,12 +1371,174 @@ references:
   name: ConsentSourceTableInfo
   nameWithType: ConsentSourceTableInfo
   fullName: SuperOffice.CRM.Data.ConsentSourceTableInfo
-- uid: SuperOffice.CRM.Data.ContIntListTableInfo
-  commentId: T:SuperOffice.CRM.Data.ContIntListTableInfo
+- uid: SuperOffice.CRM.Data.ContactTableInfo
+  commentId: T:SuperOffice.CRM.Data.ContactTableInfo
+  parent: SuperOffice.CRM.Data
   isExternal: true
-  name: ContIntListTableInfo
-  nameWithType: ContIntListTableInfo
-  fullName: SuperOffice.CRM.Data.ContIntListTableInfo
+  name: ContactTableInfo
+  nameWithType: ContactTableInfo
+  fullName: SuperOffice.CRM.Data.ContactTableInfo
+- uid: SuperOffice.CRM.Data.ContactInterestTableInfo
+  commentId: T:SuperOffice.CRM.Data.ContactInterestTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ContactInterestTableInfo
+  nameWithType: ContactInterestTableInfo
+  fullName: SuperOffice.CRM.Data.ContactInterestTableInfo
+- uid: SuperOffice.CRM.Data.ContIntTableInfo
+  commentId: T:SuperOffice.CRM.Data.ContIntTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ContIntTableInfo
+  nameWithType: ContIntTableInfo
+  fullName: SuperOffice.CRM.Data.ContIntTableInfo
+- uid: SuperOffice.CRM.Data.ContIntGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.ContIntGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ContIntGroupLinkTableInfo
+  nameWithType: ContIntGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.ContIntGroupLinkTableInfo
+- uid: SuperOffice.CRM.Data.ContIntHeadingLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.ContIntHeadingLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ContIntHeadingLinkTableInfo
+  nameWithType: ContIntHeadingLinkTableInfo
+  fullName: SuperOffice.CRM.Data.ContIntHeadingLinkTableInfo
+- uid: SuperOffice.CRM.Data.CounterValueTableInfo
+  commentId: T:SuperOffice.CRM.Data.CounterValueTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CounterValueTableInfo
+  nameWithType: CounterValueTableInfo
+  fullName: SuperOffice.CRM.Data.CounterValueTableInfo
+- uid: SuperOffice.CRM.Data.CountryTableInfo
+  commentId: T:SuperOffice.CRM.Data.CountryTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CountryTableInfo
+  nameWithType: CountryTableInfo
+  fullName: SuperOffice.CRM.Data.CountryTableInfo
+- uid: SuperOffice.CRM.Data.CountryGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.CountryGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CountryGroupLinkTableInfo
+  nameWithType: CountryGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.CountryGroupLinkTableInfo
+- uid: SuperOffice.CRM.Data.CountryHeadingLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.CountryHeadingLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CountryHeadingLinkTableInfo
+  nameWithType: CountryHeadingLinkTableInfo
+  fullName: SuperOffice.CRM.Data.CountryHeadingLinkTableInfo
+- uid: SuperOffice.CRM.Data.CredentialsTableInfo
+  commentId: T:SuperOffice.CRM.Data.CredentialsTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CredentialsTableInfo
+  nameWithType: CredentialsTableInfo
+  fullName: SuperOffice.CRM.Data.CredentialsTableInfo
+- uid: SuperOffice.CRM.Data.CreditedTableInfo
+  commentId: T:SuperOffice.CRM.Data.CreditedTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CreditedTableInfo
+  nameWithType: CreditedTableInfo
+  fullName: SuperOffice.CRM.Data.CreditedTableInfo
+- uid: SuperOffice.CRM.Data.CreditedGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.CreditedGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CreditedGroupLinkTableInfo
+  nameWithType: CreditedGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.CreditedGroupLinkTableInfo
+- uid: SuperOffice.CRM.Data.CreditedHeadingLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.CreditedHeadingLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CreditedHeadingLinkTableInfo
+  nameWithType: CreditedHeadingLinkTableInfo
+  fullName: SuperOffice.CRM.Data.CreditedHeadingLinkTableInfo
+- uid: SuperOffice.CRM.Data.CurrencyTableInfo
+  commentId: T:SuperOffice.CRM.Data.CurrencyTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CurrencyTableInfo
+  nameWithType: CurrencyTableInfo
+  fullName: SuperOffice.CRM.Data.CurrencyTableInfo
+- uid: SuperOffice.CRM.Data.CurrencyGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.CurrencyGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CurrencyGroupLinkTableInfo
+  nameWithType: CurrencyGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.CurrencyGroupLinkTableInfo
+- uid: SuperOffice.CRM.Data.CurrencyHeadingLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.CurrencyHeadingLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CurrencyHeadingLinkTableInfo
+  nameWithType: CurrencyHeadingLinkTableInfo
+  fullName: SuperOffice.CRM.Data.CurrencyHeadingLinkTableInfo
+- uid: SuperOffice.CRM.Data.CustCategoryTableInfo
+  commentId: T:SuperOffice.CRM.Data.CustCategoryTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CustCategoryTableInfo
+  nameWithType: CustCategoryTableInfo
+  fullName: SuperOffice.CRM.Data.CustCategoryTableInfo
+- uid: SuperOffice.CRM.Data.CustConfigTableInfo
+  commentId: T:SuperOffice.CRM.Data.CustConfigTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CustConfigTableInfo
+  nameWithType: CustConfigTableInfo
+  fullName: SuperOffice.CRM.Data.CustConfigTableInfo
+- uid: SuperOffice.CRM.Data.CustLangTableInfo
+  commentId: T:SuperOffice.CRM.Data.CustLangTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CustLangTableInfo
+  nameWithType: CustLangTableInfo
+  fullName: SuperOffice.CRM.Data.CustLangTableInfo
+- uid: SuperOffice.CRM.Data.DashboardTableInfo
+  commentId: T:SuperOffice.CRM.Data.DashboardTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: DashboardTableInfo
+  nameWithType: DashboardTableInfo
+  fullName: SuperOffice.CRM.Data.DashboardTableInfo
+- uid: SuperOffice.CRM.Data.DashboardThemeTableInfo
+  commentId: T:SuperOffice.CRM.Data.DashboardThemeTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: DashboardThemeTableInfo
+  nameWithType: DashboardThemeTableInfo
+  fullName: SuperOffice.CRM.Data.DashboardThemeTableInfo
+- uid: SuperOffice.CRM.Data.DashboardTileTableInfo
+  commentId: T:SuperOffice.CRM.Data.DashboardTileTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: DashboardTileTableInfo
+  nameWithType: DashboardTileTableInfo
+  fullName: SuperOffice.CRM.Data.DashboardTileTableInfo
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  commentId: T:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: DashboardTileDefinitionTableInfo
+  nameWithType: DashboardTileDefinitionTableInfo
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+- uid: SuperOffice.CRM.Data.DashboardTileFieldTableInfo
+  commentId: T:SuperOffice.CRM.Data.DashboardTileFieldTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: DashboardTileFieldTableInfo
+  nameWithType: DashboardTileFieldTableInfo
+  fullName: SuperOffice.CRM.Data.DashboardTileFieldTableInfo
 - uid: SuperOffice.CRM.Data.DatabaseModelTableInfo
   commentId: T:SuperOffice.CRM.Data.DatabaseModelTableInfo
   parent: SuperOffice.CRM.Data
@@ -1060,12 +1546,34 @@ references:
   name: DatabaseModelTableInfo
   nameWithType: DatabaseModelTableInfo
   fullName: SuperOffice.CRM.Data.DatabaseModelTableInfo
-- uid: SuperOffice.CRM.Data.DateTestTableInfo
-  commentId: T:SuperOffice.CRM.Data.DateTestTableInfo
+- uid: SuperOffice.CRM.Data.DataRightTableInfo
+  commentId: T:SuperOffice.CRM.Data.DataRightTableInfo
+  parent: SuperOffice.CRM.Data
   isExternal: true
-  name: DateTestTableInfo
-  nameWithType: DateTestTableInfo
-  fullName: SuperOffice.CRM.Data.DateTestTableInfo
+  name: DataRightTableInfo
+  nameWithType: DataRightTableInfo
+  fullName: SuperOffice.CRM.Data.DataRightTableInfo
+- uid: SuperOffice.CRM.Data.DbiAgentTableInfo
+  commentId: T:SuperOffice.CRM.Data.DbiAgentTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: DbiAgentTableInfo
+  nameWithType: DbiAgentTableInfo
+  fullName: SuperOffice.CRM.Data.DbiAgentTableInfo
+- uid: SuperOffice.CRM.Data.DbiAgentFieldTableInfo
+  commentId: T:SuperOffice.CRM.Data.DbiAgentFieldTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: DbiAgentFieldTableInfo
+  nameWithType: DbiAgentFieldTableInfo
+  fullName: SuperOffice.CRM.Data.DbiAgentFieldTableInfo
+- uid: SuperOffice.CRM.Data.DbiAgentScheduleTableInfo
+  commentId: T:SuperOffice.CRM.Data.DbiAgentScheduleTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: DbiAgentScheduleTableInfo
+  nameWithType: DbiAgentScheduleTableInfo
+  fullName: SuperOffice.CRM.Data.DbiAgentScheduleTableInfo
 - uid: SuperOffice.CRM.Data.DBC
   commentId: T:SuperOffice.CRM.Data.DBC
   isExternal: true
@@ -3844,6 +4352,12 @@ references:
   name: DBC.QuickReplyFields
   nameWithType: DBC.QuickReplyFields
   fullName: SuperOffice.CRM.Data.DBC.QuickReplyFields
+- uid: SuperOffice.CRM.Data.DBC.ConfigurableScreenDeltaFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ConfigurableScreenDeltaFields
+  isExternal: true
+  name: DBC.ConfigurableScreenDeltaFields
+  nameWithType: DBC.ConfigurableScreenDeltaFields
+  fullName: SuperOffice.CRM.Data.DBC.ConfigurableScreenDeltaFields
 - uid: SuperOffice.CRM.Data.DBC.ConsentPurposeFields
   commentId: T:SuperOffice.CRM.Data.DBC.ConsentPurposeFields
   isExternal: true
@@ -3898,6 +4412,36 @@ references:
   name: DBC.CustConfigFields
   nameWithType: DBC.CustConfigFields
   fullName: SuperOffice.CRM.Data.DBC.CustConfigFields
+- uid: SuperOffice.CRM.Data.DBC.DashboardFields
+  commentId: T:SuperOffice.CRM.Data.DBC.DashboardFields
+  isExternal: true
+  name: DBC.DashboardFields
+  nameWithType: DBC.DashboardFields
+  fullName: SuperOffice.CRM.Data.DBC.DashboardFields
+- uid: SuperOffice.CRM.Data.DBC.DashboardThemeFields
+  commentId: T:SuperOffice.CRM.Data.DBC.DashboardThemeFields
+  isExternal: true
+  name: DBC.DashboardThemeFields
+  nameWithType: DBC.DashboardThemeFields
+  fullName: SuperOffice.CRM.Data.DBC.DashboardThemeFields
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  commentId: T:SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+  isExternal: true
+  name: DBC.DashboardTileDefinitionFields
+  nameWithType: DBC.DashboardTileDefinitionFields
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinitionFields
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileFields
+  commentId: T:SuperOffice.CRM.Data.DBC.DashboardTileFields
+  isExternal: true
+  name: DBC.DashboardTileFields
+  nameWithType: DBC.DashboardTileFields
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileFields
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileFieldFields
+  commentId: T:SuperOffice.CRM.Data.DBC.DashboardTileFieldFields
+  isExternal: true
+  name: DBC.DashboardTileFieldFields
+  nameWithType: DBC.DashboardTileFieldFields
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileFieldFields
 - uid: SuperOffice.CRM.Data.DBC.FormFields
   commentId: T:SuperOffice.CRM.Data.DBC.FormFields
   isExternal: true
@@ -4000,6 +4544,12 @@ references:
   name: DBC.AssociateHistoryFields
   nameWithType: DBC.AssociateHistoryFields
   fullName: SuperOffice.CRM.Data.DBC.AssociateHistoryFields
+- uid: SuperOffice.CRM.Data.DBC.CacheInvalidationFields
+  commentId: T:SuperOffice.CRM.Data.DBC.CacheInvalidationFields
+  isExternal: true
+  name: DBC.CacheInvalidationFields
+  nameWithType: DBC.CacheInvalidationFields
+  fullName: SuperOffice.CRM.Data.DBC.CacheInvalidationFields
 - uid: SuperOffice.CRM.Data.DeliveryTermsTableInfo
   commentId: T:SuperOffice.CRM.Data.DeliveryTermsTableInfo
   parent: SuperOffice.CRM.Data
@@ -4042,975 +4592,6 @@ references:
   name: DeliveryTypeHeadingLinkTableInfo
   nameWithType: DeliveryTypeHeadingLinkTableInfo
   fullName: SuperOffice.CRM.Data.DeliveryTypeHeadingLinkTableInfo
-- uid: SuperOffice.CRM.Data.EjCategoryGroupLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.EjCategoryGroupLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: EjCategoryGroupLinkTableInfo
-  nameWithType: EjCategoryGroupLinkTableInfo
-  fullName: SuperOffice.CRM.Data.EjCategoryGroupLinkTableInfo
-- uid: SuperOffice.CRM.Data.EmailAccountTableInfo
-  commentId: T:SuperOffice.CRM.Data.EmailAccountTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: EmailAccountTableInfo
-  nameWithType: EmailAccountTableInfo
-  fullName: SuperOffice.CRM.Data.EmailAccountTableInfo
-- uid: SuperOffice.CRM.Data.EmailAttachmentTableInfo
-  commentId: T:SuperOffice.CRM.Data.EmailAttachmentTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: EmailAttachmentTableInfo
-  nameWithType: EmailAttachmentTableInfo
-  fullName: SuperOffice.CRM.Data.EmailAttachmentTableInfo
-- uid: SuperOffice.CRM.Data.EmailFolderTableInfo
-  commentId: T:SuperOffice.CRM.Data.EmailFolderTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: EmailFolderTableInfo
-  nameWithType: EmailFolderTableInfo
-  fullName: SuperOffice.CRM.Data.EmailFolderTableInfo
-- uid: SuperOffice.CRM.Data.EmailItemTableInfo
-  commentId: T:SuperOffice.CRM.Data.EmailItemTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: EmailItemTableInfo
-  nameWithType: EmailItemTableInfo
-  fullName: SuperOffice.CRM.Data.EmailItemTableInfo
-- uid: SuperOffice.CRM.Data.ErpConfigurationTableInfo
-  commentId: T:SuperOffice.CRM.Data.ErpConfigurationTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ErpConfigurationTableInfo
-  nameWithType: ErpConfigurationTableInfo
-  fullName: SuperOffice.CRM.Data.ErpConfigurationTableInfo
-- uid: SuperOffice.CRM.Data.ErpConnectionTableInfo
-  commentId: T:SuperOffice.CRM.Data.ErpConnectionTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ErpConnectionTableInfo
-  nameWithType: ErpConnectionTableInfo
-  fullName: SuperOffice.CRM.Data.ErpConnectionTableInfo
-- uid: SuperOffice.CRM.Data.ErpConnectionAccessTableInfo
-  commentId: T:SuperOffice.CRM.Data.ErpConnectionAccessTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ErpConnectionAccessTableInfo
-  nameWithType: ErpConnectionAccessTableInfo
-  fullName: SuperOffice.CRM.Data.ErpConnectionAccessTableInfo
-- uid: SuperOffice.CRM.Data.ErpConnectionActorTypeTableInfo
-  commentId: T:SuperOffice.CRM.Data.ErpConnectionActorTypeTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ErpConnectionActorTypeTableInfo
-  nameWithType: ErpConnectionActorTypeTableInfo
-  fullName: SuperOffice.CRM.Data.ErpConnectionActorTypeTableInfo
-- uid: SuperOffice.CRM.Data.ErpConnectorTableInfo
-  commentId: T:SuperOffice.CRM.Data.ErpConnectorTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ErpConnectorTableInfo
-  nameWithType: ErpConnectorTableInfo
-  fullName: SuperOffice.CRM.Data.ErpConnectorTableInfo
-- uid: SuperOffice.CRM.Data.ErpExternalKeyTableInfo
-  commentId: T:SuperOffice.CRM.Data.ErpExternalKeyTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ErpExternalKeyTableInfo
-  nameWithType: ErpExternalKeyTableInfo
-  fullName: SuperOffice.CRM.Data.ErpExternalKeyTableInfo
-- uid: SuperOffice.CRM.Data.ErpFieldTableInfo
-  commentId: T:SuperOffice.CRM.Data.ErpFieldTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ErpFieldTableInfo
-  nameWithType: ErpFieldTableInfo
-  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo
-- uid: SuperOffice.CRM.Data.ErpInternalKeyTableInfo
-  commentId: T:SuperOffice.CRM.Data.ErpInternalKeyTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ErpInternalKeyTableInfo
-  nameWithType: ErpInternalKeyTableInfo
-  fullName: SuperOffice.CRM.Data.ErpInternalKeyTableInfo
-- uid: SuperOffice.CRM.Data.ErpListItemMappingTableInfo
-  commentId: T:SuperOffice.CRM.Data.ErpListItemMappingTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ErpListItemMappingTableInfo
-  nameWithType: ErpListItemMappingTableInfo
-  fullName: SuperOffice.CRM.Data.ErpListItemMappingTableInfo
-- uid: SuperOffice.CRM.Data.ErpSyncLogTableInfo
-  commentId: T:SuperOffice.CRM.Data.ErpSyncLogTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ErpSyncLogTableInfo
-  nameWithType: ErpSyncLogTableInfo
-  fullName: SuperOffice.CRM.Data.ErpSyncLogTableInfo
-- uid: SuperOffice.CRM.Data.FavouriteTableInfo
-  commentId: T:SuperOffice.CRM.Data.FavouriteTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: FavouriteTableInfo
-  nameWithType: FavouriteTableInfo
-  fullName: SuperOffice.CRM.Data.FavouriteTableInfo
-- uid: SuperOffice.CRM.Data.FormTableInfo
-  commentId: T:SuperOffice.CRM.Data.FormTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: FormTableInfo
-  nameWithType: FormTableInfo
-  fullName: SuperOffice.CRM.Data.FormTableInfo
-- uid: SuperOffice.CRM.Data.FormSubmissionTableInfo
-  commentId: T:SuperOffice.CRM.Data.FormSubmissionTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: FormSubmissionTableInfo
-  nameWithType: FormSubmissionTableInfo
-  fullName: SuperOffice.CRM.Data.FormSubmissionTableInfo
-- uid: SuperOffice.CRM.Data.HistTableInfo
-  commentId: T:SuperOffice.CRM.Data.HistTableInfo
-  isExternal: true
-  name: HistTableInfo
-  nameWithType: HistTableInfo
-  fullName: SuperOffice.CRM.Data.HistTableInfo
-- uid: SuperOffice.CRM.Data.LegalBaseTableInfo
-  commentId: T:SuperOffice.CRM.Data.LegalBaseTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: LegalBaseTableInfo
-  nameWithType: LegalBaseTableInfo
-  fullName: SuperOffice.CRM.Data.LegalBaseTableInfo
-- uid: SuperOffice.CRM.Data.OutgoingMessageTableInfo
-  commentId: T:SuperOffice.CRM.Data.OutgoingMessageTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: OutgoingMessageTableInfo
-  nameWithType: OutgoingMessageTableInfo
-  fullName: SuperOffice.CRM.Data.OutgoingMessageTableInfo
-- uid: SuperOffice.CRM.Data.PaymentTermsTableInfo
-  commentId: T:SuperOffice.CRM.Data.PaymentTermsTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: PaymentTermsTableInfo
-  nameWithType: PaymentTermsTableInfo
-  fullName: SuperOffice.CRM.Data.PaymentTermsTableInfo
-- uid: SuperOffice.CRM.Data.PaymentTermsGroupLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.PaymentTermsGroupLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: PaymentTermsGroupLinkTableInfo
-  nameWithType: PaymentTermsGroupLinkTableInfo
-  fullName: SuperOffice.CRM.Data.PaymentTermsGroupLinkTableInfo
-- uid: SuperOffice.CRM.Data.PaymentTermsHeadingLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.PaymentTermsHeadingLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: PaymentTermsHeadingLinkTableInfo
-  nameWithType: PaymentTermsHeadingLinkTableInfo
-  fullName: SuperOffice.CRM.Data.PaymentTermsHeadingLinkTableInfo
-- uid: SuperOffice.CRM.Data.PaymentTypeTableInfo
-  commentId: T:SuperOffice.CRM.Data.PaymentTypeTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: PaymentTypeTableInfo
-  nameWithType: PaymentTypeTableInfo
-  fullName: SuperOffice.CRM.Data.PaymentTypeTableInfo
-- uid: SuperOffice.CRM.Data.PaymentTypeGroupLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.PaymentTypeGroupLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: PaymentTypeGroupLinkTableInfo
-  nameWithType: PaymentTypeGroupLinkTableInfo
-  fullName: SuperOffice.CRM.Data.PaymentTypeGroupLinkTableInfo
-- uid: SuperOffice.CRM.Data.PaymentTypeHeadingLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.PaymentTypeHeadingLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: PaymentTypeHeadingLinkTableInfo
-  nameWithType: PaymentTypeHeadingLinkTableInfo
-  fullName: SuperOffice.CRM.Data.PaymentTypeHeadingLinkTableInfo
-- uid: SuperOffice.CRM.Data.PersIntListTableInfo
-  commentId: T:SuperOffice.CRM.Data.PersIntListTableInfo
-  isExternal: true
-  name: PersIntListTableInfo
-  nameWithType: PersIntListTableInfo
-  fullName: SuperOffice.CRM.Data.PersIntListTableInfo
-- uid: SuperOffice.CRM.Data.PreferenTableInfo
-  commentId: T:SuperOffice.CRM.Data.PreferenTableInfo
-  isExternal: true
-  name: PreferenTableInfo
-  nameWithType: PreferenTableInfo
-  fullName: SuperOffice.CRM.Data.PreferenTableInfo
-- uid: SuperOffice.CRM.Data.PriceListTableInfo
-  commentId: T:SuperOffice.CRM.Data.PriceListTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: PriceListTableInfo
-  nameWithType: PriceListTableInfo
-  fullName: SuperOffice.CRM.Data.PriceListTableInfo
-- uid: SuperOffice.CRM.Data.PriceUnitTableInfo
-  commentId: T:SuperOffice.CRM.Data.PriceUnitTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: PriceUnitTableInfo
-  nameWithType: PriceUnitTableInfo
-  fullName: SuperOffice.CRM.Data.PriceUnitTableInfo
-- uid: SuperOffice.CRM.Data.PriceUnitGroupLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.PriceUnitGroupLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: PriceUnitGroupLinkTableInfo
-  nameWithType: PriceUnitGroupLinkTableInfo
-  fullName: SuperOffice.CRM.Data.PriceUnitGroupLinkTableInfo
-- uid: SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: PriceUnitHeadingLinkTableInfo
-  nameWithType: PriceUnitHeadingLinkTableInfo
-  fullName: SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo
-- uid: SuperOffice.CRM.Data.ProductTableInfo
-  commentId: T:SuperOffice.CRM.Data.ProductTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ProductTableInfo
-  nameWithType: ProductTableInfo
-  fullName: SuperOffice.CRM.Data.ProductTableInfo
-- uid: SuperOffice.CRM.Data.ProductCategoryTableInfo
-  commentId: T:SuperOffice.CRM.Data.ProductCategoryTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ProductCategoryTableInfo
-  nameWithType: ProductCategoryTableInfo
-  fullName: SuperOffice.CRM.Data.ProductCategoryTableInfo
-- uid: SuperOffice.CRM.Data.ProductCategoryGroupLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.ProductCategoryGroupLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ProductCategoryGroupLinkTableInfo
-  nameWithType: ProductCategoryGroupLinkTableInfo
-  fullName: SuperOffice.CRM.Data.ProductCategoryGroupLinkTableInfo
-- uid: SuperOffice.CRM.Data.ProductCategoryHeadingLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.ProductCategoryHeadingLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ProductCategoryHeadingLinkTableInfo
-  nameWithType: ProductCategoryHeadingLinkTableInfo
-  fullName: SuperOffice.CRM.Data.ProductCategoryHeadingLinkTableInfo
-- uid: SuperOffice.CRM.Data.ProductFamilyTableInfo
-  commentId: T:SuperOffice.CRM.Data.ProductFamilyTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ProductFamilyTableInfo
-  nameWithType: ProductFamilyTableInfo
-  fullName: SuperOffice.CRM.Data.ProductFamilyTableInfo
-- uid: SuperOffice.CRM.Data.ProductFamilyGroupLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.ProductFamilyGroupLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ProductFamilyGroupLinkTableInfo
-  nameWithType: ProductFamilyGroupLinkTableInfo
-  fullName: SuperOffice.CRM.Data.ProductFamilyGroupLinkTableInfo
-- uid: SuperOffice.CRM.Data.ProductFamilyHeadingLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.ProductFamilyHeadingLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ProductFamilyHeadingLinkTableInfo
-  nameWithType: ProductFamilyHeadingLinkTableInfo
-  fullName: SuperOffice.CRM.Data.ProductFamilyHeadingLinkTableInfo
-- uid: SuperOffice.CRM.Data.ProductTypeTableInfo
-  commentId: T:SuperOffice.CRM.Data.ProductTypeTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ProductTypeTableInfo
-  nameWithType: ProductTypeTableInfo
-  fullName: SuperOffice.CRM.Data.ProductTypeTableInfo
-- uid: SuperOffice.CRM.Data.ProductTypeGroupLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.ProductTypeGroupLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ProductTypeGroupLinkTableInfo
-  nameWithType: ProductTypeGroupLinkTableInfo
-  fullName: SuperOffice.CRM.Data.ProductTypeGroupLinkTableInfo
-- uid: SuperOffice.CRM.Data.ProductTypeHeadingLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.ProductTypeHeadingLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ProductTypeHeadingLinkTableInfo
-  nameWithType: ProductTypeHeadingLinkTableInfo
-  fullName: SuperOffice.CRM.Data.ProductTypeHeadingLinkTableInfo
-- uid: SuperOffice.CRM.Data.PushNotificationServiceTableInfo
-  commentId: T:SuperOffice.CRM.Data.PushNotificationServiceTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: PushNotificationServiceTableInfo
-  nameWithType: PushNotificationServiceTableInfo
-  fullName: SuperOffice.CRM.Data.PushNotificationServiceTableInfo
-- uid: SuperOffice.CRM.Data.QuickReplyTableInfo
-  commentId: T:SuperOffice.CRM.Data.QuickReplyTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: QuickReplyTableInfo
-  nameWithType: QuickReplyTableInfo
-  fullName: SuperOffice.CRM.Data.QuickReplyTableInfo
-- uid: SuperOffice.CRM.Data.QuoteTableInfo
-  commentId: T:SuperOffice.CRM.Data.QuoteTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: QuoteTableInfo
-  nameWithType: QuoteTableInfo
-  fullName: SuperOffice.CRM.Data.QuoteTableInfo
-- uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo
-  commentId: T:SuperOffice.CRM.Data.QuoteAlternativeTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: QuoteAlternativeTableInfo
-  nameWithType: QuoteAlternativeTableInfo
-  fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo
-- uid: SuperOffice.CRM.Data.QuoteConnectionTableInfo
-  commentId: T:SuperOffice.CRM.Data.QuoteConnectionTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: QuoteConnectionTableInfo
-  nameWithType: QuoteConnectionTableInfo
-  fullName: SuperOffice.CRM.Data.QuoteConnectionTableInfo
-- uid: SuperOffice.CRM.Data.QuoteConnectionAccessTableInfo
-  commentId: T:SuperOffice.CRM.Data.QuoteConnectionAccessTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: QuoteConnectionAccessTableInfo
-  nameWithType: QuoteConnectionAccessTableInfo
-  fullName: SuperOffice.CRM.Data.QuoteConnectionAccessTableInfo
-- uid: SuperOffice.CRM.Data.QuoteLineTableInfo
-  commentId: T:SuperOffice.CRM.Data.QuoteLineTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: QuoteLineTableInfo
-  nameWithType: QuoteLineTableInfo
-  fullName: SuperOffice.CRM.Data.QuoteLineTableInfo
-- uid: SuperOffice.CRM.Data.QuoteLineConfigurationTableInfo
-  commentId: T:SuperOffice.CRM.Data.QuoteLineConfigurationTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: QuoteLineConfigurationTableInfo
-  nameWithType: QuoteLineConfigurationTableInfo
-  fullName: SuperOffice.CRM.Data.QuoteLineConfigurationTableInfo
-- uid: SuperOffice.CRM.Data.QuoteVersionTableInfo
-  commentId: T:SuperOffice.CRM.Data.QuoteVersionTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: QuoteVersionTableInfo
-  nameWithType: QuoteVersionTableInfo
-  fullName: SuperOffice.CRM.Data.QuoteVersionTableInfo
-- uid: SuperOffice.CRM.Data.QuoteVersionAttachmentTableInfo
-  commentId: T:SuperOffice.CRM.Data.QuoteVersionAttachmentTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: QuoteVersionAttachmentTableInfo
-  nameWithType: QuoteVersionAttachmentTableInfo
-  fullName: SuperOffice.CRM.Data.QuoteVersionAttachmentTableInfo
-- uid: SuperOffice.CRM.Data.ResourceOverrideTableInfo
-  commentId: T:SuperOffice.CRM.Data.ResourceOverrideTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ResourceOverrideTableInfo
-  nameWithType: ResourceOverrideTableInfo
-  fullName: SuperOffice.CRM.Data.ResourceOverrideTableInfo
-- uid: SuperOffice.CRM.Data.SaintConfigurationTableInfo
-  commentId: T:SuperOffice.CRM.Data.SaintConfigurationTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: SaintConfigurationTableInfo
-  nameWithType: SaintConfigurationTableInfo
-  fullName: SuperOffice.CRM.Data.SaintConfigurationTableInfo
-- uid: SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo
-  commentId: T:SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: SaleTypeQuoteAttachmentTableInfo
-  nameWithType: SaleTypeQuoteAttachmentTableInfo
-  fullName: SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo
-- uid: SuperOffice.CRM.Data.ScriptTraceTableInfo
-  commentId: T:SuperOffice.CRM.Data.ScriptTraceTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ScriptTraceTableInfo
-  nameWithType: ScriptTraceTableInfo
-  fullName: SuperOffice.CRM.Data.ScriptTraceTableInfo
-- uid: SuperOffice.CRM.Data.ScriptTraceRunTableInfo
-  commentId: T:SuperOffice.CRM.Data.ScriptTraceRunTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ScriptTraceRunTableInfo
-  nameWithType: ScriptTraceRunTableInfo
-  fullName: SuperOffice.CRM.Data.ScriptTraceRunTableInfo
-- uid: SuperOffice.CRM.Data.ServiceAuthTableInfo
-  commentId: T:SuperOffice.CRM.Data.ServiceAuthTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ServiceAuthTableInfo
-  nameWithType: ServiceAuthTableInfo
-  fullName: SuperOffice.CRM.Data.ServiceAuthTableInfo
-- uid: SuperOffice.CRM.Data.ShipmentTypeTableInfo
-  commentId: T:SuperOffice.CRM.Data.ShipmentTypeTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ShipmentTypeTableInfo
-  nameWithType: ShipmentTypeTableInfo
-  fullName: SuperOffice.CRM.Data.ShipmentTypeTableInfo
-- uid: SuperOffice.CRM.Data.ShipmentTypeReservationTableInfo
-  commentId: T:SuperOffice.CRM.Data.ShipmentTypeReservationTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ShipmentTypeReservationTableInfo
-  nameWithType: ShipmentTypeReservationTableInfo
-  fullName: SuperOffice.CRM.Data.ShipmentTypeReservationTableInfo
-- uid: SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: SORPublishGroupLinkTableInfo
-  nameWithType: SORPublishGroupLinkTableInfo
-  fullName: SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo
-- uid: SuperOffice.CRM.Data.SubscriptionUnitTableInfo
-  commentId: T:SuperOffice.CRM.Data.SubscriptionUnitTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: SubscriptionUnitTableInfo
-  nameWithType: SubscriptionUnitTableInfo
-  fullName: SuperOffice.CRM.Data.SubscriptionUnitTableInfo
-- uid: SuperOffice.CRM.Data.SubscriptionUnitGroupLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.SubscriptionUnitGroupLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: SubscriptionUnitGroupLinkTableInfo
-  nameWithType: SubscriptionUnitGroupLinkTableInfo
-  fullName: SuperOffice.CRM.Data.SubscriptionUnitGroupLinkTableInfo
-- uid: SuperOffice.CRM.Data.SubscriptionUnitHeadingLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.SubscriptionUnitHeadingLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: SubscriptionUnitHeadingLinkTableInfo
-  nameWithType: SubscriptionUnitHeadingLinkTableInfo
-  fullName: SuperOffice.CRM.Data.SubscriptionUnitHeadingLinkTableInfo
-- uid: SuperOffice.CRM.Data.TemporaryKeyTableInfo
-  commentId: T:SuperOffice.CRM.Data.TemporaryKeyTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: TemporaryKeyTableInfo
-  nameWithType: TemporaryKeyTableInfo
-  fullName: SuperOffice.CRM.Data.TemporaryKeyTableInfo
-- uid: SuperOffice.CRM.Data.TicketRelationTableInfo
-  commentId: T:SuperOffice.CRM.Data.TicketRelationTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: TicketRelationTableInfo
-  nameWithType: TicketRelationTableInfo
-  fullName: SuperOffice.CRM.Data.TicketRelationTableInfo
-- uid: SuperOffice.CRM.Data.TicketRelationActionTableInfo
-  commentId: T:SuperOffice.CRM.Data.TicketRelationActionTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: TicketRelationActionTableInfo
-  nameWithType: TicketRelationActionTableInfo
-  fullName: SuperOffice.CRM.Data.TicketRelationActionTableInfo
-- uid: SuperOffice.CRM.Data.TicketRelationTypeTableInfo
-  commentId: T:SuperOffice.CRM.Data.TicketRelationTypeTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: TicketRelationTypeTableInfo
-  nameWithType: TicketRelationTypeTableInfo
-  fullName: SuperOffice.CRM.Data.TicketRelationTypeTableInfo
-- uid: SuperOffice.CRM.Data.TicketStatusHistoryTableInfo
-  commentId: T:SuperOffice.CRM.Data.TicketStatusHistoryTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: TicketStatusHistoryTableInfo
-  nameWithType: TicketStatusHistoryTableInfo
-  fullName: SuperOffice.CRM.Data.TicketStatusHistoryTableInfo
-- uid: SuperOffice.CRM.Data.TicketTypeTableInfo
-  commentId: T:SuperOffice.CRM.Data.TicketTypeTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: TicketTypeTableInfo
-  nameWithType: TicketTypeTableInfo
-  fullName: SuperOffice.CRM.Data.TicketTypeTableInfo
-- uid: SuperOffice.CRM.Data.UserCandidateTableInfo
-  commentId: T:SuperOffice.CRM.Data.UserCandidateTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: UserCandidateTableInfo
-  nameWithType: UserCandidateTableInfo
-  fullName: SuperOffice.CRM.Data.UserCandidateTableInfo
-- uid: SuperOffice.CRM.Data.WebhookTableInfo
-  commentId: T:SuperOffice.CRM.Data.WebhookTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: WebhookTableInfo
-  nameWithType: WebhookTableInfo
-  fullName: SuperOffice.CRM.Data.WebhookTableInfo
-- uid: SuperOffice.CRM.Data.WebhookUsageTableInfo
-  commentId: T:SuperOffice.CRM.Data.WebhookUsageTableInfo
-  isExternal: true
-  name: WebhookUsageTableInfo
-  nameWithType: WebhookUsageTableInfo
-  fullName: SuperOffice.CRM.Data.WebhookUsageTableInfo
-- uid: SuperOffice.CRM.Data.AccessScriptTableInfo
-  commentId: T:SuperOffice.CRM.Data.AccessScriptTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: AccessScriptTableInfo
-  nameWithType: AccessScriptTableInfo
-  fullName: SuperOffice.CRM.Data.AccessScriptTableInfo
-- uid: SuperOffice.CRM.Data.ActiveUserTableInfo
-  commentId: T:SuperOffice.CRM.Data.ActiveUserTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ActiveUserTableInfo
-  nameWithType: ActiveUserTableInfo
-  fullName: SuperOffice.CRM.Data.ActiveUserTableInfo
-- uid: SuperOffice.CRM.Data.AddressTableInfo
-  commentId: T:SuperOffice.CRM.Data.AddressTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: AddressTableInfo
-  nameWithType: AddressTableInfo
-  fullName: SuperOffice.CRM.Data.AddressTableInfo
-- uid: SuperOffice.CRM.Data.AddressFormatTableInfo
-  commentId: T:SuperOffice.CRM.Data.AddressFormatTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: AddressFormatTableInfo
-  nameWithType: AddressFormatTableInfo
-  fullName: SuperOffice.CRM.Data.AddressFormatTableInfo
-- uid: SuperOffice.CRM.Data.AmountClassTableInfo
-  commentId: T:SuperOffice.CRM.Data.AmountClassTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: AmountClassTableInfo
-  nameWithType: AmountClassTableInfo
-  fullName: SuperOffice.CRM.Data.AmountClassTableInfo
-- uid: SuperOffice.CRM.Data.AmountClassGroupLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.AmountClassGroupLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: AmountClassGroupLinkTableInfo
-  nameWithType: AmountClassGroupLinkTableInfo
-  fullName: SuperOffice.CRM.Data.AmountClassGroupLinkTableInfo
-- uid: SuperOffice.CRM.Data.AmountClassHeadingLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.AmountClassHeadingLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: AmountClassHeadingLinkTableInfo
-  nameWithType: AmountClassHeadingLinkTableInfo
-  fullName: SuperOffice.CRM.Data.AmountClassHeadingLinkTableInfo
-- uid: SuperOffice.CRM.Data.AppointmentTableInfo
-  commentId: T:SuperOffice.CRM.Data.AppointmentTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: AppointmentTableInfo
-  nameWithType: AppointmentTableInfo
-  fullName: SuperOffice.CRM.Data.AppointmentTableInfo
-- uid: SuperOffice.CRM.Data.AreaTableInfo
-  commentId: T:SuperOffice.CRM.Data.AreaTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: AreaTableInfo
-  nameWithType: AreaTableInfo
-  fullName: SuperOffice.CRM.Data.AreaTableInfo
-- uid: SuperOffice.CRM.Data.AreaUserAssignmentTableInfo
-  commentId: T:SuperOffice.CRM.Data.AreaUserAssignmentTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: AreaUserAssignmentTableInfo
-  nameWithType: AreaUserAssignmentTableInfo
-  fullName: SuperOffice.CRM.Data.AreaUserAssignmentTableInfo
-- uid: SuperOffice.CRM.Data.AreaUserInclusionTableInfo
-  commentId: T:SuperOffice.CRM.Data.AreaUserInclusionTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: AreaUserInclusionTableInfo
-  nameWithType: AreaUserInclusionTableInfo
-  fullName: SuperOffice.CRM.Data.AreaUserInclusionTableInfo
-- uid: SuperOffice.CRM.Data.AssociateTableInfo
-  commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: AssociateTableInfo
-  nameWithType: AssociateTableInfo
-  fullName: SuperOffice.CRM.Data.AssociateTableInfo
-- uid: SuperOffice.CRM.Data.AssociateGroupLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.AssociateGroupLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: AssociateGroupLinkTableInfo
-  nameWithType: AssociateGroupLinkTableInfo
-  fullName: SuperOffice.CRM.Data.AssociateGroupLinkTableInfo
-- uid: SuperOffice.CRM.Data.AssociateHeadingLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.AssociateHeadingLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: AssociateHeadingLinkTableInfo
-  nameWithType: AssociateHeadingLinkTableInfo
-  fullName: SuperOffice.CRM.Data.AssociateHeadingLinkTableInfo
-- uid: SuperOffice.CRM.Data.AttachmentTableInfo
-  commentId: T:SuperOffice.CRM.Data.AttachmentTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: AttachmentTableInfo
-  nameWithType: AttachmentTableInfo
-  fullName: SuperOffice.CRM.Data.AttachmentTableInfo
-- uid: SuperOffice.CRM.Data.AudienceConfigTableInfo
-  commentId: T:SuperOffice.CRM.Data.AudienceConfigTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: AudienceConfigTableInfo
-  nameWithType: AudienceConfigTableInfo
-  fullName: SuperOffice.CRM.Data.AudienceConfigTableInfo
-- uid: SuperOffice.CRM.Data.AudienceLayoutTableInfo
-  commentId: T:SuperOffice.CRM.Data.AudienceLayoutTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: AudienceLayoutTableInfo
-  nameWithType: AudienceLayoutTableInfo
-  fullName: SuperOffice.CRM.Data.AudienceLayoutTableInfo
-- uid: SuperOffice.CRM.Data.AudienceLayoutLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.AudienceLayoutLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: AudienceLayoutLinkTableInfo
-  nameWithType: AudienceLayoutLinkTableInfo
-  fullName: SuperOffice.CRM.Data.AudienceLayoutLinkTableInfo
-- uid: SuperOffice.CRM.Data.AudienceVisibilityTableInfo
-  commentId: T:SuperOffice.CRM.Data.AudienceVisibilityTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: AudienceVisibilityTableInfo
-  nameWithType: AudienceVisibilityTableInfo
-  fullName: SuperOffice.CRM.Data.AudienceVisibilityTableInfo
-- uid: SuperOffice.CRM.Data.AutosaveTableInfo
-  commentId: T:SuperOffice.CRM.Data.AutosaveTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: AutosaveTableInfo
-  nameWithType: AutosaveTableInfo
-  fullName: SuperOffice.CRM.Data.AutosaveTableInfo
-- uid: SuperOffice.CRM.Data.BaseTZLocationTableInfo
-  commentId: T:SuperOffice.CRM.Data.BaseTZLocationTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: BaseTZLocationTableInfo
-  nameWithType: BaseTZLocationTableInfo
-  fullName: SuperOffice.CRM.Data.BaseTZLocationTableInfo
-- uid: SuperOffice.CRM.Data.BatchTaskTableInfo
-  commentId: T:SuperOffice.CRM.Data.BatchTaskTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: BatchTaskTableInfo
-  nameWithType: BatchTaskTableInfo
-  fullName: SuperOffice.CRM.Data.BatchTaskTableInfo
-- uid: SuperOffice.CRM.Data.BatchTaskDefinitionTableInfo
-  commentId: T:SuperOffice.CRM.Data.BatchTaskDefinitionTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: BatchTaskDefinitionTableInfo
-  nameWithType: BatchTaskDefinitionTableInfo
-  fullName: SuperOffice.CRM.Data.BatchTaskDefinitionTableInfo
-- uid: SuperOffice.CRM.Data.BinaryObjectTableInfo
-  commentId: T:SuperOffice.CRM.Data.BinaryObjectTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: BinaryObjectTableInfo
-  nameWithType: BinaryObjectTableInfo
-  fullName: SuperOffice.CRM.Data.BinaryObjectTableInfo
-- uid: SuperOffice.CRM.Data.BinaryObjectLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.BinaryObjectLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: BinaryObjectLinkTableInfo
-  nameWithType: BinaryObjectLinkTableInfo
-  fullName: SuperOffice.CRM.Data.BinaryObjectLinkTableInfo
-- uid: SuperOffice.CRM.Data.BusinessTableInfo
-  commentId: T:SuperOffice.CRM.Data.BusinessTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: BusinessTableInfo
-  nameWithType: BusinessTableInfo
-  fullName: SuperOffice.CRM.Data.BusinessTableInfo
-- uid: SuperOffice.CRM.Data.BusinessGroupLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.BusinessGroupLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: BusinessGroupLinkTableInfo
-  nameWithType: BusinessGroupLinkTableInfo
-  fullName: SuperOffice.CRM.Data.BusinessGroupLinkTableInfo
-- uid: SuperOffice.CRM.Data.BusinessHeadingLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.BusinessHeadingLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: BusinessHeadingLinkTableInfo
-  nameWithType: BusinessHeadingLinkTableInfo
-  fullName: SuperOffice.CRM.Data.BusinessHeadingLinkTableInfo
-- uid: SuperOffice.CRM.Data.CacheTablesTableInfo
-  commentId: T:SuperOffice.CRM.Data.CacheTablesTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: CacheTablesTableInfo
-  nameWithType: CacheTablesTableInfo
-  fullName: SuperOffice.CRM.Data.CacheTablesTableInfo
-- uid: SuperOffice.CRM.Data.CategoryTableInfo
-  commentId: T:SuperOffice.CRM.Data.CategoryTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: CategoryTableInfo
-  nameWithType: CategoryTableInfo
-  fullName: SuperOffice.CRM.Data.CategoryTableInfo
-- uid: SuperOffice.CRM.Data.CategoryGroupLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.CategoryGroupLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: CategoryGroupLinkTableInfo
-  nameWithType: CategoryGroupLinkTableInfo
-  fullName: SuperOffice.CRM.Data.CategoryGroupLinkTableInfo
-- uid: SuperOffice.CRM.Data.CategoryHeadingLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.CategoryHeadingLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: CategoryHeadingLinkTableInfo
-  nameWithType: CategoryHeadingLinkTableInfo
-  fullName: SuperOffice.CRM.Data.CategoryHeadingLinkTableInfo
-- uid: SuperOffice.CRM.Data.CategoryMembershipTableInfo
-  commentId: T:SuperOffice.CRM.Data.CategoryMembershipTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: CategoryMembershipTableInfo
-  nameWithType: CategoryMembershipTableInfo
-  fullName: SuperOffice.CRM.Data.CategoryMembershipTableInfo
-- uid: SuperOffice.CRM.Data.ChatMessageTableInfo
-  commentId: T:SuperOffice.CRM.Data.ChatMessageTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ChatMessageTableInfo
-  nameWithType: ChatMessageTableInfo
-  fullName: SuperOffice.CRM.Data.ChatMessageTableInfo
-- uid: SuperOffice.CRM.Data.ChatSessionTableInfo
-  commentId: T:SuperOffice.CRM.Data.ChatSessionTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ChatSessionTableInfo
-  nameWithType: ChatSessionTableInfo
-  fullName: SuperOffice.CRM.Data.ChatSessionTableInfo
-- uid: SuperOffice.CRM.Data.ChatTopicTableInfo
-  commentId: T:SuperOffice.CRM.Data.ChatTopicTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ChatTopicTableInfo
-  nameWithType: ChatTopicTableInfo
-  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo
-- uid: SuperOffice.CRM.Data.ChatTopicUserTableInfo
-  commentId: T:SuperOffice.CRM.Data.ChatTopicUserTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ChatTopicUserTableInfo
-  nameWithType: ChatTopicUserTableInfo
-  fullName: SuperOffice.CRM.Data.ChatTopicUserTableInfo
-- uid: SuperOffice.CRM.Data.CompanyTableInfo
-  commentId: T:SuperOffice.CRM.Data.CompanyTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: CompanyTableInfo
-  nameWithType: CompanyTableInfo
-  fullName: SuperOffice.CRM.Data.CompanyTableInfo
-- uid: SuperOffice.CRM.Data.CompanyDomainTableInfo
-  commentId: T:SuperOffice.CRM.Data.CompanyDomainTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: CompanyDomainTableInfo
-  nameWithType: CompanyDomainTableInfo
-  fullName: SuperOffice.CRM.Data.CompanyDomainTableInfo
-- uid: SuperOffice.CRM.Data.ComptrTableInfo
-  commentId: T:SuperOffice.CRM.Data.ComptrTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ComptrTableInfo
-  nameWithType: ComptrTableInfo
-  fullName: SuperOffice.CRM.Data.ComptrTableInfo
-- uid: SuperOffice.CRM.Data.ComptrGroupLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.ComptrGroupLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ComptrGroupLinkTableInfo
-  nameWithType: ComptrGroupLinkTableInfo
-  fullName: SuperOffice.CRM.Data.ComptrGroupLinkTableInfo
-- uid: SuperOffice.CRM.Data.ComptrHeadingLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.ComptrHeadingLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ComptrHeadingLinkTableInfo
-  nameWithType: ComptrHeadingLinkTableInfo
-  fullName: SuperOffice.CRM.Data.ComptrHeadingLinkTableInfo
-- uid: SuperOffice.CRM.Data.ConfigTableInfo
-  commentId: T:SuperOffice.CRM.Data.ConfigTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ConfigTableInfo
-  nameWithType: ConfigTableInfo
-  fullName: SuperOffice.CRM.Data.ConfigTableInfo
-- uid: SuperOffice.CRM.Data.ContactTableInfo
-  commentId: T:SuperOffice.CRM.Data.ContactTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ContactTableInfo
-  nameWithType: ContactTableInfo
-  fullName: SuperOffice.CRM.Data.ContactTableInfo
-- uid: SuperOffice.CRM.Data.ContactInterestTableInfo
-  commentId: T:SuperOffice.CRM.Data.ContactInterestTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ContactInterestTableInfo
-  nameWithType: ContactInterestTableInfo
-  fullName: SuperOffice.CRM.Data.ContactInterestTableInfo
-- uid: SuperOffice.CRM.Data.ContIntTableInfo
-  commentId: T:SuperOffice.CRM.Data.ContIntTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ContIntTableInfo
-  nameWithType: ContIntTableInfo
-  fullName: SuperOffice.CRM.Data.ContIntTableInfo
-- uid: SuperOffice.CRM.Data.ContIntGroupLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.ContIntGroupLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ContIntGroupLinkTableInfo
-  nameWithType: ContIntGroupLinkTableInfo
-  fullName: SuperOffice.CRM.Data.ContIntGroupLinkTableInfo
-- uid: SuperOffice.CRM.Data.ContIntHeadingLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.ContIntHeadingLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: ContIntHeadingLinkTableInfo
-  nameWithType: ContIntHeadingLinkTableInfo
-  fullName: SuperOffice.CRM.Data.ContIntHeadingLinkTableInfo
-- uid: SuperOffice.CRM.Data.CounterValueTableInfo
-  commentId: T:SuperOffice.CRM.Data.CounterValueTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: CounterValueTableInfo
-  nameWithType: CounterValueTableInfo
-  fullName: SuperOffice.CRM.Data.CounterValueTableInfo
-- uid: SuperOffice.CRM.Data.CountryTableInfo
-  commentId: T:SuperOffice.CRM.Data.CountryTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: CountryTableInfo
-  nameWithType: CountryTableInfo
-  fullName: SuperOffice.CRM.Data.CountryTableInfo
-- uid: SuperOffice.CRM.Data.CountryGroupLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.CountryGroupLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: CountryGroupLinkTableInfo
-  nameWithType: CountryGroupLinkTableInfo
-  fullName: SuperOffice.CRM.Data.CountryGroupLinkTableInfo
-- uid: SuperOffice.CRM.Data.CountryHeadingLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.CountryHeadingLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: CountryHeadingLinkTableInfo
-  nameWithType: CountryHeadingLinkTableInfo
-  fullName: SuperOffice.CRM.Data.CountryHeadingLinkTableInfo
-- uid: SuperOffice.CRM.Data.CredentialsTableInfo
-  commentId: T:SuperOffice.CRM.Data.CredentialsTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: CredentialsTableInfo
-  nameWithType: CredentialsTableInfo
-  fullName: SuperOffice.CRM.Data.CredentialsTableInfo
-- uid: SuperOffice.CRM.Data.CreditedTableInfo
-  commentId: T:SuperOffice.CRM.Data.CreditedTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: CreditedTableInfo
-  nameWithType: CreditedTableInfo
-  fullName: SuperOffice.CRM.Data.CreditedTableInfo
-- uid: SuperOffice.CRM.Data.CreditedGroupLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.CreditedGroupLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: CreditedGroupLinkTableInfo
-  nameWithType: CreditedGroupLinkTableInfo
-  fullName: SuperOffice.CRM.Data.CreditedGroupLinkTableInfo
-- uid: SuperOffice.CRM.Data.CreditedHeadingLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.CreditedHeadingLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: CreditedHeadingLinkTableInfo
-  nameWithType: CreditedHeadingLinkTableInfo
-  fullName: SuperOffice.CRM.Data.CreditedHeadingLinkTableInfo
-- uid: SuperOffice.CRM.Data.CurrencyTableInfo
-  commentId: T:SuperOffice.CRM.Data.CurrencyTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: CurrencyTableInfo
-  nameWithType: CurrencyTableInfo
-  fullName: SuperOffice.CRM.Data.CurrencyTableInfo
-- uid: SuperOffice.CRM.Data.CurrencyGroupLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.CurrencyGroupLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: CurrencyGroupLinkTableInfo
-  nameWithType: CurrencyGroupLinkTableInfo
-  fullName: SuperOffice.CRM.Data.CurrencyGroupLinkTableInfo
-- uid: SuperOffice.CRM.Data.CurrencyHeadingLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.CurrencyHeadingLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: CurrencyHeadingLinkTableInfo
-  nameWithType: CurrencyHeadingLinkTableInfo
-  fullName: SuperOffice.CRM.Data.CurrencyHeadingLinkTableInfo
-- uid: SuperOffice.CRM.Data.CustCategoryTableInfo
-  commentId: T:SuperOffice.CRM.Data.CustCategoryTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: CustCategoryTableInfo
-  nameWithType: CustCategoryTableInfo
-  fullName: SuperOffice.CRM.Data.CustCategoryTableInfo
-- uid: SuperOffice.CRM.Data.CustLangTableInfo
-  commentId: T:SuperOffice.CRM.Data.CustLangTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: CustLangTableInfo
-  nameWithType: CustLangTableInfo
-  fullName: SuperOffice.CRM.Data.CustLangTableInfo
-- uid: SuperOffice.CRM.Data.DataRightTableInfo
-  commentId: T:SuperOffice.CRM.Data.DataRightTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: DataRightTableInfo
-  nameWithType: DataRightTableInfo
-  fullName: SuperOffice.CRM.Data.DataRightTableInfo
-- uid: SuperOffice.CRM.Data.DbiAgentTableInfo
-  commentId: T:SuperOffice.CRM.Data.DbiAgentTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: DbiAgentTableInfo
-  nameWithType: DbiAgentTableInfo
-  fullName: SuperOffice.CRM.Data.DbiAgentTableInfo
-- uid: SuperOffice.CRM.Data.DbiAgentFieldTableInfo
-  commentId: T:SuperOffice.CRM.Data.DbiAgentFieldTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: DbiAgentFieldTableInfo
-  nameWithType: DbiAgentFieldTableInfo
-  fullName: SuperOffice.CRM.Data.DbiAgentFieldTableInfo
-- uid: SuperOffice.CRM.Data.DbiAgentScheduleTableInfo
-  commentId: T:SuperOffice.CRM.Data.DbiAgentScheduleTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: DbiAgentScheduleTableInfo
-  nameWithType: DbiAgentScheduleTableInfo
-  fullName: SuperOffice.CRM.Data.DbiAgentScheduleTableInfo
 - uid: SuperOffice.CRM.Data.DiaryViewTableInfo
   commentId: T:SuperOffice.CRM.Data.DiaryViewTableInfo
   parent: SuperOffice.CRM.Data
@@ -5102,6 +4683,13 @@ references:
   name: EjCategoryTableInfo
   nameWithType: EjCategoryTableInfo
   fullName: SuperOffice.CRM.Data.EjCategoryTableInfo
+- uid: SuperOffice.CRM.Data.EjCategoryGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.EjCategoryGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: EjCategoryGroupLinkTableInfo
+  nameWithType: EjCategoryGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.EjCategoryGroupLinkTableInfo
 - uid: SuperOffice.CRM.Data.EjMessageTableInfo
   commentId: T:SuperOffice.CRM.Data.EjMessageTableInfo
   parent: SuperOffice.CRM.Data
@@ -5214,6 +4802,104 @@ references:
   name: EmailTableInfo
   nameWithType: EmailTableInfo
   fullName: SuperOffice.CRM.Data.EmailTableInfo
+- uid: SuperOffice.CRM.Data.EmailAccountTableInfo
+  commentId: T:SuperOffice.CRM.Data.EmailAccountTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: EmailAccountTableInfo
+  nameWithType: EmailAccountTableInfo
+  fullName: SuperOffice.CRM.Data.EmailAccountTableInfo
+- uid: SuperOffice.CRM.Data.EmailAttachmentTableInfo
+  commentId: T:SuperOffice.CRM.Data.EmailAttachmentTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: EmailAttachmentTableInfo
+  nameWithType: EmailAttachmentTableInfo
+  fullName: SuperOffice.CRM.Data.EmailAttachmentTableInfo
+- uid: SuperOffice.CRM.Data.EmailFolderTableInfo
+  commentId: T:SuperOffice.CRM.Data.EmailFolderTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: EmailFolderTableInfo
+  nameWithType: EmailFolderTableInfo
+  fullName: SuperOffice.CRM.Data.EmailFolderTableInfo
+- uid: SuperOffice.CRM.Data.EmailItemTableInfo
+  commentId: T:SuperOffice.CRM.Data.EmailItemTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: EmailItemTableInfo
+  nameWithType: EmailItemTableInfo
+  fullName: SuperOffice.CRM.Data.EmailItemTableInfo
+- uid: SuperOffice.CRM.Data.ErpConfigurationTableInfo
+  commentId: T:SuperOffice.CRM.Data.ErpConfigurationTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ErpConfigurationTableInfo
+  nameWithType: ErpConfigurationTableInfo
+  fullName: SuperOffice.CRM.Data.ErpConfigurationTableInfo
+- uid: SuperOffice.CRM.Data.ErpConnectionTableInfo
+  commentId: T:SuperOffice.CRM.Data.ErpConnectionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ErpConnectionTableInfo
+  nameWithType: ErpConnectionTableInfo
+  fullName: SuperOffice.CRM.Data.ErpConnectionTableInfo
+- uid: SuperOffice.CRM.Data.ErpConnectionAccessTableInfo
+  commentId: T:SuperOffice.CRM.Data.ErpConnectionAccessTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ErpConnectionAccessTableInfo
+  nameWithType: ErpConnectionAccessTableInfo
+  fullName: SuperOffice.CRM.Data.ErpConnectionAccessTableInfo
+- uid: SuperOffice.CRM.Data.ErpConnectionActorTypeTableInfo
+  commentId: T:SuperOffice.CRM.Data.ErpConnectionActorTypeTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ErpConnectionActorTypeTableInfo
+  nameWithType: ErpConnectionActorTypeTableInfo
+  fullName: SuperOffice.CRM.Data.ErpConnectionActorTypeTableInfo
+- uid: SuperOffice.CRM.Data.ErpConnectorTableInfo
+  commentId: T:SuperOffice.CRM.Data.ErpConnectorTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ErpConnectorTableInfo
+  nameWithType: ErpConnectorTableInfo
+  fullName: SuperOffice.CRM.Data.ErpConnectorTableInfo
+- uid: SuperOffice.CRM.Data.ErpExternalKeyTableInfo
+  commentId: T:SuperOffice.CRM.Data.ErpExternalKeyTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ErpExternalKeyTableInfo
+  nameWithType: ErpExternalKeyTableInfo
+  fullName: SuperOffice.CRM.Data.ErpExternalKeyTableInfo
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo
+  commentId: T:SuperOffice.CRM.Data.ErpFieldTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ErpFieldTableInfo
+  nameWithType: ErpFieldTableInfo
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo
+- uid: SuperOffice.CRM.Data.ErpInternalKeyTableInfo
+  commentId: T:SuperOffice.CRM.Data.ErpInternalKeyTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ErpInternalKeyTableInfo
+  nameWithType: ErpInternalKeyTableInfo
+  fullName: SuperOffice.CRM.Data.ErpInternalKeyTableInfo
+- uid: SuperOffice.CRM.Data.ErpListItemMappingTableInfo
+  commentId: T:SuperOffice.CRM.Data.ErpListItemMappingTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ErpListItemMappingTableInfo
+  nameWithType: ErpListItemMappingTableInfo
+  fullName: SuperOffice.CRM.Data.ErpListItemMappingTableInfo
+- uid: SuperOffice.CRM.Data.ErpSyncLogTableInfo
+  commentId: T:SuperOffice.CRM.Data.ErpSyncLogTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ErpSyncLogTableInfo
+  nameWithType: ErpSyncLogTableInfo
+  fullName: SuperOffice.CRM.Data.ErpSyncLogTableInfo
 - uid: SuperOffice.CRM.Data.ExtAppTableInfo
   commentId: T:SuperOffice.CRM.Data.ExtAppTableInfo
   parent: SuperOffice.CRM.Data
@@ -5305,6 +4991,13 @@ references:
   name: ExtTableTableInfo
   nameWithType: ExtTableTableInfo
   fullName: SuperOffice.CRM.Data.ExtTableTableInfo
+- uid: SuperOffice.CRM.Data.FavouriteTableInfo
+  commentId: T:SuperOffice.CRM.Data.FavouriteTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: FavouriteTableInfo
+  nameWithType: FavouriteTableInfo
+  fullName: SuperOffice.CRM.Data.FavouriteTableInfo
 - uid: SuperOffice.CRM.Data.FieldLabelTableInfo
   commentId: T:SuperOffice.CRM.Data.FieldLabelTableInfo
   parent: SuperOffice.CRM.Data
@@ -5333,6 +5026,13 @@ references:
   name: ForeignKeyTableInfo
   nameWithType: ForeignKeyTableInfo
   fullName: SuperOffice.CRM.Data.ForeignKeyTableInfo
+- uid: SuperOffice.CRM.Data.FormTableInfo
+  commentId: T:SuperOffice.CRM.Data.FormTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: FormTableInfo
+  nameWithType: FormTableInfo
+  fullName: SuperOffice.CRM.Data.FormTableInfo
 - uid: SuperOffice.CRM.Data.FormKeysTableInfo
   commentId: T:SuperOffice.CRM.Data.FormKeysTableInfo
   parent: SuperOffice.CRM.Data
@@ -5340,6 +5040,13 @@ references:
   name: FormKeysTableInfo
   nameWithType: FormKeysTableInfo
   fullName: SuperOffice.CRM.Data.FormKeysTableInfo
+- uid: SuperOffice.CRM.Data.FormSubmissionTableInfo
+  commentId: T:SuperOffice.CRM.Data.FormSubmissionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: FormSubmissionTableInfo
+  nameWithType: FormSubmissionTableInfo
+  fullName: SuperOffice.CRM.Data.FormSubmissionTableInfo
 - uid: SuperOffice.CRM.Data.FreeTextIndexTableInfo
   commentId: T:SuperOffice.CRM.Data.FreeTextIndexTableInfo
   parent: SuperOffice.CRM.Data
@@ -5472,6 +5179,13 @@ references:
   name: IntentHeadingLinkTableInfo
   nameWithType: IntentHeadingLinkTableInfo
   fullName: SuperOffice.CRM.Data.IntentHeadingLinkTableInfo
+- uid: SuperOffice.CRM.Data.InvitationTableInfo
+  commentId: T:SuperOffice.CRM.Data.InvitationTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: InvitationTableInfo
+  nameWithType: InvitationTableInfo
+  fullName: SuperOffice.CRM.Data.InvitationTableInfo
 - uid: SuperOffice.CRM.Data.InvoiceTableInfo
   commentId: T:SuperOffice.CRM.Data.InvoiceTableInfo
   parent: SuperOffice.CRM.Data
@@ -5626,6 +5340,13 @@ references:
   name: LanguageInfoCountryTableInfo
   nameWithType: LanguageInfoCountryTableInfo
   fullName: SuperOffice.CRM.Data.LanguageInfoCountryTableInfo
+- uid: SuperOffice.CRM.Data.LegalBaseTableInfo
+  commentId: T:SuperOffice.CRM.Data.LegalBaseTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: LegalBaseTableInfo
+  nameWithType: LegalBaseTableInfo
+  fullName: SuperOffice.CRM.Data.LegalBaseTableInfo
 - uid: SuperOffice.CRM.Data.LegalHtmlTagsTableInfo
   commentId: T:SuperOffice.CRM.Data.LegalHtmlTagsTableInfo
   parent: SuperOffice.CRM.Data
@@ -5878,6 +5599,13 @@ references:
   name: OLEViewTextTableInfo
   nameWithType: OLEViewTextTableInfo
   fullName: SuperOffice.CRM.Data.OLEViewTextTableInfo
+- uid: SuperOffice.CRM.Data.OnlineAppTableInfo
+  commentId: T:SuperOffice.CRM.Data.OnlineAppTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: OnlineAppTableInfo
+  nameWithType: OnlineAppTableInfo
+  fullName: SuperOffice.CRM.Data.OnlineAppTableInfo
 - uid: SuperOffice.CRM.Data.OutboxTableInfo
   commentId: T:SuperOffice.CRM.Data.OutboxTableInfo
   parent: SuperOffice.CRM.Data
@@ -5885,6 +5613,13 @@ references:
   name: OutboxTableInfo
   nameWithType: OutboxTableInfo
   fullName: SuperOffice.CRM.Data.OutboxTableInfo
+- uid: SuperOffice.CRM.Data.OutgoingMessageTableInfo
+  commentId: T:SuperOffice.CRM.Data.OutgoingMessageTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: OutgoingMessageTableInfo
+  nameWithType: OutgoingMessageTableInfo
+  fullName: SuperOffice.CRM.Data.OutgoingMessageTableInfo
 - uid: SuperOffice.CRM.Data.OwnerContactLinkTableInfo
   commentId: T:SuperOffice.CRM.Data.OwnerContactLinkTableInfo
   parent: SuperOffice.CRM.Data
@@ -5899,6 +5634,48 @@ references:
   name: PasswordRulesTableInfo
   nameWithType: PasswordRulesTableInfo
   fullName: SuperOffice.CRM.Data.PasswordRulesTableInfo
+- uid: SuperOffice.CRM.Data.PaymentTermsTableInfo
+  commentId: T:SuperOffice.CRM.Data.PaymentTermsTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: PaymentTermsTableInfo
+  nameWithType: PaymentTermsTableInfo
+  fullName: SuperOffice.CRM.Data.PaymentTermsTableInfo
+- uid: SuperOffice.CRM.Data.PaymentTermsGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.PaymentTermsGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: PaymentTermsGroupLinkTableInfo
+  nameWithType: PaymentTermsGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.PaymentTermsGroupLinkTableInfo
+- uid: SuperOffice.CRM.Data.PaymentTermsHeadingLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.PaymentTermsHeadingLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: PaymentTermsHeadingLinkTableInfo
+  nameWithType: PaymentTermsHeadingLinkTableInfo
+  fullName: SuperOffice.CRM.Data.PaymentTermsHeadingLinkTableInfo
+- uid: SuperOffice.CRM.Data.PaymentTypeTableInfo
+  commentId: T:SuperOffice.CRM.Data.PaymentTypeTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: PaymentTypeTableInfo
+  nameWithType: PaymentTypeTableInfo
+  fullName: SuperOffice.CRM.Data.PaymentTypeTableInfo
+- uid: SuperOffice.CRM.Data.PaymentTypeGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.PaymentTypeGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: PaymentTypeGroupLinkTableInfo
+  nameWithType: PaymentTypeGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.PaymentTypeGroupLinkTableInfo
+- uid: SuperOffice.CRM.Data.PaymentTypeHeadingLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.PaymentTypeHeadingLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: PaymentTypeHeadingLinkTableInfo
+  nameWithType: PaymentTypeHeadingLinkTableInfo
+  fullName: SuperOffice.CRM.Data.PaymentTypeHeadingLinkTableInfo
 - uid: SuperOffice.CRM.Data.PersIntTableInfo
   commentId: T:SuperOffice.CRM.Data.PersIntTableInfo
   parent: SuperOffice.CRM.Data
@@ -6011,6 +5788,34 @@ references:
   name: PreferenceTableInfo
   nameWithType: PreferenceTableInfo
   fullName: SuperOffice.CRM.Data.PreferenceTableInfo
+- uid: SuperOffice.CRM.Data.PriceListTableInfo
+  commentId: T:SuperOffice.CRM.Data.PriceListTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: PriceListTableInfo
+  nameWithType: PriceListTableInfo
+  fullName: SuperOffice.CRM.Data.PriceListTableInfo
+- uid: SuperOffice.CRM.Data.PriceUnitTableInfo
+  commentId: T:SuperOffice.CRM.Data.PriceUnitTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: PriceUnitTableInfo
+  nameWithType: PriceUnitTableInfo
+  fullName: SuperOffice.CRM.Data.PriceUnitTableInfo
+- uid: SuperOffice.CRM.Data.PriceUnitGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.PriceUnitGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: PriceUnitGroupLinkTableInfo
+  nameWithType: PriceUnitGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.PriceUnitGroupLinkTableInfo
+- uid: SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: PriceUnitHeadingLinkTableInfo
+  nameWithType: PriceUnitHeadingLinkTableInfo
+  fullName: SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo
 - uid: SuperOffice.CRM.Data.PriorityTableInfo
   commentId: T:SuperOffice.CRM.Data.PriorityTableInfo
   parent: SuperOffice.CRM.Data
@@ -6053,6 +5858,76 @@ references:
   name: ProbHeadingLinkTableInfo
   nameWithType: ProbHeadingLinkTableInfo
   fullName: SuperOffice.CRM.Data.ProbHeadingLinkTableInfo
+- uid: SuperOffice.CRM.Data.ProductTableInfo
+  commentId: T:SuperOffice.CRM.Data.ProductTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ProductTableInfo
+  nameWithType: ProductTableInfo
+  fullName: SuperOffice.CRM.Data.ProductTableInfo
+- uid: SuperOffice.CRM.Data.ProductCategoryTableInfo
+  commentId: T:SuperOffice.CRM.Data.ProductCategoryTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ProductCategoryTableInfo
+  nameWithType: ProductCategoryTableInfo
+  fullName: SuperOffice.CRM.Data.ProductCategoryTableInfo
+- uid: SuperOffice.CRM.Data.ProductCategoryGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.ProductCategoryGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ProductCategoryGroupLinkTableInfo
+  nameWithType: ProductCategoryGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.ProductCategoryGroupLinkTableInfo
+- uid: SuperOffice.CRM.Data.ProductCategoryHeadingLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.ProductCategoryHeadingLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ProductCategoryHeadingLinkTableInfo
+  nameWithType: ProductCategoryHeadingLinkTableInfo
+  fullName: SuperOffice.CRM.Data.ProductCategoryHeadingLinkTableInfo
+- uid: SuperOffice.CRM.Data.ProductFamilyTableInfo
+  commentId: T:SuperOffice.CRM.Data.ProductFamilyTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ProductFamilyTableInfo
+  nameWithType: ProductFamilyTableInfo
+  fullName: SuperOffice.CRM.Data.ProductFamilyTableInfo
+- uid: SuperOffice.CRM.Data.ProductFamilyGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.ProductFamilyGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ProductFamilyGroupLinkTableInfo
+  nameWithType: ProductFamilyGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.ProductFamilyGroupLinkTableInfo
+- uid: SuperOffice.CRM.Data.ProductFamilyHeadingLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.ProductFamilyHeadingLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ProductFamilyHeadingLinkTableInfo
+  nameWithType: ProductFamilyHeadingLinkTableInfo
+  fullName: SuperOffice.CRM.Data.ProductFamilyHeadingLinkTableInfo
+- uid: SuperOffice.CRM.Data.ProductTypeTableInfo
+  commentId: T:SuperOffice.CRM.Data.ProductTypeTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ProductTypeTableInfo
+  nameWithType: ProductTypeTableInfo
+  fullName: SuperOffice.CRM.Data.ProductTypeTableInfo
+- uid: SuperOffice.CRM.Data.ProductTypeGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.ProductTypeGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ProductTypeGroupLinkTableInfo
+  nameWithType: ProductTypeGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.ProductTypeGroupLinkTableInfo
+- uid: SuperOffice.CRM.Data.ProductTypeHeadingLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.ProductTypeHeadingLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ProductTypeHeadingLinkTableInfo
+  nameWithType: ProductTypeHeadingLinkTableInfo
+  fullName: SuperOffice.CRM.Data.ProductTypeHeadingLinkTableInfo
 - uid: SuperOffice.CRM.Data.ProductVersionTableInfo
   commentId: T:SuperOffice.CRM.Data.ProductVersionTableInfo
   parent: SuperOffice.CRM.Data
@@ -6137,6 +6012,76 @@ references:
   name: PublishTableInfo
   nameWithType: PublishTableInfo
   fullName: SuperOffice.CRM.Data.PublishTableInfo
+- uid: SuperOffice.CRM.Data.PushNotificationServiceTableInfo
+  commentId: T:SuperOffice.CRM.Data.PushNotificationServiceTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: PushNotificationServiceTableInfo
+  nameWithType: PushNotificationServiceTableInfo
+  fullName: SuperOffice.CRM.Data.PushNotificationServiceTableInfo
+- uid: SuperOffice.CRM.Data.QuickReplyTableInfo
+  commentId: T:SuperOffice.CRM.Data.QuickReplyTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: QuickReplyTableInfo
+  nameWithType: QuickReplyTableInfo
+  fullName: SuperOffice.CRM.Data.QuickReplyTableInfo
+- uid: SuperOffice.CRM.Data.QuoteTableInfo
+  commentId: T:SuperOffice.CRM.Data.QuoteTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: QuoteTableInfo
+  nameWithType: QuoteTableInfo
+  fullName: SuperOffice.CRM.Data.QuoteTableInfo
+- uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo
+  commentId: T:SuperOffice.CRM.Data.QuoteAlternativeTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: QuoteAlternativeTableInfo
+  nameWithType: QuoteAlternativeTableInfo
+  fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo
+- uid: SuperOffice.CRM.Data.QuoteConnectionTableInfo
+  commentId: T:SuperOffice.CRM.Data.QuoteConnectionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: QuoteConnectionTableInfo
+  nameWithType: QuoteConnectionTableInfo
+  fullName: SuperOffice.CRM.Data.QuoteConnectionTableInfo
+- uid: SuperOffice.CRM.Data.QuoteConnectionAccessTableInfo
+  commentId: T:SuperOffice.CRM.Data.QuoteConnectionAccessTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: QuoteConnectionAccessTableInfo
+  nameWithType: QuoteConnectionAccessTableInfo
+  fullName: SuperOffice.CRM.Data.QuoteConnectionAccessTableInfo
+- uid: SuperOffice.CRM.Data.QuoteLineTableInfo
+  commentId: T:SuperOffice.CRM.Data.QuoteLineTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: QuoteLineTableInfo
+  nameWithType: QuoteLineTableInfo
+  fullName: SuperOffice.CRM.Data.QuoteLineTableInfo
+- uid: SuperOffice.CRM.Data.QuoteLineConfigurationTableInfo
+  commentId: T:SuperOffice.CRM.Data.QuoteLineConfigurationTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: QuoteLineConfigurationTableInfo
+  nameWithType: QuoteLineConfigurationTableInfo
+  fullName: SuperOffice.CRM.Data.QuoteLineConfigurationTableInfo
+- uid: SuperOffice.CRM.Data.QuoteVersionTableInfo
+  commentId: T:SuperOffice.CRM.Data.QuoteVersionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: QuoteVersionTableInfo
+  nameWithType: QuoteVersionTableInfo
+  fullName: SuperOffice.CRM.Data.QuoteVersionTableInfo
+- uid: SuperOffice.CRM.Data.QuoteVersionAttachmentTableInfo
+  commentId: T:SuperOffice.CRM.Data.QuoteVersionAttachmentTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: QuoteVersionAttachmentTableInfo
+  nameWithType: QuoteVersionAttachmentTableInfo
+  fullName: SuperOffice.CRM.Data.QuoteVersionAttachmentTableInfo
 - uid: SuperOffice.CRM.Data.ReasonTableInfo
   commentId: T:SuperOffice.CRM.Data.ReasonTableInfo
   parent: SuperOffice.CRM.Data
@@ -6326,6 +6271,13 @@ references:
   name: ReporterListDefTableInfo
   nameWithType: ReporterListDefTableInfo
   fullName: SuperOffice.CRM.Data.ReporterListDefTableInfo
+- uid: SuperOffice.CRM.Data.ResourceOverrideTableInfo
+  commentId: T:SuperOffice.CRM.Data.ResourceOverrideTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ResourceOverrideTableInfo
+  nameWithType: ResourceOverrideTableInfo
+  fullName: SuperOffice.CRM.Data.ResourceOverrideTableInfo
 - uid: SuperOffice.CRM.Data.RoleTableInfo
   commentId: T:SuperOffice.CRM.Data.RoleTableInfo
   parent: SuperOffice.CRM.Data
@@ -6361,6 +6313,13 @@ references:
   name: RoleWorkflowTableInfo
   nameWithType: RoleWorkflowTableInfo
   fullName: SuperOffice.CRM.Data.RoleWorkflowTableInfo
+- uid: SuperOffice.CRM.Data.SaintConfigurationTableInfo
+  commentId: T:SuperOffice.CRM.Data.SaintConfigurationTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: SaintConfigurationTableInfo
+  nameWithType: SaintConfigurationTableInfo
+  fullName: SuperOffice.CRM.Data.SaintConfigurationTableInfo
 - uid: SuperOffice.CRM.Data.SaleTableInfo
   commentId: T:SuperOffice.CRM.Data.SaleTableInfo
   parent: SuperOffice.CRM.Data
@@ -6424,6 +6383,13 @@ references:
   name: SaleTypeHeadingLinkTableInfo
   nameWithType: SaleTypeHeadingLinkTableInfo
   fullName: SuperOffice.CRM.Data.SaleTypeHeadingLinkTableInfo
+- uid: SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo
+  commentId: T:SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: SaleTypeQuoteAttachmentTableInfo
+  nameWithType: SaleTypeQuoteAttachmentTableInfo
+  fullName: SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo
 - uid: SuperOffice.CRM.Data.SaleTypeStageLinkTableInfo
   commentId: T:SuperOffice.CRM.Data.SaleTypeStageLinkTableInfo
   parent: SuperOffice.CRM.Data
@@ -6529,6 +6495,20 @@ references:
   name: ScreenDefinitionLanguageTableInfo
   nameWithType: ScreenDefinitionLanguageTableInfo
   fullName: SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo
+- uid: SuperOffice.CRM.Data.ScriptTraceTableInfo
+  commentId: T:SuperOffice.CRM.Data.ScriptTraceTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ScriptTraceTableInfo
+  nameWithType: ScriptTraceTableInfo
+  fullName: SuperOffice.CRM.Data.ScriptTraceTableInfo
+- uid: SuperOffice.CRM.Data.ScriptTraceRunTableInfo
+  commentId: T:SuperOffice.CRM.Data.ScriptTraceRunTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ScriptTraceRunTableInfo
+  nameWithType: ScriptTraceRunTableInfo
+  fullName: SuperOffice.CRM.Data.ScriptTraceRunTableInfo
 - uid: SuperOffice.CRM.Data.SDynCriteriaTableInfo
   commentId: T:SuperOffice.CRM.Data.SDynCriteriaTableInfo
   parent: SuperOffice.CRM.Data
@@ -6606,6 +6586,13 @@ references:
   name: SequenceTableInfo
   nameWithType: SequenceTableInfo
   fullName: SuperOffice.CRM.Data.SequenceTableInfo
+- uid: SuperOffice.CRM.Data.ServiceAuthTableInfo
+  commentId: T:SuperOffice.CRM.Data.ServiceAuthTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ServiceAuthTableInfo
+  nameWithType: ServiceAuthTableInfo
+  fullName: SuperOffice.CRM.Data.ServiceAuthTableInfo
 - uid: SuperOffice.CRM.Data.SessionObjectTableInfo
   commentId: T:SuperOffice.CRM.Data.SessionObjectTableInfo
   parent: SuperOffice.CRM.Data
@@ -6613,6 +6600,20 @@ references:
   name: SessionObjectTableInfo
   nameWithType: SessionObjectTableInfo
   fullName: SuperOffice.CRM.Data.SessionObjectTableInfo
+- uid: SuperOffice.CRM.Data.ShipmentTypeTableInfo
+  commentId: T:SuperOffice.CRM.Data.ShipmentTypeTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ShipmentTypeTableInfo
+  nameWithType: ShipmentTypeTableInfo
+  fullName: SuperOffice.CRM.Data.ShipmentTypeTableInfo
+- uid: SuperOffice.CRM.Data.ShipmentTypeReservationTableInfo
+  commentId: T:SuperOffice.CRM.Data.ShipmentTypeReservationTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ShipmentTypeReservationTableInfo
+  nameWithType: ShipmentTypeReservationTableInfo
+  fullName: SuperOffice.CRM.Data.ShipmentTypeReservationTableInfo
 - uid: SuperOffice.CRM.Data.SLinkTableInfo
   commentId: T:SuperOffice.CRM.Data.SLinkTableInfo
   parent: SuperOffice.CRM.Data
@@ -6669,6 +6670,13 @@ references:
   name: SMessageTableInfo
   nameWithType: SMessageTableInfo
   fullName: SuperOffice.CRM.Data.SMessageTableInfo
+- uid: SuperOffice.CRM.Data.SMessageblockTableInfo
+  commentId: T:SuperOffice.CRM.Data.SMessageblockTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: SMessageblockTableInfo
+  nameWithType: SMessageblockTableInfo
+  fullName: SuperOffice.CRM.Data.SMessageblockTableInfo
 - uid: SuperOffice.CRM.Data.SmsTableInfo
   commentId: T:SuperOffice.CRM.Data.SmsTableInfo
   parent: SuperOffice.CRM.Data
@@ -6739,6 +6747,13 @@ references:
   name: SORPublishTableInfo
   nameWithType: SORPublishTableInfo
   fullName: SuperOffice.CRM.Data.SORPublishTableInfo
+- uid: SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: SORPublishGroupLinkTableInfo
+  nameWithType: SORPublishGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo
 - uid: SuperOffice.CRM.Data.SORSectionTableInfo
   commentId: T:SuperOffice.CRM.Data.SORSectionTableInfo
   parent: SuperOffice.CRM.Data
@@ -6858,6 +6873,27 @@ references:
   name: StatusValueTableInfo
   nameWithType: StatusValueTableInfo
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo
+- uid: SuperOffice.CRM.Data.SubscriptionUnitTableInfo
+  commentId: T:SuperOffice.CRM.Data.SubscriptionUnitTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: SubscriptionUnitTableInfo
+  nameWithType: SubscriptionUnitTableInfo
+  fullName: SuperOffice.CRM.Data.SubscriptionUnitTableInfo
+- uid: SuperOffice.CRM.Data.SubscriptionUnitGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.SubscriptionUnitGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: SubscriptionUnitGroupLinkTableInfo
+  nameWithType: SubscriptionUnitGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.SubscriptionUnitGroupLinkTableInfo
+- uid: SuperOffice.CRM.Data.SubscriptionUnitHeadingLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.SubscriptionUnitHeadingLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: SubscriptionUnitHeadingLinkTableInfo
+  nameWithType: SubscriptionUnitHeadingLinkTableInfo
+  fullName: SuperOffice.CRM.Data.SubscriptionUnitHeadingLinkTableInfo
 - uid: SuperOffice.CRM.Data.SuggestedAppointmentTableInfo
   commentId: T:SuperOffice.CRM.Data.SuggestedAppointmentTableInfo
   parent: SuperOffice.CRM.Data
@@ -6914,6 +6950,27 @@ references:
   name: TabOrderTableInfo
   nameWithType: TabOrderTableInfo
   fullName: SuperOffice.CRM.Data.TabOrderTableInfo
+- uid: SuperOffice.CRM.Data.TagsTableInfo
+  commentId: T:SuperOffice.CRM.Data.TagsTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TagsTableInfo
+  nameWithType: TagsTableInfo
+  fullName: SuperOffice.CRM.Data.TagsTableInfo
+- uid: SuperOffice.CRM.Data.TagsGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.TagsGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TagsGroupLinkTableInfo
+  nameWithType: TagsGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.TagsGroupLinkTableInfo
+- uid: SuperOffice.CRM.Data.TagsHeadingLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.TagsHeadingLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TagsHeadingLinkTableInfo
+  nameWithType: TagsHeadingLinkTableInfo
+  fullName: SuperOffice.CRM.Data.TagsHeadingLinkTableInfo
 - uid: SuperOffice.CRM.Data.TaskTableInfo
   commentId: T:SuperOffice.CRM.Data.TaskTableInfo
   parent: SuperOffice.CRM.Data
@@ -6935,6 +6992,13 @@ references:
   name: TaskHeadingLinkTableInfo
   nameWithType: TaskHeadingLinkTableInfo
   fullName: SuperOffice.CRM.Data.TaskHeadingLinkTableInfo
+- uid: SuperOffice.CRM.Data.TemporaryKeyTableInfo
+  commentId: T:SuperOffice.CRM.Data.TemporaryKeyTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TemporaryKeyTableInfo
+  nameWithType: TemporaryKeyTableInfo
+  fullName: SuperOffice.CRM.Data.TemporaryKeyTableInfo
 - uid: SuperOffice.CRM.Data.TemporaryWordsTableInfo
   commentId: T:SuperOffice.CRM.Data.TemporaryWordsTableInfo
   parent: SuperOffice.CRM.Data
@@ -7005,6 +7069,27 @@ references:
   name: TicketPriorityTableInfo
   nameWithType: TicketPriorityTableInfo
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo
+- uid: SuperOffice.CRM.Data.TicketRelationTableInfo
+  commentId: T:SuperOffice.CRM.Data.TicketRelationTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TicketRelationTableInfo
+  nameWithType: TicketRelationTableInfo
+  fullName: SuperOffice.CRM.Data.TicketRelationTableInfo
+- uid: SuperOffice.CRM.Data.TicketRelationActionTableInfo
+  commentId: T:SuperOffice.CRM.Data.TicketRelationActionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TicketRelationActionTableInfo
+  nameWithType: TicketRelationActionTableInfo
+  fullName: SuperOffice.CRM.Data.TicketRelationActionTableInfo
+- uid: SuperOffice.CRM.Data.TicketRelationTypeTableInfo
+  commentId: T:SuperOffice.CRM.Data.TicketRelationTypeTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TicketRelationTypeTableInfo
+  nameWithType: TicketRelationTypeTableInfo
+  fullName: SuperOffice.CRM.Data.TicketRelationTypeTableInfo
 - uid: SuperOffice.CRM.Data.TicketStatusTableInfo
   commentId: T:SuperOffice.CRM.Data.TicketStatusTableInfo
   parent: SuperOffice.CRM.Data
@@ -7012,6 +7097,20 @@ references:
   name: TicketStatusTableInfo
   nameWithType: TicketStatusTableInfo
   fullName: SuperOffice.CRM.Data.TicketStatusTableInfo
+- uid: SuperOffice.CRM.Data.TicketStatusHistoryTableInfo
+  commentId: T:SuperOffice.CRM.Data.TicketStatusHistoryTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TicketStatusHistoryTableInfo
+  nameWithType: TicketStatusHistoryTableInfo
+  fullName: SuperOffice.CRM.Data.TicketStatusHistoryTableInfo
+- uid: SuperOffice.CRM.Data.TicketTypeTableInfo
+  commentId: T:SuperOffice.CRM.Data.TicketTypeTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TicketTypeTableInfo
+  nameWithType: TicketTypeTableInfo
+  fullName: SuperOffice.CRM.Data.TicketTypeTableInfo
 - uid: SuperOffice.CRM.Data.TimestampsTableInfo
   commentId: T:SuperOffice.CRM.Data.TimestampsTableInfo
   parent: SuperOffice.CRM.Data
@@ -7082,6 +7181,13 @@ references:
   name: TreeExplorerLinkTableInfo
   nameWithType: TreeExplorerLinkTableInfo
   fullName: SuperOffice.CRM.Data.TreeExplorerLinkTableInfo
+- uid: SuperOffice.CRM.Data.TypicalSearchTableInfo
+  commentId: T:SuperOffice.CRM.Data.TypicalSearchTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TypicalSearchTableInfo
+  nameWithType: TypicalSearchTableInfo
+  fullName: SuperOffice.CRM.Data.TypicalSearchTableInfo
 - uid: SuperOffice.CRM.Data.TZDstRuleTableInfo
   commentId: T:SuperOffice.CRM.Data.TZDstRuleTableInfo
   parent: SuperOffice.CRM.Data
@@ -7264,6 +7370,13 @@ references:
   name: UserAttributeTableInfo
   nameWithType: UserAttributeTableInfo
   fullName: SuperOffice.CRM.Data.UserAttributeTableInfo
+- uid: SuperOffice.CRM.Data.UserCandidateTableInfo
+  commentId: T:SuperOffice.CRM.Data.UserCandidateTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: UserCandidateTableInfo
+  nameWithType: UserCandidateTableInfo
+  fullName: SuperOffice.CRM.Data.UserCandidateTableInfo
 - uid: SuperOffice.CRM.Data.UserGroupTableInfo
   commentId: T:SuperOffice.CRM.Data.UserGroupTableInfo
   parent: SuperOffice.CRM.Data
@@ -7306,6 +7419,19 @@ references:
   name: WebAppUsageTableInfo
   nameWithType: WebAppUsageTableInfo
   fullName: SuperOffice.CRM.Data.WebAppUsageTableInfo
+- uid: SuperOffice.CRM.Data.WebhookTableInfo
+  commentId: T:SuperOffice.CRM.Data.WebhookTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: WebhookTableInfo
+  nameWithType: WebhookTableInfo
+  fullName: SuperOffice.CRM.Data.WebhookTableInfo
+- uid: SuperOffice.CRM.Data.WebhookUsageTableInfo
+  commentId: T:SuperOffice.CRM.Data.WebhookUsageTableInfo
+  isExternal: true
+  name: WebhookUsageTableInfo
+  nameWithType: WebhookUsageTableInfo
+  fullName: SuperOffice.CRM.Data.WebhookUsageTableInfo
 - uid: SuperOffice.CRM.Data.WinPosSizeTableInfo
   commentId: T:SuperOffice.CRM.Data.WinPosSizeTableInfo
   parent: SuperOffice.CRM.Data
@@ -7334,69 +7460,6 @@ references:
   name: ZipToCityTableInfo
   nameWithType: ZipToCityTableInfo
   fullName: SuperOffice.CRM.Data.ZipToCityTableInfo
-- uid: SuperOffice.CRM.Data.InvitationTableInfo
-  commentId: T:SuperOffice.CRM.Data.InvitationTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: InvitationTableInfo
-  nameWithType: InvitationTableInfo
-  fullName: SuperOffice.CRM.Data.InvitationTableInfo
-- uid: SuperOffice.CRM.Data.TagsTableInfo
-  commentId: T:SuperOffice.CRM.Data.TagsTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: TagsTableInfo
-  nameWithType: TagsTableInfo
-  fullName: SuperOffice.CRM.Data.TagsTableInfo
-- uid: SuperOffice.CRM.Data.TagsGroupLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.TagsGroupLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: TagsGroupLinkTableInfo
-  nameWithType: TagsGroupLinkTableInfo
-  fullName: SuperOffice.CRM.Data.TagsGroupLinkTableInfo
-- uid: SuperOffice.CRM.Data.TagsHeadingLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.TagsHeadingLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: TagsHeadingLinkTableInfo
-  nameWithType: TagsHeadingLinkTableInfo
-  fullName: SuperOffice.CRM.Data.TagsHeadingLinkTableInfo
-- uid: SuperOffice.CRM.Data.CustConfigTableInfo
-  commentId: T:SuperOffice.CRM.Data.CustConfigTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: CustConfigTableInfo
-  nameWithType: CustConfigTableInfo
-  fullName: SuperOffice.CRM.Data.CustConfigTableInfo
-- uid: SuperOffice.CRM.Data.AssociateHistoryTableInfo
-  commentId: T:SuperOffice.CRM.Data.AssociateHistoryTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: AssociateHistoryTableInfo
-  nameWithType: AssociateHistoryTableInfo
-  fullName: SuperOffice.CRM.Data.AssociateHistoryTableInfo
-- uid: SuperOffice.CRM.Data.TypicalSearchTableInfo
-  commentId: T:SuperOffice.CRM.Data.TypicalSearchTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: TypicalSearchTableInfo
-  nameWithType: TypicalSearchTableInfo
-  fullName: SuperOffice.CRM.Data.TypicalSearchTableInfo
-- uid: SuperOffice.CRM.Data.OnlineAppTableInfo
-  commentId: T:SuperOffice.CRM.Data.OnlineAppTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: OnlineAppTableInfo
-  nameWithType: OnlineAppTableInfo
-  fullName: SuperOffice.CRM.Data.OnlineAppTableInfo
-- uid: SuperOffice.CRM.Data.SMessageblockTableInfo
-  commentId: T:SuperOffice.CRM.Data.SMessageblockTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: SMessageblockTableInfo
-  nameWithType: SMessageblockTableInfo
-  fullName: SuperOffice.CRM.Data.SMessageblockTableInfo
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true

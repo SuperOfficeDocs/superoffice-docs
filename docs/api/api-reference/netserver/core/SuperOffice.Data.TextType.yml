@@ -41,10 +41,10 @@ items:
   fullName: SuperOffice.Data.TextType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValue for field &apos;type&apos; in table &apos;text&apos;.\nThis Enum is used by:  text.type\n"
   syntax:
@@ -73,10 +73,10 @@ items:
   fullName: SuperOffice.Data.TextType.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown - used when initializing\n"
   syntax:
@@ -101,10 +101,10 @@ items:
   fullName: SuperOffice.Data.TextType.ContactInfo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: A Post-it (paperclip) on the  contact card\n"
   syntax:
@@ -129,10 +129,10 @@ items:
   fullName: SuperOffice.Data.TextType.PersonInfo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: A Post-it in the person dialog, shown as a descriptive text box in the info panel\n"
   syntax:
@@ -157,10 +157,10 @@ items:
   fullName: SuperOffice.Data.TextType.Reserved1
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: PersonEmail - currently not in use (4.5 legacy, removed by conversion program)\n"
   syntax:
@@ -185,10 +185,10 @@ items:
   fullName: SuperOffice.Data.TextType.AppointmentText
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Descriptive text area in the appointment dialog. \n"
   syntax:
@@ -213,10 +213,10 @@ items:
   fullName: SuperOffice.Data.TextType.DocumentText
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Document optional long description (keywords). Owner is document.\n"
   syntax:
@@ -241,10 +241,10 @@ items:
   fullName: SuperOffice.Data.TextType.ProjectText
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: Descriptive text area on the project card. \n"
   syntax:
@@ -269,10 +269,10 @@ items:
   fullName: SuperOffice.Data.TextType.SaleText
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: Descriptive text area in the sale dialog.\n"
   syntax:
@@ -297,10 +297,10 @@ items:
   fullName: SuperOffice.Data.TextType.Notepad
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Personal notepad as used extensively in 4.5.  \n"
   syntax:
@@ -325,10 +325,10 @@ items:
   fullName: SuperOffice.Data.TextType.Reserved2
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n9: MailAppointmentText - currently not in use (4.5 legacy, removed by conversion program)\n"
   syntax:
@@ -353,10 +353,10 @@ items:
   fullName: SuperOffice.Data.TextType.Reserved3
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n10: ContactUrl - currently not in use (4.5 legacy, removed by conversion program)\n"
   syntax:
@@ -381,10 +381,10 @@ items:
   fullName: SuperOffice.Data.TextType.ProjectInfo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n11: A Post-it (paperclip) on the project card. \n"
   syntax:
@@ -409,10 +409,10 @@ items:
   fullName: SuperOffice.Data.TextType.SelectionInfo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n12: A Post-it (paperclip) on the selection card. \n"
   syntax:
@@ -437,10 +437,10 @@ items:
   fullName: SuperOffice.Data.TextType.ProjectMemberText
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n13: Descriptive text area in the project member dialog. \n"
   syntax:
@@ -465,10 +465,10 @@ items:
   fullName: SuperOffice.Data.TextType.SelectionText
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n14: Descriptive text area on the selection card. \n"
   syntax:
@@ -493,10 +493,10 @@ items:
   fullName: SuperOffice.Data.TextType.DayInfo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n15: A Post-it attached to a specific day (via an appointment)\n"
   syntax:
@@ -521,10 +521,10 @@ items:
   fullName: SuperOffice.Data.TextType.LongPreference
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16: Extra information for a saved set of search criteria\n"
   syntax:
@@ -549,10 +549,10 @@ items:
   fullName: SuperOffice.Data.TextType.SearchCriteriaInfo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n17: Extra information for a saved search criteria subgroup\n"
   syntax:
@@ -577,10 +577,10 @@ items:
   fullName: SuperOffice.Data.TextType.SearchCriteriaGroupInfo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n18: Extra information about a user role\n"
   syntax:
@@ -605,10 +605,10 @@ items:
   fullName: SuperOffice.Data.TextType.RoleInfo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n19: Extra information about a user role\n"
   syntax:
@@ -633,10 +633,10 @@ items:
   fullName: SuperOffice.Data.TextType.UdefListSQL
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n20: SQL text to be executed when populating a user-defined fields&apos; drop-down box\n"
   syntax:
@@ -661,10 +661,10 @@ items:
   fullName: SuperOffice.Data.TextType.StatusMonitorInfo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n21: Extra information about a status monitor (linked to statusdef)\n"
   syntax:
@@ -689,10 +689,10 @@ items:
   fullName: SuperOffice.Data.TextType.AudienceSignOnConfirmation
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n22: Confirmation text to be shown to users who &apos;sign on&apos; to an event, in Audience\n"
   syntax:
@@ -717,10 +717,10 @@ items:
   fullName: SuperOffice.Data.TextType.AudienceSignOffConfirmation
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n23: Confirmation text to be shown to users who &apos;sign off&apos; from an event, in Audience\n"
   syntax:
@@ -745,10 +745,10 @@ items:
   fullName: SuperOffice.Data.TextType.StatusMonitorDefaultTaskText
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n24: Default task text for new tasks created in response to a status monitor watermark (linked to statusdef)\n"
   syntax:
@@ -773,10 +773,10 @@ items:
   fullName: SuperOffice.Data.TextType.SaleInfo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n25: A Post-it (paperclip) on the Sale panel\n"
   syntax:
@@ -801,10 +801,10 @@ items:
   fullName: SuperOffice.Data.TextType.NameExtension
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n26: Extension of NAME of MDO list\n"
   syntax:
@@ -829,10 +829,10 @@ items:
   fullName: SuperOffice.Data.TextType.TooltipExtension
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n27: Extension of TOOLTIP of MDO list\n"
   syntax:

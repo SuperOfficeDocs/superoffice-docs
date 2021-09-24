@@ -8,6 +8,7 @@ items:
   - SuperOffice.Data.ChatTopicFlag.CollectConsent
   - SuperOffice.Data.ChatTopicFlag.EmailAlert
   - SuperOffice.Data.ChatTopicFlag.None
+  - SuperOffice.Data.ChatTopicFlag.OfflineCollectConsent
   - SuperOffice.Data.ChatTopicFlag.PopupAlert
   - SuperOffice.Data.ChatTopicFlag.UseCustomQueueMessage
   - SuperOffice.Data.ChatTopicFlag.WidgetSizeLarge
@@ -19,10 +20,10 @@ items:
   fullName: SuperOffice.Data.ChatTopicFlag
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nChat Topic flags\nThis Enum is used by:  chat_topic.flags\nThis Enum consists of flag values that can be combined.\n"
   syntax:
@@ -61,10 +62,10 @@ items:
   fullName: SuperOffice.Data.ChatTopicFlag.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Nothing\n"
   syntax:
@@ -89,10 +90,10 @@ items:
   fullName: SuperOffice.Data.ChatTopicFlag.PopupAlert
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Alert using Popup\n"
   syntax:
@@ -117,10 +118,10 @@ items:
   fullName: SuperOffice.Data.ChatTopicFlag.EmailAlert
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Alert using E-mail\n"
   syntax:
@@ -145,10 +146,10 @@ items:
   fullName: SuperOffice.Data.ChatTopicFlag.CollectConsent
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Collect GDPR consent before chat\n"
   syntax:
@@ -173,10 +174,10 @@ items:
   fullName: SuperOffice.Data.ChatTopicFlag.UseCustomQueueMessage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Use custom queue message\n"
   syntax:
@@ -201,14 +202,42 @@ items:
   fullName: SuperOffice.Data.ChatTopicFlag.WidgetSizeLarge
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16: Show large widget\n"
   syntax:
     content: WidgetSizeLarge = 16
+    return:
+      type: SuperOffice.Data.ChatTopicFlag
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ChatTopicFlag.OfflineCollectConsent
+  commentId: F:SuperOffice.Data.ChatTopicFlag.OfflineCollectConsent
+  id: OfflineCollectConsent
+  parent: SuperOffice.Data.ChatTopicFlag
+  langs:
+  - csharp
+  - vb
+  name: OfflineCollectConsent
+  nameWithType: ChatTopicFlag.OfflineCollectConsent
+  fullName: SuperOffice.Data.ChatTopicFlag.OfflineCollectConsent
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n32: Collect GDPR consent on offline chat form\n"
+  syntax:
+    content: OfflineCollectConsent = 32
     return:
       type: SuperOffice.Data.ChatTopicFlag
   modifiers.csharp:

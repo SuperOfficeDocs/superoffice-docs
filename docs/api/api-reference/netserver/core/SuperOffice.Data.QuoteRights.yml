@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.QuoteRights
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nQuoteRights are used for quoteline and product rights\nRights can be one of: N (=None or Hidden), R (=Read-only), W (=Writeable), M (=Mandatory).\n"
   syntax:
@@ -55,10 +55,10 @@ items:
   fullName: SuperOffice.Data.QuoteRights.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string None = "N"
@@ -83,10 +83,10 @@ items:
   fullName: SuperOffice.Data.QuoteRights.ReadOnly
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ReadOnly = "R"
@@ -111,10 +111,10 @@ items:
   fullName: SuperOffice.Data.QuoteRights.Writable
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string Writable = "W"
@@ -139,10 +139,10 @@ items:
   fullName: SuperOffice.Data.QuoteRights.Mandatory
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string Mandatory = "M"

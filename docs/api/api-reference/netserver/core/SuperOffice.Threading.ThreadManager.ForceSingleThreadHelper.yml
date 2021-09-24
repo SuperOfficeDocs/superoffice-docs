@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Threading.ThreadManager.ForceSingleThreadHelper
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nHelper class to force asyncronious operations started from the current thread to be executed syncroniously.\n"
   syntax:
@@ -58,10 +58,10 @@ items:
   fullName: SuperOffice.Threading.ThreadManager.ForceSingleThreadHelper.Dispose()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public void Dispose()

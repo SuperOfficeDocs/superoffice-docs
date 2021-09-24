@@ -25,10 +25,10 @@ items:
   fullName: SuperOffice.SoOperationContext
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHold information about current operation context.  \n"
   remarks: "\nClients of NetServer should call \n<code>using (SoOperationContext.EnterOperationContext(applicationId, operation)){/* business logic /*}</code>\n when performing operations.\n"
@@ -70,10 +70,10 @@ items:
   fullName: SuperOffice.SoOperationContext.EnterOperationContext(System.String, SuperOffice.OperationContextType, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nCalled by clients in a <code>using</code> statement surrounding the implementation block of code\n"
   syntax:
@@ -110,10 +110,10 @@ items:
   fullName: SuperOffice.SoOperationContext.GetCurrentContext()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nGet the current operation context. \n"
   syntax:
@@ -141,10 +141,10 @@ items:
   fullName: SuperOffice.SoOperationContext.StopTimer()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public void StopTimer()
@@ -166,10 +166,10 @@ items:
   fullName: SuperOffice.SoOperationContext.LeaveOperationContext()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nLeave the operation context.  This method is called by Dispose.\n"
   syntax:
@@ -196,10 +196,10 @@ items:
   fullName: SuperOffice.SoOperationContext.Dispose()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nDispose the current operation context by calling LeaveOperationContext().\n"
   syntax:
@@ -224,10 +224,10 @@ items:
   fullName: SuperOffice.SoOperationContext.GetClosestApplicationToken()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nTraverse the OperationContext stack from the current level and backup,\nlooking for a non-blank ApplicationToken. Return the first one found,\nor null if none are found.\n"
   syntax:
@@ -255,10 +255,10 @@ items:
   fullName: SuperOffice.SoOperationContext.IsApplicationTokenSet()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nCheck if a non-blank application token has been set\n"
   syntax:
@@ -285,10 +285,10 @@ items:
   fullName: SuperOffice.SoOperationContext.ApplicationToken
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nApplicationId of the current context.\n"
   syntax:
@@ -316,10 +316,10 @@ items:
   fullName: SuperOffice.SoOperationContext.OperationType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nType of operation\n"
   syntax:
@@ -347,10 +347,10 @@ items:
   fullName: SuperOffice.SoOperationContext.Operation
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nOperation name\n"
   syntax:
@@ -378,10 +378,10 @@ items:
   fullName: SuperOffice.SoOperationContext.Parent
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nParent operation.  This can be null if there are no parent operations.\n"
   syntax:
@@ -409,10 +409,10 @@ items:
   fullName: SuperOffice.SoOperationContext.IsCurrentContext
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nCheck if this is the current operation context.\n"
   syntax:

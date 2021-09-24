@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Wizard
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWizard\n"
   syntax:
@@ -53,10 +53,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Wizard.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Wizard.MailMergeWizardStartPageEx
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreference used to remember the setup/status of the dialog\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:

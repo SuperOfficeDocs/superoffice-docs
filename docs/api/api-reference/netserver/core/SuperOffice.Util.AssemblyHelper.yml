@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Util.AssemblyHelper
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static class AssemblyHelper
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.Util.AssemblyHelper.IsSystemAssembly(System.Reflection.Assembly)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static bool IsSystemAssembly(Assembly assembly)

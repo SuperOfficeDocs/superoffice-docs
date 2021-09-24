@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Util.TwipsConverter
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConvert twips to centimeter or inches.\n"
   syntax:
@@ -56,10 +56,10 @@ items:
   fullName: SuperOffice.Util.TwipsConverter.TwipsToCentimeter(System.UInt32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nTwips to centimeter\n"
   syntax:
@@ -89,10 +89,10 @@ items:
   fullName: SuperOffice.Util.TwipsConverter.TwipsToInches(System.UInt32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nTwips to inches\n"
   syntax:
@@ -122,10 +122,10 @@ items:
   fullName: SuperOffice.Util.TwipsConverter.CentimeterToTwips(System.Double)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nCentimenter to twips\n"
   syntax:
@@ -155,10 +155,10 @@ items:
   fullName: SuperOffice.Util.TwipsConverter.InchesToTwips(System.Double)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nInches to twips\n"
   syntax:
@@ -188,10 +188,10 @@ items:
   fullName: SuperOffice.Util.TwipsConverter.FromTwips(SuperOffice.Data.LayoutUnits, System.UInt32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConvert to centimeter or inches from twips\n"
   syntax:

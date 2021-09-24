@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Scripting
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\n\n"
   syntax:
@@ -55,10 +55,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Scripting.ScriptPath
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\n\n"
   syntax:
@@ -88,10 +88,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Scripting.EnableScripting
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\n\n"
   syntax:
@@ -121,10 +121,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Scripting.TimeoutLimit
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\n\n"
   syntax:
@@ -154,10 +154,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Scripting.MaxTimeouts
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\n\n"
   syntax:

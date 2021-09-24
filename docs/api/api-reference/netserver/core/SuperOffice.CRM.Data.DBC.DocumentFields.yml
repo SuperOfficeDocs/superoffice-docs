@@ -11,6 +11,7 @@ items:
   - SuperOffice.CRM.Data.DBC.DocumentFields.Attention
   - SuperOffice.CRM.Data.DBC.DocumentFields.DocumentId
   - SuperOffice.CRM.Data.DBC.DocumentFields.Extref
+  - SuperOffice.CRM.Data.DBC.DocumentFields.ExtUrl
   - SuperOffice.CRM.Data.DBC.DocumentFields.Header
   - SuperOffice.CRM.Data.DBC.DocumentFields.Name
   - SuperOffice.CRM.Data.DBC.DocumentFields.OurRef
@@ -633,6 +634,35 @@ items:
     return:
       type: System.String
     content.vb: Public Const Snum As String = "snum"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DocumentFields.ExtUrl
+  commentId: F:SuperOffice.CRM.Data.DBC.DocumentFields.ExtUrl
+  id: ExtUrl
+  parent: SuperOffice.CRM.Data.DBC.DocumentFields
+  langs:
+  - csharp
+  - vb
+  name: ExtUrl
+  nameWithType: DBC.DocumentFields.ExtUrl
+  fullName: SuperOffice.CRM.Data.DBC.DocumentFields.ExtUrl
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDocument.ExtUrl: For DocPlugin-internal use only. Used to optionally cache URL of external documents.\n"
+  syntax:
+    content: public const string ExtUrl = "ExtUrl"
+    return:
+      type: System.String
+    content.vb: Public Const ExtUrl As String = "ExtUrl"
   modifiers.csharp:
   - public
   - const

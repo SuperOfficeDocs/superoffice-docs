@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.RecurrenceEndType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nEnumerator describing how the series of recurring activities are terminated.\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.RecurrenceEndType.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: 0: Unknown/undecided type\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.RecurrenceEndType.EndDate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: The end of the recurrence is described by an end date.\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.RecurrenceEndType.Counter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: The end of the recurrence is described with a number of recurring activities.\n"
   syntax:

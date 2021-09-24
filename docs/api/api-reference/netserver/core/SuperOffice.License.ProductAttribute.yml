@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.License.ProductAttribute
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nSummary description for Product.\n"
   syntax:
@@ -111,10 +111,10 @@ items:
   fullName: SuperOffice.License.ProductAttribute.ProductAttribute(System.Type)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nDefault constructor for the SuperOffice product attribute.\n"
   syntax:
@@ -141,10 +141,10 @@ items:
   fullName: SuperOffice.License.ProductAttribute.Definition
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nDefinition of the product.\n"
   syntax:

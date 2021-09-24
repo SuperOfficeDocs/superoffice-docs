@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Security.Util.DocumentArchiveUser
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nHelper class for caching document archive user\n"
   syntax:
@@ -68,10 +68,10 @@ items:
   fullName: SuperOffice.Security.Util.DocumentArchiveUser.User
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   syntax:
     content: public WindowsIdentity User { get; }

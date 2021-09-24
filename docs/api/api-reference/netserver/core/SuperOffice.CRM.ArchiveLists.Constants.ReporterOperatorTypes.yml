@@ -23,10 +23,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public static class ReporterOperatorTypes
@@ -60,10 +60,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Tree
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string Tree = "tree"
@@ -88,10 +88,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Bool
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string Bool = "boolean"
@@ -116,10 +116,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Date
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string Date = "date"
@@ -144,10 +144,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Number
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string Number = "number"
@@ -172,10 +172,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.List
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string List = "list"
@@ -200,10 +200,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Selection
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string Selection = "selection"
@@ -228,10 +228,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.CalendarWeek
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string CalendarWeek = "calendarw"
@@ -256,10 +256,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.CalendarMonth
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string CalendarMonth = "calendarm"
@@ -284,10 +284,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.String
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string String = "string"
@@ -312,10 +312,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.ReporterUnlimitedDate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ReporterUnlimitedDate = "reporterUnlimitedDate"

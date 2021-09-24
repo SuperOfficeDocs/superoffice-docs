@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.SaleFilterDialog
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public static class SaleFilterDialog
@@ -52,10 +52,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.SaleFilterDialog.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public const string Section = "Functions"
@@ -80,10 +80,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.SaleFilterDialog.SaleAdvanceDays
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public const string SaleAdvanceDays = "GetAdvanceDays"

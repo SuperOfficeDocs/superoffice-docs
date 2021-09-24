@@ -20,7 +20,7 @@ items:
   fullName: SuperOffice.Globalization
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
 - uid: SuperOffice.Globalization.CultureSettingHelper
   commentId: T:SuperOffice.Globalization.CultureSettingHelper

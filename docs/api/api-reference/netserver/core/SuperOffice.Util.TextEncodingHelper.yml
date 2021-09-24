@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Util.TextEncodingHelper
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nClass used to assist detection of unknown encodings.\n"
   syntax:
@@ -52,10 +52,10 @@ items:
   fullName: SuperOffice.Util.TextEncodingHelper.GetEncodingFromBytes(System.Byte[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAttempts to detect the actual text-encoding of the provided byte-stream.\n"
   syntax:

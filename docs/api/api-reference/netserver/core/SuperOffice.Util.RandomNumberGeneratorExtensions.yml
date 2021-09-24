@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Util.RandomNumberGeneratorExtensions
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static class RandomNumberGeneratorExtensions
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturns a non-negative random integer.\n"
   syntax:
@@ -91,10 +91,10 @@ items:
   fullName: SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturns a non-negative random integer that is less than the specified maximum.\n"
   syntax:
@@ -130,10 +130,10 @@ items:
   fullName: SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator, System.Int32, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturns a random integer that is within a specified range.\n"
   syntax:

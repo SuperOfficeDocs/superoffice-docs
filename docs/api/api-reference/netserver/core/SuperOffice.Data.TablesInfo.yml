@@ -35,6 +35,7 @@ items:
   - SuperOffice.Data.TablesInfo.GetBusinessGroupLinkTableInfo
   - SuperOffice.Data.TablesInfo.GetBusinessHeadingLinkTableInfo
   - SuperOffice.Data.TablesInfo.GetBusinessTableInfo
+  - SuperOffice.Data.TablesInfo.GetCacheInvalidationTableInfo
   - SuperOffice.Data.TablesInfo.GetCacheTablesTableInfo
   - SuperOffice.Data.TablesInfo.GetCategoryFamilyTableInfo
   - SuperOffice.Data.TablesInfo.GetCategoryGroupLinkTableInfo
@@ -51,6 +52,7 @@ items:
   - SuperOffice.Data.TablesInfo.GetComptrHeadingLinkTableInfo
   - SuperOffice.Data.TablesInfo.GetComptrTableInfo
   - SuperOffice.Data.TablesInfo.GetConfigTableInfo
+  - SuperOffice.Data.TablesInfo.GetConfigurableScreenDeltaTableInfo
   - SuperOffice.Data.TablesInfo.GetConnectionConfigFieldTableInfo
   - SuperOffice.Data.TablesInfo.GetConsentPersonTableInfo
   - SuperOffice.Data.TablesInfo.GetConsentPurposeTableInfo
@@ -74,6 +76,11 @@ items:
   - SuperOffice.Data.TablesInfo.GetCustCategoryTableInfo
   - SuperOffice.Data.TablesInfo.GetCustConfigTableInfo
   - SuperOffice.Data.TablesInfo.GetCustLangTableInfo
+  - SuperOffice.Data.TablesInfo.GetDashboardTableInfo
+  - SuperOffice.Data.TablesInfo.GetDashboardThemeTableInfo
+  - SuperOffice.Data.TablesInfo.GetDashboardTileDefinitionTableInfo
+  - SuperOffice.Data.TablesInfo.GetDashboardTileFieldTableInfo
+  - SuperOffice.Data.TablesInfo.GetDashboardTileTableInfo
   - SuperOffice.Data.TablesInfo.GetDatabaseModelTableInfo
   - SuperOffice.Data.TablesInfo.GetDataRightTableInfo
   - SuperOffice.Data.TablesInfo.GetDbiAgentFieldTableInfo
@@ -554,8 +561,16 @@ items:
 
       [DatabaseStep]
 
+      [DatabaseStep]
+
+      [DatabaseStep]
+
       public static class TablesInfo
     content.vb: >-
+      <DatabaseStep>
+
+      <DatabaseStep>
+
       <DatabaseStep>
 
       <DatabaseStep>
@@ -608,6 +623,12 @@ items:
   - System.Object.GetType
   - System.Object.MemberwiseClone
   attributes:
+  - type: SuperOffice.Data.DatabaseStepAttribute
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
+    arguments: []
+  - type: SuperOffice.Data.DatabaseStepAttribute
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
+    arguments: []
   - type: SuperOffice.Data.DatabaseStepAttribute
     ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
     arguments: []
@@ -14535,6 +14556,36 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.Data.TablesInfo.GetConfigurableScreenDeltaTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetConfigurableScreenDeltaTableInfo
+  id: GetConfigurableScreenDeltaTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetConfigurableScreenDeltaTableInfo()
+  nameWithType: TablesInfo.GetConfigurableScreenDeltaTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetConfigurableScreenDeltaTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of ConfigurableScreenDeltaTableInfo:\nParts of recipes in SCIL to insert or remove in given recipes\n"
+  syntax:
+    content: public static ConfigurableScreenDeltaTableInfo GetConfigurableScreenDeltaTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.ConfigurableScreenDeltaTableInfo
+    content.vb: Public Shared Function GetConfigurableScreenDeltaTableInfo As ConfigurableScreenDeltaTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetConfigurableScreenDeltaTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Data.TablesInfo.GetConsentPurposeTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetConsentPurposeTableInfo
   id: GetConsentPurposeTableInfo
@@ -14799,6 +14850,156 @@ items:
       type: SuperOffice.CRM.Data.CustConfigTableInfo
     content.vb: Public Shared Function GetCustConfigTableInfo As CustConfigTableInfo
   overload: SuperOffice.Data.TablesInfo.GetCustConfigTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetDashboardTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetDashboardTableInfo
+  id: GetDashboardTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetDashboardTableInfo()
+  nameWithType: TablesInfo.GetDashboardTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetDashboardTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of DashboardTableInfo:\nDescribes a dashboard\n"
+  syntax:
+    content: public static DashboardTableInfo GetDashboardTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.DashboardTableInfo
+    content.vb: Public Shared Function GetDashboardTableInfo As DashboardTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetDashboardTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetDashboardThemeTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetDashboardThemeTableInfo
+  id: GetDashboardThemeTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetDashboardThemeTableInfo()
+  nameWithType: TablesInfo.GetDashboardThemeTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetDashboardThemeTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of DashboardThemeTableInfo:\nA set of style rules for the Dashboard\n"
+  syntax:
+    content: public static DashboardThemeTableInfo GetDashboardThemeTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.DashboardThemeTableInfo
+    content.vb: Public Shared Function GetDashboardThemeTableInfo As DashboardThemeTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetDashboardThemeTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetDashboardTileDefinitionTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetDashboardTileDefinitionTableInfo
+  id: GetDashboardTileDefinitionTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetDashboardTileDefinitionTableInfo()
+  nameWithType: TablesInfo.GetDashboardTileDefinitionTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetDashboardTileDefinitionTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of DashboardTileDefinitionTableInfo:\nDescribes the contents of a tile\n"
+  syntax:
+    content: public static DashboardTileDefinitionTableInfo GetDashboardTileDefinitionTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+    content.vb: Public Shared Function GetDashboardTileDefinitionTableInfo As DashboardTileDefinitionTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetDashboardTileDefinitionTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetDashboardTileTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetDashboardTileTableInfo
+  id: GetDashboardTileTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetDashboardTileTableInfo()
+  nameWithType: TablesInfo.GetDashboardTileTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetDashboardTileTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of DashboardTileTableInfo:\nRepresents one tile in the dashboard\n"
+  syntax:
+    content: public static DashboardTileTableInfo GetDashboardTileTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.DashboardTileTableInfo
+    content.vb: Public Shared Function GetDashboardTileTableInfo As DashboardTileTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetDashboardTileTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetDashboardTileFieldTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetDashboardTileFieldTableInfo
+  id: GetDashboardTileFieldTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetDashboardTileFieldTableInfo()
+  nameWithType: TablesInfo.GetDashboardTileFieldTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetDashboardTileFieldTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of DashboardTileFieldTableInfo:\nDescribes the contents of a tile field\n"
+  syntax:
+    content: public static DashboardTileFieldTableInfo GetDashboardTileFieldTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.DashboardTileFieldTableInfo
+    content.vb: Public Shared Function GetDashboardTileFieldTableInfo As DashboardTileFieldTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetDashboardTileFieldTableInfo*
   modifiers.csharp:
   - public
   - static
@@ -15309,6 +15510,36 @@ items:
       type: SuperOffice.CRM.Data.AssociateHistoryTableInfo
     content.vb: Public Shared Function GetAssociateHistoryTableInfo As AssociateHistoryTableInfo
   overload: SuperOffice.Data.TablesInfo.GetAssociateHistoryTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetCacheInvalidationTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetCacheInvalidationTableInfo
+  id: GetCacheInvalidationTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetCacheInvalidationTableInfo()
+  nameWithType: TablesInfo.GetCacheInvalidationTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetCacheInvalidationTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of CacheInvalidationTableInfo:\nNames and generation numbers for distributed invalidation of caches\n"
+  syntax:
+    content: public static CacheInvalidationTableInfo GetCacheInvalidationTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.CacheInvalidationTableInfo
+    content.vb: Public Shared Function GetCacheInvalidationTableInfo As CacheInvalidationTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetCacheInvalidationTableInfo*
   modifiers.csharp:
   - public
   - static
@@ -21801,6 +22032,19 @@ references:
   name: QuickReplyTableInfo
   nameWithType: QuickReplyTableInfo
   fullName: SuperOffice.CRM.Data.QuickReplyTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetConfigurableScreenDeltaTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetConfigurableScreenDeltaTableInfo
+  isExternal: true
+  name: GetConfigurableScreenDeltaTableInfo
+  nameWithType: TablesInfo.GetConfigurableScreenDeltaTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetConfigurableScreenDeltaTableInfo
+- uid: SuperOffice.CRM.Data.ConfigurableScreenDeltaTableInfo
+  commentId: T:SuperOffice.CRM.Data.ConfigurableScreenDeltaTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ConfigurableScreenDeltaTableInfo
+  nameWithType: ConfigurableScreenDeltaTableInfo
+  fullName: SuperOffice.CRM.Data.ConfigurableScreenDeltaTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetConsentPurposeTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetConsentPurposeTableInfo
   isExternal: true
@@ -21918,6 +22162,71 @@ references:
   name: CustConfigTableInfo
   nameWithType: CustConfigTableInfo
   fullName: SuperOffice.CRM.Data.CustConfigTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetDashboardTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetDashboardTableInfo
+  isExternal: true
+  name: GetDashboardTableInfo
+  nameWithType: TablesInfo.GetDashboardTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetDashboardTableInfo
+- uid: SuperOffice.CRM.Data.DashboardTableInfo
+  commentId: T:SuperOffice.CRM.Data.DashboardTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: DashboardTableInfo
+  nameWithType: DashboardTableInfo
+  fullName: SuperOffice.CRM.Data.DashboardTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetDashboardThemeTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetDashboardThemeTableInfo
+  isExternal: true
+  name: GetDashboardThemeTableInfo
+  nameWithType: TablesInfo.GetDashboardThemeTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetDashboardThemeTableInfo
+- uid: SuperOffice.CRM.Data.DashboardThemeTableInfo
+  commentId: T:SuperOffice.CRM.Data.DashboardThemeTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: DashboardThemeTableInfo
+  nameWithType: DashboardThemeTableInfo
+  fullName: SuperOffice.CRM.Data.DashboardThemeTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetDashboardTileDefinitionTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetDashboardTileDefinitionTableInfo
+  isExternal: true
+  name: GetDashboardTileDefinitionTableInfo
+  nameWithType: TablesInfo.GetDashboardTileDefinitionTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetDashboardTileDefinitionTableInfo
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  commentId: T:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: DashboardTileDefinitionTableInfo
+  nameWithType: DashboardTileDefinitionTableInfo
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetDashboardTileTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetDashboardTileTableInfo
+  isExternal: true
+  name: GetDashboardTileTableInfo
+  nameWithType: TablesInfo.GetDashboardTileTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetDashboardTileTableInfo
+- uid: SuperOffice.CRM.Data.DashboardTileTableInfo
+  commentId: T:SuperOffice.CRM.Data.DashboardTileTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: DashboardTileTableInfo
+  nameWithType: DashboardTileTableInfo
+  fullName: SuperOffice.CRM.Data.DashboardTileTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetDashboardTileFieldTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetDashboardTileFieldTableInfo
+  isExternal: true
+  name: GetDashboardTileFieldTableInfo
+  nameWithType: TablesInfo.GetDashboardTileFieldTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetDashboardTileFieldTableInfo
+- uid: SuperOffice.CRM.Data.DashboardTileFieldTableInfo
+  commentId: T:SuperOffice.CRM.Data.DashboardTileFieldTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: DashboardTileFieldTableInfo
+  nameWithType: DashboardTileFieldTableInfo
+  fullName: SuperOffice.CRM.Data.DashboardTileFieldTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetFormTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetFormTableInfo
   isExternal: true
@@ -22139,6 +22448,19 @@ references:
   name: AssociateHistoryTableInfo
   nameWithType: AssociateHistoryTableInfo
   fullName: SuperOffice.CRM.Data.AssociateHistoryTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetCacheInvalidationTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetCacheInvalidationTableInfo
+  isExternal: true
+  name: GetCacheInvalidationTableInfo
+  nameWithType: TablesInfo.GetCacheInvalidationTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetCacheInvalidationTableInfo
+- uid: SuperOffice.CRM.Data.CacheInvalidationTableInfo
+  commentId: T:SuperOffice.CRM.Data.CacheInvalidationTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CacheInvalidationTableInfo
+  nameWithType: CacheInvalidationTableInfo
+  fullName: SuperOffice.CRM.Data.CacheInvalidationTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetTableInfo
   isExternal: true

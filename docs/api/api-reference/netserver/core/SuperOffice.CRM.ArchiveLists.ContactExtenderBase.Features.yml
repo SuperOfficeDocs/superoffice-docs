@@ -24,7 +24,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.PostalAddress
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.PostalSearchAddress
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.PrefixEmailWithContact
-  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.ProjectMember
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Relation
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Saint
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Sale
@@ -451,33 +450,6 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.ProjectMember
-  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.ProjectMember
-  id: ProjectMember
-  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
-  langs:
-  - csharp
-  - vb
-  name: ProjectMember
-  nameWithType: ContactExtenderBase.Features.ProjectMember
-  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.ProjectMember
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.ArchiveLists
-  syntax:
-    content: ProjectMember = 16777216
-    return:
-      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.NavigationLinks
   commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.NavigationLinks
   id: NavigationLinks
@@ -847,7 +819,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: FindOrSelection = 22820607
+    content: FindOrSelection = 6043391
     return:
       type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
   modifiers.csharp:

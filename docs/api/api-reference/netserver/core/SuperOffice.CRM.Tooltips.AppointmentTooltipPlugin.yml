@@ -23,8 +23,6 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Tooltips
-  summary: "\nTooltip provider for appointments, using the common <xref href=\"SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetGenericActivityTooltip(SuperOffice.Data.SQL.Select%2cSuperOffice.Data.SQL.FieldInfo%2cSuperOffice.Data.SQL.FieldInfo%2cSuperOffice.Data.SQL.FieldInfo%2cSuperOffice.Data.SQL.FieldInfo%2cSuperOffice.Data.SoDataReader%40%2cSuperOffice.Data.SoConnection%40%2cSystem.String%40)\" data-throw-if-not-resolved=\"false\"></xref>\nto execute the query.\n"
-  remarks: "\nThis provider also handles the special case of &apos;note&apos; appointments, which are really day notes and not tied\nto a specific time (but they are not followups), for these only the text is shown.\n"
   syntax:
     content: >-
       [TooltipPlugin("SuperOffice:AppointmentTooltip", new string[]{"appointment_id"})]

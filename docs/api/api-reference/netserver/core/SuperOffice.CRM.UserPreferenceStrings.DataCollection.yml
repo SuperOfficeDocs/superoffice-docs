@@ -26,10 +26,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nData collection (usage statistics) - used for status storage and locking, not intended for user interaction\n"
   syntax:
@@ -64,10 +64,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public const string Section = "DataCollection"
@@ -92,10 +92,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.UsageStats
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWindows client usage statistics\n"
   syntax:
@@ -121,10 +121,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.WebAppUsage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSMweb, CS, Pocket usage statistics\n"
   syntax:
@@ -150,10 +150,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.DataAdd
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nData additions for specific tables\n"
   syntax:
@@ -179,10 +179,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.DataAddTables
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nData additions for specific tables: semicolon-separated list of table names; initialized from code but updated from server\n"
   syntax:
@@ -208,10 +208,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.TableSize
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nTotal table sizes\n"
   syntax:
@@ -237,10 +237,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.Configured
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPrefix for opt-in preferences, &apos;configured&apos; by user\n"
   syntax:
@@ -266,10 +266,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.Running
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPrefix for opt-in preferences, &apos;configured&apos; by user\n"
   syntax:
@@ -295,10 +295,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.Statistics
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nOpt-in preference for Statistics\n"
   syntax:
@@ -324,10 +324,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.UserSync
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nOpt-in preference for UserSync\n"
   syntax:
@@ -353,10 +353,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.CollectionUrl
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nOpt-in preference for UserSync\n"
   syntax:
@@ -382,10 +382,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.ConfiguredUserSync
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nOpt-in preference for Configured UserSync\n"
   syntax:
@@ -411,10 +411,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.ConfiguredStatistics
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nOpt-in preference for Configured Statistics\n"
   syntax:

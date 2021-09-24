@@ -243,6 +243,7 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.CRM.Rows.IdxBase,SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+  - SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
   - SuperOffice.CRM.Rows.TableRowBase.SetSaveOwner(SuperOffice.Data.INestedPersist)
   - SuperOffice.CRM.Rows.TableRowBase.Save
   - SuperOffice.CRM.Rows.TableRowBase.Delete
@@ -622,10 +623,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.SShipmentRow.Status\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: protected short _persistedStatus
+    content: protected ShipmentStatus _persistedStatus
     return:
-      type: System.Int16
-    content.vb: Protected _persistedStatus As Short
+      type: SuperOffice.Data.ShipmentStatus
+    content.vb: Protected _persistedStatus As ShipmentStatus
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1513,10 +1514,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.SShipmentRow.Status\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: protected short _currentStatus
+    content: protected ShipmentStatus _currentStatus
     return:
-      type: System.Int16
-    content.vb: Protected _currentStatus As Short
+      type: SuperOffice.Data.ShipmentStatus
+    content.vb: Protected _currentStatus As ShipmentStatus
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -3331,14 +3332,14 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: short. Sending/stopped/failed etc. \n"
+  summary: "\n.NET type: ShipmentStatus. Sending/stopped/failed etc. \n"
   remarks: "\nOriginal type in dictionary:  Enum.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
   syntax:
-    content: public virtual short Status { get; set; }
+    content: public virtual ShipmentStatus Status { get; set; }
     parameters: []
     return:
-      type: System.Int16
-    content.vb: Public Overridable Property Status As Short
+      type: SuperOffice.Data.ShipmentStatus
+    content.vb: Public Overridable Property Status As ShipmentStatus
   overload: SuperOffice.CRM.Rows.SShipmentRow.Status*
   modifiers.csharp:
   - public
@@ -4351,10 +4352,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.SShipmentRow.Status\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
   syntax:
-    content: protected event OnFieldChange<short> _onStatusChange
+    content: protected event OnFieldChange<ShipmentStatus> _onStatusChange
     return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onStatusChange As OnFieldChange(Of Short)
+      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.ShipmentStatus}
+    content.vb: Protected Event _onStatusChange As OnFieldChange(Of ShipmentStatus)
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -5215,10 +5216,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nEvent raised when Status is changing.\n"
   syntax:
-    content: public event OnFieldChange<short> OnStatusChange
+    content: public event OnFieldChange<ShipmentStatus> OnStatusChange
     return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnStatusChange As OnFieldChange(Of Short)
+      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.ShipmentStatus}
+    content.vb: Public Event OnStatusChange As OnFieldChange(Of ShipmentStatus)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -6456,6 +6457,63 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: SetDefaults(DashboardTileDefinitionRow, String)
+  nameWithType: TableRowBase.SetDefaults(DashboardTileDefinitionRow, String)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -8467,13 +8525,13 @@ references:
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
+- uid: SuperOffice.Data.ShipmentStatus
+  commentId: T:SuperOffice.Data.ShipmentStatus
+  parent: SuperOffice.Data
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  name: ShipmentStatus
+  nameWithType: ShipmentStatus
+  fullName: SuperOffice.Data.ShipmentStatus
 - uid: System.UInt32
   commentId: T:System.UInt32
   parent: System
@@ -8481,6 +8539,13 @@ references:
   name: UInt32
   nameWithType: UInt32
   fullName: System.UInt32
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.RecipientSorting
   commentId: T:SuperOffice.Data.RecipientSorting
   parent: SuperOffice.Data
@@ -9687,16 +9752,16 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+- uid: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.ShipmentStatus}
+  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.ShipmentStatus}
   parent: SuperOffice.CRM.Rows
   definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<Int16>
-  nameWithType: OnFieldChange<Int16>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.Int16>
-  nameWithType.vb: OnFieldChange(Of Int16)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.Int16)
-  name.vb: OnFieldChange(Of Int16)
+  name: OnFieldChange<ShipmentStatus>
+  nameWithType: OnFieldChange<ShipmentStatus>
+  fullName: SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.ShipmentStatus>
+  nameWithType.vb: OnFieldChange(Of ShipmentStatus)
+  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.ShipmentStatus)
+  name.vb: OnFieldChange(Of ShipmentStatus)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.OnFieldChange`1
     name: OnFieldChange
@@ -9706,10 +9771,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: System.Int16
-    name: Int16
-    nameWithType: Int16
-    fullName: System.Int16
+  - uid: SuperOffice.Data.ShipmentStatus
+    name: ShipmentStatus
+    nameWithType: ShipmentStatus
+    fullName: SuperOffice.Data.ShipmentStatus
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -9723,10 +9788,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: System.Int16
-    name: Int16
-    nameWithType: Int16
-    fullName: System.Int16
+  - uid: SuperOffice.Data.ShipmentStatus
+    name: ShipmentStatus
+    nameWithType: ShipmentStatus
+    fullName: SuperOffice.Data.ShipmentStatus
     isExternal: true
   - name: )
     nameWithType: )
@@ -9771,6 +9836,50 @@ references:
     name: UInt32
     nameWithType: UInt32
     fullName: System.UInt32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+  parent: SuperOffice.CRM.Rows
+  definition: SuperOffice.CRM.Rows.OnFieldChange`1
+  name: OnFieldChange<Int16>
+  nameWithType: OnFieldChange<Int16>
+  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.Int16>
+  nameWithType.vb: OnFieldChange(Of Int16)
+  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.Int16)
+  name.vb: OnFieldChange(Of Int16)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
+    name: OnFieldChange
+    nameWithType: OnFieldChange
+    fullName: SuperOffice.CRM.Rows.OnFieldChange
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int16
+    name: Int16
+    nameWithType: Int16
+    fullName: System.Int16
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
+    name: OnFieldChange
+    nameWithType: OnFieldChange
+    fullName: SuperOffice.CRM.Rows.OnFieldChange
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int16
+    name: Int16
+    nameWithType: Int16
+    fullName: System.Int16
     isExternal: true
   - name: )
     nameWithType: )

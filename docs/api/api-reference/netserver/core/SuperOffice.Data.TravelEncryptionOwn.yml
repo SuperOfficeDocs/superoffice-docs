@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.TravelEncryptionOwn
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValue for the encryptedComm field in travelcurrent\nThis Enum is used by:  travelcurrent.encryptedComm\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.TravelEncryptionOwn.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Received travel data are not encrypted (only ZIPed)\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.TravelEncryptionOwn.Serial
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Received travel data are encrypted using licence serial number as key\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.TravelEncryptionOwn.BF128
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Received travel data are ancrypted unsing a 128-bit key\n"
   syntax:

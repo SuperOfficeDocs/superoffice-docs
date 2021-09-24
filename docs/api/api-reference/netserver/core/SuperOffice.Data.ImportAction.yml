@@ -25,10 +25,10 @@ items:
   fullName: SuperOffice.Data.ImportAction
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nAction being done for the import row\nThis Enum consists of flag values that can be combined.\n"
   syntax:
@@ -67,10 +67,10 @@ items:
   fullName: SuperOffice.Data.ImportAction.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown\n"
   syntax:
@@ -95,10 +95,10 @@ items:
   fullName: SuperOffice.Data.ImportAction.PersonAdded
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: PersonAdded\n"
   syntax:
@@ -123,10 +123,10 @@ items:
   fullName: SuperOffice.Data.ImportAction.PersonUpdated
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: PersonUpdated\n"
   syntax:
@@ -151,10 +151,10 @@ items:
   fullName: SuperOffice.Data.ImportAction.PersonNoChange
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: PersonNoChange\n"
   syntax:
@@ -179,10 +179,10 @@ items:
   fullName: SuperOffice.Data.ImportAction.ContactAdded
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: ContactAdded\n"
   syntax:
@@ -207,10 +207,10 @@ items:
   fullName: SuperOffice.Data.ImportAction.ContactUpdated
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16: ContactUpdated\n"
   syntax:
@@ -235,10 +235,10 @@ items:
   fullName: SuperOffice.Data.ImportAction.ContactNoChange
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n32: ContactNoChange\n"
   syntax:
@@ -263,10 +263,10 @@ items:
   fullName: SuperOffice.Data.ImportAction.ProductAdded
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n64: ProductAdded\n"
   syntax:
@@ -291,10 +291,10 @@ items:
   fullName: SuperOffice.Data.ImportAction.ProductUpdated
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n128: ProductUpdated\n"
   syntax:
@@ -319,10 +319,10 @@ items:
   fullName: SuperOffice.Data.ImportAction.ProductNoChange
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n256: ProductNoChange\n"
   syntax:
@@ -347,10 +347,10 @@ items:
   fullName: SuperOffice.Data.ImportAction.Obs
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n512: Obs\n"
   syntax:
@@ -375,10 +375,10 @@ items:
   fullName: SuperOffice.Data.ImportAction.ObsERPDuplicate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1024: ObsERPDuplicate\n"
   syntax:

@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Webhooks
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nConfigure webhooks - broadcast events to remote servers.\n"
   syntax:
@@ -56,10 +56,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Webhooks.EnableWebhooks
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nBroadcast events to remote servers. Default false.\n"
   syntax:
@@ -89,10 +89,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Webhooks.RequireHttps
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nRequire webhooks target URLs use HTTPS protocol. Should only be turned off during development. Default true.\n"
   syntax:
@@ -122,10 +122,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Webhooks.ValidateHttps
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nRequire valid public HTTPS certificates. Self-signed or expired certs on webhook target URLs are refused. Should only be turned off during development. Default true.\n"
   syntax:
@@ -155,10 +155,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Webhooks.NumThreads
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nHow many background threads to run for dispatching webhooks. Default 0 = scale automatically according to demand.\n"
   syntax:
@@ -188,10 +188,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Webhooks.Timeout
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nStop background threads after X number of seconds of idle time. Default 30 seconds.\n"
   syntax:

@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.CommandAction
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCommand action\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.CommandAction.Implicit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Command should be implicitly executed.\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.CommandAction.YesNo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: The client must display a dialog with buttons Yes and No.\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.CommandAction.OkCancel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: The client must display a dialog with buttons Ok and Cancel.\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.CommandAction.Ok
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: The client must display a dialog with Ok-button\n"
   syntax:

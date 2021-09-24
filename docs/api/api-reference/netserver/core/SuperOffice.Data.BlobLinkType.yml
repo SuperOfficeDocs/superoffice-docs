@@ -30,10 +30,10 @@ items:
   fullName: SuperOffice.Data.BlobLinkType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nThe link type, often synonymous with the blob type, of a BinaryObjectLink row\nThis Enum is used by:  BinaryObjectLink.linkType\n"
   syntax:
@@ -62,10 +62,10 @@ items:
   fullName: SuperOffice.Data.BlobLinkType.PersonImage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Portrait picture of a person\n"
   syntax:
@@ -90,10 +90,10 @@ items:
   fullName: SuperOffice.Data.BlobLinkType.ProjectImage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Picture bound to a project\n"
   syntax:
@@ -118,10 +118,10 @@ items:
   fullName: SuperOffice.Data.BlobLinkType.EventImage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Picture used for a project of type Event, in the Audience client\n"
   syntax:
@@ -146,10 +146,10 @@ items:
   fullName: SuperOffice.Data.BlobLinkType.Thumbnail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Generic thumbnail - not used?\n"
   syntax:
@@ -174,10 +174,10 @@ items:
   fullName: SuperOffice.Data.BlobLinkType.StatusMonitorImage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Watermark image for a Status Monitor in Sales Intelligence\n"
   syntax:
@@ -202,10 +202,10 @@ items:
   fullName: SuperOffice.Data.BlobLinkType.BatchTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: Information related to a BatchTask in NetServer\n"
   syntax:
@@ -230,10 +230,10 @@ items:
   fullName: SuperOffice.Data.BlobLinkType.ProductImage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: Image (possibly more than one, differentiated by rank) of a Product; exactly one row should have rank=1\n"
   syntax:
@@ -258,10 +258,10 @@ items:
   fullName: SuperOffice.Data.BlobLinkType.ProductThumbnail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Thumbnail image for a product, only one allowed per product\n"
   syntax:
@@ -286,10 +286,10 @@ items:
   fullName: SuperOffice.Data.BlobLinkType.QuoteLineImage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n9: Image (possibly more than one, differentiated by rank) of a Product image for a quote line, only one allowed per quote line\n"
   syntax:
@@ -314,10 +314,10 @@ items:
   fullName: SuperOffice.Data.BlobLinkType.QuoteLineThumbnail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n10: Thumbnail image for a quote line, only one allowed per quote line\n"
   syntax:
@@ -342,10 +342,10 @@ items:
   fullName: SuperOffice.Data.BlobLinkType.AccessToken
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n11: Access Token used by Cloud Documents for accessing external services\n"
   syntax:
@@ -370,10 +370,10 @@ items:
   fullName: SuperOffice.Data.BlobLinkType.RefreshToken
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n12: Refresh Token used by Cloud Documents for accessing external services\n"
   syntax:
@@ -398,10 +398,10 @@ items:
   fullName: SuperOffice.Data.BlobLinkType.Dashboard
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n13: Dashboard\n"
   syntax:
@@ -426,10 +426,10 @@ items:
   fullName: SuperOffice.Data.BlobLinkType.DashboardTile
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n14: Dashboard tile\n"
   syntax:
@@ -454,10 +454,10 @@ items:
   fullName: SuperOffice.Data.BlobLinkType.ChatTopicImage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n15: Chat topic image\n"
   syntax:
@@ -482,10 +482,10 @@ items:
   fullName: SuperOffice.Data.BlobLinkType.FormsBackgroundImage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16: Forms background image\n"
   syntax:
@@ -510,10 +510,10 @@ items:
   fullName: SuperOffice.Data.BlobLinkType.ContactImage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n17: Contact logo image\n"
   syntax:

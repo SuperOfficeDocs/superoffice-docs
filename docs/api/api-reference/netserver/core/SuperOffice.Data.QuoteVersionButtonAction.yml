@@ -25,10 +25,10 @@ items:
   fullName: SuperOffice.Data.QuoteVersionButtonAction
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nPossible actions for QuoteVersionButton states.\n"
   syntax:
@@ -57,10 +57,10 @@ items:
   fullName: SuperOffice.Data.QuoteVersionButtonAction.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: No action\n"
   syntax:
@@ -85,10 +85,10 @@ items:
   fullName: SuperOffice.Data.QuoteVersionButtonAction.ValidateVersion
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Validate the quote version.\n"
   syntax:
@@ -113,10 +113,10 @@ items:
   fullName: SuperOffice.Data.QuoteVersionButtonAction.Edit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Edit the quote version.\n"
   syntax:
@@ -141,10 +141,10 @@ items:
   fullName: SuperOffice.Data.QuoteVersionButtonAction.Send
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Send the quote version.\n"
   syntax:
@@ -169,10 +169,10 @@ items:
   fullName: SuperOffice.Data.QuoteVersionButtonAction.Approve
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Approve the quote version.\n"
   syntax:
@@ -197,10 +197,10 @@ items:
   fullName: SuperOffice.Data.QuoteVersionButtonAction.Reject
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Reject the quote version.\n"
   syntax:
@@ -225,10 +225,10 @@ items:
   fullName: SuperOffice.Data.QuoteVersionButtonAction.ValidateVersionAndSendIfPossible
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: Validate the quote version and send if possible.\n"
   syntax:
@@ -253,10 +253,10 @@ items:
   fullName: SuperOffice.Data.QuoteVersionButtonAction.ValidateVersionAndPlaceOrderIfPossible
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Validate the quote version and place the order if possible.\n"
   syntax:
@@ -281,10 +281,10 @@ items:
   fullName: SuperOffice.Data.QuoteVersionButtonAction.CloneVersion
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n9: Make a copy of the quote version.\n"
   syntax:
@@ -309,10 +309,10 @@ items:
   fullName: SuperOffice.Data.QuoteVersionButtonAction.SendConfirmation
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n10: Send confirmation.\n"
   syntax:
@@ -337,10 +337,10 @@ items:
   fullName: SuperOffice.Data.QuoteVersionButtonAction.GetOrderState
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n11: Fetch updated values from the ERP system and show the results in the dialog.\n"
   syntax:
@@ -365,10 +365,10 @@ items:
   fullName: SuperOffice.Data.QuoteVersionButtonAction.UpdatePrices
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n12: Ask the quote connector to update the prices for the entire version.\n"
   syntax:

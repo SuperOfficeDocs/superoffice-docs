@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.CRM.NextMilestonePluginAttribute
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: 'public class NextMilestonePluginAttribute : PrioritizedPluginAttribute, _Attribute'
@@ -101,10 +101,10 @@ items:
   fullName: SuperOffice.CRM.NextMilestonePluginAttribute.NextMilestonePluginAttribute(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nThis class implements the next due date algorithm\n"
   syntax:
@@ -131,10 +131,10 @@ items:
   fullName: SuperOffice.CRM.NextMilestonePluginAttribute.NextMilestonePluginAttribute(System.String, System.Int32)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nThis class implements the next due date algorithm, with an explicit priority\n"
   syntax:

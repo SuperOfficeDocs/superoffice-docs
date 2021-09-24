@@ -7,7 +7,7 @@ items:
   children:
   - SuperOffice.Events.IGlobalApplicationEventsPlugin.Application_End(System.Web.HttpApplication,System.Object,System.EventArgs)
   - SuperOffice.Events.IGlobalApplicationEventsPlugin.Application_Error(System.Web.HttpApplication,System.Object,System.EventArgs)
-  - SuperOffice.Events.IGlobalApplicationEventsPlugin.Application_Start(System.Web.HttpApplication,System.Object,System.EventArgs)
+  - SuperOffice.Events.IGlobalApplicationEventsPlugin.Application_Start(System.Web.HttpApplication,System.Object,System.EventArgs,System.String)
   langs:
   - csharp
   - vb
@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Events.IGlobalApplicationEventsPlugin
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Events
   summary: "\nImplement interface to handle global application events\n"
   syntax:
@@ -36,26 +36,26 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.Events.IGlobalApplicationEventsPlugin.Application_Start(System.Web.HttpApplication,System.Object,System.EventArgs)
-  commentId: M:SuperOffice.Events.IGlobalApplicationEventsPlugin.Application_Start(System.Web.HttpApplication,System.Object,System.EventArgs)
-  id: Application_Start(System.Web.HttpApplication,System.Object,System.EventArgs)
+- uid: SuperOffice.Events.IGlobalApplicationEventsPlugin.Application_Start(System.Web.HttpApplication,System.Object,System.EventArgs,System.String)
+  commentId: M:SuperOffice.Events.IGlobalApplicationEventsPlugin.Application_Start(System.Web.HttpApplication,System.Object,System.EventArgs,System.String)
+  id: Application_Start(System.Web.HttpApplication,System.Object,System.EventArgs,System.String)
   parent: SuperOffice.Events.IGlobalApplicationEventsPlugin
   langs:
   - csharp
   - vb
-  name: Application_Start(HttpApplication, Object, EventArgs)
-  nameWithType: IGlobalApplicationEventsPlugin.Application_Start(HttpApplication, Object, EventArgs)
-  fullName: SuperOffice.Events.IGlobalApplicationEventsPlugin.Application_Start(System.Web.HttpApplication, System.Object, System.EventArgs)
+  name: Application_Start(HttpApplication, Object, EventArgs, String)
+  nameWithType: IGlobalApplicationEventsPlugin.Application_Start(HttpApplication, Object, EventArgs, String)
+  fullName: SuperOffice.Events.IGlobalApplicationEventsPlugin.Application_Start(System.Web.HttpApplication, System.Object, System.EventArgs, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Events
   summary: "\nHandle Application_start from global.asax\n"
   syntax:
-    content: void Application_Start(HttpApplication application, object sender, EventArgs e)
+    content: void Application_Start(HttpApplication application, object sender, EventArgs e, string cloudRoleName)
     parameters:
     - id: application
       type: System.Web.HttpApplication
@@ -64,7 +64,10 @@ items:
       type: System.Object
     - id: e
       type: System.EventArgs
-    content.vb: Sub Application_Start(application As HttpApplication, sender As Object, e As EventArgs)
+    - id: cloudRoleName
+      type: System.String
+      description: Application or cloud role name
+    content.vb: Sub Application_Start(application As HttpApplication, sender As Object, e As EventArgs, cloudRoleName As String)
   overload: SuperOffice.Events.IGlobalApplicationEventsPlugin.Application_Start*
 - uid: SuperOffice.Events.IGlobalApplicationEventsPlugin.Application_Error(System.Web.HttpApplication,System.Object,System.EventArgs)
   commentId: M:SuperOffice.Events.IGlobalApplicationEventsPlugin.Application_Error(System.Web.HttpApplication,System.Object,System.EventArgs)
@@ -78,10 +81,10 @@ items:
   fullName: SuperOffice.Events.IGlobalApplicationEventsPlugin.Application_Error(System.Web.HttpApplication, System.Object, System.EventArgs)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Events
   summary: "\nHandle Application_Error from global.asax\n"
   syntax:
@@ -108,10 +111,10 @@ items:
   fullName: SuperOffice.Events.IGlobalApplicationEventsPlugin.Application_End(System.Web.HttpApplication, System.Object, System.EventArgs)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Events
   summary: "\nHandle Application_End from global.asax\n"
   syntax:
@@ -323,6 +326,13 @@ references:
   name: EventArgs
   nameWithType: EventArgs
   fullName: System.EventArgs
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System
   commentId: N:System
   isExternal: true

@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.CRM.Lists.IMenuListItem
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nInterface for an MDO list item in a list for building menus\n"
   syntax:
@@ -60,10 +60,10 @@ items:
   fullName: SuperOffice.CRM.Lists.IMenuListItem.Url
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nGet a url for the MenuListItem. It is usually a soprotocol url.\n"
   syntax:
@@ -89,10 +89,10 @@ items:
   fullName: SuperOffice.CRM.Lists.IMenuListItem.CrudFlags
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nGets a flag indicating the operation the item is set to perform.\nIt is a combination of these characters: CRUD\n"
   syntax:
@@ -118,10 +118,10 @@ items:
   fullName: SuperOffice.CRM.Lists.IMenuListItem.SubItems
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nA menu item can have subitems\n"
   syntax:

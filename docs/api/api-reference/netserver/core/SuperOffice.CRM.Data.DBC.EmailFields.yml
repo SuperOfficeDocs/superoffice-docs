@@ -13,6 +13,8 @@ items:
   - SuperOffice.CRM.Data.DBC.EmailFields.EmailAddress
   - SuperOffice.CRM.Data.DBC.EmailFields.EmailId
   - SuperOffice.CRM.Data.DBC.EmailFields.LastBounce
+  - SuperOffice.CRM.Data.DBC.EmailFields.LastBounceCode
+  - SuperOffice.CRM.Data.DBC.EmailFields.LastBounceReason
   - SuperOffice.CRM.Data.DBC.EmailFields.LastSent
   - SuperOffice.CRM.Data.DBC.EmailFields.PersonId
   - SuperOffice.CRM.Data.DBC.EmailFields.ProjectId
@@ -663,6 +665,64 @@ items:
     return:
       type: System.String
     content.vb: Public Const AppointmentId As String = "appointment_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFields.LastBounceCode
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFields.LastBounceCode
+  id: LastBounceCode
+  parent: SuperOffice.CRM.Data.DBC.EmailFields
+  langs:
+  - csharp
+  - vb
+  name: LastBounceCode
+  nameWithType: DBC.EmailFields.LastBounceCode
+  fullName: SuperOffice.CRM.Data.DBC.EmailFields.LastBounceCode
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmail.LastBounceCode: If this email address has bounced and we have a bounce code, this field will contain the code for the last bounce\n"
+  syntax:
+    content: public const string LastBounceCode = "lastBounceCode"
+    return:
+      type: System.String
+    content.vb: Public Const LastBounceCode As String = "lastBounceCode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFields.LastBounceReason
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFields.LastBounceReason
+  id: LastBounceReason
+  parent: SuperOffice.CRM.Data.DBC.EmailFields
+  langs:
+  - csharp
+  - vb
+  name: LastBounceReason
+  nameWithType: DBC.EmailFields.LastBounceReason
+  fullName: SuperOffice.CRM.Data.DBC.EmailFields.LastBounceReason
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmail.LastBounceReason: If this email address has bounced and we have a bounce reason, this field will contain the reason for the last bounce\n"
+  syntax:
+    content: public const string LastBounceReason = "lastBounceReason"
+    return:
+      type: System.String
+    content.vb: Public Const LastBounceReason As String = "lastBounceReason"
   modifiers.csharp:
   - public
   - const

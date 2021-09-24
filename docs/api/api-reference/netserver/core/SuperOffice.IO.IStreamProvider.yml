@@ -20,10 +20,10 @@ items:
   fullName: SuperOffice.IO.IStreamProvider
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nInterface for the <see cref=\"!:DocumentStream\"></see> to access the archive.\n"
   syntax:
@@ -50,10 +50,10 @@ items:
   fullName: SuperOffice.IO.IStreamProvider.BeginWrite()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nStart writing the document file.\n"
   remarks: "\nUse the <xref href=\"SuperOffice.IO.IStreamProvider.Write(System.Int64%2cSystem.Byte%5b%5d%2cSystem.Int32%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref> method to write data to the file.  \nAs data might be written to a temporary location, the <xref href=\"SuperOffice.IO.IStreamProvider.EndWrite\" data-throw-if-not-resolved=\"false\"></xref> \nwill archive the document to the document archive.\n"
@@ -73,10 +73,10 @@ items:
   fullName: SuperOffice.IO.IStreamProvider.Write(System.Int64, System.Byte[], System.Int32, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrite a block of data to a file.\n"
   remarks: "\n<xref href=\"SuperOffice.IO.IStreamProvider.BeginWrite\" data-throw-if-not-resolved=\"false\"></xref> must be called before this method.  It is not \nrequred that <xref href=\"SuperOffice.IO.IStreamProvider.BeginWrite\" data-throw-if-not-resolved=\"false\"></xref> is called within the scope of \nthis method.  It is required that it is called on bahalf of the same \nuser and on the same document and that either this method or \n<xref href=\"SuperOffice.IO.IStreamProvider.BeginWrite\" data-throw-if-not-resolved=\"false\"></xref> is called during the last time period specified \nin the configuration.  Default time period is 24 hours.\n"
@@ -112,10 +112,10 @@ items:
   fullName: SuperOffice.IO.IStreamProvider.EndWrite()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nSpecify that the writing of the document is completed and that \nthe document can be archived in the document archive.\n"
   syntax:
@@ -134,10 +134,10 @@ items:
   fullName: SuperOffice.IO.IStreamProvider.BeginRead()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nStart reading the document.  \n"
   remarks: "\nRead bytes from the document using the <xref href=\"SuperOffice.IO.IStreamProvider.Read(System.Int64%2cSystem.Byte%5b%5d%2cSystem.Int32%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref> method.  \nCall the <xref href=\"SuperOffice.IO.IStreamProvider.EndRead\" data-throw-if-not-resolved=\"false\"></xref> method to specify that you are \nfinished reading the document.\n"
@@ -157,10 +157,10 @@ items:
   fullName: SuperOffice.IO.IStreamProvider.Read(System.Int64, System.Byte[], System.Int32, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nRead data from the document\n"
   remarks: "\n<xref href=\"SuperOffice.IO.IStreamProvider.BeginRead\" data-throw-if-not-resolved=\"false\"></xref> must be called before this method.  It is not \nrequred that <xref href=\"SuperOffice.IO.IStreamProvider.BeginRead\" data-throw-if-not-resolved=\"false\"></xref> is called within the scope of \nthis method.  It is required that it is called on bahalf of the same \nuser and on the same document and that either this method or \n<xref href=\"SuperOffice.IO.IStreamProvider.BeginRead\" data-throw-if-not-resolved=\"false\"></xref> is called during the last time period specified \nin the configuration.  Default time period is 24 hours.\n"
@@ -199,10 +199,10 @@ items:
   fullName: SuperOffice.IO.IStreamProvider.EndRead()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nExpress that you are finished reading the file.  If the file is read from \na temporary location, it will be removed from it.\n"
   syntax:
@@ -221,10 +221,10 @@ items:
   fullName: SuperOffice.IO.IStreamProvider.Length
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nLength (in bytes) of the document.\n"
   syntax:

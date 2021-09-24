@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Data.FreeBusy
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nWhat kind of time is this: 0 = Busy, 1 = Free\nThis Enum is used by:  appointment.freeBusy; Task.defaultFreeBusy\n"
   syntax:
@@ -47,10 +47,10 @@ items:
   fullName: SuperOffice.Data.FreeBusy.Busy
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: \n"
   syntax:
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.Data.FreeBusy.Free
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: \n"
   syntax:

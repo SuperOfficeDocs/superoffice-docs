@@ -5,7 +5,7 @@ items:
   id: SLinkCustomerStaticalRows.IdxLinkType
   parent: SuperOffice.CRM.Rows
   children:
-  - SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.IdxLinkType.#ctor(System.Int16)
+  - SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.IdxLinkType.#ctor(SuperOffice.Data.ShipmentLinkType)
   - SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.IdxLinkType.InnerRestriction
   - SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.IdxLinkType.LinkType
   - SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.IdxLinkType.UpdateRow(SuperOffice.CRM.Rows.TableRowBase)
@@ -107,16 +107,16 @@ items:
   - Public
   - NotInheritable
   - Class
-- uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.IdxLinkType.#ctor(System.Int16)
-  commentId: M:SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.IdxLinkType.#ctor(System.Int16)
-  id: '#ctor(System.Int16)'
+- uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.IdxLinkType.#ctor(SuperOffice.Data.ShipmentLinkType)
+  commentId: M:SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.IdxLinkType.#ctor(SuperOffice.Data.ShipmentLinkType)
+  id: '#ctor(SuperOffice.Data.ShipmentLinkType)'
   parent: SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.IdxLinkType
   langs:
   - csharp
   - vb
-  name: IdxLinkType(Int16)
-  nameWithType: SLinkCustomerStaticalRows.IdxLinkType.IdxLinkType(Int16)
-  fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.IdxLinkType.IdxLinkType(System.Int16)
+  name: IdxLinkType(ShipmentLinkType)
+  nameWithType: SLinkCustomerStaticalRows.IdxLinkType.IdxLinkType(ShipmentLinkType)
+  fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.IdxLinkType.IdxLinkType(SuperOffice.Data.ShipmentLinkType)
   type: Constructor
   source:
     path: SoDataBase
@@ -126,11 +126,11 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nConstructor for class SLinkCustomerStaticalRows.IdxLinkType\nThis class represents index &apos;IDXS_link_customer_staticalLink_type&apos;.\n"
   syntax:
-    content: public IdxLinkType(short linkType)
+    content: public IdxLinkType(ShipmentLinkType linkType)
     parameters:
     - id: linkType
-      type: System.Int16
-    content.vb: Public Sub New(linkType As Short)
+      type: SuperOffice.Data.ShipmentLinkType
+    content.vb: Public Sub New(linkType As ShipmentLinkType)
   overload: SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.IdxLinkType.#ctor*
   modifiers.csharp:
   - public
@@ -188,11 +188,11 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nIf this is a link to a link or an image (gif/jpeg). See SpmLink::LinkType\n"
   syntax:
-    content: public short LinkType { get; set; }
+    content: public ShipmentLinkType LinkType { get; set; }
     parameters: []
     return:
-      type: System.Int16
-    content.vb: Public Property LinkType As Short
+      type: SuperOffice.Data.ShipmentLinkType
+    content.vb: Public Property LinkType As ShipmentLinkType
   overload: SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.IdxLinkType.LinkType*
   modifiers.csharp:
   - public
@@ -2269,13 +2269,13 @@ references:
   name: IdxLinkType
   nameWithType: SLinkCustomerStaticalRows.IdxLinkType.IdxLinkType
   fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.IdxLinkType.IdxLinkType
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
+- uid: SuperOffice.Data.ShipmentLinkType
+  commentId: T:SuperOffice.Data.ShipmentLinkType
+  parent: SuperOffice.Data
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  name: ShipmentLinkType
+  nameWithType: ShipmentLinkType
+  fullName: SuperOffice.Data.ShipmentLinkType
 - uid: SuperOffice.CRM.Rows.IdxBase.UpdateRow(SuperOffice.CRM.Rows.TableRowBase)
   commentId: M:SuperOffice.CRM.Rows.IdxBase.UpdateRow(SuperOffice.CRM.Rows.TableRowBase)
   parent: SuperOffice.CRM.Rows.IdxBase

@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DbOptimizations
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nBoss mod preferences for database-dependent special optimizations\n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DbOptimizations.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection name\n"
   syntax:
@@ -83,10 +83,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DbOptimizations.ActivateSearchText
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nActivate query rewriting to use the searchText field of the text table (not in dictionary)\n"
   syntax:
@@ -112,10 +112,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DbOptimizations.ActivateAVFJoin
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nActivate query rewriting to use the appointment_id field of the visiblefor table (not in dictionary)\n"
   syntax:

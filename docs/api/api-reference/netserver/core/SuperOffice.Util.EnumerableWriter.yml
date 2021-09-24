@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Util.EnumerableWriter
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nClass which provides the ability to write to a provided enumerable of many kinds.\nInstances should be created through <xref href=\"SuperOffice.Util.EnumerableWriter.CreateFor(System.Type)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
@@ -58,10 +58,10 @@ items:
   fullName: SuperOffice.Util.EnumerableWriter.CreateFor(System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nCreates an EnumerableWriter for the specified type and attempts to detect the type it enumerates over.\n"
   syntax:
@@ -93,10 +93,10 @@ items:
   fullName: SuperOffice.Util.EnumerableWriter.Write(System.Collections.IEnumerable, System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nTakes an instance of an enumerable and adds data to it.\nThe returned value may be the same instance modified, or it may be a new intance.\n"
   syntax:
@@ -131,10 +131,10 @@ items:
   fullName: SuperOffice.Util.EnumerableWriter.EnumerableWriter()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: protected EnumerableWriter()

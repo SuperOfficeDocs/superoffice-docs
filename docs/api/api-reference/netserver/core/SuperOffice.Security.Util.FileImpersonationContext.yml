@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Security.Util.FileImpersonationContext
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nHelper class for impersonation, suitable for the &apos;using&apos; keyword.\n"
   example:
@@ -63,10 +63,10 @@ items:
   fullName: SuperOffice.Security.Util.FileImpersonationContext.FileImpersonationContext(System.String, System.String, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nImpersonate the user during construction; disposal causes undo\n"
   syntax:
@@ -96,10 +96,10 @@ items:
   fullName: SuperOffice.Security.Util.FileImpersonationContext.FileImpersonationContext(System.Security.Principal.WindowsIdentity)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   syntax:
     content: public FileImpersonationContext(WindowsIdentity identity)
@@ -124,10 +124,10 @@ items:
   fullName: SuperOffice.Security.Util.FileImpersonationContext.Dispose()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nRevert any impersonation\n"
   syntax:
@@ -152,10 +152,10 @@ items:
   fullName: SuperOffice.Security.Util.FileImpersonationContext.ImpersonateRootIdentity()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nImpersonate the user that is running NetServer - i.e. override any imersonations performed by oters using NetServer&apos;s impersonation contexts-\n"
   syntax:

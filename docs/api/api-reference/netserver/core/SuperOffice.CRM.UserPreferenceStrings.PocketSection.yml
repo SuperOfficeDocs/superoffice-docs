@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.PocketSection
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreferences for Pocket client. \n"
   syntax:
@@ -55,10 +55,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.PocketSection.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreference section name for Pocket client specific settings, including web panels defined in Pocket client\n"
   syntax:
@@ -84,10 +84,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.PocketSection.DisableAutoLogin
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPrevent Pocket CRM client from logging in automatically on startup. Default = No.\n"
   syntax:
@@ -113,10 +113,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.PocketSection.AutoLogoutTime
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nTime in minutes the application can be kept idle in the background before an automatically logout is performed. \nDefault value = 0, means no timeout.&quot;\n"
   syntax:
@@ -142,10 +142,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.PocketSection.LastLoggedIn
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nLast logged in to pocket\n"
   syntax:

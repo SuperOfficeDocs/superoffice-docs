@@ -1,0 +1,1440 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Permissions.SoSentryOverridePermission
+  commentId: T:SuperOffice.Security.Permissions.SoSentryOverridePermission
+  id: SoSentryOverridePermission
+  parent: SuperOffice.Security.Permissions
+  children:
+  - SuperOffice.Security.Permissions.SoSentryOverridePermission.#ctor(System.Int32,System.Int32)
+  - SuperOffice.Security.Permissions.SoSentryOverridePermission.#ctor(System.Security.Permissions.PermissionState)
+  - SuperOffice.Security.Permissions.SoSentryOverridePermission.Copy
+  - SuperOffice.Security.Permissions.SoSentryOverridePermission.FromXml(System.Security.SecurityElement)
+  - SuperOffice.Security.Permissions.SoSentryOverridePermission.Intersect(System.Security.IPermission)
+  - SuperOffice.Security.Permissions.SoSentryOverridePermission.IsSubsetOf(System.Security.IPermission)
+  - SuperOffice.Security.Permissions.SoSentryOverridePermission.IsUnrestricted
+  - SuperOffice.Security.Permissions.SoSentryOverridePermission.ToXml
+  - SuperOffice.Security.Permissions.SoSentryOverridePermission.Union(System.Security.IPermission)
+  langs:
+  - csharp
+  - vb
+  name: SoSentryOverridePermission
+  nameWithType: SoSentryOverridePermission
+  fullName: SuperOffice.Security.Permissions.SoSentryOverridePermission
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Permissions
+  summary: "\nPermission used by HDB objects to tell the sentry that \nthey don&apos;t need to complain that the access rights are being violated.\nUsed during the initalization of HDB row objects from an index.\n"
+  syntax:
+    content: 'public sealed class SoSentryOverridePermission : CodeAccessPermission, IPermission, ISecurityEncodable, IStackWalk, IUnrestrictedPermission'
+    content.vb: >-
+      Public NotInheritable Class SoSentryOverridePermission
+          Inherits CodeAccessPermission
+          Implements IPermission, ISecurityEncodable, IStackWalk, IUnrestrictedPermission
+  inheritance:
+  - System.Object
+  - System.Security.CodeAccessPermission
+  implements:
+  - System.Security.IPermission
+  - System.Security.ISecurityEncodable
+  - System.Security.IStackWalk
+  - System.Security.Permissions.IUnrestrictedPermission
+  inheritedMembers:
+  - System.Security.CodeAccessPermission.RevertAssert
+  - System.Security.CodeAccessPermission.RevertDeny
+  - System.Security.CodeAccessPermission.RevertPermitOnly
+  - System.Security.CodeAccessPermission.RevertAll
+  - System.Security.CodeAccessPermission.Demand
+  - System.Security.CodeAccessPermission.Assert
+  - System.Security.CodeAccessPermission.Deny
+  - System.Security.CodeAccessPermission.PermitOnly
+  - System.Security.CodeAccessPermission.ToString
+  - System.Security.CodeAccessPermission.Equals(System.Object)
+  - System.Security.CodeAccessPermission.GetHashCode
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Security.Permissions.SoSentryOverridePermission.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Permissions.SoSentryOverridePermission.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Security.Permissions.SoSentryOverridePermission.#ctor(System.Security.Permissions.PermissionState)
+  commentId: M:SuperOffice.Security.Permissions.SoSentryOverridePermission.#ctor(System.Security.Permissions.PermissionState)
+  id: '#ctor(System.Security.Permissions.PermissionState)'
+  parent: SuperOffice.Security.Permissions.SoSentryOverridePermission
+  langs:
+  - csharp
+  - vb
+  name: SoSentryOverridePermission(PermissionState)
+  nameWithType: SoSentryOverridePermission.SoSentryOverridePermission(PermissionState)
+  fullName: SuperOffice.Security.Permissions.SoSentryOverridePermission.SoSentryOverridePermission(System.Security.Permissions.PermissionState)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Permissions
+  syntax:
+    content: public SoSentryOverridePermission(PermissionState state)
+    parameters:
+    - id: state
+      type: System.Security.Permissions.PermissionState
+    content.vb: Public Sub New(state As PermissionState)
+  overload: SuperOffice.Security.Permissions.SoSentryOverridePermission.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Permissions.SoSentryOverridePermission.#ctor(System.Int32,System.Int32)
+  commentId: M:SuperOffice.Security.Permissions.SoSentryOverridePermission.#ctor(System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32)'
+  parent: SuperOffice.Security.Permissions.SoSentryOverridePermission
+  langs:
+  - csharp
+  - vb
+  name: SoSentryOverridePermission(Int32, Int32)
+  nameWithType: SoSentryOverridePermission.SoSentryOverridePermission(Int32, Int32)
+  fullName: SuperOffice.Security.Permissions.SoSentryOverridePermission.SoSentryOverridePermission(System.Int32, System.Int32)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Permissions
+  syntax:
+    content: public SoSentryOverridePermission(int tableId, int rowId)
+    parameters:
+    - id: tableId
+      type: System.Int32
+    - id: rowId
+      type: System.Int32
+    content.vb: Public Sub New(tableId As Integer, rowId As Integer)
+  overload: SuperOffice.Security.Permissions.SoSentryOverridePermission.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Permissions.SoSentryOverridePermission.IsUnrestricted
+  commentId: M:SuperOffice.Security.Permissions.SoSentryOverridePermission.IsUnrestricted
+  id: IsUnrestricted
+  parent: SuperOffice.Security.Permissions.SoSentryOverridePermission
+  langs:
+  - csharp
+  - vb
+  name: IsUnrestricted()
+  nameWithType: SoSentryOverridePermission.IsUnrestricted()
+  fullName: SuperOffice.Security.Permissions.SoSentryOverridePermission.IsUnrestricted()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Permissions
+  syntax:
+    content: public bool IsUnrestricted()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsUnrestricted As Boolean
+  overload: SuperOffice.Security.Permissions.SoSentryOverridePermission.IsUnrestricted*
+  implements:
+  - System.Security.Permissions.IUnrestrictedPermission.IsUnrestricted
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Permissions.SoSentryOverridePermission.Copy
+  commentId: M:SuperOffice.Security.Permissions.SoSentryOverridePermission.Copy
+  id: Copy
+  parent: SuperOffice.Security.Permissions.SoSentryOverridePermission
+  langs:
+  - csharp
+  - vb
+  name: Copy()
+  nameWithType: SoSentryOverridePermission.Copy()
+  fullName: SuperOffice.Security.Permissions.SoSentryOverridePermission.Copy()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Permissions
+  syntax:
+    content: public override IPermission Copy()
+    return:
+      type: System.Security.IPermission
+    content.vb: Public Overrides Function Copy As IPermission
+  overridden: System.Security.CodeAccessPermission.Copy
+  overload: SuperOffice.Security.Permissions.SoSentryOverridePermission.Copy*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Security.Permissions.SoSentryOverridePermission.Intersect(System.Security.IPermission)
+  commentId: M:SuperOffice.Security.Permissions.SoSentryOverridePermission.Intersect(System.Security.IPermission)
+  id: Intersect(System.Security.IPermission)
+  parent: SuperOffice.Security.Permissions.SoSentryOverridePermission
+  langs:
+  - csharp
+  - vb
+  name: Intersect(IPermission)
+  nameWithType: SoSentryOverridePermission.Intersect(IPermission)
+  fullName: SuperOffice.Security.Permissions.SoSentryOverridePermission.Intersect(System.Security.IPermission)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Permissions
+  syntax:
+    content: public override IPermission Intersect(IPermission target)
+    parameters:
+    - id: target
+      type: System.Security.IPermission
+    return:
+      type: System.Security.IPermission
+    content.vb: Public Overrides Function Intersect(target As IPermission) As IPermission
+  overridden: System.Security.CodeAccessPermission.Intersect(System.Security.IPermission)
+  overload: SuperOffice.Security.Permissions.SoSentryOverridePermission.Intersect*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Security.Permissions.SoSentryOverridePermission.Union(System.Security.IPermission)
+  commentId: M:SuperOffice.Security.Permissions.SoSentryOverridePermission.Union(System.Security.IPermission)
+  id: Union(System.Security.IPermission)
+  parent: SuperOffice.Security.Permissions.SoSentryOverridePermission
+  langs:
+  - csharp
+  - vb
+  name: Union(IPermission)
+  nameWithType: SoSentryOverridePermission.Union(IPermission)
+  fullName: SuperOffice.Security.Permissions.SoSentryOverridePermission.Union(System.Security.IPermission)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Permissions
+  syntax:
+    content: public override IPermission Union(IPermission target)
+    parameters:
+    - id: target
+      type: System.Security.IPermission
+    return:
+      type: System.Security.IPermission
+    content.vb: Public Overrides Function Union(target As IPermission) As IPermission
+  overridden: System.Security.CodeAccessPermission.Union(System.Security.IPermission)
+  overload: SuperOffice.Security.Permissions.SoSentryOverridePermission.Union*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Security.Permissions.SoSentryOverridePermission.IsSubsetOf(System.Security.IPermission)
+  commentId: M:SuperOffice.Security.Permissions.SoSentryOverridePermission.IsSubsetOf(System.Security.IPermission)
+  id: IsSubsetOf(System.Security.IPermission)
+  parent: SuperOffice.Security.Permissions.SoSentryOverridePermission
+  langs:
+  - csharp
+  - vb
+  name: IsSubsetOf(IPermission)
+  nameWithType: SoSentryOverridePermission.IsSubsetOf(IPermission)
+  fullName: SuperOffice.Security.Permissions.SoSentryOverridePermission.IsSubsetOf(System.Security.IPermission)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Permissions
+  syntax:
+    content: public override bool IsSubsetOf(IPermission target)
+    parameters:
+    - id: target
+      type: System.Security.IPermission
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function IsSubsetOf(target As IPermission) As Boolean
+  overridden: System.Security.CodeAccessPermission.IsSubsetOf(System.Security.IPermission)
+  overload: SuperOffice.Security.Permissions.SoSentryOverridePermission.IsSubsetOf*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Security.Permissions.SoSentryOverridePermission.FromXml(System.Security.SecurityElement)
+  commentId: M:SuperOffice.Security.Permissions.SoSentryOverridePermission.FromXml(System.Security.SecurityElement)
+  id: FromXml(System.Security.SecurityElement)
+  parent: SuperOffice.Security.Permissions.SoSentryOverridePermission
+  langs:
+  - csharp
+  - vb
+  name: FromXml(SecurityElement)
+  nameWithType: SoSentryOverridePermission.FromXml(SecurityElement)
+  fullName: SuperOffice.Security.Permissions.SoSentryOverridePermission.FromXml(System.Security.SecurityElement)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Permissions
+  syntax:
+    content: public override void FromXml(SecurityElement elem)
+    parameters:
+    - id: elem
+      type: System.Security.SecurityElement
+    content.vb: Public Overrides Sub FromXml(elem As SecurityElement)
+  overridden: System.Security.CodeAccessPermission.FromXml(System.Security.SecurityElement)
+  overload: SuperOffice.Security.Permissions.SoSentryOverridePermission.FromXml*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Security.Permissions.SoSentryOverridePermission.ToXml
+  commentId: M:SuperOffice.Security.Permissions.SoSentryOverridePermission.ToXml
+  id: ToXml
+  parent: SuperOffice.Security.Permissions.SoSentryOverridePermission
+  langs:
+  - csharp
+  - vb
+  name: ToXml()
+  nameWithType: SoSentryOverridePermission.ToXml()
+  fullName: SuperOffice.Security.Permissions.SoSentryOverridePermission.ToXml()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Permissions
+  syntax:
+    content: public override SecurityElement ToXml()
+    return:
+      type: System.Security.SecurityElement
+    content.vb: Public Overrides Function ToXml As SecurityElement
+  overridden: System.Security.CodeAccessPermission.ToXml
+  overload: SuperOffice.Security.Permissions.SoSentryOverridePermission.ToXml*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: SuperOffice.Security.Permissions
+  commentId: N:SuperOffice.Security.Permissions
+  isExternal: true
+  name: SuperOffice.Security.Permissions
+  nameWithType: SuperOffice.Security.Permissions
+  fullName: SuperOffice.Security.Permissions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Security.CodeAccessPermission
+  commentId: T:System.Security.CodeAccessPermission
+  parent: System.Security
+  isExternal: true
+  name: CodeAccessPermission
+  nameWithType: CodeAccessPermission
+  fullName: System.Security.CodeAccessPermission
+- uid: System.Security.IPermission
+  commentId: T:System.Security.IPermission
+  parent: System.Security
+  isExternal: true
+  name: IPermission
+  nameWithType: IPermission
+  fullName: System.Security.IPermission
+- uid: System.Security.ISecurityEncodable
+  commentId: T:System.Security.ISecurityEncodable
+  parent: System.Security
+  isExternal: true
+  name: ISecurityEncodable
+  nameWithType: ISecurityEncodable
+  fullName: System.Security.ISecurityEncodable
+- uid: System.Security.IStackWalk
+  commentId: T:System.Security.IStackWalk
+  parent: System.Security
+  isExternal: true
+  name: IStackWalk
+  nameWithType: IStackWalk
+  fullName: System.Security.IStackWalk
+- uid: System.Security.Permissions.IUnrestrictedPermission
+  commentId: T:System.Security.Permissions.IUnrestrictedPermission
+  parent: System.Security.Permissions
+  isExternal: true
+  name: IUnrestrictedPermission
+  nameWithType: IUnrestrictedPermission
+  fullName: System.Security.Permissions.IUnrestrictedPermission
+- uid: System.Security.CodeAccessPermission.RevertAssert
+  commentId: M:System.Security.CodeAccessPermission.RevertAssert
+  parent: System.Security.CodeAccessPermission
+  isExternal: true
+  name: RevertAssert()
+  nameWithType: CodeAccessPermission.RevertAssert()
+  fullName: System.Security.CodeAccessPermission.RevertAssert()
+  spec.csharp:
+  - uid: System.Security.CodeAccessPermission.RevertAssert
+    name: RevertAssert
+    nameWithType: CodeAccessPermission.RevertAssert
+    fullName: System.Security.CodeAccessPermission.RevertAssert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.CodeAccessPermission.RevertAssert
+    name: RevertAssert
+    nameWithType: CodeAccessPermission.RevertAssert
+    fullName: System.Security.CodeAccessPermission.RevertAssert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Security.CodeAccessPermission.RevertDeny
+  commentId: M:System.Security.CodeAccessPermission.RevertDeny
+  parent: System.Security.CodeAccessPermission
+  isExternal: true
+  name: RevertDeny()
+  nameWithType: CodeAccessPermission.RevertDeny()
+  fullName: System.Security.CodeAccessPermission.RevertDeny()
+  spec.csharp:
+  - uid: System.Security.CodeAccessPermission.RevertDeny
+    name: RevertDeny
+    nameWithType: CodeAccessPermission.RevertDeny
+    fullName: System.Security.CodeAccessPermission.RevertDeny
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.CodeAccessPermission.RevertDeny
+    name: RevertDeny
+    nameWithType: CodeAccessPermission.RevertDeny
+    fullName: System.Security.CodeAccessPermission.RevertDeny
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Security.CodeAccessPermission.RevertPermitOnly
+  commentId: M:System.Security.CodeAccessPermission.RevertPermitOnly
+  parent: System.Security.CodeAccessPermission
+  isExternal: true
+  name: RevertPermitOnly()
+  nameWithType: CodeAccessPermission.RevertPermitOnly()
+  fullName: System.Security.CodeAccessPermission.RevertPermitOnly()
+  spec.csharp:
+  - uid: System.Security.CodeAccessPermission.RevertPermitOnly
+    name: RevertPermitOnly
+    nameWithType: CodeAccessPermission.RevertPermitOnly
+    fullName: System.Security.CodeAccessPermission.RevertPermitOnly
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.CodeAccessPermission.RevertPermitOnly
+    name: RevertPermitOnly
+    nameWithType: CodeAccessPermission.RevertPermitOnly
+    fullName: System.Security.CodeAccessPermission.RevertPermitOnly
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Security.CodeAccessPermission.RevertAll
+  commentId: M:System.Security.CodeAccessPermission.RevertAll
+  parent: System.Security.CodeAccessPermission
+  isExternal: true
+  name: RevertAll()
+  nameWithType: CodeAccessPermission.RevertAll()
+  fullName: System.Security.CodeAccessPermission.RevertAll()
+  spec.csharp:
+  - uid: System.Security.CodeAccessPermission.RevertAll
+    name: RevertAll
+    nameWithType: CodeAccessPermission.RevertAll
+    fullName: System.Security.CodeAccessPermission.RevertAll
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.CodeAccessPermission.RevertAll
+    name: RevertAll
+    nameWithType: CodeAccessPermission.RevertAll
+    fullName: System.Security.CodeAccessPermission.RevertAll
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Security.CodeAccessPermission.Demand
+  commentId: M:System.Security.CodeAccessPermission.Demand
+  parent: System.Security.CodeAccessPermission
+  isExternal: true
+  name: Demand()
+  nameWithType: CodeAccessPermission.Demand()
+  fullName: System.Security.CodeAccessPermission.Demand()
+  spec.csharp:
+  - uid: System.Security.CodeAccessPermission.Demand
+    name: Demand
+    nameWithType: CodeAccessPermission.Demand
+    fullName: System.Security.CodeAccessPermission.Demand
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.CodeAccessPermission.Demand
+    name: Demand
+    nameWithType: CodeAccessPermission.Demand
+    fullName: System.Security.CodeAccessPermission.Demand
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Security.CodeAccessPermission.Assert
+  commentId: M:System.Security.CodeAccessPermission.Assert
+  parent: System.Security.CodeAccessPermission
+  isExternal: true
+  name: Assert()
+  nameWithType: CodeAccessPermission.Assert()
+  fullName: System.Security.CodeAccessPermission.Assert()
+  spec.csharp:
+  - uid: System.Security.CodeAccessPermission.Assert
+    name: Assert
+    nameWithType: CodeAccessPermission.Assert
+    fullName: System.Security.CodeAccessPermission.Assert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.CodeAccessPermission.Assert
+    name: Assert
+    nameWithType: CodeAccessPermission.Assert
+    fullName: System.Security.CodeAccessPermission.Assert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Security.CodeAccessPermission.Deny
+  commentId: M:System.Security.CodeAccessPermission.Deny
+  parent: System.Security.CodeAccessPermission
+  isExternal: true
+  name: Deny()
+  nameWithType: CodeAccessPermission.Deny()
+  fullName: System.Security.CodeAccessPermission.Deny()
+  spec.csharp:
+  - uid: System.Security.CodeAccessPermission.Deny
+    name: Deny
+    nameWithType: CodeAccessPermission.Deny
+    fullName: System.Security.CodeAccessPermission.Deny
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.CodeAccessPermission.Deny
+    name: Deny
+    nameWithType: CodeAccessPermission.Deny
+    fullName: System.Security.CodeAccessPermission.Deny
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Security.CodeAccessPermission.PermitOnly
+  commentId: M:System.Security.CodeAccessPermission.PermitOnly
+  parent: System.Security.CodeAccessPermission
+  isExternal: true
+  name: PermitOnly()
+  nameWithType: CodeAccessPermission.PermitOnly()
+  fullName: System.Security.CodeAccessPermission.PermitOnly()
+  spec.csharp:
+  - uid: System.Security.CodeAccessPermission.PermitOnly
+    name: PermitOnly
+    nameWithType: CodeAccessPermission.PermitOnly
+    fullName: System.Security.CodeAccessPermission.PermitOnly
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.CodeAccessPermission.PermitOnly
+    name: PermitOnly
+    nameWithType: CodeAccessPermission.PermitOnly
+    fullName: System.Security.CodeAccessPermission.PermitOnly
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Security.CodeAccessPermission.ToString
+  commentId: M:System.Security.CodeAccessPermission.ToString
+  parent: System.Security.CodeAccessPermission
+  isExternal: true
+  name: ToString()
+  nameWithType: CodeAccessPermission.ToString()
+  fullName: System.Security.CodeAccessPermission.ToString()
+  spec.csharp:
+  - uid: System.Security.CodeAccessPermission.ToString
+    name: ToString
+    nameWithType: CodeAccessPermission.ToString
+    fullName: System.Security.CodeAccessPermission.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.CodeAccessPermission.ToString
+    name: ToString
+    nameWithType: CodeAccessPermission.ToString
+    fullName: System.Security.CodeAccessPermission.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Security.CodeAccessPermission.Equals(System.Object)
+  commentId: M:System.Security.CodeAccessPermission.Equals(System.Object)
+  parent: System.Security.CodeAccessPermission
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: CodeAccessPermission.Equals(Object)
+  fullName: System.Security.CodeAccessPermission.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Security.CodeAccessPermission.Equals(System.Object)
+    name: Equals
+    nameWithType: CodeAccessPermission.Equals
+    fullName: System.Security.CodeAccessPermission.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.CodeAccessPermission.Equals(System.Object)
+    name: Equals
+    nameWithType: CodeAccessPermission.Equals
+    fullName: System.Security.CodeAccessPermission.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Security.CodeAccessPermission.GetHashCode
+  commentId: M:System.Security.CodeAccessPermission.GetHashCode
+  parent: System.Security.CodeAccessPermission
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: CodeAccessPermission.GetHashCode()
+  fullName: System.Security.CodeAccessPermission.GetHashCode()
+  spec.csharp:
+  - uid: System.Security.CodeAccessPermission.GetHashCode
+    name: GetHashCode
+    nameWithType: CodeAccessPermission.GetHashCode
+    fullName: System.Security.CodeAccessPermission.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.CodeAccessPermission.GetHashCode
+    name: GetHashCode
+    nameWithType: CodeAccessPermission.GetHashCode
+    fullName: System.Security.CodeAccessPermission.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Permissions.SoSentryOverridePermission.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoSentryOverridePermission, To>()
+  nameWithType: EnumUtil.MapEnums<SoSentryOverridePermission, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Permissions.SoSentryOverridePermission, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoSentryOverridePermission, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Permissions.SoSentryOverridePermission, To)()
+  name.vb: MapEnums(Of SoSentryOverridePermission, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoSentryOverridePermission, To>
+    nameWithType: EnumUtil.MapEnums<SoSentryOverridePermission, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Permissions.SoSentryOverridePermission, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoSentryOverridePermission, To)
+    nameWithType: EnumUtil.MapEnums(Of SoSentryOverridePermission, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Permissions.SoSentryOverridePermission, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Permissions.SoSentryOverridePermission.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoSentryOverridePermission, To>()
+  nameWithType: Converters.MapEnums<SoSentryOverridePermission, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Permissions.SoSentryOverridePermission, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoSentryOverridePermission, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Permissions.SoSentryOverridePermission, To)()
+  name.vb: MapEnums(Of SoSentryOverridePermission, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoSentryOverridePermission, To>
+    nameWithType: Converters.MapEnums<SoSentryOverridePermission, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Permissions.SoSentryOverridePermission, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoSentryOverridePermission, To)
+    nameWithType: Converters.MapEnums(Of SoSentryOverridePermission, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Permissions.SoSentryOverridePermission, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Security
+  commentId: N:System.Security
+  isExternal: true
+  name: System.Security
+  nameWithType: System.Security
+  fullName: System.Security
+- uid: System.Security.Permissions
+  commentId: N:System.Security.Permissions
+  isExternal: true
+  name: System.Security.Permissions
+  nameWithType: System.Security.Permissions
+  fullName: System.Security.Permissions
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Security.Permissions.SoSentryOverridePermission.#ctor*
+  commentId: Overload:SuperOffice.Security.Permissions.SoSentryOverridePermission.#ctor
+  isExternal: true
+  name: SoSentryOverridePermission
+  nameWithType: SoSentryOverridePermission.SoSentryOverridePermission
+  fullName: SuperOffice.Security.Permissions.SoSentryOverridePermission.SoSentryOverridePermission
+- uid: System.Security.Permissions.PermissionState
+  commentId: T:System.Security.Permissions.PermissionState
+  parent: System.Security.Permissions
+  isExternal: true
+  name: PermissionState
+  nameWithType: PermissionState
+  fullName: System.Security.Permissions.PermissionState
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Security.Permissions.SoSentryOverridePermission.IsUnrestricted*
+  commentId: Overload:SuperOffice.Security.Permissions.SoSentryOverridePermission.IsUnrestricted
+  isExternal: true
+  name: IsUnrestricted
+  nameWithType: SoSentryOverridePermission.IsUnrestricted
+  fullName: SuperOffice.Security.Permissions.SoSentryOverridePermission.IsUnrestricted
+- uid: System.Security.Permissions.IUnrestrictedPermission.IsUnrestricted
+  commentId: M:System.Security.Permissions.IUnrestrictedPermission.IsUnrestricted
+  parent: System.Security.Permissions.IUnrestrictedPermission
+  isExternal: true
+  name: IsUnrestricted()
+  nameWithType: IUnrestrictedPermission.IsUnrestricted()
+  fullName: System.Security.Permissions.IUnrestrictedPermission.IsUnrestricted()
+  spec.csharp:
+  - uid: System.Security.Permissions.IUnrestrictedPermission.IsUnrestricted
+    name: IsUnrestricted
+    nameWithType: IUnrestrictedPermission.IsUnrestricted
+    fullName: System.Security.Permissions.IUnrestrictedPermission.IsUnrestricted
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.Permissions.IUnrestrictedPermission.IsUnrestricted
+    name: IsUnrestricted
+    nameWithType: IUnrestrictedPermission.IsUnrestricted
+    fullName: System.Security.Permissions.IUnrestrictedPermission.IsUnrestricted
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Security.CodeAccessPermission.Copy
+  commentId: M:System.Security.CodeAccessPermission.Copy
+  parent: System.Security.CodeAccessPermission
+  isExternal: true
+  name: Copy()
+  nameWithType: CodeAccessPermission.Copy()
+  fullName: System.Security.CodeAccessPermission.Copy()
+  spec.csharp:
+  - uid: System.Security.CodeAccessPermission.Copy
+    name: Copy
+    nameWithType: CodeAccessPermission.Copy
+    fullName: System.Security.CodeAccessPermission.Copy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.CodeAccessPermission.Copy
+    name: Copy
+    nameWithType: CodeAccessPermission.Copy
+    fullName: System.Security.CodeAccessPermission.Copy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Permissions.SoSentryOverridePermission.Copy*
+  commentId: Overload:SuperOffice.Security.Permissions.SoSentryOverridePermission.Copy
+  isExternal: true
+  name: Copy
+  nameWithType: SoSentryOverridePermission.Copy
+  fullName: SuperOffice.Security.Permissions.SoSentryOverridePermission.Copy
+- uid: System.Security.CodeAccessPermission.Intersect(System.Security.IPermission)
+  commentId: M:System.Security.CodeAccessPermission.Intersect(System.Security.IPermission)
+  parent: System.Security.CodeAccessPermission
+  isExternal: true
+  name: Intersect(IPermission)
+  nameWithType: CodeAccessPermission.Intersect(IPermission)
+  fullName: System.Security.CodeAccessPermission.Intersect(System.Security.IPermission)
+  spec.csharp:
+  - uid: System.Security.CodeAccessPermission.Intersect(System.Security.IPermission)
+    name: Intersect
+    nameWithType: CodeAccessPermission.Intersect
+    fullName: System.Security.CodeAccessPermission.Intersect
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Security.IPermission
+    name: IPermission
+    nameWithType: IPermission
+    fullName: System.Security.IPermission
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.CodeAccessPermission.Intersect(System.Security.IPermission)
+    name: Intersect
+    nameWithType: CodeAccessPermission.Intersect
+    fullName: System.Security.CodeAccessPermission.Intersect
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Security.IPermission
+    name: IPermission
+    nameWithType: IPermission
+    fullName: System.Security.IPermission
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Permissions.SoSentryOverridePermission.Intersect*
+  commentId: Overload:SuperOffice.Security.Permissions.SoSentryOverridePermission.Intersect
+  isExternal: true
+  name: Intersect
+  nameWithType: SoSentryOverridePermission.Intersect
+  fullName: SuperOffice.Security.Permissions.SoSentryOverridePermission.Intersect
+- uid: System.Security.CodeAccessPermission.Union(System.Security.IPermission)
+  commentId: M:System.Security.CodeAccessPermission.Union(System.Security.IPermission)
+  parent: System.Security.CodeAccessPermission
+  isExternal: true
+  name: Union(IPermission)
+  nameWithType: CodeAccessPermission.Union(IPermission)
+  fullName: System.Security.CodeAccessPermission.Union(System.Security.IPermission)
+  spec.csharp:
+  - uid: System.Security.CodeAccessPermission.Union(System.Security.IPermission)
+    name: Union
+    nameWithType: CodeAccessPermission.Union
+    fullName: System.Security.CodeAccessPermission.Union
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Security.IPermission
+    name: IPermission
+    nameWithType: IPermission
+    fullName: System.Security.IPermission
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.CodeAccessPermission.Union(System.Security.IPermission)
+    name: Union
+    nameWithType: CodeAccessPermission.Union
+    fullName: System.Security.CodeAccessPermission.Union
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Security.IPermission
+    name: IPermission
+    nameWithType: IPermission
+    fullName: System.Security.IPermission
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Permissions.SoSentryOverridePermission.Union*
+  commentId: Overload:SuperOffice.Security.Permissions.SoSentryOverridePermission.Union
+  isExternal: true
+  name: Union
+  nameWithType: SoSentryOverridePermission.Union
+  fullName: SuperOffice.Security.Permissions.SoSentryOverridePermission.Union
+- uid: System.Security.CodeAccessPermission.IsSubsetOf(System.Security.IPermission)
+  commentId: M:System.Security.CodeAccessPermission.IsSubsetOf(System.Security.IPermission)
+  parent: System.Security.CodeAccessPermission
+  isExternal: true
+  name: IsSubsetOf(IPermission)
+  nameWithType: CodeAccessPermission.IsSubsetOf(IPermission)
+  fullName: System.Security.CodeAccessPermission.IsSubsetOf(System.Security.IPermission)
+  spec.csharp:
+  - uid: System.Security.CodeAccessPermission.IsSubsetOf(System.Security.IPermission)
+    name: IsSubsetOf
+    nameWithType: CodeAccessPermission.IsSubsetOf
+    fullName: System.Security.CodeAccessPermission.IsSubsetOf
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Security.IPermission
+    name: IPermission
+    nameWithType: IPermission
+    fullName: System.Security.IPermission
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.CodeAccessPermission.IsSubsetOf(System.Security.IPermission)
+    name: IsSubsetOf
+    nameWithType: CodeAccessPermission.IsSubsetOf
+    fullName: System.Security.CodeAccessPermission.IsSubsetOf
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Security.IPermission
+    name: IPermission
+    nameWithType: IPermission
+    fullName: System.Security.IPermission
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Permissions.SoSentryOverridePermission.IsSubsetOf*
+  commentId: Overload:SuperOffice.Security.Permissions.SoSentryOverridePermission.IsSubsetOf
+  isExternal: true
+  name: IsSubsetOf
+  nameWithType: SoSentryOverridePermission.IsSubsetOf
+  fullName: SuperOffice.Security.Permissions.SoSentryOverridePermission.IsSubsetOf
+- uid: System.Security.CodeAccessPermission.FromXml(System.Security.SecurityElement)
+  commentId: M:System.Security.CodeAccessPermission.FromXml(System.Security.SecurityElement)
+  parent: System.Security.CodeAccessPermission
+  isExternal: true
+  name: FromXml(SecurityElement)
+  nameWithType: CodeAccessPermission.FromXml(SecurityElement)
+  fullName: System.Security.CodeAccessPermission.FromXml(System.Security.SecurityElement)
+  spec.csharp:
+  - uid: System.Security.CodeAccessPermission.FromXml(System.Security.SecurityElement)
+    name: FromXml
+    nameWithType: CodeAccessPermission.FromXml
+    fullName: System.Security.CodeAccessPermission.FromXml
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Security.SecurityElement
+    name: SecurityElement
+    nameWithType: SecurityElement
+    fullName: System.Security.SecurityElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.CodeAccessPermission.FromXml(System.Security.SecurityElement)
+    name: FromXml
+    nameWithType: CodeAccessPermission.FromXml
+    fullName: System.Security.CodeAccessPermission.FromXml
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Security.SecurityElement
+    name: SecurityElement
+    nameWithType: SecurityElement
+    fullName: System.Security.SecurityElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Permissions.SoSentryOverridePermission.FromXml*
+  commentId: Overload:SuperOffice.Security.Permissions.SoSentryOverridePermission.FromXml
+  isExternal: true
+  name: FromXml
+  nameWithType: SoSentryOverridePermission.FromXml
+  fullName: SuperOffice.Security.Permissions.SoSentryOverridePermission.FromXml
+- uid: System.Security.SecurityElement
+  commentId: T:System.Security.SecurityElement
+  parent: System.Security
+  isExternal: true
+  name: SecurityElement
+  nameWithType: SecurityElement
+  fullName: System.Security.SecurityElement
+- uid: System.Security.CodeAccessPermission.ToXml
+  commentId: M:System.Security.CodeAccessPermission.ToXml
+  parent: System.Security.CodeAccessPermission
+  isExternal: true
+  name: ToXml()
+  nameWithType: CodeAccessPermission.ToXml()
+  fullName: System.Security.CodeAccessPermission.ToXml()
+  spec.csharp:
+  - uid: System.Security.CodeAccessPermission.ToXml
+    name: ToXml
+    nameWithType: CodeAccessPermission.ToXml
+    fullName: System.Security.CodeAccessPermission.ToXml
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Security.CodeAccessPermission.ToXml
+    name: ToXml
+    nameWithType: CodeAccessPermission.ToXml
+    fullName: System.Security.CodeAccessPermission.ToXml
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Permissions.SoSentryOverridePermission.ToXml*
+  commentId: Overload:SuperOffice.Security.Permissions.SoSentryOverridePermission.ToXml
+  isExternal: true
+  name: ToXml
+  nameWithType: SoSentryOverridePermission.ToXml
+  fullName: SuperOffice.Security.Permissions.SoSentryOverridePermission.ToXml

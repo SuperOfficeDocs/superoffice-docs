@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceDayPattern
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nClass representing a pattern for daily recurrence\n"
   syntax:
@@ -66,10 +66,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceDayPattern.Clone()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public override object Clone()
@@ -96,10 +96,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceDayPattern.RecurrenceDayPattern()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public RecurrenceDayPattern()
@@ -121,10 +121,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceDayPattern.Pattern
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nThe type of daily recurrence pattern\n"
   syntax:
@@ -152,10 +152,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceDayPattern.Cycle
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nThe number of days between each recurrence.\nOnly used when the cyclic pattern occurs. <xref href=\"SuperOffice.Data.RecurrenceDailyPattern.EveryCyclicDay\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:

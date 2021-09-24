@@ -96,18 +96,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Category
+    content: public const string Category = "category"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Category As String
+    content.vb: Public Const Category As String = "category"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.Business
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.Business
   id: Business
@@ -126,18 +124,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Business
+    content: public const string Business = "business"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Business As String
+    content.vb: Public Const Business As String = "business"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.AssociateId
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.AssociateId
   id: AssociateId
@@ -156,18 +152,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string AssociateId
+    content: public const string AssociateId = "associateId"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly AssociateId As String
+    content.vb: Public Const AssociateId As String = "associateId"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.SupportAssociateId
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.SupportAssociateId
   id: SupportAssociateId
@@ -186,18 +180,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string SupportAssociateId
+    content: public const string SupportAssociateId = "supportAssociateId"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly SupportAssociateId As String
+    content.vb: Public Const SupportAssociateId As String = "supportAssociateId"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.SupportPriorityId
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.SupportPriorityId
   id: SupportPriorityId
@@ -216,18 +208,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string SupportPriorityId
+    content: public const string SupportPriorityId = "supportPriorityId"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly SupportPriorityId As String
+    content.vb: Public Const SupportPriorityId As String = "supportPriorityId"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.SupportLanguageId
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.SupportLanguageId
   id: SupportLanguageId
@@ -246,18 +236,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string SupportLanguageId
+    content: public const string SupportLanguageId = "supportLanguageId"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly SupportLanguageId As String
+    content.vb: Public Const SupportLanguageId As String = "supportLanguageId"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.Position
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.Position
   id: Position
@@ -276,18 +264,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Position
+    content: public const string Position = "position"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Position As String
+    content.vb: Public Const Position As String = "position"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.Number
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.Number
   id: Number
@@ -306,18 +292,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Number
+    content: public const string Number = "number"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Number As String
+    content.vb: Public Const Number As String = "number"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.Title
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.Title
   id: Title
@@ -336,18 +320,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Title
+    content: public const string Title = "title"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Title As String
+    content.vb: Public Const Title As String = "title"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.PersonNoMail
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.PersonNoMail
   id: PersonNoMail
@@ -366,18 +348,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string PersonNoMail
+    content: public const string PersonNoMail = "personNoMail"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly PersonNoMail As String
+    content.vb: Public Const PersonNoMail As String = "personNoMail"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.AddInterests
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.AddInterests
   id: AddInterests
@@ -396,18 +376,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string AddInterests
+    content: public const string AddInterests = "addInterests"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly AddInterests As String
+    content.vb: Public Const AddInterests As String = "addInterests"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.RemoveInterest
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.RemoveInterest
   id: RemoveInterest
@@ -426,18 +404,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string RemoveInterest
+    content: public const string RemoveInterest = "removeInterest"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly RemoveInterest As String
+    content.vb: Public Const RemoveInterest As String = "removeInterest"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.AddSubscriptions
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.AddSubscriptions
   id: AddSubscriptions
@@ -456,18 +432,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string AddSubscriptions
+    content: public const string AddSubscriptions = "addSubscriptions"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly AddSubscriptions As String
+    content.vb: Public Const AddSubscriptions As String = "addSubscriptions"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.RemoveSubscriptions
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.RemoveSubscriptions
   id: RemoveSubscriptions
@@ -486,18 +460,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string RemoveSubscriptions
+    content: public const string RemoveSubscriptions = "removeSubscriptions"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly RemoveSubscriptions As String
+    content.vb: Public Const RemoveSubscriptions As String = "removeSubscriptions"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.LegalBasis
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.LegalBasis
   id: LegalBasis
@@ -516,18 +488,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string LegalBasis
+    content: public const string LegalBasis = "legalBasis"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly LegalBasis As String
+    content.vb: Public Const LegalBasis As String = "legalBasis"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.UseAsMailingAddress
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.UseAsMailingAddress
   id: UseAsMailingAddress
@@ -546,18 +516,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string UseAsMailingAddress
+    content: public const string UseAsMailingAddress = "useAsMailingAddress"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly UseAsMailingAddress As String
+    content.vb: Public Const UseAsMailingAddress As String = "useAsMailingAddress"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.Retired
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.Retired
   id: Retired
@@ -576,18 +544,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Retired
+    content: public const string Retired = "retired"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Retired As String
+    content.vb: Public Const Retired As String = "retired"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.MrMrs
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.MrMrs
   id: MrMrs
@@ -606,18 +572,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string MrMrs
+    content: public const string MrMrs = "mrMrs"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly MrMrs As String
+    content.vb: Public Const MrMrs As String = "mrMrs"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.Salutation
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.Salutation
   id: Salutation
@@ -636,18 +600,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Salutation
+    content: public const string Salutation = "salutation"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Salutation As String
+    content.vb: Public Const Salutation As String = "salutation"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.FirstName
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.FirstName
   id: FirstName
@@ -666,18 +628,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string FirstName
+    content: public const string FirstName = "firstName"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly FirstName As String
+    content.vb: Public Const FirstName As String = "firstName"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.MiddleName
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.MiddleName
   id: MiddleName
@@ -696,18 +656,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string MiddleName
+    content: public const string MiddleName = "middleName"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly MiddleName As String
+    content.vb: Public Const MiddleName As String = "middleName"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.LastName
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.LastName
   id: LastName
@@ -726,18 +684,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string LastName
+    content: public const string LastName = "lastName"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly LastName As String
+    content.vb: Public Const LastName As String = "lastName"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.BirthDate
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.BirthDate
   id: BirthDate
@@ -756,18 +712,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string BirthDate
+    content: public const string BirthDate = "birthDate"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly BirthDate As String
+    content.vb: Public Const BirthDate As String = "birthDate"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.PersonCountry
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.PersonCountry
   id: PersonCountry
@@ -786,18 +740,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string PersonCountry
+    content: public const string PersonCountry = "personCountry"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly PersonCountry As String
+    content.vb: Public Const PersonCountry As String = "personCountry"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.Url
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.Url
   id: Url
@@ -816,18 +768,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Url
+    content: public const string Url = "url"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Url As String
+    content.vb: Public Const Url As String = "url"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.EMail
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.EMail
   id: EMail
@@ -846,18 +796,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string EMail
+    content: public const string EMail = "e-mail"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly EMail As String
+    content.vb: Public Const EMail As String = "e-mail"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.MobilePhone
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.MobilePhone
   id: MobilePhone
@@ -876,18 +824,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string MobilePhone
+    content: public const string MobilePhone = "mobilePhone"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly MobilePhone As String
+    content.vb: Public Const MobilePhone As String = "mobilePhone"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.DirectPhone
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.DirectPhone
   id: DirectPhone
@@ -906,18 +852,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string DirectPhone
+    content: public const string DirectPhone = "directPhone"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly DirectPhone As String
+    content.vb: Public Const DirectPhone As String = "directPhone"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.PrivatePhone
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.PrivatePhone
   id: PrivatePhone
@@ -936,18 +880,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string PrivatePhone
+    content: public const string PrivatePhone = "privatePhone"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly PrivatePhone As String
+    content.vb: Public Const PrivatePhone As String = "privatePhone"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.OtherPhone
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.OtherPhone
   id: OtherPhone
@@ -966,18 +908,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string OtherPhone
+    content: public const string OtherPhone = "otherPhone"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly OtherPhone As String
+    content.vb: Public Const OtherPhone As String = "otherPhone"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.DirectFax
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.DirectFax
   id: DirectFax
@@ -996,18 +936,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string DirectFax
+    content: public const string DirectFax = "directFax"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly DirectFax As String
+    content.vb: Public Const DirectFax As String = "directFax"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.AddressAddress1
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.AddressAddress1
   id: AddressAddress1
@@ -1026,18 +964,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string AddressAddress1
+    content: public const string AddressAddress1 = "address/address1"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly AddressAddress1 As String
+    content.vb: Public Const AddressAddress1 As String = "address/address1"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.AddressAddress2
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.AddressAddress2
   id: AddressAddress2
@@ -1056,18 +992,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string AddressAddress2
+    content: public const string AddressAddress2 = "address/address2"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly AddressAddress2 As String
+    content.vb: Public Const AddressAddress2 As String = "address/address2"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.AddressAddress3
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.AddressAddress3
   id: AddressAddress3
@@ -1086,18 +1020,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string AddressAddress3
+    content: public const string AddressAddress3 = "address/address3"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly AddressAddress3 As String
+    content.vb: Public Const AddressAddress3 As String = "address/address3"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.AddressZipCode
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.AddressZipCode
   id: AddressZipCode
@@ -1116,18 +1048,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string AddressZipCode
+    content: public const string AddressZipCode = "address/zipCode"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly AddressZipCode As String
+    content.vb: Public Const AddressZipCode As String = "address/zipCode"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.AddressZipCity
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.AddressZipCity
   id: AddressZipCity
@@ -1146,18 +1076,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string AddressZipCity
+    content: public const string AddressZipCity = "address/zipCity"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly AddressZipCity As String
+    content.vb: Public Const AddressZipCity As String = "address/zipCity"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.AddressState
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.AddressState
   id: AddressState
@@ -1176,18 +1104,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string AddressState
+    content: public const string AddressState = "address/state"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly AddressState As String
+    content.vb: Public Const AddressState As String = "address/state"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.AddressCounty
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.AddressCounty
   id: AddressCounty
@@ -1206,18 +1132,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string AddressCounty
+    content: public const string AddressCounty = "address/county"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly AddressCounty As String
+    content.vb: Public Const AddressCounty As String = "address/county"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.Portrait
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.Portrait
   id: Portrait
@@ -1236,18 +1160,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Portrait
+    content: public const string Portrait = "portrait"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Portrait As String
+    content.vb: Public Const Portrait As String = "portrait"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.DisconnectFromContact
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.DisconnectFromContact
   id: DisconnectFromContact
@@ -1266,18 +1188,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string DisconnectFromContact
+    content: public const string DisconnectFromContact = "disconnectFromContact"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly DisconnectFromContact As String
+    content.vb: Public Const DisconnectFromContact As String = "disconnectFromContact"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 references:
 - uid: SuperOffice.CRM.BulkUpdate
   commentId: N:SuperOffice.CRM.BulkUpdate

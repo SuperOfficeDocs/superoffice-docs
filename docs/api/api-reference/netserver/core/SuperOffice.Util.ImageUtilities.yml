@@ -26,10 +26,10 @@ items:
   fullName: SuperOffice.Util.ImageUtilities
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static class ImageUtilities
@@ -63,10 +63,10 @@ items:
   fullName: SuperOffice.Util.ImageUtilities.ThumbnailSize
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nDefault thumbnail size\n"
   syntax:
@@ -92,10 +92,10 @@ items:
   fullName: SuperOffice.Util.ImageUtilities.ProductImageSize
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nDefault max size for product images (largest edge)\n"
   syntax:
@@ -122,10 +122,10 @@ items:
   fullName: SuperOffice.Util.ImageUtilities.FitTo(System.Drawing.Image, System.Int32, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nIf needed, resize the image to make it fit the given dimensions, while keeping the aspect ratio.\n<p></p>If you are creating thumbnails, please use the <xref href=\"SuperOffice.Util.ImageUtilities.GetThumbnail(System.Drawing.Image%2cSystem.Int32%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref>, which is more efficient for\nradical scaling of that sort.\n"
   syntax:
@@ -167,10 +167,10 @@ items:
   fullName: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream, System.Int32, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static Image GetThumbnailImage(this Stream input, int width = 150, int height = 150)
@@ -207,10 +207,10 @@ items:
   fullName: SuperOffice.Util.ImageUtilities.GetBytes(System.Drawing.Image)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static byte[] GetBytes(this Image input)
@@ -243,10 +243,10 @@ items:
   fullName: SuperOffice.Util.ImageUtilities.GetThumbnail(System.Drawing.Image, System.Int32, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet a thumbnail of the incoming image; the quiality of the scaling is not quite as good as for\n<xref href=\"SuperOffice.Util.ImageUtilities.FitTo(System.Drawing.Image%2cSystem.Int32%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref>, but is more efficient. Aspect ratio is maintained.\n"
   syntax:
@@ -287,10 +287,10 @@ items:
   fullName: SuperOffice.Util.ImageUtilities.GetThumbnail(System.String, System.Int32, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet a thumbnail from a string-encoded image; output size is not guaranteed as short input strings\nwill cause an immediate return in the interest of performance (a string of less than 1500 can&apos;t be a big image!)\n"
   syntax:
@@ -327,10 +327,10 @@ items:
   fullName: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.String, System.Int32, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet a thumbnail from a string-encoded image; output size is not guaranteed as short input strings\nwill cause an immediate return in the interest of performance (a string of less than 1500 can&apos;t be a big image!)\n"
   syntax:
@@ -367,10 +367,10 @@ items:
   fullName: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image(System.String, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nIf the input is a well-formed absolute URI, then assume that it leads to an image, and fetch that image; otherwise just pass the input straight out again.\nImages are scaled down to 1000/1000 if needed\n"
   remarks: "\nEventually this should do some caching, have a cache-retention policy, flush etc... but in this prototype version we just fetch the data directly\n"
@@ -408,10 +408,10 @@ items:
   fullName: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nIf the input is a well-formed absolute URI, then assume that it leads to an image, and fetch that image; otherwise just pass the input straight out again.\n"
   remarks: "\nEventually this should do some caching, have a cache-retention policy, flush etc... but in this prototype version we just fetch the data directly\n"
@@ -443,10 +443,10 @@ items:
   fullName: SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static string GetImageTypeFromBase64String(string base64String, string defaultType)
@@ -477,10 +477,10 @@ items:
   fullName: SuperOffice.Util.ImageUtilities.TryFitImage(System.Byte[], System.Int32, System.Int32, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static byte[] TryFitImage(byte[] imageData, int maxWidth, int maxHeight, bool alwaysTryConvert = false)
@@ -518,10 +518,10 @@ items:
   fullName: SuperOffice.Util.ImageUtilities.Resize(System.Windows.Media.ImageSource, System.Int32, System.Int32, System.Windows.Media.BitmapScalingMode)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static BitmapFrame Resize(ImageSource photo, int width, int height, BitmapScalingMode scalingMode)

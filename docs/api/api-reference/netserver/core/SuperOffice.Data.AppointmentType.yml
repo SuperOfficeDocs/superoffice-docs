@@ -23,10 +23,10 @@ items:
   fullName: SuperOffice.Data.AppointmentType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValue for field &apos;type&apos; in table &apos;appointment&apos;.\nThis Enum is used by:  appointment.type\n"
   syntax:
@@ -55,10 +55,10 @@ items:
   fullName: SuperOffice.Data.AppointmentType.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown - used when initializing \n"
   syntax:
@@ -83,10 +83,10 @@ items:
   fullName: SuperOffice.Data.AppointmentType.inDiary
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Show in diary. If overdue or done today, show in checklist also\n"
   syntax:
@@ -111,10 +111,10 @@ items:
   fullName: SuperOffice.Data.AppointmentType.inChecklist
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Appointment is a followup with no specific starttime\n"
   syntax:
@@ -139,10 +139,10 @@ items:
   fullName: SuperOffice.Data.AppointmentType.Note
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Paper clip on diary, expands to “post-it” note when clicked\n"
   syntax:
@@ -167,10 +167,10 @@ items:
   fullName: SuperOffice.Data.AppointmentType.Document
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Document of any kind, including outgoing, incoming and email\n"
   syntax:
@@ -195,10 +195,10 @@ items:
   fullName: SuperOffice.Data.AppointmentType.SavedReport
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Saved Report (i.e., not a Report Definition but the result of an actual report run)\n"
   syntax:
@@ -223,10 +223,10 @@ items:
   fullName: SuperOffice.Data.AppointmentType.BookingForDiary
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: Booking, made for diary. When accepted this will change type to inDiary\n"
   syntax:
@@ -251,10 +251,10 @@ items:
   fullName: SuperOffice.Data.AppointmentType.BookingForChecklist
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: Booking, made for check list. When accepted this will change type to inChecklist\n"
   syntax:
@@ -279,10 +279,10 @@ items:
   fullName: SuperOffice.Data.AppointmentType.MergeDraft
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Document is a template for mailmerge operations\n"
   syntax:
@@ -307,10 +307,10 @@ items:
   fullName: SuperOffice.Data.AppointmentType.MergeFinal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n9: Document is a result of a mailmerge operations (there are probably many documents like this!)\n"
   syntax:

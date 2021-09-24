@@ -79,10 +79,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped and filtered lists\n"
   syntax:
@@ -117,10 +117,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:
@@ -146,10 +146,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.EnableLongValues
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nCan <strong>name</strong> and <strong>description</strong> be extended into (max 2) text records?\n"
   syntax:
@@ -175,10 +175,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.associate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -204,10 +204,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.business
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -233,10 +233,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.category
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -262,10 +262,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.comptr
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -291,10 +291,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.contint
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -320,10 +320,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.credited
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -349,10 +349,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.currency
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -378,10 +378,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.doctmpl
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -407,10 +407,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.extapp
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -436,10 +436,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.saletype
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -465,10 +465,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitassociate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -494,10 +494,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitbusiness
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -523,10 +523,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitcategory
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -552,10 +552,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitcomptr
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -581,10 +581,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitcontint
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -610,10 +610,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitcredited
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -639,10 +639,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitcurrency
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -668,10 +668,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitdoctmpl
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -697,10 +697,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitextapp
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -726,10 +726,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitmrmrs
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -755,10 +755,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitpersint
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -784,10 +784,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitperspos
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -813,10 +813,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitpmembtype
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -842,10 +842,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitpriority
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -871,10 +871,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitprob
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -900,10 +900,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitprojstatus
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -929,10 +929,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitprojtype
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -958,10 +958,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitreason
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -987,10 +987,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitrelationdefinition
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -1016,10 +1016,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitsearchcat
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -1045,10 +1045,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitsource
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -1074,10 +1074,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitamountclass
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -1103,10 +1103,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitsaletypecat
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -1132,10 +1132,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitreasonstalled
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -1161,10 +1161,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitreasonsold
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -1190,10 +1190,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimitsaletype
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -1219,10 +1219,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimittask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -1248,10 +1248,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.MaxListSize
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public const string MaxListSize = "MaxListSize"
@@ -1276,10 +1276,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.LowerLimit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrouped lists only: Lower limit for number of items in the list after filtering, before headings are removed from display\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -1305,10 +1305,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.mrmrs
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -1334,10 +1334,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.persint
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -1363,10 +1363,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.perspos
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -1392,10 +1392,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.pmembtype
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -1421,10 +1421,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.priority
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -1450,10 +1450,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.prob
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -1479,10 +1479,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.projstatus
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -1508,10 +1508,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.projtype
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -1537,10 +1537,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.reason
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -1566,10 +1566,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.relationdefinition
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -1595,10 +1595,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.searchcat
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -1624,10 +1624,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.source
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -1653,10 +1653,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.task
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -1682,10 +1682,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.Udef0
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWhether the user-defined fields on page 1 of the Contact dialog should be displayed in grouped lists\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -1711,10 +1711,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.Udef1
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWhether the user-defined fields on page 1 of the Company screen should be displayed in grouped lists\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -1740,10 +1740,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.Udef2
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWhether the user-defined fields on page 1 of the Project screen should be displayed in grouped lists\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -1769,10 +1769,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.Udef3
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWhether the user-defined fields on page 1 of the Sale dialog should be displayed in grouped lists\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -1798,10 +1798,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.Udef4
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWhether the user-defined fields on page 1 of the Appointment dialog should be displayed in grouped lists\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -1827,10 +1827,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.Udef5
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWhether the user-defined fields on page 1 of the Document dialog should be displayed in grouped lists\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -1856,10 +1856,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.UdefAdmin0
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWhether the unpublished user-defined fields on page 1 of the Contact dialog should be displayed in grouped lists\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -1885,10 +1885,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.UdefAdmin1
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWhether the unpublished user-defined fields on page 1 of the Company screen should be displayed in grouped lists\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -1914,10 +1914,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.UdefAdmin2
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWhether the unpublished user-defined fields on page 1 of the Project screen should be displayed in grouped lists\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -1943,10 +1943,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.UdefAdmin3
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWhether the unpublished user-defined fields on page 1 of the Sale dialog should be displayed in grouped lists\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -1972,10 +1972,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.UdefAdmin4
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWhether the unpublished user-defined fields on page 1 of the Appointment dialog should be displayed in grouped lists\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -2001,10 +2001,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MDOList.UdefAdmin5
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWhether the unpublished user-defined fields on page 1 of the Docment dialog should be displayed in grouped lists\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:

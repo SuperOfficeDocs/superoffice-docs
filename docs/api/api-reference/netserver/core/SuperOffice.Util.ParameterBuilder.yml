@@ -32,10 +32,10 @@ items:
   fullName: SuperOffice.Util.ParameterBuilder
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nThis class builds parameter strings of the type [item&amp;item&amp;item], with selectable start, middle and end delimiters\n"
   remarks: "\nA StringBuilder class is used for improved performance, there should be only one memory allocation \nduring formatting regardless of the number of items. The item collection is a List and has its usual behavior.\n"
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Util.ParameterBuilder.ParameterBuilder()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nDefault constructor, makes a builder with all delimiters blank\n"
   syntax:
@@ -102,10 +102,10 @@ items:
   fullName: SuperOffice.Util.ParameterBuilder.ParameterBuilder(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConstructor that sets the middle delimiter, and leaves the start and end delimiters blank\n"
   syntax:
@@ -132,10 +132,10 @@ items:
   fullName: SuperOffice.Util.ParameterBuilder.ParameterBuilder(System.String, System.String, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConstructor that sets all delimiters\n"
   syntax:
@@ -168,10 +168,10 @@ items:
   fullName: SuperOffice.Util.ParameterBuilder.ParameterBuilder(System.String, System.String, System.String, System.String[])
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConstructor that sets all delimiters and populates the item collection. You can add more items later as well.\n"
   syntax:
@@ -210,10 +210,10 @@ items:
   fullName: SuperOffice.Util.ParameterBuilder.Format(System.String, System.String[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nShortcut method that will create a parameterbuilder with the given middle delimiter, add all items to it, and return the\nresulting string\n"
   syntax:
@@ -251,10 +251,10 @@ items:
   fullName: SuperOffice.Util.ParameterBuilder.Format(System.String, System.Boolean, System.String[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static string Format(string middleDelimiter, bool useDelimitersBetweenEmptyElements, params string[] items)
@@ -290,10 +290,10 @@ items:
   fullName: SuperOffice.Util.ParameterBuilder.FormatObjects(System.String, System.Object[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nShortcut method that will create a parameterbuilder with the given middle delimiter, add all items to it, and return the\nresulting string\n"
   syntax:
@@ -331,10 +331,10 @@ items:
   fullName: SuperOffice.Util.ParameterBuilder.Add(System.String[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdd one or more items to the end of the item collection\n"
   syntax:
@@ -363,10 +363,10 @@ items:
   fullName: SuperOffice.Util.ParameterBuilder.AddRange(System.Collections.Generic.IEnumerable<System.String>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdd one or more items to the end of the item collection\n"
   syntax:
@@ -395,10 +395,10 @@ items:
   fullName: SuperOffice.Util.ParameterBuilder.Clear()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nClear all data, but keep all settings\n"
   syntax:
@@ -421,10 +421,10 @@ items:
   fullName: SuperOffice.Util.ParameterBuilder.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nCombine all items and delimiters to produce the final result\n"
   remarks: "\nA StringBuilder class is used for improved performance, there should be only one memory allocation regardless of the number of items.\n"
@@ -454,10 +454,10 @@ items:
   fullName: SuperOffice.Util.ParameterBuilder.ToReverseString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nCombine all items and delimiters to produce the final result - but iterate in reverse over the items\n"
   remarks: "\nA StringBuilder class is used for improved performance, there should be only one memory allocation regardless of the number of items.\n"
@@ -484,10 +484,10 @@ items:
   fullName: SuperOffice.Util.ParameterBuilder.StartDelimiter
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nStarting delimiter, will be at the beginning of the resulting string. Can be empty.\n"
   syntax:
@@ -515,10 +515,10 @@ items:
   fullName: SuperOffice.Util.ParameterBuilder.EndDelimiter
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nEnd delimiter, will be at the end of the resulting string. Can be empty.\n"
   syntax:
@@ -546,10 +546,10 @@ items:
   fullName: SuperOffice.Util.ParameterBuilder.MiddleDelimiter
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nMiddle delimiter, will be between items if there is more than one item. Can be empty.\n"
   syntax:
@@ -577,10 +577,10 @@ items:
   fullName: SuperOffice.Util.ParameterBuilder.UseDelimitersIfEmpty
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nShould the start and end delimiters be in the output string, even if there are no items. Default false.\n"
   syntax:
@@ -608,10 +608,10 @@ items:
   fullName: SuperOffice.Util.ParameterBuilder.UseDelimitersBetweenEmptyElements
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\n\n"
   syntax:
@@ -639,10 +639,10 @@ items:
   fullName: SuperOffice.Util.ParameterBuilder.Count
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet the number of items (excluding delimiters, but including empty items) currently in the items collection\n"
   syntax:
@@ -670,10 +670,10 @@ items:
   fullName: SuperOffice.Util.ParameterBuilder.Capacity
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet or set the capacity of the items collection. Use this if you know in advance (or during use) how many items\nyou need to set; this will make the Add operation an O(1) task instead of O(n). Note that the default behaviour\nis to allocate 10 items at a time, which is usually good enough\n"
   syntax:

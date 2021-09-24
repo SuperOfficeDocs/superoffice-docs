@@ -15,12 +15,12 @@ items:
   fullName: SuperOffice.Data.WidgetTheme
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
-  summary: "\nValue for field &apos;widget_theme&apos; in table &apos;chat_topic&apos;.\nThis Enum is used by:  chat_topic.widget_theme\n"
+  summary: "\nChat Topic widget_theme: classic(0) or modern(1).\nThis Enum is used by:  chat_topic.widget_theme\n"
   syntax:
     content: 'public enum WidgetTheme : short'
     content.vb: Public Enum WidgetTheme As Short
@@ -47,10 +47,10 @@ items:
   fullName: SuperOffice.Data.WidgetTheme.Classic
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Set widget theme to classic\n"
   syntax:
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.Data.WidgetTheme.Modern
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Set widget theme to modern\n"
   syntax:

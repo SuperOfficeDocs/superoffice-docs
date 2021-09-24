@@ -5,9 +5,7 @@ items:
   id: ConsentCache
   parent: SuperOffice.CRM.Cache
   children:
-  - SuperOffice.CRM.Cache.ConsentCache.#ctor
   - SuperOffice.CRM.Cache.ConsentCache.EmarketingId
-  - SuperOffice.CRM.Cache.ConsentCache.GetCachedTableNumbers
   - SuperOffice.CRM.Cache.ConsentCache.GetConsentPurposeInfos
   - SuperOffice.CRM.Cache.ConsentCache.GetConsentSourceIdFromKey(System.String)
   - SuperOffice.CRM.Cache.ConsentCache.GetConsentSourceNameFromId(System.Int32)
@@ -16,7 +14,7 @@ items:
   - SuperOffice.CRM.Cache.ConsentCache.GetLegalBaseNameFromId(System.Int32)
   - SuperOffice.CRM.Cache.ConsentCache.GetPurposeIdFromKey(System.String)
   - SuperOffice.CRM.Cache.ConsentCache.GetPurposeNameFromId(System.Int32)
-  - SuperOffice.CRM.Cache.ConsentCache.GetShipmentTypeInfos
+  - SuperOffice.CRM.Cache.ConsentCache.OnLoad
   - SuperOffice.CRM.Cache.ConsentCache.StoreId
   - SuperOffice.CRM.Cache.ConsentCache.WithdrawnBase
   langs:
@@ -34,27 +32,26 @@ items:
   namespace: SuperOffice.CRM.Cache
   syntax:
     content: >-
-      [Cache(1800, "Database")]
+      [CacheV2("Database")]
 
-      public class ConsentCache : XCacheBase, IFlushable
+      public class ConsentCache : CacheBaseV2, IFlushableV2, IDisposable
     content.vb: >-
-      <Cache(1800, "Database")>
+      <CacheV2("Database")>
 
       Public Class ConsentCache
-          Inherits XCacheBase
-          Implements IFlushable
+          Inherits CacheBaseV2
+          Implements IFlushableV2, IDisposable
   inheritance:
   - System.Object
-  - SuperOffice.Data.Cache.XCacheBase
+  - SuperOffice.Data.Cache.CacheBaseV2
   implements:
-  - SuperOffice.Data.Cache.IFlushable
+  - SuperOffice.Data.Cache.IFlushableV2
+  - System.IDisposable
   inheritedMembers:
-  - SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute(System.Type)
-  - SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance``1
-  - SuperOffice.Data.Cache.XCacheBase.Flush
-  - SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
-  - SuperOffice.Data.Cache.XCacheBase.Timeout
-  - SuperOffice.Data.Cache.XCacheBase.LastTouch
+  - SuperOffice.Data.Cache.CacheBaseV2.Dispose
+  - SuperOffice.Data.Cache.CacheBaseV2.Flush
+  - SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+  - SuperOffice.Data.Cache.CacheBaseV2.Load
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -66,11 +63,9 @@ items:
   - SuperOffice.CRM.Cache.ConsentCache.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Cache.ConsentCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   attributes:
-  - type: SuperOffice.Data.Cache.CacheAttribute
-    ctor: SuperOffice.Data.Cache.CacheAttribute.#ctor(System.Int32,System.String)
+  - type: SuperOffice.Data.Cache.CacheV2Attribute
+    ctor: SuperOffice.Data.Cache.CacheV2Attribute.#ctor(System.String)
     arguments:
-    - type: System.Int32
-      value: 1800
     - type: System.String
       value: Database
   modifiers.csharp:
@@ -79,41 +74,6 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.Cache.ConsentCache.#ctor
-  commentId: M:SuperOffice.CRM.Cache.ConsentCache.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.Cache.ConsentCache
-  langs:
-  - csharp
-  - vb
-  name: ConsentCache()
-  nameWithType: ConsentCache.ConsentCache()
-  fullName: SuperOffice.CRM.Cache.ConsentCache.ConsentCache()
-  type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Cache
-  syntax:
-    content: >-
-      [SoInjectConstructor]
-
-      protected ConsentCache()
-    content.vb: >-
-      <SoInjectConstructor>
-
-      Protected Sub New
-  overload: SuperOffice.CRM.Cache.ConsentCache.#ctor*
-  attributes:
-  - type: SuperOffice.Factory.SoInjectConstructorAttribute
-    ctor: SuperOffice.Factory.SoInjectConstructorAttribute.#ctor
-    arguments: []
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
 - uid: SuperOffice.CRM.Cache.ConsentCache.GetConsentPurposeInfos
   commentId: M:SuperOffice.CRM.Cache.ConsentCache.GetConsentPurposeInfos
   id: GetConsentPurposeInfos
@@ -132,38 +92,11 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
   syntax:
-    content: public List<ConsentCache.ConsentPurposeInfo> GetConsentPurposeInfos()
+    content: public IEnumerable<ConsentPurposeRecordData> GetConsentPurposeInfos()
     return:
-      type: System.Collections.Generic.List{SuperOffice.CRM.Cache.ConsentCache.ConsentPurposeInfo}
-    content.vb: Public Function GetConsentPurposeInfos As List(Of ConsentCache.ConsentPurposeInfo)
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConsentPurposeRecordData}
+    content.vb: Public Function GetConsentPurposeInfos As IEnumerable(Of ConsentPurposeRecordData)
   overload: SuperOffice.CRM.Cache.ConsentCache.GetConsentPurposeInfos*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Cache.ConsentCache.GetShipmentTypeInfos
-  commentId: M:SuperOffice.CRM.Cache.ConsentCache.GetShipmentTypeInfos
-  id: GetShipmentTypeInfos
-  parent: SuperOffice.CRM.Cache.ConsentCache
-  langs:
-  - csharp
-  - vb
-  name: GetShipmentTypeInfos()
-  nameWithType: ConsentCache.GetShipmentTypeInfos()
-  fullName: SuperOffice.CRM.Cache.ConsentCache.GetShipmentTypeInfos()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Cache
-  syntax:
-    content: public List<ConsentCache.ShipmentTypeInfo> GetShipmentTypeInfos()
-    return:
-      type: System.Collections.Generic.List{SuperOffice.CRM.Cache.ConsentCache.ShipmentTypeInfo}
-    content.vb: Public Function GetShipmentTypeInfos As List(Of ConsentCache.ShipmentTypeInfo)
-  overload: SuperOffice.CRM.Cache.ConsentCache.GetShipmentTypeInfos*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -348,36 +281,6 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Cache.ConsentCache.GetCachedTableNumbers
-  commentId: M:SuperOffice.CRM.Cache.ConsentCache.GetCachedTableNumbers
-  id: GetCachedTableNumbers
-  parent: SuperOffice.CRM.Cache.ConsentCache
-  langs:
-  - csharp
-  - vb
-  name: GetCachedTableNumbers()
-  nameWithType: ConsentCache.GetCachedTableNumbers()
-  fullName: SuperOffice.CRM.Cache.ConsentCache.GetCachedTableNumbers()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Cache
-  syntax:
-    content: public override int[] GetCachedTableNumbers()
-    return:
-      type: System.Int32[]
-    content.vb: Public Overrides Function GetCachedTableNumbers As Integer()
-  overridden: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
-  overload: SuperOffice.CRM.Cache.ConsentCache.GetCachedTableNumbers*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Cache.ConsentCache.GetCurrent
   commentId: M:SuperOffice.CRM.Cache.ConsentCache.GetCurrent
   id: GetCurrent
@@ -407,6 +310,34 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Cache.ConsentCache.OnLoad
+  commentId: M:SuperOffice.CRM.Cache.ConsentCache.OnLoad
+  id: OnLoad
+  parent: SuperOffice.CRM.Cache.ConsentCache
+  langs:
+  - csharp
+  - vb
+  name: OnLoad()
+  nameWithType: ConsentCache.OnLoad()
+  fullName: SuperOffice.CRM.Cache.ConsentCache.OnLoad()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: protected override void OnLoad()
+    content.vb: Protected Overrides Sub OnLoad
+  overridden: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+  overload: SuperOffice.CRM.Cache.ConsentCache.OnLoad*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.Cache.ConsentCache.WithdrawnBase
   commentId: P:SuperOffice.CRM.Cache.ConsentCache.WithdrawnBase
   id: WithdrawnBase
@@ -511,76 +442,39 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: SuperOffice.Data.Cache.XCacheBase
-  commentId: T:SuperOffice.Data.Cache.XCacheBase
+- uid: SuperOffice.Data.Cache.CacheBaseV2
+  commentId: T:SuperOffice.Data.Cache.CacheBaseV2
   parent: SuperOffice.Data.Cache
   isExternal: true
-  name: XCacheBase
-  nameWithType: XCacheBase
-  fullName: SuperOffice.Data.Cache.XCacheBase
-- uid: SuperOffice.Data.Cache.IFlushable
-  commentId: T:SuperOffice.Data.Cache.IFlushable
+  name: CacheBaseV2
+  nameWithType: CacheBaseV2
+  fullName: SuperOffice.Data.Cache.CacheBaseV2
+- uid: SuperOffice.Data.Cache.IFlushableV2
+  commentId: T:SuperOffice.Data.Cache.IFlushableV2
   parent: SuperOffice.Data.Cache
   isExternal: true
-  name: IFlushable
-  nameWithType: IFlushable
-  fullName: SuperOffice.Data.Cache.IFlushable
-- uid: SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute(System.Type)
-  commentId: M:SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute(System.Type)
-  parent: SuperOffice.Data.Cache.XCacheBase
+  name: IFlushableV2
+  nameWithType: IFlushableV2
+  fullName: SuperOffice.Data.Cache.IFlushableV2
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
   isExternal: true
-  name: GetCacheAttribute(Type)
-  nameWithType: XCacheBase.GetCacheAttribute(Type)
-  fullName: SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute(System.Type)
-  spec.csharp:
-  - uid: SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute(System.Type)
-    name: GetCacheAttribute
-    nameWithType: XCacheBase.GetCacheAttribute
-    fullName: SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Type
-    name: Type
-    nameWithType: Type
-    fullName: System.Type
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute(System.Type)
-    name: GetCacheAttribute
-    nameWithType: XCacheBase.GetCacheAttribute
-    fullName: SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Type
-    name: Type
-    nameWithType: Type
-    fullName: System.Type
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance``1
-  commentId: M:SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance``1
-  parent: SuperOffice.Data.Cache.XCacheBase
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Dispose
+  parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  name: GetCurrentInstance<CacheType>()
-  nameWithType: XCacheBase.GetCurrentInstance<CacheType>()
-  fullName: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance<CacheType>()
-  nameWithType.vb: XCacheBase.GetCurrentInstance(Of CacheType)()
-  fullName.vb: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance(Of CacheType)()
-  name.vb: GetCurrentInstance(Of CacheType)()
+  name: Dispose()
+  nameWithType: CacheBaseV2.Dispose()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose()
   spec.csharp:
-  - uid: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance``1
-    name: GetCurrentInstance<CacheType>
-    nameWithType: XCacheBase.GetCurrentInstance<CacheType>
-    fullName: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance<CacheType>
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
+    name: Dispose
+    nameWithType: CacheBaseV2.Dispose
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose
     isExternal: true
   - name: (
     nameWithType: (
@@ -589,10 +483,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance``1
-    name: GetCurrentInstance(Of CacheType)
-    nameWithType: XCacheBase.GetCurrentInstance(Of CacheType)
-    fullName: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance(Of CacheType)
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
+    name: Dispose
+    nameWithType: CacheBaseV2.Dispose
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose
     isExternal: true
   - name: (
     nameWithType: (
@@ -600,18 +494,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.Cache.XCacheBase.Flush
-  commentId: M:SuperOffice.Data.Cache.XCacheBase.Flush
-  parent: SuperOffice.Data.Cache.XCacheBase
+- uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Flush
+  parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
   name: Flush()
-  nameWithType: XCacheBase.Flush()
-  fullName: SuperOffice.Data.Cache.XCacheBase.Flush()
+  nameWithType: CacheBaseV2.Flush()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush()
   spec.csharp:
-  - uid: SuperOffice.Data.Cache.XCacheBase.Flush
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
     name: Flush
-    nameWithType: XCacheBase.Flush
-    fullName: SuperOffice.Data.Cache.XCacheBase.Flush
+    nameWithType: CacheBaseV2.Flush
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush
     isExternal: true
   - name: (
     nameWithType: (
@@ -620,10 +514,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.Cache.XCacheBase.Flush
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
     name: Flush
-    nameWithType: XCacheBase.Flush
-    fullName: SuperOffice.Data.Cache.XCacheBase.Flush
+    nameWithType: CacheBaseV2.Flush
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush
     isExternal: true
   - name: (
     nameWithType: (
@@ -631,93 +525,68 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
-  commentId: M:SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
-  parent: SuperOffice.Data.Cache.XCacheBase
+- uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+  parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  name: IsCacheInvalidated(Int32, SqlType, Int32)
-  nameWithType: XCacheBase.IsCacheInvalidated(Int32, SqlType, Int32)
-  fullName: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated(System.Int32, SuperOffice.Data.SQL.SqlType, System.Int32)
+  name: BeginDisableAutoUpdate()
+  nameWithType: CacheBaseV2.BeginDisableAutoUpdate()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate()
   spec.csharp:
-  - uid: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
-    name: IsCacheInvalidated
-    nameWithType: XCacheBase.IsCacheInvalidated
-    fullName: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+    name: BeginDisableAutoUpdate
+    nameWithType: CacheBaseV2.BeginDisableAutoUpdate
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.Data.SQL.SqlType
-    name: SqlType
-    nameWithType: SqlType
-    fullName: SuperOffice.Data.SQL.SqlType
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
-    name: IsCacheInvalidated
-    nameWithType: XCacheBase.IsCacheInvalidated
-    fullName: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+    name: BeginDisableAutoUpdate
+    nameWithType: CacheBaseV2.BeginDisableAutoUpdate
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.Data.SQL.SqlType
-    name: SqlType
-    nameWithType: SqlType
-    fullName: SuperOffice.Data.SQL.SqlType
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.Cache.XCacheBase.Timeout
-  commentId: P:SuperOffice.Data.Cache.XCacheBase.Timeout
-  parent: SuperOffice.Data.Cache.XCacheBase
+- uid: SuperOffice.Data.Cache.CacheBaseV2.Load
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Load
+  parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  name: Timeout
-  nameWithType: XCacheBase.Timeout
-  fullName: SuperOffice.Data.Cache.XCacheBase.Timeout
-- uid: SuperOffice.Data.Cache.XCacheBase.LastTouch
-  commentId: P:SuperOffice.Data.Cache.XCacheBase.LastTouch
-  parent: SuperOffice.Data.Cache.XCacheBase
-  isExternal: true
-  name: LastTouch
-  nameWithType: XCacheBase.LastTouch
-  fullName: SuperOffice.Data.Cache.XCacheBase.LastTouch
+  name: Load()
+  nameWithType: CacheBaseV2.Load()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.Load()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Load
+    name: Load
+    nameWithType: CacheBaseV2.Load
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Load
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Load
+    name: Load
+    nameWithType: CacheBaseV2.Load
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Load
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -1174,76 +1043,70 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Cache.ConsentCache.#ctor*
-  commentId: Overload:SuperOffice.CRM.Cache.ConsentCache.#ctor
-  isExternal: true
-  name: ConsentCache
-  nameWithType: ConsentCache.ConsentCache
-  fullName: SuperOffice.CRM.Cache.ConsentCache.ConsentCache
 - uid: SuperOffice.CRM.Cache.ConsentCache.GetConsentPurposeInfos*
   commentId: Overload:SuperOffice.CRM.Cache.ConsentCache.GetConsentPurposeInfos
   isExternal: true
   name: GetConsentPurposeInfos
   nameWithType: ConsentCache.GetConsentPurposeInfos
   fullName: SuperOffice.CRM.Cache.ConsentCache.GetConsentPurposeInfos
-- uid: System.Collections.Generic.List{SuperOffice.CRM.Cache.ConsentCache.ConsentPurposeInfo}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Cache.ConsentCache.ConsentPurposeInfo}
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConsentPurposeRecordData}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConsentPurposeRecordData}
   parent: System.Collections.Generic
-  definition: System.Collections.Generic.List`1
-  name: List<ConsentCache.ConsentPurposeInfo>
-  nameWithType: List<ConsentCache.ConsentPurposeInfo>
-  fullName: System.Collections.Generic.List<SuperOffice.CRM.Cache.ConsentCache.ConsentPurposeInfo>
-  nameWithType.vb: List(Of ConsentCache.ConsentPurposeInfo)
-  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Cache.ConsentCache.ConsentPurposeInfo)
-  name.vb: List(Of ConsentCache.ConsentPurposeInfo)
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ConsentPurposeRecordData>
+  nameWithType: IEnumerable<ConsentPurposeRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ConsentPurposeRecordData>
+  nameWithType.vb: IEnumerable(Of ConsentPurposeRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ConsentPurposeRecordData)
+  name.vb: IEnumerable(Of ConsentPurposeRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - uid: SuperOffice.CRM.Cache.ConsentCache.ConsentPurposeInfo
-    name: ConsentCache.ConsentPurposeInfo
-    nameWithType: ConsentCache.ConsentPurposeInfo
-    fullName: SuperOffice.CRM.Cache.ConsentCache.ConsentPurposeInfo
+  - uid: SuperOffice.CRM.Rows.ConsentPurposeRecordData
+    name: ConsentPurposeRecordData
+    nameWithType: ConsentPurposeRecordData
+    fullName: SuperOffice.CRM.Rows.ConsentPurposeRecordData
     isExternal: true
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: SuperOffice.CRM.Cache.ConsentCache.ConsentPurposeInfo
-    name: ConsentCache.ConsentPurposeInfo
-    nameWithType: ConsentCache.ConsentPurposeInfo
-    fullName: SuperOffice.CRM.Cache.ConsentCache.ConsentPurposeInfo
+  - uid: SuperOffice.CRM.Rows.ConsentPurposeRecordData
+    name: ConsentPurposeRecordData
+    nameWithType: ConsentPurposeRecordData
+    fullName: SuperOffice.CRM.Rows.ConsentPurposeRecordData
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
   spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -1255,10 +1118,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -1275,56 +1138,6 @@ references:
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
-- uid: SuperOffice.CRM.Cache.ConsentCache.GetShipmentTypeInfos*
-  commentId: Overload:SuperOffice.CRM.Cache.ConsentCache.GetShipmentTypeInfos
-  isExternal: true
-  name: GetShipmentTypeInfos
-  nameWithType: ConsentCache.GetShipmentTypeInfos
-  fullName: SuperOffice.CRM.Cache.ConsentCache.GetShipmentTypeInfos
-- uid: System.Collections.Generic.List{SuperOffice.CRM.Cache.ConsentCache.ShipmentTypeInfo}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Cache.ConsentCache.ShipmentTypeInfo}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.List`1
-  name: List<ConsentCache.ShipmentTypeInfo>
-  nameWithType: List<ConsentCache.ShipmentTypeInfo>
-  fullName: System.Collections.Generic.List<SuperOffice.CRM.Cache.ConsentCache.ShipmentTypeInfo>
-  nameWithType.vb: List(Of ConsentCache.ShipmentTypeInfo)
-  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Cache.ConsentCache.ShipmentTypeInfo)
-  name.vb: List(Of ConsentCache.ShipmentTypeInfo)
-  spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.Cache.ConsentCache.ShipmentTypeInfo
-    name: ConsentCache.ShipmentTypeInfo
-    nameWithType: ConsentCache.ShipmentTypeInfo
-    fullName: SuperOffice.CRM.Cache.ConsentCache.ShipmentTypeInfo
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.Cache.ConsentCache.ShipmentTypeInfo
-    name: ConsentCache.ShipmentTypeInfo
-    nameWithType: ConsentCache.ShipmentTypeInfo
-    fullName: SuperOffice.CRM.Cache.ConsentCache.ShipmentTypeInfo
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Cache.ConsentCache.GetPurposeNameFromId*
   commentId: Overload:SuperOffice.CRM.Cache.ConsentCache.GetPurposeNameFromId
   isExternal: true
@@ -1375,69 +1188,6 @@ references:
   name: GetConsentSourceIdFromKey
   nameWithType: ConsentCache.GetConsentSourceIdFromKey
   fullName: SuperOffice.CRM.Cache.ConsentCache.GetConsentSourceIdFromKey
-- uid: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
-  commentId: M:SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
-  parent: SuperOffice.Data.Cache.XCacheBase
-  isExternal: true
-  name: GetCachedTableNumbers()
-  nameWithType: XCacheBase.GetCachedTableNumbers()
-  fullName: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers()
-  spec.csharp:
-  - uid: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
-    name: GetCachedTableNumbers
-    nameWithType: XCacheBase.GetCachedTableNumbers
-    fullName: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
-    name: GetCachedTableNumbers
-    nameWithType: XCacheBase.GetCachedTableNumbers
-    fullName: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Cache.ConsentCache.GetCachedTableNumbers*
-  commentId: Overload:SuperOffice.CRM.Cache.ConsentCache.GetCachedTableNumbers
-  isExternal: true
-  name: GetCachedTableNumbers
-  nameWithType: ConsentCache.GetCachedTableNumbers
-  fullName: SuperOffice.CRM.Cache.ConsentCache.GetCachedTableNumbers
-- uid: System.Int32[]
-  isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
-  spec.csharp:
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
 - uid: SuperOffice.CRM.Cache.ConsentCache.GetCurrent*
   commentId: Overload:SuperOffice.CRM.Cache.ConsentCache.GetCurrent
   isExternal: true
@@ -1451,6 +1201,43 @@ references:
   name: ConsentCache
   nameWithType: ConsentCache
   fullName: SuperOffice.CRM.Cache.ConsentCache
+- uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  isExternal: true
+  name: OnLoad()
+  nameWithType: CacheBaseV2.OnLoad()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoad()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+    name: OnLoad
+    nameWithType: CacheBaseV2.OnLoad
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+    name: OnLoad
+    nameWithType: CacheBaseV2.OnLoad
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Cache.ConsentCache.OnLoad*
+  commentId: Overload:SuperOffice.CRM.Cache.ConsentCache.OnLoad
+  isExternal: true
+  name: OnLoad
+  nameWithType: ConsentCache.OnLoad
+  fullName: SuperOffice.CRM.Cache.ConsentCache.OnLoad
 - uid: SuperOffice.CRM.Cache.ConsentCache.WithdrawnBase*
   commentId: Overload:SuperOffice.CRM.Cache.ConsentCache.WithdrawnBase
   isExternal: true

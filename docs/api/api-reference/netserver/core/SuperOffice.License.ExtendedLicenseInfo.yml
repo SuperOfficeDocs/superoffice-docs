@@ -21,10 +21,10 @@ items:
   fullName: SuperOffice.License.ExtendedLicenseInfo
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public class ExtendedLicenseInfo
@@ -64,10 +64,10 @@ items:
   fullName: SuperOffice.License.ExtendedLicenseInfo.ExtendedLicenseInfo()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public ExtendedLicenseInfo()
@@ -89,10 +89,10 @@ items:
   fullName: SuperOffice.License.ExtendedLicenseInfo.Item[System.String]
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nGet the extended module license from the module name.\n"
   syntax:
@@ -127,10 +127,10 @@ items:
   fullName: SuperOffice.License.ExtendedLicenseInfo.Reason
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public string Reason { get; set; }
@@ -157,10 +157,10 @@ items:
   fullName: SuperOffice.License.ExtendedLicenseInfo.CanBeActivated
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public bool CanBeActivated { get; set; }
@@ -187,10 +187,10 @@ items:
   fullName: SuperOffice.License.ExtendedLicenseInfo.New
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public LicenseInfo New { get; set; }
@@ -217,10 +217,10 @@ items:
   fullName: SuperOffice.License.ExtendedLicenseInfo.Current
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public LicenseInfo Current { get; set; }
@@ -247,10 +247,10 @@ items:
   fullName: SuperOffice.License.ExtendedLicenseInfo.ExtendedModuleLicenses
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public ExtendedModuleLicense[] ExtendedModuleLicenses { get; set; }
@@ -277,10 +277,10 @@ items:
   fullName: SuperOffice.License.ExtendedLicenseInfo.AccumulatedNextCheckDate
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public DateTime AccumulatedNextCheckDate { get; set; }

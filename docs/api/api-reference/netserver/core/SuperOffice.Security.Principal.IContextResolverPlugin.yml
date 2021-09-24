@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Security.Principal.IContextResolverPlugin
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nInterface implemented by context resolvers.\n"
   remarks: "\nA Context resolver is responsible for determine if a particular user belongs to a \nparticular context.  This plugin is called during pre-authentication procedure to \nfigure out what database teh authentication should be carried out on.\n"
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Security.Principal.IContextResolverPlugin.TryResolveContext(System.IdentityModel.Tokens.SecurityToken[], out System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nImplementation of this method is responsible for resolving the context\n"
   syntax:

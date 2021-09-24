@@ -25,9 +25,13 @@ items:
     content: >-
       [MDOProviderPlugin("MergeTags")]
 
+      [MDOAdditionalInfo("includeTicket", "Include ticket parser variables", false)]
+
       public class MergeTagsProvider : LiteralsOnlyBase, ISoListProvider, ISoList, IPlugin
     content.vb: >-
       <MDOProviderPlugin("MergeTags")>
+
+      <MDOAdditionalInfo("includeTicket", "Include ticket parser variables", False)>
 
       Public Class MergeTagsProvider
           Inherits LiteralsOnlyBase
@@ -68,6 +72,15 @@ items:
     arguments:
     - type: System.String
       value: MergeTags
+  - type: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute
+    ctor: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute.#ctor(System.String,System.String,System.Object)
+    arguments:
+    - type: System.String
+      value: includeTicket
+    - type: System.String
+      value: Include ticket parser variables
+    - type: System.Boolean
+      value: false
   modifiers.csharp:
   - public
   - class

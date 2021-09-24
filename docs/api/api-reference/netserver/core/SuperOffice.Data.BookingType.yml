@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.BookingType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nThe type of booking the appointment represents\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.BookingType.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: 0: Unknown - used when initializing\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.BookingType.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: 1: Single appointment records\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.BookingType.Owner
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: 2: Owner of a booking\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.BookingType.Participant
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: 3: Participant of a booking\n"
   syntax:

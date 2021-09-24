@@ -44,10 +44,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nUtility class for converting between superoffice time values (seconds after 1.1.1970) and .Net DateTime values\n"
   syntax:
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.TimeTUtc2DateTime(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConvert the time from a UTC C time_t value to local-time DateTime.\n"
   syntax:
@@ -117,10 +117,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.TimeTLocal2DateTime(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConvert the time from a local-time C time_t value to local-time DateTime.\n"
   syntax:
@@ -152,10 +152,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.ConvertBiasToMinutes(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConvert the time zone bias string to bias in minutes.\n"
   syntax:
@@ -187,10 +187,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.DateTime2TimeTUtc(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConvert the local-time DateTime to a UTC C time_t value. If the incoming DateTime already has Kind == Utc, no conversion\nwill occur, otherwise the proper time offset is added / subtracted. Kind = Local and Kind = Unspecified are both taken to mean \n"
   syntax:
@@ -222,10 +222,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.DateTime2TimeTLocal(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConvert the local-time DateTime to a local-time C time_t value. If the incoming date has Kind = Local\nor Kind = Unspecified, no calculations will be performed. If the incoming DateTime has Kind = Utc, it will be\nconverted to local time according to the current time zone settings.\n"
   syntax:
@@ -258,10 +258,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.IsEdgeTime(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nIs the time close to an edge time, and consequently treat it as the edge value?\n"
   syntax:
@@ -295,10 +295,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.SnapToEdge(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nIf the time is an edge time, return DateTime Min or max value.  Otherwise, return the actual time.\n"
   syntax:
@@ -331,10 +331,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.ConvertLocalToBase(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConvert from the current-context local time zone to the database Base time zone. MinValue and MaxValue will not be affected.\n"
   syntax:
@@ -366,10 +366,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.ConvertBaseToLocal(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConvert from the database Base time zone to the current-context local time zone. MinValue and MaxValue will not be affected.\n"
   syntax:
@@ -400,10 +400,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.ConvertFromTimeZone(System.DateTime, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConvert from the given time zone to the current-context local time zone. MinValue and MaxValue will not be affected.\n"
   syntax:
@@ -437,10 +437,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.ConvertToTimeZone(System.DateTime, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConvert from the database time to the given time zone. MinValue and MaxValue will not be affected.\n"
   syntax:
@@ -472,10 +472,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.ConvertToUTC(System.DateTime, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static DateTime ConvertToUTC(DateTime time, int sourceTZLocation)
@@ -506,10 +506,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.ConvertFromBaseToUTC(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static DateTime ConvertFromBaseToUTC(DateTime time)
@@ -538,10 +538,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.ConvertFromUTC(System.DateTime, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static DateTime ConvertFromUTC(DateTime time, int destinationTZLocation)
@@ -572,10 +572,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.GetTimeZoneDataById(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet timeZone data for a timeZoneID\n"
   syntax:
@@ -605,10 +605,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.TryGetTimeZoneDataById(System.Int32, out SuperOffice.CRM.TimeZoneData)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static bool TryGetTimeZoneDataById(int timeZoneId, out TimeZoneData timeZoneData)
@@ -642,10 +642,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.GetTimeZoneDataByCode(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static TimeZoneData GetTimeZoneDataByCode(string timeZoneCode)
@@ -674,10 +674,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.TryGetTimeZoneDataByCode(System.String, out SuperOffice.CRM.TimeZoneData)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static bool TryGetTimeZoneDataByCode(string timeZoneCode, out TimeZoneData timeZoneData)
@@ -711,10 +711,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.Clear()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static void Clear()
@@ -738,10 +738,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.MinDate
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn the lowest valid date, 1.1.1970. This DateTime has Kind = Local\n"
   syntax:
@@ -771,10 +771,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.MaxDate
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn the highest valid date. This DateTime has Kind = Local\n"
   syntax:
@@ -804,10 +804,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.MinDateUtc
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn the lowest valid date, 1.1.1970. This DateTime has Kind = Utc, but the Ticks value is the same as for the Local variant\n"
   syntax:
@@ -837,10 +837,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.MaxDateUtc
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn the highest valid date, Kind = Utc, but the Ticks value is the same as for the Local variant\n"
   syntax:
@@ -870,10 +870,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.YearZero
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn the datetime value that is used in the database, to represent &quot;lowest possible date&quot;\n"
   syntax:
@@ -903,10 +903,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.TimeZoneData
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nArray of TimeZoneData\n"
   syntax:
@@ -936,10 +936,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.TimeZoneDataById
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nDictionary of TimeZoneData indexed on locationID\n"
   syntax:
@@ -983,10 +983,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.TimeZoneDataByCode
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nDictionary of TimeZoneData indexed on location code\n"
   syntax:
@@ -1030,10 +1030,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.BaseTimeZoneData
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nThe base time <xref href=\"SuperOffice.Util.TimeConverter.TimeZoneData\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
@@ -1063,10 +1063,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.IsTimezoneEnabled
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturns true if TimeZone is enabled.\n"
   syntax:
@@ -1096,10 +1096,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.IsInitialized
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static bool IsInitialized { get; }
@@ -1128,10 +1128,10 @@ items:
   fullName: SuperOffice.Util.TimeConverter.IsInitializing
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nIs in the process of initializing time zone...\n"
   syntax:

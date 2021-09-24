@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Security.Cryptography
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nCryptographic options\n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Security.Cryptography.SymmetricKey
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe Key used in the Rijndael algorithm\n"
   syntax:
@@ -87,10 +87,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Security.Cryptography.SymmetricIV
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe IV used in the Rijndael algorithm\n"
   syntax:
@@ -120,10 +120,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Security.Cryptography.SymmetricSecret
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nA secret phrase used as a signature\n"
   syntax:

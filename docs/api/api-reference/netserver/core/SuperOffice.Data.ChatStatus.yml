@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Data.ChatStatus
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValue for field &apos;chat_status&apos; in table &apos;ejuser&apos;.\nThis Enum is used by:  ejuser.chat_status\n"
   syntax:
@@ -47,10 +47,10 @@ items:
   fullName: SuperOffice.Data.ChatStatus.NotPresent
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: The user is marked as not present\n"
   syntax:
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.Data.ChatStatus.Present
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: The user is marked as present\n"
   syntax:

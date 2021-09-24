@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Diagnostics.OperationResourcesUsage
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public class OperationResourcesUsage
@@ -59,10 +59,10 @@ items:
   fullName: SuperOffice.Diagnostics.OperationResourcesUsage.OperationResourcesUsage()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public OperationResourcesUsage()
@@ -84,10 +84,10 @@ items:
   fullName: SuperOffice.Diagnostics.OperationResourcesUsage.Count
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public int Count { get; set; }
@@ -114,10 +114,10 @@ items:
   fullName: SuperOffice.Diagnostics.OperationResourcesUsage.ClockTime
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public TimeSpan ClockTime { get; set; }
@@ -144,10 +144,10 @@ items:
   fullName: SuperOffice.Diagnostics.OperationResourcesUsage.CpuTime
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public TimeSpan CpuTime { get; set; }
@@ -174,10 +174,10 @@ items:
   fullName: SuperOffice.Diagnostics.OperationResourcesUsage.Items
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public int Items { get; set; }

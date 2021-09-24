@@ -23,10 +23,10 @@ items:
   fullName: SuperOffice.Exceptions.ExceptionHelper
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nHelper class to work with exceptions\n"
   syntax:
@@ -62,10 +62,10 @@ items:
   fullName: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo(System.Exception)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nExtension method retrieving a SoExceptionInfo from Exception\n"
   syntax:
@@ -99,10 +99,10 @@ items:
   fullName: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(System.Exception)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nGet the innermost exception from an exception - keeping whatever serialized exception required.\n"
   syntax:
@@ -138,10 +138,10 @@ items:
   fullName: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(SuperOffice.Exceptions.SoExceptionInfo)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nGet the innermost exception from an exception - keeping whatever serialized exception required.\n"
   syntax:
@@ -177,10 +177,10 @@ items:
   fullName: SuperOffice.Exceptions.ExceptionHelper.TryGetRealType(SuperOffice.Exceptions.SoExceptionInfo, out System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nTry to get the real type encapsulated in <xref href=\"SuperOffice.Exceptions.SoExceptionInfo.ExceptionType\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
@@ -219,10 +219,10 @@ items:
   fullName: SuperOffice.Exceptions.ExceptionHelper.ToString(SuperOffice.Exceptions.SoExceptionInfo, System.String, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nReturn a compilation of all exception messages, separated by the provided seperator.\n"
   syntax:
@@ -264,10 +264,10 @@ items:
   fullName: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nRecurse an exception and return a simple string, starting with the outermost, with one element per exception message\n"
   syntax:
@@ -306,10 +306,10 @@ items:
   fullName: SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nEnumerate over all exceptions in the tree.\n"
   syntax:
@@ -345,10 +345,10 @@ items:
   fullName: SuperOffice.Exceptions.ExceptionHelper.Enumerate(SuperOffice.Exceptions.SoExceptionInfo)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nEnumerate over all exceptions in the tree.\n"
   syntax:
@@ -384,10 +384,10 @@ items:
   fullName: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType<T>(System.Exception)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nRecursively traverse the InnerException stack from the given starting point, and look\nfor an element of the given type. If found, return that element, otherwise null.\n"
   syntax:
@@ -431,10 +431,10 @@ items:
   fullName: SuperOffice.Exceptions.ExceptionHelper.GetFriendlyText(SuperOffice.Exceptions.SoExceptionInfo)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nGet the friendly text from an exception.  If one does not exist, return the message instead.\n"
   syntax:

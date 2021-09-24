@@ -16,15 +16,15 @@ items:
   assemblies:
   - SoDataBase
 references:
-- uid: SuperOffice.CRM.TimeZone.TimeZoneManager
-  commentId: T:SuperOffice.CRM.TimeZone.TimeZoneManager
-  isExternal: true
-  name: TimeZoneManager
-  nameWithType: TimeZoneManager
-  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager
 - uid: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher
   commentId: T:SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher
   isExternal: true
   name: SoLocalTimeConverterDataFetcher
   nameWithType: SoLocalTimeConverterDataFetcher
   fullName: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager
+  commentId: T:SuperOffice.CRM.TimeZone.TimeZoneManager
+  isExternal: true
+  name: TimeZoneManager
+  nameWithType: TimeZoneManager
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager

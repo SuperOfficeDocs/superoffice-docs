@@ -35,6 +35,7 @@ items:
   - SuperOffice.CRM.Data.DBC.Business
   - SuperOffice.CRM.Data.DBC.BusinessGroupLink
   - SuperOffice.CRM.Data.DBC.BusinessHeadingLink
+  - SuperOffice.CRM.Data.DBC.CacheInvalidation
   - SuperOffice.CRM.Data.DBC.CacheTables
   - SuperOffice.CRM.Data.DBC.Category
   - SuperOffice.CRM.Data.DBC.CategoryFamily
@@ -51,6 +52,7 @@ items:
   - SuperOffice.CRM.Data.DBC.ComptrGroupLink
   - SuperOffice.CRM.Data.DBC.ComptrHeadingLink
   - SuperOffice.CRM.Data.DBC.Config
+  - SuperOffice.CRM.Data.DBC.ConfigurableScreenDelta
   - SuperOffice.CRM.Data.DBC.ConnectionConfigField
   - SuperOffice.CRM.Data.DBC.ConsentPerson
   - SuperOffice.CRM.Data.DBC.ConsentPurpose
@@ -74,6 +76,11 @@ items:
   - SuperOffice.CRM.Data.DBC.CustCategory
   - SuperOffice.CRM.Data.DBC.CustConfig
   - SuperOffice.CRM.Data.DBC.CustLang
+  - SuperOffice.CRM.Data.DBC.Dashboard
+  - SuperOffice.CRM.Data.DBC.DashboardTheme
+  - SuperOffice.CRM.Data.DBC.DashboardTile
+  - SuperOffice.CRM.Data.DBC.DashboardTileDefinition
+  - SuperOffice.CRM.Data.DBC.DashboardTileField
   - SuperOffice.CRM.Data.DBC.DatabaseModel
   - SuperOffice.CRM.Data.DBC.DataRight
   - SuperOffice.CRM.Data.DBC.DbiAgent
@@ -13925,6 +13932,35 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigurableScreenDelta
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigurableScreenDelta
+  id: ConfigurableScreenDelta
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: ConfigurableScreenDelta
+  nameWithType: DBC.ConfigurableScreenDelta
+  fullName: SuperOffice.CRM.Data.DBC.ConfigurableScreenDelta
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfigurableScreenDelta: Parts of recipes in SCIL to insert or remove in given recipes\n"
+  syntax:
+    content: public const string ConfigurableScreenDelta = "ConfigurableScreenDelta"
+    return:
+      type: System.String
+    content.vb: Public Const ConfigurableScreenDelta As String = "ConfigurableScreenDelta"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ConsentPurpose
   commentId: F:SuperOffice.CRM.Data.DBC.ConsentPurpose
   id: ConsentPurpose
@@ -14180,6 +14216,151 @@ items:
     return:
       type: System.String
     content.vb: Public Const CustConfig As String = "cust_config"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.Dashboard
+  commentId: F:SuperOffice.CRM.Data.DBC.Dashboard
+  id: Dashboard
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: Dashboard
+  nameWithType: DBC.Dashboard
+  fullName: SuperOffice.CRM.Data.DBC.Dashboard
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboard: Describes a dashboard\n"
+  syntax:
+    content: public const string Dashboard = "dashboard"
+    return:
+      type: System.String
+    content.vb: Public Const Dashboard As String = "dashboard"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTheme
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTheme
+  id: DashboardTheme
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: DashboardTheme
+  nameWithType: DBC.DashboardTheme
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTheme
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTheme: A set of style rules for the Dashboard\n"
+  syntax:
+    content: public const string DashboardTheme = "dashboard_theme"
+    return:
+      type: System.String
+    content.vb: Public Const DashboardTheme As String = "dashboard_theme"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileDefinition
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTileDefinition
+  id: DashboardTileDefinition
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileDefinition
+  nameWithType: DBC.DashboardTileDefinition
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileDefinition
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTileDefinition: Describes the contents of a tile\n"
+  syntax:
+    content: public const string DashboardTileDefinition = "dashboard_tile_definition"
+    return:
+      type: System.String
+    content.vb: Public Const DashboardTileDefinition As String = "dashboard_tile_definition"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTile
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTile
+  id: DashboardTile
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: DashboardTile
+  nameWithType: DBC.DashboardTile
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTile
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTile: Represents one tile in the dashboard\n"
+  syntax:
+    content: public const string DashboardTile = "dashboard_tile"
+    return:
+      type: System.String
+    content.vb: Public Const DashboardTile As String = "dashboard_tile"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DashboardTileField
+  commentId: F:SuperOffice.CRM.Data.DBC.DashboardTileField
+  id: DashboardTileField
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileField
+  nameWithType: DBC.DashboardTileField
+  fullName: SuperOffice.CRM.Data.DBC.DashboardTileField
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDashboardTileField: Describes the contents of a tile field\n"
+  syntax:
+    content: public const string DashboardTileField = "dashboard_tile_field"
+    return:
+      type: System.String
+    content.vb: Public Const DashboardTileField As String = "dashboard_tile_field"
   modifiers.csharp:
   - public
   - const
@@ -14673,6 +14854,35 @@ items:
     return:
       type: System.String
     content.vb: Public Const AssociateHistory As String = "AssociateHistory"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.CacheInvalidation
+  commentId: F:SuperOffice.CRM.Data.DBC.CacheInvalidation
+  id: CacheInvalidation
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: CacheInvalidation
+  nameWithType: DBC.CacheInvalidation
+  fullName: SuperOffice.CRM.Data.DBC.CacheInvalidation
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nCacheInvalidation: Names and generation numbers for distributed invalidation of caches\n"
+  syntax:
+    content: public const string CacheInvalidation = "CacheInvalidation"
+    return:
+      type: System.String
+    content.vb: Public Const CacheInvalidation As String = "CacheInvalidation"
   modifiers.csharp:
   - public
   - const

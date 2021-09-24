@@ -20,10 +20,10 @@ items:
   fullName: SuperOffice.OperationContextType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public enum OperationContextType
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.OperationContextType.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: None = 0
@@ -78,10 +78,10 @@ items:
   fullName: SuperOffice.OperationContextType.WebPage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: WebPage = 1
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.OperationContextType.AjaxCallback
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: AjaxCallback = 2
@@ -132,10 +132,10 @@ items:
   fullName: SuperOffice.OperationContextType.WebTools
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: WebTools = 3
@@ -159,10 +159,10 @@ items:
   fullName: SuperOffice.OperationContextType.WcfService
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: WcfService = 4
@@ -186,10 +186,10 @@ items:
   fullName: SuperOffice.OperationContextType.SuperIdTenantService
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: SuperIdTenantService = 5
@@ -213,10 +213,10 @@ items:
   fullName: SuperOffice.OperationContextType.FilesetService
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: FilesetService = 6

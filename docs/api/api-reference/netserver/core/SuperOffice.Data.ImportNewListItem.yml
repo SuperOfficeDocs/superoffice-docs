@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.ImportNewListItem
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nImport new list item\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.ImportNewListItem.AddItemToList
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Add item to list\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.ImportNewListItem.SetToDefault
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Set to default\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.ImportNewListItem.SetToBlank
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Set to blank\n"
   syntax:

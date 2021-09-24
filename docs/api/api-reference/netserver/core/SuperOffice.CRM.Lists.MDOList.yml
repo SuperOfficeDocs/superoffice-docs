@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.CRM.Lists.MDOList
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n\n"
   syntax:
@@ -65,10 +65,10 @@ items:
   fullName: SuperOffice.CRM.Lists.MDOList.MDOList()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nDefault constructor\n"
   syntax:
@@ -91,10 +91,10 @@ items:
   fullName: SuperOffice.CRM.Lists.MDOList.MDOList(System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>, System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListHeading>, System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nInit constructor\n"
   syntax:
@@ -127,10 +127,10 @@ items:
   fullName: SuperOffice.CRM.Lists.MDOList.MDOList(System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>, System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListHeading>)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nInit constructor\n"
   syntax:
@@ -161,10 +161,10 @@ items:
   fullName: SuperOffice.CRM.Lists.MDOList.HistoryItems
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n\n"
   syntax:
@@ -194,10 +194,10 @@ items:
   fullName: SuperOffice.CRM.Lists.MDOList.RootItems
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n\n"
   syntax:
@@ -227,10 +227,10 @@ items:
   fullName: SuperOffice.CRM.Lists.MDOList.HeadingItems
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n\n"
   syntax:

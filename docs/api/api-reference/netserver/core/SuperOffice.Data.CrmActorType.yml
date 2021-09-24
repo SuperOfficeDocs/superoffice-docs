@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Data.CrmActorType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nActor type within the CRM, system, a subset of the SuperOffice Entity types\nThis Enum is used by:  ErpConnectionActorType.ActorTypeCrm\n"
   syntax:
@@ -50,10 +50,10 @@ items:
   fullName: SuperOffice.Data.CrmActorType.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown - used when initializing\n"
   syntax:
@@ -78,10 +78,10 @@ items:
   fullName: SuperOffice.Data.CrmActorType.Contact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Crm Customer\n"
   syntax:
@@ -106,10 +106,10 @@ items:
   fullName: SuperOffice.Data.CrmActorType.Person
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Person\n"
   syntax:
@@ -134,10 +134,10 @@ items:
   fullName: SuperOffice.Data.CrmActorType.Project
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Project\n"
   syntax:
@@ -162,10 +162,10 @@ items:
   fullName: SuperOffice.Data.CrmActorType.Sale
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Sale\n"
   syntax:

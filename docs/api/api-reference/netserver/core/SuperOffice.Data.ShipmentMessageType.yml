@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Data.ShipmentMessageType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nBitmask defining what type of shipment message this is\nThis Enum is used by:  s_message.flags\nThis Enum consists of flag values that can be combined.\n"
   syntax:
@@ -60,10 +60,10 @@ items:
   fullName: SuperOffice.Data.ShipmentMessageType.Plain
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Contains a plain part\n"
   syntax:
@@ -88,10 +88,10 @@ items:
   fullName: SuperOffice.Data.ShipmentMessageType.Html
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Contains a HTML part\n"
   syntax:
@@ -116,10 +116,10 @@ items:
   fullName: SuperOffice.Data.ShipmentMessageType.SourceView
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Obsolete\n"
   syntax:
@@ -144,10 +144,10 @@ items:
   fullName: SuperOffice.Data.ShipmentMessageType.Sms
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Contains a SMS\n"
   syntax:
@@ -172,10 +172,10 @@ items:
   fullName: SuperOffice.Data.ShipmentMessageType.Document
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Contains a document. The document_message field contains the id of the actual document\n"
   syntax:

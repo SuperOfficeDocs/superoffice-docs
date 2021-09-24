@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.RecurrenceMonthlyPattern
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nEnumerator describing the different patterns for a monthly recurrence\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.RecurrenceMonthlyPattern.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: 0: Unknown/undecided type\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.RecurrenceMonthlyPattern.DayOfMonth
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: The recurrence is for a numbered day of the month, e.g. the 17. day of every 2 months\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.RecurrenceMonthlyPattern.WeekdayOfMonth
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: The recurrence is for weekdays in the month, e.g. the 3. thursday of every 3 months\n"
   syntax:

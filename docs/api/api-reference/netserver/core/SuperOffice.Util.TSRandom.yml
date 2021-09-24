@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Util.TSRandom
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public class TSRandom
@@ -60,10 +60,10 @@ items:
   fullName: SuperOffice.Util.TSRandom.Next()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public int Next()
@@ -87,10 +87,10 @@ items:
   fullName: SuperOffice.Util.TSRandom.Next(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public int Next(int max)
@@ -117,10 +117,10 @@ items:
   fullName: SuperOffice.Util.TSRandom.Next(System.Int32, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public int Next(int min, int max)
@@ -149,10 +149,10 @@ items:
   fullName: SuperOffice.Util.TSRandom.NextDouble()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public double NextDouble()
@@ -176,10 +176,10 @@ items:
   fullName: SuperOffice.Util.TSRandom.Init()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public void Init()
@@ -201,10 +201,10 @@ items:
   fullName: SuperOffice.Util.TSRandom.TSRandom()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public TSRandom()

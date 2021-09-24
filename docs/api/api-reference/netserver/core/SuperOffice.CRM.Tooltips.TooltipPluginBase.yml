@@ -78,7 +78,6 @@ items:
   - SuperOffice.CRM.Tooltips.SaleStakeholderTooltipPlugin
   - SuperOffice.CRM.Tooltips.SaleTooltipPlugin
   - SuperOffice.CRM.Tooltips.SelectionTooltipPlugin
-  - SuperOffice.CRM.Tooltips.SuperListColumnSizeTooltipPlugin
   - SuperOffice.CRM.Tooltips.TextTooltipPlugin
   - SuperOffice.CRM.Tooltips.TicketTooltipPlugin
   - SuperOffice.CRM.Tooltips.TimeZoneTooltipPlugin
@@ -121,16 +120,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Tooltips
   syntax:
-    content: public static string ImageHint
+    content: public const string ImageHint = "images"
     return:
       type: System.String
-    content.vb: Public Shared ImageHint As String
+    content.vb: Public Const ImageHint As String = "images"
   modifiers.csharp:
   - public
-  - static
+  - const
   modifiers.vb:
   - Public
-  - Shared
+  - Const
 - uid: SuperOffice.CRM.Tooltips.TooltipPluginBase.SimpleHint
   commentId: F:SuperOffice.CRM.Tooltips.TooltipPluginBase.SimpleHint
   id: SimpleHint
@@ -149,16 +148,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Tooltips
   syntax:
-    content: public static string SimpleHint
+    content: public const string SimpleHint = "simple"
     return:
       type: System.String
-    content.vb: Public Shared SimpleHint As String
+    content.vb: Public Const SimpleHint As String = "simple"
   modifiers.csharp:
   - public
-  - static
+  - const
   modifiers.vb:
   - Public
-  - Shared
+  - Const
 - uid: SuperOffice.CRM.Tooltips.TooltipPluginBase.UpdatedHint
   commentId: F:SuperOffice.CRM.Tooltips.TooltipPluginBase.UpdatedHint
   id: UpdatedHint
@@ -177,16 +176,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Tooltips
   syntax:
-    content: public static string UpdatedHint
+    content: public const string UpdatedHint = "updated"
     return:
       type: System.String
-    content.vb: Public Shared UpdatedHint As String
+    content.vb: Public Const UpdatedHint As String = "updated"
   modifiers.csharp:
   - public
-  - static
+  - const
   modifiers.vb:
   - Public
-  - Shared
+  - Const
 - uid: SuperOffice.CRM.Tooltips.TooltipPluginBase.GetTooltip(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}})
   commentId: M:SuperOffice.CRM.Tooltips.TooltipPluginBase.GetTooltip(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}})
   id: GetTooltip(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}})

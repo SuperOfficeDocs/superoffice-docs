@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Data.OrderBySortType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nHow to sort the Order by statement.\n"
   syntax:
@@ -47,10 +47,10 @@ items:
   fullName: SuperOffice.Data.OrderBySortType.ASC
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Sort the Order by Ascending\n"
   syntax:
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.Data.OrderBySortType.DESC
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Sort the Order by Descending\n"
   syntax:

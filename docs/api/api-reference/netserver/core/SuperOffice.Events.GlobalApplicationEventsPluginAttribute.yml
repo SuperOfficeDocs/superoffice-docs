@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Events.GlobalApplicationEventsPluginAttribute
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Events
   summary: "\nAttribute to declare plugin for handling global events\n"
   syntax:
@@ -100,10 +100,10 @@ items:
   fullName: SuperOffice.Events.GlobalApplicationEventsPluginAttribute.GlobalApplicationEventsPluginAttribute(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Events
   summary: "\nDefault constructor for plugin for handling global events\n"
   syntax:

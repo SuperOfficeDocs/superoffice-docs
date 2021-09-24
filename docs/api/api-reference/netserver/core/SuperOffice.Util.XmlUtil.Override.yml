@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Util.XmlUtil.Override
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nShould existing values be overridden or not\n"
   syntax:
@@ -47,10 +47,10 @@ items:
   fullName: SuperOffice.Util.XmlUtil.Override.Override
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nOverride any existing value\n"
   syntax:
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.Util.XmlUtil.Override.DoNotOverride
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nDo not override an existing value (no update will be made)\n"
   syntax:

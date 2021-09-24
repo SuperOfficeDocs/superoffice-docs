@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.SelectionType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nSelection type - static/dynamic/combined. Works together with targetTable to define what kind of Selection this is.\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.SelectionType.Static
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Static selection\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.SelectionType.Dynamic
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Dynamic selection\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.SelectionType.Combined
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Combined selection\n"
   syntax:

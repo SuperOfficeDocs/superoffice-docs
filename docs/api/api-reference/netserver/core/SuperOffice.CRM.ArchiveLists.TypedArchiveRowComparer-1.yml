@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer<RowType>
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nComparer class used to compare two ArchiveRow objects according to the given orderby\ncriteria. This class handles comparisons by both OrderByValue and DisplayValue, type\nharmonization and conversions, and multiple ascending/descending orderby criteria.\n<p></p>\nIf you have a set of archive row iterators, you can use the <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveRowIteratorComparer\" data-throw-if-not-resolved=\"false\"></xref>\nclass to sort the iterators according to their .Current rows\n"
   syntax:
@@ -66,10 +66,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer<RowType>.TypedArchiveRowComparer(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the comparer, and set the orderby criteria. \n"
   syntax:
@@ -106,10 +106,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.TypedArchiveRowComparer<RowType>.Compare(RowType, RowType)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nCompare two ArchiveRow elements according to the orderby criteria set\n"
   syntax:

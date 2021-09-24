@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Data.CsLoginOrigin
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDefines the origina of a logged in user in the login table\n"
   syntax:
@@ -50,10 +50,10 @@ items:
   fullName: SuperOffice.Data.CsLoginOrigin.OriginSoap
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: OriginSoap = 1
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.CsLoginOrigin.OriginWebPages
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: OriginWebPages = 2
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.CsLoginOrigin.OriginCRM
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: OriginCRM = 3
@@ -131,10 +131,10 @@ items:
   fullName: SuperOffice.Data.CsLoginOrigin.OriginCompact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: OriginCompact = 4
@@ -158,10 +158,10 @@ items:
   fullName: SuperOffice.Data.CsLoginOrigin.OriginAPI
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: OriginAPI = 5

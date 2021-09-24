@@ -31,10 +31,10 @@ items:
   fullName: SuperOffice.Data.StatusScreenPanelType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n\n"
   syntax:
@@ -63,10 +63,10 @@ items:
   fullName: SuperOffice.Data.StatusScreenPanelType.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: \n"
   syntax:
@@ -91,10 +91,10 @@ items:
   fullName: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerCategory
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: \n"
   syntax:
@@ -119,10 +119,10 @@ items:
   fullName: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerTopCategory
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: \n"
   syntax:
@@ -147,10 +147,10 @@ items:
   fullName: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerUser
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: \n"
   syntax:
@@ -175,10 +175,10 @@ items:
   fullName: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerUserGroup
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: \n"
   syntax:
@@ -203,10 +203,10 @@ items:
   fullName: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerPriority
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: \n"
   syntax:
@@ -231,10 +231,10 @@ items:
   fullName: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerStatus
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: \n"
   syntax:
@@ -259,10 +259,10 @@ items:
   fullName: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerOrigin
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: \n"
   syntax:
@@ -287,10 +287,10 @@ items:
   fullName: SuperOffice.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerDay
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n11: \n"
   syntax:
@@ -315,10 +315,10 @@ items:
   fullName: SuperOffice.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerWeek
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n12: \n"
   syntax:
@@ -343,10 +343,10 @@ items:
   fullName: SuperOffice.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerMonth
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n13: \n"
   syntax:
@@ -371,10 +371,10 @@ items:
   fullName: SuperOffice.Data.StatusScreenPanelType.UserResponseTimePerDay
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n21: \n"
   syntax:
@@ -399,10 +399,10 @@ items:
   fullName: SuperOffice.Data.StatusScreenPanelType.UserReponseTimePerWeek
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n22: \n"
   syntax:
@@ -427,10 +427,10 @@ items:
   fullName: SuperOffice.Data.StatusScreenPanelType.UserResponseTimePerMonth
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n23: \n"
   syntax:
@@ -455,10 +455,10 @@ items:
   fullName: SuperOffice.Data.StatusScreenPanelType.OwnOpenRequests
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n101: \n"
   syntax:
@@ -483,10 +483,10 @@ items:
   fullName: SuperOffice.Data.StatusScreenPanelType.UnassignedRequests
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n102: \n"
   syntax:
@@ -511,10 +511,10 @@ items:
   fullName: SuperOffice.Data.StatusScreenPanelType.Hotlist
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n103: \n"
   syntax:
@@ -539,10 +539,10 @@ items:
   fullName: SuperOffice.Data.StatusScreenPanelType.StatusScreen
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n111: \n"
   syntax:

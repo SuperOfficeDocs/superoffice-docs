@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Threading.QueueAsyncChunkProcessor<TWorkItem>
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nBase class for implementing a processor working on chunks of a queue.\n"
   remarks: "\nThe processor is designed to be used with <see cref=\"!:AsyncChunkedProcessedQueue\"></see> and \nwill dirrectly be used by <see cref=\"!:QueueaAsyncChunkHandler\"></see>.  Implementers of the \nprocessor needs to implement the method <xref href=\"SuperOffice.Threading.QueueAsyncChunkProcessor%601.ExecuteWorkOnWorkItem(%600)\" data-throw-if-not-resolved=\"false\"></xref> to process\neach induvidual item in the queue.  All implementations need a default parameter-less\nconstructor.\n"
@@ -74,10 +74,10 @@ items:
   fullName: SuperOffice.Threading.QueueAsyncChunkProcessor<TWorkItem>.ExecuteWork()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nPerform the actuall processing of the queue. <xref href=\"SuperOffice.Threading.QueueAsyncChunkProcessor%601.ExecuteWorkOnWorkItem(%600)\" data-throw-if-not-resolved=\"false\"></xref> \nis called to process each item in the queue\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Threading.QueueAsyncChunkProcessor<TWorkItem>.ExecuteWorkOnWorkItem(TWorkItem)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: protected abstract void ExecuteWorkOnWorkItem(TWorkItem workItem)
@@ -137,10 +137,10 @@ items:
   fullName: SuperOffice.Threading.QueueAsyncChunkProcessor<TWorkItem>.Enqueue(TWorkItem)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nAdd a work item to the queue for processing.\n"
   syntax:
@@ -172,10 +172,10 @@ items:
   fullName: SuperOffice.Threading.QueueAsyncChunkProcessor<TWorkItem>.QueueAsyncChunkProcessor()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: protected QueueAsyncChunkProcessor()
@@ -199,10 +199,10 @@ items:
   fullName: SuperOffice.Threading.QueueAsyncChunkProcessor<TWorkItem>.HasWorkToDo
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nCheck if there are more work in the queue chunk to be processed.\n"
   syntax:
@@ -235,10 +235,10 @@ items:
   fullName: SuperOffice.Threading.QueueAsyncChunkProcessor<TWorkItem>.QueueLength
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nObtain the length of the queue\n"
   syntax:

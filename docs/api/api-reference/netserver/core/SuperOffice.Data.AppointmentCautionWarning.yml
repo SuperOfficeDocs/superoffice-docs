@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Data.AppointmentCautionWarning
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nAppointment and invitation synchronization info\nThis Enum is used by:  appointment.cautionWarning\n"
   syntax:
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.Data.AppointmentCautionWarning.OK
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: OK - no special warnings\n"
   syntax:
@@ -79,10 +79,10 @@ items:
   fullName: SuperOffice.Data.AppointmentCautionWarning.NotInSync
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Possibly not in sync with external systems\n"
   syntax:
@@ -107,10 +107,10 @@ items:
   fullName: SuperOffice.Data.AppointmentCautionWarning.NotNotifiedByEmail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Updated without sending email notifications\n"
   syntax:
@@ -135,10 +135,10 @@ items:
   fullName: SuperOffice.Data.AppointmentCautionWarning.RecurrencePatternNotSupported
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: This recurrence pattern might not be supported in the external participants calendars\n"
   syntax:
@@ -163,10 +163,10 @@ items:
   fullName: SuperOffice.Data.AppointmentCautionWarning.IncomingRecurrenceChangeNotSupported
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: A requested change to a recurrence appointment was not supported\n"
   syntax:
@@ -191,10 +191,10 @@ items:
   fullName: SuperOffice.Data.AppointmentCautionWarning.ExternalParticipantsDateTimeMismatch
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Time and date may be wrong for external participants due to unsupported changes\n"
   syntax:

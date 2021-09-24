@@ -198,6 +198,7 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.CRM.Rows.IdxBase,SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+  - SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
   - SuperOffice.CRM.Rows.TableRowBase.SetSaveOwner(SuperOffice.Data.INestedPersist)
   - SuperOffice.CRM.Rows.TableRowBase.Save
   - SuperOffice.CRM.Rows.TableRowBase.Delete
@@ -307,10 +308,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.MailInFilterRow.ServerType\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: protected short _persistedServerType
+    content: protected MailboxType _persistedServerType
     return:
-      type: System.Int16
-    content.vb: Protected _persistedServerType As Short
+      type: SuperOffice.Data.MailboxType
+    content.vb: Protected _persistedServerType As MailboxType
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -955,10 +956,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.MailInFilterRow.ServerType\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: protected short _currentServerType
+    content: protected MailboxType _currentServerType
     return:
-      type: System.Int16
-    content.vb: Protected _currentServerType As Short
+      type: SuperOffice.Data.MailboxType
+    content.vb: Protected _currentServerType As MailboxType
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -2460,14 +2461,14 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: short. Enum indicating the protocol to use (POP/IMAP). \n"
+  summary: "\n.NET type: MailboxType. Enum indicating the protocol to use (POP/IMAP). \n"
   remarks: "\nOriginal type in dictionary:  Enum.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
   syntax:
-    content: public virtual short ServerType { get; set; }
+    content: public virtual MailboxType ServerType { get; set; }
     parameters: []
     return:
-      type: System.Int16
-    content.vb: Public Overridable Property ServerType As Short
+      type: SuperOffice.Data.MailboxType
+    content.vb: Public Overridable Property ServerType As MailboxType
   overload: SuperOffice.CRM.Rows.MailInFilterRow.ServerType*
   modifiers.csharp:
   - public
@@ -3244,10 +3245,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.MailInFilterRow.ServerType\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
   syntax:
-    content: protected event OnFieldChange<short> _onServerTypeChange
+    content: protected event OnFieldChange<MailboxType> _onServerTypeChange
     return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onServerTypeChange As OnFieldChange(Of Short)
+      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.MailboxType}
+    content.vb: Protected Event _onServerTypeChange As OnFieldChange(Of MailboxType)
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -3865,10 +3866,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nEvent raised when ServerType is changing.\n"
   syntax:
-    content: public event OnFieldChange<short> OnServerTypeChange
+    content: public event OnFieldChange<MailboxType> OnServerTypeChange
     return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnServerTypeChange As OnFieldChange(Of Short)
+      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.MailboxType}
+    content.vb: Public Event OnServerTypeChange As OnFieldChange(Of MailboxType)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -5133,6 +5134,63 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: SetDefaults(DashboardTileDefinitionRow, String)
+  nameWithType: TableRowBase.SetDefaults(DashboardTileDefinitionRow, String)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -7130,13 +7188,13 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
+- uid: SuperOffice.Data.MailboxType
+  commentId: T:SuperOffice.Data.MailboxType
+  parent: SuperOffice.Data
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  name: MailboxType
+  nameWithType: MailboxType
+  fullName: SuperOffice.Data.MailboxType
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -7151,6 +7209,13 @@ references:
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -8125,16 +8190,16 @@ references:
   name: MailgunDsn
   nameWithType: MailInFilterRow.MailgunDsn
   fullName: SuperOffice.CRM.Rows.MailInFilterRow.MailgunDsn
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+- uid: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.MailboxType}
+  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.MailboxType}
   parent: SuperOffice.CRM.Rows
   definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<Int16>
-  nameWithType: OnFieldChange<Int16>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.Int16>
-  nameWithType.vb: OnFieldChange(Of Int16)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.Int16)
-  name.vb: OnFieldChange(Of Int16)
+  name: OnFieldChange<MailboxType>
+  nameWithType: OnFieldChange<MailboxType>
+  fullName: SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.MailboxType>
+  nameWithType.vb: OnFieldChange(Of MailboxType)
+  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.MailboxType)
+  name.vb: OnFieldChange(Of MailboxType)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.OnFieldChange`1
     name: OnFieldChange
@@ -8144,10 +8209,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: System.Int16
-    name: Int16
-    nameWithType: Int16
-    fullName: System.Int16
+  - uid: SuperOffice.Data.MailboxType
+    name: MailboxType
+    nameWithType: MailboxType
+    fullName: SuperOffice.Data.MailboxType
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -8161,10 +8226,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: System.Int16
-    name: Int16
-    nameWithType: Int16
-    fullName: System.Int16
+  - uid: SuperOffice.Data.MailboxType
+    name: MailboxType
+    nameWithType: MailboxType
+    fullName: SuperOffice.Data.MailboxType
     isExternal: true
   - name: )
     nameWithType: )
@@ -8336,6 +8401,50 @@ references:
     name: DateTime
     nameWithType: DateTime
     fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+  parent: SuperOffice.CRM.Rows
+  definition: SuperOffice.CRM.Rows.OnFieldChange`1
+  name: OnFieldChange<Int16>
+  nameWithType: OnFieldChange<Int16>
+  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.Int16>
+  nameWithType.vb: OnFieldChange(Of Int16)
+  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.Int16)
+  name.vb: OnFieldChange(Of Int16)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
+    name: OnFieldChange
+    nameWithType: OnFieldChange
+    fullName: SuperOffice.CRM.Rows.OnFieldChange
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int16
+    name: Int16
+    nameWithType: Int16
+    fullName: System.Int16
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
+    name: OnFieldChange
+    nameWithType: OnFieldChange
+    fullName: SuperOffice.CRM.Rows.OnFieldChange
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int16
+    name: Int16
+    nameWithType: Int16
+    fullName: System.Int16
     isExternal: true
   - name: )
     nameWithType: )

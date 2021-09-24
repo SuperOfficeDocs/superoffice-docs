@@ -6,8 +6,6 @@ items:
   parent: SuperOffice.CRM.Mail
   children:
   - SuperOffice.CRM.Mail.MailSoInfoProvider.#ctor
-  - SuperOffice.CRM.Mail.MailSoInfoProvider.ForeignAppRow
-  - SuperOffice.CRM.Mail.MailSoInfoProvider.ForeignDeviceRow
   - SuperOffice.CRM.Mail.MailSoInfoProvider.GetForMessage(System.String)
   langs:
   - csharp
@@ -114,72 +112,6 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Mail.MailSoInfoProvider.ForeignAppRow
-  commentId: P:SuperOffice.CRM.Mail.MailSoInfoProvider.ForeignAppRow
-  id: ForeignAppRow
-  parent: SuperOffice.CRM.Mail.MailSoInfoProvider
-  langs:
-  - csharp
-  - vb
-  name: ForeignAppRow
-  nameWithType: MailSoInfoProvider.ForeignAppRow
-  fullName: SuperOffice.CRM.Mail.MailSoInfoProvider.ForeignAppRow
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Mail
-  summary: "\nForeignAppRow instance\n"
-  syntax:
-    content: public static ForeignAppRow ForeignAppRow { get; }
-    parameters: []
-    return:
-      type: SuperOffice.CRM.Rows.ForeignAppRow
-    content.vb: Public Shared ReadOnly Property ForeignAppRow As ForeignAppRow
-  overload: SuperOffice.CRM.Mail.MailSoInfoProvider.ForeignAppRow*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
-- uid: SuperOffice.CRM.Mail.MailSoInfoProvider.ForeignDeviceRow
-  commentId: P:SuperOffice.CRM.Mail.MailSoInfoProvider.ForeignDeviceRow
-  id: ForeignDeviceRow
-  parent: SuperOffice.CRM.Mail.MailSoInfoProvider
-  langs:
-  - csharp
-  - vb
-  name: ForeignDeviceRow
-  nameWithType: MailSoInfoProvider.ForeignDeviceRow
-  fullName: SuperOffice.CRM.Mail.MailSoInfoProvider.ForeignDeviceRow
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Mail
-  summary: "\nForeignDeviceRow instance\n"
-  syntax:
-    content: public static ForeignDeviceRow ForeignDeviceRow { get; }
-    parameters: []
-    return:
-      type: SuperOffice.CRM.Rows.ForeignDeviceRow
-    content.vb: Public Shared ReadOnly Property ForeignDeviceRow As ForeignDeviceRow
-  overload: SuperOffice.CRM.Mail.MailSoInfoProvider.ForeignDeviceRow*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Mail
   commentId: N:SuperOffice.CRM.Mail
@@ -856,35 +788,3 @@ references:
   name: MailSoInfoProvider
   nameWithType: MailSoInfoProvider.MailSoInfoProvider
   fullName: SuperOffice.CRM.Mail.MailSoInfoProvider.MailSoInfoProvider
-- uid: SuperOffice.CRM.Mail.MailSoInfoProvider.ForeignAppRow*
-  commentId: Overload:SuperOffice.CRM.Mail.MailSoInfoProvider.ForeignAppRow
-  isExternal: true
-  name: ForeignAppRow
-  nameWithType: MailSoInfoProvider.ForeignAppRow
-  fullName: SuperOffice.CRM.Mail.MailSoInfoProvider.ForeignAppRow
-- uid: SuperOffice.CRM.Rows.ForeignAppRow
-  commentId: T:SuperOffice.CRM.Rows.ForeignAppRow
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  name: ForeignAppRow
-  nameWithType: ForeignAppRow
-  fullName: SuperOffice.CRM.Rows.ForeignAppRow
-- uid: SuperOffice.CRM.Rows
-  commentId: N:SuperOffice.CRM.Rows
-  isExternal: true
-  name: SuperOffice.CRM.Rows
-  nameWithType: SuperOffice.CRM.Rows
-  fullName: SuperOffice.CRM.Rows
-- uid: SuperOffice.CRM.Mail.MailSoInfoProvider.ForeignDeviceRow*
-  commentId: Overload:SuperOffice.CRM.Mail.MailSoInfoProvider.ForeignDeviceRow
-  isExternal: true
-  name: ForeignDeviceRow
-  nameWithType: MailSoInfoProvider.ForeignDeviceRow
-  fullName: SuperOffice.CRM.Mail.MailSoInfoProvider.ForeignDeviceRow
-- uid: SuperOffice.CRM.Rows.ForeignDeviceRow
-  commentId: T:SuperOffice.CRM.Rows.ForeignDeviceRow
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  name: ForeignDeviceRow
-  nameWithType: ForeignDeviceRow
-  fullName: SuperOffice.CRM.Rows.ForeignDeviceRow

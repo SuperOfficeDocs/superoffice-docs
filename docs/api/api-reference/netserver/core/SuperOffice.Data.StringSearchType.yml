@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.StringSearchType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nEnumeration that exposes what search types that are supported.\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.StringSearchType.Exact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: The Exact element searches for an exact string in your searchable content.\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.StringSearchType.BeginsWith
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: The BeginsWith element searches for a string at the start of your searchable content.\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.StringSearchType.EndsWith
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: The EndsWith element searches for a string at the end of your searchable content.\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.StringSearchType.Contains
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: The Exact element searches for a string in searchable content.\n"
   syntax:

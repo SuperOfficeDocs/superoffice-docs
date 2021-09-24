@@ -51,6 +51,7 @@ items:
   inheritance:
   - System.Object
   derivedClasses:
+  - SuperOffice.CRM.ArchiveLists.ChartSelectionProvider
   - SuperOffice.CRM.ArchiveLists.SaintTicketCategoryProvider
   - SuperOffice.CRM.Lists.AddressFormatListProvider
   - SuperOffice.CRM.Lists.AppointmentListProvider
@@ -59,6 +60,7 @@ items:
   - SuperOffice.CRM.Lists.ConsentPurposeProvider
   - SuperOffice.CRM.Lists.ConsentSourceListProvider
   - SuperOffice.CRM.Lists.CustLangListProvider
+  - SuperOffice.CRM.Lists.DashboardProvider
   - SuperOffice.CRM.Lists.DocumentListProvider
   - SuperOffice.CRM.Lists.EjCategoryProvider
   - SuperOffice.CRM.Lists.EmailAddressProvider
@@ -89,6 +91,7 @@ items:
   - SuperOffice.CRM.Lists.TicketPriorityListProvider
   - SuperOffice.CRM.Lists.TicketTicketStatusProvider
   - SuperOffice.CRM.Lists.UserGroupProvider
+  - SuperOffice.CRM.Lists.UserPlanProvider
   - SuperOffice.CRM.Lists.WebPanelGroupProvider
   implements:
   - SuperOffice.CRM.Lists.ISoListProvider

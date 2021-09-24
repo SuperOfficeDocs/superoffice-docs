@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Util.VisitorPatternHelper<ReturnType>
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nHelper class for performing a Visitor-type invocation of methods on some node structure\n"
   remarks: "\nSee http://en.wikipedia.org/wiki/Visitor_pattern for a description of the Visitor pattern.\nVisitor is a fairly abstract pattern and will usually require some thought to follow through.\n<p></p>\nThe <see cref=\"!:VisitorPatternHelper\"></see> class performs the dispatching/invocation of visitor methods,\nso the client class only needs to provide methods that handle the required types of nodes in \nthe visited structure.\n<p></p>\nGenerally the client class will provide a class instance that contains one or more Visit methods. It will\nthen call the <xref href=\"SuperOffice.Util.VisitorPatternHelper%601.InvokeStrictVisitor(System.Object%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"SuperOffice.Util.VisitorPatternHelper%601.InvokeTolerantVisitor(System.Object%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> method, giving\nthe root node of some structure to be visited as the input parameter(s).\n<p></p>\nThe VisitorPatternHelper will reflect on the client class and try to find a method whose signature\nmatches the input. If it finds one, it will forward the call to this method, which may recursively\ncall one of the InvokeXXXVisitor methods in turn.\n"
@@ -66,10 +66,10 @@ items:
   fullName: SuperOffice.Util.VisitorPatternHelper<ReturnType>.VisitorPatternHelper(System.String, System.Object)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nInitialize the visitor helper with a method prefix and a target class\n"
   syntax:
@@ -101,10 +101,10 @@ items:
   fullName: SuperOffice.Util.VisitorPatternHelper<ReturnType>.InvokeStrictVisitor(System.Object[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nInvoke the visitor, by finding and calling the method in the target class that has a signature\nmatching the visitorArguments. If no such method is found, an exception is thrown.\n"
   syntax:
@@ -141,10 +141,10 @@ items:
   fullName: SuperOffice.Util.VisitorPatternHelper<ReturnType>.InvokeTolerantVisitor(System.Object[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nInvoke the visitor, by finding and calling the method in the target class that has a signature\nmatching the visitorArguments. If no such method is found, no call is made and default(ReturnType) is returned\n(no exception thrown).\n"
   syntax:
@@ -177,10 +177,10 @@ items:
   fullName: SuperOffice.Util.VisitorPatternHelper<ReturnType>.InvokeVisitor(System.Boolean, System.Object[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nInvokeVisitor checks the in-parameters type against the already existing method dictionary.\nWhen the key is found in the array, the key&apos;s object method is called.\n"
   syntax:

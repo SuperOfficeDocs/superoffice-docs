@@ -27,10 +27,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveCriteriaRow
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: 'public class ArchiveCriteriaRow : ArchiveRow, IDataRecord, IEquatable<ArchiveRow>'
@@ -140,10 +140,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveCriteriaRow.ColumnKey
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnKey = "key"
@@ -168,10 +168,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveCriteriaRow.ColumnIcon
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnIcon = "icon"
@@ -196,10 +196,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveCriteriaRow.ColumnActive
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnActive = "active"
@@ -224,10 +224,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveCriteriaRow.ColumnCriterion
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnCriterion = "criterion"
@@ -252,10 +252,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveCriteriaRow.ColumnOperator
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnOperator = "operator"
@@ -280,10 +280,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveCriteriaRow.ColumnValue
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnValue = "value"
@@ -308,10 +308,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveCriteriaRow.ArchiveCriteriaRow(System.String, System.Int32)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveCriteriaRow(string entityName, int primaryKey)
@@ -338,10 +338,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveCriteriaRow.ArchiveCriteriaRow()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveCriteriaRow()
@@ -363,10 +363,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveCriteriaRow.Key
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string Key { get; }
@@ -393,10 +393,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveCriteriaRow.Icon
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string Icon { get; }
@@ -423,10 +423,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveCriteriaRow.Active
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public bool Active { get; }
@@ -453,10 +453,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveCriteriaRow.Criterion
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string Criterion { get; }
@@ -483,10 +483,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveCriteriaRow.Operator
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string Operator { get; }
@@ -513,10 +513,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveCriteriaRow.Value
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string Value { get; }

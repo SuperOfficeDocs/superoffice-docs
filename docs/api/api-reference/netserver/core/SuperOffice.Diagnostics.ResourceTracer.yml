@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Diagnostics.ResourceTracer
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: >-
@@ -72,10 +72,10 @@ items:
   fullName: SuperOffice.Diagnostics.ResourceTracer.Start(SuperOffice.Diagnostics.SoTimerType, System.String, System.Func<System.String>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public ISoTimeRecorderContext Start(SoTimerType type, string category, Func<string> getDescription)
@@ -111,10 +111,10 @@ items:
   fullName: SuperOffice.Diagnostics.ResourceTracer.ResourceTracer()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public ResourceTracer()
@@ -136,10 +136,10 @@ items:
   fullName: SuperOffice.Diagnostics.ResourceTracer.Enabled
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public bool Enabled { get; }

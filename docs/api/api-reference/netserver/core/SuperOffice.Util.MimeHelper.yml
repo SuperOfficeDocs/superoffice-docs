@@ -5,6 +5,7 @@ items:
   id: MimeHelper
   parent: SuperOffice.Util
   children:
+  - SuperOffice.Util.MimeHelper.GetDocumentTypeKeyFor(System.String)
   - SuperOffice.Util.MimeHelper.GetExtensionFor(System.String)
   - SuperOffice.Util.MimeHelper.GetForFilename(System.String)
   - SuperOffice.Util.MimeHelper.IsGoogleTypeFile(System.String)
@@ -17,10 +18,10 @@ items:
   fullName: SuperOffice.Util.MimeHelper
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nClass for assisting in mime-related functionality.\n"
   syntax:
@@ -55,10 +56,10 @@ items:
   fullName: SuperOffice.Util.MimeHelper.GetForFilename(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGets the appropriate mime-type for the filename provided.\n"
   syntax:
@@ -90,10 +91,10 @@ items:
   fullName: SuperOffice.Util.MimeHelper.IsGoogleTypeFile(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nDetermines if the specified mime-type is a native Google Apps mime-type.\n"
   syntax:
@@ -123,10 +124,10 @@ items:
   fullName: SuperOffice.Util.MimeHelper.IsOfficeTypeFile(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nDetermines if the specified mime-type is a native Google Apps mime-type.\n"
   syntax:
@@ -156,10 +157,10 @@ items:
   fullName: SuperOffice.Util.MimeHelper.GetExtensionFor(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nDetermines the file-extension matching the corresponding mime-type.\n"
   syntax:
@@ -177,6 +178,39 @@ items:
   - type: System.ArgumentException
     commentId: T:System.ArgumentException
     description: Will thrown if value cannot be resolved.
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.MimeHelper.GetDocumentTypeKeyFor(System.String)
+  commentId: M:SuperOffice.Util.MimeHelper.GetDocumentTypeKeyFor(System.String)
+  id: GetDocumentTypeKeyFor(System.String)
+  parent: SuperOffice.Util.MimeHelper
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentTypeKeyFor(String)
+  nameWithType: MimeHelper.GetDocumentTypeKeyFor(String)
+  fullName: SuperOffice.Util.MimeHelper.GetDocumentTypeKeyFor(System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nGet&apos;s a matching DocumentTypeKey value for the given mimetype.\nTo be used with template-creation where this value needs to be available.\n"
+  syntax:
+    content: public static int GetDocumentTypeKeyFor(string mimeType)
+    parameters:
+    - id: mimeType
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetDocumentTypeKeyFor(mimeType As String) As Integer
+  overload: SuperOffice.Util.MimeHelper.GetDocumentTypeKeyFor*
   modifiers.csharp:
   - public
   - static
@@ -523,3 +557,16 @@ references:
 - uid: System.ArgumentException
   commentId: T:System.ArgumentException
   isExternal: true
+- uid: SuperOffice.Util.MimeHelper.GetDocumentTypeKeyFor*
+  commentId: Overload:SuperOffice.Util.MimeHelper.GetDocumentTypeKeyFor
+  isExternal: true
+  name: GetDocumentTypeKeyFor
+  nameWithType: MimeHelper.GetDocumentTypeKeyFor
+  fullName: SuperOffice.Util.MimeHelper.GetDocumentTypeKeyFor
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

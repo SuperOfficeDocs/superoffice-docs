@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nHelper class for impersonation, suitable for the &apos;using&apos; keyword.\n"
   example:
@@ -65,10 +65,10 @@ items:
   fullName: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.DocumentArchiveFileImpersonationContext()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nImpersonate the user, if needed.\n"
   syntax:
@@ -91,10 +91,10 @@ items:
   fullName: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Dispose()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nRevert any impersonation\n"
   syntax:

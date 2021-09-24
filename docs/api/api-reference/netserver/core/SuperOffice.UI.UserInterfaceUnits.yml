@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.UI.UserInterfaceUnits
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.UI
   summary: "\n\n"
   syntax:
@@ -47,10 +47,10 @@ items:
   fullName: SuperOffice.UI.UserInterfaceUnits.Pixels
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.UI
   summary: "\n\n"
   syntax:
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.UI.UserInterfaceUnits.RowsAndColums
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.UI
   summary: "\n\n"
   syntax:

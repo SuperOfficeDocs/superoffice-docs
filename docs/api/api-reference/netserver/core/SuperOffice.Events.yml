@@ -20,7 +20,7 @@ items:
   fullName: SuperOffice.Events
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
 - uid: SuperOffice.Events.IGlobalApplicationEventsPlugin
   commentId: T:SuperOffice.Events.IGlobalApplicationEventsPlugin
@@ -53,13 +53,6 @@ references:
   name: SoEventManager
   nameWithType: SoEventManager
   fullName: SuperOffice.Events.SoEventManager
-- uid: SuperOffice.Events.SendEventArguments
-  commentId: T:SuperOffice.Events.SendEventArguments
-  parent: SuperOffice.Events
-  isExternal: true
-  name: SendEventArguments
-  nameWithType: SendEventArguments
-  fullName: SuperOffice.Events.SendEventArguments
 - uid: SuperOffice.Events.EventEnginePluginAttribute
   commentId: T:SuperOffice.Events.EventEnginePluginAttribute
   isExternal: true
@@ -72,6 +65,13 @@ references:
   name: IEventEngine
   nameWithType: IEventEngine
   fullName: SuperOffice.Events.IEventEngine
+- uid: SuperOffice.Events.SendEventArguments
+  commentId: T:SuperOffice.Events.SendEventArguments
+  parent: SuperOffice.Events
+  isExternal: true
+  name: SendEventArguments
+  nameWithType: SendEventArguments
+  fullName: SuperOffice.Events.SendEventArguments
 - uid: SuperOffice.Events
   commentId: N:SuperOffice.Events
   isExternal: true

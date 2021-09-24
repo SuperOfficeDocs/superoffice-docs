@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.FeatureToggles
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nValues for Feature Toggles; see the SuperOffice.FeatureToggles.dll assembly for definitions. Toggles not mentioned here will be OFF\n"
   syntax:
@@ -52,10 +52,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.FeatureToggles.State
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAdd feature toggle name to value (True/False) for toggles you wish to set\n"
   syntax:

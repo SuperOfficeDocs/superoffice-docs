@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.EmailType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nWhat kind of email address - email, or some other communication type (chat, voip)\nThis Enum is used by:  Email.type\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.EmailType.Email
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: This is a conventional email\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.EmailType.Chat
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: This is a chat channel address\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.EmailType.VoiP
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: This is a voip (such as skype) channel address\n"
   syntax:

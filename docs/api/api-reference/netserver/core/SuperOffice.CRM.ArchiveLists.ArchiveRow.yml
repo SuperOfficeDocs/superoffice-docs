@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThis class carries the data of one archive row\n"
   syntax:
@@ -136,10 +136,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddParent(System.String, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public void AddParent(string tableName, int primaryKey)
@@ -166,10 +166,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingColumn(System.String, SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nAdd a column, overwriting an existing column of the same name with the new value - <strong>but only if</strong> the previous value is blank or null\n"
   syntax:
@@ -201,10 +201,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingIntColumn(System.String, System.Int32, System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveColumnData AddOverlappingIntColumn(string name, int value, string tooltipHint, string linkHint)
@@ -237,10 +237,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingIntColumn(System.String, System.Int32, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveColumnData AddOverlappingIntColumn(string name, int value, string tooltipHint)
@@ -271,10 +271,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingIntColumn(System.String, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveColumnData AddOverlappingIntColumn(string name, int value)
@@ -303,10 +303,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingDoubleColumn(System.String, System.Double, System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveColumnData AddOverlappingDoubleColumn(string name, double value, string tooltipHint, string linkHint)
@@ -339,10 +339,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingDoubleColumn(System.String, System.Double, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveColumnData AddOverlappingDoubleColumn(string name, double value, string tooltipHint)
@@ -373,10 +373,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingDoubleColumn(System.String, System.Double)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveColumnData AddOverlappingDoubleColumn(string name, double value)
@@ -405,10 +405,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingDateTimeColumn(System.String, System.DateTime, System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveColumnData AddOverlappingDateTimeColumn(string name, DateTime value, string tooltipHint, string linkHint)
@@ -441,10 +441,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingDateTimeColumn(System.String, System.DateTime, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveColumnData AddOverlappingDateTimeColumn(string name, DateTime value, string tooltipHint)
@@ -475,10 +475,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingDateTimeColumn(System.String, System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveColumnData AddOverlappingDateTimeColumn(string name, DateTime value)
@@ -507,10 +507,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingBoolColumn(System.String, System.Boolean, System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveColumnData AddOverlappingBoolColumn(string name, bool value, string tooltipHint, string linkHint)
@@ -543,10 +543,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingBoolColumn(System.String, System.Boolean, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveColumnData AddOverlappingBoolColumn(string name, bool value, string tooltipHint)
@@ -577,10 +577,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingBoolColumn(System.String, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveColumnData AddOverlappingBoolColumn(string name, bool value)
@@ -609,10 +609,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingColumn(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nAdd a column, overwriting an existing column of the same name with the new value;\nthis overload sets a null value\n"
   syntax:
@@ -641,10 +641,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingColumn(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nAdd a column, overwriting an existing column of the same name with the new value;\nthis overload takes just a string display value\n"
   syntax:
@@ -676,10 +676,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingColumn(System.String, System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nAdd a column, overwriting an existing column of the same name with the new value;\nthis overload takes a string display value and a string tooltip hint\n"
   syntax:
@@ -714,10 +714,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingColumn(System.String, System.String, System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nAdd a column, overwriting an existing column of the same name with the new value;\nthis overload takes a string display value and a string tooltip hint\n"
   syntax:
@@ -755,10 +755,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.ArchiveRow()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object, with all blank values\n"
   syntax:
@@ -781,10 +781,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.ArchiveRow(System.String, System.Int32)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object, setting the entity name and primary key.\n"
   syntax:
@@ -812,10 +812,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.ArchiveRow(System.String[], SuperOffice.CRM.ArchiveLists.ArchiveRow)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nCreate an ArchiveRow that contains exactly the specified columns, populated from the\ngiven row. Columns missing from the given row will have blank values in the result;\ncolumns not in the completeColumnsList will not be copied\n"
   syntax:
@@ -848,10 +848,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AlignToTargetColumnSet(System.String[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nAlign the content of this ArchiveRow with the given list of columns. Surplus columns are removed,\nwhile missing columns are added with null data.\n"
   syntax:
@@ -881,10 +881,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.ArchiveRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveRow(ArchiveRow baseRow)
@@ -909,10 +909,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.PopulateFromBase(SuperOffice.CRM.ArchiveLists.ArchiveRow, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public void PopulateFromBase(ArchiveRow baseRow, bool includeData)
@@ -939,10 +939,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddStyleHint(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nAdd a style hint; if a style hint already has been set, then add the new with an ampersand after the old.\nAlways make sure the style hints are in alphabetical order; a predictable order is needed to be sure we can correctly\nmatch combinations in the style  sheet.\n"
   syntax:
@@ -969,10 +969,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddLinkHint(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nAdd a link hint; if a link hint already has been set, then add the new with an ampersand after the old.\n"
   syntax:
@@ -999,10 +999,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.RemoveLinkHint(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nRemove occurances of key from the linkHint.\n"
   syntax:
@@ -1029,10 +1029,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.ReplaceLinkHint(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\n\n"
   syntax:
@@ -1060,10 +1060,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetLinkHintValue(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nReturn a link hint by name\n"
   syntax:
@@ -1091,10 +1091,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddTooltipToField(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nAdd a tooltip to a field in an archive row. The tooltip can be a literal and/or a {} style hint. It will\nbe added to the given column if that column either lacks a tooltip or has one of the same type. If the\ncolumn is missing, nothing bad happens. The added tooltip may be null or empty, causing nothing to happen.\n"
   syntax:
@@ -1124,10 +1124,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddLinkHintToField(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public void AddLinkHintToField(string columnName, string linkHint)
@@ -1154,10 +1154,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.RemoveStyleHint(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nRemove a style hint if it was present, otherwise do nothing\n"
   syntax:
@@ -1184,10 +1184,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetDisplayValue(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nGet the display value for a given column ID. If the column does not\nexist, an empty string (not null) is returned\n"
   syntax:
@@ -1217,10 +1217,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nReturns a string representation of the values of this row, intended for debug display purposes (this is not\na complete serialization)\n"
   syntax:
@@ -1248,10 +1248,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.Equals(SuperOffice.CRM.ArchiveLists.ArchiveRow)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nChecks if two archive rows are the same row. This will only do a simple check on row type and row key, as doing\nextensive checks on all the data contained within the row would be too expensive, performance-wise.\n"
   syntax:
@@ -1283,10 +1283,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.ToIdDictionary(SuperOffice.CRM.ArchiveLists.ArchiveRow[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nCreate a lookup dictionary of rows, based on their primary key. Note that there is no built-in guarantee that an arbitrary \ncollection/array of rows will have unique primary keys; if there are multiple entities then each one might have its\nown key range.\n"
   syntax:
@@ -1321,10 +1321,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.ToIdDictionary(System.Collections.Generic.ICollection<SuperOffice.CRM.ArchiveLists.ArchiveRow>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nCreate a lookup dictionary of rows, based on their primary key. Note that there is no built-in guarantee that an arbitrary \ncollection/array of rows will have unique primary keys; if there are multiple entities then each one might have its\nown key range.\n"
   syntax:
@@ -1359,10 +1359,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetBoolean(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public bool GetBoolean(int i)
@@ -1389,10 +1389,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetByte(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public byte GetByte(int i)
@@ -1419,10 +1419,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetBytes(System.Int32, System.Int64, System.Byte[], System.Int32, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public long GetBytes(int i, long fieldOffset, byte[] buffer, int bufferoffset, int length)
@@ -1460,10 +1460,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetChar(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public char GetChar(int i)
@@ -1490,10 +1490,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetChars(System.Int32, System.Int64, System.Char[], System.Int32, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public long GetChars(int i, long fieldoffset, char[] buffer, int bufferoffset, int length)
@@ -1531,10 +1531,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetData(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public IDataReader GetData(int i)
@@ -1561,10 +1561,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetDataTypeName(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string GetDataTypeName(int i)
@@ -1591,10 +1591,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetDateTime(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public DateTime GetDateTime(int i)
@@ -1621,10 +1621,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetDecimal(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public decimal GetDecimal(int i)
@@ -1651,10 +1651,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetDouble(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public double GetDouble(int i)
@@ -1681,10 +1681,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetFieldType(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public Type GetFieldType(int i)
@@ -1711,10 +1711,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetFloat(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public float GetFloat(int i)
@@ -1741,10 +1741,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetGuid(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public Guid GetGuid(int i)
@@ -1771,10 +1771,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetInt16(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public short GetInt16(int i)
@@ -1801,10 +1801,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetInt32(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public int GetInt32(int i)
@@ -1831,10 +1831,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetInt64(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public long GetInt64(int i)
@@ -1861,10 +1861,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetName(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string GetName(int i)
@@ -1891,10 +1891,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetOrdinal(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public int GetOrdinal(string name)
@@ -1921,10 +1921,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetString(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string GetString(int i)
@@ -1951,10 +1951,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetValue(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public object GetValue(int i)
@@ -1981,10 +1981,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetValues(System.Object[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public int GetValues(object[] values)
@@ -2014,10 +2014,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.IsDBNull(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public bool IsDBNull(int i)
@@ -2044,10 +2044,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.ColumnData
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThe columns in the row, represented as name/value pairs. The value is a <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveColumnData\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
@@ -2075,10 +2075,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.RowType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThe entity that owns the row. Semantically this is the same as <see cref=\"!:ArchiveEntityInfo.Name\"></see>.\n"
   syntax:
@@ -2106,10 +2106,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.RowKey
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThe primary key of this row\n"
   syntax:
@@ -2137,10 +2137,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.StyleHint
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThe style hint for this row\n"
   syntax:
@@ -2168,10 +2168,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.LinkHint
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThe link hint for this row\n"
   syntax:
@@ -2199,10 +2199,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.RowRight
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nTable rights for the primary table of this row. The QueryProviderBase class by default sets this to be\nthe TableRight of the Sentry handling the PrimaryTable of the query. Typically, buttons such as Add and Delete\nin archive bottom toolbars will be controlled by this right.\nLink hints on the separate cells may point to logic that makes changes (such as the toggle completed hint\non the activity archive); such hints should be individually added/removed by the provider responsible for\nthem based on Sentry information for that particular cell (or whatever is appropriate).\n"
   syntax:
@@ -2230,10 +2230,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.Parents
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public List<ArchiveRowParent> Parents { get; set; }
@@ -2260,10 +2260,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.FieldCount
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public int FieldCount { get; }
@@ -2290,10 +2290,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.Item[System.String]
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public object this[string name] { get; }
@@ -2325,10 +2325,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.Item[System.Int32]
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public object this[int i] { get; }

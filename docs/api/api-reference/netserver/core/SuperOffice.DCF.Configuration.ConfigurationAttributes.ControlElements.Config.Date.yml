@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.Date
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -53,10 +53,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.Date.Mindate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.Date.Maxdate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:

@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Util.ITextEncodingDetector
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public interface ITextEncodingDetector
@@ -43,10 +43,10 @@ items:
   fullName: SuperOffice.Util.ITextEncodingDetector.DetectFrom(System.Byte[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: Encoding DetectFrom(byte[] bytes)

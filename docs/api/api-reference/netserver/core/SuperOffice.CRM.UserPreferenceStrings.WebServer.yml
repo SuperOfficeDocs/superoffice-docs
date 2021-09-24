@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.WebServer
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWeb server\n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.WebServer.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:
@@ -83,10 +83,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.WebServer.Location
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nThe location of the web server used by the web version&apos;s report generator\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -112,10 +112,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.WebServer.Name
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nThe name of the web server used by the web version&apos;s report generator\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:

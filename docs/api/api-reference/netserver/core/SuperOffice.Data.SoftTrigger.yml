@@ -5,6 +5,7 @@ items:
   id: SoftTrigger
   parent: SuperOffice.Data
   children:
+  - SuperOffice.Data.SoftTrigger.#ctor(SuperOffice.Data.ISoftTriggerPlugin[])
   - SuperOffice.Data.SoftTrigger.SubscribeOnPostChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
   - SuperOffice.Data.SoftTrigger.SubscribeOnPreChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
   - SuperOffice.Data.SoftTrigger.UnsubscribeOnPostChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
@@ -57,6 +58,38 @@ items:
   modifiers.vb:
   - Public
   - Class
+- uid: SuperOffice.Data.SoftTrigger.#ctor(SuperOffice.Data.ISoftTriggerPlugin[])
+  commentId: M:SuperOffice.Data.SoftTrigger.#ctor(SuperOffice.Data.ISoftTriggerPlugin[])
+  id: '#ctor(SuperOffice.Data.ISoftTriggerPlugin[])'
+  parent: SuperOffice.Data.SoftTrigger
+  langs:
+  - csharp
+  - vb
+  name: SoftTrigger(ISoftTriggerPlugin[])
+  nameWithType: SoftTrigger.SoftTrigger(ISoftTriggerPlugin[])
+  fullName: SuperOffice.Data.SoftTrigger.SoftTrigger(SuperOffice.Data.ISoftTriggerPlugin[])
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nConstructur used for unit-testing SoftTrigger and SoftTrigger-plugin implementations.\n"
+  syntax:
+    content: public SoftTrigger(ISoftTriggerPlugin[] plugins)
+    parameters:
+    - id: plugins
+      type: SuperOffice.Data.ISoftTriggerPlugin[]
+    content.vb: Public Sub New(plugins As ISoftTriggerPlugin())
+  overload: SuperOffice.Data.SoftTrigger.#ctor*
+  nameWithType.vb: SoftTrigger.SoftTrigger(ISoftTriggerPlugin())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SoftTrigger.SoftTrigger(SuperOffice.Data.ISoftTriggerPlugin())
+  name.vb: SoftTrigger(ISoftTriggerPlugin())
 - uid: SuperOffice.Data.SoftTrigger.SubscribeOnPreChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
   commentId: M:SuperOffice.Data.SoftTrigger.SubscribeOnPreChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
   id: SubscribeOnPreChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
@@ -653,6 +686,38 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.SoftTrigger.#ctor*
+  commentId: Overload:SuperOffice.Data.SoftTrigger.#ctor
+  isExternal: true
+  name: SoftTrigger
+  nameWithType: SoftTrigger.SoftTrigger
+  fullName: SuperOffice.Data.SoftTrigger.SoftTrigger
+- uid: SuperOffice.Data.ISoftTriggerPlugin[]
+  isExternal: true
+  name: ISoftTriggerPlugin[]
+  nameWithType: ISoftTriggerPlugin[]
+  fullName: SuperOffice.Data.ISoftTriggerPlugin[]
+  nameWithType.vb: ISoftTriggerPlugin()
+  fullName.vb: SuperOffice.Data.ISoftTriggerPlugin()
+  name.vb: ISoftTriggerPlugin()
+  spec.csharp:
+  - uid: SuperOffice.Data.ISoftTriggerPlugin
+    name: ISoftTriggerPlugin
+    nameWithType: ISoftTriggerPlugin
+    fullName: SuperOffice.Data.ISoftTriggerPlugin
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Data.ISoftTriggerPlugin
+    name: ISoftTriggerPlugin
+    nameWithType: ISoftTriggerPlugin
+    fullName: SuperOffice.Data.ISoftTriggerPlugin
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.Data.SoftTrigger.SubscribeOnPreChange*
   commentId: Overload:SuperOffice.Data.SoftTrigger.SubscribeOnPreChange
   isExternal: true

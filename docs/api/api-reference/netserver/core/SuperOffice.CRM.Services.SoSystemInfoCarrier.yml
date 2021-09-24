@@ -34,10 +34,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nInformation about the current system.\n"
   syntax:
@@ -81,10 +81,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.SoSystemInfoCarrier()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public SoSystemInfoCarrier()
@@ -106,10 +106,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.License
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nLicense issued by SuperOffice\n"
   syntax:
@@ -137,10 +137,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.WarningEnglish
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nWarning information to be displayed to the user in plain English\n"
   syntax:
@@ -168,10 +168,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.WarningResource
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nWarning information to be displayed to the user in resource format.\n"
   syntax:
@@ -199,10 +199,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.BranchName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nName of the branch the NetServer is built from.\n"
   syntax:
@@ -230,10 +230,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.BuildLabel
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nBuild label for NetServer.\n"
   syntax:
@@ -261,10 +261,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.AssemblyVersion
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nAssemblyVersion of NetServer\n"
   syntax:
@@ -292,10 +292,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.AccumulatedNextCheckDate
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nThe next date a new check of the license is to be performed, incremented daily if the check did not result in a new license.\n"
   syntax:
@@ -323,10 +323,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.FileVersion
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nFileVersion of NetServer.\n"
   syntax:
@@ -354,10 +354,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.Description
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nDescription of the NetServer version.\n"
   syntax:
@@ -385,19 +385,33 @@ items:
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.DaysUntilNetServerExpiry
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nDays until this version of NetServer expires\n"
   syntax:
-    content: public int DaysUntilNetServerExpiry { get; set; }
+    content: >-
+      [Obsolete("Netserver no longer expires", false)]
+
+      public int DaysUntilNetServerExpiry { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Property DaysUntilNetServerExpiry As Integer
+    content.vb: >-
+      <Obsolete("Netserver no longer expires", False)>
+
+      Public Property DaysUntilNetServerExpiry As Integer
   overload: SuperOffice.CRM.Services.SoSystemInfoCarrier.DaysUntilNetServerExpiry*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Netserver no longer expires
+    - type: System.Boolean
+      value: false
   modifiers.csharp:
   - public
   - get
@@ -416,10 +430,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.BuildType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nType of build.\n"
   syntax:
@@ -447,10 +461,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseVersion
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nDatabase version number\n"
   syntax:
@@ -478,10 +492,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.IsUnicode
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nIs the database strings formatted as Unicode (i.e. NVARCHAR)\n"
   syntax:
@@ -509,10 +523,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.CompanyName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nLicense Info: Company name associated with license.\n"
   syntax:
@@ -540,10 +554,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.CompanyId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nLicense Info: Company name associated with license.\n"
   syntax:
@@ -571,10 +585,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nMajor name of database provider\n"
   syntax:
@@ -603,10 +617,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseMinor
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nMinor name of database provider\n"
   syntax:
@@ -634,10 +648,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nName of database\n"
   syntax:
@@ -665,10 +679,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.IsOnTravel
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nIs the current database on travel.\n"
   syntax:
@@ -696,10 +710,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.IsSatellite
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nIs the current database a Satellite\n"
   syntax:

@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Util.shortAndboolExtensions
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nExtension methods that handle the equivalences between short and bool in NetServer\n"
   syntax:
@@ -55,10 +55,10 @@ items:
   fullName: SuperOffice.Util.shortAndboolExtensions.ToBool(System.Int16)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConvert a short value to a bool (0 = false, everything else = true)\n"
   syntax:
@@ -93,10 +93,10 @@ items:
   fullName: SuperOffice.Util.shortAndboolExtensions.ToBool(System.UInt16)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConvert a short value to a bool (0 = false, everything else = true)\n"
   syntax:
@@ -130,10 +130,10 @@ items:
   fullName: SuperOffice.Util.shortAndboolExtensions.ToShort(System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConvert a bool to a short (true -> 1, false -> 0)\n"
   syntax:

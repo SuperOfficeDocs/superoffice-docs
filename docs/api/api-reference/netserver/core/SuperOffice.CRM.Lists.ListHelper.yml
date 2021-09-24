@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ListHelper
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nHelper methods for the different list.\nThis includes methods for interpreting id, type and extra info for the different lists\n"
   syntax:
@@ -59,10 +59,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ListHelper.GetVisibleForType(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nReturns the VisibleFor type (Visibility) based on the list id&apos;s sign and value.\n"
   syntax:
@@ -94,10 +94,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ListHelper.GetVisibleForListId(SuperOffice.Data.Visibility, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nCalculates the Visible For list id from the visible for id and visibility type\n"
   syntax:
@@ -132,10 +132,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ListHelper.GetFlattenedList(SuperOffice.CRM.Lists.ISoList)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   syntax:
     content: public static IEnumerable<ISoListItem> GetFlattenedList(ISoList listToFlatten)
@@ -164,10 +164,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ListHelper.ListHelper()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   syntax:
     content: public ListHelper()

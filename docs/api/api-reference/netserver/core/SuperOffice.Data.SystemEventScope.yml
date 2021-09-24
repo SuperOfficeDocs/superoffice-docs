@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Data.SystemEventScope
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValue for field &apos;scope&apos; in table &apos;systemevent&apos;.\n"
   syntax:
@@ -50,10 +50,10 @@ items:
   fullName: SuperOffice.Data.SystemEventScope.Undefined
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Undefined value (error)\n"
   syntax:
@@ -78,10 +78,10 @@ items:
   fullName: SuperOffice.Data.SystemEventScope.SystemWide
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Value valid for all databases under this licence\n"
   syntax:
@@ -106,10 +106,10 @@ items:
   fullName: SuperOffice.Data.SystemEventScope.Database
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Value valid for this database\n"
   syntax:
@@ -134,10 +134,10 @@ items:
   fullName: SuperOffice.Data.SystemEventScope.Group
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Value valid for this group\n"
   syntax:
@@ -162,10 +162,10 @@ items:
   fullName: SuperOffice.Data.SystemEventScope.User
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Value valid for this user\n"
   syntax:

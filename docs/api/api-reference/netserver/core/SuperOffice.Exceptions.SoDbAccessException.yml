@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Exceptions.SoDbAccessException
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nException class used to indicate a major problem with access to the database, or\nbasic rights/assumptions wrong within it. Typically wrong db user/pwd, or table prefix\n"
   syntax:
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.Exceptions.SoDbAccessException.SoDbAccessException(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   syntax:
     content: public SoDbAccessException(string message)
@@ -110,10 +110,10 @@ items:
   fullName: SuperOffice.Exceptions.SoDbAccessException.SoDbAccessException(System.String, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   syntax:
     content: public SoDbAccessException(string message, string friendlyText)
@@ -140,10 +140,10 @@ items:
   fullName: SuperOffice.Exceptions.SoDbAccessException.SoDbAccessException(System.String, System.Exception)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   syntax:
     content: public SoDbAccessException(string message, Exception innerException)
@@ -170,10 +170,10 @@ items:
   fullName: SuperOffice.Exceptions.SoDbAccessException.SoDbAccessException(System.String, System.Exception, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   syntax:
     content: public SoDbAccessException(string message, Exception innerException, string friendlyText)

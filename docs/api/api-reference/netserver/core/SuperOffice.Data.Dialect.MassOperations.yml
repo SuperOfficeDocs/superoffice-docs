@@ -10,7 +10,7 @@ items:
   - SuperOffice.Data.Dialect.MassOperations.GetCurrent
   - SuperOffice.Data.Dialect.MassOperations.Insert(System.String,System.String[],System.String[][])
   - SuperOffice.Data.Dialect.MassOperations.Truncate(System.String)
-  - SuperOffice.Data.Dialect.MassOperations.Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
+  - SuperOffice.Data.Dialect.MassOperations.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
   langs:
   - csharp
   - vb
@@ -183,16 +183,16 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.Data.Dialect.MassOperations.Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
-  commentId: M:SuperOffice.Data.Dialect.MassOperations.Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
-  id: Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
+- uid: SuperOffice.Data.Dialect.MassOperations.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
+  commentId: M:SuperOffice.Data.Dialect.MassOperations.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
+  id: Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
   parent: SuperOffice.Data.Dialect.MassOperations
   langs:
   - csharp
   - vb
-  name: Upsert(String, String[], String[], Boolean, String[][])
-  nameWithType: MassOperations.Upsert(String, String[], String[], Boolean, String[][])
-  fullName: SuperOffice.Data.Dialect.MassOperations.Upsert(System.String, System.String[], System.String[], System.Boolean, System.String[][])
+  name: Upsert(String, String[], String[], String[][], UpsertNomatchAction, Boolean)
+  nameWithType: MassOperations.Upsert(String, String[], String[], String[][], UpsertNomatchAction, Boolean)
+  fullName: SuperOffice.Data.Dialect.MassOperations.Upsert(System.String, System.String[], System.String[], System.String[][], SuperOffice.Data.UpsertNomatchAction, System.Boolean)
   type: Method
   source:
     path: SoDataBase
@@ -200,38 +200,37 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dialect
-  summary: "\nInsert or update rows\n"
+  summary: "\nInsert or update rows. See parameters for further documentaiton.\n"
   syntax:
-    content: public virtual MassResult Upsert(string tableName, string[] columns, string[] keys, bool deleteUnmatched, string[][] data)
+    content: public virtual MassResult Upsert(string tableName, string[] originalColumns, string[] originalKeys, string[][] data, UpsertNomatchAction nomatchAction, bool returnRowStatus = false)
     parameters:
     - id: tableName
       type: System.String
-    - id: columns
+    - id: originalColumns
       type: System.String[]
-      description: List of column names, in the same order as in the data
-    - id: keys
+    - id: originalKeys
       type: System.String[]
-      description: List of columns that are to be used as keys, to match any existing rows
-    - id: deleteUnmatched
-      type: System.Boolean
-      description: If true, then any rows that have NOT been matched or inserted, will be deleted. The end result is that the table will look like the incoming data
     - id: data
       type: System.String[][]
-      description: Outer array = row, inner = column in specified order; use CultureDataFormatter to format values
+      description: Outer array = row, inner = column in specified order; use <xref href="SuperOffice.CRM.Globalization.CultureDataFormatter.Encode(System.Object)" data-throw-if-not-resolved="false"></xref> to format non-string values
+    - id: nomatchAction
+      type: SuperOffice.Data.UpsertNomatchAction
+    - id: returnRowStatus
+      type: System.Boolean
     return:
       type: SuperOffice.Data.Dialect.MassResult
       description: Summary of results
-    content.vb: Public Overridable Function Upsert(tableName As String, columns As String(), keys As String(), deleteUnmatched As Boolean, data As String()()) As MassResult
+    content.vb: Public Overridable Function Upsert(tableName As String, originalColumns As String(), originalKeys As String(), data As String()(), nomatchAction As UpsertNomatchAction, returnRowStatus As Boolean = False) As MassResult
   overload: SuperOffice.Data.Dialect.MassOperations.Upsert*
-  nameWithType.vb: MassOperations.Upsert(String, String(), String(), Boolean, String()())
+  nameWithType.vb: MassOperations.Upsert(String, String(), String(), String()(), UpsertNomatchAction, Boolean)
   modifiers.csharp:
   - public
   - virtual
   modifiers.vb:
   - Public
   - Overridable
-  fullName.vb: SuperOffice.Data.Dialect.MassOperations.Upsert(System.String, System.String(), System.String(), System.Boolean, System.String()())
-  name.vb: Upsert(String, String(), String(), Boolean, String()())
+  fullName.vb: SuperOffice.Data.Dialect.MassOperations.Upsert(System.String, System.String(), System.String(), System.String()(), SuperOffice.Data.UpsertNomatchAction, System.Boolean)
+  name.vb: Upsert(String, String(), String(), String()(), UpsertNomatchAction, Boolean)
 - uid: SuperOffice.Data.Dialect.MassOperations.Delete(System.String,System.Int32[])
   commentId: M:SuperOffice.Data.Dialect.MassOperations.Delete(System.String,System.Int32[])
   id: Delete(System.String,System.Int32[])
@@ -845,6 +844,13 @@ references:
   name: Upsert
   nameWithType: MassOperations.Upsert
   fullName: SuperOffice.Data.Dialect.MassOperations.Upsert
+- uid: SuperOffice.Data.UpsertNomatchAction
+  commentId: T:SuperOffice.Data.UpsertNomatchAction
+  parent: SuperOffice.Data
+  isExternal: true
+  name: UpsertNomatchAction
+  nameWithType: UpsertNomatchAction
+  fullName: SuperOffice.Data.UpsertNomatchAction
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -852,6 +858,12 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
 - uid: SuperOffice.Data.Dialect.MassOperations.Delete*
   commentId: Overload:SuperOffice.Data.Dialect.MassOperations.Delete
   isExternal: true

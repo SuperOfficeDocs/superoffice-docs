@@ -219,15 +219,18 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists.Aggregation
   syntax:
-    content: public string ToString()
+    content: public override string ToString()
     return:
       type: System.String
-    content.vb: Public Function ToString As String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
   overload: SuperOffice.CRM.ArchiveLists.Aggregation.ExpressionAggregation.ToString*
   modifiers.csharp:
   - public
+  - override
   modifiers.vb:
   - Public
+  - Overrides
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.ExpressionAggregation.#ctor
   commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.ExpressionAggregation.#ctor
   id: '#ctor'
@@ -1274,6 +1277,37 @@ references:
     name: GetAggregatedValue
     nameWithType: IAggregationPlugin.GetAggregatedValue
     fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.GetAggregatedValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
     isExternal: true
   - name: (
     nameWithType: (

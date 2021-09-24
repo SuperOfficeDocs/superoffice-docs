@@ -28,10 +28,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceInfo
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nClass representing the recurrence of an appointment booking\n"
   syntax:
@@ -74,10 +74,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceInfo.Clone()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public object Clone()
@@ -103,10 +103,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceInfo.RecurrenceInfo()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public RecurrenceInfo()
@@ -128,10 +128,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceInfo.ToString(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public string ToString(string prefix)
@@ -158,10 +158,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceInfo.RecurrenceId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nThe recurrence rule id\n"
   syntax:
@@ -189,10 +189,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceInfo.StartDate
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nStart date of the repetition pattern\n"
   syntax:
@@ -220,10 +220,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceInfo.EndDate
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nEnd date of the repetition pattern\nOnly used when the end is calculated from a end date. <xref href=\"SuperOffice.Data.RecurrenceEndType.EndDate\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
@@ -251,10 +251,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceInfo.RecurrenceCounter
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nNumber of recurrences\nOnly used when the end is calculated from a number of repetitions. <xref href=\"SuperOffice.Data.RecurrenceEndType.Counter\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
@@ -282,10 +282,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceInfo.RecurrenceEndType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nType defining how the end of the recurrence sequence should be calculated\n"
   syntax:
@@ -313,10 +313,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceInfo.Pattern
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nThe recurrence pattern (Daily, Weekly, Monthly, Yearly, Custom)\n"
   syntax:
@@ -344,10 +344,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceInfo.DayPattern
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nPattern describing a daily recurrence\nOnly set when the recurrence pattern i daily. <xref href=\"SuperOffice.Data.RecurrencePattern.Daily\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
@@ -375,10 +375,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceInfo.WeekPattern
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nPattern describing a daily recurrence\nOnly set when the recurrence pattern i weekly. <xref href=\"SuperOffice.Data.RecurrencePattern.Weekly\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
@@ -406,10 +406,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceInfo.MonthPattern
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nPattern describing a daily recurrence\nOnly set when the recurrence pattern i monthly. <xref href=\"SuperOffice.Data.RecurrencePattern.Monthly\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
@@ -437,10 +437,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceInfo.YearPattern
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nPattern describing a daily recurrence\nOnly set when the recurrence pattern i yearly. <xref href=\"SuperOffice.Data.RecurrencePattern.Yearly\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
@@ -468,10 +468,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceInfo.Dates
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nList of all dates where this recurrence occurs\n"
   syntax:
@@ -499,10 +499,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceInfo.IsRecurrence
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nGet a or set IsRecurrence, indicating if this is a repeating appointment or not.\n"
   syntax:

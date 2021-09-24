@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Security.Principal.ContextInitializerPluginAttribute
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nAttribute declaring a ContextInitializerPlugin implementing <xref href=\"SuperOffice.Security.Principal.IContextInitializerPlugin\" data-throw-if-not-resolved=\"false\"></xref>\n"
   remarks: "\nA Context initializer is responsible for initializing a context \nand assigning tenant specific configuration.\n"
@@ -103,10 +103,10 @@ items:
   fullName: SuperOffice.Security.Principal.ContextInitializerPluginAttribute.ContextInitializerPluginAttribute(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public ContextInitializerPluginAttribute(string name)

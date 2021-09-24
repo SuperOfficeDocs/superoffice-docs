@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Data.SelectionMemberType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nMember type of a selection\n"
   syntax:
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.Data.SelectionMemberType.ContactPerson
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Selection of ContactPersons\n"
   syntax:
@@ -79,10 +79,10 @@ items:
   fullName: SuperOffice.Data.SelectionMemberType.Sale
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Selection of Sales\n"
   syntax:
@@ -107,10 +107,10 @@ items:
   fullName: SuperOffice.Data.SelectionMemberType.Document
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Selection of Documents\n"
   syntax:
@@ -135,10 +135,10 @@ items:
   fullName: SuperOffice.Data.SelectionMemberType.Project
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Selection of Projects\n"
   syntax:
@@ -163,10 +163,10 @@ items:
   fullName: SuperOffice.Data.SelectionMemberType.Appointment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Selection of Appointments\n"
   syntax:
@@ -191,10 +191,10 @@ items:
   fullName: SuperOffice.Data.SelectionMemberType.Relation
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Selection of Relations\n"
   syntax:

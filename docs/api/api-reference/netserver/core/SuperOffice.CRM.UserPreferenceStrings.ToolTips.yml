@@ -28,10 +28,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nTooltips in the application\n"
   syntax:
@@ -66,10 +66,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:
@@ -95,10 +95,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBApp
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nTooltip on Appointment button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -124,10 +124,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBEmail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nTooltip on E-mail button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -153,10 +153,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBNote
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nTooltip on Note button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -182,10 +182,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBPhone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nTooltip on Phone call button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -211,10 +211,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBSale
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nTooltip on Sale button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -240,10 +240,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nTooltip on Task button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -269,10 +269,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBWrite
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nTooltip on Write button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -298,10 +298,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLContact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nTooltip on Company button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -327,10 +327,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLDiary
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nTooltip on Diary button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -356,10 +356,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLEmail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nTooltip on E-mail button in the Navigator\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -385,10 +385,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLProject
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nTooltip on Project button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -414,10 +414,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLReporter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nTooltip on Reports button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -443,10 +443,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLSelection
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nTooltip on Selection button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -472,10 +472,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipsReadFactor
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault read time for tooltip is multiplied by this factor\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:

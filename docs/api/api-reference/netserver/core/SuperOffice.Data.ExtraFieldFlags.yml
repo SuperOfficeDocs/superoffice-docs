@@ -35,10 +35,10 @@ items:
   fullName: SuperOffice.Data.ExtraFieldFlags
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nFlag values for the CS extrafields dictionary\nThis Enum consists of flag values that can be combined.\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.ExtraFieldFlags.Neutral
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: No flags set\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.ExtraFieldFlags.Searchable
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: The field is searchable\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.ExtraFieldFlags.Public
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: The field is public (external)\n"
   syntax:
@@ -161,10 +161,10 @@ items:
   fullName: SuperOffice.Data.ExtraFieldFlags.InNewTicket
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: The field is viewed in new-ticket form\n"
   syntax:
@@ -189,10 +189,10 @@ items:
   fullName: SuperOffice.Data.ExtraFieldFlags.SetWhenClicked
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: The field is set (datetime) when clicked\n"
   syntax:
@@ -217,10 +217,10 @@ items:
   fullName: SuperOffice.Data.ExtraFieldFlags.CannotChange
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16: The field cannot change after being set\n"
   syntax:
@@ -245,10 +245,10 @@ items:
   fullName: SuperOffice.Data.ExtraFieldFlags.DropDown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n32: The field is a dropdown (extra string fields)\n"
   syntax:
@@ -273,10 +273,10 @@ items:
   fullName: SuperOffice.Data.ExtraFieldFlags.Readable
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n64: The field is directly readable from database\n"
   syntax:
@@ -301,10 +301,10 @@ items:
   fullName: SuperOffice.Data.ExtraFieldFlags.DontEscape
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n128: Do not HTML-escape the value when displaying field\n"
   syntax:
@@ -329,10 +329,10 @@ items:
   fullName: SuperOffice.Data.ExtraFieldFlags.Deleted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n256: The field is deleted\n"
   syntax:
@@ -357,10 +357,10 @@ items:
   fullName: SuperOffice.Data.ExtraFieldFlags.IsId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n512: The field is the id\n"
   syntax:
@@ -385,10 +385,10 @@ items:
   fullName: SuperOffice.Data.ExtraFieldFlags.IsForeignId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1024: The field is a foreign id\n"
   syntax:
@@ -413,10 +413,10 @@ items:
   fullName: SuperOffice.Data.ExtraFieldFlags.ReadOnly
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2048: The field is not writeable\n"
   syntax:
@@ -441,10 +441,10 @@ items:
   fullName: SuperOffice.Data.ExtraFieldFlags.UseDefault
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4096: Use default value for field if no value is supplied\n"
   syntax:
@@ -469,10 +469,10 @@ items:
   fullName: SuperOffice.Data.ExtraFieldFlags.ListRelations
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8192: List relations\n"
   syntax:
@@ -497,10 +497,10 @@ items:
   fullName: SuperOffice.Data.ExtraFieldFlags.ViewInList
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16384: View this field when listing rows\n"
   syntax:
@@ -525,10 +525,10 @@ items:
   fullName: SuperOffice.Data.ExtraFieldFlags.HideHeaderIfEmpty
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n32768: Hide the header for this list if there are no entries\n"
   syntax:
@@ -553,10 +553,10 @@ items:
   fullName: SuperOffice.Data.ExtraFieldFlags.HideFunctions
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n65536: Hide the function buttons for this relation\n"
   syntax:
@@ -581,10 +581,10 @@ items:
   fullName: SuperOffice.Data.ExtraFieldFlags.NotEmpty
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n131072: The field cannot be empty\n"
   syntax:
@@ -609,10 +609,10 @@ items:
   fullName: SuperOffice.Data.ExtraFieldFlags.Hidden
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n262144: The field is not shown anywhere\n"
   syntax:
@@ -637,10 +637,10 @@ items:
   fullName: SuperOffice.Data.ExtraFieldFlags.Indexed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n524288: The field is indexed\n"
   syntax:
@@ -665,10 +665,10 @@ items:
   fullName: SuperOffice.Data.ExtraFieldFlags.ViewInSearch
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1048576: The field is viewed in relational searches\n"
   syntax:

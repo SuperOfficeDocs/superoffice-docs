@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Data.IRecordSetProvider
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nInterface for classes which can convert entities into sets of <xref href=\"SuperOffice.Data.Record\" data-throw-if-not-resolved=\"false\"></xref>-instances.\n"
   syntax:
@@ -45,10 +45,10 @@ items:
   fullName: SuperOffice.Data.IRecordSetProvider.GetRecordsFor<T>(T)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nConverts the provided entity into a set of records.\n"
   syntax:
@@ -80,10 +80,10 @@ items:
   fullName: SuperOffice.Data.IRecordSetProvider.GetRecordsFor<T>(T, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nConverts the provided entity into a set of records.\n"
   syntax:

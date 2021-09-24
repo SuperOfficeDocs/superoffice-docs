@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.DataSetProvider
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nClass which can convert entities into datasets.\n"
   syntax:
@@ -72,10 +72,10 @@ items:
   fullName: SuperOffice.Data.DataSetProvider.DataSetProvider(SuperOffice.Data.IRecordSetProvider)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nRequired constructor.\n"
   syntax:
@@ -102,10 +102,10 @@ items:
   fullName: SuperOffice.Data.DataSetProvider.DataSetProvider()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public DataSetProvider()
@@ -127,10 +127,10 @@ items:
   fullName: SuperOffice.Data.DataSetProvider.GetDataSetFor<T>(T)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCreate a <xref href=\"System.Data.DataSet\" data-throw-if-not-resolved=\"false\"></xref> from the provided object.\n"
   syntax:
@@ -168,10 +168,10 @@ items:
   fullName: SuperOffice.Data.DataSetProvider.GetDataSetFor<T>(T, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCreate a <xref href=\"System.Data.DataSet\" data-throw-if-not-resolved=\"false\"></xref> from the provided object.\n"
   syntax:

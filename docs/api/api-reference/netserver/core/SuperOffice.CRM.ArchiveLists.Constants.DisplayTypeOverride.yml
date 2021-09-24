@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypeOverride
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nDisplay type overrides for archive columns in clients that need some help like the Win client.\nWith the advent of CS Extra fields, there is no opportunity to lookup an override in a client\nxml configuration file such as &quot;SoCrm Archives.config&quot;. But the provider has enough context to\nmake a good suggestion. This will be fed in the ArchiveColumnInfo.ExtraInfo member.\n\n"
   syntax:
@@ -55,10 +55,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypeOverride.Navigator
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public static readonly string Navigator
@@ -85,10 +85,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypeOverride.TimeSpan
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nColumn represents a TimeSpan CS ExtraField.\nWin client expects to find the stored Int value in minutes in the ColumnData.RawValue!\n"
   syntax:
@@ -116,10 +116,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypeOverride.CsTzDate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nColumn represents a TimeZone dependent date e.g. CS EXtra Fields of type Date.\nIn CS, these are bound to your &quot;preferred timezone location id&quot; preference.\nWin client expects to find the stored raw Base Date value in in the ColumnData.RawValue!\n"
   syntax:
@@ -147,10 +147,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypeOverride.CsTzDateTime
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public static readonly string CsTzDateTime

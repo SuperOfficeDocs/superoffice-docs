@@ -21,10 +21,10 @@ items:
   fullName: SuperOffice.Data.PhoneType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nThe type of Phone\nThis Enum is used by:  phone.ptype_idx\n"
   syntax:
@@ -53,10 +53,10 @@ items:
   fullName: SuperOffice.Data.PhoneType.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown - used when initializing \n"
   syntax:
@@ -81,10 +81,10 @@ items:
   fullName: SuperOffice.Data.PhoneType.ContactPhone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Telephone number for a contact.\n"
   syntax:
@@ -109,10 +109,10 @@ items:
   fullName: SuperOffice.Data.PhoneType.ContactFax
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Facsimile number for a contact\n"
   syntax:
@@ -137,10 +137,10 @@ items:
   fullName: SuperOffice.Data.PhoneType.PersonDirectPhone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16385: Direct dial telephone for a person\n"
   syntax:
@@ -165,10 +165,10 @@ items:
   fullName: SuperOffice.Data.PhoneType.PersonDirectFax
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16387: Direct facsimile number for a person\n"
   syntax:
@@ -193,10 +193,10 @@ items:
   fullName: SuperOffice.Data.PhoneType.PersonPrivate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16388: Private telephone for a person\n"
   syntax:
@@ -221,10 +221,10 @@ items:
   fullName: SuperOffice.Data.PhoneType.PersonMobile
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16389: Cellular telephone for a person\n"
   syntax:
@@ -249,10 +249,10 @@ items:
   fullName: SuperOffice.Data.PhoneType.PersonPager
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16390: Pager number for a person\n"
   syntax:

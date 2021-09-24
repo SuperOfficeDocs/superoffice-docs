@@ -42,10 +42,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSuperOffice Web Services settings\n"
   syntax:
@@ -80,10 +80,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading. \n"
   syntax:
@@ -109,10 +109,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.ELearningUrl
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nURL to E-Learning\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -138,10 +138,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.EnableNetServicesOnCentral
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nMake Web Services available on your central and satellite databases. (Default = YES)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -177,10 +177,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.EnableNetServicesOnTravel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nMake Web Services available on your Travel databases. (Default = YES)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -216,10 +216,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.LastPage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nLast page read\n<p></p>Control type: Number, access: Wizard\n"
   syntax:
@@ -255,10 +255,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.NewsURL
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nNews URL\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
@@ -294,10 +294,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.NextDate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nNext date CRM should check for news on Web Services (yyyy.mm.dd)\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
@@ -323,10 +323,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.PageURL
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWWW Page URL - show when the Logo clicked in the client.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\n<p></p>Control type: Text, access: Wizard\n"
   example:
@@ -354,10 +354,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.SeenTeaserDlg
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nThe user has read the teaser from Web Services.\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -393,10 +393,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.ShowOnStartup
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShow news from SuperOffice Web Services on startup. (Default = YES)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -432,10 +432,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.StatusCheckTimeout
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nTimeout for reading status from Web Services in seconds. (Default = 60)\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -471,10 +471,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.StatusURL
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nStatus URL - returns XML or JSON with list of links to update NetServices preferences with.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\n<p></p>Control type: Text, access: Wizard\n"
   example:
@@ -502,10 +502,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.WebtoolsDownloadUrl
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreferencekey for DownloadService dispatcher-provided URL template string.\n"
   syntax:
@@ -531,10 +531,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.TeaserURL
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nTeaser URL\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
@@ -570,10 +570,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.UserPassportId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nThe Microsoft Passport ID of this associate (not the e-mail address)\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -609,10 +609,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewUrl
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWhatsNew URL - call this to get the URL to the latest news page.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\nClient should compare the returned URL with the WhatsNewLatestWeb or\nWhatsNewLatestPocket, depending on the client.\n<p></p>Control type: Text, access: Wizard\n"
   example:
@@ -640,10 +640,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewSeenWeb
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWhatsNew Seen on Web client. The latest WhatsNew URL we have seen in the web client.\nUpdated by the client when the WhatsNewUrl has been changed.\n<p></p>Control type: Text, access: Wizard\n"
   example:
@@ -671,10 +671,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewConfirmedWeb
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWhatsNew Latest confirmed on web client. The latests WhatsNew URL the user has confirmed on the web client.\nUpdated by the client when teh user clicks GOT IT in the whats new dialog.\n<p></p>Control type: Text, access: Wizard\n"
   example:
@@ -702,10 +702,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewSeenWin
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWhatsNew Seen on Web client. The latest WhatsNew URL we have seen in the web client.\nUpdated by the client when the WhatsNewUrl has been changed.\n<p></p>Control type: Text, access: Wizard\n"
   example:
@@ -733,10 +733,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewConfirmedWin
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWhatsNew Latest confirmed on web client. The latests WhatsNew URL the user has confirmed on the web client.\nUpdated by the client when teh user clicks GOT IT in the whats new dialog.\n<p></p>Control type: Text, access: Wizard\n"
   example:
@@ -764,10 +764,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewSeenPocket
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWhatsNew Seen on Web client. The latest WhatsNew URL we have seen in the web client.\nUpdated by the client when the WhatsNewUrl has been changed.\n<p></p>Control type: Text, access: Wizard\n"
   example:
@@ -795,10 +795,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewConfirmedPocket
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWhatsNew Latest confirmed on web client. The latests WhatsNew URL the user has confirmed on the web client.\nUpdated by the client when teh user clicks GOT IT in the whats new dialog.\n<p></p>Control type: Text, access: Wizard\n"
   example:
@@ -826,10 +826,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.CommunityUrl
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nCommunity URL - Link to the Customer Community homepage.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\n<p></p>Control type: Text, access: Wizard\n"
   example:
@@ -857,10 +857,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.FeedbackUrl
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nFeedback URL - Link to the Feedback form.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\n<p></p>Control type: Text, access: Wizard\n"
   example:
@@ -888,10 +888,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.TechSupportUrl
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nTech Support URL - Link to the Tech Support page.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\n<p></p>Control type: Text, access: Wizard\n"
   example:
@@ -919,10 +919,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.HelpUrl
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nHelp URL - Link to the context sensitive Help page.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\n<p></p>Control type: Text, access: Wizard\n"
   example:
@@ -950,10 +950,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.HelpIndexUrl
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nHelp Index URL - Link to the Help home page.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\n<p></p>Control type: Text, access: Wizard\n"
   example:
@@ -981,10 +981,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.ResourceCtrUrl
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nResource Center URL - Link to the Resource Center home page.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\n<p></p>Control type: Text, access: Wizard\n"
   example:
@@ -1015,10 +1015,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.MeteredServicesUrl
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public const string MeteredServicesUrl = "MeteredServicesUrl"

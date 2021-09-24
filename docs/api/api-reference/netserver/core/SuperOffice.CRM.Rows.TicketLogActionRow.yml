@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Rows.TicketLogActionRow.#ctor(SuperOffice.CRM.Rows.TicketLogActionRow.TicketLogActionRowIdxBase)
   - SuperOffice.CRM.Rows.TicketLogActionRow._currentCustomerId
   - SuperOffice.CRM.Rows.TicketLogActionRow._currentDescription
+  - SuperOffice.CRM.Rows.TicketLogActionRow._currentDetails
   - SuperOffice.CRM.Rows.TicketLogActionRow._currentLogAction
   - SuperOffice.CRM.Rows.TicketLogActionRow._currentLogWhen
   - SuperOffice.CRM.Rows.TicketLogActionRow._currentMessageId
@@ -17,6 +18,7 @@ items:
   - SuperOffice.CRM.Rows.TicketLogActionRow._currentUserId
   - SuperOffice.CRM.Rows.TicketLogActionRow._onCustomerIdChange
   - SuperOffice.CRM.Rows.TicketLogActionRow._onDescriptionChange
+  - SuperOffice.CRM.Rows.TicketLogActionRow._onDetailsChange
   - SuperOffice.CRM.Rows.TicketLogActionRow._onLogActionChange
   - SuperOffice.CRM.Rows.TicketLogActionRow._onLogWhenChange
   - SuperOffice.CRM.Rows.TicketLogActionRow._onMessageIdChange
@@ -25,6 +27,7 @@ items:
   - SuperOffice.CRM.Rows.TicketLogActionRow._onUserIdChange
   - SuperOffice.CRM.Rows.TicketLogActionRow._persistedCustomerId
   - SuperOffice.CRM.Rows.TicketLogActionRow._persistedDescription
+  - SuperOffice.CRM.Rows.TicketLogActionRow._persistedDetails
   - SuperOffice.CRM.Rows.TicketLogActionRow._persistedLogAction
   - SuperOffice.CRM.Rows.TicketLogActionRow._persistedLogWhen
   - SuperOffice.CRM.Rows.TicketLogActionRow._persistedMessageId
@@ -35,6 +38,7 @@ items:
   - SuperOffice.CRM.Rows.TicketLogActionRow.CreateNew
   - SuperOffice.CRM.Rows.TicketLogActionRow.CustomerId
   - SuperOffice.CRM.Rows.TicketLogActionRow.Description
+  - SuperOffice.CRM.Rows.TicketLogActionRow.Details
   - SuperOffice.CRM.Rows.TicketLogActionRow.GetFromCustomSearch(SuperOffice.CRM.Rows.TicketLogActionRow.CustomSearch)
   - SuperOffice.CRM.Rows.TicketLogActionRow.GetFromIdxTicketLogActionId(System.Int32)
   - SuperOffice.CRM.Rows.TicketLogActionRow.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.TicketLogActionTableInfo)
@@ -52,6 +56,7 @@ items:
   - SuperOffice.CRM.Rows.TicketLogActionRow.MessageId
   - SuperOffice.CRM.Rows.TicketLogActionRow.OnCustomerIdChange
   - SuperOffice.CRM.Rows.TicketLogActionRow.OnDescriptionChange
+  - SuperOffice.CRM.Rows.TicketLogActionRow.OnDetailsChange
   - SuperOffice.CRM.Rows.TicketLogActionRow.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.TicketLogActionRow.OnLogActionChange
   - SuperOffice.CRM.Rows.TicketLogActionRow.OnLogWhenChange
@@ -123,6 +128,7 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.CRM.Rows.IdxBase,SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+  - SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
   - SuperOffice.CRM.Rows.TableRowBase.SetSaveOwner(SuperOffice.Data.INestedPersist)
   - SuperOffice.CRM.Rows.TableRowBase.Save
   - SuperOffice.CRM.Rows.TableRowBase.Delete
@@ -429,6 +435,33 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.TicketLogActionRow._persistedDetails
+  commentId: F:SuperOffice.CRM.Rows.TicketLogActionRow._persistedDetails
+  id: _persistedDetails
+  parent: SuperOffice.CRM.Rows.TicketLogActionRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedDetails
+  nameWithType: TicketLogActionRow._persistedDetails
+  fullName: SuperOffice.CRM.Rows.TicketLogActionRow._persistedDetails
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.TicketLogActionRow.Details\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected string _persistedDetails
+    return:
+      type: System.String
+    content.vb: Protected _persistedDetails As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.TicketLogActionRow._currentTicketLogActionId
   commentId: F:SuperOffice.CRM.Rows.TicketLogActionRow._currentTicketLogActionId
   id: _currentTicketLogActionId
@@ -668,6 +701,33 @@ items:
     return:
       type: System.String
     content.vb: Protected _currentDescription As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.TicketLogActionRow._currentDetails
+  commentId: F:SuperOffice.CRM.Rows.TicketLogActionRow._currentDetails
+  id: _currentDetails
+  parent: SuperOffice.CRM.Rows.TicketLogActionRow
+  langs:
+  - csharp
+  - vb
+  name: _currentDetails
+  nameWithType: TicketLogActionRow._currentDetails
+  fullName: SuperOffice.CRM.Rows.TicketLogActionRow._currentDetails
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.TicketLogActionRow.Details\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected string _currentDetails
+    return:
+      type: System.String
+    content.vb: Protected _currentDetails As String
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1830,6 +1890,40 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Rows.TicketLogActionRow.Details
+  commentId: P:SuperOffice.CRM.Rows.TicketLogActionRow.Details
+  id: Details
+  parent: SuperOffice.CRM.Rows.TicketLogActionRow
+  langs:
+  - csharp
+  - vb
+  name: Details
+  nameWithType: TicketLogActionRow.Details
+  fullName: SuperOffice.CRM.Rows.TicketLogActionRow.Details
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: string. Field for storing details of the log action as e.g. JSON \n"
+  remarks: "\nOriginal type in dictionary:  Clob.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual string Details { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Details As String
+  overload: SuperOffice.CRM.Rows.TicketLogActionRow.Details*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Rows.TicketLogActionRow._onTicketIdChange
   commentId: E:SuperOffice.CRM.Rows.TicketLogActionRow._onTicketIdChange
   id: _onTicketIdChange
@@ -2046,6 +2140,33 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.TicketLogActionRow._onDetailsChange
+  commentId: E:SuperOffice.CRM.Rows.TicketLogActionRow._onDetailsChange
+  id: _onDetailsChange
+  parent: SuperOffice.CRM.Rows.TicketLogActionRow
+  langs:
+  - csharp
+  - vb
+  name: _onDetailsChange
+  nameWithType: TicketLogActionRow._onDetailsChange
+  fullName: SuperOffice.CRM.Rows.TicketLogActionRow._onDetailsChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketLogActionRow.Details\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
+  syntax:
+    content: protected event OnFieldChange<string> _onDetailsChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
+    content.vb: Protected Event _onDetailsChange As OnFieldChange(Of String)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.TicketLogActionRow.OnTicketIdChange
   commentId: E:SuperOffice.CRM.Rows.TicketLogActionRow.OnTicketIdChange
   id: OnTicketIdChange
@@ -2258,6 +2379,33 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
     content.vb: Public Event OnDescriptionChange As OnFieldChange(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketLogActionRow.OnDetailsChange
+  commentId: E:SuperOffice.CRM.Rows.TicketLogActionRow.OnDetailsChange
+  id: OnDetailsChange
+  parent: SuperOffice.CRM.Rows.TicketLogActionRow
+  langs:
+  - csharp
+  - vb
+  name: OnDetailsChange
+  nameWithType: TicketLogActionRow.OnDetailsChange
+  fullName: SuperOffice.CRM.Rows.TicketLogActionRow.OnDetailsChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when Details is changing.\n"
+  syntax:
+    content: public event OnFieldChange<string> OnDetailsChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
+    content.vb: Public Event OnDetailsChange As OnFieldChange(Of String)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -2928,6 +3076,63 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: SetDefaults(DashboardTileDefinitionRow, String)
+  nameWithType: TableRowBase.SetDefaults(DashboardTileDefinitionRow, String)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -5823,6 +6028,12 @@ references:
   name: Description
   nameWithType: TicketLogActionRow.Description
   fullName: SuperOffice.CRM.Rows.TicketLogActionRow.Description
+- uid: SuperOffice.CRM.Rows.TicketLogActionRow.Details*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketLogActionRow.Details
+  isExternal: true
+  name: Details
+  nameWithType: TicketLogActionRow.Details
+  fullName: SuperOffice.CRM.Rows.TicketLogActionRow.Details
 - uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   parent: SuperOffice.CRM.Rows

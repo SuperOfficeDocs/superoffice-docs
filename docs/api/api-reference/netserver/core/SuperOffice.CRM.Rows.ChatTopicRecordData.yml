@@ -10,6 +10,12 @@ items:
   - SuperOffice.CRM.Rows.ChatTopicRecordData.AlertTemplate
   - SuperOffice.CRM.Rows.ChatTopicRecordData.AlertTimeout
   - SuperOffice.CRM.Rows.ChatTopicRecordData.BadgeHeader
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.BotEnabled
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.BotMessageReceivedScriptid
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.BotName
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.BotRegisterScriptid
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.BotSessionChangedScriptid
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.BotSessionCreatedScriptid
   - SuperOffice.CRM.Rows.ChatTopicRecordData.CategoryId
   - SuperOffice.CRM.Rows.ChatTopicRecordData.ChatTopicId
   - SuperOffice.CRM.Rows.ChatTopicRecordData.CustomQueueText
@@ -21,6 +27,8 @@ items:
   - SuperOffice.CRM.Rows.ChatTopicRecordData.KbCategoryId
   - SuperOffice.CRM.Rows.ChatTopicRecordData.LanguageId
   - SuperOffice.CRM.Rows.ChatTopicRecordData.LastAccept
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.LunchStart
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.LunchStop
   - SuperOffice.CRM.Rows.ChatTopicRecordData.ManagerWarningNewChat
   - SuperOffice.CRM.Rows.ChatTopicRecordData.MonEnabled
   - SuperOffice.CRM.Rows.ChatTopicRecordData.MonStart
@@ -41,12 +49,14 @@ items:
   - SuperOffice.CRM.Rows.ChatTopicRecordData.TueStart
   - SuperOffice.CRM.Rows.ChatTopicRecordData.TueStop
   - SuperOffice.CRM.Rows.ChatTopicRecordData.TzLocationId
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.UseLunchHours
   - SuperOffice.CRM.Rows.ChatTopicRecordData.UseOpeningHours
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WarningNewChat
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WedEnabled
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WedStart
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WedStop
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WelcomeMessage
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetAgentUseFirstname
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetAutoFaq
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetColor
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetEnableTicket
@@ -448,7 +458,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nContains the user notify time in seconds \n"
+  summary: "\nContains the user notify time in minutes \n"
   syntax:
     content: public int WarningNewChat
     return:
@@ -475,7 +485,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nContains the manager notify time in seconds \n"
+  summary: "\nContains the manager notify time in minutes \n"
   syntax:
     content: public int ManagerWarningNewChat
     return:
@@ -1750,6 +1760,276 @@ items:
     return:
       type: System.String
     content.vb: Public CustomQueueText As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.BotEnabled
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.BotEnabled
+  id: BotEnabled
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: BotEnabled
+  nameWithType: ChatTopicRecordData.BotEnabled
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.BotEnabled
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEnable chatbot on this topic. Run the trigger scripts on bot events. \n"
+  syntax:
+    content: public short BotEnabled
+    return:
+      type: System.Int16
+    content.vb: Public BotEnabled As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.BotName
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.BotName
+  id: BotName
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: BotName
+  nameWithType: ChatTopicRecordData.BotName
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.BotName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChatbot name \n"
+  syntax:
+    content: public string BotName
+    return:
+      type: System.String
+    content.vb: Public BotName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.BotRegisterScriptid
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.BotRegisterScriptid
+  id: BotRegisterScriptid
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: BotRegisterScriptid
+  nameWithType: ChatTopicRecordData.BotRegisterScriptid
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.BotRegisterScriptid
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nScript id to register/unregister chatbot. 0 if there is no bot \n"
+  syntax:
+    content: public int BotRegisterScriptid
+    return:
+      type: System.Int32
+    content.vb: Public BotRegisterScriptid As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.BotSessionCreatedScriptid
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.BotSessionCreatedScriptid
+  id: BotSessionCreatedScriptid
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: BotSessionCreatedScriptid
+  nameWithType: ChatTopicRecordData.BotSessionCreatedScriptid
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.BotSessionCreatedScriptid
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nScript id to run on new session. \n"
+  syntax:
+    content: public int BotSessionCreatedScriptid
+    return:
+      type: System.Int32
+    content.vb: Public BotSessionCreatedScriptid As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.BotSessionChangedScriptid
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.BotSessionChangedScriptid
+  id: BotSessionChangedScriptid
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: BotSessionChangedScriptid
+  nameWithType: ChatTopicRecordData.BotSessionChangedScriptid
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.BotSessionChangedScriptid
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nScript id to run when session state changes. \n"
+  syntax:
+    content: public int BotSessionChangedScriptid
+    return:
+      type: System.Int32
+    content.vb: Public BotSessionChangedScriptid As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.BotMessageReceivedScriptid
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.BotMessageReceivedScriptid
+  id: BotMessageReceivedScriptid
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: BotMessageReceivedScriptid
+  nameWithType: ChatTopicRecordData.BotMessageReceivedScriptid
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.BotMessageReceivedScriptid
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nScript id to run when new messages received from customer. \n"
+  syntax:
+    content: public int BotMessageReceivedScriptid
+    return:
+      type: System.Int32
+    content.vb: Public BotMessageReceivedScriptid As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.UseLunchHours
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.UseLunchHours
+  id: UseLunchHours
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: UseLunchHours
+  nameWithType: ChatTopicRecordData.UseLunchHours
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.UseLunchHours
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhether to use lunch hours or not. \n"
+  syntax:
+    content: public short UseLunchHours
+    return:
+      type: System.Int16
+    content.vb: Public UseLunchHours As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.LunchStart
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.LunchStart
+  id: LunchStart
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: LunchStart
+  nameWithType: ChatTopicRecordData.LunchStart
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.LunchStart
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen opening hours starts for lunch. Only time-part is used. \n"
+  syntax:
+    content: public DateTime LunchStart
+    return:
+      type: System.DateTime
+    content.vb: Public LunchStart As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.LunchStop
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.LunchStop
+  id: LunchStop
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: LunchStop
+  nameWithType: ChatTopicRecordData.LunchStop
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.LunchStop
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen opening hours stops for lunch. Only time-part is used. \n"
+  syntax:
+    content: public DateTime LunchStop
+    return:
+      type: System.DateTime
+    content.vb: Public LunchStop As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetAgentUseFirstname
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetAgentUseFirstname
+  id: WidgetAgentUseFirstname
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetAgentUseFirstname
+  nameWithType: ChatTopicRecordData.WidgetAgentUseFirstname
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetAgentUseFirstname
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhether to use the firstname of the agent in the chat widget. \n"
+  syntax:
+    content: public short WidgetAgentUseFirstname
+    return:
+      type: System.Int16
+    content.vb: Public WidgetAgentUseFirstname As Short
   modifiers.csharp:
   - public
   modifiers.vb:

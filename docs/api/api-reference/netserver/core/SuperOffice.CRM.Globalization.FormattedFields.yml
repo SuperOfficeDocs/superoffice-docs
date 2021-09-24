@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.FormattedFields
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\nClass representing a collection of Localized Field objects\n"
   syntax:
@@ -94,10 +94,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.FormattedFields.FormattedFields()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\nDefault constructor\n"
   syntax:
@@ -120,10 +120,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.FormattedFields.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\nGet the address line as a string.\n"
   syntax:
@@ -152,10 +152,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.FormattedFields.Item[System.Int32]
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\nIndexer for this list returning an IFormattedList representation\n"
   syntax:

@@ -13,7 +13,7 @@ items:
   fullName: SuperOffice.CRM.Services.Switches
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
 - uid: SuperOffice.CRM.Services.Switches.SwitchDefault
   commentId: T:SuperOffice.CRM.Services.Switches.SwitchDefault

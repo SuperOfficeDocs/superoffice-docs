@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Data.ProjectStatusConstants
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public static class ProjectStatusConstants
@@ -55,10 +55,10 @@ items:
   fullName: SuperOffice.Data.ProjectStatusConstants.ProjectTypeId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProjectTypeId = "ProjectTypeId"
@@ -83,10 +83,10 @@ items:
   fullName: SuperOffice.Data.ProjectStatusConstants.GetDeletedStageLinks
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string GetDeletedStageLinks = "GetDeletedStageLinks"
@@ -111,10 +111,10 @@ items:
   fullName: SuperOffice.Data.ProjectStatusConstants.ProjectTypeStageLinkDeleted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProjectTypeStageLinkDeleted = "ProjectTypeStageLinkDeleted"
@@ -139,10 +139,10 @@ items:
   fullName: SuperOffice.Data.ProjectStatusConstants.GetDeletedStages
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string GetDeletedStages = "GetDeletedStages"
@@ -167,10 +167,10 @@ items:
   fullName: SuperOffice.Data.ProjectStatusConstants.ProjectTypeStatusLinkId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string ProjectTypeStatusLinkId = "ProjectTypeStatusLinkId"

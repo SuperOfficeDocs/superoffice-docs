@@ -6,8 +6,6 @@ items:
   parent: SuperOffice.CRM.ArchiveLists.Archive
   children:
   - SuperOffice.CRM.ArchiveLists.Archive.AssociateProjectSelectionDynamicProvider.#ctor
-  - SuperOffice.CRM.ArchiveLists.Archive.AssociateProjectSelectionDynamicProvider._colRowKind
-  - SuperOffice.CRM.ArchiveLists.Archive.AssociateProjectSelectionDynamicProvider._colSelectionId
   - SuperOffice.CRM.ArchiveLists.Archive.AssociateProjectSelectionDynamicProvider.ProviderName
   langs:
   - csharp
@@ -51,6 +49,8 @@ items:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
   inheritedMembers:
+  - SuperOffice.CRM.ArchiveLists.Archive.ProjectSelectionDynamicProvider._colSelectionId
+  - SuperOffice.CRM.ArchiveLists.Archive.ProjectSelectionDynamicProvider._colRowKind
   - SuperOffice.CRM.ArchiveLists.Archive.ProjectSelectionDynamicProvider.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.Archive.ProjectSelectionDynamicProvider.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   - SuperOffice.CRM.ArchiveLists.Archive.ProjectSelectionDynamicProvider.GetRows(System.String)
@@ -104,6 +104,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveRow}.RootExtenders
   - SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveRow}.HaveReadToEnd
   - SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveRow}.ValueOverrides
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.Visible
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.Invisible
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AllowOrderBy
@@ -183,6 +184,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddLastUpdatedMapping(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedBy(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo[])
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetIdFieldTag(SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetArchiveColumnName(SuperOffice.Data.Dictionary.SoField)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ExtensibleHelper
@@ -258,58 +260,6 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: SuperOffice.CRM.ArchiveLists.Archive.AssociateProjectSelectionDynamicProvider._colSelectionId
-  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.AssociateProjectSelectionDynamicProvider._colSelectionId
-  id: _colSelectionId
-  parent: SuperOffice.CRM.ArchiveLists.Archive.AssociateProjectSelectionDynamicProvider
-  langs:
-  - csharp
-  - vb
-  name: _colSelectionId
-  nameWithType: AssociateProjectSelectionDynamicProvider._colSelectionId
-  fullName: SuperOffice.CRM.ArchiveLists.Archive.AssociateProjectSelectionDynamicProvider._colSelectionId
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.ArchiveLists.Archive
-  syntax:
-    content: protected ArchiveColumnInfo _colSelectionId
-    return:
-      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
-    content.vb: Protected _colSelectionId As ArchiveColumnInfo
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.ArchiveLists.Archive.AssociateProjectSelectionDynamicProvider._colRowKind
-  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.AssociateProjectSelectionDynamicProvider._colRowKind
-  id: _colRowKind
-  parent: SuperOffice.CRM.ArchiveLists.Archive.AssociateProjectSelectionDynamicProvider
-  langs:
-  - csharp
-  - vb
-  name: _colRowKind
-  nameWithType: AssociateProjectSelectionDynamicProvider._colRowKind
-  fullName: SuperOffice.CRM.ArchiveLists.Archive.AssociateProjectSelectionDynamicProvider._colRowKind
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.ArchiveLists.Archive
-  syntax:
-    content: protected ArchiveColumnInfo _colRowKind
-    return:
-      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
-    content.vb: Protected _colRowKind As ArchiveColumnInfo
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
 - uid: SuperOffice.CRM.ArchiveLists.Archive.AssociateProjectSelectionDynamicProvider.#ctor
   commentId: M:SuperOffice.CRM.ArchiveLists.Archive.AssociateProjectSelectionDynamicProvider.#ctor
   id: '#ctor'
@@ -627,6 +577,20 @@ references:
   name: IArchiveProviderHasEntities
   nameWithType: IArchiveProviderHasEntities
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+- uid: SuperOffice.CRM.ArchiveLists.Archive.ProjectSelectionDynamicProvider._colSelectionId
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.ProjectSelectionDynamicProvider._colSelectionId
+  parent: SuperOffice.CRM.ArchiveLists.Archive.ProjectSelectionDynamicProvider
+  isExternal: true
+  name: _colSelectionId
+  nameWithType: ProjectSelectionDynamicProvider._colSelectionId
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.ProjectSelectionDynamicProvider._colSelectionId
+- uid: SuperOffice.CRM.ArchiveLists.Archive.ProjectSelectionDynamicProvider._colRowKind
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.ProjectSelectionDynamicProvider._colRowKind
+  parent: SuperOffice.CRM.ArchiveLists.Archive.ProjectSelectionDynamicProvider
+  isExternal: true
+  name: _colRowKind
+  nameWithType: ProjectSelectionDynamicProvider._colRowKind
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.ProjectSelectionDynamicProvider._colRowKind
 - uid: SuperOffice.CRM.ArchiveLists.Archive.ProjectSelectionDynamicProvider.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   commentId: M:SuperOffice.CRM.ArchiveLists.Archive.ProjectSelectionDynamicProvider.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   parent: SuperOffice.CRM.ArchiveLists.Archive.ProjectSelectionDynamicProvider
@@ -2258,6 +2222,13 @@ references:
   fullName: SuperOffice.CRM.ArchiveLists.QueryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveRow>.ValueOverrides
   nameWithType.vb: QueryProviderBase(Of ArchiveRow).ValueOverrides
   fullName.vb: SuperOffice.CRM.ArchiveLists.QueryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveRow).ValueOverrides
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
+  commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  isExternal: true
+  name: _minuteFields
+  nameWithType: ExtensibleColumnsBase._minuteFields
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.Visible
   commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.Visible
   parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
@@ -6326,6 +6297,104 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  isExternal: true
+  name: AddAssociateFullName(SoDataReader, ArchiveRow, ArchiveColumnInfo, FieldInfo[])
+  nameWithType: ExtensibleColumnsBase.AddAssociateFullName(SoDataReader, ArchiveRow, ArchiveColumnInfo, FieldInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo, SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: ExtensibleColumnsBase.AddAssociateFullName(SoDataReader, ArchiveRow, ArchiveColumnInfo, FieldInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo, SuperOffice.Data.SQL.FieldInfo())
+  name.vb: AddAssociateFullName(SoDataReader, ArchiveRow, ArchiveColumnInfo, FieldInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo[])
+    name: AddAssociateFullName
+    nameWithType: ExtensibleColumnsBase.AddAssociateFullName
+    fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo[])
+    name: AddAssociateFullName
+    nameWithType: ExtensibleColumnsBase.AddAssociateFullName
+    fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetIdFieldTag(SuperOffice.Data.SoDataReader)
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetIdFieldTag(SuperOffice.Data.SoDataReader)
   parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
@@ -8908,13 +8977,6 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
-  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
-  parent: SuperOffice.CRM.ArchiveLists
-  isExternal: true
-  name: ArchiveColumnInfo
-  nameWithType: ArchiveColumnInfo
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.Archive.AssociateProjectSelectionDynamicProvider.#ctor*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.AssociateProjectSelectionDynamicProvider.#ctor
   isExternal: true

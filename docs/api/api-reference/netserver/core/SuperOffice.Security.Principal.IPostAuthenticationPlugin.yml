@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Security.Principal.IPostAuthenticationPlugin
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: 'public interface IPostAuthenticationPlugin : IPlugin'
@@ -46,10 +46,10 @@ items:
   fullName: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail(SuperOffice.Security.Principal.SoPrincipal, System.IdentityModel.Tokens.SecurityToken[], System.Collections.Generic.List<System.IdentityModel.Tokens.SecurityToken>, System.Exception)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nMethod called after authentication fails\n"
   syntax:
@@ -87,10 +87,10 @@ items:
   fullName: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess(SuperOffice.Security.Principal.SoPrincipal, System.IdentityModel.Tokens.SecurityToken[], System.Collections.Generic.List<System.IdentityModel.Tokens.SecurityToken>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: bool PostAuthenticateSuccess(SoPrincipal principal, SecurityToken[] tokens, List<SecurityToken> resolvedTokens)

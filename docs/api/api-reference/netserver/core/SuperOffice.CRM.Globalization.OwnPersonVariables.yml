@@ -308,6 +308,7 @@ items:
   - SuperOffice.CRM.Globalization.OwnPersonVariables.UserDefinedFieldString8
   - SuperOffice.CRM.Globalization.OwnPersonVariables.UserDefinedFieldString9
   - SuperOffice.CRM.Globalization.OwnPersonVariables.UserId
+  - SuperOffice.CRM.Globalization.OwnPersonVariables.UserName
   - SuperOffice.CRM.Globalization.OwnPersonVariables.Web
   - SuperOffice.CRM.Globalization.OwnPersonVariables.WebNoProtocol
   langs:
@@ -493,6 +494,49 @@ items:
     arguments:
     - type: System.String
       value: alid
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.OwnPersonVariables.UserName
+  commentId: P:SuperOffice.CRM.Globalization.OwnPersonVariables.UserName
+  id: UserName
+  parent: SuperOffice.CRM.Globalization.OwnPersonVariables
+  langs:
+  - csharp
+  - vb
+  name: UserName
+  nameWithType: OwnPersonVariables.UserName
+  fullName: SuperOffice.CRM.Globalization.OwnPersonVariables.UserName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nSender&apos;s login username.\n"
+  syntax:
+    content: >-
+      [TemplateTag("alun")]
+
+      public string UserName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("alun")>
+
+      Public ReadOnly Property UserName As String
+  overload: SuperOffice.CRM.Globalization.OwnPersonVariables.UserName*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: alun
   modifiers.csharp:
   - public
   - get
@@ -14371,6 +14415,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.CRM.Globalization.OwnPersonVariables.UserName*
+  commentId: Overload:SuperOffice.CRM.Globalization.OwnPersonVariables.UserName
+  isExternal: true
+  name: UserName
+  nameWithType: OwnPersonVariables.UserName
+  fullName: SuperOffice.CRM.Globalization.OwnPersonVariables.UserName
 - uid: SuperOffice.CRM.Globalization.OwnPersonVariables.Title*
   commentId: Overload:SuperOffice.CRM.Globalization.OwnPersonVariables.Title
   isExternal: true

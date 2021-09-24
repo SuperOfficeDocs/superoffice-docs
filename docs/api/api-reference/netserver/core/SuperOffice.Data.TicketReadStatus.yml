@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.TicketReadStatus
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nWhether the owner has read the ticket or not (red, yellow, green)\nThis Enum is used by:  ticket.read_status\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.TicketReadStatus.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown status\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.TicketReadStatus.Green
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: The ticket has been read by the owner\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.TicketReadStatus.Yellow
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: The ticket has received new information since last read\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.TicketReadStatus.Red
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: The ticket is unread by the owner\n"
   syntax:

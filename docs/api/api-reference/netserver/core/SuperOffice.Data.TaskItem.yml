@@ -111,10 +111,10 @@ items:
   fullName: SuperOffice.Data.TaskItem
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n\n"
   syntax:
@@ -143,10 +143,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeUndefined
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n\n"
   syntax:
@@ -171,10 +171,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeInvalid
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n\n"
   syntax:
@@ -199,10 +199,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeCommon
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCommon type used for common Context implementations.\n"
   syntax:
@@ -227,10 +227,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeNew
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCreate a new CurrentMode dependent record.\n"
   syntax:
@@ -255,10 +255,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeNewContact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCreate new contact\n"
   syntax:
@@ -283,10 +283,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeNewProject
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCreate new project\n"
   syntax:
@@ -311,10 +311,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeNewPerson
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCreate new person\n"
   syntax:
@@ -339,10 +339,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeNewSelection
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCreate new selection\n"
   syntax:
@@ -367,10 +367,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeNewAppointment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCreate new &quot;Standard&quot; appointment\n"
   syntax:
@@ -395,10 +395,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeNewToDo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCreate new &quot;ToDo&quot; appointment, also called a &quot;Task&quot;\n"
   syntax:
@@ -423,10 +423,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeNewPhone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCreate new &quot;Phone&quot; appointment\n"
   syntax:
@@ -451,10 +451,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeNewDocument
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCreate new &quot;Standard&quot; document\n"
   syntax:
@@ -479,10 +479,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeNewEmail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCreate new &quot;Email&quot; document\n"
   syntax:
@@ -507,10 +507,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeNewSale
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCreate new sale\n"
   syntax:
@@ -535,10 +535,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeNewNote
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nAttach new Note to the current card\n"
   syntax:
@@ -563,10 +563,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeDelete
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDelete whatever CurentMode points to.\n"
   syntax:
@@ -591,10 +591,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeDeleteContact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDelete current contact card\n"
   syntax:
@@ -619,10 +619,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeDeleteProject
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDelete current Project card\n"
   syntax:
@@ -647,10 +647,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeDeletePerson
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDelete Person\n"
   syntax:
@@ -675,10 +675,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeDeleteSelection
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDelete curren selection\n"
   syntax:
@@ -703,10 +703,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeDeleteAppointment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDelete Appointment\n"
   syntax:
@@ -731,10 +731,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeDeleteDocument
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDelete Document\n"
   syntax:
@@ -759,10 +759,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeDeleteSale
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDelete Sale\n"
   syntax:
@@ -787,10 +787,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeDeleteNote
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDelete ca note\n"
   syntax:
@@ -815,10 +815,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeWrite
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nWrite as used in Buttonbar and TaskCenter menu.\n"
   syntax:
@@ -843,10 +843,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeWriteDocument
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nGeneric document type, &quot;TemplateId = 0&quot;\n"
   syntax:
@@ -871,10 +871,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeWriteDoc1
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCreate a new document based on template of type kAppntDoc with rank 1)\n"
   syntax:
@@ -899,10 +899,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeWriteDoc2
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCreate a new document based on template of type kAppntDoc with rank 2)\n"
   syntax:
@@ -927,10 +927,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeWriteFax1
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCreate a new document based on template of type kAppntFax with rank 1)\n"
   syntax:
@@ -955,10 +955,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeWriteFax2
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCreate a new document based on template of type kAppntFax with rank 2)\n"
   syntax:
@@ -983,10 +983,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeWriteEmail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nGeneric mail type, &quot;TemplateId = 0&quot;\n"
   syntax:
@@ -1011,10 +1011,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeWriteEmail1
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCreate a new document based on template of type kAppntEmail with rank 1)\n"
   syntax:
@@ -1039,10 +1039,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeWriteEmail2
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCreate a new document based on template of type kAppntEmail with rank 2)\n"
   syntax:
@@ -1067,10 +1067,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeSendAsEmailAppointment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nSend appointment as EMail.\n"
   syntax:
@@ -1095,10 +1095,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeSaleAttachDocument
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nAdd document link to sale\n"
   syntax:
@@ -1123,10 +1123,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeSaleAttachAppointment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nAdd appointment link to sale\n"
   syntax:
@@ -1151,10 +1151,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeSaleAttachSale
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nAdd sale link to sale\n"
   syntax:
@@ -1179,10 +1179,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeAppointmentAttachDocument
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nAdd document link to appointment\n"
   syntax:
@@ -1207,10 +1207,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeAppointmentAttachSale
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nAdd sale link to appointment\n"
   syntax:
@@ -1235,10 +1235,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeAppointmentAttachAppointment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nAddd appointment link to appointment\n"
   syntax:
@@ -1263,10 +1263,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeDocumentAttachAppointment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nAdd appointment link to document\n"
   syntax:
@@ -1291,10 +1291,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeDocumentAttachSale
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nAdd sale link to document\n"
   syntax:
@@ -1319,10 +1319,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeDocumentAttachDocument
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nAdd document link to document\n"
   syntax:
@@ -1347,10 +1347,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypePostItContact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nAdd/Show UnknownOrPostIt on Contact card\n"
   syntax:
@@ -1375,10 +1375,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypePostItProject
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nAdd/Show UnknownOrPostIt on Project card\n"
   syntax:
@@ -1403,10 +1403,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypePostItPerson
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nAdd/Show UnknownOrPostIt on Person card\n"
   syntax:
@@ -1431,10 +1431,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypePostItSelection
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nAdd/Show UnknownOrPostIt on Selection card\n"
   syntax:
@@ -1459,10 +1459,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypePostItDiary
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nAdd/Show UnknownOrPostIt in Diary\n"
   syntax:
@@ -1487,10 +1487,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeContactNew
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCreate a new Contact\n"
   syntax:
@@ -1515,10 +1515,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeContactDelete
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDelete contact\n"
   syntax:
@@ -1543,10 +1543,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeContactFind
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nFind a Contact\n"
   syntax:
@@ -1571,10 +1571,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypePersonNew
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCreate a new Person\n"
   syntax:
@@ -1599,10 +1599,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypePersonDelete
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDelete Person\n"
   syntax:
@@ -1627,10 +1627,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypePersonFind
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nFind a Person\n"
   syntax:
@@ -1655,10 +1655,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeProjectNew
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCreate new Project\n"
   syntax:
@@ -1683,10 +1683,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeProjectDelete
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDelete project\n"
   syntax:
@@ -1711,10 +1711,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeProjectFind
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nFind a Project\n"
   syntax:
@@ -1739,10 +1739,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeProjectMailMerge
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDo a mail merge on behalf of a project\n"
   syntax:
@@ -1767,10 +1767,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionNew
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCreate new selection\n"
   syntax:
@@ -1795,10 +1795,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionDelete
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDelete Selection\n"
   syntax:
@@ -1823,10 +1823,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionFind
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nFind a Selection\n"
   syntax:
@@ -1851,10 +1851,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionMailMerge
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDo a mail merge on behalf of a selection\n"
   syntax:
@@ -1879,10 +1879,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionPrintLabels
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nPrint a label for each member in the selection\n"
   syntax:
@@ -1907,10 +1907,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionPrintReports
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nPrint report -&quot;-\n"
   syntax:
@@ -1935,10 +1935,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionSendEmail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nSend an e-mail to each member in the selection\n"
   syntax:
@@ -1963,10 +1963,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionGenToDo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nGenerate a to do appointment for each member\n"
   syntax:
@@ -1991,10 +1991,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionClone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nSimply copy a selection as &quot;Copy of ...&quot;\n"
   syntax:
@@ -2019,10 +2019,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionCopyInto
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCopy selection members into a new or existing one\n"
   syntax:
@@ -2047,10 +2047,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionEditInterests
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nEdit the interest for each member/member person\n"
   syntax:
@@ -2075,10 +2075,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionEditMembers
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDo changes on all members/member persons\n"
   syntax:
@@ -2103,10 +2103,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionDeleteMembers
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDelete all members in the member list from the contact table\n"
   syntax:
@@ -2131,10 +2131,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionExport
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nExport selection member data to a file\n"
   syntax:
@@ -2159,10 +2159,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeDiaryFind
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nFind Date\n"
   syntax:
@@ -2187,10 +2187,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeUser
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nUser defined task: Set up as an ExtApp i SOAdmin.\n"
   syntax:
@@ -2215,10 +2215,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeFind
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nInvoke Find dialog for CurrentMode.\n"
   syntax:
@@ -2243,10 +2243,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeFindContact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nInvoke Find Contact dialog.\n"
   syntax:
@@ -2271,10 +2271,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeFindPerson
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nInvoke Find Person dialog.\n"
   syntax:
@@ -2299,10 +2299,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeFindProject
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nInvoke Find Project dialog.\n"
   syntax:
@@ -2327,10 +2327,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeFindSelection
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nInvoke Find Selection dialog.\n"
   syntax:
@@ -2355,10 +2355,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeFindActivity
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nInvoke Find Activity dialog.\n"
   syntax:
@@ -2383,10 +2383,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeFindSale
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nInvoke Find Sale dialog.\n"
   syntax:
@@ -2411,10 +2411,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeFindDocument
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nInvoke Find Document dialog.\n"
   syntax:
@@ -2439,10 +2439,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypePrint
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nPrint CurrentMode.\n"
   syntax:
@@ -2467,10 +2467,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypePrintContact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nPrint Contact.\n"
   syntax:
@@ -2495,10 +2495,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypePrintPerson
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nPrint Person.\n"
   syntax:
@@ -2523,10 +2523,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypePrintProject
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nPrint Project.\n"
   syntax:
@@ -2551,10 +2551,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypePrintSelection
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nPrint Selection.\n"
   syntax:
@@ -2579,10 +2579,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypePrintAppointment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nPrint Activity.\n"
   syntax:
@@ -2607,10 +2607,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypePrintSale
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nPrint Sale.\n"
   syntax:
@@ -2635,10 +2635,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypePrintDocument
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nPrint Document.\n"
   syntax:
@@ -2663,10 +2663,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeSaleSold
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nset sale status = sold\n"
   syntax:
@@ -2691,10 +2691,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeSaleLost
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nset sale status = lost\n"
   syntax:
@@ -2719,10 +2719,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeConfigureTaskbar
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nInvokes the Task Center configuration dialog.\n"
   syntax:
@@ -2747,10 +2747,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeSeparator
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nA menu item separator\n"
   syntax:
@@ -2775,10 +2775,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeSpacer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nA small button layout spacer\n"
   syntax:
@@ -2803,10 +2803,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypePhone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nA &quot;Dial&quot; button and sub-menu\n"
   syntax:
@@ -2831,10 +2831,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeHelp
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nEquivalent for the SVHelpKeyButton.\n"
   syntax:
@@ -2859,10 +2859,10 @@ items:
   fullName: SuperOffice.Data.TaskItem.ETaskTypeCopySoProtocol
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nrelevant SoProtocol string and copy to clipboard.\n"
   syntax:

@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.Rows.SelectionRow._currentChartKey
   - SuperOffice.CRM.Rows.SelectionRow._currentCombinationType
   - SuperOffice.CRM.Rows.SelectionRow._currentCompanyUnique
+  - SuperOffice.CRM.Rows.SelectionRow._currentDashboardTileDefinitionId
   - SuperOffice.CRM.Rows.SelectionRow._currentDone
   - SuperOffice.CRM.Rows.SelectionRow._currentGroupIdx
   - SuperOffice.CRM.Rows.SelectionRow._currentIncludePerson
@@ -40,6 +41,7 @@ items:
   - SuperOffice.CRM.Rows.SelectionRow._onChartKeyChange
   - SuperOffice.CRM.Rows.SelectionRow._onCombinationTypeChange
   - SuperOffice.CRM.Rows.SelectionRow._onCompanyUniqueChange
+  - SuperOffice.CRM.Rows.SelectionRow._onDashboardTileDefinitionIdChange
   - SuperOffice.CRM.Rows.SelectionRow._onDoneChange
   - SuperOffice.CRM.Rows.SelectionRow._onGroupIdxChange
   - SuperOffice.CRM.Rows.SelectionRow._onIncludePersonChange
@@ -69,6 +71,7 @@ items:
   - SuperOffice.CRM.Rows.SelectionRow._persistedChartKey
   - SuperOffice.CRM.Rows.SelectionRow._persistedCombinationType
   - SuperOffice.CRM.Rows.SelectionRow._persistedCompanyUnique
+  - SuperOffice.CRM.Rows.SelectionRow._persistedDashboardTileDefinitionId
   - SuperOffice.CRM.Rows.SelectionRow._persistedDone
   - SuperOffice.CRM.Rows.SelectionRow._persistedGroupIdx
   - SuperOffice.CRM.Rows.SelectionRow._persistedIncludePerson
@@ -100,6 +103,7 @@ items:
   - SuperOffice.CRM.Rows.SelectionRow.CombinationType
   - SuperOffice.CRM.Rows.SelectionRow.CompanyUnique
   - SuperOffice.CRM.Rows.SelectionRow.CreateNew
+  - SuperOffice.CRM.Rows.SelectionRow.DashboardTileDefinitionId
   - SuperOffice.CRM.Rows.SelectionRow.Done
   - SuperOffice.CRM.Rows.SelectionRow.GetFromCustomSearch(SuperOffice.CRM.Rows.SelectionRow.CustomSearch)
   - SuperOffice.CRM.Rows.SelectionRow.GetFromIdxSelectionId(System.Int32)
@@ -126,6 +130,7 @@ items:
   - SuperOffice.CRM.Rows.SelectionRow.OnChartKeyChange
   - SuperOffice.CRM.Rows.SelectionRow.OnCombinationTypeChange
   - SuperOffice.CRM.Rows.SelectionRow.OnCompanyUniqueChange
+  - SuperOffice.CRM.Rows.SelectionRow.OnDashboardTileDefinitionIdChange
   - SuperOffice.CRM.Rows.SelectionRow.OnDoneChange
   - SuperOffice.CRM.Rows.SelectionRow.OnGroupIdxChange
   - SuperOffice.CRM.Rows.SelectionRow.OnIncludePersonChange
@@ -228,6 +233,7 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.CRM.Rows.IdxBase,SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+  - SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
   - SuperOffice.CRM.Rows.TableRowBase.SetSaveOwner(SuperOffice.Data.INestedPersist)
   - SuperOffice.CRM.Rows.TableRowBase.Save
   - SuperOffice.CRM.Rows.TableRowBase.Delete
@@ -935,6 +941,33 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _persistedRightSelectionId As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.SelectionRow._persistedDashboardTileDefinitionId
+  commentId: F:SuperOffice.CRM.Rows.SelectionRow._persistedDashboardTileDefinitionId
+  id: _persistedDashboardTileDefinitionId
+  parent: SuperOffice.CRM.Rows.SelectionRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedDashboardTileDefinitionId
+  nameWithType: SelectionRow._persistedDashboardTileDefinitionId
+  fullName: SuperOffice.CRM.Rows.SelectionRow._persistedDashboardTileDefinitionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.SelectionRow.DashboardTileDefinitionId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _persistedDashboardTileDefinitionId
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedDashboardTileDefinitionId As Integer
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1745,6 +1778,33 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _currentRightSelectionId As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.SelectionRow._currentDashboardTileDefinitionId
+  commentId: F:SuperOffice.CRM.Rows.SelectionRow._currentDashboardTileDefinitionId
+  id: _currentDashboardTileDefinitionId
+  parent: SuperOffice.CRM.Rows.SelectionRow
+  langs:
+  - csharp
+  - vb
+  name: _currentDashboardTileDefinitionId
+  nameWithType: SelectionRow._currentDashboardTileDefinitionId
+  fullName: SuperOffice.CRM.Rows.SelectionRow._currentDashboardTileDefinitionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.SelectionRow.DashboardTileDefinitionId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _currentDashboardTileDefinitionId
+    return:
+      type: System.Int32
+    content.vb: Protected _currentDashboardTileDefinitionId As Integer
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -3659,6 +3719,40 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Rows.SelectionRow.DashboardTileDefinitionId
+  commentId: P:SuperOffice.CRM.Rows.SelectionRow.DashboardTileDefinitionId
+  id: DashboardTileDefinitionId
+  parent: SuperOffice.CRM.Rows.SelectionRow
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileDefinitionId
+  nameWithType: SelectionRow.DashboardTileDefinitionId
+  fullName: SuperOffice.CRM.Rows.SelectionRow.DashboardTileDefinitionId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: int. The associated tile definition \n"
+  remarks: "\nOriginal type in dictionary:  FK.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual int DashboardTileDefinitionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DashboardTileDefinitionId As Integer
+  overload: SuperOffice.CRM.Rows.SelectionRow.DashboardTileDefinitionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Rows.SelectionRow.SystemType
   commentId: P:SuperOffice.CRM.Rows.SelectionRow.SystemType
   id: SystemType
@@ -4484,6 +4578,33 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.SelectionRow._onDashboardTileDefinitionIdChange
+  commentId: E:SuperOffice.CRM.Rows.SelectionRow._onDashboardTileDefinitionIdChange
+  id: _onDashboardTileDefinitionIdChange
+  parent: SuperOffice.CRM.Rows.SelectionRow
+  langs:
+  - csharp
+  - vb
+  name: _onDashboardTileDefinitionIdChange
+  nameWithType: SelectionRow._onDashboardTileDefinitionIdChange
+  fullName: SuperOffice.CRM.Rows.SelectionRow._onDashboardTileDefinitionIdChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.SelectionRow.DashboardTileDefinitionId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
+  syntax:
+    content: protected event OnFieldChange<int> _onDashboardTileDefinitionIdChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Event _onDashboardTileDefinitionIdChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.SelectionRow._onSystemTypeChange
   commentId: E:SuperOffice.CRM.Rows.SelectionRow._onSystemTypeChange
   id: _onSystemTypeChange
@@ -5263,6 +5384,33 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
     content.vb: Public Event OnRightSelectionIdChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRow.OnDashboardTileDefinitionIdChange
+  commentId: E:SuperOffice.CRM.Rows.SelectionRow.OnDashboardTileDefinitionIdChange
+  id: OnDashboardTileDefinitionIdChange
+  parent: SuperOffice.CRM.Rows.SelectionRow
+  langs:
+  - csharp
+  - vb
+  name: OnDashboardTileDefinitionIdChange
+  nameWithType: SelectionRow.OnDashboardTileDefinitionIdChange
+  fullName: SuperOffice.CRM.Rows.SelectionRow.OnDashboardTileDefinitionIdChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when DashboardTileDefinitionId is changing.\n"
+  syntax:
+    content: public event OnFieldChange<int> OnDashboardTileDefinitionIdChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Event OnDashboardTileDefinitionIdChange As OnFieldChange(Of Integer)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -6095,6 +6243,63 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: SetDefaults(DashboardTileDefinitionRow, String)
+  nameWithType: TableRowBase.SetDefaults(DashboardTileDefinitionRow, String)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -9114,6 +9319,12 @@ references:
   name: RightSelectionId
   nameWithType: SelectionRow.RightSelectionId
   fullName: SuperOffice.CRM.Rows.SelectionRow.RightSelectionId
+- uid: SuperOffice.CRM.Rows.SelectionRow.DashboardTileDefinitionId*
+  commentId: Overload:SuperOffice.CRM.Rows.SelectionRow.DashboardTileDefinitionId
+  isExternal: true
+  name: DashboardTileDefinitionId
+  nameWithType: SelectionRow.DashboardTileDefinitionId
+  fullName: SuperOffice.CRM.Rows.SelectionRow.DashboardTileDefinitionId
 - uid: SuperOffice.CRM.Rows.SelectionRow.SystemType*
   commentId: Overload:SuperOffice.CRM.Rows.SelectionRow.SystemType
   isExternal: true

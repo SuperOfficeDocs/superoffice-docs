@@ -19,6 +19,7 @@ items:
   - SuperOffice.Data.BatchTaskState
   - SuperOffice.Data.BlobLinkType
   - SuperOffice.Data.BookingType
+  - SuperOffice.Data.CachedSequence
   - SuperOffice.Data.CalMethod
   - SuperOffice.Data.CalReplyStatus
   - SuperOffice.Data.ChatMessageSpecialType
@@ -27,6 +28,7 @@ items:
   - SuperOffice.Data.ChatSessionStatus
   - SuperOffice.Data.ChatStatus
   - SuperOffice.Data.ChatTopicFlag
+  - SuperOffice.Data.ChatWidgetSize
   - SuperOffice.Data.ColorIndex
   - SuperOffice.Data.CommandAction
   - SuperOffice.Data.CommandActionResult
@@ -45,12 +47,16 @@ items:
   - SuperOffice.Data.DashboardTileEntityType
   - SuperOffice.Data.DashboardTileOptionType
   - SuperOffice.Data.DashboardTileType
-  - SuperOffice.Data.DatabaseKeepaliveHelper
-  - SuperOffice.Data.DatabaseKeepaliveHelperSingleton
+  - SuperOffice.Data.DashTileCurrencyMode
+  - SuperOffice.Data.DashTileEntityType
+  - SuperOffice.Data.DashTileMeasure
+  - SuperOffice.Data.DashTileType
   - SuperOffice.Data.DatabaseStepAttribute
   - SuperOffice.Data.DataSetProvider
   - SuperOffice.Data.DbConvert
   - SuperOffice.Data.DbConvertType
+  - SuperOffice.Data.DeltaState
+  - SuperOffice.Data.DeltaType
   - SuperOffice.Data.DesignType
   - SuperOffice.Data.DiaryGroupType
   - SuperOffice.Data.DictionaryConstants
@@ -120,6 +126,7 @@ items:
   - SuperOffice.Data.LicenceType
   - SuperOffice.Data.LocalizedTextType
   - SuperOffice.Data.LoginFlags
+  - SuperOffice.Data.MailboxType
   - SuperOffice.Data.MDOSortOrder
   - SuperOffice.Data.MessagingStatus
   - SuperOffice.Data.MoveMergeOperation
@@ -202,8 +209,10 @@ items:
   - SuperOffice.Data.ShipmentAddrStatus
   - SuperOffice.Data.ShipmentLinkAction
   - SuperOffice.Data.ShipmentLinkTaskFlags
+  - SuperOffice.Data.ShipmentLinkType
   - SuperOffice.Data.ShipmentListStatus
   - SuperOffice.Data.ShipmentMessageType
+  - SuperOffice.Data.ShipmentStatus
   - SuperOffice.Data.ShowState
   - SuperOffice.Data.ShowWindowState
   - SuperOffice.Data.SoCommand
@@ -261,6 +270,8 @@ items:
   - SuperOffice.Data.UdefPublishHelper
   - SuperOffice.Data.UdefPublishHelper.IProgressHandler
   - SuperOffice.Data.UDefType
+  - SuperOffice.Data.UpsertNomatchAction
+  - SuperOffice.Data.UpsertRowActionStatus
   - SuperOffice.Data.UrlEncoding
   - SuperOffice.Data.UserPreferenceCacheObject
   - SuperOffice.Data.ValueOverride
@@ -279,7 +290,7 @@ items:
   fullName: SuperOffice.Data
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
 - uid: SuperOffice.Data.IDataSetProvider
   commentId: T:SuperOffice.Data.IDataSetProvider
@@ -543,6 +554,13 @@ references:
   name: EmailType
   nameWithType: EmailType
   fullName: SuperOffice.Data.EmailType
+- uid: SuperOffice.Data.ShipmentStatus
+  commentId: T:SuperOffice.Data.ShipmentStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ShipmentStatus
+  nameWithType: ShipmentStatus
+  fullName: SuperOffice.Data.ShipmentStatus
 - uid: SuperOffice.Data.ShipmentAddrStatus
   commentId: T:SuperOffice.Data.ShipmentAddrStatus
   parent: SuperOffice.Data
@@ -564,6 +582,13 @@ references:
   name: ShipmentLinkTaskFlags
   nameWithType: ShipmentLinkTaskFlags
   fullName: SuperOffice.Data.ShipmentLinkTaskFlags
+- uid: SuperOffice.Data.ShipmentLinkType
+  commentId: T:SuperOffice.Data.ShipmentLinkType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ShipmentLinkType
+  nameWithType: ShipmentLinkType
+  fullName: SuperOffice.Data.ShipmentLinkType
 - uid: SuperOffice.Data.ShipmentListStatus
   commentId: T:SuperOffice.Data.ShipmentListStatus
   parent: SuperOffice.Data
@@ -949,6 +974,34 @@ references:
   name: DashboardTileOptionType
   nameWithType: DashboardTileOptionType
   fullName: SuperOffice.Data.DashboardTileOptionType
+- uid: SuperOffice.Data.DashTileType
+  commentId: T:SuperOffice.Data.DashTileType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: DashTileType
+  nameWithType: DashTileType
+  fullName: SuperOffice.Data.DashTileType
+- uid: SuperOffice.Data.DashTileCurrencyMode
+  commentId: T:SuperOffice.Data.DashTileCurrencyMode
+  parent: SuperOffice.Data
+  isExternal: true
+  name: DashTileCurrencyMode
+  nameWithType: DashTileCurrencyMode
+  fullName: SuperOffice.Data.DashTileCurrencyMode
+- uid: SuperOffice.Data.DashTileMeasure
+  commentId: T:SuperOffice.Data.DashTileMeasure
+  parent: SuperOffice.Data
+  isExternal: true
+  name: DashTileMeasure
+  nameWithType: DashTileMeasure
+  fullName: SuperOffice.Data.DashTileMeasure
+- uid: SuperOffice.Data.DashTileEntityType
+  commentId: T:SuperOffice.Data.DashTileEntityType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: DashTileEntityType
+  nameWithType: DashTileEntityType
+  fullName: SuperOffice.Data.DashTileEntityType
 - uid: SuperOffice.Data.ActivityStatus
   commentId: T:SuperOffice.Data.ActivityStatus
   parent: SuperOffice.Data
@@ -1208,6 +1261,41 @@ references:
   name: VideoMeetingStatus
   nameWithType: VideoMeetingStatus
   fullName: SuperOffice.Data.VideoMeetingStatus
+- uid: SuperOffice.Data.UpsertNomatchAction
+  commentId: T:SuperOffice.Data.UpsertNomatchAction
+  parent: SuperOffice.Data
+  isExternal: true
+  name: UpsertNomatchAction
+  nameWithType: UpsertNomatchAction
+  fullName: SuperOffice.Data.UpsertNomatchAction
+- uid: SuperOffice.Data.UpsertRowActionStatus
+  commentId: T:SuperOffice.Data.UpsertRowActionStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: UpsertRowActionStatus
+  nameWithType: UpsertRowActionStatus
+  fullName: SuperOffice.Data.UpsertRowActionStatus
+- uid: SuperOffice.Data.MailboxType
+  commentId: T:SuperOffice.Data.MailboxType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: MailboxType
+  nameWithType: MailboxType
+  fullName: SuperOffice.Data.MailboxType
+- uid: SuperOffice.Data.DeltaType
+  commentId: T:SuperOffice.Data.DeltaType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: DeltaType
+  nameWithType: DeltaType
+  fullName: SuperOffice.Data.DeltaType
+- uid: SuperOffice.Data.DeltaState
+  commentId: T:SuperOffice.Data.DeltaState
+  parent: SuperOffice.Data
+  isExternal: true
+  name: DeltaState
+  nameWithType: DeltaState
+  fullName: SuperOffice.Data.DeltaState
 - uid: SuperOffice.Data.EventHandlerType
   commentId: T:SuperOffice.Data.EventHandlerType
   parent: SuperOffice.Data
@@ -1425,6 +1513,13 @@ references:
   name: ChatMessageSpecialType
   nameWithType: ChatMessageSpecialType
   fullName: SuperOffice.Data.ChatMessageSpecialType
+- uid: SuperOffice.Data.ChatWidgetSize
+  commentId: T:SuperOffice.Data.ChatWidgetSize
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ChatWidgetSize
+  nameWithType: ChatWidgetSize
+  fullName: SuperOffice.Data.ChatWidgetSize
 - uid: SuperOffice.Data.ParticipantType
   commentId: T:SuperOffice.Data.ParticipantType
   parent: SuperOffice.Data
@@ -1702,109 +1797,6 @@ references:
   name: UdefParser
   nameWithType: UdefParser
   fullName: SuperOffice.Data.UdefParser
-- uid: SuperOffice.Data.DatabaseKeepaliveHelper
-  commentId: T:SuperOffice.Data.DatabaseKeepaliveHelper
-  isExternal: true
-  name: DatabaseKeepaliveHelper
-  nameWithType: DatabaseKeepaliveHelper
-  fullName: SuperOffice.Data.DatabaseKeepaliveHelper
-- uid: SuperOffice.Data.DatabaseKeepaliveHelperSingleton
-  commentId: T:SuperOffice.Data.DatabaseKeepaliveHelperSingleton
-  isExternal: true
-  name: DatabaseKeepaliveHelperSingleton
-  nameWithType: DatabaseKeepaliveHelperSingleton
-  fullName: SuperOffice.Data.DatabaseKeepaliveHelperSingleton
-- uid: SuperOffice.Data.PrefDescCache
-  commentId: T:SuperOffice.Data.PrefDescCache
-  isExternal: true
-  name: PrefDescCache
-  nameWithType: PrefDescCache
-  fullName: SuperOffice.Data.PrefDescCache
-- uid: SuperOffice.Data.ServicePreferenceMapper
-  commentId: T:SuperOffice.Data.ServicePreferenceMapper
-  isExternal: true
-  name: ServicePreferenceMapper
-  nameWithType: ServicePreferenceMapper
-  fullName: SuperOffice.Data.ServicePreferenceMapper
-- uid: SuperOffice.Data.ServicePreferenceMappings
-  commentId: T:SuperOffice.Data.ServicePreferenceMappings
-  isExternal: true
-  name: ServicePreferenceMappings
-  nameWithType: ServicePreferenceMappings
-  fullName: SuperOffice.Data.ServicePreferenceMappings
-- uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingType
-  commentId: T:SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingType
-  parent: SuperOffice.Data
-  isExternal: true
-  name: ServicePreferenceMappings.PreferenceMappingType
-  nameWithType: ServicePreferenceMappings.PreferenceMappingType
-  fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingType
-- uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo
-  commentId: T:SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo
-  isExternal: true
-  name: ServicePreferenceMappings.PreferenceMappingInfo
-  nameWithType: ServicePreferenceMappings.PreferenceMappingInfo
-  fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo
-- uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
-  commentId: T:SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
-  parent: SuperOffice.Data
-  isExternal: true
-  name: ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
-  nameWithType: ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
-  fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
-- uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder
-  commentId: T:SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder
-  parent: SuperOffice.Data
-  isExternal: true
-  name: ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder
-  nameWithType: ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder
-  fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder
-- uid: SuperOffice.Data.SoDuplicateChecker
-  commentId: T:SuperOffice.Data.SoDuplicateChecker
-  parent: SuperOffice.Data
-  isExternal: true
-  name: SoDuplicateChecker
-  nameWithType: SoDuplicateChecker
-  fullName: SuperOffice.Data.SoDuplicateChecker
-- uid: SuperOffice.Data.ScopedSystemEvent
-  commentId: T:SuperOffice.Data.ScopedSystemEvent
-  parent: SuperOffice.Data
-  isExternal: true
-  name: ScopedSystemEvent
-  nameWithType: ScopedSystemEvent
-  fullName: SuperOffice.Data.ScopedSystemEvent
-- uid: SuperOffice.Data.SystemEventHelper
-  commentId: T:SuperOffice.Data.SystemEventHelper
-  isExternal: true
-  name: SystemEventHelper
-  nameWithType: SystemEventHelper
-  fullName: SuperOffice.Data.SystemEventHelper
-- uid: SuperOffice.Data.SystemEventHelper.Scope
-  commentId: T:SuperOffice.Data.SystemEventHelper.Scope
-  parent: SuperOffice.Data
-  isExternal: true
-  name: SystemEventHelper.Scope
-  nameWithType: SystemEventHelper.Scope
-  fullName: SuperOffice.Data.SystemEventHelper.Scope
-- uid: SuperOffice.Data.UdefConvertHelper
-  commentId: T:SuperOffice.Data.UdefConvertHelper
-  isExternal: true
-  name: UdefConvertHelper
-  nameWithType: UdefConvertHelper
-  fullName: SuperOffice.Data.UdefConvertHelper
-- uid: SuperOffice.Data.UdefPublishHelper
-  commentId: T:SuperOffice.Data.UdefPublishHelper
-  isExternal: true
-  name: UdefPublishHelper
-  nameWithType: UdefPublishHelper
-  fullName: SuperOffice.Data.UdefPublishHelper
-- uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler
-  commentId: T:SuperOffice.Data.UdefPublishHelper.IProgressHandler
-  parent: SuperOffice.Data
-  isExternal: true
-  name: UdefPublishHelper.IProgressHandler
-  nameWithType: UdefPublishHelper.IProgressHandler
-  fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler
 - uid: SuperOffice.Data.TablesInfo
   commentId: T:SuperOffice.Data.TablesInfo
   isExternal: true
@@ -1818,6 +1810,12 @@ references:
   name: DatabaseStepAttribute
   nameWithType: DatabaseStepAttribute
   fullName: SuperOffice.Data.DatabaseStepAttribute
+- uid: SuperOffice.Data.CachedSequence
+  commentId: T:SuperOffice.Data.CachedSequence
+  isExternal: true
+  name: CachedSequence
+  nameWithType: CachedSequence
+  fullName: SuperOffice.Data.CachedSequence
 - uid: SuperOffice.Data.DbConvertType
   commentId: T:SuperOffice.Data.DbConvertType
   parent: SuperOffice.Data
@@ -1925,6 +1923,12 @@ references:
   name: PKContainer
   nameWithType: PKContainer
   fullName: SuperOffice.Data.PKContainer
+- uid: SuperOffice.Data.PrefDescCache
+  commentId: T:SuperOffice.Data.PrefDescCache
+  isExternal: true
+  name: PrefDescCache
+  nameWithType: PrefDescCache
+  fullName: SuperOffice.Data.PrefDescCache
 - uid: SuperOffice.Data.QueryExecutionHelper
   commentId: T:SuperOffice.Data.QueryExecutionHelper
   isExternal: true
@@ -1993,6 +1997,45 @@ references:
   name: Sequence
   nameWithType: Sequence
   fullName: SuperOffice.Data.Sequence
+- uid: SuperOffice.Data.ServicePreferenceMapper
+  commentId: T:SuperOffice.Data.ServicePreferenceMapper
+  isExternal: true
+  name: ServicePreferenceMapper
+  nameWithType: ServicePreferenceMapper
+  fullName: SuperOffice.Data.ServicePreferenceMapper
+- uid: SuperOffice.Data.ServicePreferenceMappings
+  commentId: T:SuperOffice.Data.ServicePreferenceMappings
+  isExternal: true
+  name: ServicePreferenceMappings
+  nameWithType: ServicePreferenceMappings
+  fullName: SuperOffice.Data.ServicePreferenceMappings
+- uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingType
+  commentId: T:SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ServicePreferenceMappings.PreferenceMappingType
+  nameWithType: ServicePreferenceMappings.PreferenceMappingType
+  fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingType
+- uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo
+  commentId: T:SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo
+  isExternal: true
+  name: ServicePreferenceMappings.PreferenceMappingInfo
+  nameWithType: ServicePreferenceMappings.PreferenceMappingInfo
+  fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo
+- uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
+  commentId: T:SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
+  nameWithType: ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
+  fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
+- uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder
+  commentId: T:SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder
+  nameWithType: ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder
+  fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder
 - uid: SuperOffice.Data.SoCommand
   commentId: T:SuperOffice.Data.SoCommand
   parent: SuperOffice.Data
@@ -2041,6 +2084,13 @@ references:
   name: SoDataReader
   nameWithType: SoDataReader
   fullName: SuperOffice.Data.SoDataReader
+- uid: SuperOffice.Data.SoDuplicateChecker
+  commentId: T:SuperOffice.Data.SoDuplicateChecker
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoDuplicateChecker
+  nameWithType: SoDuplicateChecker
+  fullName: SuperOffice.Data.SoDuplicateChecker
 - uid: SuperOffice.Data.SoftTrigger
   commentId: T:SuperOffice.Data.SoftTrigger
   parent: SuperOffice.Data
@@ -2123,6 +2173,32 @@ references:
   name: SoTransaction
   nameWithType: SoTransaction
   fullName: SuperOffice.Data.SoTransaction
+- uid: SuperOffice.Data.ScopedSystemEvent
+  commentId: T:SuperOffice.Data.ScopedSystemEvent
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ScopedSystemEvent
+  nameWithType: ScopedSystemEvent
+  fullName: SuperOffice.Data.ScopedSystemEvent
+- uid: SuperOffice.Data.SystemEventHelper
+  commentId: T:SuperOffice.Data.SystemEventHelper
+  isExternal: true
+  name: SystemEventHelper
+  nameWithType: SystemEventHelper
+  fullName: SuperOffice.Data.SystemEventHelper
+- uid: SuperOffice.Data.SystemEventHelper.Scope
+  commentId: T:SuperOffice.Data.SystemEventHelper.Scope
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SystemEventHelper.Scope
+  nameWithType: SystemEventHelper.Scope
+  fullName: SuperOffice.Data.SystemEventHelper.Scope
+- uid: SuperOffice.Data.UdefConvertHelper
+  commentId: T:SuperOffice.Data.UdefConvertHelper
+  isExternal: true
+  name: UdefConvertHelper
+  nameWithType: UdefConvertHelper
+  fullName: SuperOffice.Data.UdefConvertHelper
 - uid: SuperOffice.Data.UdefHelper
   commentId: T:SuperOffice.Data.UdefHelper
   isExternal: true
@@ -2136,6 +2212,19 @@ references:
   name: UdefHelper.UDefFieldDatabaseType
   nameWithType: UdefHelper.UDefFieldDatabaseType
   fullName: SuperOffice.Data.UdefHelper.UDefFieldDatabaseType
+- uid: SuperOffice.Data.UdefPublishHelper
+  commentId: T:SuperOffice.Data.UdefPublishHelper
+  isExternal: true
+  name: UdefPublishHelper
+  nameWithType: UdefPublishHelper
+  fullName: SuperOffice.Data.UdefPublishHelper
+- uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler
+  commentId: T:SuperOffice.Data.UdefPublishHelper.IProgressHandler
+  parent: SuperOffice.Data
+  isExternal: true
+  name: UdefPublishHelper.IProgressHandler
+  nameWithType: UdefPublishHelper.IProgressHandler
+  fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true

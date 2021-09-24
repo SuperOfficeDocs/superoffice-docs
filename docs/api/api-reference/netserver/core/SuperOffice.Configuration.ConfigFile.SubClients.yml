@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.SubClients
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nSubclient section.\n"
   syntax:
@@ -52,10 +52,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.SubClients.Clients
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nList of subclients\n"
   syntax:

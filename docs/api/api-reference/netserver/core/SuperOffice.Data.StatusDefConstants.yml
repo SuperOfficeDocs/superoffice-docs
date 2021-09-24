@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Data.StatusDefConstants
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nUse with the additionalInfo parameter for the MDO list <see cref=\"!:StatusDefProvider\"></see>.\n"
   syntax:
@@ -56,10 +56,10 @@ items:
   fullName: SuperOffice.Data.StatusDefConstants.GetOwnerTable
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string GetOwnerTable = "GetOwnerTable"
@@ -84,10 +84,10 @@ items:
   fullName: SuperOffice.Data.StatusDefConstants.GetDeletedStatusDefs
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string GetDeletedStatusDefs = "GetDeletedStatusDefs"
@@ -112,10 +112,10 @@ items:
   fullName: SuperOffice.Data.StatusDefConstants.OwnerTable
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string OwnerTable = "OwnerTable"
@@ -140,10 +140,10 @@ items:
   fullName: SuperOffice.Data.StatusDefConstants.IsVisual
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string IsVisual = "IsVisual"
@@ -168,10 +168,10 @@ items:
   fullName: SuperOffice.Data.StatusDefConstants.BinaryObjectId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string BinaryObjectId = "BinaryObjectId"

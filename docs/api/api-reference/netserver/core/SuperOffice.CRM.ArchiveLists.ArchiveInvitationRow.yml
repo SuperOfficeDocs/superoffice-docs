@@ -20,10 +20,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: 'public class ArchiveInvitationRow : ArchiveActivityRow, IDataRecord, IEquatable<ArchiveRow>'
@@ -45,6 +45,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnTime
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnType
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRecordType
+  - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRecordTypeText
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnText
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnAssociateId
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnContactId
@@ -163,10 +164,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow.ColumnInvitationStatusIcon
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnInvitationStatusIcon = "invitationStatusIcon"
@@ -191,10 +192,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow.ColumnInvitationStatus
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnInvitationStatus = "invitationStatus"
@@ -219,10 +220,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow.ColumnInvitationTypeIcon
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnInvitationTypeIcon = "invitationTypeIcon"
@@ -247,10 +248,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow.ArchiveInvitationRow()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveInvitationRow()
@@ -272,10 +273,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow.InvitationStatusIcon
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nStatus icon for invitation - seen, rejected, unseen etc\n"
   syntax:
@@ -303,10 +304,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow.InvitationStatus
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nInvitation status as text\n"
   syntax:
@@ -334,10 +335,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow.InvitationTypeIcon
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nIcon for invitation type - booking or recurring\n"
   syntax:
@@ -472,6 +473,13 @@ references:
   name: ColumnRecordType
   nameWithType: ArchiveActivityRow.ColumnRecordType
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRecordType
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRecordTypeText
+  commentId: F:SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRecordTypeText
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow
+  isExternal: true
+  name: ColumnRecordTypeText
+  nameWithType: ArchiveActivityRow.ColumnRecordTypeText
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRecordTypeText
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnText
   commentId: F:SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnText
   parent: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow

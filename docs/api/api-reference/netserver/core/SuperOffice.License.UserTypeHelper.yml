@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.License.UserTypeHelper
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public static class UserTypeHelper
@@ -56,10 +56,10 @@ items:
   fullName: SuperOffice.License.UserTypeHelper.GetAssociateType(SuperOffice.License.UserType)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nConvert from <xref href=\"SuperOffice.License.UserType\" data-throw-if-not-resolved=\"false\"></xref> to <xref href=\"SuperOffice.License.UserType\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
@@ -95,10 +95,10 @@ items:
   fullName: SuperOffice.License.UserTypeHelper.GetUserType(SuperOffice.Data.AssociateType)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nConvert from <xref href=\"SuperOffice.License.UserType\" data-throw-if-not-resolved=\"false\"></xref> to <xref href=\"SuperOffice.License.UserType\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
@@ -134,10 +134,10 @@ items:
   fullName: SuperOffice.License.UserTypeHelper.GetRoleType(SuperOffice.Data.AssociateType)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nConvert from <xref href=\"SuperOffice.License.UserType\" data-throw-if-not-resolved=\"false\"></xref> to RoleType (short)\n"
   syntax:
@@ -173,10 +173,10 @@ items:
   fullName: SuperOffice.License.UserTypeHelper.GetRoleType(SuperOffice.License.UserType)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nConvert from <xref href=\"SuperOffice.License.UserType\" data-throw-if-not-resolved=\"false\"></xref> to RoleType (short)\n"
   syntax:
@@ -211,10 +211,10 @@ items:
   fullName: SuperOffice.License.UserTypeHelper.GetLoginRightModuleName(SuperOffice.License.UserType)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nGet the full name (including module owner) of the login right module license from user type.\n"
   syntax:

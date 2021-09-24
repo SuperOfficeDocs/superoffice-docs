@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Mime.MimeDetect
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Mime
   syntax:
     content: public class MimeDetect
@@ -56,10 +56,10 @@ items:
   fullName: SuperOffice.Mime.MimeDetect.MimeTypeFrom(System.Byte[], System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Mime
   syntax:
     content: public static string MimeTypeFrom(byte[] dataBytes, string mimeProposed)
@@ -93,10 +93,10 @@ items:
   fullName: SuperOffice.Mime.MimeDetect.MimeDetect()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Mime
   syntax:
     content: public MimeDetect()

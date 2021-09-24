@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Security.Principal.ThreadContextProvider
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nPlug-in for storing the internal state of NetServer in a thread-static variable\n"
   syntax:
@@ -74,10 +74,10 @@ items:
   fullName: SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: void ISoContextProvider.SetCurrentContext(SoContextContainer context)
@@ -103,10 +103,10 @@ items:
   fullName: SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: SoContextContainer ISoContextProvider.GetCurrenContext()
@@ -130,10 +130,10 @@ items:
   fullName: SuperOffice.Security.Principal.ThreadContextProvider.ThreadContextProvider()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public ThreadContextProvider()

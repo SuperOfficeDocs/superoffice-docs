@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.InboxStatus
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: >-
@@ -58,10 +58,10 @@ items:
   fullName: SuperOffice.Data.InboxStatus.Create
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Create = 0
@@ -85,10 +85,10 @@ items:
   fullName: SuperOffice.Data.InboxStatus.Queue
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Queue = 1
@@ -112,10 +112,10 @@ items:
   fullName: SuperOffice.Data.InboxStatus.Import
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Import = 2
@@ -139,10 +139,10 @@ items:
   fullName: SuperOffice.Data.InboxStatus.Backup
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Backup = 3

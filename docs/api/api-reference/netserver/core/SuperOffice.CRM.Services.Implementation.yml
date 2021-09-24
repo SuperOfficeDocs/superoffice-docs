@@ -4,9 +4,12 @@ items:
   commentId: N:SuperOffice.CRM.Services.Implementation
   id: SuperOffice.CRM.Services.Implementation
   children:
+  - SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext
   - SuperOffice.CRM.Services.Implementation.ServiceLogContext
+  - SuperOffice.CRM.Services.Implementation.ServiceLogData
   - SuperOffice.CRM.Services.Implementation.ServiceLogger
   - SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin
+  - SuperOffice.CRM.Services.Implementation.ServiceResourceLogger
   langs:
   - csharp
   - vb
@@ -15,7 +18,7 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogger
   commentId: T:SuperOffice.CRM.Services.Implementation.ServiceLogger
@@ -23,6 +26,12 @@ references:
   name: ServiceLogger
   nameWithType: ServiceLogger
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
+  commentId: T:SuperOffice.CRM.Services.Implementation.ServiceLogData
+  isExternal: true
+  name: ServiceLogData
+  nameWithType: ServiceLogData
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext
   commentId: T:SuperOffice.CRM.Services.Implementation.ServiceLogContext
   parent: SuperOffice.CRM.Services.Implementation
@@ -36,6 +45,18 @@ references:
   name: ServiceLoggerEnvironmentInfoPlugin
   nameWithType: ServiceLoggerEnvironmentInfoPlugin
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin
+- uid: SuperOffice.CRM.Services.Implementation.ServiceResourceLogger
+  commentId: T:SuperOffice.CRM.Services.Implementation.ServiceResourceLogger
+  isExternal: true
+  name: ServiceResourceLogger
+  nameWithType: ServiceResourceLogger
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceResourceLogger
+- uid: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext
+  commentId: T:SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext
+  isExternal: true
+  name: ServiceDatabaseResourceLoggerContext
+  nameWithType: ServiceDatabaseResourceLoggerContext
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext
 - uid: SuperOffice.CRM.Services.Implementation
   commentId: N:SuperOffice.CRM.Services.Implementation
   isExternal: true

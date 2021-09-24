@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Exceptions.SoDuplicateException
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nException thrown when a duplicate entity has been encountered where one is not allowed.\ne.g. when a new list item is created with an existing name.\n"
   syntax:
@@ -81,10 +81,10 @@ items:
   fullName: SuperOffice.Exceptions.SoDuplicateException.SoDuplicateException(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nDefault constructor.\n"
   syntax:
@@ -111,10 +111,10 @@ items:
   fullName: SuperOffice.Exceptions.SoDuplicateException.SoDuplicateException(System.String, System.Exception)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nDefault constructor.\n"
   syntax:
@@ -144,10 +144,10 @@ items:
   fullName: SuperOffice.Exceptions.SoDuplicateException.SoDuplicateException(System.String, System.Exception, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nDefault constructor.\n"
   syntax:

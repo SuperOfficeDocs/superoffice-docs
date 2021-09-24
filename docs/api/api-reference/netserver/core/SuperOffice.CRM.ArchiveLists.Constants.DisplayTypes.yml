@@ -25,10 +25,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nDisplay types for archive columns. The cell content (DisplayText) is always a string; however, it should be interpreted\nand displayed as a specific type according to the strings defined here. Numeric and date types will always be formatted with\nthe <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> class and need to be decoded/localized before display.\n"
   syntax:
@@ -63,10 +63,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.String
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nA simple string, displayed as-is, left justified\n"
   syntax:
@@ -92,10 +92,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Int
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nAn integer, displayed right-justified and formatted to the current culture\n"
   syntax:
@@ -121,10 +121,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Icon
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nAn icon, displayed centered, the displayvalue is an icon hint\n"
   syntax:
@@ -150,10 +150,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Checkbox
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nA checkbox, displayed centered\n"
   syntax:
@@ -179,10 +179,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Bool
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nA small ceneterd dot for value=true, otherwise empty\n"
   syntax:
@@ -208,10 +208,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Date
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nA date without time, left justified, formatted to the current culture\n"
   syntax:
@@ -237,10 +237,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Datetime
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nA full date+time, left justified, formatted to the current culture\n"
   syntax:
@@ -266,10 +266,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.TimeSpan
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nA time span in days, hours, and minutes.\n"
   syntax:
@@ -295,10 +295,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Decimal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nA decimal/floating-point value, left justified, formatted to the current culture\n"
   syntax:
@@ -324,10 +324,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Time
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nA time (no date), left justified, formatted to the current culture\n"
   syntax:
@@ -353,10 +353,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Image
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nA dynamic image from the database, centered, displayvalue is a base64-encoded JPG or PNG image\n"
   syntax:
@@ -382,10 +382,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Tags
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nAn int array displayed as tags.\n"
   syntax:

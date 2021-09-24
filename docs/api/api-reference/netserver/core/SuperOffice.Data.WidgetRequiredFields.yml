@@ -6,10 +6,11 @@ items:
   parent: SuperOffice.Data
   children:
   - SuperOffice.Data.WidgetRequiredFields.Company
+  - SuperOffice.Data.WidgetRequiredFields.Country
   - SuperOffice.Data.WidgetRequiredFields.Email
   - SuperOffice.Data.WidgetRequiredFields.Name
+  - SuperOffice.Data.WidgetRequiredFields.None
   - SuperOffice.Data.WidgetRequiredFields.Phone
-  - SuperOffice.Data.WidgetRequiredFields.Subject
   langs:
   - csharp
   - vb
@@ -18,12 +19,12 @@ items:
   fullName: SuperOffice.Data.WidgetRequiredFields
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
-  summary: "\nValue for field &apos;widget_offline_fields&apos; in table &apos;chat_topic&apos;.\nThis Enum is used by:  chat_topic.widget_offline_fields; chat_topic.widget_required_fields\nThis Enum consists of flag values that can be combined.\n"
+  summary: "\nChat Topic required fields in pre-form.\nThis Enum is used by:  chat_topic.widget_offline_fields; chat_topic.widget_required_fields\nThis Enum consists of flag values that can be combined.\n"
   syntax:
     content: >-
       [Flags]
@@ -48,6 +49,34 @@ items:
   modifiers.vb:
   - Public
   - Enum
+- uid: SuperOffice.Data.WidgetRequiredFields.None
+  commentId: F:SuperOffice.Data.WidgetRequiredFields.None
+  id: None
+  parent: SuperOffice.Data.WidgetRequiredFields
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: WidgetRequiredFields.None
+  fullName: SuperOffice.Data.WidgetRequiredFields.None
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n0: No required fields\n"
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.Data.WidgetRequiredFields
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.WidgetRequiredFields.Email
   commentId: F:SuperOffice.Data.WidgetRequiredFields.Email
   id: Email
@@ -60,14 +89,14 @@ items:
   fullName: SuperOffice.Data.WidgetRequiredFields.Email
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
-  summary: "\n0: Email field is required\n"
+  summary: "\n1: Email field is required\n"
   syntax:
-    content: Email = 0
+    content: Email = 1
     return:
       type: SuperOffice.Data.WidgetRequiredFields
   modifiers.csharp:
@@ -88,14 +117,14 @@ items:
   fullName: SuperOffice.Data.WidgetRequiredFields.Name
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
-  summary: "\n1: Name field is required\n"
+  summary: "\n2: Name field is required\n"
   syntax:
-    content: Name = 1
+    content: Name = 2
     return:
       type: SuperOffice.Data.WidgetRequiredFields
   modifiers.csharp:
@@ -116,42 +145,14 @@ items:
   fullName: SuperOffice.Data.WidgetRequiredFields.Company
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
-  summary: "\n2: Company field is required\n"
+  summary: "\n4: Company field is required\n"
   syntax:
-    content: Company = 2
-    return:
-      type: SuperOffice.Data.WidgetRequiredFields
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
-- uid: SuperOffice.Data.WidgetRequiredFields.Subject
-  commentId: F:SuperOffice.Data.WidgetRequiredFields.Subject
-  id: Subject
-  parent: SuperOffice.Data.WidgetRequiredFields
-  langs:
-  - csharp
-  - vb
-  name: Subject
-  nameWithType: WidgetRequiredFields.Subject
-  fullName: SuperOffice.Data.WidgetRequiredFields.Subject
-  type: Field
-  source:
-    path: SOCore
-    isExternal: true
-  assemblies:
-  - SOCore
-  namespace: SuperOffice.Data
-  summary: "\n4: Subject field is required\n"
-  syntax:
-    content: Subject = 4
+    content: Company = 4
     return:
       type: SuperOffice.Data.WidgetRequiredFields
   modifiers.csharp:
@@ -172,14 +173,42 @@ items:
   fullName: SuperOffice.Data.WidgetRequiredFields.Phone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Phone field is required\n"
   syntax:
     content: Phone = 8
+    return:
+      type: SuperOffice.Data.WidgetRequiredFields
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WidgetRequiredFields.Country
+  commentId: F:SuperOffice.Data.WidgetRequiredFields.Country
+  id: Country
+  parent: SuperOffice.Data.WidgetRequiredFields
+  langs:
+  - csharp
+  - vb
+  name: Country
+  nameWithType: WidgetRequiredFields.Country
+  fullName: SuperOffice.Data.WidgetRequiredFields.Country
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n16: Country field is required\n"
+  syntax:
+    content: Country = 16
     return:
       type: SuperOffice.Data.WidgetRequiredFields
   modifiers.csharp:

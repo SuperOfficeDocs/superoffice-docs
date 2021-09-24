@@ -23,10 +23,10 @@ items:
   fullName: SuperOffice.Data.DocTmplType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValue for field &apos;record_type&apos; in table &apos;doctmpl&apos;.\nThis Enum is used by:  DocTmpl.record_type\n"
   syntax:
@@ -55,10 +55,10 @@ items:
   fullName: SuperOffice.Data.DocTmplType.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: The document type is unknown/undecided\n"
   syntax:
@@ -83,10 +83,10 @@ items:
   fullName: SuperOffice.Data.DocTmplType.Appointment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: (not used for document templates)\n"
   syntax:
@@ -111,10 +111,10 @@ items:
   fullName: SuperOffice.Data.DocTmplType.Document
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Generic text document (for instance, a letter)\n"
   syntax:
@@ -139,10 +139,10 @@ items:
   fullName: SuperOffice.Data.DocTmplType.Email
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Email message\n"
   syntax:
@@ -167,10 +167,10 @@ items:
   fullName: SuperOffice.Data.DocTmplType.Fax
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Facsimile\n"
   syntax:
@@ -195,10 +195,10 @@ items:
   fullName: SuperOffice.Data.DocTmplType.Phone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: (not used for document templates)\n"
   syntax:
@@ -223,10 +223,10 @@ items:
   fullName: SuperOffice.Data.DocTmplType.Todo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: (not used for document templates)\n"
   syntax:
@@ -251,10 +251,10 @@ items:
   fullName: SuperOffice.Data.DocTmplType.MergeDraft
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: Template for mailmerge operations\n"
   syntax:
@@ -279,10 +279,10 @@ items:
   fullName: SuperOffice.Data.DocTmplType.MergeFinal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Result of a mailmerge operation\n"
   syntax:
@@ -307,10 +307,10 @@ items:
   fullName: SuperOffice.Data.DocTmplType.SavedReport
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n9: Saved result of running a report (output from Reporter)\n"
   syntax:

@@ -41,6 +41,7 @@ items:
   - SuperOffice.CRM.Data.TicketTableInfo.FormSubmissionId_InnerJoin_FormSubmission
   - SuperOffice.CRM.Data.TicketTableInfo.FromAddress
   - SuperOffice.CRM.Data.TicketTableInfo.HasAttachment
+  - SuperOffice.CRM.Data.TicketTableInfo.Language
   - SuperOffice.CRM.Data.TicketTableInfo.LastChanged
   - SuperOffice.CRM.Data.TicketTableInfo.LeftOuterJoin_ChatSession_TicketId
   - SuperOffice.CRM.Data.TicketTableInfo.LeftOuterJoin_EjMessage_TicketId
@@ -60,6 +61,8 @@ items:
   - SuperOffice.CRM.Data.TicketTableInfo.NumReplies
   - SuperOffice.CRM.Data.TicketTableInfo.OrigCategory
   - SuperOffice.CRM.Data.TicketTableInfo.OrigCategory_InnerJoin_EjCategory
+  - SuperOffice.CRM.Data.TicketTableInfo.OrigHumanCategoryId
+  - SuperOffice.CRM.Data.TicketTableInfo.OrigHumanCategoryId_InnerJoin_EjCategory
   - SuperOffice.CRM.Data.TicketTableInfo.Origin
   - SuperOffice.CRM.Data.TicketTableInfo.OrigPriority
   - SuperOffice.CRM.Data.TicketTableInfo.OrigPriority_InnerJoin_TicketPriority
@@ -77,8 +80,12 @@ items:
   - SuperOffice.CRM.Data.TicketTableInfo.RealTimeToReply
   - SuperOffice.CRM.Data.TicketTableInfo.RepliedAt
   - SuperOffice.CRM.Data.TicketTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.TicketTableInfo.Sentiment
+  - SuperOffice.CRM.Data.TicketTableInfo.SentimentConfidence
   - SuperOffice.CRM.Data.TicketTableInfo.Slevel
   - SuperOffice.CRM.Data.TicketTableInfo.Status
+  - SuperOffice.CRM.Data.TicketTableInfo.SuggestedCategoryId
+  - SuperOffice.CRM.Data.TicketTableInfo.SuggestedCategoryId_InnerJoin_EjCategory
   - SuperOffice.CRM.Data.TicketTableInfo.Tags
   - SuperOffice.CRM.Data.TicketTableInfo.TicketId
   - SuperOffice.CRM.Data.TicketTableInfo.TicketStatus
@@ -1929,7 +1936,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;tags&apos; in table &apos;ticket&apos;: Dictionary type FKArray, .NET type: <see cref=\"!:Int32[]\"></see><p></p>\nArray of references to the Tags records\n"
+  summary: "\nField &apos;tags&apos; in table &apos;ticket&apos;: Dictionary type FKArray, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nArray of references to the Tags records\n"
   syntax:
     content: public Int32ArrayFieldInfo Tags { get; }
     parameters: []
@@ -1974,6 +1981,99 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.CRM.Data.TicketTableInfo.Language
+  commentId: P:SuperOffice.CRM.Data.TicketTableInfo.Language
+  id: Language
+  parent: SuperOffice.CRM.Data.TicketTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: TicketTableInfo.Language
+  fullName: SuperOffice.CRM.Data.TicketTableInfo.Language
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;language&apos; in table &apos;ticket&apos;: Dictionary type String[11], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe language of the first external message\n"
+  syntax:
+    content: public StringFieldInfo Language { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Language As StringFieldInfo
+  overload: SuperOffice.CRM.Data.TicketTableInfo.Language*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TicketTableInfo.Sentiment
+  commentId: P:SuperOffice.CRM.Data.TicketTableInfo.Sentiment
+  id: Sentiment
+  parent: SuperOffice.CRM.Data.TicketTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Sentiment
+  nameWithType: TicketTableInfo.Sentiment
+  fullName: SuperOffice.CRM.Data.TicketTableInfo.Sentiment
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;sentiment&apos; in table &apos;ticket&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe sentiment index of the last external message\n"
+  syntax:
+    content: public Int32FieldInfo Sentiment { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Sentiment As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.TicketTableInfo.Sentiment*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TicketTableInfo.SentimentConfidence
+  commentId: P:SuperOffice.CRM.Data.TicketTableInfo.SentimentConfidence
+  id: SentimentConfidence
+  parent: SuperOffice.CRM.Data.TicketTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SentimentConfidence
+  nameWithType: TicketTableInfo.SentimentConfidence
+  fullName: SuperOffice.CRM.Data.TicketTableInfo.SentimentConfidence
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;sentimentConfidence&apos; in table &apos;ticket&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe sentiment confidence of the last external message\n"
+  syntax:
+    content: public Int32FieldInfo SentimentConfidence { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property SentimentConfidence As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.TicketTableInfo.SentimentConfidence*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketTableInfo.FormSubmissionId
   commentId: P:SuperOffice.CRM.Data.TicketTableInfo.FormSubmissionId
   id: FormSubmissionId
@@ -1999,6 +2099,68 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property FormSubmissionId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.TicketTableInfo.FormSubmissionId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TicketTableInfo.SuggestedCategoryId
+  commentId: P:SuperOffice.CRM.Data.TicketTableInfo.SuggestedCategoryId
+  id: SuggestedCategoryId
+  parent: SuperOffice.CRM.Data.TicketTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SuggestedCategoryId
+  nameWithType: TicketTableInfo.SuggestedCategoryId
+  fullName: SuperOffice.CRM.Data.TicketTableInfo.SuggestedCategoryId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;suggestedCategory_id&apos; in table &apos;ticket&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSuggestion for categorization, based on the text of the message (AI)\n"
+  syntax:
+    content: public Int32FieldInfo SuggestedCategoryId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property SuggestedCategoryId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.TicketTableInfo.SuggestedCategoryId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TicketTableInfo.OrigHumanCategoryId
+  commentId: P:SuperOffice.CRM.Data.TicketTableInfo.OrigHumanCategoryId
+  id: OrigHumanCategoryId
+  parent: SuperOffice.CRM.Data.TicketTableInfo
+  langs:
+  - csharp
+  - vb
+  name: OrigHumanCategoryId
+  nameWithType: TicketTableInfo.OrigHumanCategoryId
+  fullName: SuperOffice.CRM.Data.TicketTableInfo.OrigHumanCategoryId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;origHumanCategory_id&apos; in table &apos;ticket&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWill contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category\n"
+  syntax:
+    content: public Int32FieldInfo OrigHumanCategoryId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property OrigHumanCategoryId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.TicketTableInfo.OrigHumanCategoryId*
   modifiers.csharp:
   - public
   - get
@@ -2433,6 +2595,68 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.FormSubmissionTableInfo}
     content.vb: Public ReadOnly Property FormSubmissionId_InnerJoin_FormSubmission As TargetedInnerJoin(Of FormSubmissionTableInfo)
   overload: SuperOffice.CRM.Data.TicketTableInfo.FormSubmissionId_InnerJoin_FormSubmission*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TicketTableInfo.SuggestedCategoryId_InnerJoin_EjCategory
+  commentId: P:SuperOffice.CRM.Data.TicketTableInfo.SuggestedCategoryId_InnerJoin_EjCategory
+  id: SuggestedCategoryId_InnerJoin_EjCategory
+  parent: SuperOffice.CRM.Data.TicketTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SuggestedCategoryId_InnerJoin_EjCategory
+  nameWithType: TicketTableInfo.SuggestedCategoryId_InnerJoin_EjCategory
+  fullName: SuperOffice.CRM.Data.TicketTableInfo.SuggestedCategoryId_InnerJoin_EjCategory
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key SuggestedCategoryId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.EjCategoryTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<EjCategoryTableInfo> SuggestedCategoryId_InnerJoin_EjCategory { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.EjCategoryTableInfo}
+    content.vb: Public ReadOnly Property SuggestedCategoryId_InnerJoin_EjCategory As TargetedInnerJoin(Of EjCategoryTableInfo)
+  overload: SuperOffice.CRM.Data.TicketTableInfo.SuggestedCategoryId_InnerJoin_EjCategory*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TicketTableInfo.OrigHumanCategoryId_InnerJoin_EjCategory
+  commentId: P:SuperOffice.CRM.Data.TicketTableInfo.OrigHumanCategoryId_InnerJoin_EjCategory
+  id: OrigHumanCategoryId_InnerJoin_EjCategory
+  parent: SuperOffice.CRM.Data.TicketTableInfo
+  langs:
+  - csharp
+  - vb
+  name: OrigHumanCategoryId_InnerJoin_EjCategory
+  nameWithType: TicketTableInfo.OrigHumanCategoryId_InnerJoin_EjCategory
+  fullName: SuperOffice.CRM.Data.TicketTableInfo.OrigHumanCategoryId_InnerJoin_EjCategory
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key OrigHumanCategoryId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.EjCategoryTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<EjCategoryTableInfo> OrigHumanCategoryId_InnerJoin_EjCategory { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.EjCategoryTableInfo}
+    content.vb: Public ReadOnly Property OrigHumanCategoryId_InnerJoin_EjCategory As TargetedInnerJoin(Of EjCategoryTableInfo)
+  overload: SuperOffice.CRM.Data.TicketTableInfo.OrigHumanCategoryId_InnerJoin_EjCategory*
   modifiers.csharp:
   - public
   - get
@@ -4100,12 +4324,42 @@ references:
   name: ContactId
   nameWithType: TicketTableInfo.ContactId
   fullName: SuperOffice.CRM.Data.TicketTableInfo.ContactId
+- uid: SuperOffice.CRM.Data.TicketTableInfo.Language*
+  commentId: Overload:SuperOffice.CRM.Data.TicketTableInfo.Language
+  isExternal: true
+  name: Language
+  nameWithType: TicketTableInfo.Language
+  fullName: SuperOffice.CRM.Data.TicketTableInfo.Language
+- uid: SuperOffice.CRM.Data.TicketTableInfo.Sentiment*
+  commentId: Overload:SuperOffice.CRM.Data.TicketTableInfo.Sentiment
+  isExternal: true
+  name: Sentiment
+  nameWithType: TicketTableInfo.Sentiment
+  fullName: SuperOffice.CRM.Data.TicketTableInfo.Sentiment
+- uid: SuperOffice.CRM.Data.TicketTableInfo.SentimentConfidence*
+  commentId: Overload:SuperOffice.CRM.Data.TicketTableInfo.SentimentConfidence
+  isExternal: true
+  name: SentimentConfidence
+  nameWithType: TicketTableInfo.SentimentConfidence
+  fullName: SuperOffice.CRM.Data.TicketTableInfo.SentimentConfidence
 - uid: SuperOffice.CRM.Data.TicketTableInfo.FormSubmissionId*
   commentId: Overload:SuperOffice.CRM.Data.TicketTableInfo.FormSubmissionId
   isExternal: true
   name: FormSubmissionId
   nameWithType: TicketTableInfo.FormSubmissionId
   fullName: SuperOffice.CRM.Data.TicketTableInfo.FormSubmissionId
+- uid: SuperOffice.CRM.Data.TicketTableInfo.SuggestedCategoryId*
+  commentId: Overload:SuperOffice.CRM.Data.TicketTableInfo.SuggestedCategoryId
+  isExternal: true
+  name: SuggestedCategoryId
+  nameWithType: TicketTableInfo.SuggestedCategoryId
+  fullName: SuperOffice.CRM.Data.TicketTableInfo.SuggestedCategoryId
+- uid: SuperOffice.CRM.Data.TicketTableInfo.OrigHumanCategoryId*
+  commentId: Overload:SuperOffice.CRM.Data.TicketTableInfo.OrigHumanCategoryId
+  isExternal: true
+  name: OrigHumanCategoryId
+  nameWithType: TicketTableInfo.OrigHumanCategoryId
+  fullName: SuperOffice.CRM.Data.TicketTableInfo.OrigHumanCategoryId
 - uid: SuperOffice.CRM.Data.TicketTableInfo.ConnectId_InnerJoin_Ticket*
   commentId: Overload:SuperOffice.CRM.Data.TicketTableInfo.ConnectId_InnerJoin_Ticket
   isExternal: true
@@ -4713,6 +4967,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Data.TicketTableInfo.SuggestedCategoryId_InnerJoin_EjCategory*
+  commentId: Overload:SuperOffice.CRM.Data.TicketTableInfo.SuggestedCategoryId_InnerJoin_EjCategory
+  isExternal: true
+  name: SuggestedCategoryId_InnerJoin_EjCategory
+  nameWithType: TicketTableInfo.SuggestedCategoryId_InnerJoin_EjCategory
+  fullName: SuperOffice.CRM.Data.TicketTableInfo.SuggestedCategoryId_InnerJoin_EjCategory
+- uid: SuperOffice.CRM.Data.TicketTableInfo.OrigHumanCategoryId_InnerJoin_EjCategory*
+  commentId: Overload:SuperOffice.CRM.Data.TicketTableInfo.OrigHumanCategoryId_InnerJoin_EjCategory
+  isExternal: true
+  name: OrigHumanCategoryId_InnerJoin_EjCategory
+  nameWithType: TicketTableInfo.OrigHumanCategoryId_InnerJoin_EjCategory
+  fullName: SuperOffice.CRM.Data.TicketTableInfo.OrigHumanCategoryId_InnerJoin_EjCategory
 - uid: SuperOffice.CRM.Data.TicketTableInfo.LeftOuterJoin_EjMessage_TicketId*
   commentId: Overload:SuperOffice.CRM.Data.TicketTableInfo.LeftOuterJoin_EjMessage_TicketId
   isExternal: true

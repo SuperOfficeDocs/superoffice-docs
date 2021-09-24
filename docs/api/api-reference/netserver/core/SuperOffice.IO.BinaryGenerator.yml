@@ -28,10 +28,10 @@ items:
   fullName: SuperOffice.IO.BinaryGenerator
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nAbstract class providing mechanisms supporting generating documents from binary template files.\n"
   syntax:
@@ -96,10 +96,10 @@ items:
   fullName: SuperOffice.IO.BinaryGenerator.BinaryGenerator(System.IO.Stream, SuperOffice.IO.TagContainer, SuperOffice.Data.GeneratorEncoding)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nProtected constructor used by sub-classes\n"
   syntax:
@@ -132,10 +132,10 @@ items:
   fullName: SuperOffice.IO.BinaryGenerator.Generate(System.IO.Stream)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nGenerate the document from the template.\n"
   syntax:
@@ -164,10 +164,10 @@ items:
   fullName: SuperOffice.IO.BinaryGenerator.OnProcessData(System.Int64, System.Int32, SuperOffice.IO.BinaryGenerator.State)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nProcess data as it is read from the template.\n"
   syntax:
@@ -202,10 +202,10 @@ items:
   fullName: SuperOffice.IO.BinaryGenerator.OnStart()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nCalled when starting to parse the template.\n"
   syntax:
@@ -230,10 +230,10 @@ items:
   fullName: SuperOffice.IO.BinaryGenerator.OnProcessTag(System.Int64, System.Byte[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nCalled when a tag has been extracted from the template file.\n"
   syntax:
@@ -271,10 +271,10 @@ items:
   fullName: SuperOffice.IO.BinaryGenerator.OnEnd()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nCalled when the template has been parsed.\n"
   syntax:
@@ -299,10 +299,10 @@ items:
   fullName: SuperOffice.IO.BinaryGenerator.StartTag(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nIdentify a tag start.\n"
   syntax:
@@ -334,10 +334,10 @@ items:
   fullName: SuperOffice.IO.BinaryGenerator.EndTag(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nIdentify a tag end.\n"
   syntax:
@@ -369,10 +369,10 @@ items:
   fullName: SuperOffice.IO.BinaryGenerator.IsValidTagData(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nCalled for each byte in a tag, to verify that the data within the tags are valid.\n"
   remarks: The default implementation will allways return true.
@@ -404,10 +404,10 @@ items:
   fullName: SuperOffice.IO.BinaryGenerator.SetState(SuperOffice.IO.BinaryGenerator.State, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nChange the state of the parser between seeking for start or end tag.\n"
   syntax:
@@ -437,10 +437,10 @@ items:
   fullName: SuperOffice.IO.BinaryGenerator.AbortTag()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nAbort seeking for an end tag and start seeking for a start tag.\n"
   syntax:
@@ -463,10 +463,10 @@ items:
   fullName: SuperOffice.IO.BinaryGenerator.AbortTag(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nAbort seeking for an end tag and start seeking for a start tag.\n"
   remarks: "\nAfter a start tag is found, the search for an end-tag can be aborted.  \nThis method aborts seeking for an end tag.  If a next start tag is found \nwhile seeking for a start tag, the input argument will contain the number \nof bytes that should be re-parsed looking for a start tag.\n"
@@ -495,10 +495,10 @@ items:
   fullName: SuperOffice.IO.BinaryGenerator.GeneratorState
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\n\n"
   syntax:
@@ -526,10 +526,10 @@ items:
   fullName: SuperOffice.IO.BinaryGenerator.Reader
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nBinaryReader that the template is read from.\n"
   syntax:
@@ -557,10 +557,10 @@ items:
   fullName: SuperOffice.IO.BinaryGenerator.Writer
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nBinaryWriter that the document is written to.\n"
   syntax:

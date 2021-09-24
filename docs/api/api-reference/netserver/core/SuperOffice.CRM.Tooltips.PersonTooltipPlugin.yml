@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.Tooltips.PersonTooltipPlugin.FormatTooltip(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Boolean,System.String,System.String,System.String,System.String,System.String)
   - SuperOffice.CRM.Tooltips.PersonTooltipPlugin.InnerGetTooltip
   - SuperOffice.CRM.Tooltips.PersonTooltipPlugin.PersonKey
+  - SuperOffice.CRM.Tooltips.PersonTooltipPlugin.PersonWithNoSelectionHint
   langs:
   - csharp
   - vb
@@ -25,11 +26,11 @@ items:
   summary: "\nTooltip provider plugin for Person data. It retrieves various information about the person, including an image\nif there is one in the BLOB table.\n"
   syntax:
     content: >-
-      [TooltipPlugin("SuperOffice:PersonTooltip", new string[]{"person_id"})]
+      [TooltipPlugin("SuperOffice:PersonTooltip", new string[]{"person_id", "personWithNoSelection_id"})]
 
       public class PersonTooltipPlugin : TooltipPluginBase, ITooltipProviderPlugin, IPlugin
     content.vb: >-
-      <TooltipPlugin("SuperOffice:PersonTooltip", New String() {"person_id"})>
+      <TooltipPlugin("SuperOffice:PersonTooltip", New String() {"person_id", "personWithNoSelection_id"})>
 
       Public Class PersonTooltipPlugin
           Inherits TooltipPluginBase
@@ -94,6 +95,34 @@ items:
     return:
       type: System.String
     content.vb: Public Const PersonKey As String = "person_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Tooltips.PersonTooltipPlugin.PersonWithNoSelectionHint
+  commentId: F:SuperOffice.CRM.Tooltips.PersonTooltipPlugin.PersonWithNoSelectionHint
+  id: PersonWithNoSelectionHint
+  parent: SuperOffice.CRM.Tooltips.PersonTooltipPlugin
+  langs:
+  - csharp
+  - vb
+  name: PersonWithNoSelectionHint
+  nameWithType: PersonTooltipPlugin.PersonWithNoSelectionHint
+  fullName: SuperOffice.CRM.Tooltips.PersonTooltipPlugin.PersonWithNoSelectionHint
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Tooltips
+  syntax:
+    content: public const string PersonWithNoSelectionHint = "personWithNoSelection_id"
+    return:
+      type: System.String
+    content.vb: Public Const PersonWithNoSelectionHint As String = "personWithNoSelection_id"
   modifiers.csharp:
   - public
   - const

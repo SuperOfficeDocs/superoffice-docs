@@ -12,6 +12,7 @@ items:
   - SuperOffice.CRM.Rows.BatchTaskRecordData.Description
   - SuperOffice.CRM.Rows.BatchTaskRecordData.DetailsRecord
   - SuperOffice.CRM.Rows.BatchTaskRecordData.DetailsTable
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.FileName
   - SuperOffice.CRM.Rows.BatchTaskRecordData.LastStarted
   - SuperOffice.CRM.Rows.BatchTaskRecordData.ProgressDescription
   - SuperOffice.CRM.Rows.BatchTaskRecordData.ProgressPercent
@@ -546,6 +547,33 @@ items:
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.FileName
+  commentId: F:SuperOffice.CRM.Rows.BatchTaskRecordData.FileName
+  id: FileName
+  parent: SuperOffice.CRM.Rows.BatchTaskRecordData
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: BatchTaskRecordData.FileName
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordData.FileName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe filename related to the batchtask. \n"
+  syntax:
+    content: public string FileName
+    return:
+      type: System.String
+    content.vb: Public FileName As String
   modifiers.csharp:
   - public
   modifiers.vb:

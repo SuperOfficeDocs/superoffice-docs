@@ -13,7 +13,7 @@ items:
   fullName: SuperOffice.Mime
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
 - uid: SuperOffice.Mime.MimeDetect
   commentId: T:SuperOffice.Mime.MimeDetect

@@ -30,10 +30,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreference keys for sales settings\n"
   syntax:
@@ -68,10 +68,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:
@@ -97,10 +97,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.SkipCompletedSales
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSet to true to skip completed sales when searching or stepping in sales.\n"
   syntax:
@@ -126,10 +126,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.ConfirmCreateSuggAppointment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSet to false to skip showing the dialog that asks you if you want to create a new appointment\nfrom a suggestion.\n"
   syntax:
@@ -155,10 +155,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.EnableSaleStakeholders
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nEnable/disable stakeholders archives and functionality\n"
   syntax:
@@ -184,10 +184,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.UseCompanyPostalAddressForQuote
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSet to true to always use company postal address for the delivery address if no custom delivery address is defined.\n"
   syntax:
@@ -213,10 +213,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.CreateQuoteFollowup
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault create new followup when sending quote.\n"
   syntax:
@@ -242,10 +242,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.FollowupDaysBeforeQuoteExpiry
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nNumber of days before the quote expiry date to default the follow-up.\n"
   syntax:
@@ -271,10 +271,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.SendOrderAsEmail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault choose to send the order confirmation of the quote as an email.\n"
   syntax:
@@ -300,10 +300,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.SendQuoteAsEmail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault choose to send the quote as an email.\n"
   syntax:
@@ -329,10 +329,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.MarkSaleSold
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault choose to Mark sale as sold when place order on quote.\n"
   syntax:
@@ -358,10 +358,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.DefaultQuoteDeliveryTerm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault delivery term for new quote\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -387,10 +387,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.DefaultQuoteDeliveryType
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault delivery type for new quote\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -416,10 +416,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.DefaultQuotePaymentTerm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault payment term for new quote\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -445,10 +445,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.DefaultQuotePaymentType
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault payment type for new quote\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -474,10 +474,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.SendQuoteFavouriteOnly
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nLast state of checkbox in Send Quote dialog\n"
   syntax:
@@ -503,10 +503,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.ImageSize
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nMaximum product image size, largest dimension\n"
   syntax:
@@ -532,10 +532,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sale.ThumbnailSize
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nMaximum thumbnail size, largest dimension\n"
   syntax:

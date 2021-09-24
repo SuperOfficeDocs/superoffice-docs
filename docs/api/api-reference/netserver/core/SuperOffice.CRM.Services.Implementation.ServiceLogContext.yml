@@ -7,9 +7,13 @@ items:
   children:
   - SuperOffice.CRM.Services.Implementation.ServiceLogContext.Dispose
   - SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCrashInformation
+  - SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCurrentState
   - SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetEnvironmentInfo
   - SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetShorthandInfo
+  - SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetSimplifiedParametersForLogging
+  - SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetDbStatistics(System.Int32,System.Int32,System.Int32)
   - SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetReturnValue(System.Object)
+  - SuperOffice.CRM.Services.Implementation.ServiceLogContext.ToString
   - SuperOffice.CRM.Services.Implementation.ServiceLogContext.TrackThreadCreation(System.Int32,System.Int32)
   - SuperOffice.CRM.Services.Implementation.ServiceLogContext.TrackThreadDeletion(System.Int32)
   langs:
@@ -20,10 +24,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   syntax:
     content: 'public class ServiceLogContext : IDisposable'
@@ -35,7 +39,6 @@ items:
   implements:
   - System.IDisposable
   inheritedMembers:
-  - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.ReferenceEquals(System.Object,System.Object)
@@ -51,6 +54,36 @@ items:
   modifiers.vb:
   - Public
   - Class
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.ToString
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogContext.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogContext
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ServiceLogContext.ToString()
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.ToString()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Services.Implementation.ServiceLogContext.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCrashInformation
   commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCrashInformation
   id: GetCrashInformation
@@ -63,10 +96,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCrashInformation()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   syntax:
     content: public string GetCrashInformation()
@@ -90,10 +123,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetEnvironmentInfo()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   syntax:
     content: public static string GetEnvironmentInfo()
@@ -101,6 +134,35 @@ items:
       type: System.String
     content.vb: Public Shared Function GetEnvironmentInfo As String
   overload: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetEnvironmentInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetSimplifiedParametersForLogging
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetSimplifiedParametersForLogging
+  id: GetSimplifiedParametersForLogging
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogContext
+  langs:
+  - csharp
+  - vb
+  name: GetSimplifiedParametersForLogging()
+  nameWithType: ServiceLogContext.GetSimplifiedParametersForLogging()
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetSimplifiedParametersForLogging()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public static List<(string, string)> GetSimplifiedParametersForLogging()
+    return:
+      type: System.Collections.Generic.List{System.ValueTuple{System.String,System.String}}
+    content.vb: Public Shared Function GetSimplifiedParametersForLogging As List(Of(String, String))
+  overload: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetSimplifiedParametersForLogging*
   modifiers.csharp:
   - public
   - static
@@ -119,10 +181,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetReturnValue(System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   syntax:
     content: public void SetReturnValue(object returnValue)
@@ -147,10 +209,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.TrackThreadCreation(System.Int32, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   syntax:
     content: public static void TrackThreadCreation(int parentThreadId, int childThreadId)
@@ -179,10 +241,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.TrackThreadDeletion(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   syntax:
     content: public static void TrackThreadDeletion(int dyingThreadId)
@@ -209,10 +271,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetShorthandInfo()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   syntax:
     content: public static string GetShorthandInfo()
@@ -220,6 +282,70 @@ items:
       type: System.String
     content.vb: Public Shared Function GetShorthandInfo As String
   overload: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetShorthandInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCurrentState
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCurrentState
+  id: GetCurrentState
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogContext
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentState()
+  nameWithType: ServiceLogContext.GetCurrentState()
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCurrentState()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  summary: "\nReturn information about the currently executing services. Do not refactor to use IEnumerable/yield as we need to keep the lock time minimal.\n"
+  syntax:
+    content: public static ServiceLogData[] GetCurrentState()
+    return:
+      type: SuperOffice.CRM.Services.Implementation.ServiceLogData[]
+    content.vb: Public Shared Function GetCurrentState As ServiceLogData()
+  overload: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCurrentState*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetDbStatistics(System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetDbStatistics(System.Int32,System.Int32,System.Int32)
+  id: SetDbStatistics(System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogContext
+  langs:
+  - csharp
+  - vb
+  name: SetDbStatistics(Int32, Int32, Int32)
+  nameWithType: ServiceLogContext.SetDbStatistics(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetDbStatistics(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public static void SetDbStatistics(int managedThreadId, int dbOps, int dbRows)
+    parameters:
+    - id: managedThreadId
+      type: System.Int32
+    - id: dbOps
+      type: System.Int32
+    - id: dbRows
+      type: System.Int32
+    content.vb: Public Shared Sub SetDbStatistics(managedThreadId As Integer, dbOps As Integer, dbRows As Integer)
+  overload: SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetDbStatistics*
   modifiers.csharp:
   - public
   - static
@@ -238,10 +364,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.Dispose()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   syntax:
     content: public void Dispose()
@@ -274,37 +400,6 @@ references:
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -724,12 +819,43 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCrashInformation*
-  commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCrashInformation
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: GetCrashInformation
-  nameWithType: ServiceLogContext.GetCrashInformation
-  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCrashInformation
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogContext.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ServiceLogContext.ToString
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.ToString
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -737,12 +863,151 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCrashInformation*
+  commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCrashInformation
+  isExternal: true
+  name: GetCrashInformation
+  nameWithType: ServiceLogContext.GetCrashInformation
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCrashInformation
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetEnvironmentInfo*
   commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetEnvironmentInfo
   isExternal: true
   name: GetEnvironmentInfo
   nameWithType: ServiceLogContext.GetEnvironmentInfo
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetEnvironmentInfo
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetSimplifiedParametersForLogging*
+  commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetSimplifiedParametersForLogging
+  isExternal: true
+  name: GetSimplifiedParametersForLogging
+  nameWithType: ServiceLogContext.GetSimplifiedParametersForLogging
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetSimplifiedParametersForLogging
+- uid: System.Collections.Generic.List{System.ValueTuple{System.String,System.String}}
+  commentId: T:System.Collections.Generic.List{System.ValueTuple{System.String,System.String}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ValueTuple<String, String>>
+  nameWithType: List<ValueTuple<String, String>>
+  fullName: System.Collections.Generic.List<System.ValueTuple<System.String, System.String>>
+  nameWithType.vb: List(Of ValueTuple(Of String, String))
+  fullName.vb: System.Collections.Generic.List(Of System.ValueTuple(Of System.String, System.String))
+  name.vb: List(Of ValueTuple(Of String, String))
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetReturnValue*
   commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetReturnValue
   isExternal: true
@@ -774,6 +1039,44 @@ references:
   name: GetShorthandInfo
   nameWithType: ServiceLogContext.GetShorthandInfo
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetShorthandInfo
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCurrentState*
+  commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCurrentState
+  isExternal: true
+  name: GetCurrentState
+  nameWithType: ServiceLogContext.GetCurrentState
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCurrentState
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData[]
+  isExternal: true
+  name: ServiceLogData[]
+  nameWithType: ServiceLogData[]
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData[]
+  nameWithType.vb: ServiceLogData()
+  fullName.vb: SuperOffice.CRM.Services.Implementation.ServiceLogData()
+  name.vb: ServiceLogData()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
+    name: ServiceLogData
+    nameWithType: ServiceLogData
+    fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
+    name: ServiceLogData
+    nameWithType: ServiceLogData
+    fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetDbStatistics*
+  commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetDbStatistics
+  isExternal: true
+  name: SetDbStatistics
+  nameWithType: ServiceLogContext.SetDbStatistics
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetDbStatistics
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.Dispose*
   commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogContext.Dispose
   isExternal: true

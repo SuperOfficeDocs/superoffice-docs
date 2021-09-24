@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.FormsRecaptchaMode
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nForms recaptcha mode\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.FormsRecaptchaMode.NotAvailable
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Recpatcha is turned off\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.FormsRecaptchaMode.GlobalKeysExist
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Global recaptcha keys are configured\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.FormsRecaptchaMode.KeysNeeded
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Recaptcha keys need to be supplied\n"
   syntax:

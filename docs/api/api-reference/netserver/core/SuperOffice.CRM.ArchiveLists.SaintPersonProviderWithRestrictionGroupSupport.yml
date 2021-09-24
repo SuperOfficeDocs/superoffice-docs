@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.ArchiveLists
   children:
   - SuperOffice.CRM.ArchiveLists.SaintPersonProviderWithRestrictionGroupSupport.#ctor
-  - SuperOffice.CRM.ArchiveLists.SaintPersonProviderWithRestrictionGroupSupport.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  - SuperOffice.CRM.ArchiveLists.SaintPersonProviderWithRestrictionGroupSupport.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.IArchiveProvider,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   - SuperOffice.CRM.ArchiveLists.SaintPersonProviderWithRestrictionGroupSupport.ProviderName
   - SuperOffice.CRM.ArchiveLists.SaintPersonProviderWithRestrictionGroupSupport.SubProviderName
   langs:
@@ -135,16 +135,16 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: SuperOffice.CRM.ArchiveLists.SaintPersonProviderWithRestrictionGroupSupport.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
-  commentId: M:SuperOffice.CRM.ArchiveLists.SaintPersonProviderWithRestrictionGroupSupport.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
-  id: ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+- uid: SuperOffice.CRM.ArchiveLists.SaintPersonProviderWithRestrictionGroupSupport.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.IArchiveProvider,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.SaintPersonProviderWithRestrictionGroupSupport.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.IArchiveProvider,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  id: ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.IArchiveProvider,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   parent: SuperOffice.CRM.ArchiveLists.SaintPersonProviderWithRestrictionGroupSupport
   langs:
   - csharp
   - vb
-  name: ModifyRestrictionGroup(ArchiveRestrictionInfo[])
-  nameWithType: SaintPersonProviderWithRestrictionGroupSupport.ModifyRestrictionGroup(ArchiveRestrictionInfo[])
-  fullName: SuperOffice.CRM.ArchiveLists.SaintPersonProviderWithRestrictionGroupSupport.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  name: ModifyRestrictionGroup(IArchiveProvider, ArchiveRestrictionInfo[])
+  nameWithType: SaintPersonProviderWithRestrictionGroupSupport.ModifyRestrictionGroup(IArchiveProvider, ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.SaintPersonProviderWithRestrictionGroupSupport.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.IArchiveProvider, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   type: Method
   source:
     path: SoDataBase
@@ -153,24 +153,26 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: protected override ArchiveRestrictionInfo[] ModifyRestrictionGroup(ArchiveRestrictionInfo[] resGroup)
+    content: protected override ArchiveRestrictionInfo[] ModifyRestrictionGroup(IArchiveProvider provider, ArchiveRestrictionInfo[] resGroup)
     parameters:
+    - id: provider
+      type: SuperOffice.CRM.ArchiveLists.IArchiveProvider
     - id: resGroup
       type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
-    content.vb: Protected Overrides Function ModifyRestrictionGroup(resGroup As ArchiveRestrictionInfo()) As ArchiveRestrictionInfo()
-  overridden: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    content.vb: Protected Overrides Function ModifyRestrictionGroup(provider As IArchiveProvider, resGroup As ArchiveRestrictionInfo()) As ArchiveRestrictionInfo()
+  overridden: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.IArchiveProvider,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   overload: SuperOffice.CRM.ArchiveLists.SaintPersonProviderWithRestrictionGroupSupport.ModifyRestrictionGroup*
-  nameWithType.vb: SaintPersonProviderWithRestrictionGroupSupport.ModifyRestrictionGroup(ArchiveRestrictionInfo())
+  nameWithType.vb: SaintPersonProviderWithRestrictionGroupSupport.ModifyRestrictionGroup(IArchiveProvider, ArchiveRestrictionInfo())
   modifiers.csharp:
   - protected
   - override
   modifiers.vb:
   - Protected
   - Overrides
-  fullName.vb: SuperOffice.CRM.ArchiveLists.SaintPersonProviderWithRestrictionGroupSupport.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
-  name.vb: ModifyRestrictionGroup(ArchiveRestrictionInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.SaintPersonProviderWithRestrictionGroupSupport.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.IArchiveProvider, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: ModifyRestrictionGroup(IArchiveProvider, ArchiveRestrictionInfo())
 - uid: SuperOffice.CRM.ArchiveLists.SaintPersonProviderWithRestrictionGroupSupport.#ctor
   commentId: M:SuperOffice.CRM.ArchiveLists.SaintPersonProviderWithRestrictionGroupSupport.#ctor
   id: '#ctor'
@@ -1914,18 +1916,18 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
-  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.IArchiveProvider,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.IArchiveProvider,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups
   isExternal: true
-  name: ModifyRestrictionGroup(ArchiveRestrictionInfo[])
-  nameWithType: MultiQueryProviderBaseWithRestrictionGroups.ModifyRestrictionGroup(ArchiveRestrictionInfo[])
-  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
-  nameWithType.vb: MultiQueryProviderBaseWithRestrictionGroups.ModifyRestrictionGroup(ArchiveRestrictionInfo())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
-  name.vb: ModifyRestrictionGroup(ArchiveRestrictionInfo())
+  name: ModifyRestrictionGroup(IArchiveProvider, ArchiveRestrictionInfo[])
+  nameWithType: MultiQueryProviderBaseWithRestrictionGroups.ModifyRestrictionGroup(IArchiveProvider, ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.IArchiveProvider, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  nameWithType.vb: MultiQueryProviderBaseWithRestrictionGroups.ModifyRestrictionGroup(IArchiveProvider, ArchiveRestrictionInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.IArchiveProvider, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: ModifyRestrictionGroup(IArchiveProvider, ArchiveRestrictionInfo())
   spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.IArchiveProvider,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
     name: ModifyRestrictionGroup
     nameWithType: MultiQueryProviderBaseWithRestrictionGroups.ModifyRestrictionGroup
     fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.ModifyRestrictionGroup
@@ -1933,6 +1935,14 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+    name: IArchiveProvider
+    nameWithType: IArchiveProvider
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
     nameWithType: ArchiveRestrictionInfo
@@ -1945,7 +1955,7 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.ModifyRestrictionGroup(SuperOffice.CRM.ArchiveLists.IArchiveProvider,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
     name: ModifyRestrictionGroup
     nameWithType: MultiQueryProviderBaseWithRestrictionGroups.ModifyRestrictionGroup
     fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups.ModifyRestrictionGroup
@@ -1953,6 +1963,14 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+    name: IArchiveProvider
+    nameWithType: IArchiveProvider
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
     nameWithType: ArchiveRestrictionInfo

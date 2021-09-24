@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nCS ExtraField system uses Key/Value strings for additional properties.\nWin client will use these in order to minimize hard-coded string keys here and there and everywhere..\n\n"
   syntax:
@@ -55,10 +55,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.UseDays
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public static readonly string UseDays
@@ -85,10 +85,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.UseHours
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public static readonly string UseHours
@@ -115,10 +115,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.UseMinutes
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public static readonly string UseMinutes
@@ -145,10 +145,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Precision
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public static readonly string Precision

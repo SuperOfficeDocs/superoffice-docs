@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Tooltips.ContactTooltipPlugin.#ctor
   - SuperOffice.CRM.Tooltips.ContactTooltipPlugin.ContactHint
+  - SuperOffice.CRM.Tooltips.ContactTooltipPlugin.ContactWithNoSelectionHint
   - SuperOffice.CRM.Tooltips.ContactTooltipPlugin.FormatLargeTooltip(SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.PhoneRow,SuperOffice.CRM.Rows.AddressRow)
   - SuperOffice.CRM.Tooltips.ContactTooltipPlugin.FormatTooltip(System.String,System.String,System.Boolean,System.String,System.Int32,System.String,System.Int32,System.Int32)
   - SuperOffice.CRM.Tooltips.ContactTooltipPlugin.InnerGetTooltip
@@ -25,11 +26,11 @@ items:
   namespace: SuperOffice.CRM.Tooltips
   syntax:
     content: >-
-      [TooltipPlugin("SuperOffice:ContactTooltip", new string[]{"contact_id"})]
+      [TooltipPlugin("SuperOffice:ContactTooltip", new string[]{"contact_id", "contactWithNoSelection_id"})]
 
       public class ContactTooltipPlugin : TooltipPluginBase, ITooltipProviderPlugin, IPlugin
     content.vb: >-
-      <TooltipPlugin("SuperOffice:ContactTooltip", New String() {"contact_id"})>
+      <TooltipPlugin("SuperOffice:ContactTooltip", New String() {"contact_id", "contactWithNoSelection_id"})>
 
       Public Class ContactTooltipPlugin
           Inherits TooltipPluginBase
@@ -94,6 +95,34 @@ items:
     return:
       type: System.String
     content.vb: Public Const ContactHint As String = "contact_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Tooltips.ContactTooltipPlugin.ContactWithNoSelectionHint
+  commentId: F:SuperOffice.CRM.Tooltips.ContactTooltipPlugin.ContactWithNoSelectionHint
+  id: ContactWithNoSelectionHint
+  parent: SuperOffice.CRM.Tooltips.ContactTooltipPlugin
+  langs:
+  - csharp
+  - vb
+  name: ContactWithNoSelectionHint
+  nameWithType: ContactTooltipPlugin.ContactWithNoSelectionHint
+  fullName: SuperOffice.CRM.Tooltips.ContactTooltipPlugin.ContactWithNoSelectionHint
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Tooltips
+  syntax:
+    content: public const string ContactWithNoSelectionHint = "contactWithNoSelection_id"
+    return:
+      type: System.String
+    content.vb: Public Const ContactWithNoSelectionHint As String = "contactWithNoSelection_id"
   modifiers.csharp:
   - public
   - const

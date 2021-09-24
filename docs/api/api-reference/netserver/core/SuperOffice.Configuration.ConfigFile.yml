@@ -24,10 +24,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nUtility class used to access the SuperOffice entry in the Config file.\n"
   remarks: "\nIMPORTANT:<p></p>\nAvoid reading directly from configurationfile like this;\n<pre><code>_values = (NameValueCollection)ConfigurationSettings.GetConfig(&quot;SuperOffice/Security/Sentry&quot;);</code></pre>\n\nInstead use this;\n<pre><code>_values = (NameValueCollection)ConfigFile.GetConfig(&quot;SuperOffice/Diagnostics&quot;);</code></pre>\n\nThis enables the code to check for missing configuration files, and missing xml sections,\nthus, enabling the code to throw appropriate exceptions.\n"
@@ -63,10 +63,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.AddOverride(System.String, System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nSet an override for a Config file value. All such overrides should be made before the\nfirst call to SoSession.Authenticate, as later calls may not be honoured (no retroactive\neffects!).\n"
   syntax:
@@ -107,10 +107,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.AddOverrides(System.String[,])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAdd multiple overrides in one batch. The last call to AddOverride wins!\n"
   syntax:
@@ -145,10 +145,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.GetAllOverrides()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nGet all overrides added to config as multi-dimensional string array.\n"
   syntax:
@@ -176,10 +176,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.HasOverride(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nCheck if the config value is overrided. This is needed in some cases where we don&apos;t want to override the overrides.\n"
   syntax:
@@ -212,10 +212,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.RemoveAllOverrides()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nRemove all overrides that have been set for config values. Remember that this is not\nretroactive for values that have already been read by business logic code.\n"
   syntax:
@@ -240,10 +240,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.RemoveOverride(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nRemove one override. If not found, nothing happens\n"
   syntax:
@@ -273,10 +273,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.GetEffectiveConfig()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   syntax:
     content: public static string GetEffectiveConfig()
@@ -302,10 +302,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.SaveEffectiveConfig(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nConstruct the &quot;effective&quot; config, including overrides, and write it to the given file\n"
   remarks: "\nNo file is written if the file already exists and has the correct content.\nIf the existing file does not exist or cannot be opened, then writing will be attempted.\nIf writing fails, then the method will wait for one second and try again\n(in case of conflict with another process); after five attempts it gives up.\nNo exceptions are thrown, regardless of outcome.\n"
@@ -334,10 +334,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.GetConfig(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nRead a section of the config file, apply overrides and return the set of name/value pairs\n"
   syntax:
@@ -369,10 +369,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.SetConfigFile(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nSet the name of the .config file that NetServer is to use from now on. Previously\nread items will still be retained; new lookups will come from here.\n"
   remarks: "\nThis method should be used <strong>before</strong> proper NetServer startup/authentication. As with the\n<xref href=\"SuperOffice.Configuration.ConfigFile.AddOverride(System.String%2cSystem.String%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref> method, it updates internal structures, but does not flush already-read\nconfiguration information (which of course influence things like assmelby loading etc; no way we\ncould retroactively change those).\n"
@@ -402,10 +402,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.ToValueList(System.Collections.Specialized.NameValueCollection)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   syntax:
     content: public static List<string> ToValueList(this NameValueCollection col)

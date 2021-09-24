@@ -20,10 +20,10 @@ items:
   fullName: SuperOffice.Data.DashboardLayout
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDashboard layout\n"
   syntax:
@@ -52,10 +52,10 @@ items:
   fullName: SuperOffice.Data.DashboardLayout.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown layout\n"
   syntax:
@@ -80,10 +80,10 @@ items:
   fullName: SuperOffice.Data.DashboardLayout.One
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: One tile.\n"
   syntax:
@@ -108,10 +108,10 @@ items:
   fullName: SuperOffice.Data.DashboardLayout.TwoVerticalSplit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Two vertical split.\n"
   syntax:
@@ -136,10 +136,10 @@ items:
   fullName: SuperOffice.Data.DashboardLayout.ThreeESplit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Three E split.\n"
   syntax:
@@ -164,10 +164,10 @@ items:
   fullName: SuperOffice.Data.DashboardLayout.TwoHorizontalSplit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Two horizontal split.\n"
   syntax:
@@ -192,10 +192,10 @@ items:
   fullName: SuperOffice.Data.DashboardLayout.ThreeTSplit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Three T split.\n"
   syntax:
@@ -220,10 +220,10 @@ items:
   fullName: SuperOffice.Data.DashboardLayout.Four
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: Four tiles.\n"
   syntax:

@@ -32,9 +32,13 @@ items:
     content: >-
       [MDOProviderPlugin("FaqReplyTemplate")]
 
+      [MDOAdditionalInfo("resultType", "Which of the types should be included? Comma separated string with the following choices: faqEntries, replyTemplates, quickReplies. Empty will give everything", "")]
+
       public class FaqReplyTemplateProvider : ISoListProvider, ISoList, IPlugin
     content.vb: >-
       <MDOProviderPlugin("FaqReplyTemplate")>
+
+      <MDOAdditionalInfo("resultType", "Which of the types should be included? Comma separated string with the following choices: faqEntries, replyTemplates, quickReplies. Empty will give everything", "")>
 
       Public Class FaqReplyTemplateProvider
           Implements ISoListProvider, ISoList, IPlugin
@@ -64,6 +68,15 @@ items:
     arguments:
     - type: System.String
       value: FaqReplyTemplate
+  - type: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute
+    ctor: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute.#ctor(System.String,System.String,System.Object)
+    arguments:
+    - type: System.String
+      value: resultType
+    - type: System.String
+      value: 'Which of the types should be included? Comma separated string with the following choices: faqEntries, replyTemplates, quickReplies. Empty will give everything'
+    - type: System.String
+      value: ''
   modifiers.csharp:
   - public
   - class

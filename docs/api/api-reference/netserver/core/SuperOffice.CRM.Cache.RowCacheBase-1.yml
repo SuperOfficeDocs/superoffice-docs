@@ -40,16 +40,10 @@ items:
   - System.Object
   - SuperOffice.Data.Cache.CacheBase
   derivedClasses:
-  - SuperOffice.CRM.Cache.CategoryCache
   - SuperOffice.CRM.Cache.CurrencyCache
   - SuperOffice.CRM.Cache.ExtAppCache
-  - SuperOffice.CRM.Cache.MessageHandlerCache
   - SuperOffice.CRM.Cache.PriorityCache
-  - SuperOffice.CRM.Cache.ProbCache
-  - SuperOffice.CRM.Cache.ShipmentTypeCache
-  - SuperOffice.CRM.Security.QuoteLineConfigurationCache
   - SuperOffice.CRM.Security.RefCountsPermissionCache
-  - SuperOffice.License.LicenseAssocLinkCache
   implements:
   - System.IDisposable
   - SuperOffice.Data.Cache.IFlushable

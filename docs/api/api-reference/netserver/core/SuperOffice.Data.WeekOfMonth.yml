@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Data.WeekOfMonth
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nEnumerator representing a week of the month\n"
   syntax:
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.Data.WeekOfMonth.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: 0: Unknown/undecided type\n"
   syntax:
@@ -79,10 +79,10 @@ items:
   fullName: SuperOffice.Data.WeekOfMonth.First
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: The first week of the month\n"
   syntax:
@@ -107,10 +107,10 @@ items:
   fullName: SuperOffice.Data.WeekOfMonth.Second
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: The second week of the month\n"
   syntax:
@@ -135,10 +135,10 @@ items:
   fullName: SuperOffice.Data.WeekOfMonth.Third
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: The third week of the month\n"
   syntax:
@@ -163,10 +163,10 @@ items:
   fullName: SuperOffice.Data.WeekOfMonth.Fourth
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: The fourth week of the month\n"
   syntax:
@@ -191,10 +191,10 @@ items:
   fullName: SuperOffice.Data.WeekOfMonth.Last
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: The last week of the month\n"
   syntax:

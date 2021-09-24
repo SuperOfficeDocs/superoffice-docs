@@ -27,10 +27,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneRule
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public class TimeZoneRule
@@ -68,10 +68,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneRule.TimeZoneRule()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public TimeZoneRule()
@@ -93,10 +93,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneRule.TimeZoneRule(System.Int32, System.String, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public TimeZoneRule(int tzOffset, string startRulePattern, string endRulePattern)
@@ -125,10 +125,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneRule.TimeZoneRule(System.Int32, System.Int32, System.Int32, System.Int32, System.Int32)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public TimeZoneRule(int tzOffset, int startDay, int startMonth, int endDay, int endMonth)
@@ -161,10 +161,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneRule.GetiCalStandardPattern()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public string GetiCalStandardPattern()
@@ -188,10 +188,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneRule.GetiCalDaylightSavingTimePattern()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public string GetiCalDaylightSavingTimePattern()
@@ -215,10 +215,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneRule.GetStartRuleDate(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public DateTime GetStartRuleDate(int year)
@@ -245,10 +245,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneRule.GetEndRuleDate(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public DateTime GetEndRuleDate(int year)
@@ -275,10 +275,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneRule.StartDay
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public int StartDay { get; set; }
@@ -305,10 +305,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneRule.StartMonth
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public int StartMonth { get; set; }
@@ -335,10 +335,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneRule.EndDay
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public int EndDay { get; set; }
@@ -365,10 +365,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneRule.EndMonth
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public int EndMonth { get; set; }
@@ -395,10 +395,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneRule.TZOffset
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public int TZOffset { get; set; }
@@ -425,10 +425,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneRule.StartRulePattern
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public string StartRulePattern { get; set; }
@@ -455,10 +455,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneRule.EndRulePattern
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public string EndRulePattern { get; set; }

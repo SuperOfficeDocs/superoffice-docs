@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault values\n"
   syntax:
@@ -86,10 +86,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:
@@ -115,10 +115,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppntRememberVisibleFor
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nUses the same visibility setting for new follow-ups as you used last time. (Default = NO)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -144,10 +144,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentAppointLength
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault duration for new appointment\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -173,10 +173,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentAppointTaskId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault type for new appointment\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -202,10 +202,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentAppointText
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault text for new appointment\n<p></p>Control type: Text, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -231,10 +231,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneLength
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault duration for new phone call\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -260,10 +260,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneTaskId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault type for new phone call\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -289,10 +289,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneText
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault text for new phone call\n<p></p>Control type: Text, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -318,10 +318,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentToDoLength
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault duration for new task\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -347,10 +347,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentToDoTaskId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault type for new task\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -376,10 +376,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentToDoText
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault text for new task\n<p></p>Control type: Text, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -405,10 +405,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentVisibleFor
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nLast visibility setting used in the follow-ups dialog\n<p></p>Control type: Number, access: Wizard\n"
   syntax:
@@ -434,10 +434,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSaleVisibleFor
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nLast visibility setting used in the sale dialog\n<p></p>Control type: Number, access: Wizard\n"
   syntax:
@@ -463,10 +463,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSaleRememberVisibleFor
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nUses the same visibility setting for new sales as you used last time. (Default = NO)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -492,10 +492,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultBusiness
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault business for new company\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -521,10 +521,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultCategory
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault category for new company\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -550,10 +550,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultDecimalPlacesInAmount
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nNumber of decimals displayed in user-defined amount\n<p></p>Control type: Number, access: Wizard\n"
   syntax:
@@ -579,10 +579,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultDocRememberVisibleFor
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nUses the same visibility setting for new documents as you used last time. (Default = NO)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -608,10 +608,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultDocumentType
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault outgoing document template\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -637,10 +637,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultDocumentVisibleFor
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nLast visibility setting used in the Document dialog\n<p></p>Control type: Number, access: Wizard\n"
   syntax:
@@ -666,10 +666,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultFaxType
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault outgoing fax template\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -695,10 +695,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultProjectType
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault type for new project\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -724,10 +724,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSaleProb
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault rating for new sale\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -753,10 +753,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSelectionCategory
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault type for new selection\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -782,10 +782,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSelectionVisibleFor
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nMakes this value the default visibility setting when creating a new selection\n<p></p>Control type: List, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -811,10 +811,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSaleType
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault sale type value for new sales.\n"
   syntax:
@@ -840,10 +840,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultTimeZone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault timezone.\n"
   syntax:
@@ -869,10 +869,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSalutationText
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault salutation\n"
   syntax:
@@ -898,10 +898,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultQuoteDocumentType
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public const string DefaultQuoteDocumentType = "DefaultQuoteDocumentType"
@@ -926,10 +926,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentQuoteTaskId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public const string DefaultAppointmentQuoteTaskId = "DefaultAppointmentQuoteTaskId"
@@ -954,10 +954,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentQuoteApprovedTaskId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public const string DefaultAppointmentQuoteApprovedTaskId = "DefaultAppointmentQuoteApprovedTaskId"
@@ -982,10 +982,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.PhoneLinkFormat
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public const string PhoneLinkFormat = "PhoneLinkFormat"
@@ -1010,10 +1010,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.MiniCardFavouriteSelectedSet
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public const string MiniCardFavouriteSelectedSet = "MiniCardFavouriteSelectedSet"
@@ -1038,10 +1038,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.CompleteDocumentOnCheckIn
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public const string CompleteDocumentOnCheckIn = "CompleteDocumentOnCheckIn"
@@ -1066,10 +1066,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultInvitationTaskId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault task type used for incoming e-mail invitations\n"
   syntax:

@@ -26,10 +26,10 @@ items:
   fullName: SuperOffice.CRM.Security.FunctionRight
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nRepresents a Function Right together with an description of the function.\nFunction rights typically represent abilities like &quot;can admin users&quot; or &quot;can create private appointments&quot;.\n"
   remarks: "\nFunction rights have a descriptive name, a description, and a key. \nFor example: key = &quot;admin-all&quot;, name=&quot;General Administrator&quot;, description=&quot;Has access to all maintenance functions.&quot;\n<p></p>\nUsually obtained from the SuperOffice.CRM.Security.RightsFactory rather than created directly by the client.\n"
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.CRM.Security.FunctionRight._active
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: protected bool _active
@@ -101,10 +101,10 @@ items:
   fullName: SuperOffice.CRM.Security.FunctionRight._key
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: protected string _key
@@ -127,10 +127,10 @@ items:
   fullName: SuperOffice.CRM.Security.FunctionRight._name
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: protected string _name
@@ -153,10 +153,10 @@ items:
   fullName: SuperOffice.CRM.Security.FunctionRight._description
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: protected string _description
@@ -179,10 +179,10 @@ items:
   fullName: SuperOffice.CRM.Security.FunctionRight.FunctionRight()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nCreate a blank function-right with no permissions.\n"
   syntax:
@@ -205,10 +205,10 @@ items:
   fullName: SuperOffice.CRM.Security.FunctionRight.FunctionRight(System.Int32)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nCreate a field right with the given id.\n"
   syntax:
@@ -235,10 +235,10 @@ items:
   fullName: SuperOffice.CRM.Security.FunctionRight.FunctionRight(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nCreate a Function right with the given key name. The description + \n"
   syntax:
@@ -264,10 +264,10 @@ items:
   fullName: SuperOffice.CRM.Security.FunctionRight.HasAll
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nReturns true when the right is granted to user.\nEquivalent to the <xref href=\"SuperOffice.CRM.Security.FunctionRight.IsActive\" data-throw-if-not-resolved=\"false\"></xref> property.\n"
   syntax:
@@ -298,10 +298,10 @@ items:
   fullName: SuperOffice.CRM.Security.FunctionRight.IgnoreReason
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: protected override bool IgnoreReason { get; }
@@ -331,10 +331,10 @@ items:
   fullName: SuperOffice.CRM.Security.FunctionRight.HasNone
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nReturns true when the right is not granted to the user. Inverse of <xref href=\"SuperOffice.CRM.Security.FunctionRight.HasAll\" data-throw-if-not-resolved=\"false\"></xref> property.\n"
   syntax:
@@ -365,10 +365,10 @@ items:
   fullName: SuperOffice.CRM.Security.FunctionRight.IsActive
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nReturns true when the right has been granted to the user. \nEquivalent to the <xref href=\"SuperOffice.CRM.Security.FunctionRight.HasAll\" data-throw-if-not-resolved=\"false\"></xref> property.\n"
   syntax:
@@ -399,10 +399,10 @@ items:
   fullName: SuperOffice.CRM.Security.FunctionRight.Name
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nThe human-readable name of the function right.\nFor example: &quot;General Administrator&quot;, &quot;Allow Mail Merge&quot;\n"
   syntax:
@@ -430,10 +430,10 @@ items:
   fullName: SuperOffice.CRM.Security.FunctionRight.Description
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nThe human-readable description of the function right.\nFor example: &quot;Able to maintain users&quot;, &quot;Allowed to create private appointments&quot;\n"
   syntax:

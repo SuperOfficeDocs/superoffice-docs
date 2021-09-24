@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveFindAppointmentRow
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: 'public class ArchiveFindAppointmentRow : ArchiveActivityRow, IDataRecord, IEquatable<ArchiveRow>'
@@ -39,6 +39,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnTime
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnType
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRecordType
+  - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRecordTypeText
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnText
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnAssociateId
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnContactId
@@ -157,10 +158,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveFindAppointmentRow.ArchiveFindAppointmentRow()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveFindAppointmentRow()
@@ -289,6 +290,13 @@ references:
   name: ColumnRecordType
   nameWithType: ArchiveActivityRow.ColumnRecordType
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRecordType
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRecordTypeText
+  commentId: F:SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRecordTypeText
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow
+  isExternal: true
+  name: ColumnRecordTypeText
+  nameWithType: ArchiveActivityRow.ColumnRecordTypeText
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRecordTypeText
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnText
   commentId: F:SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnText
   parent: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow

@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Exceptions.SoNotSupportedException
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nException stating that something is not supported in the given context.\n"
   syntax:
@@ -79,10 +79,10 @@ items:
   fullName: SuperOffice.Exceptions.SoNotSupportedException.SoNotSupportedException(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nException stating that something is not supported in the given context.\n"
   syntax:

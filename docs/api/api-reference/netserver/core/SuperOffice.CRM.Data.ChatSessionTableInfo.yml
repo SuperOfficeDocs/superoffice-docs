@@ -6,11 +6,13 @@ items:
   parent: SuperOffice.CRM.Data
   children:
   - SuperOffice.CRM.Data.ChatSessionTableInfo.AlertLevel
+  - SuperOffice.CRM.Data.ChatSessionTableInfo.ChatbotIsactive
   - SuperOffice.CRM.Data.ChatSessionTableInfo.ChatSessionId
   - SuperOffice.CRM.Data.ChatSessionTableInfo.CompanyName
   - SuperOffice.CRM.Data.ChatSessionTableInfo.Consented
   - SuperOffice.CRM.Data.ChatSessionTableInfo.ContactId
   - SuperOffice.CRM.Data.ChatSessionTableInfo.ContactId_InnerJoin_Contact
+  - SuperOffice.CRM.Data.ChatSessionTableInfo.Country
   - SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerAlias
   - SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerFetch
   - SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerHost
@@ -1214,6 +1216,68 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Consented As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.Consented*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ChatSessionTableInfo.ChatbotIsactive
+  commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.ChatbotIsactive
+  id: ChatbotIsactive
+  parent: SuperOffice.CRM.Data.ChatSessionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ChatbotIsactive
+  nameWithType: ChatSessionTableInfo.ChatbotIsactive
+  fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.ChatbotIsactive
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;chatbot_isactive&apos; in table &apos;chat_session&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIndicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user.\n"
+  syntax:
+    content: public UInt16FieldInfo ChatbotIsactive { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property ChatbotIsactive As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.ChatSessionTableInfo.ChatbotIsactive*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ChatSessionTableInfo.Country
+  commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.Country
+  id: Country
+  parent: SuperOffice.CRM.Data.ChatSessionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Country
+  nameWithType: ChatSessionTableInfo.Country
+  fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.Country
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;country&apos; in table &apos;chat_session&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe country that the chat customer selected.\n"
+  syntax:
+    content: public Int32FieldInfo Country { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Country As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ChatSessionTableInfo.Country*
   modifiers.csharp:
   - public
   - get
@@ -2580,6 +2644,18 @@ references:
   name: UInt16FieldInfo
   nameWithType: UInt16FieldInfo
   fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.CRM.Data.ChatSessionTableInfo.ChatbotIsactive*
+  commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.ChatbotIsactive
+  isExternal: true
+  name: ChatbotIsactive
+  nameWithType: ChatSessionTableInfo.ChatbotIsactive
+  fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.ChatbotIsactive
+- uid: SuperOffice.CRM.Data.ChatSessionTableInfo.Country*
+  commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.Country
+  isExternal: true
+  name: Country
+  nameWithType: ChatSessionTableInfo.Country
+  fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.Country
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.TopicId_InnerJoin_ChatTopic*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.TopicId_InnerJoin_ChatTopic
   isExternal: true

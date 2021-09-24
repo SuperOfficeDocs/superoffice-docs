@@ -55,6 +55,7 @@ items:
   - SuperOffice.CRM.Entities.AppointmentMatrix.ModifyOnRows(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,SuperOffice.CRM.Entities.AppointmentMatrix.RowModification,SuperOffice.CRM.Entities.AppointmentMatrix.RowModification)
   - SuperOffice.CRM.Entities.AppointmentMatrix.Move(System.DateTime)
   - SuperOffice.CRM.Entities.AppointmentMatrix.OnIdUpdate
+  - SuperOffice.CRM.Entities.AppointmentMatrix.OnNotifyCentralServicesForVideoMeetings
   - SuperOffice.CRM.Entities.AppointmentMatrix.OnPreIdUpdate
   - SuperOffice.CRM.Entities.AppointmentMatrix.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
   - SuperOffice.CRM.Entities.AppointmentMatrix.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
@@ -2631,6 +2632,38 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.OnNotifyCentralServicesForVideoMeetings
+  commentId: P:SuperOffice.CRM.Entities.AppointmentMatrix.OnNotifyCentralServicesForVideoMeetings
+  id: OnNotifyCentralServicesForVideoMeetings
+  parent: SuperOffice.CRM.Entities.AppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: OnNotifyCentralServicesForVideoMeetings
+  nameWithType: AppointmentMatrix.OnNotifyCentralServicesForVideoMeetings
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.OnNotifyCentralServicesForVideoMeetings
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public static Action<bool> OnNotifyCentralServicesForVideoMeetings { get; set; }
+    parameters: []
+    return:
+      type: System.Action{System.Boolean}
+    content.vb: Public Shared Property OnNotifyCentralServicesForVideoMeetings As Action(Of Boolean)
+  overload: SuperOffice.CRM.Entities.AppointmentMatrix.OnNotifyCentralServicesForVideoMeetings*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Entities.AppointmentMatrix.IsDirty
   commentId: P:SuperOffice.CRM.Entities.AppointmentMatrix.IsDirty
   id: IsDirty
@@ -4729,6 +4762,95 @@ references:
   name: InnerRemovedMatrix
   nameWithType: AppointmentMatrix.InnerRemovedMatrix
   fullName: SuperOffice.CRM.Entities.AppointmentMatrix.InnerRemovedMatrix
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.OnNotifyCentralServicesForVideoMeetings*
+  commentId: Overload:SuperOffice.CRM.Entities.AppointmentMatrix.OnNotifyCentralServicesForVideoMeetings
+  isExternal: true
+  name: OnNotifyCentralServicesForVideoMeetings
+  nameWithType: AppointmentMatrix.OnNotifyCentralServicesForVideoMeetings
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.OnNotifyCentralServicesForVideoMeetings
+- uid: System.Action{System.Boolean}
+  commentId: T:System.Action{System.Boolean}
+  parent: System
+  definition: System.Action`1
+  name: Action<Boolean>
+  nameWithType: Action<Boolean>
+  fullName: System.Action<System.Boolean>
+  nameWithType.vb: Action(Of Boolean)
+  fullName.vb: System.Action(Of System.Boolean)
+  name.vb: Action(Of Boolean)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersist.IsDirty
   commentId: P:SuperOffice.Data.NestedPersist.IsDirty
   parent: SuperOffice.Data.NestedPersist

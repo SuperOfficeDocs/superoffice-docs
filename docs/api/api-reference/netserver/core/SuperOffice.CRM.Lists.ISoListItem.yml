@@ -24,10 +24,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ISoListItem
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nInterface for an MDO list item\n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ISoListItem.Id
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nprimary key\n"
   syntax:
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ISoListItem.Name
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nvisible item name\n"
   syntax:
@@ -110,10 +110,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ISoListItem.Tooltip
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nvisible item tooltip\n"
   syntax:
@@ -138,10 +138,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ISoListItem.Rank
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nitem rank (lowest first in sort order)\n"
   syntax:
@@ -166,10 +166,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ISoListItem.Deleted
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\ndeleted flag (deleted if true)\n"
   syntax:
@@ -194,10 +194,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ISoListItem.Type
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nitem type, interpretation depends on list\n"
   syntax:
@@ -222,10 +222,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ISoListItem.Color
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nitem colour\n"
   syntax:
@@ -250,10 +250,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ISoListItem.IconHint
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nsuggested item icon\n"
   syntax:
@@ -278,10 +278,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ISoListItem.StyleHint
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nsuggested style\n"
   syntax:
@@ -306,10 +306,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ISoListItem.ExtraInfo
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nextra information that depends on the type of item; the documentation for each Provider will state whether and how this item is used.\n"
   syntax:
@@ -334,10 +334,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ISoListItem.FullName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nThe name of the ListItem in its context\n"
   syntax:

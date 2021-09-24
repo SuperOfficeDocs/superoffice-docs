@@ -20,10 +20,10 @@ items:
   fullName: SuperOffice.Data.TemporaryKeyDomain
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDomains for temporary keys.\nThis Enum is used by:  TemporaryKey.domain\n"
   syntax:
@@ -52,10 +52,10 @@ items:
   fullName: SuperOffice.Data.TemporaryKeyDomain.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown\n"
   syntax:
@@ -80,10 +80,10 @@ items:
   fullName: SuperOffice.Data.TemporaryKeyDomain.MailingRecipient
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Mailing recipient.\n"
   syntax:
@@ -108,10 +108,10 @@ items:
   fullName: SuperOffice.Data.TemporaryKeyDomain.FormSubmitterRecipient
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Form submission recipient\n"
   syntax:
@@ -136,10 +136,10 @@ items:
   fullName: SuperOffice.Data.TemporaryKeyDomain.ViewTicketInCustomerCenter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: View request in customer center\n"
   syntax:
@@ -164,10 +164,10 @@ items:
   fullName: SuperOffice.Data.TemporaryKeyDomain.LoginCustomerCenter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Customer center login key\n"
   syntax:
@@ -192,10 +192,10 @@ items:
   fullName: SuperOffice.Data.TemporaryKeyDomain.PublicFaq
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Customer center public faq key\n"
   syntax:
@@ -220,10 +220,10 @@ items:
   fullName: SuperOffice.Data.TemporaryKeyDomain.ChangePasswordCustomerCenter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: Customer center change password key\n"
   syntax:

@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.SenderMailMode
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nSender email mode\nThis Enum is used by:  DocTmpl.senderEmailMode\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.SenderMailMode.UseDefaultSender
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Use default sender, saved in template SenderEmailAddress\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.SenderMailMode.UseOurContact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Use persons our contact email address\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.SenderMailMode.UseSupportContact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Use persons support contact.\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.SenderMailMode.UseLoggedInUser
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Use logged in user.\n"
   syntax:

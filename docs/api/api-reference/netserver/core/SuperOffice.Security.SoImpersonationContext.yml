@@ -20,10 +20,10 @@ items:
   fullName: SuperOffice.Security.SoImpersonationContext
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security
   summary: "\nUtility class assisting with impersonation.  Impersonation is only permitted if a system \nuser is logged in using CRM5 username and password and the user that is impersonated is \nan employee or external person.\n"
   syntax:
@@ -66,10 +66,10 @@ items:
   fullName: SuperOffice.Security.SoImpersonationContext.CanImpersonate()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security
   summary: "\nCheck if the currently logged in user is permitted to impersonate.\n"
   syntax:
@@ -97,10 +97,10 @@ items:
   fullName: SuperOffice.Security.SoImpersonationContext.CanImpersonate(SuperOffice.Security.Principal.SoPrincipal)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security
   summary: "\nCheck if the user represented by the provided principle is permitted to impersonate.\n"
   syntax:
@@ -132,13 +132,13 @@ items:
   fullName: SuperOffice.Security.SoImpersonationContext.Impersonate(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security
   summary: "\nImpersonate as the user with the provided user name.  Only users of type System logged in with \nusername and passwords are permitted to impersonate.  Call <xref href=\"SuperOffice.Security.SoImpersonationContext.Dispose\" data-throw-if-not-resolved=\"false\"></xref>\nor <xref href=\"SuperOffice.Security.SoImpersonationContext.Revert\" data-throw-if-not-resolved=\"false\"></xref>.  Impersonation is not supported with remote mode.\n"
-  remarks: "\nImpersonation lives in the thread scope.  Threads executed with the \n<xref href=\"SuperOffice.SoContext.SpawnThread%60%601(SuperOffice.Threading.AsyncOperation%7b%60%600%7d%2c%60%600%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref> or \n<xref href=\"SuperOffice.Threading.ThreadManager.SpawnThread%60%601(SuperOffice.Threading.AsyncOperation%7b%60%600%7d%2c%60%600%2cSystem.String%2cSystem.Boolean%2cSystem.Boolean)\" data-throw-if-not-resolved=\"false\"></xref> \nwill also be executed inside the scope of the impersonated user.\nIt is not permitted to log out using <xref href=\"SuperOffice.SoSession.Close\" data-throw-if-not-resolved=\"false\"></xref> or\nin any other way end the current session like calling \n<xref href=\"SuperOffice.SoSession.Suspend\" data-throw-if-not-resolved=\"false\"></xref> while in a impersonated state.\n"
+  remarks: "\nImpersonation lives in the thread scope.  Threads executed with the \n<xref href=\"SuperOffice.SoContext.SpawnThread%60%601(SuperOffice.Threading.AsyncOperation%7b%60%600%7d%2c%60%600%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref> or \n<xref href=\"SuperOffice.Threading.ThreadManager.SpawnThread%60%601(SuperOffice.Threading.AsyncOperation%7b%60%600%7d%2c%60%600%2cSystem.String%2cSystem.Boolean%2cSystem.Boolean%2cSystem.Boolean)\" data-throw-if-not-resolved=\"false\"></xref> \nwill also be executed inside the scope of the impersonated user.\nIt is not permitted to log out using <xref href=\"SuperOffice.SoSession.Close\" data-throw-if-not-resolved=\"false\"></xref> or\nin any other way end the current session like calling \n<xref href=\"SuperOffice.SoSession.Suspend\" data-throw-if-not-resolved=\"false\"></xref> while in a impersonated state.\n"
   syntax:
     content: public static SoImpersonationContext Impersonate(string user)
     parameters:
@@ -168,10 +168,10 @@ items:
   fullName: SuperOffice.Security.SoImpersonationContext.Revert()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security
   summary: "\nRevert impersonation.\n"
   syntax:
@@ -194,10 +194,10 @@ items:
   fullName: SuperOffice.Security.SoImpersonationContext.Dispose()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security
   summary: "\nDispose of the SoImpersonationContext and implcitly call <xref href=\"SuperOffice.Security.SoImpersonationContext.Revert\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
@@ -222,10 +222,10 @@ items:
   fullName: SuperOffice.Security.SoImpersonationContext.RealPrincipal
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security
   summary: "\nPrinciple of the impersonating user.\n"
   syntax:
@@ -253,10 +253,10 @@ items:
   fullName: SuperOffice.Security.SoImpersonationContext.ImpersonatedPrincipal
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security
   summary: "\nPrincipal of the impersonated user.\n"
   syntax:

@@ -33,10 +33,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Phone
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPhone\n"
   syntax:
@@ -71,10 +71,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:
@@ -100,10 +100,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.DdeData
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDDE Data\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
@@ -129,10 +129,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.DdeItem
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDDE Item\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
@@ -158,10 +158,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.DdeService
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDDE Service\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
@@ -187,10 +187,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.DdeTopic
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDDE Topic\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
@@ -216,10 +216,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.DdeType
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDDE Type\n<p></p>Control type: List, access: Wizard\n"
   syntax:
@@ -245,10 +245,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.DialType
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDial type\n<p></p>Control type: List, access: Wizard\n"
   syntax:
@@ -274,10 +274,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.FormatNumber
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nFormats number\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -303,10 +303,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.LocalAreaCode
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nLocal area code\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
@@ -332,10 +332,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.LongDistancePrefix
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nLong distance prefix\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
@@ -361,10 +361,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.Postfix
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSuffix - e.g. Command to reset your modem\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
@@ -390,10 +390,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.Prefix
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPrefix - e.g. Dial 0 to get an outside line\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
@@ -419,10 +419,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.ProgDir
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nProgram folder\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
@@ -448,10 +448,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.ProgFile
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nProgram file\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
@@ -477,10 +477,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.ProgParam
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nProgram parameter\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
@@ -506,10 +506,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.ReporterDocumentDlgExpanded
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nExpands the Save report dialog by default\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -535,10 +535,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.ReporterDocumentDlgOpenDoc
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nOpens the report after you have saved it in CRM.\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -564,10 +564,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.ReporterLastUsedReport
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nID of the report that was active when you last logged out\n<p></p>Control type: Number, access: Wizard\n"
   syntax:
@@ -593,10 +593,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.EnablePersonalScripts
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nEnable personal scripts in CRM.win\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -622,10 +622,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.EnableScripting
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nEnables scripting in CRM.win\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:

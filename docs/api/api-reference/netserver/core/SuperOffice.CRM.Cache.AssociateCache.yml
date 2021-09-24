@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.Cache.AssociateCache.GetAssociateContact(System.Int32)
   - SuperOffice.CRM.Cache.AssociateCache.GetAssociateContactId(System.Int32)
   - SuperOffice.CRM.Cache.AssociateCache.GetAssociateCountry(System.Int32)
+  - SuperOffice.CRM.Cache.AssociateCache.GetAssociateDateOfBirth(System.Int32)
   - SuperOffice.CRM.Cache.AssociateCache.GetAssociateEjUserId(System.Int32)
   - SuperOffice.CRM.Cache.AssociateCache.GetAssociateEmailId(System.Int32)
   - SuperOffice.CRM.Cache.AssociateCache.GetAssociateFirstName(System.Int32)
@@ -551,6 +552,39 @@ items:
       description: First name of the associate&apos;s person
     content.vb: Public Function GetAssociateFirstName(associateId As Integer) As String
   overload: SuperOffice.CRM.Cache.AssociateCache.GetAssociateFirstName*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Cache.AssociateCache.GetAssociateDateOfBirth(System.Int32)
+  commentId: M:SuperOffice.CRM.Cache.AssociateCache.GetAssociateDateOfBirth(System.Int32)
+  id: GetAssociateDateOfBirth(System.Int32)
+  parent: SuperOffice.CRM.Cache.AssociateCache
+  langs:
+  - csharp
+  - vb
+  name: GetAssociateDateOfBirth(Int32)
+  nameWithType: AssociateCache.GetAssociateDateOfBirth(Int32)
+  fullName: SuperOffice.CRM.Cache.AssociateCache.GetAssociateDateOfBirth(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: "\nGet the date of birth of the associate (from person record that the associate belongs to)\n"
+  syntax:
+    content: public DateTime GetAssociateDateOfBirth(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: Associate to look up
+    return:
+      type: System.DateTime
+      description: Date of birth of the associate&apos;s person
+    content.vb: Public Function GetAssociateDateOfBirth(associateId As Integer) As Date
+  overload: SuperOffice.CRM.Cache.AssociateCache.GetAssociateDateOfBirth*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -2041,6 +2075,19 @@ references:
   name: GetAssociateFirstName
   nameWithType: AssociateCache.GetAssociateFirstName
   fullName: SuperOffice.CRM.Cache.AssociateCache.GetAssociateFirstName
+- uid: SuperOffice.CRM.Cache.AssociateCache.GetAssociateDateOfBirth*
+  commentId: Overload:SuperOffice.CRM.Cache.AssociateCache.GetAssociateDateOfBirth
+  isExternal: true
+  name: GetAssociateDateOfBirth
+  nameWithType: AssociateCache.GetAssociateDateOfBirth
+  fullName: SuperOffice.CRM.Cache.AssociateCache.GetAssociateDateOfBirth
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
 - uid: SuperOffice.CRM.Cache.AssociateCache.GetAssociateEmailId*
   commentId: Overload:SuperOffice.CRM.Cache.AssociateCache.GetAssociateEmailId
   isExternal: true

@@ -20,10 +20,10 @@ items:
   fullName: SuperOffice.Security.Permissions.SoStrongName
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Permissions
   summary: "\nUtility class for dealing with assemblies signed with SuperOffice&apos; Strong Name keys\n"
   syntax:
@@ -62,10 +62,10 @@ items:
   fullName: SuperOffice.Security.Permissions.SoStrongName.PublicKeyString
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Permissions
   summary: "\nPublic part of the strong name signature used to sign SuperOffice&apos; assemblies as a hex-string.\n"
   syntax:
@@ -91,10 +91,10 @@ items:
   fullName: SuperOffice.Security.Permissions.SoStrongName.DemandSuperOfficeSigned(System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Permissions
   summary: "\nDemand that the assembly the type resides in is signed by SuperOffice.\n"
   syntax:
@@ -127,10 +127,10 @@ items:
   fullName: SuperOffice.Security.Permissions.SoStrongName.DemandSuperOfficeSigned(System.Reflection.Assembly)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Permissions
   summary: "\nDemand that the assembly is signed by SuperOffice\n"
   syntax:
@@ -163,10 +163,10 @@ items:
   fullName: SuperOffice.Security.Permissions.SoStrongName.IsSuperOfficeSigned(System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Permissions
   summary: "\nCheck if the type reside in an assembly signed by SuperOffice.\n"
   syntax:
@@ -198,10 +198,10 @@ items:
   fullName: SuperOffice.Security.Permissions.SoStrongName.IsSuperOfficeSigned(System.Reflection.Assembly)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Permissions
   summary: "\nDetermine if the assembly is signed by SuperOffice.\n"
   syntax:
@@ -233,10 +233,10 @@ items:
   fullName: SuperOffice.Security.Permissions.SoStrongName.Permission
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Permissions
   summary: "\nStrongNameIdentityPermission matching the strong name signature used to sign SuperOffice&apos; assemblies.\n"
   syntax:
@@ -266,10 +266,10 @@ items:
   fullName: SuperOffice.Security.Permissions.SoStrongName.PublicKeyBlob
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Permissions
   summary: "\nPublic part of the strong name signature used to sign SuperOffice&apos; assemblies.\n"
   syntax:

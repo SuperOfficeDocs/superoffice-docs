@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.SoDatabaseContext.DatabaseContext
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nClass keeping track of entered and left database context.  Use <xref href=\"SuperOffice.SoDatabaseContext.EnterDatabaseContext(System.String)\" data-throw-if-not-resolved=\"false\"></xref> to enter a database context.\n"
   syntax:
@@ -59,10 +59,10 @@ items:
   fullName: SuperOffice.SoDatabaseContext.DatabaseContext.Dispose()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nDispose the database context to leave the current database context.\n"
   syntax:
@@ -87,10 +87,10 @@ items:
   fullName: SuperOffice.SoDatabaseContext.DatabaseContext.Context
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public SoDatabaseContext Context { get; }

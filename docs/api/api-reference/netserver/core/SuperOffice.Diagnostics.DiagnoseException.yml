@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Diagnostics.DiagnoseException
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nException thrown by the <xref href=\"SuperOffice.Diagnostics.Diagnostic\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
@@ -79,10 +79,10 @@ items:
   fullName: SuperOffice.Diagnostics.DiagnoseException.DiagnoseException(SuperOffice.Diagnostics.Diagnostic)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public DiagnoseException(Diagnostic scaffolder)

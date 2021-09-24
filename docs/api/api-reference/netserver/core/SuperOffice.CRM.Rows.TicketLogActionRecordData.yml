@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Rows.TicketLogActionRecordData.#ctor
   - SuperOffice.CRM.Rows.TicketLogActionRecordData.CustomerId
   - SuperOffice.CRM.Rows.TicketLogActionRecordData.Description
+  - SuperOffice.CRM.Rows.TicketLogActionRecordData.Details
   - SuperOffice.CRM.Rows.TicketLogActionRecordData.LogAction
   - SuperOffice.CRM.Rows.TicketLogActionRecordData.LogWhen
   - SuperOffice.CRM.Rows.TicketLogActionRecordData.MessageId
@@ -294,6 +295,33 @@ items:
     return:
       type: System.String
     content.vb: Public Description As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketLogActionRecordData.Details
+  commentId: F:SuperOffice.CRM.Rows.TicketLogActionRecordData.Details
+  id: Details
+  parent: SuperOffice.CRM.Rows.TicketLogActionRecordData
+  langs:
+  - csharp
+  - vb
+  name: Details
+  nameWithType: TicketLogActionRecordData.Details
+  fullName: SuperOffice.CRM.Rows.TicketLogActionRecordData.Details
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nField for storing details of the log action as e.g. JSON \n"
+  syntax:
+    content: public string Details
+    return:
+      type: System.String
+    content.vb: Public Details As String
   modifiers.csharp:
   - public
   modifiers.vb:

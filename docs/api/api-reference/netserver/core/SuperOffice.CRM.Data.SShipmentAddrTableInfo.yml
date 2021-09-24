@@ -6,7 +6,10 @@ items:
   parent: SuperOffice.CRM.Data
   children:
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.Address
+  - SuperOffice.CRM.Data.SShipmentAddrTableInfo.BounceCode
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.BounceReason
+  - SuperOffice.CRM.Data.SShipmentAddrTableInfo.BounceReasontag
+  - SuperOffice.CRM.Data.SShipmentAddrTableInfo.Cleaned
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.ContactId
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.ContactId_InnerJoin_Contact
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.CustomerId
@@ -14,6 +17,8 @@ items:
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.Definition
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.DictionaryTableName
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.SShipmentAddrTableInfo.FormSubmissionId
+  - SuperOffice.CRM.Data.SShipmentAddrTableInfo.FormSubmissionId_InnerJoin_FormSubmission
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.LeftOuterJoin_FormSubmission_ResponseShipmentAddrId
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.Name
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.RuntimeDefinition
@@ -638,6 +643,130 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.FormSubmissionId
+  commentId: P:SuperOffice.CRM.Data.SShipmentAddrTableInfo.FormSubmissionId
+  id: FormSubmissionId
+  parent: SuperOffice.CRM.Data.SShipmentAddrTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FormSubmissionId
+  nameWithType: SShipmentAddrTableInfo.FormSubmissionId
+  fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo.FormSubmissionId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;form_submission_id&apos; in table &apos;s_shipment_addr&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIf this mailing recipient is created from a form submission, this will contain a reference to that submission\n"
+  syntax:
+    content: public Int32FieldInfo FormSubmissionId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property FormSubmissionId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.SShipmentAddrTableInfo.FormSubmissionId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.BounceCode
+  commentId: P:SuperOffice.CRM.Data.SShipmentAddrTableInfo.BounceCode
+  id: BounceCode
+  parent: SuperOffice.CRM.Data.SShipmentAddrTableInfo
+  langs:
+  - csharp
+  - vb
+  name: BounceCode
+  nameWithType: SShipmentAddrTableInfo.BounceCode
+  fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo.BounceCode
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;bounce_code&apos; in table &apos;s_shipment_addr&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIf this recipient bounced and we have a bounce code, this field will contain the code\n"
+  syntax:
+    content: public Int32FieldInfo BounceCode { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property BounceCode As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.SShipmentAddrTableInfo.BounceCode*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.BounceReasontag
+  commentId: P:SuperOffice.CRM.Data.SShipmentAddrTableInfo.BounceReasontag
+  id: BounceReasontag
+  parent: SuperOffice.CRM.Data.SShipmentAddrTableInfo
+  langs:
+  - csharp
+  - vb
+  name: BounceReasontag
+  nameWithType: SShipmentAddrTableInfo.BounceReasontag
+  fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo.BounceReasontag
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;bounce_reasontag&apos; in table &apos;s_shipment_addr&apos;: Dictionary type String[4001], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIf this recipient bounced and we have a bounce reason, this field will contain the reason\n"
+  syntax:
+    content: public StringFieldInfo BounceReasontag { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property BounceReasontag As StringFieldInfo
+  overload: SuperOffice.CRM.Data.SShipmentAddrTableInfo.BounceReasontag*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.Cleaned
+  commentId: P:SuperOffice.CRM.Data.SShipmentAddrTableInfo.Cleaned
+  id: Cleaned
+  parent: SuperOffice.CRM.Data.SShipmentAddrTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Cleaned
+  nameWithType: SShipmentAddrTableInfo.Cleaned
+  fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo.Cleaned
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;cleaned&apos; in table &apos;s_shipment_addr&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nUsed for indicating that a bounced recipient row has been cleaned, and now will not be presented again in the cleaning list\n"
+  syntax:
+    content: public UInt16FieldInfo Cleaned { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property Cleaned As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.SShipmentAddrTableInfo.Cleaned*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.ShipmentId_InnerJoin_SShipment
   commentId: P:SuperOffice.CRM.Data.SShipmentAddrTableInfo.ShipmentId_InnerJoin_SShipment
   id: ShipmentId_InnerJoin_SShipment
@@ -756,6 +885,37 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ContactTableInfo}
     content.vb: Public ReadOnly Property ContactId_InnerJoin_Contact As TargetedInnerJoin(Of ContactTableInfo)
   overload: SuperOffice.CRM.Data.SShipmentAddrTableInfo.ContactId_InnerJoin_Contact*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.FormSubmissionId_InnerJoin_FormSubmission
+  commentId: P:SuperOffice.CRM.Data.SShipmentAddrTableInfo.FormSubmissionId_InnerJoin_FormSubmission
+  id: FormSubmissionId_InnerJoin_FormSubmission
+  parent: SuperOffice.CRM.Data.SShipmentAddrTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FormSubmissionId_InnerJoin_FormSubmission
+  nameWithType: SShipmentAddrTableInfo.FormSubmissionId_InnerJoin_FormSubmission
+  fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo.FormSubmissionId_InnerJoin_FormSubmission
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key FormSubmissionId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.FormSubmissionTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<FormSubmissionTableInfo> FormSubmissionId_InnerJoin_FormSubmission { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.FormSubmissionTableInfo}
+    content.vb: Public ReadOnly Property FormSubmissionId_InnerJoin_FormSubmission As TargetedInnerJoin(Of FormSubmissionTableInfo)
+  overload: SuperOffice.CRM.Data.SShipmentAddrTableInfo.FormSubmissionId_InnerJoin_FormSubmission*
   modifiers.csharp:
   - public
   - get
@@ -1732,6 +1892,37 @@ references:
   name: BounceReason
   nameWithType: SShipmentAddrTableInfo.BounceReason
   fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo.BounceReason
+- uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.FormSubmissionId*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentAddrTableInfo.FormSubmissionId
+  isExternal: true
+  name: FormSubmissionId
+  nameWithType: SShipmentAddrTableInfo.FormSubmissionId
+  fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo.FormSubmissionId
+- uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.BounceCode*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentAddrTableInfo.BounceCode
+  isExternal: true
+  name: BounceCode
+  nameWithType: SShipmentAddrTableInfo.BounceCode
+  fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo.BounceCode
+- uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.BounceReasontag*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentAddrTableInfo.BounceReasontag
+  isExternal: true
+  name: BounceReasontag
+  nameWithType: SShipmentAddrTableInfo.BounceReasontag
+  fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo.BounceReasontag
+- uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.Cleaned*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentAddrTableInfo.Cleaned
+  isExternal: true
+  name: Cleaned
+  nameWithType: SShipmentAddrTableInfo.Cleaned
+  fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo.Cleaned
+- uid: SuperOffice.Data.SQL.UInt16FieldInfo
+  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: UInt16FieldInfo
+  nameWithType: UInt16FieldInfo
+  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
 - uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.ShipmentId_InnerJoin_SShipment*
   commentId: Overload:SuperOffice.CRM.Data.SShipmentAddrTableInfo.ShipmentId_InnerJoin_SShipment
   isExternal: true
@@ -1967,6 +2158,56 @@ references:
     name: ContactTableInfo
     nameWithType: ContactTableInfo
     fullName: SuperOffice.CRM.Data.ContactTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.FormSubmissionId_InnerJoin_FormSubmission*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentAddrTableInfo.FormSubmissionId_InnerJoin_FormSubmission
+  isExternal: true
+  name: FormSubmissionId_InnerJoin_FormSubmission
+  nameWithType: SShipmentAddrTableInfo.FormSubmissionId_InnerJoin_FormSubmission
+  fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo.FormSubmissionId_InnerJoin_FormSubmission
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.FormSubmissionTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.FormSubmissionTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<FormSubmissionTableInfo>
+  nameWithType: TargetedInnerJoin<FormSubmissionTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.FormSubmissionTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of FormSubmissionTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.FormSubmissionTableInfo)
+  name.vb: TargetedInnerJoin(Of FormSubmissionTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.FormSubmissionTableInfo
+    name: FormSubmissionTableInfo
+    nameWithType: FormSubmissionTableInfo
+    fullName: SuperOffice.CRM.Data.FormSubmissionTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.FormSubmissionTableInfo
+    name: FormSubmissionTableInfo
+    nameWithType: FormSubmissionTableInfo
+    fullName: SuperOffice.CRM.Data.FormSubmissionTableInfo
     isExternal: true
   - name: )
     nameWithType: )

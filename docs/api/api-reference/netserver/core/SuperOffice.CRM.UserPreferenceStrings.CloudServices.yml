@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.CloudServices
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreferences for Cloud Services. \n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.CloudServices.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:
@@ -83,10 +83,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.CloudServices.EnableGoogle
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nBool preference enabling google credentials and document plugin\n"
   syntax:
@@ -112,10 +112,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.CloudServices.EnableOffice365
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nBool preference enabling Office 365 credentials and document plugin\n"
   syntax:

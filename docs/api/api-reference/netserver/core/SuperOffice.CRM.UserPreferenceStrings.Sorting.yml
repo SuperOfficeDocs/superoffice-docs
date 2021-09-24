@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sorting
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSorting\n"
   syntax:
@@ -55,10 +55,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sorting.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:
@@ -84,10 +84,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sorting.SortingAssociates
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nThe display format and sort order of associates in lists (e.g. Last name, First name or First name Last name)\n<p></p>Control type: List, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -113,10 +113,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sorting.SortingLists
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nThe display format and sort order of items in lists (e.g. name or rank)\n<p></p>Control type: List, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -142,10 +142,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Sorting.SortingPersons
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nThe display format and sort order of contacts in lists (e.g. Last name, First name or First name Last name)\n<p></p>Control type: List, access: Admin, Crm, Admin users, Wizard\n"
   syntax:

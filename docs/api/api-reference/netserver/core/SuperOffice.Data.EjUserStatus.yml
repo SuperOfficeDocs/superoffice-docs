@@ -20,10 +20,10 @@ items:
   fullName: SuperOffice.Data.EjUserStatus
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n\n"
   syntax:
@@ -52,10 +52,10 @@ items:
   fullName: SuperOffice.Data.EjUserStatus.StatusNone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: \n"
   syntax:
@@ -80,10 +80,10 @@ items:
   fullName: SuperOffice.Data.EjUserStatus.StatusNormal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: \n"
   syntax:
@@ -108,10 +108,10 @@ items:
   fullName: SuperOffice.Data.EjUserStatus.StatusNotAvailable
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: \n"
   syntax:
@@ -136,10 +136,10 @@ items:
   fullName: SuperOffice.Data.EjUserStatus.StatusDeleted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: \n"
   syntax:
@@ -164,10 +164,10 @@ items:
   fullName: SuperOffice.Data.EjUserStatus.StatusReadOnly
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: \n"
   syntax:
@@ -192,10 +192,10 @@ items:
   fullName: SuperOffice.Data.EjUserStatus.StatusSpm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: \n"
   syntax:
@@ -220,10 +220,10 @@ items:
   fullName: SuperOffice.Data.EjUserStatus.StatusSystem
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n127: \n"
   syntax:

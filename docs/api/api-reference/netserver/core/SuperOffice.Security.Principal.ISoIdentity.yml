@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Security.Principal.ISoIdentity
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nIdentity interface supporting SuperOffice Authentication\n"
   syntax:
@@ -55,10 +55,10 @@ items:
   fullName: SuperOffice.Security.Principal.ISoIdentity.Associate
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nSuperOffice user name.\n"
   syntax:
@@ -84,10 +84,10 @@ items:
   fullName: SuperOffice.Security.Principal.ISoIdentity.AssociateId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nPrimary key of the user in the database.\n"
   syntax:
@@ -113,10 +113,10 @@ items:
   fullName: SuperOffice.Security.Principal.ISoIdentity.InnerIdentity
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nInner identity resulting in the SuperOffice Identity\n"
   syntax:
@@ -142,10 +142,10 @@ items:
   fullName: SuperOffice.Security.Principal.ISoIdentity.SoAuthenticationType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nType of Authentication.  3rd party Authenticators should \nreturn <xref href=\"SuperOffice.Security.Principal.SoAuthenticationType.Delegated\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
@@ -171,10 +171,10 @@ items:
   fullName: SuperOffice.Security.Principal.ISoIdentity.Source
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nSource for this Identity\n"
   syntax:
@@ -200,10 +200,10 @@ items:
   fullName: SuperOffice.Security.Principal.ISoIdentity.ProvidedCredentials
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe credentials used to authenticate this user.\n"
   syntax:

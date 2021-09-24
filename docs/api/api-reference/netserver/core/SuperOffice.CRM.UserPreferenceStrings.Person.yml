@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Person
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPerson preferences\n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Person.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:
@@ -83,10 +83,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Person.SkipFormerEmployees
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould navigator search and steppers skip retired persons\n"
   syntax:
@@ -112,10 +112,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Person.ShowActionButtons
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould person card header show the action buttons\n"
   syntax:

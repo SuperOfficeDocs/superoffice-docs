@@ -31,10 +31,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGDPR - Misc\n"
   syntax:
@@ -69,10 +69,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public const string Section = "GDPR"
@@ -97,10 +97,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultSource
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault source key for new persons\n"
   syntax:
@@ -126,10 +126,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultSourceKey_HardDefault
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nHard Default source key for new persons\n"
   syntax:
@@ -155,10 +155,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultLegalBase
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault legal base for new persons.\n"
   syntax:
@@ -184,10 +184,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultLegalBaseKey_HardDefault
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nHard Default legal base for new persons.\n"
   syntax:
@@ -213,10 +213,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.UseDefaultsForNew
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nUse defaults when storing new person    \n"
   syntax:
@@ -242,10 +242,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.UseDefaultsForNew_HardDefault
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nHard Default for Use defaults when storing new person\n"
   syntax:
@@ -271,10 +271,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultEmailTemplate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault email template for sending to new persons stored in the data base.\n"
   syntax:
@@ -300,10 +300,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.UseDefaultEmailTemplate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault email template for sending to new persons stored in the data base.\n"
   syntax:
@@ -329,10 +329,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_ConsentPurposeKey
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nConsentPurpose key to use when turning OFF mailings.\n"
   syntax:
@@ -358,10 +358,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_ConsentPurposeKey_HardDefault
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nHard default for NoMailings_ConsentPurposeKey\n"
   syntax:
@@ -387,10 +387,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_LegalBaseKey
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nLegalBase key to use when turning OFF mailings.\n"
   syntax:
@@ -416,10 +416,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_LegalBaseKey_HardDefault
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nHard default for NoMailings_LegalBaseKey\n"
   syntax:
@@ -445,10 +445,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_ConsentSourceKey
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nConsentSource key to use when turning OFF mailings.\n"
   syntax:
@@ -474,10 +474,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_ConsentSourceKey_HardDefault
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nHard default for oMailings_ConsentSourceKey\n"
   syntax:
@@ -503,10 +503,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.ImportLegalBase
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nLegal base set for consent on imported persons\n"
   syntax:
@@ -532,10 +532,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.ImportConsentSource
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nConsent source set for consent on imported persons\n"
   syntax:
@@ -561,10 +561,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.ImportConsentComment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nConsent source set for consent on imported persons\n"
   syntax:

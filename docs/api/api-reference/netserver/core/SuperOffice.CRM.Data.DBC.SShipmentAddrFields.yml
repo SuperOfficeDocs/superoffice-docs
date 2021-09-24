@@ -6,9 +6,13 @@ items:
   parent: SuperOffice.CRM.Data
   children:
   - SuperOffice.CRM.Data.DBC.SShipmentAddrFields.Address
+  - SuperOffice.CRM.Data.DBC.SShipmentAddrFields.BounceCode
   - SuperOffice.CRM.Data.DBC.SShipmentAddrFields.BounceReason
+  - SuperOffice.CRM.Data.DBC.SShipmentAddrFields.BounceReasontag
+  - SuperOffice.CRM.Data.DBC.SShipmentAddrFields.Cleaned
   - SuperOffice.CRM.Data.DBC.SShipmentAddrFields.ContactId
   - SuperOffice.CRM.Data.DBC.SShipmentAddrFields.CustomerId
+  - SuperOffice.CRM.Data.DBC.SShipmentAddrFields.FormSubmissionId
   - SuperOffice.CRM.Data.DBC.SShipmentAddrFields.Name
   - SuperOffice.CRM.Data.DBC.SShipmentAddrFields.SenderNr
   - SuperOffice.CRM.Data.DBC.SShipmentAddrFields.SendingTime
@@ -423,6 +427,122 @@ items:
     return:
       type: System.String
     content.vb: Public Const BounceReason As String = "bounce_reason"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SShipmentAddrFields.FormSubmissionId
+  commentId: F:SuperOffice.CRM.Data.DBC.SShipmentAddrFields.FormSubmissionId
+  id: FormSubmissionId
+  parent: SuperOffice.CRM.Data.DBC.SShipmentAddrFields
+  langs:
+  - csharp
+  - vb
+  name: FormSubmissionId
+  nameWithType: DBC.SShipmentAddrFields.FormSubmissionId
+  fullName: SuperOffice.CRM.Data.DBC.SShipmentAddrFields.FormSubmissionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSShipmentAddr.FormSubmissionId: If this mailing recipient is created from a form submission, this will contain a reference to that submission\n"
+  syntax:
+    content: public const string FormSubmissionId = "form_submission_id"
+    return:
+      type: System.String
+    content.vb: Public Const FormSubmissionId As String = "form_submission_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SShipmentAddrFields.BounceCode
+  commentId: F:SuperOffice.CRM.Data.DBC.SShipmentAddrFields.BounceCode
+  id: BounceCode
+  parent: SuperOffice.CRM.Data.DBC.SShipmentAddrFields
+  langs:
+  - csharp
+  - vb
+  name: BounceCode
+  nameWithType: DBC.SShipmentAddrFields.BounceCode
+  fullName: SuperOffice.CRM.Data.DBC.SShipmentAddrFields.BounceCode
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSShipmentAddr.BounceCode: If this recipient bounced and we have a bounce code, this field will contain the code\n"
+  syntax:
+    content: public const string BounceCode = "bounce_code"
+    return:
+      type: System.String
+    content.vb: Public Const BounceCode As String = "bounce_code"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SShipmentAddrFields.BounceReasontag
+  commentId: F:SuperOffice.CRM.Data.DBC.SShipmentAddrFields.BounceReasontag
+  id: BounceReasontag
+  parent: SuperOffice.CRM.Data.DBC.SShipmentAddrFields
+  langs:
+  - csharp
+  - vb
+  name: BounceReasontag
+  nameWithType: DBC.SShipmentAddrFields.BounceReasontag
+  fullName: SuperOffice.CRM.Data.DBC.SShipmentAddrFields.BounceReasontag
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSShipmentAddr.BounceReasontag: If this recipient bounced and we have a bounce reason, this field will contain the reason\n"
+  syntax:
+    content: public const string BounceReasontag = "bounce_reasontag"
+    return:
+      type: System.String
+    content.vb: Public Const BounceReasontag As String = "bounce_reasontag"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SShipmentAddrFields.Cleaned
+  commentId: F:SuperOffice.CRM.Data.DBC.SShipmentAddrFields.Cleaned
+  id: Cleaned
+  parent: SuperOffice.CRM.Data.DBC.SShipmentAddrFields
+  langs:
+  - csharp
+  - vb
+  name: Cleaned
+  nameWithType: DBC.SShipmentAddrFields.Cleaned
+  fullName: SuperOffice.CRM.Data.DBC.SShipmentAddrFields.Cleaned
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSShipmentAddr.Cleaned: Used for indicating that a bounced recipient row has been cleaned, and now will not be presented again in the cleaning list\n"
+  syntax:
+    content: public const string Cleaned = "cleaned"
+    return:
+      type: System.String
+    content.vb: Public Const Cleaned As String = "cleaned"
   modifiers.csharp:
   - public
   - const

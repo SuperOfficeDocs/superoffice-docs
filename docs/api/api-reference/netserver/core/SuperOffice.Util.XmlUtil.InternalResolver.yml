@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Util.XmlUtil.InternalResolver
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nXmlResolver subclass that resolves uri&apos;s to corresponding xml nodes without\ngoing through temporary files. \n"
   syntax:
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.Util.XmlUtil.InternalResolver.GetEntity(System.Uri, System.String, System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nResolve an URI, override from base class. If the last part of the uri matches the name of\nan element passed to the constructor, this element is returned; otherwise null.\n"
   syntax:
@@ -92,10 +92,10 @@ items:
   fullName: SuperOffice.Util.XmlUtil.InternalResolver.InternalResolver(System.Collections.Generic.KeyValuePair<System.String, System.Xml.XmlNode>[])
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConstruct a resolver and set its content. This is equivalent to passing an empty parameter list\nand calling the Add method.\n"
   example:
@@ -127,10 +127,10 @@ items:
   fullName: SuperOffice.Util.XmlUtil.InternalResolver.Add(System.Collections.Generic.KeyValuePair<System.String, System.Xml.XmlNode>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdd a name / XmlNode element to those handled by this resolver instance\n"
   syntax:
@@ -160,10 +160,10 @@ items:
   fullName: SuperOffice.Util.XmlUtil.InternalResolver.Credentials
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nRequired override, does nothing\n"
   syntax:

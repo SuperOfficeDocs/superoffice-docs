@@ -36,11 +36,11 @@ items:
   - System.Object
   derivedClasses:
   - SuperOffice.CRM.Cache.AssociateCache
-  - SuperOffice.CRM.Cache.ConsentCache
   - SuperOffice.CRM.Cache.ExtraFieldsCache
   - SuperOffice.CRM.Cache.ExtraTablesCache
   - SuperOffice.CRM.Cache.SystemEventCache
   - SuperOffice.CRM.Entities.SaintConfigurationCache
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase
   - SuperOffice.CRM.Security.SentryPreferenceCache
   implements:
   - SuperOffice.Data.Cache.IFlushable

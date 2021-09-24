@@ -36,42 +36,24 @@ references:
   name: AppointmentPreviewPlugin
   nameWithType: AppointmentPreviewPlugin
   fullName: SuperOffice.CRM.Previews.AppointmentPreviewPlugin
-- uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
-  commentId: T:SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
-  isExternal: true
-  name: QuickReplyPreviewPlugin
-  nameWithType: QuickReplyPreviewPlugin
-  fullName: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
-- uid: SuperOffice.CRM.Previews.ReplyTemplatePreviewPlugin
-  commentId: T:SuperOffice.CRM.Previews.ReplyTemplatePreviewPlugin
-  isExternal: true
-  name: ReplyTemplatePreviewPlugin
-  nameWithType: ReplyTemplatePreviewPlugin
-  fullName: SuperOffice.CRM.Previews.ReplyTemplatePreviewPlugin
-- uid: SuperOffice.CRM.Previews.FaqPreviewPlugin
-  commentId: T:SuperOffice.CRM.Previews.FaqPreviewPlugin
-  isExternal: true
-  name: FaqPreviewPlugin
-  nameWithType: FaqPreviewPlugin
-  fullName: SuperOffice.CRM.Previews.FaqPreviewPlugin
-- uid: SuperOffice.CRM.Previews.DocumentPreviewPlugin
-  commentId: T:SuperOffice.CRM.Previews.DocumentPreviewPlugin
-  isExternal: true
-  name: DocumentPreviewPlugin
-  nameWithType: DocumentPreviewPlugin
-  fullName: SuperOffice.CRM.Previews.DocumentPreviewPlugin
-- uid: SuperOffice.CRM.Previews.ProductPreviewPlugin
-  commentId: T:SuperOffice.CRM.Previews.ProductPreviewPlugin
-  isExternal: true
-  name: ProductPreviewPlugin
-  nameWithType: ProductPreviewPlugin
-  fullName: SuperOffice.CRM.Previews.ProductPreviewPlugin
 - uid: SuperOffice.CRM.Previews.ContactPreviewPlugin
   commentId: T:SuperOffice.CRM.Previews.ContactPreviewPlugin
   isExternal: true
   name: ContactPreviewPlugin
   nameWithType: ContactPreviewPlugin
   fullName: SuperOffice.CRM.Previews.ContactPreviewPlugin
+- uid: SuperOffice.CRM.Previews.DocumentPreviewPlugin
+  commentId: T:SuperOffice.CRM.Previews.DocumentPreviewPlugin
+  isExternal: true
+  name: DocumentPreviewPlugin
+  nameWithType: DocumentPreviewPlugin
+  fullName: SuperOffice.CRM.Previews.DocumentPreviewPlugin
+- uid: SuperOffice.CRM.Previews.FaqPreviewPlugin
+  commentId: T:SuperOffice.CRM.Previews.FaqPreviewPlugin
+  isExternal: true
+  name: FaqPreviewPlugin
+  nameWithType: FaqPreviewPlugin
+  fullName: SuperOffice.CRM.Previews.FaqPreviewPlugin
 - uid: SuperOffice.CRM.Previews.PreviewPluginAttribute
   commentId: T:SuperOffice.CRM.Previews.PreviewPluginAttribute
   parent: SuperOffice.CRM.Previews
@@ -117,6 +99,24 @@ references:
   name: ProjectPreviewPlugin
   nameWithType: ProjectPreviewPlugin
   fullName: SuperOffice.CRM.Previews.ProjectPreviewPlugin
+- uid: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
+  commentId: T:SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
+  isExternal: true
+  name: QuickReplyPreviewPlugin
+  nameWithType: QuickReplyPreviewPlugin
+  fullName: SuperOffice.CRM.Previews.QuickReplyPreviewPlugin
+- uid: SuperOffice.CRM.Previews.ProductPreviewPlugin
+  commentId: T:SuperOffice.CRM.Previews.ProductPreviewPlugin
+  isExternal: true
+  name: ProductPreviewPlugin
+  nameWithType: ProductPreviewPlugin
+  fullName: SuperOffice.CRM.Previews.ProductPreviewPlugin
+- uid: SuperOffice.CRM.Previews.ReplyTemplatePreviewPlugin
+  commentId: T:SuperOffice.CRM.Previews.ReplyTemplatePreviewPlugin
+  isExternal: true
+  name: ReplyTemplatePreviewPlugin
+  nameWithType: ReplyTemplatePreviewPlugin
+  fullName: SuperOffice.CRM.Previews.ReplyTemplatePreviewPlugin
 - uid: SuperOffice.CRM.Previews.SalePreviewPlugin
   commentId: T:SuperOffice.CRM.Previews.SalePreviewPlugin
   isExternal: true

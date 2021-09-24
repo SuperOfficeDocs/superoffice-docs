@@ -22,10 +22,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.FormattedFieldLocal
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\nLocal representation of a formatted field\n"
   syntax:
@@ -65,10 +65,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.FormattedFieldLocal.FormattedFieldLocal(System.String, System.Reflection.PropertyInfo, System.Object, System.String, System.String, System.Int32, SuperOffice.CRM.Globalization.FormattedFieldFlags, System.String, SuperOffice.Data.AddressType)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\n\n"
   syntax:
@@ -110,10 +110,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.FormattedFieldLocal.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\n\n"
   syntax:
@@ -141,10 +141,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.FormattedFieldLocal.Name
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\n\n"
   syntax:
@@ -174,10 +174,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.FormattedFieldLocal.Value
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\n\n"
   syntax:
@@ -207,10 +207,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.FormattedFieldLocal.Tooltip
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\n\n"
   syntax:
@@ -240,10 +240,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.FormattedFieldLocal.Label
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\n\n"
   syntax:
@@ -273,10 +273,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.FormattedFieldLocal.ValueLength
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\n\n"
   syntax:
@@ -306,10 +306,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.FormattedFieldLocal.Flags
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\n\n"
   syntax:
@@ -339,10 +339,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.FormattedFieldLocal.AddressType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\n\n"
   syntax:

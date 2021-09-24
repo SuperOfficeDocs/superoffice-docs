@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.CRM.Services.Util.SerializationHelper
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Util
   summary: "\nUtility class for xml serialization\n"
   syntax:
@@ -58,10 +58,10 @@ items:
   fullName: SuperOffice.CRM.Services.Util.SerializationHelper.xmlSerializers
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Util
   syntax:
     content: public static Dictionary<Type, XmlSerializer> xmlSerializers
@@ -86,10 +86,10 @@ items:
   fullName: SuperOffice.CRM.Services.Util.SerializationHelper.EnterReadXml(System.Xml.XmlReader, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Util
   summary: "\nHelper method for using the <xref href=\"System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
@@ -124,10 +124,10 @@ items:
   fullName: SuperOffice.CRM.Services.Util.SerializationHelper.CreateSerializer(System.Type, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Util
   syntax:
     content: public static XmlSerializer CreateSerializer(Type targetType, string rootElementName)

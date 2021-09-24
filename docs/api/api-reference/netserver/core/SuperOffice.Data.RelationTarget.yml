@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.RelationTarget
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nTarget type of relation. (Contact, person or both)\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.RelationTarget.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: None\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.RelationTarget.Contact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Contact\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.RelationTarget.Person
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Person\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.RelationTarget.Both
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Both\n"
   syntax:

@@ -38,10 +38,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nRestriction types for archive columns. A column can be used as a restriction if it has one of these types; numeric and\ndate values are expected to be either in InvariantCulture format or encoded with the <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.String
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string String = "string"
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.PositiveString
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string PositiveString = "positiveString"
@@ -132,10 +132,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Int
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string Int = "int"
@@ -160,10 +160,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.ListAny
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ListAny = "listAny"
@@ -188,10 +188,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.ListAll
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ListAll = "listAll"
@@ -216,10 +216,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.ListInterest
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ListInterest = "listInterest"
@@ -244,10 +244,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.ListExternal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ListExternal = "listExternal"
@@ -272,10 +272,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Bool
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string Bool = "bool"
@@ -300,10 +300,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Date
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string Date = "date"
@@ -328,10 +328,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.ReporterDate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ReporterDate = "reporterDate"
@@ -356,10 +356,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Datetime
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string Datetime = "datetime"
@@ -384,10 +384,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.UnlimitedDate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string UnlimitedDate = "unlimitedDate"
@@ -412,10 +412,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.TimeSpan
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string TimeSpan = "timeSpan"
@@ -440,10 +440,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.ReporterUnlimitedDate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ReporterUnlimitedDate = "reporterUnlimitedDate"
@@ -468,10 +468,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Decimal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string Decimal = "decimal"
@@ -496,10 +496,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Associate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string Associate = "associate"
@@ -524,10 +524,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.EjUser
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string EjUser = "ejUser"
@@ -552,10 +552,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.SaintStatus
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string SaintStatus = "saintStatus"
@@ -580,10 +580,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.IntArray
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string IntArray = "intArray"
@@ -608,10 +608,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.UserGroup
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string UserGroup = "userGroup"
@@ -636,10 +636,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.StringOrPK
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nSignifies that we either want an ordinary string field, OR the primary key of the strings&apos; table if the isPK operator is used\n"
   syntax:
@@ -665,10 +665,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.Entity
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string Entity = "entity"
@@ -693,10 +693,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.CalendarWeek
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string CalendarWeek = "calendarWeek"
@@ -721,10 +721,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.CalendarMonth
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string CalendarMonth = "calendarMonth"
@@ -749,10 +749,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes.StaticPrefix
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string StaticPrefix = "static"

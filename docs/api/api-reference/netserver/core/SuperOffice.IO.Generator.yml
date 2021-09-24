@@ -36,10 +36,10 @@ items:
   fullName: SuperOffice.IO.Generator
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nBase class for generators for generating documents based on document templates.  This class also contains the interface needed for instantiating a generator.\n"
   example:
@@ -83,10 +83,10 @@ items:
   fullName: SuperOffice.IO.Generator.OptionSkipLtGtTags
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   syntax:
     content: public const string OptionSkipLtGtTags = "SkipLtGtTags"
@@ -111,10 +111,10 @@ items:
   fullName: SuperOffice.IO.Generator.RegExTag
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nRegular expression extracting a tag from a string.  \nUse <pre><code>tag = RegExTag.Match(tag)</code></pre>.\n"
   remarks: "\nThe regular expression expression is formated as &lt;code>(?&lt;=([{&lt;\\u2264]))[a-z][a-z|0-9|?|.|#]{3}(?=[\\x20\\x09]*[}>\\u2265])&lt;/code>\n"
@@ -141,10 +141,10 @@ items:
   fullName: SuperOffice.IO.Generator.SetOption(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   syntax:
     content: public static void SetOption(string option)
@@ -171,10 +171,10 @@ items:
   fullName: SuperOffice.IO.Generator.HasOption(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   syntax:
     content: protected static bool HasOption(string option)
@@ -203,10 +203,10 @@ items:
   fullName: SuperOffice.IO.Generator.Generator(System.IO.Stream, SuperOffice.IO.TagContainer, SuperOffice.Data.GeneratorEncoding)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nProtected constructor used by sub-classes\n"
   syntax:
@@ -239,10 +239,10 @@ items:
   fullName: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream, SuperOffice.IO.TagContainer, SuperOffice.Data.GeneratorEncoding)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nCreate a new instance of the generator.\n"
   example:
@@ -282,10 +282,10 @@ items:
   fullName: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream, SuperOffice.IO.TagContainer, SuperOffice.Data.GeneratorEncoding, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nCreate a new instance of the generator.\n"
   example:
@@ -328,10 +328,10 @@ items:
   fullName: SuperOffice.IO.Generator.GetGenerator(System.String, SuperOffice.IO.TagContainer, SuperOffice.Data.GeneratorEncoding)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nCreate a new instance of the generator.\n"
   syntax:
@@ -365,10 +365,10 @@ items:
   fullName: SuperOffice.IO.Generator.GetGenerator(System.String, SuperOffice.IO.TagContainer, SuperOffice.Data.GeneratorEncoding, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nCreate a new instance of the generator.\n"
   syntax:
@@ -404,10 +404,10 @@ items:
   fullName: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream, SuperOffice.IO.TagContainer, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nCreate a new instance of the generator.\n"
   example:
@@ -447,10 +447,10 @@ items:
   fullName: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream, SuperOffice.IO.TagContainer, System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nCreate a new instance of the generator.\n"
   example:
@@ -493,10 +493,10 @@ items:
   fullName: SuperOffice.IO.Generator.AddExtensionMapping(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nUsed by clients to add template extension mappings.\n"
   syntax:
@@ -528,10 +528,10 @@ items:
   fullName: SuperOffice.IO.Generator.GetEncoding(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nGet encoding type based on a file name.\n"
   remarks: Only the extension of the file name is used to identify encoding.
@@ -564,10 +564,10 @@ items:
   fullName: SuperOffice.IO.Generator.Generate(System.IO.Stream)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nGenerate from the <xref href=\"SuperOffice.IO.Generator.Template\" data-throw-if-not-resolved=\"false\"></xref> to the <see cref=\"!:Output\"></see>.\n<param name=\"output\">Stream to output to</param>\n"
   syntax:
@@ -595,10 +595,10 @@ items:
   fullName: SuperOffice.IO.Generator.Generate()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nGenerate from the <xref href=\"SuperOffice.IO.Generator.Template\" data-throw-if-not-resolved=\"false\"></xref> and return the result as a string.\n"
   syntax:
@@ -624,10 +624,10 @@ items:
   fullName: SuperOffice.IO.Generator.GetDefaultTextEncoding(SuperOffice.Data.GeneratorEncoding)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   syntax:
     content: public static Encoding GetDefaultTextEncoding(GeneratorEncoding ge)
@@ -656,10 +656,10 @@ items:
   fullName: SuperOffice.IO.Generator.GetTagData(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nObtain the value of a tag.\n"
   remarks: The regular expression <xref href="SuperOffice.IO.Generator.RegExTag" data-throw-if-not-resolved="false"></xref> is used to match the tag itself.
@@ -690,10 +690,10 @@ items:
   fullName: SuperOffice.IO.Generator.AddTagRegex(System.Text.RegularExpressions.Regex)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nAdds a new regex used to find tag matches in input files\n"
   syntax:
@@ -720,10 +720,10 @@ items:
   fullName: SuperOffice.IO.Generator.UiCulture
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nCulture used to parse multi language strings\n"
   syntax:
@@ -751,10 +751,10 @@ items:
   fullName: SuperOffice.IO.Generator.Template
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nStream to read the template from.\n"
   syntax:
@@ -782,10 +782,10 @@ items:
   fullName: SuperOffice.IO.Generator.Tags
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nContainer holding all the template tags\n"
   syntax:
@@ -813,10 +813,10 @@ items:
   fullName: SuperOffice.IO.Generator.Encoding
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nEncoding for the template \n"
   syntax:
@@ -844,10 +844,10 @@ items:
   fullName: SuperOffice.IO.Generator.OldEncoding
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nHolds the old encoding. Used if encoding is \nchanged during template substitution\n"
   syntax:

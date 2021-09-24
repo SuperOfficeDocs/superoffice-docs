@@ -26,10 +26,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimerType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nEnumerator describing what kind of task is being timed.\n"
   syntax:
@@ -58,10 +58,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimerType.ServiceMethod
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nMethod in the service layer\n"
   syntax:
@@ -86,10 +86,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimerType.Ajax
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nAjax method dispatched to sm.web\n"
   syntax:
@@ -114,10 +114,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimerType.Aspx
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nAspx web page\n"
   syntax:
@@ -142,10 +142,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimerType.Wcf
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nWcf method\n"
   syntax:
@@ -170,10 +170,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimerType.Thread
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nBackground thread\n"
   syntax:
@@ -198,10 +198,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimerType.ThreadWait
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nWaiting for a trhead to complete\n"
   syntax:
@@ -226,10 +226,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimerType.Initialization
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nInitailization\n"
   syntax:
@@ -254,10 +254,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimerType.BusinessLogic
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nBusiness logic - can be used for general purposs\n"
   syntax:
@@ -282,10 +282,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimerType.Cache
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nLoading of caches\n"
   syntax:
@@ -310,10 +310,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimerType.Database
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nDataabse operations\n"
   syntax:
@@ -338,10 +338,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimerType.MethodCall
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nA generic method call\n"
   syntax:
@@ -366,10 +366,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimerType.SoProtocol
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nSoProtocol event handled by DCF/Module\n"
   syntax:
@@ -394,10 +394,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimerType.Operation
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nAn operation entered as part of enter operation context.\n"
   syntax:

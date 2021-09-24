@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Data.UdefParser
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public static class UdefParser
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.Data.UdefParser.lineMultiplier
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const double lineMultiplier = 1.2352941176470591

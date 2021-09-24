@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Util.HtmlHelper
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nClass which provides HTML-related utility-functions.\n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.Util.HtmlHelper.IsHtml(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nTest if the text looks like it could be HTML. If this function returns false it means the text contains no tags.\n"
   syntax:
@@ -89,10 +89,10 @@ items:
   fullName: SuperOffice.Util.HtmlHelper.GetPlainHTMLBody(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nRetrieve plain text version of a html source\n"
   syntax:
@@ -124,10 +124,10 @@ items:
   fullName: SuperOffice.Util.HtmlHelper.GetHTMLBodyFromPlainText(System.String, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static string GetHTMLBodyFromPlainText(string text, bool fragment = false)

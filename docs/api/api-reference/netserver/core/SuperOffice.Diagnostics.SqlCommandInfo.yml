@@ -22,10 +22,10 @@ items:
   fullName: SuperOffice.Diagnostics.SqlCommandInfo
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public class SqlCommandInfo
@@ -63,10 +63,10 @@ items:
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.SqlCommandInfo()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public SqlCommandInfo()
@@ -88,10 +88,10 @@ items:
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.CommandText
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public string CommandText { get; set; }
@@ -118,10 +118,10 @@ items:
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.Comment
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public string Comment { get; set; }
@@ -148,10 +148,10 @@ items:
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.Origin
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public string Origin { get; set; }
@@ -178,10 +178,10 @@ items:
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.SqlType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public string SqlType { get; set; }
@@ -208,10 +208,10 @@ items:
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.ExecutionTime
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public TimeSpan ExecutionTime { get; set; }
@@ -238,10 +238,10 @@ items:
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.RowsAffected
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public int RowsAffected { get; set; }
@@ -268,10 +268,10 @@ items:
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.Parameters
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public SqlCommandParameterInfo[] Parameters { get; set; }
@@ -298,10 +298,10 @@ items:
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.ExecptionMessage
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public string ExecptionMessage { get; set; }

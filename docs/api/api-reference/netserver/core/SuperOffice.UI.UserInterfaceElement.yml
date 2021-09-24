@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.UI.UserInterfaceElement
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.UI
   summary: "\n\n"
   syntax:
@@ -69,10 +69,10 @@ items:
   fullName: SuperOffice.UI.UserInterfaceElement.UserInterfaceElement()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.UI
   summary: "\n\n"
   syntax:
@@ -95,10 +95,10 @@ items:
   fullName: SuperOffice.UI.UserInterfaceElement.Caption
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.UI
   summary: "\n\n"
   syntax:
@@ -128,10 +128,10 @@ items:
   fullName: SuperOffice.UI.UserInterfaceElement.Position
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.UI
   summary: "\n\n"
   syntax:
@@ -161,10 +161,10 @@ items:
   fullName: SuperOffice.UI.UserInterfaceElement.Size
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.UI
   summary: "\n\n"
   syntax:

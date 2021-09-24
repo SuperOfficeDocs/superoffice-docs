@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.CRM.Services.ServiceMode
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nPrefered mode for Services (used by the class factory)\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.CRM.Services.ServiceMode.Local
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nUse the local implementation of the service\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.CRM.Services.ServiceMode.Remote
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nUse the remote implementation of the service\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.CRM.Services.ServiceMode.Switch
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nUse the switching implementation of the service.\n"
   syntax:

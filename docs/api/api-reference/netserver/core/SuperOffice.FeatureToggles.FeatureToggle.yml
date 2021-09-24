@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.FeatureToggles.FeatureToggle
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.FeatureToggles
   summary: "\nUse this class to ask for the current value of a Feature Toggle, by calling the <xref href=\"SuperOffice.FeatureToggles.FeatureToggle.IsOn%60%601\" data-throw-if-not-resolved=\"false\"></xref> method\n"
   syntax:
@@ -52,10 +52,10 @@ items:
   fullName: SuperOffice.FeatureToggles.FeatureToggle.IsOn<TConcreteToggle>()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.FeatureToggles
   summary: "\nDetermine if a feature toggle is on or off, right now, right here\n"
   remarks: "\nTypical code:\n<pre><code>if (FeatureToggle.IsOn>NewPricelist&lt;())\n{\n	// exciting new code\n}\nelse\n{\n	// whatever we did before, which is the safe option\n}</code></pre>\nThe type passed in as a parameter to IsOn must be an implementation of <xref href=\"SuperOffice.FeatureToggles.IFeatureToggle\" data-throw-if-not-resolved=\"false\"></xref>,\nand God help you if it has not been defined in the global feature toggle assembly in the\n&quot;Common&quot; kind-of-branch, submitted for build, and updated through NuGet.<br />\nThat, and that only, is the correct way of defining Feature Toggles.<br />\nThe actual value is here determined via the <xref href=\"SuperOffice.Configuration.ConfigFile\" data-throw-if-not-resolved=\"false\"></xref>, which opens the \npossibility for overrides via Online/OC. For plain vanilla setting in your web.config or app.config,\ndo as follows: Add the following to your config file in the declaration section:\n<pre><code><sectionGroup name=\"FeatureToggles\">\n<section name=\"State\" type=\"System.Configuration.NameValueSectionHandler, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\"></section>\n</sectionGroup></code></pre>\n<br />Then, in the part of the file where values live (for example, after the Factory\nsection):\n<pre><code><FeatureToggles>\n<State>\n<add key=\"NewPricelist\" value=\"True\"></add>\n</State>\n</FeatureToggles></code></pre>\n\n"

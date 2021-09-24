@@ -12,6 +12,7 @@ items:
   - SuperOffice.CRM.Rows.DocumentRecordData.Attention
   - SuperOffice.CRM.Rows.DocumentRecordData.DocumentId
   - SuperOffice.CRM.Rows.DocumentRecordData.Extref
+  - SuperOffice.CRM.Rows.DocumentRecordData.ExtUrl
   - SuperOffice.CRM.Rows.DocumentRecordData.Header
   - SuperOffice.CRM.Rows.DocumentRecordData.Name
   - SuperOffice.CRM.Rows.DocumentRecordData.OurRef
@@ -602,6 +603,33 @@ items:
     return:
       type: System.Int32
     content.vb: Public Snum As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DocumentRecordData.ExtUrl
+  commentId: F:SuperOffice.CRM.Rows.DocumentRecordData.ExtUrl
+  id: ExtUrl
+  parent: SuperOffice.CRM.Rows.DocumentRecordData
+  langs:
+  - csharp
+  - vb
+  name: ExtUrl
+  nameWithType: DocumentRecordData.ExtUrl
+  fullName: SuperOffice.CRM.Rows.DocumentRecordData.ExtUrl
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFor DocPlugin-internal use only. Used to optionally cache URL of external documents. \n"
+  syntax:
+    content: public string ExtUrl
+    return:
+      type: System.String
+    content.vb: Public ExtUrl As String
   modifiers.csharp:
   - public
   modifiers.vb:

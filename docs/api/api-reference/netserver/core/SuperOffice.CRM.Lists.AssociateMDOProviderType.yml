@@ -12,6 +12,7 @@ items:
   - SuperOffice.CRM.Lists.AssociateMDOProviderType.QuoteApprovers
   - SuperOffice.CRM.Lists.AssociateMDOProviderType.Resource
   - SuperOffice.CRM.Lists.AssociateMDOProviderType.ServiceAssociates
+  - SuperOffice.CRM.Lists.AssociateMDOProviderType.VisibleForAssociatesAndGroups
   langs:
   - csharp
   - vb
@@ -220,6 +221,33 @@ items:
   namespace: SuperOffice.CRM.Lists
   syntax:
     content: ServiceAssociates = 6
+    return:
+      type: SuperOffice.CRM.Lists.AssociateMDOProviderType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderType.VisibleForAssociatesAndGroups
+  commentId: F:SuperOffice.CRM.Lists.AssociateMDOProviderType.VisibleForAssociatesAndGroups
+  id: VisibleForAssociatesAndGroups
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderType
+  langs:
+  - csharp
+  - vb
+  name: VisibleForAssociatesAndGroups
+  nameWithType: AssociateMDOProviderType.VisibleForAssociatesAndGroups
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderType.VisibleForAssociatesAndGroups
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: VisibleForAssociatesAndGroups = 7
     return:
       type: SuperOffice.CRM.Lists.AssociateMDOProviderType
   modifiers.csharp:

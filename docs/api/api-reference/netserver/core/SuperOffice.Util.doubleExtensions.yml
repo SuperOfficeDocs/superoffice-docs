@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Util.doubleExtensions
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static class doubleExtensions
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.Util.doubleExtensions.IsNaN(System.Double)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static bool IsNaN(this double me)
@@ -90,10 +90,10 @@ items:
   fullName: SuperOffice.Util.doubleExtensions.IsMinValue(System.Double)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static bool IsMinValue(this double me)
@@ -126,10 +126,10 @@ items:
   fullName: SuperOffice.Util.doubleExtensions.IsFilledIn(System.Double)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static bool IsFilledIn(this double me)

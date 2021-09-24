@@ -21,10 +21,10 @@ items:
   fullName: SuperOffice.ApplicationDomain.SoRemoteLoader
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.ApplicationDomain
   summary: "\nThe remote loader handles calling into a remote <xref href=\"System.AppDomain\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
@@ -69,10 +69,10 @@ items:
   fullName: SuperOffice.ApplicationDomain.SoRemoteLoader._typeList
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.ApplicationDomain
   syntax:
     content: protected ArrayList _typeList
@@ -95,10 +95,10 @@ items:
   fullName: SuperOffice.ApplicationDomain.SoRemoteLoader._assemblyList
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.ApplicationDomain
   syntax:
     content: protected ArrayList _assemblyList
@@ -121,10 +121,10 @@ items:
   fullName: SuperOffice.ApplicationDomain.SoRemoteLoader.CallStaticMethod(System.String, System.String, System.Type[], System.Object[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.ApplicationDomain
   summary: "\nReturns the result of a static method call\n"
   syntax:
@@ -165,10 +165,10 @@ items:
   fullName: SuperOffice.ApplicationDomain.SoRemoteLoader.CallStaticMethodByRefParams(System.String, System.String, System.Type[], ref System.Object[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.ApplicationDomain
   summary: "\nReturns the result of a static method call\n"
   syntax:
@@ -209,10 +209,10 @@ items:
   fullName: SuperOffice.ApplicationDomain.SoRemoteLoader.CreateInstance(System.String, System.Reflection.BindingFlags, System.Object[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.ApplicationDomain
   summary: "\nReturns a proxy to an instance of the specified plugin type\n"
   syntax:
@@ -251,10 +251,10 @@ items:
   fullName: SuperOffice.ApplicationDomain.SoRemoteLoader.LoadAssembly(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.ApplicationDomain
   summary: "\nLoads the assembly into the remote domain\n"
   syntax:
@@ -281,10 +281,10 @@ items:
   fullName: SuperOffice.ApplicationDomain.SoRemoteLoader.InitializeLifetimeService()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.ApplicationDomain
   syntax:
     content: public override object InitializeLifetimeService()
@@ -311,10 +311,10 @@ items:
   fullName: SuperOffice.ApplicationDomain.SoRemoteLoader.SoRemoteLoader()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.ApplicationDomain
   syntax:
     content: public SoRemoteLoader()

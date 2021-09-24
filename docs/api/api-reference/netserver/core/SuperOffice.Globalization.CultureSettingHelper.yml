@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Globalization.CultureSettingHelper
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Globalization
   summary: "\nContext class that will remember the current culture settings, and reset them\nwhen it is disposed.\n"
   example:
@@ -69,10 +69,10 @@ items:
   fullName: SuperOffice.Globalization.CultureSettingHelper.CultureSettingHelper()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Globalization
   summary: "\nSave the current culture settings, and do not change them\n"
   syntax:
@@ -95,10 +95,10 @@ items:
   fullName: SuperOffice.Globalization.CultureSettingHelper.CultureSettingHelper(System.Globalization.CultureInfo)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Globalization
   summary: "\nSave the current culture settings, and set both the CurrentCulture and CurrentUICulture \non the current thread to the new value.\n"
   syntax:
@@ -125,10 +125,10 @@ items:
   fullName: SuperOffice.Globalization.CultureSettingHelper.CultureSettingHelper(System.Globalization.CultureInfo, System.Globalization.CultureInfo)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Globalization
   summary: "\nSave the current culture settings, and set both the CurrentCulture and CurrentUICulture \non the current thread to the new values.\n"
   syntax:
@@ -158,10 +158,10 @@ items:
   fullName: SuperOffice.Globalization.CultureSettingHelper.CultureSettingHelper(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Globalization
   summary: "\nSave the current culture settings, and set both the CurrentCulture and CurrentUICulture \non the current thread to the new value.\n"
   syntax:
@@ -187,10 +187,10 @@ items:
   fullName: SuperOffice.Globalization.CultureSettingHelper.CultureSettingHelper(System.String, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Globalization
   summary: "\nSave the current culture settings, and set both the CurrentCulture and CurrentUICulture \non the current thread to the new values.\n"
   syntax:
@@ -218,10 +218,10 @@ items:
   fullName: SuperOffice.Globalization.CultureSettingHelper.Dispose()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Globalization
   summary: "\nReset the culture to the saved settings\n"
   syntax:

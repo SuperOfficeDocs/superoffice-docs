@@ -5,13 +5,9 @@ items:
   id: ShipmentTypeCache
   parent: SuperOffice.CRM.Cache
   children:
-  - SuperOffice.CRM.Cache.ShipmentTypeCache.AddRow(SuperOffice.CRM.Rows.ShipmentTypeRow)
-  - SuperOffice.CRM.Cache.ShipmentTypeCache.FetchRows
-  - SuperOffice.CRM.Cache.ShipmentTypeCache.GetCachedTableNumbers
   - SuperOffice.CRM.Cache.ShipmentTypeCache.GetCurrent
-  - SuperOffice.CRM.Cache.ShipmentTypeCache.GetRowFromName(System.String)
-  - SuperOffice.CRM.Cache.ShipmentTypeCache.GetRows
-  - SuperOffice.CRM.Cache.ShipmentTypeCache.OnFlush
+  - SuperOffice.CRM.Cache.ShipmentTypeCache.GetShipmentTypes
+  - SuperOffice.CRM.Cache.ShipmentTypeCache.OnLoad
   langs:
   - csharp
   - vb
@@ -25,46 +21,29 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
-  summary: "\nCahce holding information about Shipment types\n"
+  summary: "\nCache holding information about Shipment types\n"
   syntax:
-    content: 'public class ShipmentTypeCache : RowCacheBase<ShipmentTypeRow>, IDisposable, IFlushable'
+    content: >-
+      [CacheV2("Database")]
+
+      public class ShipmentTypeCache : CacheBaseV2, IFlushableV2, IDisposable
     content.vb: >-
+      <CacheV2("Database")>
+
       Public Class ShipmentTypeCache
-          Inherits RowCacheBase(Of ShipmentTypeRow)
-          Implements IDisposable, IFlushable
+          Inherits CacheBaseV2
+          Implements IFlushableV2, IDisposable
   inheritance:
   - System.Object
-  - SuperOffice.Data.Cache.CacheBase
-  - SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}
+  - SuperOffice.Data.Cache.CacheBaseV2
   implements:
+  - SuperOffice.Data.Cache.IFlushableV2
   - System.IDisposable
-  - SuperOffice.Data.Cache.IFlushable
   inheritedMembers:
-  - SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}.OnRefresh
-  - SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}.OnParseRow(SuperOffice.CRM.Rows.ShipmentTypeRow)
-  - SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}.GetRowFromId(System.Int32)
-  - SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}.Rows
-  - SuperOffice.Data.Cache.CacheBase._lastUpdated
-  - SuperOffice.Data.Cache.CacheBase._cacheState
-  - SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
-  - SuperOffice.Data.Cache.CacheBase.Dispose
-  - SuperOffice.Data.Cache.CacheBase.Validate
-  - SuperOffice.Data.Cache.CacheBase.Refresh
-  - SuperOffice.Data.Cache.CacheBase.Flush
-  - SuperOffice.Data.Cache.CacheBase.OnExpired
-  - SuperOffice.Data.Cache.CacheBase.OnRefreshed
-  - SuperOffice.Data.Cache.CacheBase.OnFlushed
-  - SuperOffice.Data.Cache.CacheBase.OnDisposed
-  - SuperOffice.Data.Cache.CacheBase.Lock
-  - SuperOffice.Data.Cache.CacheBase.Name
-  - SuperOffice.Data.Cache.CacheBase.CacheType
-  - SuperOffice.Data.Cache.CacheBase.Timeout
-  - SuperOffice.Data.Cache.CacheBase.State
-  - SuperOffice.Data.Cache.CacheBase.IsValid
-  - SuperOffice.Data.Cache.CacheBase.Expired
-  - SuperOffice.Data.Cache.CacheBase.Refreshed
-  - SuperOffice.Data.Cache.CacheBase.Flushed
-  - SuperOffice.Data.Cache.CacheBase.Disposed
+  - SuperOffice.Data.Cache.CacheBaseV2.Dispose
+  - SuperOffice.Data.Cache.CacheBaseV2.Flush
+  - SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+  - SuperOffice.Data.Cache.CacheBaseV2.Load
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -75,12 +54,45 @@ items:
   extensionMethods:
   - SuperOffice.CRM.Cache.ShipmentTypeCache.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Cache.ShipmentTypeCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.Cache.CacheV2Attribute
+    ctor: SuperOffice.Data.Cache.CacheV2Attribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Database
   modifiers.csharp:
   - public
   - class
   modifiers.vb:
   - Public
   - Class
+- uid: SuperOffice.CRM.Cache.ShipmentTypeCache.GetShipmentTypes
+  commentId: M:SuperOffice.CRM.Cache.ShipmentTypeCache.GetShipmentTypes
+  id: GetShipmentTypes
+  parent: SuperOffice.CRM.Cache.ShipmentTypeCache
+  langs:
+  - csharp
+  - vb
+  name: GetShipmentTypes()
+  nameWithType: ShipmentTypeCache.GetShipmentTypes()
+  fullName: SuperOffice.CRM.Cache.ShipmentTypeCache.GetShipmentTypes()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: public IEnumerable<ShipmentTypeRecordData> GetShipmentTypes()
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ShipmentTypeRecordData}
+    content.vb: Public Function GetShipmentTypes As IEnumerable(Of ShipmentTypeRecordData)
+  overload: SuperOffice.CRM.Cache.ShipmentTypeCache.GetShipmentTypes*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Cache.ShipmentTypeCache.GetCurrent
   commentId: M:SuperOffice.CRM.Cache.ShipmentTypeCache.GetCurrent
   id: GetCurrent
@@ -98,7 +110,6 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
-  summary: "\nObtain an instance of the <xref href=\"SuperOffice.CRM.Cache.ShipmentTypeCache\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
     content: public static ShipmentTypeCache GetCurrent()
     return:
@@ -111,16 +122,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Cache.ShipmentTypeCache.FetchRows
-  commentId: M:SuperOffice.CRM.Cache.ShipmentTypeCache.FetchRows
-  id: FetchRows
+- uid: SuperOffice.CRM.Cache.ShipmentTypeCache.OnLoad
+  commentId: M:SuperOffice.CRM.Cache.ShipmentTypeCache.OnLoad
+  id: OnLoad
   parent: SuperOffice.CRM.Cache.ShipmentTypeCache
   langs:
   - csharp
   - vb
-  name: FetchRows()
-  nameWithType: ShipmentTypeCache.FetchRows()
-  fullName: SuperOffice.CRM.Cache.ShipmentTypeCache.FetchRows()
+  name: OnLoad()
+  nameWithType: ShipmentTypeCache.OnLoad()
+  fullName: SuperOffice.CRM.Cache.ShipmentTypeCache.OnLoad()
   type: Method
   source:
     path: SoDataBase
@@ -128,169 +139,17 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
-  summary: "\nFetch the rows from the database.\n"
   syntax:
-    content: protected override TableRowsBase FetchRows()
-    return:
-      type: SuperOffice.CRM.Rows.TableRowsBase
-      description: Rows fetched from the database.
-    content.vb: Protected Overrides Function FetchRows As TableRowsBase
-  overridden: SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}.FetchRows
-  overload: SuperOffice.CRM.Cache.ShipmentTypeCache.FetchRows*
+    content: protected override void OnLoad()
+    content.vb: Protected Overrides Sub OnLoad
+  overridden: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+  overload: SuperOffice.CRM.Cache.ShipmentTypeCache.OnLoad*
   modifiers.csharp:
   - protected
   - override
   modifiers.vb:
   - Protected
   - Overrides
-- uid: SuperOffice.CRM.Cache.ShipmentTypeCache.GetCachedTableNumbers
-  commentId: M:SuperOffice.CRM.Cache.ShipmentTypeCache.GetCachedTableNumbers
-  id: GetCachedTableNumbers
-  parent: SuperOffice.CRM.Cache.ShipmentTypeCache
-  langs:
-  - csharp
-  - vb
-  name: GetCachedTableNumbers()
-  nameWithType: ShipmentTypeCache.GetCachedTableNumbers()
-  fullName: SuperOffice.CRM.Cache.ShipmentTypeCache.GetCachedTableNumbers()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Cache
-  syntax:
-    content: public override int[] GetCachedTableNumbers()
-    return:
-      type: System.Int32[]
-    content.vb: Public Overrides Function GetCachedTableNumbers As Integer()
-  overridden: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
-  overload: SuperOffice.CRM.Cache.ShipmentTypeCache.GetCachedTableNumbers*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
-- uid: SuperOffice.CRM.Cache.ShipmentTypeCache.AddRow(SuperOffice.CRM.Rows.ShipmentTypeRow)
-  commentId: M:SuperOffice.CRM.Cache.ShipmentTypeCache.AddRow(SuperOffice.CRM.Rows.ShipmentTypeRow)
-  id: AddRow(SuperOffice.CRM.Rows.ShipmentTypeRow)
-  parent: SuperOffice.CRM.Cache.ShipmentTypeCache
-  langs:
-  - csharp
-  - vb
-  name: AddRow(ShipmentTypeRow)
-  nameWithType: ShipmentTypeCache.AddRow(ShipmentTypeRow)
-  fullName: SuperOffice.CRM.Cache.ShipmentTypeCache.AddRow(SuperOffice.CRM.Rows.ShipmentTypeRow)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Cache
-  syntax:
-    content: protected override void AddRow(ShipmentTypeRow row)
-    parameters:
-    - id: row
-      type: SuperOffice.CRM.Rows.ShipmentTypeRow
-    content.vb: Protected Overrides Sub AddRow(row As ShipmentTypeRow)
-  overridden: SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}.AddRow(SuperOffice.CRM.Rows.ShipmentTypeRow)
-  overload: SuperOffice.CRM.Cache.ShipmentTypeCache.AddRow*
-  modifiers.csharp:
-  - protected
-  - override
-  modifiers.vb:
-  - Protected
-  - Overrides
-- uid: SuperOffice.CRM.Cache.ShipmentTypeCache.OnFlush
-  commentId: M:SuperOffice.CRM.Cache.ShipmentTypeCache.OnFlush
-  id: OnFlush
-  parent: SuperOffice.CRM.Cache.ShipmentTypeCache
-  langs:
-  - csharp
-  - vb
-  name: OnFlush()
-  nameWithType: ShipmentTypeCache.OnFlush()
-  fullName: SuperOffice.CRM.Cache.ShipmentTypeCache.OnFlush()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Cache
-  syntax:
-    content: protected override void OnFlush()
-    content.vb: Protected Overrides Sub OnFlush
-  overridden: SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}.OnFlush
-  overload: SuperOffice.CRM.Cache.ShipmentTypeCache.OnFlush*
-  modifiers.csharp:
-  - protected
-  - override
-  modifiers.vb:
-  - Protected
-  - Overrides
-- uid: SuperOffice.CRM.Cache.ShipmentTypeCache.GetRowFromName(System.String)
-  commentId: M:SuperOffice.CRM.Cache.ShipmentTypeCache.GetRowFromName(System.String)
-  id: GetRowFromName(System.String)
-  parent: SuperOffice.CRM.Cache.ShipmentTypeCache
-  langs:
-  - csharp
-  - vb
-  name: GetRowFromName(String)
-  nameWithType: ShipmentTypeCache.GetRowFromName(String)
-  fullName: SuperOffice.CRM.Cache.ShipmentTypeCache.GetRowFromName(System.String)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Cache
-  summary: "\nGet the row fro from it&apos;s primary key.\n"
-  syntax:
-    content: public ShipmentTypeRow GetRowFromName(string name)
-    parameters:
-    - id: name
-      type: System.String
-    return:
-      type: SuperOffice.CRM.Rows.ShipmentTypeRow
-      description: The row with the given name.  If the row does not exist, nothing is returned.
-    content.vb: Public Function GetRowFromName(name As String) As ShipmentTypeRow
-  overload: SuperOffice.CRM.Cache.ShipmentTypeCache.GetRowFromName*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Cache.ShipmentTypeCache.GetRows
-  commentId: M:SuperOffice.CRM.Cache.ShipmentTypeCache.GetRows
-  id: GetRows
-  parent: SuperOffice.CRM.Cache.ShipmentTypeCache
-  langs:
-  - csharp
-  - vb
-  name: GetRows()
-  nameWithType: ShipmentTypeCache.GetRows()
-  fullName: SuperOffice.CRM.Cache.ShipmentTypeCache.GetRows()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Cache
-  syntax:
-    content: public List<ShipmentTypeRow> GetRows()
-    return:
-      type: System.Collections.Generic.List{SuperOffice.CRM.Rows.ShipmentTypeRow}
-    content.vb: Public Function GetRows As List(Of ShipmentTypeRow)
-  overload: SuperOffice.CRM.Cache.ShipmentTypeCache.GetRows*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice.CRM.Cache
   commentId: N:SuperOffice.CRM.Cache
@@ -305,57 +164,20 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: SuperOffice.Data.Cache.CacheBase
-  commentId: T:SuperOffice.Data.Cache.CacheBase
+- uid: SuperOffice.Data.Cache.CacheBaseV2
+  commentId: T:SuperOffice.Data.Cache.CacheBaseV2
   parent: SuperOffice.Data.Cache
   isExternal: true
-  name: CacheBase
-  nameWithType: CacheBase
-  fullName: SuperOffice.Data.Cache.CacheBase
-- uid: SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}
-  commentId: T:SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}
-  parent: SuperOffice.CRM.Cache
-  definition: SuperOffice.CRM.Cache.RowCacheBase`1
-  name: RowCacheBase<ShipmentTypeRow>
-  nameWithType: RowCacheBase<ShipmentTypeRow>
-  fullName: SuperOffice.CRM.Cache.RowCacheBase<SuperOffice.CRM.Rows.ShipmentTypeRow>
-  nameWithType.vb: RowCacheBase(Of ShipmentTypeRow)
-  fullName.vb: SuperOffice.CRM.Cache.RowCacheBase(Of SuperOffice.CRM.Rows.ShipmentTypeRow)
-  name.vb: RowCacheBase(Of ShipmentTypeRow)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1
-    name: RowCacheBase
-    nameWithType: RowCacheBase
-    fullName: SuperOffice.CRM.Cache.RowCacheBase
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.Rows.ShipmentTypeRow
-    name: ShipmentTypeRow
-    nameWithType: ShipmentTypeRow
-    fullName: SuperOffice.CRM.Rows.ShipmentTypeRow
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1
-    name: RowCacheBase
-    nameWithType: RowCacheBase
-    fullName: SuperOffice.CRM.Cache.RowCacheBase
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.Rows.ShipmentTypeRow
-    name: ShipmentTypeRow
-    nameWithType: ShipmentTypeRow
-    fullName: SuperOffice.CRM.Rows.ShipmentTypeRow
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+  name: CacheBaseV2
+  nameWithType: CacheBaseV2
+  fullName: SuperOffice.Data.Cache.CacheBaseV2
+- uid: SuperOffice.Data.Cache.IFlushableV2
+  commentId: T:SuperOffice.Data.Cache.IFlushableV2
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: IFlushableV2
+  nameWithType: IFlushableV2
+  fullName: SuperOffice.Data.Cache.IFlushableV2
 - uid: System.IDisposable
   commentId: T:System.IDisposable
   parent: System
@@ -363,240 +185,18 @@ references:
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
-- uid: SuperOffice.Data.Cache.IFlushable
-  commentId: T:SuperOffice.Data.Cache.IFlushable
-  parent: SuperOffice.Data.Cache
-  isExternal: true
-  name: IFlushable
-  nameWithType: IFlushable
-  fullName: SuperOffice.Data.Cache.IFlushable
-- uid: SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}.OnRefresh
-  commentId: M:SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}.OnRefresh
-  parent: SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}
-  definition: SuperOffice.CRM.Cache.RowCacheBase`1.OnRefresh
-  name: OnRefresh()
-  nameWithType: RowCacheBase<ShipmentTypeRow>.OnRefresh()
-  fullName: SuperOffice.CRM.Cache.RowCacheBase<SuperOffice.CRM.Rows.ShipmentTypeRow>.OnRefresh()
-  nameWithType.vb: RowCacheBase(Of ShipmentTypeRow).OnRefresh()
-  fullName.vb: SuperOffice.CRM.Cache.RowCacheBase(Of SuperOffice.CRM.Rows.ShipmentTypeRow).OnRefresh()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1.OnRefresh
-    name: OnRefresh
-    nameWithType: RowCacheBase<ShipmentTypeRow>.OnRefresh
-    fullName: SuperOffice.CRM.Cache.RowCacheBase<SuperOffice.CRM.Rows.ShipmentTypeRow>.OnRefresh
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1.OnRefresh
-    name: OnRefresh
-    nameWithType: RowCacheBase(Of ShipmentTypeRow).OnRefresh
-    fullName: SuperOffice.CRM.Cache.RowCacheBase(Of SuperOffice.CRM.Rows.ShipmentTypeRow).OnRefresh
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}.OnParseRow(SuperOffice.CRM.Rows.ShipmentTypeRow)
-  commentId: M:SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}.OnParseRow(SuperOffice.CRM.Rows.ShipmentTypeRow)
-  parent: SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}
-  definition: SuperOffice.CRM.Cache.RowCacheBase`1.OnParseRow(`0)
-  name: OnParseRow(ShipmentTypeRow)
-  nameWithType: RowCacheBase<ShipmentTypeRow>.OnParseRow(ShipmentTypeRow)
-  fullName: SuperOffice.CRM.Cache.RowCacheBase<SuperOffice.CRM.Rows.ShipmentTypeRow>.OnParseRow(SuperOffice.CRM.Rows.ShipmentTypeRow)
-  nameWithType.vb: RowCacheBase(Of ShipmentTypeRow).OnParseRow(ShipmentTypeRow)
-  fullName.vb: SuperOffice.CRM.Cache.RowCacheBase(Of SuperOffice.CRM.Rows.ShipmentTypeRow).OnParseRow(SuperOffice.CRM.Rows.ShipmentTypeRow)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1.OnParseRow(`0)
-    name: OnParseRow
-    nameWithType: RowCacheBase<ShipmentTypeRow>.OnParseRow
-    fullName: SuperOffice.CRM.Cache.RowCacheBase<SuperOffice.CRM.Rows.ShipmentTypeRow>.OnParseRow
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Rows.ShipmentTypeRow
-    name: ShipmentTypeRow
-    nameWithType: ShipmentTypeRow
-    fullName: SuperOffice.CRM.Rows.ShipmentTypeRow
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1.OnParseRow(`0)
-    name: OnParseRow
-    nameWithType: RowCacheBase(Of ShipmentTypeRow).OnParseRow
-    fullName: SuperOffice.CRM.Cache.RowCacheBase(Of SuperOffice.CRM.Rows.ShipmentTypeRow).OnParseRow
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Rows.ShipmentTypeRow
-    name: ShipmentTypeRow
-    nameWithType: ShipmentTypeRow
-    fullName: SuperOffice.CRM.Rows.ShipmentTypeRow
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}.GetRowFromId(System.Int32)
-  commentId: M:SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}.GetRowFromId(System.Int32)
-  parent: SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}
-  definition: SuperOffice.CRM.Cache.RowCacheBase`1.GetRowFromId(System.Int32)
-  name: GetRowFromId(Int32)
-  nameWithType: RowCacheBase<ShipmentTypeRow>.GetRowFromId(Int32)
-  fullName: SuperOffice.CRM.Cache.RowCacheBase<SuperOffice.CRM.Rows.ShipmentTypeRow>.GetRowFromId(System.Int32)
-  nameWithType.vb: RowCacheBase(Of ShipmentTypeRow).GetRowFromId(Int32)
-  fullName.vb: SuperOffice.CRM.Cache.RowCacheBase(Of SuperOffice.CRM.Rows.ShipmentTypeRow).GetRowFromId(System.Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1.GetRowFromId(System.Int32)
-    name: GetRowFromId
-    nameWithType: RowCacheBase<ShipmentTypeRow>.GetRowFromId
-    fullName: SuperOffice.CRM.Cache.RowCacheBase<SuperOffice.CRM.Rows.ShipmentTypeRow>.GetRowFromId
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1.GetRowFromId(System.Int32)
-    name: GetRowFromId
-    nameWithType: RowCacheBase(Of ShipmentTypeRow).GetRowFromId
-    fullName: SuperOffice.CRM.Cache.RowCacheBase(Of SuperOffice.CRM.Rows.ShipmentTypeRow).GetRowFromId
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}.Rows
-  commentId: P:SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}.Rows
-  parent: SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}
-  definition: SuperOffice.CRM.Cache.RowCacheBase`1.Rows
-  name: Rows
-  nameWithType: RowCacheBase<ShipmentTypeRow>.Rows
-  fullName: SuperOffice.CRM.Cache.RowCacheBase<SuperOffice.CRM.Rows.ShipmentTypeRow>.Rows
-  nameWithType.vb: RowCacheBase(Of ShipmentTypeRow).Rows
-  fullName.vb: SuperOffice.CRM.Cache.RowCacheBase(Of SuperOffice.CRM.Rows.ShipmentTypeRow).Rows
-- uid: SuperOffice.Data.Cache.CacheBase._lastUpdated
-  commentId: F:SuperOffice.Data.Cache.CacheBase._lastUpdated
-  parent: SuperOffice.Data.Cache.CacheBase
-  isExternal: true
-  name: _lastUpdated
-  nameWithType: CacheBase._lastUpdated
-  fullName: SuperOffice.Data.Cache.CacheBase._lastUpdated
-- uid: SuperOffice.Data.Cache.CacheBase._cacheState
-  commentId: F:SuperOffice.Data.Cache.CacheBase._cacheState
-  parent: SuperOffice.Data.Cache.CacheBase
-  isExternal: true
-  name: _cacheState
-  nameWithType: CacheBase._cacheState
-  fullName: SuperOffice.Data.Cache.CacheBase._cacheState
-- uid: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
-  commentId: M:SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
-  parent: SuperOffice.Data.Cache.CacheBase
-  isExternal: true
-  name: IsCacheInvalidated(Int32, SqlType, Int32)
-  nameWithType: CacheBase.IsCacheInvalidated(Int32, SqlType, Int32)
-  fullName: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated(System.Int32, SuperOffice.Data.SQL.SqlType, System.Int32)
-  spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
-    name: IsCacheInvalidated
-    nameWithType: CacheBase.IsCacheInvalidated
-    fullName: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.Data.SQL.SqlType
-    name: SqlType
-    nameWithType: SqlType
-    fullName: SuperOffice.Data.SQL.SqlType
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
-    name: IsCacheInvalidated
-    nameWithType: CacheBase.IsCacheInvalidated
-    fullName: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.Data.SQL.SqlType
-    name: SqlType
-    nameWithType: SqlType
-    fullName: SuperOffice.Data.SQL.SqlType
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.Cache.CacheBase.Dispose
-  commentId: M:SuperOffice.Data.Cache.CacheBase.Dispose
-  parent: SuperOffice.Data.Cache.CacheBase
+- uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Dispose
+  parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
   name: Dispose()
-  nameWithType: CacheBase.Dispose()
-  fullName: SuperOffice.Data.Cache.CacheBase.Dispose()
+  nameWithType: CacheBaseV2.Dispose()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose()
   spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBase.Dispose
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
     name: Dispose
-    nameWithType: CacheBase.Dispose
-    fullName: SuperOffice.Data.Cache.CacheBase.Dispose
+    nameWithType: CacheBaseV2.Dispose
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose
     isExternal: true
   - name: (
     nameWithType: (
@@ -605,10 +205,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBase.Dispose
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
     name: Dispose
-    nameWithType: CacheBase.Dispose
-    fullName: SuperOffice.Data.Cache.CacheBase.Dispose
+    nameWithType: CacheBaseV2.Dispose
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose
     isExternal: true
   - name: (
     nameWithType: (
@@ -616,80 +216,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.Cache.CacheBase.Validate
-  commentId: M:SuperOffice.Data.Cache.CacheBase.Validate
-  parent: SuperOffice.Data.Cache.CacheBase
-  isExternal: true
-  name: Validate()
-  nameWithType: CacheBase.Validate()
-  fullName: SuperOffice.Data.Cache.CacheBase.Validate()
-  spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBase.Validate
-    name: Validate
-    nameWithType: CacheBase.Validate
-    fullName: SuperOffice.Data.Cache.CacheBase.Validate
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBase.Validate
-    name: Validate
-    nameWithType: CacheBase.Validate
-    fullName: SuperOffice.Data.Cache.CacheBase.Validate
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.Cache.CacheBase.Refresh
-  commentId: M:SuperOffice.Data.Cache.CacheBase.Refresh
-  parent: SuperOffice.Data.Cache.CacheBase
-  isExternal: true
-  name: Refresh()
-  nameWithType: CacheBase.Refresh()
-  fullName: SuperOffice.Data.Cache.CacheBase.Refresh()
-  spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBase.Refresh
-    name: Refresh
-    nameWithType: CacheBase.Refresh
-    fullName: SuperOffice.Data.Cache.CacheBase.Refresh
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBase.Refresh
-    name: Refresh
-    nameWithType: CacheBase.Refresh
-    fullName: SuperOffice.Data.Cache.CacheBase.Refresh
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.Cache.CacheBase.Flush
-  commentId: M:SuperOffice.Data.Cache.CacheBase.Flush
-  parent: SuperOffice.Data.Cache.CacheBase
+- uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Flush
+  parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
   name: Flush()
-  nameWithType: CacheBase.Flush()
-  fullName: SuperOffice.Data.Cache.CacheBase.Flush()
+  nameWithType: CacheBaseV2.Flush()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush()
   spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBase.Flush
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
     name: Flush
-    nameWithType: CacheBase.Flush
-    fullName: SuperOffice.Data.Cache.CacheBase.Flush
+    nameWithType: CacheBaseV2.Flush
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush
     isExternal: true
   - name: (
     nameWithType: (
@@ -698,10 +236,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBase.Flush
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
     name: Flush
-    nameWithType: CacheBase.Flush
-    fullName: SuperOffice.Data.Cache.CacheBase.Flush
+    nameWithType: CacheBaseV2.Flush
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush
     isExternal: true
   - name: (
     nameWithType: (
@@ -709,18 +247,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.Cache.CacheBase.OnExpired
-  commentId: M:SuperOffice.Data.Cache.CacheBase.OnExpired
-  parent: SuperOffice.Data.Cache.CacheBase
+- uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+  parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  name: OnExpired()
-  nameWithType: CacheBase.OnExpired()
-  fullName: SuperOffice.Data.Cache.CacheBase.OnExpired()
+  name: BeginDisableAutoUpdate()
+  nameWithType: CacheBaseV2.BeginDisableAutoUpdate()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate()
   spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBase.OnExpired
-    name: OnExpired
-    nameWithType: CacheBase.OnExpired
-    fullName: SuperOffice.Data.Cache.CacheBase.OnExpired
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+    name: BeginDisableAutoUpdate
+    nameWithType: CacheBaseV2.BeginDisableAutoUpdate
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
     isExternal: true
   - name: (
     nameWithType: (
@@ -729,10 +267,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBase.OnExpired
-    name: OnExpired
-    nameWithType: CacheBase.OnExpired
-    fullName: SuperOffice.Data.Cache.CacheBase.OnExpired
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+    name: BeginDisableAutoUpdate
+    nameWithType: CacheBaseV2.BeginDisableAutoUpdate
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
     isExternal: true
   - name: (
     nameWithType: (
@@ -740,18 +278,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.Cache.CacheBase.OnRefreshed
-  commentId: M:SuperOffice.Data.Cache.CacheBase.OnRefreshed
-  parent: SuperOffice.Data.Cache.CacheBase
+- uid: SuperOffice.Data.Cache.CacheBaseV2.Load
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Load
+  parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  name: OnRefreshed()
-  nameWithType: CacheBase.OnRefreshed()
-  fullName: SuperOffice.Data.Cache.CacheBase.OnRefreshed()
+  name: Load()
+  nameWithType: CacheBaseV2.Load()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.Load()
   spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBase.OnRefreshed
-    name: OnRefreshed
-    nameWithType: CacheBase.OnRefreshed
-    fullName: SuperOffice.Data.Cache.CacheBase.OnRefreshed
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Load
+    name: Load
+    nameWithType: CacheBaseV2.Load
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Load
     isExternal: true
   - name: (
     nameWithType: (
@@ -760,10 +298,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBase.OnRefreshed
-    name: OnRefreshed
-    nameWithType: CacheBase.OnRefreshed
-    fullName: SuperOffice.Data.Cache.CacheBase.OnRefreshed
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Load
+    name: Load
+    nameWithType: CacheBaseV2.Load
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Load
     isExternal: true
   - name: (
     nameWithType: (
@@ -771,138 +309,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.Cache.CacheBase.OnFlushed
-  commentId: M:SuperOffice.Data.Cache.CacheBase.OnFlushed
-  parent: SuperOffice.Data.Cache.CacheBase
-  isExternal: true
-  name: OnFlushed()
-  nameWithType: CacheBase.OnFlushed()
-  fullName: SuperOffice.Data.Cache.CacheBase.OnFlushed()
-  spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBase.OnFlushed
-    name: OnFlushed
-    nameWithType: CacheBase.OnFlushed
-    fullName: SuperOffice.Data.Cache.CacheBase.OnFlushed
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBase.OnFlushed
-    name: OnFlushed
-    nameWithType: CacheBase.OnFlushed
-    fullName: SuperOffice.Data.Cache.CacheBase.OnFlushed
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.Cache.CacheBase.OnDisposed
-  commentId: M:SuperOffice.Data.Cache.CacheBase.OnDisposed
-  parent: SuperOffice.Data.Cache.CacheBase
-  isExternal: true
-  name: OnDisposed()
-  nameWithType: CacheBase.OnDisposed()
-  fullName: SuperOffice.Data.Cache.CacheBase.OnDisposed()
-  spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBase.OnDisposed
-    name: OnDisposed
-    nameWithType: CacheBase.OnDisposed
-    fullName: SuperOffice.Data.Cache.CacheBase.OnDisposed
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBase.OnDisposed
-    name: OnDisposed
-    nameWithType: CacheBase.OnDisposed
-    fullName: SuperOffice.Data.Cache.CacheBase.OnDisposed
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.Cache.CacheBase.Lock
-  commentId: P:SuperOffice.Data.Cache.CacheBase.Lock
-  parent: SuperOffice.Data.Cache.CacheBase
-  isExternal: true
-  name: Lock
-  nameWithType: CacheBase.Lock
-  fullName: SuperOffice.Data.Cache.CacheBase.Lock
-- uid: SuperOffice.Data.Cache.CacheBase.Name
-  commentId: P:SuperOffice.Data.Cache.CacheBase.Name
-  parent: SuperOffice.Data.Cache.CacheBase
-  isExternal: true
-  name: Name
-  nameWithType: CacheBase.Name
-  fullName: SuperOffice.Data.Cache.CacheBase.Name
-- uid: SuperOffice.Data.Cache.CacheBase.CacheType
-  commentId: P:SuperOffice.Data.Cache.CacheBase.CacheType
-  parent: SuperOffice.Data.Cache.CacheBase
-  isExternal: true
-  name: CacheType
-  nameWithType: CacheBase.CacheType
-  fullName: SuperOffice.Data.Cache.CacheBase.CacheType
-- uid: SuperOffice.Data.Cache.CacheBase.Timeout
-  commentId: P:SuperOffice.Data.Cache.CacheBase.Timeout
-  parent: SuperOffice.Data.Cache.CacheBase
-  isExternal: true
-  name: Timeout
-  nameWithType: CacheBase.Timeout
-  fullName: SuperOffice.Data.Cache.CacheBase.Timeout
-- uid: SuperOffice.Data.Cache.CacheBase.State
-  commentId: P:SuperOffice.Data.Cache.CacheBase.State
-  parent: SuperOffice.Data.Cache.CacheBase
-  isExternal: true
-  name: State
-  nameWithType: CacheBase.State
-  fullName: SuperOffice.Data.Cache.CacheBase.State
-- uid: SuperOffice.Data.Cache.CacheBase.IsValid
-  commentId: P:SuperOffice.Data.Cache.CacheBase.IsValid
-  parent: SuperOffice.Data.Cache.CacheBase
-  isExternal: true
-  name: IsValid
-  nameWithType: CacheBase.IsValid
-  fullName: SuperOffice.Data.Cache.CacheBase.IsValid
-- uid: SuperOffice.Data.Cache.CacheBase.Expired
-  commentId: E:SuperOffice.Data.Cache.CacheBase.Expired
-  parent: SuperOffice.Data.Cache.CacheBase
-  isExternal: true
-  name: Expired
-  nameWithType: CacheBase.Expired
-  fullName: SuperOffice.Data.Cache.CacheBase.Expired
-- uid: SuperOffice.Data.Cache.CacheBase.Refreshed
-  commentId: E:SuperOffice.Data.Cache.CacheBase.Refreshed
-  parent: SuperOffice.Data.Cache.CacheBase
-  isExternal: true
-  name: Refreshed
-  nameWithType: CacheBase.Refreshed
-  fullName: SuperOffice.Data.Cache.CacheBase.Refreshed
-- uid: SuperOffice.Data.Cache.CacheBase.Flushed
-  commentId: E:SuperOffice.Data.Cache.CacheBase.Flushed
-  parent: SuperOffice.Data.Cache.CacheBase
-  isExternal: true
-  name: Flushed
-  nameWithType: CacheBase.Flushed
-  fullName: SuperOffice.Data.Cache.CacheBase.Flushed
-- uid: SuperOffice.Data.Cache.CacheBase.Disposed
-  commentId: E:SuperOffice.Data.Cache.CacheBase.Disposed
-  parent: SuperOffice.Data.Cache.CacheBase
-  isExternal: true
-  name: Disposed
-  nameWithType: CacheBase.Disposed
-  fullName: SuperOffice.Data.Cache.CacheBase.Disposed
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -1262,165 +668,6 @@ references:
   name: SuperOffice.Data.Cache
   nameWithType: SuperOffice.Data.Cache
   fullName: SuperOffice.Data.Cache
-- uid: SuperOffice.CRM.Cache.RowCacheBase`1
-  commentId: T:SuperOffice.CRM.Cache.RowCacheBase`1
-  isExternal: true
-  name: RowCacheBase<Row>
-  nameWithType: RowCacheBase<Row>
-  fullName: SuperOffice.CRM.Cache.RowCacheBase<Row>
-  nameWithType.vb: RowCacheBase(Of Row)
-  fullName.vb: SuperOffice.CRM.Cache.RowCacheBase(Of Row)
-  name.vb: RowCacheBase(Of Row)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1
-    name: RowCacheBase
-    nameWithType: RowCacheBase
-    fullName: SuperOffice.CRM.Cache.RowCacheBase
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: Row
-    nameWithType: Row
-    fullName: Row
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1
-    name: RowCacheBase
-    nameWithType: RowCacheBase
-    fullName: SuperOffice.CRM.Cache.RowCacheBase
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: Row
-    nameWithType: Row
-    fullName: Row
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Cache.RowCacheBase`1.OnRefresh
-  commentId: M:SuperOffice.CRM.Cache.RowCacheBase`1.OnRefresh
-  isExternal: true
-  name: OnRefresh()
-  nameWithType: RowCacheBase<Row>.OnRefresh()
-  fullName: SuperOffice.CRM.Cache.RowCacheBase<Row>.OnRefresh()
-  nameWithType.vb: RowCacheBase(Of Row).OnRefresh()
-  fullName.vb: SuperOffice.CRM.Cache.RowCacheBase(Of Row).OnRefresh()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1.OnRefresh
-    name: OnRefresh
-    nameWithType: RowCacheBase<Row>.OnRefresh
-    fullName: SuperOffice.CRM.Cache.RowCacheBase<Row>.OnRefresh
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1.OnRefresh
-    name: OnRefresh
-    nameWithType: RowCacheBase(Of Row).OnRefresh
-    fullName: SuperOffice.CRM.Cache.RowCacheBase(Of Row).OnRefresh
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Cache.RowCacheBase`1.OnParseRow(`0)
-  commentId: M:SuperOffice.CRM.Cache.RowCacheBase`1.OnParseRow(`0)
-  isExternal: true
-  name: OnParseRow(Row)
-  nameWithType: RowCacheBase<Row>.OnParseRow(Row)
-  fullName: SuperOffice.CRM.Cache.RowCacheBase<Row>.OnParseRow(Row)
-  nameWithType.vb: RowCacheBase(Of Row).OnParseRow(Row)
-  fullName.vb: SuperOffice.CRM.Cache.RowCacheBase(Of Row).OnParseRow(Row)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1.OnParseRow(`0)
-    name: OnParseRow
-    nameWithType: RowCacheBase<Row>.OnParseRow
-    fullName: SuperOffice.CRM.Cache.RowCacheBase<Row>.OnParseRow
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: Row
-    nameWithType: Row
-    fullName: Row
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1.OnParseRow(`0)
-    name: OnParseRow
-    nameWithType: RowCacheBase(Of Row).OnParseRow
-    fullName: SuperOffice.CRM.Cache.RowCacheBase(Of Row).OnParseRow
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: Row
-    nameWithType: Row
-    fullName: Row
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Cache.RowCacheBase`1.GetRowFromId(System.Int32)
-  commentId: M:SuperOffice.CRM.Cache.RowCacheBase`1.GetRowFromId(System.Int32)
-  isExternal: true
-  name: GetRowFromId(Int32)
-  nameWithType: RowCacheBase<Row>.GetRowFromId(Int32)
-  fullName: SuperOffice.CRM.Cache.RowCacheBase<Row>.GetRowFromId(System.Int32)
-  nameWithType.vb: RowCacheBase(Of Row).GetRowFromId(Int32)
-  fullName.vb: SuperOffice.CRM.Cache.RowCacheBase(Of Row).GetRowFromId(System.Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1.GetRowFromId(System.Int32)
-    name: GetRowFromId
-    nameWithType: RowCacheBase<Row>.GetRowFromId
-    fullName: SuperOffice.CRM.Cache.RowCacheBase<Row>.GetRowFromId
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1.GetRowFromId(System.Int32)
-    name: GetRowFromId
-    nameWithType: RowCacheBase(Of Row).GetRowFromId
-    fullName: SuperOffice.CRM.Cache.RowCacheBase(Of Row).GetRowFromId
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Cache.RowCacheBase`1.Rows
-  commentId: P:SuperOffice.CRM.Cache.RowCacheBase`1.Rows
-  isExternal: true
-  name: Rows
-  nameWithType: RowCacheBase<Row>.Rows
-  fullName: SuperOffice.CRM.Cache.RowCacheBase<Row>.Rows
-  nameWithType.vb: RowCacheBase(Of Row).Rows
-  fullName.vb: SuperOffice.CRM.Cache.RowCacheBase(Of Row).Rows
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -1518,408 +765,70 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Cache.ShipmentTypeCache.GetCurrent*
-  commentId: Overload:SuperOffice.CRM.Cache.ShipmentTypeCache.GetCurrent
+- uid: SuperOffice.CRM.Cache.ShipmentTypeCache.GetShipmentTypes*
+  commentId: Overload:SuperOffice.CRM.Cache.ShipmentTypeCache.GetShipmentTypes
   isExternal: true
-  name: GetCurrent
-  nameWithType: ShipmentTypeCache.GetCurrent
-  fullName: SuperOffice.CRM.Cache.ShipmentTypeCache.GetCurrent
-- uid: SuperOffice.CRM.Cache.ShipmentTypeCache
-  commentId: T:SuperOffice.CRM.Cache.ShipmentTypeCache
-  parent: SuperOffice.CRM.Cache
-  isExternal: true
-  name: ShipmentTypeCache
-  nameWithType: ShipmentTypeCache
-  fullName: SuperOffice.CRM.Cache.ShipmentTypeCache
-- uid: SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}.FetchRows
-  commentId: M:SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}.FetchRows
-  parent: SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}
-  definition: SuperOffice.CRM.Cache.RowCacheBase`1.FetchRows
-  name: FetchRows()
-  nameWithType: RowCacheBase<ShipmentTypeRow>.FetchRows()
-  fullName: SuperOffice.CRM.Cache.RowCacheBase<SuperOffice.CRM.Rows.ShipmentTypeRow>.FetchRows()
-  nameWithType.vb: RowCacheBase(Of ShipmentTypeRow).FetchRows()
-  fullName.vb: SuperOffice.CRM.Cache.RowCacheBase(Of SuperOffice.CRM.Rows.ShipmentTypeRow).FetchRows()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1.FetchRows
-    name: FetchRows
-    nameWithType: RowCacheBase<ShipmentTypeRow>.FetchRows
-    fullName: SuperOffice.CRM.Cache.RowCacheBase<SuperOffice.CRM.Rows.ShipmentTypeRow>.FetchRows
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1.FetchRows
-    name: FetchRows
-    nameWithType: RowCacheBase(Of ShipmentTypeRow).FetchRows
-    fullName: SuperOffice.CRM.Cache.RowCacheBase(Of SuperOffice.CRM.Rows.ShipmentTypeRow).FetchRows
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Cache.ShipmentTypeCache.FetchRows*
-  commentId: Overload:SuperOffice.CRM.Cache.ShipmentTypeCache.FetchRows
-  isExternal: true
-  name: FetchRows
-  nameWithType: ShipmentTypeCache.FetchRows
-  fullName: SuperOffice.CRM.Cache.ShipmentTypeCache.FetchRows
-- uid: SuperOffice.CRM.Rows.TableRowsBase
-  commentId: T:SuperOffice.CRM.Rows.TableRowsBase
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  name: TableRowsBase
-  nameWithType: TableRowsBase
-  fullName: SuperOffice.CRM.Rows.TableRowsBase
-- uid: SuperOffice.CRM.Cache.RowCacheBase`1.FetchRows
-  commentId: M:SuperOffice.CRM.Cache.RowCacheBase`1.FetchRows
-  isExternal: true
-  name: FetchRows()
-  nameWithType: RowCacheBase<Row>.FetchRows()
-  fullName: SuperOffice.CRM.Cache.RowCacheBase<Row>.FetchRows()
-  nameWithType.vb: RowCacheBase(Of Row).FetchRows()
-  fullName.vb: SuperOffice.CRM.Cache.RowCacheBase(Of Row).FetchRows()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1.FetchRows
-    name: FetchRows
-    nameWithType: RowCacheBase<Row>.FetchRows
-    fullName: SuperOffice.CRM.Cache.RowCacheBase<Row>.FetchRows
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1.FetchRows
-    name: FetchRows
-    nameWithType: RowCacheBase(Of Row).FetchRows
-    fullName: SuperOffice.CRM.Cache.RowCacheBase(Of Row).FetchRows
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows
-  commentId: N:SuperOffice.CRM.Rows
-  isExternal: true
-  name: SuperOffice.CRM.Rows
-  nameWithType: SuperOffice.CRM.Rows
-  fullName: SuperOffice.CRM.Rows
-- uid: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
-  commentId: M:SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
-  parent: SuperOffice.Data.Cache.CacheBase
-  isExternal: true
-  name: GetCachedTableNumbers()
-  nameWithType: CacheBase.GetCachedTableNumbers()
-  fullName: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers()
-  spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
-    name: GetCachedTableNumbers
-    nameWithType: CacheBase.GetCachedTableNumbers
-    fullName: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
-    name: GetCachedTableNumbers
-    nameWithType: CacheBase.GetCachedTableNumbers
-    fullName: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Cache.ShipmentTypeCache.GetCachedTableNumbers*
-  commentId: Overload:SuperOffice.CRM.Cache.ShipmentTypeCache.GetCachedTableNumbers
-  isExternal: true
-  name: GetCachedTableNumbers
-  nameWithType: ShipmentTypeCache.GetCachedTableNumbers
-  fullName: SuperOffice.CRM.Cache.ShipmentTypeCache.GetCachedTableNumbers
-- uid: System.Int32[]
-  isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
-  spec.csharp:
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}.AddRow(SuperOffice.CRM.Rows.ShipmentTypeRow)
-  commentId: M:SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}.AddRow(SuperOffice.CRM.Rows.ShipmentTypeRow)
-  parent: SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}
-  definition: SuperOffice.CRM.Cache.RowCacheBase`1.AddRow(`0)
-  name: AddRow(ShipmentTypeRow)
-  nameWithType: RowCacheBase<ShipmentTypeRow>.AddRow(ShipmentTypeRow)
-  fullName: SuperOffice.CRM.Cache.RowCacheBase<SuperOffice.CRM.Rows.ShipmentTypeRow>.AddRow(SuperOffice.CRM.Rows.ShipmentTypeRow)
-  nameWithType.vb: RowCacheBase(Of ShipmentTypeRow).AddRow(ShipmentTypeRow)
-  fullName.vb: SuperOffice.CRM.Cache.RowCacheBase(Of SuperOffice.CRM.Rows.ShipmentTypeRow).AddRow(SuperOffice.CRM.Rows.ShipmentTypeRow)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1.AddRow(`0)
-    name: AddRow
-    nameWithType: RowCacheBase<ShipmentTypeRow>.AddRow
-    fullName: SuperOffice.CRM.Cache.RowCacheBase<SuperOffice.CRM.Rows.ShipmentTypeRow>.AddRow
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Rows.ShipmentTypeRow
-    name: ShipmentTypeRow
-    nameWithType: ShipmentTypeRow
-    fullName: SuperOffice.CRM.Rows.ShipmentTypeRow
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1.AddRow(`0)
-    name: AddRow
-    nameWithType: RowCacheBase(Of ShipmentTypeRow).AddRow
-    fullName: SuperOffice.CRM.Cache.RowCacheBase(Of SuperOffice.CRM.Rows.ShipmentTypeRow).AddRow
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Rows.ShipmentTypeRow
-    name: ShipmentTypeRow
-    nameWithType: ShipmentTypeRow
-    fullName: SuperOffice.CRM.Rows.ShipmentTypeRow
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Cache.ShipmentTypeCache.AddRow*
-  commentId: Overload:SuperOffice.CRM.Cache.ShipmentTypeCache.AddRow
-  isExternal: true
-  name: AddRow
-  nameWithType: ShipmentTypeCache.AddRow
-  fullName: SuperOffice.CRM.Cache.ShipmentTypeCache.AddRow
-- uid: SuperOffice.CRM.Rows.ShipmentTypeRow
-  commentId: T:SuperOffice.CRM.Rows.ShipmentTypeRow
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  name: ShipmentTypeRow
-  nameWithType: ShipmentTypeRow
-  fullName: SuperOffice.CRM.Rows.ShipmentTypeRow
-- uid: SuperOffice.CRM.Cache.RowCacheBase`1.AddRow(`0)
-  commentId: M:SuperOffice.CRM.Cache.RowCacheBase`1.AddRow(`0)
-  isExternal: true
-  name: AddRow(Row)
-  nameWithType: RowCacheBase<Row>.AddRow(Row)
-  fullName: SuperOffice.CRM.Cache.RowCacheBase<Row>.AddRow(Row)
-  nameWithType.vb: RowCacheBase(Of Row).AddRow(Row)
-  fullName.vb: SuperOffice.CRM.Cache.RowCacheBase(Of Row).AddRow(Row)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1.AddRow(`0)
-    name: AddRow
-    nameWithType: RowCacheBase<Row>.AddRow
-    fullName: SuperOffice.CRM.Cache.RowCacheBase<Row>.AddRow
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: Row
-    nameWithType: Row
-    fullName: Row
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1.AddRow(`0)
-    name: AddRow
-    nameWithType: RowCacheBase(Of Row).AddRow
-    fullName: SuperOffice.CRM.Cache.RowCacheBase(Of Row).AddRow
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: Row
-    nameWithType: Row
-    fullName: Row
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}.OnFlush
-  commentId: M:SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}.OnFlush
-  parent: SuperOffice.CRM.Cache.RowCacheBase{SuperOffice.CRM.Rows.ShipmentTypeRow}
-  definition: SuperOffice.CRM.Cache.RowCacheBase`1.OnFlush
-  name: OnFlush()
-  nameWithType: RowCacheBase<ShipmentTypeRow>.OnFlush()
-  fullName: SuperOffice.CRM.Cache.RowCacheBase<SuperOffice.CRM.Rows.ShipmentTypeRow>.OnFlush()
-  nameWithType.vb: RowCacheBase(Of ShipmentTypeRow).OnFlush()
-  fullName.vb: SuperOffice.CRM.Cache.RowCacheBase(Of SuperOffice.CRM.Rows.ShipmentTypeRow).OnFlush()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1.OnFlush
-    name: OnFlush
-    nameWithType: RowCacheBase<ShipmentTypeRow>.OnFlush
-    fullName: SuperOffice.CRM.Cache.RowCacheBase<SuperOffice.CRM.Rows.ShipmentTypeRow>.OnFlush
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1.OnFlush
-    name: OnFlush
-    nameWithType: RowCacheBase(Of ShipmentTypeRow).OnFlush
-    fullName: SuperOffice.CRM.Cache.RowCacheBase(Of SuperOffice.CRM.Rows.ShipmentTypeRow).OnFlush
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Cache.ShipmentTypeCache.OnFlush*
-  commentId: Overload:SuperOffice.CRM.Cache.ShipmentTypeCache.OnFlush
-  isExternal: true
-  name: OnFlush
-  nameWithType: ShipmentTypeCache.OnFlush
-  fullName: SuperOffice.CRM.Cache.ShipmentTypeCache.OnFlush
-- uid: SuperOffice.CRM.Cache.RowCacheBase`1.OnFlush
-  commentId: M:SuperOffice.CRM.Cache.RowCacheBase`1.OnFlush
-  isExternal: true
-  name: OnFlush()
-  nameWithType: RowCacheBase<Row>.OnFlush()
-  fullName: SuperOffice.CRM.Cache.RowCacheBase<Row>.OnFlush()
-  nameWithType.vb: RowCacheBase(Of Row).OnFlush()
-  fullName.vb: SuperOffice.CRM.Cache.RowCacheBase(Of Row).OnFlush()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1.OnFlush
-    name: OnFlush
-    nameWithType: RowCacheBase<Row>.OnFlush
-    fullName: SuperOffice.CRM.Cache.RowCacheBase<Row>.OnFlush
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Cache.RowCacheBase`1.OnFlush
-    name: OnFlush
-    nameWithType: RowCacheBase(Of Row).OnFlush
-    fullName: SuperOffice.CRM.Cache.RowCacheBase(Of Row).OnFlush
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Cache.ShipmentTypeCache.GetRowFromName*
-  commentId: Overload:SuperOffice.CRM.Cache.ShipmentTypeCache.GetRowFromName
-  isExternal: true
-  name: GetRowFromName
-  nameWithType: ShipmentTypeCache.GetRowFromName
-  fullName: SuperOffice.CRM.Cache.ShipmentTypeCache.GetRowFromName
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.CRM.Cache.ShipmentTypeCache.GetRows*
-  commentId: Overload:SuperOffice.CRM.Cache.ShipmentTypeCache.GetRows
-  isExternal: true
-  name: GetRows
-  nameWithType: ShipmentTypeCache.GetRows
-  fullName: SuperOffice.CRM.Cache.ShipmentTypeCache.GetRows
-- uid: System.Collections.Generic.List{SuperOffice.CRM.Rows.ShipmentTypeRow}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Rows.ShipmentTypeRow}
+  name: GetShipmentTypes
+  nameWithType: ShipmentTypeCache.GetShipmentTypes
+  fullName: SuperOffice.CRM.Cache.ShipmentTypeCache.GetShipmentTypes
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ShipmentTypeRecordData}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ShipmentTypeRecordData}
   parent: System.Collections.Generic
-  definition: System.Collections.Generic.List`1
-  name: List<ShipmentTypeRow>
-  nameWithType: List<ShipmentTypeRow>
-  fullName: System.Collections.Generic.List<SuperOffice.CRM.Rows.ShipmentTypeRow>
-  nameWithType.vb: List(Of ShipmentTypeRow)
-  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Rows.ShipmentTypeRow)
-  name.vb: List(Of ShipmentTypeRow)
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ShipmentTypeRecordData>
+  nameWithType: IEnumerable<ShipmentTypeRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ShipmentTypeRecordData>
+  nameWithType.vb: IEnumerable(Of ShipmentTypeRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ShipmentTypeRecordData)
+  name.vb: IEnumerable(Of ShipmentTypeRecordData)
   spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - uid: SuperOffice.CRM.Rows.ShipmentTypeRow
-    name: ShipmentTypeRow
-    nameWithType: ShipmentTypeRow
-    fullName: SuperOffice.CRM.Rows.ShipmentTypeRow
+  - uid: SuperOffice.CRM.Rows.ShipmentTypeRecordData
+    name: ShipmentTypeRecordData
+    nameWithType: ShipmentTypeRecordData
+    fullName: SuperOffice.CRM.Rows.ShipmentTypeRecordData
     isExternal: true
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: SuperOffice.CRM.Rows.ShipmentTypeRow
-    name: ShipmentTypeRow
-    nameWithType: ShipmentTypeRow
-    fullName: SuperOffice.CRM.Rows.ShipmentTypeRow
+  - uid: SuperOffice.CRM.Rows.ShipmentTypeRecordData
+    name: ShipmentTypeRecordData
+    nameWithType: ShipmentTypeRecordData
+    fullName: SuperOffice.CRM.Rows.ShipmentTypeRecordData
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
   spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -1931,10 +840,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -1951,3 +860,53 @@ references:
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Cache.ShipmentTypeCache.GetCurrent*
+  commentId: Overload:SuperOffice.CRM.Cache.ShipmentTypeCache.GetCurrent
+  isExternal: true
+  name: GetCurrent
+  nameWithType: ShipmentTypeCache.GetCurrent
+  fullName: SuperOffice.CRM.Cache.ShipmentTypeCache.GetCurrent
+- uid: SuperOffice.CRM.Cache.ShipmentTypeCache
+  commentId: T:SuperOffice.CRM.Cache.ShipmentTypeCache
+  parent: SuperOffice.CRM.Cache
+  isExternal: true
+  name: ShipmentTypeCache
+  nameWithType: ShipmentTypeCache
+  fullName: SuperOffice.CRM.Cache.ShipmentTypeCache
+- uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  isExternal: true
+  name: OnLoad()
+  nameWithType: CacheBaseV2.OnLoad()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoad()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+    name: OnLoad
+    nameWithType: CacheBaseV2.OnLoad
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+    name: OnLoad
+    nameWithType: CacheBaseV2.OnLoad
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Cache.ShipmentTypeCache.OnLoad*
+  commentId: Overload:SuperOffice.CRM.Cache.ShipmentTypeCache.OnLoad
+  isExternal: true
+  name: OnLoad
+  nameWithType: ShipmentTypeCache.OnLoad
+  fullName: SuperOffice.CRM.Cache.ShipmentTypeCache.OnLoad

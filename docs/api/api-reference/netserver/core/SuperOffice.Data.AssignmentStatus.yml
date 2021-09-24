@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Data.AssignmentStatus
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nStatus if this appointment is in the process of being assigned to someone else\n"
   syntax:
@@ -50,10 +50,10 @@ items:
   fullName: SuperOffice.Data.AssignmentStatus.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown - used when initializing\n"
   syntax:
@@ -78,10 +78,10 @@ items:
   fullName: SuperOffice.Data.AssignmentStatus.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: 1: All appointments not in the process of being assigned to someone else\n"
   syntax:
@@ -106,10 +106,10 @@ items:
   fullName: SuperOffice.Data.AssignmentStatus.Assigning
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n11: 11: Appointment in the process of being assigned to someone else\n"
   syntax:
@@ -134,10 +134,10 @@ items:
   fullName: SuperOffice.Data.AssignmentStatus.Seen
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n12: 12: Appointment where the party requested to take ownership of the appointment or task has observed the request, but not yet accepted or declined the request.\n"
   syntax:
@@ -162,10 +162,10 @@ items:
   fullName: SuperOffice.Data.AssignmentStatus.Declined
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n13: 13: Appointment where the person requested to take ownership has declined.\n"
   syntax:

@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Diagnostics.DiagnoseMethod
   type: Delegate
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nDelegate used by <xref href=\"SuperOffice.Diagnostics.Diagnostic.Diagnose(SuperOffice.Diagnostics.DiagnoseMethod)\" data-throw-if-not-resolved=\"false\"></xref> to carry out scaffolding logic.\n"
   syntax:
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.Diagnostics.DiagnoseMethod.DiagnoseMethod(System.Object, System.IntPtr)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public DiagnoseMethod(object object, IntPtr method)
@@ -81,10 +81,10 @@ items:
   fullName: SuperOffice.Diagnostics.DiagnoseMethod.Invoke(SuperOffice.Diagnostics.Diagnostic)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public virtual void Invoke(Diagnostic scaffolder)
@@ -111,10 +111,10 @@ items:
   fullName: SuperOffice.Diagnostics.DiagnoseMethod.BeginInvoke(SuperOffice.Diagnostics.Diagnostic, System.AsyncCallback, System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public virtual IAsyncResult BeginInvoke(Diagnostic scaffolder, AsyncCallback callback, object object)
@@ -147,10 +147,10 @@ items:
   fullName: SuperOffice.Diagnostics.DiagnoseMethod.EndInvoke(System.IAsyncResult)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public virtual void EndInvoke(IAsyncResult result)

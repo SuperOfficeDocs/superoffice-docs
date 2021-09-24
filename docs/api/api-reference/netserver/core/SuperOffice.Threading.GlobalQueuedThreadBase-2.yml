@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Threading.GlobalQueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nThis class provides a queue implementation for the queued asynchronous execution\nstrategy, that gives us one single queue for the whole NetServer instance.   See remarks\nfor important information on execution context!\n<remarks>\n*** NOTE *** on Context: The AsyncContext that is associated with the executing thread is based on the\ncontext of the thread that started it. Since this is not predictable, and may change (if the queue empties),\nyou CANNOT ASSUME that the execution context for any unit of work is that of the calling (client) thread!\n<p></p>\nTherefore, this execution model should only be used if the context is not relevant - that may not be so often.\n</remarks>\n"
   syntax:
@@ -81,10 +81,10 @@ items:
   fullName: SuperOffice.Threading.GlobalQueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.GlobalQueuedThreadBase()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nConstructor, only called from derived classes\n"
   syntax:
@@ -109,10 +109,10 @@ items:
   fullName: SuperOffice.Threading.GlobalQueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInformation
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nWork Information implementation that provides access to one static queue.\n"
   syntax:

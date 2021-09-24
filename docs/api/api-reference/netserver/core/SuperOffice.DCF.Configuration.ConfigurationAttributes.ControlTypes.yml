@@ -22,10 +22,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -60,10 +60,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Type
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -89,10 +89,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Label
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -118,10 +118,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.PlainLabel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -147,10 +147,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.TextField
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -176,10 +176,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Date
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -205,10 +205,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Checkbox
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -234,10 +234,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.MDO
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -263,10 +263,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.RadioButton
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -292,10 +292,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.DateSelector
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:

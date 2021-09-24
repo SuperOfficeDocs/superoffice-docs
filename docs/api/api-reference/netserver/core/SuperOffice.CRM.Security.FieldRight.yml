@@ -36,10 +36,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldRight
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nWraps the field right together with an explanatory reason.\nAlso adds logical operators to the field rights so that they can be easily combined.\n"
   remarks: "\nUsually obtained from the SuperOffice.CRM.Security.RightsFactory rather than created directly by the client.\n"
@@ -89,10 +89,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldRight.Clone()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nReturn a new instance of the field right object.\n"
   syntax:
@@ -120,10 +120,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldRight.FieldRight()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nCreate a blank field-right with no permissions.\n"
   syntax:
@@ -146,10 +146,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldRight.FieldRight(SuperOffice.Data.EFieldRight)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nCreate a field right with the given permission.\n"
   syntax:
@@ -176,10 +176,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldRight.FieldRight(SuperOffice.Data.EFieldRight, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nCreate a field right with the given permission.\n"
   syntax:
@@ -209,10 +209,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldRight.CanDo(SuperOffice.Data.EFieldRight)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nReturn true if the any of the specified permissions are active.\n"
   syntax:
@@ -242,10 +242,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldRight.CanDoAll(SuperOffice.Data.EFieldRight)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nReturn true if all of the specified permissions are active.\n"
   syntax:
@@ -275,10 +275,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldRight.DemandRight(SuperOffice.Data.EFieldRight)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nTest the permissions and throw a <xref href=\"SuperOffice.Exceptions.SoSentryException\" data-throw-if-not-resolved=\"false\"></xref> if none of the specified rights are set.\n"
   syntax:
@@ -305,10 +305,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldRight.DemandAllRights(SuperOffice.Data.EFieldRight)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nTest the permissions and throw a <xref href=\"SuperOffice.Exceptions.SoSentryException\" data-throw-if-not-resolved=\"false\"></xref> if not all of the specified rights are set.\n"
   syntax:
@@ -335,10 +335,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldRight.BitwiseAnd(SuperOffice.CRM.Security.FieldRight, SuperOffice.CRM.Security.FieldRight)
   type: Operator
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: public static FieldRight operator &(FieldRight f1, FieldRight f2)
@@ -369,10 +369,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldRight.BitwiseOr(SuperOffice.CRM.Security.FieldRight, SuperOffice.CRM.Security.FieldRight)
   type: Operator
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: public static FieldRight operator |(FieldRight f1, FieldRight f2)
@@ -403,10 +403,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldRight.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: public override string ToString()
@@ -433,10 +433,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldRight.And(SuperOffice.Data.EFieldRight, SuperOffice.Data.EFieldRight)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nCombine two field rights returning the intersection of the two rights.\n"
   remarks: Read and Writhe rights are ANDed and UIHints are ORed
@@ -472,10 +472,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldRight.Or(SuperOffice.Data.EFieldRight, SuperOffice.Data.EFieldRight)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nCombine two field rights rturning the union of the two rights.\n"
   remarks: Read and Writhe rights are ORed and UIHints are ANDed
@@ -511,10 +511,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldRight.Mask
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nReturns the bitflag of permissions.\n"
   syntax:
@@ -542,10 +542,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldRight.HasAll
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nReturns true when all of Read, Write permissions are available.\nRequired permissions are ignored. Equivalent to the <xref href=\"SuperOffice.CRM.Security.FieldRight.IsActive\" data-throw-if-not-resolved=\"false\"></xref> property.\n"
   syntax:
@@ -576,10 +576,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldRight.IgnoreReason
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: protected override bool IgnoreReason { get; }
@@ -609,10 +609,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldRight.HasNone
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nReturns true when no permissions are available. No read, write or required permissions.\n"
   syntax:
@@ -643,10 +643,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldRight.IsActive
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nReturns true when the field is editable. (Read+Write permissions). \nEquivalent to the <xref href=\"SuperOffice.CRM.Security.FieldRight.HasAll\" data-throw-if-not-resolved=\"false\"></xref> property.\n"
   syntax:
@@ -677,10 +677,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldRight.IsMandatory
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nReturns true when the field must be filled out. \n"
   syntax:
@@ -708,10 +708,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldRight.IsVisible
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nReturns true when the field is readable. \n"
   syntax:
@@ -739,10 +739,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldRight.CanUIRead
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nCan this field be read in the user interface.\n"
   syntax:
@@ -770,10 +770,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldRight.CanUIUpdate
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nCan this field be updated in the user interface.\n"
   syntax:
@@ -801,10 +801,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldRight.IsUIMandatory
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nIs it mandatory to fill in htis field in the user interface.\n"
   syntax:

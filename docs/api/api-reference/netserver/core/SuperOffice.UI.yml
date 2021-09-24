@@ -17,7 +17,7 @@ items:
   fullName: SuperOffice.UI
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
 - uid: SuperOffice.UI.ComboBox
   commentId: T:SuperOffice.UI.ComboBox

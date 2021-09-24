@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Data.ImportContactDuplicateMatch
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nContact duplicate matching for import\n"
   syntax:
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.Data.ImportContactDuplicateMatch.Name
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Name\n"
   syntax:
@@ -79,10 +79,10 @@ items:
   fullName: SuperOffice.Data.ImportContactDuplicateMatch.NameDepartment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Name + Department\n"
   syntax:
@@ -107,10 +107,10 @@ items:
   fullName: SuperOffice.Data.ImportContactDuplicateMatch.Number
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Number\n"
   syntax:
@@ -135,10 +135,10 @@ items:
   fullName: SuperOffice.Data.ImportContactDuplicateMatch.Code
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Code\n"
   syntax:
@@ -163,10 +163,10 @@ items:
   fullName: SuperOffice.Data.ImportContactDuplicateMatch.OrgNr
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: OrgNr\n"
   syntax:
@@ -191,10 +191,10 @@ items:
   fullName: SuperOffice.Data.ImportContactDuplicateMatch.Id
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: Id\n"
   syntax:

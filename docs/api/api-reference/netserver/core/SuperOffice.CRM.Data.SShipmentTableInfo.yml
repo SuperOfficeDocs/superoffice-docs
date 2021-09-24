@@ -624,13 +624,13 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;status&apos; in table &apos;s_shipment&apos;: Dictionary type Enum, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSending/stopped/failed etc.\n"
+  summary: "\nField &apos;status&apos; in table &apos;s_shipment&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.ShipmentStatus\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSending/stopped/failed etc.\n"
   syntax:
-    content: public UInt16FieldInfo Status { get; }
+    content: public ShipmentStatusFieldInfo Status { get; }
     parameters: []
     return:
-      type: SuperOffice.Data.SQL.UInt16FieldInfo
-    content.vb: Public ReadOnly Property Status As UInt16FieldInfo
+      type: SuperOffice.Data.SQL.ShipmentStatusFieldInfo
+    content.vb: Public ReadOnly Property Status As ShipmentStatusFieldInfo
   overload: SuperOffice.CRM.Data.SShipmentTableInfo.Status*
   modifiers.csharp:
   - public
@@ -2711,13 +2711,13 @@ references:
   name: Status
   nameWithType: SShipmentTableInfo.Status
   fullName: SuperOffice.CRM.Data.SShipmentTableInfo.Status
-- uid: SuperOffice.Data.SQL.UInt16FieldInfo
-  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.Data.SQL.ShipmentStatusFieldInfo
+  commentId: T:SuperOffice.Data.SQL.ShipmentStatusFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  name: UInt16FieldInfo
-  nameWithType: UInt16FieldInfo
-  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+  name: ShipmentStatusFieldInfo
+  nameWithType: ShipmentStatusFieldInfo
+  fullName: SuperOffice.Data.SQL.ShipmentStatusFieldInfo
 - uid: SuperOffice.CRM.Data.SShipmentTableInfo.Recipients*
   commentId: Overload:SuperOffice.CRM.Data.SShipmentTableInfo.Recipients
   isExternal: true
@@ -2833,6 +2833,13 @@ references:
   name: UpdatedCount
   nameWithType: SShipmentTableInfo.UpdatedCount
   fullName: SuperOffice.CRM.Data.SShipmentTableInfo.UpdatedCount
+- uid: SuperOffice.Data.SQL.UInt16FieldInfo
+  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: UInt16FieldInfo
+  nameWithType: UInt16FieldInfo
+  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
 - uid: SuperOffice.CRM.Data.SShipmentTableInfo.ActivePane*
   commentId: Overload:SuperOffice.CRM.Data.SShipmentTableInfo.ActivePane
   isExternal: true

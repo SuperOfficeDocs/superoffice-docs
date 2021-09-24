@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ResourceIconHintMapping
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nClass used for simple mapping between icon hints and resources. used by the criteria system to specify \ncorrect heading resources to use.\n"
   syntax:
@@ -56,10 +56,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ResourceIconHintMapping.IconHint
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string IconHint
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ResourceIconHintMapping.ResourceString
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string ResourceString
@@ -108,10 +108,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ResourceIconHintMapping.ResourceIconHintMapping(System.String, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ResourceIconHintMapping(string iconHint, string resourceString)

@@ -20,10 +20,10 @@ items:
   fullName: SuperOffice.Data.SaleStageConstants
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public static class SaleStageConstants
@@ -57,10 +57,10 @@ items:
   fullName: SuperOffice.Data.SaleStageConstants.GetDeletedStageLinks
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string GetDeletedStageLinks = "GetDeletedStageLinks"
@@ -85,10 +85,10 @@ items:
   fullName: SuperOffice.Data.SaleStageConstants.SaleTypeID
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string SaleTypeID = "SaleTypeID"
@@ -113,10 +113,10 @@ items:
   fullName: SuperOffice.Data.SaleStageConstants.Probability
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string Probability = "Probability"
@@ -141,10 +141,10 @@ items:
   fullName: SuperOffice.Data.SaleStageConstants.SaleTypeStageLinkDeleted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string SaleTypeStageLinkDeleted = "SaleTypeStageLinkDeleted"
@@ -169,10 +169,10 @@ items:
   fullName: SuperOffice.Data.SaleStageConstants.GetDeletedStages
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string GetDeletedStages = "GetDeletedStages"
@@ -197,10 +197,10 @@ items:
   fullName: SuperOffice.Data.SaleStageConstants.HideOptionalRows
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string HideOptionalRows = "HideOptionalRows"
@@ -225,10 +225,10 @@ items:
   fullName: SuperOffice.Data.SaleStageConstants.SaleTypeStageLinkId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string SaleTypeStageLinkId = "SaleTypeStageLinkId"

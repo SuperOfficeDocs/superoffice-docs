@@ -28,10 +28,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimer
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nDisposable class used for timing operations being carried out by NetServer\n"
   syntax:
@@ -74,10 +74,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimer.SoTimer(SuperOffice.Diagnostics.SoTimerType, System.String, SuperOffice.Diagnostics.DeferredToString)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nCreate a new instance of SoTimer and start timing.  Dispose will stop timing.\n"
   syntax:
@@ -110,10 +110,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimer.SoTimer(SuperOffice.Diagnostics.SoTimerType, System.String, System.Func<System.String>)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nCreate a new instance of SoTimer and start timing.  Dispose will stop timing.\n"
   syntax:
@@ -149,10 +149,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimer.SoTimer(SuperOffice.Diagnostics.SoTimerType, System.String, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nCreate a new instance of SoTimer and start timing.  Dispose will stop timing.\n"
   syntax:
@@ -185,10 +185,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType, System.String, SuperOffice.Diagnostics.DeferredToString)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nStart a timing operation.\n"
   syntax:
@@ -226,10 +226,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType, System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nStart a timing operation.\n"
   syntax:
@@ -267,10 +267,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType, System.String, System.Func<System.String>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nStart a timing operation.\n"
   syntax:
@@ -311,10 +311,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimer.Split(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nGet a split timer: time since start time.\n"
   syntax:
@@ -344,10 +344,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimer.Split(System.Func<System.String>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nGet a split timer: time since start time.\n"
   syntax:
@@ -380,10 +380,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimer.Lap(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nGet lap time: time since last time Lap time is obtained, or start if no lap time is previously obtained\n"
   syntax:
@@ -413,10 +413,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimer.Lap(System.Func<System.String>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nGet lap time: time since last time Lap time is obtained, or start if no lap time is previously obtained\n"
   syntax:
@@ -449,10 +449,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimer.End()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public TimeSpan End()
@@ -476,10 +476,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimer.Dispose()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nStop the timing.\n"
   syntax:
@@ -504,10 +504,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimer.Increment()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public void Increment()
@@ -529,10 +529,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimer.Count
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public int Count { get; }
@@ -559,10 +559,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimer.Elapsed
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nGet the elapsed time without further ado.\n"
   syntax:

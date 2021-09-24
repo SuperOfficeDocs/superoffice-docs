@@ -103,6 +103,9 @@ items:
   - SuperOffice.Util.MimeTypes.Nc
   - SuperOffice.Util.MimeTypes.OctetStream
   - SuperOffice.Util.MimeTypes.Oda
+  - SuperOffice.Util.MimeTypes.Odp
+  - SuperOffice.Util.MimeTypes.Ods
+  - SuperOffice.Util.MimeTypes.Odt
   - SuperOffice.Util.MimeTypes.Ogg
   - SuperOffice.Util.MimeTypes.Pbm
   - SuperOffice.Util.MimeTypes.Pct
@@ -208,10 +211,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nClass containing mime-type constants.\n"
   syntax:
@@ -246,10 +249,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Ai
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Ai = "application/postscript"
@@ -274,10 +277,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Aif
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Aif = "audio/x-aiff"
@@ -302,10 +305,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Aifc
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Aifc = "audio/x-aiff"
@@ -330,10 +333,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Aiff
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Aiff = "audio/x-aiff"
@@ -358,10 +361,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Asc
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Asc = "text/plain"
@@ -386,10 +389,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Atom
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Atom = "application/atom+xml"
@@ -414,10 +417,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Au
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Au = "audio/basic"
@@ -442,10 +445,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Avi
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Avi = "video/x-msvideo"
@@ -470,10 +473,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Bcpio
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Bcpio = "application/x-bcpio"
@@ -498,10 +501,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Bin
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Bin = "application/octet-stream"
@@ -526,10 +529,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Bmp
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Bmp = "image/bmp"
@@ -554,10 +557,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Cdf
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Cdf = "application/x-netcdf"
@@ -582,10 +585,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Cgm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Cgm = "image/cgm"
@@ -610,10 +613,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Class
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Class = "application/octet-stream"
@@ -638,10 +641,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Cpio
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Cpio = "application/x-cpio"
@@ -666,10 +669,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Cpt
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Cpt = "application/mac-compactpro"
@@ -694,10 +697,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Csh
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Csh = "application/x-csh"
@@ -722,10 +725,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Css
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Css = "text/css"
@@ -750,10 +753,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Dcr
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Dcr = "application/x-director"
@@ -778,10 +781,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Dif
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Dif = "video/x-dv"
@@ -806,10 +809,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Dir
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Dir = "application/x-director"
@@ -834,10 +837,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Djv
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Djv = "image/vnd.djvu"
@@ -862,10 +865,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Djvu
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Djvu = "image/vnd.djvu"
@@ -890,10 +893,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Dll
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Dll = "application/octet-stream"
@@ -918,10 +921,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Dmg
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Dmg = "application/octet-stream"
@@ -946,10 +949,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Dms
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Dms = "application/octet-stream"
@@ -974,10 +977,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Doc
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Doc = "application/msword"
@@ -1002,10 +1005,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Docx
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Docx = "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
@@ -1030,10 +1033,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Dotx
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Dotx = "application/vnd.openxmlformats-officedocument.wordprocessingml.template"
@@ -1058,10 +1061,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Docm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Docm = "application/vnd.ms-word.document.macroEnabled.12"
@@ -1086,10 +1089,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Dotm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Dotm = "application/vnd.ms-word.template.macroEnabled.12"
@@ -1114,10 +1117,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Dtd
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Dtd = "application/xml-dtd"
@@ -1142,10 +1145,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Dv
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Dv = "video/x-dv"
@@ -1170,10 +1173,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Dvi
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Dvi = "application/x-dvi"
@@ -1198,10 +1201,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Dxr
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Dxr = "application/x-director"
@@ -1226,10 +1229,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Eps
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Eps = "application/postscript"
@@ -1254,10 +1257,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Etx
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Etx = "text/x-setext"
@@ -1282,10 +1285,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Exe
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Exe = "application/octet-stream"
@@ -1310,10 +1313,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Ez
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Ez = "application/andrew-inset"
@@ -1338,10 +1341,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Gif
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Gif = "image/gif"
@@ -1366,10 +1369,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Gram
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Gram = "application/srgs"
@@ -1394,10 +1397,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Grxml
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Grxml = "application/srgs+xml"
@@ -1422,10 +1425,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Gtar
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Gtar = "application/x-gtar"
@@ -1450,10 +1453,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Hdf
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Hdf = "application/x-hdf"
@@ -1478,10 +1481,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Hqx
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Hqx = "application/mac-binhex40"
@@ -1506,10 +1509,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Htm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Htm = "text/html"
@@ -1534,10 +1537,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Html
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Html = "text/html"
@@ -1562,10 +1565,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Ice
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Ice = "x-conference/x-cooltalk"
@@ -1590,10 +1593,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Ico
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Ico = "image/x-icon"
@@ -1618,10 +1621,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Ics
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Ics = "text/calendar"
@@ -1646,10 +1649,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Ief
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Ief = "image/ief"
@@ -1674,10 +1677,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Ifb
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Ifb = "text/calendar"
@@ -1702,10 +1705,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Iges
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Iges = "model/iges"
@@ -1730,10 +1733,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Igs
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Igs = "model/iges"
@@ -1758,10 +1761,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Jnlp
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Jnlp = "application/x-java-jnlp-file"
@@ -1786,10 +1789,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Jp2
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Jp2 = "image/jp2"
@@ -1814,10 +1817,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Jpe
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Jpe = "image/jpeg"
@@ -1842,10 +1845,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Jpeg
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Jpeg = "image/jpeg"
@@ -1870,10 +1873,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Jpg
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Jpg = "image/jpeg"
@@ -1898,10 +1901,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Js
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Js = "application/x-javascript"
@@ -1926,10 +1929,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Kar
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Kar = "audio/midi"
@@ -1954,10 +1957,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Latex
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Latex = "application/x-latex"
@@ -1982,10 +1985,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Lha
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Lha = "application/octet-stream"
@@ -2010,10 +2013,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Lzh
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Lzh = "application/octet-stream"
@@ -2038,10 +2041,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.M3U
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string M3U = "audio/x-mpegurl"
@@ -2066,10 +2069,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.M4A
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string M4A = "audio/mp4a-latm"
@@ -2094,10 +2097,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.M4B
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string M4B = "audio/mp4a-latm"
@@ -2122,10 +2125,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.M4P
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string M4P = "audio/mp4a-latm"
@@ -2150,10 +2153,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.M4U
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string M4U = "video/vnd.mpegurl"
@@ -2178,10 +2181,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.M4V
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string M4V = "video/x-m4v"
@@ -2206,10 +2209,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Mac
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Mac = "image/x-macpaint"
@@ -2234,10 +2237,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Man
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Man = "application/x-troff-man"
@@ -2262,10 +2265,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Mathml
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Mathml = "application/mathml+xml"
@@ -2290,10 +2293,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Me
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Me = "application/x-troff-me"
@@ -2318,10 +2321,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Mesh
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Mesh = "model/mesh"
@@ -2346,10 +2349,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Mid
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Mid = "audio/midi"
@@ -2374,10 +2377,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Midi
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Midi = "audio/midi"
@@ -2402,10 +2405,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Mif
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Mif = "application/vnd.mif"
@@ -2430,10 +2433,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Mov
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Mov = "video/quicktime"
@@ -2458,10 +2461,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Movie
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Movie = "video/x-sgi-movie"
@@ -2486,10 +2489,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Mp2
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Mp2 = "audio/mpeg"
@@ -2514,10 +2517,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Mp3
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Mp3 = "audio/mpeg"
@@ -2542,10 +2545,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Mp4
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Mp4 = "video/mp4"
@@ -2570,10 +2573,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Mpe
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Mpe = "video/mpeg"
@@ -2598,10 +2601,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Mpeg
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Mpeg = "video/mpeg"
@@ -2626,10 +2629,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Mpg
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Mpg = "video/mpeg"
@@ -2654,10 +2657,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Mpga
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Mpga = "audio/mpeg"
@@ -2682,10 +2685,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Ms
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Ms = "application/x-troff-ms"
@@ -2710,10 +2713,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Msh
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Msh = "model/mesh"
@@ -2738,10 +2741,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Mxu
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Mxu = "video/vnd.mpegurl"
@@ -2766,10 +2769,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Nc
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Nc = "application/x-netcdf"
@@ -2794,16 +2797,100 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Oda
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Oda = "application/oda"
     return:
       type: System.String
     content.vb: Public Const Oda As String = "application/oda"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Odt
+  commentId: F:SuperOffice.Util.MimeTypes.Odt
+  id: Odt
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Odt
+  nameWithType: MimeTypes.Odt
+  fullName: SuperOffice.Util.MimeTypes.Odt
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Odt = "application/vnd.oasis.opendocument.text"
+    return:
+      type: System.String
+    content.vb: Public Const Odt As String = "application/vnd.oasis.opendocument.text"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Ods
+  commentId: F:SuperOffice.Util.MimeTypes.Ods
+  id: Ods
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Ods
+  nameWithType: MimeTypes.Ods
+  fullName: SuperOffice.Util.MimeTypes.Ods
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Ods = "application/vnd.oasis.opendocument.spreadsheet"
+    return:
+      type: System.String
+    content.vb: Public Const Ods As String = "application/vnd.oasis.opendocument.spreadsheet"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Odp
+  commentId: F:SuperOffice.Util.MimeTypes.Odp
+  id: Odp
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Odp
+  nameWithType: MimeTypes.Odp
+  fullName: SuperOffice.Util.MimeTypes.Odp
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Odp = "application/vnd.oasis.opendocument.presentation"
+    return:
+      type: System.String
+    content.vb: Public Const Odp As String = "application/vnd.oasis.opendocument.presentation"
   modifiers.csharp:
   - public
   - const
@@ -2822,10 +2909,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Ogg
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Ogg = "application/ogg"
@@ -2850,10 +2937,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Pbm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Pbm = "image/x-portable-bitmap"
@@ -2878,10 +2965,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Pct
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Pct = "image/pict"
@@ -2906,10 +2993,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Pdb
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Pdb = "chemical/x-pdb"
@@ -2934,10 +3021,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Pdf
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Pdf = "application/pdf"
@@ -2962,10 +3049,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Pgm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Pgm = "image/x-portable-graymap"
@@ -2990,10 +3077,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Pgn
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Pgn = "application/x-chess-pgn"
@@ -3018,10 +3105,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Pic
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Pic = "image/pict"
@@ -3046,10 +3133,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Pict
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Pict = "image/pict"
@@ -3074,10 +3161,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Png
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Png = "image/png"
@@ -3102,10 +3189,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Pnm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Pnm = "image/x-portable-anymap"
@@ -3130,10 +3217,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Pnt
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Pnt = "image/x-macpaint"
@@ -3158,10 +3245,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Pntg
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Pntg = "image/x-macpaint"
@@ -3186,10 +3273,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Ppm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Ppm = "image/x-portable-pixmap"
@@ -3214,10 +3301,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Ppt
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Ppt = "application/vnd.ms-powerpoint"
@@ -3242,10 +3329,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Pptx
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Pptx = "application/vnd.openxmlformats-officedocument.presentationml.presentation"
@@ -3270,10 +3357,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Potx
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Potx = "application/vnd.openxmlformats-officedocument.presentationml.template"
@@ -3298,10 +3385,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Ppsx
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Ppsx = "application/vnd.openxmlformats-officedocument.presentationml.slideshow"
@@ -3326,10 +3413,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Ppam
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Ppam = "application/vnd.ms-powerpoint.addin.macroEnabled.12"
@@ -3354,10 +3441,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Pptm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Pptm = "application/vnd.ms-powerpoint.presentation.macroEnabled.12"
@@ -3382,10 +3469,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Potm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Potm = "application/vnd.ms-powerpoint.template.macroEnabled.12"
@@ -3410,10 +3497,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Ppsm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Ppsm = "application/vnd.ms-powerpoint.slideshow.macroEnabled.12"
@@ -3438,10 +3525,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Ps
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Ps = "application/postscript"
@@ -3466,10 +3553,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Qt
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Qt = "video/quicktime"
@@ -3494,10 +3581,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Qti
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Qti = "image/x-quicktime"
@@ -3522,10 +3609,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Qtif
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Qtif = "image/x-quicktime"
@@ -3550,10 +3637,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Ra
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Ra = "audio/x-pn-realaudio"
@@ -3578,10 +3665,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Ram
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Ram = "audio/x-pn-realaudio"
@@ -3606,10 +3693,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Ras
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Ras = "image/x-cmu-raster"
@@ -3634,10 +3721,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Rdf
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Rdf = "application/rdf+xml"
@@ -3662,10 +3749,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Rgb
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Rgb = "image/x-rgb"
@@ -3690,10 +3777,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Rm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Rm = "application/vnd.rn-realmedia"
@@ -3718,10 +3805,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Roff
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Roff = "application/x-troff"
@@ -3746,10 +3833,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Rtf
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Rtf = "text/rtf"
@@ -3774,10 +3861,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Rtx
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Rtx = "text/richtext"
@@ -3802,10 +3889,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Sgm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Sgm = "text/sgml"
@@ -3830,10 +3917,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Sgml
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Sgml = "text/sgml"
@@ -3858,10 +3945,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Sh
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Sh = "application/x-sh"
@@ -3886,10 +3973,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Shar
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Shar = "application/x-shar"
@@ -3914,10 +4001,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Silo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Silo = "model/mesh"
@@ -3942,10 +4029,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Sit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Sit = "application/x-stuffit"
@@ -3970,10 +4057,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Skd
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Skd = "application/x-koan"
@@ -3998,10 +4085,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Skm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Skm = "application/x-koan"
@@ -4026,10 +4113,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Skp
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Skp = "application/x-koan"
@@ -4054,10 +4141,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Skt
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Skt = "application/x-koan"
@@ -4082,10 +4169,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Smi
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Smi = "application/smil"
@@ -4110,10 +4197,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Smil
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Smil = "application/smil"
@@ -4138,10 +4225,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Snd
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Snd = "audio/basic"
@@ -4166,10 +4253,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.So
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string So = "application/octet-stream"
@@ -4194,10 +4281,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Spl
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Spl = "application/x-futuresplash"
@@ -4222,10 +4309,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Src
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Src = "application/x-wais-source"
@@ -4250,10 +4337,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Sv4Cpio
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Sv4Cpio = "application/x-sv4cpio"
@@ -4278,10 +4365,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Sv4Crc
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Sv4Crc = "application/x-sv4crc"
@@ -4306,10 +4393,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Svg
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Svg = "image/svg+xml"
@@ -4334,10 +4421,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Swf
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Swf = "application/x-shockwave-flash"
@@ -4362,10 +4449,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.T
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string T = "application/x-troff"
@@ -4390,10 +4477,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Tar
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Tar = "application/x-tar"
@@ -4418,10 +4505,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Tcl
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Tcl = "application/x-tcl"
@@ -4446,10 +4533,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Tex
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Tex = "application/x-tex"
@@ -4474,10 +4561,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Texi
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Texi = "application/x-texinfo"
@@ -4502,10 +4589,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Texinfo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Texinfo = "application/x-texinfo"
@@ -4530,10 +4617,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Tif
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Tif = "image/tiff"
@@ -4558,10 +4645,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Tiff
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Tiff = "image/tiff"
@@ -4586,10 +4673,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Tr
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Tr = "application/x-troff"
@@ -4614,10 +4701,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Tsv
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Tsv = "text/tab-separated-values"
@@ -4642,10 +4729,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Txt
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Txt = "text/plain"
@@ -4670,10 +4757,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Ustar
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Ustar = "application/x-ustar"
@@ -4698,10 +4785,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Vcd
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Vcd = "application/x-cdlink"
@@ -4726,10 +4813,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Vrml
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Vrml = "model/vrml"
@@ -4754,10 +4841,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Vxml
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Vxml = "application/voicexml+xml"
@@ -4782,10 +4869,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Wav
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Wav = "audio/x-wav"
@@ -4810,10 +4897,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Wbmp
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Wbmp = "image/vnd.wap.wbmp"
@@ -4838,10 +4925,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Wbmxl
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Wbmxl = "application/vnd.wap.wbxml"
@@ -4866,10 +4953,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Wml
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Wml = "text/vnd.wap.wml"
@@ -4894,10 +4981,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Wmlc
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Wmlc = "application/vnd.wap.wmlc"
@@ -4922,10 +5009,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Wmls
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Wmls = "text/vnd.wap.wmlscript"
@@ -4950,10 +5037,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Wmlsc
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Wmlsc = "application/vnd.wap.wmlscriptc"
@@ -4978,10 +5065,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Wrl
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Wrl = "model/vrml"
@@ -5006,10 +5093,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Xbm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Xbm = "image/x-xbitmap"
@@ -5034,10 +5121,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Xht
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Xht = "application/xhtml+xml"
@@ -5062,10 +5149,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Xhtml
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Xhtml = "application/xhtml+xml"
@@ -5090,10 +5177,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Xls
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Xls = "application/vnd.ms-excel"
@@ -5118,10 +5205,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Xml
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Xml = "application/xml"
@@ -5146,10 +5233,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Xpm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Xpm = "image/x-xpixmap"
@@ -5174,10 +5261,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Xsl
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Xsl = "application/xml"
@@ -5202,10 +5289,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Xlsx
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Xlsx = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
@@ -5230,10 +5317,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Xltx
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Xltx = "application/vnd.openxmlformats-officedocument.spreadsheetml.template"
@@ -5258,10 +5345,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Xlsm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Xlsm = "application/vnd.ms-excel.sheet.macroEnabled.12"
@@ -5286,10 +5373,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Xltm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Xltm = "application/vnd.ms-excel.template.macroEnabled.12"
@@ -5314,10 +5401,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Xlam
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Xlam = "application/vnd.ms-excel.addin.macroEnabled.12"
@@ -5342,10 +5429,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Xlsb
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Xlsb = "application/vnd.ms-excel.sheet.binary.macroEnabled.12"
@@ -5370,10 +5457,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Xslt
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Xslt = "application/xslt+xml"
@@ -5398,10 +5485,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Xul
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Xul = "application/vnd.mozilla.xul+xml"
@@ -5426,10 +5513,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Xwd
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Xwd = "image/x-xwindowdump"
@@ -5454,10 +5541,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Xyz
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Xyz = "chemical/x-xyz"
@@ -5482,10 +5569,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Zip
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Zip = "application/zip"
@@ -5510,10 +5597,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.OctetStream
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string OctetStream = "application/octet-stream"
@@ -5538,10 +5625,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Unknown = "unknown/unknown"
@@ -5566,10 +5653,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.GoogleFolder
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string GoogleFolder = "application/vnd.google-apps.folder"
@@ -5594,10 +5681,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Gsheet
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Gsheet = "application/vnd.google-apps.spreadsheet"
@@ -5622,10 +5709,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Gdoc
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Gdoc = "application/vnd.google-apps.document"
@@ -5650,10 +5737,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Gslides
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Gslides = "application/vnd.google-apps.presentation"
@@ -5678,10 +5765,10 @@ items:
   fullName: SuperOffice.Util.MimeTypes.Json
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public const string Json = "application/json"

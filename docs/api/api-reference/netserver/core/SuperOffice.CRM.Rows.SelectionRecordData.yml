@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.Rows.SelectionRecordData.ChartKey
   - SuperOffice.CRM.Rows.SelectionRecordData.CombinationType
   - SuperOffice.CRM.Rows.SelectionRecordData.CompanyUnique
+  - SuperOffice.CRM.Rows.SelectionRecordData.DashboardTileDefinitionId
   - SuperOffice.CRM.Rows.SelectionRecordData.Done
   - SuperOffice.CRM.Rows.SelectionRecordData.GroupIdx
   - SuperOffice.CRM.Rows.SelectionRecordData.IncludePerson
@@ -720,6 +721,33 @@ items:
     return:
       type: System.Int32
     content.vb: Public RightSelectionId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.DashboardTileDefinitionId
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.DashboardTileDefinitionId
+  id: DashboardTileDefinitionId
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileDefinitionId
+  nameWithType: SelectionRecordData.DashboardTileDefinitionId
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.DashboardTileDefinitionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe associated tile definition \n"
+  syntax:
+    content: public int DashboardTileDefinitionId
+    return:
+      type: System.Int32
+    content.vb: Public DashboardTileDefinitionId As Integer
   modifiers.csharp:
   - public
   modifiers.vb:

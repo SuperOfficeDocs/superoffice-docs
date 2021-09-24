@@ -33,6 +33,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRecordData.Location
   - SuperOffice.CRM.Rows.AppointmentRecordData.MotherAssociateId
   - SuperOffice.CRM.Rows.AppointmentRecordData.MotherId
+  - SuperOffice.CRM.Rows.AppointmentRecordData.OriginalStartDate
   - SuperOffice.CRM.Rows.AppointmentRecordData.PersonId
   - SuperOffice.CRM.Rows.AppointmentRecordData.PreferredTZLocation
   - SuperOffice.CRM.Rows.AppointmentRecordData.PriorityIdx
@@ -1388,6 +1389,33 @@ items:
     return:
       type: System.String
     content.vb: Public CentralserviceVideomeetId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.OriginalStartDate
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.OriginalStartDate
+  id: OriginalStartDate
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: OriginalStartDate
+  nameWithType: AppointmentRecordData.OriginalStartDate
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.OriginalStartDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe original start date for an appointment in a recurring series \n"
+  syntax:
+    content: public DateTime OriginalStartDate
+    return:
+      type: System.DateTime
+    content.vb: Public OriginalStartDate As Date
   modifiers.csharp:
   - public
   modifiers.vb:

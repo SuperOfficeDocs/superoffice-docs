@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Data.RecurrencePattern
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nEnumerator describing the main pattern of recurrence.\nThis Enum is used by:  RecurrenceRule.pattern\n"
   syntax:
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.Data.RecurrencePattern.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: 0: Unknown/undecided type\n"
   syntax:
@@ -79,10 +79,10 @@ items:
   fullName: SuperOffice.Data.RecurrencePattern.Daily
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Dayly recurrence.\n"
   syntax:
@@ -107,10 +107,10 @@ items:
   fullName: SuperOffice.Data.RecurrencePattern.Weekly
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Weekly recurrence.\n"
   syntax:
@@ -135,10 +135,10 @@ items:
   fullName: SuperOffice.Data.RecurrencePattern.Monthly
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Monthly recurrence.\n"
   syntax:
@@ -163,10 +163,10 @@ items:
   fullName: SuperOffice.Data.RecurrencePattern.Yearly
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Yearly recurrence.\n"
   syntax:
@@ -191,10 +191,10 @@ items:
   fullName: SuperOffice.Data.RecurrencePattern.Custom
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Custom recurrence, only dates are specified.  See RecurrenceDayPattern for details\n"
   syntax:

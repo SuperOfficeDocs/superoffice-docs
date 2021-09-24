@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.QuoteStatus
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nThe state of a quote-alternative or line\nThis Enum is used by:  QuoteVersion.Status; QuoteAlternative.Status; QuoteLine.Status\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.QuoteStatus.Ok
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: OK, all is good\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.QuoteStatus.OkWithInfo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: All is good, but there is some additional information that the user should be made aware of.\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.QuoteStatus.Warning
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: There is a problem that the user must be made aware of.\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.QuoteStatus.Error
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: There is a problem that the system will not be able to get around. The user needs to do something. Example: The user has registered a quoteline that is discountinued and the amount the user has registered is not in stock.\n"
   syntax:

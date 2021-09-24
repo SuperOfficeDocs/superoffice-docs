@@ -21,6 +21,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
+  summary: "\nArchive of CRMScripts. Returns script id + name of script as hierarchy.\n"
   syntax:
     content: >-
       [MDOProviderPlugin("CRMScript")]

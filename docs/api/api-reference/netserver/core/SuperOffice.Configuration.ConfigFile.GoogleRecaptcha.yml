@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.GoogleRecaptcha
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nConfuguration values for the Google Recaptcha validation service.\n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.GoogleRecaptcha.VerificationUrl
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nURL for Google Recaptcha validation service.\n"
   syntax:
@@ -87,10 +87,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.GoogleRecaptcha.SiteKey
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe site key from from the Google Recaptcha instance.\n"
   syntax:
@@ -120,10 +120,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.GoogleRecaptcha.SecretKey
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe secret key from the Google Recaptcha instance.\n"
   syntax:

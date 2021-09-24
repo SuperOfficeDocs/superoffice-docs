@@ -11,6 +11,7 @@ items:
   - SuperOffice.CRM.Cache.SystemEventCache.GetCurrent
   - SuperOffice.CRM.Cache.SystemEventCache.IsAnyPublishEventActive
   - SuperOffice.CRM.Cache.SystemEventCache.IsAnyPublishEventActiveExcept(SuperOffice.Data.UDefType)
+  - SuperOffice.CRM.Cache.SystemEventCache.IsFreetextRebuildEventActive
   - SuperOffice.CRM.Cache.SystemEventCache.IsPublishEventActive(SuperOffice.Data.UDefType)
   - SuperOffice.CRM.Cache.SystemEventCache.IsPublishStartEventActive(SuperOffice.Data.UDefType)
   - SuperOffice.CRM.Cache.SystemEventCache.LastRead
@@ -133,6 +134,33 @@ items:
       type: System.Boolean
     content.vb: Public Function CheckRefresh As Boolean
   overload: SuperOffice.CRM.Cache.SystemEventCache.CheckRefresh*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Cache.SystemEventCache.IsFreetextRebuildEventActive
+  commentId: M:SuperOffice.CRM.Cache.SystemEventCache.IsFreetextRebuildEventActive
+  id: IsFreetextRebuildEventActive
+  parent: SuperOffice.CRM.Cache.SystemEventCache
+  langs:
+  - csharp
+  - vb
+  name: IsFreetextRebuildEventActive()
+  nameWithType: SystemEventCache.IsFreetextRebuildEventActive()
+  fullName: SuperOffice.CRM.Cache.SystemEventCache.IsFreetextRebuildEventActive()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: public bool IsFreetextRebuildEventActive()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsFreetextRebuildEventActive As Boolean
+  overload: SuperOffice.CRM.Cache.SystemEventCache.IsFreetextRebuildEventActive*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1039,6 +1067,12 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: SuperOffice.CRM.Cache.SystemEventCache.IsFreetextRebuildEventActive*
+  commentId: Overload:SuperOffice.CRM.Cache.SystemEventCache.IsFreetextRebuildEventActive
+  isExternal: true
+  name: IsFreetextRebuildEventActive
+  nameWithType: SystemEventCache.IsFreetextRebuildEventActive
+  fullName: SuperOffice.CRM.Cache.SystemEventCache.IsFreetextRebuildEventActive
 - uid: SuperOffice.CRM.Cache.SystemEventCache.IsAnyPublishEventActive*
   commentId: Overload:SuperOffice.CRM.Cache.SystemEventCache.IsAnyPublishEventActive
   isExternal: true

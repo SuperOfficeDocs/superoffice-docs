@@ -31,10 +31,12 @@ items:
   - SuperOffice.CRM.Rows.TicketRow._currentFormSubmissionId
   - SuperOffice.CRM.Rows.TicketRow._currentFromAddress
   - SuperOffice.CRM.Rows.TicketRow._currentHasAttachment
+  - SuperOffice.CRM.Rows.TicketRow._currentLanguage
   - SuperOffice.CRM.Rows.TicketRow._currentLastChanged
   - SuperOffice.CRM.Rows.TicketRow._currentNumMessages
   - SuperOffice.CRM.Rows.TicketRow._currentNumReplies
   - SuperOffice.CRM.Rows.TicketRow._currentOrigCategory
+  - SuperOffice.CRM.Rows.TicketRow._currentOrigHumanCategoryId
   - SuperOffice.CRM.Rows.TicketRow._currentOrigin
   - SuperOffice.CRM.Rows.TicketRow._currentOrigPriority
   - SuperOffice.CRM.Rows.TicketRow._currentOwnedBy
@@ -48,8 +50,11 @@ items:
   - SuperOffice.CRM.Rows.TicketRow._currentRealTimeToClose
   - SuperOffice.CRM.Rows.TicketRow._currentRealTimeToReply
   - SuperOffice.CRM.Rows.TicketRow._currentRepliedAt
+  - SuperOffice.CRM.Rows.TicketRow._currentSentiment
+  - SuperOffice.CRM.Rows.TicketRow._currentSentimentConfidence
   - SuperOffice.CRM.Rows.TicketRow._currentSlevel
   - SuperOffice.CRM.Rows.TicketRow._currentStatus
+  - SuperOffice.CRM.Rows.TicketRow._currentSuggestedCategoryId
   - SuperOffice.CRM.Rows.TicketRow._currentTags
   - SuperOffice.CRM.Rows.TicketRow._currentTicketId
   - SuperOffice.CRM.Rows.TicketRow._currentTicketStatus
@@ -86,10 +91,12 @@ items:
   - SuperOffice.CRM.Rows.TicketRow._onFormSubmissionIdChange
   - SuperOffice.CRM.Rows.TicketRow._onFromAddressChange
   - SuperOffice.CRM.Rows.TicketRow._onHasAttachmentChange
+  - SuperOffice.CRM.Rows.TicketRow._onLanguageChange
   - SuperOffice.CRM.Rows.TicketRow._onLastChangedChange
   - SuperOffice.CRM.Rows.TicketRow._onNumMessagesChange
   - SuperOffice.CRM.Rows.TicketRow._onNumRepliesChange
   - SuperOffice.CRM.Rows.TicketRow._onOrigCategoryChange
+  - SuperOffice.CRM.Rows.TicketRow._onOrigHumanCategoryIdChange
   - SuperOffice.CRM.Rows.TicketRow._onOriginChange
   - SuperOffice.CRM.Rows.TicketRow._onOrigPriorityChange
   - SuperOffice.CRM.Rows.TicketRow._onOwnedByChange
@@ -103,8 +110,11 @@ items:
   - SuperOffice.CRM.Rows.TicketRow._onRealTimeToCloseChange
   - SuperOffice.CRM.Rows.TicketRow._onRealTimeToReplyChange
   - SuperOffice.CRM.Rows.TicketRow._onRepliedAtChange
+  - SuperOffice.CRM.Rows.TicketRow._onSentimentChange
+  - SuperOffice.CRM.Rows.TicketRow._onSentimentConfidenceChange
   - SuperOffice.CRM.Rows.TicketRow._onSlevelChange
   - SuperOffice.CRM.Rows.TicketRow._onStatusChange
+  - SuperOffice.CRM.Rows.TicketRow._onSuggestedCategoryIdChange
   - SuperOffice.CRM.Rows.TicketRow._onTagsChange
   - SuperOffice.CRM.Rows.TicketRow._onTicketStatusChange
   - SuperOffice.CRM.Rows.TicketRow._onTicketTypeChange
@@ -140,10 +150,12 @@ items:
   - SuperOffice.CRM.Rows.TicketRow._persistedFormSubmissionId
   - SuperOffice.CRM.Rows.TicketRow._persistedFromAddress
   - SuperOffice.CRM.Rows.TicketRow._persistedHasAttachment
+  - SuperOffice.CRM.Rows.TicketRow._persistedLanguage
   - SuperOffice.CRM.Rows.TicketRow._persistedLastChanged
   - SuperOffice.CRM.Rows.TicketRow._persistedNumMessages
   - SuperOffice.CRM.Rows.TicketRow._persistedNumReplies
   - SuperOffice.CRM.Rows.TicketRow._persistedOrigCategory
+  - SuperOffice.CRM.Rows.TicketRow._persistedOrigHumanCategoryId
   - SuperOffice.CRM.Rows.TicketRow._persistedOrigin
   - SuperOffice.CRM.Rows.TicketRow._persistedOrigPriority
   - SuperOffice.CRM.Rows.TicketRow._persistedOwnedBy
@@ -157,8 +169,11 @@ items:
   - SuperOffice.CRM.Rows.TicketRow._persistedRealTimeToClose
   - SuperOffice.CRM.Rows.TicketRow._persistedRealTimeToReply
   - SuperOffice.CRM.Rows.TicketRow._persistedRepliedAt
+  - SuperOffice.CRM.Rows.TicketRow._persistedSentiment
+  - SuperOffice.CRM.Rows.TicketRow._persistedSentimentConfidence
   - SuperOffice.CRM.Rows.TicketRow._persistedSlevel
   - SuperOffice.CRM.Rows.TicketRow._persistedStatus
+  - SuperOffice.CRM.Rows.TicketRow._persistedSuggestedCategoryId
   - SuperOffice.CRM.Rows.TicketRow._persistedTags
   - SuperOffice.CRM.Rows.TicketRow._persistedTicketId
   - SuperOffice.CRM.Rows.TicketRow._persistedTicketStatus
@@ -209,6 +224,7 @@ items:
   - SuperOffice.CRM.Rows.TicketRow.IsNew
   - SuperOffice.CRM.Rows.TicketRow.IsPersistedFieldValueKnown(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.TicketRow.Item(System.String)
+  - SuperOffice.CRM.Rows.TicketRow.Language
   - SuperOffice.CRM.Rows.TicketRow.LastChanged
   - SuperOffice.CRM.Rows.TicketRow.NumMessages
   - SuperOffice.CRM.Rows.TicketRow.NumReplies
@@ -237,11 +253,13 @@ items:
   - SuperOffice.CRM.Rows.TicketRow.OnFormSubmissionIdChange
   - SuperOffice.CRM.Rows.TicketRow.OnFromAddressChange
   - SuperOffice.CRM.Rows.TicketRow.OnHasAttachmentChange
+  - SuperOffice.CRM.Rows.TicketRow.OnLanguageChange
   - SuperOffice.CRM.Rows.TicketRow.OnLastChangedChange
   - SuperOffice.CRM.Rows.TicketRow.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.TicketRow.OnNumMessagesChange
   - SuperOffice.CRM.Rows.TicketRow.OnNumRepliesChange
   - SuperOffice.CRM.Rows.TicketRow.OnOrigCategoryChange
+  - SuperOffice.CRM.Rows.TicketRow.OnOrigHumanCategoryIdChange
   - SuperOffice.CRM.Rows.TicketRow.OnOriginChange
   - SuperOffice.CRM.Rows.TicketRow.OnOrigPriorityChange
   - SuperOffice.CRM.Rows.TicketRow.OnOwnedByChange
@@ -257,8 +275,11 @@ items:
   - SuperOffice.CRM.Rows.TicketRow.OnRepliedAtChange
   - SuperOffice.CRM.Rows.TicketRow.OnSave(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.CRM.Rows.TicketRow.OnSaved(System.Boolean)
+  - SuperOffice.CRM.Rows.TicketRow.OnSentimentChange
+  - SuperOffice.CRM.Rows.TicketRow.OnSentimentConfidenceChange
   - SuperOffice.CRM.Rows.TicketRow.OnSlevelChange
   - SuperOffice.CRM.Rows.TicketRow.OnStatusChange
+  - SuperOffice.CRM.Rows.TicketRow.OnSuggestedCategoryIdChange
   - SuperOffice.CRM.Rows.TicketRow.OnTagsChange
   - SuperOffice.CRM.Rows.TicketRow.OnTicketStatusChange
   - SuperOffice.CRM.Rows.TicketRow.OnTicketTypeChange
@@ -270,6 +291,7 @@ items:
   - SuperOffice.CRM.Rows.TicketRow.OnTimeToReplyChange
   - SuperOffice.CRM.Rows.TicketRow.OnTitleChange
   - SuperOffice.CRM.Rows.TicketRow.OrigCategory
+  - SuperOffice.CRM.Rows.TicketRow.OrigHumanCategoryId
   - SuperOffice.CRM.Rows.TicketRow.Origin
   - SuperOffice.CRM.Rows.TicketRow.OrigPriority
   - SuperOffice.CRM.Rows.TicketRow.OwnedBy
@@ -284,11 +306,14 @@ items:
   - SuperOffice.CRM.Rows.TicketRow.RealTimeToReply
   - SuperOffice.CRM.Rows.TicketRow.RepliedAt
   - SuperOffice.CRM.Rows.TicketRow.Reset
+  - SuperOffice.CRM.Rows.TicketRow.Sentiment
+  - SuperOffice.CRM.Rows.TicketRow.SentimentConfidence
   - SuperOffice.CRM.Rows.TicketRow.SetDefaults(SuperOffice.CRM.Rows.DefaulterStrategy)
   - SuperOffice.CRM.Rows.TicketRow.SetPrimaryKey(System.Int32)
   - SuperOffice.CRM.Rows.TicketRow.SetRowAsNew
   - SuperOffice.CRM.Rows.TicketRow.Slevel
   - SuperOffice.CRM.Rows.TicketRow.Status
+  - SuperOffice.CRM.Rows.TicketRow.SuggestedCategoryId
   - SuperOffice.CRM.Rows.TicketRow.TableInfo
   - SuperOffice.CRM.Rows.TicketRow.Tags
   - SuperOffice.CRM.Rows.TicketRow.TicketId
@@ -354,6 +379,7 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.CRM.Rows.IdxBase,SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+  - SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
   - SuperOffice.CRM.Rows.TableRowBase.SetSaveOwner(SuperOffice.Data.INestedPersist)
   - SuperOffice.CRM.Rows.TableRowBase.Save
   - SuperOffice.CRM.Rows.TableRowBase.Delete
@@ -1874,6 +1900,87 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.TicketRow._persistedLanguage
+  commentId: F:SuperOffice.CRM.Rows.TicketRow._persistedLanguage
+  id: _persistedLanguage
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedLanguage
+  nameWithType: TicketRow._persistedLanguage
+  fullName: SuperOffice.CRM.Rows.TicketRow._persistedLanguage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.TicketRow.Language\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected string _persistedLanguage
+    return:
+      type: System.String
+    content.vb: Protected _persistedLanguage As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.TicketRow._persistedSentiment
+  commentId: F:SuperOffice.CRM.Rows.TicketRow._persistedSentiment
+  id: _persistedSentiment
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedSentiment
+  nameWithType: TicketRow._persistedSentiment
+  fullName: SuperOffice.CRM.Rows.TicketRow._persistedSentiment
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.TicketRow.Sentiment\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _persistedSentiment
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedSentiment As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.TicketRow._persistedSentimentConfidence
+  commentId: F:SuperOffice.CRM.Rows.TicketRow._persistedSentimentConfidence
+  id: _persistedSentimentConfidence
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedSentimentConfidence
+  nameWithType: TicketRow._persistedSentimentConfidence
+  fullName: SuperOffice.CRM.Rows.TicketRow._persistedSentimentConfidence
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.TicketRow.SentimentConfidence\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _persistedSentimentConfidence
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedSentimentConfidence As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.TicketRow._persistedFormSubmissionId
   commentId: F:SuperOffice.CRM.Rows.TicketRow._persistedFormSubmissionId
   id: _persistedFormSubmissionId
@@ -1897,6 +2004,60 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _persistedFormSubmissionId As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.TicketRow._persistedSuggestedCategoryId
+  commentId: F:SuperOffice.CRM.Rows.TicketRow._persistedSuggestedCategoryId
+  id: _persistedSuggestedCategoryId
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedSuggestedCategoryId
+  nameWithType: TicketRow._persistedSuggestedCategoryId
+  fullName: SuperOffice.CRM.Rows.TicketRow._persistedSuggestedCategoryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.TicketRow.SuggestedCategoryId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _persistedSuggestedCategoryId
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedSuggestedCategoryId As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.TicketRow._persistedOrigHumanCategoryId
+  commentId: F:SuperOffice.CRM.Rows.TicketRow._persistedOrigHumanCategoryId
+  id: _persistedOrigHumanCategoryId
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedOrigHumanCategoryId
+  nameWithType: TicketRow._persistedOrigHumanCategoryId
+  fullName: SuperOffice.CRM.Rows.TicketRow._persistedOrigHumanCategoryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.TicketRow.OrigHumanCategoryId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _persistedOrigHumanCategoryId
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedOrigHumanCategoryId As Integer
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -3359,6 +3520,87 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.TicketRow._currentLanguage
+  commentId: F:SuperOffice.CRM.Rows.TicketRow._currentLanguage
+  id: _currentLanguage
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: _currentLanguage
+  nameWithType: TicketRow._currentLanguage
+  fullName: SuperOffice.CRM.Rows.TicketRow._currentLanguage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.TicketRow.Language\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected string _currentLanguage
+    return:
+      type: System.String
+    content.vb: Protected _currentLanguage As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.TicketRow._currentSentiment
+  commentId: F:SuperOffice.CRM.Rows.TicketRow._currentSentiment
+  id: _currentSentiment
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: _currentSentiment
+  nameWithType: TicketRow._currentSentiment
+  fullName: SuperOffice.CRM.Rows.TicketRow._currentSentiment
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.TicketRow.Sentiment\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _currentSentiment
+    return:
+      type: System.Int32
+    content.vb: Protected _currentSentiment As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.TicketRow._currentSentimentConfidence
+  commentId: F:SuperOffice.CRM.Rows.TicketRow._currentSentimentConfidence
+  id: _currentSentimentConfidence
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: _currentSentimentConfidence
+  nameWithType: TicketRow._currentSentimentConfidence
+  fullName: SuperOffice.CRM.Rows.TicketRow._currentSentimentConfidence
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.TicketRow.SentimentConfidence\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _currentSentimentConfidence
+    return:
+      type: System.Int32
+    content.vb: Protected _currentSentimentConfidence As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.TicketRow._currentFormSubmissionId
   commentId: F:SuperOffice.CRM.Rows.TicketRow._currentFormSubmissionId
   id: _currentFormSubmissionId
@@ -3382,6 +3624,60 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _currentFormSubmissionId As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.TicketRow._currentSuggestedCategoryId
+  commentId: F:SuperOffice.CRM.Rows.TicketRow._currentSuggestedCategoryId
+  id: _currentSuggestedCategoryId
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: _currentSuggestedCategoryId
+  nameWithType: TicketRow._currentSuggestedCategoryId
+  fullName: SuperOffice.CRM.Rows.TicketRow._currentSuggestedCategoryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.TicketRow.SuggestedCategoryId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _currentSuggestedCategoryId
+    return:
+      type: System.Int32
+    content.vb: Protected _currentSuggestedCategoryId As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.TicketRow._currentOrigHumanCategoryId
+  commentId: F:SuperOffice.CRM.Rows.TicketRow._currentOrigHumanCategoryId
+  id: _currentOrigHumanCategoryId
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: _currentOrigHumanCategoryId
+  nameWithType: TicketRow._currentOrigHumanCategoryId
+  fullName: SuperOffice.CRM.Rows.TicketRow._currentOrigHumanCategoryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.TicketRow.OrigHumanCategoryId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _currentOrigHumanCategoryId
+    return:
+      type: System.Int32
+    content.vb: Protected _currentOrigHumanCategoryId As Integer
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -5781,20 +6077,18 @@ items:
   summary: "\n.NET type: TicketOrigin. What is the origin of this ticket \n"
   remarks: "\nOriginal type in dictionary:  Enum.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
   syntax:
-    content: public virtual TicketOrigin Origin { get; set; }
+    content: public TicketOrigin Origin { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.TicketOrigin
-    content.vb: Public Overridable Property Origin As TicketOrigin
+    content.vb: Public Property Origin As TicketOrigin
   overload: SuperOffice.CRM.Rows.TicketRow.Origin*
   modifiers.csharp:
   - public
-  - virtual
   - get
   - set
   modifiers.vb:
   - Public
-  - Overridable
 - uid: SuperOffice.CRM.Rows.TicketRow.TimeSpentInternally
   commentId: P:SuperOffice.CRM.Rows.TicketRow.TimeSpentInternally
   id: TimeSpentInternally
@@ -6277,6 +6571,108 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Rows.TicketRow.Language
+  commentId: P:SuperOffice.CRM.Rows.TicketRow.Language
+  id: Language
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: TicketRow.Language
+  fullName: SuperOffice.CRM.Rows.TicketRow.Language
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: string. The language of the first external message \n"
+  remarks: "\nOriginal type in dictionary:  String[11].\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual string Language { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Language As String
+  overload: SuperOffice.CRM.Rows.TicketRow.Language*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Rows.TicketRow.Sentiment
+  commentId: P:SuperOffice.CRM.Rows.TicketRow.Sentiment
+  id: Sentiment
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: Sentiment
+  nameWithType: TicketRow.Sentiment
+  fullName: SuperOffice.CRM.Rows.TicketRow.Sentiment
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: int. The sentiment index of the last external message \n"
+  remarks: "\nOriginal type in dictionary:  Int.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual int Sentiment { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Sentiment As Integer
+  overload: SuperOffice.CRM.Rows.TicketRow.Sentiment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Rows.TicketRow.SentimentConfidence
+  commentId: P:SuperOffice.CRM.Rows.TicketRow.SentimentConfidence
+  id: SentimentConfidence
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: SentimentConfidence
+  nameWithType: TicketRow.SentimentConfidence
+  fullName: SuperOffice.CRM.Rows.TicketRow.SentimentConfidence
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: int. The sentiment confidence of the last external message \n"
+  remarks: "\nOriginal type in dictionary:  Int.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual int SentimentConfidence { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SentimentConfidence As Integer
+  overload: SuperOffice.CRM.Rows.TicketRow.SentimentConfidence*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Rows.TicketRow.FormSubmissionId
   commentId: P:SuperOffice.CRM.Rows.TicketRow.FormSubmissionId
   id: FormSubmissionId
@@ -6303,6 +6699,74 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property FormSubmissionId As Integer
   overload: SuperOffice.CRM.Rows.TicketRow.FormSubmissionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Rows.TicketRow.SuggestedCategoryId
+  commentId: P:SuperOffice.CRM.Rows.TicketRow.SuggestedCategoryId
+  id: SuggestedCategoryId
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: SuggestedCategoryId
+  nameWithType: TicketRow.SuggestedCategoryId
+  fullName: SuperOffice.CRM.Rows.TicketRow.SuggestedCategoryId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: int. Suggestion for categorization, based on the text of the message (AI) \n"
+  remarks: "\nOriginal type in dictionary:  FK.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual int SuggestedCategoryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SuggestedCategoryId As Integer
+  overload: SuperOffice.CRM.Rows.TicketRow.SuggestedCategoryId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Rows.TicketRow.OrigHumanCategoryId
+  commentId: P:SuperOffice.CRM.Rows.TicketRow.OrigHumanCategoryId
+  id: OrigHumanCategoryId
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: OrigHumanCategoryId
+  nameWithType: TicketRow.OrigHumanCategoryId
+  fullName: SuperOffice.CRM.Rows.TicketRow.OrigHumanCategoryId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: int. Will contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category \n"
+  remarks: "\nOriginal type in dictionary:  FK.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual int OrigHumanCategoryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property OrigHumanCategoryId As Integer
+  overload: SuperOffice.CRM.Rows.TicketRow.OrigHumanCategoryId*
   modifiers.csharp:
   - public
   - virtual
@@ -7742,6 +8206,87 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.TicketRow._onLanguageChange
+  commentId: E:SuperOffice.CRM.Rows.TicketRow._onLanguageChange
+  id: _onLanguageChange
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: _onLanguageChange
+  nameWithType: TicketRow._onLanguageChange
+  fullName: SuperOffice.CRM.Rows.TicketRow._onLanguageChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketRow.Language\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
+  syntax:
+    content: protected event OnFieldChange<string> _onLanguageChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
+    content.vb: Protected Event _onLanguageChange As OnFieldChange(Of String)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.TicketRow._onSentimentChange
+  commentId: E:SuperOffice.CRM.Rows.TicketRow._onSentimentChange
+  id: _onSentimentChange
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: _onSentimentChange
+  nameWithType: TicketRow._onSentimentChange
+  fullName: SuperOffice.CRM.Rows.TicketRow._onSentimentChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketRow.Sentiment\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
+  syntax:
+    content: protected event OnFieldChange<int> _onSentimentChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Event _onSentimentChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.TicketRow._onSentimentConfidenceChange
+  commentId: E:SuperOffice.CRM.Rows.TicketRow._onSentimentConfidenceChange
+  id: _onSentimentConfidenceChange
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: _onSentimentConfidenceChange
+  nameWithType: TicketRow._onSentimentConfidenceChange
+  fullName: SuperOffice.CRM.Rows.TicketRow._onSentimentConfidenceChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketRow.SentimentConfidence\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
+  syntax:
+    content: protected event OnFieldChange<int> _onSentimentConfidenceChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Event _onSentimentConfidenceChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.TicketRow._onFormSubmissionIdChange
   commentId: E:SuperOffice.CRM.Rows.TicketRow._onFormSubmissionIdChange
   id: _onFormSubmissionIdChange
@@ -7765,6 +8310,60 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
     content.vb: Protected Event _onFormSubmissionIdChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.TicketRow._onSuggestedCategoryIdChange
+  commentId: E:SuperOffice.CRM.Rows.TicketRow._onSuggestedCategoryIdChange
+  id: _onSuggestedCategoryIdChange
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: _onSuggestedCategoryIdChange
+  nameWithType: TicketRow._onSuggestedCategoryIdChange
+  fullName: SuperOffice.CRM.Rows.TicketRow._onSuggestedCategoryIdChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketRow.SuggestedCategoryId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
+  syntax:
+    content: protected event OnFieldChange<int> _onSuggestedCategoryIdChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Event _onSuggestedCategoryIdChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.TicketRow._onOrigHumanCategoryIdChange
+  commentId: E:SuperOffice.CRM.Rows.TicketRow._onOrigHumanCategoryIdChange
+  id: _onOrigHumanCategoryIdChange
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: _onOrigHumanCategoryIdChange
+  nameWithType: TicketRow._onOrigHumanCategoryIdChange
+  fullName: SuperOffice.CRM.Rows.TicketRow._onOrigHumanCategoryIdChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketRow.OrigHumanCategoryId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
+  syntax:
+    content: protected event OnFieldChange<int> _onOrigHumanCategoryIdChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Event _onOrigHumanCategoryIdChange As OnFieldChange(Of Integer)
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -9200,6 +9799,87 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Rows.TicketRow.OnLanguageChange
+  commentId: E:SuperOffice.CRM.Rows.TicketRow.OnLanguageChange
+  id: OnLanguageChange
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: OnLanguageChange
+  nameWithType: TicketRow.OnLanguageChange
+  fullName: SuperOffice.CRM.Rows.TicketRow.OnLanguageChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when Language is changing.\n"
+  syntax:
+    content: public event OnFieldChange<string> OnLanguageChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
+    content.vb: Public Event OnLanguageChange As OnFieldChange(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRow.OnSentimentChange
+  commentId: E:SuperOffice.CRM.Rows.TicketRow.OnSentimentChange
+  id: OnSentimentChange
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: OnSentimentChange
+  nameWithType: TicketRow.OnSentimentChange
+  fullName: SuperOffice.CRM.Rows.TicketRow.OnSentimentChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when Sentiment is changing.\n"
+  syntax:
+    content: public event OnFieldChange<int> OnSentimentChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Event OnSentimentChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRow.OnSentimentConfidenceChange
+  commentId: E:SuperOffice.CRM.Rows.TicketRow.OnSentimentConfidenceChange
+  id: OnSentimentConfidenceChange
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: OnSentimentConfidenceChange
+  nameWithType: TicketRow.OnSentimentConfidenceChange
+  fullName: SuperOffice.CRM.Rows.TicketRow.OnSentimentConfidenceChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when SentimentConfidence is changing.\n"
+  syntax:
+    content: public event OnFieldChange<int> OnSentimentConfidenceChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Event OnSentimentConfidenceChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRow.OnFormSubmissionIdChange
   commentId: E:SuperOffice.CRM.Rows.TicketRow.OnFormSubmissionIdChange
   id: OnFormSubmissionIdChange
@@ -9223,6 +9903,60 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
     content.vb: Public Event OnFormSubmissionIdChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRow.OnSuggestedCategoryIdChange
+  commentId: E:SuperOffice.CRM.Rows.TicketRow.OnSuggestedCategoryIdChange
+  id: OnSuggestedCategoryIdChange
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: OnSuggestedCategoryIdChange
+  nameWithType: TicketRow.OnSuggestedCategoryIdChange
+  fullName: SuperOffice.CRM.Rows.TicketRow.OnSuggestedCategoryIdChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when SuggestedCategoryId is changing.\n"
+  syntax:
+    content: public event OnFieldChange<int> OnSuggestedCategoryIdChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Event OnSuggestedCategoryIdChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRow.OnOrigHumanCategoryIdChange
+  commentId: E:SuperOffice.CRM.Rows.TicketRow.OnOrigHumanCategoryIdChange
+  id: OnOrigHumanCategoryIdChange
+  parent: SuperOffice.CRM.Rows.TicketRow
+  langs:
+  - csharp
+  - vb
+  name: OnOrigHumanCategoryIdChange
+  nameWithType: TicketRow.OnOrigHumanCategoryIdChange
+  fullName: SuperOffice.CRM.Rows.TicketRow.OnOrigHumanCategoryIdChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when OrigHumanCategoryId is changing.\n"
+  syntax:
+    content: public event OnFieldChange<int> OnOrigHumanCategoryIdChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Event OnOrigHumanCategoryIdChange As OnFieldChange(Of Integer)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -9893,6 +10627,63 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: SetDefaults(DashboardTileDefinitionRow, String)
+  nameWithType: TableRowBase.SetDefaults(DashboardTileDefinitionRow, String)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -13131,12 +13922,42 @@ references:
   name: ContactId
   nameWithType: TicketRow.ContactId
   fullName: SuperOffice.CRM.Rows.TicketRow.ContactId
+- uid: SuperOffice.CRM.Rows.TicketRow.Language*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketRow.Language
+  isExternal: true
+  name: Language
+  nameWithType: TicketRow.Language
+  fullName: SuperOffice.CRM.Rows.TicketRow.Language
+- uid: SuperOffice.CRM.Rows.TicketRow.Sentiment*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketRow.Sentiment
+  isExternal: true
+  name: Sentiment
+  nameWithType: TicketRow.Sentiment
+  fullName: SuperOffice.CRM.Rows.TicketRow.Sentiment
+- uid: SuperOffice.CRM.Rows.TicketRow.SentimentConfidence*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketRow.SentimentConfidence
+  isExternal: true
+  name: SentimentConfidence
+  nameWithType: TicketRow.SentimentConfidence
+  fullName: SuperOffice.CRM.Rows.TicketRow.SentimentConfidence
 - uid: SuperOffice.CRM.Rows.TicketRow.FormSubmissionId*
   commentId: Overload:SuperOffice.CRM.Rows.TicketRow.FormSubmissionId
   isExternal: true
   name: FormSubmissionId
   nameWithType: TicketRow.FormSubmissionId
   fullName: SuperOffice.CRM.Rows.TicketRow.FormSubmissionId
+- uid: SuperOffice.CRM.Rows.TicketRow.SuggestedCategoryId*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketRow.SuggestedCategoryId
+  isExternal: true
+  name: SuggestedCategoryId
+  nameWithType: TicketRow.SuggestedCategoryId
+  fullName: SuperOffice.CRM.Rows.TicketRow.SuggestedCategoryId
+- uid: SuperOffice.CRM.Rows.TicketRow.OrigHumanCategoryId*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketRow.OrigHumanCategoryId
+  isExternal: true
+  name: OrigHumanCategoryId
+  nameWithType: TicketRow.OrigHumanCategoryId
+  fullName: SuperOffice.CRM.Rows.TicketRow.OrigHumanCategoryId
 - uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   parent: SuperOffice.CRM.Rows

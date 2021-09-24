@@ -28,10 +28,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nInteger values (negative ones!) used instead of EFieldId to indicate\nthat an archive column has a complex ancestry, instead of just being \nmapped directly to a field.\n"
   syntax:
@@ -66,10 +66,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.PersonFullName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nFull name of person, composed of first, optionally middle, last; formatted according\nto the full preference set\n"
   syntax:
@@ -95,10 +95,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.ContactNameDepartment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nName + optional comma + Department of contact\n"
   syntax:
@@ -124,10 +124,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.BirthDate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nBirth date, composed of the day, month and year fields on person\n"
   syntax:
@@ -153,10 +153,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.PersonFullNameWithContact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nFull name of person, composed of first, optionally middle, last; formatted according\nto the full preference set\n"
   syntax:
@@ -182,10 +182,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.Address
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nFormatted address - single line, parent will tell us whether it&apos;s person or contact; primary key is from table address\n"
   syntax:
@@ -211,10 +211,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.MultiLineAddress
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nFormatted address - single line, parent will tell us whether it&apos;s person or contact; primary key is from table address\n"
   syntax:
@@ -240,10 +240,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.DynamicLicenseColumn
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nLicense column, very dynamic (actually a pivoting of a multi-aliased join...); anyway, just get the row from the provider again\n"
   syntax:
@@ -269,10 +269,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.SaleType
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nMix of sale probability %, probability_idx and status\n"
   syntax:
@@ -298,10 +298,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.SaleStage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nMix of sale stage id and status\n"
   syntax:
@@ -327,10 +327,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.ProbPercent
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nMix of sale stage id and status\n"
   syntax:
@@ -356,10 +356,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.AmountInBaseCurrency
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nSale amount represented in base currency\n"
   syntax:
@@ -385,10 +385,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.AmountInOwnCurrency
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nSale amount represented in owne currency\n"
   syntax:
@@ -414,10 +414,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.WeightedAmount
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nSale amount weighted by probability\n"
   syntax:
@@ -443,10 +443,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.WeightedAmountInBaseCurrency
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nSale amount in base currency, weighted by probability\n"
   syntax:
@@ -472,10 +472,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.WeightedAmountInOwnCurrency
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nSale amount in own currency, weighted by probability\n"
   syntax:

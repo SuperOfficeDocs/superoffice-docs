@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Data.DashboardTileType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDashboard tile type\n"
   syntax:
@@ -50,10 +50,10 @@ items:
   fullName: SuperOffice.Data.DashboardTileType.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown layout\n"
   syntax:
@@ -78,10 +78,10 @@ items:
   fullName: SuperOffice.Data.DashboardTileType.Chart
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Chart tile\n"
   syntax:
@@ -106,10 +106,10 @@ items:
   fullName: SuperOffice.Data.DashboardTileType.Web
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Web tile\n"
   syntax:
@@ -134,10 +134,10 @@ items:
   fullName: SuperOffice.Data.DashboardTileType.List
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: List tile\n"
   syntax:
@@ -162,10 +162,10 @@ items:
   fullName: SuperOffice.Data.DashboardTileType.Bignum
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Number tile\n"
   syntax:

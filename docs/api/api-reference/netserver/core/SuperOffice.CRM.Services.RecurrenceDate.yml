@@ -26,10 +26,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceDate
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nClass representing a Date for recurrence.\n"
   syntax:
@@ -70,10 +70,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceDate.RecurrenceDate()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public RecurrenceDate()
@@ -95,10 +95,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceDate.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public override string ToString()
@@ -125,10 +125,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceDate.Equality(SuperOffice.CRM.Services.RecurrenceDate, SuperOffice.CRM.Services.RecurrenceDate)
   type: Operator
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nDetermine if a is equal to b.\n"
   syntax:
@@ -163,10 +163,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceDate.Inequality(SuperOffice.CRM.Services.RecurrenceDate, SuperOffice.CRM.Services.RecurrenceDate)
   type: Operator
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nDetermine if the objects are not equal.\n"
   syntax:
@@ -201,10 +201,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceDate.Equals(System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nCheck if the two objects are the equal.\n"
   syntax:
@@ -237,10 +237,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceDate.GetHashCode()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\n\n"
   syntax:
@@ -268,10 +268,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceDate.Equals(SuperOffice.CRM.Services.RecurrenceDate)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\n\n"
   syntax:
@@ -301,10 +301,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceDate.CompareTo(SuperOffice.CRM.Services.RecurrenceDate)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public int CompareTo(RecurrenceDate other)
@@ -333,10 +333,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceDate.Date
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nDate of the recurrence.\n"
   syntax:
@@ -364,10 +364,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceDate.IsConflict
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nIs there a conflict for this occurrence.\n"
   syntax:
@@ -395,10 +395,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceDate.Description
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nConflict or day (e.g. red, blue, etc. letter-day) name.\n"
   syntax:
@@ -426,10 +426,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceDate.DescriptionStyleHint
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nStyle hint for the description (i.e. red for red-letter-days)\n"
   syntax:
@@ -457,10 +457,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceDate.Tooltip
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nDescription of conflict or other things happening this day.\n"
   syntax:

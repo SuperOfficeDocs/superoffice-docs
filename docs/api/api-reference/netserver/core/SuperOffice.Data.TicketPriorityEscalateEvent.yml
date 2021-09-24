@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.TicketPriorityEscalateEvent
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nThe different types of escalate events that can be set\nThis Enum is used by:  ticket_priority.ticket_read; ticket_priority.changed_owner; ticket_priority.ticket_newinfo; ticket_priority.ticket_closed; ticket_priority.ticket_changed_priority; ticket_priority.ticket_new\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.TicketPriorityEscalateEvent.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n-1: No esclate event set\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.TicketPriorityEscalateEvent.Stop
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: This event will stop the escalation chain\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.TicketPriorityEscalateEvent.Continue
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Continue the escalation event from where it was previously stopped\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.TicketPriorityEscalateEvent.Restart
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Start the escalation chain over from the beginning\n"
   syntax:

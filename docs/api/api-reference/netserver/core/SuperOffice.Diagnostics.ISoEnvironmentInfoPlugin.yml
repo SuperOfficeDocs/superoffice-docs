@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nInterface should be implemented for plugins wanting to provide environment info while logging.\n"
   syntax:
@@ -46,10 +46,10 @@ items:
   fullName: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nMethod called to collect extra environment info\n"
   syntax:

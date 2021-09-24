@@ -308,7 +308,7 @@ items:
   namespace: SuperOffice.CRM.Webhooks
   summary: "\nSend the event to a webhook, and mark failures/success status on the passed webhook objects.\nCalled from the dispatcher on a background thread.\n"
   syntax:
-    content: public WebhookResponse Notify(Webhook webhook, WebhookPayload eventInfo)
+    content: public virtual WebhookResponse Notify(Webhook webhook, WebhookPayload eventInfo)
     parameters:
     - id: webhook
       type: SuperOffice.CRM.Webhooks.Webhook
@@ -319,14 +319,16 @@ items:
     return:
       type: SuperOffice.CRM.Webhooks.WebhookResponse
       description: Success/Failure information. NULL is taken as SUCCESS
-    content.vb: Public Function Notify(webhook As Webhook, eventInfo As WebhookPayload) As WebhookResponse
+    content.vb: Public Overridable Function Notify(webhook As Webhook, eventInfo As WebhookPayload) As WebhookResponse
   overload: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.Notify*
   implements:
   - SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.Notify(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload)
   modifiers.csharp:
   - public
+  - virtual
   modifiers.vb:
   - Public
+  - Overridable
 - uid: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.GetLastError(System.Int32)
   commentId: M:SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.GetLastError(System.Int32)
   id: GetLastError(System.Int32)

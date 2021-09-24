@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.License.ExtendedLicenseInfoWithAssignments
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: 'public class ExtendedLicenseInfoWithAssignments : ExtendedLicenseInfo'
@@ -67,10 +67,10 @@ items:
   fullName: SuperOffice.License.ExtendedLicenseInfoWithAssignments.ExtendedLicenseInfoWithAssignments()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public ExtendedLicenseInfoWithAssignments()
@@ -92,10 +92,10 @@ items:
   fullName: SuperOffice.License.ExtendedLicenseInfoWithAssignments.SitesWithAssignments
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public SiteInfoWithAssignments[] SitesWithAssignments { get; set; }
@@ -122,10 +122,10 @@ items:
   fullName: SuperOffice.License.ExtendedLicenseInfoWithAssignments.UsersWithAssignments
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nUser license assignments\n"
   syntax:

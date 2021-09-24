@@ -29,10 +29,10 @@ items:
   fullName: SuperOffice.Diagnostics.Diagnostic
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nHelper class for performing scaffolding operations.  \nUse <xref href=\"SuperOffice.Diagnostics.Diagnostic.Diagnose(SuperOffice.Diagnostics.DiagnoseMethod)\" data-throw-if-not-resolved=\"false\"></xref> to perform scaffolding operations.\n"
   example:
@@ -70,10 +70,10 @@ items:
   fullName: SuperOffice.Diagnostics.Diagnostic.Diagnose(SuperOffice.Diagnostics.DiagnoseMethod)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nCarry out the diagnostic method in debug code and in &quot;EnableScaffolding&quot; is turned on in the configuration file.\n"
   example:
@@ -108,10 +108,10 @@ items:
   fullName: SuperOffice.Diagnostics.Diagnostic.Error(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nThrow an exception with the message.\n"
   syntax:
@@ -138,10 +138,10 @@ items:
   fullName: SuperOffice.Diagnostics.Diagnostic.Warning(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nReport a warning\n"
   syntax:
@@ -168,10 +168,10 @@ items:
   fullName: SuperOffice.Diagnostics.Diagnostic.Information(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nReport some information.\n"
   syntax:
@@ -197,10 +197,10 @@ items:
   fullName: SuperOffice.Diagnostics.Diagnostic.Assert(System.Boolean, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nReport error message if the provided condition is not true.\n"
   syntax:
@@ -230,10 +230,10 @@ items:
   fullName: SuperOffice.Diagnostics.Diagnostic.AssertEqual<T>(T, T, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nReport error message if the actual value is not equal to the expected value using the <see cref=\"!:IEquatable\"></see> interface.\n"
   syntax:
@@ -274,10 +274,10 @@ items:
   fullName: SuperOffice.Diagnostics.Diagnostic.AssertNotEqual<T>(T, T, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nReport error message if the actual value is equal to the expected value using the <see cref=\"!:IEquatable\"></see> interface.\n"
   syntax:
@@ -318,10 +318,10 @@ items:
   fullName: SuperOffice.Diagnostics.Diagnostic.AssertEqual(System.Object, System.Object, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nreport error message if the actual value is different from the expected value.\n"
   syntax:
@@ -354,10 +354,10 @@ items:
   fullName: SuperOffice.Diagnostics.Diagnostic.AssertNotEqual(System.Object, System.Object, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nReport error message if the actual value is equal to the expected value using the <see cref=\"!:IEquatable\"></see> interface.\n"
   syntax:
@@ -390,10 +390,10 @@ items:
   fullName: SuperOffice.Diagnostics.Diagnostic.AssertSame<T>(T, T, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nReport errormessage if the actual value is not the same as the expected value using the <xref href=\"System.IComparable\" data-throw-if-not-resolved=\"false\"></xref> interface.\n"
   syntax:
@@ -434,10 +434,10 @@ items:
   fullName: SuperOffice.Diagnostics.Diagnostic.AssertNotSame<T>(T, T, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nReport error message if the actual value is the same as the expected value using the <xref href=\"System.IComparable\" data-throw-if-not-resolved=\"false\"></xref> interface.\n"
   syntax:
@@ -478,10 +478,10 @@ items:
   fullName: SuperOffice.Diagnostics.Diagnostic.AssertEmpty<T>(T, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nReport error message if the value is not empty.  This means null for object types and &apos;0&apos; for value types.\n"
   syntax:
@@ -517,10 +517,10 @@ items:
   fullName: SuperOffice.Diagnostics.Diagnostic.AssertNotEmpty<T>(T, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nReport error message if the value is empty.  This means null for object types and &apos;0&apos; for value types.\n"
   syntax:
@@ -556,10 +556,10 @@ items:
   fullName: SuperOffice.Diagnostics.Diagnostic.AssertNull(System.Object, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nReport error message if the value is not null.\n"
   syntax:
@@ -589,10 +589,10 @@ items:
   fullName: SuperOffice.Diagnostics.Diagnostic.AssertNotNull(System.Object, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nReport error message if the value is null.\n"
   syntax:
@@ -622,10 +622,10 @@ items:
   fullName: SuperOffice.Diagnostics.Diagnostic.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nObtain information about the scaffolding results.\n"
   syntax:

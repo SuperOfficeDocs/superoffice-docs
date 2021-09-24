@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.Record
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nClass used to contain and build information record, used to populate relation datastructures, like <xref href=\"System.Data.DataSet\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
@@ -56,10 +56,10 @@ items:
   fullName: SuperOffice.Data.Record.Record(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCreates a new Record.\n"
   syntax:
@@ -86,10 +86,10 @@ items:
   fullName: SuperOffice.Data.Record.Table
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nGets the name of the table which the record belongs to.\n"
   syntax:
@@ -117,10 +117,10 @@ items:
   fullName: SuperOffice.Data.Record.Values
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nGets the keys and corresponding values stored on them.\nMaps to columns in a database-table.\n"
   syntax:

@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.CalReplyStatus
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\niCal reply status\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.CalReplyStatus.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Status is not known\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.CalReplyStatus.Accepted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: The sender accepted the meeting.\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.CalReplyStatus.Declined
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: The sender declined the meeting.\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.CalReplyStatus.Tentative
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: The sender tentatively accepted the meeting.\n"
   syntax:

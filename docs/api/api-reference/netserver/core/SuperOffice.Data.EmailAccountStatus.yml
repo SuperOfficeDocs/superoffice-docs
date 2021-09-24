@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Data.EmailAccountStatus
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nPossible statuses for an EmailAccount.\nThis Enum is used by:  email_account.account_status\n"
   syntax:
@@ -50,10 +50,10 @@ items:
   fullName: SuperOffice.Data.EmailAccountStatus.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown status\n"
   syntax:
@@ -78,10 +78,10 @@ items:
   fullName: SuperOffice.Data.EmailAccountStatus.Deleted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Account is deleted\n"
   syntax:
@@ -106,10 +106,10 @@ items:
   fullName: SuperOffice.Data.EmailAccountStatus.Failing
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Account is failing\n"
   syntax:
@@ -134,10 +134,10 @@ items:
   fullName: SuperOffice.Data.EmailAccountStatus.Failed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Account has failed\n"
   syntax:
@@ -162,10 +162,10 @@ items:
   fullName: SuperOffice.Data.EmailAccountStatus.Ok
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Account is OK\n"
   syntax:

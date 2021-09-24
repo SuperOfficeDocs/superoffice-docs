@@ -33,6 +33,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRow._currentLocation
   - SuperOffice.CRM.Rows.AppointmentRow._currentMotherAssociateId
   - SuperOffice.CRM.Rows.AppointmentRow._currentMotherId
+  - SuperOffice.CRM.Rows.AppointmentRow._currentOriginalStartDate
   - SuperOffice.CRM.Rows.AppointmentRow._currentPersonId
   - SuperOffice.CRM.Rows.AppointmentRow._currentPreferredTZLocation
   - SuperOffice.CRM.Rows.AppointmentRow._currentPriorityIdx
@@ -82,6 +83,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRow._onLocationChange
   - SuperOffice.CRM.Rows.AppointmentRow._onMotherAssociateIdChange
   - SuperOffice.CRM.Rows.AppointmentRow._onMotherIdChange
+  - SuperOffice.CRM.Rows.AppointmentRow._onOriginalStartDateChange
   - SuperOffice.CRM.Rows.AppointmentRow._onPersonIdChange
   - SuperOffice.CRM.Rows.AppointmentRow._onPreferredTZLocationChange
   - SuperOffice.CRM.Rows.AppointmentRow._onPriorityIdxChange
@@ -132,6 +134,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRow._persistedLocation
   - SuperOffice.CRM.Rows.AppointmentRow._persistedMotherAssociateId
   - SuperOffice.CRM.Rows.AppointmentRow._persistedMotherId
+  - SuperOffice.CRM.Rows.AppointmentRow._persistedOriginalStartDate
   - SuperOffice.CRM.Rows.AppointmentRow._persistedPersonId
   - SuperOffice.CRM.Rows.AppointmentRow._persistedPreferredTZLocation
   - SuperOffice.CRM.Rows.AppointmentRow._persistedPriorityIdx
@@ -232,6 +235,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRow.OnLocationChange
   - SuperOffice.CRM.Rows.AppointmentRow.OnMotherAssociateIdChange
   - SuperOffice.CRM.Rows.AppointmentRow.OnMotherIdChange
+  - SuperOffice.CRM.Rows.AppointmentRow.OnOriginalStartDateChange
   - SuperOffice.CRM.Rows.AppointmentRow.OnPersonIdChange
   - SuperOffice.CRM.Rows.AppointmentRow.OnPreferredTZLocationChange
   - SuperOffice.CRM.Rows.AppointmentRow.OnPriorityIdxChange
@@ -257,6 +261,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRow.OnUpdatedCountChange
   - SuperOffice.CRM.Rows.AppointmentRow.OnUserdef2IdChange
   - SuperOffice.CRM.Rows.AppointmentRow.OnUserdefIdChange
+  - SuperOffice.CRM.Rows.AppointmentRow.OriginalStartDate
   - SuperOffice.CRM.Rows.AppointmentRow.PersonId
   - SuperOffice.CRM.Rows.AppointmentRow.PreferredTZLocation
   - SuperOffice.CRM.Rows.AppointmentRow.PriorityIdx
@@ -338,6 +343,7 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.CRM.Rows.IdxBase,SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+  - SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
   - SuperOffice.CRM.Rows.TableRowBase.SetSaveOwner(SuperOffice.Data.INestedPersist)
   - SuperOffice.CRM.Rows.TableRowBase.Save
   - SuperOffice.CRM.Rows.TableRowBase.Delete
@@ -1703,6 +1709,33 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.AppointmentRow._persistedOriginalStartDate
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRow._persistedOriginalStartDate
+  id: _persistedOriginalStartDate
+  parent: SuperOffice.CRM.Rows.AppointmentRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedOriginalStartDate
+  nameWithType: AppointmentRow._persistedOriginalStartDate
+  fullName: SuperOffice.CRM.Rows.AppointmentRow._persistedOriginalStartDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.AppointmentRow.OriginalStartDate\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected DateTime _persistedOriginalStartDate
+    return:
+      type: System.DateTime
+    content.vb: Protected _persistedOriginalStartDate As Date
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.AppointmentRow._persistedCautionWarning
   commentId: F:SuperOffice.CRM.Rows.AppointmentRow._persistedCautionWarning
   id: _persistedCautionWarning
@@ -3053,6 +3086,33 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.AppointmentRow._currentOriginalStartDate
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRow._currentOriginalStartDate
+  id: _currentOriginalStartDate
+  parent: SuperOffice.CRM.Rows.AppointmentRow
+  langs:
+  - csharp
+  - vb
+  name: _currentOriginalStartDate
+  nameWithType: AppointmentRow._currentOriginalStartDate
+  fullName: SuperOffice.CRM.Rows.AppointmentRow._currentOriginalStartDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.AppointmentRow.OriginalStartDate\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected DateTime _currentOriginalStartDate
+    return:
+      type: System.DateTime
+    content.vb: Protected _currentOriginalStartDate As Date
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.AppointmentRow._currentCautionWarning
   commentId: F:SuperOffice.CRM.Rows.AppointmentRow._currentCautionWarning
   id: _currentCautionWarning
@@ -3845,7 +3905,6 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\nToggle the &apos;completed&apos; status of the appointment. \n"
-  remarks: "\nThis method takes into account the\n&apos;three state status&apos; preference; through <see cref=\"!:OnPreIdUpdate\"></see> processing the corresponding\ndate logic is triggered on save. The new state is returned.\n<br />Bug #38931 says we no longer support threestate, but we&apos;re not sure enough to actually exterminate the code quite yet...\n"
   syntax:
     content: public AppointmentStatus ToggleCompleted()
     return:
@@ -6080,6 +6139,40 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Rows.AppointmentRow.OriginalStartDate
+  commentId: P:SuperOffice.CRM.Rows.AppointmentRow.OriginalStartDate
+  id: OriginalStartDate
+  parent: SuperOffice.CRM.Rows.AppointmentRow
+  langs:
+  - csharp
+  - vb
+  name: OriginalStartDate
+  nameWithType: AppointmentRow.OriginalStartDate
+  fullName: SuperOffice.CRM.Rows.AppointmentRow.OriginalStartDate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: DateTime. The original start date for an appointment in a recurring series \n"
+  remarks: "\nOriginal type in dictionary:  DateTime.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual DateTime OriginalStartDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property OriginalStartDate As Date
+  overload: SuperOffice.CRM.Rows.AppointmentRow.OriginalStartDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Rows.AppointmentRow.CautionWarning
   commentId: P:SuperOffice.CRM.Rows.AppointmentRow.CautionWarning
   id: CautionWarning
@@ -7417,6 +7510,33 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.AppointmentRow._onOriginalStartDateChange
+  commentId: E:SuperOffice.CRM.Rows.AppointmentRow._onOriginalStartDateChange
+  id: _onOriginalStartDateChange
+  parent: SuperOffice.CRM.Rows.AppointmentRow
+  langs:
+  - csharp
+  - vb
+  name: _onOriginalStartDateChange
+  nameWithType: AppointmentRow._onOriginalStartDateChange
+  fullName: SuperOffice.CRM.Rows.AppointmentRow._onOriginalStartDateChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AppointmentRow.OriginalStartDate\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
+  syntax:
+    content: protected event OnFieldChange<DateTime> _onOriginalStartDateChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
+    content.vb: Protected Event _onOriginalStartDateChange As OnFieldChange(Of Date)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.AppointmentRow._onCautionWarningChange
   commentId: E:SuperOffice.CRM.Rows.AppointmentRow._onCautionWarningChange
   id: _onCautionWarningChange
@@ -8740,6 +8860,33 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRow.OnOriginalStartDateChange
+  commentId: E:SuperOffice.CRM.Rows.AppointmentRow.OnOriginalStartDateChange
+  id: OnOriginalStartDateChange
+  parent: SuperOffice.CRM.Rows.AppointmentRow
+  langs:
+  - csharp
+  - vb
+  name: OnOriginalStartDateChange
+  nameWithType: AppointmentRow.OnOriginalStartDateChange
+  fullName: SuperOffice.CRM.Rows.AppointmentRow.OnOriginalStartDateChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when OriginalStartDate is changing.\n"
+  syntax:
+    content: public event OnFieldChange<DateTime> OnOriginalStartDateChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
+    content.vb: Public Event OnOriginalStartDateChange As OnFieldChange(Of Date)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.AppointmentRow.OnCautionWarningChange
   commentId: E:SuperOffice.CRM.Rows.AppointmentRow.OnCautionWarningChange
   id: OnCautionWarningChange
@@ -9460,6 +9607,63 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: SetDefaults(DashboardTileDefinitionRow, String)
+  nameWithType: TableRowBase.SetDefaults(DashboardTileDefinitionRow, String)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -13704,6 +13908,12 @@ references:
   name: CentralserviceVideomeetId
   nameWithType: AppointmentRow.CentralserviceVideomeetId
   fullName: SuperOffice.CRM.Rows.AppointmentRow.CentralserviceVideomeetId
+- uid: SuperOffice.CRM.Rows.AppointmentRow.OriginalStartDate*
+  commentId: Overload:SuperOffice.CRM.Rows.AppointmentRow.OriginalStartDate
+  isExternal: true
+  name: OriginalStartDate
+  nameWithType: AppointmentRow.OriginalStartDate
+  fullName: SuperOffice.CRM.Rows.AppointmentRow.OriginalStartDate
 - uid: SuperOffice.CRM.Rows.AppointmentRow.CautionWarning*
   commentId: Overload:SuperOffice.CRM.Rows.AppointmentRow.CautionWarning
   isExternal: true

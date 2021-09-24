@@ -35,37 +35,6 @@ items:
   assemblies:
   - SoDataBase
 references:
-- uid: SuperOffice.CRM.Mail.MailAddressProvider
-  commentId: T:SuperOffice.CRM.Mail.MailAddressProvider
-  isExternal: true
-  name: MailAddressProvider
-  nameWithType: MailAddressProvider
-  fullName: SuperOffice.CRM.Mail.MailAddressProvider
-- uid: SuperOffice.CRM.Mail.MailAttachmentProvider
-  commentId: T:SuperOffice.CRM.Mail.MailAttachmentProvider
-  isExternal: true
-  name: MailAttachmentProvider
-  nameWithType: MailAttachmentProvider
-  fullName: SuperOffice.CRM.Mail.MailAttachmentProvider
-- uid: SuperOffice.CRM.Mail.MailSoInfoProvider
-  commentId: T:SuperOffice.CRM.Mail.MailSoInfoProvider
-  isExternal: true
-  name: MailSoInfoProvider
-  nameWithType: MailSoInfoProvider
-  fullName: SuperOffice.CRM.Mail.MailSoInfoProvider
-- uid: SuperOffice.CRM.Mail.SoMailCredentials
-  commentId: T:SuperOffice.CRM.Mail.SoMailCredentials
-  parent: SuperOffice.CRM.Mail
-  isExternal: true
-  name: SoMailCredentials
-  nameWithType: SoMailCredentials
-  fullName: SuperOffice.CRM.Mail.SoMailCredentials
-- uid: SuperOffice.CRM.Mail.SoMail
-  commentId: T:SuperOffice.CRM.Mail.SoMail
-  isExternal: true
-  name: SoMail
-  nameWithType: SoMail
-  fullName: SuperOffice.CRM.Mail.SoMail
 - uid: SuperOffice.CRM.Mail.CacheMailQueueArgument
   commentId: T:SuperOffice.CRM.Mail.CacheMailQueueArgument
   isExternal: true
@@ -114,6 +83,18 @@ references:
   name: SentEMailInfo
   nameWithType: SentEMailInfo
   fullName: SuperOffice.CRM.Mail.SentEMailInfo
+- uid: SuperOffice.CRM.Mail.MailAddressProvider
+  commentId: T:SuperOffice.CRM.Mail.MailAddressProvider
+  isExternal: true
+  name: MailAddressProvider
+  nameWithType: MailAddressProvider
+  fullName: SuperOffice.CRM.Mail.MailAddressProvider
+- uid: SuperOffice.CRM.Mail.MailAttachmentProvider
+  commentId: T:SuperOffice.CRM.Mail.MailAttachmentProvider
+  isExternal: true
+  name: MailAttachmentProvider
+  nameWithType: MailAttachmentProvider
+  fullName: SuperOffice.CRM.Mail.MailAttachmentProvider
 - uid: SuperOffice.CRM.Mail.MailCache
   commentId: T:SuperOffice.CRM.Mail.MailCache
   isExternal: true
@@ -165,6 +146,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Mail.MailSoInfoProvider
+  commentId: T:SuperOffice.CRM.Mail.MailSoInfoProvider
+  isExternal: true
+  name: MailSoInfoProvider
+  nameWithType: MailSoInfoProvider
+  fullName: SuperOffice.CRM.Mail.MailSoInfoProvider
 - uid: SuperOffice.CRM.Mail.MessageStoreSession
   commentId: T:SuperOffice.CRM.Mail.MessageStoreSession
   parent: SuperOffice.CRM.Mail
@@ -198,6 +185,19 @@ references:
   name: SendMailQueue
   nameWithType: SendMailQueue
   fullName: SuperOffice.CRM.Mail.SendMailQueue
+- uid: SuperOffice.CRM.Mail.SoMailCredentials
+  commentId: T:SuperOffice.CRM.Mail.SoMailCredentials
+  parent: SuperOffice.CRM.Mail
+  isExternal: true
+  name: SoMailCredentials
+  nameWithType: SoMailCredentials
+  fullName: SuperOffice.CRM.Mail.SoMailCredentials
+- uid: SuperOffice.CRM.Mail.SoMail
+  commentId: T:SuperOffice.CRM.Mail.SoMail
+  isExternal: true
+  name: SoMail
+  nameWithType: SoMail
+  fullName: SuperOffice.CRM.Mail.SoMail
 - uid: SuperOffice.CRM.Mail
   commentId: N:SuperOffice.CRM.Mail
   isExternal: true

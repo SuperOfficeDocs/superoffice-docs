@@ -30,10 +30,10 @@ items:
   fullName: SuperOffice.ListNameConstants
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nDefines hardcoded listnames and corresponing hardcoded id\n"
   syntax:
@@ -68,10 +68,10 @@ items:
   fullName: SuperOffice.ListNameConstants.WebPanelId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public const int WebPanelId = 30001
@@ -96,10 +96,10 @@ items:
   fullName: SuperOffice.ListNameConstants.WebPanel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public const string WebPanel = "webpanel"
@@ -124,10 +124,10 @@ items:
   fullName: SuperOffice.ListNameConstants.ChatId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public const int ChatId = 30002
@@ -152,10 +152,10 @@ items:
   fullName: SuperOffice.ListNameConstants.Chat
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public const string Chat = "chat"
@@ -180,10 +180,10 @@ items:
   fullName: SuperOffice.ListNameConstants.EmailTemplateId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public const int EmailTemplateId = 30003
@@ -208,10 +208,10 @@ items:
   fullName: SuperOffice.ListNameConstants.EmailTemplate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public const string EmailTemplate = "mailhtmltemplate"
@@ -236,10 +236,10 @@ items:
   fullName: SuperOffice.ListNameConstants.EmailRecordType
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public const int EmailRecordType = 3
@@ -264,10 +264,10 @@ items:
   fullName: SuperOffice.ListNameConstants.DocTmpl
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public const string DocTmpl = "docTmpl"
@@ -292,10 +292,10 @@ items:
   fullName: SuperOffice.ListNameConstants.DocTmplTableId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public const int DocTmplTableId = 130
@@ -320,10 +320,10 @@ items:
   fullName: SuperOffice.ListNameConstants.ExtApp
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public const string ExtApp = "extapp"
@@ -348,10 +348,10 @@ items:
   fullName: SuperOffice.ListNameConstants.ExtAppTableId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public const int ExtAppTableId = 133
@@ -376,10 +376,10 @@ items:
   fullName: SuperOffice.ListNameConstants.UdList
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public const string UdList = "udlist"
@@ -404,10 +404,10 @@ items:
   fullName: SuperOffice.ListNameConstants.UdListTableId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public const int UdListTableId = 136
@@ -432,10 +432,10 @@ items:
   fullName: SuperOffice.ListNameConstants.Resource
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public const string Resource = "resource"
@@ -460,10 +460,10 @@ items:
   fullName: SuperOffice.ListNameConstants.ResourceSubList
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public const int ResourceSubList = 1
@@ -488,10 +488,10 @@ items:
   fullName: SuperOffice.ListNameConstants.Associate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public const string Associate = "associate"
@@ -516,10 +516,10 @@ items:
   fullName: SuperOffice.ListNameConstants.AssociateTableId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public const int AssociateTableId = 2

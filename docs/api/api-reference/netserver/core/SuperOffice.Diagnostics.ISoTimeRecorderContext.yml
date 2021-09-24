@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nContext passed by implementers of SoTimeRecorder plugins to the user of the time recorder to measure time.\n"
   syntax:
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.Split(System.Func<System.String>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nPerform a split operation to see how long time was spent since the the timer was started.\n"
   syntax:
@@ -80,10 +80,10 @@ items:
   fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.Lap(System.Func<System.String>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nPerform a lap operation and see the time since the previous lap.\n"
   syntax:
@@ -109,10 +109,10 @@ items:
   fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.End()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nStop the timer and obtain the time since the start of the timing.\n"
   syntax:
@@ -131,10 +131,10 @@ items:
   fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.Increment()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nIncrement the build in counter \n"
   syntax:

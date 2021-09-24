@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Data.DocTmplQuoteType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nIs this document template some kind of quote document, and if so what\nThis Enum is used by:  DocTmpl.quoteDocType\n"
   syntax:
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.Data.DocTmplQuoteType.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: This document template is in no way related to Quote Management\n"
   syntax:
@@ -79,10 +79,10 @@ items:
   fullName: SuperOffice.Data.DocTmplQuoteType.MailBody
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: This is a template for the offer mail body\n"
   syntax:
@@ -107,10 +107,10 @@ items:
   fullName: SuperOffice.Data.DocTmplQuoteType.MainDocument
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: This is a template for the main offer document, document instances will be referred through Quote.DocumentId\n"
   syntax:
@@ -135,10 +135,10 @@ items:
   fullName: SuperOffice.Data.DocTmplQuoteType.QuoteLines
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: This is a template for the AsposeWords merge process, generating the offer line details\n"
   syntax:
@@ -163,10 +163,10 @@ items:
   fullName: SuperOffice.Data.DocTmplQuoteType.ConfirmationMailBody
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: This is a template for the mail body of the order confirmation\n"
   syntax:
@@ -191,10 +191,10 @@ items:
   fullName: SuperOffice.Data.DocTmplQuoteType.ConfirmationLines
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: This is a template for the lines document that is an attachment to the confirmation mail\n"
   syntax:

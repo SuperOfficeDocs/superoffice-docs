@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DocTemplateTypeMap
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDocTemplate Type Mapping: [DocTemplateTypeMap] .xyz = .docx  \n<p></p>Maps a template&apos;s unknown file type to a know file type before tag-substitution logic\nis run on the template\n"
   remarks: "\nThis is an extension point to allow unknown doc template types to use the existing doc template handling.\nIt does not allow adding new types of template handling. It is purely an alias mapping.\n"
@@ -53,10 +53,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DocTemplateTypeMap.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:

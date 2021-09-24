@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Mail.Component
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nMail component options\n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Mail.Component.Reader
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe Key used for mail reader\n"
   syntax:
@@ -87,10 +87,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Mail.Component.Sender
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe Key used for mail sender\n"
   syntax:
@@ -120,10 +120,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Mail.Component.NumberOfDaysToDownload
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nInitial number of days to fetch mail for\n"
   syntax:

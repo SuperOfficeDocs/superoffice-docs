@@ -9,7 +9,9 @@ items:
   - SuperOffice.Data.Dialect.MassResult.Deletes
   - SuperOffice.Data.Dialect.MassResult.Inserts
   - SuperOffice.Data.Dialect.MassResult.Message
+  - SuperOffice.Data.Dialect.MassResult.RowStatus
   - SuperOffice.Data.Dialect.MassResult.Success
+  - SuperOffice.Data.Dialect.MassResult.Unchanged
   - SuperOffice.Data.Dialect.MassResult.Updates
   langs:
   - csharp
@@ -230,6 +232,71 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property Deletes As Integer
   overload: SuperOffice.Data.Dialect.MassResult.Deletes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Data.Dialect.MassResult.Unchanged
+  commentId: P:SuperOffice.Data.Dialect.MassResult.Unchanged
+  id: Unchanged
+  parent: SuperOffice.Data.Dialect.MassResult
+  langs:
+  - csharp
+  - vb
+  name: Unchanged
+  nameWithType: MassResult.Unchanged
+  fullName: SuperOffice.Data.Dialect.MassResult.Unchanged
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nNumber of rows deleted \n"
+  syntax:
+    content: public virtual int Unchanged { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Unchanged As Integer
+  overload: SuperOffice.Data.Dialect.MassResult.Unchanged*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Data.Dialect.MassResult.RowStatus
+  commentId: P:SuperOffice.Data.Dialect.MassResult.RowStatus
+  id: RowStatus
+  parent: SuperOffice.Data.Dialect.MassResult
+  langs:
+  - csharp
+  - vb
+  name: RowStatus
+  nameWithType: MassResult.RowStatus
+  fullName: SuperOffice.Data.Dialect.MassResult.RowStatus
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: public virtual RowStatus[] RowStatus { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dialect.RowStatus[]
+    content.vb: Public Overridable Property RowStatus As RowStatus()
+  overload: SuperOffice.Data.Dialect.MassResult.RowStatus*
   modifiers.csharp:
   - public
   - virtual
@@ -940,3 +1007,41 @@ references:
   name: Deletes
   nameWithType: MassResult.Deletes
   fullName: SuperOffice.Data.Dialect.MassResult.Deletes
+- uid: SuperOffice.Data.Dialect.MassResult.Unchanged*
+  commentId: Overload:SuperOffice.Data.Dialect.MassResult.Unchanged
+  isExternal: true
+  name: Unchanged
+  nameWithType: MassResult.Unchanged
+  fullName: SuperOffice.Data.Dialect.MassResult.Unchanged
+- uid: SuperOffice.Data.Dialect.MassResult.RowStatus*
+  commentId: Overload:SuperOffice.Data.Dialect.MassResult.RowStatus
+  isExternal: true
+  name: RowStatus
+  nameWithType: MassResult.RowStatus
+  fullName: SuperOffice.Data.Dialect.MassResult.RowStatus
+- uid: SuperOffice.Data.Dialect.RowStatus[]
+  isExternal: true
+  name: RowStatus[]
+  nameWithType: RowStatus[]
+  fullName: SuperOffice.Data.Dialect.RowStatus[]
+  nameWithType.vb: RowStatus()
+  fullName.vb: SuperOffice.Data.Dialect.RowStatus()
+  name.vb: RowStatus()
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.RowStatus
+    name: RowStatus
+    nameWithType: RowStatus
+    fullName: SuperOffice.Data.Dialect.RowStatus
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.RowStatus
+    name: RowStatus
+    nameWithType: RowStatus
+    fullName: SuperOffice.Data.Dialect.RowStatus
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

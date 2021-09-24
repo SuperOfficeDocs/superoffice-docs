@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.ClientConfigurationProvider
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nConfiguration for the Web Client configuration data provider\n"
   syntax:
@@ -56,10 +56,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.ClientConfigurationProvider.FilePath
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nFile path for standard .config files\n"
   syntax:
@@ -89,10 +89,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.ClientConfigurationProvider.CacheConfigurations
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nShould GUI config data be cached?\n"
   syntax:
@@ -122,10 +122,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.ClientConfigurationProvider.CacheUserPreferences
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nShould GUI config data be cached?\n"
   syntax:
@@ -155,10 +155,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.ClientConfigurationProvider.ValidateConfigurations
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nShould GUI config data be validated runtime?\n"
   syntax:
@@ -188,10 +188,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.ClientConfigurationProvider.CustomPaths
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nList of alternate paths for GUI .config files\n"
   syntax:

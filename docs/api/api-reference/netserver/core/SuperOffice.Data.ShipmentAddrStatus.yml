@@ -25,10 +25,10 @@ items:
   fullName: SuperOffice.Data.ShipmentAddrStatus
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nStatus for sending to a particular recipient\nThis Enum is used by:  s_shipment_addr.status\n"
   syntax:
@@ -57,10 +57,10 @@ items:
   fullName: SuperOffice.Data.ShipmentAddrStatus.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Default value for empty rows\n"
   syntax:
@@ -85,10 +85,10 @@ items:
   fullName: SuperOffice.Data.ShipmentAddrStatus.Ready
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Ready for shipment\n"
   syntax:
@@ -113,10 +113,10 @@ items:
   fullName: SuperOffice.Data.ShipmentAddrStatus.Duplicate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Blocked because it duplicates another shipment addr in the same batch\n"
   syntax:
@@ -141,10 +141,10 @@ items:
   fullName: SuperOffice.Data.ShipmentAddrStatus.Blocked
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Blocked because of nomailing flag\n"
   syntax:
@@ -169,10 +169,10 @@ items:
   fullName: SuperOffice.Data.ShipmentAddrStatus.Sent
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Sent\n"
   syntax:
@@ -197,10 +197,10 @@ items:
   fullName: SuperOffice.Data.ShipmentAddrStatus.Bounced
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Bounce received from transport channel\n"
   syntax:
@@ -225,10 +225,10 @@ items:
   fullName: SuperOffice.Data.ShipmentAddrStatus.Opened
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: Recipient has opened the message, we know because of tracking\n"
   syntax:
@@ -253,12 +253,12 @@ items:
   fullName: SuperOffice.Data.ShipmentAddrStatus.Clicked
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
-  summary: "\n7: Recipient has actively clicked a link in the message\n"
+  summary: "\n7: Test recipient, will be deleted after sent (enum name is not correct, but that cant be changed now)\n"
   syntax:
     content: Clicked = 7
     return:
@@ -281,10 +281,10 @@ items:
   fullName: SuperOffice.Data.ShipmentAddrStatus.SoftBounced
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Vacation notice, etc\n"
   syntax:
@@ -309,10 +309,10 @@ items:
   fullName: SuperOffice.Data.ShipmentAddrStatus.NoSubscription
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n9: Recipient does not have subscription for shipmentType\n"
   syntax:
@@ -337,10 +337,10 @@ items:
   fullName: SuperOffice.Data.ShipmentAddrStatus.Complained
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n10: Recipient sent a complaint\n"
   syntax:
@@ -365,10 +365,10 @@ items:
   fullName: SuperOffice.Data.ShipmentAddrStatus.TooManyBounces
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n11: Recipient address has bounced too many times\n"
   syntax:

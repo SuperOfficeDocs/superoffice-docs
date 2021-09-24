@@ -22,10 +22,10 @@ items:
   fullName: SuperOffice.Threading.ParallelConsumerQueue<T>
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nA simple, threadsafe/blocking implementation of Queue for ordinary operations. Note: please <strong>read the remarks</strong> to understand\nthe differences between this class and the ordinary <see cref=\"!:System.Collections.Generic.Queue\"></see> class.\nAlso contains methods to easily have multiple, identical consumer threads.\n"
   remarks: "\nThis class has slightly different behaviour, as follows:\n<ul><li>Enqueue, Dequeue and Count are thread-safe</li><li>If the queue is empty, Dequeue will <strong>block</strong> instead of throwing an exception</li><li>If the queue is &quot;full&quot; (maxCapacity specified in constructor has been reached), then Enqueue will block</li><li>Peek <strong>will</strong> throw an exception if called while the queue is empty</li><li>Enumeration, and thus all kinds of LINQ operations, are <strong>not</strong> threadsafe</li></ul>\nThe purpose of this class is to be used in a producer/consumer scenario, where the producer thread adds to the queue\nwhile the consumer thread feeds off the queue. The producer thread should block if the queue becomes too large,\nwhile the consumer thread should block until work becomes available.\n<p></p>\nThere is no explicit method to signal &quot;end-of-processing&quot; to the consumer, but pushing NULL on the\nqueue as an end marker is a simple way to do it - generally valid queue items will not be null.\n<p></p>\nThe <xref href=\"SuperOffice.Threading.ParallelConsumerQueue%601.StartConsumers(System.Int32%2cSystem.Action%7b%600%7d)\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.Threading.ParallelConsumerQueue%601.StopConsumers\" data-throw-if-not-resolved=\"false\"></xref> methods are used if you have a consumer method to be run in its own thread,\nand you want one or more such to be easily started and stopped.\n"
@@ -64,10 +64,10 @@ items:
   fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.ParallelConsumerQueue()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nInitialize a queue with no upper limit on the number of elements\n"
   syntax:
@@ -92,10 +92,10 @@ items:
   fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.ParallelConsumerQueue(System.Int32)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nInitialize a queue with a maximum capacity; attempts to add more elements will block until\ncapacity becomes available\n"
   syntax:
@@ -124,10 +124,10 @@ items:
   fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.Enqueue(T)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nLock the queue, add an element, and signal the internal semaphore\n"
   syntax:
@@ -156,10 +156,10 @@ items:
   fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.Dequeue()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nWait until semaphore signals items available, then lock and dequeue an item\n"
   syntax:
@@ -187,10 +187,10 @@ items:
   fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.Peek()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nReturn the first element of the queue if available, otherwise throw an exception like the base class\n"
   syntax:
@@ -218,10 +218,10 @@ items:
   fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.StartConsumers(System.Int32, System.Action<T>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nStart <strong>n</strong> simultaneous consumer threads, each running the same code. The consumer methods have to take a single\nparameter, a queue item, and are called whenever there is something on the queue (items are <xref href=\"SuperOffice.Threading.ParallelConsumerQueue%601.Dequeue\" data-throw-if-not-resolved=\"false\"></xref>&apos;d\nand the consumer method invoked once per item). null items cannot be used as they signal end-of-work on the queue\n"
   syntax:
@@ -259,10 +259,10 @@ items:
   fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.StopConsumers()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nPush a null (end mark) on the queue, for each known consumer thread\n"
   syntax:
@@ -287,23 +287,23 @@ items:
   fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.Consume(System.Int32, System.Action<T>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nFactory method for a context object, suitable for <strong>using</strong> syntax\n"
   remarks: "\nAn alternative to manually calling <xref href=\"SuperOffice.Threading.ParallelConsumerQueue%601.StartConsumers(System.Int32%2cSystem.Action%7b%600%7d)\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.Threading.ParallelConsumerQueue%601.StopConsumers\" data-throw-if-not-resolved=\"false\"></xref> is to use this method\nto obtain a disposable context class. Entering the using clause starts the consumers, and exiting it will cause the\nmain thread to block until all the work items in the queue have been consumed; end marks are pushed and the consumer \nthreads terminate. The main thread will the continue past the end of the using scope.\n<example>\nThis example is simplified for brevity. It shows how a queue with a limited capacity is set up,\nhow a variable number of parallel threads to process items are started, and how the consumer\nmethod is created. Note the absence of calls to Dequeue, and no explicit thread management.\n<pre><code>ParallelConsumerQueue>BulkImportInfo&lt; queue = new ParallelConsumerQueue>BulkImportInfo&lt;(5);\n// start the consumer threads, and then iterate over incoming data, queuing up batches\nusing (queue.Consume(NumShipoutThreads, WriteBulkRows))\n{\n	// pull data from the enumerable\n	DataTable batchBuffer = null;\n	foreach (object[] row in rows)\n	{\n		...\n		// if the batch is full, then ship it via the queue (blocks if the queue is &quot;full&quot;)\n		if (rowsInBatch == ShipoutBatchSize)\n		{\n			queue.Enqueue(new BulkImportInfo() { Data = batchBuffer, Table = table });\n			rowsInBatch = 0;\n		}\n	}\n}\n...\nprotected override void WriteBulkRows(BulkImportInfo importInfo)\n{\n	using (SqlBulkCopy bcp = new SqlBulkCopy(rawConn))\n	{\n		bcp.DestinationTableName = SoDatabase.GetCurrent().TablePrefix + &quot;.&quot; + importInfo.Table.DbName;\n		bcp.WriteToServer(importInfo.Data);\n	}\n}</code></pre>\n</example>\n"
   syntax:
-    content: public ParallelConsumerQueue<T>.ConsumerContext<T> Consume(int threadCount, Action<T> consumerAction)
+    content: public ParallelConsumerQueue<T>.ConsumerContext Consume(int threadCount, Action<T> consumerAction)
     parameters:
     - id: threadCount
       type: System.Int32
     - id: consumerAction
       type: System.Action{{T}}
     return:
-      type: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext{{T}}
-    content.vb: Public Function Consume(threadCount As Integer, consumerAction As Action(Of T)) As ParallelConsumerQueue(Of T).ConsumerContext(Of T)
+      type: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext
+    content.vb: Public Function Consume(threadCount As Integer, consumerAction As Action(Of T)) As ParallelConsumerQueue(Of T).ConsumerContext
   overload: SuperOffice.Threading.ParallelConsumerQueue`1.Consume*
   nameWithType.vb: ParallelConsumerQueue(Of T).Consume(Int32, Action(Of T))
   modifiers.csharp:
@@ -324,10 +324,10 @@ items:
   fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.Count
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nReturn the number of items in the queue\n"
   syntax:
@@ -907,57 +907,18 @@ references:
   fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.Consume
   nameWithType.vb: ParallelConsumerQueue(Of T).Consume
   fullName.vb: SuperOffice.Threading.ParallelConsumerQueue(Of T).Consume
-- uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext{{T}}
-  commentId: T:SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext{`0}
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext
+  commentId: T:SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext
   parent: SuperOffice.Threading
-  definition: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext`1
-  name: ParallelConsumerQueue.ConsumerContext<T>
-  nameWithType: ParallelConsumerQueue.ConsumerContext<T>
-  fullName: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext<T>
-  nameWithType.vb: ParallelConsumerQueue.ConsumerContext(Of T)
-  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext(Of T)
-  name.vb: ParallelConsumerQueue.ConsumerContext(Of T)
-  spec.csharp:
-  - uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext`1
-    name: ParallelConsumerQueue.ConsumerContext
-    nameWithType: ParallelConsumerQueue.ConsumerContext
-    fullName: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext`1
-    name: ParallelConsumerQueue.ConsumerContext
-    nameWithType: ParallelConsumerQueue.ConsumerContext
-    fullName: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext`1
-  commentId: T:SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext`1
   isExternal: true
-  name: ParallelConsumerQueue.ConsumerContext<T>
-  nameWithType: ParallelConsumerQueue.ConsumerContext<T>
-  fullName: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext<T>
-  nameWithType.vb: ParallelConsumerQueue.ConsumerContext(Of T)
-  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext(Of T)
-  name.vb: ParallelConsumerQueue.ConsumerContext(Of T)
+  name: ParallelConsumerQueue.ConsumerContext<>
+  nameWithType: ParallelConsumerQueue.ConsumerContext<>
+  fullName: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext<>
+  nameWithType.vb: ParallelConsumerQueue.ConsumerContext(Of )
+  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext(Of )
+  name.vb: ParallelConsumerQueue.ConsumerContext(Of )
   spec.csharp:
-  - uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext`1
+  - uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext
     name: ParallelConsumerQueue.ConsumerContext
     nameWithType: ParallelConsumerQueue.ConsumerContext
     fullName: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext
@@ -965,14 +926,11 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext`1
+  - uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext
     name: ParallelConsumerQueue.ConsumerContext
     nameWithType: ParallelConsumerQueue.ConsumerContext
     fullName: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext
@@ -980,9 +938,6 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
   - name: )
     nameWithType: )
     fullName: )

@@ -73,7 +73,13 @@ items:
   - SuperOffice.Data.SQL.ConfigTypeFieldInfo
   - SuperOffice.Data.SQL.CredentialUsageFieldInfo
   - SuperOffice.Data.SQL.CrmActorTypeFieldInfo
+  - SuperOffice.Data.SQL.DashTileCurrencyModeFieldInfo
+  - SuperOffice.Data.SQL.DashTileEntityTypeFieldInfo
+  - SuperOffice.Data.SQL.DashTileMeasureFieldInfo
+  - SuperOffice.Data.SQL.DashTileTypeFieldInfo
   - SuperOffice.Data.SQL.DateTimeFieldInfo
+  - SuperOffice.Data.SQL.DeltaStateFieldInfo
+  - SuperOffice.Data.SQL.DeltaTypeFieldInfo
   - SuperOffice.Data.SQL.DesignTypeFieldInfo
   - SuperOffice.Data.SQL.DocTmplDirectionFieldInfo
   - SuperOffice.Data.SQL.DocTmplInvitationTypeFieldInfo
@@ -99,6 +105,7 @@ items:
   - SuperOffice.Data.SQL.Int32FieldInfo
   - SuperOffice.Data.SQL.LicenseTypeFieldInfo
   - SuperOffice.Data.SQL.LoginFlagsFieldInfo
+  - SuperOffice.Data.SQL.MailboxTypeFieldInfo
   - SuperOffice.Data.SQL.NavigationFieldInfo
   - SuperOffice.Data.SQL.NotificationPlatformFieldInfo
   - SuperOffice.Data.SQL.PhoneTypeFieldInfo
@@ -122,8 +129,10 @@ items:
   - SuperOffice.Data.SQL.ShipmentAddrStatusFieldInfo
   - SuperOffice.Data.SQL.ShipmentLinkActionFieldInfo
   - SuperOffice.Data.SQL.ShipmentLinkTaskFlagsFieldInfo
+  - SuperOffice.Data.SQL.ShipmentLinkTypeFieldInfo
   - SuperOffice.Data.SQL.ShipmentListStatusFieldInfo
   - SuperOffice.Data.SQL.ShipmentMessageTypeFieldInfo
+  - SuperOffice.Data.SQL.ShipmentStatusFieldInfo
   - SuperOffice.Data.SQL.ShowStateFieldInfo
   - SuperOffice.Data.SQL.ShowWindowStateFieldInfo
   - SuperOffice.Data.SQL.StringFieldInfo

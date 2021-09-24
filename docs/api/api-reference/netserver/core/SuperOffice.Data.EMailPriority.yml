@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Data.EMailPriority
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n\nThis Enum is used by:  email_item.priority\n"
   syntax:
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.Data.EMailPriority.NoPriority
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: \n"
   syntax:
@@ -79,10 +79,10 @@ items:
   fullName: SuperOffice.Data.EMailPriority.Highest
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: \n"
   syntax:
@@ -107,10 +107,10 @@ items:
   fullName: SuperOffice.Data.EMailPriority.High
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: \n"
   syntax:
@@ -135,10 +135,10 @@ items:
   fullName: SuperOffice.Data.EMailPriority.Normal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: \n"
   syntax:
@@ -163,10 +163,10 @@ items:
   fullName: SuperOffice.Data.EMailPriority.Low
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: \n"
   syntax:
@@ -191,10 +191,10 @@ items:
   fullName: SuperOffice.Data.EMailPriority.Lowest
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: \n"
   syntax:

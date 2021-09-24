@@ -17,7 +17,7 @@ items:
   - SuperOffice.Threading.GetThreadState`1
   - SuperOffice.Threading.GlobalQueuedThreadBase`2
   - SuperOffice.Threading.ParallelConsumerQueue`1
-  - SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext`1
+  - SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext
   - SuperOffice.Threading.QueueAsyncChunkHandler`2
   - SuperOffice.Threading.QueueAsyncChunkProcessor`1
   - SuperOffice.Threading.QueuedThreadBase`2
@@ -30,7 +30,6 @@ items:
   - SuperOffice.Threading.ThreadManager.ForceSingleThreadHelper
   - SuperOffice.Threading.ThreadManager.IgnoreRowSentryModifier
   - SuperOffice.Threading.ThreadManager.IgnoreSentryModifier
-  - SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin
   - SuperOffice.Threading.ThreadPerOperationBase`2
   - SuperOffice.Threading.ThreadStaticQueuedThreadBase`2
   - SuperOffice.Threading.ThreadwiseKeyCache`1
@@ -42,93 +41,8 @@ items:
   fullName: SuperOffice.Threading
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
-- uid: SuperOffice.Threading.ParallelConsumerQueue`1
-  commentId: T:SuperOffice.Threading.ParallelConsumerQueue`1
-  isExternal: true
-  name: ParallelConsumerQueue<T>
-  nameWithType: ParallelConsumerQueue<T>
-  fullName: SuperOffice.Threading.ParallelConsumerQueue<T>
-  nameWithType.vb: ParallelConsumerQueue(Of T)
-  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue(Of T)
-  name.vb: ParallelConsumerQueue(Of T)
-  spec.csharp:
-  - uid: SuperOffice.Threading.ParallelConsumerQueue`1
-    name: ParallelConsumerQueue
-    nameWithType: ParallelConsumerQueue
-    fullName: SuperOffice.Threading.ParallelConsumerQueue
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.Threading.ParallelConsumerQueue`1
-    name: ParallelConsumerQueue
-    nameWithType: ParallelConsumerQueue
-    fullName: SuperOffice.Threading.ParallelConsumerQueue
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext`1
-  commentId: T:SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext`1
-  isExternal: true
-  name: ParallelConsumerQueue.ConsumerContext<T>
-  nameWithType: ParallelConsumerQueue.ConsumerContext<T>
-  fullName: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext<T>
-  nameWithType.vb: ParallelConsumerQueue.ConsumerContext(Of T)
-  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext(Of T)
-  name.vb: ParallelConsumerQueue.ConsumerContext(Of T)
-  spec.csharp:
-  - uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext`1
-    name: ParallelConsumerQueue.ConsumerContext
-    nameWithType: ParallelConsumerQueue.ConsumerContext
-    fullName: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext`1
-    name: ParallelConsumerQueue.ConsumerContext
-    nameWithType: ParallelConsumerQueue.ConsumerContext
-    fullName: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Threading.SoBackgroundWorker
-  commentId: T:SuperOffice.Threading.SoBackgroundWorker
-  parent: SuperOffice.Threading
-  isExternal: true
-  name: SoBackgroundWorker
-  nameWithType: SoBackgroundWorker
-  fullName: SuperOffice.Threading.SoBackgroundWorker
 - uid: SuperOffice.Threading.AsyncChunkedProcessedQueue`3
   commentId: T:SuperOffice.Threading.AsyncChunkedProcessedQueue`3
   isExternal: true
@@ -279,6 +193,112 @@ references:
   - name: TWorkItem
     nameWithType: TWorkItem
     fullName: TWorkItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsyncOperation`1
+  commentId: T:SuperOffice.Threading.AsyncOperation`1
+  isExternal: true
+  name: AsyncOperation<TArgument>
+  nameWithType: AsyncOperation<TArgument>
+  fullName: SuperOffice.Threading.AsyncOperation<TArgument>
+  nameWithType.vb: AsyncOperation(Of TArgument)
+  fullName.vb: SuperOffice.Threading.AsyncOperation(Of TArgument)
+  name.vb: AsyncOperation(Of TArgument)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncOperation`1
+    name: AsyncOperation
+    nameWithType: AsyncOperation
+    fullName: SuperOffice.Threading.AsyncOperation
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TArgument
+    nameWithType: TArgument
+    fullName: TArgument
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncOperation`1
+    name: AsyncOperation
+    nameWithType: AsyncOperation
+    fullName: SuperOffice.Threading.AsyncOperation
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TArgument
+    nameWithType: TArgument
+    fullName: TArgument
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsyncOperationStarting
+  commentId: T:SuperOffice.Threading.AsyncOperationStarting
+  parent: SuperOffice.Threading
+  isExternal: true
+  name: AsyncOperationStarting
+  nameWithType: AsyncOperationStarting
+  fullName: SuperOffice.Threading.AsyncOperationStarting
+- uid: SuperOffice.Threading.AsyncOperationFailure
+  commentId: T:SuperOffice.Threading.AsyncOperationFailure
+  parent: SuperOffice.Threading
+  isExternal: true
+  name: AsyncOperationFailure
+  nameWithType: AsyncOperationFailure
+  fullName: SuperOffice.Threading.AsyncOperationFailure
+- uid: SuperOffice.Threading.AsyncOperationTerminating
+  commentId: T:SuperOffice.Threading.AsyncOperationTerminating
+  parent: SuperOffice.Threading
+  isExternal: true
+  name: AsyncOperationTerminating
+  nameWithType: AsyncOperationTerminating
+  fullName: SuperOffice.Threading.AsyncOperationTerminating
+- uid: SuperOffice.Threading.AsyncContext
+  commentId: T:SuperOffice.Threading.AsyncContext
+  parent: SuperOffice.Threading
+  isExternal: true
+  name: AsyncContext
+  nameWithType: AsyncContext
+  fullName: SuperOffice.Threading.AsyncContext
+- uid: SuperOffice.Threading.AsyncContext`1
+  commentId: T:SuperOffice.Threading.AsyncContext`1
+  isExternal: true
+  name: AsyncContext<TArgument>
+  nameWithType: AsyncContext<TArgument>
+  fullName: SuperOffice.Threading.AsyncContext<TArgument>
+  nameWithType.vb: AsyncContext(Of TArgument)
+  fullName.vb: SuperOffice.Threading.AsyncContext(Of TArgument)
+  name.vb: AsyncContext(Of TArgument)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncContext`1
+    name: AsyncContext
+    nameWithType: AsyncContext
+    fullName: SuperOffice.Threading.AsyncContext
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TArgument
+    nameWithType: TArgument
+    fullName: TArgument
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncContext`1
+    name: AsyncContext
+    nameWithType: AsyncContext
+    fullName: SuperOffice.Threading.AsyncContext
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TArgument
+    nameWithType: TArgument
+    fullName: TArgument
   - name: )
     nameWithType: )
     fullName: )
@@ -564,6 +584,79 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1
+  commentId: T:SuperOffice.Threading.ParallelConsumerQueue`1
+  isExternal: true
+  name: ParallelConsumerQueue<T>
+  nameWithType: ParallelConsumerQueue<T>
+  fullName: SuperOffice.Threading.ParallelConsumerQueue<T>
+  nameWithType.vb: ParallelConsumerQueue(Of T)
+  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue(Of T)
+  name.vb: ParallelConsumerQueue(Of T)
+  spec.csharp:
+  - uid: SuperOffice.Threading.ParallelConsumerQueue`1
+    name: ParallelConsumerQueue
+    nameWithType: ParallelConsumerQueue
+    fullName: SuperOffice.Threading.ParallelConsumerQueue
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.ParallelConsumerQueue`1
+    name: ParallelConsumerQueue
+    nameWithType: ParallelConsumerQueue
+    fullName: SuperOffice.Threading.ParallelConsumerQueue
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext
+  commentId: T:SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext
+  parent: SuperOffice.Threading
+  isExternal: true
+  name: ParallelConsumerQueue.ConsumerContext<>
+  nameWithType: ParallelConsumerQueue.ConsumerContext<>
+  fullName: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext<>
+  nameWithType.vb: ParallelConsumerQueue.ConsumerContext(Of )
+  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext(Of )
+  name.vb: ParallelConsumerQueue.ConsumerContext(Of )
+  spec.csharp:
+  - uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext
+    name: ParallelConsumerQueue.ConsumerContext
+    nameWithType: ParallelConsumerQueue.ConsumerContext
+    fullName: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext
+    name: ParallelConsumerQueue.ConsumerContext
+    nameWithType: ParallelConsumerQueue.ConsumerContext
+    fullName: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.QueuedThreadBase`2
   commentId: T:SuperOffice.Threading.QueuedThreadBase`2
   isExternal: true
@@ -649,6 +742,52 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Threading.SoBackgroundWorker
+  commentId: T:SuperOffice.Threading.SoBackgroundWorker
+  parent: SuperOffice.Threading
+  isExternal: true
+  name: SoBackgroundWorker
+  nameWithType: SoBackgroundWorker
+  fullName: SuperOffice.Threading.SoBackgroundWorker
+- uid: SuperOffice.Threading.SoReaderWriterLock
+  commentId: T:SuperOffice.Threading.SoReaderWriterLock
+  isExternal: true
+  name: SoReaderWriterLock
+  nameWithType: SoReaderWriterLock
+  fullName: SuperOffice.Threading.SoReaderWriterLock
+- uid: SuperOffice.Threading.ThreadManager
+  commentId: T:SuperOffice.Threading.ThreadManager
+  isExternal: true
+  name: ThreadManager
+  nameWithType: ThreadManager
+  fullName: SuperOffice.Threading.ThreadManager
+- uid: SuperOffice.Threading.ThreadManager.ForceSingleThreadHelper
+  commentId: T:SuperOffice.Threading.ThreadManager.ForceSingleThreadHelper
+  parent: SuperOffice.Threading
+  isExternal: true
+  name: ThreadManager.ForceSingleThreadHelper
+  nameWithType: ThreadManager.ForceSingleThreadHelper
+  fullName: SuperOffice.Threading.ThreadManager.ForceSingleThreadHelper
+- uid: SuperOffice.Threading.ThreadManager.DontIgnoreRowSentryModifier
+  commentId: T:SuperOffice.Threading.ThreadManager.DontIgnoreRowSentryModifier
+  isExternal: true
+  name: ThreadManager.DontIgnoreRowSentryModifier
+  nameWithType: ThreadManager.DontIgnoreRowSentryModifier
+  fullName: SuperOffice.Threading.ThreadManager.DontIgnoreRowSentryModifier
+- uid: SuperOffice.Threading.ThreadManager.IgnoreRowSentryModifier
+  commentId: T:SuperOffice.Threading.ThreadManager.IgnoreRowSentryModifier
+  parent: SuperOffice.Threading
+  isExternal: true
+  name: ThreadManager.IgnoreRowSentryModifier
+  nameWithType: ThreadManager.IgnoreRowSentryModifier
+  fullName: SuperOffice.Threading.ThreadManager.IgnoreRowSentryModifier
+- uid: SuperOffice.Threading.ThreadManager.IgnoreSentryModifier
+  commentId: T:SuperOffice.Threading.ThreadManager.IgnoreSentryModifier
+  parent: SuperOffice.Threading
+  isExternal: true
+  name: ThreadManager.IgnoreSentryModifier
+  nameWithType: ThreadManager.IgnoreSentryModifier
+  fullName: SuperOffice.Threading.ThreadManager.IgnoreSentryModifier
 - uid: SuperOffice.Threading.ThreadPerOperationBase`2
   commentId: T:SuperOffice.Threading.ThreadPerOperationBase`2
   isExternal: true
@@ -790,157 +929,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Threading.AsyncOperation`1
-  commentId: T:SuperOffice.Threading.AsyncOperation`1
-  isExternal: true
-  name: AsyncOperation<TArgument>
-  nameWithType: AsyncOperation<TArgument>
-  fullName: SuperOffice.Threading.AsyncOperation<TArgument>
-  nameWithType.vb: AsyncOperation(Of TArgument)
-  fullName.vb: SuperOffice.Threading.AsyncOperation(Of TArgument)
-  name.vb: AsyncOperation(Of TArgument)
-  spec.csharp:
-  - uid: SuperOffice.Threading.AsyncOperation`1
-    name: AsyncOperation
-    nameWithType: AsyncOperation
-    fullName: SuperOffice.Threading.AsyncOperation
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TArgument
-    nameWithType: TArgument
-    fullName: TArgument
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.Threading.AsyncOperation`1
-    name: AsyncOperation
-    nameWithType: AsyncOperation
-    fullName: SuperOffice.Threading.AsyncOperation
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TArgument
-    nameWithType: TArgument
-    fullName: TArgument
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Threading.AsyncOperationStarting
-  commentId: T:SuperOffice.Threading.AsyncOperationStarting
-  parent: SuperOffice.Threading
-  isExternal: true
-  name: AsyncOperationStarting
-  nameWithType: AsyncOperationStarting
-  fullName: SuperOffice.Threading.AsyncOperationStarting
-- uid: SuperOffice.Threading.AsyncOperationFailure
-  commentId: T:SuperOffice.Threading.AsyncOperationFailure
-  parent: SuperOffice.Threading
-  isExternal: true
-  name: AsyncOperationFailure
-  nameWithType: AsyncOperationFailure
-  fullName: SuperOffice.Threading.AsyncOperationFailure
-- uid: SuperOffice.Threading.AsyncOperationTerminating
-  commentId: T:SuperOffice.Threading.AsyncOperationTerminating
-  parent: SuperOffice.Threading
-  isExternal: true
-  name: AsyncOperationTerminating
-  nameWithType: AsyncOperationTerminating
-  fullName: SuperOffice.Threading.AsyncOperationTerminating
-- uid: SuperOffice.Threading.AsyncContext
-  commentId: T:SuperOffice.Threading.AsyncContext
-  parent: SuperOffice.Threading
-  isExternal: true
-  name: AsyncContext
-  nameWithType: AsyncContext
-  fullName: SuperOffice.Threading.AsyncContext
-- uid: SuperOffice.Threading.AsyncContext`1
-  commentId: T:SuperOffice.Threading.AsyncContext`1
-  isExternal: true
-  name: AsyncContext<TArgument>
-  nameWithType: AsyncContext<TArgument>
-  fullName: SuperOffice.Threading.AsyncContext<TArgument>
-  nameWithType.vb: AsyncContext(Of TArgument)
-  fullName.vb: SuperOffice.Threading.AsyncContext(Of TArgument)
-  name.vb: AsyncContext(Of TArgument)
-  spec.csharp:
-  - uid: SuperOffice.Threading.AsyncContext`1
-    name: AsyncContext
-    nameWithType: AsyncContext
-    fullName: SuperOffice.Threading.AsyncContext
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TArgument
-    nameWithType: TArgument
-    fullName: TArgument
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.Threading.AsyncContext`1
-    name: AsyncContext
-    nameWithType: AsyncContext
-    fullName: SuperOffice.Threading.AsyncContext
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TArgument
-    nameWithType: TArgument
-    fullName: TArgument
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Threading.SoReaderWriterLock
-  commentId: T:SuperOffice.Threading.SoReaderWriterLock
-  isExternal: true
-  name: SoReaderWriterLock
-  nameWithType: SoReaderWriterLock
-  fullName: SuperOffice.Threading.SoReaderWriterLock
-- uid: SuperOffice.Threading.ThreadManager
-  commentId: T:SuperOffice.Threading.ThreadManager
-  isExternal: true
-  name: ThreadManager
-  nameWithType: ThreadManager
-  fullName: SuperOffice.Threading.ThreadManager
-- uid: SuperOffice.Threading.ThreadManager.ForceSingleThreadHelper
-  commentId: T:SuperOffice.Threading.ThreadManager.ForceSingleThreadHelper
-  parent: SuperOffice.Threading
-  isExternal: true
-  name: ThreadManager.ForceSingleThreadHelper
-  nameWithType: ThreadManager.ForceSingleThreadHelper
-  fullName: SuperOffice.Threading.ThreadManager.ForceSingleThreadHelper
-- uid: SuperOffice.Threading.ThreadManager.DontIgnoreRowSentryModifier
-  commentId: T:SuperOffice.Threading.ThreadManager.DontIgnoreRowSentryModifier
-  isExternal: true
-  name: ThreadManager.DontIgnoreRowSentryModifier
-  nameWithType: ThreadManager.DontIgnoreRowSentryModifier
-  fullName: SuperOffice.Threading.ThreadManager.DontIgnoreRowSentryModifier
-- uid: SuperOffice.Threading.ThreadManager.IgnoreRowSentryModifier
-  commentId: T:SuperOffice.Threading.ThreadManager.IgnoreRowSentryModifier
-  parent: SuperOffice.Threading
-  isExternal: true
-  name: ThreadManager.IgnoreRowSentryModifier
-  nameWithType: ThreadManager.IgnoreRowSentryModifier
-  fullName: SuperOffice.Threading.ThreadManager.IgnoreRowSentryModifier
-- uid: SuperOffice.Threading.ThreadManager.IgnoreSentryModifier
-  commentId: T:SuperOffice.Threading.ThreadManager.IgnoreSentryModifier
-  parent: SuperOffice.Threading
-  isExternal: true
-  name: ThreadManager.IgnoreSentryModifier
-  nameWithType: ThreadManager.IgnoreSentryModifier
-  fullName: SuperOffice.Threading.ThreadManager.IgnoreSentryModifier
-- uid: SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin
-  commentId: T:SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin
-  isExternal: true
-  name: ThreadManangerEnvironmentInfoPlugin
-  nameWithType: ThreadManangerEnvironmentInfoPlugin
-  fullName: SuperOffice.Threading.ThreadManangerEnvironmentInfoPlugin
 - uid: SuperOffice.Threading
   commentId: N:SuperOffice.Threading
   isExternal: true

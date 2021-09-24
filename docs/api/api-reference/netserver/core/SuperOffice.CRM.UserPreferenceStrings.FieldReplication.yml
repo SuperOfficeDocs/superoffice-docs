@@ -22,10 +22,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.FieldReplication
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nEnables replication of user-defined fields at field level instead of record level. This ensures that field changes for the customer are retained, but may affect the performance of the replication process\n"
   syntax:
@@ -60,10 +60,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:
@@ -89,10 +89,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udcontactlarge
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nEnables replication at field level for user-defined fields of the type \n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -118,10 +118,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udcontactsmall
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nEnables replication at field level of user-defined fields on the Company card. Activating this setting may affect the speed at which UP and DWN files are read and written (Default = NO)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -147,10 +147,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udpersonlarge
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nEnables replication at field level for user-defined fields of the type \n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -176,10 +176,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udpersonsmall
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nEnables replication at field level of user-defined fields in the Contact dialog. Activating this setting may affect the speed at which UP and DWN files are read and written (Default = NO)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -205,10 +205,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udprojectlarge
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nEnables replication at field level for user-defined fields of the type \n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -234,10 +234,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udprojectsmall
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nEnable replication at field level for user-defined fields on the Project card. Activating this setting may affect the speed at which UP and DWN files are read and written (Default = NO)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -263,10 +263,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udsalelarge
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nEnables replication at field level for user-defined fields of the type \n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -292,10 +292,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.FieldReplication.udsalesmall
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nEnables replication at field level for user-defined fields in the Sale dialog. Activating this setting may affect the speed at which UP and DWN files are read and written (Default = NO)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:

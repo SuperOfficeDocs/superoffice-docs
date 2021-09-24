@@ -21,6 +21,13 @@ items:
   assemblies:
   - SoDataBase
 references:
+- uid: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentInvitedPersonExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.AppointmentInvitedPersonExtender
+  parent: SuperOffice.CRM.ArchiveLists.Joiners
+  isExternal: true
+  name: AppointmentInvitedPersonExtender
+  nameWithType: AppointmentInvitedPersonExtender
+  fullName: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentInvitedPersonExtender
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.ContactExtraFieldExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.ContactExtraFieldExtender
   isExternal: true
@@ -57,13 +64,6 @@ references:
   name: TicketMessageExtraFieldExtender
   nameWithType: TicketMessageExtraFieldExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.TicketMessageExtraFieldExtender
-- uid: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentInvitedPersonExtender
-  commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.AppointmentInvitedPersonExtender
-  parent: SuperOffice.CRM.ArchiveLists.Joiners
-  isExternal: true
-  name: AppointmentInvitedPersonExtender
-  nameWithType: AppointmentInvitedPersonExtender
-  fullName: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentInvitedPersonExtender
 - uid: SuperOffice.CRM.ArchiveLists.Joiners
   commentId: N:SuperOffice.CRM.ArchiveLists.Joiners
   isExternal: true

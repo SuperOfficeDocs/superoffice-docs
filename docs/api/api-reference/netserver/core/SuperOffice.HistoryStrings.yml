@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.HistoryStrings
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHelper class that exposes history list names that are used to identify current values.\nThese names either uniquely represents table_id/extra_id in the history table, or\nPreference values\n"
   syntax:
@@ -92,10 +92,10 @@ items:
   fullName: SuperOffice.HistoryStrings.HistoryStrings()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public HistoryStrings()
@@ -117,10 +117,10 @@ items:
   fullName: SuperOffice.HistoryStrings.Appointment
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -150,10 +150,10 @@ items:
   fullName: SuperOffice.HistoryStrings.Associate
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -183,10 +183,10 @@ items:
   fullName: SuperOffice.HistoryStrings.Business
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -216,10 +216,10 @@ items:
   fullName: SuperOffice.HistoryStrings.Category
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -249,10 +249,10 @@ items:
   fullName: SuperOffice.HistoryStrings.Competitor
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -282,10 +282,10 @@ items:
   fullName: SuperOffice.HistoryStrings.Contact
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -315,10 +315,10 @@ items:
   fullName: SuperOffice.HistoryStrings.ContactInterest
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -348,10 +348,10 @@ items:
   fullName: SuperOffice.HistoryStrings.Country
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -381,10 +381,10 @@ items:
   fullName: SuperOffice.HistoryStrings.Credited
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -414,10 +414,10 @@ items:
   fullName: SuperOffice.HistoryStrings.Currency
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -447,10 +447,10 @@ items:
   fullName: SuperOffice.HistoryStrings.DocumentTemplate
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -480,10 +480,10 @@ items:
   fullName: SuperOffice.HistoryStrings.Document
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -513,10 +513,10 @@ items:
   fullName: SuperOffice.HistoryStrings.MergeDocument
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name used for documents used as mailmerge drafts.\n"
   syntax:
@@ -546,10 +546,10 @@ items:
   fullName: SuperOffice.HistoryStrings.Intent
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -579,10 +579,10 @@ items:
   fullName: SuperOffice.HistoryStrings.MrMrs
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -612,10 +612,10 @@ items:
   fullName: SuperOffice.HistoryStrings.PersonIntererst
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -645,10 +645,10 @@ items:
   fullName: SuperOffice.HistoryStrings.Person
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -678,10 +678,10 @@ items:
   fullName: SuperOffice.HistoryStrings.PersonPosition
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -711,10 +711,10 @@ items:
   fullName: SuperOffice.HistoryStrings.ProjectMemberType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -744,10 +744,10 @@ items:
   fullName: SuperOffice.HistoryStrings.Priority
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -777,10 +777,10 @@ items:
   fullName: SuperOffice.HistoryStrings.Probability
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -810,10 +810,10 @@ items:
   fullName: SuperOffice.HistoryStrings.Project
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -843,10 +843,10 @@ items:
   fullName: SuperOffice.HistoryStrings.ProjectStatus
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -876,10 +876,10 @@ items:
   fullName: SuperOffice.HistoryStrings.ProjectType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -909,10 +909,10 @@ items:
   fullName: SuperOffice.HistoryStrings.Reason
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -942,10 +942,10 @@ items:
   fullName: SuperOffice.HistoryStrings.Sale
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -975,10 +975,10 @@ items:
   fullName: SuperOffice.HistoryStrings.SearchCategory
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -1008,10 +1008,10 @@ items:
   fullName: SuperOffice.HistoryStrings.Selection
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -1041,10 +1041,10 @@ items:
   fullName: SuperOffice.HistoryStrings.Source
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -1074,10 +1074,10 @@ items:
   fullName: SuperOffice.HistoryStrings.Task
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -1107,10 +1107,10 @@ items:
   fullName: SuperOffice.HistoryStrings.UDList
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -1140,10 +1140,10 @@ items:
   fullName: SuperOffice.HistoryStrings.UserGroup
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name\n"
   syntax:
@@ -1173,10 +1173,10 @@ items:
   fullName: SuperOffice.HistoryStrings.GroupView
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name used for the group view current value\n"
   syntax:
@@ -1206,10 +1206,10 @@ items:
   fullName: SuperOffice.HistoryStrings.DiaryOwner
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nHistory list name used for the diary owner current value\n"
   syntax:

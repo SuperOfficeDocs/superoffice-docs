@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.Visibility
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nThe visibility of the record\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.Visibility.All
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: 0 = Visible for all users\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.Visibility.Associate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: 1 = The visibility is set for an associate\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.Visibility.Group
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: 2 = The visibility is set for a group\n"
   syntax:

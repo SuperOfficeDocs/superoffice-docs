@@ -26,10 +26,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessTokenSecurityToken
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: 'public class SoAccessTokenSecurityToken : SecurityToken'
@@ -60,10 +60,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessTokenSecurityToken.SoAccessTokenSecurityToken(SuperOffice.Security.Principal.SoAccessToken)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nCreate a new instance of SoAccessSecurityToken using a supplied access token. \n"
   syntax:
@@ -89,10 +89,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessTokenSecurityToken.SoAccessTokenSecurityToken(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nCreate a new instance of SoAccessSecurityToken using an encrypted and base64-encoded version of the access token.\n"
   syntax:
@@ -118,10 +118,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessTokenSecurityToken.EncryptedAccessToken
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe encrypted and base64-encoded version of the access token.\n"
   syntax:
@@ -149,10 +149,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessTokenSecurityToken.AccessToken
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nDecrypted access token. Only available on issuing instance.\n"
   syntax:
@@ -180,10 +180,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessTokenSecurityToken.IsDecrypted
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nCheck if the security token has access to the decrypted version of the access token.\n"
   syntax:
@@ -211,10 +211,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessTokenSecurityToken.Nonce
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe Nonce in the access token. Only call this when IsDecrypted is true.\n"
   syntax:
@@ -242,10 +242,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessTokenSecurityToken.ContextIdentifier
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe contextIdentifier in the access token. Only call this when IsDecrypted is true.\n"
   syntax:
@@ -273,10 +273,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessTokenSecurityToken.ApplicationToken
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe application token belonging to the calling application. Only call this when IsDecrypted is true. \n"
   syntax:
@@ -304,10 +304,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessTokenSecurityToken.AssociateId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe identifier of the associate used when creating the access token. Only call this when IsDecrypted is true.\n"
   syntax:
@@ -335,10 +335,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessTokenSecurityToken.Id
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe identifier of the associate used when creating the access token. Only call this when IsDecrypted is true.\n"
   syntax:
@@ -368,10 +368,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessTokenSecurityToken.SecurityKeys
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public override ReadOnlyCollection<SecurityKey> SecurityKeys { get; }
@@ -400,10 +400,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessTokenSecurityToken.ValidFrom
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nValidFrom and ValidTo restrict the period when the access token is valid. Only call this when IsDecrypted is true.\n"
   syntax:
@@ -433,10 +433,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessTokenSecurityToken.ValidTo
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nValidFrom and ValidTo restrict the period when the access token is valid. Only call this when IsDecrypted is true.\n"
   syntax:

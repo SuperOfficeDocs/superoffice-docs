@@ -29,10 +29,10 @@ items:
   fullName: SuperOffice.Data.PrefDescValueType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValue for field &apos;valueType&apos; in table &apos;prefdesc&apos;.\nThis Enum is used by:  PrefDesc.valueType\n"
   syntax:
@@ -61,10 +61,10 @@ items:
   fullName: SuperOffice.Data.PrefDescValueType.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown - used when initializing\n"
   syntax:
@@ -89,10 +89,10 @@ items:
   fullName: SuperOffice.Data.PrefDescValueType.Number
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Preference value is a number\n"
   syntax:
@@ -117,10 +117,10 @@ items:
   fullName: SuperOffice.Data.PrefDescValueType.Text
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Preference value is a text (max len 99 characters)\n"
   syntax:
@@ -145,10 +145,10 @@ items:
   fullName: SuperOffice.Data.PrefDescValueType.Bool
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Preference value is Boolean\n"
   syntax:
@@ -173,10 +173,10 @@ items:
   fullName: SuperOffice.Data.PrefDescValueType.ListOfValues
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Preference value is a list of separate value\n"
   syntax:
@@ -201,10 +201,10 @@ items:
   fullName: SuperOffice.Data.PrefDescValueType.ListTableRef
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Preference value is a record ID in the given MDO list table; maxValue contains the tablenumberø\n"
   syntax:
@@ -229,10 +229,10 @@ items:
   fullName: SuperOffice.Data.PrefDescValueType.TimeList
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: Preference value is a time, value is seconds since midnight (28800 = 08:00)\n"
   syntax:
@@ -257,10 +257,10 @@ items:
   fullName: SuperOffice.Data.PrefDescValueType.ContactID
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: Preference value is a contact ID\n"
   syntax:
@@ -285,10 +285,10 @@ items:
   fullName: SuperOffice.Data.PrefDescValueType.PersonID
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Preference value is a person ID\n"
   syntax:
@@ -313,10 +313,10 @@ items:
   fullName: SuperOffice.Data.PrefDescValueType.ProjectID
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n9: Preference value is a project ID\n"
   syntax:
@@ -341,10 +341,10 @@ items:
   fullName: SuperOffice.Data.PrefDescValueType.SelectionID
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n10: Preference value is a selection ID\n"
   syntax:
@@ -369,10 +369,10 @@ items:
   fullName: SuperOffice.Data.PrefDescValueType.PosSize
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n11: Obsolete: Windows position and size\n"
   syntax:
@@ -397,10 +397,10 @@ items:
   fullName: SuperOffice.Data.PrefDescValueType.TimeZone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n12: TimeZone location\n"
   syntax:
@@ -425,10 +425,10 @@ items:
   fullName: SuperOffice.Data.PrefDescValueType.Time
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n13: Time, preference value is 13:45:50\n"
   syntax:
@@ -453,10 +453,10 @@ items:
   fullName: SuperOffice.Data.PrefDescValueType.Password
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n14: Password, stored as plain text but shown with dots\n"
   syntax:
@@ -481,10 +481,10 @@ items:
   fullName: SuperOffice.Data.PrefDescValueType.MultiLineText
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n15: Multi-line text that preserves line breaks\n"
   syntax:

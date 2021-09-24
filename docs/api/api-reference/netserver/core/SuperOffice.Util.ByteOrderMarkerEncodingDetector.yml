@@ -23,10 +23,10 @@ items:
   fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: 'public class ByteOrderMarkerEncodingDetector : ITextEncodingDetector'
@@ -68,10 +68,10 @@ items:
   fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF8
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static readonly byte[] UTF8
@@ -98,10 +98,10 @@ items:
   fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF16BE
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static readonly byte[] UTF16BE
@@ -128,10 +128,10 @@ items:
   fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF16LE
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static readonly byte[] UTF16LE
@@ -158,10 +158,10 @@ items:
   fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF32LE
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static readonly byte[] UTF32LE
@@ -188,10 +188,10 @@ items:
   fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF7t1
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static readonly byte[] UTF7t1
@@ -218,10 +218,10 @@ items:
   fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF7t2
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static readonly byte[] UTF7t2
@@ -248,10 +248,10 @@ items:
   fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF7t3
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static readonly byte[] UTF7t3
@@ -278,10 +278,10 @@ items:
   fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector.UTF7t4
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static readonly byte[] UTF7t4
@@ -308,10 +308,10 @@ items:
   fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector.DetectFrom(System.Byte[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public Encoding DetectFrom(byte[] bytes)
@@ -343,10 +343,10 @@ items:
   fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector.ByteOrderMarkerEncodingDetector()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public ByteOrderMarkerEncodingDetector()

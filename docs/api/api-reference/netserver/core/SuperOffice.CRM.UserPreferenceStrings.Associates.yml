@@ -21,10 +21,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Associates
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nAssociate preferences like which radiobutton did I select the last time I used this dialog/control\nor which item did I select last time I used this dropdownlist\n"
   syntax:
@@ -59,10 +59,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Associates.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:
@@ -88,10 +88,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Associates.AssocSubListWeb
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreference used to remember what sublist in the associate selector that was last used\nValue -2    = All users\nValue -1    = History\nValue > 0   = Id of department\n<p></p>Control type: Number, access: crm\n"
   syntax:
@@ -117,10 +117,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Associates.ResourceSubListWeb
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreference used to remember the setup/state of the Filter dialog\nValue -2    = All resources\nValue -1    = History\nValue > 0   = Id of resource heading\n<p></p>Control type: Number, access: crm\n"
   syntax:
@@ -146,10 +146,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Associates.AssocHomeCountry
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nHome country of associate if it differ from company\n<p></p>\n"
   syntax:
@@ -175,10 +175,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Associates.DontAskAgainDeleteDialog
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\n\n"
   syntax:
@@ -204,10 +204,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Associates.DontAskAgainRelationDialog
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\n\n"
   syntax:
@@ -233,10 +233,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Associates.DontAskAgainUdefPage1
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\n\n"
   syntax:
@@ -262,10 +262,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Associates.DontAskAgainEmailInvitationDialog
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\n\n"
   syntax:

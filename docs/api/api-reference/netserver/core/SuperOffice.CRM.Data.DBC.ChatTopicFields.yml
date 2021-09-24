@@ -9,6 +9,12 @@ items:
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.AlertTemplate
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.AlertTimeout
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.BadgeHeader
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.BotEnabled
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.BotMessageReceivedScriptid
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.BotName
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.BotRegisterScriptid
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.BotSessionChangedScriptid
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.BotSessionCreatedScriptid
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.CategoryId
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.ChatTopicId
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.CustomQueueText
@@ -20,6 +26,8 @@ items:
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.KbCategoryId
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.LanguageId
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.LastAccept
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.LunchStart
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.LunchStop
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.ManagerWarningNewChat
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.MonEnabled
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.MonStart
@@ -40,12 +48,14 @@ items:
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.TueStart
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.TueStop
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.TzLocationId
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.UseLunchHours
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.UseOpeningHours
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WarningNewChat
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WedEnabled
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WedStart
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WedStop
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WelcomeMessage
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAgentUseFirstname
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAutoFaq
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetColor
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetEnableTicket
@@ -465,7 +475,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.WarningNewChat: Contains the user notify time in seconds\n"
+  summary: "\nChatTopic.WarningNewChat: Contains the user notify time in minutes\n"
   syntax:
     content: public const string WarningNewChat = "warning_new_chat"
     return:
@@ -494,7 +504,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nChatTopic.ManagerWarningNewChat: Contains the manager notify time in seconds\n"
+  summary: "\nChatTopic.ManagerWarningNewChat: Contains the manager notify time in minutes\n"
   syntax:
     content: public const string ManagerWarningNewChat = "manager_warning_new_chat"
     return:
@@ -1863,6 +1873,296 @@ items:
     return:
       type: System.String
     content.vb: Public Const CustomQueueText As String = "custom_queue_text"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.BotEnabled
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.BotEnabled
+  id: BotEnabled
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: BotEnabled
+  nameWithType: DBC.ChatTopicFields.BotEnabled
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.BotEnabled
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.BotEnabled: Enable chatbot on this topic. Run the trigger scripts on bot events.\n"
+  syntax:
+    content: public const string BotEnabled = "bot_enabled"
+    return:
+      type: System.String
+    content.vb: Public Const BotEnabled As String = "bot_enabled"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.BotName
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.BotName
+  id: BotName
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: BotName
+  nameWithType: DBC.ChatTopicFields.BotName
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.BotName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.BotName: Chatbot name\n"
+  syntax:
+    content: public const string BotName = "bot_name"
+    return:
+      type: System.String
+    content.vb: Public Const BotName As String = "bot_name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.BotRegisterScriptid
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.BotRegisterScriptid
+  id: BotRegisterScriptid
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: BotRegisterScriptid
+  nameWithType: DBC.ChatTopicFields.BotRegisterScriptid
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.BotRegisterScriptid
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.BotRegisterScriptid: Script id to register/unregister chatbot. 0 if there is no bot\n"
+  syntax:
+    content: public const string BotRegisterScriptid = "bot_register_scriptid"
+    return:
+      type: System.String
+    content.vb: Public Const BotRegisterScriptid As String = "bot_register_scriptid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.BotSessionCreatedScriptid
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.BotSessionCreatedScriptid
+  id: BotSessionCreatedScriptid
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: BotSessionCreatedScriptid
+  nameWithType: DBC.ChatTopicFields.BotSessionCreatedScriptid
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.BotSessionCreatedScriptid
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.BotSessionCreatedScriptid: Script id to run on new session.\n"
+  syntax:
+    content: public const string BotSessionCreatedScriptid = "bot_session_created_scriptid"
+    return:
+      type: System.String
+    content.vb: Public Const BotSessionCreatedScriptid As String = "bot_session_created_scriptid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.BotSessionChangedScriptid
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.BotSessionChangedScriptid
+  id: BotSessionChangedScriptid
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: BotSessionChangedScriptid
+  nameWithType: DBC.ChatTopicFields.BotSessionChangedScriptid
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.BotSessionChangedScriptid
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.BotSessionChangedScriptid: Script id to run when session state changes.\n"
+  syntax:
+    content: public const string BotSessionChangedScriptid = "bot_session_changed_scriptid"
+    return:
+      type: System.String
+    content.vb: Public Const BotSessionChangedScriptid As String = "bot_session_changed_scriptid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.BotMessageReceivedScriptid
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.BotMessageReceivedScriptid
+  id: BotMessageReceivedScriptid
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: BotMessageReceivedScriptid
+  nameWithType: DBC.ChatTopicFields.BotMessageReceivedScriptid
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.BotMessageReceivedScriptid
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.BotMessageReceivedScriptid: Script id to run when new messages received from customer.\n"
+  syntax:
+    content: public const string BotMessageReceivedScriptid = "bot_message_received_scriptid"
+    return:
+      type: System.String
+    content.vb: Public Const BotMessageReceivedScriptid As String = "bot_message_received_scriptid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.UseLunchHours
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.UseLunchHours
+  id: UseLunchHours
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: UseLunchHours
+  nameWithType: DBC.ChatTopicFields.UseLunchHours
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.UseLunchHours
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.UseLunchHours: Whether to use lunch hours or not.\n"
+  syntax:
+    content: public const string UseLunchHours = "use_lunch_hours"
+    return:
+      type: System.String
+    content.vb: Public Const UseLunchHours As String = "use_lunch_hours"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.LunchStart
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.LunchStart
+  id: LunchStart
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: LunchStart
+  nameWithType: DBC.ChatTopicFields.LunchStart
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.LunchStart
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.LunchStart: When opening hours starts for lunch. Only time-part is used.\n"
+  syntax:
+    content: public const string LunchStart = "lunch_start"
+    return:
+      type: System.String
+    content.vb: Public Const LunchStart As String = "lunch_start"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.LunchStop
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.LunchStop
+  id: LunchStop
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: LunchStop
+  nameWithType: DBC.ChatTopicFields.LunchStop
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.LunchStop
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.LunchStop: When opening hours stops for lunch. Only time-part is used.\n"
+  syntax:
+    content: public const string LunchStop = "lunch_stop"
+    return:
+      type: System.String
+    content.vb: Public Const LunchStop As String = "lunch_stop"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAgentUseFirstname
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAgentUseFirstname
+  id: WidgetAgentUseFirstname
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: WidgetAgentUseFirstname
+  nameWithType: DBC.ChatTopicFields.WidgetAgentUseFirstname
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAgentUseFirstname
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.WidgetAgentUseFirstname: Whether to use the firstname of the agent in the chat widget.\n"
+  syntax:
+    content: public const string WidgetAgentUseFirstname = "widget_agent_use_firstname"
+    return:
+      type: System.String
+    content.vb: Public Const WidgetAgentUseFirstname As String = "widget_agent_use_firstname"
   modifiers.csharp:
   - public
   - const

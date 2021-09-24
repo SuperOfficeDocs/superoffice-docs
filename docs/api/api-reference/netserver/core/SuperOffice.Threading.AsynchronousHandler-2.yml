@@ -24,10 +24,10 @@ items:
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nBase class for services that have an asynchronous part. Knowledge about processing is held by a separate processor.\n"
   remarks: "\nSee design documentation\nin //crm/Documents/CRM Web Spec and Design Documents/NetServer/Core Services.doc\n"
@@ -81,10 +81,10 @@ items:
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousHandler()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nConstructor, only called from derived classes\n"
   syntax:
@@ -109,10 +109,10 @@ items:
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nReturns value of <xref href=\"SuperOffice.Threading.AsynchronousHandler%602.ThreadName\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
@@ -143,10 +143,10 @@ items:
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup(TAsynchronousArgument)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nDerived classes that need other behaviour than simply copying the ArgumentParameterCollection\nand PrimaryKey information from the incoming query should override this method.\n"
   syntax:
@@ -180,10 +180,10 @@ items:
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup(TAsynchronousArgument)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nPublic interface for the synchronous part of the operation. The query to be\nprocessed must be a parameter to this operation.\n"
   syntax:
@@ -215,10 +215,10 @@ items:
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nPublic interface for the asynchronous part of the operation. Any data needed\nfor its execution has to be copied by the <xref href=\"SuperOffice.Threading.AsynchronousHandler%602.SynchronousSetup(%601)\" data-throw-if-not-resolved=\"false\"></xref>, because\nyou DO NOT KNOW when the <see cref=\"!:OnOperation\"></see> method will actually be called.\n"
   remarks: "\nYou should not really call this method if the <xref href=\"SuperOffice.Threading.AsynchronousHandler%602.SynchronousSetup(%601)\" data-throw-if-not-resolved=\"false\"></xref> returned false, which can be checked\nby accessing the <see cref=\"!:WorkToDo\"></see> property. However, it is not an error to call\nthis method anyway, as it will check the workToDo variable before actually doing anything.\n<p></p>\nHowever, if you forget to call <xref href=\"SuperOffice.Threading.AsynchronousHandler%602.SynchronousSetup(%601)\" data-throw-if-not-resolved=\"false\"></xref>, you will get an exception here.\n"
@@ -246,10 +246,10 @@ items:
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nStrategy method for starting processing of new work. \n"
   remarks: "\nDerived classes must provide an implementation that somehow queues, spawns, executes or in other\nways processes directly, or sets up for later processing, whatever work is in the InputQueryCopy\n(or the derived class&apos; other unit of work storage).\n"
@@ -277,10 +277,10 @@ items:
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nTemplate method that executes the actual work, by calling the <see cref=\"!:OnOperation\"></see>\nabstract method. \n"
   remarks: "\nExecuteWork is called by the thread delegates provided by the various\nexecution models. It can be overridden for special needs, but overriders should note that\nthey MUST call <see cref=\"!:OnOperation\"></see>, otherwise they may break the protocol.\n"
@@ -308,10 +308,10 @@ items:
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.Processor
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nProcessor executing the operation.\n"
   syntax:
@@ -341,10 +341,10 @@ items:
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WasSetupCalled
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nA flag property that keeps track of whether the <xref href=\"SuperOffice.Threading.AsynchronousHandler%602.SynchronousSetup(%601)\" data-throw-if-not-resolved=\"false\"></xref> method\nhas been called. It is illegal to call <xref href=\"SuperOffice.Threading.AsynchronousHandler%602.AsynchronousOperation\" data-throw-if-not-resolved=\"false\"></xref> if this flag\nis false.\n"
   syntax:
@@ -374,10 +374,10 @@ items:
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.HasWorkToDo
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nA flag property that reflects the output of <xref href=\"SuperOffice.Threading.AsynchronousHandler%602.SynchronousSetup(%601)\" data-throw-if-not-resolved=\"false\"></xref>. It is true\nif there is work to do for the <xref href=\"SuperOffice.Threading.AsynchronousHandler%602.AsynchronousOperation\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
@@ -407,10 +407,10 @@ items:
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ThreadName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nThread name. The default implementation returns the query type and the table/record of the\nfirst query in the batch. Subclasses can override and add their content.\n"
   syntax:

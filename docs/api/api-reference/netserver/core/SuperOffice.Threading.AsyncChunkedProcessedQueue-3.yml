@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Threading.AsyncChunkedProcessedQueue<TWorkItem, TChunkProcessor, TChunkHandler>
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nBase class for queue or FIFO that is processed in chunks.\n"
   remarks: "\nAs items are added to the queue it is either passed to an exsisting \n<see cref=\"!:QueueaAsyncChunkHandler\"></see> for processing or it is passed to a new one.  \nThe <see cref=\"!:QueueaAsyncChunkHandler\"></see> processes queued items until the queue is \nemptied and then dies.  If there are no current <see cref=\"!:QueueaAsyncChunkHandler\"></see> \nworking on the queue, a new one is created.\n"
@@ -73,10 +73,10 @@ items:
   fullName: SuperOffice.Threading.AsyncChunkedProcessedQueue<TWorkItem, TChunkProcessor, TChunkHandler>.Enqueue(TWorkItem)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nPut an item in the queue and consequently schedule it to be processed\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Threading.AsyncChunkedProcessedQueue<TWorkItem, TChunkProcessor, TChunkHandler>.AsyncChunkedProcessedQueue()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public AsyncChunkedProcessedQueue()
@@ -131,10 +131,10 @@ items:
   fullName: SuperOffice.Threading.AsyncChunkedProcessedQueue<TWorkItem, TChunkProcessor, TChunkHandler>.CurrentHandler
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nGet the currently executing handler.\n"
   syntax:
@@ -164,10 +164,10 @@ items:
   fullName: SuperOffice.Threading.AsyncChunkedProcessedQueue<TWorkItem, TChunkProcessor, TChunkHandler>.QueueLength
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nObtain the length the remaining items in the currently processed queue chunk,\n"
   syntax:

@@ -5,17 +5,19 @@ items:
   id: SelectionTypeInfo
   parent: SuperOffice.CRM.Entities
   children:
-  - SuperOffice.CRM.Entities.SelectionTypeInfo.#ctor(System.String,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.Int16,System.Boolean,System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Entities.SelectionTypeInfo.#ctor(System.String,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.Int16,System.Boolean,System.String,System.String,System.String,System.String,System.String,System.String)
   - SuperOffice.CRM.Entities.SelectionTypeInfo.CanSaveAsSelection
   - SuperOffice.CRM.Entities.SelectionTypeInfo.CombinedProvider
   - SuperOffice.CRM.Entities.SelectionTypeInfo.DynamicProvider
   - SuperOffice.CRM.Entities.SelectionTypeInfo.Entity
+  - SuperOffice.CRM.Entities.SelectionTypeInfo.EntityName
   - SuperOffice.CRM.Entities.SelectionTypeInfo.Icon
   - SuperOffice.CRM.Entities.SelectionTypeInfo.MailingsProvider
   - SuperOffice.CRM.Entities.SelectionTypeInfo.NameForFind
   - SuperOffice.CRM.Entities.SelectionTypeInfo.NameForFindFilterScreen
   - SuperOffice.CRM.Entities.SelectionTypeInfo.NameForSelection
   - SuperOffice.CRM.Entities.SelectionTypeInfo.NameForTypeDropdown
+  - SuperOffice.CRM.Entities.SelectionTypeInfo.PrimaryKey
   - SuperOffice.CRM.Entities.SelectionTypeInfo.Rank
   - SuperOffice.CRM.Entities.SelectionTypeInfo.ShadowProvider
   - SuperOffice.CRM.Entities.SelectionTypeInfo.StaticProvider
@@ -56,16 +58,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.Entities.SelectionTypeInfo.#ctor(System.String,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.Int16,System.Boolean,System.String,System.String,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Entities.SelectionTypeInfo.#ctor(System.String,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.Int16,System.Boolean,System.String,System.String,System.String,System.String)
-  id: '#ctor(System.String,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.Int16,System.Boolean,System.String,System.String,System.String,System.String)'
+- uid: SuperOffice.CRM.Entities.SelectionTypeInfo.#ctor(System.String,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.Int16,System.Boolean,System.String,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Entities.SelectionTypeInfo.#ctor(System.String,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.Int16,System.Boolean,System.String,System.String,System.String,System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.Int16,System.Boolean,System.String,System.String,System.String,System.String,System.String,System.String)'
   parent: SuperOffice.CRM.Entities.SelectionTypeInfo
   langs:
   - csharp
   - vb
-  name: SelectionTypeInfo(String, String, String, String, String, Boolean, String, Int16, Boolean, String, String, String, String)
-  nameWithType: SelectionTypeInfo.SelectionTypeInfo(String, String, String, String, String, Boolean, String, Int16, Boolean, String, String, String, String)
-  fullName: SuperOffice.CRM.Entities.SelectionTypeInfo.SelectionTypeInfo(System.String, System.String, System.String, System.String, System.String, System.Boolean, System.String, System.Int16, System.Boolean, System.String, System.String, System.String, System.String)
+  name: SelectionTypeInfo(String, String, String, String, String, Boolean, String, Int16, Boolean, String, String, String, String, String, String)
+  nameWithType: SelectionTypeInfo.SelectionTypeInfo(String, String, String, String, String, Boolean, String, Int16, Boolean, String, String, String, String, String, String)
+  fullName: SuperOffice.CRM.Entities.SelectionTypeInfo.SelectionTypeInfo(System.String, System.String, System.String, System.String, System.String, System.Boolean, System.String, System.Int16, System.Boolean, System.String, System.String, System.String, System.String, System.String, System.String)
   type: Constructor
   source:
     path: SoDataBase
@@ -74,7 +76,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public SelectionTypeInfo(string entity, string dynamicP, string staticP, string combinedP, string shadowP, bool canSaveAsSelection, string icon, short rank, bool hasMailings, string nameForFind, string nameForFindFilterScreen, string nameForSelection, string tooltipForDropDown)
+    content: public SelectionTypeInfo(string entity, string dynamicP, string staticP, string combinedP, string shadowP, bool canSaveAsSelection, string icon, short rank, bool hasMailings, string nameForFind, string nameForFindFilterScreen, string nameForSelection, string tooltipForDropDown, string entityName, string primaryKey)
     parameters:
     - id: entity
       type: System.String
@@ -102,7 +104,11 @@ items:
       type: System.String
     - id: tooltipForDropDown
       type: System.String
-    content.vb: Public Sub New(entity As String, dynamicP As String, staticP As String, combinedP As String, shadowP As String, canSaveAsSelection As Boolean, icon As String, rank As Short, hasMailings As Boolean, nameForFind As String, nameForFindFilterScreen As String, nameForSelection As String, tooltipForDropDown As String)
+    - id: entityName
+      type: System.String
+    - id: primaryKey
+      type: System.String
+    content.vb: Public Sub New(entity As String, dynamicP As String, staticP As String, combinedP As String, shadowP As String, canSaveAsSelection As Boolean, icon As String, rank As Short, hasMailings As Boolean, nameForFind As String, nameForFindFilterScreen As String, nameForSelection As String, tooltipForDropDown As String, entityName As String, primaryKey As String)
   overload: SuperOffice.CRM.Entities.SelectionTypeInfo.#ctor*
   modifiers.csharp:
   - public
@@ -552,6 +558,66 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property NameForSelection As String
   overload: SuperOffice.CRM.Entities.SelectionTypeInfo.NameForSelection*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Entities.SelectionTypeInfo.EntityName
+  commentId: P:SuperOffice.CRM.Entities.SelectionTypeInfo.EntityName
+  id: EntityName
+  parent: SuperOffice.CRM.Entities.SelectionTypeInfo
+  langs:
+  - csharp
+  - vb
+  name: EntityName
+  nameWithType: SelectionTypeInfo.EntityName
+  fullName: SuperOffice.CRM.Entities.SelectionTypeInfo.EntityName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public string EntityName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property EntityName As String
+  overload: SuperOffice.CRM.Entities.SelectionTypeInfo.EntityName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Entities.SelectionTypeInfo.PrimaryKey
+  commentId: P:SuperOffice.CRM.Entities.SelectionTypeInfo.PrimaryKey
+  id: PrimaryKey
+  parent: SuperOffice.CRM.Entities.SelectionTypeInfo
+  langs:
+  - csharp
+  - vb
+  name: PrimaryKey
+  nameWithType: SelectionTypeInfo.PrimaryKey
+  fullName: SuperOffice.CRM.Entities.SelectionTypeInfo.PrimaryKey
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public string PrimaryKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property PrimaryKey As String
+  overload: SuperOffice.CRM.Entities.SelectionTypeInfo.PrimaryKey*
   modifiers.csharp:
   - public
   - get
@@ -1146,3 +1212,15 @@ references:
   name: NameForSelection
   nameWithType: SelectionTypeInfo.NameForSelection
   fullName: SuperOffice.CRM.Entities.SelectionTypeInfo.NameForSelection
+- uid: SuperOffice.CRM.Entities.SelectionTypeInfo.EntityName*
+  commentId: Overload:SuperOffice.CRM.Entities.SelectionTypeInfo.EntityName
+  isExternal: true
+  name: EntityName
+  nameWithType: SelectionTypeInfo.EntityName
+  fullName: SuperOffice.CRM.Entities.SelectionTypeInfo.EntityName
+- uid: SuperOffice.CRM.Entities.SelectionTypeInfo.PrimaryKey*
+  commentId: Overload:SuperOffice.CRM.Entities.SelectionTypeInfo.PrimaryKey
+  isExternal: true
+  name: PrimaryKey
+  nameWithType: SelectionTypeInfo.PrimaryKey
+  fullName: SuperOffice.CRM.Entities.SelectionTypeInfo.PrimaryKey

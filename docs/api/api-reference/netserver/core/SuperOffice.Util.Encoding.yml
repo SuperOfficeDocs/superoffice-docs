@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Util.Encoding
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static class Encoding
@@ -57,10 +57,10 @@ items:
   fullName: SuperOffice.Util.Encoding.UrlEncode(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nUrl encode the string, including the &apos; character\n"
   syntax:
@@ -96,10 +96,10 @@ items:
   fullName: SuperOffice.Util.Encoding.UrlDecode(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nUrl decode the string\n"
   syntax:
@@ -135,10 +135,10 @@ items:
   fullName: SuperOffice.Util.Encoding.HtmlEncode(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nHtml encode the string\n"
   syntax:
@@ -174,10 +174,10 @@ items:
   fullName: SuperOffice.Util.Encoding.HtmlEncode(System.String, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nHtml encode the string and encode quotes to &apos;\n"
   syntax:
@@ -215,10 +215,10 @@ items:
   fullName: SuperOffice.Util.Encoding.HtmlDecode(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nHtml decode the string\n"
   syntax:
@@ -253,10 +253,10 @@ items:
   fullName: SuperOffice.Util.Encoding.EscapeForJavascript(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nTakes a string-value and ensures it is safe to insert into\na javascript string.\n"
   syntax:

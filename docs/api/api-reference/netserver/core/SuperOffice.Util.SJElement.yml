@@ -24,10 +24,10 @@ items:
   fullName: SuperOffice.Util.SJElement
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public class SJElement
@@ -62,10 +62,10 @@ items:
   fullName: SuperOffice.Util.SJElement.SJElement(System.String, System.Object)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public SJElement(string name, object value)
@@ -92,10 +92,10 @@ items:
   fullName: SuperOffice.Util.SJElement.SJElement(System.String, SuperOffice.Util.SJElement)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public SJElement(string name, SJElement inner)
@@ -122,10 +122,10 @@ items:
   fullName: SuperOffice.Util.SJElement.SJElement(System.String, System.Collections.Generic.IEnumerable<SuperOffice.Util.SJElement>)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public SJElement(string name, IEnumerable<SJElement> inners)
@@ -155,10 +155,10 @@ items:
   fullName: SuperOffice.Util.SJElement.SJElement(System.String, SuperOffice.Util.SJArray)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public SJElement(string name, SJArray array)
@@ -185,10 +185,10 @@ items:
   fullName: SuperOffice.Util.SJElement.SJElement(System.String, SuperOffice.Util.SJElement[])
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public SJElement(string name, params SJElement[] inners)
@@ -218,10 +218,10 @@ items:
   fullName: SuperOffice.Util.SJElement.Add(System.String, SuperOffice.Util.SJElement)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public void Add(string name, SJElement inner)
@@ -248,10 +248,10 @@ items:
   fullName: SuperOffice.Util.SJElement.Add(System.String, System.Collections.Generic.IEnumerable<SuperOffice.Util.SJElement>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public void Add(string name, IEnumerable<SJElement> inners)
@@ -281,10 +281,10 @@ items:
   fullName: SuperOffice.Util.SJElement.Add(System.String, SuperOffice.Util.SJElement[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public void Add(string name, params SJElement[] inners)
@@ -314,10 +314,10 @@ items:
   fullName: SuperOffice.Util.SJElement.Add(System.String, SuperOffice.Util.SJArray)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public void Add(string name, SJArray inner)
@@ -344,10 +344,10 @@ items:
   fullName: SuperOffice.Util.SJElement.ToJS(SuperOffice.Util.SJElement)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public object ToJS(SJElement jElement)
@@ -374,10 +374,10 @@ items:
   fullName: SuperOffice.Util.SJElement.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public override string ToString()

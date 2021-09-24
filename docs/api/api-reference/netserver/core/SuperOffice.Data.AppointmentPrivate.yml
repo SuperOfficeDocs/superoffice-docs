@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.AppointmentPrivate
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValue for field &apos;private&apos; in table &apos;appointment&apos;.\nThis Enum is used by:  appointment.private\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.AppointmentPrivate.Public
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: This appointment can be read by anyone\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.AppointmentPrivate.PrivateUser
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: This appointment can only be read/seen by the owner\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.AppointmentPrivate.PrivateGroup
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: This appointment can only be read by members of the owners group\n"
   syntax:

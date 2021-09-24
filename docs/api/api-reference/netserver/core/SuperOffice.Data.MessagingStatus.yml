@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Data.MessagingStatus
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: >-
@@ -59,10 +59,10 @@ items:
   fullName: SuperOffice.Data.MessagingStatus.Error
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Error = 0
@@ -86,10 +86,10 @@ items:
   fullName: SuperOffice.Data.MessagingStatus.Sent
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Sent = 1
@@ -113,10 +113,10 @@ items:
   fullName: SuperOffice.Data.MessagingStatus.DeliveryError
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DeliveryError = 2
@@ -140,10 +140,10 @@ items:
   fullName: SuperOffice.Data.MessagingStatus.Received
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Received = 3
@@ -167,10 +167,10 @@ items:
   fullName: SuperOffice.Data.MessagingStatus.Replied
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Replied = 4

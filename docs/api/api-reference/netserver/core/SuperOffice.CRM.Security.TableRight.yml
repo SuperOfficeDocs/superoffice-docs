@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nWraps a table right together with an explanatory reason.\nCode can indicate why access is restricted.\n"
   remarks: "\nUsually obtained from the SuperOffice.CRM.Security.RightsFactory rather than created directly by the client.\n"
@@ -95,10 +95,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight._mask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\n\n"
   syntax:
@@ -122,10 +122,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.TableRight()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nCreates a blank table right with no rights.\n"
   syntax:
@@ -148,10 +148,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.TableRight(SuperOffice.Data.ETableRight)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nCreate a table right with the given set of permissions.\n"
   syntax:
@@ -178,10 +178,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.TableRight(SuperOffice.Data.ETableRight, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nCreate a table right with the given set of permissions and the given reason.\n"
   syntax:
@@ -211,10 +211,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.CanDo(SuperOffice.Data.ETableRight)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nReturns true when one or more of the given permissions are available.\n"
   syntax:
@@ -244,10 +244,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.CanDoAll(SuperOffice.Data.ETableRight)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nReturns true when all the given permissions are available.\n"
   syntax:
@@ -277,10 +277,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.DemandRight(SuperOffice.Data.ETableRight)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nTest the permissions and throw a <xref href=\"SuperOffice.Exceptions.SoSentryException\" data-throw-if-not-resolved=\"false\"></xref> if none of the permissions are available.\n<xref href=\"SuperOffice.CRM.Security.TableRight.CanDo(SuperOffice.Data.ETableRight)\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
@@ -307,10 +307,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.DemandAllRights(SuperOffice.Data.ETableRight)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nTest the permissions and throw a <xref href=\"SuperOffice.Exceptions.SoSentryException\" data-throw-if-not-resolved=\"false\"></xref> if not all of the permissions are available.\n<xref href=\"SuperOffice.CRM.Security.TableRight.CanDoAll(SuperOffice.Data.ETableRight)\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
@@ -337,10 +337,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.BitwiseAnd(SuperOffice.CRM.Security.TableRight, SuperOffice.CRM.Security.TableRight)
   type: Operator
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nCombine two table-rights into one. Permissions are logically ANDed together, giving us the lowest common denominator results.\n"
   syntax:
@@ -372,10 +372,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.RawAnd(SuperOffice.CRM.Security.TableRight)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: public TableRight RawAnd(TableRight right)
@@ -402,10 +402,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.BitwiseOr(SuperOffice.CRM.Security.TableRight, SuperOffice.CRM.Security.TableRight)
   type: Operator
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nCombine two table-rights into one using logical OR. \n"
   syntax:
@@ -438,10 +438,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.And(SuperOffice.Data.ETableRight, SuperOffice.Data.ETableRight)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nPerform a logical And operation between the two rights.\n"
   remarks: The operation implements the rules required for <xref href="SuperOffice.Data.ETableRight" data-throw-if-not-resolved="false"></xref>.
@@ -477,10 +477,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.Or(SuperOffice.Data.ETableRight, SuperOffice.Data.ETableRight)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nPerform a logical Or operation between the two rights.\n"
   remarks: The operation implements the rules required for <xref href="SuperOffice.Data.ETableRight" data-throw-if-not-resolved="false"></xref>.
@@ -516,10 +516,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.Add(SuperOffice.Data.ETableRight, SuperOffice.Data.ETableRight)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nPerform a logical or operation between the two rights.\n"
   remarks: The operation implements the rules required for <xref href="SuperOffice.Data.ETableRight" data-throw-if-not-resolved="false"></xref>.
@@ -555,10 +555,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.Subtract(SuperOffice.Data.ETableRight, SuperOffice.Data.ETableRight)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nPerform a logical And operation between the two rights.\n"
   remarks: "\nThe operation implements the rules required for <xref href=\"SuperOffice.Data.ETableRight\" data-throw-if-not-resolved=\"false\"></xref>.\nThis can be logically illustrated as &lt;c>r1 &amp; ~r2&lt;/c>.\n"
@@ -594,10 +594,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.CanRead(SuperOffice.Data.ETableRight)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: public static bool CanRead(ETableRight observed)
@@ -626,10 +626,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.IsReadFiltered(SuperOffice.Data.ETableRight)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: public static bool IsReadFiltered(ETableRight observed)
@@ -658,10 +658,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.CanInsert(SuperOffice.Data.ETableRight)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: public static bool CanInsert(ETableRight observed)
@@ -690,10 +690,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.CanUpdate(SuperOffice.Data.ETableRight)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: public static bool CanUpdate(ETableRight observed)
@@ -722,10 +722,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.CanUpdateSome(SuperOffice.Data.ETableRight)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: public static bool CanUpdateSome(ETableRight observed)
@@ -754,10 +754,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.CanDelete(SuperOffice.Data.ETableRight)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: public static bool CanDelete(ETableRight observed)
@@ -786,10 +786,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.HasAllRightBits(SuperOffice.Data.ETableRight, SuperOffice.Data.ETableRight)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: public static bool HasAllRightBits(ETableRight observed, ETableRight required)
@@ -820,10 +820,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.HasSomeRightBits(SuperOffice.Data.ETableRight, SuperOffice.Data.ETableRight)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: public static bool HasSomeRightBits(ETableRight observed, ETableRight required)
@@ -854,10 +854,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: public override string ToString()
@@ -884,10 +884,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.ToString(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: public string ToString(string prefix)
@@ -914,10 +914,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.Mask
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nReturns the bitflag of permissions.\n"
   syntax:
@@ -945,10 +945,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.HasAll
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nReturns true when all of Read, Insert, Delete, Update permissions are available.\nFilter and RestrictedUpdate permissions are ignored.\n"
   syntax:
@@ -979,10 +979,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.IgnoreReason
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: protected override bool IgnoreReason { get; }
@@ -1012,10 +1012,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.HasNone
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nReturns true when no permissions are available. Filter or RestrictedUpdate permissions mean that HasNone would return false.\n"
   syntax:
@@ -1046,10 +1046,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.HasRead
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nReturns true if the ETableRight.Read or ETableRight.FilteredRead permission is active.\n"
   syntax:
@@ -1077,10 +1077,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.HasReadFiltered
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: public bool HasReadFiltered { get; }
@@ -1107,10 +1107,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.HasInsert
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nReturns true if the ETableRight.Insert permission is active.\n"
   syntax:
@@ -1138,10 +1138,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.HasUpdate
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nReturns true if the ETableRight.Update or ETableRight.RestrictedUpdate permission is active.\n"
   syntax:
@@ -1169,10 +1169,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.IsUpdateRestricted
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: public bool IsUpdateRestricted { get; }
@@ -1199,10 +1199,10 @@ items:
   fullName: SuperOffice.CRM.Security.TableRight.HasDelete
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nReturns true if the ETableRight.Delete permission is active.\n"
   syntax:

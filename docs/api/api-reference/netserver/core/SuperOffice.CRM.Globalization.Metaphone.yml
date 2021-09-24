@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.Metaphone
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\nGenerator function for Soundex strings, according to SuperOffice usage.\nThis is based on Double Metaphone (c) 1998, 1999 by Lawrence Philips,\nfurther modified by SuperOffice.\n\nThe Soundex string generated here is used for duplicate searching - an exact match\nof Soundex implies a suspect duplicate of the originals.\n"
   syntax:
@@ -57,10 +57,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.Metaphone.GetMetaphone(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\nGenerate the SoSoundex string for the given argument, with the default length\n"
   syntax:
@@ -92,10 +92,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.Metaphone.GetMetaphone(System.String, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\nGenerate the SoSoundex string for the given argument, with an explicit length\n"
   syntax:

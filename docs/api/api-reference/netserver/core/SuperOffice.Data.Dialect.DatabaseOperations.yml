@@ -22,7 +22,7 @@ items:
   - SuperOffice.Data.Dialect.DatabaseOperations.GetSpecific(System.String,System.String)
   - SuperOffice.Data.Dialect.DatabaseOperations.GetTableAdmin
   - SuperOffice.Data.Dialect.DatabaseOperations.GetUserAdmin
-  - SuperOffice.Data.Dialect.DatabaseOperations.ImportTable(SuperOffice.Data.Dictionary.SoTable,System.Collections.Generic.IEnumerable{System.Object[]})
+  - SuperOffice.Data.Dialect.DatabaseOperations.ImportTable(SuperOffice.Data.Dictionary.SoTable,System.Collections.Generic.IEnumerable{System.Object[]},System.Collections.Generic.List{System.Int32})
   - SuperOffice.Data.Dialect.DatabaseOperations.InnerTruncateTable(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions)
   - SuperOffice.Data.Dialect.DatabaseOperations.NumShipoutThreads
   - SuperOffice.Data.Dialect.DatabaseOperations.SetOptions(System.Boolean,SuperOffice.Data.TtlFlags)
@@ -400,16 +400,16 @@ items:
   - Overridable
   fullName.vb: SuperOffice.Data.Dialect.DatabaseOperations.WipeAndImportTable(SuperOffice.Data.Dictionary.SoTable, System.Collections.Generic.IEnumerable(Of System.Object()))
   name.vb: WipeAndImportTable(SoTable, IEnumerable(Of Object()))
-- uid: SuperOffice.Data.Dialect.DatabaseOperations.ImportTable(SuperOffice.Data.Dictionary.SoTable,System.Collections.Generic.IEnumerable{System.Object[]})
-  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.ImportTable(SuperOffice.Data.Dictionary.SoTable,System.Collections.Generic.IEnumerable{System.Object[]})
-  id: ImportTable(SuperOffice.Data.Dictionary.SoTable,System.Collections.Generic.IEnumerable{System.Object[]})
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.ImportTable(SuperOffice.Data.Dictionary.SoTable,System.Collections.Generic.IEnumerable{System.Object[]},System.Collections.Generic.List{System.Int32})
+  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.ImportTable(SuperOffice.Data.Dictionary.SoTable,System.Collections.Generic.IEnumerable{System.Object[]},System.Collections.Generic.List{System.Int32})
+  id: ImportTable(SuperOffice.Data.Dictionary.SoTable,System.Collections.Generic.IEnumerable{System.Object[]},System.Collections.Generic.List{System.Int32})
   parent: SuperOffice.Data.Dialect.DatabaseOperations
   langs:
   - csharp
   - vb
-  name: ImportTable(SoTable, IEnumerable<Object[]>)
-  nameWithType: DatabaseOperations.ImportTable(SoTable, IEnumerable<Object[]>)
-  fullName: SuperOffice.Data.Dialect.DatabaseOperations.ImportTable(SuperOffice.Data.Dictionary.SoTable, System.Collections.Generic.IEnumerable<System.Object[]>)
+  name: ImportTable(SoTable, IEnumerable<Object[]>, List<Int32>)
+  nameWithType: DatabaseOperations.ImportTable(SoTable, IEnumerable<Object[]>, List<Int32>)
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.ImportTable(SuperOffice.Data.Dictionary.SoTable, System.Collections.Generic.IEnumerable<System.Object[]>, System.Collections.Generic.List<System.Int32>)
   type: Method
   source:
     path: SoDataBase
@@ -420,7 +420,7 @@ items:
   summary: "\nBulk-insert rows into a table. Please <strong>read and understand the remarks</strong> before using this method.\n"
   remarks: "\nBulk insertion is a special API supported by some databases. It will insert rows in the fastest possible way, \nbut subject to a number of limitations; generally including the following:\n<ul><li>Normal NetServer logic (sequence numbers, traveltransctionlog (but see param), freetext etc) <strong>do not apply</strong></li><li>NetServer Sentry logic does not apply</li><li>Database transaction logging may not apply, rendering such insert impossible to roll back</li><li>Database triggers do not fire</li><li>Database-level replication features will not work; however SQL Server <strong>change tracking</strong> still registers the changes properly</li><li>Special permissions might be required on the database</li></ul>\nIn addition, full speed advantage is generally only available if indexes are not present.\n<p></p>\nImportTable will &quot;pull&quot; data from the rows parameter, and ship it in reasonably-sized\nbatches to the database server. It may use some level of parallelization to increase throughput,\nbut the iteration over the rows parameter will only be on the original thread. The method will\nreturn when the enumeration is exhausted.\n<p></p>\nOn databases that do not have bulk-insertion API, or where we haven&apos;t implemented it, the \nimplementation will fallback to ordinary NetServer insert&apos;s.\n<p></p>\nThe classes that actually implement Bulk Copy have the same syntax, more or less, but no common inheritance. <br />\nhttp://docs.oracle.com/html/E10927_01/OracleBulkCopyClass.htm <br />\nhttp://msdn.microsoft.com/en-us/library/system.data.sqlclient.sqlbulkcopy.aspx <br />\nhttp://dcx.sybase.com/1201/en/dbprogramming/programming-api-sabulkcopy-cla.html <br />\n"
   syntax:
-    content: public virtual long ImportTable(SoTable table, IEnumerable<object[]> rows)
+    content: public virtual long ImportTable(SoTable table, IEnumerable<object[]> rows, List<int> actualPrimaryKeys = null)
     parameters:
     - id: table
       type: SuperOffice.Data.Dictionary.SoTable
@@ -431,20 +431,26 @@ items:
         Enumeration of row objects, where each row object is an array of values. All
 
         columns have to be specified, using values that are compatible with the table columns.
+    - id: actualPrimaryKeys
+      type: System.Collections.Generic.List{System.Int32}
+      description: >-
+        Optional list that will be populated with the primary keys actually in the rows; may be null.
+
+        This functionality does <strong>not</strong> work for tables that have database-allocated keys (Service y_ extratables)
     return:
       type: System.Int64
       description: Number of rows written to database
-    content.vb: Public Overridable Function ImportTable(table As SoTable, rows As IEnumerable(Of Object())) As Long
+    content.vb: Public Overridable Function ImportTable(table As SoTable, rows As IEnumerable(Of Object()), actualPrimaryKeys As List(Of Integer) = Nothing) As Long
   overload: SuperOffice.Data.Dialect.DatabaseOperations.ImportTable*
-  nameWithType.vb: DatabaseOperations.ImportTable(SoTable, IEnumerable(Of Object()))
+  nameWithType.vb: DatabaseOperations.ImportTable(SoTable, IEnumerable(Of Object()), List(Of Int32))
   modifiers.csharp:
   - public
   - virtual
   modifiers.vb:
   - Public
   - Overridable
-  fullName.vb: SuperOffice.Data.Dialect.DatabaseOperations.ImportTable(SuperOffice.Data.Dictionary.SoTable, System.Collections.Generic.IEnumerable(Of System.Object()))
-  name.vb: ImportTable(SoTable, IEnumerable(Of Object()))
+  fullName.vb: SuperOffice.Data.Dialect.DatabaseOperations.ImportTable(SuperOffice.Data.Dictionary.SoTable, System.Collections.Generic.IEnumerable(Of System.Object()), System.Collections.Generic.List(Of System.Int32))
+  name.vb: ImportTable(SoTable, IEnumerable(Of Object()), List(Of Int32))
 - uid: SuperOffice.Data.Dialect.DatabaseOperations.WriteBulkRows(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
   commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.WriteBulkRows(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
   id: WriteBulkRows(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
@@ -540,6 +546,7 @@ items:
       type: System.Int32[]
     return:
       type: System.Int32
+      description: Actual number of rows deleted, as reported by the database
     content.vb: Public Overridable Function BulkDelete(target As SoTable, iDs As Integer()) As Integer
   overload: SuperOffice.Data.Dialect.DatabaseOperations.BulkDelete*
   nameWithType.vb: DatabaseOperations.BulkDelete(SoTable, Int32())
@@ -1607,6 +1614,89 @@ references:
   name: ImportTable
   nameWithType: DatabaseOperations.ImportTable
   fullName: SuperOffice.Data.Dialect.DatabaseOperations.ImportTable
+- uid: System.Collections.Generic.List{System.Int32}
+  commentId: T:System.Collections.Generic.List{System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Int32>
+  nameWithType: List<Int32>
+  fullName: System.Collections.Generic.List<System.Int32>
+  nameWithType.vb: List(Of Int32)
+  fullName.vb: System.Collections.Generic.List(Of System.Int32)
+  name.vb: List(Of Int32)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.Dialect.DatabaseOperations.WriteBulkRows*
   commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.WriteBulkRows
   isExternal: true

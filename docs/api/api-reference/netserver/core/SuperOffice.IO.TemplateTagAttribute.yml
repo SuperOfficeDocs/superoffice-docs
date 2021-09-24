@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.IO.TemplateTagAttribute
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nAttribute declaring that this property is a template variable tag.\n"
   syntax:
@@ -111,10 +111,10 @@ items:
   fullName: SuperOffice.IO.TemplateTagAttribute.TemplateTagAttribute(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nAttribute declaring that this property is a template variable tag.\n"
   syntax:
@@ -141,10 +141,10 @@ items:
   fullName: SuperOffice.IO.TemplateTagAttribute.TagName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nName of the tag.\n"
   syntax:

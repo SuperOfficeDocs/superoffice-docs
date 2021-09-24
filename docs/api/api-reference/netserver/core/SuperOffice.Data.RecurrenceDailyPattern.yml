@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.RecurrenceDailyPattern
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nEnumerator describing the different patterns for a daily recurrence\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.RecurrenceDailyPattern.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: 0: Unknown/undecided type\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.RecurrenceDailyPattern.EveryWorkday
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: The recurrence is for every workday (Mon-Fri)\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.RecurrenceDailyPattern.EveryWeekday
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: The recurrence is for every workday (Mon-Sun)\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.RecurrenceDailyPattern.EveryCyclicDay
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: The recurrence is for every cyclic interval of days.\n"
   syntax:

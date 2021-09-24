@@ -37,10 +37,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThis class carries information about one archive entity\n"
   syntax:
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.SetOptional
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstant, for use in constructor instead of the anonymous true/false.\n"
   syntax:
@@ -111,10 +111,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.SetMandatory
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstant, for use in constructor instead of the anonymous true/false.\n"
   syntax:
@@ -140,10 +140,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ShowAsDefault
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstant, for use in constructor instead of the anonymous true/false.\n"
   syntax:
@@ -169,10 +169,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.HideAsDefault
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstant, for use in constructor instead of the anonymous true/false.\n"
   syntax:
@@ -198,10 +198,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.Mandatory
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstant value intended for the isOptional parameter of the constructor\n"
   syntax:
@@ -227,10 +227,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.Optional
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstant value intended for the isOptional parameter of the constructor\n"
   syntax:
@@ -256,10 +256,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ArchiveRowTypeInfo()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object, setting nothing.\n"
   syntax:
@@ -282,10 +282,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ArchiveRowTypeInfo(System.String, System.String, System.Boolean)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object, setting name, display name and isOptional status\n"
   syntax:
@@ -318,10 +318,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ArchiveRowTypeInfo(System.String, System.String, System.String, System.Boolean, System.Boolean)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object, setting name, display name, isOptional status\n"
   syntax:
@@ -360,10 +360,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nReturn a string representation, intended for debug display purposes\n"
   syntax:
@@ -391,10 +391,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.Clone()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public object Clone()
@@ -420,10 +420,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to convert an array of ArchiveEntityInfo into a string array containing the names only\n"
   syntax:
@@ -458,10 +458,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>, SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to conditionally convert an array of ArchiveEntityInfo into a string array containing\nthe names only. The given predicate is applied to each ArchiveEntityInfo to determine if its name should\nbe included in the result.\n"
   syntax:
@@ -502,10 +502,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray(System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to convert a list of ArchiveEntityInfo into a string array containing the names only\n"
   syntax:
@@ -540,10 +540,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>, System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to conditionally convert a list of ArchiveEntityInfo into a string array containing\nthe names only. The given predicate is applied to each ArchiveEntityInfo to determine if its name should\nbe included in the result.\n"
   syntax:
@@ -584,10 +584,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to convert an array of ArchiveEntityInfo into a string array containing the names only\n"
   syntax:
@@ -622,10 +622,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>, SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to conditionally convert an array of ArchiveEntityInfo into a string array containing\nthe names only. The given predicate is applied to each ArchiveEntityInfo to determine if its name should\nbe included in the result.\n"
   syntax:
@@ -666,10 +666,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary(System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to convert a list of ArchiveEntityInfo into a string array containing the names only\n"
   syntax:
@@ -704,10 +704,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>, System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to conditionally convert a list of ArchiveEntityInfo into a string array containing\nthe names only. The given predicate is applied to each ArchiveEntityInfo to determine if its name should\nbe included in the result.\n"
   syntax:
@@ -748,10 +748,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.DisplayName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThe user-friendly name of the entity, to be reflected in checkboxes in the archive\n"
   syntax:
@@ -779,10 +779,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.DisplayTooltip
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUser-friendly tooltip for the entity, to be reflected in the checkboxes in the archive\n"
   syntax:
@@ -810,10 +810,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.Name
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUnique entity identifier\n"
   syntax:
@@ -841,10 +841,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.IsOptional
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nCan this entity be selected in the GUI (typically through a checkbox with the entity display name in the bottom of the archive).\nIf not, the entity should ALWAYS be requested (this is the default behaviour).\n"
   syntax:
@@ -872,10 +872,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.DefaultShow
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nShould this entity be shown as default, if it is optional (i.e., should it be selected for showing\nwhen an archive is first-ever presented to the user)\n"
   syntax:

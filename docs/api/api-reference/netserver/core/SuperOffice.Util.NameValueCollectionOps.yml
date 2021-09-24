@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Util.NameValueCollectionOps
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static class NameValueCollectionOps
@@ -52,10 +52,10 @@ items:
   fullName: SuperOffice.Util.NameValueCollectionOps.CreateNameValueCollection(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nCreate a <xref href=\"System.Collections.Specialized.NameValueCollection\" data-throw-if-not-resolved=\"false\"></xref> from a string in standard name/value format\n"
   remarks: "\nThe input string should be of the format key=value&amp;key2=value2 etc.  Duplicate keys are acceptable.\nAn empty or null input string will result in an empty (not null) return value.\n<p></p>\nThe System.Web.HttpUtility.ParseQueryString method is used for the parsing, so that URL-encoded \ndata values are handled correctly\n"
@@ -88,10 +88,10 @@ items:
   fullName: SuperOffice.Util.NameValueCollectionOps.CreateNameValueString(System.Collections.Specialized.NameValueCollection)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nCreate a name/value string from a <xref href=\"System.Collections.Specialized.NameValueCollection\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   remarks: "\nDuplicate keys in the incoming collection will result in duplicate keys in the output.\nAn empty or null input will return an empty (not null) string.\n<p></p>\nThe ToString() method of the NameValueCollection class CANNOT BE used to create the string. \nThe framework claims that Request.QueryString is a NameValueCollection, but at runtime, it&apos;s actually a System.Web.HttpValueCollection. \nThe difference is significant because HttpValueCollection.ToString() returns the URL-encoded raw query string, \nbut NameValueCollection.ToString() returns the default Object.ToString() result - \nin this case &quot;System.Collections.Specialized.NameValueCollection&quot;		\n<p></p>Thanks to http://dylanbeattie.blogspot.com/2008/12/mocking-querystring-collection-in.html for this\nlittle gem, which could otherwise do incredible damage. Fuck Microsoft for doing things like this.\n<p></p>\nWe urlencode the values, since they might contain ampersands that would then scupper us later on...\n"

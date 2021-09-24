@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.FunctionRightStrings.AdminAll
   - SuperOffice.CRM.FunctionRightStrings.AdminAudience
+  - SuperOffice.CRM.FunctionRightStrings.AdminDashboard
   - SuperOffice.CRM.FunctionRightStrings.AdminImport
   - SuperOffice.CRM.FunctionRightStrings.AdminLists
   - SuperOffice.CRM.FunctionRightStrings.AdminPreferences
@@ -81,10 +82,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nThe programmatic, well-known and constant names of functional rights\n"
   syntax:
@@ -119,10 +120,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminAll
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGeneral admin rights, gives access to all panels of the admin client\n"
   syntax:
@@ -148,10 +149,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminLists
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nList admin rights, gives access to the Lists panel of the admin client\n"
   syntax:
@@ -177,10 +178,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminUsers
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nUser admin rights, gives access to the users panel of the admin client\n"
   syntax:
@@ -206,10 +207,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminReplication
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nReplication admin rights, gives access to the area and satellite panel of the admin client\n"
   syntax:
@@ -235,10 +236,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminRole
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nRole admin rights, gives access to the Role panel of the admin client\n"
   syntax:
@@ -264,10 +265,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminWorkflow
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSale admin righst, gives access to the Sale panel of the admin client\n"
   syntax:
@@ -293,10 +294,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminProducts
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nProducts admin righst, gives access to the Products panel of the admin client\n"
   syntax:
@@ -322,10 +323,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminPreferences
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreferences admin righst, gives access to the Preferences panel of the admin client\n"
   syntax:
@@ -351,10 +352,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminScript
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nScript admin righst, gives access to the Script panel of the admin client\n"
   syntax:
@@ -380,10 +381,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminQuote
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nQuote admin rights, gives access to the Quote panel of the admin client\n"
   syntax:
@@ -409,10 +410,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminWebhooks
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWebhook admin rights, gives ability to save+delete+test webhooks\n"
   syntax:
@@ -438,10 +439,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AllowReadonlyOverride
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nA user who has this right is allowed to write to read-only udef fields\n"
   syntax:
@@ -467,10 +468,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.HideCompany
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nA user who has this right will NOT see the company panel. This supersedes the corresponding &apos;Cripple&apos; preference\n"
   syntax:
@@ -496,10 +497,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.HideSale
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nA user who has this right will NOT see the sale dialog. This supersedes the corresponding &apos;Cripple&apos; preference\n"
   syntax:
@@ -525,10 +526,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.HideProject
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nA user who has this right will NOT see the project panel. This supersedes the corresponding &apos;Cripple&apos; preference\n"
   syntax:
@@ -554,10 +555,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.HideInbox
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nA user who has this right will NOT see the inbox panel. This supersedes the corresponding &apos;Cripple&apos; preference\n"
   syntax:
@@ -583,10 +584,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.HideSelection
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nA user who has this right will NOT see the selection panel. This supersedes the corresponding &apos;Cripple&apos; preference\n"
   syntax:
@@ -612,10 +613,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.HideReporter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nA user who has this right will NOT see the reporter panel. This supersedes the corresponding &apos;Cripple&apos; preference\n"
   syntax:
@@ -641,10 +642,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AllowBulkMailmerge
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nA user who has this right, CAN do bulk mail merge based on selections\n"
   syntax:
@@ -670,10 +671,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AllowBulkExport
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nA user who has this right, CAN do bulk export based on selections\n"
   syntax:
@@ -699,10 +700,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AllowBulkGenerateActivities
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nA user who has this right, CAN do bulk activity generation based on selections\n"
   syntax:
@@ -728,10 +729,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AllowBulkCopyMembers
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nA user who has this right, CAN do bulk member copy based on selections\n"
   syntax:
@@ -757,10 +758,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AllowBulkEdit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nA user who has this right, CAN do bulk edit based on selections\n"
   syntax:
@@ -786,10 +787,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AllowBulkDelete
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nA user who has this right, CAN do bulk delete based on selections\n"
   syntax:
@@ -815,10 +816,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AllowBulkInterests
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nA user who has this right, CAN do bulk interest generation based on selections\n"
   syntax:
@@ -844,10 +845,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AllowBulkEmail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nA user who has this right, CAN do bulk email sending based on selections\n"
   syntax:
@@ -873,10 +874,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AllowBulkUserApplications
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nA user who has this right, CAN use user-defined bulk tasks based on selections\n"
   syntax:
@@ -902,10 +903,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.SeeOtherCompaniesAssociates
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nA user who has this right, CAN see associates belonging to other company cards than his own\n"
   syntax:
@@ -931,10 +932,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminSaintRegeneration
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nA user who has this right, CAN regenerate saint counters and statuses in the admin client (global regeneration)\n"
   syntax:
@@ -960,10 +961,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminSaintDefinition
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\n/// A user who has this right, CAN define saint statuses\n"
   syntax:
@@ -989,10 +990,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AllowDictionarySDK
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nA user who has this right, CAN use the dictionary SDK to programatically change the dictionary\n"
   syntax:
@@ -1018,10 +1019,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminUdef
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nUdef admin rights, gives access to the Udef (fields) panel of the admin client\n"
   syntax:
@@ -1047,10 +1048,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminImport
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nImport admin rights, gives access to the Import panel of the admin client\n"
   syntax:
@@ -1076,10 +1077,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.ExtNeedPublishToSeeProject
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nExternal users can only see published projects\n"
   syntax:
@@ -1105,10 +1106,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.ExtNeedPublishToSeeAppointment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nExternal users can only see published appointments\n"
   syntax:
@@ -1134,10 +1135,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.ExtNeedPublishToSeeDocument
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nExternal users can only see published documents\n"
   syntax:
@@ -1163,10 +1164,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.ExtNeedPublishToSeeSale
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nExternal users can only see published sales\n"
   syntax:
@@ -1192,10 +1193,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.ExtSeeEventProjects
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nExternal users can only see projects that have Events\n"
   syntax:
@@ -1221,10 +1222,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.ExtUseMyCompanyRights
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\n\n"
   syntax:
@@ -1250,10 +1251,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.ExtUseSameProjectRights
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\n\n"
   syntax:
@@ -1279,10 +1280,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminAudience
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nAdmin rights for audience\n"
   syntax:
@@ -1308,10 +1309,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.SyncadminAll
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGeneral admin rights for sync modules\n"
   syntax:
@@ -1337,10 +1338,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.SyncadminUser
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nUser admin rights for sync modules\n"
   syntax:
@@ -1366,10 +1367,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.ManageEntities
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nManage (i.e.,  copy, move or merge) entities, such as Contact, Person, Project\n"
   syntax:
@@ -1395,10 +1396,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.CanApproveQuote
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nApproving of a quote\n"
   syntax:
@@ -1424,10 +1425,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.CSListOwn
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nList requests in own categories\n"
   syntax:
@@ -1453,10 +1454,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.CSReadOwn
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nRead requests in own categories\n"
   syntax:
@@ -1482,10 +1483,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.CSEditOwn
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nEdit requests in member categories\n"
   syntax:
@@ -1511,10 +1512,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.CSListOthers
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nList all requests\n"
   syntax:
@@ -1540,10 +1541,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.CSReadOthers
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nRead all requests\n"
   syntax:
@@ -1569,10 +1570,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.CSEditOthers
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nEdit all requests\n"
   syntax:
@@ -1598,10 +1599,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.CSPostToFacebook
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nFacebook\n"
   syntax:
@@ -1627,10 +1628,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.CSDocument
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nKnowledge Base\n"
   syntax:
@@ -1656,10 +1657,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.CSListExtraTableContent
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nList tables\n"
   syntax:
@@ -1685,10 +1686,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.CSEditExtraTableContent
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nEdit tables\n"
   syntax:
@@ -1714,10 +1715,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.CSEditFaq
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nEdit FAQ entries\n"
   syntax:
@@ -1743,10 +1744,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.CSFaqAdmin
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nAdministrate FAQ\n"
   syntax:
@@ -1772,10 +1773,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.CSStatistics
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nView statistics\n"
   syntax:
@@ -1801,10 +1802,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.CSReadSelections
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nView selections\n"
   syntax:
@@ -1830,10 +1831,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.CSEditSelections
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nCreate selections\n"
   syntax:
@@ -1859,10 +1860,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.CSChangePref
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nChange own properties\n"
   syntax:
@@ -1888,10 +1889,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.CSChangeProfile
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nChange own profile\n"
   syntax:
@@ -1917,10 +1918,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.CSCategories
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nCategory administration\n"
   syntax:
@@ -1946,10 +1947,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.CSSystem
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nCustomer Service administration\n"
   syntax:
@@ -1975,10 +1976,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.MailingConsentOverride
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nCan use mailing override\n"
   syntax:
@@ -2004,10 +2005,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.ManagePersonConsent
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nCan mange consents for a person\n"
   syntax:
@@ -2033,10 +2034,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.DefineNewTags
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nCan define new tags directly from user interface (as opposed to having to use List Admin)\n"
   syntax:
@@ -2044,6 +2045,35 @@ items:
     return:
       type: System.String
     content.vb: Public Const DefineNewTags As String = "define-new-tags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.FunctionRightStrings.AdminDashboard
+  commentId: F:SuperOffice.CRM.FunctionRightStrings.AdminDashboard
+  id: AdminDashboard
+  parent: SuperOffice.CRM.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AdminDashboard
+  nameWithType: FunctionRightStrings.AdminDashboard
+  fullName: SuperOffice.CRM.FunctionRightStrings.AdminDashboard
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\nCan pin dashboards to others\n"
+  syntax:
+    content: public const string AdminDashboard = "admin-dashboard"
+    return:
+      type: System.String
+    content.vb: Public Const AdminDashboard As String = "admin-dashboard"
   modifiers.csharp:
   - public
   - const
@@ -2062,10 +2092,10 @@ items:
   fullName: SuperOffice.CRM.FunctionRightStrings.AllowSendEMail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGrants access to send e-mail\n"
   syntax:

@@ -22,10 +22,10 @@ items:
   fullName: SuperOffice.Data.ReportLayout
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n\n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.Data.ReportLayout.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: \n"
   syntax:
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.Data.ReportLayout.List
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: \n"
   syntax:
@@ -110,10 +110,10 @@ items:
   fullName: SuperOffice.Data.ReportLayout.Label
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: \n"
   syntax:
@@ -138,10 +138,10 @@ items:
   fullName: SuperOffice.Data.ReportLayout.GroupList
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: \n"
   syntax:
@@ -166,10 +166,10 @@ items:
   fullName: SuperOffice.Data.ReportLayout.CrossTable
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: \n"
   syntax:
@@ -194,10 +194,10 @@ items:
   fullName: SuperOffice.Data.ReportLayout.CalendarWeek5
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: \n"
   syntax:
@@ -222,10 +222,10 @@ items:
   fullName: SuperOffice.Data.ReportLayout.CalendarWeek7
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: \n"
   syntax:
@@ -250,10 +250,10 @@ items:
   fullName: SuperOffice.Data.ReportLayout.CalendarMonth
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: \n"
   syntax:
@@ -278,10 +278,10 @@ items:
   fullName: SuperOffice.Data.ReportLayout.Text
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: \n"
   syntax:

@@ -24,10 +24,10 @@ items:
   fullName: SuperOffice.Data.TicketCategoryFlags
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nFlags for the ticket category\nThis Enum is used by:  ej_category.flags\nThis Enum consists of flag values that can be combined.\n"
   syntax:
@@ -66,10 +66,10 @@ items:
   fullName: SuperOffice.Data.TicketCategoryFlags.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: No flags set\n"
   syntax:
@@ -94,10 +94,10 @@ items:
   fullName: SuperOffice.Data.TicketCategoryFlags.Internal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: The category is set to internal and is not available in the Customer Centre\n"
   syntax:
@@ -122,10 +122,10 @@ items:
   fullName: SuperOffice.Data.TicketCategoryFlags.OnlyLoggedInUsers
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Only assign requests to logged in users\n"
   syntax:
@@ -150,10 +150,10 @@ items:
   fullName: SuperOffice.Data.TicketCategoryFlags.DefaultToCategoryMaster
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Assign to category administrator if no one is available\n"
   syntax:
@@ -178,10 +178,10 @@ items:
   fullName: SuperOffice.Data.TicketCategoryFlags.ListInMain
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Show category in status view\n"
   syntax:
@@ -206,10 +206,10 @@ items:
   fullName: SuperOffice.Data.TicketCategoryFlags.RedelegateNewMsg
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16: Reassign requests on new message if user is not present\n"
   syntax:
@@ -234,10 +234,10 @@ items:
   fullName: SuperOffice.Data.TicketCategoryFlags.DelegateToOurContact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n32: Assign to our service contact if available\n"
   syntax:
@@ -262,10 +262,10 @@ items:
   fullName: SuperOffice.Data.TicketCategoryFlags.PropagateReplyTemplate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n64: Merge outbound e-mails for this category with reply template\n"
   syntax:
@@ -290,10 +290,10 @@ items:
   fullName: SuperOffice.Data.TicketCategoryFlags.MembersOnly
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n128: Only members have access to requests in this category\n"
   syntax:
@@ -318,10 +318,10 @@ items:
   fullName: SuperOffice.Data.TicketCategoryFlags.NotifyMembers
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n256: Send notification to members about new request\n"
   syntax:
@@ -346,10 +346,10 @@ items:
   fullName: SuperOffice.Data.TicketCategoryFlags.AcceptWhenReplying
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n512: Take ownership by default when replying\n"
   syntax:

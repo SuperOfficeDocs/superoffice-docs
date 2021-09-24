@@ -36,6 +36,7 @@ items:
   derivedClasses:
   - SuperOffice.CRM.Rows.EjMessageRows.CustomSearch
   - SuperOffice.CRM.Rows.EjMessageRows.IdxBodyAttachment
+  - SuperOffice.CRM.Rows.EjMessageRows.IdxCreatedAt
   - SuperOffice.CRM.Rows.EjMessageRows.IdxCreatedBy
   - SuperOffice.CRM.Rows.EjMessageRows.IdxCustomerId
   - SuperOffice.CRM.Rows.EjMessageRows.IdxHtmlBodyAttachment

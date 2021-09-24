@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Exceptions.SoValidationException
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nValidationException is thrown by the Save() methods if validation fails on an entity.\nContains a string map that describes all fields and their errors.\nThis is returned in the error object to the caller, so that they can highlight \nmissing/bad fields to the user, with explanations.\n"
   syntax:
@@ -81,10 +81,10 @@ items:
   fullName: SuperOffice.Exceptions.SoValidationException.SoValidationException(SuperOffice.CRM.Services.StringDictionary)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nException with many messages.\n"
   syntax:
@@ -110,10 +110,10 @@ items:
   fullName: SuperOffice.Exceptions.SoValidationException.GetMessageFor(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nReturns any message for a given field name, or blank if no message defined.\n"
   syntax:
@@ -142,10 +142,10 @@ items:
   fullName: SuperOffice.Exceptions.SoValidationException.Messages
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nThe message collection.\n"
   syntax:

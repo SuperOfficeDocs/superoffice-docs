@@ -13,10 +13,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nConstants used in the data dictionary\n"
   syntax:

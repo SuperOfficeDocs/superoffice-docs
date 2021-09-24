@@ -13,10 +13,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Security
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   syntax:
     content: public static class Security

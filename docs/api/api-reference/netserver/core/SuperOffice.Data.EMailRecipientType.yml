@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.EMailRecipientType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public enum EMailRecipientType
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.EMailRecipientType.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Unknown = 0
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.Data.EMailRecipientType.To
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: To = 1
@@ -102,10 +102,10 @@ items:
   fullName: SuperOffice.Data.EMailRecipientType.Cc
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Cc = 2
@@ -129,10 +129,10 @@ items:
   fullName: SuperOffice.Data.EMailRecipientType.Bcc
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Bcc = 3

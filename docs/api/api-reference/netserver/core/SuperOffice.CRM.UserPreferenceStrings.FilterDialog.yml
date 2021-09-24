@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.FilterDialog
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nFilter dialog settings, editable through SoAdmin\n"
   syntax:
@@ -53,10 +53,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.FilterDialog.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection name\n"
   syntax:
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.FilterDialog.DefaultFilter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault filter behavior: 0 = own data; 1 = primary group; 2 = primary + secondary groups; 3 = all\n<p></p>Control type: List, access: Admin; see SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter enum.\n"
   syntax:

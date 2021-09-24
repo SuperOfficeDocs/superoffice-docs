@@ -14,7 +14,7 @@ items:
   fullName: SuperOffice.TimeZone
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
 - uid: SuperOffice.TimeZone.ITimeConverterDataFetcher
   commentId: T:SuperOffice.TimeZone.ITimeConverterDataFetcher

@@ -9,9 +9,13 @@ items:
   - SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.String)
   - SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(System.Int32,System.String,System.Int32,System.Int32,System.String)
   - SuperOffice.CRM.Entities.ConsentManagementEmail.#ctor(System.Int32,System.String,System.Int32,System.Int32,System.String,System.String,System.String)
+  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32,System.Int32)
+  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32,System.String[],System.Int32,System.Int32)
+  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.String[],System.Int32)
   - SuperOffice.CRM.Entities.ConsentManagementEmail.GetCurrentPrincipalPreferredLangauge(System.Int32)
   - SuperOffice.CRM.Entities.ConsentManagementEmail.GetFromAddress
   - SuperOffice.CRM.Entities.ConsentManagementEmail.GetPersonEmail
+  - SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate(System.String)
   - SuperOffice.CRM.Entities.ConsentManagementEmail.GetTemplateVariables
   - SuperOffice.CRM.Entities.ConsentManagementEmail.HasTemplate
   - SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmail
@@ -191,6 +195,150 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate(System.String)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate(System.String)
+  id: GetSupportedLanguagesForDocTmplate(System.String)
+  parent: SuperOffice.CRM.Entities.ConsentManagementEmail
+  langs:
+  - csharp
+  - vb
+  name: GetSupportedLanguagesForDocTmplate(String)
+  nameWithType: ConsentManagementEmail.GetSupportedLanguagesForDocTmplate(String)
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public static string[] GetSupportedLanguagesForDocTmplate(string tmplName)
+    parameters:
+    - id: tmplName
+      type: System.String
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function GetSupportedLanguagesForDocTmplate(tmplName As String) As String()
+  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32,System.Int32)
+  id: GetBestLanguageForPerson(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Entities.ConsentManagementEmail
+  langs:
+  - csharp
+  - vb
+  name: GetBestLanguageForPerson(Int32, Int32)
+  nameWithType: ConsentManagementEmail.GetBestLanguageForPerson(Int32, Int32)
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public static string GetBestLanguageForPerson(int personId, int templateId)
+    parameters:
+    - id: personId
+      type: System.Int32
+    - id: templateId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetBestLanguageForPerson(personId As Integer, templateId As Integer) As String
+  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.String[],System.Int32)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.String[],System.Int32)
+  id: GetBestLanguageForPerson(System.String[],System.Int32)
+  parent: SuperOffice.CRM.Entities.ConsentManagementEmail
+  langs:
+  - csharp
+  - vb
+  name: GetBestLanguageForPerson(String[], Int32)
+  nameWithType: ConsentManagementEmail.GetBestLanguageForPerson(String[], Int32)
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.String[], System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public static string GetBestLanguageForPerson(string[] supportedLanguages, int personId)
+    parameters:
+    - id: supportedLanguages
+      type: System.String[]
+    - id: personId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetBestLanguageForPerson(supportedLanguages As String(), personId As Integer) As String
+  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson*
+  nameWithType.vb: ConsentManagementEmail.GetBestLanguageForPerson(String(), Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.String(), System.Int32)
+  name.vb: GetBestLanguageForPerson(String(), Int32)
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32,System.String[],System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32,System.String[],System.Int32,System.Int32)
+  id: GetBestLanguageForPerson(System.Int32,System.String[],System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Entities.ConsentManagementEmail
+  langs:
+  - csharp
+  - vb
+  name: GetBestLanguageForPerson(Int32, String[], Int32, Int32)
+  nameWithType: ConsentManagementEmail.GetBestLanguageForPerson(Int32, String[], Int32, Int32)
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32, System.String[], System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public static string GetBestLanguageForPerson(int supportLangId, string[] supportedLanguages, int countryId, int overrideLcid)
+    parameters:
+    - id: supportLangId
+      type: System.Int32
+    - id: supportedLanguages
+      type: System.String[]
+    - id: countryId
+      type: System.Int32
+    - id: overrideLcid
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetBestLanguageForPerson(supportLangId As Integer, supportedLanguages As String(), countryId As Integer, overrideLcid As Integer) As String
+  overload: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson*
+  nameWithType.vb: ConsentManagementEmail.GetBestLanguageForPerson(Int32, String(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson(System.Int32, System.String(), System.Int32, System.Int32)
+  name.vb: GetBestLanguageForPerson(Int32, String(), Int32, Int32)
 - uid: SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmail
   commentId: M:SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmail
   id: SendNewPersonConfirmationEmail
@@ -881,6 +1029,44 @@ references:
   name: Person
   nameWithType: Person
   fullName: SuperOffice.CRM.Entities.Person
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate
+  isExternal: true
+  name: GetSupportedLanguagesForDocTmplate
+  nameWithType: ConsentManagementEmail.GetSupportedLanguagesForDocTmplate
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetSupportedLanguagesForDocTmplate
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson*
+  commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson
+  isExternal: true
+  name: GetBestLanguageForPerson
+  nameWithType: ConsentManagementEmail.GetBestLanguageForPerson
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail.GetBestLanguageForPerson
 - uid: SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmail*
   commentId: Overload:SuperOffice.CRM.Entities.ConsentManagementEmail.SendNewPersonConfirmationEmail
   isExternal: true

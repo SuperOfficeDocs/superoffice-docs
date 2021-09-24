@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Data.ConfigType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValue for field &apos;type&apos; in table &apos;cust_config&apos;.\nThis Enum is used by:  cust_config.type\n"
   syntax:
@@ -47,10 +47,10 @@ items:
   fullName: SuperOffice.Data.ConfigType.Style
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: The row contains style data\n"
   syntax:
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.Data.ConfigType.Options
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: The row contains options data\n"
   syntax:

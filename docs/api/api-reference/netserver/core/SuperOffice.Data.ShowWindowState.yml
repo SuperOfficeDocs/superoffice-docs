@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.ShowWindowState
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nNormal = 0, Maximized = 1, Minimized = 2\nThis Enum is used by:  WinPosSize.state\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.ShowWindowState.Normal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Show Normal\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.ShowWindowState.Maximized
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Show Maximized\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.ShowWindowState.Minimized
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Show Minimized\n"
   syntax:

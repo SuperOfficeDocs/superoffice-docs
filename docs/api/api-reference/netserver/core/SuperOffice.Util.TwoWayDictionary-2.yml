@@ -43,10 +43,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nThis class implements a two-way associate container, that is, a dictionary-like collection that is indexable\nboth by the left and right-hand values. This places key-like constraints on both sides (they must be\ncomparable, hasheable, and unique), but provides fast lookup in both directions.\n"
   remarks: "\nThe implementation internally uses two generic dictionaries, so that all constraints, performance characteristics\nand other properties of the generic <see cref=\"!:System.Collections.Generic.Dictionary\"></see> class apply. LeftType and\nRightType can be the same type, which incidentally requires things like the TryGetValue methods to have different\nnames for left and right...\n"
@@ -94,10 +94,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.TwoWayDictionary()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nDefault constructor, allocates empty dictionaries. Insertions will take O(n) where n is the number of items \nalready in the container; note that if you&apos;re populating in a loop that would give\na total performance of O(n^2), worth avoiding by preallocating if at all possible.\n"
   syntax:
@@ -122,10 +122,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.TwoWayDictionary(System.Int32)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConstructor that preallocates the given number of slots. Insertions will take O(1) up to this initial\ncapacity, O(n^2) beyond.\n"
   syntax:
@@ -154,10 +154,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.TwoWayDictionary(System.Int32, System.Collections.Generic.IEqualityComparer<LeftType>)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConstructor that preallocates the given number of items, and uses the given comparer for the left-hand\nkey type. Insertions will take O(1) up to this initial\ncapacity, O(n^2) beyond.\n"
   syntax:
@@ -190,10 +190,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.TwoWayDictionary(System.Int32, System.Collections.Generic.IEqualityComparer<LeftType>, System.Collections.Generic.IEqualityComparer<RightType>)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConstructor that preallocates the given number of items, and uses the given comparers for the left-hand\nand right-hand key types. Insertions will take O(1) up to this initial\ncapacity, O(n^2) beyond.\n"
   syntax:
@@ -229,10 +229,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.LeftGetValue(LeftType)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet the value using the left key.\n"
   syntax:
@@ -264,10 +264,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.RightGetValue(RightType)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet the value using the right key.\n"
   syntax:
@@ -299,10 +299,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.Add(LeftType, RightType)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdd a new pair of values. An exception will be thrown if either the left or right value already exists, or if any of the \nvalues is null.\n"
   syntax:
@@ -341,10 +341,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.AddOverwrite(LeftType, RightType)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdd or overwrite an existing pair of values. After this operation, the new values will be associated\nand any previous associations any of them might have will be lost. Both values must be non-null.\n"
   syntax:
@@ -380,10 +380,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.Remove(LeftType)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nWrapper for <xref href=\"SuperOffice.Util.TwoWayDictionary%602.LeftRemove(%600)\" data-throw-if-not-resolved=\"false\"></xref>, so <see cref=\"!:TwoWayDictionary\"></see> can be used like a <see cref=\"!:Dictionary\"></see>.\n"
   syntax:
@@ -415,10 +415,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.LeftRemove(LeftType)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nRemove item from the dictionary using the left key.\n"
   syntax:
@@ -450,10 +450,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.RightRemove(RightType)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nRemove item from the dictionary using the right key.\n"
   syntax:
@@ -485,10 +485,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.Clear()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nClear the dictionary.\n"
   syntax:
@@ -513,10 +513,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.TryGetValue(LeftType, out RightType)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nWrapper for <xref href=\"SuperOffice.Util.TwoWayDictionary%602.LeftTryGetValue(%600%2c%601%40)\" data-throw-if-not-resolved=\"false\"></xref>, so <see cref=\"!:TwoWayDictionary\"></see> can be used like a <see cref=\"!:Dictionary\"></see>.\n"
   syntax:
@@ -549,10 +549,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.LeftTryGetValue(LeftType, out RightType)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet the right-hand value for the given left-hand key if it exists\n"
   syntax:
@@ -592,10 +592,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.LeftGetValue(RightType)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet the left-hand value corresponding to the given right-hand key.\n"
   syntax:
@@ -634,10 +634,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.RightTryGetValue(RightType, out LeftType)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet the left-hand value for the given right-hand key if it exists\n"
   syntax:
@@ -677,10 +677,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.RightGetValue(LeftType)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet the right-hand value corresponding to the given left-hand key.\n"
   syntax:
@@ -719,10 +719,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.ContainsKey(LeftType)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nWrapper for <xref href=\"SuperOffice.Util.TwoWayDictionary%602.LeftContainsKey(%600)\" data-throw-if-not-resolved=\"false\"></xref>, so <see cref=\"!:TwoWayDictionary\"></see> can be used like a <see cref=\"!:Dictionary\"></see>.\n"
   syntax:
@@ -758,10 +758,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.LeftContainsKey(LeftType)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nTest if a left-hand key exists\n"
   syntax:
@@ -797,10 +797,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.RightContainsKey(RightType)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nTest if a right-hand key exists\n"
   syntax:
@@ -836,10 +836,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.LeftToArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn the left-hand values as an array\n"
   syntax:
@@ -867,10 +867,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.RightToArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn the right-hand values as an array\n"
   syntax:
@@ -898,10 +898,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.Item[LeftType]
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet and set items similar to <see cref=\"!:Dictionary\"></see> using the first type as a key.\n"
   syntax:
@@ -936,10 +936,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.Keys
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nWrapper for <xref href=\"SuperOffice.Util.TwoWayDictionary%602.LeftKeys\" data-throw-if-not-resolved=\"false\"></xref>, so <see cref=\"!:TwoWayDictionary\"></see> can be used like a <see cref=\"!:Dictionary\"></see>.\n"
   syntax:
@@ -969,10 +969,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.LeftKeys
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet Left keys.\n"
   syntax:
@@ -1002,10 +1002,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.RightKeys
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet right keys.\n"
   syntax:
@@ -1035,10 +1035,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.Count
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn the number of elements currently in the two-way dictionary\n"
   syntax:
@@ -1068,10 +1068,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.LeftValues
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn an enumerator over the left-hand value type\n"
   syntax:
@@ -1101,10 +1101,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.RightValues
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn an enumerator over the right-hand value type\n"
   syntax:
@@ -1134,10 +1134,10 @@ items:
   fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.Values
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn an enumerator over the value pairs, with the left-hand value as the Key and the right-hand value as the Value element of the KeyValuePair\n"
   syntax:

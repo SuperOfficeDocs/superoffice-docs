@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.LicenceType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nLicence type, as defined in the ModuleLicence.LicenceType field in the database\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.LicenceType.WholeSystem
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nThe module licenced by this row is automatically valid for all databases and users in the system\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.LicenceType.Database
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nThe module licenced by this row is assigned on a per-database basis (&quot;site licence&quot;)\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.LicenceType.Associate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nThe module licenced by this row is assigned on a per-user basis (&quot;associate licence&quot;)\n"
   syntax:

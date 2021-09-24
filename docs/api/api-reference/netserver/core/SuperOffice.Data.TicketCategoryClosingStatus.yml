@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.TicketCategoryClosingStatus
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDefault status for requests. Note that this is a preference which should be respected if making UI. It is not enforced by the APIs\nThis Enum is used by:  ej_category.closing_status; ej_category.msg_closing_status\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.TicketCategoryClosingStatus.UserDefined
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: The ticket status should respect the user defined behaviour\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.TicketCategoryClosingStatus.Active
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Indicates that the ticket status should be active as default\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.TicketCategoryClosingStatus.Closed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Indicates that the ticket status should be closed as default\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.TicketCategoryClosingStatus.Postponed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Indicates that the ticket status should be postponed as default\n"
   syntax:

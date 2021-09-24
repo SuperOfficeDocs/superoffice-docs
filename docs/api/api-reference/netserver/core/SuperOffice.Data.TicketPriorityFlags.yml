@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.TicketPriorityFlags
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nFlags for the ticket priority\nThis Enum is used by:  ticket_priority.flags\nThis Enum consists of flag values that can be combined.\n"
   syntax:
@@ -59,10 +59,10 @@ items:
   fullName: SuperOffice.Data.TicketPriorityFlags.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: No flags set\n"
   syntax:
@@ -87,10 +87,10 @@ items:
   fullName: SuperOffice.Data.TicketPriorityFlags.External
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: The ticket priority will be avilable in the Customer Centre\n"
   syntax:
@@ -115,10 +115,10 @@ items:
   fullName: SuperOffice.Data.TicketPriorityFlags.Default
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: This is the ticket priority that should default be set in the UI when creating a request\n"
   syntax:
@@ -143,10 +143,10 @@ items:
   fullName: SuperOffice.Data.TicketPriorityFlags.AlertSchedule
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Escalate requests according to time frame\n"
   syntax:

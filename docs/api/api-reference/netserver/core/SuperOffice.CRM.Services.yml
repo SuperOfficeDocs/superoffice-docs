@@ -35,7 +35,7 @@ items:
   fullName: SuperOffice.CRM.Services
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
 - uid: SuperOffice.CRM.Services.ServiceMode
   commentId: T:SuperOffice.CRM.Services.ServiceMode
@@ -44,6 +44,12 @@ references:
   name: ServiceMode
   nameWithType: ServiceMode
   fullName: SuperOffice.CRM.Services.ServiceMode
+- uid: SuperOffice.CRM.Services.ObjectCopier
+  commentId: T:SuperOffice.CRM.Services.ObjectCopier
+  isExternal: true
+  name: ObjectCopier
+  nameWithType: ObjectCopier
+  fullName: SuperOffice.CRM.Services.ObjectCopier
 - uid: SuperOffice.CRM.Services.RecurrencePatternBase
   commentId: T:SuperOffice.CRM.Services.RecurrencePatternBase
   parent: SuperOffice.CRM.Services
@@ -86,12 +92,6 @@ references:
   name: RecurrenceInfo
   nameWithType: RecurrenceInfo
   fullName: SuperOffice.CRM.Services.RecurrenceInfo
-- uid: SuperOffice.CRM.Services.ObjectCopier
-  commentId: T:SuperOffice.CRM.Services.ObjectCopier
-  isExternal: true
-  name: ObjectCopier
-  nameWithType: ObjectCopier
-  fullName: SuperOffice.CRM.Services.ObjectCopier
 - uid: SuperOffice.CRM.Services.ServiceDefinitions
   commentId: T:SuperOffice.CRM.Services.ServiceDefinitions
   isExternal: true

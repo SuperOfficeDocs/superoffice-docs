@@ -8,7 +8,6 @@ items:
   - SuperOffice.CRM.Lists.PersonEmailAddressProvider.#ctor
   - SuperOffice.CRM.Lists.PersonEmailAddressProvider._emailTableInfo
   - SuperOffice.CRM.Lists.PersonEmailAddressProvider.GetMainQuery
-  - SuperOffice.CRM.Lists.PersonEmailAddressProvider.HistoryInfo
   - SuperOffice.CRM.Lists.PersonEmailAddressProvider.Init
   - SuperOffice.CRM.Lists.PersonEmailAddressProvider.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
   - SuperOffice.CRM.Lists.PersonEmailAddressProvider.ProviderName
@@ -73,6 +72,7 @@ items:
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.OnlyReadHistory
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.SearchValue
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.ForceFlatList
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryInfo
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryItems
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.RootItems
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.HeadingItems
@@ -367,40 +367,6 @@ items:
   - get
   modifiers.vb:
   - Protected
-  - Overrides
-  - ReadOnly
-- uid: SuperOffice.CRM.Lists.PersonEmailAddressProvider.HistoryInfo
-  commentId: P:SuperOffice.CRM.Lists.PersonEmailAddressProvider.HistoryInfo
-  id: HistoryInfo
-  parent: SuperOffice.CRM.Lists.PersonEmailAddressProvider
-  langs:
-  - csharp
-  - vb
-  name: HistoryInfo
-  nameWithType: PersonEmailAddressProvider.HistoryInfo
-  fullName: SuperOffice.CRM.Lists.PersonEmailAddressProvider.HistoryInfo
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Lists
-  summary: "\n\n"
-  syntax:
-    content: public override HistoryInfo HistoryInfo { get; }
-    parameters: []
-    return:
-      type: SuperOffice.CRM.Lists.HistoryInfo
-    content.vb: Public Overrides ReadOnly Property HistoryInfo As HistoryInfo
-  overridden: SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryInfo
-  overload: SuperOffice.CRM.Lists.PersonEmailAddressProvider.HistoryInfo*
-  modifiers.csharp:
-  - public
-  - override
-  - get
-  modifiers.vb:
-  - Public
   - Overrides
   - ReadOnly
 references:
@@ -968,6 +934,13 @@ references:
   name: ForceFlatList
   nameWithType: AnyTableListProviderBase.ForceFlatList
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ForceFlatList
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryInfo
+  commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryInfo
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: HistoryInfo
+  nameWithType: AnyTableListProviderBase.HistoryInfo
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryInfo
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryItems
   commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryItems
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
@@ -1906,23 +1879,3 @@ references:
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
-- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryInfo
-  commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryInfo
-  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
-  isExternal: true
-  name: HistoryInfo
-  nameWithType: AnyTableListProviderBase.HistoryInfo
-  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryInfo
-- uid: SuperOffice.CRM.Lists.PersonEmailAddressProvider.HistoryInfo*
-  commentId: Overload:SuperOffice.CRM.Lists.PersonEmailAddressProvider.HistoryInfo
-  isExternal: true
-  name: HistoryInfo
-  nameWithType: PersonEmailAddressProvider.HistoryInfo
-  fullName: SuperOffice.CRM.Lists.PersonEmailAddressProvider.HistoryInfo
-- uid: SuperOffice.CRM.Lists.HistoryInfo
-  commentId: T:SuperOffice.CRM.Lists.HistoryInfo
-  parent: SuperOffice.CRM.Lists
-  isExternal: true
-  name: HistoryInfo
-  nameWithType: HistoryInfo
-  fullName: SuperOffice.CRM.Lists.HistoryInfo

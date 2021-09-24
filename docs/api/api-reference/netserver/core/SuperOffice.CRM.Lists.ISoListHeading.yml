@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ISoListHeading
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nInterface for an MDO list heading, consisting of the heading item and a list of subitems\n"
   syntax:
@@ -45,10 +45,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ISoListHeading.Heading
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n"
   syntax:
@@ -74,10 +74,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ISoListHeading.Items
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n"
   syntax:

@@ -26,10 +26,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -64,10 +64,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.PositionAttribute
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -93,10 +93,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.LayoutPosition
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -122,10 +122,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Top
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -151,10 +151,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Bottom
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -180,10 +180,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Left
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -209,10 +209,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Right
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -238,10 +238,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Width
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -267,10 +267,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Height
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -296,10 +296,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.ZIndex
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -325,10 +325,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Overflow
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -354,10 +354,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Absolute
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -383,10 +383,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Column
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -412,10 +412,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Row
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:

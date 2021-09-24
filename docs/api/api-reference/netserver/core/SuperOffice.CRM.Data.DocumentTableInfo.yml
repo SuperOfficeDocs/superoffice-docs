@@ -16,6 +16,7 @@ items:
   - SuperOffice.CRM.Data.DocumentTableInfo.DictionaryTableNumber
   - SuperOffice.CRM.Data.DocumentTableInfo.DocumentId
   - SuperOffice.CRM.Data.DocumentTableInfo.Extref
+  - SuperOffice.CRM.Data.DocumentTableInfo.ExtUrl
   - SuperOffice.CRM.Data.DocumentTableInfo.Header
   - SuperOffice.CRM.Data.DocumentTableInfo.LeftOuterJoin_Appointment_DocumentId
   - SuperOffice.CRM.Data.DocumentTableInfo.LeftOuterJoin_EmailItem_DocumentId
@@ -865,6 +866,37 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property Snum As Int32FieldInfo
   overload: SuperOffice.CRM.Data.DocumentTableInfo.Snum*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DocumentTableInfo.ExtUrl
+  commentId: P:SuperOffice.CRM.Data.DocumentTableInfo.ExtUrl
+  id: ExtUrl
+  parent: SuperOffice.CRM.Data.DocumentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ExtUrl
+  nameWithType: DocumentTableInfo.ExtUrl
+  fullName: SuperOffice.CRM.Data.DocumentTableInfo.ExtUrl
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;ExtUrl&apos; in table &apos;document&apos;: Dictionary type String[1024], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nFor DocPlugin-internal use only. Used to optionally cache URL of external documents.\n"
+  syntax:
+    content: public StringFieldInfo ExtUrl { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property ExtUrl As StringFieldInfo
+  overload: SuperOffice.CRM.Data.DocumentTableInfo.ExtUrl*
   modifiers.csharp:
   - public
   - get
@@ -2286,6 +2318,12 @@ references:
   name: Snum
   nameWithType: DocumentTableInfo.Snum
   fullName: SuperOffice.CRM.Data.DocumentTableInfo.Snum
+- uid: SuperOffice.CRM.Data.DocumentTableInfo.ExtUrl*
+  commentId: Overload:SuperOffice.CRM.Data.DocumentTableInfo.ExtUrl
+  isExternal: true
+  name: ExtUrl
+  nameWithType: DocumentTableInfo.ExtUrl
+  fullName: SuperOffice.CRM.Data.DocumentTableInfo.ExtUrl
 - uid: SuperOffice.CRM.Data.DocumentTableInfo.ApplicationId_InnerJoin_ExtApp*
   commentId: Overload:SuperOffice.CRM.Data.DocumentTableInfo.ApplicationId_InnerJoin_ExtApp
   isExternal: true

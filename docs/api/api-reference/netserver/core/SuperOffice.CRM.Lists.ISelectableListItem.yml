@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ISelectableListItem
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nInterface for an MDO list item in a list where multiple items can be selected simultaneously\n"
   syntax:
@@ -59,10 +59,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ISelectableListItem.Selected
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n"
   syntax:
@@ -87,10 +87,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ISelectableListItem.LastChange
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n"
   syntax:

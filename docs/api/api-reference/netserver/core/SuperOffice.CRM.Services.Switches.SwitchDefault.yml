@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.CRM.Services.Switches.SwitchDefault
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Switches
   summary: "\nDefault provider of services for the switch\n"
   syntax:
@@ -47,10 +47,10 @@ items:
   fullName: SuperOffice.CRM.Services.Switches.SwitchDefault.Local
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Switches
   summary: "\nThe local implementation of the services are prefered\n"
   syntax:
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.CRM.Services.Switches.SwitchDefault.Remote
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Switches
   summary: "\nThe remote provider of the services are prefered.\n"
   syntax:

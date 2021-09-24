@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Tooltips.ProjectTooltipPlugin.#ctor
   - SuperOffice.CRM.Tooltips.ProjectTooltipPlugin.InnerGetTooltip
   - SuperOffice.CRM.Tooltips.ProjectTooltipPlugin.ProjectHint
+  - SuperOffice.CRM.Tooltips.ProjectTooltipPlugin.ProjectWithNoSelectionHint
   langs:
   - csharp
   - vb
@@ -23,11 +24,11 @@ items:
   namespace: SuperOffice.CRM.Tooltips
   syntax:
     content: >-
-      [TooltipPlugin("SuperOffice:Project", new string[]{"project_id"})]
+      [TooltipPlugin("SuperOffice:Project", new string[]{"project_id", "projectWithNoSelection_id"})]
 
       public class ProjectTooltipPlugin : TooltipPluginBase, ITooltipProviderPlugin, IPlugin
     content.vb: >-
-      <TooltipPlugin("SuperOffice:Project", New String() {"project_id"})>
+      <TooltipPlugin("SuperOffice:Project", New String() {"project_id", "projectWithNoSelection_id"})>
 
       Public Class ProjectTooltipPlugin
           Inherits TooltipPluginBase
@@ -92,6 +93,34 @@ items:
     return:
       type: System.String
     content.vb: Public Const ProjectHint As String = "project_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Tooltips.ProjectTooltipPlugin.ProjectWithNoSelectionHint
+  commentId: F:SuperOffice.CRM.Tooltips.ProjectTooltipPlugin.ProjectWithNoSelectionHint
+  id: ProjectWithNoSelectionHint
+  parent: SuperOffice.CRM.Tooltips.ProjectTooltipPlugin
+  langs:
+  - csharp
+  - vb
+  name: ProjectWithNoSelectionHint
+  nameWithType: ProjectTooltipPlugin.ProjectWithNoSelectionHint
+  fullName: SuperOffice.CRM.Tooltips.ProjectTooltipPlugin.ProjectWithNoSelectionHint
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Tooltips
+  syntax:
+    content: public const string ProjectWithNoSelectionHint = "projectWithNoSelection_id"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectWithNoSelectionHint As String = "projectWithNoSelection_id"
   modifiers.csharp:
   - public
   - const

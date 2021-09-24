@@ -5,11 +5,12 @@ items:
   id: ActivityArchiveProviderBase
   parent: SuperOffice.CRM.ArchiveLists
   children:
-  - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.#ctor(SuperOffice.CRM.ArchiveLists.ActivityArchiveKind)
+  - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.#ctor(SuperOffice.CRM.ArchiveLists.ActivityArchiveKind,System.String)
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityAppointment
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityDocument
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityToDo
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.GetRows(System.String)
+  - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.IconCommon
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.SetDesiredEntities(System.String[])
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   langs:
@@ -181,16 +182,44 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.#ctor(SuperOffice.CRM.ArchiveLists.ActivityArchiveKind)
-  commentId: M:SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.#ctor(SuperOffice.CRM.ArchiveLists.ActivityArchiveKind)
-  id: '#ctor(SuperOffice.CRM.ArchiveLists.ActivityArchiveKind)'
+- uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.IconCommon
+  commentId: F:SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.IconCommon
+  id: IconCommon
   parent: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase
   langs:
   - csharp
   - vb
-  name: ActivityArchiveProviderBase(ActivityArchiveKind)
-  nameWithType: ActivityArchiveProviderBase.ActivityArchiveProviderBase(ActivityArchiveKind)
-  fullName: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.ActivityArchiveProviderBase(SuperOffice.CRM.ArchiveLists.ActivityArchiveKind)
+  name: IconCommon
+  nameWithType: ActivityArchiveProviderBase.IconCommon
+  fullName: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.IconCommon
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string IconCommon = "Activity"
+    return:
+      type: System.String
+    content.vb: Public Const IconCommon As String = "Activity"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.#ctor(SuperOffice.CRM.ArchiveLists.ActivityArchiveKind,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.#ctor(SuperOffice.CRM.ArchiveLists.ActivityArchiveKind,System.String)
+  id: '#ctor(SuperOffice.CRM.ArchiveLists.ActivityArchiveKind,System.String)'
+  parent: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase
+  langs:
+  - csharp
+  - vb
+  name: ActivityArchiveProviderBase(ActivityArchiveKind, String)
+  nameWithType: ActivityArchiveProviderBase.ActivityArchiveProviderBase(ActivityArchiveKind, String)
+  fullName: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.ActivityArchiveProviderBase(SuperOffice.CRM.ArchiveLists.ActivityArchiveKind, System.String)
   type: Constructor
   source:
     path: SoDataBase
@@ -199,11 +228,13 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: protected ActivityArchiveProviderBase(ActivityArchiveKind kind)
+    content: protected ActivityArchiveProviderBase(ActivityArchiveKind kind, string requiredNonZeroIdRestrictionName = null)
     parameters:
     - id: kind
       type: SuperOffice.CRM.ArchiveLists.ActivityArchiveKind
-    content.vb: Protected Sub New(kind As ActivityArchiveKind)
+    - id: requiredNonZeroIdRestrictionName
+      type: System.String
+    content.vb: Protected Sub New(kind As ActivityArchiveKind, requiredNonZeroIdRestrictionName As String = Nothing)
   overload: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.#ctor*
   modifiers.csharp:
   - protected

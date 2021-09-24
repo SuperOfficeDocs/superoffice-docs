@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.CRM.Services.ObjectCopier
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public static class ObjectCopier
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.CRM.Services.ObjectCopier.Clone<T>(T)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nPerform a deep Copy of the object.\n"
   syntax:

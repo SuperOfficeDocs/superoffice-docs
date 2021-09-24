@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>
   type: Delegate
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nOperation signature used to clean up thread-state used in initialization, so it is possible to later re-use the trhead.\n"
   syntax:
@@ -62,10 +62,10 @@ items:
   fullName: SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>.CleanupThreadState(System.Object, System.IntPtr)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public CleanupThreadState(object object, IntPtr method)
@@ -94,10 +94,10 @@ items:
   fullName: SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>.Invoke(TThreadState, TThreadCleanupState)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public virtual void Invoke(TThreadState threadState, TThreadCleanupState threadCleanupState)
@@ -128,10 +128,10 @@ items:
   fullName: SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>.BeginInvoke(TThreadState, TThreadCleanupState, System.AsyncCallback, System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public virtual IAsyncResult BeginInvoke(TThreadState threadState, TThreadCleanupState threadCleanupState, AsyncCallback callback, object object)
@@ -168,10 +168,10 @@ items:
   fullName: SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>.EndInvoke(System.IAsyncResult)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public virtual void EndInvoke(IAsyncResult result)

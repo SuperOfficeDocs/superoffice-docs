@@ -30,10 +30,12 @@ items:
   - SuperOffice.CRM.Data.DBC.TicketFields.FormSubmissionId
   - SuperOffice.CRM.Data.DBC.TicketFields.FromAddress
   - SuperOffice.CRM.Data.DBC.TicketFields.HasAttachment
+  - SuperOffice.CRM.Data.DBC.TicketFields.Language
   - SuperOffice.CRM.Data.DBC.TicketFields.LastChanged
   - SuperOffice.CRM.Data.DBC.TicketFields.NumMessages
   - SuperOffice.CRM.Data.DBC.TicketFields.NumReplies
   - SuperOffice.CRM.Data.DBC.TicketFields.OrigCategory
+  - SuperOffice.CRM.Data.DBC.TicketFields.OrigHumanCategoryId
   - SuperOffice.CRM.Data.DBC.TicketFields.Origin
   - SuperOffice.CRM.Data.DBC.TicketFields.OrigPriority
   - SuperOffice.CRM.Data.DBC.TicketFields.OwnedBy
@@ -47,8 +49,11 @@ items:
   - SuperOffice.CRM.Data.DBC.TicketFields.RealTimeToClose
   - SuperOffice.CRM.Data.DBC.TicketFields.RealTimeToReply
   - SuperOffice.CRM.Data.DBC.TicketFields.RepliedAt
+  - SuperOffice.CRM.Data.DBC.TicketFields.Sentiment
+  - SuperOffice.CRM.Data.DBC.TicketFields.SentimentConfidence
   - SuperOffice.CRM.Data.DBC.TicketFields.Slevel
   - SuperOffice.CRM.Data.DBC.TicketFields.Status
+  - SuperOffice.CRM.Data.DBC.TicketFields.SuggestedCategoryId
   - SuperOffice.CRM.Data.DBC.TicketFields.Tags
   - SuperOffice.CRM.Data.DBC.TicketFields.TicketId
   - SuperOffice.CRM.Data.DBC.TicketFields.TicketStatus
@@ -1660,6 +1665,93 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.Language
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.Language
+  id: Language
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: DBC.TicketFields.Language
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.Language
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.Language: The language of the first external message\n"
+  syntax:
+    content: public const string Language = "language"
+    return:
+      type: System.String
+    content.vb: Public Const Language As String = "language"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.Sentiment
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.Sentiment
+  id: Sentiment
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: Sentiment
+  nameWithType: DBC.TicketFields.Sentiment
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.Sentiment
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.Sentiment: The sentiment index of the last external message\n"
+  syntax:
+    content: public const string Sentiment = "sentiment"
+    return:
+      type: System.String
+    content.vb: Public Const Sentiment As String = "sentiment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.SentimentConfidence
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.SentimentConfidence
+  id: SentimentConfidence
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: SentimentConfidence
+  nameWithType: DBC.TicketFields.SentimentConfidence
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.SentimentConfidence
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.SentimentConfidence: The sentiment confidence of the last external message\n"
+  syntax:
+    content: public const string SentimentConfidence = "sentimentConfidence"
+    return:
+      type: System.String
+    content.vb: Public Const SentimentConfidence As String = "sentimentConfidence"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.TicketFields.FormSubmissionId
   commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.FormSubmissionId
   id: FormSubmissionId
@@ -1683,6 +1775,64 @@ items:
     return:
       type: System.String
     content.vb: Public Const FormSubmissionId As String = "form_submission_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.SuggestedCategoryId
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.SuggestedCategoryId
+  id: SuggestedCategoryId
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: SuggestedCategoryId
+  nameWithType: DBC.TicketFields.SuggestedCategoryId
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.SuggestedCategoryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.SuggestedCategoryId: Suggestion for categorization, based on the text of the message (AI)\n"
+  syntax:
+    content: public const string SuggestedCategoryId = "suggestedCategory_id"
+    return:
+      type: System.String
+    content.vb: Public Const SuggestedCategoryId As String = "suggestedCategory_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.OrigHumanCategoryId
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.OrigHumanCategoryId
+  id: OrigHumanCategoryId
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: OrigHumanCategoryId
+  nameWithType: DBC.TicketFields.OrigHumanCategoryId
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.OrigHumanCategoryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.OrigHumanCategoryId: Will contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category\n"
+  syntax:
+    content: public const string OrigHumanCategoryId = "origHumanCategory_id"
+    return:
+      type: System.String
+    content.vb: Public Const OrigHumanCategoryId As String = "origHumanCategory_id"
   modifiers.csharp:
   - public
   - const

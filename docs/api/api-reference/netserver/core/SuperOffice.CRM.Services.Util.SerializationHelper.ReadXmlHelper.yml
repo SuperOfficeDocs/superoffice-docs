@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.CRM.Services.Util.SerializationHelper.ReadXmlHelper
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Util
   summary: "\nUtility class used by <xref href=\"SuperOffice.CRM.Services.Util.SerializationHelper.EnterReadXml(System.Xml.XmlReader%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
@@ -59,10 +59,10 @@ items:
   fullName: SuperOffice.CRM.Services.Util.SerializationHelper.ReadXmlHelper.System.IDisposable.Dispose()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Util
   syntax:
     content: void IDisposable.Dispose()

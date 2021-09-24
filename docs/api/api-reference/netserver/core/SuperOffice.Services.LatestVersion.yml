@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Services.LatestVersion
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Services
   summary: "\nCurrent and historical WCF/SOAP &quot;Services88&quot; and WebAPI &quot;v1&quot; versions\n"
   syntax:
@@ -55,10 +55,10 @@ items:
   fullName: SuperOffice.Services.LatestVersion.ServicesName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Services
   summary: "\n&quot;Services87&quot;\n"
   syntax:
@@ -84,10 +84,10 @@ items:
   fullName: SuperOffice.Services.LatestVersion.ServicesNumber
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Services
   summary: "\n&quot;87&quot;\n"
   syntax:
@@ -113,10 +113,10 @@ items:
   fullName: SuperOffice.Services.LatestVersion.WebApiName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Services
   summary: "\n&quot;v1&quot;\n"
   syntax:
@@ -142,10 +142,10 @@ items:
   fullName: SuperOffice.Services.LatestVersion.AllVersions
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Services
   summary: "\n87 : { Number: 87, Name: &quot;Services87&quot;, IsFrozen: true, IsCurrent: false, IsObsolete: false}\n"
   syntax:

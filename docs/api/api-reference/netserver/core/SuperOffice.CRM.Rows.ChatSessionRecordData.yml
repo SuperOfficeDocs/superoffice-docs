@@ -7,10 +7,12 @@ items:
   children:
   - SuperOffice.CRM.Rows.ChatSessionRecordData.#ctor
   - SuperOffice.CRM.Rows.ChatSessionRecordData.AlertLevel
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.ChatbotIsactive
   - SuperOffice.CRM.Rows.ChatSessionRecordData.ChatSessionId
   - SuperOffice.CRM.Rows.ChatSessionRecordData.CompanyName
   - SuperOffice.CRM.Rows.ChatSessionRecordData.Consented
   - SuperOffice.CRM.Rows.ChatSessionRecordData.ContactId
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.Country
   - SuperOffice.CRM.Rows.ChatSessionRecordData.CustomerAlias
   - SuperOffice.CRM.Rows.ChatSessionRecordData.CustomerFetch
   - SuperOffice.CRM.Rows.ChatSessionRecordData.CustomerHost
@@ -854,6 +856,60 @@ items:
     return:
       type: System.Int16
     content.vb: Public Consented As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.ChatbotIsactive
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.ChatbotIsactive
+  id: ChatbotIsactive
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: ChatbotIsactive
+  nameWithType: ChatSessionRecordData.ChatbotIsactive
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.ChatbotIsactive
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIndicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. \n"
+  syntax:
+    content: public short ChatbotIsactive
+    return:
+      type: System.Int16
+    content.vb: Public ChatbotIsactive As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.Country
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.Country
+  id: Country
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: Country
+  nameWithType: ChatSessionRecordData.Country
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.Country
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe country that the chat customer selected. \n"
+  syntax:
+    content: public int Country
+    return:
+      type: System.Int32
+    content.vb: Public Country As Integer
   modifiers.csharp:
   - public
   modifiers.vb:

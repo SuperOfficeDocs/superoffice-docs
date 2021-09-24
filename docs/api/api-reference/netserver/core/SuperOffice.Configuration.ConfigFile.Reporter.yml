@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Reporter
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nConfiguration values related to Reporter.\n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Reporter.ExePath
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nContains the path to the folder where the file SoReporterExecuter.exe is located.\n"
   syntax:
@@ -87,10 +87,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Reporter.Timeout
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nTimeout in milliseconds for the reporter process.\n"
   syntax:
@@ -120,10 +120,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Reporter.ODBC
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nODBC Datasource name to use when running Reporter\n"
   syntax:

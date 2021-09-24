@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.IO.IFastSerializationTypeSurrogate
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nInterface to allow helper classes to be used to serialize objects\nthat are not directly supported by SerializationWriter/SerializationReader\n"
   syntax:
@@ -46,10 +46,10 @@ items:
   fullName: SuperOffice.IO.IFastSerializationTypeSurrogate.SupportsType(System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nAllows a surrogate to be queried as to whether a particular type is supported\n"
   syntax:
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.IO.IFastSerializationTypeSurrogate.Serialize(SuperOffice.IO.SerializationWriter, System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nFastSerializes the object into the SerializationWriter.\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.IO.IFastSerializationTypeSurrogate.Deserialize(SuperOffice.IO.SerializationReader, System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nDeserializes an object of the supplied type from the SerializationReader.\n"
   syntax:

@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.RecurrenceUpdateMode
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nAppointment recurrence change mode: only this, this and forward, stop\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.RecurrenceUpdateMode.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: 0: Unknown/undecided type\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.RecurrenceUpdateMode.OnlyThis
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Update only this instance\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.RecurrenceUpdateMode.ThisAndForward
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Update this instance and all instances forward in time\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.RecurrenceUpdateMode.StopRecurrence
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n9: Stop the recurrence from this instance and forward in time\n"
   syntax:

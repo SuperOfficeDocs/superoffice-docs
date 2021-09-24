@@ -28,7 +28,6 @@ items:
   - SuperOffice.CRM.Rows.EjMessageRecordData.Sentiment
   - SuperOffice.CRM.Rows.EjMessageRecordData.SentimentConfidence
   - SuperOffice.CRM.Rows.EjMessageRecordData.Slevel
-  - SuperOffice.CRM.Rows.EjMessageRecordData.SuggestedCategoryId
   - SuperOffice.CRM.Rows.EjMessageRecordData.TicketId
   - SuperOffice.CRM.Rows.EjMessageRecordData.TimeCharge
   - SuperOffice.CRM.Rows.EjMessageRecordData.TimeSpent
@@ -771,33 +770,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public SentimentConfidence As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.EjMessageRecordData.SuggestedCategoryId
-  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.SuggestedCategoryId
-  id: SuggestedCategoryId
-  parent: SuperOffice.CRM.Rows.EjMessageRecordData
-  langs:
-  - csharp
-  - vb
-  name: SuggestedCategoryId
-  nameWithType: EjMessageRecordData.SuggestedCategoryId
-  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.SuggestedCategoryId
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nSuggestion for categorization, based on the text of the message (AI) \n"
-  syntax:
-    content: public int SuggestedCategoryId
-    return:
-      type: System.Int32
-    content.vb: Public SuggestedCategoryId As Integer
   modifiers.csharp:
   - public
   modifiers.vb:

@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Util.MailIdConverter
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static class MailIdConverter
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.Util.MailIdConverter.NormalizeMailId(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static string NormalizeMailId(string messageId)

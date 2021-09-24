@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.RoundDirection
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nSpecifies the direction of which to round a <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.RoundDirection.Closest
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nRounds to the closest direction\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.RoundDirection.Up
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nRounds up\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.RoundDirection.Down
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nRounds down\n"
   syntax:

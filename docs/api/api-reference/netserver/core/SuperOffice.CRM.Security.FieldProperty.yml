@@ -20,10 +20,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldProperty
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nClass holding properties like field length, field type about a field in the carrier.\n"
   syntax:
@@ -67,10 +67,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldProperty.Clone()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: public object Clone()
@@ -96,10 +96,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldProperty.FieldProperty()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nInitializes a blank instance of the <xref href=\"SuperOffice.CRM.Security.FieldProperty\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
   syntax:
@@ -122,10 +122,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldProperty.FieldProperty(SuperOffice.CRM.Security.FieldRight, System.Type, System.Int32)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nInitializes a new instance of the <xref href=\"SuperOffice.CRM.Security.FieldProperty\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
   syntax:
@@ -158,10 +158,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldProperty.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: public override string ToString()
@@ -188,10 +188,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldProperty.FieldRight
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nGets the field right.\n"
   syntax:
@@ -220,10 +220,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldProperty.FieldType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\n\n"
   syntax:
@@ -251,10 +251,10 @@ items:
   fullName: SuperOffice.CRM.Security.FieldProperty.FieldLength
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\n\n"
   syntax:

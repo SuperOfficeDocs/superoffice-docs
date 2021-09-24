@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>
   type: Delegate
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nDelegate for the <xref href=\"SuperOffice.Util.CollectionOps.CreateDictionaryFromArray%60%602(%60%601%5b%5d%2cSuperOffice.Util.CollectionOps.GetKeyFromValueItem%7b%60%600%2c%60%601%7d)\" data-throw-if-not-resolved=\"false\"></xref> methods, whose task is to extract whatever is the\nkey from the given item\n"
   syntax:
@@ -62,10 +62,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.GetKeyFromValueItem(System.Object, System.IntPtr)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public GetKeyFromValueItem(object object, IntPtr method)
@@ -94,10 +94,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.Invoke(ValueType)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public virtual KeyType Invoke(ValueType item)
@@ -128,10 +128,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.BeginInvoke(ValueType, System.AsyncCallback, System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public virtual IAsyncResult BeginInvoke(ValueType item, AsyncCallback callback, object object)
@@ -166,10 +166,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.EndInvoke(System.IAsyncResult)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public virtual KeyType EndInvoke(IAsyncResult result)

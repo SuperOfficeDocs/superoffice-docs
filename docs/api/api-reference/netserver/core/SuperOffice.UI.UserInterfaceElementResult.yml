@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.UI.UserInterfaceElementResult
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.UI
   summary: "\nParent class for the data-driven user interface elements. Contains the &quot;result&quot; of\nthe interface elements\n"
   syntax:
@@ -61,10 +61,10 @@ items:
   fullName: SuperOffice.UI.UserInterfaceElementResult._id
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.UI
   summary: "\n"
   syntax:
@@ -88,10 +88,10 @@ items:
   fullName: SuperOffice.UI.UserInterfaceElementResult._value
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.UI
   summary: "\n"
   syntax:
@@ -115,10 +115,10 @@ items:
   fullName: SuperOffice.UI.UserInterfaceElementResult.UserInterfaceElementResult(System.String, System.Object)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.UI
   summary: "\nConstructor that takes both ID and value\n"
   syntax:
@@ -148,10 +148,10 @@ items:
   fullName: SuperOffice.UI.UserInterfaceElementResult.UserInterfaceElementResult(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.UI
   summary: "\n"
   syntax:
@@ -177,10 +177,10 @@ items:
   fullName: SuperOffice.UI.UserInterfaceElementResult.Id
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.UI
   summary: "\nId specific for the provider of the user interface.\n"
   syntax:
@@ -210,10 +210,10 @@ items:
   fullName: SuperOffice.UI.UserInterfaceElementResult.Value
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.UI
   summary: "\nCurrent value of the control\n"
   syntax:

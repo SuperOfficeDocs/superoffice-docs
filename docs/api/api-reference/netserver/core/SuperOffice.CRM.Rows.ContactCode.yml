@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.CRM.Rows.ContactCode
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public static class ContactCode
@@ -57,10 +57,10 @@ items:
   fullName: SuperOffice.CRM.Rows.ContactCode.IsCharAlpha(System.Char)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Rows
   summary: "\nIs the character alphabetic, according to the regional settings on the machine we&apos;re running on\n"
   syntax:
@@ -96,10 +96,10 @@ items:
   fullName: SuperOffice.CRM.Rows.ContactCode.IsCharAlphaNumeric(System.Char)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Rows
   summary: "\nIs the character alphabetic OR numeric, according to the regional settings on the machine we&apos;re running on\n"
   syntax:
@@ -135,10 +135,10 @@ items:
   fullName: SuperOffice.CRM.Rows.ContactCode.IsCharUpper(System.Char)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Rows
   summary: "\nIs the character uppercase alphabetic, according to the regional settings on the machine we&apos;re running on\n"
   syntax:
@@ -174,10 +174,10 @@ items:
   fullName: SuperOffice.CRM.Rows.ContactCode.IsCharLower(System.Char)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Rows
   summary: "\nIs the character lowercase alphabetic, according to the regional settings on the machine we&apos;re running on\n"
   syntax:
@@ -213,10 +213,10 @@ items:
   fullName: SuperOffice.CRM.Rows.ContactCode.IsCharNumeric(System.Char)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Rows
   summary: "\nIs the character numeric, according to the regional settings on the machine we&apos;re running on\n"
   remarks: "\nSince there is no OS method for this, we define &quot;numeric&quot; as &quot;alphanumeric:true &amp;&amp; alpha:false&quot;\n"
@@ -252,10 +252,10 @@ items:
   fullName: SuperOffice.CRM.Rows.ContactCode.CalculateCode(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Rows
   summary: "\nCalculate the &quot;Code&quot; (actually Number1) field of the contact card, based on the name\n"
   syntax:

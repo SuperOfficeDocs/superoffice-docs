@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Util.PreferenceLicenseRequired
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static class PreferenceLicenseRequired
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.Util.PreferenceLicenseRequired.LicenseCheckPreferenceDictionary
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static Dictionary<string, string> LicenseCheckPreferenceDictionary

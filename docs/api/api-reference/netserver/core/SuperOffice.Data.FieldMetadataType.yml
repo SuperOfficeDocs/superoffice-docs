@@ -21,10 +21,10 @@ items:
   fullName: SuperOffice.Data.FieldMetadataType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDescribes the different types of controls that can appear in the Configure connection dialog\nThis Enum is used by:  ErpField.FieldType\n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.Data.FieldMetadataType.Checkbox
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Checkbox widget: Boolean value\n"
   syntax:
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.Data.FieldMetadataType.Text
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Single line textbox.\n"
   syntax:
@@ -110,10 +110,10 @@ items:
   fullName: SuperOffice.Data.FieldMetadataType.Password
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Single line edit field with password characters - input is hidden.\n"
   syntax:
@@ -138,10 +138,10 @@ items:
   fullName: SuperOffice.Data.FieldMetadataType.Integer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Single line integer number field. \n"
   syntax:
@@ -166,10 +166,10 @@ items:
   fullName: SuperOffice.Data.FieldMetadataType.Double
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Single line decimal number field. \n"
   syntax:
@@ -194,10 +194,10 @@ items:
   fullName: SuperOffice.Data.FieldMetadataType.List
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Dropdown listbox. The list name must be provided. The list items are provided by another interface. The default value should be the list key, not the text of the list item.\n"
   syntax:
@@ -222,10 +222,10 @@ items:
   fullName: SuperOffice.Data.FieldMetadataType.Date
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: Date\n"
   syntax:
@@ -250,10 +250,10 @@ items:
   fullName: SuperOffice.Data.FieldMetadataType.Label
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n99: Static text - has no input widget associated with it. Can be used for spacing/layout.\n"
   syntax:

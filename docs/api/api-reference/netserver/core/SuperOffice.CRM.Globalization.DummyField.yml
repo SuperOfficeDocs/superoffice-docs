@@ -21,10 +21,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.DummyField
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\n\n"
   syntax:
@@ -69,10 +69,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.DummyField.DummyField()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   syntax:
     content: public DummyField()
@@ -94,10 +94,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.DummyField.Name
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\n\n"
   syntax:
@@ -127,10 +127,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.DummyField.Value
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\n\n"
   syntax:
@@ -160,10 +160,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.DummyField.Tooltip
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\n\n"
   syntax:
@@ -193,10 +193,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.DummyField.Label
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\n\n"
   syntax:
@@ -226,10 +226,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.DummyField.ValueLength
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\n\n"
   syntax:
@@ -259,10 +259,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.DummyField.Flags
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\n\n"
   syntax:
@@ -292,10 +292,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.DummyField.AddressType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   syntax:
     content: public AddressType AddressType { get; }

@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.InterRestrictionOperator
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nOperators to be used between restrictions, describes how this restriction is related to the next one in an array\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.InterRestrictionOperator.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: \n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.InterRestrictionOperator.And
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: \n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.InterRestrictionOperator.Or
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: \n"
   syntax:

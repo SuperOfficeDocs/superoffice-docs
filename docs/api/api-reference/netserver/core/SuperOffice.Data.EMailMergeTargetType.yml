@@ -20,10 +20,10 @@ items:
   fullName: SuperOffice.Data.EMailMergeTargetType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nWhat type of delivery system to use for a mail merge\n"
   syntax:
@@ -52,10 +52,10 @@ items:
   fullName: SuperOffice.Data.EMailMergeTargetType.BestFit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Default to mail, then fax, then printer\n"
   syntax:
@@ -80,10 +80,10 @@ items:
   fullName: SuperOffice.Data.EMailMergeTargetType.Electronic
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Default to mail, then fax\n"
   syntax:
@@ -108,10 +108,10 @@ items:
   fullName: SuperOffice.Data.EMailMergeTargetType.Mail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Deliver by mail\n"
   syntax:
@@ -136,10 +136,10 @@ items:
   fullName: SuperOffice.Data.EMailMergeTargetType.Fax
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Deliver by fax\n"
   syntax:
@@ -164,10 +164,10 @@ items:
   fullName: SuperOffice.Data.EMailMergeTargetType.Printer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Deliver to printer\n"
   syntax:
@@ -192,10 +192,10 @@ items:
   fullName: SuperOffice.Data.EMailMergeTargetType.Xml
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Output mails as xml. This target is used in conjunction with external mail clients.\n"
   syntax:
@@ -220,10 +220,10 @@ items:
   fullName: SuperOffice.Data.EMailMergeTargetType.XmlFax
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: Same as Xml, but use fax format for recipient addresses\n"
   syntax:

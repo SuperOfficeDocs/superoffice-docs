@@ -13,7 +13,7 @@ items:
   fullName: SuperOffice.FeatureToggles
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
 - uid: SuperOffice.FeatureToggles.FeatureToggle
   commentId: T:SuperOffice.FeatureToggles.FeatureToggle

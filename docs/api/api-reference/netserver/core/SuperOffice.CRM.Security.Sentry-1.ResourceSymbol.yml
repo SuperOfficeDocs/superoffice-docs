@@ -18,6 +18,7 @@ items:
   - SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatorySaleAmount
   - SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatorySaleContactId
   - SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatorySaleNumber1
+  - SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.ThisFieldIsMandatory
   langs:
   - csharp
   - vb
@@ -55,6 +56,36 @@ items:
   - Module
   fullName.vb: SuperOffice.CRM.Security.Sentry(Of TMainTable).ResourceSymbol
   name.vb: Sentry(Of TMainTable).ResourceSymbol
+- uid: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.ThisFieldIsMandatory
+  commentId: F:SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.ThisFieldIsMandatory
+  id: ThisFieldIsMandatory
+  parent: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol
+  langs:
+  - csharp
+  - vb
+  name: ThisFieldIsMandatory
+  nameWithType: Sentry<TMainTable>.ResourceSymbol.ThisFieldIsMandatory
+  fullName: SuperOffice.CRM.Security.Sentry<TMainTable>.ResourceSymbol.ThisFieldIsMandatory
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public const string ThisFieldIsMandatory = "[SR_ACCESS_MANDATORY]"
+    return:
+      type: System.String
+    content.vb: Public Const ThisFieldIsMandatory As String = "[SR_ACCESS_MANDATORY]"
+  nameWithType.vb: Sentry(Of TMainTable).ResourceSymbol.ThisFieldIsMandatory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of TMainTable).ResourceSymbol.ThisFieldIsMandatory
 - uid: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryContactName
   commentId: F:SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryContactName
   id: MandatoryContactName

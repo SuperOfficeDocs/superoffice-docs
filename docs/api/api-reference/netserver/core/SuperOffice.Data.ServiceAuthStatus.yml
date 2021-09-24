@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.ServiceAuthStatus
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nPossible statuses for a ServiceAuth.\nThis Enum is used by:  service_auth.auth_status\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.ServiceAuthStatus.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown status\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.ServiceAuthStatus.Initialized
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Initialized\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.ServiceAuthStatus.Error
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Error\n"
   syntax:

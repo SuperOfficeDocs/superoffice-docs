@@ -73,10 +73,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nSummary description for SoPrincipal.\n"
   syntax:
@@ -126,10 +126,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.SoPrincipal(System.IdentityModel.Tokens.SecurityToken[])
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nDefault constructor for the identity.\n"
   remarks: "\n\n"
@@ -159,10 +159,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.SetAssociatePassword(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: >-
@@ -201,10 +201,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.IsInRole(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nIs the principal (e.g. user) in the given role.\n"
   syntax:
@@ -238,10 +238,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.GetPrincipalCarrier()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nPrivate SuperOffice function - do not use! Get the SoPrincipalCarrier from the SoPrincipal\n"
   remarks: "\nThis method is protected with code access security.  It is only to be used by SuperOffice!\n"
@@ -272,10 +272,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.SetPrincipalCarrier(SuperOffice.CRM.Services.SoPrincipalCarrier)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nPrivate SuperOffice function - do not use! Set the SoPrincipalCarrier for the SoPrincipal.\n"
   remarks: "\nThis method is protected with code access security.  It is only to be used by SuperOffice!\n"
@@ -303,10 +303,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.Authenticate()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nAuthenticates the Principal\n"
   syntax:
@@ -331,10 +331,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.GetSafeCredentials()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nObtain a set of credentials that are safe to use accross mix-mode authentication scenarios.\n"
   syntax:
@@ -362,10 +362,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.GetAccessToken(System.String, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public abstract string GetAccessToken(string applicationToken, bool includeCsSession)
@@ -396,10 +396,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.IsInSameCompany(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nIs the associate a person in the same company as the given associate\n"
   syntax:
@@ -431,10 +431,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.IsInCompany(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nIs the accociate a person in this company\n"
   syntax:
@@ -466,10 +466,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.IsInProject(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nIs the principal member of the project.\n"
   syntax:
@@ -501,10 +501,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.IsInSameGroup(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nIs the associate in the same usergroup as the principal.\n"
   syntax:
@@ -536,10 +536,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.GetFunctionRights()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nGet all the functional rights for the user&apos;s role.\n"
   syntax:
@@ -567,10 +567,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.HasFunctionRight(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nCheck if the user&apos;s role has the functional right.  Use <xref href=\"SuperOffice.CRM.FunctionRightStrings\" data-throw-if-not-resolved=\"false\"></xref> to avoid misspelling.\n"
   syntax:
@@ -602,10 +602,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.HasLicense(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nCheck if the user has been granted the provided license. Use <xref href=\"SuperOffice.License.SoLicenseNames\" data-throw-if-not-resolved=\"false\"></xref> to avoid misspelling.\n"
   syntax:
@@ -640,10 +640,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.HasLicense(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nCheck if the user has been granted the provided licens.e Use <xref href=\"SuperOffice.License.SoLicenseNames\" data-throw-if-not-resolved=\"false\"></xref> to avoid misspelling.\n"
   syntax:
@@ -675,10 +675,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.GetLicense(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nGet details of a granted license.  Use <xref href=\"SuperOffice.License.SoLicenseNames\" data-throw-if-not-resolved=\"false\"></xref> to avoid misspelling.\n"
   syntax:
@@ -711,10 +711,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.GetGrantedLicensesAsString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nGet commaseparated string of granted licenses.\n"
   syntax:
@@ -740,10 +740,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.GetGrantedLicenses()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\n\n"
   syntax:
@@ -768,10 +768,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.GetLicense(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nGet details of a granted license.  Use <xref href=\"SuperOffice.License.SoLicenseNames\" data-throw-if-not-resolved=\"false\"></xref> to avoid misspelling.\n"
   syntax:
@@ -801,10 +801,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public override string ToString()
@@ -831,10 +831,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.SetCachedItem(System.String, System.Object, System.Double)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nAdd a value to the session cache.\n"
   syntax:
@@ -869,10 +869,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.GetCachedItem(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nGet a value from the session cache.\n"
   syntax:
@@ -904,10 +904,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.RemoveCachedItem(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nDeletes a cached value from the session cache\n"
   syntax:
@@ -936,10 +936,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.ClearCache()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nClear all items from the cahce;\n"
   syntax:
@@ -964,10 +964,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.CacheKeyExist(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nCheck for key in cache\n"
   syntax:
@@ -1009,10 +1009,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.TryGetCachedItem(System.String, out System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public virtual bool TryGetCachedItem(string key, out object item)
@@ -1046,10 +1046,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.Tokens
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public SecurityToken[] Tokens { get; }
@@ -1077,10 +1077,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.System.Security.Principal.IPrincipal.Identity
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: IIdentity IPrincipal.Identity { get; }
@@ -1109,10 +1109,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.Identity
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nIdentity for the principal\n"
   syntax:
@@ -1142,10 +1142,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.TimeZone
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public int TimeZone { get; set; }
@@ -1172,10 +1172,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.UserName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nUserName on associatetable\n"
   syntax:
@@ -1203,10 +1203,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.UserType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nType of user\n"
   syntax:
@@ -1234,10 +1234,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.Associate
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nAssociate name (e.g. logon name) for the user\n"
   syntax:
@@ -1265,10 +1265,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.AssociateId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nAssociateId for the user.\n"
   syntax:
@@ -1296,10 +1296,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.CRM5Secret
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nSecret used with type <xref href=\"SuperOffice.Security.Principal.SoPrincipal.UserType\" data-throw-if-not-resolved=\"false\"></xref> CRM5 in <xref href=\"SuperOffice.Security.Principal.SoCredentials\" data-throw-if-not-resolved=\"false\"></xref>.\nOnly valid 24 hours after it was created.\n"
   syntax:
@@ -1341,10 +1341,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.IsPerson
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nIs this associate a person, and not a resource?\n"
   syntax:
@@ -1372,10 +1372,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.PersonId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nAssociate&apos;s person id\n"
   syntax:
@@ -1403,10 +1403,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.CountryId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nCountryId for the user, from the person record. Note that this is not the users&apos; &quot;home country&quot;\n(which can be overriden by a preference), use the <xref href=\"SuperOffice.Security.Principal.SoPrincipal.HomeCountryId\" data-throw-if-not-resolved=\"false\"></xref> to get that id.\n"
   syntax:
@@ -1434,10 +1434,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.HomeCountryId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nCountry id for the user&apos;s home country.  This is the default country id when creating new items.\nIn contrast to <xref href=\"SuperOffice.Security.Principal.SoPrincipal.CountryId\" data-throw-if-not-resolved=\"false\"></xref>, which only looks at the person record, this property\nalso takes into account the OwnCountry preference.\n"
   syntax:
@@ -1465,10 +1465,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.ContactId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nCompany of the associate&apos;s person\n"
   syntax:
@@ -1496,10 +1496,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.GroupId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nAssociate&apos;s group_idx\n"
   syntax:
@@ -1527,10 +1527,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.BusinessId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nBusinessIdx for the company that the user belongs to.\n"
   syntax:
@@ -1558,10 +1558,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.CategoryId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nCategoryIdx of the company that the user belongs to.\n"
   syntax:
@@ -1589,10 +1589,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.ContactOwner
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nOwner (AssocaiteId) of the company that the user belongs to.\n"
   syntax:
@@ -1620,10 +1620,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.DatabaseContextIdentifier
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe identifier of the users database context.\n"
   syntax:
@@ -1651,10 +1651,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.State
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nState of the Authorization\n"
   syntax:
@@ -1684,10 +1684,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.CanCreateExternalPerson
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nCan this user create and manage external persons\n"
   remarks: "\nExternal persons (e.g. <xref href=\"SuperOffice.Security.Principal.SoPrincipal.UserType\" data-throw-if-not-resolved=\"false\"></xref> of ExternalPerson) can only manage external persons belonging to the same contact (e.g. company).  Hence, only <xref href=\"SuperOffice.Security.Principal.SoPrincipal.UserType\" data-throw-if-not-resolved=\"false\"></xref> of Employee and System can manage external persons on all companies in the database.\n"
@@ -1730,10 +1730,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.RoleId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nId of the users role\n"
   syntax:
@@ -1761,10 +1761,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.RoleName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nName of the users role\n"
   syntax:
@@ -1792,10 +1792,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.RoleDescription
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nDescription (e.g. tooltip) for the users role\n"
   syntax:
@@ -1823,10 +1823,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.RoleType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nType of user.\n"
   syntax:
@@ -1854,10 +1854,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.License
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nLicense granted to the site and user.\n"
   syntax:
@@ -1899,10 +1899,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.FullName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe Person full name if the associate is a person. Use IsPerson to check\n"
   syntax:
@@ -1930,10 +1930,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.EMailAddress
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe Person e-mail address if the associate is a person. Use IsPerson to check\n"
   syntax:
@@ -1961,10 +1961,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.IsSaintEnabled
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: >-
@@ -2005,10 +2005,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.EjUserId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nPrimary key in eJournal&apos;s old user table.\n"
   syntax:
@@ -2036,10 +2036,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.EjAccessLevel
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\neJournal user access level\n"
   syntax:
@@ -2067,10 +2067,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.EjUserStatus
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\neJournal user status\n"
   syntax:
@@ -2098,10 +2098,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoPrincipal.SecondaryGroups
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nSecondary user groups\n"
   syntax:

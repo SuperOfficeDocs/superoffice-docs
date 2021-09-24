@@ -1,0 +1,514 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.OidcLogin
+  commentId: T:SuperOffice.Configuration.ConfigFile.OidcLogin
+  id: ConfigFile.OidcLogin
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.OidcLogin.Authority
+  - SuperOffice.Configuration.ConfigFile.OidcLogin.ClientId
+  - SuperOffice.Configuration.ConfigFile.OidcLogin.IsSSOEnabled
+  - SuperOffice.Configuration.ConfigFile.OidcLogin.UserNameClaim
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.OidcLogin
+  nameWithType: ConfigFile.OidcLogin
+  fullName: SuperOffice.Configuration.ConfigFile.OidcLogin
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nUtility class to get access to values related to CRM Oidc login\n"
+  syntax:
+    content: public static class OidcLogin
+    content.vb: Public Module OidcLogin
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Configuration.ConfigFile.OidcLogin.IsSSOEnabled
+  commentId: P:SuperOffice.Configuration.ConfigFile.OidcLogin.IsSSOEnabled
+  id: IsSSOEnabled
+  parent: SuperOffice.Configuration.ConfigFile.OidcLogin
+  langs:
+  - csharp
+  - vb
+  name: IsSSOEnabled
+  nameWithType: ConfigFile.OidcLogin.IsSSOEnabled
+  fullName: SuperOffice.Configuration.ConfigFile.OidcLogin.IsSSOEnabled
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nBoolean to check if SSO is enabled for tenant\n"
+  syntax:
+    content: public static bool IsSSOEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property IsSSOEnabled As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.OidcLogin.IsSSOEnabled*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.OidcLogin.Authority
+  commentId: P:SuperOffice.Configuration.ConfigFile.OidcLogin.Authority
+  id: Authority
+  parent: SuperOffice.Configuration.ConfigFile.OidcLogin
+  langs:
+  - csharp
+  - vb
+  name: Authority
+  nameWithType: ConfigFile.OidcLogin.Authority
+  fullName: SuperOffice.Configuration.ConfigFile.OidcLogin.Authority
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nOpenID connect authority/ wellKnown url ([Authority]/.well-known/openid-configuration must return discovery document.)\n"
+  syntax:
+    content: public static string Authority { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property Authority As String
+  overload: SuperOffice.Configuration.ConfigFile.OidcLogin.Authority*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.OidcLogin.ClientId
+  commentId: P:SuperOffice.Configuration.ConfigFile.OidcLogin.ClientId
+  id: ClientId
+  parent: SuperOffice.Configuration.ConfigFile.OidcLogin
+  langs:
+  - csharp
+  - vb
+  name: ClientId
+  nameWithType: ConfigFile.OidcLogin.ClientId
+  fullName: SuperOffice.Configuration.ConfigFile.OidcLogin.ClientId
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nClientID for SuperOffice CRM, different for each environment/Identity Provider\n"
+  syntax:
+    content: public static string ClientId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property ClientId As String
+  overload: SuperOffice.Configuration.ConfigFile.OidcLogin.ClientId*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.OidcLogin.UserNameClaim
+  commentId: P:SuperOffice.Configuration.ConfigFile.OidcLogin.UserNameClaim
+  id: UserNameClaim
+  parent: SuperOffice.Configuration.ConfigFile.OidcLogin
+  langs:
+  - csharp
+  - vb
+  name: UserNameClaim
+  nameWithType: ConfigFile.OidcLogin.UserNameClaim
+  fullName: SuperOffice.Configuration.ConfigFile.OidcLogin.UserNameClaim
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nClaim to get userName from external identity token\n"
+  syntax:
+    content: public static string UserNameClaim { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property UserNameClaim As String
+  overload: SuperOffice.Configuration.ConfigFile.OidcLogin.UserNameClaim*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.OidcLogin.IsSSOEnabled*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.OidcLogin.IsSSOEnabled
+  isExternal: true
+  name: IsSSOEnabled
+  nameWithType: ConfigFile.OidcLogin.IsSSOEnabled
+  fullName: SuperOffice.Configuration.ConfigFile.OidcLogin.IsSSOEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.ConfigFile.OidcLogin.Authority*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.OidcLogin.Authority
+  isExternal: true
+  name: Authority
+  nameWithType: ConfigFile.OidcLogin.Authority
+  fullName: SuperOffice.Configuration.ConfigFile.OidcLogin.Authority
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Configuration.ConfigFile.OidcLogin.ClientId*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.OidcLogin.ClientId
+  isExternal: true
+  name: ClientId
+  nameWithType: ConfigFile.OidcLogin.ClientId
+  fullName: SuperOffice.Configuration.ConfigFile.OidcLogin.ClientId
+- uid: SuperOffice.Configuration.ConfigFile.OidcLogin.UserNameClaim*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.OidcLogin.UserNameClaim
+  isExternal: true
+  name: UserNameClaim
+  nameWithType: ConfigFile.OidcLogin.UserNameClaim
+  fullName: SuperOffice.Configuration.ConfigFile.OidcLogin.UserNameClaim

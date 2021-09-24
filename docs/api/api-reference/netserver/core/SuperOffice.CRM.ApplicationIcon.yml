@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.CRM.ApplicationIcon
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public class ApplicationIcon
@@ -57,10 +57,10 @@ items:
   fullName: SuperOffice.CRM.ApplicationIcon.id
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public int id
@@ -83,10 +83,10 @@ items:
   fullName: SuperOffice.CRM.ApplicationIcon.iconSrc
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public string iconSrc
@@ -109,10 +109,10 @@ items:
   fullName: SuperOffice.CRM.ApplicationIcon.ApplicationIcon()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public ApplicationIcon()

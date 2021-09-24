@@ -1114,12 +1114,22 @@ items:
   namespace: SuperOffice.License
   summary: "\nTurn off some checking to enable unit tests to run\n"
   syntax:
-    content: public static bool IsUnitTesting { get; set; }
+    content: >-
+      [AllowedMultitenantStatic]
+
+      public static bool IsUnitTesting { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Shared Property IsUnitTesting As Boolean
+    content.vb: >-
+      <AllowedMultitenantStatic>
+
+      Public Shared Property IsUnitTesting As Boolean
   overload: SuperOffice.License.LicenseManager.IsUnitTesting*
+  attributes:
+  - type: SuperOffice.Factory.AllowedMultitenantStaticAttribute
+    ctor: SuperOffice.Factory.AllowedMultitenantStaticAttribute.#ctor
+    arguments: []
   modifiers.csharp:
   - public
   - static

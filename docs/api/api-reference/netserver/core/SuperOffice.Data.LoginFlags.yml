@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Data.LoginFlags
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nBits in login.flags\nThis Enum is used by:  login.flags\nThis Enum consists of flag values that can be combined.\n"
   syntax:
@@ -56,10 +56,10 @@ items:
   fullName: SuperOffice.Data.LoginFlags.HideIEWarning
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Hide warning about Internet Explorer being deprecated\n"
   syntax:

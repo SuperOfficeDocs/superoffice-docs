@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Events.SoGlobalFlush
   type: Delegate
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Events
   syntax:
     content: public delegate void SoGlobalFlush();
@@ -46,10 +46,10 @@ items:
   fullName: SuperOffice.Events.SoGlobalFlush.SoGlobalFlush(System.Object, System.IntPtr)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Events
   syntax:
     content: public SoGlobalFlush(object object, IntPtr method)
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Events.SoGlobalFlush.Invoke()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Events
   syntax:
     content: public virtual void Invoke()
@@ -103,10 +103,10 @@ items:
   fullName: SuperOffice.Events.SoGlobalFlush.BeginInvoke(System.AsyncCallback, System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Events
   syntax:
     content: public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object object)
@@ -137,10 +137,10 @@ items:
   fullName: SuperOffice.Events.SoGlobalFlush.EndInvoke(System.IAsyncResult)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Events
   syntax:
     content: public virtual void EndInvoke(IAsyncResult result)

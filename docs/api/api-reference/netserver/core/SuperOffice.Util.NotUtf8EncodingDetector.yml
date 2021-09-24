@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Util.NotUtf8EncodingDetector
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: 'public class NotUtf8EncodingDetector : ITextEncodingDetector'
@@ -60,10 +60,10 @@ items:
   fullName: SuperOffice.Util.NotUtf8EncodingDetector.DetectFrom(System.Byte[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public Encoding DetectFrom(byte[] bytes)
@@ -95,10 +95,10 @@ items:
   fullName: SuperOffice.Util.NotUtf8EncodingDetector.NotUtf8EncodingDetector()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public NotUtf8EncodingDetector()

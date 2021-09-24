@@ -16,6 +16,7 @@ items:
   - SuperOffice.Util.RecurringSubSeries.InvitationAppointmentId
   - SuperOffice.Util.RecurringSubSeries.InvitationRecordData
   - SuperOffice.Util.RecurringSubSeries.IsDivergentInSeries(SuperOffice.CRM.Rows.AppointmentRecordData)
+  - SuperOffice.Util.RecurringSubSeries.IsDivergentInSeries(System.DateTime)
   - SuperOffice.Util.RecurringSubSeries.IsDivergentInSeries(System.Int32)
   - SuperOffice.Util.RecurringSubSeries.TryGetIndexOfAppointmentIdInSeries(System.Int32,System.Int32@)
   - SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentId(System.Int32)
@@ -195,6 +196,36 @@ items:
     return:
       type: System.Boolean
     content.vb: Public Function IsDivergentInSeries(appointmentRecord As AppointmentRecordData) As Boolean
+  overload: SuperOffice.Util.RecurringSubSeries.IsDivergentInSeries*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.RecurringSubSeries.IsDivergentInSeries(System.DateTime)
+  commentId: M:SuperOffice.Util.RecurringSubSeries.IsDivergentInSeries(System.DateTime)
+  id: IsDivergentInSeries(System.DateTime)
+  parent: SuperOffice.Util.RecurringSubSeries
+  langs:
+  - csharp
+  - vb
+  name: IsDivergentInSeries(DateTime)
+  nameWithType: RecurringSubSeries.IsDivergentInSeries(DateTime)
+  fullName: SuperOffice.Util.RecurringSubSeries.IsDivergentInSeries(System.DateTime)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public bool IsDivergentInSeries(DateTime doBy)
+    parameters:
+    - id: doBy
+      type: System.DateTime
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsDivergentInSeries(doBy As Date) As Boolean
   overload: SuperOffice.Util.RecurringSubSeries.IsDivergentInSeries*
   modifiers.csharp:
   - public
@@ -1098,6 +1129,13 @@ references:
   name: AppointmentRecordData
   nameWithType: AppointmentRecordData
   fullName: SuperOffice.CRM.Rows.AppointmentRecordData
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
 - uid: SuperOffice.Util.RecurringSubSeries.GetAppointmentRecordData*
   commentId: Overload:SuperOffice.Util.RecurringSubSeries.GetAppointmentRecordData
   isExternal: true
@@ -1110,13 +1148,6 @@ references:
   name: UpdateRecurringStartDate
   nameWithType: RecurringSubSeries.UpdateRecurringStartDate
   fullName: SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDate
-- uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
-  isExternal: true
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentId*
   commentId: Overload:SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentId
   isExternal: true

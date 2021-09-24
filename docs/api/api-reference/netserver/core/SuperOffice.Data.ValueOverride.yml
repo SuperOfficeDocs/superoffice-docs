@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Data.ValueOverride
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nHas a pre-calculated value been overriden in a QuoteAlternative or QuoteLine, and in that case what &amp; how?\nThis Enum is used by:  QuoteAlternative.UserValueOverride; QuoteLine.UserValueOverride\n"
   syntax:
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.Data.ValueOverride.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Discount data is from the ERP system and has not been overridden\n"
   syntax:
@@ -79,10 +79,10 @@ items:
   fullName: SuperOffice.Data.ValueOverride.Total
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: The Total amount has been overridden; all other fields should be recalculated\n"
   syntax:
@@ -107,10 +107,10 @@ items:
   fullName: SuperOffice.Data.ValueOverride.DiscountPercent
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: The discount percentage has been overriden; all other fields should be recalculated\n"
   syntax:
@@ -135,10 +135,10 @@ items:
   fullName: SuperOffice.Data.ValueOverride.DiscountAmount
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: The discount amount has been overridden; all other fields should be recalculated\n"
   syntax:
@@ -163,10 +163,10 @@ items:
   fullName: SuperOffice.Data.ValueOverride.EarningPercent
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: The earning percent has been overridden; all other fields should be recalculated\n"
   syntax:
@@ -191,10 +191,10 @@ items:
   fullName: SuperOffice.Data.ValueOverride.EarningAmount
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: The earning amount has been overridden; all other fields should be recalculated\n"
   syntax:

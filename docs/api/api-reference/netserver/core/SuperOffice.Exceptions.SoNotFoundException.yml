@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Exceptions.SoNotFoundException
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nException stating that something is not found.\n"
   syntax:
@@ -79,10 +79,10 @@ items:
   fullName: SuperOffice.Exceptions.SoNotFoundException.SoNotFoundException(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nException stating that something is not found.\n"
   syntax:

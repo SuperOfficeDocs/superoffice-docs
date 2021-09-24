@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Security.Principal.AuthorizationState
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nAuthorization state of the current <xref href=\"SuperOffice.Security.Principal.SoPrincipal\" data-throw-if-not-resolved=\"false\"></xref>.  \nThis replaces Authentication state of <xref href=\"SuperOffice.Security.Principal.SoPrincipal\" data-throw-if-not-resolved=\"false\"></xref> which now is made obsolete.\n"
   remarks: "\nThe initial state of <xref href=\"SuperOffice.Security.Principal.SoPrincipal\" data-throw-if-not-resolved=\"false\"></xref> is allways Unauthorized.  \nWhen the Authorization starts, the state is set to Authorizing.  The state is set to \nAuthorized if the Authorization succeeded and AuthorizationFailed if the Authorization failed.\n<p>\nThe Authorization state is set to Disconnected or Closed if such operations are performed on <xref href=\"SuperOffice.SoSession\" data-throw-if-not-resolved=\"false\"></xref>.\n</p><p>\nA value greater than Unauthorized means that the process of Authorization is either being carried out or has actually \nbeen successfull.  <xref href=\"SuperOffice.SoContext.CurrentPrincipal\" data-throw-if-not-resolved=\"false\"></xref> is available when the Authorization are in these states.\n</p><p>\nA value less than Unauthorized means that we don&apos;t have a valid session.\n</p>\n"
@@ -52,10 +52,10 @@ items:
   fullName: SuperOffice.Security.Principal.AuthorizationState.Unauthorized
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe process of Authorization has not been carried out.\n"
   syntax:
@@ -80,10 +80,10 @@ items:
   fullName: SuperOffice.Security.Principal.AuthorizationState.Authorizing
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe session is currently being Authorizing\n"
   syntax:
@@ -108,10 +108,10 @@ items:
   fullName: SuperOffice.Security.Principal.AuthorizationState.Authorized
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe session is Authorized\n"
   syntax:
@@ -136,10 +136,10 @@ items:
   fullName: SuperOffice.Security.Principal.AuthorizationState.AuthorizationFailed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe Authorization has failed.\n"
   syntax:
@@ -164,10 +164,10 @@ items:
   fullName: SuperOffice.Security.Principal.AuthorizationState.Suspended
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe session has been suspended.\n"
   syntax:
@@ -192,10 +192,10 @@ items:
   fullName: SuperOffice.Security.Principal.AuthorizationState.Closed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe session has closed\n"
   syntax:

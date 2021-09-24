@@ -5,6 +5,9 @@ items:
   id: SelectionSystemType
   parent: SuperOffice.Data
   children:
+  - SuperOffice.Data.SelectionSystemType.DashboardTileSelection
+  - SuperOffice.Data.SelectionSystemType.PersonalForDashboard
+  - SuperOffice.Data.SelectionSystemType.PersonalForDashboardSecondary
   - SuperOffice.Data.SelectionSystemType.PersonalForFind
   - SuperOffice.Data.SelectionSystemType.TemporaryShortTermStatic
   - SuperOffice.Data.SelectionSystemType.User
@@ -16,10 +19,10 @@ items:
   fullName: SuperOffice.Data.SelectionSystemType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nSelection system type - defines if this selection is one that is managed by the system, and what kind it is\nThis Enum is used by:  selection.SystemType\n"
   syntax:
@@ -48,10 +51,10 @@ items:
   fullName: SuperOffice.Data.SelectionSystemType.User
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: User selection, managed by users\n"
   syntax:
@@ -76,10 +79,10 @@ items:
   fullName: SuperOffice.Data.SelectionSystemType.TemporaryShortTermStatic
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Temporary static selection, one per user, for short-term operations\n"
   syntax:
@@ -104,14 +107,98 @@ items:
   fullName: SuperOffice.Data.SelectionSystemType.PersonalForFind
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Personal dynamic, for the Find mode in the selection panel\n"
   syntax:
     content: PersonalForFind = 2
+    return:
+      type: SuperOffice.Data.SelectionSystemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.SelectionSystemType.DashboardTileSelection
+  commentId: F:SuperOffice.Data.SelectionSystemType.DashboardTileSelection
+  id: DashboardTileSelection
+  parent: SuperOffice.Data.SelectionSystemType
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileSelection
+  nameWithType: SelectionSystemType.DashboardTileSelection
+  fullName: SuperOffice.Data.SelectionSystemType.DashboardTileSelection
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n3: Selecton is associated with a dashboard tile\n"
+  syntax:
+    content: DashboardTileSelection = 3
+    return:
+      type: SuperOffice.Data.SelectionSystemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.SelectionSystemType.PersonalForDashboard
+  commentId: F:SuperOffice.Data.SelectionSystemType.PersonalForDashboard
+  id: PersonalForDashboard
+  parent: SuperOffice.Data.SelectionSystemType
+  langs:
+  - csharp
+  - vb
+  name: PersonalForDashboard
+  nameWithType: SelectionSystemType.PersonalForDashboard
+  fullName: SuperOffice.Data.SelectionSystemType.PersonalForDashboard
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Personal dynamic, for dashboard tiles\n"
+  syntax:
+    content: PersonalForDashboard = 4
+    return:
+      type: SuperOffice.Data.SelectionSystemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.SelectionSystemType.PersonalForDashboardSecondary
+  commentId: F:SuperOffice.Data.SelectionSystemType.PersonalForDashboardSecondary
+  id: PersonalForDashboardSecondary
+  parent: SuperOffice.Data.SelectionSystemType
+  langs:
+  - csharp
+  - vb
+  name: PersonalForDashboardSecondary
+  nameWithType: SelectionSystemType.PersonalForDashboardSecondary
+  fullName: SuperOffice.Data.SelectionSystemType.PersonalForDashboardSecondary
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n5: Personal dynamic secondary, for dashboard tiles\n"
+  syntax:
+    content: PersonalForDashboardSecondary = 5
     return:
       type: SuperOffice.Data.SelectionSystemType
   modifiers.csharp:

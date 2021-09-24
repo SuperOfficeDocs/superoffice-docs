@@ -11,6 +11,7 @@ items:
   - SuperOffice.Data.BatchTaskState.New
   - SuperOffice.Data.BatchTaskState.Started
   - SuperOffice.Data.BatchTaskState.Succeeded
+  - SuperOffice.Data.BatchTaskState.SucceededManualCleanup
   - SuperOffice.Data.BatchTaskState.Unknown
   langs:
   - csharp
@@ -20,10 +21,10 @@ items:
   fullName: SuperOffice.Data.BatchTaskState
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n\n"
   syntax:
@@ -52,10 +53,10 @@ items:
   fullName: SuperOffice.Data.BatchTaskState.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown state of the task.\n"
   syntax:
@@ -80,10 +81,10 @@ items:
   fullName: SuperOffice.Data.BatchTaskState.New
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: The task is new, but not assigned or run by any party.\n"
   syntax:
@@ -108,10 +109,10 @@ items:
   fullName: SuperOffice.Data.BatchTaskState.Aquired
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: The task has been aquired by an instance that wants to execute the task, but has not been started.\n"
   syntax:
@@ -136,10 +137,10 @@ items:
   fullName: SuperOffice.Data.BatchTaskState.Started
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: The task is executing.\n"
   syntax:
@@ -164,10 +165,10 @@ items:
   fullName: SuperOffice.Data.BatchTaskState.Succeeded
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Executing the task has completed successfully.\n"
   syntax:
@@ -192,14 +193,42 @@ items:
   fullName: SuperOffice.Data.BatchTaskState.Failed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Executing the task has halted and the task failed.   \n"
   syntax:
     content: Failed = 5
+    return:
+      type: SuperOffice.Data.BatchTaskState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.BatchTaskState.SucceededManualCleanup
+  commentId: F:SuperOffice.Data.BatchTaskState.SucceededManualCleanup
+  id: SucceededManualCleanup
+  parent: SuperOffice.Data.BatchTaskState
+  langs:
+  - csharp
+  - vb
+  name: SucceededManualCleanup
+  nameWithType: BatchTaskState.SucceededManualCleanup
+  fullName: SuperOffice.Data.BatchTaskState.SucceededManualCleanup
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n6: Executing the task has completed successfully, and related data will be cleaned up by the responsible code.\n"
+  syntax:
+    content: SucceededManualCleanup = 6
     return:
       type: SuperOffice.Data.BatchTaskState
   modifiers.csharp:
@@ -220,10 +249,10 @@ items:
   fullName: SuperOffice.Data.BatchTaskState.All
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n99999: Special type. \n"
   syntax:

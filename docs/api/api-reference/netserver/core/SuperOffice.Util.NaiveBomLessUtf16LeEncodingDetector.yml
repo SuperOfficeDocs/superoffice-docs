@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Util.NaiveBomLessUtf16LeEncodingDetector
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: 'public class NaiveBomLessUtf16LeEncodingDetector : ITextEncodingDetector'
@@ -60,10 +60,10 @@ items:
   fullName: SuperOffice.Util.NaiveBomLessUtf16LeEncodingDetector.DetectFrom(System.Byte[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public Encoding DetectFrom(byte[] bytes)
@@ -95,10 +95,10 @@ items:
   fullName: SuperOffice.Util.NaiveBomLessUtf16LeEncodingDetector.NaiveBomLessUtf16LeEncodingDetector()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public NaiveBomLessUtf16LeEncodingDetector()

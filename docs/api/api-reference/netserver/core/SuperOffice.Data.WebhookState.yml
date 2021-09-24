@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.WebhookState
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nWebhook status: active, stopped, or tooManyErrors\nThis Enum is used by:  Webhook.state\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.WebhookState.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: 0: Unknown state\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.WebhookState.Active
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: 1: Active - webhook is posting events to receiver\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.WebhookState.Stopped
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: 2: Stopped - webhook has been turned off. Not posting events to receiver.\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.WebhookState.TooManyErrors
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: 3: Too many errors received - webhook has been turned off automatically.\n"
   syntax:

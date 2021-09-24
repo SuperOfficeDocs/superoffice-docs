@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.RequiredDynamicLoad
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nRequired dynamic load:  Add new preference section for NetServer only [RequiredDynamicLoad] name = regexp\n"
   remarks: "\nThis mechanism is more general than [SentryAddonNames] - it applies to all dynamic loaded \nassemblies in NetServer. \nMissing any one these required assemblies will cause NetServer to fail. The regexp is used \nto match against the loaded assemblies full names (including version and strongname). This \nallows a preference to match more than one possible name. Using the full name allows a \npreference to match a strong name, so that it is harder to fake out with a dummy \nreplacement assembly. \n"
@@ -53,10 +53,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.RequiredDynamicLoad.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:

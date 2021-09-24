@@ -77,6 +77,7 @@ items:
   - System.Object.GetType
   - System.Object.MemberwiseClone
   extensionMethods:
+  - SuperOffice.CRM.Archives.UserList.EnumUtil.MapEnums``2
   - System.Collections.Generic.IEnumerable{SuperOffice.CRM.Archives.UserListItem}.IEnumerableExtensions.ForEach``1(System.Action{SuperOffice.CRM.Archives.UserListItem})
   - System.Collections.Generic.IEnumerable{SuperOffice.CRM.Archives.UserListItem}.IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Archives.UserListItem})
   - System.Collections.Generic.IEnumerable{SuperOffice.CRM.Archives.UserListItem}.IEnumerableExtensions.Batch``1(System.Int32)
@@ -85,7 +86,7 @@ items:
   - System.Collections.Generic.IEnumerable{SuperOffice.CRM.Archives.UserListItem}.IEnumerableExtensions.Permute``1(System.Int32)
   - System.Collections.Generic.IEnumerable{SuperOffice.CRM.Archives.UserListItem}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{SuperOffice.CRM.Archives.UserListItem,{K}},System.Func{SuperOffice.CRM.Archives.UserListItem,{V}})
   - System.Collections.Generic.IEnumerable{SuperOffice.CRM.Archives.UserListItem}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{SuperOffice.CRM.Archives.UserListItem,{K}},System.Func{SuperOffice.CRM.Archives.UserListItem,{V}},System.Collections.Generic.IEqualityComparer{{K}})
-  - SuperOffice.CRM.Archives.UserList.EnumUtil.MapEnums``2
+  - System.Collections.Generic.IEnumerable{SuperOffice.CRM.Archives.UserListItem}.IEnumerableExtensions.GetDifferentCombinations``1(System.Int32)
   - System.Collections.Generic.IEnumerable{SuperOffice.CRM.Archives.UserListItem}.SuperOffice.Util.CollectionOps.AtLeastOne``1
   - SuperOffice.CRM.Archives.UserList.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Archives.UserList)
   - SuperOffice.CRM.Archives.UserList.SuperOffice.Util.ObjectExtensions.GraphCopy``1
@@ -1935,6 +1936,40 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Archives.UserList.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<UserList, To>()
+  nameWithType: EnumUtil.MapEnums<UserList, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Archives.UserList, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of UserList, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Archives.UserList, To)()
+  name.vb: MapEnums(Of UserList, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<UserList, To>
+    nameWithType: EnumUtil.MapEnums<UserList, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Archives.UserList, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of UserList, To)
+    nameWithType: EnumUtil.MapEnums(Of UserList, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Archives.UserList, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Archives.UserListItem}.IEnumerableExtensions.ForEach``1(System.Action{SuperOffice.CRM.Archives.UserListItem})
   commentId: M:IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
   parent: IEnumerableExtensions
@@ -2603,37 +2638,47 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Archives.UserList.EnumUtil.MapEnums``2
-  commentId: M:EnumUtil.MapEnums``2(``0)
-  parent: EnumUtil
-  definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<UserList, To>()
-  nameWithType: EnumUtil.MapEnums<UserList, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Archives.UserList, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of UserList, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Archives.UserList, To)()
-  name.vb: MapEnums(Of UserList, To)()
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Archives.UserListItem}.IEnumerableExtensions.GetDifferentCombinations``1(System.Int32)
+  commentId: M:IEnumerableExtensions.GetDifferentCombinations``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.GetDifferentCombinations``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name: GetDifferentCombinations<UserListItem>(Int32)
+  nameWithType: IEnumerableExtensions.GetDifferentCombinations<UserListItem>(Int32)
+  fullName: IEnumerableExtensions.GetDifferentCombinations<SuperOffice.CRM.Archives.UserListItem>(System.Int32)
+  nameWithType.vb: IEnumerableExtensions.GetDifferentCombinations(Of UserListItem)(Int32)
+  fullName.vb: IEnumerableExtensions.GetDifferentCombinations(Of SuperOffice.CRM.Archives.UserListItem)(System.Int32)
+  name.vb: GetDifferentCombinations(Of UserListItem)(Int32)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<UserList, To>
-    nameWithType: EnumUtil.MapEnums<UserList, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Archives.UserList, To>
+  - uid: IEnumerableExtensions.GetDifferentCombinations``1(System.Int32)
+    name: GetDifferentCombinations<UserListItem>
+    nameWithType: IEnumerableExtensions.GetDifferentCombinations<UserListItem>
+    fullName: IEnumerableExtensions.GetDifferentCombinations<SuperOffice.CRM.Archives.UserListItem>
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of UserList, To)
-    nameWithType: EnumUtil.MapEnums(Of UserList, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Archives.UserList, To)
+  - uid: IEnumerableExtensions.GetDifferentCombinations``1(System.Int32)
+    name: GetDifferentCombinations(Of UserListItem)
+    nameWithType: IEnumerableExtensions.GetDifferentCombinations(Of UserListItem)
+    fullName: IEnumerableExtensions.GetDifferentCombinations(Of SuperOffice.CRM.Archives.UserListItem)
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -4184,6 +4229,51 @@ references:
   nameWithType.vb: ListBase(Of TListSelect, TListItem).System.Collections.ICollection.SyncRoot
   fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).System.Collections.ICollection.SyncRoot
   name.vb: System.Collections.ICollection.SyncRoot
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
 - uid: IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
   commentId: M:IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
   isExternal: true
@@ -5090,51 +5180,83 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: EnumUtil.MapEnums``2(``0)
-  commentId: M:EnumUtil.MapEnums``2(``0)
+- uid: IEnumerableExtensions.GetDifferentCombinations``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  commentId: M:IEnumerableExtensions.GetDifferentCombinations``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
   isExternal: true
-  name: MapEnums<From, To>(From)
-  nameWithType: EnumUtil.MapEnums<From, To>(From)
-  fullName: EnumUtil.MapEnums<From, To>(From)
-  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
-  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
+  name: GetDifferentCombinations<T>(IEnumerable<T>, Int32)
+  nameWithType: IEnumerableExtensions.GetDifferentCombinations<T>(IEnumerable<T>, Int32)
+  fullName: IEnumerableExtensions.GetDifferentCombinations<T>(System.Collections.Generic.IEnumerable<T>, System.Int32)
+  nameWithType.vb: IEnumerableExtensions.GetDifferentCombinations(Of T)(IEnumerable(Of T), Int32)
+  fullName.vb: IEnumerableExtensions.GetDifferentCombinations(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Int32)
+  name.vb: GetDifferentCombinations(Of T)(IEnumerable(Of T), Int32)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+  - uid: IEnumerableExtensions.GetDifferentCombinations``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+    name: GetDifferentCombinations<T>
+    nameWithType: IEnumerableExtensions.GetDifferentCombinations<T>
+    fullName: IEnumerableExtensions.GetDifferentCombinations<T>
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - name: From
-    nameWithType: From
-    fullName: From
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+  - uid: IEnumerableExtensions.GetDifferentCombinations``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+    name: GetDifferentCombinations(Of T)
+    nameWithType: IEnumerableExtensions.GetDifferentCombinations(Of T)
+    fullName: IEnumerableExtensions.GetDifferentCombinations(Of T)
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - name: From
-    nameWithType: From
-    fullName: From
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )
-- uid: EnumUtil
-  commentId: T:EnumUtil
-  isExternal: true
-  name: EnumUtil
-  nameWithType: EnumUtil
-  fullName: EnumUtil
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
   commentId: M:SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
   isExternal: true

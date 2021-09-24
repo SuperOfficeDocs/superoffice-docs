@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Data.FormSubmissionStatus
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nWhat is the status of this submission\nThis Enum is used by:  form_submission.status\n"
   syntax:
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.Data.FormSubmissionStatus.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown status\n"
   syntax:
@@ -79,10 +79,10 @@ items:
   fullName: SuperOffice.Data.FormSubmissionStatus.InProgress
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: In progress, the customer has started filling out fields but has not yet submitted\n"
   syntax:
@@ -107,10 +107,10 @@ items:
   fullName: SuperOffice.Data.FormSubmissionStatus.EmailVerification
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: EmailVerification, the customer has submitted but we are waiting for click from sent email\n"
   syntax:
@@ -135,10 +135,10 @@ items:
   fullName: SuperOffice.Data.FormSubmissionStatus.Submitted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Submitted, the form is submitted but has not yet been executed\n"
   syntax:
@@ -163,10 +163,10 @@ items:
   fullName: SuperOffice.Data.FormSubmissionStatus.Processed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Processed, the actions of the form have been executed\n"
   syntax:
@@ -191,10 +191,10 @@ items:
   fullName: SuperOffice.Data.FormSubmissionStatus.Failed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Failed, there was an error when processing the form\n"
   syntax:

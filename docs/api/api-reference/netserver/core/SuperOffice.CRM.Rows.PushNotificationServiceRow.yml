@@ -20,6 +20,7 @@ items:
   - SuperOffice.CRM.Rows.PushNotificationServiceRow._currentRegistered
   - SuperOffice.CRM.Rows.PushNotificationServiceRow._currentRegisteredAssociateId
   - SuperOffice.CRM.Rows.PushNotificationServiceRow._currentTags
+  - SuperOffice.CRM.Rows.PushNotificationServiceRow._currentTimeZoneId
   - SuperOffice.CRM.Rows.PushNotificationServiceRow._currentTotalNotificationCount
   - SuperOffice.CRM.Rows.PushNotificationServiceRow._currentUpdated
   - SuperOffice.CRM.Rows.PushNotificationServiceRow._currentUpdatedAssociateId
@@ -37,6 +38,7 @@ items:
   - SuperOffice.CRM.Rows.PushNotificationServiceRow._onRegisteredAssociateIdChange
   - SuperOffice.CRM.Rows.PushNotificationServiceRow._onRegisteredChange
   - SuperOffice.CRM.Rows.PushNotificationServiceRow._onTagsChange
+  - SuperOffice.CRM.Rows.PushNotificationServiceRow._onTimeZoneIdChange
   - SuperOffice.CRM.Rows.PushNotificationServiceRow._onTotalNotificationCountChange
   - SuperOffice.CRM.Rows.PushNotificationServiceRow._onUpdatedAssociateIdChange
   - SuperOffice.CRM.Rows.PushNotificationServiceRow._onUpdatedChange
@@ -55,6 +57,7 @@ items:
   - SuperOffice.CRM.Rows.PushNotificationServiceRow._persistedRegistered
   - SuperOffice.CRM.Rows.PushNotificationServiceRow._persistedRegisteredAssociateId
   - SuperOffice.CRM.Rows.PushNotificationServiceRow._persistedTags
+  - SuperOffice.CRM.Rows.PushNotificationServiceRow._persistedTimeZoneId
   - SuperOffice.CRM.Rows.PushNotificationServiceRow._persistedTotalNotificationCount
   - SuperOffice.CRM.Rows.PushNotificationServiceRow._persistedUpdated
   - SuperOffice.CRM.Rows.PushNotificationServiceRow._persistedUpdatedAssociateId
@@ -94,6 +97,7 @@ items:
   - SuperOffice.CRM.Rows.PushNotificationServiceRow.OnSave(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.CRM.Rows.PushNotificationServiceRow.OnSaved(System.Boolean)
   - SuperOffice.CRM.Rows.PushNotificationServiceRow.OnTagsChange
+  - SuperOffice.CRM.Rows.PushNotificationServiceRow.OnTimeZoneIdChange
   - SuperOffice.CRM.Rows.PushNotificationServiceRow.OnTotalNotificationCountChange
   - SuperOffice.CRM.Rows.PushNotificationServiceRow.OnUpdatedAssociateIdChange
   - SuperOffice.CRM.Rows.PushNotificationServiceRow.OnUpdatedChange
@@ -112,6 +116,7 @@ items:
   - SuperOffice.CRM.Rows.PushNotificationServiceRow.SetRowAsNew
   - SuperOffice.CRM.Rows.PushNotificationServiceRow.TableInfo
   - SuperOffice.CRM.Rows.PushNotificationServiceRow.Tags
+  - SuperOffice.CRM.Rows.PushNotificationServiceRow.TimeZoneId
   - SuperOffice.CRM.Rows.PushNotificationServiceRow.ToString
   - SuperOffice.CRM.Rows.PushNotificationServiceRow.TotalNotificationCount
   - SuperOffice.CRM.Rows.PushNotificationServiceRow.Updated
@@ -168,6 +173,7 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.CRM.Rows.IdxBase,SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+  - SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
   - SuperOffice.CRM.Rows.TableRowBase.SetSaveOwner(SuperOffice.Data.INestedPersist)
   - SuperOffice.CRM.Rows.TableRowBase.Save
   - SuperOffice.CRM.Rows.TableRowBase.Delete
@@ -717,6 +723,33 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.PushNotificationServiceRow._persistedTimeZoneId
+  commentId: F:SuperOffice.CRM.Rows.PushNotificationServiceRow._persistedTimeZoneId
+  id: _persistedTimeZoneId
+  parent: SuperOffice.CRM.Rows.PushNotificationServiceRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedTimeZoneId
+  nameWithType: PushNotificationServiceRow._persistedTimeZoneId
+  fullName: SuperOffice.CRM.Rows.PushNotificationServiceRow._persistedTimeZoneId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.PushNotificationServiceRow.TimeZoneId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _persistedTimeZoneId
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedTimeZoneId As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRow._currentPushNotificationServiceId
   commentId: F:SuperOffice.CRM.Rows.PushNotificationServiceRow._currentPushNotificationServiceId
   id: _currentPushNotificationServiceId
@@ -1199,6 +1232,33 @@ items:
     return:
       type: System.String
     content.vb: Protected _currentOSVersion As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.PushNotificationServiceRow._currentTimeZoneId
+  commentId: F:SuperOffice.CRM.Rows.PushNotificationServiceRow._currentTimeZoneId
+  id: _currentTimeZoneId
+  parent: SuperOffice.CRM.Rows.PushNotificationServiceRow
+  langs:
+  - csharp
+  - vb
+  name: _currentTimeZoneId
+  nameWithType: PushNotificationServiceRow._currentTimeZoneId
+  fullName: SuperOffice.CRM.Rows.PushNotificationServiceRow._currentTimeZoneId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.PushNotificationServiceRow.TimeZoneId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _currentTimeZoneId
+    return:
+      type: System.Int32
+    content.vb: Protected _currentTimeZoneId As Integer
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -2667,6 +2727,40 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Rows.PushNotificationServiceRow.TimeZoneId
+  commentId: P:SuperOffice.CRM.Rows.PushNotificationServiceRow.TimeZoneId
+  id: TimeZoneId
+  parent: SuperOffice.CRM.Rows.PushNotificationServiceRow
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneId
+  nameWithType: PushNotificationServiceRow.TimeZoneId
+  fullName: SuperOffice.CRM.Rows.PushNotificationServiceRow.TimeZoneId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: int. The timezone to show for dates in messages \n"
+  remarks: "\nOriginal type in dictionary:  Int.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual int TimeZoneId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TimeZoneId As Integer
+  overload: SuperOffice.CRM.Rows.PushNotificationServiceRow.TimeZoneId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRow._onAssociateIdChange
   commentId: E:SuperOffice.CRM.Rows.PushNotificationServiceRow._onAssociateIdChange
   id: _onAssociateIdChange
@@ -3126,6 +3220,33 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.PushNotificationServiceRow._onTimeZoneIdChange
+  commentId: E:SuperOffice.CRM.Rows.PushNotificationServiceRow._onTimeZoneIdChange
+  id: _onTimeZoneIdChange
+  parent: SuperOffice.CRM.Rows.PushNotificationServiceRow
+  langs:
+  - csharp
+  - vb
+  name: _onTimeZoneIdChange
+  nameWithType: PushNotificationServiceRow._onTimeZoneIdChange
+  fullName: SuperOffice.CRM.Rows.PushNotificationServiceRow._onTimeZoneIdChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.PushNotificationServiceRow.TimeZoneId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
+  syntax:
+    content: protected event OnFieldChange<int> _onTimeZoneIdChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Event _onTimeZoneIdChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.PushNotificationServiceRow.OnAssociateIdChange
   commentId: E:SuperOffice.CRM.Rows.PushNotificationServiceRow.OnAssociateIdChange
   id: OnAssociateIdChange
@@ -3581,6 +3702,33 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
     content.vb: Public Event OnOSVersionChange As OnFieldChange(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PushNotificationServiceRow.OnTimeZoneIdChange
+  commentId: E:SuperOffice.CRM.Rows.PushNotificationServiceRow.OnTimeZoneIdChange
+  id: OnTimeZoneIdChange
+  parent: SuperOffice.CRM.Rows.PushNotificationServiceRow
+  langs:
+  - csharp
+  - vb
+  name: OnTimeZoneIdChange
+  nameWithType: PushNotificationServiceRow.OnTimeZoneIdChange
+  fullName: SuperOffice.CRM.Rows.PushNotificationServiceRow.OnTimeZoneIdChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when TimeZoneId is changing.\n"
+  syntax:
+    content: public event OnFieldChange<int> OnTimeZoneIdChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Event OnTimeZoneIdChange As OnFieldChange(Of Integer)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -4251,6 +4399,63 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: SetDefaults(DashboardTileDefinitionRow, String)
+  nameWithType: TableRowBase.SetDefaults(DashboardTileDefinitionRow, String)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -7214,6 +7419,12 @@ references:
   name: OSVersion
   nameWithType: PushNotificationServiceRow.OSVersion
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRow.OSVersion
+- uid: SuperOffice.CRM.Rows.PushNotificationServiceRow.TimeZoneId*
+  commentId: Overload:SuperOffice.CRM.Rows.PushNotificationServiceRow.TimeZoneId
+  isExternal: true
+  name: TimeZoneId
+  nameWithType: PushNotificationServiceRow.TimeZoneId
+  fullName: SuperOffice.CRM.Rows.PushNotificationServiceRow.TimeZoneId
 - uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   parent: SuperOffice.CRM.Rows

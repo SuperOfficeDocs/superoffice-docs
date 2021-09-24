@@ -1,0 +1,833 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply
+  commentId: T:SuperOffice.Util.AccessGateway.AccessGatewayTokenReply
+  id: AccessGateway.AccessGatewayTokenReply
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.#ctor
+  - SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.access_token
+  - SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.expires_in
+  - SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.token_type
+  langs:
+  - csharp
+  - vb
+  name: AccessGateway.AccessGatewayTokenReply
+  nameWithType: AccessGateway.AccessGatewayTokenReply
+  fullName: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public class AccessGatewayTokenReply
+    content.vb: Public Class AccessGatewayTokenReply
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.EnumUtil.MapEnums``2
+  - SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.AccessGateway.AccessGatewayTokenReply)
+  - SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.#ctor
+  commentId: M:SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply
+  langs:
+  - csharp
+  - vb
+  name: AccessGatewayTokenReply()
+  nameWithType: AccessGateway.AccessGatewayTokenReply.AccessGatewayTokenReply()
+  fullName: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.AccessGatewayTokenReply()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public AccessGatewayTokenReply()
+    content.vb: Public Sub New
+  overload: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.access_token
+  commentId: P:SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.access_token
+  id: access_token
+  parent: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply
+  langs:
+  - csharp
+  - vb
+  name: access_token
+  nameWithType: AccessGateway.AccessGatewayTokenReply.access_token
+  fullName: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.access_token
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string access_token { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property access_token As String
+  overload: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.access_token*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.expires_in
+  commentId: P:SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.expires_in
+  id: expires_in
+  parent: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply
+  langs:
+  - csharp
+  - vb
+  name: expires_in
+  nameWithType: AccessGateway.AccessGatewayTokenReply.expires_in
+  fullName: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.expires_in
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string expires_in { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property expires_in As String
+  overload: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.expires_in*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.token_type
+  commentId: P:SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.token_type
+  id: token_type
+  parent: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply
+  langs:
+  - csharp
+  - vb
+  name: token_type
+  nameWithType: AccessGateway.AccessGatewayTokenReply.token_type
+  fullName: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.token_type
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string token_type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property token_type As String
+  overload: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.token_type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<AccessGateway.AccessGatewayTokenReply, To>()
+  nameWithType: EnumUtil.MapEnums<AccessGateway.AccessGatewayTokenReply, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.AccessGateway.AccessGatewayTokenReply, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AccessGateway.AccessGatewayTokenReply, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.AccessGateway.AccessGatewayTokenReply, To)()
+  name.vb: MapEnums(Of AccessGateway.AccessGatewayTokenReply, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AccessGateway.AccessGatewayTokenReply, To>
+    nameWithType: EnumUtil.MapEnums<AccessGateway.AccessGatewayTokenReply, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.AccessGateway.AccessGatewayTokenReply, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AccessGateway.AccessGatewayTokenReply, To)
+    nameWithType: EnumUtil.MapEnums(Of AccessGateway.AccessGatewayTokenReply, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.AccessGateway.AccessGatewayTokenReply, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.AccessGateway.AccessGatewayTokenReply)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<AccessGateway.AccessGatewayTokenReply>(AccessGateway.AccessGatewayTokenReply)
+  nameWithType: ObjectExtensions.AssignByReflection<AccessGateway.AccessGatewayTokenReply>(AccessGateway.AccessGatewayTokenReply)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.AccessGateway.AccessGatewayTokenReply>(SuperOffice.Util.AccessGateway.AccessGatewayTokenReply)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AccessGateway.AccessGatewayTokenReply)(AccessGateway.AccessGatewayTokenReply)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.AccessGateway.AccessGatewayTokenReply)(SuperOffice.Util.AccessGateway.AccessGatewayTokenReply)
+  name.vb: AssignByReflection(Of AccessGateway.AccessGatewayTokenReply)(AccessGateway.AccessGatewayTokenReply)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<AccessGateway.AccessGatewayTokenReply>
+    nameWithType: ObjectExtensions.AssignByReflection<AccessGateway.AccessGatewayTokenReply>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.AccessGateway.AccessGatewayTokenReply>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply
+    name: AccessGateway.AccessGatewayTokenReply
+    nameWithType: AccessGateway.AccessGatewayTokenReply
+    fullName: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of AccessGateway.AccessGatewayTokenReply)
+    nameWithType: ObjectExtensions.AssignByReflection(Of AccessGateway.AccessGatewayTokenReply)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.AccessGateway.AccessGatewayTokenReply)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply
+    name: AccessGateway.AccessGatewayTokenReply
+    nameWithType: AccessGateway.AccessGatewayTokenReply
+    fullName: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<AccessGateway.AccessGatewayTokenReply>()
+  nameWithType: ObjectExtensions.GraphCopy<AccessGateway.AccessGatewayTokenReply>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.AccessGateway.AccessGatewayTokenReply>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of AccessGateway.AccessGatewayTokenReply)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.AccessGateway.AccessGatewayTokenReply)()
+  name.vb: GraphCopy(Of AccessGateway.AccessGatewayTokenReply)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<AccessGateway.AccessGatewayTokenReply>
+    nameWithType: ObjectExtensions.GraphCopy<AccessGateway.AccessGatewayTokenReply>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.AccessGateway.AccessGatewayTokenReply>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of AccessGateway.AccessGatewayTokenReply)
+    nameWithType: ObjectExtensions.GraphCopy(Of AccessGateway.AccessGatewayTokenReply)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.AccessGateway.AccessGatewayTokenReply)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<AccessGateway.AccessGatewayTokenReply, To>()
+  nameWithType: Converters.MapEnums<AccessGateway.AccessGatewayTokenReply, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.AccessGateway.AccessGatewayTokenReply, To>()
+  nameWithType.vb: Converters.MapEnums(Of AccessGateway.AccessGatewayTokenReply, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.AccessGateway.AccessGatewayTokenReply, To)()
+  name.vb: MapEnums(Of AccessGateway.AccessGatewayTokenReply, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AccessGateway.AccessGatewayTokenReply, To>
+    nameWithType: Converters.MapEnums<AccessGateway.AccessGatewayTokenReply, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.AccessGateway.AccessGatewayTokenReply, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AccessGateway.AccessGatewayTokenReply, To)
+    nameWithType: Converters.MapEnums(Of AccessGateway.AccessGatewayTokenReply, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.AccessGateway.AccessGatewayTokenReply, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.#ctor*
+  commentId: Overload:SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.#ctor
+  isExternal: true
+  name: AccessGatewayTokenReply
+  nameWithType: AccessGateway.AccessGatewayTokenReply.AccessGatewayTokenReply
+  fullName: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.AccessGatewayTokenReply
+- uid: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.access_token*
+  commentId: Overload:SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.access_token
+  isExternal: true
+  name: access_token
+  nameWithType: AccessGateway.AccessGatewayTokenReply.access_token
+  fullName: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.access_token
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.expires_in*
+  commentId: Overload:SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.expires_in
+  isExternal: true
+  name: expires_in
+  nameWithType: AccessGateway.AccessGatewayTokenReply.expires_in
+  fullName: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.expires_in
+- uid: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.token_type*
+  commentId: Overload:SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.token_type
+  isExternal: true
+  name: token_type
+  nameWithType: AccessGateway.AccessGatewayTokenReply.token_type
+  fullName: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply.token_type

@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.QuickLaunchBar
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreference keys for QuickLaunchBar settings\n"
   syntax:
@@ -53,10 +53,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.QuickLaunchBar.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.QuickLaunchBar.QuickLaunchButtons
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSemi colon separated list of soprotocol names that will be mapped to button with the correct icon\n"
   syntax:

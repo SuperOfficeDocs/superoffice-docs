@@ -34,10 +34,10 @@ items:
   fullName: SuperOffice.Util.DateUtility
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static class DateUtility
@@ -71,10 +71,10 @@ items:
   fullName: SuperOffice.Util.DateUtility.Round(System.DateTime, System.Int32, SuperOffice.Data.RoundDirection)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static DateTime Round(DateTime dateTime, int minutes, RoundDirection direction)
@@ -108,10 +108,10 @@ items:
   fullName: SuperOffice.Util.DateUtility.AddReporterYears(System.DateTime, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdds the required amount of years, then subtracts a second.\n"
   syntax:
@@ -147,10 +147,10 @@ items:
   fullName: SuperOffice.Util.DateUtility.AddReporterYear(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdds a year, then subtracts a second.\n"
   syntax:
@@ -184,10 +184,10 @@ items:
   fullName: SuperOffice.Util.DateUtility.AddReporterHalfYears(System.DateTime, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdds the required amount of half years, then subtracts a second.\n"
   syntax:
@@ -223,10 +223,10 @@ items:
   fullName: SuperOffice.Util.DateUtility.AddReporterQuarters(System.DateTime, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdds the required amount of quarters of a year, then subtracts a second.\n"
   syntax:
@@ -262,10 +262,10 @@ items:
   fullName: SuperOffice.Util.DateUtility.AddReporterQuarter(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdds a quarter of a year, then subtracts a second.\n"
   syntax:
@@ -299,10 +299,10 @@ items:
   fullName: SuperOffice.Util.DateUtility.AddReporterMonths(System.DateTime, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdds the required amount of months, then subtracts a second.\n"
   syntax:
@@ -338,10 +338,10 @@ items:
   fullName: SuperOffice.Util.DateUtility.AddReporterMonth(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdds a month, then subtracts a second.\n"
   syntax:
@@ -375,10 +375,10 @@ items:
   fullName: SuperOffice.Util.DateUtility.AddReporterWeeks(System.DateTime, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdds the required number of weeks, then subtracts a second.\n"
   syntax:
@@ -414,10 +414,10 @@ items:
   fullName: SuperOffice.Util.DateUtility.AddReporterWeek(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdds a week, then subtracts a second.\n"
   syntax:
@@ -451,10 +451,10 @@ items:
   fullName: SuperOffice.Util.DateUtility.CalculateEndDate(System.DateTime, System.Int32, SuperOffice.Data.DurationUnit)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdds the amount of days/months depending on the DurationUnit specified.\n"
   syntax:
@@ -491,10 +491,10 @@ items:
   fullName: SuperOffice.Util.DateUtility.CalculateEndDate(System.Int32, SuperOffice.Data.DurationUnit)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdds the amount of days/months depending on the DurationUnit specified to the current datetime.\n"
   syntax:
@@ -527,10 +527,10 @@ items:
   fullName: SuperOffice.Util.DateUtility.GetFirstInMonth(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static DateTime GetFirstInMonth(this DateTime date)
@@ -563,10 +563,10 @@ items:
   fullName: SuperOffice.Util.DateUtility.SetToEndOfDay(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nCopies <code data-dev-comment-type=\"paramref\" class=\"paramref\">date</code> and sets the time component to be 23:59:59.\n"
   syntax:
@@ -601,10 +601,10 @@ items:
   fullName: SuperOffice.Util.DateUtility.GetStartOfQuarter(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGets the start of the quarter that the input date is within.\n"
   syntax:
@@ -639,10 +639,10 @@ items:
   fullName: SuperOffice.Util.DateUtility.GetWeekStartDelta(System.DateTime, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nCalculate how many days we need to go back from given date to get to the start-of-week day.\nThis is sunday or monday depending on preference. In .NET, dow 0 is sunday.\n"
   syntax:
@@ -679,10 +679,10 @@ items:
   fullName: SuperOffice.Util.DateUtility.GetStartOfWeek(System.DateTime, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGets the start of the week of the input date.\n"
   syntax:
@@ -718,10 +718,10 @@ items:
   fullName: SuperOffice.Util.DateUtility.GetStartOfMonth(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGets the start of the month of the input date.\n"
   syntax:
@@ -755,10 +755,10 @@ items:
   fullName: SuperOffice.Util.DateUtility.GetStartOfHalfYear(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGets the start of the half year of the input date.\n"
   syntax:
@@ -792,10 +792,10 @@ items:
   fullName: SuperOffice.Util.DateUtility.GetStartOfYear(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGets the start of the year of the input date.\n"
   syntax:
@@ -829,10 +829,10 @@ items:
   fullName: SuperOffice.Util.DateUtility.DropFractionsOfSecond(System.DateTime, System.Nullable<System.DateTimeKind>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn a DateTime that is the same as the <strong>input</strong> parameter, but eliminate all sub-second parts by truncating them. This is how \nwe store datetimes in the database, and should generally be done to avoid meaningless inequalities.\n"
   syntax:

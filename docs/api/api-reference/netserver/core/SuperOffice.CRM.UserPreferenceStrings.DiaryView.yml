@@ -28,10 +28,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDiary\n"
   syntax:
@@ -66,10 +66,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:
@@ -95,10 +95,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.AllDayEndTime
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nEnd time for an all-day appointment\n<p></p>Control type: Date, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -124,10 +124,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.AllDayStartTime
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nStart time for an all-day appointment\n<p></p>Control type: Date, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -153,10 +153,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.DefaultAlarmTime
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault number of minutes before a follow-up alarm is triggered\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -182,10 +182,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryStartTime
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSpecifies the time your calendar starts in the morning. Use a number to indicate the whole hour. Default = 8, meaning that your calendar will start at 08:00\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -211,10 +211,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryViewAssociates
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nA comma-separated list of the associates and resources to display in the group view\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
@@ -240,10 +240,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryViewNumAssociates
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nNumber of columns to display in the group view\n<p></p>Control type: Number, access: Wizard\n"
   syntax:
@@ -269,10 +269,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryViewSubList
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreference used to remember the setup/state of the Filter dialog\n<p></p>Control type: Number, access: Wizard\n"
   syntax:
@@ -298,10 +298,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryViewShowUserGroup
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreference used to remember the current diary view\n<p></p>Control type: Text\n"
   syntax:
@@ -327,10 +327,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.LunchEndTime
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nEnd time for your lunch-break\n<p></p>Control type: Date, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -356,10 +356,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.LunchStartTime
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nStart time for your lunch-break\n<p></p>Control type: Date, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -385,10 +385,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.SecretaryMode
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nKeeps the current diary owner in all panels (Default = No)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -414,10 +414,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.SilentAfter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nThe alarm can be silenced after a given number of minutes to avoid unnecessary office disruption when you are away.\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -443,10 +443,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.ExtendFindAvailable
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nExtended possibility to find available time (i.e. lunch meeting, dinner...)\n"
   syntax:
@@ -472,10 +472,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.SundayFirstDay
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDisplay Sunday as the first day of the week in the calendar and diary. (Default = NO, meaning that Monday will be used as the first day of the week.)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
   syntax:

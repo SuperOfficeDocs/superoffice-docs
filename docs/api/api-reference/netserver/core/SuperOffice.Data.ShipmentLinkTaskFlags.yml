@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.ShipmentLinkTaskFlags
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nFlags that control how the task is created\nThis Enum is used by:  s_link.task_flags\nThis Enum consists of flag values that can be combined.\n"
   syntax:
@@ -59,10 +59,10 @@ items:
   fullName: SuperOffice.Data.ShipmentLinkTaskFlags.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: No special options, values taken from other fields\n"
   syntax:
@@ -87,10 +87,10 @@ items:
   fullName: SuperOffice.Data.ShipmentLinkTaskFlags.AssignToOurContact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Assign task to contact owner\n"
   syntax:
@@ -115,10 +115,10 @@ items:
   fullName: SuperOffice.Data.ShipmentLinkTaskFlags.UseNextAvailableTime
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Use the soonest-available working time slot (after the task-creation evcent is triggered)\n"
   syntax:
@@ -143,10 +143,10 @@ items:
   fullName: SuperOffice.Data.ShipmentLinkTaskFlags.IsAssignment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Create as an assignment (shown in Invitation dialog)\n"
   syntax:

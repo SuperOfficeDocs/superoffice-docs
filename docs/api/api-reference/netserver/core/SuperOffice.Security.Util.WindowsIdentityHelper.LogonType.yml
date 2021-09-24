@@ -20,10 +20,10 @@ items:
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nLogon type used with LogonUser.\n"
   syntax:
@@ -52,10 +52,10 @@ items:
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.Interactive
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nThis logon type is intended for users who will be interactively using the machine, such as a user being logged on by a terminal server, remote shell, or similar process. This logon type has the additional expense of caching logon information for disconnected operation, and is therefore inappropriate for some client/server applications, such as a mail server.\n"
   syntax:
@@ -80,10 +80,10 @@ items:
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.Network
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nThis logon type is intended for high performance servers to authenticate clear text passwords. LogonUser does not cache credentials for this logon type. \n"
   syntax:
@@ -108,10 +108,10 @@ items:
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.Batch
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nThis logon type is intended for batch servers, where processes may be executing on behalf of a user without their direct intervention; or for higher performance servers that process many clear-text authentication attempts at a time, such as mail or web servers. LogonUser does not cache credentials for this logon type.\n"
   syntax:
@@ -136,10 +136,10 @@ items:
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.Service
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nIndicates a service-type logon. The account provided must have the service privilege enabled.\n"
   syntax:
@@ -164,10 +164,10 @@ items:
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.Unlock
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nThis logon type is intended for GINA DLLs logging on users who will be interactively using the machine. This logon type allows a unique audit record to be generated that shows when the workstation was unlocked. \n"
   syntax:
@@ -192,10 +192,10 @@ items:
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.NetworkCleartext
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nWindows 2000/XP: This logon type preserves the name and password in the authentication packages, allowing the server to make connections to other network servers while impersonating the client. This allows a server to accept clear text credentials from a client, call LogonUser, verify that the user can access the system across the network, and still communicate with other servers. \n"
   syntax:
@@ -220,10 +220,10 @@ items:
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.NewCredentials
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nWindows 2000/XP: This logon type allows the caller to clone its current token and specify new credentials for outbound connections. The new logon session has the same local identify, but uses different credentials for other network connections. This logon type is supported only by the LOGON32_PROVIDER_WINNT50 logon provider. \n"
   syntax:

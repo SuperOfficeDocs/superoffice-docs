@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Util.ImportDefaults
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public class ImportDefaults
@@ -56,10 +56,10 @@ items:
   fullName: SuperOffice.Util.ImportDefaults.GetImportDefault(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static int GetImportDefault(string prefKey)
@@ -88,10 +88,10 @@ items:
   fullName: SuperOffice.Util.ImportDefaults.ImportDefaults()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public ImportDefaults()

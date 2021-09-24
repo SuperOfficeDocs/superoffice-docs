@@ -21,6 +21,7 @@ items:
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableProjectFields
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableSaleFields
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableSelectionFields
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableTicketFields
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetExtraInfo(System.String,System.String)
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetFieldsFromStorage(System.String,System.String)
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultLastRun(System.String)
@@ -33,6 +34,7 @@ items:
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.HasJobResultStorageItems
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.IsTableSupported(System.String)
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfo(System.String[])
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfoOrThrow(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaveFieldsToStorage(System.String,System.String,SuperOffice.CRM.BulkUpdate.FieldValueInfo[])
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.sBulkUpdateJob
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.Serialize(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorage)
@@ -123,18 +125,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string WithListSuffix
+    content: public const string WithListSuffix = "WithList"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly WithListSuffix As String
+    content.vb: Public Const WithListSuffix As String = "WithList"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.sBulkUpdateJob
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.sBulkUpdateJob
   id: sBulkUpdateJob
@@ -153,18 +153,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string sBulkUpdateJob
+    content: public const string sBulkUpdateJob = "BulkUpdateJob"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly sBulkUpdateJob As String
+    content.vb: Public Const sBulkUpdateJob As String = "BulkUpdateJob"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.IsTableSupported(System.String)
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.IsTableSupported(System.String)
   id: IsTableSupported(System.String)
@@ -338,6 +336,38 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfo(System.String())
   name.vb: ParseEncodedActivityLinkJobInfo(String())
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfoOrThrow(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
+  commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfoOrThrow(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
+  id: ParseEncodedActivityLinkJobInfoOrThrow(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
+  langs:
+  - csharp
+  - vb
+  name: ParseEncodedActivityLinkJobInfoOrThrow(FieldValueInfo)
+  nameWithType: BulkUpdateSystem.ParseEncodedActivityLinkJobInfoOrThrow(FieldValueInfo)
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfoOrThrow(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static ActivityLinkJobInfo ParseEncodedActivityLinkJobInfoOrThrow(FieldValueInfo i_FieldValueInfo)
+    parameters:
+    - id: i_FieldValueInfo
+      type: SuperOffice.CRM.BulkUpdate.FieldValueInfo
+    return:
+      type: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo
+    content.vb: Public Shared Function ParseEncodedActivityLinkJobInfoOrThrow(i_FieldValueInfo As FieldValueInfo) As ActivityLinkJobInfo
+  overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfoOrThrow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetSearchOptions
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetSearchOptions
   id: GetSearchOptions
@@ -1076,6 +1106,35 @@ items:
       type: SuperOffice.CRM.BulkUpdate.FieldValueInfo[]
     content.vb: Public Shared Function GetAvailableSelectionFields As FieldValueInfo()
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableSelectionFields*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableTicketFields
+  commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableTicketFields
+  id: GetAvailableTicketFields
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
+  langs:
+  - csharp
+  - vb
+  name: GetAvailableTicketFields()
+  nameWithType: BulkUpdateSystem.GetAvailableTicketFields()
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableTicketFields()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static FieldValueInfo[] GetAvailableTicketFields()
+    return:
+      type: SuperOffice.CRM.BulkUpdate.FieldValueInfo[]
+    content.vb: Public Shared Function GetAvailableTicketFields As FieldValueInfo()
+  overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableTicketFields*
   modifiers.csharp:
   - public
   - static
@@ -1931,6 +1990,19 @@ references:
   name: ParseEncodedActivityLinkJobInfo
   nameWithType: BulkUpdateSystem.ParseEncodedActivityLinkJobInfo
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfo
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfoOrThrow*
+  commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfoOrThrow
+  isExternal: true
+  name: ParseEncodedActivityLinkJobInfoOrThrow
+  nameWithType: BulkUpdateSystem.ParseEncodedActivityLinkJobInfoOrThrow
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfoOrThrow
+- uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo
+  commentId: T:SuperOffice.CRM.BulkUpdate.FieldValueInfo
+  parent: SuperOffice.CRM.BulkUpdate
+  isExternal: true
+  name: FieldValueInfo
+  nameWithType: FieldValueInfo
+  fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetSearchOptions*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetSearchOptions
   isExternal: true
@@ -2213,6 +2285,12 @@ references:
   name: GetAvailableSelectionFields
   nameWithType: BulkUpdateSystem.GetAvailableSelectionFields
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableSelectionFields
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableTicketFields*
+  commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableTicketFields
+  isExternal: true
+  name: GetAvailableTicketFields
+  nameWithType: BulkUpdateSystem.GetAvailableTicketFields
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableTicketFields
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.#ctor*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.#ctor
   isExternal: true

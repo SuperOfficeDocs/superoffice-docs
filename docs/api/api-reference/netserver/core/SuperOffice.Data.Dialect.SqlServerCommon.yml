@@ -10,6 +10,7 @@ items:
   - SuperOffice.Data.Dialect.SqlServerCommon.DateToVarchar(System.String)
   - SuperOffice.Data.Dialect.SqlServerCommon.DefaultConnectionString
   - SuperOffice.Data.Dialect.SqlServerCommon.GetDefaultTransaction(SuperOffice.Data.SoConnection,SuperOffice.Data.SQL.SqlCommand)
+  - SuperOffice.Data.Dialect.SqlServerCommon.GetOrderbyCollationHint
   - SuperOffice.Data.Dialect.SqlServerCommon.HasAliasOnDelete
   - SuperOffice.Data.Dialect.SqlServerCommon.HasAliasOnInsert
   - SuperOffice.Data.Dialect.SqlServerCommon.HasAliasOnUpdate
@@ -66,10 +67,13 @@ items:
   - SuperOffice.Data.Dialect.Dialect._soSchemaTable
   - SuperOffice.Data.Dialect.Dialect._returnArguments
   - SuperOffice.Data.Dialect.Dialect._usedAliases
+  - SuperOffice.Data.Dialect.Dialect._filterCallbacks
   - SuperOffice.Data.Dialect.Dialect._cmd
+  - SuperOffice.Data.Dialect.Dialect._stringFieldsInOrderByWithDistinct
   - SuperOffice.Data.Dialect.Dialect.SoParameterCollection
   - SuperOffice.Data.Dialect.Dialect.CheckForDuplicateRow(System.Data.IDataReader)
   - SuperOffice.Data.Dialect.Dialect.CheckForDistinct(SuperOffice.Data.SQL.PrivateSelect)
+  - SuperOffice.Data.Dialect.Dialect.ShouldRowBeSkipped(System.Data.IDataReader)
   - SuperOffice.Data.Dialect.Dialect.IsTableReferencedInSelect(SuperOffice.Data.Dictionary.SoTable)
   - SuperOffice.Data.Dialect.Dialect.GetUpdatedSchemaTable(System.Data.DataTable)
   - SuperOffice.Data.Dialect.Dialect.GenerateCaseInsensitivity(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Parameter,System.String)
@@ -191,6 +195,37 @@ items:
   modifiers.vb:
   - Public
   - Class
+- uid: SuperOffice.Data.Dialect.SqlServerCommon.GetOrderbyCollationHint
+  commentId: M:SuperOffice.Data.Dialect.SqlServerCommon.GetOrderbyCollationHint
+  id: GetOrderbyCollationHint
+  parent: SuperOffice.Data.Dialect.SqlServerCommon
+  langs:
+  - csharp
+  - vb
+  name: GetOrderbyCollationHint()
+  nameWithType: SqlServerCommon.GetOrderbyCollationHint()
+  fullName: SuperOffice.Data.Dialect.SqlServerCommon.GetOrderbyCollationHint()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nTranslate the current thread culture into an Sql Server collation hint\n"
+  syntax:
+    content: protected override string GetOrderbyCollationHint()
+    return:
+      type: System.String
+    content.vb: Protected Overrides Function GetOrderbyCollationHint As String
+  overridden: SuperOffice.Data.Dialect.Dialect.GetOrderbyCollationHint
+  overload: SuperOffice.Data.Dialect.SqlServerCommon.GetOrderbyCollationHint*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.Data.Dialect.SqlServerCommon.ComposeSelect(System.String,System.String,System.String,System.String,System.Text.StringBuilder,SuperOffice.Data.SQL.PrivateSelect)
   commentId: M:SuperOffice.Data.Dialect.SqlServerCommon.ComposeSelect(System.String,System.String,System.String,System.String,System.Text.StringBuilder,SuperOffice.Data.SQL.PrivateSelect)
   id: ComposeSelect(System.String,System.String,System.String,System.String,System.Text.StringBuilder,SuperOffice.Data.SQL.PrivateSelect)
@@ -1345,6 +1380,13 @@ references:
   name: _usedAliases
   nameWithType: Dialect._usedAliases
   fullName: SuperOffice.Data.Dialect.Dialect._usedAliases
+- uid: SuperOffice.Data.Dialect.Dialect._filterCallbacks
+  commentId: F:SuperOffice.Data.Dialect.Dialect._filterCallbacks
+  parent: SuperOffice.Data.Dialect.Dialect
+  isExternal: true
+  name: _filterCallbacks
+  nameWithType: Dialect._filterCallbacks
+  fullName: SuperOffice.Data.Dialect.Dialect._filterCallbacks
 - uid: SuperOffice.Data.Dialect.Dialect._cmd
   commentId: F:SuperOffice.Data.Dialect.Dialect._cmd
   parent: SuperOffice.Data.Dialect.Dialect
@@ -1352,6 +1394,13 @@ references:
   name: _cmd
   nameWithType: Dialect._cmd
   fullName: SuperOffice.Data.Dialect.Dialect._cmd
+- uid: SuperOffice.Data.Dialect.Dialect._stringFieldsInOrderByWithDistinct
+  commentId: F:SuperOffice.Data.Dialect.Dialect._stringFieldsInOrderByWithDistinct
+  parent: SuperOffice.Data.Dialect.Dialect
+  isExternal: true
+  name: _stringFieldsInOrderByWithDistinct
+  nameWithType: Dialect._stringFieldsInOrderByWithDistinct
+  fullName: SuperOffice.Data.Dialect.Dialect._stringFieldsInOrderByWithDistinct
 - uid: SuperOffice.Data.Dialect.Dialect.SoParameterCollection
   commentId: F:SuperOffice.Data.Dialect.Dialect.SoParameterCollection
   parent: SuperOffice.Data.Dialect.Dialect
@@ -1437,6 +1486,47 @@ references:
     name: PrivateSelect
     nameWithType: PrivateSelect
     fullName: SuperOffice.Data.SQL.PrivateSelect
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dialect.Dialect.ShouldRowBeSkipped(System.Data.IDataReader)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.ShouldRowBeSkipped(System.Data.IDataReader)
+  parent: SuperOffice.Data.Dialect.Dialect
+  isExternal: true
+  name: ShouldRowBeSkipped(IDataReader)
+  nameWithType: Dialect.ShouldRowBeSkipped(IDataReader)
+  fullName: SuperOffice.Data.Dialect.Dialect.ShouldRowBeSkipped(System.Data.IDataReader)
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.Dialect.ShouldRowBeSkipped(System.Data.IDataReader)
+    name: ShouldRowBeSkipped
+    nameWithType: Dialect.ShouldRowBeSkipped
+    fullName: SuperOffice.Data.Dialect.Dialect.ShouldRowBeSkipped
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.IDataReader
+    name: IDataReader
+    nameWithType: IDataReader
+    fullName: System.Data.IDataReader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.Dialect.ShouldRowBeSkipped(System.Data.IDataReader)
+    name: ShouldRowBeSkipped
+    nameWithType: Dialect.ShouldRowBeSkipped
+    fullName: SuperOffice.Data.Dialect.Dialect.ShouldRowBeSkipped
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.IDataReader
+    name: IDataReader
+    nameWithType: IDataReader
+    fullName: System.Data.IDataReader
     isExternal: true
   - name: )
     nameWithType: )
@@ -6930,6 +7020,50 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.Dialect.Dialect.GetOrderbyCollationHint
+  commentId: M:SuperOffice.Data.Dialect.Dialect.GetOrderbyCollationHint
+  parent: SuperOffice.Data.Dialect.Dialect
+  isExternal: true
+  name: GetOrderbyCollationHint()
+  nameWithType: Dialect.GetOrderbyCollationHint()
+  fullName: SuperOffice.Data.Dialect.Dialect.GetOrderbyCollationHint()
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.Dialect.GetOrderbyCollationHint
+    name: GetOrderbyCollationHint
+    nameWithType: Dialect.GetOrderbyCollationHint
+    fullName: SuperOffice.Data.Dialect.Dialect.GetOrderbyCollationHint
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.Dialect.GetOrderbyCollationHint
+    name: GetOrderbyCollationHint
+    nameWithType: Dialect.GetOrderbyCollationHint
+    fullName: SuperOffice.Data.Dialect.Dialect.GetOrderbyCollationHint
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dialect.SqlServerCommon.GetOrderbyCollationHint*
+  commentId: Overload:SuperOffice.Data.Dialect.SqlServerCommon.GetOrderbyCollationHint
+  isExternal: true
+  name: GetOrderbyCollationHint
+  nameWithType: SqlServerCommon.GetOrderbyCollationHint
+  fullName: SuperOffice.Data.Dialect.SqlServerCommon.GetOrderbyCollationHint
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Data.Dialect.Dialect.ComposeSelect(System.String,System.String,System.String,System.String,System.Text.StringBuilder,SuperOffice.Data.SQL.PrivateSelect)
   commentId: M:SuperOffice.Data.Dialect.Dialect.ComposeSelect(System.String,System.String,System.String,System.String,System.Text.StringBuilder,SuperOffice.Data.SQL.PrivateSelect)
   parent: SuperOffice.Data.Dialect.Dialect
@@ -7057,13 +7191,6 @@ references:
   name: ComposeSelect
   nameWithType: SqlServerCommon.ComposeSelect
   fullName: SuperOffice.Data.Dialect.SqlServerCommon.ComposeSelect
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Text.StringBuilder
   commentId: T:System.Text.StringBuilder
   parent: System.Text

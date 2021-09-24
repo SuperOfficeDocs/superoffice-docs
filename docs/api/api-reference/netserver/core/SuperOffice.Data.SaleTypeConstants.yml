@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Data.SaleTypeConstants
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nUse with the additionalInfo parameter for the MDO list <see cref=\"!:SaleStageProvider\"></see>.\n"
   syntax:
@@ -52,10 +52,10 @@ items:
   fullName: SuperOffice.Data.SaleTypeConstants.PrimaryKeyName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PrimaryKeyName = "SaleTypeID"

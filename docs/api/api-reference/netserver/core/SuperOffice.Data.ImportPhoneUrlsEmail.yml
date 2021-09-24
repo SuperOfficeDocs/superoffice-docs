@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.ImportPhoneUrlsEmail
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nImport new list item\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.ImportPhoneUrlsEmail.AddToList
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Add to list\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.ImportPhoneUrlsEmail.Replace
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Replace\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.ImportPhoneUrlsEmail.Skip
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Skip\n"
   syntax:

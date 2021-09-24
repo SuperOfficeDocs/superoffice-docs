@@ -27,10 +27,10 @@ items:
   fullName: SuperOffice.Data.AppointmentStatus
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValue for field &apos;status&apos; in table &apos;appointment&apos;.\nThis Enum is used by:  appointment.status\n"
   syntax:
@@ -59,10 +59,10 @@ items:
   fullName: SuperOffice.Data.AppointmentStatus.UnknownOrPostIt
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Appointment is not initialized or it is a Post-IT for users diary, used together with ApointmentType.Note only\n"
   syntax:
@@ -87,10 +87,10 @@ items:
   fullName: SuperOffice.Data.AppointmentStatus.NotStarted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Appointment has not been started\n"
   syntax:
@@ -115,10 +115,10 @@ items:
   fullName: SuperOffice.Data.AppointmentStatus.Started
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Appointment has been started, but not completed\n"
   syntax:
@@ -143,10 +143,10 @@ items:
   fullName: SuperOffice.Data.AppointmentStatus.Completed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Appointment is completed\n"
   syntax:
@@ -171,10 +171,10 @@ items:
   fullName: SuperOffice.Data.AppointmentStatus.Hidden
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Appointment is hidden\n"
   syntax:
@@ -199,10 +199,10 @@ items:
   fullName: SuperOffice.Data.AppointmentStatus.Booking
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Appointment is a booking invitation (initial status for a booking)\n"
   syntax:
@@ -227,10 +227,10 @@ items:
   fullName: SuperOffice.Data.AppointmentStatus.BookingMoved
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: Appointment is a booking that has been moved since it was seen by the invitee\n"
   syntax:
@@ -255,10 +255,10 @@ items:
   fullName: SuperOffice.Data.AppointmentStatus.BookingSeen
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: Appointment is a booking and has been seen, but neither accepted nor rejected\n"
   syntax:
@@ -283,10 +283,10 @@ items:
   fullName: SuperOffice.Data.AppointmentStatus.BookingMovedSeen
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Appointment is a booking that has been moved. The movement has been seen but neither accepted nor rejected\n"
   syntax:
@@ -311,10 +311,10 @@ items:
   fullName: SuperOffice.Data.AppointmentStatus.BookingDeclined
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n9: Appointment is a booking that has been seen and declined\n"
   syntax:
@@ -339,10 +339,10 @@ items:
   fullName: SuperOffice.Data.AppointmentStatus.BookingDeleted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n10: Status of &quot;child&quot; appointment whose &quot;mother&quot; has been deleted (the meeting is cancelled)\n"
   syntax:
@@ -367,10 +367,10 @@ items:
   fullName: SuperOffice.Data.AppointmentStatus.Assignment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n11: You are assigned this appointment (initial status, like Booking(5) )\n"
   syntax:
@@ -395,10 +395,10 @@ items:
   fullName: SuperOffice.Data.AppointmentStatus.AssignmentSeen
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n12: You have seen the assignment, but not yet declined or accepted it\n"
   syntax:
@@ -423,10 +423,10 @@ items:
   fullName: SuperOffice.Data.AppointmentStatus.AssignmentDeclined
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n13: You have declined the appointment assigned to you\n"
   syntax:

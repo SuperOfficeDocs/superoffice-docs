@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.CustomProxy
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nConfiguration values for using Custom Proxy for communication with Internet\n"
   syntax:
@@ -57,10 +57,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.CustomProxy.UseCustomProxyForPublicAccess
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nUse Custom Proxy server, even for local addresses, when communicating to public internet services. This value overrides machine and other config default settings for proxy server.\n"
   syntax:
@@ -90,10 +90,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.CustomProxy.UseCustomProxyForIntegrationServer
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nUse Custom Proxy server, even for local addresses, when communicating to ErpSync and Remote (Online) Quote Connector. This value overrides machine and other config default settings for proxy server.\n"
   syntax:
@@ -123,10 +123,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.CustomProxy.UseCustomProxyForWebhooks
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nUse Custom Proxy server when posting to webhook URLs. Uses the SSL port. This value overrides machine and other config default settings for proxy server.\n"
   syntax:
@@ -156,10 +156,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.CustomProxy.CustomProxyHost
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nHost for custom proxy used when UseCustomProxyForPublicAccess or UseCustomProxyForIntegrationServer is set to true\n"
   syntax:
@@ -189,10 +189,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.CustomProxy.CustomProxyPort
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nPort for custom proxy used when UseCustomProxyForPublicAccess or UseCustomProxyForIntegrationServer is set to true\n"
   syntax:
@@ -222,10 +222,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.CustomProxy.CustomProxySslPort
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nSSL Port for custom proxy used when UseCustomProxyForWebhooks is set to true\n"
   syntax:

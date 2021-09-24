@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Data.PrefDescAccessFlags
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValue for field &apos;accessflags&apos; in table &apos;prefdesc&apos;.\nThis Enum is used by:  PrefDesc.accessFlags\nThis Enum consists of flag values that can be combined.\n"
   syntax:
@@ -60,10 +60,10 @@ items:
   fullName: SuperOffice.Data.PrefDescAccessFlags.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown - used when initializing\n"
   syntax:
@@ -88,10 +88,10 @@ items:
   fullName: SuperOffice.Data.PrefDescAccessFlags.WizardMode
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Wizard mode is password-protected and only accessible to SuperOffice personnel.\n"
   syntax:
@@ -116,10 +116,10 @@ items:
   fullName: SuperOffice.Data.PrefDescAccessFlags.Level0
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Preference settable only by CRM5 superuser\n"
   syntax:
@@ -144,10 +144,10 @@ items:
   fullName: SuperOffice.Data.PrefDescAccessFlags.adminGUI
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Show preference in SOADMIN GUI\n"
   syntax:
@@ -172,10 +172,10 @@ items:
   fullName: SuperOffice.Data.PrefDescAccessFlags.CRMGUI
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Show preference in CRM5 GUI\n"
   syntax:

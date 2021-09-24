@@ -22,10 +22,10 @@ items:
   fullName: SuperOffice.Data.GdprLegalBases
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public static class GdprLegalBases
@@ -59,10 +59,10 @@ items:
   fullName: SuperOffice.Data.GdprLegalBases.Section61A
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nExplicit consent\n"
   syntax:
@@ -88,10 +88,10 @@ items:
   fullName: SuperOffice.Data.GdprLegalBases.Section61B
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nContract\n"
   syntax:
@@ -117,10 +117,10 @@ items:
   fullName: SuperOffice.Data.GdprLegalBases.Section61C
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nRequired by law\n"
   syntax:
@@ -146,10 +146,10 @@ items:
   fullName: SuperOffice.Data.GdprLegalBases.Section61D
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nProtection of vital interests\n"
   syntax:
@@ -175,10 +175,10 @@ items:
   fullName: SuperOffice.Data.GdprLegalBases.Section61E
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nPublic interest\n"
   syntax:
@@ -204,10 +204,10 @@ items:
   fullName: SuperOffice.Data.GdprLegalBases.Section61F
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nOther legitimate interest\n"
   syntax:
@@ -233,10 +233,10 @@ items:
   fullName: SuperOffice.Data.GdprLegalBases.Withdrawn
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nConsent explicitly withdrawn\n"
   syntax:
@@ -262,10 +262,10 @@ items:
   fullName: SuperOffice.Data.GdprLegalBases.IsBuiltin(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public static bool IsBuiltin(string basis)
@@ -294,10 +294,10 @@ items:
   fullName: SuperOffice.Data.GdprLegalBases.All
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public static string[] All { get; }

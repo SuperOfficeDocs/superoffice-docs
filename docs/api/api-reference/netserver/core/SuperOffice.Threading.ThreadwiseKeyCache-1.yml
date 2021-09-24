@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Threading.ThreadwiseKeyCache<Item>
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nThe purpose of this class is to contain a cache of items, with a separate cache per thread.\nThe use case is that some class needs to maintain a unique list of items, uses a cache for this,\nand wants the list to be kept separate for each thread - even if the instance of the cache and/or client class is\nthe same.\n"
   syntax:
@@ -64,10 +64,10 @@ items:
   fullName: SuperOffice.Threading.ThreadwiseKeyCache<Item>.ThreadwiseKeyCache()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public ThreadwiseKeyCache()
@@ -91,10 +91,10 @@ items:
   fullName: SuperOffice.Threading.ThreadwiseKeyCache<Item>.ThreadwiseKeyCache(System.Int32)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public ThreadwiseKeyCache(int defaultAllocationSize)
@@ -121,10 +121,10 @@ items:
   fullName: SuperOffice.Threading.ThreadwiseKeyCache<Item>.ContainsKey(Item)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public bool ContainsKey(Item item)
@@ -153,10 +153,10 @@ items:
   fullName: SuperOffice.Threading.ThreadwiseKeyCache<Item>.Add(Item)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public bool Add(Item item)

@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Util.ZipType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nType of compression algorithm\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Util.ZipType.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: Unknown = 0
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.Util.ZipType.GZip
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: GZip = 1
@@ -102,10 +102,10 @@ items:
   fullName: SuperOffice.Util.ZipType.BZip
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: BZip = 2

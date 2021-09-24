@@ -58,10 +58,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nFunctions\n"
   syntax:
@@ -96,10 +96,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:
@@ -125,10 +125,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ThreeStateStatusCheckbox
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: >-
@@ -167,10 +167,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.AcademicTitle
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nUse academic title for persons. (Default = NO)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -196,10 +196,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.BlankApptClick
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSpecifies the type of activity to create when you double-click on a blank line in the Activities section tab in the Company or Project screens.\n<p></p>Control type: List, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -225,10 +225,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.CapitalFirstLetterCompanyName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the first letter in every word in the company name automatically be converted to a capital letter? (Default = YES)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -254,10 +254,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.CapitalFirstLetterPersonName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the first letter in every word in the contact name automatically be converted to a capital letter? (Default = YES)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -283,10 +283,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableContactDogEar
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nRemoves the corner tabs on the Company card if there are too many companies - i.e. more than this number\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -312,10 +312,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDelKey
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nIf YES, the user has to use the menu in order to delete a company, project or selection (Default = YES).\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -341,10 +341,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisplayDateFormatInLists
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSpecifies the date format used in section tabs in CRM (ex. dd.mm.yyyy hh:mm). (Default: computer&apos;s regional settings for short date format.)\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
@@ -370,10 +370,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.EditIfVisible
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nAllows other users to add and remove members from any selection visible to the user\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -399,10 +399,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.FilterBookingSlaves
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nFilter out invitations for everyone except the person making the invitation, to avoid duplicates in the list.\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -428,10 +428,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ForceConfirmation
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nAlways displays confirmation dialog when deleting\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -457,10 +457,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.GetAdvanceDays
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nNumber of days ahead to display tasks in the checklist. Default is 21 days\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -486,10 +486,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.HomeContact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWhich contact is displayed when you click on Hugo (the owl in the Navigator)\n<p></p>Control type: ContactId, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -515,10 +515,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.InternetUseIntegratedBrowser
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nUses the internal CRM browser when clicking a URL within CRM. Default is Yes. If you set this preference to No, your computer&apos;s default browser will be used instead.\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -544,10 +544,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.PastDateAlert
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nMarks overdue activities in section tabs (Default = YES)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -573,10 +573,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.PeriodicCheckInterval
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nHow often (in minutes) should CRM check the database for new invitations etc.\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -602,10 +602,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.RemoveInvitationDuplicates
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nThis ensures that invitations are displayed only once in the Activities section tab in CRM (Default = YES).\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -631,10 +631,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowAllPhoneNumbers
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nAllows the option of adding several phone numbers of the same type (e.g. mobile phone) in the Contact dialog. (Default = NO).\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -660,10 +660,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowInviteDlgFromView
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould CRM automatically display the Invitation dialog when creating an activity from the diary view. (Default = NO).\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -689,10 +689,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowTipNumber
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nNext tip of the day to be displayed.\n<p></p>Control type: Number, access: Wizard\n"
   syntax:
@@ -718,10 +718,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowTipsAtStart
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould a tip of the day be displayed every time a user logs in to SuperOffice. (Default = YES)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -747,10 +747,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.UseCaseOnTemplateVariables
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nThe template variables used in, for instance, documents and addresses are output in lower case and get the text exactly as stored in the database by default. Setting this preference will change the text to uppercase for all or just the first letter, depending how the template variable is input. (Default: No).\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -776,10 +776,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.UseMiddleName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nEnables the use of middle names in the Contact dialog\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -805,10 +805,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowProgressInfo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould a progress dialog be displayed on the Travel Gateway when active tasks are running? (Default = YES)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -834,10 +834,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.IdAllocationBatchSize
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nHow many records should be inserted into the database during an import before they are committed?\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -863,10 +863,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableSoundExCheckContact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould duplicate checking for contact by soundex value be disabled\n"
   syntax:
@@ -892,10 +892,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableSoundExCheckProject
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould duplicate checking for project by soundex value be disabled\n"
   syntax:
@@ -921,10 +921,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableSoundExCheckSelection
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould duplicate checking for selection by soundex value be disabled\n"
   syntax:
@@ -950,10 +950,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckContact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould duplicate checking for contact by exact match be disabled\n"
   syntax:
@@ -979,10 +979,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckProject
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould duplicate checking for project by exact match be disabled\n"
   syntax:
@@ -1008,10 +1008,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckSelection
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould duplicate checking for selection exact match be disabled\n"
   syntax:
@@ -1037,10 +1037,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.SaintRankDuplicateContacts
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould SAINT data be used to rank and style contacts with duplicate soundex&apos;es\n"
   syntax:
@@ -1066,10 +1066,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.HideCounterInArchiveFooter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the rowcount not be visible in the archive footers\n"
   syntax:
@@ -1095,10 +1095,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.EnableLocalRendererInArchive
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the local renderer be enabled for user\n"
   syntax:
@@ -1124,10 +1124,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.AutoLoadLimitInArchive
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nThe limit for auto loading the full archive\n"
   syntax:
@@ -1153,10 +1153,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.AskToEditOrRead
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nAsk if the user want to edit or read the document when opening an existing document. Only applies when Web Tools is installed.\n"
   syntax:
@@ -1182,10 +1182,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowChangeCompanyWarning
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWarn the user that all activities will be moved to the new company. Used when changing company in the person panel.\n"
   syntax:
@@ -1211,10 +1211,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.MandatoryContactOnPerson
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWhether a company is required when creating a new person. Default true.\n"
   syntax:
@@ -1240,10 +1240,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.MandatoryContactOnPerson_HardDefault
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nHard default for MandatoryContactOnPerson\n"
   syntax:
@@ -1269,10 +1269,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.LanguageCookie
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nLanguage cookie (when cookie is missing)\n"
   syntax:
@@ -1298,10 +1298,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.LanguageUICookie
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nLanguage UI (when cookie is missing)\n"
   syntax:
@@ -1327,10 +1327,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DefaultMailClientCookie
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault mail client setting (when cookie is missing)\n"
   syntax:
@@ -1356,10 +1356,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.SoCrm75SR1FirstUseCookie
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nFirst use setting (when cookie is missing)\n"
   syntax:
@@ -1385,10 +1385,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.JoinPilotForWebTools
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nRoute all DownloadService requests from PROD to STAGE to allow customers\nearly access to WebTools versions prior to release.\n"
   syntax:

@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Threading.AsyncOperationFailure
   type: Delegate
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nDelegate describing the function signature required for a method that is called\nwhenever an asynchronous operation throws an exception.\n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.Threading.AsyncOperationFailure.AsyncOperationFailure(System.Object, System.IntPtr)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public AsyncOperationFailure(object object, IntPtr method)
@@ -84,10 +84,10 @@ items:
   fullName: SuperOffice.Threading.AsyncOperationFailure.Invoke(SuperOffice.Threading.AsyncContext, System.Exception)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public virtual void Invoke(AsyncContext context, Exception exception)
@@ -116,10 +116,10 @@ items:
   fullName: SuperOffice.Threading.AsyncOperationFailure.BeginInvoke(SuperOffice.Threading.AsyncContext, System.Exception, System.AsyncCallback, System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public virtual IAsyncResult BeginInvoke(AsyncContext context, Exception exception, AsyncCallback callback, object object)
@@ -154,10 +154,10 @@ items:
   fullName: SuperOffice.Threading.AsyncOperationFailure.EndInvoke(System.IAsyncResult)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public virtual void EndInvoke(IAsyncResult result)

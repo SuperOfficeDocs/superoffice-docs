@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.ExtraDataFieldType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nString, int, decimal, image, url, etc. How should the value be interpreted.\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.ExtraDataFieldType.String
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Anything to be shown as text, left aligned. If type is string, it can contain formatspecifiers (use this for displaying numbers correctly as the user&apos;s computer is set up).\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.ExtraDataFieldType.Url
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: A web address\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.ExtraDataFieldType.Image
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Contains the url of the image, or a base64 encoded version of it.\n"
   syntax:

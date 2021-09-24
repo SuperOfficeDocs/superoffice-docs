@@ -399,13 +399,13 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;link_type&apos; in table &apos;s_link_customer_statical&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIf this is a link to a link or an image (gif/jpeg). See SpmLink::LinkType\n"
+  summary: "\nField &apos;link_type&apos; in table &apos;s_link_customer_statical&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.ShipmentLinkType\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIf this is a link to a link or an image (gif/jpeg). See SpmLink::LinkType\n"
   syntax:
-    content: public UInt16FieldInfo LinkType { get; }
+    content: public ShipmentLinkTypeFieldInfo LinkType { get; }
     parameters: []
     return:
-      type: SuperOffice.Data.SQL.UInt16FieldInfo
-    content.vb: Public ReadOnly Property LinkType As UInt16FieldInfo
+      type: SuperOffice.Data.SQL.ShipmentLinkTypeFieldInfo
+    content.vb: Public ReadOnly Property LinkType As ShipmentLinkTypeFieldInfo
   overload: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.LinkType*
   modifiers.csharp:
   - public
@@ -1427,13 +1427,13 @@ references:
   name: LinkType
   nameWithType: SLinkCustomerStaticalTableInfo.LinkType
   fullName: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.LinkType
-- uid: SuperOffice.Data.SQL.UInt16FieldInfo
-  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.Data.SQL.ShipmentLinkTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.ShipmentLinkTypeFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  name: UInt16FieldInfo
-  nameWithType: UInt16FieldInfo
-  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+  name: ShipmentLinkTypeFieldInfo
+  nameWithType: ShipmentLinkTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.ShipmentLinkTypeFieldInfo
 - uid: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.Page*
   commentId: Overload:SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.Page
   isExternal: true

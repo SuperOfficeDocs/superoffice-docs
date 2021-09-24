@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.CRM.Rows.MDOListElementType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Rows
   summary: "\nWhat kind of element are we dealing with in the MDO-list?\nSame enum for all MDO-lists.\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.CRM.Rows.MDOListElementType.Heading
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Rows
   summary: "\nA heading that has sub-nodes underneath.\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.CRM.Rows.MDOListElementType.History
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Rows
   summary: "\nA history-node\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.CRM.Rows.MDOListElementType.Root
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Rows
   summary: "\nA node that has no heading.\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.CRM.Rows.MDOListElementType.SubNode
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Rows
   summary: "\nA node that has a heading.\n"
   syntax:

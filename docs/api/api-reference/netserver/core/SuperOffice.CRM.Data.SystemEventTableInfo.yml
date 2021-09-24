@@ -12,6 +12,8 @@ items:
   - SuperOffice.CRM.Data.SystemEventTableInfo.Eventkey
   - SuperOffice.CRM.Data.SystemEventTableInfo.Eventmess
   - SuperOffice.CRM.Data.SystemEventTableInfo.ExtraInfo
+  - SuperOffice.CRM.Data.SystemEventTableInfo.IdxEventkey(System.String)
+  - SuperOffice.CRM.Data.SystemEventTableInfo.IdxEventkeyScope(System.String,System.Int32)
   - SuperOffice.CRM.Data.SystemEventTableInfo.Owner
   - SuperOffice.CRM.Data.SystemEventTableInfo.Registered
   - SuperOffice.CRM.Data.SystemEventTableInfo.RegisteredAssociateId
@@ -119,6 +121,70 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.Data.SystemEventTableInfo.IdxEventkey(System.String)
+  commentId: M:SuperOffice.CRM.Data.SystemEventTableInfo.IdxEventkey(System.String)
+  id: IdxEventkey(System.String)
+  parent: SuperOffice.CRM.Data.SystemEventTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IdxEventkey(String)
+  nameWithType: SystemEventTableInfo.IdxEventkey(String)
+  fullName: SuperOffice.CRM.Data.SystemEventTableInfo.IdxEventkey(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nShortcut method for looking up using the database index Eventkey, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Eventkey</td><td>Event key, predefined in code</td></tr></tbody></table>\n"
+  syntax:
+    content: public Restriction IdxEventkey(string eventkey)
+    parameters:
+    - id: eventkey
+      type: System.String
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Function IdxEventkey(eventkey As String) As Restriction
+  overload: SuperOffice.CRM.Data.SystemEventTableInfo.IdxEventkey*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Data.SystemEventTableInfo.IdxEventkeyScope(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Data.SystemEventTableInfo.IdxEventkeyScope(System.String,System.Int32)
+  id: IdxEventkeyScope(System.String,System.Int32)
+  parent: SuperOffice.CRM.Data.SystemEventTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IdxEventkeyScope(String, Int32)
+  nameWithType: SystemEventTableInfo.IdxEventkeyScope(String, Int32)
+  fullName: SuperOffice.CRM.Data.SystemEventTableInfo.IdxEventkeyScope(System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nShortcut method for looking up using the database index EventkeyScope, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Eventkey</td><td>Event key, predefined in code</td></tr><tr><td>Scope</td><td>1 = system-wide, 2= database, 3 = group, 4 = user</td></tr></tbody></table>\n"
+  syntax:
+    content: public Restriction IdxEventkeyScope(string eventkey, int scope)
+    parameters:
+    - id: eventkey
+      type: System.String
+    - id: scope
+      type: System.Int32
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Function IdxEventkeyScope(eventkey As String, scope As Integer) As Restriction
+  overload: SuperOffice.CRM.Data.SystemEventTableInfo.IdxEventkeyScope*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Data.SystemEventTableInfo.DictionaryTableNumber
   commentId: P:SuperOffice.CRM.Data.SystemEventTableInfo.DictionaryTableNumber
   id: DictionaryTableNumber
@@ -1453,12 +1519,25 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: SuperOffice.CRM.Data.SystemEventTableInfo.DictionaryTableNumber*
-  commentId: Overload:SuperOffice.CRM.Data.SystemEventTableInfo.DictionaryTableNumber
+- uid: SuperOffice.CRM.Data.SystemEventTableInfo.IdxEventkey*
+  commentId: Overload:SuperOffice.CRM.Data.SystemEventTableInfo.IdxEventkey
   isExternal: true
-  name: DictionaryTableNumber
-  nameWithType: SystemEventTableInfo.DictionaryTableNumber
-  fullName: SuperOffice.CRM.Data.SystemEventTableInfo.DictionaryTableNumber
+  name: IdxEventkey
+  nameWithType: SystemEventTableInfo.IdxEventkey
+  fullName: SuperOffice.CRM.Data.SystemEventTableInfo.IdxEventkey
+- uid: SuperOffice.Data.SQL.Restriction
+  commentId: T:SuperOffice.Data.SQL.Restriction
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Restriction
+  nameWithType: Restriction
+  fullName: SuperOffice.Data.SQL.Restriction
+- uid: SuperOffice.CRM.Data.SystemEventTableInfo.IdxEventkeyScope*
+  commentId: Overload:SuperOffice.CRM.Data.SystemEventTableInfo.IdxEventkeyScope
+  isExternal: true
+  name: IdxEventkeyScope
+  nameWithType: SystemEventTableInfo.IdxEventkeyScope
+  fullName: SuperOffice.CRM.Data.SystemEventTableInfo.IdxEventkeyScope
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -1466,6 +1545,12 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: SuperOffice.CRM.Data.SystemEventTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.SystemEventTableInfo.DictionaryTableNumber
+  isExternal: true
+  name: DictionaryTableNumber
+  nameWithType: SystemEventTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.SystemEventTableInfo.DictionaryTableNumber
 - uid: SuperOffice.CRM.Data.SystemEventTableInfo.RuntimeDefinition*
   commentId: Overload:SuperOffice.CRM.Data.SystemEventTableInfo.RuntimeDefinition
   isExternal: true

@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.SuperId
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nConfiguration values for accessing SuperId\n"
   syntax:
@@ -55,10 +55,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.SuperId.Url
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nUrl to SuperId\n"
   syntax:
@@ -88,10 +88,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.SuperId.TenantKey
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nA shared secret between SuperId and netserver\n"
   syntax:
@@ -121,10 +121,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.SuperId.TenantId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nTenantId in SuperId\n"
   syntax:
@@ -154,10 +154,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.SuperId.Environment
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nEnvironment in SuperId\n"
   syntax:

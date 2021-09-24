@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Data.AppAvailState
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValue for the availableInState field in table externalapplication\nThis Enum is used by:  ExtApp.availableInState\nThis Enum consists of flag values that can be combined.\n"
   syntax:
@@ -61,10 +61,10 @@ items:
   fullName: SuperOffice.Data.AppAvailState.Always
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: This application is always available\n"
   syntax:
@@ -89,10 +89,10 @@ items:
   fullName: SuperOffice.Data.AppAvailState.CentralDb
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: This application is only available on the Central database\n"
   syntax:
@@ -117,10 +117,10 @@ items:
   fullName: SuperOffice.Data.AppAvailState.SatelliteDb
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: This application is only available on a Satellite database\n"
   syntax:
@@ -145,10 +145,10 @@ items:
   fullName: SuperOffice.Data.AppAvailState.TravelDb
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: This application is only available on a Travel database\n"
   syntax:
@@ -173,10 +173,10 @@ items:
   fullName: SuperOffice.Data.AppAvailState.SalesMarketingWeb
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: This application is available on Sales Marketing Web\n"
   syntax:
@@ -201,10 +201,10 @@ items:
   fullName: SuperOffice.Data.AppAvailState.SalesMarketingPocket
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16: This application is available on Sales Marketing Pocket\n"
   syntax:

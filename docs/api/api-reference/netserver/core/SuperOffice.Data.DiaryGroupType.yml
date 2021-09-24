@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.DiaryGroupType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.DiaryGroupType.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown - used when initializing \n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.DiaryGroupType.UserDefined
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: User defined group\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.DiaryGroupType.UserGroup
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Usergroup group\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.DiaryGroupType.ResourceHeading
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Resource heading group\n"
   syntax:

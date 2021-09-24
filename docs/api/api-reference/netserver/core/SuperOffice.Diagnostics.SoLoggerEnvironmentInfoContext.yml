@@ -21,10 +21,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nHelper class to add scoped environment info that will be used when logging. \n"
   example:
@@ -69,10 +69,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.SoLoggerEnvironmentInfoContext(System.Action<System.Collections.Specialized.NameValueCollection>)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nDefault constructor. Typically used with using.\n<param name=\"callback\">Callback to populate environment info</param>\n"
   syntax:
@@ -101,10 +101,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.SoLoggerEnvironmentInfoContext()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nDefault constructor. Typically used with using.\n"
   syntax:
@@ -127,10 +127,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.SoLoggerEnvironmentInfoContext(System.Collections.Specialized.NameValueCollection)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nConstructor with an name-value collection. Typically used with using.\n"
   syntax:
@@ -157,10 +157,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Dispose()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nEnd of scope\n"
   syntax:
@@ -185,10 +185,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Add(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nAdd environment value\n"
   syntax:
@@ -216,10 +216,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.OnGetEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nApply all scoped contexts\n"
   syntax:
@@ -248,10 +248,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.OnGetContextEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nApply this scoped context\n"
   syntax:
@@ -278,10 +278,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Item[System.String]
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nAdd or replace a environment value\n"
   syntax:

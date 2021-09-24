@@ -13,10 +13,10 @@ items:
   fullName: SuperOffice.IO.IOwnedDataSerializableAndRecreatable
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nAllows a class to specify that it can be recreated during deserialization using a default constructor\nand then calling DeserializeOwnedData()\n"
   syntax:

@@ -8,8 +8,6 @@ items:
   - SuperOffice.NetServerVersion.Build
   - SuperOffice.NetServerVersion.BuildInfo
   - SuperOffice.NetServerVersion.BuildType
-  - SuperOffice.NetServerVersion.CheckVersion(System.Version)
-  - SuperOffice.NetServerVersion.CheckWebtoolsVersion(System.Version)
   - SuperOffice.NetServerVersion.DaysUnitilExpiry
   - SuperOffice.NetServerVersion.DaysUntilExpiry
   - SuperOffice.NetServerVersion.DotNetFrameworkVersion
@@ -30,10 +28,10 @@ items:
   fullName: SuperOffice.NetServerVersion
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nVersion information.\n"
   syntax:
@@ -70,10 +68,10 @@ items:
   fullName: SuperOffice.NetServerVersion.ServiceNamespace
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nDefault namespace for services based on this version of NetServer\n"
   syntax:
@@ -99,16 +97,16 @@ items:
   fullName: SuperOffice.NetServerVersion.FriendlyName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
-    content: public const string FriendlyName = "SuperOffice 9.2 Build {1}"
+    content: public const string FriendlyName = "SuperOffice CRM OnSite 9.2 Build {1}"
     return:
       type: System.String
-    content.vb: Public Const FriendlyName As String = "SuperOffice 9.2 Build {1}"
+    content.vb: Public Const FriendlyName As String = "SuperOffice CRM OnSite 9.2 Build {1}"
   modifiers.csharp:
   - public
   - const
@@ -127,10 +125,10 @@ items:
   fullName: SuperOffice.NetServerVersion.MajorMinor
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public const string MajorMinor = "9.2"
@@ -155,10 +153,10 @@ items:
   fullName: SuperOffice.NetServerVersion.OverriddenVersionString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public static string OverriddenVersionString()
@@ -166,72 +164,6 @@ items:
       type: System.String
     content.vb: Public Shared Function OverriddenVersionString As String
   overload: SuperOffice.NetServerVersion.OverriddenVersionString*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.NetServerVersion.CheckVersion(System.Version)
-  commentId: M:SuperOffice.NetServerVersion.CheckVersion(System.Version)
-  id: CheckVersion(System.Version)
-  parent: SuperOffice.NetServerVersion
-  langs:
-  - csharp
-  - vb
-  name: CheckVersion(Version)
-  nameWithType: NetServerVersion.CheckVersion(Version)
-  fullName: SuperOffice.NetServerVersion.CheckVersion(System.Version)
-  type: Method
-  source:
-    path: SOCore
-    isExternal: true
-  assemblies:
-  - SOCore
-  namespace: SuperOffice
-  summary: "\nReturns the upgrade-status to be reported to the WebTools-clients\ndirectly.\n"
-  syntax:
-    content: public static UpgradeStatus CheckVersion(Version version)
-    parameters:
-    - id: version
-      type: System.Version
-    return:
-      type: SuperOffice.UpgradeStatus
-    content.vb: Public Shared Function CheckVersion(version As Version) As UpgradeStatus
-  overload: SuperOffice.NetServerVersion.CheckVersion*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.NetServerVersion.CheckWebtoolsVersion(System.Version)
-  commentId: M:SuperOffice.NetServerVersion.CheckWebtoolsVersion(System.Version)
-  id: CheckWebtoolsVersion(System.Version)
-  parent: SuperOffice.NetServerVersion
-  langs:
-  - csharp
-  - vb
-  name: CheckWebtoolsVersion(Version)
-  nameWithType: NetServerVersion.CheckWebtoolsVersion(Version)
-  fullName: SuperOffice.NetServerVersion.CheckWebtoolsVersion(System.Version)
-  type: Method
-  source:
-    path: SOCore
-    isExternal: true
-  assemblies:
-  - SOCore
-  namespace: SuperOffice
-  summary: "\nReturns the upgrade-status to be reported to Web-client&apos;s webtools upgrade\nwizard.\n"
-  syntax:
-    content: public static UpgradeStatus CheckWebtoolsVersion(Version version)
-    parameters:
-    - id: version
-      type: System.Version
-    return:
-      type: SuperOffice.UpgradeStatus
-    content.vb: Public Shared Function CheckWebtoolsVersion(version As Version) As UpgradeStatus
-  overload: SuperOffice.NetServerVersion.CheckWebtoolsVersion*
   modifiers.csharp:
   - public
   - static
@@ -250,10 +182,10 @@ items:
   fullName: SuperOffice.NetServerVersion.GetServerVersionWithOverride(out System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nReturns the current server-version or the explicit WebTools version-override set in config-file.\n"
   syntax:
@@ -287,10 +219,10 @@ items:
   fullName: SuperOffice.NetServerVersion.DotNetFrameworkVersion()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nReturns installed .net version &quot;4.5.1&quot; or &quot;4.8&quot; or similarly\n"
   syntax:
@@ -318,10 +250,10 @@ items:
   fullName: SuperOffice.NetServerVersion.BuildType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nType of build.\n"
   syntax:
@@ -351,10 +283,10 @@ items:
   fullName: SuperOffice.NetServerVersion.Version
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nBuild version of SoCore\n"
   syntax:
@@ -384,10 +316,10 @@ items:
   fullName: SuperOffice.NetServerVersion.Build
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nBuild of the assembly\n"
   syntax:
@@ -417,10 +349,10 @@ items:
   fullName: SuperOffice.NetServerVersion.DaysUnitilExpiry
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nDays until this version of NetServer expires\n"
   syntax:
@@ -464,19 +396,33 @@ items:
   fullName: SuperOffice.NetServerVersion.DaysUntilExpiry
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nDays until this version of NetServer expires\n"
   syntax:
-    content: public static int DaysUntilExpiry { get; }
+    content: >-
+      [Obsolete("Netserver no longer expires", false)]
+
+      public static int DaysUntilExpiry { get; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Shared ReadOnly Property DaysUntilExpiry As Integer
+    content.vb: >-
+      <Obsolete("Netserver no longer expires", False)>
+
+      Public Shared ReadOnly Property DaysUntilExpiry As Integer
   overload: SuperOffice.NetServerVersion.DaysUntilExpiry*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Netserver no longer expires
+    - type: System.Boolean
+      value: false
   modifiers.csharp:
   - public
   - static
@@ -497,10 +443,10 @@ items:
   fullName: SuperOffice.NetServerVersion.ReleaseName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nRelease Name: &quot;8.5 R11&quot; or &quot;8.5 Dev&quot;\n"
   syntax:
@@ -530,10 +476,10 @@ items:
   fullName: SuperOffice.NetServerVersion.FullName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nFull name of this version of NetServer: &quot;SuperOffice 8.5 R11 NetServer 7.1 Release (Build: 7.1.200.300.TEST})&quot;\n"
   syntax:
@@ -563,10 +509,10 @@ items:
   fullName: SuperOffice.NetServerVersion.BuildInfo
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nInformation about the build as generated by the build system.\n"
   syntax:
@@ -596,10 +542,10 @@ items:
   fullName: SuperOffice.NetServerVersion.FileVersion
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nReturn NetServer&apos;s file version\n"
   syntax:
@@ -1094,32 +1040,6 @@ references:
   name: OverriddenVersionString
   nameWithType: NetServerVersion.OverriddenVersionString
   fullName: SuperOffice.NetServerVersion.OverriddenVersionString
-- uid: SuperOffice.NetServerVersion.CheckVersion*
-  commentId: Overload:SuperOffice.NetServerVersion.CheckVersion
-  isExternal: true
-  name: CheckVersion
-  nameWithType: NetServerVersion.CheckVersion
-  fullName: SuperOffice.NetServerVersion.CheckVersion
-- uid: System.Version
-  commentId: T:System.Version
-  parent: System
-  isExternal: true
-  name: Version
-  nameWithType: Version
-  fullName: System.Version
-- uid: SuperOffice.UpgradeStatus
-  commentId: T:SuperOffice.UpgradeStatus
-  parent: SuperOffice
-  isExternal: true
-  name: UpgradeStatus
-  nameWithType: UpgradeStatus
-  fullName: SuperOffice.UpgradeStatus
-- uid: SuperOffice.NetServerVersion.CheckWebtoolsVersion*
-  commentId: Overload:SuperOffice.NetServerVersion.CheckWebtoolsVersion
-  isExternal: true
-  name: CheckWebtoolsVersion
-  nameWithType: NetServerVersion.CheckWebtoolsVersion
-  fullName: SuperOffice.NetServerVersion.CheckWebtoolsVersion
 - uid: SuperOffice.NetServerVersion.GetServerVersionWithOverride*
   commentId: Overload:SuperOffice.NetServerVersion.GetServerVersionWithOverride
   isExternal: true
@@ -1133,6 +1053,13 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Version
+  commentId: T:System.Version
+  parent: System
+  isExternal: true
+  name: Version
+  nameWithType: Version
+  fullName: System.Version
 - uid: SuperOffice.NetServerVersion.DotNetFrameworkVersion*
   commentId: Overload:SuperOffice.NetServerVersion.DotNetFrameworkVersion
   isExternal: true

@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Util.DomainHelper
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nClass used to provde re-usable ways to process email-addresses and web-site adddresses\nfor further analysis.\n"
   syntax:
@@ -56,10 +56,10 @@ items:
   fullName: SuperOffice.Util.DomainHelper.GetEmailDomain(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static string GetEmailDomain(string emailAddress)
@@ -88,10 +88,10 @@ items:
   fullName: SuperOffice.Util.DomainHelper.GetPrimaryEmailDomainPart(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn the primary domain-part of the email-address without any TLD suffixes\nor subdomain prefixes.\n\nI.e. &quot;account@rnd.superoffice.co.uk&quot; should simply resolve to &quot;superoffice&quot;.\n"
   syntax:
@@ -121,10 +121,10 @@ items:
   fullName: SuperOffice.Util.DomainHelper.GetWebSiteDomain(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static string GetWebSiteDomain(string website)
@@ -153,10 +153,10 @@ items:
   fullName: SuperOffice.Util.DomainHelper.GetPrimaryWebsiteDomainPart(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static string GetPrimaryWebsiteDomainPart(string website)
@@ -185,10 +185,10 @@ items:
   fullName: SuperOffice.Util.DomainHelper.GetPrimaryEmailDomainPartWithSubdomains(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn the primary domain-part of the email-address without any TLD suffixes\nbut preserve subdomain prefixes.\n\nI.e. &quot;account@rnd.superoffice.co.uk&quot; should simply resolve to &quot;rnd.superoffice&quot;.\n"
   syntax:

@@ -45,10 +45,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\n\n"
   syntax:
@@ -74,6 +74,7 @@ items:
   - System.Object.GetType
   - System.Object.MemberwiseClone
   extensionMethods:
+  - SuperOffice.Util.KeyedMatrix`3.EnumUtil.MapEnums``2
   - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.ForEach``1(System.Action{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}}})
   - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}}})
   - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.Batch``1(System.Int32)
@@ -82,7 +83,7 @@ items:
   - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.Permute``1(System.Int32)
   - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{K}},System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{V}})
   - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{K}},System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{V}},System.Collections.Generic.IEqualityComparer{{K}})
-  - SuperOffice.Util.KeyedMatrix`3.EnumUtil.MapEnums``2
+  - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.GetDifferentCombinations``1(System.Int32)
   - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.SuperOffice.Util.CollectionOps.AtLeastOne``1
   - SuperOffice.Util.KeyedMatrix`3.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.KeyedMatrix{{TKeyColumn},{TKeyRow},{TItem}})
   - SuperOffice.Util.KeyedMatrix`3.SuperOffice.Util.ObjectExtensions.GraphCopy``1
@@ -108,10 +109,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.KeyedMatrix()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\n\n"
   syntax:
@@ -136,10 +137,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.AddColumn(TKeyColumn)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\n\n"
   syntax:
@@ -169,10 +170,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.RemoveColumn(TKeyColumn)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\n\n"
   syntax:
@@ -200,10 +201,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.RemoveRow(TKeyRow)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\n\n"
   syntax:
@@ -231,10 +232,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.ClearColumns()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nClear all columns from the matrix.\n"
   syntax:
@@ -259,10 +260,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.ClearRows()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nClear all rows from the matrix.\n"
   syntax:
@@ -287,10 +288,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.Clear()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nClear the entire content of the matrix.\n"
   syntax:
@@ -315,10 +316,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.Compact()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nRemove empty columns or rows.\n"
   syntax:
@@ -343,10 +344,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.GetRowIndex(TKeyRow)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\n\n"
   syntax:
@@ -376,10 +377,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.GetColumnIndex(TKeyColumn)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\n\n"
   syntax:
@@ -409,10 +410,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.GetRowKey(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public TKeyRow GetRowKey(int index)
@@ -441,10 +442,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.GetColumnKey(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public TKeyColumn GetColumnKey(int index)
@@ -473,10 +474,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.AlterRowKey(TKeyRow, TKeyRow)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\n\n"
   syntax:
@@ -506,10 +507,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.AlterColumnKey(TKeyColumn, TKeyColumn)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\n\n"
   syntax:
@@ -539,10 +540,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.AddRow(TKeyRow)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\n\n"
   syntax:
@@ -572,10 +573,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.Contains(TKeyColumn, TKeyRow)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet if the item at the given position has a value.\n"
   syntax:
@@ -610,10 +611,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.ContainsRow(TKeyRow)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet if this is an exsisting key in the matrix.\n"
   syntax:
@@ -645,10 +646,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.ContainsColumn(TKeyColumn)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet if this is an exsisting key in the matrix.\n"
   syntax:
@@ -680,10 +681,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.GetColumnKeys()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet an array containing all the horizontal keys.\n"
   syntax:
@@ -711,10 +712,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.GetRowKeys()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet an array containing all the vertical keys.\n"
   syntax:
@@ -742,10 +743,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.GetRow(TKeyRow)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\n\n"
   syntax:
@@ -775,10 +776,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.MoveItems(SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>, System.Collections.Generic.IEnumerable<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>, System.Predicate<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nMovie items this instance of the KeyedMatrix to another instance.\n"
   syntax:
@@ -814,10 +815,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.MoveItems(SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>, System.Collections.Generic.IEnumerable<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>, System.Predicate<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>, System.Action<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nMovie items this instance of the KeyedMatrix to another instance.\n"
   syntax:
@@ -856,10 +857,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.Exists(System.Collections.Generic.IEnumerable<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>, System.Predicate<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\n\n"
   syntax:
@@ -892,10 +893,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.GetColumn(TKeyColumn)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\n\n"
   syntax:
@@ -925,10 +926,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.ToArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public MatrixItem<TKeyColumn, TKeyRow, TItem>[, ] ToArray()
@@ -954,10 +955,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.GetEnumerator()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\n\n"
   syntax:
@@ -987,10 +988,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.System.Collections.IEnumerable.GetEnumerator()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: IEnumerator IEnumerable.GetEnumerator()
@@ -1015,10 +1016,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.Item[System.Int32, System.Int32]
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\n\n"
   syntax:
@@ -1053,10 +1054,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.Item[TKeyColumn, TKeyRow]
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\n\n"
   syntax:
@@ -1091,10 +1092,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.Width
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet number of items in the horizontal dimension.\n"
   syntax:
@@ -1124,10 +1125,10 @@ items:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.Height
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet number of items in the vertical dimension.\n"
   syntax:
@@ -1524,6 +1525,40 @@ references:
     name: MemberwiseClone
     nameWithType: Object.MemberwiseClone
     fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.KeyedMatrix`3.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<KeyedMatrix<TKeyColumn, TKeyRow, TItem>, To>()
+  nameWithType: EnumUtil.MapEnums<KeyedMatrix<TKeyColumn, TKeyRow, TItem>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), To)()
+  name.vb: MapEnums(Of KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<KeyedMatrix<TKeyColumn, TKeyRow, TItem>, To>
+    nameWithType: EnumUtil.MapEnums<KeyedMatrix<TKeyColumn, TKeyRow, TItem>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), To)
+    nameWithType: EnumUtil.MapEnums(Of KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), To)
     isExternal: true
   - name: (
     nameWithType: (
@@ -2535,37 +2570,47 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Util.KeyedMatrix`3.EnumUtil.MapEnums``2
-  commentId: M:EnumUtil.MapEnums``2(``0)
-  parent: EnumUtil
-  definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<KeyedMatrix<TKeyColumn, TKeyRow, TItem>, To>()
-  nameWithType: EnumUtil.MapEnums<KeyedMatrix<TKeyColumn, TKeyRow, TItem>, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), To)()
-  name.vb: MapEnums(Of KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), To)()
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.GetDifferentCombinations``1(System.Int32)
+  commentId: M:IEnumerableExtensions.GetDifferentCombinations``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.GetDifferentCombinations``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name: GetDifferentCombinations<MatrixItem<TKeyColumn, TKeyRow, TItem>>(Int32)
+  nameWithType: IEnumerableExtensions.GetDifferentCombinations<MatrixItem<TKeyColumn, TKeyRow, TItem>>(Int32)
+  fullName: IEnumerableExtensions.GetDifferentCombinations<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>(System.Int32)
+  nameWithType.vb: IEnumerableExtensions.GetDifferentCombinations(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))(Int32)
+  fullName.vb: IEnumerableExtensions.GetDifferentCombinations(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem))(System.Int32)
+  name.vb: GetDifferentCombinations(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))(Int32)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<KeyedMatrix<TKeyColumn, TKeyRow, TItem>, To>
-    nameWithType: EnumUtil.MapEnums<KeyedMatrix<TKeyColumn, TKeyRow, TItem>, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>, To>
+  - uid: IEnumerableExtensions.GetDifferentCombinations``1(System.Int32)
+    name: GetDifferentCombinations<MatrixItem<TKeyColumn, TKeyRow, TItem>>
+    nameWithType: IEnumerableExtensions.GetDifferentCombinations<MatrixItem<TKeyColumn, TKeyRow, TItem>>
+    fullName: IEnumerableExtensions.GetDifferentCombinations<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), To)
-    nameWithType: EnumUtil.MapEnums(Of KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), To)
+  - uid: IEnumerableExtensions.GetDifferentCombinations``1(System.Int32)
+    name: GetDifferentCombinations(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))
+    nameWithType: IEnumerableExtensions.GetDifferentCombinations(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))
+    fullName: IEnumerableExtensions.GetDifferentCombinations(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem))
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -2814,6 +2859,51 @@ references:
   name: System.Collections
   nameWithType: System.Collections
   fullName: System.Collections
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
 - uid: IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
   commentId: M:IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
   isExternal: true
@@ -3720,51 +3810,83 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: EnumUtil.MapEnums``2(``0)
-  commentId: M:EnumUtil.MapEnums``2(``0)
+- uid: IEnumerableExtensions.GetDifferentCombinations``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  commentId: M:IEnumerableExtensions.GetDifferentCombinations``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
   isExternal: true
-  name: MapEnums<From, To>(From)
-  nameWithType: EnumUtil.MapEnums<From, To>(From)
-  fullName: EnumUtil.MapEnums<From, To>(From)
-  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
-  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
+  name: GetDifferentCombinations<T>(IEnumerable<T>, Int32)
+  nameWithType: IEnumerableExtensions.GetDifferentCombinations<T>(IEnumerable<T>, Int32)
+  fullName: IEnumerableExtensions.GetDifferentCombinations<T>(System.Collections.Generic.IEnumerable<T>, System.Int32)
+  nameWithType.vb: IEnumerableExtensions.GetDifferentCombinations(Of T)(IEnumerable(Of T), Int32)
+  fullName.vb: IEnumerableExtensions.GetDifferentCombinations(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Int32)
+  name.vb: GetDifferentCombinations(Of T)(IEnumerable(Of T), Int32)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+  - uid: IEnumerableExtensions.GetDifferentCombinations``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+    name: GetDifferentCombinations<T>
+    nameWithType: IEnumerableExtensions.GetDifferentCombinations<T>
+    fullName: IEnumerableExtensions.GetDifferentCombinations<T>
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - name: From
-    nameWithType: From
-    fullName: From
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+  - uid: IEnumerableExtensions.GetDifferentCombinations``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+    name: GetDifferentCombinations(Of T)
+    nameWithType: IEnumerableExtensions.GetDifferentCombinations(Of T)
+    fullName: IEnumerableExtensions.GetDifferentCombinations(Of T)
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - name: From
-    nameWithType: From
-    fullName: From
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )
-- uid: EnumUtil
-  commentId: T:EnumUtil
-  isExternal: true
-  name: EnumUtil
-  nameWithType: EnumUtil
-  fullName: EnumUtil
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
   commentId: M:SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
   isExternal: true

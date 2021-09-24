@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.UserPreferenceStrings.Freetext.AutoEnableTravel
   - SuperOffice.CRM.UserPreferenceStrings.Freetext.Enabled
+  - SuperOffice.CRM.UserPreferenceStrings.Freetext.LastGenerated
   - SuperOffice.CRM.UserPreferenceStrings.Freetext.MaxSuggestWords
   - SuperOffice.CRM.UserPreferenceStrings.Freetext.MultiWordFTHitLimit
   - SuperOffice.CRM.UserPreferenceStrings.Freetext.MultiWordFTOperator
@@ -21,10 +22,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Freetext
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nFreetext\n"
   syntax:
@@ -59,10 +60,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Freetext.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:
@@ -88,10 +89,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Freetext.AutoEnableTravel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nAutomatically enables freetext search on Travel databases. This will increase the size of local databases and the time required to generate prototypes\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -117,10 +118,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Freetext.Enabled
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nEnables freetext search\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -128,6 +129,35 @@ items:
     return:
       type: System.String
     content.vb: Public Const Enabled As String = "Enabled"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Freetext.LastGenerated
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Freetext.LastGenerated
+  id: LastGenerated
+  parent: SuperOffice.CRM.UserPreferenceStrings.Freetext
+  langs:
+  - csharp
+  - vb
+  name: LastGenerated
+  nameWithType: UserPreferenceStrings.Freetext.LastGenerated
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Freetext.LastGenerated
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\nWhen was last full index run? ISO DateTime set when indexing starts\n"
+  syntax:
+    content: public const string LastGenerated = "LastGenerated"
+    return:
+      type: System.String
+    content.vb: Public Const LastGenerated As String = "LastGenerated"
   modifiers.csharp:
   - public
   - const
@@ -146,10 +176,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Freetext.MaxSuggestWords
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nMaximum number of different words to be suggested as stopwords in stopword maintenance\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -175,10 +205,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Freetext.MultiWordFTHitLimit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nMaximum number of hits returned by a multi-word freetext search (0 = no limit)\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -204,10 +234,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Freetext.MultiWordFTOperator
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nCriteria for freetext search on multiple words (1 = contains, 2 = starts with, 3 = exact match)\n<p></p>Control type: List, access: Wizard\n"
   syntax:
@@ -233,10 +263,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Freetext.SingleWordFTHitLimit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nMax. number of hits returned by a single-word freetext search (0 = no limit)\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -262,10 +292,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Freetext.SingleWordFTOperator
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nCriteria for freetext search on a single word (1 = contains, 2 = starts with, 3 = exact match)\n<p></p>Control type: List, access: Wizard\n"
   syntax:

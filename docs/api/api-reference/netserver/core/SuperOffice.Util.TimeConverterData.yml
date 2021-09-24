@@ -13,10 +13,10 @@ items:
   fullName: SuperOffice.Util.TimeConverterData
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: >-

@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Data.DashboardTileOptionType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDashboard tile option type\n"
   syntax:
@@ -50,10 +50,10 @@ items:
   fullName: SuperOffice.Data.DashboardTileOptionType.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown type\n"
   syntax:
@@ -78,10 +78,10 @@ items:
   fullName: SuperOffice.Data.DashboardTileOptionType.String
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: String\n"
   syntax:
@@ -106,10 +106,10 @@ items:
   fullName: SuperOffice.Data.DashboardTileOptionType.Integer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Integer\n"
   syntax:
@@ -134,10 +134,10 @@ items:
   fullName: SuperOffice.Data.DashboardTileOptionType.Boolean
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Boolean\n"
   syntax:
@@ -162,10 +162,10 @@ items:
   fullName: SuperOffice.Data.DashboardTileOptionType.List
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: List\n"
   syntax:

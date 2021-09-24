@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Exceptions.SoInvalidArgumentException
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nException thrown when an illegal argument was passed.\n"
   syntax:
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.Exceptions.SoInvalidArgumentException.SoInvalidArgumentException(System.String, System.Type, System.Object)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nDefault constructor.\n"
   syntax:
@@ -118,10 +118,10 @@ items:
   fullName: SuperOffice.Exceptions.SoInvalidArgumentException.SoInvalidArgumentException(System.String, System.Type, System.Object, System.Exception)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nDefault constructor.\n"
   syntax:
@@ -157,10 +157,10 @@ items:
   fullName: SuperOffice.Exceptions.SoInvalidArgumentException.ExpectedType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nThe type of argument expected.\n"
   syntax:
@@ -188,10 +188,10 @@ items:
   fullName: SuperOffice.Exceptions.SoInvalidArgumentException.RecievedValue
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nThe value received.\n"
   syntax:
@@ -219,10 +219,10 @@ items:
   fullName: SuperOffice.Exceptions.SoInvalidArgumentException.Message
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nGets a message that describes the current exception.\n"
   syntax:

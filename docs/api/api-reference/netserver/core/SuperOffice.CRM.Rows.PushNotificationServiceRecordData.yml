@@ -20,6 +20,7 @@ items:
   - SuperOffice.CRM.Rows.PushNotificationServiceRecordData.Registered
   - SuperOffice.CRM.Rows.PushNotificationServiceRecordData.RegisteredAssociateId
   - SuperOffice.CRM.Rows.PushNotificationServiceRecordData.Tags
+  - SuperOffice.CRM.Rows.PushNotificationServiceRecordData.TimeZoneId
   - SuperOffice.CRM.Rows.PushNotificationServiceRecordData.TotalNotificationCount
   - SuperOffice.CRM.Rows.PushNotificationServiceRecordData.Updated
   - SuperOffice.CRM.Rows.PushNotificationServiceRecordData.UpdatedAssociateId
@@ -546,6 +547,33 @@ items:
     return:
       type: System.String
     content.vb: Public OSVersion As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.TimeZoneId
+  commentId: F:SuperOffice.CRM.Rows.PushNotificationServiceRecordData.TimeZoneId
+  id: TimeZoneId
+  parent: SuperOffice.CRM.Rows.PushNotificationServiceRecordData
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneId
+  nameWithType: PushNotificationServiceRecordData.TimeZoneId
+  fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordData.TimeZoneId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe timezone to show for dates in messages \n"
+  syntax:
+    content: public int TimeZoneId
+    return:
+      type: System.Int32
+    content.vb: Public TimeZoneId As Integer
   modifiers.csharp:
   - public
   modifiers.vb:

@@ -20,10 +20,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.IFormattedField
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\nFormattedField interface\n"
   syntax:
@@ -50,10 +50,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.IFormattedField.Name
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\nName of the value field\n"
   syntax:
@@ -79,10 +79,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.IFormattedField.Value
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\nThe field&apos;s value\n"
   syntax:
@@ -107,10 +107,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.IFormattedField.Tooltip
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\nThe tooltip\n"
   syntax:
@@ -136,10 +136,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.IFormattedField.Label
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\nThe label of the field\n"
   syntax:
@@ -165,10 +165,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.IFormattedField.ValueLength
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\nDatabase length of the value\n"
   syntax:
@@ -194,10 +194,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.IFormattedField.AddressType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   syntax:
     content: AddressType AddressType { get; }
@@ -222,10 +222,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.IFormattedField.Flags
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\n\n"
   syntax:

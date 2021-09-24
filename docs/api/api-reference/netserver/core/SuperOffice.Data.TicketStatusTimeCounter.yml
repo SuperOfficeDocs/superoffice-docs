@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.TicketStatusTimeCounter
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nWhich field in ticket we count time spent on\nThis Enum is used by:  ticket_status.time_counter\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.TicketStatusTimeCounter.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Not counted\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.TicketStatusTimeCounter.Internally
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Time is counted in the _internally field\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.TicketStatusTimeCounter.Externally
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Time is counted in the _externally field\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.TicketStatusTimeCounter.Queue
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Time is counted in the _queue field\n"
   syntax:

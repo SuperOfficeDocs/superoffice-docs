@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.CRM.QuoteVersionStateExtensions
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nExtension for the QuoteVersionState enum.\n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.CRM.QuoteVersionStateExtensions.IsDraft(SuperOffice.Data.QuoteVersionState)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nIs the quoteversion state a draft state?\n"
   syntax:
@@ -91,10 +91,10 @@ items:
   fullName: SuperOffice.CRM.QuoteVersionStateExtensions.IsSent(SuperOffice.Data.QuoteVersionState)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nQuote versions with this state are sent to a customer\n"
   syntax:

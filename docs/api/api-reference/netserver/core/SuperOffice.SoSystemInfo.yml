@@ -37,10 +37,10 @@ items:
   fullName: SuperOffice.SoSystemInfo
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nGet information about the current system.\n"
   syntax:
@@ -79,10 +79,10 @@ items:
   fullName: SuperOffice.SoSystemInfo.GetCurrent()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public static SoSystemInfo GetCurrent()
@@ -108,10 +108,10 @@ items:
   fullName: SuperOffice.SoSystemInfo.Flush()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public abstract void Flush()
@@ -135,10 +135,10 @@ items:
   fullName: SuperOffice.SoSystemInfo.PrivateGetCarrier()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public SoSystemInfoCarrier PrivateGetCarrier()
@@ -162,10 +162,10 @@ items:
   fullName: SuperOffice.SoSystemInfo.SoSystemInfo()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: protected SoSystemInfo()
@@ -187,10 +187,10 @@ items:
   fullName: SuperOffice.SoSystemInfo.Carrier
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: protected abstract SoSystemInfoCarrier Carrier { get; }
@@ -219,10 +219,10 @@ items:
   fullName: SuperOffice.SoSystemInfo.License
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nLicense issued by SuperOffice\n"
   syntax:
@@ -250,10 +250,10 @@ items:
   fullName: SuperOffice.SoSystemInfo.WarningEnglish
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nWarning information to be displayed to the user in plain English\n"
   syntax:
@@ -281,10 +281,10 @@ items:
   fullName: SuperOffice.SoSystemInfo.WarningResource
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nWarning information to be displayed to the user in resource format.\n"
   syntax:
@@ -312,10 +312,10 @@ items:
   fullName: SuperOffice.SoSystemInfo.BranchName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nName of the branch the NetServer is built from.\n"
   syntax:
@@ -343,10 +343,10 @@ items:
   fullName: SuperOffice.SoSystemInfo.BuildLabel
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nBuild label for NetServer.\n"
   syntax:
@@ -374,10 +374,10 @@ items:
   fullName: SuperOffice.SoSystemInfo.AssemblyVersion
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nAssemblyVersion of NetServer\n"
   syntax:
@@ -405,10 +405,10 @@ items:
   fullName: SuperOffice.SoSystemInfo.FileVersion
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nFileVersion of NetServer.\n"
   syntax:
@@ -436,10 +436,10 @@ items:
   fullName: SuperOffice.SoSystemInfo.Description
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nDescription of the NetServer version.\n"
   syntax:
@@ -467,19 +467,33 @@ items:
   fullName: SuperOffice.SoSystemInfo.DaysUntilNetServerExpiry
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nDays until this version of NetServer expires\n"
   syntax:
-    content: public int DaysUntilNetServerExpiry { get; }
+    content: >-
+      [Obsolete("Netserver no longer expires", false)]
+
+      public int DaysUntilNetServerExpiry { get; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public ReadOnly Property DaysUntilNetServerExpiry As Integer
+    content.vb: >-
+      <Obsolete("Netserver no longer expires", False)>
+
+      Public ReadOnly Property DaysUntilNetServerExpiry As Integer
   overload: SuperOffice.SoSystemInfo.DaysUntilNetServerExpiry*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Netserver no longer expires
+    - type: System.Boolean
+      value: false
   modifiers.csharp:
   - public
   - get
@@ -498,10 +512,10 @@ items:
   fullName: SuperOffice.SoSystemInfo.BuildType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nType of build.\n"
   syntax:
@@ -529,10 +543,10 @@ items:
   fullName: SuperOffice.SoSystemInfo.DatabaseVersion
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nDatabase version number\n"
   syntax:
@@ -560,10 +574,10 @@ items:
   fullName: SuperOffice.SoSystemInfo.IsUnicode
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nIs the database strings formatted as Unicode (i.e. NVARCHAR)\n"
   syntax:
@@ -591,10 +605,10 @@ items:
   fullName: SuperOffice.SoSystemInfo.CompanyName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nLicense Info: Company name associated with license.\n"
   syntax:
@@ -622,10 +636,10 @@ items:
   fullName: SuperOffice.SoSystemInfo.CompanyId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nLicense Info: Company id associated with license.\n"
   syntax:
@@ -653,10 +667,10 @@ items:
   fullName: SuperOffice.SoSystemInfo.DatabaseType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nMajor name of database provider\n"
   syntax:
@@ -685,10 +699,10 @@ items:
   fullName: SuperOffice.SoSystemInfo.DatabaseMinor
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nMinor name of database provider\n"
   syntax:
@@ -716,10 +730,10 @@ items:
   fullName: SuperOffice.SoSystemInfo.DatabaseName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nName of database\n"
   syntax:
@@ -747,10 +761,10 @@ items:
   fullName: SuperOffice.SoSystemInfo.IsOnTravel
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nIs the current database on travel.\n"
   syntax:
@@ -778,10 +792,10 @@ items:
   fullName: SuperOffice.SoSystemInfo.IsSatellite
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nIs the current database a Satellite\n"
   syntax:

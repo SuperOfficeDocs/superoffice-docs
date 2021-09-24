@@ -22,10 +22,10 @@ items:
   fullName: SuperOffice.Data.DashboardTileEntityType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDashboard tile entity type\n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.Data.DashboardTileEntityType.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown entity type\n"
   syntax:
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.Data.DashboardTileEntityType.Company
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: \n"
   syntax:
@@ -110,10 +110,10 @@ items:
   fullName: SuperOffice.Data.DashboardTileEntityType.Project
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: \n"
   syntax:
@@ -138,10 +138,10 @@ items:
   fullName: SuperOffice.Data.DashboardTileEntityType.Sale
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: \n"
   syntax:
@@ -166,10 +166,10 @@ items:
   fullName: SuperOffice.Data.DashboardTileEntityType.Product
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: \n"
   syntax:
@@ -194,10 +194,10 @@ items:
   fullName: SuperOffice.Data.DashboardTileEntityType.Activity
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: \n"
   syntax:
@@ -222,10 +222,10 @@ items:
   fullName: SuperOffice.Data.DashboardTileEntityType.Document
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: \n"
   syntax:
@@ -250,10 +250,10 @@ items:
   fullName: SuperOffice.Data.DashboardTileEntityType.WebPanel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: \n"
   syntax:
@@ -278,10 +278,10 @@ items:
   fullName: SuperOffice.Data.DashboardTileEntityType.Followup
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: \n"
   syntax:

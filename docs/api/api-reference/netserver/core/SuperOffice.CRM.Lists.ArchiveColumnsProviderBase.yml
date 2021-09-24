@@ -38,6 +38,7 @@ items:
   - System.Object
   - SuperOffice.CRM.ArchiveLists.ArchiveConfigurationProviderBase
   derivedClasses:
+  - SuperOffice.CRM.ArchiveLists.DashboardColumnsProvider
   - SuperOffice.CRM.ArchiveLists.RestrictionColumnsProvider
   - SuperOffice.CRM.ArchiveLists.VisibleColumnsProvider
   implements:

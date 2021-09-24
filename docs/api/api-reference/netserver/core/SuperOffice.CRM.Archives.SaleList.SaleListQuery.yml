@@ -6,7 +6,6 @@ items:
   parent: SuperOffice.CRM.Archives
   children:
   - SuperOffice.CRM.Archives.SaleList.SaleListQuery.AssociateTableInfo
-  - SuperOffice.CRM.Archives.SaleList.SaleListQuery.Completed
   - SuperOffice.CRM.Archives.SaleList.SaleListQuery.ContactTableInfo
   - SuperOffice.CRM.Archives.SaleList.SaleListQuery.CurrencyTableInfo
   - SuperOffice.CRM.Archives.SaleList.SaleListQuery.op_Implicit(SuperOffice.CRM.Archives.SaleList.SaleListQuery)~SuperOffice.CRM.Archives.SaleList
@@ -453,37 +452,6 @@ items:
       type: SuperOffice.CRM.Data.SaleTypeTableInfo
     content.vb: Public ReadOnly Property SaleTypeTableInfo As SaleTypeTableInfo
   overload: SuperOffice.CRM.Archives.SaleList.SaleListQuery.SaleTypeTableInfo*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Archives.SaleList.SaleListQuery.Completed
-  commentId: P:SuperOffice.CRM.Archives.SaleList.SaleListQuery.Completed
-  id: Completed
-  parent: SuperOffice.CRM.Archives.SaleList.SaleListQuery
-  langs:
-  - csharp
-  - vb
-  name: Completed
-  nameWithType: SaleList.SaleListQuery.Completed
-  fullName: SuperOffice.CRM.Archives.SaleList.SaleListQuery.Completed
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Archives
-  summary: "\nGet Completed\n"
-  syntax:
-    content: public short Completed { get; }
-    parameters: []
-    return:
-      type: System.Int16
-    content.vb: Public ReadOnly Property Completed As Short
-  overload: SuperOffice.CRM.Archives.SaleList.SaleListQuery.Completed*
   modifiers.csharp:
   - public
   - get
@@ -2513,16 +2481,3 @@ references:
   name: SaleTypeTableInfo
   nameWithType: SaleTypeTableInfo
   fullName: SuperOffice.CRM.Data.SaleTypeTableInfo
-- uid: SuperOffice.CRM.Archives.SaleList.SaleListQuery.Completed*
-  commentId: Overload:SuperOffice.CRM.Archives.SaleList.SaleListQuery.Completed
-  isExternal: true
-  name: Completed
-  nameWithType: SaleList.SaleListQuery.Completed
-  fullName: SuperOffice.CRM.Archives.SaleList.SaleListQuery.Completed
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16

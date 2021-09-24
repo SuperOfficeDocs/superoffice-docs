@@ -346,10 +346,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public enum CSRegistryEntry
@@ -377,10 +377,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.RegistryEntry_End
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: RegistryEntry_End = 0
@@ -404,10 +404,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.EjournalSender
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: EjournalSender = 1
@@ -431,10 +431,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CleanerThreshold
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CleanerThreshold = 2
@@ -458,10 +458,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CleanerTolerance
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CleanerTolerance = 3
@@ -485,10 +485,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.EjournalCronLast
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: EjournalCronLast = 4
@@ -512,10 +512,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.EjournalCronNow
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: EjournalCronNow = 5
@@ -539,10 +539,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CleanerOnOff
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CleanerOnOff = 6
@@ -566,10 +566,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CleanerImportOnOff
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CleanerImportOnOff = 7
@@ -593,10 +593,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.NotifyActiveTickets
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: NotifyActiveTickets = 8
@@ -620,10 +620,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ActiveLinksInMessages
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ActiveLinksInMessages = 9
@@ -647,10 +647,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SmtpTimeout
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SmtpTimeout = 10
@@ -674,10 +674,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ReplyTemplateCustomerNewCustomer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ReplyTemplateCustomerNewCustomer = 11
@@ -701,10 +701,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ReplyTemplateCustomerCustomerReply
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ReplyTemplateCustomerCustomerReply = 12
@@ -728,10 +728,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ReplyTemplateCustomerPassword
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ReplyTemplateCustomerPassword = 13
@@ -755,10 +755,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ReplyTemplateUserActiveTickets
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ReplyTemplateUserActiveTickets = 14
@@ -782,10 +782,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ReplyTemplateUserNewMessage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ReplyTemplateUserNewMessage = 15
@@ -809,10 +809,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ReplyTemplateUserTicketActivated
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ReplyTemplateUserTicketActivated = 16
@@ -836,10 +836,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ReplyTemplateUserTicketAlarm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ReplyTemplateUserTicketAlarm = 17
@@ -863,10 +863,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ReplyTemplateUserNewTicket
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ReplyTemplateUserNewTicket = 18
@@ -890,10 +890,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SetupCompanyName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SetupCompanyName = 19
@@ -917,10 +917,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SetupCompanyAddress
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SetupCompanyAddress = 20
@@ -944,10 +944,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.NotifyActiveTicketsDays
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: NotifyActiveTicketsDays = 21
@@ -971,10 +971,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.EjournalOutbox
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: EjournalOutbox = 22
@@ -998,10 +998,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.OutmailWrapColumn
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: OutmailWrapColumn = 23
@@ -1025,10 +1025,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.EnableBackdoor
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: EnableBackdoor = 24
@@ -1052,10 +1052,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.EjournalOutboxDelay
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: EjournalOutboxDelay = 25
@@ -1079,10 +1079,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DisableHtmlFiltering
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DisableHtmlFiltering = 26
@@ -1106,10 +1106,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.FaqTitleWeight
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: FaqTitleWeight = 27
@@ -1133,10 +1133,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ChatWhoisString
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ChatWhoisString = 28
@@ -1160,10 +1160,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.FaqSuggestions
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: FaqSuggestions = 29
@@ -1187,10 +1187,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ChatAvailableImage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ChatAvailableImage = 30
@@ -1214,10 +1214,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ChatUnavailableImage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ChatUnavailableImage = 31
@@ -1241,10 +1241,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ImportMailTimeout
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ImportMailTimeout = 32
@@ -1268,10 +1268,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ShowReplyTemplatesToCustomers
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ShowReplyTemplatesToCustomers = 33
@@ -1295,10 +1295,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.LastRequestTicketLimit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: LastRequestTicketLimit = 34
@@ -1322,10 +1322,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.LastRequestDaysLimit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: LastRequestDaysLimit = 35
@@ -1349,10 +1349,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.NoEjOutbox
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: NoEjOutbox = 36
@@ -1376,10 +1376,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.IdleLimitCustomerSeconds
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: IdleLimitCustomerSeconds = 37
@@ -1403,10 +1403,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ReplyTemplateUserTicketTakenOver
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ReplyTemplateUserTicketTakenOver = 38
@@ -1430,10 +1430,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.EnableSpellCheck27
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: EnableSpellCheck27 = 39
@@ -1457,10 +1457,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.LogPath
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: LogPath = 40
@@ -1484,10 +1484,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.NumOfListedLinks
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: NumOfListedLinks = 41
@@ -1511,10 +1511,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ReplyTemplatePublishKbQuestion
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ReplyTemplatePublishKbQuestion = 42
@@ -1538,10 +1538,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ReplyTemplatePublishKbAnswer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ReplyTemplatePublishKbAnswer = 43
@@ -1565,10 +1565,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.InvoiceUpdateDone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: InvoiceUpdateDone = 44
@@ -1592,10 +1592,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DefaultTimeToReplyOnNewTicket
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DefaultTimeToReplyOnNewTicket = 45
@@ -1619,10 +1619,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ShowAutoRepliesToCustomers
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ShowAutoRepliesToCustomers = 46
@@ -1646,10 +1646,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.EjournalOutboxDeleteSentMailAfter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: EjournalOutboxDeleteSentMailAfter = 47
@@ -1673,10 +1673,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.AllwaysSendMailToNewCustomers
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AllwaysSendMailToNewCustomers = 48
@@ -1700,10 +1700,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.IdleLimitCustomerSecondsWeb
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: IdleLimitCustomerSecondsWeb = 49
@@ -1727,10 +1727,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ExternalCustomerAuthEnabled
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ExternalCustomerAuthEnabled = 50
@@ -1754,10 +1754,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ExternalCustomerAuthURL
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ExternalCustomerAuthURL = 51
@@ -1781,10 +1781,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DoNotTestSmtp
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DoNotTestSmtp = 52
@@ -1808,10 +1808,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DelayMailboxImport
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DelayMailboxImport = 53
@@ -1835,10 +1835,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.MaxLoginAttempts
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: MaxLoginAttempts = 54
@@ -1862,10 +1862,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.BlockLoginAttempts
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: BlockLoginAttempts = 55
@@ -1889,10 +1889,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ReplyTemplateWeekStat
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ReplyTemplateWeekStat = 56
@@ -1916,10 +1916,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.WeekStatRecipient
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: WeekStatRecipient = 57
@@ -1943,10 +1943,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.HideUserStatistics
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: HideUserStatistics = 58
@@ -1970,10 +1970,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SystemTimeMode
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SystemTimeMode = 59
@@ -1997,10 +1997,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SMTPIgnoreLeadingDotEscaping
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SMTPIgnoreLeadingDotEscaping = 60
@@ -2024,10 +2024,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.BaseURLForFAQEntry
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: BaseURLForFAQEntry = 61
@@ -2051,10 +2051,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.BaseURLForFAQCategory
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: BaseURLForFAQCategory = 62
@@ -2078,10 +2078,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SystemTimeModeInstalled
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SystemTimeModeInstalled = 63
@@ -2105,10 +2105,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.BlockCustomerFAQParsing
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: BlockCustomerFAQParsing = 64
@@ -2132,10 +2132,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ChatUserIdleTime
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ChatUserIdleTime = 65
@@ -2159,10 +2159,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.AlertChatMessages
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AlertChatMessages = 66
@@ -2186,10 +2186,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DisableExternalSpmUpdate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DisableExternalSpmUpdate = 67
@@ -2213,10 +2213,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SpmSMTPServer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SpmSMTPServer = 68
@@ -2240,10 +2240,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SpmDefaultFrom
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SpmDefaultFrom = 69
@@ -2267,10 +2267,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.NotificationExpire
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: NotificationExpire = 70
@@ -2294,10 +2294,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CrystalReportsSoapEndpoint
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CrystalReportsSoapEndpoint = 71
@@ -2321,10 +2321,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DoNotSearchBodyForTag
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DoNotSearchBodyForTag = 72
@@ -2348,10 +2348,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ReplyTemplateHotlistNewMessage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ReplyTemplateHotlistNewMessage = 73
@@ -2375,10 +2375,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ReplyTemplateHotlistTicketActivated
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ReplyTemplateHotlistTicketActivated = 74
@@ -2402,10 +2402,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ReplyTemplateHotlistTicketAlarm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ReplyTemplateHotlistTicketAlarm = 75
@@ -2429,10 +2429,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ReplyTemplateHotlistTicketTakenOver
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ReplyTemplateHotlistTicketTakenOver = 76
@@ -2456,10 +2456,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.LogChannels
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: LogChannels = 77
@@ -2483,10 +2483,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ShowTotalInvoiceUnits
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ShowTotalInvoiceUnits = 78
@@ -2510,10 +2510,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.MinimumDiskSpace
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: MinimumDiskSpace = 79
@@ -2537,10 +2537,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DecodingMailSorter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DecodingMailSorter = 80
@@ -2564,10 +2564,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ImportMail3ExpireTime
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ImportMail3ExpireTime = 81
@@ -2591,10 +2591,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ImportMail3ExpireTimeAnalyze
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ImportMail3ExpireTimeAnalyze = 82
@@ -2618,10 +2618,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.StripNewLineInParser
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: StripNewLineInParser = 83
@@ -2645,10 +2645,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.LastDiskSpaceWarningAttachments
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: LastDiskSpaceWarningAttachments = 84
@@ -2672,10 +2672,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.LastDiskSpaceWarningBase
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: LastDiskSpaceWarningBase = 85
@@ -2699,10 +2699,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.LastDiskSpaceWarningText
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: LastDiskSpaceWarningText = 86
@@ -2726,10 +2726,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.EnableNewImportMail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: EnableNewImportMail = 87
@@ -2753,10 +2753,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.EnableEjStat
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: EnableEjStat = 88
@@ -2780,10 +2780,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SmsServiceId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SmsServiceId = 89
@@ -2807,10 +2807,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SmsServiceEndpoint
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SmsServiceEndpoint = 90
@@ -2834,10 +2834,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.MaximumSmsMessagesPerDay
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: MaximumSmsMessagesPerDay = 91
@@ -2861,10 +2861,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.MaximumSmsMessagesPerRecipient
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: MaximumSmsMessagesPerRecipient = 92
@@ -2888,10 +2888,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CellphoneUpdateDone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CellphoneUpdateDone = 93
@@ -2915,10 +2915,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DefaultSmsCountry
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DefaultSmsCountry = 94
@@ -2942,10 +2942,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DbIntegratorEnableStreaming
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DbIntegratorEnableStreaming = 95
@@ -2969,10 +2969,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ScreenChooserNewTicket
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ScreenChooserNewTicket = 96
@@ -2996,10 +2996,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ScreenChooserListTicketTop
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ScreenChooserListTicketTop = 97
@@ -3023,10 +3023,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ScreenChooserListTicketMessages
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ScreenChooserListTicketMessages = 98
@@ -3050,10 +3050,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ScreenChooserAddMessage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ScreenChooserAddMessage = 99
@@ -3077,10 +3077,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ScreenChooserEditTicket
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ScreenChooserEditTicket = 100
@@ -3104,10 +3104,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ScreenChooserViewCustomer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ScreenChooserViewCustomer = 101
@@ -3131,10 +3131,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ScreenChooserViewCompany
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ScreenChooserViewCompany = 102
@@ -3158,10 +3158,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ScreenChooserTicketMainMenu
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ScreenChooserTicketMainMenu = 103
@@ -3185,10 +3185,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.MaximumCountRecipients
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: MaximumCountRecipients = 104
@@ -3212,10 +3212,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.EnableEditMessage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: EnableEditMessage = 105
@@ -3239,10 +3239,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.EnableNewGui
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: EnableNewGui = 106
@@ -3266,10 +3266,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.HideContactPersonPassword
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: HideContactPersonPassword = 107
@@ -3293,10 +3293,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ShowBlogicMenu
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ShowBlogicMenu = 108
@@ -3320,10 +3320,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.WwwPath
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: WwwPath = 109
@@ -3347,10 +3347,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UseParserInDBIntegrator
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UseParserInDBIntegrator = 110
@@ -3374,10 +3374,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CollapsableMessageStrings
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CollapsableMessageStrings = 111
@@ -3401,10 +3401,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.RefreshNotifyFrameDeprecated
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: RefreshNotifyFrameDeprecated = 112
@@ -3428,10 +3428,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CopyLDAPSearchBase
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CopyLDAPSearchBase = 113
@@ -3455,10 +3455,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UseHtmlRedirect
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UseHtmlRedirect = 114
@@ -3482,10 +3482,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ImportMailProcPri
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ImportMailProcPri = 115
@@ -3509,10 +3509,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.KeepWarningLog
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: KeepWarningLog = 116
@@ -3536,10 +3536,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.KeepDbLog
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: KeepDbLog = 117
@@ -3563,10 +3563,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.KeepFormKeys
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: KeepFormKeys = 118
@@ -3590,10 +3590,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.InternalMessageWhenNotCustomer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: InternalMessageWhenNotCustomer = 119
@@ -3617,10 +3617,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SoapSystemUserPassword
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SoapSystemUserPassword = 120
@@ -3644,10 +3644,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CreateExtraTableDbiFields
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CreateExtraTableDbiFields = 121
@@ -3671,10 +3671,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UseOldMailInFilterRegExp
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UseOldMailInFilterRegExp = 122
@@ -3698,10 +3698,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.NewInvoiceEntryFormat
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: NewInvoiceEntryFormat = 123
@@ -3725,10 +3725,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.IgnoreReturnPath
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: IgnoreReturnPath = 124
@@ -3752,10 +3752,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ConvertProfilesToClob
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ConvertProfilesToClob = 125
@@ -3779,10 +3779,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ReportStartRootFolder
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ReportStartRootFolder = 126
@@ -3806,10 +3806,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ParseCustomerFields
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ParseCustomerFields = 127
@@ -3833,10 +3833,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ArriveNewTicket
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ArriveNewTicket = 128
@@ -3860,10 +3860,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ImportMessageAsAttachment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ImportMessageAsAttachment = 129
@@ -3887,10 +3887,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DBIBetaRelease
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DBIBetaRelease = 130
@@ -3914,10 +3914,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DBIExecutable
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DBIExecutable = 131
@@ -3941,10 +3941,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.MailFilterMinFaqValue
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: MailFilterMinFaqValue = 132
@@ -3968,10 +3968,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.AutoStartTimer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AutoStartTimer = 133
@@ -3995,10 +3995,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ScreenChooserInvoiceStat
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ScreenChooserInvoiceStat = 134
@@ -4022,10 +4022,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.LimitSearchExtraTableResult
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: LimitSearchExtraTableResult = 135
@@ -4049,10 +4049,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UseWebServiceSms
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UseWebServiceSms = 136
@@ -4076,10 +4076,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.LastLicenseInfo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: LastLicenseInfo = 137
@@ -4103,10 +4103,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SmsSender
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SmsSender = 138
@@ -4130,10 +4130,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SmsChannel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SmsChannel = 139
@@ -4157,10 +4157,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UseSmsDeliveryReport
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UseSmsDeliveryReport = 140
@@ -4184,10 +4184,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UpdateTicketCustomersDone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UpdateTicketCustomersDone = 141
@@ -4211,10 +4211,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ScreenChooserHelpPage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ScreenChooserHelpPage = 142
@@ -4238,10 +4238,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CustomerEncryptionMethod
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CustomerEncryptionMethod = 143
@@ -4265,10 +4265,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UpgradeCustomerPasswordStatus
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UpgradeCustomerPasswordStatus = 144
@@ -4292,10 +4292,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UpgradeScreenDefinitionsToScripts
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UpgradeScreenDefinitionsToScripts = 145
@@ -4319,10 +4319,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SpmUseHtmlEditor
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SpmUseHtmlEditor = 146
@@ -4346,10 +4346,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.InvoiceEntrySumAdded
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: InvoiceEntrySumAdded = 147
@@ -4373,10 +4373,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.LastnameFirst
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: LastnameFirst = 148
@@ -4400,10 +4400,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SpmUseDeliveryReport
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SpmUseDeliveryReport = 149
@@ -4427,10 +4427,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DoNotKickLoginSessions
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DoNotKickLoginSessions = 150
@@ -4454,10 +4454,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ScreenChooserUsers
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ScreenChooserUsers = 151
@@ -4481,10 +4481,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ScreenChooserPriorities
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ScreenChooserPriorities = 152
@@ -4508,10 +4508,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UseSafeParserFunction
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UseSafeParserFunction = 153
@@ -4535,10 +4535,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ScreenChooserCategories
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ScreenChooserCategories = 154
@@ -4562,10 +4562,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UpdateCustomerEmails
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UpdateCustomerEmails = 155
@@ -4589,10 +4589,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DirtyTicketSaveEvent
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DirtyTicketSaveEvent = 156
@@ -4616,10 +4616,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.PasteFaq
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: PasteFaq = 157
@@ -4643,10 +4643,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.EjSenderVersion
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: EjSenderVersion = 158
@@ -4670,10 +4670,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DefaultTicketStatusOpen
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DefaultTicketStatusOpen = 159
@@ -4697,10 +4697,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DefaultTicketStatusClosed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DefaultTicketStatusClosed = 160
@@ -4724,10 +4724,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DefaultTicketStatusInactive
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DefaultTicketStatusInactive = 161
@@ -4751,10 +4751,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DefaultTicketStatusDeleted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DefaultTicketStatusDeleted = 162
@@ -4778,10 +4778,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DefaultTicketStatusConnected
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DefaultTicketStatusConnected = 163
@@ -4805,10 +4805,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UseOldHtmlSelectTreeLayout
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UseOldHtmlSelectTreeLayout = 164
@@ -4832,10 +4832,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ScreenChooserKnowledgeListFolders
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ScreenChooserKnowledgeListFolders = 165
@@ -4859,10 +4859,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ScreenChooserKnowledgeEditKbEntry
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ScreenChooserKnowledgeEditKbEntry = 166
@@ -4886,10 +4886,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ScreenChooserKnowledgeViewKbEntry
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ScreenChooserKnowledgeViewKbEntry = 167
@@ -4913,10 +4913,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ConvertRegScreenChoosersToTable
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ConvertRegScreenChoosersToTable = 168
@@ -4940,10 +4940,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SmsProvider
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SmsProvider = 169
@@ -4967,10 +4967,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.PsWinComUsername
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: PsWinComUsername = 170
@@ -4994,10 +4994,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.PsWinComPassword
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: PsWinComPassword = 171
@@ -5021,10 +5021,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.PsWinComSender
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: PsWinComSender = 172
@@ -5048,10 +5048,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UpgradeNotPresentComment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UpgradeNotPresentComment = 173
@@ -5075,10 +5075,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UseWordByWordKbSearch
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UseWordByWordKbSearch = 174
@@ -5102,10 +5102,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SearchSubjectBeforeMsgId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SearchSubjectBeforeMsgId = 175
@@ -5129,10 +5129,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UpgradeTicketStatusName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UpgradeTicketStatusName = 176
@@ -5156,10 +5156,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UseOnlyOneCookie
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UseOnlyOneCookie = 177
@@ -5183,10 +5183,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ViewCompanyWithPanes
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ViewCompanyWithPanes = 178
@@ -5210,10 +5210,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ViewCustomerWithPanes
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ViewCustomerWithPanes = 179
@@ -5237,10 +5237,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ReplacedLangFrWithSe
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ReplacedLangFrWithSe = 180
@@ -5264,10 +5264,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ViewExtraTableEntryWithPanes
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ViewExtraTableEntryWithPanes = 181
@@ -5291,10 +5291,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.OldMessageBeforeSignature
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: OldMessageBeforeSignature = 182
@@ -5318,10 +5318,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ViewTicketWithPanes
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ViewTicketWithPanes = 183
@@ -5345,10 +5345,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.FixCreationScripts
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: FixCreationScripts = 184
@@ -5372,10 +5372,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DefaultNoCustomerOnForwarding
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DefaultNoCustomerOnForwarding = 185
@@ -5399,10 +5399,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ForceHTTPS
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ForceHTTPS = 186
@@ -5426,10 +5426,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UseEjParserForTemplates
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UseEjParserForTemplates = 187
@@ -5453,10 +5453,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CrossPostMergeTimeWindow
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CrossPostMergeTimeWindow = 188
@@ -5480,10 +5480,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UseAbsoluteURLsInHTML
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UseAbsoluteURLsInHTML = 189
@@ -5507,10 +5507,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DelegateAlgorithm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DelegateAlgorithm = 190
@@ -5534,10 +5534,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DisplayDataSources
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DisplayDataSources = 191
@@ -5561,10 +5561,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.InlineImagesDefault
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: InlineImagesDefault = 192
@@ -5588,10 +5588,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.LogoutUrl
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: LogoutUrl = 193
@@ -5615,10 +5615,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ProfilesConverted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ProfilesConverted = 194
@@ -5642,10 +5642,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DefaultBlogicScreensOnEditTicket
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DefaultBlogicScreensOnEditTicket = 195
@@ -5669,10 +5669,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SearchToSelections
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SearchToSelections = 196
@@ -5696,10 +5696,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.PhoneUpdateDone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: PhoneUpdateDone = 197
@@ -5723,10 +5723,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.FaqAddCommentsAccess
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: FaqAddCommentsAccess = 198
@@ -5750,10 +5750,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.FaqReadCommentsAccess
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: FaqReadCommentsAccess = 199
@@ -5777,10 +5777,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SpmSMTPServerPort
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SpmSMTPServerPort = 200
@@ -5804,10 +5804,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.MapiServerAppendString
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: MapiServerAppendString = 202
@@ -5831,10 +5831,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CarrotUsername
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CarrotUsername = 203
@@ -5858,10 +5858,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CarrotPassword
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CarrotPassword = 204
@@ -5885,10 +5885,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UnicodeConvertedTemplateFolder
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UnicodeConvertedTemplateFolder = 205
@@ -5912,10 +5912,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SuperOfficeIntegrationPassword
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SuperOfficeIntegrationPassword = 206
@@ -5939,10 +5939,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UpdateUserDateFormatsDone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UpdateUserDateFormatsDone = 207
@@ -5966,10 +5966,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CellphoneAndPhoneUpdateDone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CellphoneAndPhoneUpdateDone = 208
@@ -5993,10 +5993,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UnpublishedWorkflowName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UnpublishedWorkflowName = 209
@@ -6020,10 +6020,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.PublishedWorkflowName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: PublishedWorkflowName = 210
@@ -6047,10 +6047,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ExpiredWorkflowName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ExpiredWorkflowName = 211
@@ -6074,10 +6074,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.NotifyFramePidGain
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: NotifyFramePidGain = 212
@@ -6101,10 +6101,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.NotifyFramePidParamsDeprecated
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: NotifyFramePidParamsDeprecated = 213
@@ -6128,10 +6128,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.NotifyFrameServerLoad
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: NotifyFrameServerLoad = 214
@@ -6155,10 +6155,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.Tele2SmsUsername
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Tele2SmsUsername = 215
@@ -6182,10 +6182,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.Tele2SmsPassword
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Tele2SmsPassword = 216
@@ -6209,10 +6209,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.Tele2Endpoint
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Tele2Endpoint = 217
@@ -6236,10 +6236,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UpdateFaqAccessToWorkflowDone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UpdateFaqAccessToWorkflowDone = 218
@@ -6263,10 +6263,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UserSignaturesConvertedToHtml
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UserSignaturesConvertedToHtml = 219
@@ -6290,10 +6290,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.OracleIndexesUpdated
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: OracleIndexesUpdated = 220
@@ -6317,10 +6317,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SpmOnlyPrimaryOnTicketSelection
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SpmOnlyPrimaryOnTicketSelection = 221
@@ -6344,10 +6344,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SpmMsgTicketParserUpdateDone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SpmMsgTicketParserUpdateDone = 222
@@ -6371,10 +6371,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UserOldScreensOnEditTicketDone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UserOldScreensOnEditTicketDone = 223
@@ -6398,10 +6398,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UseFullText
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UseFullText = 224
@@ -6425,10 +6425,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.HideIntegratedEjSpmBlock
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: HideIntegratedEjSpmBlock = 225
@@ -6452,10 +6452,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SelectCustomerColumns
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SelectCustomerColumns = 226
@@ -6479,10 +6479,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SelectCompanyColumns
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SelectCompanyColumns = 227
@@ -6506,10 +6506,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SelectTicketColumns
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SelectTicketColumns = 228
@@ -6533,10 +6533,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UpdatedActivateField
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UpdatedActivateField = 229
@@ -6560,10 +6560,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SpmImgDBCopied
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SpmImgDBCopied = 230
@@ -6587,10 +6587,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SecurityModelEnabled
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SecurityModelEnabled = 231
@@ -6614,10 +6614,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.BlockPanesRenderMode
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: BlockPanesRenderMode = 232
@@ -6641,10 +6641,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UseMiddleName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UseMiddleName = 233
@@ -6668,10 +6668,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.NSConvertedProfiles
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: NSConvertedProfiles = 234
@@ -6695,10 +6695,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.AllowSentryBypass
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AllowSentryBypass = 235
@@ -6722,10 +6722,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CrmGroup
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CrmGroup = 236
@@ -6749,10 +6749,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CrmRoleAdmin
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CrmRoleAdmin = 237
@@ -6776,10 +6776,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CrmRoleStandard
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CrmRoleStandard = 238
@@ -6803,10 +6803,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.LastLicenseExpirationCheck
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: LastLicenseExpirationCheck = 239
@@ -6830,10 +6830,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ReplyTemplateLicenseExpirationWarning
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ReplyTemplateLicenseExpirationWarning = 240
@@ -6857,10 +6857,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CrmRoleCustomer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CrmRoleCustomer = 241
@@ -6884,10 +6884,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SystemNSKey
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SystemNSKey = 242
@@ -6911,10 +6911,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.AnonNSKey
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AnonNSKey = 243
@@ -6938,10 +6938,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DBSchemaDirty
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DBSchemaDirty = 244
@@ -6965,10 +6965,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.NSGetKeyPath
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: NSGetKeyPath = 245
@@ -6992,10 +6992,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.EmarketeerNewLinkGraceDate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: EmarketeerNewLinkGraceDate = 246
@@ -7019,10 +7019,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CustomNotifyEnabled
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CustomNotifyEnabled = 247
@@ -7046,10 +7046,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ConverterDone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ConverterDone = 248
@@ -7073,10 +7073,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.NetServerKeepAlive
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: NetServerKeepAlive = 249
@@ -7100,10 +7100,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.TimeZoneForNetServer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: TimeZoneForNetServer = 250
@@ -7127,10 +7127,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UseExtension
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UseExtension = 251
@@ -7154,10 +7154,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CustomerEnableFAQAjax
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CustomerEnableFAQAjax = 252
@@ -7181,10 +7181,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UseAttachmentFolders
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UseAttachmentFolders = 253
@@ -7208,10 +7208,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DoNotChangeSMRoles
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DoNotChangeSMRoles = 254
@@ -7235,10 +7235,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ShowAvatarsInCustomerCentre
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ShowAvatarsInCustomerCentre = 255
@@ -7262,10 +7262,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SearchEngineFilters
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SearchEngineFilters = 256
@@ -7289,10 +7289,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UseNetServerSms
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UseNetServerSms = 257
@@ -7316,10 +7316,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.NetServerSmsProvider
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: NetServerSmsProvider = 258
@@ -7343,10 +7343,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.NsPluginSender
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: NsPluginSender = 259
@@ -7370,10 +7370,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SetupFCGI
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SetupFCGI = 260
@@ -7397,10 +7397,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UseFCGIImpersonation
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UseFCGIImpersonation = 261
@@ -7424,10 +7424,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SoapUseExtension
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SoapUseExtension = 262
@@ -7451,10 +7451,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UseAutoSuppressHeader
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UseAutoSuppressHeader = 263
@@ -7478,10 +7478,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ExampleBounceFilterAdded
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ExampleBounceFilterAdded = 264
@@ -7505,10 +7505,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SLinkCleanUpDone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SLinkCleanUpDone = 265
@@ -7532,10 +7532,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.IncomingSmsBox
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: IncomingSmsBox = 266
@@ -7559,10 +7559,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.AddedLegalHtmlCodeInUpgrade
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AddedLegalHtmlCodeInUpgrade = 267
@@ -7586,10 +7586,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DefaultEditorContent
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DefaultEditorContent = 268
@@ -7613,10 +7613,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UseBrowserSpellCheck
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UseBrowserSpellCheck = 269
@@ -7640,10 +7640,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UseCalltoOnPhoneLinks
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UseCalltoOnPhoneLinks = 270
@@ -7667,10 +7667,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ShowSubmitSpinner
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ShowSubmitSpinner = 280
@@ -7694,10 +7694,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.AccessLicensePageWithoutLogin
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessLicensePageWithoutLogin = 281
@@ -7721,10 +7721,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.HideExportButton
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: HideExportButton = 282
@@ -7748,10 +7748,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.QueueTicketStatuses
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: QueueTicketStatuses = 283
@@ -7775,10 +7775,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ImageResizerExecutable
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ImageResizerExecutable = 284
@@ -7802,10 +7802,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CleanupLinefeedInNSMail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CleanupLinefeedInNSMail = 285
@@ -7829,10 +7829,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CheckHtmlValidityInSOEditor
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CheckHtmlValidityInSOEditor = 286
@@ -7856,10 +7856,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UpgradeCSParserConverted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UpgradeCSParserConverted = 287
@@ -7883,10 +7883,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DefaultEditorBodyFont
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DefaultEditorBodyFont = 288
@@ -7910,10 +7910,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CustomCacheBustingParameter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CustomCacheBustingParameter = 289
@@ -7937,10 +7937,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UseSha1OnLinks
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UseSha1OnLinks = 290
@@ -7964,10 +7964,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UpgradeRolesConverted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UpgradeRolesConverted = 291
@@ -7991,10 +7991,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DeleteInboxDays
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DeleteInboxDays = 292
@@ -8018,10 +8018,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UserGroupsConverted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UserGroupsConverted = 293
@@ -8045,10 +8045,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UserAgentIsMobile
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UserAgentIsMobile = 294
@@ -8072,10 +8072,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UserAgentIsTablet
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UserAgentIsTablet = 295
@@ -8099,10 +8099,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DefaultStatusWhenTakingOwnership
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DefaultStatusWhenTakingOwnership = 296
@@ -8126,10 +8126,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DisableUnauthenticatedCreationInCustomerCentre
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DisableUnauthenticatedCreationInCustomerCentre = 297
@@ -8153,10 +8153,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.RegisterCustomerConfirmEmail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: RegisterCustomerConfirmEmail = 298
@@ -8180,10 +8180,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ReplyTemplateCustomerConfirmEmail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ReplyTemplateCustomerConfirmEmail = 299
@@ -8207,10 +8207,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ReplyToAllOnlyLatestExternalMessage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ReplyToAllOnlyLatestExternalMessage = 300
@@ -8234,10 +8234,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.LastCleanedExpiredNotify
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: LastCleanedExpiredNotify = 301
@@ -8261,10 +8261,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.eMarketingEditorInNewWindow
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: eMarketingEditorInNewWindow = 302
@@ -8288,10 +8288,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.FacebookCallbackKey
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: FacebookCallbackKey = 303
@@ -8315,10 +8315,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.MaxRowsForCharts
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: MaxRowsForCharts = 304
@@ -8342,10 +8342,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SpmDefaultMailingRate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SpmDefaultMailingRate = 305
@@ -8369,10 +8369,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SpmConcurrentSMTPThreads
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SpmConcurrentSMTPThreads = 306
@@ -8396,10 +8396,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SpmHideNewMessageOption
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SpmHideNewMessageOption = 307
@@ -8423,10 +8423,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.SpmTimeToRestartSenders
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SpmTimeToRestartSenders = 308
@@ -8450,10 +8450,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ShowOldReportsMenu
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ShowOldReportsMenu = 309
@@ -8477,10 +8477,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.EmailSendingRetryLimit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: EmailSendingRetryLimit = 310
@@ -8504,10 +8504,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ThumbnailsIsDefaultMode
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ThumbnailsIsDefaultMode = 311
@@ -8531,10 +8531,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UsageStatsWinNextRun
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UsageStatsWinNextRun = 312
@@ -8558,10 +8558,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UsageStatsWebNextRun
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UsageStatsWebNextRun = 313
@@ -8585,10 +8585,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UsageStatsDataAddNextRun
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UsageStatsDataAddNextRun = 314
@@ -8612,10 +8612,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UsageStatsTableSizeNextRun
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UsageStatsTableSizeNextRun = 315
@@ -8639,10 +8639,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UserSyncResyncNextRun
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UserSyncResyncNextRun = 316
@@ -8666,10 +8666,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ForceIEEdgeMode
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ForceIEEdgeMode = 317
@@ -8693,10 +8693,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CSPHeader
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CSPHeader = 318
@@ -8720,10 +8720,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.NotifyTimeOfDayForReport
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: NotifyTimeOfDayForReport = 319
@@ -8747,10 +8747,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.EmailImplementation
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: EmailImplementation = 320
@@ -8774,10 +8774,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CurlMailTransferTimeout
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CurlMailTransferTimeout = 321
@@ -8801,10 +8801,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.CurlDisableStartTls
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: CurlDisableStartTls = 322
@@ -8828,10 +8828,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ReplyTemplatePrintTicket
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ReplyTemplatePrintTicket = 323
@@ -8855,10 +8855,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DoNotUseCompanyCountry
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DoNotUseCompanyCountry = 324
@@ -8882,10 +8882,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.MaxGridRows
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: MaxGridRows = 325
@@ -8909,10 +8909,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DoNotAllowMultipleLogins
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DoNotAllowMultipleLogins = 326
@@ -8936,10 +8936,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.NsPluginConfig
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: NsPluginConfig = 327
@@ -8963,10 +8963,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ReplyTemplateCustomerChatLog
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ReplyTemplateCustomerChatLog = 328
@@ -8990,10 +8990,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.MailgunIncludeOutOfOffice
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: MailgunIncludeOutOfOffice = 329
@@ -9017,10 +9017,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.TimeKeyTTL
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: TimeKeyTTL = 330
@@ -9044,10 +9044,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.DefaultTrackAllLinks
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DefaultTrackAllLinks = 331
@@ -9071,10 +9071,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.AddedOptionsFcgi
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AddedOptionsFcgi = 332
@@ -9098,10 +9098,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.MailgunRewriteSenderHeader
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: MailgunRewriteSenderHeader = 333
@@ -9125,10 +9125,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.OptimizedCustomerCenterListTickets
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: OptimizedCustomerCenterListTickets = 334
@@ -9152,10 +9152,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.QuickReplyMode
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: QuickReplyMode = 335
@@ -9179,10 +9179,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ForceImmediateFileLogging
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ForceImmediateFileLogging = 336
@@ -9206,10 +9206,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.TemporaryKeyTTL
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: TemporaryKeyTTL = 337
@@ -9233,10 +9233,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.TemporaryKeyHardDeleteDelay
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: TemporaryKeyHardDeleteDelay = 338
@@ -9260,10 +9260,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ReplyTemplateNewLink
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ReplyTemplateNewLink = 339
@@ -9287,10 +9287,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.UseLegacyHtmlConverter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: UseLegacyHtmlConverter = 340
@@ -9314,10 +9314,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.ClipMessagesLength
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ClipMessagesLength = 341
@@ -9341,10 +9341,10 @@ items:
   fullName: SuperOffice.Data.CSRegistryEntry.StrictGDRPMode
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: StrictGDRPMode = 342

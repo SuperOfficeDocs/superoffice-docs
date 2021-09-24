@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneRuleDictionary
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: 'public class TimeZoneRuleDictionary : SortedDictionary<DateTime, TimeZoneRule>'
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneRuleDictionary.TimeZoneRuleDictionary()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public TimeZoneRuleDictionary()

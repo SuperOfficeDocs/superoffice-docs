@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.TicketMessageCategory
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nClassification of ticket messages\nThis Enum is used by:  ej_message.message_category\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.TicketMessageCategory.Message
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: A normal message\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.TicketMessageCategory.Bounce
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Email bounce\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.TicketMessageCategory.OutboxFailed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: This message is the error message returned by the sending system (for example a mail server)\n"
   syntax:

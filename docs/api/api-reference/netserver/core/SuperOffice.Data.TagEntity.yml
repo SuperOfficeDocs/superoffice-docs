@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Data.TagEntity
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nTarget Entity of Tags\nThis Enum consists of flag values that can be combined.\n"
   syntax:
@@ -57,10 +57,10 @@ items:
   fullName: SuperOffice.Data.TagEntity.Global
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Global, not assigned to any particular target\n"
   syntax:
@@ -85,10 +85,10 @@ items:
   fullName: SuperOffice.Data.TagEntity.Ticket
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Ticket / request\n"
   syntax:

@@ -22,7 +22,7 @@ items:
   fullName: SuperOffice.Security
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
 - uid: SuperOffice.Security.SoImpersonationContext
   commentId: T:SuperOffice.Security.SoImpersonationContext

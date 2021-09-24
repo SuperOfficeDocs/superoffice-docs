@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.CsAuthenticationType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDefines which authentication info to add when creating a CS Url\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.CsAuthenticationType.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nNo authentication info added\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.CsAuthenticationType.Login
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nAuthentication info for logging in is added\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.CsAuthenticationType.Preview
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nAuthentication info for previewing data in CS is added\n"
   syntax:

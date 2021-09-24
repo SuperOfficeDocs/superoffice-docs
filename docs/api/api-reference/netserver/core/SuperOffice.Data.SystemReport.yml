@@ -27,10 +27,10 @@ items:
   fullName: SuperOffice.Data.SystemReport
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nSystem reports\n"
   syntax:
@@ -59,10 +59,10 @@ items:
   fullName: SuperOffice.Data.SystemReport.MonthCalendar
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: MonthCalendar = 1
@@ -86,10 +86,10 @@ items:
   fullName: SuperOffice.Data.SystemReport.Week5Calendar
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Week5Calendar = 2
@@ -113,10 +113,10 @@ items:
   fullName: SuperOffice.Data.SystemReport.Week7Calendar
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Week7Calendar = 3
@@ -140,10 +140,10 @@ items:
   fullName: SuperOffice.Data.SystemReport.DayList
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DayList = 4
@@ -167,10 +167,10 @@ items:
   fullName: SuperOffice.Data.SystemReport.PersonReport
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: PersonReport = 9
@@ -194,10 +194,10 @@ items:
   fullName: SuperOffice.Data.SystemReport.SelectionReport
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SelectionReport = 6
@@ -221,10 +221,10 @@ items:
   fullName: SuperOffice.Data.SystemReport.Checklist
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Checklist = 7
@@ -248,10 +248,10 @@ items:
   fullName: SuperOffice.Data.SystemReport.ContactReport
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ContactReport = 10
@@ -275,10 +275,10 @@ items:
   fullName: SuperOffice.Data.SystemReport.ProjectReport
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ProjectReport = 11
@@ -302,10 +302,10 @@ items:
   fullName: SuperOffice.Data.SystemReport.AppointmentReport
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AppointmentReport = 13
@@ -329,10 +329,10 @@ items:
   fullName: SuperOffice.Data.SystemReport.DocumentReport
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: DocumentReport = 14
@@ -356,10 +356,10 @@ items:
   fullName: SuperOffice.Data.SystemReport.SaleReport
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SaleReport = 12
@@ -383,10 +383,10 @@ items:
   fullName: SuperOffice.Data.SystemReport.SelectionMembersReport
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SelectionMembersReport = 16
@@ -410,10 +410,10 @@ items:
   fullName: SuperOffice.Data.SystemReport.SelectionLabelsReport
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: SelectionLabelsReport = 15

@@ -20,6 +20,7 @@ items:
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.Int
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.LegalBasis
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.MultilineString
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.Multilist
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.None
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.RadioButton
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.RemoveInterests
@@ -79,18 +80,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string None
+    content: public const string None = "none"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly None As String
+    content.vb: Public Const None As String = "none"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.String
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.String
   id: String
@@ -109,18 +108,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string String
+    content: public const string String = "string"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly String As String
+    content.vb: Public Const String As String = "string"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.MultilineString
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.MultilineString
   id: MultilineString
@@ -139,18 +136,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string MultilineString
+    content: public const string MultilineString = "multilineString"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly MultilineString As String
+    content.vb: Public Const MultilineString As String = "multilineString"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.Int
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.Int
   id: Int
@@ -169,18 +164,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Int
+    content: public const string Int = "int"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Int As String
+    content.vb: Public Const Int As String = "int"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.Decimal
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.Decimal
   id: Decimal
@@ -199,18 +192,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Decimal
+    content: public const string Decimal = "decimal"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Decimal As String
+    content.vb: Public Const Decimal As String = "decimal"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.Bool
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.Bool
   id: Bool
@@ -229,18 +220,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Bool
+    content: public const string Bool = "bool"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Bool As String
+    content.vb: Public Const Bool As String = "bool"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.Check
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.Check
   id: Check
@@ -259,18 +248,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Check
+    content: public const string Check = "check"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Check As String
+    content.vb: Public Const Check As String = "check"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.RadioButton
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.RadioButton
   id: RadioButton
@@ -289,18 +276,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string RadioButton
+    content: public const string RadioButton = "radio"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly RadioButton As String
+    content.vb: Public Const RadioButton As String = "radio"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.Dropdownlist
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.Dropdownlist
   id: Dropdownlist
@@ -319,18 +304,44 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Dropdownlist
+    content: public const string Dropdownlist = "dropdownlist"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Dropdownlist As String
+    content.vb: Public Const Dropdownlist As String = "dropdownlist"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.Multilist
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.Multilist
+  id: Multilist
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes
+  langs:
+  - csharp
+  - vb
+  name: Multilist
+  nameWithType: BulkUpdateSystem.FieldTypes.Multilist
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.Multilist
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string Multilist = "multilist"
+    return:
+      type: System.String
+    content.vb: Public Const Multilist As String = "multilist"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.Date
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.Date
   id: Date
@@ -349,18 +360,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Date
+    content: public const string Date = "date"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Date As String
+    content.vb: Public Const Date As String = "date"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.DateTime
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.DateTime
   id: DateTime
@@ -379,18 +388,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string DateTime
+    content: public const string DateTime = "dateTime"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly DateTime As String
+    content.vb: Public Const DateTime As String = "dateTime"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.CsTzDateTime
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.CsTzDateTime
   id: CsTzDateTime
@@ -409,18 +416,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string CsTzDateTime
+    content: public const string CsTzDateTime = "csTzDateTime"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly CsTzDateTime As String
+    content.vb: Public Const CsTzDateTime As String = "csTzDateTime"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.Time
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.Time
   id: Time
@@ -439,18 +444,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Time
+    content: public const string Time = "time"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Time As String
+    content.vb: Public Const Time As String = "time"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.UnlimitedDate
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.UnlimitedDate
   id: UnlimitedDate
@@ -469,18 +472,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string UnlimitedDate
+    content: public const string UnlimitedDate = "unlimitedDate"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly UnlimitedDate As String
+    content.vb: Public Const UnlimitedDate As String = "unlimitedDate"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.TimeSpan
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.TimeSpan
   id: TimeSpan
@@ -499,18 +500,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string TimeSpan
+    content: public const string TimeSpan = "timeSpan"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly TimeSpan As String
+    content.vb: Public Const TimeSpan As String = "timeSpan"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.Duration
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.Duration
   id: Duration
@@ -529,18 +528,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Duration
+    content: public const string Duration = "duration"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Duration As String
+    content.vb: Public Const Duration As String = "duration"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.AddInterests
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.AddInterests
   id: AddInterests
@@ -559,18 +556,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string AddInterests
+    content: public const string AddInterests = "addInterests"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly AddInterests As String
+    content.vb: Public Const AddInterests As String = "addInterests"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.RemoveInterests
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.RemoveInterests
   id: RemoveInterests
@@ -589,18 +584,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string RemoveInterests
+    content: public const string RemoveInterests = "removeInterests"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly RemoveInterests As String
+    content.vb: Public Const RemoveInterests As String = "removeInterests"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.AddSubscriptions
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.AddSubscriptions
   id: AddSubscriptions
@@ -619,18 +612,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string AddSubscriptions
+    content: public const string AddSubscriptions = "addSubscriptions"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly AddSubscriptions As String
+    content.vb: Public Const AddSubscriptions As String = "addSubscriptions"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.RemoveSubscriptions
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.RemoveSubscriptions
   id: RemoveSubscriptions
@@ -649,18 +640,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string RemoveSubscriptions
+    content: public const string RemoveSubscriptions = "removeSubscriptions"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly RemoveSubscriptions As String
+    content.vb: Public Const RemoveSubscriptions As String = "removeSubscriptions"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.LegalBasis
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.LegalBasis
   id: LegalBasis
@@ -679,18 +668,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string LegalBasis
+    content: public const string LegalBasis = "legalBasis"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly LegalBasis As String
+    content.vb: Public Const LegalBasis As String = "legalBasis"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.ActivityLink
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.ActivityLink
   id: ActivityLink
@@ -709,18 +696,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string ActivityLink
+    content: public const string ActivityLink = "activitylink"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly ActivityLink As String
+    content.vb: Public Const ActivityLink As String = "activitylink"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.DisconnectFromContact
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.DisconnectFromContact
   id: DisconnectFromContact
@@ -739,18 +724,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string DisconnectFromContact
+    content: public const string DisconnectFromContact = "disconnectFromContact"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly DisconnectFromContact As String
+    content.vb: Public Const DisconnectFromContact As String = "disconnectFromContact"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 references:
 - uid: SuperOffice.CRM.BulkUpdate
   commentId: N:SuperOffice.CRM.BulkUpdate

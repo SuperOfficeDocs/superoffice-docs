@@ -5,7 +5,7 @@ items:
   id: ExternallyPopulatedList
   parent: SuperOffice.CRM.Lists
   children:
-  - SuperOffice.CRM.Lists.ExternallyPopulatedList.#ctor(System.String,System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.SoListItem})
+  - SuperOffice.CRM.Lists.ExternallyPopulatedList.#ctor(System.String,System.Func{System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.SoListItem}})
   - SuperOffice.CRM.Lists.ExternallyPopulatedList.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
   - SuperOffice.CRM.Lists.ExternallyPopulatedList.HeadingItems
   - SuperOffice.CRM.Lists.ExternallyPopulatedList.HistoryInfo
@@ -24,7 +24,8 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: "\nA simple, flat list of literal values, populated from some external source via its constructor.\nThis provider does not carry the attribute and is not registered for a particular list; it is \nintended to be returned by some other, presumably dynamic, mechanism.\n"
+  summary: "\nA simple, flat list of literal values, populated from some external source via a function passed in to constructor.\nThis provider does not carry the attribute and is not registered for a particular list; it is \nintended to be returned by some other, presumably dynamic, mechanism.\n"
+  remarks: "\nConstructor saves function for later.\nFunction is executed during Construct call.\nThis keeps slow list population away from the constructor, which keeps locking short.\nAvoids blocking the factory.\n"
   syntax:
     content: 'public sealed class ExternallyPopulatedList : ISoListProvider, ISoList'
     content.vb: >-
@@ -54,16 +55,16 @@ items:
   - Public
   - NotInheritable
   - Class
-- uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.#ctor(System.String,System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.SoListItem})
-  commentId: M:SuperOffice.CRM.Lists.ExternallyPopulatedList.#ctor(System.String,System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.SoListItem})
-  id: '#ctor(System.String,System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.SoListItem})'
+- uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.#ctor(System.String,System.Func{System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.SoListItem}})
+  commentId: M:SuperOffice.CRM.Lists.ExternallyPopulatedList.#ctor(System.String,System.Func{System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.SoListItem}})
+  id: '#ctor(System.String,System.Func{System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.SoListItem}})'
   parent: SuperOffice.CRM.Lists.ExternallyPopulatedList
   langs:
   - csharp
   - vb
-  name: ExternallyPopulatedList(String, IEnumerable<SoListItem>)
-  nameWithType: ExternallyPopulatedList.ExternallyPopulatedList(String, IEnumerable<SoListItem>)
-  fullName: SuperOffice.CRM.Lists.ExternallyPopulatedList.ExternallyPopulatedList(System.String, System.Collections.Generic.IEnumerable<SuperOffice.CRM.Lists.SoListItem>)
+  name: ExternallyPopulatedList(String, Func<IEnumerable<SoListItem>>)
+  nameWithType: ExternallyPopulatedList.ExternallyPopulatedList(String, Func<IEnumerable<SoListItem>>)
+  fullName: SuperOffice.CRM.Lists.ExternallyPopulatedList.ExternallyPopulatedList(System.String, System.Func<System.Collections.Generic.IEnumerable<SuperOffice.CRM.Lists.SoListItem>>)
   type: Constructor
   source:
     path: SoDataBase
@@ -72,21 +73,21 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
   syntax:
-    content: public ExternallyPopulatedList(string listName, IEnumerable<SoListItem> items)
+    content: public ExternallyPopulatedList(string listName, Func<IEnumerable<SoListItem>> populateFunction)
     parameters:
     - id: listName
       type: System.String
-    - id: items
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.SoListItem}
-    content.vb: Public Sub New(listName As String, items As IEnumerable(Of SoListItem))
+    - id: populateFunction
+      type: System.Func{System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.SoListItem}}
+    content.vb: Public Sub New(listName As String, populateFunction As Func(Of IEnumerable(Of SoListItem)))
   overload: SuperOffice.CRM.Lists.ExternallyPopulatedList.#ctor*
-  nameWithType.vb: ExternallyPopulatedList.ExternallyPopulatedList(String, IEnumerable(Of SoListItem))
+  nameWithType.vb: ExternallyPopulatedList.ExternallyPopulatedList(String, Func(Of IEnumerable(Of SoListItem)))
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: SuperOffice.CRM.Lists.ExternallyPopulatedList.ExternallyPopulatedList(System.String, System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Lists.SoListItem))
-  name.vb: ExternallyPopulatedList(String, IEnumerable(Of SoListItem))
+  fullName.vb: SuperOffice.CRM.Lists.ExternallyPopulatedList.ExternallyPopulatedList(System.String, System.Func(Of System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Lists.SoListItem)))
+  name.vb: ExternallyPopulatedList(String, Func(Of IEnumerable(Of SoListItem)))
 - uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.Lists.ExternallyPopulatedList.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
   id: Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
@@ -104,6 +105,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
+  summary: "\nCalls the populateFunction passed in to the constructor\n"
   syntax:
     content: public void Construct(string listName, string additionalInfo, int[] historyIDs, bool onlyReadHistory, string searchValue, bool forceFlatList)
     parameters:
@@ -749,17 +751,25 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.SoListItem}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.SoListItem}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<SoListItem>
-  nameWithType: IEnumerable<SoListItem>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Lists.SoListItem>
-  nameWithType.vb: IEnumerable(Of SoListItem)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Lists.SoListItem)
-  name.vb: IEnumerable(Of SoListItem)
+- uid: System.Func{System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.SoListItem}}
+  commentId: T:System.Func{System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.SoListItem}}
+  parent: System
+  definition: System.Func`1
+  name: Func<IEnumerable<SoListItem>>
+  nameWithType: Func<IEnumerable<SoListItem>>
+  fullName: System.Func<System.Collections.Generic.IEnumerable<SuperOffice.CRM.Lists.SoListItem>>
+  nameWithType.vb: Func(Of IEnumerable(Of SoListItem))
+  fullName.vb: System.Func(Of System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Lists.SoListItem))
+  name.vb: Func(Of IEnumerable(Of SoListItem))
   spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     nameWithType: IEnumerable
@@ -776,7 +786,18 @@ references:
   - name: '>'
     nameWithType: '>'
     fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     nameWithType: IEnumerable
@@ -793,51 +814,48 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
   isExternal: true
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.Construct*
   commentId: Overload:SuperOffice.CRM.Lists.ExternallyPopulatedList.Construct
   isExternal: true
@@ -1123,6 +1141,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.Lists.ExternallyPopulatedList.RootItems*
   commentId: Overload:SuperOffice.CRM.Lists.ExternallyPopulatedList.RootItems
   isExternal: true

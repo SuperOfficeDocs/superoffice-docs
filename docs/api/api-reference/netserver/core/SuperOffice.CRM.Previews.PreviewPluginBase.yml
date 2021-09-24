@@ -91,16 +91,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Previews
   syntax:
-    content: public static string ImageHint
+    content: public const string ImageHint = "images"
     return:
       type: System.String
-    content.vb: Public Shared ImageHint As String
+    content.vb: Public Const ImageHint As String = "images"
   modifiers.csharp:
   - public
-  - static
+  - const
   modifiers.vb:
   - Public
-  - Shared
+  - Const
 - uid: SuperOffice.CRM.Previews.PreviewPluginBase.SimpleHint
   commentId: F:SuperOffice.CRM.Previews.PreviewPluginBase.SimpleHint
   id: SimpleHint
@@ -119,16 +119,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Previews
   syntax:
-    content: public static string SimpleHint
+    content: public const string SimpleHint = "simple"
     return:
       type: System.String
-    content.vb: Public Shared SimpleHint As String
+    content.vb: Public Const SimpleHint As String = "simple"
   modifiers.csharp:
   - public
-  - static
+  - const
   modifiers.vb:
   - Public
-  - Shared
+  - Const
 - uid: SuperOffice.CRM.Previews.PreviewPluginBase.UpdatedHint
   commentId: F:SuperOffice.CRM.Previews.PreviewPluginBase.UpdatedHint
   id: UpdatedHint
@@ -147,16 +147,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Previews
   syntax:
-    content: public static string UpdatedHint
+    content: public const string UpdatedHint = "updated"
     return:
       type: System.String
-    content.vb: Public Shared UpdatedHint As String
+    content.vb: Public Const UpdatedHint As String = "updated"
   modifiers.csharp:
   - public
-  - static
+  - const
   modifiers.vb:
   - Public
-  - Shared
+  - Const
 - uid: SuperOffice.CRM.Previews.PreviewPluginBase.GetPreview(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},SuperOffice.CRM.Previews.PreviewData)
   commentId: M:SuperOffice.CRM.Previews.PreviewPluginBase.GetPreview(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},SuperOffice.CRM.Previews.PreviewData)
   id: GetPreview(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},SuperOffice.CRM.Previews.PreviewData)

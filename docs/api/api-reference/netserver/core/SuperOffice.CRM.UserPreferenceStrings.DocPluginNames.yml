@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DocPluginNames
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDoc Plugin Addons: [DocPluginNames] plugin-id = prog.id.  The prog.id is requred and \nmatches COM ProgId property of the document plugin class.\n"
   remarks: "\nNetServer document plugins declare the plugin-id without having to actually be COM compatible. \n<p></p>\nAnother list of plugin names (Human names, not COM progid names)\nis found in the PrefDescLine section, used by the user-preference GUI to let the user select\na program.\n"
@@ -53,10 +53,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DocPluginNames.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:

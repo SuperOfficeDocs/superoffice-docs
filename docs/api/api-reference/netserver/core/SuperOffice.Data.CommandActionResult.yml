@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Data.CommandActionResult
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nResult of an action\n"
   syntax:
@@ -50,10 +50,10 @@ items:
   fullName: SuperOffice.Data.CommandActionResult.Implicit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Command should be implicitly executed.\n"
   syntax:
@@ -78,10 +78,10 @@ items:
   fullName: SuperOffice.Data.CommandActionResult.Yes
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: The user clicked Yes.\n"
   syntax:
@@ -106,10 +106,10 @@ items:
   fullName: SuperOffice.Data.CommandActionResult.Ok
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: The client clicked Ok\n"
   syntax:
@@ -134,10 +134,10 @@ items:
   fullName: SuperOffice.Data.CommandActionResult.No
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: The client clicked No\n"
   syntax:
@@ -162,10 +162,10 @@ items:
   fullName: SuperOffice.Data.CommandActionResult.Cancel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: The client clicked Cancel\n"
   syntax:

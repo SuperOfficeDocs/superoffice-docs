@@ -20,10 +20,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.CustomerService
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nConfiguration values for accessing Customer Service\n"
   syntax:
@@ -58,10 +58,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.CustomerService.ImpersonateCsUser
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nImpersonate a specific (Windows Domain) user when using Customer Service API\n"
   syntax:
@@ -91,10 +91,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsUserName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe username to impersonate\n"
   syntax:
@@ -124,10 +124,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsPassword
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe password\n"
   syntax:
@@ -157,10 +157,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsDomain
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe Active Directory Domain this user belongs to\n"
   syntax:
@@ -190,10 +190,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrl
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nBase path for CustomerService as accessed from browser when accessed from internet and public urls.  Like customer center or links in mailings (Online only)\n"
   syntax:
@@ -223,10 +223,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrlInternal
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nBase path for CustomerService as used by an internal employee working with service (Front-channel from associate) (Online only)\n"
   syntax:
@@ -256,10 +256,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrlDirect
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nBase path for CustomerService as accessed from NetServer (Back-channel) (Online only)\n"
   syntax:

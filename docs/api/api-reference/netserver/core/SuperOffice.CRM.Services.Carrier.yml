@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.CRM.Services.Carrier
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nBase class for carrier objects\nImplementing common carrier properties\n"
   syntax:
@@ -61,10 +61,10 @@ items:
   fullName: SuperOffice.CRM.Services.Carrier.Carrier()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nDefault constructor\n"
   syntax:
@@ -87,10 +87,10 @@ items:
   fullName: SuperOffice.CRM.Services.Carrier.TableRight
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nThe carrier&apos;s table right\n"
   syntax:
@@ -120,10 +120,10 @@ items:
   fullName: SuperOffice.CRM.Services.Carrier.FieldProperties
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nField property dictionary mapping field names to field access rights.\n"
   syntax:

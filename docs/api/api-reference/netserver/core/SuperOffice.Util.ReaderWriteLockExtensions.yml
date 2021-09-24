@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Util.ReaderWriteLockExtensions
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static class ReaderWriteLockExtensions
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock(System.Threading.ReaderWriterLock, System.Action)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nPerform the body of actions within a read-lock context, using the given <xref href=\"System.Threading.ReaderWriterLock\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
@@ -93,10 +93,10 @@ items:
   fullName: SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock<TResult>(System.Threading.ReaderWriterLock, System.Func<TResult>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static TResult WithReaderLock<TResult>(this ReaderWriterLock theLock, Func<TResult> body)
@@ -136,10 +136,10 @@ items:
   fullName: SuperOffice.Util.ReaderWriteLockExtensions.WithWriterLock(System.Threading.ReaderWriterLock, System.Action)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nPerform the body of actions within a write-lock context, using the given <xref href=\"System.Threading.ReaderWriterLock\" data-throw-if-not-resolved=\"false\"></xref>.\nIf the thread already has a reader lock, then it will be upgraded to a writer lock, and restored\non exit.\n"
   syntax:

@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.DocTmplInvitationType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nIs this document template some kind of appointment document, and if so what\nThis Enum is used by:  DocTmpl.invitationDocType\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.DocTmplInvitationType.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: None - Not an appointment type\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.DocTmplInvitationType.New
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: 1 - New appointment\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.DocTmplInvitationType.Changed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: 2 - Changed appointment\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.DocTmplInvitationType.Cancelled
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: 3 - Cancelled appointment\n"
   syntax:

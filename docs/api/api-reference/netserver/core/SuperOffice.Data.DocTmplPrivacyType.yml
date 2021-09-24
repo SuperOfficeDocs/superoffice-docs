@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Data.DocTmplPrivacyType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nIs this document template some kind of quote document, and if so what\nThis Enum is used by:  DocTmpl.privacyDocType\n"
   syntax:
@@ -47,10 +47,10 @@ items:
   fullName: SuperOffice.Data.DocTmplPrivacyType.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: This document template is in no way related to GDPR\n"
   syntax:
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.Data.DocTmplPrivacyType.PersonRegistered
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: This is a template for the &apos;you have been added to our system&apos; kind of email; must be an .html email template\n"
   syntax:

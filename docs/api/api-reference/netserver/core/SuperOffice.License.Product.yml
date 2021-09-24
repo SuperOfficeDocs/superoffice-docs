@@ -24,10 +24,10 @@ items:
   fullName: SuperOffice.License.Product
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nDefault implementation\n"
   syntax:
@@ -68,10 +68,10 @@ items:
   fullName: SuperOffice.License.Product.Product()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\n\n"
   syntax:
@@ -94,10 +94,10 @@ items:
   fullName: SuperOffice.License.Product.OnDepricateLicense()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\n\n"
   syntax:
@@ -138,10 +138,10 @@ items:
   fullName: SuperOffice.License.Product.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nInformation about the module.\n"
   syntax:
@@ -170,19 +170,33 @@ items:
   fullName: SuperOffice.License.Product.Expiry
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nWhen the module expires.\n"
   syntax:
-    content: public virtual DateTime Expiry { get; }
+    content: >-
+      [Obsolete("Netserver no longer expires", false)]
+
+      public virtual DateTime Expiry { get; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable ReadOnly Property Expiry As Date
+    content.vb: >-
+      <Obsolete("Netserver no longer expires", False)>
+
+      Public Overridable ReadOnly Property Expiry As Date
   overload: SuperOffice.License.Product.Expiry*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Netserver no longer expires
+    - type: System.Boolean
+      value: false
   modifiers.csharp:
   - public
   - virtual
@@ -203,10 +217,10 @@ items:
   fullName: SuperOffice.License.Product.Manufacturer
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nName of the Manufacturer\n"
   syntax:
@@ -236,10 +250,10 @@ items:
   fullName: SuperOffice.License.Product.ProductName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nName of the product\n"
   syntax:
@@ -269,10 +283,10 @@ items:
   fullName: SuperOffice.License.Product.ModuleName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nName of the module\n"
   syntax:
@@ -302,10 +316,10 @@ items:
   fullName: SuperOffice.License.Product.Version
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nVersion name.\n"
   syntax:
@@ -335,10 +349,10 @@ items:
   fullName: SuperOffice.License.Product.RequiredLicense
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nLicense required by the module.\n"
   syntax:
@@ -382,10 +396,10 @@ items:
   fullName: SuperOffice.License.Product.DepricatedLicense
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nLicenses that are deprecated by this module.\n"
   remarks: "\nBoth the implementation of this class as well as the attribute \nneed to be signed for this method to return \nanything but <xref href=\"SuperOffice.License.ProductLicense.None\" data-throw-if-not-resolved=\"false\"></xref>.  The get property \nutilizes <xref href=\"SuperOffice.License.Product.OnDepricateLicense\" data-throw-if-not-resolved=\"false\"></xref> to determine licenses to \ndepricate.\n"
@@ -428,10 +442,10 @@ items:
   fullName: SuperOffice.License.Product.IsSourceEdition
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nIs this a source edition\n"
   syntax:

@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.CRM.Services.intStringDictionaryExt
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public static class intStringDictionaryExt
@@ -52,10 +52,10 @@ items:
   fullName: SuperOffice.CRM.Services.intStringDictionaryExt.TointStringDictionary(System.Collections.Generic.Dictionary<System.Int32, System.String>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public static IntStringDictionary TointStringDictionary(this Dictionary<int, string> input)

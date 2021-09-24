@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Security.Principal.TicketPrincipalCache
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nInternal cache holding cahced principals\n"
   syntax:
@@ -69,10 +69,10 @@ items:
   fullName: SuperOffice.Security.Principal.TicketPrincipalCache.GetCurrent()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public static TicketPrincipalCache GetCurrent()
@@ -98,10 +98,10 @@ items:
   fullName: SuperOffice.Security.Principal.TicketPrincipalCache.Flush()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nFlush the cache: the next call to GetCurrent will retrieve a newly-created and initialized instance,\ninstead of an existing cached one\n"
   syntax:
@@ -124,10 +124,10 @@ items:
   fullName: SuperOffice.Security.Principal.TicketPrincipalCache.CachePrincipal(System.String, SuperOffice.Security.Principal.SoPrincipal)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nCahce a principal keyed on the ticket.\n"
   syntax:
@@ -157,10 +157,10 @@ items:
   fullName: SuperOffice.Security.Principal.TicketPrincipalCache.TryGetCachedPrincipal(System.String, out SuperOffice.Security.Principal.SoPrincipal)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nTry to obtain a cached principal from a ticket.\n"
   syntax:

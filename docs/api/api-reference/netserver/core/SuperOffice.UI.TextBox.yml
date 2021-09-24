@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.UI.TextBox
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.UI
   summary: "\n\n"
   syntax:
@@ -67,10 +67,10 @@ items:
   fullName: SuperOffice.UI.TextBox.TextBox()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.UI
   syntax:
     content: public TextBox()
@@ -92,10 +92,10 @@ items:
   fullName: SuperOffice.UI.TextBox.Id
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.UI
   summary: "\n\n"
   syntax:
@@ -126,10 +126,10 @@ items:
   fullName: SuperOffice.UI.TextBox.Value
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.UI
   summary: "\n\n"
   syntax:
@@ -160,10 +160,10 @@ items:
   fullName: SuperOffice.UI.TextBox.Caption
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.UI
   summary: "\n\n"
   syntax:
@@ -194,10 +194,10 @@ items:
   fullName: SuperOffice.UI.TextBox.Position
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.UI
   summary: "\n\n"
   syntax:
@@ -228,10 +228,10 @@ items:
   fullName: SuperOffice.UI.TextBox.Size
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.UI
   summary: "\n\n"
   syntax:

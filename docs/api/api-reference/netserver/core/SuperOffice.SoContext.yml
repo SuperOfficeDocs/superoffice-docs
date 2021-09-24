@@ -23,10 +23,10 @@ items:
   fullName: SuperOffice.SoContext
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nClass holding context information about the currently logged on user.\n"
   example:
@@ -68,10 +68,10 @@ items:
   fullName: SuperOffice.SoContext.SpawnThread<TArgument>(SuperOffice.Threading.AsyncOperation<TArgument>, TArgument, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nSpawn a new thread in the same <xref href=\"SuperOffice.SoContext\" data-throw-if-not-resolved=\"false\"></xref> as the currently executed thread.\n"
   remarks: "\nIf the number of threads currently executing in parallel is less then the currently \nconfigured maximum allowed threads for parallel execution, a thread is spawned.  If \nthe number of threads exceeds this limitation, the current thread is blocked until \nthe number of threads currently executing in parallel is less then the currently \nconfigured maximum allowed threads for parallel execution.\n<p>Maximum parallel connections are read from the <xref href=\"SuperOffice.Configuration.ConfigFile.Threading.MaxParellalThreads\" data-throw-if-not-resolved=\"false\"></xref>\nproperty of the configuration file</p>\n"
@@ -117,10 +117,10 @@ items:
   fullName: SuperOffice.SoContext.SpawnThread<TArgument>(SuperOffice.Threading.AsyncOperation<TArgument>, TArgument)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nSpawn a new thread in the same <xref href=\"SuperOffice.SoContext\" data-throw-if-not-resolved=\"false\"></xref> as the currently executed thread.\n"
   remarks: "\nIf the number of threads currently executing in parallel is less then the currently \nconfigured maximum allowed threads for parallel execution, a thread is spawned.  If \nthe number of threads exceeds this limitation, the current thread is blocked until \nthe number of threads currently executing in parallel is less then the currently \nconfigured maximum allowed threads for parallel execution.\n<p>Maximum parallel connections are read from the <xref href=\"SuperOffice.Configuration.ConfigFile.Threading.MaxParellalThreads\" data-throw-if-not-resolved=\"false\"></xref>\nproperty of the configuration file</p>\n"
@@ -163,10 +163,10 @@ items:
   fullName: SuperOffice.SoContext.SpawnThread<TArgument>(SuperOffice.Threading.AsyncOperation<TArgument>, TArgument, System.String, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nSpawn a new thread in the same <xref href=\"SuperOffice.SoContext\" data-throw-if-not-resolved=\"false\"></xref> as the currently executed thread.\n"
   remarks: "\nIf the number of threads currently executing in parallel is less then the currently \nconfigured maximum allowed threads for parallel execution, a thread is spawned.  If \nthe number of threads exceeds this limitation, the current thread is blocked until \nthe number of threads currently executing in parallel is less then the currently \nconfigured maximum allowed threads for parallel execution.\n<p>Maximum parallel connections are read from the <xref href=\"SuperOffice.Configuration.ConfigFile.Threading.MaxParellalThreads\" data-throw-if-not-resolved=\"false\"></xref>\nproperty of the configuration file</p>\n"
@@ -215,10 +215,10 @@ items:
   fullName: SuperOffice.SoContext.CloseCurrentSession()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nClose any open session.\nDoes nothing if the current session is already closed.\n"
   remarks: "\nWill no longer throw an exception if called twice.\n"
@@ -244,10 +244,10 @@ items:
   fullName: SuperOffice.SoContext.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nIf there is a valid principal, return his ToString() - generally for debug purposes. An empty string\nis returned if there is no valid principal (_currentPrincipal returned null).\n"
   syntax:
@@ -276,10 +276,10 @@ items:
   fullName: SuperOffice.SoContext.SoContext()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public SoContext()
@@ -301,10 +301,10 @@ items:
   fullName: SuperOffice.SoContext.CurrentPrincipal
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nObtain the current principal\n"
   syntax:
@@ -334,10 +334,10 @@ items:
   fullName: SuperOffice.SoContext.CurrentRealPrincipal
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nRoot principal.  Impersonated users will yield the principal of the user impersonating.\n"
   syntax:
@@ -367,10 +367,10 @@ items:
   fullName: SuperOffice.SoContext.CurrentIdentity
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nObtain the current identity\n"
   syntax:
@@ -400,10 +400,10 @@ items:
   fullName: SuperOffice.SoContext.IsAuthenticated
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nTrue if authenticated\n"
   syntax:

@@ -22,10 +22,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimeLogger
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nDisposable class used for logging timing operations being carried out by NetServer\n"
   remarks: "Start timings using <xref href=\"SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType%2cSystem.String%2cSuperOffice.Diagnostics.DeferredToString)\" data-throw-if-not-resolved=\"false\"></xref>.  \nTimings are logged to file if the Time logging is turned on in the configuration file."
@@ -70,10 +70,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimeLogger.SoTimeLogger(System.String, System.Func<System.String>)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nCreate a new timer object and start measuring time.\n"
   syntax:
@@ -106,10 +106,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimeLogger.Split(System.Func<System.String>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nPerform a split operation to see how long time was spent since the the timer was started.\n"
   syntax:
@@ -141,10 +141,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimeLogger.Lap(System.Func<System.String>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nPerform a lap operation and see the time since the previous lap.\n"
   syntax:
@@ -176,10 +176,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimeLogger.End()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nStop the timer and obtain the time since the start of the timing.\n"
   syntax:
@@ -204,10 +204,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimeLogger.Dispose()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public void Dispose()
@@ -231,10 +231,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimeLogger.Stop()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: >-
@@ -272,10 +272,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimeLogger.Increment()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public void Increment()
@@ -299,10 +299,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimeLogger.Count
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public int Count { get; }
@@ -329,10 +329,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimeLogger.Elapsed
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nGet the elapsed time without further ado.\n"
   syntax:

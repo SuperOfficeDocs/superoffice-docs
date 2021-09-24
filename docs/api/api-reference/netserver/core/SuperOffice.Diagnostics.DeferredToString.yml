@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Diagnostics.DeferredToString
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nAccept and store objects that can later be evaluated to strings with object.ToString();\n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.Diagnostics.DeferredToString.DeferredToString(System.Object[])
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public DeferredToString(params object[] args)
@@ -85,10 +85,10 @@ items:
   fullName: SuperOffice.Diagnostics.DeferredToString.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public override string ToString()

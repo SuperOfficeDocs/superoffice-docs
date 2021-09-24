@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Exceptions.SoLicenseException
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nSummary description for SoLicenseException.\n"
   syntax:
@@ -80,10 +80,10 @@ items:
   fullName: SuperOffice.Exceptions.SoLicenseException.SoLicenseException(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\n\n"
   syntax:
@@ -109,10 +109,10 @@ items:
   fullName: SuperOffice.Exceptions.SoLicenseException.SoLicenseException(System.String, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   syntax:
     content: public SoLicenseException(string moduleOwner, string module)

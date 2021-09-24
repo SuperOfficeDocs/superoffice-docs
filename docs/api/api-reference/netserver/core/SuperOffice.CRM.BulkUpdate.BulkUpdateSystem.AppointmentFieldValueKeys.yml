@@ -22,6 +22,7 @@ items:
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartDate
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartTime
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartTimeAndEndTime
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.TimeZone
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Type
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.VisibleFor
   langs:
@@ -75,18 +76,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Done
+    content: public const string Done = "done"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Done As String
+    content.vb: Public Const Done As String = "done"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.FreeBusy
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.FreeBusy
   id: FreeBusy
@@ -105,18 +104,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string FreeBusy
+    content: public const string FreeBusy = "free/busy"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly FreeBusy As String
+    content.vb: Public Const FreeBusy As String = "free/busy"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Owner
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Owner
   id: Owner
@@ -135,18 +132,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Owner
+    content: public const string Owner = "owner"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Owner As String
+    content.vb: Public Const Owner As String = "owner"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.ProjectId
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.ProjectId
   id: ProjectId
@@ -165,18 +160,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string ProjectId
+    content: public const string ProjectId = "projectId"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly ProjectId As String
+    content.vb: Public Const ProjectId As String = "projectId"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.SaleId
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.SaleId
   id: SaleId
@@ -195,18 +188,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string SaleId
+    content: public const string SaleId = "saleId"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly SaleId As String
+    content.vb: Public Const SaleId As String = "saleId"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Description
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Description
   id: Description
@@ -225,18 +216,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Description
+    content: public const string Description = "description"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Description As String
+    content.vb: Public Const Description As String = "description"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Type
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Type
   id: Type
@@ -255,18 +244,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Type
+    content: public const string Type = "type"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Type As String
+    content.vb: Public Const Type As String = "type"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Priority
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Priority
   id: Priority
@@ -285,18 +272,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Priority
+    content: public const string Priority = "priority"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Priority As String
+    content.vb: Public Const Priority As String = "priority"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.HasAlarm
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.HasAlarm
   id: HasAlarm
@@ -315,18 +300,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string HasAlarm
+    content: public const string HasAlarm = "hasAlarm"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly HasAlarm As String
+    content.vb: Public Const HasAlarm As String = "hasAlarm"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.AlarmOffset
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.AlarmOffset
   id: AlarmOffset
@@ -345,18 +328,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string AlarmOffset
+    content: public const string AlarmOffset = "alarmOffset"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly AlarmOffset As String
+    content.vb: Public Const AlarmOffset As String = "alarmOffset"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartDate
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartDate
   id: StartDate
@@ -375,18 +356,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string StartDate
+    content: public const string StartDate = "startDate"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly StartDate As String
+    content.vb: Public Const StartDate As String = "startDate"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartTime
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartTime
   id: StartTime
@@ -405,18 +384,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string StartTime
+    content: public const string StartTime = "startTime"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly StartTime As String
+    content.vb: Public Const StartTime As String = "startTime"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.EndTime
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.EndTime
   id: EndTime
@@ -435,18 +412,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string EndTime
+    content: public const string EndTime = "endTime"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly EndTime As String
+    content.vb: Public Const EndTime As String = "endTime"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartTimeAndEndTime
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartTimeAndEndTime
   id: StartTimeAndEndTime
@@ -465,18 +440,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string StartTimeAndEndTime
+    content: public const string StartTimeAndEndTime = "startTime+endTime"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly StartTimeAndEndTime As String
+    content.vb: Public Const StartTimeAndEndTime As String = "startTime+endTime"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Duration
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Duration
   id: Duration
@@ -495,18 +468,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Duration
+    content: public const string Duration = "duration"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Duration As String
+    content.vb: Public Const Duration As String = "duration"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.VisibleFor
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.VisibleFor
   id: VisibleFor
@@ -525,18 +496,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string VisibleFor
+    content: public const string VisibleFor = "visibleFor"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly VisibleFor As String
+    content.vb: Public Const VisibleFor As String = "visibleFor"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Activitylink
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Activitylink
   id: Activitylink
@@ -555,18 +524,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Activitylink
+    content: public const string Activitylink = "activitylink"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Activitylink As String
+    content.vb: Public Const Activitylink As String = "activitylink"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Published
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Published
   id: Published
@@ -585,18 +552,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Published
+    content: public const string Published = "published"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Published As String
+    content.vb: Public Const Published As String = "published"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.CautionWarning
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.CautionWarning
   id: CautionWarning
@@ -615,18 +580,44 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string CautionWarning
+    content: public const string CautionWarning = "cautionWarning"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly CautionWarning As String
+    content.vb: Public Const CautionWarning As String = "cautionWarning"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.TimeZone
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.TimeZone
+  id: TimeZone
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: TimeZone
+  nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.TimeZone
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.TimeZone
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string TimeZone = "timeZone"
+    return:
+      type: System.String
+    content.vb: Public Const TimeZone As String = "timeZone"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.BulkUpdate
   commentId: N:SuperOffice.CRM.BulkUpdate

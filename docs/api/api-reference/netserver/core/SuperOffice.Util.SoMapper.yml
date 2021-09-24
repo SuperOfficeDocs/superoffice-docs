@@ -22,10 +22,10 @@ items:
   fullName: SuperOffice.Util.SoMapper
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nClass for mapping values between class-instances and types based on similarly named properties with\nfundamentally compatible types.\n\nbasic principle of operation is adhering to the &quot;Duck test&quot;:\n&quot;When I see a bird that walks like a duck and swims like a duck and quacks like a duck,\nI call that bird a duck.&quot;\n\n<seealso ref=\"https://en.wikipedia.org/wiki/Duck_typing\"></seealso>\n"
   syntax:
@@ -64,10 +64,10 @@ items:
   fullName: SuperOffice.Util.SoMapper.SoMapper()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nDefault constructor\n"
   syntax:
@@ -90,10 +90,10 @@ items:
   fullName: SuperOffice.Util.SoMapper.Map<TInput, TResult>(TInput, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConvert the given input instance and return a instance of the specified output type\nusing fuzzy Duck-typing and logic.\n<remarks>\nWill return same instance if the provided types are the same.\n</remarks>\n"
   syntax:
@@ -136,10 +136,10 @@ items:
   fullName: SuperOffice.Util.SoMapper.Clone<TInput>(TInput)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nClones the given object-graph using a recursive copy of public properties.\n<remarks>\nIf class being copied depends on private fields, the copy may not function as expected.\n</remarks>\n"
   syntax:
@@ -177,10 +177,10 @@ items:
   fullName: SuperOffice.Util.SoMapper.CopyProperties<TSource, TDestination>(TSource, TDestination, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nCopies all properties of the provided source-instance onto the provided destination-instance.\n"
   syntax:
@@ -221,10 +221,10 @@ items:
   fullName: SuperOffice.Util.SoMapper.CopyProperties(System.Type, System.Type, System.Object, System.Object, System.Boolean, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nCopies all properties of the provided source-instance onto the provided destination-instance.\n"
   syntax:
@@ -266,10 +266,10 @@ items:
   fullName: SuperOffice.Util.SoMapper.GetDictionaryKey(System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: protected object GetDictionaryKey(object dictionaryEnumerationItem)
@@ -296,10 +296,10 @@ items:
   fullName: SuperOffice.Util.SoMapper.GetDictionaryValue(System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: protected object GetDictionaryValue(object dictionaryEnumerationItem)
@@ -326,10 +326,10 @@ items:
   fullName: SuperOffice.Util.SoMapper.MapValue(System.Type, System.Type, System.Object, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public object MapValue(Type type1, Type type2, object sourceValue, bool throwOnMismatch = true)
@@ -362,10 +362,10 @@ items:
   fullName: SuperOffice.Util.SoMapper.Instance
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nThe default-instance of SoMapper for usage in cases where customization is not needed.\n"
   syntax:

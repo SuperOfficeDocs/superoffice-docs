@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.TravelEncryptionChild
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValue for the encryptedComm field in traveller\nThis Enum is used by:  traveller.encryptedComm\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.TravelEncryptionChild.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Transmitted travel data are not encrypted (only ZIPed)\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.TravelEncryptionChild.Serial
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Transmitted travel data are encrypted using licence serial no. as key\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.TravelEncryptionChild.BF128
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Transmitted travel data are encrypted using a 128-bit key unique to each database\n"
   syntax:

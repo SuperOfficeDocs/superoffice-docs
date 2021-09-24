@@ -82,6 +82,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToSoListRestriction
   - SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToString
   - SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToString(System.String)
+  - SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.TransformSpecialOperators(System.String)
   - SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.UniqueHash
   - SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.UniqueKeyElementDelimiter
   - SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.Values
@@ -93,10 +94,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThis class carries information about a restriction on the query of an archive provider\n"
   syntax:
@@ -142,10 +143,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.MultiDisplayValueSeparator
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string MultiDisplayValueSeparator = " - "
@@ -170,10 +171,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.MultiListDisplayValueSeparator
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string MultiListDisplayValueSeparator = "; "
@@ -198,10 +199,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.UniqueKeyElementDelimiter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string UniqueKeyElementDelimiter = "|"
@@ -226,10 +227,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.MissingValueMarker
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string MissingValueMarker = "!novalue!"
@@ -254,10 +255,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.Clone()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public object Clone()
@@ -283,10 +284,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ArchiveRestrictionInfo()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object with blank values\n"
   syntax:
@@ -309,10 +310,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ArchiveRestrictionInfo(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object, setting basic items\n"
   syntax:
@@ -339,10 +340,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ArchiveRestrictionInfo(System.String, System.String, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object, setting basic items\n"
   syntax:
@@ -375,10 +376,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ArchiveRestrictionInfo(System.String, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object, setting basic items\n"
   syntax:
@@ -408,10 +409,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ArchiveRestrictionInfo(System.String, System.String, System.String[])
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object, setting basic items and more than one value\n"
   syntax:
@@ -447,10 +448,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ArchiveRestrictionInfo(System.String, System.String, System.Int32[])
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object, setting basic items and more than one value\n"
   syntax:
@@ -486,10 +487,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ArchiveRestrictionInfo(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo, System.String, System.String[])
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveRestrictionInfo(ArchiveColumnInfo baseColumn, string oper, params string[] value)
@@ -521,10 +522,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ArchiveRestrictionInfo(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo, System.String, System.Boolean, System.String[])
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveRestrictionInfo(ArchiveColumnInfo baseColumn, string oper, bool isActive, params string[] value)
@@ -558,10 +559,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ArchiveRestrictionInfo(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveRestrictionInfo(ArchiveRestrictionInfo original)
@@ -586,10 +587,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetSubRestriction(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nGet a named subrestriction from this restriction\n"
   syntax:
@@ -619,10 +620,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.SetRecursiveActive(System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nSet the <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.IsActive\" data-throw-if-not-resolved=\"false\"></xref> flag for the restriction, and propagate into all subrestrictions as well\n"
   syntax:
@@ -649,10 +650,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.EnforceNumValues(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nEnforce exactly or at least a certain number of values; an exception is thrown if there are too few or too many\n"
   syntax:
@@ -682,10 +683,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetIntValue(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nGet a value as an integer. Uses CultureDataFormatter.<xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedInt(System.String)\" data-throw-if-not-resolved=\"false\"></xref>\nto do the parsing. Returns 0 if the value array is empty, regardless of index.\n"
   syntax:
@@ -719,10 +720,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetDateTimeValue(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nGet a value as a DateTime. Uses CultureDataFormatter.<xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDate(System.String)\" data-throw-if-not-resolved=\"false\"></xref>\nto do the parsing. Returns DateTime.MinValue if the value array is empty, regardless of index.\n"
   syntax:
@@ -756,10 +757,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetDoubleValue(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nGet a value as a double. Uses CultureDataFormatter.<xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDouble(System.String)\" data-throw-if-not-resolved=\"false\"></xref>\nto do the parsing. Returns 0.0 if the value array is empty, regardless of index.\n"
   syntax:
@@ -793,10 +794,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetBoolValue(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nGet a value as a boolean. Uses bool.<xref href=\"System.Boolean.TryParse(System.String%2cSystem.Boolean%40)\" data-throw-if-not-resolved=\"false\"></xref>, but also accepts integer values through\nCultureDataFormatter.<xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedInt(System.String)\" data-throw-if-not-resolved=\"false\"></xref>\nto do the parsing. Returns 0 if the value array is empty, regardless of index.\n"
   syntax:
@@ -830,10 +831,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetIntValueArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nGet an array of integer values - assumes that the values array is of a homogenous type.\nUses CultureDataFormatter.<xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedInt(System.String)\" data-throw-if-not-resolved=\"false\"></xref>\nto do the parsing. Returns an empty array if the values array is empty or null, or if the values array contains one element\nand that element is null or the empty string.\n"
   syntax:
@@ -859,10 +860,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetDateTimeValueArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nGet an array of datetime values - assumes that the values array is of a homogenous type.\nUses CultureDataFormatter.<xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDate(System.String)\" data-throw-if-not-resolved=\"false\"></xref>\nto do the parsing. Returns an empty array if the values array is empty or null, or if the values array contains one element\nand that element is null or the empty string.\n"
   syntax:
@@ -888,10 +889,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetDoubleValueArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nGet an array of double values - assumes that the values array is of a homogenous type.\nUses CultureDataFormatter.<xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedDouble(System.String)\" data-throw-if-not-resolved=\"false\"></xref>\nto do the parsing. Returns an empty array if the values array is empty or null, or if the values array contains one element\nand that element is null or the empty string.\n"
   syntax:
@@ -917,10 +918,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetBoolValueArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nGet an array of boolean values - assumes that the values array is of a homogenous type.\nUses bool.<xref href=\"System.Boolean.TryParse(System.String%2cSystem.Boolean%40)\" data-throw-if-not-resolved=\"false\"></xref>, but also accepts integer values through\nCultureDataFormatter.<xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter.ParseEncodedInt(System.String)\" data-throw-if-not-resolved=\"false\"></xref>\nto do the parsing. Returns an empty array if the values array is empty or null, or if the values array contains one element\nand that element is null or the empty string.\n"
   syntax:
@@ -946,10 +947,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.AddValue(System.String[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nAdd another value at the end of the current collection of values\n"
   syntax:
@@ -979,10 +980,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.SetValue(System.String[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nSet the given value as the current collection of values; this method is here because of the params notation,\notherwise it is equivalent to simply setting the Values property\n"
   syntax:
@@ -1012,10 +1013,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.SetIntValue(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nSet the value to be a single integer; any previous value(s) are lost\n"
   syntax:
@@ -1042,10 +1043,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.SetIntValueArray(System.Int32[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nSet the value to be the given array of integers; any previous value(s) are lost\n"
   syntax:
@@ -1075,10 +1076,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.AddSubRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nAdd another subrestriction at the end of the current collection of restrictions.\n"
   syntax:
@@ -1104,10 +1105,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nReturn a string representation, suitable for debugging\n"
   syntax:
@@ -1135,10 +1136,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToString(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string ToString(string prefix)
@@ -1165,10 +1166,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToSoListRestriction()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConvert this restrictionInfo instance into a syntax understood by the SoList providers that represent archives\n"
   syntax:
@@ -1193,10 +1194,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetConcatenatedDisplayValue()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nGet a concatenated display value that contains all actual values separated by the\ncorrect multi-value separator, taking into account the restriction value type\n"
   syntax:
@@ -1221,10 +1222,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.FromSoListRestriction(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nCreate a new archive restriction info object based on a string made by <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToSoListRestriction\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
@@ -1254,10 +1255,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetMultiValueSeparator(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nGet the oppropriate separator between multiple display values, based on restriction type\n"
   syntax:
@@ -1289,10 +1290,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetUniqueIdRestriction(System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nScan the given restriction array to find the given restriction; require it to have an equals or = operator;\nparse the single scalar value as an int and return it. This is a very common case, where a restriction\non a single id is used.\n"
   syntax:
@@ -1340,10 +1341,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.EnforceUniqueIdRestriction(System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nScan the given restriction array, look for a given restriction, and throw an exception if it is not present or\nnot of type unique id (operator equals or =).\n"
   syntax:
@@ -1381,10 +1382,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.AddRestrictionIfMissing(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nAdd an archive restriction if it is not already present in the array; otherwise do nothing\n"
   syntax:
@@ -1422,10 +1423,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ExtractRestriction(System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nScan the restriction array and return the given restriction if found; otherwise return null\n"
   syntax:
@@ -1463,10 +1464,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ExtractAndDropRestriction(System.String, ref SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public static ArchiveRestrictionInfo ExtractAndDropRestriction(string findRestriction, ref ArchiveRestrictionInfo[] restrictions)
@@ -1500,10 +1501,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.PatchRestrictionArray(System.Boolean, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nTake an array of restrictions, and patch in one or more replacements. Such replacements will be added if\nthey are not already there, and will REPLACE any existing restrictions with the same keys. The returned array\nis always a copy of the original, which is not touched.\n"
   syntax:
@@ -1543,10 +1544,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ExtractRestrictionsByBaseName(System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nScan the restriction array and return all instances of the desired restriction. All\ncomparisons are base name to base name, case insensitive.\n"
   remarks: "\nThe <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ExtractRestriction(System.String%2cSuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> method performs a case-insensitive exact match search - so\nthat looking for source/contactRestrictionId would NOT match targe/contactRestrictionId. Here,\nonly base names are used, so there would be a match. However, it&apos;s not a simple\nsubstring search, so that source/restrictionContactId will not match contactId.\n"
@@ -1585,10 +1586,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.PrefixRestrictions(System.Collections.Generic.IEnumerable<SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo>, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nPrefix each restriction in a collection with a certain name prefix, according to the standard prefix rules\n"
   syntax:
@@ -1621,10 +1622,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.EliminateEmptyValueRestrictions(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nScan through an array of restrictions, and remove those that have a null or empty value array.\nNote that having a single value element that itself is null or the empty string is something different,\nsuch restrictions will be eliminated only if so requested. The return value is a copy, the original is not touched.\n"
   syntax:
@@ -1662,10 +1663,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetNoRowsRestrictionInfo()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nReturns a new <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo\" data-throw-if-not-resolved=\"false\"></xref> which tell the provider not to return any rows.\n"
   syntax:
@@ -1693,10 +1694,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetAllRowsRestrictionInfo()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nReturns a new <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo\" data-throw-if-not-resolved=\"false\"></xref> which tell the provider to return all rows.\n"
   syntax:
@@ -1706,6 +1707,41 @@ items:
       description: <xref href="SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo" data-throw-if-not-resolved="false"></xref> with the getAllRows restriction.
     content.vb: Public Shared Function GetAllRowsRestrictionInfo As ArchiveRestrictionInfo
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetAllRowsRestrictionInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.TransformSpecialOperators(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.TransformSpecialOperators(System.String)
+  id: TransformSpecialOperators(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: TransformSpecialOperators(String)
+  nameWithType: ArchiveRestrictionInfo.TransformSpecialOperators(String)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.TransformSpecialOperators(System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nA few operators have dual names - such as equals, which has the synonym &apos;=&apos;. Sometimes we\nneed to avoid using the synonyms, which may match special separators or other elements with\nsemantic meanings. See hard coding in the constructor of this class as well.\n"
+  syntax:
+    content: public static string TransformSpecialOperators(string operatorName)
+    parameters:
+    - id: operatorName
+      type: System.String
+      description: Operator name, either primary or synonym
+    return:
+      type: System.String
+      description: Primary operator name
+    content.vb: Public Shared Function TransformSpecialOperators(operatorName As String) As String
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.TransformSpecialOperators*
   modifiers.csharp:
   - public
   - static
@@ -1724,10 +1760,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to convert an array of ArchiveRestrictionInfo into a string array containing the names only\n"
   syntax:
@@ -1762,10 +1798,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToNameArray(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo>, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to conditionally convert an array of ArchiveRestrictionInfo into a string array containing\nthe names only. The given predicate is applied to each ArchiveRestrictionInfo to determine if its name should\nbe included in the result.\n"
   syntax:
@@ -1806,10 +1842,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToNameArray(System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to convert a list of ArchiveRestrictionInfo into a string array containing the names only\n"
   syntax:
@@ -1844,10 +1880,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToNameArray(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo>, System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to conditionally convert a list of ArchiveRestrictionInfo into a string array containing\nthe names only. The given predicate is applied to each ArchiveRestrictionInfo to determine if its name should\nbe included in the result.\n"
   syntax:
@@ -1888,10 +1924,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToNameDictionary(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to convert an array of ArchiveRestrictionInfo into a dictionary keyed by the restriction unique\nidentifier (see <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetUniqueRestrictionKey\" data-throw-if-not-resolved=\"false\"></xref> for how such an identifier is created). The values of the dictionary\nwill be the restriction info objects.\n"
   syntax:
@@ -1926,10 +1962,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToNameDictionary(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo>, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to convert an array of ArchiveRestrictionInfo into a dictionary keyed by the restriction unique\nidentifier (see <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetUniqueRestrictionKey\" data-throw-if-not-resolved=\"false\"></xref> for how such an identifier is created). The values of the dictionary\nwill be the restriction info objects.\n"
   syntax:
@@ -1970,10 +2006,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToNameDictionary(System.Collections.Generic.ICollection<SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to convert a collection of ArchiveRestrictionInfo into a dictionary keyed by the restriction unique\nidentifier (see <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetUniqueRestrictionKey\" data-throw-if-not-resolved=\"false\"></xref> for how such an identifier is created). The values of the dictionary\nwill be the restriction info objects.\n"
   syntax:
@@ -2008,10 +2044,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToNameDictionary(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo>, System.Collections.Generic.ICollection<SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to conditionally convert a collection of ArchiveRestrictionInfo into a dictionary keyed by the restriction unique\nidentifier (see <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetUniqueRestrictionKey\" data-throw-if-not-resolved=\"false\"></xref> for how such an identifier is created). The values of the dictionary\nwill be the restriction info objects.\n"
   syntax:
@@ -2052,10 +2088,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToKeyArray(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to convert an array of ArchiveRestrictionInfo into a int array containing the names only\n"
   syntax:
@@ -2090,10 +2126,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToKeyArray(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo>, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to conditionally convert an array of ArchiveRestrictionInfo into a int array containing\nthe names only. The given predicate is applied to each ArchiveRestrictionInfo to determine if its name should\nbe included in the result.\n"
   syntax:
@@ -2134,10 +2170,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToKeyArray(System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to convert a list of ArchiveRestrictionInfo into a int array containing the names only\n"
   syntax:
@@ -2172,10 +2208,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToKeyArray(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo>, System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to conditionally convert a list of ArchiveRestrictionInfo into a int array containing\nthe names only. The given predicate is applied to each ArchiveRestrictionInfo to determine if its name should\nbe included in the result.\n"
   syntax:
@@ -2216,10 +2252,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToKeyDictionary(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to convert an array of ArchiveRestrictionInfo into a dictionary keyed by the restriction unique\nidentifier (see <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetUniqueRestrictionKey\" data-throw-if-not-resolved=\"false\"></xref> for how such an identifier is created). The values of the dictionary\nwill be the restriction info objects.\n"
   syntax:
@@ -2254,10 +2290,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToKeyDictionary(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo>, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to convert an array of ArchiveRestrictionInfo into a dictionary keyed by the restriction unique\nidentifier (see <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetUniqueRestrictionKey\" data-throw-if-not-resolved=\"false\"></xref> for how such an identifier is created). The values of the dictionary\nwill be the restriction info objects.\n"
   syntax:
@@ -2298,10 +2334,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToKeyDictionary(System.Collections.Generic.ICollection<SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to convert a collection of ArchiveRestrictionInfo into a dictionary keyed by the restriction unique\nidentifier (see <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetUniqueRestrictionKey\" data-throw-if-not-resolved=\"false\"></xref> for how such an identifier is created). The values of the dictionary\nwill be the restriction info objects.\n"
   syntax:
@@ -2336,10 +2372,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToKeyDictionary(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo>, System.Collections.Generic.ICollection<SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to conditionally convert a collection of ArchiveRestrictionInfo into a dictionary keyed by the restriction unique\nidentifier (see <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetUniqueRestrictionKey\" data-throw-if-not-resolved=\"false\"></xref> for how such an identifier is created). The values of the dictionary\nwill be the restriction info objects.\n"
   syntax:
@@ -2380,10 +2416,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.FilterInactive(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nTake an array of restrictions and return a shallow copy that contains only active restrictions\n"
   syntax:
@@ -2418,10 +2454,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetComplexName()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nCreate a string that will uniquely identify a restriction. For simple restrictions this is the name;\nif there are sub-restrictions, their names and values will be part of the key (needed for Saint searches,\nwhere the same basic restriction may be repeated with different sub restrictions).\n"
   syntax:
@@ -2447,10 +2483,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetUniqueRestrictionKey()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nGet the unique restriction key - really unique, and no longer related to the name of the restriction\n"
   syntax:
@@ -2475,10 +2511,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetBaseNameFromComplexName(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nExtract the base name from a (possibly) complex name (which involves subrestrictions)\n"
   syntax:
@@ -2508,10 +2544,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.Name
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThe programmatic column name, including any required prefixes\n"
   syntax:
@@ -2539,10 +2575,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.Operator
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThe operator, such as =, etc\n"
   syntax:
@@ -2570,10 +2606,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.Values
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nValue(s) to test against\n"
   syntax:
@@ -2601,10 +2637,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.DisplayValues
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nDisplay representation of value(s) - list ID&apos;s are decoded to display texts, other values are represented in a format\nsuitable for decoding and display through the <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
@@ -2632,10 +2668,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ColumnInfo
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nOptional complete ArchiveColumnInfo for this restriction; in that case, ColumnInfo.Name == this.Name will always be true\n"
   syntax:
@@ -2663,10 +2699,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.IsActive
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nIs this restriction active?  Inactive restrictions will not influence the generated query \n"
   syntax:
@@ -2694,10 +2730,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.SubRestrictions
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nOptional collection of sub criteria, usually null but set for Saint counter fields\n"
   syntax:
@@ -2725,10 +2761,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.InterParenthesis
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nGet or set the parenthesis (if any) associated with this restriction. Positive values indicate a number\nof opening parentheses (deepening nesting level), while negative numbers indicate closing parentheses.\nZero means no change in nesting level (no parentheses).\n"
   syntax:
@@ -2756,10 +2792,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.InterOperator
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nGet or set the inter-restriction operator that describes how this\nrestriction is related to the next one in an array.\nDefault for new ArchiveRestrictionInfo objects is And\n"
   syntax:
@@ -2787,10 +2823,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.UniqueHash
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public int UniqueHash { get; set; }
@@ -2817,10 +2853,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ScalarValue
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nReadonly shortcut to Values[0] that will return the empty string if there are no values, or the zero&apos;th element of the array if there is one\n"
   syntax:
@@ -2848,10 +2884,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ScalarDisplayValue
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nReadonly shortcut to DisplayValues[0] that will return the empty string if there are no values, or the zero&apos;th element of the array if there is one\n"
   syntax:
@@ -2879,10 +2915,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.NumValues
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nReturn the number of values of this restriction (subrestrictions not taken into account).\nA &apos;null&apos; value array will return 0.\n"
   syntax:
@@ -4237,6 +4273,12 @@ references:
   name: GetAllRowsRestrictionInfo
   nameWithType: ArchiveRestrictionInfo.GetAllRowsRestrictionInfo
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetAllRowsRestrictionInfo
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.TransformSpecialOperators*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.TransformSpecialOperators
+  isExternal: true
+  name: TransformSpecialOperators
+  nameWithType: ArchiveRestrictionInfo.TransformSpecialOperators
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.TransformSpecialOperators
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToNameArray*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToNameArray
   isExternal: true

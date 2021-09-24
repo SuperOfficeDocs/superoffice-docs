@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSentry Addons: [SentryAddonNames] dummy-name = prog.id.  The prog.id is requred and \nmatches ProgId property of the sentry plugin attribute.\n"
   remarks: "\nVerification is  done by adding a progid string to the sentry plugin attribute, so that \nNetServer plugins can declare the COM progid without having to actually be COM compatible. \nNetServer can then check the sentry preferences and verify that all progids are present \nbefore allowing user to log in. Ignore Sentry in config file or logging in with system \nuser disables the sentry plugin check.\n"
@@ -53,10 +53,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:

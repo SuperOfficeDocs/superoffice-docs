@@ -15,7 +15,7 @@ items:
   fullName: SuperOffice.Security.Cryptography
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
 - uid: SuperOffice.Security.Cryptography.So3Des112Crypto
   commentId: T:SuperOffice.Security.Cryptography.So3Des112Crypto

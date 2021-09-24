@@ -64,6 +64,7 @@ items:
   - SuperOffice.CRM.Rows.BusinessGroupLinkRow.BusinessGroupLinkRowIdxBase
   - SuperOffice.CRM.Rows.BusinessHeadingLinkRow.BusinessHeadingLinkRowIdxBase
   - SuperOffice.CRM.Rows.BusinessRow.BusinessRowIdxBase
+  - SuperOffice.CRM.Rows.CacheInvalidationRow.CacheInvalidationRowIdxBase
   - SuperOffice.CRM.Rows.CacheTablesRow.CacheTablesRowIdxBase
   - SuperOffice.CRM.Rows.CategoryFamilyRow.CategoryFamilyRowIdxBase
   - SuperOffice.CRM.Rows.CategoryGroupLinkRow.CategoryGroupLinkRowIdxBase
@@ -80,6 +81,7 @@ items:
   - SuperOffice.CRM.Rows.ComptrHeadingLinkRow.ComptrHeadingLinkRowIdxBase
   - SuperOffice.CRM.Rows.ComptrRow.ComptrRowIdxBase
   - SuperOffice.CRM.Rows.ConfigRow.ConfigRowIdxBase
+  - SuperOffice.CRM.Rows.ConfigurableScreenDeltaRow.ConfigurableScreenDeltaRowIdxBase
   - SuperOffice.CRM.Rows.ConnectionConfigFieldRow.ConnectionConfigFieldRowIdxBase
   - SuperOffice.CRM.Rows.ConsentPersonRow.ConsentPersonRowIdxBase
   - SuperOffice.CRM.Rows.ConsentPurposeRow.ConsentPurposeRowIdxBase
@@ -104,6 +106,11 @@ items:
   - SuperOffice.CRM.Rows.CustConfigRow.CustConfigRowIdxBase
   - SuperOffice.CRM.Rows.CustLangRow.CustLangRowIdxBase
   - SuperOffice.CRM.Rows.CustomTableRow`1.CustomTableRowIdxBase
+  - SuperOffice.CRM.Rows.DashboardRow.DashboardRowIdxBase
+  - SuperOffice.CRM.Rows.DashboardThemeRow.DashboardThemeRowIdxBase
+  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.DashboardTileDefinitionRowIdxBase
+  - SuperOffice.CRM.Rows.DashboardTileFieldRow.DashboardTileFieldRowIdxBase
+  - SuperOffice.CRM.Rows.DashboardTileRow.DashboardTileRowIdxBase
   - SuperOffice.CRM.Rows.DatabaseModelRow.DatabaseModelRowIdxBase
   - SuperOffice.CRM.Rows.DataRightRow.DataRightRowIdxBase
   - SuperOffice.CRM.Rows.DbiAgentFieldRow.DbiAgentFieldRowIdxBase

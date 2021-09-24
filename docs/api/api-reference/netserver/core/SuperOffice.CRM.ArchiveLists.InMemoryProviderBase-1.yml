@@ -57,6 +57,7 @@ items:
   derivedClasses:
   - SuperOffice.CRM.ArchiveLists.CredentialUserProvider
   - SuperOffice.CRM.ArchiveLists.CriteriaProvider
+  - SuperOffice.CRM.ArchiveLists.ExecutingServicesProvider
   - SuperOffice.CRM.ArchiveLists.FindProductViaConnectorProvider
   - SuperOffice.CRM.ArchiveLists.FreetextCountProvider
   - SuperOffice.CRM.ArchiveLists.MappedPreferenceProvider

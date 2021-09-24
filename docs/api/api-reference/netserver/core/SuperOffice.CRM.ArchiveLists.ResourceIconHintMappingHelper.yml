@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ResourceIconHintMappingHelper
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nImplements a simple class for mapping between icon hints and resource strings\n"
   syntax:
@@ -57,10 +57,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ResourceIconHintMappingHelper.GetResourceFromIconHint(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nReturns the resource string for a given icon hint. If no resource string is found, \nthe icon hint is returned.\n"
   syntax:
@@ -90,10 +90,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ResourceIconHintMappingHelper.ResourceIconHintMappingHelper()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ResourceIconHintMappingHelper()

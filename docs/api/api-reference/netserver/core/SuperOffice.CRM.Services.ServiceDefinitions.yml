@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.CRM.Services.ServiceDefinitions
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nClass implementing string definitions and constants for the service layer\n"
   syntax:
@@ -57,10 +57,10 @@ items:
   fullName: SuperOffice.CRM.Services.ServiceDefinitions.ServiceDefinitions()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public ServiceDefinitions()
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.CRM.Services.ServiceDefinitions.WebServiceNameSpaceUri
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nThe web service namespace common to all NetServer services\n"
   syntax:

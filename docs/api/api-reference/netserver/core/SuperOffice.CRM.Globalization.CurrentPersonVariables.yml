@@ -14,7 +14,6 @@ items:
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.Country
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.Country2
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.CountryCode
-  - SuperOffice.CRM.Globalization.CurrentPersonVariables.CurrentUiCulture
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.DateOfBirth
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.Department
   - SuperOffice.CRM.Globalization.CurrentPersonVariables.Email
@@ -237,6 +236,7 @@ items:
   - SuperOffice.IO.TagContainer.IsTagLegal(System.String)
   - SuperOffice.IO.TagContainer.IsTagInContext(System.String)
   - SuperOffice.IO.TagContainer.Init
+  - SuperOffice.IO.TagContainer.CurrentUiCulture
   - SuperOffice.IO.TagContainer.Data
   - System.Object.ToString
   - System.Object.Equals(System.Object)
@@ -310,37 +310,6 @@ items:
   overload: SuperOffice.CRM.Globalization.CurrentPersonVariables.#ctor*
   modifiers.csharp:
   - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.CurrentUiCulture
-  commentId: P:SuperOffice.CRM.Globalization.CurrentPersonVariables.CurrentUiCulture
-  id: CurrentUiCulture
-  parent: SuperOffice.CRM.Globalization.CurrentPersonVariables
-  langs:
-  - csharp
-  - vb
-  name: CurrentUiCulture
-  nameWithType: CurrentPersonVariables.CurrentUiCulture
-  fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables.CurrentUiCulture
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  summary: "\nCurrent UI culture, this is currently the language code used in template processing\n"
-  syntax:
-    content: public string CurrentUiCulture { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property CurrentUiCulture As String
-  overload: SuperOffice.CRM.Globalization.CurrentPersonVariables.CurrentUiCulture*
-  modifiers.csharp:
-  - public
-  - get
-  - set
   modifiers.vb:
   - Public
 - uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.Id
@@ -9022,6 +8991,13 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.IO.TagContainer.CurrentUiCulture
+  commentId: P:SuperOffice.IO.TagContainer.CurrentUiCulture
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: CurrentUiCulture
+  nameWithType: TagContainer.CurrentUiCulture
+  fullName: SuperOffice.IO.TagContainer.CurrentUiCulture
 - uid: SuperOffice.IO.TagContainer.Data
   commentId: P:SuperOffice.IO.TagContainer.Data
   parent: SuperOffice.IO.TagContainer
@@ -9511,19 +9487,6 @@ references:
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
-- uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.CurrentUiCulture*
-  commentId: Overload:SuperOffice.CRM.Globalization.CurrentPersonVariables.CurrentUiCulture
-  isExternal: true
-  name: CurrentUiCulture
-  nameWithType: CurrentPersonVariables.CurrentUiCulture
-  fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables.CurrentUiCulture
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: SuperOffice.IO.TagContainer.Id
   commentId: P:SuperOffice.IO.TagContainer.Id
   parent: SuperOffice.IO.TagContainer
@@ -9543,6 +9506,13 @@ references:
   name: LoginName
   nameWithType: CurrentPersonVariables.LoginName
   fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables.LoginName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Globalization.CurrentPersonVariables.MrMrs*
   commentId: Overload:SuperOffice.CRM.Globalization.CurrentPersonVariables.MrMrs
   isExternal: true

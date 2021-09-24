@@ -62,18 +62,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Done
+    content: public const string Done = "done"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Done As String
+    content.vb: Public Const Done As String = "done"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SelectionFieldValueKeys.Category
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SelectionFieldValueKeys.Category
   id: Category
@@ -92,18 +90,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Category
+    content: public const string Category = "category"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Category As String
+    content.vb: Public Const Category As String = "category"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SelectionFieldValueKeys.Owner
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SelectionFieldValueKeys.Owner
   id: Owner
@@ -122,18 +118,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Owner
+    content: public const string Owner = "owner"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Owner As String
+    content.vb: Public Const Owner As String = "owner"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SelectionFieldValueKeys.Name
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SelectionFieldValueKeys.Name
   id: Name
@@ -152,18 +146,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Name
+    content: public const string Name = "name"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Name As String
+    content.vb: Public Const Name As String = "name"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SelectionFieldValueKeys.Description
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SelectionFieldValueKeys.Description
   id: Description
@@ -182,18 +174,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Description
+    content: public const string Description = "description"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Description As String
+    content.vb: Public Const Description As String = "description"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SelectionFieldValueKeys.VisibleFor
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SelectionFieldValueKeys.VisibleFor
   id: VisibleFor
@@ -212,18 +202,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string VisibleFor
+    content: public const string VisibleFor = "visibleFor"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly VisibleFor As String
+    content.vb: Public Const VisibleFor As String = "visibleFor"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 references:
 - uid: SuperOffice.CRM.BulkUpdate
   commentId: N:SuperOffice.CRM.BulkUpdate

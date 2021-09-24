@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.CRM.INextDueDatePlugin
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nContains the algorithm for calculating the next due date for a given sale or all sales.\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDate(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nCalculates the next due date for a given sale. This method takes into account the status of the sale. \n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDate(SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nUpdates the next due date for all sales. The callback is called for each 1/1000th step of the total, with the current value (0-1000)\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDate(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGets the active date from the first appointment associated with the specified sale.\nThis method does not take into account the status of the sale. \n"
   syntax:

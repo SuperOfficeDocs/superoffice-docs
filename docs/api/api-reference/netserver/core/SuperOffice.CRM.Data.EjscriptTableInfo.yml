@@ -18,6 +18,10 @@ items:
   - SuperOffice.CRM.Data.EjscriptTableInfo.HierarchyId_InnerJoin_Hierarchy
   - SuperOffice.CRM.Data.EjscriptTableInfo.HtmlOutput
   - SuperOffice.CRM.Data.EjscriptTableInfo.IncludeId
+  - SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotMessageReceivedScriptid
+  - SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotRegisterScriptid
+  - SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotSessionChangedScriptid
+  - SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotSessionCreatedScriptid
   - SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_DbiAgentSchedule_ScriptId
   - SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_Form_ScriptId
   - SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_MsFilter_Ejscript
@@ -889,6 +893,130 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.MsFilterTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_MsFilter_Ejscript As TargetedLeftOuterJoin(Of MsFilterTableInfo)
   overload: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_MsFilter_Ejscript*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotRegisterScriptid
+  commentId: P:SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotRegisterScriptid
+  id: LeftOuterJoin_ChatTopic_BotRegisterScriptid
+  parent: SuperOffice.CRM.Data.EjscriptTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_ChatTopic_BotRegisterScriptid
+  nameWithType: EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotRegisterScriptid
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotRegisterScriptid
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key EjscriptId on this table, to ChatTopic.<xref href=\"SuperOffice.CRM.Data.ChatTopicTableInfo.BotRegisterScriptid\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<ChatTopicTableInfo> LeftOuterJoin_ChatTopic_BotRegisterScriptid { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ChatTopicTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_ChatTopic_BotRegisterScriptid As TargetedLeftOuterJoin(Of ChatTopicTableInfo)
+  overload: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotRegisterScriptid*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotSessionCreatedScriptid
+  commentId: P:SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotSessionCreatedScriptid
+  id: LeftOuterJoin_ChatTopic_BotSessionCreatedScriptid
+  parent: SuperOffice.CRM.Data.EjscriptTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_ChatTopic_BotSessionCreatedScriptid
+  nameWithType: EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotSessionCreatedScriptid
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotSessionCreatedScriptid
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key EjscriptId on this table, to ChatTopic.<xref href=\"SuperOffice.CRM.Data.ChatTopicTableInfo.BotSessionCreatedScriptid\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<ChatTopicTableInfo> LeftOuterJoin_ChatTopic_BotSessionCreatedScriptid { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ChatTopicTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_ChatTopic_BotSessionCreatedScriptid As TargetedLeftOuterJoin(Of ChatTopicTableInfo)
+  overload: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotSessionCreatedScriptid*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotSessionChangedScriptid
+  commentId: P:SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotSessionChangedScriptid
+  id: LeftOuterJoin_ChatTopic_BotSessionChangedScriptid
+  parent: SuperOffice.CRM.Data.EjscriptTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_ChatTopic_BotSessionChangedScriptid
+  nameWithType: EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotSessionChangedScriptid
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotSessionChangedScriptid
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key EjscriptId on this table, to ChatTopic.<xref href=\"SuperOffice.CRM.Data.ChatTopicTableInfo.BotSessionChangedScriptid\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<ChatTopicTableInfo> LeftOuterJoin_ChatTopic_BotSessionChangedScriptid { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ChatTopicTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_ChatTopic_BotSessionChangedScriptid As TargetedLeftOuterJoin(Of ChatTopicTableInfo)
+  overload: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotSessionChangedScriptid*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotMessageReceivedScriptid
+  commentId: P:SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotMessageReceivedScriptid
+  id: LeftOuterJoin_ChatTopic_BotMessageReceivedScriptid
+  parent: SuperOffice.CRM.Data.EjscriptTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_ChatTopic_BotMessageReceivedScriptid
+  nameWithType: EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotMessageReceivedScriptid
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotMessageReceivedScriptid
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key EjscriptId on this table, to ChatTopic.<xref href=\"SuperOffice.CRM.Data.ChatTopicTableInfo.BotMessageReceivedScriptid\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<ChatTopicTableInfo> LeftOuterJoin_ChatTopic_BotMessageReceivedScriptid { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ChatTopicTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_ChatTopic_BotMessageReceivedScriptid As TargetedLeftOuterJoin(Of ChatTopicTableInfo)
+  overload: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotMessageReceivedScriptid*
   modifiers.csharp:
   - public
   - get
@@ -2366,6 +2494,74 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotRegisterScriptid*
+  commentId: Overload:SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotRegisterScriptid
+  isExternal: true
+  name: LeftOuterJoin_ChatTopic_BotRegisterScriptid
+  nameWithType: EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotRegisterScriptid
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotRegisterScriptid
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ChatTopicTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ChatTopicTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<ChatTopicTableInfo>
+  nameWithType: TargetedLeftOuterJoin<ChatTopicTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.ChatTopicTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of ChatTopicTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.ChatTopicTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of ChatTopicTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ChatTopicTableInfo
+    name: ChatTopicTableInfo
+    nameWithType: ChatTopicTableInfo
+    fullName: SuperOffice.CRM.Data.ChatTopicTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ChatTopicTableInfo
+    name: ChatTopicTableInfo
+    nameWithType: ChatTopicTableInfo
+    fullName: SuperOffice.CRM.Data.ChatTopicTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotSessionCreatedScriptid*
+  commentId: Overload:SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotSessionCreatedScriptid
+  isExternal: true
+  name: LeftOuterJoin_ChatTopic_BotSessionCreatedScriptid
+  nameWithType: EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotSessionCreatedScriptid
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotSessionCreatedScriptid
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotSessionChangedScriptid*
+  commentId: Overload:SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotSessionChangedScriptid
+  isExternal: true
+  name: LeftOuterJoin_ChatTopic_BotSessionChangedScriptid
+  nameWithType: EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotSessionChangedScriptid
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotSessionChangedScriptid
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotMessageReceivedScriptid*
+  commentId: Overload:SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotMessageReceivedScriptid
+  isExternal: true
+  name: LeftOuterJoin_ChatTopic_BotMessageReceivedScriptid
+  nameWithType: EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotMessageReceivedScriptid
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ChatTopic_BotMessageReceivedScriptid
 - uid: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_SLink_ScriptId*
   commentId: Overload:SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_SLink_ScriptId
   isExternal: true

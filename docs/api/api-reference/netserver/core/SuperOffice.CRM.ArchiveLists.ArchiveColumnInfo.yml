@@ -14,6 +14,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AddPrefixToDisplayName(System.String,System.String)
   - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AddPrefixToName(System.String,System.String)
   - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AssociateColumn(System.String,System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AssociateFullNameColumn(System.String,System.String,System.String)
   - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.BaseName
   - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.CanOrderBy
   - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.CanRestrictBy
@@ -66,10 +67,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThis class carries information about the definition and properties of an archive display column. It is used by the archive\nMDO providers to construct column lists for the configuration dialogs, and by the archive control to know what type\n(and other properties) each column has. The class is serializable and used on both the application\nand Web server sides.\n"
   syntax:
@@ -116,10 +117,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.__sourceCode
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string __sourceCode
@@ -142,10 +143,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.Clone()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public object Clone()
@@ -171,10 +172,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ArchiveColumnInfo()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object, not setting anything.\n"
   syntax:
@@ -197,10 +198,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ArchiveColumnInfo(System.String, System.String, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object, setting name, display name and type only\n"
   syntax:
@@ -233,10 +234,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ArchiveColumnInfo(System.String, System.String, System.String, System.String, System.Boolean, System.Boolean, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object, setting almost all fields. This constructor is suitable for all fields that are not restrictable lists or icons.\nFor fields that can be used as restrictions, consider using the constructor that has the additional restrictionType and restrictionListName arguments, \ngiving full control of the information.\n"
   syntax:
@@ -281,10 +282,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ArchiveColumnInfo(System.String, System.String, System.String, System.String, System.Boolean, System.Boolean, System.String, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object, setting all fields. This constructor is suitable for fields \nthat can be used as restrictions. It has the additional restrictionType and restrictionListName arguments, \ngiving full control of the information.\n"
   syntax:
@@ -332,10 +333,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ArchiveColumnInfo(System.String, System.String, System.String, System.String, System.Boolean, System.Boolean, System.String, System.String, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object, setting all fields. This constructor is suitable for fields \nthat can be used as restrictions. It has the additional restrictionType and restrictionListName arguments, \ngiving full control of the information.\n"
   syntax:
@@ -386,10 +387,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.StringColumn(System.String, System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public static ArchiveColumnInfo StringColumn(string name, string displayName, string width = "10c")
@@ -422,10 +423,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.DecimalColumn(System.String, System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public static ArchiveColumnInfo DecimalColumn(string name, string displayName, string width = "12c")
@@ -458,10 +459,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.IntColumn(System.String, System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public static ArchiveColumnInfo IntColumn(string name, string displayName, string width = "8c")
@@ -494,10 +495,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.CheckBoxColumn(System.String, System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public static ArchiveColumnInfo CheckBoxColumn(string name, string displayName, string width = "4c")
@@ -530,10 +531,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.DateColumn(System.String, System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public static ArchiveColumnInfo DateColumn(string name, string displayName, string width = "10c")
@@ -566,10 +567,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.DateTimeColumn(System.String, System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public static ArchiveColumnInfo DateTimeColumn(string name, string displayName, string width = "16c")
@@ -602,10 +603,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AssociateColumn(System.String, System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public static ArchiveColumnInfo AssociateColumn(string name, string displayName, string width = "8c")
@@ -626,6 +627,42 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AssociateFullNameColumn(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AssociateFullNameColumn(System.String,System.String,System.String)
+  id: AssociateFullNameColumn(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  langs:
+  - csharp
+  - vb
+  name: AssociateFullNameColumn(String, String, String)
+  nameWithType: ArchiveColumnInfo.AssociateFullNameColumn(String, String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AssociateFullNameColumn(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static ArchiveColumnInfo AssociateFullNameColumn(string name, string displayName, string width = "20%")
+    parameters:
+    - id: name
+      type: System.String
+    - id: displayName
+      type: System.String
+    - id: width
+      type: System.String
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Public Shared Function AssociateFullNameColumn(name As String, displayName As String, width As String = "20%") As ArchiveColumnInfo
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AssociateFullNameColumn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.RegisteredByColumn
   commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.RegisteredByColumn
   id: RegisteredByColumn
@@ -638,10 +675,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.RegisteredByColumn()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public static ArchiveColumnInfo RegisteredByColumn()
@@ -667,10 +704,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.RegisteredDateColumn()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public static ArchiveColumnInfo RegisteredDateColumn()
@@ -696,10 +733,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.UpdatedByColumn()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public static ArchiveColumnInfo UpdatedByColumn()
@@ -725,10 +762,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.UpdatedDateColumn()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public static ArchiveColumnInfo UpdatedDateColumn()
@@ -754,10 +791,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nReturns a string representation of most of the column data, intended for debugging display use\n"
   syntax:
@@ -785,10 +822,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToString(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string ToString(string prefix)
@@ -815,10 +852,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.PrefixBy(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nAdd the given prefix(es) to the name and displayname. You can prefix either the name, displayname, both or none.\n"
   syntax:
@@ -848,10 +885,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.RemovePrefix(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nRemove the given prefix(es) from the name and displayname, if present. You can remove either\na name prefix, a display name prefix, both or none. No exceptions are thrown.\n"
   syntax:
@@ -881,10 +918,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.IsDotSyntax(System.String[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public static bool IsDotSyntax(params string[] columnName)
@@ -916,10 +953,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.IsDotSyntax()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public bool IsDotSyntax()
@@ -943,10 +980,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to convert an array of ArchiveColumnInfo into a string array containing the names only\n"
   syntax:
@@ -981,10 +1018,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to conditionally convert an array of ArchiveColumnInfo into a string array containing\nthe names only. The given predicate is applied to each ArchiveColumnInfo to determine if its name should\nbe included in the result.\n"
   syntax:
@@ -1025,10 +1062,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray(System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to convert a list of ArchiveColumnInfo into a string array containing the names only\n"
   syntax:
@@ -1063,10 +1100,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>, System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to conditionally convert a list of ArchiveColumnInfo into a string array containing\nthe names only. The given predicate is applied to each ArchiveColumnInfo to determine if its name should\nbe included in the result.\n"
   syntax:
@@ -1107,10 +1144,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to convert an array of ArchiveColumnInfo into a string array containing the names only\n"
   syntax:
@@ -1145,10 +1182,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to conditionally convert an array of ArchiveColumnInfo into a string array containing\nthe names only. The given predicate is applied to each ArchiveColumnInfo to determine if its name should\nbe included in the result.\n"
   syntax:
@@ -1189,10 +1226,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary(System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to convert a list of ArchiveColumnInfo into a string array containing the names only\n"
   syntax:
@@ -1227,10 +1264,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>, System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to conditionally convert a list of ArchiveColumnInfo into a string array containing\nthe names only. The given predicate is applied to each ArchiveColumnInfo to determine if its name should\nbe included in the result.\n"
   syntax:
@@ -1271,10 +1308,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ExtractBaseName(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nGet the base name of a column name (not display name)\n"
   syntax:
@@ -1306,10 +1343,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AddPrefixToName(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nAdd a prefix to a column name, using the <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.NamePrefixDelimiter\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
@@ -1344,10 +1381,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AddPrefixToDisplayName(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nAdd a prefix to a column name, using the <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.DisplayNamePrefixDelimiter\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
@@ -1382,10 +1419,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ExtractCompletePrefix(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nExtract the prefix from a column name. If there is no prefix, the empty string is returned.\nIf there are multiple prefixes, one long string comprising everything <strong>except</strong> the base\nname is returned.\n"
   syntax:
@@ -1417,10 +1454,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.NormalizeColumnPercentWidths(System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nNormalize the percent widths of a list of columns\n"
   syntax:
@@ -1451,10 +1488,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.DisplayName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThe column name to show, can be a resource identifier string\n"
   syntax:
@@ -1482,10 +1519,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.DisplayTooltip
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThe column tooltip, used in the column list and in the column headings\n"
   syntax:
@@ -1513,10 +1550,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.DisplayType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nType of column, so that the archive knows how to display it (actual display values are always strings, invariant-culture formatted).\nThis name can contain resource tags.\n"
   syntax:
@@ -1544,10 +1581,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.CanOrderBy
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nCan this column be used for sorting?\n"
   syntax:
@@ -1575,10 +1612,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.Name
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUnique identity of this column (in this particular context); the name to be used when requesting the column from a provider,\nsetting restrictions or order by criteria\n"
   syntax:
@@ -1606,10 +1643,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.BaseName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nBase part of the unique identity of this column, i.e., <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.Name\" data-throw-if-not-resolved=\"false\"></xref> stripped\nof any prefixes. Note that this may no longer be unique. This property is read only.\n"
   syntax:
@@ -1637,10 +1674,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.CanRestrictBy
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nCan this column be used as a restriction\n"
   syntax:
@@ -1668,10 +1705,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.RestrictionType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThe data type of the restriction; use this to retrieve the legal operators for the restriction\n"
   syntax:
@@ -1699,10 +1736,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.RestrictionListName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nIf the restriction data type is &apos;list&apos;, this property contains the name of the SoList so that choices can be shown\n"
   syntax:
@@ -1730,10 +1767,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.IsVisible
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nIs this column visible to the user in configuration dialogs etc\n"
   syntax:
@@ -1761,10 +1798,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ExtraInfo
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nExample: &quot;navigator&quot; -> Should this column be mapped to a hyperlinked navigator text type?\n"
   syntax:
@@ -1792,10 +1829,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.Width
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThe width specification, if the column info has been extended with GUI-based information.\nIt is either &quot;n%&quot; or &quot;nc&quot;, where n is an integer. Percent-formatted fields grow and shrink; number-of-characters\nformatted fields have constant width when the whole archive width changes.\n"
   syntax:
@@ -1823,10 +1860,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.IconHint
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nIcon hint corresponding to the display name; this icon hint is used in the configuration dialog\nand other places where we &apos;talk about&apos; the columns of the archive. The actual heading\nof the archive may also contain icons in lieu of textual names, the icon hint for that\nis specified in <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.HeadingIconHint\" data-throw-if-not-resolved=\"false\"></xref> and is a different one.\n"
   syntax:
@@ -1854,10 +1891,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.HeadingIconHint
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nIcon hint for the archive heading only. If this is a nonempty string, the archive header\nshould use this icon and ignore the <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.DisplayName\" data-throw-if-not-resolved=\"false\"></xref>. Otherwise, the DisplayName\nshould be used as the heading.\n"
   syntax:
@@ -1885,10 +1922,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.NamePrefixDelimiter
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThe delimiter used between components of a prefixed name \n"
   syntax:
@@ -1918,10 +1955,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.DisplayNamePrefixDelimiter
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThe delimiter used between components of a prefixed display name (what the user sees)\n"
   syntax:
@@ -2886,6 +2923,12 @@ references:
   name: AssociateColumn
   nameWithType: ArchiveColumnInfo.AssociateColumn
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AssociateColumn
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AssociateFullNameColumn*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AssociateFullNameColumn
+  isExternal: true
+  name: AssociateFullNameColumn
+  nameWithType: ArchiveColumnInfo.AssociateFullNameColumn
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AssociateFullNameColumn
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.RegisteredByColumn*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.RegisteredByColumn
   isExternal: true

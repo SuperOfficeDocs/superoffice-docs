@@ -7,9 +7,13 @@ items:
   children:
   - SuperOffice.CRM.Rows.SShipmentAddrRow.#ctor(SuperOffice.CRM.Rows.SShipmentAddrRow.SShipmentAddrRowIdxBase)
   - SuperOffice.CRM.Rows.SShipmentAddrRow._currentAddress
+  - SuperOffice.CRM.Rows.SShipmentAddrRow._currentBounceCode
   - SuperOffice.CRM.Rows.SShipmentAddrRow._currentBounceReason
+  - SuperOffice.CRM.Rows.SShipmentAddrRow._currentBounceReasontag
+  - SuperOffice.CRM.Rows.SShipmentAddrRow._currentCleaned
   - SuperOffice.CRM.Rows.SShipmentAddrRow._currentContactId
   - SuperOffice.CRM.Rows.SShipmentAddrRow._currentCustomerId
+  - SuperOffice.CRM.Rows.SShipmentAddrRow._currentFormSubmissionId
   - SuperOffice.CRM.Rows.SShipmentAddrRow._currentName
   - SuperOffice.CRM.Rows.SShipmentAddrRow._currentSenderNr
   - SuperOffice.CRM.Rows.SShipmentAddrRow._currentSendingTime
@@ -20,9 +24,13 @@ items:
   - SuperOffice.CRM.Rows.SShipmentAddrRow._currentTimestamp
   - SuperOffice.CRM.Rows.SShipmentAddrRow._currentType
   - SuperOffice.CRM.Rows.SShipmentAddrRow._onAddressChange
+  - SuperOffice.CRM.Rows.SShipmentAddrRow._onBounceCodeChange
   - SuperOffice.CRM.Rows.SShipmentAddrRow._onBounceReasonChange
+  - SuperOffice.CRM.Rows.SShipmentAddrRow._onBounceReasontagChange
+  - SuperOffice.CRM.Rows.SShipmentAddrRow._onCleanedChange
   - SuperOffice.CRM.Rows.SShipmentAddrRow._onContactIdChange
   - SuperOffice.CRM.Rows.SShipmentAddrRow._onCustomerIdChange
+  - SuperOffice.CRM.Rows.SShipmentAddrRow._onFormSubmissionIdChange
   - SuperOffice.CRM.Rows.SShipmentAddrRow._onNameChange
   - SuperOffice.CRM.Rows.SShipmentAddrRow._onSenderNrChange
   - SuperOffice.CRM.Rows.SShipmentAddrRow._onSendingTimeChange
@@ -32,9 +40,13 @@ items:
   - SuperOffice.CRM.Rows.SShipmentAddrRow._onTimestampChange
   - SuperOffice.CRM.Rows.SShipmentAddrRow._onTypeChange
   - SuperOffice.CRM.Rows.SShipmentAddrRow._persistedAddress
+  - SuperOffice.CRM.Rows.SShipmentAddrRow._persistedBounceCode
   - SuperOffice.CRM.Rows.SShipmentAddrRow._persistedBounceReason
+  - SuperOffice.CRM.Rows.SShipmentAddrRow._persistedBounceReasontag
+  - SuperOffice.CRM.Rows.SShipmentAddrRow._persistedCleaned
   - SuperOffice.CRM.Rows.SShipmentAddrRow._persistedContactId
   - SuperOffice.CRM.Rows.SShipmentAddrRow._persistedCustomerId
+  - SuperOffice.CRM.Rows.SShipmentAddrRow._persistedFormSubmissionId
   - SuperOffice.CRM.Rows.SShipmentAddrRow._persistedName
   - SuperOffice.CRM.Rows.SShipmentAddrRow._persistedSenderNr
   - SuperOffice.CRM.Rows.SShipmentAddrRow._persistedSendingTime
@@ -45,10 +57,14 @@ items:
   - SuperOffice.CRM.Rows.SShipmentAddrRow._persistedTimestamp
   - SuperOffice.CRM.Rows.SShipmentAddrRow._persistedType
   - SuperOffice.CRM.Rows.SShipmentAddrRow.Address
+  - SuperOffice.CRM.Rows.SShipmentAddrRow.BounceCode
   - SuperOffice.CRM.Rows.SShipmentAddrRow.BounceReason
+  - SuperOffice.CRM.Rows.SShipmentAddrRow.BounceReasontag
+  - SuperOffice.CRM.Rows.SShipmentAddrRow.Cleaned
   - SuperOffice.CRM.Rows.SShipmentAddrRow.ContactId
   - SuperOffice.CRM.Rows.SShipmentAddrRow.CreateNew
   - SuperOffice.CRM.Rows.SShipmentAddrRow.CustomerId
+  - SuperOffice.CRM.Rows.SShipmentAddrRow.FormSubmissionId
   - SuperOffice.CRM.Rows.SShipmentAddrRow.GetFromCustomSearch(SuperOffice.CRM.Rows.SShipmentAddrRow.CustomSearch)
   - SuperOffice.CRM.Rows.SShipmentAddrRow.GetFromIdxSShipmentAddrId(System.Int32)
   - SuperOffice.CRM.Rows.SShipmentAddrRow.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.SShipmentAddrTableInfo)
@@ -63,9 +79,13 @@ items:
   - SuperOffice.CRM.Rows.SShipmentAddrRow.Item(System.String)
   - SuperOffice.CRM.Rows.SShipmentAddrRow.Name
   - SuperOffice.CRM.Rows.SShipmentAddrRow.OnAddressChange
+  - SuperOffice.CRM.Rows.SShipmentAddrRow.OnBounceCodeChange
   - SuperOffice.CRM.Rows.SShipmentAddrRow.OnBounceReasonChange
+  - SuperOffice.CRM.Rows.SShipmentAddrRow.OnBounceReasontagChange
+  - SuperOffice.CRM.Rows.SShipmentAddrRow.OnCleanedChange
   - SuperOffice.CRM.Rows.SShipmentAddrRow.OnContactIdChange
   - SuperOffice.CRM.Rows.SShipmentAddrRow.OnCustomerIdChange
+  - SuperOffice.CRM.Rows.SShipmentAddrRow.OnFormSubmissionIdChange
   - SuperOffice.CRM.Rows.SShipmentAddrRow.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.SShipmentAddrRow.OnNameChange
   - SuperOffice.CRM.Rows.SShipmentAddrRow.OnSave(SuperOffice.Data.SQL.BatchSave)
@@ -143,6 +163,7 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.CRM.Rows.IdxBase,SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+  - SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
   - SuperOffice.CRM.Rows.TableRowBase.SetSaveOwner(SuperOffice.Data.INestedPersist)
   - SuperOffice.CRM.Rows.TableRowBase.Save
   - SuperOffice.CRM.Rows.TableRowBase.Delete
@@ -557,6 +578,114 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow._persistedFormSubmissionId
+  commentId: F:SuperOffice.CRM.Rows.SShipmentAddrRow._persistedFormSubmissionId
+  id: _persistedFormSubmissionId
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedFormSubmissionId
+  nameWithType: SShipmentAddrRow._persistedFormSubmissionId
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow._persistedFormSubmissionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.SShipmentAddrRow.FormSubmissionId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _persistedFormSubmissionId
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedFormSubmissionId As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow._persistedBounceCode
+  commentId: F:SuperOffice.CRM.Rows.SShipmentAddrRow._persistedBounceCode
+  id: _persistedBounceCode
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedBounceCode
+  nameWithType: SShipmentAddrRow._persistedBounceCode
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow._persistedBounceCode
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.SShipmentAddrRow.BounceCode\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _persistedBounceCode
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedBounceCode As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow._persistedBounceReasontag
+  commentId: F:SuperOffice.CRM.Rows.SShipmentAddrRow._persistedBounceReasontag
+  id: _persistedBounceReasontag
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedBounceReasontag
+  nameWithType: SShipmentAddrRow._persistedBounceReasontag
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow._persistedBounceReasontag
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.SShipmentAddrRow.BounceReasontag\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected string _persistedBounceReasontag
+    return:
+      type: System.String
+    content.vb: Protected _persistedBounceReasontag As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow._persistedCleaned
+  commentId: F:SuperOffice.CRM.Rows.SShipmentAddrRow._persistedCleaned
+  id: _persistedCleaned
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedCleaned
+  nameWithType: SShipmentAddrRow._persistedCleaned
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow._persistedCleaned
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.SShipmentAddrRow.Cleaned\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected short _persistedCleaned
+    return:
+      type: System.Int16
+    content.vb: Protected _persistedCleaned As Short
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.SShipmentAddrRow._currentSShipmentAddrId
   commentId: F:SuperOffice.CRM.Rows.SShipmentAddrRow._currentSShipmentAddrId
   id: _currentSShipmentAddrId
@@ -904,6 +1033,114 @@ items:
     return:
       type: System.String
     content.vb: Protected _currentBounceReason As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow._currentFormSubmissionId
+  commentId: F:SuperOffice.CRM.Rows.SShipmentAddrRow._currentFormSubmissionId
+  id: _currentFormSubmissionId
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRow
+  langs:
+  - csharp
+  - vb
+  name: _currentFormSubmissionId
+  nameWithType: SShipmentAddrRow._currentFormSubmissionId
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow._currentFormSubmissionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.SShipmentAddrRow.FormSubmissionId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _currentFormSubmissionId
+    return:
+      type: System.Int32
+    content.vb: Protected _currentFormSubmissionId As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow._currentBounceCode
+  commentId: F:SuperOffice.CRM.Rows.SShipmentAddrRow._currentBounceCode
+  id: _currentBounceCode
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRow
+  langs:
+  - csharp
+  - vb
+  name: _currentBounceCode
+  nameWithType: SShipmentAddrRow._currentBounceCode
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow._currentBounceCode
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.SShipmentAddrRow.BounceCode\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _currentBounceCode
+    return:
+      type: System.Int32
+    content.vb: Protected _currentBounceCode As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow._currentBounceReasontag
+  commentId: F:SuperOffice.CRM.Rows.SShipmentAddrRow._currentBounceReasontag
+  id: _currentBounceReasontag
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRow
+  langs:
+  - csharp
+  - vb
+  name: _currentBounceReasontag
+  nameWithType: SShipmentAddrRow._currentBounceReasontag
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow._currentBounceReasontag
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.SShipmentAddrRow.BounceReasontag\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected string _currentBounceReasontag
+    return:
+      type: System.String
+    content.vb: Protected _currentBounceReasontag As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow._currentCleaned
+  commentId: F:SuperOffice.CRM.Rows.SShipmentAddrRow._currentCleaned
+  id: _currentCleaned
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRow
+  langs:
+  - csharp
+  - vb
+  name: _currentCleaned
+  nameWithType: SShipmentAddrRow._currentCleaned
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow._currentCleaned
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.SShipmentAddrRow.Cleaned\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected short _currentCleaned
+    return:
+      type: System.Int16
+    content.vb: Protected _currentCleaned As Short
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -2202,6 +2439,142 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow.FormSubmissionId
+  commentId: P:SuperOffice.CRM.Rows.SShipmentAddrRow.FormSubmissionId
+  id: FormSubmissionId
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRow
+  langs:
+  - csharp
+  - vb
+  name: FormSubmissionId
+  nameWithType: SShipmentAddrRow.FormSubmissionId
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow.FormSubmissionId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: int. If this mailing recipient is created from a form submission, this will contain a reference to that submission \n"
+  remarks: "\nOriginal type in dictionary:  FK.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual int FormSubmissionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property FormSubmissionId As Integer
+  overload: SuperOffice.CRM.Rows.SShipmentAddrRow.FormSubmissionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow.BounceCode
+  commentId: P:SuperOffice.CRM.Rows.SShipmentAddrRow.BounceCode
+  id: BounceCode
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRow
+  langs:
+  - csharp
+  - vb
+  name: BounceCode
+  nameWithType: SShipmentAddrRow.BounceCode
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow.BounceCode
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: int. If this recipient bounced and we have a bounce code, this field will contain the code \n"
+  remarks: "\nOriginal type in dictionary:  Int.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual int BounceCode { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property BounceCode As Integer
+  overload: SuperOffice.CRM.Rows.SShipmentAddrRow.BounceCode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow.BounceReasontag
+  commentId: P:SuperOffice.CRM.Rows.SShipmentAddrRow.BounceReasontag
+  id: BounceReasontag
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRow
+  langs:
+  - csharp
+  - vb
+  name: BounceReasontag
+  nameWithType: SShipmentAddrRow.BounceReasontag
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow.BounceReasontag
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: string. If this recipient bounced and we have a bounce reason, this field will contain the reason \n"
+  remarks: "\nOriginal type in dictionary:  String[4001].\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual string BounceReasontag { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property BounceReasontag As String
+  overload: SuperOffice.CRM.Rows.SShipmentAddrRow.BounceReasontag*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow.Cleaned
+  commentId: P:SuperOffice.CRM.Rows.SShipmentAddrRow.Cleaned
+  id: Cleaned
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRow
+  langs:
+  - csharp
+  - vb
+  name: Cleaned
+  nameWithType: SShipmentAddrRow.Cleaned
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow.Cleaned
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: short. Used for indicating that a bounced recipient row has been cleaned, and now will not be presented again in the cleaning list \n"
+  remarks: "\nOriginal type in dictionary:  Bool.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual short Cleaned { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Cleaned As Short
+  overload: SuperOffice.CRM.Rows.SShipmentAddrRow.Cleaned*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Rows.SShipmentAddrRow._onShipmentIdChange
   commentId: E:SuperOffice.CRM.Rows.SShipmentAddrRow._onShipmentIdChange
   id: _onShipmentIdChange
@@ -2526,6 +2899,114 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow._onFormSubmissionIdChange
+  commentId: E:SuperOffice.CRM.Rows.SShipmentAddrRow._onFormSubmissionIdChange
+  id: _onFormSubmissionIdChange
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRow
+  langs:
+  - csharp
+  - vb
+  name: _onFormSubmissionIdChange
+  nameWithType: SShipmentAddrRow._onFormSubmissionIdChange
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow._onFormSubmissionIdChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.SShipmentAddrRow.FormSubmissionId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
+  syntax:
+    content: protected event OnFieldChange<int> _onFormSubmissionIdChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Event _onFormSubmissionIdChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow._onBounceCodeChange
+  commentId: E:SuperOffice.CRM.Rows.SShipmentAddrRow._onBounceCodeChange
+  id: _onBounceCodeChange
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRow
+  langs:
+  - csharp
+  - vb
+  name: _onBounceCodeChange
+  nameWithType: SShipmentAddrRow._onBounceCodeChange
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow._onBounceCodeChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.SShipmentAddrRow.BounceCode\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
+  syntax:
+    content: protected event OnFieldChange<int> _onBounceCodeChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Event _onBounceCodeChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow._onBounceReasontagChange
+  commentId: E:SuperOffice.CRM.Rows.SShipmentAddrRow._onBounceReasontagChange
+  id: _onBounceReasontagChange
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRow
+  langs:
+  - csharp
+  - vb
+  name: _onBounceReasontagChange
+  nameWithType: SShipmentAddrRow._onBounceReasontagChange
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow._onBounceReasontagChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.SShipmentAddrRow.BounceReasontag\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
+  syntax:
+    content: protected event OnFieldChange<string> _onBounceReasontagChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
+    content.vb: Protected Event _onBounceReasontagChange As OnFieldChange(Of String)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow._onCleanedChange
+  commentId: E:SuperOffice.CRM.Rows.SShipmentAddrRow._onCleanedChange
+  id: _onCleanedChange
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRow
+  langs:
+  - csharp
+  - vb
+  name: _onCleanedChange
+  nameWithType: SShipmentAddrRow._onCleanedChange
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow._onCleanedChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.SShipmentAddrRow.Cleaned\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
+  syntax:
+    content: protected event OnFieldChange<short> _onCleanedChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+    content.vb: Protected Event _onCleanedChange As OnFieldChange(Of Short)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.SShipmentAddrRow.OnShipmentIdChange
   commentId: E:SuperOffice.CRM.Rows.SShipmentAddrRow.OnShipmentIdChange
   id: OnShipmentIdChange
@@ -2846,6 +3327,114 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
     content.vb: Public Event OnBounceReasonChange As OnFieldChange(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow.OnFormSubmissionIdChange
+  commentId: E:SuperOffice.CRM.Rows.SShipmentAddrRow.OnFormSubmissionIdChange
+  id: OnFormSubmissionIdChange
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRow
+  langs:
+  - csharp
+  - vb
+  name: OnFormSubmissionIdChange
+  nameWithType: SShipmentAddrRow.OnFormSubmissionIdChange
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow.OnFormSubmissionIdChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when FormSubmissionId is changing.\n"
+  syntax:
+    content: public event OnFieldChange<int> OnFormSubmissionIdChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Event OnFormSubmissionIdChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow.OnBounceCodeChange
+  commentId: E:SuperOffice.CRM.Rows.SShipmentAddrRow.OnBounceCodeChange
+  id: OnBounceCodeChange
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRow
+  langs:
+  - csharp
+  - vb
+  name: OnBounceCodeChange
+  nameWithType: SShipmentAddrRow.OnBounceCodeChange
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow.OnBounceCodeChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when BounceCode is changing.\n"
+  syntax:
+    content: public event OnFieldChange<int> OnBounceCodeChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Event OnBounceCodeChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow.OnBounceReasontagChange
+  commentId: E:SuperOffice.CRM.Rows.SShipmentAddrRow.OnBounceReasontagChange
+  id: OnBounceReasontagChange
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRow
+  langs:
+  - csharp
+  - vb
+  name: OnBounceReasontagChange
+  nameWithType: SShipmentAddrRow.OnBounceReasontagChange
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow.OnBounceReasontagChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when BounceReasontag is changing.\n"
+  syntax:
+    content: public event OnFieldChange<string> OnBounceReasontagChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
+    content.vb: Public Event OnBounceReasontagChange As OnFieldChange(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow.OnCleanedChange
+  commentId: E:SuperOffice.CRM.Rows.SShipmentAddrRow.OnCleanedChange
+  id: OnCleanedChange
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRow
+  langs:
+  - csharp
+  - vb
+  name: OnCleanedChange
+  nameWithType: SShipmentAddrRow.OnCleanedChange
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow.OnCleanedChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when Cleaned is changing.\n"
+  syntax:
+    content: public event OnFieldChange<short> OnCleanedChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+    content.vb: Public Event OnCleanedChange As OnFieldChange(Of Short)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -3516,6 +4105,63 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: SetDefaults(DashboardTileDefinitionRow, String)
+  nameWithType: TableRowBase.SetDefaults(DashboardTileDefinitionRow, String)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -5534,6 +6180,13 @@ references:
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -6442,6 +7095,30 @@ references:
   name: BounceReason
   nameWithType: SShipmentAddrRow.BounceReason
   fullName: SuperOffice.CRM.Rows.SShipmentAddrRow.BounceReason
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow.FormSubmissionId*
+  commentId: Overload:SuperOffice.CRM.Rows.SShipmentAddrRow.FormSubmissionId
+  isExternal: true
+  name: FormSubmissionId
+  nameWithType: SShipmentAddrRow.FormSubmissionId
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow.FormSubmissionId
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow.BounceCode*
+  commentId: Overload:SuperOffice.CRM.Rows.SShipmentAddrRow.BounceCode
+  isExternal: true
+  name: BounceCode
+  nameWithType: SShipmentAddrRow.BounceCode
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow.BounceCode
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow.BounceReasontag*
+  commentId: Overload:SuperOffice.CRM.Rows.SShipmentAddrRow.BounceReasontag
+  isExternal: true
+  name: BounceReasontag
+  nameWithType: SShipmentAddrRow.BounceReasontag
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow.BounceReasontag
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRow.Cleaned*
+  commentId: Overload:SuperOffice.CRM.Rows.SShipmentAddrRow.Cleaned
+  isExternal: true
+  name: Cleaned
+  nameWithType: SShipmentAddrRow.Cleaned
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRow.Cleaned
 - uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   parent: SuperOffice.CRM.Rows
@@ -6653,6 +7330,50 @@ references:
     name: DateTime
     nameWithType: DateTime
     fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+  parent: SuperOffice.CRM.Rows
+  definition: SuperOffice.CRM.Rows.OnFieldChange`1
+  name: OnFieldChange<Int16>
+  nameWithType: OnFieldChange<Int16>
+  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.Int16>
+  nameWithType.vb: OnFieldChange(Of Int16)
+  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.Int16)
+  name.vb: OnFieldChange(Of Int16)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
+    name: OnFieldChange
+    nameWithType: OnFieldChange
+    fullName: SuperOffice.CRM.Rows.OnFieldChange
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int16
+    name: Int16
+    nameWithType: Int16
+    fullName: System.Int16
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
+    name: OnFieldChange
+    nameWithType: OnFieldChange
+    fullName: SuperOffice.CRM.Rows.OnFieldChange
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int16
+    name: Int16
+    nameWithType: Int16
+    fullName: System.Int16
     isExternal: true
   - name: )
     nameWithType: )

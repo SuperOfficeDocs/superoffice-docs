@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Security.Cryptography.SoHash
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Cryptography
   summary: "\nPerform hashing of data, such as checksums, passwords etc. IMPORTANT - read Remarks for cross-dependency on the corresponding C++ code!\n"
   remarks: "\nThis class will take a dbtag (which should always be the CentralDbTag, not the own tag of the current DB), a primary key and a binary\nbuffer, and produce a hash. Currently the algorithm is SHA1.\n<p></p>\nThe code must be cross-checked with c:\\CRM_Client\\main.seven\\Source\\SUP\\SoHash.cpp and PRODUCE THE EXACT SAME RESULT for the same\ninputs. Any changes must be made to both codebases and carefully checked; hashes made by one codebase will routinely be checked\nby the other and they have to match.\n"
@@ -58,10 +58,10 @@ items:
   fullName: SuperOffice.Security.Cryptography.SoHash.SoHash(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Cryptography
   summary: "\nDefault constructor taking the DbTag in the format it is in the database.\n"
   syntax:
@@ -88,10 +88,10 @@ items:
   fullName: SuperOffice.Security.Cryptography.SoHash.SoHash(System.Byte[])
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Cryptography
   summary: "\nDefault constructor taking the DbTag as a byte array.\n"
   syntax:
@@ -121,10 +121,10 @@ items:
   fullName: SuperOffice.Security.Cryptography.SoHash.HashData(System.Int32, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Cryptography
   summary: "\nCreate a private hash from the provided primary key and data\n"
   syntax:
@@ -157,10 +157,10 @@ items:
   fullName: SuperOffice.Security.Cryptography.SoHash.HashData(System.Int32, System.Byte[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Cryptography
   summary: "\nCreate a private hash from the provided primary key and data\n"
   syntax:

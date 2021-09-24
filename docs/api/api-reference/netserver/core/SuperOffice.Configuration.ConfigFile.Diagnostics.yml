@@ -7,9 +7,12 @@ items:
   children:
   - SuperOffice.Configuration.ConfigFile.Diagnostics.AppInsightInstrumentationKey
   - SuperOffice.Configuration.ConfigFile.Diagnostics.CheckBrowserVersion
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.EnableQAAttributes
   - SuperOffice.Configuration.ConfigFile.Diagnostics.EnableResourceTracer
   - SuperOffice.Configuration.ConfigFile.Diagnostics.EnableScaffolding
   - SuperOffice.Configuration.ConfigFile.Diagnostics.EnableStackTracing
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LogDebug
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LogDebugFrom
   - SuperOffice.Configuration.ConfigFile.Diagnostics.LogError
   - SuperOffice.Configuration.ConfigFile.Diagnostics.LogEventRecorder
   - SuperOffice.Configuration.ConfigFile.Diagnostics.LogFailureAudit
@@ -28,11 +31,14 @@ items:
   - SuperOffice.Configuration.ConfigFile.Diagnostics.LogToEventLog
   - SuperOffice.Configuration.ConfigFile.Diagnostics.LogToFile
   - SuperOffice.Configuration.ConfigFile.Diagnostics.LogToTrace
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LogTrace
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LogTraceFrom
   - SuperOffice.Configuration.ConfigFile.Diagnostics.LogWarning
   - SuperOffice.Configuration.ConfigFile.Diagnostics.LogWarningFrom
   - SuperOffice.Configuration.ConfigFile.Diagnostics.LongNonQueryThreshold
   - SuperOffice.Configuration.ConfigFile.Diagnostics.LongQueryRows
   - SuperOffice.Configuration.ConfigFile.Diagnostics.LongQueryThreshold
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.ShowExceptionsFromBackend
   - SuperOffice.Configuration.ConfigFile.Diagnostics.UsageStatUrl
   - SuperOffice.Configuration.ConfigFile.Diagnostics.UserSyncUrl
   langs:
@@ -43,10 +49,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nConfiguration of diagnostic tools\n"
   syntax:
@@ -81,13 +87,13 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogError
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nLog errors (default &apos;True&apos;).\n"
-  remarks: "\nInformation in this category will not be logged to SuperOffice Research and Product Development\n"
+  remarks: "\nErrors usually indicate that something has gone wrong.\n"
   syntax:
     content: public static bool LogError { get; set; }
     parameters: []
@@ -115,13 +121,13 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogWarning
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nLog warnings (default &apos;False&apos;)\n"
-  remarks: "\nInformation in this category will not be logged to SuperOffice Research and Product Development\n"
+  remarks: "\nWarnings are not as bad as errors. You can filter the warnings to specific classes or namespaces using the LogWarningFrom value\n"
   syntax:
     content: public static bool LogWarning { get; set; }
     parameters: []
@@ -149,10 +155,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogWarningFrom
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nList of namespaces/types to log warnings from; default blank means all, otherwise comma-separated list of type or namespace names to log from. e.g.: &apos;SuperOffice.CRM.Services,ContactRow,DefaultWebhookPlugin&apos; \n"
   remarks: "\nType and namespace names are not case sensitive.\n"
@@ -183,12 +189,12 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogInformation
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nLog general information. This includes successful SQL&apos;s passed to the database. Only permit this option while debugging a bug.  This will be a severe performance hit! (default &apos;False&apos;)\n"
+  summary: "\nLog general information. This includes general status information. Only permit this option while debugging a bug.  This will be a performance hit! (default &apos;False&apos;)\n"
   remarks: "\nInformation in this category will not be logged to SuperOffice Research and Product Development\n"
   syntax:
     content: public static bool LogInformation { get; set; }
@@ -217,10 +223,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogInformationFrom
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nList of namespaces/types to log information from; default blank means all, otherwise comma-separated list of type or namespace names to log from. e.g.: &apos;SuperOffice.CRM.Services,ContactRow,WebhookDispatcher&apos; \n"
   remarks: "\nType and namespace names are not case sensitive.\n"
@@ -231,6 +237,142 @@ items:
       type: System.String
     content.vb: Public Shared Property LogInformationFrom As String
   overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogInformationFrom*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogDebug
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LogDebug
+  id: LogDebug
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LogDebug
+  nameWithType: ConfigFile.Diagnostics.LogDebug
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogDebug
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nLog debug information. This includes successful SQL&apos;s passed to the database. Only permit this option while debugging a bug.  This will be a severe performance hit! (default &apos;False&apos;)\n"
+  remarks: "\nMore detailed than information, but not as detailed as Trace.\n"
+  syntax:
+    content: public static bool LogDebug { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property LogDebug As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogDebug*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogDebugFrom
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LogDebugFrom
+  id: LogDebugFrom
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LogDebugFrom
+  nameWithType: ConfigFile.Diagnostics.LogDebugFrom
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogDebugFrom
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nList of namespaces/types to log debug data from; default blank means all, otherwise comma-separated list of type or namespace names to log from. e.g.: &apos;SuperOffice.CRM.Services,ContactRow,WebhookDispatcher&apos; \n"
+  remarks: "\nType and namespace names are not case sensitive.\n"
+  syntax:
+    content: public static string LogDebugFrom { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property LogDebugFrom As String
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogDebugFrom*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogTrace
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LogTrace
+  id: LogTrace
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LogTrace
+  nameWithType: ConfigFile.Diagnostics.LogTrace
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogTrace
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nLog detailed trace information. This includes method calls and timer details. Only permit this option while debugging a bug.  This will be a severe performance hit! (default &apos;False&apos;)\n"
+  remarks: "\nInformation in this category will not be logged to SuperOffice Research and Product Development\n"
+  syntax:
+    content: public static bool LogTrace { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property LogTrace As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogTrace*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogTraceFrom
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LogTraceFrom
+  id: LogTraceFrom
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LogTraceFrom
+  nameWithType: ConfigFile.Diagnostics.LogTraceFrom
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogTraceFrom
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nList of namespaces/types to log traces from; default blank means all, otherwise comma-separated list of type or namespace names to log from. e.g.: &apos;SuperOffice.CRM.Services,ContactRow,WebhookDispatcher&apos; \n"
+  remarks: "\nType and namespace names are not case sensitive.\n"
+  syntax:
+    content: public static string LogTraceFrom { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property LogTraceFrom As String
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogTraceFrom*
   modifiers.csharp:
   - public
   - static
@@ -251,10 +393,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogFailureAudit
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nLog failed authentications (default &apos;True&apos;)\n"
   remarks: "\nInformation in this category will not be logged to SuperOffice Research and Product Development\n"
@@ -285,10 +427,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogSuccessAudit
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nLog successful authentications (default &apos;False&apos;)\n"
   remarks: "\nInformation in this category will not be logged to SuperOffice Research and Product Development\n"
@@ -319,13 +461,13 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogToEventLog
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nLog to the OS event log (default &apos;True&apos;)\n"
-  remarks: "\nThis is currently not supported\n"
+  remarks: "\nRequires that the app has write permissions to system event log.\n"
   syntax:
     content: public static bool LogToEventLog { get; set; }
     parameters: []
@@ -353,12 +495,13 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogToFile
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nLog to a LogFile (default &apos;False&apos;)\n"
+  summary: "\nLog to a LogFile located in the LogFolder(default &apos;False&apos;)\n"
+  remarks: "\nWrites a log file names &apos;2020-12-24.log&apos; in the LogFolder.\n"
   syntax:
     content: public static bool LogToFile { get; set; }
     parameters: []
@@ -386,12 +529,12 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogToTrace
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nLog to a Trace that can be listened to by <xref href=\"System.Diagnostics.TraceListener\" data-throw-if-not-resolved=\"false\"></xref>. (default &apos;False&apos;)\n"
+  summary: "\nLog to a TraceSource named &apos;SuperOffice&apos; that can be listened to by <xref href=\"System.Diagnostics.TraceListener\" data-throw-if-not-resolved=\"false\"></xref>. (default &apos;False&apos;)\n"
   syntax:
     content: public static bool LogToTrace { get; set; }
     parameters: []
@@ -419,10 +562,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogFolder
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nFolder (e.g. UNC path) where the logfile is to reside.  Note that the owner of the process needs to have access to manipulate files in this folder. The Documents/Impersonation settings apply!\n"
   syntax:
@@ -452,12 +595,12 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableScaffolding
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nWhen this option is enabled, extra logging is performed. It is strongly recommended to have this option enabled during development and testing.\n"
+  summary: "\nWhen this option is enabled, extra logging is performed. It is strongly recommended to have this option disabled in production. Df\n"
   remarks: "\nHuge log files are generated when this option is enabled!\n"
   syntax:
     content: public static bool EnableScaffolding { get; set; }
@@ -486,10 +629,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueries
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nShould long-running queries be logged in textual form to a special file?  default false\n"
   syntax:
@@ -519,10 +662,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueriesToPlugins
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nShould long-running queries be logged to SoLoggerPlugins?  default false\n"
   syntax:
@@ -552,10 +695,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LongQueryThreshold
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThreshold for logging a long-running query, in milliseconds. Queries that execute in less than this time are not logged as long-running. The time is from the moment the SQL text is sent to the database, until the first row (for a select) or the &apos;nn rows affected&apos; return value is received.\n"
   syntax:
@@ -585,10 +728,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LongNonQueryThreshold
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThreshold for logging a long-running query, in milliseconds. Queries that execute in less than this time are not logged as long-running. The time is from the moment the SQL text is sent to the database, until the first row (for a select) or the &apos;nn rows affected&apos; return value is received.\n"
   syntax:
@@ -618,10 +761,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LongQueryRows
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThreshold for logging a long-running query, in rows. Queries that affects more than this number of rows are logged as long-running.\n"
   syntax:
@@ -651,10 +794,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueriesAsXML
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nShould long-running queries be logged to a special file (Query_year.month.day.log) in XML serialized format, for later analysis and reruns using the QueryWorkbench tool\n"
   syntax:
@@ -684,10 +827,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableStackTracing
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nShould stack traces be collected by various events\n"
   syntax:
@@ -717,10 +860,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.CheckBrowserVersion
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nShould browser version information be sent back to SuperOffice for compatibility verification?\n"
   syntax:
@@ -750,10 +893,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogServiceCalls
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nShould calls to the service layer be logged\n"
   syntax:
@@ -783,10 +926,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LoggedServices
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nList of services to be logged; default blank means all, otherwise comma-separated list of service names (without the Agent suffix, for instance: BLOB, Appointment)\n"
   syntax:
@@ -816,10 +959,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogMail
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nLog mail server communication\n"
   syntax:
@@ -849,10 +992,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogMailFolder
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nFolder to use for mail logging\n"
   syntax:
@@ -882,10 +1025,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogTimes
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nLog times to file.\n"
   syntax:
@@ -915,10 +1058,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogEventRecorder
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nInclude a snapshot of the event recorder in all log entries\n"
   syntax:
@@ -948,10 +1091,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableResourceTracer
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nEnable tracing of resource usage pr. opartation to trace.\n"
   syntax:
@@ -981,10 +1124,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.UsageStatUrl
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nCollection url for reporting Usage Statistics\n"
   syntax:
@@ -1014,10 +1157,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.UserSyncUrl
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nCollection url for sync&apos;ing user information\n"
   syntax:
@@ -1047,10 +1190,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.AppInsightInstrumentationKey
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nIdentifier of resource that you want to associate your telemetry data with\n"
   syntax:
@@ -1060,6 +1203,72 @@ items:
       type: System.String
     content.vb: Public Shared Property AppInsightInstrumentationKey As String
   overload: SuperOffice.Configuration.ConfigFile.Diagnostics.AppInsightInstrumentationKey*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.ShowExceptionsFromBackend
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.ShowExceptionsFromBackend
+  id: ShowExceptionsFromBackend
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: ShowExceptionsFromBackend
+  nameWithType: ConfigFile.Diagnostics.ShowExceptionsFromBackend
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.ShowExceptionsFromBackend
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nIf true, then the innermost exception message from the backend will be shown in the GUI, dreictly when the error happens\n"
+  syntax:
+    content: public static bool ShowExceptionsFromBackend { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property ShowExceptionsFromBackend As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.ShowExceptionsFromBackend*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableQAAttributes
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.EnableQAAttributes
+  id: EnableQAAttributes
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: EnableQAAttributes
+  nameWithType: ConfigFile.Diagnostics.EnableQAAttributes
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableQAAttributes
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nIf true, the SCIL components renders additional attributes to help with automated UI tests\n"
+  syntax:
+    content: public static bool EnableQAAttributes { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property EnableQAAttributes As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableQAAttributes*
   modifiers.csharp:
   - public
   - static
@@ -1411,6 +1620,30 @@ references:
   name: LogInformationFrom
   nameWithType: ConfigFile.Diagnostics.LogInformationFrom
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogInformationFrom
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogDebug*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogDebug
+  isExternal: true
+  name: LogDebug
+  nameWithType: ConfigFile.Diagnostics.LogDebug
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogDebug
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogDebugFrom*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogDebugFrom
+  isExternal: true
+  name: LogDebugFrom
+  nameWithType: ConfigFile.Diagnostics.LogDebugFrom
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogDebugFrom
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogTrace*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogTrace
+  isExternal: true
+  name: LogTrace
+  nameWithType: ConfigFile.Diagnostics.LogTrace
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogTrace
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogTraceFrom*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogTraceFrom
+  isExternal: true
+  name: LogTraceFrom
+  nameWithType: ConfigFile.Diagnostics.LogTraceFrom
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogTraceFrom
 - uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogFailureAudit*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogFailureAudit
   isExternal: true
@@ -1568,3 +1801,15 @@ references:
   name: AppInsightInstrumentationKey
   nameWithType: ConfigFile.Diagnostics.AppInsightInstrumentationKey
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.AppInsightInstrumentationKey
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.ShowExceptionsFromBackend*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.ShowExceptionsFromBackend
+  isExternal: true
+  name: ShowExceptionsFromBackend
+  nameWithType: ConfigFile.Diagnostics.ShowExceptionsFromBackend
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.ShowExceptionsFromBackend
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableQAAttributes*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.EnableQAAttributes
+  isExternal: true
+  name: EnableQAAttributes
+  nameWithType: ConfigFile.Diagnostics.EnableQAAttributes
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableQAAttributes

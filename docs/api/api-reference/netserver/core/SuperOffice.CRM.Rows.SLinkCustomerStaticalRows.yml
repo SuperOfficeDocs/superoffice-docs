@@ -16,7 +16,7 @@ items:
   - SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.GetFromCustomSearch(SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.CustomSearch)
   - SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.GetFromIdxEmail(System.String)
   - SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.GetFromIdxLinkId(System.Int32)
-  - SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.GetFromIdxLinkType(System.Int16)
+  - SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.GetFromIdxLinkType(SuperOffice.Data.ShipmentLinkType)
   - SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.GetFromIdxShipmentId(System.Int32)
   - SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo)
   - SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.Item(System.Int32)
@@ -424,16 +424,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.GetFromIdxLinkType(System.Int16)
-  commentId: M:SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.GetFromIdxLinkType(System.Int16)
-  id: GetFromIdxLinkType(System.Int16)
+- uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.GetFromIdxLinkType(SuperOffice.Data.ShipmentLinkType)
+  commentId: M:SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.GetFromIdxLinkType(SuperOffice.Data.ShipmentLinkType)
+  id: GetFromIdxLinkType(SuperOffice.Data.ShipmentLinkType)
   parent: SuperOffice.CRM.Rows.SLinkCustomerStaticalRows
   langs:
   - csharp
   - vb
-  name: GetFromIdxLinkType(Int16)
-  nameWithType: SLinkCustomerStaticalRows.GetFromIdxLinkType(Int16)
-  fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.GetFromIdxLinkType(System.Int16)
+  name: GetFromIdxLinkType(ShipmentLinkType)
+  nameWithType: SLinkCustomerStaticalRows.GetFromIdxLinkType(ShipmentLinkType)
+  fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.GetFromIdxLinkType(SuperOffice.Data.ShipmentLinkType)
   type: Method
   source:
     path: SoDataBase
@@ -444,14 +444,14 @@ items:
   summary: "\nCreate a new instance of the SLinkCustomerStaticalRow object, by querying the database table via the index &apos;IDXS_link_customer_staticalLink_type&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
   remarks: "\nThis method represents one of the unique indexes on the SLinkCustomerStatical table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.SLinkCustomerStaticalRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
   syntax:
-    content: public static SLinkCustomerStaticalRows GetFromIdxLinkType(short linkType)
+    content: public static SLinkCustomerStaticalRows GetFromIdxLinkType(ShipmentLinkType linkType)
     parameters:
     - id: linkType
-      type: System.Int16
+      type: SuperOffice.Data.ShipmentLinkType
     return:
       type: SuperOffice.CRM.Rows.SLinkCustomerStaticalRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxLinkType(linkType As Short) As SLinkCustomerStaticalRows
+    content.vb: Public Shared Function GetFromIdxLinkType(linkType As ShipmentLinkType) As SLinkCustomerStaticalRows
   overload: SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.GetFromIdxLinkType*
   modifiers.csharp:
   - public
@@ -3711,13 +3711,13 @@ references:
   name: GetFromIdxLinkType
   nameWithType: SLinkCustomerStaticalRows.GetFromIdxLinkType
   fullName: SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.GetFromIdxLinkType
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
+- uid: SuperOffice.Data.ShipmentLinkType
+  commentId: T:SuperOffice.Data.ShipmentLinkType
+  parent: SuperOffice.Data
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  name: ShipmentLinkType
+  nameWithType: ShipmentLinkType
+  fullName: SuperOffice.Data.ShipmentLinkType
 - uid: SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.GetFromReader*
   commentId: Overload:SuperOffice.CRM.Rows.SLinkCustomerStaticalRows.GetFromReader
   isExternal: true

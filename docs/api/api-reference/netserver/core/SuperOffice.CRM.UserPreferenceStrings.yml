@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nHelper class that exposes section and key names for the UserPreference table. The top level\nmembers of this class are classes that represent sections; use the .Section member to get the actual\nsection name. Inner members represent the keys within each section.. The PreferenceLevel enum contains the\nvalues for the DefLevel element of the UserPreference table.\n"
   syntax:
@@ -52,10 +52,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.DotReplacement
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public const string DotReplacement = "$!|"

@@ -15,6 +15,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnPersonId
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnProjectId
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRecordType
+  - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRecordTypeText
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRegisteredBy
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRegisteredDate
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnSaleId
@@ -44,10 +45,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: 'public class ArchiveActivityRow : ArchiveRow, IDataRecord, IEquatable<ArchiveRow>'
@@ -162,10 +163,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnCompleted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnCompleted = "completed"
@@ -190,10 +191,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnIcon
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnIcon = "icon"
@@ -218,10 +219,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnDate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnDate = "date"
@@ -246,10 +247,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnTime
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnTime = "time"
@@ -274,10 +275,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnType
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnType = "type"
@@ -302,16 +303,44 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRecordType
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnRecordType = "recordType"
     return:
       type: System.String
     content.vb: Public Const ColumnRecordType As String = "recordType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRecordTypeText
+  commentId: F:SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRecordTypeText
+  id: ColumnRecordTypeText
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow
+  langs:
+  - csharp
+  - vb
+  name: ColumnRecordTypeText
+  nameWithType: ArchiveActivityRow.ColumnRecordTypeText
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRecordTypeText
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColumnRecordTypeText = "recordTypeText"
+    return:
+      type: System.String
+    content.vb: Public Const ColumnRecordTypeText As String = "recordTypeText"
   modifiers.csharp:
   - public
   - const
@@ -330,10 +359,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnText
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnText = "text"
@@ -358,10 +387,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnAssociateId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnAssociateId = "associateId"
@@ -386,10 +415,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnContactId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnContactId = "contactId"
@@ -414,10 +443,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnPersonId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnPersonId = "personId"
@@ -442,10 +471,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnProjectId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnProjectId = "projectId"
@@ -470,10 +499,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnSaleId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnSaleId = "saleId"
@@ -498,10 +527,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnVisibleFor
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnVisibleFor = "visibleFor"
@@ -526,10 +555,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnUpdatedBy
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnUpdatedBy = "updatedBy"
@@ -554,10 +583,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnUpdatedDate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnUpdatedDate = "updatedDate"
@@ -582,10 +611,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRegisteredBy
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnRegisteredBy = "registeredBy"
@@ -610,10 +639,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRegisteredDate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnRegisteredDate = "registeredDate"
@@ -638,10 +667,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public override string ToString()
@@ -668,10 +697,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ArchiveActivityRow()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveActivityRow()
@@ -693,10 +722,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.Completed
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nIs the activity marked as completed\n"
   syntax:
@@ -724,10 +753,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.Icon
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nIcon hint for activity, depends on a number of factors including type\n"
   syntax:
@@ -755,10 +784,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.Date
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nDate part of activity active date; time component will always be 00:00:00\n"
   syntax:
@@ -786,10 +815,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.Time
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nTime part of activity active date; time component may be 00:00:00 for some activity types. \n"
   syntax:
@@ -817,10 +846,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.Type
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nActivity type text\n"
   syntax:
@@ -848,10 +877,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.Text
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nActivity descriptive text\n"
   syntax:
@@ -879,10 +908,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.AssociateId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nId of associate who owns the activity; may be 0 for bookings of external persons\n"
   syntax:
@@ -910,10 +939,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ContactId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nId of contact this activity is optionally connected to; may be 0\n"
   syntax:
@@ -941,10 +970,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.PersonId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nId of person this activity is optionally connected to; may be 0\n"
   syntax:
@@ -972,10 +1001,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ProjectId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nId of project this activity is optionally connected to; may be 0\n"
   syntax:
@@ -1003,10 +1032,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.SaleId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nId of sale this activity is optionally connected to; may be 0\n"
   syntax:
@@ -1034,10 +1063,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.VisibleFor
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nWho is this activity visible for\n"
   syntax:

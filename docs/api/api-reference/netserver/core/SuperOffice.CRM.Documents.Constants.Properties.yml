@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.Documents.Constants.Properties.HasLocking
   - SuperOffice.CRM.Documents.Constants.Properties.HasVersioning
   - SuperOffice.CRM.Documents.Constants.Properties.LastModified
+  - SuperOffice.CRM.Documents.Constants.Properties.Length
   - SuperOffice.CRM.Documents.Constants.Properties.PreferredOpen
   - SuperOffice.CRM.Documents.Constants.Properties.Tooltip
   langs:
@@ -245,6 +246,35 @@ items:
     return:
       type: System.String
     content.vb: Public Const LastModified As String = "last-modified"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Documents.Constants.Properties.Length
+  commentId: F:SuperOffice.CRM.Documents.Constants.Properties.Length
+  id: Length
+  parent: SuperOffice.CRM.Documents.Constants.Properties
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: Constants.Properties.Length
+  fullName: SuperOffice.CRM.Documents.Constants.Properties.Length
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nDocument size in bytes.\n"
+  syntax:
+    content: public const string Length = "length"
+    return:
+      type: System.String
+    content.vb: Public Const Length As String = "length"
   modifiers.csharp:
   - public
   - const

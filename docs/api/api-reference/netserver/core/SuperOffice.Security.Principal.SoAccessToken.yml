@@ -29,10 +29,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessToken
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nClass representing Access Tokens which are an alternative to Tickets. The access tokens are valid for a shorter time-period than tickets.\nAccessTokens restrict access to the installation by multiple criterias. The access is restricted to the permissions of the partner application and the associate. \nCompared to SoCredentials, the access tokens are more short-lived (1 hour).\n"
   syntax:
@@ -74,10 +74,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessToken.AccessTokenPrefix
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public const string AccessTokenPrefix = "8A:"
@@ -102,10 +102,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessToken.CreateDefault(System.String, System.UInt32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public static SoAccessToken CreateDefault(string applicationToken, uint expiresIn)
@@ -136,10 +136,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessToken.CreateNonce()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public static string CreateNonce()
@@ -165,10 +165,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessToken.TryParse(System.String, out System.String, out System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nTry parse the encrypted version of the access token into the contextIdentifier and the encrypted data.\n"
   syntax:
@@ -208,10 +208,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessToken.GetUntrustedContextIdentifier(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nGet the untrusted contextIdentifier. The value of the contextIdentifier can be changed without detection.\n"
   syntax:
@@ -241,10 +241,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessToken.IsAccessTokenPrefix(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nCheck if a user name is an access token. See if it starts with the <xref href=\"SuperOffice.Security.Principal.SoAccessToken.AccessTokenPrefix\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
@@ -276,10 +276,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessToken.SoAccessToken()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public SoAccessToken()
@@ -301,10 +301,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessToken.ApplicationToken
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nApplication Token identifiying the partner application.\n"
   syntax:
@@ -332,10 +332,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessToken.ValidFrom
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nValidFrom and ValidTo restrict the period when the access token is valid. \n"
   syntax:
@@ -363,10 +363,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessToken.ValidTo
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nValidFrom and ValidTo restrict the period when the access token is valid. \n"
   syntax:
@@ -394,10 +394,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessToken.AssociateId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe identifier of the associate used when creating the access token. \n"
   syntax:
@@ -425,10 +425,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessToken.ContextIdentifier
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe contextIdentifier in the access token.\n"
   syntax:
@@ -456,10 +456,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessToken.Nonce
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public string Nonce { get; set; }
@@ -486,10 +486,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessToken.LoginId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public int LoginId { get; set; }
@@ -516,10 +516,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessToken.SessionKey
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public string SessionKey { get; set; }
@@ -546,10 +546,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAccessToken.UserId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public int UserId { get; set; }

@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.Options
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public static class Options
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.Options.Distinct
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string Distinct = "distinct"
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.Options.RowCount
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string RowCount = "rowcount"
@@ -110,10 +110,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.Options.DisableTrimming
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string DisableTrimming = "disableTrimming"
@@ -138,10 +138,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.Options.DisableJoinOrderForcing
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string DisableJoinOrderForcing = "disableJoinOrderForcing"

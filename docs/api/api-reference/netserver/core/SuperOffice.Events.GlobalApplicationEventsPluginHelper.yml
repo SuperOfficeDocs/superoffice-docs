@@ -7,7 +7,7 @@ items:
   children:
   - SuperOffice.Events.GlobalApplicationEventsPluginHelper.Application_End(System.Web.HttpApplication,System.Object,System.EventArgs)
   - SuperOffice.Events.GlobalApplicationEventsPluginHelper.Application_Error(System.Web.HttpApplication,System.Object,System.EventArgs)
-  - SuperOffice.Events.GlobalApplicationEventsPluginHelper.Application_Start(System.Web.HttpApplication,System.Object,System.EventArgs)
+  - SuperOffice.Events.GlobalApplicationEventsPluginHelper.Application_Start(System.Web.HttpApplication,System.Object,System.EventArgs,System.String)
   langs:
   - csharp
   - vb
@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Events.GlobalApplicationEventsPluginHelper
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Events
   summary: "\nHelper class to dispatch events to Global Application Event sPlugin\n"
   syntax:
@@ -42,26 +42,26 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.Events.GlobalApplicationEventsPluginHelper.Application_Start(System.Web.HttpApplication,System.Object,System.EventArgs)
-  commentId: M:SuperOffice.Events.GlobalApplicationEventsPluginHelper.Application_Start(System.Web.HttpApplication,System.Object,System.EventArgs)
-  id: Application_Start(System.Web.HttpApplication,System.Object,System.EventArgs)
+- uid: SuperOffice.Events.GlobalApplicationEventsPluginHelper.Application_Start(System.Web.HttpApplication,System.Object,System.EventArgs,System.String)
+  commentId: M:SuperOffice.Events.GlobalApplicationEventsPluginHelper.Application_Start(System.Web.HttpApplication,System.Object,System.EventArgs,System.String)
+  id: Application_Start(System.Web.HttpApplication,System.Object,System.EventArgs,System.String)
   parent: SuperOffice.Events.GlobalApplicationEventsPluginHelper
   langs:
   - csharp
   - vb
-  name: Application_Start(HttpApplication, Object, EventArgs)
-  nameWithType: GlobalApplicationEventsPluginHelper.Application_Start(HttpApplication, Object, EventArgs)
-  fullName: SuperOffice.Events.GlobalApplicationEventsPluginHelper.Application_Start(System.Web.HttpApplication, System.Object, System.EventArgs)
+  name: Application_Start(HttpApplication, Object, EventArgs, String)
+  nameWithType: GlobalApplicationEventsPluginHelper.Application_Start(HttpApplication, Object, EventArgs, String)
+  fullName: SuperOffice.Events.GlobalApplicationEventsPluginHelper.Application_Start(System.Web.HttpApplication, System.Object, System.EventArgs, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Events
   summary: "\nDispatch global.asax Application_Start\n"
   syntax:
-    content: public static void Application_Start(HttpApplication application, object sender, EventArgs e)
+    content: public static void Application_Start(HttpApplication application, object sender, EventArgs e, string cloudRoleName)
     parameters:
     - id: application
       type: System.Web.HttpApplication
@@ -69,7 +69,10 @@ items:
       type: System.Object
     - id: e
       type: System.EventArgs
-    content.vb: Public Shared Sub Application_Start(application As HttpApplication, sender As Object, e As EventArgs)
+    - id: cloudRoleName
+      type: System.String
+      description: Application or cloud role name
+    content.vb: Public Shared Sub Application_Start(application As HttpApplication, sender As Object, e As EventArgs, cloudRoleName As String)
   overload: SuperOffice.Events.GlobalApplicationEventsPluginHelper.Application_Start*
   modifiers.csharp:
   - public
@@ -89,10 +92,10 @@ items:
   fullName: SuperOffice.Events.GlobalApplicationEventsPluginHelper.Application_Error(System.Web.HttpApplication, System.Object, System.EventArgs)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Events
   summary: "\nDispatch global.asax Application_Error\n"
   syntax:
@@ -124,10 +127,10 @@ items:
   fullName: SuperOffice.Events.GlobalApplicationEventsPluginHelper.Application_End(System.Web.HttpApplication, System.Object, System.EventArgs)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Events
   summary: "\nDispatch global.asax Application_End\n"
   syntax:
@@ -464,6 +467,13 @@ references:
   name: EventArgs
   nameWithType: EventArgs
   fullName: System.EventArgs
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Events.GlobalApplicationEventsPluginHelper.Application_Error*
   commentId: Overload:SuperOffice.Events.GlobalApplicationEventsPluginHelper.Application_Error
   isExternal: true

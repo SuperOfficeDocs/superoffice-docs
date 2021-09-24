@@ -22,10 +22,10 @@ items:
   fullName: SuperOffice.Data.AssociateType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nField Type in table associate\nThis Enum is used by:  associate.type; AssociateHistory.type\nThis Enum consists of flag values that can be combined.\n"
   syntax:
@@ -66,10 +66,10 @@ items:
   fullName: SuperOffice.Data.AssociateType.NoPersonBit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Associates with this bit is not associated with any person. Disregard the PersonId for associates with this bit set\n"
   syntax:
@@ -94,10 +94,10 @@ items:
   fullName: SuperOffice.Data.AssociateType.AnonymousBit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Associates of this type is not authenticated for SuperOffice\n"
   syntax:
@@ -122,10 +122,10 @@ items:
   fullName: SuperOffice.Data.AssociateType.NoCalenderBit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Associates with this bit do not have a calendar\n"
   syntax:
@@ -150,10 +150,10 @@ items:
   fullName: SuperOffice.Data.AssociateType.NoSentryBit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Associates with this bit has full access rights, and the Sentry mechanism is bypassed\n"
   syntax:
@@ -178,10 +178,10 @@ items:
   fullName: SuperOffice.Data.AssociateType.Employee
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: User / Employee\n"
   syntax:
@@ -206,10 +206,10 @@ items:
   fullName: SuperOffice.Data.AssociateType.Resource
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Resource like meeting room and projector\n"
   syntax:
@@ -234,10 +234,10 @@ items:
   fullName: SuperOffice.Data.AssociateType.ExternalPerson
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Person not working for the company taking part in Collaborative CRM (eCRM)\n"
   syntax:
@@ -262,10 +262,10 @@ items:
   fullName: SuperOffice.Data.AssociateType.System
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n13: Application with full access rights (EAI)\n"
   syntax:
@@ -290,10 +290,10 @@ items:
   fullName: SuperOffice.Data.AssociateType.Anonymous
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: Unknown party accessing the system (e.g. prospecting, eCRM)\n"
   syntax:

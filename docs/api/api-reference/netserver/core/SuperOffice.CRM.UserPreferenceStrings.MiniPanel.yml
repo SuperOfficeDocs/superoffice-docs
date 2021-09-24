@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MiniPanel
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreference keys for the mini panel.\n"
   syntax:
@@ -53,10 +53,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MiniPanel.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.MiniPanel.LockMiniPanel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nIf the minipanel is not locked, the userpref is empty. \nIf locked, the preference contains the soprotocol for the locked view.\n"
   syntax:

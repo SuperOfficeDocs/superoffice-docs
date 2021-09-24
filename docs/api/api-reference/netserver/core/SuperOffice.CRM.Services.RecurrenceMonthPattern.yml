@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceMonthPattern
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nClass representing a pattern for monthly recurrence\n"
   syntax:
@@ -70,10 +70,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceMonthPattern.Clone()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public override object Clone()
@@ -100,10 +100,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceMonthPattern.RecurrenceMonthPattern()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public RecurrenceMonthPattern()
@@ -125,10 +125,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceMonthPattern.Pattern
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nThe type of monthly recurrence pattern\n"
   syntax:
@@ -156,10 +156,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceMonthPattern.Cycle
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nThe number of months between each repetition\n"
   syntax:

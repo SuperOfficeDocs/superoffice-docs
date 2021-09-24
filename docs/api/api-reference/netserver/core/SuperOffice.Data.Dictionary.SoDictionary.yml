@@ -15,6 +15,7 @@ items:
   - SuperOffice.Data.Dictionary.SoDictionary.GetTableNumber(System.Int32)
   - SuperOffice.Data.Dictionary.SoDictionary.HasTable(System.String)
   - SuperOffice.Data.Dictionary.SoDictionary.IsDatabaseUnicode
+  - SuperOffice.Data.Dictionary.SoDictionary.IsLoaded
   - SuperOffice.Data.Dictionary.SoDictionary.IsSpecialDbPatchInstalled(System.String)
   - SuperOffice.Data.Dictionary.SoDictionary.Item(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.Data.Dictionary.SoDictionary.Item(SuperOffice.Data.SQL.TableInfo)
@@ -598,6 +599,36 @@ items:
       type: SuperOffice.Data.Dictionary.SoTable[]
     content.vb: Public ReadOnly Property Tables As SoTable()
   overload: SuperOffice.Data.Dictionary.SoDictionary.Tables*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.Dictionary.SoDictionary.IsLoaded
+  commentId: P:SuperOffice.Data.Dictionary.SoDictionary.IsLoaded
+  id: IsLoaded
+  parent: SuperOffice.Data.Dictionary.SoDictionary
+  langs:
+  - csharp
+  - vb
+  name: IsLoaded
+  nameWithType: SoDictionary.IsLoaded
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.IsLoaded
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  syntax:
+    content: public bool IsLoaded { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsLoaded As Boolean
+  overload: SuperOffice.Data.Dictionary.SoDictionary.IsLoaded*
   modifiers.csharp:
   - public
   - get
@@ -1260,3 +1291,9 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: SuperOffice.Data.Dictionary.SoDictionary.IsLoaded*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.IsLoaded
+  isExternal: true
+  name: IsLoaded
+  nameWithType: SoDictionary.IsLoaded
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.IsLoaded

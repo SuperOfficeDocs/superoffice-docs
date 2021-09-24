@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Data.ReportType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public enum ReportType
@@ -46,10 +46,10 @@ items:
   fullName: SuperOffice.Data.ReportType.Temporary
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Temporary = 1
@@ -73,10 +73,10 @@ items:
   fullName: SuperOffice.Data.ReportType.Original
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Original = 2

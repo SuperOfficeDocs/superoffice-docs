@@ -14,7 +14,7 @@ items:
   fullName: SuperOffice.Products
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
 - uid: SuperOffice.Products.NetServerCore
   commentId: T:SuperOffice.Products.NetServerCore

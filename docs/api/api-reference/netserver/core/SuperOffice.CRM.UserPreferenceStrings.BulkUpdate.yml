@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.BulkUpdate
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nBulkUpdate - Misc\n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.BulkUpdate.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public const string Section = "BulkUpdate"
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.BulkUpdate.LogResultOfJob
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould we log the result of a job\n"
   syntax:
@@ -111,10 +111,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.BulkUpdate.LogResultOfJob_HardDefault
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nHard default for LogResultOfJob\n"
   syntax:

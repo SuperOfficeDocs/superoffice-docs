@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoIdentity
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nSuperOffice Identity is representing a CRM5 user.\n"
   remarks: "\nSoIdentity holds the user&apos;s credentials, which can also be represented as \na <xref href=\"SuperOffice.Security.Principal.SoCredentials\" data-throw-if-not-resolved=\"false\"></xref>.  The <xref href=\"SuperOffice.Security.Principal.SoPrincipal\" data-throw-if-not-resolved=\"false\"></xref> holds \ninformation about the user, like department, userlevel and so forth.\n<p>To obtain reference to SoIdentity, use \n<xref href=\"SuperOffice.SoContext.CurrentIdentity\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
@@ -85,10 +85,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoIdentity.SoIdentity()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public SoIdentity()
@@ -110,10 +110,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoIdentity.AuthenticationType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public string AuthenticationType { get; }
@@ -142,10 +142,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoIdentity.IsAuthenticated
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public bool IsAuthenticated { get; }
@@ -174,10 +174,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoIdentity.Name
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public string Name { get; }

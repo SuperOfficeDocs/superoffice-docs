@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Services.ServiceVersion
   type: Struct
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Services
   summary: "\nWCF Service version information. Is it current, frozen or obsolete?\n"
   syntax:
@@ -58,10 +58,10 @@ items:
   fullName: SuperOffice.Services.ServiceVersion.ServiceVersion(System.Int32, System.String, System.Boolean, System.Boolean, System.Boolean)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Services
   syntax:
     content: public ServiceVersion(int number, string name, bool released, bool current, bool obsolete)
@@ -94,10 +94,10 @@ items:
   fullName: SuperOffice.Services.ServiceVersion.Number
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Services
   summary: "\n87\n"
   syntax:
@@ -125,10 +125,10 @@ items:
   fullName: SuperOffice.Services.ServiceVersion.Name
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Services
   summary: "\n&quot;Services87&quot;&quot;\n"
   syntax:
@@ -156,10 +156,10 @@ items:
   fullName: SuperOffice.Services.ServiceVersion.IsFrozen
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Services
   summary: "\nIs the services contract going to change or not?\n"
   syntax:
@@ -187,10 +187,10 @@ items:
   fullName: SuperOffice.Services.ServiceVersion.IsCurrent
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Services
   summary: "\nIs the services contract still changing?\n"
   syntax:
@@ -218,10 +218,10 @@ items:
   fullName: SuperOffice.Services.ServiceVersion.IsObsolete
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Services
   summary: "\nIs the services contract useful?\n"
   syntax:

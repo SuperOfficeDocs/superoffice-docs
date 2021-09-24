@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Security.Principal.PostAuthenticationPluginAttribute
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: 'public class PostAuthenticationPluginAttribute : PluginAttribute, _Attribute'
@@ -99,10 +99,10 @@ items:
   fullName: SuperOffice.Security.Principal.PostAuthenticationPluginAttribute.PostAuthenticationPluginAttribute(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public PostAuthenticationPluginAttribute(string name)

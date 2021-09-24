@@ -126,7 +126,6 @@ items:
   - SuperOffice.CRM.UserPreferenceStrings.Associates
   - SuperOffice.CRM.UserPreferenceStrings.BulkUpdate
   - SuperOffice.CRM.UserPreferenceStrings.CloudServices
-  - SuperOffice.CRM.UserPreferenceStrings.Cripple
   - SuperOffice.CRM.UserPreferenceStrings.Dashboard
   - SuperOffice.CRM.UserPreferenceStrings.DataCollection
   - SuperOffice.CRM.UserPreferenceStrings.DbOptimizations
@@ -175,6 +174,7 @@ items:
   - SuperOffice.CRM.UserPreferenceStrings.Visual
   - SuperOffice.CRM.UserPreferenceStrings.WebServer
   - SuperOffice.CRM.UserPreferenceStrings.Wizard
+  - SuperOffice.CRM.UserPreferenceStrings.ZFD
   - SuperOffice.CRM.ValueOverrideInfo
   langs:
   - csharp
@@ -184,7 +184,7 @@ items:
   fullName: SuperOffice.CRM
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
 - uid: SuperOffice.CRM.ApplicationIcon
   commentId: T:SuperOffice.CRM.ApplicationIcon
@@ -198,19 +198,6 @@ references:
   name: ApplicationIcons
   nameWithType: ApplicationIcons
   fullName: SuperOffice.CRM.ApplicationIcons
-- uid: SuperOffice.CRM.QuoteUtility
-  commentId: T:SuperOffice.CRM.QuoteUtility
-  isExternal: true
-  name: QuoteUtility
-  nameWithType: QuoteUtility
-  fullName: SuperOffice.CRM.QuoteUtility
-- uid: SuperOffice.CRM.QuoteVersionStateExtensions
-  commentId: T:SuperOffice.CRM.QuoteVersionStateExtensions
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: QuoteVersionStateExtensions
-  nameWithType: QuoteVersionStateExtensions
-  fullName: SuperOffice.CRM.QuoteVersionStateExtensions
 - uid: SuperOffice.CRM.INextMilestonePlugin
   commentId: T:SuperOffice.CRM.INextMilestonePlugin
   parent: SuperOffice.CRM
@@ -246,6 +233,19 @@ references:
   name: NextDueDatePluginAttribute
   nameWithType: NextDueDatePluginAttribute
   fullName: SuperOffice.CRM.NextDueDatePluginAttribute
+- uid: SuperOffice.CRM.QuoteUtility
+  commentId: T:SuperOffice.CRM.QuoteUtility
+  isExternal: true
+  name: QuoteUtility
+  nameWithType: QuoteUtility
+  fullName: SuperOffice.CRM.QuoteUtility
+- uid: SuperOffice.CRM.QuoteVersionStateExtensions
+  commentId: T:SuperOffice.CRM.QuoteVersionStateExtensions
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: QuoteVersionStateExtensions
+  nameWithType: QuoteVersionStateExtensions
+  fullName: SuperOffice.CRM.QuoteVersionStateExtensions
 - uid: SuperOffice.CRM.FunctionRightStrings
   commentId: T:SuperOffice.CRM.FunctionRightStrings
   isExternal: true
@@ -285,12 +285,6 @@ references:
   name: UserPreferenceStrings.Associates
   nameWithType: UserPreferenceStrings.Associates
   fullName: SuperOffice.CRM.UserPreferenceStrings.Associates
-- uid: SuperOffice.CRM.UserPreferenceStrings.Cripple
-  commentId: T:SuperOffice.CRM.UserPreferenceStrings.Cripple
-  isExternal: true
-  name: UserPreferenceStrings.Cripple
-  nameWithType: UserPreferenceStrings.Cripple
-  fullName: SuperOffice.CRM.UserPreferenceStrings.Cripple
 - uid: SuperOffice.CRM.UserPreferenceStrings.Defaults
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Defaults
   isExternal: true
@@ -561,6 +555,12 @@ references:
   name: UserPreferenceStrings.HugoAI
   nameWithType: UserPreferenceStrings.HugoAI
   fullName: SuperOffice.CRM.UserPreferenceStrings.HugoAI
+- uid: SuperOffice.CRM.UserPreferenceStrings.ZFD
+  commentId: T:SuperOffice.CRM.UserPreferenceStrings.ZFD
+  isExternal: true
+  name: UserPreferenceStrings.ZFD
+  nameWithType: UserPreferenceStrings.ZFD
+  fullName: SuperOffice.CRM.UserPreferenceStrings.ZFD
 - uid: SuperOffice.CRM.UserPreferenceStrings.Request
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Request
   isExternal: true
@@ -609,6 +609,18 @@ references:
   name: ActivityStatusHelper
   nameWithType: ActivityStatusHelper
   fullName: SuperOffice.CRM.ActivityStatusHelper
+- uid: SuperOffice.CRM.ModuleLicenceProvider
+  commentId: T:SuperOffice.CRM.ModuleLicenceProvider
+  isExternal: true
+  name: ModuleLicenceProvider
+  nameWithType: ModuleLicenceProvider
+  fullName: SuperOffice.CRM.ModuleLicenceProvider
+- uid: SuperOffice.CRM.ButtonBarConfigDialogDataHandler
+  commentId: T:SuperOffice.CRM.ButtonBarConfigDialogDataHandler
+  isExternal: true
+  name: ButtonBarConfigDialogDataHandler
+  nameWithType: ButtonBarConfigDialogDataHandler
+  fullName: SuperOffice.CRM.ButtonBarConfigDialogDataHandler
 - uid: SuperOffice.CRM.CustomerServicePluginAttribute
   commentId: T:SuperOffice.CRM.CustomerServicePluginAttribute
   parent: SuperOffice.CRM
@@ -642,6 +654,25 @@ references:
   name: CustomerService.CsUrlType
   nameWithType: CustomerService.CsUrlType
   fullName: SuperOffice.CRM.CustomerService.CsUrlType
+- uid: SuperOffice.CRM.FilterDialogDataHandler
+  commentId: T:SuperOffice.CRM.FilterDialogDataHandler
+  isExternal: true
+  name: FilterDialogDataHandler
+  nameWithType: FilterDialogDataHandler
+  fullName: SuperOffice.CRM.FilterDialogDataHandler
+- uid: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
+  commentId: T:SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: FilterDialogDataHandler.DefaultFilter
+  nameWithType: FilterDialogDataHandler.DefaultFilter
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
+- uid: SuperOffice.CRM.DateTimeExtensions
+  commentId: T:SuperOffice.CRM.DateTimeExtensions
+  isExternal: true
+  name: DateTimeExtensions
+  nameWithType: DateTimeExtensions
+  fullName: SuperOffice.CRM.DateTimeExtensions
 - uid: SuperOffice.CRM.ListsHelper
   commentId: T:SuperOffice.CRM.ListsHelper
   isExternal: true
@@ -654,12 +685,6 @@ references:
   name: ListsHelper.ItemRow
   nameWithType: ListsHelper.ItemRow
   fullName: SuperOffice.CRM.ListsHelper.ItemRow
-- uid: SuperOffice.CRM.DateTimeExtensions
-  commentId: T:SuperOffice.CRM.DateTimeExtensions
-  isExternal: true
-  name: DateTimeExtensions
-  nameWithType: DateTimeExtensions
-  fullName: SuperOffice.CRM.DateTimeExtensions
 - uid: SuperOffice.CRM.NetServices
   commentId: T:SuperOffice.CRM.NetServices
   isExternal: true
@@ -691,6 +716,24 @@ references:
   name: ProjectGuideUtility
   nameWithType: ProjectGuideUtility
   fullName: SuperOffice.CRM.ProjectGuideUtility
+- uid: SuperOffice.CRM.SaleFilterDialogDataHandler
+  commentId: T:SuperOffice.CRM.SaleFilterDialogDataHandler
+  isExternal: true
+  name: SaleFilterDialogDataHandler
+  nameWithType: SaleFilterDialogDataHandler
+  fullName: SuperOffice.CRM.SaleFilterDialogDataHandler
+- uid: SuperOffice.CRM.NextDueDate
+  commentId: T:SuperOffice.CRM.NextDueDate
+  isExternal: true
+  name: NextDueDate
+  nameWithType: NextDueDate
+  fullName: SuperOffice.CRM.NextDueDate
+- uid: SuperOffice.CRM.NextDueDateInfo
+  commentId: T:SuperOffice.CRM.NextDueDateInfo
+  isExternal: true
+  name: NextDueDateInfo
+  nameWithType: NextDueDateInfo
+  fullName: SuperOffice.CRM.NextDueDateInfo
 - uid: SuperOffice.CRM.QuoteConnection
   commentId: T:SuperOffice.CRM.QuoteConnection
   parent: SuperOffice.CRM
@@ -705,61 +748,18 @@ references:
   name: QuoteConnectionManager
   nameWithType: QuoteConnectionManager
   fullName: SuperOffice.CRM.QuoteConnectionManager
-- uid: SuperOffice.CRM.TemporaryKeyHelper
-  commentId: T:SuperOffice.CRM.TemporaryKeyHelper
-  isExternal: true
-  name: TemporaryKeyHelper
-  nameWithType: TemporaryKeyHelper
-  fullName: SuperOffice.CRM.TemporaryKeyHelper
-- uid: SuperOffice.CRM.ModuleLicenceProvider
-  commentId: T:SuperOffice.CRM.ModuleLicenceProvider
-  isExternal: true
-  name: ModuleLicenceProvider
-  nameWithType: ModuleLicenceProvider
-  fullName: SuperOffice.CRM.ModuleLicenceProvider
-- uid: SuperOffice.CRM.ButtonBarConfigDialogDataHandler
-  commentId: T:SuperOffice.CRM.ButtonBarConfigDialogDataHandler
-  isExternal: true
-  name: ButtonBarConfigDialogDataHandler
-  nameWithType: ButtonBarConfigDialogDataHandler
-  fullName: SuperOffice.CRM.ButtonBarConfigDialogDataHandler
-- uid: SuperOffice.CRM.FilterDialogDataHandler
-  commentId: T:SuperOffice.CRM.FilterDialogDataHandler
-  isExternal: true
-  name: FilterDialogDataHandler
-  nameWithType: FilterDialogDataHandler
-  fullName: SuperOffice.CRM.FilterDialogDataHandler
-- uid: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
-  commentId: T:SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: FilterDialogDataHandler.DefaultFilter
-  nameWithType: FilterDialogDataHandler.DefaultFilter
-  fullName: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
-- uid: SuperOffice.CRM.SaleFilterDialogDataHandler
-  commentId: T:SuperOffice.CRM.SaleFilterDialogDataHandler
-  isExternal: true
-  name: SaleFilterDialogDataHandler
-  nameWithType: SaleFilterDialogDataHandler
-  fullName: SuperOffice.CRM.SaleFilterDialogDataHandler
 - uid: SuperOffice.CRM.SaleGuideUtility
   commentId: T:SuperOffice.CRM.SaleGuideUtility
   isExternal: true
   name: SaleGuideUtility
   nameWithType: SaleGuideUtility
   fullName: SuperOffice.CRM.SaleGuideUtility
-- uid: SuperOffice.CRM.NextDueDate
-  commentId: T:SuperOffice.CRM.NextDueDate
+- uid: SuperOffice.CRM.TemporaryKeyHelper
+  commentId: T:SuperOffice.CRM.TemporaryKeyHelper
   isExternal: true
-  name: NextDueDate
-  nameWithType: NextDueDate
-  fullName: SuperOffice.CRM.NextDueDate
-- uid: SuperOffice.CRM.NextDueDateInfo
-  commentId: T:SuperOffice.CRM.NextDueDateInfo
-  isExternal: true
-  name: NextDueDateInfo
-  nameWithType: NextDueDateInfo
-  fullName: SuperOffice.CRM.NextDueDateInfo
+  name: TemporaryKeyHelper
+  nameWithType: TemporaryKeyHelper
+  fullName: SuperOffice.CRM.TemporaryKeyHelper
 - uid: SuperOffice.CRM.TooltipHelper
   commentId: T:SuperOffice.CRM.TooltipHelper
   isExternal: true
@@ -794,6 +794,13 @@ references:
   name: IAppointmentInfo3
   nameWithType: IAppointmentInfo3
   fullName: SuperOffice.CRM.IAppointmentInfo3
+- uid: SuperOffice.CRM.ConnectionConfigFieldInfo
+  commentId: T:SuperOffice.CRM.ConnectionConfigFieldInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ConnectionConfigFieldInfo
+  nameWithType: ConnectionConfigFieldInfo
+  fullName: SuperOffice.CRM.ConnectionConfigFieldInfo
 - uid: SuperOffice.CRM.IContactInfo
   commentId: T:SuperOffice.CRM.IContactInfo
   parent: SuperOffice.CRM
@@ -808,20 +815,27 @@ references:
   name: IContactInfo2
   nameWithType: IContactInfo2
   fullName: SuperOffice.CRM.IContactInfo2
-- uid: SuperOffice.CRM.ConnectionConfigFieldInfo
-  commentId: T:SuperOffice.CRM.ConnectionConfigFieldInfo
+- uid: SuperOffice.CRM.IDocumentInfo
+  commentId: T:SuperOffice.CRM.IDocumentInfo
   parent: SuperOffice.CRM
   isExternal: true
-  name: ConnectionConfigFieldInfo
-  nameWithType: ConnectionConfigFieldInfo
-  fullName: SuperOffice.CRM.ConnectionConfigFieldInfo
-- uid: SuperOffice.CRM.IConfiguration
-  commentId: T:SuperOffice.CRM.IConfiguration
+  name: IDocumentInfo
+  nameWithType: IDocumentInfo
+  fullName: SuperOffice.CRM.IDocumentInfo
+- uid: SuperOffice.CRM.IDocumentInfo2
+  commentId: T:SuperOffice.CRM.IDocumentInfo2
   parent: SuperOffice.CRM
   isExternal: true
-  name: IConfiguration
-  nameWithType: IConfiguration
-  fullName: SuperOffice.CRM.IConfiguration
+  name: IDocumentInfo2
+  nameWithType: IDocumentInfo2
+  fullName: SuperOffice.CRM.IDocumentInfo2
+- uid: SuperOffice.CRM.IDocumentTemplateInfo
+  commentId: T:SuperOffice.CRM.IDocumentTemplateInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IDocumentTemplateInfo
+  nameWithType: IDocumentTemplateInfo
+  fullName: SuperOffice.CRM.IDocumentTemplateInfo
 - uid: SuperOffice.CRM.ActorPluginResponse
   commentId: T:SuperOffice.CRM.ActorPluginResponse
   parent: SuperOffice.CRM
@@ -883,27 +897,13 @@ references:
   name: ForeignKeyInfo
   nameWithType: ForeignKeyInfo
   fullName: SuperOffice.CRM.ForeignKeyInfo
-- uid: SuperOffice.CRM.IDocumentInfo
-  commentId: T:SuperOffice.CRM.IDocumentInfo
+- uid: SuperOffice.CRM.IConfiguration
+  commentId: T:SuperOffice.CRM.IConfiguration
   parent: SuperOffice.CRM
   isExternal: true
-  name: IDocumentInfo
-  nameWithType: IDocumentInfo
-  fullName: SuperOffice.CRM.IDocumentInfo
-- uid: SuperOffice.CRM.IDocumentInfo2
-  commentId: T:SuperOffice.CRM.IDocumentInfo2
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: IDocumentInfo2
-  nameWithType: IDocumentInfo2
-  fullName: SuperOffice.CRM.IDocumentInfo2
-- uid: SuperOffice.CRM.IDocumentTemplateInfo
-  commentId: T:SuperOffice.CRM.IDocumentTemplateInfo
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: IDocumentTemplateInfo
-  nameWithType: IDocumentTemplateInfo
-  fullName: SuperOffice.CRM.IDocumentTemplateInfo
+  name: IConfiguration
+  nameWithType: IConfiguration
+  fullName: SuperOffice.CRM.IConfiguration
 - uid: SuperOffice.CRM.ProgressStepCallback
   commentId: T:SuperOffice.CRM.ProgressStepCallback
   parent: SuperOffice.CRM
@@ -924,6 +924,12 @@ references:
   name: ProgressTextCallback
   nameWithType: ProgressTextCallback
   fullName: SuperOffice.CRM.ProgressTextCallback
+- uid: SuperOffice.CRM.ListItemInfo
+  commentId: T:SuperOffice.CRM.ListItemInfo
+  isExternal: true
+  name: ListItemInfo
+  nameWithType: ListItemInfo
+  fullName: SuperOffice.CRM.ListItemInfo
 - uid: SuperOffice.CRM.IPersonInfo
   commentId: T:SuperOffice.CRM.IPersonInfo
   parent: SuperOffice.CRM
@@ -952,20 +958,6 @@ references:
   name: IProjectInfo2
   nameWithType: IProjectInfo2
   fullName: SuperOffice.CRM.IProjectInfo2
-- uid: SuperOffice.CRM.QuoteAlternativeResponseInfo
-  commentId: T:SuperOffice.CRM.QuoteAlternativeResponseInfo
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: QuoteAlternativeResponseInfo
-  nameWithType: QuoteAlternativeResponseInfo
-  fullName: SuperOffice.CRM.QuoteAlternativeResponseInfo
-- uid: SuperOffice.CRM.QuoteResponseInfo
-  commentId: T:SuperOffice.CRM.QuoteResponseInfo
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: QuoteResponseInfo
-  nameWithType: QuoteResponseInfo
-  fullName: SuperOffice.CRM.QuoteResponseInfo
 - uid: SuperOffice.CRM.QuoteVersionStatusInfo
   commentId: T:SuperOffice.CRM.QuoteVersionStatusInfo
   parent: SuperOffice.CRM
@@ -973,6 +965,27 @@ references:
   name: QuoteVersionStatusInfo
   nameWithType: QuoteVersionStatusInfo
   fullName: SuperOffice.CRM.QuoteVersionStatusInfo
+- uid: SuperOffice.CRM.ResponseState
+  commentId: T:SuperOffice.CRM.ResponseState
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ResponseState
+  nameWithType: ResponseState
+  fullName: SuperOffice.CRM.ResponseState
+- uid: SuperOffice.CRM.PluginResponseInfo
+  commentId: T:SuperOffice.CRM.PluginResponseInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: PluginResponseInfo
+  nameWithType: PluginResponseInfo
+  fullName: SuperOffice.CRM.PluginResponseInfo
+- uid: SuperOffice.CRM.ApproveRejectResponseInfo
+  commentId: T:SuperOffice.CRM.ApproveRejectResponseInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ApproveRejectResponseInfo
+  nameWithType: ApproveRejectResponseInfo
+  fullName: SuperOffice.CRM.ApproveRejectResponseInfo
 - uid: SuperOffice.CRM.ISaleInfo
   commentId: T:SuperOffice.CRM.ISaleInfo
   parent: SuperOffice.CRM
@@ -987,132 +1000,6 @@ references:
   name: ISaleInfo2
   nameWithType: ISaleInfo2
   fullName: SuperOffice.CRM.ISaleInfo2
-- uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo
-  commentId: T:SuperOffice.CRM.QuoteVersionRecalculatedInfo
-  isExternal: true
-  name: QuoteVersionRecalculatedInfo
-  nameWithType: QuoteVersionRecalculatedInfo
-  fullName: SuperOffice.CRM.QuoteVersionRecalculatedInfo
-- uid: SuperOffice.CRM.ExtraDataFieldTypeInfo
-  commentId: T:SuperOffice.CRM.ExtraDataFieldTypeInfo
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: ExtraDataFieldTypeInfo
-  nameWithType: ExtraDataFieldTypeInfo
-  fullName: SuperOffice.CRM.ExtraDataFieldTypeInfo
-- uid: SuperOffice.CRM.ProductExtraDataFieldInfo
-  commentId: T:SuperOffice.CRM.ProductExtraDataFieldInfo
-  isExternal: true
-  name: ProductExtraDataFieldInfo
-  nameWithType: ProductExtraDataFieldInfo
-  fullName: SuperOffice.CRM.ProductExtraDataFieldInfo
-- uid: SuperOffice.CRM.QuoteAlternativeRecalculatedInfo
-  commentId: T:SuperOffice.CRM.QuoteAlternativeRecalculatedInfo
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: QuoteAlternativeRecalculatedInfo
-  nameWithType: QuoteAlternativeRecalculatedInfo
-  fullName: SuperOffice.CRM.QuoteAlternativeRecalculatedInfo
-- uid: SuperOffice.CRM.QuoteCalculation
-  commentId: T:SuperOffice.CRM.QuoteCalculation
-  isExternal: true
-  name: QuoteCalculation
-  nameWithType: QuoteCalculation
-  fullName: SuperOffice.CRM.QuoteCalculation
-- uid: SuperOffice.CRM.QuoteVersionResponseInfo
-  commentId: T:SuperOffice.CRM.QuoteVersionResponseInfo
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: QuoteVersionResponseInfo
-  nameWithType: QuoteVersionResponseInfo
-  fullName: SuperOffice.CRM.QuoteVersionResponseInfo
-- uid: SuperOffice.CRM.QuoteVersionValidatedInfo
-  commentId: T:SuperOffice.CRM.QuoteVersionValidatedInfo
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: QuoteVersionValidatedInfo
-  nameWithType: QuoteVersionValidatedInfo
-  fullName: SuperOffice.CRM.QuoteVersionValidatedInfo
-- uid: SuperOffice.CRM.ValueOverrideInfo
-  commentId: T:SuperOffice.CRM.ValueOverrideInfo
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: ValueOverrideInfo
-  nameWithType: ValueOverrideInfo
-  fullName: SuperOffice.CRM.ValueOverrideInfo
-- uid: SuperOffice.CRM.QuoteConnectionInfo
-  commentId: T:SuperOffice.CRM.QuoteConnectionInfo
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: QuoteConnectionInfo
-  nameWithType: QuoteConnectionInfo
-  fullName: SuperOffice.CRM.QuoteConnectionInfo
-- uid: SuperOffice.CRM.QuoteConnectorBase
-  commentId: T:SuperOffice.CRM.QuoteConnectorBase
-  isExternal: true
-  name: QuoteConnectorBase
-  nameWithType: QuoteConnectorBase
-  fullName: SuperOffice.CRM.QuoteConnectorBase
-- uid: SuperOffice.CRM.QuoteConnectorBase.ConfigNames
-  commentId: T:SuperOffice.CRM.QuoteConnectorBase.ConfigNames
-  isExternal: true
-  name: QuoteConnectorBase.ConfigNames
-  nameWithType: QuoteConnectorBase.ConfigNames
-  fullName: SuperOffice.CRM.QuoteConnectorBase.ConfigNames
-- uid: SuperOffice.CRM.QuoteConnectorExtender
-  commentId: T:SuperOffice.CRM.QuoteConnectorExtender
-  isExternal: true
-  name: QuoteConnectorExtender
-  nameWithType: QuoteConnectorExtender
-  fullName: SuperOffice.CRM.QuoteConnectorExtender
-- uid: SuperOffice.CRM.QuoteInfo
-  commentId: T:SuperOffice.CRM.QuoteInfo
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: QuoteInfo
-  nameWithType: QuoteInfo
-  fullName: SuperOffice.CRM.QuoteInfo
-- uid: SuperOffice.CRM.ListItemInfo
-  commentId: T:SuperOffice.CRM.ListItemInfo
-  isExternal: true
-  name: ListItemInfo
-  nameWithType: ListItemInfo
-  fullName: SuperOffice.CRM.ListItemInfo
-- uid: SuperOffice.CRM.SearchRestrictionInfo
-  commentId: T:SuperOffice.CRM.SearchRestrictionInfo
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: SearchRestrictionInfo
-  nameWithType: SearchRestrictionInfo
-  fullName: SuperOffice.CRM.SearchRestrictionInfo
-- uid: SuperOffice.CRM.UserInfo
-  commentId: T:SuperOffice.CRM.UserInfo
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: UserInfo
-  nameWithType: UserInfo
-  fullName: SuperOffice.CRM.UserInfo
-- uid: SuperOffice.CRM.QuoteLineInfo
-  commentId: T:SuperOffice.CRM.QuoteLineInfo
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: QuoteLineInfo
-  nameWithType: QuoteLineInfo
-  fullName: SuperOffice.CRM.QuoteLineInfo
-- uid: SuperOffice.CRM.QuoteVersionInfo
-  commentId: T:SuperOffice.CRM.QuoteVersionInfo
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: QuoteVersionInfo
-  nameWithType: QuoteVersionInfo
-  fullName: SuperOffice.CRM.QuoteVersionInfo
-- uid: SuperOffice.CRM.QuoteAlternativeInfo
-  commentId: T:SuperOffice.CRM.QuoteAlternativeInfo
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: QuoteAlternativeInfo
-  nameWithType: QuoteAlternativeInfo
-  fullName: SuperOffice.CRM.QuoteAlternativeInfo
 - uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities
   commentId: T:SuperOffice.CRM.CRMQuoteConnectorCapabilities
   isExternal: true
@@ -1186,6 +1073,19 @@ references:
   name: PriceListInfo
   nameWithType: PriceListInfo
   fullName: SuperOffice.CRM.PriceListInfo
+- uid: SuperOffice.CRM.ExtraDataFieldTypeInfo
+  commentId: T:SuperOffice.CRM.ExtraDataFieldTypeInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ExtraDataFieldTypeInfo
+  nameWithType: ExtraDataFieldTypeInfo
+  fullName: SuperOffice.CRM.ExtraDataFieldTypeInfo
+- uid: SuperOffice.CRM.ProductExtraDataFieldInfo
+  commentId: T:SuperOffice.CRM.ProductExtraDataFieldInfo
+  isExternal: true
+  name: ProductExtraDataFieldInfo
+  nameWithType: ProductExtraDataFieldInfo
+  fullName: SuperOffice.CRM.ProductExtraDataFieldInfo
 - uid: SuperOffice.CRM.ProductDataInfo
   commentId: T:SuperOffice.CRM.ProductDataInfo
   parent: SuperOffice.CRM
@@ -1200,6 +1100,58 @@ references:
   name: ProductInfo
   nameWithType: ProductInfo
   fullName: SuperOffice.CRM.ProductInfo
+- uid: SuperOffice.CRM.QuoteAlternativeInfo
+  commentId: T:SuperOffice.CRM.QuoteAlternativeInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: QuoteAlternativeInfo
+  nameWithType: QuoteAlternativeInfo
+  fullName: SuperOffice.CRM.QuoteAlternativeInfo
+- uid: SuperOffice.CRM.QuoteAlternativeRecalculatedInfo
+  commentId: T:SuperOffice.CRM.QuoteAlternativeRecalculatedInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: QuoteAlternativeRecalculatedInfo
+  nameWithType: QuoteAlternativeRecalculatedInfo
+  fullName: SuperOffice.CRM.QuoteAlternativeRecalculatedInfo
+- uid: SuperOffice.CRM.QuoteAlternativeResponseInfo
+  commentId: T:SuperOffice.CRM.QuoteAlternativeResponseInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: QuoteAlternativeResponseInfo
+  nameWithType: QuoteAlternativeResponseInfo
+  fullName: SuperOffice.CRM.QuoteAlternativeResponseInfo
+- uid: SuperOffice.CRM.QuoteCalculation
+  commentId: T:SuperOffice.CRM.QuoteCalculation
+  isExternal: true
+  name: QuoteCalculation
+  nameWithType: QuoteCalculation
+  fullName: SuperOffice.CRM.QuoteCalculation
+- uid: SuperOffice.CRM.QuoteConnectionInfo
+  commentId: T:SuperOffice.CRM.QuoteConnectionInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: QuoteConnectionInfo
+  nameWithType: QuoteConnectionInfo
+  fullName: SuperOffice.CRM.QuoteConnectionInfo
+- uid: SuperOffice.CRM.QuoteConnectorBase
+  commentId: T:SuperOffice.CRM.QuoteConnectorBase
+  isExternal: true
+  name: QuoteConnectorBase
+  nameWithType: QuoteConnectorBase
+  fullName: SuperOffice.CRM.QuoteConnectorBase
+- uid: SuperOffice.CRM.QuoteConnectorBase.ConfigNames
+  commentId: T:SuperOffice.CRM.QuoteConnectorBase.ConfigNames
+  isExternal: true
+  name: QuoteConnectorBase.ConfigNames
+  nameWithType: QuoteConnectorBase.ConfigNames
+  fullName: SuperOffice.CRM.QuoteConnectorBase.ConfigNames
+- uid: SuperOffice.CRM.QuoteConnectorExtender
+  commentId: T:SuperOffice.CRM.QuoteConnectorExtender
+  isExternal: true
+  name: QuoteConnectorExtender
+  nameWithType: QuoteConnectorExtender
+  fullName: SuperOffice.CRM.QuoteConnectorExtender
 - uid: SuperOffice.CRM.QuoteContextInfo
   commentId: T:SuperOffice.CRM.QuoteContextInfo
   parent: SuperOffice.CRM
@@ -1228,27 +1180,27 @@ references:
   name: QuoteVersionContextInfo
   nameWithType: QuoteVersionContextInfo
   fullName: SuperOffice.CRM.QuoteVersionContextInfo
-- uid: SuperOffice.CRM.ResponseState
-  commentId: T:SuperOffice.CRM.ResponseState
+- uid: SuperOffice.CRM.QuoteInfo
+  commentId: T:SuperOffice.CRM.QuoteInfo
   parent: SuperOffice.CRM
   isExternal: true
-  name: ResponseState
-  nameWithType: ResponseState
-  fullName: SuperOffice.CRM.ResponseState
-- uid: SuperOffice.CRM.PluginResponseInfo
-  commentId: T:SuperOffice.CRM.PluginResponseInfo
+  name: QuoteInfo
+  nameWithType: QuoteInfo
+  fullName: SuperOffice.CRM.QuoteInfo
+- uid: SuperOffice.CRM.QuoteLineInfo
+  commentId: T:SuperOffice.CRM.QuoteLineInfo
   parent: SuperOffice.CRM
   isExternal: true
-  name: PluginResponseInfo
-  nameWithType: PluginResponseInfo
-  fullName: SuperOffice.CRM.PluginResponseInfo
-- uid: SuperOffice.CRM.ApproveRejectResponseInfo
-  commentId: T:SuperOffice.CRM.ApproveRejectResponseInfo
+  name: QuoteLineInfo
+  nameWithType: QuoteLineInfo
+  fullName: SuperOffice.CRM.QuoteLineInfo
+- uid: SuperOffice.CRM.QuoteResponseInfo
+  commentId: T:SuperOffice.CRM.QuoteResponseInfo
   parent: SuperOffice.CRM
   isExternal: true
-  name: ApproveRejectResponseInfo
-  nameWithType: ApproveRejectResponseInfo
-  fullName: SuperOffice.CRM.ApproveRejectResponseInfo
+  name: QuoteResponseInfo
+  nameWithType: QuoteResponseInfo
+  fullName: SuperOffice.CRM.QuoteResponseInfo
 - uid: SuperOffice.CRM.QuoteStatusInfo
   commentId: T:SuperOffice.CRM.QuoteStatusInfo
   parent: SuperOffice.CRM
@@ -1256,6 +1208,47 @@ references:
   name: QuoteStatusInfo
   nameWithType: QuoteStatusInfo
   fullName: SuperOffice.CRM.QuoteStatusInfo
+- uid: SuperOffice.CRM.QuoteVersionInfo
+  commentId: T:SuperOffice.CRM.QuoteVersionInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: QuoteVersionInfo
+  nameWithType: QuoteVersionInfo
+  fullName: SuperOffice.CRM.QuoteVersionInfo
+- uid: SuperOffice.CRM.QuoteVersionRecalculatedInfo
+  commentId: T:SuperOffice.CRM.QuoteVersionRecalculatedInfo
+  isExternal: true
+  name: QuoteVersionRecalculatedInfo
+  nameWithType: QuoteVersionRecalculatedInfo
+  fullName: SuperOffice.CRM.QuoteVersionRecalculatedInfo
+- uid: SuperOffice.CRM.QuoteVersionResponseInfo
+  commentId: T:SuperOffice.CRM.QuoteVersionResponseInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: QuoteVersionResponseInfo
+  nameWithType: QuoteVersionResponseInfo
+  fullName: SuperOffice.CRM.QuoteVersionResponseInfo
+- uid: SuperOffice.CRM.QuoteVersionValidatedInfo
+  commentId: T:SuperOffice.CRM.QuoteVersionValidatedInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: QuoteVersionValidatedInfo
+  nameWithType: QuoteVersionValidatedInfo
+  fullName: SuperOffice.CRM.QuoteVersionValidatedInfo
+- uid: SuperOffice.CRM.ValueOverrideInfo
+  commentId: T:SuperOffice.CRM.ValueOverrideInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ValueOverrideInfo
+  nameWithType: ValueOverrideInfo
+  fullName: SuperOffice.CRM.ValueOverrideInfo
+- uid: SuperOffice.CRM.SearchRestrictionInfo
+  commentId: T:SuperOffice.CRM.SearchRestrictionInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: SearchRestrictionInfo
+  nameWithType: SearchRestrictionInfo
+  fullName: SuperOffice.CRM.SearchRestrictionInfo
 - uid: SuperOffice.CRM.ISelectionInfo
   commentId: T:SuperOffice.CRM.ISelectionInfo
   parent: SuperOffice.CRM
@@ -1263,6 +1256,13 @@ references:
   name: ISelectionInfo
   nameWithType: ISelectionInfo
   fullName: SuperOffice.CRM.ISelectionInfo
+- uid: SuperOffice.CRM.UserInfo
+  commentId: T:SuperOffice.CRM.UserInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: UserInfo
+  nameWithType: UserInfo
+  fullName: SuperOffice.CRM.UserInfo
 - uid: SuperOffice.CRM.FieldMetadataTypeInfo
   commentId: T:SuperOffice.CRM.FieldMetadataTypeInfo
   parent: SuperOffice.CRM

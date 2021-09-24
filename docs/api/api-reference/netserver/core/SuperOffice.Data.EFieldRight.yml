@@ -25,10 +25,10 @@ items:
   fullName: SuperOffice.Data.EFieldRight
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nAccess levels to a single field. Read and/or write.\nThis Enum consists of flag values that can be combined.\n"
   syntax:
@@ -67,10 +67,10 @@ items:
   fullName: SuperOffice.Data.EFieldRight.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Hidden from user.\n"
   syntax:
@@ -95,10 +95,10 @@ items:
   fullName: SuperOffice.Data.EFieldRight.Read
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Read-only right\n"
   syntax:
@@ -123,10 +123,10 @@ items:
   fullName: SuperOffice.Data.EFieldRight.Write
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Write-only (not terribly useful)\n"
   syntax:
@@ -151,10 +151,10 @@ items:
   fullName: SuperOffice.Data.EFieldRight.Update
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Read + Write rights combined\n"
   syntax:
@@ -179,10 +179,10 @@ items:
   fullName: SuperOffice.Data.EFieldRight.Unused1
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: \n"
   syntax:
@@ -207,10 +207,10 @@ items:
   fullName: SuperOffice.Data.EFieldRight.Unused2
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: \n"
   syntax:
@@ -235,10 +235,10 @@ items:
   fullName: SuperOffice.Data.EFieldRight.Unused3
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16: \n"
   syntax:
@@ -263,10 +263,10 @@ items:
   fullName: SuperOffice.Data.EFieldRight.Unused4
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n32: \n"
   syntax:
@@ -291,10 +291,10 @@ items:
   fullName: SuperOffice.Data.EFieldRight.UIHintMandatory
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n64: Field must be filled out (not blank)\n"
   syntax:
@@ -319,10 +319,10 @@ items:
   fullName: SuperOffice.Data.EFieldRight.UIHintReadOnly
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n128: Field can only be read, not updated, in the user interface.\n"
   syntax:
@@ -347,10 +347,10 @@ items:
   fullName: SuperOffice.Data.EFieldRight.FULL
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: All possible rights (same as Update = Read + Write)\n"
   syntax:
@@ -375,10 +375,10 @@ items:
   fullName: SuperOffice.Data.EFieldRight.UIHints
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n192: Rights only applied in the user interface.  These rights are threated as deny rights.\n"
   syntax:

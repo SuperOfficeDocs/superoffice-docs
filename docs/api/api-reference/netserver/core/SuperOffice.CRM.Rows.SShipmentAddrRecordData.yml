@@ -7,9 +7,13 @@ items:
   children:
   - SuperOffice.CRM.Rows.SShipmentAddrRecordData.#ctor
   - SuperOffice.CRM.Rows.SShipmentAddrRecordData.Address
+  - SuperOffice.CRM.Rows.SShipmentAddrRecordData.BounceCode
   - SuperOffice.CRM.Rows.SShipmentAddrRecordData.BounceReason
+  - SuperOffice.CRM.Rows.SShipmentAddrRecordData.BounceReasontag
+  - SuperOffice.CRM.Rows.SShipmentAddrRecordData.Cleaned
   - SuperOffice.CRM.Rows.SShipmentAddrRecordData.ContactId
   - SuperOffice.CRM.Rows.SShipmentAddrRecordData.CustomerId
+  - SuperOffice.CRM.Rows.SShipmentAddrRecordData.FormSubmissionId
   - SuperOffice.CRM.Rows.SShipmentAddrRecordData.Name
   - SuperOffice.CRM.Rows.SShipmentAddrRecordData.SenderNr
   - SuperOffice.CRM.Rows.SShipmentAddrRecordData.SendingTime
@@ -406,6 +410,114 @@ items:
     return:
       type: System.String
     content.vb: Public BounceReason As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRecordData.FormSubmissionId
+  commentId: F:SuperOffice.CRM.Rows.SShipmentAddrRecordData.FormSubmissionId
+  id: FormSubmissionId
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRecordData
+  langs:
+  - csharp
+  - vb
+  name: FormSubmissionId
+  nameWithType: SShipmentAddrRecordData.FormSubmissionId
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRecordData.FormSubmissionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIf this mailing recipient is created from a form submission, this will contain a reference to that submission \n"
+  syntax:
+    content: public int FormSubmissionId
+    return:
+      type: System.Int32
+    content.vb: Public FormSubmissionId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRecordData.BounceCode
+  commentId: F:SuperOffice.CRM.Rows.SShipmentAddrRecordData.BounceCode
+  id: BounceCode
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRecordData
+  langs:
+  - csharp
+  - vb
+  name: BounceCode
+  nameWithType: SShipmentAddrRecordData.BounceCode
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRecordData.BounceCode
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIf this recipient bounced and we have a bounce code, this field will contain the code \n"
+  syntax:
+    content: public int BounceCode
+    return:
+      type: System.Int32
+    content.vb: Public BounceCode As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRecordData.BounceReasontag
+  commentId: F:SuperOffice.CRM.Rows.SShipmentAddrRecordData.BounceReasontag
+  id: BounceReasontag
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRecordData
+  langs:
+  - csharp
+  - vb
+  name: BounceReasontag
+  nameWithType: SShipmentAddrRecordData.BounceReasontag
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRecordData.BounceReasontag
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIf this recipient bounced and we have a bounce reason, this field will contain the reason \n"
+  syntax:
+    content: public string BounceReasontag
+    return:
+      type: System.String
+    content.vb: Public BounceReasontag As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentAddrRecordData.Cleaned
+  commentId: F:SuperOffice.CRM.Rows.SShipmentAddrRecordData.Cleaned
+  id: Cleaned
+  parent: SuperOffice.CRM.Rows.SShipmentAddrRecordData
+  langs:
+  - csharp
+  - vb
+  name: Cleaned
+  nameWithType: SShipmentAddrRecordData.Cleaned
+  fullName: SuperOffice.CRM.Rows.SShipmentAddrRecordData.Cleaned
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nUsed for indicating that a bounced recipient row has been cleaned, and now will not be presented again in the cleaning list \n"
+  syntax:
+    content: public short Cleaned
+    return:
+      type: System.Int16
+    content.vb: Public Cleaned As Short
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1192,6 +1304,13 @@ references:
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.CRM.Rows.SShipmentAddrRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.SShipmentAddrRecordData.#ctor
   isExternal: true

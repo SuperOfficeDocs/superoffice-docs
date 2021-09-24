@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Util.ExpressionUtil
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nClass used to manipulate C# Expression-trees.\n"
   syntax:
@@ -55,10 +55,10 @@ items:
   fullName: SuperOffice.Util.ExpressionUtil.GetSetter<T, U>(System.Linq.Expressions.Expression<System.Func<T, U>>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConverts a i => i.Property accessor-expression into a (i,v) => i.Property = value setter-expression.\n"
   syntax:
@@ -94,10 +94,10 @@ items:
   fullName: SuperOffice.Util.ExpressionUtil.GetSetter<T, U>(System.Linq.Expressions.Expression<System.Func<U>>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConverts a parameterless accessor-expression into a value-only setter-expression.\nCan be used for implicit self expressions like () => Property\nOr explicit instance expressions like () => instance.Property.\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Util.ExpressionUtil.GetInstanceProvider<T, U>(System.Linq.Expressions.Expression<System.Func<U>>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nTakes an expression of the type () => instance.Member\nand returns a function providing the instance only.\n"
   syntax:
@@ -173,10 +173,10 @@ items:
   fullName: SuperOffice.Util.ExpressionUtil.GetMemberName<T>(System.Linq.Expressions.Expression<System.Func<T>>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturns the name of the member which the expression is pointing at.\n"
   syntax:

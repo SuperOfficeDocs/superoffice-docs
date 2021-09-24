@@ -7,9 +7,14 @@ items:
   - SuperOffice.Data.Cache.CacheAttribute
   - SuperOffice.Data.Cache.CacheBase
   - SuperOffice.Data.Cache.CacheBase.CacheState
+  - SuperOffice.Data.Cache.CacheBaseV2
   - SuperOffice.Data.Cache.CacheEventHandler
+  - SuperOffice.Data.Cache.CacheManager
+  - SuperOffice.Data.Cache.CacheManager.DisableAutoUpdateScope
   - SuperOffice.Data.Cache.CacheType
+  - SuperOffice.Data.Cache.CacheV2Attribute
   - SuperOffice.Data.Cache.IFlushable
+  - SuperOffice.Data.Cache.IFlushableV2
   - SuperOffice.Data.Cache.SoCache
   - SuperOffice.Data.Cache.XCacheBase
   langs:
@@ -22,27 +27,6 @@ items:
   assemblies:
   - SoDataBase
 references:
-- uid: SuperOffice.Data.Cache.IFlushable
-  commentId: T:SuperOffice.Data.Cache.IFlushable
-  parent: SuperOffice.Data.Cache
-  isExternal: true
-  name: IFlushable
-  nameWithType: IFlushable
-  fullName: SuperOffice.Data.Cache.IFlushable
-- uid: SuperOffice.Data.Cache.XCacheBase
-  commentId: T:SuperOffice.Data.Cache.XCacheBase
-  parent: SuperOffice.Data.Cache
-  isExternal: true
-  name: XCacheBase
-  nameWithType: XCacheBase
-  fullName: SuperOffice.Data.Cache.XCacheBase
-- uid: SuperOffice.Data.Cache.CacheAttribute
-  commentId: T:SuperOffice.Data.Cache.CacheAttribute
-  parent: SuperOffice.Data.Cache
-  isExternal: true
-  name: CacheAttribute
-  nameWithType: CacheAttribute
-  fullName: SuperOffice.Data.Cache.CacheAttribute
 - uid: SuperOffice.Data.Cache.CacheEventHandler
   commentId: T:SuperOffice.Data.Cache.CacheEventHandler
   parent: SuperOffice.Data.Cache
@@ -64,6 +48,33 @@ references:
   name: CacheBase.CacheState
   nameWithType: CacheBase.CacheState
   fullName: SuperOffice.Data.Cache.CacheBase.CacheState
+- uid: SuperOffice.Data.Cache.CacheBaseV2
+  commentId: T:SuperOffice.Data.Cache.CacheBaseV2
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: CacheBaseV2
+  nameWithType: CacheBaseV2
+  fullName: SuperOffice.Data.Cache.CacheBaseV2
+- uid: SuperOffice.Data.Cache.CacheV2Attribute
+  commentId: T:SuperOffice.Data.Cache.CacheV2Attribute
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: CacheV2Attribute
+  nameWithType: CacheV2Attribute
+  fullName: SuperOffice.Data.Cache.CacheV2Attribute
+- uid: SuperOffice.Data.Cache.CacheManager
+  commentId: T:SuperOffice.Data.Cache.CacheManager
+  isExternal: true
+  name: CacheManager
+  nameWithType: CacheManager
+  fullName: SuperOffice.Data.Cache.CacheManager
+- uid: SuperOffice.Data.Cache.CacheManager.DisableAutoUpdateScope
+  commentId: T:SuperOffice.Data.Cache.CacheManager.DisableAutoUpdateScope
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: CacheManager.DisableAutoUpdateScope
+  nameWithType: CacheManager.DisableAutoUpdateScope
+  fullName: SuperOffice.Data.Cache.CacheManager.DisableAutoUpdateScope
 - uid: SuperOffice.Data.Cache.CacheType
   commentId: T:SuperOffice.Data.Cache.CacheType
   parent: SuperOffice.Data.Cache
@@ -71,12 +82,40 @@ references:
   name: CacheType
   nameWithType: CacheType
   fullName: SuperOffice.Data.Cache.CacheType
+- uid: SuperOffice.Data.Cache.IFlushable
+  commentId: T:SuperOffice.Data.Cache.IFlushable
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: IFlushable
+  nameWithType: IFlushable
+  fullName: SuperOffice.Data.Cache.IFlushable
+- uid: SuperOffice.Data.Cache.IFlushableV2
+  commentId: T:SuperOffice.Data.Cache.IFlushableV2
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: IFlushableV2
+  nameWithType: IFlushableV2
+  fullName: SuperOffice.Data.Cache.IFlushableV2
 - uid: SuperOffice.Data.Cache.SoCache
   commentId: T:SuperOffice.Data.Cache.SoCache
   isExternal: true
   name: SoCache
   nameWithType: SoCache
   fullName: SuperOffice.Data.Cache.SoCache
+- uid: SuperOffice.Data.Cache.XCacheBase
+  commentId: T:SuperOffice.Data.Cache.XCacheBase
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: XCacheBase
+  nameWithType: XCacheBase
+  fullName: SuperOffice.Data.Cache.XCacheBase
+- uid: SuperOffice.Data.Cache.CacheAttribute
+  commentId: T:SuperOffice.Data.Cache.CacheAttribute
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: CacheAttribute
+  nameWithType: CacheAttribute
+  fullName: SuperOffice.Data.Cache.CacheAttribute
 - uid: SuperOffice.Data.Cache
   commentId: N:SuperOffice.Data.Cache
   isExternal: true

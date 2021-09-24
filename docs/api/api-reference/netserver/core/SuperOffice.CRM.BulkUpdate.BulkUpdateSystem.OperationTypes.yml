@@ -69,18 +69,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string MenuSeparator
+    content: public const string MenuSeparator = "separator"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly MenuSeparator As String
+    content.vb: Public Const MenuSeparator As String = "separator"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.SelectOne
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.SelectOne
   id: SelectOne
@@ -99,18 +97,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string SelectOne
+    content: public const string SelectOne = "selectOne"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly SelectOne As String
+    content.vb: Public Const SelectOne As String = "selectOne"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Clear
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Clear
   id: Clear
@@ -129,18 +125,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Clear
+    content: public const string Clear = "clear"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Clear As String
+    content.vb: Public Const Clear As String = "clear"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Set
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Set
   id: Set
@@ -159,18 +153,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Set
+    content: public const string Set = "set"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Set As String
+    content.vb: Public Const Set As String = "set"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Check
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Check
   id: Check
@@ -189,18 +181,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Check
+    content: public const string Check = "check"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Check As String
+    content.vb: Public Const Check As String = "check"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Toggle
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Toggle
   id: Toggle
@@ -219,18 +209,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Toggle
+    content: public const string Toggle = "toggle"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Toggle As String
+    content.vb: Public Const Toggle As String = "toggle"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.AddItems
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.AddItems
   id: AddItems
@@ -249,18 +237,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string AddItems
+    content: public const string AddItems = "addItems"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly AddItems As String
+    content.vb: Public Const AddItems As String = "addItems"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.RemoveItems
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.RemoveItems
   id: RemoveItems
@@ -279,18 +265,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string RemoveItems
+    content: public const string RemoveItems = "removeItems"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly RemoveItems As String
+    content.vb: Public Const RemoveItems As String = "removeItems"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Add
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Add
   id: Add
@@ -309,18 +293,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Add
+    content: public const string Add = "add"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Add As String
+    content.vb: Public Const Add As String = "add"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Remove
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Remove
   id: Remove
@@ -339,18 +321,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string Remove
+    content: public const string Remove = "remove"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Remove As String
+    content.vb: Public Const Remove As String = "remove"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.ReplaceWith
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.ReplaceWith
   id: ReplaceWith
@@ -369,18 +349,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string ReplaceWith
+    content: public const string ReplaceWith = "replaceWith"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly ReplaceWith As String
+    content.vb: Public Const ReplaceWith As String = "replaceWith"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.SearchAndReplace
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.SearchAndReplace
   id: SearchAndReplace
@@ -399,18 +377,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string SearchAndReplace
+    content: public const string SearchAndReplace = "searchAndReplace"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly SearchAndReplace As String
+    content.vb: Public Const SearchAndReplace As String = "searchAndReplace"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.RegEx
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.RegEx
   id: RegEx
@@ -429,18 +405,16 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static readonly string RegEx
+    content: public const string RegEx = "regex"
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly RegEx As String
+    content.vb: Public Const RegEx As String = "regex"
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - const
   modifiers.vb:
   - Public
-  - Shared
-  - ReadOnly
+  - Const
 references:
 - uid: SuperOffice.CRM.BulkUpdate
   commentId: N:SuperOffice.CRM.BulkUpdate

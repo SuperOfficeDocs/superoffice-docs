@@ -23,10 +23,10 @@ items:
   fullName: SuperOffice.License.ExtendedModuleLicense
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public class ExtendedModuleLicense
@@ -63,10 +63,10 @@ items:
   fullName: SuperOffice.License.ExtendedModuleLicense.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public override string ToString()
@@ -93,10 +93,10 @@ items:
   fullName: SuperOffice.License.ExtendedModuleLicense.ExtendedModuleLicense()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public ExtendedModuleLicense()
@@ -118,10 +118,10 @@ items:
   fullName: SuperOffice.License.ExtendedModuleLicense.New
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public ModuleLicense New { get; set; }
@@ -148,10 +148,10 @@ items:
   fullName: SuperOffice.License.ExtendedModuleLicense.Current
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public ModuleLicense Current { get; set; }
@@ -178,10 +178,10 @@ items:
   fullName: SuperOffice.License.ExtendedModuleLicense.NumberOfLicensesInUse
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public int NumberOfLicensesInUse { get; set; }
@@ -208,10 +208,10 @@ items:
   fullName: SuperOffice.License.ExtendedModuleLicense.NumberOfLicensesFree
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public int NumberOfLicensesFree { get; set; }
@@ -238,10 +238,10 @@ items:
   fullName: SuperOffice.License.ExtendedModuleLicense.NumberOfLicensesAdded
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public int NumberOfLicensesAdded { get; set; }
@@ -268,10 +268,10 @@ items:
   fullName: SuperOffice.License.ExtendedModuleLicense.NumberOfLicensesNewTotal
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public int NumberOfLicensesNewTotal { get; set; }
@@ -298,10 +298,10 @@ items:
   fullName: SuperOffice.License.ExtendedModuleLicense.NumberOfLicensesNewFree
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public int NumberOfLicensesNewFree { get; set; }
@@ -328,10 +328,10 @@ items:
   fullName: SuperOffice.License.ExtendedModuleLicense.NumberOfLicensesTotal
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public int NumberOfLicensesTotal { get; set; }

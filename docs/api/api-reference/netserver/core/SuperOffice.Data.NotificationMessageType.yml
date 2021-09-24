@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Data.NotificationMessageType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDefines what type of content the notification contains\n"
   syntax:
@@ -50,10 +50,10 @@ items:
   fullName: SuperOffice.Data.NotificationMessageType.Message
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: A plain message\n"
   syntax:
@@ -78,10 +78,10 @@ items:
   fullName: SuperOffice.Data.NotificationMessageType.ImportantMessage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: A message with high priority\n"
   syntax:
@@ -106,10 +106,10 @@ items:
   fullName: SuperOffice.Data.NotificationMessageType.RemoteAction
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Trigger an action\n"
   syntax:
@@ -134,10 +134,10 @@ items:
   fullName: SuperOffice.Data.NotificationMessageType.YesNoQuestion
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Ask user a yes or no question\n"
   syntax:
@@ -162,10 +162,10 @@ items:
   fullName: SuperOffice.Data.NotificationMessageType.ShowWebPage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Show a web page\n"
   syntax:

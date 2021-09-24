@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Security.Principal.IContextInitializerPlugin
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nInterface implemented by context initializers.\n"
   remarks: "\nA Context initializer is responsible for initializing a context \nand assigning tenant specific configuration.\n"
@@ -47,10 +47,10 @@ items:
   fullName: SuperOffice.Security.Principal.IContextInitializerPlugin.InitializeContext(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nMethod called every time a new context is entered for the first time.  \nPerform initial configuration like assigning database, so_arc and so on. \nThe method is also called for the initial context.  \n"
   syntax:

@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Security.Principal.AuthenticationState
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nAuthentication state of the current <xref href=\"SuperOffice.Security.Principal.SoIdentity\" data-throw-if-not-resolved=\"false\"></xref>\n"
   remarks: "\nThe initial state of <xref href=\"SuperOffice.Security.Principal.SoIdentity\" data-throw-if-not-resolved=\"false\"></xref> is allways Unauthenticated.  \nWhen the authentication starts, the state is set to Authenticating.  The state is set to \nAuthenticated if the authentication succeeded and AuthenticationFailed if the authentication failed.\n<p>\nThe authentication state is set to Disconnected or Closed if such operations are performed on <xref href=\"SuperOffice.SoSession\" data-throw-if-not-resolved=\"false\"></xref>.\n</p><p>\nA value greater than Unauthenticated means that the process of authentication is either being carried out or has actually \nbeen successfull.  <xref href=\"SuperOffice.SoContext.CurrentPrincipal\" data-throw-if-not-resolved=\"false\"></xref> is available when the athentication are in these states.\n</p><p>\nA value less than Unauthenticated means that we don&apos;t have a valid session.\n</p>\n"
@@ -66,10 +66,10 @@ items:
   fullName: SuperOffice.Security.Principal.AuthenticationState.Unauthenticated
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe process of authentication has not been carried out.\n"
   syntax:
@@ -94,10 +94,10 @@ items:
   fullName: SuperOffice.Security.Principal.AuthenticationState.Authenticating
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe session is currently being authenticating\n"
   syntax:
@@ -122,10 +122,10 @@ items:
   fullName: SuperOffice.Security.Principal.AuthenticationState.Authenticated
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe session is authenticated\n"
   syntax:
@@ -150,10 +150,10 @@ items:
   fullName: SuperOffice.Security.Principal.AuthenticationState.AuthenticationFailed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe authentication has failed.\n"
   syntax:
@@ -178,10 +178,10 @@ items:
   fullName: SuperOffice.Security.Principal.AuthenticationState.Suspended
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe session has been suspended.\n"
   syntax:
@@ -206,10 +206,10 @@ items:
   fullName: SuperOffice.Security.Principal.AuthenticationState.Closed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe session has closed\n"
   syntax:

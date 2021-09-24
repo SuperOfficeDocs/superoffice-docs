@@ -24,10 +24,10 @@ items:
   fullName: SuperOffice.Diagnostics.ResourceTracerContext
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: 'public class ResourceTracerContext : ISoTimeRecorderContext, IDisposable'
@@ -68,10 +68,10 @@ items:
   fullName: SuperOffice.Diagnostics.ResourceTracerContext.CpuTimer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public ExecutionStopwatch CpuTimer
@@ -94,10 +94,10 @@ items:
   fullName: SuperOffice.Diagnostics.ResourceTracerContext.Timer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public Stopwatch Timer
@@ -120,10 +120,10 @@ items:
   fullName: SuperOffice.Diagnostics.ResourceTracerContext.Split(System.Func<System.String>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public void Split(Func<string> description)
@@ -153,10 +153,10 @@ items:
   fullName: SuperOffice.Diagnostics.ResourceTracerContext.Lap(System.Func<System.String>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public void Lap(Func<string> description)
@@ -186,10 +186,10 @@ items:
   fullName: SuperOffice.Diagnostics.ResourceTracerContext.End()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public void End()
@@ -213,10 +213,10 @@ items:
   fullName: SuperOffice.Diagnostics.ResourceTracerContext.Dispose()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public void Dispose()
@@ -240,10 +240,10 @@ items:
   fullName: SuperOffice.Diagnostics.ResourceTracerContext.Increment()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public void Increment()
@@ -267,10 +267,10 @@ items:
   fullName: SuperOffice.Diagnostics.ResourceTracerContext.Parent
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public ResourceTracer Parent { get; }
@@ -297,10 +297,10 @@ items:
   fullName: SuperOffice.Diagnostics.ResourceTracerContext.RecorderType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public SoTimerType RecorderType { get; }
@@ -327,10 +327,10 @@ items:
   fullName: SuperOffice.Diagnostics.ResourceTracerContext.Category
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public string Category { get; }
@@ -357,10 +357,10 @@ items:
   fullName: SuperOffice.Diagnostics.ResourceTracerContext.IsRunning
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public bool IsRunning { get; }

@@ -41,10 +41,10 @@ items:
   fullName: SuperOffice.Data.EjAccess
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDefined in Clients\\CS\\lib\\rms\\UserLib.h, any changes must be kept in sync!\n"
   syntax:
@@ -83,10 +83,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessNone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessNone = 0
@@ -110,10 +110,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessListOthers
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessListOthers = 1
@@ -137,10 +137,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessReadOthers
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessReadOthers = 2
@@ -164,10 +164,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessEditOthers
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessEditOthers = 4
@@ -191,10 +191,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessEditOwnPref
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessEditOwnPref = 8
@@ -218,10 +218,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessCategoryAdministration
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessCategoryAdministration = 16
@@ -245,10 +245,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessUserAdministration
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessUserAdministration = 32
@@ -272,10 +272,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessEjournalAdministration
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessEjournalAdministration = 64
@@ -299,10 +299,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessStatistics
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessStatistics = 128
@@ -326,10 +326,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessDocuments
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessDocuments = 256
@@ -353,10 +353,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessJustCategory
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessJustCategory = 512
@@ -380,10 +380,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessEditProfile
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessEditProfile = 1024
@@ -407,10 +407,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessListOnlyOwn
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessListOnlyOwn = 2048
@@ -434,10 +434,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessReadOnlyOwn
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessReadOnlyOwn = 4096
@@ -461,10 +461,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessEditOnlyOwn
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessEditOnlyOwn = 8192
@@ -488,10 +488,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessChat
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessChat = 16384
@@ -515,10 +515,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessChatAdmin
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessChatAdmin = 32768
@@ -542,10 +542,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessSpm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessSpm = 65536
@@ -569,10 +569,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessEditFaq
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessEditFaq = 131072
@@ -596,10 +596,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessFaqAdmin
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessFaqAdmin = 262144
@@ -623,10 +623,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessListExtraTablesContent
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessListExtraTablesContent = 524288
@@ -650,10 +650,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessEditExtraTablesContent
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessEditExtraTablesContent = 1048576
@@ -677,10 +677,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessReadSelections
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessReadSelections = 2097152
@@ -704,10 +704,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessEditSelections
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessEditSelections = 4194304
@@ -731,10 +731,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessPostToFacebook
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessPostToFacebook = 8388608
@@ -758,10 +758,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessListAdmin
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessListAdmin = 16777216
@@ -785,10 +785,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessRoleAdmin
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessRoleAdmin = 33554432
@@ -812,10 +812,10 @@ items:
   fullName: SuperOffice.Data.EjAccess.AccessEverything
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: AccessEverything = 268355583

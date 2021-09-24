@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Util.AttributeFetcher
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nHelper class (static method collection) that will fetch a given attribute from a type, or an instance of a type\n"
   syntax:
@@ -53,10 +53,10 @@ items:
   fullName: SuperOffice.Util.AttributeFetcher.FetchAttribute<AttributeClass>(System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nFetch the first (if any) attribute of the given type from some source type\n"
   syntax:
@@ -96,10 +96,10 @@ items:
   fullName: SuperOffice.Util.AttributeFetcher.FetchAttribute<AttributeClass>(System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nFetch the first (if any) attribute of the given type from an instance of some source type\n"
   syntax:

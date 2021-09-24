@@ -79,8 +79,10 @@ items:
   - SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}._colUserGroup
   - SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}._colWho
   - SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}._colUpdatedBy
+  - SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}._colUpdatedByFullName
   - SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}._colUpdatedDate
   - SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}._colRegisteredBy
+  - SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}._colRegisteredByFullName
   - SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}._colRegisteredDate
   - SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}.ColumnSuggestedDocumentId
   - SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}.ColumnSuggestedAppointmentId
@@ -91,6 +93,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}.ModifyQuery
   - SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}.GetRankRestriction(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}.StyleHintPrefix
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.Visible
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.Invisible
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AllowOrderBy
@@ -171,6 +174,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddLastUpdatedMapping(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedBy(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo[])
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetIdFieldTag(SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetArchiveColumnName(SuperOffice.Data.Dictionary.SoField)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ExtensibleHelper
@@ -1227,6 +1231,15 @@ references:
   fullName: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase<SuperOffice.CRM.Data.SaleHistTableInfo>._colUpdatedBy
   nameWithType.vb: ActivityExtenderBase(Of SaleHistTableInfo)._colUpdatedBy
   fullName.vb: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase(Of SuperOffice.CRM.Data.SaleHistTableInfo)._colUpdatedBy
+- uid: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}._colUpdatedByFullName
+  commentId: F:SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}._colUpdatedByFullName
+  parent: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}
+  definition: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase`1._colUpdatedByFullName
+  name: _colUpdatedByFullName
+  nameWithType: ActivityExtenderBase<SaleHistTableInfo>._colUpdatedByFullName
+  fullName: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase<SuperOffice.CRM.Data.SaleHistTableInfo>._colUpdatedByFullName
+  nameWithType.vb: ActivityExtenderBase(Of SaleHistTableInfo)._colUpdatedByFullName
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase(Of SuperOffice.CRM.Data.SaleHistTableInfo)._colUpdatedByFullName
 - uid: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}._colUpdatedDate
   commentId: F:SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}._colUpdatedDate
   parent: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}
@@ -1245,6 +1258,15 @@ references:
   fullName: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase<SuperOffice.CRM.Data.SaleHistTableInfo>._colRegisteredBy
   nameWithType.vb: ActivityExtenderBase(Of SaleHistTableInfo)._colRegisteredBy
   fullName.vb: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase(Of SuperOffice.CRM.Data.SaleHistTableInfo)._colRegisteredBy
+- uid: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}._colRegisteredByFullName
+  commentId: F:SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}._colRegisteredByFullName
+  parent: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}
+  definition: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase`1._colRegisteredByFullName
+  name: _colRegisteredByFullName
+  nameWithType: ActivityExtenderBase<SaleHistTableInfo>._colRegisteredByFullName
+  fullName: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase<SuperOffice.CRM.Data.SaleHistTableInfo>._colRegisteredByFullName
+  nameWithType.vb: ActivityExtenderBase(Of SaleHistTableInfo)._colRegisteredByFullName
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase(Of SuperOffice.CRM.Data.SaleHistTableInfo)._colRegisteredByFullName
 - uid: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}._colRegisteredDate
   commentId: F:SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}._colRegisteredDate
   parent: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}
@@ -1600,6 +1622,13 @@ references:
   fullName: SuperOffice.CRM.ArchiveLists.ExtenderBase<SuperOffice.CRM.Data.SaleHistTableInfo>.StyleHintPrefix
   nameWithType.vb: ExtenderBase(Of SaleHistTableInfo).StyleHintPrefix
   fullName.vb: SuperOffice.CRM.ArchiveLists.ExtenderBase(Of SuperOffice.CRM.Data.SaleHistTableInfo).StyleHintPrefix
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
+  commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  isExternal: true
+  name: _minuteFields
+  nameWithType: ExtensibleColumnsBase._minuteFields
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.Visible
   commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.Visible
   parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
@@ -5711,6 +5740,104 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  isExternal: true
+  name: AddAssociateFullName(SoDataReader, ArchiveRow, ArchiveColumnInfo, FieldInfo[])
+  nameWithType: ExtensibleColumnsBase.AddAssociateFullName(SoDataReader, ArchiveRow, ArchiveColumnInfo, FieldInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo, SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: ExtensibleColumnsBase.AddAssociateFullName(SoDataReader, ArchiveRow, ArchiveColumnInfo, FieldInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo, SuperOffice.Data.SQL.FieldInfo())
+  name.vb: AddAssociateFullName(SoDataReader, ArchiveRow, ArchiveColumnInfo, FieldInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo[])
+    name: AddAssociateFullName
+    nameWithType: ExtensibleColumnsBase.AddAssociateFullName
+    fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo[])
+    name: AddAssociateFullName
+    nameWithType: ExtensibleColumnsBase.AddAssociateFullName
+    fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetIdFieldTag(SuperOffice.Data.SoDataReader)
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetIdFieldTag(SuperOffice.Data.SoDataReader)
   parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
@@ -6569,6 +6696,14 @@ references:
   fullName: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase<Info>._colUpdatedBy
   nameWithType.vb: ActivityExtenderBase(Of Info)._colUpdatedBy
   fullName.vb: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase(Of Info)._colUpdatedBy
+- uid: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase`1._colUpdatedByFullName
+  commentId: F:SuperOffice.CRM.ArchiveLists.ActivityExtenderBase`1._colUpdatedByFullName
+  isExternal: true
+  name: _colUpdatedByFullName
+  nameWithType: ActivityExtenderBase<Info>._colUpdatedByFullName
+  fullName: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase<Info>._colUpdatedByFullName
+  nameWithType.vb: ActivityExtenderBase(Of Info)._colUpdatedByFullName
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase(Of Info)._colUpdatedByFullName
 - uid: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase`1._colUpdatedDate
   commentId: F:SuperOffice.CRM.ArchiveLists.ActivityExtenderBase`1._colUpdatedDate
   isExternal: true
@@ -6585,6 +6720,14 @@ references:
   fullName: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase<Info>._colRegisteredBy
   nameWithType.vb: ActivityExtenderBase(Of Info)._colRegisteredBy
   fullName.vb: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase(Of Info)._colRegisteredBy
+- uid: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase`1._colRegisteredByFullName
+  commentId: F:SuperOffice.CRM.ArchiveLists.ActivityExtenderBase`1._colRegisteredByFullName
+  isExternal: true
+  name: _colRegisteredByFullName
+  nameWithType: ActivityExtenderBase<Info>._colRegisteredByFullName
+  fullName: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase<Info>._colRegisteredByFullName
+  nameWithType.vb: ActivityExtenderBase(Of Info)._colRegisteredByFullName
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase(Of Info)._colRegisteredByFullName
 - uid: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase`1._colRegisteredDate
   commentId: F:SuperOffice.CRM.ArchiveLists.ActivityExtenderBase`1._colRegisteredDate
   isExternal: true

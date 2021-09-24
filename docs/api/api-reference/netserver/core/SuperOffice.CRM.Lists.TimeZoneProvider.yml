@@ -11,6 +11,7 @@ items:
   - SuperOffice.CRM.Lists.TimeZoneProvider.GenerateName(System.String,System.Double)
   - SuperOffice.CRM.Lists.TimeZoneProvider.GenerateOffsetString(System.Double,System.String)
   - SuperOffice.CRM.Lists.TimeZoneProvider.PopulateFromReader(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},SuperOffice.Data.SoDataReader,System.Boolean,System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Lists.TimeZoneProvider.ProviderName
   - SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoList#HeadingItems
   - SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoList#HistoryItems
   - SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoList#RootItems
@@ -108,6 +109,34 @@ items:
   modifiers.vb:
   - Public
   - Class
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider.ProviderName
+  commentId: F:SuperOffice.CRM.Lists.TimeZoneProvider.ProviderName
+  id: ProviderName
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: TimeZoneProvider.ProviderName
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider.ProviderName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public const string ProviderName = "TimeZone"
+    return:
+      type: System.String
+    content.vb: Public Const ProviderName As String = "TimeZone"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Lists.TimeZoneProvider._additionalInfo
   commentId: F:SuperOffice.CRM.Lists.TimeZoneProvider._additionalInfo
   id: _additionalInfo

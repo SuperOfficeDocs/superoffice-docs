@@ -32,10 +32,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Messaging
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nConfiguration values for SuperOffice.CRM.Messaging and the SoMessaging.dll.\n"
   syntax:
@@ -70,10 +70,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoAuthentication
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nFalse will indicate process being authenticated with NetServer or Anonymous user\n"
   syntax:
@@ -103,10 +103,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoUser
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nSuperOffice user to authenticate with.\n"
   syntax:
@@ -136,10 +136,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoPassword
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nPassword for <xref href=\"SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoUser\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
@@ -169,10 +169,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Messaging.BrokerBroadcastAddress
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nBroadcast address for the message broker to send to other machines.  Default is broadcast address: 255.255.255.255\n"
   syntax:
@@ -202,10 +202,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Messaging.BrokerExternalListeningAddress
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAddress the message broker is listening on for external messages. Default value is Any IP address: 0.0.0.0\n"
   syntax:
@@ -235,10 +235,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Messaging.BrokerInternalListeningAddress
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAddress the message broker is listening on for internal messages.  Default value is Loopback adapter: 127.0.0.1\n"
   syntax:
@@ -268,10 +268,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Messaging.ClientBroadcastAddress
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAddress ther message clients (normally sending messages through the message broker) is broadcasting on.  Default value is Loopback adapter: 127.0.0.1\n"
   syntax:
@@ -301,10 +301,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningAddress
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAddress the message clients (noirmally recieving messages from the message broker) is listening on.  Default value is Any IP address: 0.0.0.0\n"
   syntax:
@@ -334,10 +334,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Messaging.BrokerBroadcastPort
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe port the message broker is sending messages on to other machines.  Default value is port 19107\n"
   syntax:
@@ -367,10 +367,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Messaging.BrokerExternalListeningPort
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe port the message broker is listening for messages from other machines.  Default value is port 19107\n"
   syntax:
@@ -400,10 +400,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Messaging.BrokerInternalListeningPort
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe port the message broker is listening for messages from internal clients.  Default value is port 19108\n"
   syntax:
@@ -433,10 +433,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Messaging.ClientBroadcastPort
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe port the message client is broadcasting messages on (normally to the message broker).  Default value is port 19108\n"
   syntax:
@@ -466,10 +466,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningPortStart
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe start of the range clients listen to messages on (normally from the message broker).  Default value is 19109\n"
   syntax:
@@ -499,10 +499,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningPortEnd
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe end of the range clients listen to messages on (normally from the message broker).  Default value is 19999\n"
   syntax:
@@ -532,10 +532,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoCreateBroker
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nShould the message client automatically create a local message broker if one does not exsist?  Default value is true.\n"
   syntax:
@@ -565,10 +565,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Messaging.BrokerAutoAliveMessage
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nShould the message broker autiomatically send alive messages?  Default value is true.\n"
   syntax:
@@ -598,10 +598,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoAliveMessage
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nSould the message client automatically send alive messages?  Default value is true.\n"
   syntax:
@@ -631,10 +631,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Messaging.BrokerAutoAliveMessageInterval
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nInterval for the mesage broker to send alive messages.  Default value is 60 (sec).\n"
   syntax:
@@ -664,10 +664,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoAliveMessageInterval
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nInterval for the mesage client to send alive messages.  Default value is 60 (sec).\n"
   syntax:

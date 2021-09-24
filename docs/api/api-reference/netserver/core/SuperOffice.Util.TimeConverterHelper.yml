@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.Util.TimeConverterHelper.IsYearZero(System.DateTime)
   - SuperOffice.Util.TimeConverterHelper.IsYearZeroOrMinValue(System.DateTime)
+  - SuperOffice.Util.TimeConverterHelper.IsZeroOrMinValue(System.TimeSpan)
   - SuperOffice.Util.TimeConverterHelper.MaxValidDateLocal
   - SuperOffice.Util.TimeConverterHelper.MaxValidDateUtc
   - SuperOffice.Util.TimeConverterHelper.RelativeTimePhrase(System.DateTime)
@@ -21,10 +22,10 @@ items:
   fullName: SuperOffice.Util.TimeConverterHelper
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nHelper class for <xref href=\"SuperOffice.Util.TimeConverter\" data-throw-if-not-resolved=\"false\"></xref>.    \n"
   syntax:
@@ -60,10 +61,10 @@ items:
   fullName: SuperOffice.Util.TimeConverterHelper.IsYearZero(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static bool IsYearZero(this DateTime dateTime)
@@ -83,6 +84,44 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.Util.TimeConverterHelper.IsZeroOrMinValue(System.TimeSpan)
+  commentId: M:SuperOffice.Util.TimeConverterHelper.IsZeroOrMinValue(System.TimeSpan)
+  id: IsZeroOrMinValue(System.TimeSpan)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.TimeConverterHelper
+  langs:
+  - csharp
+  - vb
+  name: IsZeroOrMinValue(TimeSpan)
+  nameWithType: TimeConverterHelper.IsZeroOrMinValue(TimeSpan)
+  fullName: SuperOffice.Util.TimeConverterHelper.IsZeroOrMinValue(System.TimeSpan)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nChecks if dateTime is YearZero or MinValue.\n"
+  syntax:
+    content: public static bool IsZeroOrMinValue(this TimeSpan ts)
+    parameters:
+    - id: ts
+      type: System.TimeSpan
+    return:
+      type: System.Boolean
+      description: True if the timespan is zero
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsZeroOrMinValue(ts As TimeSpan) As Boolean
+  overload: SuperOffice.Util.TimeConverterHelper.IsZeroOrMinValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.TimeConverterHelper.IsYearZeroOrMinValue(System.DateTime)
   commentId: M:SuperOffice.Util.TimeConverterHelper.IsYearZeroOrMinValue(System.DateTime)
   id: IsYearZeroOrMinValue(System.DateTime)
@@ -96,10 +135,10 @@ items:
   fullName: SuperOffice.Util.TimeConverterHelper.IsYearZeroOrMinValue(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nChecks if dateTime is YearZero or MinValue.\n"
   syntax:
@@ -132,10 +171,10 @@ items:
   fullName: SuperOffice.Util.TimeConverterHelper.RelativeTimePhrase(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static string RelativeTimePhrase(DateTime dt)
@@ -164,10 +203,10 @@ items:
   fullName: SuperOffice.Util.TimeConverterHelper.TimeBaseDb
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn the datetime value that is used in the database, to represent &quot;lowest possible date&quot;\n"
   syntax:
@@ -197,10 +236,10 @@ items:
   fullName: SuperOffice.Util.TimeConverterHelper.TimeBaseLocal
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn the lowest valid date, 1.1.1970. This DateTime has Kind = Local\n"
   syntax:
@@ -230,10 +269,10 @@ items:
   fullName: SuperOffice.Util.TimeConverterHelper.MaxValidDateLocal
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn the highest valid date. This DateTime has Kind = Local\n"
   syntax:
@@ -263,10 +302,10 @@ items:
   fullName: SuperOffice.Util.TimeConverterHelper.TimeBaseUtc
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn the lowest valid date, 1.1.1970. This DateTime has Kind = Utc, but the Ticks value is the same as for the Local variant\n"
   syntax:
@@ -296,10 +335,10 @@ items:
   fullName: SuperOffice.Util.TimeConverterHelper.MaxValidDateUtc
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn the highest valid date, Kind = Utc, but the Ticks value is the same as for the Local variant\n"
   syntax:
@@ -636,6 +675,19 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: SuperOffice.Util.TimeConverterHelper.IsZeroOrMinValue*
+  commentId: Overload:SuperOffice.Util.TimeConverterHelper.IsZeroOrMinValue
+  isExternal: true
+  name: IsZeroOrMinValue
+  nameWithType: TimeConverterHelper.IsZeroOrMinValue
+  fullName: SuperOffice.Util.TimeConverterHelper.IsZeroOrMinValue
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
 - uid: SuperOffice.Util.TimeConverterHelper.IsYearZeroOrMinValue*
   commentId: Overload:SuperOffice.Util.TimeConverterHelper.IsYearZeroOrMinValue
   isExternal: true

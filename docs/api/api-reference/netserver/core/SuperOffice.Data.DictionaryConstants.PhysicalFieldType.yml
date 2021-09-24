@@ -22,10 +22,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.PhysicalFieldType
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public static class PhysicalFieldType
@@ -59,10 +59,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.PhysicalFieldType.Int
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int Int = 0
@@ -87,10 +87,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.PhysicalFieldType.Char
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int Char = 1
@@ -115,10 +115,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.PhysicalFieldType.Vchar
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int Vchar = 2
@@ -143,10 +143,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.PhysicalFieldType.Lvchar
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int Lvchar = 3
@@ -171,10 +171,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.PhysicalFieldType.Dec
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int Dec = 4
@@ -199,10 +199,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.PhysicalFieldType.Float
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int Float = 5
@@ -227,10 +227,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.PhysicalFieldType.Blob
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int Blob = 6
@@ -255,10 +255,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.PhysicalFieldType.DateTime
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int DateTime = 7
@@ -283,10 +283,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.PhysicalFieldType.Text
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int Text = 8

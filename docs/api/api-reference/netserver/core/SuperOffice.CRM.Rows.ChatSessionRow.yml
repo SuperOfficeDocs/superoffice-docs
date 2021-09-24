@@ -7,10 +7,12 @@ items:
   children:
   - SuperOffice.CRM.Rows.ChatSessionRow.#ctor(SuperOffice.CRM.Rows.ChatSessionRow.ChatSessionRowIdxBase)
   - SuperOffice.CRM.Rows.ChatSessionRow._currentAlertLevel
+  - SuperOffice.CRM.Rows.ChatSessionRow._currentChatbotIsactive
   - SuperOffice.CRM.Rows.ChatSessionRow._currentChatSessionId
   - SuperOffice.CRM.Rows.ChatSessionRow._currentCompanyName
   - SuperOffice.CRM.Rows.ChatSessionRow._currentConsented
   - SuperOffice.CRM.Rows.ChatSessionRow._currentContactId
+  - SuperOffice.CRM.Rows.ChatSessionRow._currentCountry
   - SuperOffice.CRM.Rows.ChatSessionRow._currentCustomerAlias
   - SuperOffice.CRM.Rows.ChatSessionRow._currentCustomerFetch
   - SuperOffice.CRM.Rows.ChatSessionRow._currentCustomerHost
@@ -36,9 +38,11 @@ items:
   - SuperOffice.CRM.Rows.ChatSessionRow._currentWhenRequested
   - SuperOffice.CRM.Rows.ChatSessionRow._currentWhenStarted
   - SuperOffice.CRM.Rows.ChatSessionRow._onAlertLevelChange
+  - SuperOffice.CRM.Rows.ChatSessionRow._onChatbotIsactiveChange
   - SuperOffice.CRM.Rows.ChatSessionRow._onCompanyNameChange
   - SuperOffice.CRM.Rows.ChatSessionRow._onConsentedChange
   - SuperOffice.CRM.Rows.ChatSessionRow._onContactIdChange
+  - SuperOffice.CRM.Rows.ChatSessionRow._onCountryChange
   - SuperOffice.CRM.Rows.ChatSessionRow._onCustomerAliasChange
   - SuperOffice.CRM.Rows.ChatSessionRow._onCustomerFetchChange
   - SuperOffice.CRM.Rows.ChatSessionRow._onCustomerHostChange
@@ -64,10 +68,12 @@ items:
   - SuperOffice.CRM.Rows.ChatSessionRow._onWhenRequestedChange
   - SuperOffice.CRM.Rows.ChatSessionRow._onWhenStartedChange
   - SuperOffice.CRM.Rows.ChatSessionRow._persistedAlertLevel
+  - SuperOffice.CRM.Rows.ChatSessionRow._persistedChatbotIsactive
   - SuperOffice.CRM.Rows.ChatSessionRow._persistedChatSessionId
   - SuperOffice.CRM.Rows.ChatSessionRow._persistedCompanyName
   - SuperOffice.CRM.Rows.ChatSessionRow._persistedConsented
   - SuperOffice.CRM.Rows.ChatSessionRow._persistedContactId
+  - SuperOffice.CRM.Rows.ChatSessionRow._persistedCountry
   - SuperOffice.CRM.Rows.ChatSessionRow._persistedCustomerAlias
   - SuperOffice.CRM.Rows.ChatSessionRow._persistedCustomerFetch
   - SuperOffice.CRM.Rows.ChatSessionRow._persistedCustomerHost
@@ -93,11 +99,13 @@ items:
   - SuperOffice.CRM.Rows.ChatSessionRow._persistedWhenRequested
   - SuperOffice.CRM.Rows.ChatSessionRow._persistedWhenStarted
   - SuperOffice.CRM.Rows.ChatSessionRow.AlertLevel
+  - SuperOffice.CRM.Rows.ChatSessionRow.ChatbotIsactive
   - SuperOffice.CRM.Rows.ChatSessionRow.ChatSessionId
   - SuperOffice.CRM.Rows.ChatSessionRow.ChatSessionTableInfo
   - SuperOffice.CRM.Rows.ChatSessionRow.CompanyName
   - SuperOffice.CRM.Rows.ChatSessionRow.Consented
   - SuperOffice.CRM.Rows.ChatSessionRow.ContactId
+  - SuperOffice.CRM.Rows.ChatSessionRow.Country
   - SuperOffice.CRM.Rows.ChatSessionRow.CreateNew
   - SuperOffice.CRM.Rows.ChatSessionRow.CustomerAlias
   - SuperOffice.CRM.Rows.ChatSessionRow.CustomerFetch
@@ -123,9 +131,11 @@ items:
   - SuperOffice.CRM.Rows.ChatSessionRow.LastMessage
   - SuperOffice.CRM.Rows.ChatSessionRow.Name
   - SuperOffice.CRM.Rows.ChatSessionRow.OnAlertLevelChange
+  - SuperOffice.CRM.Rows.ChatSessionRow.OnChatbotIsactiveChange
   - SuperOffice.CRM.Rows.ChatSessionRow.OnCompanyNameChange
   - SuperOffice.CRM.Rows.ChatSessionRow.OnConsentedChange
   - SuperOffice.CRM.Rows.ChatSessionRow.OnContactIdChange
+  - SuperOffice.CRM.Rows.ChatSessionRow.OnCountryChange
   - SuperOffice.CRM.Rows.ChatSessionRow.OnCustomerAliasChange
   - SuperOffice.CRM.Rows.ChatSessionRow.OnCustomerFetchChange
   - SuperOffice.CRM.Rows.ChatSessionRow.OnCustomerHostChange
@@ -223,6 +233,7 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.CRM.Rows.IdxBase,SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+  - SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
   - SuperOffice.CRM.Rows.TableRowBase.SetSaveOwner(SuperOffice.Data.INestedPersist)
   - SuperOffice.CRM.Rows.TableRowBase.Save
   - SuperOffice.CRM.Rows.TableRowBase.Delete
@@ -1069,6 +1080,60 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.ChatSessionRow._persistedChatbotIsactive
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRow._persistedChatbotIsactive
+  id: _persistedChatbotIsactive
+  parent: SuperOffice.CRM.Rows.ChatSessionRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedChatbotIsactive
+  nameWithType: ChatSessionRow._persistedChatbotIsactive
+  fullName: SuperOffice.CRM.Rows.ChatSessionRow._persistedChatbotIsactive
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.ChatbotIsactive\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected short _persistedChatbotIsactive
+    return:
+      type: System.Int16
+    content.vb: Protected _persistedChatbotIsactive As Short
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatSessionRow._persistedCountry
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRow._persistedCountry
+  id: _persistedCountry
+  parent: SuperOffice.CRM.Rows.ChatSessionRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedCountry
+  nameWithType: ChatSessionRow._persistedCountry
+  fullName: SuperOffice.CRM.Rows.ChatSessionRow._persistedCountry
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.Country\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _persistedCountry
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedCountry As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.ChatSessionRow._currentChatSessionId
   commentId: F:SuperOffice.CRM.Rows.ChatSessionRow._currentChatSessionId
   id: _currentChatSessionId
@@ -1848,6 +1913,60 @@ items:
     return:
       type: System.Int16
     content.vb: Protected _currentConsented As Short
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatSessionRow._currentChatbotIsactive
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRow._currentChatbotIsactive
+  id: _currentChatbotIsactive
+  parent: SuperOffice.CRM.Rows.ChatSessionRow
+  langs:
+  - csharp
+  - vb
+  name: _currentChatbotIsactive
+  nameWithType: ChatSessionRow._currentChatbotIsactive
+  fullName: SuperOffice.CRM.Rows.ChatSessionRow._currentChatbotIsactive
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.ChatbotIsactive\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected short _currentChatbotIsactive
+    return:
+      type: System.Int16
+    content.vb: Protected _currentChatbotIsactive As Short
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatSessionRow._currentCountry
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRow._currentCountry
+  id: _currentCountry
+  parent: SuperOffice.CRM.Rows.ChatSessionRow
+  langs:
+  - csharp
+  - vb
+  name: _currentCountry
+  nameWithType: ChatSessionRow._currentCountry
+  fullName: SuperOffice.CRM.Rows.ChatSessionRow._currentCountry
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.Country\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _currentCountry
+    return:
+      type: System.Int32
+    content.vb: Protected _currentCountry As Integer
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -3690,6 +3809,74 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Rows.ChatSessionRow.ChatbotIsactive
+  commentId: P:SuperOffice.CRM.Rows.ChatSessionRow.ChatbotIsactive
+  id: ChatbotIsactive
+  parent: SuperOffice.CRM.Rows.ChatSessionRow
+  langs:
+  - csharp
+  - vb
+  name: ChatbotIsactive
+  nameWithType: ChatSessionRow.ChatbotIsactive
+  fullName: SuperOffice.CRM.Rows.ChatSessionRow.ChatbotIsactive
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: short. Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. \n"
+  remarks: "\nOriginal type in dictionary:  Bool.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual short ChatbotIsactive { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property ChatbotIsactive As Short
+  overload: SuperOffice.CRM.Rows.ChatSessionRow.ChatbotIsactive*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Rows.ChatSessionRow.Country
+  commentId: P:SuperOffice.CRM.Rows.ChatSessionRow.Country
+  id: Country
+  parent: SuperOffice.CRM.Rows.ChatSessionRow
+  langs:
+  - csharp
+  - vb
+  name: Country
+  nameWithType: ChatSessionRow.Country
+  fullName: SuperOffice.CRM.Rows.ChatSessionRow.Country
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: int. The country that the chat customer selected. \n"
+  remarks: "\nOriginal type in dictionary:  Int.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual int Country { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Country As Integer
+  overload: SuperOffice.CRM.Rows.ChatSessionRow.Country*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Rows.ChatSessionRow._onTopicIdChange
   commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onTopicIdChange
   id: _onTopicIdChange
@@ -4442,6 +4629,60 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
     content.vb: Protected Event _onConsentedChange As OnFieldChange(Of Short)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatSessionRow._onChatbotIsactiveChange
+  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onChatbotIsactiveChange
+  id: _onChatbotIsactiveChange
+  parent: SuperOffice.CRM.Rows.ChatSessionRow
+  langs:
+  - csharp
+  - vb
+  name: _onChatbotIsactiveChange
+  nameWithType: ChatSessionRow._onChatbotIsactiveChange
+  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onChatbotIsactiveChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.ChatbotIsactive\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
+  syntax:
+    content: protected event OnFieldChange<short> _onChatbotIsactiveChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+    content.vb: Protected Event _onChatbotIsactiveChange As OnFieldChange(Of Short)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.ChatSessionRow._onCountryChange
+  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onCountryChange
+  id: _onCountryChange
+  parent: SuperOffice.CRM.Rows.ChatSessionRow
+  langs:
+  - csharp
+  - vb
+  name: _onCountryChange
+  nameWithType: ChatSessionRow._onCountryChange
+  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onCountryChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.Country\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
+  syntax:
+    content: protected event OnFieldChange<int> _onCountryChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Event _onCountryChange As OnFieldChange(Of Integer)
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -5202,6 +5443,60 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnChatbotIsactiveChange
+  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnChatbotIsactiveChange
+  id: OnChatbotIsactiveChange
+  parent: SuperOffice.CRM.Rows.ChatSessionRow
+  langs:
+  - csharp
+  - vb
+  name: OnChatbotIsactiveChange
+  nameWithType: ChatSessionRow.OnChatbotIsactiveChange
+  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnChatbotIsactiveChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when ChatbotIsactive is changing.\n"
+  syntax:
+    content: public event OnFieldChange<short> OnChatbotIsactiveChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+    content.vb: Public Event OnChatbotIsactiveChange As OnFieldChange(Of Short)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnCountryChange
+  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnCountryChange
+  id: OnCountryChange
+  parent: SuperOffice.CRM.Rows.ChatSessionRow
+  langs:
+  - csharp
+  - vb
+  name: OnCountryChange
+  nameWithType: ChatSessionRow.OnCountryChange
+  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnCountryChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when Country is changing.\n"
+  syntax:
+    content: public event OnFieldChange<int> OnCountryChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Event OnCountryChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -5868,6 +6163,63 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: SetDefaults(DashboardTileDefinitionRow, String)
+  nameWithType: TableRowBase.SetDefaults(DashboardTileDefinitionRow, String)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -8904,6 +9256,18 @@ references:
   name: Consented
   nameWithType: ChatSessionRow.Consented
   fullName: SuperOffice.CRM.Rows.ChatSessionRow.Consented
+- uid: SuperOffice.CRM.Rows.ChatSessionRow.ChatbotIsactive*
+  commentId: Overload:SuperOffice.CRM.Rows.ChatSessionRow.ChatbotIsactive
+  isExternal: true
+  name: ChatbotIsactive
+  nameWithType: ChatSessionRow.ChatbotIsactive
+  fullName: SuperOffice.CRM.Rows.ChatSessionRow.ChatbotIsactive
+- uid: SuperOffice.CRM.Rows.ChatSessionRow.Country*
+  commentId: Overload:SuperOffice.CRM.Rows.ChatSessionRow.Country
+  isExternal: true
+  name: Country
+  nameWithType: ChatSessionRow.Country
+  fullName: SuperOffice.CRM.Rows.ChatSessionRow.Country
 - uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   parent: SuperOffice.CRM.Rows

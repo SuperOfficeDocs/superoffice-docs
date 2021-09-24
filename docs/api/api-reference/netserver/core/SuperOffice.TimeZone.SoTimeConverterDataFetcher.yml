@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.TimeZone.SoTimeConverterDataFetcher
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.TimeZone
   summary: "\nAbstarct implementation of <xref href=\"SuperOffice.TimeZone.ITimeConverterDataFetcher\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
@@ -64,10 +64,10 @@ items:
   fullName: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetTimeZoneData()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.TimeZone
   syntax:
     content: public virtual TimeZoneData[] GetTimeZoneData()
@@ -95,10 +95,10 @@ items:
   fullName: SuperOffice.TimeZone.SoTimeConverterDataFetcher.GetBaseTimeZoneId()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.TimeZone
   syntax:
     content: public virtual int GetBaseTimeZoneId()
@@ -126,10 +126,10 @@ items:
   fullName: SuperOffice.TimeZone.SoTimeConverterDataFetcher.SoTimeConverterDataFetcher()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.TimeZone
   syntax:
     content: protected SoTimeConverterDataFetcher()

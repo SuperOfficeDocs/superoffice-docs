@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Selection
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSelection\n"
   syntax:
@@ -57,10 +57,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Selection.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:
@@ -86,10 +86,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Selection.LastUsedSelectionType
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreference used to remember the last type of selection - Static or Dynamic\n<p></p>Control type: Number, access: Crm\n"
   syntax:
@@ -115,10 +115,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Selection.LastUsedSelectionTargetTableId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreference used to remember the last member type of selection - contact, sale, project, appointment, document\n<p></p>Control type: Number, access: Crm\n"
   syntax:
@@ -144,10 +144,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Selection.LastUsedSelectionUnionType
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreference used to remember the last member type of selection - contact, sale, project, appointment, document\n<p></p>Control type: Number, access: Crm\n"
   syntax:
@@ -173,10 +173,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Selection.SkipCompletedSelections
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSet to true to skip completed selections when searching or stepping in selections.\n"
   syntax:
@@ -202,10 +202,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Selection.TypicalSearchVersionNumberPrefix
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSet to true to skip completed selections when searching or stepping in selections.\n"
   syntax:

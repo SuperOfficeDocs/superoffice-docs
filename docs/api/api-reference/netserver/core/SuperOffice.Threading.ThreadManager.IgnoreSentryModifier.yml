@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Threading.ThreadManager.IgnoreSentryModifier
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: 'public class IgnoreSentryModifier : IDisposable'
@@ -57,10 +57,10 @@ items:
   fullName: SuperOffice.Threading.ThreadManager.IgnoreSentryModifier.Dispose()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public void Dispose()

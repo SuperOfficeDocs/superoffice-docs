@@ -30,40 +30,26 @@ items:
   fullName: SuperOffice
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
-- uid: SuperOffice.NetServerVersion
-  commentId: T:SuperOffice.NetServerVersion
-  isExternal: true
-  name: NetServerVersion
-  nameWithType: NetServerVersion
-  fullName: SuperOffice.NetServerVersion
-- uid: SuperOffice.OperationContextType
-  commentId: T:SuperOffice.OperationContextType
-  parent: SuperOffice
-  isExternal: true
-  name: OperationContextType
-  nameWithType: OperationContextType
-  fullName: SuperOffice.OperationContextType
-- uid: SuperOffice.SoOperationContext
-  commentId: T:SuperOffice.SoOperationContext
-  parent: SuperOffice
-  isExternal: true
-  name: SoOperationContext
-  nameWithType: SoOperationContext
-  fullName: SuperOffice.SoOperationContext
-- uid: SuperOffice.ListNameConstants
-  commentId: T:SuperOffice.ListNameConstants
-  isExternal: true
-  name: ListNameConstants
-  nameWithType: ListNameConstants
-  fullName: SuperOffice.ListNameConstants
 - uid: SuperOffice.HistoryStrings
   commentId: T:SuperOffice.HistoryStrings
   isExternal: true
   name: HistoryStrings
   nameWithType: HistoryStrings
   fullName: SuperOffice.HistoryStrings
+- uid: SuperOffice.ListNameConstants
+  commentId: T:SuperOffice.ListNameConstants
+  isExternal: true
+  name: ListNameConstants
+  nameWithType: ListNameConstants
+  fullName: SuperOffice.ListNameConstants
+- uid: SuperOffice.NetServerVersion
+  commentId: T:SuperOffice.NetServerVersion
+  isExternal: true
+  name: NetServerVersion
+  nameWithType: NetServerVersion
+  fullName: SuperOffice.NetServerVersion
 - uid: SuperOffice.Pair`2
   commentId: T:SuperOffice.Pair`2
   isExternal: true
@@ -187,6 +173,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.OperationContextType
+  commentId: T:SuperOffice.OperationContextType
+  parent: SuperOffice
+  isExternal: true
+  name: OperationContextType
+  nameWithType: OperationContextType
+  fullName: SuperOffice.OperationContextType
+- uid: SuperOffice.SoOperationContext
+  commentId: T:SuperOffice.SoOperationContext
+  parent: SuperOffice
+  isExternal: true
+  name: SoOperationContext
+  nameWithType: SoOperationContext
+  fullName: SuperOffice.SoOperationContext
 - uid: SuperOffice.SoSession
   commentId: T:SuperOffice.SoSession
   parent: SuperOffice

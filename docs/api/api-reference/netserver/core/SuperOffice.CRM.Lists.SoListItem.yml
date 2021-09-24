@@ -32,10 +32,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItem
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nDefault ListProvider item\n"
   syntax:
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItem.SoListItem()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nDefault constructor\n"
   syntax:
@@ -108,10 +108,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItem.SoListItem(System.Int32, System.String, System.String, System.Int16, System.Boolean, System.String, System.Int32, System.String, System.String, System.String, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nDefault constructor\n"
   syntax:
@@ -165,10 +165,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItem.SoListItem(SuperOffice.CRM.Lists.ISoListItem)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n&apos;Copy&apos; constructor to make a deep copy of a list item.\n"
   syntax:
@@ -194,10 +194,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItem.SoListItem(System.Int32, System.String, System.String, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nSimplified constructor, where everything except id, name and tooltip defaults to empty. The rank is set\nthe same as the ID, and deleted is set to false.\n"
   syntax:
@@ -232,10 +232,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItem.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n\n"
   syntax:
@@ -263,10 +263,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItem.CompareTo(SuperOffice.CRM.Lists.ISoListItem)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nCompare the rank of this item to the rank of another item.\n"
   syntax:
@@ -298,10 +298,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItem.GetHashCode()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   syntax:
     content: public override int GetHashCode()
@@ -329,10 +329,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItem.System.IComparable.CompareTo(System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   syntax:
     content: int IComparable.CompareTo(object obj)
@@ -359,10 +359,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItem.Id
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n\n"
   syntax:
@@ -392,10 +392,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItem.Name
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n\n"
   syntax:
@@ -425,10 +425,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItem.Tooltip
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n\n"
   syntax:
@@ -458,10 +458,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItem.Rank
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n\n"
   syntax:
@@ -491,10 +491,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItem.Deleted
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n\n"
   syntax:
@@ -524,10 +524,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItem.Type
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n\n"
   syntax:
@@ -557,10 +557,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItem.Color
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n\n"
   syntax:
@@ -590,10 +590,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItem.IconHint
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n\n"
   syntax:
@@ -623,10 +623,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItem.StyleHint
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n\n"
   syntax:
@@ -656,10 +656,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItem.ExtraInfo
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n\n"
   syntax:
@@ -689,10 +689,10 @@ items:
   fullName: SuperOffice.CRM.Lists.SoListItem.FullName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   syntax:
     content: public string FullName { get; set; }

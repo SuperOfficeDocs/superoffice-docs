@@ -28,10 +28,10 @@ items:
   fullName: SuperOffice.SoDatabaseContext
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nContainer for the current database context/session\n"
   syntax:
@@ -72,10 +72,10 @@ items:
   fullName: SuperOffice.SoDatabaseContext.DefaultContextIdentifier
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public const string DefaultContextIdentifier = "Default"
@@ -100,10 +100,10 @@ items:
   fullName: SuperOffice.SoDatabaseContext.GetAllContextIdentifiers()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nGet a list of all the context identifiers (customers) that is handled by this process\n"
   syntax:
@@ -131,10 +131,10 @@ items:
   fullName: SuperOffice.SoDatabaseContext.GetDatabaseContext(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nGet the actual context from a context identifier.\n"
   syntax:
@@ -166,10 +166,10 @@ items:
   fullName: SuperOffice.SoDatabaseContext.GetCurrent()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nGet the current database context.  \n"
   syntax:
@@ -197,10 +197,10 @@ items:
   fullName: SuperOffice.SoDatabaseContext.HasDatabaseContext(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nCheck if a particular Database Context is known for NetServer.\n"
   syntax:
@@ -230,10 +230,10 @@ items:
   fullName: SuperOffice.SoDatabaseContext.GetCurrentIgnoreUser()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nGet current database context ignoring whomever logged in.\n"
   remarks: Used during the authentication process
@@ -262,10 +262,10 @@ items:
   fullName: SuperOffice.SoDatabaseContext.DisconnectDatabase()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nDissconect from the database (formerly referred to as the database logout process)\n"
   syntax:
@@ -288,10 +288,10 @@ items:
   fullName: SuperOffice.SoDatabaseContext.TryResolveContext(out SuperOffice.Security.Principal.IContextResolverPlugin, out System.String, System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nTry to resolve context from username and password\n"
   syntax:
@@ -335,10 +335,10 @@ items:
   fullName: SuperOffice.SoDatabaseContext.TryResolveContext(out SuperOffice.Security.Principal.IContextResolverPlugin, out System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nTry to resolve context from a ticket\n"
   syntax:
@@ -379,10 +379,10 @@ items:
   fullName: SuperOffice.SoDatabaseContext.TryResolveContext(out SuperOffice.Security.Principal.IContextResolverPlugin, out System.String, System.IdentityModel.Tokens.SecurityToken[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nTry to resolve context from a set of SecurityTokens\n"
   syntax:
@@ -423,10 +423,10 @@ items:
   fullName: SuperOffice.SoDatabaseContext.EnterDatabaseContext(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nExplicitly enter a particular database context, before performing operations on this database.\n"
   syntax:
@@ -458,10 +458,10 @@ items:
   fullName: SuperOffice.SoDatabaseContext.CompareTo(SuperOffice.SoDatabaseContext)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public int CompareTo(SoDatabaseContext other)
@@ -490,10 +490,10 @@ items:
   fullName: SuperOffice.SoDatabaseContext.ContextIdentifier
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nGet the indentifer of the context (unique string for this context)\n"
   syntax:
@@ -521,10 +521,10 @@ items:
   fullName: SuperOffice.SoDatabaseContext.OnBeforeLogOut
   type: Event
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nEvent raised in the start of the database logout/dissconect process\n"
   syntax:
@@ -548,10 +548,10 @@ items:
   fullName: SuperOffice.SoDatabaseContext.OnAfterLogOut
   type: Event
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nEvent raised after the database has been logged out/dissconected from.\n"
   syntax:

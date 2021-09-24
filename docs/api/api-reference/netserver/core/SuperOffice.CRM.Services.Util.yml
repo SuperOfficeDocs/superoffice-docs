@@ -14,7 +14,7 @@ items:
   fullName: SuperOffice.CRM.Services.Util
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
 - uid: SuperOffice.CRM.Services.Util.SerializationHelper
   commentId: T:SuperOffice.CRM.Services.Util.SerializationHelper

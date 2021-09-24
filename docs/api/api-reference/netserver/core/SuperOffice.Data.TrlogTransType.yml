@@ -34,10 +34,10 @@ items:
   fullName: SuperOffice.Data.TrlogTransType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValue for field type in traveltransctionlog\nThis Enum is used by:  traveltransactionlog.type\n"
   syntax:
@@ -66,10 +66,10 @@ items:
   fullName: SuperOffice.Data.TrlogTransType.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown - used when initializing\n"
   syntax:
@@ -94,10 +94,10 @@ items:
   fullName: SuperOffice.Data.TrlogTransType.Insert
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4352: A record has been inserted\n"
   syntax:
@@ -122,10 +122,10 @@ items:
   fullName: SuperOffice.Data.TrlogTransType.Update
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4608: A record has been updated\n"
   syntax:
@@ -150,10 +150,10 @@ items:
   fullName: SuperOffice.Data.TrlogTransType.Delete
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4864: A record has been deleted\n"
   syntax:
@@ -178,10 +178,10 @@ items:
   fullName: SuperOffice.Data.TrlogTransType.UpdateOwner
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5120: The owning associate_id of the target record has been updated, old value in PrevrecordId\n"
   syntax:
@@ -206,10 +206,10 @@ items:
   fullName: SuperOffice.Data.TrlogTransType.OldUpdateContact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5376: (Obsolete) The contact_id of the target record has been updated, old value in PrevRecordId\n"
   syntax:
@@ -234,10 +234,10 @@ items:
   fullName: SuperOffice.Data.TrlogTransType.OldUpdateProject
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5632: (Obsolete) The project_id of the target record has been updated, old value in PrevRecordId\n"
   syntax:
@@ -262,10 +262,10 @@ items:
   fullName: SuperOffice.Data.TrlogTransType.DeleteAreaUserInclusion
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5888: A previously included (data inclusion) user has been removed from an area\n"
   syntax:
@@ -290,10 +290,10 @@ items:
   fullName: SuperOffice.Data.TrlogTransType.DeleteAreaUserAssignment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6144: A previously assigned (login rights) user has been delete from an Area\n"
   syntax:
@@ -318,10 +318,10 @@ items:
   fullName: SuperOffice.Data.TrlogTransType.PublishUdef
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6400: A new layout for User-defined fields has been published\n"
   syntax:
@@ -346,10 +346,10 @@ items:
   fullName: SuperOffice.Data.TrlogTransType.UpdateFieldPart1
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8192: (Reserved) Bitmap of updated fields\n"
   syntax:
@@ -374,10 +374,10 @@ items:
   fullName: SuperOffice.Data.TrlogTransType.UpdateFieldPart2
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8193: (Reserved) Bitmap of updated fields\n"
   syntax:
@@ -402,10 +402,10 @@ items:
   fullName: SuperOffice.Data.TrlogTransType.UpdateFieldPart3
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8194: (Reserved) Bitmap of updated fields\n"
   syntax:
@@ -430,10 +430,10 @@ items:
   fullName: SuperOffice.Data.TrlogTransType.UpdateFieldPart4
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8195: (Reserved) Bitmap of updated fields\n"
   syntax:
@@ -458,10 +458,10 @@ items:
   fullName: SuperOffice.Data.TrlogTransType.UpdateFieldPart5
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8196: (Reserved) Bitmap of updated fields\n"
   syntax:
@@ -486,10 +486,10 @@ items:
   fullName: SuperOffice.Data.TrlogTransType.UpdateFieldPart6
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8197: (Reserved) Bitmap of updated fields\n"
   syntax:
@@ -514,10 +514,10 @@ items:
   fullName: SuperOffice.Data.TrlogTransType.UpdateFieldPart7
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8198: (Reserved) Bitmap of updated fields\n"
   syntax:
@@ -542,10 +542,10 @@ items:
   fullName: SuperOffice.Data.TrlogTransType.UpdateFieldPart8
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8199: (Reserved) Bitmap of updated fields\n"
   syntax:
@@ -570,10 +570,10 @@ items:
   fullName: SuperOffice.Data.TrlogTransType.UpdateContact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n10000: The contact_id of the target record has been changed, old value in PrevRecordId\n"
   syntax:
@@ -598,10 +598,10 @@ items:
   fullName: SuperOffice.Data.TrlogTransType.UpdateProject
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n20000: The project_id of the target record has been updated, odl value in PrevRecordId\n"
   syntax:
@@ -626,10 +626,10 @@ items:
   fullName: SuperOffice.Data.TrlogTransType.TruncateTable
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n21000: A TRUNCATE TABLE operation was performed against a table; no record of individual rows deleted exists but everything that WAS in the table is now gone for good\n"
   syntax:

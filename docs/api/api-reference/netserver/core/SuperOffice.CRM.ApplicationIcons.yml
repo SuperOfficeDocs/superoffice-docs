@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.CRM.ApplicationIcons
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nReturn a dictionary of Application-icons with their respective IDs and IMG urls.\n\nThis could in theory be sprited, but that&apos;s complicating what should be a simple\nfeature for a extremely minimal performance-gain, in a one-time use-case for a\nCRM admin.\n\nProbably NOT worth it.\n"
   syntax:
@@ -57,10 +57,10 @@ items:
   fullName: SuperOffice.CRM.ApplicationIcons.GetApplicationIcons()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public static ApplicationIcon[] GetApplicationIcons()
@@ -86,10 +86,10 @@ items:
   fullName: SuperOffice.CRM.ApplicationIcons.ApplicationIcons()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public ApplicationIcons()

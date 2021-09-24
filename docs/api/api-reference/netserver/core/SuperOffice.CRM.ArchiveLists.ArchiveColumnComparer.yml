@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnComparer
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public static class ArchiveColumnComparer
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnComparer.ColumnComparer(SuperOffice.CRM.ArchiveLists.ArchiveColumnData, SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThis is a comparison method that can be passed as a comparer to the various Sort methods\nin the .NET framework. It compares the incoming Archive Rows according to the orderBy values\n(displayValues if orderByValues are null), in the order and direction specified by the current\norderby settings.\n"
   syntax:

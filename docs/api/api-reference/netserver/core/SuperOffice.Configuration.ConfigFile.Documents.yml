@@ -32,10 +32,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Documents
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nUtility class used to access the SuperOffice.Documents entry in the Config file.\n"
   syntax:
@@ -70,10 +70,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchivePath
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nPath for SO_ARC.  Even it the so arc is not used, default path for document template folder is calculated from this folder.\n"
   syntax:
@@ -103,10 +103,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchivePath1
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAlternative/additional archive path to search for documents\n"
   syntax:
@@ -136,10 +136,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchivePath2
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAlternative/additional archive path to search for documents\n"
   syntax:
@@ -169,10 +169,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchivePath3
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAlternative/additional archive path to search for documents\n"
   syntax:
@@ -202,10 +202,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchivePath4
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAlternative/additional archive path to search for documents\n"
   syntax:
@@ -235,10 +235,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchivePath5
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAlternative/additional archive path to search for documents\n"
   syntax:
@@ -268,10 +268,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchivePath6
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAlternative/additional archive path to search for documents\n"
   syntax:
@@ -301,10 +301,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchivePath7
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAlternative/additional archive path to search for documents\n"
   syntax:
@@ -334,10 +334,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchivePath8
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAlternative/additional archive path to search for documents\n"
   syntax:
@@ -367,10 +367,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchivePath9
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAlternative/additional archive path to search for documents\n"
   syntax:
@@ -400,10 +400,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchivePath10
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAlternative/additional archive path to search for documents\n"
   syntax:
@@ -433,10 +433,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Documents.TemplatePath
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nPath to document templates.\n"
   remarks: "\nIf this value is not specified, the &quot;Template&quot; folder under <xref href=\"SuperOffice.Configuration.ConfigFile.Documents.ArchivePath\" data-throw-if-not-resolved=\"false\"></xref> is assumed.\n"
@@ -467,10 +467,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Documents.TemporaryPath
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nTemporary folder for working with documents.\n"
   remarks: "\nIf this value does not exsist, the environment variable &quot;TEMP&quot; is used to find temporary folder.\n"
@@ -501,10 +501,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Documents.ImpersonateUser
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nImpersonate the user to access the document archive.\n"
   remarks: "\nIf this value is true, see section <xref href=\"SuperOffice.Configuration.ConfigFile.Documents.ArchiveUser\" data-throw-if-not-resolved=\"false\"></xref> for further reference.\n"
@@ -535,10 +535,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchiveUser
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nUsername of the user to impersonate.\n"
   syntax:
@@ -568,10 +568,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchivePassword
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nPassword of the user to impersonate.\n"
   syntax:
@@ -601,10 +601,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchiveDomain
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nDomain of the user to impersonate.\n"
   syntax:
@@ -634,10 +634,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Documents.BufferSize
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nSize of the internal buffer (in Kilo Bytes) used for file handling.  Default buffer size is 1024KB.\n"
   syntax:
@@ -667,10 +667,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Documents.CanCreateDocumentTemplates
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nNew document templates can be stored in SoArc\n"
   syntax:

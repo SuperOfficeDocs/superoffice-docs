@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Data.PublishType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nShould this field be published by default?\nThis Enum is used by:  Task.defaultPublishType; DocTmpl.defaultPublishType; Publish.publishType\n"
   syntax:
@@ -47,10 +47,10 @@ items:
   fullName: SuperOffice.Data.PublishType.Undefined
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: \n"
   syntax:
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.Data.PublishType.External
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Published to external persons\n"
   syntax:

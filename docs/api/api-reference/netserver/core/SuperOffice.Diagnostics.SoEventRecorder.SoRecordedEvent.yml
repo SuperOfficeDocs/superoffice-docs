@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public class SoRecordedEvent
@@ -56,10 +56,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent.SoRecordedEvent(System.String, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public SoRecordedEvent(string category, string message)
@@ -86,10 +86,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public override string ToString()
@@ -116,10 +116,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent.Timestamp
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public DateTime Timestamp { get; }
@@ -146,10 +146,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent.Category
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public string Category { get; }
@@ -176,10 +176,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent.Message
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public string Message { get; }

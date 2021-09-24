@@ -13,6 +13,7 @@ items:
   - SuperOffice.CRM.Security.SelectionSentry.GetMainRight
   - SuperOffice.CRM.Security.SelectionSentry.GetRowSentry
   - SuperOffice.CRM.Security.SelectionSentry.GroupId
+  - SuperOffice.CRM.Security.SelectionSentry.IsDashboardSelection
   - SuperOffice.CRM.Security.SelectionSentry.IsGhostRow
   - SuperOffice.CRM.Security.SelectionSentry.IsNew
   - SuperOffice.CRM.Security.SelectionSentry.MainTable
@@ -600,6 +601,36 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property Visibility As Integer
   overload: SuperOffice.CRM.Security.SelectionSentry.Visibility*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.SelectionSentry.IsDashboardSelection
+  commentId: P:SuperOffice.CRM.Security.SelectionSentry.IsDashboardSelection
+  id: IsDashboardSelection
+  parent: SuperOffice.CRM.Security.SelectionSentry
+  langs:
+  - csharp
+  - vb
+  name: IsDashboardSelection
+  nameWithType: SelectionSentry.IsDashboardSelection
+  fullName: SuperOffice.CRM.Security.SelectionSentry.IsDashboardSelection
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public bool IsDashboardSelection { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsDashboardSelection As Boolean
+  overload: SuperOffice.CRM.Security.SelectionSentry.IsDashboardSelection*
   modifiers.csharp:
   - public
   - get
@@ -4342,3 +4373,9 @@ references:
   name: Visibility
   nameWithType: SelectionSentry.Visibility
   fullName: SuperOffice.CRM.Security.SelectionSentry.Visibility
+- uid: SuperOffice.CRM.Security.SelectionSentry.IsDashboardSelection*
+  commentId: Overload:SuperOffice.CRM.Security.SelectionSentry.IsDashboardSelection
+  isExternal: true
+  name: IsDashboardSelection
+  nameWithType: SelectionSentry.IsDashboardSelection
+  fullName: SuperOffice.CRM.Security.SelectionSentry.IsDashboardSelection

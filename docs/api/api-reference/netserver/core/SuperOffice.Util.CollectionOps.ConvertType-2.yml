@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>
   type: Delegate
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nType converter delegate, used to convert an object of one type to another\n"
   syntax:
@@ -62,10 +62,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>.ConvertType(System.Object, System.IntPtr)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public ConvertType(object object, IntPtr method)
@@ -94,10 +94,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>.Invoke(SourceType)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public virtual ReturnType Invoke(SourceType s)
@@ -128,10 +128,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>.BeginInvoke(SourceType, System.AsyncCallback, System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public virtual IAsyncResult BeginInvoke(SourceType s, AsyncCallback callback, object object)
@@ -166,10 +166,10 @@ items:
   fullName: SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>.EndInvoke(System.IAsyncResult)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public virtual ReturnType EndInvoke(IAsyncResult result)

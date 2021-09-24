@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Globalization
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nUtility class used to access the Globalization section in the config file.\n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Globalization.ApplicationCountryCode
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nUse this country code for associates that are not persons (e.g. anonymous and system users).  Default is gb (e.g. England).\n"
   syntax:
@@ -87,10 +87,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Globalization.UseApplicationCountryForPersons
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nUse the applications country (e.g. <see cref=\"!:ApplicationCountry\"></see>) for all persons (e.g. employees and external users). This is for applications that are not localized.\n"
   remarks: "\nCurrent county in the principal will forced to the <see cref=\"!:ApplicationCountry\"></see> value.\n"
@@ -121,10 +121,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Globalization.AllwaysUseGsmPhoneStyle
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nSetting this property to true will retun all phone numbers formatted for the display in a GSM Phone style. Default value is false\n"
   syntax:

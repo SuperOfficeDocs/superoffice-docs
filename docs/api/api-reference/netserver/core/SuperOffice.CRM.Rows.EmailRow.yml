@@ -14,6 +14,8 @@ items:
   - SuperOffice.CRM.Rows.EmailRow._currentEmailAddress
   - SuperOffice.CRM.Rows.EmailRow._currentEmailId
   - SuperOffice.CRM.Rows.EmailRow._currentLastBounce
+  - SuperOffice.CRM.Rows.EmailRow._currentLastBounceCode
+  - SuperOffice.CRM.Rows.EmailRow._currentLastBounceReason
   - SuperOffice.CRM.Rows.EmailRow._currentLastSent
   - SuperOffice.CRM.Rows.EmailRow._currentPersonId
   - SuperOffice.CRM.Rows.EmailRow._currentProjectId
@@ -34,6 +36,8 @@ items:
   - SuperOffice.CRM.Rows.EmailRow._onDescriptionChange
   - SuperOffice.CRM.Rows.EmailRow._onEmailAddressChange
   - SuperOffice.CRM.Rows.EmailRow._onLastBounceChange
+  - SuperOffice.CRM.Rows.EmailRow._onLastBounceCodeChange
+  - SuperOffice.CRM.Rows.EmailRow._onLastBounceReasonChange
   - SuperOffice.CRM.Rows.EmailRow._onLastSentChange
   - SuperOffice.CRM.Rows.EmailRow._onPersonIdChange
   - SuperOffice.CRM.Rows.EmailRow._onProjectIdChange
@@ -55,6 +59,8 @@ items:
   - SuperOffice.CRM.Rows.EmailRow._persistedEmailAddress
   - SuperOffice.CRM.Rows.EmailRow._persistedEmailId
   - SuperOffice.CRM.Rows.EmailRow._persistedLastBounce
+  - SuperOffice.CRM.Rows.EmailRow._persistedLastBounceCode
+  - SuperOffice.CRM.Rows.EmailRow._persistedLastBounceReason
   - SuperOffice.CRM.Rows.EmailRow._persistedLastSent
   - SuperOffice.CRM.Rows.EmailRow._persistedPersonId
   - SuperOffice.CRM.Rows.EmailRow._persistedProjectId
@@ -90,6 +96,8 @@ items:
   - SuperOffice.CRM.Rows.EmailRow.IsPersistedFieldValueKnown(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.EmailRow.Item(System.String)
   - SuperOffice.CRM.Rows.EmailRow.LastBounce
+  - SuperOffice.CRM.Rows.EmailRow.LastBounceCode
+  - SuperOffice.CRM.Rows.EmailRow.LastBounceReason
   - SuperOffice.CRM.Rows.EmailRow.LastSent
   - SuperOffice.CRM.Rows.EmailRow.OnAppointmentIdChange
   - SuperOffice.CRM.Rows.EmailRow.OnBounceCountChange
@@ -98,6 +106,8 @@ items:
   - SuperOffice.CRM.Rows.EmailRow.OnDescriptionChange
   - SuperOffice.CRM.Rows.EmailRow.OnEmailAddressChange
   - SuperOffice.CRM.Rows.EmailRow.OnLastBounceChange
+  - SuperOffice.CRM.Rows.EmailRow.OnLastBounceCodeChange
+  - SuperOffice.CRM.Rows.EmailRow.OnLastBounceReasonChange
   - SuperOffice.CRM.Rows.EmailRow.OnLastSentChange
   - SuperOffice.CRM.Rows.EmailRow.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.EmailRow.OnPersonIdChange
@@ -183,6 +193,7 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.CRM.Rows.IdxBase,SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+  - SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
   - SuperOffice.CRM.Rows.TableRowBase.SetSaveOwner(SuperOffice.Data.INestedPersist)
   - SuperOffice.CRM.Rows.TableRowBase.Save
   - SuperOffice.CRM.Rows.TableRowBase.Delete
@@ -813,6 +824,60 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.EmailRow._persistedLastBounceCode
+  commentId: F:SuperOffice.CRM.Rows.EmailRow._persistedLastBounceCode
+  id: _persistedLastBounceCode
+  parent: SuperOffice.CRM.Rows.EmailRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedLastBounceCode
+  nameWithType: EmailRow._persistedLastBounceCode
+  fullName: SuperOffice.CRM.Rows.EmailRow._persistedLastBounceCode
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.EmailRow.LastBounceCode\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _persistedLastBounceCode
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedLastBounceCode As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.EmailRow._persistedLastBounceReason
+  commentId: F:SuperOffice.CRM.Rows.EmailRow._persistedLastBounceReason
+  id: _persistedLastBounceReason
+  parent: SuperOffice.CRM.Rows.EmailRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedLastBounceReason
+  nameWithType: EmailRow._persistedLastBounceReason
+  fullName: SuperOffice.CRM.Rows.EmailRow._persistedLastBounceReason
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.EmailRow.LastBounceReason\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected string _persistedLastBounceReason
+    return:
+      type: System.String
+    content.vb: Protected _persistedLastBounceReason As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.EmailRow._currentEmailId
   commentId: F:SuperOffice.CRM.Rows.EmailRow._currentEmailId
   id: _currentEmailId
@@ -1376,6 +1441,60 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _currentAppointmentId As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.EmailRow._currentLastBounceCode
+  commentId: F:SuperOffice.CRM.Rows.EmailRow._currentLastBounceCode
+  id: _currentLastBounceCode
+  parent: SuperOffice.CRM.Rows.EmailRow
+  langs:
+  - csharp
+  - vb
+  name: _currentLastBounceCode
+  nameWithType: EmailRow._currentLastBounceCode
+  fullName: SuperOffice.CRM.Rows.EmailRow._currentLastBounceCode
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.EmailRow.LastBounceCode\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _currentLastBounceCode
+    return:
+      type: System.Int32
+    content.vb: Protected _currentLastBounceCode As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.EmailRow._currentLastBounceReason
+  commentId: F:SuperOffice.CRM.Rows.EmailRow._currentLastBounceReason
+  id: _currentLastBounceReason
+  parent: SuperOffice.CRM.Rows.EmailRow
+  langs:
+  - csharp
+  - vb
+  name: _currentLastBounceReason
+  nameWithType: EmailRow._currentLastBounceReason
+  fullName: SuperOffice.CRM.Rows.EmailRow._currentLastBounceReason
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.EmailRow.LastBounceReason\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected string _currentLastBounceReason
+    return:
+      type: System.String
+    content.vb: Protected _currentLastBounceReason As String
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -2998,6 +3117,74 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Rows.EmailRow.LastBounceCode
+  commentId: P:SuperOffice.CRM.Rows.EmailRow.LastBounceCode
+  id: LastBounceCode
+  parent: SuperOffice.CRM.Rows.EmailRow
+  langs:
+  - csharp
+  - vb
+  name: LastBounceCode
+  nameWithType: EmailRow.LastBounceCode
+  fullName: SuperOffice.CRM.Rows.EmailRow.LastBounceCode
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: int. If this email address has bounced and we have a bounce code, this field will contain the code for the last bounce \n"
+  remarks: "\nOriginal type in dictionary:  Int.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual int LastBounceCode { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property LastBounceCode As Integer
+  overload: SuperOffice.CRM.Rows.EmailRow.LastBounceCode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Rows.EmailRow.LastBounceReason
+  commentId: P:SuperOffice.CRM.Rows.EmailRow.LastBounceReason
+  id: LastBounceReason
+  parent: SuperOffice.CRM.Rows.EmailRow
+  langs:
+  - csharp
+  - vb
+  name: LastBounceReason
+  nameWithType: EmailRow.LastBounceReason
+  fullName: SuperOffice.CRM.Rows.EmailRow.LastBounceReason
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: string. If this email address has bounced and we have a bounce reason, this field will contain the reason for the last bounce \n"
+  remarks: "\nOriginal type in dictionary:  String[4001].\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual string LastBounceReason { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property LastBounceReason As String
+  overload: SuperOffice.CRM.Rows.EmailRow.LastBounceReason*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Rows.EmailRow._onContactIdChange
   commentId: E:SuperOffice.CRM.Rows.EmailRow._onContactIdChange
   id: _onContactIdChange
@@ -3538,6 +3725,60 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.EmailRow._onLastBounceCodeChange
+  commentId: E:SuperOffice.CRM.Rows.EmailRow._onLastBounceCodeChange
+  id: _onLastBounceCodeChange
+  parent: SuperOffice.CRM.Rows.EmailRow
+  langs:
+  - csharp
+  - vb
+  name: _onLastBounceCodeChange
+  nameWithType: EmailRow._onLastBounceCodeChange
+  fullName: SuperOffice.CRM.Rows.EmailRow._onLastBounceCodeChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.EmailRow.LastBounceCode\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
+  syntax:
+    content: protected event OnFieldChange<int> _onLastBounceCodeChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Event _onLastBounceCodeChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.EmailRow._onLastBounceReasonChange
+  commentId: E:SuperOffice.CRM.Rows.EmailRow._onLastBounceReasonChange
+  id: _onLastBounceReasonChange
+  parent: SuperOffice.CRM.Rows.EmailRow
+  langs:
+  - csharp
+  - vb
+  name: _onLastBounceReasonChange
+  nameWithType: EmailRow._onLastBounceReasonChange
+  fullName: SuperOffice.CRM.Rows.EmailRow._onLastBounceReasonChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.EmailRow.LastBounceReason\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
+  syntax:
+    content: protected event OnFieldChange<string> _onLastBounceReasonChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
+    content.vb: Protected Event _onLastBounceReasonChange As OnFieldChange(Of String)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.EmailRow.OnContactIdChange
   commentId: E:SuperOffice.CRM.Rows.EmailRow.OnContactIdChange
   id: OnContactIdChange
@@ -4074,6 +4315,60 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
     content.vb: Public Event OnAppointmentIdChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailRow.OnLastBounceCodeChange
+  commentId: E:SuperOffice.CRM.Rows.EmailRow.OnLastBounceCodeChange
+  id: OnLastBounceCodeChange
+  parent: SuperOffice.CRM.Rows.EmailRow
+  langs:
+  - csharp
+  - vb
+  name: OnLastBounceCodeChange
+  nameWithType: EmailRow.OnLastBounceCodeChange
+  fullName: SuperOffice.CRM.Rows.EmailRow.OnLastBounceCodeChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when LastBounceCode is changing.\n"
+  syntax:
+    content: public event OnFieldChange<int> OnLastBounceCodeChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Event OnLastBounceCodeChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailRow.OnLastBounceReasonChange
+  commentId: E:SuperOffice.CRM.Rows.EmailRow.OnLastBounceReasonChange
+  id: OnLastBounceReasonChange
+  parent: SuperOffice.CRM.Rows.EmailRow
+  langs:
+  - csharp
+  - vb
+  name: OnLastBounceReasonChange
+  nameWithType: EmailRow.OnLastBounceReasonChange
+  fullName: SuperOffice.CRM.Rows.EmailRow.OnLastBounceReasonChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when LastBounceReason is changing.\n"
+  syntax:
+    content: public event OnFieldChange<string> OnLastBounceReasonChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
+    content.vb: Public Event OnLastBounceReasonChange As OnFieldChange(Of String)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -4744,6 +5039,63 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: SetDefaults(DashboardTileDefinitionRow, String)
+  nameWithType: TableRowBase.SetDefaults(DashboardTileDefinitionRow, String)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaults(SuperOffice.CRM.Rows.DashboardTileDefinitionRow,System.String)
+    name: SetDefaults
+    nameWithType: TableRowBase.SetDefaults
+    fullName: SuperOffice.CRM.Rows.TableRowBase.SetDefaults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -7731,6 +8083,18 @@ references:
   name: AppointmentId
   nameWithType: EmailRow.AppointmentId
   fullName: SuperOffice.CRM.Rows.EmailRow.AppointmentId
+- uid: SuperOffice.CRM.Rows.EmailRow.LastBounceCode*
+  commentId: Overload:SuperOffice.CRM.Rows.EmailRow.LastBounceCode
+  isExternal: true
+  name: LastBounceCode
+  nameWithType: EmailRow.LastBounceCode
+  fullName: SuperOffice.CRM.Rows.EmailRow.LastBounceCode
+- uid: SuperOffice.CRM.Rows.EmailRow.LastBounceReason*
+  commentId: Overload:SuperOffice.CRM.Rows.EmailRow.LastBounceReason
+  isExternal: true
+  name: LastBounceReason
+  nameWithType: EmailRow.LastBounceReason
+  fullName: SuperOffice.CRM.Rows.EmailRow.LastBounceReason
 - uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   parent: SuperOffice.CRM.Rows

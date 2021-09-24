@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Security.Principal.CurrentWindowsTokenSupplier
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nPlug-in adding the currently logged in windows user, provided that the\nuser is not an anonymous user.\n"
   remarks: "\nExceptions: we don&apos;t care if this fails. Either we&apos;re dependent on this token, \nin which case it will be caught later; or we&apos;re not, and then problems here should not matter\n"
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.Security.Principal.CurrentWindowsTokenSupplier.AppendSecurityToken(System.Collections.Generic.IList<System.IdentityModel.Tokens.SecurityToken>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public void AppendSecurityToken(IList<SecurityToken> tokens)
@@ -108,10 +108,10 @@ items:
   fullName: SuperOffice.Security.Principal.CurrentWindowsTokenSupplier.CurrentWindowsTokenSupplier()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public CurrentWindowsTokenSupplier()

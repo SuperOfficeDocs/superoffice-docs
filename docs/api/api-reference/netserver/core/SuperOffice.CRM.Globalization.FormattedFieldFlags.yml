@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.FormattedFieldFlags
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\n\n"
   syntax:
@@ -60,10 +60,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.FormattedFieldFlags.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\nNo flags.\n"
   syntax:
@@ -88,10 +88,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.FormattedFieldFlags.UcaseAll
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\nUppercase all.\n"
   syntax:
@@ -116,10 +116,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.FormattedFieldFlags.UcaseWords
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\nUpper case all words\n"
   syntax:
@@ -144,10 +144,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.FormattedFieldFlags.UcaseInitial
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\nUppercase first letter\n"
   syntax:
@@ -172,10 +172,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.FormattedFieldFlags.CountryPrefix
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\nUse country prefix\n"
   syntax:

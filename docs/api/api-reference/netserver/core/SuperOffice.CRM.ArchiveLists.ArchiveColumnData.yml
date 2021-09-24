@@ -35,10 +35,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nData carrier class for an item (cell) in an archive. This class contains properties and\nmembers for three distinct values: The (visible) display value; the tooltip hint, and the link hint.\n"
   remarks: "\nThe raw value and Order By Value are not used outside the service layer. They are only used by the windows\nclient and the internal NetServer code.\n"
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.__dbFieldId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nFor Windows Client:\n(tablenumber &lt;&lt; 8) + fieldnumber, or (negative) algorithm id for complex fields\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.__dbFieldPrimaryKey
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nFor Windows Client:\nprimary key of table that <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveColumnData.__dbFieldId\" data-throw-if-not-resolved=\"false\"></xref> comes from\n"
   syntax:
@@ -131,10 +131,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.__dbParentTableNumber
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nFor Windows Client:\ntablenumber of the logical parent (for instance, appointment if we&apos;re dealing with a text field from the text table)\n"
   syntax:
@@ -158,10 +158,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.__dbParentPrimaryKey
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nFor Windows Client:\nparent&apos;s primary key (let&apos;s hope we&apos;re able to cough up all this info)\n"
   syntax:
@@ -185,10 +185,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.ArchiveColumnData()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstructor used for serialization.\n"
   syntax:
@@ -211,10 +211,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.ArchiveColumnData(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object and just set the display value\n"
   syntax:
@@ -241,10 +241,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.ArchiveColumnData(System.String, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object and set the display value and tooltip hint\n"
   syntax:
@@ -274,10 +274,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.Clone()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveColumnData Clone()
@@ -301,10 +301,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.ArchiveColumnData(System.String, System.String, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object and set the display value and tooltip hint\n"
   syntax:
@@ -337,10 +337,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.ArchiveColumnData(System.String, System.String, System.String, System.Object)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object and set the display value, tooltip hint, link hint and raw value\n"
   syntax:
@@ -376,10 +376,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nToString method intended for debugging\n"
   syntax:
@@ -408,10 +408,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SetRawValue(System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nSet the raw value. This method duplicates the property setter, but looks more consistent in a\nchained usage such as ... AddOverlappingColumn( --- ).SetRawValue( ... )\nNote: Not available outside service layer. Primarily for windows client.\n"
   syntax:
@@ -441,10 +441,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SetAlgorithmInfo(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nSet the algorithm information into the <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveColumnData.__dbFieldId\" data-throw-if-not-resolved=\"false\"></xref>, for use by\nthe Live Update system.\nNote: Not available outside service layer. Primarily for windows client.\n"
   syntax:
@@ -474,10 +474,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.TransferDbInfo(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public void TransferDbInfo(ArchiveColumnData source)
@@ -502,10 +502,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.GetNumericValue(out System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nGet the numeric value of an ArchiveColumnData item - tolerantly\n"
   remarks: "\nThis method does its best to get the int or double value from the input,\nwhich the client is asserting to be a numeric value (otherwise the client should\nnot call this method...).\n<p></p>\nIt will always return a double, but has an OUT bool that tells the client whether\nthe original looked like an int or not. RawValue is used if possible, otherwise\nseveral levels of tolerant parsing and guesswork are applied. Non-numeric values\nare classified as (int)0.\n"
@@ -537,10 +537,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.GetDateTimeValue()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nGet a datetime value from archive column data\n"
   remarks: "\nIf a non-null RawValues is available and of type DateTime, then that is returned without\nfurther parsing. Otherwise, try to parse the display value. If that fails, return \nDateTime.MinValue.\n"
@@ -566,10 +566,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.CheckAndSetOrderByValue()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nCheck the OrderBy property of the archive column data, and set it if it is null.\nWe first let <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> try parsing, and accept its result if it is non-string.\nIf that fails, we try to parse date, int and double in that order to get correct sorting comparisons.\nnull value is allowed for the parameter, nothing happens then.\n"
   syntax:
@@ -592,10 +592,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.DisplayValue
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThe visible display value for an archive cell. It is always a string, and other data types\nare converted to string according to the invariant culture. Further conversion to the local\nculture is the responsibility of the client.\n"
   syntax:
@@ -623,10 +623,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.TooltipHint
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThe tooltip hint is either a text to be shown (after resource tag substitution), or a tooltip\nkey to be given to the tooltip provider system in order to asynchronoously retrieve the actual\ntooltip.\n"
   syntax:
@@ -654,10 +654,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.LinkHint
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThe link hint consists of information to construct an actual link; additional information (such\nas a view context) must be provided by the client, who is also responsible for building the link.\nThe content of the link will generally be one or more ids, such as contact_id=123.\n"
   syntax:
@@ -685,10 +685,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.OrderByValue
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nFor Windows Client:\nThis property contains an object to be used for order comparisons. It may be the same as the display value,\nbut it may also be different, as with fields that are built up from separate components but are ordered\nny one of the components (or the Japanese case, where Kanji name fields are ordered according to their Kana\nequivalents)\n"
   syntax:
@@ -716,10 +716,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.RawValue
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nFor Windows Client:\nThis property contains the &apos;raw&apos; value. A raw value is a strongly typed object that represents the raw\ndata used to derive the display value. For instance, a list column will have the list item name in the\ndisplay value, and the ID in the raw value; numeric columns will have an Int32 or Double raw value,\ndatetime columns will have a DateTime, and columns that represent enumerations or statuses - where the\ndisplay value is typically an icon hint - will have the raw numeric value.\nNot available outside service layer.\n"
   syntax:

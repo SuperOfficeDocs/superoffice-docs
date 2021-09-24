@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Data.TicketCategoryDelegateMethod
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nThe delegate method used for request assigned to this category\nThis Enum is used by:  ej_category.delegate_method\n"
   syntax:
@@ -50,10 +50,10 @@ items:
   fullName: SuperOffice.Data.TicketCategoryDelegateMethod.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: The delegate method is unknown, should normally not occure in the database\n"
   syntax:
@@ -78,10 +78,10 @@ items:
   fullName: SuperOffice.Data.TicketCategoryDelegateMethod.Even
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Delegate request even among the members of the category\n"
   syntax:
@@ -106,10 +106,10 @@ items:
   fullName: SuperOffice.Data.TicketCategoryDelegateMethod.Weighted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Use weights on each member of the category when delegating requests\n"
   syntax:
@@ -134,10 +134,10 @@ items:
   fullName: SuperOffice.Data.TicketCategoryDelegateMethod.Unfair
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: The user with the least active request will be delegated the request\n"
   syntax:
@@ -162,10 +162,10 @@ items:
   fullName: SuperOffice.Data.TicketCategoryDelegateMethod.Not
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Do not delegate request. Instead set them as unassigned\n"
   syntax:

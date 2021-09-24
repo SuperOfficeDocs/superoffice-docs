@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Dashboard
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public static class Dashboard
@@ -52,10 +52,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Dashboard.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading. \n"
   syntax:
@@ -81,10 +81,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Dashboard.Version
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nCurrent version of dashboards\n"
   syntax:

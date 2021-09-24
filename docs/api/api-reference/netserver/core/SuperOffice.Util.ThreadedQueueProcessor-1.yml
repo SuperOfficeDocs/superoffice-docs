@@ -20,10 +20,10 @@ items:
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nClass which takes a worker and a queue, and automatically runs the worker\nin the background, but only queues on work-item at the time.\n"
   syntax:
@@ -64,10 +64,10 @@ items:
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.ThreadedQueueProcessor(System.Action<T>, System.String, System.Int32)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nStart a background thread to process items kept on a queue. Thread terminates when queue is empty.\n"
   syntax:
@@ -103,10 +103,10 @@ items:
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.AddWork(T)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public void AddWork(T item)
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.AwaitDisposedWorked()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nMethod used in testing to verify correctness.\n"
   syntax:
@@ -161,10 +161,10 @@ items:
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.AwaitEmptyQueue()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nMethod used in testing to verify correctness.\n"
   syntax:
@@ -189,10 +189,10 @@ items:
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public override string ToString()
@@ -221,10 +221,10 @@ items:
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.ThreadsCreated
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nTotal number of threads created to process work. For diagnostics.\n"
   syntax:
@@ -254,10 +254,10 @@ items:
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.ItemsQueued
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nTotal number of items processed by queue. For diagnostics and testing.\n"
   syntax:

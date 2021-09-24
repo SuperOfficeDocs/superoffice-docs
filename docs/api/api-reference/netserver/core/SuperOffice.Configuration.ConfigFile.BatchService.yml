@@ -22,10 +22,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.BatchService
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nConfiguration values for the Windows batch task service (SoBatchService)\n"
   syntax:
@@ -60,10 +60,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.BatchService.ServiceName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nReturns the name of the service. This name is the one used to install the service under the service control manager in windows. If you want more than one of this service installed on the same machine, this setting must be unique for each service.\n"
   syntax:
@@ -93,10 +93,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.BatchService.MaxTasks
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nMaximum number of tasks to spawn simultaneously.\n"
   syntax:
@@ -126,10 +126,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.BatchService.CPUThreshold
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nCPU Threshold value in percentage. This value is used to check the computer&apos;s cpu load when spawning a new task. If the total cpu usage is above this value, no more tasks will be started even though max tasks has not been reached.\n"
   syntax:
@@ -159,10 +159,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.BatchService.PollingInterval
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nReturns the number of seconds to sleep between each time the service checks for new tasks.\n"
   syntax:
@@ -192,10 +192,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.BatchService.DiagnosticsWebUri
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nReturns the url that the machine should bind against when starting the http monitor utility that displays the current state and log in a browser.\n"
   syntax:
@@ -225,10 +225,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.BatchService.ImpersonateReporterPlugin
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nReturns true/false if the batch service should impersonate the reporter executor with the document identity.\n"
   syntax:
@@ -258,10 +258,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.BatchService.ReporterPath
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nReturns the path to the reporter executer file. This can be left blank to try the default paths. If the batch service is located in the default location (same location as CRM.Web), there should be no need to change this value. Also note that CRM.Web has a similar field in it&apos;s configuration. This specific configuration field should only be used when CRM.Web and the Batch Service are located on different machines.\n"
   syntax:
@@ -291,10 +291,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.BatchService.TaskTimeout
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nReturns the timeout in seconds for spawned tasks. -1 is infinity.\n"
   syntax:
@@ -324,10 +324,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.BatchService.RunTasksInProcess
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nSet this property to true if batch tasks should be run inprocess (as an asynchron operation) or if it should run under the batch service. Default value is false.\n"
   syntax:

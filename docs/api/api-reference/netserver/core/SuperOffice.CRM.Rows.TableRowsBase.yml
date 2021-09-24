@@ -122,6 +122,7 @@ items:
   - SuperOffice.CRM.Rows.BusinessGroupLinkRows
   - SuperOffice.CRM.Rows.BusinessHeadingLinkRows
   - SuperOffice.CRM.Rows.BusinessRows
+  - SuperOffice.CRM.Rows.CacheInvalidationRows
   - SuperOffice.CRM.Rows.CacheTablesRows
   - SuperOffice.CRM.Rows.CategoryFamilyRows
   - SuperOffice.CRM.Rows.CategoryGroupLinkRows
@@ -138,6 +139,7 @@ items:
   - SuperOffice.CRM.Rows.ComptrHeadingLinkRows
   - SuperOffice.CRM.Rows.ComptrRows
   - SuperOffice.CRM.Rows.ConfigRows
+  - SuperOffice.CRM.Rows.ConfigurableScreenDeltaRows
   - SuperOffice.CRM.Rows.ConnectionConfigFieldRows
   - SuperOffice.CRM.Rows.ConsentPersonRows
   - SuperOffice.CRM.Rows.ConsentPurposeRows
@@ -161,6 +163,11 @@ items:
   - SuperOffice.CRM.Rows.CustCategoryRows
   - SuperOffice.CRM.Rows.CustConfigRows
   - SuperOffice.CRM.Rows.CustLangRows
+  - SuperOffice.CRM.Rows.DashboardRows
+  - SuperOffice.CRM.Rows.DashboardThemeRows
+  - SuperOffice.CRM.Rows.DashboardTileDefinitionRows
+  - SuperOffice.CRM.Rows.DashboardTileFieldRows
+  - SuperOffice.CRM.Rows.DashboardTileRows
   - SuperOffice.CRM.Rows.DatabaseModelRows
   - SuperOffice.CRM.Rows.DataRightRows
   - SuperOffice.CRM.Rows.DbiAgentFieldRows

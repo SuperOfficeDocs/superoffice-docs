@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.DesignType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nIndicates what design type this message is created with\nThis Enum is used by:  s_message.designtype\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.DesignType.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown type\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.DesignType.SOEditor
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Created with SOEditor\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.DesignType.Unlayer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Created with Unlayer editor\n"
   syntax:

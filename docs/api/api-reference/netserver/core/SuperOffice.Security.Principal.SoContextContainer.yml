@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoContextContainer
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nContainer of NetServer context, managed by plug-in implementing \n<xref href=\"SuperOffice.Security.Principal.ISoContextProvider\" data-throw-if-not-resolved=\"false\"></xref> and declared with <xref href=\"SuperOffice.Security.Principal.SoContextProviderAttribute\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
@@ -61,10 +61,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoContextContainer.SoContextContainer(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nConstructor called by de-serializer.\n"
   syntax:
@@ -95,10 +95,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoContextContainer.System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nPopulates a SerializationInfo with the data needed to serialize the target object. \n"
   remarks: "\nDepending on the Data.Session.<xref href=\"SuperOffice.Configuration.ConfigFile.Data.Session.ReauthenticateOnDeserialization\" data-throw-if-not-resolved=\"false\"></xref> setting, we either serialize\nthe credentials (for later reauthentication), or binary-serialize the principal itself.\n<p></p>\nThe reauthentication defaults to &apos;false&apos; in the config file.\n"
@@ -127,10 +127,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoContextContainer.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nIf there is a valid inner principal, return his ToString() - generally for debug purposes. An empty string\nis returned if there is no valid principal (inner principal returned null).\n"
   syntax:

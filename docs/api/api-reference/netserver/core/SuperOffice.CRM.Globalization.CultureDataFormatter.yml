@@ -49,6 +49,7 @@ items:
   - SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatMoney(System.Double)
   - SuperOffice.CRM.Globalization.CultureDataFormatter.LocalFormatTime(System.DateTime)
   - SuperOffice.CRM.Globalization.CultureDataFormatter.LocalizeEncoded(System.String)
+  - SuperOffice.CRM.Globalization.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(System.String)
   - SuperOffice.CRM.Globalization.CultureDataFormatter.MapCultureToSuperOfficeLanguage(System.String)
   - SuperOffice.CRM.Globalization.CultureDataFormatter.MapLanguageToCsLanguage(System.String)
   - SuperOffice.CRM.Globalization.CultureDataFormatter.MapLCIDToSuperOfficeLanguage(System.Int32)
@@ -2520,6 +2521,40 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(System.String)
+  commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(System.String)
+  id: MapCsLanguageToSuperOfficeLanguage(System.String)
+  parent: SuperOffice.CRM.Globalization.CultureDataFormatter
+  langs:
+  - csharp
+  - vb
+  name: MapCsLanguageToSuperOfficeLanguage(String)
+  nameWithType: CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(String)
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nConvert a language code from cs to SuperOffice language code.\n"
+  syntax:
+    content: public static string MapCsLanguageToSuperOfficeLanguage(string csLang)
+    parameters:
+    - id: csLang
+      type: System.String
+    return:
+      type: System.String
+      description: SuperOffice languagecode or string.empty if none found
+    content.vb: Public Shared Function MapCsLanguageToSuperOfficeLanguage(csLang As String) As String
+  overload: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseMultiLanguageString(System.String,System.String)
   commentId: M:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseMultiLanguageString(System.String,System.String)
   id: ParseMultiLanguageString(System.String,System.String)
@@ -3418,6 +3453,12 @@ references:
   name: MapLanguageToCsLanguage
   nameWithType: CultureDataFormatter.MapLanguageToCsLanguage
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.MapLanguageToCsLanguage
+- uid: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage*
+  commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage
+  isExternal: true
+  name: MapCsLanguageToSuperOfficeLanguage
+  nameWithType: CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage
+  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter.ParseMultiLanguageString*
   commentId: Overload:SuperOffice.CRM.Globalization.CultureDataFormatter.ParseMultiLanguageString
   isExternal: true

@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Services
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nUtility class used to access the SuperOffice.CRM.Services entry in the Config file.\n"
   syntax:
@@ -56,10 +56,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Services.DefaultMode
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nMode for Service (Default: Local - e.g. local implementation)\n"
   syntax:
@@ -89,10 +89,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Services.SwitchDefault
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nDefault mode for the switch (Default: Remote)\n"
   syntax:
@@ -122,10 +122,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Services.SwitchFailover
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nTimeout before failover in seconds (Default: 60)\n"
   syntax:
@@ -155,10 +155,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Services.RemoteBaseURL
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nBase URL for remote services (Default: http://localhost/webs/SuperOffice.Web.Services).  This value will be overridden by WebServices.RemoteBaseURL\n"
   syntax:
@@ -188,10 +188,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Services.ApplicationToken
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nApplication token passed with servicves to identify the client application.\n"
   syntax:

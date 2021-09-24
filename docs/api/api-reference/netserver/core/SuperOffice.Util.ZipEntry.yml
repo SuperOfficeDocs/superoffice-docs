@@ -22,10 +22,10 @@ items:
   fullName: SuperOffice.Util.ZipEntry
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nA file/directory entry in a ZipFile\n"
   syntax:
@@ -62,10 +62,10 @@ items:
   fullName: SuperOffice.Util.ZipEntry.ZipEntry(ICSharpCode.SharpZipLib.Zip.ZipEntry)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConstructor\n"
   syntax:
@@ -92,10 +92,10 @@ items:
   fullName: SuperOffice.Util.ZipEntry.ZipEntry(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConstructor\n"
   syntax:
@@ -122,10 +122,10 @@ items:
   fullName: SuperOffice.Util.ZipEntry.Name
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nName of entry.\nThe path components in the entry should always be separated by slashes (&apos;/&apos;).\nDirectory entries should always end with a trailing slash.\n"
   syntax:
@@ -153,10 +153,10 @@ items:
   fullName: SuperOffice.Util.ZipEntry.IsFile
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nTrue if the entry is a file\n"
   syntax:
@@ -184,10 +184,10 @@ items:
   fullName: SuperOffice.Util.ZipEntry.IsDirectory
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nTrue if the entry is a directory. A directory is determined by an entry name with a trailing slash &apos;/&apos;.\n"
   syntax:
@@ -215,10 +215,10 @@ items:
   fullName: SuperOffice.Util.ZipEntry.DateTime
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGets/Sets the time of last modification of the entry\n"
   syntax:
@@ -246,10 +246,10 @@ items:
   fullName: SuperOffice.Util.ZipEntry.ExternalFileAttributes
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet/Set external file attributes as an integer\n"
   syntax:
@@ -277,10 +277,10 @@ items:
   fullName: SuperOffice.Util.ZipEntry.Flags
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGeneral purpose bit flag\n"
   syntax:
@@ -308,10 +308,10 @@ items:
   fullName: SuperOffice.Util.ZipEntry.ZipFileIndex
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nIndex of this entry in Zip file\n"
   syntax:

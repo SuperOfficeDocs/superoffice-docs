@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowParent
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public class ArchiveRowParent
@@ -55,10 +55,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowParent.ArchiveRowParent(System.String, System.Int32)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveRowParent(string tableName, int primaryKey)
@@ -85,10 +85,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowParent.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public override string ToString()
@@ -115,10 +115,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowParent.TableName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string TableName { get; set; }
@@ -145,10 +145,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowParent.PrimaryKey
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public int PrimaryKey { get; set; }

@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Util.ObjectExtensions
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nExtension class used to provide various functionality to all CLR objects.\n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nCopies all public writable &amp; public properties from the source-instance to the provided\ntarget instance.\nThis operation is applied recursively for all non-primitive types, meaning that the two instances\nshould be 100% independent and unable to mutate each others members.\n<remarks>\nFields and private members are not copied or assigned.\nIf the type depends on private state to function, the copy may not work as expected.\n</remarks>\n"
   syntax:
@@ -101,10 +101,10 @@ items:
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nCreates a copy of the provided object-graph by copying all public properties of the provided\ninstance.\nThis operation is applied recursively for all non-primitive types, meaning that the resulting instance\nshould be 100% independent from the instance provided and that the two instances should be unable to\nmutate each others members.\n<remarks>\nFields and private members are not copied or assigned.\nIf the type depends on private state to function, the copy may not work as expected.\n</remarks>\n"
   syntax:

@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.RoleType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0 = employee, 1 = external user, 2 = anonymous\nThis Enum is used by:  Role.roleType\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.RoleType.Employee
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Normal employee\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.RoleType.ExternalUser
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: External User\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.RoleType.Anonymous
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Anonymous (implicit) users.\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.RoleType.System
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: System users - sentry is bypassed for this kind of users.\n"
   syntax:

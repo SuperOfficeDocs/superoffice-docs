@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.TicketSecurityLevel
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nIndicates if a ticket is external or internal\nThis Enum is used by:  ej_message.slevel; ticket.slevel\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.TicketSecurityLevel.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown level\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.TicketSecurityLevel.Internal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Internal tickets will not be shown on the Customer Centre\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.TicketSecurityLevel.External
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: External tickets will be shown on the Customer Centre\n"
   syntax:

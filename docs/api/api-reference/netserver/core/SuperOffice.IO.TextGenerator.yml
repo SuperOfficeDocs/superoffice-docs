@@ -27,10 +27,10 @@ items:
   fullName: SuperOffice.IO.TextGenerator
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   syntax:
     content: 'public class TextGenerator : Generator'
@@ -90,10 +90,10 @@ items:
   fullName: SuperOffice.IO.TextGenerator._startTags
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   syntax:
     content: protected List<string> _startTags
@@ -116,10 +116,10 @@ items:
   fullName: SuperOffice.IO.TextGenerator._endTags
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   syntax:
     content: protected List<string> _endTags
@@ -142,10 +142,10 @@ items:
   fullName: SuperOffice.IO.TextGenerator._padTag
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   syntax:
     content: protected char _padTag
@@ -168,10 +168,10 @@ items:
   fullName: SuperOffice.IO.TextGenerator.Generate(System.IO.Stream, System.IO.Stream)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   syntax:
     content: public void Generate(Stream template, Stream output)
@@ -198,10 +198,10 @@ items:
   fullName: SuperOffice.IO.TextGenerator.Generate(System.IO.Stream)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   syntax:
     content: public override void Generate(Stream output)
@@ -229,10 +229,10 @@ items:
   fullName: SuperOffice.IO.TextGenerator.ParseLine(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   syntax:
     content: protected virtual string ParseLine(string line)
@@ -261,10 +261,10 @@ items:
   fullName: SuperOffice.IO.TextGenerator.ParseTag(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   syntax:
     content: protected virtual string ParseTag(string line)
@@ -293,10 +293,10 @@ items:
   fullName: SuperOffice.IO.TextGenerator.TagStart
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   syntax:
     content: >-
@@ -339,10 +339,10 @@ items:
   fullName: SuperOffice.IO.TextGenerator.StartTags
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nStart trigger characters for valid tags\n"
   syntax:
@@ -372,10 +372,10 @@ items:
   fullName: SuperOffice.IO.TextGenerator.TagEnd
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   syntax:
     content: >-
@@ -418,10 +418,10 @@ items:
   fullName: SuperOffice.IO.TextGenerator.EndTags
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nEnd trigger characters for valid tags\n"
   syntax:
@@ -451,10 +451,10 @@ items:
   fullName: SuperOffice.IO.TextGenerator.Reader
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   syntax:
     content: protected StreamReader Reader { get; }
@@ -481,10 +481,10 @@ items:
   fullName: SuperOffice.IO.TextGenerator.Writer
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   syntax:
     content: protected StreamWriter Writer { get; }
@@ -511,10 +511,10 @@ items:
   fullName: SuperOffice.IO.TextGenerator.TextEncoding
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nHow the source template is encoded\n"
   syntax:

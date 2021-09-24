@@ -22,10 +22,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThis class carries information about an ordering criterion for an archive\n"
   syntax:
@@ -63,10 +63,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ArchiveOrderByInfo()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object with a blank name and ascending sort\n"
   syntax:
@@ -89,10 +89,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ArchiveOrderByInfo(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object with the given name and ascending sort\n"
   syntax:
@@ -119,10 +119,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ArchiveOrderByInfo(System.String, SuperOffice.Data.OrderBySortType)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object with the given name and sort order\n"
   syntax:
@@ -152,10 +152,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConvert this instance to a string for debug display\n"
   syntax:
@@ -183,10 +183,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToString(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string ToString(string prefix)
@@ -213,10 +213,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nUtility method to convert an array of ArchiveRestrictionInfo into a string array containing the names only\n"
   syntax:
@@ -250,10 +250,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.FromDelimitedString(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConverts a string with format: columnName,direction1;columnName2,direction2 to an enumerable of ArchiveOrderByInfo\n"
   syntax:
@@ -284,10 +284,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.Name
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nProgrammatic name of the column to order by, semantically the same as the ArchiveColumnInfo <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.Name\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
@@ -315,10 +315,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.Direction
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nDirection to order\n"
   syntax:

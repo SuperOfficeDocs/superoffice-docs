@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.IO.BinaryGenerator.State
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nEnumerator containing the different states the generator can hold.\n"
   syntax:
@@ -47,10 +47,10 @@ items:
   fullName: SuperOffice.IO.BinaryGenerator.State.LookForTagStart
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\n\n"
   syntax:
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.IO.BinaryGenerator.State.LookForTagEnd
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\n\n"
   syntax:

@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Util.SJArray
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public class SJArray
@@ -56,10 +56,10 @@ items:
   fullName: SuperOffice.Util.SJArray.SJArray(SuperOffice.Util.SJElement[])
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public SJArray(params SJElement[] items)
@@ -87,10 +87,10 @@ items:
   fullName: SuperOffice.Util.SJArray.SJArray(System.Collections.Generic.IEnumerable<SuperOffice.Util.SJElement>)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public SJArray(IEnumerable<SJElement> items)
@@ -118,10 +118,10 @@ items:
   fullName: SuperOffice.Util.SJArray.Add(SuperOffice.Util.SJElement[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public void Add(params SJElement[] items)
@@ -149,10 +149,10 @@ items:
   fullName: SuperOffice.Util.SJArray.Add(System.Collections.Generic.IEnumerable<SuperOffice.Util.SJElement>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public void Add(IEnumerable<SJElement> items)
@@ -180,10 +180,10 @@ items:
   fullName: SuperOffice.Util.SJArray.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public override string ToString()

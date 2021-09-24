@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.CssSprite
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nConfiguration for the Web Client CssSprite generator\n"
   syntax:
@@ -57,10 +57,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.CssSprite.Enabled
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nBy enabling this feature an image is created, containing most icons used in the application.\n"
   syntax:
@@ -90,10 +90,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.CssSprite.RootPath
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nImage path\n"
   syntax:
@@ -123,10 +123,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.CssSprite.PersistentPath
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nPath to generated CssSprite file\n"
   syntax:
@@ -156,10 +156,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.CssSprite.ExcludePaths
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nPaths to exclude. Do not include root path. Semi-colon seperated list.\n"
   syntax:
@@ -189,10 +189,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.CssSprite.MaxHeight
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe maximum height of an icon allowed in the sprite. Icons higher is excluded.\n"
   syntax:
@@ -222,10 +222,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.CssSprite.MaxWidth
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe maximum width of an icon allowed in the sprite. Icons wider is excluded.\n"
   syntax:

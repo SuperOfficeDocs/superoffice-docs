@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimeRecorderPluginAttribute
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nPlugin&apos;s for recording time spent on different operations.\n"
   syntax:
@@ -113,10 +113,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimeRecorderPluginAttribute.SoTimeRecorderPluginAttribute(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public SoTimeRecorderPluginAttribute(string name)

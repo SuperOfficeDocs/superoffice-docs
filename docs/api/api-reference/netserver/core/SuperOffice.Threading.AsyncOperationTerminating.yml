@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Threading.AsyncOperationTerminating
   type: Delegate
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nDelegate describing the function signature required for a method that is called\nwhenever a new asynchronous operation is terminating. The thread is still running,\nand execution of the callers&apos; <see cref=\"!:AsyncOperation\"></see> delegate has just completed.\n"
   syntax:
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.Threading.AsyncOperationTerminating.AsyncOperationTerminating(System.Object, System.IntPtr)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public AsyncOperationTerminating(object object, IntPtr method)
@@ -81,10 +81,10 @@ items:
   fullName: SuperOffice.Threading.AsyncOperationTerminating.Invoke(SuperOffice.Threading.AsyncContext)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public virtual void Invoke(AsyncContext context)
@@ -111,10 +111,10 @@ items:
   fullName: SuperOffice.Threading.AsyncOperationTerminating.BeginInvoke(SuperOffice.Threading.AsyncContext, System.AsyncCallback, System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public virtual IAsyncResult BeginInvoke(AsyncContext context, AsyncCallback callback, object object)
@@ -147,10 +147,10 @@ items:
   fullName: SuperOffice.Threading.AsyncOperationTerminating.EndInvoke(System.IAsyncResult)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public virtual void EndInvoke(IAsyncResult result)

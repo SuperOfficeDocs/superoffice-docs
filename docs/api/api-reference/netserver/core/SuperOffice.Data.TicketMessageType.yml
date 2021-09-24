@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.TicketMessageType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nIndicates if the field body contains plain or html text\nThis Enum is used by:  ej_message.type\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.TicketMessageType.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown type\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.TicketMessageType.Plain
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: The body field contains plain text\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.TicketMessageType.Html
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: The body field contains html text\n"
   syntax:

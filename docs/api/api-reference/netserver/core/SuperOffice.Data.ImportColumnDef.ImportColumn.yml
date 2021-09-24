@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ImportColumn
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public class ImportColumn
@@ -60,10 +60,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ImportColumn.FieldName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public string FieldName
@@ -86,10 +86,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ImportColumn.Name
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public string Name
@@ -112,10 +112,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ImportColumn.Tooltip
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public string Tooltip
@@ -138,10 +138,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ImportColumn.IsMultiple
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public bool IsMultiple
@@ -164,10 +164,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ImportColumn.EisFieldName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public string EisFieldName
@@ -190,10 +190,10 @@ items:
   fullName: SuperOffice.Data.ImportColumnDef.ImportColumn.ImportColumn()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public ImportColumn()

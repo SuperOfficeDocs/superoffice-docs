@@ -19,6 +19,8 @@ items:
   - SuperOffice.CRM.Data.EmailTableInfo.EmailAddress
   - SuperOffice.CRM.Data.EmailTableInfo.EmailId
   - SuperOffice.CRM.Data.EmailTableInfo.LastBounce
+  - SuperOffice.CRM.Data.EmailTableInfo.LastBounceCode
+  - SuperOffice.CRM.Data.EmailTableInfo.LastBounceReason
   - SuperOffice.CRM.Data.EmailTableInfo.LastSent
   - SuperOffice.CRM.Data.EmailTableInfo.LeftOuterJoin_Appointment_EmailId
   - SuperOffice.CRM.Data.EmailTableInfo.PersonId
@@ -891,6 +893,68 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property AppointmentId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.EmailTableInfo.AppointmentId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.LastBounceCode
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.LastBounceCode
+  id: LastBounceCode
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LastBounceCode
+  nameWithType: EmailTableInfo.LastBounceCode
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.LastBounceCode
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;lastBounceCode&apos; in table &apos;Email&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIf this email address has bounced and we have a bounce code, this field will contain the code for the last bounce\n"
+  syntax:
+    content: public Int32FieldInfo LastBounceCode { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property LastBounceCode As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.EmailTableInfo.LastBounceCode*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.LastBounceReason
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.LastBounceReason
+  id: LastBounceReason
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LastBounceReason
+  nameWithType: EmailTableInfo.LastBounceReason
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.LastBounceReason
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;lastBounceReason&apos; in table &apos;Email&apos;: Dictionary type String[4001], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIf this email address has bounced and we have a bounce reason, this field will contain the reason for the last bounce\n"
+  syntax:
+    content: public StringFieldInfo LastBounceReason { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property LastBounceReason As StringFieldInfo
+  overload: SuperOffice.CRM.Data.EmailTableInfo.LastBounceReason*
   modifiers.csharp:
   - public
   - get
@@ -2139,6 +2203,18 @@ references:
   name: AppointmentId
   nameWithType: EmailTableInfo.AppointmentId
   fullName: SuperOffice.CRM.Data.EmailTableInfo.AppointmentId
+- uid: SuperOffice.CRM.Data.EmailTableInfo.LastBounceCode*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.LastBounceCode
+  isExternal: true
+  name: LastBounceCode
+  nameWithType: EmailTableInfo.LastBounceCode
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.LastBounceCode
+- uid: SuperOffice.CRM.Data.EmailTableInfo.LastBounceReason*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.LastBounceReason
+  isExternal: true
+  name: LastBounceReason
+  nameWithType: EmailTableInfo.LastBounceReason
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.LastBounceReason
 - uid: SuperOffice.CRM.Data.EmailTableInfo.ContactId_InnerJoin_Contact*
   commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.ContactId_InnerJoin_Contact
   isExternal: true

@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Data.DBC.TicketLogActionFields.CustomerId
   - SuperOffice.CRM.Data.DBC.TicketLogActionFields.Description
+  - SuperOffice.CRM.Data.DBC.TicketLogActionFields.Details
   - SuperOffice.CRM.Data.DBC.TicketLogActionFields.LogAction
   - SuperOffice.CRM.Data.DBC.TicketLogActionFields.LogWhen
   - SuperOffice.CRM.Data.DBC.TicketLogActionFields.MessageId
@@ -303,6 +304,35 @@ items:
     return:
       type: System.String
     content.vb: Public Const Description As String = "description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketLogActionFields.Details
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketLogActionFields.Details
+  id: Details
+  parent: SuperOffice.CRM.Data.DBC.TicketLogActionFields
+  langs:
+  - csharp
+  - vb
+  name: Details
+  nameWithType: DBC.TicketLogActionFields.Details
+  fullName: SuperOffice.CRM.Data.DBC.TicketLogActionFields.Details
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketLogAction.Details: Field for storing details of the log action as e.g. JSON\n"
+  syntax:
+    content: public const string Details = "details"
+    return:
+      type: System.String
+    content.vb: Public Const Details As String = "details"
   modifiers.csharp:
   - public
   - const

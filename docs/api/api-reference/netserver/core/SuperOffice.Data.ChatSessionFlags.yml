@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Data.ChatSessionFlags
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValue for field &apos;flags&apos; in table &apos;chat_session&apos;.\nThis Enum is used by:  chat_session.flags\nThis Enum consists of flag values that can be combined.\n"
   syntax:
@@ -57,10 +57,10 @@ items:
   fullName: SuperOffice.Data.ChatSessionFlags.CustomerIsTyping
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Set if the customer is currently typing a chat message\n"
   syntax:
@@ -85,10 +85,10 @@ items:
   fullName: SuperOffice.Data.ChatSessionFlags.UserIsTyping
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Set if the agent is currently typing a chat message\n"
   syntax:

@@ -86,10 +86,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nA SerializationWriter instance is used to store values and objects in a byte array.\n\nOnce an instance is created, use the various methods to store the required data.\nToArray() will return a byte[] containing all of the data required for deserialization.\nThis can be stored in the SerializationInfo parameter in an ISerializable.GetObjectData() method.\n<p></p>\nAs an alternative to ToArray(), if you want to apply some post-processing to the serialized bytes, \nsuch as compression, call AppendTokenTables first to ensure that the string and object token tables \nare appended to the stream, and then cast BaseStream to MemoryStream. You can then access the\nMemoryStream&apos;s internal buffer as follows:\n<p></p>\n<example><pre><code>writer.AppendTokenTables();\nMemoryStream stream = (MemoryStream) writer.BaseStream;\nserializedData = MiniLZO.Compress(stream.GetBuffer(), (int) stream.Length);</code></pre></example>\n"
   syntax:
@@ -160,10 +160,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.DefaultCapacity
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nDefault capacity for the underlying MemoryStream\n"
   syntax:
@@ -189,10 +189,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.DefaultOptimizeForSize
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nThe Default setting for the OptimizeForSize property.\n"
   syntax:
@@ -218,10 +218,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.DefaultPreserveDecimalScale
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nThe Default setting for the PreserveDecimalScale property.\n"
   syntax:
@@ -247,10 +247,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.HighestOptimizable16BitValue
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nHolds the highest Int16 that can be optimized into less than the normal 2 bytes\n"
   syntax:
@@ -276,10 +276,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.HighestOptimizable32BitValue
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nHolds the highest Int32 that can be optimized into less than the normal 4 bytes\n"
   syntax:
@@ -305,10 +305,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.HighestOptimizable64BitValue
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nHolds the highest Int64 that can be optimized into less than the normal 8 bytes\n"
   syntax:
@@ -334,10 +334,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.SerializationWriter()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nCreates a FastSerializer with the Default Capacity (1kb)\n"
   syntax:
@@ -360,10 +360,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.SerializationWriter(System.Int32)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nCreates a FastSerializer with the specified capacity\n"
   syntax:
@@ -389,10 +389,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.Collections.ArrayList)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites an ArrayList into the stream using the fewest number of bytes possible.\nStored Size: 1 byte upwards depending on data content\nNotes:\nA null Arraylist takes 1 byte.\nAn empty ArrayList takes 2 bytes.\nThe contents are stored using WriteOptimized(ArrayList) which should be used\nif the ArrayList is guaranteed never to be null.\n"
   syntax:
@@ -419,10 +419,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.Collections.BitArray)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a BitArray value into the stream using the fewest number of bytes possible.\nStored Size: 1 byte upwards depending on data content\nNotes:\nA null BitArray takes 1 byte.\nAn empty BitArray takes 2 bytes.\n"
   syntax:
@@ -449,10 +449,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.Collections.Specialized.BitVector32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a BitVector32 into the stream.\nStored Size: 4 bytes.\n"
   syntax:
@@ -479,10 +479,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a DateTime value into the stream.\nStored Size: 8 bytes\n"
   syntax:
@@ -509,10 +509,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.Guid)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a Guid into the stream.\nStored Size: 16 bytes.\n"
   syntax:
@@ -538,10 +538,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(SuperOffice.IO.IOwnedDataSerializable, System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nAllows any object implementing IOwnedDataSerializable to serialize itself\ninto this SerializationWriter.\nA context may also be used to give the object an indication of what data\nto store. As an example, using a BitVector32 gives a list of flags and\nthe object can conditionally store data depending on those flags.\n"
   syntax:
@@ -571,10 +571,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteObject(System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nStores an object into the stream using the fewest number of bytes possible.\nStored Size: 1 byte upwards depending on type and/or content.\n\n1 byte: null, DBNull.Value, Boolean\n\n1 to 2 bytes: Int16, UInt16, Byte, SByte, Char, \n\n1 to 4 bytes: Int32, UInt32, Single, BitVector32\n\n1 to 8 bytes: DateTime, TimeSpan, Double, Int64, UInt64\n\n1 or 16 bytes: Guid\n\n1 plus content: string, object[], byte[], char[], BitArray, Type, ArrayList\n\nAny other object be stored using a .Net Binary formatter but this should \nonly be allowed as a last resort:\nSince this is effectively a different serialization session, there is a \npossibility of the same shared object being serialized twice or, if the \nobject has a reference directly or indirectly back to the parent object, \nthere is a risk of looping which will throw an exception.\n\nThe type of object is checked with the most common types being checked first.\nEach &apos;section&apos; can be reordered to provide optimum speed but the check for\nnull should always be first and the default serialization always last.\n\nOnce the type is identified, a SerializedType byte is stored in the stream\nfollowed by the data for the object (certain types/values may not require\nstorage of data as the SerializedType may imply the value).\n\nFor certain objects, if the value is within a certain range then optimized\nstorage may be used. If the value doesn&apos;t meet the required optimization\ncriteria then the value is stored directly.\nThe checks for optimization may be disabled by setting the OptimizeForSize\nproperty to false in which case the value is stored directly. This could \nresult in a slightly larger stream but there will be a speed increate to\ncompensate.\n"
   syntax:
@@ -601,10 +601,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nCalls WriteOptimized(string).\nThis override to hide base BinaryWriter.Write(string).\n"
   syntax:
@@ -634,10 +634,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.TimeSpan)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a TimeSpan value into the stream.\nStored Size: 8 bytes\n"
   syntax:
@@ -664,10 +664,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.Type, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nStores a Type object into the stream.\nStored Size: Depends on the length of the Type&apos;s name and whether the fullyQualified parameter is set.\nA null Type takes 1 byte.\n"
   syntax:
@@ -697,10 +697,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Collections.ArrayList)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites an non-null ArrayList into the stream using the fewest number of bytes possible.\nStored Size: 1 byte upwards depending on data content\nNotes:\nAn empty ArrayList takes 1 byte.\n"
   syntax:
@@ -727,10 +727,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Collections.BitArray)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a BitArray into the stream using the fewest number of bytes possible.\nStored Size: 1 byte upwards depending on data content\nNotes:\nAn empty BitArray takes 1 byte.\n"
   syntax:
@@ -757,10 +757,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Collections.Specialized.BitVector32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a BitVector32 into the stream using the fewest number of bytes possible.\nStored Size: 1 to 4 bytes. (.Net is 4 bytes)\n1 to  7 bits takes 1 byte\n8 to 14 bits takes 2 bytes\n15 to 21 bits takes 3 bytes\n22 to 28 bits takes 4 bytes\n-------------------------------------------------------------------\n29 to 32 bits takes 5 bytes - use Write(BitVector32) method instead\n\nTry to order the BitVector32 masks so that the highest bits are least-likely\nto be set.\n"
   syntax:
@@ -787,10 +787,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a DateTime value into the stream using the fewest number of bytes possible.\nStored Size: 3 bytes to 7 bytes (.Net is 8 bytes)\nNotes:\nA DateTime containing only a date takes 3 bytes\n(except a .NET 2.0 Date with a specified DateTimeKind which will take a minimum\nof 5 bytes - no further optimization for this situation felt necessary since it\nis unlikely that a DateTimeKind would be specified without hh:mm also)\nDate plus hh:mm takes 5 bytes.\nDate plus hh:mm:ss takes 6 bytes.\nDate plus hh:mm:ss.fff takes 7 bytes.\n"
   syntax:
@@ -817,10 +817,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Decimal)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a Decimal value into the stream using the fewest number of bytes possible.\nStored Size: 1 byte to 14 bytes (.Net is 16 bytes)\nRestrictions: None\n"
   syntax:
@@ -847,10 +847,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int16)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrite an Int16 value using the fewest number of bytes possible.\n"
   remarks: "\n0x0000 - 0x007f (0 to 127) takes 1 byte\n0x0080 - 0x03FF (128 to 16,383) takes 2 bytes\n----------------------------------------------------------------\n0x0400 - 0x7FFF (16,384 to 32,767) takes 3 bytes\nAll negative numbers take 3 bytes\n\nOnly call this method if the value is known to be between 0 and \n16,383 otherwise use Write(Int16 value)\n"
@@ -878,10 +878,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrite an Int32 value using the fewest number of bytes possible.\n"
   remarks: "\n0x00000000 - 0x0000007f (0 to 127) takes 1 byte\n0x00000080 - 0x000003FF (128 to 16,383) takes 2 bytes\n0x00000400 - 0x001FFFFF (16,384 to 2,097,151) takes 3 bytes\n0x00200000 - 0x0FFFFFFF (2,097,152 to 268,435,455) takes 4 bytes\n----------------------------------------------------------------\n0x10000000 - 0x07FFFFFF (268,435,456 and above) takes 5 bytes\nAll negative numbers take 5 bytes\n\nOnly call this method if the value is known to be between 0 and \n268,435,455 otherwise use Write(Int32 value)\n"
@@ -909,10 +909,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int64)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrite an Int64 value using the fewest number of bytes possible.\n"
   remarks: "\n0x0000000000000000 - 0x000000000000007f (0 to 127) takes 1 byte\n0x0000000000000080 - 0x00000000000003FF (128 to 16,383) takes 2 bytes\n0x0000000000000400 - 0x00000000001FFFFF (16,384 to 2,097,151) takes 3 bytes\n0x0000000000200000 - 0x000000000FFFFFFF (2,097,152 to 268,435,455) takes 4 bytes\n0x0000000010000000 - 0x00000007FFFFFFFF (268,435,456 to 34,359,738,367) takes 5 bytes\n0x0000000800000000 - 0x000003FFFFFFFFFF (34,359,738,368 to 4,398,046,511,103) takes 6 bytes\n0x0000040000000000 - 0x0001FFFFFFFFFFFF (4,398,046,511,104 to 562,949,953,421,311) takes 7 bytes\n0x0002000000000000 - 0x00FFFFFFFFFFFFFF (562,949,953,421,312 to 72,057,594,037,927,935) takes 8 bytes\n------------------------------------------------------------------\n0x0100000000000000 - 0x7FFFFFFFFFFFFFFF (72,057,594,037,927,936 to 9,223,372,036,854,775,807) takes 9 bytes\n0x7FFFFFFFFFFFFFFF - 0xFFFFFFFFFFFFFFFF (9,223,372,036,854,775,807 and above) takes 10 bytes\nAll negative numbers take 10 bytes\n\nOnly call this method if the value is known to be between 0 and\n72,057,594,037,927,935 otherwise use Write(Int64 value)\n"
@@ -940,10 +940,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a string value into the stream using the fewest number of bytes possible.\nStored Size: 1 byte upwards depending on string length\nNotes:\nEncodes null, Empty, &apos;Y&apos;, &apos;N&apos;, &apos; &apos; values as a single byte\nAny other single char string is stored as two bytes\nAll other strings are stored in a string token list:\n\nThe TypeCode representing the current string token list is written first (1 byte), \nfollowed by the string token itself (1-4 bytes)\n\nWhen the current string list has reached 128 values then a new string list\nis generated and that is used for generating future string tokens. This continues\nuntil the maximum number (128) of string lists is in use, after which the string \nlists are used in a round-robin fashion.\nBy doing this, more lists are created with fewer items which allows a smaller \ntoken size to be used for more strings.\n\nThe first 16,384 strings will use a 1 byte token.\nThe next 2,097,152 strings will use a 2 byte token. (This should suffice for most uses!)\nThe next 268,435,456 strings will use a 3 byte token. (My, that is a lot!!)\nThe next 34,359,738,368 strings will use a 4 byte token. (only shown for completeness!!!)\n"
   syntax:
@@ -970,10 +970,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.TimeSpan)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a TimeSpan value into the stream using the fewest number of bytes possible.\nStored Size: 2 bytes to 8 bytes (.Net is 8 bytes)\nNotes:\nhh:mm (time) are always stored together and take 2 bytes.\nIf seconds are present then 3 bytes unless (time) is not present in which case 2 bytes\nsince the seconds are stored in the minutes position.\nIf milliseconds are present then 4 bytes.\nIn addition, if days are present they will add 1 to 4 bytes to the above.\n"
   syntax:
@@ -1000,10 +1000,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nStores a non-null Type object into the stream.\nStored Size: Depends on the length of the Type&apos;s name.\nIf the type is a System type (mscorlib) then it is stored without assembly name information,\notherwise the Type&apos;s AssemblyQualifiedName is used.\n"
   syntax:
@@ -1030,10 +1030,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt16)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrite a UInt16 value using the fewest number of bytes possible.\n"
   remarks: "\n0x0000 - 0x007f (0 to 127) takes 1 byte\n0x0080 - 0x03FF (128 to 16,383) takes 2 bytes\n----------------------------------------------------------------\n0x0400 - 0xFFFF (16,384 to 65,536) takes 3 bytes\n\nOnly call this method if the value is known to  be between 0 and \n16,383 otherwise use Write(UInt16 value)\n"
@@ -1061,10 +1061,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrite a UInt32 value using the fewest number of bytes possible.\n"
   remarks: "\n0x00000000 - 0x0000007f (0 to 127) takes 1 byte\n0x00000080 - 0x000003FF (128 to 16,383) takes 2 bytes\n0x00000400 - 0x001FFFFF (16,384 to 2,097,151) takes 3 bytes\n0x00200000 - 0x0FFFFFFF (2,097,152 to 268,435,455) takes 4 bytes\n----------------------------------------------------------------\n0x10000000 - 0xFFFFFFFF (268,435,456 and above) takes 5 bytes\n\nOnly call this method if the value is known to  be between 0 and \n268,435,455 otherwise use Write(UInt32 value)\n"
@@ -1092,10 +1092,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt64)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrite a UInt64 value using the fewest number of bytes possible.\n"
   remarks: "\n0x0000000000000000 - 0x000000000000007f (0 to 127) takes 1 byte\n0x0000000000000080 - 0x00000000000003FF (128 to 16,383) takes 2 bytes\n0x0000000000000400 - 0x00000000001FFFFF (16,384 to 2,097,151) takes 3 bytes\n0x0000000000200000 - 0x000000000FFFFFFF (2,097,152 to 268,435,455) takes 4 bytes\n0x0000000010000000 - 0x00000007FFFFFFFF (268,435,456 to 34,359,738,367) takes 5 bytes\n0x0000000800000000 - 0x000003FFFFFFFFFF (34,359,738,368 to 4,398,046,511,103) takes 6 bytes\n0x0000040000000000 - 0x0001FFFFFFFFFFFF (4,398,046,511,104 to 562,949,953,421,311) takes 7 bytes\n0x0002000000000000 - 0x00FFFFFFFFFFFFFF (562,949,953,421,312 to 72,057,594,037,927,935) takes 8 bytes\n------------------------------------------------------------------\n0x0100000000000000 - 0x7FFFFFFFFFFFFFFF (72,057,594,037,927,936 to 9,223,372,036,854,775,807) takes 9 bytes\n0x7FFFFFFFFFFFFFFF - 0xFFFFFFFFFFFFFFFF (9,223,372,036,854,775,807 and above) takes 10 bytes\n\nOnly call this method if the value is known to be between 0 and\n72,057,594,037,927,935 otherwise use Write(UInt64 value)\n"
@@ -1123,10 +1123,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.Boolean[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a Boolean[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\nCalls WriteOptimized(Boolean[]).\n"
   syntax:
@@ -1156,10 +1156,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.Byte[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a Byte[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
   syntax:
@@ -1192,10 +1192,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.Char[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a Char[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
   syntax:
@@ -1228,10 +1228,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.DateTime[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a DateTime[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
   syntax:
@@ -1261,10 +1261,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.Decimal[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a Decimal[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\nCalls WriteOptimized(Decimal[]).\n"
   syntax:
@@ -1294,10 +1294,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.Double[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a Double[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
   syntax:
@@ -1327,10 +1327,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.Single[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a Single[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
   syntax:
@@ -1360,10 +1360,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.Guid[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a Guid[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
   syntax:
@@ -1393,10 +1393,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.Int32[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites an Int32[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
   syntax:
@@ -1426,10 +1426,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.Int64[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites an Int64[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
   syntax:
@@ -1459,10 +1459,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.Object[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites an object[] into the stream.\nStored Size: 2 bytes upwards depending on data content\nNotes:\nA null object[] takes 1 byte.\nAn empty object[] takes 2 bytes.\nThe contents of the array will be stored optimized.\n"
   syntax:
@@ -1492,10 +1492,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.SByte[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites an SByte[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
   syntax:
@@ -1525,10 +1525,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.Int16[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites an Int16[]or a null into the stream.\nNotes:\nA null or empty array will take 1 byte.\nCalls WriteOptimized(decimal[]).\n"
   syntax:
@@ -1558,10 +1558,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.TimeSpan[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a TimeSpan[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
   syntax:
@@ -1591,10 +1591,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.UInt32[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a UInt32[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
   syntax:
@@ -1624,10 +1624,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.UInt64[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a UInt64[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
   syntax:
@@ -1657,10 +1657,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.Write(System.UInt16[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a UInt16[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
   syntax:
@@ -1690,10 +1690,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Boolean[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites an optimized Boolean[] into the stream using the fewest possible bytes.\nNotes:\nA null or empty array will take 1 byte.\nStored as a BitArray.\n"
   syntax:
@@ -1723,10 +1723,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.DateTime[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a DateTime[] into the stream using the fewest possible bytes.\nNotes:\nA null or empty array will take 1 byte.\n"
   syntax:
@@ -1756,10 +1756,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Decimal[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a Decimal[] into the stream using the fewest possible bytes.\nNotes:\nA null or empty array will take 1 byte.\n"
   syntax:
@@ -1789,10 +1789,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Object[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a not-null object[] into the stream using the fewest number of bytes possible.\nStored Size: 2 bytes upwards depending on data content\nNotes:\nAn empty object[] takes 1 byte.\nThe contents of the array will be stored optimized.\n"
   syntax:
@@ -1822,10 +1822,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Object[], System.Object[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a pair of object[] arrays into the stream using the fewest number of bytes possible.\nThe arrays must not be null and must have the same length\nThe first array&apos;s values are written optimized\nThe second array&apos;s values are compared against the first and, where identical, will be stored\nusing a single byte.\nUseful for storing entity data where there is a before-change and after-change set of value pairs\nand, typically, only a few of the values will have changed.\n"
   syntax:
@@ -1858,10 +1858,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int16[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites an Int16[] into the stream using the fewest possible bytes.\nNotes:\nA null or empty array will take 1 byte.\n"
   syntax:
@@ -1891,10 +1891,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int32[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites an Int32[] into the stream using the fewest possible bytes.\nNotes:\nA null or empty array will take 1 byte.\n"
   syntax:
@@ -1924,10 +1924,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int64[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites an Int64[] into the stream using the fewest possible bytes.\nNotes:\nA null or empty array will take 1 byte.\n"
   syntax:
@@ -1957,10 +1957,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.TimeSpan[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a TimeSpan[] into the stream using the fewest possible bytes.\nNotes:\nA null or empty array will take 1 byte.\n"
   syntax:
@@ -1990,10 +1990,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt16[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a UInt16[] into the stream using the fewest possible bytes.\nNotes:\nA null or empty array will take 1 byte.\n"
   syntax:
@@ -2023,10 +2023,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt32[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a UInt32[] into the stream using the fewest possible bytes.\nNotes:\nA null or empty array will take 1 byte.\n"
   syntax:
@@ -2056,10 +2056,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt64[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a UInt64[] into the stream using the fewest possible bytes.\nNotes:\nA null or empty array will take 1 byte.\n"
   syntax:
@@ -2089,10 +2089,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteTypedArray(System.Array)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a null or a typed array into the stream.\n"
   syntax:
@@ -2119,10 +2119,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.AppendTokenTables()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites the contents of the string and object token tables into the stream.\nAlso write the starting offset into the first 4 bytes of the stream.\nNotes:\nCalled automatically by ToArray().\nCan be used to ensure that the complete graph is written before using an\nalternate technique of extracting a Byte[] such as using compression on\nthe underlying stream.\n"
   syntax:
@@ -2148,10 +2148,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.ToArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a byte[] containing all of the serialized data.\n\nThe current implementation has the data in 3 sections:\n1) A 4 byte Int32 giving the offset to the 3rd section.\n2) The main serialized data.\n3) The serialized string tokenization lists and object\ntokenization lists.\n\nOnly call this method once all of the data has been serialized.\n\nThis method appends all of the tokenized data (string and object)\nto the end of the stream and ensures that the first four bytes\nreflect the offset of the tokenized data so that it can be\ndeserialized first.\nThis is the reason for requiring a rewindable stream.\n\nFuture implementations may also allow the serialized data to be\naccessed via 2 byte[] arrays. This would remove the requirement\nfor a rewindable stream opening the possibility of streaming the\nserialized data directly over the network allowing simultaneous\nof partially simultaneous deserialization.\n"
   syntax:
@@ -2177,10 +2177,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.ToStream()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a Stream containing all of the serialized data.\n"
   syntax:
@@ -2206,10 +2206,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteBytesDirect(System.Byte[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a byte[] directly into the stream.\nThe size of the array is not stored so only use this method when\nthe number of bytes will be known at deserialization time.\n\nA null value will throw an exception\n"
   syntax:
@@ -2239,10 +2239,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteStringDirect(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a non-null string directly to the stream without tokenization.\n"
   syntax:
@@ -2269,10 +2269,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteTokenizedObject(System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a token (an Int32 taking 1 to 4 bytes) into the stream that represents the object instance.\nThe same token will always be used for the same object instance.\n\nThe object will be serialized once and recreated at deserialization time.\nCalls to SerializationReader.ReadTokenizedObject() will retrieve the same object instance.\n\n"
   syntax:
@@ -2299,10 +2299,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.WriteTokenizedObject(System.Object, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrites a token (an Int32 taking 1 to 4 bytes) into the stream that represents the object instance.\nThe same token will always be used for the same object instance.\n\nWhen recreateFromType is set to true, the object&apos;s Type will be stored and the object recreated using \nActivator.GetInstance with a parameterless contructor. This is useful for stateless, factory-type classes.\n\nWhen recreateFromType is set to false, the object will be serialized once and recreated at deserialization time.\n\nCalls to SerializationReader.ReadTokenizedObject() will retrieve the same object instance.\n"
   syntax:
@@ -2332,10 +2332,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.DumpTypeUsage()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   syntax:
     content: >-
@@ -2369,10 +2369,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.TypeSurrogates
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nHolds a list of optional IFastSerializationTypeSurrogate instances which\nSerializationWriter and SerializationReader will use to serialize objects\nnot directly supported.\nIt is important to use the same list on both client and server ends to ensure\nthat the same surrogated-types are supported.\n"
   syntax:
@@ -2402,10 +2402,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.OptimizeForSize
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nGets or Sets a boolean flag to indicate whether to optimize for size (default)\nby storing data as packed bits or sections where possible.\nSetting this value to false will turn off this optimization and store\ndata directly which increases the speed.\nNote: This only affects optimization of data passed to the WriteObject method\nand direct calls to the WriteOptimized methods will always pack data into\nthe smallest space where possible.\n"
   syntax:
@@ -2433,10 +2433,10 @@ items:
   fullName: SuperOffice.IO.SerializationWriter.PreserveDecimalScale
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nGets or Sets a boolean flag to indicate whether to preserve the scale within\na Decimal value when it would have no effect on the represented value.\nNote: a 2m value and a 2.00m value represent the same value but internally they \nare stored differently - the former has a value of 2 and a scale of 0 and\nthe latter has a value of 200 and a scale of 2. \nThe scaling factor also preserves any trailing zeroes in a Decimal number. \nTrailing zeroes do not affect the value of a Decimal number in arithmetic or \ncomparison operations. However, trailing zeroes can be revealed by the ToString \nmethod if an appropriate format string is applied.\nFrom a serialization point of view, the former will take 2 bytes whereas the \nlatter would take 4 bytes, therefore it is preferable to not save the scale where\nit doesn&apos;t affect the represented value.\n"
   syntax:

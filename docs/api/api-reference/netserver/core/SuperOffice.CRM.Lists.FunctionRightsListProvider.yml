@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.Lists
   children:
   - SuperOffice.CRM.Lists.FunctionRightsListProvider.#ctor
+  - SuperOffice.CRM.Lists.FunctionRightsListProvider.ExecuteReader(SuperOffice.Data.SoCommand)
   - SuperOffice.CRM.Lists.FunctionRightsListProvider.GetMainQuery
   - SuperOffice.CRM.Lists.FunctionRightsListProvider.Init
   - SuperOffice.CRM.Lists.FunctionRightsListProvider.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
@@ -67,7 +68,6 @@ items:
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryRestriction(SuperOffice.Data.SQL.Select)
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
-  - SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.ListName
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.AdditionalInfo
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryIDs
@@ -318,6 +318,40 @@ items:
     content.vb: Protected Overrides Function OnRead(reader As SoDataReader, lastRank As Short) As ISoListItem
   overridden: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
   overload: SuperOffice.CRM.Lists.FunctionRightsListProvider.OnRead*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Lists.FunctionRightsListProvider.ExecuteReader(SuperOffice.Data.SoCommand)
+  commentId: M:SuperOffice.CRM.Lists.FunctionRightsListProvider.ExecuteReader(SuperOffice.Data.SoCommand)
+  id: ExecuteReader(SuperOffice.Data.SoCommand)
+  parent: SuperOffice.CRM.Lists.FunctionRightsListProvider
+  langs:
+  - csharp
+  - vb
+  name: ExecuteReader(SoCommand)
+  nameWithType: FunctionRightsListProvider.ExecuteReader(SoCommand)
+  fullName: SuperOffice.CRM.Lists.FunctionRightsListProvider.ExecuteReader(SuperOffice.Data.SoCommand)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nOverridden here to fetch all (500) functional rights. Need &quot;all&quot; rows, not the global prefenrence size for grouped lists\n"
+  syntax:
+    content: protected override SoDataReader ExecuteReader(SoCommand cmd)
+    parameters:
+    - id: cmd
+      type: SuperOffice.Data.SoCommand
+    return:
+      type: SuperOffice.Data.SoDataReader
+    content.vb: Protected Overrides Function ExecuteReader(cmd As SoCommand) As SoDataReader
+  overridden: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
+  overload: SuperOffice.CRM.Lists.FunctionRightsListProvider.ExecuteReader*
   modifiers.csharp:
   - protected
   - override
@@ -837,47 +871,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
-  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
-  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
-  isExternal: true
-  name: ExecuteReader(SoCommand)
-  nameWithType: AnyTableListProviderBase.ExecuteReader(SoCommand)
-  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
-    name: ExecuteReader
-    nameWithType: AnyTableListProviderBase.ExecuteReader
-    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.SoCommand
-    name: SoCommand
-    nameWithType: SoCommand
-    fullName: SuperOffice.Data.SoCommand
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
-    name: ExecuteReader
-    nameWithType: AnyTableListProviderBase.ExecuteReader
-    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.SoCommand
-    name: SoCommand
-    nameWithType: SoCommand
-    fullName: SuperOffice.Data.SoCommand
-    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -1835,6 +1828,60 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: ExecuteReader(SoCommand)
+  nameWithType: AnyTableListProviderBase.ExecuteReader(SoCommand)
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
+    name: ExecuteReader
+    nameWithType: AnyTableListProviderBase.ExecuteReader
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoCommand
+    name: SoCommand
+    nameWithType: SoCommand
+    fullName: SuperOffice.Data.SoCommand
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
+    name: ExecuteReader
+    nameWithType: AnyTableListProviderBase.ExecuteReader
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoCommand
+    name: SoCommand
+    nameWithType: SoCommand
+    fullName: SuperOffice.Data.SoCommand
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.FunctionRightsListProvider.ExecuteReader*
+  commentId: Overload:SuperOffice.CRM.Lists.FunctionRightsListProvider.ExecuteReader
+  isExternal: true
+  name: ExecuteReader
+  nameWithType: FunctionRightsListProvider.ExecuteReader
+  fullName: SuperOffice.CRM.Lists.FunctionRightsListProvider.ExecuteReader
+- uid: SuperOffice.Data.SoCommand
+  commentId: T:SuperOffice.Data.SoCommand
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoCommand
+  nameWithType: SoCommand
+  fullName: SuperOffice.Data.SoCommand
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.TableInfo
   commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.TableInfo
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase

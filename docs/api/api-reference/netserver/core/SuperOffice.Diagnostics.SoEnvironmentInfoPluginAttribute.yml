@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoEnvironmentInfoPluginAttribute
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nPlugin&apos;s for providing environment information while logging. (SoLogger)\n"
   syntax:
@@ -111,10 +111,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoEnvironmentInfoPluginAttribute.SoEnvironmentInfoPluginAttribute(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public SoEnvironmentInfoPluginAttribute(string name)

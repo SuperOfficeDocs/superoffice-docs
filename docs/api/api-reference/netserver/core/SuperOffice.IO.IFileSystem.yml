@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.IO.IFileSystem
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nA wrapper-interface for file-system related operations.\nThis interface is used internally to assist testing.\n"
   syntax:
@@ -45,10 +45,10 @@ items:
   fullName: SuperOffice.IO.IFileSystem.ReadAllText(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nRead all lines in the provided file.\n"
   syntax:
@@ -72,10 +72,10 @@ items:
   fullName: SuperOffice.IO.IFileSystem.FileExists(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nChecks if the filename provided represents an existing file.\n"
   syntax:

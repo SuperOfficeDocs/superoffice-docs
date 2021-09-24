@@ -26,14 +26,19 @@ items:
   - SuperOffice.Data.Dialect.OracleMassOperations
   - SuperOffice.Data.Dialect.OracleOperations
   - SuperOffice.Data.Dialect.PrivateMassOperationsFactory
+  - SuperOffice.Data.Dialect.RowStatus
   - SuperOffice.Data.Dialect.SqlCommandXml
   - SuperOffice.Data.Dialect.SqlGenerationPreferences
   - SuperOffice.Data.Dialect.SqlServer8Operations
+  - SuperOffice.Data.Dialect.SqlServerCollationMapping
   - SuperOffice.Data.Dialect.SqlServerCommon
   - SuperOffice.Data.Dialect.SqlServerMassOperations
   - SuperOffice.Data.Dialect.SqlServerOperations
+  - SuperOffice.Data.Dialect.SqlStateManager
+  - SuperOffice.Data.Dialect.SqlStateType
   - SuperOffice.Data.Dialect.SybaseCommon
   - SuperOffice.Data.Dialect.SybaseOperations
+  - SuperOffice.Data.Dialect.TempTableManager
   langs:
   - csharp
   - vb
@@ -44,62 +49,6 @@ items:
   assemblies:
   - SoDataBase
 references:
-- uid: SuperOffice.Data.Dialect.FieldValueParser
-  commentId: T:SuperOffice.Data.Dialect.FieldValueParser
-  isExternal: true
-  name: FieldValueParser
-  nameWithType: FieldValueParser
-  fullName: SuperOffice.Data.Dialect.FieldValueParser
-- uid: SuperOffice.Data.Dialect.MassOperations
-  commentId: T:SuperOffice.Data.Dialect.MassOperations
-  parent: SuperOffice.Data.Dialect
-  isExternal: true
-  name: MassOperations
-  nameWithType: MassOperations
-  fullName: SuperOffice.Data.Dialect.MassOperations
-- uid: SuperOffice.Data.Dialect.MassResult
-  commentId: T:SuperOffice.Data.Dialect.MassResult
-  parent: SuperOffice.Data.Dialect
-  isExternal: true
-  name: MassResult
-  nameWithType: MassResult
-  fullName: SuperOffice.Data.Dialect.MassResult
-- uid: SuperOffice.Data.Dialect.Oracle11
-  commentId: T:SuperOffice.Data.Dialect.Oracle11
-  isExternal: true
-  name: Oracle11
-  nameWithType: Oracle11
-  fullName: SuperOffice.Data.Dialect.Oracle11
-- uid: SuperOffice.Data.Dialect.Oracle12
-  commentId: T:SuperOffice.Data.Dialect.Oracle12
-  isExternal: true
-  name: Oracle12
-  nameWithType: Oracle12
-  fullName: SuperOffice.Data.Dialect.Oracle12
-- uid: SuperOffice.Data.Dialect.OracleMassOperations
-  commentId: T:SuperOffice.Data.Dialect.OracleMassOperations
-  isExternal: true
-  name: OracleMassOperations
-  nameWithType: OracleMassOperations
-  fullName: SuperOffice.Data.Dialect.OracleMassOperations
-- uid: SuperOffice.Data.Dialect.PrivateMassOperationsFactory
-  commentId: T:SuperOffice.Data.Dialect.PrivateMassOperationsFactory
-  isExternal: true
-  name: PrivateMassOperationsFactory
-  nameWithType: PrivateMassOperationsFactory
-  fullName: SuperOffice.Data.Dialect.PrivateMassOperationsFactory
-- uid: SuperOffice.Data.Dialect.SqlGenerationPreferences
-  commentId: T:SuperOffice.Data.Dialect.SqlGenerationPreferences
-  isExternal: true
-  name: SqlGenerationPreferences
-  nameWithType: SqlGenerationPreferences
-  fullName: SuperOffice.Data.Dialect.SqlGenerationPreferences
-- uid: SuperOffice.Data.Dialect.SqlServerMassOperations
-  commentId: T:SuperOffice.Data.Dialect.SqlServerMassOperations
-  isExternal: true
-  name: SqlServerMassOperations
-  nameWithType: SqlServerMassOperations
-  fullName: SuperOffice.Data.Dialect.SqlServerMassOperations
 - uid: SuperOffice.Data.Dialect.DatabaseOperations
   commentId: T:SuperOffice.Data.Dialect.DatabaseOperations
   parent: SuperOffice.Data.Dialect
@@ -161,6 +110,32 @@ references:
   name: Dialect.FulltextEncodedSearch
   nameWithType: Dialect.FulltextEncodedSearch
   fullName: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch
+- uid: SuperOffice.Data.Dialect.FieldValueParser
+  commentId: T:SuperOffice.Data.Dialect.FieldValueParser
+  isExternal: true
+  name: FieldValueParser
+  nameWithType: FieldValueParser
+  fullName: SuperOffice.Data.Dialect.FieldValueParser
+- uid: SuperOffice.Data.Dialect.MassOperations
+  commentId: T:SuperOffice.Data.Dialect.MassOperations
+  parent: SuperOffice.Data.Dialect
+  isExternal: true
+  name: MassOperations
+  nameWithType: MassOperations
+  fullName: SuperOffice.Data.Dialect.MassOperations
+- uid: SuperOffice.Data.Dialect.MassResult
+  commentId: T:SuperOffice.Data.Dialect.MassResult
+  parent: SuperOffice.Data.Dialect
+  isExternal: true
+  name: MassResult
+  nameWithType: MassResult
+  fullName: SuperOffice.Data.Dialect.MassResult
+- uid: SuperOffice.Data.Dialect.RowStatus
+  commentId: T:SuperOffice.Data.Dialect.RowStatus
+  isExternal: true
+  name: RowStatus
+  nameWithType: RowStatus
+  fullName: SuperOffice.Data.Dialect.RowStatus
 - uid: SuperOffice.Data.Dialect.MySqlCommon
   commentId: T:SuperOffice.Data.Dialect.MySqlCommon
   isExternal: true
@@ -173,6 +148,18 @@ references:
   name: Oracle10
   nameWithType: Oracle10
   fullName: SuperOffice.Data.Dialect.Oracle10
+- uid: SuperOffice.Data.Dialect.Oracle11
+  commentId: T:SuperOffice.Data.Dialect.Oracle11
+  isExternal: true
+  name: Oracle11
+  nameWithType: Oracle11
+  fullName: SuperOffice.Data.Dialect.Oracle11
+- uid: SuperOffice.Data.Dialect.Oracle12
+  commentId: T:SuperOffice.Data.Dialect.Oracle12
+  isExternal: true
+  name: Oracle12
+  nameWithType: Oracle12
+  fullName: SuperOffice.Data.Dialect.Oracle12
 - uid: SuperOffice.Data.Dialect.Oracle8
   commentId: T:SuperOffice.Data.Dialect.Oracle8
   isExternal: true
@@ -192,18 +179,54 @@ references:
   name: OracleCommon
   nameWithType: OracleCommon
   fullName: SuperOffice.Data.Dialect.OracleCommon
+- uid: SuperOffice.Data.Dialect.OracleMassOperations
+  commentId: T:SuperOffice.Data.Dialect.OracleMassOperations
+  isExternal: true
+  name: OracleMassOperations
+  nameWithType: OracleMassOperations
+  fullName: SuperOffice.Data.Dialect.OracleMassOperations
 - uid: SuperOffice.Data.Dialect.OracleOperations
   commentId: T:SuperOffice.Data.Dialect.OracleOperations
   isExternal: true
   name: OracleOperations
   nameWithType: OracleOperations
   fullName: SuperOffice.Data.Dialect.OracleOperations
+- uid: SuperOffice.Data.Dialect.PrivateMassOperationsFactory
+  commentId: T:SuperOffice.Data.Dialect.PrivateMassOperationsFactory
+  isExternal: true
+  name: PrivateMassOperationsFactory
+  nameWithType: PrivateMassOperationsFactory
+  fullName: SuperOffice.Data.Dialect.PrivateMassOperationsFactory
+- uid: SuperOffice.Data.Dialect.SqlCommandXml
+  commentId: T:SuperOffice.Data.Dialect.SqlCommandXml
+  isExternal: true
+  name: SqlCommandXml
+  nameWithType: SqlCommandXml
+  fullName: SuperOffice.Data.Dialect.SqlCommandXml
+- uid: SuperOffice.Data.Dialect.SqlGenerationPreferences
+  commentId: T:SuperOffice.Data.Dialect.SqlGenerationPreferences
+  isExternal: true
+  name: SqlGenerationPreferences
+  nameWithType: SqlGenerationPreferences
+  fullName: SuperOffice.Data.Dialect.SqlGenerationPreferences
+- uid: SuperOffice.Data.Dialect.SqlServerCollationMapping
+  commentId: T:SuperOffice.Data.Dialect.SqlServerCollationMapping
+  isExternal: true
+  name: SqlServerCollationMapping
+  nameWithType: SqlServerCollationMapping
+  fullName: SuperOffice.Data.Dialect.SqlServerCollationMapping
 - uid: SuperOffice.Data.Dialect.SqlServerCommon
   commentId: T:SuperOffice.Data.Dialect.SqlServerCommon
   isExternal: true
   name: SqlServerCommon
   nameWithType: SqlServerCommon
   fullName: SuperOffice.Data.Dialect.SqlServerCommon
+- uid: SuperOffice.Data.Dialect.SqlServerMassOperations
+  commentId: T:SuperOffice.Data.Dialect.SqlServerMassOperations
+  isExternal: true
+  name: SqlServerMassOperations
+  nameWithType: SqlServerMassOperations
+  fullName: SuperOffice.Data.Dialect.SqlServerMassOperations
 - uid: SuperOffice.Data.Dialect.SqlServerOperations
   commentId: T:SuperOffice.Data.Dialect.SqlServerOperations
   parent: SuperOffice.Data.Dialect
@@ -217,24 +240,37 @@ references:
   name: SqlServer8Operations
   nameWithType: SqlServer8Operations
   fullName: SuperOffice.Data.Dialect.SqlServer8Operations
+- uid: SuperOffice.Data.Dialect.SqlStateType
+  commentId: T:SuperOffice.Data.Dialect.SqlStateType
+  parent: SuperOffice.Data.Dialect
+  isExternal: true
+  name: SqlStateType
+  nameWithType: SqlStateType
+  fullName: SuperOffice.Data.Dialect.SqlStateType
+- uid: SuperOffice.Data.Dialect.SqlStateManager
+  commentId: T:SuperOffice.Data.Dialect.SqlStateManager
+  isExternal: true
+  name: SqlStateManager
+  nameWithType: SqlStateManager
+  fullName: SuperOffice.Data.Dialect.SqlStateManager
 - uid: SuperOffice.Data.Dialect.SybaseCommon
   commentId: T:SuperOffice.Data.Dialect.SybaseCommon
   isExternal: true
   name: SybaseCommon
   nameWithType: SybaseCommon
   fullName: SuperOffice.Data.Dialect.SybaseCommon
-- uid: SuperOffice.Data.Dialect.SqlCommandXml
-  commentId: T:SuperOffice.Data.Dialect.SqlCommandXml
-  isExternal: true
-  name: SqlCommandXml
-  nameWithType: SqlCommandXml
-  fullName: SuperOffice.Data.Dialect.SqlCommandXml
 - uid: SuperOffice.Data.Dialect.SybaseOperations
   commentId: T:SuperOffice.Data.Dialect.SybaseOperations
   isExternal: true
   name: SybaseOperations
   nameWithType: SybaseOperations
   fullName: SuperOffice.Data.Dialect.SybaseOperations
+- uid: SuperOffice.Data.Dialect.TempTableManager
+  commentId: T:SuperOffice.Data.Dialect.TempTableManager
+  isExternal: true
+  name: TempTableManager
+  nameWithType: TempTableManager
+  fullName: SuperOffice.Data.Dialect.TempTableManager
 - uid: SuperOffice.Data.Dialect
   commentId: N:SuperOffice.Data.Dialect
   isExternal: true

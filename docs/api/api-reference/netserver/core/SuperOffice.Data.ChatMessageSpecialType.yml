@@ -30,10 +30,10 @@ items:
   fullName: SuperOffice.Data.ChatMessageSpecialType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nChat Message Special type\nThis Enum is used by:  chat_message.special_type\n"
   syntax:
@@ -62,10 +62,10 @@ items:
   fullName: SuperOffice.Data.ChatMessageSpecialType.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: None\n"
   syntax:
@@ -90,10 +90,10 @@ items:
   fullName: SuperOffice.Data.ChatMessageSpecialType.Welcome
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Welcome\n"
   syntax:
@@ -118,10 +118,10 @@ items:
   fullName: SuperOffice.Data.ChatMessageSpecialType.Url
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Url\n"
   syntax:
@@ -146,10 +146,10 @@ items:
   fullName: SuperOffice.Data.ChatMessageSpecialType.Block
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Block\n"
   syntax:
@@ -174,10 +174,10 @@ items:
   fullName: SuperOffice.Data.ChatMessageSpecialType.NewSession
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: NewSession\n"
   syntax:
@@ -202,10 +202,10 @@ items:
   fullName: SuperOffice.Data.ChatMessageSpecialType.TransferedSession
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: TransferedSession\n"
   syntax:
@@ -230,10 +230,10 @@ items:
   fullName: SuperOffice.Data.ChatMessageSpecialType.Error
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: Error\n"
   syntax:
@@ -258,10 +258,10 @@ items:
   fullName: SuperOffice.Data.ChatMessageSpecialType.SessionDeleted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: SessionDeleted\n"
   syntax:
@@ -286,10 +286,10 @@ items:
   fullName: SuperOffice.Data.ChatMessageSpecialType.FaqSuccessQuestion
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n9: FaqSuccessQuestion\n"
   syntax:
@@ -314,10 +314,10 @@ items:
   fullName: SuperOffice.Data.ChatMessageSpecialType.ClosedByUser
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n10: ClosedByUser\n"
   syntax:
@@ -342,10 +342,10 @@ items:
   fullName: SuperOffice.Data.ChatMessageSpecialType.ClosedByCustomer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n11: ClosedByCustomer\n"
   syntax:
@@ -370,10 +370,10 @@ items:
   fullName: SuperOffice.Data.ChatMessageSpecialType.ClosedByIdle
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n12: ClosedByIdle\n"
   syntax:
@@ -398,10 +398,10 @@ items:
   fullName: SuperOffice.Data.ChatMessageSpecialType.TransferRejected
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n13: TransferRejected\n"
   syntax:
@@ -426,10 +426,10 @@ items:
   fullName: SuperOffice.Data.ChatMessageSpecialType.ReopenedByCustomer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n14: ReopenedByCustomer\n"
   syntax:
@@ -454,10 +454,10 @@ items:
   fullName: SuperOffice.Data.ChatMessageSpecialType.ClickedOption
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n15: ClickedOption\n"
   syntax:
@@ -482,10 +482,10 @@ items:
   fullName: SuperOffice.Data.ChatMessageSpecialType.BotMessage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16: Bot message\n"
   syntax:
@@ -510,10 +510,10 @@ items:
   fullName: SuperOffice.Data.ChatMessageSpecialType.Options
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n17: Message has a list of clickable options. Options are as JSON array in specialParam\n"
   syntax:

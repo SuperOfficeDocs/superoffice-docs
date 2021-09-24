@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Security.Sentry
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nSentry configuration\n"
   syntax:
@@ -52,10 +52,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Security.Sentry.Ignore
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nIgnore the Sentry mechanism, everything will be allowed (default &apos;False&apos;)\n"
   remarks: "\nThis option is only available in SuperOffice NetServer version 1.0. The reason for permitting it here is that the Sentry mechanism is rather new, and disabeling it is the last resort in case of severe problems.\n"

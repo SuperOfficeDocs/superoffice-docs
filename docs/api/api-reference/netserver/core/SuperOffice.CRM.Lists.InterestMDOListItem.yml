@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.CRM.Lists.InterestMDOListItem
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n\n"
   syntax:
@@ -79,10 +79,10 @@ items:
   fullName: SuperOffice.CRM.Lists.InterestMDOListItem.InterestMDOListItem(System.Int32, System.String, System.String, System.Int16, System.Boolean, System.String, System.Int32, System.String, System.String, System.String, System.Boolean, System.DateTime)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n\n"
   syntax:

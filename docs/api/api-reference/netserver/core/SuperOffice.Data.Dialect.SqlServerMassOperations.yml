@@ -31,7 +31,7 @@ items:
   - SuperOffice.Data.Dialect.MassOperations.GetCurrent
   - SuperOffice.Data.Dialect.MassOperations.Insert(System.String,System.String[],System.String[][])
   - SuperOffice.Data.Dialect.MassOperations.Truncate(System.String)
-  - SuperOffice.Data.Dialect.MassOperations.Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
+  - SuperOffice.Data.Dialect.MassOperations.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
   - SuperOffice.Data.Dialect.MassOperations.Delete(System.String,System.Int32[])
   - System.Object.ToString
   - System.Object.Equals(System.Object)
@@ -263,18 +263,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.Dialect.MassOperations.Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
-  commentId: M:SuperOffice.Data.Dialect.MassOperations.Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
+- uid: SuperOffice.Data.Dialect.MassOperations.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
+  commentId: M:SuperOffice.Data.Dialect.MassOperations.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
   parent: SuperOffice.Data.Dialect.MassOperations
   isExternal: true
-  name: Upsert(String, String[], String[], Boolean, String[][])
-  nameWithType: MassOperations.Upsert(String, String[], String[], Boolean, String[][])
-  fullName: SuperOffice.Data.Dialect.MassOperations.Upsert(System.String, System.String[], System.String[], System.Boolean, System.String[][])
-  nameWithType.vb: MassOperations.Upsert(String, String(), String(), Boolean, String()())
-  fullName.vb: SuperOffice.Data.Dialect.MassOperations.Upsert(System.String, System.String(), System.String(), System.Boolean, System.String()())
-  name.vb: Upsert(String, String(), String(), Boolean, String()())
+  name: Upsert(String, String[], String[], String[][], UpsertNomatchAction, Boolean)
+  nameWithType: MassOperations.Upsert(String, String[], String[], String[][], UpsertNomatchAction, Boolean)
+  fullName: SuperOffice.Data.Dialect.MassOperations.Upsert(System.String, System.String[], System.String[], System.String[][], SuperOffice.Data.UpsertNomatchAction, System.Boolean)
+  nameWithType.vb: MassOperations.Upsert(String, String(), String(), String()(), UpsertNomatchAction, Boolean)
+  fullName.vb: SuperOffice.Data.Dialect.MassOperations.Upsert(System.String, System.String(), System.String(), System.String()(), SuperOffice.Data.UpsertNomatchAction, System.Boolean)
+  name.vb: Upsert(String, String(), String(), String()(), UpsertNomatchAction, Boolean)
   spec.csharp:
-  - uid: SuperOffice.Data.Dialect.MassOperations.Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
+  - uid: SuperOffice.Data.Dialect.MassOperations.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
     name: Upsert
     nameWithType: MassOperations.Upsert
     fullName: SuperOffice.Data.Dialect.MassOperations.Upsert
@@ -312,14 +312,6 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
   - uid: System.String
     name: String
     nameWithType: String
@@ -331,11 +323,27 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.UpsertNomatchAction
+    name: UpsertNomatchAction
+    nameWithType: UpsertNomatchAction
+    fullName: SuperOffice.Data.UpsertNomatchAction
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.Dialect.MassOperations.Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
+  - uid: SuperOffice.Data.Dialect.MassOperations.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
     name: Upsert
     nameWithType: MassOperations.Upsert
     fullName: SuperOffice.Data.Dialect.MassOperations.Upsert
@@ -373,14 +381,6 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
   - uid: System.String
     name: String
     nameWithType: String
@@ -392,6 +392,22 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.UpsertNomatchAction
+    name: UpsertNomatchAction
+    nameWithType: UpsertNomatchAction
+    fullName: SuperOffice.Data.UpsertNomatchAction
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )

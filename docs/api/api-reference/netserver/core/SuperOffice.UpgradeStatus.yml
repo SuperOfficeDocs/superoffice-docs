@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.UpgradeStatus
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: public enum UpgradeStatus
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.UpgradeStatus.NoUpgrade
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: NoUpgrade = 0
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.UpgradeStatus.Optional
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: Optional = 1
@@ -102,10 +102,10 @@ items:
   fullName: SuperOffice.UpgradeStatus.Required
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: Required = 2
@@ -129,10 +129,10 @@ items:
   fullName: SuperOffice.UpgradeStatus.DowngradeRequired
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   syntax:
     content: DowngradeRequired = 3

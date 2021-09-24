@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Data.MDOSortOrder
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nList sort order, global for all lists\n"
   syntax:
@@ -47,10 +47,10 @@ items:
   fullName: SuperOffice.Data.MDOSortOrder.ByRank
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: ByRank = 0
@@ -74,10 +74,10 @@ items:
   fullName: SuperOffice.Data.MDOSortOrder.Alphabetic
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Alphabetic = 1

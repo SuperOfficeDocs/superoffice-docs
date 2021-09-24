@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.WebServices
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nUtility class used to access the SuperOffice.CRM.Services entry in the Config file.\n"
   syntax:
@@ -55,10 +55,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.WebServices.AllowWebServiceRequests
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nPermit requests to web services.  This value is supported in the default SoWcfRequestInterceptor and can be overriden by making a custom SoWcfRequestInterceptorPlugin.\n"
   syntax:
@@ -88,10 +88,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.WebServices.WrapExceptions
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nCheck if NetServer shall wrap and serialize exceptions, or leave it up to communication carrier (i.e. WCF)\n"
   syntax:
@@ -121,10 +121,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.WebServices.RemoveInvalidXMLText
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nIf we should remove UTF-8 characters that are not valid XML. The Text table is the only place where this filter is active.\n"
   syntax:
@@ -154,10 +154,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.WebServices.RemoteBaseURL
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nBase URL for remote services (Default: http://localhost/webs/SuperOffice.Web.Services).  This value will override by Services.RemoteBaseURL\n"
   syntax:

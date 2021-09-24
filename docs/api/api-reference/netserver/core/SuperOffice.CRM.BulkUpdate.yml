@@ -21,9 +21,11 @@ items:
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SearchOption
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SelectionFieldValueKeys
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ValueTypes
   - SuperOffice.CRM.BulkUpdate.ControlInfo
   - SuperOffice.CRM.BulkUpdate.FieldValueInfo
+  - SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType
   - SuperOffice.CRM.BulkUpdate.OperationInfo
   - SuperOffice.CRM.BulkUpdate.RowResultItem
   langs:
@@ -154,6 +156,12 @@ references:
   name: BulkUpdateSystem.SelectionFieldValueKeys
   nameWithType: BulkUpdateSystem.SelectionFieldValueKeys
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SelectionFieldValueKeys
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
+  commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
+  isExternal: true
+  name: BulkUpdateSystem.TicketFieldValueKeys
+  nameWithType: BulkUpdateSystem.TicketFieldValueKeys
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
 - uid: SuperOffice.CRM.BulkUpdate.OperationInfo
   commentId: T:SuperOffice.CRM.BulkUpdate.OperationInfo
   isExternal: true
@@ -173,6 +181,13 @@ references:
   name: FieldValueInfo
   nameWithType: FieldValueInfo
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo
+- uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType
+  commentId: T:SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType
+  parent: SuperOffice.CRM.BulkUpdate
+  isExternal: true
+  name: FieldValueInfo.EKeyType
+  nameWithType: FieldValueInfo.EKeyType
+  fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType
 - uid: SuperOffice.CRM.BulkUpdate
   commentId: N:SuperOffice.CRM.BulkUpdate
   isExternal: true

@@ -36,10 +36,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nField types as used in the data dictionary, taken from the Excel master data dictionary.\nNote that the constants are in some cases not unique (Double and Float both have 16), this\nis for historical reasons.\n<p></p>\nThese constants should be used to interpret the <see cref=\"!:SuperOffice.Data.Dictionary.SoField.ConceptualType\"></see> property\nof the <see cref=\"!:SuperOffice.Data.Dictionary.SoField\"></see> object.\n"
   syntax:
@@ -74,10 +74,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Char
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n-1: Char, not a datatype we use at all in the database\n"
   syntax:
@@ -103,10 +103,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Void
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int Void = 0
@@ -131,10 +131,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.UChar
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int UChar = 2
@@ -159,10 +159,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Byte
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int Byte = 3
@@ -187,10 +187,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.ByteId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int ByteId = 4
@@ -215,10 +215,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Short
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: 16-bit signed integer\n"
   syntax:
@@ -244,10 +244,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.UShort
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: Unsigned 16-bit integer; also used for flags that express a boolean value (0, 1 allowed)\n"
   syntax:
@@ -273,10 +273,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.ShortId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: 16-bit unsigned integer\n"
   syntax:
@@ -302,10 +302,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Bool
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int Bool = 8
@@ -330,10 +330,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Long
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n9: Signed 32-bit integer\n"
   syntax:
@@ -359,10 +359,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.ULong
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n10: Unsigned 32-bit integer\n"
   syntax:
@@ -388,10 +388,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.LongId
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n11: Record ID, in principle unsigned 32-bit integer, the &apos;int&apos; datatype is used in NetServer\n"
   syntax:
@@ -417,10 +417,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.DateTime
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n12: DateTime, expressed as seconds since 00:00:00 january 1st, 1970\n"
   syntax:
@@ -446,10 +446,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Date
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n13: Date, without a time component; not used in practice\n"
   syntax:
@@ -475,10 +475,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Time
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int Time = 14
@@ -503,10 +503,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Double
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16: Floating-point value\n"
   syntax:
@@ -532,10 +532,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Float
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16: Floating-point value\n"
   syntax:
@@ -561,10 +561,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.String
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n17: String (usually max 254 significant characters)\n"
   syntax:
@@ -590,10 +590,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.LvString
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n18: Long string, typically 1023 or 2047 characters long, usually stored as a blob\n"
   syntax:
@@ -619,10 +619,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.VString
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n18: String, usually max 1023 or 2047 characters\n"
   syntax:
@@ -648,10 +648,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Blob
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n20: Binary large object; only one such field is allowed per table in the current C++ SODBIF implementation.\n"
   syntax:
@@ -677,10 +677,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.DbDateTime
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n21: Datetime, stored as such in the database (not stored as seconds since 1/1/1970!)\n"
   syntax:
@@ -706,10 +706,10 @@ items:
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.TextBlob
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n22: Text large object\n"
   syntax:

@@ -21,10 +21,10 @@ items:
   fullName: SuperOffice.Exceptions.SoExceptionInfo
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nRepresentation of a serialized exception that can be communicatyed over Wcf\n"
   remarks: "\nUse <xref href=\"SuperOffice.Exceptions.ExceptionHelper\" data-throw-if-not-resolved=\"false\"></xref> to work with the SoException Class\n"
@@ -69,10 +69,10 @@ items:
   fullName: SuperOffice.Exceptions.SoExceptionInfo.SoExceptionInfo()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nDefault Constructor.\n"
   syntax:
@@ -95,10 +95,10 @@ items:
   fullName: SuperOffice.Exceptions.SoExceptionInfo.Message
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nThe message that describes the error.\n"
   syntax:
@@ -126,10 +126,10 @@ items:
   fullName: SuperOffice.Exceptions.SoExceptionInfo.StackTrace
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nA string that describes the contents of the call stack, \nwith the most recent method call appearing first.\n"
   syntax:
@@ -157,10 +157,10 @@ items:
   fullName: SuperOffice.Exceptions.SoExceptionInfo.FriendlyText
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nFriendly name.\n"
   syntax:
@@ -188,10 +188,10 @@ items:
   fullName: SuperOffice.Exceptions.SoExceptionInfo.ExceptionType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nType of Exception.\n"
   syntax:
@@ -219,10 +219,10 @@ items:
   fullName: SuperOffice.Exceptions.SoExceptionInfo.Source
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nThe name of the application or the object that causes the error.\n"
   syntax:
@@ -250,10 +250,10 @@ items:
   fullName: SuperOffice.Exceptions.SoExceptionInfo.InnerException
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nInner Exception.\n"
   syntax:
@@ -281,10 +281,10 @@ items:
   fullName: SuperOffice.Exceptions.SoExceptionInfo.Parameters
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nAdditional parameters relevant to describe the exception.\n"
   syntax:

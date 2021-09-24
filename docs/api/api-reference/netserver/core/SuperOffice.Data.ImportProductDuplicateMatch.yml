@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.ImportProductDuplicateMatch
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nProduct duplicate matching for import\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.ImportProductDuplicateMatch.Name
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Name\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.ImportProductDuplicateMatch.Code
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Code\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.ImportProductDuplicateMatch.NameCode
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Name + Code\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.ImportProductDuplicateMatch.ErpKey
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: ErpKey\n"
   syntax:

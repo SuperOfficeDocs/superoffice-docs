@@ -1,0 +1,1166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
+  commentId: T:SuperOffice.CRM.Services.Implementation.ServiceLogData
+  id: ServiceLogData
+  parent: SuperOffice.CRM.Services.Implementation
+  children:
+  - SuperOffice.CRM.Services.Implementation.ServiceLogData.#ctor
+  - SuperOffice.CRM.Services.Implementation.ServiceLogData.AgentName
+  - SuperOffice.CRM.Services.Implementation.ServiceLogData.AppName
+  - SuperOffice.CRM.Services.Implementation.ServiceLogData.AppToken
+  - SuperOffice.CRM.Services.Implementation.ServiceLogData.AssocName
+  - SuperOffice.CRM.Services.Implementation.ServiceLogData.ContextId
+  - SuperOffice.CRM.Services.Implementation.ServiceLogData.DbOps
+  - SuperOffice.CRM.Services.Implementation.ServiceLogData.DbRows
+  - SuperOffice.CRM.Services.Implementation.ServiceLogData.MaxParallelThreads
+  - SuperOffice.CRM.Services.Implementation.ServiceLogData.MethodName
+  - SuperOffice.CRM.Services.Implementation.ServiceLogData.OpSeqNo
+  - SuperOffice.CRM.Services.Implementation.ServiceLogData.Parameters
+  - SuperOffice.CRM.Services.Implementation.ServiceLogData.ReturnValue
+  - SuperOffice.CRM.Services.Implementation.ServiceLogData.Runtime
+  - SuperOffice.CRM.Services.Implementation.ServiceLogData.ThreadId
+  - SuperOffice.CRM.Services.Implementation.ServiceLogData.ThreadName
+  langs:
+  - csharp
+  - vb
+  name: ServiceLogData
+  nameWithType: ServiceLogData
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public class ServiceLogData
+    content.vb: Public Class ServiceLogData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Services.Implementation.ServiceLogData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Services.Implementation.ServiceLogData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.Implementation.ServiceLogData)
+  - SuperOffice.CRM.Services.Implementation.ServiceLogData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Services.Implementation.ServiceLogData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.AgentName
+  commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.AgentName
+  id: AgentName
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogData
+  langs:
+  - csharp
+  - vb
+  name: AgentName
+  nameWithType: ServiceLogData.AgentName
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.AgentName
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public string AgentName
+    return:
+      type: System.String
+    content.vb: Public AgentName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.MethodName
+  commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.MethodName
+  id: MethodName
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogData
+  langs:
+  - csharp
+  - vb
+  name: MethodName
+  nameWithType: ServiceLogData.MethodName
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.MethodName
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public string MethodName
+    return:
+      type: System.String
+    content.vb: Public MethodName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.Parameters
+  commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.Parameters
+  id: Parameters
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogData
+  langs:
+  - csharp
+  - vb
+  name: Parameters
+  nameWithType: ServiceLogData.Parameters
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.Parameters
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public string[] Parameters
+    return:
+      type: System.String[]
+    content.vb: Public Parameters As String()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.ReturnValue
+  commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.ReturnValue
+  id: ReturnValue
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogData
+  langs:
+  - csharp
+  - vb
+  name: ReturnValue
+  nameWithType: ServiceLogData.ReturnValue
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.ReturnValue
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public string ReturnValue
+    return:
+      type: System.String
+    content.vb: Public ReturnValue As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.ContextId
+  commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.ContextId
+  id: ContextId
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogData
+  langs:
+  - csharp
+  - vb
+  name: ContextId
+  nameWithType: ServiceLogData.ContextId
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.ContextId
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public string ContextId
+    return:
+      type: System.String
+    content.vb: Public ContextId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.ThreadId
+  commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.ThreadId
+  id: ThreadId
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogData
+  langs:
+  - csharp
+  - vb
+  name: ThreadId
+  nameWithType: ServiceLogData.ThreadId
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.ThreadId
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public int ThreadId
+    return:
+      type: System.Int32
+    content.vb: Public ThreadId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.ThreadName
+  commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.ThreadName
+  id: ThreadName
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogData
+  langs:
+  - csharp
+  - vb
+  name: ThreadName
+  nameWithType: ServiceLogData.ThreadName
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.ThreadName
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public string ThreadName
+    return:
+      type: System.String
+    content.vb: Public ThreadName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.Runtime
+  commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.Runtime
+  id: Runtime
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogData
+  langs:
+  - csharp
+  - vb
+  name: Runtime
+  nameWithType: ServiceLogData.Runtime
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.Runtime
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public int Runtime
+    return:
+      type: System.Int32
+    content.vb: Public Runtime As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.AssocName
+  commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.AssocName
+  id: AssocName
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogData
+  langs:
+  - csharp
+  - vb
+  name: AssocName
+  nameWithType: ServiceLogData.AssocName
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.AssocName
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public string AssocName
+    return:
+      type: System.String
+    content.vb: Public AssocName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.AppToken
+  commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.AppToken
+  id: AppToken
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogData
+  langs:
+  - csharp
+  - vb
+  name: AppToken
+  nameWithType: ServiceLogData.AppToken
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.AppToken
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public string AppToken
+    return:
+      type: System.String
+    content.vb: Public AppToken As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.AppName
+  commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.AppName
+  id: AppName
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogData
+  langs:
+  - csharp
+  - vb
+  name: AppName
+  nameWithType: ServiceLogData.AppName
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.AppName
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public string AppName
+    return:
+      type: System.String
+    content.vb: Public AppName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.OpSeqNo
+  commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.OpSeqNo
+  id: OpSeqNo
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogData
+  langs:
+  - csharp
+  - vb
+  name: OpSeqNo
+  nameWithType: ServiceLogData.OpSeqNo
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.OpSeqNo
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public int OpSeqNo
+    return:
+      type: System.Int32
+    content.vb: Public OpSeqNo As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.DbOps
+  commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.DbOps
+  id: DbOps
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogData
+  langs:
+  - csharp
+  - vb
+  name: DbOps
+  nameWithType: ServiceLogData.DbOps
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.DbOps
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public int DbOps
+    return:
+      type: System.Int32
+    content.vb: Public DbOps As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.DbRows
+  commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.DbRows
+  id: DbRows
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogData
+  langs:
+  - csharp
+  - vb
+  name: DbRows
+  nameWithType: ServiceLogData.DbRows
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.DbRows
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public int DbRows
+    return:
+      type: System.Int32
+    content.vb: Public DbRows As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.MaxParallelThreads
+  commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.MaxParallelThreads
+  id: MaxParallelThreads
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogData
+  langs:
+  - csharp
+  - vb
+  name: MaxParallelThreads
+  nameWithType: ServiceLogData.MaxParallelThreads
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.MaxParallelThreads
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public int MaxParallelThreads
+    return:
+      type: System.Int32
+    content.vb: Public MaxParallelThreads As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.#ctor
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogData
+  langs:
+  - csharp
+  - vb
+  name: ServiceLogData()
+  nameWithType: ServiceLogData.ServiceLogData()
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.ServiceLogData()
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public ServiceLogData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.Implementation.ServiceLogData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services.Implementation
+  commentId: N:SuperOffice.CRM.Services.Implementation
+  isExternal: true
+  name: SuperOffice.CRM.Services.Implementation
+  nameWithType: SuperOffice.CRM.Services.Implementation
+  fullName: SuperOffice.CRM.Services.Implementation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ServiceLogData, To>()
+  nameWithType: EnumUtil.MapEnums<ServiceLogData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceLogData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ServiceLogData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceLogData, To)()
+  name.vb: MapEnums(Of ServiceLogData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ServiceLogData, To>
+    nameWithType: EnumUtil.MapEnums<ServiceLogData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceLogData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ServiceLogData, To)
+    nameWithType: EnumUtil.MapEnums(Of ServiceLogData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceLogData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.Implementation.ServiceLogData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ServiceLogData>(ServiceLogData)
+  nameWithType: ObjectExtensions.AssignByReflection<ServiceLogData>(ServiceLogData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Services.Implementation.ServiceLogData>(SuperOffice.CRM.Services.Implementation.ServiceLogData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ServiceLogData)(ServiceLogData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Services.Implementation.ServiceLogData)(SuperOffice.CRM.Services.Implementation.ServiceLogData)
+  name.vb: AssignByReflection(Of ServiceLogData)(ServiceLogData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ServiceLogData>
+    nameWithType: ObjectExtensions.AssignByReflection<ServiceLogData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Services.Implementation.ServiceLogData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
+    name: ServiceLogData
+    nameWithType: ServiceLogData
+    fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ServiceLogData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ServiceLogData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Services.Implementation.ServiceLogData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
+    name: ServiceLogData
+    nameWithType: ServiceLogData
+    fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ServiceLogData>()
+  nameWithType: ObjectExtensions.GraphCopy<ServiceLogData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Services.Implementation.ServiceLogData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ServiceLogData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Services.Implementation.ServiceLogData)()
+  name.vb: GraphCopy(Of ServiceLogData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ServiceLogData>
+    nameWithType: ObjectExtensions.GraphCopy<ServiceLogData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Services.Implementation.ServiceLogData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ServiceLogData)
+    nameWithType: ObjectExtensions.GraphCopy(Of ServiceLogData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Services.Implementation.ServiceLogData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ServiceLogData, To>()
+  nameWithType: Converters.MapEnums<ServiceLogData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceLogData, To>()
+  nameWithType.vb: Converters.MapEnums(Of ServiceLogData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceLogData, To)()
+  name.vb: MapEnums(Of ServiceLogData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ServiceLogData, To>
+    nameWithType: Converters.MapEnums<ServiceLogData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceLogData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ServiceLogData, To)
+    nameWithType: Converters.MapEnums(Of ServiceLogData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceLogData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogData.#ctor
+  isExternal: true
+  name: ServiceLogData
+  nameWithType: ServiceLogData.ServiceLogData
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.ServiceLogData

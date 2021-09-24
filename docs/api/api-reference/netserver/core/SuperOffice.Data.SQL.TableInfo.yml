@@ -73,8 +73,8 @@ items:
   - SuperOffice.CRM.Data.BusinessGroupLinkTableInfo
   - SuperOffice.CRM.Data.BusinessHeadingLinkTableInfo
   - SuperOffice.CRM.Data.BusinessTableInfo
+  - SuperOffice.CRM.Data.CacheInvalidationTableInfo
   - SuperOffice.CRM.Data.CacheTablesTableInfo
-  - SuperOffice.CRM.Data.CacheTabsTableInfo
   - SuperOffice.CRM.Data.CategoryFamilyTableInfo
   - SuperOffice.CRM.Data.CategoryGroupLinkTableInfo
   - SuperOffice.CRM.Data.CategoryHeadingLinkTableInfo
@@ -90,6 +90,7 @@ items:
   - SuperOffice.CRM.Data.ComptrHeadingLinkTableInfo
   - SuperOffice.CRM.Data.ComptrTableInfo
   - SuperOffice.CRM.Data.ConfigTableInfo
+  - SuperOffice.CRM.Data.ConfigurableScreenDeltaTableInfo
   - SuperOffice.CRM.Data.ConnectionConfigFieldTableInfo
   - SuperOffice.CRM.Data.ConsentPersonTableInfo
   - SuperOffice.CRM.Data.ConsentPurposeTableInfo
@@ -98,7 +99,6 @@ items:
   - SuperOffice.CRM.Data.ContactTableInfo
   - SuperOffice.CRM.Data.ContIntGroupLinkTableInfo
   - SuperOffice.CRM.Data.ContIntHeadingLinkTableInfo
-  - SuperOffice.CRM.Data.ContIntListTableInfo
   - SuperOffice.CRM.Data.ContIntTableInfo
   - SuperOffice.CRM.Data.CounterValueTableInfo
   - SuperOffice.CRM.Data.CountryGroupLinkTableInfo
@@ -114,9 +114,13 @@ items:
   - SuperOffice.CRM.Data.CustCategoryTableInfo
   - SuperOffice.CRM.Data.CustConfigTableInfo
   - SuperOffice.CRM.Data.CustLangTableInfo
+  - SuperOffice.CRM.Data.DashboardTableInfo
+  - SuperOffice.CRM.Data.DashboardThemeTableInfo
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  - SuperOffice.CRM.Data.DashboardTileFieldTableInfo
+  - SuperOffice.CRM.Data.DashboardTileTableInfo
   - SuperOffice.CRM.Data.DatabaseModelTableInfo
   - SuperOffice.CRM.Data.DataRightTableInfo
-  - SuperOffice.CRM.Data.DateTestTableInfo
   - SuperOffice.CRM.Data.DbiAgentFieldTableInfo
   - SuperOffice.CRM.Data.DbiAgentScheduleTableInfo
   - SuperOffice.CRM.Data.DbiAgentTableInfo
@@ -201,7 +205,6 @@ items:
   - SuperOffice.CRM.Data.HelpTableInfo
   - SuperOffice.CRM.Data.HierarchyTableInfo
   - SuperOffice.CRM.Data.HistoryTableInfo
-  - SuperOffice.CRM.Data.HistTableInfo
   - SuperOffice.CRM.Data.HotlistTableInfo
   - SuperOffice.CRM.Data.ImportDefaultTableInfo
   - SuperOffice.CRM.Data.ImportFieldTableInfo
@@ -284,7 +287,6 @@ items:
   - SuperOffice.CRM.Data.PaymentTypeTableInfo
   - SuperOffice.CRM.Data.PersIntGroupLinkTableInfo
   - SuperOffice.CRM.Data.PersIntHeadingLinkTableInfo
-  - SuperOffice.CRM.Data.PersIntListTableInfo
   - SuperOffice.CRM.Data.PersIntTableInfo
   - SuperOffice.CRM.Data.PersonInterestTableInfo
   - SuperOffice.CRM.Data.PersonTableInfo
@@ -299,7 +301,6 @@ items:
   - SuperOffice.CRM.Data.PrefDescLineTableInfo
   - SuperOffice.CRM.Data.PrefDescTableInfo
   - SuperOffice.CRM.Data.PreferenceTableInfo
-  - SuperOffice.CRM.Data.PreferenTableInfo
   - SuperOffice.CRM.Data.PriceListTableInfo
   - SuperOffice.CRM.Data.PriceUnitGroupLinkTableInfo
   - SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo

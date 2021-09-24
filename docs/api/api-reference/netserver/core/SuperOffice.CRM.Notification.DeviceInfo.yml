@@ -13,6 +13,7 @@ items:
   - SuperOffice.CRM.Notification.DeviceInfo.Platform
   - SuperOffice.CRM.Notification.DeviceInfo.PNSHandle
   - SuperOffice.CRM.Notification.DeviceInfo.PocketVersion
+  - SuperOffice.CRM.Notification.DeviceInfo.TimeZoneId
   langs:
   - csharp
   - vb
@@ -287,6 +288,37 @@ items:
       type: System.String
     content.vb: Public Property OSVersion As String
   overload: SuperOffice.CRM.Notification.DeviceInfo.OSVersion*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.DeviceInfo.TimeZoneId
+  commentId: P:SuperOffice.CRM.Notification.DeviceInfo.TimeZoneId
+  id: TimeZoneId
+  parent: SuperOffice.CRM.Notification.DeviceInfo
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneId
+  nameWithType: DeviceInfo.TimeZoneId
+  fullName: SuperOffice.CRM.Notification.DeviceInfo.TimeZoneId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  summary: "\nThe timezone to show for dates in messages \n"
+  syntax:
+    content: public int TimeZoneId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TimeZoneId As Integer
+  overload: SuperOffice.CRM.Notification.DeviceInfo.TimeZoneId*
   modifiers.csharp:
   - public
   - get
@@ -1006,3 +1038,16 @@ references:
   name: OSVersion
   nameWithType: DeviceInfo.OSVersion
   fullName: SuperOffice.CRM.Notification.DeviceInfo.OSVersion
+- uid: SuperOffice.CRM.Notification.DeviceInfo.TimeZoneId*
+  commentId: Overload:SuperOffice.CRM.Notification.DeviceInfo.TimeZoneId
+  isExternal: true
+  name: TimeZoneId
+  nameWithType: DeviceInfo.TimeZoneId
+  fullName: SuperOffice.CRM.Notification.DeviceInfo.TimeZoneId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

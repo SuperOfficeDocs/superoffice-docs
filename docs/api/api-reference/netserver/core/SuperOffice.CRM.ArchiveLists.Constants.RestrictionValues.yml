@@ -20,10 +20,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public static class RestrictionValues
@@ -57,10 +57,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.HintDelimiter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string HintDelimiter = ";"
@@ -85,10 +85,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.TypeDelimiter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string TypeDelimiter = ":"
@@ -113,10 +113,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.R
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string R = "R"
@@ -141,10 +141,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.W
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string W = "W"
@@ -169,10 +169,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.WDT
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string WDT = "WDT"
@@ -197,10 +197,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.WPLUS
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string WPLUS = "W+"
@@ -225,10 +225,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.RPLUS
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string RPLUS = "R+"

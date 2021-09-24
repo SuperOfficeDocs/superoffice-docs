@@ -30,10 +30,10 @@ items:
   fullName: SuperOffice.CRM.Services.GrantedModuleLicense
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nRepresents a single module license granted to a user.\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.CRM.Services.GrantedModuleLicense.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nToString will return OnwerName.Name (Description)\n"
   syntax:
@@ -107,10 +107,10 @@ items:
   fullName: SuperOffice.CRM.Services.GrantedModuleLicense.GrantedModuleLicense()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public GrantedModuleLicense()
@@ -132,10 +132,10 @@ items:
   fullName: SuperOffice.CRM.Services.GrantedModuleLicense.OwnerId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nPrimary key of the ModuleOwner row.\n"
   syntax:
@@ -165,10 +165,10 @@ items:
   fullName: SuperOffice.CRM.Services.GrantedModuleLicense.OwnerName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nUnique name identifying the module owner. \nMust match primer data installed by module. e.g. &quot;SUPEROFFICE&quot; or &quot;ADWIZA&quot;\n"
   syntax:
@@ -198,10 +198,10 @@ items:
   fullName: SuperOffice.CRM.Services.GrantedModuleLicense.OwnerDescription
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nDescription of the owner module as shown in the user interface.\n"
   syntax:
@@ -231,10 +231,10 @@ items:
   fullName: SuperOffice.CRM.Services.GrantedModuleLicense.ModuleId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nPrimary key for ModuleLicense row\n"
   syntax:
@@ -264,10 +264,10 @@ items:
   fullName: SuperOffice.CRM.Services.GrantedModuleLicense.Name
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nUnique name identifying the module. e.g. &quot;WINCAL&quot; or &quot;SUPERSERVER&quot;\n"
   syntax:
@@ -297,10 +297,10 @@ items:
   fullName: SuperOffice.CRM.Services.GrantedModuleLicense.Description
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nName of the module as shown in the user interface.\n"
   syntax:
@@ -330,10 +330,10 @@ items:
   fullName: SuperOffice.CRM.Services.GrantedModuleLicense.Version
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nVersion of the module license (for future use).\n"
   syntax:
@@ -363,10 +363,10 @@ items:
   fullName: SuperOffice.CRM.Services.GrantedModuleLicense.LicenseType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nType of license: site(1), satellite(2), user(3)\n"
   syntax:
@@ -396,10 +396,10 @@ items:
   fullName: SuperOffice.CRM.Services.GrantedModuleLicense.ExtraFlags
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nAny additional data the license module needs.\n"
   syntax:
@@ -429,10 +429,10 @@ items:
   fullName: SuperOffice.CRM.Services.GrantedModuleLicense.ExtraInfo
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nAny additional data the license module needs.\n"
   syntax:
@@ -462,10 +462,10 @@ items:
   fullName: SuperOffice.CRM.Services.GrantedModuleLicense.SortOrder
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nOrder in which licenses are sorted in the license calculations.\n"
   syntax:
@@ -495,10 +495,10 @@ items:
   fullName: SuperOffice.CRM.Services.GrantedModuleLicense.LicenseNumber
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nNumber of licenses granted.\n"
   syntax:
@@ -528,10 +528,10 @@ items:
   fullName: SuperOffice.CRM.Services.GrantedModuleLicense.IsHidden
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nIs the license hidden from the user? \nHidden licenses are usually feature-specific, part of a larger bundle.\n"
   syntax:
@@ -561,10 +561,10 @@ items:
   fullName: SuperOffice.CRM.Services.GrantedModuleLicense.IsUnrestricted
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nIs the license limited to the number of licenses?\n"
   syntax:
@@ -594,10 +594,10 @@ items:
   fullName: SuperOffice.CRM.Services.GrantedModuleLicense.ExpiryDate
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nExpiry date for the license.\n"
   syntax:

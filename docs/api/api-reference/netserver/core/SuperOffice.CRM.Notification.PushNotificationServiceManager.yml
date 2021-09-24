@@ -15,7 +15,7 @@ items:
   - SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTagFromPushNotificationType(CentralServices.Data.Pocket.PushNotificationType)
   - SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTags(System.Int32,System.String)
   - SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTags(System.String)
-  - SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTranslatedMessage(CentralServices.Data.Pocket.PushNotificationMessage,System.String)
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTranslatedMessage(CentralServices.Data.Pocket.PushNotificationMessage,System.String,System.Int32)
   - SuperOffice.CRM.Notification.PushNotificationServiceManager.IncludeUpdatedInvitationCount
   - SuperOffice.CRM.Notification.PushNotificationServiceManager.PNSHandles(SuperOffice.Data.NotificationPlatform)
   - SuperOffice.CRM.Notification.PushNotificationServiceManager.PurgeOldDevices(System.TimeSpan)
@@ -549,16 +549,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTranslatedMessage(CentralServices.Data.Pocket.PushNotificationMessage,System.String)
-  commentId: M:SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTranslatedMessage(CentralServices.Data.Pocket.PushNotificationMessage,System.String)
-  id: GetTranslatedMessage(CentralServices.Data.Pocket.PushNotificationMessage,System.String)
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTranslatedMessage(CentralServices.Data.Pocket.PushNotificationMessage,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTranslatedMessage(CentralServices.Data.Pocket.PushNotificationMessage,System.String,System.Int32)
+  id: GetTranslatedMessage(CentralServices.Data.Pocket.PushNotificationMessage,System.String,System.Int32)
   parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
   langs:
   - csharp
   - vb
-  name: GetTranslatedMessage(PushNotificationMessage, String)
-  nameWithType: PushNotificationServiceManager.GetTranslatedMessage(PushNotificationMessage, String)
-  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTranslatedMessage(CentralServices.Data.Pocket.PushNotificationMessage, System.String)
+  name: GetTranslatedMessage(PushNotificationMessage, String, Int32)
+  nameWithType: PushNotificationServiceManager.GetTranslatedMessage(PushNotificationMessage, String, Int32)
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTranslatedMessage(CentralServices.Data.Pocket.PushNotificationMessage, System.String, System.Int32)
   type: Method
   source:
     path: SoDataBase
@@ -567,20 +567,24 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Notification
   syntax:
-    content: protected PushNotificationMessage GetTranslatedMessage(PushNotificationMessage originalMessage, string language)
+    content: protected virtual PushNotificationMessage GetTranslatedMessage(PushNotificationMessage originalMessage, string language, int timeZoneId)
     parameters:
     - id: originalMessage
       type: CentralServices.Data.Pocket.PushNotificationMessage
     - id: language
       type: System.String
+    - id: timeZoneId
+      type: System.Int32
     return:
       type: CentralServices.Data.Pocket.PushNotificationMessage
-    content.vb: Protected Function GetTranslatedMessage(originalMessage As PushNotificationMessage, language As String) As PushNotificationMessage
+    content.vb: Protected Overridable Function GetTranslatedMessage(originalMessage As PushNotificationMessage, language As String, timeZoneId As Integer) As PushNotificationMessage
   overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTranslatedMessage*
   modifiers.csharp:
   - protected
+  - virtual
   modifiers.vb:
   - Protected
+  - Overridable
 - uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessage(System.Int32[],CentralServices.Data.Pocket.PushNotificationMessage,System.Boolean,System.Boolean)
   commentId: M:SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessage(System.Int32[],CentralServices.Data.Pocket.PushNotificationMessage,System.Boolean,System.Boolean)
   id: SendMessage(System.Int32[],CentralServices.Data.Pocket.PushNotificationMessage,System.Boolean,System.Boolean)

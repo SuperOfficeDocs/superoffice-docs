@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Diagnostics.ISoTimeRecorderPlugin
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nPlugin implemented by time recorders.  Start will be called when timing starts\n"
   syntax:
@@ -47,10 +47,10 @@ items:
   fullName: SuperOffice.Diagnostics.ISoTimeRecorderPlugin.Start(SuperOffice.Diagnostics.SoTimerType, System.String, System.Func<System.String>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nCalled to start time logging.\n"
   syntax:
@@ -85,10 +85,10 @@ items:
   fullName: SuperOffice.Diagnostics.ISoTimeRecorderPlugin.Enabled
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nIs the time recorder currently enabled - like SoLogger and LogTimes in the diagnostics configuration section.\n"
   syntax:

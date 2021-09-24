@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ISoList
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nGeneric interface for MDO lists, consisting of a history item list, a root item list and a heading items list.\nIn flat mode, only the RootItems list is nonempty\n"
   syntax:
@@ -46,10 +46,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ISoList.HistoryItems
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nlist of history items\n"
   syntax:
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ISoList.RootItems
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nlist of root-level items (items not under any heading)\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ISoList.HeadingItems
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nlist of headings\n"
   syntax:

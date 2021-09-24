@@ -33,6 +33,7 @@ items:
   - SuperOffice.CRM.Administration.SoUser.GetModuleLicense(System.String)
   - SuperOffice.CRM.Administration.SoUser.GetModuleLicense(System.String,System.String)
   - SuperOffice.CRM.Administration.SoUser.GetModuleLicenses
+  - SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockers
   - SuperOffice.CRM.Administration.SoUser.GroupIdx
   - SuperOffice.CRM.Administration.SoUser.IsAssociateNameLegal(System.String,System.String@)
   - SuperOffice.CRM.Administration.SoUser.IsAssociateUserNameLegal(System.String,System.String@)
@@ -1342,6 +1343,35 @@ items:
   modifiers.vb:
   - Protected
   - Overrides
+- uid: SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockers
+  commentId: M:SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockers
+  id: GetRequestRestrictionBlockers
+  parent: SuperOffice.CRM.Administration.SoUser
+  langs:
+  - csharp
+  - vb
+  name: GetRequestRestrictionBlockers()
+  nameWithType: SoUser.GetRequestRestrictionBlockers()
+  fullName: SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockers()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nReturn request based reasons for blocking delete of user\n"
+  syntax:
+    content: public string GetRequestRestrictionBlockers()
+    return:
+      type: System.String
+      description: 'Blank or an error message: &quot;[SR_REQUEST_DEPENDENCY]&quot;'
+    content.vb: Public Function GetRequestRestrictionBlockers As String
+  overload: SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockers*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Administration.SoUser.OnIdUpdate
   commentId: M:SuperOffice.CRM.Administration.SoUser.OnIdUpdate
   id: OnIdUpdate
@@ -4460,6 +4490,12 @@ references:
   name: OnPreIdUpdate
   nameWithType: SoUser.OnPreIdUpdate
   fullName: SuperOffice.CRM.Administration.SoUser.OnPreIdUpdate
+- uid: SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockers*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockers
+  isExternal: true
+  name: GetRequestRestrictionBlockers
+  nameWithType: SoUser.GetRequestRestrictionBlockers
+  fullName: SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockers
 - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
   commentId: M:SuperOffice.Data.NestedPersistFacade.OnIdUpdate
   parent: SuperOffice.Data.NestedPersistFacade

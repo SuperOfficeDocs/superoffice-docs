@@ -31,10 +31,10 @@ items:
   fullName: SuperOffice.Threading.SoBackgroundWorker
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: 'public class SoBackgroundWorker : Component'
@@ -68,10 +68,10 @@ items:
   fullName: SuperOffice.Threading.SoBackgroundWorker.SoBackgroundWorker()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nInitializes a new instance of the SuperOffice.Threading.SoBackgroundWorker class.\n"
   syntax:
@@ -94,10 +94,10 @@ items:
   fullName: SuperOffice.Threading.SoBackgroundWorker.CancelAsync()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nRequests cancellation of a pending background operation.\n"
   syntax:
@@ -124,10 +124,10 @@ items:
   fullName: SuperOffice.Threading.SoBackgroundWorker.ReportProgress(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nRaises the System.ComponentModel.BackgroundWorker.ProgressChanged event.\n"
   syntax:
@@ -158,10 +158,10 @@ items:
   fullName: SuperOffice.Threading.SoBackgroundWorker.ReportProgress(System.Int32, System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nRaises the System.ComponentModel.BackgroundWorker.ProgressChanged event.\n"
   syntax:
@@ -195,10 +195,10 @@ items:
   fullName: SuperOffice.Threading.SoBackgroundWorker.RunWorker(System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nStarts execution of a background operation.\n"
   syntax:
@@ -228,10 +228,10 @@ items:
   fullName: SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nStarts execution of a background operation.\n"
   syntax:
@@ -258,10 +258,10 @@ items:
   fullName: SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync(System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nStarts execution of a background operation.\n"
   syntax:
@@ -292,10 +292,10 @@ items:
   fullName: SuperOffice.Threading.SoBackgroundWorker.OnDoWork(System.ComponentModel.DoWorkEventArgs)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: Raises the SoBackgroundWorker.DoWork event.
   syntax:
@@ -324,10 +324,10 @@ items:
   fullName: SuperOffice.Threading.SoBackgroundWorker.OnProgressChanged(System.ComponentModel.ProgressChangedEventArgs)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nRaises the SoBackgroundWorker.ProgressChanged event.\n"
   syntax:
@@ -356,10 +356,10 @@ items:
   fullName: SuperOffice.Threading.SoBackgroundWorker.OnRunWorkerCompleted(System.ComponentModel.RunWorkerCompletedEventArgs)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nRaises the SoBackgroundWorker.RunWorkerCompleted event.\n"
   syntax:
@@ -388,10 +388,10 @@ items:
   fullName: SuperOffice.Threading.SoBackgroundWorker.Dispose(System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nDisposes resources...\n"
   syntax:
@@ -419,10 +419,10 @@ items:
   fullName: SuperOffice.Threading.SoBackgroundWorker.CancellationPending
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nGets a value indicating whether the application has requested cancellation of\na background operation.\n"
   syntax:
@@ -451,10 +451,10 @@ items:
   fullName: SuperOffice.Threading.SoBackgroundWorker.IsBusy
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nGets a value indicating whether the SuperOffice.Threading.SoBackgroundWorker is running an asynchronous operation.\n"
   syntax:
@@ -483,10 +483,10 @@ items:
   fullName: SuperOffice.Threading.SoBackgroundWorker.WorkerReportsProgress
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nGets or sets a value indicating whether the SuperOffice.Threading.SoBackgroundWorker can report progress updates.\n"
   syntax:
@@ -515,10 +515,10 @@ items:
   fullName: SuperOffice.Threading.SoBackgroundWorker.WorkerSupportsCancellation
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nGets or sets a value indicating whether the SuperOffice.Threading.SoBackgroundWorker supports asynchronous cancellation.\n"
   syntax:
@@ -547,10 +547,10 @@ items:
   fullName: SuperOffice.Threading.SoBackgroundWorker.DoWork
   type: Event
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nOccurs when System.ComponentModel.BackgroundWorker.RunWorkerAsync is called.\n"
   syntax:
@@ -574,10 +574,10 @@ items:
   fullName: SuperOffice.Threading.SoBackgroundWorker.ProgressChanged
   type: Event
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nOccurs when System.ComponentModel.BackgroundWorker.ReportProgress(System.Int32) is called.\n"
   syntax:
@@ -601,10 +601,10 @@ items:
   fullName: SuperOffice.Threading.SoBackgroundWorker.RunWorkerCompleted
   type: Event
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nOccurs when the background operation has completed, has been canceled, or has raised an exception.\n"
   syntax:

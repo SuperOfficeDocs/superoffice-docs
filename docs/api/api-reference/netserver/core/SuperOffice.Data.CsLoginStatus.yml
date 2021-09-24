@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.CsLoginStatus
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDefines the status of a logged in user in the login table\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.CsLoginStatus.LoginStatusLogIn
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: LoginStatusLogIn = 1
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.CsLoginStatus.LoginStatusLogOut
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: LoginStatusLogOut = 2
@@ -103,10 +103,10 @@ items:
   fullName: SuperOffice.Data.CsLoginStatus.LoginStatusTimeOut
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: LoginStatusTimeOut = 3
@@ -130,10 +130,10 @@ items:
   fullName: SuperOffice.Data.CsLoginStatus.LoginStatusKicked
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: LoginStatusKicked = 4

@@ -63,14 +63,11 @@ items:
   - SuperOffice.CRM.Globalization.AddressFormatCache
   - SuperOffice.CRM.Globalization.CountryCache
   - SuperOffice.CRM.Globalization.LanguageInfoCache
-  - SuperOffice.CRM.Rows.UDefFieldCacheBase
   - SuperOffice.CRM.Security.EjCategoryCache
   - SuperOffice.CRM.Security.ErpConnectionAccessCache
   - SuperOffice.CRM.Security.FunctionRightCache
   - SuperOffice.CRM.Security.OwnerContactCache
   - SuperOffice.CRM.Security.Sentry.DataRightCache
-  - SuperOffice.CRM.Security.UserGroupCache
-  - SuperOffice.License.LicenseCache
   implements:
   - System.IDisposable
   - SuperOffice.Data.Cache.IFlushable

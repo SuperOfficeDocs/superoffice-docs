@@ -13,11 +13,13 @@ items:
   - SuperOffice.CRM.Webhooks.ISystemWebhookPlugin
   - SuperOffice.CRM.Webhooks.SystemWebhookPluginAttribute
   - SuperOffice.CRM.Webhooks.Webhook
+  - SuperOffice.CRM.Webhooks.WebhookDispatcher
   - SuperOffice.CRM.Webhooks.WebhookManager
   - SuperOffice.CRM.Webhooks.WebhookPayload
   - SuperOffice.CRM.Webhooks.WebhookResponse
   - SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
   - SuperOffice.CRM.Webhooks.WebhookState
+  - SuperOffice.CRM.Webhooks.WebhookTaskInfo
   langs:
   - csharp
   - vb
@@ -34,47 +36,6 @@ references:
   name: CrmScriptWebhookPlugin
   nameWithType: CrmScriptWebhookPlugin
   fullName: SuperOffice.CRM.Webhooks.CrmScriptWebhookPlugin
-- uid: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin
-  commentId: T:SuperOffice.CRM.Webhooks.DefaultWebhookPlugin
-  isExternal: true
-  name: DefaultWebhookPlugin
-  nameWithType: DefaultWebhookPlugin
-  fullName: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin
-- uid: SuperOffice.CRM.Webhooks.WebhookState
-  commentId: T:SuperOffice.CRM.Webhooks.WebhookState
-  parent: SuperOffice.CRM.Webhooks
-  isExternal: true
-  name: WebhookState
-  nameWithType: WebhookState
-  fullName: SuperOffice.CRM.Webhooks.WebhookState
-- uid: SuperOffice.CRM.Webhooks.Webhook
-  commentId: T:SuperOffice.CRM.Webhooks.Webhook
-  parent: SuperOffice.CRM.Webhooks
-  isExternal: true
-  name: Webhook
-  nameWithType: Webhook
-  fullName: SuperOffice.CRM.Webhooks.Webhook
-- uid: SuperOffice.CRM.Webhooks.WebhookPayload
-  commentId: T:SuperOffice.CRM.Webhooks.WebhookPayload
-  parent: SuperOffice.CRM.Webhooks
-  isExternal: true
-  name: WebhookPayload
-  nameWithType: WebhookPayload
-  fullName: SuperOffice.CRM.Webhooks.WebhookPayload
-- uid: SuperOffice.CRM.Webhooks.SystemWebhookPluginAttribute
-  commentId: T:SuperOffice.CRM.Webhooks.SystemWebhookPluginAttribute
-  parent: SuperOffice.CRM.Webhooks
-  isExternal: true
-  name: SystemWebhookPluginAttribute
-  nameWithType: SystemWebhookPluginAttribute
-  fullName: SuperOffice.CRM.Webhooks.SystemWebhookPluginAttribute
-- uid: SuperOffice.CRM.Webhooks.CustomWebhookPluginAttribute
-  commentId: T:SuperOffice.CRM.Webhooks.CustomWebhookPluginAttribute
-  parent: SuperOffice.CRM.Webhooks
-  isExternal: true
-  name: CustomWebhookPluginAttribute
-  nameWithType: CustomWebhookPluginAttribute
-  fullName: SuperOffice.CRM.Webhooks.CustomWebhookPluginAttribute
 - uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin
   commentId: T:SuperOffice.CRM.Webhooks.ICustomWebhookPlugin
   parent: SuperOffice.CRM.Webhooks
@@ -96,12 +57,39 @@ references:
   name: WebhookResponse
   nameWithType: WebhookResponse
   fullName: SuperOffice.CRM.Webhooks.WebhookResponse
-- uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
-  commentId: T:SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
+- uid: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin
+  commentId: T:SuperOffice.CRM.Webhooks.DefaultWebhookPlugin
   isExternal: true
-  name: WebhookSoftTriggerPlugin
-  nameWithType: WebhookSoftTriggerPlugin
-  fullName: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
+  name: DefaultWebhookPlugin
+  nameWithType: DefaultWebhookPlugin
+  fullName: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin
+- uid: SuperOffice.CRM.Webhooks.WebhookState
+  commentId: T:SuperOffice.CRM.Webhooks.WebhookState
+  parent: SuperOffice.CRM.Webhooks
+  isExternal: true
+  name: WebhookState
+  nameWithType: WebhookState
+  fullName: SuperOffice.CRM.Webhooks.WebhookState
+- uid: SuperOffice.CRM.Webhooks.Webhook
+  commentId: T:SuperOffice.CRM.Webhooks.Webhook
+  parent: SuperOffice.CRM.Webhooks
+  isExternal: true
+  name: Webhook
+  nameWithType: Webhook
+  fullName: SuperOffice.CRM.Webhooks.Webhook
+- uid: SuperOffice.CRM.Webhooks.WebhookTaskInfo
+  commentId: T:SuperOffice.CRM.Webhooks.WebhookTaskInfo
+  parent: SuperOffice.CRM.Webhooks
+  isExternal: true
+  name: WebhookTaskInfo
+  nameWithType: WebhookTaskInfo
+  fullName: SuperOffice.CRM.Webhooks.WebhookTaskInfo
+- uid: SuperOffice.CRM.Webhooks.WebhookDispatcher
+  commentId: T:SuperOffice.CRM.Webhooks.WebhookDispatcher
+  isExternal: true
+  name: WebhookDispatcher
+  nameWithType: WebhookDispatcher
+  fullName: SuperOffice.CRM.Webhooks.WebhookDispatcher
 - uid: SuperOffice.CRM.Webhooks.ChangeType
   commentId: T:SuperOffice.CRM.Webhooks.ChangeType
   parent: SuperOffice.CRM.Webhooks
@@ -122,6 +110,33 @@ references:
   name: WebhookManager
   nameWithType: WebhookManager
   fullName: SuperOffice.CRM.Webhooks.WebhookManager
+- uid: SuperOffice.CRM.Webhooks.WebhookPayload
+  commentId: T:SuperOffice.CRM.Webhooks.WebhookPayload
+  parent: SuperOffice.CRM.Webhooks
+  isExternal: true
+  name: WebhookPayload
+  nameWithType: WebhookPayload
+  fullName: SuperOffice.CRM.Webhooks.WebhookPayload
+- uid: SuperOffice.CRM.Webhooks.SystemWebhookPluginAttribute
+  commentId: T:SuperOffice.CRM.Webhooks.SystemWebhookPluginAttribute
+  parent: SuperOffice.CRM.Webhooks
+  isExternal: true
+  name: SystemWebhookPluginAttribute
+  nameWithType: SystemWebhookPluginAttribute
+  fullName: SuperOffice.CRM.Webhooks.SystemWebhookPluginAttribute
+- uid: SuperOffice.CRM.Webhooks.CustomWebhookPluginAttribute
+  commentId: T:SuperOffice.CRM.Webhooks.CustomWebhookPluginAttribute
+  parent: SuperOffice.CRM.Webhooks
+  isExternal: true
+  name: CustomWebhookPluginAttribute
+  nameWithType: CustomWebhookPluginAttribute
+  fullName: SuperOffice.CRM.Webhooks.CustomWebhookPluginAttribute
+- uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
+  commentId: T:SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
+  isExternal: true
+  name: WebhookSoftTriggerPlugin
+  nameWithType: WebhookSoftTriggerPlugin
+  fullName: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
 - uid: SuperOffice.CRM.Webhooks
   commentId: N:SuperOffice.CRM.Webhooks
   isExternal: true

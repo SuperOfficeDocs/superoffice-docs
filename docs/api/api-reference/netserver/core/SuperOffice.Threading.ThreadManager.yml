@@ -5,6 +5,10 @@ items:
   id: ThreadManager
   parent: SuperOffice.Threading
   children:
+  - SuperOffice.Threading.ThreadManager._maxSimultaneousThreads
+  - SuperOffice.Threading.ThreadManager._threadOverflows
+  - SuperOffice.Threading.ThreadManager._threadOverflowsForced
+  - SuperOffice.Threading.ThreadManager.AbortAllThreads
   - SuperOffice.Threading.ThreadManager.BeginIgnoreRowSentry
   - SuperOffice.Threading.ThreadManager.BeginIgnoreSentry
   - SuperOffice.Threading.ThreadManager.BeginPreventParallelism
@@ -14,16 +18,15 @@ items:
   - SuperOffice.Threading.ThreadManager.Invoke(System.Action[])
   - SuperOffice.Threading.ThreadManager.IsWorkerThread
   - SuperOffice.Threading.ThreadManager.MaxThreads
-  - SuperOffice.Threading.ThreadManager.OnGetEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
   - SuperOffice.Threading.ThreadManager.RegisterAsyncContextProvider``2(SuperOffice.Threading.GetThreadState{``0},SuperOffice.Threading.SetThreadState{``0,``1},SuperOffice.Threading.CleanupThreadState{``0,``1})
   - SuperOffice.Threading.ThreadManager.RunningThreadCount
   - SuperOffice.Threading.ThreadManager.SingleThreadMode
-  - SuperOffice.Threading.ThreadManager.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean,System.Boolean)
+  - SuperOffice.Threading.ThreadManager.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean,System.Boolean,System.Boolean)
   - SuperOffice.Threading.ThreadManager.SpawnThreadOrExecuteSync``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String)
-  - SuperOffice.Threading.ThreadManager.StartNew(System.Action)
-  - SuperOffice.Threading.ThreadManager.StartNew(System.Action,System.String)
-  - SuperOffice.Threading.ThreadManager.StartNew``1(``0,System.Action{``0})
-  - SuperOffice.Threading.ThreadManager.StartNew``1(``0,System.Action{``0},System.String)
+  - SuperOffice.Threading.ThreadManager.StartNew(System.Action,System.Boolean)
+  - SuperOffice.Threading.ThreadManager.StartNew(System.Action,System.String,System.Boolean)
+  - SuperOffice.Threading.ThreadManager.StartNew``1(``0,System.Action{``0},System.Boolean)
+  - SuperOffice.Threading.ThreadManager.StartNew``1(``0,System.Action{``0},System.String,System.Boolean)
   - SuperOffice.Threading.ThreadManager.WaitForAllOperationsInDatabaseContextToComplete
   - SuperOffice.Threading.ThreadManager.WaitForAllOperationsToComplete
   - SuperOffice.Threading.ThreadManager.WaitForAllOperationsToComplete(System.Int32,System.Boolean)
@@ -37,10 +40,10 @@ items:
   fullName: SuperOffice.Threading.ThreadManager
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nThread handler for asynchronous operations\n"
   remarks: "\nUse <see cref=\"!:SpawnThread&lt;TArgument>(AsyncOperation&lt;TArgument>,TArgument)\"></see> to start a new thread in the same \n<xref href=\"SuperOffice.SoContext\" data-throw-if-not-resolved=\"false\"></xref> as the current thread.\n"
@@ -64,6 +67,90 @@ items:
   modifiers.vb:
   - Public
   - Module
+- uid: SuperOffice.Threading.ThreadManager._threadOverflows
+  commentId: F:SuperOffice.Threading.ThreadManager._threadOverflows
+  id: _threadOverflows
+  parent: SuperOffice.Threading.ThreadManager
+  langs:
+  - csharp
+  - vb
+  name: _threadOverflows
+  nameWithType: ThreadManager._threadOverflows
+  fullName: SuperOffice.Threading.ThreadManager._threadOverflows
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public static int _threadOverflows
+    return:
+      type: System.Int32
+    content.vb: Public Shared _threadOverflows As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Threading.ThreadManager._threadOverflowsForced
+  commentId: F:SuperOffice.Threading.ThreadManager._threadOverflowsForced
+  id: _threadOverflowsForced
+  parent: SuperOffice.Threading.ThreadManager
+  langs:
+  - csharp
+  - vb
+  name: _threadOverflowsForced
+  nameWithType: ThreadManager._threadOverflowsForced
+  fullName: SuperOffice.Threading.ThreadManager._threadOverflowsForced
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public static int _threadOverflowsForced
+    return:
+      type: System.Int32
+    content.vb: Public Shared _threadOverflowsForced As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Threading.ThreadManager._maxSimultaneousThreads
+  commentId: F:SuperOffice.Threading.ThreadManager._maxSimultaneousThreads
+  id: _maxSimultaneousThreads
+  parent: SuperOffice.Threading.ThreadManager
+  langs:
+  - csharp
+  - vb
+  name: _maxSimultaneousThreads
+  nameWithType: ThreadManager._maxSimultaneousThreads
+  fullName: SuperOffice.Threading.ThreadManager._maxSimultaneousThreads
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public static int _maxSimultaneousThreads
+    return:
+      type: System.Int32
+    content.vb: Public Shared _maxSimultaneousThreads As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Threading.ThreadManager.RegisterAsyncContextProvider``2(SuperOffice.Threading.GetThreadState{``0},SuperOffice.Threading.SetThreadState{``0,``1},SuperOffice.Threading.CleanupThreadState{``0,``1})
   commentId: M:SuperOffice.Threading.ThreadManager.RegisterAsyncContextProvider``2(SuperOffice.Threading.GetThreadState{``0},SuperOffice.Threading.SetThreadState{``0,``1},SuperOffice.Threading.CleanupThreadState{``0,``1})
   id: RegisterAsyncContextProvider``2(SuperOffice.Threading.GetThreadState{``0},SuperOffice.Threading.SetThreadState{``0,``1},SuperOffice.Threading.CleanupThreadState{``0,``1})
@@ -76,10 +163,10 @@ items:
   fullName: SuperOffice.Threading.ThreadManager.RegisterAsyncContextProvider<TThreadState, TThreadCleanupState>(SuperOffice.Threading.GetThreadState<TThreadState>, SuperOffice.Threading.SetThreadState<TThreadState, TThreadCleanupState>, SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nRegister methods for passing state from calling thread to created threads.\n"
   syntax:
@@ -110,6 +197,35 @@ items:
   - Shared
   fullName.vb: SuperOffice.Threading.ThreadManager.RegisterAsyncContextProvider(Of TThreadState, TThreadCleanupState)(SuperOffice.Threading.GetThreadState(Of TThreadState), SuperOffice.Threading.SetThreadState(Of TThreadState, TThreadCleanupState), SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState))
   name.vb: RegisterAsyncContextProvider(Of TThreadState, TThreadCleanupState)(GetThreadState(Of TThreadState), SetThreadState(Of TThreadState, TThreadCleanupState), CleanupThreadState(Of TThreadState, TThreadCleanupState))
+- uid: SuperOffice.Threading.ThreadManager.AbortAllThreads
+  commentId: M:SuperOffice.Threading.ThreadManager.AbortAllThreads
+  id: AbortAllThreads
+  parent: SuperOffice.Threading.ThreadManager
+  langs:
+  - csharp
+  - vb
+  name: AbortAllThreads()
+  nameWithType: ThreadManager.AbortAllThreads()
+  fullName: SuperOffice.Threading.ThreadManager.AbortAllThreads()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: "\n<strong>DO NOT CALL THIS METHOD!!!</strong><br />It is only intended for the Test suite, when forcibly breaking a deadlock in tests\n"
+  remarks: "\nThis method will instantly and unconditionally <xref href=\"System.Threading.Thread.Abort(System.Object)\" data-throw-if-not-resolved=\"false\"></xref> all threads managed by the ThreadManager.\nThis is almost guaranteed to cause havoc, such as dropped WebHook callouts, halfway-saved logging, damaged FreetextIndex, ...\nso don&apos;t do it unless <strong>really exceptional circumstances apply</strong> - such as deadlock breaking <strong>in the test framework only!</strong>\n"
+  syntax:
+    content: public static void AbortAllThreads()
+    content.vb: Public Shared Sub AbortAllThreads
+  overload: SuperOffice.Threading.ThreadManager.AbortAllThreads*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Threading.ThreadManager.BeginPreventParallelism
   commentId: M:SuperOffice.Threading.ThreadManager.BeginPreventParallelism
   id: BeginPreventParallelism
@@ -122,10 +238,10 @@ items:
   fullName: SuperOffice.Threading.ThreadManager.BeginPreventParallelism()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nTemporary enter a state where all parallel operations started from \nthe current thread is executed syncroniously.  Call using a <code>using (ThreadManager.BeginPreventParallelism()){...}</code> constrinction.\n"
   syntax:
@@ -153,10 +269,10 @@ items:
   fullName: SuperOffice.Threading.ThreadManager.IgnoreRowSentry()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nThread-static, principal-independent &quot;should row sentry be ignored if possible&quot;\n"
   syntax:
@@ -183,10 +299,10 @@ items:
   fullName: SuperOffice.Threading.ThreadManager.BeginIgnoreRowSentry()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public static ThreadManager.IgnoreRowSentryModifier BeginIgnoreRowSentry()
@@ -212,10 +328,10 @@ items:
   fullName: SuperOffice.Threading.ThreadManager.IgnoreSentry()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nThread-static, principal-independent &quot;should sentry be ignored&quot;\n"
   syntax:
@@ -242,10 +358,10 @@ items:
   fullName: SuperOffice.Threading.ThreadManager.BeginIgnoreSentry()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public static ThreadManager.IgnoreSentryModifier BeginIgnoreSentry()
@@ -253,36 +369,6 @@ items:
       type: SuperOffice.Threading.ThreadManager.IgnoreSentryModifier
     content.vb: Public Shared Function BeginIgnoreSentry As ThreadManager.IgnoreSentryModifier
   overload: SuperOffice.Threading.ThreadManager.BeginIgnoreSentry*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Threading.ThreadManager.OnGetEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
-  commentId: M:SuperOffice.Threading.ThreadManager.OnGetEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
-  id: OnGetEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
-  parent: SuperOffice.Threading.ThreadManager
-  langs:
-  - csharp
-  - vb
-  name: OnGetEnvironmentInfo(NameValueCollection)
-  nameWithType: ThreadManager.OnGetEnvironmentInfo(NameValueCollection)
-  fullName: SuperOffice.Threading.ThreadManager.OnGetEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
-  type: Method
-  source:
-    path: SOCore
-    isExternal: true
-  assemblies:
-  - SOCore
-  namespace: SuperOffice.Threading
-  syntax:
-    content: public static void OnGetEnvironmentInfo(NameValueCollection environmentInfo)
-    parameters:
-    - id: environmentInfo
-      type: System.Collections.Specialized.NameValueCollection
-    content.vb: Public Shared Sub OnGetEnvironmentInfo(environmentInfo As NameValueCollection)
-  overload: SuperOffice.Threading.ThreadManager.OnGetEnvironmentInfo*
   modifiers.csharp:
   - public
   - static
@@ -301,10 +387,10 @@ items:
   fullName: SuperOffice.Threading.ThreadManager.Invoke(System.Action[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nInvoke the given actions in parallel, and return when they&apos;re all done\n"
   remarks: "\nNo synchronization logic is performed between actions, so they have to either be independent\nor synchronized on their own.\n<p></p>\nEarly-out logic handles cases of null, 0, or 1 items in the Action array. If single-thread\nmode is active, actions are called in sequence (in array order).\n<p></p>\nFully concurrent execution is <strong>NOT</strong> guaranteed - throttling, thread count limits,\nsingle-thread mode or other factors (such as hardware!) will influence actual execution\norder and concurrency.\n<p></p>\nThe method returns when all actions have been performed.\n"
@@ -325,26 +411,26 @@ items:
   - Shared
   fullName.vb: SuperOffice.Threading.ThreadManager.Invoke(System.Action())
   name.vb: Invoke(Action())
-- uid: SuperOffice.Threading.ThreadManager.StartNew(System.Action,System.String)
-  commentId: M:SuperOffice.Threading.ThreadManager.StartNew(System.Action,System.String)
-  id: StartNew(System.Action,System.String)
+- uid: SuperOffice.Threading.ThreadManager.StartNew(System.Action,System.String,System.Boolean)
+  commentId: M:SuperOffice.Threading.ThreadManager.StartNew(System.Action,System.String,System.Boolean)
+  id: StartNew(System.Action,System.String,System.Boolean)
   parent: SuperOffice.Threading.ThreadManager
   langs:
   - csharp
   - vb
-  name: StartNew(Action, String)
-  nameWithType: ThreadManager.StartNew(Action, String)
-  fullName: SuperOffice.Threading.ThreadManager.StartNew(System.Action, System.String)
+  name: StartNew(Action, String, Boolean)
+  nameWithType: ThreadManager.StartNew(Action, String, Boolean)
+  fullName: SuperOffice.Threading.ThreadManager.StartNew(System.Action, System.String, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nStart the given Action in a new thread, and return the corresponding AsynContext so \nthe client can wait for it to complete\n"
   syntax:
-    content: public static AsyncContext StartNew(Action action, string threadName)
+    content: public static AsyncContext StartNew(Action action, string threadName, bool forceNewThreadCreation = false)
     parameters:
     - id: action
       type: System.Action
@@ -352,10 +438,12 @@ items:
     - id: threadName
       type: System.String
       description: Thread name
+    - id: forceNewThreadCreation
+      type: System.Boolean
     return:
       type: SuperOffice.Threading.AsyncContext
       description: Async context you can wait for at some later point
-    content.vb: Public Shared Function StartNew(action As Action, threadName As String) As AsyncContext
+    content.vb: Public Shared Function StartNew(action As Action, threadName As String, forceNewThreadCreation As Boolean = False) As AsyncContext
   overload: SuperOffice.Threading.ThreadManager.StartNew*
   modifiers.csharp:
   - public
@@ -363,34 +451,36 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Threading.ThreadManager.StartNew(System.Action)
-  commentId: M:SuperOffice.Threading.ThreadManager.StartNew(System.Action)
-  id: StartNew(System.Action)
+- uid: SuperOffice.Threading.ThreadManager.StartNew(System.Action,System.Boolean)
+  commentId: M:SuperOffice.Threading.ThreadManager.StartNew(System.Action,System.Boolean)
+  id: StartNew(System.Action,System.Boolean)
   parent: SuperOffice.Threading.ThreadManager
   langs:
   - csharp
   - vb
-  name: StartNew(Action)
-  nameWithType: ThreadManager.StartNew(Action)
-  fullName: SuperOffice.Threading.ThreadManager.StartNew(System.Action)
+  name: StartNew(Action, Boolean)
+  nameWithType: ThreadManager.StartNew(Action, Boolean)
+  fullName: SuperOffice.Threading.ThreadManager.StartNew(System.Action, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nStart the given Action in a new thread, and return the corresponding AsynContext so \nthe client can wait for it to complete\n"
   syntax:
-    content: public static AsyncContext StartNew(Action action)
+    content: public static AsyncContext StartNew(Action action, bool forceNewThreadCreation = false)
     parameters:
     - id: action
       type: System.Action
       description: Action (method, lambda) to perform
+    - id: forceNewThreadCreation
+      type: System.Boolean
     return:
       type: SuperOffice.Threading.AsyncContext
       description: Async context you can wait for at some later point
-    content.vb: Public Shared Function StartNew(action As Action) As AsyncContext
+    content.vb: Public Shared Function StartNew(action As Action, forceNewThreadCreation As Boolean = False) As AsyncContext
   overload: SuperOffice.Threading.ThreadManager.StartNew*
   modifiers.csharp:
   - public
@@ -398,26 +488,26 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Threading.ThreadManager.StartNew``1(``0,System.Action{``0},System.String)
-  commentId: M:SuperOffice.Threading.ThreadManager.StartNew``1(``0,System.Action{``0},System.String)
-  id: StartNew``1(``0,System.Action{``0},System.String)
+- uid: SuperOffice.Threading.ThreadManager.StartNew``1(``0,System.Action{``0},System.String,System.Boolean)
+  commentId: M:SuperOffice.Threading.ThreadManager.StartNew``1(``0,System.Action{``0},System.String,System.Boolean)
+  id: StartNew``1(``0,System.Action{``0},System.String,System.Boolean)
   parent: SuperOffice.Threading.ThreadManager
   langs:
   - csharp
   - vb
-  name: StartNew<T>(T, Action<T>, String)
-  nameWithType: ThreadManager.StartNew<T>(T, Action<T>, String)
-  fullName: SuperOffice.Threading.ThreadManager.StartNew<T>(T, System.Action<T>, System.String)
+  name: StartNew<T>(T, Action<T>, String, Boolean)
+  nameWithType: ThreadManager.StartNew<T>(T, Action<T>, String, Boolean)
+  fullName: SuperOffice.Threading.ThreadManager.StartNew<T>(T, System.Action<T>, System.String, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nStart the given Action in a new thread, and return the corresponding AsynContext so \nthe client can wait for it to complete\n"
   syntax:
-    content: public static AsyncContext StartNew<T>(T argument, Action<T> action, string threadName)
+    content: public static AsyncContext StartNew<T>(T argument, Action<T> action, string threadName, bool forceNewThreadCreation = false)
     parameters:
     - id: argument
       type: '{T}'
@@ -428,42 +518,44 @@ items:
     - id: threadName
       type: System.String
       description: Thread name
+    - id: forceNewThreadCreation
+      type: System.Boolean
     typeParameters:
     - id: T
     return:
       type: SuperOffice.Threading.AsyncContext
       description: Async context you can wait for at some later point
-    content.vb: Public Shared Function StartNew(Of T)(argument As T, action As Action(Of T), threadName As String) As AsyncContext
+    content.vb: Public Shared Function StartNew(Of T)(argument As T, action As Action(Of T), threadName As String, forceNewThreadCreation As Boolean = False) As AsyncContext
   overload: SuperOffice.Threading.ThreadManager.StartNew*
-  nameWithType.vb: ThreadManager.StartNew(Of T)(T, Action(Of T), String)
+  nameWithType.vb: ThreadManager.StartNew(Of T)(T, Action(Of T), String, Boolean)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.Threading.ThreadManager.StartNew(Of T)(T, System.Action(Of T), System.String)
-  name.vb: StartNew(Of T)(T, Action(Of T), String)
-- uid: SuperOffice.Threading.ThreadManager.StartNew``1(``0,System.Action{``0})
-  commentId: M:SuperOffice.Threading.ThreadManager.StartNew``1(``0,System.Action{``0})
-  id: StartNew``1(``0,System.Action{``0})
+  fullName.vb: SuperOffice.Threading.ThreadManager.StartNew(Of T)(T, System.Action(Of T), System.String, System.Boolean)
+  name.vb: StartNew(Of T)(T, Action(Of T), String, Boolean)
+- uid: SuperOffice.Threading.ThreadManager.StartNew``1(``0,System.Action{``0},System.Boolean)
+  commentId: M:SuperOffice.Threading.ThreadManager.StartNew``1(``0,System.Action{``0},System.Boolean)
+  id: StartNew``1(``0,System.Action{``0},System.Boolean)
   parent: SuperOffice.Threading.ThreadManager
   langs:
   - csharp
   - vb
-  name: StartNew<T>(T, Action<T>)
-  nameWithType: ThreadManager.StartNew<T>(T, Action<T>)
-  fullName: SuperOffice.Threading.ThreadManager.StartNew<T>(T, System.Action<T>)
+  name: StartNew<T>(T, Action<T>, Boolean)
+  nameWithType: ThreadManager.StartNew<T>(T, Action<T>, Boolean)
+  fullName: SuperOffice.Threading.ThreadManager.StartNew<T>(T, System.Action<T>, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nStart the given Action in a new thread, and return the corresponding AsynContext so \nthe client can wait for it to complete\n"
   syntax:
-    content: public static AsyncContext StartNew<T>(T argument, Action<T> action)
+    content: public static AsyncContext StartNew<T>(T argument, Action<T> action, bool forceNewThreadCreation = false)
     parameters:
     - id: argument
       type: '{T}'
@@ -471,22 +563,24 @@ items:
     - id: action
       type: System.Action{{T}}
       description: Action (method, lambda) to perform
+    - id: forceNewThreadCreation
+      type: System.Boolean
     typeParameters:
     - id: T
     return:
       type: SuperOffice.Threading.AsyncContext
       description: Async context you can wait for at some later point
-    content.vb: Public Shared Function StartNew(Of T)(argument As T, action As Action(Of T)) As AsyncContext
+    content.vb: Public Shared Function StartNew(Of T)(argument As T, action As Action(Of T), forceNewThreadCreation As Boolean = False) As AsyncContext
   overload: SuperOffice.Threading.ThreadManager.StartNew*
-  nameWithType.vb: ThreadManager.StartNew(Of T)(T, Action(Of T))
+  nameWithType.vb: ThreadManager.StartNew(Of T)(T, Action(Of T), Boolean)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.Threading.ThreadManager.StartNew(Of T)(T, System.Action(Of T))
-  name.vb: StartNew(Of T)(T, Action(Of T))
+  fullName.vb: SuperOffice.Threading.ThreadManager.StartNew(Of T)(T, System.Action(Of T), System.Boolean)
+  name.vb: StartNew(Of T)(T, Action(Of T), Boolean)
 - uid: SuperOffice.Threading.ThreadManager.SpawnThreadOrExecuteSync``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String)
   commentId: M:SuperOffice.Threading.ThreadManager.SpawnThreadOrExecuteSync``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String)
   id: SpawnThreadOrExecuteSync``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String)
@@ -499,10 +593,10 @@ items:
   fullName: SuperOffice.Threading.ThreadManager.SpawnThreadOrExecuteSync<TArgument>(SuperOffice.Threading.AsyncOperation<TArgument>, TArgument, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nSpawn a new thread in the same <xref href=\"SuperOffice.SoContext\" data-throw-if-not-resolved=\"false\"></xref> as the currently executed thread,\nor if blocked execute code in current thread.\n\nThis method is aimed to be used in critical functions where you want parellism and speed when possible,\nbut cannot afford to be blocked by an empty threadpool.\n"
   remarks: "\nIf the number of threads currently executing in parallel is less then the currently \nconfigured maximum allowed threads for parallel execution, a thread is spawned.  If \nthe number of threads exceeds this limitation, the current thread is blocked until \nthe number of threads currently executing in parallel is less then the currently \nconfigured maximum allowed threads for parallel execution.\n<p>Maximum parallel connections are read from the <see cref=\"!:SuperOffice.Configuration.ConfigFile.Threading.MaxParellelThreads\"></see>\nproperty of the configuration file</p>\n"
@@ -536,29 +630,29 @@ items:
   - Shared
   fullName.vb: SuperOffice.Threading.ThreadManager.SpawnThreadOrExecuteSync(Of TArgument)(SuperOffice.Threading.AsyncOperation(Of TArgument), TArgument, System.String)
   name.vb: SpawnThreadOrExecuteSync(Of TArgument)(AsyncOperation(Of TArgument), TArgument, String)
-- uid: SuperOffice.Threading.ThreadManager.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean,System.Boolean)
-  commentId: M:SuperOffice.Threading.ThreadManager.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean,System.Boolean)
-  id: SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean,System.Boolean)
+- uid: SuperOffice.Threading.ThreadManager.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.Threading.ThreadManager.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean,System.Boolean,System.Boolean)
+  id: SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean,System.Boolean,System.Boolean)
   parent: SuperOffice.Threading.ThreadManager
   langs:
   - csharp
   - vb
-  name: SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument, String, Boolean, Boolean)
-  nameWithType: ThreadManager.SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument, String, Boolean, Boolean)
-  fullName: SuperOffice.Threading.ThreadManager.SpawnThread<TArgument>(SuperOffice.Threading.AsyncOperation<TArgument>, TArgument, System.String, System.Boolean, System.Boolean)
+  name: SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument, String, Boolean, Boolean, Boolean)
+  nameWithType: ThreadManager.SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument, String, Boolean, Boolean, Boolean)
+  fullName: SuperOffice.Threading.ThreadManager.SpawnThread<TArgument>(SuperOffice.Threading.AsyncOperation<TArgument>, TArgument, System.String, System.Boolean, System.Boolean, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nSpawn a new thread in the same <xref href=\"SuperOffice.SoContext\" data-throw-if-not-resolved=\"false\"></xref> as the currently executed thread.\n"
   remarks: "\nIf the number of threads currently executing in parallel is less then the currently \nconfigured maximum allowed threads for parallel execution, a thread is spawned.  If \nthe number of threads exceeds this limitation, the operation will be performed synchronously on the current thread.\n<p>Maximum parallel connections are read from the <see cref=\"!:SuperOffice.Configuration.ConfigFile.Threading.MaxParellelThreads\"></see>\nproperty of the configuration file</p>\n"
   example:
   - "\nThe method implementing the asynchronous operation needs to implement the delegate <see cref=\"!:AsyncOperation\"></see>:\n<pre><code>private void MyAsyncOperation(AsyncContext context, object argument)\n{\n	// Do some stuff...\n}</code></pre>\nThe argument passed to the method is an optional argument selected when spawning off the asynchronous task:\n<pre><code>AsyncContext ctx = ThreadManager.SpawnThread(new AsyncOperation(MyAsyncOperation), argument);</code></pre>\n"
   syntax:
-    content: public static AsyncContext SpawnThread<TArgument>(AsyncOperation<TArgument> asyncOperation, TArgument argument, string threadName = null, bool breakOnError = true, bool disableTimeLogging = false)
+    content: public static AsyncContext SpawnThread<TArgument>(AsyncOperation<TArgument> asyncOperation, TArgument argument, string threadName = null, bool breakOnError = true, bool disableTimeLogging = false, bool forceNewThreadEvenIfAtMax = false)
     parameters:
     - id: asyncOperation
       type: SuperOffice.Threading.AsyncOperation{{TArgument}}
@@ -575,22 +669,24 @@ items:
     - id: disableTimeLogging
       type: System.Boolean
       description: Disable logging of times on the inner spawned thread. Default false.
+    - id: forceNewThreadEvenIfAtMax
+      type: System.Boolean
     typeParameters:
     - id: TArgument
     return:
       type: SuperOffice.Threading.AsyncContext
       description: Information about the async operation.
-    content.vb: Public Shared Function SpawnThread(Of TArgument)(asyncOperation As AsyncOperation(Of TArgument), argument As TArgument, threadName As String = Nothing, breakOnError As Boolean = True, disableTimeLogging As Boolean = False) As AsyncContext
+    content.vb: Public Shared Function SpawnThread(Of TArgument)(asyncOperation As AsyncOperation(Of TArgument), argument As TArgument, threadName As String = Nothing, breakOnError As Boolean = True, disableTimeLogging As Boolean = False, forceNewThreadEvenIfAtMax As Boolean = False) As AsyncContext
   overload: SuperOffice.Threading.ThreadManager.SpawnThread*
-  nameWithType.vb: ThreadManager.SpawnThread(Of TArgument)(AsyncOperation(Of TArgument), TArgument, String, Boolean, Boolean)
+  nameWithType.vb: ThreadManager.SpawnThread(Of TArgument)(AsyncOperation(Of TArgument), TArgument, String, Boolean, Boolean, Boolean)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.Threading.ThreadManager.SpawnThread(Of TArgument)(SuperOffice.Threading.AsyncOperation(Of TArgument), TArgument, System.String, System.Boolean, System.Boolean)
-  name.vb: SpawnThread(Of TArgument)(AsyncOperation(Of TArgument), TArgument, String, Boolean, Boolean)
+  fullName.vb: SuperOffice.Threading.ThreadManager.SpawnThread(Of TArgument)(SuperOffice.Threading.AsyncOperation(Of TArgument), TArgument, System.String, System.Boolean, System.Boolean, System.Boolean)
+  name.vb: SpawnThread(Of TArgument)(AsyncOperation(Of TArgument), TArgument, String, Boolean, Boolean, Boolean)
 - uid: SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete(System.Int32,SuperOffice.Threading.AsyncContext[])
   commentId: M:SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete(System.Int32,SuperOffice.Threading.AsyncContext[])
   id: WaitForOperationsToComplete(System.Int32,SuperOffice.Threading.AsyncContext[])
@@ -603,10 +699,10 @@ items:
   fullName: SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete(System.Int32, SuperOffice.Threading.AsyncContext[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nUse this method to wait for all of the given threads to complete, with a timeout\n"
   syntax:
@@ -644,10 +740,10 @@ items:
   fullName: SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete(SuperOffice.Threading.AsyncContext[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nUse this method to wait for all of the given threads to complete; this\noverload will wait forever.\n"
   syntax:
@@ -682,10 +778,10 @@ items:
   fullName: SuperOffice.Threading.ThreadManager.WaitForAllOperationsToComplete()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nWait until all asynchronous operations have completed. This includes n-th generation child threads.\n"
   syntax:
@@ -710,10 +806,10 @@ items:
   fullName: SuperOffice.Threading.ThreadManager.WaitForAllOperationsInDatabaseContextToComplete()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nWait until all asynchronous operations in hte current database context have completed. This includes n-th generation child threads.\n"
   syntax:
@@ -738,10 +834,10 @@ items:
   fullName: SuperOffice.Threading.ThreadManager.WaitForAllOperationsToComplete(System.Int32, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nWait until all asynchronous operations in the current database context have completed, or the time limit (ms) runs out. This includes n-th\ngeneration child threads\n"
   syntax:
@@ -776,10 +872,10 @@ items:
   fullName: SuperOffice.Threading.ThreadManager.RunningThreadCount
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   syntax:
     content: public static int RunningThreadCount { get; }
@@ -808,10 +904,10 @@ items:
   fullName: SuperOffice.Threading.ThreadManager.MaxThreads
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nMaximum parallel operations permitted to run simultaneously.  (-1 is infinite)\n"
   syntax:
@@ -841,10 +937,10 @@ items:
   fullName: SuperOffice.Threading.ThreadManager.SingleThreadMode
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nAre we running in single-thread mode?  If true, then all calls to Spawn will execute in-line; and all calls to Wait will return immediately\n"
   syntax:
@@ -874,12 +970,12 @@ items:
   fullName: SuperOffice.Threading.ThreadManager.HasReachedMaxThreads
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
-  summary: "\nGets whether the ThreadManager has started more than <xref href=\"SuperOffice.Threading.ThreadManager.MaxThreads\" data-throw-if-not-resolved=\"false\"></xref> threads\nwhich has yet to complete.\n\nIf true, spawning new threads via <seealso cref=\"!:SpawnThread&lt;TArgument>(AsyncOperation&lt;TArgument>, TArgument, string, bool, bool, bool)\"></seealso>\nwill block.\n"
+  summary: "\nGets whether the ThreadManager has started more than <xref href=\"SuperOffice.Threading.ThreadManager.MaxThreads\" data-throw-if-not-resolved=\"false\"></xref> threads\nwhich has yet to complete.\n\nIf true, spawning new threads via <xref href=\"SuperOffice.Threading.ThreadManager.SpawnThread%60%601(SuperOffice.Threading.AsyncOperation%7b%60%600%7d%2c%60%600%2cSystem.String%2cSystem.Boolean%2cSystem.Boolean%2cSystem.Boolean)\" data-throw-if-not-resolved=\"false\"></xref>\nwill block.\n"
   syntax:
     content: public static bool HasReachedMaxThreads { get; }
     parameters: []
@@ -907,10 +1003,10 @@ items:
   fullName: SuperOffice.Threading.ThreadManager.IsWorkerThread
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Threading
   summary: "\nIs this thread executed by the <xref href=\"SuperOffice.Threading.ThreadManager\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   remarks: "\nThis can be used by a\n"
@@ -1228,6 +1324,13 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Threading.ThreadManager.RegisterAsyncContextProvider*
   commentId: Overload:SuperOffice.Threading.ThreadManager.RegisterAsyncContextProvider
   isExternal: true
@@ -1519,6 +1622,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Threading.ThreadManager.AbortAllThreads*
+  commentId: Overload:SuperOffice.Threading.ThreadManager.AbortAllThreads
+  isExternal: true
+  name: AbortAllThreads
+  nameWithType: ThreadManager.AbortAllThreads
+  fullName: SuperOffice.Threading.ThreadManager.AbortAllThreads
 - uid: SuperOffice.Threading.ThreadManager.BeginPreventParallelism*
   commentId: Overload:SuperOffice.Threading.ThreadManager.BeginPreventParallelism
   isExternal: true
@@ -1577,17 +1686,6 @@ references:
   name: ThreadManager.IgnoreSentryModifier
   nameWithType: ThreadManager.IgnoreSentryModifier
   fullName: SuperOffice.Threading.ThreadManager.IgnoreSentryModifier
-- uid: SuperOffice.Threading.ThreadManager.OnGetEnvironmentInfo*
-  commentId: Overload:SuperOffice.Threading.ThreadManager.OnGetEnvironmentInfo
-  isExternal: true
-  name: OnGetEnvironmentInfo
-  nameWithType: ThreadManager.OnGetEnvironmentInfo
-  fullName: SuperOffice.Threading.ThreadManager.OnGetEnvironmentInfo
-- uid: System.Collections.Specialized.NameValueCollection
-  isExternal: true
-  name: NameValueCollection
-  nameWithType: NameValueCollection
-  fullName: System.Collections.Specialized.NameValueCollection
 - uid: SuperOffice.Threading.ThreadManager.Invoke*
   commentId: Overload:SuperOffice.Threading.ThreadManager.Invoke
   isExternal: true
@@ -1843,13 +1941,6 @@ references:
   name: WaitForOperationsToComplete
   nameWithType: ThreadManager.WaitForOperationsToComplete
   fullName: SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: SuperOffice.Threading.AsyncContext[]
   isExternal: true
   name: AsyncContext[]

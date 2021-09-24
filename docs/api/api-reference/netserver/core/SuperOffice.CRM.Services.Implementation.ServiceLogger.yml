@@ -18,6 +18,7 @@ items:
   - SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String,System.String,System.String[],System.Object[],System.TimeSpan,System.Object)
   - SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String,System.String,System.TimeSpan)
   - SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String,System.String,System.TimeSpan,System.Object)
+  - SuperOffice.CRM.Services.Implementation.ServiceLogger.NoReturnValue
   langs:
   - csharp
   - vb
@@ -26,10 +27,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   summary: "\nLogging functionality for Service layer calls; accessed from generated code\n"
   remarks: "\nThis logging is controlled by the LogServiceCalls key (True/False) and optionally the LoggedServices key (comma-separated list of service names to log)\n"
@@ -53,6 +54,34 @@ items:
   modifiers.vb:
   - Public
   - Module
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogger.NoReturnValue
+  commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogger.NoReturnValue
+  id: NoReturnValue
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogger
+  langs:
+  - csharp
+  - vb
+  name: NoReturnValue
+  nameWithType: ServiceLogger.NoReturnValue
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.NoReturnValue
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public const string NoReturnValue = "!!noreturn!!"
+    return:
+      type: System.String
+    content.vb: Public Const NoReturnValue As String = "!!noreturn!!"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String,System.String,System.String[],System.Object[],System.TimeSpan)
   commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String,System.String,System.String[],System.Object[],System.TimeSpan)
   id: LogCall(System.String,System.String,System.String[],System.Object[],System.TimeSpan)
@@ -65,10 +94,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String, System.String, System.String[], System.Object[], System.TimeSpan)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   summary: "\nLog a service call that does not have a return value\n"
   syntax:
@@ -112,10 +141,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String, System.String, System.String[], System.Object[], System.TimeSpan, System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   summary: "\nLog a service call that returns a value\n"
   syntax:
@@ -162,10 +191,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String, System.String, System.String, System.Object, System.TimeSpan)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   summary: "\nLog a service call that does not have a return value\n"
   syntax:
@@ -204,10 +233,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String, System.String, System.TimeSpan)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   summary: "\nLog a service call that does not have parameters nor a return value\n"
   syntax:
@@ -242,10 +271,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String, System.String, System.String, System.Object, System.TimeSpan, System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   summary: "\nLog a service call that has a single parameter and a return value\n"
   syntax:
@@ -286,10 +315,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String, System.String, System.TimeSpan, System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   summary: "\nLog a service call that has no parameters, but does have a return value\n"
   syntax:
@@ -326,10 +355,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String, System.String, System.String[], System.Object[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   summary: "\nLog a service call that does not have a return value\n"
   syntax:
@@ -372,10 +401,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String, System.String, System.String[], System.Object[], System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   summary: "\nLog a service call that returns a value\n"
   syntax:
@@ -421,10 +450,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String, System.String, System.String, System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   summary: "\nLog a service call that does not have a return value\n"
   syntax:
@@ -462,10 +491,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   summary: "\nLog a service call that does not have parameters nor a return value\n"
   syntax:
@@ -499,10 +528,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String, System.String, System.String, System.Object, System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   summary: "\nLog a service call that has a single parameter and a return value\n"
   syntax:
@@ -542,10 +571,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String, System.String, System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   summary: "\nLog a service call that has no parameters, but does have a return value\n"
   syntax:
@@ -581,10 +610,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.FormatServiceLogInformation(System.String, System.String, System.String[], System.Object[], System.Object, System.TimeSpan)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   syntax:
     content: public static string FormatServiceLogInformation(string agentName, string methodName, string[] parameterNames, object[] parameterValues, object returnValue, TimeSpan executionTime)
@@ -913,12 +942,6 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall*
-  commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall
-  isExternal: true
-  name: LogCall
-  nameWithType: ServiceLogger.LogCall
-  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -926,6 +949,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall*
+  commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall
+  isExternal: true
+  name: LogCall
+  nameWithType: ServiceLogger.LogCall
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall
 - uid: System.String[]
   isExternal: true
   name: String[]

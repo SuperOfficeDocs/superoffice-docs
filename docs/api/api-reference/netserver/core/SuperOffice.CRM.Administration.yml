@@ -59,6 +59,20 @@ references:
   name: SoPasswordCredentialPlugin
   nameWithType: SoPasswordCredentialPlugin
   fullName: SuperOffice.CRM.Administration.SoPasswordCredentialPlugin
+- uid: SuperOffice.CRM.Administration.SoUser
+  commentId: T:SuperOffice.CRM.Administration.SoUser
+  parent: SuperOffice.CRM.Administration
+  isExternal: true
+  name: SoUser
+  nameWithType: SoUser
+  fullName: SuperOffice.CRM.Administration.SoUser
+- uid: SuperOffice.CRM.Administration.SoUser.PermissionType
+  commentId: T:SuperOffice.CRM.Administration.SoUser.PermissionType
+  parent: SuperOffice.CRM.Administration
+  isExternal: true
+  name: SoUser.PermissionType
+  nameWithType: SoUser.PermissionType
+  fullName: SuperOffice.CRM.Administration.SoUser.PermissionType
 - uid: SuperOffice.CRM.Administration.SoUserCredential
   commentId: T:SuperOffice.CRM.Administration.SoUserCredential
   isExternal: true
@@ -98,26 +112,6 @@ references:
   name: UserCredentialInfo
   nameWithType: UserCredentialInfo
   fullName: SuperOffice.CRM.Administration.UserCredentialInfo
-- uid: SuperOffice.CRM.Administration.UserValidatorPluginAttribute
-  commentId: T:SuperOffice.CRM.Administration.UserValidatorPluginAttribute
-  parent: SuperOffice.CRM.Administration
-  isExternal: true
-  name: UserValidatorPluginAttribute
-  nameWithType: UserValidatorPluginAttribute
-  fullName: SuperOffice.CRM.Administration.UserValidatorPluginAttribute
-- uid: SuperOffice.CRM.Administration.IUserValidatorPlugin
-  commentId: T:SuperOffice.CRM.Administration.IUserValidatorPlugin
-  parent: SuperOffice.CRM.Administration
-  isExternal: true
-  name: IUserValidatorPlugin
-  nameWithType: IUserValidatorPlugin
-  fullName: SuperOffice.CRM.Administration.IUserValidatorPlugin
-- uid: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin
-  commentId: T:SuperOffice.CRM.Administration.DefualtUserValidatorPlugin
-  isExternal: true
-  name: DefualtUserValidatorPlugin
-  nameWithType: DefualtUserValidatorPlugin
-  fullName: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin
 - uid: SuperOffice.CRM.Administration.UserPluginAttribute
   commentId: T:SuperOffice.CRM.Administration.UserPluginAttribute
   parent: SuperOffice.CRM.Administration
@@ -151,20 +145,26 @@ references:
   name: UserPlugin
   nameWithType: UserPlugin
   fullName: SuperOffice.CRM.Administration.UserPlugin
-- uid: SuperOffice.CRM.Administration.SoUser
-  commentId: T:SuperOffice.CRM.Administration.SoUser
+- uid: SuperOffice.CRM.Administration.UserValidatorPluginAttribute
+  commentId: T:SuperOffice.CRM.Administration.UserValidatorPluginAttribute
   parent: SuperOffice.CRM.Administration
   isExternal: true
-  name: SoUser
-  nameWithType: SoUser
-  fullName: SuperOffice.CRM.Administration.SoUser
-- uid: SuperOffice.CRM.Administration.SoUser.PermissionType
-  commentId: T:SuperOffice.CRM.Administration.SoUser.PermissionType
+  name: UserValidatorPluginAttribute
+  nameWithType: UserValidatorPluginAttribute
+  fullName: SuperOffice.CRM.Administration.UserValidatorPluginAttribute
+- uid: SuperOffice.CRM.Administration.IUserValidatorPlugin
+  commentId: T:SuperOffice.CRM.Administration.IUserValidatorPlugin
   parent: SuperOffice.CRM.Administration
   isExternal: true
-  name: SoUser.PermissionType
-  nameWithType: SoUser.PermissionType
-  fullName: SuperOffice.CRM.Administration.SoUser.PermissionType
+  name: IUserValidatorPlugin
+  nameWithType: IUserValidatorPlugin
+  fullName: SuperOffice.CRM.Administration.IUserValidatorPlugin
+- uid: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin
+  commentId: T:SuperOffice.CRM.Administration.DefualtUserValidatorPlugin
+  isExternal: true
+  name: DefualtUserValidatorPlugin
+  nameWithType: DefualtUserValidatorPlugin
+  fullName: SuperOffice.CRM.Administration.DefualtUserValidatorPlugin
 - uid: SuperOffice.CRM.Administration
   commentId: N:SuperOffice.CRM.Administration
   isExternal: true

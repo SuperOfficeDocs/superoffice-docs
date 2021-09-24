@@ -57,7 +57,6 @@ items:
   - SuperOffice.License.SoLicenseNames.FreeTrial
   - SuperOffice.License.SoLicenseNames.G9
   - SuperOffice.License.SoLicenseNames.GoogleApps
-  - SuperOffice.License.SoLicenseNames.HugoAI
   - SuperOffice.License.SoLicenseNames.Import
   - SuperOffice.License.SoLicenseNames.MailMergeCal
   - SuperOffice.License.SoLicenseNames.Maintenance
@@ -140,10 +139,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nLicense names for SuperOffice Module Licenses. Use\n<xref href=\"SuperOffice.Security.Principal.SoPrincipal.GetLicense(System.String%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref> and \n<xref href=\"SuperOffice.Security.Principal.SoPrincipal.HasLicense(System.String%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref> with these constants.\n"
   syntax:
@@ -178,10 +177,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Server
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.server: SuperOffice NetServer \nSystem License:   \n"
   syntax:
@@ -207,10 +206,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Saint
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.saint: Sales Intelligence Turns on SAINT counters, status monitors in admin+clients\nSystem License:   \n"
   syntax:
@@ -236,10 +235,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Quote
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.quote: Quote Turns on products and quotes in admin\nSystem License:   \n"
   syntax:
@@ -265,10 +264,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.ErpSync
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.erp-sync: Turns on ERP Sync in admin + clients\nSystem License:   \n"
   syntax:
@@ -294,10 +293,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.AreaMgt
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.area-mgt: Area Management Turns on Area Mgt in SOADMIN\nSystem License:   \n"
   syntax:
@@ -323,10 +322,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SuperlicenseExpanderForCollaboration
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.superlicense-expander-for-collaboration: Expander for Collaboration Enables External and Anonymous access to NetServer\nSystem License:   \n"
   syntax:
@@ -352,10 +351,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.ExternUser
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.extern-user: External Users Turns on external users in SOADMIN user panel and NetServer\nSystem License: Hidden  \n"
   syntax:
@@ -381,10 +380,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.CustomApps
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.custom-apps: Enables un-certified apps without going through app store.\nSystem License: Hidden  \n"
   syntax:
@@ -410,10 +409,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SystemUser
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.system-user: System Users Turns on system user in SOADMIN user panel and NetServer\nSystem License: Hidden  \n"
   syntax:
@@ -439,10 +438,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.AnonymousUser
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.anonymous-user: Anonymous Users Turns on anonymous user in SOADMIN user panel and NetServer\nSystem License: Hidden  \n"
   syntax:
@@ -468,10 +467,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Udef
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.udef: User-def fields Turns on udef field panel in SOADMIN and in CRM clients, NetServer.\nSystem License: Hidden  \n"
   syntax:
@@ -497,10 +496,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Import
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.import: Import Turns on import panel in SOADMIN\nSystem License: Hidden  \n"
   syntax:
@@ -526,10 +525,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.AdAuth
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ad-auth: Active Directory Authentication integration\nSystem License: Hidden  \n"
   syntax:
@@ -555,10 +554,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Federation
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.federation: Cloud login integration marker\nSystem License: Hidden\n"
   syntax:
@@ -584,10 +583,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Office365
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.office365: Cloud Office 365 authentication and document integration\nSystem License: Hidden  \n"
   syntax:
@@ -613,10 +612,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.GoogleApps
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.GoogleApps: Cloud Google Apps authentication and document integration\nSystem License: Hidden  \n"
   syntax:
@@ -642,10 +641,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.UserManagement
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.user-management: User Management in Admin; disabled in Visma.NET where user management is in ODP/VARPAD instead\nSystem License: Hidden  \n"
   syntax:
@@ -671,10 +670,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.PocketCrmServer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.pocket-crm-server: Pocket CRM Server Enables pocket CRM usage – still need CAL assigned though.\nSystem License:   \n"
   syntax:
@@ -700,10 +699,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SuperlicenseEJournalDesigner
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.superlicense-ej-designer: eJournal Designer Studio Extra Tables/Fields, System design and scripting, e-mail filters.\nSystem License:   \n"
   syntax:
@@ -729,10 +728,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SuperlicenseEJournalIntegrator
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.superlicense-ej-integrator: eJournal Integrators Includes MAPI, LDAP, ODBC and SDK. DevNet membership included.\nSystem License:   \n"
   syntax:
@@ -758,10 +757,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SuperlicenseEJournalCustomerCentre
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.superlicense-ej-customer centre: eJournal Customer Centre Language dependent customer login, case tracking, web forms, FAQ and knowledgebase\nSystem License:   \n"
   syntax:
@@ -787,10 +786,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SuperlicenseEJournalEmarketing
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.superlicense-ej-emarketing: eJournal eMarketing Mass distribution of e-mails.\nSystem License:   \n"
   syntax:
@@ -816,10 +815,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SuperlicenseAimSdk
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.superlicense-aim-sdk: eJournal AIM SDK AIM License - Design and scripting.\nSystem License:   \n"
   syntax:
@@ -845,10 +844,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SuperlicenseAimIntegrator
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.superlicense-aim-integrator: eJournal AIM DB Integrators AIM License - ODBC and SDK.\nSystem License:   \n"
   syntax:
@@ -874,10 +873,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SuperlicenseAimCustomerCentre
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.superlicense-aim-customer-centre: eJournal AIM Customer Centre AIM License - Customer login\nSystem License:   \n"
   syntax:
@@ -903,10 +902,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SuperlicenseAimCustomerPages
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.superlicense-aim-customer-pages: eJournal AIM Customer Pages AIM License - Web forms and knowledgebase\nSystem License:   \n"
   syntax:
@@ -932,10 +931,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SuperlicenseAimCustomerPortal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.superlicense-aim-customer-portal: eJournal AIM Customer Portal AIM License - customer login, case tracking\nSystem License:   \n"
   syntax:
@@ -961,10 +960,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SuperlicenseAimFaq
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.superlicense-aim-faq: eJournal AIM FAQ AIM License - Frequently Asked Questions, Knowledgebase.\nSystem License:   \n"
   syntax:
@@ -990,10 +989,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.EJournalAdmin
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ej-mod-admin: eJournal admin and settings \nSystem License: Hidden  \n"
   syntax:
@@ -1019,10 +1018,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.EJournalAdvancedFaq
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ej-mod-advanced-faq: eJournal FAQ with advanced features (top 10, score, etc) \nSystem License: Hidden  \n"
   syntax:
@@ -1048,10 +1047,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.EJournalBlogic
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ej-mod-blogic: eJournal Business Logic, scripting, custom screens \nSystem License: Hidden  \n"
   syntax:
@@ -1077,10 +1076,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.EJournalMacro
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ej-mod-macro: eJournal Macro scripting \nSystem License: Hidden  \n"
   syntax:
@@ -1106,10 +1105,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.EJournalCustomer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ej-mod-customer: eJournal Customer Center \nSystem License: Hidden  \n"
   syntax:
@@ -1135,10 +1134,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.EJournalCustomerLang
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ej-mod-customer-lang: eJournal Customer Center in multiple languages \nSystem License: Hidden  \n"
   syntax:
@@ -1164,10 +1163,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.EJournalDocument
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ej-mod-document: eJournal documents \nSystem License: Hidden  \n"
   syntax:
@@ -1193,10 +1192,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.EJournalExtdb
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ej-mod-extdb: eJournal Database Integration \nSystem License: Hidden  \n"
   syntax:
@@ -1222,10 +1221,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.EJournalHelp
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ej-mod-help: eJournal Help pages \nSystem License: Hidden  \n"
   syntax:
@@ -1251,10 +1250,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.EJournalKnowledge
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ej-mod-knowledge: eJournal Knowledge Base and Reply templates \nSystem License: Hidden  \n"
   syntax:
@@ -1280,10 +1279,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.EJournalRms
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ej-mod-rms: eJournal Login pages \nSystem License: Hidden  \n"
   syntax:
@@ -1309,10 +1308,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.EJournalSoap
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ej-mod-soap: eJournal Developer SOAP SDK \nSystem License: Hidden  \n"
   syntax:
@@ -1338,10 +1337,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.EJournalSoapPublic
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ej-mod-soap-public: eJournal Public SOAP API \nSystem License: Hidden  \n"
   syntax:
@@ -1367,10 +1366,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.EJournalStat
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ej-mod-stat: eJournal statistics \nSystem License: Hidden  \n"
   syntax:
@@ -1396,10 +1395,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.EJournalStandardEdition
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ej-mod-standard-edition: eJournal standard edition: no scripts, custom screens, extra tables. \nSystem License: Hidden  \n"
   syntax:
@@ -1425,10 +1424,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.EJournalSpm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ej-mod-spm: eJournal eMarketing module \nSystem License: Hidden  \n"
   syntax:
@@ -1454,10 +1453,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.EJournalSms
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ej-mod-sms: eJournal SMS module \nSystem License:   \n"
   syntax:
@@ -1483,10 +1482,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.EJournalTicket
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ej-mod-ticket: Enables request management \nSystem License: Hidden  \n"
   syntax:
@@ -1512,10 +1511,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Devnet
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.devnet: DevNet membership Developer network membership. Enables Test License Tool\nSystem License:   \n"
   syntax:
@@ -1541,10 +1540,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Maintenance
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.maintenance: On-premises Maintenance customer. Pays yearly fee.\nSystem license. Hidden.\n"
   syntax:
@@ -1570,10 +1569,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Subscription
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.subscription: On-premises Subscription customer. Pays monthly or quarterly.\nSystem license. Hidden.\n"
   syntax:
@@ -1599,10 +1598,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Rental
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.rental: On-premises Rental customer. Pays monthly or quarterly.\nSystem license. Hidden.\n"
   syntax:
@@ -1628,10 +1627,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.NeedConsent
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.need-consent: On-premises Maintenance customer that needs to show consent dialog to accept addendum.\nSystem license. Hidden.\n"
   syntax:
@@ -1657,10 +1656,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Online
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.online: SuperOffice Online Customer \nSystem License:   \n"
   syntax:
@@ -1686,10 +1685,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.FreeTrial
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.freetrial: This free license will expire shortly.\nSystem License\n"
   syntax:
@@ -1715,10 +1714,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Solo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.solo: SuperOffice SOLO Customer \nSystem License:   \n"
   syntax:
@@ -1744,10 +1743,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SuperlicenseOnlineStd
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.superlicense-online-std: Online Standard\nSystem License:   \n"
   syntax:
@@ -1773,10 +1772,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SuperlicenseOnlinePro
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.superlicense-online-pro: Online Pro\nSystem License:   \n"
   syntax:
@@ -1802,10 +1801,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SuperlicenseEjOnlineStd
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.superlicense-ej-online-std: eJournal Online Standard\nSystem License:   \n"
   syntax:
@@ -1831,10 +1830,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SuperlicenseEjOnlinePro
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.superlicense-ej-online-pro: eJournal Online Pro\nSystem License:   \n"
   syntax:
@@ -1860,10 +1859,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SuperlicenseVismaNetPro
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.superlicense-online-pro: Online Pro\nSystem License:   \n"
   syntax:
@@ -1889,10 +1888,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.OnlineWebServices
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.online-webservices: Online WebService activation\nSystem License:   Not needed on-site\n"
   syntax:
@@ -1918,10 +1917,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.ExpanderServices
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.expander-services: Expander Services activation - turns on CS extra tables, external users, custom apps\nSystem License:   \n"
   syntax:
@@ -1947,10 +1946,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Satellite
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.satellite: Satellite Turns on satellite dialogs in SOADMIN Replication panel\nSite License:   \n"
   syntax:
@@ -1976,10 +1975,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Audience
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.audience: Audience Enables Audience web site.\nSite License:     Requires: extern-user\n"
   syntax:
@@ -2005,10 +2004,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.ReporterStudio
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.reporter-studio: Reporter Studio Custom reports through Reporter Studio. Also need RepStudio CAL.\nSite License:   \n"
   syntax:
@@ -2034,10 +2033,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Sapb1link
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.sapb1link: SAP B1 Link Enables SAP B1 Link client.\nSite License:   \n"
   syntax:
@@ -2063,10 +2062,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.ExchangeSync
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.exchange-sync: Exchange Synchronizer Enables InfoBridge Exchange synchronizer\nSite License:   \n"
   syntax:
@@ -2092,10 +2091,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SyncServer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.sync-server: Intellisync Server Enables Intellisync Server (Notes)\nSite License:   \n"
   syntax:
@@ -2121,10 +2120,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.ExtraStorage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.extra-storage: Extra Storage Information about storage capacity for Online CRM use.\nSite License:   \n"
   syntax:
@@ -2132,35 +2131,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const ExtraStorage As String = "superoffice.extra-storage"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
-- uid: SuperOffice.License.SoLicenseNames.HugoAI
-  commentId: F:SuperOffice.License.SoLicenseNames.HugoAI
-  id: HugoAI
-  parent: SuperOffice.License.SoLicenseNames
-  langs:
-  - csharp
-  - vb
-  name: HugoAI
-  nameWithType: SoLicenseNames.HugoAI
-  fullName: SuperOffice.License.SoLicenseNames.HugoAI
-  type: Field
-  source:
-    path: SOCore
-    isExternal: true
-  assemblies:
-  - SOCore
-  namespace: SuperOffice.License
-  summary: "\nsuperoffice.ai : Activate Artificial Intelligence System.\nSystem license.\n"
-  syntax:
-    content: public const string HugoAI = "superoffice.ai"
-    return:
-      type: System.String
-    content.vb: Public Const HugoAI As String = "superoffice.ai"
   modifiers.csharp:
   - public
   - const
@@ -2179,10 +2149,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.VideoMeet
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.video-meet : Activate Video Meetings in Appointment dialog.\nSystem license.\n"
   syntax:
@@ -2208,10 +2178,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.User
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.user: User login Allows user to log in half-way. You also need a client license.\nUser License:   \n"
   syntax:
@@ -2237,10 +2207,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Web
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.web: Web login Allows user to log in to web client.\nUser License:     Requires: User\n"
   syntax:
@@ -2266,10 +2236,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Windows
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.windows: Windows login Allows user to log in to win client.\nUser License:     Requires: User\n"
   syntax:
@@ -2295,10 +2265,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.EJournalClient
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ej-client: eJournal login Allows user to log in to eJournal web client.\nUser License:     Requires: User\n"
   syntax:
@@ -2324,10 +2294,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.EJournalReadonlyClient
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ej-readonly-client: eJournal Read-only login Allows user to use eJournal read-only client.\nUser License:     Requires: User\n"
   syntax:
@@ -2353,10 +2323,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.EJournalSimClient
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ej-sim-client: eJournal sim login eJournal Simultaneous client user.\nUser License:     Requires: User\n"
   syntax:
@@ -2382,10 +2352,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.EJournalSimReadonlyClient
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ej-sim-readonly-client: eJournal sim read-only eJournal Simultaneous read-only user\nUser License:     Requires: User\n"
   syntax:
@@ -2411,10 +2381,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.PocketCrmCal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.pocket-crm-cal: Pocket login Allows user to log in to pocket client.\nUser License:     Requires: User\n"
   syntax:
@@ -2440,10 +2410,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.ExternUserCal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.extern-user-cal: External user login Allows log in to audience client, eJournal portal, NetServer\nUser License:  Unrestricted \n"
   syntax:
@@ -2469,10 +2439,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SystemUserCal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.system-user-cal: System user login Allows log in to NetServer\nUser License:  Unrestricted \n"
   syntax:
@@ -2498,10 +2468,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.AnonymousUserCal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.anonymous-user-cal: Anonymous user login Allows log in to NetServer, Audience\nUser License:  Unrestricted \n"
   syntax:
@@ -2527,10 +2497,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Publish
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.publish: Publish to external Enables Publish checkbox in CRM client. Requires Extern-user\nUser License:  Unrestricted \n"
   syntax:
@@ -2556,10 +2526,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.VisibleFor
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.visible-for: Confidential activities Enables the visible-for dropdown in the CRM client\nUser License:  Unrestricted \n"
   syntax:
@@ -2585,10 +2555,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Travel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.travel: Travel Enables the travel menu. Requires Windows.\nUser License:  Unrestricted   Requires: Windows\n"
   syntax:
@@ -2614,10 +2584,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.RemoteTravel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.remote-travel: Remote Travel Enables remote travel client for user.\nUser License:     Requires: Travel\n"
   syntax:
@@ -2643,10 +2613,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.OutlookSynchronizer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.outlook-synchronizer: Outlook Synchronizer Enables Outlook client sync (??)\nUser License:   \n"
   syntax:
@@ -2672,10 +2642,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SynchronizerCal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.synchronizer-cal: Exchange synch login Allows user to use Exchange-sync site license\nUser License:   \n"
   syntax:
@@ -2701,10 +2671,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.ReporterStudioUser
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.reporter-studio-user: Reporter Studio login Allows user to log in to Reporter Studio.\nUser License:  Unrestricted   Requires: rep-studio\n"
   syntax:
@@ -2730,10 +2700,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.AdminExternUser
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.admin-extern-user: External user administrator Allows user to admin external user in CRM client\nUser License:  Unrestricted \n"
   syntax:
@@ -2759,10 +2729,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.AdminSystemUser
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.admin-system-user: System user administrator Allows user to admin system user in SOADMIN user panel.\nUser License: Hidden Unrestricted \n"
   syntax:
@@ -2788,10 +2758,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.AdminAnonymousUser
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.admin-anonymous-user: Anonymous user admin Allows user to admin anonymous user in SOADMIN user panel.\nUser License: Hidden Unrestricted \n"
   syntax:
@@ -2817,10 +2787,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.EJournalSpmCal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ej-mod-spm-cal: eJournal eMarketing user\nUser License: Unrestricted\n"
   syntax:
@@ -2846,10 +2816,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.QuoteCal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.quote-cal: Turns on products and quotes in client for this user\nUser License: Restricted.  \n"
   syntax:
@@ -2875,10 +2845,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Document
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public const string Document = "superoffice.document"
@@ -2903,10 +2873,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Sale
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.sale: Turn on Sale panel in client for users.\nUser license\n"
   syntax:
@@ -2932,10 +2902,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SaleCal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.sale-cal: Turn on EDIT rights for sales for this user. Without this CAL the user has read-only rights.\nUser license\n"
   syntax:
@@ -2961,10 +2931,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Selection
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.selection: Turn on Selection panel for users\nUser license.\n"
   syntax:
@@ -2990,10 +2960,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SelectionCal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.selection-cal: Turn on EDIT rights for selections for this user. Without this CAL the user has read-only rights.\nUser licenes.\n"
   syntax:
@@ -3019,10 +2989,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SelectionCombinedCal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.selection-combined-cal: Enable combined-selections when creating selections in client.\nUser license.\n"
   syntax:
@@ -3048,10 +3018,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Project
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.project: Turn on the project panel in the client for users.\nUser license.\n"
   syntax:
@@ -3077,10 +3047,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.ProjectCal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.project-cal: Turn on EDIT rights for projects for this user. Without this CAL the user has read-only rights.\nUser license.\n"
   syntax:
@@ -3106,10 +3076,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Report
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.report: Turn on report panel in the client for users.\nUser license.\n"
   syntax:
@@ -3135,10 +3105,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.ReportCal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.report-cal: Turn on editing of reports for this user. Without this CAL the user can only read/view reports.\nUser license.\n"
   syntax:
@@ -3164,10 +3134,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Relation
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.relation: Turn on relation archive/dialog in the client for users.\nUser license.\n"
   syntax:
@@ -3193,10 +3163,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.RelationCal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.relation-cal: Turn on create/editing of relations in the client for this user. Without this CAL the user can only read/view relations.\nUser license.\n"
   syntax:
@@ -3222,10 +3192,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.MailMergeCal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.mail-merge-cal: Can access mail merge function, subject to functional right restrictions.\nUser License.\n"
   syntax:
@@ -3251,10 +3221,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SuperLicenseContactManager
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.superlicense-contact-manager: Enables user, web, project-cal, selection-cal, report-cal, relation-cal   licenses automatically when used. See ExtraInfo field for details.\nUser license. Type 1 (Radio button)\n"
   syntax:
@@ -3280,10 +3250,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SuperLicenseSalesPro
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.superlicense-sales-pro: Enables user, web, project-cal, sale-cal, quote-cal, selection-cal, selection-combined-cal, report-cal, relation-cal   licenses automatically when used. See ExtraInfo field for details.\nUser license. Type 1 (Radio button)\n"
   syntax:
@@ -3309,10 +3279,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SuperLicenseMarketingPro
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.superlicense-marketing-pro: Enables user, web, project-cal, selection-cal, selection-combined-cal, ej-mod-spm-cal, report-cal, relation-cal  licenses automatically when used. See ExtraInfo field for details.\nUser license. Type 1 (Radio button)\n"
   syntax:
@@ -3338,10 +3308,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SuperLicenseServicePro
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.superlicense-service-pro: Enables user, web, ej-client, project-cal, selection-cal, report-cal, relation-cal  licenses automatically when used. See ExtraInfo field for details.\nUser license. Type 1 (Radio button)\n"
   syntax:
@@ -3367,10 +3337,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SuperLicenseComplete
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.superlicense-complete: Enables user, web, ej-client, sale-cal, quote-cal, project-cal, selection-cal, selection-combined-cal, ej-mod-spm-cal, report-cal, relation-cal  licenses automatically when used. See ExtraInfo field for details.\nUser license. Type 1 (Radio button)\n"
   syntax:
@@ -3396,10 +3366,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SuperLicenseAssistant
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.superlicense-assistant: Enables user, web licenses automatically when used. See ExtraInfo field for details.\nUser license. Type 1 (Radio button)\n"
   syntax:
@@ -3425,10 +3395,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.SuperLicenseNoSelection
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.superlicense-no-selection: Enables no licenses automatically when used. Is used for disabling users/swapping between user types.\nUser license. Type 1 (Radio button)  UNRESTRICTED.\n"
   syntax:
@@ -3454,10 +3424,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.FeaturePricing
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.feature-pricing: Indicates that the new pricelist is in use. Applies to both Online and On-Prem installations.\nSystem license. Hidden.\n"
   syntax:
@@ -3483,10 +3453,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.G9
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.g9: Indicates that the new G9 pricelist is in use. Applies to both Online and On-Prem installations.\nSystem license. Hidden.\n"
   syntax:
@@ -3512,10 +3482,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.OnlineServices
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.online-services: Online services (Google,Office,Mailings services, etc). Applies to both Online and On-Prem installations.\nSystem license. Hidden.\n"
   syntax:
@@ -3541,10 +3511,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Test
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.test: Test installation marker. Applies to both Online and On-Prem installations.\nSystem license. \n"
   syntax:
@@ -3570,10 +3540,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.DbMirror
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.db-mirror: Database Mirroring active. Database changes are copied to remote location for processing.\nSystem license. \n"
   syntax:
@@ -3599,10 +3569,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.TestDrive
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.testdrive: Test Drive installation marker. Applies to Online installations.\nSystem license. \n"
   syntax:
@@ -3628,10 +3598,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Chat
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.chat : Activate chat system. Without this license the Chat Admin does not appear.\nSystem license.\n"
   syntax:
@@ -3657,10 +3627,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.ChatCal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.chat-cal: Turn on chat for this user. Without this CAL the user cannot access Chat system.\nChat permissions are controlled separately in admin.\nUser license.\n"
   syntax:
@@ -3686,10 +3656,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Forms
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.forms : Activate forms system. Without this license the Forms panel does not appear.\nSystem license.\n"
   syntax:
@@ -3715,10 +3685,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.FormsCal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.forms-cal: Turn on forms for this user. Without this CAL the user cannot access Forms designer.\nUser license.\n"
   syntax:
@@ -3744,10 +3714,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.MarketingAutomation
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.mktg-auto: Activate marketing automation system. Without this license the Automation panel does not appear.\nSystem license.\n"
   syntax:
@@ -3773,10 +3743,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.MarketingAutomationCal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.mktg-auto-cal: Turn on marketing automation for this user. Without this CAL the user cannot access automation designer.\nUser license.\n"
   syntax:
@@ -3802,10 +3772,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.AI
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.ai: Artificial Intelligence\nSystem license.\n"
   syntax:
@@ -3831,10 +3801,10 @@ items:
   fullName: SuperOffice.License.SoLicenseNames.Engagement
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nsuperoffice.engagement: Engagement Platform. Enables chat, forms, video meetings\nSystem license.\n"
   syntax:

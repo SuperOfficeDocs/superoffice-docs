@@ -208,10 +208,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nIf this is a link to a link or an image (gif/jpeg). See SpmLink::LinkType \n"
   syntax:
-    content: public short LinkType
+    content: public ShipmentLinkType LinkType
     return:
-      type: System.Int16
-    content.vb: Public LinkType As Short
+      type: SuperOffice.Data.ShipmentLinkType
+    content.vb: Public LinkType As ShipmentLinkType
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1032,13 +1032,19 @@ references:
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
+- uid: SuperOffice.Data.ShipmentLinkType
+  commentId: T:SuperOffice.Data.ShipmentLinkType
+  parent: SuperOffice.Data
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  name: ShipmentLinkType
+  nameWithType: ShipmentLinkType
+  fullName: SuperOffice.Data.ShipmentLinkType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
 - uid: System.String
   commentId: T:System.String
   parent: System

@@ -22,10 +22,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Numbering
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nNumbering\n"
   syntax:
@@ -60,10 +60,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Numbering.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:
@@ -89,10 +89,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Numbering.DefaultAllocate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nAutomatic allocation of a new number when a new document is created\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -118,10 +118,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Numbering.DefaultAllowBlank
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWhether blank values are permitted for new counters\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -147,10 +147,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Numbering.DefaultReadOnly
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWhether numbers allocated to a document or documents of a given template type may be amended (write-protected)\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -176,10 +176,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Numbering.DefaultSatPrefix
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault prefix for new counters on Satellite databases \n<p></p>Control type: Number, access: Wizard\n"
   syntax:
@@ -205,10 +205,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Numbering.DefaultTravelPrefix
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault prefix for new counters on Travel databases\n<p></p>Control type: Number, access: Wizard\n"
   syntax:
@@ -234,10 +234,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Numbering.DefaultUnique
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nNumbers with a new counter must be unique.\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -263,10 +263,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Numbering.NumberEachTemplate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nIf Yes, separate counters are maintained for each document template\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -292,10 +292,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Numbering.DefaultStart
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nIf Yes, separate counters are maintained for each document template\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:

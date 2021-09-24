@@ -80,10 +80,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nA SerializationReader instance is used to read stored values and objects from a byte array.\n\nOnce an instance is created, use the various methods to read the required data.\nThe data read MUST be exactly the same type and in the same order as it was written.\n"
   syntax:
@@ -153,10 +153,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.SerializationReader(System.Byte[])
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nCreates a SerializationReader using a byte[] previous created by SerializationWriter\n\nA MemoryStream is used to access the data without making a copy of it.\n"
   syntax:
@@ -186,10 +186,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.SerializationReader(System.IO.Stream)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nCreates a SerializationReader based on the passed Stream.\n"
   syntax:
@@ -216,10 +216,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadArrayList()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns an ArrayList or null from the stream.\n"
   syntax:
@@ -245,10 +245,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadBitArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a BitArray or null from the stream.\n"
   syntax:
@@ -274,10 +274,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadBitVector32()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a BitVector32 value from the stream.\n"
   syntax:
@@ -303,10 +303,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadBytesDirect(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReads the specified number of bytes directly from the stream.\n"
   syntax:
@@ -336,10 +336,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadDateTime()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a DateTime value from the stream.\n"
   syntax:
@@ -365,10 +365,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadGuid()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a Guid value from the stream.\n"
   syntax:
@@ -394,10 +394,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadObject()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns an object based on the SerializedType read next from the stream.\n"
   syntax:
@@ -423,10 +423,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nCalled ReadOptimizedString().\nThis override to hide base BinaryReader.ReadString().\n"
   syntax:
@@ -455,10 +455,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadStringDirect()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a string value from the stream.\n"
   syntax:
@@ -484,10 +484,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadTimeSpan()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a TimeSpan value from the stream.\n"
   syntax:
@@ -513,10 +513,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadType()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a Type or null from the stream.\n\nThrows an exception if the Type cannot be found.\n"
   syntax:
@@ -542,10 +542,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadType(System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a Type or null from the stream.\n\nThrows an exception if the Type cannot be found and throwOnError is true.\n"
   syntax:
@@ -574,10 +574,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedArrayList()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns an ArrayList from the stream that was stored optimized.\n"
   syntax:
@@ -603,10 +603,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedBitArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a BitArray from the stream that was stored optimized.\n"
   syntax:
@@ -632,10 +632,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedBitVector32()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a BitVector32 value from the stream that was stored optimized.\n"
   syntax:
@@ -661,10 +661,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedDateTime()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a DateTime value from the stream that was stored optimized.\n"
   syntax:
@@ -690,10 +690,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedDecimal()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a Decimal value from the stream that was stored optimized.\n"
   syntax:
@@ -719,10 +719,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedInt32()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns an Int32 value from the stream that was stored optimized.\n"
   syntax:
@@ -748,10 +748,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedInt16()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns an Int16 value from the stream that was stored optimized.\n"
   syntax:
@@ -777,10 +777,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedInt64()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns an Int64 value from the stream that was stored optimized.\n"
   syntax:
@@ -806,10 +806,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedObjectArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns an object[] from the stream that was stored optimized.\n"
   syntax:
@@ -835,10 +835,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedObjectArray(System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns an object[] from the stream that was stored optimized.\nThe returned array will be typed according to the specified element type\nand the resulting array can be cast to the expected type.\ne.g.\nstring[] myStrings = (string[]) reader.ReadOptimizedObjectArray(typeof(string));\n\nAn exception will be thrown if any of the deserialized values cannot be\ncast to the specified elementType.\n\n"
   syntax:
@@ -868,10 +868,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedObjectArrayPair(out System.Object[], out System.Object[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a pair of object[] arrays from the stream that were stored optimized.\n"
   syntax:
@@ -902,10 +902,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a string value from the stream that was stored optimized.\n"
   syntax:
@@ -931,10 +931,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedTimeSpan()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a TimeSpan value from the stream that was stored optimized.\n"
   syntax:
@@ -960,10 +960,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedType()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a Type from the stream.\n\nThrows an exception if the Type cannot be found.\n"
   syntax:
@@ -989,10 +989,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedType(System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a Type from the stream.\n\nThrows an exception if the Type cannot be found and throwOnError is true.\n"
   syntax:
@@ -1021,10 +1021,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedUInt16()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a UInt16 value from the stream that was stored optimized.\n"
   syntax:
@@ -1050,10 +1050,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedUInt32()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a UInt32 value from the stream that was stored optimized.\n"
   syntax:
@@ -1079,10 +1079,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedUInt64()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a UInt64 value from the stream that was stored optimized.\n"
   syntax:
@@ -1108,10 +1108,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadTypedArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a typed array from the stream.\n"
   syntax:
@@ -1137,10 +1137,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadByteArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nInternal implementation returning a Byte[].\n"
   syntax:
@@ -1166,10 +1166,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadCharArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nInternal implementation returning a Char[].\n"
   syntax:
@@ -1195,10 +1195,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadDoubleArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nInternal implementation returning a Double[].\n"
   syntax:
@@ -1224,10 +1224,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadGuidArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nInternal implementation returning a Guid[].\n"
   syntax:
@@ -1253,10 +1253,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadInt16Array()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns an Int16[] from the stream.\n"
   syntax:
@@ -1282,10 +1282,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadObjectArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns an object[] or null from the stream.\n"
   syntax:
@@ -1311,10 +1311,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadObjectArray(System.Type)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns an object[] or null from the stream.\nThe returned array will be typed according to the specified element type\nand the resulting array can be cast to the expected type.\ne.g.\nstring[] myStrings = (string[]) reader.ReadObjectArray(typeof(string));\n\nAn exception will be thrown if any of the deserialized values cannot be\ncast to the specified elementType.\n\n"
   syntax:
@@ -1344,10 +1344,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadSingleArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nInternal implementation returning a Single[].\n"
   syntax:
@@ -1373,10 +1373,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadSByteArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nInternal implementation returning an SByte[].\n"
   syntax:
@@ -1402,10 +1402,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadStringArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a string[] or null from the stream.\n"
   syntax:
@@ -1431,10 +1431,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadUInt16Array()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a UInt16[] from the stream.\n"
   syntax:
@@ -1460,10 +1460,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadBooleanArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nInternal implementation returning a Bool[].\n"
   syntax:
@@ -1489,10 +1489,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadDateTimeArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a DateTime[] from the stream.\n"
   syntax:
@@ -1518,10 +1518,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadDecimalArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nInternal implementation returning a Decimal[].\n"
   syntax:
@@ -1547,10 +1547,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadInt32Array()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns an Int32[] from the stream.\n"
   syntax:
@@ -1576,10 +1576,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadInt64Array()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns an Int64[] from the stream.\n"
   syntax:
@@ -1605,10 +1605,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedStringArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a string[] from the stream that was stored optimized.\n"
   syntax:
@@ -1634,10 +1634,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadTimeSpanArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a TimeSpan[] from the stream.\n"
   syntax:
@@ -1663,10 +1663,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadUInt32Array()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a UInt[] from the stream.\n"
   syntax:
@@ -1692,10 +1692,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadUInt64Array()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a UInt64[] from the stream.\n"
   syntax:
@@ -1721,10 +1721,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedBooleanArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a Boolean[] from the stream.\n"
   syntax:
@@ -1750,10 +1750,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedDateTimeArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a DateTime[] from the stream.\n"
   syntax:
@@ -1779,10 +1779,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedDecimalArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a Decimal[] from the stream.\n"
   syntax:
@@ -1808,10 +1808,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedInt16Array()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a Int16[] from the stream.\n"
   syntax:
@@ -1837,10 +1837,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedInt32Array()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a Int32[] from the stream.\n"
   syntax:
@@ -1866,10 +1866,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedInt64Array()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a Int64[] from the stream.\n"
   syntax:
@@ -1895,10 +1895,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedTimeSpanArray()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a TimeSpan[] from the stream.\n"
   syntax:
@@ -1924,10 +1924,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedUInt16Array()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a UInt16[] from the stream.\n"
   syntax:
@@ -1953,10 +1953,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedUInt32Array()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a UInt32[] from the stream.\n"
   syntax:
@@ -1982,10 +1982,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedUInt64Array()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns a UInt64[] from the stream.\n"
   syntax:
@@ -2011,10 +2011,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadOwnedData(SuperOffice.IO.IOwnedDataSerializable, System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nAllows an existing object, implementing IOwnedDataSerializable, to \nretrieve its owned data from the stream.\n"
   syntax:
@@ -2044,10 +2044,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.ReadTokenizedObject()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns the object associated with the object token read next from the stream.\n"
   syntax:
@@ -2073,10 +2073,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.DumpStringTables(System.Collections.ArrayList)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   syntax:
     content: >-
@@ -2113,10 +2113,10 @@ items:
   fullName: SuperOffice.IO.SerializationReader.BytesRemaining
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nReturns the number of bytes or serialized remaining to be processed.\nUseful for checking that deserialization is complete.\n\nWarning: Retrieving the Position in certain stream types can be expensive,\ne.g. a FileStream, so use sparingly unless known to be a MemoryStream.\n"
   syntax:

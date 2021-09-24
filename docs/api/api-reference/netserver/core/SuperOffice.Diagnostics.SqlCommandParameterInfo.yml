@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Diagnostics.SqlCommandParameterInfo
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public class SqlCommandParameterInfo
@@ -58,10 +58,10 @@ items:
   fullName: SuperOffice.Diagnostics.SqlCommandParameterInfo.SqlCommandParameterInfo()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public SqlCommandParameterInfo()
@@ -83,10 +83,10 @@ items:
   fullName: SuperOffice.Diagnostics.SqlCommandParameterInfo.Name
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public string Name { get; set; }
@@ -113,10 +113,10 @@ items:
   fullName: SuperOffice.Diagnostics.SqlCommandParameterInfo.DbType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public string DbType { get; set; }
@@ -143,10 +143,10 @@ items:
   fullName: SuperOffice.Diagnostics.SqlCommandParameterInfo.Value
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public object Value { get; set; }

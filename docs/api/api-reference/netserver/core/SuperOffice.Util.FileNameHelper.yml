@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Util.FileNameHelper
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nClass to secure a valid filename from a proposed filename\n"
   syntax:
@@ -52,10 +52,10 @@ items:
   fullName: SuperOffice.Util.FileNameHelper.MakeLegalFileName(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\n"
   syntax:

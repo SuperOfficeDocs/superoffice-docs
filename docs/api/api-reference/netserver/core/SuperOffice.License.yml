@@ -4,6 +4,7 @@ items:
   commentId: N:SuperOffice.License
   id: SuperOffice.License
   children:
+  - SuperOffice.License.AcceptingContext
   - SuperOffice.License.AssociateModuleLicenseLink
   - SuperOffice.License.AssociateModuleLicenseOwner
   - SuperOffice.License.BuildInfoAttribute
@@ -37,7 +38,7 @@ items:
   fullName: SuperOffice.License
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
 - uid: SuperOffice.License.ProductAttribute
   commentId: T:SuperOffice.License.ProductAttribute
@@ -106,6 +107,53 @@ references:
   name: SoLicenseNames
   nameWithType: SoLicenseNames
   fullName: SuperOffice.License.SoLicenseNames
+- uid: SuperOffice.License.AssociateModuleLicenseLink
+  commentId: T:SuperOffice.License.AssociateModuleLicenseLink
+  parent: SuperOffice.License
+  isExternal: true
+  name: AssociateModuleLicenseLink
+  nameWithType: AssociateModuleLicenseLink
+  fullName: SuperOffice.License.AssociateModuleLicenseLink
+- uid: SuperOffice.License.AssociateModuleLicenseOwner
+  commentId: T:SuperOffice.License.AssociateModuleLicenseOwner
+  parent: SuperOffice.License
+  isExternal: true
+  name: AssociateModuleLicenseOwner
+  nameWithType: AssociateModuleLicenseOwner
+  fullName: SuperOffice.License.AssociateModuleLicenseOwner
+- uid: SuperOffice.License.LicenseAssocLinkCache
+  commentId: T:SuperOffice.License.LicenseAssocLinkCache
+  parent: SuperOffice.License
+  isExternal: true
+  name: LicenseAssocLinkCache
+  nameWithType: LicenseAssocLinkCache
+  fullName: SuperOffice.License.LicenseAssocLinkCache
+- uid: SuperOffice.License.LicenseCache
+  commentId: T:SuperOffice.License.LicenseCache
+  parent: SuperOffice.License
+  isExternal: true
+  name: LicenseCache
+  nameWithType: LicenseCache
+  fullName: SuperOffice.License.LicenseCache
+- uid: SuperOffice.License.AcceptingContext
+  commentId: T:SuperOffice.License.AcceptingContext
+  isExternal: true
+  name: AcceptingContext
+  nameWithType: AcceptingContext
+  fullName: SuperOffice.License.AcceptingContext
+- uid: SuperOffice.License.LicenseManager
+  commentId: T:SuperOffice.License.LicenseManager
+  parent: SuperOffice.License
+  isExternal: true
+  name: LicenseManager
+  nameWithType: LicenseManager
+  fullName: SuperOffice.License.LicenseManager
+- uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
+  commentId: T:SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
+  isExternal: true
+  name: LicenseManager.LicenseManagerNonAutoUpdate
+  nameWithType: LicenseManager.LicenseManagerNonAutoUpdate
+  fullName: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
 - uid: SuperOffice.License.ModuleLicenseLinkBase`1
   commentId: T:SuperOffice.License.ModuleLicenseLinkBase`1
   isExternal: true
@@ -208,59 +256,18 @@ references:
   name: SatelliteModuleLicenseOwner
   nameWithType: SatelliteModuleLicenseOwner
   fullName: SuperOffice.License.SatelliteModuleLicenseOwner
-- uid: SuperOffice.License.LicenseAssocLinkCache
-  commentId: T:SuperOffice.License.LicenseAssocLinkCache
-  parent: SuperOffice.License
-  isExternal: true
-  name: LicenseAssocLinkCache
-  nameWithType: LicenseAssocLinkCache
-  fullName: SuperOffice.License.LicenseAssocLinkCache
-- uid: SuperOffice.License.LicenseCache
-  commentId: T:SuperOffice.License.LicenseCache
-  parent: SuperOffice.License
-  isExternal: true
-  name: LicenseCache
-  nameWithType: LicenseCache
-  fullName: SuperOffice.License.LicenseCache
-- uid: SuperOffice.License.AssociateModuleLicenseLink
-  commentId: T:SuperOffice.License.AssociateModuleLicenseLink
-  parent: SuperOffice.License
-  isExternal: true
-  name: AssociateModuleLicenseLink
-  nameWithType: AssociateModuleLicenseLink
-  fullName: SuperOffice.License.AssociateModuleLicenseLink
-- uid: SuperOffice.License.AssociateModuleLicenseOwner
-  commentId: T:SuperOffice.License.AssociateModuleLicenseOwner
-  parent: SuperOffice.License
-  isExternal: true
-  name: AssociateModuleLicenseOwner
-  nameWithType: AssociateModuleLicenseOwner
-  fullName: SuperOffice.License.AssociateModuleLicenseOwner
-- uid: SuperOffice.License.LicenseManager
-  commentId: T:SuperOffice.License.LicenseManager
-  parent: SuperOffice.License
-  isExternal: true
-  name: LicenseManager
-  nameWithType: LicenseManager
-  fullName: SuperOffice.License.LicenseManager
-- uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
-  commentId: T:SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
-  isExternal: true
-  name: LicenseManager.LicenseManagerNonAutoUpdate
-  nameWithType: LicenseManager.LicenseManagerNonAutoUpdate
-  fullName: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
-- uid: SuperOffice.License.LicenseService
-  commentId: T:SuperOffice.License.LicenseService
-  isExternal: true
-  name: LicenseService
-  nameWithType: LicenseService
-  fullName: SuperOffice.License.LicenseService
 - uid: SuperOffice.License.LicenseInfoHelper
   commentId: T:SuperOffice.License.LicenseInfoHelper
   isExternal: true
   name: LicenseInfoHelper
   nameWithType: LicenseInfoHelper
   fullName: SuperOffice.License.LicenseInfoHelper
+- uid: SuperOffice.License.LicenseService
+  commentId: T:SuperOffice.License.LicenseService
+  isExternal: true
+  name: LicenseService
+  nameWithType: LicenseService
+  fullName: SuperOffice.License.LicenseService
 - uid: SuperOffice.License.SerialNr
   commentId: T:SuperOffice.License.SerialNr
   isExternal: true

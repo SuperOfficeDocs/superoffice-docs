@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nLogon provider used with LogonUser\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.Default
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nUse the standard logon provider for the system. The default security provider is NTLM. Windows XP: The default provider is negotiate, unless you pass NULL for the domain name and the user name is not in UPN format. In this case the default provider is NTLM.\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.WinNT35
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nUse the Windows NT 3.5 logon provider. \n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.WinNT40
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nUse the NTLM logon provider.\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.WinNT50
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Util
   summary: "\nWindows 2000/XP: Use the negotiate logon provider. \n"
   syntax:

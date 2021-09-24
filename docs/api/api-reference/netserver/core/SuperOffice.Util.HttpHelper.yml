@@ -6,12 +6,16 @@ items:
   parent: SuperOffice.Util
   children:
   - SuperOffice.Util.HttpHelper.#ctor
-  - SuperOffice.Util.HttpHelper.GenerateToken
-  - SuperOffice.Util.HttpHelper.GetObjectFromHttp``1(System.String,SuperOffice.Util.HttpHelper.RequestType,System.Object)
-  - SuperOffice.Util.HttpHelper.GetResponseAsync(System.String,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.String)
-  - SuperOffice.Util.HttpHelper.GetResponseBodyAsync(System.String,SuperOffice.Util.HttpHelper.RequestType,System.Object)
+  - SuperOffice.Util.HttpHelper.GenerateToken(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
+  - SuperOffice.Util.HttpHelper.GetObjectFromHttp``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
+  - SuperOffice.Util.HttpHelper.GetObjectFromHttpSync``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
+  - SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContent``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent)
+  - SuperOffice.Util.HttpHelper.GetResponse(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.String)
+  - SuperOffice.Util.HttpHelper.GetResponseAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.String)
+  - SuperOffice.Util.HttpHelper.GetResponseBody(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
+  - SuperOffice.Util.HttpHelper.GetResponseBodyAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
+  - SuperOffice.Util.HttpHelper.GetResponseWithContent(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent,System.String)
   - SuperOffice.Util.HttpHelper.IsAdmin
-  - SuperOffice.Util.HttpHelper.ValidateCurrentToken(System.String)
   langs:
   - csharp
   - vb
@@ -20,10 +24,10 @@ items:
   fullName: SuperOffice.Util.HttpHelper
   type: Class
   source:
-    path: SoDataBase
+    path: SoCore
     isExternal: true
   assemblies:
-  - SoDataBase
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public class HttpHelper
@@ -49,30 +53,32 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.Util.HttpHelper.GetResponseAsync(System.String,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.String)
-  commentId: M:SuperOffice.Util.HttpHelper.GetResponseAsync(System.String,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.String)
-  id: GetResponseAsync(System.String,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.String)
+- uid: SuperOffice.Util.HttpHelper.GetResponseAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.String)
+  commentId: M:SuperOffice.Util.HttpHelper.GetResponseAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.String)
+  id: GetResponseAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.String)
   parent: SuperOffice.Util.HttpHelper
   langs:
   - csharp
   - vb
-  name: GetResponseAsync(String, HttpHelper.RequestType, Object, String)
-  nameWithType: HttpHelper.GetResponseAsync(String, HttpHelper.RequestType, Object, String)
-  fullName: SuperOffice.Util.HttpHelper.GetResponseAsync(System.String, SuperOffice.Util.HttpHelper.RequestType, System.Object, System.String)
+  name: GetResponseAsync(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object, String)
+  nameWithType: HttpHelper.GetResponseAsync(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object, String)
+  fullName: SuperOffice.Util.HttpHelper.GetResponseAsync(System.String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Object, System.String)
   type: Method
   source:
-    path: SoDataBase
+    path: SoCore
     isExternal: true
   assemblies:
-  - SoDataBase
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturns HttpResponseMessage from a HTTP call to an url\n"
   syntax:
-    content: public static Task<HttpResponseMessage> GetResponseAsync(string url, HttpHelper.RequestType requestType = HttpHelper.RequestType.GET, object object = null, string bearerToken = null)
+    content: public static Task<HttpResponseMessage> GetResponseAsync(string url, HttpHelper.HttpServiceJwtConfig config, HttpHelper.RequestType requestType = HttpHelper.RequestType.GET, object object = null, string bearerToken = null)
     parameters:
     - id: url
       type: System.String
       description: Address to send to
+    - id: config
+      type: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
     - id: requestType
       type: SuperOffice.Util.HttpHelper.RequestType
       description: GET, POST, PUT, DELETE
@@ -84,7 +90,7 @@ items:
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
       description: HttpResponseMessage
-    content.vb: Public Shared Function GetResponseAsync(url As String, requestType As HttpHelper.RequestType = HttpHelper.RequestType.GET, object As Object = Nothing, bearerToken As String = Nothing) As Task(Of HttpResponseMessage)
+    content.vb: Public Shared Function GetResponseAsync(url As String, config As HttpHelper.HttpServiceJwtConfig, requestType As HttpHelper.RequestType = HttpHelper.RequestType.GET, object As Object = Nothing, bearerToken As String = Nothing) As Task(Of HttpResponseMessage)
   overload: SuperOffice.Util.HttpHelper.GetResponseAsync*
   modifiers.csharp:
   - public
@@ -92,30 +98,112 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Util.HttpHelper.GetResponseBodyAsync(System.String,SuperOffice.Util.HttpHelper.RequestType,System.Object)
-  commentId: M:SuperOffice.Util.HttpHelper.GetResponseBodyAsync(System.String,SuperOffice.Util.HttpHelper.RequestType,System.Object)
-  id: GetResponseBodyAsync(System.String,SuperOffice.Util.HttpHelper.RequestType,System.Object)
+- uid: SuperOffice.Util.HttpHelper.GetResponse(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.String)
+  commentId: M:SuperOffice.Util.HttpHelper.GetResponse(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.String)
+  id: GetResponse(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object,System.String)
   parent: SuperOffice.Util.HttpHelper
   langs:
   - csharp
   - vb
-  name: GetResponseBodyAsync(String, HttpHelper.RequestType, Object)
-  nameWithType: HttpHelper.GetResponseBodyAsync(String, HttpHelper.RequestType, Object)
-  fullName: SuperOffice.Util.HttpHelper.GetResponseBodyAsync(System.String, SuperOffice.Util.HttpHelper.RequestType, System.Object)
+  name: GetResponse(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object, String)
+  nameWithType: HttpHelper.GetResponse(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object, String)
+  fullName: SuperOffice.Util.HttpHelper.GetResponse(System.String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Object, System.String)
   type: Method
   source:
-    path: SoDataBase
+    path: SoCore
     isExternal: true
   assemblies:
-  - SoDataBase
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static HttpResponseMessage GetResponse(string url, HttpHelper.HttpServiceJwtConfig config, HttpHelper.RequestType requestType = HttpHelper.RequestType.GET, object object = null, string bearerToken = null)
+    parameters:
+    - id: url
+      type: System.String
+    - id: config
+      type: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    - id: requestType
+      type: SuperOffice.Util.HttpHelper.RequestType
+    - id: object
+      type: System.Object
+    - id: bearerToken
+      type: System.String
+    return:
+      type: System.Net.Http.HttpResponseMessage
+    content.vb: Public Shared Function GetResponse(url As String, config As HttpHelper.HttpServiceJwtConfig, requestType As HttpHelper.RequestType = HttpHelper.RequestType.GET, object As Object = Nothing, bearerToken As String = Nothing) As HttpResponseMessage
+  overload: SuperOffice.Util.HttpHelper.GetResponse*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.HttpHelper.GetResponseWithContent(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent,System.String)
+  commentId: M:SuperOffice.Util.HttpHelper.GetResponseWithContent(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent,System.String)
+  id: GetResponseWithContent(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent,System.String)
+  parent: SuperOffice.Util.HttpHelper
+  langs:
+  - csharp
+  - vb
+  name: GetResponseWithContent(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, HttpContent, String)
+  nameWithType: HttpHelper.GetResponseWithContent(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, HttpContent, String)
+  fullName: SuperOffice.Util.HttpHelper.GetResponseWithContent(System.String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Net.Http.HttpContent, System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static HttpResponseMessage GetResponseWithContent(string url, HttpHelper.HttpServiceJwtConfig config, HttpHelper.RequestType requestType, HttpContent content, string bearerToken = null)
+    parameters:
+    - id: url
+      type: System.String
+    - id: config
+      type: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    - id: requestType
+      type: SuperOffice.Util.HttpHelper.RequestType
+    - id: content
+      type: System.Net.Http.HttpContent
+    - id: bearerToken
+      type: System.String
+    return:
+      type: System.Net.Http.HttpResponseMessage
+    content.vb: Public Shared Function GetResponseWithContent(url As String, config As HttpHelper.HttpServiceJwtConfig, requestType As HttpHelper.RequestType, content As HttpContent, bearerToken As String = Nothing) As HttpResponseMessage
+  overload: SuperOffice.Util.HttpHelper.GetResponseWithContent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.HttpHelper.GetResponseBodyAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
+  commentId: M:SuperOffice.Util.HttpHelper.GetResponseBodyAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
+  id: GetResponseBodyAsync(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
+  parent: SuperOffice.Util.HttpHelper
+  langs:
+  - csharp
+  - vb
+  name: GetResponseBodyAsync(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object)
+  nameWithType: HttpHelper.GetResponseBodyAsync(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object)
+  fullName: SuperOffice.Util.HttpHelper.GetResponseBodyAsync(System.String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Object)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturns the Body from an HTTPResponseMessage from a HTTP call to an url as string\n"
   syntax:
-    content: public static Task<string> GetResponseBodyAsync(string url, HttpHelper.RequestType requestType = HttpHelper.RequestType.GET, object object = null)
+    content: public static Task<string> GetResponseBodyAsync(string url, HttpHelper.HttpServiceJwtConfig config, HttpHelper.RequestType requestType = HttpHelper.RequestType.GET, object object = null)
     parameters:
     - id: url
       type: System.String
       description: Address to send to
+    - id: config
+      type: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
     - id: requestType
       type: SuperOffice.Util.HttpHelper.RequestType
       description: GET, POST, PUT, DELETE
@@ -125,7 +213,7 @@ items:
     return:
       type: System.Threading.Tasks.Task{System.String}
       description: String
-    content.vb: Public Shared Function GetResponseBodyAsync(url As String, requestType As HttpHelper.RequestType = HttpHelper.RequestType.GET, object As Object = Nothing) As Task(Of String)
+    content.vb: Public Shared Function GetResponseBodyAsync(url As String, config As HttpHelper.HttpServiceJwtConfig, requestType As HttpHelper.RequestType = HttpHelper.RequestType.GET, object As Object = Nothing) As Task(Of String)
   overload: SuperOffice.Util.HttpHelper.GetResponseBodyAsync*
   modifiers.csharp:
   - public
@@ -133,30 +221,70 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Util.HttpHelper.GetObjectFromHttp``1(System.String,SuperOffice.Util.HttpHelper.RequestType,System.Object)
-  commentId: M:SuperOffice.Util.HttpHelper.GetObjectFromHttp``1(System.String,SuperOffice.Util.HttpHelper.RequestType,System.Object)
-  id: GetObjectFromHttp``1(System.String,SuperOffice.Util.HttpHelper.RequestType,System.Object)
+- uid: SuperOffice.Util.HttpHelper.GetResponseBody(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
+  commentId: M:SuperOffice.Util.HttpHelper.GetResponseBody(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
+  id: GetResponseBody(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
   parent: SuperOffice.Util.HttpHelper
   langs:
   - csharp
   - vb
-  name: GetObjectFromHttp<T>(String, HttpHelper.RequestType, Object)
-  nameWithType: HttpHelper.GetObjectFromHttp<T>(String, HttpHelper.RequestType, Object)
-  fullName: SuperOffice.Util.HttpHelper.GetObjectFromHttp<T>(System.String, SuperOffice.Util.HttpHelper.RequestType, System.Object)
+  name: GetResponseBody(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object)
+  nameWithType: HttpHelper.GetResponseBody(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object)
+  fullName: SuperOffice.Util.HttpHelper.GetResponseBody(System.String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Object)
   type: Method
   source:
-    path: SoDataBase
+    path: SoCore
     isExternal: true
   assemblies:
-  - SoDataBase
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static string GetResponseBody(string url, HttpHelper.HttpServiceJwtConfig config, HttpHelper.RequestType requestType = HttpHelper.RequestType.GET, object object = null)
+    parameters:
+    - id: url
+      type: System.String
+    - id: config
+      type: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    - id: requestType
+      type: SuperOffice.Util.HttpHelper.RequestType
+    - id: object
+      type: System.Object
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetResponseBody(url As String, config As HttpHelper.HttpServiceJwtConfig, requestType As HttpHelper.RequestType = HttpHelper.RequestType.GET, object As Object = Nothing) As String
+  overload: SuperOffice.Util.HttpHelper.GetResponseBody*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.HttpHelper.GetObjectFromHttp``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
+  commentId: M:SuperOffice.Util.HttpHelper.GetObjectFromHttp``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
+  id: GetObjectFromHttp``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
+  parent: SuperOffice.Util.HttpHelper
+  langs:
+  - csharp
+  - vb
+  name: GetObjectFromHttp<T>(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object)
+  nameWithType: HttpHelper.GetObjectFromHttp<T>(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object)
+  fullName: SuperOffice.Util.HttpHelper.GetObjectFromHttp<T>(System.String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Object)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturns an object from given type. Calls url and deserializes HttpResponseMessage body to object\n"
   syntax:
-    content: public static Task<T> GetObjectFromHttp<T>(string url, HttpHelper.RequestType requestType = HttpHelper.RequestType.GET, object object = null)
+    content: public static Task<T> GetObjectFromHttp<T>(string url, HttpHelper.HttpServiceJwtConfig config, HttpHelper.RequestType requestType = HttpHelper.RequestType.GET, object object = null)
     parameters:
     - id: url
       type: System.String
       description: Address to send to
+    - id: config
+      type: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
     - id: requestType
       type: SuperOffice.Util.HttpHelper.RequestType
       description: GET, POST, PUT, DELETE
@@ -169,73 +297,130 @@ items:
     return:
       type: System.Threading.Tasks.Task{{T}}
       description: Does return what is specified in T
-    content.vb: Public Shared Function GetObjectFromHttp(Of T)(url As String, requestType As HttpHelper.RequestType = HttpHelper.RequestType.GET, object As Object = Nothing) As Task(Of T)
+    content.vb: Public Shared Function GetObjectFromHttp(Of T)(url As String, config As HttpHelper.HttpServiceJwtConfig, requestType As HttpHelper.RequestType = HttpHelper.RequestType.GET, object As Object = Nothing) As Task(Of T)
   overload: SuperOffice.Util.HttpHelper.GetObjectFromHttp*
-  nameWithType.vb: HttpHelper.GetObjectFromHttp(Of T)(String, HttpHelper.RequestType, Object)
+  nameWithType.vb: HttpHelper.GetObjectFromHttp(Of T)(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.Util.HttpHelper.GetObjectFromHttp(Of T)(System.String, SuperOffice.Util.HttpHelper.RequestType, System.Object)
-  name.vb: GetObjectFromHttp(Of T)(String, HttpHelper.RequestType, Object)
-- uid: SuperOffice.Util.HttpHelper.GenerateToken
-  commentId: M:SuperOffice.Util.HttpHelper.GenerateToken
-  id: GenerateToken
+  fullName.vb: SuperOffice.Util.HttpHelper.GetObjectFromHttp(Of T)(System.String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Object)
+  name.vb: GetObjectFromHttp(Of T)(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object)
+- uid: SuperOffice.Util.HttpHelper.GetObjectFromHttpSync``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
+  commentId: M:SuperOffice.Util.HttpHelper.GetObjectFromHttpSync``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
+  id: GetObjectFromHttpSync``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Object)
   parent: SuperOffice.Util.HttpHelper
   langs:
   - csharp
   - vb
-  name: GenerateToken()
-  nameWithType: HttpHelper.GenerateToken()
-  fullName: SuperOffice.Util.HttpHelper.GenerateToken()
+  name: GetObjectFromHttpSync<T>(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object)
+  nameWithType: HttpHelper.GetObjectFromHttpSync<T>(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object)
+  fullName: SuperOffice.Util.HttpHelper.GetObjectFromHttpSync<T>(System.String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Object)
   type: Method
   source:
-    path: SoDataBase
+    path: SoCore
     isExternal: true
   assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Util
-  summary: "\nTODO: Add appsettings names\n"
-  syntax:
-    content: public static string GenerateToken()
-    return:
-      type: System.String
-    content.vb: Public Shared Function GenerateToken As String
-  overload: SuperOffice.Util.HttpHelper.GenerateToken*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Util.HttpHelper.ValidateCurrentToken(System.String)
-  commentId: M:SuperOffice.Util.HttpHelper.ValidateCurrentToken(System.String)
-  id: ValidateCurrentToken(System.String)
-  parent: SuperOffice.Util.HttpHelper
-  langs:
-  - csharp
-  - vb
-  name: ValidateCurrentToken(String)
-  nameWithType: HttpHelper.ValidateCurrentToken(String)
-  fullName: SuperOffice.Util.HttpHelper.ValidateCurrentToken(System.String)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
-    content: public static bool ValidateCurrentToken(string token)
+    content: public static T GetObjectFromHttpSync<T>(string url, HttpHelper.HttpServiceJwtConfig config, HttpHelper.RequestType requestType = HttpHelper.RequestType.GET, object object = null)
     parameters:
-    - id: token
+    - id: url
       type: System.String
+    - id: config
+      type: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    - id: requestType
+      type: SuperOffice.Util.HttpHelper.RequestType
+    - id: object
+      type: System.Object
+    typeParameters:
+    - id: T
     return:
-      type: System.Boolean
-    content.vb: Public Shared Function ValidateCurrentToken(token As String) As Boolean
-  overload: SuperOffice.Util.HttpHelper.ValidateCurrentToken*
+      type: '{T}'
+    content.vb: Public Shared Function GetObjectFromHttpSync(Of T)(url As String, config As HttpHelper.HttpServiceJwtConfig, requestType As HttpHelper.RequestType = HttpHelper.RequestType.GET, object As Object = Nothing) As T
+  overload: SuperOffice.Util.HttpHelper.GetObjectFromHttpSync*
+  nameWithType.vb: HttpHelper.GetObjectFromHttpSync(Of T)(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.HttpHelper.GetObjectFromHttpSync(Of T)(System.String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Object)
+  name.vb: GetObjectFromHttpSync(Of T)(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, Object)
+- uid: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContent``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent)
+  commentId: M:SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContent``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent)
+  id: GetObjectFromHttpSyncWithContent``1(System.String,SuperOffice.Util.HttpHelper.HttpServiceJwtConfig,SuperOffice.Util.HttpHelper.RequestType,System.Net.Http.HttpContent)
+  parent: SuperOffice.Util.HttpHelper
+  langs:
+  - csharp
+  - vb
+  name: GetObjectFromHttpSyncWithContent<T>(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, HttpContent)
+  nameWithType: HttpHelper.GetObjectFromHttpSyncWithContent<T>(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, HttpContent)
+  fullName: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContent<T>(System.String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Net.Http.HttpContent)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static T GetObjectFromHttpSyncWithContent<T>(string url, HttpHelper.HttpServiceJwtConfig config, HttpHelper.RequestType requestType, HttpContent content)
+    parameters:
+    - id: url
+      type: System.String
+    - id: config
+      type: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    - id: requestType
+      type: SuperOffice.Util.HttpHelper.RequestType
+    - id: content
+      type: System.Net.Http.HttpContent
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function GetObjectFromHttpSyncWithContent(Of T)(url As String, config As HttpHelper.HttpServiceJwtConfig, requestType As HttpHelper.RequestType, content As HttpContent) As T
+  overload: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContent*
+  nameWithType.vb: HttpHelper.GetObjectFromHttpSyncWithContent(Of T)(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, HttpContent)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContent(Of T)(System.String, SuperOffice.Util.HttpHelper.HttpServiceJwtConfig, SuperOffice.Util.HttpHelper.RequestType, System.Net.Http.HttpContent)
+  name.vb: GetObjectFromHttpSyncWithContent(Of T)(String, HttpHelper.HttpServiceJwtConfig, HttpHelper.RequestType, HttpContent)
+- uid: SuperOffice.Util.HttpHelper.GenerateToken(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
+  commentId: M:SuperOffice.Util.HttpHelper.GenerateToken(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
+  id: GenerateToken(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
+  parent: SuperOffice.Util.HttpHelper
+  langs:
+  - csharp
+  - vb
+  name: GenerateToken(HttpHelper.HttpServiceJwtConfig)
+  nameWithType: HttpHelper.GenerateToken(HttpHelper.HttpServiceJwtConfig)
+  fullName: SuperOffice.Util.HttpHelper.GenerateToken(SuperOffice.Util.HttpHelper.HttpServiceJwtConfig)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\n\n"
+  syntax:
+    content: public static string GenerateToken(HttpHelper.HttpServiceJwtConfig config)
+    parameters:
+    - id: config
+      type: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+    return:
+      type: System.String
+    content.vb: Public Shared Function GenerateToken(config As HttpHelper.HttpServiceJwtConfig) As String
+  overload: SuperOffice.Util.HttpHelper.GenerateToken*
   modifiers.csharp:
   - public
   - static
@@ -254,10 +439,10 @@ items:
   fullName: SuperOffice.Util.HttpHelper.IsAdmin()
   type: Method
   source:
-    path: SoDataBase
+    path: SoCore
     isExternal: true
   assemblies:
-  - SoDataBase
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static bool IsAdmin()
@@ -283,10 +468,10 @@ items:
   fullName: SuperOffice.Util.HttpHelper.HttpHelper()
   type: Constructor
   source:
-    path: SoDataBase
+    path: SoCore
     isExternal: true
   assemblies:
-  - SoDataBase
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public HttpHelper()
@@ -948,6 +1133,13 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+  commentId: T:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+  parent: SuperOffice.Util
+  isExternal: true
+  name: HttpHelper.HttpServiceJwtConfig
+  nameWithType: HttpHelper.HttpServiceJwtConfig
+  fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
 - uid: SuperOffice.Util.HttpHelper.RequestType
   commentId: T:SuperOffice.Util.HttpHelper.RequestType
   parent: SuperOffice.Util
@@ -1044,6 +1236,28 @@ references:
   name: System.Threading.Tasks
   nameWithType: System.Threading.Tasks
   fullName: System.Threading.Tasks
+- uid: SuperOffice.Util.HttpHelper.GetResponse*
+  commentId: Overload:SuperOffice.Util.HttpHelper.GetResponse
+  isExternal: true
+  name: GetResponse
+  nameWithType: HttpHelper.GetResponse
+  fullName: SuperOffice.Util.HttpHelper.GetResponse
+- uid: System.Net.Http.HttpResponseMessage
+  isExternal: true
+  name: HttpResponseMessage
+  nameWithType: HttpResponseMessage
+  fullName: System.Net.Http.HttpResponseMessage
+- uid: SuperOffice.Util.HttpHelper.GetResponseWithContent*
+  commentId: Overload:SuperOffice.Util.HttpHelper.GetResponseWithContent
+  isExternal: true
+  name: GetResponseWithContent
+  nameWithType: HttpHelper.GetResponseWithContent
+  fullName: SuperOffice.Util.HttpHelper.GetResponseWithContent
+- uid: System.Net.Http.HttpContent
+  isExternal: true
+  name: HttpContent
+  nameWithType: HttpContent
+  fullName: System.Net.Http.HttpContent
 - uid: SuperOffice.Util.HttpHelper.GetResponseBodyAsync*
   commentId: Overload:SuperOffice.Util.HttpHelper.GetResponseBodyAsync
   isExternal: true
@@ -1094,6 +1308,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Util.HttpHelper.GetResponseBody*
+  commentId: Overload:SuperOffice.Util.HttpHelper.GetResponseBody
+  isExternal: true
+  name: GetResponseBody
+  nameWithType: HttpHelper.GetResponseBody
+  fullName: SuperOffice.Util.HttpHelper.GetResponseBody
 - uid: SuperOffice.Util.HttpHelper.GetObjectFromHttp*
   commentId: Overload:SuperOffice.Util.HttpHelper.GetObjectFromHttp
   isExternal: true
@@ -1140,18 +1360,40 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Util.HttpHelper.GetObjectFromHttpSync*
+  commentId: Overload:SuperOffice.Util.HttpHelper.GetObjectFromHttpSync
+  isExternal: true
+  name: GetObjectFromHttpSync
+  nameWithType: HttpHelper.GetObjectFromHttpSync
+  fullName: SuperOffice.Util.HttpHelper.GetObjectFromHttpSync
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContent*
+  commentId: Overload:SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContent
+  isExternal: true
+  name: GetObjectFromHttpSyncWithContent
+  nameWithType: HttpHelper.GetObjectFromHttpSyncWithContent
+  fullName: SuperOffice.Util.HttpHelper.GetObjectFromHttpSyncWithContent
 - uid: SuperOffice.Util.HttpHelper.GenerateToken*
   commentId: Overload:SuperOffice.Util.HttpHelper.GenerateToken
   isExternal: true
   name: GenerateToken
   nameWithType: HttpHelper.GenerateToken
   fullName: SuperOffice.Util.HttpHelper.GenerateToken
-- uid: SuperOffice.Util.HttpHelper.ValidateCurrentToken*
-  commentId: Overload:SuperOffice.Util.HttpHelper.ValidateCurrentToken
+- uid: SuperOffice.Util.HttpHelper.IsAdmin*
+  commentId: Overload:SuperOffice.Util.HttpHelper.IsAdmin
   isExternal: true
-  name: ValidateCurrentToken
-  nameWithType: HttpHelper.ValidateCurrentToken
-  fullName: SuperOffice.Util.HttpHelper.ValidateCurrentToken
+  name: IsAdmin
+  nameWithType: HttpHelper.IsAdmin
+  fullName: SuperOffice.Util.HttpHelper.IsAdmin
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -1159,12 +1401,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: SuperOffice.Util.HttpHelper.IsAdmin*
-  commentId: Overload:SuperOffice.Util.HttpHelper.IsAdmin
-  isExternal: true
-  name: IsAdmin
-  nameWithType: HttpHelper.IsAdmin
-  fullName: SuperOffice.Util.HttpHelper.IsAdmin
 - uid: SuperOffice.Util.HttpHelper.#ctor*
   commentId: Overload:SuperOffice.Util.HttpHelper.#ctor
   isExternal: true

@@ -48,7 +48,6 @@ items:
   - SuperOffice.CRM.Archives.SaleList.SaleListQuery.ProjectTableInfo
   - SuperOffice.CRM.Archives.SaleList.SaleListQuery.CurrencyTableInfo
   - SuperOffice.CRM.Archives.SaleList.SaleListQuery.SaleTypeTableInfo
-  - SuperOffice.CRM.Archives.SaleList.SaleListQuery.Completed
   - SuperOffice.CRM.Lists.ListSelect._restriction
   - SuperOffice.CRM.Lists.ListSelect._joinRestriction
   - SuperOffice.CRM.Lists.ListSelect._fields
@@ -425,13 +424,6 @@ references:
   name: SaleTypeTableInfo
   nameWithType: SaleList.SaleListQuery.SaleTypeTableInfo
   fullName: SuperOffice.CRM.Archives.SaleList.SaleListQuery.SaleTypeTableInfo
-- uid: SuperOffice.CRM.Archives.SaleList.SaleListQuery.Completed
-  commentId: P:SuperOffice.CRM.Archives.SaleList.SaleListQuery.Completed
-  parent: SuperOffice.CRM.Archives.SaleList.SaleListQuery
-  isExternal: true
-  name: Completed
-  nameWithType: SaleList.SaleListQuery.Completed
-  fullName: SuperOffice.CRM.Archives.SaleList.SaleListQuery.Completed
 - uid: SuperOffice.CRM.Lists.ListSelect._restriction
   commentId: F:SuperOffice.CRM.Lists.ListSelect._restriction
   parent: SuperOffice.CRM.Lists.ListSelect

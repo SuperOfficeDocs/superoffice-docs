@@ -30,21 +30,8 @@ items:
   fullName: SuperOffice.IO
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
-- uid: SuperOffice.IO.IFileSystem
-  commentId: T:SuperOffice.IO.IFileSystem
-  parent: SuperOffice.IO
-  isExternal: true
-  name: IFileSystem
-  nameWithType: IFileSystem
-  fullName: SuperOffice.IO.IFileSystem
-- uid: SuperOffice.IO.FileSystem
-  commentId: T:SuperOffice.IO.FileSystem
-  isExternal: true
-  name: FileSystem
-  nameWithType: FileSystem
-  fullName: SuperOffice.IO.FileSystem
 - uid: SuperOffice.IO.BinaryGenerator
   commentId: T:SuperOffice.IO.BinaryGenerator
   parent: SuperOffice.IO
@@ -119,6 +106,19 @@ references:
   name: IFastSerializationTypeSurrogate
   nameWithType: IFastSerializationTypeSurrogate
   fullName: SuperOffice.IO.IFastSerializationTypeSurrogate
+- uid: SuperOffice.IO.IFileSystem
+  commentId: T:SuperOffice.IO.IFileSystem
+  parent: SuperOffice.IO
+  isExternal: true
+  name: IFileSystem
+  nameWithType: IFileSystem
+  fullName: SuperOffice.IO.IFileSystem
+- uid: SuperOffice.IO.FileSystem
+  commentId: T:SuperOffice.IO.FileSystem
+  isExternal: true
+  name: FileSystem
+  nameWithType: FileSystem
+  fullName: SuperOffice.IO.FileSystem
 - uid: SuperOffice.IO.Generator
   commentId: T:SuperOffice.IO.Generator
   parent: SuperOffice.IO

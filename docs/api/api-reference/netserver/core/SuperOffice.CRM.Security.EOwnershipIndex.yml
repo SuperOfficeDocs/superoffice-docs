@@ -23,10 +23,10 @@ items:
   fullName: SuperOffice.CRM.Security.EOwnershipIndex
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nThis is used as an index into a matrix of tablerights when calculating \nthe access rights for an associate.\n"
   syntax:
@@ -55,10 +55,10 @@ items:
   fullName: SuperOffice.CRM.Security.EOwnershipIndex.Owner
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nThe record is owned by same associate as ourselves. \ni.e. it is our very own, our preciousssss\n<pre><code>value = 0</code></pre>\n"
   syntax:
@@ -83,10 +83,10 @@ items:
   fullName: SuperOffice.CRM.Security.EOwnershipIndex.Group
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nThe record belongs to someone is the same user group as us, \nbut it isn&apos;t ours\n<pre><code>value = 1</code></pre>\n"
   syntax:
@@ -111,10 +111,10 @@ items:
   fullName: SuperOffice.CRM.Security.EOwnershipIndex.Other
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nThe record belongs to someone in a separate group from us.\n<pre><code>value = 2</code></pre>\n"
   syntax:
@@ -139,10 +139,10 @@ items:
   fullName: SuperOffice.CRM.Security.EOwnershipIndex.OtherGroup
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nThe record belongs to a secondary group common to us.\n<pre><code>value = 3</code></pre>\n"
   syntax:
@@ -167,10 +167,10 @@ items:
   fullName: SuperOffice.CRM.Security.EOwnershipIndex.External
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nExternal users are not employees, and are always mapped to the same row in the matrix\n<pre><code>value = 4</code></pre>\n"
   syntax:
@@ -195,10 +195,10 @@ items:
   fullName: SuperOffice.CRM.Security.EOwnershipIndex.Anonymous
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nAnonymous users are not employees, could be anyone. Could be Neo trying to hack into your system...\nAll anonymous users are mapped to this row in the rights matrix\n<pre><code>value = 5</code></pre>\n"
   syntax:
@@ -223,10 +223,10 @@ items:
   fullName: SuperOffice.CRM.Security.EOwnershipIndex.MyCompany
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nExternal users: Other user belonging to the same contact (e.g. company)\n<pre><code>value = 6</code></pre>\n"
   syntax:
@@ -251,10 +251,10 @@ items:
   fullName: SuperOffice.CRM.Security.EOwnershipIndex.SameProject
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nExternal users: Other user participating in the same project\n<pre><code>value = 7</code></pre>\n"
   syntax:
@@ -279,10 +279,10 @@ items:
   fullName: SuperOffice.CRM.Security.EOwnershipIndex.OtherToExternal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nExternal users: ???\n<pre><code>value = 8</code></pre>\n"
   syntax:
@@ -307,10 +307,10 @@ items:
   fullName: SuperOffice.CRM.Security.EOwnershipIndex.System
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: >-

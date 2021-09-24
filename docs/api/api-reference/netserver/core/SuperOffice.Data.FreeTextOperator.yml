@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.FreeTextOperator
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nFreetext operator\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.FreeTextOperator.Contains
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Contains\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.FreeTextOperator.StartsWith
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Starts with\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.FreeTextOperator.ExactMatch
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Exact match\n"
   syntax:

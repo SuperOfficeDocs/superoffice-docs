@@ -7,20 +7,17 @@ items:
   - SuperOffice.CRM.Cache.AssociateCache
   - SuperOffice.CRM.Cache.CategoryCache
   - SuperOffice.CRM.Cache.ConsentCache
-  - SuperOffice.CRM.Cache.ConsentCache.ConsentPurposeInfo
-  - SuperOffice.CRM.Cache.ConsentCache.ConsentSourceInfo
-  - SuperOffice.CRM.Cache.ConsentCache.LegalBaseInfo
-  - SuperOffice.CRM.Cache.ConsentCache.ShipmentTypeInfo
   - SuperOffice.CRM.Cache.CurrencyCache
   - SuperOffice.CRM.Cache.ExtAppCache
   - SuperOffice.CRM.Cache.ExtraFieldsCache
   - SuperOffice.CRM.Cache.ExtraTablesCache
+  - SuperOffice.CRM.Cache.FreetextStatus
+  - SuperOffice.CRM.Cache.FreetextStatusCache
   - SuperOffice.CRM.Cache.InhibitAssociateAutoflush
   - SuperOffice.CRM.Cache.InhibitAssociateAutoflush.InhibitAssociateAutoflushDisposable
   - SuperOffice.CRM.Cache.MDOListTableCache
   - SuperOffice.CRM.Cache.MDOListTableCache.MDOCacheElement
   - SuperOffice.CRM.Cache.MDOPreferenceCache
-  - SuperOffice.CRM.Cache.MessageHandlerCache
   - SuperOffice.CRM.Cache.PriceListCache
   - SuperOffice.CRM.Cache.PriorityCache
   - SuperOffice.CRM.Cache.ProbCache
@@ -41,113 +38,6 @@ items:
   assemblies:
   - SoDataBase
 references:
-- uid: SuperOffice.CRM.Cache.ConsentCache
-  commentId: T:SuperOffice.CRM.Cache.ConsentCache
-  parent: SuperOffice.CRM.Cache
-  isExternal: true
-  name: ConsentCache
-  nameWithType: ConsentCache
-  fullName: SuperOffice.CRM.Cache.ConsentCache
-- uid: SuperOffice.CRM.Cache.ConsentCache.ConsentPurposeInfo
-  commentId: T:SuperOffice.CRM.Cache.ConsentCache.ConsentPurposeInfo
-  isExternal: true
-  name: ConsentCache.ConsentPurposeInfo
-  nameWithType: ConsentCache.ConsentPurposeInfo
-  fullName: SuperOffice.CRM.Cache.ConsentCache.ConsentPurposeInfo
-- uid: SuperOffice.CRM.Cache.ConsentCache.ShipmentTypeInfo
-  commentId: T:SuperOffice.CRM.Cache.ConsentCache.ShipmentTypeInfo
-  isExternal: true
-  name: ConsentCache.ShipmentTypeInfo
-  nameWithType: ConsentCache.ShipmentTypeInfo
-  fullName: SuperOffice.CRM.Cache.ConsentCache.ShipmentTypeInfo
-- uid: SuperOffice.CRM.Cache.ConsentCache.ConsentSourceInfo
-  commentId: T:SuperOffice.CRM.Cache.ConsentCache.ConsentSourceInfo
-  isExternal: true
-  name: ConsentCache.ConsentSourceInfo
-  nameWithType: ConsentCache.ConsentSourceInfo
-  fullName: SuperOffice.CRM.Cache.ConsentCache.ConsentSourceInfo
-- uid: SuperOffice.CRM.Cache.ConsentCache.LegalBaseInfo
-  commentId: T:SuperOffice.CRM.Cache.ConsentCache.LegalBaseInfo
-  isExternal: true
-  name: ConsentCache.LegalBaseInfo
-  nameWithType: ConsentCache.LegalBaseInfo
-  fullName: SuperOffice.CRM.Cache.ConsentCache.LegalBaseInfo
-- uid: SuperOffice.CRM.Cache.ExtraTablesCache
-  commentId: T:SuperOffice.CRM.Cache.ExtraTablesCache
-  parent: SuperOffice.CRM.Cache
-  isExternal: true
-  name: ExtraTablesCache
-  nameWithType: ExtraTablesCache
-  fullName: SuperOffice.CRM.Cache.ExtraTablesCache
-- uid: SuperOffice.CRM.Cache.ExtraFieldsCache
-  commentId: T:SuperOffice.CRM.Cache.ExtraFieldsCache
-  parent: SuperOffice.CRM.Cache
-  isExternal: true
-  name: ExtraFieldsCache
-  nameWithType: ExtraFieldsCache
-  fullName: SuperOffice.CRM.Cache.ExtraFieldsCache
-- uid: SuperOffice.CRM.Cache.ShipmentTypeCache
-  commentId: T:SuperOffice.CRM.Cache.ShipmentTypeCache
-  parent: SuperOffice.CRM.Cache
-  isExternal: true
-  name: ShipmentTypeCache
-  nameWithType: ShipmentTypeCache
-  fullName: SuperOffice.CRM.Cache.ShipmentTypeCache
-- uid: SuperOffice.CRM.Cache.PriceListCache
-  commentId: T:SuperOffice.CRM.Cache.PriceListCache
-  parent: SuperOffice.CRM.Cache
-  isExternal: true
-  name: PriceListCache
-  nameWithType: PriceListCache
-  fullName: SuperOffice.CRM.Cache.PriceListCache
-- uid: SuperOffice.CRM.Cache.StatusMonitorInfo
-  commentId: T:SuperOffice.CRM.Cache.StatusMonitorInfo
-  parent: SuperOffice.CRM.Cache
-  isExternal: true
-  name: StatusMonitorInfo
-  nameWithType: StatusMonitorInfo
-  fullName: SuperOffice.CRM.Cache.StatusMonitorInfo
-- uid: SuperOffice.CRM.Cache.StatusMonitorCache
-  commentId: T:SuperOffice.CRM.Cache.StatusMonitorCache
-  parent: SuperOffice.CRM.Cache
-  isExternal: true
-  name: StatusMonitorCache
-  nameWithType: StatusMonitorCache
-  fullName: SuperOffice.CRM.Cache.StatusMonitorCache
-- uid: SuperOffice.CRM.Cache.TravelCurrentCache
-  commentId: T:SuperOffice.CRM.Cache.TravelCurrentCache
-  parent: SuperOffice.CRM.Cache
-  isExternal: true
-  name: TravelCurrentCache
-  nameWithType: TravelCurrentCache
-  fullName: SuperOffice.CRM.Cache.TravelCurrentCache
-- uid: SuperOffice.CRM.Cache.AssociateCache
-  commentId: T:SuperOffice.CRM.Cache.AssociateCache
-  parent: SuperOffice.CRM.Cache
-  isExternal: true
-  name: AssociateCache
-  nameWithType: AssociateCache
-  fullName: SuperOffice.CRM.Cache.AssociateCache
-- uid: SuperOffice.CRM.Cache.InhibitAssociateAutoflush
-  commentId: T:SuperOffice.CRM.Cache.InhibitAssociateAutoflush
-  isExternal: true
-  name: InhibitAssociateAutoflush
-  nameWithType: InhibitAssociateAutoflush
-  fullName: SuperOffice.CRM.Cache.InhibitAssociateAutoflush
-- uid: SuperOffice.CRM.Cache.InhibitAssociateAutoflush.InhibitAssociateAutoflushDisposable
-  commentId: T:SuperOffice.CRM.Cache.InhibitAssociateAutoflush.InhibitAssociateAutoflushDisposable
-  parent: SuperOffice.CRM.Cache
-  isExternal: true
-  name: InhibitAssociateAutoflush.InhibitAssociateAutoflushDisposable
-  nameWithType: InhibitAssociateAutoflush.InhibitAssociateAutoflushDisposable
-  fullName: SuperOffice.CRM.Cache.InhibitAssociateAutoflush.InhibitAssociateAutoflushDisposable
-- uid: SuperOffice.CRM.Cache.SystemEventCache
-  commentId: T:SuperOffice.CRM.Cache.SystemEventCache
-  parent: SuperOffice.CRM.Cache
-  isExternal: true
-  name: SystemEventCache
-  nameWithType: SystemEventCache
-  fullName: SuperOffice.CRM.Cache.SystemEventCache
 - uid: SuperOffice.CRM.Cache.CategoryCache
   commentId: T:SuperOffice.CRM.Cache.CategoryCache
   parent: SuperOffice.CRM.Cache
@@ -155,6 +45,13 @@ references:
   name: CategoryCache
   nameWithType: CategoryCache
   fullName: SuperOffice.CRM.Cache.CategoryCache
+- uid: SuperOffice.CRM.Cache.ConsentCache
+  commentId: T:SuperOffice.CRM.Cache.ConsentCache
+  parent: SuperOffice.CRM.Cache
+  isExternal: true
+  name: ConsentCache
+  nameWithType: ConsentCache
+  fullName: SuperOffice.CRM.Cache.ConsentCache
 - uid: SuperOffice.CRM.Cache.CurrencyCache
   commentId: T:SuperOffice.CRM.Cache.CurrencyCache
   parent: SuperOffice.CRM.Cache
@@ -169,6 +66,33 @@ references:
   name: ExtAppCache
   nameWithType: ExtAppCache
   fullName: SuperOffice.CRM.Cache.ExtAppCache
+- uid: SuperOffice.CRM.Cache.ExtraFieldsCache
+  commentId: T:SuperOffice.CRM.Cache.ExtraFieldsCache
+  parent: SuperOffice.CRM.Cache
+  isExternal: true
+  name: ExtraFieldsCache
+  nameWithType: ExtraFieldsCache
+  fullName: SuperOffice.CRM.Cache.ExtraFieldsCache
+- uid: SuperOffice.CRM.Cache.ExtraTablesCache
+  commentId: T:SuperOffice.CRM.Cache.ExtraTablesCache
+  parent: SuperOffice.CRM.Cache
+  isExternal: true
+  name: ExtraTablesCache
+  nameWithType: ExtraTablesCache
+  fullName: SuperOffice.CRM.Cache.ExtraTablesCache
+- uid: SuperOffice.CRM.Cache.FreetextStatus
+  commentId: T:SuperOffice.CRM.Cache.FreetextStatus
+  parent: SuperOffice.CRM.Cache
+  isExternal: true
+  name: FreetextStatus
+  nameWithType: FreetextStatus
+  fullName: SuperOffice.CRM.Cache.FreetextStatus
+- uid: SuperOffice.CRM.Cache.FreetextStatusCache
+  commentId: T:SuperOffice.CRM.Cache.FreetextStatusCache
+  isExternal: true
+  name: FreetextStatusCache
+  nameWithType: FreetextStatusCache
+  fullName: SuperOffice.CRM.Cache.FreetextStatusCache
 - uid: SuperOffice.CRM.Cache.MDOListTableCache
   commentId: T:SuperOffice.CRM.Cache.MDOListTableCache
   parent: SuperOffice.CRM.Cache
@@ -190,13 +114,13 @@ references:
   name: MDOPreferenceCache
   nameWithType: MDOPreferenceCache
   fullName: SuperOffice.CRM.Cache.MDOPreferenceCache
-- uid: SuperOffice.CRM.Cache.MessageHandlerCache
-  commentId: T:SuperOffice.CRM.Cache.MessageHandlerCache
+- uid: SuperOffice.CRM.Cache.PriceListCache
+  commentId: T:SuperOffice.CRM.Cache.PriceListCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  name: MessageHandlerCache
-  nameWithType: MessageHandlerCache
-  fullName: SuperOffice.CRM.Cache.MessageHandlerCache
+  name: PriceListCache
+  nameWithType: PriceListCache
+  fullName: SuperOffice.CRM.Cache.PriceListCache
 - uid: SuperOffice.CRM.Cache.PriorityCache
   commentId: T:SuperOffice.CRM.Cache.PriorityCache
   parent: SuperOffice.CRM.Cache
@@ -257,6 +181,61 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Cache.ShipmentTypeCache
+  commentId: T:SuperOffice.CRM.Cache.ShipmentTypeCache
+  parent: SuperOffice.CRM.Cache
+  isExternal: true
+  name: ShipmentTypeCache
+  nameWithType: ShipmentTypeCache
+  fullName: SuperOffice.CRM.Cache.ShipmentTypeCache
+- uid: SuperOffice.CRM.Cache.StatusMonitorInfo
+  commentId: T:SuperOffice.CRM.Cache.StatusMonitorInfo
+  parent: SuperOffice.CRM.Cache
+  isExternal: true
+  name: StatusMonitorInfo
+  nameWithType: StatusMonitorInfo
+  fullName: SuperOffice.CRM.Cache.StatusMonitorInfo
+- uid: SuperOffice.CRM.Cache.StatusMonitorCache
+  commentId: T:SuperOffice.CRM.Cache.StatusMonitorCache
+  parent: SuperOffice.CRM.Cache
+  isExternal: true
+  name: StatusMonitorCache
+  nameWithType: StatusMonitorCache
+  fullName: SuperOffice.CRM.Cache.StatusMonitorCache
+- uid: SuperOffice.CRM.Cache.TravelCurrentCache
+  commentId: T:SuperOffice.CRM.Cache.TravelCurrentCache
+  parent: SuperOffice.CRM.Cache
+  isExternal: true
+  name: TravelCurrentCache
+  nameWithType: TravelCurrentCache
+  fullName: SuperOffice.CRM.Cache.TravelCurrentCache
+- uid: SuperOffice.CRM.Cache.AssociateCache
+  commentId: T:SuperOffice.CRM.Cache.AssociateCache
+  parent: SuperOffice.CRM.Cache
+  isExternal: true
+  name: AssociateCache
+  nameWithType: AssociateCache
+  fullName: SuperOffice.CRM.Cache.AssociateCache
+- uid: SuperOffice.CRM.Cache.InhibitAssociateAutoflush
+  commentId: T:SuperOffice.CRM.Cache.InhibitAssociateAutoflush
+  isExternal: true
+  name: InhibitAssociateAutoflush
+  nameWithType: InhibitAssociateAutoflush
+  fullName: SuperOffice.CRM.Cache.InhibitAssociateAutoflush
+- uid: SuperOffice.CRM.Cache.InhibitAssociateAutoflush.InhibitAssociateAutoflushDisposable
+  commentId: T:SuperOffice.CRM.Cache.InhibitAssociateAutoflush.InhibitAssociateAutoflushDisposable
+  parent: SuperOffice.CRM.Cache
+  isExternal: true
+  name: InhibitAssociateAutoflush.InhibitAssociateAutoflushDisposable
+  nameWithType: InhibitAssociateAutoflush.InhibitAssociateAutoflushDisposable
+  fullName: SuperOffice.CRM.Cache.InhibitAssociateAutoflush.InhibitAssociateAutoflushDisposable
+- uid: SuperOffice.CRM.Cache.SystemEventCache
+  commentId: T:SuperOffice.CRM.Cache.SystemEventCache
+  parent: SuperOffice.CRM.Cache
+  isExternal: true
+  name: SystemEventCache
+  nameWithType: SystemEventCache
+  fullName: SuperOffice.CRM.Cache.SystemEventCache
 - uid: SuperOffice.CRM.Cache
   commentId: N:SuperOffice.CRM.Cache
   isExternal: true

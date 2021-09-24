@@ -7,11 +7,11 @@ items:
   children:
   - SuperOffice.ApplicationDomain.SoAppDomain.CallStaticMethod(System.String,System.String,System.Type[],System.Object[])
   - SuperOffice.ApplicationDomain.SoAppDomain.CallStaticMethodByRefParams(System.String,System.String,System.Type[],System.Object[]@)
-  - SuperOffice.ApplicationDomain.SoAppDomain.CreateDefault(System.String,System.Security.Policy.PolicyLevel)
+  - SuperOffice.ApplicationDomain.SoAppDomain.CreateDefault(System.String)
   - SuperOffice.ApplicationDomain.SoAppDomain.CreateInstance(System.String,System.Reflection.BindingFlags,System.Object[])
-  - SuperOffice.ApplicationDomain.SoAppDomain.CreateScriptAppDomain(System.String,System.Security.Policy.PolicyLevel)
+  - SuperOffice.ApplicationDomain.SoAppDomain.CreateScriptAppDomain(System.String)
   - SuperOffice.ApplicationDomain.SoAppDomain.Dispose
-  - SuperOffice.ApplicationDomain.SoAppDomain.InitAppDomain(System.String,System.Security.Policy.PolicyLevel)
+  - SuperOffice.ApplicationDomain.SoAppDomain.InitAppDomain(System.String)
   - SuperOffice.ApplicationDomain.SoAppDomain.LoadAssembly(System.String)
   langs:
   - csharp
@@ -21,10 +21,10 @@ items:
   fullName: SuperOffice.ApplicationDomain.SoAppDomain
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.ApplicationDomain
   summary: "\n\n"
   syntax:
@@ -59,35 +59,33 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.ApplicationDomain.SoAppDomain.CreateDefault(System.String,System.Security.Policy.PolicyLevel)
-  commentId: M:SuperOffice.ApplicationDomain.SoAppDomain.CreateDefault(System.String,System.Security.Policy.PolicyLevel)
-  id: CreateDefault(System.String,System.Security.Policy.PolicyLevel)
+- uid: SuperOffice.ApplicationDomain.SoAppDomain.CreateDefault(System.String)
+  commentId: M:SuperOffice.ApplicationDomain.SoAppDomain.CreateDefault(System.String)
+  id: CreateDefault(System.String)
   parent: SuperOffice.ApplicationDomain.SoAppDomain
   langs:
   - csharp
   - vb
-  name: CreateDefault(String, PolicyLevel)
-  nameWithType: SoAppDomain.CreateDefault(String, PolicyLevel)
-  fullName: SuperOffice.ApplicationDomain.SoAppDomain.CreateDefault(System.String, System.Security.Policy.PolicyLevel)
+  name: CreateDefault(String)
+  nameWithType: SoAppDomain.CreateDefault(String)
+  fullName: SuperOffice.ApplicationDomain.SoAppDomain.CreateDefault(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.ApplicationDomain
   summary: "\nCreate a default appdomain\n"
   syntax:
-    content: public static SoAppDomain CreateDefault(string applicationName, PolicyLevel policyLevel)
+    content: public static SoAppDomain CreateDefault(string applicationName)
     parameters:
     - id: applicationName
       type: System.String
       description: Assigns a friendly name for the new appdomain.
-    - id: policyLevel
-      type: System.Security.Policy.PolicyLevel
     return:
       type: SuperOffice.ApplicationDomain.SoAppDomain
-    content.vb: Public Shared Function CreateDefault(applicationName As String, policyLevel As PolicyLevel) As SoAppDomain
+    content.vb: Public Shared Function CreateDefault(applicationName As String) As SoAppDomain
   overload: SuperOffice.ApplicationDomain.SoAppDomain.CreateDefault*
   modifiers.csharp:
   - public
@@ -95,35 +93,33 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.ApplicationDomain.SoAppDomain.CreateScriptAppDomain(System.String,System.Security.Policy.PolicyLevel)
-  commentId: M:SuperOffice.ApplicationDomain.SoAppDomain.CreateScriptAppDomain(System.String,System.Security.Policy.PolicyLevel)
-  id: CreateScriptAppDomain(System.String,System.Security.Policy.PolicyLevel)
+- uid: SuperOffice.ApplicationDomain.SoAppDomain.CreateScriptAppDomain(System.String)
+  commentId: M:SuperOffice.ApplicationDomain.SoAppDomain.CreateScriptAppDomain(System.String)
+  id: CreateScriptAppDomain(System.String)
   parent: SuperOffice.ApplicationDomain.SoAppDomain
   langs:
   - csharp
   - vb
-  name: CreateScriptAppDomain(String, PolicyLevel)
-  nameWithType: SoAppDomain.CreateScriptAppDomain(String, PolicyLevel)
-  fullName: SuperOffice.ApplicationDomain.SoAppDomain.CreateScriptAppDomain(System.String, System.Security.Policy.PolicyLevel)
+  name: CreateScriptAppDomain(String)
+  nameWithType: SoAppDomain.CreateScriptAppDomain(String)
+  fullName: SuperOffice.ApplicationDomain.SoAppDomain.CreateScriptAppDomain(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.ApplicationDomain
   summary: "\nCreate an AppDomain for the scripting engine.\n"
   syntax:
-    content: public static SoAppDomain CreateScriptAppDomain(string applicationName, PolicyLevel policyLevel)
+    content: public static SoAppDomain CreateScriptAppDomain(string applicationName)
     parameters:
     - id: applicationName
       type: System.String
       description: Assigns a friendly name for the new appdomain.
-    - id: policyLevel
-      type: System.Security.Policy.PolicyLevel
     return:
       type: SuperOffice.ApplicationDomain.SoAppDomain
-    content.vb: Public Shared Function CreateScriptAppDomain(applicationName As String, policyLevel As PolicyLevel) As SoAppDomain
+    content.vb: Public Shared Function CreateScriptAppDomain(applicationName As String) As SoAppDomain
   overload: SuperOffice.ApplicationDomain.SoAppDomain.CreateScriptAppDomain*
   modifiers.csharp:
   - public
@@ -131,33 +127,31 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.ApplicationDomain.SoAppDomain.InitAppDomain(System.String,System.Security.Policy.PolicyLevel)
-  commentId: M:SuperOffice.ApplicationDomain.SoAppDomain.InitAppDomain(System.String,System.Security.Policy.PolicyLevel)
-  id: InitAppDomain(System.String,System.Security.Policy.PolicyLevel)
+- uid: SuperOffice.ApplicationDomain.SoAppDomain.InitAppDomain(System.String)
+  commentId: M:SuperOffice.ApplicationDomain.SoAppDomain.InitAppDomain(System.String)
+  id: InitAppDomain(System.String)
   parent: SuperOffice.ApplicationDomain.SoAppDomain
   langs:
   - csharp
   - vb
-  name: InitAppDomain(String, PolicyLevel)
-  nameWithType: SoAppDomain.InitAppDomain(String, PolicyLevel)
-  fullName: SuperOffice.ApplicationDomain.SoAppDomain.InitAppDomain(System.String, System.Security.Policy.PolicyLevel)
+  name: InitAppDomain(String)
+  nameWithType: SoAppDomain.InitAppDomain(String)
+  fullName: SuperOffice.ApplicationDomain.SoAppDomain.InitAppDomain(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.ApplicationDomain
   summary: "\nDefault constructor. Initialize and create a new appdomain.\n"
   syntax:
-    content: protected void InitAppDomain(string applicationName, PolicyLevel policyLevel)
+    content: protected void InitAppDomain(string applicationName)
     parameters:
     - id: applicationName
       type: System.String
       description: Assigns a friendly name for the new appdomain.
-    - id: policyLevel
-      type: System.Security.Policy.PolicyLevel
-    content.vb: Protected Sub InitAppDomain(applicationName As String, policyLevel As PolicyLevel)
+    content.vb: Protected Sub InitAppDomain(applicationName As String)
   overload: SuperOffice.ApplicationDomain.SoAppDomain.InitAppDomain*
   modifiers.csharp:
   - protected
@@ -175,10 +169,10 @@ items:
   fullName: SuperOffice.ApplicationDomain.SoAppDomain.CallStaticMethod(System.String, System.String, System.Type[], System.Object[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.ApplicationDomain
   summary: "\nReturns the result of a static method call\n"
   example:
@@ -222,10 +216,10 @@ items:
   fullName: SuperOffice.ApplicationDomain.SoAppDomain.CallStaticMethodByRefParams(System.String, System.String, System.Type[], ref System.Object[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.ApplicationDomain
   summary: "\nReturns the result of a static method call\n"
   example:
@@ -269,10 +263,10 @@ items:
   fullName: SuperOffice.ApplicationDomain.SoAppDomain.CreateInstance(System.String, System.Reflection.BindingFlags, System.Object[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.ApplicationDomain
   summary: "\nReturns a proxy to an instance of the specified plugin type\n"
   syntax:
@@ -311,10 +305,10 @@ items:
   fullName: SuperOffice.ApplicationDomain.SoAppDomain.LoadAssembly(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.ApplicationDomain
   summary: "\nLoads the specified assembly\n"
   syntax:
@@ -341,10 +335,10 @@ items:
   fullName: SuperOffice.ApplicationDomain.SoAppDomain.Dispose()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.ApplicationDomain
   summary: "\nUnload the appdomain\n"
   syntax:
@@ -992,13 +986,6 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Security.Policy.PolicyLevel
-  commentId: T:System.Security.Policy.PolicyLevel
-  parent: System.Security.Policy
-  isExternal: true
-  name: PolicyLevel
-  nameWithType: PolicyLevel
-  fullName: System.Security.Policy.PolicyLevel
 - uid: SuperOffice.ApplicationDomain.SoAppDomain
   commentId: T:SuperOffice.ApplicationDomain.SoAppDomain
   parent: SuperOffice.ApplicationDomain
@@ -1006,12 +993,6 @@ references:
   name: SoAppDomain
   nameWithType: SoAppDomain
   fullName: SuperOffice.ApplicationDomain.SoAppDomain
-- uid: System.Security.Policy
-  commentId: N:System.Security.Policy
-  isExternal: true
-  name: System.Security.Policy
-  nameWithType: System.Security.Policy
-  fullName: System.Security.Policy
 - uid: SuperOffice.ApplicationDomain.SoAppDomain.CreateScriptAppDomain*
   commentId: Overload:SuperOffice.ApplicationDomain.SoAppDomain.CreateScriptAppDomain
   isExternal: true

@@ -27,10 +27,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -65,10 +65,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Validations
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -94,10 +94,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.ValidationAttribute
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -123,10 +123,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Type
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -152,10 +152,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Datevalidation
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -181,10 +181,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.MandatoryValidation
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -210,10 +210,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Rangevalidation
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -239,10 +239,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Minvalue
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -268,10 +268,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Maxvalue
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -297,10 +297,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Datatype
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -326,10 +326,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Integer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -355,10 +355,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Int
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -384,10 +384,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Double
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -413,10 +413,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Date
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -442,10 +442,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.String
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:

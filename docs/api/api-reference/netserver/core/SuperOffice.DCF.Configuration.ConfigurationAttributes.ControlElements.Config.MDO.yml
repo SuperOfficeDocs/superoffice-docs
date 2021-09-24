@@ -26,10 +26,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.MDO
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -64,10 +64,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.MDO.Displaytextdatasource
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -93,10 +93,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.MDO.Listname
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -122,10 +122,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.MDO.Extrainfo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -151,10 +151,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.MDO.Searchable
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -180,10 +180,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.MDO.Showicons
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -209,10 +209,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.MDO.Mode
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -238,10 +238,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.MDO.Fetcher
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -267,10 +267,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.MDO.CustomIconPath
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -296,10 +296,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.MDO.GlobalSort
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -325,10 +325,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.MDO.CurrentName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -354,10 +354,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.MDO.SetCurrent
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -383,10 +383,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.MDO.AutoCallback
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -412,10 +412,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.MDO.UseHeadingName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:

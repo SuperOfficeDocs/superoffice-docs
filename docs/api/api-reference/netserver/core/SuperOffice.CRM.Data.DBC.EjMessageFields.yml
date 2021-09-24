@@ -27,7 +27,6 @@ items:
   - SuperOffice.CRM.Data.DBC.EjMessageFields.Sentiment
   - SuperOffice.CRM.Data.DBC.EjMessageFields.SentimentConfidence
   - SuperOffice.CRM.Data.DBC.EjMessageFields.Slevel
-  - SuperOffice.CRM.Data.DBC.EjMessageFields.SuggestedCategoryId
   - SuperOffice.CRM.Data.DBC.EjMessageFields.TicketId
   - SuperOffice.CRM.Data.DBC.EjMessageFields.TimeCharge
   - SuperOffice.CRM.Data.DBC.EjMessageFields.TimeSpent
@@ -814,35 +813,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const SentimentConfidence As String = "sentimentConfidence"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
-- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.SuggestedCategoryId
-  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.SuggestedCategoryId
-  id: SuggestedCategoryId
-  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
-  langs:
-  - csharp
-  - vb
-  name: SuggestedCategoryId
-  nameWithType: DBC.EjMessageFields.SuggestedCategoryId
-  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.SuggestedCategoryId
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: "\nEjMessage.SuggestedCategoryId: Suggestion for categorization, based on the text of the message (AI)\n"
-  syntax:
-    content: public const string SuggestedCategoryId = "suggestedCategory_id"
-    return:
-      type: System.String
-    content.vb: Public Const SuggestedCategoryId As String = "suggestedCategory_id"
   modifiers.csharp:
   - public
   - const

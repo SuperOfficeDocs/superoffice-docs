@@ -20,10 +20,10 @@ items:
   fullName: SuperOffice.License.BuildInfoAttribute
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nAttribute declaring information about a build.\n"
   syntax:
@@ -116,10 +116,10 @@ items:
   fullName: SuperOffice.License.BuildInfoAttribute.BuildInfoAttribute(System.String, System.String, System.String, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nConstructor for attribute describing information about the build.\n"
   syntax:
@@ -153,10 +153,10 @@ items:
   fullName: SuperOffice.License.BuildInfoAttribute.ParseBuildDate(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   syntax:
     content: public static DateTime ParseBuildDate(string buildLabel)
@@ -185,10 +185,10 @@ items:
   fullName: SuperOffice.License.BuildInfoAttribute.BranchName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nName of the branch the module is built from.\n"
   syntax:
@@ -216,10 +216,10 @@ items:
   fullName: SuperOffice.License.BuildInfoAttribute.BuildLabel
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nBuild label for the module.\n"
   syntax:
@@ -247,10 +247,10 @@ items:
   fullName: SuperOffice.License.BuildInfoAttribute.AssemblyVersion
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nAssemblyVersion generated from the build system\n"
   syntax:
@@ -278,10 +278,10 @@ items:
   fullName: SuperOffice.License.BuildInfoAttribute.FileVersion
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nFileVersion generated from the build system.\n"
   syntax:
@@ -309,10 +309,10 @@ items:
   fullName: SuperOffice.License.BuildInfoAttribute.BuildDate
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.License
   summary: "\nDate of the build.\n"
   syntax:

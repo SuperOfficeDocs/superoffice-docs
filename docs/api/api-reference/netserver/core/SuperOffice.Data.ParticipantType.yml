@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.ParticipantType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nThe type of the appointment&apos;s participant\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.ParticipantType.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nUnknown - used when initializing \n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.ParticipantType.Associate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1 = Participant is an associate\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.ParticipantType.Person
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2 = Participant is a person, but not an associate\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.ParticipantType.Resource
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3 = Participant is a resource (special type of associate)\n"
   syntax:

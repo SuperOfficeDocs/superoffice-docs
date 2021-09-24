@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.NetServerBuildType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nType of build.\n"
   syntax:
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.NetServerBuildType.Feature
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nSuperOffice Research and Product Development confidential \nversion that never shall run on machines not owned by \nSuperOffice Research and Product Development.\n"
   remarks: "\nThis version should only be used by SuperOffice Research and \nProduct Development&apos;s developers for internal testing of \nfeatures under development.\n"
@@ -80,10 +80,10 @@ items:
   fullName: SuperOffice.NetServerBuildType.Stable
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nSuperOffice Research and Product Development confidential \nversion that never shall run on machines not owned by \nSuperOffice Research and Product Development.\n"
   remarks: "\nThis version should have complete features with a limited set \nof quality measures taken.  This version should only be used \nwithin the SuperOffice Research and Development department.\n"
@@ -109,10 +109,10 @@ items:
   fullName: SuperOffice.NetServerBuildType.Alpha
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nSuperOffice Confidential version that shall only be used by \nSuperOffice or partners with a signed and valid agreement \nwith SuperOffice.\n"
   remarks: "\nThis version can under certain situations be used by partners\nfor training and testing.  This version shall never be used in\na production environment.\n"
@@ -138,10 +138,10 @@ items:
   fullName: SuperOffice.NetServerBuildType.Beta
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nBeta version intended for SuperOffice with beta partners.\n"
   remarks: "\nThe use of this version requires a signed beta agreement with \nSuperOffice ASA.  The use of this version is regulated in this \nagreement.\n"
@@ -167,10 +167,10 @@ items:
   fullName: SuperOffice.NetServerBuildType.ReleaseCandidate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nRelease candidate intended for customers participating in a \nramp-up or beta program.\n"
   remarks: "\nThe use of this version requires a signed beta agreement with \nSuperOffice ASA.  The use of this version is regulated in this \nagreement.\n"
@@ -196,10 +196,10 @@ items:
   fullName: SuperOffice.NetServerBuildType.Release
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice
   summary: "\nRelease intended for customers.\n"
   remarks: "\nThis version can be a release version if so is stated in a \n&quot;green paper&quot; issued by SuperOffice Research and Product \ndevelopment.\n"

@@ -55,18 +55,6 @@ items:
   assemblies:
   - SuperOffice.Plugins
 references:
-- uid: SuperOffice.ErpSync.ErpConnectoUrlResolverPluginAttribute
-  commentId: T:SuperOffice.ErpSync.ErpConnectoUrlResolverPluginAttribute
-  isExternal: true
-  name: ErpConnectoUrlResolverPluginAttribute
-  nameWithType: ErpConnectoUrlResolverPluginAttribute
-  fullName: SuperOffice.ErpSync.ErpConnectoUrlResolverPluginAttribute
-- uid: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin
-  commentId: T:SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin
-  isExternal: true
-  name: IErpConnectoUrlResolverPlugin
-  nameWithType: IErpConnectoUrlResolverPlugin
-  fullName: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin
 - uid: SuperOffice.ErpSync.ErpActorWS
   commentId: T:SuperOffice.ErpSync.ErpActorWS
   parent: SuperOffice.ErpSync
@@ -107,6 +95,18 @@ references:
   name: IErpConnectorWS
   nameWithType: IErpConnectorWS
   fullName: SuperOffice.ErpSync.IErpConnectorWS
+- uid: SuperOffice.ErpSync.ErpConnectoUrlResolverPluginAttribute
+  commentId: T:SuperOffice.ErpSync.ErpConnectoUrlResolverPluginAttribute
+  isExternal: true
+  name: ErpConnectoUrlResolverPluginAttribute
+  nameWithType: ErpConnectoUrlResolverPluginAttribute
+  fullName: SuperOffice.ErpSync.ErpConnectoUrlResolverPluginAttribute
+- uid: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin
+  commentId: T:SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin
+  isExternal: true
+  name: IErpConnectoUrlResolverPlugin
+  nameWithType: IErpConnectoUrlResolverPlugin
+  fullName: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin
 - uid: SuperOffice.ErpSync.TestConfigDataRequestWS
   commentId: T:SuperOffice.ErpSync.TestConfigDataRequestWS
   parent: SuperOffice.ErpSync

@@ -22,6 +22,19 @@ items:
   assemblies:
   - SoDataBase
 references:
+- uid: SuperOffice.CRM.MailMerge.MailMerge
+  commentId: T:SuperOffice.CRM.MailMerge.MailMerge
+  isExternal: true
+  name: MailMerge
+  nameWithType: MailMerge
+  fullName: SuperOffice.CRM.MailMerge.MailMerge
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings
+  commentId: T:SuperOffice.CRM.MailMerge.MailMergeSettings
+  parent: SuperOffice.CRM.MailMerge
+  isExternal: true
+  name: MailMergeSettings
+  nameWithType: MailMergeSettings
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings
 - uid: SuperOffice.CRM.MailMerge.XmlSerializationWriterMailMergeSettings
   commentId: T:SuperOffice.CRM.MailMerge.XmlSerializationWriterMailMergeSettings
   isExternal: true
@@ -53,19 +66,6 @@ references:
   name: XmlSerializerContract
   nameWithType: XmlSerializerContract
   fullName: SuperOffice.CRM.MailMerge.XmlSerializerContract
-- uid: SuperOffice.CRM.MailMerge.MailMerge
-  commentId: T:SuperOffice.CRM.MailMerge.MailMerge
-  isExternal: true
-  name: MailMerge
-  nameWithType: MailMerge
-  fullName: SuperOffice.CRM.MailMerge.MailMerge
-- uid: SuperOffice.CRM.MailMerge.MailMergeSettings
-  commentId: T:SuperOffice.CRM.MailMerge.MailMergeSettings
-  parent: SuperOffice.CRM.MailMerge
-  isExternal: true
-  name: MailMergeSettings
-  nameWithType: MailMergeSettings
-  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask
   commentId: T:SuperOffice.CRM.MailMerge.MailMergeTask
   parent: SuperOffice.CRM.MailMerge

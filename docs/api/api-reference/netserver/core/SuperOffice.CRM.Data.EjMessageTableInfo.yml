@@ -46,8 +46,6 @@ items:
   - SuperOffice.CRM.Data.EjMessageTableInfo.Sentiment
   - SuperOffice.CRM.Data.EjMessageTableInfo.SentimentConfidence
   - SuperOffice.CRM.Data.EjMessageTableInfo.Slevel
-  - SuperOffice.CRM.Data.EjMessageTableInfo.SuggestedCategoryId
-  - SuperOffice.CRM.Data.EjMessageTableInfo.SuggestedCategoryId_InnerJoin_EjCategory
   - SuperOffice.CRM.Data.EjMessageTableInfo.TicketId
   - SuperOffice.CRM.Data.EjMessageTableInfo.TicketId_InnerJoin_Ticket
   - SuperOffice.CRM.Data.EjMessageTableInfo.TimeCharge
@@ -1131,37 +1129,6 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: SuperOffice.CRM.Data.EjMessageTableInfo.SuggestedCategoryId
-  commentId: P:SuperOffice.CRM.Data.EjMessageTableInfo.SuggestedCategoryId
-  id: SuggestedCategoryId
-  parent: SuperOffice.CRM.Data.EjMessageTableInfo
-  langs:
-  - csharp
-  - vb
-  name: SuggestedCategoryId
-  nameWithType: EjMessageTableInfo.SuggestedCategoryId
-  fullName: SuperOffice.CRM.Data.EjMessageTableInfo.SuggestedCategoryId
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;suggestedCategory_id&apos; in table &apos;ej_message&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSuggestion for categorization, based on the text of the message (AI)\n"
-  syntax:
-    content: public Int32FieldInfo SuggestedCategoryId { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Data.SQL.Int32FieldInfo
-    content.vb: Public ReadOnly Property SuggestedCategoryId As Int32FieldInfo
-  overload: SuperOffice.CRM.Data.EjMessageTableInfo.SuggestedCategoryId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.EjMessageTableInfo.TicketId_InnerJoin_Ticket
   commentId: P:SuperOffice.CRM.Data.EjMessageTableInfo.TicketId_InnerJoin_Ticket
   id: TicketId_InnerJoin_Ticket
@@ -1342,37 +1309,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.InboxTableInfo}
     content.vb: Public ReadOnly Property Inbox_InnerJoin_Inbox As TargetedInnerJoin(Of InboxTableInfo)
   overload: SuperOffice.CRM.Data.EjMessageTableInfo.Inbox_InnerJoin_Inbox*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Data.EjMessageTableInfo.SuggestedCategoryId_InnerJoin_EjCategory
-  commentId: P:SuperOffice.CRM.Data.EjMessageTableInfo.SuggestedCategoryId_InnerJoin_EjCategory
-  id: SuggestedCategoryId_InnerJoin_EjCategory
-  parent: SuperOffice.CRM.Data.EjMessageTableInfo
-  langs:
-  - csharp
-  - vb
-  name: SuggestedCategoryId_InnerJoin_EjCategory
-  nameWithType: EjMessageTableInfo.SuggestedCategoryId_InnerJoin_EjCategory
-  fullName: SuperOffice.CRM.Data.EjMessageTableInfo.SuggestedCategoryId_InnerJoin_EjCategory
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated join from the foreign key SuggestedCategoryId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.EjCategoryTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
-  syntax:
-    content: public TargetedInnerJoin<EjCategoryTableInfo> SuggestedCategoryId_InnerJoin_EjCategory { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.EjCategoryTableInfo}
-    content.vb: Public ReadOnly Property SuggestedCategoryId_InnerJoin_EjCategory As TargetedInnerJoin(Of EjCategoryTableInfo)
-  overload: SuperOffice.CRM.Data.EjMessageTableInfo.SuggestedCategoryId_InnerJoin_EjCategory*
   modifiers.csharp:
   - public
   - get
@@ -2684,12 +2620,6 @@ references:
   name: SentimentConfidence
   nameWithType: EjMessageTableInfo.SentimentConfidence
   fullName: SuperOffice.CRM.Data.EjMessageTableInfo.SentimentConfidence
-- uid: SuperOffice.CRM.Data.EjMessageTableInfo.SuggestedCategoryId*
-  commentId: Overload:SuperOffice.CRM.Data.EjMessageTableInfo.SuggestedCategoryId
-  isExternal: true
-  name: SuggestedCategoryId
-  nameWithType: EjMessageTableInfo.SuggestedCategoryId
-  fullName: SuperOffice.CRM.Data.EjMessageTableInfo.SuggestedCategoryId
 - uid: SuperOffice.CRM.Data.EjMessageTableInfo.TicketId_InnerJoin_Ticket*
   commentId: Overload:SuperOffice.CRM.Data.EjMessageTableInfo.TicketId_InnerJoin_Ticket
   isExternal: true
@@ -2981,56 +2911,6 @@ references:
     name: InboxTableInfo
     nameWithType: InboxTableInfo
     fullName: SuperOffice.CRM.Data.InboxTableInfo
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Data.EjMessageTableInfo.SuggestedCategoryId_InnerJoin_EjCategory*
-  commentId: Overload:SuperOffice.CRM.Data.EjMessageTableInfo.SuggestedCategoryId_InnerJoin_EjCategory
-  isExternal: true
-  name: SuggestedCategoryId_InnerJoin_EjCategory
-  nameWithType: EjMessageTableInfo.SuggestedCategoryId_InnerJoin_EjCategory
-  fullName: SuperOffice.CRM.Data.EjMessageTableInfo.SuggestedCategoryId_InnerJoin_EjCategory
-- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.EjCategoryTableInfo}
-  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.EjCategoryTableInfo}
-  parent: SuperOffice.Data.SQL
-  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  name: TargetedInnerJoin<EjCategoryTableInfo>
-  nameWithType: TargetedInnerJoin<EjCategoryTableInfo>
-  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.EjCategoryTableInfo>
-  nameWithType.vb: TargetedInnerJoin(Of EjCategoryTableInfo)
-  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.EjCategoryTableInfo)
-  name.vb: TargetedInnerJoin(Of EjCategoryTableInfo)
-  spec.csharp:
-  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
-    name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.Data.EjCategoryTableInfo
-    name: EjCategoryTableInfo
-    nameWithType: EjCategoryTableInfo
-    fullName: SuperOffice.CRM.Data.EjCategoryTableInfo
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
-    name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.Data.EjCategoryTableInfo
-    name: EjCategoryTableInfo
-    nameWithType: EjCategoryTableInfo
-    fullName: SuperOffice.CRM.Data.EjCategoryTableInfo
     isExternal: true
   - name: )
     nameWithType: )

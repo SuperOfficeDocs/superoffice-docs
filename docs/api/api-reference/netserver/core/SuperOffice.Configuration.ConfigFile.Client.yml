@@ -9,7 +9,9 @@ items:
   - SuperOffice.Configuration.ConfigFile.Client.ApplicationName
   - SuperOffice.Configuration.ConfigFile.Client.ApplicationTitle
   - SuperOffice.Configuration.ConfigFile.Client.ClientCacheKey
+  - SuperOffice.Configuration.ConfigFile.Client.ExportBatchTaskThreshold
   - SuperOffice.Configuration.ConfigFile.Client.ExportPageSize
+  - SuperOffice.Configuration.ConfigFile.Client.ExportRowLimit
   - SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientId
   - SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientSecret
   - SuperOffice.Configuration.ConfigFile.Client.GoogleImportDispatcher
@@ -31,10 +33,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Client
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nConfiguration values related to client configuration, extension of ClientConfigurationProvider\n"
   syntax:
@@ -69,10 +71,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Client.ApplicationName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\n\n"
   syntax:
@@ -102,10 +104,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Client.ApplicationInstance
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\n\n"
   syntax:
@@ -135,10 +137,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Client.HelpFilesBaseUrl
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nOverride the help files location - to support local deployments. \n"
   syntax:
@@ -168,12 +170,12 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Client.ExportPageSize
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\n\n"
+  summary: "\nObsolete, no longer in use. See ExportRowLimit and ExportBatchTaskThreshold\n"
   syntax:
     content: public static int ExportPageSize { get; set; }
     parameters: []
@@ -181,6 +183,72 @@ items:
       type: System.Int32
     content.vb: Public Shared Property ExportPageSize As Integer
   overload: SuperOffice.Configuration.ConfigFile.Client.ExportPageSize*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Client.ExportRowLimit
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.ExportRowLimit
+  id: ExportRowLimit
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: ExportRowLimit
+  nameWithType: ConfigFile.Client.ExportRowLimit
+  fullName: SuperOffice.Configuration.ConfigFile.Client.ExportRowLimit
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAbsolute upper limit for number of rows in a file export, such as an Excel Export from Archives\n"
+  syntax:
+    content: public static int ExportRowLimit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property ExportRowLimit As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Client.ExportRowLimit*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Client.ExportBatchTaskThreshold
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.ExportBatchTaskThreshold
+  id: ExportBatchTaskThreshold
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: ExportBatchTaskThreshold
+  nameWithType: ConfigFile.Client.ExportBatchTaskThreshold
+  fullName: SuperOffice.Configuration.ConfigFile.Client.ExportBatchTaskThreshold
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThreshold when an Export is delegated to a Batch Task, rather than being run directly in the Web server\n"
+  syntax:
+    content: public static int ExportBatchTaskThreshold { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property ExportBatchTaskThreshold As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Client.ExportBatchTaskThreshold*
   modifiers.csharp:
   - public
   - static
@@ -201,10 +269,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Client.ApplicationTitle
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nApplication title\n"
   syntax:
@@ -234,10 +302,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Client.WebAppUsage
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nEnable the collection of Web Client usage statistics (only view usage, no references to actual data)\n"
   syntax:
@@ -267,10 +335,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Client.ClientCacheKey
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nCache key that is appended (if it exists) to the querystring for javascript and css includes\n"
   syntax:
@@ -300,10 +368,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Client.UrlSchemeOverride
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nOverridden value of sheme (HTTP or HTTPS\n"
   syntax:
@@ -333,10 +401,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Client.UrlHostOverride
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nOverridden value of host, like: online.superoffice.com\n"
   syntax:
@@ -366,10 +434,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Client.UrlPortOverride
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nOverridden value of port, like: 80 or 443\n"
   syntax:
@@ -399,10 +467,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Client.GoogleImportDispatcher
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nurl to import from google\n"
   syntax:
@@ -432,10 +500,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nClient ID when importing from google\n"
   syntax:
@@ -465,10 +533,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientSecret
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nClient secret when importing from google\n"
   syntax:
@@ -498,10 +566,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Client.MasterDcfConfigHashKeyFormat
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe format key used to generate a unique DCF page config hash. {0} = MachineName. {1} = Build-label. {2} = Assembly version. Defaults to {0}.\n"
   syntax:
@@ -531,10 +599,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Client.NetServicesStatusUrl
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nOverride the default NetServices Status URL with this value. Useful for testing.\n"
   syntax:
@@ -564,10 +632,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Client.NetServicesNextDate
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nOverride the Next Check Date preference for NetServices Status checking. Useful for testing. YYYY.MM.DD\n"
   syntax:
@@ -597,10 +665,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Client.ShowWelcomeDialogs
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAllow automated tests to disable webtools and welcome dialogs.\n"
   syntax:
@@ -630,10 +698,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Client.WWW3Url
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe root-URL of the global SuperOffice www3 host.\n"
   syntax:
@@ -988,6 +1056,18 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: SuperOffice.Configuration.ConfigFile.Client.ExportRowLimit*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.ExportRowLimit
+  isExternal: true
+  name: ExportRowLimit
+  nameWithType: ConfigFile.Client.ExportRowLimit
+  fullName: SuperOffice.Configuration.ConfigFile.Client.ExportRowLimit
+- uid: SuperOffice.Configuration.ConfigFile.Client.ExportBatchTaskThreshold*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.ExportBatchTaskThreshold
+  isExternal: true
+  name: ExportBatchTaskThreshold
+  nameWithType: ConfigFile.Client.ExportBatchTaskThreshold
+  fullName: SuperOffice.Configuration.ConfigFile.Client.ExportBatchTaskThreshold
 - uid: SuperOffice.Configuration.ConfigFile.Client.ApplicationTitle*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.ApplicationTitle
   isExternal: true

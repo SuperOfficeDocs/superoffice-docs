@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceYearPattern
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nClass representing a pattern for yearly recurrence\n"
   syntax:
@@ -70,10 +70,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceYearPattern.Clone()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public override object Clone()
@@ -100,10 +100,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceYearPattern.RecurrenceYearPattern()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public RecurrenceYearPattern()
@@ -125,10 +125,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceYearPattern.Pattern
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nThe type of yearly recurrence pattern\n"
   syntax:
@@ -156,10 +156,10 @@ items:
   fullName: SuperOffice.CRM.Services.RecurrenceYearPattern.Cycle
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nThe month of the year where the recurrence occurs. 1 is January and 12 is December.\n"
   syntax:

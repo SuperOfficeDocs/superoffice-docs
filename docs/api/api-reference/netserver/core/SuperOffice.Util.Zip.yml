@@ -21,10 +21,10 @@ items:
   fullName: SuperOffice.Util.Zip
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nClass to encrypt/decrypt data\n"
   syntax:
@@ -61,10 +61,10 @@ items:
   fullName: SuperOffice.Util.Zip.Zip(System.String, SuperOffice.Util.ZipType)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConstructor with a text to compress, and compression type\n"
   syntax:
@@ -92,10 +92,10 @@ items:
   fullName: SuperOffice.Util.Zip.Zip(System.IO.Stream)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConstructor with a stream to compress/decompress.\nThe type of zip algorithm will be attempted detected. If none is detected, default will be GZip\n"
   syntax:
@@ -121,10 +121,10 @@ items:
   fullName: SuperOffice.Util.Zip.Zip(System.IO.Stream, SuperOffice.Util.ZipType)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConstructor with a stream to compress/decompress, and a compression type\n"
   syntax:
@@ -152,10 +152,10 @@ items:
   fullName: SuperOffice.Util.Zip.Zip(System.Byte[], SuperOffice.Util.ZipType)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nConstructor with a bytearray to compress/decompress, and compression type\n"
   syntax:
@@ -188,10 +188,10 @@ items:
   fullName: SuperOffice.Util.Zip.GetDecompressedStream()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn content of input uncompressed\n"
   syntax:
@@ -216,10 +216,10 @@ items:
   fullName: SuperOffice.Util.Zip.GetCompressedStream()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn content of input compressed\n"
   syntax:
@@ -244,10 +244,10 @@ items:
   fullName: SuperOffice.Util.Zip.ZipType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nType of zip compression to use\n"
   syntax:
@@ -275,10 +275,10 @@ items:
   fullName: SuperOffice.Util.Zip.IsValidZip
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nVerify if input stream is a valid zip entry\n"
   syntax:

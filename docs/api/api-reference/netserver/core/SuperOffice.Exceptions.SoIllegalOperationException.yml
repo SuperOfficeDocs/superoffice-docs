@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Exceptions.SoIllegalOperationException
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nException thrown when an illegal operation has been requested\n"
   syntax:
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.Exceptions.SoIllegalOperationException.SoIllegalOperationException(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nDefault constructor.\n"
   syntax:
@@ -112,10 +112,10 @@ items:
   fullName: SuperOffice.Exceptions.SoIllegalOperationException.SoIllegalOperationException(System.String, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nDefault constructor.\n"
   syntax:
@@ -145,10 +145,10 @@ items:
   fullName: SuperOffice.Exceptions.SoIllegalOperationException.SoIllegalOperationException(System.String, System.Exception)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nDefault constructor.\n"
   syntax:
@@ -178,10 +178,10 @@ items:
   fullName: SuperOffice.Exceptions.SoIllegalOperationException.SoIllegalOperationException(System.String, System.Exception, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nDefault constructor.\n"
   syntax:

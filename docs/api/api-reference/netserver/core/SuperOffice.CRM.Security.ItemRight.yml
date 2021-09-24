@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.CRM.Security.ItemRight
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nAbstract parent class - introduces the concept &quot;IsActive&quot; which is used by both <xref href=\"SuperOffice.CRM.Security.FunctionRight\" data-throw-if-not-resolved=\"false\"></xref> \nand <xref href=\"SuperOffice.CRM.Security.FieldRight\" data-throw-if-not-resolved=\"false\"></xref> \n"
   syntax:
@@ -68,10 +68,10 @@ items:
   fullName: SuperOffice.CRM.Security.ItemRight.ItemRight()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   syntax:
     content: protected ItemRight()
@@ -93,10 +93,10 @@ items:
   fullName: SuperOffice.CRM.Security.ItemRight.IsActive
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Security
   summary: "\nGeneric value. Exact meaning depends on the sub-class used.\n"
   syntax:

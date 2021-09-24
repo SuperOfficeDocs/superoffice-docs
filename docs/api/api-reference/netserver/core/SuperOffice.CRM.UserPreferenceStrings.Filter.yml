@@ -21,10 +21,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Filter
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nFilter (these are available only in PointyHairedBossMode in admin and thus cannot be easily edited)\n"
   syntax:
@@ -59,10 +59,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Filter.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:
@@ -88,10 +88,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Filter.All
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreference used to remember the setup/state of the Filter dialog\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -117,10 +117,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Filter.Associate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreference used to remember the setup/state of the Filter dialog\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
@@ -146,10 +146,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Filter.DaysAfter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreference used to remember the setup/state of the Filter dialog\n<p></p>Control type: Number, access: Wizard\n"
   syntax:
@@ -175,10 +175,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Filter.DaysBefore
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreference used to remember the setup/state of the Filter dialog\n<p></p>Control type: Number, access: Wizard\n"
   syntax:
@@ -204,10 +204,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Filter.Group
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreference used to remember the setup/state of the Filter dialog\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
@@ -233,10 +233,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Filter.NumAssociates
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreference used to remember the setup/state of the Filter dialog\n<p></p>Control type: Number, access: Wizard\n"
   syntax:
@@ -262,10 +262,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Filter.NumGroups
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreference used to remember the setup/state of the Filter dialog\n<p></p>Control type: Number, access: Wizard\n"
   syntax:

@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveFindContactRow
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: 'public class ArchiveFindContactRow : ArchiveRow, IDataRecord, IEquatable<ArchiveRow>'
@@ -129,10 +129,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveFindContactRow.ColumnName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnName = "name"
@@ -157,10 +157,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveFindContactRow.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public override string ToString()
@@ -187,10 +187,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveFindContactRow.ArchiveFindContactRow()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveFindContactRow()
@@ -212,10 +212,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveFindContactRow.Name
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string Name { get; }

@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.ImportEntityType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nEntitys type for import\nThis Enum consists of flag values that can be combined.\n"
   syntax:
@@ -59,10 +59,10 @@ items:
   fullName: SuperOffice.Data.ImportEntityType.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown\n"
   syntax:
@@ -87,10 +87,10 @@ items:
   fullName: SuperOffice.Data.ImportEntityType.Person
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Person\n"
   syntax:
@@ -115,10 +115,10 @@ items:
   fullName: SuperOffice.Data.ImportEntityType.Contact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Contact\n"
   syntax:
@@ -143,10 +143,10 @@ items:
   fullName: SuperOffice.Data.ImportEntityType.Product
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Product\n"
   syntax:

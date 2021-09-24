@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Data.SaleStatus
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValue for the &apos;status&apos; field in the sale table\nThis Enum is used by:  sale.status; SaleHist.status; CounterValue.sale_status\n"
   syntax:
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.Data.SaleStatus.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Sale status is unknown\n"
   syntax:
@@ -79,10 +79,10 @@ items:
   fullName: SuperOffice.Data.SaleStatus.Open
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Sale is open\n"
   syntax:
@@ -107,10 +107,10 @@ items:
   fullName: SuperOffice.Data.SaleStatus.Sold
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Sale has been sold (green $ in GUI)\n"
   syntax:
@@ -135,10 +135,10 @@ items:
   fullName: SuperOffice.Data.SaleStatus.Lost
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Sale has been lost (red $ in GUI)\n"
   syntax:
@@ -163,10 +163,10 @@ items:
   fullName: SuperOffice.Data.SaleStatus.Stalled
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Sale has been stalled, or &quot;parked&quot;, awaiting further developments\n"
   syntax:
@@ -191,10 +191,10 @@ items:
   fullName: SuperOffice.Data.SaleStatus.SaintAll
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1000: All&apos; choice for Saint. This is NOT an acceptable value for a sale, but is used by the Saint system for indexing all sales\n"
   syntax:

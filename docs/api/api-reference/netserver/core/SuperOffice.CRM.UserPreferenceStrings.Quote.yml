@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Quote
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nPreference keys for the quote system.\n"
   syntax:
@@ -56,10 +56,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Quote.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:
@@ -85,10 +85,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Quote.QuoteLineIsOptional
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nQuote lines can be optional. Hard default = true.\n"
   syntax:
@@ -114,10 +114,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Quote.UseDiscountOnTotal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nUse discount on Total Amount. Hard default = false.\n"
   syntax:
@@ -143,10 +143,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Quote.FollowupText
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nText for a quote follow up. Hard default lives in SR_QUOTE_PUBLISH_FOLLOWUP_TEXT.\n"
   syntax:
@@ -172,10 +172,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Quote.UseCompanyPostalAddressAsQuoteDeliveryAddress
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public const string UseCompanyPostalAddressAsQuoteDeliveryAddress = "UseCompanyPostalAddressAsQuoteDeliveryAddress"

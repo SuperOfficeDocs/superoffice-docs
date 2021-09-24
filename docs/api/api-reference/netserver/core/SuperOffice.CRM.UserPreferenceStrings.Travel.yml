@@ -23,10 +23,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Travel
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nTravel\n"
   syntax:
@@ -61,10 +61,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Travel.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:
@@ -90,10 +90,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Travel.AdvancedTravelMenu
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the Travel icon/menu display the advanced Travel options\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -119,10 +119,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Travel.EnableTravel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nIs Travel enabled?\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -148,10 +148,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Travel.FlushAfterReadAll
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nIf Yes, the Travel Gateway will force a refresh on all clients after the Read update from all users event has been executed. (Default = YES)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -177,10 +177,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Travel.GWSilent
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould progress dialogs be displayed when Travel Gateway is executing activities? (Default = NO)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -206,10 +206,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Travel.OfferBlockCentralLogin
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nAllows Remote Travel users to prevent CRM from trying to perform a Central update even if the central database is available when CRM is started while the Remote Travel user is travelling.(Default = NO)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -235,10 +235,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Travel.RemoteTravelClient
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nProgram file used to synchronise between a local Remote Travel user and the central document archive. (Default = SORT.EXE)\n<p></p>Control type: Text, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -264,10 +264,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Travel.RemoteTravelServer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nName of the EXE file used as your Remote Travel Server. (Default = SORTS.EXE)\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -293,10 +293,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Travel.TravelAsMenu
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the Navigator display a Travel icon for users allowed to use Travel?\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -322,10 +322,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Travel.EnableStats
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nEnable logging of usage patterns in CRM. These logs may be subsequently used as background information for improvements to the product and for enhanced user training. (Default = YES)\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:

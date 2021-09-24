@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Data.NotificationPlatform
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValue for field &apos;DevicePlatform&apos; in table &apos;PushNotificationService&apos;\nThis Enum is used by:  PushNotificationService.DevicePlatform\n"
   syntax:
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.Data.NotificationPlatform.Apple
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Device is by Apple\n"
   syntax:
@@ -79,10 +79,10 @@ items:
   fullName: SuperOffice.Data.NotificationPlatform.Google
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Device is by Google\n"
   syntax:
@@ -107,10 +107,10 @@ items:
   fullName: SuperOffice.Data.NotificationPlatform.Microsoft
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Device is by Microsoft\n"
   syntax:
@@ -135,10 +135,10 @@ items:
   fullName: SuperOffice.Data.NotificationPlatform.AppleDeveloper
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Device is by Apple, used for development and debugging\n"
   syntax:
@@ -163,10 +163,10 @@ items:
   fullName: SuperOffice.Data.NotificationPlatform.AppleAdHoc
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Device is by Apple, used for testing\n"
   syntax:
@@ -191,10 +191,10 @@ items:
   fullName: SuperOffice.Data.NotificationPlatform.GoogleDeveloper
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Device is by Google, used for testing, development and debugging\n"
   syntax:

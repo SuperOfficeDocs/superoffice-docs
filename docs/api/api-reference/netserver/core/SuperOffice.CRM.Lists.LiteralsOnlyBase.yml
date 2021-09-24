@@ -41,6 +41,7 @@ items:
   - System.Object
   derivedClasses:
   - SuperOffice.CRM.ArchiveLists.OperatorProvider
+  - SuperOffice.CRM.ArchiveLists.RecordTypeProvider
   - SuperOffice.CRM.ArchiveLists.SaintActivityTypeProvider
   - SuperOffice.CRM.ArchiveLists.SaintTicketStatusProvider
   - SuperOffice.CRM.Lists.ActivityStatusProvider
@@ -51,6 +52,7 @@ items:
   - SuperOffice.CRM.Lists.AppointmentGroupProvider
   - SuperOffice.CRM.Lists.AppointmentTypeProvider
   - SuperOffice.CRM.Lists.AssociateTypeListProvider
+  - SuperOffice.CRM.Lists.ChatbotProvider
   - SuperOffice.CRM.Lists.ChatChannelProvider
   - SuperOffice.CRM.Lists.ChatUserProvider
   - SuperOffice.CRM.Lists.ColorIndexProvider
@@ -58,6 +60,7 @@ items:
   - SuperOffice.CRM.Lists.CreateDocumentTemplatePluginsProvider
   - SuperOffice.CRM.Lists.CredentialGroupProvider
   - SuperOffice.CRM.Lists.CRMScriptProvider
+  - SuperOffice.CRM.Lists.DashboardEntityList
   - SuperOffice.CRM.Lists.DashboardTileEntityTypeProvider
   - SuperOffice.CRM.Lists.DashboardTileListProvider
   - SuperOffice.CRM.Lists.DayOfMonthProvider
@@ -81,6 +84,7 @@ items:
   - SuperOffice.CRM.Lists.FontTypeProvider
   - SuperOffice.CRM.Lists.FormMailingsProvider
   - SuperOffice.CRM.Lists.FormProvider
+  - SuperOffice.CRM.Lists.FormSubmissionStatusProvider
   - SuperOffice.CRM.Lists.FreetextSearchEntityProvider
   - SuperOffice.CRM.Lists.ImportBlankActionProvider
   - SuperOffice.CRM.Lists.ImportContactDuplicateMatchProvider
@@ -94,6 +98,7 @@ items:
   - SuperOffice.CRM.Lists.ImportPhoneUrlsEmailProvider
   - SuperOffice.CRM.Lists.ImportProductDuplicateMatchProvider
   - SuperOffice.CRM.Lists.ImportProductFieldsProvider
+  - SuperOffice.CRM.Lists.Iso6391LanguageProvider
   - SuperOffice.CRM.Lists.LanguageProvider
   - SuperOffice.CRM.Lists.MailingFavouriteListProvider
   - SuperOffice.CRM.Lists.MailingTypeProvider
@@ -135,6 +140,7 @@ items:
   - SuperOffice.CRM.Lists.SelectionMemberWithMailListProvider
   - SuperOffice.CRM.Lists.SelectionTypeList
   - SuperOffice.CRM.Lists.SelectionUnionTypeList
+  - SuperOffice.CRM.Lists.SentimentScoreProvider
   - SuperOffice.CRM.Lists.SourceListProvider
   - SuperOffice.CRM.Lists.SystemEventTypeProvider
   - SuperOffice.CRM.Lists.TicketFavouriteListProvider

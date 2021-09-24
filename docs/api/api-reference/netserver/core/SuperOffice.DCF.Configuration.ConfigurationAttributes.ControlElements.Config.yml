@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -52,10 +52,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.ConfigAttribute
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:

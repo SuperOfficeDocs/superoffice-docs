@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.SaintCounterType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nSaint counters - what is counted (kind of activity)\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.SaintCounterType.Sale
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Sale = 0
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.Data.SaintCounterType.Activity
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Activity = 1
@@ -102,10 +102,10 @@ items:
   fullName: SuperOffice.Data.SaintCounterType.Ticket
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Ticket = 2

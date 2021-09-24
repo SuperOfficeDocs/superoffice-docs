@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.HugoAI
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public static class HugoAI
@@ -56,10 +56,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.HugoAI.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public const string Section = "HugoAI"
@@ -84,10 +84,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.HugoAI.CSLanguageDetection
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\n(BOOLEAN) HugoAI Language detection is enabled\n"
   syntax:
@@ -113,10 +113,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.HugoAI.CSTranslate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\n(BOOLEAN) HugoAI translation function is enabled\n"
   syntax:
@@ -142,10 +142,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.HugoAI.CSSentiment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\n(BOOLEAN) HugoAI sentiment analysis is enabled\n"
   syntax:
@@ -171,10 +171,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.HugoAI.CSCategorize
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\n(BOOLEAN) HugoAI request Categorization is enabled\n"
   syntax:
@@ -200,10 +200,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.HugoAI.BusinessCardScan
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\n(BOOLEAN) HugoAI Business card scan is enabled in Mobile\n"
   syntax:

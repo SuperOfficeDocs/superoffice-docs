@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Sync
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nConfiguration values related to SuperOffice Sync (i.e. qSoSync).\n"
   syntax:
@@ -53,10 +53,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Sync.SettingsSlidingExpiration
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nSettings related to synchronization are configured using the SoSyncAdmin client, stored in the SuperOffice database and internally in SoSync held in a cache.  This cache has two time-out values.  One of the values are related to the absolute expiry time after the value is inserted in the cache and the second relates to the expiry time since the value was last used.  This configuration value address the latter and refers to time since last used.  300 seconds is default value.\n"
   syntax:
@@ -86,10 +86,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Sync.SettingsAbsoluteExpiration
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nSettings related to synchronization are configured using the SoSyncAdmin client, stored in the SuperOffice database and internally in SoSync held in a cache.  This cache has two time-out values.  One of the values are related to the absolute expiry time after the value is inserted in the cache and the second relates to the expiry time since the value was last used.  This configuration value address the first related to time since read from the database.  900 seconds is default value.\n"
   syntax:

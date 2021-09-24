@@ -573,7 +573,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: "\nTicket.associate id\n"
+  summary: "\nTicket.ownedBy.associate id\n"
   syntax:
     content: public override int AssociateId { get; }
     parameters: []
@@ -607,7 +607,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: "\nreturns Ticket.GroupIdx\n"
+  summary: "\nreturns Ticket.ownedBy.associate.GroupIdx\n"
   syntax:
     content: public override int GroupId { get; }
     parameters: []

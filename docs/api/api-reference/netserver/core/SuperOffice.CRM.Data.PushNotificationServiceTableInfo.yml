@@ -25,6 +25,7 @@ items:
   - SuperOffice.CRM.Data.PushNotificationServiceTableInfo.RegisteredAssociateId_InnerJoin_Associate
   - SuperOffice.CRM.Data.PushNotificationServiceTableInfo.RuntimeDefinition
   - SuperOffice.CRM.Data.PushNotificationServiceTableInfo.Tags
+  - SuperOffice.CRM.Data.PushNotificationServiceTableInfo.TimeZoneId
   - SuperOffice.CRM.Data.PushNotificationServiceTableInfo.TotalNotificationCount
   - SuperOffice.CRM.Data.PushNotificationServiceTableInfo.Updated
   - SuperOffice.CRM.Data.PushNotificationServiceTableInfo.UpdatedAssociateId
@@ -790,6 +791,37 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property OSVersion As StringFieldInfo
   overload: SuperOffice.CRM.Data.PushNotificationServiceTableInfo.OSVersion*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.PushNotificationServiceTableInfo.TimeZoneId
+  commentId: P:SuperOffice.CRM.Data.PushNotificationServiceTableInfo.TimeZoneId
+  id: TimeZoneId
+  parent: SuperOffice.CRM.Data.PushNotificationServiceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneId
+  nameWithType: PushNotificationServiceTableInfo.TimeZoneId
+  fullName: SuperOffice.CRM.Data.PushNotificationServiceTableInfo.TimeZoneId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;TimeZoneId&apos; in table &apos;PushNotificationService&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe timezone to show for dates in messages\n"
+  syntax:
+    content: public Int32FieldInfo TimeZoneId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property TimeZoneId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.PushNotificationServiceTableInfo.TimeZoneId*
   modifiers.csharp:
   - public
   - get
@@ -1865,6 +1897,12 @@ references:
   name: OSVersion
   nameWithType: PushNotificationServiceTableInfo.OSVersion
   fullName: SuperOffice.CRM.Data.PushNotificationServiceTableInfo.OSVersion
+- uid: SuperOffice.CRM.Data.PushNotificationServiceTableInfo.TimeZoneId*
+  commentId: Overload:SuperOffice.CRM.Data.PushNotificationServiceTableInfo.TimeZoneId
+  isExternal: true
+  name: TimeZoneId
+  nameWithType: PushNotificationServiceTableInfo.TimeZoneId
+  fullName: SuperOffice.CRM.Data.PushNotificationServiceTableInfo.TimeZoneId
 - uid: SuperOffice.CRM.Data.PushNotificationServiceTableInfo.AssociateId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.PushNotificationServiceTableInfo.AssociateId_InnerJoin_Associate
   isExternal: true

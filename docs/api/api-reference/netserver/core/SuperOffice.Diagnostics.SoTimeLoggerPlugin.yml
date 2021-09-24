@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimeLoggerPlugin
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nPlugin responsible for logging times to file.\n"
   syntax:
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimeLoggerPlugin.Start(SuperOffice.Diagnostics.SoTimerType, System.String, System.Func<System.String>)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   summary: "\nStart a timing operation.\n"
   syntax:
@@ -118,10 +118,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimeLoggerPlugin.SoTimeLoggerPlugin()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public SoTimeLoggerPlugin()
@@ -143,10 +143,10 @@ items:
   fullName: SuperOffice.Diagnostics.SoTimeLoggerPlugin.Enabled
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public bool Enabled { get; }

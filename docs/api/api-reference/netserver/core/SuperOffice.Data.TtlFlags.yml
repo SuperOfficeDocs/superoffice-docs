@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.TtlFlags
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nFlag bits for extra information in TravelTransactionLog\nThis Enum is used by:  traveltransactionlog.flags\nThis Enum consists of flag values that can be combined.\n"
   syntax:
@@ -58,10 +58,10 @@ items:
   fullName: SuperOffice.Data.TtlFlags.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: No extra information.\n"
   syntax:
@@ -86,10 +86,10 @@ items:
   fullName: SuperOffice.Data.TtlFlags.Imported
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: The data change was caused by an Import operation.\n"
   syntax:
@@ -114,10 +114,10 @@ items:
   fullName: SuperOffice.Data.TtlFlags.MassOperation
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: The data change was done by a Mass Operation.\n"
   syntax:

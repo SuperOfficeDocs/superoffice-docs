@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.ArchiveJoinType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public enum ArchiveJoinType
@@ -47,10 +47,10 @@ items:
   fullName: SuperOffice.Data.ArchiveJoinType.Root
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Root = 0
@@ -74,10 +74,10 @@ items:
   fullName: SuperOffice.Data.ArchiveJoinType.Outer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Outer = 1
@@ -101,10 +101,10 @@ items:
   fullName: SuperOffice.Data.ArchiveJoinType.Inner
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: Inner = 2

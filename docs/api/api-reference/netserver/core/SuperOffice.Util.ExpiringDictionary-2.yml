@@ -33,10 +33,10 @@ items:
   fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nRepresents a collection of keys and values, where each element will expire and be automatically removed according to the properties &quot;SlidingExpiration&quot; and &quot;AbsoluteExpiration&quot;\n"
   remarks: "\nThe ExpiringDictionary generic class provides a mapping from a set of keys to a set of values. Each addition to the ExpiringDictionary consists of a value and its associated key. Retrieving a value by using its key is very fast, close to O(1), because the ExpiringDictionary class is implemented with an internal Dictionary witch is implemented as a hash table.\n<code>Note</code>  \nThe speed of retrieval depends on the quality of the hashing algorithm of the type specified for TKey. \nAs long as an object is used as a key in the ExpiringDictionary, it must not change in any way that affects its hash value. Every key in an ExpiringDictionary must be unique according to the ExpiringDictionary&apos;s equality comparer. A key cannot be a null reference, but a value can be, if the value type TValue is a reference type.\nExpiringDictionary requires an equality implementation to determine whether keys are equal. You can specify an implementation of the IEqualityComparer generic interface by using a constructor that accepts a comparer parameter; if you do not specify an implementation, the default generic equality comparer EqualityComparer.Default is used. If type TKey implements the System.IEquatable generic interface, the default equality comparer uses that implementation.\nThe capacity of an ExpiringDictionary is the number of elements the ExpiringDictionary can hold. In this implementation, the default initial capacity for an ExpiringDictionary is 3; however, that default might change in future versions of the .NET Framework. As elements are added to an ExpiringDictionary, the capacity is automatically increased as required by reallocating the internal array.\n"
@@ -88,10 +88,10 @@ items:
   fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>.ExpiringDictionary()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nInitializes a new instance of the ExpiringDictionary class that is empty, has the default initial capacity, and uses the default equality comparer for the key type. \n"
   remarks: "\nEvery key in an ExpiringDictionary must be unique according to the default equality comparer.\nExpiringDictionary requires an equality implementation to determine whether keys are equal. This constructor uses the default generic equality comparer, EqualityComparer.Default. If type TKey implements the System.IEquatable generic interface, the default equality comparer uses that implementation. Alternatively, you can specify an implementation of the IEqualityComparer generic interface by using a constructor that accepts a comparer parameter.\nThis constructor is an O(1) operation.\n"
@@ -117,10 +117,10 @@ items:
   fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>.ExpiringDictionary(System.TimeSpan)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nInitializes a new instance of the ExpiringDictionary class that is empty, has the default initial capacity, and uses the default equality comparer for the key type, and uses a specific sliding expiration.\n"
   remarks: "\nEvery key in an ExpiringDictionary must be unique according to the default equality comparer.\nExpiringDictionary requires an equality implementation to determine whether keys are equal. This constructor uses the default generic equality comparer, EqualityComparer.Default. If type TKey implements the System.IEquatable generic interface, the default equality comparer uses that implementation. Alternatively, you can specify an implementation of the IEqualityComparer generic interface by using a constructor that accepts a comparer parameter.\nThis constructor is an O(1) operation.\n"
@@ -150,10 +150,10 @@ items:
   fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>.ExpiringDictionary(System.Collections.Generic.IEqualityComparer<TKey>)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nInitializes a new instance of the ExpiringDictionary class that is empty, has the default initial capacity, and uses the specified IEqualityComparer. \n"
   remarks: "\nEvery key in an ExpiringDictionary must be unique according to the specified comparer.\nExpiringDictionary requires an equality implementation to determine whether keys are equal. If comparer is a null reference, this constructor uses the default generic equality comparer, EqualityComparer.Default. If type TKey implements the System.IEquatable generic interface, the default equality comparer uses that implementation.\nThis constructor is an O(1) operation.\n"
@@ -184,10 +184,10 @@ items:
   fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>.ExpiringDictionary(System.Collections.Generic.IEqualityComparer<TKey>, System.TimeSpan)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nInitializes a new instance of the ExpiringDictionary class that is empty, has the default initial capacity, and uses the specified IEqualityComparer, and uses a specific sliding expiration.\n"
   remarks: "\nEvery key in an ExpiringDictionary must be unique according to the specified comparer.\nExpiringDictionary requires an equality implementation to determine whether keys are equal. If comparer is a null reference, this constructor uses the default generic equality comparer, EqualityComparer.Default. If type TKey implements the System.IEquatable generic interface, the default equality comparer uses that implementation.\nThis constructor is an O(1) operation.\n"
@@ -221,10 +221,10 @@ items:
   fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>.ExpiringDictionary(System.Int32)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nInitializes a new instance of the ExpiringDictionary class that is empty, has the specified initial capacity, and uses the default equality comparer for the key type. \n"
   remarks: "\nEvery key in an ExpiringDictionary must be unique according to the default equality comparer.\nThe capacity of an ExpiringDictionary is the number of elements that can be added to the ExpiringDictionary before resizing is necessary. As elements are added to an ExpiringDictionary, the capacity is automatically increased as required by reallocating the internal array.\nIf the size of the collection can be estimated, specifying the initial capacity eliminates the need to perform a number of resizing operations while adding elements to the ExpiringDictionary.\nExpiringDictionary requires an equality implementation to determine whether keys are equal. This constructor uses the default generic equality comparer, EqualityComparer.Default. If type TKey implements the System.IEquatable generic interface, the default equality comparer uses that implementation. Alternatively, you can specify an implementation of the IEqualityComparer generic interface by using a constructor that accepts a comparer parameter.\nThis constructor is an O(1) operation.\n"
@@ -258,10 +258,10 @@ items:
   fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>.ExpiringDictionary(System.Int32, System.TimeSpan)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nInitializes a new instance of the ExpiringDictionary class that is empty, has the specified initial capacity, and uses the default equality comparer for the key type, and uses a specific sliding expiration.\n"
   remarks: "\nEvery key in an ExpiringDictionary must be unique according to the default equality comparer.\nThe capacity of an ExpiringDictionary is the number of elements that can be added to the ExpiringDictionary before resizing is necessary. As elements are added to an ExpiringDictionary, the capacity is automatically increased as required by reallocating the internal array.\nIf the size of the collection can be estimated, specifying the initial capacity eliminates the need to perform a number of resizing operations while adding elements to the ExpiringDictionary.\nExpiringDictionary requires an equality implementation to determine whether keys are equal. This constructor uses the default generic equality comparer, EqualityComparer.Default. If type TKey implements the System.IEquatable generic interface, the default equality comparer uses that implementation. Alternatively, you can specify an implementation of the IEqualityComparer generic interface by using a constructor that accepts a comparer parameter.\nThis constructor is an O(1) operation.\n"
@@ -298,10 +298,10 @@ items:
   fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>.ExpiringDictionary(System.Int32, System.Collections.Generic.IEqualityComparer<TKey>)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nInitializes a new instance of the ExpiringDictionary class that is empty, has the specified initial capacity, and uses the specified IEqualityComparer. \n"
   remarks: "\nEvery key in an ExpiringDictionary must be unique according to the specified comparer.\nThe capacity of an ExpiringDictionary is the number of elements that can be added to the ExpiringDictionary before resizing is necessary. As elements are added to an ExpiringDictionary, the capacity is automatically increased as required by reallocating the internal array.\nIf the size of the collection can be estimated, specifying the initial capacity eliminates the need to perform a number of resizing operations while adding elements to the ExpiringDictionary.\nExpiringDictionary requires an equality implementation to determine whether keys are equal. If comparer is a null reference, this constructor uses the default generic equality comparer, EqualityComparer.Default. If type TKey implements the System.IEquatable generic interface, the default equality comparer uses that implementation.\nThis constructor is an O(1) operation.\n"
@@ -339,10 +339,10 @@ items:
   fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>.ExpiringDictionary(System.Int32, System.Collections.Generic.IEqualityComparer<TKey>, System.TimeSpan)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nInitializes a new instance of the ExpiringDictionary class that is empty, has the specified initial capacity, and uses the specified IEqualityComparer, and uses a specific sliding expiration.\n"
   remarks: "\nEvery key in an ExpiringDictionary must be unique according to the specified comparer.\nThe capacity of an ExpiringDictionary is the number of elements that can be added to the ExpiringDictionary before resizing is necessary. As elements are added to an ExpiringDictionary, the capacity is automatically increased as required by reallocating the internal array.\nIf the size of the collection can be estimated, specifying the initial capacity eliminates the need to perform a number of resizing operations while adding elements to the ExpiringDictionary.\nExpiringDictionary requires an equality implementation to determine whether keys are equal. If comparer is a null reference, this constructor uses the default generic equality comparer, EqualityComparer.Default. If type TKey implements the System.IEquatable generic interface, the default equality comparer uses that implementation.\nThis constructor is an O(1) operation.\n"
@@ -383,10 +383,10 @@ items:
   fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>.Add(TKey, TValue)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdds the specified key and value to the ExpiringDictionary. \n"
   remarks: "\nYou can also use the Item property to add new elements by setting the value of a key that does not exist in the ExpiringDictionary; for example, myExpiringDictionary[myKey] = myValue. However, if the specified key already exists in the ExpiringDictionary, setting the Item property overwrites the old value. In contrast, the Add method throws an exception if a value with the specified key already exists.\nIf the Count property value already equals the capacity, the capacity of the ExpiringDictionary is increased by automatically reallocating the internal array, and the existing elements are copied to the new array before the new element is added.\nA key cannot be a null reference, but a value can be, if TValue is a reference type.\nIf Count is less than the capacity, this method approaches an O(1) operation. If the capacity must be increased to accommodate the new element, this method becomes an O(n) operation, where n is Count.\n"
@@ -426,10 +426,10 @@ items:
   fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>.Clear()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nRemoves all keys and values from the ExpiringDictionary. \n"
   remarks: "\nThe Count property is set to 0, and references to other objects from elements of the collection are also released. The capacity remains unchanged.\nThis method is an O(n) operation, where n is Count.\n"
@@ -455,10 +455,10 @@ items:
   fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>.ContainsKey(TKey)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nDetermines whether the ExpiringDictionary contains the specified key. \n"
   syntax:
@@ -494,10 +494,10 @@ items:
   fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>.Remove(TKey)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nRemoves the value with the specified key from the ExpiringDictionary. \n"
   syntax:
@@ -533,10 +533,10 @@ items:
   fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGets the value associated with the specified key. \n"
   syntax:
@@ -576,10 +576,10 @@ items:
   fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>.Dispose()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public void Dispose()
@@ -605,10 +605,10 @@ items:
   fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>.Finalize()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: protected void Finalize()
@@ -632,10 +632,10 @@ items:
   fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>.Comparer
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGets the IEqualityComparer that is used to determine equality of keys for the ExpiringDictionary. \n"
   remarks: "\nExpiringDictionary requires an equality implementation to determine whether keys are equal. You can specify an implementation of the IEqualityComparer generic interface by using a constructor that accepts a comparer parameter; if you do not specify one, the default generic equality comparer EqualityComparer.Default is used.\nGetting the value of this property is an O(1) operation.\n"
@@ -667,10 +667,10 @@ items:
   fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>.Count
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGets the number of key/value pairs contained in the ExpiringDictionary. \n"
   remarks: "\nCount also includes elements that has expired but is not yet removed by the timer function.\nThe capacity of an ExpiringDictionary is the number of elements that the ExpiringDictionary can store. The Count property is the number of elements that are actually in the ExpiringDictionary.\nThe capacity is always greater than or equal to Count. If Count exceeds the capacity while adding elements, the capacity is increased by automatically reallocating the internal array before copying the old elements and adding the new elements.\nGetting the value of this property is an O(1) operation.\n"
@@ -702,10 +702,10 @@ items:
   fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>.Item[TKey]
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGets or sets the value associated with the specified key. \n"
   syntax:
@@ -747,10 +747,10 @@ items:
   fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>.SlidingExpiration
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nThe interval between the time the element was last accessed and the time at which that element expires.\n"
   remarks: Setting this property to <code>TimeSpan.Zero</code> will prevent the ExpiringDictionary from using sliding expiration.
@@ -782,10 +782,10 @@ items:
   fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>.AbsoluteExpiration
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nThe interval between the time the element was created and the time at which that element expires.\n"
   remarks: Setting this property to <code>TimeSpan.Zero</code> will prevent the ExpiringDictionary from using absolute expiration.

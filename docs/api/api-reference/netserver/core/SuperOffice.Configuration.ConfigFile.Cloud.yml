@@ -24,10 +24,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Cloud
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\n\n"
   syntax:
@@ -62,10 +62,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Cloud.Provider
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe provider to use (office365/google)\n"
   syntax:
@@ -95,10 +95,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Cloud.DispatcherUrl
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe url to the SuperOffice Dispatcher service\n"
   syntax:
@@ -128,10 +128,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Cloud.CloudUrl
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe url to the cloud\n"
   syntax:
@@ -161,10 +161,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Cloud.TenantId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe tenant id\n"
   syntax:
@@ -194,10 +194,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Cloud.TemplatePath
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe path/uri to the templates\n"
   syntax:
@@ -227,10 +227,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Cloud.ArchivePath
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe path/uri to the archive\n"
   syntax:
@@ -260,10 +260,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Cloud.DefaultCallbackUrl
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe default callback url\n"
   syntax:
@@ -293,10 +293,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Cloud.DocumentContentType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe content type to be used when creating new documents\n"
   syntax:
@@ -326,10 +326,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Cloud.SpreadSheetContentType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe content type to be used when creating new spreadsheets\n"
   syntax:
@@ -359,10 +359,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Cloud.PresentationContentType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe content type to be used when creating new presentations\n"
   syntax:
@@ -392,10 +392,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Cloud.UseInheritedPermissions
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nIf true, do not set own permissions in document-plugin.\n"
   syntax:

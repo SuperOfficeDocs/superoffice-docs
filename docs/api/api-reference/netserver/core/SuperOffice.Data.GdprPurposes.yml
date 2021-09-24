@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.GdprPurposes
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public static class GdprPurposes
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.Data.GdprPurposes.Store
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string Store = "STORE"
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.Data.GdprPurposes.EMarketing
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string EMarketing = "EMARKETING"
@@ -110,10 +110,10 @@ items:
   fullName: SuperOffice.Data.GdprPurposes.IsBuiltin(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public static bool IsBuiltin(string purpose)
@@ -142,10 +142,10 @@ items:
   fullName: SuperOffice.Data.GdprPurposes.All
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public static string[] All { get; }

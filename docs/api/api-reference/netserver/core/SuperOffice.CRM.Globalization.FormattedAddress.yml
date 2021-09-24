@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.FormattedAddress
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\nStructure holding formatted address information\n"
   syntax:
@@ -96,10 +96,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.FormattedAddress.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\nGet the complete address as a string.\n"
   syntax:
@@ -128,10 +128,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.FormattedAddress.FormattedAddress()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   syntax:
     content: protected FormattedAddress()
@@ -153,10 +153,10 @@ items:
   fullName: SuperOffice.CRM.Globalization.FormattedAddress.Item[System.Int32]
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Globalization
   summary: "\nList indexer\n"
   syntax:

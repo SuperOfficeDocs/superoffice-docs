@@ -22,10 +22,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThis class carries information about a group of restrictions\n"
   syntax:
@@ -63,10 +63,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup.ArchiveRestrictionGroup()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object with a blank name and rank 0\n"
   syntax:
@@ -89,10 +89,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup.ArchiveRestrictionGroup(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object with the given name and rank 0\n"
   syntax:
@@ -119,10 +119,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup.ArchiveRestrictionGroup(System.String, System.Int16)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object with the given name and rank\n"
   syntax:
@@ -152,10 +152,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConvert this instance to a string for debug display\n"
   syntax:
@@ -183,10 +183,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup.ToString(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string ToString(string prefix)
@@ -213,10 +213,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup.Name
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nName of the group\n"
   syntax:
@@ -244,10 +244,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup.Description
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nDescription of the group\n"
   syntax:
@@ -275,10 +275,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup.Rank
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nRank of group among groups\n"
   syntax:
@@ -306,10 +306,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup.Restrictions
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveRestrictionInfo[] Restrictions { get; set; }

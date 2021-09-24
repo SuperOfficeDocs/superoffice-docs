@@ -31,10 +31,12 @@ items:
   - SuperOffice.CRM.Rows.TicketRecordData.FormSubmissionId
   - SuperOffice.CRM.Rows.TicketRecordData.FromAddress
   - SuperOffice.CRM.Rows.TicketRecordData.HasAttachment
+  - SuperOffice.CRM.Rows.TicketRecordData.Language
   - SuperOffice.CRM.Rows.TicketRecordData.LastChanged
   - SuperOffice.CRM.Rows.TicketRecordData.NumMessages
   - SuperOffice.CRM.Rows.TicketRecordData.NumReplies
   - SuperOffice.CRM.Rows.TicketRecordData.OrigCategory
+  - SuperOffice.CRM.Rows.TicketRecordData.OrigHumanCategoryId
   - SuperOffice.CRM.Rows.TicketRecordData.Origin
   - SuperOffice.CRM.Rows.TicketRecordData.OrigPriority
   - SuperOffice.CRM.Rows.TicketRecordData.OwnedBy
@@ -48,8 +50,11 @@ items:
   - SuperOffice.CRM.Rows.TicketRecordData.RealTimeToClose
   - SuperOffice.CRM.Rows.TicketRecordData.RealTimeToReply
   - SuperOffice.CRM.Rows.TicketRecordData.RepliedAt
+  - SuperOffice.CRM.Rows.TicketRecordData.Sentiment
+  - SuperOffice.CRM.Rows.TicketRecordData.SentimentConfidence
   - SuperOffice.CRM.Rows.TicketRecordData.Slevel
   - SuperOffice.CRM.Rows.TicketRecordData.Status
+  - SuperOffice.CRM.Rows.TicketRecordData.SuggestedCategoryId
   - SuperOffice.CRM.Rows.TicketRecordData.Tags
   - SuperOffice.CRM.Rows.TicketRecordData.TicketId
   - SuperOffice.CRM.Rows.TicketRecordData.TicketStatus
@@ -1559,6 +1564,87 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.Language
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.Language
+  id: Language
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: TicketRecordData.Language
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.Language
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe language of the first external message \n"
+  syntax:
+    content: public string Language
+    return:
+      type: System.String
+    content.vb: Public Language As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.Sentiment
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.Sentiment
+  id: Sentiment
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: Sentiment
+  nameWithType: TicketRecordData.Sentiment
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.Sentiment
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe sentiment index of the last external message \n"
+  syntax:
+    content: public int Sentiment
+    return:
+      type: System.Int32
+    content.vb: Public Sentiment As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.SentimentConfidence
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.SentimentConfidence
+  id: SentimentConfidence
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: SentimentConfidence
+  nameWithType: TicketRecordData.SentimentConfidence
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.SentimentConfidence
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe sentiment confidence of the last external message \n"
+  syntax:
+    content: public int SentimentConfidence
+    return:
+      type: System.Int32
+    content.vb: Public SentimentConfidence As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.FormSubmissionId
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.FormSubmissionId
   id: FormSubmissionId
@@ -1582,6 +1668,60 @@ items:
     return:
       type: System.Int32
     content.vb: Public FormSubmissionId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.SuggestedCategoryId
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.SuggestedCategoryId
+  id: SuggestedCategoryId
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: SuggestedCategoryId
+  nameWithType: TicketRecordData.SuggestedCategoryId
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.SuggestedCategoryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSuggestion for categorization, based on the text of the message (AI) \n"
+  syntax:
+    content: public int SuggestedCategoryId
+    return:
+      type: System.Int32
+    content.vb: Public SuggestedCategoryId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.OrigHumanCategoryId
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.OrigHumanCategoryId
+  id: OrigHumanCategoryId
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: OrigHumanCategoryId
+  nameWithType: TicketRecordData.OrigHumanCategoryId
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.OrigHumanCategoryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWill contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category \n"
+  syntax:
+    content: public int OrigHumanCategoryId
+    return:
+      type: System.Int32
+    content.vb: Public OrigHumanCategoryId As Integer
   modifiers.csharp:
   - public
   modifiers.vb:

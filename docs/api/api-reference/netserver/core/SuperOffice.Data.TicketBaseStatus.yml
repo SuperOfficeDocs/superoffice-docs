@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Data.TicketBaseStatus
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nStatus of a ticket/request\nThis Enum is used by:  ticket.status; ticket_status.status\n"
   syntax:
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.Data.TicketBaseStatus.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown / uninitialized\n"
   syntax:
@@ -79,10 +79,10 @@ items:
   fullName: SuperOffice.Data.TicketBaseStatus.Active
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Request is currently active\n"
   syntax:
@@ -107,10 +107,10 @@ items:
   fullName: SuperOffice.Data.TicketBaseStatus.Closed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Request has been closed\n"
   syntax:
@@ -135,10 +135,10 @@ items:
   fullName: SuperOffice.Data.TicketBaseStatus.Postponed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Request has been postponed\n"
   syntax:
@@ -163,10 +163,10 @@ items:
   fullName: SuperOffice.Data.TicketBaseStatus.Deleted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Request has been deleted\n"
   syntax:
@@ -191,10 +191,10 @@ items:
   fullName: SuperOffice.Data.TicketBaseStatus.Merged
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Request has been merged with another request\n"
   syntax:

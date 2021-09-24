@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.CRM.Lists.MenuListItem
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nMenuListItem is inherited from <xref href=\"SuperOffice.CRM.Lists.SoListItem\" data-throw-if-not-resolved=\"false\"></xref>. In addition to the standard list items\nthe class have properties specific to displaying menuitems in the main menu and the context menus.\n"
   syntax:
@@ -79,10 +79,10 @@ items:
   fullName: SuperOffice.CRM.Lists.MenuListItem.MenuListItem(System.Int32, System.String, System.String, System.String, System.Int32, System.String, System.String, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\nDefault constructor\n"
   syntax:
@@ -129,10 +129,10 @@ items:
   fullName: SuperOffice.CRM.Lists.MenuListItem.Url
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n\n"
   syntax:
@@ -162,10 +162,10 @@ items:
   fullName: SuperOffice.CRM.Lists.MenuListItem.CrudFlags
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n\n"
   syntax:
@@ -195,10 +195,10 @@ items:
   fullName: SuperOffice.CRM.Lists.MenuListItem.SubItems
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   summary: "\n\n"
   syntax:

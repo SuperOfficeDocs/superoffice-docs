@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Downloads
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nConfiguration values related to Downloads.\n"
   syntax:
@@ -57,10 +57,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Downloads.WebSiteEndPoint
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nPublic address of the web server, including protocol and port. Empty value will calculate a default value. Ex: https://online.superoffice.com:443\n"
   syntax:
@@ -90,10 +90,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Downloads.NewTrayAppUrl
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nPublic address of the url for showing download-page of new TrayApp. Empty value will calculate a default value. Ex: https://online.superoffice.com/cust5566/ErrorPages/NewTrayApp.aspx\n"
   syntax:
@@ -123,10 +123,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Downloads.DownloadFolder
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nFolder of files to be downloaded to the client\n"
   syntax:
@@ -156,10 +156,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Downloads.WebToolVersion
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe version number to use for upgrade check.\n"
   syntax:
@@ -189,10 +189,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Downloads.DownloadFolderImpersonate
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nImpersonate as the document archive user when accessing the Download folder\n"
   syntax:
@@ -222,10 +222,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Downloads.ReportingInterval
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe interval (in seconds) which the web-installation will require activity udpates from WebTools-clients in order for the clients to be considered active.\n"
   syntax:

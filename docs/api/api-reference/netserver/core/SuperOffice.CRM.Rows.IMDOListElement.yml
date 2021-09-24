@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.CRM.Rows.IMDOListElement
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Rows
   summary: "\nInterface for the MDO-list elements, implemented by Row objects that\nrepresent tables that are MDO lists. Not used by the MDO Provider system.\n"
   syntax:
@@ -46,10 +46,10 @@ items:
   fullName: SuperOffice.CRM.Rows.IMDOListElement.ElementType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Rows
   summary: "\nWhat kind of element are we dealing with?\n<xref href=\"SuperOffice.CRM.Rows.MDOListElementType\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.CRM.Rows.IMDOListElement.Key
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Rows
   summary: "\nThe current objects primary key.\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.CRM.Rows.IMDOListElement.Value
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Rows
   summary: "\nThe current objects value.\n"
   syntax:

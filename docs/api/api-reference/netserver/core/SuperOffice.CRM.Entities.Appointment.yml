@@ -79,6 +79,7 @@ items:
   - SuperOffice.CRM.Entities.Appointment.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
   - SuperOffice.CRM.Entities.Appointment.OnRowLoaded
   - SuperOffice.CRM.Entities.Appointment.op_Explicit(SuperOffice.CRM.Rows.AppointmentRow)~SuperOffice.CRM.Entities.Appointment
+  - SuperOffice.CRM.Entities.Appointment.OriginalStartDate
   - SuperOffice.CRM.Entities.Appointment.Person
   - SuperOffice.CRM.Entities.Appointment.PreferredTZLocation
   - SuperOffice.CRM.Entities.Appointment.Priority
@@ -2870,6 +2871,36 @@ items:
       type: System.String
     content.vb: Public Property JoinVideoMeetUrl As String
   overload: SuperOffice.CRM.Entities.Appointment.JoinVideoMeetUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Appointment.OriginalStartDate
+  commentId: P:SuperOffice.CRM.Entities.Appointment.OriginalStartDate
+  id: OriginalStartDate
+  parent: SuperOffice.CRM.Entities.Appointment
+  langs:
+  - csharp
+  - vb
+  name: OriginalStartDate
+  nameWithType: Appointment.OriginalStartDate
+  fullName: SuperOffice.CRM.Entities.Appointment.OriginalStartDate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public DateTime OriginalStartDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property OriginalStartDate As Date
+  overload: SuperOffice.CRM.Entities.Appointment.OriginalStartDate*
   modifiers.csharp:
   - public
   - get
@@ -6178,6 +6209,12 @@ references:
   name: JoinVideoMeetUrl
   nameWithType: Appointment.JoinVideoMeetUrl
   fullName: SuperOffice.CRM.Entities.Appointment.JoinVideoMeetUrl
+- uid: SuperOffice.CRM.Entities.Appointment.OriginalStartDate*
+  commentId: Overload:SuperOffice.CRM.Entities.Appointment.OriginalStartDate
+  isExternal: true
+  name: OriginalStartDate
+  nameWithType: Appointment.OriginalStartDate
+  fullName: SuperOffice.CRM.Entities.Appointment.OriginalStartDate
 - uid: SuperOffice.CRM.Entities.Appointment.BookingMaster*
   commentId: Overload:SuperOffice.CRM.Entities.Appointment.BookingMaster
   isExternal: true

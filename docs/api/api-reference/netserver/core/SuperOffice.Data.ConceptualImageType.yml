@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Data.ConceptualImageType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nConceptual image types\n"
   syntax:
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.Data.ConceptualImageType.UndefinedImage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: \n"
   syntax:
@@ -79,10 +79,10 @@ items:
   fullName: SuperOffice.Data.ConceptualImageType.PersonImage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Image used with persons\n"
   syntax:
@@ -107,10 +107,10 @@ items:
   fullName: SuperOffice.Data.ConceptualImageType.ProjectImage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Image used in projects\n"
   syntax:
@@ -135,10 +135,10 @@ items:
   fullName: SuperOffice.Data.ConceptualImageType.EventImage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Image used in ?\n"
   syntax:
@@ -163,10 +163,10 @@ items:
   fullName: SuperOffice.Data.ConceptualImageType.Thumbnail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Image used as thumbnails\n"
   syntax:
@@ -191,10 +191,10 @@ items:
   fullName: SuperOffice.Data.ConceptualImageType.StatusMonitorImage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Image used in status monitors\n"
   syntax:

@@ -24,10 +24,10 @@ items:
   fullName: SuperOffice.Data.GdprSources
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public static class GdprSources
@@ -61,10 +61,10 @@ items:
   fullName: SuperOffice.Data.GdprSources.User
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string User = "USER"
@@ -89,10 +89,10 @@ items:
   fullName: SuperOffice.Data.GdprSources.Email
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string Email = "EMAIL"
@@ -117,10 +117,10 @@ items:
   fullName: SuperOffice.Data.GdprSources.Request
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string Request = "REQUEST"
@@ -145,10 +145,10 @@ items:
   fullName: SuperOffice.Data.GdprSources.Chat
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string Chat = "CHAT"
@@ -173,10 +173,10 @@ items:
   fullName: SuperOffice.Data.GdprSources.Webform
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string Webform = "WEBFORM"
@@ -201,10 +201,10 @@ items:
   fullName: SuperOffice.Data.GdprSources.CustomerPortal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string CustomerPortal = "CUSTOMERPORTAL"
@@ -229,10 +229,10 @@ items:
   fullName: SuperOffice.Data.GdprSources.Import
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string Import = "IMPORT"
@@ -257,10 +257,10 @@ items:
   fullName: SuperOffice.Data.GdprSources.Api
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string Api = "API"
@@ -285,10 +285,10 @@ items:
   fullName: SuperOffice.Data.GdprSources.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string Unknown = "UNKNOWN"
@@ -313,10 +313,10 @@ items:
   fullName: SuperOffice.Data.GdprSources.IsBuiltin(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public static bool IsBuiltin(string source)
@@ -345,10 +345,10 @@ items:
   fullName: SuperOffice.Data.GdprSources.All
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public static string[] All { get; }

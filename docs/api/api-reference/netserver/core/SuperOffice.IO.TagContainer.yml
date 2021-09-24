@@ -27,10 +27,10 @@ items:
   fullName: SuperOffice.IO.TagContainer
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nBase class for classes exposing template tags.\n"
   syntax:
@@ -78,10 +78,10 @@ items:
   fullName: SuperOffice.IO.TagContainer._bInitiated
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nState about the object has been initiated.  \nData (e.g. <xref href=\"SuperOffice.IO.TagContainer.AddData(System.Object%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref>) can only be added before initiation.\nCall base.Init() to set this value to true.\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.IO.TagContainer.TagContainer()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\n\n"
   syntax:
@@ -131,10 +131,10 @@ items:
   fullName: SuperOffice.IO.TagContainer.AddData(System.Object[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nAdd data to be used when retrieving template variables. Use when you have\n(possibly unsaved) Entity objects that you wish to pass in.\n"
   syntax:
@@ -173,10 +173,10 @@ items:
   fullName: SuperOffice.IO.TagContainer.GetData()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nGet cached data objects\n"
   syntax:
@@ -204,10 +204,10 @@ items:
   fullName: SuperOffice.IO.TagContainer.ClearData()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nClear cached data\n"
   syntax:
@@ -230,10 +230,10 @@ items:
   fullName: SuperOffice.IO.TagContainer.GetValue(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nGet a value for a tag.\n"
   syntax:
@@ -265,10 +265,10 @@ items:
   fullName: SuperOffice.IO.TagContainer.SetValue(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nAdd a custom tag/value pair\n"
   syntax:
@@ -298,10 +298,10 @@ items:
   fullName: SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nRemove an existing custom tag\n"
   syntax:
@@ -327,10 +327,10 @@ items:
   fullName: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nIs this a legal tag?\n"
   syntax:
@@ -362,10 +362,10 @@ items:
   fullName: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nIs this a valid tag in the given context.  If there are no current sale, \nthere are no valid tags for sale.\n"
   syntax:
@@ -397,10 +397,10 @@ items:
   fullName: SuperOffice.IO.TagContainer.Init()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nSet the object in an initaited state.  This means that no data can be added \n(e.g. <xref href=\"SuperOffice.IO.TagContainer.AddData(System.Object%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref>) beyound this point.\n"
   syntax:
@@ -425,10 +425,10 @@ items:
   fullName: SuperOffice.IO.TagContainer.CurrentUiCulture
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nCurrent UI culture, this is currently the language code used in template processing\n"
   syntax:
@@ -456,10 +456,10 @@ items:
   fullName: SuperOffice.IO.TagContainer.Id
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nPrimary key of the \n"
   syntax:
@@ -489,10 +489,10 @@ items:
   fullName: SuperOffice.IO.TagContainer.Data
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nRetrieve data that can be used when \n"
   syntax:

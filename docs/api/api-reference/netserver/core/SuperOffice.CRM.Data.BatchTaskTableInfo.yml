@@ -15,6 +15,7 @@ items:
   - SuperOffice.CRM.Data.BatchTaskTableInfo.DetailsTable
   - SuperOffice.CRM.Data.BatchTaskTableInfo.DictionaryTableName
   - SuperOffice.CRM.Data.BatchTaskTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.BatchTaskTableInfo.FileName
   - SuperOffice.CRM.Data.BatchTaskTableInfo.IdxBatchTaskDefinitionId(System.Int32)
   - SuperOffice.CRM.Data.BatchTaskTableInfo.LastStarted
   - SuperOffice.CRM.Data.BatchTaskTableInfo.ProgressDescription
@@ -822,6 +823,37 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.BatchTaskTableInfo.UpdatedCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.BatchTaskTableInfo.FileName
+  commentId: P:SuperOffice.CRM.Data.BatchTaskTableInfo.FileName
+  id: FileName
+  parent: SuperOffice.CRM.Data.BatchTaskTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: BatchTaskTableInfo.FileName
+  fullName: SuperOffice.CRM.Data.BatchTaskTableInfo.FileName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;FileName&apos; in table &apos;BatchTask&apos;: Dictionary type String[261], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe filename related to the batchtask.\n"
+  syntax:
+    content: public StringFieldInfo FileName { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property FileName As StringFieldInfo
+  overload: SuperOffice.CRM.Data.BatchTaskTableInfo.FileName*
   modifiers.csharp:
   - public
   - get
@@ -1903,6 +1935,12 @@ references:
   name: UpdatedCount
   nameWithType: BatchTaskTableInfo.UpdatedCount
   fullName: SuperOffice.CRM.Data.BatchTaskTableInfo.UpdatedCount
+- uid: SuperOffice.CRM.Data.BatchTaskTableInfo.FileName*
+  commentId: Overload:SuperOffice.CRM.Data.BatchTaskTableInfo.FileName
+  isExternal: true
+  name: FileName
+  nameWithType: BatchTaskTableInfo.FileName
+  fullName: SuperOffice.CRM.Data.BatchTaskTableInfo.FileName
 - uid: SuperOffice.CRM.Data.BatchTaskTableInfo.BatchTaskDefinitionId_InnerJoin_BatchTaskDefinition*
   commentId: Overload:SuperOffice.CRM.Data.BatchTaskTableInfo.BatchTaskDefinitionId_InnerJoin_BatchTaskDefinition
   isExternal: true

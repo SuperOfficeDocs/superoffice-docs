@@ -27,10 +27,10 @@ items:
   fullName: SuperOffice.Data.GeneratorEncoding
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n\n"
   syntax:
@@ -59,10 +59,10 @@ items:
   fullName: SuperOffice.Data.GeneratorEncoding.Text
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Plain text document.\n"
   syntax:
@@ -87,10 +87,10 @@ items:
   fullName: SuperOffice.Data.GeneratorEncoding.Html
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Html encoded document, it is not strictly parsed.\n"
   syntax:
@@ -115,10 +115,10 @@ items:
   fullName: SuperOffice.Data.GeneratorEncoding.Xml
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: XML Document, it is not strictly parsed\n"
   syntax:
@@ -143,10 +143,10 @@ items:
   fullName: SuperOffice.Data.GeneratorEncoding.MsWord
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Microsoft word document.\n"
   syntax:
@@ -171,10 +171,10 @@ items:
   fullName: SuperOffice.Data.GeneratorEncoding.MsExcel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Microsoft Excel document.\n"
   syntax:
@@ -199,10 +199,10 @@ items:
   fullName: SuperOffice.Data.GeneratorEncoding.MsPowerpoint
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Microsoft Powerpoint document\n"
   syntax:
@@ -227,10 +227,10 @@ items:
   fullName: SuperOffice.Data.GeneratorEncoding.MsOffice2007
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: Microsoft office documents zipped (Office 2007)\n"
   syntax:
@@ -255,10 +255,10 @@ items:
   fullName: SuperOffice.Data.GeneratorEncoding.MsOffice2007Xml
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: Microsoft office xml documents (content of zipped x files)\n"
   syntax:
@@ -283,10 +283,10 @@ items:
   fullName: SuperOffice.Data.GeneratorEncoding.Url
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: The tags result are url-encoded (ansi), the source itself is treated as plain text.\n"
   syntax:
@@ -311,10 +311,10 @@ items:
   fullName: SuperOffice.Data.GeneratorEncoding.UrlUnicode
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n9: The tags result are url-encoded (unicode), the source itself is treated as plain text.\n"
   syntax:
@@ -339,10 +339,10 @@ items:
   fullName: SuperOffice.Data.GeneratorEncoding.Pdf
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n10: Adobe pdf format\n"
   syntax:
@@ -367,10 +367,10 @@ items:
   fullName: SuperOffice.Data.GeneratorEncoding.Mime
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n11: RFC822 Mime-content. Handles the actual mime part, but leaves a normal Text-generator to handle the actual content embedded within the MIME-layers.\n"
   syntax:
@@ -395,10 +395,10 @@ items:
   fullName: SuperOffice.Data.GeneratorEncoding.OpenDocument
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n12: OpenOffice/LibreOffice documents (zipped)\n"
   syntax:
@@ -423,10 +423,10 @@ items:
   fullName: SuperOffice.Data.GeneratorEncoding.OpenDocumentXml
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n13: OpenOffice/LibreOffice documents (contents of zipped files)\n"
   syntax:

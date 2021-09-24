@@ -45,6 +45,7 @@ items:
   - SuperOffice.Util.iCalendarUtility.GetSummaryAndDescription(System.Int32,System.String)
   - SuperOffice.Util.iCalendarUtility.GetSummaryAndDescription(System.String,System.String)
   - SuperOffice.Util.iCalendarUtility.GetWeekdays(System.Collections.Generic.List{Ical.Net.DataTypes.WeekDay})
+  - SuperOffice.Util.iCalendarUtility.GetWindowsTimeZoneName(System.Nullable{System.DateTime})
   - SuperOffice.Util.iCalendarUtility.SerializeToString(Ical.Net.Calendar)
   - SuperOffice.Util.iCalendarUtility.SetAllDateTimesFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
   - SuperOffice.Util.iCalendarUtility.SetCreatedFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
@@ -433,6 +434,43 @@ items:
   - Shared
   fullName.vb: SuperOffice.Util.iCalendarUtility.CreateCalendar(System.String, System.Nullable(Of System.DateTime))
   name.vb: CreateCalendar(String, Nullable(Of DateTime))
+- uid: SuperOffice.Util.iCalendarUtility.GetWindowsTimeZoneName(System.Nullable{System.DateTime})
+  commentId: M:SuperOffice.Util.iCalendarUtility.GetWindowsTimeZoneName(System.Nullable{System.DateTime})
+  id: GetWindowsTimeZoneName(System.Nullable{System.DateTime})
+  parent: SuperOffice.Util.iCalendarUtility
+  langs:
+  - csharp
+  - vb
+  name: GetWindowsTimeZoneName(Nullable<DateTime>)
+  nameWithType: iCalendarUtility.GetWindowsTimeZoneName(Nullable<DateTime>)
+  fullName: SuperOffice.Util.iCalendarUtility.GetWindowsTimeZoneName(System.Nullable<System.DateTime>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nAttempts to map database-tz country-code for current principal to windows-timezone name.\n"
+  syntax:
+    content: public static string GetWindowsTimeZoneName(DateTime? start = default(DateTime? ))
+    parameters:
+    - id: start
+      type: System.Nullable{System.DateTime}
+    return:
+      type: System.String
+      description: Empty string if no match is found, otherwise returns the Windows-id of the timezone.
+    content.vb: Public Shared Function GetWindowsTimeZoneName(start As Date? = Nothing) As String
+  overload: SuperOffice.Util.iCalendarUtility.GetWindowsTimeZoneName*
+  nameWithType.vb: iCalendarUtility.GetWindowsTimeZoneName(Nullable(Of DateTime))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.iCalendarUtility.GetWindowsTimeZoneName(System.Nullable(Of System.DateTime))
+  name.vb: GetWindowsTimeZoneName(Nullable(Of DateTime))
 - uid: SuperOffice.Util.iCalendarUtility.CreateCalendarEvent(SuperOffice.CRM.Rows.AppointmentRow,System.String,SuperOffice.CRM.Rows.AppointmentRow[])
   commentId: M:SuperOffice.Util.iCalendarUtility.CreateCalendarEvent(SuperOffice.CRM.Rows.AppointmentRow,System.String,SuperOffice.CRM.Rows.AppointmentRow[])
   id: CreateCalendarEvent(SuperOffice.CRM.Rows.AppointmentRow,System.String,SuperOffice.CRM.Rows.AppointmentRow[])
@@ -2491,6 +2529,12 @@ references:
   name: CreateCalendar
   nameWithType: iCalendarUtility.CreateCalendar
   fullName: SuperOffice.Util.iCalendarUtility.CreateCalendar
+- uid: SuperOffice.Util.iCalendarUtility.GetWindowsTimeZoneName*
+  commentId: Overload:SuperOffice.Util.iCalendarUtility.GetWindowsTimeZoneName
+  isExternal: true
+  name: GetWindowsTimeZoneName
+  nameWithType: iCalendarUtility.GetWindowsTimeZoneName
+  fullName: SuperOffice.Util.iCalendarUtility.GetWindowsTimeZoneName
 - uid: SuperOffice.Util.iCalendarUtility.CreateCalendarEvent*
   commentId: Overload:SuperOffice.Util.iCalendarUtility.CreateCalendarEvent
   isExternal: true

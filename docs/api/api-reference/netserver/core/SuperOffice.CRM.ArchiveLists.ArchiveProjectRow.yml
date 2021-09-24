@@ -26,10 +26,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveProjectRow
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: 'public class ArchiveProjectRow : ArchiveRow, IDataRecord, IEquatable<ArchiveRow>'
@@ -139,10 +139,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveProjectRow.ColumnName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnName = "name"
@@ -167,10 +167,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveProjectRow.ColumnNumber
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnNumber = "number"
@@ -195,10 +195,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveProjectRow.ColumnType
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnType = "type"
@@ -223,10 +223,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveProjectRow.ColumnStatus
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnStatus = "status"
@@ -251,10 +251,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveProjectRow.ColumnAssociate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnAssociate = "associateId"
@@ -279,10 +279,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveProjectRow.ColumnText
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public const string ColumnText = "text"
@@ -307,10 +307,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveProjectRow.ArchiveProjectRow()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveProjectRow()
@@ -332,10 +332,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveProjectRow.Name
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string Name { get; }
@@ -362,10 +362,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveProjectRow.Number
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string Number { get; }
@@ -392,10 +392,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveProjectRow.Type
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string Type { get; }
@@ -422,10 +422,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveProjectRow.Status
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string Status { get; }
@@ -452,10 +452,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveProjectRow.Associate
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public string Associate { get; }
@@ -482,10 +482,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveProjectRow.Text
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nProject descriptive text\n"
   syntax:

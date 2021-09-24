@@ -31,10 +31,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -69,10 +69,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.FragmentMark
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\nThe attribute used to mark that an element was originally a fragment. Only present after successful resolution of a reference, and only if the LeaveFragmentMarks property is true.\n"
   syntax:
@@ -98,10 +98,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.LoadedBy
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\nThe attribute used to mark that an element was originally loaded by a certain provider. The content string is the same as the Name property of the provider that loaded the fragment.\n"
   syntax:
@@ -127,10 +127,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Reference
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\nThe attribute used to mark that an element should be resolved. Not present after a successful resolution.\n"
   syntax:
@@ -156,10 +156,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ReferenceWithIdUpdate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\nThe attribute used to mark that an element should be resolved, AND that unique ID&apos;s should be generated on all inner elements.\nNot present after a successful resolution.\n"
   syntax:
@@ -185,10 +185,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Id
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\nThe attribute used to mark the identity of an element.\n"
   syntax:
@@ -214,10 +214,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Conditional
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\nThe attribute used to mark a conditional GUI element\n"
   syntax:
@@ -243,10 +243,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ConditionalBinding
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\nThe attribute used to mark the data binding type of a conditional GUI element\n"
   syntax:
@@ -272,10 +272,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ConditionalBindingCurrent
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\nThe attribute value used to mark a conditional GUI element as bound to CURRENT values\n"
   syntax:
@@ -301,10 +301,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ConditionalBindingData
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\nThe attribute value used to mark a conditional GUI element as bound to DATA values\n"
   syntax:
@@ -330,10 +330,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Soprotocol
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -359,10 +359,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Caption
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -388,10 +388,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Tooltip
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -417,10 +417,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Encoding
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -446,10 +446,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Browsermode
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -475,10 +475,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Url
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -504,10 +504,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Normal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -533,10 +533,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Type
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\n\n"
   syntax:
@@ -562,10 +562,10 @@ items:
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ConditionalValue
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.DCF.Configuration
   summary: "\nThe attribute used to declare the required value of a conditional GUI element\n"
   syntax:

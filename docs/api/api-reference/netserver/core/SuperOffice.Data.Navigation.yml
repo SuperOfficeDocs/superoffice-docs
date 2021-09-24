@@ -13,6 +13,7 @@ items:
   - SuperOffice.Data.Navigation.AppointmentSelectionMailingsTask
   - SuperOffice.Data.Navigation.BrowserPanel
   - SuperOffice.Data.Navigation.ButtonPanelTask
+  - SuperOffice.Data.Navigation.CompanyCardTask
   - SuperOffice.Data.Navigation.CompanyMinicard
   - SuperOffice.Data.Navigation.ContactArchive
   - SuperOffice.Data.Navigation.ContactCard
@@ -39,6 +40,7 @@ items:
   - SuperOffice.Data.Navigation.PersonMinicard
   - SuperOffice.Data.Navigation.ProjectArchive
   - SuperOffice.Data.Navigation.ProjectCard
+  - SuperOffice.Data.Navigation.ProjectCardTask
   - SuperOffice.Data.Navigation.ProjectMinicard
   - SuperOffice.Data.Navigation.ProjectSelectionMailingsTask
   - SuperOffice.Data.Navigation.ProjSelectionCustomTask
@@ -82,10 +84,10 @@ items:
   fullName: SuperOffice.Data.Navigation
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValue for the navigation field in table externalapplication\nThis Enum is used by:  ExtApp.navigation\n"
   syntax:
@@ -114,10 +116,10 @@ items:
   fullName: SuperOffice.Data.Navigation.Invisible
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: This application has no explicit navigation in GUI\n"
   syntax:
@@ -142,10 +144,10 @@ items:
   fullName: SuperOffice.Data.Navigation.ToolboxMenu
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: This application appears in the list of the Toolbox icon in the CRM5 Navigator sidebar\n"
   syntax:
@@ -170,10 +172,10 @@ items:
   fullName: SuperOffice.Data.Navigation.NavigatorButton
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: This application has its own navigator button (remember to set icon resource)\n"
   syntax:
@@ -198,10 +200,10 @@ items:
   fullName: SuperOffice.Data.Navigation.ViewMenu
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: This application appears in the View pulldown menu\n"
   syntax:
@@ -226,10 +228,10 @@ items:
   fullName: SuperOffice.Data.Navigation.SelectionTaskCard
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: (not yet implemented) This application appears as a Task in the Selection Task card\n"
   syntax:
@@ -254,10 +256,10 @@ items:
   fullName: SuperOffice.Data.Navigation.ContactCard
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: This application (type IntegratedHTML or IntegratedURL) appears as a tab on the Contact card\n"
   syntax:
@@ -282,10 +284,10 @@ items:
   fullName: SuperOffice.Data.Navigation.ContactArchive
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: This application (type IntegratedHTML or IntegratedURL)  appears as a tab on the Contact Archive\n"
   syntax:
@@ -310,10 +312,10 @@ items:
   fullName: SuperOffice.Data.Navigation.ProjectCard
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: This application (type IntegratedHTML or IntegratedURL)  appears as a tab on the Project card\n"
   syntax:
@@ -338,10 +340,10 @@ items:
   fullName: SuperOffice.Data.Navigation.ProjectArchive
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: This application (type IntegratedHTML or IntegratedURL)  appears as a tab on the Project Archive\n"
   syntax:
@@ -366,10 +368,10 @@ items:
   fullName: SuperOffice.Data.Navigation.SaleCard
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n9: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Sale dialog\n"
   syntax:
@@ -394,10 +396,10 @@ items:
   fullName: SuperOffice.Data.Navigation.PersonCard
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n10: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Person Card\n"
   syntax:
@@ -422,10 +424,10 @@ items:
   fullName: SuperOffice.Data.Navigation.ActivityDialog
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n11: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Appointment dialog\n"
   syntax:
@@ -450,10 +452,10 @@ items:
   fullName: SuperOffice.Data.Navigation.DocumentDialog
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n12: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Document dialog\n"
   syntax:
@@ -478,10 +480,10 @@ items:
   fullName: SuperOffice.Data.Navigation.BrowserPanel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n13: In the Browser panel\n"
   syntax:
@@ -506,10 +508,10 @@ items:
   fullName: SuperOffice.Data.Navigation.ContSelectionTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n14: Task button visible on the Contact Selection task panel\n"
   syntax:
@@ -534,10 +536,10 @@ items:
   fullName: SuperOffice.Data.Navigation.AppntSelectionTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n15: Task button visible on the Appointment Selection task panel\n"
   syntax:
@@ -562,10 +564,10 @@ items:
   fullName: SuperOffice.Data.Navigation.SaleSelectionTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16: Task button visible on the Sale Selection task panel\n"
   syntax:
@@ -590,10 +592,10 @@ items:
   fullName: SuperOffice.Data.Navigation.DocSelectionTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n17: Task button visible on the Document Selection task panel\n"
   syntax:
@@ -618,10 +620,10 @@ items:
   fullName: SuperOffice.Data.Navigation.ProjSelectionTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n18: Task button visible on the Project Selection task panel\n"
   syntax:
@@ -646,10 +648,10 @@ items:
   fullName: SuperOffice.Data.Navigation.CompanyMinicard
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n19: In company minicard\n"
   syntax:
@@ -674,10 +676,10 @@ items:
   fullName: SuperOffice.Data.Navigation.ProjectMinicard
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n20: In project minicard\n"
   syntax:
@@ -702,10 +704,10 @@ items:
   fullName: SuperOffice.Data.Navigation.DiaryMinicard
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n21: In diary minicard\n"
   syntax:
@@ -730,10 +732,10 @@ items:
   fullName: SuperOffice.Data.Navigation.SelectionMinicard
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n22: In selection minicard\n"
   syntax:
@@ -758,10 +760,10 @@ items:
   fullName: SuperOffice.Data.Navigation.ButtonPanelTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n23: In the main ButtonBar\n"
   syntax:
@@ -786,10 +788,10 @@ items:
   fullName: SuperOffice.Data.Navigation.AppointmentDialogTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n24: In the appointment dialog\n"
   syntax:
@@ -814,10 +816,10 @@ items:
   fullName: SuperOffice.Data.Navigation.SaleDialogTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n25: In the sale dialog\n"
   syntax:
@@ -842,10 +844,10 @@ items:
   fullName: SuperOffice.Data.Navigation.DocumentDialogTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n26: In the document dialog\n"
   syntax:
@@ -870,10 +872,10 @@ items:
   fullName: SuperOffice.Data.Navigation.PersonDialogTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n27: In the person dialog\n"
   syntax:
@@ -898,10 +900,10 @@ items:
   fullName: SuperOffice.Data.Navigation.SaleMinicard
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n28: In the sale minicard\n"
   syntax:
@@ -926,10 +928,10 @@ items:
   fullName: SuperOffice.Data.Navigation.SaleArchive
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n29: In the sale archive\n"
   syntax:
@@ -954,10 +956,10 @@ items:
   fullName: SuperOffice.Data.Navigation.AppntSelectionShadowTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n30: Task tab for appointment selection, while showing shadow sel\n"
   syntax:
@@ -982,10 +984,10 @@ items:
   fullName: SuperOffice.Data.Navigation.SaleSelectionShadowTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n31: Task tab for sale selection, while showing shadow sel\n"
   syntax:
@@ -1010,10 +1012,10 @@ items:
   fullName: SuperOffice.Data.Navigation.DocSelectionShadowTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n32: Task tab for document selection, while showing shadow sel\n"
   syntax:
@@ -1038,10 +1040,10 @@ items:
   fullName: SuperOffice.Data.Navigation.ProjSelectionShadowTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n33: Task tab for project selection, while showing shadow sel\n"
   syntax:
@@ -1066,10 +1068,10 @@ items:
   fullName: SuperOffice.Data.Navigation.DiaryArchive
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n34: Context (popup) menu in Diary archive\n"
   syntax:
@@ -1094,10 +1096,10 @@ items:
   fullName: SuperOffice.Data.Navigation.SelectionContactArchive
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n35: Context (popup) menu in Contact selection\n"
   syntax:
@@ -1122,10 +1124,10 @@ items:
   fullName: SuperOffice.Data.Navigation.SelectionProjectArchive
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n36: Context (popup) menu in Project archive\n"
   syntax:
@@ -1150,10 +1152,10 @@ items:
   fullName: SuperOffice.Data.Navigation.SelectionSaleArchive
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n37: Context (popup) menu in Sale archive\n"
   syntax:
@@ -1178,10 +1180,10 @@ items:
   fullName: SuperOffice.Data.Navigation.SelectionAppointmentArchive
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n38: Context (popup) menu in Appointment archive\n"
   syntax:
@@ -1206,10 +1208,10 @@ items:
   fullName: SuperOffice.Data.Navigation.SelectionDocumentArchive
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n39: Context (popup) menu in Document archive\n"
   syntax:
@@ -1234,10 +1236,10 @@ items:
   fullName: SuperOffice.Data.Navigation.ContSelectionCustomTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n40: Task card in Contact selection, when a custom archive is shown\n"
   syntax:
@@ -1262,10 +1264,10 @@ items:
   fullName: SuperOffice.Data.Navigation.AppntSelectionCustomTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n41: Task card in Appointment selection, when a custom archive is shown\n"
   syntax:
@@ -1290,10 +1292,10 @@ items:
   fullName: SuperOffice.Data.Navigation.SaleSelectionCustomTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n42: Task card in Sale selection, when a custom archive is shown\n"
   syntax:
@@ -1318,10 +1320,10 @@ items:
   fullName: SuperOffice.Data.Navigation.DocSelectionCustomTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n43: Task card in Document selection, when a custom archive is shown\n"
   syntax:
@@ -1346,10 +1348,10 @@ items:
   fullName: SuperOffice.Data.Navigation.ProjSelectionCustomTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n44: Task card in Project selection, when a custom archive is shown\n"
   syntax:
@@ -1374,10 +1376,10 @@ items:
   fullName: SuperOffice.Data.Navigation.CustomArchiveMiniCard
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n45: ?\n"
   syntax:
@@ -1402,10 +1404,10 @@ items:
   fullName: SuperOffice.Data.Navigation.SelectionCard
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n46: ?\n"
   syntax:
@@ -1430,10 +1432,10 @@ items:
   fullName: SuperOffice.Data.Navigation.ReportMinicard
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n47: In the Reporter panel minicard, so far only in Web\n"
   syntax:
@@ -1458,10 +1460,10 @@ items:
   fullName: SuperOffice.Data.Navigation.QuoteDialog
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n48: \n"
   syntax:
@@ -1486,10 +1488,10 @@ items:
   fullName: SuperOffice.Data.Navigation.QuoteDialogTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n49: \n"
   syntax:
@@ -1514,10 +1516,10 @@ items:
   fullName: SuperOffice.Data.Navigation.QuoteDialogArchive
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n50: \n"
   syntax:
@@ -1542,10 +1544,10 @@ items:
   fullName: SuperOffice.Data.Navigation.QuoteLineDialogTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n51: \n"
   syntax:
@@ -1570,10 +1572,10 @@ items:
   fullName: SuperOffice.Data.Navigation.QuoteLineDialog
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n52: \n"
   syntax:
@@ -1598,10 +1600,10 @@ items:
   fullName: SuperOffice.Data.Navigation.QuoteLineSelectionMainTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n53: \n"
   syntax:
@@ -1626,10 +1628,10 @@ items:
   fullName: SuperOffice.Data.Navigation.QuoteLineSelectionShadowTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n54: \n"
   syntax:
@@ -1654,10 +1656,10 @@ items:
   fullName: SuperOffice.Data.Navigation.SelectionQuoteLineArchive
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n55: \n"
   syntax:
@@ -1682,10 +1684,10 @@ items:
   fullName: SuperOffice.Data.Navigation.QuoteLineSelectionCustomTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n56: \n"
   syntax:
@@ -1710,10 +1712,10 @@ items:
   fullName: SuperOffice.Data.Navigation.FindSystem
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n57: \n"
   syntax:
@@ -1738,10 +1740,10 @@ items:
   fullName: SuperOffice.Data.Navigation.MailingSelectionTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n58: Task button visible on the Mailing Selection task panel\n"
   syntax:
@@ -1766,10 +1768,10 @@ items:
   fullName: SuperOffice.Data.Navigation.ContactSelectionMailingsTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n59: Task button visible on the Mailing Selection task panel\n"
   syntax:
@@ -1794,10 +1796,10 @@ items:
   fullName: SuperOffice.Data.Navigation.AppointmentSelectionMailingsTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n60: Task button visible on the Mailing Selection task panel\n"
   syntax:
@@ -1822,10 +1824,10 @@ items:
   fullName: SuperOffice.Data.Navigation.SaleSelectionMailingsTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n61: Task button visible on the Mailing Selection task panel\n"
   syntax:
@@ -1850,10 +1852,10 @@ items:
   fullName: SuperOffice.Data.Navigation.DocumentSelectionMailingsTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n62: Task button visible on the Mailing Selection task panel\n"
   syntax:
@@ -1878,10 +1880,10 @@ items:
   fullName: SuperOffice.Data.Navigation.ProjectSelectionMailingsTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n63: Task button visible on the Mailing Selection task panel\n"
   syntax:
@@ -1906,10 +1908,10 @@ items:
   fullName: SuperOffice.Data.Navigation.QuoteLineSelectionMailingsTask
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n64: Task button visible on the Mailing Selection task panel\n"
   syntax:
@@ -1934,10 +1936,10 @@ items:
   fullName: SuperOffice.Data.Navigation.TopPanelNewMenu
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n65: Visible in top panels new menu\n"
   syntax:
@@ -1962,10 +1964,10 @@ items:
   fullName: SuperOffice.Data.Navigation.Dashboard
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n66: Dashboard panel\n"
   syntax:
@@ -1990,10 +1992,10 @@ items:
   fullName: SuperOffice.Data.Navigation.PersonArchive
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n67: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Person Archive\n"
   syntax:
@@ -2018,14 +2020,70 @@ items:
   fullName: SuperOffice.Data.Navigation.PersonMinicard
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n68: In the person minicard\n"
   syntax:
     content: PersonMinicard = 68
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.CompanyCardTask
+  commentId: F:SuperOffice.Data.Navigation.CompanyCardTask
+  id: CompanyCardTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: CompanyCardTask
+  nameWithType: Navigation.CompanyCardTask
+  fullName: SuperOffice.Data.Navigation.CompanyCardTask
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n69: In the company card, task button\n"
+  syntax:
+    content: CompanyCardTask = 69
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.ProjectCardTask
+  commentId: F:SuperOffice.Data.Navigation.ProjectCardTask
+  id: ProjectCardTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: ProjectCardTask
+  nameWithType: Navigation.ProjectCardTask
+  fullName: SuperOffice.Data.Navigation.ProjectCardTask
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n70: In the project card, task button\n"
+  syntax:
+    content: ProjectCardTask = 70
     return:
       type: SuperOffice.Data.Navigation
   modifiers.csharp:

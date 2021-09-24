@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Exceptions.SoException
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nDefault exception for SuperOffice NetServer.  \n"
   remarks: "\nOther SuperOffice NetServer exceptions inherit from this exception class.  \nThis exception also supports the <xref href=\"SuperOffice.Diagnostics.SoLogger\" data-throw-if-not-resolved=\"false\"></xref> \nmechanism using the <see cref=\"!:LogException\"></see> method.\n"
@@ -106,10 +106,10 @@ items:
   fullName: SuperOffice.Exceptions.SoException.SoException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   syntax:
     content: protected SoException(SerializationInfo info, StreamingContext context)
@@ -136,10 +136,10 @@ items:
   fullName: SuperOffice.Exceptions.SoException.SoException(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nDefault constructor.\n"
   syntax:
@@ -166,10 +166,10 @@ items:
   fullName: SuperOffice.Exceptions.SoException.SoException(System.String, System.Exception)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nDefault constructor.\n"
   syntax:
@@ -199,10 +199,10 @@ items:
   fullName: SuperOffice.Exceptions.SoException.SoException(System.String, System.Exception, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   syntax:
     content: public SoException(string message, Exception innerException, string friendlyText)
@@ -231,10 +231,10 @@ items:
   fullName: SuperOffice.Exceptions.SoException.SoException(System.String, System.Exception, System.Exception[])
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nConstructor supporting an array of additional exceptions.\n"
   syntax:
@@ -270,10 +270,10 @@ items:
   fullName: SuperOffice.Exceptions.SoException.FriendlyText
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nOptional friendly error message that may be displayed to the user\n"
   syntax:

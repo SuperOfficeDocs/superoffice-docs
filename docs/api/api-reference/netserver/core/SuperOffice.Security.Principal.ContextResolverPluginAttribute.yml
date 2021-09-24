@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Security.Principal.ContextResolverPluginAttribute
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nAttribute declaring a context resolver implementing the <xref href=\"SuperOffice.Security.Principal.IContextResolverPlugin\" data-throw-if-not-resolved=\"false\"></xref> interface\n"
   remarks: "\nA Context resolver is responsible for determine if a particular user belongs to a \nparticular context.  This plugin is called during pre-authentication procedure to \nfigure out what database teh authentication should be carried out on.\n"
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Security.Principal.ContextResolverPluginAttribute.ContextResolverPluginAttribute(System.String, System.Int32)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public ContextResolverPluginAttribute(string name, int priority)

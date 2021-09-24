@@ -25,10 +25,10 @@ items:
   fullName: SuperOffice.Util.XmlUtil
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nThis class contains utility methods for manipulating Xml elements\n"
   syntax:
@@ -63,10 +63,10 @@ items:
   fullName: SuperOffice.Util.XmlUtil.GetValidXmlString(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet rid of characters WriteElementString does not handle\n"
   syntax:
@@ -98,10 +98,10 @@ items:
   fullName: SuperOffice.Util.XmlUtil.Merge(System.Xml.XmlNode, System.Xml.XmlNode)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nMerge two XML trees\n"
   remarks: "\nEquivalent nodes appear only once in the output. Two element nodes are treated equivalent if: their local names are equal, \ntheir namespace-uris are equal, and all their attributes are equal. Two text nodes are treated equal if their normalized \ncontent is equal. The same rule applies for comments and processing instructions.\n<p></p>\nSee http://www.informatik.hu-berlin.de/~obecker/XSLT/ for a more detailed explanation!\n"
@@ -137,10 +137,10 @@ items:
   fullName: SuperOffice.Util.XmlUtil.InnerMerge(System.Xml.XmlNode, System.Xml.XmlNode)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nMerge the inner XML&apos;s of two XML trees, i.e., leave the outer element alone (it is assumed to match), and merge the inner parts.\n"
   remarks: "\nSee the other Merge method for information on the merge process\n"
@@ -176,10 +176,10 @@ items:
   fullName: SuperOffice.Util.XmlUtil.SafeGetAttribute(System.Xml.XmlNode, System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet an attribute text value; return defaultValue if it does not exist or is empty. This method\ndoes not throw any exceptions\n"
   syntax:
@@ -217,10 +217,10 @@ items:
   fullName: SuperOffice.Util.XmlUtil.SafeGetAttribute(System.Xml.XmlNode, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet an attribute text value; return string.Empty if it does not exist. This method\ndoes not throw any exceptions\n"
   syntax:
@@ -255,10 +255,10 @@ items:
   fullName: SuperOffice.Util.XmlUtil.SafeGetRequiredAttribute(System.Xml.XmlNode, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet an attribute text value; throw an exception if it is empty\n"
   syntax:
@@ -297,10 +297,10 @@ items:
   fullName: SuperOffice.Util.XmlUtil.SafeSetAttribute(System.Xml.XmlNode, System.String, System.String, SuperOffice.Util.XmlUtil.Override)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nSet an attribute value; create the attribute or overwrite its previous value as appropriate\n"
   syntax:
@@ -338,10 +338,10 @@ items:
   fullName: SuperOffice.Util.XmlUtil.SafeRemoveAttribute(System.Xml.XmlNode, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nRemove an attribute from a node, whether it exists or not ;-)\n"
   syntax:
@@ -373,10 +373,10 @@ items:
   fullName: SuperOffice.Util.XmlUtil.GetNodeText(System.Xml.XmlNode, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet the text that is inside one Xml element node\n"
   syntax:
@@ -411,10 +411,10 @@ items:
   fullName: SuperOffice.Util.XmlUtil.GetNodeText(System.Xml.XmlNode)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet the text that is inside one Xml element node\n"
   syntax:
@@ -446,10 +446,10 @@ items:
   fullName: SuperOffice.Util.XmlUtil.SafeSetChildNodeText(System.Xml.XmlNode, System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nSet the text value of the named child node. The child node is created, as an element, if it does not exist.\nAny previous value is lost! - so don&apos;t use this on child nodes that contain other nodes.\n"
   syntax:
@@ -487,10 +487,10 @@ items:
   fullName: SuperOffice.Util.XmlUtil.SafeGetAttributes(System.Xml.XmlNode, System.Boolean, System.String[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nExtract a number of attributes from a node, and return them as a dictionary\n"
   syntax:

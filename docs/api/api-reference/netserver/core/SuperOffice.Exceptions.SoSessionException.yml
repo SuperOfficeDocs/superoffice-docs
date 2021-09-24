@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Exceptions.SoSessionException
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nException thrown when a valid session is missing\n"
   syntax:
@@ -80,10 +80,10 @@ items:
   fullName: SuperOffice.Exceptions.SoSessionException.SoSessionException(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nException thrown when a valid session is missing\n"
   syntax:
@@ -110,10 +110,10 @@ items:
   fullName: SuperOffice.Exceptions.SoSessionException.SoSessionException(System.String, System.Exception)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nException thrown when a valid session is missing\n"
   syntax:

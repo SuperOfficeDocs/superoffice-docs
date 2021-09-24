@@ -39,6 +39,18 @@ items:
   assemblies:
   - SoDataBase
 references:
+- uid: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider
+  commentId: T:SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider
+  isExternal: true
+  name: AppointmentInfoProvider
+  nameWithType: AppointmentInfoProvider
+  fullName: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider
+- uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider
+  commentId: T:SuperOffice.CRM.Entities.Providers.ContactInfoProvider
+  isExternal: true
+  name: ContactInfoProvider
+  nameWithType: ContactInfoProvider
+  fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider
 - uid: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase
   commentId: T:SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase
   parent: SuperOffice.CRM.Entities.Providers
@@ -46,6 +58,36 @@ references:
   name: ContactPersonInfoProviderBase
   nameWithType: ContactPersonInfoProviderBase
   fullName: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase
+- uid: SuperOffice.CRM.Entities.Providers.DocumentInfoProvider
+  commentId: T:SuperOffice.CRM.Entities.Providers.DocumentInfoProvider
+  isExternal: true
+  name: DocumentInfoProvider
+  nameWithType: DocumentInfoProvider
+  fullName: SuperOffice.CRM.Entities.Providers.DocumentInfoProvider
+- uid: SuperOffice.CRM.Entities.Providers.PersonInfoProvider
+  commentId: T:SuperOffice.CRM.Entities.Providers.PersonInfoProvider
+  isExternal: true
+  name: PersonInfoProvider
+  nameWithType: PersonInfoProvider
+  fullName: SuperOffice.CRM.Entities.Providers.PersonInfoProvider
+- uid: SuperOffice.CRM.Entities.Providers.ProjectInfoProvider
+  commentId: T:SuperOffice.CRM.Entities.Providers.ProjectInfoProvider
+  isExternal: true
+  name: ProjectInfoProvider
+  nameWithType: ProjectInfoProvider
+  fullName: SuperOffice.CRM.Entities.Providers.ProjectInfoProvider
+- uid: SuperOffice.CRM.Entities.Providers.SaleInfoProvider
+  commentId: T:SuperOffice.CRM.Entities.Providers.SaleInfoProvider
+  isExternal: true
+  name: SaleInfoProvider
+  nameWithType: SaleInfoProvider
+  fullName: SuperOffice.CRM.Entities.Providers.SaleInfoProvider
+- uid: SuperOffice.CRM.Entities.Providers.SelectionInfoProvider
+  commentId: T:SuperOffice.CRM.Entities.Providers.SelectionInfoProvider
+  isExternal: true
+  name: SelectionInfoProvider
+  nameWithType: SelectionInfoProvider
+  fullName: SuperOffice.CRM.Entities.Providers.SelectionInfoProvider
 - uid: SuperOffice.CRM.Entities.Providers.InfoUdefDict
   commentId: T:SuperOffice.CRM.Entities.Providers.InfoUdefDict
   parent: SuperOffice.CRM.Entities.Providers
@@ -151,48 +193,6 @@ references:
   name: ISimpleSelectionInfoPopulator
   nameWithType: ISimpleSelectionInfoPopulator
   fullName: SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator
-- uid: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider
-  commentId: T:SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider
-  isExternal: true
-  name: AppointmentInfoProvider
-  nameWithType: AppointmentInfoProvider
-  fullName: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider
-- uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider
-  commentId: T:SuperOffice.CRM.Entities.Providers.ContactInfoProvider
-  isExternal: true
-  name: ContactInfoProvider
-  nameWithType: ContactInfoProvider
-  fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider
-- uid: SuperOffice.CRM.Entities.Providers.DocumentInfoProvider
-  commentId: T:SuperOffice.CRM.Entities.Providers.DocumentInfoProvider
-  isExternal: true
-  name: DocumentInfoProvider
-  nameWithType: DocumentInfoProvider
-  fullName: SuperOffice.CRM.Entities.Providers.DocumentInfoProvider
-- uid: SuperOffice.CRM.Entities.Providers.PersonInfoProvider
-  commentId: T:SuperOffice.CRM.Entities.Providers.PersonInfoProvider
-  isExternal: true
-  name: PersonInfoProvider
-  nameWithType: PersonInfoProvider
-  fullName: SuperOffice.CRM.Entities.Providers.PersonInfoProvider
-- uid: SuperOffice.CRM.Entities.Providers.ProjectInfoProvider
-  commentId: T:SuperOffice.CRM.Entities.Providers.ProjectInfoProvider
-  isExternal: true
-  name: ProjectInfoProvider
-  nameWithType: ProjectInfoProvider
-  fullName: SuperOffice.CRM.Entities.Providers.ProjectInfoProvider
-- uid: SuperOffice.CRM.Entities.Providers.SaleInfoProvider
-  commentId: T:SuperOffice.CRM.Entities.Providers.SaleInfoProvider
-  isExternal: true
-  name: SaleInfoProvider
-  nameWithType: SaleInfoProvider
-  fullName: SuperOffice.CRM.Entities.Providers.SaleInfoProvider
-- uid: SuperOffice.CRM.Entities.Providers.SelectionInfoProvider
-  commentId: T:SuperOffice.CRM.Entities.Providers.SelectionInfoProvider
-  isExternal: true
-  name: SelectionInfoProvider
-  nameWithType: SelectionInfoProvider
-  fullName: SuperOffice.CRM.Entities.Providers.SelectionInfoProvider
 - uid: SuperOffice.CRM.Entities.Providers.UDefInfoProvider
   commentId: T:SuperOffice.CRM.Entities.Providers.UDefInfoProvider
   isExternal: true

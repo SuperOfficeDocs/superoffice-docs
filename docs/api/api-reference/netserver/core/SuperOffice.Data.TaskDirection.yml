@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.TaskDirection
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValue for field &apos;direction&apos; in table &apos;task&apos;. Controls icons used in GUI\nThis Enum is used by:  Task.direction\n"
   syntax:
@@ -49,10 +49,10 @@ items:
   fullName: SuperOffice.Data.TaskDirection.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown - used when initializing\n"
   syntax:
@@ -77,10 +77,10 @@ items:
   fullName: SuperOffice.Data.TaskDirection.Incoming
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: The task is sent in to SuperOffice CRM 5\n"
   syntax:
@@ -105,10 +105,10 @@ items:
   fullName: SuperOffice.Data.TaskDirection.Outgoing
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: The task is sent out from SuperOffice CRM 5\n"
   syntax:
@@ -133,10 +133,10 @@ items:
   fullName: SuperOffice.Data.TaskDirection.SaintAll
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: All&apos; choice for Saint. This is NOT an acceptable value for a task definition, but is used by the Saint system for indexing all directions\n"
   syntax:

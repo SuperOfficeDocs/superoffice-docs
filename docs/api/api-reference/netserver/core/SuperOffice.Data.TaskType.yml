@@ -24,10 +24,10 @@ items:
   fullName: SuperOffice.Data.TaskType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValue for field &apos;record_type&apos; in table &apos;task&apos;. Controls icons used in GUI\nThis Enum is used by:  Task.record_type\n"
   syntax:
@@ -56,10 +56,10 @@ items:
   fullName: SuperOffice.Data.TaskType.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: This task is of an unknown/undecided type\n"
   syntax:
@@ -84,10 +84,10 @@ items:
   fullName: SuperOffice.Data.TaskType.Appointment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: The task is an appointment\n"
   syntax:
@@ -112,10 +112,10 @@ items:
   fullName: SuperOffice.Data.TaskType.Document
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: The task is a document\n"
   syntax:
@@ -140,10 +140,10 @@ items:
   fullName: SuperOffice.Data.TaskType.Email
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: The task is an email\n"
   syntax:
@@ -168,10 +168,10 @@ items:
   fullName: SuperOffice.Data.TaskType.Fax
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: The task is a fax\n"
   syntax:
@@ -196,10 +196,10 @@ items:
   fullName: SuperOffice.Data.TaskType.Phone
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: The task is a phone call\n"
   syntax:
@@ -224,10 +224,10 @@ items:
   fullName: SuperOffice.Data.TaskType.ToDo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: The task is a To-do\n"
   syntax:
@@ -252,10 +252,10 @@ items:
   fullName: SuperOffice.Data.TaskType.MailMergeDraft
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: Mail merge draft document\n"
   syntax:
@@ -280,10 +280,10 @@ items:
   fullName: SuperOffice.Data.TaskType.MailMergeFinal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Merged result of mail merge\n"
   syntax:
@@ -308,10 +308,10 @@ items:
   fullName: SuperOffice.Data.TaskType.Report
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n9: Saved report run\n"
   syntax:
@@ -336,10 +336,10 @@ items:
   fullName: SuperOffice.Data.TaskType.SaintAll
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n10: All&apos; choice for Saint, every activity is recorded under this type as well as the specific type. This is NOT an acceptable value for an individual activity\n"
   syntax:

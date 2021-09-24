@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Util.MailHelper
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static class MailHelper
@@ -53,10 +53,10 @@ items:
   fullName: SuperOffice.Util.MailHelper.ExceptionIsAuthFail(System.Exception, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nChecks if an exception is considered an authentication exception.\n"
   syntax:
@@ -88,10 +88,10 @@ items:
   fullName: SuperOffice.Util.MailHelper.GetCleanHtmlBody(System.String, System.Boolean)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nStrip everything but what is inside <body></body>\nStrip scripts\nOptionally remove references to external images\n"
   syntax:
@@ -137,10 +137,10 @@ items:
   fullName: SuperOffice.Util.MailHelper.GetBodyContent(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nStrip everything but what is inside <body></body>\nIf the body tags are not found, everything is returned\n"
   syntax:

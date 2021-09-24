@@ -21,10 +21,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nConfiguration for test environment\n"
   syntax:
@@ -59,10 +59,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment.IsTestEnvironment
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nIs this a Test Environment (where some functions are turned off by default)\n"
   syntax:
@@ -92,10 +92,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnablePocketNotifications
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAllow notifications to be sent for pocket\n"
   syntax:
@@ -125,10 +125,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableMailings
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAllow mailings in service\n"
   syntax:
@@ -158,10 +158,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableServiceSendMails
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAllow sending mails from service\n"
   syntax:
@@ -191,10 +191,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableCRMScriptHttp
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAllow making HTTP calls from service\n"
   syntax:
@@ -224,10 +224,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableInbox
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nEnable Inbox\n"
   syntax:
@@ -257,10 +257,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableErpSync
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nEnable Erp Sync\n"
   syntax:
@@ -290,10 +290,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableQuoteConnector
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nEnable Quote Connector to remote systems\n"
   syntax:

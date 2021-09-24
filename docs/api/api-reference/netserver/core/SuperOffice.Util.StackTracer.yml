@@ -10,10 +10,9 @@ items:
   - SuperOffice.Util.StackTracer.GetStack(System.Int32)
   - SuperOffice.Util.StackTracer.GetStack(System.Int32,System.Int32)
   - SuperOffice.Util.StackTracer.GetThreadDomainId
-  - SuperOffice.Util.StackTracer.LogExceptionTree(System.Exception)
+  - SuperOffice.Util.StackTracer.GetToLastSuperOffice
   - SuperOffice.Util.StackTracer.StackTrace
   - SuperOffice.Util.StackTracer.ToString
-  - SuperOffice.Util.StackTracer.WriteLine(System.String,System.Object[])
   langs:
   - csharp
   - vb
@@ -22,10 +21,10 @@ items:
   fullName: SuperOffice.Util.StackTracer
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nUtility class for collecting stack traces - useful when you want to make debugging easier by collecting\nrun-time data on where your classes get called from. Enabled by EnableScaffolding AND EnableStackTracing,\nwhich default to FALSE (EnableStackTracing defaults to TRUE in DEBUG builds).\n"
   remarks: "\nStackTracer has been implemented in the TableInfo base class, because it can be infuriatingly hard to discover\nwho allocated a certain ContactTableInfo or whatever when you start getting unwanted cross joins. This example is \ntaken from the TableInfo class:\n"
@@ -62,10 +61,10 @@ items:
   fullName: SuperOffice.Util.StackTracer.GetThreadDomainId()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn a string with the AppDomain and Thread id&apos;s in a form suitable for debugging/console logging\n"
   syntax:
@@ -92,10 +91,10 @@ items:
   fullName: SuperOffice.Util.StackTracer.GetStack()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet one level from the stack directly above the caller&apos;s level\n"
   syntax:
@@ -123,10 +122,10 @@ items:
   fullName: SuperOffice.Util.StackTracer.GetStack(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet one level from the stack, skipping a number of additional levels first\n"
   syntax:
@@ -158,10 +157,10 @@ items:
   fullName: SuperOffice.Util.StackTracer.GetStack(System.Int32, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet the given number of levels from the stack, skipping a number of additional levels first\n"
   syntax:
@@ -184,6 +183,36 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.Util.StackTracer.GetToLastSuperOffice
+  commentId: M:SuperOffice.Util.StackTracer.GetToLastSuperOffice
+  id: GetToLastSuperOffice
+  parent: SuperOffice.Util.StackTracer
+  langs:
+  - csharp
+  - vb
+  name: GetToLastSuperOffice()
+  nameWithType: StackTracer.GetToLastSuperOffice()
+  fullName: SuperOffice.Util.StackTracer.GetToLastSuperOffice()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nObtain a stack trace, from the current frame and back to the most-remote SuperOffice-assembly frame; plus one to show where we came from\n"
+  syntax:
+    content: public static string GetToLastSuperOffice()
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetToLastSuperOffice As String
+  overload: SuperOffice.Util.StackTracer.GetToLastSuperOffice*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.StackTracer.ToString
   commentId: M:SuperOffice.Util.StackTracer.ToString
   id: ToString
@@ -196,10 +225,10 @@ items:
   fullName: SuperOffice.Util.StackTracer.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn the current stack levels as a single string, with newlines between levels\n"
   syntax:
@@ -227,10 +256,10 @@ items:
   fullName: SuperOffice.Util.StackTracer.FormatTrace(SuperOffice.Util.StackTracer)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nReturn a formatted trace or the empty string\n"
   syntax:
@@ -250,71 +279,6 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Util.StackTracer.LogExceptionTree(System.Exception)
-  commentId: M:SuperOffice.Util.StackTracer.LogExceptionTree(System.Exception)
-  id: LogExceptionTree(System.Exception)
-  parent: SuperOffice.Util.StackTracer
-  langs:
-  - csharp
-  - vb
-  name: LogExceptionTree(Exception)
-  nameWithType: StackTracer.LogExceptionTree(Exception)
-  fullName: SuperOffice.Util.StackTracer.LogExceptionTree(System.Exception)
-  type: Method
-  source:
-    path: SOCore
-    isExternal: true
-  assemblies:
-  - SOCore
-  namespace: SuperOffice.Util
-  syntax:
-    content: public static void LogExceptionTree(Exception ex)
-    parameters:
-    - id: ex
-      type: System.Exception
-    content.vb: Public Shared Sub LogExceptionTree(ex As Exception)
-  overload: SuperOffice.Util.StackTracer.LogExceptionTree*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Util.StackTracer.WriteLine(System.String,System.Object[])
-  commentId: M:SuperOffice.Util.StackTracer.WriteLine(System.String,System.Object[])
-  id: WriteLine(System.String,System.Object[])
-  parent: SuperOffice.Util.StackTracer
-  langs:
-  - csharp
-  - vb
-  name: WriteLine(String, Object[])
-  nameWithType: StackTracer.WriteLine(String, Object[])
-  fullName: SuperOffice.Util.StackTracer.WriteLine(System.String, System.Object[])
-  type: Method
-  source:
-    path: SOCore
-    isExternal: true
-  assemblies:
-  - SOCore
-  namespace: SuperOffice.Util
-  syntax:
-    content: public static void WriteLine(string format, params object[] args)
-    parameters:
-    - id: format
-      type: System.String
-    - id: args
-      type: System.Object[]
-    content.vb: Public Shared Sub WriteLine(format As String, ParamArray args As Object())
-  overload: SuperOffice.Util.StackTracer.WriteLine*
-  nameWithType.vb: StackTracer.WriteLine(String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Util.StackTracer.WriteLine(System.String, System.Object())
-  name.vb: WriteLine(String, Object())
 - uid: SuperOffice.Util.StackTracer.StackTrace
   commentId: P:SuperOffice.Util.StackTracer.StackTrace
   id: StackTrace
@@ -327,10 +291,10 @@ items:
   fullName: SuperOffice.Util.StackTracer.StackTrace
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public string[] StackTrace { get; }
@@ -811,6 +775,12 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: SuperOffice.Util.StackTracer.GetToLastSuperOffice*
+  commentId: Overload:SuperOffice.Util.StackTracer.GetToLastSuperOffice
+  isExternal: true
+  name: GetToLastSuperOffice
+  nameWithType: StackTracer.GetToLastSuperOffice
+  fullName: SuperOffice.Util.StackTracer.GetToLastSuperOffice
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -854,51 +824,6 @@ references:
   name: FormatTrace
   nameWithType: StackTracer.FormatTrace
   fullName: SuperOffice.Util.StackTracer.FormatTrace
-- uid: SuperOffice.Util.StackTracer.LogExceptionTree*
-  commentId: Overload:SuperOffice.Util.StackTracer.LogExceptionTree
-  isExternal: true
-  name: LogExceptionTree
-  nameWithType: StackTracer.LogExceptionTree
-  fullName: SuperOffice.Util.StackTracer.LogExceptionTree
-- uid: System.Exception
-  commentId: T:System.Exception
-  parent: System
-  isExternal: true
-  name: Exception
-  nameWithType: Exception
-  fullName: System.Exception
-- uid: SuperOffice.Util.StackTracer.WriteLine*
-  commentId: Overload:SuperOffice.Util.StackTracer.WriteLine
-  isExternal: true
-  name: WriteLine
-  nameWithType: StackTracer.WriteLine
-  fullName: SuperOffice.Util.StackTracer.WriteLine
-- uid: System.Object[]
-  isExternal: true
-  name: Object[]
-  nameWithType: Object[]
-  fullName: System.Object[]
-  nameWithType.vb: Object()
-  fullName.vb: System.Object()
-  name.vb: Object()
-  spec.csharp:
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
 - uid: SuperOffice.Util.StackTracer.StackTrace*
   commentId: Overload:SuperOffice.Util.StackTracer.StackTrace
   isExternal: true

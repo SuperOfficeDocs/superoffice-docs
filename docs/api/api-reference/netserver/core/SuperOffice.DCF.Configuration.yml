@@ -22,7 +22,7 @@ items:
   fullName: SuperOffice.DCF.Configuration
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
 - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes
   commentId: T:SuperOffice.DCF.Configuration.ConfigurationAttributes

@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.CRM.NextDateInfo
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public class NextDateInfo
@@ -59,10 +59,10 @@ items:
   fullName: SuperOffice.CRM.NextDateInfo.NextDateInfo(System.Int32, System.DateTime)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public NextDateInfo(int appointmentId, DateTime date)
@@ -89,10 +89,10 @@ items:
   fullName: SuperOffice.CRM.NextDateInfo.NextDateInfo(SuperOffice.CRM.NextDateInfo)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public NextDateInfo(NextDateInfo info)
@@ -117,10 +117,10 @@ items:
   fullName: SuperOffice.CRM.NextDateInfo.NextDateInfo()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public NextDateInfo()
@@ -142,10 +142,10 @@ items:
   fullName: SuperOffice.CRM.NextDateInfo.AppointmentId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public int AppointmentId { get; set; }
@@ -172,10 +172,10 @@ items:
   fullName: SuperOffice.CRM.NextDateInfo.Date
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public DateTime Date { get; set; }

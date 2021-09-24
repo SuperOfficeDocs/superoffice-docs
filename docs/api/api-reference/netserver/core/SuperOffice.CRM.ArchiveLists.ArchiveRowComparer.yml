@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowComparer
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: 'public class ArchiveRowComparer : TypedArchiveRowComparer<ArchiveRow>, IComparer<ArchiveRow>'
@@ -60,10 +60,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowComparer.ArchiveRowComparer(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveRowComparer(params ArchiveOrderByInfo[] orderByInfo)

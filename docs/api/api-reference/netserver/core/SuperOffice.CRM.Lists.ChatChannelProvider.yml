@@ -27,11 +27,15 @@ items:
 
       [MDOAdditionalInfo("notAll", "Include ALL value in result or not", true)]
 
+      [MDOAdditionalInfo("listAll", "Include all chat channels", false)]
+
       public class ChatChannelProvider : LiteralsOnlyBase, ISoListProvider, ISoList, IPlugin
     content.vb: >-
       <MDOProviderPlugin("ChatChannel")>
 
       <MDOAdditionalInfo("notAll", "Include ALL value in result or not", True)>
+
+      <MDOAdditionalInfo("listAll", "Include all chat channels", False)>
 
       Public Class ChatChannelProvider
           Inherits LiteralsOnlyBase
@@ -81,6 +85,15 @@ items:
       value: Include ALL value in result or not
     - type: System.Boolean
       value: true
+  - type: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute
+    ctor: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute.#ctor(System.String,System.String,System.Object)
+    arguments:
+    - type: System.String
+      value: listAll
+    - type: System.String
+      value: Include all chat channels
+    - type: System.Boolean
+      value: false
   modifiers.csharp:
   - public
   - class

@@ -16,10 +16,10 @@ items:
   fullName: SuperOffice.Data.VideoMeetingStatus
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nDefault video-meeting status for meetings created in SuperOffice CRM\nThis Enum is used by:  Task.default_videomeeting_status\n"
   syntax:
@@ -48,10 +48,10 @@ items:
   fullName: SuperOffice.Data.VideoMeetingStatus.NoChange
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: No Change\n"
   syntax:
@@ -76,10 +76,10 @@ items:
   fullName: SuperOffice.Data.VideoMeetingStatus.VideoMeetingOn
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Appointments created from this task-type should enable video-meetings by default.\n"
   syntax:
@@ -104,10 +104,10 @@ items:
   fullName: SuperOffice.Data.VideoMeetingStatus.VideoMeetingOff
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Appointments created from this task-type should disable video-meetings by default.\n"
   syntax:

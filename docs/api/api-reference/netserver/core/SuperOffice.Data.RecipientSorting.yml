@@ -18,10 +18,10 @@ items:
   fullName: SuperOffice.Data.RecipientSorting
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nThe different types of recipient sorting available\nThis Enum is used by:  s_shipment.sorting\n"
   syntax:
@@ -50,10 +50,10 @@ items:
   fullName: SuperOffice.Data.RecipientSorting.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: No sorting\n"
   syntax:
@@ -78,10 +78,10 @@ items:
   fullName: SuperOffice.Data.RecipientSorting.CountryZipCode
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Sort by country and zip code\n"
   syntax:
@@ -106,10 +106,10 @@ items:
   fullName: SuperOffice.Data.RecipientSorting.CompanyName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Sort by company name\n"
   syntax:
@@ -134,10 +134,10 @@ items:
   fullName: SuperOffice.Data.RecipientSorting.CompanyNumber
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Sort by company number\n"
   syntax:
@@ -162,10 +162,10 @@ items:
   fullName: SuperOffice.Data.RecipientSorting.PersonLastname
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Sort by person last name\n"
   syntax:

@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ISoListItemDeep
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   syntax:
     content: 'public interface ISoListItemDeep : ISoListItem'
@@ -57,10 +57,10 @@ items:
   fullName: SuperOffice.CRM.Lists.ISoListItemDeep.ChildItems
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Lists
   syntax:
     content: List<ISoListItemDeep> ChildItems { get; }

@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Data.ProjectTypeConstants
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public static class ProjectTypeConstants
@@ -51,10 +51,10 @@ items:
   fullName: SuperOffice.Data.ProjectTypeConstants.PrimaryKeyName
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string PrimaryKeyName = "ProjectTypeId"

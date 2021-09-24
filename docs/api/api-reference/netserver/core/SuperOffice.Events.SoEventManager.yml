@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Events.SoEventManager
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Events
   summary: "\nSoEventManager\n"
   syntax:
@@ -55,10 +55,10 @@ items:
   fullName: SuperOffice.Events.SoEventManager.ReInitalize()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Events
   syntax:
     content: public static void ReInitalize()
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.Events.SoEventManager.GlobalFlush()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Events
   syntax:
     content: public static void GlobalFlush()
@@ -109,10 +109,10 @@ items:
   fullName: SuperOffice.Events.SoEventManager.SendEvent(System.String, System.Boolean, ref System.Object, ref SuperOffice.Events.SendEventArguments)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Events
   summary: "\nSends the event to all EventEngine plugins\n"
   syntax:
@@ -153,10 +153,10 @@ items:
   fullName: SuperOffice.Events.SoEventManager.OnGlobalFlush
   type: Event
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Events
   syntax:
     content: public static event SoGlobalFlush OnGlobalFlush

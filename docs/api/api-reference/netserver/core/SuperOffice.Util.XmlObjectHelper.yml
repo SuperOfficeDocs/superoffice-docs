@@ -22,10 +22,10 @@ items:
   fullName: SuperOffice.Util.XmlObjectHelper
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nClass to extract data from xml without caring about namespaces etc.\n"
   syntax:
@@ -64,10 +64,10 @@ items:
   fullName: SuperOffice.Util.XmlObjectHelper.GetStringValue(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet property as string\n"
   syntax:
@@ -99,10 +99,10 @@ items:
   fullName: SuperOffice.Util.XmlObjectHelper.GetStringValue(System.Xml.Linq.XElement, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nGet property as string\n"
   syntax:
@@ -134,10 +134,10 @@ items:
   fullName: SuperOffice.Util.XmlObjectHelper.GetIntValue(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static int GetIntValue(string xml, string propertyName)
@@ -168,10 +168,10 @@ items:
   fullName: SuperOffice.Util.XmlObjectHelper.GetIntValue(System.Xml.Linq.XElement, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static int GetIntValue(XElement xml, string propertyName)
@@ -202,10 +202,10 @@ items:
   fullName: SuperOffice.Util.XmlObjectHelper.GetBoolValue(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static bool GetBoolValue(string xml, string propertyName)
@@ -236,10 +236,10 @@ items:
   fullName: SuperOffice.Util.XmlObjectHelper.GetBoolValue(System.Xml.Linq.XElement, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static bool GetBoolValue(XElement xml, string propertyName)
@@ -270,10 +270,10 @@ items:
   fullName: SuperOffice.Util.XmlObjectHelper.GetObject(System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static XElement GetObject(string xml, string propertyName)
@@ -304,10 +304,10 @@ items:
   fullName: SuperOffice.Util.XmlObjectHelper.GetObject(System.Xml.Linq.XElement, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public static XElement GetObject(XElement xml, string propertyName)
@@ -338,10 +338,10 @@ items:
   fullName: SuperOffice.Util.XmlObjectHelper.XmlObjectHelper()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   syntax:
     content: public XmlObjectHelper()

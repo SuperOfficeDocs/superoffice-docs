@@ -21,10 +21,10 @@ items:
   fullName: SuperOffice.Data.UDefFieldType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nField type: 1 = Number, 2 = Short text, 3 = Long text, 4 = Date, 5 = Unlimited date, 6 = Checkbox, 7 = Drop-down listbox, 8 = Decimal\n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.Data.UDefFieldType.Number
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Number (32-bit integer)\n"
   syntax:
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.Data.UDefFieldType.ShortText
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Short text, up to 39 characters, stored in the &apos;small&apos; table\n"
   syntax:
@@ -110,10 +110,10 @@ items:
   fullName: SuperOffice.Data.UDefFieldType.LongText
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Long text, up to 199 characters, stored in the &apos;large&apos; table\n"
   syntax:
@@ -138,10 +138,10 @@ items:
   fullName: SuperOffice.Data.UDefFieldType.Date
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Date, between 1.1.1970 and 2038, stored as seconds after 1.1.1970\n"
   syntax:
@@ -166,10 +166,10 @@ items:
   fullName: SuperOffice.Data.UDefFieldType.UnlimitedDate
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Unlimited date (without time), stored as an YYYYMMDD string\n"
   syntax:
@@ -194,10 +194,10 @@ items:
   fullName: SuperOffice.Data.UDefFieldType.Checkbox
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: Checkbox, stored as an integer, 1 = checked\n"
   syntax:
@@ -222,10 +222,10 @@ items:
   fullName: SuperOffice.Data.UDefFieldType.List
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: List item reference, stored as an integer ID\n"
   syntax:
@@ -250,10 +250,10 @@ items:
   fullName: SuperOffice.Data.UDefFieldType.Decimal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Decimal / floating point, stored as a double\n"
   syntax:

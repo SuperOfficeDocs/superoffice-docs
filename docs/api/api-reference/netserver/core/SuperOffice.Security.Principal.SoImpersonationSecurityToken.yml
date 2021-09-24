@@ -21,10 +21,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: 'public sealed class SoImpersonationSecurityToken : SecurityToken'
@@ -56,10 +56,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken.SoImpersonationSecurityToken(System.String, SuperOffice.Security.Principal.SoPrincipal)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public SoImpersonationSecurityToken(string associate, SoPrincipal impersonatingPrincipal)
@@ -86,10 +86,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken.SoImpersonationSecurityToken(System.String, SuperOffice.Security.Principal.SoPrincipal, System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public SoImpersonationSecurityToken(string associate, SoPrincipal impersonatingPrincipal, string id)
@@ -118,10 +118,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken.Id
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public override string Id { get; }
@@ -150,10 +150,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken.SecurityKeys
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public override ReadOnlyCollection<SecurityKey> SecurityKeys { get; }
@@ -182,10 +182,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken.Associate
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public string Associate { get; }
@@ -212,10 +212,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken.ImpersonatingPrincipal
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public SoPrincipal ImpersonatingPrincipal { get; }
@@ -242,10 +242,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken.ValidFrom
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public override DateTime ValidFrom { get; }
@@ -274,10 +274,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken.ValidTo
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public override DateTime ValidTo { get; }

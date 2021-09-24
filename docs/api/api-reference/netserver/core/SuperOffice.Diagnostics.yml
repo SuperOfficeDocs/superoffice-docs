@@ -9,9 +9,7 @@ items:
   - SuperOffice.Diagnostics.DiagnoseMethod
   - SuperOffice.Diagnostics.Diagnostic
   - SuperOffice.Diagnostics.ExecutionStopwatch
-  - SuperOffice.Diagnostics.ILogger
   - SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
-  - SuperOffice.Diagnostics.ISoLoggerPlugin
   - SuperOffice.Diagnostics.ISoTimeRecorderContext
   - SuperOffice.Diagnostics.ISoTimeRecorderPlugin
   - SuperOffice.Diagnostics.LogElement
@@ -20,14 +18,13 @@ items:
   - SuperOffice.Diagnostics.ResourceTracer
   - SuperOffice.Diagnostics.ResourceTracerContext
   - SuperOffice.Diagnostics.ResourceTraceWriter
+  - SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter
   - SuperOffice.Diagnostics.SoEnvironmentInfoPluginAttribute
   - SuperOffice.Diagnostics.SoEventRecorder
   - SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent
   - SuperOffice.Diagnostics.SoLogger
   - SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext
   - SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContextPlugin
-  - SuperOffice.Diagnostics.SoLoggerInstance
-  - SuperOffice.Diagnostics.SoLoggerPluginAttribute
   - SuperOffice.Diagnostics.SoTimeLogger
   - SuperOffice.Diagnostics.SoTimeLoggerPlugin
   - SuperOffice.Diagnostics.SoTimer
@@ -43,7 +40,7 @@ items:
   fullName: SuperOffice.Diagnostics
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
 - uid: SuperOffice.Diagnostics.ExecutionStopwatch
   commentId: T:SuperOffice.Diagnostics.ExecutionStopwatch
@@ -52,19 +49,6 @@ references:
   name: ExecutionStopwatch
   nameWithType: ExecutionStopwatch
   fullName: SuperOffice.Diagnostics.ExecutionStopwatch
-- uid: SuperOffice.Diagnostics.ILogger
-  commentId: T:SuperOffice.Diagnostics.ILogger
-  parent: SuperOffice.Diagnostics
-  isExternal: true
-  name: ILogger
-  nameWithType: ILogger
-  fullName: SuperOffice.Diagnostics.ILogger
-- uid: SuperOffice.Diagnostics.SoLoggerInstance
-  commentId: T:SuperOffice.Diagnostics.SoLoggerInstance
-  isExternal: true
-  name: SoLoggerInstance
-  nameWithType: SoLoggerInstance
-  fullName: SuperOffice.Diagnostics.SoLoggerInstance
 - uid: SuperOffice.Diagnostics.SoEnvironmentInfoPluginAttribute
   commentId: T:SuperOffice.Diagnostics.SoEnvironmentInfoPluginAttribute
   parent: SuperOffice.Diagnostics
@@ -79,6 +63,20 @@ references:
   name: ISoEnvironmentInfoPlugin
   nameWithType: ISoEnvironmentInfoPlugin
   fullName: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
+- uid: SuperOffice.Diagnostics.LogEntryInfo
+  commentId: T:SuperOffice.Diagnostics.LogEntryInfo
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: LogEntryInfo
+  nameWithType: LogEntryInfo
+  fullName: SuperOffice.Diagnostics.LogEntryInfo
+- uid: SuperOffice.Diagnostics.LogElement
+  commentId: T:SuperOffice.Diagnostics.LogElement
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: LogElement
+  nameWithType: LogElement
+  fullName: SuperOffice.Diagnostics.LogElement
 - uid: SuperOffice.Diagnostics.ResourceTracer
   commentId: T:SuperOffice.Diagnostics.ResourceTracer
   parent: SuperOffice.Diagnostics
@@ -104,18 +102,63 @@ references:
   name: ResourceTraceWriter
   nameWithType: ResourceTraceWriter
   fullName: SuperOffice.Diagnostics.ResourceTraceWriter
-- uid: SuperOffice.Diagnostics.SoLoggerPluginAttribute
-  commentId: T:SuperOffice.Diagnostics.SoLoggerPluginAttribute
+- uid: SuperOffice.Diagnostics.DiagnoseMethod
+  commentId: T:SuperOffice.Diagnostics.DiagnoseMethod
+  parent: SuperOffice.Diagnostics
   isExternal: true
-  name: SoLoggerPluginAttribute
-  nameWithType: SoLoggerPluginAttribute
-  fullName: SuperOffice.Diagnostics.SoLoggerPluginAttribute
-- uid: SuperOffice.Diagnostics.ISoLoggerPlugin
-  commentId: T:SuperOffice.Diagnostics.ISoLoggerPlugin
+  name: DiagnoseMethod
+  nameWithType: DiagnoseMethod
+  fullName: SuperOffice.Diagnostics.DiagnoseMethod
+- uid: SuperOffice.Diagnostics.Diagnostic
+  commentId: T:SuperOffice.Diagnostics.Diagnostic
+  parent: SuperOffice.Diagnostics
   isExternal: true
-  name: ISoLoggerPlugin
-  nameWithType: ISoLoggerPlugin
-  fullName: SuperOffice.Diagnostics.ISoLoggerPlugin
+  name: Diagnostic
+  nameWithType: Diagnostic
+  fullName: SuperOffice.Diagnostics.Diagnostic
+- uid: SuperOffice.Diagnostics.DiagnoseException
+  commentId: T:SuperOffice.Diagnostics.DiagnoseException
+  isExternal: true
+  name: DiagnoseException
+  nameWithType: DiagnoseException
+  fullName: SuperOffice.Diagnostics.DiagnoseException
+- uid: SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter
+  commentId: T:SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter
+  isExternal: true
+  name: SimplePeriodicGrafanaReporter
+  nameWithType: SimplePeriodicGrafanaReporter
+  fullName: SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter
+- uid: SuperOffice.Diagnostics.SoEventRecorder
+  commentId: T:SuperOffice.Diagnostics.SoEventRecorder
+  isExternal: true
+  name: SoEventRecorder
+  nameWithType: SoEventRecorder
+  fullName: SuperOffice.Diagnostics.SoEventRecorder
+- uid: SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent
+  commentId: T:SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent
+  isExternal: true
+  name: SoEventRecorder.SoRecordedEvent
+  nameWithType: SoEventRecorder.SoRecordedEvent
+  fullName: SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent
+- uid: SuperOffice.Diagnostics.SoLogger
+  commentId: T:SuperOffice.Diagnostics.SoLogger
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: SoLogger
+  nameWithType: SoLogger
+  fullName: SuperOffice.Diagnostics.SoLogger
+- uid: SuperOffice.Diagnostics.SqlCommandParameterInfo
+  commentId: T:SuperOffice.Diagnostics.SqlCommandParameterInfo
+  isExternal: true
+  name: SqlCommandParameterInfo
+  nameWithType: SqlCommandParameterInfo
+  fullName: SuperOffice.Diagnostics.SqlCommandParameterInfo
+- uid: SuperOffice.Diagnostics.SqlCommandInfo
+  commentId: T:SuperOffice.Diagnostics.SqlCommandInfo
+  isExternal: true
+  name: SqlCommandInfo
+  nameWithType: SqlCommandInfo
+  fullName: SuperOffice.Diagnostics.SqlCommandInfo
 - uid: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext
   commentId: T:SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext
   isExternal: true
@@ -128,6 +171,32 @@ references:
   name: SoLoggerEnvironmentInfoContextPlugin
   nameWithType: SoLoggerEnvironmentInfoContextPlugin
   fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContextPlugin
+- uid: SuperOffice.Diagnostics.DeferredToString
+  commentId: T:SuperOffice.Diagnostics.DeferredToString
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: DeferredToString
+  nameWithType: DeferredToString
+  fullName: SuperOffice.Diagnostics.DeferredToString
+- uid: SuperOffice.Diagnostics.SoTimer
+  commentId: T:SuperOffice.Diagnostics.SoTimer
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: SoTimer
+  nameWithType: SoTimer
+  fullName: SuperOffice.Diagnostics.SoTimer
+- uid: SuperOffice.Diagnostics.SoTimeLoggerPlugin
+  commentId: T:SuperOffice.Diagnostics.SoTimeLoggerPlugin
+  isExternal: true
+  name: SoTimeLoggerPlugin
+  nameWithType: SoTimeLoggerPlugin
+  fullName: SuperOffice.Diagnostics.SoTimeLoggerPlugin
+- uid: SuperOffice.Diagnostics.SoTimeLogger
+  commentId: T:SuperOffice.Diagnostics.SoTimeLogger
+  isExternal: true
+  name: SoTimeLogger
+  nameWithType: SoTimeLogger
+  fullName: SuperOffice.Diagnostics.SoTimeLogger
 - uid: SuperOffice.Diagnostics.SoTimerType
   commentId: T:SuperOffice.Diagnostics.SoTimerType
   parent: SuperOffice.Diagnostics
@@ -156,98 +225,6 @@ references:
   name: SoTimeRecorderPluginAttribute
   nameWithType: SoTimeRecorderPluginAttribute
   fullName: SuperOffice.Diagnostics.SoTimeRecorderPluginAttribute
-- uid: SuperOffice.Diagnostics.LogEntryInfo
-  commentId: T:SuperOffice.Diagnostics.LogEntryInfo
-  parent: SuperOffice.Diagnostics
-  isExternal: true
-  name: LogEntryInfo
-  nameWithType: LogEntryInfo
-  fullName: SuperOffice.Diagnostics.LogEntryInfo
-- uid: SuperOffice.Diagnostics.LogElement
-  commentId: T:SuperOffice.Diagnostics.LogElement
-  parent: SuperOffice.Diagnostics
-  isExternal: true
-  name: LogElement
-  nameWithType: LogElement
-  fullName: SuperOffice.Diagnostics.LogElement
-- uid: SuperOffice.Diagnostics.DiagnoseMethod
-  commentId: T:SuperOffice.Diagnostics.DiagnoseMethod
-  parent: SuperOffice.Diagnostics
-  isExternal: true
-  name: DiagnoseMethod
-  nameWithType: DiagnoseMethod
-  fullName: SuperOffice.Diagnostics.DiagnoseMethod
-- uid: SuperOffice.Diagnostics.Diagnostic
-  commentId: T:SuperOffice.Diagnostics.Diagnostic
-  parent: SuperOffice.Diagnostics
-  isExternal: true
-  name: Diagnostic
-  nameWithType: Diagnostic
-  fullName: SuperOffice.Diagnostics.Diagnostic
-- uid: SuperOffice.Diagnostics.DiagnoseException
-  commentId: T:SuperOffice.Diagnostics.DiagnoseException
-  isExternal: true
-  name: DiagnoseException
-  nameWithType: DiagnoseException
-  fullName: SuperOffice.Diagnostics.DiagnoseException
-- uid: SuperOffice.Diagnostics.SoEventRecorder
-  commentId: T:SuperOffice.Diagnostics.SoEventRecorder
-  isExternal: true
-  name: SoEventRecorder
-  nameWithType: SoEventRecorder
-  fullName: SuperOffice.Diagnostics.SoEventRecorder
-- uid: SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent
-  commentId: T:SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent
-  isExternal: true
-  name: SoEventRecorder.SoRecordedEvent
-  nameWithType: SoEventRecorder.SoRecordedEvent
-  fullName: SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent
-- uid: SuperOffice.Diagnostics.SoLogger
-  commentId: T:SuperOffice.Diagnostics.SoLogger
-  parent: SuperOffice.Diagnostics
-  isExternal: true
-  name: SoLogger
-  nameWithType: SoLogger
-  fullName: SuperOffice.Diagnostics.SoLogger
-- uid: SuperOffice.Diagnostics.SqlCommandParameterInfo
-  commentId: T:SuperOffice.Diagnostics.SqlCommandParameterInfo
-  isExternal: true
-  name: SqlCommandParameterInfo
-  nameWithType: SqlCommandParameterInfo
-  fullName: SuperOffice.Diagnostics.SqlCommandParameterInfo
-- uid: SuperOffice.Diagnostics.SqlCommandInfo
-  commentId: T:SuperOffice.Diagnostics.SqlCommandInfo
-  parent: SuperOffice.Diagnostics
-  isExternal: true
-  name: SqlCommandInfo
-  nameWithType: SqlCommandInfo
-  fullName: SuperOffice.Diagnostics.SqlCommandInfo
-- uid: SuperOffice.Diagnostics.DeferredToString
-  commentId: T:SuperOffice.Diagnostics.DeferredToString
-  parent: SuperOffice.Diagnostics
-  isExternal: true
-  name: DeferredToString
-  nameWithType: DeferredToString
-  fullName: SuperOffice.Diagnostics.DeferredToString
-- uid: SuperOffice.Diagnostics.SoTimer
-  commentId: T:SuperOffice.Diagnostics.SoTimer
-  parent: SuperOffice.Diagnostics
-  isExternal: true
-  name: SoTimer
-  nameWithType: SoTimer
-  fullName: SuperOffice.Diagnostics.SoTimer
-- uid: SuperOffice.Diagnostics.SoTimeLoggerPlugin
-  commentId: T:SuperOffice.Diagnostics.SoTimeLoggerPlugin
-  isExternal: true
-  name: SoTimeLoggerPlugin
-  nameWithType: SoTimeLoggerPlugin
-  fullName: SuperOffice.Diagnostics.SoTimeLoggerPlugin
-- uid: SuperOffice.Diagnostics.SoTimeLogger
-  commentId: T:SuperOffice.Diagnostics.SoTimeLogger
-  isExternal: true
-  name: SoTimeLogger
-  nameWithType: SoTimeLogger
-  fullName: SuperOffice.Diagnostics.SoTimeLogger
 - uid: SuperOffice.Diagnostics
   commentId: N:SuperOffice.Diagnostics
   isExternal: true

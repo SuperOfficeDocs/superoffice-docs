@@ -20,10 +20,10 @@ items:
   fullName: SuperOffice.IO.MsWordGenerator
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nGenerator for Microsoft Word documents.\n"
   syntax:
@@ -93,10 +93,10 @@ items:
   fullName: SuperOffice.IO.MsWordGenerator.MsWordGenerator(System.IO.Stream, SuperOffice.IO.TagContainer, SuperOffice.Data.GeneratorEncoding, System.Byte)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nProtected internal constructor for the Microsoft Word generator.\n"
   syntax:
@@ -131,10 +131,10 @@ items:
   fullName: SuperOffice.IO.MsWordGenerator.OnStart()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nEvent raised when parsing is started.\n"
   syntax:
@@ -160,10 +160,10 @@ items:
   fullName: SuperOffice.IO.MsWordGenerator.OnProcessTag(System.Int64, System.Byte[])
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nCalled when a tag has been estracted from the template file.\n"
   remarks: "\nStrings in word documents are either in Windows 1252 or UTF 16 Little endian encoding.  \nString data is held in blocks of 512 characters.  There might be one, but not more \nthan one, switch of encoding within a tag.\n"
@@ -203,10 +203,10 @@ items:
   fullName: SuperOffice.IO.MsWordGenerator.OnEnd()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nCalled when the template has been parsed.\n"
   syntax:
@@ -232,10 +232,10 @@ items:
   fullName: SuperOffice.IO.MsWordGenerator.StartTag(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nIdentify a tag start.\n"
   syntax:
@@ -268,10 +268,10 @@ items:
   fullName: SuperOffice.IO.MsWordGenerator.EndTag(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nIdentify a tag end.\n"
   syntax:
@@ -304,10 +304,10 @@ items:
   fullName: SuperOffice.IO.MsWordGenerator.IsValidTagData(System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nCalled for each byte in a tag, to verify that the data within the tags are valid.\n"
   remarks: The default implementation will allways return true.

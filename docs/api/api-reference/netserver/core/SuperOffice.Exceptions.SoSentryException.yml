@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Exceptions.SoSentryException
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nSentryException is thrown by the CheckIfCan() methods on field and tablerights and on sentries.\nIt will use the sentry&apos;s descriptive text as the message.\n"
   syntax:
@@ -80,10 +80,10 @@ items:
   fullName: SuperOffice.Exceptions.SoSentryException.SoSentryException(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nException with a message.\n"
   syntax:
@@ -109,10 +109,10 @@ items:
   fullName: SuperOffice.Exceptions.SoSentryException.SoSentryException(System.String, System.Exception)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nSentry exception wrapping another exception.\n"
   syntax:

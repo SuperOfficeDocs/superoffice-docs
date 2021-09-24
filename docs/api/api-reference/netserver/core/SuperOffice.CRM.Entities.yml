@@ -221,83 +221,6 @@ items:
   assemblies:
   - SoDataBase
 references:
-- uid: SuperOffice.CRM.Entities.ConsentManagement
-  commentId: T:SuperOffice.CRM.Entities.ConsentManagement
-  isExternal: true
-  name: ConsentManagement
-  nameWithType: ConsentManagement
-  fullName: SuperOffice.CRM.Entities.ConsentManagement
-- uid: SuperOffice.CRM.Entities.ConsentInfo
-  commentId: T:SuperOffice.CRM.Entities.ConsentInfo
-  isExternal: true
-  name: ConsentInfo
-  nameWithType: ConsentInfo
-  fullName: SuperOffice.CRM.Entities.ConsentInfo
-- uid: SuperOffice.CRM.Entities.ConsentManagementEmail
-  commentId: T:SuperOffice.CRM.Entities.ConsentManagementEmail
-  isExternal: true
-  name: ConsentManagementEmail
-  nameWithType: ConsentManagementEmail
-  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail
-- uid: SuperOffice.CRM.Entities.EntityCustomFieldsHelper
-  commentId: T:SuperOffice.CRM.Entities.EntityCustomFieldsHelper
-  parent: SuperOffice.CRM.Entities
-  isExternal: true
-  name: EntityCustomFieldsHelper
-  nameWithType: EntityCustomFieldsHelper
-  fullName: SuperOffice.CRM.Entities.EntityCustomFieldsHelper
-- uid: SuperOffice.CRM.Entities.SelectionTypeManager
-  commentId: T:SuperOffice.CRM.Entities.SelectionTypeManager
-  isExternal: true
-  name: SelectionTypeManager
-  nameWithType: SelectionTypeManager
-  fullName: SuperOffice.CRM.Entities.SelectionTypeManager
-- uid: SuperOffice.CRM.Entities.SelectionTypeInfo
-  commentId: T:SuperOffice.CRM.Entities.SelectionTypeInfo
-  parent: SuperOffice.CRM.Entities
-  isExternal: true
-  name: SelectionTypeInfo
-  nameWithType: SelectionTypeInfo
-  fullName: SuperOffice.CRM.Entities.SelectionTypeInfo
-- uid: SuperOffice.CRM.Entities.ValidatorHelper
-  commentId: T:SuperOffice.CRM.Entities.ValidatorHelper
-  isExternal: true
-  name: ValidatorHelper
-  nameWithType: ValidatorHelper
-  fullName: SuperOffice.CRM.Entities.ValidatorHelper
-- uid: SuperOffice.CRM.Entities.EntityManagementFunctions
-  commentId: T:SuperOffice.CRM.Entities.EntityManagementFunctions
-  isExternal: true
-  name: EntityManagementFunctions
-  nameWithType: EntityManagementFunctions
-  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions
-- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
-  commentId: T:SuperOffice.CRM.Entities.EntityExtraFieldsHelper
-  parent: SuperOffice.CRM.Entities
-  isExternal: true
-  name: EntityExtraFieldsHelper
-  nameWithType: EntityExtraFieldsHelper
-  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
-- uid: SuperOffice.CRM.Entities.SaintConfigurationCache
-  commentId: T:SuperOffice.CRM.Entities.SaintConfigurationCache
-  parent: SuperOffice.CRM.Entities
-  isExternal: true
-  name: SaintConfigurationCache
-  nameWithType: SaintConfigurationCache
-  fullName: SuperOffice.CRM.Entities.SaintConfigurationCache
-- uid: SuperOffice.CRM.Entities.ProgressCallback
-  commentId: T:SuperOffice.CRM.Entities.ProgressCallback
-  parent: SuperOffice.CRM.Entities
-  isExternal: true
-  name: ProgressCallback
-  nameWithType: ProgressCallback
-  fullName: SuperOffice.CRM.Entities.ProgressCallback
-- uid: SuperOffice.CRM.Entities.SaintRegenerator
-  commentId: T:SuperOffice.CRM.Entities.SaintRegenerator
-  isExternal: true
-  name: SaintRegenerator
-  nameWithType: SaintRegenerator
-  fullName: SuperOffice.CRM.Entities.SaintRegenerator
 - uid: SuperOffice.CRM.Entities.AppointmentCollection
   commentId: T:SuperOffice.CRM.Entities.AppointmentCollection
   parent: SuperOffice.CRM.Entities
@@ -641,6 +564,24 @@ references:
   name: ConflictDetector.ConflictTime
   nameWithType: ConflictDetector.ConflictTime
   fullName: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime
+- uid: SuperOffice.CRM.Entities.ConsentManagement
+  commentId: T:SuperOffice.CRM.Entities.ConsentManagement
+  isExternal: true
+  name: ConsentManagement
+  nameWithType: ConsentManagement
+  fullName: SuperOffice.CRM.Entities.ConsentManagement
+- uid: SuperOffice.CRM.Entities.ConsentInfo
+  commentId: T:SuperOffice.CRM.Entities.ConsentInfo
+  isExternal: true
+  name: ConsentInfo
+  nameWithType: ConsentInfo
+  fullName: SuperOffice.CRM.Entities.ConsentInfo
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail
+  commentId: T:SuperOffice.CRM.Entities.ConsentManagementEmail
+  isExternal: true
+  name: ConsentManagementEmail
+  nameWithType: ConsentManagementEmail
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail
 - uid: SuperOffice.CRM.Entities.ContactCollection
   commentId: T:SuperOffice.CRM.Entities.ContactCollection
   parent: SuperOffice.CRM.Entities
@@ -1060,6 +1001,13 @@ references:
   name: EntityCollectionBase
   nameWithType: EntityCollectionBase
   fullName: SuperOffice.CRM.Entities.EntityCollectionBase
+- uid: SuperOffice.CRM.Entities.EntityCustomFieldsHelper
+  commentId: T:SuperOffice.CRM.Entities.EntityCustomFieldsHelper
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: EntityCustomFieldsHelper
+  nameWithType: EntityCustomFieldsHelper
+  fullName: SuperOffice.CRM.Entities.EntityCustomFieldsHelper
 - uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2
   commentId: T:SuperOffice.CRM.Entities.EntityDetailsHelperModified`2
   isExternal: true
@@ -1162,6 +1110,13 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+  commentId: T:SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: EntityExtraFieldsHelper
+  nameWithType: EntityExtraFieldsHelper
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
 - uid: SuperOffice.CRM.Entities.EntityIdxBase
   commentId: T:SuperOffice.CRM.Entities.EntityIdxBase
   parent: SuperOffice.CRM.Entities
@@ -1220,6 +1175,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions
+  commentId: T:SuperOffice.CRM.Entities.EntityManagementFunctions
+  isExternal: true
+  name: EntityManagementFunctions
+  nameWithType: EntityManagementFunctions
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions
 - uid: SuperOffice.CRM.Entities.EntityPublishHelper
   commentId: T:SuperOffice.CRM.Entities.EntityPublishHelper
   parent: SuperOffice.CRM.Entities
@@ -2209,6 +2170,45 @@ references:
   name: RecurrenceManager
   nameWithType: RecurrenceManager
   fullName: SuperOffice.CRM.Entities.RecurrenceManager
+- uid: SuperOffice.CRM.Entities.SaintConfigurationCache
+  commentId: T:SuperOffice.CRM.Entities.SaintConfigurationCache
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: SaintConfigurationCache
+  nameWithType: SaintConfigurationCache
+  fullName: SuperOffice.CRM.Entities.SaintConfigurationCache
+- uid: SuperOffice.CRM.Entities.ProgressCallback
+  commentId: T:SuperOffice.CRM.Entities.ProgressCallback
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: ProgressCallback
+  nameWithType: ProgressCallback
+  fullName: SuperOffice.CRM.Entities.ProgressCallback
+- uid: SuperOffice.CRM.Entities.SaintRegenerator
+  commentId: T:SuperOffice.CRM.Entities.SaintRegenerator
+  isExternal: true
+  name: SaintRegenerator
+  nameWithType: SaintRegenerator
+  fullName: SuperOffice.CRM.Entities.SaintRegenerator
+- uid: SuperOffice.CRM.Entities.SelectionTypeManager
+  commentId: T:SuperOffice.CRM.Entities.SelectionTypeManager
+  isExternal: true
+  name: SelectionTypeManager
+  nameWithType: SelectionTypeManager
+  fullName: SuperOffice.CRM.Entities.SelectionTypeManager
+- uid: SuperOffice.CRM.Entities.SelectionTypeInfo
+  commentId: T:SuperOffice.CRM.Entities.SelectionTypeInfo
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: SelectionTypeInfo
+  nameWithType: SelectionTypeInfo
+  fullName: SuperOffice.CRM.Entities.SelectionTypeInfo
+- uid: SuperOffice.CRM.Entities.ValidatorHelper
+  commentId: T:SuperOffice.CRM.Entities.ValidatorHelper
+  isExternal: true
+  name: ValidatorHelper
+  nameWithType: ValidatorHelper
+  fullName: SuperOffice.CRM.Entities.ValidatorHelper
 - uid: SuperOffice.CRM.Entities
   commentId: N:SuperOffice.CRM.Entities
   isExternal: true

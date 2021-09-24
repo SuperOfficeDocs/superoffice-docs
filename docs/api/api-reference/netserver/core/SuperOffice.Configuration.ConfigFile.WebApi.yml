@@ -19,10 +19,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.WebApi
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nConfiguration values related to the WebApi web services.\n"
   syntax:
@@ -57,10 +57,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithUsername
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAllow WebAPI to authorize with username + password. Default true.\n"
   syntax:
@@ -90,10 +90,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithTicket
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAllow WebAPI to authorize with session tickets. Default true.\n"
   syntax:
@@ -123,10 +123,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithImplicit
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAllow WebAPI to authorize with implicit identity from IIS. Default true.\n"
   syntax:
@@ -156,10 +156,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.WebApi.CORSEnable
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nAllow 3rd party web pages to call WebAPI from the browser. Default false.\n"
   syntax:
@@ -189,10 +189,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.WebApi.CORSOrigin
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nIf CORS is enabled, define the Origins that are allowed to call the WebAPI from the browser. Default &apos;&apos; (none).\n"
   syntax:
@@ -222,10 +222,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.WebApi.Documentation
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nTurn on/off Swagger/OpenAPI documentation generation for WebAPI. Turn off to reduce memory usage.\n"
   syntax:

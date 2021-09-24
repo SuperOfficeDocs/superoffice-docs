@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.IO.ProviderStream.AccessMode
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nMode in which the <see cref=\"!:DocumentStream\"></see> is accessed.\n"
   syntax:
@@ -47,10 +47,10 @@ items:
   fullName: SuperOffice.IO.ProviderStream.AccessMode.Read
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nRead from the document archive\n"
   syntax:
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.IO.ProviderStream.AccessMode.Write
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.IO
   summary: "\nWrite to the document archive\n"
   syntax:

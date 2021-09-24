@@ -38,10 +38,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nColor index of tasks\n"
   syntax:
@@ -70,10 +70,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.LightBlue
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Light blue\n"
   syntax:
@@ -98,10 +98,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.DarkBlue
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Dark blue\n"
   syntax:
@@ -126,10 +126,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.LightGray
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Light gray\n"
   syntax:
@@ -154,10 +154,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.DarkGray
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Dark gray\n"
   syntax:
@@ -182,10 +182,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.LightGreen
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Light green\n"
   syntax:
@@ -210,10 +210,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.DarkGreen
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Dark Green\n"
   syntax:
@@ -238,10 +238,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.LightYellow
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: Light Yellow\n"
   syntax:
@@ -266,10 +266,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.DarkYellow
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: Dark Yellow\n"
   syntax:
@@ -294,10 +294,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.LightRed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Light Red\n"
   syntax:
@@ -322,10 +322,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.DarkRed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n9: Dark Red\n"
   syntax:
@@ -350,10 +350,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.BlueAlt1
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n10: Blue alternative 1\n"
   syntax:
@@ -378,10 +378,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.BlueAlt2
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n11: Blue alternative 2\n"
   syntax:
@@ -406,10 +406,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.BlueAlt3
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n12: Blue alternative 3\n"
   syntax:
@@ -434,10 +434,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.GrayAlt1
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n13: Gray alternative 1\n"
   syntax:
@@ -462,10 +462,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.GrayAlt2
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n14: Gray alternative 2\n"
   syntax:
@@ -490,10 +490,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.GrayAlt3
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n15: Gray alternative 3\n"
   syntax:
@@ -518,10 +518,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.GreenAlt1
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16: Green alternative 1\n"
   syntax:
@@ -546,10 +546,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.GreenAlt2
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n17: Green alternative 2\n"
   syntax:
@@ -574,10 +574,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.GreenAlt3
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n18: Green alternative 3\n"
   syntax:
@@ -602,10 +602,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.YellowAlt1
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n19: Yellow alternative 1\n"
   syntax:
@@ -630,10 +630,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.YellowAlt2
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n20: Yellow alternative 2\n"
   syntax:
@@ -658,10 +658,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.YellowAlt3
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n21: Yellow alternative 3\n"
   syntax:
@@ -686,10 +686,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.RedAlt1
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n22: Red alternative 1\n"
   syntax:
@@ -714,10 +714,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.RedAlt2
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n23: Red alternative 2\n"
   syntax:
@@ -742,10 +742,10 @@ items:
   fullName: SuperOffice.Data.ColorIndex.RedAlt3
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n24: Red alternative 3\n"
   syntax:

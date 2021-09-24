@@ -23,10 +23,10 @@ items:
   fullName: SuperOffice.Data.QuoteVersionState
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nState of a Quote Version\nThis Enum is used by:  QuoteVersion.State; QuoteVersion.ArchivedState\n"
   syntax:
@@ -57,10 +57,10 @@ items:
   fullName: SuperOffice.Data.QuoteVersionState.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: State unknown\n"
   syntax:
@@ -85,10 +85,10 @@ items:
   fullName: SuperOffice.Data.QuoteVersionState.Draft
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Draft that has been calculated, and ERP has verified it as OK\n"
   syntax:
@@ -113,10 +113,10 @@ items:
   fullName: SuperOffice.Data.QuoteVersionState.DraftNotCalculated
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: This is a draft that has not been calculated, prices and other attributes may be &apos;invalid&apos; relative to ERP system rules\n"
   syntax:
@@ -141,10 +141,10 @@ items:
   fullName: SuperOffice.Data.QuoteVersionState.DraftNeedsApproval
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Draft has been checked, and there was a problem that needs (human) approval\n"
   syntax:
@@ -169,10 +169,10 @@ items:
   fullName: SuperOffice.Data.QuoteVersionState.DraftApproved
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Draft with potential problems has been human-approved\n"
   syntax:
@@ -197,10 +197,10 @@ items:
   fullName: SuperOffice.Data.QuoteVersionState.DraftNotApproved
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Draft has been checked, there was a problem, and (human) approval was NOT granted\n"
   syntax:
@@ -225,10 +225,10 @@ items:
   fullName: SuperOffice.Data.QuoteVersionState.Sent
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: Sent to customer, and is now a legally binding document\n"
   syntax:
@@ -253,10 +253,10 @@ items:
   fullName: SuperOffice.Data.QuoteVersionState.Archived
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: Archived - previous state saved in ArchivedState, newer versions exist\n"
   syntax:
@@ -281,10 +281,10 @@ items:
   fullName: SuperOffice.Data.QuoteVersionState.Lost
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Version was rejected be the customer - we lost the sale\n"
   syntax:
@@ -309,10 +309,10 @@ items:
   fullName: SuperOffice.Data.QuoteVersionState.Sold
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n9: Quote was accepted and the sale is &apos;Sold&apos;\n"
   syntax:

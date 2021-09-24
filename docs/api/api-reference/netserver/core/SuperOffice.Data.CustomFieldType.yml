@@ -29,10 +29,10 @@ items:
   fullName: SuperOffice.Data.CustomFieldType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCustom Field type: 1 = Number, 2 = Short text, 3 = Long text, 4 = Date, 5 = Unlimited date, 6 = Checkbox, 7 = Drop-down listbox, 8 = Decimal, 9 = DateTime, 10 = Time, 11 = TimeSpan, 12 = Relation, 13 = Attachment\n"
   syntax:
@@ -61,10 +61,10 @@ items:
   fullName: SuperOffice.Data.CustomFieldType.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown/Undefined field type: 0\n"
   syntax:
@@ -89,10 +89,10 @@ items:
   fullName: SuperOffice.Data.CustomFieldType.Integer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Number (32-bit integer): &apos;[I:123]&apos;\n"
   syntax:
@@ -117,10 +117,10 @@ items:
   fullName: SuperOffice.Data.CustomFieldType.ShortText
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Short text, up to 255 characters: &apos;text value&apos;\n"
   syntax:
@@ -145,10 +145,10 @@ items:
   fullName: SuperOffice.Data.CustomFieldType.LongText
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Long text: &apos;long text value&apos;\n"
   syntax:
@@ -173,10 +173,10 @@ items:
   fullName: SuperOffice.Data.CustomFieldType.Date
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Date: &apos;[D:06/19/2019]&apos;\n"
   syntax:
@@ -201,10 +201,10 @@ items:
   fullName: SuperOffice.Data.CustomFieldType.Blob
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Binary blob, encoded as Base64 string.\n"
   syntax:
@@ -229,10 +229,10 @@ items:
   fullName: SuperOffice.Data.CustomFieldType.Checkbox
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: Boolean, stored as an integer, 1 = checked/true, 0 = unchecked/false: &apos;[I:1]&apos;\n"
   syntax:
@@ -257,10 +257,10 @@ items:
   fullName: SuperOffice.Data.CustomFieldType.MdoList
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: MDO List item reference, stored as an integer ID: &apos;[I:123]&apos;\n"
   syntax:
@@ -285,10 +285,10 @@ items:
   fullName: SuperOffice.Data.CustomFieldType.Decimal
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Decimal / floating point, stored as a double: &apos;[F:3.14159]&apos;\n"
   syntax:
@@ -313,10 +313,10 @@ items:
   fullName: SuperOffice.Data.CustomFieldType.DateTime
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n9: Date + Time:  &apos;[DT:06/19/2019 14:35:56.00000]&apos;\n"
   syntax:
@@ -341,10 +341,10 @@ items:
   fullName: SuperOffice.Data.CustomFieldType.Time
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n10: Time only - ignore the date part: &apos;[T:06/19/2019 14:35:56.00000]&apos;\n"
   syntax:
@@ -369,10 +369,10 @@ items:
   fullName: SuperOffice.Data.CustomFieldType.TimeSpan
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n11: Timespan in some units (hours, minutes or seconds): &apos;[I:1234]&apos;\n"
   syntax:
@@ -397,10 +397,10 @@ items:
   fullName: SuperOffice.Data.CustomFieldType.RelationTo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n12: Relation to another table. Stored as an int (primary key of record in other table): &apos;[I:1234]&apos;\n"
   syntax:
@@ -425,10 +425,10 @@ items:
   fullName: SuperOffice.Data.CustomFieldType.Attachment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n13: File Attachment: int record id in attachment table: &apos;[I:1234]&apos;\n"
   syntax:
@@ -453,10 +453,10 @@ items:
   fullName: SuperOffice.Data.CustomFieldType.DynamicLink
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n14: Dynamic Link: contains link redirect value: &apos;https://example.com/scripts/ticket.fcgi?action=redirectLink&amp;extraFieldId=5&amp;table=y_equipment&amp;id=2&apos;\n"
   syntax:
@@ -481,10 +481,10 @@ items:
   fullName: SuperOffice.Data.CustomFieldType.ListText
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n15: Text with list items to choose between: &apos;text value&apos;\n"
   syntax:

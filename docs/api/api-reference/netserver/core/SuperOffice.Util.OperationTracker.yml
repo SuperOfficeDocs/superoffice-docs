@@ -8,9 +8,7 @@ items:
   - SuperOffice.Util.OperationTracker.#ctor(System.String)
   - SuperOffice.Util.OperationTracker.AddInfo(System.String,System.Object)
   - SuperOffice.Util.OperationTracker.Dispose
-  - SuperOffice.Util.OperationTracker.IsActive
   - SuperOffice.Util.OperationTracker.ValueToString(System.Object)
-  - SuperOffice.Util.OperationTracker.WriteEventLog(System.String,System.Object[])
   langs:
   - csharp
   - vb
@@ -19,13 +17,13 @@ items:
   fullName: SuperOffice.Util.OperationTracker
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
-  summary: "\nFaçade for the LeanSentry Tracker class; enables us to use LeanSentry tracking without \nintroducing a hard dependency.\n"
-  remarks: "\nLeanSentry will catch and store a trace for requests that &apos;take too long&apos;; and we can\ngain insight by including logging information. To ensure that this code works even if\nthe LeanSentry dll is not present, everything happens dynamically.\n<br />\nRecommended use:\n<pre><code>using (var t = new LeanSentryTracker(&quot;Tracker name&quot;)\n{\n	...\n	t.AddInfo(&quot;My extra info&quot;, someObject);	// avoid ToString() and other expensive formatting here!!\n	...\n}</code></pre>\nThe LeanSentryTracker is IDisposable and <strong>must</strong> be disposed to work properly.\nDo not dispose after ASP.NET is done with the request.\n<br />\nThe <xref href=\"SuperOffice.Util.OperationTracker.AddInfo(System.String%2cSystem.Object)\" data-throw-if-not-resolved=\"false\"></xref> method does intelligent, shallow decoding of objects and\narrays to try to generate a reasonable amount of information in the tracking log. You should\ngenerally not have to do your own object.ToString() decoding, unless you have special needs.\nBeware of writing complicated formatting code that slows down the application or creates\na huge number of strings on the heap!\n"
+  summary: "\nFaçade for the <xref href=\"System.Diagnostics.Activity\" data-throw-if-not-resolved=\"false\"></xref> tracking class\n"
+  remarks: "\nThe <xref href=\"SuperOffice.Util.OperationTracker.AddInfo(System.String%2cSystem.Object)\" data-throw-if-not-resolved=\"false\"></xref> method does intelligent, shallow decoding of objects and\narrays to try to generate a reasonable amount of information in the tracking log. You should\ngenerally not have to do your own object.ToString() decoding, unless you have special needs.\nBeware of writing complicated formatting code that slows down the application or creates\na huge number of strings on the heap!\n"
   syntax:
     content: 'public class OperationTracker : IDisposable'
     content.vb: >-
@@ -64,12 +62,12 @@ items:
   fullName: SuperOffice.Util.OperationTracker.OperationTracker(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
-  summary: "\nConstructor to create a Tracker; if tracking is not available then the returned instance will \nbe inactive and cheap to call\n"
+  summary: "\nConstructor to create a Tracker\n"
   syntax:
     content: public OperationTracker(string trackerName)
     parameters:
@@ -93,10 +91,10 @@ items:
   fullName: SuperOffice.Util.OperationTracker.AddInfo(System.String, System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nAdd information to the key/value property bag in the tracker. Existing key\nwill have its value replaced. See remarks for <xref href=\"SuperOffice.Util.OperationTracker.ValueToString(System.Object)\" data-throw-if-not-resolved=\"false\"></xref>\nfor object formatting!\n"
   syntax:
@@ -126,10 +124,10 @@ items:
   fullName: SuperOffice.Util.OperationTracker.ValueToString(System.Object)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
   summary: "\nDecode and format objects to a reasonable level\n"
   remarks: "\nPrimitive types are converted to strings directly.  One-dimensional Arrays will decode the first\nthree elements. Complex types will only show the type name, to avoid the huge\nrecursive descent that is present in generated service objects.\n"
@@ -161,12 +159,12 @@ items:
   fullName: SuperOffice.Util.OperationTracker.Dispose()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Util
-  summary: "\nDispose of the tracker, this ends the stopwatch and dumps any information to the\nLeanSentry services that pass it on to the cloud\n"
+  summary: "\nDispose of the tracker, stopping the <xref href=\"System.Diagnostics.Activity\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
     content: public void Dispose()
     content.vb: Public Sub Dispose
@@ -177,74 +175,6 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.Util.OperationTracker.WriteEventLog(System.String,System.Object[])
-  commentId: M:SuperOffice.Util.OperationTracker.WriteEventLog(System.String,System.Object[])
-  id: WriteEventLog(System.String,System.Object[])
-  parent: SuperOffice.Util.OperationTracker
-  langs:
-  - csharp
-  - vb
-  name: WriteEventLog(String, Object[])
-  nameWithType: OperationTracker.WriteEventLog(String, Object[])
-  fullName: SuperOffice.Util.OperationTracker.WriteEventLog(System.String, System.Object[])
-  type: Method
-  source:
-    path: SOCore
-    isExternal: true
-  assemblies:
-  - SOCore
-  namespace: SuperOffice.Util
-  syntax:
-    content: public static void WriteEventLog(string message, params object[] parameters)
-    parameters:
-    - id: message
-      type: System.String
-    - id: parameters
-      type: System.Object[]
-    content.vb: Public Shared Sub WriteEventLog(message As String, ParamArray parameters As Object())
-  overload: SuperOffice.Util.OperationTracker.WriteEventLog*
-  nameWithType.vb: OperationTracker.WriteEventLog(String, Object())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.Util.OperationTracker.WriteEventLog(System.String, System.Object())
-  name.vb: WriteEventLog(String, Object())
-- uid: SuperOffice.Util.OperationTracker.IsActive
-  commentId: P:SuperOffice.Util.OperationTracker.IsActive
-  id: IsActive
-  parent: SuperOffice.Util.OperationTracker
-  langs:
-  - csharp
-  - vb
-  name: IsActive
-  nameWithType: OperationTracker.IsActive
-  fullName: SuperOffice.Util.OperationTracker.IsActive
-  type: Property
-  source:
-    path: SOCore
-    isExternal: true
-  assemblies:
-  - SOCore
-  namespace: SuperOffice.Util
-  summary: "\nIs the LeanSentryTracker available? \n"
-  syntax:
-    content: public static bool IsActive { get; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public Shared ReadOnly Property IsActive As Boolean
-  overload: SuperOffice.Util.OperationTracker.IsActive*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
@@ -778,48 +708,3 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Util.OperationTracker.WriteEventLog*
-  commentId: Overload:SuperOffice.Util.OperationTracker.WriteEventLog
-  isExternal: true
-  name: WriteEventLog
-  nameWithType: OperationTracker.WriteEventLog
-  fullName: SuperOffice.Util.OperationTracker.WriteEventLog
-- uid: System.Object[]
-  isExternal: true
-  name: Object[]
-  nameWithType: Object[]
-  fullName: System.Object[]
-  nameWithType.vb: Object()
-  fullName.vb: System.Object()
-  name.vb: Object()
-  spec.csharp:
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.Util.OperationTracker.IsActive*
-  commentId: Overload:SuperOffice.Util.OperationTracker.IsActive
-  isExternal: true
-  name: IsActive
-  nameWithType: OperationTracker.IsActive
-  fullName: SuperOffice.Util.OperationTracker.IsActive
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean

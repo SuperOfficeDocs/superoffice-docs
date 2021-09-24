@@ -8,6 +8,7 @@ items:
   - SuperOffice.Data.ScopedSystemEvent.#ctor(SuperOffice.CRM.Rows.SystemEventRow,System.Boolean)
   - SuperOffice.Data.ScopedSystemEvent.Dispose
   - SuperOffice.Data.ScopedSystemEvent.IsNew
+  - SuperOffice.Data.ScopedSystemEvent.OnDispose
   - SuperOffice.Data.ScopedSystemEvent.Row
   langs:
   - csharp
@@ -165,6 +166,36 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.Data.ScopedSystemEvent.OnDispose
+  commentId: P:SuperOffice.Data.ScopedSystemEvent.OnDispose
+  id: OnDispose
+  parent: SuperOffice.Data.ScopedSystemEvent
+  langs:
+  - csharp
+  - vb
+  name: OnDispose
+  nameWithType: ScopedSystemEvent.OnDispose
+  fullName: SuperOffice.Data.ScopedSystemEvent.OnDispose
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public Action OnDispose { get; set; }
+    parameters: []
+    return:
+      type: System.Action
+    content.vb: Public Property OnDispose As Action
+  overload: SuperOffice.Data.ScopedSystemEvent.OnDispose*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
@@ -711,3 +742,16 @@ references:
   name: IsNew
   nameWithType: ScopedSystemEvent.IsNew
   fullName: SuperOffice.Data.ScopedSystemEvent.IsNew
+- uid: SuperOffice.Data.ScopedSystemEvent.OnDispose*
+  commentId: Overload:SuperOffice.Data.ScopedSystemEvent.OnDispose
+  isExternal: true
+  name: OnDispose
+  nameWithType: ScopedSystemEvent.OnDispose
+  fullName: SuperOffice.Data.ScopedSystemEvent.OnDispose
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action

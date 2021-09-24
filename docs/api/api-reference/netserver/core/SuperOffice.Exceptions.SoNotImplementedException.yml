@@ -14,10 +14,10 @@ items:
   fullName: SuperOffice.Exceptions.SoNotImplementedException
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nException thrown when trying to access functionality that was not implemented.  \nThis exception should never be thrown in release code.  \nPlease notify sdk@superoffice.com if this exception is caught.\n"
   syntax:
@@ -79,10 +79,10 @@ items:
   fullName: SuperOffice.Exceptions.SoNotImplementedException.SoNotImplementedException(System.String)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Exceptions
   summary: "\nDefault constructor.\n"
   syntax:

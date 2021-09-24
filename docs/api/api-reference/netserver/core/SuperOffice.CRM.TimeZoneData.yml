@@ -33,10 +33,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneData
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public class TimeZoneData
@@ -74,10 +74,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneData.TimeZoneData()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDefault constructor\n"
   syntax:
@@ -100,10 +100,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneData.TimeZoneData(System.Int32, System.String, System.String, System.String, System.Int32)
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nConstructor\n"
   syntax:
@@ -137,10 +137,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneData.ToString(System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public string ToString(string prefix)
@@ -167,10 +167,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneData.AddSTDRule(System.DateTime, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nAdd rules to Standard rules dictionary\n"
   syntax:
@@ -200,10 +200,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneData.AddDSTRule(System.DateTime, System.Int32, System.String, System.String)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nAdd rules to daylight saving time dictionary\n"
   syntax:
@@ -239,10 +239,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneData.AddDSTRule(System.DateTime, System.Int32, System.Int32, System.Int32, System.Int32, System.Int32)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nAdd rules to daylight saving time dictionary\n"
   syntax:
@@ -280,10 +280,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneData.GetValidSTDRule(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGet standard rule for a given date\n"
   syntax:
@@ -313,10 +313,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneData.GetValidDSTRule(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGet daylight savings rule for a given date\n"
   syntax:
@@ -346,10 +346,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneData.GetiCalStandardPattern(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public string GetiCalStandardPattern(DateTime date)
@@ -376,10 +376,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneData.getiCalDaylightSavingTimePattern(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public string getiCalDaylightSavingTimePattern(DateTime date)
@@ -406,10 +406,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneData.GetTZOffset(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nOffset adjusted for DayLightSavingstime\n\nget valid STDrule\nget valid DSTrule\nif DSTrule\nget DSTrule date range\ncheck if indate is inside range\nif(inside range)\nreturn DSTOffset\nif(STDrule)\nreturn STDOffset\n\n"
   syntax:
@@ -437,10 +437,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneData.IsDayLightSavingsTime(System.DateTime)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   syntax:
     content: public bool IsDayLightSavingsTime(DateTime inDate)
@@ -467,10 +467,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneData.TZLocationID
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nTimezone location ID - primary key.\n"
   syntax:
@@ -498,10 +498,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneData.Name
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nName associated with the location: Country name + region name, Norway, United States - Alaska\n"
   syntax:
@@ -529,10 +529,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneData.TZLocationCode
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nCode associated with location: UTC, AR-NQ, AU-QLD, PF2A\nNot the an ISO country code. Unique.\n"
   syntax:
@@ -560,10 +560,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneData.TZLocationCities
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nCities associated with location: Oslo, London, Rio de Janeiro\n"
   syntax:
@@ -591,10 +591,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneData.IsoNumber
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nCountry ISO code associated with location: 578\n"
   syntax:
@@ -622,10 +622,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneData.MachineTimeZone
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nGet definition of the local machines TimeZone\n"
   syntax:
@@ -655,10 +655,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneData.TimeZoneSTDRules
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDictionary of standard rules\n"
   syntax:
@@ -686,10 +686,10 @@ items:
   fullName: SuperOffice.CRM.TimeZoneData.TimeZoneDSTRules
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nDictionary of Daylight saving time rules\n"
   syntax:

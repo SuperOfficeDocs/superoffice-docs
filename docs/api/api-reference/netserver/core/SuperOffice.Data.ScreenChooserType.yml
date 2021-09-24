@@ -41,10 +41,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCS system event types for custom logic hooking\nThis Enum is used by:  ticket_relation_action.event\n"
   syntax:
@@ -73,10 +73,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: \n"
   syntax:
@@ -101,10 +101,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.System
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: \n"
   syntax:
@@ -129,10 +129,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.ExtraTableEntry
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: \n"
   syntax:
@@ -157,10 +157,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.ExtraTableAll
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: \n"
   syntax:
@@ -185,10 +185,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.ExtraTableEdit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: \n"
   syntax:
@@ -213,10 +213,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.NewTicket
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n100: \n"
   syntax:
@@ -241,10 +241,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.NewTicketFromCustomerCenter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n101: \n"
   syntax:
@@ -269,10 +269,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.NewTicketFromEmail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n102: \n"
   syntax:
@@ -297,10 +297,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.NewTicketFromCustomerCenterBeforeSave
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n103: \n"
   syntax:
@@ -325,10 +325,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.TicketClosed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n110: \n"
   syntax:
@@ -353,10 +353,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.TicketPostponed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n111: \n"
   syntax:
@@ -381,10 +381,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.TicketDeleted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n112: \n"
   syntax:
@@ -409,10 +409,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.TicketActivated
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n113: \n"
   syntax:
@@ -437,10 +437,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.TicketReopened
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n120: \n"
   syntax:
@@ -465,10 +465,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.TicketReopenedFromCustomerCenter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n121: \n"
   syntax:
@@ -493,10 +493,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.TicketReopenedFromEmail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n122: \n"
   syntax:
@@ -521,10 +521,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.TicketChangedPriority
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n140: \n"
   syntax:
@@ -549,10 +549,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.TicketChangedCategory
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n141: \n"
   syntax:
@@ -577,10 +577,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.TicketChangedOwnedBy
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n142: \n"
   syntax:
@@ -605,10 +605,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.TicketChangedPrimaryCustomer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n143: \n"
   syntax:
@@ -633,10 +633,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.TicketChangedTicketStatus
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n144: \n"
   syntax:
@@ -661,10 +661,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.TicketChangedSlevel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n145: \n"
   syntax:
@@ -689,10 +689,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.TicketMessageAdded
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n150: \n"
   syntax:
@@ -717,10 +717,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.TicketInternalMessageAdded
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n151: \n"
   syntax:
@@ -745,10 +745,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.TicketExternalMessageAdded
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n152: \n"
   syntax:
@@ -773,10 +773,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.CompactModeInjection
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n200: \n"
   syntax:
@@ -801,10 +801,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.ScheduledTaskFailed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n300: \n"
   syntax:
@@ -829,10 +829,10 @@ items:
   fullName: SuperOffice.Data.ScreenChooserType.DbiTaskFailed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n301: \n"
   syntax:

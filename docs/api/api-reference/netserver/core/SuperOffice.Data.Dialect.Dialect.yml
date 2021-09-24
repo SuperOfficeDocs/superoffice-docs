@@ -8,9 +8,11 @@ items:
   - SuperOffice.Data.Dialect.Dialect.#ctor
   - SuperOffice.Data.Dialect.Dialect._cmd
   - SuperOffice.Data.Dialect.Dialect._dbSchemaTable
+  - SuperOffice.Data.Dialect.Dialect._filterCallbacks
   - SuperOffice.Data.Dialect.Dialect._returnArguments
   - SuperOffice.Data.Dialect.Dialect._returnDBFields
   - SuperOffice.Data.Dialect.Dialect._soSchemaTable
+  - SuperOffice.Data.Dialect.Dialect._stringFieldsInOrderByWithDistinct
   - SuperOffice.Data.Dialect.Dialect._tables
   - SuperOffice.Data.Dialect.Dialect._tablesInJoin
   - SuperOffice.Data.Dialect.Dialect._usedAliases
@@ -66,6 +68,7 @@ items:
   - SuperOffice.Data.Dialect.Dialect.GetFieldInfoFromIndex(System.Int32)
   - SuperOffice.Data.Dialect.Dialect.GetIndexOfField(SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.Dialect.Dialect.GetIsolationLevel(System.Data.IsolationLevel)
+  - SuperOffice.Data.Dialect.Dialect.GetOrderbyCollationHint
   - SuperOffice.Data.Dialect.Dialect.GetOriginAsComment(SuperOffice.Data.SQL.SqlCommand)
   - SuperOffice.Data.Dialect.Dialect.GetUpdatedSchemaTable(System.Data.DataTable)
   - SuperOffice.Data.Dialect.Dialect.HandleDateAndTimeWrapping(System.String,SuperOffice.Data.FieldDataType)
@@ -88,6 +91,7 @@ items:
   - SuperOffice.Data.Dialect.Dialect.ReturnDBFields
   - SuperOffice.Data.Dialect.Dialect.ReturnFieldsIndexer
   - SuperOffice.Data.Dialect.Dialect.SelectSql(SuperOffice.Data.SQL.PrivateSelect)
+  - SuperOffice.Data.Dialect.Dialect.ShouldRowBeSkipped(System.Data.IDataReader)
   - SuperOffice.Data.Dialect.Dialect.SoParameterCollection
   - SuperOffice.Data.Dialect.Dialect.Tables
   - SuperOffice.Data.Dialect.Dialect.TimeTLocal2DateTime(System.Int32)
@@ -386,6 +390,35 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.Data.Dialect.Dialect._filterCallbacks
+  commentId: F:SuperOffice.Data.Dialect.Dialect._filterCallbacks
+  id: _filterCallbacks
+  parent: SuperOffice.Data.Dialect.Dialect
+  langs:
+  - csharp
+  - vb
+  name: _filterCallbacks
+  nameWithType: Dialect._filterCallbacks
+  fullName: SuperOffice.Data.Dialect.Dialect._filterCallbacks
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nCallbacks that can unconditionally throw away (&quot;filter&quot;) a row during reading.\n<strong>Be careful</strong> if you think you need this; it can quickly become complex if the reasons for filtering a row\nreside inside something that could be part of an OR ...\n"
+  syntax:
+    content: protected readonly List<Func<IDataReader, bool>> _filterCallbacks
+    return:
+      type: System.Collections.Generic.List{System.Func{System.Data.IDataReader,System.Boolean}}
+    content.vb: Protected ReadOnly _filterCallbacks As List(Of Func(Of IDataReader, Boolean))
+  modifiers.csharp:
+  - protected
+  - readonly
+  modifiers.vb:
+  - Protected
+  - ReadOnly
 - uid: SuperOffice.Data.Dialect.Dialect._cmd
   commentId: F:SuperOffice.Data.Dialect.Dialect._cmd
   id: _cmd
@@ -409,6 +442,32 @@ items:
     return:
       type: SuperOffice.Data.SQL.SqlCommand
     content.vb: Protected _cmd As SqlCommand
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Data.Dialect.Dialect._stringFieldsInOrderByWithDistinct
+  commentId: F:SuperOffice.Data.Dialect.Dialect._stringFieldsInOrderByWithDistinct
+  id: _stringFieldsInOrderByWithDistinct
+  parent: SuperOffice.Data.Dialect.Dialect
+  langs:
+  - csharp
+  - vb
+  name: _stringFieldsInOrderByWithDistinct
+  nameWithType: Dialect._stringFieldsInOrderByWithDistinct
+  fullName: SuperOffice.Data.Dialect.Dialect._stringFieldsInOrderByWithDistinct
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: protected HashSet<FieldInfo> _stringFieldsInOrderByWithDistinct
+    return:
+      type: System.Collections.Generic.HashSet{SuperOffice.Data.SQL.FieldInfo}
+    content.vb: Protected _stringFieldsInOrderByWithDistinct As HashSet(Of FieldInfo)
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -507,6 +566,37 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.Data.Dialect.Dialect.ShouldRowBeSkipped(System.Data.IDataReader)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.ShouldRowBeSkipped(System.Data.IDataReader)
+  id: ShouldRowBeSkipped(System.Data.IDataReader)
+  parent: SuperOffice.Data.Dialect.Dialect
+  langs:
+  - csharp
+  - vb
+  name: ShouldRowBeSkipped(IDataReader)
+  nameWithType: Dialect.ShouldRowBeSkipped(IDataReader)
+  fullName: SuperOffice.Data.Dialect.Dialect.ShouldRowBeSkipped(System.Data.IDataReader)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nInvoke Filter callbacks to see if the row should be skipped. Use with care.\n"
+  syntax:
+    content: public bool ShouldRowBeSkipped(IDataReader reader)
+    parameters:
+    - id: reader
+      type: System.Data.IDataReader
+    return:
+      type: System.Boolean
+    content.vb: Public Function ShouldRowBeSkipped(reader As IDataReader) As Boolean
+  overload: SuperOffice.Data.Dialect.Dialect.ShouldRowBeSkipped*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.Dialect.Dialect.#ctor
   commentId: M:SuperOffice.Data.Dialect.Dialect.#ctor
   id: '#ctor'
@@ -1178,6 +1268,35 @@ items:
       type: System.String
     content.vb: Protected Overridable Function ToSql(arg As Argument) As String
   overload: SuperOffice.Data.Dialect.Dialect.ToSql*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.Data.Dialect.Dialect.GetOrderbyCollationHint
+  commentId: M:SuperOffice.Data.Dialect.Dialect.GetOrderbyCollationHint
+  id: GetOrderbyCollationHint
+  parent: SuperOffice.Data.Dialect.Dialect
+  langs:
+  - csharp
+  - vb
+  name: GetOrderbyCollationHint()
+  nameWithType: Dialect.GetOrderbyCollationHint()
+  fullName: SuperOffice.Data.Dialect.Dialect.GetOrderbyCollationHint()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: protected virtual string GetOrderbyCollationHint()
+    return:
+      type: System.String
+    content.vb: Protected Overridable Function GetOrderbyCollationHint As String
+  overload: SuperOffice.Data.Dialect.Dialect.GetOrderbyCollationHint*
   modifiers.csharp:
   - protected
   - virtual
@@ -5892,6 +6011,88 @@ references:
   name: System.Collections
   nameWithType: System.Collections
   fullName: System.Collections
+- uid: System.Collections.Generic.List{System.Func{System.Data.IDataReader,System.Boolean}}
+  commentId: T:System.Collections.Generic.List{System.Func{System.Data.IDataReader,System.Boolean}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Func<IDataReader, Boolean>>
+  nameWithType: List<Func<IDataReader, Boolean>>
+  fullName: System.Collections.Generic.List<System.Func<System.Data.IDataReader, System.Boolean>>
+  nameWithType.vb: List(Of Func(Of IDataReader, Boolean))
+  fullName.vb: System.Collections.Generic.List(Of System.Func(Of System.Data.IDataReader, System.Boolean))
+  name.vb: List(Of Func(Of IDataReader, Boolean))
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Data.IDataReader
+    name: IDataReader
+    nameWithType: IDataReader
+    fullName: System.Data.IDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Data.IDataReader
+    name: IDataReader
+    nameWithType: IDataReader
+    fullName: System.Data.IDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.SqlCommand
   commentId: T:SuperOffice.Data.SQL.SqlCommand
   parent: SuperOffice.Data.SQL
@@ -5899,6 +6100,87 @@ references:
   name: SqlCommand
   nameWithType: SqlCommand
   fullName: SuperOffice.Data.SQL.SqlCommand
+- uid: System.Collections.Generic.HashSet{SuperOffice.Data.SQL.FieldInfo}
+  commentId: '!:System.Collections.Generic.HashSet{SuperOffice.Data.SQL.FieldInfo}'
+  definition: System.Collections.Generic.HashSet`1
+  name: HashSet<FieldInfo>
+  nameWithType: HashSet<FieldInfo>
+  fullName: System.Collections.Generic.HashSet<SuperOffice.Data.SQL.FieldInfo>
+  nameWithType.vb: HashSet(Of FieldInfo)
+  fullName.vb: System.Collections.Generic.HashSet(Of SuperOffice.Data.SQL.FieldInfo)
+  name.vb: HashSet(Of FieldInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.HashSet`1
+  isExternal: true
+  name: HashSet<>
+  nameWithType: HashSet<>
+  fullName: System.Collections.Generic.HashSet<>
+  nameWithType.vb: HashSet(Of )
+  fullName.vb: System.Collections.Generic.HashSet(Of )
+  name.vb: HashSet(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.Dialect.Dialect.CheckForDuplicateRow*
   commentId: Overload:SuperOffice.Data.Dialect.Dialect.CheckForDuplicateRow
   isExternal: true
@@ -5930,6 +6212,12 @@ references:
   name: PrivateSelect
   nameWithType: PrivateSelect
   fullName: SuperOffice.Data.SQL.PrivateSelect
+- uid: SuperOffice.Data.Dialect.Dialect.ShouldRowBeSkipped*
+  commentId: Overload:SuperOffice.Data.Dialect.Dialect.ShouldRowBeSkipped
+  isExternal: true
+  name: ShouldRowBeSkipped
+  nameWithType: Dialect.ShouldRowBeSkipped
+  fullName: SuperOffice.Data.Dialect.Dialect.ShouldRowBeSkipped
 - uid: SuperOffice.Data.Dialect.Dialect.#ctor*
   commentId: Overload:SuperOffice.Data.Dialect.Dialect.#ctor
   isExternal: true
@@ -6184,6 +6472,12 @@ references:
   name: ToSql
   nameWithType: Dialect.ToSql
   fullName: SuperOffice.Data.Dialect.Dialect.ToSql
+- uid: SuperOffice.Data.Dialect.Dialect.GetOrderbyCollationHint*
+  commentId: Overload:SuperOffice.Data.Dialect.Dialect.GetOrderbyCollationHint
+  isExternal: true
+  name: GetOrderbyCollationHint
+  nameWithType: Dialect.GetOrderbyCollationHint
+  fullName: SuperOffice.Data.Dialect.Dialect.GetOrderbyCollationHint
 - uid: SuperOffice.Data.SQL.OrderBy
   commentId: T:SuperOffice.Data.SQL.OrderBy
   parent: SuperOffice.Data.SQL

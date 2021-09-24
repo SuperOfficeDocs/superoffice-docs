@@ -14,6 +14,7 @@ items:
   - SuperOffice.CRM.Data.FormSubmissionTableInfo.FormId
   - SuperOffice.CRM.Data.FormSubmissionTableInfo.FormId_InnerJoin_Form
   - SuperOffice.CRM.Data.FormSubmissionTableInfo.FormSubmissionId
+  - SuperOffice.CRM.Data.FormSubmissionTableInfo.LeftOuterJoin_SShipmentAddr_FormSubmissionId
   - SuperOffice.CRM.Data.FormSubmissionTableInfo.LeftOuterJoin_Ticket_FormSubmissionId
   - SuperOffice.CRM.Data.FormSubmissionTableInfo.PersonId
   - SuperOffice.CRM.Data.FormSubmissionTableInfo.PersonId_InnerJoin_Person
@@ -691,6 +692,37 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_Ticket_FormSubmissionId As TargetedLeftOuterJoin(Of TicketTableInfo)
   overload: SuperOffice.CRM.Data.FormSubmissionTableInfo.LeftOuterJoin_Ticket_FormSubmissionId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.FormSubmissionTableInfo.LeftOuterJoin_SShipmentAddr_FormSubmissionId
+  commentId: P:SuperOffice.CRM.Data.FormSubmissionTableInfo.LeftOuterJoin_SShipmentAddr_FormSubmissionId
+  id: LeftOuterJoin_SShipmentAddr_FormSubmissionId
+  parent: SuperOffice.CRM.Data.FormSubmissionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_SShipmentAddr_FormSubmissionId
+  nameWithType: FormSubmissionTableInfo.LeftOuterJoin_SShipmentAddr_FormSubmissionId
+  fullName: SuperOffice.CRM.Data.FormSubmissionTableInfo.LeftOuterJoin_SShipmentAddr_FormSubmissionId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key FormSubmissionId on this table, to SShipmentAddr.<xref href=\"SuperOffice.CRM.Data.SShipmentAddrTableInfo.FormSubmissionId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<SShipmentAddrTableInfo> LeftOuterJoin_SShipmentAddr_FormSubmissionId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SShipmentAddrTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_SShipmentAddr_FormSubmissionId As TargetedLeftOuterJoin(Of SShipmentAddrTableInfo)
+  overload: SuperOffice.CRM.Data.FormSubmissionTableInfo.LeftOuterJoin_SShipmentAddr_FormSubmissionId*
   modifiers.csharp:
   - public
   - get
@@ -1943,6 +1975,56 @@ references:
   - name: TargetTableInfo
     nameWithType: TargetTableInfo
     fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.FormSubmissionTableInfo.LeftOuterJoin_SShipmentAddr_FormSubmissionId*
+  commentId: Overload:SuperOffice.CRM.Data.FormSubmissionTableInfo.LeftOuterJoin_SShipmentAddr_FormSubmissionId
+  isExternal: true
+  name: LeftOuterJoin_SShipmentAddr_FormSubmissionId
+  nameWithType: FormSubmissionTableInfo.LeftOuterJoin_SShipmentAddr_FormSubmissionId
+  fullName: SuperOffice.CRM.Data.FormSubmissionTableInfo.LeftOuterJoin_SShipmentAddr_FormSubmissionId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SShipmentAddrTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SShipmentAddrTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<SShipmentAddrTableInfo>
+  nameWithType: TargetedLeftOuterJoin<SShipmentAddrTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.SShipmentAddrTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of SShipmentAddrTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.SShipmentAddrTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of SShipmentAddrTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo
+    name: SShipmentAddrTableInfo
+    nameWithType: SShipmentAddrTableInfo
+    fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo
+    name: SShipmentAddrTableInfo
+    nameWithType: SShipmentAddrTableInfo
+    fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )

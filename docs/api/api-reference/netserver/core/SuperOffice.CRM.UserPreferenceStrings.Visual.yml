@@ -23,10 +23,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Visual
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nVisual effects\n"
   syntax:
@@ -61,10 +61,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Visual.Section
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nSection heading\n"
   syntax:
@@ -90,10 +90,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Visual.ActiveSound
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nEnables the use of sounds for events in SuperOffice CRM. The various sounds may be defined individually under Sounds and Audio Devices in the Windows Control Panel.\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -119,10 +119,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Visual.AnimatePanels
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nEnables animation when switching screens\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
@@ -148,10 +148,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Visual.FilterCompletedFromTodo
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nFilter: Removes completed activities from the checklist\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -177,10 +177,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Visual.FrameType
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nWhich frame type to use in edit fields\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
@@ -206,10 +206,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Visual.HistorySize
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nThe maximum number of elements in a history list\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -235,10 +235,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Visual.JpegQuality
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nQuality parameter for JPEG compression of stored images, from 0 to 100; 100 is best, default is 40. Setting high values will result in sharper images, at the cost of storage space in the database and loading times.\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
@@ -264,10 +264,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Visual.MonitorLight
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nStatus images are processed to make them seem transparent. This parameter controls how much the light level is increased from a normalized starting point. Higher values will result in lighter images, possibly resulting in loss of detail. Default is 80.\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -293,10 +293,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Visual.ShowNotepad
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nShould the Notepad be displayed when CRM is started? (Default = NO)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
@@ -322,10 +322,10 @@ items:
   fullName: SuperOffice.CRM.UserPreferenceStrings.Visual.Tooltips
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM
   summary: "\nTurn tooltips on or off\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
   syntax:

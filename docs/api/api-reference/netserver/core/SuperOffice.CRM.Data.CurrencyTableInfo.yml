@@ -15,6 +15,7 @@ items:
   - SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_Country_CurrencyId
   - SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_CurrencyGroupLink_CurrencyId
   - SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_CurrencyHeadingLink_CurrencyId
+  - SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_DashboardTileDefinition_CurrencyId
   - SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_PriceList_CurrencyId
   - SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_Sale_CurrencyId
   - SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_SaleHist_CurrencyId
@@ -915,6 +916,37 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AmountClassTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_AmountClass_CurrencyId As TargetedLeftOuterJoin(Of AmountClassTableInfo)
   overload: SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_AmountClass_CurrencyId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_DashboardTileDefinition_CurrencyId
+  commentId: P:SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_DashboardTileDefinition_CurrencyId
+  id: LeftOuterJoin_DashboardTileDefinition_CurrencyId
+  parent: SuperOffice.CRM.Data.CurrencyTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_DashboardTileDefinition_CurrencyId
+  nameWithType: CurrencyTableInfo.LeftOuterJoin_DashboardTileDefinition_CurrencyId
+  fullName: SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_DashboardTileDefinition_CurrencyId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key CurrencyId on this table, to DashboardTileDefinition.<xref href=\"SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<DashboardTileDefinitionTableInfo> LeftOuterJoin_DashboardTileDefinition_CurrencyId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_DashboardTileDefinition_CurrencyId As TargetedLeftOuterJoin(Of DashboardTileDefinitionTableInfo)
+  overload: SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_DashboardTileDefinition_CurrencyId*
   modifiers.csharp:
   - public
   - get
@@ -2347,6 +2379,56 @@ references:
     name: AmountClassTableInfo
     nameWithType: AmountClassTableInfo
     fullName: SuperOffice.CRM.Data.AmountClassTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_DashboardTileDefinition_CurrencyId*
+  commentId: Overload:SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_DashboardTileDefinition_CurrencyId
+  isExternal: true
+  name: LeftOuterJoin_DashboardTileDefinition_CurrencyId
+  nameWithType: CurrencyTableInfo.LeftOuterJoin_DashboardTileDefinition_CurrencyId
+  fullName: SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_DashboardTileDefinition_CurrencyId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<DashboardTileDefinitionTableInfo>
+  nameWithType: TargetedLeftOuterJoin<DashboardTileDefinitionTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of DashboardTileDefinitionTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of DashboardTileDefinitionTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+    name: DashboardTileDefinitionTableInfo
+    nameWithType: DashboardTileDefinitionTableInfo
+    fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+    name: DashboardTileDefinitionTableInfo
+    nameWithType: DashboardTileDefinitionTableInfo
+    fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
     isExternal: true
   - name: )
     nameWithType: )

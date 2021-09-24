@@ -25,7 +25,6 @@ items:
   - SuperOffice.CRM.Mail.MailCache.GetEnvelopeFromDataReader(SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.Mail.MailCache.GetFolderName(SuperOffice.CRM.Rows.EmailFolderRow)
   - SuperOffice.CRM.Mail.MailCache.GetFolderName(System.Int32)
-  - SuperOffice.CRM.Mail.MailCache.GetLastSaved(System.Int32,System.String,System.String,System.String)
   - SuperOffice.CRM.Mail.MailCache.GetMailItemFromDataReader(SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.Mail.MailCache.GetMailItemFromDbRow(SuperOffice.CRM.Rows.EmailItemRow,System.Boolean,System.Boolean)
   - SuperOffice.CRM.Mail.MailCache.GetMinimalMailEnvelope(System.Int32,SuperOffice.Data.EMailFlags)
@@ -656,49 +655,6 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes(System.Int32, System.String, System.String, System.String, ByRef System.Int32)
   name.vb: GetCachedEnvelopes(Int32, String, String, String, ByRef Int32)
-- uid: SuperOffice.CRM.Mail.MailCache.GetLastSaved(System.Int32,System.String,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.GetLastSaved(System.Int32,System.String,System.String,System.String)
-  id: GetLastSaved(System.Int32,System.String,System.String,System.String)
-  parent: SuperOffice.CRM.Mail.MailCache
-  langs:
-  - csharp
-  - vb
-  name: GetLastSaved(Int32, String, String, String)
-  nameWithType: MailCache.GetLastSaved(Int32, String, String, String)
-  fullName: SuperOffice.CRM.Mail.MailCache.GetLastSaved(System.Int32, System.String, System.String, System.String)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Mail
-  summary: "\nReturns the datetime representing when the cached was last saved.\n"
-  syntax:
-    content: public static DateTime GetLastSaved(int assocId, string server, string username, string folder)
-    parameters:
-    - id: assocId
-      type: System.Int32
-      description: Id of associate
-    - id: server
-      type: System.String
-      description: Mail server
-    - id: username
-      type: System.String
-      description: Mail server account
-    - id: folder
-      type: System.String
-      description: Name of folder
-    return:
-      type: System.DateTime
-    content.vb: Public Shared Function GetLastSaved(assocId As Integer, server As String, username As String, folder As String) As Date
-  overload: SuperOffice.CRM.Mail.MailCache.GetLastSaved*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes(System.Int32,System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes(System.Int32,System.String,System.String,System.String)
   id: GetCachedEnvelopes(System.Int32,System.String,System.String,System.String)
@@ -2031,12 +1987,6 @@ references:
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-- uid: SuperOffice.CRM.Mail.MailCache.GetLastSaved*
-  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetLastSaved
-  isExternal: true
-  name: GetLastSaved
-  nameWithType: MailCache.GetLastSaved
-  fullName: SuperOffice.CRM.Mail.MailCache.GetLastSaved
 - uid: SuperOffice.CRM.Mail.MailCache.GetEnvelopeFromDataReader*
   commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetEnvelopeFromDataReader
   isExternal: true

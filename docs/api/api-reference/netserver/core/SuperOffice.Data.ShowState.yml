@@ -20,10 +20,10 @@ items:
   fullName: SuperOffice.Data.ShowState
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nValue for the showState field in table externalapplication\nThis Enum is used by:  ExtApp.showState\nThis Enum consists of flag values that can be combined.\n"
   syntax:
@@ -62,10 +62,10 @@ items:
   fullName: SuperOffice.Data.ShowState.Minimized
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Start application in minimized state\n"
   syntax:
@@ -90,10 +90,10 @@ items:
   fullName: SuperOffice.Data.ShowState.Maximized
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Start application in maximized state\n"
   syntax:
@@ -118,10 +118,10 @@ items:
   fullName: SuperOffice.Data.ShowState.Default
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Start application with default window size and position\n"
   syntax:
@@ -146,10 +146,10 @@ items:
   fullName: SuperOffice.Data.ShowState.ToolBar
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n256: Show the Browser toolbar\n"
   syntax:
@@ -174,10 +174,10 @@ items:
   fullName: SuperOffice.Data.ShowState.AddressBar
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n512: Show the Browser addressbar (where the user can type URL&apos;s and stuff)\n"
   syntax:
@@ -202,10 +202,10 @@ items:
   fullName: SuperOffice.Data.ShowState.StatusBar
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1024: Show the Browser statusbar\n"
   syntax:
@@ -230,10 +230,10 @@ items:
   fullName: SuperOffice.Data.ShowState.MenuBar
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2048: Show the Browser Menu bar (currently not implemented)\n"
   syntax:

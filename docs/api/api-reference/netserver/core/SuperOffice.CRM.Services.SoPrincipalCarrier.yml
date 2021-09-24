@@ -43,10 +43,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nSummary description for SoPrincipalCarrier.\n"
   syntax:
@@ -85,10 +85,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.SoPrincipalCarrier()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nDefault constructor\n"
   syntax:
@@ -111,10 +111,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.UserType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nType of user\n"
   syntax:
@@ -144,10 +144,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.Associate
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nAssociate name (e.g. logon name) for the user\n"
   syntax:
@@ -177,10 +177,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.CRM5Secret
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nSecret used with type <xref href=\"SuperOffice.CRM.Services.SoPrincipalCarrier.UserType\" data-throw-if-not-resolved=\"false\"></xref> CRM5 in <xref href=\"SuperOffice.Security.Principal.SoCredentials\" data-throw-if-not-resolved=\"false\"></xref>.\nOnly valid 24 hours after it was created.\n"
   syntax:
@@ -224,10 +224,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.AssociateId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nAssociateId for the user.\n"
   syntax:
@@ -257,10 +257,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.IsPerson
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nIs this associate a person, and not a resource?\n"
   syntax:
@@ -290,10 +290,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.PersonId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nAssociate&apos;s person id\n"
   syntax:
@@ -323,10 +323,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.CountryId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nCountry id for the user.\n"
   syntax:
@@ -356,10 +356,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.HomeCountryId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nCountry id for the user&apos;s home country.  This is the default country id when creating new items.\n"
   syntax:
@@ -389,10 +389,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.ContactId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nCompany of the associate&apos;s person\n"
   syntax:
@@ -422,10 +422,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.GroupId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nAssociate&apos;s group_idx\n"
   syntax:
@@ -455,10 +455,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.BusinessId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nBusinessIdx for the company that the user belongs to.\n"
   syntax:
@@ -488,10 +488,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.CategoryId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nCategoryIdx of the company that the user belongs to.\n"
   syntax:
@@ -521,10 +521,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.ContactOwner
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nOwner (AssocaiteId) of the company that the user belongs to.\n"
   syntax:
@@ -554,10 +554,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.RoleId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nId of the users role\n"
   syntax:
@@ -587,10 +587,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.RoleName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nName of the users role\n"
   syntax:
@@ -620,10 +620,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.RoleDescription
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nDescrtiption (e.g. tooltip) for the users role\n"
   syntax:
@@ -653,10 +653,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.RoleType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nType of user.\n"
   syntax:
@@ -686,10 +686,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.License
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nLicense granted to the site and user.\n"
   syntax:
@@ -733,10 +733,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.Licenses
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nLicense granted to the site and user.\n"
   syntax:
@@ -766,10 +766,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.FullName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nThe Person full name if the associate is a person. Use IsPerson to check\n"
   syntax:
@@ -799,10 +799,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.EMailAddress
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nThe Person e-mail address if the associate is a person. Use IsPerson to check\n"
   syntax:
@@ -832,10 +832,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.FunctionRights
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nFunctional rights for the user.  This array is sorted so a lookup can be performed using <xref href=\"System.Array.BinarySearch(System.Array%2cSystem.Object)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
@@ -865,10 +865,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.EjUserId
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nPrimary key in eJournal&apos;s old user table.\n"
   syntax:
@@ -898,10 +898,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.EjAccessLevel
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\neJournal user access level\n"
   syntax:
@@ -931,10 +931,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.EjUserStatus
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\neJournal user status\n"
   syntax:
@@ -964,10 +964,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.ProvidedCredentials
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nThe credentials used for authenticating this user.\n"
   syntax:
@@ -997,10 +997,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.SecondaryGroups
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nSecondary user groups\n"
   syntax:
@@ -1030,10 +1030,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.DatabaseContextIdentifier
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nName of the database context\n"
   syntax:
@@ -1063,10 +1063,10 @@ items:
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.UserName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services
   summary: "\nUserName on associatetable. Same as SuperId from Online\n"
   syntax:

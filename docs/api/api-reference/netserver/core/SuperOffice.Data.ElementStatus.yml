@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.Data.ElementStatus
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nStatus for adding attributes to an element in a statical list\nThis Enum is used by:  s_list_element.status\n"
   syntax:
@@ -47,10 +47,10 @@ items:
   fullName: SuperOffice.Data.ElementStatus.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: None\n"
   syntax:
@@ -75,10 +75,10 @@ items:
   fullName: SuperOffice.Data.ElementStatus.Skipped
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Skipped because it does not have a matching person email address\n"
   syntax:

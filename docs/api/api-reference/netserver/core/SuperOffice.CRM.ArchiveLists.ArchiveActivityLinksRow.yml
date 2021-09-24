@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityLinksRow
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: 'public class ArchiveActivityLinksRow : ArchiveActivityRow, IDataRecord, IEquatable<ArchiveRow>'
@@ -40,6 +40,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnTime
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnType
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRecordType
+  - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRecordTypeText
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnText
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnAssociateId
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnContactId
@@ -157,10 +158,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityLinksRow.ToString()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public override string ToString()
@@ -187,10 +188,10 @@ items:
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityLinksRow.ArchiveActivityLinksRow()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public ArchiveActivityLinksRow()
@@ -319,6 +320,13 @@ references:
   name: ColumnRecordType
   nameWithType: ArchiveActivityRow.ColumnRecordType
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRecordType
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRecordTypeText
+  commentId: F:SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRecordTypeText
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow
+  isExternal: true
+  name: ColumnRecordTypeText
+  nameWithType: ArchiveActivityRow.ColumnRecordTypeText
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnRecordTypeText
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnText
   commentId: F:SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.ColumnText
   parent: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow

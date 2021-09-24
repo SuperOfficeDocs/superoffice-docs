@@ -20,10 +20,10 @@ items:
   fullName: SuperOffice.Data.EMailFlags
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n\nThis Enum is used by:  email_item.flags\nThis Enum consists of flag values that can be combined.\n"
   syntax:
@@ -62,10 +62,10 @@ items:
   fullName: SuperOffice.Data.EMailFlags.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: 0: No flags set\n"
   syntax:
@@ -90,10 +90,10 @@ items:
   fullName: SuperOffice.Data.EMailFlags.Seen
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: 1: Mail has been read\n"
   syntax:
@@ -118,10 +118,10 @@ items:
   fullName: SuperOffice.Data.EMailFlags.Deleted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: 2: Mail has been deleted\n"
   syntax:
@@ -146,10 +146,10 @@ items:
   fullName: SuperOffice.Data.EMailFlags.Recent
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: 4: Mail is recent\n"
   syntax:
@@ -174,10 +174,10 @@ items:
   fullName: SuperOffice.Data.EMailFlags.Flagged
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: 8: Mail is flagged in the GUI\n"
   syntax:
@@ -202,10 +202,10 @@ items:
   fullName: SuperOffice.Data.EMailFlags.Draft
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16: 16: Mail is an unsent draft\n"
   syntax:
@@ -230,10 +230,10 @@ items:
   fullName: SuperOffice.Data.EMailFlags.Answered
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n32: 32: Mail has been replied to at least once\n"
   syntax:

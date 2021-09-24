@@ -22,10 +22,10 @@ items:
   fullName: SuperOffice.Data.UDefType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nSame as the EUDefType enum in the C++ client, this is the DATABASE value used for udef definitions\n"
   syntax:
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.Data.UDefType.Invalid
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Invalid\n"
   syntax:
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.Data.UDefType.Contact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: Owner is the contact table\n"
   syntax:
@@ -110,10 +110,10 @@ items:
   fullName: SuperOffice.Data.UDefType.Person
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Owner is the Person table\n"
   syntax:
@@ -138,10 +138,10 @@ items:
   fullName: SuperOffice.Data.UDefType.Project
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n9: Owner is the project table\n"
   syntax:
@@ -166,10 +166,10 @@ items:
   fullName: SuperOffice.Data.UDefType.Sale
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n10: Owner is the sale table\n"
   syntax:
@@ -194,10 +194,10 @@ items:
   fullName: SuperOffice.Data.UDefType.Temp
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n11: This is the temporary udef table pair, used during reorganizations\n"
   syntax:
@@ -222,10 +222,10 @@ items:
   fullName: SuperOffice.Data.UDefType.Appointment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n12: Owner is the appointment table\n"
   syntax:
@@ -250,10 +250,10 @@ items:
   fullName: SuperOffice.Data.UDefType.Document
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n13: Owner is the document table\n"
   syntax:
@@ -278,10 +278,10 @@ items:
   fullName: SuperOffice.Data.UDefType.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n14: Owner is undefined, you should not see this value in a real database\n"
   syntax:

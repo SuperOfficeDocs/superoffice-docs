@@ -21,10 +21,10 @@ items:
   fullName: SuperOffice.Data.Weekday
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nEnumerator for the days of the week\nThis Enum consists of flag values that can be combined.\n"
   syntax:
@@ -63,10 +63,10 @@ items:
   fullName: SuperOffice.Data.Weekday.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: 0: Unknown/undecided type\n"
   syntax:
@@ -91,10 +91,10 @@ items:
   fullName: SuperOffice.Data.Weekday.Monday
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Monday\n"
   syntax:
@@ -119,10 +119,10 @@ items:
   fullName: SuperOffice.Data.Weekday.Tuesday
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Tuesday\n"
   syntax:
@@ -147,10 +147,10 @@ items:
   fullName: SuperOffice.Data.Weekday.Wednesday
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Wednesday\n"
   syntax:
@@ -175,10 +175,10 @@ items:
   fullName: SuperOffice.Data.Weekday.Thursday
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Thursday\n"
   syntax:
@@ -203,10 +203,10 @@ items:
   fullName: SuperOffice.Data.Weekday.Friday
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n16: Friday\n"
   syntax:
@@ -231,10 +231,10 @@ items:
   fullName: SuperOffice.Data.Weekday.Saturday
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n32: Saturday\n"
   syntax:
@@ -259,10 +259,10 @@ items:
   fullName: SuperOffice.Data.Weekday.Sunday
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n64: Sunday\n"
   syntax:

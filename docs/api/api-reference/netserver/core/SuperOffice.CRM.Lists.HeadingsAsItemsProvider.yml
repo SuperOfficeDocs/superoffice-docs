@@ -159,12 +159,22 @@ items:
   namespace: SuperOffice.CRM.Lists
   summary: "\nThe magic extension name to invoke this wrapper\n"
   syntax:
-    content: public static string Suffix { get; }
+    content: >-
+      [AllowedMultitenantStatic]
+
+      public static string Suffix { get; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Shared ReadOnly Property Suffix As String
+    content.vb: >-
+      <AllowedMultitenantStatic>
+
+      Public Shared ReadOnly Property Suffix As String
   overload: SuperOffice.CRM.Lists.HeadingsAsItemsProvider.Suffix*
+  attributes:
+  - type: SuperOffice.Factory.AllowedMultitenantStaticAttribute
+    ctor: SuperOffice.Factory.AllowedMultitenantStaticAttribute.#ctor
+    arguments: []
   modifiers.csharp:
   - public
   - static

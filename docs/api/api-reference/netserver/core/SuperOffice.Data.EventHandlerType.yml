@@ -110,10 +110,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nCrmScript Event triggers - when CRMScript is run based on user or system actions. \n"
   syntax:
@@ -142,10 +142,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Unknown trigger\n"
   syntax:
@@ -170,10 +170,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.NewTicket
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n100: NewTicket\n"
   syntax:
@@ -198,10 +198,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.NewTicketFromCustomerCenter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n101: NewTicketFromCustomerCenter\n"
   syntax:
@@ -226,10 +226,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.NewTicketFromEmail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n102: NewTicketFromEmail\n"
   syntax:
@@ -254,10 +254,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.NewTicketFromCustomerCenterBeforeSave
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n103: NewTicketFromCustomerCenterBeforeSave\n"
   syntax:
@@ -282,10 +282,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.NewTicketFromSpmLink
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n104: NewTicketFromSpmLink\n"
   syntax:
@@ -310,10 +310,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.NewNotifyTicketFromForm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n105: NewNotifyTicketFromForm\n"
   syntax:
@@ -338,10 +338,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.NewTicketFromForm
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n106: NewTicketFromForm\n"
   syntax:
@@ -366,10 +366,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.TicketSave
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n109: TicketSave\n"
   syntax:
@@ -394,10 +394,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.TicketClosed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n110: TicketClosed\n"
   syntax:
@@ -422,10 +422,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.TicketPostponed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n111: TicketPostponed\n"
   syntax:
@@ -450,10 +450,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.TicketDeleted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n112: TicketDeleted\n"
   syntax:
@@ -478,10 +478,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.TicketActivated
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n113: TicketActivated\n"
   syntax:
@@ -506,10 +506,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.TicketReopened
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n120: TicketReopened\n"
   syntax:
@@ -534,10 +534,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.TicketReopenedFromCustomerCenter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n121: TicketReopenedFromCustomerCenter\n"
   syntax:
@@ -562,10 +562,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.TicketReopenedFromEmail
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n122: TicketReopenedFromEmail\n"
   syntax:
@@ -590,10 +590,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.TicketChangedPriority
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n140: TicketChangedPriority\n"
   syntax:
@@ -618,10 +618,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.TicketChangedCategory
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n141: TicketChangedCategory\n"
   syntax:
@@ -646,10 +646,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.TicketChangedOwnedBy
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n142: TicketChangedOwnedBy\n"
   syntax:
@@ -674,10 +674,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.TicketChangedPrimaryCustomer
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n143: TicketChangedPrimaryCustomer\n"
   syntax:
@@ -702,10 +702,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.TicketChangedTicketStatus
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n144: TicketChangedTicketStatus\n"
   syntax:
@@ -730,10 +730,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.TicketChangedSlevel
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n145: TicketChangedSlevel\n"
   syntax:
@@ -758,10 +758,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.TicketMessageAdded
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n150: TicketMessageAdded\n"
   syntax:
@@ -786,10 +786,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.TicketInternalMessageAdded
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n151: TicketInternalMessageAdded\n"
   syntax:
@@ -814,10 +814,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.TicketExternalMessageAdded
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n152: TicketExternalMessageAdded\n"
   syntax:
@@ -842,10 +842,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.TicketMessageSentimentCalculated
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n153: TicketMessageSentimentCalculated\n"
   syntax:
@@ -870,10 +870,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.CompactModeInjection
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n200: CompactModeInjection\n"
   syntax:
@@ -898,10 +898,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.CustomerCenterAuthentication
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n210: CustomerCenterAuthentication\n"
   syntax:
@@ -926,10 +926,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ScheduledTaskFailed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n300: ScheduledTaskFailed\n"
   syntax:
@@ -954,10 +954,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.DbiTaskFailed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n301: DbiTaskFailed\n"
   syntax:
@@ -982,10 +982,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.CustomerSetSubscriptions
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n302: CustomerSetSubscriptions\n"
   syntax:
@@ -1010,10 +1010,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ImportMailBeforeProcessing
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n303: ImportMailBeforeProcessing\n"
   syntax:
@@ -1038,10 +1038,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ImportMailAfterProcessing
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n304: ImportMailAfterProcessing\n"
   syntax:
@@ -1066,10 +1066,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.MainMenu
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n305: MainMenu\n"
   syntax:
@@ -1094,10 +1094,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ChatNewSession
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n400: ChatNewSession\n"
   syntax:
@@ -1122,10 +1122,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ChatSessionChangedStatus
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n401: ChatSessionChangedStatus\n"
   syntax:
@@ -1150,10 +1150,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ChatBeforeSaveNewMessage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n402: ChatBeforeSaveNewMessage\n"
   syntax:
@@ -1178,10 +1178,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ChatAfterSaveNewMessage
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n403: ChatAfterSaveNewMessage\n"
   syntax:
@@ -1206,10 +1206,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenNewTicketLoad
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n500: ServiceScreenNewTicketLoad\n"
   syntax:
@@ -1234,10 +1234,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenNewQuickTicketLoad
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n501: ServiceScreenNewQuickTicketLoad\n"
   syntax:
@@ -1262,10 +1262,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenListTicketMessagesLoad
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n502: ServiceScreenListTicketMessagesLoad\n"
   syntax:
@@ -1290,10 +1290,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageLoad
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n503: ServiceScreenAddMessageLoad\n"
   syntax:
@@ -1318,10 +1318,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditTicketLoad
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n504: ServiceScreenEditTicketLoad\n"
   syntax:
@@ -1346,10 +1346,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenViewCustomerLoad
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n505: ServiceScreenViewCustomerLoad\n"
   syntax:
@@ -1374,10 +1374,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditCustomerLoad
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n506: ServiceScreenEditCustomerLoad\n"
   syntax:
@@ -1402,10 +1402,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenViewCompanyLoad
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n507: ServiceScreenViewCompanyLoad\n"
   syntax:
@@ -1430,10 +1430,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditCompanyLoad
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n508: ServiceScreenEditCompanyLoad\n"
   syntax:
@@ -1458,10 +1458,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenForwardLoad
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n509: ServiceScreenForwardLoad\n"
   syntax:
@@ -1486,10 +1486,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditExtraTableLoad
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n510: ServiceScreenEditExtraTableLoad\n"
   syntax:
@@ -1514,10 +1514,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenNewTicketBeforeSubmit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n600: ServiceScreenNewTicketBeforeSubmit\n"
   syntax:
@@ -1542,10 +1542,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenNewQuickTicketBeforeSubmit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n601: ServiceScreenNewQuickTicketBeforeSubmit\n"
   syntax:
@@ -1570,10 +1570,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenListTicketMessagesBeforeSubmit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n602: ServiceScreenListTicketMessagesBeforeSubmit\n"
   syntax:
@@ -1598,10 +1598,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageBeforeSubmit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n603: ServiceScreenAddMessageBeforeSubmit\n"
   syntax:
@@ -1626,10 +1626,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditTicketBeforeSubmit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n604: ServiceScreenEditTicketBeforeSubmit\n"
   syntax:
@@ -1654,10 +1654,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenViewCustomerBeforeSubmit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n605: ServiceScreenViewCustomerBeforeSubmit\n"
   syntax:
@@ -1682,10 +1682,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditCustomerBeforeSubmit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n606: ServiceScreenEditCustomerBeforeSubmit\n"
   syntax:
@@ -1710,10 +1710,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenViewCompanyBeforeSubmit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n607: ServiceScreenViewCompanyBeforeSubmit\n"
   syntax:
@@ -1738,10 +1738,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditCompanyBeforeSubmit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n608: ServiceScreenEditCompanyBeforeSubmit\n"
   syntax:
@@ -1766,10 +1766,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenForwardBeforeSubmit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n609: ServiceScreenForwardBeforeSubmit\n"
   syntax:
@@ -1794,10 +1794,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditExtraTableBeforeSubmit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n610: ServiceScreenEditExtraTableBeforeSubmit\n"
   syntax:
@@ -1822,10 +1822,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenNewTicketAfterSubmit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n700: ServiceScreenNewTicketAfterSubmit\n"
   syntax:
@@ -1850,10 +1850,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenNewQuickTicketAfterSubmit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n701: ServiceScreenNewQuickTicketAfterSubmit\n"
   syntax:
@@ -1878,10 +1878,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenListTicketMessagesAfterSubmit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n702: ServiceScreenListTicketMessagesAfterSubmit\n"
   syntax:
@@ -1906,10 +1906,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageAfterSubmit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n703: ServiceScreenAddMessageAfterSubmit\n"
   syntax:
@@ -1934,10 +1934,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditTicketAfterSubmit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n704: ServiceScreenEditTicketAfterSubmit\n"
   syntax:
@@ -1962,10 +1962,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenViewCustomerAfterSubmit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n705: ServiceScreenViewCustomerAfterSubmit\n"
   syntax:
@@ -1990,10 +1990,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditCustomerAfterSubmit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n706: ServiceScreenEditCustomerAfterSubmit\n"
   syntax:
@@ -2018,10 +2018,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenViewCompanyAfterSubmit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n707: ServiceScreenViewCompanyAfterSubmit\n"
   syntax:
@@ -2046,10 +2046,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditCompanyAfterSubmit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n708: ServiceScreenEditCompanyAfterSubmit\n"
   syntax:
@@ -2074,10 +2074,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenForwardAfterSubmit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n709: ServiceScreenForwardAfterSubmit\n"
   syntax:
@@ -2102,10 +2102,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditExtraTableAfterSubmit
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n710: ServiceScreenEditExtraTableAfterSubmit\n"
   syntax:
@@ -2130,10 +2130,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveAppointment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1001: SalesBeforeSaveAppointment\n"
   syntax:
@@ -2158,10 +2158,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveStakeholder
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1002: SalesBeforeSaveStakeholder\n"
   syntax:
@@ -2186,10 +2186,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveQuote
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1003: SalesBeforeSaveQuote\n"
   syntax:
@@ -2214,10 +2214,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveDocument
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1004: SalesBeforeSaveDocument\n"
   syntax:
@@ -2242,10 +2242,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveContact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1005: SalesBeforeSaveContact\n"
   syntax:
@@ -2270,10 +2270,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSavePerson
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1006: SalesBeforeSavePerson\n"
   syntax:
@@ -2298,10 +2298,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveRelation
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1007: SalesBeforeSaveRelation\n"
   syntax:
@@ -2326,10 +2326,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveSale
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1008: SalesBeforeSaveSale\n"
   syntax:
@@ -2354,10 +2354,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveProject
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1009: SalesBeforeSaveProject\n"
   syntax:
@@ -2382,10 +2382,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveSelection
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1010: SalesBeforeSaveSelection\n"
   syntax:
@@ -2410,10 +2410,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveProjectMember
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1011: SalesBeforeSaveProjectMember\n"
   syntax:
@@ -2438,10 +2438,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveSelectionMember
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1012: SalesBeforeSaveSelectionMember\n"
   syntax:
@@ -2466,10 +2466,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveQuoteLine
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1013: SalesBeforeSaveQuoteLine\n"
   syntax:
@@ -2494,10 +2494,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveAppointment
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1101: SalesAfterSaveAppointment\n"
   syntax:
@@ -2522,10 +2522,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveStakeholder
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1102: SalesAfterSaveStakeholder\n"
   syntax:
@@ -2550,10 +2550,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveQuote
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1103: SalesAfterSaveQuote\n"
   syntax:
@@ -2578,10 +2578,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveDocument
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1104: SalesAfterSaveDocument\n"
   syntax:
@@ -2606,10 +2606,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveContact
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1105: SalesAfterSaveContact\n"
   syntax:
@@ -2634,10 +2634,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSavePerson
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1106: SalesAfterSavePerson\n"
   syntax:
@@ -2662,10 +2662,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveRelation
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1107: SalesAfterSaveRelation\n"
   syntax:
@@ -2690,10 +2690,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveSale
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1108: SalesAfterSaveSale\n"
   syntax:
@@ -2718,10 +2718,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveProject
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1109: SalesAfterSaveProject\n"
   syntax:
@@ -2746,10 +2746,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveSelection
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1110: SalesAfterSaveSelection\n"
   syntax:
@@ -2774,10 +2774,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveProjectMember
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1111: SalesAfterSaveProjectMember\n"
   syntax:
@@ -2802,10 +2802,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveSelectionMember
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1112: SalesAfterSaveSelectionMember\n"
   syntax:
@@ -2830,10 +2830,10 @@ items:
   fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveQuoteLine
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1113: SalesAfterSaveQuoteLine\n"
   syntax:

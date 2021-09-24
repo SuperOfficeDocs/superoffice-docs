@@ -26,10 +26,10 @@ items:
   fullName: SuperOffice.Data.DurationUnit
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\nUnits of duration - from seconds to centuries\nThis Enum is used by:  ProjType.durationUnit; SaleType.durationUnit\n"
   syntax:
@@ -58,10 +58,10 @@ items:
   fullName: SuperOffice.Data.DurationUnit.Unknown
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n0: Duration is unknown\n"
   syntax:
@@ -86,10 +86,10 @@ items:
   fullName: SuperOffice.Data.DurationUnit.Second
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n1: Duration is in Seconds\n"
   syntax:
@@ -114,10 +114,10 @@ items:
   fullName: SuperOffice.Data.DurationUnit.Minute
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n2: Duration is in Minutes\n"
   syntax:
@@ -142,10 +142,10 @@ items:
   fullName: SuperOffice.Data.DurationUnit.Hour
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n3: Duration is in Hours\n"
   syntax:
@@ -170,10 +170,10 @@ items:
   fullName: SuperOffice.Data.DurationUnit.Day
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n4: Duration is in Days\n"
   syntax:
@@ -198,10 +198,10 @@ items:
   fullName: SuperOffice.Data.DurationUnit.Week
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n5: Duration is in Weeks\n"
   syntax:
@@ -226,10 +226,10 @@ items:
   fullName: SuperOffice.Data.DurationUnit.Month
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n6: Duration is in Months\n"
   syntax:
@@ -254,10 +254,10 @@ items:
   fullName: SuperOffice.Data.DurationUnit.Quarter
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n7: Duration is in Quarters\n"
   syntax:
@@ -282,10 +282,10 @@ items:
   fullName: SuperOffice.Data.DurationUnit.HalfYear
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n8: Duration is in HalfYears\n"
   syntax:
@@ -310,10 +310,10 @@ items:
   fullName: SuperOffice.Data.DurationUnit.Year
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n9: Duration is in Years\n"
   syntax:
@@ -338,10 +338,10 @@ items:
   fullName: SuperOffice.Data.DurationUnit.Decade
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n10: Duration is in Decades\n"
   syntax:
@@ -366,10 +366,10 @@ items:
   fullName: SuperOffice.Data.DurationUnit.Century
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n11: Duration is in Centurys\n"
   syntax:
@@ -394,10 +394,10 @@ items:
   fullName: SuperOffice.Data.DurationUnit.Millenium
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   summary: "\n12: Duration is in Milleniums\n"
   syntax:

@@ -5,6 +5,7 @@ items:
   id: ConfigFile.Data.Database
   parent: SuperOffice.Configuration
   children:
+  - SuperOffice.Configuration.ConfigFile.Data.Database.CacheCheckInterval
   - SuperOffice.Configuration.ConfigFile.Data.Database.CommandTimeout
   - SuperOffice.Configuration.ConfigFile.Data.Database.ConnectionString
   - SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseMajor
@@ -15,6 +16,7 @@ items:
   - SuperOffice.Configuration.ConfigFile.Data.Database.DisableUserInSqlTrackingComments
   - SuperOffice.Configuration.ConfigFile.Data.Database.DynamicLoadedConnectionType
   - SuperOffice.Configuration.ConfigFile.Data.Database.DynamicLoadedDataBaseDriver
+  - SuperOffice.Configuration.ConfigFile.Data.Database.ForceCacheRefreshInterval
   - SuperOffice.Configuration.ConfigFile.Data.Database.ImpersonateDatabaseUser
   - SuperOffice.Configuration.ConfigFile.Data.Database.Server
   - SuperOffice.Configuration.ConfigFile.Data.Database.TablePrefix
@@ -26,10 +28,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nUtility class used to access the SuperOffice.Data.Database entry in the config-file.\n"
   syntax:
@@ -64,10 +66,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseMajor
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nMajor name of database provider\n"
   syntax:
@@ -97,10 +99,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseMinor
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nVersion number of Database\n"
   syntax:
@@ -130,10 +132,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.Server
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe server where the database is located\n"
   syntax:
@@ -163,10 +165,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DatabaseName
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nName of the database. Also used for distinct service name.\n"
   syntax:
@@ -196,10 +198,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.TablePrefix
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe prefix of the SuperOffice CRM tables in the database.\n"
   syntax:
@@ -229,10 +231,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.ConnectionString
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nThe connection string formatted as a &quot;template&quot;.\n"
   syntax:
@@ -262,10 +264,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.CommandTimeout
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nTimeout in seconds for the command to wait for a response from the database.\n"
   syntax:
@@ -295,10 +297,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DynamicLoadedDataBaseDriver
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nReturns the name of the ADO.NET driver to load.\n"
   syntax:
@@ -328,10 +330,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DynamicLoadedConnectionType
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nReturns the type of connection to open.\n"
   syntax:
@@ -361,10 +363,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DefaultReadUncommitted
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nShould SELECTs by default run in &quot;ReadUncommitted&quot; isolation level, lessening locking contention (especially on SQL Server)?  Default setting is TRUE.\n"
   syntax:
@@ -394,10 +396,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.ImpersonateDatabaseUser
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nShould the DbUser be logged in with windows and impersonated when connecting to the database in order to support database integrated authentication.\n"
   syntax:
@@ -427,10 +429,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DisableSqlTrackingComments
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nIf true, then comments that usually precede generated SQL to identify the operation and user will not be generated at all; may help performance on Oracle which thinks it has to reparse everything if a comment changes\n"
   syntax:
@@ -460,10 +462,10 @@ items:
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DisableUserInSqlTrackingComments
   type: Property
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Configuration
   summary: "\nIf true, then comments that usually precede generated SQL to identify the operation will not contain associate information; may help performance on Oracle which thinks it has to reparse everything if a comment changes\n"
   syntax:
@@ -473,6 +475,72 @@ items:
       type: System.Boolean
     content.vb: Public Shared Property DisableUserInSqlTrackingComments As Boolean
   overload: SuperOffice.Configuration.ConfigFile.Data.Database.DisableUserInSqlTrackingComments*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Data.Database.CacheCheckInterval
+  commentId: P:SuperOffice.Configuration.ConfigFile.Data.Database.CacheCheckInterval
+  id: CacheCheckInterval
+  parent: SuperOffice.Configuration.ConfigFile.Data.Database
+  langs:
+  - csharp
+  - vb
+  name: CacheCheckInterval
+  nameWithType: ConfigFile.Data.Database.CacheCheckInterval
+  fullName: SuperOffice.Configuration.ConfigFile.Data.Database.CacheCheckInterval
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nNumber of seconds to check if cache are outdated and refersh. 0 will disable the timer.\n"
+  syntax:
+    content: public static int CacheCheckInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property CacheCheckInterval As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Data.Database.CacheCheckInterval*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Data.Database.ForceCacheRefreshInterval
+  commentId: P:SuperOffice.Configuration.ConfigFile.Data.Database.ForceCacheRefreshInterval
+  id: ForceCacheRefreshInterval
+  parent: SuperOffice.Configuration.ConfigFile.Data.Database
+  langs:
+  - csharp
+  - vb
+  name: ForceCacheRefreshInterval
+  nameWithType: ConfigFile.Data.Database.ForceCacheRefreshInterval
+  fullName: SuperOffice.Configuration.ConfigFile.Data.Database.ForceCacheRefreshInterval
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nNumber of seconds before caches are force refreshed. 0 will disable the timer.\n"
+  syntax:
+    content: public static int ForceCacheRefreshInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property ForceCacheRefreshInterval As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Data.Database.ForceCacheRefreshInterval*
   modifiers.csharp:
   - public
   - static
@@ -879,3 +947,15 @@ references:
   name: DisableUserInSqlTrackingComments
   nameWithType: ConfigFile.Data.Database.DisableUserInSqlTrackingComments
   fullName: SuperOffice.Configuration.ConfigFile.Data.Database.DisableUserInSqlTrackingComments
+- uid: SuperOffice.Configuration.ConfigFile.Data.Database.CacheCheckInterval*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Database.CacheCheckInterval
+  isExternal: true
+  name: CacheCheckInterval
+  nameWithType: ConfigFile.Data.Database.CacheCheckInterval
+  fullName: SuperOffice.Configuration.ConfigFile.Data.Database.CacheCheckInterval
+- uid: SuperOffice.Configuration.ConfigFile.Data.Database.ForceCacheRefreshInterval*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Database.ForceCacheRefreshInterval
+  isExternal: true
+  name: ForceCacheRefreshInterval
+  nameWithType: ConfigFile.Data.Database.ForceCacheRefreshInterval
+  fullName: SuperOffice.Configuration.ConfigFile.Data.Database.ForceCacheRefreshInterval

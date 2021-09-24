@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.TimeZone.ITimeConverterDataFetcher
   type: Interface
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.TimeZone
   summary: "\nInterface for Timezonedata fetchers.\n"
   syntax:
@@ -45,10 +45,10 @@ items:
   fullName: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetTimeZoneData()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.TimeZone
   summary: "\nGet timezonedata\n"
   syntax:
@@ -69,10 +69,10 @@ items:
   fullName: SuperOffice.TimeZone.ITimeConverterDataFetcher.GetBaseTimeZoneId()
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.TimeZone
   summary: "\nGet base timezone id\n"
   syntax:

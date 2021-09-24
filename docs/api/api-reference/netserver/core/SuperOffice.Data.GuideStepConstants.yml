@@ -17,10 +17,10 @@ items:
   fullName: SuperOffice.Data.GuideStepConstants
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public static class GuideStepConstants
@@ -54,10 +54,10 @@ items:
   fullName: SuperOffice.Data.GuideStepConstants.GetDeleted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string GetDeleted = "GetDeleted"
@@ -82,10 +82,10 @@ items:
   fullName: SuperOffice.Data.GuideStepConstants.IsDeleted
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string IsDeleted = "IsDeleted"
@@ -110,10 +110,10 @@ items:
   fullName: SuperOffice.Data.GuideStepConstants.GetDeletedLinks
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string GetDeletedLinks = "GetDeletedLinks"
@@ -138,10 +138,10 @@ items:
   fullName: SuperOffice.Data.GuideStepConstants.DeletedAlias
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const string DeletedAlias = "DeletedAlias"

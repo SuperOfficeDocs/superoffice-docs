@@ -31,10 +31,10 @@ items:
   fullName: SuperOffice.Data.EMailFolderAttributeConstants
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public static class EMailFolderAttributeConstants
@@ -68,10 +68,10 @@ items:
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.None
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int None = 0
@@ -96,10 +96,10 @@ items:
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.NoInferiors
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int NoInferiors = 1
@@ -124,10 +124,10 @@ items:
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.NoSelect
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int NoSelect = 2
@@ -152,10 +152,10 @@ items:
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.Marked
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int Marked = 4
@@ -180,10 +180,10 @@ items:
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.Unmarked
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int Unmarked = 8
@@ -208,10 +208,10 @@ items:
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.NonExistent
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int NonExistent = 16
@@ -236,10 +236,10 @@ items:
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.Subscribed
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int Subscribed = 32
@@ -264,10 +264,10 @@ items:
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.Remote
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int Remote = 64
@@ -292,10 +292,10 @@ items:
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.HasChildren
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int HasChildren = 128
@@ -320,10 +320,10 @@ items:
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.HasNoChildren
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int HasNoChildren = 256
@@ -348,10 +348,10 @@ items:
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.All
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int All = 512
@@ -376,10 +376,10 @@ items:
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.Archive
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int Archive = 1024
@@ -404,10 +404,10 @@ items:
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.Drafts
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int Drafts = 2048
@@ -432,10 +432,10 @@ items:
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.Flagged
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int Flagged = 4096
@@ -460,10 +460,10 @@ items:
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.Inbox
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int Inbox = 8192
@@ -488,10 +488,10 @@ items:
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.Junk
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int Junk = 16384
@@ -516,10 +516,10 @@ items:
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.Sent
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int Sent = 32768
@@ -544,10 +544,10 @@ items:
   fullName: SuperOffice.Data.EMailFolderAttributeConstants.Trash
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Data
   syntax:
     content: public const int Trash = 65536

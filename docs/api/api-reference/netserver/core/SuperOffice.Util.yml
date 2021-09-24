@@ -4,6 +4,12 @@ items:
   commentId: N:SuperOffice.Util
   id: SuperOffice.Util
   children:
+  - SuperOffice.Util.AccessGateway
+  - SuperOffice.Util.AccessGateway.AccessGatewayTokenReply
+  - SuperOffice.Util.AccessGateway.AccessGatewayTokenRequest
+  - SuperOffice.Util.AccessGateway.TenantClientConfiguration
+  - SuperOffice.Util.AccessGateway.TenantRegistrationInfo
+  - SuperOffice.Util.AccessGateway.TokenManagementInfo
   - SuperOffice.Util.AppointmentUtility
   - SuperOffice.Util.AssemblyHelper
   - SuperOffice.Util.AsyncListProviderWrapper
@@ -12,6 +18,7 @@ items:
   - SuperOffice.Util.CollectionOps
   - SuperOffice.Util.CollectionOps.ConvertType`2
   - SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
+  - SuperOffice.Util.ComplexKey
   - SuperOffice.Util.DateTimeSearchType
   - SuperOffice.Util.DateTimeUtil
   - SuperOffice.Util.DateUtility
@@ -24,6 +31,7 @@ items:
   - SuperOffice.Util.FileNameHelper
   - SuperOffice.Util.HtmlHelper
   - SuperOffice.Util.HttpHelper
+  - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
   - SuperOffice.Util.HttpHelper.RequestType
   - SuperOffice.Util.iCalendarUtility
   - SuperOffice.Util.ImageUtilities
@@ -75,6 +83,7 @@ items:
   - SuperOffice.Util.XmlUtil
   - SuperOffice.Util.XmlUtil.InternalResolver
   - SuperOffice.Util.XmlUtil.Override
+  - SuperOffice.Util.ZFDHelper
   - SuperOffice.Util.Zip
   - SuperOffice.Util.ZipEntry
   - SuperOffice.Util.ZipFile
@@ -87,8 +96,20 @@ items:
   fullName: SuperOffice.Util
   type: Namespace
   assemblies:
-  - SOCore
+  - SoCore
 references:
+- uid: SuperOffice.Util.AssemblyHelper
+  commentId: T:SuperOffice.Util.AssemblyHelper
+  isExternal: true
+  name: AssemblyHelper
+  nameWithType: AssemblyHelper
+  fullName: SuperOffice.Util.AssemblyHelper
+- uid: SuperOffice.Util.AttributeFetcher
+  commentId: T:SuperOffice.Util.AttributeFetcher
+  isExternal: true
+  name: AttributeFetcher
+  nameWithType: AttributeFetcher
+  fullName: SuperOffice.Util.AttributeFetcher
 - uid: SuperOffice.Util.CollectionOps
   commentId: T:SuperOffice.Util.CollectionOps
   parent: SuperOffice.Util
@@ -198,143 +219,24 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Util.DomainHelper
-  commentId: T:SuperOffice.Util.DomainHelper
+- uid: SuperOffice.Util.ComplexKey
+  commentId: T:SuperOffice.Util.ComplexKey
   isExternal: true
-  name: DomainHelper
-  nameWithType: DomainHelper
-  fullName: SuperOffice.Util.DomainHelper
-- uid: SuperOffice.Util.ExpressionUtil
-  commentId: T:SuperOffice.Util.ExpressionUtil
-  isExternal: true
-  name: ExpressionUtil
-  nameWithType: ExpressionUtil
-  fullName: SuperOffice.Util.ExpressionUtil
-- uid: SuperOffice.Util.HtmlHelper
-  commentId: T:SuperOffice.Util.HtmlHelper
-  isExternal: true
-  name: HtmlHelper
-  nameWithType: HtmlHelper
-  fullName: SuperOffice.Util.HtmlHelper
-- uid: SuperOffice.Util.SJElement
-  commentId: T:SuperOffice.Util.SJElement
-  parent: SuperOffice.Util
-  isExternal: true
-  name: SJElement
-  nameWithType: SJElement
-  fullName: SuperOffice.Util.SJElement
-- uid: SuperOffice.Util.SJArray
-  commentId: T:SuperOffice.Util.SJArray
-  parent: SuperOffice.Util
-  isExternal: true
-  name: SJArray
-  nameWithType: SJArray
-  fullName: SuperOffice.Util.SJArray
-- uid: SuperOffice.Util.MailIdConverter
-  commentId: T:SuperOffice.Util.MailIdConverter
-  isExternal: true
-  name: MailIdConverter
-  nameWithType: MailIdConverter
-  fullName: SuperOffice.Util.MailIdConverter
-- uid: SuperOffice.Util.MailHelper
-  commentId: T:SuperOffice.Util.MailHelper
-  isExternal: true
-  name: MailHelper
-  nameWithType: MailHelper
-  fullName: SuperOffice.Util.MailHelper
-- uid: SuperOffice.Util.NameHelper
-  commentId: T:SuperOffice.Util.NameHelper
-  isExternal: true
-  name: NameHelper
-  nameWithType: NameHelper
-  fullName: SuperOffice.Util.NameHelper
-- uid: SuperOffice.Util.NameValueCollectionOps
-  commentId: T:SuperOffice.Util.NameValueCollectionOps
-  isExternal: true
-  name: NameValueCollectionOps
-  nameWithType: NameValueCollectionOps
-  fullName: SuperOffice.Util.NameValueCollectionOps
-- uid: SuperOffice.Util.PreferenceLicenseRequired
-  commentId: T:SuperOffice.Util.PreferenceLicenseRequired
-  isExternal: true
-  name: PreferenceLicenseRequired
-  nameWithType: PreferenceLicenseRequired
-  fullName: SuperOffice.Util.PreferenceLicenseRequired
-- uid: SuperOffice.Util.OperationTracker
-  commentId: T:SuperOffice.Util.OperationTracker
-  isExternal: true
-  name: OperationTracker
-  nameWithType: OperationTracker
-  fullName: SuperOffice.Util.OperationTracker
-- uid: SuperOffice.Util.RandomNumberGeneratorExtensions
-  commentId: T:SuperOffice.Util.RandomNumberGeneratorExtensions
-  isExternal: true
-  name: RandomNumberGeneratorExtensions
-  nameWithType: RandomNumberGeneratorExtensions
-  fullName: SuperOffice.Util.RandomNumberGeneratorExtensions
-- uid: SuperOffice.Util.SoMapper
-  commentId: T:SuperOffice.Util.SoMapper
-  parent: SuperOffice.Util
-  isExternal: true
-  name: SoMapper
-  nameWithType: SoMapper
-  fullName: SuperOffice.Util.SoMapper
-- uid: SuperOffice.Util.AssemblyHelper
-  commentId: T:SuperOffice.Util.AssemblyHelper
-  isExternal: true
-  name: AssemblyHelper
-  nameWithType: AssemblyHelper
-  fullName: SuperOffice.Util.AssemblyHelper
-- uid: SuperOffice.Util.EnumerableWriter
-  commentId: T:SuperOffice.Util.EnumerableWriter
-  parent: SuperOffice.Util
-  isExternal: true
-  name: EnumerableWriter
-  nameWithType: EnumerableWriter
-  fullName: SuperOffice.Util.EnumerableWriter
-- uid: SuperOffice.Util.ImportDefaults
-  commentId: T:SuperOffice.Util.ImportDefaults
-  isExternal: true
-  name: ImportDefaults
-  nameWithType: ImportDefaults
-  fullName: SuperOffice.Util.ImportDefaults
-- uid: SuperOffice.Util.MimeHelper
-  commentId: T:SuperOffice.Util.MimeHelper
-  isExternal: true
-  name: MimeHelper
-  nameWithType: MimeHelper
-  fullName: SuperOffice.Util.MimeHelper
-- uid: SuperOffice.Util.MimeTypes
-  commentId: T:SuperOffice.Util.MimeTypes
-  isExternal: true
-  name: MimeTypes
-  nameWithType: MimeTypes
-  fullName: SuperOffice.Util.MimeTypes
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ReversibleStringEncryption
-  commentId: T:SuperOffice.Util.ReversibleStringEncryption
-  isExternal: true
-  name: ReversibleStringEncryption
-  nameWithType: ReversibleStringEncryption
-  fullName: SuperOffice.Util.ReversibleStringEncryption
-- uid: SuperOffice.Util.AttributeFetcher
-  commentId: T:SuperOffice.Util.AttributeFetcher
-  isExternal: true
-  name: AttributeFetcher
-  nameWithType: AttributeFetcher
-  fullName: SuperOffice.Util.AttributeFetcher
+  name: ComplexKey
+  nameWithType: ComplexKey
+  fullName: SuperOffice.Util.ComplexKey
 - uid: SuperOffice.Util.DateUtility
   commentId: T:SuperOffice.Util.DateUtility
   isExternal: true
   name: DateUtility
   nameWithType: DateUtility
   fullName: SuperOffice.Util.DateUtility
+- uid: SuperOffice.Util.DomainHelper
+  commentId: T:SuperOffice.Util.DomainHelper
+  isExternal: true
+  name: DomainHelper
+  nameWithType: DomainHelper
+  fullName: SuperOffice.Util.DomainHelper
 - uid: SuperOffice.Util.doubleExtensions
   commentId: T:SuperOffice.Util.doubleExtensions
   isExternal: true
@@ -347,6 +249,13 @@ references:
   name: Encoding
   nameWithType: Encoding
   fullName: SuperOffice.Util.Encoding
+- uid: SuperOffice.Util.EnumerableWriter
+  commentId: T:SuperOffice.Util.EnumerableWriter
+  parent: SuperOffice.Util
+  isExternal: true
+  name: EnumerableWriter
+  nameWithType: EnumerableWriter
+  fullName: SuperOffice.Util.EnumerableWriter
 - uid: SuperOffice.Util.ExpiringDictionary`2
   commentId: T:SuperOffice.Util.ExpiringDictionary`2
   isExternal: true
@@ -398,6 +307,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Util.ExpressionUtil
+  commentId: T:SuperOffice.Util.ExpressionUtil
+  isExternal: true
+  name: ExpressionUtil
+  nameWithType: ExpressionUtil
+  fullName: SuperOffice.Util.ExpressionUtil
+- uid: SuperOffice.Util.FileNameHelper
+  commentId: T:SuperOffice.Util.FileNameHelper
+  isExternal: true
+  name: FileNameHelper
+  nameWithType: FileNameHelper
+  fullName: SuperOffice.Util.FileNameHelper
+- uid: SuperOffice.Util.HtmlHelper
+  commentId: T:SuperOffice.Util.HtmlHelper
+  isExternal: true
+  name: HtmlHelper
+  nameWithType: HtmlHelper
+  fullName: SuperOffice.Util.HtmlHelper
+- uid: SuperOffice.Util.HttpHelper
+  commentId: T:SuperOffice.Util.HttpHelper
+  isExternal: true
+  name: HttpHelper
+  nameWithType: HttpHelper
+  fullName: SuperOffice.Util.HttpHelper
+- uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+  commentId: T:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+  parent: SuperOffice.Util
+  isExternal: true
+  name: HttpHelper.HttpServiceJwtConfig
+  nameWithType: HttpHelper.HttpServiceJwtConfig
+  fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+- uid: SuperOffice.Util.HttpHelper.RequestType
+  commentId: T:SuperOffice.Util.HttpHelper.RequestType
+  parent: SuperOffice.Util
+  isExternal: true
+  name: HttpHelper.RequestType
+  nameWithType: HttpHelper.RequestType
+  fullName: SuperOffice.Util.HttpHelper.RequestType
 - uid: SuperOffice.Util.ImageUtilities
   commentId: T:SuperOffice.Util.ImageUtilities
   parent: SuperOffice.Util
@@ -405,19 +352,26 @@ references:
   name: ImageUtilities
   nameWithType: ImageUtilities
   fullName: SuperOffice.Util.ImageUtilities
-- uid: SuperOffice.Util.shortAndboolExtensions
-  commentId: T:SuperOffice.Util.shortAndboolExtensions
+- uid: SuperOffice.Util.ImportDefaults
+  commentId: T:SuperOffice.Util.ImportDefaults
   isExternal: true
-  name: shortAndboolExtensions
-  nameWithType: shortAndboolExtensions
-  fullName: SuperOffice.Util.shortAndboolExtensions
-- uid: SuperOffice.Util.StackTracer
-  commentId: T:SuperOffice.Util.StackTracer
+  name: ImportDefaults
+  nameWithType: ImportDefaults
+  fullName: SuperOffice.Util.ImportDefaults
+- uid: SuperOffice.Util.SJElement
+  commentId: T:SuperOffice.Util.SJElement
   parent: SuperOffice.Util
   isExternal: true
-  name: StackTracer
-  nameWithType: StackTracer
-  fullName: SuperOffice.Util.StackTracer
+  name: SJElement
+  nameWithType: SJElement
+  fullName: SuperOffice.Util.SJElement
+- uid: SuperOffice.Util.SJArray
+  commentId: T:SuperOffice.Util.SJArray
+  parent: SuperOffice.Util
+  isExternal: true
+  name: SJArray
+  nameWithType: SJArray
+  fullName: SuperOffice.Util.SJArray
 - uid: SuperOffice.Util.KeyedMatrix`3
   commentId: T:SuperOffice.Util.KeyedMatrix`3
   parent: SuperOffice.Util
@@ -551,6 +505,93 @@ references:
   name: ReaderWriteLockExtensions
   nameWithType: ReaderWriteLockExtensions
   fullName: SuperOffice.Util.ReaderWriteLockExtensions
+- uid: SuperOffice.Util.MailIdConverter
+  commentId: T:SuperOffice.Util.MailIdConverter
+  isExternal: true
+  name: MailIdConverter
+  nameWithType: MailIdConverter
+  fullName: SuperOffice.Util.MailIdConverter
+- uid: SuperOffice.Util.MailHelper
+  commentId: T:SuperOffice.Util.MailHelper
+  isExternal: true
+  name: MailHelper
+  nameWithType: MailHelper
+  fullName: SuperOffice.Util.MailHelper
+- uid: SuperOffice.Util.MimeHelper
+  commentId: T:SuperOffice.Util.MimeHelper
+  isExternal: true
+  name: MimeHelper
+  nameWithType: MimeHelper
+  fullName: SuperOffice.Util.MimeHelper
+- uid: SuperOffice.Util.MimeTypes
+  commentId: T:SuperOffice.Util.MimeTypes
+  isExternal: true
+  name: MimeTypes
+  nameWithType: MimeTypes
+  fullName: SuperOffice.Util.MimeTypes
+- uid: SuperOffice.Util.NameHelper
+  commentId: T:SuperOffice.Util.NameHelper
+  isExternal: true
+  name: NameHelper
+  nameWithType: NameHelper
+  fullName: SuperOffice.Util.NameHelper
+- uid: SuperOffice.Util.NameValueCollectionOps
+  commentId: T:SuperOffice.Util.NameValueCollectionOps
+  isExternal: true
+  name: NameValueCollectionOps
+  nameWithType: NameValueCollectionOps
+  fullName: SuperOffice.Util.NameValueCollectionOps
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.OperationTracker
+  commentId: T:SuperOffice.Util.OperationTracker
+  isExternal: true
+  name: OperationTracker
+  nameWithType: OperationTracker
+  fullName: SuperOffice.Util.OperationTracker
+- uid: SuperOffice.Util.PreferenceLicenseRequired
+  commentId: T:SuperOffice.Util.PreferenceLicenseRequired
+  isExternal: true
+  name: PreferenceLicenseRequired
+  nameWithType: PreferenceLicenseRequired
+  fullName: SuperOffice.Util.PreferenceLicenseRequired
+- uid: SuperOffice.Util.RandomNumberGeneratorExtensions
+  commentId: T:SuperOffice.Util.RandomNumberGeneratorExtensions
+  isExternal: true
+  name: RandomNumberGeneratorExtensions
+  nameWithType: RandomNumberGeneratorExtensions
+  fullName: SuperOffice.Util.RandomNumberGeneratorExtensions
+- uid: SuperOffice.Util.ReversibleStringEncryption
+  commentId: T:SuperOffice.Util.ReversibleStringEncryption
+  isExternal: true
+  name: ReversibleStringEncryption
+  nameWithType: ReversibleStringEncryption
+  fullName: SuperOffice.Util.ReversibleStringEncryption
+- uid: SuperOffice.Util.shortAndboolExtensions
+  commentId: T:SuperOffice.Util.shortAndboolExtensions
+  isExternal: true
+  name: shortAndboolExtensions
+  nameWithType: shortAndboolExtensions
+  fullName: SuperOffice.Util.shortAndboolExtensions
+- uid: SuperOffice.Util.SoMapper
+  commentId: T:SuperOffice.Util.SoMapper
+  parent: SuperOffice.Util
+  isExternal: true
+  name: SoMapper
+  nameWithType: SoMapper
+  fullName: SuperOffice.Util.SoMapper
+- uid: SuperOffice.Util.StackTracer
+  commentId: T:SuperOffice.Util.StackTracer
+  parent: SuperOffice.Util
+  isExternal: true
+  name: StackTracer
+  nameWithType: StackTracer
+  fullName: SuperOffice.Util.StackTracer
 - uid: SuperOffice.Util.StringHelper
   commentId: T:SuperOffice.Util.StringHelper
   isExternal: true
@@ -714,12 +755,6 @@ references:
   name: TypeHelper
   nameWithType: TypeHelper
   fullName: SuperOffice.Util.TypeHelper
-- uid: SuperOffice.Util.FileNameHelper
-  commentId: T:SuperOffice.Util.FileNameHelper
-  isExternal: true
-  name: FileNameHelper
-  nameWithType: FileNameHelper
-  fullName: SuperOffice.Util.FileNameHelper
 - uid: SuperOffice.Util.UrlHelper
   commentId: T:SuperOffice.Util.UrlHelper
   isExternal: true
@@ -765,6 +800,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Util.XmlObjectHelper
+  commentId: T:SuperOffice.Util.XmlObjectHelper
+  isExternal: true
+  name: XmlObjectHelper
+  nameWithType: XmlObjectHelper
+  fullName: SuperOffice.Util.XmlObjectHelper
 - uid: SuperOffice.Util.XmlSchemaUtil
   commentId: T:SuperOffice.Util.XmlSchemaUtil
   isExternal: true
@@ -790,12 +831,6 @@ references:
   name: XmlUtil.Override
   nameWithType: XmlUtil.Override
   fullName: SuperOffice.Util.XmlUtil.Override
-- uid: SuperOffice.Util.XmlObjectHelper
-  commentId: T:SuperOffice.Util.XmlObjectHelper
-  isExternal: true
-  name: XmlObjectHelper
-  nameWithType: XmlObjectHelper
-  fullName: SuperOffice.Util.XmlObjectHelper
 - uid: SuperOffice.Util.ZipType
   commentId: T:SuperOffice.Util.ZipType
   parent: SuperOffice.Util
@@ -841,6 +876,43 @@ references:
   name: DateTimeUtil
   nameWithType: DateTimeUtil
   fullName: SuperOffice.Util.DateTimeUtil
+- uid: SuperOffice.Util.AccessGateway
+  commentId: T:SuperOffice.Util.AccessGateway
+  isExternal: true
+  name: AccessGateway
+  nameWithType: AccessGateway
+  fullName: SuperOffice.Util.AccessGateway
+- uid: SuperOffice.Util.AccessGateway.TokenManagementInfo
+  commentId: T:SuperOffice.Util.AccessGateway.TokenManagementInfo
+  parent: SuperOffice.Util
+  isExternal: true
+  name: AccessGateway.TokenManagementInfo
+  nameWithType: AccessGateway.TokenManagementInfo
+  fullName: SuperOffice.Util.AccessGateway.TokenManagementInfo
+- uid: SuperOffice.Util.AccessGateway.AccessGatewayTokenRequest
+  commentId: T:SuperOffice.Util.AccessGateway.AccessGatewayTokenRequest
+  isExternal: true
+  name: AccessGateway.AccessGatewayTokenRequest
+  nameWithType: AccessGateway.AccessGatewayTokenRequest
+  fullName: SuperOffice.Util.AccessGateway.AccessGatewayTokenRequest
+- uid: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply
+  commentId: T:SuperOffice.Util.AccessGateway.AccessGatewayTokenReply
+  isExternal: true
+  name: AccessGateway.AccessGatewayTokenReply
+  nameWithType: AccessGateway.AccessGatewayTokenReply
+  fullName: SuperOffice.Util.AccessGateway.AccessGatewayTokenReply
+- uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration
+  commentId: T:SuperOffice.Util.AccessGateway.TenantClientConfiguration
+  isExternal: true
+  name: AccessGateway.TenantClientConfiguration
+  nameWithType: AccessGateway.TenantClientConfiguration
+  fullName: SuperOffice.Util.AccessGateway.TenantClientConfiguration
+- uid: SuperOffice.Util.AccessGateway.TenantRegistrationInfo
+  commentId: T:SuperOffice.Util.AccessGateway.TenantRegistrationInfo
+  isExternal: true
+  name: AccessGateway.TenantRegistrationInfo
+  nameWithType: AccessGateway.TenantRegistrationInfo
+  fullName: SuperOffice.Util.AccessGateway.TenantRegistrationInfo
 - uid: SuperOffice.Util.RecurringSeries
   commentId: T:SuperOffice.Util.RecurringSeries
   parent: SuperOffice.Util
@@ -862,19 +934,6 @@ references:
   name: AppointmentUtility
   nameWithType: AppointmentUtility
   fullName: SuperOffice.Util.AppointmentUtility
-- uid: SuperOffice.Util.HttpHelper
-  commentId: T:SuperOffice.Util.HttpHelper
-  isExternal: true
-  name: HttpHelper
-  nameWithType: HttpHelper
-  fullName: SuperOffice.Util.HttpHelper
-- uid: SuperOffice.Util.HttpHelper.RequestType
-  commentId: T:SuperOffice.Util.HttpHelper.RequestType
-  parent: SuperOffice.Util
-  isExternal: true
-  name: HttpHelper.RequestType
-  nameWithType: HttpHelper.RequestType
-  fullName: SuperOffice.Util.HttpHelper.RequestType
 - uid: SuperOffice.Util.iCalendarUtility
   commentId: T:SuperOffice.Util.iCalendarUtility
   parent: SuperOffice.Util
@@ -919,6 +978,12 @@ references:
   name: VideoMeetingHelper.SoAppointment
   nameWithType: VideoMeetingHelper.SoAppointment
   fullName: SuperOffice.Util.VideoMeetingHelper.SoAppointment
+- uid: SuperOffice.Util.ZFDHelper
+  commentId: T:SuperOffice.Util.ZFDHelper
+  isExternal: true
+  name: ZFDHelper
+  nameWithType: ZFDHelper
+  fullName: SuperOffice.Util.ZFDHelper
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true

@@ -20,10 +20,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAuthenticationType
   type: Enum
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nMethod of authentication used to authenticate a user\n"
   syntax:
@@ -52,10 +52,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAuthenticationType.Unauthenticated
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe user is not authenticated.\n"
   syntax:
@@ -80,10 +80,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAuthenticationType.CRM5
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe user is authenticated with a CRM5 username and password that \ncorrespond with values in the users associate record.\n"
   syntax:
@@ -108,10 +108,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAuthenticationType.Database
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe user is autheniticated by the database.  This authentication \nis only supported for client side versions of NetServer.\n"
   syntax:
@@ -151,10 +151,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAuthenticationType.Windows
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe user is authenticated by his windows logon account.\n"
   syntax:
@@ -179,10 +179,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAuthenticationType.Passport
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe user is authenticated with Microsoft Passport authentication.\n"
   syntax:
@@ -222,10 +222,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAuthenticationType.Impersonated
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nThe user a system user impersonated as a named user\n"
   syntax:
@@ -250,10 +250,10 @@ items:
   fullName: SuperOffice.Security.Principal.SoAuthenticationType.Delegated
   type: Field
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.Security.Principal
   summary: "\nAuthentication was delegated to a 3rd party authenticator\n"
   syntax:

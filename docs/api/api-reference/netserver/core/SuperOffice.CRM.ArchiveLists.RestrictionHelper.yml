@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.RestrictionHelper.AddRestrictions(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[])
   - SuperOffice.CRM.ArchiveLists.RestrictionHelper.AddUnconditionalRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
   - SuperOffice.CRM.ArchiveLists.RestrictionHelper.Count
+  - SuperOffice.CRM.ArchiveLists.RestrictionHelper.FieldColumnBindings
   - SuperOffice.CRM.ArchiveLists.RestrictionHelper.GetAndDropRestriction(System.String)
   - SuperOffice.CRM.ArchiveLists.RestrictionHelper.GetAndDropRestrictions(System.String)
   - SuperOffice.CRM.ArchiveLists.RestrictionHelper.GetRestriction(System.String)
@@ -631,6 +632,36 @@ items:
   modifiers.vb:
   - Public
   - Overrides
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionHelper.FieldColumnBindings
+  commentId: P:SuperOffice.CRM.ArchiveLists.RestrictionHelper.FieldColumnBindings
+  id: FieldColumnBindings
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionHelper
+  langs:
+  - csharp
+  - vb
+  name: FieldColumnBindings
+  nameWithType: RestrictionHelper.FieldColumnBindings
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionHelper.FieldColumnBindings
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public Dictionary<string, FieldInfo> FieldColumnBindings { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.Data.SQL.FieldInfo}
+    content.vb: Public ReadOnly Property FieldColumnBindings As Dictionary(Of String, FieldInfo)
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionHelper.FieldColumnBindings*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionHelper.Count
   commentId: P:SuperOffice.CRM.ArchiveLists.RestrictionHelper.Count
   id: Count
@@ -1718,6 +1749,123 @@ references:
   name: ToString
   nameWithType: RestrictionHelper.ToString
   fullName: SuperOffice.CRM.ArchiveLists.RestrictionHelper.ToString
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionHelper.FieldColumnBindings*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionHelper.FieldColumnBindings
+  isExternal: true
+  name: FieldColumnBindings
+  nameWithType: RestrictionHelper.FieldColumnBindings
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionHelper.FieldColumnBindings
+- uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.Data.SQL.FieldInfo}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.Data.SQL.FieldInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, FieldInfo>
+  nameWithType: Dictionary<String, FieldInfo>
+  fullName: System.Collections.Generic.Dictionary<System.String, SuperOffice.Data.SQL.FieldInfo>
+  nameWithType.vb: Dictionary(Of String, FieldInfo)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: Dictionary(Of String, FieldInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionHelper.Count*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionHelper.Count
   isExternal: true

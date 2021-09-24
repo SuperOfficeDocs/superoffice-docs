@@ -19,6 +19,7 @@ items:
   - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.Registered
   - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.RegisteredAssociateId
   - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.Tags
+  - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.TimeZoneId
   - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.TotalNotificationCount
   - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.Updated
   - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.UpdatedAssociateId
@@ -573,6 +574,35 @@ items:
     return:
       type: System.String
     content.vb: Public Const OSVersion As String = "OSVersion"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.TimeZoneId
+  commentId: F:SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.TimeZoneId
+  id: TimeZoneId
+  parent: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneId
+  nameWithType: DBC.PushNotificationServiceFields.TimeZoneId
+  fullName: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.TimeZoneId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPushNotificationService.TimeZoneId: The timezone to show for dates in messages\n"
+  syntax:
+    content: public const string TimeZoneId = "TimeZoneId"
+    return:
+      type: System.String
+    content.vb: Public Const TimeZoneId As String = "TimeZoneId"
   modifiers.csharp:
   - public
   - const

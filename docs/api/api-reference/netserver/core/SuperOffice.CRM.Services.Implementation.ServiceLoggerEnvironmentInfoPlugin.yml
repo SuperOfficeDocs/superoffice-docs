@@ -15,10 +15,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin
   type: Class
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   syntax:
     content: >-
@@ -71,10 +71,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
   type: Method
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   syntax:
     content: public void UpdateEnvironmentInfo(NameValueCollection environmentInfo)
@@ -101,10 +101,10 @@ items:
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.ServiceLoggerEnvironmentInfoPlugin()
   type: Constructor
   source:
-    path: SOCore
+    path: SoCore
     isExternal: true
   assemblies:
-  - SOCore
+  - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   syntax:
     content: public ServiceLoggerEnvironmentInfoPlugin()
