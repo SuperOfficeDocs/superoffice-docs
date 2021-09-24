@@ -46,6 +46,8 @@ items:
   href: encodeHMACSHA1.md
 - name: EncodeHMACSHA256
   href: encodeHMACSHA256.md
+- name: EncodeHMACSHA512
+  href: encodeHMACSHA512.md
 - name: EncodeSHA1
   href: encodeSHA1.md
 - name: EncodeSHA256
