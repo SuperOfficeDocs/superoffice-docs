@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.AutoEnableTravel
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.Enabled
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.LastGenerated
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.MaxSuggestWords
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.MultiWordFTHitLimit
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.MultiWordFTOperator
@@ -122,6 +123,35 @@ items:
     return:
       type: System.String
     content.vb: Public Const Enabled As String = "Enabled"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.LastGenerated
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.LastGenerated
+  id: LastGenerated
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext
+  langs:
+  - csharp
+  - vb
+  name: LastGenerated
+  nameWithType: UserPreferenceStrings.Freetext.LastGenerated
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.LastGenerated
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhen was last full index run? ISO DateTime set when indexing starts\n"
+  syntax:
+    content: public const string LastGenerated = "LastGenerated"
+    return:
+      type: System.String
+    content.vb: Public Const LastGenerated As String = "LastGenerated"
   modifiers.csharp:
   - public
   - const

@@ -11,6 +11,9 @@ items:
   - SuperOffice.WebApi.Data.ChatWidgetSettings.Color
   - SuperOffice.WebApi.Data.ChatWidgetSettings.Font
   - SuperOffice.WebApi.Data.ChatWidgetSettings.LanguageIsoCode
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.LogoBlobId
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.LogoEnabled
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.LogoName
   - SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields
   - SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields_String
   - SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineHeader
@@ -24,9 +27,11 @@ items:
   - SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields
   - SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields_String
   - SuperOffice.WebApi.Data.ChatWidgetSettings.ShowAgentPhoto
-  - SuperOffice.WebApi.Data.ChatWidgetSettings.ShowLogo
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.Size
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.Size_String
   - SuperOffice.WebApi.Data.ChatWidgetSettings.Theme
   - SuperOffice.WebApi.Data.ChatWidgetSettings.Theme_String
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.UseAgentFirstname
   - SuperOffice.WebApi.Data.ChatWidgetSettings.WelcomeMessage
   - SuperOffice.WebApi.Data.ChatWidgetSettings.WelcomeTitle
   langs:
@@ -450,6 +455,74 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.Size_String
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.Size_String
+  id: Size_String
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: Size_String
+  nameWithType: ChatWidgetSettings.Size_String
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.Size_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nChat widget size: normal or large.\nRaw string enum value.\n"
+  syntax:
+    content: public string Size_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Size_String As String
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.Size_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ChatWidgetSettings.Size
+    commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.Size
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.Size
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.Size
+  id: Size
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: ChatWidgetSettings.Size
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.Size
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nChat widget size: normal or large.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ChatWidgetSize> Size { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ChatWidgetSize}
+    content.vb: Public Property Size As Nullable(Of ChatWidgetSize)
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.Size*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ChatWidgetSettings.Size_String
+    commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.Size_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ChatWidgetSettings.Theme_String
   commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.Theme_String
   id: Theme_String
@@ -584,16 +657,16 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.ShowLogo
-  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.ShowLogo
-  id: ShowLogo
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.LogoEnabled
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.LogoEnabled
+  id: LogoEnabled
   parent: SuperOffice.WebApi.Data.ChatWidgetSettings
   langs:
   - csharp
   - vb
-  name: ShowLogo
-  nameWithType: ChatWidgetSettings.ShowLogo
-  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.ShowLogo
+  name: LogoEnabled
+  nameWithType: ChatWidgetSettings.LogoEnabled
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.LogoEnabled
   type: Property
   source:
     path: SuperOffice.WebApi
@@ -603,12 +676,78 @@ items:
   namespace: SuperOffice.WebApi.Data
   summary: "\nIndicates if the logo should be shown in the widget\n"
   syntax:
-    content: public virtual bool ShowLogo { get; set; }
+    content: public virtual bool LogoEnabled { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property ShowLogo As Boolean
-  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.ShowLogo*
+    content.vb: Public Overridable Property LogoEnabled As Boolean
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.LogoEnabled*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.LogoBlobId
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.LogoBlobId
+  id: LogoBlobId
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: LogoBlobId
+  nameWithType: ChatWidgetSettings.LogoBlobId
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.LogoBlobId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nBlob id that contains logo image\n"
+  syntax:
+    content: public virtual int LogoBlobId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property LogoBlobId As Integer
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.LogoBlobId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.LogoName
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.LogoName
+  id: LogoName
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: LogoName
+  nameWithType: ChatWidgetSettings.LogoName
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.LogoName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nfilename/description of logo (from blob)\n"
+  syntax:
+    content: public virtual string LogoName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property LogoName As String
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.LogoName*
   modifiers.csharp:
   - public
   - virtual
@@ -850,6 +989,39 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.UseAgentFirstname
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.UseAgentFirstname
+  id: UseAgentFirstname
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: UseAgentFirstname
+  nameWithType: ChatWidgetSettings.UseAgentFirstname
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.UseAgentFirstname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhether to use the firstname of the agent in the chat widget.\n"
+  syntax:
+    content: public virtual bool UseAgentFirstname { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UseAgentFirstname As Boolean
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.UseAgentFirstname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -1056,6 +1228,67 @@ references:
   name: LanguageIsoCode
   nameWithType: ChatWidgetSettings.LanguageIsoCode
   fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.LanguageIsoCode
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.Size_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.Size_String
+  isExternal: true
+  name: Size_String
+  nameWithType: ChatWidgetSettings.Size_String
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.Size_String
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.Size
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.Size
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.Size*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.Size
+  isExternal: true
+  name: Size
+  nameWithType: ChatWidgetSettings.Size
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.Size
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.Size_String
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.Size_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ChatWidgetSize}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ChatWidgetSize}'
+  definition: System.Nullable`1
+  name: Nullable<ChatWidgetSize>
+  nameWithType: Nullable<ChatWidgetSize>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ChatWidgetSize>
+  nameWithType.vb: Nullable(Of ChatWidgetSize)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ChatWidgetSize)
+  name.vb: Nullable(Of ChatWidgetSize)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ChatWidgetSize
+    name: ChatWidgetSize
+    nameWithType: ChatWidgetSize
+    fullName: SuperOffice.WebApi.Data.ChatWidgetSize
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ChatWidgetSize
+    name: ChatWidgetSize
+    nameWithType: ChatWidgetSize
+    fullName: SuperOffice.WebApi.Data.ChatWidgetSize
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.ChatWidgetSettings.Theme_String*
   commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.Theme_String
   isExternal: true
@@ -1129,12 +1362,31 @@ references:
   name: Font
   nameWithType: ChatWidgetSettings.Font
   fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.Font
-- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.ShowLogo*
-  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.ShowLogo
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.LogoEnabled*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.LogoEnabled
   isExternal: true
-  name: ShowLogo
-  nameWithType: ChatWidgetSettings.ShowLogo
-  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.ShowLogo
+  name: LogoEnabled
+  nameWithType: ChatWidgetSettings.LogoEnabled
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.LogoEnabled
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.LogoBlobId*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.LogoBlobId
+  isExternal: true
+  name: LogoBlobId
+  nameWithType: ChatWidgetSettings.LogoBlobId
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.LogoBlobId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.LogoName*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.LogoName
+  isExternal: true
+  name: LogoName
+  nameWithType: ChatWidgetSettings.LogoName
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.LogoName
 - uid: SuperOffice.WebApi.Data.ChatWidgetSettings.ShowAgentPhoto*
   commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.ShowAgentPhoto
   isExternal: true
@@ -1183,3 +1435,9 @@ references:
 - uid: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields_String
   commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields_String
   isExternal: true
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.UseAgentFirstname*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.UseAgentFirstname
+  isExternal: true
+  name: UseAgentFirstname
+  nameWithType: ChatWidgetSettings.UseAgentFirstname
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.UseAgentFirstname

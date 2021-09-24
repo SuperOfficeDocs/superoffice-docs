@@ -152,7 +152,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nId to the outgoing message table\n\n"
+  summary: "\nId to the outgoing message table \n"
   syntax:
     content: public virtual int MessagingId { get; set; }
     parameters: []

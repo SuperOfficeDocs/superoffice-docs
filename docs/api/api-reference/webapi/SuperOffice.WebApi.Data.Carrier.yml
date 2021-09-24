@@ -30,6 +30,7 @@ items:
   inheritance:
   - System.Object
   derivedClasses:
+  - SuperOffice.WebApi.Data.AccessGatewayInfo
   - SuperOffice.WebApi.Data.ActivityFilter
   - SuperOffice.WebApi.Data.ActivityInformationListItem
   - SuperOffice.WebApi.Data.ActivitySummary
@@ -54,6 +55,8 @@ items:
   - SuperOffice.WebApi.Data.BlobEntity
   - SuperOffice.WebApi.Data.Business
   - SuperOffice.WebApi.Data.Cache
+  - SuperOffice.WebApi.Data.CategorizationModelDetails
+  - SuperOffice.WebApi.Data.CategorizationStatusResponse
   - SuperOffice.WebApi.Data.Category
   - SuperOffice.WebApi.Data.CategoryGuess
   - SuperOffice.WebApi.Data.ChangedData
@@ -64,6 +67,7 @@ items:
   - SuperOffice.WebApi.Data.ChatTopicEntity
   - SuperOffice.WebApi.Data.CommandResult
   - SuperOffice.WebApi.Data.Competitor
+  - SuperOffice.WebApi.Data.ConfigurableScreenDelta
   - SuperOffice.WebApi.Data.Configuration
   - SuperOffice.WebApi.Data.ConsentInfo
   - SuperOffice.WebApi.Data.ConsentPerson
@@ -95,14 +99,20 @@ items:
   - SuperOffice.WebApi.Data.CustomerLanguage
   - SuperOffice.WebApi.Data.CustomerServiceConfig
   - SuperOffice.WebApi.Data.CustomerServiceStartup
+  - SuperOffice.WebApi.Data.Dash
   - SuperOffice.WebApi.Data.Dashboard
   - SuperOffice.WebApi.Data.DashboardTile
   - SuperOffice.WebApi.Data.DashboardTileOption
+  - SuperOffice.WebApi.Data.DashCollection
+  - SuperOffice.WebApi.Data.DashTheme
+  - SuperOffice.WebApi.Data.DashTile
+  - SuperOffice.WebApi.Data.DashTileDefinition
   - SuperOffice.WebApi.Data.DataRight
   - SuperOffice.WebApi.Data.DataRights
   - SuperOffice.WebApi.Data.DayInformationListItem
   - SuperOffice.WebApi.Data.DeliveryTerm
   - SuperOffice.WebApi.Data.DeliveryType
+  - SuperOffice.WebApi.Data.DeltaQuery
   - SuperOffice.WebApi.Data.Department
   - SuperOffice.WebApi.Data.DiaryViewEntity
   - SuperOffice.WebApi.Data.DictionaryStepInformation
@@ -141,6 +151,7 @@ items:
   - SuperOffice.WebApi.Data.ErpSyncFieldMapping
   - SuperOffice.WebApi.Data.ErpSyncFieldValue
   - SuperOffice.WebApi.Data.EventData
+  - SuperOffice.WebApi.Data.ExportArchiveResult
   - SuperOffice.WebApi.Data.ExtAppEntity
   - SuperOffice.WebApi.Data.Favourite
   - SuperOffice.WebApi.Data.FieldMetadata
@@ -173,6 +184,7 @@ items:
   - SuperOffice.WebApi.Data.LocalizedText
   - SuperOffice.WebApi.Data.Logging
   - SuperOffice.WebApi.Data.Mailbox
+  - SuperOffice.WebApi.Data.MailboxEntity
   - SuperOffice.WebApi.Data.MailMergeSettings
   - SuperOffice.WebApi.Data.MailMergeTask
   - SuperOffice.WebApi.Data.MassOperationResult
@@ -200,6 +212,7 @@ items:
   - SuperOffice.WebApi.Data.PreferenceDescriptionLine
   - SuperOffice.WebApi.Data.PreferenceSpec
   - SuperOffice.WebApi.Data.PreviewMailing
+  - SuperOffice.WebApi.Data.PreviewMailingHeader
   - SuperOffice.WebApi.Data.Previews
   - SuperOffice.WebApi.Data.PriceList
   - SuperOffice.WebApi.Data.Priority
@@ -247,6 +260,7 @@ items:
   - SuperOffice.WebApi.Data.RelationDefinitionEntity
   - SuperOffice.WebApi.Data.RelationToOwner
   - SuperOffice.WebApi.Data.RemoteTimeZoneMethods
+  - SuperOffice.WebApi.Data.ReplyTemplateParsed
   - SuperOffice.WebApi.Data.ReportEntity
   - SuperOffice.WebApi.Data.ReportLabelLayoutEntity
   - SuperOffice.WebApi.Data.ResolvedPerson
@@ -308,6 +322,7 @@ items:
   - SuperOffice.WebApi.Data.TicketPriority
   - SuperOffice.WebApi.Data.TicketPriorityEntity
   - SuperOffice.WebApi.Data.TicketStatusEntity
+  - SuperOffice.WebApi.Data.TokenManagementInfo
   - SuperOffice.WebApi.Data.Tooltips
   - SuperOffice.WebApi.Data.TriggerScriptEntity
   - SuperOffice.WebApi.Data.TypicalSearch

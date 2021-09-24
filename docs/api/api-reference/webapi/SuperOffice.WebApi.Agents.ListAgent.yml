@@ -261,6 +261,7 @@ items:
   - SuperOffice.WebApi.Agents.ListAgent.SaveTicketPriorityEntityAsync(SuperOffice.WebApi.Data.TicketPriorityEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.SaveTicketStatusEntityAsync(SuperOffice.WebApi.Data.TicketStatusEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.SaveWebPanelEntityAsync(SuperOffice.WebApi.Data.WebPanelEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ListAgent.SetDocumentPluginForAllDocumentTemplatesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.SetDocumentTemplateFromDocumentTemplateAsync(System.Int32,SuperOffice.WebApi.Data.DocumentTemplateEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.SetDocumentTemplateStreamAsync(SuperOffice.WebApi.Data.DocumentTemplateEntity,System.Byte[],System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.SetEmarketingStrictModeAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -318,7 +319,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
   - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
-  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
@@ -3375,6 +3376,42 @@ items:
       description: Array of all template items
     content.vb: Public Function GetAllDocumentTemplatesAsync(includeDeleted As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of DocumentTemplateEntity())
   overload: SuperOffice.WebApi.Agents.ListAgent.GetAllDocumentTemplatesAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ListAgent.SetDocumentPluginForAllDocumentTemplatesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ListAgent.SetDocumentPluginForAllDocumentTemplatesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: SetDocumentPluginForAllDocumentTemplatesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ListAgent
+  langs:
+  - csharp
+  - vb
+  name: SetDocumentPluginForAllDocumentTemplatesAsync(Int32, RequestOptions)
+  nameWithType: ListAgent.SetDocumentPluginForAllDocumentTemplatesAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ListAgent.SetDocumentPluginForAllDocumentTemplatesAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSets the document-plugin to be used for all templates of type &apos;document&apos;.\n"
+  syntax:
+    content: public Task SetDocumentPluginForAllDocumentTemplatesAsync(int documentPluginId, RequestOptions requestOptions = null)
+    parameters:
+    - id: documentPluginId
+      type: System.Int32
+      description: The numerical ID of the document-plugin to use.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function SetDocumentPluginForAllDocumentTemplatesAsync(documentPluginId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ListAgent.SetDocumentPluginForAllDocumentTemplatesAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -10919,15 +10956,15 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: SendRequest(HttpRequestMessage)
-  nameWithType: AgentBase.SendRequest(HttpRequestMessage)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  name: SendRequest(HttpRequestMessage, RequestOptions)
+  nameWithType: AgentBase.SendRequest(HttpRequestMessage, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage, SuperOffice.WebApi.RequestOptions)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
     nameWithType: AgentBase.SendRequest
     fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
@@ -10939,12 +10976,20 @@ references:
     name: HttpRequestMessage
     nameWithType: HttpRequestMessage
     fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
     nameWithType: AgentBase.SendRequest
     fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
@@ -10956,6 +11001,14 @@ references:
     name: HttpRequestMessage
     nameWithType: HttpRequestMessage
     fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )
@@ -14005,6 +14058,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.WebApi.Agents.ListAgent.SetDocumentPluginForAllDocumentTemplatesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ListAgent.SetDocumentPluginForAllDocumentTemplatesAsync
+  isExternal: true
+  name: SetDocumentPluginForAllDocumentTemplatesAsync
+  nameWithType: ListAgent.SetDocumentPluginForAllDocumentTemplatesAsync
+  fullName: SuperOffice.WebApi.Agents.ListAgent.SetDocumentPluginForAllDocumentTemplatesAsync
 - uid: SuperOffice.WebApi.Agents.ListAgent.GetHeadingEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ListAgent.GetHeadingEntityAsync
   isExternal: true

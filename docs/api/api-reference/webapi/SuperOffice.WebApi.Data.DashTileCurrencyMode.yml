@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DashTileCurrencyMode
+  commentId: T:SuperOffice.WebApi.Data.DashTileCurrencyMode
+  id: DashTileCurrencyMode
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DashTileCurrencyMode.Base
+  - SuperOffice.WebApi.Data.DashTileCurrencyMode.None
+  - SuperOffice.WebApi.Data.DashTileCurrencyMode.Own
+  - SuperOffice.WebApi.Data.DashTileCurrencyMode.Specified
+  - SuperOffice.WebApi.Data.DashTileCurrencyMode.value__
+  langs:
+  - csharp
+  - vb
+  name: DashTileCurrencyMode
+  nameWithType: DashTileCurrencyMode
+  fullName: SuperOffice.WebApi.Data.DashTileCurrencyMode
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDashboard tile currency mode\nThis Enum is used by:  dashboard_tile_definition.currency_mode\n"
+  syntax:
+    content: 'public sealed class DashTileCurrencyMode : Enum'
+    content.vb: >-
+      Public NotInheritable Class DashTileCurrencyMode
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.DashTileCurrencyMode.value__
+  commentId: F:SuperOffice.WebApi.Data.DashTileCurrencyMode.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.DashTileCurrencyMode
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DashTileCurrencyMode.value__
+  fullName: SuperOffice.WebApi.Data.DashTileCurrencyMode.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DashTileCurrencyMode.None
+  commentId: F:SuperOffice.WebApi.Data.DashTileCurrencyMode.None
+  id: None
+  parent: SuperOffice.WebApi.Data.DashTileCurrencyMode
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DashTileCurrencyMode.None
+  fullName: SuperOffice.WebApi.Data.DashTileCurrencyMode.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const DashTileCurrencyMode None
+    return:
+      type: SuperOffice.WebApi.Data.DashTileCurrencyMode
+    content.vb: Public Const None As DashTileCurrencyMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashTileCurrencyMode.Base
+  commentId: F:SuperOffice.WebApi.Data.DashTileCurrencyMode.Base
+  id: Base
+  parent: SuperOffice.WebApi.Data.DashTileCurrencyMode
+  langs:
+  - csharp
+  - vb
+  name: Base
+  nameWithType: DashTileCurrencyMode.Base
+  fullName: SuperOffice.WebApi.Data.DashTileCurrencyMode.Base
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Base\n"
+  syntax:
+    content: public const DashTileCurrencyMode Base
+    return:
+      type: SuperOffice.WebApi.Data.DashTileCurrencyMode
+    content.vb: Public Const Base As DashTileCurrencyMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashTileCurrencyMode.Own
+  commentId: F:SuperOffice.WebApi.Data.DashTileCurrencyMode.Own
+  id: Own
+  parent: SuperOffice.WebApi.Data.DashTileCurrencyMode
+  langs:
+  - csharp
+  - vb
+  name: Own
+  nameWithType: DashTileCurrencyMode.Own
+  fullName: SuperOffice.WebApi.Data.DashTileCurrencyMode.Own
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Own\n"
+  syntax:
+    content: public const DashTileCurrencyMode Own
+    return:
+      type: SuperOffice.WebApi.Data.DashTileCurrencyMode
+    content.vb: Public Const Own As DashTileCurrencyMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashTileCurrencyMode.Specified
+  commentId: F:SuperOffice.WebApi.Data.DashTileCurrencyMode.Specified
+  id: Specified
+  parent: SuperOffice.WebApi.Data.DashTileCurrencyMode
+  langs:
+  - csharp
+  - vb
+  name: Specified
+  nameWithType: DashTileCurrencyMode.Specified
+  fullName: SuperOffice.WebApi.Data.DashTileCurrencyMode.Specified
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Specified\n"
+  syntax:
+    content: public const DashTileCurrencyMode Specified
+    return:
+      type: SuperOffice.WebApi.Data.DashTileCurrencyMode
+    content.vb: Public Const Specified As DashTileCurrencyMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.DashTileCurrencyMode
+  commentId: T:SuperOffice.WebApi.Data.DashTileCurrencyMode
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DashTileCurrencyMode
+  nameWithType: DashTileCurrencyMode
+  fullName: SuperOffice.WebApi.Data.DashTileCurrencyMode

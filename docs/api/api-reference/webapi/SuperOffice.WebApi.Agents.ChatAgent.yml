@@ -12,6 +12,7 @@ items:
   - SuperOffice.WebApi.Agents.ChatAgent.AddChatTopicUserAgentAsync(System.Int32,SuperOffice.WebApi.Data.ChatTopicAgent,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ChatAgent.ChatSessionsForUserAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ChatAgent.ChatTopicsForUserAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ChatAgent.CreateChatSessionForTopicAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ChatAgent.CreateDefaultChatSessionEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ChatAgent.CreateDefaultChatTopicAgentAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ChatAgent.CreateDefaultChatTopicEntityAsync(SuperOffice.WebApi.RequestOptions)
@@ -36,6 +37,7 @@ items:
   - SuperOffice.WebApi.Agents.ChatAgent.SaveChatTopicEntityAsync(SuperOffice.WebApi.Data.ChatTopicEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ChatAgent.TransferChatSessionAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ChatAgent.UpdateChatTopicUserAgentAsync(System.Int32,System.String,SuperOffice.WebApi.Data.ChatTopicAgent,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ChatAgent.UpdateChatTopicUserAgentsAsync(System.Int32,SuperOffice.WebApi.Data.ChatTopicAgent[],SuperOffice.WebApi.RequestOptions)
   langs:
   - csharp
   - vb
@@ -74,7 +76,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
   - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
-  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
@@ -588,7 +590,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet list of users that can be assigned to topics. Users with Chat-CALs from the MDO list &apos;chatuser&apos;\n"
+  summary: "\nGet list of users that can be assigned to chat topics. Users with Chat-CALs from the MDO list &apos;chatuser&apos;\n"
   syntax:
     content: public Task<MDOListItem[]> GetUserAgentListAsync(bool flat, bool onlyPresent, RequestOptions requestOptions = null)
     parameters:
@@ -627,7 +629,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet list of users assigned to a topic\n"
+  summary: "\nGet list of users assigned to a chat topic\n"
   syntax:
     content: public Task<ChatTopicAgent[]> GetChatTopicUserAgentListAsync(int chatTopicId, RequestOptions requestOptions = null)
     parameters:
@@ -766,6 +768,48 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.WebApi.Agents.ChatAgent.UpdateChatTopicUserAgentsAsync(System.Int32,SuperOffice.WebApi.Data.ChatTopicAgent[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ChatAgent.UpdateChatTopicUserAgentsAsync(System.Int32,SuperOffice.WebApi.Data.ChatTopicAgent[],SuperOffice.WebApi.RequestOptions)
+  id: UpdateChatTopicUserAgentsAsync(System.Int32,SuperOffice.WebApi.Data.ChatTopicAgent[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: UpdateChatTopicUserAgentsAsync(Int32, ChatTopicAgent[], RequestOptions)
+  nameWithType: ChatAgent.UpdateChatTopicUserAgentsAsync(Int32, ChatTopicAgent[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ChatAgent.UpdateChatTopicUserAgentsAsync(System.Int32, SuperOffice.WebApi.Data.ChatTopicAgent[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdate users roles in a chat topic\n"
+  syntax:
+    content: public Task<ChatTopicAgent[]> UpdateChatTopicUserAgentsAsync(int chatTopicId, ChatTopicAgent[] useragents, RequestOptions requestOptions = null)
+    parameters:
+    - id: chatTopicId
+      type: System.Int32
+      description: Id of the chat topic
+    - id: useragents
+      type: SuperOffice.WebApi.Data.ChatTopicAgent[]
+      description: Users new/updated roles within the chat topic. Replaces existing roles
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatTopicAgent[]}
+      description: The updated agents within the chat topic.
+    content.vb: Public Function UpdateChatTopicUserAgentsAsync(chatTopicId As Integer, useragents As ChatTopicAgent(), requestOptions As RequestOptions = Nothing) As Task(Of ChatTopicAgent())
+  overload: SuperOffice.WebApi.Agents.ChatAgent.UpdateChatTopicUserAgentsAsync*
+  nameWithType.vb: ChatAgent.UpdateChatTopicUserAgentsAsync(Int32, ChatTopicAgent(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.ChatAgent.UpdateChatTopicUserAgentsAsync(System.Int32, SuperOffice.WebApi.Data.ChatTopicAgent(), SuperOffice.WebApi.RequestOptions)
+  name.vb: UpdateChatTopicUserAgentsAsync(Int32, ChatTopicAgent(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ChatAgent.DeleteChatTopicUserAgentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ChatAgent.DeleteChatTopicUserAgentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   id: DeleteChatTopicUserAgentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -801,6 +845,42 @@ items:
       description: This method has no return value
     content.vb: Public Function DeleteChatTopicUserAgentAsync(chatTopicId As Integer, username As String, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.ChatAgent.DeleteChatTopicUserAgentAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ChatAgent.CreateChatSessionForTopicAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ChatAgent.CreateChatSessionForTopicAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: CreateChatSessionForTopicAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateChatSessionForTopicAsync(Int32, RequestOptions)
+  nameWithType: ChatAgent.CreateChatSessionForTopicAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ChatAgent.CreateChatSessionForTopicAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreate a new session on a chat topic\n"
+  syntax:
+    content: public Task<ChatSessionEntity> CreateChatSessionForTopicAsync(int chatTopicId, RequestOptions requestOptions = null)
+    parameters:
+    - id: chatTopicId
+      type: System.Int32
+      description: Id of the chat topic
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ChatSessionEntity}
+      description: The new chat session.
+    content.vb: Public Function CreateChatSessionForTopicAsync(chatTopicId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ChatSessionEntity)
+  overload: SuperOffice.WebApi.Agents.ChatAgent.CreateChatSessionForTopicAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1689,15 +1769,15 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: SendRequest(HttpRequestMessage)
-  nameWithType: AgentBase.SendRequest(HttpRequestMessage)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  name: SendRequest(HttpRequestMessage, RequestOptions)
+  nameWithType: AgentBase.SendRequest(HttpRequestMessage, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage, SuperOffice.WebApi.RequestOptions)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
     nameWithType: AgentBase.SendRequest
     fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
@@ -1709,12 +1789,20 @@ references:
     name: HttpRequestMessage
     nameWithType: HttpRequestMessage
     fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
     nameWithType: AgentBase.SendRequest
     fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
@@ -1726,6 +1814,14 @@ references:
     name: HttpRequestMessage
     nameWithType: HttpRequestMessage
     fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )
@@ -2562,12 +2658,50 @@ references:
   name: UpdateChatTopicUserAgentAsync
   nameWithType: ChatAgent.UpdateChatTopicUserAgentAsync
   fullName: SuperOffice.WebApi.Agents.ChatAgent.UpdateChatTopicUserAgentAsync
+- uid: SuperOffice.WebApi.Agents.ChatAgent.UpdateChatTopicUserAgentsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ChatAgent.UpdateChatTopicUserAgentsAsync
+  isExternal: true
+  name: UpdateChatTopicUserAgentsAsync
+  nameWithType: ChatAgent.UpdateChatTopicUserAgentsAsync
+  fullName: SuperOffice.WebApi.Agents.ChatAgent.UpdateChatTopicUserAgentsAsync
+- uid: SuperOffice.WebApi.Data.ChatTopicAgent[]
+  isExternal: true
+  name: ChatTopicAgent[]
+  nameWithType: ChatTopicAgent[]
+  fullName: SuperOffice.WebApi.Data.ChatTopicAgent[]
+  nameWithType.vb: ChatTopicAgent()
+  fullName.vb: SuperOffice.WebApi.Data.ChatTopicAgent()
+  name.vb: ChatTopicAgent()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ChatTopicAgent
+    name: ChatTopicAgent
+    nameWithType: ChatTopicAgent
+    fullName: SuperOffice.WebApi.Data.ChatTopicAgent
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ChatTopicAgent
+    name: ChatTopicAgent
+    nameWithType: ChatTopicAgent
+    fullName: SuperOffice.WebApi.Data.ChatTopicAgent
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Agents.ChatAgent.DeleteChatTopicUserAgentAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ChatAgent.DeleteChatTopicUserAgentAsync
   isExternal: true
   name: DeleteChatTopicUserAgentAsync
   nameWithType: ChatAgent.DeleteChatTopicUserAgentAsync
   fullName: SuperOffice.WebApi.Agents.ChatAgent.DeleteChatTopicUserAgentAsync
+- uid: SuperOffice.WebApi.Agents.ChatAgent.CreateChatSessionForTopicAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ChatAgent.CreateChatSessionForTopicAsync
+  isExternal: true
+  name: CreateChatSessionForTopicAsync
+  nameWithType: ChatAgent.CreateChatSessionForTopicAsync
+  fullName: SuperOffice.WebApi.Agents.ChatAgent.CreateChatSessionForTopicAsync
 - uid: SuperOffice.WebApi.Agents.ChatAgent.GetChatSessionEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ChatAgent.GetChatSessionEntityAsync
   isExternal: true

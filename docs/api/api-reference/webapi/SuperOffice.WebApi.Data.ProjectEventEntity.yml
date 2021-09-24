@@ -976,7 +976,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nPublish to external users? When true, the event/project information is visible to external users through the Audience portal.\nYou can control the publish duration using the PublishFrom/PublishTo properties.\n"
+  summary: "\nPublish to external users? When true, the event/project information is visible to external users through the Audience portal. You can control the publish duration using the PublishFrom/PublishTo properties.\n"
   syntax:
     content: public virtual bool IsPublished { get; set; }
     parameters: []

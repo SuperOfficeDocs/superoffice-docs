@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.WebApi.IdentityModel
   children:
   - SuperOffice.WebApi.IdentityModel.JwtTokenHandler.#ctor(System.String,System.Net.Http.HttpClient,SuperOffice.WebApi.Data.OnlineEnvironment)
+  - SuperOffice.WebApi.IdentityModel.JwtTokenHandler.Validate(System.String,System.String,System.Collections.Generic.IEnumerable{Microsoft.IdentityModel.Tokens.SecurityKey})
   - SuperOffice.WebApi.IdentityModel.JwtTokenHandler.ValidateAsync(System.String)
   langs:
   - csharp
@@ -111,6 +112,44 @@ items:
   modifiers.vb:
   - Public
   - Overrides
+- uid: SuperOffice.WebApi.IdentityModel.JwtTokenHandler.Validate(System.String,System.String,System.Collections.Generic.IEnumerable{Microsoft.IdentityModel.Tokens.SecurityKey})
+  commentId: M:SuperOffice.WebApi.IdentityModel.JwtTokenHandler.Validate(System.String,System.String,System.Collections.Generic.IEnumerable{Microsoft.IdentityModel.Tokens.SecurityKey})
+  id: Validate(System.String,System.String,System.Collections.Generic.IEnumerable{Microsoft.IdentityModel.Tokens.SecurityKey})
+  parent: SuperOffice.WebApi.IdentityModel.JwtTokenHandler
+  langs:
+  - csharp
+  - vb
+  name: Validate(String, String, IEnumerable<SecurityKey>)
+  nameWithType: JwtTokenHandler.Validate(String, String, IEnumerable<SecurityKey>)
+  fullName: SuperOffice.WebApi.IdentityModel.JwtTokenHandler.Validate(System.String, System.String, System.Collections.Generic.IEnumerable<Microsoft.IdentityModel.Tokens.SecurityKey>)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  summary: "\nValidates an OAuth ID token.\n"
+  syntax:
+    content: public TokenValidationResult Validate(string idToken, string claimsIssuer, IEnumerable<SecurityKey> signingKeys)
+    parameters:
+    - id: idToken
+      type: System.String
+    - id: claimsIssuer
+      type: System.String
+    - id: signingKeys
+      type: System.Collections.Generic.IEnumerable{Microsoft.IdentityModel.Tokens.SecurityKey}
+    return:
+      type: Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult
+    content.vb: Public Function Validate(idToken As String, claimsIssuer As String, signingKeys As IEnumerable(Of SecurityKey)) As TokenValidationResult
+  overload: SuperOffice.WebApi.IdentityModel.JwtTokenHandler.Validate*
+  nameWithType.vb: JwtTokenHandler.Validate(String, String, IEnumerable(Of SecurityKey))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.IdentityModel.JwtTokenHandler.Validate(System.String, System.String, System.Collections.Generic.IEnumerable(Of Microsoft.IdentityModel.Tokens.SecurityKey))
+  name.vb: Validate(String, String, IEnumerable(Of SecurityKey))
 references:
 - uid: SuperOffice.WebApi.IdentityModel
   commentId: N:SuperOffice.WebApi.IdentityModel
@@ -308,6 +347,99 @@ references:
     name: Task
     nameWithType: Task
     fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.IdentityModel.JwtTokenHandler.Validate*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.JwtTokenHandler.Validate
+  isExternal: true
+  name: Validate
+  nameWithType: JwtTokenHandler.Validate
+  fullName: SuperOffice.WebApi.IdentityModel.JwtTokenHandler.Validate
+- uid: System.Collections.Generic.IEnumerable{Microsoft.IdentityModel.Tokens.SecurityKey}
+  commentId: '!:System.Collections.Generic.IEnumerable{Microsoft.IdentityModel.Tokens.SecurityKey}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<SecurityKey>
+  nameWithType: IEnumerable<SecurityKey>
+  fullName: System.Collections.Generic.IEnumerable<Microsoft.IdentityModel.Tokens.SecurityKey>
+  nameWithType.vb: IEnumerable(Of SecurityKey)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Microsoft.IdentityModel.Tokens.SecurityKey)
+  name.vb: IEnumerable(Of SecurityKey)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.IdentityModel.Tokens.SecurityKey
+    name: SecurityKey
+    nameWithType: SecurityKey
+    fullName: Microsoft.IdentityModel.Tokens.SecurityKey
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.IdentityModel.Tokens.SecurityKey
+    name: SecurityKey
+    nameWithType: SecurityKey
+    fullName: Microsoft.IdentityModel.Tokens.SecurityKey
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult
+  commentId: '!:Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult'
+  isExternal: true
+  name: TokenValidationResult
+  nameWithType: TokenValidationResult
+  fullName: Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '

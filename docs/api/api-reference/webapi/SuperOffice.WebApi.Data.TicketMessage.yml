@@ -7,8 +7,16 @@ items:
   children:
   - SuperOffice.WebApi.Data.TicketMessage.#ctor
   - SuperOffice.WebApi.Data.TicketMessage.Author
+  - SuperOffice.WebApi.Data.TicketMessage.ContactDepartment
+  - SuperOffice.WebApi.Data.TicketMessage.ContactId
+  - SuperOffice.WebApi.Data.TicketMessage.ContactName
   - SuperOffice.WebApi.Data.TicketMessage.CreatedAt
+  - SuperOffice.WebApi.Data.TicketMessage.EmailHeader
   - SuperOffice.WebApi.Data.TicketMessage.Important
+  - SuperOffice.WebApi.Data.TicketMessage.MessageHeaders
+  - SuperOffice.WebApi.Data.TicketMessage.NumAttachments
+  - SuperOffice.WebApi.Data.TicketMessage.PersonFullName
+  - SuperOffice.WebApi.Data.TicketMessage.PersonId
   - SuperOffice.WebApi.Data.TicketMessage.Slevel
   - SuperOffice.WebApi.Data.TicketMessage.Slevel_String
   - SuperOffice.WebApi.Data.TicketMessage.TicketMessageId
@@ -274,6 +282,270 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.TicketMessage.PersonId
+  commentId: P:SuperOffice.WebApi.Data.TicketMessage.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.TicketMessage
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: TicketMessage.PersonId
+  fullName: SuperOffice.WebApi.Data.TicketMessage.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.TicketMessage.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketMessage.PersonFullName
+  commentId: P:SuperOffice.WebApi.Data.TicketMessage.PersonFullName
+  id: PersonFullName
+  parent: SuperOffice.WebApi.Data.TicketMessage
+  langs:
+  - csharp
+  - vb
+  name: PersonFullName
+  nameWithType: TicketMessage.PersonFullName
+  fullName: SuperOffice.WebApi.Data.TicketMessage.PersonFullName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGet the persons full name (internal name used in clients for employees). \n"
+  syntax:
+    content: public virtual string PersonFullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonFullName As String
+  overload: SuperOffice.WebApi.Data.TicketMessage.PersonFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketMessage.ContactId
+  commentId: P:SuperOffice.WebApi.Data.TicketMessage.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.TicketMessage
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: TicketMessage.ContactId
+  fullName: SuperOffice.WebApi.Data.TicketMessage.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.TicketMessage.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketMessage.ContactName
+  commentId: P:SuperOffice.WebApi.Data.TicketMessage.ContactName
+  id: ContactName
+  parent: SuperOffice.WebApi.Data.TicketMessage
+  langs:
+  - csharp
+  - vb
+  name: ContactName
+  nameWithType: TicketMessage.ContactName
+  fullName: SuperOffice.WebApi.Data.TicketMessage.ContactName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContact name\n"
+  syntax:
+    content: public virtual string ContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactName As String
+  overload: SuperOffice.WebApi.Data.TicketMessage.ContactName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketMessage.ContactDepartment
+  commentId: P:SuperOffice.WebApi.Data.TicketMessage.ContactDepartment
+  id: ContactDepartment
+  parent: SuperOffice.WebApi.Data.TicketMessage
+  langs:
+  - csharp
+  - vb
+  name: ContactDepartment
+  nameWithType: TicketMessage.ContactDepartment
+  fullName: SuperOffice.WebApi.Data.TicketMessage.ContactDepartment
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDepartment\n"
+  syntax:
+    content: public virtual string ContactDepartment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactDepartment As String
+  overload: SuperOffice.WebApi.Data.TicketMessage.ContactDepartment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketMessage.NumAttachments
+  commentId: P:SuperOffice.WebApi.Data.TicketMessage.NumAttachments
+  id: NumAttachments
+  parent: SuperOffice.WebApi.Data.TicketMessage
+  langs:
+  - csharp
+  - vb
+  name: NumAttachments
+  nameWithType: TicketMessage.NumAttachments
+  fullName: SuperOffice.WebApi.Data.TicketMessage.NumAttachments
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of attachments in the message\n"
+  syntax:
+    content: public virtual int NumAttachments { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumAttachments As Integer
+  overload: SuperOffice.WebApi.Data.TicketMessage.NumAttachments*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketMessage.EmailHeader
+  commentId: P:SuperOffice.WebApi.Data.TicketMessage.EmailHeader
+  id: EmailHeader
+  parent: SuperOffice.WebApi.Data.TicketMessage
+  langs:
+  - csharp
+  - vb
+  name: EmailHeader
+  nameWithType: TicketMessage.EmailHeader
+  fullName: SuperOffice.WebApi.Data.TicketMessage.EmailHeader
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe email header is saved in this field as raw text\n"
+  syntax:
+    content: public virtual string EmailHeader { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EmailHeader As String
+  overload: SuperOffice.WebApi.Data.TicketMessage.EmailHeader*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketMessage.MessageHeaders
+  commentId: P:SuperOffice.WebApi.Data.TicketMessage.MessageHeaders
+  id: MessageHeaders
+  parent: SuperOffice.WebApi.Data.TicketMessage
+  langs:
+  - csharp
+  - vb
+  name: MessageHeaders
+  nameWithType: TicketMessage.MessageHeaders
+  fullName: SuperOffice.WebApi.Data.TicketMessage.MessageHeaders
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContains the message headers, like To, Cc, Bcc information, or custom headers\n"
+  syntax:
+    content: public virtual TicketMessageHeader[] MessageHeaders { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TicketMessageHeader[]
+    content.vb: Public Overridable Property MessageHeaders As TicketMessageHeader()
+  overload: SuperOffice.WebApi.Data.TicketMessage.MessageHeaders*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -476,3 +748,77 @@ references:
   name: Author
   nameWithType: TicketMessage.Author
   fullName: SuperOffice.WebApi.Data.TicketMessage.Author
+- uid: SuperOffice.WebApi.Data.TicketMessage.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessage.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: TicketMessage.PersonId
+  fullName: SuperOffice.WebApi.Data.TicketMessage.PersonId
+- uid: SuperOffice.WebApi.Data.TicketMessage.PersonFullName*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessage.PersonFullName
+  isExternal: true
+  name: PersonFullName
+  nameWithType: TicketMessage.PersonFullName
+  fullName: SuperOffice.WebApi.Data.TicketMessage.PersonFullName
+- uid: SuperOffice.WebApi.Data.TicketMessage.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessage.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: TicketMessage.ContactId
+  fullName: SuperOffice.WebApi.Data.TicketMessage.ContactId
+- uid: SuperOffice.WebApi.Data.TicketMessage.ContactName*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessage.ContactName
+  isExternal: true
+  name: ContactName
+  nameWithType: TicketMessage.ContactName
+  fullName: SuperOffice.WebApi.Data.TicketMessage.ContactName
+- uid: SuperOffice.WebApi.Data.TicketMessage.ContactDepartment*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessage.ContactDepartment
+  isExternal: true
+  name: ContactDepartment
+  nameWithType: TicketMessage.ContactDepartment
+  fullName: SuperOffice.WebApi.Data.TicketMessage.ContactDepartment
+- uid: SuperOffice.WebApi.Data.TicketMessage.NumAttachments*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessage.NumAttachments
+  isExternal: true
+  name: NumAttachments
+  nameWithType: TicketMessage.NumAttachments
+  fullName: SuperOffice.WebApi.Data.TicketMessage.NumAttachments
+- uid: SuperOffice.WebApi.Data.TicketMessage.EmailHeader*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessage.EmailHeader
+  isExternal: true
+  name: EmailHeader
+  nameWithType: TicketMessage.EmailHeader
+  fullName: SuperOffice.WebApi.Data.TicketMessage.EmailHeader
+- uid: SuperOffice.WebApi.Data.TicketMessage.MessageHeaders*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessage.MessageHeaders
+  isExternal: true
+  name: MessageHeaders
+  nameWithType: TicketMessage.MessageHeaders
+  fullName: SuperOffice.WebApi.Data.TicketMessage.MessageHeaders
+- uid: SuperOffice.WebApi.Data.TicketMessageHeader[]
+  isExternal: true
+  name: TicketMessageHeader[]
+  nameWithType: TicketMessageHeader[]
+  fullName: SuperOffice.WebApi.Data.TicketMessageHeader[]
+  nameWithType.vb: TicketMessageHeader()
+  fullName.vb: SuperOffice.WebApi.Data.TicketMessageHeader()
+  name.vb: TicketMessageHeader()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.TicketMessageHeader
+    name: TicketMessageHeader
+    nameWithType: TicketMessageHeader
+    fullName: SuperOffice.WebApi.Data.TicketMessageHeader
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.TicketMessageHeader
+    name: TicketMessageHeader
+    nameWithType: TicketMessageHeader
+    fullName: SuperOffice.WebApi.Data.TicketMessageHeader
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

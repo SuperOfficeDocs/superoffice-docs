@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AccessGatewayInfo
+  commentId: T:SuperOffice.WebApi.Data.AccessGatewayInfo
+  id: AccessGatewayInfo
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AccessGatewayInfo.#ctor
+  - SuperOffice.WebApi.Data.AccessGatewayInfo.ClientId
+  - SuperOffice.WebApi.Data.AccessGatewayInfo.RedirectUri
+  langs:
+  - csharp
+  - vb
+  name: AccessGatewayInfo
+  nameWithType: AccessGatewayInfo
+  fullName: SuperOffice.WebApi.Data.AccessGatewayInfo
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for AccessGatewayInfo.\nAccess gateway related data and operations    \n"
+  syntax:
+    content: 'public class AccessGatewayInfo : Carrier'
+    content.vb: >-
+      Public Class AccessGatewayInfo
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.UserAgent
+    commentId: T:SuperOffice.WebApi.Agents.UserAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.AccessGatewayInfo.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AccessGatewayInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.AccessGatewayInfo
+  langs:
+  - csharp
+  - vb
+  name: AccessGatewayInfo()
+  nameWithType: AccessGatewayInfo.AccessGatewayInfo()
+  fullName: SuperOffice.WebApi.Data.AccessGatewayInfo.AccessGatewayInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public AccessGatewayInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.AccessGatewayInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AccessGatewayInfo.ClientId
+  commentId: P:SuperOffice.WebApi.Data.AccessGatewayInfo.ClientId
+  id: ClientId
+  parent: SuperOffice.WebApi.Data.AccessGatewayInfo
+  langs:
+  - csharp
+  - vb
+  name: ClientId
+  nameWithType: AccessGatewayInfo.ClientId
+  fullName: SuperOffice.WebApi.Data.AccessGatewayInfo.ClientId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis is the registered client_id for AccessGateway OIDC\n"
+  syntax:
+    content: public virtual string ClientId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ClientId As String
+  overload: SuperOffice.WebApi.Data.AccessGatewayInfo.ClientId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AccessGatewayInfo.RedirectUri
+  commentId: P:SuperOffice.WebApi.Data.AccessGatewayInfo.RedirectUri
+  id: RedirectUri
+  parent: SuperOffice.WebApi.Data.AccessGatewayInfo
+  langs:
+  - csharp
+  - vb
+  name: RedirectUri
+  nameWithType: AccessGatewayInfo.RedirectUri
+  fullName: SuperOffice.WebApi.Data.AccessGatewayInfo.RedirectUri
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis is the registered redirect_uri for AccessGateway OIDC.\n"
+  syntax:
+    content: public virtual string RedirectUri { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RedirectUri As String
+  overload: SuperOffice.WebApi.Data.AccessGatewayInfo.RedirectUri*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.UserAgent
+  commentId: T:SuperOffice.WebApi.Agents.UserAgent
+  isExternal: true
+  name: UserAgent
+  nameWithType: UserAgent
+  fullName: SuperOffice.WebApi.Agents.UserAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.AccessGatewayInfo.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AccessGatewayInfo.#ctor
+  isExternal: true
+  name: AccessGatewayInfo
+  nameWithType: AccessGatewayInfo.AccessGatewayInfo
+  fullName: SuperOffice.WebApi.Data.AccessGatewayInfo.AccessGatewayInfo
+- uid: SuperOffice.WebApi.Data.AccessGatewayInfo.ClientId*
+  commentId: Overload:SuperOffice.WebApi.Data.AccessGatewayInfo.ClientId
+  isExternal: true
+  name: ClientId
+  nameWithType: AccessGatewayInfo.ClientId
+  fullName: SuperOffice.WebApi.Data.AccessGatewayInfo.ClientId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.AccessGatewayInfo.RedirectUri*
+  commentId: Overload:SuperOffice.WebApi.Data.AccessGatewayInfo.RedirectUri
+  isExternal: true
+  name: RedirectUri
+  nameWithType: AccessGatewayInfo.RedirectUri
+  fullName: SuperOffice.WebApi.Data.AccessGatewayInfo.RedirectUri

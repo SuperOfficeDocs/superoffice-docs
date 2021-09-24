@@ -14,6 +14,7 @@ items:
   - SuperOffice.WebApi.Data.PocketDeviceInfo.Platform_String
   - SuperOffice.WebApi.Data.PocketDeviceInfo.PNSHandle
   - SuperOffice.WebApi.Data.PocketDeviceInfo.PocketVersion
+  - SuperOffice.WebApi.Data.PocketDeviceInfo.TimeZoneId
   langs:
   - csharp
   - vb
@@ -336,6 +337,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo.TimeZoneId
+  commentId: P:SuperOffice.WebApi.Data.PocketDeviceInfo.TimeZoneId
+  id: TimeZoneId
+  parent: SuperOffice.WebApi.Data.PocketDeviceInfo
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneId
+  nameWithType: PocketDeviceInfo.TimeZoneId
+  fullName: SuperOffice.WebApi.Data.PocketDeviceInfo.TimeZoneId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe timezone to show for dates in messages\n"
+  syntax:
+    content: public virtual int TimeZoneId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TimeZoneId As Integer
+  overload: SuperOffice.WebApi.Data.PocketDeviceInfo.TimeZoneId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -510,3 +544,16 @@ references:
   name: OSVersion
   nameWithType: PocketDeviceInfo.OSVersion
   fullName: SuperOffice.WebApi.Data.PocketDeviceInfo.OSVersion
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo.TimeZoneId*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketDeviceInfo.TimeZoneId
+  isExternal: true
+  name: TimeZoneId
+  nameWithType: PocketDeviceInfo.TimeZoneId
+  fullName: SuperOffice.WebApi.Data.PocketDeviceInfo.TimeZoneId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

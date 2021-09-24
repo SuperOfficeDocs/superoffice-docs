@@ -23,6 +23,7 @@ items:
   - SuperOffice.WebApi.Data.AlarmData.FormalName
   - SuperOffice.WebApi.Data.AlarmData.InvitationStatus
   - SuperOffice.WebApi.Data.AlarmData.InvitationStatus_String
+  - SuperOffice.WebApi.Data.AlarmData.JoinVideomeetUrl
   - SuperOffice.WebApi.Data.AlarmData.Location
   - SuperOffice.WebApi.Data.AlarmData.PersonFullName
   - SuperOffice.WebApi.Data.AlarmData.PersonId
@@ -958,6 +959,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.AlarmData.JoinVideomeetUrl
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.JoinVideomeetUrl
+  id: JoinVideomeetUrl
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: JoinVideomeetUrl
+  nameWithType: AlarmData.JoinVideomeetUrl
+  fullName: SuperOffice.WebApi.Data.AlarmData.JoinVideomeetUrl
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string JoinVideomeetUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property JoinVideomeetUrl As String
+  overload: SuperOffice.WebApi.Data.AlarmData.JoinVideomeetUrl*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -1420,3 +1454,9 @@ references:
   name: ContactFullName
   nameWithType: AlarmData.ContactFullName
   fullName: SuperOffice.WebApi.Data.AlarmData.ContactFullName
+- uid: SuperOffice.WebApi.Data.AlarmData.JoinVideomeetUrl*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.JoinVideomeetUrl
+  isExternal: true
+  name: JoinVideomeetUrl
+  nameWithType: AlarmData.JoinVideomeetUrl
+  fullName: SuperOffice.WebApi.Data.AlarmData.JoinVideomeetUrl

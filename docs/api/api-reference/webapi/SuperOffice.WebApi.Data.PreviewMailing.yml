@@ -8,7 +8,7 @@ items:
   - SuperOffice.WebApi.Data.PreviewMailing.#ctor
   - SuperOffice.WebApi.Data.PreviewMailing.ContactId
   - SuperOffice.WebApi.Data.PreviewMailing.ContactName
-  - SuperOffice.WebApi.Data.PreviewMailing.DocumentMessage
+  - SuperOffice.WebApi.Data.PreviewMailing.DocumentMessageId
   - SuperOffice.WebApi.Data.PreviewMailing.FromAddress
   - SuperOffice.WebApi.Data.PreviewMailing.LinkClicks
   - SuperOffice.WebApi.Data.PreviewMailing.MessageId
@@ -513,16 +513,16 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.WebApi.Data.PreviewMailing.DocumentMessage
-  commentId: P:SuperOffice.WebApi.Data.PreviewMailing.DocumentMessage
-  id: DocumentMessage
+- uid: SuperOffice.WebApi.Data.PreviewMailing.DocumentMessageId
+  commentId: P:SuperOffice.WebApi.Data.PreviewMailing.DocumentMessageId
+  id: DocumentMessageId
   parent: SuperOffice.WebApi.Data.PreviewMailing
   langs:
   - csharp
   - vb
-  name: DocumentMessage
-  nameWithType: PreviewMailing.DocumentMessage
-  fullName: SuperOffice.WebApi.Data.PreviewMailing.DocumentMessage
+  name: DocumentMessageId
+  nameWithType: PreviewMailing.DocumentMessageId
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.DocumentMessageId
   type: Property
   source:
     path: SuperOffice.WebApi
@@ -532,12 +532,12 @@ items:
   namespace: SuperOffice.WebApi.Data
   summary: "\nIf a document was used as the message this is the document ID.\n"
   syntax:
-    content: public virtual int DocumentMessage { get; set; }
+    content: public virtual int DocumentMessageId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property DocumentMessage As Integer
-  overload: SuperOffice.WebApi.Data.PreviewMailing.DocumentMessage*
+    content.vb: Public Overridable Property DocumentMessageId As Integer
+  overload: SuperOffice.WebApi.Data.PreviewMailing.DocumentMessageId*
   modifiers.csharp:
   - public
   - virtual
@@ -849,12 +849,12 @@ references:
   name: MessageSubject
   nameWithType: PreviewMailing.MessageSubject
   fullName: SuperOffice.WebApi.Data.PreviewMailing.MessageSubject
-- uid: SuperOffice.WebApi.Data.PreviewMailing.DocumentMessage*
-  commentId: Overload:SuperOffice.WebApi.Data.PreviewMailing.DocumentMessage
+- uid: SuperOffice.WebApi.Data.PreviewMailing.DocumentMessageId*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewMailing.DocumentMessageId
   isExternal: true
-  name: DocumentMessage
-  nameWithType: PreviewMailing.DocumentMessage
-  fullName: SuperOffice.WebApi.Data.PreviewMailing.DocumentMessage
+  name: DocumentMessageId
+  nameWithType: PreviewMailing.DocumentMessageId
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.DocumentMessageId
 - uid: SuperOffice.WebApi.Data.PreviewMailing.Opened*
   commentId: Overload:SuperOffice.WebApi.Data.PreviewMailing.Opened
   isExternal: true

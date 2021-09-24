@@ -295,7 +295,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n7: Recipient has actively clicked a link in the message\n"
+  summary: "\n7: Test recipient, will be deleted after sent (enum name is not correct, but that cant be changed now)\n"
   syntax:
     content: public const ShipmentAddrStatus Clicked
     return:

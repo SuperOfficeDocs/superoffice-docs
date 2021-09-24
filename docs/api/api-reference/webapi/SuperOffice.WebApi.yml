@@ -22,6 +22,7 @@ items:
   - SuperOffice.WebApi.Constants.Online.Urls
   - SuperOffice.WebApi.Constants.Settings
   - SuperOffice.WebApi.Constants.SystemUser
+  - SuperOffice.WebApi.DateTimeConverter
   - SuperOffice.WebApi.IAddHeaders
   - SuperOffice.WebApi.IAuthorization
   - SuperOffice.WebApi.IProgressListener
@@ -167,6 +168,12 @@ references:
   name: Constants.SystemUser
   nameWithType: Constants.SystemUser
   fullName: SuperOffice.WebApi.Constants.SystemUser
+- uid: SuperOffice.WebApi.DateTimeConverter
+  commentId: T:SuperOffice.WebApi.DateTimeConverter
+  isExternal: true
+  name: DateTimeConverter
+  nameWithType: DateTimeConverter
+  fullName: SuperOffice.WebApi.DateTimeConverter
 - uid: SuperOffice.WebApi.IProgressListener
   commentId: T:SuperOffice.WebApi.IProgressListener
   parent: SuperOffice.WebApi

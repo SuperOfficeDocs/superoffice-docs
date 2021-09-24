@@ -45,6 +45,7 @@ items:
   - SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatMoney(System.Double)
   - SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatTime(System.DateTime)
   - SuperOffice.WebApi.Data.CultureDataFormatter.LocalizeEncoded(System.String)
+  - SuperOffice.WebApi.Data.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(System.String)
   - SuperOffice.WebApi.Data.CultureDataFormatter.MapCultureToSuperOfficeLanguage(System.String)
   - SuperOffice.WebApi.Data.CultureDataFormatter.MapLanguageToCsLanguage(System.String)
   - SuperOffice.WebApi.Data.CultureDataFormatter.MapLCIDToSuperOfficeLanguage(System.Int32)
@@ -2366,6 +2367,40 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.WebApi.Data.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(System.String)
+  commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(System.String)
+  id: MapCsLanguageToSuperOfficeLanguage(System.String)
+  parent: SuperOffice.WebApi.Data.CultureDataFormatter
+  langs:
+  - csharp
+  - vb
+  name: MapCsLanguageToSuperOfficeLanguage(String)
+  nameWithType: CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(String)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage(System.String)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nConvert a language code from cs to SuperOffice language code.\n"
+  syntax:
+    content: public static string MapCsLanguageToSuperOfficeLanguage(string csLang)
+    parameters:
+    - id: csLang
+      type: System.String
+    return:
+      type: System.String
+      description: SuperOffice languagecode or string.empty if none found
+    content.vb: Public Shared Function MapCsLanguageToSuperOfficeLanguage(csLang As String) As String
+  overload: SuperOffice.WebApi.Data.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseMultiLanguageString(System.String,System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.ParseMultiLanguageString(System.String,System.String)
   id: ParseMultiLanguageString(System.String,System.String)
@@ -2870,7 +2905,6 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: '!:System.Collections.Generic.IEnumerable`1'
   isExternal: true
   name: IEnumerable<>
   nameWithType: IEnumerable<>
@@ -2929,6 +2963,12 @@ references:
   name: MapLanguageToCsLanguage
   nameWithType: CultureDataFormatter.MapLanguageToCsLanguage
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MapLanguageToCsLanguage
+- uid: SuperOffice.WebApi.Data.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage*
+  commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage
+  isExternal: true
+  name: MapCsLanguageToSuperOfficeLanguage
+  nameWithType: CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseMultiLanguageString*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.ParseMultiLanguageString
   isExternal: true

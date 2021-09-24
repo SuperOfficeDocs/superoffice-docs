@@ -375,7 +375,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nNumber of all open within the period\n\n"
+  summary: "\nNumber of all open within the period \n"
   syntax:
     content: public virtual int Open { get; set; }
     parameters: []
@@ -474,7 +474,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWeighted sum for all open within the period in default currency for the installation\n\n"
+  summary: "\nWeighted sum for all open within the period in default currency for the installation \n"
   syntax:
     content: public virtual double OpenWeightedBaseCurrency { get; set; }
     parameters: []
@@ -1002,7 +1002,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWeighted sum for all Future Pipe/All open sales with date after the period in default currency for the current user\n\n"
+  summary: "\nWeighted sum for all Future Pipe/All open sales with date after the period in default currency for the current user \n"
   syntax:
     content: public virtual double FutureOpenWeightedOwnCurrency { get; set; }
     parameters: []

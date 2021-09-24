@@ -13,6 +13,7 @@ items:
   - SuperOffice.WebApi.Data.BatchTaskInfo.Description
   - SuperOffice.WebApi.Data.BatchTaskInfo.DetailsRecord
   - SuperOffice.WebApi.Data.BatchTaskInfo.DetailsTable
+  - SuperOffice.WebApi.Data.BatchTaskInfo.FileName
   - SuperOffice.WebApi.Data.BatchTaskInfo.Id
   - SuperOffice.WebApi.Data.BatchTaskInfo.IsInternalTask
   - SuperOffice.WebApi.Data.BatchTaskInfo.IsSystemTask
@@ -782,6 +783,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.BatchTaskInfo.FileName
+  commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.FileName
+  id: FileName
+  parent: SuperOffice.WebApi.Data.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: BatchTaskInfo.FileName
+  fullName: SuperOffice.WebApi.Data.BatchTaskInfo.FileName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe filename related to the batchtask.\n"
+  syntax:
+    content: public virtual string FileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FileName As String
+  overload: SuperOffice.WebApi.Data.BatchTaskInfo.FileName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -1088,3 +1122,9 @@ references:
   name: ProgressPercent
   nameWithType: BatchTaskInfo.ProgressPercent
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.ProgressPercent
+- uid: SuperOffice.WebApi.Data.BatchTaskInfo.FileName*
+  commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.FileName
+  isExternal: true
+  name: FileName
+  nameWithType: BatchTaskInfo.FileName
+  fullName: SuperOffice.WebApi.Data.BatchTaskInfo.FileName

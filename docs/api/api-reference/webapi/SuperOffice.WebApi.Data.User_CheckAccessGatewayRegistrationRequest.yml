@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_CheckAccessGatewayRegistrationRequest
+  commentId: T:SuperOffice.WebApi.Data.User_CheckAccessGatewayRegistrationRequest
+  id: User_CheckAccessGatewayRegistrationRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_CheckAccessGatewayRegistrationRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: User_CheckAccessGatewayRegistrationRequest
+  nameWithType: User_CheckAccessGatewayRegistrationRequest
+  fullName: SuperOffice.WebApi.Data.User_CheckAccessGatewayRegistrationRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class User_CheckAccessGatewayRegistrationRequest : Object'
+    content.vb: >-
+      Public Class User_CheckAccessGatewayRegistrationRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.User_CheckAccessGatewayRegistrationRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_CheckAccessGatewayRegistrationRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_CheckAccessGatewayRegistrationRequest
+  langs:
+  - csharp
+  - vb
+  name: User_CheckAccessGatewayRegistrationRequest()
+  nameWithType: User_CheckAccessGatewayRegistrationRequest.User_CheckAccessGatewayRegistrationRequest()
+  fullName: SuperOffice.WebApi.Data.User_CheckAccessGatewayRegistrationRequest.User_CheckAccessGatewayRegistrationRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_CheckAccessGatewayRegistrationRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.User_CheckAccessGatewayRegistrationRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_CheckAccessGatewayRegistrationRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_CheckAccessGatewayRegistrationRequest.#ctor
+  isExternal: true
+  name: User_CheckAccessGatewayRegistrationRequest
+  nameWithType: User_CheckAccessGatewayRegistrationRequest.User_CheckAccessGatewayRegistrationRequest
+  fullName: SuperOffice.WebApi.Data.User_CheckAccessGatewayRegistrationRequest.User_CheckAccessGatewayRegistrationRequest

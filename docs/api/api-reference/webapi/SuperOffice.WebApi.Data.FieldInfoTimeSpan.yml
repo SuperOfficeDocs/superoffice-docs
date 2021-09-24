@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.WebApi.Data.FieldInfoTimeSpan.#ctor
   - SuperOffice.WebApi.Data.FieldInfoTimeSpan.DefaultValue
+  - SuperOffice.WebApi.Data.FieldInfoTimeSpan.MaxNum
   - SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseDays
   - SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseHours
   - SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseMinutes
@@ -214,6 +215,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.FieldInfoTimeSpan.MaxNum
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoTimeSpan.MaxNum
+  id: MaxNum
+  parent: SuperOffice.WebApi.Data.FieldInfoTimeSpan
+  langs:
+  - csharp
+  - vb
+  name: MaxNum
+  nameWithType: FieldInfoTimeSpan.MaxNum
+  fullName: SuperOffice.WebApi.Data.FieldInfoTimeSpan.MaxNum
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMaximum number for the largest unit in the time-span\n"
+  syntax:
+    content: public virtual int MaxNum { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property MaxNum As Integer
+  overload: SuperOffice.WebApi.Data.FieldInfoTimeSpan.MaxNum*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -389,3 +423,9 @@ references:
   name: UseMinutes
   nameWithType: FieldInfoTimeSpan.UseMinutes
   fullName: SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseMinutes
+- uid: SuperOffice.WebApi.Data.FieldInfoTimeSpan.MaxNum*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldInfoTimeSpan.MaxNum
+  isExternal: true
+  name: MaxNum
+  nameWithType: FieldInfoTimeSpan.MaxNum
+  fullName: SuperOffice.WebApi.Data.FieldInfoTimeSpan.MaxNum

@@ -95,7 +95,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe id of the report.\n\n"
+  summary: "\nThe id of the report. \n"
   syntax:
     content: public virtual int ReportId { get; set; }
     parameters: []

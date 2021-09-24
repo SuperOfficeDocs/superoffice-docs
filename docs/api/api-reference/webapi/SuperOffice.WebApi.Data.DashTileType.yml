@@ -1,0 +1,369 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DashTileType
+  commentId: T:SuperOffice.WebApi.Data.DashTileType
+  id: DashTileType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DashTileType.Area
+  - SuperOffice.WebApi.Data.DashTileType.Bar
+  - SuperOffice.WebApi.Data.DashTileType.BigNum
+  - SuperOffice.WebApi.Data.DashTileType.Column
+  - SuperOffice.WebApi.Data.DashTileType.Combined
+  - SuperOffice.WebApi.Data.DashTileType.Line
+  - SuperOffice.WebApi.Data.DashTileType.List
+  - SuperOffice.WebApi.Data.DashTileType.None
+  - SuperOffice.WebApi.Data.DashTileType.Pie
+  - SuperOffice.WebApi.Data.DashTileType.value__
+  langs:
+  - csharp
+  - vb
+  name: DashTileType
+  nameWithType: DashTileType
+  fullName: SuperOffice.WebApi.Data.DashTileType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDashboard tile chart type (V2)\nThis Enum is used by:  dashboard_tile_definition.tile_type\n"
+  syntax:
+    content: 'public sealed class DashTileType : Enum'
+    content.vb: >-
+      Public NotInheritable Class DashTileType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.DashTileType.value__
+  commentId: F:SuperOffice.WebApi.Data.DashTileType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.DashTileType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DashTileType.value__
+  fullName: SuperOffice.WebApi.Data.DashTileType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DashTileType.None
+  commentId: F:SuperOffice.WebApi.Data.DashTileType.None
+  id: None
+  parent: SuperOffice.WebApi.Data.DashTileType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DashTileType.None
+  fullName: SuperOffice.WebApi.Data.DashTileType.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const DashTileType None
+    return:
+      type: SuperOffice.WebApi.Data.DashTileType
+    content.vb: Public Const None As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashTileType.Pie
+  commentId: F:SuperOffice.WebApi.Data.DashTileType.Pie
+  id: Pie
+  parent: SuperOffice.WebApi.Data.DashTileType
+  langs:
+  - csharp
+  - vb
+  name: Pie
+  nameWithType: DashTileType.Pie
+  fullName: SuperOffice.WebApi.Data.DashTileType.Pie
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Pie\n"
+  syntax:
+    content: public const DashTileType Pie
+    return:
+      type: SuperOffice.WebApi.Data.DashTileType
+    content.vb: Public Const Pie As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashTileType.List
+  commentId: F:SuperOffice.WebApi.Data.DashTileType.List
+  id: List
+  parent: SuperOffice.WebApi.Data.DashTileType
+  langs:
+  - csharp
+  - vb
+  name: List
+  nameWithType: DashTileType.List
+  fullName: SuperOffice.WebApi.Data.DashTileType.List
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: List\n"
+  syntax:
+    content: public const DashTileType List
+    return:
+      type: SuperOffice.WebApi.Data.DashTileType
+    content.vb: Public Const List As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashTileType.BigNum
+  commentId: F:SuperOffice.WebApi.Data.DashTileType.BigNum
+  id: BigNum
+  parent: SuperOffice.WebApi.Data.DashTileType
+  langs:
+  - csharp
+  - vb
+  name: BigNum
+  nameWithType: DashTileType.BigNum
+  fullName: SuperOffice.WebApi.Data.DashTileType.BigNum
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: BigNum\n"
+  syntax:
+    content: public const DashTileType BigNum
+    return:
+      type: SuperOffice.WebApi.Data.DashTileType
+    content.vb: Public Const BigNum As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashTileType.Bar
+  commentId: F:SuperOffice.WebApi.Data.DashTileType.Bar
+  id: Bar
+  parent: SuperOffice.WebApi.Data.DashTileType
+  langs:
+  - csharp
+  - vb
+  name: Bar
+  nameWithType: DashTileType.Bar
+  fullName: SuperOffice.WebApi.Data.DashTileType.Bar
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Bar\n"
+  syntax:
+    content: public const DashTileType Bar
+    return:
+      type: SuperOffice.WebApi.Data.DashTileType
+    content.vb: Public Const Bar As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashTileType.Line
+  commentId: F:SuperOffice.WebApi.Data.DashTileType.Line
+  id: Line
+  parent: SuperOffice.WebApi.Data.DashTileType
+  langs:
+  - csharp
+  - vb
+  name: Line
+  nameWithType: DashTileType.Line
+  fullName: SuperOffice.WebApi.Data.DashTileType.Line
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Line\n"
+  syntax:
+    content: public const DashTileType Line
+    return:
+      type: SuperOffice.WebApi.Data.DashTileType
+    content.vb: Public Const Line As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashTileType.Area
+  commentId: F:SuperOffice.WebApi.Data.DashTileType.Area
+  id: Area
+  parent: SuperOffice.WebApi.Data.DashTileType
+  langs:
+  - csharp
+  - vb
+  name: Area
+  nameWithType: DashTileType.Area
+  fullName: SuperOffice.WebApi.Data.DashTileType.Area
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: Area\n"
+  syntax:
+    content: public const DashTileType Area
+    return:
+      type: SuperOffice.WebApi.Data.DashTileType
+    content.vb: Public Const Area As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashTileType.Column
+  commentId: F:SuperOffice.WebApi.Data.DashTileType.Column
+  id: Column
+  parent: SuperOffice.WebApi.Data.DashTileType
+  langs:
+  - csharp
+  - vb
+  name: Column
+  nameWithType: DashTileType.Column
+  fullName: SuperOffice.WebApi.Data.DashTileType.Column
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: Column\n"
+  syntax:
+    content: public const DashTileType Column
+    return:
+      type: SuperOffice.WebApi.Data.DashTileType
+    content.vb: Public Const Column As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashTileType.Combined
+  commentId: F:SuperOffice.WebApi.Data.DashTileType.Combined
+  id: Combined
+  parent: SuperOffice.WebApi.Data.DashTileType
+  langs:
+  - csharp
+  - vb
+  name: Combined
+  nameWithType: DashTileType.Combined
+  fullName: SuperOffice.WebApi.Data.DashTileType.Combined
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: Combined\n"
+  syntax:
+    content: public const DashTileType Combined
+    return:
+      type: SuperOffice.WebApi.Data.DashTileType
+    content.vb: Public Const Combined As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.DashTileType
+  commentId: T:SuperOffice.WebApi.Data.DashTileType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DashTileType
+  nameWithType: DashTileType
+  fullName: SuperOffice.WebApi.Data.DashTileType

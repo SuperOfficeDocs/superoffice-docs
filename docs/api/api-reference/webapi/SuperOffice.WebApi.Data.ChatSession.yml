@@ -20,7 +20,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for ChatSession.\nChat sessions belong to a chat topic, and contain messages to/from users    \n"
+  summary: "\nCarrier object for ChatSession.\nUse the ChatSessionEntity on the Chat agent instead. Chat sessions belong to a chat topic, and contain messages to/from users    \n"
   syntax:
     content: 'public class ChatSession : Carrier'
     content.vb: >-

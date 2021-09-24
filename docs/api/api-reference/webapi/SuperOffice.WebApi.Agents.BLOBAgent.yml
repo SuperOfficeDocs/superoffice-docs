@@ -11,6 +11,7 @@ items:
   - SuperOffice.WebApi.Agents.BLOBAgent.ChangePersonImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.BLOBAgent.ChangeProductImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.BLOBAgent.ChangeProjectImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.BLOBAgent.CleanupBatchTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.BLOBAgent.CreateDefaultBlobEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.BLOBAgent.DeleteBlobEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.BLOBAgent.GetAppDataAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -24,6 +25,7 @@ items:
   - SuperOffice.WebApi.Agents.BLOBAgent.GetChatImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.BLOBAgent.GetContactImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.BLOBAgent.GetContactImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.BLOBAgent.GetOutputFromBatchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.BLOBAgent.GetPersonImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.BLOBAgent.GetPersonImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.BLOBAgent.GetProductImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -79,7 +81,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
   - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
-  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
@@ -1490,6 +1492,80 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.WebApi.Agents.BLOBAgent.GetOutputFromBatchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.BLOBAgent.GetOutputFromBatchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetOutputFromBatchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetOutputFromBatchAsync(Int32, String, RequestOptions)
+  nameWithType: BLOBAgent.GetOutputFromBatchAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.BLOBAgent.GetOutputFromBatchAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the output of a batchtask as a stream\n"
+  syntax:
+    content: public Task<byte[]> GetOutputFromBatchAsync(int batchTaskId, string returnContentType = "application/octet-stream", RequestOptions requestOptions = null)
+    parameters:
+    - id: batchTaskId
+      type: System.Int32
+      description: The ID of the batchtask that created the output data
+    - id: returnContentType
+      type: System.String
+      description: Accept content-type. Default &quot;application/octet-stream&quot;. Could also be &quot;application/pdf&quot;, &quot;text/plain&quot;, &quot;text/html&quot;, or &quot;multipart/related&quot;
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+      description: The binary object as a Stream
+    content.vb: Public Function GetOutputFromBatchAsync(batchTaskId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.BLOBAgent.GetOutputFromBatchAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.BLOBAgent.CleanupBatchTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.BLOBAgent.CleanupBatchTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: CleanupBatchTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: CleanupBatchTaskAsync(Int32, RequestOptions)
+  nameWithType: BLOBAgent.CleanupBatchTaskAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.BLOBAgent.CleanupBatchTaskAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRemoves the binary objects linked to the batch task, the links themselves and the batch task.\n"
+  syntax:
+    content: public Task CleanupBatchTaskAsync(int batchTaskId, RequestOptions requestOptions = null)
+    parameters:
+    - id: batchTaskId
+      type: System.Int32
+      description: The ID of the batchtask that created the output data
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function CleanupBatchTaskAsync(batchTaskId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.BLOBAgent.CleanupBatchTaskAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
@@ -1972,15 +2048,15 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: SendRequest(HttpRequestMessage)
-  nameWithType: AgentBase.SendRequest(HttpRequestMessage)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  name: SendRequest(HttpRequestMessage, RequestOptions)
+  nameWithType: AgentBase.SendRequest(HttpRequestMessage, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage, SuperOffice.WebApi.RequestOptions)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
     nameWithType: AgentBase.SendRequest
     fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
@@ -1992,12 +2068,20 @@ references:
     name: HttpRequestMessage
     nameWithType: HttpRequestMessage
     fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
     nameWithType: AgentBase.SendRequest
     fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
@@ -2009,6 +2093,14 @@ references:
     name: HttpRequestMessage
     nameWithType: HttpRequestMessage
     fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )
@@ -2743,3 +2835,15 @@ references:
   name: GetContactImageWithSizeAsync
   nameWithType: BLOBAgent.GetContactImageWithSizeAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.GetContactImageWithSizeAsync
+- uid: SuperOffice.WebApi.Agents.BLOBAgent.GetOutputFromBatchAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.GetOutputFromBatchAsync
+  isExternal: true
+  name: GetOutputFromBatchAsync
+  nameWithType: BLOBAgent.GetOutputFromBatchAsync
+  fullName: SuperOffice.WebApi.Agents.BLOBAgent.GetOutputFromBatchAsync
+- uid: SuperOffice.WebApi.Agents.BLOBAgent.CleanupBatchTaskAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.CleanupBatchTaskAsync
+  isExternal: true
+  name: CleanupBatchTaskAsync
+  nameWithType: BLOBAgent.CleanupBatchTaskAsync
+  fullName: SuperOffice.WebApi.Agents.BLOBAgent.CleanupBatchTaskAsync

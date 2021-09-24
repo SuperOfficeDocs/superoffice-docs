@@ -8,14 +8,19 @@ items:
   - SuperOffice.WebApi.Agents.ConfigurationAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.#ctor(System.Net.Http.HttpClient)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.ClearConfigurationCacheAsync(System.String,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ConfigurationAgent.CreateDefaultConfigurableScreenDeltaAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.CreateDefaultDiaryViewEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.CreateDefaultSystemEventEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ConfigurationAgent.DeleteConfigurableScreenDeltaAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.DeleteDiaryViewEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.DeleteSystemEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.DeleteWindowPosSizeAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.ExistsSystemEventAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.GetAnyConfigurationAsync(System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.GetApplicationConfigurationAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltaAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltasByDeltaAsync(SuperOffice.WebApi.Data.ConfigurableScreenDelta,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltasByQueryAsync(SuperOffice.WebApi.Data.DeltaQuery,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.GetCRMUrlAsync(System.String,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.GetCSAuthUrlAsync(System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.GetCsCgiUrlInternalAsync(SuperOffice.WebApi.RequestOptions)
@@ -32,6 +37,8 @@ items:
   - SuperOffice.WebApi.Agents.ConfigurationAgent.GetObjectMappingAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.GetPageConfigurationAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.GetRefreshedPageConfigurationAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ConfigurationAgent.GetScreenConfigurationDeltaAsync(SuperOffice.WebApi.Data.DeltaType,SuperOffice.WebApi.Data.DeltaState,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ConfigurationAgent.GetScreenConfigurationDeltasAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.GetSystemEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.GetWindowPosSizeAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.GetWindowPosSizeListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -39,6 +46,9 @@ items:
   - SuperOffice.WebApi.Agents.ConfigurationAgent.GetWindowPosSizesOnPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.GetWwwUrlAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.GetWwwUrlForSMWebAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ConfigurationAgent.RebuildUdefDeltasAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ConfigurationAgent.RebuildWebpanelDeltasAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ConfigurationAgent.SaveConfigurableScreenDeltaAsync(SuperOffice.WebApi.Data.ConfigurableScreenDelta,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.SaveDiaryViewEntityAsync(SuperOffice.WebApi.Data.DiaryViewEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.SaveSystemEventEntityAsync(SuperOffice.WebApi.Data.SystemEventEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.SaveWindowPosSizeAsync(SuperOffice.WebApi.Data.WindowPosSize,SuperOffice.WebApi.RequestOptions)
@@ -81,7 +91,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
   - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
-  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
@@ -364,6 +374,110 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function DeleteSystemEventEntityAsync(systemEventEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.ConfigurationAgent.DeleteSystemEventEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent.CreateDefaultConfigurableScreenDeltaAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ConfigurationAgent.CreateDefaultConfigurableScreenDeltaAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultConfigurableScreenDeltaAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultConfigurableScreenDeltaAsync(RequestOptions)
+  nameWithType: ConfigurationAgent.CreateDefaultConfigurableScreenDeltaAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.CreateDefaultConfigurableScreenDeltaAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new ConfigurableScreenDelta.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public Task<ConfigurableScreenDelta> CreateDefaultConfigurableScreenDeltaAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ConfigurableScreenDelta}
+      description: A blank ConfigurableScreenDelta
+    content.vb: Public Function CreateDefaultConfigurableScreenDeltaAsync(requestOptions As RequestOptions = Nothing) As Task(Of ConfigurableScreenDelta)
+  overload: SuperOffice.WebApi.Agents.ConfigurationAgent.CreateDefaultConfigurableScreenDeltaAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent.SaveConfigurableScreenDeltaAsync(SuperOffice.WebApi.Data.ConfigurableScreenDelta,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ConfigurationAgent.SaveConfigurableScreenDeltaAsync(SuperOffice.WebApi.Data.ConfigurableScreenDelta,SuperOffice.WebApi.RequestOptions)
+  id: SaveConfigurableScreenDeltaAsync(SuperOffice.WebApi.Data.ConfigurableScreenDelta,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveConfigurableScreenDeltaAsync(ConfigurableScreenDelta, RequestOptions)
+  nameWithType: ConfigurationAgent.SaveConfigurableScreenDeltaAsync(ConfigurableScreenDelta, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.SaveConfigurableScreenDeltaAsync(SuperOffice.WebApi.Data.ConfigurableScreenDelta, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing ConfigurableScreenDelta or creates a new ConfigurableScreenDelta if the id parameter is 0. \n"
+  syntax:
+    content: public Task<ConfigurableScreenDelta> SaveConfigurableScreenDeltaAsync(ConfigurableScreenDelta configurableScreenDelta, RequestOptions requestOptions = null)
+    parameters:
+    - id: configurableScreenDelta
+      type: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+      description: The ConfigurableScreenDelta that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ConfigurableScreenDelta}
+      description: New or updated ConfigurableScreenDelta
+    content.vb: Public Function SaveConfigurableScreenDeltaAsync(configurableScreenDelta As ConfigurableScreenDelta, requestOptions As RequestOptions = Nothing) As Task(Of ConfigurableScreenDelta)
+  overload: SuperOffice.WebApi.Agents.ConfigurationAgent.SaveConfigurableScreenDeltaAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent.DeleteConfigurableScreenDeltaAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ConfigurationAgent.DeleteConfigurableScreenDeltaAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteConfigurableScreenDeltaAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteConfigurableScreenDeltaAsync(Int32, RequestOptions)
+  nameWithType: ConfigurationAgent.DeleteConfigurableScreenDeltaAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.DeleteConfigurableScreenDeltaAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes the ConfigurableScreenDelta\n"
+  syntax:
+    content: public Task DeleteConfigurableScreenDeltaAsync(int configurableScreenDeltaId, RequestOptions requestOptions = null)
+    parameters:
+    - id: configurableScreenDeltaId
+      type: System.Int32
+      description: The identity of the ConfigurableScreenDelta
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteConfigurableScreenDeltaAsync(configurableScreenDeltaId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ConfigurationAgent.DeleteConfigurableScreenDeltaAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1490,6 +1604,252 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltaAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltaAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetConfigurableScreenDeltaAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConfigurableScreenDeltaAsync(Int32, RequestOptions)
+  nameWithType: ConfigurationAgent.GetConfigurableScreenDeltaAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltaAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific ConfigurableScreenDelta object.                        \n"
+  syntax:
+    content: public Task<ConfigurableScreenDelta> GetConfigurableScreenDeltaAsync(int configurableScreenDeltaId, RequestOptions requestOptions = null)
+    parameters:
+    - id: configurableScreenDeltaId
+      type: System.Int32
+      description: The identifier of the ConfigurableScreenDelta object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ConfigurableScreenDelta}
+      description: ConfigurableScreenDelta
+    content.vb: Public Function GetConfigurableScreenDeltaAsync(configurableScreenDeltaId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ConfigurableScreenDelta)
+  overload: SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltaAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent.GetScreenConfigurationDeltasAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ConfigurationAgent.GetScreenConfigurationDeltasAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetScreenConfigurationDeltasAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetScreenConfigurationDeltasAsync(RequestOptions)
+  nameWithType: ConfigurationAgent.GetScreenConfigurationDeltasAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.GetScreenConfigurationDeltasAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nThis method will return a json with all deltas for screen\n"
+  syntax:
+    content: public Task<string> GetScreenConfigurationDeltasAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: A string with all recipe deltas in json for logged in associate
+    content.vb: Public Function GetScreenConfigurationDeltasAsync(requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.ConfigurationAgent.GetScreenConfigurationDeltasAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent.GetScreenConfigurationDeltaAsync(SuperOffice.WebApi.Data.DeltaType,SuperOffice.WebApi.Data.DeltaState,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ConfigurationAgent.GetScreenConfigurationDeltaAsync(SuperOffice.WebApi.Data.DeltaType,SuperOffice.WebApi.Data.DeltaState,SuperOffice.WebApi.RequestOptions)
+  id: GetScreenConfigurationDeltaAsync(SuperOffice.WebApi.Data.DeltaType,SuperOffice.WebApi.Data.DeltaState,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetScreenConfigurationDeltaAsync(DeltaType, DeltaState, RequestOptions)
+  nameWithType: ConfigurationAgent.GetScreenConfigurationDeltaAsync(DeltaType, DeltaState, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.GetScreenConfigurationDeltaAsync(SuperOffice.WebApi.Data.DeltaType, SuperOffice.WebApi.Data.DeltaState, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nThis method will return a json with all deltas for screen\n"
+  syntax:
+    content: public Task<string> GetScreenConfigurationDeltaAsync(DeltaType deltaType, DeltaState deltaState, RequestOptions requestOptions = null)
+    parameters:
+    - id: deltaType
+      type: SuperOffice.WebApi.Data.DeltaType
+      description: 'The recipe in json for this DeltaType: System, WebPanel, CustomFields, Custom...'
+    - id: deltaState
+      type: SuperOffice.WebApi.Data.DeltaState
+      description: Draft or published or None
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: A string with recipe delta in json for logged in associate of given deltatype
+    content.vb: Public Function GetScreenConfigurationDeltaAsync(deltaType As DeltaType, deltaState As DeltaState, requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.ConfigurationAgent.GetScreenConfigurationDeltaAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltasByDeltaAsync(SuperOffice.WebApi.Data.ConfigurableScreenDelta,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltasByDeltaAsync(SuperOffice.WebApi.Data.ConfigurableScreenDelta,SuperOffice.WebApi.RequestOptions)
+  id: GetConfigurableScreenDeltasByDeltaAsync(SuperOffice.WebApi.Data.ConfigurableScreenDelta,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConfigurableScreenDeltasByDeltaAsync(ConfigurableScreenDelta, RequestOptions)
+  nameWithType: ConfigurationAgent.GetConfigurableScreenDeltasByDeltaAsync(ConfigurableScreenDelta, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltasByDeltaAsync(SuperOffice.WebApi.Data.ConfigurableScreenDelta, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nThis method will return a configurablescreen delta matching the properties received from the incomming delta\n"
+  syntax:
+    content: public Task<ConfigurableScreenDelta[]> GetConfigurableScreenDeltasByDeltaAsync(ConfigurableScreenDelta configurableScreenDelta, RequestOptions requestOptions = null)
+    parameters:
+    - id: configurableScreenDelta
+      type: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+      description: A delta populated with wanted properties
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ConfigurableScreenDelta[]}
+      description: An array of deltas matching the values of the incomming parameter-delta
+    content.vb: Public Function GetConfigurableScreenDeltasByDeltaAsync(configurableScreenDelta As ConfigurableScreenDelta, requestOptions As RequestOptions = Nothing) As Task(Of ConfigurableScreenDelta())
+  overload: SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltasByDeltaAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltasByQueryAsync(SuperOffice.WebApi.Data.DeltaQuery,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltasByQueryAsync(SuperOffice.WebApi.Data.DeltaQuery,SuperOffice.WebApi.RequestOptions)
+  id: GetConfigurableScreenDeltasByQueryAsync(SuperOffice.WebApi.Data.DeltaQuery,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConfigurableScreenDeltasByQueryAsync(DeltaQuery, RequestOptions)
+  nameWithType: ConfigurationAgent.GetConfigurableScreenDeltasByQueryAsync(DeltaQuery, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltasByQueryAsync(SuperOffice.WebApi.Data.DeltaQuery, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nThis method will return a configurablescreen delta matching the properties received from the incomming query\n"
+  syntax:
+    content: public Task<ConfigurableScreenDelta[]> GetConfigurableScreenDeltasByQueryAsync(DeltaQuery deltaQuery, RequestOptions requestOptions = null)
+    parameters:
+    - id: deltaQuery
+      type: SuperOffice.WebApi.Data.DeltaQuery
+      description: An object populated with wanted properties for the deltas to return
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ConfigurableScreenDelta[]}
+      description: An array of deltas matching the values of the incomming query
+    content.vb: Public Function GetConfigurableScreenDeltasByQueryAsync(deltaQuery As DeltaQuery, requestOptions As RequestOptions = Nothing) As Task(Of ConfigurableScreenDelta())
+  overload: SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltasByQueryAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent.RebuildUdefDeltasAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ConfigurationAgent.RebuildUdefDeltasAsync(SuperOffice.WebApi.RequestOptions)
+  id: RebuildUdefDeltasAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: RebuildUdefDeltasAsync(RequestOptions)
+  nameWithType: ConfigurationAgent.RebuildUdefDeltasAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.RebuildUdefDeltasAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nFlush and rebuild userdefined field deltas. Mostly used after publishing udefs or adding/editing Customer Service extrafields\n"
+  syntax:
+    content: public Task RebuildUdefDeltasAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: No return value
+    content.vb: Public Function RebuildUdefDeltasAsync(requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ConfigurationAgent.RebuildUdefDeltasAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent.RebuildWebpanelDeltasAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ConfigurationAgent.RebuildWebpanelDeltasAsync(SuperOffice.WebApi.RequestOptions)
+  id: RebuildWebpanelDeltasAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: RebuildWebpanelDeltasAsync(RequestOptions)
+  nameWithType: ConfigurationAgent.RebuildWebpanelDeltasAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.RebuildWebpanelDeltasAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nFlush and rebuild webpanel deltas. Mostly used after adding/editing webpanels or change group visibility of them\n"
+  syntax:
+    content: public Task RebuildWebpanelDeltasAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: No return value
+    content.vb: Public Function RebuildWebpanelDeltasAsync(requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ConfigurationAgent.RebuildWebpanelDeltasAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
@@ -1972,15 +2332,15 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: SendRequest(HttpRequestMessage)
-  nameWithType: AgentBase.SendRequest(HttpRequestMessage)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  name: SendRequest(HttpRequestMessage, RequestOptions)
+  nameWithType: AgentBase.SendRequest(HttpRequestMessage, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage, SuperOffice.WebApi.RequestOptions)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
     nameWithType: AgentBase.SendRequest
     fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
@@ -1992,12 +2352,20 @@ references:
     name: HttpRequestMessage
     nameWithType: HttpRequestMessage
     fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
     nameWithType: AgentBase.SendRequest
     fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
@@ -2009,6 +2377,14 @@ references:
     name: HttpRequestMessage
     nameWithType: HttpRequestMessage
     fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )
@@ -2450,6 +2826,74 @@ references:
   name: DeleteSystemEventEntityAsync
   nameWithType: ConfigurationAgent.DeleteSystemEventEntityAsync
   fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.DeleteSystemEventEntityAsync
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent.CreateDefaultConfigurableScreenDeltaAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ConfigurationAgent.CreateDefaultConfigurableScreenDeltaAsync
+  isExternal: true
+  name: CreateDefaultConfigurableScreenDeltaAsync
+  nameWithType: ConfigurationAgent.CreateDefaultConfigurableScreenDeltaAsync
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.CreateDefaultConfigurableScreenDeltaAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ConfigurableScreenDelta}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ConfigurableScreenDelta}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ConfigurableScreenDelta>
+  nameWithType: Task<ConfigurableScreenDelta>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ConfigurableScreenDelta>
+  nameWithType.vb: Task(Of ConfigurableScreenDelta)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ConfigurableScreenDelta)
+  name.vb: Task(Of ConfigurableScreenDelta)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+    name: ConfigurableScreenDelta
+    nameWithType: ConfigurableScreenDelta
+    fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+    name: ConfigurableScreenDelta
+    nameWithType: ConfigurableScreenDelta
+    fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent.SaveConfigurableScreenDeltaAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ConfigurationAgent.SaveConfigurableScreenDeltaAsync
+  isExternal: true
+  name: SaveConfigurableScreenDeltaAsync
+  nameWithType: ConfigurationAgent.SaveConfigurableScreenDeltaAsync
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.SaveConfigurableScreenDeltaAsync
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+  commentId: T:SuperOffice.WebApi.Data.ConfigurableScreenDelta
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ConfigurableScreenDelta
+  nameWithType: ConfigurableScreenDelta
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent.DeleteConfigurableScreenDeltaAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ConfigurationAgent.DeleteConfigurableScreenDeltaAsync
+  isExternal: true
+  name: DeleteConfigurableScreenDeltaAsync
+  nameWithType: ConfigurationAgent.DeleteConfigurableScreenDeltaAsync
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.DeleteConfigurableScreenDeltaAsync
 - uid: SuperOffice.WebApi.Agents.ConfigurationAgent.GetApplicationConfigurationAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ConfigurationAgent.GetApplicationConfigurationAsync
   isExternal: true
@@ -2924,3 +3368,115 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltaAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltaAsync
+  isExternal: true
+  name: GetConfigurableScreenDeltaAsync
+  nameWithType: ConfigurationAgent.GetConfigurableScreenDeltaAsync
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltaAsync
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent.GetScreenConfigurationDeltasAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ConfigurationAgent.GetScreenConfigurationDeltasAsync
+  isExternal: true
+  name: GetScreenConfigurationDeltasAsync
+  nameWithType: ConfigurationAgent.GetScreenConfigurationDeltasAsync
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.GetScreenConfigurationDeltasAsync
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent.GetScreenConfigurationDeltaAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ConfigurationAgent.GetScreenConfigurationDeltaAsync
+  isExternal: true
+  name: GetScreenConfigurationDeltaAsync
+  nameWithType: ConfigurationAgent.GetScreenConfigurationDeltaAsync
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.GetScreenConfigurationDeltaAsync
+- uid: SuperOffice.WebApi.Data.DeltaType
+  commentId: T:SuperOffice.WebApi.Data.DeltaType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DeltaType
+  nameWithType: DeltaType
+  fullName: SuperOffice.WebApi.Data.DeltaType
+- uid: SuperOffice.WebApi.Data.DeltaState
+  commentId: T:SuperOffice.WebApi.Data.DeltaState
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DeltaState
+  nameWithType: DeltaState
+  fullName: SuperOffice.WebApi.Data.DeltaState
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltasByDeltaAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltasByDeltaAsync
+  isExternal: true
+  name: GetConfigurableScreenDeltasByDeltaAsync
+  nameWithType: ConfigurationAgent.GetConfigurableScreenDeltasByDeltaAsync
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltasByDeltaAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ConfigurableScreenDelta[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ConfigurableScreenDelta[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ConfigurableScreenDelta[]>
+  nameWithType: Task<ConfigurableScreenDelta[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ConfigurableScreenDelta[]>
+  nameWithType.vb: Task(Of ConfigurableScreenDelta())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ConfigurableScreenDelta())
+  name.vb: Task(Of ConfigurableScreenDelta())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+    name: ConfigurableScreenDelta
+    nameWithType: ConfigurableScreenDelta
+    fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+    name: ConfigurableScreenDelta
+    nameWithType: ConfigurableScreenDelta
+    fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltasByQueryAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltasByQueryAsync
+  isExternal: true
+  name: GetConfigurableScreenDeltasByQueryAsync
+  nameWithType: ConfigurationAgent.GetConfigurableScreenDeltasByQueryAsync
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltasByQueryAsync
+- uid: SuperOffice.WebApi.Data.DeltaQuery
+  commentId: T:SuperOffice.WebApi.Data.DeltaQuery
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DeltaQuery
+  nameWithType: DeltaQuery
+  fullName: SuperOffice.WebApi.Data.DeltaQuery
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent.RebuildUdefDeltasAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ConfigurationAgent.RebuildUdefDeltasAsync
+  isExternal: true
+  name: RebuildUdefDeltasAsync
+  nameWithType: ConfigurationAgent.RebuildUdefDeltasAsync
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.RebuildUdefDeltasAsync
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent.RebuildWebpanelDeltasAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ConfigurationAgent.RebuildWebpanelDeltasAsync
+  isExternal: true
+  name: RebuildWebpanelDeltasAsync
+  nameWithType: ConfigurationAgent.RebuildWebpanelDeltasAsync
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.RebuildWebpanelDeltasAsync

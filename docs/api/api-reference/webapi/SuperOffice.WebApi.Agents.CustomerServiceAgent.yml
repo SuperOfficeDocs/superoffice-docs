@@ -11,6 +11,7 @@ items:
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.CheckIfCustomizedTemplatesAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.CheckSymmetricEncryptionAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateDefaultMailboxEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateDefaultSmsConfigAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateSessionAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateTicketFromMailDataAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -21,7 +22,10 @@ items:
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.GetAllCustomerCenterConfigsAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.GetCustomerCenterConfigAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.GetCustomerServiceStartupAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.CustomerServiceAgent.GetFaqForCustomerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.CustomerServiceAgent.GetMailboxEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.GetMailboxesAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.CustomerServiceAgent.GetParsedTemplateAsync(System.Int32,System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.GetProgramUrlAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.GetSmsConfigAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.GetStatisticsAsync(SuperOffice.WebApi.Data.StatusScreenPanelType[],SuperOffice.WebApi.RequestOptions)
@@ -29,6 +33,7 @@ items:
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.RemoveSessionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.SaveAllCustomerCenterConfigsAsync(SuperOffice.WebApi.Data.CustomerCenterConfig[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.SaveCustomerCenterConfigAsync(SuperOffice.WebApi.Data.CustomerCenterConfig,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.CustomerServiceAgent.SaveMailboxEntityAsync(SuperOffice.WebApi.Data.MailboxEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.SaveSmsConfigAsync(SuperOffice.WebApi.Data.SmsConfig,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.SessionIsValidAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.TestSmtpServerAsync(System.String,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -71,7 +76,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
   - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
-  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
@@ -254,6 +259,75 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateDefaultMailboxEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateDefaultMailboxEntityAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultMailboxEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultMailboxEntityAsync(RequestOptions)
+  nameWithType: CustomerServiceAgent.CreateDefaultMailboxEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateDefaultMailboxEntityAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new MailboxEntity.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public Task<MailboxEntity> CreateDefaultMailboxEntityAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MailboxEntity}
+      description: A blank MailboxEntity
+    content.vb: Public Function CreateDefaultMailboxEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of MailboxEntity)
+  overload: SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateDefaultMailboxEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent.SaveMailboxEntityAsync(SuperOffice.WebApi.Data.MailboxEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.CustomerServiceAgent.SaveMailboxEntityAsync(SuperOffice.WebApi.Data.MailboxEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveMailboxEntityAsync(SuperOffice.WebApi.Data.MailboxEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveMailboxEntityAsync(MailboxEntity, RequestOptions)
+  nameWithType: CustomerServiceAgent.SaveMailboxEntityAsync(MailboxEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent.SaveMailboxEntityAsync(SuperOffice.WebApi.Data.MailboxEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing MailboxEntity or creates a new MailboxEntity if the id parameter is 0. \n"
+  syntax:
+    content: public Task<MailboxEntity> SaveMailboxEntityAsync(MailboxEntity mailboxEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: mailboxEntity
+      type: SuperOffice.WebApi.Data.MailboxEntity
+      description: The MailboxEntity that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MailboxEntity}
+      description: New or updated MailboxEntity
+    content.vb: Public Function SaveMailboxEntityAsync(mailboxEntity As MailboxEntity, requestOptions As RequestOptions = Nothing) As Task(Of MailboxEntity)
+  overload: SuperOffice.WebApi.Agents.CustomerServiceAgent.SaveMailboxEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateDefaultSmsConfigAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateDefaultSmsConfigAsync(SuperOffice.WebApi.RequestOptions)
   id: CreateDefaultSmsConfigAsync(SuperOffice.WebApi.RequestOptions)
@@ -358,6 +432,42 @@ items:
       description: Returns a valid Service URL composed of the give parameters.
     content.vb: Public Function GetProgramUrlAsync(programName As String, external As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of String)
   overload: SuperOffice.WebApi.Agents.CustomerServiceAgent.GetProgramUrlAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent.GetFaqForCustomerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.CustomerServiceAgent.GetFaqForCustomerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetFaqForCustomerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetFaqForCustomerAsync(Int32, RequestOptions)
+  nameWithType: CustomerServiceAgent.GetFaqForCustomerAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent.GetFaqForCustomerAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a FAQ entry, ment to be displayed for a customer. This can either be a link to the FAQ entry on Custom Center, or it can be the answer and question. This is dependent on Registry setting with reg_id=157\n"
+  syntax:
+    content: public Task<string> GetFaqForCustomerAsync(int faqEntryId, RequestOptions requestOptions = null)
+    parameters:
+    - id: faqEntryId
+      type: System.Int32
+      description: The id of the FAQ entry to get. Only FAQ entries with access level public (both for unauthenticated and autenticated customer) will be returned
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: The FAQ to show to the customer. Either a clickable link or the question/answer itself.
+    content.vb: Public Function GetFaqForCustomerAsync(faqEntryId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.CustomerServiceAgent.GetFaqForCustomerAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -724,6 +834,87 @@ items:
       description: True if the templates are customized
     content.vb: Public Function CheckIfCustomizedTemplatesAsync(requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
   overload: SuperOffice.WebApi.Agents.CustomerServiceAgent.CheckIfCustomizedTemplatesAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent.GetMailboxEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.CustomerServiceAgent.GetMailboxEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetMailboxEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMailboxEntityAsync(Int32, RequestOptions)
+  nameWithType: CustomerServiceAgent.GetMailboxEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent.GetMailboxEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific MailboxEntity object.                        \n"
+  syntax:
+    content: public Task<MailboxEntity> GetMailboxEntityAsync(int mailboxEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: mailboxEntityId
+      type: System.Int32
+      description: The identifier of the MailboxEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MailboxEntity}
+      description: MailboxEntity
+    content.vb: Public Function GetMailboxEntityAsync(mailboxEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of MailboxEntity)
+  overload: SuperOffice.WebApi.Agents.CustomerServiceAgent.GetMailboxEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent.GetParsedTemplateAsync(System.Int32,System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.CustomerServiceAgent.GetParsedTemplateAsync(System.Int32,System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetParsedTemplateAsync(System.Int32,System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetParsedTemplateAsync(Int32, Int32, Int32, Int32, RequestOptions)
+  nameWithType: CustomerServiceAgent.GetParsedTemplateAsync(Int32, Int32, Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent.GetParsedTemplateAsync(System.Int32, System.Int32, System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a specific langauge version of the reply template, and run this trough the parser\n"
+  syntax:
+    content: public Task<ReplyTemplateParsed> GetParsedTemplateAsync(int replyTemplateId, int languageId, int personId, int ticketId, RequestOptions requestOptions = null)
+    parameters:
+    - id: replyTemplateId
+      type: System.Int32
+      description: The id of the reply template
+    - id: languageId
+      type: System.Int32
+      description: The language id (prefered langauge). If 0 is given, the language of the person will be used
+    - id: personId
+      type: System.Int32
+      description: The id of the person that will be populated into the parser
+    - id: ticketId
+      type: System.Int32
+      description: The id of the ticket that will be populated into the parser
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ReplyTemplateParsed}
+      description: The parsed reply template
+    content.vb: Public Function GetParsedTemplateAsync(replyTemplateId As Integer, languageId As Integer, personId As Integer, ticketId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ReplyTemplateParsed)
+  overload: SuperOffice.WebApi.Agents.CustomerServiceAgent.GetParsedTemplateAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1568,15 +1759,15 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: SendRequest(HttpRequestMessage)
-  nameWithType: AgentBase.SendRequest(HttpRequestMessage)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  name: SendRequest(HttpRequestMessage, RequestOptions)
+  nameWithType: AgentBase.SendRequest(HttpRequestMessage, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage, SuperOffice.WebApi.RequestOptions)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
     nameWithType: AgentBase.SendRequest
     fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
@@ -1588,12 +1779,20 @@ references:
     name: HttpRequestMessage
     nameWithType: HttpRequestMessage
     fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
     nameWithType: AgentBase.SendRequest
     fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
@@ -1605,6 +1804,14 @@ references:
     name: HttpRequestMessage
     nameWithType: HttpRequestMessage
     fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )
@@ -1978,6 +2185,68 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateDefaultMailboxEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateDefaultMailboxEntityAsync
+  isExternal: true
+  name: CreateDefaultMailboxEntityAsync
+  nameWithType: CustomerServiceAgent.CreateDefaultMailboxEntityAsync
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateDefaultMailboxEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MailboxEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MailboxEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<MailboxEntity>
+  nameWithType: Task<MailboxEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.MailboxEntity>
+  nameWithType.vb: Task(Of MailboxEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.MailboxEntity)
+  name.vb: Task(Of MailboxEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.MailboxEntity
+    name: MailboxEntity
+    nameWithType: MailboxEntity
+    fullName: SuperOffice.WebApi.Data.MailboxEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.MailboxEntity
+    name: MailboxEntity
+    nameWithType: MailboxEntity
+    fullName: SuperOffice.WebApi.Data.MailboxEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent.SaveMailboxEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.CustomerServiceAgent.SaveMailboxEntityAsync
+  isExternal: true
+  name: SaveMailboxEntityAsync
+  nameWithType: CustomerServiceAgent.SaveMailboxEntityAsync
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent.SaveMailboxEntityAsync
+- uid: SuperOffice.WebApi.Data.MailboxEntity
+  commentId: T:SuperOffice.WebApi.Data.MailboxEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: MailboxEntity
+  nameWithType: MailboxEntity
+  fullName: SuperOffice.WebApi.Data.MailboxEntity
 - uid: SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateDefaultSmsConfigAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateDefaultSmsConfigAsync
   isExternal: true
@@ -2103,6 +2372,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent.GetFaqForCustomerAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.CustomerServiceAgent.GetFaqForCustomerAsync
+  isExternal: true
+  name: GetFaqForCustomerAsync
+  nameWithType: CustomerServiceAgent.GetFaqForCustomerAsync
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent.GetFaqForCustomerAsync
 - uid: SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateTicketFromMailDataAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateTicketFromMailDataAsync
   isExternal: true
@@ -2504,6 +2779,61 @@ references:
     name: Boolean
     nameWithType: Boolean
     fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent.GetMailboxEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.CustomerServiceAgent.GetMailboxEntityAsync
+  isExternal: true
+  name: GetMailboxEntityAsync
+  nameWithType: CustomerServiceAgent.GetMailboxEntityAsync
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent.GetMailboxEntityAsync
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent.GetParsedTemplateAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.CustomerServiceAgent.GetParsedTemplateAsync
+  isExternal: true
+  name: GetParsedTemplateAsync
+  nameWithType: CustomerServiceAgent.GetParsedTemplateAsync
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent.GetParsedTemplateAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ReplyTemplateParsed}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ReplyTemplateParsed}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ReplyTemplateParsed>
+  nameWithType: Task<ReplyTemplateParsed>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ReplyTemplateParsed>
+  nameWithType.vb: Task(Of ReplyTemplateParsed)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ReplyTemplateParsed)
+  name.vb: Task(Of ReplyTemplateParsed)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ReplyTemplateParsed
+    name: ReplyTemplateParsed
+    nameWithType: ReplyTemplateParsed
+    fullName: SuperOffice.WebApi.Data.ReplyTemplateParsed
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ReplyTemplateParsed
+    name: ReplyTemplateParsed
+    nameWithType: ReplyTemplateParsed
+    fullName: SuperOffice.WebApi.Data.ReplyTemplateParsed
     isExternal: true
   - name: )
     nameWithType: )

@@ -9,6 +9,8 @@ items:
   - SuperOffice.WebApi.Data.ChatOpeningHours.FriEnabled
   - SuperOffice.WebApi.Data.ChatOpeningHours.FriStart
   - SuperOffice.WebApi.Data.ChatOpeningHours.FriStop
+  - SuperOffice.WebApi.Data.ChatOpeningHours.LunchStart
+  - SuperOffice.WebApi.Data.ChatOpeningHours.LunchStop
   - SuperOffice.WebApi.Data.ChatOpeningHours.MonEnabled
   - SuperOffice.WebApi.Data.ChatOpeningHours.MonStart
   - SuperOffice.WebApi.Data.ChatOpeningHours.MonStop
@@ -25,6 +27,7 @@ items:
   - SuperOffice.WebApi.Data.ChatOpeningHours.TueStart
   - SuperOffice.WebApi.Data.ChatOpeningHours.TueStop
   - SuperOffice.WebApi.Data.ChatOpeningHours.TzLocation
+  - SuperOffice.WebApi.Data.ChatOpeningHours.UseLunchHours
   - SuperOffice.WebApi.Data.ChatOpeningHours.WedEnabled
   - SuperOffice.WebApi.Data.ChatOpeningHours.WedStart
   - SuperOffice.WebApi.Data.ChatOpeningHours.WedStop
@@ -169,11 +172,11 @@ items:
   namespace: SuperOffice.WebApi.Data
   summary: "\nWhen opening hours start on Mondays. Only time-part is used.\n"
   syntax:
-    content: public virtual DateTime MonStart { get; set; }
+    content: public virtual TimeSpan MonStart { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property MonStart As DateTime
+      type: System.TimeSpan
+    content.vb: Public Overridable Property MonStart As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.MonStart*
   modifiers.csharp:
   - public
@@ -202,11 +205,11 @@ items:
   namespace: SuperOffice.WebApi.Data
   summary: "\nWhen opening hours stop on Mondays. Only time-part is used.\n"
   syntax:
-    content: public virtual DateTime MonStop { get; set; }
+    content: public virtual TimeSpan MonStop { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property MonStop As DateTime
+      type: System.TimeSpan
+    content.vb: Public Overridable Property MonStop As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.MonStop*
   modifiers.csharp:
   - public
@@ -268,11 +271,11 @@ items:
   namespace: SuperOffice.WebApi.Data
   summary: "\nWhen opening hours start on Tuesdays. Only time-part is used.\n"
   syntax:
-    content: public virtual DateTime TueStart { get; set; }
+    content: public virtual TimeSpan TueStart { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property TueStart As DateTime
+      type: System.TimeSpan
+    content.vb: Public Overridable Property TueStart As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.TueStart*
   modifiers.csharp:
   - public
@@ -301,11 +304,11 @@ items:
   namespace: SuperOffice.WebApi.Data
   summary: "\nWhen opening hours stop on Tuesdays. Only time-part is used.\n"
   syntax:
-    content: public virtual DateTime TueStop { get; set; }
+    content: public virtual TimeSpan TueStop { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property TueStop As DateTime
+      type: System.TimeSpan
+    content.vb: Public Overridable Property TueStop As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.TueStop*
   modifiers.csharp:
   - public
@@ -367,11 +370,11 @@ items:
   namespace: SuperOffice.WebApi.Data
   summary: "\nWhen opening hours start on Wednesdays. Only time-part is used.\n"
   syntax:
-    content: public virtual DateTime WedStart { get; set; }
+    content: public virtual TimeSpan WedStart { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property WedStart As DateTime
+      type: System.TimeSpan
+    content.vb: Public Overridable Property WedStart As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.WedStart*
   modifiers.csharp:
   - public
@@ -400,11 +403,11 @@ items:
   namespace: SuperOffice.WebApi.Data
   summary: "\nWhen opening hours stop on Wednesday. Only time-part is used.\n"
   syntax:
-    content: public virtual DateTime WedStop { get; set; }
+    content: public virtual TimeSpan WedStop { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property WedStop As DateTime
+      type: System.TimeSpan
+    content.vb: Public Overridable Property WedStop As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.WedStop*
   modifiers.csharp:
   - public
@@ -466,11 +469,11 @@ items:
   namespace: SuperOffice.WebApi.Data
   summary: "\nWhen opening hours start on Thursdays. Only time-part is used.\n"
   syntax:
-    content: public virtual DateTime ThuStart { get; set; }
+    content: public virtual TimeSpan ThuStart { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property ThuStart As DateTime
+      type: System.TimeSpan
+    content.vb: Public Overridable Property ThuStart As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.ThuStart*
   modifiers.csharp:
   - public
@@ -499,11 +502,11 @@ items:
   namespace: SuperOffice.WebApi.Data
   summary: "\nWhen opening hours stop on Thursdays. Only time-part is used.\n"
   syntax:
-    content: public virtual DateTime ThuStop { get; set; }
+    content: public virtual TimeSpan ThuStop { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property ThuStop As DateTime
+      type: System.TimeSpan
+    content.vb: Public Overridable Property ThuStop As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.ThuStop*
   modifiers.csharp:
   - public
@@ -565,11 +568,11 @@ items:
   namespace: SuperOffice.WebApi.Data
   summary: "\nWhen opening hours start on Fridays. Only time-part is used.\n"
   syntax:
-    content: public virtual DateTime FriStart { get; set; }
+    content: public virtual TimeSpan FriStart { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property FriStart As DateTime
+      type: System.TimeSpan
+    content.vb: Public Overridable Property FriStart As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.FriStart*
   modifiers.csharp:
   - public
@@ -598,11 +601,11 @@ items:
   namespace: SuperOffice.WebApi.Data
   summary: "\nWhen opening hours stop on Fridays. Only time-part is used.\n"
   syntax:
-    content: public virtual DateTime FriStop { get; set; }
+    content: public virtual TimeSpan FriStop { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property FriStop As DateTime
+      type: System.TimeSpan
+    content.vb: Public Overridable Property FriStop As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.FriStop*
   modifiers.csharp:
   - public
@@ -664,11 +667,11 @@ items:
   namespace: SuperOffice.WebApi.Data
   summary: "\nWhen opening hours start on Saturdays. Only time-part is used.\n"
   syntax:
-    content: public virtual DateTime SatStart { get; set; }
+    content: public virtual TimeSpan SatStart { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property SatStart As DateTime
+      type: System.TimeSpan
+    content.vb: Public Overridable Property SatStart As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.SatStart*
   modifiers.csharp:
   - public
@@ -697,11 +700,11 @@ items:
   namespace: SuperOffice.WebApi.Data
   summary: "\nWhen opening hours stop on Saturdays. Only time-part is used.\n"
   syntax:
-    content: public virtual DateTime SatStop { get; set; }
+    content: public virtual TimeSpan SatStop { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property SatStop As DateTime
+      type: System.TimeSpan
+    content.vb: Public Overridable Property SatStop As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.SatStop*
   modifiers.csharp:
   - public
@@ -763,11 +766,11 @@ items:
   namespace: SuperOffice.WebApi.Data
   summary: "\nWhen opening hours start on Sundays. Only time-part is used.\n"
   syntax:
-    content: public virtual DateTime SunStart { get; set; }
+    content: public virtual TimeSpan SunStart { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property SunStart As DateTime
+      type: System.TimeSpan
+    content.vb: Public Overridable Property SunStart As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.SunStart*
   modifiers.csharp:
   - public
@@ -796,12 +799,111 @@ items:
   namespace: SuperOffice.WebApi.Data
   summary: "\nWhen opening hours stop on Sundays. Only time-part is used.\n"
   syntax:
-    content: public virtual DateTime SunStop { get; set; }
+    content: public virtual TimeSpan SunStop { get; set; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public Overridable Property SunStop As DateTime
+      type: System.TimeSpan
+    content.vb: Public Overridable Property SunStop As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.SunStop*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatOpeningHours.UseLunchHours
+  commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.UseLunchHours
+  id: UseLunchHours
+  parent: SuperOffice.WebApi.Data.ChatOpeningHours
+  langs:
+  - csharp
+  - vb
+  name: UseLunchHours
+  nameWithType: ChatOpeningHours.UseLunchHours
+  fullName: SuperOffice.WebApi.Data.ChatOpeningHours.UseLunchHours
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhether to use lunch hours or not.\n"
+  syntax:
+    content: public virtual bool UseLunchHours { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UseLunchHours As Boolean
+  overload: SuperOffice.WebApi.Data.ChatOpeningHours.UseLunchHours*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatOpeningHours.LunchStart
+  commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.LunchStart
+  id: LunchStart
+  parent: SuperOffice.WebApi.Data.ChatOpeningHours
+  langs:
+  - csharp
+  - vb
+  name: LunchStart
+  nameWithType: ChatOpeningHours.LunchStart
+  fullName: SuperOffice.WebApi.Data.ChatOpeningHours.LunchStart
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhen opening hours starts for lunch. Only time-part is used.\n"
+  syntax:
+    content: public virtual TimeSpan LunchStart { get; set; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public Overridable Property LunchStart As TimeSpan
+  overload: SuperOffice.WebApi.Data.ChatOpeningHours.LunchStart*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatOpeningHours.LunchStop
+  commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.LunchStop
+  id: LunchStop
+  parent: SuperOffice.WebApi.Data.ChatOpeningHours
+  langs:
+  - csharp
+  - vb
+  name: LunchStop
+  nameWithType: ChatOpeningHours.LunchStop
+  fullName: SuperOffice.WebApi.Data.ChatOpeningHours.LunchStop
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhen opening hours stops for lunch. Only time-part is used.\n"
+  syntax:
+    content: public virtual TimeSpan LunchStop { get; set; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public Overridable Property LunchStop As TimeSpan
+  overload: SuperOffice.WebApi.Data.ChatOpeningHours.LunchStop*
   modifiers.csharp:
   - public
   - virtual
@@ -874,11 +976,11 @@ references:
   name: MonStart
   nameWithType: ChatOpeningHours.MonStart
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.MonStart
-- uid: System.DateTime
+- uid: System.TimeSpan
   isExternal: true
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.MonStop*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.MonStop
   isExternal: true
@@ -993,3 +1095,21 @@ references:
   name: SunStop
   nameWithType: ChatOpeningHours.SunStop
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.SunStop
+- uid: SuperOffice.WebApi.Data.ChatOpeningHours.UseLunchHours*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.UseLunchHours
+  isExternal: true
+  name: UseLunchHours
+  nameWithType: ChatOpeningHours.UseLunchHours
+  fullName: SuperOffice.WebApi.Data.ChatOpeningHours.UseLunchHours
+- uid: SuperOffice.WebApi.Data.ChatOpeningHours.LunchStart*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.LunchStart
+  isExternal: true
+  name: LunchStart
+  nameWithType: ChatOpeningHours.LunchStart
+  fullName: SuperOffice.WebApi.Data.ChatOpeningHours.LunchStart
+- uid: SuperOffice.WebApi.Data.ChatOpeningHours.LunchStop*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.LunchStop
+  isExternal: true
+  name: LunchStop
+  nameWithType: ChatOpeningHours.LunchStop
+  fullName: SuperOffice.WebApi.Data.ChatOpeningHours.LunchStop

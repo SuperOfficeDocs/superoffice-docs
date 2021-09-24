@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Chat_CreateChatSessionForTopicRequest
+  commentId: T:SuperOffice.WebApi.Data.Chat_CreateChatSessionForTopicRequest
+  id: Chat_CreateChatSessionForTopicRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Chat_CreateChatSessionForTopicRequest.#ctor
+  - SuperOffice.WebApi.Data.Chat_CreateChatSessionForTopicRequest.ChatTopicId
+  langs:
+  - csharp
+  - vb
+  name: Chat_CreateChatSessionForTopicRequest
+  nameWithType: Chat_CreateChatSessionForTopicRequest
+  fullName: SuperOffice.WebApi.Data.Chat_CreateChatSessionForTopicRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Chat_CreateChatSessionForTopicRequest : Object'
+    content.vb: >-
+      Public Class Chat_CreateChatSessionForTopicRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Chat_CreateChatSessionForTopicRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Chat_CreateChatSessionForTopicRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Chat_CreateChatSessionForTopicRequest
+  langs:
+  - csharp
+  - vb
+  name: Chat_CreateChatSessionForTopicRequest()
+  nameWithType: Chat_CreateChatSessionForTopicRequest.Chat_CreateChatSessionForTopicRequest()
+  fullName: SuperOffice.WebApi.Data.Chat_CreateChatSessionForTopicRequest.Chat_CreateChatSessionForTopicRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Chat_CreateChatSessionForTopicRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Chat_CreateChatSessionForTopicRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Chat_CreateChatSessionForTopicRequest.ChatTopicId
+  commentId: P:SuperOffice.WebApi.Data.Chat_CreateChatSessionForTopicRequest.ChatTopicId
+  id: ChatTopicId
+  parent: SuperOffice.WebApi.Data.Chat_CreateChatSessionForTopicRequest
+  langs:
+  - csharp
+  - vb
+  name: ChatTopicId
+  nameWithType: Chat_CreateChatSessionForTopicRequest.ChatTopicId
+  fullName: SuperOffice.WebApi.Data.Chat_CreateChatSessionForTopicRequest.ChatTopicId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ChatTopicId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChatTopicId As Integer
+  overload: SuperOffice.WebApi.Data.Chat_CreateChatSessionForTopicRequest.ChatTopicId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Chat_CreateChatSessionForTopicRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Chat_CreateChatSessionForTopicRequest.#ctor
+  isExternal: true
+  name: Chat_CreateChatSessionForTopicRequest
+  nameWithType: Chat_CreateChatSessionForTopicRequest.Chat_CreateChatSessionForTopicRequest
+  fullName: SuperOffice.WebApi.Data.Chat_CreateChatSessionForTopicRequest.Chat_CreateChatSessionForTopicRequest
+- uid: SuperOffice.WebApi.Data.Chat_CreateChatSessionForTopicRequest.ChatTopicId*
+  commentId: Overload:SuperOffice.WebApi.Data.Chat_CreateChatSessionForTopicRequest.ChatTopicId
+  isExternal: true
+  name: ChatTopicId
+  nameWithType: Chat_CreateChatSessionForTopicRequest.ChatTopicId
+  fullName: SuperOffice.WebApi.Data.Chat_CreateChatSessionForTopicRequest.ChatTopicId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -605,7 +605,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe associate who owns this ticket\n<p>Use MDO List name &quot;associate&quot; to get list items.</p>\n"
+  summary: "\nThe associate who owns this ticket. Setting the id to 0 will make the ticket unassigned. Setting the id to 2147483647 (MaxInt) will make it automatically assigned according to the ticket category assignment rules.\n<p>Use MDO List name &quot;associate&quot; to get list items.</p>\n"
   syntax:
     content: public virtual Associate OwnedBy { get; set; }
     parameters: []

@@ -10,9 +10,9 @@ items:
   - SuperOffice.WebApi.IdentityModel.SystemUserClient.#ctor(SuperOffice.WebApi.IdentityModel.SystemUserInfo,System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILogger)
   - SuperOffice.WebApi.IdentityModel.SystemUserClient.ClaimsIdentity
   - SuperOffice.WebApi.IdentityModel.SystemUserClient.Deserialize``1(System.String)
-  - SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserJwt
-  - SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserTicket
-  - SuperOffice.WebApi.IdentityModel.SystemUserClient.ValidateSystemUserResult(SuperOffice.WebApi.IdentityModel.SystemUserResult)
+  - SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserJwtAsync
+  - SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserTicketAsync
+  - SuperOffice.WebApi.IdentityModel.SystemUserClient.ValidateSystemUserResultAsync(SuperOffice.WebApi.IdentityModel.SystemUserResult)
   langs:
   - csharp
   - vb
@@ -139,16 +139,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserTicket
-  commentId: M:SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserTicket
-  id: GetSystemUserTicket
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserTicketAsync
+  commentId: M:SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserTicketAsync
+  id: GetSystemUserTicketAsync
   parent: SuperOffice.WebApi.IdentityModel.SystemUserClient
   langs:
   - csharp
   - vb
-  name: GetSystemUserTicket()
-  nameWithType: SystemUserClient.GetSystemUserTicket()
-  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserTicket()
+  name: GetSystemUserTicketAsync()
+  nameWithType: SystemUserClient.GetSystemUserTicketAsync()
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserTicketAsync()
   type: Method
   source:
     path: SuperOffice.WebApi
@@ -158,12 +158,12 @@ items:
   namespace: SuperOffice.WebApi.IdentityModel
   summary: "\nPerforms the exchange that get&apos;s the system user ticket from the system user token.\nThis calls GetSystemUserJwt and ValidateSystemUserResult and returned the ticket claim.\n"
   syntax:
-    content: public string GetSystemUserTicket()
+    content: public Task<string> GetSystemUserTicketAsync()
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: System user ticket.
-    content.vb: Public Function GetSystemUserTicket As String
-  overload: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserTicket*
+    content.vb: Public Function GetSystemUserTicketAsync As Task(Of String)
+  overload: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserTicketAsync*
   exceptions:
   - type: Microsoft.IdentityModel.Tokens.SecurityTokenValidationException
     commentId: T:Microsoft.IdentityModel.Tokens.SecurityTokenValidationException
@@ -172,16 +172,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserJwt
-  commentId: M:SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserJwt
-  id: GetSystemUserJwt
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserJwtAsync
+  commentId: M:SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserJwtAsync
+  id: GetSystemUserJwtAsync
   parent: SuperOffice.WebApi.IdentityModel.SystemUserClient
   langs:
   - csharp
   - vb
-  name: GetSystemUserJwt()
-  nameWithType: SystemUserClient.GetSystemUserJwt()
-  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserJwt()
+  name: GetSystemUserJwtAsync()
+  nameWithType: SystemUserClient.GetSystemUserJwtAsync()
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserJwtAsync()
   type: Method
   source:
     path: SuperOffice.WebApi
@@ -191,26 +191,26 @@ items:
   namespace: SuperOffice.WebApi.IdentityModel
   summary: "\nPerforms sending System User token request to SuperOffice.\n"
   syntax:
-    content: public SystemUserResult GetSystemUserJwt()
+    content: public Task<SystemUserResult> GetSystemUserJwtAsync()
     return:
-      type: SuperOffice.WebApi.IdentityModel.SystemUserResult
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.IdentityModel.SystemUserResult}
       description: The <xref href="SuperOffice.WebApi.IdentityModel.SystemUserResult" data-throw-if-not-resolved="false"></xref> which, if successful, contains System User JWT.
-    content.vb: Public Function GetSystemUserJwt As SystemUserResult
-  overload: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserJwt*
+    content.vb: Public Function GetSystemUserJwtAsync As Task(Of SystemUserResult)
+  overload: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserJwtAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.ValidateSystemUserResult(SuperOffice.WebApi.IdentityModel.SystemUserResult)
-  commentId: M:SuperOffice.WebApi.IdentityModel.SystemUserClient.ValidateSystemUserResult(SuperOffice.WebApi.IdentityModel.SystemUserResult)
-  id: ValidateSystemUserResult(SuperOffice.WebApi.IdentityModel.SystemUserResult)
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.ValidateSystemUserResultAsync(SuperOffice.WebApi.IdentityModel.SystemUserResult)
+  commentId: M:SuperOffice.WebApi.IdentityModel.SystemUserClient.ValidateSystemUserResultAsync(SuperOffice.WebApi.IdentityModel.SystemUserResult)
+  id: ValidateSystemUserResultAsync(SuperOffice.WebApi.IdentityModel.SystemUserResult)
   parent: SuperOffice.WebApi.IdentityModel.SystemUserClient
   langs:
   - csharp
   - vb
-  name: ValidateSystemUserResult(SystemUserResult)
-  nameWithType: SystemUserClient.ValidateSystemUserResult(SystemUserResult)
-  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.ValidateSystemUserResult(SuperOffice.WebApi.IdentityModel.SystemUserResult)
+  name: ValidateSystemUserResultAsync(SystemUserResult)
+  nameWithType: SystemUserClient.ValidateSystemUserResultAsync(SystemUserResult)
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.ValidateSystemUserResultAsync(SuperOffice.WebApi.IdentityModel.SystemUserResult)
   type: Method
   source:
     path: SuperOffice.WebApi
@@ -220,16 +220,16 @@ items:
   namespace: SuperOffice.WebApi.IdentityModel
   summary: "\nValidates the SystemUserResult.\n"
   syntax:
-    content: public TokenValidationResult ValidateSystemUserResult(SystemUserResult systemUserResult)
+    content: public Task<TokenValidationResult> ValidateSystemUserResultAsync(SystemUserResult systemUserResult)
     parameters:
     - id: systemUserResult
       type: SuperOffice.WebApi.IdentityModel.SystemUserResult
       description: Contains JWT to validate.
     return:
-      type: Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult
+      type: System.Threading.Tasks.Task{Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult}
       description: TokenValidationResult instance.
-    content.vb: Public Function ValidateSystemUserResult(systemUserResult As SystemUserResult) As TokenValidationResult
-  overload: SuperOffice.WebApi.IdentityModel.SystemUserClient.ValidateSystemUserResult*
+    content.vb: Public Function ValidateSystemUserResultAsync(systemUserResult As SystemUserResult) As Task(Of TokenValidationResult)
+  overload: SuperOffice.WebApi.IdentityModel.SystemUserClient.ValidateSystemUserResultAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -347,28 +347,151 @@ references:
   name: HttpClient
   nameWithType: HttpClient
   fullName: System.Net.Http.HttpClient
-- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserTicket*
-  commentId: Overload:SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserTicket
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserTicketAsync*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserTicketAsync
   isExternal: true
-  name: GetSystemUserTicket
-  nameWithType: SystemUserClient.GetSystemUserTicket
-  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserTicket
+  name: GetSystemUserTicketAsync
+  nameWithType: SystemUserClient.GetSystemUserTicketAsync
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserTicketAsync
 - uid: Microsoft.IdentityModel.Tokens.SecurityTokenValidationException
   commentId: T:Microsoft.IdentityModel.Tokens.SecurityTokenValidationException
   isExternal: true
-- uid: System.String
-  commentId: T:System.String
-  parent: System
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserJwt*
-  commentId: Overload:SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserJwt
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserJwtAsync*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserJwtAsync
   isExternal: true
-  name: GetSystemUserJwt
-  nameWithType: SystemUserClient.GetSystemUserJwt
-  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserJwt
+  name: GetSystemUserJwtAsync
+  nameWithType: SystemUserClient.GetSystemUserJwtAsync
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserJwtAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.IdentityModel.SystemUserResult}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.IdentityModel.SystemUserResult}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<SystemUserResult>
+  nameWithType: Task<SystemUserResult>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.IdentityModel.SystemUserResult>
+  nameWithType.vb: Task(Of SystemUserResult)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.IdentityModel.SystemUserResult)
+  name.vb: Task(Of SystemUserResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.IdentityModel.SystemUserResult
+    name: SystemUserResult
+    nameWithType: SystemUserResult
+    fullName: SuperOffice.WebApi.IdentityModel.SystemUserResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.IdentityModel.SystemUserResult
+    name: SystemUserResult
+    nameWithType: SystemUserResult
+    fullName: SuperOffice.WebApi.IdentityModel.SystemUserResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.ValidateSystemUserResultAsync*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.SystemUserClient.ValidateSystemUserResultAsync
+  isExternal: true
+  name: ValidateSystemUserResultAsync
+  nameWithType: SystemUserClient.ValidateSystemUserResultAsync
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.ValidateSystemUserResultAsync
 - uid: SuperOffice.WebApi.IdentityModel.SystemUserResult
   commentId: T:SuperOffice.WebApi.IdentityModel.SystemUserResult
   parent: SuperOffice.WebApi.IdentityModel
@@ -376,24 +499,62 @@ references:
   name: SystemUserResult
   nameWithType: SystemUserResult
   fullName: SuperOffice.WebApi.IdentityModel.SystemUserResult
-- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.ValidateSystemUserResult*
-  commentId: Overload:SuperOffice.WebApi.IdentityModel.SystemUserClient.ValidateSystemUserResult
-  isExternal: true
-  name: ValidateSystemUserResult
-  nameWithType: SystemUserClient.ValidateSystemUserResult
-  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.ValidateSystemUserResult
-- uid: Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult
-  commentId: '!:Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult'
-  isExternal: true
-  name: TokenValidationResult
-  nameWithType: TokenValidationResult
-  fullName: Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult
+- uid: System.Threading.Tasks.Task{Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult}
+  commentId: '!:System.Threading.Tasks.Task{Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TokenValidationResult>
+  nameWithType: Task<TokenValidationResult>
+  fullName: System.Threading.Tasks.Task<Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult>
+  nameWithType.vb: Task(Of TokenValidationResult)
+  fullName.vb: System.Threading.Tasks.Task(Of Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult)
+  name.vb: Task(Of TokenValidationResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult
+    name: TokenValidationResult
+    nameWithType: TokenValidationResult
+    fullName: Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult
+    name: TokenValidationResult
+    nameWithType: TokenValidationResult
+    fullName: Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.Deserialize*
   commentId: Overload:SuperOffice.WebApi.IdentityModel.SystemUserClient.Deserialize
   isExternal: true
   name: Deserialize
   nameWithType: SystemUserClient.Deserialize
   fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.Deserialize
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: '{T}'
   commentId: '!:T'
   definition: T

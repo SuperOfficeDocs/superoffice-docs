@@ -8,7 +8,9 @@ items:
   - SuperOffice.WebApi.Data.AttachmentEntity.#ctor
   - SuperOffice.WebApi.Data.AttachmentEntity.AttachmentId
   - SuperOffice.WebApi.Data.AttachmentEntity.AttSize
+  - SuperOffice.WebApi.Data.AttachmentEntity.ContentId
   - SuperOffice.WebApi.Data.AttachmentEntity.ContentType
+  - SuperOffice.WebApi.Data.AttachmentEntity.InlineImage
   - SuperOffice.WebApi.Data.AttachmentEntity.Name
   langs:
   - csharp
@@ -204,6 +206,72 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.AttachmentEntity.InlineImage
+  commentId: P:SuperOffice.WebApi.Data.AttachmentEntity.InlineImage
+  id: InlineImage
+  parent: SuperOffice.WebApi.Data.AttachmentEntity
+  langs:
+  - csharp
+  - vb
+  name: InlineImage
+  nameWithType: AttachmentEntity.InlineImage
+  fullName: SuperOffice.WebApi.Data.AttachmentEntity.InlineImage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if this attachment is inlined in the html_body.\n"
+  syntax:
+    content: public virtual bool InlineImage { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property InlineImage As Boolean
+  overload: SuperOffice.WebApi.Data.AttachmentEntity.InlineImage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AttachmentEntity.ContentId
+  commentId: P:SuperOffice.WebApi.Data.AttachmentEntity.ContentId
+  id: ContentId
+  parent: SuperOffice.WebApi.Data.AttachmentEntity
+  langs:
+  - csharp
+  - vb
+  name: ContentId
+  nameWithType: AttachmentEntity.ContentId
+  fullName: SuperOffice.WebApi.Data.AttachmentEntity.ContentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe content_id of this attachment, used for inline images\n"
+  syntax:
+    content: public virtual string ContentId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContentId As String
+  overload: SuperOffice.WebApi.Data.AttachmentEntity.ContentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -295,3 +363,22 @@ references:
   name: AttSize
   nameWithType: AttachmentEntity.AttSize
   fullName: SuperOffice.WebApi.Data.AttachmentEntity.AttSize
+- uid: SuperOffice.WebApi.Data.AttachmentEntity.InlineImage*
+  commentId: Overload:SuperOffice.WebApi.Data.AttachmentEntity.InlineImage
+  isExternal: true
+  name: InlineImage
+  nameWithType: AttachmentEntity.InlineImage
+  fullName: SuperOffice.WebApi.Data.AttachmentEntity.InlineImage
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.AttachmentEntity.ContentId*
+  commentId: Overload:SuperOffice.WebApi.Data.AttachmentEntity.ContentId
+  isExternal: true
+  name: ContentId
+  nameWithType: AttachmentEntity.ContentId
+  fullName: SuperOffice.WebApi.Data.AttachmentEntity.ContentId

@@ -31,6 +31,8 @@ items:
   - SuperOffice.WebApi.Agents.TicketAgent.SaveTicketEntityAsync(SuperOffice.WebApi.Data.TicketEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.SaveTicketMessageEntityAsync(SuperOffice.WebApi.Data.TicketMessageEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.SendTicketMessageAsync(System.Int32,System.String[],System.String[],System.String[],System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.SetTicketMessageImportantAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.SetTicketReadByOwnerAsync(System.Int32,SuperOffice.WebApi.Data.TicketReadStatus,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.UploadAttachmentAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
   langs:
   - csharp
@@ -70,7 +72,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
   - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
-  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
@@ -536,6 +538,48 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.WebApi.Agents.TicketAgent.SetTicketReadByOwnerAsync(System.Int32,SuperOffice.WebApi.Data.TicketReadStatus,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.SetTicketReadByOwnerAsync(System.Int32,SuperOffice.WebApi.Data.TicketReadStatus,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: SetTicketReadByOwnerAsync(System.Int32,SuperOffice.WebApi.Data.TicketReadStatus,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: SetTicketReadByOwnerAsync(Int32, TicketReadStatus, Boolean, RequestOptions)
+  nameWithType: TicketAgent.SetTicketReadByOwnerAsync(Int32, TicketReadStatus, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.SetTicketReadByOwnerAsync(System.Int32, SuperOffice.WebApi.Data.TicketReadStatus, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet the ReadByOwner status for a ticket. It will only have an effect if the calling user is the same as the owner of the ticket\n"
+  syntax:
+    content: public Task<TicketEntity> SetTicketReadByOwnerAsync(int ticketEntityId, TicketReadStatus readStatus, bool checkEscalating, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketEntityId
+      type: System.Int32
+      description: The id of the ticket to set
+    - id: readStatus
+      type: SuperOffice.WebApi.Data.TicketReadStatus
+      description: The read status to set. See the enum for explanation of the different colors. Setting Unknown does nothing
+    - id: checkEscalating
+      type: System.Boolean
+      description: If true, then the escalation system will be called and executed when setting the ReadByOwner
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketEntity}
+      description: The ticket entity after setting the ReadByOwner
+    content.vb: Public Function SetTicketReadByOwnerAsync(ticketEntityId As Integer, readStatus As TicketReadStatus, checkEscalating As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of TicketEntity)
+  overload: SuperOffice.WebApi.Agents.TicketAgent.SetTicketReadByOwnerAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetTicketMessageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -822,7 +866,7 @@ items:
       description: The id of the ticket message to send
     - id: to
       type: System.String[]
-      description: The To-recipients. Each recipient must be in correct format
+      description: 'The To-recipients. Each recipient must be in correct format: e-mail address or phone number'
     - id: cc
       type: System.String[]
       description: The Cc-recipients. Each recipient must be in correct format
@@ -837,7 +881,7 @@ items:
       description: Optional ID of reply template to merge message with. &lt;= 0 to skip.
     - id: gdprSource
       type: System.String
-      description: 'Optional GdprSource string which will be stored for newly created Persons. Blank value will give Gdpr source: API.'
+      description: Obsolete
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
       description: 'Override language/culture codes on this request. '
@@ -853,6 +897,44 @@ items:
   - Public
   fullName.vb: SuperOffice.WebApi.Agents.TicketAgent.SendTicketMessageAsync(System.Int32, System.String(), System.String(), System.String(), System.String, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
   name.vb: SendTicketMessageAsync(Int32, String(), String(), String(), String, Int32, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.TicketAgent.SetTicketMessageImportantAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.SetTicketMessageImportantAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: SetTicketMessageImportantAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: SetTicketMessageImportantAsync(Int32, Boolean, RequestOptions)
+  nameWithType: TicketAgent.SetTicketMessageImportantAsync(Int32, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.SetTicketMessageImportantAsync(System.Int32, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet the important flag on or off for a ticket message\n"
+  syntax:
+    content: public Task SetTicketMessageImportantAsync(int ticketMessageId, bool important, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketMessageId
+      type: System.Int32
+      description: The id of the ticket message to set the important flag on
+    - id: important
+      type: System.Boolean
+      description: Turn on or off the important flag
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SetTicketMessageImportantAsync(ticketMessageId As Integer, important As Boolean, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.TicketAgent.SetTicketMessageImportantAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.TicketAgent.GetTicketAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetTicketAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -1562,15 +1644,15 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: SendRequest(HttpRequestMessage)
-  nameWithType: AgentBase.SendRequest(HttpRequestMessage)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  name: SendRequest(HttpRequestMessage, RequestOptions)
+  nameWithType: AgentBase.SendRequest(HttpRequestMessage, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage, SuperOffice.WebApi.RequestOptions)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
     nameWithType: AgentBase.SendRequest
     fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
@@ -1582,12 +1664,20 @@ references:
     name: HttpRequestMessage
     nameWithType: HttpRequestMessage
     fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
     nameWithType: AgentBase.SendRequest
     fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
@@ -1599,6 +1689,14 @@ references:
     name: HttpRequestMessage
     nameWithType: HttpRequestMessage
     fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )
@@ -2169,6 +2267,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.WebApi.Agents.TicketAgent.SetTicketReadByOwnerAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.SetTicketReadByOwnerAsync
+  isExternal: true
+  name: SetTicketReadByOwnerAsync
+  nameWithType: TicketAgent.SetTicketReadByOwnerAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.SetTicketReadByOwnerAsync
+- uid: SuperOffice.WebApi.Data.TicketReadStatus
+  commentId: T:SuperOffice.WebApi.Data.TicketReadStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TicketReadStatus
+  nameWithType: TicketReadStatus
+  fullName: SuperOffice.WebApi.Data.TicketReadStatus
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageEntityAsync
   isExternal: true
@@ -2368,6 +2486,12 @@ references:
   name: SendTicketMessageAsync
   nameWithType: TicketAgent.SendTicketMessageAsync
   fullName: SuperOffice.WebApi.Agents.TicketAgent.SendTicketMessageAsync
+- uid: SuperOffice.WebApi.Agents.TicketAgent.SetTicketMessageImportantAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.SetTicketMessageImportantAsync
+  isExternal: true
+  name: SetTicketMessageImportantAsync
+  nameWithType: TicketAgent.SetTicketMessageImportantAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.SetTicketMessageImportantAsync
 - uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.GetTicketAsync
   isExternal: true

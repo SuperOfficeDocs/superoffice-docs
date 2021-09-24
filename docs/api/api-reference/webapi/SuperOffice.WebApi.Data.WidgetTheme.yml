@@ -21,7 +21,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nValue for field &apos;widget_theme&apos; in table &apos;chat_topic&apos;.\nThis Enum is used by:  chat_topic.widget_theme\n"
+  summary: "\nChat Topic widget_theme: classic(0) or modern(1).\nThis Enum is used by:  chat_topic.widget_theme\n"
   syntax:
     content: 'public sealed class WidgetTheme : Enum'
     content.vb: >-

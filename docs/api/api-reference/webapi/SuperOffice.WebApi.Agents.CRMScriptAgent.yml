@@ -13,8 +13,11 @@ items:
   - SuperOffice.WebApi.Agents.CRMScriptAgent.DeleteCRMScriptEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CRMScriptAgent.DeleteTriggerScriptByUniqueIdAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CRMScriptAgent.DeleteTriggerScriptEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptAsEventAsync(System.Int32,SuperOffice.WebApi.Data.EventData,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptAsEventByUniqueIdAsync(System.String,SuperOffice.WebApi.Data.EventData,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptAsync(System.Int32,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptByIncludeIdAsync(System.String,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptByUniqueIdAsync(System.String,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CRMScriptAgent.GetCRMScriptEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CRMScriptAgent.GetTriggerScriptByUniqueIdAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -25,6 +28,7 @@ items:
   - SuperOffice.WebApi.Agents.CRMScriptAgent.SaveTriggerScriptEntityAsync(SuperOffice.WebApi.Data.TriggerScriptEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CRMScriptAgent.ValidateScriptAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CRMScriptAgent.ValidateScriptByIncludeIdAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.CRMScriptAgent.ValidateScriptByUniqueIdAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CRMScriptAgent.ValidateTriggerScriptAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CRMScriptAgent.ValidateTriggerScriptByUniqueIdAsync(System.String,SuperOffice.WebApi.RequestOptions)
   langs:
@@ -65,7 +69,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
   - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
-  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
@@ -405,7 +409,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nExecute a CRMScript with parameters\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: "\nExecute a CRMScript with parameters, returning printed output value.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: public Task<string> ExecuteScriptAsync(int cRMScriptId, StringDictionary parameters, RequestOptions requestOptions = null)
     parameters:
@@ -444,7 +448,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nExecute a CRMScript with parameters\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: "\nExecute a CRMScript with parameters, returning printed output value.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: public Task<string> ExecuteScriptByIncludeIdAsync(string cRMScriptIncludeId, StringDictionary parameters, RequestOptions requestOptions = null)
     parameters:
@@ -462,6 +466,123 @@ items:
       description: The output produced by the CRMScript
     content.vb: Public Function ExecuteScriptByIncludeIdAsync(cRMScriptIncludeId As String, parameters As StringDictionary, requestOptions As RequestOptions = Nothing) As Task(Of String)
   overload: SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptByIncludeIdAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptByUniqueIdAsync(System.String,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptByUniqueIdAsync(System.String,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
+  id: ExecuteScriptByUniqueIdAsync(System.String,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: ExecuteScriptByUniqueIdAsync(String, StringDictionary, RequestOptions)
+  nameWithType: CRMScriptAgent.ExecuteScriptByUniqueIdAsync(String, StringDictionary, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptByUniqueIdAsync(System.String, SuperOffice.WebApi.Data.StringDictionary, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nExecute a CRMScript with parameters, returning printed output value.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: public Task<string> ExecuteScriptByUniqueIdAsync(string cRMScriptUniqueId, StringDictionary parameters, RequestOptions requestOptions = null)
+    parameters:
+    - id: cRMScriptUniqueId
+      type: System.String
+      description: The unique id of the CRMScript to validate
+    - id: parameters
+      type: SuperOffice.WebApi.Data.StringDictionary
+      description: Parameters passed as variables to the CRMScript
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: The output produced by the CRMScript
+    content.vb: Public Function ExecuteScriptByUniqueIdAsync(cRMScriptUniqueId As String, parameters As StringDictionary, requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptByUniqueIdAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptAsEventAsync(System.Int32,SuperOffice.WebApi.Data.EventData,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptAsEventAsync(System.Int32,SuperOffice.WebApi.Data.EventData,SuperOffice.WebApi.RequestOptions)
+  id: ExecuteScriptAsEventAsync(System.Int32,SuperOffice.WebApi.Data.EventData,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: ExecuteScriptAsEventAsync(Int32, EventData, RequestOptions)
+  nameWithType: CRMScriptAgent.ExecuteScriptAsEventAsync(Int32, EventData, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptAsEventAsync(System.Int32, SuperOffice.WebApi.Data.EventData, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nExecute a CRMScript with event data as input. Returns event data with output variable values.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: public Task<EventData> ExecuteScriptAsEventAsync(int cRMScriptId, EventData eventData, RequestOptions requestOptions = null)
+    parameters:
+    - id: cRMScriptId
+      type: System.Int32
+      description: The id of the CRMScript to execute
+    - id: eventData
+      type: SuperOffice.WebApi.Data.EventData
+      description: The EventData instance sent to the crmscript with input values
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.EventData}
+      description: The EventData instance after script execution with output values
+    content.vb: Public Function ExecuteScriptAsEventAsync(cRMScriptId As Integer, eventData As EventData, requestOptions As RequestOptions = Nothing) As Task(Of EventData)
+  overload: SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptAsEventAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptAsEventByUniqueIdAsync(System.String,SuperOffice.WebApi.Data.EventData,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptAsEventByUniqueIdAsync(System.String,SuperOffice.WebApi.Data.EventData,SuperOffice.WebApi.RequestOptions)
+  id: ExecuteScriptAsEventByUniqueIdAsync(System.String,SuperOffice.WebApi.Data.EventData,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: ExecuteScriptAsEventByUniqueIdAsync(String, EventData, RequestOptions)
+  nameWithType: CRMScriptAgent.ExecuteScriptAsEventByUniqueIdAsync(String, EventData, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptAsEventByUniqueIdAsync(System.String, SuperOffice.WebApi.Data.EventData, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nExecute a CRMScript with event data as input. Returns event data with output variable values.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: public Task<EventData> ExecuteScriptAsEventByUniqueIdAsync(string cRMScriptUniqueId, EventData eventData, RequestOptions requestOptions = null)
+    parameters:
+    - id: cRMScriptUniqueId
+      type: System.String
+      description: The unique id of the CRMScript to execute
+    - id: eventData
+      type: SuperOffice.WebApi.Data.EventData
+      description: The EventData instance sent to the crmscript with input values
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.EventData}
+      description: The EventData instance after script execution with output values
+    content.vb: Public Function ExecuteScriptAsEventByUniqueIdAsync(cRMScriptUniqueId As String, eventData As EventData, requestOptions As RequestOptions = Nothing) As Task(Of EventData)
+  overload: SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptAsEventByUniqueIdAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -534,6 +655,42 @@ items:
       description: True of the syntax is correct
     content.vb: Public Function ValidateScriptByIncludeIdAsync(cRMScriptIncludeId As String, requestOptions As RequestOptions = Nothing) As Task(Of CRMScriptResult)
   overload: SuperOffice.WebApi.Agents.CRMScriptAgent.ValidateScriptByIncludeIdAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.CRMScriptAgent.ValidateScriptByUniqueIdAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.CRMScriptAgent.ValidateScriptByUniqueIdAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: ValidateScriptByUniqueIdAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: ValidateScriptByUniqueIdAsync(String, RequestOptions)
+  nameWithType: CRMScriptAgent.ValidateScriptByUniqueIdAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.CRMScriptAgent.ValidateScriptByUniqueIdAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nValidate a CRMScript. This will check that the syntax is correct\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: public Task<CRMScriptResult> ValidateScriptByUniqueIdAsync(string cRMScriptUniqueId, RequestOptions requestOptions = null)
+    parameters:
+    - id: cRMScriptUniqueId
+      type: System.String
+      description: The unique id of the CRMScript to validate
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CRMScriptResult}
+      description: True of the syntax is correct
+    content.vb: Public Function ValidateScriptByUniqueIdAsync(cRMScriptUniqueId As String, requestOptions As RequestOptions = Nothing) As Task(Of CRMScriptResult)
+  overload: SuperOffice.WebApi.Agents.CRMScriptAgent.ValidateScriptByUniqueIdAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1350,15 +1507,15 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: SendRequest(HttpRequestMessage)
-  nameWithType: AgentBase.SendRequest(HttpRequestMessage)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  name: SendRequest(HttpRequestMessage, RequestOptions)
+  nameWithType: AgentBase.SendRequest(HttpRequestMessage, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage, SuperOffice.WebApi.RequestOptions)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
     nameWithType: AgentBase.SendRequest
     fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
@@ -1370,12 +1527,20 @@ references:
     name: HttpRequestMessage
     nameWithType: HttpRequestMessage
     fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
     nameWithType: AgentBase.SendRequest
     fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
@@ -1387,6 +1552,14 @@ references:
     name: HttpRequestMessage
     nameWithType: HttpRequestMessage
     fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )
@@ -1903,6 +2076,74 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptByUniqueIdAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptByUniqueIdAsync
+  isExternal: true
+  name: ExecuteScriptByUniqueIdAsync
+  nameWithType: CRMScriptAgent.ExecuteScriptByUniqueIdAsync
+  fullName: SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptByUniqueIdAsync
+- uid: SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptAsEventAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptAsEventAsync
+  isExternal: true
+  name: ExecuteScriptAsEventAsync
+  nameWithType: CRMScriptAgent.ExecuteScriptAsEventAsync
+  fullName: SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptAsEventAsync
+- uid: SuperOffice.WebApi.Data.EventData
+  commentId: T:SuperOffice.WebApi.Data.EventData
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EventData
+  nameWithType: EventData
+  fullName: SuperOffice.WebApi.Data.EventData
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.EventData}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.EventData}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<EventData>
+  nameWithType: Task<EventData>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.EventData>
+  nameWithType.vb: Task(Of EventData)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.EventData)
+  name.vb: Task(Of EventData)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.EventData
+    name: EventData
+    nameWithType: EventData
+    fullName: SuperOffice.WebApi.Data.EventData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.EventData
+    name: EventData
+    nameWithType: EventData
+    fullName: SuperOffice.WebApi.Data.EventData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptAsEventByUniqueIdAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptAsEventByUniqueIdAsync
+  isExternal: true
+  name: ExecuteScriptAsEventByUniqueIdAsync
+  nameWithType: CRMScriptAgent.ExecuteScriptAsEventByUniqueIdAsync
+  fullName: SuperOffice.WebApi.Agents.CRMScriptAgent.ExecuteScriptAsEventByUniqueIdAsync
 - uid: SuperOffice.WebApi.Agents.CRMScriptAgent.ValidateScriptAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.CRMScriptAgent.ValidateScriptAsync
   isExternal: true
@@ -1958,6 +2199,12 @@ references:
   name: ValidateScriptByIncludeIdAsync
   nameWithType: CRMScriptAgent.ValidateScriptByIncludeIdAsync
   fullName: SuperOffice.WebApi.Agents.CRMScriptAgent.ValidateScriptByIncludeIdAsync
+- uid: SuperOffice.WebApi.Agents.CRMScriptAgent.ValidateScriptByUniqueIdAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.CRMScriptAgent.ValidateScriptByUniqueIdAsync
+  isExternal: true
+  name: ValidateScriptByUniqueIdAsync
+  nameWithType: CRMScriptAgent.ValidateScriptByUniqueIdAsync
+  fullName: SuperOffice.WebApi.Agents.CRMScriptAgent.ValidateScriptByUniqueIdAsync
 - uid: SuperOffice.WebApi.Agents.CRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.CRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync
   isExternal: true

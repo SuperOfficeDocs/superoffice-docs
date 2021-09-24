@@ -19,6 +19,7 @@ items:
   - SuperOffice.WebApi.Agents.ContactAgent
   - SuperOffice.WebApi.Agents.CRMScriptAgent
   - SuperOffice.WebApi.Agents.CustomerServiceAgent
+  - SuperOffice.WebApi.Agents.DashAgent
   - SuperOffice.WebApi.Agents.DashboardAgent
   - SuperOffice.WebApi.Agents.DatabaseAgent
   - SuperOffice.WebApi.Agents.DatabaseTableAgent
@@ -162,6 +163,12 @@ references:
   name: CustomerServiceAgent
   nameWithType: CustomerServiceAgent
   fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent
+- uid: SuperOffice.WebApi.Agents.DashAgent
+  commentId: T:SuperOffice.WebApi.Agents.DashAgent
+  isExternal: true
+  name: DashAgent
+  nameWithType: DashAgent
+  fullName: SuperOffice.WebApi.Agents.DashAgent
 - uid: SuperOffice.WebApi.Agents.DashboardAgent
   commentId: T:SuperOffice.WebApi.Agents.DashboardAgent
   isExternal: true

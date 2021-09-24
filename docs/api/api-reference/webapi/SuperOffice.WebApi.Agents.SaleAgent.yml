@@ -25,6 +25,8 @@ items:
   - SuperOffice.WebApi.Agents.SaleAgent.GetSaleEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SaleAgent.GetSaleListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SaleAgent.GetSalesByDateAsync(System.DateTime,System.DateTime,System.Int32,SuperOffice.WebApi.Data.SaleStatus,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.SaleAgent.GetSalesFromContactAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.SaleAgent.GetSalesFromPersonAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SaleAgent.GetSaleStakeholderAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SaleAgent.GetSaleStakeholderByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SaleAgent.GetSaleStakeholderListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -82,7 +84,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
   - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
-  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
@@ -1213,6 +1215,84 @@ items:
   - Public
   fullName.vb: SuperOffice.WebApi.Agents.SaleAgent.SetAsLostAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
   name.vb: SetAsLostAsync(Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.SaleAgent.GetSalesFromContactAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.SaleAgent.GetSalesFromContactAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: GetSalesFromContactAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSalesFromContactAsync(Int32, Boolean, RequestOptions)
+  nameWithType: SaleAgent.GetSalesFromContactAsync(Int32, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.SaleAgent.GetSalesFromContactAsync(System.Int32, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns all sales for the contact provided.\n"
+  syntax:
+    content: public Task<Sale[]> GetSalesFromContactAsync(int contactId, bool onlyOpenSales, RequestOptions requestOptions = null)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The ID of the contact whose sales we want.
+    - id: onlyOpenSales
+      type: System.Boolean
+      description: If true, only get open sales.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Sale[]}
+      description: List of sales matching query
+    content.vb: Public Function GetSalesFromContactAsync(contactId As Integer, onlyOpenSales As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of Sale())
+  overload: SuperOffice.WebApi.Agents.SaleAgent.GetSalesFromContactAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.SaleAgent.GetSalesFromPersonAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.SaleAgent.GetSalesFromPersonAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: GetSalesFromPersonAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSalesFromPersonAsync(Int32, Boolean, RequestOptions)
+  nameWithType: SaleAgent.GetSalesFromPersonAsync(Int32, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.SaleAgent.GetSalesFromPersonAsync(System.Int32, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns all sales for the person provided.\n"
+  syntax:
+    content: public Task<Sale[]> GetSalesFromPersonAsync(int personId, bool onlyOpenSales, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The ID of the person whose sales we want.
+    - id: onlyOpenSales
+      type: System.Boolean
+      description: If true, only get open sales.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Sale[]}
+      description: List of sales matching query
+    content.vb: Public Function GetSalesFromPersonAsync(personId As Integer, onlyOpenSales As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of Sale())
+  overload: SuperOffice.WebApi.Agents.SaleAgent.GetSalesFromPersonAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Agents.SaleAgent.GetSaleStakeholderAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.SaleAgent.GetSaleStakeholderAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetSaleStakeholderAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -1992,15 +2072,15 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: SendRequest(HttpRequestMessage)
-  nameWithType: AgentBase.SendRequest(HttpRequestMessage)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  name: SendRequest(HttpRequestMessage, RequestOptions)
+  nameWithType: AgentBase.SendRequest(HttpRequestMessage, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage, SuperOffice.WebApi.RequestOptions)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
     nameWithType: AgentBase.SendRequest
     fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
@@ -2012,12 +2092,20 @@ references:
     name: HttpRequestMessage
     nameWithType: HttpRequestMessage
     fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
     nameWithType: AgentBase.SendRequest
     fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
@@ -2029,6 +2117,14 @@ references:
     name: HttpRequestMessage
     nameWithType: HttpRequestMessage
     fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )
@@ -2993,6 +3089,18 @@ references:
   name: SetAsLostAsync
   nameWithType: SaleAgent.SetAsLostAsync
   fullName: SuperOffice.WebApi.Agents.SaleAgent.SetAsLostAsync
+- uid: SuperOffice.WebApi.Agents.SaleAgent.GetSalesFromContactAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.SaleAgent.GetSalesFromContactAsync
+  isExternal: true
+  name: GetSalesFromContactAsync
+  nameWithType: SaleAgent.GetSalesFromContactAsync
+  fullName: SuperOffice.WebApi.Agents.SaleAgent.GetSalesFromContactAsync
+- uid: SuperOffice.WebApi.Agents.SaleAgent.GetSalesFromPersonAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.SaleAgent.GetSalesFromPersonAsync
+  isExternal: true
+  name: GetSalesFromPersonAsync
+  nameWithType: SaleAgent.GetSalesFromPersonAsync
+  fullName: SuperOffice.WebApi.Agents.SaleAgent.GetSalesFromPersonAsync
 - uid: SuperOffice.WebApi.Agents.SaleAgent.GetSaleStakeholderAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.SaleAgent.GetSaleStakeholderAsync
   isExternal: true

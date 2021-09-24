@@ -33,6 +33,7 @@ items:
   - SuperOffice.WebApi.Agents.DocumentAgent.GetDocumentAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DocumentAgent.GetDocumentCommandsAsync(System.Int32,System.String[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DocumentAgent.GetDocumentEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.DocumentAgent.GetDocumentLengthAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DocumentAgent.GetDocumentListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DocumentAgent.GetDocumentPropertiesAsync(System.Int32,System.String[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DocumentAgent.GetDocumentsByTemplateHeadingAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -128,7 +129,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
   - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
-  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
@@ -2584,6 +2585,45 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.WebApi.Agents.DocumentAgent.GetDocumentLengthAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.DocumentAgent.GetDocumentLengthAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetDocumentLengthAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.DocumentAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentLengthAsync(Int32, String, RequestOptions)
+  nameWithType: DocumentAgent.GetDocumentLengthAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.DocumentAgent.GetDocumentLengthAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet length of the document content in bytes.\n"
+  syntax:
+    content: public Task<long> GetDocumentLengthAsync(int documentId, string versionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: documentId
+      type: System.Int32
+      description: SuperOffice document id
+    - id: versionId
+      type: System.String
+      description: Version ID if applicable; a blank value implies &quot;latest&quot; version and is always acceptable.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Int64}
+      description: The length of the document content in bytes.
+    content.vb: Public Function GetDocumentLengthAsync(documentId As Integer, versionId As String, requestOptions As RequestOptions = Nothing) As Task(Of Long)
+  overload: SuperOffice.WebApi.Agents.DocumentAgent.GetDocumentLengthAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Agents.DocumentAgent.GetDocumentListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.DocumentAgent.GetDocumentListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: GetDocumentListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -4305,15 +4345,15 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: SendRequest(HttpRequestMessage)
-  nameWithType: AgentBase.SendRequest(HttpRequestMessage)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  name: SendRequest(HttpRequestMessage, RequestOptions)
+  nameWithType: AgentBase.SendRequest(HttpRequestMessage, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage, SuperOffice.WebApi.RequestOptions)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
     nameWithType: AgentBase.SendRequest
     fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
@@ -4325,12 +4365,20 @@ references:
     name: HttpRequestMessage
     nameWithType: HttpRequestMessage
     fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
     nameWithType: AgentBase.SendRequest
     fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
@@ -4342,6 +4390,14 @@ references:
     name: HttpRequestMessage
     nameWithType: HttpRequestMessage
     fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )
@@ -5698,6 +5754,55 @@ references:
   name: ValidateDocumentEntityAsync
   nameWithType: DocumentAgent.ValidateDocumentEntityAsync
   fullName: SuperOffice.WebApi.Agents.DocumentAgent.ValidateDocumentEntityAsync
+- uid: SuperOffice.WebApi.Agents.DocumentAgent.GetDocumentLengthAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.DocumentAgent.GetDocumentLengthAsync
+  isExternal: true
+  name: GetDocumentLengthAsync
+  nameWithType: DocumentAgent.GetDocumentLengthAsync
+  fullName: SuperOffice.WebApi.Agents.DocumentAgent.GetDocumentLengthAsync
+- uid: System.Threading.Tasks.Task{System.Int64}
+  commentId: '!:System.Threading.Tasks.Task{System.Int64}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int64>
+  nameWithType: Task<Int64>
+  fullName: System.Threading.Tasks.Task<System.Int64>
+  nameWithType.vb: Task(Of Int64)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int64)
+  name.vb: Task(Of Int64)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.DocumentAgent.GetDocumentListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DocumentAgent.GetDocumentListAsync
   isExternal: true

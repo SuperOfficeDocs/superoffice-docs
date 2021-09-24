@@ -28,6 +28,7 @@ items:
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.DeleteAfterArchive
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.DiarySynchronizerActive
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.EmailBounceThreshold
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.EnableContextualProjectsAndSalesForContact
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.EnableMailSync
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.FirstMailSync
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.FontColor
@@ -2307,6 +2308,35 @@ items:
     return:
       type: System.String
     content.vb: Public Const NotifyWhenNewMail As String = "NotifyWhenNewMail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.EnableContextualProjectsAndSalesForContact
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.EnableContextualProjectsAndSalesForContact
+  id: EnableContextualProjectsAndSalesForContact
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: EnableContextualProjectsAndSalesForContact
+  nameWithType: UserPreferenceStrings.Mail.EnableContextualProjectsAndSalesForContact
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.EnableContextualProjectsAndSalesForContact
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnables showing only projects and sales belonging to the currently selected company/contact\nin the document dialog. Currently only supported in SuperOffice for Outlook.\n"
+  syntax:
+    content: public const string EnableContextualProjectsAndSalesForContact = "EnableContextualProjectsAndSalesForContact"
+    return:
+      type: System.String
+    content.vb: Public Const EnableContextualProjectsAndSalesForContact As String = "EnableContextualProjectsAndSalesForContact"
   modifiers.csharp:
   - public
   - const

@@ -734,7 +734,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nUsed to store additional information for the delivery systems.\n\n"
+  summary: "\nUsed to store additional information for the delivery systems. \n"
   syntax:
     content: public virtual string ExtraInfo { get; set; }
     parameters: []

@@ -19,7 +19,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for Configuration.\nThis service support fetching of client interface configuration data.\n&lt;para/>\nClient configuration data include Application configuration, which defines how an application is composed out of pages; and page configuration that defines how a page is built out of panels, cards, views and controls.\n&lt;para/>\nSeparate access points also exist for fetching object mappings and filter lists.    \n"
+  summary: "\nCarrier object for Configuration.\nThis service supports fetching of client interface configuration data. Client configuration data include Application configuration, which defines how an application is composed out of pages; and page configuration that defines how a page is built out of panels, cards, views and controls. &lt;para/> Separate access points also exist for fetching object mappings and filter lists.    \n"
   syntax:
     content: 'public class Configuration : Carrier'
     content.vb: >-

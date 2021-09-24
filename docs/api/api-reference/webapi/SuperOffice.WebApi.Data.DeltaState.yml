@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DeltaState
+  commentId: T:SuperOffice.WebApi.Data.DeltaState
+  id: DeltaState
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DeltaState.Draft
+  - SuperOffice.WebApi.Data.DeltaState.Published
+  - SuperOffice.WebApi.Data.DeltaState.Unknown
+  - SuperOffice.WebApi.Data.DeltaState.value__
+  langs:
+  - csharp
+  - vb
+  name: DeltaState
+  nameWithType: DeltaState
+  fullName: SuperOffice.WebApi.Data.DeltaState
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nState of delta\nThis Enum is used by:  ConfigurableScreenDelta.deltaState\n"
+  syntax:
+    content: 'public sealed class DeltaState : Enum'
+    content.vb: >-
+      Public NotInheritable Class DeltaState
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.DeltaState.value__
+  commentId: F:SuperOffice.WebApi.Data.DeltaState.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.DeltaState
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DeltaState.value__
+  fullName: SuperOffice.WebApi.Data.DeltaState.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DeltaState.Unknown
+  commentId: F:SuperOffice.WebApi.Data.DeltaState.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.DeltaState
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: DeltaState.Unknown
+  fullName: SuperOffice.WebApi.Data.DeltaState.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: No state applicable for this delta, or not yet decided\n"
+  syntax:
+    content: public const DeltaState Unknown
+    return:
+      type: SuperOffice.WebApi.Data.DeltaState
+    content.vb: Public Const Unknown As DeltaState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DeltaState.Draft
+  commentId: F:SuperOffice.WebApi.Data.DeltaState.Draft
+  id: Draft
+  parent: SuperOffice.WebApi.Data.DeltaState
+  langs:
+  - csharp
+  - vb
+  name: Draft
+  nameWithType: DeltaState.Draft
+  fullName: SuperOffice.WebApi.Data.DeltaState.Draft
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Draft\n"
+  syntax:
+    content: public const DeltaState Draft
+    return:
+      type: SuperOffice.WebApi.Data.DeltaState
+    content.vb: Public Const Draft As DeltaState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DeltaState.Published
+  commentId: F:SuperOffice.WebApi.Data.DeltaState.Published
+  id: Published
+  parent: SuperOffice.WebApi.Data.DeltaState
+  langs:
+  - csharp
+  - vb
+  name: Published
+  nameWithType: DeltaState.Published
+  fullName: SuperOffice.WebApi.Data.DeltaState.Published
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Published\n"
+  syntax:
+    content: public const DeltaState Published
+    return:
+      type: SuperOffice.WebApi.Data.DeltaState
+    content.vb: Public Const Published As DeltaState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.DeltaState
+  commentId: T:SuperOffice.WebApi.Data.DeltaState
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DeltaState
+  nameWithType: DeltaState
+  fullName: SuperOffice.WebApi.Data.DeltaState

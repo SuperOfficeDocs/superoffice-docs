@@ -1,0 +1,677 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+  commentId: T:SuperOffice.WebApi.Data.ConfigurableScreenDelta
+  id: ConfigurableScreenDelta
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ConfigurableScreenDelta.#ctor
+  - SuperOffice.WebApi.Data.ConfigurableScreenDelta.ConfigurableScreenDeltaId
+  - SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaJson
+  - SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState
+  - SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState_String
+  - SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaType
+  - SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaType_String
+  - SuperOffice.WebApi.Data.ConfigurableScreenDelta.Description
+  - SuperOffice.WebApi.Data.ConfigurableScreenDelta.Name
+  - SuperOffice.WebApi.Data.ConfigurableScreenDelta.RecipeId
+  - SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupId
+  langs:
+  - csharp
+  - vb
+  name: ConfigurableScreenDelta
+  nameWithType: ConfigurableScreenDelta
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ConfigurableScreenDelta.\nConfigurable Screen Delta represents a list of changes to a SCIL recipe.    \n"
+  example:
+  - "\nGet ConfigurableScreenDelta 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ConfigurationAgent(configuration);\nvar configurableScreenDelta = agent.GetConfigurableScreenDelta( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class ConfigurableScreenDelta : Carrier'
+    content.vb: >-
+      Public Class ConfigurableScreenDelta
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ConfigurationAgent
+    commentId: T:SuperOffice.WebApi.Agents.ConfigurationAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ConfigurableScreenDelta.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+  langs:
+  - csharp
+  - vb
+  name: ConfigurableScreenDelta()
+  nameWithType: ConfigurableScreenDelta.ConfigurableScreenDelta()
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.ConfigurableScreenDelta()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ConfigurableScreenDelta()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ConfigurableScreenDelta.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.ConfigurableScreenDeltaId
+  commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.ConfigurableScreenDeltaId
+  id: ConfigurableScreenDeltaId
+  parent: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+  langs:
+  - csharp
+  - vb
+  name: ConfigurableScreenDeltaId
+  nameWithType: ConfigurableScreenDelta.ConfigurableScreenDeltaId
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.ConfigurableScreenDeltaId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe delta database id\n"
+  syntax:
+    content: public virtual int ConfigurableScreenDeltaId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ConfigurableScreenDeltaId As Integer
+  overload: SuperOffice.WebApi.Data.ConfigurableScreenDelta.ConfigurableScreenDeltaId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.Name
+  commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ConfigurableScreenDelta.Name
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the delta\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.ConfigurableScreenDelta.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.Description
+  commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: ConfigurableScreenDelta.Description
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe description of the delta\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.ConfigurableScreenDelta.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaJson
+  commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaJson
+  id: DeltaJson
+  parent: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+  langs:
+  - csharp
+  - vb
+  name: DeltaJson
+  nameWithType: ConfigurableScreenDelta.DeltaJson
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaJson
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe delta as a JSON\n"
+  syntax:
+    content: public virtual string DeltaJson { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DeltaJson As String
+  overload: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaJson*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaType_String
+  commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaType_String
+  id: DeltaType_String
+  parent: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+  langs:
+  - csharp
+  - vb
+  name: DeltaType_String
+  nameWithType: ConfigurableScreenDelta.DeltaType_String
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe delta type, like webpanel, udef, system\nRaw string enum value.\n"
+  syntax:
+    content: public string DeltaType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DeltaType_String As String
+  overload: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaType
+    commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaType
+  commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaType
+  id: DeltaType
+  parent: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+  langs:
+  - csharp
+  - vb
+  name: DeltaType
+  nameWithType: ConfigurableScreenDelta.DeltaType
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe delta type, like webpanel, udef, system\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<DeltaType> DeltaType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.DeltaType}
+    content.vb: Public Property DeltaType As Nullable(Of DeltaType)
+  overload: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaType_String
+    commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState_String
+  commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState_String
+  id: DeltaState_String
+  parent: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+  langs:
+  - csharp
+  - vb
+  name: DeltaState_String
+  nameWithType: ConfigurableScreenDelta.DeltaState_String
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe delta state, like draft, published\nRaw string enum value.\n"
+  syntax:
+    content: public string DeltaState_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DeltaState_String As String
+  overload: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState
+    commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState
+  commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState
+  id: DeltaState
+  parent: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+  langs:
+  - csharp
+  - vb
+  name: DeltaState
+  nameWithType: ConfigurableScreenDelta.DeltaState
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe delta state, like draft, published\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<DeltaState> DeltaState { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.DeltaState}
+    content.vb: Public Property DeltaState As Nullable(Of DeltaState)
+  overload: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState_String
+    commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.RecipeId
+  commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.RecipeId
+  id: RecipeId
+  parent: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+  langs:
+  - csharp
+  - vb
+  name: RecipeId
+  nameWithType: ConfigurableScreenDelta.RecipeId
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.RecipeId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName to identify the recipe that the deltas will modify\n"
+  syntax:
+    content: public virtual string RecipeId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RecipeId As String
+  overload: SuperOffice.WebApi.Data.ConfigurableScreenDelta.RecipeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupId
+  commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupId
+  id: UserGroupId
+  parent: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+  langs:
+  - csharp
+  - vb
+  name: UserGroupId
+  nameWithType: ConfigurableScreenDelta.UserGroupId
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMembers of this usergroup will have this delta applied to their resulting ui\n"
+  syntax:
+    content: public virtual int UserGroupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UserGroupId As Integer
+  overload: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent
+  commentId: T:SuperOffice.WebApi.Agents.ConfigurationAgent
+  isExternal: true
+  name: ConfigurationAgent
+  nameWithType: ConfigurationAgent
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ConfigurableScreenDelta.#ctor
+  isExternal: true
+  name: ConfigurableScreenDelta
+  nameWithType: ConfigurableScreenDelta.ConfigurableScreenDelta
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.ConfigurableScreenDelta
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.ConfigurableScreenDeltaId*
+  commentId: Overload:SuperOffice.WebApi.Data.ConfigurableScreenDelta.ConfigurableScreenDeltaId
+  isExternal: true
+  name: ConfigurableScreenDeltaId
+  nameWithType: ConfigurableScreenDelta.ConfigurableScreenDeltaId
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.ConfigurableScreenDeltaId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.ConfigurableScreenDelta.Name
+  isExternal: true
+  name: Name
+  nameWithType: ConfigurableScreenDelta.Name
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.ConfigurableScreenDelta.Description
+  isExternal: true
+  name: Description
+  nameWithType: ConfigurableScreenDelta.Description
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.Description
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaJson*
+  commentId: Overload:SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaJson
+  isExternal: true
+  name: DeltaJson
+  nameWithType: ConfigurableScreenDelta.DeltaJson
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaJson
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaType_String
+  isExternal: true
+  name: DeltaType_String
+  nameWithType: ConfigurableScreenDelta.DeltaType_String
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaType_String
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaType
+  commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaType
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaType*
+  commentId: Overload:SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaType
+  isExternal: true
+  name: DeltaType
+  nameWithType: ConfigurableScreenDelta.DeltaType
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaType
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaType_String
+  commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.DeltaType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.DeltaType}'
+  definition: System.Nullable`1
+  name: Nullable<DeltaType>
+  nameWithType: Nullable<DeltaType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.DeltaType>
+  nameWithType.vb: Nullable(Of DeltaType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.DeltaType)
+  name.vb: Nullable(Of DeltaType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.DeltaType
+    name: DeltaType
+    nameWithType: DeltaType
+    fullName: SuperOffice.WebApi.Data.DeltaType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.DeltaType
+    name: DeltaType
+    nameWithType: DeltaType
+    fullName: SuperOffice.WebApi.Data.DeltaType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState_String
+  isExternal: true
+  name: DeltaState_String
+  nameWithType: ConfigurableScreenDelta.DeltaState_String
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState_String
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState
+  commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState*
+  commentId: Overload:SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState
+  isExternal: true
+  name: DeltaState
+  nameWithType: ConfigurableScreenDelta.DeltaState
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState_String
+  commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.DeltaState}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.DeltaState}'
+  definition: System.Nullable`1
+  name: Nullable<DeltaState>
+  nameWithType: Nullable<DeltaState>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.DeltaState>
+  nameWithType.vb: Nullable(Of DeltaState)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.DeltaState)
+  name.vb: Nullable(Of DeltaState)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.DeltaState
+    name: DeltaState
+    nameWithType: DeltaState
+    fullName: SuperOffice.WebApi.Data.DeltaState
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.DeltaState
+    name: DeltaState
+    nameWithType: DeltaState
+    fullName: SuperOffice.WebApi.Data.DeltaState
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.RecipeId*
+  commentId: Overload:SuperOffice.WebApi.Data.ConfigurableScreenDelta.RecipeId
+  isExternal: true
+  name: RecipeId
+  nameWithType: ConfigurableScreenDelta.RecipeId
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.RecipeId
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupId*
+  commentId: Overload:SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupId
+  isExternal: true
+  name: UserGroupId
+  nameWithType: ConfigurableScreenDelta.UserGroupId
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupId

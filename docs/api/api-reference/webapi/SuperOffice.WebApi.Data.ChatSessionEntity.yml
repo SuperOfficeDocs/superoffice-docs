@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.WebApi.Data.ChatSessionEntity.#ctor
   - SuperOffice.WebApi.Data.ChatSessionEntity.AlertLevel
+  - SuperOffice.WebApi.Data.ChatSessionEntity.ChatbotIsActive
   - SuperOffice.WebApi.Data.ChatSessionEntity.ChatSessionId
   - SuperOffice.WebApi.Data.ChatSessionEntity.Contact
   - SuperOffice.WebApi.Data.ChatSessionEntity.CustomerAlias
@@ -1134,6 +1135,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.ChatSessionEntity.ChatbotIsActive
+  commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.ChatbotIsActive
+  id: ChatbotIsActive
+  parent: SuperOffice.WebApi.Data.ChatSessionEntity
+  langs:
+  - csharp
+  - vb
+  name: ChatbotIsActive
+  nameWithType: ChatSessionEntity.ChatbotIsActive
+  fullName: SuperOffice.WebApi.Data.ChatSessionEntity.ChatbotIsActive
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIndicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user.\n"
+  syntax:
+    content: public virtual bool ChatbotIsActive { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property ChatbotIsActive As Boolean
+  overload: SuperOffice.WebApi.Data.ChatSessionEntity.ChatbotIsActive*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -1586,3 +1620,9 @@ references:
   name: TransferTo
   nameWithType: ChatSessionEntity.TransferTo
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.TransferTo
+- uid: SuperOffice.WebApi.Data.ChatSessionEntity.ChatbotIsActive*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.ChatbotIsActive
+  isExternal: true
+  name: ChatbotIsActive
+  nameWithType: ChatSessionEntity.ChatbotIsActive
+  fullName: SuperOffice.WebApi.Data.ChatSessionEntity.ChatbotIsActive

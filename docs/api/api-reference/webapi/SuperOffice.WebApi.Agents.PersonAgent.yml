@@ -9,6 +9,7 @@ items:
   - SuperOffice.WebApi.Agents.PersonAgent.#ctor(System.Net.Http.HttpClient)
   - SuperOffice.WebApi.Agents.PersonAgent.AddBounceAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.AddBounceWithCountAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.PersonAgent.AddBounceWithDetailsAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.AddEmailAddressToPersonAsync(System.Int32,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.ChangeCountryAsync(SuperOffice.WebApi.Data.PersonEntity,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.ChangePersonRankAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -24,6 +25,7 @@ items:
   - SuperOffice.WebApi.Agents.PersonAgent.DeleteTemporaryKeysOfDomainAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.GetAddressAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.GetAddressByCountryAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.PersonAgent.GetBestSoLanguageForTemplateAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.GetColleaguesAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.GetColleaguesByDepartmentAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.GetColleaguesBySourceAsync(SuperOffice.WebApi.Data.AssociateSourceType,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -94,7 +96,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
   - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
-  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
@@ -1599,6 +1601,89 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.WebApi.Agents.PersonAgent.GetBestSoLanguageForTemplateAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.PersonAgent.GetBestSoLanguageForTemplateAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetBestSoLanguageForTemplateAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.PersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBestSoLanguageForTemplateAsync(Int32, Int32, RequestOptions)
+  nameWithType: PersonAgent.GetBestSoLanguageForTemplateAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.PersonAgent.GetBestSoLanguageForTemplateAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the best language for this person on this template\n"
+  syntax:
+    content: public Task<string> GetBestSoLanguageForTemplateAsync(int personId, int templateId, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The id of the person
+    - id: templateId
+      type: System.Int32
+      description: The id of the template to find languages on
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: The solang code for best language, empty string if no best language found
+    content.vb: Public Function GetBestSoLanguageForTemplateAsync(personId As Integer, templateId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.PersonAgent.GetBestSoLanguageForTemplateAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.PersonAgent.AddBounceWithDetailsAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.PersonAgent.AddBounceWithDetailsAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: AddBounceWithDetailsAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.PersonAgent
+  langs:
+  - csharp
+  - vb
+  name: AddBounceWithDetailsAsync(String, Int32, Int32, String, RequestOptions)
+  nameWithType: PersonAgent.AddBounceWithDetailsAsync(String, Int32, Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.PersonAgent.AddBounceWithDetailsAsync(System.String, System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAdd a number of bounce counts on the email address if it exists, and with possible bounce code and reason\n"
+  syntax:
+    content: public Task AddBounceWithDetailsAsync(string emailAddress, int counts, int code, string reason, RequestOptions requestOptions = null)
+    parameters:
+    - id: emailAddress
+      type: System.String
+      description: The email address which we want to add bounce counts to
+    - id: counts
+      type: System.Int32
+      description: The number of bounce counts to add
+    - id: code
+      type: System.Int32
+      description: A numeric code representing the bounce reason
+    - id: reason
+      type: System.String
+      description: A textual tag representing the bounce reason
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function AddBounceWithDetailsAsync(emailAddress As String, counts As Integer, code As Integer, reason As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.PersonAgent.AddBounceWithDetailsAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Agents.PersonAgent.GetPersonListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.PersonAgent.GetPersonListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: GetPersonListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -2517,15 +2602,15 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: SendRequest(HttpRequestMessage)
-  nameWithType: AgentBase.SendRequest(HttpRequestMessage)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  name: SendRequest(HttpRequestMessage, RequestOptions)
+  nameWithType: AgentBase.SendRequest(HttpRequestMessage, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage, SuperOffice.WebApi.RequestOptions)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
     nameWithType: AgentBase.SendRequest
     fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
@@ -2537,12 +2622,20 @@ references:
     name: HttpRequestMessage
     nameWithType: HttpRequestMessage
     fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
     nameWithType: AgentBase.SendRequest
     fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
@@ -2554,6 +2647,14 @@ references:
     name: HttpRequestMessage
     nameWithType: HttpRequestMessage
     fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )
@@ -3750,6 +3851,18 @@ references:
   name: AddBounceWithCountAsync
   nameWithType: PersonAgent.AddBounceWithCountAsync
   fullName: SuperOffice.WebApi.Agents.PersonAgent.AddBounceWithCountAsync
+- uid: SuperOffice.WebApi.Agents.PersonAgent.GetBestSoLanguageForTemplateAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.PersonAgent.GetBestSoLanguageForTemplateAsync
+  isExternal: true
+  name: GetBestSoLanguageForTemplateAsync
+  nameWithType: PersonAgent.GetBestSoLanguageForTemplateAsync
+  fullName: SuperOffice.WebApi.Agents.PersonAgent.GetBestSoLanguageForTemplateAsync
+- uid: SuperOffice.WebApi.Agents.PersonAgent.AddBounceWithDetailsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.PersonAgent.AddBounceWithDetailsAsync
+  isExternal: true
+  name: AddBounceWithDetailsAsync
+  nameWithType: PersonAgent.AddBounceWithDetailsAsync
+  fullName: SuperOffice.WebApi.Agents.PersonAgent.AddBounceWithDetailsAsync
 - uid: SuperOffice.WebApi.Agents.PersonAgent.GetPersonListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.PersonAgent.GetPersonListAsync
   isExternal: true

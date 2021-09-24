@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CustomerService_GetFaqForCustomerRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomerService_GetFaqForCustomerRequest
+  id: CustomerService_GetFaqForCustomerRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CustomerService_GetFaqForCustomerRequest.#ctor
+  - SuperOffice.WebApi.Data.CustomerService_GetFaqForCustomerRequest.FaqEntryId
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_GetFaqForCustomerRequest
+  nameWithType: CustomerService_GetFaqForCustomerRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetFaqForCustomerRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class CustomerService_GetFaqForCustomerRequest : Object'
+    content.vb: >-
+      Public Class CustomerService_GetFaqForCustomerRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CustomerService_GetFaqForCustomerRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CustomerService_GetFaqForCustomerRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CustomerService_GetFaqForCustomerRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_GetFaqForCustomerRequest()
+  nameWithType: CustomerService_GetFaqForCustomerRequest.CustomerService_GetFaqForCustomerRequest()
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetFaqForCustomerRequest.CustomerService_GetFaqForCustomerRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CustomerService_GetFaqForCustomerRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CustomerService_GetFaqForCustomerRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_GetFaqForCustomerRequest.FaqEntryId
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_GetFaqForCustomerRequest.FaqEntryId
+  id: FaqEntryId
+  parent: SuperOffice.WebApi.Data.CustomerService_GetFaqForCustomerRequest
+  langs:
+  - csharp
+  - vb
+  name: FaqEntryId
+  nameWithType: CustomerService_GetFaqForCustomerRequest.FaqEntryId
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetFaqForCustomerRequest.FaqEntryId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int FaqEntryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FaqEntryId As Integer
+  overload: SuperOffice.WebApi.Data.CustomerService_GetFaqForCustomerRequest.FaqEntryId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CustomerService_GetFaqForCustomerRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_GetFaqForCustomerRequest.#ctor
+  isExternal: true
+  name: CustomerService_GetFaqForCustomerRequest
+  nameWithType: CustomerService_GetFaqForCustomerRequest.CustomerService_GetFaqForCustomerRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetFaqForCustomerRequest.CustomerService_GetFaqForCustomerRequest
+- uid: SuperOffice.WebApi.Data.CustomerService_GetFaqForCustomerRequest.FaqEntryId*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_GetFaqForCustomerRequest.FaqEntryId
+  isExternal: true
+  name: FaqEntryId
+  nameWithType: CustomerService_GetFaqForCustomerRequest.FaqEntryId
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetFaqForCustomerRequest.FaqEntryId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

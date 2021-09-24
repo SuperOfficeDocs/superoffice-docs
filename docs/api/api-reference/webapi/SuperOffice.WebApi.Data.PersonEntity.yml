@@ -8,6 +8,7 @@ items:
   - SuperOffice.WebApi.Data.PersonEntity.#ctor
   - SuperOffice.WebApi.Data.PersonEntity.ActiveErpLinks
   - SuperOffice.WebApi.Data.PersonEntity.ActiveInterests
+  - SuperOffice.WebApi.Data.PersonEntity.ActiveStatusMonitorId
   - SuperOffice.WebApi.Data.PersonEntity.Address
   - SuperOffice.WebApi.Data.PersonEntity.Associate
   - SuperOffice.WebApi.Data.PersonEntity.BirthDate
@@ -2097,6 +2098,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.ActiveStatusMonitorId
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.ActiveStatusMonitorId
+  id: ActiveStatusMonitorId
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: ActiveStatusMonitorId
+  nameWithType: PersonEntity.ActiveStatusMonitorId
+  fullName: SuperOffice.WebApi.Data.PersonEntity.ActiveStatusMonitorId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nActive status monitor identity with the lowest rank for person\n"
+  syntax:
+    content: public virtual int ActiveStatusMonitorId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ActiveStatusMonitorId As Integer
+  overload: SuperOffice.WebApi.Data.PersonEntity.ActiveStatusMonitorId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PersonEntity.UserDefinedFields
   commentId: P:SuperOffice.WebApi.Data.PersonEntity.UserDefinedFields
   id: UserDefinedFields
@@ -2821,6 +2855,12 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: SuperOffice.WebApi.Data.PersonEntity.ActiveStatusMonitorId*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.ActiveStatusMonitorId
+  isExternal: true
+  name: ActiveStatusMonitorId
+  nameWithType: PersonEntity.ActiveStatusMonitorId
+  fullName: SuperOffice.WebApi.Data.PersonEntity.ActiveStatusMonitorId
 - uid: SuperOffice.WebApi.Data.PersonEntity.UserDefinedFields*
   commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.UserDefinedFields
   isExternal: true

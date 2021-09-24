@@ -17,14 +17,12 @@ items:
   - SuperOffice.WebApi.Data.Ticket.CategoryName
   - SuperOffice.WebApi.Data.Ticket.ClosedAt
   - SuperOffice.WebApi.Data.Ticket.ConnectId
+  - SuperOffice.WebApi.Data.Ticket.ContactId
+  - SuperOffice.WebApi.Data.Ticket.ContactName
   - SuperOffice.WebApi.Data.Ticket.CreatedAt
   - SuperOffice.WebApi.Data.Ticket.CreatedBy
   - SuperOffice.WebApi.Data.Ticket.CreatedByName
-  - SuperOffice.WebApi.Data.Ticket.CustFirstname
-  - SuperOffice.WebApi.Data.Ticket.CustFullname
   - SuperOffice.WebApi.Data.Ticket.CustId
-  - SuperOffice.WebApi.Data.Ticket.CustLastname
-  - SuperOffice.WebApi.Data.Ticket.CustMiddleName
   - SuperOffice.WebApi.Data.Ticket.Deadline
   - SuperOffice.WebApi.Data.Ticket.FirstReadByUser
   - SuperOffice.WebApi.Data.Ticket.FromAddress
@@ -35,8 +33,14 @@ items:
   - SuperOffice.WebApi.Data.Ticket.Origin
   - SuperOffice.WebApi.Data.Ticket.Origin_String
   - SuperOffice.WebApi.Data.Ticket.OwnedBy
+  - SuperOffice.WebApi.Data.Ticket.OwnedByAssociateId
   - SuperOffice.WebApi.Data.Ticket.OwnedByName
+  - SuperOffice.WebApi.Data.Ticket.PersonFirstname
+  - SuperOffice.WebApi.Data.Ticket.PersonFullname
+  - SuperOffice.WebApi.Data.Ticket.PersonLastname
+  - SuperOffice.WebApi.Data.Ticket.PersonMiddleName
   - SuperOffice.WebApi.Data.Ticket.Priority
+  - SuperOffice.WebApi.Data.Ticket.PriorityName
   - SuperOffice.WebApi.Data.Ticket.ReadByCustomer
   - SuperOffice.WebApi.Data.Ticket.ReadByOwner
   - SuperOffice.WebApi.Data.Ticket.ReadStatus
@@ -881,6 +885,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.Ticket.PriorityName
+  commentId: P:SuperOffice.WebApi.Data.Ticket.PriorityName
+  id: PriorityName
+  parent: SuperOffice.WebApi.Data.Ticket
+  langs:
+  - csharp
+  - vb
+  name: PriorityName
+  nameWithType: Ticket.PriorityName
+  fullName: SuperOffice.WebApi.Data.Ticket.PriorityName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the priority.\n"
+  syntax:
+    content: public virtual string PriorityName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PriorityName As String
+  overload: SuperOffice.WebApi.Data.Ticket.PriorityName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.BaseStatus_String
   commentId: P:SuperOffice.WebApi.Data.Ticket.BaseStatus_String
   id: BaseStatus_String
@@ -974,6 +1011,39 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property TicketStatus As Integer
   overload: SuperOffice.WebApi.Data.Ticket.TicketStatus*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Ticket.TicketStatusDisplayValue
+  commentId: P:SuperOffice.WebApi.Data.Ticket.TicketStatusDisplayValue
+  id: TicketStatusDisplayValue
+  parent: SuperOffice.WebApi.Data.Ticket
+  langs:
+  - csharp
+  - vb
+  name: TicketStatusDisplayValue
+  nameWithType: Ticket.TicketStatusDisplayValue
+  fullName: SuperOffice.WebApi.Data.Ticket.TicketStatusDisplayValue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGet the display name of the ticket status.\n"
+  syntax:
+    content: public virtual string TicketStatusDisplayValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TicketStatusDisplayValue As String
+  overload: SuperOffice.WebApi.Data.Ticket.TicketStatusDisplayValue*
   modifiers.csharp:
   - public
   - virtual
@@ -1083,16 +1153,16 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.WebApi.Data.Ticket.CustFirstname
-  commentId: P:SuperOffice.WebApi.Data.Ticket.CustFirstname
-  id: CustFirstname
+- uid: SuperOffice.WebApi.Data.Ticket.PersonFirstname
+  commentId: P:SuperOffice.WebApi.Data.Ticket.PersonFirstname
+  id: PersonFirstname
   parent: SuperOffice.WebApi.Data.Ticket
   langs:
   - csharp
   - vb
-  name: CustFirstname
-  nameWithType: Ticket.CustFirstname
-  fullName: SuperOffice.WebApi.Data.Ticket.CustFirstname
+  name: PersonFirstname
+  nameWithType: Ticket.PersonFirstname
+  fullName: SuperOffice.WebApi.Data.Ticket.PersonFirstname
   type: Property
   source:
     path: SuperOffice.WebApi
@@ -1102,12 +1172,12 @@ items:
   namespace: SuperOffice.WebApi.Data
   summary: "\nFirst name\n"
   syntax:
-    content: public virtual string CustFirstname { get; set; }
+    content: public virtual string PersonFirstname { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property CustFirstname As String
-  overload: SuperOffice.WebApi.Data.Ticket.CustFirstname*
+    content.vb: Public Overridable Property PersonFirstname As String
+  overload: SuperOffice.WebApi.Data.Ticket.PersonFirstname*
   modifiers.csharp:
   - public
   - virtual
@@ -1116,16 +1186,16 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.WebApi.Data.Ticket.CustMiddleName
-  commentId: P:SuperOffice.WebApi.Data.Ticket.CustMiddleName
-  id: CustMiddleName
+- uid: SuperOffice.WebApi.Data.Ticket.PersonMiddleName
+  commentId: P:SuperOffice.WebApi.Data.Ticket.PersonMiddleName
+  id: PersonMiddleName
   parent: SuperOffice.WebApi.Data.Ticket
   langs:
   - csharp
   - vb
-  name: CustMiddleName
-  nameWithType: Ticket.CustMiddleName
-  fullName: SuperOffice.WebApi.Data.Ticket.CustMiddleName
+  name: PersonMiddleName
+  nameWithType: Ticket.PersonMiddleName
+  fullName: SuperOffice.WebApi.Data.Ticket.PersonMiddleName
   type: Property
   source:
     path: SuperOffice.WebApi
@@ -1135,12 +1205,12 @@ items:
   namespace: SuperOffice.WebApi.Data
   summary: "\nMiddle name or &apos;van&apos; etc.\n"
   syntax:
-    content: public virtual string CustMiddleName { get; set; }
+    content: public virtual string PersonMiddleName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property CustMiddleName As String
-  overload: SuperOffice.WebApi.Data.Ticket.CustMiddleName*
+    content.vb: Public Overridable Property PersonMiddleName As String
+  overload: SuperOffice.WebApi.Data.Ticket.PersonMiddleName*
   modifiers.csharp:
   - public
   - virtual
@@ -1149,16 +1219,16 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.WebApi.Data.Ticket.CustLastname
-  commentId: P:SuperOffice.WebApi.Data.Ticket.CustLastname
-  id: CustLastname
+- uid: SuperOffice.WebApi.Data.Ticket.PersonLastname
+  commentId: P:SuperOffice.WebApi.Data.Ticket.PersonLastname
+  id: PersonLastname
   parent: SuperOffice.WebApi.Data.Ticket
   langs:
   - csharp
   - vb
-  name: CustLastname
-  nameWithType: Ticket.CustLastname
-  fullName: SuperOffice.WebApi.Data.Ticket.CustLastname
+  name: PersonLastname
+  nameWithType: Ticket.PersonLastname
+  fullName: SuperOffice.WebApi.Data.Ticket.PersonLastname
   type: Property
   source:
     path: SuperOffice.WebApi
@@ -1168,12 +1238,45 @@ items:
   namespace: SuperOffice.WebApi.Data
   summary: "\nLast name\n"
   syntax:
-    content: public virtual string CustLastname { get; set; }
+    content: public virtual string PersonLastname { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property CustLastname As String
-  overload: SuperOffice.WebApi.Data.Ticket.CustLastname*
+    content.vb: Public Overridable Property PersonLastname As String
+  overload: SuperOffice.WebApi.Data.Ticket.PersonLastname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Ticket.PersonFullname
+  commentId: P:SuperOffice.WebApi.Data.Ticket.PersonFullname
+  id: PersonFullname
+  parent: SuperOffice.WebApi.Data.Ticket
+  langs:
+  - csharp
+  - vb
+  name: PersonFullname
+  nameWithType: Ticket.PersonFullname
+  fullName: SuperOffice.WebApi.Data.Ticket.PersonFullname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGet the full name for the primary person (customer)\n"
+  syntax:
+    content: public virtual string PersonFullname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonFullname As String
+  overload: SuperOffice.WebApi.Data.Ticket.PersonFullname*
   modifiers.csharp:
   - public
   - virtual
@@ -1778,16 +1881,16 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.WebApi.Data.Ticket.CustFullname
-  commentId: P:SuperOffice.WebApi.Data.Ticket.CustFullname
-  id: CustFullname
+- uid: SuperOffice.WebApi.Data.Ticket.ContactId
+  commentId: P:SuperOffice.WebApi.Data.Ticket.ContactId
+  id: ContactId
   parent: SuperOffice.WebApi.Data.Ticket
   langs:
   - csharp
   - vb
-  name: CustFullname
-  nameWithType: Ticket.CustFullname
-  fullName: SuperOffice.WebApi.Data.Ticket.CustFullname
+  name: ContactId
+  nameWithType: Ticket.ContactId
+  fullName: SuperOffice.WebApi.Data.Ticket.ContactId
   type: Property
   source:
     path: SuperOffice.WebApi
@@ -1795,14 +1898,14 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nGet the full name for the primary customer\n"
+  summary: "\nThe company of the person in the cust_id field, if that person belongs to a company\n"
   syntax:
-    content: public virtual string CustFullname { get; set; }
+    content: public virtual int ContactId { get; set; }
     parameters: []
     return:
-      type: System.String
-    content.vb: Public Overridable Property CustFullname As String
-  overload: SuperOffice.WebApi.Data.Ticket.CustFullname*
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.Ticket.ContactId*
   modifiers.csharp:
   - public
   - virtual
@@ -1811,16 +1914,16 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.WebApi.Data.Ticket.TicketStatusDisplayValue
-  commentId: P:SuperOffice.WebApi.Data.Ticket.TicketStatusDisplayValue
-  id: TicketStatusDisplayValue
+- uid: SuperOffice.WebApi.Data.Ticket.ContactName
+  commentId: P:SuperOffice.WebApi.Data.Ticket.ContactName
+  id: ContactName
   parent: SuperOffice.WebApi.Data.Ticket
   langs:
   - csharp
   - vb
-  name: TicketStatusDisplayValue
-  nameWithType: Ticket.TicketStatusDisplayValue
-  fullName: SuperOffice.WebApi.Data.Ticket.TicketStatusDisplayValue
+  name: ContactName
+  nameWithType: Ticket.ContactName
+  fullName: SuperOffice.WebApi.Data.Ticket.ContactName
   type: Property
   source:
     path: SuperOffice.WebApi
@@ -1828,14 +1931,47 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nGet the display name of the ticket status.\n"
+  summary: "\nThe name of the connected contact\n"
   syntax:
-    content: public virtual string TicketStatusDisplayValue { get; set; }
+    content: public virtual string ContactName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property TicketStatusDisplayValue As String
-  overload: SuperOffice.WebApi.Data.Ticket.TicketStatusDisplayValue*
+    content.vb: Public Overridable Property ContactName As String
+  overload: SuperOffice.WebApi.Data.Ticket.ContactName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Ticket.OwnedByAssociateId
+  commentId: P:SuperOffice.WebApi.Data.Ticket.OwnedByAssociateId
+  id: OwnedByAssociateId
+  parent: SuperOffice.WebApi.Data.Ticket
+  langs:
+  - csharp
+  - vb
+  name: OwnedByAssociateId
+  nameWithType: Ticket.OwnedByAssociateId
+  fullName: SuperOffice.WebApi.Data.Ticket.OwnedByAssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe associate id of the owner of the ticket.\n"
+  syntax:
+    content: public virtual int OwnedByAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property OwnedByAssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Ticket.OwnedByAssociateId*
   modifiers.csharp:
   - public
   - virtual
@@ -2141,6 +2277,12 @@ references:
   name: Priority
   nameWithType: Ticket.Priority
   fullName: SuperOffice.WebApi.Data.Ticket.Priority
+- uid: SuperOffice.WebApi.Data.Ticket.PriorityName*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket.PriorityName
+  isExternal: true
+  name: PriorityName
+  nameWithType: Ticket.PriorityName
+  fullName: SuperOffice.WebApi.Data.Ticket.PriorityName
 - uid: SuperOffice.WebApi.Data.Ticket.BaseStatus_String*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.BaseStatus_String
   isExternal: true
@@ -2208,6 +2350,12 @@ references:
   name: TicketStatus
   nameWithType: Ticket.TicketStatus
   fullName: SuperOffice.WebApi.Data.Ticket.TicketStatus
+- uid: SuperOffice.WebApi.Data.Ticket.TicketStatusDisplayValue*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket.TicketStatusDisplayValue
+  isExternal: true
+  name: TicketStatusDisplayValue
+  nameWithType: Ticket.TicketStatusDisplayValue
+  fullName: SuperOffice.WebApi.Data.Ticket.TicketStatusDisplayValue
 - uid: SuperOffice.WebApi.Data.Ticket.Origin_String*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.Origin_String
   isExternal: true
@@ -2275,24 +2423,30 @@ references:
   name: CustId
   nameWithType: Ticket.CustId
   fullName: SuperOffice.WebApi.Data.Ticket.CustId
-- uid: SuperOffice.WebApi.Data.Ticket.CustFirstname*
-  commentId: Overload:SuperOffice.WebApi.Data.Ticket.CustFirstname
+- uid: SuperOffice.WebApi.Data.Ticket.PersonFirstname*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket.PersonFirstname
   isExternal: true
-  name: CustFirstname
-  nameWithType: Ticket.CustFirstname
-  fullName: SuperOffice.WebApi.Data.Ticket.CustFirstname
-- uid: SuperOffice.WebApi.Data.Ticket.CustMiddleName*
-  commentId: Overload:SuperOffice.WebApi.Data.Ticket.CustMiddleName
+  name: PersonFirstname
+  nameWithType: Ticket.PersonFirstname
+  fullName: SuperOffice.WebApi.Data.Ticket.PersonFirstname
+- uid: SuperOffice.WebApi.Data.Ticket.PersonMiddleName*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket.PersonMiddleName
   isExternal: true
-  name: CustMiddleName
-  nameWithType: Ticket.CustMiddleName
-  fullName: SuperOffice.WebApi.Data.Ticket.CustMiddleName
-- uid: SuperOffice.WebApi.Data.Ticket.CustLastname*
-  commentId: Overload:SuperOffice.WebApi.Data.Ticket.CustLastname
+  name: PersonMiddleName
+  nameWithType: Ticket.PersonMiddleName
+  fullName: SuperOffice.WebApi.Data.Ticket.PersonMiddleName
+- uid: SuperOffice.WebApi.Data.Ticket.PersonLastname*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket.PersonLastname
   isExternal: true
-  name: CustLastname
-  nameWithType: Ticket.CustLastname
-  fullName: SuperOffice.WebApi.Data.Ticket.CustLastname
+  name: PersonLastname
+  nameWithType: Ticket.PersonLastname
+  fullName: SuperOffice.WebApi.Data.Ticket.PersonLastname
+- uid: SuperOffice.WebApi.Data.Ticket.PersonFullname*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket.PersonFullname
+  isExternal: true
+  name: PersonFullname
+  nameWithType: Ticket.PersonFullname
+  fullName: SuperOffice.WebApi.Data.Ticket.PersonFullname
 - uid: SuperOffice.WebApi.Data.Ticket.AlertLevel*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.AlertLevel
   isExternal: true
@@ -2464,15 +2618,21 @@ references:
   name: FromAddress
   nameWithType: Ticket.FromAddress
   fullName: SuperOffice.WebApi.Data.Ticket.FromAddress
-- uid: SuperOffice.WebApi.Data.Ticket.CustFullname*
-  commentId: Overload:SuperOffice.WebApi.Data.Ticket.CustFullname
+- uid: SuperOffice.WebApi.Data.Ticket.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket.ContactId
   isExternal: true
-  name: CustFullname
-  nameWithType: Ticket.CustFullname
-  fullName: SuperOffice.WebApi.Data.Ticket.CustFullname
-- uid: SuperOffice.WebApi.Data.Ticket.TicketStatusDisplayValue*
-  commentId: Overload:SuperOffice.WebApi.Data.Ticket.TicketStatusDisplayValue
+  name: ContactId
+  nameWithType: Ticket.ContactId
+  fullName: SuperOffice.WebApi.Data.Ticket.ContactId
+- uid: SuperOffice.WebApi.Data.Ticket.ContactName*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket.ContactName
   isExternal: true
-  name: TicketStatusDisplayValue
-  nameWithType: Ticket.TicketStatusDisplayValue
-  fullName: SuperOffice.WebApi.Data.Ticket.TicketStatusDisplayValue
+  name: ContactName
+  nameWithType: Ticket.ContactName
+  fullName: SuperOffice.WebApi.Data.Ticket.ContactName
+- uid: SuperOffice.WebApi.Data.Ticket.OwnedByAssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket.OwnedByAssociateId
+  isExternal: true
+  name: OwnedByAssociateId
+  nameWithType: Ticket.OwnedByAssociateId
+  fullName: SuperOffice.WebApi.Data.Ticket.OwnedByAssociateId

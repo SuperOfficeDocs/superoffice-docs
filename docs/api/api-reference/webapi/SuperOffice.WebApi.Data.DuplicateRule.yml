@@ -84,7 +84,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIdentifying name for rule\n\n"
+  summary: "\nIdentifying name for rule \n"
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []

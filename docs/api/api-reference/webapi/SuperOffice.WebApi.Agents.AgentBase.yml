@@ -24,7 +24,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ProgressListener
-  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   langs:
@@ -65,6 +65,7 @@ items:
   - SuperOffice.WebApi.Agents.ContactAgent
   - SuperOffice.WebApi.Agents.CRMScriptAgent
   - SuperOffice.WebApi.Agents.CustomerServiceAgent
+  - SuperOffice.WebApi.Agents.DashAgent
   - SuperOffice.WebApi.Agents.DashboardAgent
   - SuperOffice.WebApi.Agents.DatabaseAgent
   - SuperOffice.WebApi.Agents.DatabaseTableAgent
@@ -488,16 +489,16 @@ items:
   - protected
   modifiers.vb:
   - Protected
-- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
-  id: SendRequest(System.Net.Http.HttpRequestMessage)
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
+  id: SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
   langs:
   - csharp
   - vb
-  name: SendRequest(HttpRequestMessage)
-  nameWithType: AgentBase.SendRequest(HttpRequestMessage)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  name: SendRequest(HttpRequestMessage, RequestOptions)
+  nameWithType: AgentBase.SendRequest(HttpRequestMessage, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage, SuperOffice.WebApi.RequestOptions)
   type: Method
   source:
     path: SuperOffice.WebApi
@@ -507,15 +508,17 @@ items:
   namespace: SuperOffice.WebApi.Agents
   summary: "\nSend request, and throw error exception if not OK.\n"
   syntax:
-    content: protected Task<HttpResponseMessage> SendRequest(HttpRequestMessage request)
+    content: protected Task<HttpResponseMessage> SendRequest(HttpRequestMessage request, RequestOptions config)
     parameters:
     - id: request
       type: System.Net.Http.HttpRequestMessage
       description: HTTP Request object
+    - id: config
+      type: SuperOffice.WebApi.RequestOptions
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
       description: HTTP Response message with headers read
-    content.vb: Protected Function SendRequest(request As HttpRequestMessage) As Task(Of HttpResponseMessage)
+    content.vb: Protected Function SendRequest(request As HttpRequestMessage, config As RequestOptions) As Task(Of HttpResponseMessage)
   overload: SuperOffice.WebApi.Agents.AgentBase.SendRequest*
   exceptions:
   - type: System.Threading.Tasks.TaskCanceledException

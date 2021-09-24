@@ -13,6 +13,7 @@ items:
   - SuperOffice.WebApi.Agents.UserAgent.ChangePasswordAsync(System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.ChangePasswordFromNameAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.ChangeUserTypeAsync(SuperOffice.WebApi.Data.User,SuperOffice.WebApi.Data.UserType,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.UserAgent.CheckAccessGatewayRegistrationAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.CreateDefaultRoleEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.CreateDefaultRoleEntityFromTypeAsync(SuperOffice.WebApi.Data.RoleType,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.CreateDefaultServiceAuthAsync(SuperOffice.WebApi.RequestOptions)
@@ -23,6 +24,7 @@ items:
   - SuperOffice.WebApi.Agents.UserAgent.CreateDefaultUserFromUserTypeAsync(SuperOffice.WebApi.Data.UserType,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.CreateExternalUserAsync(System.Int32,System.String,System.String,System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.CreateUserGroupAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.UserAgent.DecryptAndSaveExternalTokensAsync(SuperOffice.WebApi.Data.TokenManagementInfo,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.DeleteCredentialAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.DeleteExternalUserAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.DeleteRoleAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -37,6 +39,7 @@ items:
   - SuperOffice.WebApi.Agents.UserAgent.FindRolesWithFunctionalRightsAsync(System.String[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.FindRolesWithoutFunctionalRightsAsync(System.String[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.GenerateNewPasswordForExternalUserAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.UserAgent.GetAccessGatewayInfoAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.GetAccessTokenAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.GetAllFunctionalRightsAsync(SuperOffice.WebApi.Data.RoleType,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.GetAllRolesAsync(SuperOffice.WebApi.Data.RoleType,SuperOffice.WebApi.RequestOptions)
@@ -49,7 +52,9 @@ items:
   - SuperOffice.WebApi.Agents.UserAgent.GetDataRightAsync(System.Int32,System.String,SuperOffice.WebApi.Data.RoleRelationToOwner,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.GetDataRightsAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.GetDefaultAssociateUserNameAsync(SuperOffice.WebApi.Data.User,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.UserAgent.GetExternalTokensAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.GetFunctionalRightsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.UserAgent.GetOrRegisterAccessGatewayInfoAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.GetRoleAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.GetRoleEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.GetServiceAuthAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -72,12 +77,14 @@ items:
   - SuperOffice.WebApi.Agents.UserAgent.IsUserNameValidAsync(System.Int32,SuperOffice.WebApi.Data.UserType,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.IsUserNameValidWithReasonAsync(System.Int32,SuperOffice.WebApi.Data.UserType,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.MakeRetiredAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.UserAgent.RegisterWithAccessGatewayAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.RemoveLicensesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.RemoveOwnerContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.RemoveUntrustedCredentialsAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.RemoveUntrustedCredentialsForAssociateAsync(System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.ResolveUserFromInfoAsync(System.Int32,System.String,System.String[],System.String[],SuperOffice.WebApi.Data.UserType,SuperOffice.WebApi.Data.Credential,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.SaveCredentialAsync(System.Int32,SuperOffice.WebApi.Data.Credential,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.UserAgent.SaveExternalTokensAsync(SuperOffice.WebApi.Data.TokenManagementInfo,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.SaveRoleEntityAsync(SuperOffice.WebApi.Data.RoleEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.SaveServiceAuthAsync(SuperOffice.WebApi.Data.ServiceAuth,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.SaveUntrustedCredentialsAsync(System.String,SuperOffice.WebApi.Data.UntrustedCredentials,SuperOffice.WebApi.RequestOptions)
@@ -131,7 +138,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
   - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
-  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
@@ -3377,6 +3384,249 @@ items:
   - Public
   fullName.vb: SuperOffice.WebApi.Agents.UserAgent.GetUserInfoListAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
   name.vb: GetUserInfoListAsync(Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.UserAgent.GetAccessGatewayInfoAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.UserAgent.GetAccessGatewayInfoAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetAccessGatewayInfoAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.UserAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAccessGatewayInfoAsync(RequestOptions)
+  nameWithType: UserAgent.GetAccessGatewayInfoAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.UserAgent.GetAccessGatewayInfoAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns accessgateway registration info\n<p></p>\n<strong>Online Restricted:</strong> The User agent is not available in Online by default. User management is not allowed for partner apps.\n"
+  syntax:
+    content: public Task<AccessGatewayInfo> GetAccessGatewayInfoAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AccessGatewayInfo}
+    content.vb: Public Function GetAccessGatewayInfoAsync(requestOptions As RequestOptions = Nothing) As Task(Of AccessGatewayInfo)
+  overload: SuperOffice.WebApi.Agents.UserAgent.GetAccessGatewayInfoAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.UserAgent.GetOrRegisterAccessGatewayInfoAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.UserAgent.GetOrRegisterAccessGatewayInfoAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetOrRegisterAccessGatewayInfoAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.UserAgent
+  langs:
+  - csharp
+  - vb
+  name: GetOrRegisterAccessGatewayInfoAsync(String, RequestOptions)
+  nameWithType: UserAgent.GetOrRegisterAccessGatewayInfoAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.UserAgent.GetOrRegisterAccessGatewayInfoAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns accessgateway registration info and registers a new or adds the url if necessary\n<p></p>\n<strong>Online Restricted:</strong> The User agent is not available in Online by default. User management is not allowed for partner apps.\n"
+  syntax:
+    content: public Task<AccessGatewayInfo> GetOrRegisterAccessGatewayInfoAsync(string redirectUri, RequestOptions requestOptions = null)
+    parameters:
+    - id: redirectUri
+      type: System.String
+      description: This is the registered redirect_uri for AccessGateway OIDC.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AccessGatewayInfo}
+    content.vb: Public Function GetOrRegisterAccessGatewayInfoAsync(redirectUri As String, requestOptions As RequestOptions = Nothing) As Task(Of AccessGatewayInfo)
+  overload: SuperOffice.WebApi.Agents.UserAgent.GetOrRegisterAccessGatewayInfoAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.UserAgent.RegisterWithAccessGatewayAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.UserAgent.RegisterWithAccessGatewayAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: RegisterWithAccessGatewayAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.UserAgent
+  langs:
+  - csharp
+  - vb
+  name: RegisterWithAccessGatewayAsync(String, RequestOptions)
+  nameWithType: UserAgent.RegisterWithAccessGatewayAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.UserAgent.RegisterWithAccessGatewayAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRegisters with access gateway if not already done, otherwise will attempt to update\n<p></p>\n<strong>Online Restricted:</strong> The User agent is not available in Online by default. User management is not allowed for partner apps.\n"
+  syntax:
+    content: public Task<AccessGatewayInfo> RegisterWithAccessGatewayAsync(string redirectUri, RequestOptions requestOptions = null)
+    parameters:
+    - id: redirectUri
+      type: System.String
+      description: This is the registered redirect_uri for AccessGateway OIDC.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AccessGatewayInfo}
+    content.vb: Public Function RegisterWithAccessGatewayAsync(redirectUri As String, requestOptions As RequestOptions = Nothing) As Task(Of AccessGatewayInfo)
+  overload: SuperOffice.WebApi.Agents.UserAgent.RegisterWithAccessGatewayAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.UserAgent.CheckAccessGatewayRegistrationAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.UserAgent.CheckAccessGatewayRegistrationAsync(SuperOffice.WebApi.RequestOptions)
+  id: CheckAccessGatewayRegistrationAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.UserAgent
+  langs:
+  - csharp
+  - vb
+  name: CheckAccessGatewayRegistrationAsync(RequestOptions)
+  nameWithType: UserAgent.CheckAccessGatewayRegistrationAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.UserAgent.CheckAccessGatewayRegistrationAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nChecks if AccessGatewayRegistration is valid\n<p></p>\n<strong>Online Restricted:</strong> The User agent is not available in Online by default. User management is not allowed for partner apps.\n"
+  syntax:
+    content: public Task<bool> CheckAccessGatewayRegistrationAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: True if the registration is usable
+    content.vb: Public Function CheckAccessGatewayRegistrationAsync(requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.UserAgent.CheckAccessGatewayRegistrationAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.UserAgent.SaveExternalTokensAsync(SuperOffice.WebApi.Data.TokenManagementInfo,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.UserAgent.SaveExternalTokensAsync(SuperOffice.WebApi.Data.TokenManagementInfo,SuperOffice.WebApi.RequestOptions)
+  id: SaveExternalTokensAsync(SuperOffice.WebApi.Data.TokenManagementInfo,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.UserAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveExternalTokensAsync(TokenManagementInfo, RequestOptions)
+  nameWithType: UserAgent.SaveExternalTokensAsync(TokenManagementInfo, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.UserAgent.SaveExternalTokensAsync(SuperOffice.WebApi.Data.TokenManagementInfo, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSaves the external tokens to the DB and returns a key that can be used to retrieve them\n<p></p>\n<strong>Online Restricted:</strong> The User agent is not available in Online by default. User management is not allowed for partner apps.\n"
+  syntax:
+    content: public Task<string> SaveExternalTokensAsync(TokenManagementInfo tokenManagementInfo, RequestOptions requestOptions = null)
+    parameters:
+    - id: tokenManagementInfo
+      type: SuperOffice.WebApi.Data.TokenManagementInfo
+      description: Token information.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: Key that can be used to retrieve the tokens
+    content.vb: Public Function SaveExternalTokensAsync(tokenManagementInfo As TokenManagementInfo, requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.UserAgent.SaveExternalTokensAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.UserAgent.DecryptAndSaveExternalTokensAsync(SuperOffice.WebApi.Data.TokenManagementInfo,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.UserAgent.DecryptAndSaveExternalTokensAsync(SuperOffice.WebApi.Data.TokenManagementInfo,SuperOffice.WebApi.RequestOptions)
+  id: DecryptAndSaveExternalTokensAsync(SuperOffice.WebApi.Data.TokenManagementInfo,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.UserAgent
+  langs:
+  - csharp
+  - vb
+  name: DecryptAndSaveExternalTokensAsync(TokenManagementInfo, RequestOptions)
+  nameWithType: UserAgent.DecryptAndSaveExternalTokensAsync(TokenManagementInfo, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.UserAgent.DecryptAndSaveExternalTokensAsync(SuperOffice.WebApi.Data.TokenManagementInfo, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nFirst asks AccessGateway to decrypt the tokens, then saves the external tokens to the DB and returns a key that can be used to retrieve them\n<p></p>\n<strong>Online Restricted:</strong> The User agent is not available in Online by default. User management is not allowed for partner apps.\n"
+  syntax:
+    content: public Task<string> DecryptAndSaveExternalTokensAsync(TokenManagementInfo tokenManagementInfo, RequestOptions requestOptions = null)
+    parameters:
+    - id: tokenManagementInfo
+      type: SuperOffice.WebApi.Data.TokenManagementInfo
+      description: Token information.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: Key that can be used to retrieve the tokens
+    content.vb: Public Function DecryptAndSaveExternalTokensAsync(tokenManagementInfo As TokenManagementInfo, requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.UserAgent.DecryptAndSaveExternalTokensAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.UserAgent.GetExternalTokensAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.UserAgent.GetExternalTokensAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetExternalTokensAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.UserAgent
+  langs:
+  - csharp
+  - vb
+  name: GetExternalTokensAsync(String, RequestOptions)
+  nameWithType: UserAgent.GetExternalTokensAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.UserAgent.GetExternalTokensAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRetrieve the tokens from the DB based on the given key\n<p></p>\n<strong>Online Restricted:</strong> The User agent is not available in Online by default. User management is not allowed for partner apps.\n"
+  syntax:
+    content: public Task<TokenManagementInfo> GetExternalTokensAsync(string key, RequestOptions requestOptions = null)
+    parameters:
+    - id: key
+      type: System.String
+      description: Token retrievel key
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TokenManagementInfo}
+      description: Key to retrieve tokens
+    content.vb: Public Function GetExternalTokensAsync(key As String, requestOptions As RequestOptions = Nothing) As Task(Of TokenManagementInfo)
+  overload: SuperOffice.WebApi.Agents.UserAgent.GetExternalTokensAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Agents.UserAgent.GetCurrentPrincipal(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.UserAgent.GetCurrentPrincipal(SuperOffice.WebApi.RequestOptions)
   id: GetCurrentPrincipal(SuperOffice.WebApi.RequestOptions)
@@ -3921,15 +4171,15 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: SendRequest(HttpRequestMessage)
-  nameWithType: AgentBase.SendRequest(HttpRequestMessage)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  name: SendRequest(HttpRequestMessage, RequestOptions)
+  nameWithType: AgentBase.SendRequest(HttpRequestMessage, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage, SuperOffice.WebApi.RequestOptions)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
     nameWithType: AgentBase.SendRequest
     fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
@@ -3941,12 +4191,20 @@ references:
     name: HttpRequestMessage
     nameWithType: HttpRequestMessage
     fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
     nameWithType: AgentBase.SendRequest
     fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
@@ -3958,6 +4216,14 @@ references:
     name: HttpRequestMessage
     nameWithType: HttpRequestMessage
     fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )
@@ -6042,6 +6308,141 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.UserAgent.GetAccessGatewayInfoAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.UserAgent.GetAccessGatewayInfoAsync
+  isExternal: true
+  name: GetAccessGatewayInfoAsync
+  nameWithType: UserAgent.GetAccessGatewayInfoAsync
+  fullName: SuperOffice.WebApi.Agents.UserAgent.GetAccessGatewayInfoAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AccessGatewayInfo}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AccessGatewayInfo}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<AccessGatewayInfo>
+  nameWithType: Task<AccessGatewayInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.AccessGatewayInfo>
+  nameWithType.vb: Task(Of AccessGatewayInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.AccessGatewayInfo)
+  name.vb: Task(Of AccessGatewayInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.AccessGatewayInfo
+    name: AccessGatewayInfo
+    nameWithType: AccessGatewayInfo
+    fullName: SuperOffice.WebApi.Data.AccessGatewayInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.AccessGatewayInfo
+    name: AccessGatewayInfo
+    nameWithType: AccessGatewayInfo
+    fullName: SuperOffice.WebApi.Data.AccessGatewayInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.UserAgent.GetOrRegisterAccessGatewayInfoAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.UserAgent.GetOrRegisterAccessGatewayInfoAsync
+  isExternal: true
+  name: GetOrRegisterAccessGatewayInfoAsync
+  nameWithType: UserAgent.GetOrRegisterAccessGatewayInfoAsync
+  fullName: SuperOffice.WebApi.Agents.UserAgent.GetOrRegisterAccessGatewayInfoAsync
+- uid: SuperOffice.WebApi.Agents.UserAgent.RegisterWithAccessGatewayAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.UserAgent.RegisterWithAccessGatewayAsync
+  isExternal: true
+  name: RegisterWithAccessGatewayAsync
+  nameWithType: UserAgent.RegisterWithAccessGatewayAsync
+  fullName: SuperOffice.WebApi.Agents.UserAgent.RegisterWithAccessGatewayAsync
+- uid: SuperOffice.WebApi.Agents.UserAgent.CheckAccessGatewayRegistrationAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.UserAgent.CheckAccessGatewayRegistrationAsync
+  isExternal: true
+  name: CheckAccessGatewayRegistrationAsync
+  nameWithType: UserAgent.CheckAccessGatewayRegistrationAsync
+  fullName: SuperOffice.WebApi.Agents.UserAgent.CheckAccessGatewayRegistrationAsync
+- uid: SuperOffice.WebApi.Agents.UserAgent.SaveExternalTokensAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.UserAgent.SaveExternalTokensAsync
+  isExternal: true
+  name: SaveExternalTokensAsync
+  nameWithType: UserAgent.SaveExternalTokensAsync
+  fullName: SuperOffice.WebApi.Agents.UserAgent.SaveExternalTokensAsync
+- uid: SuperOffice.WebApi.Data.TokenManagementInfo
+  commentId: T:SuperOffice.WebApi.Data.TokenManagementInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TokenManagementInfo
+  nameWithType: TokenManagementInfo
+  fullName: SuperOffice.WebApi.Data.TokenManagementInfo
+- uid: SuperOffice.WebApi.Agents.UserAgent.DecryptAndSaveExternalTokensAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.UserAgent.DecryptAndSaveExternalTokensAsync
+  isExternal: true
+  name: DecryptAndSaveExternalTokensAsync
+  nameWithType: UserAgent.DecryptAndSaveExternalTokensAsync
+  fullName: SuperOffice.WebApi.Agents.UserAgent.DecryptAndSaveExternalTokensAsync
+- uid: SuperOffice.WebApi.Agents.UserAgent.GetExternalTokensAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.UserAgent.GetExternalTokensAsync
+  isExternal: true
+  name: GetExternalTokensAsync
+  nameWithType: UserAgent.GetExternalTokensAsync
+  fullName: SuperOffice.WebApi.Agents.UserAgent.GetExternalTokensAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TokenManagementInfo}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TokenManagementInfo}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TokenManagementInfo>
+  nameWithType: Task<TokenManagementInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.TokenManagementInfo>
+  nameWithType.vb: Task(Of TokenManagementInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.TokenManagementInfo)
+  name.vb: Task(Of TokenManagementInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.TokenManagementInfo
+    name: TokenManagementInfo
+    nameWithType: TokenManagementInfo
+    fullName: SuperOffice.WebApi.Data.TokenManagementInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.TokenManagementInfo
+    name: TokenManagementInfo
+    nameWithType: TokenManagementInfo
+    fullName: SuperOffice.WebApi.Data.TokenManagementInfo
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )

@@ -20,6 +20,7 @@ items:
   - SuperOffice.WebApi.Agents.SelectionAgent.CreateDefaultMailMergeTaskAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.CreateDefaultSelectionEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.CreateNewEntryAsync(SuperOffice.WebApi.Data.DuplicateEntry,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.SelectionAgent.CreateSelectionEntityAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.CreateSelectionFromSelectionAsync(System.Int32,System.String,SuperOffice.WebApi.Data.SelectionType,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.CreateTemporaryContactSelectionAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.CreateTemporaryContactSelectionFromContactPersonIdsAsync(SuperOffice.WebApi.Data.ContactPersonId[],SuperOffice.WebApi.RequestOptions)
@@ -98,7 +99,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
   - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
-  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
@@ -379,6 +380,42 @@ items:
       description: SelectionEntity
     content.vb: Public Function GetSelectionEntityAsync(selectionEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of SelectionEntity)
   overload: SuperOffice.WebApi.Agents.SelectionAgent.GetSelectionEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.SelectionAgent.CreateSelectionEntityAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.SelectionAgent.CreateSelectionEntityAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: CreateSelectionEntityAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.SelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateSelectionEntityAsync(String, RequestOptions)
+  nameWithType: SelectionAgent.CreateSelectionEntityAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.SelectionAgent.CreateSelectionEntityAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreate (but do not save) a new selection entity, for the current user and the given target table; other fields populated as by CreateDefaultSelectionEntity()\n"
+  syntax:
+    content: public Task<SelectionEntity> CreateSelectionEntityAsync(string targetTableName, RequestOptions requestOptions = null)
+    parameters:
+    - id: targetTableName
+      type: System.String
+      description: The name of the target table, such as &apos;contact&apos; or &apos;appointment&apos;; any table for which Selection functionality is enabled
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionEntity}
+      description: The new SelectionEntity, which has not yet been saved
+    content.vb: Public Function CreateSelectionEntityAsync(targetTableName As String, requestOptions As RequestOptions = Nothing) As Task(Of SelectionEntity)
+  overload: SuperOffice.WebApi.Agents.SelectionAgent.CreateSelectionEntityAsync*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -2718,15 +2755,15 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: SendRequest(HttpRequestMessage)
-  nameWithType: AgentBase.SendRequest(HttpRequestMessage)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  name: SendRequest(HttpRequestMessage, RequestOptions)
+  nameWithType: AgentBase.SendRequest(HttpRequestMessage, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage, SuperOffice.WebApi.RequestOptions)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
     nameWithType: AgentBase.SendRequest
     fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
@@ -2738,12 +2775,20 @@ references:
     name: HttpRequestMessage
     nameWithType: HttpRequestMessage
     fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
     nameWithType: AgentBase.SendRequest
     fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
@@ -2755,6 +2800,14 @@ references:
     name: HttpRequestMessage
     nameWithType: HttpRequestMessage
     fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )
@@ -3232,12 +3285,12 @@ references:
   name: GetSelectionEntityAsync
   nameWithType: SelectionAgent.GetSelectionEntityAsync
   fullName: SuperOffice.WebApi.Agents.SelectionAgent.GetSelectionEntityAsync
-- uid: SuperOffice.WebApi.Agents.SelectionAgent.CreateContactSelectionFromSelectionAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.SelectionAgent.CreateContactSelectionFromSelectionAsync
+- uid: SuperOffice.WebApi.Agents.SelectionAgent.CreateSelectionEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.SelectionAgent.CreateSelectionEntityAsync
   isExternal: true
-  name: CreateContactSelectionFromSelectionAsync
-  nameWithType: SelectionAgent.CreateContactSelectionFromSelectionAsync
-  fullName: SuperOffice.WebApi.Agents.SelectionAgent.CreateContactSelectionFromSelectionAsync
+  name: CreateSelectionEntityAsync
+  nameWithType: SelectionAgent.CreateSelectionEntityAsync
+  fullName: SuperOffice.WebApi.Agents.SelectionAgent.CreateSelectionEntityAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -3245,6 +3298,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.WebApi.Agents.SelectionAgent.CreateContactSelectionFromSelectionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.SelectionAgent.CreateContactSelectionFromSelectionAsync
+  isExternal: true
+  name: CreateContactSelectionFromSelectionAsync
+  nameWithType: SelectionAgent.CreateContactSelectionFromSelectionAsync
+  fullName: SuperOffice.WebApi.Agents.SelectionAgent.CreateContactSelectionFromSelectionAsync
 - uid: SuperOffice.WebApi.Data.SelectionType
   commentId: T:SuperOffice.WebApi.Data.SelectionType
   parent: SuperOffice.WebApi.Data

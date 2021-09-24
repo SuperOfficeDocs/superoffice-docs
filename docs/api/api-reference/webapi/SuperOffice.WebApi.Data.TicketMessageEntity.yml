@@ -16,6 +16,7 @@ items:
   - SuperOffice.WebApi.Data.TicketMessageEntity.EmailHeader
   - SuperOffice.WebApi.Data.TicketMessageEntity.ExtraFields
   - SuperOffice.WebApi.Data.TicketMessageEntity.HtmlBody
+  - SuperOffice.WebApi.Data.TicketMessageEntity.Important
   - SuperOffice.WebApi.Data.TicketMessageEntity.MailSorter
   - SuperOffice.WebApi.Data.TicketMessageEntity.MessageCategory
   - SuperOffice.WebApi.Data.TicketMessageEntity.MessageCategory_String
@@ -798,6 +799,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.TicketMessageEntity.Important
+  commentId: P:SuperOffice.WebApi.Data.TicketMessageEntity.Important
+  id: Important
+  parent: SuperOffice.WebApi.Data.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: Important
+  nameWithType: TicketMessageEntity.Important
+  fullName: SuperOffice.WebApi.Data.TicketMessageEntity.Important
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf this message is important or not.\n"
+  syntax:
+    content: public virtual bool Important { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Important As Boolean
+  overload: SuperOffice.WebApi.Data.TicketMessageEntity.Important*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.TicketMessageEntity.ExtraFields
   commentId: P:SuperOffice.WebApi.Data.TicketMessageEntity.ExtraFields
   id: ExtraFields
@@ -1305,6 +1339,19 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: SuperOffice.WebApi.Data.TicketMessageEntity.Important*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessageEntity.Important
+  isExternal: true
+  name: Important
+  nameWithType: TicketMessageEntity.Important
+  fullName: SuperOffice.WebApi.Data.TicketMessageEntity.Important
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.WebApi.Data.TicketMessageEntity.ExtraFields*
   commentId: Overload:SuperOffice.WebApi.Data.TicketMessageEntity.ExtraFields
   isExternal: true

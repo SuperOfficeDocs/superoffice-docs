@@ -12,6 +12,7 @@ items:
   - SuperOffice.WebApi.Data.SelectionEntity.Completed
   - SuperOffice.WebApi.Data.SelectionEntity.CreatedBy
   - SuperOffice.WebApi.Data.SelectionEntity.CreatedDate
+  - SuperOffice.WebApi.Data.SelectionEntity.DashboardTileDefinitionId
   - SuperOffice.WebApi.Data.SelectionEntity.Description
   - SuperOffice.WebApi.Data.SelectionEntity.GroupIdx
   - SuperOffice.WebApi.Data.SelectionEntity.IncludePerson
@@ -1475,6 +1476,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.SelectionEntity.DashboardTileDefinitionId
+  commentId: P:SuperOffice.WebApi.Data.SelectionEntity.DashboardTileDefinitionId
+  id: DashboardTileDefinitionId
+  parent: SuperOffice.WebApi.Data.SelectionEntity
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileDefinitionId
+  nameWithType: SelectionEntity.DashboardTileDefinitionId
+  fullName: SuperOffice.WebApi.Data.SelectionEntity.DashboardTileDefinitionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe associated tile definition\n"
+  syntax:
+    content: public virtual int DashboardTileDefinitionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DashboardTileDefinitionId As Integer
+  overload: SuperOffice.WebApi.Data.SelectionEntity.DashboardTileDefinitionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.VisibleFor
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.VisibleFor
   id: VisibleFor
@@ -2006,6 +2040,12 @@ references:
   name: MailingsProviderName
   nameWithType: SelectionEntity.MailingsProviderName
   fullName: SuperOffice.WebApi.Data.SelectionEntity.MailingsProviderName
+- uid: SuperOffice.WebApi.Data.SelectionEntity.DashboardTileDefinitionId*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.DashboardTileDefinitionId
+  isExternal: true
+  name: DashboardTileDefinitionId
+  nameWithType: SelectionEntity.DashboardTileDefinitionId
+  fullName: SuperOffice.WebApi.Data.SelectionEntity.DashboardTileDefinitionId
 - uid: SuperOffice.WebApi.Data.SelectionEntity.VisibleFor*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.VisibleFor
   isExternal: true

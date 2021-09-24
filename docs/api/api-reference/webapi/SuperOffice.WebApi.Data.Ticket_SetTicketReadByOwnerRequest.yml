@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest
+  id: Ticket_SetTicketReadByOwnerRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.CheckEscalating
+  - SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.ReadStatus
+  - SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.TicketEntityId
+  langs:
+  - csharp
+  - vb
+  name: Ticket_SetTicketReadByOwnerRequest
+  nameWithType: Ticket_SetTicketReadByOwnerRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_SetTicketReadByOwnerRequest : Object'
+    content.vb: >-
+      Public Class Ticket_SetTicketReadByOwnerRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_SetTicketReadByOwnerRequest()
+  nameWithType: Ticket_SetTicketReadByOwnerRequest.Ticket_SetTicketReadByOwnerRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.Ticket_SetTicketReadByOwnerRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_SetTicketReadByOwnerRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.TicketEntityId
+  commentId: P:SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.TicketEntityId
+  id: TicketEntityId
+  parent: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest
+  langs:
+  - csharp
+  - vb
+  name: TicketEntityId
+  nameWithType: Ticket_SetTicketReadByOwnerRequest.TicketEntityId
+  fullName: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.TicketEntityId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TicketEntityId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TicketEntityId As Integer
+  overload: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.TicketEntityId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.ReadStatus
+  commentId: P:SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.ReadStatus
+  id: ReadStatus
+  parent: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest
+  langs:
+  - csharp
+  - vb
+  name: ReadStatus
+  nameWithType: Ticket_SetTicketReadByOwnerRequest.ReadStatus
+  fullName: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.ReadStatus
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TicketReadStatus ReadStatus { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TicketReadStatus
+    content.vb: Public Property ReadStatus As TicketReadStatus
+  overload: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.ReadStatus*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.CheckEscalating
+  commentId: P:SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.CheckEscalating
+  id: CheckEscalating
+  parent: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest
+  langs:
+  - csharp
+  - vb
+  name: CheckEscalating
+  nameWithType: Ticket_SetTicketReadByOwnerRequest.CheckEscalating
+  fullName: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.CheckEscalating
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool CheckEscalating { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CheckEscalating As Boolean
+  overload: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.CheckEscalating*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.#ctor
+  isExternal: true
+  name: Ticket_SetTicketReadByOwnerRequest
+  nameWithType: Ticket_SetTicketReadByOwnerRequest.Ticket_SetTicketReadByOwnerRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.Ticket_SetTicketReadByOwnerRequest
+- uid: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.TicketEntityId*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.TicketEntityId
+  isExternal: true
+  name: TicketEntityId
+  nameWithType: Ticket_SetTicketReadByOwnerRequest.TicketEntityId
+  fullName: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.TicketEntityId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.ReadStatus*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.ReadStatus
+  isExternal: true
+  name: ReadStatus
+  nameWithType: Ticket_SetTicketReadByOwnerRequest.ReadStatus
+  fullName: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.ReadStatus
+- uid: SuperOffice.WebApi.Data.TicketReadStatus
+  commentId: T:SuperOffice.WebApi.Data.TicketReadStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TicketReadStatus
+  nameWithType: TicketReadStatus
+  fullName: SuperOffice.WebApi.Data.TicketReadStatus
+- uid: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.CheckEscalating*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.CheckEscalating
+  isExternal: true
+  name: CheckEscalating
+  nameWithType: Ticket_SetTicketReadByOwnerRequest.CheckEscalating
+  fullName: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest.CheckEscalating
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

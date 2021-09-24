@@ -11,6 +11,7 @@ items:
   - SuperOffice.WebApi.Data.BatchTaskState.New
   - SuperOffice.WebApi.Data.BatchTaskState.Started
   - SuperOffice.WebApi.Data.BatchTaskState.Succeeded
+  - SuperOffice.WebApi.Data.BatchTaskState.SucceededManualCleanup
   - SuperOffice.WebApi.Data.BatchTaskState.Unknown
   - SuperOffice.WebApi.Data.BatchTaskState.value__
   langs:
@@ -238,6 +239,35 @@ items:
     return:
       type: SuperOffice.WebApi.Data.BatchTaskState
     content.vb: Public Const Failed As BatchTaskState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BatchTaskState.SucceededManualCleanup
+  commentId: F:SuperOffice.WebApi.Data.BatchTaskState.SucceededManualCleanup
+  id: SucceededManualCleanup
+  parent: SuperOffice.WebApi.Data.BatchTaskState
+  langs:
+  - csharp
+  - vb
+  name: SucceededManualCleanup
+  nameWithType: BatchTaskState.SucceededManualCleanup
+  fullName: SuperOffice.WebApi.Data.BatchTaskState.SucceededManualCleanup
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: Executing the task has completed successfully, and related data will be cleaned up by the responsible code.\n"
+  syntax:
+    content: public const BatchTaskState SucceededManualCleanup
+    return:
+      type: SuperOffice.WebApi.Data.BatchTaskState
+    content.vb: Public Const SucceededManualCleanup As BatchTaskState
   modifiers.csharp:
   - public
   - const

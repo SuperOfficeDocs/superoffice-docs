@@ -29,7 +29,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for Script.\nThe Script Service. The service implements all services working with the CRMScript object.    \n"
+  summary: "\nCarrier object for Script.\nThe Script Service. The service implements all services working with the CRMScript object without reference to primary keys. Primarily used by VSCode integration.    \n"
   remarks: >
     Use <xref href="SuperOffice.CRM.Services.ArchiveAgent" data-throw-if-not-resolved="false"></xref>:
 
