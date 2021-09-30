@@ -39,17 +39,15 @@ You can follow the [general instructions from Microsoft for creating DNS records
 
     2. Click **Save** to update the information.
 
-    ![x -screenshot][img3]
+        ![x -screenshot][img3]
 
 [!include[ALT](../includes/note-dns-propagation-time.md)]
 
 ## Test a new SPF record
 
-There are several tools online to use - to test your SPF record. Here we use [MX Toolbox][1].
+There are several tools available online to test your SPF record. Here we use [MX Toolbox][1].
 
-1. Open the SPF tool:
-
-    ![x -screenshot][img4]
+1. Open the [SPF tool][3].
 
 2. Add your domain (the one that you are going to send our mailings as) and click **SPF Record Lookup**.
 
@@ -68,7 +66,7 @@ We recommend "~all" (soft fail if no matches) vs "-all" (hard fail if no matches
 <!-- Referenced links -->
 [1]: https://mxtoolbox.com/
 [2]: https://support.office.com/en-us/article/general-instructions-for-creating-dns-records-for-office-365-e21a9a4a-7b14-42cb-b39b-03aee92da95f
-2886048-0ziPiPMBJl50dyrE4AuUcfWmuAGb4WexjzApsYr6iF3OwywNJfNLX7Eg1xRWTH76-0/image.png
+[3]: https://mxtoolbox.com/spf.aspx
 
 <!-- Referenced images -->
 [img1]: media/image.png
