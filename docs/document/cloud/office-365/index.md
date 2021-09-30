@@ -18,10 +18,6 @@ Simply sign in to SuperOffice using your Microsoft 365 login details and then op
 
 ![x -screenshot][img1]
 
-![x -screenshot][img2]
-
-![imageokq0f.png -screenshot][img3]
-
 Read more details in our App Store: [Microsoft 365 integration][1]
 
 If you do not require Microsoft 365 SharePoint’s document management features, and only wish for using Microsoft 365 for login purposes (federated login or Multi-factor authentication (MFA/2FA)) you don't need this document integration.
@@ -53,11 +49,11 @@ The integration consists of these main components:
 * Microsoft 365 SharePoint
 * SuperOffice SharePoint App (SharePoint add-in) (our app acts as an add-in in SharePoint to be able to upload and download files in the cloud, and to authenticate users)
 
-The authorization process will grant rights to an app registered with Microsoft Office365 SharePoint called *SuperOffice SharePoint App*. The SuperOffice Federation Gateway handles secure communication between SuperOffice SharePoint App located in Microsoft 365 SharePoint, SuperOffice Online, and other parties (like SuperOffice MailLink).
+The authorization process will grant rights to an app registered with Microsoft 365 SharePoint called *SuperOffice SharePoint App*. The SuperOffice Federation Gateway handles secure communication between SuperOffice SharePoint App located in Microsoft 365 SharePoint, SuperOffice Online, and other parties (like SuperOffice MailLink).
 
 **Step 1** is needed for setting up SharePoint to be able to use SharePoint’s document management features so that you can create, store, and find your documents within SuperOffice, and enjoy the benefits of both SuperOffice and Microsoft 365 services all in one place. The site collection created within this step will also be used for adding the SuperOffice SharePoint app.
 
-* If this is not a service you plan to use - you may skip step 1.7 ("template" folders and read access of root folder is enough)
+* If this is not a service you plan to use - you may skip step 1.7. ("template" folders and read access of root folder is enough).
 
 **Step 2** is needed for creating new blank documents, spreadsheets, and presentations in SuperOffice CRM Admin's **Add template** > **Create a new template** (from a SharePoint template).
 
@@ -65,7 +61,7 @@ The authorization process will grant rights to an app registered with Microsoft 
 
 **Step 3** is needed for the authentication of users and is the basis for enabling the other services.
 
-**Step 4** is needed for enabling your SuperOffice tenant to store templates and documents in SharePoint
+**Step 4** is needed for enabling your SuperOffice tenant to store templates and documents in SharePoint.
 
 <!-- Referenced links -->
 [1]: https://online.superoffice.com/AppStore/superoffice-as/office-365-integration
@@ -74,5 +70,3 @@ The authorization process will grant rights to an app registered with Microsoft 
 
 <!-- Referenced images -->
 [img1]: media/sign-in.png
-[img2]: media/example1.png
-[img3]: media/imageokq0f.png
