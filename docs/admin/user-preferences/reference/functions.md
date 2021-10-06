@@ -52,3 +52,4 @@ The Functions section contains a variety of preferences that affect the SuperOff
 | UseMiddleName | Enables the use of middle names in the Contact dialog | | Bool | Admin, Admin users, Wizard |
 | ShowProgressInfo | Should a progress dialog be displayed on the Travel Gateway when active tasks are running? | YES | Bool | Admin, Admin users, Wizard |
 | IdAllocationBatchSize | How many records should be inserted into the database during an import before they are committed? | | Number | Admin, Admin users, Wizard |
+| MandatoryContactOnPerson | If all contacts have to be associated with a company. | YES | Bool | Admin, Admin users, Wizard |
