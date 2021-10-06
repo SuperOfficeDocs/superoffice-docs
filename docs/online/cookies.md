@@ -1,8 +1,9 @@
 ---
-title: cookies
+title: Cookies overview
+uid: cookies_overview
 description: Cookies overview
 author: {github-id}
-keywords: security
+keywords: security, cookies
 so.topic: reference
 so.date:
 # so.envir:
