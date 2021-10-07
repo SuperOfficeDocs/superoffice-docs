@@ -98,7 +98,7 @@ SuperOffice 7.0 or 7.1 Server
 **Actions:**
 
 1. You must upgrade to SuperOffice 7.5 first!
-2. Then complete the upgrade to 8.0
+2. Then complete the upgrade to SuperOffice 8.0
 
 <!-- Referenced links -->
 [1]: crm-server.md

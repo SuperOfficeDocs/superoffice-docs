@@ -4,22 +4,25 @@
         "~/templates/superoffice/blueprint"
     ],
     "cSpell.words": [
+        "Archivepath",
         "core",
+        "datasource",
         "index",
         "mailgun",
         "md",
         "netserver",
+        "ODBC",
         "osql",
         "SCIM",
         "soap",
         "SoSession",
         "superoffice",
         "Watchcom",
-        "webapi",
-        "webshop",
-        "website",
-        "webpage",
         "web form",
-        "web services"
+        "web services",
+        "webapi",
+        "webpage",
+        "webshop",
+        "website"
     ]
 }

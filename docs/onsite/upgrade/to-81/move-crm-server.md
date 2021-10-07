@@ -36,17 +36,15 @@ There are also other 4 places where you will need to make a change to the new SO
 
     ![imageoa6c9.png -screenshot][img4]
 
-    ![imagei4ebl.png -screenshot][img5]
+    Open the SuperOffice.ini file and change the Archivepath to the new value.
 
-2. In *SuperOffice.ini* file (Archivepath line) on all computers that have SuperOffice Windows application installed.
+ 2. In *SuperOffice.ini* file (Archivepath line) on all computers that have SuperOffice Windows application installed.
 
     ![image7byzr.png -screenshot][img6]
 
-    ![imageitfv.png -screenshot][img7]
+    Open the SuperOffice.ini file on all client computers and change the Archivepath to the new value.
 
 3. In SuperOffice Web application's Product configuration, Document archive section, Archive path location.
-
-    ![image3bdb8.png -screenshot][img8]
 
     ![imageitk5g.png -screenshot][img9]
 
@@ -58,7 +56,7 @@ There are also other 4 places where you will need to make a change to the new SO
 
 ## SuperOffice database on Microsoft SQL Server or Oracle
 
-If you have access to both the new and the old database server, then using DBsetup to [rebuild][1] the database from old to new datasource is the fastes option.
+If you have access to both the new and the old database server, then using DBsetup to [rebuild][1] the database from old to new data source is the fastest option.
 
 If you do not have access to the new database server from the old database server, then you may [export][1] the database as an SDA file from DBSetup on the old server and use DBSetup to import the SDA file.
 

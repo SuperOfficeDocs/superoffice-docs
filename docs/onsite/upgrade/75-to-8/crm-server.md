@@ -21,18 +21,18 @@ so.envir: onsite
 
 ## Prerequisites and preparations
 
-* You must be running version 7.5 before upgrading to 8.0.
+* You must be running SuperOffice version 7.5 before upgrading to 8.0.
 
 > [!NOTE]
 > If you have used SuperOffice for a long time and renamed labels inside the product, there is a fix in SuperOffice 7.5 SR1 that will move the labels to the correct new database table.
 
 * The CRM server must be installed before you install any one of our clients (Win, Web, Service, Pocket), this is where you set up the database and it will also create a client setup for using the Windows App.
 
-* Since version 8, we now require ALL server components needed to be installed in all scenarios.
+* Since SuperOffice version 8, we now require ALL server components needed to be installed in all scenarios.
 
 [!include[ALT](../../../includes/warn-upgrade-all-to-same-version.md)]
 
-To complete a normal SuperOffice 8 server installation, you need to install ALL:
+To complete a normal SuperOffice 8 Server installation, you need to install ALL:
 
 1. CRM Server
 2. NetServer
