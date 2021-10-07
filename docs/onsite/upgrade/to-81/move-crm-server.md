@@ -30,7 +30,7 @@ Use file copy to copy the so_arc with sub-folders from the old location to the n
 
 All SuperOffice Windows users and the impersonate user used in SuperOffice Web configuration must have full control rights for the SO_Arc folder in the new location.
 
-There are also other 4 places where you will need to make a change to the new SO Arc folder reference for the installation to work.
+There are also other 4 places where you will need to make a change to the new SO_Arc folder reference for the installation to work.
 
 1. In the *SuperOffice.ini* file (Archivepath line) found in SuperOffice Server installation’s folder.
 
@@ -50,7 +50,7 @@ There are also other 4 places where you will need to make a change to the new SO
 
     ![imageitk5g.png -screenshot][img9]
 
-4. Finally you want to create a new .mst file and remove the old one so that all the new SuperOffice Windows application installations will automatically have the correct SO Arc reference.
+4. Finally you want to create a new .mst file and remove the old one so that all the new SuperOffice Windows application installations will automatically have the correct SO_Arc reference.
 
     ![imagep6lxc.png -screenshot][img10]
 

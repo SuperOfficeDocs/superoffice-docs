@@ -9,13 +9,13 @@ so.envir: onsite
 # so.client:
 ---
 
-# Upgrade to 8.1 when using the old Sales domain
+# Upgrade to 8.1 or newer when using the old Sales domain
 
 ![Move Service to Sales web client domain -screenshot][img6]
 
-1. Run **SuperOffice SM.win** **SetupExe.exe** installer to upgrade the server and the database to 8.1.
+1. Run **SuperOffice SM.win** **SetupExe.exe** installer to upgrade the server and the database.
 
-2. Run **SuperOffice Web client** **Setup.exe** to upgrade SuperOffice Sales web client to 8.1. Remember to tick **Expose NetServer web services** if Service should use the same web services as the Web client.
+2. Run **SuperOffice Web client** **Setup.exe** to upgrade SuperOffice Sales web client. Remember to tick **Expose NetServer web services** if Service should use the same web services as the Web client.
 
 3. Start the Web client and set the new Web Base URL preference in Settings and Maintenance client.
 
@@ -29,7 +29,7 @@ so.envir: onsite
     * Copy/move attachments/templates and customer center folders from the old installation to the new.
     * Run queries to update the absolute URLs that will be found in the database.
     * Consider if a redirect should be added so customers using old URLs will be redirected correctly to the new.
-    * Run `upgrade.exe -d newdomain` to make sure Service is upgraded to 8.1 as well.
+    * Run `upgrade.exe -d newdomain` to make sure Service is upgraded as well.
 
 <!-- Referenced links -->
 [2]: move-crm-server.md

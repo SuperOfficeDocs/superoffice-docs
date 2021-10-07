@@ -13,11 +13,11 @@ so.client: web,win
 
 | Current setup | Which guide to use |
 |---------------|--------------------|
-| SuperOffice 7 Server<br>SuperOffice 7 Windows clients | Upgrade Windows client |
-| SuperOffice 7.5 Server,<br> SuperOffice 7.5 Web, and/or<br> SuperOffice 7.5 Windows clients | Upgrade Win + Web or Web |
-| SuperOffice 7.5 Server,<br> SuperOffice 7.5 Customer Service, and/or<br> SuperOffice 7.5 Windows clients | Upgrade CS or CS + Windows client |
-| SuperOffice 7.5 Server,<br> SuperOffice 7.5 Customer Service,<br> SuperOffice 7.5 Web, and/or<br> SuperOffice 7.5 Windows clients | Upgrade Win + Web + CS or Web + CS |
-| SuperOffice 7.0 or 7.1 Server | Upgrade SuperOffice 7.0 or 7.1 |
+| SuperOffice 7.5 Server<br>SuperOffice 7.5 Windows clients | [Upgrade Windows client](#upgrade-windows-client) |
+| SuperOffice 7.5 Server,<br> SuperOffice 7.5 Web, and/or<br> SuperOffice 7.5 Windows clients | [Upgrade Win + Web or Web](#upgrade-win--web-or-web) |
+| SuperOffice 7.5 Server,<br> SuperOffice 7.5 Customer Service, and/or<br> SuperOffice 7.5 Windows clients | [Upgrade CS or CS + Windows client](#upgrade-cs-or-cs--windows-client) |
+| SuperOffice 7.5 Server,<br> SuperOffice 7.5 Customer Service,<br> SuperOffice 7.5 Web, and/or<br> SuperOffice 7.5 Windows clients | [Upgrade Win + Web + CS or Web + CS](#upgrade-win--web--cs-or-web--cs) |
+| SuperOffice 7.0 or 7.1 Server | [Upgrade SuperOffice 7.0 or 7.1](#upgrade-superoffice-70-or-71) |
 
 > [!NOTE]
 > SuperOffice 8 requires a "full stack" of all main components.<br>If you run an older version then you must upgrade to SuperOffice 7.5 first.<br>The Pocket Server 7 is not needed for SuperOffice 8. Uninstall Pocket Server 7 after the upgrade if it is installed.
@@ -26,7 +26,7 @@ so.client: web,win
 
 **For:**
 
-SuperOffice 7 Server and SuperOffice 7 Windows Clients.
+SuperOffice 7.5 Server and SuperOffice 7.5 Windows Clients.
 
 **Actions:**
 
@@ -54,7 +54,7 @@ SuperOffice 7.5 Server, SuperOffice 7.5 Web, and/or SuperOffice 7.5 Windows clie
 1. [Upgrade CRM Server][1]
 2. [Upgrade Windows Clients][2] (only if you are going to use "SuperOffice 8 Windows App")
 3. [Upgrade CRM Web][3]
-4. [Install Service][4]
+4. [Install SuperOffice 8 Service][4]
 
 ## Upgrade CS or CS + Windows client
 
@@ -87,7 +87,7 @@ SuperOffice 7.5 Server, SuperOffice 7.5 Customer Service, SuperOffice 7.5 Web, a
 3. [Upgrade NetServer][5]
     * If CS runs on Remote NetServer: It is possible to merge CS NetServer and Web NetServer for a more lean administration
 4. [Upgrade SuperOffice 7 CS to SuperOffice 8 Service][6]
-5. [Upgrade Web][3]
+5. [Upgrade CRM Web][3]
 
 ## Upgrade SuperOffice 7.0 or 7.1 
 

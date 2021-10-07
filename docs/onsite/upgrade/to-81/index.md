@@ -9,7 +9,7 @@ so.envir: onsite
 # so.client:
 ---
 
-# Upgrade to SuperOffice 8.1 and newer
+# Upgrade to SuperOffice 8.1 or newer
 
 From SuperOffice 8.1, it is required that both Sales and Service are located on the same domain, as seen from the browser. This is because the authentication is done only by Sales.
 
