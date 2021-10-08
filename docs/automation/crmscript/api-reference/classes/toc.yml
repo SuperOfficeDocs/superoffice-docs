@@ -18000,6 +18000,17 @@ items:
     href: NSTicketMessageEntity/SetTimeSpent.md
   - name: SetType
     href: NSTicketMessageEntity/SetType.md
+- name: NSTicketMessageHeader
+  href: NSTicketMessageHeader/GetName.md
+  items:
+  - name: GetName
+    href: NSTicketMessageHeader/GetName.md
+  - name: SetName
+    href: NSTicketMessageHeader/SetName.md
+  - name: GetValue
+    href: NSTicketMessageHeader/GetValue.md
+  - name: SetValue
+    href: NSTicketMessageHeader/SetValue.md
 - name: NSTicketPriority
   href: NSTicketPriority/GetId.md
   items:
