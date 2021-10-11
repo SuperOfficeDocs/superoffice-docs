@@ -1,7 +1,7 @@
 ---
-title: PSWinCom
+title: Link Mobility (PSWinCom)
 uid: pswincom_sms_plugin
-description: PSWinCom NetServer SMS plugin
+description: Link Mobility (PSWinCom) NetServer SMS plugin
 author: {github-id}
 keywords:
 so.topic: howto
@@ -9,7 +9,7 @@ so.topic: howto
 
 # PSWinCom
 
-This document describes how to set up the PSWinCom NetServer SMS plugin to use in Customer Service. You need to set up an account with [PSWinCom][1] to get a username and password to connect to their service.
+This document describes how to set up the Link Mobility PSWinCom NetServer SMS plugin to use in Customer Service. You need to set up an account with Link Mobility and refer to the [PSWinCom][1] Gateway to get a username and password to connect to their service.
 
 ## Outgoing SMS Configuration from SuperOffice 8.0 SR3
 
