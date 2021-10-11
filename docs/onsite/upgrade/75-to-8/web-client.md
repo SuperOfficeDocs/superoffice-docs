@@ -16,8 +16,8 @@ These are the recommended steps for upgrading from SuperOffice 7 Web to SuperOff
 ## Before you begin
 
 * Check the [system requirements][3] for SuperOffice 8 Web.
-* [Upgrade your database][1] to version 8.1 using **ServerSetup.exe**.
-* If using remote NetServer for Web: [upgrade the NetServer][2] used by Web to version 8.1.
+* [Upgrade your database][1] to version 8 using *ServerSetup.exe*.
+* If using remote NetServer for Web: [upgrade the NetServer][2] used by Web to version 8.
 * Download and unzip the Web installer package on your server.
 
 [!include[ALT](../../../includes/warn-upgrade-all-to-same-version.md)]
@@ -41,7 +41,7 @@ We recommend using the same NetServer for both CRM Web and Service for a more l
 
 5. In the next dialog select the website and/or virtual directory for your installation and specify a name for the new virtual directory, leave the default **SuperOffice** or if you want to install SuperOffice Web or SuperOffice NetServer (web services) on the root level of a website you can leave the virtual directory name blank (only recommended if you have good knowledge of IIS works).
 
-6. If the dropdown under select website is blank, you need to turn on the Windows feature "IIS 6 Management Compatibility and IIS 6 Management Console" under **Turn Windows features on or off**.
+6. If the dropdown under select website is blank, you need to [turn on the Windows feature][6] "IIS 6 Management Compatibility and IIS 6 Management Console" under **Turn Windows features on or off**.
 
 7. Click **Install** to begin the installation process.
 
@@ -75,3 +75,4 @@ We recommend using the same NetServer for both CRM Web and Service for a more l
 [3]: ../../requirements/index.md
 [4]: ../../security/deployment-scenarios.md
 [5]: index.md
+[6]:../../install/iis/index.md

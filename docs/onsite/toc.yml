@@ -109,7 +109,7 @@ items:
         href: upgrade/75-to-8/netserver.md
       - name: Windows client
         href: upgrade/75-to-8/win-client.md
-    - name: To version 8.1
+    - name: To version 8.1 - 8.5
       href: upgrade/to-81/index.md
       items:
       - name: Using old Service domain
@@ -120,6 +120,8 @@ items:
         href: upgrade/to-81/using-new-domains.md
       - name: Move CRM Server
         href: upgrade/to-81/move-crm-server.md
+    - name: To version 9
+      href: upgrade/to-9/index.md        
   - name: Config
     href: config/index.md
     expanded: true

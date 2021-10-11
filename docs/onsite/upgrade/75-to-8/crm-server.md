@@ -11,30 +11,28 @@ so.envir: onsite
 
 # Upgrade CRM Server to version 8
 
-SuperOffice CRM onsite is scalable, flexible, and simple to use. The biggest benefit of an onsite installation is that you can control the CRM software, in-house.
-
 **SuperOffice 8.0 is a major-sized technical upgrade.** This means that:
 
 * Database will be upgraded (not a rebuild).
 * New version of web services. Note that old versions back to Services73 are available.
-* Check with your 3.rd party vendor if their modules are 8 ready.
+* Check with your 3rd party vendor if their modules are 8 ready.
 * All travelers must be in.
 * All Satellites must be re-generated after the upgrade.
 
 ## Prerequisites and preparations
 
-* You must be running version 7.5 before upgrading to 8.0.
+* You must be running SuperOffice version 7.5 before upgrading to 8.0.
 
 > [!NOTE]
 > If you have used SuperOffice for a long time and renamed labels inside the product, there is a fix in SuperOffice 7.5 SR1 that will move the labels to the correct new database table.
 
 * The CRM server must be installed before you install any one of our clients (Win, Web, Service, Pocket), this is where you set up the database and it will also create a client setup for using the Windows App.
 
-* Since version 8, we now require ALL server components needed to be installed in all scenarios.
+* Since SuperOffice version 8, we now require ALL server components needed to be installed in all scenarios.
 
 [!include[ALT](../../../includes/warn-upgrade-all-to-same-version.md)]
 
-To complete a normal SuperOffice 8 server installation, you need to install ALL:
+To complete a normal SuperOffice 8 Server installation, you need to install ALL:
 
 1. CRM Server
 2. NetServer
@@ -44,7 +42,7 @@ To complete a normal SuperOffice 8 server installation, you need to install ALL:
 
 SuperOffice Web, Customer Service, and Pocket CRM can all use a single NetServer or a separate NetServer for each.
 
-If the customer is to use windows clients locally on one or more computers, windows client installation is needed.
+If the customer is to use Windows clients locally on one or more computers, Windows client installation is needed.
 
 ## How to upgrade SuperOffice CRM Server to 8 with travel/satellites
 
@@ -74,7 +72,7 @@ In the screen "Select upgrade of standard reports" you can let the default selec
 
 If you uncheck the checkbox, only new standard reports will be installed, the existing standard reports will remain as they are, so no new layout or features will be available in them. User-defined reports will not be touched.
 
-Standard reports can be imported later with the program SoRepImp.exe or StdRepImp.exe (in the folder STDReportFiles on the CD) in the  All or just some reports can then be selected.
+Standard reports can be imported later with the program SoRepImp.exe or StdRepImp.exe (in the folder STDReportFiles on the CD) in the All or just some reports can then be selected.
 
 Standard reports can also be imported with DbSetup.exe, there are sections in *Sotables.ini* for Importing the new standard reports, and for importing all.
 

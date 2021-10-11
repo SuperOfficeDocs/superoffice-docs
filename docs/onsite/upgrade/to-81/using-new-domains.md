@@ -9,11 +9,11 @@ so.envir: onsite
 # so.client:
 ---
 
-# Upgrade to 8.1 when choosing a brand new domain for both clients
+# Upgrade to 8.1 or newer when choosing a brand new domain for both clients
 
 ![Move both Sales web client and Service to a new domain -screenshot][img8]
 
-1. Run **SuperOffice SM.win** **SetupExe.exe** installer to upgrade the server and the database to 8.1.
+1. Run **SuperOffice SM.win** **SetupExe.exe** installer to upgrade the server and the database.
 
 2. Run **SuperOffice.CustomerService.exe** to Install Service and choose to let the installer create the IIS website.
 
@@ -27,7 +27,7 @@ so.envir: onsite
     * Copy/move attachments/templates and customer center folders from the old installation to the new.
     * Run queries to update the absolute that will be found in the database.
     * Consider if a redirect should be added so customers using old URLs will be redirected correctly to the new.
-    * Run `upgrade.exe -d newdomain` to make sure Service is upgraded to 8.1 as well.
+    * Run `upgrade.exe -d newdomain` to make sure Service is upgraded as well.
 
 <!-- Referenced links -->
 [2]: move-crm-server.md

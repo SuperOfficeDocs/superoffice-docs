@@ -30,27 +30,25 @@ Use file copy to copy the so_arc with sub-folders from the old location to the n
 
 All SuperOffice Windows users and the impersonate user used in SuperOffice Web configuration must have full control rights for the SO_Arc folder in the new location.
 
-There are also other 4 places where you will need to make a change to the new SO Arc folder reference for the installation to work.
+There are also other 4 places where you will need to make a change to the new SO_Arc folder reference for the installation to work.
 
 1. In the *SuperOffice.ini* file (Archivepath line) found in SuperOffice Server installation’s folder.
 
     ![imageoa6c9.png -screenshot][img4]
 
-    ![imagei4ebl.png -screenshot][img5]
+    Open the SuperOffice.ini file and change the Archivepath to the new value.
 
-2. In *SuperOffice.ini* file (Archivepath line) on all computers that have SuperOffice Windows application installed.
+ 2. In *SuperOffice.ini* file (Archivepath line) on all computers that have SuperOffice Windows application installed.
 
     ![image7byzr.png -screenshot][img6]
 
-    ![imageitfv.png -screenshot][img7]
+    Open the SuperOffice.ini file on all client computers and change the Archivepath to the new value.
 
 3. In SuperOffice Web application's Product configuration, Document archive section, Archive path location.
 
-    ![image3bdb8.png -screenshot][img8]
-
     ![imageitk5g.png -screenshot][img9]
 
-4. Finally you want to create a new .mst file and remove the old one so that all the new SuperOffice Windows application installations will automatically have the correct SO Arc reference.
+4. Finally you want to create a new .mst file and remove the old one so that all the new SuperOffice Windows application installations will automatically have the correct SO_Arc reference.
 
     ![imagep6lxc.png -screenshot][img10]
 
@@ -58,7 +56,7 @@ There are also other 4 places where you will need to make a change to the new SO
 
 ## SuperOffice database on Microsoft SQL Server or Oracle
 
-If you have access to both the new and the old database server, then using DBsetup to [rebuild][1] the database from old to new datasource is the fastes option.
+If you have access to both the new and the old database server, then using DBsetup to [rebuild][1] the database from old to new data source is the fastest option.
 
 If you do not have access to the new database server from the old database server, then you may [export][1] the database as an SDA file from DBSetup on the old server and use DBSetup to import the SDA file.
 
@@ -177,9 +175,6 @@ All the eMarketing messages sent out before the move will contain links pointing
 [img2]: media/productconfigurationdbsettings.png
 [img3]: media/productconfigurationdocumentsettings.png
 [img4]: media/imageoa6c9.png
-[img5]: media/imagei4ebl.png
 [img6]: media/image7byzr.png
-[img7]: media/imageitfv.png
-[img8]: media/image3bdb8.png
 [img9]: media/imageitk5g.png
 [img10]: media/imagep6lxc.png

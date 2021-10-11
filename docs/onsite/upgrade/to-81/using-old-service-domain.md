@@ -9,11 +9,11 @@ so.envir: onsite
 # so.client:
 ---
 
-# Upgrade to 8.1 when using the old Service domain
+# Upgrade to 8.1 or newer when using the old Service domain
 
 ![Move Sales web client to Service domain -screenshot][img4]
 
-1. Run the **SuperOffice SM.win** **SetupExe.exe** installer to upgrade the server and the database to 8.1.
+1. Run the **SuperOffice SM.win** **SetupExe.exe** installer to upgrade the server and the database.
 
 2. Run the **SuperOffice.CustomerService.exe** to upgrade Service software.
 
