@@ -7,7 +7,7 @@ keywords:
 so.topic: howto
 ---
 
-# PSWinCom
+# Link Mobility (PSWinCom)
 
 This document describes how to set up the Link Mobility PSWinCom NetServer SMS plugin to use in Customer Service. You need to set up an account with Link Mobility and refer to the [PSWinCom][1] Gateway to get a username and password to connect to their service.
 
