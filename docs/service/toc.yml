@@ -67,7 +67,7 @@ items:
     - name: Intelecom
       href: sms/intelecom.md
     - name: Link Mobility
-      href: sms/pswincom.md
+      href: sms/linkmobility.md
     - name: SMSTeknik
       href: sms/smsteknik.md
     - name: Twilio
