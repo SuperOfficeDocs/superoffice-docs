@@ -248,6 +248,14 @@ Adjust the query to pick up `contact_id`, `OrgNr`, and order it by the primary k
 
 Archive searches accept a wide variety of [search operators][21]. Difference data types can have different operators. Each OData search page contains a table of data types and their associated operators.
 
+#### Optimization
+
+Optimized searches means putting in as many restrictions as possible that will translate to good SQL, thereby off-loading the heavy lifting to the database server. Therefore, consider the following recommendations:
+
+1. Always use an __$orderby__={primarykey}
+2. Strongly suggest use a __$filter__={criteria} (especially when using __\$top__)
+3. If using __\$top__, use __\$skip__ for further optimization. (do __NOT__ ask for all records every request)
+
 ### Polling
 
 While there may be scenarios where polling the `traveltransactionlog` (TTL) table is necessary, it is rarely a good idea and should be considered a last resort.
