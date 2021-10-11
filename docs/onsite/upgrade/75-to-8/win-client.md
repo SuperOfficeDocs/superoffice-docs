@@ -35,7 +35,7 @@ Make sure the [system requirements][8] for the computer are met.
 
 ## Step 2 - Run SuperOffice8.exe to start the installation
 
-To install the client - run the MSI Installer **SuperOffice8.exe** found in the *Server\Client* folder.
+To install the client - run the MSI Installer *SuperOffice8.exe* found in the *Server\Client* folder.
 
 Read more about running the installer and installing the client under [Install Windows client][6].
 
@@ -57,7 +57,7 @@ Since you are upgrading the client on a computer, there is information you can u
 
     ![run_centralpath -screenshot][img3]
 
-3. Find the folder *Client* on the server and run **SuperOffice8.exe**
+3. Find the folder *Client* on the server and run *SuperOffice8.exe*
 
 ## Step 3 - Start SuperOffice
 

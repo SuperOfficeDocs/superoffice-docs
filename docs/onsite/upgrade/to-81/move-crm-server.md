@@ -175,9 +175,6 @@ All the eMarketing messages sent out before the move will contain links pointing
 [img2]: media/productconfigurationdbsettings.png
 [img3]: media/productconfigurationdocumentsettings.png
 [img4]: media/imageoa6c9.png
-[img5]: media/imagei4ebl.png
 [img6]: media/image7byzr.png
-[img7]: media/imageitfv.png
-[img8]: media/image3bdb8.png
 [img9]: media/imageitk5g.png
 [img10]: media/imagep6lxc.png

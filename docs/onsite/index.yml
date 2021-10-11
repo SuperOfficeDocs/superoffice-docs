@@ -88,9 +88,12 @@ conceptualContent:
       - title: Upgrade
         summary: Upgrade your onsite SuperOffice installation
         links:
+          - url: upgrade/to-9/index.md
+            itemType: how-to-guide
+            text: To version 9        
           - url: upgrade/to-81/index.md
             itemType: how-to-guide
-            text: To version 8.1
+            text: To version 8.1 - 8.5
           - url: upgrade/75-to-8/index.md
             itemType: how-to-guide
             text: To version 8.0
