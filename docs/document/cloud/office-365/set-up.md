@@ -119,7 +119,7 @@ This selection will fail if SuperOffice 'content types' are not set up in ShareP
 3. Open "Active sites", and open the root area – by clicking the link `https://[your_domain_name].sharepoint.com` from the list
 4. Click the settings wheel-> Site Settings -> Site Content Types.
 
-    ![imageu49ea.png][13]
+    ![imageu49ea.png][img13]
 
     ![x -screenshot][img14]
 
