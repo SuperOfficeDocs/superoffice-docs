@@ -8,7 +8,7 @@ so.topic: reference
 
 # String GetNetServerSmsProvider()
 
-Name of the selected provider, i.e. CM, Compaya SMS (cpsms.dk), Intelecom SMS, PSWinCom SMS, SMS Teknik or TXTLocal.
+Name of the selected provider, i.e. CM, Compaya SMS (cpsms.dk), Intelecom SMS, Link Mobility SMS, SMS Teknik or TXTLocal.
 
 **Returns:** String
 
