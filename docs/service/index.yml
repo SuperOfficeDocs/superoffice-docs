@@ -124,9 +124,9 @@ conceptualContent:
       - url: sms/intelecom.md
         itemType: how-to-guide
         text: Intelecom
-      - url: sms/pswincom.md
+      - url: sms/linkmobility.md
         itemType: how-to-guide
-        text: PSWinCom
+        text: Link Mobility
       - url: sms/smsteknik.md
         itemType: how-to-guide
         text: SMSTeknik

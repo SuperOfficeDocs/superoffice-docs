@@ -64,7 +64,7 @@ You may read more about how to use the SMS plugins in the [help file][1]. The i
 * [CM][4]
 * [Compaya][5]
 * [Intelcom][6]
-* [PSWinCom][7]
+* [Link Mobility][7]
 * [SMSTeknik][8]
 * [Twilio][9]
 * [TxtLocal][10]
@@ -76,7 +76,7 @@ You may read more about how to use the SMS plugins in the [help file][1]. The i
 [4]: cm.md
 [5]: compaya.md
 [6]: intelecom.md
-[7]: pswincom.md
+[7]: linkmobility.md
 [8]: smsteknik.md
 [9]: twilio.md
 [10]: txtlocal.md
