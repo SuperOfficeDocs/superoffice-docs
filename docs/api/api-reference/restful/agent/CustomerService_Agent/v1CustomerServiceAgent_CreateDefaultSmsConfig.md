@@ -50,7 +50,7 @@ Response body: object
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DefaultSmsCountry | string | Phone prefix, will default to the current users HomeCountryId. |
-| NetServerSmsProvider | string | Name of the selected provider, i.e. CM, Compaya SMS (cpsms.dk), Intelecom SMS, PSWinCom SMS, SMS Teknik or TXTLocal. |
+| NetServerSmsProvider | string | Name of the selected provider, i.e. CM, Compaya SMS (cpsms.dk), Intelecom SMS, Link Mobility SMS, SMS Teknik or TXTLocal. |
 | NsPluginSender | string | The sender of the SMS messages. This text will appear on the recipient's mobile phone. |
 | NsPluginConfig | object | Configuration settings provided by the SMS provider. Typically contains newline-delimited settings such as username and password. |
 | TableRight |  |  |

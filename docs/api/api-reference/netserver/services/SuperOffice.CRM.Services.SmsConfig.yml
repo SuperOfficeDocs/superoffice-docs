@@ -185,7 +185,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nName of the selected provider, i.e. CM, Compaya SMS (cpsms.dk), Intelecom SMS, PSWinCom SMS, SMS Teknik or TXTLocal. \n"
+  summary: "\nName of the selected provider, i.e. CM, Compaya SMS (cpsms.dk), Intelecom SMS, Link Mobility SMS, SMS Teknik or TXTLocal. \n"
   syntax:
     content: public virtual string NetServerSmsProvider { get; set; }
     parameters: []
