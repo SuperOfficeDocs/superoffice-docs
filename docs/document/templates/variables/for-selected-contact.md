@@ -44,8 +44,7 @@ so.topic: reference
 | atfa | Direct fax (Attention Fax) |
 | atfi | Direct fax, ID (hidden, unique ID) |
 | atfn | First name |
-| ati |
-| First name (first letter followed by stop) |
+| ati | First name (first letter followed by stop) |
 | atid | Contact ID (hidden, unique ID) |
 | atin | First name (first letter) |
 | atln | Last name |
