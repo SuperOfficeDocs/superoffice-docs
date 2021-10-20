@@ -161,7 +161,7 @@ additionalContent:
       - title: Continuous online release schedule
         links:
           - text: What's new in latest release
-            url: https://community.superoffice.com/en/product-releases/release-notes/whats-new-document/
+            url: ../../release-notes/index.md
           - text: Current release schedule 
             url: https://community.superoffice.com/en/product-releases/release-notes/
       # Card
