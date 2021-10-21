@@ -18,7 +18,7 @@ Congratulations, your custom application is ready!
 
 * Your custom application has [passed validation][1].
 
-By activating a custom application, the owner of the tenant agrees to [subscribe to Expander Services][2].
+By activating a custom application, the owner of the tenant agrees to [subscribe to Developer Tools][2] (formerly Expander Services).
 
 ## First-time activation
 

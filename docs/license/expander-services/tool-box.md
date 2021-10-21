@@ -1,21 +1,66 @@
 ---
-title: Toolbox
-uid: tool_box
-description: Expander Services toolbox - contents and usage
+title: Developer Tools - contents and usage
+uid: expander_services_developer_tools
+description: Developer Tools is a subscription-based license part of Expander Services and available to all customers.
 author: {github-id}
-keywords:
+keywords: expander services, developer tools
 so.topic: concept
 so.envir: cloud
 so.client: online
 ---
 
-# Expander Services toolbox - contents and usage
+# Developer Tools - contents and usage
 
-Inside Expander Services, you find the SuperOffice APIs, CRMScript, extra database tables, and custom screens. These tools allow you to tailor the CRM system to suit your business needs.
+Developer Tools is a **subscription-based** license part of Expander Services and available to all customers. It doesn’t matter if you run SuperOffice CRM in the cloud or have it installed on your premises.
+
+* You get the ability to create workflows using Macros, a ready set of if-this-then-that rules within SuperOffice.
+* You can use the embedded CRMScripting, a more flexible and advanced workflow engine.
+* You are able to expand the table structure and open up for even more dimensions for case and relationship handling.
+* Custom screen tools make it possible to adapt and build new screens in the solution, and to embed logic required to automate processes/events.
+* The Configurable Screens feature lets you define the main screens within SuperOffice CRM.
+
+These development tools can be accessed via the Settings and maintenance client and require little or low level of technical skills.
+
+In addition, using the well documented APIs, you can create your own integrations and applications that works together with SuperOffice and develop and test these with a sandbox tenant.
+
+## How does Developer Tools work?
+
+When you subscribe to Developer Tools, additional options become available in the **Settings and maintenance** module.
+
+The license is added to your [tenant][9] through SuperOffice Operation Center and billed monthly to the customer.
+
+You may continue to use Developer Tools as often you like until you cancel the subscription. You may add as many customizations that you want without affecting the subscription fee.
+
+No [custom application][5] will be made available to your SuperOffice CRM Online solution unless subscribed. If the customer cancels their subscription, the application will be deactivated/unavailable.
+
+> [!NOTE]
+> API usage (a metered costs) is activated by the use of some of these tools.
+
+## When do you need to buy Developer Tools?
+
+If you need access to the SuperOffice APIs or any of the advanced extensibility features, you probably need to subscribe to Developer Tools. Pricing is listed at [superoffice.com][10].
+
+| Scenario/envir | Online | On-premise |
+|----------------|--------|------------|
+| Use customization tools in Settings and maintenance | no | no |
+| Publish standard application | no (embedded) | yes |
+| Activate custom application | yes | yes |
+
+You *don't* need to buy Developer Tools to use the standard customization tools available in the **Settings and maintenance** module. You are free to customize your solution using, for example, your definition of lists, privacy settings, templates, sales and project guides, and user-defined fields.
+
+Furthermore, you *don't* need an Developer Tools license if your company runs SuperOffice CRM in the cloud and you want to use any of the [standard applications][6] available in [the SuperOffice App Store][7].
+
+However, if you are running SuperOffice CRM on your premises, you *always* need to have Developer Tools to add integrations or customizations to your solution, whether these are customized for you or standard add-ons.
+
+The same goes for all [custom SuperOffice CRM Online applications][5]. You can either build your own or [contact vendors directly][8] and find out what options there are to create a tailored version of these applications for your business. The vendors can tell you whether an application is available for you if you run SuperOffice CRM on your premises.
+
+## How do I get Developer Tools?
+
+Application developers get access to Developer Tools [when registering][11]. Customers can contact their local SuperOffice partner or representative to get recommendations for their specific business needs.
 
 Which of these customization tools you use will depend on your requirements, the skills you have to use them, and your willingness to pay for expertise.
 
-## What's inside Expander Services?
+## What's inside Developer Tools?
 
 ### CRMScript: Customize your workflows and automations
 
@@ -33,7 +78,7 @@ SuperOffice CRM comes with a set of pre-defined tables where you can store data.
 
 Some of the default tables are flexible: you can define what type of data and properties these tables should have. These **user-defined fields** allow you to add dates, numbers, text- or check-boxes and you can place them on the company, project, or appointment cards.
 
-If you need more tables, you can add extra tables to the database when you subscribe to [Expander Services][3].
+If you need more tables, you can add extra tables to the database when you subscribe to [Developer Tools][3].
 
 * Users with a SuperOffice Service [user plan][4] have full access to these tables and can view, edit, search, and include in data reports.
 * Users with a Standard, Sales, or Marketing user plan can access extra tables via web panels (additional tabs). These users can only view and edit information. They can't search (or define selections) extra tables, and the data can't be included in reports or dashboards.
@@ -42,7 +87,7 @@ To add extra tables requires technical knowledge. Usually, extra tables are used
 
 ### Custom screens: Create new screens in Service to support your specific processes
 
-With Expander Services, you can create new screens in SuperOffice Service to fit your specific business processes.
+With Developer Tools, you can create new screens in SuperOffice Service to fit your specific business processes.
 
 For example, if you need something other than out-of-the-box information to register a new service ticket, you can customize the system.
 
@@ -52,21 +97,20 @@ Custom screens created for SuperOffice Service can be made available to users wi
 
 You’ll need substantial technical knowledge to create custom screens.
 
-### SuperOffice APIs: Create one-off customizations by using developers' tools
+### SuperOffice APIs: Create one-off customizations
 
 Finally, you also get access to all available SuperOffice APIs:
 
 * REST and SOAP web services
 * WebHooks
 * Connectors
-* Database Mirroring Service
 * Integration Servers
 
 The APIs are bundled in a **Software Development Kit** (SDK), which contains documentation, guides, tutorials, example code, and downloads.
 
 Software partners of SuperOffice typically use the SDK when developing standard applications and integrations that they offer as products in the SuperOffice App Store.
 
-## What can Expander Services tools be used for?
+## What can Developer Tools tools be used for?
 
 * You can customize how users interact with SuperOffice CRM in terms of what they can see or do in it.
 * You can customize SuperOffice Service, by adding extra tables and screens or creating new scripts and new macros.
@@ -82,3 +126,9 @@ As your needs grow, so the capabilities of your CRM solution can expand.
 [3]: index.md
 [4]: ../user-plans.md
 [5]: ../../apps/custom.md
+[6]: ../../apps/standard.md
+[7]: https://online.superoffice.com/appstore/
+[8]: https://www.superoffice.com/company/partners/
+[9]: ../../apps/terminology.md
+[10]: https://www.superoffice.com/pricing/
+[11]: ../../apps/getting-started/get-access-to-sod.md
