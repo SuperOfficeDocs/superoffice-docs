@@ -24,11 +24,11 @@ Administrators can add users one by one in the Admin client.
 
     * Make sure the SuperOffice **User name** is equal to the username (UPN) in your IdP system if using [federated sign-in][1]] for this domain.
 
-    * Assign groups and a [role][2]].
+    * Assign groups and a [role][2].
 
     * Select the licenses (user plans) you want to assign.
 
-        ![Add user  -screenshot][img1]
+        ![Add user -screenshot][img1]
 
 4. Click **Save**. Users will receive an invitation email in their inbox and need to click the activation link to enable the account.
 
