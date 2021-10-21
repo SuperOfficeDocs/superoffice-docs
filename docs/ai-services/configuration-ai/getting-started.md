@@ -3,7 +3,7 @@ title: config categorization AI Services
 description: How to setup and configure Categorization AI Service
 author: AnthonyYates
 keywords: AI
-so.topic: guide,howto
+so.topic: guide, howto
 so.envir: cloud
 so.client: online
 ---
@@ -23,7 +23,7 @@ The Machine-learning categorization service is enabled in Settings and Maintenan
 
 1. Open the Sales client.
 
-2. Create a selection of request to use for analysis:
+2. Create a selection of requests to use for analysis:
      * Click either **Find** or **New > Selection**.
 
     ![x -screenshot][img2]
@@ -52,7 +52,7 @@ The Machine-learning categorization service is enabled in Settings and Maintenan
 > [!NOTE]
 > There is a limit on 5000 requests. If the selection is larger, we only analyze the first 5000 requests.
 
-## Step 2 - Choose the selection of request to use for analysis
+## Step 2 - Choose the selection of requests to use for analysis
 
 > [!NOTE]
 > You must have created a selection of the request in the Sales client before continuing. See step 1 above.
