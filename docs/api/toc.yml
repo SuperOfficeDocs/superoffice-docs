@@ -222,6 +222,8 @@ items:
     href: netserver/entities/events.md
   - name: Entity activity links
     href: netserver/entities/activity-links.md
+  - name: Nested persist
+    href: netserver/entities/nested-persist.md
   - name: How to...
     items:
     - name: Get an entity
