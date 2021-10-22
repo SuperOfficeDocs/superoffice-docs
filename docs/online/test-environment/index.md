@@ -1,24 +1,26 @@
 ---
-title: Introduction
+title: Test environment (production sandbox)
 uid: test_envir
 description: SuperOffice test environment
 author: {github-id}
-keywords:
+keywords: test environment, sandbox, production sandbox environment 
 so.topic: concept
 so.envir: cloud
 so.client: online
 ---
 
-# Test environment
+# Test environment (production sandbox)
 
 Customers and partners can buy their own test tenant in production based on a copy of their production data.
 
-The test [tenant][1] may be replaced with a [newer copy][2] of their production database after the initial setup.
+This **sandbox** provides you with a copy of your company’s database, including configuration and data, which you can then test, explore new configurations, new apps, and integrations as well as use for training purposes without the risk of disturbing your current use of SuperOffice CRM. It gives you the testing ground to ensure that your plans for your CRM strategy can be optimized before you onboard your users.
+
+The test [tenant][1] may be replaced with a [newer copy][2] of their production database after the initial setup. Regular updates of your data are included in the subscription.
 
 To buy your own test environment, please contact your local sales representative. The initial setup is handled by SuperOffice AS/Online Operation.
 
 > [!TIP]
-> You don't need the same amount of [user plans][3] in the test environment. We assume most will have just a few test users or developers with access to the test tenant.
+> You don't need the same amount of [user plans][3] in the test environment. We assume most will have just a few test users or developers with access to the test tenant. It is entirely up to you how many and the type of plans you add.
 
 The test environment is a **dead end**. We will not make it possible to migrate data back into the production environment from this test environment.
 
@@ -31,7 +33,7 @@ Yes, almost. All the customer data, like company, contact, sale, and project are
 
 * We removed all login information and emails from email accounts set up by your users that use the SuperOffice inbox.
 
-* We also removed all email account set up to use with Service and created a new for this environment only.
+* We also removed all email account set up to use with Service and created a new one for this environment only.
 
 * We close any open ticket in Service.
 
@@ -65,7 +67,7 @@ Each SuperOffice database sends information to us, that is both Onsite from vers
 
 When this is accepted, we will be updated if you for example retire an associate in your database. Now, if this is the production database and a real user that has been marked as retired, then this is OK. On the other hand, if you have made a copy of your production database, and as a test delete all users or several users, then this will affect you and your colleagues’ login to this community.
 
-Also, we gather user statistics, this is information like how many rows are there in the contact table, appointment table, sale table and so on, giving us an indication on how our customers use our product (not what they store in it) and it helps us make our products even better. But for the statistics to be useful we only want it from the production database where it is in real use, and not from your test database.
+Also, we gather user statistics, this is information like how many rows are there in the contact table, appointment table, sale table, and so on, giving us an indication of how our customers use our product (not what they store in it) and it helps us make our products even better. But for the statistics to be useful we only want it from the production database where it is in real use, and not from your test database.
 
 > [!CAUTION]
 > So, if you choose to copy your production database and this addendum is accepted, then each test installation must turn off the **Statistics OptIn - Configured** and **UserSync OptIn - Configured**.
@@ -75,7 +77,7 @@ To turn off these settings, set both preferences to **No**.
 ![x -screenshot][img2]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/index.htm#t=chap08%2FWebpanel.htm&rhsearch=web%20panel&rhsyns=%20
+[1]: https://community.superoffice.com/documentation/help/en/crm/10.0/webhelpadmin/index.htm#t=chap08%2FWebpanel.htm
 [2]: replace.md
 [3]: ../../license/user-plans.md
 

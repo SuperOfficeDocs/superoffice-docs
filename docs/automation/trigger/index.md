@@ -36,7 +36,7 @@ There are two ways to find your way to the fun that is CRMScript:
 * In Service, click the cogwheel in the top right corner, click **System design** and then **CRMScript**.
 
 > [!NOTE]
-> Creating scripts (not macros) will require the Expander Services license. This is an additional cost per site.
+> Creating scripts and macros will require the Developer Tools license (formerly Expander Services). This is an additional cost per site.
 
 ## What kind of triggers can I create?
 
