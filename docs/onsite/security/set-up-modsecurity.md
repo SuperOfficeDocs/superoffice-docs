@@ -17,8 +17,8 @@ The linked configuration files are tested with ModSecurity v.2.9.2-1 for IIS and
 
 ## Before you begin
 
-1. [Download ModSecurity][2]
-2. [Download Visual Studio 2013 Runtime][3] (VCredist). Note that there are two versions (64-bit and 32-bit)
+1. [Download ModSecurity][2].
+2. [Download Visual Studio 2013 Runtime][3] (VCredist). Note that there are two versions (64-bit and 32-bit).
 
 ## Install
 
@@ -41,7 +41,7 @@ Where: on the server that is functioning as our reverse proxy
 ## Configure ModSecurity to function with SuperOffice
 
 By default, the rule-set will trigger some false positives. We are going to disable a few rules to avoid false positives. 
-[Download][4] the *modsecurity_crs_70_superoffice.conf* file containing the whitelisted rules.
+<a href="../../assets/downloads/modsecurity_crs_70_superoffice.zip" download>Download</a> the *modsecurity_crs_70_superoffice.conf* file containing the whitelisted rules.
 
 1. Copy the file *modsecurity_crs_70_superoffice.conf* into the folder *C:\Program Files\ModSecurity IIS\owasp_crs\base_rules*. This is the default installation path for ModSecurity. If you chose something else during the installation, you need to change the path accordingly.
 
@@ -65,7 +65,6 @@ By default, the rule-set will trigger some false positives. We are going to disa
 [1]: https://www.modsecurity.org/
 [2]: https://www.modsecurity.org/download.html
 [3]: http://www.microsoft.com/en-us/download/details.aspx?id=40784
-[4]: ../../assets/downloads/modsecurity_crs_70_superoffice.zip
 
 <!-- Referenced images -->
 [img1]: media/modsecurityevent.jpg
