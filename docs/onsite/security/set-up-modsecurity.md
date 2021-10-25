@@ -65,10 +65,9 @@ By default, the rule-set will trigger some false positives. We are going to disa
 [1]: https://www.modsecurity.org/
 [2]: https://www.modsecurity.org/download.html
 [3]: http://www.microsoft.com/en-us/download/details.aspx?id=40784
-[4]: media/modsecurity_crs_70_superoffice.conf
+[4]: ../../assets/downloads/modsecurity_crs_70_superoffice.zip
 
 <!-- Referenced images -->
 [img1]: media/modsecurityevent.jpg
 [img2]: media/configurationeditor.jpg
 [img4]: media/configurationeditorso.jpg
-[img5]: media/eventviewerlog.jpg
