@@ -71,3 +71,4 @@ By default, the rule-set will trigger some false positives. We are going to disa
 [img1]: media/modsecurityevent.jpg
 [img2]: media/configurationeditor.jpg
 [img4]: media/configurationeditorso.jpg
+[img5]: media/eventviewerlog.jpg
