@@ -32,7 +32,9 @@ Where: on the server that is functioning as our reverse proxy
 
     ![ModSecurity -screenshot][img1]
 
-4. ModSecurity installs for all IIS sites by default. This may break things so you may want to disable it in the beginning. This can be done in the "Configuration Editor" for each site.
+4. ModSecurity installs for all IIS sites by default. This may break things so you may want to disable it in the beginning. This can be done in the Configuration Editor for each site.
+
+    Open IIS Manager, select the corresponding site and then open *Configuration Editor* from the *Management* section. Use the *Section* dropdown to select `system.webServer/ModSecurity`. Change the value for `enabled` from True to **False** to disable ModSecurity for this site.
 
     ![configurationeditor.jpg -screenshot][img2]
 
@@ -50,6 +52,8 @@ By default, the rule-set will trigger some false positives. We are going to disa
     `Include owasp_crs\base_rules\modsecurity_crs_70_superoffice.conf`
 
 3. After doing this we need to activate ModSecurity by changing the `enabled` setting to **True** in the `system.webServer/ModSecurity` section of each website you want ModSecurity to run for. Note that these rules are tuned to work with SuperOffice, they may give a lot of false positives if you run them "as-is" for other websites.
+
+    Open IIS Manager, select the corresponding site and then open *Configuration Editor* from the *Management* section. Use the *Section* dropdown to select `system.webServer/ModSecurity`. Change the value for `enabled` to **True**.
 
     ![Configuration Editor -screenshot][img4]
 
