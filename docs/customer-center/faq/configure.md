@@ -26,7 +26,7 @@ If nothing is returned by this query, first go to your Customer center and FAQs 
     * 1 = customer (these are people that are logged in to the customer portal)
     * 2 = all - also anonymous users
 
-3. After you enable these settings you will see the comments show up
+3. After you enable these settings you will see the comments show up.
 
 ![x -screenshot][img2]
 

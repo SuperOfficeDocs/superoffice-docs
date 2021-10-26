@@ -30,6 +30,8 @@ Some parser variables that exist will not be described. These are present only f
 
 It really depends on where the reply template is being used. Below the most common places to use them will be listed.
 
+[!include[License requirement](../includes/req-service-essentials.md)]
+
 ### Request
 
 The same parser variables are available for new requests, edit requests, and add messages.

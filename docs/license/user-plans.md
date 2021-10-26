@@ -1,5 +1,5 @@
 ---
-title:  User plans
+title: User plans
 uid: user_plans
 description: SuperOffice user plans and subscriptions
 author: {github-id}
@@ -12,7 +12,7 @@ so.client: online
 
 # SuperOffice user plans and subscriptions
 
-You can choose from 3 stand-alone **solutions** - Sales, Marketing, and Service - based on different roles in your company. Within each solution there are tiers - the **Essential** and **Premium** plan. Find the correct plans to base your application on.
+You can choose from 3 stand-alone **solutions** - Sales, Marketing, and Service - based on different roles in your company. Within each solution, there are tiers - the **Essential** and **Premium** plans. Find the correct plans to base your application on.
 
 All solutions can have different add-ons. An add-on is a software extension that adds extra features to a program. It may extend certain functions within the program's interface, or give the program additional capabilities.
 
@@ -63,7 +63,7 @@ User plans are identified by the `ExtraFlags` field being 1 on their module lice
 **Premium:**
 
 * Sales guide
-* Sales forecasting on product level
+* Sales forecasting on the product level
 * Dashboards with custom tiles
 * Stakeholders
 * Sale targets and KPIs
@@ -103,7 +103,7 @@ User plans are identified by the `ExtraFlags` field being 1 on their module lice
 * Mailings (personalized mass email)
 * Mailing service included (MailGun)
 * Drag and drop email designer
-* Company specific mailing templates
+* Company-specific mailing templates
 * Free mailing template library
 * Free image library built in
 * Google analytics tracking
@@ -115,7 +115,7 @@ User plans are identified by the `ExtraFlags` field being 1 on their module lice
 * Forms (Web forms)
 * Form submissions management with custom actions
 * Consent management in forms
-* Company specific form templates
+* Company-specific form templates
 * Free form template library
 * Double opt-in and landing pages on forms
 * Automatic Reply email on submissions

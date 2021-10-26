@@ -12,7 +12,10 @@ so.client:  online
 
 # System for Cross-domain Identity Management (SCIM)
 
-SCIM is a common language to describe what an identity is and how to handle it. With SuperOffice you can user SCIM to automate user provisioning from Azure AD.
+SCIM is a common language to describe what an identity is and how to handle it. With SuperOffice you can use SCIM to automate user provisioning from Azure AD.
+
+> [!NOTE]
+> This feature is part of Expander Services and requires a site-wide SCIM license.
 
 ## What is SCIM?
 
