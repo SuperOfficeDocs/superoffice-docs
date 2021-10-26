@@ -2,7 +2,7 @@
 title: SuperOffice AI Services - categorization
 description: SuperOffice AI Services - categorization
 author: AnthonyYates
-keywords: AI
+keywords: AI, machine learning
 so.topic: concept
 so.envir: cloud
 so.client: online
@@ -10,7 +10,9 @@ so.client: online
 
 # Categorization
 
-Categorization uses Machine learning for learning **which category a request in SuperOffice Service should have**, to automate more of the manual processing our users spend time on today.
+Save time by letting the system categorize requests for you. If this function is active, incoming email requests will be analyzed to determine the best category for each request.
+
+Categorization uses machine learning for learning **which category a request in SuperOffice Service should have**, to automate more of the manual processing our users spend time on today.
 
 For the system to form an opinion on/learn how to automatically categorize between the selected categories the system needs to be trained. This trains the system into understanding how to categorize the selected request.
 

@@ -10,4 +10,6 @@ items:
     items:
     - name: Getting started
       href: configuration-ai/getting-started.md
+  - name: Text analysis
+    href: text-analysis/index.md
   # Chat TBD
