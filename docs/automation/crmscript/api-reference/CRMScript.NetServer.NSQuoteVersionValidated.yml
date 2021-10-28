@@ -1,0 +1,445 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSQuoteVersionValidated
+  commentId: T:CRMScript.NetServer.NSQuoteVersionValidated
+  id: NSQuoteVersionValidated
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSQuoteVersionValidated.#ctor
+  - CRMScript.NetServer.NSQuoteVersionValidated.GetChangedQuote()
+  - CRMScript.NetServer.NSQuoteVersionValidated.GetChangedQuoteAlternatives()
+  - CRMScript.NetServer.NSQuoteVersionValidated.GetChangedQuoteVersion()
+  - CRMScript.NetServer.NSQuoteVersionValidated.GetChangedSale()
+  - CRMScript.NetServer.NSQuoteVersionValidated.GetErrorCode()
+  - CRMScript.NetServer.NSQuoteVersionValidated.GetIsOk()
+  - CRMScript.NetServer.NSQuoteVersionValidated.GetTechExplanation()
+  - CRMScript.NetServer.NSQuoteVersionValidated.GetUserExplanation()
+  - CRMScript.NetServer.NSQuoteVersionValidated.SetChangedQuote(NSQuote)
+  - CRMScript.NetServer.NSQuoteVersionValidated.SetChangedQuoteAlternatives(NSQuoteAlternativeRecalculated[])
+  - CRMScript.NetServer.NSQuoteVersionValidated.SetChangedQuoteVersion(NSQuoteVersion)
+  - CRMScript.NetServer.NSQuoteVersionValidated.SetChangedSale(NSSale)
+  - CRMScript.NetServer.NSQuoteVersionValidated.SetErrorCode(String)
+  - CRMScript.NetServer.NSQuoteVersionValidated.SetIsOk(Bool)
+  - CRMScript.NetServer.NSQuoteVersionValidated.SetTechExplanation(String)
+  - CRMScript.NetServer.NSQuoteVersionValidated.SetUserExplanation(String)
+  name: NSQuoteVersionValidated
+  nameWithType: NSQuoteVersionValidated
+  fullName: CRMScript.NetServer.NSQuoteVersionValidated
+  type: Class
+  summary: "\nThe QuoteVersionValidated is returned after a call to ValidateQuoteAlternative. It contains flags indicating changes to quote, quoteversion/quotealternative and quotelines.\n"
+  example: 
+- uid: CRMScript.NetServer.NSQuoteVersionValidated.#ctor
+  commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSQuoteVersionValidated
+  langs:
+  - crmscript
+  name: NSQuoteVersionValidated()
+  nameWithType: NSQuoteVersionValidated.#ctor
+  fullName: CRMScript.NetServer.NSQuoteVersionValidated.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSQuoteVersionValidated class.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteVersionValidated
+  example: 
+- uid: CRMScript.NetServer.NSQuoteVersionValidated.GetChangedQuote()
+  commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.GetChangedQuote()
+  id: 'GetChangedQuote()'
+  so.intellisense: NSQuoteVersionValidated.GetChangedQuote
+  langs:
+  - crmscript
+  name: 'GetChangedQuote()'
+  nameWithType: NSQuoteVersionValidated.GetChangedQuote()
+  fullName: CRMScript.NetServer.NSQuoteVersionValidated.GetChangedQuote()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSQuote GetChangedQuote()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSQuote
+      description: "The validated version is a member of NSQuote."
+  example: 
+  - "\n<pre><code>NSQuoteVersionValidated thing;\nNSQuote changedQuote = thing.GetChangedQuote();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionValidated.GetChangedQuoteAlternatives()
+  commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.GetChangedQuoteAlternatives()
+  id: 'GetChangedQuoteAlternatives()'
+  so.intellisense: NSQuoteVersionValidated.GetChangedQuoteAlternatives
+  langs:
+  - crmscript
+  name: 'GetChangedQuoteAlternatives()'
+  nameWithType: NSQuoteVersionValidated.GetChangedQuoteAlternatives()
+  fullName: CRMScript.NetServer.NSQuoteVersionValidated.GetChangedQuoteAlternatives()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSQuoteAlternativeRecalculated[] GetChangedQuoteAlternatives()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSQuoteAlternativeRecalculated[]
+      description: "The changed QuoteAlternatives."
+  example: 
+  - "\n<pre><code>NSQuoteVersionValidated thing;\nNSQuoteAlternativeRecalculated[] changedQuoteAlternatives = thing.GetChangedQuoteAlternatives();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionValidated.GetChangedQuoteVersion()
+  commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.GetChangedQuoteVersion()
+  id: 'GetChangedQuoteVersion()'
+  so.intellisense: NSQuoteVersionValidated.GetChangedQuoteVersion
+  langs:
+  - crmscript
+  name: 'GetChangedQuoteVersion()'
+  nameWithType: NSQuoteVersionValidated.GetChangedQuoteVersion()
+  fullName: CRMScript.NetServer.NSQuoteVersionValidated.GetChangedQuoteVersion()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSQuoteVersion GetChangedQuoteVersion()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSQuoteVersion
+      description: "The validated NSQuoteVersion."
+  example: 
+  - "\n<pre><code>NSQuoteVersionValidated thing;\nNSQuoteVersion changedQuoteVersion = thing.GetChangedQuoteVersion();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionValidated.GetChangedSale()
+  commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.GetChangedSale()
+  id: 'GetChangedSale()'
+  so.intellisense: NSQuoteVersionValidated.GetChangedSale
+  langs:
+  - crmscript
+  name: 'GetChangedSale()'
+  nameWithType: NSQuoteVersionValidated.GetChangedSale()
+  fullName: CRMScript.NetServer.NSQuoteVersionValidated.GetChangedSale()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSSale GetChangedSale()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSale
+      description: "If the sale has been changed, the carrier will be added."
+  example: 
+  - "\n<pre><code>NSQuoteVersionValidated thing;\nNSSale changedSale = thing.GetChangedSale();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionValidated.GetErrorCode()
+  commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.GetErrorCode()
+  id: 'GetErrorCode()'
+  so.intellisense: NSQuoteVersionValidated.GetErrorCode
+  langs:
+  - crmscript
+  name: 'GetErrorCode()'
+  nameWithType: NSQuoteVersionValidated.GetErrorCode()
+  fullName: CRMScript.NetServer.NSQuoteVersionValidated.GetErrorCode()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetErrorCode()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "An error code, if available."
+  example: 
+  - "\n<pre><code>NSQuoteVersionValidated thing;\nString errorCode = thing.GetErrorCode();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionValidated.GetIsOk()
+  commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.GetIsOk()
+  id: 'GetIsOk()'
+  so.intellisense: NSQuoteVersionValidated.GetIsOk
+  langs:
+  - crmscript
+  name: 'GetIsOk()'
+  nameWithType: NSQuoteVersionValidated.GetIsOk()
+  fullName: CRMScript.NetServer.NSQuoteVersionValidated.GetIsOk()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsOk()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Answer to the question / An indication if the operation went well."
+  example: 
+  - "\n<pre><code>NSQuoteVersionValidated thing;\nBool isOk = thing.GetIsOk();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionValidated.GetTechExplanation()
+  commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.GetTechExplanation()
+  id: 'GetTechExplanation()'
+  so.intellisense: NSQuoteVersionValidated.GetTechExplanation
+  langs:
+  - crmscript
+  name: 'GetTechExplanation()'
+  nameWithType: NSQuoteVersionValidated.GetTechExplanation()
+  fullName: CRMScript.NetServer.NSQuoteVersionValidated.GetTechExplanation()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTechExplanation()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Always in English."
+  example: 
+  - "\n<pre><code>NSQuoteVersionValidated thing;\nString techExplanation = thing.GetTechExplanation();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionValidated.GetUserExplanation()
+  commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.GetUserExplanation()
+  id: 'GetUserExplanation()'
+  so.intellisense: NSQuoteVersionValidated.GetUserExplanation
+  langs:
+  - crmscript
+  name: 'GetUserExplanation()'
+  nameWithType: NSQuoteVersionValidated.GetUserExplanation()
+  fullName: CRMScript.NetServer.NSQuoteVersionValidated.GetUserExplanation()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetUserExplanation()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A localized explanation to the answer."
+  example: 
+  - "\n<pre><code>NSQuoteVersionValidated thing;\nString userExplanation = thing.GetUserExplanation();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionValidated.SetChangedQuote(NSQuote)
+  commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.SetChangedQuote(NSQuote)
+  id: 'SetChangedQuote(NSQuote)'
+  so.intellisense: NSQuoteVersionValidated.SetChangedQuote
+  langs:
+  - crmscript
+  name: 'SetChangedQuote(NSQuote)'
+  nameWithType: NSQuoteVersionValidated.SetChangedQuote(NSQuote)
+  fullName: CRMScript.NetServer.NSQuoteVersionValidated.SetChangedQuote(NSQuote)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChangedQuote(NSQuote changedQuote)
+    parameters:
+    - id: changedQuote
+      type: CRMScript.NetServer.NSQuote
+      description: "The validated version is a member of NSQuote."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersionValidated thing;\nNSQuote changedQuote;\nthing.SetChangedQuote(changedQuote);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionValidated.SetChangedQuoteAlternatives(NSQuoteAlternativeRecalculated[])
+  commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.SetChangedQuoteAlternatives(NSQuoteAlternativeRecalculated[])
+  id: 'SetChangedQuoteAlternatives(NSQuoteAlternativeRecalculated[])'
+  so.intellisense: NSQuoteVersionValidated.SetChangedQuoteAlternatives
+  langs:
+  - crmscript
+  name: 'SetChangedQuoteAlternatives(NSQuoteAlternativeRecalculated[])'
+  nameWithType: NSQuoteVersionValidated.SetChangedQuoteAlternatives(NSQuoteAlternativeRecalculated[])
+  fullName: CRMScript.NetServer.NSQuoteVersionValidated.SetChangedQuoteAlternatives(NSQuoteAlternativeRecalculated[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChangedQuoteAlternatives(NSQuoteAlternativeRecalculated[] changedQuoteAlternatives)
+    parameters:
+    - id: changedQuoteAlternatives
+      type: CRMScript.NetServer.NSQuoteAlternativeRecalculated[]
+      description: "The changed QuoteAlternatives."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersionValidated thing;\nNSQuoteAlternativeRecalculated[] changedQuoteAlternatives;\nthing.SetChangedQuoteAlternatives(changedQuoteAlternatives);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionValidated.SetChangedQuoteVersion(NSQuoteVersion)
+  commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.SetChangedQuoteVersion(NSQuoteVersion)
+  id: 'SetChangedQuoteVersion(NSQuoteVersion)'
+  so.intellisense: NSQuoteVersionValidated.SetChangedQuoteVersion
+  langs:
+  - crmscript
+  name: 'SetChangedQuoteVersion(NSQuoteVersion)'
+  nameWithType: NSQuoteVersionValidated.SetChangedQuoteVersion(NSQuoteVersion)
+  fullName: CRMScript.NetServer.NSQuoteVersionValidated.SetChangedQuoteVersion(NSQuoteVersion)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChangedQuoteVersion(NSQuoteVersion changedQuoteVersion)
+    parameters:
+    - id: changedQuoteVersion
+      type: CRMScript.NetServer.NSQuoteVersion
+      description: "The validated NSQuoteVersion."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersionValidated thing;\nNSQuoteVersion changedQuoteVersion;\nthing.SetChangedQuoteVersion(changedQuoteVersion);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionValidated.SetChangedSale(NSSale)
+  commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.SetChangedSale(NSSale)
+  id: 'SetChangedSale(NSSale)'
+  so.intellisense: NSQuoteVersionValidated.SetChangedSale
+  langs:
+  - crmscript
+  name: 'SetChangedSale(NSSale)'
+  nameWithType: NSQuoteVersionValidated.SetChangedSale(NSSale)
+  fullName: CRMScript.NetServer.NSQuoteVersionValidated.SetChangedSale(NSSale)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChangedSale(NSSale changedSale)
+    parameters:
+    - id: changedSale
+      type: CRMScript.NetServer.NSSale
+      description: "If the sale has been changed, the carrier will be added."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersionValidated thing;\nNSSale changedSale;\nthing.SetChangedSale(changedSale);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionValidated.SetErrorCode(String)
+  commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.SetErrorCode(String)
+  id: 'SetErrorCode(String)'
+  so.intellisense: NSQuoteVersionValidated.SetErrorCode
+  langs:
+  - crmscript
+  name: 'SetErrorCode(String)'
+  nameWithType: NSQuoteVersionValidated.SetErrorCode(String)
+  fullName: CRMScript.NetServer.NSQuoteVersionValidated.SetErrorCode(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetErrorCode(String errorCode)
+    parameters:
+    - id: errorCode
+      type: CRMScript.Global.String
+      description: "An error code, if available."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersionValidated thing;\nString errorCode;\nthing.SetErrorCode(errorCode);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionValidated.SetIsOk(Bool)
+  commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.SetIsOk(Bool)
+  id: 'SetIsOk(Bool)'
+  so.intellisense: NSQuoteVersionValidated.SetIsOk
+  langs:
+  - crmscript
+  name: 'SetIsOk(Bool)'
+  nameWithType: NSQuoteVersionValidated.SetIsOk(Bool)
+  fullName: CRMScript.NetServer.NSQuoteVersionValidated.SetIsOk(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsOk(Bool isOk)
+    parameters:
+    - id: isOk
+      type: CRMScript.Global.Bool
+      description: "Answer to the question / An indication if the operation went well."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersionValidated thing;\nBool isOk;\nthing.SetIsOk(isOk);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionValidated.SetTechExplanation(String)
+  commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.SetTechExplanation(String)
+  id: 'SetTechExplanation(String)'
+  so.intellisense: NSQuoteVersionValidated.SetTechExplanation
+  langs:
+  - crmscript
+  name: 'SetTechExplanation(String)'
+  nameWithType: NSQuoteVersionValidated.SetTechExplanation(String)
+  fullName: CRMScript.NetServer.NSQuoteVersionValidated.SetTechExplanation(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTechExplanation(String techExplanation)
+    parameters:
+    - id: techExplanation
+      type: CRMScript.Global.String
+      description: "Always in English."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersionValidated thing;\nString techExplanation;\nthing.SetTechExplanation(techExplanation);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionValidated.SetUserExplanation(String)
+  commentId: M:CRMScript.NetServer.NSQuoteVersionValidated.SetUserExplanation(String)
+  id: 'SetUserExplanation(String)'
+  so.intellisense: NSQuoteVersionValidated.SetUserExplanation
+  langs:
+  - crmscript
+  name: 'SetUserExplanation(String)'
+  nameWithType: NSQuoteVersionValidated.SetUserExplanation(String)
+  fullName: CRMScript.NetServer.NSQuoteVersionValidated.SetUserExplanation(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUserExplanation(String userExplanation)
+    parameters:
+    - id: userExplanation
+      type: CRMScript.Global.String
+      description: "A localized explanation to the answer."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersionValidated thing;\nString userExplanation;\nthing.SetUserExplanation(userExplanation);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSQuoteVersionValidated
+  commentId: T:CRMScript.NetServer.NSQuoteVersionValidated
+  isExternal: true
+  name: NSQuoteVersionValidated
+  nameWithType: NSQuoteVersionValidated
+  fullName: CRMScript.NetServer.NSQuoteVersionValidated
+- uid: CRMScript.NetServer.NSQuote
+  commentId: T:CRMScript.NetServer.NSQuote
+  isExternal: true
+  name: NSQuote
+  nameWithType: NSQuote
+  fullName: CRMScript.NetServer.NSQuote
+- uid: CRMScript.NetServer.NSQuoteAlternativeRecalculated[]
+  isExternal: true
+  name: NSQuoteAlternativeRecalculated[]
+  nameWithType: NSQuoteAlternativeRecalculated[]
+  fullName: CRMScript.NetServer.NSQuoteAlternativeRecalculated[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSQuoteAlternativeRecalculated
+    isExternal: true
+    name: NSQuoteAlternativeRecalculated
+    nameWithType: NSQuoteAlternativeRecalculated
+    fullName: CRMScript.NetServer.NSQuoteAlternativeRecalculated
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSQuoteAlternativeRecalculated
+  commentId: T:CRMScript.NetServer.NSQuoteAlternativeRecalculated
+  isExternal: true
+  name: NSQuoteAlternativeRecalculated
+  nameWithType: NSQuoteAlternativeRecalculated
+  fullName: CRMScript.NetServer.NSQuoteAlternativeRecalculated
+- uid: CRMScript.NetServer.NSQuoteVersion
+  commentId: T:CRMScript.NetServer.NSQuoteVersion
+  isExternal: true
+  name: NSQuoteVersion
+  nameWithType: NSQuoteVersion
+  fullName: CRMScript.NetServer.NSQuoteVersion
+- uid: CRMScript.NetServer.NSSale
+  commentId: T:CRMScript.NetServer.NSSale
+  isExternal: true
+  name: NSSale
+  nameWithType: NSSale
+  fullName: CRMScript.NetServer.NSSale
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

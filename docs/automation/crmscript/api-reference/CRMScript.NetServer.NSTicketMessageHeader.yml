@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSTicketMessageHeader
+  commentId: T:CRMScript.NetServer.NSTicketMessageHeader
+  id: NSTicketMessageHeader
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSTicketMessageHeader.#ctor
+  - CRMScript.NetServer.NSTicketMessageHeader.GetName()
+  - CRMScript.NetServer.NSTicketMessageHeader.GetValue()
+  - CRMScript.NetServer.NSTicketMessageHeader.SetName(String)
+  - CRMScript.NetServer.NSTicketMessageHeader.SetValue(String)
+  name: NSTicketMessageHeader
+  nameWithType: NSTicketMessageHeader
+  fullName: CRMScript.NetServer.NSTicketMessageHeader
+  type: Class
+  summary: "\nContains information about a header connected to a ticket message.\n"
+  example: 
+- uid: CRMScript.NetServer.NSTicketMessageHeader.#ctor
+  commentId: M:CRMScript.NetServer.NSTicketMessageHeader.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSTicketMessageHeader
+  langs:
+  - crmscript
+  name: NSTicketMessageHeader()
+  nameWithType: NSTicketMessageHeader.#ctor
+  fullName: CRMScript.NetServer.NSTicketMessageHeader.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSTicketMessageHeader class.\n"
+  remarks: 
+  syntax: 
+    content: NSTicketMessageHeader
+  example: 
+- uid: CRMScript.NetServer.NSTicketMessageHeader.GetName()
+  commentId: M:CRMScript.NetServer.NSTicketMessageHeader.GetName()
+  id: 'GetName()'
+  so.intellisense: NSTicketMessageHeader.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSTicketMessageHeader.GetName()
+  fullName: CRMScript.NetServer.NSTicketMessageHeader.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the header. This can for example be To, Cc or other custom headers that is set up in Service."
+  example: 
+  - "\n<pre><code>NSTicketAgent agent;\nNSTicketMessage message = agent.GetTicketMessageEntity(12);\nNSTicketMessageHeader[] headers = message.GetMessageHeaders();\nfor(Integer i = 0; i &lt; headers.length(); i++)\n{\n\tprintLine(headers[i].GetName());\n}</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageHeader.GetValue()
+  commentId: M:CRMScript.NetServer.NSTicketMessageHeader.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSTicketMessageHeader.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSTicketMessageHeader.GetValue()
+  fullName: CRMScript.NetServer.NSTicketMessageHeader.GetValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The value of the header."
+  example: 
+  - "\n<pre><code>NSTicketAgent agent;\nNSTicketMessage message = agent.GetTicketMessageEntity(12);\nNSTicketMessageHeader[] headers = message.GetMessageHeaders();\nfor(Integer i = 0; i &lt; headers.length(); i++)\n{\n\tprintLine(headers[i].GetValue());\n}</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageHeader.SetName(String)
+  commentId: M:CRMScript.NetServer.NSTicketMessageHeader.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSTicketMessageHeader.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSTicketMessageHeader.SetName(String)
+  fullName: CRMScript.NetServer.NSTicketMessageHeader.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of the header. This can for example be To, Cc or other custom headers that is set up in Service."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketAgent agent;\nNSTicketMessage message = agent.GetTicketMessageEntity(12);\nNSTicketMessageHeader[] headers ;\nNSTicketMessageHeader to;\nto.SetName(&quot;To&quot;);\nto.SetValue(&quot;noreply@noreply.com&quot;);\nheaders.pushBack(to);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageHeader.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSTicketMessageHeader.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSTicketMessageHeader.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSTicketMessageHeader.SetValue(String)
+  fullName: CRMScript.NetServer.NSTicketMessageHeader.SetValue(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String SetValue(String)
+    parameters: 
+    - id: value
+      type: CRMScript.Global.String
+      description: "The value of the header."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketAgent agent;\nNSTicketMessage message = agent.GetTicketMessageEntity(12);\nNSTicketMessageHeader[] headers ;\nNSTicketMessageHeader to;\nto.SetName(&quot;To&quot;);\nto.SetValue(&quot;noreply@noreply.com&quot;);\nheaders.pushBack(to);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSTicketMessageHeader
+  commentId: T:CRMScript.NetServer.NSTicketMessageHeader
+  isExternal: true
+  name: NSTicketMessageHeader
+  nameWithType: NSTicketMessageHeader
+  fullName: CRMScript.NetServer.NSTicketMessageHeader
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

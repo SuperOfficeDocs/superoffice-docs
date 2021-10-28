@@ -1,0 +1,237 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSTicketSummaryItem
+  commentId: T:CRMScript.NetServer.NSTicketSummaryItem
+  id: NSTicketSummaryItem
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSTicketSummaryItem.#ctor
+  - CRMScript.NetServer.NSTicketSummaryItem.GetRegistered()
+  - CRMScript.NetServer.NSTicketSummaryItem.GetTicketId()
+  - CRMScript.NetServer.NSTicketSummaryItem.GetTicketStatus()
+  - CRMScript.NetServer.NSTicketSummaryItem.GetTitle()
+  - CRMScript.NetServer.NSTicketSummaryItem.SetRegistered(DateTime)
+  - CRMScript.NetServer.NSTicketSummaryItem.SetTicketId(Integer)
+  - CRMScript.NetServer.NSTicketSummaryItem.SetTicketStatus(Integer)
+  - CRMScript.NetServer.NSTicketSummaryItem.SetTitle(String)
+  name: NSTicketSummaryItem
+  nameWithType: NSTicketSummaryItem
+  fullName: CRMScript.NetServer.NSTicketSummaryItem
+  type: Class
+  summary: "\nThe ticket summary with heading, created date.\n"
+  example: 
+- uid: CRMScript.NetServer.NSTicketSummaryItem.#ctor
+  commentId: M:CRMScript.NetServer.NSTicketSummaryItem.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSTicketSummaryItem
+  langs:
+  - crmscript
+  name: NSTicketSummaryItem()
+  nameWithType: NSTicketSummaryItem.#ctor
+  fullName: CRMScript.NetServer.NSTicketSummaryItem.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSTicketSummaryItem class.\n"
+  remarks: 
+  syntax: 
+    content: NSTicketSummaryItem
+  example: 
+- uid: CRMScript.NetServer.NSTicketSummaryItem.GetRegistered()
+  commentId: M:CRMScript.NetServer.NSTicketSummaryItem.GetRegistered()
+  id: 'GetRegistered()'
+  so.intellisense: NSTicketSummaryItem.GetRegistered
+  langs:
+  - crmscript
+  name: 'GetRegistered()'
+  nameWithType: NSTicketSummaryItem.GetRegistered()
+  fullName: CRMScript.NetServer.NSTicketSummaryItem.GetRegistered()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetRegistered()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "When the ticket was created."
+  example: 
+  - "\n<pre><code>NSTicketSummaryItem thing;\nDateTime registered = thing.GetRegistered();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketSummaryItem.GetTicketId()
+  commentId: M:CRMScript.NetServer.NSTicketSummaryItem.GetTicketId()
+  id: 'GetTicketId()'
+  so.intellisense: NSTicketSummaryItem.GetTicketId
+  langs:
+  - crmscript
+  name: 'GetTicketId()'
+  nameWithType: NSTicketSummaryItem.GetTicketId()
+  fullName: CRMScript.NetServer.NSTicketSummaryItem.GetTicketId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTicketId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The primary key (auto-incremented)."
+  example: 
+  - "\n<pre><code>NSTicketSummaryItem thing;\nInteger ticketId = thing.GetTicketId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketSummaryItem.GetTicketStatus()
+  commentId: M:CRMScript.NetServer.NSTicketSummaryItem.GetTicketStatus()
+  id: 'GetTicketStatus()'
+  so.intellisense: NSTicketSummaryItem.GetTicketStatus
+  langs:
+  - crmscript
+  name: 'GetTicketStatus()'
+  nameWithType: NSTicketSummaryItem.GetTicketStatus()
+  fullName: CRMScript.NetServer.NSTicketSummaryItem.GetTicketStatus()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTicketStatus()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "User-defined ticket status."
+  example: 
+  - "\n<pre><code>NSTicketSummaryItem thing;\nInteger ticketStatus = thing.GetTicketStatus();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketSummaryItem.GetTitle()
+  commentId: M:CRMScript.NetServer.NSTicketSummaryItem.GetTitle()
+  id: 'GetTitle()'
+  so.intellisense: NSTicketSummaryItem.GetTitle
+  langs:
+  - crmscript
+  name: 'GetTitle()'
+  nameWithType: NSTicketSummaryItem.GetTitle()
+  fullName: CRMScript.NetServer.NSTicketSummaryItem.GetTitle()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTitle()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The title of the ticket."
+  example: 
+  - "\n<pre><code>NSTicketSummaryItem thing;\nString title = thing.GetTitle();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketSummaryItem.SetRegistered(DateTime)
+  commentId: M:CRMScript.NetServer.NSTicketSummaryItem.SetRegistered(DateTime)
+  id: 'SetRegistered(DateTime)'
+  so.intellisense: NSTicketSummaryItem.SetRegistered
+  langs:
+  - crmscript
+  name: 'SetRegistered(DateTime)'
+  nameWithType: NSTicketSummaryItem.SetRegistered(DateTime)
+  fullName: CRMScript.NetServer.NSTicketSummaryItem.SetRegistered(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRegistered(DateTime registered)
+    parameters:
+    - id: registered
+      type: CRMScript.Global.DateTime
+      description: "When the ticket was created."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketSummaryItem thing;\nDateTime registered;\nthing.SetRegistered(registered);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketSummaryItem.SetTicketId(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketSummaryItem.SetTicketId(Integer)
+  id: 'SetTicketId(Integer)'
+  so.intellisense: NSTicketSummaryItem.SetTicketId
+  langs:
+  - crmscript
+  name: 'SetTicketId(Integer)'
+  nameWithType: NSTicketSummaryItem.SetTicketId(Integer)
+  fullName: CRMScript.NetServer.NSTicketSummaryItem.SetTicketId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTicketId(Integer ticketId)
+    parameters:
+    - id: ticketId
+      type: CRMScript.Global.Integer
+      description: "The primary key (auto-incremented)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketSummaryItem thing;\nInteger ticketId;\nthing.SetTicketId(ticketId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketSummaryItem.SetTicketStatus(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketSummaryItem.SetTicketStatus(Integer)
+  id: 'SetTicketStatus(Integer)'
+  so.intellisense: NSTicketSummaryItem.SetTicketStatus
+  langs:
+  - crmscript
+  name: 'SetTicketStatus(Integer)'
+  nameWithType: NSTicketSummaryItem.SetTicketStatus(Integer)
+  fullName: CRMScript.NetServer.NSTicketSummaryItem.SetTicketStatus(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTicketStatus(Integer ticketStatus)
+    parameters:
+    - id: ticketStatus
+      type: CRMScript.Global.Integer
+      description: "User defined ticket status."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketSummaryItem thing;\nInteger ticketStatus;\nthing.SetTicketStatus(ticketStatus);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketSummaryItem.SetTitle(String)
+  commentId: M:CRMScript.NetServer.NSTicketSummaryItem.SetTitle(String)
+  id: 'SetTitle(String)'
+  so.intellisense: NSTicketSummaryItem.SetTitle
+  langs:
+  - crmscript
+  name: 'SetTitle(String)'
+  nameWithType: NSTicketSummaryItem.SetTitle(String)
+  fullName: CRMScript.NetServer.NSTicketSummaryItem.SetTitle(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTitle(String title)
+    parameters:
+    - id: title
+      type: CRMScript.Global.String
+      description: "The title of the ticket."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketSummaryItem thing;\nString title;\nthing.SetTitle(title);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSTicketSummaryItem
+  commentId: T:CRMScript.NetServer.NSTicketSummaryItem
+  isExternal: true
+  name: NSTicketSummaryItem
+  nameWithType: NSTicketSummaryItem
+  fullName: CRMScript.NetServer.NSTicketSummaryItem
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

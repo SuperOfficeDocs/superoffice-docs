@@ -1,0 +1,851 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSDocument
+  commentId: T:CRMScript.NetServer.NSDocument
+  id: NSDocument
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSDocument.#ctor
+  - CRMScript.NetServer.NSDocument.GetAssociateFullName()
+  - CRMScript.NetServer.NSDocument.GetAssociateId()
+  - CRMScript.NetServer.NSDocument.GetAttention()
+  - CRMScript.NetServer.NSDocument.GetContactId()
+  - CRMScript.NetServer.NSDocument.GetContactName()
+  - CRMScript.NetServer.NSDocument.GetDescription()
+  - CRMScript.NetServer.NSDocument.GetDocumentId()
+  - CRMScript.NetServer.NSDocument.GetDocumentTemplate()
+  - CRMScript.NetServer.NSDocument.GetHeader()
+  - CRMScript.NetServer.NSDocument.GetIsPublished()
+  - CRMScript.NetServer.NSDocument.GetName()
+  - CRMScript.NetServer.NSDocument.GetOurRef()
+  - CRMScript.NetServer.NSDocument.GetPersonFullName()
+  - CRMScript.NetServer.NSDocument.GetPersonId()
+  - CRMScript.NetServer.NSDocument.GetProjectId()
+  - CRMScript.NetServer.NSDocument.GetProjectName()
+  - CRMScript.NetServer.NSDocument.GetSnum()
+  - CRMScript.NetServer.NSDocument.GetYourRef()
+  - CRMScript.NetServer.NSDocument.SetAssociateFullName(String)
+  - CRMScript.NetServer.NSDocument.SetAssociateId(Integer)
+  - CRMScript.NetServer.NSDocument.SetAttention(String)
+  - CRMScript.NetServer.NSDocument.SetContactId(Integer)
+  - CRMScript.NetServer.NSDocument.SetContactName(String)
+  - CRMScript.NetServer.NSDocument.SetDescription(String)
+  - CRMScript.NetServer.NSDocument.SetDocumentId(Integer)
+  - CRMScript.NetServer.NSDocument.SetDocumentTemplate(String)
+  - CRMScript.NetServer.NSDocument.SetHeader(String)
+  - CRMScript.NetServer.NSDocument.SetIsPublished(Bool)
+  - CRMScript.NetServer.NSDocument.SetName(String)
+  - CRMScript.NetServer.NSDocument.SetOurRef(String)
+  - CRMScript.NetServer.NSDocument.SetPersonFullName(String)
+  - CRMScript.NetServer.NSDocument.SetPersonId(Integer)
+  - CRMScript.NetServer.NSDocument.SetProjectId(Integer)
+  - CRMScript.NetServer.NSDocument.SetProjectName(String)
+  - CRMScript.NetServer.NSDocument.SetSnum(Integer)
+  - CRMScript.NetServer.NSDocument.SetYourRef(String)
+  name: NSDocument
+  nameWithType: NSDocument
+  fullName: CRMScript.NetServer.NSDocument
+  type: Class
+  summary: "\nCarrier object for Document.\n"
+  example: 
+- uid: CRMScript.NetServer.NSDocument.#ctor
+  commentId: M:CRMScript.NetServer.NSDocument.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSDocument
+  langs:
+  - crmscript
+  name: NSDocument()
+  nameWithType: NSDocument.#ctor
+  fullName: CRMScript.NetServer.NSDocument.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSDocument class.\n"
+  remarks: 
+  syntax: 
+    content: NSDocument
+  example: 
+- uid: CRMScript.NetServer.NSDocument.GetAssociateFullName()
+  commentId: M:CRMScript.NetServer.NSDocument.GetAssociateFullName()
+  id: 'GetAssociateFullName()'
+  so.intellisense: NSDocument.GetAssociateFullName
+  langs:
+  - crmscript
+  name: 'GetAssociateFullName()'
+  nameWithType: NSDocument.GetAssociateFullName()
+  fullName: CRMScript.NetServer.NSDocument.GetAssociateFullName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetAssociateFullName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The associate's culture formatted fullname (firstname, middleName and lastname)."
+  example: 
+  - "\n<pre><code>NSDocument thing;\nString associateFullName = thing.GetAssociateFullName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.GetAssociateId()
+  commentId: M:CRMScript.NetServer.NSDocument.GetAssociateId()
+  id: 'GetAssociateId()'
+  so.intellisense: NSDocument.GetAssociateId
+  langs:
+  - crmscript
+  name: 'GetAssociateId()'
+  nameWithType: NSDocument.GetAssociateId()
+  fullName: CRMScript.NetServer.NSDocument.GetAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of associate whose diary the appointment is in, REQUIREd."
+  example: 
+  - "\n<pre><code>NSDocument thing;\nInteger associateId = thing.GetAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.GetAttention()
+  commentId: M:CRMScript.NetServer.NSDocument.GetAttention()
+  id: 'GetAttention()'
+  so.intellisense: NSDocument.GetAttention
+  langs:
+  - crmscript
+  name: 'GetAttention()'
+  nameWithType: NSDocument.GetAttention()
+  fullName: CRMScript.NetServer.NSDocument.GetAttention()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetAttention()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Attention/salutation."
+  example: 
+  - "\n<pre><code>NSDocument thing;\nString attention = thing.GetAttention();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.GetContactId()
+  commentId: M:CRMScript.NetServer.NSDocument.GetContactId()
+  id: 'GetContactId()'
+  so.intellisense: NSDocument.GetContactId
+  langs:
+  - crmscript
+  name: 'GetContactId()'
+  nameWithType: NSDocument.GetContactId()
+  fullName: CRMScript.NetServer.NSDocument.GetContactId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetContactId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: Contact ID of owning contact, may be 0
+  example: 
+  - "\n<pre><code>NSDocument thing;\nInteger contactId = thing.GetContactId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.GetContactName()
+  commentId: M:CRMScript.NetServer.NSDocument.GetContactName()
+  id: 'GetContactName()'
+  so.intellisense: NSDocument.GetContactName
+  langs:
+  - crmscript
+  name: 'GetContactName()'
+  nameWithType: NSDocument.GetContactName()
+  fullName: CRMScript.NetServer.NSDocument.GetContactName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetContactName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Contact name."
+  example: 
+  - "\n<pre><code>NSDocument thing;\nString contactName = thing.GetContactName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.GetDescription()
+  commentId: M:CRMScript.NetServer.NSDocument.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSDocument.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSDocument.GetDescription()
+  fullName: CRMScript.NetServer.NSDocument.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases."
+  example: 
+  - "\n<pre><code>NSDocument thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.GetDocumentId()
+  commentId: M:CRMScript.NetServer.NSDocument.GetDocumentId()
+  id: 'GetDocumentId()'
+  so.intellisense: NSDocument.GetDocumentId
+  langs:
+  - crmscript
+  name: 'GetDocumentId()'
+  nameWithType: NSDocument.GetDocumentId()
+  fullName: CRMScript.NetServer.NSDocument.GetDocumentId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDocumentId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSDocument thing;\nInteger documentId = thing.GetDocumentId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.GetDocumentTemplate()
+  commentId: M:CRMScript.NetServer.NSDocument.GetDocumentTemplate()
+  id: 'GetDocumentTemplate()'
+  so.intellisense: NSDocument.GetDocumentTemplate
+  langs:
+  - crmscript
+  name: 'GetDocumentTemplate()'
+  nameWithType: NSDocument.GetDocumentTemplate()
+  fullName: CRMScript.NetServer.NSDocument.GetDocumentTemplate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDocumentTemplate()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSDocument thing;\nString documentTemplate = thing.GetDocumentTemplate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.GetHeader()
+  commentId: M:CRMScript.NetServer.NSDocument.GetHeader()
+  id: 'GetHeader()'
+  so.intellisense: NSDocument.GetHeader
+  langs:
+  - crmscript
+  name: 'GetHeader()'
+  nameWithType: NSDocument.GetHeader()
+  fullName: CRMScript.NetServer.NSDocument.GetHeader()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetHeader()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Visible document name."
+  example: 
+  - "\n<pre><code>NSDocument thing;\nString header = thing.GetHeader();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.GetIsPublished()
+  commentId: M:CRMScript.NetServer.NSDocument.GetIsPublished()
+  id: 'GetIsPublished()'
+  so.intellisense: NSDocument.GetIsPublished
+  langs:
+  - crmscript
+  name: 'GetIsPublished()'
+  nameWithType: NSDocument.GetIsPublished()
+  fullName: CRMScript.NetServer.NSDocument.GetIsPublished()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsPublished()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if document have an entry in published table."
+  example: 
+  - "\n<pre><code>NSDocument thing;\nBool isPublished = thing.GetIsPublished();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.GetName()
+  commentId: M:CRMScript.NetServer.NSDocument.GetName()
+  id: 'GetName()'
+  so.intellisense: NSDocument.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSDocument.GetName()
+  fullName: CRMScript.NetServer.NSDocument.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "File name."
+  example: 
+  - "\n<pre><code>NSDocument thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.GetOurRef()
+  commentId: M:CRMScript.NetServer.NSDocument.GetOurRef()
+  id: 'GetOurRef()'
+  so.intellisense: NSDocument.GetOurRef
+  langs:
+  - crmscript
+  name: 'GetOurRef()'
+  nameWithType: NSDocument.GetOurRef()
+  fullName: CRMScript.NetServer.NSDocument.GetOurRef()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetOurRef()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Our reference, searchable field from free-text search."
+  example: 
+  - "\n<pre><code>NSDocument thing;\nString ourRef = thing.GetOurRef();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.GetPersonFullName()
+  commentId: M:CRMScript.NetServer.NSDocument.GetPersonFullName()
+  id: 'GetPersonFullName()'
+  so.intellisense: NSDocument.GetPersonFullName
+  langs:
+  - crmscript
+  name: 'GetPersonFullName()'
+  nameWithType: NSDocument.GetPersonFullName()
+  fullName: CRMScript.NetServer.NSDocument.GetPersonFullName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPersonFullName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The full name of the person this document belongs to."
+  example: 
+  - "\n<pre><code>NSDocument thing;\nString personFullName = thing.GetPersonFullName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.GetPersonId()
+  commentId: M:CRMScript.NetServer.NSDocument.GetPersonId()
+  id: 'GetPersonId()'
+  so.intellisense: NSDocument.GetPersonId
+  langs:
+  - crmscript
+  name: 'GetPersonId()'
+  nameWithType: NSDocument.GetPersonId()
+  fullName: CRMScript.NetServer.NSDocument.GetPersonId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPersonId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: Person ID of person the appointment is with, may be 0
+  example: 
+  - "\n<pre><code>NSDocument thing;\nInteger personId = thing.GetPersonId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.GetProjectId()
+  commentId: M:CRMScript.NetServer.NSDocument.GetProjectId()
+  id: 'GetProjectId()'
+  so.intellisense: NSDocument.GetProjectId
+  langs:
+  - crmscript
+  name: 'GetProjectId()'
+  nameWithType: NSDocument.GetProjectId()
+  fullName: CRMScript.NetServer.NSDocument.GetProjectId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetProjectId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: ID of project referred to, may be 0
+  example: 
+  - "\n<pre><code>NSDocument thing;\nInteger projectId = thing.GetProjectId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.GetProjectName()
+  commentId: M:CRMScript.NetServer.NSDocument.GetProjectName()
+  id: 'GetProjectName()'
+  so.intellisense: NSDocument.GetProjectName
+  langs:
+  - crmscript
+  name: 'GetProjectName()'
+  nameWithType: NSDocument.GetProjectName()
+  fullName: CRMScript.NetServer.NSDocument.GetProjectName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetProjectName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Project name."
+  example: 
+  - "\n<pre><code>NSDocument thing;\nString projectName = thing.GetProjectName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.GetSnum()
+  commentId: M:CRMScript.NetServer.NSDocument.GetSnum()
+  id: 'GetSnum()'
+  so.intellisense: NSDocument.GetSnum
+  langs:
+  - crmscript
+  name: 'GetSnum()'
+  nameWithType: NSDocument.GetSnum()
+  fullName: CRMScript.NetServer.NSDocument.GetSnum()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSnum()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The sequence number allocated from refcount on used template when creating the document."
+  example: 
+  - "\n<pre><code>NSDocument thing;\nInteger snum = thing.GetSnum();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.GetYourRef()
+  commentId: M:CRMScript.NetServer.NSDocument.GetYourRef()
+  id: 'GetYourRef()'
+  so.intellisense: NSDocument.GetYourRef
+  langs:
+  - crmscript
+  name: 'GetYourRef()'
+  nameWithType: NSDocument.GetYourRef()
+  fullName: CRMScript.NetServer.NSDocument.GetYourRef()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetYourRef()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Your reference."
+  example: 
+  - "\n<pre><code>NSDocument thing;\nString yourRef = thing.GetYourRef();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.SetAssociateFullName(String)
+  commentId: M:CRMScript.NetServer.NSDocument.SetAssociateFullName(String)
+  id: 'SetAssociateFullName(String)'
+  so.intellisense: NSDocument.SetAssociateFullName
+  langs:
+  - crmscript
+  name: 'SetAssociateFullName(String)'
+  nameWithType: NSDocument.SetAssociateFullName(String)
+  fullName: CRMScript.NetServer.NSDocument.SetAssociateFullName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAssociateFullName(String associateFullName)
+    parameters:
+    - id: associateFullName
+      type: CRMScript.Global.String
+      description: "The associate's culture formatted fullname (firstname, middleName and lastname)."
+  example: 
+  - "\n<pre><code>NSDocument thing;\nString associateFullName;\nthing.SetAssociateFullName(associateFullName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.SetAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSDocument.SetAssociateId(Integer)
+  id: 'SetAssociateId(Integer)'
+  so.intellisense: NSDocument.SetAssociateId
+  langs:
+  - crmscript
+  name: 'SetAssociateId(Integer)'
+  nameWithType: NSDocument.SetAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSDocument.SetAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAssociateId(Integer associateId)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: "ID of associate whose diary the appointment is in, REQUIREd."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocument thing;\nInteger associateId;\nthing.SetAssociateId(associateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.SetAttention(String)
+  commentId: M:CRMScript.NetServer.NSDocument.SetAttention(String)
+  id: 'SetAttention(String)'
+  so.intellisense: NSDocument.SetAttention
+  langs:
+  - crmscript
+  name: 'SetAttention(String)'
+  nameWithType: NSDocument.SetAttention(String)
+  fullName: CRMScript.NetServer.NSDocument.SetAttention(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAttention(String attention)
+    parameters:
+    - id: attention
+      type: CRMScript.Global.String
+      description: "Attention/salutation."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocument thing;\nString attention;\nthing.SetAttention(attention);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.SetContactId(Integer)
+  commentId: M:CRMScript.NetServer.NSDocument.SetContactId(Integer)
+  id: 'SetContactId(Integer)'
+  so.intellisense: NSDocument.SetContactId
+  langs:
+  - crmscript
+  name: 'SetContactId(Integer)'
+  nameWithType: NSDocument.SetContactId(Integer)
+  fullName: CRMScript.NetServer.NSDocument.SetContactId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactId(Integer contactId)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: Contact ID of owning contact, may be 0
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocument thing;\nInteger contactId;\nthing.SetContactId(contactId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.SetContactName(String)
+  commentId: M:CRMScript.NetServer.NSDocument.SetContactName(String)
+  id: 'SetContactName(String)'
+  so.intellisense: NSDocument.SetContactName
+  langs:
+  - crmscript
+  name: 'SetContactName(String)'
+  nameWithType: NSDocument.SetContactName(String)
+  fullName: CRMScript.NetServer.NSDocument.SetContactName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactName(String contactName)
+    parameters:
+    - id: contactName
+      type: CRMScript.Global.String
+      description: "Contact name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocument thing;\nString contactName;\nthing.SetContactName(contactName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSDocument.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSDocument.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSDocument.SetDescription(String)
+  fullName: CRMScript.NetServer.NSDocument.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocument thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.SetDocumentId(Integer)
+  commentId: M:CRMScript.NetServer.NSDocument.SetDocumentId(Integer)
+  id: 'SetDocumentId(Integer)'
+  so.intellisense: NSDocument.SetDocumentId
+  langs:
+  - crmscript
+  name: 'SetDocumentId(Integer)'
+  nameWithType: NSDocument.SetDocumentId(Integer)
+  fullName: CRMScript.NetServer.NSDocument.SetDocumentId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDocumentId(Integer documentId)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocument thing;\nInteger documentId;\nthing.SetDocumentId(documentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.SetDocumentTemplate(String)
+  commentId: M:CRMScript.NetServer.NSDocument.SetDocumentTemplate(String)
+  id: 'SetDocumentTemplate(String)'
+  so.intellisense: NSDocument.SetDocumentTemplate
+  langs:
+  - crmscript
+  name: 'SetDocumentTemplate(String)'
+  nameWithType: NSDocument.SetDocumentTemplate(String)
+  fullName: CRMScript.NetServer.NSDocument.SetDocumentTemplate(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDocumentTemplate(String documentTemplate)
+    parameters:
+    - id: documentTemplate
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocument thing;\nString documentTemplate;\nthing.SetDocumentTemplate(documentTemplate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.SetHeader(String)
+  commentId: M:CRMScript.NetServer.NSDocument.SetHeader(String)
+  id: 'SetHeader(String)'
+  so.intellisense: NSDocument.SetHeader
+  langs:
+  - crmscript
+  name: 'SetHeader(String)'
+  nameWithType: NSDocument.SetHeader(String)
+  fullName: CRMScript.NetServer.NSDocument.SetHeader(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetHeader(String header)
+    parameters:
+    - id: header
+      type: CRMScript.Global.String
+      description: "Visible document name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocument thing;\nString header;\nthing.SetHeader(header);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.SetIsPublished(Bool)
+  commentId: M:CRMScript.NetServer.NSDocument.SetIsPublished(Bool)
+  id: 'SetIsPublished(Bool)'
+  so.intellisense: NSDocument.SetIsPublished
+  langs:
+  - crmscript
+  name: 'SetIsPublished(Bool)'
+  nameWithType: NSDocument.SetIsPublished(Bool)
+  fullName: CRMScript.NetServer.NSDocument.SetIsPublished(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsPublished(Bool isPublished)
+    parameters:
+    - id: isPublished
+      type: CRMScript.Global.Bool
+      description: "True if document have an entry in published table."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocument thing;\nBool isPublished;\nthing.SetIsPublished(isPublished);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.SetName(String)
+  commentId: M:CRMScript.NetServer.NSDocument.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSDocument.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSDocument.SetName(String)
+  fullName: CRMScript.NetServer.NSDocument.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "File name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocument thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.SetOurRef(String)
+  commentId: M:CRMScript.NetServer.NSDocument.SetOurRef(String)
+  id: 'SetOurRef(String)'
+  so.intellisense: NSDocument.SetOurRef
+  langs:
+  - crmscript
+  name: 'SetOurRef(String)'
+  nameWithType: NSDocument.SetOurRef(String)
+  fullName: CRMScript.NetServer.NSDocument.SetOurRef(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOurRef(String ourRef)
+    parameters:
+    - id: ourRef
+      type: CRMScript.Global.String
+      description: "Our reference, searchable field from free-text search."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocument thing;\nString ourRef;\nthing.SetOurRef(ourRef);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.SetPersonFullName(String)
+  commentId: M:CRMScript.NetServer.NSDocument.SetPersonFullName(String)
+  id: 'SetPersonFullName(String)'
+  so.intellisense: NSDocument.SetPersonFullName
+  langs:
+  - crmscript
+  name: 'SetPersonFullName(String)'
+  nameWithType: NSDocument.SetPersonFullName(String)
+  fullName: CRMScript.NetServer.NSDocument.SetPersonFullName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonFullName(String personFullName)
+    parameters:
+    - id: personFullName
+      type: CRMScript.Global.String
+      description: "The full name of the person this document belongs to."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocument thing;\nString personFullName;\nthing.SetPersonFullName(personFullName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.SetPersonId(Integer)
+  commentId: M:CRMScript.NetServer.NSDocument.SetPersonId(Integer)
+  id: 'SetPersonId(Integer)'
+  so.intellisense: NSDocument.SetPersonId
+  langs:
+  - crmscript
+  name: 'SetPersonId(Integer)'
+  nameWithType: NSDocument.SetPersonId(Integer)
+  fullName: CRMScript.NetServer.NSDocument.SetPersonId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonId(Integer personId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: Person ID of person the appointment is with, may be 0
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocument thing;\nInteger personId;\nthing.SetPersonId(personId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.SetProjectId(Integer)
+  commentId: M:CRMScript.NetServer.NSDocument.SetProjectId(Integer)
+  id: 'SetProjectId(Integer)'
+  so.intellisense: NSDocument.SetProjectId
+  langs:
+  - crmscript
+  name: 'SetProjectId(Integer)'
+  nameWithType: NSDocument.SetProjectId(Integer)
+  fullName: CRMScript.NetServer.NSDocument.SetProjectId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjectId(Integer projectId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: ID of project referred to, may be 0
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocument thing;\nInteger projectId;\nthing.SetProjectId(projectId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.SetProjectName(String)
+  commentId: M:CRMScript.NetServer.NSDocument.SetProjectName(String)
+  id: 'SetProjectName(String)'
+  so.intellisense: NSDocument.SetProjectName
+  langs:
+  - crmscript
+  name: 'SetProjectName(String)'
+  nameWithType: NSDocument.SetProjectName(String)
+  fullName: CRMScript.NetServer.NSDocument.SetProjectName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjectName(String projectName)
+    parameters:
+    - id: projectName
+      type: CRMScript.Global.String
+      description: "Project name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocument thing;\nString projectName;\nthing.SetProjectName(projectName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.SetSnum(Integer)
+  commentId: M:CRMScript.NetServer.NSDocument.SetSnum(Integer)
+  id: 'SetSnum(Integer)'
+  so.intellisense: NSDocument.SetSnum
+  langs:
+  - crmscript
+  name: 'SetSnum(Integer)'
+  nameWithType: NSDocument.SetSnum(Integer)
+  fullName: CRMScript.NetServer.NSDocument.SetSnum(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSnum(Integer snum)
+    parameters:
+    - id: snum
+      type: CRMScript.Global.Integer
+      description: "The sequence number allocated from refcount on used template when creating the document."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocument thing;\nInteger snum;\nthing.SetSnum(snum);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocument.SetYourRef(String)
+  commentId: M:CRMScript.NetServer.NSDocument.SetYourRef(String)
+  id: 'SetYourRef(String)'
+  so.intellisense: NSDocument.SetYourRef
+  langs:
+  - crmscript
+  name: 'SetYourRef(String)'
+  nameWithType: NSDocument.SetYourRef(String)
+  fullName: CRMScript.NetServer.NSDocument.SetYourRef(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetYourRef(String yourRef)
+    parameters:
+    - id: yourRef
+      type: CRMScript.Global.String
+      description: "Your reference."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocument thing;\nString yourRef;\nthing.SetYourRef(yourRef);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSDocument
+  commentId: T:CRMScript.NetServer.NSDocument
+  isExternal: true
+  name: NSDocument
+  nameWithType: NSDocument
+  fullName: CRMScript.NetServer.NSDocument
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSCurrency
+  commentId: T:CRMScript.NetServer.NSCurrency
+  id: NSCurrency
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSCurrency.#ctor
+  - CRMScript.NetServer.NSCurrency.GetId()
+  - CRMScript.NetServer.NSCurrency.GetTooltip()
+  - CRMScript.NetServer.NSCurrency.GetValue()
+  - CRMScript.NetServer.NSCurrency.SetId(Integer)
+  - CRMScript.NetServer.NSCurrency.SetTooltip(String)
+  - CRMScript.NetServer.NSCurrency.SetValue(String)
+  name: NSCurrency
+  nameWithType: NSCurrency
+  fullName: CRMScript.NetServer.NSCurrency
+  type: Class
+  summary: "\nCarrier object for Currency.\n"
+  example: 
+- uid: CRMScript.NetServer.NSCurrency.#ctor
+  commentId: M:CRMScript.NetServer.NSCurrency.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSCurrency
+  langs:
+  - crmscript
+  name: NSCurrency()
+  nameWithType: NSCurrency.#ctor
+  fullName: CRMScript.NetServer.NSCurrency.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSCurrency class.\n"
+  remarks: 
+  syntax: 
+    content: NSCurrency
+  example: 
+- uid: CRMScript.NetServer.NSCurrency.GetId()
+  commentId: M:CRMScript.NetServer.NSCurrency.GetId()
+  id: 'GetId()'
+  so.intellisense: NSCurrency.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSCurrency.GetId()
+  fullName: CRMScript.NetServer.NSCurrency.GetId()
+  type: Method
+  summary: "\nGets the primary key (ID) for the NSCurrency\n"
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSCurrency thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCurrency.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSCurrency.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSCurrency.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSCurrency.GetTooltip()
+  fullName: CRMScript.NetServer.NSCurrency.GetTooltip()
+  type: Method
+  summary: "\nGets the tooltip description for the NSCurrency list item.\n"
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSCurrency thing;\nString descr = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCurrency.GetValue()
+  commentId: M:CRMScript.NetServer.NSCurrency.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSCurrency.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSCurrency.GetValue()
+  fullName: CRMScript.NetServer.NSCurrency.GetValue()
+  type: Method
+  summary: "\nGets the name of the NSCurrency.\n"
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSCurrency thing;\nString name = thing.GetValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCurrency.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSCurrency.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSCurrency.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSCurrency.SetId(Integer)
+  fullName: CRMScript.NetServer.NSCurrency.SetId(Integer)
+  type: Method
+  summary: "\nSets the primary key (ID) for the NSCurrency\n"
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCurrency thing;\nthing.SetId(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCurrency.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSCurrency.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSCurrency.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSCurrency.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSCurrency.SetTooltip(String)
+  type: Method
+  summary: "\nSets the tooltip description for the NSCurrency list item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCurrency thing;\nString descr = &quot;something new&quot;;\nthing.SetTooltip(descr);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCurrency.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSCurrency.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSCurrency.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSCurrency.SetValue(String)
+  fullName: CRMScript.NetServer.NSCurrency.SetValue(String)
+  type: Method
+  summary: "\nSets the name of the NSCurrency item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCurrency thing;\nthing.SetValue(&quot;frotz&quot;);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSCurrency
+  commentId: T:CRMScript.NetServer.NSCurrency
+  isExternal: true
+  name: NSCurrency
+  nameWithType: NSCurrency
+  fullName: CRMScript.NetServer.NSCurrency
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

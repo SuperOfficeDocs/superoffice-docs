@@ -1,0 +1,1558 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Event.Trigger
+  commentId: T:CRMScript.Event.Trigger
+  id: Trigger
+  so.intellisense: 
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Event.Trigger.ChatAfterSaveNewMessage()
+  - CRMScript.Event.Trigger.ChatBeforeSaveNewMessage()
+  - CRMScript.Event.Trigger.ChatNewSession()
+  - CRMScript.Event.Trigger.ChatSessionChangedStatus()
+  - CRMScript.Event.Trigger.CompactModeInjection()
+  - CRMScript.Event.Trigger.CustomerCenterAuthentication()
+  - CRMScript.Event.Trigger.CustomerSetSubscriptions()
+  - CRMScript.Event.Trigger.DbiTaskFailed()
+  - CRMScript.Event.Trigger.ImportMailAfterProcessing()
+  - CRMScript.Event.Trigger.ImportMailBeforeProcessing()
+  - CRMScript.Event.Trigger.MainMenu()
+  - CRMScript.Event.Trigger.NewNotifyTicketFromForm()
+  - CRMScript.Event.Trigger.NewTicket()
+  - CRMScript.Event.Trigger.NewTicketFromCustomerCenter()
+  - CRMScript.Event.Trigger.NewTicketFromCustomerCenterBeforeSave()
+  - CRMScript.Event.Trigger.NewTicketFromEmail()
+  - CRMScript.Event.Trigger.NewTicketFromForm()
+  - CRMScript.Event.Trigger.NewTicketFromSpmLink()
+  - CRMScript.Event.Trigger.SalesAfterSaveAppointment()
+  - CRMScript.Event.Trigger.SalesAfterSaveContact()
+  - CRMScript.Event.Trigger.SalesAfterSaveDocument()
+  - CRMScript.Event.Trigger.SalesAfterSavePerson()
+  - CRMScript.Event.Trigger.SalesAfterSaveProject()
+  - CRMScript.Event.Trigger.SalesAfterSaveProjectMember()
+  - CRMScript.Event.Trigger.SalesAfterSaveQuote()
+  - CRMScript.Event.Trigger.SalesAfterSaveQuoteLine()
+  - CRMScript.Event.Trigger.SalesAfterSaveRelation()
+  - CRMScript.Event.Trigger.SalesAfterSaveSale()
+  - CRMScript.Event.Trigger.SalesAfterSaveSelection()
+  - CRMScript.Event.Trigger.SalesAfterSaveSelectionMember()
+  - CRMScript.Event.Trigger.SalesAfterSaveStakeholder()
+  - CRMScript.Event.Trigger.SalesBeforeSaveAppointment()
+  - CRMScript.Event.Trigger.SalesBeforeSaveContact()
+  - CRMScript.Event.Trigger.SalesBeforeSaveDocument()
+  - CRMScript.Event.Trigger.SalesBeforeSavePerson()
+  - CRMScript.Event.Trigger.SalesBeforeSaveProject()
+  - CRMScript.Event.Trigger.SalesBeforeSaveProjectMember()
+  - CRMScript.Event.Trigger.SalesBeforeSaveQuote()
+  - CRMScript.Event.Trigger.SalesBeforeSaveQuoteLine()
+  - CRMScript.Event.Trigger.SalesBeforeSaveRelation()
+  - CRMScript.Event.Trigger.SalesBeforeSaveSale()
+  - CRMScript.Event.Trigger.SalesBeforeSaveSelection()
+  - CRMScript.Event.Trigger.SalesBeforeSaveSelectionMember()
+  - CRMScript.Event.Trigger.SalesBeforeSaveStakeholder()
+  - CRMScript.Event.Trigger.ScheduledTaskFailed()
+  - CRMScript.Event.Trigger.ServiceScreenAddMessageAfterSubmit()
+  - CRMScript.Event.Trigger.ServiceScreenAddMessageBeforeSubmit()
+  - CRMScript.Event.Trigger.ServiceScreenAddMessageLoad()
+  - CRMScript.Event.Trigger.ServiceScreenEditCompanyAfterSubmit()
+  - CRMScript.Event.Trigger.ServiceScreenEditCompanyBeforeSubmit()
+  - CRMScript.Event.Trigger.ServiceScreenEditCompanyLoad()
+  - CRMScript.Event.Trigger.ServiceScreenEditCustomerAfterSubmit()
+  - CRMScript.Event.Trigger.ServiceScreenEditCustomerBeforeSubmit()
+  - CRMScript.Event.Trigger.ServiceScreenEditCustomerLoad()
+  - CRMScript.Event.Trigger.ServiceScreenEditExtraTableAfterSubmit()
+  - CRMScript.Event.Trigger.ServiceScreenEditExtraTableBeforeSubmit()
+  - CRMScript.Event.Trigger.ServiceScreenEditExtraTableLoad()
+  - CRMScript.Event.Trigger.ServiceScreenEditTicketAfterSubmit()
+  - CRMScript.Event.Trigger.ServiceScreenEditTicketBeforeSubmit()
+  - CRMScript.Event.Trigger.ServiceScreenEditTicketLoad()
+  - CRMScript.Event.Trigger.ServiceScreenForwardAfterSubmit()
+  - CRMScript.Event.Trigger.ServiceScreenForwardBeforeSubmit()
+  - CRMScript.Event.Trigger.ServiceScreenForwardLoad()
+  - CRMScript.Event.Trigger.ServiceScreenListTicketMessagesAfterSubmit()
+  - CRMScript.Event.Trigger.ServiceScreenListTicketMessagesBeforeSubmit()
+  - CRMScript.Event.Trigger.ServiceScreenListTicketMessagesLoad()
+  - CRMScript.Event.Trigger.ServiceScreenNewQuickTicketAfterSubmit()
+  - CRMScript.Event.Trigger.ServiceScreenNewQuickTicketBeforeSubmit()
+  - CRMScript.Event.Trigger.ServiceScreenNewQuickTicketLoad()
+  - CRMScript.Event.Trigger.ServiceScreenNewTicketAfterSubmit()
+  - CRMScript.Event.Trigger.ServiceScreenNewTicketBeforeSubmit()
+  - CRMScript.Event.Trigger.ServiceScreenNewTicketLoad()
+  - CRMScript.Event.Trigger.ServiceScreenViewCompanyAfterSubmit()
+  - CRMScript.Event.Trigger.ServiceScreenViewCompanyBeforeSubmit()
+  - CRMScript.Event.Trigger.ServiceScreenViewCompanyLoad()
+  - CRMScript.Event.Trigger.ServiceScreenViewCustomerAfterSubmit()
+  - CRMScript.Event.Trigger.ServiceScreenViewCustomerBeforeSubmit()
+  - CRMScript.Event.Trigger.ServiceScreenViewCustomerLoad()
+  - CRMScript.Event.Trigger.TicketActivated()
+  - CRMScript.Event.Trigger.TicketChangedCategory()
+  - CRMScript.Event.Trigger.TicketChangedOwnedBy()
+  - CRMScript.Event.Trigger.TicketChangedPrimaryCustomer()
+  - CRMScript.Event.Trigger.TicketChangedPriority()
+  - CRMScript.Event.Trigger.TicketChangedSlevel()
+  - CRMScript.Event.Trigger.TicketChangedTicketStatus()
+  - CRMScript.Event.Trigger.TicketClosed()
+  - CRMScript.Event.Trigger.TicketDeleted()
+  - CRMScript.Event.Trigger.TicketExternalMessageAdded()
+  - CRMScript.Event.Trigger.TicketInternalMessageAdded()
+  - CRMScript.Event.Trigger.TicketMessageAdded()
+  - CRMScript.Event.Trigger.TicketMessageSentimentCalculated()
+  - CRMScript.Event.Trigger.TicketPostponed()
+  - CRMScript.Event.Trigger.TicketReopened()
+  - CRMScript.Event.Trigger.TicketReopenedFromCustomerCenter()
+  - CRMScript.Event.Trigger.TicketReopenedFromEmail()
+  - CRMScript.Event.Trigger.TicketSave()
+  name: Trigger
+  nameWithType: Trigger
+  fullName: CRMScript.Event.Trigger
+  type: Class
+  summary: "\n\n"
+  example: 
+- uid: CRMScript.Event.Trigger.ChatAfterSaveNewMessage()
+  commentId: M:CRMScript.Event.Trigger.ChatAfterSaveNewMessage()
+  id: 'ChatAfterSaveNewMessage()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ChatAfterSaveNewMessage()'
+  nameWithType: Trigger.ChatAfterSaveNewMessage()
+  fullName: CRMScript.Event.Trigger.ChatAfterSaveNewMessage()
+  type: Method
+  summary: "\nCalled after a chat message is saved.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;chatSession.userId&quot;);\nString param2 = ed.getInputValue(&quot;chatMessage.id&quot;);\nString param3 = ed.getInputValue(&quot;chatMessage.message&quot;);\nprint(&quot;Params: &quot; + param1 + &quot; &quot; + param2);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ChatBeforeSaveNewMessage()
+  commentId: M:CRMScript.Event.Trigger.ChatBeforeSaveNewMessage()
+  id: 'ChatBeforeSaveNewMessage()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ChatBeforeSaveNewMessage()'
+  nameWithType: Trigger.ChatBeforeSaveNewMessage()
+  fullName: CRMScript.Event.Trigger.ChatBeforeSaveNewMessage()
+  type: Method
+  summary: "\nCalled before a chat message is saved.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;chatSession.userId&quot;);\nString param2 = ed.getInputValue(&quot;chatMessage.id&quot;);\nString param3 = ed.getInputValue(&quot;chatMessage.message&quot;);\nprint(&quot;Params: &quot; + param1 + &quot; &quot; + param2);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ChatNewSession()
+  commentId: M:CRMScript.Event.Trigger.ChatNewSession()
+  id: 'ChatNewSession()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ChatNewSession()'
+  nameWithType: Trigger.ChatNewSession()
+  fullName: CRMScript.Event.Trigger.ChatNewSession()
+  type: Method
+  summary: "\nFires when a new chat session starts.<p></p>\nCorresponds to the webhook chatsession.created event.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;chatSession.id&quot;);\nString param2 = ed.getInputValue(&quot;chatMessage.id&quot;);\nString param3 = ed.getInputValue(&quot;chatMessage.message&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ChatSessionChangedStatus()
+  commentId: M:CRMScript.Event.Trigger.ChatSessionChangedStatus()
+  id: 'ChatSessionChangedStatus()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ChatSessionChangedStatus()'
+  nameWithType: Trigger.ChatSessionChangedStatus()
+  fullName: CRMScript.Event.Trigger.ChatSessionChangedStatus()
+  type: Method
+  summary: "\nCalled when session changes status. Equivalent to webhook chatsession.changed.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;chatSession.id&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.CompactModeInjection()
+  commentId: M:CRMScript.Event.Trigger.CompactModeInjection()
+  id: 'CompactModeInjection()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'CompactModeInjection()'
+  nameWithType: Trigger.CompactModeInjection()
+  fullName: CRMScript.Event.Trigger.CompactModeInjection()
+  type: Method
+  summary: "\nAdd custom stuff to our CompactMode client\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nprint(&quot;window.alert('foo!');&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.CustomerCenterAuthentication()
+  commentId: M:CRMScript.Event.Trigger.CustomerCenterAuthentication()
+  id: 'CustomerCenterAuthentication()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'CustomerCenterAuthentication()'
+  nameWithType: Trigger.CustomerCenterAuthentication()
+  fullName: CRMScript.Event.Trigger.CustomerCenterAuthentication()
+  type: Method
+  summary: "\nCalled when customer logs into Customer centre.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;personId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.CustomerSetSubscriptions()
+  commentId: M:CRMScript.Event.Trigger.CustomerSetSubscriptions()
+  id: 'CustomerSetSubscriptions()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'CustomerSetSubscriptions()'
+  nameWithType: Trigger.CustomerSetSubscriptions()
+  fullName: CRMScript.Event.Trigger.CustomerSetSubscriptions()
+  type: Method
+  summary: "\nCalled when setting subscriptions from Manage subscription page.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;personId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.DbiTaskFailed()
+  commentId: M:CRMScript.Event.Trigger.DbiTaskFailed()
+  id: 'DbiTaskFailed()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'DbiTaskFailed()'
+  nameWithType: Trigger.DbiTaskFailed()
+  fullName: CRMScript.Event.Trigger.DbiTaskFailed()
+  type: Method
+  summary: "\nCalled when a DBI task fails to execute successfully.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;entryId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ImportMailAfterProcessing()
+  commentId: M:CRMScript.Event.Trigger.ImportMailAfterProcessing()
+  id: 'ImportMailAfterProcessing()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ImportMailAfterProcessing()'
+  nameWithType: Trigger.ImportMailAfterProcessing()
+  fullName: CRMScript.Event.Trigger.ImportMailAfterProcessing()
+  type: Method
+  summary: "\nCalled after email is processed by email filters and save to the system.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;customerId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ImportMailBeforeProcessing()
+  commentId: M:CRMScript.Event.Trigger.ImportMailBeforeProcessing()
+  id: 'ImportMailBeforeProcessing()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ImportMailBeforeProcessing()'
+  nameWithType: Trigger.ImportMailBeforeProcessing()
+  fullName: CRMScript.Event.Trigger.ImportMailBeforeProcessing()
+  type: Method
+  summary: "\nThere are several variables available in this context.<p></p>\n<ul><li>To get a variable:<code>getVariable(&quot;xxx&quot;)</code></li><li>To set a variable:<code>setVariable(&quot;xxx&quot;, &lt;value&gt;)</code>, where &lt;value&gt; is a valid value for the field you are trying to set.</li></ul>\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\nThe following is an example of a script that will generate a new request if the incoming email is originally supposed to be connected to an existing request. The script will tell the email engine to generate a new request only if the original request is closed.<p></p>\n<pre><code>#setLanguageLevel 3;\nTicket ticket;\nticket.load(getVariable(&quot;ticketId&quot;).toInteger());\n\nif (ticket.getValue(&quot;status&quot;) == &quot;2&quot;)\n  setVariable(&quot;ticketExists&quot;, &quot;0&quot;);  // Generate new request</code></pre>\n"
+- uid: CRMScript.Event.Trigger.MainMenu()
+  commentId: M:CRMScript.Event.Trigger.MainMenu()
+  id: 'MainMenu()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'MainMenu()'
+  nameWithType: Trigger.MainMenu()
+  fullName: CRMScript.Event.Trigger.MainMenu()
+  type: Method
+  summary: "\nRuns when the main menu is rendered.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nMainMenu menu = getMainMenu();\nmenu.addItem(&quot;List equipment&quot;, getProgram(1) + &quot;&amp;action=listExtraTable&amp;extraTable=y_equipment&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.NewNotifyTicketFromForm()
+  commentId: M:CRMScript.Event.Trigger.NewNotifyTicketFromForm()
+  id: 'NewNotifyTicketFromForm()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'NewNotifyTicketFromForm()'
+  nameWithType: Trigger.NewNotifyTicketFromForm()
+  fullName: CRMScript.Event.Trigger.NewNotifyTicketFromForm()
+  type: Method
+  summary: "\nCalled when a new ticket was created from a form.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;entryId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.NewTicket()
+  commentId: M:CRMScript.Event.Trigger.NewTicket()
+  id: 'NewTicket()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'NewTicket()'
+  nameWithType: Trigger.NewTicket()
+  fullName: CRMScript.Event.Trigger.NewTicket()
+  type: Method
+  summary: "\nRuns when a new ticket is created.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;customerId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.NewTicketFromCustomerCenter()
+  commentId: M:CRMScript.Event.Trigger.NewTicketFromCustomerCenter()
+  id: 'NewTicketFromCustomerCenter()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'NewTicketFromCustomerCenter()'
+  nameWithType: Trigger.NewTicketFromCustomerCenter()
+  fullName: CRMScript.Event.Trigger.NewTicketFromCustomerCenter()
+  type: Method
+  summary: "\nCalled when a new ticket is created and saved from Customer center.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;ticketId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.NewTicketFromCustomerCenterBeforeSave()
+  commentId: M:CRMScript.Event.Trigger.NewTicketFromCustomerCenterBeforeSave()
+  id: 'NewTicketFromCustomerCenterBeforeSave()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'NewTicketFromCustomerCenterBeforeSave()'
+  nameWithType: Trigger.NewTicketFromCustomerCenterBeforeSave()
+  fullName: CRMScript.Event.Trigger.NewTicketFromCustomerCenterBeforeSave()
+  type: Method
+  summary: "\nCalled before a new ticket is created and saved from Customer center.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;customerId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.NewTicketFromEmail()
+  commentId: M:CRMScript.Event.Trigger.NewTicketFromEmail()
+  id: 'NewTicketFromEmail()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'NewTicketFromEmail()'
+  nameWithType: Trigger.NewTicketFromEmail()
+  fullName: CRMScript.Event.Trigger.NewTicketFromEmail()
+  type: Method
+  summary: "\nRuns after ImportMailAfterProcessing (304) if ticket did not exist.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;customerId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.NewTicketFromForm()
+  commentId: M:CRMScript.Event.Trigger.NewTicketFromForm()
+  id: 'NewTicketFromForm()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'NewTicketFromForm()'
+  nameWithType: Trigger.NewTicketFromForm()
+  fullName: CRMScript.Event.Trigger.NewTicketFromForm()
+  type: Method
+  summary: "\nCalled when a form submission creates a new ticket.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;entryId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.NewTicketFromSpmLink()
+  commentId: M:CRMScript.Event.Trigger.NewTicketFromSpmLink()
+  id: 'NewTicketFromSpmLink()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'NewTicketFromSpmLink()'
+  nameWithType: Trigger.NewTicketFromSpmLink()
+  fullName: CRMScript.Event.Trigger.NewTicketFromSpmLink()
+  type: Method
+  summary: "\nCalled when a mailing link was clicked and mailing specifies link tracking.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;entryId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesAfterSaveAppointment()
+  commentId: M:CRMScript.Event.Trigger.SalesAfterSaveAppointment()
+  id: 'SalesAfterSaveAppointment()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesAfterSaveAppointment()'
+  nameWithType: Trigger.SalesAfterSaveAppointment()
+  fullName: CRMScript.Event.Trigger.SalesAfterSaveAppointment()
+  type: Method
+  summary: "\nCalled after an appointment is saved. EventData contains all variables passed by datahandler in the Sales client. It is also possible to create and pass custom variables from BeforeSave event trigger.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;AppointmentEntity.AppointmentId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesAfterSaveContact()
+  commentId: M:CRMScript.Event.Trigger.SalesAfterSaveContact()
+  id: 'SalesAfterSaveContact()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesAfterSaveContact()'
+  nameWithType: Trigger.SalesAfterSaveContact()
+  fullName: CRMScript.Event.Trigger.SalesAfterSaveContact()
+  type: Method
+  summary: "\nCalled after a contact is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>// Get the variables in the current context\nEventData ed = getEventData();\n\nString contactId = ed.getInputValue(&quot;ContactEntity.ContactId&quot;);\n\n// If contact is new and category is &quot;Prospect&quot; create a new Sale opportunity\nif(ed.getInputValue(&quot;IsNew&quot;) == &quot;true&quot; &amp;&amp; ed.getInputValue(&quot;ContactEntity.Category.Value&quot;) == &quot;Prospect&quot;))\n{\n  NSSaleAgent saleAgent;\n  NSContactAgent contactAgent;\n  NSContact contact = contactAgent.GetContact(contactId.toInteger());\n  NSSaleEntity entity = saleAgent.CreateDefaultSaleEntity();\n\n  entity.SetHeading(&quot;New potential sale on &quot; + ed.getInputValue(&quot;ContactEntity.Name&quot;));\n  entity.SetContact(contact);\n\n  NSSaleType saleType;\n  saleType.SetId(1);\n  entity.SetSaleType(saleType);\n\n  saleAgent.SaveSaleEntity(entity);\n}</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesAfterSaveDocument()
+  commentId: M:CRMScript.Event.Trigger.SalesAfterSaveDocument()
+  id: 'SalesAfterSaveDocument()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesAfterSaveDocument()'
+  nameWithType: Trigger.SalesAfterSaveDocument()
+  fullName: CRMScript.Event.Trigger.SalesAfterSaveDocument()
+  type: Method
+  summary: "\nCalled after a document is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;IsNew&quot;);\nif(param1 == &quot;true&quot; &amp;&amp; ed.getInputValue(&quot;DocumentEntity.DocumentTemplate.Name&quot;) == &quot;Incoming contract&quot;)\n{\n    //Do something when new document of type &quot;Incoming contract&quot; is created\n}</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesAfterSavePerson()
+  commentId: M:CRMScript.Event.Trigger.SalesAfterSavePerson()
+  id: 'SalesAfterSavePerson()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesAfterSavePerson()'
+  nameWithType: Trigger.SalesAfterSavePerson()
+  fullName: CRMScript.Event.Trigger.SalesAfterSavePerson()
+  type: Method
+  summary: "\nCalled after a person is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;PersonEntity.PersonId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesAfterSaveProject()
+  commentId: M:CRMScript.Event.Trigger.SalesAfterSaveProject()
+  id: 'SalesAfterSaveProject()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesAfterSaveProject()'
+  nameWithType: Trigger.SalesAfterSaveProject()
+  fullName: CRMScript.Event.Trigger.SalesAfterSaveProject()
+  type: Method
+  summary: "\nCalled after a project is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>// Get the variables in the current context\nEventData ed = getEventData();</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesAfterSaveProjectMember()
+  commentId: M:CRMScript.Event.Trigger.SalesAfterSaveProjectMember()
+  id: 'SalesAfterSaveProjectMember()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesAfterSaveProjectMember()'
+  nameWithType: Trigger.SalesAfterSaveProjectMember()
+  fullName: CRMScript.Event.Trigger.SalesAfterSaveProjectMember()
+  type: Method
+  summary: "\nCalled after project member is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString[] param1 = ed.getInputValue(&quot;NewMembers&quot;).split(&quot;§&quot;);\nfor(Integer i = 0; i &lt; param1.length(); i++)\n{\n    //Do something with each new member\n}</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesAfterSaveQuote()
+  commentId: M:CRMScript.Event.Trigger.SalesAfterSaveQuote()
+  id: 'SalesAfterSaveQuote()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesAfterSaveQuote()'
+  nameWithType: Trigger.SalesAfterSaveQuote()
+  fullName: CRMScript.Event.Trigger.SalesAfterSaveQuote()
+  type: Method
+  summary: "\nCalled after an quote is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;Quote.SaleId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesAfterSaveQuoteLine()
+  commentId: M:CRMScript.Event.Trigger.SalesAfterSaveQuoteLine()
+  id: 'SalesAfterSaveQuoteLine()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesAfterSaveQuoteLine()'
+  nameWithType: Trigger.SalesAfterSaveQuoteLine()
+  fullName: CRMScript.Event.Trigger.SalesAfterSaveQuoteLine()
+  type: Method
+  summary: "\nCalled after an quote line is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;QuoteLine.QuoteLineId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesAfterSaveRelation()
+  commentId: M:CRMScript.Event.Trigger.SalesAfterSaveRelation()
+  id: 'SalesAfterSaveRelation()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesAfterSaveRelation()'
+  nameWithType: Trigger.SalesAfterSaveRelation()
+  fullName: CRMScript.Event.Trigger.SalesAfterSaveRelation()
+  type: Method
+  summary: "\nCalled after a relation is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;ContactRelationEntity.RelationId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesAfterSaveSale()
+  commentId: M:CRMScript.Event.Trigger.SalesAfterSaveSale()
+  id: 'SalesAfterSaveSale()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesAfterSaveSale()'
+  nameWithType: Trigger.SalesAfterSaveSale()
+  fullName: CRMScript.Event.Trigger.SalesAfterSaveSale()
+  type: Method
+  summary: "\nCalled after a sale is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>//If sale status has changed and is sold* Change customer category\nif(ed.getInputValue(&quot;SaleStatusChanged&quot;) == &quot;True&quot; &amp;&amp; ed.getInputValue(&quot;SaleStatus&quot;) == &quot;2&quot;)\n{\n    if(ed.getInputValue(&quot;SaleEntity.Contact.CategoryName&quot;) == &quot;Prospect&quot;)\n    {\n      NSContactAgent contactAgent;\n      NSContactEntity entity = contactAgent.GetContactEntity(ed.getInputValue(&quot;SaleEntity.Contact.ContactId&quot;).toInteger());\n\n      NSCategory category;\n      category.SetId(1);\n      entity.SetCategory(category);\n\n      contactAgent.SaveContactEntity(entity);\n\n    }\n}</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesAfterSaveSelection()
+  commentId: M:CRMScript.Event.Trigger.SalesAfterSaveSelection()
+  id: 'SalesAfterSaveSelection()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesAfterSaveSelection()'
+  nameWithType: Trigger.SalesAfterSaveSelection()
+  fullName: CRMScript.Event.Trigger.SalesAfterSaveSelection()
+  type: Method
+  summary: "\nCalled after selection is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesAfterSaveSelectionMember()
+  commentId: M:CRMScript.Event.Trigger.SalesAfterSaveSelectionMember()
+  id: 'SalesAfterSaveSelectionMember()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesAfterSaveSelectionMember()'
+  nameWithType: Trigger.SalesAfterSaveSelectionMember()
+  fullName: CRMScript.Event.Trigger.SalesAfterSaveSelectionMember()
+  type: Method
+  summary: "\nCalled after selection member is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString[] param1 = ed.getInputValue(&quot;NewMembers&quot;).split(&quot;§&quot;);\nfor(Integer i = 0; i &lt; param1.length(); i++)\n{\n    //Do something with each new member\n}</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesAfterSaveStakeholder()
+  commentId: M:CRMScript.Event.Trigger.SalesAfterSaveStakeholder()
+  id: 'SalesAfterSaveStakeholder()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesAfterSaveStakeholder()'
+  nameWithType: Trigger.SalesAfterSaveStakeholder()
+  fullName: CRMScript.Event.Trigger.SalesAfterSaveStakeholder()
+  type: Method
+  summary: "\nCalled after a sale stakeholder is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString[] param1 = ed.getInputValue(&quot;NewMembers&quot;).split(&quot;§&quot;);\nfor(Integer i = 0; i &lt; param1.length(); i++)\n{\n//Do something with each new member\n}</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesBeforeSaveAppointment()
+  commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveAppointment()
+  id: 'SalesBeforeSaveAppointment()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesBeforeSaveAppointment()'
+  nameWithType: Trigger.SalesBeforeSaveAppointment()
+  fullName: CRMScript.Event.Trigger.SalesBeforeSaveAppointment()
+  type: Method
+  summary: "\nCalled before an appointment is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;AppointmentEntity.AppointmentId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesBeforeSaveContact()
+  commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveContact()
+  id: 'SalesBeforeSaveContact()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesBeforeSaveContact()'
+  nameWithType: Trigger.SalesBeforeSaveContact()
+  fullName: CRMScript.Event.Trigger.SalesBeforeSaveContact()
+  type: Method
+  summary: "\nCalled before a contact is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>// Get the variables in the current context\nEventData ed = getEventData();\n\n// Get the input value from the current company\nString orgNr = ed.getInputValue(&quot;ContactEntity.OrgNr&quot;);\nBool blockExecution = false;\n\n// If the orgNr field is empty, block save with a message\nif(orgNr.isEmpty())\n{\n  ed.setMessage(&quot;Please type in a Org.Nr&quot;);\n  blockExecution = true;\n}// If the orgNr field has letters or is not 9 digits\nelse if(!orgNr.isDigit() || orgNr.getLength() != 9)\n{\n  ed.setMessage(&quot;Please type in a valid Org.Nr (9 digits)&quot;);\n  blockExecution = true;\n}\ned.setBlockExecution(blockExecution);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesBeforeSaveDocument()
+  commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveDocument()
+  id: 'SalesBeforeSaveDocument()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesBeforeSaveDocument()'
+  nameWithType: Trigger.SalesBeforeSaveDocument()
+  fullName: CRMScript.Event.Trigger.SalesBeforeSaveDocument()
+  type: Method
+  summary: "\nCalled before an document is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;IsNew&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesBeforeSavePerson()
+  commentId: M:CRMScript.Event.Trigger.SalesBeforeSavePerson()
+  id: 'SalesBeforeSavePerson()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesBeforeSavePerson()'
+  nameWithType: Trigger.SalesBeforeSavePerson()
+  fullName: CRMScript.Event.Trigger.SalesBeforeSavePerson()
+  type: Method
+  summary: "\nCalled before a person is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;PersonEntity.PersonId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesBeforeSaveProject()
+  commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveProject()
+  id: 'SalesBeforeSaveProject()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesBeforeSaveProject()'
+  nameWithType: Trigger.SalesBeforeSaveProject()
+  fullName: CRMScript.Event.Trigger.SalesBeforeSaveProject()
+  type: Method
+  summary: "\nCalled before a project is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>// Get the variables in the current context\nEventData ed = getEventData();\n\nif(ed.getInputValue(&quot;IsNew&quot;) == &quot;true&quot;)\n{\n    //If project is new make sure Description is not empty\n    Bool blockExecution = false;\n    String description = ed.getInputValue(&quot;ProjectEntity.Description&quot;);\n\n    // If the length of description field is less than 2 chars, block save with a message\n    if(description.getLength() &lt;= 2)\n    {\n      ed.setMessage(&quot;Please type in a description&quot;);\n      blockExecution = true;\n    }\n    ed.setBlockExecution(blockExecution);\n}</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesBeforeSaveProjectMember()
+  commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveProjectMember()
+  id: 'SalesBeforeSaveProjectMember()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesBeforeSaveProjectMember()'
+  nameWithType: Trigger.SalesBeforeSaveProjectMember()
+  fullName: CRMScript.Event.Trigger.SalesBeforeSaveProjectMember()
+  type: Method
+  summary: "\nCalled before project member is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString[] param1 = ed.getInputValue(&quot;NewMembers&quot;).split(&quot;§&quot;);\nfor(Integer i = 0; i &lt; param1.length(); i++)\n{\n    //Do something with each new member\n}</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesBeforeSaveQuote()
+  commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveQuote()
+  id: 'SalesBeforeSaveQuote()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesBeforeSaveQuote()'
+  nameWithType: Trigger.SalesBeforeSaveQuote()
+  fullName: CRMScript.Event.Trigger.SalesBeforeSaveQuote()
+  type: Method
+  summary: "\nCalled before an quote is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;Quote.SaleId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesBeforeSaveQuoteLine()
+  commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveQuoteLine()
+  id: 'SalesBeforeSaveQuoteLine()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesBeforeSaveQuoteLine()'
+  nameWithType: Trigger.SalesBeforeSaveQuoteLine()
+  fullName: CRMScript.Event.Trigger.SalesBeforeSaveQuoteLine()
+  type: Method
+  summary: "\nCalled before an quote line is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;QuoteLine.QuoteLineId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesBeforeSaveRelation()
+  commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveRelation()
+  id: 'SalesBeforeSaveRelation()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesBeforeSaveRelation()'
+  nameWithType: Trigger.SalesBeforeSaveRelation()
+  fullName: CRMScript.Event.Trigger.SalesBeforeSaveRelation()
+  type: Method
+  summary: "\nCalled before a relation is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString param1 = ed.getInputValue(&quot;ContactRelationEntity.RelationId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesBeforeSaveSale()
+  commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveSale()
+  id: 'SalesBeforeSaveSale()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesBeforeSaveSale()'
+  nameWithType: Trigger.SalesBeforeSaveSale()
+  fullName: CRMScript.Event.Trigger.SalesBeforeSaveSale()
+  type: Method
+  summary: "\nCalled before a sale is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>// Get the variables in the current context\nEventData ed = getEventData();</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesBeforeSaveSelection()
+  commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveSelection()
+  id: 'SalesBeforeSaveSelection()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesBeforeSaveSelection()'
+  nameWithType: Trigger.SalesBeforeSaveSelection()
+  fullName: CRMScript.Event.Trigger.SalesBeforeSaveSelection()
+  type: Method
+  summary: "\nCalled before selection is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesBeforeSaveSelectionMember()
+  commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveSelectionMember()
+  id: 'SalesBeforeSaveSelectionMember()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesBeforeSaveSelectionMember()'
+  nameWithType: Trigger.SalesBeforeSaveSelectionMember()
+  fullName: CRMScript.Event.Trigger.SalesBeforeSaveSelectionMember()
+  type: Method
+  summary: "\nCalled before selection member is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString[] param1 = ed.getInputValue(&quot;NewMembers&quot;).split(&quot;§&quot;);\nfor(Integer i = 0; i &lt; param1.length(); i++)\n{\n    //Do something with each new member\n}</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesBeforeSaveStakeholder()
+  commentId: M:CRMScript.Event.Trigger.SalesBeforeSaveStakeholder()
+  id: 'SalesBeforeSaveStakeholder()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'SalesBeforeSaveStakeholder()'
+  nameWithType: Trigger.SalesBeforeSaveStakeholder()
+  fullName: CRMScript.Event.Trigger.SalesBeforeSaveStakeholder()
+  type: Method
+  summary: "\nCalled before a sale stakeholder is saved.EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString[] param1 = ed.getInputValue(&quot;NewMembers&quot;).split(&quot;§&quot;);\nfor(Integer i = 0; i &lt; param1.length(); i++)\n{\n    //Do something with each new member\n}</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ScheduledTaskFailed()
+  commentId: M:CRMScript.Event.Trigger.ScheduledTaskFailed()
+  id: 'ScheduledTaskFailed()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ScheduledTaskFailed()'
+  nameWithType: Trigger.ScheduledTaskFailed()
+  fullName: CRMScript.Event.Trigger.ScheduledTaskFailed()
+  type: Method
+  summary: "\nRuns after scheduled task failed\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;entryId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenAddMessageAfterSubmit()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenAddMessageAfterSubmit()
+  id: 'ServiceScreenAddMessageAfterSubmit()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenAddMessageAfterSubmit()'
+  nameWithType: Trigger.ServiceScreenAddMessageAfterSubmit()
+  fullName: CRMScript.Event.Trigger.ServiceScreenAddMessageAfterSubmit()
+  type: Method
+  summary: "\nCalled after screen is submitted and values are saved, useful for performing after processing.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenAddMessageBeforeSubmit()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenAddMessageBeforeSubmit()
+  id: 'ServiceScreenAddMessageBeforeSubmit()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenAddMessageBeforeSubmit()'
+  nameWithType: Trigger.ServiceScreenAddMessageBeforeSubmit()
+  fullName: CRMScript.Event.Trigger.ServiceScreenAddMessageBeforeSubmit()
+  type: Method
+  summary: "\nCalled before screen is submitted and values are saved, useful for validations with blocking of save.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenAddMessageLoad()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenAddMessageLoad()
+  id: 'ServiceScreenAddMessageLoad()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenAddMessageLoad()'
+  nameWithType: Trigger.ServiceScreenAddMessageLoad()
+  fullName: CRMScript.Event.Trigger.ServiceScreenAddMessageLoad()
+  type: Method
+  summary: "\nCalled when screen is constructed, useful for setting default values into HTML elements\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenEditCompanyAfterSubmit()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenEditCompanyAfterSubmit()
+  id: 'ServiceScreenEditCompanyAfterSubmit()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenEditCompanyAfterSubmit()'
+  nameWithType: Trigger.ServiceScreenEditCompanyAfterSubmit()
+  fullName: CRMScript.Event.Trigger.ServiceScreenEditCompanyAfterSubmit()
+  type: Method
+  summary: "\nCalled after screen is submitted and values are saved, useful for performing after processing.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenEditCompanyBeforeSubmit()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenEditCompanyBeforeSubmit()
+  id: 'ServiceScreenEditCompanyBeforeSubmit()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenEditCompanyBeforeSubmit()'
+  nameWithType: Trigger.ServiceScreenEditCompanyBeforeSubmit()
+  fullName: CRMScript.Event.Trigger.ServiceScreenEditCompanyBeforeSubmit()
+  type: Method
+  summary: "\nCalled before screen is submitted and values are saved, useful for validations with blocking of save.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenEditCompanyLoad()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenEditCompanyLoad()
+  id: 'ServiceScreenEditCompanyLoad()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenEditCompanyLoad()'
+  nameWithType: Trigger.ServiceScreenEditCompanyLoad()
+  fullName: CRMScript.Event.Trigger.ServiceScreenEditCompanyLoad()
+  type: Method
+  summary: "\nRuns for<code>HtmlPage.lang_ticket_newCompany</code>screen. Called when screen is constructed, useful for setting default values into HTML elements\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenEditCustomerAfterSubmit()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenEditCustomerAfterSubmit()
+  id: 'ServiceScreenEditCustomerAfterSubmit()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenEditCustomerAfterSubmit()'
+  nameWithType: Trigger.ServiceScreenEditCustomerAfterSubmit()
+  fullName: CRMScript.Event.Trigger.ServiceScreenEditCustomerAfterSubmit()
+  type: Method
+  summary: "\nCalled after screen is submitted and values are saved, useful for performing after processing.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenEditCustomerBeforeSubmit()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenEditCustomerBeforeSubmit()
+  id: 'ServiceScreenEditCustomerBeforeSubmit()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenEditCustomerBeforeSubmit()'
+  nameWithType: Trigger.ServiceScreenEditCustomerBeforeSubmit()
+  fullName: CRMScript.Event.Trigger.ServiceScreenEditCustomerBeforeSubmit()
+  type: Method
+  summary: "\nCalled before screen is submitted and values are saved, useful for validations with blocking of save.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenEditCustomerLoad()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenEditCustomerLoad()
+  id: 'ServiceScreenEditCustomerLoad()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenEditCustomerLoad()'
+  nameWithType: Trigger.ServiceScreenEditCustomerLoad()
+  fullName: CRMScript.Event.Trigger.ServiceScreenEditCustomerLoad()
+  type: Method
+  summary: "\nRuns for<code>HtmlPage.lang_ticket_editCustomer</code><p></p>\nCalled when screen is constructed, useful for setting default values into HTML elements\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;customerId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenEditExtraTableAfterSubmit()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenEditExtraTableAfterSubmit()
+  id: 'ServiceScreenEditExtraTableAfterSubmit()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenEditExtraTableAfterSubmit()'
+  nameWithType: Trigger.ServiceScreenEditExtraTableAfterSubmit()
+  fullName: CRMScript.Event.Trigger.ServiceScreenEditExtraTableAfterSubmit()
+  type: Method
+  summary: "\nCalled after screen is submitted and values are saved, useful for performing after processing.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenEditExtraTableBeforeSubmit()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenEditExtraTableBeforeSubmit()
+  id: 'ServiceScreenEditExtraTableBeforeSubmit()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenEditExtraTableBeforeSubmit()'
+  nameWithType: Trigger.ServiceScreenEditExtraTableBeforeSubmit()
+  fullName: CRMScript.Event.Trigger.ServiceScreenEditExtraTableBeforeSubmit()
+  type: Method
+  summary: "\nCalled before screen is submitted and values are saved, useful for validations with blocking of save.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenEditExtraTableLoad()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenEditExtraTableLoad()
+  id: 'ServiceScreenEditExtraTableLoad()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenEditExtraTableLoad()'
+  nameWithType: Trigger.ServiceScreenEditExtraTableLoad()
+  fullName: CRMScript.Event.Trigger.ServiceScreenEditExtraTableLoad()
+  type: Method
+  summary: "\nCalled when screen is constructed, useful for setting default values into HTML elements\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;customerId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenEditTicketAfterSubmit()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenEditTicketAfterSubmit()
+  id: 'ServiceScreenEditTicketAfterSubmit()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenEditTicketAfterSubmit()'
+  nameWithType: Trigger.ServiceScreenEditTicketAfterSubmit()
+  fullName: CRMScript.Event.Trigger.ServiceScreenEditTicketAfterSubmit()
+  type: Method
+  summary: "\nCalled after screen is submitted and values are saved, useful for performing after processing.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenEditTicketBeforeSubmit()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenEditTicketBeforeSubmit()
+  id: 'ServiceScreenEditTicketBeforeSubmit()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenEditTicketBeforeSubmit()'
+  nameWithType: Trigger.ServiceScreenEditTicketBeforeSubmit()
+  fullName: CRMScript.Event.Trigger.ServiceScreenEditTicketBeforeSubmit()
+  type: Method
+  summary: "\nCalled before screen is submitted and values are saved, useful for validations with blocking of save.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenEditTicketLoad()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenEditTicketLoad()
+  id: 'ServiceScreenEditTicketLoad()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenEditTicketLoad()'
+  nameWithType: Trigger.ServiceScreenEditTicketLoad()
+  fullName: CRMScript.Event.Trigger.ServiceScreenEditTicketLoad()
+  type: Method
+  summary: "\nCalled when screen is constructed, useful for setting default values into HTML elements\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenForwardAfterSubmit()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenForwardAfterSubmit()
+  id: 'ServiceScreenForwardAfterSubmit()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenForwardAfterSubmit()'
+  nameWithType: Trigger.ServiceScreenForwardAfterSubmit()
+  fullName: CRMScript.Event.Trigger.ServiceScreenForwardAfterSubmit()
+  type: Method
+  summary: "\nCalled after screen is submitted and values are saved, useful for performing after processing.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenForwardBeforeSubmit()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenForwardBeforeSubmit()
+  id: 'ServiceScreenForwardBeforeSubmit()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenForwardBeforeSubmit()'
+  nameWithType: Trigger.ServiceScreenForwardBeforeSubmit()
+  fullName: CRMScript.Event.Trigger.ServiceScreenForwardBeforeSubmit()
+  type: Method
+  summary: "\nCalled before screen is submitted and values are saved, useful for validations with blocking of save.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenForwardLoad()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenForwardLoad()
+  id: 'ServiceScreenForwardLoad()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenForwardLoad()'
+  nameWithType: Trigger.ServiceScreenForwardLoad()
+  fullName: CRMScript.Event.Trigger.ServiceScreenForwardLoad()
+  type: Method
+  summary: "\nRuns for<code>HtmlPage.forward</code>event. Called when screen is constructed, useful for setting default values into HTML elements.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenListTicketMessagesAfterSubmit()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenListTicketMessagesAfterSubmit()
+  id: 'ServiceScreenListTicketMessagesAfterSubmit()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenListTicketMessagesAfterSubmit()'
+  nameWithType: Trigger.ServiceScreenListTicketMessagesAfterSubmit()
+  fullName: CRMScript.Event.Trigger.ServiceScreenListTicketMessagesAfterSubmit()
+  type: Method
+  summary: "\nCalled after screen is submitted and values are saved, useful for performing after processing.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenListTicketMessagesBeforeSubmit()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenListTicketMessagesBeforeSubmit()
+  id: 'ServiceScreenListTicketMessagesBeforeSubmit()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenListTicketMessagesBeforeSubmit()'
+  nameWithType: Trigger.ServiceScreenListTicketMessagesBeforeSubmit()
+  fullName: CRMScript.Event.Trigger.ServiceScreenListTicketMessagesBeforeSubmit()
+  type: Method
+  summary: "\nCalled before screen is submitted and values are saved, useful for validations with blocking of save.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenListTicketMessagesLoad()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenListTicketMessagesLoad()
+  id: 'ServiceScreenListTicketMessagesLoad()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenListTicketMessagesLoad()'
+  nameWithType: Trigger.ServiceScreenListTicketMessagesLoad()
+  fullName: CRMScript.Event.Trigger.ServiceScreenListTicketMessagesLoad()
+  type: Method
+  summary: "\nCalled when screen is constructed, useful for setting default values into HTML elements.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenNewQuickTicketAfterSubmit()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenNewQuickTicketAfterSubmit()
+  id: 'ServiceScreenNewQuickTicketAfterSubmit()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenNewQuickTicketAfterSubmit()'
+  nameWithType: Trigger.ServiceScreenNewQuickTicketAfterSubmit()
+  fullName: CRMScript.Event.Trigger.ServiceScreenNewQuickTicketAfterSubmit()
+  type: Method
+  summary: "\nCalled after screen is submitted and values are saved, useful for performing after processing.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenNewQuickTicketBeforeSubmit()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenNewQuickTicketBeforeSubmit()
+  id: 'ServiceScreenNewQuickTicketBeforeSubmit()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenNewQuickTicketBeforeSubmit()'
+  nameWithType: Trigger.ServiceScreenNewQuickTicketBeforeSubmit()
+  fullName: CRMScript.Event.Trigger.ServiceScreenNewQuickTicketBeforeSubmit()
+  type: Method
+  summary: "\nCalled before screen is submitted and values are saved, useful for validations with blocking of save.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenNewQuickTicketLoad()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenNewQuickTicketLoad()
+  id: 'ServiceScreenNewQuickTicketLoad()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenNewQuickTicketLoad()'
+  nameWithType: Trigger.ServiceScreenNewQuickTicketLoad()
+  fullName: CRMScript.Event.Trigger.ServiceScreenNewQuickTicketLoad()
+  type: Method
+  summary: "\nCalled when screen is constructed, useful for setting default values into HTML elements.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenNewTicketAfterSubmit()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenNewTicketAfterSubmit()
+  id: 'ServiceScreenNewTicketAfterSubmit()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenNewTicketAfterSubmit()'
+  nameWithType: Trigger.ServiceScreenNewTicketAfterSubmit()
+  fullName: CRMScript.Event.Trigger.ServiceScreenNewTicketAfterSubmit()
+  type: Method
+  summary: "\nCalled after screen is submitted and values are saved, useful for performing after processing.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenNewTicketBeforeSubmit()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenNewTicketBeforeSubmit()
+  id: 'ServiceScreenNewTicketBeforeSubmit()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenNewTicketBeforeSubmit()'
+  nameWithType: Trigger.ServiceScreenNewTicketBeforeSubmit()
+  fullName: CRMScript.Event.Trigger.ServiceScreenNewTicketBeforeSubmit()
+  type: Method
+  summary: "\nCalled before screen is submitted and values are saved, useful for validations with blocking of save.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenNewTicketLoad()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenNewTicketLoad()
+  id: 'ServiceScreenNewTicketLoad()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenNewTicketLoad()'
+  nameWithType: Trigger.ServiceScreenNewTicketLoad()
+  fullName: CRMScript.Event.Trigger.ServiceScreenNewTicketLoad()
+  type: Method
+  summary: "\nCalled when screen is constructed, useful for setting default values into HTML elements.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenViewCompanyAfterSubmit()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenViewCompanyAfterSubmit()
+  id: 'ServiceScreenViewCompanyAfterSubmit()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenViewCompanyAfterSubmit()'
+  nameWithType: Trigger.ServiceScreenViewCompanyAfterSubmit()
+  fullName: CRMScript.Event.Trigger.ServiceScreenViewCompanyAfterSubmit()
+  type: Method
+  summary: "\nCalled after screen is submitted and values are saved, useful for performing after processing.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenViewCompanyBeforeSubmit()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenViewCompanyBeforeSubmit()
+  id: 'ServiceScreenViewCompanyBeforeSubmit()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenViewCompanyBeforeSubmit()'
+  nameWithType: Trigger.ServiceScreenViewCompanyBeforeSubmit()
+  fullName: CRMScript.Event.Trigger.ServiceScreenViewCompanyBeforeSubmit()
+  type: Method
+  summary: "\nCalled before screen is submitted and values are saved, useful for validations with blocking of save.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenViewCompanyLoad()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenViewCompanyLoad()
+  id: 'ServiceScreenViewCompanyLoad()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenViewCompanyLoad()'
+  nameWithType: Trigger.ServiceScreenViewCompanyLoad()
+  fullName: CRMScript.Event.Trigger.ServiceScreenViewCompanyLoad()
+  type: Method
+  summary: "\nCalled when screen is constructed, useful for setting default values into HTML elements.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenViewCustomerAfterSubmit()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenViewCustomerAfterSubmit()
+  id: 'ServiceScreenViewCustomerAfterSubmit()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenViewCustomerAfterSubmit()'
+  nameWithType: Trigger.ServiceScreenViewCustomerAfterSubmit()
+  fullName: CRMScript.Event.Trigger.ServiceScreenViewCustomerAfterSubmit()
+  type: Method
+  summary: "\nCalled after screen is submitted and values are saved, useful for performing after processing.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenViewCustomerBeforeSubmit()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenViewCustomerBeforeSubmit()
+  id: 'ServiceScreenViewCustomerBeforeSubmit()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenViewCustomerBeforeSubmit()'
+  nameWithType: Trigger.ServiceScreenViewCustomerBeforeSubmit()
+  fullName: CRMScript.Event.Trigger.ServiceScreenViewCustomerBeforeSubmit()
+  type: Method
+  summary: "\nCalled before screen is submitted and values are saved, useful for validations with blocking of save.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.ServiceScreenViewCustomerLoad()
+  commentId: M:CRMScript.Event.Trigger.ServiceScreenViewCustomerLoad()
+  id: 'ServiceScreenViewCustomerLoad()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'ServiceScreenViewCustomerLoad()'
+  nameWithType: Trigger.ServiceScreenViewCustomerLoad()
+  fullName: CRMScript.Event.Trigger.ServiceScreenViewCustomerLoad()
+  type: Method
+  summary: "\nCalled when screen is constructed, useful for setting default values into HTML elements.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;button&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.TicketActivated()
+  commentId: M:CRMScript.Event.Trigger.TicketActivated()
+  id: 'TicketActivated()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'TicketActivated()'
+  nameWithType: Trigger.TicketActivated()
+  fullName: CRMScript.Event.Trigger.TicketActivated()
+  type: Method
+  summary: "\nRuns when ticket is saved and status changed from postponed to active.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;ticketId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.TicketChangedCategory()
+  commentId: M:CRMScript.Event.Trigger.TicketChangedCategory()
+  id: 'TicketChangedCategory()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'TicketChangedCategory()'
+  nameWithType: Trigger.TicketChangedCategory()
+  fullName: CRMScript.Event.Trigger.TicketChangedCategory()
+  type: Method
+  summary: "\nRuns when a ticket is saved and the ticket category changes ID.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;personId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.TicketChangedOwnedBy()
+  commentId: M:CRMScript.Event.Trigger.TicketChangedOwnedBy()
+  id: 'TicketChangedOwnedBy()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'TicketChangedOwnedBy()'
+  nameWithType: Trigger.TicketChangedOwnedBy()
+  fullName: CRMScript.Event.Trigger.TicketChangedOwnedBy()
+  type: Method
+  summary: "\nRuns when a ticket is saved and the owner changed.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;ticketId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.TicketChangedPrimaryCustomer()
+  commentId: M:CRMScript.Event.Trigger.TicketChangedPrimaryCustomer()
+  id: 'TicketChangedPrimaryCustomer()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'TicketChangedPrimaryCustomer()'
+  nameWithType: Trigger.TicketChangedPrimaryCustomer()
+  fullName: CRMScript.Event.Trigger.TicketChangedPrimaryCustomer()
+  type: Method
+  summary: "\nRuns when a ticket is saved and the customer ID changes.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;personId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.TicketChangedPriority()
+  commentId: M:CRMScript.Event.Trigger.TicketChangedPriority()
+  id: 'TicketChangedPriority()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'TicketChangedPriority()'
+  nameWithType: Trigger.TicketChangedPriority()
+  fullName: CRMScript.Event.Trigger.TicketChangedPriority()
+  type: Method
+  summary: "\nRuns when a ticket is saved and priority changed.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;ticketId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.TicketChangedSlevel()
+  commentId: M:CRMScript.Event.Trigger.TicketChangedSlevel()
+  id: 'TicketChangedSlevel()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'TicketChangedSlevel()'
+  nameWithType: Trigger.TicketChangedSlevel()
+  fullName: CRMScript.Event.Trigger.TicketChangedSlevel()
+  type: Method
+  summary: "\nRuns when a ticket is saved and the security level changed.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;ticketId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.TicketChangedTicketStatus()
+  commentId: M:CRMScript.Event.Trigger.TicketChangedTicketStatus()
+  id: 'TicketChangedTicketStatus()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'TicketChangedTicketStatus()'
+  nameWithType: Trigger.TicketChangedTicketStatus()
+  fullName: CRMScript.Event.Trigger.TicketChangedTicketStatus()
+  type: Method
+  summary: "\nRuns when a ticket is saved and status changed. If user-defined statuses are present in solution available values will differ from below.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;ticketId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.TicketClosed()
+  commentId: M:CRMScript.Event.Trigger.TicketClosed()
+  id: 'TicketClosed()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'TicketClosed()'
+  nameWithType: Trigger.TicketClosed()
+  fullName: CRMScript.Event.Trigger.TicketClosed()
+  type: Method
+  summary: "\nRuns when a ticket is saved and the status changes to closed.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;customerId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.TicketDeleted()
+  commentId: M:CRMScript.Event.Trigger.TicketDeleted()
+  id: 'TicketDeleted()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'TicketDeleted()'
+  nameWithType: Trigger.TicketDeleted()
+  fullName: CRMScript.Event.Trigger.TicketDeleted()
+  type: Method
+  summary: "\nRuns when a ticket is saved and the status changes to deleted.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;customerId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.TicketExternalMessageAdded()
+  commentId: M:CRMScript.Event.Trigger.TicketExternalMessageAdded()
+  id: 'TicketExternalMessageAdded()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'TicketExternalMessageAdded()'
+  nameWithType: Trigger.TicketExternalMessageAdded()
+  fullName: CRMScript.Event.Trigger.TicketExternalMessageAdded()
+  type: Method
+  summary: "\nCalled for all external messages added to a ticket, following a call to the TicketMessageAdded trigger.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;entryId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.TicketInternalMessageAdded()
+  commentId: M:CRMScript.Event.Trigger.TicketInternalMessageAdded()
+  id: 'TicketInternalMessageAdded()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'TicketInternalMessageAdded()'
+  nameWithType: Trigger.TicketInternalMessageAdded()
+  fullName: CRMScript.Event.Trigger.TicketInternalMessageAdded()
+  type: Method
+  summary: "\nCalled for all internal messages added to a ticket, following a call to the TicketMessageAdded trigger.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;entryId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.TicketMessageAdded()
+  commentId: M:CRMScript.Event.Trigger.TicketMessageAdded()
+  id: 'TicketMessageAdded()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'TicketMessageAdded()'
+  nameWithType: Trigger.TicketMessageAdded()
+  fullName: CRMScript.Event.Trigger.TicketMessageAdded()
+  type: Method
+  summary: "\nCalled for all messages added to a ticket, followed by call to either<code>TicketInternalMessageAdded</code>or<code>TicketExternalMessageAdded</code>trigger.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;entryId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.TicketMessageSentimentCalculated()
+  commentId: M:CRMScript.Event.Trigger.TicketMessageSentimentCalculated()
+  id: 'TicketMessageSentimentCalculated()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'TicketMessageSentimentCalculated()'
+  nameWithType: Trigger.TicketMessageSentimentCalculated()
+  fullName: CRMScript.Event.Trigger.TicketMessageSentimentCalculated()
+  type: Method
+  summary: "\nRuns when a new sentiment is calculated.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;ticketId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.TicketPostponed()
+  commentId: M:CRMScript.Event.Trigger.TicketPostponed()
+  id: 'TicketPostponed()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'TicketPostponed()'
+  nameWithType: Trigger.TicketPostponed()
+  fullName: CRMScript.Event.Trigger.TicketPostponed()
+  type: Method
+  summary: "\nRuns when a ticket is saved and the status changed to postponed.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;customerId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.TicketReopened()
+  commentId: M:CRMScript.Event.Trigger.TicketReopened()
+  id: 'TicketReopened()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'TicketReopened()'
+  nameWithType: Trigger.TicketReopened()
+  fullName: CRMScript.Event.Trigger.TicketReopened()
+  type: Method
+  summary: "\nRuns when a ticket is saved and the status changed from closed to active.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;customerId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.TicketReopenedFromCustomerCenter()
+  commentId: M:CRMScript.Event.Trigger.TicketReopenedFromCustomerCenter()
+  id: 'TicketReopenedFromCustomerCenter()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'TicketReopenedFromCustomerCenter()'
+  nameWithType: Trigger.TicketReopenedFromCustomerCenter()
+  fullName: CRMScript.Event.Trigger.TicketReopenedFromCustomerCenter()
+  type: Method
+  summary: "\nCalled when a ticket is reopened from Customer center.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;ticketId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.TicketReopenedFromEmail()
+  commentId: M:CRMScript.Event.Trigger.TicketReopenedFromEmail()
+  id: 'TicketReopenedFromEmail()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'TicketReopenedFromEmail()'
+  nameWithType: Trigger.TicketReopenedFromEmail()
+  fullName: CRMScript.Event.Trigger.TicketReopenedFromEmail()
+  type: Method
+  summary: "\nRuns after ImportMailAfterProcessing (304) if ticket existed before.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;customerId&quot;);</code></pre>\n"
+- uid: CRMScript.Event.Trigger.TicketSave()
+  commentId: M:CRMScript.Event.Trigger.TicketSave()
+  id: 'TicketSave()'
+  so.intellisense: 
+  langs:
+  - crmscript
+  name: 'TicketSave()'
+  nameWithType: Trigger.TicketSave()
+  fullName: CRMScript.Event.Trigger.TicketSave()
+  type: Method
+  summary: "\nCalled when a ticket is being saved.\n"
+  remarks: 
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;ticketId&quot;);</code></pre><strong>Example parser variables:</strong><p></p>\n<pre><code>if(getParserVariable(&quot;ticket.new.category&quot;) != getParserVariable(&quot;ticket.old.value&quot;))\n    log(&quot;Category has changed&quot;);</code></pre>In this event it is possible to get more information regarding changes done using Parser variables to compare old values against new values.\n"
+references:
+- uid: CRMScript.Event.Trigger
+  commentId: T:CRMScript.Event.Trigger
+  isExternal: true
+  name: Trigger
+  nameWithType: Trigger
+  fullName: CRMScript.Event.Trigger

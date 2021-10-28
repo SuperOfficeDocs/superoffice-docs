@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSMessageDeliveryStatus
+  commentId: T:CRMScript.NetServer.NSMessageDeliveryStatus
+  id: NSMessageDeliveryStatus
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSMessageDeliveryStatus.#ctor
+  - CRMScript.NetServer.NSMessageDeliveryStatus.GetMessagingId()
+  - CRMScript.NetServer.NSMessageDeliveryStatus.GetStatus()
+  - CRMScript.NetServer.NSMessageDeliveryStatus.GetStatusDescription()
+  - CRMScript.NetServer.NSMessageDeliveryStatus.SetMessagingId(Integer)
+  - CRMScript.NetServer.NSMessageDeliveryStatus.SetStatus(Integer)
+  - CRMScript.NetServer.NSMessageDeliveryStatus.SetStatusDescription(String)
+  name: NSMessageDeliveryStatus
+  nameWithType: NSMessageDeliveryStatus
+  fullName: CRMScript.NetServer.NSMessageDeliveryStatus
+  type: Class
+  summary: "\nDescribes the message status.\n"
+  example: 
+- uid: CRMScript.NetServer.NSMessageDeliveryStatus.#ctor
+  commentId: M:CRMScript.NetServer.NSMessageDeliveryStatus.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSMessageDeliveryStatus
+  langs:
+  - crmscript
+  name: NSMessageDeliveryStatus()
+  nameWithType: NSMessageDeliveryStatus.#ctor
+  fullName: CRMScript.NetServer.NSMessageDeliveryStatus.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSMessageDeliveryStatus class.\n"
+  remarks: 
+  syntax: 
+    content: NSMessageDeliveryStatus
+  example: 
+- uid: CRMScript.NetServer.NSMessageDeliveryStatus.GetMessagingId()
+  commentId: M:CRMScript.NetServer.NSMessageDeliveryStatus.GetMessagingId()
+  id: 'GetMessagingId()'
+  so.intellisense: NSMessageDeliveryStatus.GetMessagingId
+  langs:
+  - crmscript
+  name: 'GetMessagingId()'
+  nameWithType: NSMessageDeliveryStatus.GetMessagingId()
+  fullName: CRMScript.NetServer.NSMessageDeliveryStatus.GetMessagingId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetMessagingId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID to the outgoing message table."
+  example: 
+  - "\n<pre><code>NSMessageDeliveryStatus thing;\nInteger messagingId = thing.GetMessagingId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMessageDeliveryStatus.GetStatus()
+  commentId: M:CRMScript.NetServer.NSMessageDeliveryStatus.GetStatus()
+  id: 'GetStatus()'
+  so.intellisense: NSMessageDeliveryStatus.GetStatus
+  langs:
+  - crmscript
+  name: 'GetStatus()'
+  nameWithType: NSMessageDeliveryStatus.GetStatus()
+  fullName: CRMScript.NetServer.NSMessageDeliveryStatus.GetStatus()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetStatus()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Current message status."
+  example: 
+  - "\n<pre><code>NSMessageDeliveryStatus thing;\nInteger status = thing.GetStatus();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMessageDeliveryStatus.GetStatusDescription()
+  commentId: M:CRMScript.NetServer.NSMessageDeliveryStatus.GetStatusDescription()
+  id: 'GetStatusDescription()'
+  so.intellisense: NSMessageDeliveryStatus.GetStatusDescription
+  langs:
+  - crmscript
+  name: 'GetStatusDescription()'
+  nameWithType: NSMessageDeliveryStatus.GetStatusDescription()
+  fullName: CRMScript.NetServer.NSMessageDeliveryStatus.GetStatusDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetStatusDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "String describing the current message status."
+  example: 
+  - "\n<pre><code>NSMessageDeliveryStatus thing;\nString statusDescription = thing.GetStatusDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMessageDeliveryStatus.SetMessagingId(Integer)
+  commentId: M:CRMScript.NetServer.NSMessageDeliveryStatus.SetMessagingId(Integer)
+  id: 'SetMessagingId(Integer)'
+  so.intellisense: NSMessageDeliveryStatus.SetMessagingId
+  langs:
+  - crmscript
+  name: 'SetMessagingId(Integer)'
+  nameWithType: NSMessageDeliveryStatus.SetMessagingId(Integer)
+  fullName: CRMScript.NetServer.NSMessageDeliveryStatus.SetMessagingId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMessagingId(Integer messagingId)
+    parameters:
+    - id: messagingId
+      type: CRMScript.Global.Integer
+      description: "ID to the outgoing message table."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMessageDeliveryStatus thing;\nInteger messagingId;\nthing.SetMessagingId(messagingId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMessageDeliveryStatus.SetStatus(Integer)
+  commentId: M:CRMScript.NetServer.NSMessageDeliveryStatus.SetStatus(Integer)
+  id: 'SetStatus(Integer)'
+  so.intellisense: NSMessageDeliveryStatus.SetStatus
+  langs:
+  - crmscript
+  name: 'SetStatus(Integer)'
+  nameWithType: NSMessageDeliveryStatus.SetStatus(Integer)
+  fullName: CRMScript.NetServer.NSMessageDeliveryStatus.SetStatus(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetStatus(Integer status)
+    parameters:
+    - id: status
+      type: CRMScript.Global.Integer
+      description: "Current message status."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMessageDeliveryStatus thing;\nInteger status;\nthing.SetStatus(status);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMessageDeliveryStatus.SetStatusDescription(String)
+  commentId: M:CRMScript.NetServer.NSMessageDeliveryStatus.SetStatusDescription(String)
+  id: 'SetStatusDescription(String)'
+  so.intellisense: NSMessageDeliveryStatus.SetStatusDescription
+  langs:
+  - crmscript
+  name: 'SetStatusDescription(String)'
+  nameWithType: NSMessageDeliveryStatus.SetStatusDescription(String)
+  fullName: CRMScript.NetServer.NSMessageDeliveryStatus.SetStatusDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetStatusDescription(String statusDescription)
+    parameters:
+    - id: statusDescription
+      type: CRMScript.Global.String
+      description: "String describing the current message status."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMessageDeliveryStatus thing;\nString statusDescription;\nthing.SetStatusDescription(statusDescription);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSMessageDeliveryStatus
+  commentId: T:CRMScript.NetServer.NSMessageDeliveryStatus
+  isExternal: true
+  name: NSMessageDeliveryStatus
+  nameWithType: NSMessageDeliveryStatus
+  fullName: CRMScript.NetServer.NSMessageDeliveryStatus
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

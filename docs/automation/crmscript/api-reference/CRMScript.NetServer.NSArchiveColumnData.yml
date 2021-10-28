@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSArchiveColumnData
+  commentId: T:CRMScript.NetServer.NSArchiveColumnData
+  id: NSArchiveColumnData
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSArchiveColumnData.#ctor
+  - CRMScript.NetServer.NSArchiveColumnData.GetDisplayValue()
+  - CRMScript.NetServer.NSArchiveColumnData.GetLinkHint()
+  - CRMScript.NetServer.NSArchiveColumnData.GetTooltipHint()
+  - CRMScript.NetServer.NSArchiveColumnData.SetDisplayValue(String)
+  - CRMScript.NetServer.NSArchiveColumnData.SetLinkHint(String)
+  - CRMScript.NetServer.NSArchiveColumnData.SetTooltipHint(String)
+  name: NSArchiveColumnData
+  nameWithType: NSArchiveColumnData
+  fullName: CRMScript.NetServer.NSArchiveColumnData
+  type: Class
+  summary: "\nData carrier class for an item (cell) in an archive. Contains properties and members for three distinct values: The (visible) display value; the tooltip hint, and the link hint.\n"
+  example: 
+- uid: CRMScript.NetServer.NSArchiveColumnData.#ctor
+  commentId: M:CRMScript.NetServer.NSArchiveColumnData.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSArchiveColumnData
+  langs:
+  - crmscript
+  name: NSArchiveColumnData()
+  nameWithType: NSArchiveColumnData.#ctor
+  fullName: CRMScript.NetServer.NSArchiveColumnData.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSArchiveColumnData class.\n"
+  remarks: 
+  syntax: 
+    content: NSArchiveColumnData
+  example: 
+- uid: CRMScript.NetServer.NSArchiveColumnData.GetDisplayValue()
+  commentId: M:CRMScript.NetServer.NSArchiveColumnData.GetDisplayValue()
+  id: 'GetDisplayValue()'
+  so.intellisense: NSArchiveColumnData.GetDisplayValue
+  langs:
+  - crmscript
+  name: 'GetDisplayValue()'
+  nameWithType: NSArchiveColumnData.GetDisplayValue()
+  fullName: CRMScript.NetServer.NSArchiveColumnData.GetDisplayValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDisplayValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The visible display value for an archive cell. It is always a string, and other data types are converted to string according to the invariant culture. &quot;[I:123]&quot; or &quot;[D:2014-09-13]&quot;. Further conversion to the local culture is the responsibility of the client."
+  example: 
+  - "\n<pre><code>NSArchiveColumnData thing;\nString displayValue = thing.GetDisplayValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnData.GetLinkHint()
+  commentId: M:CRMScript.NetServer.NSArchiveColumnData.GetLinkHint()
+  id: 'GetLinkHint()'
+  so.intellisense: NSArchiveColumnData.GetLinkHint
+  langs:
+  - crmscript
+  name: 'GetLinkHint()'
+  nameWithType: NSArchiveColumnData.GetLinkHint()
+  fullName: CRMScript.NetServer.NSArchiveColumnData.GetLinkHint()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetLinkHint()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The link hint consists of information to construct an actual link; additional information (such as a view context) must be provided by the client, who is also responsible for building the link. The content of the link will generally be one or more ids, such as contact_id=123."
+  example: 
+  - "\n<pre><code>NSArchiveColumnData thing;\nString linkHint = thing.GetLinkHint();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnData.GetTooltipHint()
+  commentId: M:CRMScript.NetServer.NSArchiveColumnData.GetTooltipHint()
+  id: 'GetTooltipHint()'
+  so.intellisense: NSArchiveColumnData.GetTooltipHint
+  langs:
+  - crmscript
+  name: 'GetTooltipHint()'
+  nameWithType: NSArchiveColumnData.GetTooltipHint()
+  fullName: CRMScript.NetServer.NSArchiveColumnData.GetTooltipHint()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltipHint()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The tooltip hint is either a text to be shown (after resource tag substitution), or a tooltip key to be given to the tooltip provider system in order to asynchronously retrieve the actual tooltip."
+  example: 
+  - "\n<pre><code>NSArchiveColumnData thing;\nString tooltipHint = thing.GetTooltipHint();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnData.SetDisplayValue(String)
+  commentId: M:CRMScript.NetServer.NSArchiveColumnData.SetDisplayValue(String)
+  id: 'SetDisplayValue(String)'
+  so.intellisense: NSArchiveColumnData.SetDisplayValue
+  langs:
+  - crmscript
+  name: 'SetDisplayValue(String)'
+  nameWithType: NSArchiveColumnData.SetDisplayValue(String)
+  fullName: CRMScript.NetServer.NSArchiveColumnData.SetDisplayValue(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDisplayValue(String displayValue)
+    parameters:
+    - id: displayValue
+      type: CRMScript.Global.String
+      description: "The visible display value for an archive cell. It is always a string, and other data types are converted to string according to the invariant culture. &quot;[I:123]&quot; or &quot;[D:2014-09-13]&quot;. Further conversion to the local culture is the responsibility of the client."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveColumnData thing;\nString displayValue;\nthing.SetDisplayValue(displayValue);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnData.SetLinkHint(String)
+  commentId: M:CRMScript.NetServer.NSArchiveColumnData.SetLinkHint(String)
+  id: 'SetLinkHint(String)'
+  so.intellisense: NSArchiveColumnData.SetLinkHint
+  langs:
+  - crmscript
+  name: 'SetLinkHint(String)'
+  nameWithType: NSArchiveColumnData.SetLinkHint(String)
+  fullName: CRMScript.NetServer.NSArchiveColumnData.SetLinkHint(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLinkHint(String linkHint)
+    parameters:
+    - id: linkHint
+      type: CRMScript.Global.String
+      description: "The link hint consists of information to construct an actual link; additional information (such as a view context) must be provided by the client, who is also responsible for building the link. The content of the link will generally be one or more ids, such as contact_id=123."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveColumnData thing;\nString linkHint;\nthing.SetLinkHint(linkHint);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnData.SetTooltipHint(String)
+  commentId: M:CRMScript.NetServer.NSArchiveColumnData.SetTooltipHint(String)
+  id: 'SetTooltipHint(String)'
+  so.intellisense: NSArchiveColumnData.SetTooltipHint
+  langs:
+  - crmscript
+  name: 'SetTooltipHint(String)'
+  nameWithType: NSArchiveColumnData.SetTooltipHint(String)
+  fullName: CRMScript.NetServer.NSArchiveColumnData.SetTooltipHint(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltipHint(String tooltipHint)
+    parameters:
+    - id: tooltipHint
+      type: CRMScript.Global.String
+      description: "The tooltip hint is either a text to be shown (after resource tag substitution), or a tooltip key to be given to the tooltip provider system in order to asynchronously retrieve the actual tooltip."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveColumnData thing;\nString tooltipHint;\nthing.SetTooltipHint(tooltipHint);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSArchiveColumnData
+  commentId: T:CRMScript.NetServer.NSArchiveColumnData
+  isExternal: true
+  name: NSArchiveColumnData
+  nameWithType: NSArchiveColumnData
+  fullName: CRMScript.NetServer.NSArchiveColumnData
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

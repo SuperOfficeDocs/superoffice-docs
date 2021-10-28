@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSVisibleFor
+  commentId: T:CRMScript.NetServer.NSVisibleFor
+  id: NSVisibleFor
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSVisibleFor.#ctor
+  - CRMScript.NetServer.NSVisibleFor.GetDisplayValue()
+  - CRMScript.NetServer.NSVisibleFor.GetVisibility()
+  - CRMScript.NetServer.NSVisibleFor.GetVisibleId()
+  - CRMScript.NetServer.NSVisibleFor.SetDisplayValue(String)
+  - CRMScript.NetServer.NSVisibleFor.SetVisibility(Integer)
+  - CRMScript.NetServer.NSVisibleFor.SetVisibleId(Integer)
+  name: NSVisibleFor
+  nameWithType: NSVisibleFor
+  fullName: CRMScript.NetServer.NSVisibleFor
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSVisibleFor.#ctor
+  commentId: M:CRMScript.NetServer.NSVisibleFor.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSVisibleFor
+  langs:
+  - crmscript
+  name: NSVisibleFor()
+  nameWithType: NSVisibleFor.#ctor
+  fullName: CRMScript.NetServer.NSVisibleFor.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSVisibleFor class.\n"
+  remarks: 
+  syntax: 
+    content: NSVisibleFor
+  example: 
+- uid: CRMScript.NetServer.NSVisibleFor.GetDisplayValue()
+  commentId: M:CRMScript.NetServer.NSVisibleFor.GetDisplayValue()
+  id: 'GetDisplayValue()'
+  so.intellisense: NSVisibleFor.GetDisplayValue
+  langs:
+  - crmscript
+  name: 'GetDisplayValue()'
+  nameWithType: NSVisibleFor.GetDisplayValue()
+  fullName: CRMScript.NetServer.NSVisibleFor.GetDisplayValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDisplayValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSVisibleFor thing;\nString displayValue = thing.GetDisplayValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSVisibleFor.GetVisibility()
+  commentId: M:CRMScript.NetServer.NSVisibleFor.GetVisibility()
+  id: 'GetVisibility()'
+  so.intellisense: NSVisibleFor.GetVisibility
+  langs:
+  - crmscript
+  name: 'GetVisibility()'
+  nameWithType: NSVisibleFor.GetVisibility()
+  fullName: CRMScript.NetServer.NSVisibleFor.GetVisibility()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetVisibility()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.Visibility\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSVisibleFor thing;\nInteger visibility = thing.GetVisibility();</code></pre>\n"
+- uid: CRMScript.NetServer.NSVisibleFor.GetVisibleId()
+  commentId: M:CRMScript.NetServer.NSVisibleFor.GetVisibleId()
+  id: 'GetVisibleId()'
+  so.intellisense: NSVisibleFor.GetVisibleId
+  langs:
+  - crmscript
+  name: 'GetVisibleId()'
+  nameWithType: NSVisibleFor.GetVisibleId()
+  fullName: CRMScript.NetServer.NSVisibleFor.GetVisibleId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetVisibleId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSVisibleFor thing;\nInteger visibleId = thing.GetVisibleId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSVisibleFor.SetDisplayValue(String)
+  commentId: M:CRMScript.NetServer.NSVisibleFor.SetDisplayValue(String)
+  id: 'SetDisplayValue(String)'
+  so.intellisense: NSVisibleFor.SetDisplayValue
+  langs:
+  - crmscript
+  name: 'SetDisplayValue(String)'
+  nameWithType: NSVisibleFor.SetDisplayValue(String)
+  fullName: CRMScript.NetServer.NSVisibleFor.SetDisplayValue(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDisplayValue(String displayValue)
+    parameters:
+    - id: displayValue
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSVisibleFor thing;\nString displayValue;\nthing.SetDisplayValue(displayValue);</code></pre>\n"
+- uid: CRMScript.NetServer.NSVisibleFor.SetVisibility(Integer)
+  commentId: M:CRMScript.NetServer.NSVisibleFor.SetVisibility(Integer)
+  id: 'SetVisibility(Integer)'
+  so.intellisense: NSVisibleFor.SetVisibility
+  langs:
+  - crmscript
+  name: 'SetVisibility(Integer)'
+  nameWithType: NSVisibleFor.SetVisibility(Integer)
+  fullName: CRMScript.NetServer.NSVisibleFor.SetVisibility(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetVisibility(Integer visibility)
+    parameters:
+    - id: visibility
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.Visibility\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSVisibleFor thing;\nInteger visibility;\nthing.SetVisibility(visibility);</code></pre>\n"
+- uid: CRMScript.NetServer.NSVisibleFor.SetVisibleId(Integer)
+  commentId: M:CRMScript.NetServer.NSVisibleFor.SetVisibleId(Integer)
+  id: 'SetVisibleId(Integer)'
+  so.intellisense: NSVisibleFor.SetVisibleId
+  langs:
+  - crmscript
+  name: 'SetVisibleId(Integer)'
+  nameWithType: NSVisibleFor.SetVisibleId(Integer)
+  fullName: CRMScript.NetServer.NSVisibleFor.SetVisibleId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetVisibleId(Integer visibleId)
+    parameters:
+    - id: visibleId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSVisibleFor thing;\nInteger visibleId;\nthing.SetVisibleId(visibleId);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSVisibleFor
+  commentId: T:CRMScript.NetServer.NSVisibleFor
+  isExternal: true
+  name: NSVisibleFor
+  nameWithType: NSVisibleFor
+  fullName: CRMScript.NetServer.NSVisibleFor
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.Visibility
+  commentId: T:CRMScript.NetServer.Visibility
+  isExternal: true
+  name: Visibility
+  nameWithType: Visibility
+  fullName: CRMScript.NetServer.Visibility

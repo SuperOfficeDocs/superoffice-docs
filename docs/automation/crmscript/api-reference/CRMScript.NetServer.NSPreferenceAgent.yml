@@ -1,0 +1,1085 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSPreferenceAgent
+  commentId: T:CRMScript.NetServer.NSPreferenceAgent
+  id: NSPreferenceAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSPreferenceAgent.#ctor
+  - CRMScript.NetServer.NSPreferenceAgent.CreateDefaultPreference()
+  - CRMScript.NetServer.NSPreferenceAgent.CreateDefaultPreferenceDescription()
+  - CRMScript.NetServer.NSPreferenceAgent.CreateDefaultPreferenceDescriptionLine()
+  - CRMScript.NetServer.NSPreferenceAgent.DeleteFromSectionAndKey(String,String)
+  - CRMScript.NetServer.NSPreferenceAgent.DeletePrefDescLinesByPrefDescId(Integer)
+  - CRMScript.NetServer.NSPreferenceAgent.DeletePrefDescLinesByPrefDescIds(Integer[])
+  - CRMScript.NetServer.NSPreferenceAgent.DeletePreference(Integer)
+  - CRMScript.NetServer.NSPreferenceAgent.DeletePreferenceDescription(Integer)
+  - CRMScript.NetServer.NSPreferenceAgent.DeletePreferenceDescriptionLine(Integer)
+  - CRMScript.NetServer.NSPreferenceAgent.DeletePreferenceDescriptionLines(Integer[])
+  - CRMScript.NetServer.NSPreferenceAgent.DeletePreferences(Integer[])
+  - CRMScript.NetServer.NSPreferenceAgent.GetAll()
+  - CRMScript.NetServer.NSPreferenceAgent.GetAllFromSection(String)
+  - CRMScript.NetServer.NSPreferenceAgent.GetFromSectionAndKey(String,String)
+  - CRMScript.NetServer.NSPreferenceAgent.GetNetServicesStatusUrl()
+  - CRMScript.NetServer.NSPreferenceAgent.GetPreference(Integer)
+  - CRMScript.NetServer.NSPreferenceAgent.GetPreferenceByName(String,String,Integer)
+  - CRMScript.NetServer.NSPreferenceAgent.GetPreferenceByNameAndId(String,String,Integer,Integer)
+  - CRMScript.NetServer.NSPreferenceAgent.GetPreferenceDescription(Integer)
+  - CRMScript.NetServer.NSPreferenceAgent.GetPreferenceDescriptionLine(Integer)
+  - CRMScript.NetServer.NSPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue(Integer,String)
+  - CRMScript.NetServer.NSPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescId(Integer)
+  - CRMScript.NetServer.NSPreferenceAgent.GetPreferences(NSPreferenceSpec[])
+  - CRMScript.NetServer.NSPreferenceAgent.GetPreferencesWithDisplayValues(NSPreferenceSpec[])
+  - CRMScript.NetServer.NSPreferenceAgent.GetTabOrder(String)
+  - CRMScript.NetServer.NSPreferenceAgent.GetTabOrders()
+  - CRMScript.NetServer.NSPreferenceAgent.SaveFromSectionAndKey(String,String,NSPreferenceDescription)
+  - CRMScript.NetServer.NSPreferenceAgent.SavePreference(NSPreference)
+  - CRMScript.NetServer.NSPreferenceAgent.SavePreferenceDescription(NSPreferenceDescription)
+  - CRMScript.NetServer.NSPreferenceAgent.SavePreferenceDescriptionLine(NSPreferenceDescriptionLine)
+  - CRMScript.NetServer.NSPreferenceAgent.SavePreferenceDescriptionLines(NSPreferenceDescriptionLine[])
+  - CRMScript.NetServer.NSPreferenceAgent.SavePreferenceEntities(NSPreference[],Bool)
+  - CRMScript.NetServer.NSPreferenceAgent.SavePreferenceEntity(NSPreference,Bool)
+  - CRMScript.NetServer.NSPreferenceAgent.SavePreferences(NSPreference[])
+  - CRMScript.NetServer.NSPreferenceAgent.SaveTabOrder(NSTabOrder)
+  - CRMScript.NetServer.NSPreferenceAgent.SaveTabOrders(NSTabOrder[])
+  - CRMScript.NetServer.NSPreferenceAgent.UpdateNetServicesStatus(String)
+  name: NSPreferenceAgent
+  nameWithType: NSPreferenceAgent
+  fullName: CRMScript.NetServer.NSPreferenceAgent
+  type: Class
+  summary: "\nPreferences, user interface tab configuration.\n"
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSPreferenceAgent
+  langs:
+  - crmscript
+  name: NSPreferenceAgent()
+  nameWithType: NSPreferenceAgent.#ctor
+  fullName: CRMScript.NetServer.NSPreferenceAgent.#ctor
+  type: Constructor
+  summary: "\nPreferences, user interface tab configuration.\n"
+  remarks: 
+  syntax: 
+    content: NSPreferenceAgent
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.CreateDefaultPreference()
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.CreateDefaultPreference()
+  id: 'CreateDefaultPreference()'
+  so.intellisense: NSPreferenceAgent.CreateDefaultPreference
+  langs:
+  - crmscript
+  name: 'CreateDefaultPreference()'
+  nameWithType: NSPreferenceAgent.CreateDefaultPreference()
+  fullName: CRMScript.NetServer.NSPreferenceAgent.CreateDefaultPreference()
+  type: Method
+  summary: "\nSets default values into a new NSPreference.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSPreference CreateDefaultPreference()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSPreference
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nNSPreference thing = agent.CreateDefaultPreference();\nthing = agent.SavePreference(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.CreateDefaultPreferenceDescription()
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.CreateDefaultPreferenceDescription()
+  id: 'CreateDefaultPreferenceDescription()'
+  so.intellisense: NSPreferenceAgent.CreateDefaultPreferenceDescription
+  langs:
+  - crmscript
+  name: 'CreateDefaultPreferenceDescription()'
+  nameWithType: NSPreferenceAgent.CreateDefaultPreferenceDescription()
+  fullName: CRMScript.NetServer.NSPreferenceAgent.CreateDefaultPreferenceDescription()
+  type: Method
+  summary: "\nSets default values into a new NSPreferenceDescription.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSPreferenceDescription CreateDefaultPreferenceDescription()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSPreferenceDescription
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nNSPreferenceDescription thing = agent.CreateDefaultPreferenceDescription();\nthing = agent.SavePreferenceDescription(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.CreateDefaultPreferenceDescriptionLine()
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.CreateDefaultPreferenceDescriptionLine()
+  id: 'CreateDefaultPreferenceDescriptionLine()'
+  so.intellisense: NSPreferenceAgent.CreateDefaultPreferenceDescriptionLine
+  langs:
+  - crmscript
+  name: 'CreateDefaultPreferenceDescriptionLine()'
+  nameWithType: NSPreferenceAgent.CreateDefaultPreferenceDescriptionLine()
+  fullName: CRMScript.NetServer.NSPreferenceAgent.CreateDefaultPreferenceDescriptionLine()
+  type: Method
+  summary: "\nSets default values into a new NSPreferenceDescriptionLine.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSPreferenceDescriptionLine CreateDefaultPreferenceDescriptionLine()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSPreferenceDescriptionLine
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nNSPreferenceDescriptionLine thing = agent.CreateDefaultPreferenceDescriptionLine();\nthing = agent.SavePreferenceDescriptionLine(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.DeleteFromSectionAndKey(String,String)
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.DeleteFromSectionAndKey(String,String)
+  id: 'DeleteFromSectionAndKey(String,String)'
+  so.intellisense: NSPreferenceAgent.DeleteFromSectionAndKey
+  langs:
+  - crmscript
+  name: 'DeleteFromSectionAndKey(String,String)'
+  nameWithType: NSPreferenceAgent.DeleteFromSectionAndKey(String,String)
+  fullName: CRMScript.NetServer.NSPreferenceAgent.DeleteFromSectionAndKey(String,String)
+  type: Method
+  summary: "\nGets an NSPreferenceDescription based on the section and key\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteFromSectionAndKey(String section, String key)
+    parameters:
+    - id: section
+      type: CRMScript.Global.String
+      description: 
+    - id: key
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nString section;\nString key;\nagent.DeleteFromSectionAndKey(section, key);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.DeletePrefDescLinesByPrefDescId(Integer)
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.DeletePrefDescLinesByPrefDescId(Integer)
+  id: 'DeletePrefDescLinesByPrefDescId(Integer)'
+  so.intellisense: NSPreferenceAgent.DeletePrefDescLinesByPrefDescId
+  langs:
+  - crmscript
+  name: 'DeletePrefDescLinesByPrefDescId(Integer)'
+  nameWithType: NSPreferenceAgent.DeletePrefDescLinesByPrefDescId(Integer)
+  fullName: CRMScript.NetServer.NSPreferenceAgent.DeletePrefDescLinesByPrefDescId(Integer)
+  type: Method
+  summary: "\nDeletes the PrefDescLines associated with Preference Description ID in the SuperOffice database\n"
+  remarks: 
+  syntax: 
+    content: Void DeletePrefDescLinesByPrefDescId(Integer prefDescId)
+    parameters:
+    - id: prefDescId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nInteger prefDescId;\nagent.DeletePrefDescLinesByPrefDescId(prefDescId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.DeletePrefDescLinesByPrefDescIds(Integer[])
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.DeletePrefDescLinesByPrefDescIds(Integer[])
+  id: 'DeletePrefDescLinesByPrefDescIds(Integer[])'
+  so.intellisense: NSPreferenceAgent.DeletePrefDescLinesByPrefDescIds
+  langs:
+  - crmscript
+  name: 'DeletePrefDescLinesByPrefDescIds(Integer[])'
+  nameWithType: NSPreferenceAgent.DeletePrefDescLinesByPrefDescIds(Integer[])
+  fullName: CRMScript.NetServer.NSPreferenceAgent.DeletePrefDescLinesByPrefDescIds(Integer[])
+  type: Method
+  summary: "\nDeletes the PrefDescLines associated with Preference Description IDs in the SuperOffice database\n"
+  remarks: 
+  syntax: 
+    content: Void DeletePrefDescLinesByPrefDescIds(Integer[] prefDescIds)
+    parameters:
+    - id: prefDescIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nInteger[] prefDescIds;\nagent.DeletePrefDescLinesByPrefDescIds(prefDescIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.DeletePreference(Integer)
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.DeletePreference(Integer)
+  id: 'DeletePreference(Integer)'
+  so.intellisense: NSPreferenceAgent.DeletePreference
+  langs:
+  - crmscript
+  name: 'DeletePreference(Integer)'
+  nameWithType: NSPreferenceAgent.DeletePreference(Integer)
+  fullName: CRMScript.NetServer.NSPreferenceAgent.DeletePreference(Integer)
+  type: Method
+  summary: "\nDeletes a preference by ID\n"
+  remarks: 
+  syntax: 
+    content: Void DeletePreference(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nInteger id;\nagent.DeletePreference(id);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.DeletePreferenceDescription(Integer)
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.DeletePreferenceDescription(Integer)
+  id: 'DeletePreferenceDescription(Integer)'
+  so.intellisense: NSPreferenceAgent.DeletePreferenceDescription
+  langs:
+  - crmscript
+  name: 'DeletePreferenceDescription(Integer)'
+  nameWithType: NSPreferenceAgent.DeletePreferenceDescription(Integer)
+  fullName: CRMScript.NetServer.NSPreferenceAgent.DeletePreferenceDescription(Integer)
+  type: Method
+  summary: "\nDeletes the NSPreferenceDescription\n"
+  remarks: 
+  syntax: 
+    content: DeletePreferenceDescription(Integer preferenceDescription)
+    parameters:
+    - id: preferenceDescription
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nagent.DeletePreferenceDescription(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.DeletePreferenceDescriptionLine(Integer)
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.DeletePreferenceDescriptionLine(Integer)
+  id: 'DeletePreferenceDescriptionLine(Integer)'
+  so.intellisense: NSPreferenceAgent.DeletePreferenceDescriptionLine
+  langs:
+  - crmscript
+  name: 'DeletePreferenceDescriptionLine(Integer)'
+  nameWithType: NSPreferenceAgent.DeletePreferenceDescriptionLine(Integer)
+  fullName: CRMScript.NetServer.NSPreferenceAgent.DeletePreferenceDescriptionLine(Integer)
+  type: Method
+  summary: "\nDeletes the NSPreferenceDescriptionLine\n"
+  remarks: 
+  syntax: 
+    content: DeletePreferenceDescriptionLine(Integer preferenceDescriptionLine)
+    parameters:
+    - id: preferenceDescriptionLine
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nagent.DeletePreferenceDescriptionLine(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.DeletePreferenceDescriptionLines(Integer[])
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.DeletePreferenceDescriptionLines(Integer[])
+  id: 'DeletePreferenceDescriptionLines(Integer[])'
+  so.intellisense: NSPreferenceAgent.DeletePreferenceDescriptionLines
+  langs:
+  - crmscript
+  name: 'DeletePreferenceDescriptionLines(Integer[])'
+  nameWithType: NSPreferenceAgent.DeletePreferenceDescriptionLines(Integer[])
+  fullName: CRMScript.NetServer.NSPreferenceAgent.DeletePreferenceDescriptionLines(Integer[])
+  type: Method
+  summary: "\nDeletes the PrefDescLines in the SuperOffice database\n"
+  remarks: 
+  syntax: 
+    content: Void DeletePreferenceDescriptionLines(Integer[] prefDescLineIds)
+    parameters:
+    - id: prefDescLineIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nInteger[] prefDescLineIds;\nagent.DeletePreferenceDescriptionLines(prefDescLineIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.DeletePreferences(Integer[])
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.DeletePreferences(Integer[])
+  id: 'DeletePreferences(Integer[])'
+  so.intellisense: NSPreferenceAgent.DeletePreferences
+  langs:
+  - crmscript
+  name: 'DeletePreferences(Integer[])'
+  nameWithType: NSPreferenceAgent.DeletePreferences(Integer[])
+  fullName: CRMScript.NetServer.NSPreferenceAgent.DeletePreferences(Integer[])
+  type: Method
+  summary: "\nDeletes some preferences by ID\n"
+  remarks: 
+  syntax: 
+    content: Void DeletePreferences(Integer[] ids)
+    parameters:
+    - id: ids
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nInteger[] ids;\nagent.DeletePreferences(ids);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.GetAll()
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetAll()
+  id: 'GetAll()'
+  so.intellisense: NSPreferenceAgent.GetAll
+  langs:
+  - crmscript
+  name: 'GetAll()'
+  nameWithType: NSPreferenceAgent.GetAll()
+  fullName: CRMScript.NetServer.NSPreferenceAgent.GetAll()
+  type: Method
+  summary: "\nGets a list of all PreferenceDescriptions in the system.\n"
+  remarks: 
+  syntax: 
+    content: NSPreferenceDescription[] GetAll()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSPreferenceDescription[]
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nNSPreferenceDescription[] res = agent.GetAll();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.GetAllFromSection(String)
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetAllFromSection(String)
+  id: 'GetAllFromSection(String)'
+  so.intellisense: NSPreferenceAgent.GetAllFromSection
+  langs:
+  - crmscript
+  name: 'GetAllFromSection(String)'
+  nameWithType: NSPreferenceAgent.GetAllFromSection(String)
+  fullName: CRMScript.NetServer.NSPreferenceAgent.GetAllFromSection(String)
+  type: Method
+  summary: "\nGets all NSPreferenceDescription-items in the specified section\n"
+  remarks: 
+  syntax: 
+    content: NSPreferenceDescription[] GetAllFromSection(String section)
+    parameters:
+    - id: section
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPreferenceDescription[]
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nString section;\nNSPreferenceDescription[] res = agent.GetAllFromSection(section);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.GetFromSectionAndKey(String,String)
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetFromSectionAndKey(String,String)
+  id: 'GetFromSectionAndKey(String,String)'
+  so.intellisense: NSPreferenceAgent.GetFromSectionAndKey
+  langs:
+  - crmscript
+  name: 'GetFromSectionAndKey(String,String)'
+  nameWithType: NSPreferenceAgent.GetFromSectionAndKey(String,String)
+  fullName: CRMScript.NetServer.NSPreferenceAgent.GetFromSectionAndKey(String,String)
+  type: Method
+  summary: "\nGets an NSPreferenceDescription based on the section and key\n"
+  remarks: 
+  syntax: 
+    content: NSPreferenceDescription GetFromSectionAndKey(String section, String key)
+    parameters:
+    - id: section
+      type: CRMScript.Global.String
+      description: 
+    - id: key
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPreferenceDescription
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nString section;\nString key;\nNSPreferenceDescription res = agent.GetFromSectionAndKey(section, key);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.GetNetServicesStatusUrl()
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetNetServicesStatusUrl()
+  id: 'GetNetServicesStatusUrl()'
+  so.intellisense: NSPreferenceAgent.GetNetServicesStatusUrl
+  langs:
+  - crmscript
+  name: 'GetNetServicesStatusUrl()'
+  nameWithType: NSPreferenceAgent.GetNetServicesStatusUrl()
+  fullName: CRMScript.NetServer.NSPreferenceAgent.GetNetServicesStatusUrl()
+  type: Method
+  summary: "\nReturns URL to status service. e.g. 'https://help.superoffice.com/sodispatcher/v1/status'\n"
+  remarks: 
+  syntax: 
+    content: String GetNetServicesStatusUrl()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "URL; NULL if status does not need to be checked yet."
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nString res = agent.GetNetServicesStatusUrl();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.GetPreference(Integer)
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetPreference(Integer)
+  id: 'GetPreference(Integer)'
+  so.intellisense: NSPreferenceAgent.GetPreference
+  langs:
+  - crmscript
+  name: 'GetPreference(Integer)'
+  nameWithType: NSPreferenceAgent.GetPreference(Integer)
+  fullName: CRMScript.NetServer.NSPreferenceAgent.GetPreference(Integer)
+  type: Method
+  summary: "\nGets a preference by ID\n"
+  remarks: 
+  syntax: 
+    content: NSPreference GetPreference(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPreference
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nInteger id;\nNSPreference res = agent.GetPreference(id);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.GetPreferenceByName(String,String,Integer)
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetPreferenceByName(String,String,Integer)
+  id: 'GetPreferenceByName(String,String,Integer)'
+  so.intellisense: NSPreferenceAgent.GetPreferenceByName
+  langs:
+  - crmscript
+  name: 'GetPreferenceByName(String,String,Integer)'
+  nameWithType: NSPreferenceAgent.GetPreferenceByName(String,String,Integer)
+  fullName: CRMScript.NetServer.NSPreferenceAgent.GetPreferenceByName(String,String,Integer)
+  type: Method
+  summary: "\nGets a preference by name\n"
+  remarks:
+  syntax: 
+    content: NSPreference GetPreferenceByName(String prefSection, String prefKey, Integer prefLevel)
+    parameters:
+    - id: prefSection
+      type: CRMScript.Global.String
+      description: 
+    - id: prefKey
+      type: CRMScript.Global.String
+      description: 
+    - id: prefLevel
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.PreferenceLevel\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSPreference
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nString prefSection;\nString prefKey;\nInteger prefLevel;\nNSPreference res = agent.GetPreferenceByName(prefSection, prefKey, prefLevel);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.GetPreferenceByNameAndId(String,String,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetPreferenceByNameAndId(String,String,Integer,Integer)
+  id: 'GetPreferenceByNameAndId(String,String,Integer,Integer)'
+  so.intellisense: NSPreferenceAgent.GetPreferenceByNameAndId
+  langs:
+  - crmscript
+  name: 'GetPreferenceByNameAndId(String,String,Integer,Integer)'
+  nameWithType: NSPreferenceAgent.GetPreferenceByNameAndId(String,String,Integer,Integer)
+  fullName: CRMScript.NetServer.NSPreferenceAgent.GetPreferenceByNameAndId(String,String,Integer,Integer)
+  type: Method
+  summary: "\nGets a preference by name and owner ID.\n"
+  remarks: 
+  syntax: 
+    content: NSPreference GetPreferenceByNameAndId(String prefSection, String prefKey, Integer prefLevel, Integer ownerId)
+    parameters:
+    - id: prefSection
+      type: CRMScript.Global.String
+      description: 
+    - id: prefKey
+      type: CRMScript.Global.String
+      description: 
+    - id: prefLevel
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.PreferenceLevel\" data-throw-if-not-resolved=\"false\"></xref>."
+    - id: ownerId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPreference
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nString prefSection;\nString prefKey;\nInteger prefLevel;\nInteger ownerId;\nNSPreference res = agent.GetPreferenceByNameAndId(prefSection, prefKey, prefLevel, ownerId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.GetPreferenceDescription(Integer)
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetPreferenceDescription(Integer)
+  id: 'GetPreferenceDescription(Integer)'
+  so.intellisense: NSPreferenceAgent.GetPreferenceDescription
+  langs:
+  - crmscript
+  name: 'GetPreferenceDescription(Integer)'
+  nameWithType: NSPreferenceAgent.GetPreferenceDescription(Integer)
+  fullName: CRMScript.NetServer.NSPreferenceAgent.GetPreferenceDescription(Integer)
+  type: Method
+  summary: "\nGets an NSPreferenceDescription object.\n"
+  remarks: 
+  syntax: 
+    content: NSPreferenceDescription GetPreferenceDescription(Integer preferenceDescriptionId)
+    parameters:
+    - id: preferenceDescriptionId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPreferenceDescription
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nNSPreferenceDescription thing = agent.GetPreferenceDescription(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.GetPreferenceDescriptionLine(Integer)
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetPreferenceDescriptionLine(Integer)
+  id: 'GetPreferenceDescriptionLine(Integer)'
+  so.intellisense: NSPreferenceAgent.GetPreferenceDescriptionLine
+  langs:
+  - crmscript
+  name: 'GetPreferenceDescriptionLine(Integer)'
+  nameWithType: NSPreferenceAgent.GetPreferenceDescriptionLine(Integer)
+  fullName: CRMScript.NetServer.NSPreferenceAgent.GetPreferenceDescriptionLine(Integer)
+  type: Method
+  summary: "\nGets an NSPreferenceDescriptionLine object.\n"
+  remarks: 
+  syntax: 
+    content: NSPreferenceDescriptionLine GetPreferenceDescriptionLine(Integer preferenceDescriptionLineId)
+    parameters:
+    - id: preferenceDescriptionLineId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPreferenceDescriptionLine
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nNSPreferenceDescriptionLine thing = agent.GetPreferenceDescriptionLine(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue(Integer,String)
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue(Integer,String)
+  id: 'GetPreferenceDescriptionLineFromIdAndValue(Integer,String)'
+  so.intellisense: NSPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue
+  langs:
+  - crmscript
+  name: 'GetPreferenceDescriptionLineFromIdAndValue(Integer,String)'
+  nameWithType: NSPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue(Integer,String)
+  fullName: CRMScript.NetServer.NSPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue(Integer,String)
+  type: Method
+  summary: "\nGets a preference description line from a prefDesc_id and a prefValue\n"
+  remarks: 
+  syntax: 
+    content: NSPreferenceDescriptionLine GetPreferenceDescriptionLineFromIdAndValue(Integer prefDescId, String prefValue)
+    parameters:
+    - id: prefDescId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: prefValue
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPreferenceDescriptionLine
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nInteger prefDescId;\nString prefValue;\nNSPreferenceDescriptionLine res = agent.GetPreferenceDescriptionLineFromIdAndValue(prefDescId, prefValue);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescId(Integer)
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescId(Integer)
+  id: 'GetPreferenceDescriptionLinesByPrefDescId(Integer)'
+  so.intellisense: NSPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescId
+  langs:
+  - crmscript
+  name: 'GetPreferenceDescriptionLinesByPrefDescId(Integer)'
+  nameWithType: NSPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescId(Integer)
+  fullName: CRMScript.NetServer.NSPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescId(Integer)
+  type: Method
+  summary: "\nGets all preference description lines from a prefDesc_id\n"
+  remarks: 
+  syntax: 
+    content: NSPreferenceDescriptionLine[] GetPreferenceDescriptionLinesByPrefDescId(Integer prefDescId)
+    parameters:
+    - id: prefDescId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPreferenceDescriptionLine[]
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nInteger prefDescId;\nNSPreferenceDescriptionLine[] res = agent.GetPreferenceDescriptionLinesByPrefDescId(prefDescId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.GetPreferences(NSPreferenceSpec[])
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetPreferences(NSPreferenceSpec[])
+  id: 'GetPreferences(NSPreferenceSpec[])'
+  so.intellisense: NSPreferenceAgent.GetPreferences
+  langs:
+  - crmscript
+  name: 'GetPreferences(NSPreferenceSpec[])'
+  nameWithType: NSPreferenceAgent.GetPreferences(NSPreferenceSpec[])
+  fullName: CRMScript.NetServer.NSPreferenceAgent.GetPreferences(NSPreferenceSpec[])
+  type: Method
+  summary: "\nGets one or more preferences based on a set of specifications.\n"
+  remarks: "\nThe prefDisplayvalue and prefDisplaytooltip are blank (faster processing relative to GetPreferencesWithDisplayValues)\n"
+  syntax: 
+    content: NSPreference[] GetPreferences(NSPreferenceSpec[] specifications)
+    parameters:
+    - id: specifications
+      type: CRMScript.NetServer.NSPreferenceSpec[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPreference[]
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nNSPreferenceSpec[] specifications;\nNSPreference[] res = agent.GetPreferences(specifications);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.GetPreferencesWithDisplayValues(NSPreferenceSpec[])
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetPreferencesWithDisplayValues(NSPreferenceSpec[])
+  id: 'GetPreferencesWithDisplayValues(NSPreferenceSpec[])'
+  so.intellisense: NSPreferenceAgent.GetPreferencesWithDisplayValues
+  langs:
+  - crmscript
+  name: 'GetPreferencesWithDisplayValues(NSPreferenceSpec[])'
+  nameWithType: NSPreferenceAgent.GetPreferencesWithDisplayValues(NSPreferenceSpec[])
+  fullName: CRMScript.NetServer.NSPreferenceAgent.GetPreferencesWithDisplayValues(NSPreferenceSpec[])
+  type: Method
+  summary: "\nGets one or more preferences based on a set of specifications.\n"
+  remarks: "\nThe PrefDisplayValue and PrefDisplaytooltip are populated, at some additional processing cost.\n"
+  syntax: 
+    content: NSPreference[] GetPreferencesWithDisplayValues(NSPreferenceSpec[] specifications)
+    parameters:
+    - id: specifications
+      type: CRMScript.NetServer.NSPreferenceSpec[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPreference[]
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nNSPreferenceSpec[] specifications;\nNSPreference[] res = agent.GetPreferencesWithDisplayValues(specifications);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.GetTabOrder(String)
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetTabOrder(String)
+  id: 'GetTabOrder(String)'
+  so.intellisense: NSPreferenceAgent.GetTabOrder
+  langs:
+  - crmscript
+  name: 'GetTabOrder(String)'
+  nameWithType: NSPreferenceAgent.GetTabOrder(String)
+  fullName: CRMScript.NetServer.NSPreferenceAgent.GetTabOrder(String)
+  type: Method
+  summary: "\nGets the tab order.\n"
+  remarks: 
+  syntax: 
+    content: NSTabOrder GetTabOrder(String tabName)
+    parameters:
+    - id: tabName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSTabOrder
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nString tabName;\nNSTabOrder res = agent.GetTabOrder(tabName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.GetTabOrders()
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.GetTabOrders()
+  id: 'GetTabOrders()'
+  so.intellisense: NSPreferenceAgent.GetTabOrders
+  langs:
+  - crmscript
+  name: 'GetTabOrders()'
+  nameWithType: NSPreferenceAgent.GetTabOrders()
+  fullName: CRMScript.NetServer.NSPreferenceAgent.GetTabOrders()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSTabOrder[] GetTabOrders()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSTabOrder[]
+  example: 
+- uid: CRMScript.NetServer.NSPreferenceAgent.SaveFromSectionAndKey(String,String,NSPreferenceDescription)
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.SaveFromSectionAndKey(String,String,NSPreferenceDescription)
+  id: 'SaveFromSectionAndKey(String,String,NSPreferenceDescription)'
+  so.intellisense: NSPreferenceAgent.SaveFromSectionAndKey
+  langs:
+  - crmscript
+  name: 'SaveFromSectionAndKey(String,String,NSPreferenceDescription)'
+  nameWithType: NSPreferenceAgent.SaveFromSectionAndKey(String,String,NSPreferenceDescription)
+  fullName: CRMScript.NetServer.NSPreferenceAgent.SaveFromSectionAndKey(String,String,NSPreferenceDescription)
+  type: Method
+  summary: "\nUpdates an NSPreferenceDescription based on the section and key\n"
+  remarks: 
+  syntax: 
+    content: NSPreferenceDescription SaveFromSectionAndKey(String section, String key, NSPreferenceDescription preferenceDescription)
+    parameters:
+    - id: section
+      type: CRMScript.Global.String
+      description: 
+    - id: key
+      type: CRMScript.Global.String
+      description: 
+    - id: preferenceDescription
+      type: CRMScript.NetServer.NSPreferenceDescription
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPreferenceDescription
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nString section;\nString key;\nNSPreferenceDescription preferenceDescription;\nNSPreferenceDescription res = agent.SaveFromSectionAndKey(section, key, preferenceDescription);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.SavePreference(NSPreference)
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.SavePreference(NSPreference)
+  id: 'SavePreference(NSPreference)'
+  so.intellisense: NSPreferenceAgent.SavePreference
+  langs:
+  - crmscript
+  name: 'SavePreference(NSPreference)'
+  nameWithType: NSPreferenceAgent.SavePreference(NSPreference)
+  fullName: CRMScript.NetServer.NSPreferenceAgent.SavePreference(NSPreference)
+  type: Method
+  summary: "\nSaves this preference\n"
+  remarks: 
+  syntax: 
+    content: Void SavePreference(NSPreference preference)
+    parameters:
+    - id: preference
+      type: CRMScript.NetServer.NSPreference
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nNSPreference preference;\nagent.SavePreference(preference);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.SavePreferenceDescription(NSPreferenceDescription)
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.SavePreferenceDescription(NSPreferenceDescription)
+  id: 'SavePreferenceDescription(NSPreferenceDescription)'
+  so.intellisense: NSPreferenceAgent.SavePreferenceDescription
+  langs:
+  - crmscript
+  name: 'SavePreferenceDescription(NSPreferenceDescription)'
+  nameWithType: NSPreferenceAgent.SavePreferenceDescription(NSPreferenceDescription)
+  fullName: CRMScript.NetServer.NSPreferenceAgent.SavePreferenceDescription(NSPreferenceDescription)
+  type: Method
+  summary: "\nUpdates the existing NSPreferenceDescription or creates a new NSPreferenceDescription if the id parameter is 0\n"
+  remarks: 
+  syntax: 
+    content: NSPreferenceDescription SavePreferenceDescription(NSPreferenceDescription preferenceDescription)
+    parameters:
+    - id: preferenceDescription
+      type: CRMScript.NetServer.NSPreferenceDescription
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPreferenceDescription
+  example: 
+  - "\n<pre><code>NSPreference  agent;\nNSPreferenceDescription thing = agent.CreateDefaultPreferenceDescription();\nthing = agent.SavePreferenceDescription(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.SavePreferenceDescriptionLine(NSPreferenceDescriptionLine)
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.SavePreferenceDescriptionLine(NSPreferenceDescriptionLine)
+  id: 'SavePreferenceDescriptionLine(NSPreferenceDescriptionLine)'
+  so.intellisense: NSPreferenceAgent.SavePreferenceDescriptionLine
+  langs:
+  - crmscript
+  name: 'SavePreferenceDescriptionLine(NSPreferenceDescriptionLine)'
+  nameWithType: NSPreferenceAgent.SavePreferenceDescriptionLine(NSPreferenceDescriptionLine)
+  fullName: CRMScript.NetServer.NSPreferenceAgent.SavePreferenceDescriptionLine(NSPreferenceDescriptionLine)
+  type: Method
+  summary: "\nUpdates the existing NSPreferenceDescriptionLine or creates a new NSPreferenceDescriptionLine if the id parameter is 0\n"
+  remarks: 
+  syntax: 
+    content: NSPreferenceDescriptionLine SavePreferenceDescriptionLine(NSPreferenceDescriptionLine preferenceDescriptionLine)
+    parameters:
+    - id: preferenceDescriptionLine
+      type: CRMScript.NetServer.NSPreferenceDescriptionLine
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPreferenceDescriptionLine
+  example: 
+  - "\n<pre><code>NSPreference  agent;\nNSPreferenceDescriptionLine thing = agent.CreateDefaultPreferenceDescriptionLine();\nthing = agent.SavePreferenceDescriptionLine(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.SavePreferenceDescriptionLines(NSPreferenceDescriptionLine[])
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.SavePreferenceDescriptionLines(NSPreferenceDescriptionLine[])
+  id: 'SavePreferenceDescriptionLines(NSPreferenceDescriptionLine[])'
+  so.intellisense: NSPreferenceAgent.SavePreferenceDescriptionLines
+  langs:
+  - crmscript
+  name: 'SavePreferenceDescriptionLines(NSPreferenceDescriptionLine[])'
+  nameWithType: NSPreferenceAgent.SavePreferenceDescriptionLines(NSPreferenceDescriptionLine[])
+  fullName: CRMScript.NetServer.NSPreferenceAgent.SavePreferenceDescriptionLines(NSPreferenceDescriptionLine[])
+  type: Method
+  summary: "\nSaves the PreferenceDescriptionLine array in the SuperOffice database\n"
+  remarks: 
+  syntax: 
+    content: NSPreferenceDescriptionLine[] SavePreferenceDescriptionLines(NSPreferenceDescriptionLine[] preferenceDescriptionLines)
+    parameters:
+    - id: preferenceDescriptionLines
+      type: CRMScript.NetServer.NSPreferenceDescriptionLine[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPreferenceDescriptionLine[]
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nNSPreferenceDescriptionLine[] preferenceDescriptionLines;\nNSPreferenceDescriptionLine[] res = agent.SavePreferenceDescriptionLines(preferenceDescriptionLines);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.SavePreferenceEntities(NSPreference[],Bool)
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.SavePreferenceEntities(NSPreference[],Bool)
+  id: 'SavePreferenceEntities(NSPreference[],Bool)'
+  so.intellisense: NSPreferenceAgent.SavePreferenceEntities
+  langs:
+  - crmscript
+  name: 'SavePreferenceEntities(NSPreference[],Bool)'
+  nameWithType: NSPreferenceAgent.SavePreferenceEntities(NSPreference[],Bool)
+  fullName: CRMScript.NetServer.NSPreferenceAgent.SavePreferenceEntities(NSPreference[],Bool)
+  type: Method
+  summary: "\nSaves this set of preferences.\n"
+  remarks: 
+  syntax: 
+    content: Void SavePreferenceEntities(NSPreference[] preferences, Bool removeLowerLevels)
+    parameters:
+    - id: preferences
+      type: CRMScript.NetServer.NSPreference[]
+      description: 
+    - id: removeLowerLevels
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSPreferenceAgent.SavePreferenceEntity(NSPreference,Bool)
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.SavePreferenceEntity(NSPreference,Bool)
+  id: 'SavePreferenceEntity(NSPreference,Bool)'
+  so.intellisense: NSPreferenceAgent.SavePreferenceEntity
+  langs:
+  - crmscript
+  name: 'SavePreferenceEntity(NSPreference,Bool)'
+  nameWithType: NSPreferenceAgent.SavePreferenceEntity(NSPreference,Bool)
+  fullName: CRMScript.NetServer.NSPreferenceAgent.SavePreferenceEntity(NSPreference,Bool)
+  type: Method
+  summary: "\nSaves a complete preference object, on any level and any target.\n"
+  remarks: "\nPreference administrator rights are required to use this\n"
+  syntax: 
+    content: NSPreference SavePreferenceEntity(NSPreference preference, Bool removeLowerLevels)
+    parameters:
+    - id: preference
+      type: CRMScript.NetServer.NSPreference
+      description: 
+    - id: removeLowerLevels
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPreference
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nNSPreference preference;\nBool removeLowerLevels;\nNSPreference res = agent.SavePreferenceEntity(preference, removeLowerLevels);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.SavePreferences(NSPreference[])
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.SavePreferences(NSPreference[])
+  id: 'SavePreferences(NSPreference[])'
+  so.intellisense: NSPreferenceAgent.SavePreferences
+  langs:
+  - crmscript
+  name: 'SavePreferences(NSPreference[])'
+  nameWithType: NSPreferenceAgent.SavePreferences(NSPreference[])
+  fullName: CRMScript.NetServer.NSPreferenceAgent.SavePreferences(NSPreference[])
+  type: Method
+  summary: "\nSaves this set of preferences.\n"
+  remarks: "\nDOES NOT look at level/targetId, it only saves on behalf of the CURRENT USER.\n"
+  syntax: 
+    content: Void SavePreferences(NSPreference[] preferences)
+    parameters:
+    - id: preferences
+      type: CRMScript.NetServer.NSPreference[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSPreferenceAgent.SaveTabOrder(NSTabOrder)
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.SaveTabOrder(NSTabOrder)
+  id: 'SaveTabOrder(NSTabOrder)'
+  so.intellisense: NSPreferenceAgent.SaveTabOrder
+  langs:
+  - crmscript
+  name: 'SaveTabOrder(NSTabOrder)'
+  nameWithType: NSPreferenceAgent.SaveTabOrder(NSTabOrder)
+  fullName: CRMScript.NetServer.NSPreferenceAgent.SaveTabOrder(NSTabOrder)
+  type: Method
+  summary: "\nSaves the tab order. The order is saved pr. user.\n"
+  remarks: 
+  syntax: 
+    content: Void SaveTabOrder(NSTabOrder tabOrder)
+    parameters:
+    - id: tabOrder
+      type: CRMScript.NetServer.NSTabOrder
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nNSTabOrder tabOrder;\nagent.SaveTabOrder(tabOrder);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceAgent.SaveTabOrders(NSTabOrder[])
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.SaveTabOrders(NSTabOrder[])
+  id: 'SaveTabOrders(NSTabOrder[])'
+  so.intellisense: NSPreferenceAgent.SaveTabOrders
+  langs:
+  - crmscript
+  name: 'SaveTabOrders(NSTabOrder[])'
+  nameWithType: NSPreferenceAgent.SaveTabOrders(NSTabOrder[])
+  fullName: CRMScript.NetServer.NSPreferenceAgent.SaveTabOrders(NSTabOrder[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SaveTabOrders(NSTabOrder[] tabOrders)
+    parameters:
+    - id: tabOrders
+      type: CRMScript.NetServer.NSTabOrder[]
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSPreferenceAgent.UpdateNetServicesStatus(String)
+  commentId: M:CRMScript.NetServer.NSPreferenceAgent.UpdateNetServicesStatus(String)
+  id: 'UpdateNetServicesStatus(String)'
+  so.intellisense: NSPreferenceAgent.UpdateNetServicesStatus
+  langs:
+  - crmscript
+  name: 'UpdateNetServicesStatus(String)'
+  nameWithType: NSPreferenceAgent.UpdateNetServicesStatus(String)
+  fullName: CRMScript.NetServer.NSPreferenceAgent.UpdateNetServicesStatus(String)
+  type: Method
+  summary: "\nUpdates the NetServices preferences with values contained in the content from the Status URL\n"
+  remarks: 
+  syntax: 
+    content: Void UpdateNetServicesStatus(String xmlOrJson)
+    parameters:
+    - id: xmlOrJson
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreferenceAgent agent;\nString xmlOrJson;\nagent.UpdateNetServicesStatus(xmlOrJson);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSPreferenceAgent
+  commentId: T:CRMScript.NetServer.NSPreferenceAgent
+  isExternal: true
+  name: NSPreferenceAgent
+  nameWithType: NSPreferenceAgent
+  fullName: CRMScript.NetServer.NSPreferenceAgent
+- uid: CRMScript.NetServer.NSPreference
+  commentId: T:CRMScript.NetServer.NSPreference
+  isExternal: true
+  name: NSPreference
+  nameWithType: NSPreference
+  fullName: CRMScript.NetServer.NSPreference
+- uid: CRMScript.NetServer.NSPreferenceDescription
+  commentId: T:CRMScript.NetServer.NSPreferenceDescription
+  isExternal: true
+  name: NSPreferenceDescription
+  nameWithType: NSPreferenceDescription
+  fullName: CRMScript.NetServer.NSPreferenceDescription
+- uid: CRMScript.NetServer.NSPreferenceDescriptionLine
+  commentId: T:CRMScript.NetServer.NSPreferenceDescriptionLine
+  isExternal: true
+  name: NSPreferenceDescriptionLine
+  nameWithType: NSPreferenceDescriptionLine
+  fullName: CRMScript.NetServer.NSPreferenceDescriptionLine
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    isExternal: true
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSPreferenceDescription[]
+  isExternal: true
+  name: NSPreferenceDescription[]
+  nameWithType: NSPreferenceDescription[]
+  fullName: CRMScript.NetServer.NSPreferenceDescription[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSPreferenceDescription
+    isExternal: true
+    name: NSPreferenceDescription
+    nameWithType: NSPreferenceDescription
+    fullName: CRMScript.NetServer.NSPreferenceDescription
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSPreferenceDescription
+  commentId: T:CRMScript.NetServer.NSPreferenceDescription
+  isExternal: true
+  name: NSPreferenceDescription
+  nameWithType: NSPreferenceDescription
+  fullName: CRMScript.NetServer.NSPreferenceDescription
+- uid: CRMScript.NetServer.NSPreferenceDescriptionLine[]
+  isExternal: true
+  name: NSPreferenceDescriptionLine[]
+  nameWithType: NSPreferenceDescriptionLine[]
+  fullName: CRMScript.NetServer.NSPreferenceDescriptionLine[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSPreferenceDescriptionLine
+    isExternal: true
+    name: NSPreferenceDescriptionLine
+    nameWithType: NSPreferenceDescriptionLine
+    fullName: CRMScript.NetServer.NSPreferenceDescriptionLine
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSPreferenceDescriptionLine
+  commentId: T:CRMScript.NetServer.NSPreferenceDescriptionLine
+  isExternal: true
+  name: NSPreferenceDescriptionLine
+  nameWithType: NSPreferenceDescriptionLine
+  fullName: CRMScript.NetServer.NSPreferenceDescriptionLine
+- uid: CRMScript.NetServer.NSPreferenceSpec[]
+  isExternal: true
+  name: NSPreferenceSpec[]
+  nameWithType: NSPreferenceSpec[]
+  fullName: CRMScript.NetServer.NSPreferenceSpec[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSPreferenceSpec
+    isExternal: true
+    name: NSPreferenceSpec
+    nameWithType: NSPreferenceSpec
+    fullName: CRMScript.NetServer.NSPreferenceSpec
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSPreferenceSpec
+  commentId: T:CRMScript.NetServer.NSPreferenceSpec
+  isExternal: true
+  name: NSPreferenceSpec
+  nameWithType: NSPreferenceSpec
+  fullName: CRMScript.NetServer.NSPreferenceSpec
+- uid: CRMScript.NetServer.NSPreference[]
+  isExternal: true
+  name: NSPreference[]
+  nameWithType: NSPreference[]
+  fullName: CRMScript.NetServer.NSPreference[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSPreference
+    isExternal: true
+    name: NSPreference
+    nameWithType: NSPreference
+    fullName: CRMScript.NetServer.NSPreference
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSPreference
+  commentId: T:CRMScript.NetServer.NSPreference
+  isExternal: true
+  name: NSPreference
+  nameWithType: NSPreference
+  fullName: CRMScript.NetServer.NSPreference
+- uid: CRMScript.NetServer.NSTabOrder
+  commentId: T:CRMScript.NetServer.NSTabOrder
+  isExternal: true
+  name: NSTabOrder
+  nameWithType: NSTabOrder
+  fullName: CRMScript.NetServer.NSTabOrder
+- uid: CRMScript.NetServer.NSTabOrder[]
+  isExternal: true
+  name: NSTabOrder[]
+  nameWithType: NSTabOrder[]
+  fullName: CRMScript.NetServer.NSTabOrder[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSTabOrder
+    isExternal: true
+    name: NSTabOrder
+    nameWithType: NSTabOrder
+    fullName: CRMScript.NetServer.NSTabOrder
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSTabOrder
+  commentId: T:CRMScript.NetServer.NSTabOrder
+  isExternal: true
+  name: NSTabOrder
+  nameWithType: NSTabOrder
+  fullName: CRMScript.NetServer.NSTabOrder
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.PreferenceLevel
+  commentId: T:CRMScript.NetServer.PreferenceLevel
+  isExternal: true
+  name: PreferenceLevel
+  nameWithType: PreferenceLevel
+  fullName: CRMScript.NetServer.PreferenceLevel

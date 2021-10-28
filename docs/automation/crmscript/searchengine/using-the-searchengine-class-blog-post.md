@@ -25,7 +25,7 @@ The ejscript language is documented [here][1]. The different methods are describ
 
 The `SearchEngine` is one of the core-classes in ejScript, and has existed for a long time. Back in the day when Customer Service was still called Ejournal 4.x the SearchEngine would use T-SQL and ODBC to talk to the database. During the conversion from Ejournal 4.x to Customer Service 7.x the SearchEngine switched over to use the SuperOffice NetServer web services to read from and write to the database. This has a few advantages. SearchEngine no longer needs to worry about what type of database engine SuperOffice is running on. It doesn't really care if it is Oracle or MSSQL. One other advantage, which is important for consultants to know about, is that all queries that pass through the web services are subjected to various business rules in SuperOffice. For instance, the web services will make sure that all Sentry rules are respected, and will not give out information the user is not allowed to see.
 
-But even if there are advantages to SearchEngine talking via the web services there are also some drawbacks. One is that NetServer (i.e. the web services) doesn't handle aggregated functions. So if you want to do a COUNT, SUM, MAX etc then you need to bypass NetServer and use the old ODBC+SQL approach. This is simple to do, and you'll see how it works a bit further down.
+But even if there are advantages to SearchEngine talking via the web services there are also some drawbacks. One is that NetServer (i.e. the web services) doesn't handle aggregated functions. So if you want to do a COUNT, SUM, MAX, etc then you need to bypass NetServer and use the old ODBC+SQL approach. This is simple to do, and you'll see how it works a bit further down.
 
 For now, let's do a simple query. When you play around with ejScript it is easy to just go to **System Design>Script**, and create a temporary script there. You can test it immediately by using the **Execute script** button.
 
@@ -43,7 +43,7 @@ Then, in a for-loop we call `se.execute()` to run the actual query. That will pe
 
 As a new-line character I print out "\\r\\n". Alternatively, if you've checked the **Show result of runing script as HTML** checkbox you can print `<br />` to get a newline.
 
-Usually, when you do a search, you also want to filter the values. Lets say we only want the associates that have a corresponding ejuser.
+Usually, when you do a search, you also want to filter the values. Let's say we only want the associates that have a corresponding ejuser.
 
 ![x][img2]
 
@@ -69,9 +69,9 @@ The operators you can use as the **second variable** are:
 * OperatorOracleLeftJoin
 * OperatorIsNot
 
-The fourth and fifth variables are used when you have more than one `.addCriteria` call, and is used to control how  you wrap the parentheses and AND/OR between each criterion. The **fourth operator** can be either `OperatorAnd`, `OperatorOr`, `OperatorNotAnd`, or `OperatorNotOr`.
+The fourth and fifth variables are used when you have more than one `.addCriteria` call and are used to control how you wrap the parentheses and AND/OR between each criterion. The **fourth operator** can be either `OperatorAnd`, `OperatorOr`, `OperatorNotAnd`, or `OperatorNotOr`.
 
-One neat feature with the SearchEngine is the so-called [dot-syntax][3]. It refers to the fact that we can use dots to join tables. Here is an example where we search for all contacts with a given category, and use the dot-syntax to display the full name of the Our Contact.
+One neat feature with the SearchEngine is the so-called [dot-syntax][3]. It refers to the fact that we can use dots to join tables. Here is an example where we search for all contacts with a given category and use the dot-syntax to display the full name of the Our Contact.
 
 ![x][img3]
 
@@ -85,7 +85,7 @@ In T-SQL you also have the DISTINCT keyword. This actually has two corresponding
 
 These will give the same result, but notice that when using `.setDBDistinct(true)` you also need to set `.bypassNetServer(true)` for it to have any effect.
 
-If you want to use any aggregated functions like COUNT, SUM, or AVG then you need to use `.bypassNetServer(true)` since the NetServer web services does not support this. If you forget you'll get an error saying
+If you want to use any aggregated functions like COUNT, SUM, or AVG then you need to use `.bypassNetServer(true)` since the NetServer web services do not support this. If you forget you'll get an error saying
 
 `Original exception: NetServerException: Can't use field functions when querying NetServer`
 
@@ -101,11 +101,11 @@ Here is an example calculating the average amount on open sales for each associa
 
 Notice how we use two variables on the second call to `.addField(string, string)`. The second variable is the function name. And since we use an aggregated function we also need to add the GROUP BY statements using `se.setGroup(true)`.
 
-Maybe you've noticed that in all the examples above I've used `se.getField(0)` and `se.getField(1)` when retrieving the values found. The numbers correspond to the order the `.addField()` methods have been added. A better way is actually to not use numbers, but rather use the full field name instead. It does add a bit more text to your script, but is probably easier to maintain than using the index numbers.
+Maybe you've noticed that in all the examples above I've used `se.getField(0)` and `se.getField(1)` when retrieving the values found. The numbers correspond to the order the `.addField()` methods have been added. A better way is actually to not use numbers, but rather use the full field name instead. It does add a bit more text to your script but is probably easier to maintain than using the index numbers.
 
 ![x][img6]
 
-In addition to *searching* for data you can also use the `SearchEngine` class to *write* data to the database. Best-practice is actually to use the NetServer agent classes for writing to the database, but it is often convenient to use a SearchEngine instead.
+In addition to *searching* for data, you can also use the `SearchEngine` class to *write* data to the database. Best-practice is actually to use the NetServer agent classes for writing to the database, but it is often convenient to use a SearchEngine instead.
 
 ![x][img7]
 
@@ -118,7 +118,7 @@ Here is an example of how to delete something from the database. Again - best-pr
 
 ![x][img8]
 
-Even though all the examples above have been written in **System Design>Scripts** this doesn't mean that this is the only place you use SearchEngine. Most often it is used in a custom screen. Either in one of the load events, or in the creation script for one of the elements on the screen. I'll leave you with an example where I have added a Listbox to a custom screen, and use a SearchEngine to fill it with items.
+Even though all the examples above have been written in **System Design>Scripts** this doesn't mean that this is the only place you use SearchEngine. Most often it is used in a custom screen. Either in one of the load events or in the creation script for one of the elements on the screen. I'll leave you with an example where I have added a Listbox to a custom screen, and use a SearchEngine to fill it with items.
 
 ![x][img9]
 
@@ -132,7 +132,7 @@ Good luck!
 
 <!-- Referenced links -->
 [1]: ../overview/index.md
-[2]: ../api-reference/classes/searchengine/searchengine.md
+[2]: <xref:CRMScript.Native.SearchEngine>
 [3]: dot-syntax.md
 
 <!-- Referenced images -->

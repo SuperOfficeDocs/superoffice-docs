@@ -1,0 +1,369 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSChatSummaryItem
+  commentId: T:CRMScript.NetServer.NSChatSummaryItem
+  id: NSChatSummaryItem
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSChatSummaryItem.#ctor
+  - CRMScript.NetServer.NSChatSummaryItem.GetChatSessionId()
+  - CRMScript.NetServer.NSChatSummaryItem.GetCompanyName()
+  - CRMScript.NetServer.NSChatSummaryItem.GetFirstMessage()
+  - CRMScript.NetServer.NSChatSummaryItem.GetLastMessage()
+  - CRMScript.NetServer.NSChatSummaryItem.GetName()
+  - CRMScript.NetServer.NSChatSummaryItem.GetWhenEnded()
+  - CRMScript.NetServer.NSChatSummaryItem.GetWhenRequested()
+  - CRMScript.NetServer.NSChatSummaryItem.SetChatSessionId(Integer)
+  - CRMScript.NetServer.NSChatSummaryItem.SetCompanyName(String)
+  - CRMScript.NetServer.NSChatSummaryItem.SetFirstMessage(String)
+  - CRMScript.NetServer.NSChatSummaryItem.SetLastMessage(String)
+  - CRMScript.NetServer.NSChatSummaryItem.SetName(String)
+  - CRMScript.NetServer.NSChatSummaryItem.SetWhenEnded(DateTime)
+  - CRMScript.NetServer.NSChatSummaryItem.SetWhenRequested(DateTime)
+  name: NSChatSummaryItem
+  nameWithType: NSChatSummaryItem
+  fullName: CRMScript.NetServer.NSChatSummaryItem
+  type: Class
+  summary: "\nChat session summary: id, title, created date. Carrier object for ChatSummaryItem.\n"
+  example: 
+- uid: CRMScript.NetServer.NSChatSummaryItem.#ctor
+  commentId: M:CRMScript.NetServer.NSChatSummaryItem.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSChatSummaryItem
+  langs:
+  - crmscript
+  name: NSChatSummaryItem()
+  nameWithType: NSChatSummaryItem.#ctor
+  fullName: CRMScript.NetServer.NSChatSummaryItem.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSChatSummaryItem class.\n"
+  remarks: 
+  syntax: 
+    content: NSChatSummaryItem
+  example: 
+- uid: CRMScript.NetServer.NSChatSummaryItem.GetChatSessionId()
+  commentId: M:CRMScript.NetServer.NSChatSummaryItem.GetChatSessionId()
+  id: 'GetChatSessionId()'
+  so.intellisense: NSChatSummaryItem.GetChatSessionId
+  langs:
+  - crmscript
+  name: 'GetChatSessionId()'
+  nameWithType: NSChatSummaryItem.GetChatSessionId()
+  fullName: CRMScript.NetServer.NSChatSummaryItem.GetChatSessionId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetChatSessionId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The primary key (auto-incremented)."
+  example: 
+  - "\n<pre><code>NSChatSummaryItem thing;\nInteger chatSessionId = thing.GetChatSessionId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSummaryItem.GetCompanyName()
+  commentId: M:CRMScript.NetServer.NSChatSummaryItem.GetCompanyName()
+  id: 'GetCompanyName()'
+  so.intellisense: NSChatSummaryItem.GetCompanyName
+  langs:
+  - crmscript
+  name: 'GetCompanyName()'
+  nameWithType: NSChatSummaryItem.GetCompanyName()
+  fullName: CRMScript.NetServer.NSChatSummaryItem.GetCompanyName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCompanyName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the customers company, if provided."
+  example: 
+  - "\n<pre><code>NSChatSummaryItem thing;\nString companyName = thing.GetCompanyName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSummaryItem.GetFirstMessage()
+  commentId: M:CRMScript.NetServer.NSChatSummaryItem.GetFirstMessage()
+  id: 'GetFirstMessage()'
+  so.intellisense: NSChatSummaryItem.GetFirstMessage
+  langs:
+  - crmscript
+  name: 'GetFirstMessage()'
+  nameWithType: NSChatSummaryItem.GetFirstMessage()
+  fullName: CRMScript.NetServer.NSChatSummaryItem.GetFirstMessage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFirstMessage()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A copy of the first message in the chat session."
+  example: 
+  - "\n<pre><code>NSChatSummaryItem thing;\nString firstMessage = thing.GetFirstMessage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSummaryItem.GetLastMessage()
+  commentId: M:CRMScript.NetServer.NSChatSummaryItem.GetLastMessage()
+  id: 'GetLastMessage()'
+  so.intellisense: NSChatSummaryItem.GetLastMessage
+  langs:
+  - crmscript
+  name: 'GetLastMessage()'
+  nameWithType: NSChatSummaryItem.GetLastMessage()
+  fullName: CRMScript.NetServer.NSChatSummaryItem.GetLastMessage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetLastMessage()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A copy of the last message in the chat session."
+  example: 
+  - "\n<pre><code>NSChatSummaryItem thing;\nString lastMessage = thing.GetLastMessage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSummaryItem.GetName()
+  commentId: M:CRMScript.NetServer.NSChatSummaryItem.GetName()
+  id: 'GetName()'
+  so.intellisense: NSChatSummaryItem.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSChatSummaryItem.GetName()
+  fullName: CRMScript.NetServer.NSChatSummaryItem.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of customer, if provided."
+  example: 
+  - "\n<pre><code>NSChatSummaryItem thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSummaryItem.GetWhenEnded()
+  commentId: M:CRMScript.NetServer.NSChatSummaryItem.GetWhenEnded()
+  id: 'GetWhenEnded()'
+  so.intellisense: NSChatSummaryItem.GetWhenEnded
+  langs:
+  - crmscript
+  name: 'GetWhenEnded()'
+  nameWithType: NSChatSummaryItem.GetWhenEnded()
+  fullName: CRMScript.NetServer.NSChatSummaryItem.GetWhenEnded()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetWhenEnded()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "When the session was ended."
+  example: 
+  - "\n<pre><code>NSChatSummaryItem thing;\nDateTime whenEnded = thing.GetWhenEnded();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSummaryItem.GetWhenRequested()
+  commentId: M:CRMScript.NetServer.NSChatSummaryItem.GetWhenRequested()
+  id: 'GetWhenRequested()'
+  so.intellisense: NSChatSummaryItem.GetWhenRequested
+  langs:
+  - crmscript
+  name: 'GetWhenRequested()'
+  nameWithType: NSChatSummaryItem.GetWhenRequested()
+  fullName: CRMScript.NetServer.NSChatSummaryItem.GetWhenRequested()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetWhenRequested()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "When the session was requested by the customer."
+  example: 
+  - "\n<pre><code>NSChatSummaryItem thing;\nDateTime whenRequested = thing.GetWhenRequested();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSummaryItem.SetChatSessionId(Integer)
+  commentId: M:CRMScript.NetServer.NSChatSummaryItem.SetChatSessionId(Integer)
+  id: 'SetChatSessionId(Integer)'
+  so.intellisense: NSChatSummaryItem.SetChatSessionId
+  langs:
+  - crmscript
+  name: 'SetChatSessionId(Integer)'
+  nameWithType: NSChatSummaryItem.SetChatSessionId(Integer)
+  fullName: CRMScript.NetServer.NSChatSummaryItem.SetChatSessionId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChatSessionId(Integer chatSessionId)
+    parameters:
+    - id: chatSessionId
+      type: CRMScript.Global.Integer
+      description: "The primary key (auto-incremented)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSummaryItem thing;\nInteger chatSessionId;\nthing.SetChatSessionId(chatSessionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSummaryItem.SetCompanyName(String)
+  commentId: M:CRMScript.NetServer.NSChatSummaryItem.SetCompanyName(String)
+  id: 'SetCompanyName(String)'
+  so.intellisense: NSChatSummaryItem.SetCompanyName
+  langs:
+  - crmscript
+  name: 'SetCompanyName(String)'
+  nameWithType: NSChatSummaryItem.SetCompanyName(String)
+  fullName: CRMScript.NetServer.NSChatSummaryItem.SetCompanyName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCompanyName(String companyName)
+    parameters:
+    - id: companyName
+      type: CRMScript.Global.String
+      description: "The name of the customers company, if provided."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSummaryItem thing;\nString companyName;\nthing.SetCompanyName(companyName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSummaryItem.SetFirstMessage(String)
+  commentId: M:CRMScript.NetServer.NSChatSummaryItem.SetFirstMessage(String)
+  id: 'SetFirstMessage(String)'
+  so.intellisense: NSChatSummaryItem.SetFirstMessage
+  langs:
+  - crmscript
+  name: 'SetFirstMessage(String)'
+  nameWithType: NSChatSummaryItem.SetFirstMessage(String)
+  fullName: CRMScript.NetServer.NSChatSummaryItem.SetFirstMessage(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFirstMessage(String firstMessage)
+    parameters:
+    - id: firstMessage
+      type: CRMScript.Global.String
+      description: "A copy of the first message in the chat session."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSummaryItem thing;\nString firstMessage;\nthing.SetFirstMessage(firstMessage);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSummaryItem.SetLastMessage(String)
+  commentId: M:CRMScript.NetServer.NSChatSummaryItem.SetLastMessage(String)
+  id: 'SetLastMessage(String)'
+  so.intellisense: NSChatSummaryItem.SetLastMessage
+  langs:
+  - crmscript
+  name: 'SetLastMessage(String)'
+  nameWithType: NSChatSummaryItem.SetLastMessage(String)
+  fullName: CRMScript.NetServer.NSChatSummaryItem.SetLastMessage(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLastMessage(String lastMessage)
+    parameters:
+    - id: lastMessage
+      type: CRMScript.Global.String
+      description: "A copy of the last message in the chat session."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSummaryItem thing;\nString lastMessage;\nthing.SetLastMessage(lastMessage);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSummaryItem.SetName(String)
+  commentId: M:CRMScript.NetServer.NSChatSummaryItem.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSChatSummaryItem.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSChatSummaryItem.SetName(String)
+  fullName: CRMScript.NetServer.NSChatSummaryItem.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of customer, if provided."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSummaryItem thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSummaryItem.SetWhenEnded(DateTime)
+  commentId: M:CRMScript.NetServer.NSChatSummaryItem.SetWhenEnded(DateTime)
+  id: 'SetWhenEnded(DateTime)'
+  so.intellisense: NSChatSummaryItem.SetWhenEnded
+  langs:
+  - crmscript
+  name: 'SetWhenEnded(DateTime)'
+  nameWithType: NSChatSummaryItem.SetWhenEnded(DateTime)
+  fullName: CRMScript.NetServer.NSChatSummaryItem.SetWhenEnded(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWhenEnded(DateTime whenEnded)
+    parameters:
+    - id: whenEnded
+      type: CRMScript.Global.DateTime
+      description: "When the session was ended."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSummaryItem thing;\nDateTime whenEnded;\nthing.SetWhenEnded(whenEnded);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSummaryItem.SetWhenRequested(DateTime)
+  commentId: M:CRMScript.NetServer.NSChatSummaryItem.SetWhenRequested(DateTime)
+  id: 'SetWhenRequested(DateTime)'
+  so.intellisense: NSChatSummaryItem.SetWhenRequested
+  langs:
+  - crmscript
+  name: 'SetWhenRequested(DateTime)'
+  nameWithType: NSChatSummaryItem.SetWhenRequested(DateTime)
+  fullName: CRMScript.NetServer.NSChatSummaryItem.SetWhenRequested(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWhenRequested(DateTime whenRequested)
+    parameters:
+    - id: whenRequested
+      type: CRMScript.Global.DateTime
+      description: "When the session was requested by the customer."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSummaryItem thing;\nDateTime whenRequested;\nthing.SetWhenRequested(whenRequested);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSChatSummaryItem
+  commentId: T:CRMScript.NetServer.NSChatSummaryItem
+  isExternal: true
+  name: NSChatSummaryItem
+  nameWithType: NSChatSummaryItem
+  fullName: CRMScript.NetServer.NSChatSummaryItem
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

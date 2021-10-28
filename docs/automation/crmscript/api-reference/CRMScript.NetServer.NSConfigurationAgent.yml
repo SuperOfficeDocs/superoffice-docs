@@ -1,0 +1,1018 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSConfigurationAgent
+  commentId: T:CRMScript.NetServer.NSConfigurationAgent
+  id: NSConfigurationAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSConfigurationAgent.#ctor
+  - CRMScript.NetServer.NSConfigurationAgent.ClearConfigurationCache(String,String,Bool)
+  - CRMScript.NetServer.NSConfigurationAgent.CreateDefaultDiaryViewEntity()
+  - CRMScript.NetServer.NSConfigurationAgent.CreateDefaultSystemEventEntity()
+  - CRMScript.NetServer.NSConfigurationAgent.DeleteDiaryViewEntity(Integer)
+  - CRMScript.NetServer.NSConfigurationAgent.DeleteSystemEventEntity(Integer)
+  - CRMScript.NetServer.NSConfigurationAgent.DeleteWindowPosSize(Integer)
+  - CRMScript.NetServer.NSConfigurationAgent.ExistsSystemEvent(String)
+  - CRMScript.NetServer.NSConfigurationAgent.GetAnyConfiguration(String,String,String,String)
+  - CRMScript.NetServer.NSConfigurationAgent.GetApplicationConfiguration(String,String)
+  - CRMScript.NetServer.NSConfigurationAgent.GetCRMUrl(String,String,Bool)
+  - CRMScript.NetServer.NSConfigurationAgent.GetCSAuthUrl(String,String,String,String)
+  - CRMScript.NetServer.NSConfigurationAgent.GetCsCgiUrlInternal()
+  - CRMScript.NetServer.NSConfigurationAgent.GetCsProgramUrl(String,String,String,String)
+  - CRMScript.NetServer.NSConfigurationAgent.GetCSRegistryValue(Integer)
+  - CRMScript.NetServer.NSConfigurationAgent.GetCSWwwFolder()
+  - CRMScript.NetServer.NSConfigurationAgent.GetCustomerUrl()
+  - CRMScript.NetServer.NSConfigurationAgent.GetDiaryViewEntity(Integer)
+  - CRMScript.NetServer.NSConfigurationAgent.GetEmailNumberOfDays()
+  - CRMScript.NetServer.NSConfigurationAgent.GetEMarketingUrl(String)
+  - CRMScript.NetServer.NSConfigurationAgent.GetFilterList(String,String)
+  - CRMScript.NetServer.NSConfigurationAgent.GetHelpDispatcherUrl()
+  - CRMScript.NetServer.NSConfigurationAgent.GetMyWindowPosSizes()
+  - CRMScript.NetServer.NSConfigurationAgent.GetObjectMapping(String,String)
+  - CRMScript.NetServer.NSConfigurationAgent.GetPageConfiguration(String,String,String)
+  - CRMScript.NetServer.NSConfigurationAgent.GetRefreshedPageConfiguration(String,String,String)
+  - CRMScript.NetServer.NSConfigurationAgent.GetSystemEventEntity(Integer)
+  - CRMScript.NetServer.NSConfigurationAgent.GetWindowPosSize(Integer)
+  - CRMScript.NetServer.NSConfigurationAgent.GetWindowPosSizeList(Integer[])
+  - CRMScript.NetServer.NSConfigurationAgent.GetWindowPosSizesOnAssociateId(Integer)
+  - CRMScript.NetServer.NSConfigurationAgent.GetWindowPosSizesOnPersonId(Integer)
+  - CRMScript.NetServer.NSConfigurationAgent.GetWwwUrl(String)
+  - CRMScript.NetServer.NSConfigurationAgent.GetWwwUrlForSMWeb()
+  - CRMScript.NetServer.NSConfigurationAgent.SaveDiaryViewEntity(NSDiaryViewEntity)
+  - CRMScript.NetServer.NSConfigurationAgent.SaveSystemEventEntity(NSSystemEventEntity)
+  - CRMScript.NetServer.NSConfigurationAgent.SaveWindowPosSize(NSWindowPosSize)
+  - CRMScript.NetServer.NSConfigurationAgent.SaveWindowPosSizes(NSWindowPosSize[])
+  name: NSConfigurationAgent
+  nameWithType: NSConfigurationAgent
+  fullName: CRMScript.NetServer.NSConfigurationAgent
+  type: Class
+  summary: "\nUser interface configuration* XML and other elements such as inter-client URLs.\n"
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSConfigurationAgent
+  langs:
+  - crmscript
+  name: NSConfigurationAgent()
+  nameWithType: NSConfigurationAgent.#ctor
+  fullName: CRMScript.NetServer.NSConfigurationAgent.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSConfigurationAgent class.\n"
+  remarks: 
+  syntax: 
+    content: NSConfigurationAgent
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.ClearConfigurationCache(String,String,Bool)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.ClearConfigurationCache(String,String,Bool)
+  id: 'ClearConfigurationCache(String,String,Bool)'
+  so.intellisense: NSConfigurationAgent.ClearConfigurationCache
+  langs:
+  - crmscript
+  name: 'ClearConfigurationCache(String,String,Bool)'
+  nameWithType: NSConfigurationAgent.ClearConfigurationCache(String,String,Bool)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.ClearConfigurationCache(String,String,Bool)
+  type: Method
+  summary: "\nConfiguration XML may be expensive to build and parse, and are therefore cached to the database.<p></p>\nCaching is per application/instance/associate, and can be turned off through the config file. If caching is on, and the configuration is changed, it is necessary to clear the cached configurations from the database, through this call.\n"
+  remarks: "\nChanges to the externalapplication table require cache invalidation. SoAdmin will do so automatically.\n"
+  syntax: 
+    content: Void ClearConfigurationCache(String application, String instance, Bool forAllAssociates)
+    parameters:
+    - id: application
+      type: CRMScript.Global.String
+      description: 
+    - id: instance
+      type: CRMScript.Global.String
+      description: 
+    - id: forAllAssociates
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nString application;\nString instance;\nBool forAllAssociates;\nagent.ClearConfigurationCache(application, instance, forAllAssociates);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.CreateDefaultDiaryViewEntity()
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.CreateDefaultDiaryViewEntity()
+  id: 'CreateDefaultDiaryViewEntity()'
+  so.intellisense: NSConfigurationAgent.CreateDefaultDiaryViewEntity
+  langs:
+  - crmscript
+  name: 'CreateDefaultDiaryViewEntity()'
+  nameWithType: NSConfigurationAgent.CreateDefaultDiaryViewEntity()
+  fullName: CRMScript.NetServer.NSConfigurationAgent.CreateDefaultDiaryViewEntity()
+  type: Method
+  summary: "\nSets default values into a new NSDiaryViewEntity.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSDiaryViewEntity CreateDefaultDiaryViewEntity()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSDiaryViewEntity
+      description: "New entity with default values."
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nNSDiaryViewEntity thing = agent.CreateDefaultDiaryViewEntity();\nthing = agent.SaveDiaryViewEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.CreateDefaultSystemEventEntity()
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.CreateDefaultSystemEventEntity()
+  id: 'CreateDefaultSystemEventEntity()'
+  so.intellisense: NSConfigurationAgent.CreateDefaultSystemEventEntity
+  langs:
+  - crmscript
+  name: 'CreateDefaultSystemEventEntity()'
+  nameWithType: NSConfigurationAgent.CreateDefaultSystemEventEntity()
+  fullName: CRMScript.NetServer.NSConfigurationAgent.CreateDefaultSystemEventEntity()
+  type: Method
+  summary: "\nSets default values into a new NSSystemEventEntity.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance.\n"
+  syntax: 
+    content: NSSystemEventEntity CreateDefaultSystemEventEntity()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSystemEventEntity
+      description: "New entity with default values."
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nNSSystemEventEntity thing = agent.CreateDefaultSystemEventEntity();\nthing = agent.SaveSystemEventEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.DeleteDiaryViewEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.DeleteDiaryViewEntity(Integer)
+  id: 'DeleteDiaryViewEntity(Integer)'
+  so.intellisense: NSConfigurationAgent.DeleteDiaryViewEntity
+  langs:
+  - crmscript
+  name: 'DeleteDiaryViewEntity(Integer)'
+  nameWithType: NSConfigurationAgent.DeleteDiaryViewEntity(Integer)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.DeleteDiaryViewEntity(Integer)
+  type: Method
+  summary: "\nDeletes the NSDiaryViewEntity\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteDiaryViewEntity(Integer diaryViewEntity)
+    parameters:
+    - id: diaryViewEntity
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nagent.DeleteDiaryViewEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.DeleteSystemEventEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.DeleteSystemEventEntity(Integer)
+  id: 'DeleteSystemEventEntity(Integer)'
+  so.intellisense: NSConfigurationAgent.DeleteSystemEventEntity
+  langs:
+  - crmscript
+  name: 'DeleteSystemEventEntity(Integer)'
+  nameWithType: NSConfigurationAgent.DeleteSystemEventEntity(Integer)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.DeleteSystemEventEntity(Integer)
+  type: Method
+  summary: "\nDeletes the NSSystemEventEntity\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteSystemEventEntity(Integer systemEventEntity)
+    parameters:
+    - id: systemEventEntity
+      type: CRMScript.Global.Integer
+      description: "The identity of the DiaryViewEntity."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nagent.DeleteSystemEventEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.DeleteWindowPosSize(Integer)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.DeleteWindowPosSize(Integer)
+  id: 'DeleteWindowPosSize(Integer)'
+  so.intellisense: NSConfigurationAgent.DeleteWindowPosSize
+  langs:
+  - crmscript
+  name: 'DeleteWindowPosSize(Integer)'
+  nameWithType: NSConfigurationAgent.DeleteWindowPosSize(Integer)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.DeleteWindowPosSize(Integer)
+  type: Method
+  summary: "\nDeletes a window and dialog position and size setting.\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteWindowPosSize(Integer windowPosSizeId)
+    parameters:
+    - id: windowPosSizeId
+      type: CRMScript.Global.Integer
+      description: "ID of the window and dialog position and size settings item."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSConfigurationAgent.ExistsSystemEvent(String)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.ExistsSystemEvent(String)
+  id: 'ExistsSystemEvent(String)'
+  so.intellisense: NSConfigurationAgent.ExistsSystemEvent
+  langs:
+  - crmscript
+  name: 'ExistsSystemEvent(String)'
+  nameWithType: NSConfigurationAgent.ExistsSystemEvent(String)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.ExistsSystemEvent(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool ExistsSystemEvent(String key)
+    parameters:
+    - id: key
+      type: CRMScript.Global.String
+      description: "The key to match on."
+    return:
+      type: CRMScript.Global.Bool
+      description: Is there a system event with the given key?
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nString key;\nBool res = agent.ExistsSystemEvent(key);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetAnyConfiguration(String,String,String,String)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetAnyConfiguration(String,String,String,String)
+  id: 'GetAnyConfiguration(String,String,String,String)'
+  so.intellisense: NSConfigurationAgent.GetAnyConfiguration
+  langs:
+  - crmscript
+  name: 'GetAnyConfiguration(String,String,String,String)'
+  nameWithType: NSConfigurationAgent.GetAnyConfiguration(String,String,String,String)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetAnyConfiguration(String,String,String,String)
+  type: Method
+  summary: "\nGets one defined configuration fragment, with full reference resolution and parsing applied.\n"
+  remarks: "\nThis is essentially the same service as the GetPageConfiguration, except that this service is not locked to objects of type Page.\n"
+  syntax: 
+    content: String GetAnyConfiguration(String application, String instance, String item, String type)
+    parameters:
+    - id: application
+      type: CRMScript.Global.String
+      description: "The application name, for instance Six.Web"
+    - id: instance
+      type: CRMScript.Global.String
+      description: "The instance name, for instance Main "
+    - id: item
+      type: CRMScript.Global.String
+      description: "The configuration item name (first component of file name)"
+    - id: type
+      type: CRMScript.Global.String
+      description: "The configuration item type (second component of file name)."
+    return:
+      type: CRMScript.Global.String
+      description: "A configuration fragment, with full reference resolution and parsing applied."
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nString application;\nString instance;\nString item;\nString type;\nString res = agent.GetAnyConfiguration(application, instance, item, type);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetApplicationConfiguration(String,String)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetApplicationConfiguration(String,String)
+  id: 'GetApplicationConfiguration(String,String)'
+  so.intellisense: NSConfigurationAgent.GetApplicationConfiguration
+  langs:
+  - crmscript
+  name: 'GetApplicationConfiguration(String,String)'
+  nameWithType: NSConfigurationAgent.GetApplicationConfiguration(String,String)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetApplicationConfiguration(String,String)
+  type: Method
+  summary: "\nReturns the application configuration.\n"
+  remarks: 
+  syntax: 
+    content: String GetApplicationConfiguration(String application, String instance)
+    parameters:
+    - id: application
+      type: CRMScript.Global.String
+      description: "The application name, for instance 'SixWeb'"
+    - id: instance
+      type: CRMScript.Global.String
+      description: "The instance name for the application, like 'MainInstance'"
+    return:
+      type: CRMScript.Global.String
+      description: "XML structure containing the application configuration. A list of pages, with information about the name, main panel and preference mappings of each page."
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nString application;\nString instance;\nString res = agent.GetApplicationConfiguration(application, instance);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetCRMUrl(String,String,Bool)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetCRMUrl(String,String,Bool)
+  id: 'GetCRMUrl(String,String,Bool)'
+  so.intellisense: NSConfigurationAgent.GetCRMUrl
+  langs:
+  - crmscript
+  name: 'GetCRMUrl(String,String,Bool)'
+  nameWithType: NSConfigurationAgent.GetCRMUrl(String,String,Bool)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetCRMUrl(String,String,Bool)
+  type: Method
+  summary: "\nReturns a valid URL based in the soprotocol provided\n"
+  remarks: 
+  syntax: 
+    content: String GetCRMUrl(String soProtocol, String currents, Bool frameless)
+    parameters:
+    - id: soProtocol
+      type: CRMScript.Global.String
+      description: 
+    - id: currents
+      type: CRMScript.Global.String
+      description: 
+    - id: frameless
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description: "URl."
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nString soProtocol;\nString currents;\nBool frameless;\nString res = agent.GetCRMUrl(soProtocol, currents, frameless);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetCSAuthUrl(String,String,String,String)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetCSAuthUrl(String,String,String,String)
+  id: 'GetCSAuthUrl(String,String,String,String)'
+  so.intellisense: NSConfigurationAgent.GetCSAuthUrl
+  langs:
+  - crmscript
+  name: 'GetCSAuthUrl(String,String,String,String)'
+  nameWithType: NSConfigurationAgent.GetCSAuthUrl(String,String,String,String)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetCSAuthUrl(String,String,String,String)
+  type: Method
+  summary: "\nGenerates a URL to the emarketing module\n"
+  remarks: 
+  syntax: 
+    content: String GetCSAuthUrl(String language, String programName, String action, String extraParameters)
+    parameters:
+    - id: language
+      type: CRMScript.Global.String
+      description: "By setting this parameter, you can change the CS language for the current user."
+    - id: programName
+      type: CRMScript.Global.String
+      description: "In this parameter you must specify which CS program you want to create an URL for. Valid examples are ticket, rms, spm etc."
+    - id: action
+      type: CRMScript.Global.String
+      description: "Here you can optionally specify the action for the current program. This will enable you to go to a specific screen."
+    - id: extraParameters
+      type: CRMScript.Global.String
+      description: "If an action is specified, you can specify extra parameters here. This can be used to set specific behaviour for the chosen screen/action. If an empty action is supplied, this parameter will be ignored."
+    return:
+      type: CRMScript.Global.String
+      description: "A valid Service URL composed of the give parameters."
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nString language;\nString programName;\nString action;\nString extraParameters;\nString res = agent.GetCSAuthUrl(language, programName, action, extraParameters);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetCsCgiUrlInternal()
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetCsCgiUrlInternal()
+  id: 'GetCsCgiUrlInternal()'
+  so.intellisense: NSConfigurationAgent.GetCsCgiUrlInternal
+  langs:
+  - crmscript
+  name: 'GetCsCgiUrlInternal()'
+  nameWithType: NSConfigurationAgent.GetCsCgiUrlInternal()
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetCsCgiUrlInternal()
+  type: Method
+  summary: "\nGets the host name for Service\n"
+  remarks: 
+  syntax: 
+    content: String GetCsCgiUrlInternal()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The host name for where Service is installed."
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nString res = agent.GetCsCgiUrlInternal();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetCsProgramUrl(String,String,String,String)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetCsProgramUrl(String,String,String,String)
+  id: 'GetCsProgramUrl(String,String,String,String)'
+  so.intellisense: NSConfigurationAgent.GetCsProgramUrl
+  langs:
+  - crmscript
+  name: 'GetCsProgramUrl(String,String,String,String)'
+  nameWithType: NSConfigurationAgent.GetCsProgramUrl(String,String,String,String)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetCsProgramUrl(String,String,String,String)
+  type: Method
+  summary: "\nConverts a module name into a Service URL.\n"
+  remarks: 
+  syntax: 
+    content: String GetCsProgramUrl(String language, String programName, String action, String extraParameters)
+    parameters:
+    - id: language
+      type: CRMScript.Global.String
+      description: "By setting this parameter, you can change the CS language for the current user."
+    - id: programName
+      type: CRMScript.Global.String
+      description: "In this parameter you must specify which CS program you want to create an URL for. Valid examples are ticket, rms, spm etc."
+    - id: action
+      type: CRMScript.Global.String
+      description: "Here you can optionally specify the action for the current program. This will enable you to go to a specific screen."
+    - id: extraParameters
+      type: CRMScript.Global.String
+      description: "If an action is specified, you can specify extra parameters here. This can be used to set specific behaviour for the chosen screen/action. If an empty action is supplied, this parameter will be ignored."
+    return:
+      type: CRMScript.Global.String
+      description: "A valid Service URL composed of the give parameters."
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nString language;\nString programName;\nString action;\nString extraParameters;\nString res = agent.GetCsProgramUrl(language, programName, action, extraParameters);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetCSRegistryValue(Integer)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetCSRegistryValue(Integer)
+  id: 'GetCSRegistryValue(Integer)'
+  so.intellisense: NSConfigurationAgent.GetCSRegistryValue
+  langs:
+  - crmscript
+  name: 'GetCSRegistryValue(Integer)'
+  nameWithType: NSConfigurationAgent.GetCSRegistryValue(Integer)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetCSRegistryValue(Integer)
+  type: Method
+  summary: "\nGets a value from the Registry table.\n"
+  remarks: 
+  syntax: 
+    content: String GetCSRegistryValue(Integer entry)
+    parameters:
+    - id: entry
+      type: CRMScript.Global.Integer
+      description: "The Registry entry to get."
+    return:
+      type: CRMScript.Global.String
+      description: "The value of the specified Registry entry."
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nInteger entry;\nString res = agent.GetCSRegistryValue(entry);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetCSWwwFolder()
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetCSWwwFolder()
+  id: 'GetCSWwwFolder()'
+  so.intellisense: NSConfigurationAgent.GetCSWwwFolder
+  langs:
+  - crmscript
+  name: 'GetCSWwwFolder()'
+  nameWithType: NSConfigurationAgent.GetCSWwwFolder()
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetCSWwwFolder()
+  type: Method
+  summary: "\nGets the www folder for Service\n"
+  remarks: 
+  syntax: 
+    content: String GetCSWwwFolder()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The www folder for Service."
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nString res = agent.GetCSWwwFolder();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetCustomerUrl()
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetCustomerUrl()
+  id: 'GetCustomerUrl()'
+  so.intellisense: NSConfigurationAgent.GetCustomerUrl
+  langs:
+  - crmscript
+  name: 'GetCustomerUrl()'
+  nameWithType: NSConfigurationAgent.GetCustomerUrl()
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetCustomerUrl()
+  type: Method
+  summary: "\nGets the URL for the external access to the customer center\n"
+  remarks: 
+  syntax: 
+    content: String GetCustomerUrl()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The URL to the customer center, without any actions."
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nString res = agent.GetCustomerUrl();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetDiaryViewEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetDiaryViewEntity(Integer)
+  id: 'GetDiaryViewEntity(Integer)'
+  so.intellisense: NSConfigurationAgent.GetDiaryViewEntity
+  langs:
+  - crmscript
+  name: 'GetDiaryViewEntity(Integer)'
+  nameWithType: NSConfigurationAgent.GetDiaryViewEntity(Integer)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetDiaryViewEntity(Integer)
+  type: Method
+  summary: "\nGets an NSDiaryViewEntity object.\n"
+  remarks: 
+  syntax: 
+    content: NSDiaryViewEntity GetDiaryViewEntity(Integer diaryViewEntityId)
+    parameters:
+    - id: diaryViewEntityId
+      type: CRMScript.Global.Integer
+      description: "The identifier of the DiaryViewEntity object."
+    return:
+      type: CRMScript.NetServer.NSDiaryViewEntity
+      description:
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nNSDiaryViewEntity thing = agent.GetDiaryViewEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetEmailNumberOfDays()
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetEmailNumberOfDays()
+  id: 'GetEmailNumberOfDays()'
+  so.intellisense: NSConfigurationAgent.GetEmailNumberOfDays
+  langs:
+  - crmscript
+  name: 'GetEmailNumberOfDays()'
+  nameWithType: NSConfigurationAgent.GetEmailNumberOfDays()
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetEmailNumberOfDays()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetEmailNumberOfDays()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of days in the past for which we are fetching email."
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nInteger res = agent.GetEmailNumberOfDays();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetEMarketingUrl(String)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetEMarketingUrl(String)
+  id: 'GetEMarketingUrl(String)'
+  so.intellisense: NSConfigurationAgent.GetEMarketingUrl
+  langs:
+  - crmscript
+  name: 'GetEMarketingUrl(String)'
+  nameWithType: NSConfigurationAgent.GetEMarketingUrl(String)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetEMarketingUrl(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetEMarketingUrl(String language)
+    parameters:
+    - id: language
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description: "URl."
+  example: 
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetFilterList(String,String)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetFilterList(String,String)
+  id: 'GetFilterList(String,String)'
+  so.intellisense: NSConfigurationAgent.GetFilterList
+  langs:
+  - crmscript
+  name: 'GetFilterList(String,String)'
+  nameWithType: NSConfigurationAgent.GetFilterList(String,String)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetFilterList(String,String)
+  type: Method
+  summary: "\nGets the list of filters to be used for processing the configuration data for this application.\n"
+  remarks: 
+  syntax: 
+    content: String GetFilterList(String application, String instance)
+    parameters:
+    - id: application
+      type: CRMScript.Global.String
+      description: "The application name, for instance 'SixWeb'"
+    - id: instance
+      type: CRMScript.Global.String
+      description: "The instance name for the application, like 'MainInstance'."
+    return:
+      type: CRMScript.Global.String
+      description: "XML representing the list of filters and any configuration data they may need."
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nString application;\nString instance;\nString res = agent.GetFilterList(application, instance);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetHelpDispatcherUrl()
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetHelpDispatcherUrl()
+  id: 'GetHelpDispatcherUrl()'
+  so.intellisense: NSConfigurationAgent.GetHelpDispatcherUrl
+  langs:
+  - crmscript
+  name: 'GetHelpDispatcherUrl()'
+  nameWithType: NSConfigurationAgent.GetHelpDispatcherUrl()
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetHelpDispatcherUrl()
+  type: Method
+  summary: "\nGets the GetHelpDispatcherUrl used by the help system.\n"
+  remarks: 
+  syntax: 
+    content: String GetHelpDispatcherUrl()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "URL to be used by the help system."
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nString res = agent.GetHelpDispatcherUrl();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetMyWindowPosSizes()
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetMyWindowPosSizes()
+  id: 'GetMyWindowPosSizes()'
+  so.intellisense: NSConfigurationAgent.GetMyWindowPosSizes
+  langs:
+  - crmscript
+  name: 'GetMyWindowPosSizes()'
+  nameWithType: NSConfigurationAgent.GetMyWindowPosSizes()
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetMyWindowPosSizes()
+  type: Method
+  summary: "\nGets the window and dialog position and size settings belonging to the currently logged-on user.\n"
+  remarks: 
+  syntax: 
+    content: NSWindowPosSize[] GetMyWindowPosSizes()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSWindowPosSize[]
+      description: "Array of window and dialog position and size settings."
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nNSWindowPosSize[] res = agent.GetMyWindowPosSizes();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetObjectMapping(String,String)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetObjectMapping(String,String)
+  id: 'GetObjectMapping(String,String)'
+  so.intellisense: NSConfigurationAgent.GetObjectMapping
+  langs:
+  - crmscript
+  name: 'GetObjectMapping(String,String)'
+  nameWithType: NSConfigurationAgent.GetObjectMapping(String,String)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetObjectMapping(String,String)
+  type: Method
+  summary: "\nGets the object mappings (what code objects should be instantiated to handle the entities of the client configuration?)\n"
+  remarks: 
+  syntax: 
+    content: String GetObjectMapping(String application, String instance)
+    parameters:
+    - id: application
+      type: CRMScript.Global.String
+      description: "The application name, for instance 'SixWeb'"
+    - id: instance
+      type: CRMScript.Global.String
+      description: "The instance name for the application, like 'MainInstance'."
+    return:
+      type: CRMScript.Global.String
+      description: "XML containing the object mappings, including assembly and class names."
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nString application;\nString instance;\nString res = agent.GetObjectMapping(application, instance);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetPageConfiguration(String,String,String)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetPageConfiguration(String,String,String)
+  id: 'GetPageConfiguration(String,String,String)'
+  so.intellisense: NSConfigurationAgent.GetPageConfiguration
+  langs:
+  - crmscript
+  name: 'GetPageConfiguration(String,String,String)'
+  nameWithType: NSConfigurationAgent.GetPageConfiguration(String,String,String)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetPageConfiguration(String,String,String)
+  type: Method
+  summary: "\nGets the configuration for one whole web page, including all its panels etc.\n"
+  remarks: "\nTotally asynchronous items like menus are not included, but all references are resolved and all special processing is applied.\n"
+  syntax: 
+    content: String GetPageConfiguration(String application, String instance, String page)
+    parameters:
+    - id: application
+      type: CRMScript.Global.String
+      description: "The application name, for instance SixWeb"
+    - id: instance
+      type: CRMScript.Global.String
+      description: "The instance name for the application, like 'MainInstance'"
+    - id: page
+      type: CRMScript.Global.String
+      description: "Page name, must correspond to one of the pages in the Application Configuration."
+    return:
+      type: CRMScript.Global.String
+      description: "XML containing the configuration for the given page, from the page down to the control level."
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nString application;\nString instance;\nString page;\nString res = agent.GetPageConfiguration(application, instance, page);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetRefreshedPageConfiguration(String,String,String)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetRefreshedPageConfiguration(String,String,String)
+  id: 'GetRefreshedPageConfiguration(String,String,String)'
+  so.intellisense: NSConfigurationAgent.GetRefreshedPageConfiguration
+  langs:
+  - crmscript
+  name: 'GetRefreshedPageConfiguration(String,String,String)'
+  nameWithType: NSConfigurationAgent.GetRefreshedPageConfiguration(String,String,String)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetRefreshedPageConfiguration(String,String,String)
+  type: Method
+  summary: "\nGets the configuration for one whole web page, including all its panels etc.\n"
+  remarks: "\nTotally asynchronous items like menus are not included, but all references are resolved and all special processing is applied. Does not use cache for fetching, but updates the cache with refreshed configuration.\n"
+  syntax: 
+    content: String GetRefreshedPageConfiguration(String application, String instance, String page)
+    parameters:
+    - id: application
+      type: CRMScript.Global.String
+      description: "The application name, for instance SixWeb"
+    - id: instance
+      type: CRMScript.Global.String
+      description: "The instance name for the application, like 'MainInstance'"
+    - id: page
+      type: CRMScript.Global.String
+      description: "Page name, must correspond to one of the pages in the Application Configuration."
+    return:
+      type: CRMScript.Global.String
+      description: "XML containing the configuration for the given page, from the page down to the control level."
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nString application;\nString instance;\nString page;\nString res = agent.GetRefreshedPageConfiguration(application, instance, page);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetSystemEventEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetSystemEventEntity(Integer)
+  id: 'GetSystemEventEntity(Integer)'
+  so.intellisense: NSConfigurationAgent.GetSystemEventEntity
+  langs:
+  - crmscript
+  name: 'GetSystemEventEntity(Integer)'
+  nameWithType: NSConfigurationAgent.GetSystemEventEntity(Integer)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetSystemEventEntity(Integer)
+  type: Method
+  summary: "\nGets an NSSystemEventEntity object.\n"
+  remarks: 
+  syntax: 
+    content: NSSystemEventEntity GetSystemEventEntity(Integer systemEventEntityId)
+    parameters:
+    - id: systemEventEntityId
+      type: CRMScript.Global.Integer
+      description: "The identifier of the SystemEventEntity object."
+    return:
+      type: CRMScript.NetServer.NSSystemEventEntity
+      description:
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nNSSystemEventEntity thing = agent.GetSystemEventEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetWindowPosSize(Integer)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetWindowPosSize(Integer)
+  id: 'GetWindowPosSize(Integer)'
+  so.intellisense: NSConfigurationAgent.GetWindowPosSize
+  langs:
+  - crmscript
+  name: 'GetWindowPosSize(Integer)'
+  nameWithType: NSConfigurationAgent.GetWindowPosSize(Integer)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetWindowPosSize(Integer)
+  type: Method
+  summary: "\nGets an NSWindowPosSize object.\n"
+  remarks: 
+  syntax: 
+    content: NSWindowPosSize GetWindowPosSize(Integer windowPosSizeId)
+    parameters:
+    - id: windowPosSizeId
+      type: CRMScript.Global.Integer
+      description: "The identifier of the WindowPosSize object."
+    return:
+      type: CRMScript.NetServer.NSWindowPosSize
+      description: 
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nNSWindowPosSize thing = agent.GetWindowPosSize(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetWindowPosSizeList(Integer[])
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetWindowPosSizeList(Integer[])
+  id: 'GetWindowPosSizeList(Integer[])'
+  so.intellisense: NSConfigurationAgent.GetWindowPosSizeList
+  langs:
+  - crmscript
+  name: 'GetWindowPosSizeList(Integer[])'
+  nameWithType: NSConfigurationAgent.GetWindowPosSizeList(Integer[])
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetWindowPosSizeList(Integer[])
+  type: Method
+  summary: "\nRetrieves a list of NSWindowPosSize objects.\n"
+  remarks: 
+  syntax: 
+    content: NSWindowPosSize[] GetWindowPosSizeList(Integer[])
+    parameters: 
+    - id: windowPosSizeIds
+      type: CRMScript.Global.Integer[]
+      description: "The IDs of the NSWindowPosSize objects to get."
+    return:
+      type: CRMScript.NetServer.NSWindowPosSize[]
+      description: "Array of window and dialog position and size settings."
+  example: 
+  - "\n<pre><code>Integer[] ids;\nNSConfigurationAgent agent;\nagent.GetWindowPosSizeList(ids);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetWindowPosSizesOnAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetWindowPosSizesOnAssociateId(Integer)
+  id: 'GetWindowPosSizesOnAssociateId(Integer)'
+  so.intellisense: NSConfigurationAgent.GetWindowPosSizesOnAssociateId
+  langs:
+  - crmscript
+  name: 'GetWindowPosSizesOnAssociateId(Integer)'
+  nameWithType: NSConfigurationAgent.GetWindowPosSizesOnAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetWindowPosSizesOnAssociateId(Integer)
+  type: Method
+  summary: "\nGets the window and dialog position and size settings belonging to the specified associate\n"
+  remarks: 
+  syntax: 
+    content: NSWindowPosSize[] GetWindowPosSizesOnAssociateId(Integer associateId)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: "Associate ID of the Associate/Person owning these window settings."
+    return:
+      type: CRMScript.NetServer.NSWindowPosSize[]
+      description: "Array of window and dialog position and size settings."
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nInteger associateId;\nNSWindowPosSize[] res = agent.GetWindowPosSizesOnAssociateId(associateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetWindowPosSizesOnPersonId(Integer)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetWindowPosSizesOnPersonId(Integer)
+  id: 'GetWindowPosSizesOnPersonId(Integer)'
+  so.intellisense: NSConfigurationAgent.GetWindowPosSizesOnPersonId
+  langs:
+  - crmscript
+  name: 'GetWindowPosSizesOnPersonId(Integer)'
+  nameWithType: NSConfigurationAgent.GetWindowPosSizesOnPersonId(Integer)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetWindowPosSizesOnPersonId(Integer)
+  type: Method
+  summary: "\nGets the window and dialog position and size settings belonging to the specified person\n"
+  remarks: 
+  syntax: 
+    content: NSWindowPosSize[] GetWindowPosSizesOnPersonId(Integer personId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: "Person ID of the associate owning these window settings."
+    return:
+      type: CRMScript.NetServer.NSWindowPosSize[]
+      description: "Array of window and dialog position and size settings."
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nInteger personId;\nNSWindowPosSize[] res = agent.GetWindowPosSizesOnPersonId(personId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetWwwUrl(String)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetWwwUrl(String)
+  id: 'GetWwwUrl(String)'
+  so.intellisense: NSConfigurationAgent.GetWwwUrl
+  langs:
+  - crmscript
+  name: 'GetWwwUrl(String)'
+  nameWithType: NSConfigurationAgent.GetWwwUrl(String)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetWwwUrl(String)
+  type: Method
+  summary: "\nGets the default URL used for the logo, from the [NetServices] PageUrl preferencec, with tags substituted.\n"
+  remarks: 
+  syntax: 
+    content: String GetWwwUrl(String client)
+    parameters:
+    - id: client
+      type: CRMScript.Global.String
+      description: "The name for the client application, like 'CS' or 'SM.web', used for the clie variable."
+    return:
+      type: CRMScript.Global.String
+      description: "URL to be used when clicking the logo."
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nString client;\nString res = agent.GetWwwUrl(client);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.GetWwwUrlForSMWeb()
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.GetWwwUrlForSMWeb()
+  id: 'GetWwwUrlForSMWeb()'
+  so.intellisense: NSConfigurationAgent.GetWwwUrlForSMWeb
+  langs:
+  - crmscript
+  name: 'GetWwwUrlForSMWeb()'
+  nameWithType: NSConfigurationAgent.GetWwwUrlForSMWeb()
+  fullName: CRMScript.NetServer.NSConfigurationAgent.GetWwwUrlForSMWeb()
+  type: Method
+  summary: "\nReturns the URL used for the logo by the SM.web client. Uses urldispatch.aspx."
+  remarks: 
+  syntax: 
+    content: String GetWwwUrlForSMWeb()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: Link to urldispatch.aspx tagged with [SOSITEURL]
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nString res = agent.GetWwwUrlForSMWeb();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.SaveDiaryViewEntity(NSDiaryViewEntity)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.SaveDiaryViewEntity(NSDiaryViewEntity)
+  id: 'SaveDiaryViewEntity(NSDiaryViewEntity)'
+  so.intellisense: NSConfigurationAgent.SaveDiaryViewEntity
+  langs:
+  - crmscript
+  name: 'SaveDiaryViewEntity(NSDiaryViewEntity)'
+  nameWithType: NSConfigurationAgent.SaveDiaryViewEntity(NSDiaryViewEntity)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.SaveDiaryViewEntity(NSDiaryViewEntity)
+  type: Method
+  summary: "\nUpdates the existing NSDiaryViewEntity or creates a new NSDiaryViewEntity if the ID parameter is 0.\n"
+  remarks: 
+  syntax: 
+    content: NSDiaryViewEntity SaveDiaryViewEntity(NSDiaryViewEntity diaryViewEntity)
+    parameters:
+    - id: diaryViewEntity
+      type: CRMScript.NetServer.NSDiaryViewEntity
+      description: "The DiaryViewEntity to save."
+    return:
+      type: CRMScript.NetServer.NSDiaryViewEntity
+      description: "New or updated DiaryViewEntity."
+  example: 
+  - "\n<pre><code>NSConfiguration agent;\nNSDiaryViewEntity thing = agent.CreateDefaultDiaryViewEntity();\nthing = agent.SaveDiaryViewEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.SaveSystemEventEntity(NSSystemEventEntity)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.SaveSystemEventEntity(NSSystemEventEntity)
+  id: 'SaveSystemEventEntity(NSSystemEventEntity)'
+  so.intellisense: NSConfigurationAgent.SaveSystemEventEntity
+  langs:
+  - crmscript
+  name: 'SaveSystemEventEntity(NSSystemEventEntity)'
+  nameWithType: NSConfigurationAgent.SaveSystemEventEntity(NSSystemEventEntity)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.SaveSystemEventEntity(NSSystemEventEntity)
+  type: Method
+  summary: "\nUpdates the existing NSSystemEventEntity or creates a new NSSystemEventEntity if the id parameter is 0\n"
+  remarks: 
+  syntax: 
+    content: NSSystemEventEntity SaveSystemEventEntity(NSSystemEventEntity systemEventEntity)
+    parameters:
+    - id: systemEventEntity
+      type: CRMScript.NetServer.NSSystemEventEntity
+      description: "Entity to save."
+    return:
+      type: CRMScript.NetServer.NSSystemEventEntity
+      description: "New or updated SystemEventEntity."
+  example: 
+  - "\n<pre><code>NSConfiguration  agent;\nNSSystemEventEntity thing = agent.CreateDefaultSystemEventEntity();\nthing = agent.SaveSystemEventEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.SaveWindowPosSize(NSWindowPosSize)
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.SaveWindowPosSize(NSWindowPosSize)
+  id: 'SaveWindowPosSize(NSWindowPosSize)'
+  so.intellisense: NSConfigurationAgent.SaveWindowPosSize
+  langs:
+  - crmscript
+  name: 'SaveWindowPosSize(NSWindowPosSize)'
+  nameWithType: NSConfigurationAgent.SaveWindowPosSize(NSWindowPosSize)
+  fullName: CRMScript.NetServer.NSConfigurationAgent.SaveWindowPosSize(NSWindowPosSize)
+  type: Method
+  summary: "\nSaves a window and dialog position and size setting.\n"
+  remarks: 
+  syntax: 
+    content: NSWindowPosSize SaveWindowPosSize(NSWindowPosSize windowPosSize)
+    parameters:
+    - id: windowPosSize
+      type: CRMScript.NetServer.NSWindowPosSize
+      description: "The item that is saved."
+    return:
+      type: CRMScript.NetServer.NSWindowPosSize
+      description: "The saved item."
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nNSWindowPosSize windowPosSize;\nNSWindowPosSize res = agent.SaveWindowPosSize(windowPosSize);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConfigurationAgent.SaveWindowPosSizes(NSWindowPosSize[])
+  commentId: M:CRMScript.NetServer.NSConfigurationAgent.SaveWindowPosSizes(NSWindowPosSize[])
+  id: 'SaveWindowPosSizes(NSWindowPosSize[])'
+  so.intellisense: NSConfigurationAgent.SaveWindowPosSizes
+  langs:
+  - crmscript
+  name: 'SaveWindowPosSizes(NSWindowPosSize[])'
+  nameWithType: NSConfigurationAgent.SaveWindowPosSizes(NSWindowPosSize[])
+  fullName: CRMScript.NetServer.NSConfigurationAgent.SaveWindowPosSizes(NSWindowPosSize[])
+  type: Method
+  summary: "\nSaves a set of window and dialog position and size settings.\n"
+  remarks: 
+  syntax: 
+    content: NSWindowPosSize[] SaveWindowPosSizes(NSWindowPosSize[] windowPosSizes)
+    parameters:
+    - id: windowPosSizes
+      type: CRMScript.NetServer.NSWindowPosSize[]
+      description: "Items to save."
+    return:
+      type: CRMScript.NetServer.NSWindowPosSize[]
+      description: "The saved items."
+  example: 
+  - "\n<pre><code>NSConfigurationAgent agent;\nNSWindowPosSize[] windowPosSizes;\nNSWindowPosSize[] res = agent.SaveWindowPosSizes(windowPosSizes);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSConfigurationAgent
+  commentId: T:CRMScript.NetServer.NSConfigurationAgent
+  isExternal: true
+  name: NSConfigurationAgent
+  nameWithType: NSConfigurationAgent
+  fullName: CRMScript.NetServer.NSConfigurationAgent
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSDiaryViewEntity
+  commentId: T:CRMScript.NetServer.NSDiaryViewEntity
+  isExternal: true
+  name: NSDiaryViewEntity
+  nameWithType: NSDiaryViewEntity
+  fullName: CRMScript.NetServer.NSDiaryViewEntity
+- uid: CRMScript.NetServer.NSSystemEventEntity
+  commentId: T:CRMScript.NetServer.NSSystemEventEntity
+  isExternal: true
+  name: NSSystemEventEntity
+  nameWithType: NSSystemEventEntity
+  fullName: CRMScript.NetServer.NSSystemEventEntity
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSWindowPosSize[]
+  isExternal: true
+  name: NSWindowPosSize[]
+  nameWithType: NSWindowPosSize[]
+  fullName: CRMScript.NetServer.NSWindowPosSize[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSWindowPosSize
+    isExternal: true
+    name: NSWindowPosSize
+    nameWithType: NSWindowPosSize
+    fullName: CRMScript.NetServer.NSWindowPosSize
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSWindowPosSize
+  commentId: T:CRMScript.NetServer.NSWindowPosSize
+  isExternal: true
+  name: NSWindowPosSize
+  nameWithType: NSWindowPosSize
+  fullName: CRMScript.NetServer.NSWindowPosSize
+- uid: CRMScript.NetServer.NSWindowPosSize
+  commentId: T:CRMScript.NetServer.NSWindowPosSize
+  isExternal: true
+  name: NSWindowPosSize
+  nameWithType: NSWindowPosSize
+  fullName: CRMScript.NetServer.NSWindowPosSize
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    isExternal: true
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

@@ -1,0 +1,218 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  id: Integer
+  langs:
+  - crmscript
+  children:
+    - CRMScript.Global.Integer.#ctor
+    - CRMScript.Global.Integer.#ctor(Integer)
+    - CRMScript.Global.Integer.#ctor(String)
+    - CRMScript.Global.Integer.toString()
+    - CRMScript.Global.Integer.toBool()
+    - CRMScript.Global.Integer.toHex()
+    - CRMScript.Global.Integer.toHex(Integer)
+    - CRMScript.Global.Integer.abs()
+    - CRMScript.Global.Integer.isNull()
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+  type: Class
+  summary: "\nIntegers are positive and negative whole numbers without decimals. If you need to work with decimals, use the Float data type.\n"
+- uid: CRMScript.Global.Integer.#ctor
+  commentId: M:CRMScript.Global.Integer.#ctor
+  id: '#ctor'
+  so.intellisense: Void.Integer
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Integer
+  name: Integer()
+  nameWithType: Integer.Integer()
+  fullName: CRMScript.Global.Integer.Integer()
+  type: Constructor
+  summary: "\nDefault constructor.\n"
+  syntax:
+    content: Integer Integer()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+- uid: CRMScript.Global.Integer.#ctor(Integer)
+  commentId: M:CRMScript.Global.Integer.#ctor(Integer)
+  id: '#ctor(Integer)'
+  so.intellisense: Void.Integer
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Integer
+  name: Integer(Integer)
+  nameWithType: Integer.Integer(Integer)
+  fullName: CRMScript.Global.Integer.Integer(Integer)
+  type: Constructor
+  summary: "\nPass a value to copy into a new object.\n"
+  syntax:
+    content: Integer Integer(Integer value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.Integer
+      description: "Integer object."
+    return:
+      type: CRMScript.Global.Integer
+- uid: CRMScript.Global.Integer.#ctor(String)
+  commentId: M:CRMScript.Global.Integer.#ctor(String)
+  id: '#ctor(String)'
+  so.intellisense: Void.Integer
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Integer
+  name: Integer(String)
+  nameWithType: Integer.Integer(String)
+  fullName: CRMScript.Global.Integer.Integer(String)
+  type: Constructor
+  summary: "\nPass a String containing a number. The constructor will parse the text and create an Integer object.\n"
+  example:
+  - "\n<pre><code>Integer favOfSheldon = Integer(&quot;73&quot;);</code></pre>\n"
+  syntax:
+    content: Integer Integer(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: "A String containing a number. For example &quot;13&quot;."
+    return:
+      type: CRMScript.Global.Integer
+- uid: CRMScript.Global.Integer.toString()
+  commentId: M:CRMScript.Global.Integer.toString()
+  id: toString()
+  so.intellisense: Integer.toString
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Integer
+  name: toString()
+  nameWithType: Integer.toString()
+  fullName: CRMScript.Global.Integer.toString()
+  type: Method
+  summary: "\nConverts a numeric value to its string representation.<p></p>\nOne of the most frequently used methods, typically when you are going to output something.\n"
+  example:
+  - "\n<pre><code>Integer c = 100;\nString s = c.toString();</code></pre>\n"
+  syntax:
+    content: String toString()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+- uid: CRMScript.Global.Integer.toBool()
+  commentId: M:CRMScript.Global.Integer.toBool()
+  id: toBool()
+  so.intellisense: Integer.toBool
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Integer
+  name: toBool()
+  nameWithType: Integer.toBool()
+  fullName: CRMScript.Global.Integer.toBool()
+  type: Method
+  summary: "\nConverts a numeric value to its boolean representation. Returns false if the integer is zero, otherwise true.\n"
+  example:
+  - "\n<pre><code>Integer i = 3;\nprintLine(i.toBool().toString());</code></pre>\n"
+  syntax: 
+    content: Bool toBool()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer.abs()
+  commentId: M:CRMScript.Global.Integer.abs()
+  id: abs()
+  so.intellisense: Integer.abs
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Integer
+  name: abs()
+  nameWithType: Integer.abs()
+  fullName: CRMScript.Global.Integer.abs()
+  type: Method
+  summary: "\nConverts a numeric value to its absolute value (the non-negative value of the number without regarding the sign).<p></p>\nOne of the most frequently used methods, typically when you are going to output something.\n"
+  example:
+  - "\n<pre><code>Integer i = -7;\nprint(i.abs().toString());</code></pre>\n"
+  syntax:
+    content: Integer abs()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+- uid: CRMScript.Global.Integer.toHex()
+  commentId: M:CRMScript.Global.Integer.toHex()
+  id: toHex()
+  so.intellisense: Integer.toHex
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Integer
+  name: toHex()
+  nameWithType: Integer.toHex()
+  fullName: CRMScript.Global.Integer.toHex()
+  type: Method
+  summary: "\nConverts an Integer to a hexadecimal string.\n"
+  remarks: "\nBy default, it converts the value of the current object. You can optionally pass a specific value to convert. (See below)\n"
+  example:
+  - "\n<pre><code>printLine(&quot;Int \\t Hex&quot;);\nfor (Integer i = 0; i &lt; 16; i++) {\n\tprintLine(i.toString() +&quot;\\t &quot; + i.toHex());\n}</code></pre>\n"
+  syntax:
+    content: String toHex()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+- uid: CRMScript.Global.Integer.toHex(Integer)
+  commentId: M:CRMScript.Global.Integer.toHex(Integer)
+  id: toHex(Integer)
+  so.intellisense: Integer.toHex
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Integer
+  name: toHex(Integer)
+  nameWithType: Integer.toHex(Integer)
+  fullName: CRMScript.Global.Integer.toHex(Integer)
+  type: Method
+  summary: "\nConverts an Integer to a hexadecimal string.<p></p>\nSame as above except you write toHex(i) rather than i.toHex().\n"
+  syntax:
+    content: String toHex(Integer)
+    parameters:
+    - id: value
+      type: CRMScript.Global.Integer
+      description: "Integer object. The value to convert to hex."
+    return:
+      type: CRMScript.Global.String
+- uid: CRMScript.Global.Integer.isNull()
+  commentId: M:CRMScript.Global.Integer.isNull()
+  id: isNull()
+  so.intellisense: Integer.isNull
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Integer
+  name: isNull()
+  nameWithType: Integer.isNull()
+  fullName: CRMScript.Global.Integer.isNull()
+  type: Method
+  summary: "\nReturns true if it has no value and false if it does.\n"
+  remarks: "\nA NULL/NUL/NIL Integer is different from zero, in that it is conceptually without a value. However, when a null Integer is used naively, CRMScript is usually forgiving and interprets it as zero.\n"
+  example:
+  - "\n<pre><code>Integer i;\nprintLine(i.isNull().toString());\ni = 0;\nprintLine(i.isNull().toString());</code></pre>\nThe 1st output will be true because we haven't initialized ì yet.\nThe next output will be false because i now has the value 0.\n"
+  syntax:
+    content: Bool isNull()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+references:
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool

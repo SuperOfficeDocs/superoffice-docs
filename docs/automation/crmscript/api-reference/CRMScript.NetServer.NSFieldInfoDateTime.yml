@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSFieldInfoDateTime
+  commentId: T:CRMScript.NetServer.NSFieldInfoDateTime
+  id: NSFieldInfoDateTime
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSFieldInfoDateTime.#ctor
+  - CRMScript.NetServer.NSFieldInfoDateTime.GetDefaultValue()
+  - CRMScript.NetServer.NSFieldInfoDateTime.GetIsDefaultNow()
+  - CRMScript.NetServer.NSFieldInfoDateTime.SetDefaultValue(DateTime)
+  - CRMScript.NetServer.NSFieldInfoDateTime.SetIsDefaultNow(Bool)
+  name: NSFieldInfoDateTime
+  nameWithType: NSFieldInfoDateTime
+  fullName: CRMScript.NetServer.NSFieldInfoDateTime
+  type: Class
+  summary: "\nDate + time custom database field.\n"
+  example: 
+- uid: CRMScript.NetServer.NSFieldInfoDateTime.#ctor
+  commentId: M:CRMScript.NetServer.NSFieldInfoDateTime.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSFieldInfoDateTime
+  langs:
+  - crmscript
+  name: NSFieldInfoDateTime()
+  nameWithType: NSFieldInfoDateTime.#ctor
+  fullName: CRMScript.NetServer.NSFieldInfoDateTime.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSFieldInfoDateTime class.\n"
+  remarks: 
+  syntax: 
+    content: NSFieldInfoDateTime
+  example: 
+- uid: CRMScript.NetServer.NSFieldInfoDateTime.GetDefaultValue()
+  commentId: M:CRMScript.NetServer.NSFieldInfoDateTime.GetDefaultValue()
+  id: 'GetDefaultValue()'
+  so.intellisense: NSFieldInfoDateTime.GetDefaultValue
+  langs:
+  - crmscript
+  name: 'GetDefaultValue()'
+  nameWithType: NSFieldInfoDateTime.GetDefaultValue()
+  fullName: CRMScript.NetServer.NSFieldInfoDateTime.GetDefaultValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetDefaultValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Default Date + time value."
+  example: 
+  - "\n<pre><code>NSFieldInfoDateTime thing;\nDateTime defaultValue = thing.GetDefaultValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldInfoDateTime.GetIsDefaultNow()
+  commentId: M:CRMScript.NetServer.NSFieldInfoDateTime.GetIsDefaultNow()
+  id: 'GetIsDefaultNow()'
+  so.intellisense: NSFieldInfoDateTime.GetIsDefaultNow
+  langs:
+  - crmscript
+  name: 'GetIsDefaultNow()'
+  nameWithType: NSFieldInfoDateTime.GetIsDefaultNow()
+  fullName: CRMScript.NetServer.NSFieldInfoDateTime.GetIsDefaultNow()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsDefaultNow()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: Should the current date + time be the default?
+  example: 
+  - "\n<pre><code>NSFieldInfoDateTime thing;\nBool isDefaultNow = thing.GetIsDefaultNow();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldInfoDateTime.SetDefaultValue(DateTime)
+  commentId: M:CRMScript.NetServer.NSFieldInfoDateTime.SetDefaultValue(DateTime)
+  id: 'SetDefaultValue(DateTime)'
+  so.intellisense: NSFieldInfoDateTime.SetDefaultValue
+  langs:
+  - crmscript
+  name: 'SetDefaultValue(DateTime)'
+  nameWithType: NSFieldInfoDateTime.SetDefaultValue(DateTime)
+  fullName: CRMScript.NetServer.NSFieldInfoDateTime.SetDefaultValue(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDefaultValue(DateTime defaultValue)
+    parameters:
+    - id: defaultValue
+      type: CRMScript.Global.DateTime
+      description: "Default Date + time value."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldInfoDateTime thing;\nDateTime defaultValue;\nthing.SetDefaultValue(defaultValue);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldInfoDateTime.SetIsDefaultNow(Bool)
+  commentId: M:CRMScript.NetServer.NSFieldInfoDateTime.SetIsDefaultNow(Bool)
+  id: 'SetIsDefaultNow(Bool)'
+  so.intellisense: NSFieldInfoDateTime.SetIsDefaultNow
+  langs:
+  - crmscript
+  name: 'SetIsDefaultNow(Bool)'
+  nameWithType: NSFieldInfoDateTime.SetIsDefaultNow(Bool)
+  fullName: CRMScript.NetServer.NSFieldInfoDateTime.SetIsDefaultNow(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsDefaultNow(Bool isDefaultNow)
+    parameters:
+    - id: isDefaultNow
+      type: CRMScript.Global.Bool
+      description: Should the current date + time be the default?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldInfoDateTime thing;\nBool isDefaultNow;\nthing.SetIsDefaultNow(isDefaultNow);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSFieldInfoDateTime
+  commentId: T:CRMScript.NetServer.NSFieldInfoDateTime
+  isExternal: true
+  name: NSFieldInfoDateTime
+  nameWithType: NSFieldInfoDateTime
+  fullName: CRMScript.NetServer.NSFieldInfoDateTime
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

@@ -1,0 +1,1647 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSDocumentEntity
+  commentId: T:CRMScript.NetServer.NSDocumentEntity
+  id: NSDocumentEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSDocumentEntity.#ctor
+  - CRMScript.NetServer.NSDocumentEntity.GetActiveLinks()
+  - CRMScript.NetServer.NSDocumentEntity.GetAssociate()
+  - CRMScript.NetServer.NSDocumentEntity.GetAttention()
+  - CRMScript.NetServer.NSDocumentEntity.GetCompleted()
+  - CRMScript.NetServer.NSDocumentEntity.GetContact()
+  - CRMScript.NetServer.NSDocumentEntity.GetCreatedBy()
+  - CRMScript.NetServer.NSDocumentEntity.GetCreatedDate()
+  - CRMScript.NetServer.NSDocumentEntity.GetCustomFields()
+  - CRMScript.NetServer.NSDocumentEntity.GetDate()
+  - CRMScript.NetServer.NSDocumentEntity.GetDescription()
+  - CRMScript.NetServer.NSDocumentEntity.GetDocumentId()
+  - CRMScript.NetServer.NSDocumentEntity.GetDocumentTemplate()
+  - CRMScript.NetServer.NSDocumentEntity.GetExternalRef()
+  - CRMScript.NetServer.NSDocumentEntity.GetExtraFields()
+  - CRMScript.NetServer.NSDocumentEntity.GetHeader()
+  - CRMScript.NetServer.NSDocumentEntity.GetIsPublished()
+  - CRMScript.NetServer.NSDocumentEntity.GetLinks()
+  - CRMScript.NetServer.NSDocumentEntity.GetLockSemantics()
+  - CRMScript.NetServer.NSDocumentEntity.GetName()
+  - CRMScript.NetServer.NSDocumentEntity.GetOurRef()
+  - CRMScript.NetServer.NSDocumentEntity.GetPerson()
+  - CRMScript.NetServer.NSDocumentEntity.GetProject()
+  - CRMScript.NetServer.NSDocumentEntity.GetPublishEventDate()
+  - CRMScript.NetServer.NSDocumentEntity.GetPublishFrom()
+  - CRMScript.NetServer.NSDocumentEntity.GetPublishTo()
+  - CRMScript.NetServer.NSDocumentEntity.GetSale()
+  - CRMScript.NetServer.NSDocumentEntity.GetSnum()
+  - CRMScript.NetServer.NSDocumentEntity.GetSuggestedDocumentId()
+  - CRMScript.NetServer.NSDocumentEntity.GetType()
+  - CRMScript.NetServer.NSDocumentEntity.GetUpdatedBy()
+  - CRMScript.NetServer.NSDocumentEntity.GetUpdatedDate()
+  - CRMScript.NetServer.NSDocumentEntity.GetUserDefinedFields()
+  - CRMScript.NetServer.NSDocumentEntity.GetVisibleFor()
+  - CRMScript.NetServer.NSDocumentEntity.GetYourRef()
+  - CRMScript.NetServer.NSDocumentEntity.SetActiveLinks(Integer)
+  - CRMScript.NetServer.NSDocumentEntity.SetAssociate(NSAssociate)
+  - CRMScript.NetServer.NSDocumentEntity.SetAttention(String)
+  - CRMScript.NetServer.NSDocumentEntity.SetCompleted(Integer)
+  - CRMScript.NetServer.NSDocumentEntity.SetContact(NSContact)
+  - CRMScript.NetServer.NSDocumentEntity.SetCreatedBy(NSAssociate)
+  - CRMScript.NetServer.NSDocumentEntity.SetCreatedDate(DateTime)
+  - CRMScript.NetServer.NSDocumentEntity.SetCustomFields(Map)
+  - CRMScript.NetServer.NSDocumentEntity.SetDate(DateTime)
+  - CRMScript.NetServer.NSDocumentEntity.SetDescription(String)
+  - CRMScript.NetServer.NSDocumentEntity.SetDocumentId(Integer)
+  - CRMScript.NetServer.NSDocumentEntity.SetDocumentTemplate(NSDocumentTemplate)
+  - CRMScript.NetServer.NSDocumentEntity.SetExternalRef(String)
+  - CRMScript.NetServer.NSDocumentEntity.SetExtraFields(Map)
+  - CRMScript.NetServer.NSDocumentEntity.SetHeader(String)
+  - CRMScript.NetServer.NSDocumentEntity.SetIsPublished(Bool)
+  - CRMScript.NetServer.NSDocumentEntity.SetLinks(NSLink[])
+  - CRMScript.NetServer.NSDocumentEntity.SetLockSemantics(Integer)
+  - CRMScript.NetServer.NSDocumentEntity.SetName(String)
+  - CRMScript.NetServer.NSDocumentEntity.SetOurRef(String)
+  - CRMScript.NetServer.NSDocumentEntity.SetPerson(NSPerson)
+  - CRMScript.NetServer.NSDocumentEntity.SetProject(NSProject)
+  - CRMScript.NetServer.NSDocumentEntity.SetPublishEventDate(DateTime)
+  - CRMScript.NetServer.NSDocumentEntity.SetPublishFrom(DateTime)
+  - CRMScript.NetServer.NSDocumentEntity.SetPublishTo(DateTime)
+  - CRMScript.NetServer.NSDocumentEntity.SetSale(NSSale)
+  - CRMScript.NetServer.NSDocumentEntity.SetSnum(Integer)
+  - CRMScript.NetServer.NSDocumentEntity.SetSuggestedDocumentId(Integer)
+  - CRMScript.NetServer.NSDocumentEntity.SetType(Integer)
+  - CRMScript.NetServer.NSDocumentEntity.SetUpdatedBy(NSAssociate)
+  - CRMScript.NetServer.NSDocumentEntity.SetUpdatedDate(DateTime)
+  - CRMScript.NetServer.NSDocumentEntity.SSetUserDefinedFields(Map)
+  - CRMScript.NetServer.NSDocumentEntity.SetVisibleFor(NSVisibleFor[])
+  - CRMScript.NetServer.NSDocumentEntity.SetYourRef(String)
+  name: NSDocumentEntity
+  nameWithType: NSDocumentEntity
+  fullName: CRMScript.NetServer.NSDocumentEntity
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSDocumentEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSDocumentEntity
+  langs:
+  - crmscript
+  name: NSDocumentEntity()
+  nameWithType: NSDocumentEntity.#ctor
+  fullName: CRMScript.NetServer.NSDocumentEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSDocumentEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSDocumentEntity
+  example: 
+- uid: CRMScript.NetServer.NSDocumentEntity.GetActiveLinks()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetActiveLinks()
+  id: 'GetActiveLinks()'
+  so.intellisense: NSDocumentEntity.GetActiveLinks
+  langs:
+  - crmscript
+  name: 'GetActiveLinks()'
+  nameWithType: NSDocumentEntity.GetActiveLinks()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetActiveLinks()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetActiveLinks()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of active links to sale, document, appointment."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nInteger activeLinks = thing.GetActiveLinks();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetAssociate()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetAssociate()
+  id: 'GetAssociate()'
+  so.intellisense: NSDocumentEntity.GetAssociate
+  langs:
+  - crmscript
+  name: 'GetAssociate()'
+  nameWithType: NSDocumentEntity.GetAssociate()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetAssociate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetAssociate()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "The owner of the document* the associate whose checklist the document is in."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nNSAssociate associate = thing.GetAssociate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetAttention()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetAttention()
+  id: 'GetAttention()'
+  so.intellisense: NSDocumentEntity.GetAttention
+  langs:
+  - crmscript
+  name: 'GetAttention()'
+  nameWithType: NSDocumentEntity.GetAttention()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetAttention()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetAttention()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Attention/salutation."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nString attention = thing.GetAttention();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetCompleted()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetCompleted()
+  id: 'GetCompleted()'
+  so.intellisense: NSDocumentEntity.GetCompleted
+  langs:
+  - crmscript
+  name: 'GetCompleted()'
+  nameWithType: NSDocumentEntity.GetCompleted()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetCompleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCompleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Document Completed state. This is the part of the Status property."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nInteger completed = thing.GetCompleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetContact()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetContact()
+  id: 'GetContact()'
+  so.intellisense: NSDocumentEntity.GetContact
+  langs:
+  - crmscript
+  name: 'GetContact()'
+  nameWithType: NSDocumentEntity.GetContact()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetContact()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSContact GetContact()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSContact
+      description: "The contact associated with the document. It may also be null if no contact is associated with the document."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nNSContact contact = thing.GetContact();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetCreatedBy()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetCreatedBy()
+  id: 'GetCreatedBy()'
+  so.intellisense: NSDocumentEntity.GetCreatedBy
+  langs:
+  - crmscript
+  name: 'GetCreatedBy()'
+  nameWithType: NSDocumentEntity.GetCreatedBy()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetCreatedBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetCreatedBy()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "The person that first created the document. The property is read-only."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nNSAssociate createdBy = thing.GetCreatedBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetCreatedDate()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetCreatedDate()
+  id: 'GetCreatedDate()'
+  so.intellisense: NSDocumentEntity.GetCreatedDate
+  langs:
+  - crmscript
+  name: 'GetCreatedDate()'
+  nameWithType: NSDocumentEntity.GetCreatedDate()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetCreatedDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetCreatedDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nDateTime createdDate = thing.GetCreatedDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetCustomFields()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetCustomFields()
+  id: 'GetCustomFields()'
+  so.intellisense: NSDocumentEntity.GetCustomFields
+  langs:
+  - crmscript
+  name: 'GetCustomFields()'
+  nameWithType: NSDocumentEntity.GetCustomFields()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetCustomFields()
+  type: Method
+  summary: "\nGets the user-defined + extra fields on an NSDocumentEntity as a map.\n"
+  remarks: 
+  syntax: 
+    content: Map GetCustomFields()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nMap udefs = thing.GetCustomFields();\nlog( udefs[&quot;SuperOffice:1&quot;] ); // &quot;[I:123]&quot;* integer or list item id\nlog( udefs[&quot;SuperOffice:1:DisplayText&quot;] ); // &quot;bla bla&quot;* list item value\nlog( udefs[&quot;custom.progid&quot;] ); // &quot;foobar&quot;* string value\nlog( udefs[&quot;x_bar&quot;] ); // &quot;[I:123]&quot;* list item id\nlog( udefs[&quot;x_bar:DisplayText&quot;] ); // &quot;foobar&quot;* list item name value</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetDate()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetDate()
+  id: 'GetDate()'
+  so.intellisense: NSDocumentEntity.GetDate
+  langs:
+  - crmscript
+  name: 'GetDate()'
+  nameWithType: NSDocumentEntity.GetDate()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "date + start time planned."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nDateTime date = thing.GetDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetDescription()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSDocumentEntity.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSDocumentEntity.GetDescription()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetDocumentId()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetDocumentId()
+  id: 'GetDocumentId()'
+  so.intellisense: NSDocumentEntity.GetDocumentId
+  langs:
+  - crmscript
+  name: 'GetDocumentId()'
+  nameWithType: NSDocumentEntity.GetDocumentId()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetDocumentId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDocumentId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nInteger documentId = thing.GetDocumentId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetDocumentTemplate()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetDocumentTemplate()
+  id: 'GetDocumentTemplate()'
+  so.intellisense: NSDocumentEntity.GetDocumentTemplate
+  langs:
+  - crmscript
+  name: 'GetDocumentTemplate()'
+  nameWithType: NSDocumentEntity.GetDocumentTemplate()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetDocumentTemplate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSDocumentTemplate GetDocumentTemplate()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSDocumentTemplate
+      description: "The template type of the document."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nNSDocumentTemplate documentTemplate = thing.GetDocumentTemplate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetExternalRef()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetExternalRef()
+  id: 'GetExternalRef()'
+  so.intellisense: NSDocumentEntity.GetExternalRef
+  langs:
+  - crmscript
+  name: 'GetExternalRef()'
+  nameWithType: NSDocumentEntity.GetExternalRef()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetExternalRef()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExternalRef()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "External reference for document plugin to resolve document identity (Notes ID, e-mail message ID, whatever)."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nString externalRef = thing.GetExternalRef();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetExtraFields()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetExtraFields()
+  id: 'GetExtraFields()'
+  so.intellisense: NSDocumentEntity.GetExtraFields
+  langs:
+  - crmscript
+  name: 'GetExtraFields()'
+  nameWithType: NSDocumentEntity.GetExtraFields()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetExtraFields()
+  type: Method
+  summary: "\nGets the extra fields on NSDocumentEntity as a map.\n"
+  remarks: 
+  syntax: 
+    content: Map GetExtraFields()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nMap extras = thing.GetExtraFields();\nlog( extras[&quot;x_abc&quot;] ); // &quot;[I:123]&quot;* integer or list item id\nlog( extras[&quot;x_abc:DisplayText&quot;] ); // &quot;bla bla&quot;* list item value\nlog( extras[&quot;x_bla&quot;] ); // &quot;foobar&quot;* string value</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetHeader()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetHeader()
+  id: 'GetHeader()'
+  so.intellisense: NSDocumentEntity.GetHeader
+  langs:
+  - crmscript
+  name: 'GetHeader()'
+  nameWithType: NSDocumentEntity.GetHeader()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetHeader()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetHeader()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Visible document name."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nString header = thing.GetHeader();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetIsPublished()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetIsPublished()
+  id: 'GetIsPublished()'
+  so.intellisense: NSDocumentEntity.GetIsPublished
+  langs:
+  - crmscript
+  name: 'GetIsPublished()'
+  nameWithType: NSDocumentEntity.GetIsPublished()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetIsPublished()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsPublished()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: Should this NSDocumentEntity be published and visible to strangers?
+  example: 
+- uid: CRMScript.NetServer.NSDocumentEntity.GetLinks()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetLinks()
+  id: 'GetLinks()'
+  so.intellisense: NSDocumentEntity.GetLinks
+  langs:
+  - crmscript
+  name: 'GetLinks()'
+  nameWithType: NSDocumentEntity.GetLinks()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetLinks()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSLink[] GetLinks()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSLink[]
+      description: "List of all elements linked to the document."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nNSLink[] links = thing.GetLinks();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetLockSemantics()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetLockSemantics()
+  id: 'GetLockSemantics()'
+  so.intellisense: NSDocumentEntity.GetLockSemantics
+  langs:
+  - crmscript
+  name: 'GetLockSemantics()'
+  nameWithType: NSDocumentEntity.GetLockSemantics()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetLockSemantics()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetLockSemantics()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.DocumentLockSemantics\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nInteger lockSemantics = thing.GetLockSemantics();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSDocumentEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSDocumentEntity.GetName()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "File name."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetOurRef()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetOurRef()
+  id: 'GetOurRef()'
+  so.intellisense: NSDocumentEntity.GetOurRef
+  langs:
+  - crmscript
+  name: 'GetOurRef()'
+  nameWithType: NSDocumentEntity.GetOurRef()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetOurRef()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetOurRef()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Our reference, searchable field from free-text search."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nString ourRef = thing.GetOurRef();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetPerson()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetPerson()
+  id: 'GetPerson()'
+  so.intellisense: NSDocumentEntity.GetPerson
+  langs:
+  - crmscript
+  name: 'GetPerson()'
+  nameWithType: NSDocumentEntity.GetPerson()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetPerson()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSPerson GetPerson()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSPerson
+      description: "A document may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nNSPerson person = thing.GetPerson();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetProject()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetProject()
+  id: 'GetProject()'
+  so.intellisense: NSDocumentEntity.GetProject
+  langs:
+  - crmscript
+  name: 'GetProject()'
+  nameWithType: NSDocumentEntity.GetProject()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetProject()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSProject GetProject()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSProject
+      description: "A document may also be connected to a project, so you see the document both on the company card, and on the project card. This does not mean however that a project is required."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nNSProject project = thing.GetProject();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetPublishEventDate()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetPublishEventDate()
+  id: 'GetPublishEventDate()'
+  so.intellisense: NSDocumentEntity.GetPublishEventDate
+  langs:
+  - crmscript
+  name: 'GetPublishEventDate()'
+  nameWithType: NSDocumentEntity.GetPublishEventDate()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetPublishEventDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetPublishEventDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Publish event date on NSDocumentEntity."
+  example: 
+- uid: CRMScript.NetServer.NSDocumentEntity.GetPublishFrom()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetPublishFrom()
+  id: 'GetPublishFrom()'
+  so.intellisense: NSDocumentEntity.GetPublishFrom
+  langs:
+  - crmscript
+  name: 'GetPublishFrom()'
+  nameWithType: NSDocumentEntity.GetPublishFrom()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetPublishFrom()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetPublishFrom()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Publish from date on NSDocumentEntity."
+  example: 
+- uid: CRMScript.NetServer.NSDocumentEntity.GetPublishTo()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetPublishTo()
+  id: 'GetPublishTo()'
+  so.intellisense: NSDocumentEntity.GetPublishTo
+  langs:
+  - crmscript
+  name: 'GetPublishTo()'
+  nameWithType: NSDocumentEntity.GetPublishTo()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetPublishTo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetPublishTo()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Publish to date on NSDocumentEntity. After this date the event is no longer visible."
+  example: 
+- uid: CRMScript.NetServer.NSDocumentEntity.GetSale()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetSale()
+  id: 'GetSale()'
+  so.intellisense: NSDocumentEntity.GetSale
+  langs:
+  - crmscript
+  name: 'GetSale()'
+  nameWithType: NSDocumentEntity.GetSale()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetSale()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSSale GetSale()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSale
+      description: "A document may also be connected to a sale, so you see the document on the company card, on the project card and on the sale card. This does not mean however that a sale is required. May be null."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nNSSale sale = thing.GetSale();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetSnum()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetSnum()
+  id: 'GetSnum()'
+  so.intellisense: NSDocumentEntity.GetSnum
+  langs:
+  - crmscript
+  name: 'GetSnum()'
+  nameWithType: NSDocumentEntity.GetSnum()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetSnum()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSnum()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The sequence number allocated from refcount on used template when creating the document."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nInteger snum = thing.GetSnum();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetSuggestedDocumentId()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetSuggestedDocumentId()
+  id: 'GetSuggestedDocumentId()'
+  so.intellisense: NSDocumentEntity.GetSuggestedDocumentId
+  langs:
+  - crmscript
+  name: 'GetSuggestedDocumentId()'
+  nameWithType: NSDocumentEntity.GetSuggestedDocumentId()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetSuggestedDocumentId()
+  type: Method
+  summary: # TODO
+  remarks: "\nNOT valid for appointments, they have their own link\n"
+  syntax: 
+    content: Integer GetSuggestedDocumentId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Suggested guide item that this document is an instance of."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nInteger suggestedDocumentId = thing.GetSuggestedDocumentId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetType()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetType()
+  id: 'GetType()'
+  so.intellisense: NSDocumentEntity.GetType
+  langs:
+  - crmscript
+  name: 'GetType()'
+  nameWithType: NSDocumentEntity.GetType()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: Is this a normal document or a mail-merge or report?
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nInteger type = thing.GetType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetUpdatedBy()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetUpdatedBy()
+  id: 'GetUpdatedBy()'
+  so.intellisense: NSDocumentEntity.GetUpdatedBy
+  langs:
+  - crmscript
+  name: 'GetUpdatedBy()'
+  nameWithType: NSDocumentEntity.GetUpdatedBy()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetUpdatedBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetUpdatedBy()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "The person that last updated the appointment."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nNSAssociate updatedBy = thing.GetUpdatedBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetUpdatedDate()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetUpdatedDate()
+  id: 'GetUpdatedDate()'
+  so.intellisense: NSDocumentEntity.GetUpdatedDate
+  langs:
+  - crmscript
+  name: 'GetUpdatedDate()'
+  nameWithType: NSDocumentEntity.GetUpdatedDate()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetUpdatedDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetUpdatedDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nDateTime updatedDate = thing.GetUpdatedDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetUserDefinedFields()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetUserDefinedFields()
+  id: 'GetUserDefinedFields()'
+  so.intellisense: NSDocumentEntity.GetUserDefinedFields
+  langs:
+  - crmscript
+  name: 'GetUserDefinedFields()'
+  nameWithType: NSDocumentEntity.GetUserDefinedFields()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetUserDefinedFields()
+  type: Method
+  summary: "\nGets the user-defined fields on the NSDocumentEntity as a map.\n"
+  remarks: 
+  syntax: 
+    content: Map GetUserDefinedFields()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nMap udefs = thing.GetUserDefinedFields();\nlog( udefs[&quot;SuperOffice:1&quot;] ); // &quot;[I:123]&quot;* integer or list item id\nlog( udefs[&quot;SuperOffice:1:DisplayText&quot;] ); // &quot;bla bla&quot;* list item value\nlog( udefs[&quot;custom.progid&quot;] ); // &quot;foobar&quot;* string value</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetVisibleFor()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetVisibleFor()
+  id: 'GetVisibleFor()'
+  so.intellisense: NSDocumentEntity.GetVisibleFor
+  langs:
+  - crmscript
+  name: 'GetVisibleFor()'
+  nameWithType: NSDocumentEntity.GetVisibleFor()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetVisibleFor()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSVisibleFor[] GetVisibleFor()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSVisibleFor[]
+      description: "Return the user groups and/or users the NSDocumentEntity item is visible for."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nNSVisibleFor[] visibleFor = thing.GetVisibleFor();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.GetYourRef()
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.GetYourRef()
+  id: 'GetYourRef()'
+  so.intellisense: NSDocumentEntity.GetYourRef
+  langs:
+  - crmscript
+  name: 'GetYourRef()'
+  nameWithType: NSDocumentEntity.GetYourRef()
+  fullName: CRMScript.NetServer.NSDocumentEntity.GetYourRef()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetYourRef()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Your reference."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nString yourRef = thing.GetYourRef();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetActiveLinks(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetActiveLinks(Integer)
+  id: 'SetActiveLinks(Integer)'
+  so.intellisense: NSDocumentEntity.SetActiveLinks
+  langs:
+  - crmscript
+  name: 'SetActiveLinks(Integer)'
+  nameWithType: NSDocumentEntity.SetActiveLinks(Integer)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetActiveLinks(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetActiveLinks(Integer activeLinks)
+    parameters:
+    - id: activeLinks
+      type: CRMScript.Global.Integer
+      description: "Number of active links to sale, document, appointment."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nInteger activeLinks;\nthing.SetActiveLinks(activeLinks);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetAssociate(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetAssociate(NSAssociate)
+  id: 'SetAssociate(NSAssociate)'
+  so.intellisense: NSDocumentEntity.SetAssociate
+  langs:
+  - crmscript
+  name: 'SetAssociate(NSAssociate)'
+  nameWithType: NSDocumentEntity.SetAssociate(NSAssociate)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetAssociate(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAssociate(NSAssociate associate)
+    parameters:
+    - id: associate
+      type: CRMScript.NetServer.NSAssociate
+      description: "The owner of the document* the associate whose checklist the document is in."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nNSAssociate associate;\nthing.SetAssociate(associate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetAttention(String)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetAttention(String)
+  id: 'SetAttention(String)'
+  so.intellisense: NSDocumentEntity.SetAttention
+  langs:
+  - crmscript
+  name: 'SetAttention(String)'
+  nameWithType: NSDocumentEntity.SetAttention(String)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetAttention(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAttention(String attention)
+    parameters:
+    - id: attention
+      type: CRMScript.Global.String
+      description: "Attention/salutation."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nString attention;\nthing.SetAttention(attention);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetCompleted(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetCompleted(Integer)
+  id: 'SetCompleted(Integer)'
+  so.intellisense: NSDocumentEntity.SetCompleted
+  langs:
+  - crmscript
+  name: 'SetCompleted(Integer)'
+  nameWithType: NSDocumentEntity.SetCompleted(Integer)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetCompleted(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCompleted(Integer completed)
+    parameters:
+    - id: completed
+      type: CRMScript.Global.Integer
+      description: "Document Completed state. This is the part of the Status property."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nInteger completed;\nthing.SetCompleted(completed);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetContact(NSContact)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetContact(NSContact)
+  id: 'SetContact(NSContact)'
+  so.intellisense: NSDocumentEntity.SetContact
+  langs:
+  - crmscript
+  name: 'SetContact(NSContact)'
+  nameWithType: NSDocumentEntity.SetContact(NSContact)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetContact(NSContact)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContact(NSContact contact)
+    parameters:
+    - id: contact
+      type: RMScript.NetServer.NSContact
+      description: "The contact associated with the document. It may also be null if no contact is associated with the document."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nNSContact contact;\nthing.SetContact(contact);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetCreatedBy(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetCreatedBy(NSAssociate)
+  id: 'SetCreatedBy(NSAssociate)'
+  so.intellisense: NSDocumentEntity.SetCreatedBy
+  langs:
+  - crmscript
+  name: 'SetCreatedBy(NSAssociate)'
+  nameWithType: NSDocumentEntity.SetCreatedBy(NSAssociate)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetCreatedBy(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCreatedBy(NSAssociate createdBy)
+    parameters:
+    - id: createdBy
+      type: CRMScript.NetServer.NSAssociate
+      description: "The person that first created the document. The property is read-only."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nNSAssociate createdBy;\nthing.SetCreatedBy(createdBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetCreatedDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetCreatedDate(DateTime)
+  id: 'SetCreatedDate(DateTime)'
+  so.intellisense: NSDocumentEntity.SetCreatedDate
+  langs:
+  - crmscript
+  name: 'SetCreatedDate(DateTime)'
+  nameWithType: NSDocumentEntity.SetCreatedDate(DateTime)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetCreatedDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCreatedDate(DateTime createdDate)
+    parameters:
+    - id: createdDate
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nDateTime createdDate;\nthing.SetCreatedDate(createdDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetCustomFields(Map)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetCustomFields(Map)
+  id: 'SetCustomFields(Map)'
+  so.intellisense: NSDocumentEntity.SetCustomFields
+  langs:
+  - crmscript
+  name: 'SetCustomFields(Map)'
+  nameWithType: NSDocumentEntity.SetCustomFields(Map)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetCustomFields(Map)
+  type: Method
+  summary: "\nSets the user-defined and extra fields on an NSDocumentEntity with a map.\n"
+  remarks: 
+  syntax: 
+    content: Void SetCustomFields(Map udefs)
+    parameters:
+    - id: udefs
+      type: CRMScript.Native.Map
+      description: "user-defined and extra fields."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nMap udefs;\nudefs[&quot;SuperOffice:1&quot;] = &quot;[I:123]&quot;;\nudefs[&quot;SuperOffice:1&quot;] = &quot;123&quot;; // this will also work, but beware of decimal point variations in different languages\nudefs[&quot;custom.progid&quot;] = &quot;foobar&quot;;\nudefs[&quot;x_foo&quot;] = &quot;foobar&quot;;\nudefs[&quot;x_bar&quot;] = &quot;456&quot;; // List item id\nthing.SetCustomFields(udefs);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetDate(DateTime)
+  id: 'SetDate(DateTime)'
+  so.intellisense: NSDocumentEntity.SetDate
+  langs:
+  - crmscript
+  name: 'SetDate(DateTime)'
+  nameWithType: NSDocumentEntity.SetDate(DateTime)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDate(DateTime date)
+    parameters:
+    - id: date
+      type: CRMScript.Global.DateTime
+      description: "date + start time planned."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nDateTime date;\nthing.SetDate(date);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSDocumentEntity.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSDocumentEntity.SetDescription(String)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetDocumentId(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetDocumentId(Integer)
+  id: 'SetDocumentId(Integer)'
+  so.intellisense: NSDocumentEntity.SetDocumentId
+  langs:
+  - crmscript
+  name: 'SetDocumentId(Integer)'
+  nameWithType: NSDocumentEntity.SetDocumentId(Integer)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetDocumentId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDocumentId(Integer documentId)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nInteger documentId;\nthing.SetDocumentId(documentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetDocumentTemplate(NSDocumentTemplate)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetDocumentTemplate(NSDocumentTemplate)
+  id: 'SetDocumentTemplate(NSDocumentTemplate)'
+  so.intellisense: NSDocumentEntity.SetDocumentTemplate
+  langs:
+  - crmscript
+  name: 'SetDocumentTemplate(NSDocumentTemplate)'
+  nameWithType: NSDocumentEntity.SetDocumentTemplate(NSDocumentTemplate)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetDocumentTemplate(NSDocumentTemplate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDocumentTemplate(NSDocumentTemplate documentTemplate)
+    parameters:
+    - id: documentTemplate
+      type: CRMScript.NetServer.NSDocumentTemplate
+      description: "The template type of the document."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nNSDocumentTemplate documentTemplate;\nthing.SetDocumentTemplate(documentTemplate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetExternalRef(String)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetExternalRef(String)
+  id: 'SetExternalRef(String)'
+  so.intellisense: NSDocumentEntity.SetExternalRef
+  langs:
+  - crmscript
+  name: 'SetExternalRef(String)'
+  nameWithType: NSDocumentEntity.SetExternalRef(String)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetExternalRef(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExternalRef(String externalRef)
+    parameters:
+    - id: externalRef
+      type: CRMScript.Global.String
+      description: "External reference for document plugin to resolve document identity (Notes ID, email message ID, whatever)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nString externalRef;\nthing.SetExternalRef(externalRef);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetExtraFields(Map)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetExtraFields(Map)
+  id: 'SetExtraFields(Map)'
+  so.intellisense: NSDocumentEntity.SetExtraFields
+  langs:
+  - crmscript
+  name: 'SetExtraFields(Map)'
+  nameWithType: NSDocumentEntity.SetExtraFields(Map)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetExtraFields(Map)
+  type: Method
+  summary: "\nSets the extra field values on NSDocumentEntity with a map.\n"
+  remarks: 
+  syntax: 
+    content: Void SetExtraFields(Map extras)
+    parameters:
+    - id: extras
+      type: CRMScript.Native.Map
+      description: "extra-field values."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nMap extras;\nextras[&quot;SuperOffice:1&quot;] = &quot;[I:123]&quot;;\nextras[&quot;SuperOffice:1&quot;] = &quot;123&quot;; // this will also work, but beware of decimal point variations in different languages\nextras[&quot;custom.progid&quot;] = &quot;foobar&quot;;\nthing.SetExtraFields(extras);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetHeader(String)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetHeader(String)
+  id: 'SetHeader(String)'
+  so.intellisense: NSDocumentEntity.SetHeader
+  langs:
+  - crmscript
+  name: 'SetHeader(String)'
+  nameWithType: NSDocumentEntity.SetHeader(String)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetHeader(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetHeader(String header)
+    parameters:
+    - id: header
+      type: CRMScript.Global.String
+      description: "Visible document name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nString header;\nthing.SetHeader(header);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetIsPublished(Bool)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetIsPublished(Bool)
+  id: 'SetIsPublished(Bool)'
+  so.intellisense: NSDocumentEntity.SetIsPublished
+  langs:
+  - crmscript
+  name: 'SetIsPublished(Bool)'
+  nameWithType: NSDocumentEntity.SetIsPublished(Bool)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetIsPublished(Bool)
+  type: Method
+  summary: "\nSets the IsPublished property\n"
+  remarks: 
+  syntax: 
+    content: Void SetIsPublished(Bool isPublished)
+    parameters:
+    - id: isPublished
+      type: CRMScript.Global.Bool
+      description: Should this NSDocumentEntity be published and visible to strangers?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSDocumentEntity.SetLinks(NSLink[])
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetLinks(NSLink[])
+  id: 'SetLinks(NSLink[])'
+  so.intellisense: NSDocumentEntity.SetLinks
+  langs:
+  - crmscript
+  name: 'SetLinks(NSLink[])'
+  nameWithType: NSDocumentEntity.SetLinks(NSLink[])
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetLinks(NSLink[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLinks(NSLink[] links)
+    parameters:
+    - id: links
+      type: CRMScript.NetServer.NSLink[]
+      description: "List of all elements linked to the document."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nNSLink[] links;\nthing.SetLinks(links);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetLockSemantics(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetLockSemantics(Integer)
+  id: 'SetLockSemantics(Integer)'
+  so.intellisense: NSDocumentEntity.SetLockSemantics
+  langs:
+  - crmscript
+  name: 'SetLockSemantics(Integer)'
+  nameWithType: NSDocumentEntity.SetLockSemantics(Integer)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetLockSemantics(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLockSemantics(Integer lockSemantics)
+    parameters:
+    - id: lockSemantics
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.DocumentLockSemantics\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nInteger lockSemantics;\nthing.SetLockSemantics(lockSemantics);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSDocumentEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSDocumentEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "File name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetOurRef(String)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetOurRef(String)
+  id: 'SetOurRef(String)'
+  so.intellisense: NSDocumentEntity.SetOurRef
+  langs:
+  - crmscript
+  name: 'SetOurRef(String)'
+  nameWithType: NSDocumentEntity.SetOurRef(String)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetOurRef(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOurRef(String ourRef)
+    parameters:
+    - id: ourRef
+      type: CRMScript.Global.String
+      description: "Our reference, searchable field from free-text search."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nString ourRef;\nthing.SetOurRef(ourRef);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetPerson(NSPerson)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetPerson(NSPerson)
+  id: 'SetPerson(NSPerson)'
+  so.intellisense: NSDocumentEntity.SetPerson
+  langs:
+  - crmscript
+  name: 'SetPerson(NSPerson)'
+  nameWithType: NSDocumentEntity.SetPerson(NSPerson)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetPerson(NSPerson)
+  type: Method
+  summary: # TODO
+  remarks: "\nA document may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.\n"
+  syntax: 
+    content: Void SetPerson(NSPerson person)
+    parameters:
+    - id: person
+      type: CRMScript.NetServer.NSPerson
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nNSPerson person;\nthing.SetPerson(person);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetProject(NSProject)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetProject(NSProject)
+  id: 'SetProject(NSProject)'
+  so.intellisense: NSDocumentEntity.SetProject
+  langs:
+  - crmscript
+  name: 'SetProject(NSProject)'
+  nameWithType: NSDocumentEntity.SetProject(NSProject)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetProject(NSProject)
+  type: Method
+  summary: # TODO
+  remarks: "\nA document may also be connected to a project, so you see the document both on the company card, and on the project card. This does not mean however that a project is required.\n"
+  syntax: 
+    content: Void SetProject(NSProject project)
+    parameters:
+    - id: project
+      type: CRMScript.NetServer.NSProject
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nNSProject project;\nthing.SetProject(project);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetPublishEventDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetPublishEventDate(DateTime)
+  id: 'SetPublishEventDate(DateTime)'
+  so.intellisense: NSDocumentEntity.SetPublishEventDate
+  langs:
+  - crmscript
+  name: 'SetPublishEventDate(DateTime)'
+  nameWithType: NSDocumentEntity.SetPublishEventDate(DateTime)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetPublishEventDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPublishEventDate(DateTime publishDate)
+    parameters:
+    - id: publishDate
+      type: CRMScript.Global.DateTime
+      description: "Publish event date on NSDocumentEntity."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSDocumentEntity.SetPublishFrom(DateTime)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetPublishFrom(DateTime)
+  id: 'SetPublishFrom(DateTime)'
+  so.intellisense: NSDocumentEntity.SetPublishFrom
+  langs:
+  - crmscript
+  name: 'SetPublishFrom(DateTime)'
+  nameWithType: NSDocumentEntity.SetPublishFrom(DateTime)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetPublishFrom(DateTime)
+  type: Method
+  summary: "\nSets the publish from date on an NSDocumentEntity.\n"
+  remarks: 
+  syntax: 
+    content: Void SetPublishFrom(DateTime publishFrom)
+    parameters:
+    - id: publishFrom
+      type: CRMScript.Global.DateTime
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSDocumentEntity.SetPublishTo(DateTime)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetPublishTo(DateTime)
+  id: 'SetPublishTo(DateTime)'
+  so.intellisense: NSDocumentEntity.SetPublishTo
+  langs:
+  - crmscript
+  name: 'SetPublishTo(DateTime)'
+  nameWithType: NSDocumentEntity.SetPublishTo(DateTime)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetPublishTo(DateTime)
+  type: Method
+  summary: "\nSets the publish to date on NSDocumentEntity. After this date the event is no longer visible.\n"
+  remarks: 
+  syntax: 
+    content: Void SetPublishTo(DateTime publishTo)
+    parameters:
+    - id: publishTo
+      type: CRMScript.Global.DateTime
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSDocumentEntity.SetSale(NSSale)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetSale(NSSale)
+  id: 'SetSale(NSSale)'
+  so.intellisense: NSDocumentEntity.SetSale
+  langs:
+  - crmscript
+  name: 'SetSale(NSSale)'
+  nameWithType: NSDocumentEntity.SetSale(NSSale)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetSale(NSSale)
+  type: Method
+  summary: # TODO
+  remarks: "\nA document may also be connected to a sale, so you see the document on the company card, on the project card and on the sale card. This does not mean however that a sale is required. May be null.\n"
+  syntax: 
+    content: Void SetSale(NSSale sale)
+    parameters:
+    - id: sale
+      type: CRMScript.NetServer.NSSale
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nNSSale sale;\nthing.SetSale(sale);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetSnum(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetSnum(Integer)
+  id: 'SetSnum(Integer)'
+  so.intellisense: NSDocumentEntity.SetSnum
+  langs:
+  - crmscript
+  name: 'SetSnum(Integer)'
+  nameWithType: NSDocumentEntity.SetSnum(Integer)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetSnum(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSnum(Integer snum)
+    parameters:
+    - id: snum
+      type: CRMScript.Global.Integer
+      description: "The sequence number allocated from refcount on used template when creating the document."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nInteger snum;\nthing.SetSnum(snum);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetSuggestedDocumentId(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetSuggestedDocumentId(Integer)
+  id: 'SetSuggestedDocumentId(Integer)'
+  so.intellisense: NSDocumentEntity.SetSuggestedDocumentId
+  langs:
+  - crmscript
+  name: 'SetSuggestedDocumentId(Integer)'
+  nameWithType: NSDocumentEntity.SetSuggestedDocumentId(Integer)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetSuggestedDocumentId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: "\nNOT valid for appointments, they have their own link\n"
+  syntax: 
+    content: Void SetSuggestedDocumentId(Integer suggestedDocumentId)
+    parameters:
+    - id: suggestedDocumentId
+      type: CRMScript.Global.Integer
+      description: "Suggested guide item that this document is an instance of."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nInteger suggestedDocumentId;\nthing.SetSuggestedDocumentId(suggestedDocumentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetType(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetType(Integer)
+  id: 'SetType(Integer)'
+  so.intellisense: NSDocumentEntity.SetType
+  langs:
+  - crmscript
+  name: 'SetType(Integer)'
+  nameWithType: NSDocumentEntity.SetType(Integer)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetType(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetType(Integer type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "Is this a normal document or a mail-merge or report? See <xref href=\"CRMScript.NetServer.AppointmentType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nInteger type;\nthing.SetType(type);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetUpdatedBy(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetUpdatedBy(NSAssociate)
+  id: 'SetUpdatedBy(NSAssociate)'
+  so.intellisense: NSDocumentEntity.SetUpdatedBy
+  langs:
+  - crmscript
+  name: 'SetUpdatedBy(NSAssociate)'
+  nameWithType: NSDocumentEntity.SetUpdatedBy(NSAssociate)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetUpdatedBy(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedBy(NSAssociate updatedBy)
+    parameters:
+    - id: associate
+      type: CRMScript.NetServer.NSAssociate
+      description: "The person that last updated the appointment."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nNSAssociate updatedBy;\nthing.SetUpdatedBy(updatedBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetUpdatedDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetUpdatedDate(DateTime)
+  id: 'SetUpdatedDate(DateTime)'
+  so.intellisense: NSDocumentEntity.SetUpdatedDate
+  langs:
+  - crmscript
+  name: 'SetUpdatedDate(DateTime)'
+  nameWithType: NSDocumentEntity.SetUpdatedDate(DateTime)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetUpdatedDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedDate(DateTime updatedDate)
+    parameters:
+    - id: updatedDate
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nDateTime updatedDate;\nthing.SetUpdatedDate(updatedDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SSetUserDefinedFields(Map)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SSetUserDefinedFields(Map)
+  id: 'SSetUserDefinedFields(Map)'
+  so.intellisense: NSDocumentEntity.SetUserDefinedFields
+  langs:
+  - crmscript
+  name: 'SSetUserDefinedFields(Map)'
+  nameWithType: NSDocumentEntity.SSetUserDefinedFields(Map)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SSetUserDefinedFields(Map)
+  type: Method
+  summary: "\nSets the user-defined fields on the NSDocumentEntity as a map.\n"
+  remarks: 
+  syntax: 
+    content: Void SetUserDefinedFields(Map udefs)
+    parameters:
+    - id: udefs
+      type: CRMScript.Native.Map
+      description: "user-defined fields."
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nMap udefs;\nudefs[&quot;SuperOffice:1&quot;] = &quot;[I:123]&quot;;\nudefs[&quot;SuperOffice:1&quot;] = &quot;123&quot;; // this will also work, but beware of decimal point variations in different languages\nudefs[&quot;custom.progid&quot;] = &quot;foobar&quot;;\nthing.SetUserDefinedFields(udefs);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetVisibleFor(NSVisibleFor[])
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetVisibleFor(NSVisibleFor[])
+  id: 'SetVisibleFor(NSVisibleFor[])'
+  so.intellisense: NSDocumentEntity.SetVisibleFor
+  langs:
+  - crmscript
+  name: 'SetVisibleFor(NSVisibleFor[])'
+  nameWithType: NSDocumentEntity.SetVisibleFor(NSVisibleFor[])
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetVisibleFor(NSVisibleFor[])
+  type: Method
+  summary: "\nSets the user groups and/or users the NSDocumentEntity item is visible for.\n"
+  remarks: 
+  syntax: 
+    content: Void SetVisibleFor(NSVisibleFor[] visibleFor)
+    parameters:
+    - id: visibleFor
+      type: CRMScript.NetServer.NSVisibleFor[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nNSVisibleFor[] visibleFor = thing.GetVisibleFor();\nvisibleFor[0].SetVisiblity(1);  // usergroup\nvisibleFor[0].SetVisibleId(123); // usergroup id\nthing.SetVisibleFor(visibleFor);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentEntity.SetYourRef(String)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetYourRef(String)
+  id: 'SetYourRef(String)'
+  so.intellisense: NSDocumentEntity.SetYourRef
+  langs:
+  - crmscript
+  name: 'SetYourRef(String)'
+  nameWithType: NSDocumentEntity.SetYourRef(String)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetYourRef(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetYourRef(String yourRef)
+    parameters:
+    - id: yourRef
+      type: CRMScript.Global.String
+      description: "Your reference."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentEntity thing;\nString yourRef;\nthing.SetYourRef(yourRef);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSDocumentEntity
+  commentId: T:CRMScript.NetServer.NSDocumentEntity
+  isExternal: true
+  name: NSDocumentEntity
+  nameWithType: NSDocumentEntity
+  fullName: CRMScript.NetServer.NSDocumentEntity
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSAssociate
+  commentId: T:CRMScript.NetServer.NSAssociate
+  isExternal: true
+  name: NSAssociate
+  nameWithType: NSAssociate
+  fullName: CRMScript.NetServer.NSAssociate
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSContact
+  commentId: T:CRMScript.NetServer.NSContact
+  isExternal: true
+  name: NSContact
+  nameWithType: NSContact
+  fullName: CRMScript.NetServer.NSContact
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Native.Map
+  commentId: T:CRMScript.Native.Map
+  isExternal: true
+  name: Map
+  nameWithType: Map
+  fullName: CRMScript.Native.Map
+- uid: CRMScript.NetServer.NSDocumentTemplate
+  commentId: T:CRMScript.NetServer.NSDocumentTemplate
+  isExternal: true
+  name: NSDocumentTemplate
+  nameWithType: NSDocumentTemplate
+  fullName: CRMScript.NetServer.NSDocumentTemplate
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.NetServer.NSLink[]
+  isExternal: true
+  name: NSLink[]
+  nameWithType: NSLink[]
+  fullName: CRMScript.NetServer.NSLink[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSLink
+    isExternal: true
+    name: NSLink
+    nameWithType: NSLink
+    fullName: CRMScript.NetServer.NSLink
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSLink
+  commentId: T:CRMScript.NetServer.NSLink
+  isExternal: true
+  name: NSLink
+  nameWithType: NSLink
+  fullName: CRMScript.NetServer.NSLink
+- uid: CRMScript.NetServer.NSPerson
+  commentId: T:CRMScript.NetServer.NSPerson
+  isExternal: true
+  name: NSPerson
+  nameWithType: NSPerson
+  fullName: CRMScript.NetServer.NSPerson
+- uid: CRMScript.NetServer.NSProject
+  commentId: T:CRMScript.NetServer.NSProject
+  isExternal: true
+  name: NSProject
+  nameWithType: NSProject
+  fullName: CRMScript.NetServer.NSProject
+- uid: CRMScript.NetServer.NSSale
+  commentId: T:CRMScript.NetServer.NSSale
+  isExternal: true
+  name: NSSale
+  nameWithType: NSSale
+  fullName: CRMScript.NetServer.NSSale
+- uid: CRMScript.NetServer.NSVisibleFor[]
+  isExternal: true
+  name: NSVisibleFor[]
+  nameWithType: NSVisibleFor[]
+  fullName: CRMScript.NetServer.NSVisibleFor[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSVisibleFor
+    isExternal: true
+    name: NSVisibleFor
+    nameWithType: NSVisibleFor
+    fullName: CRMScript.NetServer.NSVisibleFor
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSVisibleFor
+  commentId: T:CRMScript.NetServer.NSVisibleFor
+  isExternal: true
+  name: NSVisibleFor
+  nameWithType: NSVisibleFor
+  fullName: CRMScript.NetServer.NSVisibleFor
+- uid: CRMScript.NetServer.AppointmentType
+  commentId: T:CRMScript.NetServer.AppointmentType
+  isExternal: true
+  name: AppointmentType
+  nameWithType: AppointmentType
+  fullName: CRMScript.NetServer.AppointmentType
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.DocumentLockSemantics
+  commentId: T:CRMScript.NetServer.DocumentLockSemantics
+  isExternal: true
+  name: DocumentLockSemantics
+  nameWithType: DocumentLockSemantics
+  fullName: CRMScript.NetServer.DocumentLockSemantics

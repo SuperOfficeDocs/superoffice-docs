@@ -1,0 +1,223 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSDuplicateRule
+  commentId: T:CRMScript.NetServer.NSDuplicateRule
+  id: NSDuplicateRule
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSDuplicateRule.#ctor
+  - CRMScript.NetServer.NSDuplicateRule.GetDisplayName()
+  - CRMScript.NetServer.NSDuplicateRule.GetDisplayTooltip()
+  - CRMScript.NetServer.NSDuplicateRule.GetIsActive()
+  - CRMScript.NetServer.NSDuplicateRule.GetName()
+  - CRMScript.NetServer.NSDuplicateRule.SetDisplayName(String)
+  - CRMScript.NetServer.NSDuplicateRule.SetDisplayTooltip(String)
+  - CRMScript.NetServer.NSDuplicateRule.SetIsActive(Bool)
+  - CRMScript.NetServer.NSDuplicateRule.SetName(String)
+  name: NSDuplicateRule
+  nameWithType: NSDuplicateRule
+  fullName: CRMScript.NetServer.NSDuplicateRule
+  type: Class
+  summary: "\nCarrier object for DuplicateRule.\n"
+  example: 
+- uid: CRMScript.NetServer.NSDuplicateRule.#ctor
+  commentId: M:CRMScript.NetServer.NSDuplicateRule.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSDuplicateRule
+  langs:
+  - crmscript
+  name: NSDuplicateRule()
+  nameWithType: NSDuplicateRule.#ctor
+  fullName: CRMScript.NetServer.NSDuplicateRule.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSDuplicateRule class.\n"
+  remarks: 
+  syntax: 
+    content: NSDuplicateRule
+  example: 
+- uid: CRMScript.NetServer.NSDuplicateRule.GetDisplayName()
+  commentId: M:CRMScript.NetServer.NSDuplicateRule.GetDisplayName()
+  id: 'GetDisplayName()'
+  so.intellisense: NSDuplicateRule.GetDisplayName
+  langs:
+  - crmscript
+  name: 'GetDisplayName()'
+  nameWithType: NSDuplicateRule.GetDisplayName()
+  fullName: CRMScript.NetServer.NSDuplicateRule.GetDisplayName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDisplayName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Short name of rule to display to user."
+  example: 
+- uid: CRMScript.NetServer.NSDuplicateRule.GetDisplayTooltip()
+  commentId: M:CRMScript.NetServer.NSDuplicateRule.GetDisplayTooltip()
+  id: 'GetDisplayTooltip()'
+  so.intellisense: NSDuplicateRule.GetDisplayTooltip
+  langs:
+  - crmscript
+  name: 'GetDisplayTooltip()'
+  nameWithType: NSDuplicateRule.GetDisplayTooltip()
+  fullName: CRMScript.NetServer.NSDuplicateRule.GetDisplayTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDisplayTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Description of the rule."
+  example: 
+- uid: CRMScript.NetServer.NSDuplicateRule.GetIsActive()
+  commentId: M:CRMScript.NetServer.NSDuplicateRule.GetIsActive()
+  id: 'GetIsActive()'
+  so.intellisense: NSDuplicateRule.GetIsActive
+  langs:
+  - crmscript
+  name: 'GetIsActive()'
+  nameWithType: NSDuplicateRule.GetIsActive()
+  fullName: CRMScript.NetServer.NSDuplicateRule.GetIsActive()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsActive()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Indicating if a rule is current active, and should included in the duplicate detection."
+  example: 
+- uid: CRMScript.NetServer.NSDuplicateRule.GetName()
+  commentId: M:CRMScript.NetServer.NSDuplicateRule.GetName()
+  id: 'GetName()'
+  so.intellisense: NSDuplicateRule.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSDuplicateRule.GetName()
+  fullName: CRMScript.NetServer.NSDuplicateRule.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Identifying name for rule."
+  example: 
+- uid: CRMScript.NetServer.NSDuplicateRule.SetDisplayName(String)
+  commentId: M:CRMScript.NetServer.NSDuplicateRule.SetDisplayName(String)
+  id: 'SetDisplayName(String)'
+  so.intellisense: NSDuplicateRule.SetDisplayName
+  langs:
+  - crmscript
+  name: 'SetDisplayName(String)'
+  nameWithType: NSDuplicateRule.SetDisplayName(String)
+  fullName: CRMScript.NetServer.NSDuplicateRule.SetDisplayName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDisplayName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "short name of rule to display to user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSDuplicateRule.SetDisplayTooltip(String)
+  commentId: M:CRMScript.NetServer.NSDuplicateRule.SetDisplayTooltip(String)
+  id: 'SetDisplayTooltip(String)'
+  so.intellisense: NSDuplicateRule.SetDisplayTooltip
+  langs:
+  - crmscript
+  name: 'SetDisplayTooltip(String)'
+  nameWithType: NSDuplicateRule.SetDisplayTooltip(String)
+  fullName: CRMScript.NetServer.NSDuplicateRule.SetDisplayTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDisplayTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: "Description of the rule."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSDuplicateRule.SetIsActive(Bool)
+  commentId: M:CRMScript.NetServer.NSDuplicateRule.SetIsActive(Bool)
+  id: 'SetIsActive(Bool)'
+  so.intellisense: NSDuplicateRule.SetIsActive
+  langs:
+  - crmscript
+  name: 'SetIsActive(Bool)'
+  nameWithType: NSDuplicateRule.SetIsActive(Bool)
+  fullName: CRMScript.NetServer.NSDuplicateRule.SetIsActive(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsActive(Bool isActive)
+    parameters:
+    - id: isActive
+      type: CRMScript.Global.Bool
+      description: "Indicating if a rule is current active, and should included in the duplicate detection."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSDuplicateRule.SetName(String)
+  commentId: M:CRMScript.NetServer.NSDuplicateRule.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSDuplicateRule.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSDuplicateRule.SetName(String)
+  fullName: CRMScript.NetServer.NSDuplicateRule.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Identifying name for rule."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSDuplicateRule
+  commentId: T:CRMScript.NetServer.NSDuplicateRule
+  isExternal: true
+  name: NSDuplicateRule
+  nameWithType: NSDuplicateRule
+  fullName: CRMScript.NetServer.NSDuplicateRule
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

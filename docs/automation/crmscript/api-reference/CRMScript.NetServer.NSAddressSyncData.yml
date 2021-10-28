@@ -1,0 +1,607 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSAddressSyncData
+  commentId: T:CRMScript.NetServer.NSAddressSyncData
+  id: NSAddressSyncData
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSAddressSyncData.#ctor
+  - CRMScript.NetServer.NSAddressSyncData.GetAddress1()
+  - CRMScript.NetServer.NSAddressSyncData.GetAddress2()
+  - CRMScript.NetServer.NSAddressSyncData.GetAddress3()
+  - CRMScript.NetServer.NSAddressSyncData.GetAddressId()
+  - CRMScript.NetServer.NSAddressSyncData.GetAddressType()
+  - CRMScript.NetServer.NSAddressSyncData.GetCity()
+  - CRMScript.NetServer.NSAddressSyncData.GetCounty()
+  - CRMScript.NetServer.NSAddressSyncData.GetFormattedAddress()
+  - CRMScript.NetServer.NSAddressSyncData.GetLatitude()
+  - CRMScript.NetServer.NSAddressSyncData.GetLongitude()
+  - CRMScript.NetServer.NSAddressSyncData.GetState()
+  - CRMScript.NetServer.NSAddressSyncData.GetZipCode()
+  - CRMScript.NetServer.NSAddressSyncData.SetAddress1(String)
+  - CRMScript.NetServer.NSAddressSyncData.SetAddress2(String)
+  - CRMScript.NetServer.NSAddressSyncData.SetAddress3(String)
+  - CRMScript.NetServer.NSAddressSyncData.SetAddressId(Integer)
+  - CRMScript.NetServer.NSAddressSyncData.SetAddressType(Integer)
+  - CRMScript.NetServer.NSAddressSyncData.SetCity(String)
+  - CRMScript.NetServer.NSAddressSyncData.SetCounty(String)
+  - CRMScript.NetServer.NSAddressSyncData.SetFormattedAddress(String)
+  - CRMScript.NetServer.NSAddressSyncData.SetLatitude(Float)
+  - CRMScript.NetServer.NSAddressSyncData.SetLongitude(Float)
+  - CRMScript.NetServer.NSAddressSyncData.SetState(String)
+  - CRMScript.NetServer.NSAddressSyncData.SetZipCode(String)
+  name: NSAddressSyncData
+  nameWithType: NSAddressSyncData
+  fullName: CRMScript.NetServer.NSAddressSyncData
+  type: Class
+  summary: "\nCarrier object for AddressSyncData.\n"
+  example: 
+- uid: CRMScript.NetServer.NSAddressSyncData.#ctor
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSAddressSyncData
+  langs:
+  - crmscript
+  name: NSAddressSyncData()
+  nameWithType: NSAddressSyncData.#ctor
+  fullName: CRMScript.NetServer.NSAddressSyncData.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSAddressSyncData class.\n"
+  remarks: 
+  syntax: 
+    content: NSAddressSyncData
+  example: 
+- uid: CRMScript.NetServer.NSAddressSyncData.GetAddress1()
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.GetAddress1()
+  id: 'GetAddress1()'
+  so.intellisense: NSAddressSyncData.GetAddress1
+  langs:
+  - crmscript
+  name: 'GetAddress1()'
+  nameWithType: NSAddressSyncData.GetAddress1()
+  fullName: CRMScript.NetServer.NSAddressSyncData.GetAddress1()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetAddress1()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSAddressSyncData thing;\nString address1 = thing.GetAddress1();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAddressSyncData.GetAddress2()
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.GetAddress2()
+  id: 'GetAddress2()'
+  so.intellisense: NSAddressSyncData.GetAddress2
+  langs:
+  - crmscript
+  name: 'GetAddress2()'
+  nameWithType: NSAddressSyncData.GetAddress2()
+  fullName: CRMScript.NetServer.NSAddressSyncData.GetAddress2()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetAddress2()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSAddressSyncData thing;\nString address2 = thing.GetAddress2();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAddressSyncData.GetAddress3()
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.GetAddress3()
+  id: 'GetAddress3()'
+  so.intellisense: NSAddressSyncData.GetAddress3
+  langs:
+  - crmscript
+  name: 'GetAddress3()'
+  nameWithType: NSAddressSyncData.GetAddress3()
+  fullName: CRMScript.NetServer.NSAddressSyncData.GetAddress3()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetAddress3()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSAddressSyncData thing;\nString address3 = thing.GetAddress3();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAddressSyncData.GetAddressId()
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.GetAddressId()
+  id: 'GetAddressId()'
+  so.intellisense: NSAddressSyncData.GetAddressId
+  langs:
+  - crmscript
+  name: 'GetAddressId()'
+  nameWithType: NSAddressSyncData.GetAddressId()
+  fullName: CRMScript.NetServer.NSAddressSyncData.GetAddressId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAddressId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSAddressSyncData thing;\nInteger addressId = thing.GetAddressId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAddressSyncData.GetAddressType()
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.GetAddressType()
+  id: 'GetAddressType()'
+  so.intellisense: NSAddressSyncData.GetAddressType
+  langs:
+  - crmscript
+  name: 'GetAddressType()'
+  nameWithType: NSAddressSyncData.GetAddressType()
+  fullName: CRMScript.NetServer.NSAddressSyncData.GetAddressType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAddressType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.AddressType\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSAddressSyncData thing;\nInteger addressType = thing.GetAddressType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAddressSyncData.GetCity()
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.GetCity()
+  id: 'GetCity()'
+  so.intellisense: NSAddressSyncData.GetCity
+  langs:
+  - crmscript
+  name: 'GetCity()'
+  nameWithType: NSAddressSyncData.GetCity()
+  fullName: CRMScript.NetServer.NSAddressSyncData.GetCity()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCity()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSAddressSyncData thing;\nString city = thing.GetCity();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAddressSyncData.GetCounty()
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.GetCounty()
+  id: 'GetCounty()'
+  so.intellisense: NSAddressSyncData.GetCounty
+  langs:
+  - crmscript
+  name: 'GetCounty()'
+  nameWithType: NSAddressSyncData.GetCounty()
+  fullName: CRMScript.NetServer.NSAddressSyncData.GetCounty()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCounty()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSAddressSyncData thing;\nString county = thing.GetCounty();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAddressSyncData.GetFormattedAddress()
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.GetFormattedAddress()
+  id: 'GetFormattedAddress()'
+  so.intellisense: NSAddressSyncData.GetFormattedAddress
+  langs:
+  - crmscript
+  name: 'GetFormattedAddress()'
+  nameWithType: NSAddressSyncData.GetFormattedAddress()
+  fullName: CRMScript.NetServer.NSAddressSyncData.GetFormattedAddress()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFormattedAddress()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSAddressSyncData thing;\nString formattedAddress = thing.GetFormattedAddress();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAddressSyncData.GetLatitude()
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.GetLatitude()
+  id: 'GetLatitude()'
+  so.intellisense: NSAddressSyncData.GetLatitude
+  langs:
+  - crmscript
+  name: 'GetLatitude()'
+  nameWithType: NSAddressSyncData.GetLatitude()
+  fullName: CRMScript.NetServer.NSAddressSyncData.GetLatitude()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetLatitude()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description:
+  example: 
+  - "\n<pre><code>NSAddressSyncData thing;\nFloat latitude = thing.GetLatitude();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAddressSyncData.GetLongitude()
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.GetLongitude()
+  id: 'GetLongitude()'
+  so.intellisense: NSAddressSyncData.GetLongitude
+  langs:
+  - crmscript
+  name: 'GetLongitude()'
+  nameWithType: NSAddressSyncData.GetLongitude()
+  fullName: CRMScript.NetServer.NSAddressSyncData.GetLongitude()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetLongitude()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description:
+  example: 
+  - "\n<pre><code>NSAddressSyncData thing;\nFloat longitude = thing.GetLongitude();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAddressSyncData.GetState()
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.GetState()
+  id: 'GetState()'
+  so.intellisense: NSAddressSyncData.GetState
+  langs:
+  - crmscript
+  name: 'GetState()'
+  nameWithType: NSAddressSyncData.GetState()
+  fullName: CRMScript.NetServer.NSAddressSyncData.GetState()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetState()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSAddressSyncData thing;\nString state = thing.GetState();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAddressSyncData.GetZipCode()
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.GetZipCode()
+  id: 'GetZipCode()'
+  so.intellisense: NSAddressSyncData.GetZipCode
+  langs:
+  - crmscript
+  name: 'GetZipCode()'
+  nameWithType: NSAddressSyncData.GetZipCode()
+  fullName: CRMScript.NetServer.NSAddressSyncData.GetZipCode()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetZipCode()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSAddressSyncData thing;\nString zipCode = thing.GetZipCode();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAddressSyncData.SetAddress1(String)
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.SetAddress1(String)
+  id: 'SetAddress1(String)'
+  so.intellisense: NSAddressSyncData.SetAddress1
+  langs:
+  - crmscript
+  name: 'SetAddress1(String)'
+  nameWithType: NSAddressSyncData.SetAddress1(String)
+  fullName: CRMScript.NetServer.NSAddressSyncData.SetAddress1(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAddress1(String address1)
+    parameters:
+    - id: address1
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAddressSyncData thing;\nString address1;\nthing.SetAddress1(address1);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAddressSyncData.SetAddress2(String)
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.SetAddress2(String)
+  id: 'SetAddress2(String)'
+  so.intellisense: NSAddressSyncData.SetAddress2
+  langs:
+  - crmscript
+  name: 'SetAddress2(String)'
+  nameWithType: NSAddressSyncData.SetAddress2(String)
+  fullName: CRMScript.NetServer.NSAddressSyncData.SetAddress2(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAddress2(String address2)
+    parameters:
+    - id: address2
+      type: CRMScript.Global.String
+      description:
+    return:
+      type: CRMScript.Global.Void 
+  example: 
+  - "\n<pre><code>NSAddressSyncData thing;\nString address2;\nthing.SetAddress2(address2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAddressSyncData.SetAddress3(String)
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.SetAddress3(String)
+  id: 'SetAddress3(String)'
+  so.intellisense: NSAddressSyncData.SetAddress3
+  langs:
+  - crmscript
+  name: 'SetAddress3(String)'
+  nameWithType: NSAddressSyncData.SetAddress3(String)
+  fullName: CRMScript.NetServer.NSAddressSyncData.SetAddress3(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAddress3(String address3)
+    parameters:
+    - id: address3
+      type: CRMScript.Global.String
+      description:
+    return:
+      type: CRMScript.Global.Void 
+  example: 
+  - "\n<pre><code>NSAddressSyncData thing;\nString address3;\nthing.SetAddress3(address3);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAddressSyncData.SetAddressId(Integer)
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.SetAddressId(Integer)
+  id: 'SetAddressId(Integer)'
+  so.intellisense: NSAddressSyncData.SetAddressId
+  langs:
+  - crmscript
+  name: 'SetAddressId(Integer)'
+  nameWithType: NSAddressSyncData.SetAddressId(Integer)
+  fullName: CRMScript.NetServer.NSAddressSyncData.SetAddressId(Integer)
+  type: Method
+  summary: "\nPrimary key\n"
+  remarks: 
+  syntax: 
+    content: Void SetAddressId(Integer addressId)
+    parameters:
+    - id: addressId
+      type: CRMScript.Global.Integer
+      description:
+    return:
+      type: CRMScript.Global.Void 
+  example: 
+  - "\n<pre><code>NSAddressSyncData thing;\nInteger addressId;\nthing.SetAddressId(addressId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAddressSyncData.SetAddressType(Integer)
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.SetAddressType(Integer)
+  id: 'SetAddressType(Integer)'
+  so.intellisense: NSAddressSyncData.SetAddressType
+  langs:
+  - crmscript
+  name: 'SetAddressType(Integer)'
+  nameWithType: NSAddressSyncData.SetAddressType(Integer)
+  fullName: CRMScript.NetServer.NSAddressSyncData.SetAddressType(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAddressType(Integer addressType)
+    parameters:
+    - id: addressType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.AddressType\" data-throw-if-not-resolved=\"false\"></xref>"
+    return:
+      type: CRMScript.Global.Void 
+  example: 
+  - "\n<pre><code>NSAddressSyncData thing;\nInteger addressType;\nthing.SetAddressType(addressType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAddressSyncData.SetCity(String)
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.SetCity(String)
+  id: 'SetCity(String)'
+  so.intellisense: NSAddressSyncData.SetCity
+  langs:
+  - crmscript
+  name: 'SetCity(String)'
+  nameWithType: NSAddressSyncData.SetCity(String)
+  fullName: CRMScript.NetServer.NSAddressSyncData.SetCity(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCity(String city)
+    parameters:
+    - id: city
+      type: CRMScript.Global.String
+      description:
+    return:
+      type: CRMScript.Global.Void 
+  example: 
+  - "\n<pre><code>NSAddressSyncData thing;\nString city;\nthing.SetCity(city);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAddressSyncData.SetCounty(String)
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.SetCounty(String)
+  id: 'SetCounty(String)'
+  so.intellisense: NSAddressSyncData.SetCounty
+  langs:
+  - crmscript
+  name: 'SetCounty(String)'
+  nameWithType: NSAddressSyncData.SetCounty(String)
+  fullName: CRMScript.NetServer.NSAddressSyncData.SetCounty(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCounty(String county)
+    parameters:
+    - id: county
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAddressSyncData thing;\nString county;\nthing.SetCounty(county);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAddressSyncData.SetFormattedAddress(String)
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.SetFormattedAddress(String)
+  id: 'SetFormattedAddress(String)'
+  so.intellisense: NSAddressSyncData.SetFormattedAddress
+  langs:
+  - crmscript
+  name: 'SetFormattedAddress(String)'
+  nameWithType: NSAddressSyncData.SetFormattedAddress(String)
+  fullName: CRMScript.NetServer.NSAddressSyncData.SetFormattedAddress(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFormattedAddress(String formattedAddress)
+    parameters:
+    - id: formattedAddress
+      type: CRMScript.Global.String
+      description:
+    return:
+      type: CRMScript.Global.Void 
+  example: 
+  - "\n<pre><code>NSAddressSyncData thing;\nString formattedAddress;\nthing.SetFormattedAddress(formattedAddress);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAddressSyncData.SetLatitude(Float)
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.SetLatitude(Float)
+  id: 'SetLatitude(Float)'
+  so.intellisense: NSAddressSyncData.SetLatitude
+  langs:
+  - crmscript
+  name: 'SetLatitude(Float)'
+  nameWithType: NSAddressSyncData.SetLatitude(Float)
+  fullName: CRMScript.NetServer.NSAddressSyncData.SetLatitude(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLatitude(Float latitude)
+    parameters:
+    - id: latitude
+      type: CRMScript.Global.Float
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAddressSyncData thing;\nFloat latitude;\nthing.SetLatitude(latitude);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAddressSyncData.SetLongitude(Float)
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.SetLongitude(Float)
+  id: 'SetLongitude(Float)'
+  so.intellisense: NSAddressSyncData.SetLongitude
+  langs:
+  - crmscript
+  name: 'SetLongitude(Float)'
+  nameWithType: NSAddressSyncData.SetLongitude(Float)
+  fullName: CRMScript.NetServer.NSAddressSyncData.SetLongitude(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLongitude(Float longitude)
+    parameters:
+    - id: longitude
+      type: CRMScript.Global.Float
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAddressSyncData thing;\nFloat longitude;\nthing.SetLongitude(longitude);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAddressSyncData.SetState(String)
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.SetState(String)
+  id: 'SetState(String)'
+  so.intellisense: NSAddressSyncData.SetState
+  langs:
+  - crmscript
+  name: 'SetState(String)'
+  nameWithType: NSAddressSyncData.SetState(String)
+  fullName: CRMScript.NetServer.NSAddressSyncData.SetState(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetState(String state)
+    parameters:
+    - id: state
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAddressSyncData thing;\nString state;\nthing.SetState(state);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAddressSyncData.SetZipCode(String)
+  commentId: M:CRMScript.NetServer.NSAddressSyncData.SetZipCode(String)
+  id: 'SetZipCode(String)'
+  so.intellisense: NSAddressSyncData.SetZipCode
+  langs:
+  - crmscript
+  name: 'SetZipCode(String)'
+  nameWithType: NSAddressSyncData.SetZipCode(String)
+  fullName: CRMScript.NetServer.NSAddressSyncData.SetZipCode(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetZipCode(String zipCode)
+    parameters:
+    - id: zipCode
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAddressSyncData thing;\nString zipCode;\nthing.SetZipCode(zipCode);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSAddressSyncData
+  commentId: T:CRMScript.NetServer.NSAddressSyncData
+  isExternal: true
+  name: NSAddressSyncData
+  nameWithType: NSAddressSyncData
+  fullName: CRMScript.NetServer.NSAddressSyncData
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Float
+  commentId: T:CRMScript.Global.Float
+  isExternal: true
+  name: Float
+  nameWithType: Float
+  fullName: CRMScript.Global.Float
+- uid: CRMScript.NetServer.AddressType
+  commentId: T:CRMScript.NetServer.AddressType
+  isExternal: true
+  name: AddressType
+  nameWithType: AddressType
+  fullName: CRMScript.NetServer.AddressType
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.AppointmentType
+  commentId: T:CRMScript.NetServer.AppointmentType
+  isExternal: true
+  name: AppointmentType
+  nameWithType: AppointmentType
+  fullName: CRMScript.NetServer.AppointmentType
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

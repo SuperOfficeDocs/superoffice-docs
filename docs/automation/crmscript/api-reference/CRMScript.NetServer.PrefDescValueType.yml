@@ -1,0 +1,245 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.PrefDescValueType
+  # Same as SuperOffice.Data.PrefDescValueType
+  commentId: T:CRMScript.NetServer.PrefDescValueType
+  id: PrefDescValueType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.PrefDescValueType.Unknown
+  - CRMScript.NetServer.PrefDescValueType.Number
+  - CRMScript.NetServer.PrefDescValueType.Text
+  - CRMScript.NetServer.PrefDescValueType.Bool
+  - CRMScript.NetServer.PrefDescValueType.ListOfValues
+  - CRMScript.NetServer.PrefDescValueType.ListTableRef
+  - CRMScript.NetServer.PrefDescValueType.TimeList
+  - CRMScript.NetServer.PrefDescValueType.ContactID
+  - CRMScript.NetServer.PrefDescValueType.PersonID
+  - CRMScript.NetServer.PrefDescValueType.ProjectID
+  - CRMScript.NetServer.PrefDescValueType.SelectionID
+  - CRMScript.NetServer.PrefDescValueType.PosSize
+  - CRMScript.NetServer.PrefDescValueType.TimeZone
+  - CRMScript.NetServer.PrefDescValueType.Time
+  - CRMScript.NetServer.PrefDescValueType.Password
+  - CRMScript.NetServer.PrefDescValueType.MultiLineText
+  name: PrefDescValueType
+  nameWithType: PrefDescValueType
+  fullName: CRMScript.NetServer.PrefDescValueType
+  type: Enum
+  summary: "\nValue for field valueType in table prefdesc.\n"
+- uid: CRMScript.NetServer.PrefDescValueType.Unknown
+  commentId: F:CRMScript.NetServer.PrefDescValueType.Unknown
+  id: PrefDescValueType.Unknown
+  langs:
+  - crmscript
+  name: PrefDescValueType.Unknown
+  nameWithType: PrefDescValueType.Unknown
+  fullName: CRMScript.NetServer.PrefDescValueType.Unknown
+  type: Field
+  summary: "\n0: Unknown - used when initializing\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.PrefDescValueType
+- uid: CRMScript.NetServer.PrefDescValueType.Number
+  commentId: F:CRMScript.NetServer.PrefDescValueType.Number
+  id: PrefDescValueType.Number
+  langs:
+  - crmscript
+  name: PrefDescValueType.Number
+  nameWithType: PrefDescValueType.Number
+  fullName: CRMScript.NetServer.PrefDescValueType.Number
+  type: Field
+  summary: "\n1: Preference value is a number\n"
+  syntax: 
+    content: Number = 1
+    type: CRMScript.NetServer.PrefDescValueType
+- uid: CRMScript.NetServer.PrefDescValueType.Text
+  commentId: F:CRMScript.NetServer.PrefDescValueType.Text
+  id: PrefDescValueType.Text
+  langs:
+  - crmscript
+  name: PrefDescValueType.Text
+  nameWithType: PrefDescValueType.Text
+  fullName: CRMScript.NetServer.PrefDescValueType.Text
+  type: Field
+  summary: "\n2: Preference value is a text (max len 99 characters)\n"
+  syntax: 
+    content: Text = 2
+    type: CRMScript.NetServer.PrefDescValueType
+- uid: CRMScript.NetServer.PrefDescValueType.Bool
+  commentId: F:CRMScript.NetServer.PrefDescValueType.Bool
+  id: PrefDescValueType.Bool
+  langs:
+  - crmscript
+  name: PrefDescValueType.Bool
+  nameWithType: PrefDescValueType.Bool
+  fullName: CRMScript.NetServer.PrefDescValueType.Bool
+  type: Field
+  summary: "\n3: Preference value is boolean\n"
+  syntax: 
+    content: Bool = 3
+    type: CRMScript.NetServer.PrefDescValueType
+- uid: CRMScript.NetServer.PrefDescValueType.ListOfValues
+  commentId: F:CRMScript.NetServer.PrefDescValueType.ListOfValues
+  id: PrefDescValueType.ListOfValues
+  langs:
+  - crmscript
+  name: PrefDescValueType.ListOfValues
+  nameWithType: PrefDescValueType.ListOfValues
+  fullName: CRMScript.NetServer.PrefDescValueType.ListOfValues
+  type: Field
+  summary: "\n4: Preference value is a list of separate value\n"
+  syntax: 
+    content: ListOfValues = 4
+    type: CRMScript.NetServer.PrefDescValueType
+- uid: CRMScript.NetServer.PrefDescValueType.ListTableRef
+  commentId: F:CRMScript.NetServer.PrefDescValueType.ListTableRef
+  id: PrefDescValueType.ListTableRef
+  langs:
+  - crmscript
+  name: PrefDescValueType.ListTableRef
+  nameWithType: PrefDescValueType.ListTableRef
+  fullName: CRMScript.NetServer.PrefDescValueType.ListTableRef
+  type: Field
+  summary: "\n5: Preference value is a record ID in the given MDO list table; maxValue contains the table number.\n"
+  syntax: 
+    content: ListTableRef = 5
+    type: CRMScript.NetServer.PrefDescValueType
+- uid: CRMScript.NetServer.PrefDescValueType.TimeList
+  commentId: F:CRMScript.NetServer.PrefDescValueType.TimeList
+  id: PrefDescValueType.TimeList
+  langs:
+  - crmscript
+  name: PrefDescValueType.TimeList
+  nameWithType: PrefDescValueType.TimeList
+  fullName: CRMScript.NetServer.PrefDescValueType.TimeList
+  type: Field
+  summary: "\n6: Preference value is a time, value is seconds since midnight (28800 = 08:00)\n"
+  syntax: 
+    content: TimeList = 6
+    type: CRMScript.NetServer.PrefDescValueType
+- uid: CRMScript.NetServer.PrefDescValueType.ContactID
+  commentId: F:CRMScript.NetServer.PrefDescValueType.ContactID
+  id: PrefDescValueType.ContactID
+  langs:
+  - crmscript
+  name: PrefDescValueType.ContactID
+  nameWithType: PrefDescValueType.ContactID
+  fullName: CRMScript.NetServer.PrefDescValueType.ContactID
+  type: Field
+  summary: "\n7: Preference value is a contact ID\n"
+  syntax: 
+    content: ContactID = 7
+    type: CRMScript.NetServer.PrefDescValueType
+- uid: CRMScript.NetServer.PrefDescValueType.PersonID
+  commentId: F:CRMScript.NetServer.PrefDescValueType.PersonID
+  id: PrefDescValueType.PersonID
+  langs:
+  - crmscript
+  name: PrefDescValueType.PersonID
+  nameWithType: PrefDescValueType.PersonID
+  fullName: CRMScript.NetServer.PrefDescValueType.PersonID
+  type: Field
+  summary: "\n8: Preference value is a person ID\n"
+  syntax: 
+    content: PersonID = 8
+    type: CRMScript.NetServer.PrefDescValueType
+- uid: CRMScript.NetServer.PrefDescValueType.ProjectID
+  commentId: F:CRMScript.NetServer.PrefDescValueType.ProjectID
+  id: PrefDescValueType.ProjectID
+  langs:
+  - crmscript
+  name: PrefDescValueType.ProjectID
+  nameWithType: PrefDescValueType.ProjectID
+  fullName: CRMScript.NetServer.PrefDescValueType.ProjectID
+  type: Field
+  summary: "\n9: Preference value is a project ID\n"
+  syntax: 
+    content: ProjectID = 9
+    type: CRMScript.NetServer.PrefDescValueType
+- uid: CRMScript.NetServer.PrefDescValueType.SelectionID
+  commentId: F:CRMScript.NetServer.PrefDescValueType.SelectionID
+  id: PrefDescValueType.SelectionID
+  langs:
+  - crmscript
+  name: PrefDescValueType.SelectionID
+  nameWithType: PrefDescValueType.SelectionID
+  fullName: CRMScript.NetServer.PrefDescValueType.SelectionID
+  type: Field
+  summary: "\n10: Preference value is a selection ID\n"
+  syntax: 
+    content: SelectionID = 10
+    type: CRMScript.NetServer.PrefDescValueType
+- uid: CRMScript.NetServer.PrefDescValueType.PosSize
+  commentId: F:CRMScript.NetServer.PrefDescValueType.PosSize
+  id: PrefDescValueType.PosSize
+  langs:
+  - crmscript
+  name: PrefDescValueType.PosSize
+  nameWithType: PrefDescValueType.PosSize
+  fullName: CRMScript.NetServer.PrefDescValueType.PosSize
+  type: Field
+  summary: "\n11: Obsolete: Windows position and size\n"
+  syntax: 
+    content: PosSize = 11
+    type: CRMScript.NetServer.PrefDescValueType
+- uid: CRMScript.NetServer.PrefDescValueType.TimeZone
+  commentId: F:CRMScript.NetServer.PrefDescValueType.TimeZone
+  id: PrefDescValueType.TimeZone
+  langs:
+  - crmscript
+  name: PrefDescValueType.TimeZone
+  nameWithType: PrefDescValueType.TimeZone
+  fullName: CRMScript.NetServer.PrefDescValueType.TimeZone
+  type: Field
+  summary: "\n12: TimeZone location\n"
+  syntax: 
+    content: TimeZone = 12
+    type: CRMScript.NetServer.PrefDescValueType
+- uid: CRMScript.NetServer.PrefDescValueType.Time
+  commentId: F:CRMScript.NetServer.PrefDescValueType.Time
+  id: PrefDescValueType.Time
+  langs:
+  - crmscript
+  name: PrefDescValueType.Time
+  nameWithType: PrefDescValueType.Time
+  fullName: CRMScript.NetServer.PrefDescValueType.Time
+  type: Field
+  summary: "\n13: Time, preference value is 13:45:50\n"
+  syntax: 
+    content: Time = 13
+    type: CRMScript.NetServer.PrefDescValueType
+- uid: CRMScript.NetServer.PrefDescValueType.Password
+  commentId: F:CRMScript.NetServer.PrefDescValueType.Password
+  id: PrefDescValueType.Password
+  langs:
+  - crmscript
+  name: PrefDescValueType.Password
+  nameWithType: PrefDescValueType.Password
+  fullName: CRMScript.NetServer.PrefDescValueType.Password
+  type: Field
+  summary: "\n14: Password, stored as plain text but shown with dots\n"
+  syntax: 
+    content: Password = 14
+    type: CRMScript.NetServer.PrefDescValueType
+- uid: CRMScript.NetServer.PrefDescValueType.MultiLineText
+  commentId: F:CRMScript.NetServer.PrefDescValueType.MultiLineText
+  id: PrefDescValueType.MultiLineText
+  langs:
+  - crmscript
+  name: PrefDescValueType.MultiLineText
+  nameWithType: PrefDescValueType.MultiLineText
+  fullName: CRMScript.NetServer.PrefDescValueType.MultiLineText
+  type: Field
+  summary: "\n15: Multi-line text that preserves line breaks\n"
+  syntax: 
+    content: MultiLineText = 15
+    type: CRMScript.NetServer.PrefDescValueType
+references:
+- uid: CRMScript.NetServer.PrefDescValueType
+  commentId: T:CRMScript.NetServer.PrefDescValueType
+  isExternal: true
+  name: PrefDescValueType
+  nameWithType: PrefDescValueType
+  fullName: CRMScript.NetServer.PrefDescValueType

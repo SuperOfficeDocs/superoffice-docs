@@ -1,0 +1,1055 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSSaleTypeEntity
+  commentId: T:CRMScript.NetServer.NSSaleTypeEntity
+  id: NSSaleTypeEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSSaleTypeEntity.#ctor
+  - CRMScript.NetServer.NSSaleTypeEntity.GetAllowQuoteAlternatives()
+  - CRMScript.NetServer.NSSaleTypeEntity.GetConfirmationLinesTemplate()
+  - CRMScript.NetServer.NSSaleTypeEntity.GetDefaultQuoteValidity()
+  - CRMScript.NetServer.NSSaleTypeEntity.GetDeleted()
+  - CRMScript.NetServer.NSSaleTypeEntity.GetDurationUnit()
+  - CRMScript.NetServer.NSSaleTypeEntity.GetGroupQuoteLinesBy()
+  - CRMScript.NetServer.NSSaleTypeEntity.GetHasGuide()
+  - CRMScript.NetServer.NSSaleTypeEntity.GetHasStakeholders()
+  - CRMScript.NetServer.NSSaleTypeEntity.GetIsAutoAdvance()
+  - CRMScript.NetServer.NSSaleTypeEntity.GetMaxDiscountPercent()
+  - CRMScript.NetServer.NSSaleTypeEntity.GetMaxDiscountPercentSet()
+  - CRMScript.NetServer.NSSaleTypeEntity.GetMinEarningPercent()
+  - CRMScript.NetServer.NSSaleTypeEntity.GetMinEarningPercentSet()
+  - CRMScript.NetServer.NSSaleTypeEntity.GetName()
+  - CRMScript.NetServer.NSSaleTypeEntity.GetQuoteLinesTemplate()
+  - CRMScript.NetServer.NSSaleTypeEntity.GetRank()
+  - CRMScript.NetServer.NSSaleTypeEntity.GetSaleDuration()
+  - CRMScript.NetServer.NSSaleTypeEntity.GetSaleTypeCatId()
+  - CRMScript.NetServer.NSSaleTypeEntity.GetSaleTypeId()
+  - CRMScript.NetServer.NSSaleTypeEntity.GetSortGroupLinesBy()
+  - CRMScript.NetServer.NSSaleTypeEntity.GetStages()
+  - CRMScript.NetServer.NSSaleTypeEntity.GetTooltip()
+  - CRMScript.NetServer.NSSaleTypeEntity.SetAllowQuoteAlternatives(Bool)
+  - CRMScript.NetServer.NSSaleTypeEntity.SetConfirmationLinesTemplate(Integer)
+  - CRMScript.NetServer.NSSaleTypeEntity.SetDefaultQuoteValidity(Integer)
+  - CRMScript.NetServer.NSSaleTypeEntity.SetDeleted(Bool)
+  - CRMScript.NetServer.NSSaleTypeEntity.SetDurationUnit(Integer)
+  - CRMScript.NetServer.NSSaleTypeEntity.SetGroupQuoteLinesBy(Integer)
+  - CRMScript.NetServer.NSSaleTypeEntity.SetHasGuide(Bool)
+  - CRMScript.NetServer.NSSaleTypeEntity.SetHasStakeholders(Bool)
+  - CRMScript.NetServer.NSSaleTypeEntity.SetIsAutoAdvance(Bool)
+  - CRMScript.NetServer.NSSaleTypeEntity.SetMaxDiscountPercent(Integer)
+  - CRMScript.NetServer.NSSaleTypeEntity.SetMaxDiscountPercentSet(Bool)
+  - CRMScript.NetServer.NSSaleTypeEntity.SetMinEarningPercent(Integer)
+  - CRMScript.NetServer.NSSaleTypeEntity.SetMinEarningPercentSet(Bool)
+  - CRMScript.NetServer.NSSaleTypeEntity.SetName(String)
+  - CRMScript.NetServer.NSSaleTypeEntity.SetQuoteLinesTemplate(Integer)
+  - CRMScript.NetServer.NSSaleTypeEntity.SetRank(Integer)
+  - CRMScript.NetServer.NSSaleTypeEntity.SetSaleDuration(Integer)
+  - CRMScript.NetServer.NSSaleTypeEntity.SetSaleTypeCatId(Integer)
+  - CRMScript.NetServer.NSSaleTypeEntity.SetSaleTypeId(Integer)
+  - CRMScript.NetServer.NSSaleTypeEntity.SetSortGroupLinesBy(Integer)
+  - CRMScript.NetServer.NSSaleTypeEntity.SetStages(NSSelectableMDOListItem[])
+  - CRMScript.NetServer.NSSaleTypeEntity.SetTooltip(String)
+  name: NSSaleTypeEntity
+  nameWithType: NSSaleTypeEntity
+  fullName: CRMScript.NetServer.NSSaleTypeEntity
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSSaleTypeEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSSaleTypeEntity
+  langs:
+  - crmscript
+  name: NSSaleTypeEntity()
+  nameWithType: NSSaleTypeEntity.#ctor
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSSaleTypeEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSSaleTypeEntity
+  example: 
+- uid: CRMScript.NetServer.NSSaleTypeEntity.GetAllowQuoteAlternatives()
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetAllowQuoteAlternatives()
+  id: 'GetAllowQuoteAlternatives()'
+  so.intellisense: NSSaleTypeEntity.GetAllowQuoteAlternatives
+  langs:
+  - crmscript
+  name: 'GetAllowQuoteAlternatives()'
+  nameWithType: NSSaleTypeEntity.GetAllowQuoteAlternatives()
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.GetAllowQuoteAlternatives()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetAllowQuoteAlternatives()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Can quotes linked to sales of this type, have multiple Alternatives."
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nBool allowQuoteAlternatives = thing.GetAllowQuoteAlternatives();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.GetConfirmationLinesTemplate()
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetConfirmationLinesTemplate()
+  id: 'GetConfirmationLinesTemplate()'
+  so.intellisense: NSSaleTypeEntity.GetConfirmationLinesTemplate
+  langs:
+  - crmscript
+  name: 'GetConfirmationLinesTemplate()'
+  nameWithType: NSSaleTypeEntity.GetConfirmationLinesTemplate()
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.GetConfirmationLinesTemplate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetConfirmationLinesTemplate()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The template that this sale type should use when producing the order confirmation lines document; the template must have DocTmplQuoteType=ConfirmationLines."
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nInteger confirmationLinesTemplate = thing.GetConfirmationLinesTemplate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.GetDefaultQuoteValidity()
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetDefaultQuoteValidity()
+  id: 'GetDefaultQuoteValidity()'
+  so.intellisense: NSSaleTypeEntity.GetDefaultQuoteValidity
+  langs:
+  - crmscript
+  name: 'GetDefaultQuoteValidity()'
+  nameWithType: NSSaleTypeEntity.GetDefaultQuoteValidity()
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.GetDefaultQuoteValidity()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDefaultQuoteValidity()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Default valid days for quotes linked to sales of this type (valid from quote transmission)."
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nInteger defaultQuoteValidity = thing.GetDefaultQuoteValidity();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.GetDeleted()
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetDeleted()
+  id: 'GetDeleted()'
+  so.intellisense: NSSaleTypeEntity.GetDeleted
+  langs:
+  - crmscript
+  name: 'GetDeleted()'
+  nameWithType: NSSaleTypeEntity.GetDeleted()
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.GetDeleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetDeleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists."
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nBool deleted = thing.GetDeleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.GetDurationUnit()
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetDurationUnit()
+  id: 'GetDurationUnit()'
+  so.intellisense: NSSaleTypeEntity.GetDurationUnit
+  langs:
+  - crmscript
+  name: 'GetDurationUnit()'
+  nameWithType: NSSaleTypeEntity.GetDurationUnit()
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.GetDurationUnit()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDurationUnit()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Units for the duration (day, week, whatever). See <xref href=\"CRMScript.NetServer.DurationUnit\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nInteger durationUnit = thing.GetDurationUnit();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.GetGroupQuoteLinesBy()
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetGroupQuoteLinesBy()
+  id: 'GetGroupQuoteLinesBy()'
+  so.intellisense: NSSaleTypeEntity.GetGroupQuoteLinesBy
+  langs:
+  - crmscript
+  name: 'GetGroupQuoteLinesBy()'
+  nameWithType: NSSaleTypeEntity.GetGroupQuoteLinesBy()
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.GetGroupQuoteLinesBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetGroupQuoteLinesBy()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Group quote lines by this field."
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nInteger groupQuoteLinesBy = thing.GetGroupQuoteLinesBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.GetHasGuide()
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetHasGuide()
+  id: 'GetHasGuide()'
+  so.intellisense: NSSaleTypeEntity.GetHasGuide
+  langs:
+  - crmscript
+  name: 'GetHasGuide()'
+  nameWithType: NSSaleTypeEntity.GetHasGuide()
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.GetHasGuide()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetHasGuide()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Does this sale type have a guide attached."
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nBool hasGuide = thing.GetHasGuide();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.GetHasStakeholders()
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetHasStakeholders()
+  id: 'GetHasStakeholders()'
+  so.intellisense: NSSaleTypeEntity.GetHasStakeholders
+  langs:
+  - crmscript
+  name: 'GetHasStakeholders()'
+  nameWithType: NSSaleTypeEntity.GetHasStakeholders()
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.GetHasStakeholders()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetHasStakeholders()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Does this sale type have stakeholders."
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nBool hasStakeholders = thing.GetHasStakeholders();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.GetIsAutoAdvance()
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetIsAutoAdvance()
+  id: 'GetIsAutoAdvance()'
+  so.intellisense: NSSaleTypeEntity.GetIsAutoAdvance
+  langs:
+  - crmscript
+  name: 'GetIsAutoAdvance()'
+  nameWithType: NSSaleTypeEntity.GetIsAutoAdvance()
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.GetIsAutoAdvance()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsAutoAdvance()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: Does the sale stage advance automatically, when the last guided activity in a stage is completed?
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nBool isAutoAdvance = thing.GetIsAutoAdvance();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.GetMaxDiscountPercent()
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetMaxDiscountPercent()
+  id: 'GetMaxDiscountPercent()'
+  so.intellisense: NSSaleTypeEntity.GetMaxDiscountPercent
+  langs:
+  - crmscript
+  name: 'GetMaxDiscountPercent()'
+  nameWithType: NSSaleTypeEntity.GetMaxDiscountPercent()
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.GetMaxDiscountPercent()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetMaxDiscountPercent()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The maximum discount in percent of total, if set, on quotes linked to sales of this type."
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nInteger maxDiscountPercent = thing.GetMaxDiscountPercent();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.GetMaxDiscountPercentSet()
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetMaxDiscountPercentSet()
+  id: 'GetMaxDiscountPercentSet()'
+  so.intellisense: NSSaleTypeEntity.GetMaxDiscountPercentSet
+  langs:
+  - crmscript
+  name: 'GetMaxDiscountPercentSet()'
+  nameWithType: NSSaleTypeEntity.GetMaxDiscountPercentSet()
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.GetMaxDiscountPercentSet()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetMaxDiscountPercentSet()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Is there a limit, in percent, to the total discount on quotes linked to sales of this type."
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nBool maxDiscountPercentSet = thing.GetMaxDiscountPercentSet();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.GetMinEarningPercent()
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetMinEarningPercent()
+  id: 'GetMinEarningPercent()'
+  so.intellisense: NSSaleTypeEntity.GetMinEarningPercent
+  langs:
+  - crmscript
+  name: 'GetMinEarningPercent()'
+  nameWithType: NSSaleTypeEntity.GetMinEarningPercent()
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.GetMinEarningPercent()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetMinEarningPercent()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The minimum earning in percent of total, if set, on quotes linked to sales of this type."
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nInteger minEarningPercent = thing.GetMinEarningPercent();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.GetMinEarningPercentSet()
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetMinEarningPercentSet()
+  id: 'GetMinEarningPercentSet()'
+  so.intellisense: NSSaleTypeEntity.GetMinEarningPercentSet
+  langs:
+  - crmscript
+  name: 'GetMinEarningPercentSet()'
+  nameWithType: NSSaleTypeEntity.GetMinEarningPercentSet()
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.GetMinEarningPercentSet()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetMinEarningPercentSet()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Is there a limit, in earning as percent of total, on quotes linked to sales of this type."
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nBool minEarningPercentSet = thing.GetMinEarningPercentSet();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSSaleTypeEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSSaleTypeEntity.GetName()
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The list item."
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.GetQuoteLinesTemplate()
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetQuoteLinesTemplate()
+  id: 'GetQuoteLinesTemplate()'
+  so.intellisense: NSSaleTypeEntity.GetQuoteLinesTemplate
+  langs:
+  - crmscript
+  name: 'GetQuoteLinesTemplate()'
+  nameWithType: NSSaleTypeEntity.GetQuoteLinesTemplate()
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.GetQuoteLinesTemplate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetQuoteLinesTemplate()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The template that this sale type should use when producing the product lines offer document; the template must have DocTmplQuoteType=QuoteLines."
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nInteger quoteLinesTemplate = thing.GetQuoteLinesTemplate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.GetRank()
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSSaleTypeEntity.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSSaleTypeEntity.GetRank()
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Rank order."
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.GetSaleDuration()
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetSaleDuration()
+  id: 'GetSaleDuration()'
+  so.intellisense: NSSaleTypeEntity.GetSaleDuration
+  langs:
+  - crmscript
+  name: 'GetSaleDuration()'
+  nameWithType: NSSaleTypeEntity.GetSaleDuration()
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.GetSaleDuration()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSaleDuration()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Expected number of dales from initiation to close of sale."
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nInteger saleDuration = thing.GetSaleDuration();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.GetSaleTypeCatId()
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetSaleTypeCatId()
+  id: 'GetSaleTypeCatId()'
+  so.intellisense: NSSaleTypeEntity.GetSaleTypeCatId
+  langs:
+  - crmscript
+  name: 'GetSaleTypeCatId()'
+  nameWithType: NSSaleTypeEntity.GetSaleTypeCatId()
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.GetSaleTypeCatId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSaleTypeCatId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Category of sale type, copied to sale."
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nInteger saleTypeCatId = thing.GetSaleTypeCatId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.GetSaleTypeId()
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetSaleTypeId()
+  id: 'GetSaleTypeId()'
+  so.intellisense: NSSaleTypeEntity.GetSaleTypeId
+  langs:
+  - crmscript
+  name: 'GetSaleTypeId()'
+  nameWithType: NSSaleTypeEntity.GetSaleTypeId()
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.GetSaleTypeId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSaleTypeId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nInteger saleTypeId = thing.GetSaleTypeId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.GetSortGroupLinesBy()
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetSortGroupLinesBy()
+  id: 'GetSortGroupLinesBy()'
+  so.intellisense: NSSaleTypeEntity.GetSortGroupLinesBy
+  langs:
+  - crmscript
+  name: 'GetSortGroupLinesBy()'
+  nameWithType: NSSaleTypeEntity.GetSortGroupLinesBy()
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.GetSortGroupLinesBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSortGroupLinesBy()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Sort group lines by this field."
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nInteger sortGroupLinesBy = thing.GetSortGroupLinesBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.GetStages()
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetStages()
+  id: 'GetStages()'
+  so.intellisense: NSSaleTypeEntity.GetStages
+  langs:
+  - crmscript
+  name: 'GetStages()'
+  nameWithType: NSSaleTypeEntity.GetStages()
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.GetStages()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSSelectableMDOListItem[] GetStages()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSelectableMDOListItem[]
+      description: "Stages, those associated with this NSSaleType are selected."
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nNSSelectableMDOListItem[] stages = thing.GetStages();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSSaleTypeEntity.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSSaleTypeEntity.GetTooltip()
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.GetTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Tooltip or other description."
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nString tooltip = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.SetAllowQuoteAlternatives(Bool)
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetAllowQuoteAlternatives(Bool)
+  id: 'SetAllowQuoteAlternatives(Bool)'
+  so.intellisense: NSSaleTypeEntity.SetAllowQuoteAlternatives
+  langs:
+  - crmscript
+  name: 'SetAllowQuoteAlternatives(Bool)'
+  nameWithType: NSSaleTypeEntity.SetAllowQuoteAlternatives(Bool)
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.SetAllowQuoteAlternatives(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAllowQuoteAlternatives(Bool allowQuoteAlternatives)
+    parameters:
+    - id: allowQuoteAlternatives
+      type: CRMScript.Global.Bool
+      description: "Can quotes linked to sales of this type, have multiple Alternatives."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nBool allowQuoteAlternatives;\nthing.SetAllowQuoteAlternatives(allowQuoteAlternatives);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.SetConfirmationLinesTemplate(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetConfirmationLinesTemplate(Integer)
+  id: 'SetConfirmationLinesTemplate(Integer)'
+  so.intellisense: NSSaleTypeEntity.SetConfirmationLinesTemplate
+  langs:
+  - crmscript
+  name: 'SetConfirmationLinesTemplate(Integer)'
+  nameWithType: NSSaleTypeEntity.SetConfirmationLinesTemplate(Integer)
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.SetConfirmationLinesTemplate(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetConfirmationLinesTemplate(Integer confirmationLinesTemplate)
+    parameters:
+    - id: confirmationLinesTemplate
+      type: CRMScript.Global.Integer
+      description: "The template that this sale type should use when producing the order confirmation lines document; the template must have DocTmplQuoteType=ConfirmationLines."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nInteger confirmationLinesTemplate;\nthing.SetConfirmationLinesTemplate(confirmationLinesTemplate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.SetDefaultQuoteValidity(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetDefaultQuoteValidity(Integer)
+  id: 'SetDefaultQuoteValidity(Integer)'
+  so.intellisense: NSSaleTypeEntity.SetDefaultQuoteValidity
+  langs:
+  - crmscript
+  name: 'SetDefaultQuoteValidity(Integer)'
+  nameWithType: NSSaleTypeEntity.SetDefaultQuoteValidity(Integer)
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.SetDefaultQuoteValidity(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDefaultQuoteValidity(Integer defaultQuoteValidity)
+    parameters:
+    - id: defaultQuoteValidity
+      type: CRMScript.Global.Integer
+      description: "Default valid days for quotes linked to sales of this type (valid from quote transmission)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nInteger defaultQuoteValidity;\nthing.SetDefaultQuoteValidity(defaultQuoteValidity);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.SetDeleted(Bool)
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetDeleted(Bool)
+  id: 'SetDeleted(Bool)'
+  so.intellisense: NSSaleTypeEntity.SetDeleted
+  langs:
+  - crmscript
+  name: 'SetDeleted(Bool)'
+  nameWithType: NSSaleTypeEntity.SetDeleted(Bool)
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.SetDeleted(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeleted(Bool deleted)
+    parameters:
+    - id: deleted
+      type: CRMScript.Global.Bool
+      description: "0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nBool deleted;\nthing.SetDeleted(deleted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.SetDurationUnit(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetDurationUnit(Integer)
+  id: 'SetDurationUnit(Integer)'
+  so.intellisense: NSSaleTypeEntity.SetDurationUnit
+  langs:
+  - crmscript
+  name: 'SetDurationUnit(Integer)'
+  nameWithType: NSSaleTypeEntity.SetDurationUnit(Integer)
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.SetDurationUnit(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetDurationUnit(Integer durationUnit)
+    parameters:
+    - id: durationUnit
+      type: CRMScript.Global.Integer
+      description: "Units for the duration (day, week, whatever) See <xref href=\"CRMScript.NetServer.DurationUnit\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nInteger durationUnit;\nthing.SetDurationUnit(durationUnit);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.SetGroupQuoteLinesBy(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetGroupQuoteLinesBy(Integer)
+  id: 'SetGroupQuoteLinesBy(Integer)'
+  so.intellisense: NSSaleTypeEntity.SetGroupQuoteLinesBy
+  langs:
+  - crmscript
+  name: 'SetGroupQuoteLinesBy(Integer)'
+  nameWithType: NSSaleTypeEntity.SetGroupQuoteLinesBy(Integer)
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.SetGroupQuoteLinesBy(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetGroupQuoteLinesBy(Integer groupQuoteLinesBy)
+    parameters:
+    - id: groupQuoteLinesBy
+      type: CRMScript.Global.Integer
+      description: "Group quote lines by this field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nInteger groupQuoteLinesBy;\nthing.SetGroupQuoteLinesBy(groupQuoteLinesBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.SetHasGuide(Bool)
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetHasGuide(Bool)
+  id: 'SetHasGuide(Bool)'
+  so.intellisense: NSSaleTypeEntity.SetHasGuide
+  langs:
+  - crmscript
+  name: 'SetHasGuide(Bool)'
+  nameWithType: NSSaleTypeEntity.SetHasGuide(Bool)
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.SetHasGuide(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetHasGuide(Bool hasGuide)
+    parameters:
+    - id: hasGuide
+      type: CRMScript.Global.Bool
+      description: "Does this sale type have a guide attached."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nBool hasGuide;\nthing.SetHasGuide(hasGuide);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.SetHasStakeholders(Bool)
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetHasStakeholders(Bool)
+  id: 'SetHasStakeholders(Bool)'
+  so.intellisense: NSSaleTypeEntity.SetHasStakeholders
+  langs:
+  - crmscript
+  name: 'SetHasStakeholders(Bool)'
+  nameWithType: NSSaleTypeEntity.SetHasStakeholders(Bool)
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.SetHasStakeholders(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetHasStakeholders(Bool hasStakeholders)
+    parameters:
+    - id: hasStakeholders
+      type: CRMScript.Global.Bool
+      description: "Does this sale type have stakeholders."
+    return: 
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nBool hasStakeholders;\nthing.SetHasStakeholders(hasStakeholders);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.SetIsAutoAdvance(Bool)
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetIsAutoAdvance(Bool)
+  id: 'SetIsAutoAdvance(Bool)'
+  so.intellisense: NSSaleTypeEntity.SetIsAutoAdvance
+  langs:
+  - crmscript
+  name: 'SetIsAutoAdvance(Bool)'
+  nameWithType: NSSaleTypeEntity.SetIsAutoAdvance(Bool)
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.SetIsAutoAdvance(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsAutoAdvance(Bool isAutoAdvance)
+    parameters:
+    - id: isAutoAdvance
+      type: CRMScript.Global.Bool
+      description: Does the sale stage advance automatically, when the last guided activity in a stage is completed?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nBool isAutoAdvance;\nthing.SetIsAutoAdvance(isAutoAdvance);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.SetMaxDiscountPercent(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetMaxDiscountPercent(Integer)
+  id: 'SetMaxDiscountPercent(Integer)'
+  so.intellisense: NSSaleTypeEntity.SetMaxDiscountPercent
+  langs:
+  - crmscript
+  name: 'SetMaxDiscountPercent(Integer)'
+  nameWithType: NSSaleTypeEntity.SetMaxDiscountPercent(Integer)
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.SetMaxDiscountPercent(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMaxDiscountPercent(Integer maxDiscountPercent)
+    parameters:
+    - id: maxDiscountPercent
+      type: CRMScript.Global.Integer
+      description: "The maximum discount in percent of total, if set, on quotes linked to sales of this type."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nInteger maxDiscountPercent;\nthing.SetMaxDiscountPercent(maxDiscountPercent);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.SetMaxDiscountPercentSet(Bool)
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetMaxDiscountPercentSet(Bool)
+  id: 'SetMaxDiscountPercentSet(Bool)'
+  so.intellisense: NSSaleTypeEntity.SetMaxDiscountPercentSet
+  langs:
+  - crmscript
+  name: 'SetMaxDiscountPercentSet(Bool)'
+  nameWithType: NSSaleTypeEntity.SetMaxDiscountPercentSet(Bool)
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.SetMaxDiscountPercentSet(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMaxDiscountPercentSet(Bool maxDiscountPercentSet)
+    parameters:
+    - id: maxDiscountPercentSet
+      type: CRMScript.Global.Bool
+      description: "Is there a limit, in percent, to the total discount on quotes linked to sales of this type."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nBool maxDiscountPercentSet;\nthing.SetMaxDiscountPercentSet(maxDiscountPercentSet);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.SetMinEarningPercent(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetMinEarningPercent(Integer)
+  id: 'SetMinEarningPercent(Integer)'
+  so.intellisense: NSSaleTypeEntity.SetMinEarningPercent
+  langs:
+  - crmscript
+  name: 'SetMinEarningPercent(Integer)'
+  nameWithType: NSSaleTypeEntity.SetMinEarningPercent(Integer)
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.SetMinEarningPercent(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMinEarningPercent(Integer minEarningPercent)
+    parameters:
+    - id: minEarningPercent
+      type: CRMScript.Global.Integer
+      description: "The minimum earning in percent of total, if set, on quotes linked to sales of this type."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nInteger minEarningPercent;\nthing.SetMinEarningPercent(minEarningPercent);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.SetMinEarningPercentSet(Bool)
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetMinEarningPercentSet(Bool)
+  id: 'SetMinEarningPercentSet(Bool)'
+  so.intellisense: NSSaleTypeEntity.SetMinEarningPercentSet
+  langs:
+  - crmscript
+  name: 'SetMinEarningPercentSet(Bool)'
+  nameWithType: NSSaleTypeEntity.SetMinEarningPercentSet(Bool)
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.SetMinEarningPercentSet(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMinEarningPercentSet(Bool minEarningPercentSet)
+    parameters:
+    - id: minEarningPercentSet
+      type: CRMScript.Global.Bool
+      description: "Is there a limit, in earning as percent of total, on quotes linked to sales of this type."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nBool minEarningPercentSet;\nthing.SetMinEarningPercentSet(minEarningPercentSet);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSSaleTypeEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSSaleTypeEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The list item."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.SetQuoteLinesTemplate(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetQuoteLinesTemplate(Integer)
+  id: 'SetQuoteLinesTemplate(Integer)'
+  so.intellisense: NSSaleTypeEntity.SetQuoteLinesTemplate
+  langs:
+  - crmscript
+  name: 'SetQuoteLinesTemplate(Integer)'
+  nameWithType: NSSaleTypeEntity.SetQuoteLinesTemplate(Integer)
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.SetQuoteLinesTemplate(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetQuoteLinesTemplate(Integer quoteLinesTemplate)
+    parameters:
+    - id: quoteLinesTemplate
+      type: CRMScript.Global.Integer
+      description: "The template that this sale type should use when producing the product lines offer document; the template must have DocTmplQuoteType=QuoteLines."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nInteger quoteLinesTemplate;\nthing.SetQuoteLinesTemplate(quoteLinesTemplate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSSaleTypeEntity.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSSaleTypeEntity.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "Rank order."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.SetSaleDuration(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetSaleDuration(Integer)
+  id: 'SetSaleDuration(Integer)'
+  so.intellisense: NSSaleTypeEntity.SetSaleDuration
+  langs:
+  - crmscript
+  name: 'SetSaleDuration(Integer)'
+  nameWithType: NSSaleTypeEntity.SetSaleDuration(Integer)
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.SetSaleDuration(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSaleDuration(Integer saleDuration)
+    parameters:
+    - id: saleDuration
+      type: CRMScript.Global.Integer
+      description: "Expected number of dales from initiation to close of sale."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nInteger saleDuration;\nthing.SetSaleDuration(saleDuration);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.SetSaleTypeCatId(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetSaleTypeCatId(Integer)
+  id: 'SetSaleTypeCatId(Integer)'
+  so.intellisense: NSSaleTypeEntity.SetSaleTypeCatId
+  langs:
+  - crmscript
+  name: 'SetSaleTypeCatId(Integer)'
+  nameWithType: NSSaleTypeEntity.SetSaleTypeCatId(Integer)
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.SetSaleTypeCatId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSaleTypeCatId(Integer saleTypeCatId)
+    parameters:
+    - id: saleTypeCatId
+      type: CRMScript.Global.Integer
+      description: "Category of sale type, copied to sale."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nInteger saleTypeCatId;\nthing.SetSaleTypeCatId(saleTypeCatId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.SetSaleTypeId(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetSaleTypeId(Integer)
+  id: 'SetSaleTypeId(Integer)'
+  so.intellisense: NSSaleTypeEntity.SetSaleTypeId
+  langs:
+  - crmscript
+  name: 'SetSaleTypeId(Integer)'
+  nameWithType: NSSaleTypeEntity.SetSaleTypeId(Integer)
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.SetSaleTypeId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSaleTypeId(Integer saleTypeId)
+    parameters:
+    - id: saleTypeId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nInteger saleTypeId;\nthing.SetSaleTypeId(saleTypeId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.SetSortGroupLinesBy(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetSortGroupLinesBy(Integer)
+  id: 'SetSortGroupLinesBy(Integer)'
+  so.intellisense: NSSaleTypeEntity.SetSortGroupLinesBy
+  langs:
+  - crmscript
+  name: 'SetSortGroupLinesBy(Integer)'
+  nameWithType: NSSaleTypeEntity.SetSortGroupLinesBy(Integer)
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.SetSortGroupLinesBy(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSortGroupLinesBy(Integer sortGroupLinesBy)
+    parameters:
+    - id: sortGroupLinesBy
+      type: CRMScript.Global.Integer
+      description: "Sort group lines by this field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nInteger sortGroupLinesBy;\nthing.SetSortGroupLinesBy(sortGroupLinesBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.SetStages(NSSelectableMDOListItem[])
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetStages(NSSelectableMDOListItem[])
+  id: 'SetStages(NSSelectableMDOListItem[])'
+  so.intellisense: NSSaleTypeEntity.SetStages
+  langs:
+  - crmscript
+  name: 'SetStages(NSSelectableMDOListItem[])'
+  nameWithType: NSSaleTypeEntity.SetStages(NSSelectableMDOListItem[])
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.SetStages(NSSelectableMDOListItem[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetStages(NSSelectableMDOListItem[] stages)
+    parameters:
+    - id: stages
+      type: CRMScript.NetServer.NSSelectableMDOListItem[]
+      description: "Stages, those associated with this NSSaleType are selected."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nNSSelectableMDOListItem[] stages;\nthing.SetStages(stages);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleTypeEntity.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSSaleTypeEntity.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSSaleTypeEntity.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSSaleTypeEntity.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSSaleTypeEntity.SetTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: "Tooltip or other description."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleTypeEntity thing;\nString tooltip;\nthing.SetTooltip(tooltip);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSSaleTypeEntity
+  commentId: T:CRMScript.NetServer.NSSaleTypeEntity
+  isExternal: true
+  name: NSSaleTypeEntity
+  nameWithType: NSSaleTypeEntity
+  fullName: CRMScript.NetServer.NSSaleTypeEntity
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSSelectableMDOListItem[]
+  isExternal: true
+  name: NSSelectableMDOListItem[]
+  nameWithType: NSSelectableMDOListItem[]
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSSelectableMDOListItem
+    isExternal: true
+    name: NSSelectableMDOListItem
+    nameWithType: NSSelectableMDOListItem
+    fullName: CRMScript.NetServer.NSSelectableMDOListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSSelectableMDOListItem
+  commentId: T:CRMScript.NetServer.NSSelectableMDOListItem
+  isExternal: true
+  name: NSSelectableMDOListItem
+  nameWithType: NSSelectableMDOListItem
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.DurationUnit
+  commentId: T:CRMScript.NetServer.DurationUnit
+  isExternal: true
+  name: DurationUnit
+  nameWithType: DurationUnit
+  fullName: CRMScript.NetServer.DurationUnit

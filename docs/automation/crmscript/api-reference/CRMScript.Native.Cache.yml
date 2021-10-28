@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.Cache
+  commentId: T:CRMScript.Native.Cache
+  id: Cache
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.Cache.#ctor
+  - CRMScript.Native.Cache.eof()
+  - CRMScript.Native.Cache.first()
+  - CRMScript.Native.Cache.getData(String)
+  - CRMScript.Native.Cache.getDataSubset(String,String,String)
+  - CRMScript.Native.Cache.getRow()
+  - CRMScript.Native.Cache.next()
+  - CRMScript.Native.Cache.sort(String,Bool)
+  name: Cache
+  nameWithType: Cache
+  fullName: CRMScript.Native.Cache
+  type: Class
+  summary: "\nCache to often used db tables and structures and retrieve them in a useful and structured fashion\n"
+  example: 
+- uid: CRMScript.Native.Cache.#ctor
+  commentId: M:CRMScript.Native.Cache.#ctor
+  id: '#ctor'
+  so.intellisense: Void.Cache
+  langs:
+  - crmscript
+  name: Cache()
+  nameWithType: Cache.#ctor
+  fullName: CRMScript.Native.Cache.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the Cache class.\n"
+  remarks: 
+  syntax: 
+    content: Cache
+  example: 
+- uid: CRMScript.Native.Cache.eof()
+  commentId: M:CRMScript.Native.Cache.eof()
+  id: 'eof()'
+  so.intellisense: Cache.eof
+  langs:
+  - crmscript
+  name: 'eof()'
+  nameWithType: Cache.eof()
+  fullName: CRMScript.Native.Cache.eof()
+  type: Method
+  summary: "\nChecks if there are no more fields in the result.\n"
+  remarks: "\nA common usage is in the condition section in a for loop.\n"
+  syntax: 
+    content: Bool eof()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if it is at end of file or there are no more fields to iterate through; otherwise, false."
+  example: 
+- uid: CRMScript.Native.Cache.first()
+  commentId: M:CRMScript.Native.Cache.first()
+  id: 'first()'
+  so.intellisense: Cache.first
+  langs:
+  - crmscript
+  name: 'first()'
+  nameWithType: Cache.first()
+  fullName: CRMScript.Native.Cache.first()
+  type: Method
+  summary: "\nSets the iterator variable to the first field in the field set.\n"
+  remarks: 
+  syntax: 
+    content: Bool first()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "False if the field set is empty; otherwise, true."
+  example: 
+- uid: CRMScript.Native.Cache.getData(String)
+  commentId: M:CRMScript.Native.Cache.getData(String)
+  id: 'getData(String)'
+  so.intellisense: Cache.getData
+  langs:
+  - crmscript
+  name: 'getData(String)'
+  nameWithType: Cache.getData(String)
+  fullName: CRMScript.Native.Cache.getData(String)
+  type: Method
+  summary: "\nThis function will return data from a cached table.\n"
+  remarks: 
+  syntax: 
+    content: String getData(String tableId)
+    parameters:
+    - id: tableId
+      type: CRMScript.Global.String
+      description: "The table to return data from."
+    return:
+      type: CRMScript.Global.String
+      description: "Data from the cached table specified in tableId."
+  example: 
+- uid: CRMScript.Native.Cache.getDataSubset(String,String,String)
+  commentId: M:CRMScript.Native.Cache.getDataSubset(String,String,String)
+  id: 'getDataSubset(String,String,String)'
+  so.intellisense: Cache.getDataSubset
+  langs:
+  - crmscript
+  name: 'getDataSubset(String,String,String)'
+  nameWithType: Cache.getDataSubset(String,String,String)
+  fullName: CRMScript.Native.Cache.getDataSubset(String,String,String)
+  type: Method
+  summary: "\nReturns a subset of the data for a cached table based on a filter, where a field must have a given value.\n"
+  remarks: 
+  syntax: 
+    content: getDataSubset(String tableId, String filterField, String filterValue)
+    parameters:
+    - id: tableId
+      type: CRMScript.Global.String
+      description: "The table to return."
+    - id: filterField
+      type: CRMScript.Global.String
+      description: "The field to use for filtering."
+    - id: filterValue
+      type: CRMScript.Global.String
+      description: "The value to compare filterField with to include a row."
+    return:
+      type: CRMScript.Global.String
+      description: "The rows from the table where filterField = filterValue."
+  example: 
+- uid: CRMScript.Native.Cache.getRow()
+  commentId: M:CRMScript.Native.Cache.getRow()
+  id: 'getRow()'
+  so.intellisense: Cache.getRow
+  langs:
+  - crmscript
+  name: 'getRow()'
+  nameWithType: Cache.getRow()
+  fullName: CRMScript.Native.Cache.getRow()
+  type: Method
+  summary: "\nReturns a row of fields.\n"
+  remarks: 
+  syntax: 
+    content: Map getRow()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description: "A row of fields."
+  example: 
+- uid: CRMScript.Native.Cache.next()
+  commentId: M:CRMScript.Native.Cache.next()
+  id: 'next()'
+  so.intellisense: Cache.next
+  langs:
+  - crmscript
+  name: 'next()'
+  nameWithType: Cache.next()
+  fullName: CRMScript.Native.Cache.next()
+  type: Method
+  summary: "\nSets the iterator to the next field.\n"
+  remarks: 
+  syntax: 
+    content: Bool next()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "False if at end of file or the field set is empty; otherwise, true."
+  example: 
+- uid: CRMScript.Native.Cache.sort(String,Bool)
+  commentId: M:CRMScript.Native.Cache.sort(String,Bool)
+  id: 'sort(String,Bool)'
+  so.intellisense: Cache.sort
+  langs:
+  - crmscript
+  name: 'sort(String,Bool)'
+  nameWithType: Cache.sort(String,Bool)
+  fullName: CRMScript.Native.Cache.sort(String,Bool)
+  type: Method
+  summary: "\nSorts the cached data by given field in given order.\n"
+  remarks: 
+  syntax: 
+    content: sort(String field, Bool order)
+    parameters:
+    - id: field
+      type: CRMScript.Global.String
+      description: "The field to sort by"
+    - id: order
+      type: CRMScript.Global.Bool
+      description: "False will sort in an ascending order, true in a descending order."
+  example: 
+references:
+- uid: CRMScript.Native.Cache
+  commentId: T:CRMScript.Native.Cache
+  isExternal: true
+  name: Cache
+  nameWithType: Cache
+  fullName: CRMScript.Native.Cache
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Native.Map
+  commentId: T:CRMScript.Native.Map
+  isExternal: true
+  name: Map
+  nameWithType: Map
+  fullName: CRMScript.Native.Map

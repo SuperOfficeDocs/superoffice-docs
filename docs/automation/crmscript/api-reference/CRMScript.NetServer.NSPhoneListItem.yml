@@ -1,0 +1,495 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSPhoneListItem
+  commentId: T:CRMScript.NetServer.NSPhoneListItem
+  id: NSPhoneListItem
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSPhoneListItem.#ctor
+  - CRMScript.NetServer.NSPhoneListItem.GetId()
+  - CRMScript.NetServer.NSPhoneListItem.GetName()
+  - CRMScript.NetServer.NSPhoneListItem.GetPersonCellPhone()
+  - CRMScript.NetServer.NSPhoneListItem.GetPersonDirectPhone()
+  - CRMScript.NetServer.NSPhoneListItem.GetPersonEmail()
+  - CRMScript.NetServer.NSPhoneListItem.GetPersonFaxNumber()
+  - CRMScript.NetServer.NSPhoneListItem.GetPersonPagerNumber()
+  - CRMScript.NetServer.NSPhoneListItem.GetPersonPrivatePhone()
+  - CRMScript.NetServer.NSPhoneListItem.GetTooltip()
+  - CRMScript.NetServer.NSPhoneListItem.GetUniqueId()
+  - CRMScript.NetServer.NSPhoneListItem.SetId(Integer)
+  - CRMScript.NetServer.NSPhoneListItem.SetName(String)
+  - CRMScript.NetServer.NSPhoneListItem.SetPersonCellPhone(String)
+  - CRMScript.NetServer.NSPhoneListItem.SetPersonDirectPhone(String)
+  - CRMScript.NetServer.NSPhoneListItem.SetPersonEmail(String)
+  - CRMScript.NetServer.NSPhoneListItem.SetPersonFaxNumber(String)
+  - CRMScript.NetServer.NSPhoneListItem.SetPersonPagerNumber(String)
+  - CRMScript.NetServer.NSPhoneListItem.SetPersonPrivatePhone(String)
+  - CRMScript.NetServer.NSPhoneListItem.SetTooltip(String)
+  - CRMScript.NetServer.NSPhoneListItem.SetUniqueId(String)
+  name: NSPhoneListItem
+  nameWithType: NSPhoneListItem
+  fullName: CRMScript.NetServer.NSPhoneListItem
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSPhoneListItem.#ctor
+  commentId: M:CRMScript.NetServer.NSPhoneListItem.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSPhoneListItem
+  langs:
+  - crmscript
+  name: NSPhoneListItem()
+  nameWithType: NSPhoneListItem.#ctor
+  fullName: CRMScript.NetServer.NSPhoneListItem.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSPhoneListItem class.\n"
+  remarks: 
+  syntax: 
+    content: NSPhoneListItem
+  example: 
+- uid: CRMScript.NetServer.NSPhoneListItem.GetId()
+  commentId: M:CRMScript.NetServer.NSPhoneListItem.GetId()
+  id: 'GetId()'
+  so.intellisense: NSPhoneListItem.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSPhoneListItem.GetId()
+  fullName: CRMScript.NetServer.NSPhoneListItem.GetId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The contact or person's Id."
+  example: 
+  - "\n<pre><code>NSPhoneListItem thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListItem.GetName()
+  commentId: M:CRMScript.NetServer.NSPhoneListItem.GetName()
+  id: 'GetName()'
+  so.intellisense: NSPhoneListItem.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSPhoneListItem.GetName()
+  fullName: CRMScript.NetServer.NSPhoneListItem.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The contact or person's name."
+  example: 
+  - "\n<pre><code>NSPhoneListItem thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListItem.GetPersonCellPhone()
+  commentId: M:CRMScript.NetServer.NSPhoneListItem.GetPersonCellPhone()
+  id: 'GetPersonCellPhone()'
+  so.intellisense: NSPhoneListItem.GetPersonCellPhone
+  langs:
+  - crmscript
+  name: 'GetPersonCellPhone()'
+  nameWithType: NSPhoneListItem.GetPersonCellPhone()
+  fullName: CRMScript.NetServer.NSPhoneListItem.GetPersonCellPhone()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPersonCellPhone()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Person Cell Phone."
+  example: 
+  - "\n<pre><code>NSPhoneListItem thing;\nString personCellPhone = thing.GetPersonCellPhone();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListItem.GetPersonDirectPhone()
+  commentId: M:CRMScript.NetServer.NSPhoneListItem.GetPersonDirectPhone()
+  id: 'GetPersonDirectPhone()'
+  so.intellisense: NSPhoneListItem.GetPersonDirectPhone
+  langs:
+  - crmscript
+  name: 'GetPersonDirectPhone()'
+  nameWithType: NSPhoneListItem.GetPersonDirectPhone()
+  fullName: CRMScript.NetServer.NSPhoneListItem.GetPersonDirectPhone()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPersonDirectPhone()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Person Direct Phone."
+  example: 
+  - "\n<pre><code>NSPhoneListItem thing;\nString personDirectPhone = thing.GetPersonDirectPhone();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListItem.GetPersonEmail()
+  commentId: M:CRMScript.NetServer.NSPhoneListItem.GetPersonEmail()
+  id: 'GetPersonEmail()'
+  so.intellisense: NSPhoneListItem.GetPersonEmail
+  langs:
+  - crmscript
+  name: 'GetPersonEmail()'
+  nameWithType: NSPhoneListItem.GetPersonEmail()
+  fullName: CRMScript.NetServer.NSPhoneListItem.GetPersonEmail()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPersonEmail()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The address itself."
+  example: 
+  - "\n<pre><code>NSPhoneListItem thing;\nString personEmail = thing.GetPersonEmail();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListItem.GetPersonFaxNumber()
+  commentId: M:CRMScript.NetServer.NSPhoneListItem.GetPersonFaxNumber()
+  id: 'GetPersonFaxNumber()'
+  so.intellisense: NSPhoneListItem.GetPersonFaxNumber
+  langs:
+  - crmscript
+  name: 'GetPersonFaxNumber()'
+  nameWithType: NSPhoneListItem.GetPersonFaxNumber()
+  fullName: CRMScript.NetServer.NSPhoneListItem.GetPersonFaxNumber()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPersonFaxNumber()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Actual phone number as entered by the user."
+  example: 
+  - "\n<pre><code>NSPhoneListItem thing;\nString personFaxNumber = thing.GetPersonFaxNumber();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListItem.GetPersonPagerNumber()
+  commentId: M:CRMScript.NetServer.NSPhoneListItem.GetPersonPagerNumber()
+  id: 'GetPersonPagerNumber()'
+  so.intellisense: NSPhoneListItem.GetPersonPagerNumber
+  langs:
+  - crmscript
+  name: 'GetPersonPagerNumber()'
+  nameWithType: NSPhoneListItem.GetPersonPagerNumber()
+  fullName: CRMScript.NetServer.NSPhoneListItem.GetPersonPagerNumber()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPersonPagerNumber()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Actual phone number as entered by the user."
+  example: 
+  - "\n<pre><code>NSPhoneListItem thing;\nString personPagerNumber = thing.GetPersonPagerNumber();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListItem.GetPersonPrivatePhone()
+  commentId: M:CRMScript.NetServer.NSPhoneListItem.GetPersonPrivatePhone()
+  id: 'GetPersonPrivatePhone()'
+  so.intellisense: NSPhoneListItem.GetPersonPrivatePhone
+  langs:
+  - crmscript
+  name: 'GetPersonPrivatePhone()'
+  nameWithType: NSPhoneListItem.GetPersonPrivatePhone()
+  fullName: CRMScript.NetServer.NSPhoneListItem.GetPersonPrivatePhone()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPersonPrivatePhone()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Person Private Phone."
+  example: 
+  - "\n<pre><code>NSPhoneListItem thing;\nString personPrivatePhone = thing.GetPersonPrivatePhone();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListItem.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSPhoneListItem.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSPhoneListItem.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSPhoneListItem.GetTooltip()
+  fullName: CRMScript.NetServer.NSPhoneListItem.GetTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSPhoneListItem thing;\nString tooltip = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListItem.GetUniqueId()
+  commentId: M:CRMScript.NetServer.NSPhoneListItem.GetUniqueId()
+  id: 'GetUniqueId()'
+  so.intellisense: NSPhoneListItem.GetUniqueId
+  langs:
+  - crmscript
+  name: 'GetUniqueId()'
+  nameWithType: NSPhoneListItem.GetUniqueId()
+  fullName: CRMScript.NetServer.NSPhoneListItem.GetUniqueId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetUniqueId()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Property setting a unique id indicating if this is a person or contact."
+  example: 
+  - "\n<pre><code>NSPhoneListItem thing;\nString uniqueId = thing.GetUniqueId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListItem.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSPhoneListItem.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSPhoneListItem.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSPhoneListItem.SetId(Integer)
+  fullName: CRMScript.NetServer.NSPhoneListItem.SetId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "The contact or person's Id."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPhoneListItem thing;\nInteger id;\nthing.SetId(id);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListItem.SetName(String)
+  commentId: M:CRMScript.NetServer.NSPhoneListItem.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSPhoneListItem.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSPhoneListItem.SetName(String)
+  fullName: CRMScript.NetServer.NSPhoneListItem.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The contact or person's name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPhoneListItem thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListItem.SetPersonCellPhone(String)
+  commentId: M:CRMScript.NetServer.NSPhoneListItem.SetPersonCellPhone(String)
+  id: 'SetPersonCellPhone(String)'
+  so.intellisense: NSPhoneListItem.SetPersonCellPhone
+  langs:
+  - crmscript
+  name: 'SetPersonCellPhone(String)'
+  nameWithType: NSPhoneListItem.SetPersonCellPhone(String)
+  fullName: CRMScript.NetServer.NSPhoneListItem.SetPersonCellPhone(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonCellPhone(String personCellPhone)
+    parameters:
+    - id: personCellPhone
+      type: CRMScript.Global.String
+      description: "Person Cell Phone."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPhoneListItem thing;\nString personCellPhone;\nthing.SetPersonCellPhone(personCellPhone);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListItem.SetPersonDirectPhone(String)
+  commentId: M:CRMScript.NetServer.NSPhoneListItem.SetPersonDirectPhone(String)
+  id: 'SetPersonDirectPhone(String)'
+  so.intellisense: NSPhoneListItem.SetPersonDirectPhone
+  langs:
+  - crmscript
+  name: 'SetPersonDirectPhone(String)'
+  nameWithType: NSPhoneListItem.SetPersonDirectPhone(String)
+  fullName: CRMScript.NetServer.NSPhoneListItem.SetPersonDirectPhone(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonDirectPhone(String personDirectPhone)
+    parameters:
+    - id: personDirectPhone
+      type: CRMScript.Global.String
+      description: "Person Direct Phone."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPhoneListItem thing;\nString personDirectPhone;\nthing.SetPersonDirectPhone(personDirectPhone);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListItem.SetPersonEmail(String)
+  commentId: M:CRMScript.NetServer.NSPhoneListItem.SetPersonEmail(String)
+  id: 'SetPersonEmail(String)'
+  so.intellisense: NSPhoneListItem.SetPersonEmail
+  langs:
+  - crmscript
+  name: 'SetPersonEmail(String)'
+  nameWithType: NSPhoneListItem.SetPersonEmail(String)
+  fullName: CRMScript.NetServer.NSPhoneListItem.SetPersonEmail(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonEmail(String personEmail)
+    parameters:
+    - id: personEmail
+      type: CRMScript.Global.String
+      description: "The address itself."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPhoneListItem thing;\nString personEmail;\nthing.SetPersonEmail(personEmail);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListItem.SetPersonFaxNumber(String)
+  commentId: M:CRMScript.NetServer.NSPhoneListItem.SetPersonFaxNumber(String)
+  id: 'SetPersonFaxNumber(String)'
+  so.intellisense: NSPhoneListItem.SetPersonFaxNumber
+  langs:
+  - crmscript
+  name: 'SetPersonFaxNumber(String)'
+  nameWithType: NSPhoneListItem.SetPersonFaxNumber(String)
+  fullName: CRMScript.NetServer.NSPhoneListItem.SetPersonFaxNumber(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonFaxNumber(String personFaxNumber)
+    parameters:
+    - id: personFaxNumber
+      type: CRMScript.Global.String
+      description: "Actual phone number as entered by the user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPhoneListItem thing;\nString personFaxNumber;\nthing.SetPersonFaxNumber(personFaxNumber);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListItem.SetPersonPagerNumber(String)
+  commentId: M:CRMScript.NetServer.NSPhoneListItem.SetPersonPagerNumber(String)
+  id: 'SetPersonPagerNumber(String)'
+  so.intellisense: NSPhoneListItem.SetPersonPagerNumber
+  langs:
+  - crmscript
+  name: 'SetPersonPagerNumber(String)'
+  nameWithType: NSPhoneListItem.SetPersonPagerNumber(String)
+  fullName: CRMScript.NetServer.NSPhoneListItem.SetPersonPagerNumber(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonPagerNumber(String personPagerNumber)
+    parameters:
+    - id: personPagerNumber
+      type: CRMScript.Global.String
+      description: "Actual phone number as entered by the user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPhoneListItem thing;\nString personPagerNumber;\nthing.SetPersonPagerNumber(personPagerNumber);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListItem.SetPersonPrivatePhone(String)
+  commentId: M:CRMScript.NetServer.NSPhoneListItem.SetPersonPrivatePhone(String)
+  id: 'SetPersonPrivatePhone(String)'
+  so.intellisense: NSPhoneListItem.SetPersonPrivatePhone
+  langs:
+  - crmscript
+  name: 'SetPersonPrivatePhone(String)'
+  nameWithType: NSPhoneListItem.SetPersonPrivatePhone(String)
+  fullName: CRMScript.NetServer.NSPhoneListItem.SetPersonPrivatePhone(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonPrivatePhone(String personPrivatePhone)
+    parameters:
+    - id: personPrivatePhone
+      type: CRMScript.Global.String
+      description: "Person Private Phone."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPhoneListItem thing;\nString personPrivatePhone;\nthing.SetPersonPrivatePhone(personPrivatePhone);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListItem.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSPhoneListItem.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSPhoneListItem.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSPhoneListItem.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSPhoneListItem.SetTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPhoneListItem thing;\nString tooltip;\nthing.SetTooltip(tooltip);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListItem.SetUniqueId(String)
+  commentId: M:CRMScript.NetServer.NSPhoneListItem.SetUniqueId(String)
+  id: 'SetUniqueId(String)'
+  so.intellisense: NSPhoneListItem.SetUniqueId
+  langs:
+  - crmscript
+  name: 'SetUniqueId(String)'
+  nameWithType: NSPhoneListItem.SetUniqueId(String)
+  fullName: CRMScript.NetServer.NSPhoneListItem.SetUniqueId(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUniqueId(String uniqueId)
+    parameters:
+    - id: uniqueId
+      type: CRMScript.Global.String
+      description: "Property setting a unique id indicating if this is a person or contact."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPhoneListItem thing;\nString uniqueId;\nthing.SetUniqueId(uniqueId);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSPhoneListItem
+  commentId: T:CRMScript.NetServer.NSPhoneListItem
+  isExternal: true
+  name: NSPhoneListItem
+  nameWithType: NSPhoneListItem
+  fullName: CRMScript.NetServer.NSPhoneListItem
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

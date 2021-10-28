@@ -1,0 +1,325 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSParticipantInfo
+  commentId: T:CRMScript.NetServer.NSParticipantInfo
+  id: NSParticipantInfo
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSParticipantInfo.#ctor
+  - CRMScript.NetServer.NSParticipantInfo.GetAssociateId()
+  - CRMScript.NetServer.NSParticipantInfo.GetContactId()
+  - CRMScript.NetServer.NSParticipantInfo.GetEmailId()
+  - CRMScript.NetServer.NSParticipantInfo.GetInvitationStatus()
+  - CRMScript.NetServer.NSParticipantInfo.GetPersonId()
+  - CRMScript.NetServer.NSParticipantInfo.GetSendEmail()
+  - CRMScript.NetServer.NSParticipantInfo.SetAssociateId(Integer)
+  - CRMScript.NetServer.NSParticipantInfo.SetContactId(Integer)
+  - CRMScript.NetServer.NSParticipantInfo.SetEmailId(Integer)
+  - CRMScript.NetServer.NSParticipantInfo.SetInvitationStatus(Integer)
+  - CRMScript.NetServer.NSParticipantInfo.SetPersonId(Integer)
+  - CRMScript.NetServer.NSParticipantInfo.SetSendEmail(Bool)
+  name: NSParticipantInfo
+  nameWithType: NSParticipantInfo
+  fullName: CRMScript.NetServer.NSParticipantInfo
+  type: Class
+  summary: "\nRepresents an appointment participant.\n"
+  example: 
+- uid: CRMScript.NetServer.NSParticipantInfo.#ctor
+  commentId: M:CRMScript.NetServer.NSParticipantInfo.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSParticipantInfo
+  langs:
+  - crmscript
+  name: NSParticipantInfo()
+  nameWithType: NSParticipantInfo.#ctor
+  fullName: CRMScript.NetServer.NSParticipantInfo.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSParticipantInfo class.\n"
+  remarks: 
+  syntax: 
+    content: NSParticipantInfo
+  example: 
+- uid: CRMScript.NetServer.NSParticipantInfo.GetAssociateId()
+  commentId: M:CRMScript.NetServer.NSParticipantInfo.GetAssociateId()
+  id: 'GetAssociateId()'
+  so.intellisense: NSParticipantInfo.GetAssociateId
+  langs:
+  - crmscript
+  name: 'GetAssociateId()'
+  nameWithType: NSParticipantInfo.GetAssociateId()
+  fullName: CRMScript.NetServer.NSParticipantInfo.GetAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Associate ID of the participant if the participant is an associate (or resource)."
+  example: 
+  - "\n<pre><code>NSParticipantInfo thing;\nInteger associateId = thing.GetAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantInfo.GetContactId()
+  commentId: M:CRMScript.NetServer.NSParticipantInfo.GetContactId()
+  id: 'GetContactId()'
+  so.intellisense: NSParticipantInfo.GetContactId
+  langs:
+  - crmscript
+  name: 'GetContactId()'
+  nameWithType: NSParticipantInfo.GetContactId()
+  fullName: CRMScript.NetServer.NSParticipantInfo.GetContactId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetContactId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Contact ID of the participant if the participant is an associate or person."
+  example: 
+  - "\n<pre><code>NSParticipantInfo thing;\nInteger contactId = thing.GetContactId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantInfo.GetEmailId()
+  commentId: M:CRMScript.NetServer.NSParticipantInfo.GetEmailId()
+  id: 'GetEmailId()'
+  so.intellisense: NSParticipantInfo.GetEmailId
+  langs:
+  - crmscript
+  name: 'GetEmailId()'
+  nameWithType: NSParticipantInfo.GetEmailId()
+  fullName: CRMScript.NetServer.NSParticipantInfo.GetEmailId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetEmailId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The email ID of the email belonging to the appointment record belonging to this person."
+  example: 
+  - "\n<pre><code>NSParticipantInfo thing;\nInteger emailId = thing.GetEmailId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantInfo.GetInvitationStatus()
+  commentId: M:CRMScript.NetServer.NSParticipantInfo.GetInvitationStatus()
+  id: 'GetInvitationStatus()'
+  so.intellisense: NSParticipantInfo.GetInvitationStatus
+  langs:
+  - crmscript
+  name: 'GetInvitationStatus()'
+  nameWithType: NSParticipantInfo.GetInvitationStatus()
+  fullName: CRMScript.NetServer.NSParticipantInfo.GetInvitationStatus()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetInvitationStatus()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The participant status for the appointment."
+  example: 
+  - "\n<pre><code>NSParticipantInfo thing;\nInteger invitationStatus = thing.GetInvitationStatus();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantInfo.GetPersonId()
+  commentId: M:CRMScript.NetServer.NSParticipantInfo.GetPersonId()
+  id: 'GetPersonId()'
+  so.intellisense: NSParticipantInfo.GetPersonId
+  langs:
+  - crmscript
+  name: 'GetPersonId()'
+  nameWithType: NSParticipantInfo.GetPersonId()
+  fullName: CRMScript.NetServer.NSParticipantInfo.GetPersonId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPersonId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Person ID of the participant if the participant is a person."
+  example: 
+  - "\n<pre><code>NSParticipantInfo thing;\nInteger personId = thing.GetPersonId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantInfo.GetSendEmail()
+  commentId: M:CRMScript.NetServer.NSParticipantInfo.GetSendEmail()
+  id: 'GetSendEmail()'
+  so.intellisense: NSParticipantInfo.GetSendEmail
+  langs:
+  - crmscript
+  name: 'GetSendEmail()'
+  nameWithType: NSParticipantInfo.GetSendEmail()
+  fullName: CRMScript.NetServer.NSParticipantInfo.GetSendEmail()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetSendEmail()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the participant has been sent an email or should be sent an email."
+  example: 
+  - "\n<pre><code>NSParticipantInfo thing;\nBool sendEmail = thing.GetSendEmail();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantInfo.SetAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSParticipantInfo.SetAssociateId(Integer)
+  id: 'SetAssociateId(Integer)'
+  so.intellisense: NSParticipantInfo.SetAssociateId
+  langs:
+  - crmscript
+  name: 'SetAssociateId(Integer)'
+  nameWithType: NSParticipantInfo.SetAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSParticipantInfo.SetAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAssociateId(Integer associateId)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: "Associate ID of the participant if the participant is an associate (or resource)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantInfo thing;\nInteger associateId;\nthing.SetAssociateId(associateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantInfo.SetContactId(Integer)
+  commentId: M:CRMScript.NetServer.NSParticipantInfo.SetContactId(Integer)
+  id: 'SetContactId(Integer)'
+  so.intellisense: NSParticipantInfo.SetContactId
+  langs:
+  - crmscript
+  name: 'SetContactId(Integer)'
+  nameWithType: NSParticipantInfo.SetContactId(Integer)
+  fullName: CRMScript.NetServer.NSParticipantInfo.SetContactId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactId(Integer contactId)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: "Contact ID of the participant if the participant is an associate or person."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantInfo thing;\nInteger contactId;\nthing.SetContactId(contactId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantInfo.SetEmailId(Integer)
+  commentId: M:CRMScript.NetServer.NSParticipantInfo.SetEmailId(Integer)
+  id: 'SetEmailId(Integer)'
+  so.intellisense: NSParticipantInfo.SetEmailId
+  langs:
+  - crmscript
+  name: 'SetEmailId(Integer)'
+  nameWithType: NSParticipantInfo.SetEmailId(Integer)
+  fullName: CRMScript.NetServer.NSParticipantInfo.SetEmailId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEmailId(Integer emailId)
+    parameters:
+    - id: emailId
+      type: CRMScript.Global.Integer
+      description: "The email ID of the email belonging to the appointment record belonging to this person."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantInfo thing;\nInteger emailId;\nthing.SetEmailId(emailId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantInfo.SetInvitationStatus(Integer)
+  commentId: M:CRMScript.NetServer.NSParticipantInfo.SetInvitationStatus(Integer)
+  id: 'SetInvitationStatus(Integer)'
+  so.intellisense: NSParticipantInfo.SetInvitationStatus
+  langs:
+  - crmscript
+  name: 'SetInvitationStatus(Integer)'
+  nameWithType: NSParticipantInfo.SetInvitationStatus(Integer)
+  fullName: CRMScript.NetServer.NSParticipantInfo.SetInvitationStatus(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetInvitationStatus(Integer invitationStatus)
+    parameters:
+    - id: invitationStatus
+      type: CRMScript.Global.Integer
+      description: "The participant status for the appointment. See <xref href=\"CRMScript.NetServer.InvitationStatus\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantInfo thing;\nInteger invitationStatus;\nthing.SetInvitationStatus(invitationStatus);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantInfo.SetPersonId(Integer)
+  commentId: M:CRMScript.NetServer.NSParticipantInfo.SetPersonId(Integer)
+  id: 'SetPersonId(Integer)'
+  so.intellisense: NSParticipantInfo.SetPersonId
+  langs:
+  - crmscript
+  name: 'SetPersonId(Integer)'
+  nameWithType: NSParticipantInfo.SetPersonId(Integer)
+  fullName: CRMScript.NetServer.NSParticipantInfo.SetPersonId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonId(Integer personId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: "Person ID of the participant if the participant is a person."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantInfo thing;\nInteger personId;\nthing.SetPersonId(personId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantInfo.SetSendEmail(Bool)
+  commentId: M:CRMScript.NetServer.NSParticipantInfo.SetSendEmail(Bool)
+  id: 'SetSendEmail(Bool)'
+  so.intellisense: NSParticipantInfo.SetSendEmail
+  langs:
+  - crmscript
+  name: 'SetSendEmail(Bool)'
+  nameWithType: NSParticipantInfo.SetSendEmail(Bool)
+  fullName: CRMScript.NetServer.NSParticipantInfo.SetSendEmail(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSendEmail(Bool sendEmail)
+    parameters:
+    - id: sendEmail
+      type: CRMScript.Global.Bool
+      description: "True if the participant has been sent an email or should be sent an email."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantInfo thing;\nBool sendEmail;\nthing.SetSendEmail(sendEmail);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSParticipantInfo
+  commentId: T:CRMScript.NetServer.NSParticipantInfo
+  isExternal: true
+  name: NSParticipantInfo
+  nameWithType: NSParticipantInfo
+  fullName: CRMScript.NetServer.NSParticipantInfo
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.NetServer.InvitationStatus
+  commentId: T:CRMScript.NetServer.InvitationStatus
+  isExternal: true
+  name: InvitationStatus
+  nameWithType: InvitationStatus
+  fullName: CRMScript.NetServer.InvitationStatus
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

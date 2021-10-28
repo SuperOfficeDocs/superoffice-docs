@@ -1,0 +1,262 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.StatResult
+  commentId: T:CRMScript.Native.StatResult
+  id: StatResult
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.StatResult.#ctor
+  - CRMScript.Native.StatResult.atGroupBegin(Integer)
+  - CRMScript.Native.StatResult.atGroupEnd(Integer)
+  - CRMScript.Native.StatResult.dumpParser()
+  - CRMScript.Native.StatResult.eof()
+  - CRMScript.Native.StatResult.getField(Integer)
+  - CRMScript.Native.StatResult.getField(String)
+  - CRMScript.Native.StatResult.next()
+  - CRMScript.Native.StatResult.rewind()
+  - CRMScript.Native.StatResult.saveAsResult(Integer,Integer,Integer)
+  name: StatResult
+  nameWithType: StatResult
+  fullName: CRMScript.Native.StatResult
+  type: Class
+  summary: "\nUsed to access the results of a StatLib execution.\n"
+  example: 
+- uid: CRMScript.Native.StatResult.#ctor
+  commentId: M:CRMScript.Native.StatResult.#ctor
+  id: '#ctor'
+  so.intellisense: Void.StatResult
+  langs:
+  - crmscript
+  name: StatResult()
+  nameWithType: StatResult.#ctor
+  fullName: CRMScript.Native.StatResult.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the StatResult class.\n"
+  remarks: 
+  syntax: 
+    content: StatResult
+  example: 
+- uid: CRMScript.Native.StatResult.atGroupBegin(Integer)
+  commentId: M:CRMScript.Native.StatResult.atGroupBegin(Integer)
+  id: 'atGroupBegin(Integer)'
+  so.intellisense: StatResult.atGroupBegin
+  langs:
+  - crmscript
+  name: 'atGroupBegin(Integer)'
+  nameWithType: StatResult.atGroupBegin(Integer)
+  fullName: CRMScript.Native.StatResult.atGroupBegin(Integer)
+  type: Method
+  summary: "\nChecks if the current row is the first row for a given group.\n"
+  remarks: 
+  syntax: 
+    content: Bool atGroupBegin(Integer column)
+    parameters:
+    - id: column
+      type: CRMScript.Global.Integer
+      description: "The column which identifies the group."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if we're at the first row for this group; otherwise, false."
+  example: 
+- uid: CRMScript.Native.StatResult.atGroupEnd(Integer)
+  commentId: M:CRMScript.Native.StatResult.atGroupEnd(Integer)
+  id: 'atGroupEnd(Integer)'
+  so.intellisense: StatResult.atGroupEnd
+  langs:
+  - crmscript
+  name: 'atGroupEnd(Integer)'
+  nameWithType: StatResult.atGroupEnd(Integer)
+  fullName: CRMScript.Native.StatResult.atGroupEnd(Integer)
+  type: Method
+  summary: "\nChecks if the current row is the last row for a given group.\n"
+  remarks: 
+  syntax: 
+    content: Bool atGroupEnd(Integer column)
+    parameters:
+    - id: column
+      type: CRMScript.Global.Integer
+      description: "The column which identifies the group."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if we're at the last row for this group; otherwise, false."
+  example: 
+- uid: CRMScript.Native.StatResult.dumpParser()
+  commentId: M:CRMScript.Native.StatResult.dumpParser()
+  id: 'dumpParser()'
+  so.intellisense: StatResult.dumpParser
+  langs:
+  - crmscript
+  name: 'dumpParser()'
+  nameWithType: StatResult.dumpParser()
+  fullName: CRMScript.Native.StatResult.dumpParser()
+  type: Method
+  summary: "\nReturns a string with everything in the StatResult parser listed.\n"
+  remarks: "\nMainly used for debugging and development. It will show you every variable in the StatResult parser.\n"
+  syntax: 
+    content: String dumpParser()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A string with everything in the StatResult parser listed."
+  example: 
+- uid: CRMScript.Native.StatResult.eof()
+  commentId: M:CRMScript.Native.StatResult.eof()
+  id: 'eof()'
+  so.intellisense: StatResult.eof
+  langs:
+  - crmscript
+  name: 'eof()'
+  nameWithType: StatResult.eof()
+  fullName: CRMScript.Native.StatResult.eof()
+  type: Method
+  summary: "\nChecks if the internal iterator is past the last element.\n"
+  remarks: 
+  syntax: 
+    content: Bool eof()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the internal iterator is past the last element; otherwise, false."
+  example: 
+- uid: CRMScript.Native.StatResult.getField(Integer)
+  commentId: M:CRMScript.Native.StatResult.getField(Integer)
+  id: 'getField(Integer)'
+  so.intellisense: StatResult.getField
+  langs:
+  - crmscript
+  name: 'getField(Integer)'
+  nameWithType: StatResult.getField(Integer)
+  fullName: CRMScript.Native.StatResult.getField(Integer)
+  type: Method
+  summary: "\nReturns the value for the given field at the current row.\n"
+  remarks: "\nYou can specify the field either by its name or its column. Normally used to retrieve values from aggregate functions.\n"
+  syntax: 
+    content: String getField(Integer column)
+    parameters:
+    - id: column
+      type: CRMScript.Global.Integer
+      description: "The zero-based index of columns."
+    return: 
+      type: CRMScript.Global.String
+      description: "The value for the given column at the current row."
+  example: 
+- uid: CRMScript.Native.StatResult.getField(String)
+  commentId: M:CRMScript.Native.StatResult.getField(String)
+  id: 'getField(String)'
+  so.intellisense: StatResult.getField
+  langs:
+  - crmscript
+  name: 'getField(String)'
+  nameWithType: StatResult.getField(String)
+  fullName: CRMScript.Native.StatResult.getField(String)
+  type: Method
+  summary: "\nReturns the value for the given field at the current row.\n"
+  remarks: "\nYou can specify the field either by its name or its column. Normally used to retrieve values from aggregate functions.\n"
+  syntax: 
+    content: String getField(String field)
+    parameters:
+    - id: field
+      type: CRMScript.Global.String
+      description: "The name of the field to retrieve."
+    return: 
+      type: CRMScript.Global.String
+      description: "The value for the given field at the current row."
+  example: 
+- uid: CRMScript.Native.StatResult.next()
+  commentId: M:CRMScript.Native.StatResult.next()
+  id: 'next()'
+  so.intellisense: StatResult.next
+  langs:
+  - crmscript
+  name: 'next()'
+  nameWithType: StatResult.next()
+  fullName: CRMScript.Native.StatResult.next()
+  type: Method
+  summary: "\nMoves the internal iterator to next element.\n"
+  remarks: 
+  syntax: 
+    content: Bool next()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Eof() after move."
+  example: 
+- uid: CRMScript.Native.StatResult.rewind()
+  commentId: M:CRMScript.Native.StatResult.rewind()
+  id: 'rewind()'
+  so.intellisense: StatResult.rewind
+  langs:
+  - crmscript
+  name: 'rewind()'
+  nameWithType: StatResult.rewind()
+  fullName: CRMScript.Native.StatResult.rewind()
+  type: Method
+  summary: "\nRewinds the internal iterator.\n"
+  remarks: 
+  syntax: 
+    content: Void rewind()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.StatResult.saveAsResult(Integer,Integer,Integer)
+  commentId: M:CRMScript.Native.StatResult.saveAsResult(Integer,Integer,Integer)
+  id: 'saveAsResult(Integer,Integer,Integer)'
+  so.intellisense: StatResult.saveAsResult
+  langs:
+  - crmscript
+  name: 'saveAsResult(Integer,Integer,Integer)'
+  nameWithType: StatResult.saveAsResult(Integer,Integer,Integer)
+  fullName: CRMScript.Native.StatResult.saveAsResult(Integer,Integer,Integer)
+  type: Method
+  summary: "\nReturns a reference to a result set.\n"
+  remarks: 
+  syntax: 
+    content: Integer saveAsResult(Integer column, Integer ownerId, Integer maxRows)
+    parameters:
+    - id: column
+      type: CRMScript.Global.Integer
+      description: "What column to use as ID field"
+    - id: ownerId
+      type: CRMScript.Global.Integer
+      description: "ID of the owner of the result set (so it can be deleted at logout time)"
+    - id: maxRows
+      type: CRMScript.Global.Integer
+      description: "Maximum number wanted in the result set."
+    return:
+      type: CRMScript.Global.Integer
+      description: "A reference to the result set."
+  example: 
+  - "\nThe result set reference can be used like this to display tickets in the result set (if the result set references tickets):<pre><code>setVariable(&quot;url&quot;, getProgram(1) + &quot;&amp;action=listTickets&amp;special=11&amp;resultKey=&quot; + resKey .toString());</code></pre>\n"
+references:
+- uid: CRMScript.Native.StatResult
+  commentId: T:CRMScript.Native.StatResult
+  isExternal: true
+  name: StatResult
+  nameWithType: StatResult
+  fullName: CRMScript.Native.StatResult
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

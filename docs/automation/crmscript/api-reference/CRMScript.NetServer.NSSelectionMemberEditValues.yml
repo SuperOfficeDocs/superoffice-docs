@@ -1,0 +1,985 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues
+  commentId: T:CRMScript.NetServer.NSSelectionMemberEditValues
+  id: NSSelectionMemberEditValues
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSSelectionMemberEditValues.#ctor
+  - CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyBusiness()
+  - CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyCategory()
+  - CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyCode()
+  - CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyCountry()
+  - CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyDepartment()
+  - CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyName()
+  - CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyNumber()
+  - CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyOrgNr()
+  - CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyOurContact()
+  - CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeContactJobTitle()
+  - CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeContactPosition()
+  - CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyBusiness()
+  - CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyCategory()
+  - CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyCode()
+  - CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyCountry()
+  - CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyDepartment()
+  - CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyName()
+  - CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyNumber()
+  - CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyOrgNr()
+  - CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyOurContact()
+  - CRMScript.NetServer.NSSelectionMemberEditValues.GetContactJobTitle()
+  - CRMScript.NetServer.NSSelectionMemberEditValues.GetContactPosition()
+  - CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyBusiness(Bool)
+  - CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyCategory(Bool)
+  - CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyCode(Bool)
+  - CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyCountry(Bool)
+  - CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyDepartment(Bool)
+  - CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyName(Bool)
+  - CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyNumber(Bool)
+  - CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyOrgNr(Bool)
+  - CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyOurContact(Bool)
+  - CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeContactJobTitle(Bool)
+  - CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeContactPosition(Bool)
+  - CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyBusiness(Integer)
+  - CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyCategory(Integer)
+  - CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyCode(String)
+  - CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyCountry(Integer)
+  - CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyDepartment(String)
+  - CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyName(String)
+  - CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyNumber(String)
+  - CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyOrgNr(String)
+  - CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyOurContact(Integer)
+  - CRMScript.NetServer.NSSelectionMemberEditValues.SetContactJobTitle(String)
+  - CRMScript.NetServer.NSSelectionMemberEditValues.SetContactPosition(Integer)
+  name: NSSelectionMemberEditValues
+  nameWithType: NSSelectionMemberEditValues
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues
+  type: Class
+  summary: "\nCarrier object for SelectionMemberEditValues.\n"
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.#ctor
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSSelectionMemberEditValues
+  langs:
+  - crmscript
+  name: NSSelectionMemberEditValues()
+  nameWithType: NSSelectionMemberEditValues.#ctor
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSSelectionMemberEditValues class.\n"
+  remarks: 
+  syntax: 
+    content: NSSelectionMemberEditValues
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyBusiness()
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyBusiness()
+  id: 'GetChangeCompanyBusiness()'
+  so.intellisense: NSSelectionMemberEditValues.GetChangeCompanyBusiness
+  langs:
+  - crmscript
+  name: 'GetChangeCompanyBusiness()'
+  nameWithType: NSSelectionMemberEditValues.GetChangeCompanyBusiness()
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyBusiness()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetChangeCompanyBusiness()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If true, the business of the company will change."
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyCategory()
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyCategory()
+  id: 'GetChangeCompanyCategory()'
+  so.intellisense: NSSelectionMemberEditValues.GetChangeCompanyCategory
+  langs:
+  - crmscript
+  name: 'GetChangeCompanyCategory()'
+  nameWithType: NSSelectionMemberEditValues.GetChangeCompanyCategory()
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyCategory()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetChangeCompanyCategory()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If true, the category of the company will be changed."
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyCode()
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyCode()
+  id: 'GetChangeCompanyCode()'
+  so.intellisense: NSSelectionMemberEditValues.GetChangeCompanyCode
+  langs:
+  - crmscript
+  name: 'GetChangeCompanyCode()'
+  nameWithType: NSSelectionMemberEditValues.GetChangeCompanyCode()
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyCode()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetChangeCompanyCode()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If true, the code of the company will change."
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyCountry()
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyCountry()
+  id: 'GetChangeCompanyCountry()'
+  so.intellisense: NSSelectionMemberEditValues.GetChangeCompanyCountry
+  langs:
+  - crmscript
+  name: 'GetChangeCompanyCountry()'
+  nameWithType: NSSelectionMemberEditValues.GetChangeCompanyCountry()
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyCountry()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetChangeCompanyCountry()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If true, the country of the company will change."
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyDepartment()
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyDepartment()
+  id: 'GetChangeCompanyDepartment()'
+  so.intellisense: NSSelectionMemberEditValues.GetChangeCompanyDepartment
+  langs:
+  - crmscript
+  name: 'GetChangeCompanyDepartment()'
+  nameWithType: NSSelectionMemberEditValues.GetChangeCompanyDepartment()
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyDepartment()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetChangeCompanyDepartment()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If true, the department of the company will change."
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyName()
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyName()
+  id: 'GetChangeCompanyName()'
+  so.intellisense: NSSelectionMemberEditValues.GetChangeCompanyName
+  langs:
+  - crmscript
+  name: 'GetChangeCompanyName()'
+  nameWithType: NSSelectionMemberEditValues.GetChangeCompanyName()
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetChangeCompanyName()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If true, the name of the company will change."
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyNumber()
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyNumber()
+  id: 'GetChangeCompanyNumber()'
+  so.intellisense: NSSelectionMemberEditValues.GetChangeCompanyNumber
+  langs:
+  - crmscript
+  name: 'GetChangeCompanyNumber()'
+  nameWithType: NSSelectionMemberEditValues.GetChangeCompanyNumber()
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyNumber()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetChangeCompanyNumber()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If true, the number of the company will change."
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyOrgNr()
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyOrgNr()
+  id: 'GetChangeCompanyOrgNr()'
+  so.intellisense: NSSelectionMemberEditValues.GetChangeCompanyOrgNr
+  langs:
+  - crmscript
+  name: 'GetChangeCompanyOrgNr()'
+  nameWithType: NSSelectionMemberEditValues.GetChangeCompanyOrgNr()
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyOrgNr()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetChangeCompanyOrgNr()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If true, the VAT number  of the company will change."
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyOurContact()
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyOurContact()
+  id: 'GetChangeCompanyOurContact()'
+  so.intellisense: NSSelectionMemberEditValues.GetChangeCompanyOurContact
+  langs:
+  - crmscript
+  name: 'GetChangeCompanyOurContact()'
+  nameWithType: NSSelectionMemberEditValues.GetChangeCompanyOurContact()
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeCompanyOurContact()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetChangeCompanyOurContact()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If true, the our contact of the company will change."
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeContactJobTitle()
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeContactJobTitle()
+  id: 'GetChangeContactJobTitle()'
+  so.intellisense: NSSelectionMemberEditValues.GetChangeContactJobTitle
+  langs:
+  - crmscript
+  name: 'GetChangeContactJobTitle()'
+  nameWithType: NSSelectionMemberEditValues.GetChangeContactJobTitle()
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeContactJobTitle()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetChangeContactJobTitle()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If true, the VAT number  of the contact will change."
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeContactPosition()
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeContactPosition()
+  id: 'GetChangeContactPosition()'
+  so.intellisense: NSSelectionMemberEditValues.GetChangeContactPosition
+  langs:
+  - crmscript
+  name: 'GetChangeContactPosition()'
+  nameWithType: NSSelectionMemberEditValues.GetChangeContactPosition()
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.GetChangeContactPosition()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetChangeContactPosition()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If true, the position of the contact will change."
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyBusiness()
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyBusiness()
+  id: 'GetCompanyBusiness()'
+  so.intellisense: NSSelectionMemberEditValues.GetCompanyBusiness
+  langs:
+  - crmscript
+  name: 'GetCompanyBusiness()'
+  nameWithType: NSSelectionMemberEditValues.GetCompanyBusiness()
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyBusiness()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCompanyBusiness()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Contains new value for company business."
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyCategory()
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyCategory()
+  id: 'GetCompanyCategory()'
+  so.intellisense: NSSelectionMemberEditValues.GetCompanyCategory
+  langs:
+  - crmscript
+  name: 'GetCompanyCategory()'
+  nameWithType: NSSelectionMemberEditValues.GetCompanyCategory()
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyCategory()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCompanyCategory()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Contains new value for the company category."
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyCode()
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyCode()
+  id: 'GetCompanyCode()'
+  so.intellisense: NSSelectionMemberEditValues.GetCompanyCode
+  langs:
+  - crmscript
+  name: 'GetCompanyCode()'
+  nameWithType: NSSelectionMemberEditValues.GetCompanyCode()
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyCode()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCompanyCode()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Contains new value for the company code."
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyCountry()
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyCountry()
+  id: 'GetCompanyCountry()'
+  so.intellisense: NSSelectionMemberEditValues.GetCompanyCountry
+  langs:
+  - crmscript
+  name: 'GetCompanyCountry()'
+  nameWithType: NSSelectionMemberEditValues.GetCompanyCountry()
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyCountry()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCompanyCountry()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Contains new value for the company country."
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyDepartment()
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyDepartment()
+  id: 'GetCompanyDepartment()'
+  so.intellisense: NSSelectionMemberEditValues.GetCompanyDepartment
+  langs:
+  - crmscript
+  name: 'GetCompanyDepartment()'
+  nameWithType: NSSelectionMemberEditValues.GetCompanyDepartment()
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyDepartment()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCompanyDepartment()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Contains new value for the company department."
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyName()
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyName()
+  id: 'GetCompanyName()'
+  so.intellisense: NSSelectionMemberEditValues.GetCompanyName
+  langs:
+  - crmscript
+  name: 'GetCompanyName()'
+  nameWithType: NSSelectionMemberEditValues.GetCompanyName()
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCompanyName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Contains new value for company name."
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyNumber()
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyNumber()
+  id: 'GetCompanyNumber()'
+  so.intellisense: NSSelectionMemberEditValues.GetCompanyNumber
+  langs:
+  - crmscript
+  name: 'GetCompanyNumber()'
+  nameWithType: NSSelectionMemberEditValues.GetCompanyNumber()
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyNumber()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCompanyNumber()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Contains new value for the company number."
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyOrgNr()
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyOrgNr()
+  id: 'GetCompanyOrgNr()'
+  so.intellisense: NSSelectionMemberEditValues.GetCompanyOrgNr
+  langs:
+  - crmscript
+  name: 'GetCompanyOrgNr()'
+  nameWithType: NSSelectionMemberEditValues.GetCompanyOrgNr()
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyOrgNr()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCompanyOrgNr()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Contains new value for the company VAT number."
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyOurContact()
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyOurContact()
+  id: 'GetCompanyOurContact()'
+  so.intellisense: NSSelectionMemberEditValues.GetCompanyOurContact
+  langs:
+  - crmscript
+  name: 'GetCompanyOurContact()'
+  nameWithType: NSSelectionMemberEditValues.GetCompanyOurContact()
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.GetCompanyOurContact()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCompanyOurContact()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Contains new value for company, our contact."
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.GetContactJobTitle()
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetContactJobTitle()
+  id: 'GetContactJobTitle()'
+  so.intellisense: NSSelectionMemberEditValues.GetContactJobTitle
+  langs:
+  - crmscript
+  name: 'GetContactJobTitle()'
+  nameWithType: NSSelectionMemberEditValues.GetContactJobTitle()
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.GetContactJobTitle()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetContactJobTitle()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Contains new value for the contact VAT number."
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.GetContactPosition()
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.GetContactPosition()
+  id: 'GetContactPosition()'
+  so.intellisense: NSSelectionMemberEditValues.GetContactPosition
+  langs:
+  - crmscript
+  name: 'GetContactPosition()'
+  nameWithType: NSSelectionMemberEditValues.GetContactPosition()
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.GetContactPosition()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetContactPosition()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Contains new value for the contact position."
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyBusiness(Bool)
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyBusiness(Bool)
+  id: 'SetChangeCompanyBusiness(Bool)'
+  so.intellisense: NSSelectionMemberEditValues.SetChangeCompanyBusiness
+  langs:
+  - crmscript
+  name: 'SetChangeCompanyBusiness(Bool)'
+  nameWithType: NSSelectionMemberEditValues.SetChangeCompanyBusiness(Bool)
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyBusiness(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChangeCompanyBusiness(Bool change)
+    parameters:
+    - id: change
+      type: CRMScript.Global.Bool
+      description: "If true, the business of the company will change."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyCategory(Bool)
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyCategory(Bool)
+  id: 'SetChangeCompanyCategory(Bool)'
+  so.intellisense: NSSelectionMemberEditValues.SetChangeCompanyCategory
+  langs:
+  - crmscript
+  name: 'SetChangeCompanyCategory(Bool)'
+  nameWithType: NSSelectionMemberEditValues.SetChangeCompanyCategory(Bool)
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyCategory(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChangeCompanyCategory(Bool change)
+    parameters:
+    - id: change
+      type: CRMScript.Global.Bool
+      description: "If true, the category of the company will be changed."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyCode(Bool)
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyCode(Bool)
+  id: 'SetChangeCompanyCode(Bool)'
+  so.intellisense: NSSelectionMemberEditValues.SetChangeCompanyCode
+  langs:
+  - crmscript
+  name: 'SetChangeCompanyCode(Bool)'
+  nameWithType: NSSelectionMemberEditValues.SetChangeCompanyCode(Bool)
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyCode(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChangeCompanyCode(Bool change)
+    parameters:
+    - id: change
+      type: CRMScript.Global.Bool
+      description: "If true, the code of the company will change."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyCountry(Bool)
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyCountry(Bool)
+  id: 'SetChangeCompanyCountry(Bool)'
+  so.intellisense: NSSelectionMemberEditValues.SetChangeCompanyCountry
+  langs:
+  - crmscript
+  name: 'SetChangeCompanyCountry(Bool)'
+  nameWithType: NSSelectionMemberEditValues.SetChangeCompanyCountry(Bool)
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyCountry(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChangeCompanyCountry(Bool change)
+    parameters:
+    - id: change
+      type: CRMScript.Global.Bool
+      description: "If true, the country of the company will change."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyDepartment(Bool)
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyDepartment(Bool)
+  id: 'SetChangeCompanyDepartment(Bool)'
+  so.intellisense: NSSelectionMemberEditValues.SetChangeCompanyDepartment
+  langs:
+  - crmscript
+  name: 'SetChangeCompanyDepartment(Bool)'
+  nameWithType: NSSelectionMemberEditValues.SetChangeCompanyDepartment(Bool)
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyDepartment(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChangeCompanyDepartment(Bool change)
+    parameters:
+    - id: change
+      type: CRMScript.Global.Bool
+      description: "If true, the department of the company will change."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyName(Bool)
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyName(Bool)
+  id: 'SetChangeCompanyName(Bool)'
+  so.intellisense: NSSelectionMemberEditValues.SetChangeCompanyName
+  langs:
+  - crmscript
+  name: 'SetChangeCompanyName(Bool)'
+  nameWithType: NSSelectionMemberEditValues.SetChangeCompanyName(Bool)
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyName(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChangeCompanyName(Bool change)
+    parameters:
+    - id: change
+      type: CRMScript.Global.Bool
+      description: "If true, the name of the company will change."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyNumber(Bool)
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyNumber(Bool)
+  id: 'SetChangeCompanyNumber(Bool)'
+  so.intellisense: NSSelectionMemberEditValues.SetChangeCompanyNumber
+  langs:
+  - crmscript
+  name: 'SetChangeCompanyNumber(Bool)'
+  nameWithType: NSSelectionMemberEditValues.SetChangeCompanyNumber(Bool)
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyNumber(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChangeCompanyNumber(Bool change)
+    parameters:
+    - id: change
+      type: CRMScript.Global.Bool
+      description: "If true, the number of the company will change."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyOrgNr(Bool)
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyOrgNr(Bool)
+  id: 'SetChangeCompanyOrgNr(Bool)'
+  so.intellisense: NSSelectionMemberEditValues.SetChangeCompanyOrgNr
+  langs:
+  - crmscript
+  name: 'SetChangeCompanyOrgNr(Bool)'
+  nameWithType: NSSelectionMemberEditValues.SetChangeCompanyOrgNr(Bool)
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyOrgNr(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChangeCompanyOrgNr(Bool change)
+    parameters:
+    - id: change
+      type: CRMScript.Global.Bool
+      description: "If true, the VAT number  of the company will change."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyOurContact(Bool)
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyOurContact(Bool)
+  id: 'SetChangeCompanyOurContact(Bool)'
+  so.intellisense: NSSelectionMemberEditValues.SetChangeCompanyOurContact
+  langs:
+  - crmscript
+  name: 'SetChangeCompanyOurContact(Bool)'
+  nameWithType: NSSelectionMemberEditValues.SetChangeCompanyOurContact(Bool)
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeCompanyOurContact(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChangeCompanyOurContact(Bool change)
+    parameters:
+    - id: change
+      type: CRMScript.Global.Bool
+      description: "If true, the our contact of the company will change."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeContactJobTitle(Bool)
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeContactJobTitle(Bool)
+  id: 'SetChangeContactJobTitle(Bool)'
+  so.intellisense: NSSelectionMemberEditValues.SetChangeContactJobTitle
+  langs:
+  - crmscript
+  name: 'SetChangeContactJobTitle(Bool)'
+  nameWithType: NSSelectionMemberEditValues.SetChangeContactJobTitle(Bool)
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeContactJobTitle(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChangeContactJobTitle(Bool change)
+    parameters:
+    - id: change
+      type: CRMScript.Global.Bool
+      description: "If true, the VAT number  of the contact will change."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeContactPosition(Bool)
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeContactPosition(Bool)
+  id: 'SetChangeContactPosition(Bool)'
+  so.intellisense: NSSelectionMemberEditValues.SetChangeContactPosition
+  langs:
+  - crmscript
+  name: 'SetChangeContactPosition(Bool)'
+  nameWithType: NSSelectionMemberEditValues.SetChangeContactPosition(Bool)
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.SetChangeContactPosition(Bool)
+  type: Method
+  summary: "\nIf true, the position of the contact will change.\n"
+  remarks: 
+  syntax: 
+    content: Void SetChangeContactPosition(Bool change)
+    parameters:
+    - id: change
+      type: CRMScript.Global.Bool
+      description: "If true, the position of the contact will change."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyBusiness(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyBusiness(Integer)
+  id: 'SetCompanyBusiness(Integer)'
+  so.intellisense: NSSelectionMemberEditValues.SetCompanyBusiness
+  langs:
+  - crmscript
+  name: 'SetCompanyBusiness(Integer)'
+  nameWithType: NSSelectionMemberEditValues.SetCompanyBusiness(Integer)
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyBusiness(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCompanyBusiness(Integer change)
+    parameters:
+    - id: change
+      type: CRMScript.Global.Integer
+      description: "Contains new value for company business."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyCategory(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyCategory(Integer)
+  id: 'SetCompanyCategory(Integer)'
+  so.intellisense: NSSelectionMemberEditValues.SetCompanyCategory
+  langs:
+  - crmscript
+  name: 'SetCompanyCategory(Integer)'
+  nameWithType: NSSelectionMemberEditValues.SetCompanyCategory(Integer)
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyCategory(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCompanyCategory(Integer change)
+    parameters:
+    - id: change
+      type: CRMScript.Global.Integer
+      description: "Contains new value for the company category."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyCode(String)
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyCode(String)
+  id: 'SetCompanyCode(String)'
+  so.intellisense: NSSelectionMemberEditValues.SetCompanyCode
+  langs:
+  - crmscript
+  name: 'SetCompanyCode(String)'
+  nameWithType: NSSelectionMemberEditValues.SetCompanyCode(String)
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyCode(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCompanyCode(String change)
+    parameters:
+    - id: change
+      type: CRMScript.Global.String
+      description: "Contains new value for the company code."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyCountry(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyCountry(Integer)
+  id: 'SetCompanyCountry(Integer)'
+  so.intellisense: NSSelectionMemberEditValues.SetCompanyCountry
+  langs:
+  - crmscript
+  name: 'SetCompanyCountry(Integer)'
+  nameWithType: NSSelectionMemberEditValues.SetCompanyCountry(Integer)
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyCountry(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCompanyCountry(Integer change)
+    parameters:
+    - id: change
+      type: CRMScript.Global.Integer
+      description: "Contains new value for the company country."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyDepartment(String)
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyDepartment(String)
+  id: 'SetCompanyDepartment(String)'
+  so.intellisense: NSSelectionMemberEditValues.SetCompanyDepartment
+  langs:
+  - crmscript
+  name: 'SetCompanyDepartment(String)'
+  nameWithType: NSSelectionMemberEditValues.SetCompanyDepartment(String)
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyDepartment(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCompanyDepartment(String change)
+    parameters:
+    - id: change
+      type: CRMScript.Global.String
+      description: "Contains new value for the company department."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyName(String)
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyName(String)
+  id: 'SetCompanyName(String)'
+  so.intellisense: NSSelectionMemberEditValues.SetCompanyName
+  langs:
+  - crmscript
+  name: 'SetCompanyName(String)'
+  nameWithType: NSSelectionMemberEditValues.SetCompanyName(String)
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCompanyName(String change)
+    parameters:
+    - id: change
+      type: CRMScript.Global.String
+      description: "Contains new value for company name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyNumber(String)
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyNumber(String)
+  id: 'SetCompanyNumber(String)'
+  so.intellisense: NSSelectionMemberEditValues.SetCompanyNumber
+  langs:
+  - crmscript
+  name: 'SetCompanyNumber(String)'
+  nameWithType: NSSelectionMemberEditValues.SetCompanyNumber(String)
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyNumber(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCompanyNumber(String change)
+    parameters:
+    - id: change
+      type: CRMScript.Global.String
+      description: "Contains new value for the company number."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyOrgNr(String)
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyOrgNr(String)
+  id: 'SetCompanyOrgNr(String)'
+  so.intellisense: NSSelectionMemberEditValues.SetCompanyOrgNr
+  langs:
+  - crmscript
+  name: 'SetCompanyOrgNr(String)'
+  nameWithType: NSSelectionMemberEditValues.SetCompanyOrgNr(String)
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyOrgNr(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCompanyOrgNr(String change)
+    parameters:
+    - id: change
+      type: CRMScript.Global.String
+      description: "Contains new value for the company VAT number."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyOurContact(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyOurContact(Integer)
+  id: 'SetCompanyOurContact(Integer)'
+  so.intellisense: NSSelectionMemberEditValues.SetCompanyOurContact
+  langs:
+  - crmscript
+  name: 'SetCompanyOurContact(Integer)'
+  nameWithType: NSSelectionMemberEditValues.SetCompanyOurContact(Integer)
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.SetCompanyOurContact(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCompanyOurContact(Integer change)
+    parameters:
+    - id: change
+      type: CRMScript.Global.Integer
+      description: "Contains new value for company, our contact."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.SetContactJobTitle(String)
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetContactJobTitle(String)
+  id: 'SetContactJobTitle(String)'
+  so.intellisense: NSSelectionMemberEditValues.SetContactJobTitle
+  langs:
+  - crmscript
+  name: 'SetContactJobTitle(String)'
+  nameWithType: NSSelectionMemberEditValues.SetContactJobTitle(String)
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.SetContactJobTitle(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactJobTitle(String change)
+    parameters:
+    - id: change
+      type: CRMScript.Global.String
+      description: "Contains new value for the contact VAT number."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues.SetContactPosition(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectionMemberEditValues.SetContactPosition(Integer)
+  id: 'SetContactPosition(Integer)'
+  so.intellisense: NSSelectionMemberEditValues.SetContactPosition
+  langs:
+  - crmscript
+  name: 'SetContactPosition(Integer)'
+  nameWithType: NSSelectionMemberEditValues.SetContactPosition(Integer)
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues.SetContactPosition(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactPosition(Integer change)
+    parameters:
+    - id: change
+      type: CRMScript.Global.Integer
+      description: "Contains new value for the contact position."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSSelectionMemberEditValues
+  commentId: T:CRMScript.NetServer.NSSelectionMemberEditValues
+  isExternal: true
+  name: NSSelectionMemberEditValues
+  nameWithType: NSSelectionMemberEditValues
+  fullName: CRMScript.NetServer.NSSelectionMemberEditValues
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

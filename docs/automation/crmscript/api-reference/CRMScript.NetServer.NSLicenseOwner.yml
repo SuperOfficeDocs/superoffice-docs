@@ -1,0 +1,244 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSLicenseOwner
+  commentId: T:CRMScript.NetServer.NSLicenseOwner
+  id: NSLicenseOwner
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSLicenseOwner.#ctor
+  - CRMScript.NetServer.NSLicenseOwner.GetDescription()
+  - CRMScript.NetServer.NSLicenseOwner.GetName()
+  - CRMScript.NetServer.NSLicenseOwner.GetRestrictedModuleLicenses()
+  - CRMScript.NetServer.NSLicenseOwner.GetUnrestrictedModuleLicenses()
+  - CRMScript.NetServer.NSLicenseOwner.SetDescription(String)
+  - CRMScript.NetServer.NSLicenseOwner.SetName(String)
+  - CRMScript.NetServer.NSLicenseOwner.SetRestrictedModuleLicenses(NSModuleLicenseLink[])
+  - CRMScript.NetServer.NSLicenseOwner.SetUnRestrictedModuleLicenses(NSModuleLicenseLink[])
+  name: NSLicenseOwner
+  nameWithType: NSLicenseOwner
+  fullName: CRMScript.NetServer.NSLicenseOwner
+  type: Class
+  summary: "\nCarrier object for LicenseOwner.\n"
+  example: 
+- uid: CRMScript.NetServer.NSLicenseOwner.#ctor
+  commentId: M:CRMScript.NetServer.NSLicenseOwner.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSLicenseOwner
+  langs:
+  - crmscript
+  name: NSLicenseOwner()
+  nameWithType: NSLicenseOwner.#ctor
+  fullName: CRMScript.NetServer.NSLicenseOwner.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSLicenseInfo class.\n"
+  remarks: 
+  syntax: 
+    content: NSLicenseOwner
+  example: 
+- uid: CRMScript.NetServer.NSLicenseOwner.GetDescription()
+  commentId: M:CRMScript.NetServer.NSLicenseOwner.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSLicenseOwner.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSLicenseOwner.GetDescription()
+  fullName: CRMScript.NetServer.NSLicenseOwner.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSLicenseOwner thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseOwner.GetName()
+  commentId: M:CRMScript.NetServer.NSLicenseOwner.GetName()
+  id: 'GetName()'
+  so.intellisense: NSLicenseOwner.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSLicenseOwner.GetName()
+  fullName: CRMScript.NetServer.NSLicenseOwner.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the license owner."
+  example: 
+  - "\n<pre><code>NSLicenseOwner thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseOwner.GetRestrictedModuleLicenses()
+  commentId: M:CRMScript.NetServer.NSLicenseOwner.GetRestrictedModuleLicenses()
+  id: 'GetRestrictedModuleLicenses()'
+  so.intellisense: NSLicenseOwner.GetRestrictedModuleLicenses
+  langs:
+  - crmscript
+  name: 'GetRestrictedModuleLicenses()'
+  nameWithType: NSLicenseOwner.GetRestrictedModuleLicenses()
+  fullName: CRMScript.NetServer.NSLicenseOwner.GetRestrictedModuleLicenses()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSModuleLicenseLink[] GetRestrictedModuleLicenses()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSModuleLicenseLink[]
+  example: 
+  - "\n<pre><code>NSLicenseOwner thing;\nNSModuleLicenseLink[] restrictedModuleLicenses = thing.GetRestrictedModuleLicenses();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseOwner.GetUnrestrictedModuleLicenses()
+  commentId: M:CRMScript.NetServer.NSLicenseOwner.GetUnrestrictedModuleLicenses()
+  id: 'GetUnrestrictedModuleLicenses()'
+  so.intellisense: NSLicenseOwner.GetUnrestrictedModuleLicenses
+  langs:
+  - crmscript
+  name: 'GetUnrestrictedModuleLicenses()'
+  nameWithType: NSLicenseOwner.GetUnrestrictedModuleLicenses()
+  fullName: CRMScript.NetServer.NSLicenseOwner.GetUnrestrictedModuleLicenses()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSModuleLicenseLink[] GetUnrestrictedModuleLicenses()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSModuleLicenseLink[]
+      description: "The unrestricted module licenses that this license owner."
+  example: 
+  - "\n<pre><code>NSLicenseOwner thing;\nNSModuleLicenseLink[] unrestrictedModuleLicenses = thing.GetUnrestrictedModuleLicenses();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseOwner.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSLicenseOwner.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSLicenseOwner.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSLicenseOwner.SetDescription(String)
+  fullName: CRMScript.NetServer.NSLicenseOwner.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLicenseOwner thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseOwner.SetName(String)
+  commentId: M:CRMScript.NetServer.NSLicenseOwner.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSLicenseOwner.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSLicenseOwner.SetName(String)
+  fullName: CRMScript.NetServer.NSLicenseOwner.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of the license owner."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLicenseOwner thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseOwner.SetRestrictedModuleLicenses(NSModuleLicenseLink[])
+  commentId: M:CRMScript.NetServer.NSLicenseOwner.SetRestrictedModuleLicenses(NSModuleLicenseLink[])
+  id: 'SetRestrictedModuleLicenses(NSModuleLicenseLink[])'
+  so.intellisense: NSLicenseOwner.SetRestrictedModuleLicenses
+  langs:
+  - crmscript
+  name: 'SetRestrictedModuleLicenses(NSModuleLicenseLink[])'
+  nameWithType: NSLicenseOwner.SetRestrictedModuleLicenses(NSModuleLicenseLink[])
+  fullName: CRMScript.NetServer.NSLicenseOwner.SetRestrictedModuleLicenses(NSModuleLicenseLink[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRestrictedModuleLicenses(NSModuleLicenseLink[] restrictedModuleLicenses)
+    parameters:
+    - id: restrictedModuleLicenses
+      type: CRMScript.NetServer.NSModuleLicenseLink[]
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLicenseOwner thing;\nNSModuleLicenseLink[] restrictedModuleLicenses;\nthing.SetRestrictedModuleLicenses(restrictedModuleLicenses);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseOwner.SetUnRestrictedModuleLicenses(NSModuleLicenseLink[])
+  commentId: M:CRMScript.NetServer.NSLicenseOwner.SetUnRestrictedModuleLicenses(NSModuleLicenseLink[])
+  id: 'SetUnRestrictedModuleLicenses(NSModuleLicenseLink[])'
+  so.intellisense: NSLicenseOwner.SetUnrestrictedModuleLicenses
+  langs:
+  - crmscript
+  name: 'SetUnRestrictedModuleLicenses(NSModuleLicenseLink[])'
+  nameWithType: NSLicenseOwner.SetUnRestrictedModuleLicenses(NSModuleLicenseLink[])
+  fullName: CRMScript.NetServer.NSLicenseOwner.SetUnRestrictedModuleLicenses(NSModuleLicenseLink[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUnrestrictedModuleLicenses(NSModuleLicenseLink[] unrestrictedModuleLicenses)
+    parameters:
+    - id: unrestrictedModuleLicenses
+      type: CRMScript.NetServer.NSModuleLicenseLink[]
+      description: "The unrestricted module licenses that this license owner."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLicenseOwner thing;\nNSModuleLicenseLink[] unrestrictedModuleLicenses;\nthing.SetUnrestrictedModuleLicenses(unrestrictedModuleLicenses);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSLicenseOwner
+  commentId: T:CRMScript.NetServer.NSLicenseOwner
+  isExternal: true
+  name: NSLicenseOwner
+  nameWithType: NSLicenseOwner
+  fullName: CRMScript.NetServer.NSLicenseOwner
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSModuleLicenseLink[]
+  isExternal: true
+  name: NSModuleLicenseLink[]
+  nameWithType: NSModuleLicenseLink[]
+  fullName: CRMScript.NetServer.NSModuleLicenseLink[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSModuleLicenseLink
+    isExternal: true
+    name: NSModuleLicenseLink
+    nameWithType: NSModuleLicenseLink
+    fullName: CRMScript.NetServer.NSModuleLicenseLink
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSModuleLicenseLink
+  commentId: T:CRMScript.NetServer.NSModuleLicenseLink
+  isExternal: true
+  name: NSModuleLicenseLink
+  nameWithType: NSModuleLicenseLink
+  fullName: CRMScript.NetServer.NSModuleLicenseLink
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

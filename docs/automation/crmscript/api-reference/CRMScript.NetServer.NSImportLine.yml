@@ -1,0 +1,308 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSImportLine
+  commentId: T:CRMScript.NetServer.NSImportLine
+  id: NSImportLine
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSImportLine.#ctor
+  - CRMScript.NetServer.NSImportLine.GetExternalKey()
+  - CRMScript.NetServer.NSImportLine.GetOperation()
+  - CRMScript.NetServer.NSImportLine.GetSelected()
+  - CRMScript.NetServer.NSImportLine.GetType()
+  - CRMScript.NetServer.NSImportLine.GetValues()
+  - CRMScript.NetServer.NSImportLine.SetExternalKey(String)
+  - CRMScript.NetServer.NSImportLine.SetOperation(Integer)
+  - CRMScript.NetServer.NSImportLine.SetSelected(Bool)
+  - CRMScript.NetServer.NSImportLine.SetType(Integer)
+  - CRMScript.NetServer.NSImportLine.SetValues(String[])
+  name: NSImportLine
+  nameWithType: NSImportLine
+  fullName: CRMScript.NetServer.NSImportLine
+  type: Class
+  summary: "\nUsed to import data into the system. Representing one entity that will be imported.\n"
+  example: 
+- uid: CRMScript.NetServer.NSImportLine.#ctor
+  commentId: M:CRMScript.NetServer.NSImportLine.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSImportLine
+  langs:
+  - crmscript
+  name: NSImportLine()
+  nameWithType: NSImportLine.#ctor
+  fullName: CRMScript.NetServer.NSImportLine.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSImportLine class.\n"
+  remarks: 
+  syntax: 
+    content: NSImportLine
+  example: 
+- uid: CRMScript.NetServer.NSImportLine.GetExternalKey()
+  commentId: M:CRMScript.NetServer.NSImportLine.GetExternalKey()
+  id: 'GetExternalKey()'
+  so.intellisense: NSImportLine.GetExternalKey
+  langs:
+  - crmscript
+  name: 'GetExternalKey()'
+  nameWithType: NSImportLine.GetExternalKey()
+  fullName: CRMScript.NetServer.NSImportLine.GetExternalKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExternalKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Optional external primary key for the row."
+  example: 
+  - "\n<pre><code>NSImportLine thing;\nString externalKey = thing.GetExternalKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSImportLine.GetOperation()
+  commentId: M:CRMScript.NetServer.NSImportLine.GetOperation()
+  id: 'GetOperation()'
+  so.intellisense: NSImportLine.GetOperation
+  langs:
+  - crmscript
+  name: 'GetOperation()'
+  nameWithType: NSImportLine.GetOperation()
+  fullName: CRMScript.NetServer.NSImportLine.GetOperation()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetOperation()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Which operation will be used? This is a read-only property. See <xref href=\"CRMScript.NetServer.ImportAction\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSImportLine thing;\nInteger operation = thing.GetOperation();</code></pre>\n"
+- uid: CRMScript.NetServer.NSImportLine.GetSelected()
+  commentId: M:CRMScript.NetServer.NSImportLine.GetSelected()
+  id: 'GetSelected()'
+  so.intellisense: NSImportLine.GetSelected
+  langs:
+  - crmscript
+  name: 'GetSelected()'
+  nameWithType: NSImportLine.GetSelected()
+  fullName: CRMScript.NetServer.NSImportLine.GetSelected()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetSelected()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the entity shall be imported, false if the entity shall be ignored."
+  example: 
+  - "\n<pre><code>NSImportLine thing;\nBool selected = thing.GetSelected();</code></pre>\n"
+- uid: CRMScript.NetServer.NSImportLine.GetType()
+  commentId: M:CRMScript.NetServer.NSImportLine.GetType()
+  id: 'GetType()'
+  so.intellisense: NSImportLine.GetType
+  langs:
+  - crmscript
+  name: 'GetType()'
+  nameWithType: NSImportLine.GetType()
+  fullName: CRMScript.NetServer.NSImportLine.GetType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Which entity type will be created? This is a read-only property. See <xref href=\"CRMScript.NetServer.ImportEntityType\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSImportLine thing;\nInteger type = thing.GetType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSImportLine.GetValues()
+  commentId: M:CRMScript.NetServer.NSImportLine.GetValues()
+  id: 'GetValues()'
+  so.intellisense: NSImportLine.GetValues
+  langs:
+  - crmscript
+  name: 'GetValues()'
+  nameWithType: NSImportLine.GetValues()
+  fullName: CRMScript.NetServer.NSImportLine.GetValues()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String[] GetValues()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+      description: "An array of the values that will be imported on the entity."
+  example: 
+  - "\n<pre><code>NSImportLine thing;\nString[] values = thing.GetValues();</code></pre>\n"
+- uid: CRMScript.NetServer.NSImportLine.SetExternalKey(String)
+  commentId: M:CRMScript.NetServer.NSImportLine.SetExternalKey(String)
+  id: 'SetExternalKey(String)'
+  so.intellisense: NSImportLine.SetExternalKey
+  langs:
+  - crmscript
+  name: 'SetExternalKey(String)'
+  nameWithType: NSImportLine.SetExternalKey(String)
+  fullName: CRMScript.NetServer.NSImportLine.SetExternalKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExternalKey(String externalKey)
+    parameters:
+    - id: externalKey
+      type: CRMScript.Global.String
+      description: "Optional external primary key for the row."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSImportLine thing;\nString externalKey;\nthing.SetExternalKey(externalKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSImportLine.SetOperation(Integer)
+  commentId: M:CRMScript.NetServer.NSImportLine.SetOperation(Integer)
+  id: 'SetOperation(Integer)'
+  so.intellisense: NSImportLine.SetOperation
+  langs:
+  - crmscript
+  name: 'SetOperation(Integer)'
+  nameWithType: NSImportLine.SetOperation(Integer)
+  fullName: CRMScript.NetServer.NSImportLine.SetOperation(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetOperation(Integer operation)
+    parameters:
+    - id: operation
+      type: CRMScript.Global.Integer
+      description: "Which operation will be used? This is a read-only property. See <xref href=\"CRMScript.NetServer.ImportAction\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSImportLine thing;\nInteger operation;\nthing.SetOperation(operation);</code></pre>\n"
+- uid: CRMScript.NetServer.NSImportLine.SetSelected(Bool)
+  commentId: M:CRMScript.NetServer.NSImportLine.SetSelected(Bool)
+  id: 'SetSelected(Bool)'
+  so.intellisense: NSImportLine.SetSelected
+  langs:
+  - crmscript
+  name: 'SetSelected(Bool)'
+  nameWithType: NSImportLine.SetSelected(Bool)
+  fullName: CRMScript.NetServer.NSImportLine.SetSelected(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSelected(Bool selected)
+    parameters:
+    - id: selected
+      type: CRMScript.Global.Bool
+      description: "True if the entity shall be imported, false if the entity shall be ignored."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSImportLine thing;\nBool selected;\nthing.SetSelected(selected);</code></pre>\n"
+- uid: CRMScript.NetServer.NSImportLine.SetType(Integer)
+  commentId: M:CRMScript.NetServer.NSImportLine.SetType(Integer)
+  id: 'SetType(Integer)'
+  so.intellisense: NSImportLine.SetType
+  langs:
+  - crmscript
+  name: 'SetType(Integer)'
+  nameWithType: NSImportLine.SetType(Integer)
+  fullName: CRMScript.NetServer.NSImportLine.SetType(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetType(Integer type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "Which entity type will be created? This is a read-only property. See <xref href=\"CRMScript.NetServer.ImportEntityType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSImportLine thing;\nInteger type;\nthing.SetType(type);</code></pre>\n"
+- uid: CRMScript.NetServer.NSImportLine.SetValues(String[])
+  commentId: M:CRMScript.NetServer.NSImportLine.SetValues(String[])
+  id: 'SetValues(String[])'
+  so.intellisense: NSImportLine.SetValues
+  langs:
+  - crmscript
+  name: 'SetValues(String[])'
+  nameWithType: NSImportLine.SetValues(String[])
+  fullName: CRMScript.NetServer.NSImportLine.SetValues(String[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetValues(String[] values)
+    parameters:
+    - id: values
+      type: CRMScript.Global.String[]
+      description: "An array of the values that will be imported on the entity."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSImportLine thing;\nString[] values;\nthing.SetValues(values);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSImportLine
+  commentId: T:CRMScript.NetServer.NSImportLine
+  isExternal: true
+  name: NSImportLine
+  nameWithType: NSImportLine
+  fullName: CRMScript.NetServer.NSImportLine
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    isExternal: true
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.ImportAction
+  commentId: T:CRMScript.NetServer.ImportAction
+  isExternal: true
+  name: ImportAction
+  nameWithType: ImportAction
+  fullName: CRMScript.NetServer.ImportAction
+- uid: CRMScript.NetServer.ImportEntityType
+  commentId: T:CRMScript.NetServer.ImportEntityType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ImportEntityType
+  nameWithType: ImportEntityType
+  fullName: CRMScript.NetServer.ImportEntityType

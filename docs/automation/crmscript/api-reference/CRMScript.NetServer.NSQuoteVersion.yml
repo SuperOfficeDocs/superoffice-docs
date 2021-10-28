@@ -1,0 +1,1727 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSQuoteVersion
+  commentId: T:CRMScript.NetServer.NSQuoteVersion
+  id: NSQuoteVersion
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSQuoteVersion.#ctor
+  - CRMScript.NetServer.NSQuoteVersion.GetApprovedBy()
+  - CRMScript.NetServer.NSQuoteVersion.GetApprovedRegisteredBy()
+  - CRMScript.NetServer.NSQuoteVersion.GetApprovedRegisteredDate()
+  - CRMScript.NetServer.NSQuoteVersion.GetApprovedText()
+  - CRMScript.NetServer.NSQuoteVersion.GetArchivedState()
+  - CRMScript.NetServer.NSQuoteVersion.GetDeliveryCountryId()
+  - CRMScript.NetServer.NSQuoteVersion.GetDescription()
+  - CRMScript.NetServer.NSQuoteVersion.GetERPDeliveryTermsKey()
+  - CRMScript.NetServer.NSQuoteVersion.GetERPDeliveryTypeKey()
+  - CRMScript.NetServer.NSQuoteVersion.GetERPPaymentTermsKey()
+  - CRMScript.NetServer.NSQuoteVersion.GetERPPaymentTypeKey()
+  - CRMScript.NetServer.NSQuoteVersion.GetERPQuoteVersionKey()
+  - CRMScript.NetServer.NSQuoteVersion.GetExpirationDate()
+  - CRMScript.NetServer.NSQuoteVersion.GetExtraField1()
+  - CRMScript.NetServer.NSQuoteVersion.GetExtraField2()
+  - CRMScript.NetServer.NSQuoteVersion.GetExtraField3()
+  - CRMScript.NetServer.NSQuoteVersion.GetExtraField4()
+  - CRMScript.NetServer.NSQuoteVersion.GetExtraField5()
+  - CRMScript.NetServer.NSQuoteVersion.GetFollowupId()
+  - CRMScript.NetServer.NSQuoteVersion.GetHasOwnDeliveryAddress()
+  - CRMScript.NetServer.NSQuoteVersion.GetHasOwnInvoiceAddress()
+  - CRMScript.NetServer.NSQuoteVersion.GetInvoiceCountryId()
+  - CRMScript.NetServer.NSQuoteVersion.GetLastRecalculated()
+  - CRMScript.NetServer.NSQuoteVersion.GetLikelyQuoteAlternativeId()
+  - CRMScript.NetServer.NSQuoteVersion.GetNumber()
+  - CRMScript.NetServer.NSQuoteVersion.GetQuoteAlternatives()
+  - CRMScript.NetServer.NSQuoteVersion.GetQuoteId()
+  - CRMScript.NetServer.NSQuoteVersion.GetQuoteVersionId()
+  - CRMScript.NetServer.NSQuoteVersion.GetRank()
+  - CRMScript.NetServer.NSQuoteVersion.GetReason()
+  - CRMScript.NetServer.NSQuoteVersion.GetRegistered()
+  - CRMScript.NetServer.NSQuoteVersion.GetRegisteredAssociateId()
+  - CRMScript.NetServer.NSQuoteVersion.GetSentDate()
+  - CRMScript.NetServer.NSQuoteVersion.GetState()
+  - CRMScript.NetServer.NSQuoteVersion.GetStatus()
+  - CRMScript.NetServer.NSQuoteVersion.GetUpdated()
+  - CRMScript.NetServer.NSQuoteVersion.GetUpdatedAssociateId()
+  - CRMScript.NetServer.NSQuoteVersion.SetApprovedBy(Integer)
+  - CRMScript.NetServer.NSQuoteVersion.SetApprovedRegisteredBy(Integer)
+  - CRMScript.NetServer.NSQuoteVersion.SetApprovedRegisteredDate(DateTime)
+  - CRMScript.NetServer.NSQuoteVersion.SetApprovedText(String)
+  - CRMScript.NetServer.NSQuoteVersion.SetArchivedState(Integer)
+  - CRMScript.NetServer.NSQuoteVersion.SetDeliveryCountryId(Integer)
+  - CRMScript.NetServer.NSQuoteVersion.SetDescription(String)
+  - CRMScript.NetServer.NSQuoteVersion.SetERPDeliveryTermsKey(String)
+  - CRMScript.NetServer.NSQuoteVersion.SetERPDeliveryTypeKey(String)
+  - CRMScript.NetServer.NSQuoteVersion.SetERPPaymentTermsKey(String)
+  - CRMScript.NetServer.NSQuoteVersion.SetERPPaymentTypeKey(String)
+  - CRMScript.NetServer.NSQuoteVersion.SetERPQuoteVersionKey(String)
+  - CRMScript.NetServer.NSQuoteVersion.SetExpirationDate(DateTime)
+  - CRMScript.NetServer.NSQuoteVersion.SetExtraField1(String)
+  - CRMScript.NetServer.NSQuoteVersion.SetExtraField2(String)
+  - CRMScript.NetServer.NSQuoteVersion.SetExtraField3(String)
+  - CRMScript.NetServer.NSQuoteVersion.SetExtraField4(String)
+  - CRMScript.NetServer.NSQuoteVersion.SetExtraField5(String)
+  - CRMScript.NetServer.NSQuoteVersion.SetFollowupId(Integer)
+  - CRMScript.NetServer.NSQuoteVersion.SetHasOwnDeliveryAddress(Bool)
+  - CRMScript.NetServer.NSQuoteVersion.SetHasOwnInvoiceAddress(Bool)
+  - CRMScript.NetServer.NSQuoteVersion.SetInvoiceCountryId(Integer)
+  - CRMScript.NetServer.NSQuoteVersion.SetLastRecalculated(DateTime)
+  - CRMScript.NetServer.NSQuoteVersion.SetLikelyQuoteAlternativeId(Integer)
+  - CRMScript.NetServer.NSQuoteVersion.SetNumber(String)
+  - CRMScript.NetServer.NSQuoteVersion.SetQuoteAlternatives(NSQuoteAlternative[])
+  - CRMScript.NetServer.NSQuoteVersion.SetQuoteId(Integer)
+  - CRMScript.NetServer.NSQuoteVersion.SetQuoteVersionId(Integer)
+  - CRMScript.NetServer.NSQuoteVersion.SetRank(Integer)
+  - CRMScript.NetServer.NSQuoteVersion.SetReason(String)
+  - CRMScript.NetServer.NSQuoteVersion.SetRegistered(DateTime)
+  - CRMScript.NetServer.NSQuoteVersion.SetRegisteredAssociateId(Integer)
+  - CRMScript.NetServer.NSQuoteVersion.SetSentDate(DateTime)
+  - CRMScript.NetServer.NSQuoteVersion.SetState(Integer)
+  - CRMScript.NetServer.NSQuoteVersion.SetStatus(Integer)
+  - CRMScript.NetServer.NSQuoteVersion.SetUpdated(DateTime)
+  - CRMScript.NetServer.NSQuoteVersion.SetUpdatedAssociateId(Integer)
+  name: NSQuoteVersion
+  nameWithType: NSQuoteVersion
+  fullName: CRMScript.NetServer.NSQuoteVersion
+  type: Class
+  summary: "\nInformation about a version of the.\n"
+  example: 
+- uid: CRMScript.NetServer.NSQuoteVersion.#ctor
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSQuoteVersion
+  langs:
+  - crmscript
+  name: NSQuoteVersion()
+  nameWithType: NSQuoteVersion.#ctor
+  fullName: CRMScript.NetServer.NSQuoteVersion.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSQuoteVersion class.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteVersion
+  example: 
+- uid: CRMScript.NetServer.NSQuoteVersion.GetApprovedBy()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetApprovedBy()
+  id: 'GetApprovedBy()'
+  so.intellisense: NSQuoteVersion.GetApprovedBy
+  langs:
+  - crmscript
+  name: 'GetApprovedBy()'
+  nameWithType: NSQuoteVersion.GetApprovedBy()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetApprovedBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetApprovedBy()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of associate who approved (or rejected approval) for this version."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger approvedBy = thing.GetApprovedBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetApprovedRegisteredBy()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetApprovedRegisteredBy()
+  id: 'GetApprovedRegisteredBy()'
+  so.intellisense: NSQuoteVersion.GetApprovedRegisteredBy
+  langs:
+  - crmscript
+  name: 'GetApprovedRegisteredBy()'
+  nameWithType: NSQuoteVersion.GetApprovedRegisteredBy()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetApprovedRegisteredBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetApprovedRegisteredBy()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of associate who actually entered the approval; might be different from ApprovedBy (f.x. due to telephone consultation/approval)."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger approvedRegisteredBy = thing.GetApprovedRegisteredBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetApprovedRegisteredDate()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetApprovedRegisteredDate()
+  id: 'GetApprovedRegisteredDate()'
+  so.intellisense: NSQuoteVersion.GetApprovedRegisteredDate
+  langs:
+  - crmscript
+  name: 'GetApprovedRegisteredDate()'
+  nameWithType: NSQuoteVersion.GetApprovedRegisteredDate()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetApprovedRegisteredDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetApprovedRegisteredDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "When was approval granted or rejected."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nDateTime approvedRegisteredDate = thing.GetApprovedRegisteredDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetApprovedText()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetApprovedText()
+  id: 'GetApprovedText()'
+  so.intellisense: NSQuoteVersion.GetApprovedText
+  langs:
+  - crmscript
+  name: 'GetApprovedText()'
+  nameWithType: NSQuoteVersion.GetApprovedText()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetApprovedText()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetApprovedText()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: Text with comments on why approval was granted (or rejected) 
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString approvedText = thing.GetApprovedText();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetArchivedState()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetArchivedState()
+  id: 'GetArchivedState()'
+  so.intellisense: NSQuoteVersion.GetArchivedState
+  langs:
+  - crmscript
+  name: 'GetArchivedState()'
+  nameWithType: NSQuoteVersion.GetArchivedState()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetArchivedState()
+  type: Method
+  summary: # TODO
+  remarks: "\nIn this way we can show what happened before the archiving.\n"
+  syntax: 
+    content: Integer GetArchivedState()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "State that this quote version had, right before it was changed to Archived. See <xref href=\"CRMScript.NetServer.QuoteVersionState\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger archivedState = thing.GetArchivedState();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetDeliveryCountryId()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetDeliveryCountryId()
+  id: 'GetDeliveryCountryId()'
+  so.intellisense: NSQuoteVersion.GetDeliveryCountryId
+  langs:
+  - crmscript
+  name: 'GetDeliveryCountryId()'
+  nameWithType: NSQuoteVersion.GetDeliveryCountryId()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetDeliveryCountryId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDeliveryCountryId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Country of delivery address, typically copied from the contact record."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger deliveryCountryId = thing.GetDeliveryCountryId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetDescription()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSQuoteVersion.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSQuoteVersion.GetDescription()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Description of Version. Potentially longer text description, typically used in a tooltip. Max 2K."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetERPDeliveryTermsKey()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetERPDeliveryTermsKey()
+  id: 'GetERPDeliveryTermsKey()'
+  so.intellisense: NSQuoteVersion.GetERPDeliveryTermsKey
+  langs:
+  - crmscript
+  name: 'GetERPDeliveryTermsKey()'
+  nameWithType: NSQuoteVersion.GetERPDeliveryTermsKey()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetERPDeliveryTermsKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetERPDeliveryTermsKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Either a ListId to an ID from a connector provided list, or, if the connection doesn't support lists, a text. For instance 'FOB' ('Free on board')."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString eRPDeliveryTermsKey = thing.GetERPDeliveryTermsKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetERPDeliveryTypeKey()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetERPDeliveryTypeKey()
+  id: 'GetERPDeliveryTypeKey()'
+  so.intellisense: NSQuoteVersion.GetERPDeliveryTypeKey
+  langs:
+  - crmscript
+  name: 'GetERPDeliveryTypeKey()'
+  nameWithType: NSQuoteVersion.GetERPDeliveryTypeKey()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetERPDeliveryTypeKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetERPDeliveryTypeKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Either a ListId to an ID from a connector provided list, or, if the connection doesn't support lists, a text. For instance 'Air'."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString eRPDeliveryTypeKey = thing.GetERPDeliveryTypeKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetERPPaymentTermsKey()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetERPPaymentTermsKey()
+  id: 'GetERPPaymentTermsKey()'
+  so.intellisense: NSQuoteVersion.GetERPPaymentTermsKey
+  langs:
+  - crmscript
+  name: 'GetERPPaymentTermsKey()'
+  nameWithType: NSQuoteVersion.GetERPPaymentTermsKey()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetERPPaymentTermsKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetERPPaymentTermsKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Either a ListId to an ID from a connector provided list, or, if the connection doesn't support lists, a text. For instance 'Standard 30 days'."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString eRPPaymentTermsKey = thing.GetERPPaymentTermsKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetERPPaymentTypeKey()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetERPPaymentTypeKey()
+  id: 'GetERPPaymentTypeKey()'
+  so.intellisense: NSQuoteVersion.GetERPPaymentTypeKey
+  langs:
+  - crmscript
+  name: 'GetERPPaymentTypeKey()'
+  nameWithType: NSQuoteVersion.GetERPPaymentTypeKey()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetERPPaymentTypeKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetERPPaymentTypeKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Either a ListId to an ID from a connector provided list, or, if the connection doesn't support lists, a text. For instance 'Invoice'."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString eRPPaymentTypeKey = thing.GetERPPaymentTypeKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetERPQuoteVersionKey()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetERPQuoteVersionKey()
+  id: 'GetERPQuoteVersionKey()'
+  so.intellisense: NSQuoteVersion.GetERPQuoteVersionKey
+  langs:
+  - crmscript
+  name: 'GetERPQuoteVersionKey()'
+  nameWithType: NSQuoteVersion.GetERPQuoteVersionKey()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetERPQuoteVersionKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetERPQuoteVersionKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Key in the ERP system that uniquely identifies this Version within the ERP system (if available, the field may be empty)."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString eRPQuoteVersionKey = thing.GetERPQuoteVersionKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetExpirationDate()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetExpirationDate()
+  id: 'GetExpirationDate()'
+  so.intellisense: NSQuoteVersion.GetExpirationDate
+  langs:
+  - crmscript
+  name: 'GetExpirationDate()'
+  nameWithType: NSQuoteVersion.GetExpirationDate()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetExpirationDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetExpirationDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Last date the quote Version is valid, expiration is at midnight end of this day."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nDateTime expirationDate = thing.GetExpirationDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetExtraField1()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetExtraField1()
+  id: 'GetExtraField1()'
+  so.intellisense: NSQuoteVersion.GetExtraField1
+  langs:
+  - crmscript
+  name: 'GetExtraField1()'
+  nameWithType: NSQuoteVersion.GetExtraField1()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetExtraField1()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExtraField1()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Optional information added by Quote Connector; usable in the quote document merge process."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString extraField1 = thing.GetExtraField1();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetExtraField2()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetExtraField2()
+  id: 'GetExtraField2()'
+  so.intellisense: NSQuoteVersion.GetExtraField2
+  langs:
+  - crmscript
+  name: 'GetExtraField2()'
+  nameWithType: NSQuoteVersion.GetExtraField2()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetExtraField2()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExtraField2()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Optional information added by Quote Connector; usable in the quote document merge process."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString extraField2 = thing.GetExtraField2();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetExtraField3()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetExtraField3()
+  id: 'GetExtraField3()'
+  so.intellisense: NSQuoteVersion.GetExtraField3
+  langs:
+  - crmscript
+  name: 'GetExtraField3()'
+  nameWithType: NSQuoteVersion.GetExtraField3()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetExtraField3()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExtraField3()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Optional information added by Quote Connector; usable in the quote document merge process."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString extraField3 = thing.GetExtraField3();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetExtraField4()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetExtraField4()
+  id: 'GetExtraField4()'
+  so.intellisense: NSQuoteVersion.GetExtraField4
+  langs:
+  - crmscript
+  name: 'GetExtraField4()'
+  nameWithType: NSQuoteVersion.GetExtraField4()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetExtraField4()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExtraField4()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Optional information added by Quote Connector; usable in the quote document merge process."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString extraField4 = thing.GetExtraField4();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetExtraField5()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetExtraField5()
+  id: 'GetExtraField5()'
+  so.intellisense: NSQuoteVersion.GetExtraField5
+  langs:
+  - crmscript
+  name: 'GetExtraField5()'
+  nameWithType: NSQuoteVersion.GetExtraField5()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetExtraField5()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExtraField5()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Optional information added by Quote Connector; usable in the quote document merge process."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString extraField5 = thing.GetExtraField5();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetFollowupId()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetFollowupId()
+  id: 'GetFollowupId()'
+  so.intellisense: NSQuoteVersion.GetFollowupId
+  langs:
+  - crmscript
+  name: 'GetFollowupId()'
+  nameWithType: NSQuoteVersion.GetFollowupId()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetFollowupId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetFollowupId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Link to a follow-up activity, created when this quote version was sent to the customer."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger followupId = thing.GetFollowupId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetHasOwnDeliveryAddress()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetHasOwnDeliveryAddress()
+  id: 'GetHasOwnDeliveryAddress()'
+  so.intellisense: NSQuoteVersion.GetHasOwnDeliveryAddress
+  langs:
+  - crmscript
+  name: 'GetHasOwnDeliveryAddress()'
+  nameWithType: NSQuoteVersion.GetHasOwnDeliveryAddress()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetHasOwnDeliveryAddress()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetHasOwnDeliveryAddress()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "The delivery address is not the same as the contact's Street address."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nBool hasOwnDeliveryAddress = thing.GetHasOwnDeliveryAddress();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetHasOwnInvoiceAddress()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetHasOwnInvoiceAddress()
+  id: 'GetHasOwnInvoiceAddress()'
+  so.intellisense: NSQuoteVersion.GetHasOwnInvoiceAddress
+  langs:
+  - crmscript
+  name: 'GetHasOwnInvoiceAddress()'
+  nameWithType: NSQuoteVersion.GetHasOwnInvoiceAddress()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetHasOwnInvoiceAddress()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetHasOwnInvoiceAddress()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "The quote has an address for Invoicing. This will typically be copied from the company's addresses."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nBool hasOwnInvoiceAddress = thing.GetHasOwnInvoiceAddress();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetInvoiceCountryId()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetInvoiceCountryId()
+  id: 'GetInvoiceCountryId()'
+  so.intellisense: NSQuoteVersion.GetInvoiceCountryId
+  langs:
+  - crmscript
+  name: 'GetInvoiceCountryId()'
+  nameWithType: NSQuoteVersion.GetInvoiceCountryId()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetInvoiceCountryId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetInvoiceCountryId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Country of invoice address, typically copied from contact record."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger invoiceCountryId = thing.GetInvoiceCountryId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetLastRecalculated()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetLastRecalculated()
+  id: 'GetLastRecalculated()'
+  so.intellisense: NSQuoteVersion.GetLastRecalculated
+  langs:
+  - crmscript
+  name: 'GetLastRecalculated()'
+  nameWithType: NSQuoteVersion.GetLastRecalculated()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetLastRecalculated()
+  type: Method
+  summary: # TODO
+  remarks: "\nThis field must be set by the connector, since the connector may choose to ignore a RecalculateVersion call based on policies and possibly the current value of this field. SuperOffice will set this field to 1.1.1760 whenever any change occurs to the quote, to indicate that a recalculation is needed.\n"
+  syntax: 
+    content: DateTime GetLastRecalculated()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "When this version was last subjected to a total recalculation."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nDateTime lastRecalculated = thing.GetLastRecalculated();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetLikelyQuoteAlternativeId()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetLikelyQuoteAlternativeId()
+  id: 'GetLikelyQuoteAlternativeId()'
+  so.intellisense: NSQuoteVersion.GetLikelyQuoteAlternativeId
+  langs:
+  - crmscript
+  name: 'GetLikelyQuoteAlternativeId()'
+  nameWithType: NSQuoteVersion.GetLikelyQuoteAlternativeId()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetLikelyQuoteAlternativeId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetLikelyQuoteAlternativeId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The alternative that is considered most likely to be accepted. Used to calculate probable income."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger likelyQuoteAlternativeId = thing.GetLikelyQuoteAlternativeId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetNumber()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetNumber()
+  id: 'GetNumber()'
+  so.intellisense: NSQuoteVersion.GetNumber
+  langs:
+  - crmscript
+  name: 'GetNumber()'
+  nameWithType: NSQuoteVersion.GetNumber()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetNumber()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetNumber()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A quote number that the user (or ERP connector) can fill out."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString number = thing.GetNumber();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetQuoteAlternatives()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetQuoteAlternatives()
+  id: 'GetQuoteAlternatives()'
+  so.intellisense: NSQuoteVersion.GetQuoteAlternatives
+  langs:
+  - crmscript
+  name: 'GetQuoteAlternatives()'
+  nameWithType: NSQuoteVersion.GetQuoteAlternatives()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetQuoteAlternatives()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSQuoteAlternative[] GetQuoteAlternatives()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSQuoteAlternative[]
+      description: "The QuoteAlternatives for the NSQuoteVersion."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nNSQuoteAlternative[] quoteAlternatives = thing.GetQuoteAlternatives();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetQuoteId()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetQuoteId()
+  id: 'GetQuoteId()'
+  so.intellisense: NSQuoteVersion.GetQuoteId
+  langs:
+  - crmscript
+  name: 'GetQuoteId()'
+  nameWithType: NSQuoteVersion.GetQuoteId()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetQuoteId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetQuoteId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Foreign key to CRM quote (the conceptual parent). Owning Quote of this Quote Version."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger quoteId = thing.GetQuoteId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetQuoteVersionId()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetQuoteVersionId()
+  id: 'GetQuoteVersionId()'
+  so.intellisense: NSQuoteVersion.GetQuoteVersionId
+  langs:
+  - crmscript
+  name: 'GetQuoteVersionId()'
+  nameWithType: NSQuoteVersion.GetQuoteVersionId()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetQuoteVersionId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetQuoteVersionId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger quoteVersionId = thing.GetQuoteVersionId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetRank()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSQuoteVersion.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSQuoteVersion.GetRank()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: Rank/Version number, starts at 1
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetReason()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetReason()
+  id: 'GetReason()'
+  so.intellisense: NSQuoteVersion.GetReason
+  langs:
+  - crmscript
+  name: 'GetReason()'
+  nameWithType: NSQuoteVersion.GetReason()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetReason()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetReason()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "If there was a problem, this field contains a localized explanation of the problem and possible steps to fix it that the user can be shown."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString reason = thing.GetReason();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetRegistered()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetRegistered()
+  id: 'GetRegistered()'
+  so.intellisense: NSQuoteVersion.GetRegistered
+  langs:
+  - crmscript
+  name: 'GetRegistered()'
+  nameWithType: NSQuoteVersion.GetRegistered()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetRegistered()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetRegistered()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nDateTime registered = thing.GetRegistered();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetRegisteredAssociateId()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetRegisteredAssociateId()
+  id: 'GetRegisteredAssociateId()'
+  so.intellisense: NSQuoteVersion.GetRegisteredAssociateId
+  langs:
+  - crmscript
+  name: 'GetRegisteredAssociateId()'
+  nameWithType: NSQuoteVersion.GetRegisteredAssociateId()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetRegisteredAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRegisteredAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Registered by whom."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger registeredAssociateId = thing.GetRegisteredAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetSentDate()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetSentDate()
+  id: 'GetSentDate()'
+  so.intellisense: NSQuoteVersion.GetSentDate
+  langs:
+  - crmscript
+  name: 'GetSentDate()'
+  nameWithType: NSQuoteVersion.GetSentDate()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetSentDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetSentDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The date the version was sent to the customer."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nDateTime sentDate = thing.GetSentDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetState()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetState()
+  id: 'GetState()'
+  so.intellisense: NSQuoteVersion.GetState
+  langs:
+  - crmscript
+  name: 'GetState()'
+  nameWithType: NSQuoteVersion.GetState()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetState()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetState()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Current state of this quote version. See <xref href=\"CRMScript.NetServer.QuoteVersionState\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger state = thing.GetState();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetStatus()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetStatus()
+  id: 'GetStatus()'
+  so.intellisense: NSQuoteVersion.GetStatus
+  langs:
+  - crmscript
+  name: 'GetStatus()'
+  nameWithType: NSQuoteVersion.GetStatus()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetStatus()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetStatus()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "If there was a problem with for instance calculation, this field is set to warning or error. See <xref href=\"CRMScript.NetServer.QuoteStatus\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger status = thing.GetStatus();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetUpdated()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetUpdated()
+  id: 'GetUpdated()'
+  so.intellisense: NSQuoteVersion.GetUpdated
+  langs:
+  - crmscript
+  name: 'GetUpdated()'
+  nameWithType: NSQuoteVersion.GetUpdated()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetUpdated()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetUpdated()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nDateTime updated = thing.GetUpdated();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.GetUpdatedAssociateId()
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.GetUpdatedAssociateId()
+  id: 'GetUpdatedAssociateId()'
+  so.intellisense: NSQuoteVersion.GetUpdatedAssociateId
+  langs:
+  - crmscript
+  name: 'GetUpdatedAssociateId()'
+  nameWithType: NSQuoteVersion.GetUpdatedAssociateId()
+  fullName: CRMScript.NetServer.NSQuoteVersion.GetUpdatedAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetUpdatedAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Last updated by whom."
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger updatedAssociateId = thing.GetUpdatedAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetApprovedBy(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetApprovedBy(Integer)
+  id: 'SetApprovedBy(Integer)'
+  so.intellisense: NSQuoteVersion.SetApprovedBy
+  langs:
+  - crmscript
+  name: 'SetApprovedBy(Integer)'
+  nameWithType: NSQuoteVersion.SetApprovedBy(Integer)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetApprovedBy(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetApprovedBy(Integer approvedBy)
+    parameters:
+    - id: approvedBy
+      type: CRMScript.Global.Integer
+      description: "ID of associate who approved (or rejected approval) for this version."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger approvedBy;\nthing.SetApprovedBy(approvedBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetApprovedRegisteredBy(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetApprovedRegisteredBy(Integer)
+  id: 'SetApprovedRegisteredBy(Integer)'
+  so.intellisense: NSQuoteVersion.SetApprovedRegisteredBy
+  langs:
+  - crmscript
+  name: 'SetApprovedRegisteredBy(Integer)'
+  nameWithType: NSQuoteVersion.SetApprovedRegisteredBy(Integer)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetApprovedRegisteredBy(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetApprovedRegisteredBy(Integer approvedRegisteredBy)
+    parameters:
+    - id: approvedRegisteredBy
+      type: CRMScript.Global.Integer
+      description: "ID of associate who actually entered the approval; might be different from ApprovedBy (f.x. due to telephone consultation/approval)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger approvedRegisteredBy;\nthing.SetApprovedRegisteredBy(approvedRegisteredBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetApprovedRegisteredDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetApprovedRegisteredDate(DateTime)
+  id: 'SetApprovedRegisteredDate(DateTime)'
+  so.intellisense: NSQuoteVersion.SetApprovedRegisteredDate
+  langs:
+  - crmscript
+  name: 'SetApprovedRegisteredDate(DateTime)'
+  nameWithType: NSQuoteVersion.SetApprovedRegisteredDate(DateTime)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetApprovedRegisteredDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetApprovedRegisteredDate(DateTime approvedRegisteredDate)
+    parameters:
+    - id: approvedRegisteredDate
+      type: CRMScript.Global.DateTime
+      description: "When was approval granted or rejected."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nDateTime approvedRegisteredDate;\nthing.SetApprovedRegisteredDate(approvedRegisteredDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetApprovedText(String)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetApprovedText(String)
+  id: 'SetApprovedText(String)'
+  so.intellisense: NSQuoteVersion.SetApprovedText
+  langs:
+  - crmscript
+  name: 'SetApprovedText(String)'
+  nameWithType: NSQuoteVersion.SetApprovedText(String)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetApprovedText(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetApprovedText(String approvedText)
+    parameters:
+    - id: approvedText
+      type: CRMScript.Global.String
+      description: "Text with comments on why approval was granted (or rejected)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString approvedText;\nthing.SetApprovedText(approvedText);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetArchivedState(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetArchivedState(Integer)
+  id: 'SetArchivedState(Integer)'
+  so.intellisense: NSQuoteVersion.SetArchivedState
+  langs:
+  - crmscript
+  name: 'SetArchivedState(Integer)'
+  nameWithType: NSQuoteVersion.SetArchivedState(Integer)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetArchivedState(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetArchivedState(Integer archivedState)
+    parameters:
+    - id: archivedState
+      type: CRMScript.Global.Integer
+      description: "State that this quote version had, right before it was changed to Archived; in this way we can show what happened before the archiving. See <xref href=\"CRMScript.NetServer.QuoteVersionState\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger archivedState;\nthing.SetArchivedState(archivedState);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetDeliveryCountryId(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetDeliveryCountryId(Integer)
+  id: 'SetDeliveryCountryId(Integer)'
+  so.intellisense: NSQuoteVersion.SetDeliveryCountryId
+  langs:
+  - crmscript
+  name: 'SetDeliveryCountryId(Integer)'
+  nameWithType: NSQuoteVersion.SetDeliveryCountryId(Integer)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetDeliveryCountryId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeliveryCountryId(Integer deliveryCountryId)
+    parameters:
+    - id: deliveryCountryId
+      type: CRMScript.Global.Integer
+      description: "Country of delivery address, typically copied from the contact record."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger deliveryCountryId;\nthing.SetDeliveryCountryId(deliveryCountryId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSQuoteVersion.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSQuoteVersion.SetDescription(String)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "Description of Version. Potentially longer text description, typically used in a tooltip. Max 2K."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetERPDeliveryTermsKey(String)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetERPDeliveryTermsKey(String)
+  id: 'SetERPDeliveryTermsKey(String)'
+  so.intellisense: NSQuoteVersion.SetERPDeliveryTermsKey
+  langs:
+  - crmscript
+  name: 'SetERPDeliveryTermsKey(String)'
+  nameWithType: NSQuoteVersion.SetERPDeliveryTermsKey(String)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetERPDeliveryTermsKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetERPDeliveryTermsKey(String eRPDeliveryTermsKey)
+    parameters:
+    - id: eRPDeliveryTermsKey
+      type: CRMScript.Global.String
+      description: "Either a ListId to an ID from a connector provided list, or, if the connection doesn't support lists, a text. For instance 'FOB' ('Free on board')."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString eRPDeliveryTermsKey;\nthing.SetERPDeliveryTermsKey(eRPDeliveryTermsKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetERPDeliveryTypeKey(String)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetERPDeliveryTypeKey(String)
+  id: 'SetERPDeliveryTypeKey(String)'
+  so.intellisense: NSQuoteVersion.SetERPDeliveryTypeKey
+  langs:
+  - crmscript
+  name: 'SetERPDeliveryTypeKey(String)'
+  nameWithType: NSQuoteVersion.SetERPDeliveryTypeKey(String)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetERPDeliveryTypeKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetERPDeliveryTypeKey(String eRPDeliveryTypeKey)
+    parameters:
+    - id: eRPDeliveryTypeKey
+      type: CRMScript.Global.String
+      description: "Either a ListId to an ID from a connector provided list, or, if the connection doesn't support lists, a text. For instance 'Air'."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString eRPDeliveryTypeKey;\nthing.SetERPDeliveryTypeKey(eRPDeliveryTypeKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetERPPaymentTermsKey(String)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetERPPaymentTermsKey(String)
+  id: 'SetERPPaymentTermsKey(String)'
+  so.intellisense: NSQuoteVersion.SetERPPaymentTermsKey
+  langs:
+  - crmscript
+  name: 'SetERPPaymentTermsKey(String)'
+  nameWithType: NSQuoteVersion.SetERPPaymentTermsKey(String)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetERPPaymentTermsKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetERPPaymentTermsKey(String eRPPaymentTermsKey)
+    parameters:
+    - id: eRPPaymentTermsKey
+      type: CRMScript.Global.String
+      description: "Either a ListId to an ID from a connector provided list, or, if the connection doesn't support lists, a text. For instance 'Standard 30 days'."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString eRPPaymentTermsKey;\nthing.SetERPPaymentTermsKey(eRPPaymentTermsKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetERPPaymentTypeKey(String)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetERPPaymentTypeKey(String)
+  id: 'SetERPPaymentTypeKey(String)'
+  so.intellisense: NSQuoteVersion.SetERPPaymentTypeKey
+  langs:
+  - crmscript
+  name: 'SetERPPaymentTypeKey(String)'
+  nameWithType: NSQuoteVersion.SetERPPaymentTypeKey(String)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetERPPaymentTypeKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetERPPaymentTypeKey(String eRPPaymentTypeKey)
+    parameters:
+    - id: eRPPaymentTypeKey
+      type: CRMScript.Global.String
+      description: "Either a ListId to an ID from a connector provided list, or, if the connection doesn't support lists, a text. For instance 'Invoice'."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString eRPPaymentTypeKey;\nthing.SetERPPaymentTypeKey(eRPPaymentTypeKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetERPQuoteVersionKey(String)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetERPQuoteVersionKey(String)
+  id: 'SetERPQuoteVersionKey(String)'
+  so.intellisense: NSQuoteVersion.SetERPQuoteVersionKey
+  langs:
+  - crmscript
+  name: 'SetERPQuoteVersionKey(String)'
+  nameWithType: NSQuoteVersion.SetERPQuoteVersionKey(String)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetERPQuoteVersionKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetERPQuoteVersionKey(String eRPQuoteVersionKey)
+    parameters:
+    - id: eRPQuoteVersionKey
+      type: CRMScript.Global.String
+      description: "Key in the ERP system that uniquely identifies this Version within the ERP system (if available, the field may be empty)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString eRPQuoteVersionKey;\nthing.SetERPQuoteVersionKey(eRPQuoteVersionKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetExpirationDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetExpirationDate(DateTime)
+  id: 'SetExpirationDate(DateTime)'
+  so.intellisense: NSQuoteVersion.SetExpirationDate
+  langs:
+  - crmscript
+  name: 'SetExpirationDate(DateTime)'
+  nameWithType: NSQuoteVersion.SetExpirationDate(DateTime)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetExpirationDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExpirationDate(DateTime expirationDate)
+    parameters:
+    - id: expirationDate
+      type: CRMScript.Global.DateTime
+      description: "Last date the quote Version is valid, expiration is at midnight end of this day."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nDateTime expirationDate;\nthing.SetExpirationDate(expirationDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetExtraField1(String)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetExtraField1(String)
+  id: 'SetExtraField1(String)'
+  so.intellisense: NSQuoteVersion.SetExtraField1
+  langs:
+  - crmscript
+  name: 'SetExtraField1(String)'
+  nameWithType: NSQuoteVersion.SetExtraField1(String)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetExtraField1(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraField1(String extraField1)
+    parameters:
+    - id: extraField1
+      type: CRMScript.Global.String
+      description: "Optional information added by Quote Connector; usable in the quote document merge process."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString extraField1;\nthing.SetExtraField1(extraField1);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetExtraField2(String)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetExtraField2(String)
+  id: 'SetExtraField2(String)'
+  so.intellisense: NSQuoteVersion.SetExtraField2
+  langs:
+  - crmscript
+  name: 'SetExtraField2(String)'
+  nameWithType: NSQuoteVersion.SetExtraField2(String)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetExtraField2(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraField2(String extraField2)
+    parameters:
+    - id: extraField2
+      type: CRMScript.Global.String
+      description: "Optional information added by Quote Connector; usable in the quote document merge process."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString extraField2;\nthing.SetExtraField2(extraField2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetExtraField3(String)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetExtraField3(String)
+  id: 'SetExtraField3(String)'
+  so.intellisense: NSQuoteVersion.SetExtraField3
+  langs:
+  - crmscript
+  name: 'SetExtraField3(String)'
+  nameWithType: NSQuoteVersion.SetExtraField3(String)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetExtraField3(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraField3(String extraField3)
+    parameters:
+    - id: extraField3
+      type: CRMScript.Global.String
+      description: "Optional information added by Quote Connector; usable in the quote document merge process."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString extraField3;\nthing.SetExtraField3(extraField3);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetExtraField4(String)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetExtraField4(String)
+  id: 'SetExtraField4(String)'
+  so.intellisense: NSQuoteVersion.SetExtraField4
+  langs:
+  - crmscript
+  name: 'SetExtraField4(String)'
+  nameWithType: NSQuoteVersion.SetExtraField4(String)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetExtraField4(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraField4(String extraField4)
+    parameters:
+    - id: extraField4
+      type: CRMScript.Global.String
+      description: "Optional information added by Quote Connector; usable in the quote document merge process."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString extraField4;\nthing.SetExtraField4(extraField4);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetExtraField5(String)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetExtraField5(String)
+  id: 'SetExtraField5(String)'
+  so.intellisense: NSQuoteVersion.SetExtraField5
+  langs:
+  - crmscript
+  name: 'SetExtraField5(String)'
+  nameWithType: NSQuoteVersion.SetExtraField5(String)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetExtraField5(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraField5(String extraField5)
+    parameters:
+    - id: extraField5
+      type: CRMScript.Global.String
+      description: "Optional information added by Quote Connector; usable in the quote document merge process."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString extraField5;\nthing.SetExtraField5(extraField5);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetFollowupId(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetFollowupId(Integer)
+  id: 'SetFollowupId(Integer)'
+  so.intellisense: NSQuoteVersion.SetFollowupId
+  langs:
+  - crmscript
+  name: 'SetFollowupId(Integer)'
+  nameWithType: NSQuoteVersion.SetFollowupId(Integer)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetFollowupId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFollowupId(Integer followupId)
+    parameters:
+    - id: followupId
+      type: CRMScript.Global.Integer
+      description: "Link to a follow-up activity, created when this quote version was sent to the customer."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger followupId;\nthing.SetFollowupId(followupId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetHasOwnDeliveryAddress(Bool)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetHasOwnDeliveryAddress(Bool)
+  id: 'SetHasOwnDeliveryAddress(Bool)'
+  so.intellisense: NSQuoteVersion.SetHasOwnDeliveryAddress
+  langs:
+  - crmscript
+  name: 'SetHasOwnDeliveryAddress(Bool)'
+  nameWithType: NSQuoteVersion.SetHasOwnDeliveryAddress(Bool)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetHasOwnDeliveryAddress(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetHasOwnDeliveryAddress(Bool hasOwnDeliveryAddress)
+    parameters:
+    - id: hasOwnDeliveryAddress
+      type: CRMScript.Global.Bool
+      description: "The delivery address is not the same as the contact's Street address."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nBool hasOwnDeliveryAddress;\nthing.SetHasOwnDeliveryAddress(hasOwnDeliveryAddress);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetHasOwnInvoiceAddress(Bool)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetHasOwnInvoiceAddress(Bool)
+  id: 'SetHasOwnInvoiceAddress(Bool)'
+  so.intellisense: NSQuoteVersion.SetHasOwnInvoiceAddress
+  langs:
+  - crmscript
+  name: 'SetHasOwnInvoiceAddress(Bool)'
+  nameWithType: NSQuoteVersion.SetHasOwnInvoiceAddress(Bool)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetHasOwnInvoiceAddress(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetHasOwnInvoiceAddress(Bool hasOwnInvoiceAddress)
+    parameters:
+    - id: hasOwnInvoiceAddress
+      type: CRMScript.Global.Bool
+      description: "The quote has an address for Invoicing. This will typically be copied from the company's addresses."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nBool hasOwnInvoiceAddress;\nthing.SetHasOwnInvoiceAddress(hasOwnInvoiceAddress);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetInvoiceCountryId(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetInvoiceCountryId(Integer)
+  id: 'SetInvoiceCountryId(Integer)'
+  so.intellisense: NSQuoteVersion.SetInvoiceCountryId
+  langs:
+  - crmscript
+  name: 'SetInvoiceCountryId(Integer)'
+  nameWithType: NSQuoteVersion.SetInvoiceCountryId(Integer)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetInvoiceCountryId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetInvoiceCountryId(Integer invoiceCountryId)
+    parameters:
+    - id: invoiceCountryId
+      type: CRMScript.Global.Integer
+      description: "Country of invoice address, typically copied from contact record."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger invoiceCountryId;\nthing.SetInvoiceCountryId(invoiceCountryId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetLastRecalculated(DateTime)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetLastRecalculated(DateTime)
+  id: 'SetLastRecalculated(DateTime)'
+  so.intellisense: NSQuoteVersion.SetLastRecalculated
+  langs:
+  - crmscript
+  name: 'SetLastRecalculated(DateTime)'
+  nameWithType: NSQuoteVersion.SetLastRecalculated(DateTime)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetLastRecalculated(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLastRecalculated(DateTime lastRecalculated)
+    parameters:
+    - id: lastRecalculated
+      type: CRMScript.Global.DateTime
+      description: "When this version was last subjected to a total recalculation. This field must be set by the connector, since the connector may choose to ignore a RecalculateVersion call based on policies and possibly the current value of this field. SuperOffice will set this field to 1.1.1760 whenever any change occurs to the quote, to indicate that a recalculation is needed."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nDateTime lastRecalculated;\nthing.SetLastRecalculated(lastRecalculated);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetLikelyQuoteAlternativeId(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetLikelyQuoteAlternativeId(Integer)
+  id: 'SetLikelyQuoteAlternativeId(Integer)'
+  so.intellisense: NSQuoteVersion.SetLikelyQuoteAlternativeId
+  langs:
+  - crmscript
+  name: 'SetLikelyQuoteAlternativeId(Integer)'
+  nameWithType: NSQuoteVersion.SetLikelyQuoteAlternativeId(Integer)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetLikelyQuoteAlternativeId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLikelyQuoteAlternativeId(Integer likelyQuoteAlternativeId)
+    parameters:
+    - id: likelyQuoteAlternativeId
+      type: CRMScript.Global.Integer
+      description: "The alternative that is considered most likely to be accepted. Used to calculate probable income."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger likelyQuoteAlternativeId;\nthing.SetLikelyQuoteAlternativeId(likelyQuoteAlternativeId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetNumber(String)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetNumber(String)
+  id: 'SetNumber(String)'
+  so.intellisense: NSQuoteVersion.SetNumber
+  langs:
+  - crmscript
+  name: 'SetNumber(String)'
+  nameWithType: NSQuoteVersion.SetNumber(String)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetNumber(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetNumber(String number)
+    parameters:
+    - id: number
+      type: CRMScript.Global.String
+      description: "A quote number that the user (or ERP connector) can fill out."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString number;\nthing.SetNumber(number);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetQuoteAlternatives(NSQuoteAlternative[])
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetQuoteAlternatives(NSQuoteAlternative[])
+  id: 'SetQuoteAlternatives(NSQuoteAlternative[])'
+  so.intellisense: NSQuoteVersion.SetQuoteAlternatives
+  langs:
+  - crmscript
+  name: 'SetQuoteAlternatives(NSQuoteAlternative[])'
+  nameWithType: NSQuoteVersion.SetQuoteAlternatives(NSQuoteAlternative[])
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetQuoteAlternatives(NSQuoteAlternative[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetQuoteAlternatives(NSQuoteAlternative[] quoteAlternatives)
+    parameters:
+    - id: quoteAlternatives
+      type: CRMScript.NetServer.NSQuoteAlternative[]
+      description: "The QuoteAlternatives for the NSQuoteVersion."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nNSQuoteAlternative[] quoteAlternatives;\nthing.SetQuoteAlternatives(quoteAlternatives);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetQuoteId(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetQuoteId(Integer)
+  id: 'SetQuoteId(Integer)'
+  so.intellisense: NSQuoteVersion.SetQuoteId
+  langs:
+  - crmscript
+  name: 'SetQuoteId(Integer)'
+  nameWithType: NSQuoteVersion.SetQuoteId(Integer)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetQuoteId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetQuoteId(Integer quoteId)
+    parameters:
+    - id: quoteId
+      type: CRMScript.Global.Integer
+      description: "Foreign key to CRM quote (the conceptual parent). Owning Quote of this Quote Version."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger quoteId;\nthing.SetQuoteId(quoteId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetQuoteVersionId(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetQuoteVersionId(Integer)
+  id: 'SetQuoteVersionId(Integer)'
+  so.intellisense: NSQuoteVersion.SetQuoteVersionId
+  langs:
+  - crmscript
+  name: 'SetQuoteVersionId(Integer)'
+  nameWithType: NSQuoteVersion.SetQuoteVersionId(Integer)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetQuoteVersionId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetQuoteVersionId(Integer quoteVersionId)
+    parameters:
+    - id: quoteVersionId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger quoteVersionId;\nthing.SetQuoteVersionId(quoteVersionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSQuoteVersion.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSQuoteVersion.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: Rank/Version number, starts at 1
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetReason(String)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetReason(String)
+  id: 'SetReason(String)'
+  so.intellisense: NSQuoteVersion.SetReason
+  langs:
+  - crmscript
+  name: 'SetReason(String)'
+  nameWithType: NSQuoteVersion.SetReason(String)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetReason(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetReason(String reason)
+    parameters:
+    - id: reason
+      type: CRMScript.Global.String
+      description: "If there was a problem, this field contains a localized explanation of the problem and possible steps to fix it that the user can be shown."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nString reason;\nthing.SetReason(reason);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetRegistered(DateTime)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetRegistered(DateTime)
+  id: 'SetRegistered(DateTime)'
+  so.intellisense: NSQuoteVersion.SetRegistered
+  langs:
+  - crmscript
+  name: 'SetRegistered(DateTime)'
+  nameWithType: NSQuoteVersion.SetRegistered(DateTime)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetRegistered(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRegistered(DateTime registered)
+    parameters:
+    - id: registered
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nDateTime registered;\nthing.SetRegistered(registered);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetRegisteredAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetRegisteredAssociateId(Integer)
+  id: 'SetRegisteredAssociateId(Integer)'
+  so.intellisense: NSQuoteVersion.SetRegisteredAssociateId
+  langs:
+  - crmscript
+  name: 'SetRegisteredAssociateId(Integer)'
+  nameWithType: NSQuoteVersion.SetRegisteredAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetRegisteredAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRegisteredAssociateId(Integer registeredAssociateId)
+    parameters:
+    - id: registeredAssociateId
+      type: CRMScript.Global.Integer
+      description: "Registered by whom."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger registeredAssociateId;\nthing.SetRegisteredAssociateId(registeredAssociateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetSentDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetSentDate(DateTime)
+  id: 'SetSentDate(DateTime)'
+  so.intellisense: NSQuoteVersion.SetSentDate
+  langs:
+  - crmscript
+  name: 'SetSentDate(DateTime)'
+  nameWithType: NSQuoteVersion.SetSentDate(DateTime)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetSentDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSentDate(DateTime sentDate)
+    parameters:
+    - id: sentDate
+      type: CRMScript.Global.DateTime
+      description: "The date the version was sent to the customer."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nDateTime sentDate;\nthing.SetSentDate(sentDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetState(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetState(Integer)
+  id: 'SetState(Integer)'
+  so.intellisense: NSQuoteVersion.SetState
+  langs:
+  - crmscript
+  name: 'SetState(Integer)'
+  nameWithType: NSQuoteVersion.SetState(Integer)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetState(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetState(Integer state)
+    parameters:
+    - id: state
+      type: CRMScript.Global.Integer
+      description: "Current state of this quote version. See <xref href=\"CRMScript.NetServer.QuoteVersionState\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger state;\nthing.SetState(state);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetStatus(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetStatus(Integer)
+  id: 'SetStatus(Integer)'
+  so.intellisense: NSQuoteVersion.SetStatus
+  langs:
+  - crmscript
+  name: 'SetStatus(Integer)'
+  nameWithType: NSQuoteVersion.SetStatus(Integer)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetStatus(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetStatus(Integer status)
+    parameters:
+    - id: status
+      type: CRMScript.Global.Integer
+      description: "If there was a problem with for instance calculation, this field is set to warning or error. See <xref href=\"CRMScript.NetServer.QuoteStatus\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger status;\nthing.SetStatus(status);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetUpdated(DateTime)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetUpdated(DateTime)
+  id: 'SetUpdated(DateTime)'
+  so.intellisense: NSQuoteVersion.SetUpdated
+  langs:
+  - crmscript
+  name: 'SetUpdated(DateTime)'
+  nameWithType: NSQuoteVersion.SetUpdated(DateTime)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetUpdated(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdated(DateTime updated)
+    parameters:
+    - id: updated
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nDateTime updated;\nthing.SetUpdated(updated);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersion.SetUpdatedAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteVersion.SetUpdatedAssociateId(Integer)
+  id: 'SetUpdatedAssociateId(Integer)'
+  so.intellisense: NSQuoteVersion.SetUpdatedAssociateId
+  langs:
+  - crmscript
+  name: 'SetUpdatedAssociateId(Integer)'
+  nameWithType: NSQuoteVersion.SetUpdatedAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSQuoteVersion.SetUpdatedAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedAssociateId(Integer updatedAssociateId)
+    parameters:
+    - id: updatedAssociateId
+      type: CRMScript.Global.Integer
+      description: "Last updated by whom."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersion thing;\nInteger updatedAssociateId;\nthing.SetUpdatedAssociateId(updatedAssociateId);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSQuoteVersion
+  commentId: T:CRMScript.NetServer.NSQuoteVersion
+  isExternal: true
+  name: NSQuoteVersion
+  nameWithType: NSQuoteVersion
+  fullName: CRMScript.NetServer.NSQuoteVersion
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.NetServer.NSQuoteAlternative[]
+  isExternal: true
+  name: NSQuoteAlternative[]
+  nameWithType: NSQuoteAlternative[]
+  fullName: CRMScript.NetServer.NSQuoteAlternative[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSQuoteAlternative
+    isExternal: true
+    name: NSQuoteAlternative
+    nameWithType: NSQuoteAlternative
+    fullName: CRMScript.NetServer.NSQuoteAlternative
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSQuoteAlternative
+  commentId: T:CRMScript.NetServer.NSQuoteAlternative
+  isExternal: true
+  name: NSQuoteAlternative
+  nameWithType: NSQuoteAlternative
+  fullName: CRMScript.NetServer.NSQuoteAlternative
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.QuoteVersionState
+  commentId: T:CRMScript.NetServer.QuoteVersionState
+  isExternal: true
+  name: QuoteVersionState
+  nameWithType: QuoteVersionState
+  fullName: CRMScript.NetServer.QuoteVersionState
+- uid: CRMScript.NetServer.QuoteStatus
+  commentId: T:CRMScript.NetServer.QuoteStatus
+  isExternal: true
+  name: QuoteStatus
+  nameWithType: QuoteStatus
+  fullName: CRMScript.NetServer.QuoteStatus

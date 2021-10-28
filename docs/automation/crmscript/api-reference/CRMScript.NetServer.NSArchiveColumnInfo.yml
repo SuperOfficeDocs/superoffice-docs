@@ -1,0 +1,625 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSArchiveColumnInfo
+  commentId: T:CRMScript.NetServer.NSArchiveColumnInfo
+  id: NSArchiveColumnInfo
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSArchiveColumnInfo.#ctor
+  - CRMScript.NetServer.NSArchiveColumnInfo.GetCanOrderBy()
+  - CRMScript.NetServer.NSArchiveColumnInfo.GetCanRestrictBy()
+  - CRMScript.NetServer.NSArchiveColumnInfo.GetDisplayName()
+  - CRMScript.NetServer.NSArchiveColumnInfo.GetDisplayTooltip()
+  - CRMScript.NetServer.NSArchiveColumnInfo.GetDisplayType()
+  - CRMScript.NetServer.NSArchiveColumnInfo.GetHeadingIconHint()
+  - CRMScript.NetServer.NSArchiveColumnInfo.GetIconHint()
+  - CRMScript.NetServer.NSArchiveColumnInfo.GetIsVisible()
+  - CRMScript.NetServer.NSArchiveColumnInfo.GetName()
+  - CRMScript.NetServer.NSArchiveColumnInfo.GetRestrictionListName()
+  - CRMScript.NetServer.NSArchiveColumnInfo.GetRestrictionType()
+  - CRMScript.NetServer.NSArchiveColumnInfo.GetSourceCode()
+  - CRMScript.NetServer.NSArchiveColumnInfo.GetWidth()
+  - CRMScript.NetServer.NSArchiveColumnInfo.SetCanOrderBy(Bool)
+  - CRMScript.NetServer.NSArchiveColumnInfo.SetCanRestrictBy(Bool)
+  - CRMScript.NetServer.NSArchiveColumnInfo.SetDisplayName(String)
+  - CRMScript.NetServer.NSArchiveColumnInfo.SetDisplayTooltip(String)
+  - CRMScript.NetServer.NSArchiveColumnInfo.SetDisplayType(String)
+  - CRMScript.NetServer.NSArchiveColumnInfo.SetHeadingIconHint(String)
+  - CRMScript.NetServer.NSArchiveColumnInfo.SetIconHint(String)
+  - CRMScript.NetServer.NSArchiveColumnInfo.SetIsVisible(Bool)
+  - CRMScript.NetServer.NSArchiveColumnInfo.SetName(String)
+  - CRMScript.NetServer.NSArchiveColumnInfo.SetRestrictionListName(String)
+  - CRMScript.NetServer.NSArchiveColumnInfo.SetRestrictionType(String)
+  - CRMScript.NetServer.NSArchiveColumnInfo.SetSourceCode(String)
+  - CRMScript.NetServer.NSArchiveColumnInfo.SetWidth(String)
+  name: NSArchiveColumnInfo
+  nameWithType: NSArchiveColumnInfo
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo
+  type: Class
+  summary: "\nInformation about the definition and properties of an archive display column. It is used by the archive MDO providers to construct column lists for the configuration dialogs, and by the archive control to know what type (and other properties) each column has. The class is serializable and used on both the application and web server sides.\n"
+  example: 
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.#ctor
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSArchiveColumnInfo
+  langs:
+  - crmscript
+  name: NSArchiveColumnInfo()
+  nameWithType: NSArchiveColumnInfo.#ctor
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSArchiveColumnInfo class.\n"
+  remarks: 
+  syntax: 
+    content: NSArchiveColumnInfo
+  example: 
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.GetCanOrderBy()
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetCanOrderBy()
+  id: 'GetCanOrderBy()'
+  so.intellisense: NSArchiveColumnInfo.GetCanOrderBy
+  langs:
+  - crmscript
+  name: 'GetCanOrderBy()'
+  nameWithType: NSArchiveColumnInfo.GetCanOrderBy()
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.GetCanOrderBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetCanOrderBy()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: Can this column be used for sorting?
+  example: 
+  - "\n<pre><code>NSArchiveColumnInfo thing;\nBool canOrderBy = thing.GetCanOrderBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.GetCanRestrictBy()
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetCanRestrictBy()
+  id: 'GetCanRestrictBy()'
+  so.intellisense: NSArchiveColumnInfo.GetCanRestrictBy
+  langs:
+  - crmscript
+  name: 'GetCanRestrictBy()'
+  nameWithType: NSArchiveColumnInfo.GetCanRestrictBy()
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.GetCanRestrictBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetCanRestrictBy()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: Can this column be used as a restriction?
+  example: 
+  - "\n<pre><code>NSArchiveColumnInfo thing;\nBool canRestrictBy = thing.GetCanRestrictBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.GetDisplayName()
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetDisplayName()
+  id: 'GetDisplayName()'
+  so.intellisense: NSArchiveColumnInfo.GetDisplayName
+  langs:
+  - crmscript
+  name: 'GetDisplayName()'
+  nameWithType: NSArchiveColumnInfo.GetDisplayName()
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.GetDisplayName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDisplayName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The column name to show, can be a resource identifier string."
+  example: 
+  - "\n<pre><code>NSArchiveColumnInfo thing;\nString displayName = thing.GetDisplayName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.GetDisplayTooltip()
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetDisplayTooltip()
+  id: 'GetDisplayTooltip()'
+  so.intellisense: NSArchiveColumnInfo.GetDisplayTooltip
+  langs:
+  - crmscript
+  name: 'GetDisplayTooltip()'
+  nameWithType: NSArchiveColumnInfo.GetDisplayTooltip()
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.GetDisplayTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDisplayTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The column tooltip, used in the column list and in the column headings."
+  example: 
+  - "\n<pre><code>NSArchiveColumnInfo thing;\nString displayTooltip = thing.GetDisplayTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.GetDisplayType()
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetDisplayType()
+  id: 'GetDisplayType()'
+  so.intellisense: NSArchiveColumnInfo.GetDisplayType
+  langs:
+  - crmscript
+  name: 'GetDisplayType()'
+  nameWithType: NSArchiveColumnInfo.GetDisplayType()
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.GetDisplayType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDisplayType()
+    parameters: []
+    return:
+      type: CRMScript.Global.String'
+      description: "Type of column, so that the archive knows how to display it (actual display values are always strings, invariant-culture formatted). This name can contain resource tags."
+  example: 
+  - "\n<pre><code>NSArchiveColumnInfo thing;\nString displayType = thing.GetDisplayType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.GetHeadingIconHint()
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetHeadingIconHint()
+  id: 'GetHeadingIconHint()'
+  so.intellisense: NSArchiveColumnInfo.GetHeadingIconHint
+  langs:
+  - crmscript
+  name: 'GetHeadingIconHint()'
+  nameWithType: NSArchiveColumnInfo.GetHeadingIconHint()
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.GetHeadingIconHint()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetHeadingIconHint()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Icon hint for the archive heading only. If this is a nonempty string, the archive header should use this icon and ignore the DisplayName. Otherwise, the DisplayName should be used as the heading."
+  example: 
+  - "\n<pre><code>NSArchiveColumnInfo thing;\nString headingIconHint = thing.GetHeadingIconHint();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.GetIconHint()
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetIconHint()
+  id: 'GetIconHint()'
+  so.intellisense: NSArchiveColumnInfo.GetIconHint
+  langs:
+  - crmscript
+  name: 'GetIconHint()'
+  nameWithType: NSArchiveColumnInfo.GetIconHint()
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.GetIconHint()
+  type: Method
+  summary: # TODO
+  remarks: "\nThe icon hint is used in the configuration dialog and other places where we talk about the columns of the archive. The actual heading of the archive may also contain icons in lieu of textual names, the icon hint for that is specified in HeadingIconHint and is a different one.\n"
+  syntax: 
+    content: String GetIconHint()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Icon hint corresponding to the display name."
+  example: 
+  - "\n<pre><code>NSArchiveColumnInfo thing;\nString iconHint = thing.GetIconHint();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.GetIsVisible()
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetIsVisible()
+  id: 'GetIsVisible()'
+  so.intellisense: NSArchiveColumnInfo.GetIsVisible
+  langs:
+  - crmscript
+  name: 'GetIsVisible()'
+  nameWithType: NSArchiveColumnInfo.GetIsVisible()
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.GetIsVisible()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsVisible()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: Is this column visible to the user in configuration dialogs and similar?
+  example: 
+  - "\n<pre><code>NSArchiveColumnInfo thing;\nBool isVisible = thing.GetIsVisible();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.GetName()
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetName()
+  id: 'GetName()'
+  so.intellisense: NSArchiveColumnInfo.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSArchiveColumnInfo.GetName()
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.GetName()
+  type: Method
+  summary: # TODO
+  remarks: "\nThe name to be used when requesting the column from a provider, setting restrictions or order by criteria\n"
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Unique identity of this column (in this particular context)."
+  example: 
+  - "\n<pre><code>NSArchiveColumnInfo thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.GetRestrictionListName()
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetRestrictionListName()
+  id: 'GetRestrictionListName()'
+  so.intellisense: NSArchiveColumnInfo.GetRestrictionListName
+  langs:
+  - crmscript
+  name: 'GetRestrictionListName()'
+  nameWithType: NSArchiveColumnInfo.GetRestrictionListName()
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.GetRestrictionListName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetRestrictionListName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "If the restriction data type is list, this property contains the name of the SoList so that choices can be shown."
+  example: 
+  - "\n<pre><code>NSArchiveColumnInfo thing;\nString restrictionListName = thing.GetRestrictionListName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.GetRestrictionType()
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetRestrictionType()
+  id: 'GetRestrictionType()'
+  so.intellisense: NSArchiveColumnInfo.GetRestrictionType
+  langs:
+  - crmscript
+  name: 'GetRestrictionType()'
+  nameWithType: NSArchiveColumnInfo.GetRestrictionType()
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.GetRestrictionType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetRestrictionType()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The data type of the restriction; use this to retrieve the legal operators for the restriction."
+  example: 
+  - "\n<pre><code>NSArchiveColumnInfo thing;\nString restrictionType = thing.GetRestrictionType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.GetSourceCode()
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetSourceCode()
+  id: 'GetSourceCode()'
+  so.intellisense: NSArchiveColumnInfo.GetSourceCode
+  langs:
+  - crmscript
+  name: 'GetSourceCode()'
+  nameWithType: NSArchiveColumnInfo.GetSourceCode()
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.GetSourceCode()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSourceCode()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.GetWidth()
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.GetWidth()
+  id: 'GetWidth()'
+  so.intellisense: NSArchiveColumnInfo.GetWidth
+  langs:
+  - crmscript
+  name: 'GetWidth()'
+  nameWithType: NSArchiveColumnInfo.GetWidth()
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.GetWidth()
+  type: Method
+  summary: # TODO
+  remarks: "\nPercent-formatted fields grow and shrink; number-of-characters formatted fields have constant width when the whole archive width changes.\n"
+  syntax: 
+    content: String GetWidth()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The width specification, if the column info has been extended with GUI-based information. It is either &quot;n%&quot; or &quot;nc&quot;, where n is an integer."
+  example: 
+  - "\n<pre><code>NSArchiveColumnInfo thing;\nString width = thing.GetWidth();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.SetCanOrderBy(Bool)
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetCanOrderBy(Bool)
+  id: 'SetCanOrderBy(Bool)'
+  so.intellisense: NSArchiveColumnInfo.SetCanOrderBy
+  langs:
+  - crmscript
+  name: 'SetCanOrderBy(Bool)'
+  nameWithType: NSArchiveColumnInfo.SetCanOrderBy(Bool)
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.SetCanOrderBy(Bool)
+  type: Method
+  summary: "\nSets the CanOrderBy property.\n"
+  remarks: 
+  syntax: 
+    content: Void SetCanOrderBy(Bool canOrderBy)
+    parameters:
+    - id: canOrderBy
+      type: CRMScript.Global.Bool
+      description: Can this column be used for sorting?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveColumnInfo thing;\nBool canOrderBy;\nthing.SetCanOrderBy(canOrderBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.SetCanRestrictBy(Bool)
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetCanRestrictBy(Bool)
+  id: 'SetCanRestrictBy(Bool)'
+  so.intellisense: NSArchiveColumnInfo.SetCanRestrictBy
+  langs:
+  - crmscript
+  name: 'SetCanRestrictBy(Bool)'
+  nameWithType: NSArchiveColumnInfo.SetCanRestrictBy(Bool)
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.SetCanRestrictBy(Bool)
+  type: Method
+  summary: "\nSets whether the column can be used as an restriction.\n"
+  remarks: 
+  syntax: 
+    content: Void SetCanRestrictBy(Bool canRestrictBy)
+    parameters:
+    - id: canRestrictBy
+      type: CRMScript.Global.Bool
+      description: Can this column be used as a restriction?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveColumnInfo thing;\nBool canRestrictBy;\nthing.SetCanRestrictBy(canRestrictBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.SetDisplayName(String)
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetDisplayName(String)
+  id: 'SetDisplayName(String)'
+  so.intellisense: NSArchiveColumnInfo.SetDisplayName
+  langs:
+  - crmscript
+  name: 'SetDisplayName(String)'
+  nameWithType: NSArchiveColumnInfo.SetDisplayName(String)
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.SetDisplayName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDisplayName(String displayName)
+    parameters:
+    - id: displayName
+      type: CRMScript.Global.String
+      description: "The column name to show, can be a resource identifier string."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveColumnInfo thing;\nString displayName;\nthing.SetDisplayName(displayName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.SetDisplayTooltip(String)
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetDisplayTooltip(String)
+  id: 'SetDisplayTooltip(String)'
+  so.intellisense: NSArchiveColumnInfo.SetDisplayTooltip
+  langs:
+  - crmscript
+  name: 'SetDisplayTooltip(String)'
+  nameWithType: NSArchiveColumnInfo.SetDisplayTooltip(String)
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.SetDisplayTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDisplayTooltip(String displayTooltip)
+    parameters:
+    - id: displayTooltip
+      type: CRMScript.Global.String
+      description: "The column tooltip, used in the column list and in the column headings."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveColumnInfo thing;\nString displayTooltip;\nthing.SetDisplayTooltip(displayTooltip);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.SetDisplayType(String)
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetDisplayType(String)
+  id: 'SetDisplayType(String)'
+  so.intellisense: NSArchiveColumnInfo.SetDisplayType
+  langs:
+  - crmscript
+  name: 'SetDisplayType(String)'
+  nameWithType: NSArchiveColumnInfo.SetDisplayType(String)
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.SetDisplayType(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDisplayType(String displayType)
+    parameters:
+    - id: displayType
+      type: CRMScript.Global.String
+      description: "Type of column, so that the archive knows how to display it (actual display values are always strings, invariant-culture formatted). This name can contain resource tags."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveColumnInfo thing;\nString displayType;\nthing.SetDisplayType(displayType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.SetHeadingIconHint(String)
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetHeadingIconHint(String)
+  id: 'SetHeadingIconHint(String)'
+  so.intellisense: NSArchiveColumnInfo.SetHeadingIconHint
+  langs:
+  - crmscript
+  name: 'SetHeadingIconHint(String)'
+  nameWithType: NSArchiveColumnInfo.SetHeadingIconHint(String)
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.SetHeadingIconHint(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nIf this is a nonempty string, the archive header should use this icon and ignore the DisplayName. Otherwise, the DisplayName should be used as the heading.\n"
+  syntax: 
+    content: Void SetHeadingIconHint(String headingIconHint)
+    parameters:
+    - id: headingIconHint
+      type: CRMScript.Global.String
+      description: Icon hint for the archive heading only. 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveColumnInfo thing;\nString headingIconHint;\nthing.SetHeadingIconHint(headingIconHint);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.SetIconHint(String)
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetIconHint(String)
+  id: 'SetIconHint(String)'
+  so.intellisense: NSArchiveColumnInfo.SetIconHint
+  langs:
+  - crmscript
+  name: 'SetIconHint(String)'
+  nameWithType: NSArchiveColumnInfo.SetIconHint(String)
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.SetIconHint(String)
+  type: Method
+  summary: # TODO
+  remarks: "This icon hint is used in the configuration dialog and other places where we talk about the columns of the archive. The actual heading of the archive may also contain icons in lieu of textual names, the icon hint for that is specified in HeadingIconHint and is a different one.\n"
+  syntax: 
+    content: Void SetIconHint(String iconHint)
+    parameters:
+    - id: iconHint
+      type: CRMScript.Global.String
+      description: "Icon hint corresponding to the display name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveColumnInfo thing;\nString iconHint;\nthing.SetIconHint(iconHint);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.SetIsVisible(Bool)
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetIsVisible(Bool)
+  id: 'SetIsVisible(Bool)'
+  so.intellisense: NSArchiveColumnInfo.SetIsVisible
+  langs:
+  - crmscript
+  name: 'SetIsVisible(Bool)'
+  nameWithType: NSArchiveColumnInfo.SetIsVisible(Bool)
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.SetIsVisible(Bool)
+  type: Method
+  summary: "\nSets the visibility of the column.\n"
+  remarks: 
+  syntax: 
+    content: Void SetIsVisible(Bool isVisible)
+    parameters:
+    - id: isVisible
+      type: CRMScript.Global.Bool
+      description: Is this column visible to the user in configuration dialogs and similar?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveColumnInfo thing;\nBool isVisible;\nthing.SetIsVisible(isVisible);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.SetName(String)
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSArchiveColumnInfo.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSArchiveColumnInfo.SetName(String)
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nThe name to be used when requesting the column from a provider, setting restrictions or order by criteria\n"
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Unique identity of this column (in this particular context)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveColumnInfo thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.SetRestrictionListName(String)
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetRestrictionListName(String)
+  id: 'SetRestrictionListName(String)'
+  so.intellisense: NSArchiveColumnInfo.SetRestrictionListName
+  langs:
+  - crmscript
+  name: 'SetRestrictionListName(String)'
+  nameWithType: NSArchiveColumnInfo.SetRestrictionListName(String)
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.SetRestrictionListName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRestrictionListName(String restrictionListName)
+    parameters:
+    - id: restrictionListName
+      type: CRMScript.Global.String
+      description: "If the restriction data type is list, this property contains the name of the SoList so that choices can be shown."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveColumnInfo thing;\nString restrictionListName;\nthing.SetRestrictionListName(restrictionListName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.SetRestrictionType(String)
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetRestrictionType(String)
+  id: 'SetRestrictionType(String)'
+  so.intellisense: NSArchiveColumnInfo.SetRestrictionType
+  langs:
+  - crmscript
+  name: 'SetRestrictionType(String)'
+  nameWithType: NSArchiveColumnInfo.SetRestrictionType(String)
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.SetRestrictionType(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nUse this to retrieve the legal operators for the restriction.\n"
+  syntax: 
+    content: Void SetRestrictionType(String restrictionType)
+    parameters:
+    - id: restrictionType
+      type: CRMScript.Global.String
+      description: "The data type of the restriction."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveColumnInfo thing;\nString restrictionType;\nthing.SetRestrictionType(restrictionType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.SetSourceCode(String)
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetSourceCode(String)
+  id: 'SetSourceCode(String)'
+  so.intellisense: NSArchiveColumnInfo.SetSourceCode
+  langs:
+  - crmscript
+  name: 'SetSourceCode(String)'
+  nameWithType: NSArchiveColumnInfo.SetSourceCode(String)
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.SetSourceCode(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSourceCode(String code)
+    parameters:
+    - id: code
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSArchiveColumnInfo.SetWidth(String)
+  commentId: M:CRMScript.NetServer.NSArchiveColumnInfo.SetWidth(String)
+  id: 'SetWidth(String)'
+  so.intellisense: NSArchiveColumnInfo.SetWidth
+  langs:
+  - crmscript
+  name: 'SetWidth(String)'
+  nameWithType: NSArchiveColumnInfo.SetWidth(String)
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo.SetWidth(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nPercent-formatted fields grow and shrink; number-of-characters formatted fields have constant width when the whole archive width changes.\n"
+  syntax: 
+    content: Void SetWidth(String width)
+    parameters:
+    - id: width
+      type: CRMScript.Global.String
+      description: "The width specification, if the column info has been extended with GUI-based information. It is either &quot;n%&quot; or &quot;nc&quot;, where n is an integer."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveColumnInfo thing;\nString width;\nthing.SetWidth(width);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSArchiveColumnInfo
+  commentId: T:CRMScript.NetServer.NSArchiveColumnInfo
+  isExternal: true
+  name: NSArchiveColumnInfo
+  nameWithType: NSArchiveColumnInfo
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

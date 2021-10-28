@@ -1,0 +1,3006 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSPersonEntity
+  commentId: T:CRMScript.NetServer.NSPersonEntity
+  id: NSPersonEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSPersonEntity.#ctor
+  - CRMScript.NetServer.NSPersonEntity.GetActiveErpLinks()
+  - CRMScript.NetServer.NSPersonEntity.GetActiveInterests()
+  - CRMScript.NetServer.NSPersonEntity.GetAddress()
+  - CRMScript.NetServer.NSPersonEntity.GetAssociate()
+  - CRMScript.NetServer.NSPersonEntity.GetBirthDate()
+  - CRMScript.NetServer.NSPersonEntity.GetBlockEmarketing()
+  - CRMScript.NetServer.NSPersonEntity.GetBounceEmails()
+  - CRMScript.NetServer.NSPersonEntity.GetBusiness()
+  - CRMScript.NetServer.NSPersonEntity.GetCategory()
+  - CRMScript.NetServer.NSPersonEntity.GetChatEmails()
+  - CRMScript.NetServer.NSPersonEntity.GetConsents()
+  - CRMScript.NetServer.NSPersonEntity.GetContact()
+  - CRMScript.NetServer.NSPersonEntity.GetCorrespondingAssociate()
+  - CRMScript.NetServer.NSPersonEntity.GetCountry()
+  - CRMScript.NetServer.NSPersonEntity.GetCreatedBy()
+  - CRMScript.NetServer.NSPersonEntity.GetCreatedDate()
+  - CRMScript.NetServer.NSPersonEntity.GetCustomerLanguage()
+  - CRMScript.NetServer.NSPersonEntity.GetCustomFields()
+  - CRMScript.NetServer.NSPersonEntity.GetDbiAgentId()
+  - CRMScript.NetServer.NSPersonEntity.GetDbiKey()
+  - CRMScript.NetServer.NSPersonEntity.GetDbiLastModified()
+  - CRMScript.NetServer.NSPersonEntity.GetDbiLastSyncronized()
+  - CRMScript.NetServer.NSPersonEntity.GetDescription()
+  - CRMScript.NetServer.NSPersonEntity.GetEmails()
+  - CRMScript.NetServer.NSPersonEntity.GetExtraFields()
+  - CRMScript.NetServer.NSPersonEntity.GetFaxes()
+  - CRMScript.NetServer.NSPersonEntity.GetFirstname()
+  - CRMScript.NetServer.NSPersonEntity.GetFormalName()
+  - CRMScript.NetServer.NSPersonEntity.GetFullName()
+  - CRMScript.NetServer.NSPersonEntity.GetInterests()
+  - CRMScript.NetServer.NSPersonEntity.GetInternetPhones()
+  - CRMScript.NetServer.NSPersonEntity.GetIsAssociate()
+  - CRMScript.NetServer.NSPersonEntity.GetKanafname()
+  - CRMScript.NetServer.NSPersonEntity.GetKanalname()
+  - CRMScript.NetServer.NSPersonEntity.GetLastname()
+  - CRMScript.NetServer.NSPersonEntity.GetMiddleName()
+  - CRMScript.NetServer.NSPersonEntity.GetMobilePhones()
+  - CRMScript.NetServer.NSPersonEntity.GetMrmrs()
+  - CRMScript.NetServer.NSPersonEntity.GetNoMailing()
+  - CRMScript.NetServer.NSPersonEntity.GetOfficePhones()
+  - CRMScript.NetServer.NSPersonEntity.GetOtherPhones()
+  - CRMScript.NetServer.NSPersonEntity.GetPagers()
+  - CRMScript.NetServer.NSPersonEntity.GetPersonId()
+  - CRMScript.NetServer.NSPersonEntity.GetPersonNumber()
+  - CRMScript.NetServer.NSPersonEntity.GetPosition()
+  - CRMScript.NetServer.NSPersonEntity.GetPost1()
+  - CRMScript.NetServer.NSPersonEntity.GetPost2()
+  - CRMScript.NetServer.NSPersonEntity.GetPost3()
+  - CRMScript.NetServer.NSPersonEntity.GetPrivatePhones()
+  - CRMScript.NetServer.NSPersonEntity.GetRetired()
+  - CRMScript.NetServer.NSPersonEntity.GetSalutation()
+  - CRMScript.NetServer.NSPersonEntity.GetSentInfo()
+  - CRMScript.NetServer.NSPersonEntity.GetShipmentTypes()
+  - CRMScript.NetServer.NSPersonEntity.GetShowContactTickets()
+  - CRMScript.NetServer.NSPersonEntity.GetSource()
+  - CRMScript.NetServer.NSPersonEntity.GetSupportAssociate()
+  - CRMScript.NetServer.NSPersonEntity.GetTicketPriority()
+  - CRMScript.NetServer.NSPersonEntity.GetTitle()
+  - CRMScript.NetServer.NSPersonEntity.GetUpdatedBy()
+  - CRMScript.NetServer.NSPersonEntity.GetUpdatedDate()
+  - CRMScript.NetServer.NSPersonEntity.GetUrls()
+  - CRMScript.NetServer.NSPersonEntity.GetUsePersonAddress()
+  - CRMScript.NetServer.NSPersonEntity.GetUserDefinedFields()
+  - CRMScript.NetServer.NSPersonEntity.GetUserInfo()
+  - CRMScript.NetServer.NSPersonEntity.SetActiveErpLinks(Integer)
+  - CRMScript.NetServer.NSPersonEntity.SetActiveInterests(Integer)
+  - CRMScript.NetServer.NSPersonEntity.SetAddress(NSAddress)
+  - CRMScript.NetServer.NSPersonEntity.SetAssociate(NSAssociate)
+  - CRMScript.NetServer.NSPersonEntity.SetBirthDate(DateTime)
+  - CRMScript.NetServer.NSPersonEntity.SetBlockEmarketing(Integer)
+  - CRMScript.NetServer.NSPersonEntity.SetBounceEmails(String[])
+  - CRMScript.NetServer.NSPersonEntity.SetBusiness(NSBusiness)
+  - CRMScript.NetServer.NSPersonEntity.SetCategory(NSCategory)
+  - CRMScript.NetServer.NSPersonEntity.SetChatEmails(NSEntityElement[])
+  - CRMScript.NetServer.NSPersonEntity.SetConsents(NSConsentInfo[])
+  - CRMScript.NetServer.NSPersonEntity.SetContact(NSContact)
+  - CRMScript.NetServer.NSPersonEntity.SetCorrespondingAssociate(NSAssociate)
+  - CRMScript.NetServer.NSPersonEntity.SetCountry(NSCountry)
+  - CRMScript.NetServer.NSPersonEntity.SetCreatedBy(NSAssociate)
+  - CRMScript.NetServer.NSPersonEntity.SetCreatedDate(DateTime)
+  - CRMScript.NetServer.NSPersonEntity.SetCustomerLanguage(NSCustomerLanguage)
+  - CRMScript.NetServer.NSPersonEntity.SetCustomFields(Map)
+  - CRMScript.NetServer.NSPersonEntity.SetDbiAgentId(Integer)
+  - CRMScript.NetServer.NSPersonEntity.SetDbiKey(String)
+  - CRMScript.NetServer.NSPersonEntity.SetDbiLastModified(DateTime)
+  - CRMScript.NetServer.NSPersonEntity.SetDbiLastSyncronized(DateTime)
+  - CRMScript.NetServer.NSPersonEntity.SetDescription(String)
+  - CRMScript.NetServer.NSPersonEntity.SetEmails(NSEntityElement[])
+  - CRMScript.NetServer.NSPersonEntity.SetExtraFields(Map)
+  - CRMScript.NetServer.NSPersonEntity.SetFaxes(NSEntityElement[])
+  - CRMScript.NetServer.NSPersonEntity.SetFirstname(String)
+  - CRMScript.NetServer.NSPersonEntity.SetFormalName(String)
+  - CRMScript.NetServer.NSPersonEntity.SetFullName(String)
+  - CRMScript.NetServer.NSPersonEntity.SetInterests(NSSelectableMDOListItem[])
+  - CRMScript.NetServer.NSPersonEntity.SetInternetPhones(NSEntityElement[])
+  - CRMScript.NetServer.NSPersonEntity.SetIsAssociate(Bool)
+  - CRMScript.NetServer.NSPersonEntity.SetKanafname(String)
+  - CRMScript.NetServer.NSPersonEntity.SetKanalname(String)
+  - CRMScript.NetServer.NSPersonEntity.SetLastname(String)
+  - CRMScript.NetServer.NSPersonEntity.SetMiddleName(String)
+  - CRMScript.NetServer.NSPersonEntity.SetMobilePhones(NSEntityElement[])
+  - CRMScript.NetServer.NSPersonEntity.SetMrmrs(String)
+  - CRMScript.NetServer.NSPersonEntity.SetNoMailing(Bool)
+  - CRMScript.NetServer.NSPersonEntity.SetOfficePhones(NSEntityElement[])
+  - CRMScript.NetServer.NSPersonEntity.SetOtherPhones(NSEntityElement[])
+  - CRMScript.NetServer.NSPersonEntity.SetPagers(NSEntityElement[])
+  - CRMScript.NetServer.NSPersonEntity.SetPersonId(Integer)
+  - CRMScript.NetServer.NSPersonEntity.SetPersonNumber(String)
+  - CRMScript.NetServer.NSPersonEntity.SetPosition(NSPosition)
+  - CRMScript.NetServer.NSPersonEntity.SetPost1(String)
+  - CRMScript.NetServer.NSPersonEntity.SetPost2(String)
+  - CRMScript.NetServer.NSPersonEntity.SetPost3(String)
+  - CRMScript.NetServer.NSPersonEntity.SetPrivatePhones(NSEntityElement[])
+  - CRMScript.NetServer.NSPersonEntity.SetRetired(Bool)
+  - CRMScript.NetServer.NSPersonEntity.SetSalutation(String)
+  - CRMScript.NetServer.NSPersonEntity.SetSentInfo(Integer)
+  - CRMScript.NetServer.NSPersonEntity.SetShipmentTypes(NSSelectableMDOListItem[])
+  - CRMScript.NetServer.NSPersonEntity.SetShowContactTickets(Integer)
+  - CRMScript.NetServer.NSPersonEntity.SetSource(Integer)
+  - CRMScript.NetServer.NSPersonEntity.SetSupportAssociate(NSAssociate)
+  - CRMScript.NetServer.NSPersonEntity.SetTicketPriority(NSTicketPriority)
+  - CRMScript.NetServer.NSPersonEntity.SetTitle(String)
+  - CRMScript.NetServer.NSPersonEntity.SetUpdatedBy(NSAssociate)
+  - CRMScript.NetServer.NSPersonEntity.SetUpdatedDate(DateTime)
+  - CRMScript.NetServer.NSPersonEntity.SetUrls(NSEntityElement[])
+  - CRMScript.NetServer.NSPersonEntity.SetUsePersonAddress(Bool)
+  - CRMScript.NetServer.NSPersonEntity.SetUserDefinedFields(Map)
+  - CRMScript.NetServer.NSPersonEntity.SetUserInfo(NSUserInfo)
+  name: NSPersonEntity
+  nameWithType: NSPersonEntity
+  fullName: CRMScript.NetServer.NSPersonEntity
+  type: Class
+  summary: "\nThe Person Service. The service implements all services working with the Person object.\n"
+  example: 
+- uid: CRMScript.NetServer.NSPersonEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSPersonEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSPersonEntity
+  langs:
+  - crmscript
+  name: NSPersonEntity()
+  nameWithType: NSPersonEntity.#ctor
+  fullName: CRMScript.NetServer.NSPersonEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSPersonEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSPersonEntity
+  example: 
+- uid: CRMScript.NetServer.NSPersonEntity.GetActiveErpLinks()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetActiveErpLinks()
+  id: 'GetActiveErpLinks()'
+  so.intellisense: NSPersonEntity.GetActiveErpLinks
+  langs:
+  - crmscript
+  name: 'GetActiveErpLinks()'
+  nameWithType: NSPersonEntity.GetActiveErpLinks()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetActiveErpLinks()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetActiveErpLinks()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: How many active ERP links are there for this person?
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nInteger activeErpLinks = thing.GetActiveErpLinks();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetActiveInterests()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetActiveInterests()
+  id: 'GetActiveInterests()'
+  so.intellisense: NSPersonEntity.GetActiveInterests
+  langs:
+  - crmscript
+  name: 'GetActiveInterests()'
+  nameWithType: NSPersonEntity.GetActiveInterests()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetActiveInterests()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetActiveInterests()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The number of active interests."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nInteger activeInterests = thing.GetActiveInterests();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetAddress()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetAddress()
+  id: 'GetAddress()'
+  so.intellisense: NSPersonEntity.GetAddress
+  langs:
+  - crmscript
+  name: 'GetAddress()'
+  nameWithType: NSPersonEntity.GetAddress()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetAddress()
+  type: Method
+  summary: "\nRetrieves a formatted addressRetrieves the structure holding formatted address data.\n"
+  remarks: "\nThe layout of the array structure indicates the layout of the localized address.\n"
+  syntax: 
+    content: NSAddress GetAddress()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAddress
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSAddress address = thing.GetAddress();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetAssociate()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetAssociate()
+  id: 'GetAssociate()'
+  so.intellisense: NSPersonEntity.GetAssociate
+  langs:
+  - crmscript
+  name: 'GetAssociate()'
+  nameWithType: NSPersonEntity.GetAssociate()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetAssociate()
+  type: Method
+  summary: # TODO
+  remarks: "\nUsually blank. Use the Person.Contact.Associate instead. Intended for use when individual persons are created (i.e. when Person.Contact is blank)\n"
+  syntax: 
+    content: NSAssociate GetAssociate()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "The associate owning this person (similar to contact.Associate)."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSAssociate associate = thing.GetAssociate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetBirthDate()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetBirthDate()
+  id: 'GetBirthDate()'
+  so.intellisense: NSPersonEntity.GetBirthDate
+  langs:
+  - crmscript
+  name: 'GetBirthDate()'
+  nameWithType: NSPersonEntity.GetBirthDate()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetBirthDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetBirthDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The Person birth date as Date."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nDateTime birthDate = thing.GetBirthDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetBlockEmarketing()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetBlockEmarketing()
+  id: 'GetBlockEmarketing()'
+  so.intellisense: NSPersonEntity.GetBlockEmarketing
+  langs:
+  - crmscript
+  name: 'GetBlockEmarketing()'
+  nameWithType: NSPersonEntity.GetBlockEmarketing()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetBlockEmarketing()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetBlockEmarketing()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Do not send E-marketing materials to this person."
+  example: 
+- uid: CRMScript.NetServer.NSPersonEntity.GetBounceEmails()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetBounceEmails()
+  id: 'GetBounceEmails()'
+  so.intellisense: NSPersonEntity.GetBounceEmails
+  langs:
+  - crmscript
+  name: 'GetBounceEmails()'
+  nameWithType: NSPersonEntity.GetBounceEmails()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetBounceEmails()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String[] GetBounceEmails()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+      description: "Email addresses with a positive bounce counter."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString[] bounceEmails = thing.GetBounceEmails();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetBusiness()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetBusiness()
+  id: 'GetBusiness()'
+  so.intellisense: NSPersonEntity.GetBusiness
+  langs:
+  - crmscript
+  name: 'GetBusiness()'
+  nameWithType: NSPersonEntity.GetBusiness()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetBusiness()
+  type: Method
+  summary: # TODO
+  remarks: "\nUsually blank. Use Contact.NSBusiness instead. Intended for use when individual persons are created. (i.e. when Person.Contact is blank)\n"
+  syntax: 
+    content: NSBusiness GetBusiness()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSBusiness
+      description: "Person's business."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSBusiness business = thing.GetBusiness();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetCategory()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetCategory()
+  id: 'GetCategory()'
+  so.intellisense: NSPersonEntity.GetCategory
+  langs:
+  - crmscript
+  name: 'GetCategory()'
+  nameWithType: NSPersonEntity.GetCategory()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetCategory()
+  type: Method
+  summary: # TODO
+  remarks: "\nUsually null. Refer to the Contact.NSCategory instead.  Intended for use when individual persons are created. (i.e. when Person.Contact is blank)\n"
+  syntax: 
+    content: NSCategory GetCategory()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSCategory
+      description: "Person's category."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSCategory category = thing.GetCategory();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetChatEmails()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetChatEmails()
+  id: 'GetChatEmails()'
+  so.intellisense: NSPersonEntity.GetChatEmails
+  langs:
+  - crmscript
+  name: 'GetChatEmails()'
+  nameWithType: NSPersonEntity.GetChatEmails()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetChatEmails()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSEntityElement[] GetChatEmails()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSEntityElement[]
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSEntityElement[] chatEmails = thing.GetChatEmails();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetConsents()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetConsents()
+  id: 'GetConsents()'
+  so.intellisense: NSPersonEntity.GetConsents
+  langs:
+  - crmscript
+  name: 'GetConsents()'
+  nameWithType: NSPersonEntity.GetConsents()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetConsents()
+  type: Method
+  summary: # TODO
+  remarks: "\nMissing consents are not deleted. To remove a consent, mark its legalbase as 'WITHDRAWN'\n"
+  syntax: 
+    content: NSConsentInfo[] GetConsents()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSConsentInfo[]
+      description: "The person's available consent information."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSConsentInfo[] consents = thing.GetConsents();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetContact()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetContact()
+  id: 'GetContact()'
+  so.intellisense: NSPersonEntity.GetContact
+  langs:
+  - crmscript
+  name: 'GetContact()'
+  nameWithType: NSPersonEntity.GetContact()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetContact()
+  type: Method
+  summary: # TODO
+  remarks: "\nThis is required unless the 'MandatoryContactOnPerson' preference is set.\n"
+  syntax: 
+    content: NSContact GetContact()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSContact
+      description: "The contact the contact person is registered on."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSContact contact = thing.GetContact();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetCorrespondingAssociate()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetCorrespondingAssociate()
+  id: 'GetCorrespondingAssociate()'
+  so.intellisense: NSPersonEntity.GetCorrespondingAssociate
+  langs:
+  - crmscript
+  name: 'GetCorrespondingAssociate()'
+  nameWithType: NSPersonEntity.GetCorrespondingAssociate()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetCorrespondingAssociate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetCorrespondingAssociate()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "The associate corresponding to this person. Will be empty if the person is not a user (internal associate user, external user)."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSAssociate correspondingAssociate = thing.GetCorrespondingAssociate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetCountry()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetCountry()
+  id: 'GetCountry()'
+  so.intellisense: NSPersonEntity.GetCountry
+  langs:
+  - crmscript
+  name: 'GetCountry()'
+  nameWithType: NSPersonEntity.GetCountry()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetCountry()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSCountry GetCountry()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSCountry
+      description: "The country this contact person is located in."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSCountry country = thing.GetCountry();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetCreatedBy()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetCreatedBy()
+  id: 'GetCreatedBy()'
+  so.intellisense: NSPersonEntity.GetCreatedBy
+  langs:
+  - crmscript
+  name: 'GetCreatedBy()'
+  nameWithType: NSPersonEntity.GetCreatedBy()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetCreatedBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetCreatedBy()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "The user that created the person object."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSAssociate createdBy = thing.GetCreatedBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetCreatedDate()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetCreatedDate()
+  id: 'GetCreatedDate()'
+  so.intellisense: NSPersonEntity.GetCreatedDate
+  langs:
+  - crmscript
+  name: 'GetCreatedDate()'
+  nameWithType: NSPersonEntity.GetCreatedDate()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetCreatedDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetCreatedDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Registered date."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nDateTime createdDate = thing.GetCreatedDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetCustomerLanguage()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetCustomerLanguage()
+  id: 'GetCustomerLanguage()'
+  so.intellisense: NSPersonEntity.GetCustomerLanguage
+  langs:
+  - crmscript
+  name: 'GetCustomerLanguage()'
+  nameWithType: NSPersonEntity.GetCustomerLanguage()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetCustomerLanguage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSCustomerLanguage GetCustomerLanguage()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSCustomerLanguage
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSCustomerLanguage customerLanguage = thing.GetCustomerLanguage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetCustomFields()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetCustomFields()
+  id: 'GetCustomFields()'
+  so.intellisense: NSPersonEntity.GetCustomFields
+  langs:
+  - crmscript
+  name: 'GetCustomFields()'
+  nameWithType: NSPersonEntity.GetCustomFields()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetCustomFields()
+  type: Method
+  summary: "\nGets the user-defined + extra fields on an NSPersonEntity as a map.\n"
+  remarks: 
+  syntax: 
+    content: Map GetCustomFields()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nMap udefs = thing.GetCustomFields();\nlog( udefs[&quot;SuperOffice:1&quot;] ); // &quot;[I:123]&quot;* integer or list item id\nlog( udefs[&quot;SuperOffice:1:DisplayText&quot;] ); // &quot;bla bla&quot;* list item value\nlog( udefs[&quot;custom.progid&quot;] ); // &quot;foobar&quot;* string value\nlog( udefs[&quot;x_bar&quot;] ); // &quot;[I:123]&quot;* list item id\nlog( udefs[&quot;x_bar:DisplayText&quot;] ); // &quot;foobar&quot;* list item name value</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetDbiAgentId()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetDbiAgentId()
+  id: 'GetDbiAgentId()'
+  so.intellisense: NSPersonEntity.GetDbiAgentId
+  langs:
+  - crmscript
+  name: 'GetDbiAgentId()'
+  nameWithType: NSPersonEntity.GetDbiAgentId()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetDbiAgentId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDbiAgentId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Integration agent (eJournal)."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nInteger dbiAgentId = thing.GetDbiAgentId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetDbiKey()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetDbiKey()
+  id: 'GetDbiKey()'
+  so.intellisense: NSPersonEntity.GetDbiKey
+  langs:
+  - crmscript
+  name: 'GetDbiKey()'
+  nameWithType: NSPersonEntity.GetDbiKey()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetDbiKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDbiKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The primary key for the integrated entry in the external data source."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString dbiKey = thing.GetDbiKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetDbiLastModified()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetDbiLastModified()
+  id: 'GetDbiLastModified()'
+  so.intellisense: NSPersonEntity.GetDbiLastModified
+  langs:
+  - crmscript
+  name: 'GetDbiLastModified()'
+  nameWithType: NSPersonEntity.GetDbiLastModified()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetDbiLastModified()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetDbiLastModified()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "When the entry was last modified."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nDateTime dbiLastModified = thing.GetDbiLastModified();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetDbiLastSyncronized()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetDbiLastSyncronized()
+  id: 'GetDbiLastSyncronized()'
+  so.intellisense: NSPersonEntity.GetDbiLastSyncronized
+  langs:
+  - crmscript
+  name: 'GetDbiLastSyncronized()'
+  nameWithType: NSPersonEntity.GetDbiLastSyncronized()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetDbiLastSyncronized()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetDbiLastSyncronized()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Last external synchronization."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nDateTime dbiLastSyncronized = thing.GetDbiLastSyncronized();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetDescription()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSPersonEntity.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSPersonEntity.GetDescription()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetEmails()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetEmails()
+  id: 'GetEmails()'
+  so.intellisense: NSPersonEntity.GetEmails
+  langs:
+  - crmscript
+  name: 'GetEmails()'
+  nameWithType: NSPersonEntity.GetEmails()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetEmails()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSEntityElement[] GetEmails()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSEntityElement[]
+      description: "A collection of the person's emails."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSEntityElement[] emails = thing.GetEmails();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetExtraFields()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetExtraFields()
+  id: 'GetExtraFields()'
+  so.intellisense: NSPersonEntity.GetExtraFields
+  langs:
+  - crmscript
+  name: 'GetExtraFields()'
+  nameWithType: NSPersonEntity.GetExtraFields()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetExtraFields()
+  type: Method
+  summary: "\nGets the extra fields on NSPersonEntity as a map.\n"
+  remarks: 
+  syntax: 
+    content: Map GetExtraFields()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nMap extras = thing.GetExtraFields();\nlog( extras[&quot;x_abc&quot;] ); // &quot;[I:123]&quot;* integer or list item id\nlog( extras[&quot;x_abc:DisplayText&quot;] ); // &quot;bla bla&quot;* list item value\nlog( extras[&quot;x_bla&quot;] ); // &quot;foobar&quot;* string value</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetFaxes()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetFaxes()
+  id: 'GetFaxes()'
+  so.intellisense: NSPersonEntity.GetFaxes
+  langs:
+  - crmscript
+  name: 'GetFaxes()'
+  nameWithType: NSPersonEntity.GetFaxes()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetFaxes()
+  type: Method
+  summary: "\nReturns a collection of fax numbers that belong to the contact person.\n"
+  remarks: 
+  syntax: 
+    content: NSEntityElement[] GetFaxes()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSEntityElement[]
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSEntityElement[] faxes = thing.GetFaxes();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetFirstname()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetFirstname()
+  id: 'GetFirstname()'
+  so.intellisense: NSPersonEntity.GetFirstname
+  langs:
+  - crmscript
+  name: 'GetFirstname()'
+  nameWithType: NSPersonEntity.GetFirstname()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetFirstname()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFirstname()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "First name."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString firstname = thing.GetFirstname();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetFormalName()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetFormalName()
+  id: 'GetFormalName()'
+  so.intellisense: NSPersonEntity.GetFormalName
+  langs:
+  - crmscript
+  name: 'GetFormalName()'
+  nameWithType: NSPersonEntity.GetFormalName()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetFormalName()
+  type: Method
+  summary: "\nGets formal name for a person, as used in labels. (Full name + person title + academic title)\n"
+  remarks: 
+  syntax: 
+    content: String GetFormalName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString formalName = thing.GetFormalName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetFullName()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetFullName()
+  id: 'GetFullName()'
+  so.intellisense: NSPersonEntity.GetFullName
+  langs:
+  - crmscript
+  name: 'GetFullName()'
+  nameWithType: NSPersonEntity.GetFullName()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetFullName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFullName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The person's full name localized to the current culture/country. (internal name used in clients for employees)."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString fullName = thing.GetFullName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetInterests()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetInterests()
+  id: 'GetInterests()'
+  so.intellisense: NSPersonEntity.GetInterests
+  langs:
+  - crmscript
+  name: 'GetInterests()'
+  nameWithType: NSPersonEntity.GetInterests()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetInterests()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSSelectableMDOListItem[] GetInterests()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSelectableMDOListItem[]
+      description: "The person's available and selected interests."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSSelectableMDOListItem[] interests = thing.GetInterests();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetInternetPhones()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetInternetPhones()
+  id: 'GetInternetPhones()'
+  so.intellisense: NSPersonEntity.GetInternetPhones
+  langs:
+  - crmscript
+  name: 'GetInternetPhones()'
+  nameWithType: NSPersonEntity.GetInternetPhones()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetInternetPhones()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSEntityElement[] GetInternetPhones()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSEntityElement[]
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSEntityElement[] internetPhones = thing.GetInternetPhones();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetIsAssociate()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetIsAssociate()
+  id: 'GetIsAssociate()'
+  so.intellisense: NSPersonEntity.GetIsAssociate
+  langs:
+  - crmscript
+  name: 'GetIsAssociate()'
+  nameWithType: NSPersonEntity.GetIsAssociate()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetIsAssociate()
+  type: Method
+  summary: "\nChecks if the person object is an associate. The property is read-only.\n"
+  remarks: 
+  syntax: 
+    content: Bool GetIsAssociate()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nBool isAssociate = thing.GetIsAssociate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetKanafname()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetKanafname()
+  id: 'GetKanafname()'
+  so.intellisense: NSPersonEntity.GetKanafname
+  langs:
+  - crmscript
+  name: 'GetKanafname()'
+  nameWithType: NSPersonEntity.GetKanafname()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetKanafname()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetKanafname()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Kana first name, used in Japanese versions only."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString kanafname = thing.GetKanafname();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetKanalname()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetKanalname()
+  id: 'GetKanalname()'
+  so.intellisense: NSPersonEntity.GetKanalname
+  langs:
+  - crmscript
+  name: 'GetKanalname()'
+  nameWithType: NSPersonEntity.GetKanalname()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetKanalname()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetKanalname()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Kana last name, used in Japanese versions only."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString kanalname = thing.GetKanalname();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetLastname()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetLastname()
+  id: 'GetLastname()'
+  so.intellisense: NSPersonEntity.GetLastname
+  langs:
+  - crmscript
+  name: 'GetLastname()'
+  nameWithType: NSPersonEntity.GetLastname()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetLastname()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetLastname()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Last name."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString lastname = thing.GetLastname();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetMiddleName()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetMiddleName()
+  id: 'GetMiddleName()'
+  so.intellisense: NSPersonEntity.GetMiddleName
+  langs:
+  - crmscript
+  name: 'GetMiddleName()'
+  nameWithType: NSPersonEntity.GetMiddleName()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetMiddleName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetMiddleName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Middle name or 'van' etc."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString middleName = thing.GetMiddleName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetMobilePhones()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetMobilePhones()
+  id: 'GetMobilePhones()'
+  so.intellisense: NSPersonEntity.GetMobilePhones
+  langs:
+  - crmscript
+  name: 'GetMobilePhones()'
+  nameWithType: NSPersonEntity.GetMobilePhones()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetMobilePhones()
+  type: Method
+  summary: "\nReturns a collection of mobile phone numbers that belong to the contact person.\n"
+  remarks: 
+  syntax: 
+    content: NSEntityElement[] GetMobilePhones()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSEntityElement[]
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSEntityElement[] mobilePhones = thing.GetMobilePhones();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetMrmrs()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetMrmrs()
+  id: 'GetMrmrs()'
+  so.intellisense: NSPersonEntity.GetMrmrs
+  langs:
+  - crmscript
+  name: 'GetMrmrs()'
+  nameWithType: NSPersonEntity.GetMrmrs()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetMrmrs()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetMrmrs()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString mrmrs = thing.GetMrmrs();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetNoMailing()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetNoMailing()
+  id: 'GetNoMailing()'
+  so.intellisense: NSPersonEntity.GetNoMailing
+  langs:
+  - crmscript
+  name: 'GetNoMailing()'
+  nameWithType: NSPersonEntity.GetNoMailing()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetNoMailing()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetNoMailing()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Spam filter. Indicates if this person should retrieve advertising."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nBool noMailing = thing.GetNoMailing();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetOfficePhones()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetOfficePhones()
+  id: 'GetOfficePhones()'
+  so.intellisense: NSPersonEntity.GetOfficePhones
+  langs:
+  - crmscript
+  name: 'GetOfficePhones()'
+  nameWithType: NSPersonEntity.GetOfficePhones()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetOfficePhones()
+  type: Method
+  summary: "\nReturns a collection of office phone numbers that belong to the contact person.\n"
+  remarks: 
+  syntax: 
+    content: NSEntityElement[] GetOfficePhones()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSEntityElement[]
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSEntityElement[] officePhones = thing.GetOfficePhones();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetOtherPhones()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetOtherPhones()
+  id: 'GetOtherPhones()'
+  so.intellisense: NSPersonEntity.GetOtherPhones
+  langs:
+  - crmscript
+  name: 'GetOtherPhones()'
+  nameWithType: NSPersonEntity.GetOtherPhones()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetOtherPhones()
+  type: Method
+  summary: "\nReturns a collection of pagers that belong to the contact person.\n"
+  remarks: 
+  syntax: 
+    content: NSEntityElement[] GetOtherPhones()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSEntityElement[]
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSEntityElement[] otherPhones = thing.GetOtherPhones();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetPagers()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetPagers()
+  id: 'GetPagers()'
+  so.intellisense: NSPersonEntity.GetPagers
+  langs:
+  - crmscript
+  name: 'GetPagers()'
+  nameWithType: NSPersonEntity.GetPagers()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetPagers()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSEntityElement[] GetPagers()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSEntityElement[]
+  example: 
+- uid: CRMScript.NetServer.NSPersonEntity.GetPersonId()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetPersonId()
+  id: 'GetPersonId()'
+  so.intellisense: NSPersonEntity.GetPersonId
+  langs:
+  - crmscript
+  name: 'GetPersonId()'
+  nameWithType: NSPersonEntity.GetPersonId()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetPersonId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPersonId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nInteger personId = thing.GetPersonId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetPersonNumber()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetPersonNumber()
+  id: 'GetPersonNumber()'
+  so.intellisense: NSPersonEntity.GetPersonNumber
+  langs:
+  - crmscript
+  name: 'GetPersonNumber()'
+  nameWithType: NSPersonEntity.GetPersonNumber()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetPersonNumber()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPersonNumber()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Alphanumeric user field."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString personNumber = thing.GetPersonNumber();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetPosition()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetPosition()
+  id: 'GetPosition()'
+  so.intellisense: NSPersonEntity.GetPosition
+  langs:
+  - crmscript
+  name: 'GetPosition()'
+  nameWithType: NSPersonEntity.GetPosition()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetPosition()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSPosition GetPosition()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSPosition
+      description: "The position. This is a predefined SuperOffice value, different from Title."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSPosition position = thing.GetPosition();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetPost1()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetPost1()
+  id: 'GetPost1()'
+  so.intellisense: NSPersonEntity.GetPost1
+  langs:
+  - crmscript
+  name: 'GetPost1()'
+  nameWithType: NSPersonEntity.GetPost1()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetPost1()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPost1()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Postal address, used in Japanese versions only."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString post1 = thing.GetPost1();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetPost2()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetPost2()
+  id: 'GetPost2()'
+  so.intellisense: NSPersonEntity.GetPost2
+  langs:
+  - crmscript
+  name: 'GetPost2()'
+  nameWithType: NSPersonEntity.GetPost2()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetPost2()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPost2()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Postal address, used in Japanese versions only."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString post2 = thing.GetPost2();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetPost3()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetPost3()
+  id: 'GetPost3()'
+  so.intellisense: NSPersonEntity.GetPost3
+  langs:
+  - crmscript
+  name: 'GetPost3()'
+  nameWithType: NSPersonEntity.GetPost3()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetPost3()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPost3()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Postal address, used in Japanese versions only."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString post3 = thing.GetPost3();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetPrivatePhones()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetPrivatePhones()
+  id: 'GetPrivatePhones()'
+  so.intellisense: NSPersonEntity.GetPrivatePhones
+  langs:
+  - crmscript
+  name: 'GetPrivatePhones()'
+  nameWithType: NSPersonEntity.GetPrivatePhones()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetPrivatePhones()
+  type: Method
+  summary: "\nReturns a collection of phone numbers that belong to the contact person.\n"
+  remarks: 
+  syntax: 
+    content: NSEntityElement[] GetPrivatePhones()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSEntityElement[]
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSEntityElement[] privatePhones = thing.GetPrivatePhones();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetRetired()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetRetired()
+  id: 'GetRetired()'
+  so.intellisense: NSPersonEntity.GetRetired
+  langs:
+  - crmscript
+  name: 'GetRetired()'
+  nameWithType: NSPersonEntity.GetRetired()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetRetired()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetRetired()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the user is retired and should have no rights, not appear in lists, etc."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nBool retired = thing.GetRetired();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetSalutation()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetSalutation()
+  id: 'GetSalutation()'
+  so.intellisense: NSPersonEntity.GetSalutation
+  langs:
+  - crmscript
+  name: 'GetSalutation()'
+  nameWithType: NSPersonEntity.GetSalutation()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetSalutation()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSalutation()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Academic title, populated from Salutation list but can be overwritten with anything at all."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString salutation = thing.GetSalutation();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetSentInfo()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetSentInfo()
+  id: 'GetSentInfo()'
+  so.intellisense: NSPersonEntity.GetSentInfo
+  langs:
+  - crmscript
+  name: 'GetSentInfo()'
+  nameWithType: NSPersonEntity.GetSentInfo()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetSentInfo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSentInfo()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Has information on username/password been sent (Service)."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nInteger sentInfo = thing.GetSentInfo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetShipmentTypes()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetShipmentTypes()
+  id: 'GetShipmentTypes()'
+  so.intellisense: NSPersonEntity.GetShipmentTypes
+  langs:
+  - crmscript
+  name: 'GetShipmentTypes()'
+  nameWithType: NSPersonEntity.GetShipmentTypes()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetShipmentTypes()
+  type: Method
+  summary: "\nThe person's available and selected shipment types.\n"
+  remarks: 
+  syntax: 
+    content: NSSelectableMDOListItem[] GetShipmentTypes()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSelectableMDOListItem[]
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSSelectableMDOListItem[] shipmentTypes = thing.GetShipmentTypes();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetShowContactTickets()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetShowContactTickets()
+  id: 'GetShowContactTickets()'
+  so.intellisense: NSPersonEntity.GetShowContactTickets
+  langs:
+  - crmscript
+  name: 'GetShowContactTickets()'
+  nameWithType: NSPersonEntity.GetShowContactTickets()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetShowContactTickets()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetShowContactTickets()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Should tickets related to the company be shown to this person."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nInteger showContactTickets = thing.GetShowContactTickets();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetSource()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetSource()
+  id: 'GetSource()'
+  so.intellisense: NSPersonEntity.GetSource
+  langs:
+  - crmscript
+  name: 'GetSource()'
+  nameWithType: NSPersonEntity.GetSource()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetSource()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSource()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "How did we get this person? For future integration needs."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nInteger source = thing.GetSource();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetSupportAssociate()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetSupportAssociate()
+  id: 'GetSupportAssociate()'
+  so.intellisense: NSPersonEntity.GetSupportAssociate
+  langs:
+  - crmscript
+  name: 'GetSupportAssociate()'
+  nameWithType: NSPersonEntity.GetSupportAssociate()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetSupportAssociate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetSupportAssociate()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSAssociate supportAssociate = thing.GetSupportAssociate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetTicketPriority()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetTicketPriority()
+  id: 'GetTicketPriority()'
+  so.intellisense: NSPersonEntity.GetTicketPriority
+  langs:
+  - crmscript
+  name: 'GetTicketPriority()'
+  nameWithType: NSPersonEntity.GetTicketPriority()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetTicketPriority()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSTicketPriority GetTicketPriority()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSTicketPriority
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSTicketPriority ticketPriority = thing.GetTicketPriority();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetTitle()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetTitle()
+  id: 'GetTitle()'
+  so.intellisense: NSPersonEntity.GetTitle
+  langs:
+  - crmscript
+  name: 'GetTitle()'
+  nameWithType: NSPersonEntity.GetTitle()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetTitle()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTitle()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Title."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString title = thing.GetTitle();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetUpdatedBy()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetUpdatedBy()
+  id: 'GetUpdatedBy()'
+  so.intellisense: NSPersonEntity.GetUpdatedBy
+  langs:
+  - crmscript
+  name: 'GetUpdatedBy()'
+  nameWithType: NSPersonEntity.GetUpdatedBy()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetUpdatedBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetUpdatedBy()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "The person that last updated the person object."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSAssociate updatedBy = thing.GetUpdatedBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetUpdatedDate()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetUpdatedDate()
+  id: 'GetUpdatedDate()'
+  so.intellisense: NSPersonEntity.GetUpdatedDate
+  langs:
+  - crmscript
+  name: 'GetUpdatedDate()'
+  nameWithType: NSPersonEntity.GetUpdatedDate()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetUpdatedDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetUpdatedDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Last updated date."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nDateTime updatedDate = thing.GetUpdatedDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetUrls()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetUrls()
+  id: 'GetUrls()'
+  so.intellisense: NSPersonEntity.GetUrls
+  langs:
+  - crmscript
+  name: 'GetUrls()'
+  nameWithType: NSPersonEntity.GetUrls()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetUrls()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSEntityElement[] GetUrls()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSEntityElement[]
+      description: "The URLs related to this person."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSEntityElement[] urls = thing.GetUrls();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetUsePersonAddress()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetUsePersonAddress()
+  id: 'GetUsePersonAddress()'
+  so.intellisense: NSPersonEntity.GetUsePersonAddress
+  langs:
+  - crmscript
+  name: 'GetUsePersonAddress()'
+  nameWithType: NSPersonEntity.GetUsePersonAddress()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetUsePersonAddress()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetUsePersonAddress()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the person's address should be used as mailing address, instead of the contact's address."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nBool usePersonAddress = thing.GetUsePersonAddress();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetUserDefinedFields()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetUserDefinedFields()
+  id: 'GetUserDefinedFields()'
+  so.intellisense: NSPersonEntity.GetUserDefinedFields
+  langs:
+  - crmscript
+  name: 'GetUserDefinedFields()'
+  nameWithType: NSPersonEntity.GetUserDefinedFields()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetUserDefinedFields()
+  type: Method
+  summary: "\nGets the user-defined fields on the NSPersonEntity as a map.\n"
+  remarks: 
+  syntax: 
+    content: Map GetUserDefinedFields()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nMap udefs = thing.GetUserDefinedFields();\nlog( udefs[&quot;SuperOffice:1&quot;] ); // &quot;[I:123]&quot;* integer or list item id\nlog( udefs[&quot;SuperOffice:1:DisplayText&quot;] ); // &quot;bla bla&quot;* list item value\nlog( udefs[&quot;custom.progid&quot;] ); // &quot;foobar&quot;* string value</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.GetUserInfo()
+  commentId: M:CRMScript.NetServer.NSPersonEntity.GetUserInfo()
+  id: 'GetUserInfo()'
+  so.intellisense: NSPersonEntity.GetUserInfo
+  langs:
+  - crmscript
+  name: 'GetUserInfo()'
+  nameWithType: NSPersonEntity.GetUserInfo()
+  fullName: CRMScript.NetServer.NSPersonEntity.GetUserInfo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSUserInfo GetUserInfo()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSUserInfo
+      description: "Information about the user if this person is a user.  If IsAssociate (e.g. is user is true) the NSUserInfo will be provided."
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSUserInfo userInfo = thing.GetUserInfo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetActiveErpLinks(Integer)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetActiveErpLinks(Integer)
+  id: 'SetActiveErpLinks(Integer)'
+  so.intellisense: NSPersonEntity.SetActiveErpLinks
+  langs:
+  - crmscript
+  name: 'SetActiveErpLinks(Integer)'
+  nameWithType: NSPersonEntity.SetActiveErpLinks(Integer)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetActiveErpLinks(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetActiveErpLinks(Integer activeErpLinks)
+    parameters:
+    - id: activeErpLinks
+      type: CRMScript.Global.Integer
+      description: How many active ERP links are there for this person?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nInteger activeErpLinks;\nthing.SetActiveErpLinks(activeErpLinks);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetActiveInterests(Integer)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetActiveInterests(Integer)
+  id: 'SetActiveInterests(Integer)'
+  so.intellisense: NSPersonEntity.SetActiveInterests
+  langs:
+  - crmscript
+  name: 'SetActiveInterests(Integer)'
+  nameWithType: NSPersonEntity.SetActiveInterests(Integer)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetActiveInterests(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetActiveInterests(Integer activeInterests)
+    parameters:
+    - id: activeInterests
+      type: CRMScript.Global.Integer
+      description: "The number of active interests."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nInteger activeInterests;\nthing.SetActiveInterests(activeInterests);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetAddress(NSAddress)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetAddress(NSAddress)
+  id: 'SetAddress(NSAddress)'
+  so.intellisense: NSPersonEntity.SetAddress
+  langs:
+  - crmscript
+  name: 'SetAddress(NSAddress)'
+  nameWithType: NSPersonEntity.SetAddress(NSAddress)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetAddress(NSAddress)
+  type: Method
+  summary: "\nSets a formatted addressSets the structure holding formatted address data.\n"
+  remarks:
+  syntax: 
+    content: Void SetAddress(NSAddress address)
+    parameters: 
+    - id: address
+      type: CRMScript.NetServer.NSAddress
+      description: "The layout of the array structure indicates the layout of the localized address."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSAddress address;\nthing.SetAddress(address);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetAssociate(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetAssociate(NSAssociate)
+  id: 'SetAssociate(NSAssociate)'
+  so.intellisense: NSPersonEntity.SetAssociate
+  langs:
+  - crmscript
+  name: 'SetAssociate(NSAssociate)'
+  nameWithType: NSPersonEntity.SetAssociate(NSAssociate)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetAssociate(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: "\nUsually blank. Use the Person.Contact.Associate instead. Intended for use when individual persons are created (i.e. when Person.Contact is blank)\n"
+  syntax: 
+    content: Void SetAssociate(NSAssociate associate)
+    parameters:
+    - id: associate
+      type: CRMScript.NetServer.NSAssociate
+      description: "The associate owning this person (similar to contact.Associate)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSAssociate associate;\nthing.SetAssociate(associate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetBirthDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetBirthDate(DateTime)
+  id: 'SetBirthDate(DateTime)'
+  so.intellisense: NSPersonEntity.SetBirthDate
+  langs:
+  - crmscript
+  name: 'SetBirthDate(DateTime)'
+  nameWithType: NSPersonEntity.SetBirthDate(DateTime)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetBirthDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetBirthDate(DateTime birthDate)
+    parameters:
+    - id: birthDate
+      type: CRMScript.Global.DateTime
+      description: "The Person birth date as Date."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nDateTime birthDate;\nthing.SetBirthDate(birthDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetBlockEmarketing(Integer)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetBlockEmarketing(Integer)
+  id: 'SetBlockEmarketing(Integer)'
+  so.intellisense: NSPersonEntity.SetBlockEmarketing
+  langs:
+  - crmscript
+  name: 'SetBlockEmarketing(Integer)'
+  nameWithType: NSPersonEntity.SetBlockEmarketing(Integer)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetBlockEmarketing(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetBlockEmarketing(Integer send)
+    parameters:
+    - id: send
+      type: CRMScript.Global.Integer
+      description: "Do not send E-marketing materials to this person."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSPersonEntity.SetBounceEmails(String[])
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetBounceEmails(String[])
+  id: 'SetBounceEmails(String[])'
+  so.intellisense: NSPersonEntity.SetBounceEmails
+  langs:
+  - crmscript
+  name: 'SetBounceEmails(String[])'
+  nameWithType: NSPersonEntity.SetBounceEmails(String[])
+  fullName: CRMScript.NetServer.NSPersonEntity.SetBounceEmails(String[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetBounceEmails(String[] bounceEmails)
+    parameters:
+    - id: bounceEmails
+      type: CRMScript.Global.String[]
+      description: "Email addresses with a positive bounce counter."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString[] bounceEmails;\nthing.SetBounceEmails(bounceEmails);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetBusiness(NSBusiness)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetBusiness(NSBusiness)
+  id: 'SetBusiness(NSBusiness)'
+  so.intellisense: NSPersonEntity.SetBusiness
+  langs:
+  - crmscript
+  name: 'SetBusiness(NSBusiness)'
+  nameWithType: NSPersonEntity.SetBusiness(NSBusiness)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetBusiness(NSBusiness)
+  type: Method
+  summary: # TODO
+  remarks: "\nUsually blank. Use Contact.NSBusiness instead. Intended for use when individual persons are created. (i.e. when Person.Contact is blank)\n"
+  syntax: 
+    content: Void SetBusiness(NSBusiness business)
+    parameters:
+    - id: business
+      type: CRMScript.NetServer.NSBusiness
+      description: "Person's business."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSBusiness business;\nthing.SetBusiness(business);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetCategory(NSCategory)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetCategory(NSCategory)
+  id: 'SetCategory(NSCategory)'
+  so.intellisense: NSPersonEntity.SetCategory
+  langs:
+  - crmscript
+  name: 'SetCategory(NSCategory)'
+  nameWithType: NSPersonEntity.SetCategory(NSCategory)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetCategory(NSCategory)
+  type: Method
+  summary: # TODO
+  remarks: "\nUsually null. Refer to the Contact.NSCategory instead.  Intended for use when individual persons are created. (i.e. when Person.Contact is blank)\n"
+  syntax: 
+    content: Void SetCategory(NSCategory category)
+    parameters:
+    - id: category
+      type: CRMScript.NetServer.NSCategory
+      description: "Person's category."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSCategory category;\nthing.SetCategory(category);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetChatEmails(NSEntityElement[])
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetChatEmails(NSEntityElement[])
+  id: 'SetChatEmails(NSEntityElement[])'
+  so.intellisense: NSPersonEntity.SetChatEmails
+  langs:
+  - crmscript
+  name: 'SetChatEmails(NSEntityElement[])'
+  nameWithType: NSPersonEntity.SetChatEmails(NSEntityElement[])
+  fullName: CRMScript.NetServer.NSPersonEntity.SetChatEmails(NSEntityElement[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChatEmails(NSEntityElement[] chatEmails)
+    parameters:
+    - id: chatEmails
+      type: CRMScript.NetServer.NSEntityElement[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSEntityElement[] chatEmails;\nthing.SetChatEmails(chatEmails);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetConsents(NSConsentInfo[])
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetConsents(NSConsentInfo[])
+  id: 'SetConsents(NSConsentInfo[])'
+  so.intellisense: NSPersonEntity.SetConsents
+  langs:
+  - crmscript
+  name: 'SetConsents(NSConsentInfo[])'
+  nameWithType: NSPersonEntity.SetConsents(NSConsentInfo[])
+  fullName: CRMScript.NetServer.NSPersonEntity.SetConsents(NSConsentInfo[])
+  type: Method
+  summary: # TODO
+  remarks: "\nMissing consents are not deleted. To remove a consent, mark its legalbase as 'WITHDRAWN'\n"
+  syntax: 
+    content: Void SetConsents(NSConsentInfo[] consents)
+    parameters:
+    - id: consents
+      type: CRMScript.NetServer.NSConsentInfo[]
+      description: "The person's available consent information."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSConsentInfo[] consents;\nthing.SetConsents(consents);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetContact(NSContact)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetContact(NSContact)
+  id: 'SetContact(NSContact)'
+  so.intellisense: NSPersonEntity.SetContact
+  langs:
+  - crmscript
+  name: 'SetContact(NSContact)'
+  nameWithType: NSPersonEntity.SetContact(NSContact)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetContact(NSContact)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContact(NSContact contact)
+    parameters:
+    - id: contact
+      type: CRMScript.NetServer.NSContact
+      description: "The contact the contact person is registered on. This is required unless the 'MandatoryContactOnPerson' preference is set."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSContact contact;\nthing.SetContact(contact);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetCorrespondingAssociate(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetCorrespondingAssociate(NSAssociate)
+  id: 'SetCorrespondingAssociate(NSAssociate)'
+  so.intellisense: NSPersonEntity.SetCorrespondingAssociate
+  langs:
+  - crmscript
+  name: 'SetCorrespondingAssociate(NSAssociate)'
+  nameWithType: NSPersonEntity.SetCorrespondingAssociate(NSAssociate)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetCorrespondingAssociate(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: "\nWill be empty if the person is not a user (internal associate user, external user).\n"
+  syntax: 
+    content: Void SetCorrespondingAssociate(NSAssociate correspondingAssociate)
+    parameters:
+    - id: correspondingAssociate
+      type: CRMScript.NetServer.NSAssociate
+      description: "The associate corresponding to this person."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSAssociate correspondingAssociate;\nthing.SetCorrespondingAssociate(correspondingAssociate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetCountry(NSCountry)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetCountry(NSCountry)
+  id: 'SetCountry(NSCountry)'
+  so.intellisense: NSPersonEntity.SetCountry
+  langs:
+  - crmscript
+  name: 'SetCountry(NSCountry)'
+  nameWithType: NSPersonEntity.SetCountry(NSCountry)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetCountry(NSCountry)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCountry(NSCountry country)
+    parameters:
+    - id: country
+      type: CRMScript.NetServer.NSCountry
+      description: "The country this contact person is located in."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSCountry country;\nthing.SetCountry(country);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetCreatedBy(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetCreatedBy(NSAssociate)
+  id: 'SetCreatedBy(NSAssociate)'
+  so.intellisense: NSPersonEntity.SetCreatedBy
+  langs:
+  - crmscript
+  name: 'SetCreatedBy(NSAssociate)'
+  nameWithType: NSPersonEntity.SetCreatedBy(NSAssociate)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetCreatedBy(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCreatedBy(NSAssociate createdBy)
+    parameters:
+    - id: createdBy
+      type: CRMScript.NetServer.NSAssociate
+      description: "The user that created the person object."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSAssociate createdBy;\nthing.SetCreatedBy(createdBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetCreatedDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetCreatedDate(DateTime)
+  id: 'SetCreatedDate(DateTime)'
+  so.intellisense: NSPersonEntity.SetCreatedDate
+  langs:
+  - crmscript
+  name: 'SetCreatedDate(DateTime)'
+  nameWithType: NSPersonEntity.SetCreatedDate(DateTime)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetCreatedDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCreatedDate(DateTime createdDate)
+    parameters:
+    - id: createdDate
+      type: CRMScript.Global.DateTime
+      description: "Registered date."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nDateTime createdDate;\nthing.SetCreatedDate(createdDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetCustomerLanguage(NSCustomerLanguage)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetCustomerLanguage(NSCustomerLanguage)
+  id: 'SetCustomerLanguage(NSCustomerLanguage)'
+  so.intellisense: NSPersonEntity.SetCustomerLanguage
+  langs:
+  - crmscript
+  name: 'SetCustomerLanguage(NSCustomerLanguage)'
+  nameWithType: NSPersonEntity.SetCustomerLanguage(NSCustomerLanguage)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetCustomerLanguage(NSCustomerLanguage)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCustomerLanguage(NSCustomerLanguage customerLanguage)
+    parameters:
+    - id: customerLanguage
+      type: CRMScript.NetServer.NSCustomerLanguage
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSCustomerLanguage customerLanguage;\nthing.SetCustomerLanguage(customerLanguage);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetCustomFields(Map)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetCustomFields(Map)
+  id: 'SetCustomFields(Map)'
+  so.intellisense: NSPersonEntity.SetCustomFields
+  langs:
+  - crmscript
+  name: 'SetCustomFields(Map)'
+  nameWithType: NSPersonEntity.SetCustomFields(Map)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetCustomFields(Map)
+  type: Method
+  summary: "\nSets the user-defined and extra fields on an NSPersonEntity with a map.\n"
+  remarks: 
+  syntax: 
+    content: Void SetCustomFields(Map udefs)
+    parameters:
+    - id: udefs
+      type: CRMScript.Native.Map
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nMap udefs;\nudefs[&quot;SuperOffice:1&quot;] = &quot;[I:123]&quot;;\nudefs[&quot;SuperOffice:1&quot;] = &quot;123&quot;; // this will also work, but beware of decimal point variations in different languages\nudefs[&quot;custom.progid&quot;] = &quot;foobar&quot;;\nudefs[&quot;x_foo&quot;] = &quot;foobar&quot;;\nudefs[&quot;x_bar&quot;] = &quot;456&quot;; // List item id\nthing.SetCustomFields(udefs);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetDbiAgentId(Integer)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetDbiAgentId(Integer)
+  id: 'SetDbiAgentId(Integer)'
+  so.intellisense: NSPersonEntity.SetDbiAgentId
+  langs:
+  - crmscript
+  name: 'SetDbiAgentId(Integer)'
+  nameWithType: NSPersonEntity.SetDbiAgentId(Integer)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetDbiAgentId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDbiAgentId(Integer dbiAgentId)
+    parameters:
+    - id: dbiAgentId
+      type: CRMScript.Global.Integer
+      description: "Integration agent (eJournal)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nInteger dbiAgentId;\nthing.SetDbiAgentId(dbiAgentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetDbiKey(String)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetDbiKey(String)
+  id: 'SetDbiKey(String)'
+  so.intellisense: NSPersonEntity.SetDbiKey
+  langs:
+  - crmscript
+  name: 'SetDbiKey(String)'
+  nameWithType: NSPersonEntity.SetDbiKey(String)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetDbiKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDbiKey(String dbiKey)
+    parameters:
+    - id: dbiKey
+      type: CRMScript.Global.String
+      description: "The primary key for the integrated entry in the external datasource."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString dbiKey;\nthing.SetDbiKey(dbiKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetDbiLastModified(DateTime)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetDbiLastModified(DateTime)
+  id: 'SetDbiLastModified(DateTime)'
+  so.intellisense: NSPersonEntity.SetDbiLastModified
+  langs:
+  - crmscript
+  name: 'SetDbiLastModified(DateTime)'
+  nameWithType: NSPersonEntity.SetDbiLastModified(DateTime)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetDbiLastModified(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDbiLastModified(DateTime dbiLastModified)
+    parameters:
+    - id: dbiLastModified
+      type: CRMScript.Global.DateTime
+      description: "When the entry was last modified."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nDateTime dbiLastModified;\nthing.SetDbiLastModified(dbiLastModified);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetDbiLastSyncronized(DateTime)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetDbiLastSyncronized(DateTime)
+  id: 'SetDbiLastSyncronized(DateTime)'
+  so.intellisense: NSPersonEntity.SetDbiLastSyncronized
+  langs:
+  - crmscript
+  name: 'SetDbiLastSyncronized(DateTime)'
+  nameWithType: NSPersonEntity.SetDbiLastSyncronized(DateTime)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetDbiLastSyncronized(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDbiLastSyncronized(DateTime dbiLastSyncronized)
+    parameters:
+    - id: dbiLastSyncronized
+      type: CRMScript.Global.DateTime
+      description: "Last external synchronization."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nDateTime dbiLastSyncronized;\nthing.SetDbiLastSyncronized(dbiLastSyncronized);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSPersonEntity.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSPersonEntity.SetDescription(String)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetEmails(NSEntityElement[])
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetEmails(NSEntityElement[])
+  id: 'SetEmails(NSEntityElement[])'
+  so.intellisense: NSPersonEntity.SetEmails
+  langs:
+  - crmscript
+  name: 'SetEmails(NSEntityElement[])'
+  nameWithType: NSPersonEntity.SetEmails(NSEntityElement[])
+  fullName: CRMScript.NetServer.NSPersonEntity.SetEmails(NSEntityElement[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEmails(NSEntityElement[] emails)
+    parameters:
+    - id: emails
+      type: CRMScript.NetServer.NSEntityElement[]
+      description: "A collection of the person's emails."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSEntityElement[] emails;\nthing.SetEmails(emails);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetExtraFields(Map)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetExtraFields(Map)
+  id: 'SetExtraFields(Map)'
+  so.intellisense: NSPersonEntity.SetExtraFields
+  langs:
+  - crmscript
+  name: 'SetExtraFields(Map)'
+  nameWithType: NSPersonEntity.SetExtraFields(Map)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetExtraFields(Map)
+  type: Method
+  summary: "\nSets the extra field values on NSPersonEntity with a map.\n"
+  remarks: 
+  syntax: 
+    content: Void SetExtraFields(Map extras)
+    parameters:
+    - id: extras
+      type: CRMScript.Native.Map
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nMap extras;\nextras[&quot;SuperOffice:1&quot;] = &quot;[I:123]&quot;;\nextras[&quot;SuperOffice:1&quot;] = &quot;123&quot;; // this will also work, but beware of decimal point variations in different languages\nextras[&quot;custom.progid&quot;] = &quot;foobar&quot;;\nthing.SetExtraFields(extras);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetFaxes(NSEntityElement[])
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetFaxes(NSEntityElement[])
+  id: 'SetFaxes(NSEntityElement[])'
+  so.intellisense: NSPersonEntity.SetFaxes
+  langs:
+  - crmscript
+  name: 'SetFaxes(NSEntityElement[])'
+  nameWithType: NSPersonEntity.SetFaxes(NSEntityElement[])
+  fullName: CRMScript.NetServer.NSPersonEntity.SetFaxes(NSEntityElement[])
+  type: Method
+  summary: "\nReturns a collection of fax numbers that belong to the contact person.\n"
+  remarks: 
+  syntax: 
+    content: Void SetFaxes(NSEntityElement[] faxes)
+    parameters:
+    - id: faxes
+      type: CRMScript.NetServer.NSEntityElement[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSEntityElement[] faxes;\nthing.SetFaxes(faxes);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetFirstname(String)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetFirstname(String)
+  id: 'SetFirstname(String)'
+  so.intellisense: NSPersonEntity.SetFirstname
+  langs:
+  - crmscript
+  name: 'SetFirstname(String)'
+  nameWithType: NSPersonEntity.SetFirstname(String)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetFirstname(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFirstname(String firstname)
+    parameters:
+    - id: firstname
+      type: CRMScript.Global.String
+      description: "First name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString firstname;\nthing.SetFirstname(firstname);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetFormalName(String)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetFormalName(String)
+  id: 'SetFormalName(String)'
+  so.intellisense: NSPersonEntity.SetFormalName
+  langs:
+  - crmscript
+  name: 'SetFormalName(String)'
+  nameWithType: NSPersonEntity.SetFormalName(String)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetFormalName(String)
+  type: Method
+  summary: "\nGets formal name for a person, as used in labels. (Full name + person title + academic title)\n"
+  remarks: 
+  syntax: 
+    content: Void SetFormalName(String formalName)
+    parameters:
+    - id: formalName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString formalName;\nthing.SetFormalName(formalName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetFullName(String)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetFullName(String)
+  id: 'SetFullName(String)'
+  so.intellisense: NSPersonEntity.SetFullName
+  langs:
+  - crmscript
+  name: 'SetFullName(String)'
+  nameWithType: NSPersonEntity.SetFullName(String)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetFullName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFullName(String fullName)
+    parameters:
+    - id: fullName
+      type: CRMScript.Global.String
+      description: "The person's full name localized to the current culture/country.  (internal name used in clients for employees)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString fullName;\nthing.SetFullName(fullName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetInterests(NSSelectableMDOListItem[])
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetInterests(NSSelectableMDOListItem[])
+  id: 'SetInterests(NSSelectableMDOListItem[])'
+  so.intellisense: NSPersonEntity.SetInterests
+  langs:
+  - crmscript
+  name: 'SetInterests(NSSelectableMDOListItem[])'
+  nameWithType: NSPersonEntity.SetInterests(NSSelectableMDOListItem[])
+  fullName: CRMScript.NetServer.NSPersonEntity.SetInterests(NSSelectableMDOListItem[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetInterests(NSSelectableMDOListItem[] interests)
+    parameters:
+    - id: interests
+      type: CRMScript.NetServer.NSSelectableMDOListItem[]
+      description: "The person's available and selected interests."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSSelectableMDOListItem[] interests;\nthing.SetInterests(interests);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetInternetPhones(NSEntityElement[])
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetInternetPhones(NSEntityElement[])
+  id: 'SetInternetPhones(NSEntityElement[])'
+  so.intellisense: NSPersonEntity.SetInternetPhones
+  langs:
+  - crmscript
+  name: 'SetInternetPhones(NSEntityElement[])'
+  nameWithType: NSPersonEntity.SetInternetPhones(NSEntityElement[])
+  fullName: CRMScript.NetServer.NSPersonEntity.SetInternetPhones(NSEntityElement[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetInternetPhones(NSEntityElement[] internetPhones)
+    parameters:
+    - id: internetPhones
+      type: CRMScript.NetServer.NSEntityElement[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSEntityElement[] internetPhones;\nthing.SetInternetPhones(internetPhones);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetIsAssociate(Bool)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetIsAssociate(Bool)
+  id: 'SetIsAssociate(Bool)'
+  so.intellisense: NSPersonEntity.SetIsAssociate
+  langs:
+  - crmscript
+  name: 'SetIsAssociate(Bool)'
+  nameWithType: NSPersonEntity.SetIsAssociate(Bool)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetIsAssociate(Bool)
+  type: Method
+  summary: "\nChecks if the person object is an associate. The property is read-only.\n"
+  remarks: 
+  syntax: 
+    content: Void SetIsAssociate(Bool isAssociate)
+    parameters:
+    - id: isAssociate
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nBool isAssociate;\nthing.SetIsAssociate(isAssociate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetKanafname(String)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetKanafname(String)
+  id: 'SetKanafname(String)'
+  so.intellisense: NSPersonEntity.SetKanafname
+  langs:
+  - crmscript
+  name: 'SetKanafname(String)'
+  nameWithType: NSPersonEntity.SetKanafname(String)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetKanafname(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetKanafname(String kanafname)
+    parameters:
+    - id: kanafname
+      type: CRMScript.Global.String
+      description: "Kana first name, used in Japanese versions only."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString kanafname;\nthing.SetKanafname(kanafname);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetKanalname(String)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetKanalname(String)
+  id: 'SetKanalname(String)'
+  so.intellisense: NSPersonEntity.SetKanalname
+  langs:
+  - crmscript
+  name: 'SetKanalname(String)'
+  nameWithType: NSPersonEntity.SetKanalname(String)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetKanalname(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetKanalname(String kanalname)
+    parameters:
+    - id: kanalname
+      type: CRMScript.Global.String
+      description: "Kana last name, used in Japanese versions only."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString kanalname;\nthing.SetKanalname(kanalname);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetLastname(String)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetLastname(String)
+  id: 'SetLastname(String)'
+  so.intellisense: NSPersonEntity.SetLastname
+  langs:
+  - crmscript
+  name: 'SetLastname(String)'
+  nameWithType: NSPersonEntity.SetLastname(String)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetLastname(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLastname(String lastname)
+    parameters:
+    - id: lastname
+      type: CRMScript.Global.String
+      description: "Last name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString lastname;\nthing.SetLastname(lastname);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetMiddleName(String)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetMiddleName(String)
+  id: 'SetMiddleName(String)'
+  so.intellisense: NSPersonEntity.SetMiddleName
+  langs:
+  - crmscript
+  name: 'SetMiddleName(String)'
+  nameWithType: NSPersonEntity.SetMiddleName(String)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetMiddleName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMiddleName(String middleName)
+    parameters:
+    - id: middleName
+      type: CRMScript.Global.String
+      description: "Middle name or 'van' etc."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString middleName;\nthing.SetMiddleName(middleName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetMobilePhones(NSEntityElement[])
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetMobilePhones(NSEntityElement[])
+  id: 'SetMobilePhones(NSEntityElement[])'
+  so.intellisense: NSPersonEntity.SetMobilePhones
+  langs:
+  - crmscript
+  name: 'SetMobilePhones(NSEntityElement[])'
+  nameWithType: NSPersonEntity.SetMobilePhones(NSEntityElement[])
+  fullName: CRMScript.NetServer.NSPersonEntity.SetMobilePhones(NSEntityElement[])
+  type: Method
+  summary: "\nReturns a collection of mobile phone numbers that belong to the contact person.\n"
+  remarks: 
+  syntax: 
+    content: Void SetMobilePhones(NSEntityElement[] mobilePhones)
+    parameters:
+    - id: mobilePhones
+      type: CRMScript.NetServer.NSEntityElement[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSEntityElement[] mobilePhones;\nthing.SetMobilePhones(mobilePhones);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetMrmrs(String)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetMrmrs(String)
+  id: 'SetMrmrs(String)'
+  so.intellisense: NSPersonEntity.SetMrmrs
+  langs:
+  - crmscript
+  name: 'SetMrmrs(String)'
+  nameWithType: NSPersonEntity.SetMrmrs(String)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetMrmrs(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMrmrs(String mrmrs)
+    parameters:
+    - id: mrmrs
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString mrmrs;\nthing.SetMrmrs(mrmrs);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetNoMailing(Bool)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetNoMailing(Bool)
+  id: 'SetNoMailing(Bool)'
+  so.intellisense: NSPersonEntity.SetNoMailing
+  langs:
+  - crmscript
+  name: 'SetNoMailing(Bool)'
+  nameWithType: NSPersonEntity.SetNoMailing(Bool)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetNoMailing(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetNoMailing(Bool noMailing)
+    parameters:
+    - id: noMailing
+      type: CRMScript.Global.Bool
+      description: "Spam filter. Indicates if this person should retrieve advertising."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nBool noMailing;\nthing.SetNoMailing(noMailing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetOfficePhones(NSEntityElement[])
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetOfficePhones(NSEntityElement[])
+  id: 'SetOfficePhones(NSEntityElement[])'
+  so.intellisense: NSPersonEntity.SetOfficePhones
+  langs:
+  - crmscript
+  name: 'SetOfficePhones(NSEntityElement[])'
+  nameWithType: NSPersonEntity.SetOfficePhones(NSEntityElement[])
+  fullName: CRMScript.NetServer.NSPersonEntity.SetOfficePhones(NSEntityElement[])
+  type: Method
+  summary: "\nReturns a collection of office phone numbers that belong to the contact person.\n"
+  remarks: 
+  syntax: 
+    content: Void SetOfficePhones(NSEntityElement[] officePhones)
+    parameters:
+    - id: officePhones
+      type: CRMScript.NetServer.NSEntityElement[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSEntityElement[] officePhones;\nthing.SetOfficePhones(officePhones);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetOtherPhones(NSEntityElement[])
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetOtherPhones(NSEntityElement[])
+  id: 'SetOtherPhones(NSEntityElement[])'
+  so.intellisense: NSPersonEntity.SetOtherPhones
+  langs:
+  - crmscript
+  name: 'SetOtherPhones(NSEntityElement[])'
+  nameWithType: NSPersonEntity.SetOtherPhones(NSEntityElement[])
+  fullName: CRMScript.NetServer.NSPersonEntity.SetOtherPhones(NSEntityElement[])
+  type: Method
+  summary: "\nReturns a collection of pagers that belong to the contact person.\n"
+  remarks: 
+  syntax: 
+    content: Void SetOtherPhones(NSEntityElement[] otherPhones)
+    parameters:
+    - id: otherPhones
+      type: CRMScript.NetServer.NSEntityElement[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSEntityElement[] otherPhones;\nthing.SetOtherPhones(otherPhones);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetPagers(NSEntityElement[])
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetPagers(NSEntityElement[])
+  id: 'SetPagers(NSEntityElement[])'
+  so.intellisense: NSPersonEntity.SetPagers
+  langs:
+  - crmscript
+  name: 'SetPagers(NSEntityElement[])'
+  nameWithType: NSPersonEntity.SetPagers(NSEntityElement[])
+  fullName: CRMScript.NetServer.NSPersonEntity.SetPagers(NSEntityElement[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPagers(NSEntityElement[] pagers)
+    parameters:
+    - id: pagers
+      type: CRMScript.NetServer.NSEntityElement[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSPersonEntity.SetPersonId(Integer)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetPersonId(Integer)
+  id: 'SetPersonId(Integer)'
+  so.intellisense: NSPersonEntity.SetPersonId
+  langs:
+  - crmscript
+  name: 'SetPersonId(Integer)'
+  nameWithType: NSPersonEntity.SetPersonId(Integer)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetPersonId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonId(Integer personId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nInteger personId;\nthing.SetPersonId(personId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetPersonNumber(String)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetPersonNumber(String)
+  id: 'SetPersonNumber(String)'
+  so.intellisense: NSPersonEntity.SetPersonNumber
+  langs:
+  - crmscript
+  name: 'SetPersonNumber(String)'
+  nameWithType: NSPersonEntity.SetPersonNumber(String)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetPersonNumber(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonNumber(String personNumber)
+    parameters:
+    - id: personNumber
+      type: CRMScript.Global.String
+      description: "Alphanumeric user field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString personNumber;\nthing.SetPersonNumber(personNumber);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetPosition(NSPosition)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetPosition(NSPosition)
+  id: 'SetPosition(NSPosition)'
+  so.intellisense: NSPersonEntity.SetPosition
+  langs:
+  - crmscript
+  name: 'SetPosition(NSPosition)'
+  nameWithType: NSPersonEntity.SetPosition(NSPosition)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetPosition(NSPosition)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPosition(NSPosition position)
+    parameters:
+    - id: position
+      type: CRMScript.NetServer.NSPosition
+      description: "The position. This is a predefined SuperOffice value, different from Title."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSPosition position;\nthing.SetPosition(position);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetPost1(String)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetPost1(String)
+  id: 'SetPost1(String)'
+  so.intellisense: NSPersonEntity.SetPost1
+  langs:
+  - crmscript
+  name: 'SetPost1(String)'
+  nameWithType: NSPersonEntity.SetPost1(String)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetPost1(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPost1(String post1)
+    parameters:
+    - id: post1
+      type: CRMScript.Global.String
+      description: "Postal address, used in Japanese versions only."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString post1;\nthing.SetPost1(post1);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetPost2(String)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetPost2(String)
+  id: 'SetPost2(String)'
+  so.intellisense: NSPersonEntity.SetPost2
+  langs:
+  - crmscript
+  name: 'SetPost2(String)'
+  nameWithType: NSPersonEntity.SetPost2(String)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetPost2(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPost2(String post2)
+    parameters:
+    - id: post2
+      type: CRMScript.Global.String
+      description: Postal address, used in Japanese versions only 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString post2;\nthing.SetPost2(post2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetPost3(String)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetPost3(String)
+  id: 'SetPost3(String)'
+  so.intellisense: NSPersonEntity.SetPost3
+  langs:
+  - crmscript
+  name: 'SetPost3(String)'
+  nameWithType: NSPersonEntity.SetPost3(String)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetPost3(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPost3(String post3)
+    parameters:
+    - id: post3
+      type: CRMScript.Global.String
+      description: "Postal address, used in Japanese versions only."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString post3;\nthing.SetPost3(post3);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetPrivatePhones(NSEntityElement[])
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetPrivatePhones(NSEntityElement[])
+  id: 'SetPrivatePhones(NSEntityElement[])'
+  so.intellisense: NSPersonEntity.SetPrivatePhones
+  langs:
+  - crmscript
+  name: 'SetPrivatePhones(NSEntityElement[])'
+  nameWithType: NSPersonEntity.SetPrivatePhones(NSEntityElement[])
+  fullName: CRMScript.NetServer.NSPersonEntity.SetPrivatePhones(NSEntityElement[])
+  type: Method
+  summary: "\nReturns a collection of phone numbers that belong to the contact person.\n"
+  remarks: 
+  syntax: 
+    content: Void SetPrivatePhones(NSEntityElement[] privatePhones)
+    parameters:
+    - id: privatePhones
+      type: CRMScript.NetServer.NSEntityElement[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSEntityElement[] privatePhones;\nthing.SetPrivatePhones(privatePhones);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetRetired(Bool)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetRetired(Bool)
+  id: 'SetRetired(Bool)'
+  so.intellisense: NSPersonEntity.SetRetired
+  langs:
+  - crmscript
+  name: 'SetRetired(Bool)'
+  nameWithType: NSPersonEntity.SetRetired(Bool)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetRetired(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRetired(Bool retired)
+    parameters:
+    - id: retired
+      type: CRMScript.Global.Bool
+      description: "True if the user is retired and should have no rights, not appear in lists, etc."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nBool retired;\nthing.SetRetired(retired);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetSalutation(String)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetSalutation(String)
+  id: 'SetSalutation(String)'
+  so.intellisense: NSPersonEntity.SetSalutation
+  langs:
+  - crmscript
+  name: 'SetSalutation(String)'
+  nameWithType: NSPersonEntity.SetSalutation(String)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetSalutation(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSalutation(String salutation)
+    parameters:
+    - id: salutation
+      type: CRMScript.Global.String
+      description: "Academic title, populated from Salutation list but can be overwritten with anything at all."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString salutation;\nthing.SetSalutation(salutation);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetSentInfo(Integer)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetSentInfo(Integer)
+  id: 'SetSentInfo(Integer)'
+  so.intellisense: NSPersonEntity.SetSentInfo
+  langs:
+  - crmscript
+  name: 'SetSentInfo(Integer)'
+  nameWithType: NSPersonEntity.SetSentInfo(Integer)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetSentInfo(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSentInfo(Integer sentInfo)
+    parameters:
+    - id: sentInfo
+      type: CRMScript.Global.Integer
+      description: "Has information on username/password been sent (Service)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nInteger sentInfo;\nthing.SetSentInfo(sentInfo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetShipmentTypes(NSSelectableMDOListItem[])
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetShipmentTypes(NSSelectableMDOListItem[])
+  id: 'SetShipmentTypes(NSSelectableMDOListItem[])'
+  so.intellisense: NSPersonEntity.SetShipmentTypes
+  langs:
+  - crmscript
+  name: 'SetShipmentTypes(NSSelectableMDOListItem[])'
+  nameWithType: NSPersonEntity.SetShipmentTypes(NSSelectableMDOListItem[])
+  fullName: CRMScript.NetServer.NSPersonEntity.SetShipmentTypes(NSSelectableMDOListItem[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetShipmentTypes(NSSelectableMDOListItem[] shipmentTypes)
+    parameters:
+    - id: shipmentTypes
+      type: CRMScript.NetServer.NSSelectableMDOListItem[]
+      description: "The person's available and selected shipment types."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSSelectableMDOListItem[] shipmentTypes;\nthing.SetShipmentTypes(shipmentTypes);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetShowContactTickets(Integer)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetShowContactTickets(Integer)
+  id: 'SetShowContactTickets(Integer)'
+  so.intellisense: NSPersonEntity.SetShowContactTickets
+  langs:
+  - crmscript
+  name: 'SetShowContactTickets(Integer)'
+  nameWithType: NSPersonEntity.SetShowContactTickets(Integer)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetShowContactTickets(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetShowContactTickets(Integer showContactTickets)
+    parameters:
+    - id: showContactTickets
+      type: CRMScript.Global.Integer
+      description: "Should tickets related to the company be shown to this person."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nInteger showContactTickets;\nthing.SetShowContactTickets(showContactTickets);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetSource(Integer)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetSource(Integer)
+  id: 'SetSource(Integer)'
+  so.intellisense: NSPersonEntity.SetSource
+  langs:
+  - crmscript
+  name: 'SetSource(Integer)'
+  nameWithType: NSPersonEntity.SetSource(Integer)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetSource(Integer)
+  type: Method
+  summary: # TODO
+  remarks: "\nFor future integration needs\n"
+  syntax: 
+    content: Void SetSource(Integer source)
+    parameters:
+    - id: source
+      type: CRMScript.Global.Integer
+      description: How did we get this person?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nInteger source;\nthing.SetSource(source);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetSupportAssociate(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetSupportAssociate(NSAssociate)
+  id: 'SetSupportAssociate(NSAssociate)'
+  so.intellisense: NSPersonEntity.SetSupportAssociate
+  langs:
+  - crmscript
+  name: 'SetSupportAssociate(NSAssociate)'
+  nameWithType: NSPersonEntity.SetSupportAssociate(NSAssociate)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetSupportAssociate(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSupportAssociate(NSAssociate supportAssociate)
+    parameters:
+    - id: supportAssociate
+      type: CRMScript.NetServer.NSAssociate
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSAssociate supportAssociate;\nthing.SetSupportAssociate(supportAssociate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetTicketPriority(NSTicketPriority)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetTicketPriority(NSTicketPriority)
+  id: 'SetTicketPriority(NSTicketPriority)'
+  so.intellisense: NSPersonEntity.SetTicketPriority
+  langs:
+  - crmscript
+  name: 'SetTicketPriority(NSTicketPriority)'
+  nameWithType: NSPersonEntity.SetTicketPriority(NSTicketPriority)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetTicketPriority(NSTicketPriority)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTicketPriority(NSTicketPriority ticketPriority)
+    parameters:
+    - id: ticketPriority
+      type: CRMScript.NetServer.NSTicketPriority
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSTicketPriority ticketPriority;\nthing.SetTicketPriority(ticketPriority);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetTitle(String)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetTitle(String)
+  id: 'SetTitle(String)'
+  so.intellisense: NSPersonEntity.SetTitle
+  langs:
+  - crmscript
+  name: 'SetTitle(String)'
+  nameWithType: NSPersonEntity.SetTitle(String)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetTitle(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTitle(String title)
+    parameters:
+    - id: title
+      type: CRMScript.Global.String
+      description: "Title."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nString title;\nthing.SetTitle(title);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetUpdatedBy(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetUpdatedBy(NSAssociate)
+  id: 'SetUpdatedBy(NSAssociate)'
+  so.intellisense: NSPersonEntity.SetUpdatedBy
+  langs:
+  - crmscript
+  name: 'SetUpdatedBy(NSAssociate)'
+  nameWithType: NSPersonEntity.SetUpdatedBy(NSAssociate)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetUpdatedBy(NSAssociate)
+  type: Method
+  summary: "\nThe person that last updated the person object\n"
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedBy(NSAssociate updatedBy)
+    parameters:
+    - id: updatedBy
+      type: CRMScript.NetServer.NSAssociate
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSAssociate updatedBy;\nthing.SetUpdatedBy(updatedBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetUpdatedDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetUpdatedDate(DateTime)
+  id: 'SetUpdatedDate(DateTime)'
+  so.intellisense: NSPersonEntity.SetUpdatedDate
+  langs:
+  - crmscript
+  name: 'SetUpdatedDate(DateTime)'
+  nameWithType: NSPersonEntity.SetUpdatedDate(DateTime)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetUpdatedDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedDate(DateTime updatedDate)
+    parameters:
+    - id: updatedDate
+      type: CRMScript.Global.DateTime
+      description: "Last updated date."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nDateTime updatedDate;\nthing.SetUpdatedDate(updatedDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetUrls(NSEntityElement[])
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetUrls(NSEntityElement[])
+  id: 'SetUrls(NSEntityElement[])'
+  so.intellisense: NSPersonEntity.SetUrls
+  langs:
+  - crmscript
+  name: 'SetUrls(NSEntityElement[])'
+  nameWithType: NSPersonEntity.SetUrls(NSEntityElement[])
+  fullName: CRMScript.NetServer.NSPersonEntity.SetUrls(NSEntityElement[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUrls(NSEntityElement[] urls)
+    parameters:
+    - id: urls
+      type: CRMScript.NetServer.NSEntityElement[]
+      description: "The URLs related to this person."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSEntityElement[] urls;\nthing.SetUrls(urls);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetUsePersonAddress(Bool)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetUsePersonAddress(Bool)
+  id: 'SetUsePersonAddress(Bool)'
+  so.intellisense: NSPersonEntity.SetUsePersonAddress
+  langs:
+  - crmscript
+  name: 'SetUsePersonAddress(Bool)'
+  nameWithType: NSPersonEntity.SetUsePersonAddress(Bool)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetUsePersonAddress(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUsePersonAddress(Bool usePersonAddress)
+    parameters:
+    - id: usePersonAddress
+      type: CRMScript.Global.Bool
+      description: "True if the person's address should be used as mailing address, instead of the contact's address."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nBool usePersonAddress;\nthing.SetUsePersonAddress(usePersonAddress);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetUserDefinedFields(Map)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetUserDefinedFields(Map)
+  id: 'SetUserDefinedFields(Map)'
+  so.intellisense: NSPersonEntity.SetUserDefinedFields
+  langs:
+  - crmscript
+  name: 'SetUserDefinedFields(Map)'
+  nameWithType: NSPersonEntity.SetUserDefinedFields(Map)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetUserDefinedFields(Map)
+  type: Method
+  summary: "\nSets the user-defined fields on the NSPersonEntity as a map.\n"
+  remarks: 
+  syntax: 
+    content: Void SetUserDefinedFields(Map udefs)
+    parameters:
+    - id: udefs
+      type: CRMScript.Native.Map
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nMap udefs;\nudefs[&quot;SuperOffice:1&quot;] = &quot;[I:123]&quot;;\nudefs[&quot;SuperOffice:1&quot;] = &quot;123&quot;; // this will also work, but beware of decimal point variations in different languages\nudefs[&quot;custom.progid&quot;] = &quot;foobar&quot;;\nthing.SetUserDefinedFields(udefs);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPersonEntity.SetUserInfo(NSUserInfo)
+  commentId: M:CRMScript.NetServer.NSPersonEntity.SetUserInfo(NSUserInfo)
+  id: 'SetUserInfo(NSUserInfo)'
+  so.intellisense: NSPersonEntity.SetUserInfo
+  langs:
+  - crmscript
+  name: 'SetUserInfo(NSUserInfo)'
+  nameWithType: NSPersonEntity.SetUserInfo(NSUserInfo)
+  fullName: CRMScript.NetServer.NSPersonEntity.SetUserInfo(NSUserInfo)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUserInfo(NSUserInfo userInfo)
+    parameters:
+    - id: userInfo
+      type: CRMScript.NetServer.NSUserInfo
+      description: "Information about the user if this person is a user.  If IsAssociate (e.g. is user is true) the NSUserInfo will be provided."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPersonEntity thing;\nNSUserInfo userInfo;\nthing.SetUserInfo(userInfo);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSPersonEntity
+  commentId: T:CRMScript.NetServer.NSPersonEntity
+  isExternal: true
+  name: NSPersonEntity
+  nameWithType: NSPersonEntity
+  fullName: CRMScript.NetServer.NSPersonEntity
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSAssociate
+  commentId: T:CRMScript.NetServer.NSAssociate
+  isExternal: true
+  name: NSAssociate
+  nameWithType: NSAssociate
+  fullName: CRMScript.NetServer.NSAssociate
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    isExternal: true
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSBusiness
+  commentId: T:CRMScript.NetServer.NSBusiness
+  isExternal: true
+  name: NSBusiness
+  nameWithType: NSBusiness
+  fullName: CRMScript.NetServer.NSBusiness
+- uid: CRMScript.NetServer.NSCategory
+  commentId: T:CRMScript.NetServer.NSCategory
+  isExternal: true
+  name: NSCategory
+  nameWithType: NSCategory
+  fullName: CRMScript.NetServer.NSCategory
+- uid: CRMScript.NetServer.NSEntityElement[]
+  isExternal: true
+  name: NSEntityElement[]
+  nameWithType: NSEntityElement[]
+  fullName: CRMScript.NetServer.NSEntityElement[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSEntityElement
+    isExternal: true
+    name: NSEntityElement
+    nameWithType: NSEntityElement
+    fullName: CRMScript.NetServer.NSEntityElement
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSEntityElement
+  commentId: T:CRMScript.NetServer.NSEntityElement
+  isExternal: true
+  name: NSEntityElement
+  nameWithType: NSEntityElement
+  fullName: CRMScript.NetServer.NSEntityElement
+- uid: CRMScript.NetServer.NSConsentInfo[]
+  isExternal: true
+  name: NSConsentInfo[]
+  nameWithType: NSConsentInfo[]
+  fullName: CRMScript.NetServer.NSConsentInfo[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSConsentInfo
+    isExternal: true
+    name: NSConsentInfo
+    nameWithType: NSConsentInfo
+    fullName: CRMScript.NetServer.NSConsentInfo
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSConsentInfo
+  commentId: T:CRMScript.NetServer.NSConsentInfo
+  isExternal: true
+  name: NSConsentInfo
+  nameWithType: NSConsentInfo
+  fullName: CRMScript.NetServer.NSConsentInfo
+- uid: CRMScript.NetServer.NSContact
+  commentId: T:CRMScript.NetServer.NSContact
+  isExternal: true
+  name: NSContact
+  nameWithType: NSContact
+  fullName: CRMScript.NetServer.NSContact
+- uid: CRMScript.NetServer.NSCountry
+  commentId: T:CRMScript.NetServer.NSCountry
+  isExternal: true
+  name: NSCountry
+  nameWithType: NSCountry
+  fullName: CRMScript.NetServer.NSCountry
+- uid: CRMScript.NetServer.NSCustomerLanguage
+  commentId: T:CRMScript.NetServer.NSCustomerLanguage
+  isExternal: true
+  name: NSCustomerLanguage
+  nameWithType: NSCustomerLanguage
+  fullName: CRMScript.NetServer.NSCustomerLanguage
+- uid: CRMScript.Native.Map
+  commentId: T:CRMScript.Native.Map
+  isExternal: true
+  name: Map
+  nameWithType: Map
+  fullName: CRMScript.Native.Map
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSSelectableMDOListItem[]
+  isExternal: true
+  name: NSSelectableMDOListItem[]
+  nameWithType: NSSelectableMDOListItem[]
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSSelectableMDOListItem
+    isExternal: true
+    name: NSSelectableMDOListItem
+    nameWithType: NSSelectableMDOListItem
+    fullName: CRMScript.NetServer.NSSelectableMDOListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSSelectableMDOListItem
+  commentId: T:CRMScript.NetServer.NSSelectableMDOListItem
+  isExternal: true
+  name: NSSelectableMDOListItem
+  nameWithType: NSSelectableMDOListItem
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.NetServer.NSPosition
+  commentId: T:CRMScript.NetServer.NSPosition
+  isExternal: true
+  name: NSPosition
+  nameWithType: NSPosition
+  fullName: CRMScript.NetServer.NSPosition
+- uid: CRMScript.NetServer.NSTicketPriority
+  commentId: T:CRMScript.NetServer.NSTicketPriority
+  isExternal: true
+  name: NSTicketPriority
+  nameWithType: NSTicketPriority
+  fullName: CRMScript.NetServer.NSTicketPriority
+- uid: CRMScript.NetServer.NSUserInfo
+  commentId: T:CRMScript.NetServer.NSUserInfo
+  isExternal: true
+  name: NSUserInfo
+  nameWithType: NSUserInfo
+  fullName: CRMScript.NetServer.NSUserInfo
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

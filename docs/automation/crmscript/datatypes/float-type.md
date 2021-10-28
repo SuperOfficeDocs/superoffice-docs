@@ -4,7 +4,7 @@ title: Float data type
 author:
 so.date:
 keywords:
-so.topic:
+so.topic: concept
 ---
 
 # Float data type
@@ -53,7 +53,7 @@ printLine(phi.toString(1) + ", " + twoSquared.toString(2));
 
 ## Numeric strings
 
-Strings can have numeric content, but are always written in quotes.
+Strings can have numeric content but are always written in quotes.
 
 ### String toString(Integer decimals)
 

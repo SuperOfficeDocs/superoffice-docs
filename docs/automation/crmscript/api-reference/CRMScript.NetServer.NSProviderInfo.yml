@@ -1,0 +1,207 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSProviderInfo
+  commentId: T:CRMScript.NetServer.NSProviderInfo
+  id: NSProviderInfo
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSProviderInfo.#ctor
+  - CRMScript.NetServer.NSProviderInfo.GetName()
+  - CRMScript.NetServer.NSProviderInfo.GetSupportedMessagingFormats()
+  - CRMScript.NetServer.NSProviderInfo.GetSupportsConfig()
+  - CRMScript.NetServer.NSProviderInfo.SetName(String)
+  - CRMScript.NetServer.NSProviderInfo.SetSupportedMessagingFormats(String[])
+  - CRMScript.NetServer.NSProviderInfo.SetSupportsConfig(Bool)
+  name: NSProviderInfo
+  nameWithType: NSProviderInfo
+  fullName: CRMScript.NetServer.NSProviderInfo
+  type: Class
+  summary: "\nInformation about a provider plugin.\n"
+  example: 
+- uid: CRMScript.NetServer.NSProviderInfo.#ctor
+  commentId: M:CRMScript.NetServer.NSProviderInfo.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSProviderInfo
+  langs:
+  - crmscript
+  name: NSProviderInfo()
+  nameWithType: NSProviderInfo.#ctor
+  fullName: CRMScript.NetServer.NSProviderInfo.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSProviderInfo class.\n"
+  remarks: 
+  syntax: 
+    content: NSProviderInfo
+  example: 
+- uid: CRMScript.NetServer.NSProviderInfo.GetName()
+  commentId: M:CRMScript.NetServer.NSProviderInfo.GetName()
+  id: 'GetName()'
+  so.intellisense: NSProviderInfo.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSProviderInfo.GetName()
+  fullName: CRMScript.NetServer.NSProviderInfo.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Unique name of the provider plugin."
+  example: 
+  - "\n<pre><code>NSProviderInfo thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProviderInfo.GetSupportedMessagingFormats()
+  commentId: M:CRMScript.NetServer.NSProviderInfo.GetSupportedMessagingFormats()
+  id: 'GetSupportedMessagingFormats()'
+  so.intellisense: NSProviderInfo.GetSupportedMessagingFormats
+  langs:
+  - crmscript
+  name: 'GetSupportedMessagingFormats()'
+  nameWithType: NSProviderInfo.GetSupportedMessagingFormats()
+  fullName: CRMScript.NetServer.NSProviderInfo.GetSupportedMessagingFormats()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String[] GetSupportedMessagingFormats()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+      description: This value can typically be &quot;sms/160&quot;, &quot;sms/mms&quot;, &quot;smtp/rfc822&quot;
+  example: 
+  - "\n<pre><code>NSProviderInfo thing;\nString[] supportedMessagingFormats = thing.GetSupportedMessagingFormats();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProviderInfo.GetSupportsConfig()
+  commentId: M:CRMScript.NetServer.NSProviderInfo.GetSupportsConfig()
+  id: 'GetSupportsConfig()'
+  so.intellisense: NSProviderInfo.GetSupportsConfig
+  langs:
+  - crmscript
+  name: 'GetSupportsConfig()'
+  nameWithType: NSProviderInfo.GetSupportsConfig()
+  fullName: CRMScript.NetServer.NSProviderInfo.GetSupportsConfig()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetSupportsConfig()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if it supports the config parameters to the sending methods."
+  example: 
+  - "\n<pre><code>NSProviderInfo thing;\nBool supportsConfig = thing.GetSupportsConfig();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProviderInfo.SetName(String)
+  commentId: M:CRMScript.NetServer.NSProviderInfo.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSProviderInfo.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSProviderInfo.SetName(String)
+  fullName: CRMScript.NetServer.NSProviderInfo.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Unique name of the provider plugin."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProviderInfo thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProviderInfo.SetSupportedMessagingFormats(String[])
+  commentId: M:CRMScript.NetServer.NSProviderInfo.SetSupportedMessagingFormats(String[])
+  id: 'SetSupportedMessagingFormats(String[])'
+  so.intellisense: NSProviderInfo.SetSupportedMessagingFormats
+  langs:
+  - crmscript
+  name: 'SetSupportedMessagingFormats(String[])'
+  nameWithType: NSProviderInfo.SetSupportedMessagingFormats(String[])
+  fullName: CRMScript.NetServer.NSProviderInfo.SetSupportedMessagingFormats(String[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSupportedMessagingFormats(String[] supportedMessagingFormats)
+    parameters:
+    - id: supportedMessagingFormats
+      type: CRMScript.Global.String[]
+      description: This value can typically be &quot;sms/160&quot;, &quot;sms/mms&quot;, &quot;smtp/rfc822&quot;
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProviderInfo thing;\nString[] supportedMessagingFormats;\nthing.SetSupportedMessagingFormats(supportedMessagingFormats);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProviderInfo.SetSupportsConfig(Bool)
+  commentId: M:CRMScript.NetServer.NSProviderInfo.SetSupportsConfig(Bool)
+  id: 'SetSupportsConfig(Bool)'
+  so.intellisense: NSProviderInfo.SetSupportsConfig
+  langs:
+  - crmscript
+  name: 'SetSupportsConfig(Bool)'
+  nameWithType: NSProviderInfo.SetSupportsConfig(Bool)
+  fullName: CRMScript.NetServer.NSProviderInfo.SetSupportsConfig(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSupportsConfig(Bool supportsConfig)
+    parameters:
+    - id: supportsConfig
+      type: CRMScript.Global.Bool
+      description: "True if it supports the config parameters to the sending methods."
+    return: 
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProviderInfo thing;\nBool supportsConfig;\nthing.SetSupportsConfig(supportsConfig);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSProviderInfo
+  commentId: T:CRMScript.NetServer.NSProviderInfo
+  isExternal: true
+  name: NSProviderInfo
+  nameWithType: NSProviderInfo
+  fullName: CRMScript.NetServer.NSProviderInfo
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    isExternal: true
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

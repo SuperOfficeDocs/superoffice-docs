@@ -1,0 +1,337 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSConsentPerson
+  commentId: T:CRMScript.NetServer.NSConsentPerson
+  id: NSConsentPerson
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSConsentPerson.#ctor
+  - CRMScript.NetServer.NSConsentPerson.GetComment()
+  - CRMScript.NetServer.NSConsentPerson.GetConsentPersonId()
+  - CRMScript.NetServer.NSConsentPerson.GetConsentPurpose()
+  - CRMScript.NetServer.NSConsentPerson.GetConsentSource()
+  - CRMScript.NetServer.NSConsentPerson.GetLegalBase()
+  - CRMScript.NetServer.NSConsentPerson.GetPersonId()
+  - CRMScript.NetServer.NSConsentPerson.SetComment(String)
+  - CRMScript.NetServer.NSConsentPerson.SetConsentPersonId(Integer)
+  - CRMScript.NetServer.NSConsentPerson.SetConsentPurpose(NSConsentPurpose)
+  - CRMScript.NetServer.NSConsentPerson.SetConsentSource(NSConsentSource)
+  - CRMScript.NetServer.NSConsentPerson.SetLegalBase(NSLegalBase)
+  - CRMScript.NetServer.NSConsentPerson.SetPersonId(Integer)
+  name: NSConsentPerson
+  nameWithType: NSConsentPerson
+  fullName: CRMScript.NetServer.NSConsentPerson
+  type: Class
+  summary: "\nCarrier object for ConsentPerson.\n"
+  example: 
+- uid: CRMScript.NetServer.NSConsentPerson.#ctor
+  commentId: M:CRMScript.NetServer.NSConsentPerson.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSConsentPerson
+  langs:
+  - crmscript
+  name: NSConsentPerson()
+  nameWithType: NSConsentPerson.#ctor
+  fullName: CRMScript.NetServer.NSConsentPerson.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSConsentPerson class.\n"
+  remarks: 
+  syntax: 
+    content: NSConsentPerson
+  example: 
+- uid: CRMScript.NetServer.NSConsentPerson.GetComment()
+  commentId: M:CRMScript.NetServer.NSConsentPerson.GetComment()
+  id: 'GetComment()'
+  so.intellisense: NSConsentPerson.GetComment
+  langs:
+  - crmscript
+  name: 'GetComment()'
+  nameWithType: NSConsentPerson.GetComment()
+  fullName: CRMScript.NetServer.NSConsentPerson.GetComment()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetComment()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Comment regarding this specific consent."
+  example: 
+  - "\n<pre><code>NSConsentPerson thing;\nString comment = thing.GetComment();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPerson.GetConsentPersonId()
+  commentId: M:CRMScript.NetServer.NSConsentPerson.GetConsentPersonId()
+  id: 'GetConsentPersonId()'
+  so.intellisense: NSConsentPerson.GetConsentPersonId
+  langs:
+  - crmscript
+  name: 'GetConsentPersonId()'
+  nameWithType: NSConsentPerson.GetConsentPersonId()
+  fullName: CRMScript.NetServer.NSConsentPerson.GetConsentPersonId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetConsentPersonId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ConsentPerson Id."
+  example: 
+  - "\n<pre><code>NSConsentPerson thing;\nInteger consentPersonId = thing.GetConsentPersonId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPerson.GetConsentPurpose()
+  commentId: M:CRMScript.NetServer.NSConsentPerson.GetConsentPurpose()
+  id: 'GetConsentPurpose()'
+  so.intellisense: NSConsentPerson.GetConsentPurpose
+  langs:
+  - crmscript
+  name: 'GetConsentPurpose()'
+  nameWithType: NSConsentPerson.GetConsentPurpose()
+  fullName: CRMScript.NetServer.NSConsentPerson.GetConsentPurpose()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSConsentPurpose GetConsentPurpose()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSConsentPurpose
+      description: "The consent purpose."
+  example: 
+  - "\n<pre><code>NSConsentPerson thing;\nNSConsentPurpose consentPurpose = thing.GetConsentPurpose();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPerson.GetConsentSource()
+  commentId: M:CRMScript.NetServer.NSConsentPerson.GetConsentSource()
+  id: 'GetConsentSource()'
+  so.intellisense: NSConsentPerson.GetConsentSource
+  langs:
+  - crmscript
+  name: 'GetConsentSource()'
+  nameWithType: NSConsentPerson.GetConsentSource()
+  fullName: CRMScript.NetServer.NSConsentPerson.GetConsentSource()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSConsentSource GetConsentSource()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSConsentSource
+      description: "The consent source."
+  example: 
+  - "\n<pre><code>NSConsentPerson thing;\nNSConsentSource consentSource = thing.GetConsentSource();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPerson.GetLegalBase()
+  commentId: M:CRMScript.NetServer.NSConsentPerson.GetLegalBase()
+  id: 'GetLegalBase()'
+  so.intellisense: NSConsentPerson.GetLegalBase
+  langs:
+  - crmscript
+  name: 'GetLegalBase()'
+  nameWithType: NSConsentPerson.GetLegalBase()
+  fullName: CRMScript.NetServer.NSConsentPerson.GetLegalBase()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSLegalBase GetLegalBase()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSLegalBase
+      description: "The legal base."
+  example: 
+  - "\n<pre><code>NSConsentPerson thing;\nNSLegalBase legalBase = thing.GetLegalBase();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPerson.GetPersonId()
+  commentId: M:CRMScript.NetServer.NSConsentPerson.GetPersonId()
+  id: 'GetPersonId()'
+  so.intellisense: NSConsentPerson.GetPersonId
+  langs:
+  - crmscript
+  name: 'GetPersonId()'
+  nameWithType: NSConsentPerson.GetPersonId()
+  fullName: CRMScript.NetServer.NSConsentPerson.GetPersonId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPersonId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Person Id."
+  example: 
+  - "\n<pre><code>NSConsentPerson thing;\nInteger personId = thing.GetPersonId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPerson.SetComment(String)
+  commentId: M:CRMScript.NetServer.NSConsentPerson.SetComment(String)
+  id: 'SetComment(String)'
+  so.intellisense: NSConsentPerson.SetComment
+  langs:
+  - crmscript
+  name: 'SetComment(String)'
+  nameWithType: NSConsentPerson.SetComment(String)
+  fullName: CRMScript.NetServer.NSConsentPerson.SetComment(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetComment(String comment)
+    parameters:
+    - id: comment
+      type: CRMScript.Global.String
+      description: "Comment regarding this specific consent."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentPerson thing;\nString comment;\nthing.SetComment(comment);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPerson.SetConsentPersonId(Integer)
+  commentId: M:CRMScript.NetServer.NSConsentPerson.SetConsentPersonId(Integer)
+  id: 'SetConsentPersonId(Integer)'
+  so.intellisense: NSConsentPerson.SetConsentPersonId
+  langs:
+  - crmscript
+  name: 'SetConsentPersonId(Integer)'
+  nameWithType: NSConsentPerson.SetConsentPersonId(Integer)
+  fullName: CRMScript.NetServer.NSConsentPerson.SetConsentPersonId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetConsentPersonId(Integer consentPersonId)
+    parameters:
+    - id: consentPersonId
+      type: CRMScript.Global.Integer
+      description: "ConsentPerson Id."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentPerson thing;\nInteger consentPersonId;\nthing.SetConsentPersonId(consentPersonId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPerson.SetConsentPurpose(NSConsentPurpose)
+  commentId: M:CRMScript.NetServer.NSConsentPerson.SetConsentPurpose(NSConsentPurpose)
+  id: 'SetConsentPurpose(NSConsentPurpose)'
+  so.intellisense: NSConsentPerson.SetConsentPurpose
+  langs:
+  - crmscript
+  name: 'SetConsentPurpose(NSConsentPurpose)'
+  nameWithType: NSConsentPerson.SetConsentPurpose(NSConsentPurpose)
+  fullName: CRMScript.NetServer.NSConsentPerson.SetConsentPurpose(NSConsentPurpose)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetConsentPurpose(NSConsentPurpose consentPurpose)
+    parameters:
+    - id: consentPurpose
+      type: CRMScript.NetServer.NSConsentPurpose
+      description: "The consent purpose."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentPerson thing;\nNSConsentPurpose consentPurpose;\nthing.SetConsentPurpose(consentPurpose);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPerson.SetConsentSource(NSConsentSource)
+  commentId: M:CRMScript.NetServer.NSConsentPerson.SetConsentSource(NSConsentSource)
+  id: 'SetConsentSource(NSConsentSource)'
+  so.intellisense: NSConsentPerson.SetConsentSource
+  langs:
+  - crmscript
+  name: 'SetConsentSource(NSConsentSource)'
+  nameWithType: NSConsentPerson.SetConsentSource(NSConsentSource)
+  fullName: CRMScript.NetServer.NSConsentPerson.SetConsentSource(NSConsentSource)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetConsentSource(NSConsentSource consentSource)
+    parameters:
+    - id: consentSource
+      type: CRMScript.NetServer.NSConsentSource
+      description: "The consent source."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentPerson thing;\nNSConsentSource consentSource;\nthing.SetConsentSource(consentSource);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPerson.SetLegalBase(NSLegalBase)
+  commentId: M:CRMScript.NetServer.NSConsentPerson.SetLegalBase(NSLegalBase)
+  id: 'SetLegalBase(NSLegalBase)'
+  so.intellisense: NSConsentPerson.SetLegalBase
+  langs:
+  - crmscript
+  name: 'SetLegalBase(NSLegalBase)'
+  nameWithType: NSConsentPerson.SetLegalBase(NSLegalBase)
+  fullName: CRMScript.NetServer.NSConsentPerson.SetLegalBase(NSLegalBase)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLegalBase(NSLegalBase legalBase)
+    parameters:
+    - id: legalBase
+      type: CRMScript.NetServer.NSLegalBase
+      description: "The legal base."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentPerson thing;\nNSLegalBase legalBase;\nthing.SetLegalBase(legalBase);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPerson.SetPersonId(Integer)
+  commentId: M:CRMScript.NetServer.NSConsentPerson.SetPersonId(Integer)
+  id: 'SetPersonId(Integer)'
+  so.intellisense: NSConsentPerson.SetPersonId
+  langs:
+  - crmscript
+  name: 'SetPersonId(Integer)'
+  nameWithType: NSConsentPerson.SetPersonId(Integer)
+  fullName: CRMScript.NetServer.NSConsentPerson.SetPersonId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonId(Integer personId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: "Person Id."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentPerson thing;\nInteger personId;\nthing.SetPersonId(personId);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSConsentPerson
+  commentId: T:CRMScript.NetServer.NSConsentPerson
+  isExternal: true
+  name: NSConsentPerson
+  nameWithType: NSConsentPerson
+  fullName: CRMScript.NetServer.NSConsentPerson
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSConsentPurpose
+  commentId: T:CRMScript.NetServer.NSConsentPurpose
+  isExternal: true
+  name: NSConsentPurpose
+  nameWithType: NSConsentPurpose
+  fullName: CRMScript.NetServer.NSConsentPurpose
+- uid: CRMScript.NetServer.NSConsentSource
+  commentId: T:CRMScript.NetServer.NSConsentSource
+  isExternal: true
+  name: NSConsentSource
+  nameWithType: NSConsentSource
+  fullName: CRMScript.NetServer.NSConsentSource
+- uid: CRMScript.NetServer.NSLegalBase
+  commentId: T:CRMScript.NetServer.NSLegalBase
+  isExternal: true
+  name: NSLegalBase
+  nameWithType: NSLegalBase
+  fullName: CRMScript.NetServer.NSLegalBase
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

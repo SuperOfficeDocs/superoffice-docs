@@ -1,0 +1,1019 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSForeignSystemAgent
+  commentId: T:CRMScript.NetServer.NSForeignSystemAgent
+  id: NSForeignSystemAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSForeignSystemAgent.#ctor
+  - CRMScript.NetServer.NSForeignSystemAgent.AddDeviceByIdentifier(String,String,String)
+  - CRMScript.NetServer.NSForeignSystemAgent.AddForeignKey(NSForeignKey,String,String,String)
+  - CRMScript.NetServer.NSForeignSystemAgent.CreateDefaultForeignAppEntity()
+  - CRMScript.NetServer.NSForeignSystemAgent.DeleteDeviceByIdentifier(String,String,String)
+  - CRMScript.NetServer.NSForeignSystemAgent.DeleteForeignAppEntity(Integer)
+  - CRMScript.NetServer.NSForeignSystemAgent.DeleteForeignDevice(NSForeignDevice,String)
+  - CRMScript.NetServer.NSForeignSystemAgent.DeleteForeignKey(NSForeignKey,String,String,String,String,Integer)
+  - CRMScript.NetServer.NSForeignSystemAgent.DeleteForeignKeyOnName(String,String,String,String,String,Integer)
+  - CRMScript.NetServer.NSForeignSystemAgent.GetAllForeignKeysOnEntity(String,Integer)
+  - CRMScript.NetServer.NSForeignSystemAgent.GetAppByName(String)
+  - CRMScript.NetServer.NSForeignSystemAgent.GetApplicationDevices(String)
+  - CRMScript.NetServer.NSForeignSystemAgent.GetApplicationKeys(String)
+  - CRMScript.NetServer.NSForeignSystemAgent.GetDeviceByIdentifier(String,String,String)
+  - CRMScript.NetServer.NSForeignSystemAgent.GetDeviceByName(String,String)
+  - CRMScript.NetServer.NSForeignSystemAgent.GetDeviceKeys(String,String)
+  - CRMScript.NetServer.NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(String,String,String)
+  - CRMScript.NetServer.NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(String,String,String,String)
+  - CRMScript.NetServer.NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(String,String,String,String,Integer)
+  - CRMScript.NetServer.NSForeignSystemAgent.GetForeignAppEntity(Integer)
+  - CRMScript.NetServer.NSForeignSystemAgent.GetForeignDevice(Integer)
+  - CRMScript.NetServer.NSForeignSystemAgent.GetKey(String,String,String,String,Integer)
+  - CRMScript.NetServer.NSForeignSystemAgent.GetKeyByValue(String,String,String,String,String)
+  - CRMScript.NetServer.NSForeignSystemAgent.GetKeyByValueAndIdentifier(String,String,String,String,String,String)
+  - CRMScript.NetServer.NSForeignSystemAgent.GetKeyOnDeviceIdentifier(String,String,String,String,String,Integer)
+  - CRMScript.NetServer.NSForeignSystemAgent.GetKeyValue(String,String,String,String,Integer)
+  - CRMScript.NetServer.NSForeignSystemAgent.GetKeyValueOnDeviceIdentifier(String,String,String,String,String,Integer)
+  - CRMScript.NetServer.NSForeignSystemAgent.SaveDeviceByIdentifier(String,String,String,NSForeignDevice)
+  - CRMScript.NetServer.NSForeignSystemAgent.SaveForeignAppEntity(NSForeignAppEntit)
+  - CRMScript.NetServer.NSForeignSystemAgent.SaveForeignDevice(NSForeignDevice,String)
+  - CRMScript.NetServer.NSForeignSystemAgent.SaveForeignKey(NSForeignKey,String,String,String)
+  name: NSForeignSystemAgent
+  nameWithType: NSForeignSystemAgent
+  fullName: CRMScript.NetServer.NSForeignSystemAgent
+  type: Class
+  summary: "\nCollection of all services that works with Foreign key data (Key/Value pairs)\n"
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSForeignSystemAgent
+  langs:
+  - crmscript
+  name: NSForeignSystemAgent()
+  nameWithType: NSForeignSystemAgent.#ctor
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.#ctor
+  type: Constructor
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSForeignSystemAgent
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.AddDeviceByIdentifier(String,String,String)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.AddDeviceByIdentifier(String,String,String)
+  id: 'AddDeviceByIdentifier(String,String,String)'
+  so.intellisense: NSForeignSystemAgent.AddDeviceByIdentifier
+  langs:
+  - crmscript
+  name: 'AddDeviceByIdentifier(String,String,String)'
+  nameWithType: NSForeignSystemAgent.AddDeviceByIdentifier(String,String,String)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.AddDeviceByIdentifier(String,String,String)
+  type: Method
+  summary: "\nAdds a new NSForeignDevice with deviceName that belongs to the application with applicationName, with an optional device-specific identifier.\n"
+  remarks: 
+  syntax: 
+    content: NSForeignDevice AddDeviceByIdentifier(String applicationName, String deviceName, String deviceIdentifier)
+    parameters:
+    - id: applicationName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceIdentifier
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSForeignDevice
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nString applicationName;\nString deviceName;\nString deviceIdentifier;\nNSForeignDevice res = agent.AddDeviceByIdentifier(applicationName, deviceName, deviceIdentifier);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.AddForeignKey(NSForeignKey,String,String,String)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.AddForeignKey(NSForeignKey,String,String,String)
+  id: 'AddForeignKey(NSForeignKey,String,String,String)'
+  so.intellisense: NSForeignSystemAgent.AddForeignKey
+  langs:
+  - crmscript
+  name: 'AddForeignKey(NSForeignKey,String,String,String)'
+  nameWithType: NSForeignSystemAgent.AddForeignKey(NSForeignKey,String,String,String)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.AddForeignKey(NSForeignKey,String,String,String)
+  type: Method
+  summary: "\nAdds a new key belonging to the ForeignApp and NSForeignDevice specified.\n"
+  remarks: 
+  syntax: 
+    content: NSForeignKey AddForeignKey(NSForeignKey foreignKey, String applicationName, String deviceName, String deviceIdentifier)
+    parameters:
+    - id: foreignKey
+      type: CRMScript.NetServer.NSForeignKey
+      description: 
+    - id: applicationName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceIdentifier
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSForeignKey
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nNSForeignKey foreignKey;\nString applicationName;\nString deviceName;\nString deviceIdentifier;\nNSForeignKey res = agent.AddForeignKey(foreignKey, applicationName, deviceName, deviceIdentifier);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.CreateDefaultForeignAppEntity()
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.CreateDefaultForeignAppEntity()
+  id: 'CreateDefaultForeignAppEntity()'
+  so.intellisense: NSForeignSystemAgent.CreateDefaultForeignAppEntity
+  langs:
+  - crmscript
+  name: 'CreateDefaultForeignAppEntity()'
+  nameWithType: NSForeignSystemAgent.CreateDefaultForeignAppEntity()
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.CreateDefaultForeignAppEntity()
+  type: Method
+  summary: "\nSets default values into a new NSForeignAppEntity.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSForeignAppEntity CreateDefaultForeignAppEntity()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSForeignAppEntity
+      description:
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nNSForeignAppEntity thing = agent.CreateDefaultForeignAppEntity();\nthing = agent.SaveForeignAppEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.DeleteDeviceByIdentifier(String,String,String)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.DeleteDeviceByIdentifier(String,String,String)
+  id: 'DeleteDeviceByIdentifier(String,String,String)'
+  so.intellisense: NSForeignSystemAgent.DeleteDeviceByIdentifier
+  langs:
+  - crmscript
+  name: 'DeleteDeviceByIdentifier(String,String,String)'
+  nameWithType: NSForeignSystemAgent.DeleteDeviceByIdentifier(String,String,String)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.DeleteDeviceByIdentifier(String,String,String)
+  type: Method
+  summary: "\nDeletes an NSForeignDevice with deviceName and deviceIdentifier that belongs to the application with applicationName.\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteDeviceByIdentifier(String applicationName, String deviceName, String deviceIdentifier)
+    parameters:
+    - id: applicationName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceIdentifier
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nString applicationName;\nString deviceName;\nString deviceIdentifier;\nagent.DeleteDeviceByIdentifier(applicationName, deviceName, deviceIdentifier);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.DeleteForeignAppEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.DeleteForeignAppEntity(Integer)
+  id: 'DeleteForeignAppEntity(Integer)'
+  so.intellisense: NSForeignSystemAgent.DeleteForeignAppEntity
+  langs:
+  - crmscript
+  name: 'DeleteForeignAppEntity(Integer)'
+  nameWithType: NSForeignSystemAgent.DeleteForeignAppEntity(Integer)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.DeleteForeignAppEntity(Integer)
+  type: Method
+  summary: "\nDeletes the NSForeignAppEntity\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteForeignAppEntity(Integer foreignAppEntity)
+    parameters:
+    - id: foreignAppEntity
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nagent.DeleteForeignAppEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.DeleteForeignDevice(NSForeignDevice,String)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.DeleteForeignDevice(NSForeignDevice,String)
+  id: 'DeleteForeignDevice(NSForeignDevice,String)'
+  so.intellisense: NSForeignSystemAgent.DeleteForeignDevice
+  langs:
+  - crmscript
+  name: 'DeleteForeignDevice(NSForeignDevice,String)'
+  nameWithType: NSForeignSystemAgent.DeleteForeignDevice(NSForeignDevice,String)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.DeleteForeignDevice(NSForeignDevice,String)
+  type: Method
+  summary: "\nDeletes a foreign device from an application\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteForeignDevice(NSForeignDevice foreignDevice, String applicationName)
+    parameters:
+    - id: foreignDevice
+      type: CRMScript.NetServer.NSForeignDevice
+      description: 
+    - id: applicationName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSForeignSystemAgent.DeleteForeignKey(NSForeignKey,String,String,String,String,Integer)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.DeleteForeignKey(NSForeignKey,String,String,String,String,Integer)
+  id: 'DeleteForeignKey(NSForeignKey,String,String,String,String,Integer)'
+  so.intellisense: NSForeignSystemAgent.DeleteForeignKey
+  langs:
+  - crmscript
+  name: 'DeleteForeignKey(NSForeignKey,String,String,String,String,Integer)'
+  nameWithType: NSForeignSystemAgent.DeleteForeignKey(NSForeignKey,String,String,String,String,Integer)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.DeleteForeignKey(NSForeignKey,String,String,String,String,Integer)
+  type: Method
+  summary: "\nDeletes all specified occurrences of a key, belonging to the ForeignApp and NSForeignDevice, table and record specified. Specifying a blank table name will delete ALL keys of the given name; specifying a recordID of 0 will delete ALL keys of the given name for the given table.\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteForeignKey(NSForeignKey foreignKey, String applicationName, String deviceName, String deviceIdentifier, String tableName, Integer recordId)
+    parameters:
+    - id: foreignKey
+      type: CRMScript.NetServer.NSForeignKey
+      description: 
+    - id: applicationName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceIdentifier
+      type: CRMScript.Global.String
+      description: 
+    - id: tableName
+      type: CRMScript.Global.String
+      description: 
+    - id: recordId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nNSForeignKey foreignKey;\nString applicationName;\nString deviceName;\nString deviceIdentifier;\nString tableName;\nInteger recordId;\nagent.DeleteForeignKey(foreignKey, applicationName, deviceName, deviceIdentifier, tableName, recordId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.DeleteForeignKeyOnName(String,String,String,String,String,Integer)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.DeleteForeignKeyOnName(String,String,String,String,String,Integer)
+  id: 'DeleteForeignKeyOnName(String,String,String,String,String,Integer)'
+  so.intellisense: NSForeignSystemAgent.DeleteForeignKeyOnName
+  langs:
+  - crmscript
+  name: 'DeleteForeignKeyOnName(String,String,String,String,String,Integer)'
+  nameWithType: NSForeignSystemAgent.DeleteForeignKeyOnName(String,String,String,String,String,Integer)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.DeleteForeignKeyOnName(String,String,String,String,String,Integer)
+  type: Method
+  summary: "\nDeletes all specified occurrences of a key, belonging to the ForeignApp and NSForeignDevice, table and record specified. Specifying a blank table name will delete ALL keys of the given name; specifying a recordID of 0 will delete ALL keys of the given name for the given table.\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteForeignKeyOnName(String applicationName, String deviceName, String deviceIdentifier, String keyName, String tableName, Integer recordId)
+    parameters:
+    - id: applicationName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceIdentifier
+      type: CRMScript.Global.String
+      description: 
+    - id: keyName
+      type: CRMScript.Global.String
+      description: 
+    - id: tableName
+      type: CRMScript.Global.String
+      description: 
+    - id: recordId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nString applicationName;\nString deviceName;\nString deviceIdentifier;\nString keyName;\nString tableName;\nInteger recordId;\nagent.DeleteForeignKeyOnName(applicationName, deviceName, deviceIdentifier, keyName, tableName, recordId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.GetAllForeignKeysOnEntity(String,Integer)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetAllForeignKeysOnEntity(String,Integer)
+  id: 'GetAllForeignKeysOnEntity(String,Integer)'
+  so.intellisense: NSForeignSystemAgent.GetAllForeignKeysOnEntity
+  langs:
+  - crmscript
+  name: 'GetAllForeignKeysOnEntity(String,Integer)'
+  nameWithType: NSForeignSystemAgent.GetAllForeignKeysOnEntity(String,Integer)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.GetAllForeignKeysOnEntity(String,Integer)
+  type: Method
+  summary: "\nGets a list of foreignkeys ('app.device.key') and their values ('123') that belong to the specified entity.\n"
+  remarks: 
+  syntax: 
+    content: Map GetAllForeignKeysOnEntity(String entityType, Integer entityId)
+    parameters:
+    - id: entityType
+      type: CRMScript.Global.String
+      description: 
+    - id: entityId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nString entityType;\nInteger entityId;\nMap res = agent.GetAllForeignKeysOnEntity(entityType, entityId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.GetAppByName(String)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetAppByName(String)
+  id: 'GetAppByName(String)'
+  so.intellisense: NSForeignSystemAgent.GetAppByName
+  langs:
+  - crmscript
+  name: 'GetAppByName(String)'
+  nameWithType: NSForeignSystemAgent.GetAppByName(String)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.GetAppByName(String)
+  type: Method
+  summary: "\nGets the ForeignApp with the given name.\n"
+  remarks: 
+  syntax: 
+    content: NSForeignAppEntity GetAppByName(String applicationName)
+    parameters:
+    - id: applicationName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSForeignAppEntity
+      description:
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nString applicationName;\nNSForeignAppEntity res = agent.GetAppByName(applicationName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.GetApplicationDevices(String)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetApplicationDevices(String)
+  id: 'GetApplicationDevices(String)'
+  so.intellisense: NSForeignSystemAgent.GetApplicationDevices
+  langs:
+  - crmscript
+  name: 'GetApplicationDevices(String)'
+  nameWithType: NSForeignSystemAgent.GetApplicationDevices(String)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.GetApplicationDevices(String)
+  type: Method
+  summary: "\nGets all devices that belong to a foreign application.\n"
+  remarks: 
+  syntax: 
+    content: NSForeignDevice[] GetApplicationDevices(String applicationName)
+    parameters:
+    - id: applicationName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSForeignDevice[]
+      description:
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nString applicationName;\nNSForeignDevice[] res = agent.GetApplicationDevices(applicationName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.GetApplicationKeys(String)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetApplicationKeys(String)
+  id: 'GetApplicationKeys(String)'
+  so.intellisense: NSForeignSystemAgent.GetApplicationKeys
+  langs:
+  - crmscript
+  name: 'GetApplicationKeys(String)'
+  nameWithType: NSForeignSystemAgent.GetApplicationKeys(String)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.GetApplicationKeys(String)
+  type: Method
+  summary: "\nReturns all ForeignKeys that belong to an application.\n"
+  remarks: 
+  syntax: 
+    content: NSForeignKey[] GetApplicationKeys(String applicationName)
+    parameters:
+    - id: applicationName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSForeignKey[]
+      description: "All ForeignKeys that belong to this application."
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nString applicationName;\nNSForeignKey[] res = agent.GetApplicationKeys(applicationName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.GetDeviceByIdentifier(String,String,String)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetDeviceByIdentifier(String,String,String)
+  id: 'GetDeviceByIdentifier(String,String,String)'
+  so.intellisense: NSForeignSystemAgent.GetDeviceByIdentifier
+  langs:
+  - crmscript
+  name: 'GetDeviceByIdentifier(String,String,String)'
+  nameWithType: NSForeignSystemAgent.GetDeviceByIdentifier(String,String,String)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.GetDeviceByIdentifier(String,String,String)
+  type: Method
+  summary: "\nGets an NSForeignDevice with deviceName and deviceIdentifier that belongs to the application with applicationName.\n"
+  remarks: 
+  syntax: 
+    content: NSForeignDevice GetDeviceByIdentifier(String applicationName, String deviceName, String deviceIdentifier)
+    parameters:
+    - id: applicationName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceIdentifier
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSForeignDevice
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nString applicationName;\nString deviceName;\nString deviceIdentifier;\nNSForeignDevice res = agent.GetDeviceByIdentifier(applicationName, deviceName, deviceIdentifier);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.GetDeviceByName(String,String)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetDeviceByName(String,String)
+  id: 'GetDeviceByName(String,String)'
+  so.intellisense: NSForeignSystemAgent.GetDeviceByName
+  langs:
+  - crmscript
+  name: 'GetDeviceByName(String,String)'
+  nameWithType: NSForeignSystemAgent.GetDeviceByName(String,String)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.GetDeviceByName(String,String)
+  type: Method
+  summary: "\nGets an NSForeignDevice with deviceName that belongs to the application with applicationName.\n"
+  remarks: 
+  syntax: 
+    content: NSForeignDevice GetDeviceByName(String applicationName, String deviceName)
+    parameters:
+    - id: applicationName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSForeignDevice
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nString applicationName;\nString deviceName;\nNSForeignDevice res = agent.GetDeviceByName(applicationName, deviceName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.GetDeviceKeys(String,String)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetDeviceKeys(String,String)
+  id: 'GetDeviceKeys(String,String)'
+  so.intellisense: NSForeignSystemAgent.GetDeviceKeys
+  langs:
+  - crmscript
+  name: 'GetDeviceKeys(String,String)'
+  nameWithType: NSForeignSystemAgent.GetDeviceKeys(String,String)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.GetDeviceKeys(String,String)
+  type: Method
+  summary: "\nReturns all ForeignKeys that belong to a device.\n"
+  remarks: 
+  syntax: 
+    content: NSForeignKey[] GetDeviceKeys(String applicationName, String deviceName)
+    parameters:
+    - id: applicationName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSForeignKey[]
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nString applicationName;\nString deviceName;\nNSForeignKey[] res = agent.GetDeviceKeys(applicationName, deviceName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(String,String,String)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(String,String,String)
+  id: 'GetDeviceKeysOnDeviceIdentifier(String,String,String)'
+  so.intellisense: NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier
+  langs:
+  - crmscript
+  name: 'GetDeviceKeysOnDeviceIdentifier(String,String,String)'
+  nameWithType: NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(String,String,String)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(String,String,String)
+  type: Method
+  summary: "\nReturns all ForeignKeys that belong to a device with a given deviceIdentifier.\n"
+  remarks: 
+  syntax: 
+    content: NSForeignKey[] GetDeviceKeysOnDeviceIdentifier(String applicationName, String deviceName, String deviceIdentifier)
+    parameters:
+    - id: applicationName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceIdentifier
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSForeignKey[]
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nString applicationName;\nString deviceName;\nString deviceIdentifier;\nNSForeignKey[] res = agent.GetDeviceKeysOnDeviceIdentifier(applicationName, deviceName, deviceIdentifier);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(String,String,String,String)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(String,String,String,String)
+  id: 'GetDeviceKeysOnDeviceIdentifierTable(String,String,String,String)'
+  so.intellisense: NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable
+  langs:
+  - crmscript
+  name: 'GetDeviceKeysOnDeviceIdentifierTable(String,String,String,String)'
+  nameWithType: NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(String,String,String,String)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(String,String,String,String)
+  type: Method
+  summary: "\nReturns all ForeignKeys that belong to a device with a given deviceIdentifier and table name.\n"
+  remarks: 
+  syntax: 
+    content: NSForeignKey[] GetDeviceKeysOnDeviceIdentifierTable(String applicationName, String deviceName, String deviceIdentifier, String tableName)
+    parameters:
+    - id: applicationName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceIdentifier
+      type: CRMScript.Global.String
+      description: 
+    - id: tableName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSForeignKey[]
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nString applicationName;\nString deviceName;\nString deviceIdentifier;\nString tableName;\nNSForeignKey[] res = agent.GetDeviceKeysOnDeviceIdentifierTable(applicationName, deviceName, deviceIdentifier, tableName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(String,String,String,String,Integer)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(String,String,String,String,Integer)
+  id: 'GetDeviceKeysOnDeviceIdentifierTableRecordId(String,String,String,String,Integer)'
+  so.intellisense: NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId
+  langs:
+  - crmscript
+  name: 'GetDeviceKeysOnDeviceIdentifierTableRecordId(String,String,String,String,Integer)'
+  nameWithType: NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(String,String,String,String,Integer)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(String,String,String,String,Integer)
+  type: Method
+  summary: "\nReturns all ForeignKeys that belong to a device with a given deviceIdentifier and table name, as well as record id.\n"
+  remarks: 
+  syntax: 
+    content: NSForeignKey[] GetDeviceKeysOnDeviceIdentifierTableRecordId(String applicationName, String deviceName, String deviceIdentifier, String tableName, Integer recordId)
+    parameters:
+    - id: applicationName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceIdentifier
+      type: CRMScript.Global.String
+      description: 
+    - id: tableName
+      type: CRMScript.Global.String
+      description: 
+    - id: recordId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSForeignKey[]
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nString applicationName;\nString deviceName;\nString deviceIdentifier;\nString tableName;\nInteger recordId;\nNSForeignKey[] res = agent.GetDeviceKeysOnDeviceIdentifierTableRecordId(applicationName, deviceName, deviceIdentifier, tableName, recordId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.GetForeignAppEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetForeignAppEntity(Integer)
+  id: 'GetForeignAppEntity(Integer)'
+  so.intellisense: NSForeignSystemAgent.GetForeignAppEntity
+  langs:
+  - crmscript
+  name: 'GetForeignAppEntity(Integer)'
+  nameWithType: NSForeignSystemAgent.GetForeignAppEntity(Integer)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.GetForeignAppEntity(Integer)
+  type: Method
+  summary: "\nGets an NSForeignAppEntity object.\n"
+  remarks: 
+  syntax: 
+    content: NSForeignAppEntity GetForeignAppEntity(Integer foreignAppEntityId)
+    parameters:
+    - id: foreignAppEntityId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSForeignAppEntity
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nNSForeignAppEntity thing = agent.GetForeignAppEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.GetForeignDevice(Integer)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetForeignDevice(Integer)
+  id: 'GetForeignDevice(Integer)'
+  so.intellisense: NSForeignSystemAgent.GetForeignDevice
+  langs:
+  - crmscript
+  name: 'GetForeignDevice(Integer)'
+  nameWithType: NSForeignSystemAgent.GetForeignDevice(Integer)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.GetForeignDevice(Integer)
+  type: Method
+  summary: "\nGets an NSForeignDevice object.\n"
+  remarks: 
+  syntax: 
+    content: NSForeignDevice GetForeignDevice(Integer foreignDeviceId)
+    parameters:
+    - id: foreignDeviceId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSForeignDevice
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nNSForeignDevice thing = agent.GetForeignDevice(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.GetKey(String,String,String,String,Integer)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetKey(String,String,String,String,Integer)
+  id: 'GetKey(String,String,String,String,Integer)'
+  so.intellisense: NSForeignSystemAgent.GetKey
+  langs:
+  - crmscript
+  name: 'GetKey(String,String,String,String,Integer)'
+  nameWithType: NSForeignSystemAgent.GetKey(String,String,String,String,Integer)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.GetKey(String,String,String,String,Integer)
+  type: Method
+  summary: "\nReturns a foreign key by its key name that belongs to the specified device and application. A table name and record ID can also be specified.\n"
+  remarks: 
+  syntax: 
+    content: NSForeignKey GetKey(String applicationName, String deviceName, String keyName, String tableName, Integer recordId)
+    parameters:
+    - id: applicationName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceName
+      type: CRMScript.Global.String
+      description: 
+    - id: keyName
+      type: CRMScript.Global.String
+      description: 
+    - id: tableName
+      type: CRMScript.Global.String
+      description: 
+    - id: recordId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSForeignKey
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nString applicationName;\nString deviceName;\nString keyName;\nString tableName;\nInteger recordId;\nNSForeignKey res = agent.GetKey(applicationName, deviceName, keyName, tableName, recordId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.GetKeyByValue(String,String,String,String,String)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetKeyByValue(String,String,String,String,String)
+  id: 'GetKeyByValue(String,String,String,String,String)'
+  so.intellisense: NSForeignSystemAgent.GetKeyByValue
+  langs:
+  - crmscript
+  name: 'GetKeyByValue(String,String,String,String,String)'
+  nameWithType: NSForeignSystemAgent.GetKeyByValue(String,String,String,String,String)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.GetKeyByValue(String,String,String,String,String)
+  type: Method
+  summary: "\nGets a foreignkey based on its name and value, that belongs to the specified device and application.\n"
+  remarks: 
+  syntax: 
+    content: NSForeignKey GetKeyByValue(String applicationName, String deviceName, String keyName, String keyValue, String tableName)
+    parameters:
+    - id: applicationName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceName
+      type: CRMScript.Global.String
+      description: 
+    - id: keyName
+      type: CRMScript.Global.String
+      description: 
+    - id: keyValue
+      type: CRMScript.Global.String
+      description: 
+    - id: tableName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSForeignKey
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nString applicationName;\nString deviceName;\nString keyName;\nString keyValue;\nString tableName;\nNSForeignKey res = agent.GetKeyByValue(applicationName, deviceName, keyName, keyValue, tableName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.GetKeyByValueAndIdentifier(String,String,String,String,String,String)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetKeyByValueAndIdentifier(String,String,String,String,String,String)
+  id: 'GetKeyByValueAndIdentifier(String,String,String,String,String,String)'
+  so.intellisense: NSForeignSystemAgent.GetKeyByValueAndIdentifier
+  langs:
+  - crmscript
+  name: 'GetKeyByValueAndIdentifier(String,String,String,String,String,String)'
+  nameWithType: NSForeignSystemAgent.GetKeyByValueAndIdentifier(String,String,String,String,String,String)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.GetKeyByValueAndIdentifier(String,String,String,String,String,String)
+  type: Method
+  summary: "\nGets a foreignkey based on its name and value, that belongs to the specified deviceId, device, and application.\n"
+  remarks: 
+  syntax: 
+    content: NSForeignKey GetKeyByValueAndIdentifier(String applicationName, String deviceName, String deviceIdentifier, String keyName, String keyValue, String tableName)
+    parameters:
+    - id: applicationName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceIdentifier
+      type: CRMScript.Global.String
+      description: 
+    - id: keyName
+      type: CRMScript.Global.String
+      description: 
+    - id: keyValue
+      type: CRMScript.Global.String
+      description: 
+    - id: tableName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSForeignKey
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nString applicationName;\nString deviceName;\nString deviceIdentifier;\nString keyName;\nString keyValue;\nString tableName;\nNSForeignKey res = agent.GetKeyByValueAndIdentifier(applicationName, deviceName, deviceIdentifier, keyName, keyValue, tableName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.GetKeyOnDeviceIdentifier(String,String,String,String,String,Integer)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetKeyOnDeviceIdentifier(String,String,String,String,String,Integer)
+  id: 'GetKeyOnDeviceIdentifier(String,String,String,String,String,Integer)'
+  so.intellisense: NSForeignSystemAgent.GetKeyOnDeviceIdentifier
+  langs:
+  - crmscript
+  name: 'GetKeyOnDeviceIdentifier(String,String,String,String,String,Integer)'
+  nameWithType: NSForeignSystemAgent.GetKeyOnDeviceIdentifier(String,String,String,String,String,Integer)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.GetKeyOnDeviceIdentifier(String,String,String,String,String,Integer)
+  type: Method
+  summary: "\nReturns a foreign key by its key name and device identifier, that belongs to the specified device and application. A table name and record ID can also be specified.\n"
+  remarks: 
+  syntax: 
+    content: NSForeignKey GetKeyOnDeviceIdentifier(String applicationName, String deviceName, String deviceIdentifier, String keyName, String tableName, Integer recordId)
+    parameters:
+    - id: applicationName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceIdentifier
+      type: CRMScript.Global.String
+      description: 
+    - id: keyName
+      type: CRMScript.Global.String
+      description: 
+    - id: tableName
+      type: CRMScript.Global.String
+      description: 
+    - id: recordId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSForeignKey
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nString applicationName;\nString deviceName;\nString deviceIdentifier;\nString keyName;\nString tableName;\nInteger recordId;\nNSForeignKey res = agent.GetKeyOnDeviceIdentifier(applicationName, deviceName, deviceIdentifier, keyName, tableName, recordId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.GetKeyValue(String,String,String,String,Integer)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetKeyValue(String,String,String,String,Integer)
+  id: 'GetKeyValue(String,String,String,String,Integer)'
+  so.intellisense: NSForeignSystemAgent.GetKeyValue
+  langs:
+  - crmscript
+  name: 'GetKeyValue(String,String,String,String,Integer)'
+  nameWithType: NSForeignSystemAgent.GetKeyValue(String,String,String,String,Integer)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.GetKeyValue(String,String,String,String,Integer)
+  type: Method
+  summary: "\nGets the string value of an NSForeignKey, that belongs to the specified device and application. The table name and record ID must also be specified.\n"
+  remarks: 
+  syntax: 
+    content: String GetKeyValue(String applicationName, String deviceName, String keyName, String tableName, Integer recordId)
+    parameters:
+    - id: applicationName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceName
+      type: CRMScript.Global.String
+      description: 
+    - id: keyName
+      type: CRMScript.Global.String
+      description: 
+    - id: tableName
+      type: CRMScript.Global.String
+      description: 
+    - id: recordId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nString applicationName;\nString deviceName;\nString keyName;\nString tableName;\nInteger recordId;\nString res = agent.GetKeyValue(applicationName, deviceName, keyName, tableName, recordId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.GetKeyValueOnDeviceIdentifier(String,String,String,String,String,Integer)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.GetKeyValueOnDeviceIdentifier(String,String,String,String,String,Integer)
+  id: 'GetKeyValueOnDeviceIdentifier(String,String,String,String,String,Integer)'
+  so.intellisense: NSForeignSystemAgent.GetKeyValueOnDeviceIdentifier
+  langs:
+  - crmscript
+  name: 'GetKeyValueOnDeviceIdentifier(String,String,String,String,String,Integer)'
+  nameWithType: NSForeignSystemAgent.GetKeyValueOnDeviceIdentifier(String,String,String,String,String,Integer)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.GetKeyValueOnDeviceIdentifier(String,String,String,String,String,Integer)
+  type: Method
+  summary: "\nReturns a foreign key string value by its key name and device identifier, that belongs to the specified device and application. A table name and record ID can also be specified.\n"
+  remarks: 
+  syntax: 
+    content: String GetKeyValueOnDeviceIdentifier(String applicationName, String deviceName, String deviceIdentifier, String keyName, String tableName, Integer recordId)
+    parameters:
+    - id: applicationName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceIdentifier
+      type: CRMScript.Global.String
+      description: 
+    - id: keyName
+      type: CRMScript.Global.String
+      description: 
+    - id: tableName
+      type: CRMScript.Global.String
+      description: 
+    - id: recordId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nString applicationName;\nString deviceName;\nString deviceIdentifier;\nString keyName;\nString tableName;\nInteger recordId;\nString res = agent.GetKeyValueOnDeviceIdentifier(applicationName, deviceName, deviceIdentifier, keyName, tableName, recordId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.SaveDeviceByIdentifier(String,String,String,NSForeignDevice)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.SaveDeviceByIdentifier(String,String,String,NSForeignDevice)
+  id: 'SaveDeviceByIdentifier(String,String,String,NSForeignDevice)'
+  so.intellisense: NSForeignSystemAgent.SaveDeviceByIdentifier
+  langs:
+  - crmscript
+  name: 'SaveDeviceByIdentifier(String,String,String,NSForeignDevice)'
+  nameWithType: NSForeignSystemAgent.SaveDeviceByIdentifier(String,String,String,NSForeignDevice)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.SaveDeviceByIdentifier(String,String,String,NSForeignDevice)
+  type: Method
+  summary: "\nUpdates an NSForeignDevice with deviceName that belongs to the application with applicationName.\n"
+  remarks: 
+  syntax: 
+    content: NSForeignDevice SaveDeviceByIdentifier(String applicationName, String deviceName, String deviceIdentifier, NSForeignDevice foreignDevice)
+    parameters:
+    - id: applicationName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceIdentifier
+      type: CRMScript.Global.String
+      description: 
+    - id: foreignDevice
+      type: CRMScript.NetServer.NSForeignDevice
+      description: 
+    return:
+      type: CRMScript.NetServer.NSForeignDevice
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nString applicationName;\nString deviceName;\nString deviceIdentifier;\nNSForeignDevice foreignDevice;\nNSForeignDevice res = agent.SaveDeviceByIdentifier(applicationName, deviceName, deviceIdentifier, foreignDevice);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.SaveForeignAppEntity(NSForeignAppEntit)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.SaveForeignAppEntity(NSForeignAppEntit)
+  id: 'SaveForeignAppEntity(NSForeignAppEntit)'
+  so.intellisense: NSForeignSystemAgent.SaveForeignAppEntity
+  langs:
+  - crmscript
+  name: 'SaveForeignAppEntity(NSForeignAppEntit)'
+  nameWithType: NSForeignSystemAgent.SaveForeignAppEntity(NSForeignAppEntit)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.SaveForeignAppEntity(NSForeignAppEntit)
+  type: Method
+  summary: "\nyUpdates the existing NSForeignAppEntity or creates a new NSForeignAppEntity if the ID parameter is 0.\n"
+  remarks: 
+  syntax: 
+    content: NSForeignAppEntity SaveForeignAppEntity(NSForeignAppEntity foreignAppEntity)
+    parameters:
+    - id: foreignAppEntity
+      type: CRMScript.NetServer.NSForeignAppEntity
+      description:
+    return:
+      type: CRMScript.NetServer.NSForeignAppEntity
+      description: "The new or updated NSForeignAppEntity."
+  example: 
+  - "\n<pre><code>NSForeignSystem  agent;\nNSForeignAppEntity thing = agent.CreateDefaultForeignAppEntity();\nthing = agent.SaveForeignAppEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.SaveForeignDevice(NSForeignDevice,String)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.SaveForeignDevice(NSForeignDevice,String)
+  id: 'SaveForeignDevice(NSForeignDevice,String)'
+  so.intellisense: NSForeignSystemAgent.SaveForeignDevice
+  langs:
+  - crmscript
+  name: 'SaveForeignDevice(NSForeignDevice,String)'
+  nameWithType: NSForeignSystemAgent.SaveForeignDevice(NSForeignDevice,String)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.SaveForeignDevice(NSForeignDevice,String)
+  type: Method
+  summary: "\nSaves a foreign device for an foreign application\n"
+  remarks: 
+  syntax: 
+    content: NSForeignDevice SaveForeignDevice(NSForeignDevice foreignDevice, String applicationName)
+    parameters:
+    - id: foreignDevice
+      type: CRMScript.NetServer.NSForeignDevice
+      description: 
+    - id: applicationName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSForeignDevice
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nNSForeignDevice foreignDevice;\nString applicationName;\nNSForeignDevice res = agent.SaveForeignDevice(foreignDevice, applicationName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignSystemAgent.SaveForeignKey(NSForeignKey,String,String,String)
+  commentId: M:CRMScript.NetServer.NSForeignSystemAgent.SaveForeignKey(NSForeignKey,String,String,String)
+  id: 'SaveForeignKey(NSForeignKey,String,String,String)'
+  so.intellisense: NSForeignSystemAgent.SaveForeignKey
+  langs:
+  - crmscript
+  name: 'SaveForeignKey(NSForeignKey,String,String,String)'
+  nameWithType: NSForeignSystemAgent.SaveForeignKey(NSForeignKey,String,String,String)
+  fullName: CRMScript.NetServer.NSForeignSystemAgent.SaveForeignKey(NSForeignKey,String,String,String)
+  type: Method
+  summary: "\nSaves a key belonging to the ForeignApp and NSForeignDevice specified.\n"
+  remarks: 
+  syntax: 
+    content: NSForeignKey SaveForeignKey(NSForeignKey foreignKey, String applicationName, String deviceName, String deviceIdentifier)
+    parameters:
+    - id: foreignKey
+      type: CRMScript.NetServer.NSForeignKey
+      description: 
+    - id: applicationName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceName
+      type: CRMScript.Global.String
+      description: 
+    - id: deviceIdentifier
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSForeignKey
+  example: 
+  - "\n<pre><code>NSForeignSystemAgent agent;\nNSForeignKey foreignKey;\nString applicationName;\nString deviceName;\nString deviceIdentifier;\nNSForeignKey res = agent.SaveForeignKey(foreignKey, applicationName, deviceName, deviceIdentifier);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSForeignSystemAgent
+  commentId: T:CRMScript.NetServer.NSForeignSystemAgent
+  isExternal: true
+  name: NSForeignSystemAgent
+  nameWithType: NSForeignSystemAgent
+  fullName: CRMScript.NetServer.NSForeignSystemAgent
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSForeignDevice
+  commentId: T:CRMScript.NetServer.NSForeignDevice
+  isExternal: true
+  name: NSForeignDevice
+  nameWithType: NSForeignDevice
+  fullName: CRMScript.NetServer.NSForeignDevice
+- uid: CRMScript.NetServer.NSForeignKey
+  commentId: T:CRMScript.NetServer.NSForeignKey
+  isExternal: true
+  name: NSForeignKey
+  nameWithType: NSForeignKey
+  fullName: CRMScript.NetServer.NSForeignKey
+- uid: CRMScript.NetServer.NSForeignAppEntity
+  commentId: T:CRMScript.NetServer.NSForeignAppEntity
+  isExternal: true
+  name: NSForeignAppEntity
+  nameWithType: NSForeignAppEntity
+  fullName: CRMScript.NetServer.NSForeignAppEntity
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Native.Map
+  commentId: T:CRMScript.Native.Map
+  isExternal: true
+  name: Map
+  nameWithType: Map
+  fullName: CRMScript.Native.Map
+- uid: CRMScript.NetServer.NSForeignDevice[]
+  isExternal: true
+  name: NSForeignDevice[]
+  nameWithType: NSForeignDevice[]
+  fullName: CRMScript.NetServer.NSForeignDevice[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSForeignDevice
+    isExternal: true
+    name: NSForeignDevice
+    nameWithType: NSForeignDevice
+    fullName: CRMScript.NetServer.NSForeignDevice
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSForeignDevice
+  commentId: T:CRMScript.NetServer.NSForeignDevice
+  isExternal: true
+  name: NSForeignDevice
+  nameWithType: NSForeignDevice
+  fullName: CRMScript.NetServer.NSForeignDevice
+- uid: CRMScript.NetServer.NSForeignKey[]
+  isExternal: true
+  name: NSForeignKey[]
+  nameWithType: NSForeignKey[]
+  fullName: CRMScript.NetServer.NSForeignKey[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSForeignKey
+    isExternal: true
+    name: NSForeignKey
+    nameWithType: NSForeignKey
+    fullName: CRMScript.NetServer.NSForeignKey
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSForeignKey
+  commentId: T:CRMScript.NetServer.NSForeignKey
+  isExternal: true
+  name: NSForeignKey
+  nameWithType: NSForeignKey
+  fullName: CRMScript.NetServer.NSForeignKey
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

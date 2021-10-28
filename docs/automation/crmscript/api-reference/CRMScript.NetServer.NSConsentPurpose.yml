@@ -1,0 +1,645 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSConsentPurpose
+  commentId: T:CRMScript.NetServer.NSConsentPurpose
+  id: NSConsentPurpose
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSConsentPurpose.#ctor
+  - CRMScript.NetServer.NSConsentPurpose.GetActive()
+  - CRMScript.NetServer.NSConsentPurpose.GetConsentPurposeId()
+  - CRMScript.NetServer.NSConsentPurpose.GetConsentText()
+  - CRMScript.NetServer.NSConsentPurpose.GetDeleted()
+  - CRMScript.NetServer.NSConsentPurpose.GetFormText()
+  - CRMScript.NetServer.NSConsentPurpose.GetKey()
+  - CRMScript.NetServer.NSConsentPurpose.GetName()
+  - CRMScript.NetServer.NSConsentPurpose.GetPrivacyStatementDesc()
+  - CRMScript.NetServer.NSConsentPurpose.GetPrivacyStatementUrl()
+  - CRMScript.NetServer.NSConsentPurpose.GetRank()
+  - CRMScript.NetServer.NSConsentPurpose.GetTooltip()
+  - CRMScript.NetServer.NSConsentPurpose.GetUpdatedBy()
+  - CRMScript.NetServer.NSConsentPurpose.GetUpdatedDate()
+  - CRMScript.NetServer.NSConsentPurpose.SetActive(Integer)
+  - CRMScript.NetServer.NSConsentPurpose.SetConsentPurposeId(Integer)
+  - CRMScript.NetServer.NSConsentPurpose.SetConsentText(String)
+  - CRMScript.NetServer.NSConsentPurpose.SetDeleted(Bool)
+  - CRMScript.NetServer.NSConsentPurpose.SetFormText(String)
+  - CRMScript.NetServer.NSConsentPurpose.SetKey(String)
+  - CRMScript.NetServer.NSConsentPurpose.SetName(String)
+  - CRMScript.NetServer.NSConsentPurpose.SetPrivacyStatementDesc(String)
+  - CRMScript.NetServer.NSConsentPurpose.SetPrivacyStatementUrl(String)
+  - CRMScript.NetServer.NSConsentPurpose.SetRank(Integer)
+  - CRMScript.NetServer.NSConsentPurpose.SetTooltip(String)
+  - CRMScript.NetServer.NSConsentPurpose.SetUpdatedBy(NSAssociate)
+  - CRMScript.NetServer.NSConsentPurpose.SetUpdatedDate(DateTime)
+  name: NSConsentPurpose
+  nameWithType: NSConsentPurpose
+  fullName: CRMScript.NetServer.NSConsentPurpose
+  type: Class
+  summary: "\nCarrier object for ConsentPurpose.\n"
+  example: 
+- uid: CRMScript.NetServer.NSConsentPurpose.#ctor
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSConsentPurpose
+  langs:
+  - crmscript
+  name: NSConsentPurpose()
+  nameWithType: NSConsentPurpose.#ctor
+  fullName: CRMScript.NetServer.NSConsentPurpose.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSConsentPurpose class.\n"
+  remarks: 
+  syntax: 
+    content: NSConsentPurpose
+  example: 
+- uid: CRMScript.NetServer.NSConsentPurpose.GetActive()
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.GetActive()
+  id: 'GetActive()'
+  so.intellisense: NSConsentPurpose.GetActive
+  langs:
+  - crmscript
+  name: 'GetActive()'
+  nameWithType: NSConsentPurpose.GetActive()
+  fullName: CRMScript.NetServer.NSConsentPurpose.GetActive()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetActive()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Is the consent purpose active or not."
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nInteger active = thing.GetActive();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.GetConsentPurposeId()
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.GetConsentPurposeId()
+  id: 'GetConsentPurposeId()'
+  so.intellisense: NSConsentPurpose.GetConsentPurposeId
+  langs:
+  - crmscript
+  name: 'GetConsentPurposeId()'
+  nameWithType: NSConsentPurpose.GetConsentPurposeId()
+  fullName: CRMScript.NetServer.NSConsentPurpose.GetConsentPurposeId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetConsentPurposeId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nInteger consentPurposeId = thing.GetConsentPurposeId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.GetConsentText()
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.GetConsentText()
+  id: 'GetConsentText()'
+  so.intellisense: NSConsentPurpose.GetConsentText
+  langs:
+  - crmscript
+  name: 'GetConsentText()'
+  nameWithType: NSConsentPurpose.GetConsentText()
+  fullName: CRMScript.NetServer.NSConsentPurpose.GetConsentText()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetConsentText()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Form text used for the actual checkbox."
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nString consentText = thing.GetConsentText();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.GetDeleted()
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.GetDeleted()
+  id: 'GetDeleted()'
+  so.intellisense: NSConsentPurpose.GetDeleted
+  langs:
+  - crmscript
+  name: 'GetDeleted()'
+  nameWithType: NSConsentPurpose.GetDeleted()
+  fullName: CRMScript.NetServer.NSConsentPurpose.GetDeleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetDeleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "true if the NSConsentPurpose is deleted."
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nBool deleted = thing.GetDeleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.GetFormText()
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.GetFormText()
+  id: 'GetFormText()'
+  so.intellisense: NSConsentPurpose.GetFormText
+  langs:
+  - crmscript
+  name: 'GetFormText()'
+  nameWithType: NSConsentPurpose.GetFormText()
+  fullName: CRMScript.NetServer.NSConsentPurpose.GetFormText()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFormText()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Text for the consent form, the long text to be shown when asking the end-user for this kind of consent."
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nString formText = thing.GetFormText();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.GetKey()
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.GetKey()
+  id: 'GetKey()'
+  so.intellisense: NSConsentPurpose.GetKey
+  langs:
+  - crmscript
+  name: 'GetKey()'
+  nameWithType: NSConsentPurpose.GetKey()
+  fullName: CRMScript.NetServer.NSConsentPurpose.GetKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The key used to refer to this purpose, like Process, Emarketing etc."
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nString key = thing.GetKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.GetName()
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.GetName()
+  id: 'GetName()'
+  so.intellisense: NSConsentPurpose.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSConsentPurpose.GetName()
+  fullName: CRMScript.NetServer.NSConsentPurpose.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of consent purpose."
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.GetPrivacyStatementDesc()
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.GetPrivacyStatementDesc()
+  id: 'GetPrivacyStatementDesc()'
+  so.intellisense: NSConsentPurpose.GetPrivacyStatementDesc
+  langs:
+  - crmscript
+  name: 'GetPrivacyStatementDesc()'
+  nameWithType: NSConsentPurpose.GetPrivacyStatementDesc()
+  fullName: CRMScript.NetServer.NSConsentPurpose.GetPrivacyStatementDesc()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPrivacyStatementDesc()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name or description for the privacy statement."
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nString privacyStatementDesc = thing.GetPrivacyStatementDesc();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.GetPrivacyStatementUrl()
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.GetPrivacyStatementUrl()
+  id: 'GetPrivacyStatementUrl()'
+  so.intellisense: NSConsentPurpose.GetPrivacyStatementUrl
+  langs:
+  - crmscript
+  name: 'GetPrivacyStatementUrl()'
+  nameWithType: NSConsentPurpose.GetPrivacyStatementUrl()
+  fullName: CRMScript.NetServer.NSConsentPurpose.GetPrivacyStatementUrl()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPrivacyStatementUrl()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "URL referencing the actual privacy statement."
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nString privacyStatementUrl = thing.GetPrivacyStatementUrl();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.GetRank()
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSConsentPurpose.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSConsentPurpose.GetRank()
+  fullName: CRMScript.NetServer.NSConsentPurpose.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Rank of this consent source."
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSConsentPurpose.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSConsentPurpose.GetTooltip()
+  fullName: CRMScript.NetServer.NSConsentPurpose.GetTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "List item tooltip."
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nString tooltip = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.GetUpdatedBy()
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.GetUpdatedBy()
+  id: 'GetUpdatedBy()'
+  so.intellisense: NSConsentPurpose.GetUpdatedBy
+  langs:
+  - crmscript
+  name: 'GetUpdatedBy()'
+  nameWithType: NSConsentPurpose.GetUpdatedBy()
+  fullName: CRMScript.NetServer.NSConsentPurpose.GetUpdatedBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetUpdatedBy()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "The associate that last updated the consent purpose."
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nNSAssociate updatedBy = thing.GetUpdatedBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.GetUpdatedDate()
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.GetUpdatedDate()
+  id: 'GetUpdatedDate()'
+  so.intellisense: NSConsentPurpose.GetUpdatedDate
+  langs:
+  - crmscript
+  name: 'GetUpdatedDate()'
+  nameWithType: NSConsentPurpose.GetUpdatedDate()
+  fullName: CRMScript.NetServer.NSConsentPurpose.GetUpdatedDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetUpdatedDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The date the consent purpose was last updated."
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nDateTime updatedDate = thing.GetUpdatedDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.SetActive(Integer)
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.SetActive(Integer)
+  id: 'SetActive(Integer)'
+  so.intellisense: NSConsentPurpose.SetActive
+  langs:
+  - crmscript
+  name: 'SetActive(Integer)'
+  nameWithType: NSConsentPurpose.SetActive(Integer)
+  fullName: CRMScript.NetServer.NSConsentPurpose.SetActive(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetActive(Integer active)
+    parameters:
+    - id: active
+      type: CRMScript.Global.Integer
+      description: "Is the consent purpose active or not."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nInteger active;\nthing.SetActive(active);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.SetConsentPurposeId(Integer)
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.SetConsentPurposeId(Integer)
+  id: 'SetConsentPurposeId(Integer)'
+  so.intellisense: NSConsentPurpose.SetConsentPurposeId
+  langs:
+  - crmscript
+  name: 'SetConsentPurposeId(Integer)'
+  nameWithType: NSConsentPurpose.SetConsentPurposeId(Integer)
+  fullName: CRMScript.NetServer.NSConsentPurpose.SetConsentPurposeId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetConsentPurposeId(Integer consentPurposeId)
+    parameters:
+    - id: consentPurposeId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nInteger consentPurposeId;\nthing.SetConsentPurposeId(consentPurposeId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.SetConsentText(String)
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.SetConsentText(String)
+  id: 'SetConsentText(String)'
+  so.intellisense: NSConsentPurpose.SetConsentText
+  langs:
+  - crmscript
+  name: 'SetConsentText(String)'
+  nameWithType: NSConsentPurpose.SetConsentText(String)
+  fullName: CRMScript.NetServer.NSConsentPurpose.SetConsentText(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetConsentText(String consentText)
+    parameters:
+    - id: consentText
+      type: CRMScript.Global.String
+      description: "Form text used for the actual checkbox."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nString consentText;\nthing.SetConsentText(consentText);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.SetDeleted(Bool)
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.SetDeleted(Bool)
+  id: 'SetDeleted(Bool)'
+  so.intellisense: NSConsentPurpose.SetDeleted
+  langs:
+  - crmscript
+  name: 'SetDeleted(Bool)'
+  nameWithType: NSConsentPurpose.SetDeleted(Bool)
+  fullName: CRMScript.NetServer.NSConsentPurpose.SetDeleted(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeleted(Bool deleted)
+    parameters:
+    - id: deleted
+      type: CRMScript.Global.Bool
+      description: "true if the NSConsentPurpose is deleted."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nBool deleted;\nthing.SetDeleted(deleted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.SetFormText(String)
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.SetFormText(String)
+  id: 'SetFormText(String)'
+  so.intellisense: NSConsentPurpose.SetFormText
+  langs:
+  - crmscript
+  name: 'SetFormText(String)'
+  nameWithType: NSConsentPurpose.SetFormText(String)
+  fullName: CRMScript.NetServer.NSConsentPurpose.SetFormText(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFormText(String formText)
+    parameters:
+    - id: formText
+      type: CRMScript.Global.String
+      description: "Text for the consent form, the long text to be shown when asking the end-user for this kind of consent."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nString formText;\nthing.SetFormText(formText);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.SetKey(String)
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.SetKey(String)
+  id: 'SetKey(String)'
+  so.intellisense: NSConsentPurpose.SetKey
+  langs:
+  - crmscript
+  name: 'SetKey(String)'
+  nameWithType: NSConsentPurpose.SetKey(String)
+  fullName: CRMScript.NetServer.NSConsentPurpose.SetKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetKey(String key)
+    parameters:
+    - id: key
+      type: CRMScript.Global.String
+      description: "The key used to refer to this purpose, like Process, Emarketing etc."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nString key;\nthing.SetKey(key);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.SetName(String)
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSConsentPurpose.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSConsentPurpose.SetName(String)
+  fullName: CRMScript.NetServer.NSConsentPurpose.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Name of consent purpose."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.SetPrivacyStatementDesc(String)
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.SetPrivacyStatementDesc(String)
+  id: 'SetPrivacyStatementDesc(String)'
+  so.intellisense: NSConsentPurpose.SetPrivacyStatementDesc
+  langs:
+  - crmscript
+  name: 'SetPrivacyStatementDesc(String)'
+  nameWithType: NSConsentPurpose.SetPrivacyStatementDesc(String)
+  fullName: CRMScript.NetServer.NSConsentPurpose.SetPrivacyStatementDesc(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPrivacyStatementDesc(String privacyStatementDesc)
+    parameters:
+    - id: privacyStatementDesc
+      type: CRMScript.Global.String
+      description: "Name or description for the privacy statement."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nString privacyStatementDesc;\nthing.SetPrivacyStatementDesc(privacyStatementDesc);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.SetPrivacyStatementUrl(String)
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.SetPrivacyStatementUrl(String)
+  id: 'SetPrivacyStatementUrl(String)'
+  so.intellisense: NSConsentPurpose.SetPrivacyStatementUrl
+  langs:
+  - crmscript
+  name: 'SetPrivacyStatementUrl(String)'
+  nameWithType: NSConsentPurpose.SetPrivacyStatementUrl(String)
+  fullName: CRMScript.NetServer.NSConsentPurpose.SetPrivacyStatementUrl(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPrivacyStatementUrl(String privacyStatementUrl)
+    parameters:
+    - id: privacyStatementUrl
+      type: CRMScript.Global.String
+      description: "URL referencing the actual privacy statement."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nString privacyStatementUrl;\nthing.SetPrivacyStatementUrl(privacyStatementUrl);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSConsentPurpose.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSConsentPurpose.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSConsentPurpose.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "Rank of this consent source."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSConsentPurpose.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSConsentPurpose.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSConsentPurpose.SetTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: "List item tooltip."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nString tooltip;\nthing.SetTooltip(tooltip);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.SetUpdatedBy(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.SetUpdatedBy(NSAssociate)
+  id: 'SetUpdatedBy(NSAssociate)'
+  so.intellisense: NSConsentPurpose.SetUpdatedBy
+  langs:
+  - crmscript
+  name: 'SetUpdatedBy(NSAssociate)'
+  nameWithType: NSConsentPurpose.SetUpdatedBy(NSAssociate)
+  fullName: CRMScript.NetServer.NSConsentPurpose.SetUpdatedBy(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedBy(NSAssociate updatedBy)
+    parameters:
+    - id: updatedBy
+      type: CRMScript.NetServer.NSAssociate
+      description: "The associate that last updated the consent purpose."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nNSAssociate updatedBy;\nthing.SetUpdatedBy(updatedBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentPurpose.SetUpdatedDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSConsentPurpose.SetUpdatedDate(DateTime)
+  id: 'SetUpdatedDate(DateTime)'
+  so.intellisense: NSConsentPurpose.SetUpdatedDate
+  langs:
+  - crmscript
+  name: 'SetUpdatedDate(DateTime)'
+  nameWithType: NSConsentPurpose.SetUpdatedDate(DateTime)
+  fullName: CRMScript.NetServer.NSConsentPurpose.SetUpdatedDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedDate(DateTime updatedDate)
+    parameters:
+    - id: updatedDate
+      type: CRMScript.Global.DateTime
+      description: "The date the consent purpose was last updated."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentPurpose thing;\nDateTime updatedDate;\nthing.SetUpdatedDate(updatedDate);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSConsentPurpose
+  commentId: T:CRMScript.NetServer.NSConsentPurpose
+  isExternal: true
+  name: NSConsentPurpose
+  nameWithType: NSConsentPurpose
+  fullName: CRMScript.NetServer.NSConsentPurpose
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.NetServer.NSAssociate
+  commentId: T:CRMScript.NetServer.NSAssociate
+  isExternal: true
+  name: NSAssociate
+  nameWithType: NSAssociate
+  fullName: CRMScript.NetServer.NSAssociate
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

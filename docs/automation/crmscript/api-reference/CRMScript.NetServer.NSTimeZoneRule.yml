@@ -1,0 +1,363 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSTimeZoneRule
+  commentId: T:CRMScript.NetServer.NSTimeZoneRule
+  id: NSTimeZoneRule
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSTimeZoneRule.#ctor
+  - CRMScript.NetServer.NSTimeZoneRule.GetEndDay()
+  - CRMScript.NetServer.NSTimeZoneRule.GetEndMonth()
+  - CRMScript.NetServer.NSTimeZoneRule.GetEndRulePattern()
+  - CRMScript.NetServer.NSTimeZoneRule.GetStartDay()
+  - CRMScript.NetServer.NSTimeZoneRule.GetStartMonth()
+  - CRMScript.NetServer.NSTimeZoneRule.GetStartRulePattern()
+  - CRMScript.NetServer.NSTimeZoneRule.GetTZOffset()
+  - CRMScript.NetServer.NSTimeZoneRule.SetEndDay(Integer)
+  - CRMScript.NetServer.NSTimeZoneRule.SetEndMonth(Integer)
+  - CRMScript.NetServer.NSTimeZoneRule.SetEndRulePattern(String)
+  - CRMScript.NetServer.NSTimeZoneRule.SetStartDay(Integer)
+  - CRMScript.NetServer.NSTimeZoneRule.SetStartMonth(Integer)
+  - CRMScript.NetServer.NSTimeZoneRule.SetStartRulePattern(String)
+  - CRMScript.NetServer.NSTimeZoneRule.SetTZOffset(Integer)
+  name: NSTimeZoneRule
+  nameWithType: NSTimeZoneRule
+  fullName: CRMScript.NetServer.NSTimeZoneRule
+  type: Class
+  summary: "\nInformation about a rule for a TimeZone.\n"
+  example: 
+- uid: CRMScript.NetServer.NSTimeZoneRule.#ctor
+  commentId: M:CRMScript.NetServer.NSTimeZoneRule.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSTimeZoneRule
+  langs:
+  - crmscript
+  name: NSTimeZoneRule()
+  nameWithType: NSTimeZoneRule.#ctor
+  fullName: CRMScript.NetServer.NSTimeZoneRule.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSTimeZoneRule class.\n"
+  remarks: 
+  syntax: 
+    content: NSTimeZoneRule
+  example: 
+- uid: CRMScript.NetServer.NSTimeZoneRule.GetEndDay()
+  commentId: M:CRMScript.NetServer.NSTimeZoneRule.GetEndDay()
+  id: 'GetEndDay()'
+  so.intellisense: NSTimeZoneRule.GetEndDay
+  langs:
+  - crmscript
+  name: 'GetEndDay()'
+  nameWithType: NSTimeZoneRule.GetEndDay()
+  fullName: CRMScript.NetServer.NSTimeZoneRule.GetEndDay()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetEndDay()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Custom DST end day, if 0 then parse startRule."
+  example: 
+  - "\n<pre><code>NSTimeZoneRule thing;\nInteger endDay = thing.GetEndDay();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTimeZoneRule.GetEndMonth()
+  commentId: M:CRMScript.NetServer.NSTimeZoneRule.GetEndMonth()
+  id: 'GetEndMonth()'
+  so.intellisense: NSTimeZoneRule.GetEndMonth
+  langs:
+  - crmscript
+  name: 'GetEndMonth()'
+  nameWithType: NSTimeZoneRule.GetEndMonth()
+  fullName: CRMScript.NetServer.NSTimeZoneRule.GetEndMonth()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetEndMonth()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Custom DST end month, if 0 then parse startRule."
+  example: 
+  - "\n<pre><code>NSTimeZoneRule thing;\nInteger endMonth = thing.GetEndMonth();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTimeZoneRule.GetEndRulePattern()
+  commentId: M:CRMScript.NetServer.NSTimeZoneRule.GetEndRulePattern()
+  id: 'GetEndRulePattern()'
+  so.intellisense: NSTimeZoneRule.GetEndRulePattern
+  langs:
+  - crmscript
+  name: 'GetEndRulePattern()'
+  nameWithType: NSTimeZoneRule.GetEndRulePattern()
+  fullName: CRMScript.NetServer.NSTimeZoneRule.GetEndRulePattern()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetEndRulePattern()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "DST end rule, such as 2300 LST-SAT-OCT; limited to rules that we have parse code for; use dayOfMonth etc for custom rules."
+  example: 
+  - "\n<pre><code>NSTimeZoneRule thing;\nString endRulePattern = thing.GetEndRulePattern();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTimeZoneRule.GetStartDay()
+  commentId: M:CRMScript.NetServer.NSTimeZoneRule.GetStartDay()
+  id: 'GetStartDay()'
+  so.intellisense: NSTimeZoneRule.GetStartDay
+  langs:
+  - crmscript
+  name: 'GetStartDay()'
+  nameWithType: NSTimeZoneRule.GetStartDay()
+  fullName: CRMScript.NetServer.NSTimeZoneRule.GetStartDay()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetStartDay()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Custom DST start day, if 0 then parse startRule."
+  example: 
+  - "\n<pre><code>NSTimeZoneRule thing;\nInteger startDay = thing.GetStartDay();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTimeZoneRule.GetStartMonth()
+  commentId: M:CRMScript.NetServer.NSTimeZoneRule.GetStartMonth()
+  id: 'GetStartMonth()'
+  so.intellisense: NSTimeZoneRule.GetStartMonth
+  langs:
+  - crmscript
+  name: 'GetStartMonth()'
+  nameWithType: NSTimeZoneRule.GetStartMonth()
+  fullName: CRMScript.NetServer.NSTimeZoneRule.GetStartMonth()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetStartMonth()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Custom DST start month, if 0 then parse startRule."
+  example: 
+  - "\n<pre><code>NSTimeZoneRule thing;\nInteger startMonth = thing.GetStartMonth();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTimeZoneRule.GetStartRulePattern()
+  commentId: M:CRMScript.NetServer.NSTimeZoneRule.GetStartRulePattern()
+  id: 'GetStartRulePattern()'
+  so.intellisense: NSTimeZoneRule.GetStartRulePattern
+  langs:
+  - crmscript
+  name: 'GetStartRulePattern()'
+  nameWithType: NSTimeZoneRule.GetStartRulePattern()
+  fullName: CRMScript.NetServer.NSTimeZoneRule.GetStartRulePattern()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetStartRulePattern()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "DST start rule, such as 0200 1ST-SUN-APR; limited to rules that we have parse code for; use dayOfMonth etc for custom rules."
+  example: 
+  - "\n<pre><code>NSTimeZoneRule thing;\nString startRulePattern = thing.GetStartRulePattern();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTimeZoneRule.GetTZOffset()
+  commentId: M:CRMScript.NetServer.NSTimeZoneRule.GetTZOffset()
+  id: 'GetTZOffset()'
+  so.intellisense: NSTimeZoneRule.GetTZOffset
+  langs:
+  - crmscript
+  name: 'GetTZOffset()'
+  nameWithType: NSTimeZoneRule.GetTZOffset()
+  fullName: CRMScript.NetServer.NSTimeZoneRule.GetTZOffset()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTZOffset()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of minutes bias relative to UTC time."
+  example: 
+  - "\n<pre><code>NSTimeZoneRule thing;\nInteger tZOffset = thing.GetTZOffset();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTimeZoneRule.SetEndDay(Integer)
+  commentId: M:CRMScript.NetServer.NSTimeZoneRule.SetEndDay(Integer)
+  id: 'SetEndDay(Integer)'
+  so.intellisense: NSTimeZoneRule.SetEndDay
+  langs:
+  - crmscript
+  name: 'SetEndDay(Integer)'
+  nameWithType: NSTimeZoneRule.SetEndDay(Integer)
+  fullName: CRMScript.NetServer.NSTimeZoneRule.SetEndDay(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEndDay(Integer endDay)
+    parameters:
+    - id: endDay
+      type: CRMScript.Global.Integer
+      description: "Custom DST end day, if 0 then parse startRule."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTimeZoneRule thing;\nInteger endDay;\nthing.SetEndDay(endDay);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTimeZoneRule.SetEndMonth(Integer)
+  commentId: M:CRMScript.NetServer.NSTimeZoneRule.SetEndMonth(Integer)
+  id: 'SetEndMonth(Integer)'
+  so.intellisense: NSTimeZoneRule.SetEndMonth
+  langs:
+  - crmscript
+  name: 'SetEndMonth(Integer)'
+  nameWithType: NSTimeZoneRule.SetEndMonth(Integer)
+  fullName: CRMScript.NetServer.NSTimeZoneRule.SetEndMonth(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEndMonth(Integer endMonth)
+    parameters:
+    - id: endMonth
+      type: CRMScript.Global.Integer
+      description: "Custom DST end month, if 0 then parse startRule."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTimeZoneRule thing;\nInteger endMonth;\nthing.SetEndMonth(endMonth);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTimeZoneRule.SetEndRulePattern(String)
+  commentId: M:CRMScript.NetServer.NSTimeZoneRule.SetEndRulePattern(String)
+  id: 'SetEndRulePattern(String)'
+  so.intellisense: NSTimeZoneRule.SetEndRulePattern
+  langs:
+  - crmscript
+  name: 'SetEndRulePattern(String)'
+  nameWithType: NSTimeZoneRule.SetEndRulePattern(String)
+  fullName: CRMScript.NetServer.NSTimeZoneRule.SetEndRulePattern(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEndRulePattern(String endRulePattern)
+    parameters:
+    - id: endRulePattern
+      type: CRMScript.Global.String
+      description: "DST end rule, such as 2300 LST-SAT-OCT; limited to rules that we have parse code for; use dayOfMonth etc for custom rules."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTimeZoneRule thing;\nString endRulePattern;\nthing.SetEndRulePattern(endRulePattern);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTimeZoneRule.SetStartDay(Integer)
+  commentId: M:CRMScript.NetServer.NSTimeZoneRule.SetStartDay(Integer)
+  id: 'SetStartDay(Integer)'
+  so.intellisense: NSTimeZoneRule.SetStartDay
+  langs:
+  - crmscript
+  name: 'SetStartDay(Integer)'
+  nameWithType: NSTimeZoneRule.SetStartDay(Integer)
+  fullName: CRMScript.NetServer.NSTimeZoneRule.SetStartDay(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetStartDay(Integer startDay)
+    parameters:
+    - id: startDay
+      type: CRMScript.Global.Integer
+      description: "Custom DST start day, if 0 then parse startRule."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTimeZoneRule thing;\nInteger startDay;\nthing.SetStartDay(startDay);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTimeZoneRule.SetStartMonth(Integer)
+  commentId: M:CRMScript.NetServer.NSTimeZoneRule.SetStartMonth(Integer)
+  id: 'SetStartMonth(Integer)'
+  so.intellisense: NSTimeZoneRule.SetStartMonth
+  langs:
+  - crmscript
+  name: 'SetStartMonth(Integer)'
+  nameWithType: NSTimeZoneRule.SetStartMonth(Integer)
+  fullName: CRMScript.NetServer.NSTimeZoneRule.SetStartMonth(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetStartMonth(Integer startMonth)
+    parameters:
+    - id: startMonth
+      type: CRMScript.Global.Integer
+      description: "Custom DST start month, if 0 then parse startRule."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTimeZoneRule thing;\nInteger startMonth;\nthing.SetStartMonth(startMonth);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTimeZoneRule.SetStartRulePattern(String)
+  commentId: M:CRMScript.NetServer.NSTimeZoneRule.SetStartRulePattern(String)
+  id: 'SetStartRulePattern(String)'
+  so.intellisense: NSTimeZoneRule.SetStartRulePattern
+  langs:
+  - crmscript
+  name: 'SetStartRulePattern(String)'
+  nameWithType: NSTimeZoneRule.SetStartRulePattern(String)
+  fullName: CRMScript.NetServer.NSTimeZoneRule.SetStartRulePattern(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetStartRulePattern(String startRulePattern)
+    parameters:
+    - id: startRulePattern
+      type: CRMScript.Global.String
+      description: "DST start rule, such as 0200 1ST-SUN-APR; limited to rules that we have parse code for; use dayOfMonth etc for custom rules."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTimeZoneRule thing;\nString startRulePattern;\nthing.SetStartRulePattern(startRulePattern);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTimeZoneRule.SetTZOffset(Integer)
+  commentId: M:CRMScript.NetServer.NSTimeZoneRule.SetTZOffset(Integer)
+  id: 'SetTZOffset(Integer)'
+  so.intellisense: NSTimeZoneRule.SetTZOffset
+  langs:
+  - crmscript
+  name: 'SetTZOffset(Integer)'
+  nameWithType: NSTimeZoneRule.SetTZOffset(Integer)
+  fullName: CRMScript.NetServer.NSTimeZoneRule.SetTZOffset(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTZOffset(Integer tZOffset)
+    parameters:
+    - id: tZOffset
+      type: CRMScript.Global.Integer
+      description: "Number of minutes bias relative to UTC time."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTimeZoneRule thing;\nInteger tZOffset;\nthing.SetTZOffset(tZOffset);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSTimeZoneRule
+  commentId: T:CRMScript.NetServer.NSTimeZoneRule
+  isExternal: true
+  name: NSTimeZoneRule
+  nameWithType: NSTimeZoneRule
+  fullName: CRMScript.NetServer.NSTimeZoneRule
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

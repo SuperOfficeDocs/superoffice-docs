@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.TicketCategoryDelegateMethod
+  # Same as SuperOffice.Data.TicketCategoryTicketCategoryDelegateMethod
+  commentId: T:CRMScript.NetServer.TicketCategoryDelegateMethod
+  id: TicketCategoryDelegateMethod
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.TicketCategoryDelegateMethod.Unknown
+  - CRMScript.NetServer.TicketCategoryDelegateMethod.Even
+  - CRMScript.NetServer.TicketCategoryDelegateMethod.Weighted
+  - CRMScript.NetServer.TicketCategoryDelegateMethod.Unfair
+  - CRMScript.NetServer.TicketCategoryDelegateMethod.Not
+  name: TicketCategoryDelegateMethod
+  nameWithType: TicketCategoryDelegateMethod
+  fullName: CRMScript.NetServer.TicketCategoryDelegateMethod
+  type: Enum
+  summary: "\nThe delegate method used for request assigned to this category.\n"
+- uid: CRMScript.NetServer.TicketCategoryDelegateMethod.Unknown
+  commentId: F:CRMScript.NetServer.TicketCategoryDelegateMethod.Unknown
+  id: TicketCategoryDelegateMethod.Unknown
+  langs:
+  - crmscript
+  name: TicketCategoryDelegateMethod.Unknown
+  nameWithType: TicketCategoryDelegateMethod.Unknown
+  fullName: CRMScript.NetServer.TicketCategoryDelegateMethod.Unknown
+  type: Field
+  summary: "\n0: The delegate method is unknown, should normally not occur in the database.\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.TicketCategoryDelegateMethod
+- uid: CRMScript.NetServer.TicketCategoryDelegateMethod.Even
+  commentId: F:CRMScript.NetServer.TicketCategoryDelegateMethod.Even
+  id: TicketCategoryDelegateMethod.Even
+  langs:
+  - crmscript
+  name: TicketCategoryDelegateMethod.Even
+  nameWithType: TicketCategoryDelegateMethod.Even
+  fullName: CRMScript.NetServer.TicketCategoryDelegateMethod.Even
+  type: Field
+  summary: "\n1: Delegate request even among the members of the category.\n"
+  syntax: 
+    content: Even = 1
+    type: CRMScript.NetServer.TicketCategoryDelegateMethod
+- uid: CRMScript.NetServer.TicketCategoryDelegateMethod.Weighted
+  commentId: F:CRMScript.NetServer.TicketCategoryDelegateMethod.Weighted
+  id: TicketCategoryDelegateMethod.Weighted
+  langs:
+  - crmscript
+  name: TicketCategoryDelegateMethod.Weighted
+  nameWithType: TicketCategoryDelegateMethod.Weighted
+  fullName: CRMScript.NetServer.TicketCategoryDelegateMethod.Weighted
+  type: Field
+  summary: "\n2: Use weights on each member of the category when delegating requests.\n"
+  syntax: 
+    content: Weighted = 2
+    type: CRMScript.NetServer.TicketCategoryDelegateMethod
+- uid: CRMScript.NetServer.TicketCategoryDelegateMethod.Unfair
+  commentId: F:CRMScript.NetServer.TicketCategoryDelegateMethod.Unfair
+  id: TicketCategoryDelegateMethod.Unfair
+  langs:
+  - crmscript
+  name: TicketCategoryDelegateMethod.Unfair
+  nameWithType: TicketCategoryDelegateMethod.Unfair
+  fullName: CRMScript.NetServer.TicketCategoryDelegateMethod.Unfair
+  type: Field
+  summary: "\n3: The user with the least active request will be delegated the request.\n"
+  syntax: 
+    content: Unfair = 3
+    type: CRMScript.NetServer.TicketCategoryDelegateMethod
+- uid: CRMScript.NetServer.TicketCategoryDelegateMethod.Not
+  commentId: F:CRMScript.NetServer.TicketCategoryDelegateMethod.Not
+  id: TicketCategoryDelegateMethod.Not
+  langs:
+  - crmscript
+  name: TicketCategoryDelegateMethod.Not
+  nameWithType: TicketCategoryDelegateMethod.Not
+  fullName: CRMScript.NetServer.TicketCategoryDelegateMethod.Not
+  type: Field
+  summary: "\n4: Do not delegate request. Instead set them as unassigned.\n"
+  syntax: 
+    content: Not = 4
+    type: CRMScript.NetServer.TicketCategoryDelegateMethod
+references:
+- uid: CRMScript.NetServer.TicketCategoryDelegateMethod
+  commentId: T:CRMScript.NetServer.TicketCategoryDelegateMethod
+  isExternal: true
+  name: TicketCategoryDelegateMethod
+  nameWithType: TicketCategoryDelegateMethod
+  fullName: CRMScript.NetServer.TicketCategoryDelegateMethod

@@ -4,7 +4,7 @@ title: Generic data type
 author:
 so.date:
 keywords:
-so.topic:
+so.topic: concept
 ---
 
 # Generic data type
@@ -97,7 +97,7 @@ struct Person {
 
 `typeIsStruct()` checks whether a variable is a struct.
 
-Check whether a variable is a struct or not. The argument is automatically be up-casted to a Generic.
+Check whether a variable is a struct or not. The argument is automatically up-casted to a Generic.
 
 ```crmscript!
 struct Person {
@@ -151,7 +151,7 @@ Generic g = getGenericValue(p, "age");
 
 `convertGenericToString()` returns the string representation of a variable.  The argument is automatically be up-casted to a Generic.
 
-This works for all **basic** types. Complex types might can't be serialized as easy, and might not support this conversion. In that case, they'll return “[complex]”.
+This works for all **basic** types. Complex types might can't be serialized as easy, and might not support this conversion. In that case, they'll return "[complex]".
 
 ```crmscript!
 Integer age = 42;

@@ -1,0 +1,231 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSTemplateInfo
+  commentId: T:CRMScript.NetServer.NSTemplateInfo
+  id: NSTemplateInfo
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSTemplateInfo.#ctor
+  - CRMScript.NetServer.NSTemplateInfo.GetDescription()
+  - CRMScript.NetServer.NSTemplateInfo.GetExternalReference()
+  - CRMScript.NetServer.NSTemplateInfo.GetName()
+  - CRMScript.NetServer.NSTemplateInfo.GetPluginId()
+  - CRMScript.NetServer.NSTemplateInfo.SetDescription(String)
+  - CRMScript.NetServer.NSTemplateInfo.SetExternalReference(String)
+  - CRMScript.NetServer.NSTemplateInfo.SetName(String)
+  - CRMScript.NetServer.NSTemplateInfo.SetPluginId(Integer)
+  name: NSTemplateInfo
+  nameWithType: NSTemplateInfo
+  fullName: CRMScript.NetServer.NSTemplateInfo
+  type: Class
+  summary: "\nInformation about a document template, i.e., a document that generally contains unresolved merge tags and that is used as the source for creating new documents.\n"
+  example: 
+- uid: CRMScript.NetServer.NSTemplateInfo.#ctor
+  commentId: M:CRMScript.NetServer.NSTemplateInfo.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSTemplateInfo
+  langs:
+  - crmscript
+  name: NSTemplateInfo()
+  nameWithType: NSTemplateInfo.#ctor
+  fullName: CRMScript.NetServer.NSTemplateInfo.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSTemplateInfo class.\n"
+  remarks: 
+  syntax: 
+    content: NSTemplateInfo
+  example: 
+- uid: CRMScript.NetServer.NSTemplateInfo.GetDescription()
+  commentId: M:CRMScript.NetServer.NSTemplateInfo.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSTemplateInfo.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSTemplateInfo.GetDescription()
+  fullName: CRMScript.NetServer.NSTemplateInfo.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Document description, shown as a tooltip or in some extended description area."
+  example: 
+  - "\n<pre><code>NSTemplateInfo thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateInfo.GetExternalReference()
+  commentId: M:CRMScript.NetServer.NSTemplateInfo.GetExternalReference()
+  id: 'GetExternalReference()'
+  so.intellisense: NSTemplateInfo.GetExternalReference
+  langs:
+  - crmscript
+  name: 'GetExternalReference()'
+  nameWithType: NSTemplateInfo.GetExternalReference()
+  fullName: CRMScript.NetServer.NSTemplateInfo.GetExternalReference()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExternalReference()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Unique key that identifies the document so it can be retrieved."
+  example: 
+  - "\n<pre><code>NSTemplateInfo thing;\nString externalReference = thing.GetExternalReference();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateInfo.GetName()
+  commentId: M:CRMScript.NetServer.NSTemplateInfo.GetName()
+  id: 'GetName()'
+  so.intellisense: NSTemplateInfo.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSTemplateInfo.GetName()
+  fullName: CRMScript.NetServer.NSTemplateInfo.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of the document, shown in lists etc to the user."
+  example: 
+  - "\n<pre><code>NSTemplateInfo thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateInfo.GetPluginId()
+  commentId: M:CRMScript.NetServer.NSTemplateInfo.GetPluginId()
+  id: 'GetPluginId()'
+  so.intellisense: NSTemplateInfo.GetPluginId
+  langs:
+  - crmscript
+  name: 'GetPluginId()'
+  nameWithType: NSTemplateInfo.GetPluginId()
+  fullName: CRMScript.NetServer.NSTemplateInfo.GetPluginId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPluginId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of plugin that stores this template, so it can be retrieved."
+  example: 
+  - "\n<pre><code>NSTemplateInfo thing;\nInteger pluginId = thing.GetPluginId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateInfo.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSTemplateInfo.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSTemplateInfo.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSTemplateInfo.SetDescription(String)
+  fullName: CRMScript.NetServer.NSTemplateInfo.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "Document description, shown as a tooltip or in some extended description area."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTemplateInfo thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateInfo.SetExternalReference(String)
+  commentId: M:CRMScript.NetServer.NSTemplateInfo.SetExternalReference(String)
+  id: 'SetExternalReference(String)'
+  so.intellisense: NSTemplateInfo.SetExternalReference
+  langs:
+  - crmscript
+  name: 'SetExternalReference(String)'
+  nameWithType: NSTemplateInfo.SetExternalReference(String)
+  fullName: CRMScript.NetServer.NSTemplateInfo.SetExternalReference(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExternalReference(String externalReference)
+    parameters:
+    - id: externalReference
+      type: CRMScript.Global.String
+      description: "Unique key that identifies the document so it can be retrieved."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTemplateInfo thing;\nString externalReference;\nthing.SetExternalReference(externalReference);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateInfo.SetName(String)
+  commentId: M:CRMScript.NetServer.NSTemplateInfo.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSTemplateInfo.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSTemplateInfo.SetName(String)
+  fullName: CRMScript.NetServer.NSTemplateInfo.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Name of the document, shown in lists etc to the user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTemplateInfo thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateInfo.SetPluginId(Integer)
+  commentId: M:CRMScript.NetServer.NSTemplateInfo.SetPluginId(Integer)
+  id: 'SetPluginId(Integer)'
+  so.intellisense: NSTemplateInfo.SetPluginId
+  langs:
+  - crmscript
+  name: 'SetPluginId(Integer)'
+  nameWithType: NSTemplateInfo.SetPluginId(Integer)
+  fullName: CRMScript.NetServer.NSTemplateInfo.SetPluginId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPluginId(Integer pluginId)
+    parameters:
+    - id: pluginId
+      type: CRMScript.Global.Integer
+      description: "ID of plugin that stores this template, so it can be retrieved."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTemplateInfo thing;\nInteger pluginId;\nthing.SetPluginId(pluginId);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSTemplateInfo
+  commentId: T:CRMScript.NetServer.NSTemplateInfo
+  isExternal: true
+  name: NSTemplateInfo
+  nameWithType: NSTemplateInfo
+  fullName: CRMScript.NetServer.NSTemplateInfo
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

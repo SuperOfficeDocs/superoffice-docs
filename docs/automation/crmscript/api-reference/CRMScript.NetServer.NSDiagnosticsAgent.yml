@@ -1,0 +1,426 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSDiagnosticsAgent
+  commentId: T:CRMScript.NetServer.NSDiagnosticsAgent
+  id: NSDiagnosticsAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSDiagnosticsAgent.#ctor
+  - CRMScript.NetServer.NSDiagnosticsAgent.AddWebAppUsage(NSWebAppUsage[])
+  - CRMScript.NetServer.NSDiagnosticsAgent.ChangeLogSettings(Bool,Bool,Bool,Bool,Bool,Bool,Bool,Bool)
+  - CRMScript.NetServer.NSDiagnosticsAgent.CollectDataAdditions()
+  - CRMScript.NetServer.NSDiagnosticsAgent.CollectTableSizes()
+  - CRMScript.NetServer.NSDiagnosticsAgent.CollectWebUsage()
+  - CRMScript.NetServer.NSDiagnosticsAgent.CollectWinUsage()
+  - CRMScript.NetServer.NSDiagnosticsAgent.FlushCaches()
+  - CRMScript.NetServer.NSDiagnosticsAgent.FlushCachesByName(String[])
+  - CRMScript.NetServer.NSDiagnosticsAgent.GetCacheNames()
+  - CRMScript.NetServer.NSDiagnosticsAgent.GetWebAppUsagesForPeriod(DateTime,DateTime,String)
+  - CRMScript.NetServer.NSDiagnosticsAgent.LogViewState(String)
+  - CRMScript.NetServer.NSDiagnosticsAgent.PerformTasksAfterUpgrade()
+  - CRMScript.NetServer.NSDiagnosticsAgent.ResyncUsers()
+  - CRMScript.NetServer.NSDiagnosticsAgent.WebAppUsageExistsInPeriod(Integer,String,DateTime)
+  name: NSDiagnosticsAgent
+  nameWithType: NSDiagnosticsAgent
+  fullName: CRMScript.NetServer.NSDiagnosticsAgent
+  type: Class
+  summary: "\nDiagnostics, usage data collection, caches, and flushing\n"
+  example: 
+  - "\n<pre><code>NSDiagnosticsAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiagnosticsAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSDiagnosticsAgent
+  langs:
+  - crmscript
+  name: NSDiagnosticsAgent()
+  nameWithType: NSDiagnosticsAgent.#ctor
+  fullName: CRMScript.NetServer.NSDiagnosticsAgent.#ctor
+  type: Constructor
+  summary: "\nDiagnostics, usage data collection, caches, and flushing\n"
+  remarks: 
+  syntax: 
+    content: NSDiagnosticsAgent
+  example: 
+  - "\n<pre><code>NSDiagnosticsAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiagnosticsAgent.AddWebAppUsage(NSWebAppUsage[])
+  commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.AddWebAppUsage(NSWebAppUsage[])
+  id: 'AddWebAppUsage(NSWebAppUsage[])'
+  so.intellisense: NSDiagnosticsAgent.AddWebAppUsage
+  langs:
+  - crmscript
+  name: 'AddWebAppUsage(NSWebAppUsage[])'
+  nameWithType: NSDiagnosticsAgent.AddWebAppUsage(NSWebAppUsage[])
+  fullName: CRMScript.NetServer.NSDiagnosticsAgent.AddWebAppUsage(NSWebAppUsage[])
+  type: Method
+  summary: "\nAdds WebApp usage to existing log.\n"
+  remarks: 
+  syntax: 
+    content: Void AddWebAppUsage(NSWebAppUsage[] webAppUsages)
+    parameters:
+    - id: webAppUsages
+      type: CRMScript.NetServer.NSWebAppUsage[]
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSDiagnosticsAgent.ChangeLogSettings(Bool,Bool,Bool,Bool,Bool,Bool,Bool,Bool)
+  commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.ChangeLogSettings(Bool,Bool,Bool,Bool,Bool,Bool,Bool,Bool)
+  id: 'ChangeLogSettings(Bool,Bool,Bool,Bool,Bool,Bool,Bool,Bool)'
+  so.intellisense: NSDiagnosticsAgent.ChangeLogSettings
+  langs:
+  - crmscript
+  name: 'ChangeLogSettings(Bool,Bool,Bool,Bool,Bool,Bool,Bool,Bool)'
+  nameWithType: NSDiagnosticsAgent.ChangeLogSettings(Bool,Bool,Bool,Bool,Bool,Bool,Bool,Bool)
+  fullName: CRMScript.NetServer.NSDiagnosticsAgent.ChangeLogSettings(Bool,Bool,Bool,Bool,Bool,Bool,Bool,Bool)
+  type: Method
+  summary: "\nChanges NetServer log settings.\n"
+  remarks: 
+  syntax: 
+    content: Void ChangeLogSettings(Bool logWarning, Bool logInformation, Bool logSuccessAudit, Bool logFailureAudit, Bool logToEventLog, Bool logToSuperOffice, Bool logToFile, Bool logToTrace)
+    parameters:
+    - id: logWarning
+      type: CRMScript.Global.Bool
+      description: 
+    - id: logInformation
+      type: CRMScript.Global.Bool
+      description: 
+    - id: logSuccessAudit
+      type: CRMScript.Global.Bool
+      description: 
+    - id: logFailureAudit
+      type: CRMScript.Global.Bool
+      description: 
+    - id: logToEventLog
+      type: CRMScript.Global.Bool
+      description: 
+    - id: logToSuperOffice
+      type: CRMScript.Global.Bool
+      description: 
+    - id: logToFile
+      type: CRMScript.Global.Bool
+      description: 
+    - id: logToTrace
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSDiagnosticsAgent.CollectDataAdditions()
+  commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.CollectDataAdditions()
+  id: 'CollectDataAdditions()'
+  so.intellisense: NSDiagnosticsAgent.CollectDataAdditions
+  langs:
+  - crmscript
+  name: 'CollectDataAdditions()'
+  nameWithType: NSDiagnosticsAgent.CollectDataAdditions()
+  fullName: CRMScript.NetServer.NSDiagnosticsAgent.CollectDataAdditions()
+  type: Method
+  summary: "\nCollects and transmits usage statistics: Database Additions. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.\n"
+  remarks: 
+  syntax: 
+    content: Void CollectDataAdditions()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDiagnosticsAgent agent;\nagent.CollectDataAdditions();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiagnosticsAgent.CollectTableSizes()
+  commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.CollectTableSizes()
+  id: 'CollectTableSizes()'
+  so.intellisense: NSDiagnosticsAgent.CollectTableSizes
+  langs:
+  - crmscript
+  name: 'CollectTableSizes()'
+  nameWithType: NSDiagnosticsAgent.CollectTableSizes()
+  fullName: CRMScript.NetServer.NSDiagnosticsAgent.CollectTableSizes()
+  type: Method
+  summary: "\nCollects and transmits usage statistics: Table Sizes. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.<p></p>\n<pre><code>NSDiagnosticsAgent agent;\nagent.CollectTableSizes();</code></pre>\n"
+  remarks: 
+  syntax: 
+    content: Void CollectTableSizes()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDiagnosticsAgent agent;\nagent.CollectTableSizes();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiagnosticsAgent.CollectWebUsage()
+  commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.CollectWebUsage()
+  id: 'CollectWebUsage()'
+  so.intellisense: NSDiagnosticsAgent.CollectWebUsage
+  langs:
+  - crmscript
+  name: 'CollectWebUsage()'
+  nameWithType: NSDiagnosticsAgent.CollectWebUsage()
+  fullName: CRMScript.NetServer.NSDiagnosticsAgent.CollectWebUsage()
+  type: Method
+  summary: "\nCollects and transmits usage statistics: Web-based clients Usage. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.\n"
+  remarks: 
+  syntax: 
+    content: Void CollectWebUsage()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDiagnosticsAgent agent;\nagent.CollectWebUsage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiagnosticsAgent.CollectWinUsage()
+  commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.CollectWinUsage()
+  id: 'CollectWinUsage()'
+  so.intellisense: NSDiagnosticsAgent.CollectWinUsage
+  langs:
+  - crmscript
+  name: 'CollectWinUsage()'
+  nameWithType: NSDiagnosticsAgent.CollectWinUsage()
+  fullName: CRMScript.NetServer.NSDiagnosticsAgent.CollectWinUsage()
+  type: Method
+  summary: "\nCollects and transmits usage statistics: Windows CRM Client Usage. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.<p></p>\n<pre><code>NSDiagnosticsAgent agent;\nagent.CollectWinUsage();</code></pre>\n"
+  remarks: 
+  syntax: 
+    content: Void CollectWinUsage()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDiagnosticsAgent agent;\nagent.CollectWinUsage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiagnosticsAgent.FlushCaches()
+  commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.FlushCaches()
+  id: 'FlushCaches()'
+  so.intellisense: NSDiagnosticsAgent.FlushCaches
+  langs:
+  - crmscript
+  name: 'FlushCaches()'
+  nameWithType: NSDiagnosticsAgent.FlushCaches()
+  fullName: CRMScript.NetServer.NSDiagnosticsAgent.FlushCaches()
+  type: Method
+  summary: "\nFlushes all NetServer caches\n"
+  remarks: 
+  syntax: 
+    content: Void FlushCaches()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSDiagnosticsAgent.FlushCachesByName(String[])
+  commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.FlushCachesByName(String[])
+  id: 'FlushCachesByName(String[])'
+  so.intellisense: NSDiagnosticsAgent.FlushCachesByName
+  langs:
+  - crmscript
+  name: 'FlushCachesByName(String[])'
+  nameWithType: NSDiagnosticsAgent.FlushCachesByName(String[])
+  fullName: CRMScript.NetServer.NSDiagnosticsAgent.FlushCachesByName(String[])
+  type: Method
+  summary: "\nFlushes all NetServer caches named\n"
+  remarks: 
+  syntax: 
+    content: Void FlushCachesByName(String[] cacheNames)
+    parameters:
+    - id: cacheNames
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDiagnosticsAgent agent;\nString[] cacheNames;\nagent.FlushCachesByName(cacheNames);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiagnosticsAgent.GetCacheNames()
+  commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.GetCacheNames()
+  id: 'GetCacheNames()'
+  so.intellisense: NSDiagnosticsAgent.GetCacheNames
+  langs:
+  - crmscript
+  name: 'GetCacheNames()'
+  nameWithType: NSDiagnosticsAgent.GetCacheNames()
+  fullName: CRMScript.NetServer.NSDiagnosticsAgent.GetCacheNames()
+  type: Method
+  summary: "\nGets the name of the caches that can be flushed\n"
+  remarks: 
+  syntax: 
+    content: String[] GetCacheNames()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+      description:
+  example: 
+  - "\n<pre><code>NSDiagnosticsAgent agent;\nString[] res = agent.GetCacheNames();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiagnosticsAgent.GetWebAppUsagesForPeriod(DateTime,DateTime,String)
+  commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.GetWebAppUsagesForPeriod(DateTime,DateTime,String)
+  id: 'GetWebAppUsagesForPeriod(DateTime,DateTime,String)'
+  so.intellisense: NSDiagnosticsAgent.GetWebAppUsagesForPeriod
+  langs:
+  - crmscript
+  name: 'GetWebAppUsagesForPeriod(DateTime,DateTime,String)'
+  nameWithType: NSDiagnosticsAgent.GetWebAppUsagesForPeriod(DateTime,DateTime,String)
+  fullName: CRMScript.NetServer.NSDiagnosticsAgent.GetWebAppUsagesForPeriod(DateTime,DateTime,String)
+  type: Method
+  summary: "\nGets all WebAppUsages for a given period, that match an optional search term\n"
+  remarks: 
+  syntax: 
+    content: NSWebAppUsage[] GetWebAppUsagesForPeriod(DateTime fromDate, DateTime toDate, String searchTerm)
+    parameters:
+    - id: fromDate
+      type: CRMScript.Global.DateTime
+      description:
+    - id: toDate
+      type: CRMScript.Global.DateTime
+      description:
+    - id: searchTerm
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSWebAppUsage[]
+  example: 
+- uid: CRMScript.NetServer.NSDiagnosticsAgent.LogViewState(String)
+  commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.LogViewState(String)
+  id: 'LogViewState(String)'
+  so.intellisense: NSDiagnosticsAgent.LogViewState
+  langs:
+  - crmscript
+  name: 'LogViewState(String)'
+  nameWithType: NSDiagnosticsAgent.LogViewState(String)
+  fullName: CRMScript.NetServer.NSDiagnosticsAgent.LogViewState(String)
+  type: Method
+  summary: "\nLogs a change in view state.\n"
+  remarks: "\nThe granularity of the logging depends on the current configuration.<p></p>\nThis call returns asynchronously, leaving the server to finish processing later on.\n"
+  syntax: 
+    content: Void LogViewState(String viewState)
+    parameters:
+    - id: viewState
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSDiagnosticsAgent.PerformTasksAfterUpgrade()
+  commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.PerformTasksAfterUpgrade()
+  id: 'PerformTasksAfterUpgrade()'
+  so.intellisense: NSDiagnosticsAgent.PerformTasksAfterUpgrade
+  langs:
+  - crmscript
+  name: 'PerformTasksAfterUpgrade()'
+  nameWithType: NSDiagnosticsAgent.PerformTasksAfterUpgrade()
+  fullName: CRMScript.NetServer.NSDiagnosticsAgent.PerformTasksAfterUpgrade()
+  type: Method
+  summary: "\nAfter upgrading to a new file set, there may be tasks that need to be done. Fpr example, import new TypicalSearches, if present. Tasks performed here need to be idempotent and independent of the actual upgrade jump (what was the previous version). They should complete in a reasonable time, not more than a few minutes maximum.\n"
+  remarks:
+  syntax: 
+    content: String PerformTasksAfterUpgrade()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSDiagnosticsAgent agent;\nString res = agent.PerformTasksAfterUpgrade();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiagnosticsAgent.ResyncUsers()
+  commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.ResyncUsers()
+  id: 'ResyncUsers()'
+  so.intellisense: NSDiagnosticsAgent.ResyncUsers
+  langs:
+  - crmscript
+  name: 'ResyncUsers()'
+  nameWithType: NSDiagnosticsAgent.ResyncUsers()
+  fullName: CRMScript.NetServer.NSDiagnosticsAgent.ResyncUsers()
+  type: Method
+  summary: "\nResynchronizes user information with SuperOffice Community, if opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.\n"
+  remarks: 
+  syntax: 
+    content: Void ResyncUsers()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDiagnosticsAgent agent;\nagent.ResyncUsers();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiagnosticsAgent.WebAppUsageExistsInPeriod(Integer,String,DateTime)
+  commentId: M:CRMScript.NetServer.NSDiagnosticsAgent.WebAppUsageExistsInPeriod(Integer,String,DateTime)
+  id: 'WebAppUsageExistsInPeriod(Integer,String,DateTime)'
+  so.intellisense: NSDiagnosticsAgent.WebAppUsageExistsInPeriod
+  langs:
+  - crmscript
+  name: 'WebAppUsageExistsInPeriod(Integer,String,DateTime)'
+  nameWithType: NSDiagnosticsAgent.WebAppUsageExistsInPeriod(Integer,String,DateTime)
+  fullName: CRMScript.NetServer.NSDiagnosticsAgent.WebAppUsageExistsInPeriod(Integer,String,DateTime)
+  type: Method
+  summary: "\nChecks if viewState has been clicked at least once since a date.\n"
+  remarks: 
+  syntax: 
+    content: Bool WebAppUsageExistsInPeriod(Integer associateId, String viewState, DateTime fromDate)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: viewState
+      type: CRMScript.Global.String
+      description: 
+    - id: fromDate
+      type: CRMScript.Global.DateTime
+      description:
+    return:
+      type: CRMScript.Global.Bool
+      description: "true if viewState has been clicked at least once since FromDate, if asscoiateId &lt; 0 or FromDate is DateTime.MinValue no restriction given for those parameters."
+  example: 
+  - "\n<pre><code>NSDiagnosticsAgent agent;\nInteger associateId;\nString viewState;\nDateTime fromDate;\nBool res = agent.WebAppUsageExistsInPeriod(associateId, viewState, fromDate);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSDiagnosticsAgent
+  commentId: T:CRMScript.NetServer.NSDiagnosticsAgent
+  isExternal: true
+  name: NSDiagnosticsAgent
+  nameWithType: NSDiagnosticsAgent
+  fullName: CRMScript.NetServer.NSDiagnosticsAgent
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    isExternal: true
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSWebAppUsage[]
+  isExternal: true
+  name: NSWebAppUsage[]
+  nameWithType: NSWebAppUsage[]
+  fullName: CRMScript.NetServer.NSWebAppUsage[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSWebAppUsage
+    isExternal: true
+    name: NSWebAppUsage
+    nameWithType: NSWebAppUsage
+    fullName: CRMScript.NetServer.NSWebAppUsage
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSWebAppUsage
+  commentId: T:CRMScript.NetServer.NSWebAppUsage
+  isExternal: true
+  name: NSWebAppUsage
+  nameWithType: NSWebAppUsage
+  fullName: CRMScript.NetServer.NSWebAppUsage
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer

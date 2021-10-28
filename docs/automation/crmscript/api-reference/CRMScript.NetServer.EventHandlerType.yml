@@ -1,0 +1,1379 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.EventHandlerType
+  # Same as SuperOffice.Data.EventHandlerType
+  commentId: T:CRMScript.NetServer.EventHandlerType
+  id: EventHandlerType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.EventHandlerType.Unknown
+  - CRMScript.NetServer.EventHandlerType.NewTicket
+  - CRMScript.NetServer.EventHandlerType.NewTicketFromCustomerCenter
+  - CRMScript.NetServer.EventHandlerType.NewTicketFromEmail
+  - CRMScript.NetServer.EventHandlerType.NewTicketFromCustomerCenterBeforeSave
+  - CRMScript.NetServer.EventHandlerType.NewTicketFromSpmLink
+  - CRMScript.NetServer.EventHandlerType.NewNotifyTicketFromForm
+  - CRMScript.NetServer.EventHandlerType.NewTicketFromForm
+  - CRMScript.NetServer.EventHandlerType.TicketSave
+  - CRMScript.NetServer.EventHandlerType.TicketClosed
+  - CRMScript.NetServer.EventHandlerType.TicketPostponed
+  - CRMScript.NetServer.EventHandlerType.TicketDeleted
+  - CRMScript.NetServer.EventHandlerType.TicketActivated
+  - CRMScript.NetServer.EventHandlerType.TicketReopened
+  - CRMScript.NetServer.EventHandlerType.TicketReopenedFromCustomerCenter
+  - CRMScript.NetServer.EventHandlerType.TicketReopenedFromEmail
+  - CRMScript.NetServer.EventHandlerType.TicketChangedPriority
+  - CRMScript.NetServer.EventHandlerType.TicketChangedCategory
+  - CRMScript.NetServer.EventHandlerType.TicketChangedOwnedBy
+  - CRMScript.NetServer.EventHandlerType.TicketChangedPrimaryCustomer
+  - CRMScript.NetServer.EventHandlerType.TicketChangedTicketStatus
+  - CRMScript.NetServer.EventHandlerType.TicketChangedSlevel
+  - CRMScript.NetServer.EventHandlerType.TicketMessageAdded
+  - CRMScript.NetServer.EventHandlerType.TicketInternalMessageAdded
+  - CRMScript.NetServer.EventHandlerType.TicketExternalMessageAdded
+  - CRMScript.NetServer.EventHandlerType.TicketMessageSentimentCalculated
+  - CRMScript.NetServer.EventHandlerType.CompactModeInjection
+  - CRMScript.NetServer.EventHandlerType.CustomerCenterAuthentication
+  - CRMScript.NetServer.EventHandlerType.ScheduledTaskFailed
+  - CRMScript.NetServer.EventHandlerType.DbiTaskFailed
+  - CRMScript.NetServer.EventHandlerType.CustomerSetSubscriptions
+  - CRMScript.NetServer.EventHandlerType.ImportMailBeforeProcessing
+  - CRMScript.NetServer.EventHandlerType.ImportMailAfterProcessing
+  - CRMScript.NetServer.EventHandlerType.MainMenu
+  - CRMScript.NetServer.EventHandlerType.ChatNewSession
+  - CRMScript.NetServer.EventHandlerType.ChatSessionChangedStatus
+  - CRMScript.NetServer.EventHandlerType.ChatBeforeSaveNewMessage
+  - CRMScript.NetServer.EventHandlerType.ChatAfterSaveNewMessage
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenNewTicketLoad
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenNewQuickTicketLoad
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenListTicketMessagesLoad
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenAddMessageLoad
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenEditTicketLoad
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenViewCustomerLoad
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenEditCustomerLoad
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenViewCompanyLoad
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenEditCompanyLoad
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenForwardLoad
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenEditExtraTableLoad
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenNewTicketBeforeSubmit
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenNewQuickTicketBeforeSubmit
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenListTicketMessagesBeforeSubmit
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenAddMessageBeforeSubmit
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenEditTicketBeforeSubmit
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenViewCustomerBeforeSubmit
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenEditCustomerBeforeSubmit
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenViewCompanyBeforeSubmit
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenEditCompanyBeforeSubmit
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenForwardBeforeSubmit
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenEditExtraTableBeforeSubmit
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenNewTicketAfterSubmit
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenNewQuickTicketAfterSubmit
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenListTicketMessagesAfterSubmit
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenAddMessageAfterSubmit
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenEditTicketAfterSubmit
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenViewCustomerAfterSubmit
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenEditCustomerAfterSubmit
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenViewCompanyAfterSubmit
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenEditCompanyAfterSubmit
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenForwardAfterSubmit
+  - CRMScript.NetServer.EventHandlerType.ServiceScreenEditExtraTableAfterSubmit
+  - CRMScript.NetServer.EventHandlerType.SalesBeforeSaveAppointment
+  - CRMScript.NetServer.EventHandlerType.SalesBeforeSaveStakeholder
+  - CRMScript.NetServer.EventHandlerType.SalesBeforeSaveQuote
+  - CRMScript.NetServer.EventHandlerType.SalesBeforeSaveDocument
+  - CRMScript.NetServer.EventHandlerType.SalesBeforeSaveContact
+  - CRMScript.NetServer.EventHandlerType.SalesBeforeSavePerson
+  - CRMScript.NetServer.EventHandlerType.SalesBeforeSaveRelation
+  - CRMScript.NetServer.EventHandlerType.SalesBeforeSaveSale
+  - CRMScript.NetServer.EventHandlerType.SalesBeforeSaveProject
+  - CRMScript.NetServer.EventHandlerType.SalesBeforeSaveSelection
+  - CRMScript.NetServer.EventHandlerType.SalesBeforeSaveProjectMember
+  - CRMScript.NetServer.EventHandlerType.SalesBeforeSaveSelectionMember
+  - CRMScript.NetServer.EventHandlerType.SalesBeforeSaveQuoteLine
+  - CRMScript.NetServer.EventHandlerType.SalesAfterSaveAppointment
+  - CRMScript.NetServer.EventHandlerType.SalesAfterSaveStakeholder
+  - CRMScript.NetServer.EventHandlerType.SalesAfterSaveQuote
+  - CRMScript.NetServer.EventHandlerType.SalesAfterSaveDocument
+  - CRMScript.NetServer.EventHandlerType.SalesAfterSaveContact
+  - CRMScript.NetServer.EventHandlerType.SalesAfterSavePerson
+  - CRMScript.NetServer.EventHandlerType.SalesAfterSaveRelation
+  - CRMScript.NetServer.EventHandlerType.SalesAfterSaveSale
+  - CRMScript.NetServer.EventHandlerType.SalesAfterSaveProject
+  - CRMScript.NetServer.EventHandlerType.SalesAfterSaveSelection
+  - CRMScript.NetServer.EventHandlerType.SalesAfterSaveProjectMember
+  - CRMScript.NetServer.EventHandlerType.SalesAfterSaveSelectionMember
+  - CRMScript.NetServer.EventHandlerType.SalesAfterSaveQuoteLine
+  name: EventHandlerType
+  nameWithType: EventHandlerType
+  fullName: CRMScript.NetServer.EventHandlerType
+  type: Enum
+  summary: "\nCrmScript Event triggers - when CRMScript is run based on user or system actions.\n"
+- uid: CRMScript.NetServer.EventHandlerType.Unknown
+  commentId: F:CRMScript.NetServer.EventHandlerType.Unknown
+  id: EventHandlerType.Unknown
+  langs:
+  - crmscript
+  name: EventHandlerType.Unknown
+  nameWithType: EventHandlerType.Unknown
+  fullName: CRMScript.NetServer.EventHandlerType.Unknown
+  type: Field
+  summary: "\n0: Unknown trigger\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.NewTicket
+  commentId: F:CRMScript.NetServer.EventHandlerType.NewTicket
+  id: EventHandlerType.NewTicket
+  langs:
+  - crmscript
+  name: EventHandlerType.NewTicket
+  nameWithType: EventHandlerType.NewTicket
+  fullName: CRMScript.NetServer.EventHandlerType.NewTicket
+  type: Field
+  summary: "\n100: NewTicket\n"
+  syntax: 
+    content: NewTicket = 100
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.NewTicketFromCustomerCenter
+  commentId: F:CRMScript.NetServer.EventHandlerType.NewTicketFromCustomerCenter
+  id: EventHandlerType.NewTicketFromCustomerCenter
+  langs:
+  - crmscript
+  name: EventHandlerType.NewTicketFromCustomerCenter
+  nameWithType: EventHandlerType.NewTicketFromCustomerCenter
+  fullName: CRMScript.NetServer.EventHandlerType.NewTicketFromCustomerCenter
+  type: Field
+  summary: "\n101: NewTicketFromCustomerCenter\n"
+  syntax: 
+    content: NewTicketFromCustomerCenter = 101
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.NewTicketFromEmail
+  commentId: F:CRMScript.NetServer.EventHandlerType.NewTicketFromEmail
+  id: EventHandlerType.NewTicketFromEmail
+  langs:
+  - crmscript
+  name: EventHandlerType.NewTicketFromEmail
+  nameWithType: EventHandlerType.NewTicketFromEmail
+  fullName: CRMScript.NetServer.EventHandlerType.NewTicketFromEmail
+  type: Field
+  summary: "\n102: NewTicketFromEmail\n"
+  syntax: 
+    content: NewTicketFromEmail = 102
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.NewTicketFromCustomerCenterBeforeSave
+  commentId: F:CRMScript.NetServer.EventHandlerType.NewTicketFromCustomerCenterBeforeSave
+  id: EventHandlerType.NewTicketFromCustomerCenterBeforeSave
+  langs:
+  - crmscript
+  name: EventHandlerType.NewTicketFromCustomerCenterBeforeSave
+  nameWithType: EventHandlerType.NewTicketFromCustomerCenterBeforeSave
+  fullName: CRMScript.NetServer.EventHandlerType.NewTicketFromCustomerCenterBeforeSave
+  type: Field
+  summary: "\n103: NewTicketFromCustomerCenterBeforeSave\n"
+  syntax: 
+    content: NewTicketFromCustomerCenterBeforeSave = 103
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.NewTicketFromSpmLink
+  commentId: F:CRMScript.NetServer.EventHandlerType.NewTicketFromSpmLink
+  id: EventHandlerType.NewTicketFromSpmLink
+  langs:
+  - crmscript
+  name: EventHandlerType.NewTicketFromSpmLink
+  nameWithType: EventHandlerType.NewTicketFromSpmLink
+  fullName: CRMScript.NetServer.EventHandlerType.NewTicketFromSpmLink
+  type: Field
+  summary: "\n104: NewTicketFromSpmLink\n"
+  syntax: 
+    content: NewTicketFromSpmLink = 104
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.NewNotifyTicketFromForm
+  commentId: F:CRMScript.NetServer.EventHandlerType.NewNotifyTicketFromForm
+  id: EventHandlerType.NewNotifyTicketFromForm
+  langs:
+  - crmscript
+  name: EventHandlerType.NewNotifyTicketFromForm
+  nameWithType: EventHandlerType.NewNotifyTicketFromForm
+  fullName: CRMScript.NetServer.EventHandlerType.NewNotifyTicketFromForm
+  type: Field
+  summary: "\n105: NewNotifyTicketFromForm\n"
+  syntax: 
+    content: NewNotifyTicketFromForm = 105
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.NewTicketFromForm
+  commentId: F:CRMScript.NetServer.EventHandlerType.NewTicketFromForm
+  id: EventHandlerType.NewTicketFromForm
+  langs:
+  - crmscript
+  name: EventHandlerType.NewTicketFromForm
+  nameWithType: EventHandlerType.NewTicketFromForm
+  fullName: CRMScript.NetServer.EventHandlerType.NewTicketFromForm
+  type: Field
+  summary: "\n106: NewTicketFromForm\n"
+  syntax: 
+    content: NewTicketFromForm = 106
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.TicketSave
+  commentId: F:CRMScript.NetServer.EventHandlerType.TicketSave
+  id: EventHandlerType.TicketSave
+  langs:
+  - crmscript
+  name: EventHandlerType.TicketSave
+  nameWithType: EventHandlerType.TicketSave
+  fullName: CRMScript.NetServer.EventHandlerType.TicketSave
+  type: Field
+  summary: "\n109: TicketSave\n"
+  syntax: 
+    content: TicketSave = 109
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.TicketClosed
+  commentId: F:CRMScript.NetServer.EventHandlerType.TicketClosed
+  id: EventHandlerType.TicketClosed
+  langs:
+  - crmscript
+  name: EventHandlerType.TicketClosed
+  nameWithType: EventHandlerType.TicketClosed
+  fullName: CRMScript.NetServer.EventHandlerType.TicketClosed
+  type: Field
+  summary: "\n110: TicketClosed\n"
+  syntax: 
+    content: TicketClosed = 110
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.TicketPostponed
+  commentId: F:CRMScript.NetServer.EventHandlerType.TicketPostponed
+  id: EventHandlerType.TicketPostponed
+  langs:
+  - crmscript
+  name: EventHandlerType.TicketPostponed
+  nameWithType: EventHandlerType.TicketPostponed
+  fullName: CRMScript.NetServer.EventHandlerType.TicketPostponed
+  type: Field
+  summary: "\n111: TicketPostponed\n"
+  syntax: 
+    content: TicketPostponed = 111
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.TicketDeleted
+  commentId: F:CRMScript.NetServer.EventHandlerType.TicketDeleted
+  id: EventHandlerType.TicketDeleted
+  langs:
+  - crmscript
+  name: EventHandlerType.TicketDeleted
+  nameWithType: EventHandlerType.TicketDeleted
+  fullName: CRMScript.NetServer.EventHandlerType.TicketDeleted
+  type: Field
+  summary: "\n112: TicketDeleted\n"
+  syntax: 
+    content: TicketDeleted = 112
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.TicketActivated
+  commentId: F:CRMScript.NetServer.EventHandlerType.TicketActivated
+  id: EventHandlerType.TicketActivated
+  langs:
+  - crmscript
+  name: EventHandlerType.TicketActivated
+  nameWithType: EventHandlerType.TicketActivated
+  fullName: CRMScript.NetServer.EventHandlerType.TicketActivated
+  type: Field
+  summary: "\n113: TicketActivated\n"
+  syntax: 
+    content: TicketActivated = 113
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.TicketReopened
+  commentId: F:CRMScript.NetServer.EventHandlerType.TicketReopened
+  id: EventHandlerType.TicketReopened
+  langs:
+  - crmscript
+  name: EventHandlerType.TicketReopened
+  nameWithType: EventHandlerType.TicketReopened
+  fullName: CRMScript.NetServer.EventHandlerType.TicketReopened
+  type: Field
+  summary: "\n120: TicketReopened\n"
+  syntax: 
+    content: TicketReopened = 120
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.TicketReopenedFromCustomerCenter
+  commentId: F:CRMScript.NetServer.EventHandlerType.TicketReopenedFromCustomerCenter
+  id: EventHandlerType.TicketReopenedFromCustomerCenter
+  langs:
+  - crmscript
+  name: EventHandlerType.TicketReopenedFromCustomerCenter
+  nameWithType: EventHandlerType.TicketReopenedFromCustomerCenter
+  fullName: CRMScript.NetServer.EventHandlerType.TicketReopenedFromCustomerCenter
+  type: Field
+  summary: "\n121: TicketReopenedFromCustomerCenter\n"
+  syntax: 
+    content: TicketReopenedFromCustomerCenter = 121
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.TicketReopenedFromEmail
+  commentId: F:CRMScript.NetServer.EventHandlerType.TicketReopenedFromEmail
+  id: EventHandlerType.TicketReopenedFromEmail
+  langs:
+  - crmscript
+  name: EventHandlerType.TicketReopenedFromEmail
+  nameWithType: EventHandlerType.TicketReopenedFromEmail
+  fullName: CRMScript.NetServer.EventHandlerType.TicketReopenedFromEmail
+  type: Field
+  summary: "\n122: TicketReopenedFromEmail\n"
+  syntax: 
+    content: TicketReopenedFromEmail = 122
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.TicketChangedPriority
+  commentId: F:CRMScript.NetServer.EventHandlerType.TicketChangedPriority
+  id: EventHandlerType.TicketChangedPriority
+  langs:
+  - crmscript
+  name: EventHandlerType.TicketChangedPriority
+  nameWithType: EventHandlerType.TicketChangedPriority
+  fullName: CRMScript.NetServer.EventHandlerType.TicketChangedPriority
+  type: Field
+  summary: "\n140: TicketChangedPriority\n"
+  syntax: 
+    content: TicketChangedPriority = 140
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.TicketChangedCategory
+  commentId: F:CRMScript.NetServer.EventHandlerType.TicketChangedCategory
+  id: EventHandlerType.TicketChangedCategory
+  langs:
+  - crmscript
+  name: EventHandlerType.TicketChangedCategory
+  nameWithType: EventHandlerType.TicketChangedCategory
+  fullName: CRMScript.NetServer.EventHandlerType.TicketChangedCategory
+  type: Field
+  summary: "\n141: TicketChangedCategory\n"
+  syntax: 
+    content: TicketChangedCategory = 141
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.TicketChangedOwnedBy
+  commentId: F:CRMScript.NetServer.EventHandlerType.TicketChangedOwnedBy
+  id: EventHandlerType.TicketChangedOwnedBy
+  langs:
+  - crmscript
+  name: EventHandlerType.TicketChangedOwnedBy
+  nameWithType: EventHandlerType.TicketChangedOwnedBy
+  fullName: CRMScript.NetServer.EventHandlerType.TicketChangedOwnedBy
+  type: Field
+  summary: "\n142: TicketChangedOwnedBy\n"
+  syntax: 
+    content: TicketChangedOwnedBy = 142
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.TicketChangedPrimaryCustomer
+  commentId: F:CRMScript.NetServer.EventHandlerType.TicketChangedPrimaryCustomer
+  id: EventHandlerType.TicketChangedPrimaryCustomer
+  langs:
+  - crmscript
+  name: EventHandlerType.TicketChangedPrimaryCustomer
+  nameWithType: EventHandlerType.TicketChangedPrimaryCustomer
+  fullName: CRMScript.NetServer.EventHandlerType.TicketChangedPrimaryCustomer
+  type: Field
+  summary: "\n143: TicketChangedPrimaryCustomer\n"
+  syntax: 
+    content: TicketChangedPrimaryCustomer = 143
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.TicketChangedTicketStatus
+  commentId: F:CRMScript.NetServer.EventHandlerType.TicketChangedTicketStatus
+  id: EventHandlerType.TicketChangedTicketStatus
+  langs:
+  - crmscript
+  name: EventHandlerType.TicketChangedTicketStatus
+  nameWithType: EventHandlerType.TicketChangedTicketStatus
+  fullName: CRMScript.NetServer.EventHandlerType.TicketChangedTicketStatus
+  type: Field
+  summary: "\n144: TicketChangedTicketStatus\n"
+  syntax: 
+    content: TicketChangedTicketStatus = 144
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.TicketChangedSlevel
+  commentId: F:CRMScript.NetServer.EventHandlerType.TicketChangedSlevel
+  id: EventHandlerType.TicketChangedSlevel
+  langs:
+  - crmscript
+  name: EventHandlerType.TicketChangedSlevel
+  nameWithType: EventHandlerType.TicketChangedSlevel
+  fullName: CRMScript.NetServer.EventHandlerType.TicketChangedSlevel
+  type: Field
+  summary: "\n145: TicketChangedSlevel\n"
+  syntax: 
+    content: TicketChangedSlevel = 145
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.TicketMessageAdded
+  commentId: F:CRMScript.NetServer.EventHandlerType.TicketMessageAdded
+  id: EventHandlerType.TicketMessageAdded
+  langs:
+  - crmscript
+  name: EventHandlerType.TicketMessageAdded
+  nameWithType: EventHandlerType.TicketMessageAdded
+  fullName: CRMScript.NetServer.EventHandlerType.TicketMessageAdded
+  type: Field
+  summary: "\n150: TicketMessageAdded\n"
+  syntax: 
+    content: TicketMessageAdded = 150
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.TicketInternalMessageAdded
+  commentId: F:CRMScript.NetServer.EventHandlerType.TicketInternalMessageAdded
+  id: EventHandlerType.TicketInternalMessageAdded
+  langs:
+  - crmscript
+  name: EventHandlerType.TicketInternalMessageAdded
+  nameWithType: EventHandlerType.TicketInternalMessageAdded
+  fullName: CRMScript.NetServer.EventHandlerType.TicketInternalMessageAdded
+  type: Field
+  summary: "\n151: TicketInternalMessageAdded\n"
+  syntax: 
+    content: TicketInternalMessageAdded = 151
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.TicketExternalMessageAdded
+  commentId: F:CRMScript.NetServer.EventHandlerType.TicketExternalMessageAdded
+  id: EventHandlerType.TicketExternalMessageAdded
+  langs:
+  - crmscript
+  name: EventHandlerType.TicketExternalMessageAdded
+  nameWithType: EventHandlerType.TicketExternalMessageAdded
+  fullName: CRMScript.NetServer.EventHandlerType.TicketExternalMessageAdded
+  type: Field
+  summary: "\n152: TicketExternalMessageAdded\n"
+  syntax: 
+    content: TicketExternalMessageAdded = 152
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.TicketMessageSentimentCalculated
+  commentId: F:CRMScript.NetServer.EventHandlerType.TicketMessageSentimentCalculated
+  id: EventHandlerType.TicketMessageSentimentCalculated
+  langs:
+  - crmscript
+  name: EventHandlerType.TicketMessageSentimentCalculated
+  nameWithType: EventHandlerType.TicketMessageSentimentCalculated
+  fullName: CRMScript.NetServer.EventHandlerType.TicketMessageSentimentCalculated
+  type: Field
+  summary: "\n153: TicketMessageSentimentCalculated\n"
+  syntax: 
+    content: TicketMessageSentimentCalculated = 153
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.CompactModeInjection
+  commentId: F:CRMScript.NetServer.EventHandlerType.CompactModeInjection
+  id: EventHandlerType.CompactModeInjection
+  langs:
+  - crmscript
+  name: EventHandlerType.CompactModeInjection
+  nameWithType: EventHandlerType.CompactModeInjection
+  fullName: CRMScript.NetServer.EventHandlerType.CompactModeInjection
+  type: Field
+  summary: "\n200: CompactModeInjection\n"
+  syntax: 
+    content: CompactModeInjection = 200
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.CustomerCenterAuthentication
+  commentId: F:CRMScript.NetServer.EventHandlerType.CustomerCenterAuthentication
+  id: EventHandlerType.CustomerCenterAuthentication
+  langs:
+  - crmscript
+  name: EventHandlerType.CustomerCenterAuthentication
+  nameWithType: EventHandlerType.CustomerCenterAuthentication
+  fullName: CRMScript.NetServer.EventHandlerType.CustomerCenterAuthentication
+  type: Field
+  summary: "\n210: CustomerCenterAuthentication\n"
+  syntax: 
+    content: CustomerCenterAuthentication = 210
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ScheduledTaskFailed
+  commentId: F:CRMScript.NetServer.EventHandlerType.ScheduledTaskFailed
+  id: EventHandlerType.ScheduledTaskFailed
+  langs:
+  - crmscript
+  name: EventHandlerType.ScheduledTaskFailed
+  nameWithType: EventHandlerType.ScheduledTaskFailed
+  fullName: CRMScript.NetServer.EventHandlerType.ScheduledTaskFailed
+  type: Field
+  summary: "\n300: ScheduledTaskFailed\n"
+  syntax: 
+    content: ScheduledTaskFailed = 300
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.DbiTaskFailed
+  commentId: F:CRMScript.NetServer.EventHandlerType.DbiTaskFailed
+  id: EventHandlerType.DbiTaskFailed
+  langs:
+  - crmscript
+  name: EventHandlerType.DbiTaskFailed
+  nameWithType: EventHandlerType.DbiTaskFailed
+  fullName: CRMScript.NetServer.EventHandlerType.DbiTaskFailed
+  type: Field
+  summary: "\n301: DbiTaskFailed\n"
+  syntax: 
+    content: DbiTaskFailed = 301
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.CustomerSetSubscriptions
+  commentId: F:CRMScript.NetServer.EventHandlerType.CustomerSetSubscriptions
+  id: EventHandlerType.CustomerSetSubscriptions
+  langs:
+  - crmscript
+  name: EventHandlerType.CustomerSetSubscriptions
+  nameWithType: EventHandlerType.CustomerSetSubscriptions
+  fullName: CRMScript.NetServer.EventHandlerType.CustomerSetSubscriptions
+  type: Field
+  summary: "\n302: CustomerSetSubscriptions\n"
+  syntax: 
+    content: CustomerSetSubscriptions = 302
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ImportMailBeforeProcessing
+  commentId: F:CRMScript.NetServer.EventHandlerType.ImportMailBeforeProcessing
+  id: EventHandlerType.ImportMailBeforeProcessing
+  langs:
+  - crmscript
+  name: EventHandlerType.ImportMailBeforeProcessing
+  nameWithType: EventHandlerType.ImportMailBeforeProcessing
+  fullName: CRMScript.NetServer.EventHandlerType.ImportMailBeforeProcessing
+  type: Field
+  summary: "\n303: ImportMailBeforeProcessing\n"
+  syntax: 
+    content: ImportMailBeforeProcessing = 303
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ImportMailAfterProcessing
+  commentId: F:CRMScript.NetServer.EventHandlerType.ImportMailAfterProcessing
+  id: EventHandlerType.ImportMailAfterProcessing
+  langs:
+  - crmscript
+  name: EventHandlerType.ImportMailAfterProcessing
+  nameWithType: EventHandlerType.ImportMailAfterProcessing
+  fullName: CRMScript.NetServer.EventHandlerType.ImportMailAfterProcessing
+  type: Field
+  summary: "\n304: ImportMailAfterProcessing\n"
+  syntax: 
+    content: ImportMailAfterProcessing = 304
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.MainMenu
+  commentId: F:CRMScript.NetServer.EventHandlerType.MainMenu
+  id: EventHandlerType.MainMenu
+  langs:
+  - crmscript
+  name: EventHandlerType.MainMenu
+  nameWithType: EventHandlerType.MainMenu
+  fullName: CRMScript.NetServer.EventHandlerType.MainMenu
+  type: Field
+  summary: "\n305: MainMenu\n"
+  syntax: 
+    content: MainMenu = 305
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ChatNewSession
+  commentId: F:CRMScript.NetServer.EventHandlerType.ChatNewSession
+  id: EventHandlerType.ChatNewSession
+  langs:
+  - crmscript
+  name: EventHandlerType.ChatNewSession
+  nameWithType: EventHandlerType.ChatNewSession
+  fullName: CRMScript.NetServer.EventHandlerType.ChatNewSession
+  type: Field
+  summary: "\n400: ChatNewSession\n"
+  syntax: 
+    content: ChatNewSession = 400
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ChatSessionChangedStatus
+  commentId: F:CRMScript.NetServer.EventHandlerType.ChatSessionChangedStatus
+  id: EventHandlerType.ChatSessionChangedStatus
+  langs:
+  - crmscript
+  name: EventHandlerType.ChatSessionChangedStatus
+  nameWithType: EventHandlerType.ChatSessionChangedStatus
+  fullName: CRMScript.NetServer.EventHandlerType.ChatSessionChangedStatus
+  type: Field
+  summary: "\n401: ChatSessionChangedStatus\n"
+  syntax: 
+    content: ChatSessionChangedStatus = 401
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ChatBeforeSaveNewMessage
+  commentId: F:CRMScript.NetServer.EventHandlerType.ChatBeforeSaveNewMessage
+  id: EventHandlerType.ChatBeforeSaveNewMessage
+  langs:
+  - crmscript
+  name: EventHandlerType.ChatBeforeSaveNewMessage
+  nameWithType: EventHandlerType.ChatBeforeSaveNewMessage
+  fullName: CRMScript.NetServer.EventHandlerType.ChatBeforeSaveNewMessage
+  type: Field
+  summary: "\n402: ChatBeforeSaveNewMessage\n"
+  syntax: 
+    content: ChatBeforeSaveNewMessage = 402
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ChatAfterSaveNewMessage
+  commentId: F:CRMScript.NetServer.EventHandlerType.ChatAfterSaveNewMessage
+  id: EventHandlerType.ChatAfterSaveNewMessage
+  langs:
+  - crmscript
+  name: EventHandlerType.ChatAfterSaveNewMessage
+  nameWithType: EventHandlerType.ChatAfterSaveNewMessage
+  fullName: CRMScript.NetServer.EventHandlerType.ChatAfterSaveNewMessage
+  type: Field
+  summary: "\n403: ChatAfterSaveNewMessage\n"
+  syntax: 
+    content: ChatAfterSaveNewMessage = 403
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenNewTicketLoad
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenNewTicketLoad
+  id: EventHandlerType.ServiceScreenNewTicketLoad
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenNewTicketLoad
+  nameWithType: EventHandlerType.ServiceScreenNewTicketLoad
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenNewTicketLoad
+  type: Field
+  summary: "\n500: ServiceScreenNewTicketLoad\n"
+  syntax: 
+    content: ServiceScreenNewTicketLoad = 500
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenNewQuickTicketLoad
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenNewQuickTicketLoad
+  id: EventHandlerType.ServiceScreenNewQuickTicketLoad
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenNewQuickTicketLoad
+  nameWithType: EventHandlerType.ServiceScreenNewQuickTicketLoad
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenNewQuickTicketLoad
+  type: Field
+  summary: "\n501: ServiceScreenNewQuickTicketLoad\n"
+  syntax: 
+    content: ServiceScreenNewQuickTicketLoad = 501
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenListTicketMessagesLoad
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenListTicketMessagesLoad
+  id: EventHandlerType.ServiceScreenListTicketMessagesLoad
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenListTicketMessagesLoad
+  nameWithType: EventHandlerType.ServiceScreenListTicketMessagesLoad
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenListTicketMessagesLoad
+  type: Field
+  summary: "\n502: ServiceScreenListTicketMessagesLoad\n"
+  syntax: 
+    content: ServiceScreenListTicketMessagesLoad = 502
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenAddMessageLoad
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenAddMessageLoad
+  id: EventHandlerType.ServiceScreenAddMessageLoad
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenAddMessageLoad
+  nameWithType: EventHandlerType.ServiceScreenAddMessageLoad
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenAddMessageLoad
+  type: Field
+  summary: "\n503: ServiceScreenAddMessageLoad\n"
+  syntax: 
+    content: ServiceScreenAddMessageLoad = 503
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenEditTicketLoad
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenEditTicketLoad
+  id: EventHandlerType.ServiceScreenEditTicketLoad
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenEditTicketLoad
+  nameWithType: EventHandlerType.ServiceScreenEditTicketLoad
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenEditTicketLoad
+  type: Field
+  summary: "\n504: ServiceScreenEditTicketLoad\n"
+  syntax: 
+    content: ServiceScreenEditTicketLoad = 504
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenViewCustomerLoad
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenViewCustomerLoad
+  id: EventHandlerType.ServiceScreenViewCustomerLoad
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenViewCustomerLoad
+  nameWithType: EventHandlerType.ServiceScreenViewCustomerLoad
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenViewCustomerLoad
+  type: Field
+  summary: "\n505: ServiceScreenViewCustomerLoad\n"
+  syntax: 
+    content: ServiceScreenViewCustomerLoad = 505
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenEditCustomerLoad
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenEditCustomerLoad
+  id: EventHandlerType.ServiceScreenEditCustomerLoad
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenEditCustomerLoad
+  nameWithType: EventHandlerType.ServiceScreenEditCustomerLoad
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenEditCustomerLoad
+  type: Field
+  summary: "\n506: ServiceScreenEditCustomerLoad\n"
+  syntax: 
+    content: ServiceScreenEditCustomerLoad = 506
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenViewCompanyLoad
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenViewCompanyLoad
+  id: EventHandlerType.ServiceScreenViewCompanyLoad
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenViewCompanyLoad
+  nameWithType: EventHandlerType.ServiceScreenViewCompanyLoad
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenViewCompanyLoad
+  type: Field
+  summary: "\n507: ServiceScreenViewCompanyLoad\n"
+  syntax: 
+    content: ServiceScreenViewCompanyLoad = 507
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenEditCompanyLoad
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenEditCompanyLoad
+  id: EventHandlerType.ServiceScreenEditCompanyLoad
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenEditCompanyLoad
+  nameWithType: EventHandlerType.ServiceScreenEditCompanyLoad
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenEditCompanyLoad
+  type: Field
+  summary: "\n508: ServiceScreenEditCompanyLoad\n"
+  syntax: 
+    content: ServiceScreenEditCompanyLoad = 508
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenForwardLoad
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenForwardLoad
+  id: EventHandlerType.ServiceScreenForwardLoad
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenForwardLoad
+  nameWithType: EventHandlerType.ServiceScreenForwardLoad
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenForwardLoad
+  type: Field
+  summary: "\n509: ServiceScreenForwardLoad\n"
+  syntax: 
+    content: ServiceScreenForwardLoad = 509
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenEditExtraTableLoad
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenEditExtraTableLoad
+  id: EventHandlerType.ServiceScreenEditExtraTableLoad
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenEditExtraTableLoad
+  nameWithType: EventHandlerType.ServiceScreenEditExtraTableLoad
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenEditExtraTableLoad
+  type: Field
+  summary: "\n510: ServiceScreenEditExtraTableLoad\n"
+  syntax: 
+    content: ServiceScreenEditExtraTableLoad = 510
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenNewTicketBeforeSubmit
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenNewTicketBeforeSubmit
+  id: EventHandlerType.ServiceScreenNewTicketBeforeSubmit
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenNewTicketBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenNewTicketBeforeSubmit
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenNewTicketBeforeSubmit
+  type: Field
+  summary: "\n600: ServiceScreenNewTicketBeforeSubmit\n"
+  syntax: 
+    content: ServiceScreenNewTicketBeforeSubmit = 600
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenNewQuickTicketBeforeSubmit
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenNewQuickTicketBeforeSubmit
+  id: EventHandlerType.ServiceScreenNewQuickTicketBeforeSubmit
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenNewQuickTicketBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenNewQuickTicketBeforeSubmit
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenNewQuickTicketBeforeSubmit
+  type: Field
+  summary: "\n601: ServiceScreenNewQuickTicketBeforeSubmit\n"
+  syntax: 
+    content: ServiceScreenNewQuickTicketBeforeSubmit = 601
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenListTicketMessagesBeforeSubmit
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenListTicketMessagesBeforeSubmit
+  id: EventHandlerType.ServiceScreenListTicketMessagesBeforeSubmit
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenListTicketMessagesBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenListTicketMessagesBeforeSubmit
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenListTicketMessagesBeforeSubmit
+  type: Field
+  summary: "\n602: ServiceScreenListTicketMessagesBeforeSubmit\n"
+  syntax: 
+    content: ServiceScreenListTicketMessagesBeforeSubmit = 602
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenAddMessageBeforeSubmit
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenAddMessageBeforeSubmit
+  id: EventHandlerType.ServiceScreenAddMessageBeforeSubmit
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenAddMessageBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenAddMessageBeforeSubmit
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenAddMessageBeforeSubmit
+  type: Field
+  summary: "\n603: ServiceScreenAddMessageBeforeSubmit\n"
+  syntax: 
+    content: ServiceScreenAddMessageBeforeSubmit = 603
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenEditTicketBeforeSubmit
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenEditTicketBeforeSubmit
+  id: EventHandlerType.ServiceScreenEditTicketBeforeSubmit
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenEditTicketBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenEditTicketBeforeSubmit
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenEditTicketBeforeSubmit
+  type: Field
+  summary: "\n604: ServiceScreenEditTicketBeforeSubmit\n"
+  syntax: 
+    content: ServiceScreenEditTicketBeforeSubmit = 604
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenViewCustomerBeforeSubmit
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenViewCustomerBeforeSubmit
+  id: EventHandlerType.ServiceScreenViewCustomerBeforeSubmit
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenViewCustomerBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenViewCustomerBeforeSubmit
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenViewCustomerBeforeSubmit
+  type: Field
+  summary: "\n605: ServiceScreenViewCustomerBeforeSubmit\n"
+  syntax: 
+    content: ServiceScreenViewCustomerBeforeSubmit = 605
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenEditCustomerBeforeSubmit
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenEditCustomerBeforeSubmit
+  id: EventHandlerType.ServiceScreenEditCustomerBeforeSubmit
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenEditCustomerBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenEditCustomerBeforeSubmit
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenEditCustomerBeforeSubmit
+  type: Field
+  summary: "\n606: ServiceScreenEditCustomerBeforeSubmit\n"
+  syntax: 
+    content: ServiceScreenEditCustomerBeforeSubmit = 606
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenViewCompanyBeforeSubmit
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenViewCompanyBeforeSubmit
+  id: EventHandlerType.ServiceScreenViewCompanyBeforeSubmit
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenViewCompanyBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenViewCompanyBeforeSubmit
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenViewCompanyBeforeSubmit
+  type: Field
+  summary: "\n607: ServiceScreenViewCompanyBeforeSubmit\n"
+  syntax: 
+    content: ServiceScreenViewCompanyBeforeSubmit = 607
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenEditCompanyBeforeSubmit
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenEditCompanyBeforeSubmit
+  id: EventHandlerType.ServiceScreenEditCompanyBeforeSubmit
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenEditCompanyBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenEditCompanyBeforeSubmit
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenEditCompanyBeforeSubmit
+  type: Field
+  summary: "\n608: ServiceScreenEditCompanyBeforeSubmit\n"
+  syntax: 
+    content: ServiceScreenEditCompanyBeforeSubmit = 608
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenForwardBeforeSubmit
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenForwardBeforeSubmit
+  id: EventHandlerType.ServiceScreenForwardBeforeSubmit
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenForwardBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenForwardBeforeSubmit
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenForwardBeforeSubmit
+  type: Field
+  summary: "\n609: ServiceScreenForwardBeforeSubmit\n"
+  syntax: 
+    content: ServiceScreenForwardBeforeSubmit = 609
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenEditExtraTableBeforeSubmit
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenEditExtraTableBeforeSubmit
+  id: EventHandlerType.ServiceScreenEditExtraTableBeforeSubmit
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenEditExtraTableBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenEditExtraTableBeforeSubmit
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenEditExtraTableBeforeSubmit
+  type: Field
+  summary: "\n610: ServiceScreenEditExtraTableBeforeSubmit\n"
+  syntax: 
+    content: ServiceScreenEditExtraTableBeforeSubmit = 610
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenNewTicketAfterSubmit
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenNewTicketAfterSubmit
+  id: EventHandlerType.ServiceScreenNewTicketAfterSubmit
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenNewTicketAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenNewTicketAfterSubmit
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenNewTicketAfterSubmit
+  type: Field
+  summary: "\n700: ServiceScreenNewTicketAfterSubmit\n"
+  syntax: 
+    content: ServiceScreenNewTicketAfterSubmit = 700
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenNewQuickTicketAfterSubmit
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenNewQuickTicketAfterSubmit
+  id: EventHandlerType.ServiceScreenNewQuickTicketAfterSubmit
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenNewQuickTicketAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenNewQuickTicketAfterSubmit
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenNewQuickTicketAfterSubmit
+  type: Field
+  summary: "\n701: ServiceScreenNewQuickTicketAfterSubmit\n"
+  syntax: 
+    content: ServiceScreenNewQuickTicketAfterSubmit = 701
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenListTicketMessagesAfterSubmit
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenListTicketMessagesAfterSubmit
+  id: EventHandlerType.ServiceScreenListTicketMessagesAfterSubmit
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenListTicketMessagesAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenListTicketMessagesAfterSubmit
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenListTicketMessagesAfterSubmit
+  type: Field
+  summary: "\n702: ServiceScreenListTicketMessagesAfterSubmit\n"
+  syntax: 
+    content: ServiceScreenListTicketMessagesAfterSubmit = 702
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenAddMessageAfterSubmit
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenAddMessageAfterSubmit
+  id: EventHandlerType.ServiceScreenAddMessageAfterSubmit
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenAddMessageAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenAddMessageAfterSubmit
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenAddMessageAfterSubmit
+  type: Field
+  summary: "\n703: ServiceScreenAddMessageAfterSubmit\n"
+  syntax: 
+    content: ServiceScreenAddMessageAfterSubmit = 703
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenEditTicketAfterSubmit
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenEditTicketAfterSubmit
+  id: EventHandlerType.ServiceScreenEditTicketAfterSubmit
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenEditTicketAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenEditTicketAfterSubmit
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenEditTicketAfterSubmit
+  type: Field
+  summary: "\n704: ServiceScreenEditTicketAfterSubmit\n"
+  syntax: 
+    content: ServiceScreenEditTicketAfterSubmit = 704
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenViewCustomerAfterSubmit
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenViewCustomerAfterSubmit
+  id: EventHandlerType.ServiceScreenViewCustomerAfterSubmit
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenViewCustomerAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenViewCustomerAfterSubmit
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenViewCustomerAfterSubmit
+  type: Field
+  summary: "\n705: ServiceScreenViewCustomerAfterSubmit\n"
+  syntax: 
+    content: ServiceScreenViewCustomerAfterSubmit = 705
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenEditCustomerAfterSubmit
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenEditCustomerAfterSubmit
+  id: EventHandlerType.ServiceScreenEditCustomerAfterSubmit
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenEditCustomerAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenEditCustomerAfterSubmit
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenEditCustomerAfterSubmit
+  type: Field
+  summary: "\n706: ServiceScreenEditCustomerAfterSubmit\n"
+  syntax: 
+    content: ServiceScreenEditCustomerAfterSubmit = 706
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenViewCompanyAfterSubmit
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenViewCompanyAfterSubmit
+  id: EventHandlerType.ServiceScreenViewCompanyAfterSubmit
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenViewCompanyAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenViewCompanyAfterSubmit
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenViewCompanyAfterSubmit
+  type: Field
+  summary: "\n707: ServiceScreenViewCompanyAfterSubmit\n"
+  syntax: 
+    content: ServiceScreenViewCompanyAfterSubmit = 707
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenEditCompanyAfterSubmit
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenEditCompanyAfterSubmit
+  id: EventHandlerType.ServiceScreenEditCompanyAfterSubmit
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenEditCompanyAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenEditCompanyAfterSubmit
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenEditCompanyAfterSubmit
+  type: Field
+  summary: "\n708: ServiceScreenEditCompanyAfterSubmit\n"
+  syntax: 
+    content: ServiceScreenEditCompanyAfterSubmit = 708
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenForwardAfterSubmit
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenForwardAfterSubmit
+  id: EventHandlerType.ServiceScreenForwardAfterSubmit
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenForwardAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenForwardAfterSubmit
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenForwardAfterSubmit
+  type: Field
+  summary: "\n709: ServiceScreenForwardAfterSubmit\n"
+  syntax: 
+    content: ServiceScreenForwardAfterSubmit = 709
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.ServiceScreenEditExtraTableAfterSubmit
+  commentId: F:CRMScript.NetServer.EventHandlerType.ServiceScreenEditExtraTableAfterSubmit
+  id: EventHandlerType.ServiceScreenEditExtraTableAfterSubmit
+  langs:
+  - crmscript
+  name: EventHandlerType.ServiceScreenEditExtraTableAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenEditExtraTableAfterSubmit
+  fullName: CRMScript.NetServer.EventHandlerType.ServiceScreenEditExtraTableAfterSubmit
+  type: Field
+  summary: "\n710: ServiceScreenEditExtraTableAfterSubmit\n"
+  syntax: 
+    content: ServiceScreenEditExtraTableAfterSubmit = 710
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveAppointment
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesBeforeSaveAppointment
+  id: EventHandlerType.SalesBeforeSaveAppointment
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesBeforeSaveAppointment
+  nameWithType: EventHandlerType.SalesBeforeSaveAppointment
+  fullName: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveAppointment
+  type: Field
+  summary: "\n1001: SalesBeforeSaveAppointment\n"
+  syntax: 
+    content: SalesBeforeSaveAppointment = 1001
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveStakeholder
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesBeforeSaveStakeholder
+  id: EventHandlerType.SalesBeforeSaveStakeholder
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesBeforeSaveStakeholder
+  nameWithType: EventHandlerType.SalesBeforeSaveStakeholder
+  fullName: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveStakeholder
+  type: Field
+  summary: "\n1002: SalesBeforeSaveStakeholder\n"
+  syntax: 
+    content: SalesBeforeSaveStakeholder = 1002
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveQuote
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesBeforeSaveQuote
+  id: EventHandlerType.SalesBeforeSaveQuote
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesBeforeSaveQuote
+  nameWithType: EventHandlerType.SalesBeforeSaveQuote
+  fullName: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveQuote
+  type: Field
+  summary: "\n1003: SalesBeforeSaveQuote\n"
+  syntax: 
+    content: SalesBeforeSaveQuote = 1003
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveDocument
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesBeforeSaveDocument
+  id: EventHandlerType.SalesBeforeSaveDocument
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesBeforeSaveDocument
+  nameWithType: EventHandlerType.SalesBeforeSaveDocument
+  fullName: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveDocument
+  type: Field
+  summary: "\n1004: SalesBeforeSaveDocument\n"
+  syntax: 
+    content: SalesBeforeSaveDocument = 1004
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveContact
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesBeforeSaveContact
+  id: EventHandlerType.SalesBeforeSaveContact
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesBeforeSaveContact
+  nameWithType: EventHandlerType.SalesBeforeSaveContact
+  fullName: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveContact
+  type: Field
+  summary: "\n1005: SalesBeforeSaveContact\n"
+  syntax: 
+    content: SalesBeforeSaveContact = 1005
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesBeforeSavePerson
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesBeforeSavePerson
+  id: EventHandlerType.SalesBeforeSavePerson
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesBeforeSavePerson
+  nameWithType: EventHandlerType.SalesBeforeSavePerson
+  fullName: CRMScript.NetServer.EventHandlerType.SalesBeforeSavePerson
+  type: Field
+  summary: "\n1006: SalesBeforeSavePerson\n"
+  syntax: 
+    content: SalesBeforeSavePerson = 1006
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveRelation
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesBeforeSaveRelation
+  id: EventHandlerType.SalesBeforeSaveRelation
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesBeforeSaveRelation
+  nameWithType: EventHandlerType.SalesBeforeSaveRelation
+  fullName: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveRelation
+  type: Field
+  summary: "\n1007: SalesBeforeSaveRelation\n"
+  syntax: 
+    content: SalesBeforeSaveRelation = 1007
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveSale
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesBeforeSaveSale
+  id: EventHandlerType.SalesBeforeSaveSale
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesBeforeSaveSale
+  nameWithType: EventHandlerType.SalesBeforeSaveSale
+  fullName: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveSale
+  type: Field
+  summary: "\n1008: SalesBeforeSaveSale\n"
+  syntax: 
+    content: SalesBeforeSaveSale = 1008
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveProject
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesBeforeSaveProject
+  id: EventHandlerType.SalesBeforeSaveProject
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesBeforeSaveProject
+  nameWithType: EventHandlerType.SalesBeforeSaveProject
+  fullName: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveProject
+  type: Field
+  summary: "\n1009: SalesBeforeSaveProject\n"
+  syntax: 
+    content: SalesBeforeSaveProject = 1009
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveSelection
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesBeforeSaveSelection
+  id: EventHandlerType.SalesBeforeSaveSelection
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesBeforeSaveSelection
+  nameWithType: EventHandlerType.SalesBeforeSaveSelection
+  fullName: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveSelection
+  type: Field
+  summary: "\n1010: SalesBeforeSaveSelection\n"
+  syntax: 
+    content: SalesBeforeSaveSelection = 1010
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveProjectMember
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesBeforeSaveProjectMember
+  id: EventHandlerType.SalesBeforeSaveProjectMember
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesBeforeSaveProjectMember
+  nameWithType: EventHandlerType.SalesBeforeSaveProjectMember
+  fullName: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveProjectMember
+  type: Field
+  summary: "\n1011: SalesBeforeSaveProjectMember\n"
+  syntax: 
+    content: SalesBeforeSaveProjectMember = 1011
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveSelectionMember
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesBeforeSaveSelectionMember
+  id: EventHandlerType.SalesBeforeSaveSelectionMember
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesBeforeSaveSelectionMember
+  nameWithType: EventHandlerType.SalesBeforeSaveSelectionMember
+  fullName: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveSelectionMember
+  type: Field
+  summary: "\n1012: SalesBeforeSaveSelectionMember\n"
+  syntax: 
+    content: SalesBeforeSaveSelectionMember = 1012
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveQuoteLine
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesBeforeSaveQuoteLine
+  id: EventHandlerType.SalesBeforeSaveQuoteLine
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesBeforeSaveQuoteLine
+  nameWithType: EventHandlerType.SalesBeforeSaveQuoteLine
+  fullName: CRMScript.NetServer.EventHandlerType.SalesBeforeSaveQuoteLine
+  type: Field
+  summary: "\n1013: SalesBeforeSaveQuoteLine\n"
+  syntax: 
+    content: SalesBeforeSaveQuoteLine = 1013
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesAfterSaveAppointment
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesAfterSaveAppointment
+  id: EventHandlerType.SalesAfterSaveAppointment
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesAfterSaveAppointment
+  nameWithType: EventHandlerType.SalesAfterSaveAppointment
+  fullName: CRMScript.NetServer.EventHandlerType.SalesAfterSaveAppointment
+  type: Field
+  summary: "\n1101: SalesAfterSaveAppointment\n"
+  syntax: 
+    content: SalesAfterSaveAppointment = 1101
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesAfterSaveStakeholder
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesAfterSaveStakeholder
+  id: EventHandlerType.SalesAfterSaveStakeholder
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesAfterSaveStakeholder
+  nameWithType: EventHandlerType.SalesAfterSaveStakeholder
+  fullName: CRMScript.NetServer.EventHandlerType.SalesAfterSaveStakeholder
+  type: Field
+  summary: "\n1102: SalesAfterSaveStakeholder\n"
+  syntax: 
+    content: SalesAfterSaveStakeholder = 1102
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesAfterSaveQuote
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesAfterSaveQuote
+  id: EventHandlerType.SalesAfterSaveQuote
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesAfterSaveQuote
+  nameWithType: EventHandlerType.SalesAfterSaveQuote
+  fullName: CRMScript.NetServer.EventHandlerType.SalesAfterSaveQuote
+  type: Field
+  summary: "\n1103: SalesAfterSaveQuote\n"
+  syntax: 
+    content: SalesAfterSaveQuote = 1103
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesAfterSaveDocument
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesAfterSaveDocument
+  id: EventHandlerType.SalesAfterSaveDocument
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesAfterSaveDocument
+  nameWithType: EventHandlerType.SalesAfterSaveDocument
+  fullName: CRMScript.NetServer.EventHandlerType.SalesAfterSaveDocument
+  type: Field
+  summary: "\n1104: SalesAfterSaveDocument\n"
+  syntax: 
+    content: SalesAfterSaveDocument = 1104
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesAfterSaveContact
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesAfterSaveContact
+  id: EventHandlerType.SalesAfterSaveContact
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesAfterSaveContact
+  nameWithType: EventHandlerType.SalesAfterSaveContact
+  fullName: CRMScript.NetServer.EventHandlerType.SalesAfterSaveContact
+  type: Field
+  summary: "\n1105: SalesAfterSaveContact\n"
+  syntax: 
+    content: SalesAfterSaveContact = 1105
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesAfterSavePerson
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesAfterSavePerson
+  id: EventHandlerType.SalesAfterSavePerson
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesAfterSavePerson
+  nameWithType: EventHandlerType.SalesAfterSavePerson
+  fullName: CRMScript.NetServer.EventHandlerType.SalesAfterSavePerson
+  type: Field
+  summary: "\n1106: SalesAfterSavePerson\n"
+  syntax: 
+    content: SalesAfterSavePerson = 1106
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesAfterSaveRelation
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesAfterSaveRelation
+  id: EventHandlerType.SalesAfterSaveRelation
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesAfterSaveRelation
+  nameWithType: EventHandlerType.SalesAfterSaveRelation
+  fullName: CRMScript.NetServer.EventHandlerType.SalesAfterSaveRelation
+  type: Field
+  summary: "\n1107: SalesAfterSaveRelation\n"
+  syntax: 
+    content: SalesAfterSaveRelation = 1107
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesAfterSaveSale
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesAfterSaveSale
+  id: EventHandlerType.SalesAfterSaveSale
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesAfterSaveSale
+  nameWithType: EventHandlerType.SalesAfterSaveSale
+  fullName: CRMScript.NetServer.EventHandlerType.SalesAfterSaveSale
+  type: Field
+  summary: "\n1108: SalesAfterSaveSale\n"
+  syntax: 
+    content: SalesAfterSaveSale = 1108
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesAfterSaveProject
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesAfterSaveProject
+  id: EventHandlerType.SalesAfterSaveProject
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesAfterSaveProject
+  nameWithType: EventHandlerType.SalesAfterSaveProject
+  fullName: CRMScript.NetServer.EventHandlerType.SalesAfterSaveProject
+  type: Field
+  summary: "\n1109: SalesAfterSaveProject\n"
+  syntax: 
+    content: SalesAfterSaveProject = 1109
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesAfterSaveSelection
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesAfterSaveSelection
+  id: EventHandlerType.SalesAfterSaveSelection
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesAfterSaveSelection
+  nameWithType: EventHandlerType.SalesAfterSaveSelection
+  fullName: CRMScript.NetServer.EventHandlerType.SalesAfterSaveSelection
+  type: Field
+  summary: "\n1110: SalesAfterSaveSelection\n"
+  syntax: 
+    content: SalesAfterSaveSelection = 1110
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesAfterSaveProjectMember
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesAfterSaveProjectMember
+  id: EventHandlerType.SalesAfterSaveProjectMember
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesAfterSaveProjectMember
+  nameWithType: EventHandlerType.SalesAfterSaveProjectMember
+  fullName: CRMScript.NetServer.EventHandlerType.SalesAfterSaveProjectMember
+  type: Field
+  summary: "\n1111: SalesAfterSaveProjectMember\n"
+  syntax: 
+    content: SalesAfterSaveProjectMember = 1111
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesAfterSaveSelectionMember
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesAfterSaveSelectionMember
+  id: EventHandlerType.SalesAfterSaveSelectionMember
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesAfterSaveSelectionMember
+  nameWithType: EventHandlerType.SalesAfterSaveSelectionMember
+  fullName: CRMScript.NetServer.EventHandlerType.SalesAfterSaveSelectionMember
+  type: Field
+  summary: "\n1112: SalesAfterSaveSelectionMember\n"
+  syntax: 
+    content: SalesAfterSaveSelectionMember = 1112
+    type: CRMScript.NetServer.EventHandlerType
+- uid: CRMScript.NetServer.EventHandlerType.SalesAfterSaveQuoteLine
+  commentId: F:CRMScript.NetServer.EventHandlerType.SalesAfterSaveQuoteLine
+  id: EventHandlerType.SalesAfterSaveQuoteLine
+  langs:
+  - crmscript
+  name: EventHandlerType.SalesAfterSaveQuoteLine
+  nameWithType: EventHandlerType.SalesAfterSaveQuoteLine
+  fullName: CRMScript.NetServer.EventHandlerType.SalesAfterSaveQuoteLine
+  type: Field
+  summary: "\n1113: SalesAfterSaveQuoteLine\n"
+  syntax: 
+    content: SalesAfterSaveQuoteLine = 1113
+    type: CRMScript.NetServer.EventHandlerType
+references:
+- uid: CRMScript.NetServer.EventHandlerType
+  commentId: T:CRMScript.NetServer.EventHandlerType
+  isExternal: true
+  name: EventHandlerType
+  nameWithType: EventHandlerType
+  fullName: CRMScript.NetServer.EventHandlerType

@@ -4,7 +4,7 @@ title: Bool data type
 author:
 so.date:
 keywords:
-so.topic:
+so.topic: concept
 ---
 
 # Bool data type

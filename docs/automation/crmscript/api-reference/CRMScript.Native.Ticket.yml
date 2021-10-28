@@ -1,0 +1,598 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.Ticket
+  commentId: T:CRMScript.Native.Ticket
+  id: Ticket
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.Ticket.#ctor
+  - CRMScript.Native.Ticket.addSecondaryCustomers(Vector)
+  - CRMScript.Native.Ticket.buildEmailSubject()
+  - CRMScript.Native.Ticket.checkEscalating(Integer)
+  - CRMScript.Native.Ticket.delegate()
+  - CRMScript.Native.Ticket.delegate(Integer)
+  - CRMScript.Native.Ticket.getInvolvedOnly()
+  - CRMScript.Native.Ticket.getMailFrom()
+  - CRMScript.Native.Ticket.getOwnerEmail()
+  - CRMScript.Native.Ticket.getOwnerSms()
+  - CRMScript.Native.Ticket.getValue(String)
+  - CRMScript.Native.Ticket.load(Integer)
+  - CRMScript.Native.Ticket.log(String)
+  - CRMScript.Native.Ticket.log(String,String)
+  - CRMScript.Native.Ticket.notifyEmail(Integer)
+  - CRMScript.Native.Ticket.save()
+  - CRMScript.Native.Ticket.save(String)
+  - CRMScript.Native.Ticket.save(Bool,Bool)
+  - CRMScript.Native.Ticket.save(String,Bool,Bool)
+  - CRMScript.Native.Ticket.sendMessages(String,StringMatrix,Bool,String,Integer,String)
+  - CRMScript.Native.Ticket.setValue(String,String)
+  - CRMScript.Native.Ticket.toParser(Parser)
+  - CRMScript.Native.Ticket.toParserRaw(Parser)
+  name: Ticket
+  nameWithType: Ticket
+  fullName: CRMScript.Native.Ticket
+  type: Class
+  summary: "\nClass for representing an SuperOffice Service Ticket.\n"
+  example: 
+  - "\n<pre><code>Ticket t;\n\nt.load(2); // Loads the ticket with id = 2\nprint(t.getValue(&quot;ticketStatus&quot;));\nt.setValue(&quot;title&quot;, &quot;Test&quot;);\nt.setValue(&quot;status&quot;, &quot;1&quot;);\nDateTime d; // Default value for DateTime is now\nt.setValue(&quot;dbiLastModified&quot;, d.toString());\nprint(t.getOwnerEmail()); // Prints name and email of owner</code></pre>\n"
+- uid: CRMScript.Native.Ticket.#ctor
+  commentId: M:CRMScript.Native.Ticket.#ctor
+  id: '#ctor'
+  so.intellisense: Void.Ticket
+  langs:
+  - crmscript
+  name: Ticket()
+  nameWithType: Ticket.#ctor
+  fullName: CRMScript.Native.Ticket.#ctor
+  type: Constructor
+  summary: "\nClass for representing an SuperOffice Service Ticket.\n"
+  remarks: 
+  syntax: 
+    content: Ticket
+  example: 
+  - "\n<pre><code>Ticket t;\n\nt.load(2); // Loads the ticket with id = 2\nprint(t.getValue(&quot;ticketStatus&quot;));\nt.setValue(&quot;title&quot;, &quot;Test&quot;);\nt.setValue(&quot;status&quot;, &quot;1&quot;);\nDateTime d; // Default value for DateTime is now\nt.setValue(&quot;dbiLastModified&quot;, d.toString());\nprint(t.getOwnerEmail()); // Prints name and email of owner</code></pre>\n"
+- uid: CRMScript.Native.Ticket.addSecondaryCustomers(Vector)
+  commentId: M:CRMScript.Native.Ticket.addSecondaryCustomers(Vector)
+  id: 'addSecondaryCustomers(Vector)'
+  so.intellisense: Ticket.addSecondaryCustomers
+  langs:
+  - crmscript
+  name: 'addSecondaryCustomers(Vector)'
+  nameWithType: Ticket.addSecondaryCustomers(Vector)
+  fullName: CRMScript.Native.Ticket.addSecondaryCustomers(Vector)
+  type: Method
+  summary: "\nAdd secondary customers to the ticket.\n"
+  remarks: 
+  syntax: 
+    content: addSecondaryCustomers(Vector ids)
+    parameters:
+    - id: ids
+      type: CRMScript.Native.Vector
+      description: "An array of Strings containing the customerIds to add as secondary customers on the ticket."
+    return: 
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.Ticket.buildEmailSubject()
+  commentId: M:CRMScript.Native.Ticket.buildEmailSubject()
+  id: 'buildEmailSubject()'
+  so.intellisense: Ticket.buildEmailSubject
+  langs:
+  - crmscript
+  name: 'buildEmailSubject()'
+  nameWithType: Ticket.buildEmailSubject()
+  fullName: CRMScript.Native.Ticket.buildEmailSubject()
+  type: Method
+  summary: "\nreturns a String composed by the Mail tag, the ticketId and the title of the ticket\n"
+  remarks: 
+  syntax: 
+    content: String buildEmailSubject()
+    parameters:
+    return:
+      type: CRMScript.Global.String
+      description: "A String composed by the Mail tag, the ticketId and the title of the ticket."
+  example: 
+- uid: CRMScript.Native.Ticket.checkEscalating(Integer)
+  commentId: M:CRMScript.Native.Ticket.checkEscalating(Integer)
+  id: 'checkEscalating(Integer)'
+  so.intellisense: Ticket.checkEscalating
+  langs:
+  - crmscript
+  name: 'checkEscalating(Integer)'
+  nameWithType: Ticket.checkEscalating(Integer)
+  fullName: CRMScript.Native.Ticket.checkEscalating(Integer)
+  type: Method
+  summary: "\nThis function does a check according to the ticket's priority and the input action. The effect of calling this function might be that the escalation stops, restarts or continues.\n"
+  remarks: "\nPossible values:<ul><li>ActionRead = 0</li><li>ActionChangedOwner = 1</li><li>ActionNewInfo = 2</li><li>ActionClosed = 3</li><li>ActionChangedPriority = 4</li><li>ActionNew = 5</li></ul>\n"
+  syntax: 
+    content: Void checkEscalating(Integer action)
+    parameters:
+    - id: action
+      type: CRMScript.Global.Integer
+      description: "As an Integer."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.Ticket.delegate()
+  commentId: M:CRMScript.Native.Ticket.delegate()
+  id: 'delegate()'
+  so.intellisense: Ticket.delegate
+  langs:
+  - crmscript
+  name: 'delegate()'
+  nameWithType: Ticket.delegate()
+  fullName: CRMScript.Native.Ticket.delegate()
+  type: Method
+  summary: "\nDelegates a ticket to a user according to the rules on the category.<p></p>\nFor this function to take effect, you have to call<code>Ticket.save()</code>.\n"
+  remarks: 
+  syntax: 
+    content: delegate()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.Ticket.delegate(Integer)
+  commentId: M:CRMScript.Native.Ticket.delegate(Integer)
+  id: 'delegate(Integer)'
+  so.intellisense: Ticket.delegate
+  langs:
+  - crmscript
+  name: 'delegate(Integer)'
+  nameWithType: Ticket.delegate(Integer)
+  fullName: CRMScript.Native.Ticket.delegate(Integer)
+  type: Method
+  summary: "\nDelegates a ticket to a user according to the rules on the category. You can optionally specify a user ID not to delegate to.<p></p>\nFor this function to take effect, you have to call<code>Ticket.save()</code>.\n"
+  remarks: 
+  syntax: 
+    content: delegate(Integer notUser)
+    parameters:
+    - id: notUser
+      type: CRMScript.Global.Integer
+      description: "The ID of a user you do not want to delegate to."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.Ticket.getInvolvedOnly()
+  commentId: M:CRMScript.Native.Ticket.getInvolvedOnly()
+  id: 'getInvolvedOnly()'
+  so.intellisense: Ticket.getInvolvedOnly
+  langs:
+  - crmscript
+  name: 'getInvolvedOnly()'
+  nameWithType: Ticket.getInvolvedOnly()
+  fullName: CRMScript.Native.Ticket.getInvolvedOnly()
+  type: Method
+  summary: "\nReturns a comma-separated list of the email-addresses of all customers that is not a connected customer to this ticket, but who has received a message on this ticket.\n"
+  remarks: 
+  syntax: 
+    content: String getInvolvedOnly()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A comma-separated list of email-addresses."
+  example: 
+- uid: CRMScript.Native.Ticket.getMailFrom()
+  commentId: M:CRMScript.Native.Ticket.getMailFrom()
+  id: 'getMailFrom()'
+  so.intellisense: Ticket.getMailFrom
+  langs:
+  - crmscript
+  name: 'getMailFrom()'
+  nameWithType: Ticket.getMailFrom()
+  fullName: CRMScript.Native.Ticket.getMailFrom()
+  type: Method
+  summary: "\nThis function determines and returns the most appropriate from-address, when sending a mail-message on a ticket.\n"
+  remarks: 
+  syntax: 
+    content: String getMailFrom()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The most appropriate from-address specified on with address, the ticket has arrived on, the category, etc."
+  example: 
+- uid: CRMScript.Native.Ticket.getOwnerEmail()
+  commentId: M:CRMScript.Native.Ticket.getOwnerEmail()
+  id: 'getOwnerEmail()'
+  so.intellisense: Ticket.getOwnerEmail
+  langs:
+  - crmscript
+  name: 'getOwnerEmail()'
+  nameWithType: Ticket.getOwnerEmail()
+  fullName: CRMScript.Native.Ticket.getOwnerEmail()
+  type: Method
+  summary: "\nThis function returns the owner of the ticket printed as &quot;Name&quot; &lt;email-addr&gt;.\n"
+  remarks: 
+  syntax: 
+    content: String getOwnerEmail()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The owners name and email-address."
+  example: 
+- uid: CRMScript.Native.Ticket.getOwnerSms()
+  commentId: M:CRMScript.Native.Ticket.getOwnerSms()
+  id: 'getOwnerSms()'
+  so.intellisense: Ticket.getOwnerSms
+  langs:
+  - crmscript
+  name: 'getOwnerSms()'
+  nameWithType: Ticket.getOwnerSms()
+  fullName: CRMScript.Native.Ticket.getOwnerSms()
+  type: Method
+  summary: "\nThis function returns the cellphone number of the owner of the ticket\n"
+  remarks: 
+  syntax: 
+    content: String getOwnerSms()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The cellphone number of the owner of the ticket as a String."
+  example: 
+- uid: CRMScript.Native.Ticket.getValue(String)
+  commentId: M:CRMScript.Native.Ticket.getValue(String)
+  id: 'getValue(String)'
+  so.intellisense: Ticket.getValue
+  langs:
+  - crmscript
+  name: 'getValue(String)'
+  nameWithType: Ticket.getValue(String)
+  fullName: CRMScript.Native.Ticket.getValue(String)
+  type: Method
+  summary: "\nGets the value of given column name as a String\n"
+  remarks: "\nPossible values:<ul><li>id</li><li>title</li><li>category: the ID</li><li>ownedBy: (owned_by), the ID of the user who owns the ticket</li><li>slevel: the security level of the ticket, 1 is internal, 2 is external</li><li>priority: the id</li><li>status: 1 = active, 2 = closed, 3 = postponed, 4 = deleted, 5 = composed</li><li>ticketStatus</li><li>custId: the ID of the primary customer</li><li>createdBy: the ID of the user who posted the ticket, 1 if the ticket is posted into the system</li><li>author</li><li>activate: the datetime when the ticket was activated</li><li>createdAt: (created_at), the datetime when the ticket was created</li><li>closedAt: (closed_at), the datetime when the ticket was closed</li><li>repliedAt: (replied_at), the datetime when the ticket first was replied at</li><li>origCategory: the original category</li><li>origPriority: the original priority</li><li>isInEscalation</li><li>displayFilter</li><li>filterId</li><li>filterAddress</li><li>readStatus</li><li>deadline</li><li>readByOwner</li><li>firstReadByUser</li><li>firstReadByOwner</li></ul>\n"
+  syntax: 
+    content: String getValue(String colName)
+    parameters:
+    - id: colName
+      type: CRMScript.Global.String
+      description: "The name of the wanted column."
+    return:
+      type: CRMScript.Global.String
+      description: "Returns a string representation of the wanted value."
+  example: 
+- uid: CRMScript.Native.Ticket.load(Integer)
+  commentId: M:CRMScript.Native.Ticket.load(Integer)
+  id: 'load(Integer)'
+  so.intellisense: Ticket.load
+  langs:
+  - crmscript
+  name: 'load(Integer)'
+  nameWithType: Ticket.load(Integer)
+  fullName: CRMScript.Native.Ticket.load(Integer)
+  type: Method
+  summary: "\nLoad ticket with given id into this object, return true if successful, false otherwise.\n"
+  remarks: 
+  syntax: 
+    content: Bool load(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+- uid: CRMScript.Native.Ticket.log(String)
+  commentId: M:CRMScript.Native.Ticket.log(String)
+  id: 'log(String)'
+  so.intellisense: Ticket.log
+  langs:
+  - crmscript
+  name: 'log(String)'
+  nameWithType: Ticket.log(String)
+  fullName: CRMScript.Native.Ticket.log(String)
+  type: Method
+  summary: "\nWrites a message to the ticket log. Used for logging changes and events on a ticket\n"
+  remarks: 
+  syntax: 
+    content: log(String message)
+    parameters:
+    - id: message
+      type: CRMScript.Global.String
+      description: "The message to log."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.Native.Ticket.log(String,String)
+  commentId: M:CRMScript.Native.Ticket.log(String,String)
+  id: 'log(String,String)'
+  so.intellisense: Ticket.log
+  langs:
+  - crmscript
+  name: 'log(String,String)'
+  nameWithType: Ticket.log(String,String)
+  fullName: CRMScript.Native.Ticket.log(String,String)
+  type: Method
+  summary: "\nWrites a message to the ticket log. Used for logging changes and events on a ticket\n"
+  remarks: 
+  syntax: 
+    content: log(String who, String message)
+    parameters:
+    - id: who
+      type: CRMScript.Global.String
+      description: "The name of the user that made the change to log"
+    - id: message
+      type: CRMScript.Global.String
+      description: "The message to log."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.Native.Ticket.notifyEmail(Integer)
+  commentId: M:CRMScript.Native.Ticket.notifyEmail(Integer)
+  id: 'notifyEmail(Integer)'
+  so.intellisense: Ticket.notifyEmail
+  langs:
+  - crmscript
+  name: 'notifyEmail(Integer)'
+  nameWithType: Ticket.notifyEmail(Integer)
+  fullName: CRMScript.Native.Ticket.notifyEmail(Integer)
+  type: Method
+  summary: "\nThis function sends a notify-email (a replyTemplate) to the owner of the ticket.\nTo use for events like new ticket, new message on ticket etc.\n"
+  remarks: 
+  syntax: 
+    content: Bool notifyEmail(Integer replyTemplateId)
+    parameters:
+    - id: replyTemplateId
+      type: CRMScript.Global.Integer
+      description: "The ID of the replyTemplate you want to send."
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+- uid: CRMScript.Native.Ticket.save()
+  commentId: M:CRMScript.Native.Ticket.save()
+  id: 'save()'
+  so.intellisense: Ticket.save
+  langs:
+  - crmscript
+  name: 'save()'
+  nameWithType: Ticket.save()
+  fullName: CRMScript.Native.Ticket.save()
+  type: Method
+  summary: "\nSaves the ticket and returns the database ID of the stored ticket.\n"
+  remarks: 
+  syntax: 
+    content: Integer save()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the saved ticket."
+  example: 
+- uid: CRMScript.Native.Ticket.save(String)
+  commentId: M:CRMScript.Native.Ticket.save(String)
+  id: 'save(String)'
+  so.intellisense: Ticket.save
+  langs:
+  - crmscript
+  name: 'save(String)'
+  nameWithType: Ticket.save(String)
+  fullName: CRMScript.Native.Ticket.save(String)
+  type: Method
+  summary: "\nSaves the ticket and returns the database ID of the stored ticket.\n"
+  remarks: 
+  syntax: 
+    content: Integer save(String log)
+    parameters:
+    - id: log
+      type: CRMScript.Global.String
+      description: "A String that will be saved in the log of the ticket."
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the saved ticket."
+  example:
+- uid: CRMScript.Native.Ticket.save(Bool,Bool)
+  commentId: M:CRMScript.Native.Ticket.save(Bool,Bool)
+  id: 'save(Bool,Bool)'
+  so.intellisense: Ticket.save
+  langs:
+  - crmscript
+  name: 'save(Bool,Bool)'
+  nameWithType: Ticket.save(Bool,Bool)
+  fullName: CRMScript.Native.Ticket.save(Bool,Bool)
+  type: Method
+  summary: "\nSaves the ticket and returns the database ID of the stored ticket.\n"
+  remarks: 
+  syntax: 
+    content: Integer save(Bool setReadStatus,Bool doNotCheckEscalating)
+    parameters:
+    - id: setReadStatus
+      type: CRMScript.Global.Bool
+      description: "Whether to calculate and set the read status on save. True = yes"
+    - id: doNotCheckEscalating
+      type: CRMScript.Global.Bool
+      description: "True if you do NOT want the changes done on the ticket to result in a possible escalation, otherwise false."
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the saved ticket."
+  example:
+- uid: CRMScript.Native.Ticket.save(String,Bool,Bool)
+  commentId: M:CRMScript.Native.Ticket.save(String,Bool,Bool)
+  id: 'save(String,Bool,Bool)'
+  so.intellisense: Ticket.save
+  langs:
+  - crmscript
+  name: 'save(String,Bool,Bool)'
+  nameWithType: Ticket.save(String,Bool,Bool)
+  fullName: CRMScript.Native.Ticket.save(String,Bool,Bool)
+  type: Method
+  summary: "\nSaves the ticket and returns the database ID of the stored ticket.\n"
+  remarks: 
+  syntax: 
+    content: Integer save(String log,Bool setReadStatus,Bool doNotCheckEscalating)
+    parameters:
+    - id: log
+      type: CRMScript.Global.String
+      description: "A String that will be saved in the log of the ticket"
+    - id: setReadStatus
+      type: CRMScript.Global.Bool
+      description: "Whether to calculate and set the read status on save. True = yes"
+    - id: doNotCheckEscalating
+      type: CRMScript.Global.Bool
+      description: "True if you do NOT want the changes done on the ticket to result in a possible escalation, otherwise false."
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the saved ticket."
+  example: 
+- uid: CRMScript.Native.Ticket.sendMessages(String,StringMatrix,Bool,String,Integer,String)
+  commentId: M:CRMScript.Native.Ticket.sendMessages(String,StringMatrix,Bool,String,Integer,String)
+  id: 'sendMessages(String,StringMatrix,Bool,String,Integer,String)'
+  so.intellisense: Ticket.sendMessages
+  langs:
+  - crmscript
+  name: 'sendMessages(String,StringMatrix,Bool,String,Integer,String)'
+  nameWithType: Ticket.sendMessages(String,StringMatrix,Bool,String,Integer,String)
+  fullName: CRMScript.Native.Ticket.sendMessages(String,StringMatrix,Bool,String,Integer,String)
+  type: Method
+  summary: "\nWill send the given messages just like the forward ticket functionality in the GUI. The forwarded messages are separated by a line, and the comment is placed on top of the mail.\n"
+  remarks: "\nThe recipients string matrix is formatted like this:<p></p>To | John Doe &lt;john.doe@john.doe&gt; Cc | jane Doe &lt;jane.doe@jane.doe&gt;\n"
+  syntax: 
+    content: Bool sendMessages(String subject, StringMatrix recipients, Bool fromCust, String messages, Integer msgId, String comment)
+    parameters:
+    - id: subject
+      type: CRMScript.Global.String
+      description: "The mail subject, maybe ticket.title."
+    - id: recipients
+      type: CRMScript.Native.StringMatrix
+      description: "String matrix with recipients"
+    - id: fromCust
+      type: CRMScript.Global.Bool
+      description: "Email address from ticket or customer"
+    - id: messages
+      type: CRMScript.Global.String
+      description: "Comma-separated list of message IDs to forward"
+    - id: msgId
+      type: CRMScript.Global.Integer
+      description: "ID of added 'forward' message or -1"
+    - id: comment
+      type: CRMScript.Global.String
+      description: "A comment that will be above the forwarded messages."
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+- uid: CRMScript.Native.Ticket.setValue(String,String)
+  commentId: M:CRMScript.Native.Ticket.setValue(String,String)
+  id: 'setValue(String,String)'
+  so.intellisense: Ticket.setValue
+  langs:
+  - crmscript
+  name: 'setValue(String,String)'
+  nameWithType: Ticket.setValue(String,String)
+  fullName: CRMScript.Native.Ticket.setValue(String,String)
+  type: Method
+  summary: "\nSets column colName to the given value.\nObs: For this to actually affect the ticket, you will have to use the function save() after you have set all the values you want.\n"
+  remarks: "\nPossible values are the extrafields on the ticket and the following:</p><ul><li>category: the category ID</li><li>ownedBy: (owned_by), the ID of the user who owns the ticket</li><li>slevel: the security level of the ticket, See <xref href=\"CRMScript.NetServer.TicketSecurityLevel\" data-throw-if-not-resolved=\"false\"></xref>.</li><li>priority: the id</li><li>status: 1 = active, 2 = closed, 3 = postponed, 4 = deleted, 5 = composed</li><li>ticketStatus: (ticket_status), the ID of the custom status field</li><li>custId: the ID of the primary customer</li><li>customers: comma-separated list of customer ids</li><li>createdBy: the ID of the user who posted the ticket, 1 if the ticket is posted into the system</li><li>author: a string containing the name of the ticket author</li><li>activate: the datetime when the ticket was activated</li><li>createdAt: (created_at), the datetime when the ticket was created</li><li>repliedAt: (replied_at), the datetime when the ticket first was replied at</li><li>stopEscalation</li><li>readStatus (read_status)</li><li>deadline</li><li>filterAddress</li><li>timeToClose</li><li>realTimeToClose</li><li>dbiAgentId</li><li>dbiKey</li><li>dbiLastModified</li></ul>\n"
+  syntax: 
+    content: Void setValue(String colName, String value)
+    parameters:
+    - id: colName
+      type: CRMScript.Global.String
+      description: 
+    - id: value
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.Native.Ticket.toParser(Parser)
+  commentId: M:CRMScript.Native.Ticket.toParser(Parser)
+  id: 'toParser(Parser)'
+  so.intellisense: Ticket.toParser
+  langs:
+  - crmscript
+  name: 'toParser(Parser)'
+  nameWithType: Ticket.toParser()
+  fullName: CRMScript.Native.Ticket.toParser(Parser)
+  type: Method
+  summary: "\nThis function will fill the variable space of the Parser with all values of the ticket.\nAs opposed to the function toParserRaw(), the String variables title and author are in html.\n"
+  remarks: 
+  syntax: 
+    content: Void toParser(Parser theParser)
+    parameters:
+      - id: theParser
+        type: CRMScript.Native.Parser
+        description: "The parser who will be filled with ticket-values."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.Native.Ticket.toParserRaw(Parser)
+  commentId: M:CRMScript.Native.Ticket.toParserRaw(Parser)
+  id: 'toParserRaw(Parser)'
+  so.intellisense: Ticket.toParserRaw
+  langs:
+  - crmscript
+  name: 'toParserRaw(Parser)'
+  nameWithType: Ticket.toParserRaw(Parser)
+  fullName: CRMScript.Native.Ticket.toParserRaw(Parser)
+  type: Method
+  summary: "\nThis function fills the Parser with the values of the ticket.\nAs opposed to the function toParser() who set several of the String-values as html, all these variables will be in plain text.\n"
+  remarks: 
+  syntax: 
+    content: toParserRaw(Parser theParser)
+    parameters:
+      - id: theParser
+        type: CRMScript.Native.Parser
+        description: "The parser who will be filled with ticket-values."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+references:
+- uid: CRMScript.Native.Ticket
+  commentId: T:CRMScript.Native.Ticket
+  isExternal: true
+  name: Ticket
+  nameWithType: Ticket
+  fullName: CRMScript.Native.Ticket
+- uid: CRMScript.Native.Vector
+  commentId: T:CRMScript.Native.Vector
+  isExternal: true
+  name: Vector
+  nameWithType: Vector
+  fullName: CRMScript.Native.Vector
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Native.StringMatrix
+  commentId: T:CRMScript.Native.StringMatrix
+  isExternal: true
+  name: StringMatrix
+  nameWithType: StringMatrix
+  fullName: CRMScript.Native.StringMatrix
+- uid: CRMScript.Native.Parser
+  commentId: T:CRMScript.Native.Parser
+  isExternal: true
+  name: Parser
+  nameWithType: Parser
+  fullName: CRMScript.Native.Parser
+- uid: CRMScript.NetServer.TicketSecurityLevel
+  commentId: T:CRMScript.NetServer.TicketSecurityLevel
+  isExternal: true
+  name: TicketSecurityLevel
+  nameWithType: TicketSecurityLevel
+  fullName: CRMScript.NetServer.TicketSecurityLevel
+- uid: CRMScript.NetServer.TicketReadStatus
+  commentId: T:CRMScript.NetServer.TicketReadStatus
+  isExternal: true
+  name: TicketReadStatus
+  nameWithType: TicketReadStatus
+  fullName: CRMScript.NetServer.TicketReadStatus

@@ -1,0 +1,513 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSSystemEventEntity
+  commentId: T:CRMScript.NetServer.NSSystemEventEntity
+  id: NSSystemEventEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSSystemEventEntity.#ctor
+  - CRMScript.NetServer.NSSystemEventEntity.GetActivatedBy()
+  - CRMScript.NetServer.NSSystemEventEntity.GetEta()
+  - CRMScript.NetServer.NSSystemEventEntity.GetEventkey()
+  - CRMScript.NetServer.NSSystemEventEntity.GetEventmess()
+  - CRMScript.NetServer.NSSystemEventEntity.GetExtraInfo()
+  - CRMScript.NetServer.NSSystemEventEntity.GetOwner()
+  - CRMScript.NetServer.NSSystemEventEntity.GetRegistered()
+  - CRMScript.NetServer.NSSystemEventEntity.GetScope()
+  - CRMScript.NetServer.NSSystemEventEntity.GetSystemEventId()
+  - CRMScript.NetServer.NSSystemEventEntity.GetUpdatedCount()
+  - CRMScript.NetServer.NSSystemEventEntity.SetActivatedBy(NSAssociate)
+  - CRMScript.NetServer.NSSystemEventEntity.SetEta(DateTime)
+  - CRMScript.NetServer.NSSystemEventEntity.SetEventkey(String)
+  - CRMScript.NetServer.NSSystemEventEntity.SetEventmess(String)
+  - CRMScript.NetServer.NSSystemEventEntity.SetExtraInfo(Integer)
+  - CRMScript.NetServer.NSSystemEventEntity.SetOwner(Integer)
+  - CRMScript.NetServer.NSSystemEventEntity.SetRegistered(DateTime)
+  - CRMScript.NetServer.NSSystemEventEntity.SetScope(Integer)
+  - CRMScript.NetServer.NSSystemEventEntity.SetSystemEventId(Integer)
+  - CRMScript.NetServer.NSSystemEventEntity.SetUpdatedCount(Integer)
+  name: NSSystemEventEntity
+  nameWithType: NSSystemEventEntity
+  fullName: CRMScript.NetServer.NSSystemEventEntity
+  type: Class
+  summary: "\nEntity for system events.\n"
+  example: 
+- uid: CRMScript.NetServer.NSSystemEventEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSSystemEventEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSSystemEventEntity
+  langs:
+  - crmscript
+  name: NSSystemEventEntity()
+  nameWithType: NSSystemEventEntity.#ctor
+  fullName: CRMScript.NetServer.NSSystemEventEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSSystemEventEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSSystemEventEntity
+  example: 
+- uid: CRMScript.NetServer.NSSystemEventEntity.GetActivatedBy()
+  commentId: M:CRMScript.NetServer.NSSystemEventEntity.GetActivatedBy()
+  id: 'GetActivatedBy()'
+  so.intellisense: NSSystemEventEntity.GetActivatedBy
+  langs:
+  - crmscript
+  name: 'GetActivatedBy()'
+  nameWithType: NSSystemEventEntity.GetActivatedBy()
+  fullName: CRMScript.NetServer.NSSystemEventEntity.GetActivatedBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetActivatedBy()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "The associate that first created the SystemEvent."
+  example: 
+  - "\n<pre><code>NSSystemEventEntity thing;\nNSAssociate activatedBy = thing.GetActivatedBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSystemEventEntity.GetEta()
+  commentId: M:CRMScript.NetServer.NSSystemEventEntity.GetEta()
+  id: 'GetEta()'
+  so.intellisense: NSSystemEventEntity.GetEta
+  langs:
+  - crmscript
+  name: 'GetEta()'
+  nameWithType: NSSystemEventEntity.GetEta()
+  fullName: CRMScript.NetServer.NSSystemEventEntity.GetEta()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetEta()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: Estimated Time of Arrival, i.e., when will this event finish?
+  example: 
+  - "\n<pre><code>NSSystemEventEntity thing;\nDateTime eta = thing.GetEta();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSystemEventEntity.GetEventkey()
+  commentId: M:CRMScript.NetServer.NSSystemEventEntity.GetEventkey()
+  id: 'GetEventkey()'
+  so.intellisense: NSSystemEventEntity.GetEventkey
+  langs:
+  - crmscript
+  name: 'GetEventkey()'
+  nameWithType: NSSystemEventEntity.GetEventkey()
+  fullName: CRMScript.NetServer.NSSystemEventEntity.GetEventkey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetEventkey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Event key, predefined in code."
+  example: 
+  - "\n<pre><code>NSSystemEventEntity thing;\nString eventkey = thing.GetEventkey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSystemEventEntity.GetEventmess()
+  commentId: M:CRMScript.NetServer.NSSystemEventEntity.GetEventmess()
+  id: 'GetEventmess()'
+  so.intellisense: NSSystemEventEntity.GetEventmess
+  langs:
+  - crmscript
+  name: 'GetEventmess()'
+  nameWithType: NSSystemEventEntity.GetEventmess()
+  fullName: CRMScript.NetServer.NSSystemEventEntity.GetEventmess()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetEventmess()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Message to be shown, entered by administrator."
+  example: 
+  - "\n<pre><code>NSSystemEventEntity thing;\nString eventmess = thing.GetEventmess();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSystemEventEntity.GetExtraInfo()
+  commentId: M:CRMScript.NetServer.NSSystemEventEntity.GetExtraInfo()
+  id: 'GetExtraInfo()'
+  so.intellisense: NSSystemEventEntity.GetExtraInfo
+  langs:
+  - crmscript
+  name: 'GetExtraInfo()'
+  nameWithType: NSSystemEventEntity.GetExtraInfo()
+  fullName: CRMScript.NetServer.NSSystemEventEntity.GetExtraInfo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetExtraInfo()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Extra information (area ID for prototype rebuild, etc)."
+  example: 
+  - "\n<pre><code>NSSystemEventEntity thing;\nInteger extraInfo = thing.GetExtraInfo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSystemEventEntity.GetOwner()
+  commentId: M:CRMScript.NetServer.NSSystemEventEntity.GetOwner()
+  id: 'GetOwner()'
+  so.intellisense: NSSystemEventEntity.GetOwner
+  langs:
+  - crmscript
+  name: 'GetOwner()'
+  nameWithType: NSSystemEventEntity.GetOwner()
+  fullName: CRMScript.NetServer.NSSystemEventEntity.GetOwner()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetOwner()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "0, 0, group_id, assoc id (see over)."
+  example: 
+  - "\n<pre><code>NSSystemEventEntity thing;\nInteger owner = thing.GetOwner();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSystemEventEntity.GetRegistered()
+  commentId: M:CRMScript.NetServer.NSSystemEventEntity.GetRegistered()
+  id: 'GetRegistered()'
+  so.intellisense: NSSystemEventEntity.GetRegistered
+  langs:
+  - crmscript
+  name: 'GetRegistered()'
+  nameWithType: NSSystemEventEntity.GetRegistered()
+  fullName: CRMScript.NetServer.NSSystemEventEntity.GetRegistered()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetRegistered()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+  example: 
+  - "\n<pre><code>NSSystemEventEntity thing;\nDateTime registered = thing.GetRegistered();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSystemEventEntity.GetScope()
+  commentId: M:CRMScript.NetServer.NSSystemEventEntity.GetScope()
+  id: 'GetScope()'
+  so.intellisense: NSSystemEventEntity.GetScope
+  langs:
+  - crmscript
+  name: 'GetScope()'
+  nameWithType: NSSystemEventEntity.GetScope()
+  fullName: CRMScript.NetServer.NSSystemEventEntity.GetScope()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetScope()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.SystemEventScope\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSSystemEventEntity thing;\nInteger scope = thing.GetScope();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSystemEventEntity.GetSystemEventId()
+  commentId: M:CRMScript.NetServer.NSSystemEventEntity.GetSystemEventId()
+  id: 'GetSystemEventId()'
+  so.intellisense: NSSystemEventEntity.GetSystemEventId
+  langs:
+  - crmscript
+  name: 'GetSystemEventId()'
+  nameWithType: NSSystemEventEntity.GetSystemEventId()
+  fullName: CRMScript.NetServer.NSSystemEventEntity.GetSystemEventId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSystemEventId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSSystemEventEntity thing;\nInteger systemEventId = thing.GetSystemEventId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSystemEventEntity.GetUpdatedCount()
+  commentId: M:CRMScript.NetServer.NSSystemEventEntity.GetUpdatedCount()
+  id: 'GetUpdatedCount()'
+  so.intellisense: NSSystemEventEntity.GetUpdatedCount
+  langs:
+  - crmscript
+  name: 'GetUpdatedCount()'
+  nameWithType: NSSystemEventEntity.GetUpdatedCount()
+  fullName: CRMScript.NetServer.NSSystemEventEntity.GetUpdatedCount()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetUpdatedCount()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of updates made to this record."
+  example: 
+  - "\n<pre><code>NSSystemEventEntity thing;\nInteger updatedCount = thing.GetUpdatedCount();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSystemEventEntity.SetActivatedBy(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSSystemEventEntity.SetActivatedBy(NSAssociate)
+  id: 'SetActivatedBy(NSAssociate)'
+  so.intellisense: NSSystemEventEntity.SetActivatedBy
+  langs:
+  - crmscript
+  name: 'SetActivatedBy(NSAssociate)'
+  nameWithType: NSSystemEventEntity.SetActivatedBy(NSAssociate)
+  fullName: CRMScript.NetServer.NSSystemEventEntity.SetActivatedBy(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetActivatedBy(NSAssociate activatedBy)
+    parameters:
+    - id: activatedBy
+      type:  CRMScript.NetServer.NSAssociate
+      description: "The associate that first created the SystemEvent."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSystemEventEntity thing;\nNSAssociate activatedBy;\nthing.SetActivatedBy(activatedBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSystemEventEntity.SetEta(DateTime)
+  commentId: M:CRMScript.NetServer.NSSystemEventEntity.SetEta(DateTime)
+  id: 'SetEta(DateTime)'
+  so.intellisense: NSSystemEventEntity.SetEta
+  langs:
+  - crmscript
+  name: 'SetEta(DateTime)'
+  nameWithType: NSSystemEventEntity.SetEta(DateTime)
+  fullName: CRMScript.NetServer.NSSystemEventEntity.SetEta(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEta(DateTime eta)
+    parameters:
+    - id: eta
+      type: CRMScript.Global.DateTime
+      description: Estimated Time of Arrival, i.e., when will this event finish?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSystemEventEntity thing;\nDateTime eta;\nthing.SetEta(eta);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSystemEventEntity.SetEventkey(String)
+  commentId: M:CRMScript.NetServer.NSSystemEventEntity.SetEventkey(String)
+  id: 'SetEventkey(String)'
+  so.intellisense: NSSystemEventEntity.SetEventkey
+  langs:
+  - crmscript
+  name: 'SetEventkey(String)'
+  nameWithType: NSSystemEventEntity.SetEventkey(String)
+  fullName: CRMScript.NetServer.NSSystemEventEntity.SetEventkey(String)
+  type: Method
+  summary: "\nEvent key, predefined in code\n"
+  remarks: 
+  syntax: 
+    content: Void SetEventkey(String eventkey)
+    parameters:
+    - id: eventkey
+      type: CRMScript.Global.String
+      description: Event key, predefined in code\
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSystemEventEntity thing;\nString eventkey;\nthing.SetEventkey(eventkey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSystemEventEntity.SetEventmess(String)
+  commentId: M:CRMScript.NetServer.NSSystemEventEntity.SetEventmess(String)
+  id: 'SetEventmess(String)'
+  so.intellisense: NSSystemEventEntity.SetEventmess
+  langs:
+  - crmscript
+  name: 'SetEventmess(String)'
+  nameWithType: NSSystemEventEntity.SetEventmess(String)
+  fullName: CRMScript.NetServer.NSSystemEventEntity.SetEventmess(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEventmess(String eventmess)
+    parameters:
+    - id: eventmess
+      type: CRMScript.Global.String
+      description: "Message to be shown, entered by administrator."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSystemEventEntity thing;\nString eventmess;\nthing.SetEventmess(eventmess);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSystemEventEntity.SetExtraInfo(Integer)
+  commentId: M:CRMScript.NetServer.NSSystemEventEntity.SetExtraInfo(Integer)
+  id: 'SetExtraInfo(Integer)'
+  so.intellisense: NSSystemEventEntity.SetExtraInfo
+  langs:
+  - crmscript
+  name: 'SetExtraInfo(Integer)'
+  nameWithType: NSSystemEventEntity.SetExtraInfo(Integer)
+  fullName: CRMScript.NetServer.NSSystemEventEntity.SetExtraInfo(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraInfo(Integer extraInfo)
+    parameters:
+    - id: extraInfo
+      type: CRMScript.Global.Integer
+      description: "Extra information (area id for prototype rebuild, etc)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSystemEventEntity thing;\nInteger extraInfo;\nthing.SetExtraInfo(extraInfo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSystemEventEntity.SetOwner(Integer)
+  commentId: M:CRMScript.NetServer.NSSystemEventEntity.SetOwner(Integer)
+  id: 'SetOwner(Integer)'
+  so.intellisense: NSSystemEventEntity.SetOwner
+  langs:
+  - crmscript
+  name: 'SetOwner(Integer)'
+  nameWithType: NSSystemEventEntity.SetOwner(Integer)
+  fullName: CRMScript.NetServer.NSSystemEventEntity.SetOwner(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOwner(Integer owner)
+    parameters:
+    - id: owner
+      type: CRMScript.Global.Integer
+      description: "0, 0, group_id, assoc id (see over)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSystemEventEntity thing;\nInteger owner;\nthing.SetOwner(owner);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSystemEventEntity.SetRegistered(DateTime)
+  commentId: M:CRMScript.NetServer.NSSystemEventEntity.SetRegistered(DateTime)
+  id: 'SetRegistered(DateTime)'
+  so.intellisense: NSSystemEventEntity.SetRegistered
+  langs:
+  - crmscript
+  name: 'SetRegistered(DateTime)'
+  nameWithType: NSSystemEventEntity.SetRegistered(DateTime)
+  fullName: CRMScript.NetServer.NSSystemEventEntity.SetRegistered(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRegistered(DateTime registered)
+    parameters:
+    - id: registered
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSystemEventEntity thing;\nDateTime registered;\nthing.SetRegistered(registered);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSystemEventEntity.SetScope(Integer)
+  commentId: M:CRMScript.NetServer.NSSystemEventEntity.SetScope(Integer)
+  id: 'SetScope(Integer)'
+  so.intellisense: NSSystemEventEntity.SetScope
+  langs:
+  - crmscript
+  name: 'SetScope(Integer)'
+  nameWithType: NSSystemEventEntity.SetScope(Integer)
+  fullName: CRMScript.NetServer.NSSystemEventEntity.SetScope(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetScope(Integer scope)
+    parameters:
+    - id: scope
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.SystemEventScope\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSystemEventEntity thing;\nInteger scope;\nthing.SetScope(scope);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSystemEventEntity.SetSystemEventId(Integer)
+  commentId: M:CRMScript.NetServer.NSSystemEventEntity.SetSystemEventId(Integer)
+  id: 'SetSystemEventId(Integer)'
+  so.intellisense: NSSystemEventEntity.SetSystemEventId
+  langs:
+  - crmscript
+  name: 'SetSystemEventId(Integer)'
+  nameWithType: NSSystemEventEntity.SetSystemEventId(Integer)
+  fullName: CRMScript.NetServer.NSSystemEventEntity.SetSystemEventId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSystemEventId(Integer systemEventId)
+    parameters:
+    - id: systemEventId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSystemEventEntity thing;\nInteger systemEventId;\nthing.SetSystemEventId(systemEventId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSystemEventEntity.SetUpdatedCount(Integer)
+  commentId: M:CRMScript.NetServer.NSSystemEventEntity.SetUpdatedCount(Integer)
+  id: 'SetUpdatedCount(Integer)'
+  so.intellisense: NSSystemEventEntity.SetUpdatedCount
+  langs:
+  - crmscript
+  name: 'SetUpdatedCount(Integer)'
+  nameWithType: NSSystemEventEntity.SetUpdatedCount(Integer)
+  fullName: CRMScript.NetServer.NSSystemEventEntity.SetUpdatedCount(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedCount(Integer updatedCount)
+    parameters:
+    - id: updatedCount
+      type: CRMScript.Global.Integer
+      description: "Number of updates made to this record."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSystemEventEntity thing;\nInteger updatedCount;\nthing.SetUpdatedCount(updatedCount);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSSystemEventEntity
+  commentId: T:CRMScript.NetServer.NSSystemEventEntity
+  isExternal: true
+  name: NSSystemEventEntity
+  nameWithType: NSSystemEventEntity
+  fullName: CRMScript.NetServer.NSSystemEventEntity
+- uid: CRMScript.NetServer.NSAssociate
+  commentId: T:CRMScript.NetServer.NSAssociate
+  isExternal: true
+  name: NSAssociate
+  nameWithType: NSAssociate
+  fullName: CRMScript.NetServer.NSAssociate
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.SystemEventScope
+  commentId: T:CRMScript.NetServer.SystemEventScope
+  isExternal: true
+  name: SystemEventScope
+  nameWithType: SystemEventScope
+  fullName: CRMScript.NetServer.SystemEventScope

@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSMultiAlarmData
+  commentId: T:CRMScript.NetServer.NSMultiAlarmData
+  id: NSMultiAlarmData
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSMultiAlarmData.#ctor
+  - CRMScript.NetServer.NSMultiAlarmData.GetAlarms()
+  - CRMScript.NetServer.NSMultiAlarmData.GetPollingInterval()
+  - CRMScript.NetServer.NSMultiAlarmData.GetSilentAfter()
+  - CRMScript.NetServer.NSMultiAlarmData.SetAlarms(NSAlarmData[])
+  - CRMScript.NetServer.NSMultiAlarmData.SetPollingInterval(Integer)
+  - CRMScript.NetServer.NSMultiAlarmData.SetSilentAfter(Integer)
+  name: NSMultiAlarmData
+  nameWithType: NSMultiAlarmData
+  fullName: CRMScript.NetServer.NSMultiAlarmData
+  type: Class
+  summary: "\nCarrier object for MultiAlarmData.\n"
+  example: 
+- uid: CRMScript.NetServer.NSMultiAlarmData.#ctor
+  commentId: M:CRMScript.NetServer.NSMultiAlarmData.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSMultiAlarmData
+  langs:
+  - crmscript
+  name: NSMultiAlarmData()
+  nameWithType: NSMultiAlarmData.#ctor
+  fullName: CRMScript.NetServer.NSMultiAlarmData.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSMultiAlarmData class.\n"
+  remarks: 
+  syntax: 
+    content: NSMultiAlarmData
+  example: 
+- uid: CRMScript.NetServer.NSMultiAlarmData.GetAlarms()
+  commentId: M:CRMScript.NetServer.NSMultiAlarmData.GetAlarms()
+  id: 'GetAlarms()'
+  so.intellisense: NSMultiAlarmData.GetAlarms
+  langs:
+  - crmscript
+  name: 'GetAlarms()'
+  nameWithType: NSMultiAlarmData.GetAlarms()
+  fullName: CRMScript.NetServer.NSMultiAlarmData.GetAlarms()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAlarmData[] GetAlarms()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAlarmData[]
+  example: 
+  - "\n<pre><code>NSMultiAlarmData thing;\nNSAlarmData[] alarms = thing.GetAlarms();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMultiAlarmData.GetPollingInterval()
+  commentId: M:CRMScript.NetServer.NSMultiAlarmData.GetPollingInterval()
+  id: 'GetPollingInterval()'
+  so.intellisense: NSMultiAlarmData.GetPollingInterval
+  langs:
+  - crmscript
+  name: 'GetPollingInterval()'
+  nameWithType: NSMultiAlarmData.GetPollingInterval()
+  fullName: CRMScript.NetServer.NSMultiAlarmData.GetPollingInterval()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPollingInterval()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSMultiAlarmData thing;\nInteger pollingInterval = thing.GetPollingInterval();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMultiAlarmData.GetSilentAfter()
+  commentId: M:CRMScript.NetServer.NSMultiAlarmData.GetSilentAfter()
+  id: 'GetSilentAfter()'
+  so.intellisense: NSMultiAlarmData.GetSilentAfter
+  langs:
+  - crmscript
+  name: 'GetSilentAfter()'
+  nameWithType: NSMultiAlarmData.GetSilentAfter()
+  fullName: CRMScript.NetServer.NSMultiAlarmData.GetSilentAfter()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSilentAfter()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSMultiAlarmData thing;\nInteger silentAfter = thing.GetSilentAfter();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMultiAlarmData.SetAlarms(NSAlarmData[])
+  commentId: M:CRMScript.NetServer.NSMultiAlarmData.SetAlarms(NSAlarmData[])
+  id: 'SetAlarms(NSAlarmData[])'
+  so.intellisense: NSMultiAlarmData.SetAlarms
+  langs:
+  - crmscript
+  name: 'SetAlarms(NSAlarmData[])'
+  nameWithType: NSMultiAlarmData.SetAlarms(NSAlarmData[])
+  fullName: CRMScript.NetServer.NSMultiAlarmData.SetAlarms(NSAlarmData[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAlarms(NSAlarmData[] alarms)
+    parameters:
+    - id: alarms
+      type: CRMScript.NetServer.NSAlarmData[]
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMultiAlarmData thing;\nNSAlarmData[] alarms;\nthing.SetAlarms(alarms);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMultiAlarmData.SetPollingInterval(Integer)
+  commentId: M:CRMScript.NetServer.NSMultiAlarmData.SetPollingInterval(Integer)
+  id: 'SetPollingInterval(Integer)'
+  so.intellisense: NSMultiAlarmData.SetPollingInterval
+  langs:
+  - crmscript
+  name: 'SetPollingInterval(Integer)'
+  nameWithType: NSMultiAlarmData.SetPollingInterval(Integer)
+  fullName: CRMScript.NetServer.NSMultiAlarmData.SetPollingInterval(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPollingInterval(Integer pollingInterval)
+    parameters:
+    - id: pollingInterval
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMultiAlarmData thing;\nInteger pollingInterval;\nthing.SetPollingInterval(pollingInterval);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMultiAlarmData.SetSilentAfter(Integer)
+  commentId: M:CRMScript.NetServer.NSMultiAlarmData.SetSilentAfter(Integer)
+  id: 'SetSilentAfter(Integer)'
+  so.intellisense: NSMultiAlarmData.SetSilentAfter
+  langs:
+  - crmscript
+  name: 'SetSilentAfter(Integer)'
+  nameWithType: NSMultiAlarmData.SetSilentAfter(Integer)
+  fullName: CRMScript.NetServer.NSMultiAlarmData.SetSilentAfter(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSilentAfter(Integer silentAfter)
+    parameters:
+    - id: silentAfter
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMultiAlarmData thing;\nInteger silentAfter;\nthing.SetSilentAfter(silentAfter);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSMultiAlarmData
+  commentId: T:CRMScript.NetServer.NSMultiAlarmData
+  isExternal: true
+  name: NSMultiAlarmData
+  nameWithType: NSMultiAlarmData
+  fullName: CRMScript.NetServer.NSMultiAlarmData
+- uid: CRMScript.NetServer.NSAlarmData[]
+  isExternal: true
+  name: NSAlarmData[]
+  nameWithType: NSAlarmData[]
+  fullName: CRMScript.NetServer.NSAlarmData[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSAlarmData
+    isExternal: true
+    name: NSAlarmData
+    nameWithType: NSAlarmData
+    fullName: CRMScript.NetServer.NSAlarmData
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSAlarmData
+  commentId: T:CRMScript.NetServer.NSAlarmData
+  isExternal: true
+  name: NSAlarmData
+  nameWithType: NSAlarmData
+  fullName: CRMScript.NetServer.NSAlarmData
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

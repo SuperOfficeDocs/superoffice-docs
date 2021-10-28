@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSEntityName
+  commentId: T:CRMScript.NetServer.NSEntityName
+  id: NSEntityName
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSEntityName.#ctor
+  - CRMScript.NetServer.NSEntityName.GetTableDescription()
+  - CRMScript.NetServer.NSEntityName.GetTableName()
+  - CRMScript.NetServer.NSEntityName.SetTableDescription(String)
+  - CRMScript.NetServer.NSEntityName.SetTableName(String)
+  name: NSEntityName
+  nameWithType: NSEntityName
+  fullName: CRMScript.NetServer.NSEntityName
+  type: Class
+  summary: "\nCarrier object for EntityName.\n"
+  example: 
+- uid: CRMScript.NetServer.NSEntityName.#ctor
+  commentId: M:CRMScript.NetServer.NSEntityName.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSEntityName
+  langs:
+  - crmscript
+  name: NSEntityName()
+  nameWithType: NSEntityName.#ctor
+  fullName: CRMScript.NetServer.NSEntityName.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSEntityName class.\n"
+  remarks: 
+  syntax: 
+    content: NSEntityName
+  example: 
+- uid: CRMScript.NetServer.NSEntityName.GetTableDescription()
+  commentId: M:CRMScript.NetServer.NSEntityName.GetTableDescription()
+  id: 'GetTableDescription()'
+  so.intellisense: NSEntityName.GetTableDescription
+  langs:
+  - crmscript
+  name: 'GetTableDescription()'
+  nameWithType: NSEntityName.GetTableDescription()
+  fullName: CRMScript.NetServer.NSEntityName.GetTableDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTableDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name to be used in GUI, preferable a resource string."
+  example: 
+  - "\n<pre><code>NSEntityName thing;\nString tableDescription = thing.GetTableDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSEntityName.GetTableName()
+  commentId: M:CRMScript.NetServer.NSEntityName.GetTableName()
+  id: 'GetTableName()'
+  so.intellisense: NSEntityName.GetTableName
+  langs:
+  - crmscript
+  name: 'GetTableName()'
+  nameWithType: NSEntityName.GetTableName()
+  fullName: CRMScript.NetServer.NSEntityName.GetTableName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTableName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the table in the database."
+  example: 
+  - "\n<pre><code>NSEntityName thing;\nString tableName = thing.GetTableName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSEntityName.SetTableDescription(String)
+  commentId: M:CRMScript.NetServer.NSEntityName.SetTableDescription(String)
+  id: 'SetTableDescription(String)'
+  so.intellisense: NSEntityName.SetTableDescription
+  langs:
+  - crmscript
+  name: 'SetTableDescription(String)'
+  nameWithType: NSEntityName.SetTableDescription(String)
+  fullName: CRMScript.NetServer.NSEntityName.SetTableDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTableDescription(String tableDescription)
+    parameters:
+    - id: tableDescription
+      type: CRMScript.Global.String
+      description: "Name to be used in GUI, preferable a resource string."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSEntityName thing;\nString tableDescription;\nthing.SetTableDescription(tableDescription);</code></pre>\n"
+- uid: CRMScript.NetServer.NSEntityName.SetTableName(String)
+  commentId: M:CRMScript.NetServer.NSEntityName.SetTableName(String)
+  id: 'SetTableName(String)'
+  so.intellisense: NSEntityName.SetTableName
+  langs:
+  - crmscript
+  name: 'SetTableName(String)'
+  nameWithType: NSEntityName.SetTableName(String)
+  fullName: CRMScript.NetServer.NSEntityName.SetTableName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTableName(String tableName)
+    parameters:
+    - id: tableName
+      type: CRMScript.Global.String
+      description: "The name of the table in the database."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSEntityName thing;\nString tableName;\nthing.SetTableName(tableName);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSEntityName
+  commentId: T:CRMScript.NetServer.NSEntityName
+  isExternal: true
+  name: NSEntityName
+  nameWithType: NSEntityName
+  fullName: CRMScript.NetServer.NSEntityName
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

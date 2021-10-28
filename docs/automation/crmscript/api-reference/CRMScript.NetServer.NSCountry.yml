@@ -1,0 +1,853 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSCountry
+  commentId: T:CRMScript.NetServer.NSCountry
+  id: NSCountry
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSCountry.#ctor
+  - CRMScript.NetServer.NSCountry.GetAddressLayoutId()
+  - CRMScript.NetServer.NSCountry.GetCountryId()
+  - CRMScript.NetServer.NSCountry.GetCurrencyId()
+  - CRMScript.NetServer.NSCountry.GetDeleted()
+  - CRMScript.NetServer.NSCountry.GetDialInPrefix()
+  - CRMScript.NetServer.NSCountry.GetDomainName()
+  - CRMScript.NetServer.NSCountry.GetDomesticAddressLayoutId()
+  - CRMScript.NetServer.NSCountry.GetEnglishName()
+  - CRMScript.NetServer.NSCountry.GetForeignAddressLayoutId()
+  - CRMScript.NetServer.NSCountry.GetImageDescription()
+  - CRMScript.NetServer.NSCountry.GetInterAreaPrefix()
+  - CRMScript.NetServer.NSCountry.GetName()
+  - CRMScript.NetServer.NSCountry.GetOrgNrText()
+  - CRMScript.NetServer.NSCountry.GetRank()
+  - CRMScript.NetServer.NSCountry.GetThreeLetterISOCountry()
+  - CRMScript.NetServer.NSCountry.GetTooltip()
+  - CRMScript.NetServer.NSCountry.GetTwoLetterISOCountry()
+  - CRMScript.NetServer.NSCountry.GetZipPrefix()
+  - CRMScript.NetServer.NSCountry.SetAddressLayoutId(Integer)
+  - CRMScript.NetServer.NSCountry.SetCountryId(Integer)
+  - CRMScript.NetServer.NSCountry.SetCurrencyId(Integer)
+  - CRMScript.NetServer.NSCountry.SetDeleted(Bool)
+  - CRMScript.NetServer.NSCountry.SetDialInPrefix(String)
+  - CRMScript.NetServer.NSCountry.SetDomainName(String)
+  - CRMScript.NetServer.NSCountry.SetDomesticAddressLayoutId(Integer)
+  - CRMScript.NetServer.NSCountry.SetEnglishName(String)
+  - CRMScript.NetServer.NSCountry.SetForeignAddressLayoutId(Integer)
+  - CRMScript.NetServer.NSCountry.SetImageDescription(String)
+  - CRMScript.NetServer.NSCountry.SetInterAreaPrefix(String)
+  - CRMScript.NetServer.NSCountry.SetName(String)
+  - CRMScript.NetServer.NSCountry.SetOrgNrText(String)
+  - CRMScript.NetServer.NSCountry.SetRank(Integer)
+  - CRMScript.NetServer.NSCountry.SetThreeLetterISOCountry(String)
+  - CRMScript.NetServer.NSCountry.SetTooltip(String)
+  - CRMScript.NetServer.NSCountry.SetTwoLetterISOCountry(String)
+  - CRMScript.NetServer.NSCountry.SetZipPrefix(String)
+  name: NSCountry
+  nameWithType: NSCountry
+  fullName: CRMScript.NetServer.NSCountry
+  type: Class
+  summary: "\nCarrier object for Country.\n"
+  example: 
+- uid: CRMScript.NetServer.NSCountry.#ctor
+  commentId: M:CRMScript.NetServer.NSCountry.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSCountry
+  langs:
+  - crmscript
+  name: NSCountry()
+  nameWithType: NSCountry.#ctor
+  fullName: CRMScript.NetServer.NSCountry.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSCountry class.\n"
+  remarks: 
+  syntax: 
+    content: NSCountry
+  example: 
+- uid: CRMScript.NetServer.NSCountry.GetAddressLayoutId()
+  commentId: M:CRMScript.NetServer.NSCountry.GetAddressLayoutId()
+  id: 'GetAddressLayoutId()'
+  so.intellisense: NSCountry.GetAddressLayoutId
+  langs:
+  - crmscript
+  name: 'GetAddressLayoutId()'
+  nameWithType: NSCountry.GetAddressLayoutId()
+  fullName: CRMScript.NetServer.NSCountry.GetAddressLayoutId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAddressLayoutId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Address layout of the country."
+  example: 
+  - "\n<pre><code>NSCountry thing;\nInteger addressLayoutId = thing.GetAddressLayoutId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.GetCountryId()
+  commentId: M:CRMScript.NetServer.NSCountry.GetCountryId()
+  id: 'GetCountryId()'
+  so.intellisense: NSCountry.GetCountryId
+  langs:
+  - crmscript
+  name: 'GetCountryId()'
+  nameWithType: NSCountry.GetCountryId()
+  fullName: CRMScript.NetServer.NSCountry.GetCountryId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCountryId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSCountry thing;\nInteger countryId = thing.GetCountryId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.GetCurrencyId()
+  commentId: M:CRMScript.NetServer.NSCountry.GetCurrencyId()
+  id: 'GetCurrencyId()'
+  so.intellisense: NSCountry.GetCurrencyId
+  langs:
+  - crmscript
+  name: 'GetCurrencyId()'
+  nameWithType: NSCountry.GetCurrencyId()
+  fullName: CRMScript.NetServer.NSCountry.GetCurrencyId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCurrencyId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Default currency for this country."
+  example: 
+  - "\n<pre><code>NSCountry thing;\nInteger currencyId = thing.GetCurrencyId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.GetDeleted()
+  commentId: M:CRMScript.NetServer.NSCountry.GetDeleted()
+  id: 'GetDeleted()'
+  so.intellisense: NSCountry.GetDeleted
+  langs:
+  - crmscript
+  name: 'GetDeleted()'
+  nameWithType: NSCountry.GetDeleted()
+  fullName: CRMScript.NetServer.NSCountry.GetDeleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetDeleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "true if the country is deleted."
+  example: 
+  - "\n<pre><code>NSCountry thing;\nBool deleted = thing.GetDeleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.GetDialInPrefix()
+  commentId: M:CRMScript.NetServer.NSCountry.GetDialInPrefix()
+  id: 'GetDialInPrefix()'
+  so.intellisense: NSCountry.GetDialInPrefix
+  langs:
+  - crmscript
+  name: 'GetDialInPrefix()'
+  nameWithType: NSCountry.GetDialInPrefix()
+  fullName: CRMScript.NetServer.NSCountry.GetDialInPrefix()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDialInPrefix()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Dial in prefix."
+  example: 
+  - "\n<pre><code>NSCountry thing;\nString dialInPrefix = thing.GetDialInPrefix();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.GetDomainName()
+  commentId: M:CRMScript.NetServer.NSCountry.GetDomainName()
+  id: 'GetDomainName()'
+  so.intellisense: NSCountry.GetDomainName
+  langs:
+  - crmscript
+  name: 'GetDomainName()'
+  nameWithType: NSCountry.GetDomainName()
+  fullName: CRMScript.NetServer.NSCountry.GetDomainName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDomainName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Domain name of the country."
+  example: 
+  - "\n<pre><code>NSCountry thing;\nString domainName = thing.GetDomainName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.GetDomesticAddressLayoutId()
+  commentId: M:CRMScript.NetServer.NSCountry.GetDomesticAddressLayoutId()
+  id: 'GetDomesticAddressLayoutId()'
+  so.intellisense: NSCountry.GetDomesticAddressLayoutId
+  langs:
+  - crmscript
+  name: 'GetDomesticAddressLayoutId()'
+  nameWithType: NSCountry.GetDomesticAddressLayoutId()
+  fullName: CRMScript.NetServer.NSCountry.GetDomesticAddressLayoutId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDomesticAddressLayoutId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Domestic address layout of the country."
+  example: 
+  - "\n<pre><code>NSCountry thing;\nInteger domesticAddressLayoutId = thing.GetDomesticAddressLayoutId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.GetEnglishName()
+  commentId: M:CRMScript.NetServer.NSCountry.GetEnglishName()
+  id: 'GetEnglishName()'
+  so.intellisense: NSCountry.GetEnglishName
+  langs:
+  - crmscript
+  name: 'GetEnglishName()'
+  nameWithType: NSCountry.GetEnglishName()
+  fullName: CRMScript.NetServer.NSCountry.GetEnglishName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetEnglishName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of country in English."
+  example: 
+  - "\n<pre><code>NSCountry thing;\nString englishName = thing.GetEnglishName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.GetForeignAddressLayoutId()
+  commentId: M:CRMScript.NetServer.NSCountry.GetForeignAddressLayoutId()
+  id: 'GetForeignAddressLayoutId()'
+  so.intellisense: NSCountry.GetForeignAddressLayoutId
+  langs:
+  - crmscript
+  name: 'GetForeignAddressLayoutId()'
+  nameWithType: NSCountry.GetForeignAddressLayoutId()
+  fullName: CRMScript.NetServer.NSCountry.GetForeignAddressLayoutId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetForeignAddressLayoutId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Foreign address layout of the country."
+  example: 
+  - "\n<pre><code>NSCountry thing;\nInteger foreignAddressLayoutId = thing.GetForeignAddressLayoutId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.GetImageDescription()
+  commentId: M:CRMScript.NetServer.NSCountry.GetImageDescription()
+  id: 'GetImageDescription()'
+  so.intellisense: NSCountry.GetImageDescription
+  langs:
+  - crmscript
+  name: 'GetImageDescription()'
+  nameWithType: NSCountry.GetImageDescription()
+  fullName: CRMScript.NetServer.NSCountry.GetImageDescription()
+  type: Method
+  summary: # TODO
+  remarks: "\nThis is the country flag that is displayed in the CRM client\n"
+  syntax: 
+    content: String GetImageDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Description of the country's flag image."
+  example: 
+  - "\n<pre><code>NSCountry thing;\nString imageDescription = thing.GetImageDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.GetInterAreaPrefix()
+  commentId: M:CRMScript.NetServer.NSCountry.GetInterAreaPrefix()
+  id: 'GetInterAreaPrefix()'
+  so.intellisense: NSCountry.GetInterAreaPrefix
+  langs:
+  - crmscript
+  name: 'GetInterAreaPrefix()'
+  nameWithType: NSCountry.GetInterAreaPrefix()
+  fullName: CRMScript.NetServer.NSCountry.GetInterAreaPrefix()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetInterAreaPrefix()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "International prefix."
+  example: 
+  - "\n<pre><code>NSCountry thing;\nString interAreaPrefix = thing.GetInterAreaPrefix();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.GetName()
+  commentId: M:CRMScript.NetServer.NSCountry.GetName()
+  id: 'GetName()'
+  so.intellisense: NSCountry.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSCountry.GetName()
+  fullName: CRMScript.NetServer.NSCountry.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of country in installed language."
+  example: 
+  - "\n<pre><code>NSCountry thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.GetOrgNrText()
+  commentId: M:CRMScript.NetServer.NSCountry.GetOrgNrText()
+  id: 'GetOrgNrText()'
+  so.intellisense: NSCountry.GetOrgNrText
+  langs:
+  - crmscript
+  name: 'GetOrgNrText()'
+  nameWithType: NSCountry.GetOrgNrText()
+  fullName: CRMScript.NetServer.NSCountry.GetOrgNrText()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetOrgNrText()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Lead text for organization field."
+  example: 
+  - "\n<pre><code>NSCountry thing;\nString orgNrText = thing.GetOrgNrText();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.GetRank()
+  commentId: M:CRMScript.NetServer.NSCountry.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSCountry.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSCountry.GetRank()
+  fullName: CRMScript.NetServer.NSCountry.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The rank of the country."
+  example: 
+  - "\n<pre><code>NSCountry thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.GetThreeLetterISOCountry()
+  commentId: M:CRMScript.NetServer.NSCountry.GetThreeLetterISOCountry()
+  id: 'GetThreeLetterISOCountry()'
+  so.intellisense: NSCountry.GetThreeLetterISOCountry
+  langs:
+  - crmscript
+  name: 'GetThreeLetterISOCountry()'
+  nameWithType: NSCountry.GetThreeLetterISOCountry()
+  fullName: CRMScript.NetServer.NSCountry.GetThreeLetterISOCountry()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetThreeLetterISOCountry()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: Three-letter country-code according to ISO3166
+  example: 
+  - "\n<pre><code>NSCountry thing;\nString threeLetterISOCountry = thing.GetThreeLetterISOCountry();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSCountry.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSCountry.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSCountry.GetTooltip()
+  fullName: CRMScript.NetServer.NSCountry.GetTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The tooltip of the country."
+  example: 
+  - "\n<pre><code>NSCountry thing;\nString tooltip = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.GetTwoLetterISOCountry()
+  commentId: M:CRMScript.NetServer.NSCountry.GetTwoLetterISOCountry()
+  id: 'GetTwoLetterISOCountry()'
+  so.intellisense: NSCountry.GetTwoLetterISOCountry
+  langs:
+  - crmscript
+  name: 'GetTwoLetterISOCountry()'
+  nameWithType: NSCountry.GetTwoLetterISOCountry()
+  fullName: CRMScript.NetServer.NSCountry.GetTwoLetterISOCountry()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTwoLetterISOCountry()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: Two-letter country-code according to ISO3166
+  example: 
+  - "\n<pre><code>NSCountry thing;\nString twoLetterISOCountry = thing.GetTwoLetterISOCountry();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.GetZipPrefix()
+  commentId: M:CRMScript.NetServer.NSCountry.GetZipPrefix()
+  id: 'GetZipPrefix()'
+  so.intellisense: NSCountry.GetZipPrefix
+  langs:
+  - crmscript
+  name: 'GetZipPrefix()'
+  nameWithType: NSCountry.GetZipPrefix()
+  fullName: CRMScript.NetServer.NSCountry.GetZipPrefix()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetZipPrefix()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Post prefix."
+  example: 
+  - "\n<pre><code>NSCountry thing;\nString zipPrefix = thing.GetZipPrefix();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.SetAddressLayoutId(Integer)
+  commentId: M:CRMScript.NetServer.NSCountry.SetAddressLayoutId(Integer)
+  id: 'SetAddressLayoutId(Integer)'
+  so.intellisense: NSCountry.SetAddressLayoutId
+  langs:
+  - crmscript
+  name: 'SetAddressLayoutId(Integer)'
+  nameWithType: NSCountry.SetAddressLayoutId(Integer)
+  fullName: CRMScript.NetServer.NSCountry.SetAddressLayoutId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAddressLayoutId(Integer addressLayoutId)
+    parameters:
+    - id: addressLayoutId
+      type: CRMScript.Global.Integer
+      description: "Address layout of the country."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCountry thing;\nInteger addressLayoutId;\nthing.SetAddressLayoutId(addressLayoutId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.SetCountryId(Integer)
+  commentId: M:CRMScript.NetServer.NSCountry.SetCountryId(Integer)
+  id: 'SetCountryId(Integer)'
+  so.intellisense: NSCountry.SetCountryId
+  langs:
+  - crmscript
+  name: 'SetCountryId(Integer)'
+  nameWithType: NSCountry.SetCountryId(Integer)
+  fullName: CRMScript.NetServer.NSCountry.SetCountryId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCountryId(Integer countryId)
+    parameters:
+    - id: countryId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCountry thing;\nInteger countryId;\nthing.SetCountryId(countryId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.SetCurrencyId(Integer)
+  commentId: M:CRMScript.NetServer.NSCountry.SetCurrencyId(Integer)
+  id: 'SetCurrencyId(Integer)'
+  so.intellisense: NSCountry.SetCurrencyId
+  langs:
+  - crmscript
+  name: 'SetCurrencyId(Integer)'
+  nameWithType: NSCountry.SetCurrencyId(Integer)
+  fullName: CRMScript.NetServer.NSCountry.SetCurrencyId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCurrencyId(Integer currencyId)
+    parameters:
+    - id: currencyId
+      type: CRMScript.Global.Integer
+      description: "Default currency for this country."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCountry thing;\nInteger currencyId;\nthing.SetCurrencyId(currencyId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.SetDeleted(Bool)
+  commentId: M:CRMScript.NetServer.NSCountry.SetDeleted(Bool)
+  id: 'SetDeleted(Bool)'
+  so.intellisense: NSCountry.SetDeleted
+  langs:
+  - crmscript
+  name: 'SetDeleted(Bool)'
+  nameWithType: NSCountry.SetDeleted(Bool)
+  fullName: CRMScript.NetServer.NSCountry.SetDeleted(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeleted(Bool deleted)
+    parameters:
+    - id: deleted
+      type: CRMScript.Global.Bool
+      description: "true if the country is deleted."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCountry thing;\nBool deleted;\nthing.SetDeleted(deleted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.SetDialInPrefix(String)
+  commentId: M:CRMScript.NetServer.NSCountry.SetDialInPrefix(String)
+  id: 'SetDialInPrefix(String)'
+  so.intellisense: NSCountry.SetDialInPrefix
+  langs:
+  - crmscript
+  name: 'SetDialInPrefix(String)'
+  nameWithType: NSCountry.SetDialInPrefix(String)
+  fullName: CRMScript.NetServer.NSCountry.SetDialInPrefix(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDialInPrefix(String dialInPrefix)
+    parameters:
+    - id: dialInPrefix
+      type: CRMScript.Global.String
+      description: "Dial in prefix."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCountry thing;\nString dialInPrefix;\nthing.SetDialInPrefix(dialInPrefix);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.SetDomainName(String)
+  commentId: M:CRMScript.NetServer.NSCountry.SetDomainName(String)
+  id: 'SetDomainName(String)'
+  so.intellisense: NSCountry.SetDomainName
+  langs:
+  - crmscript
+  name: 'SetDomainName(String)'
+  nameWithType: NSCountry.SetDomainName(String)
+  fullName: CRMScript.NetServer.NSCountry.SetDomainName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDomainName(String domainName)
+    parameters:
+    - id: domainName
+      type: CRMScript.Global.String
+      description: "Domain name of the country."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCountry thing;\nString domainName;\nthing.SetDomainName(domainName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.SetDomesticAddressLayoutId(Integer)
+  commentId: M:CRMScript.NetServer.NSCountry.SetDomesticAddressLayoutId(Integer)
+  id: 'SetDomesticAddressLayoutId(Integer)'
+  so.intellisense: NSCountry.SetDomesticAddressLayoutId
+  langs:
+  - crmscript
+  name: 'SetDomesticAddressLayoutId(Integer)'
+  nameWithType: NSCountry.SetDomesticAddressLayoutId(Integer)
+  fullName: CRMScript.NetServer.NSCountry.SetDomesticAddressLayoutId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDomesticAddressLayoutId(Integer domesticAddressLayoutId)
+    parameters:
+    - id: domesticAddressLayoutId
+      type: CRMScript.Global.Integer
+      description: "Domestic address layout of the country."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCountry thing;\nInteger domesticAddressLayoutId;\nthing.SetDomesticAddressLayoutId(domesticAddressLayoutId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.SetEnglishName(String)
+  commentId: M:CRMScript.NetServer.NSCountry.SetEnglishName(String)
+  id: 'SetEnglishName(String)'
+  so.intellisense: NSCountry.SetEnglishName
+  langs:
+  - crmscript
+  name: 'SetEnglishName(String)'
+  nameWithType: NSCountry.SetEnglishName(String)
+  fullName: CRMScript.NetServer.NSCountry.SetEnglishName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEnglishName(String englishName)
+    parameters:
+    - id: englishName
+      type: CRMScript.Global.String
+      description: "Name of country in English."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCountry thing;\nString englishName;\nthing.SetEnglishName(englishName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.SetForeignAddressLayoutId(Integer)
+  commentId: M:CRMScript.NetServer.NSCountry.SetForeignAddressLayoutId(Integer)
+  id: 'SetForeignAddressLayoutId(Integer)'
+  so.intellisense: NSCountry.SetForeignAddressLayoutId
+  langs:
+  - crmscript
+  name: 'SetForeignAddressLayoutId(Integer)'
+  nameWithType: NSCountry.SetForeignAddressLayoutId(Integer)
+  fullName: CRMScript.NetServer.NSCountry.SetForeignAddressLayoutId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetForeignAddressLayoutId(Integer foreignAddressLayoutId)
+    parameters:
+    - id: foreignAddressLayoutId
+      type: CRMScript.Global.Integer
+      description: "Foreign address layout of the country."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCountry thing;\nInteger foreignAddressLayoutId;\nthing.SetForeignAddressLayoutId(foreignAddressLayoutId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.SetImageDescription(String)
+  commentId: M:CRMScript.NetServer.NSCountry.SetImageDescription(String)
+  id: 'SetImageDescription(String)'
+  so.intellisense: NSCountry.SetImageDescription
+  langs:
+  - crmscript
+  name: 'SetImageDescription(String)'
+  nameWithType: NSCountry.SetImageDescription(String)
+  fullName: CRMScript.NetServer.NSCountry.SetImageDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nThis is the country flag that is displayed in the CRM client\n"
+  syntax: 
+    content: Void SetImageDescription(String imageDescription)
+    parameters:
+    - id: imageDescription
+      type: CRMScript.Global.String
+      description: "Description of the country's flag image."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCountry thing;\nString imageDescription;\nthing.SetImageDescription(imageDescription);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.SetInterAreaPrefix(String)
+  commentId: M:CRMScript.NetServer.NSCountry.SetInterAreaPrefix(String)
+  id: 'SetInterAreaPrefix(String)'
+  so.intellisense: NSCountry.SetInterAreaPrefix
+  langs:
+  - crmscript
+  name: 'SetInterAreaPrefix(String)'
+  nameWithType: NSCountry.SetInterAreaPrefix(String)
+  fullName: CRMScript.NetServer.NSCountry.SetInterAreaPrefix(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetInterAreaPrefix(String interAreaPrefix)
+    parameters:
+    - id: interAreaPrefix
+      type: CRMScript.Global.String
+      description: "International prefix."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCountry thing;\nString interAreaPrefix;\nthing.SetInterAreaPrefix(interAreaPrefix);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.SetName(String)
+  commentId: M:CRMScript.NetServer.NSCountry.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSCountry.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSCountry.SetName(String)
+  fullName: CRMScript.NetServer.NSCountry.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Name of country in installed language."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCountry thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.SetOrgNrText(String)
+  commentId: M:CRMScript.NetServer.NSCountry.SetOrgNrText(String)
+  id: 'SetOrgNrText(String)'
+  so.intellisense: NSCountry.SetOrgNrText
+  langs:
+  - crmscript
+  name: 'SetOrgNrText(String)'
+  nameWithType: NSCountry.SetOrgNrText(String)
+  fullName: CRMScript.NetServer.NSCountry.SetOrgNrText(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOrgNrText(String orgNrText)
+    parameters:
+    - id: orgNrText
+      type: CRMScript.Global.String
+      description: "Lead text for organization field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCountry thing;\nString orgNrText;\nthing.SetOrgNrText(orgNrText);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSCountry.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSCountry.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSCountry.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSCountry.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "The rank of the country."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCountry thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.SetThreeLetterISOCountry(String)
+  commentId: M:CRMScript.NetServer.NSCountry.SetThreeLetterISOCountry(String)
+  id: 'SetThreeLetterISOCountry(String)'
+  so.intellisense: NSCountry.SetThreeLetterISOCountry
+  langs:
+  - crmscript
+  name: 'SetThreeLetterISOCountry(String)'
+  nameWithType: NSCountry.SetThreeLetterISOCountry(String)
+  fullName: CRMScript.NetServer.NSCountry.SetThreeLetterISOCountry(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetThreeLetterISOCountry(String threeLetterISOCountry)
+    parameters:
+    - id: threeLetterISOCountry
+      type: CRMScript.Global.String
+      description: Three-letter country-code according to ISO3166
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCountry thing;\nString threeLetterISOCountry;\nthing.SetThreeLetterISOCountry(threeLetterISOCountry);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSCountry.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSCountry.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSCountry.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSCountry.SetTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: "The tooltip of the country."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCountry thing;\nString tooltip;\nthing.SetTooltip(tooltip);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.SetTwoLetterISOCountry(String)
+  commentId: M:CRMScript.NetServer.NSCountry.SetTwoLetterISOCountry(String)
+  id: 'SetTwoLetterISOCountry(String)'
+  so.intellisense: NSCountry.SetTwoLetterISOCountry
+  langs:
+  - crmscript
+  name: 'SetTwoLetterISOCountry(String)'
+  nameWithType: NSCountry.SetTwoLetterISOCountry(String)
+  fullName: CRMScript.NetServer.NSCountry.SetTwoLetterISOCountry(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTwoLetterISOCountry(String twoLetterISOCountry)
+    parameters:
+    - id: twoLetterISOCountry
+      type: CRMScript.Global.String
+      description: Two-letter country-code according to ISO3166
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCountry thing;\nString twoLetterISOCountry;\nthing.SetTwoLetterISOCountry(twoLetterISOCountry);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCountry.SetZipPrefix(String)
+  commentId: M:CRMScript.NetServer.NSCountry.SetZipPrefix(String)
+  id: 'SetZipPrefix(String)'
+  so.intellisense: NSCountry.SetZipPrefix
+  langs:
+  - crmscript
+  name: 'SetZipPrefix(String)'
+  nameWithType: NSCountry.SetZipPrefix(String)
+  fullName: CRMScript.NetServer.NSCountry.SetZipPrefix(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetZipPrefix(String zipPrefix)
+    parameters:
+    - id: zipPrefix
+      type: CRMScript.Global.String
+      description: "Post prefix."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCountry thing;\nString zipPrefix;\nthing.SetZipPrefix(zipPrefix);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSCountry
+  commentId: T:CRMScript.NetServer.NSCountry
+  isExternal: true
+  name: NSCountry
+  nameWithType: NSCountry
+  fullName: CRMScript.NetServer.NSCountry
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

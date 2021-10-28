@@ -1,0 +1,251 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.ExtraTable
+  commentId: T:CRMScript.Native.ExtraTable
+  id: ExtraTable
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.ExtraTable.#ctor
+  - CRMScript.Native.ExtraTable.delete()
+  - CRMScript.Native.ExtraTable.getValue(String)
+  - CRMScript.Native.ExtraTable.getValues()
+  - CRMScript.Native.ExtraTable.load(Integer)
+  - CRMScript.Native.ExtraTable.loadFromAgentAndKey(Integer,String)
+  - CRMScript.Native.ExtraTable.save()
+  - CRMScript.Native.ExtraTable.save(Bool)
+  - CRMScript.Native.ExtraTable.setValue(String,String)
+  name: ExtraTable
+  nameWithType: ExtraTable
+  fullName: CRMScript.Native.ExtraTable
+  type: Class
+  summary: "\nA class to access extra tables and create, edit and delete entries.\n"
+  example: 
+  - "\n<pre><code>ExtraTable e;\n\ne.load(2); // Loads ExtraTable with id = 2\ne.setValue(&quot;fieldname&quot;, &quot;Test&quot;);\ne.setValue(&quot;value&quot;, &quot;43&quot;);\nprint(e.getValue(&quot;Test&quot;));</code></pre>\n"
+- uid: CRMScript.Native.ExtraTable.#ctor
+  commentId: M:CRMScript.Native.ExtraTable.#ctor
+  id: '#ctor'
+  so.intellisense: Void.ExtraTable
+  langs:
+  - crmscript
+  name: ExtraTable()
+  nameWithType: ExtraTable.#ctor
+  fullName: CRMScript.Native.ExtraTable.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the ExtraTable class.\n"
+  remarks: 
+  syntax: 
+    content: ExtraTable
+  example: 
+  - "\n<pre><code>ExtraTable e;\n\ne.load(2); // Loads ExtraTable with ID = 2\ne.setValue(&quot;fieldname&quot;, &quot;Test&quot;);\ne.setValue(&quot;value&quot;, &quot;43&quot;);\nprint(e.getValue(&quot;Test&quot;));</code></pre>\n"
+- uid: CRMScript.Native.ExtraTable.delete()
+  commentId: M:CRMScript.Native.ExtraTable.delete()
+  id: 'delete()'
+  so.intellisense: ExtraTable.delete
+  langs:
+  - crmscript
+  name: 'delete()'
+  nameWithType: ExtraTable.delete()
+  fullName: CRMScript.Native.ExtraTable.delete()
+  type: Method
+  summary: "\nDeletes the loaded object.\n"
+  remarks: 
+  syntax: 
+    content: Void delete()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.ExtraTable.getValue(String)
+  commentId: M:CRMScript.Native.ExtraTable.getValue(String)
+  id: 'getValue(String)'
+  so.intellisense: ExtraTable.getValue
+  langs:
+  - crmscript
+  name: 'getValue(String)'
+  nameWithType: ExtraTable.getValue(String)
+  fullName: CRMScript.Native.ExtraTable.getValue(String)
+  type: Method
+  summary: "\nReturns the value of the given field for the currently loaded entry.\n"
+  remarks: 
+  syntax: 
+    content: String getValue(String field)
+    parameters:
+    - id: field
+      type: CRMScript.Global.String
+      description: "The name of the extra table field, for example, x_myfield."
+    return:
+      type: CRMScript.Global.String
+      description: "The value of the given field for the currently loaded entry."
+  example: 
+  - "\n<pre><code>ExtraTable ex;\n\nBool b = ex.load(2);\nprint(b.toString());\n\nprint(ex.getValue(&quot;x_table&quot;));</code></pre>\n"
+- uid: CRMScript.Native.ExtraTable.getValues()
+  commentId: M:CRMScript.Native.ExtraTable.getValues()
+  id: 'getValues()'
+  so.intellisense: ExtraTable.getValues
+  langs:
+  - crmscript
+  name: 'getValues()'
+  nameWithType: ExtraTable.getValues()
+  fullName: CRMScript.Native.ExtraTable.getValues()
+  type: Method
+  summary: "\nReturns all the fields and values of the extraTable row as a Map.\n"
+  remarks: 
+  syntax: 
+    content: Map getValues()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description: "All the fields and values of the extraTable row."
+  example: 
+- uid: CRMScript.Native.ExtraTable.load(Integer)
+  commentId: M:CRMScript.Native.ExtraTable.load(Integer)
+  id: 'load(Integer)'
+  so.intellisense: ExtraTable.load
+  langs:
+  - crmscript
+  name: 'load(Integer)'
+  nameWithType: ExtraTable.load(Integer)
+  fullName: CRMScript.Native.ExtraTable.load(Integer)
+  type: Method
+  summary: "\nLoads the extra table entry with the given ID.\n"
+  remarks: 
+  syntax: 
+    content: Bool load(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "Table ID."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the entry was found and loaded; otherwise, false."
+  example: 
+  - "\n<pre><code>ExtraTable ex;\n\nBool b = ex.load(2);\nprint(b.toString());</code></pre>\n"
+- uid: CRMScript.Native.ExtraTable.loadFromAgentAndKey(Integer,String)
+  commentId: M:CRMScript.Native.ExtraTable.loadFromAgentAndKey(Integer,String)
+  id: 'loadFromAgentAndKey(Integer,String)'
+  so.intellisense: ExtraTable.loadFromAgentAndKey
+  langs:
+  - crmscript
+  name: 'loadFromAgentAndKey(Integer,String)'
+  nameWithType: ExtraTable.loadFromAgentAndKey(Integer,String)
+  fullName: CRMScript.Native.ExtraTable.loadFromAgentAndKey(Integer,String)
+  type: Method
+  summary: "\nUsed for integrating data from external systems.\n"
+  remarks: 
+  syntax: 
+    content: Bool loadFromAgentAndKey(Integer agent, String key)
+    parameters:
+    - id: agent
+      type: CRMScript.Global.Integer
+      description: "ID of the agent, registered in the Settings/DBI section of Service."
+    - id: key
+      type: CRMScript.Global.String
+      description: "ID of this entry in the external system."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the entry was found and loaded; otherwise, false."
+  example: 
+- uid: CRMScript.Native.ExtraTable.save()
+  commentId: M:CRMScript.Native.ExtraTable.save()
+  id: 'save()'
+  so.intellisense: ExtraTable.save
+  langs:
+  - crmscript
+  name: 'save()'
+  nameWithType: ExtraTable.save()
+  fullName: CRMScript.Native.ExtraTable.save()
+  type: Method
+  summary: "\nCreates a new or updates an existing extra-tableSaves an extra table. If ID is set, the table will be updated. Otherwise, a new extra-table entry will be created.\n"
+  remarks: "\nUse save(Bool) to signal that the entry should be reloaded after the save.\n"
+  syntax: 
+    content: Integer save()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the newly saved object."
+  example: 
+- uid: CRMScript.Native.ExtraTable.save(Bool)
+  commentId: M:CRMScript.Native.ExtraTable.save(Bool)
+  id: 'saveBool()'
+  so.intellisense: ExtraTable.save
+  langs:
+  - crmscript
+  name: 'save(Bool)'
+  nameWithType: ExtraTable.save(Bool)
+  fullName: CRMScript.Native.ExtraTable.save(Bool)
+  type: Method
+  summary: "\nCreates a new or updates an existing extra-tableSaves an extra table. If ID is set, the table will be updated. Otherwise, a new extra-table entry will be created.\n"
+  remarks: 
+  syntax: 
+    content: Integer save(Bool reload)
+    parameters:
+    - id: reload
+      type: CRMScript.Global.Bool
+      description: "True signals that the entry should be reloaded after the save."
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the newly saved object."
+  example:
+- uid: CRMScript.Native.ExtraTable.setValue(String,String)
+  commentId: M:CRMScript.Native.ExtraTable.setValue(String,String)
+  id: 'setValue(String,String)'
+  so.intellisense: ExtraTable.setValue
+  langs:
+  - crmscript
+  name: 'setValue(String,String)'
+  nameWithType: ExtraTable.setValue(String,String)
+  fullName: CRMScript.Native.ExtraTable.setValue(String,String)
+  type: Method
+  summary: "\nSets the value of a given field if it exists.\n"
+  remarks: 
+  syntax: 
+    content: Void setValue(String field, String value)
+    parameters:
+    - id: field
+      type: CRMScript.Global.String
+      description: "Name of field to set."
+    - id: value
+      type: CRMScript.Global.String
+      description: "A string representation of the value to be assigned to the field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>ExtraTable ex;\n\nBool b = ex.load(2);\nprint(b.toString());\n\nex.setValue(&quot;name&quot;, &quot;Test&quot;);\nprint(ex.getValue(&quot;x_table&quot;));</code></pre>\n"
+references:
+- uid: CRMScript.Native.ExtraTable
+  commentId: T:CRMScript.Native.ExtraTable
+  isExternal: true
+  name: ExtraTable
+  nameWithType: ExtraTable
+  fullName: CRMScript.Native.ExtraTable
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.Native.Map
+  commentId: T:CRMScript.Native.Map
+  isExternal: true
+  name: Map
+  nameWithType: Map
+  fullName: CRMScript.Native.Map

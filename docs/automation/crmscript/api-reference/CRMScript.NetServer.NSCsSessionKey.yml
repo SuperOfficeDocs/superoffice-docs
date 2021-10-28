@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSCsSessionKey
+  commentId: T:CRMScript.NetServer.NSCsSessionKey
+  id: NSCsSessionKey
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSCsSessionKey.#ctor
+  - CRMScript.NetServer.NSCsSessionKey.GetKey()
+  - CRMScript.NetServer.NSCsSessionKey.GetLoginId()
+  - CRMScript.NetServer.NSCsSessionKey.GetUserId()
+  - CRMScript.NetServer.NSCsSessionKey.SetKey(String)
+  - CRMScript.NetServer.NSCsSessionKey.SetLoginId(Integer)
+  - CRMScript.NetServer.NSCsSessionKey.SetUserId(Integer)
+  name: NSCsSessionKey
+  nameWithType: NSCsSessionKey
+  fullName: CRMScript.NetServer.NSCsSessionKey
+  type: Class
+  summary: "\nCarrier object for CsSessionKey.\n"
+  example: 
+- uid: CRMScript.NetServer.NSCsSessionKey.#ctor
+  commentId: M:CRMScript.NetServer.NSCsSessionKey.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSCsSessionKey
+  langs:
+  - crmscript
+  name: NSCsSessionKey()
+  nameWithType: NSCsSessionKey.#ctor
+  fullName: CRMScript.NetServer.NSCsSessionKey.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSCsSessionKey class.\n"
+  remarks: 
+  syntax: 
+    content: NSCsSessionKey
+  example: 
+- uid: CRMScript.NetServer.NSCsSessionKey.GetKey()
+  commentId: M:CRMScript.NetServer.NSCsSessionKey.GetKey()
+  id: 'GetKey()'
+  so.intellisense: NSCsSessionKey.GetKey
+  langs:
+  - crmscript
+  name: 'GetKey()'
+  nameWithType: NSCsSessionKey.GetKey()
+  fullName: CRMScript.NetServer.NSCsSessionKey.GetKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The session key created in the login table."
+  example: 
+  - "\n<pre><code>NSCsSessionKey thing;\nString key = thing.GetKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCsSessionKey.GetLoginId()
+  commentId: M:CRMScript.NetServer.NSCsSessionKey.GetLoginId()
+  id: 'GetLoginId()'
+  so.intellisense: NSCsSessionKey.GetLoginId
+  langs:
+  - crmscript
+  name: 'GetLoginId()'
+  nameWithType: NSCsSessionKey.GetLoginId()
+  fullName: CRMScript.NetServer.NSCsSessionKey.GetLoginId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetLoginId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the login row."
+  example: 
+  - "\n<pre><code>NSCsSessionKey thing;\nInteger loginId = thing.GetLoginId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCsSessionKey.GetUserId()
+  commentId: M:CRMScript.NetServer.NSCsSessionKey.GetUserId()
+  id: 'GetUserId()'
+  so.intellisense: NSCsSessionKey.GetUserId
+  langs:
+  - crmscript
+  name: 'GetUserId()'
+  nameWithType: NSCsSessionKey.GetUserId()
+  fullName: CRMScript.NetServer.NSCsSessionKey.GetUserId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetUserId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ejuser ID owning this session key."
+  example: 
+  - "\n<pre><code>NSCsSessionKey thing;\nInteger userId = thing.GetUserId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCsSessionKey.SetKey(String)
+  commentId: M:CRMScript.NetServer.NSCsSessionKey.SetKey(String)
+  id: 'SetKey(String)'
+  so.intellisense: NSCsSessionKey.SetKey
+  langs:
+  - crmscript
+  name: 'SetKey(String)'
+  nameWithType: NSCsSessionKey.SetKey(String)
+  fullName: CRMScript.NetServer.NSCsSessionKey.SetKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetKey(String key)
+    parameters:
+    - id: key
+      type: CRMScript.Global.String
+      description: "The session key created in the login table."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCsSessionKey thing;\nString key;\nthing.SetKey(key);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCsSessionKey.SetLoginId(Integer)
+  commentId: M:CRMScript.NetServer.NSCsSessionKey.SetLoginId(Integer)
+  id: 'SetLoginId(Integer)'
+  so.intellisense: NSCsSessionKey.SetLoginId
+  langs:
+  - crmscript
+  name: 'SetLoginId(Integer)'
+  nameWithType: NSCsSessionKey.SetLoginId(Integer)
+  fullName: CRMScript.NetServer.NSCsSessionKey.SetLoginId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLoginId(Integer loginId)
+    parameters:
+    - id: loginId
+      type: CRMScript.Global.Integer
+      description: "The ID of the login row."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCsSessionKey thing;\nInteger loginId;\nthing.SetLoginId(loginId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCsSessionKey.SetUserId(Integer)
+  commentId: M:CRMScript.NetServer.NSCsSessionKey.SetUserId(Integer)
+  id: 'SetUserId(Integer)'
+  so.intellisense: NSCsSessionKey.SetUserId
+  langs:
+  - crmscript
+  name: 'SetUserId(Integer)'
+  nameWithType: NSCsSessionKey.SetUserId(Integer)
+  fullName: CRMScript.NetServer.NSCsSessionKey.SetUserId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUserId(Integer userId)
+    parameters:
+    - id: userId
+      type: CRMScript.Global.Integer
+      description: "The ejuser ID owning this session key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCsSessionKey thing;\nInteger userId;\nthing.SetUserId(userId);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSCsSessionKey
+  commentId: T:CRMScript.NetServer.NSCsSessionKey
+  isExternal: true
+  name: NSCsSessionKey
+  nameWithType: NSCsSessionKey
+  fullName: CRMScript.NetServer.NSCsSessionKey
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

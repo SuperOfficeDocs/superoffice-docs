@@ -1,0 +1,1275 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSUser
+  commentId: T:CRMScript.NetServer.NSUser
+  id: NSUser
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSUser.#ctor
+  - CRMScript.NetServer.NSUser.GetAssociateId()
+  - CRMScript.NetServer.NSUser.GetCredentials()
+  - CRMScript.NetServer.NSUser.GetCustomFields()
+  - CRMScript.NetServer.NSUser.GetDeleted()
+  - CRMScript.NetServer.NSUser.GetDisplayName()
+  - CRMScript.NetServer.NSUser.GetEjUserId()
+  - CRMScript.NetServer.NSUser.GetExtraFields()
+  - CRMScript.NetServer.NSUser.GetIsOnTravel()
+  - CRMScript.NetServer.NSUser.GetIsPersonRetired()
+  - CRMScript.NetServer.NSUser.GetLastlogin()
+  - CRMScript.NetServer.NSUser.GetLastlogout()
+  - CRMScript.NetServer.NSUser.GetLicenseOwners()
+  - CRMScript.NetServer.NSUser.GetName()
+  - CRMScript.NetServer.NSUser.GetNickName()
+  - CRMScript.NetServer.NSUser.GetOtherGroups()
+  - CRMScript.NetServer.NSUser.GetPerson()
+  - CRMScript.NetServer.NSUser.GetRank()
+  - CRMScript.NetServer.NSUser.GetRequestSignature()
+  - CRMScript.NetServer.NSUser.GetRole()
+  - CRMScript.NetServer.NSUser.GetTicketCategories()
+  - CRMScript.NetServer.NSUser.GetTooltip()
+  - CRMScript.NetServer.NSUser.GetType()
+  - CRMScript.NetServer.NSUser.GetUserGroup()
+  - CRMScript.NetServer.NSUser.GetUserName()
+  - CRMScript.NetServer.NSUser.GetWaitingForApproval()
+  - CRMScript.NetServer.NSUser.SetAssociateId(Integer)
+  - CRMScript.NetServer.NSUser.SetCredentials(NSCredential[])
+  - CRMScript.NetServer.NSUser.SetCustomFields(Map)
+  - CRMScript.NetServer.NSUser.SetDeleted(Bool)
+  - CRMScript.NetServer.NSUser.SetDisplayName(String)
+  - CRMScript.NetServer.NSUser.SetEjUserId(Integer)
+  - CRMScript.NetServer.NSUser.SetExtraFields(Map)
+  - CRMScript.NetServer.NSUser.SetIsOnTravel(Bool)
+  - CRMScript.NetServer.NSUser.SetIsPersonRetired(Bool)
+  - CRMScript.NetServer.NSUser.SetLastlogin(DateTime)
+  - CRMScript.NetServer.NSUser.SetLastlogout(DateTime)
+  - CRMScript.NetServer.NSUser.SetLicenseOwners(NSLicenseOwner[])
+  - CRMScript.NetServer.NSUser.SetName(String)
+  - CRMScript.NetServer.NSUser.SetNickName(String)
+  - CRMScript.NetServer.NSUser.SetOtherGroups(NSUserGroup[])
+  - CRMScript.NetServer.NSUser.SetPerson(NSPerson)
+  - CRMScript.NetServer.NSUser.SetRank(Integer)
+  - CRMScript.NetServer.NSUser.SetRequestSignature(String)
+  - CRMScript.NetServer.NSUser.SetRole(NSRole)
+  - CRMScript.NetServer.NSUser.SetTicketCategories(NSMDOListItem[])
+  - CRMScript.NetServer.NSUser.SetTooltip(String)
+  - CRMScript.NetServer.NSUser.SetType(Integer)
+  - CRMScript.NetServer.NSUser.SetUserGroup(NSUserGroup)
+  - CRMScript.NetServer.NSUser.SetUserName(String)
+  - CRMScript.NetServer.NSUser.SetWaitingForApproval(Bool)
+  name: NSUser
+  nameWithType: NSUser
+  fullName: CRMScript.NetServer.NSUser
+  type: Class
+  summary: "\nSuperOffice User, with login credentials and an associated person.\n"
+  example: 
+- uid: CRMScript.NetServer.NSUser.#ctor
+  commentId: M:CRMScript.NetServer.NSUser.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSUser
+  langs:
+  - crmscript
+  name: NSUser()
+  nameWithType: NSUser.#ctor
+  fullName: CRMScript.NetServer.NSUser.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSUser class.\n"
+  remarks: 
+  syntax: 
+    content: NSUser
+  example: 
+- uid: CRMScript.NetServer.NSUser.GetAssociateId()
+  commentId: M:CRMScript.NetServer.NSUser.GetAssociateId()
+  id: 'GetAssociateId()'
+  so.intellisense: NSUser.GetAssociateId
+  langs:
+  - crmscript
+  name: 'GetAssociateId()'
+  nameWithType: NSUser.GetAssociateId()
+  fullName: CRMScript.NetServer.NSUser.GetAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSUser thing;\nInteger associateId = thing.GetAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.GetCredentials()
+  commentId: M:CRMScript.NetServer.NSUser.GetCredentials()
+  id: 'GetCredentials()'
+  so.intellisense: NSUser.GetCredentials
+  langs:
+  - crmscript
+  name: 'GetCredentials()'
+  nameWithType: NSUser.GetCredentials()
+  fullName: CRMScript.NetServer.NSUser.GetCredentials()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSCredential[] GetCredentials()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSCredential[]
+      description: "List of credentials registered for this user. i.e. valid authentication methods."
+  example: 
+  - "\n<pre><code>NSUser thing;\nNSCredential[] credentials = thing.GetCredentials();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.GetCustomFields()
+  commentId: M:CRMScript.NetServer.NSUser.GetCustomFields()
+  id: 'GetCustomFields()'
+  so.intellisense: NSUser.GetCustomFields
+  langs:
+  - crmscript
+  name: 'GetCustomFields()'
+  nameWithType: NSUser.GetCustomFields()
+  fullName: CRMScript.NetServer.NSUser.GetCustomFields()
+  type: Method
+  summary: "\nGets the user-defined + extra fields on a User as a map.\n"
+  remarks: 
+  syntax: 
+    content: Map GetCustomFields()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSUser thing;\nMap udefs = thing.GetCustomFields();\nlog( udefs[&quot;SuperOffice:1&quot;] ); // &quot;[I:123]&quot;* integer or list item id\nlog( udefs[&quot;SuperOffice:1:DisplayText&quot;] ); // &quot;bla bla&quot;* list item value\nlog( udefs[&quot;custom.progid&quot;] ); // &quot;foobar&quot;* string value\nlog( udefs[&quot;x_bar&quot;] ); // &quot;[I:123]&quot;* list item id\nlog( udefs[&quot;x_bar:DisplayText&quot;] ); // &quot;foobar&quot;* list item name value</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.GetDeleted()
+  commentId: M:CRMScript.NetServer.NSUser.GetDeleted()
+  id: 'GetDeleted()'
+  so.intellisense: NSUser.GetDeleted
+  langs:
+  - crmscript
+  name: 'GetDeleted()'
+  nameWithType: NSUser.GetDeleted()
+  fullName: CRMScript.NetServer.NSUser.GetDeleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetDeleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If true, the user is retired and should have no rights, not appear in lists, etc."
+  example: 
+  - "\n<pre><code>NSUser thing;\nBool deleted = thing.GetDeleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.GetDisplayName()
+  commentId: M:CRMScript.NetServer.NSUser.GetDisplayName()
+  id: 'GetDisplayName()'
+  so.intellisense: NSUser.GetDisplayName
+  langs:
+  - crmscript
+  name: 'GetDisplayName()'
+  nameWithType: NSUser.GetDisplayName()
+  fullName: CRMScript.NetServer.NSUser.GetDisplayName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDisplayName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The unique display name for this user. Used in Service as an alias, similar to Name/Initials."
+  example: 
+- uid: CRMScript.NetServer.NSUser.GetEjUserId()
+  commentId: M:CRMScript.NetServer.NSUser.GetEjUserId()
+  id: 'GetEjUserId()'
+  so.intellisense: NSUser.GetEjUserId
+  langs:
+  - crmscript
+  name: 'GetEjUserId()'
+  nameWithType: NSUser.GetEjUserId()
+  fullName: CRMScript.NetServer.NSUser.GetEjUserId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetEjUserId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of the ej user record corresponding to this associate; 0 for associates that are not ej users."
+  example: 
+  - "\n<pre><code>NSUser thing;\nInteger ejUserId = thing.GetEjUserId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.GetExtraFields()
+  commentId: M:CRMScript.NetServer.NSUser.GetExtraFields()
+  id: 'GetExtraFields()'
+  so.intellisense: NSUser.GetExtraFields
+  langs:
+  - crmscript
+  name: 'GetExtraFields()'
+  nameWithType: NSUser.GetExtraFields()
+  fullName: CRMScript.NetServer.NSUser.GetExtraFields()
+  type: Method
+  summary: "\nGets the extra fields on User as a map.\n"
+  remarks: 
+  syntax: 
+    content: Map GetExtraFields()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSUser thing;\nMap extras = thing.GetExtraFields();\nlog( extras[&quot;x_abc&quot;] ); // &quot;[I:123]&quot;* integer or list item id\nlog( extras[&quot;x_abc:DisplayText&quot;] ); // &quot;bla bla&quot;* list item value\nlog( extras[&quot;x_bla&quot;] ); // &quot;foobar&quot;* string value</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.GetIsOnTravel()
+  commentId: M:CRMScript.NetServer.NSUser.GetIsOnTravel()
+  id: 'GetIsOnTravel()'
+  so.intellisense: NSUser.GetIsOnTravel
+  langs:
+  - crmscript
+  name: 'GetIsOnTravel()'
+  nameWithType: NSUser.GetIsOnTravel()
+  fullName: CRMScript.NetServer.NSUser.GetIsOnTravel()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsOnTravel()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the user is on travel."
+  example: 
+  - "\n<pre><code>NSUser thing;\nBool isOnTravel = thing.GetIsOnTravel();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.GetIsPersonRetired()
+  commentId: M:CRMScript.NetServer.NSUser.GetIsPersonRetired()
+  id: 'GetIsPersonRetired()'
+  so.intellisense: NSUser.GetIsPersonRetired
+  langs:
+  - crmscript
+  name: 'GetIsPersonRetired()'
+  nameWithType: NSUser.GetIsPersonRetired()
+  fullName: CRMScript.NetServer.NSUser.GetIsPersonRetired()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsPersonRetired()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the user is retired and should have no rights, not appear in lists, etc."
+  example: 
+  - "\n<pre><code>NSUser thing;\nBool isPersonRetired = thing.GetIsPersonRetired();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.GetLastlogin()
+  commentId: M:CRMScript.NetServer.NSUser.GetLastlogin()
+  id: 'GetLastlogin()'
+  so.intellisense: NSUser.GetLastlogin
+  langs:
+  - crmscript
+  name: 'GetLastlogin()'
+  nameWithType: NSUser.GetLastlogin()
+  fullName: CRMScript.NetServer.NSUser.GetLastlogin()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetLastlogin()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Last login date."
+  example: 
+  - "\n<pre><code>NSUser thing;\nDateTime lastlogin = thing.GetLastlogin();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.GetLastlogout()
+  commentId: M:CRMScript.NetServer.NSUser.GetLastlogout()
+  id: 'GetLastlogout()'
+  so.intellisense: NSUser.GetLastlogout
+  langs:
+  - crmscript
+  name: 'GetLastlogout()'
+  nameWithType: NSUser.GetLastlogout()
+  fullName: CRMScript.NetServer.NSUser.GetLastlogout()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetLastlogout()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Last logout date."
+  example: 
+  - "\n<pre><code>NSUser thing;\nDateTime lastlogout = thing.GetLastlogout();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.GetLicenseOwners()
+  commentId: M:CRMScript.NetServer.NSUser.GetLicenseOwners()
+  id: 'GetLicenseOwners()'
+  so.intellisense: NSUser.GetLicenseOwners
+  langs:
+  - crmscript
+  name: 'GetLicenseOwners()'
+  nameWithType: NSUser.GetLicenseOwners()
+  fullName: CRMScript.NetServer.NSUser.GetLicenseOwners()
+  type: Method
+  summary: # TODO
+  remarks: "\nThese module licenses are either assigned or unassigned to this user\n"
+  syntax: 
+    content: NSLicenseOwner[] GetLicenseOwners()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSLicenseOwner[]
+      description: "The restricted and unrestricted module licenses grouped by license owner."
+  example: 
+  - "\n<pre><code>NSUser thing;\nNSLicenseOwner[] licenseOwners = thing.GetLicenseOwners();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.GetName()
+  commentId: M:CRMScript.NetServer.NSUser.GetName()
+  id: 'GetName()'
+  so.intellisense: NSUser.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSUser.GetName()
+  fullName: CRMScript.NetServer.NSUser.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Initials, UserId* also used as login name for on-site installations. Identifies user in archives."
+  example: 
+  - "\n<pre><code>NSUser thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.GetNickName()
+  commentId: M:CRMScript.NetServer.NSUser.GetNickName()
+  id: 'GetNickName()'
+  so.intellisense: NSUser.GetNickName
+  langs:
+  - crmscript
+  name: 'GetNickName()'
+  nameWithType: NSUser.GetNickName()
+  fullName: CRMScript.NetServer.NSUser.GetNickName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetNickName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The unique nick name for this user. Used in Service as an alias, similar to Name/Initials."
+  example: 
+  - "\n<pre><code>NSUser thing;\nString nickName = thing.GetNickName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.GetOtherGroups()
+  commentId: M:CRMScript.NetServer.NSUser.GetOtherGroups()
+  id: 'GetOtherGroups()'
+  so.intellisense: NSUser.GetOtherGroups
+  langs:
+  - crmscript
+  name: 'GetOtherGroups()'
+  nameWithType: NSUser.GetOtherGroups()
+  fullName: CRMScript.NetServer.NSUser.GetOtherGroups()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSUserGroup[] GetOtherGroups()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSUserGroup[]
+      description: "The other groups this user is a member of, apart from the main user group."
+  example: 
+  - "\n<pre><code>NSUser thing;\nNSUserGroup[] otherGroups = thing.GetOtherGroups();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.GetPerson()
+  commentId: M:CRMScript.NetServer.NSUser.GetPerson()
+  id: 'GetPerson()'
+  so.intellisense: NSUser.GetPerson
+  langs:
+  - crmscript
+  name: 'GetPerson()'
+  nameWithType: NSUser.GetPerson()
+  fullName: CRMScript.NetServer.NSUser.GetPerson()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSPerson GetPerson()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSPerson
+      description: "The person associated with this user. Detailed information about the user."
+  example: 
+  - "\n<pre><code>NSUser thing;\nNSPerson person = thing.GetPerson();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.GetRank()
+  commentId: M:CRMScript.NetServer.NSUser.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSUser.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSUser.GetRank()
+  fullName: CRMScript.NetServer.NSUser.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Rank order."
+  example: 
+  - "\n<pre><code>NSUser thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.GetRequestSignature()
+  commentId: M:CRMScript.NetServer.NSUser.GetRequestSignature()
+  id: 'GetRequestSignature()'
+  so.intellisense: NSUser.GetRequestSignature
+  langs:
+  - crmscript
+  name: 'GetRequestSignature()'
+  nameWithType: NSUser.GetRequestSignature()
+  fullName: CRMScript.NetServer.NSUser.GetRequestSignature()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetRequestSignature()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "ej users request signature."
+  example: 
+  - "\n<pre><code>NSUser thing;\nString requestSignature = thing.GetRequestSignature();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.GetRole()
+  commentId: M:CRMScript.NetServer.NSUser.GetRole()
+  id: 'GetRole()'
+  so.intellisense: NSUser.GetRole
+  langs:
+  - crmscript
+  name: 'GetRole()'
+  nameWithType: NSUser.GetRole()
+  fullName: CRMScript.NetServer.NSUser.GetRole()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSRole GetRole()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSRole
+      description: "Users role for role-based security. Determines permissions and access rights for the user."
+  example: 
+  - "\n<pre><code>NSUser thing;\nNSRole role = thing.GetRole();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.GetTicketCategories()
+  commentId: M:CRMScript.NetServer.NSUser.GetTicketCategories()
+  id: 'GetTicketCategories()'
+  so.intellisense: NSUser.GetTicketCategories
+  langs:
+  - crmscript
+  name: 'GetTicketCategories()'
+  nameWithType: NSUser.GetTicketCategories()
+  fullName: CRMScript.NetServer.NSUser.GetTicketCategories()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSMDOListItem[] GetTicketCategories()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSMDOListItem[]
+      description: "Request Ticket Categories assigned to the user."
+  example: 
+  - "\n<pre><code>NSUser thing;\nNSMDOListItem[] ticketCategories = thing.GetTicketCategories();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSUser.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSUser.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSUser.GetTooltip()
+  fullName: CRMScript.NetServer.NSUser.GetTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Tooltip or other description."
+  example: 
+  - "\n<pre><code>NSUser thing;\nString tooltip = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.GetType()
+  commentId: M:CRMScript.NetServer.NSUser.GetType()
+  id: 'GetType()'
+  so.intellisense: NSUser.GetType
+  langs:
+  - crmscript
+  name: 'GetType()'
+  nameWithType: NSUser.GetType()
+  fullName: CRMScript.NetServer.NSUser.GetType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "NSUser type 1=InternalAssociate, 2=ResourceAssociate, 3=ExternalAssociate, 4=AnonymousAssociate, 5=SystemAssociate."
+  example: 
+  - "\n<pre><code>NSUser thing;\nInteger type = thing.GetType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.GetUserGroup()
+  commentId: M:CRMScript.NetServer.NSUser.GetUserGroup()
+  id: 'GetUserGroup()'
+  so.intellisense: NSUser.GetUserGroup
+  langs:
+  - crmscript
+  name: 'GetUserGroup()'
+  nameWithType: NSUser.GetUserGroup()
+  fullName: CRMScript.NetServer.NSUser.GetUserGroup()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSUserGroup GetUserGroup()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSUserGroup
+      description: "The main user group that this user belongs to."
+  example: 
+  - "\n<pre><code>NSUser thing;\nNSUserGroup userGroup = thing.GetUserGroup();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.GetUserName()
+  commentId: M:CRMScript.NetServer.NSUser.GetUserName()
+  id: 'GetUserName()'
+  so.intellisense: NSUser.GetUserName
+  langs:
+  - crmscript
+  name: 'GetUserName()'
+  nameWithType: NSUser.GetUserName()
+  fullName: CRMScript.NetServer.NSUser.GetUserName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetUserName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "User name, a.k.a. Login name. This might be an email address."
+  example: 
+  - "\n<pre><code>NSUser thing;\nString userName = thing.GetUserName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.GetWaitingForApproval()
+  commentId: M:CRMScript.NetServer.NSUser.GetWaitingForApproval()
+  id: 'GetWaitingForApproval()'
+  so.intellisense: NSUser.GetWaitingForApproval
+  langs:
+  - crmscript
+  name: 'GetWaitingForApproval()'
+  nameWithType: NSUser.GetWaitingForApproval()
+  fullName: CRMScript.NetServer.NSUser.GetWaitingForApproval()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetWaitingForApproval()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "The user is waiting for an administrator to approve/grant her/him access."
+  example: 
+  - "\n<pre><code>NSUser thing;\nBool waitingForApproval = thing.GetWaitingForApproval();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.SetAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSUser.SetAssociateId(Integer)
+  id: 'SetAssociateId(Integer)'
+  so.intellisense: NSUser.SetAssociateId
+  langs:
+  - crmscript
+  name: 'SetAssociateId(Integer)'
+  nameWithType: NSUser.SetAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSUser.SetAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAssociateId(Integer associateId)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUser thing;\nInteger associateId;\nthing.SetAssociateId(associateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.SetCredentials(NSCredential[])
+  commentId: M:CRMScript.NetServer.NSUser.SetCredentials(NSCredential[])
+  id: 'SetCredentials(NSCredential[])'
+  so.intellisense: NSUser.SetCredentials
+  langs:
+  - crmscript
+  name: 'SetCredentials(NSCredential[])'
+  nameWithType: NSUser.SetCredentials(NSCredential[])
+  fullName: CRMScript.NetServer.NSUser.SetCredentials(NSCredential[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCredentials(NSCredential[] credentials)
+    parameters:
+    - id: credentials
+      type: CRMScript.NetServer.NSCredential[]
+      description: "List of credentials registered for this user. i.e. valid authentication methods."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUser thing;\nNSCredential[] credentials;\nthing.SetCredentials(credentials);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.SetCustomFields(Map)
+  commentId: M:CRMScript.NetServer.NSUser.SetCustomFields(Map)
+  id: 'SetCustomFields(Map)'
+  so.intellisense: NSUser.SetCustomFields
+  langs:
+  - crmscript
+  name: 'SetCustomFields(Map)'
+  nameWithType: NSUser.SetCustomFields(Map)
+  fullName: CRMScript.NetServer.NSUser.SetCustomFields(Map)
+  type: Method
+  summary: "\nSets the user-defined and extra fields on a User with a map.\n"
+  remarks: 
+  syntax: 
+    content: Void SetCustomFields(Map udefs)
+    parameters:
+    - id: udefs
+      type: CRMScript.Native.Map
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUser thing;\nMap udefs;\nudefs[&quot;SuperOffice:1&quot;] = &quot;[I:123]&quot;;\nudefs[&quot;SuperOffice:1&quot;] = &quot;123&quot;; // this will also work, but beware of decimal point variations in different languages\nudefs[&quot;custom.progid&quot;] = &quot;foobar&quot;;\nudefs[&quot;x_foo&quot;] = &quot;foobar&quot;;\nudefs[&quot;x_bar&quot;] = &quot;456&quot;; // List item id\nthing.SetCustomFields(udefs);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.SetDeleted(Bool)
+  commentId: M:CRMScript.NetServer.NSUser.SetDeleted(Bool)
+  id: 'SetDeleted(Bool)'
+  so.intellisense: NSUser.SetDeleted
+  langs:
+  - crmscript
+  name: 'SetDeleted(Bool)'
+  nameWithType: NSUser.SetDeleted(Bool)
+  fullName: CRMScript.NetServer.NSUser.SetDeleted(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeleted(Bool deleted)
+    parameters:
+    - id: deleted
+      type: CRMScript.Global.Bool
+      description: "If true, the user is retired and should have no rights, not appear in lists, etc."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUser thing;\nBool deleted;\nthing.SetDeleted(deleted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.SetDisplayName(String)
+  commentId: M:CRMScript.NetServer.NSUser.SetDisplayName(String)
+  id: 'SetDisplayName(String)'
+  so.intellisense: NSUser.SetDisplayName
+  langs:
+  - crmscript
+  name: 'SetDisplayName(String)'
+  nameWithType: NSUser.SetDisplayName(String)
+  fullName: CRMScript.NetServer.NSUser.SetDisplayName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDisplayName(String displayName)
+    parameters:
+    - id: displayName
+      type: CRMScript.Global.String
+      description: "The unique display name for this user. Used in Service as an alias, similar to Name/Initials."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSUser.SetEjUserId(Integer)
+  commentId: M:CRMScript.NetServer.NSUser.SetEjUserId(Integer)
+  id: 'SetEjUserId(Integer)'
+  so.intellisense: NSUser.SetEjUserId
+  langs:
+  - crmscript
+  name: 'SetEjUserId(Integer)'
+  nameWithType: NSUser.SetEjUserId(Integer)
+  fullName: CRMScript.NetServer.NSUser.SetEjUserId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEjUserId(Integer ejUserId)
+    parameters:
+    - id: ejUserId
+      type: CRMScript.Global.Integer
+      description: "ID of the ej user record corresponding to this associate; 0 for associates that are not ej users."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUser thing;\nInteger ejUserId;\nthing.SetEjUserId(ejUserId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.SetExtraFields(Map)
+  commentId: M:CRMScript.NetServer.NSUser.SetExtraFields(Map)
+  id: 'SetExtraFields(Map)'
+  so.intellisense: NSUser.SetExtraFields
+  langs:
+  - crmscript
+  name: 'SetExtraFields(Map)'
+  nameWithType: NSUser.SetExtraFields(Map)
+  fullName: CRMScript.NetServer.NSUser.SetExtraFields(Map)
+  type: Method
+  summary: "\nSets the extra field values on User with a map.\n"
+  remarks: 
+  syntax: 
+    content: Void SetExtraFields(Map extras)
+    parameters:
+    - id: extras
+      type: CRMScript.Native.Map
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUser thing;\nMap extras;\nextras[&quot;SuperOffice:1&quot;] = &quot;[I:123]&quot;;\nextras[&quot;SuperOffice:1&quot;] = &quot;123&quot;; // this will also work, but beware of decimal point variations in different languages\nextras[&quot;custom.progid&quot;] = &quot;foobar&quot;;\nthing.SetExtraFields(extras);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.SetIsOnTravel(Bool)
+  commentId: M:CRMScript.NetServer.NSUser.SetIsOnTravel(Bool)
+  id: 'SetIsOnTravel(Bool)'
+  so.intellisense: NSUser.SetIsOnTravel
+  langs:
+  - crmscript
+  name: 'SetIsOnTravel(Bool)'
+  nameWithType: NSUser.SetIsOnTravel(Bool)
+  fullName: CRMScript.NetServer.NSUser.SetIsOnTravel(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsOnTravel(Bool isOnTravel)
+    parameters:
+    - id: isOnTravel
+      type: CRMScript.Global.Bool
+      description: "True if the user is on travel."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUser thing;\nBool isOnTravel;\nthing.SetIsOnTravel(isOnTravel);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.SetIsPersonRetired(Bool)
+  commentId: M:CRMScript.NetServer.NSUser.SetIsPersonRetired(Bool)
+  id: 'SetIsPersonRetired(Bool)'
+  so.intellisense: NSUser.SetIsPersonRetired
+  langs:
+  - crmscript
+  name: 'SetIsPersonRetired(Bool)'
+  nameWithType: NSUser.SetIsPersonRetired(Bool)
+  fullName: CRMScript.NetServer.NSUser.SetIsPersonRetired(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsPersonRetired(Bool isPersonRetired)
+    parameters:
+    - id: isPersonRetired
+      type: CRMScript.Global.Bool
+      description: "True if the user is retired and should have no rights, not appear in lists, etc."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUser thing;\nBool isPersonRetired;\nthing.SetIsPersonRetired(isPersonRetired);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.SetLastlogin(DateTime)
+  commentId: M:CRMScript.NetServer.NSUser.SetLastlogin(DateTime)
+  id: 'SetLastlogin(DateTime)'
+  so.intellisense: NSUser.SetLastlogin
+  langs:
+  - crmscript
+  name: 'SetLastlogin(DateTime)'
+  nameWithType: NSUser.SetLastlogin(DateTime)
+  fullName: CRMScript.NetServer.NSUser.SetLastlogin(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLastlogin(DateTime lastlogin)
+    parameters:
+    - id: lastlogin
+      type: CRMScript.Global.DateTime
+      description: "Last login date."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUser thing;\nDateTime lastlogin;\nthing.SetLastlogin(lastlogin);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.SetLastlogout(DateTime)
+  commentId: M:CRMScript.NetServer.NSUser.SetLastlogout(DateTime)
+  id: 'SetLastlogout(DateTime)'
+  so.intellisense: NSUser.SetLastlogout
+  langs:
+  - crmscript
+  name: 'SetLastlogout(DateTime)'
+  nameWithType: NSUser.SetLastlogout(DateTime)
+  fullName: CRMScript.NetServer.NSUser.SetLastlogout(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLastlogout(DateTime lastlogout)
+    parameters:
+    - id: lastlogout
+      type: CRMScript.Global.DateTime
+      description: "Last logout date."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUser thing;\nDateTime lastlogout;\nthing.SetLastlogout(lastlogout);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.SetLicenseOwners(NSLicenseOwner[])
+  commentId: M:CRMScript.NetServer.NSUser.SetLicenseOwners(NSLicenseOwner[])
+  id: 'SetLicenseOwners(NSLicenseOwner[])'
+  so.intellisense: NSUser.SetLicenseOwners
+  langs:
+  - crmscript
+  name: 'SetLicenseOwners(NSLicenseOwner[])'
+  nameWithType: NSUser.SetLicenseOwners(NSLicenseOwner[])
+  fullName: CRMScript.NetServer.NSUser.SetLicenseOwners(NSLicenseOwner[])
+  type: Method
+  summary: # TODO
+  remarks: "\nThese module licenses are either assigned or unassigned to this user\n"
+  syntax: 
+    content: Void SetLicenseOwners(NSLicenseOwner[] licenseOwners)
+    parameters:
+    - id: licenseOwners
+      type: CRMScript.NetServer.NSLicenseOwner[]
+      description: "The restricted and unrestricted module licenses grouped by license owner."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUser thing;\nNSLicenseOwner[] licenseOwners;\nthing.SetLicenseOwners(licenseOwners);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.SetName(String)
+  commentId: M:CRMScript.NetServer.NSUser.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSUser.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSUser.SetName(String)
+  fullName: CRMScript.NetServer.NSUser.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Initials, UserId* also used as login name for on-site installations. Identifies user in archives."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUser thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.SetNickName(String)
+  commentId: M:CRMScript.NetServer.NSUser.SetNickName(String)
+  id: 'SetNickName(String)'
+  so.intellisense: NSUser.SetNickName
+  langs:
+  - crmscript
+  name: 'SetNickName(String)'
+  nameWithType: NSUser.SetNickName(String)
+  fullName: CRMScript.NetServer.NSUser.SetNickName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetNickName(String nickName)
+    parameters:
+    - id: nickName
+      type: CRMScript.Global.String
+      description: "The unique nick name for this user. Used in Service as an alias, similar to Name/Initials."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUser thing;\nString nickName;\nthing.SetNickName(nickName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.SetOtherGroups(NSUserGroup[])
+  commentId: M:CRMScript.NetServer.NSUser.SetOtherGroups(NSUserGroup[])
+  id: 'SetOtherGroups(NSUserGroup[])'
+  so.intellisense: NSUser.SetOtherGroups
+  langs:
+  - crmscript
+  name: 'SetOtherGroups(NSUserGroup[])'
+  nameWithType: NSUser.SetOtherGroups(NSUserGroup[])
+  fullName: CRMScript.NetServer.NSUser.SetOtherGroups(NSUserGroup[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOtherGroups(NSUserGroup[] otherGroups)
+    parameters:
+    - id: otherGroups
+      type: CRMScript.NetServer.NSUserGroup[]
+      description: "The other groups this user is a member of, apart from the main user group."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUser thing;\nNSUserGroup[] otherGroups;\nthing.SetOtherGroups(otherGroups);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.SetPerson(NSPerson)
+  commentId: M:CRMScript.NetServer.NSUser.SetPerson(NSPerson)
+  id: 'SetPerson(NSPerson)'
+  so.intellisense: NSUser.SetPerson
+  langs:
+  - crmscript
+  name: 'SetPerson(NSPerson)'
+  nameWithType: NSUser.SetPerson(NSPerson)
+  fullName: CRMScript.NetServer.NSUser.SetPerson(NSPerson)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPerson(NSPerson person)
+    parameters:
+    - id: person
+      type: CRMScript.NetServer.NSPerson
+      description: "The person associated with this user. Detailed information about the user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUser thing;\nNSPerson person;\nthing.SetPerson(person);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSUser.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSUser.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSUser.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSUser.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "Rank order."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUser thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.SetRequestSignature(String)
+  commentId: M:CRMScript.NetServer.NSUser.SetRequestSignature(String)
+  id: 'SetRequestSignature(String)'
+  so.intellisense: NSUser.SetRequestSignature
+  langs:
+  - crmscript
+  name: 'SetRequestSignature(String)'
+  nameWithType: NSUser.SetRequestSignature(String)
+  fullName: CRMScript.NetServer.NSUser.SetRequestSignature(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRequestSignature(String requestSignature)
+    parameters:
+    - id: requestSignature
+      type: CRMScript.Global.String
+      description: "ej users request signature."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUser thing;\nString requestSignature;\nthing.SetRequestSignature(requestSignature);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.SetRole(NSRole)
+  commentId: M:CRMScript.NetServer.NSUser.SetRole(NSRole)
+  id: 'SetRole(NSRole)'
+  so.intellisense: NSUser.SetRole
+  langs:
+  - crmscript
+  name: 'SetRole(NSRole)'
+  nameWithType: NSUser.SetRole(NSRole)
+  fullName: CRMScript.NetServer.NSUser.SetRole(NSRole)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRole(NSRole role)
+    parameters:
+    - id: NSRole
+      type: CRMScript.NetServer.NSRole
+      description: "Users role for role-based security. Determines permissions and access rights for the user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUser thing;\nNSRole role;\nthing.SetRole(role);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.SetTicketCategories(NSMDOListItem[])
+  commentId: M:CRMScript.NetServer.NSUser.SetTicketCategories(NSMDOListItem[])
+  id: 'SetTicketCategories(NSMDOListItem[])'
+  so.intellisense: NSUser.SetTicketCategories
+  langs:
+  - crmscript
+  name: 'SetTicketCategories(NSMDOListItem[])'
+  nameWithType: NSUser.SetTicketCategories(NSMDOListItem[])
+  fullName: CRMScript.NetServer.NSUser.SetTicketCategories(NSMDOListItem[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTicketCategories(NSMDOListItem[] ticketCategories)
+    parameters:
+    - id: ticketCategories
+      type: CRMScript.NetServer.NSMDOListItem[]
+      description: "Request Ticket Categories assigned to the user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUser thing;\nNSMDOListItem[] ticketCategories;\nthing.SetTicketCategories(ticketCategories);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSUser.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSUser.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSUser.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSUser.SetTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: "Tooltip or other description."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUser thing;\nString tooltip;\nthing.SetTooltip(tooltip);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.SetType(Integer)
+  commentId: M:CRMScript.NetServer.NSUser.SetType(Integer)
+  id: 'SetType(Integer)'
+  so.intellisense: NSUser.SetType
+  langs:
+  - crmscript
+  name: 'SetType(Integer)'
+  nameWithType: NSUser.SetType(Integer)
+  fullName: CRMScript.NetServer.NSUser.SetType(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetType(Integer type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "NSUser type 1=InternalAssociate, 2=ResourceAssociate, 3=ExternalAssociate, 4=AnonymousAssociate, 5=SystemAssociate See <xref href=\"CRMScript.NetServer.AssociateType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUser thing;\nInteger type;\nthing.SetType(type);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.SetUserGroup(NSUserGroup)
+  commentId: M:CRMScript.NetServer.NSUser.SetUserGroup(NSUserGroup)
+  id: 'SetUserGroup(NSUserGroup)'
+  so.intellisense: NSUser.SetUserGroup
+  langs:
+  - crmscript
+  name: 'SetUserGroup(NSUserGroup)'
+  nameWithType: NSUser.SetUserGroup(NSUserGroup)
+  fullName: CRMScript.NetServer.NSUser.SetUserGroup(NSUserGroup)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUserGroup(NSUserGroup userGroup)
+    parameters:
+    - id: userGroup
+      type: CRMScript.NetServer.NSUserGroup
+      description: "The main user group that this user belongs to."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUser thing;\nNSUserGroup userGroup;\nthing.SetUserGroup(userGroup);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.SetUserName(String)
+  commentId: M:CRMScript.NetServer.NSUser.SetUserName(String)
+  id: 'SetUserName(String)'
+  so.intellisense: NSUser.SetUserName
+  langs:
+  - crmscript
+  name: 'SetUserName(String)'
+  nameWithType: NSUser.SetUserName(String)
+  fullName: CRMScript.NetServer.NSUser.SetUserName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUserName(String userName)
+    parameters:
+    - id: userName
+      type: CRMScript.Global.String
+      description: "User name, a.k.a. Login name. This might be an email address."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUser thing;\nString userName;\nthing.SetUserName(userName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUser.SetWaitingForApproval(Bool)
+  commentId: M:CRMScript.NetServer.NSUser.SetWaitingForApproval(Bool)
+  id: 'SetWaitingForApproval(Bool)'
+  so.intellisense: NSUser.SetWaitingForApproval
+  langs:
+  - crmscript
+  name: 'SetWaitingForApproval(Bool)'
+  nameWithType: NSUser.SetWaitingForApproval(Bool)
+  fullName: CRMScript.NetServer.NSUser.SetWaitingForApproval(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWaitingForApproval(Bool waitingForApproval)
+    parameters:
+    - id: waitingForApproval
+      type: CRMScript.Global.Bool
+      description: "The user is waiting for an administrator to approve/grant her/him access."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUser thing;\nBool waitingForApproval;\nthing.SetWaitingForApproval(waitingForApproval);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSUser
+  commentId: T:CRMScript.NetServer.NSUser
+  isExternal: true
+  name: NSUser
+  nameWithType: NSUser
+  fullName: CRMScript.NetServer.NSUser
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSCredential[]
+  isExternal: true
+  name: NSCredential[]
+  nameWithType: NSCredential[]
+  fullName: CRMScript.NetServer.NSCredential[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSCredential
+    isExternal: true
+    name: NSCredential
+    nameWithType: NSCredential
+    fullName: CRMScript.NetServer.NSCredential
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSCredential
+  commentId: T:CRMScript.NetServer.NSCredential
+  isExternal: true
+  name: NSCredential
+  nameWithType: NSCredential
+  fullName: CRMScript.NetServer.NSCredential
+- uid: CRMScript.Native.Map
+  commentId: T:CRMScript.Native.Map
+  isExternal: true
+  name: Map
+  nameWithType: Map
+  fullName: CRMScript.Native.Map
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.NetServer.NSLicenseOwner[]
+  isExternal: true
+  name: NSLicenseOwner[]
+  nameWithType: NSLicenseOwner[]
+  fullName: CRMScript.NetServer.NSLicenseOwner[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSLicenseOwner
+    isExternal: true
+    name: NSLicenseOwner
+    nameWithType: NSLicenseOwner
+    fullName: CRMScript.NetServer.NSLicenseOwner
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSLicenseOwner
+  commentId: T:CRMScript.NetServer.NSLicenseOwner
+  isExternal: true
+  name: NSLicenseOwner
+  nameWithType: NSLicenseOwner
+  fullName: CRMScript.NetServer.NSLicenseOwner
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSUserGroup[]
+  isExternal: true
+  name: NSUserGroup[]
+  nameWithType: NSUserGroup[]
+  fullName: CRMScript.NetServer.NSUserGroup[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSUserGroup
+    isExternal: true
+    name: NSUserGroup
+    nameWithType: NSUserGroup
+    fullName: CRMScript.NetServer.NSUserGroup
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSUserGroup
+  commentId: T:CRMScript.NetServer.NSUserGroup
+  isExternal: true
+  name: NSUserGroup
+  nameWithType: NSUserGroup
+  fullName: CRMScript.NetServer.NSUserGroup
+- uid: CRMScript.NetServer.NSPerson
+  commentId: T:CRMScript.NetServer.NSPerson
+  isExternal: true
+  name: NSPerson
+  nameWithType: NSPerson
+  fullName: CRMScript.NetServer.NSPerson
+- uid: CRMScript.NetServer.NSRole
+  commentId: T:CRMScript.NetServer.NSRole
+  isExternal: true
+  name: NSRole
+  nameWithType: NSRole
+  fullName: CRMScript.NetServer.NSRole
+- uid: CRMScript.NetServer.NSMDOListItem[]
+  isExternal: true
+  name: NSMDOListItem[]
+  nameWithType: NSMDOListItem[]
+  fullName: CRMScript.NetServer.NSMDOListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSMDOListItem
+    isExternal: true
+    name: NSMDOListItem
+    nameWithType: NSMDOListItem
+    fullName: CRMScript.NetServer.NSMDOListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSMDOListItem
+  commentId: T:CRMScript.NetServer.NSMDOListItem
+  isExternal: true
+  name: NSMDOListItem
+  nameWithType: NSMDOListItem
+  fullName: CRMScript.NetServer.NSMDOListItem
+- uid: CRMScript.NetServer.NSUserGroup
+  commentId: T:CRMScript.NetServer.NSUserGroup
+  isExternal: true
+  name: NSUserGroup
+  nameWithType: NSUserGroup
+  fullName: CRMScript.NetServer.NSUserGroup
+- uid: CRMScript.NetServer.AssociateType
+  commentId: T:CRMScript.NetServer.AssociateType
+  isExternal: true
+  name: AssociateType
+  nameWithType: AssociateType
+  fullName: CRMScript.NetServer.AssociateType
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

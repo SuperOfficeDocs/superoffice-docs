@@ -1,0 +1,427 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSQuotePublishDocuments
+  commentId: T:CRMScript.NetServer.NSQuotePublishDocuments
+  id: NSQuotePublishDocuments
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSQuotePublishDocuments.#ctor
+  - CRMScript.NetServer.NSQuotePublishDocuments.GetErrorMessage()
+  - CRMScript.NetServer.NSQuotePublishDocuments.GetMailBody()
+  - CRMScript.NetServer.NSQuotePublishDocuments.GetMailSubject()
+  - CRMScript.NetServer.NSQuotePublishDocuments.GetQuoteAttachmentIds()
+  - CRMScript.NetServer.NSQuotePublishDocuments.GetQuoteDocumentId()
+  - CRMScript.NetServer.NSQuotePublishDocuments.GetQuotedProductsId()
+  - CRMScript.NetServer.NSQuotePublishDocuments.GetToEmail()
+  - CRMScript.NetServer.NSQuotePublishDocuments.GetToFullName()
+  - CRMScript.NetServer.NSQuotePublishDocuments.SetErrorMessage(String)
+  - CRMScript.NetServer.NSQuotePublishDocuments.SetMailBody(String)
+  - CRMScript.NetServer.NSQuotePublishDocuments.SetMailSubject(String)
+  - CRMScript.NetServer.NSQuotePublishDocuments.SetQuoteAttachmentIds(Integer[])
+  - CRMScript.NetServer.NSQuotePublishDocuments.SetQuoteDocumentId(Integer)
+  - CRMScript.NetServer.NSQuotePublishDocuments.SetQuotedProductsId(Integer)
+  - CRMScript.NetServer.NSQuotePublishDocuments.SetToEmail(String)
+  - CRMScript.NetServer.NSQuotePublishDocuments.SetToFullName(String)
+  name: NSQuotePublishDocuments
+  nameWithType: NSQuotePublishDocuments
+  fullName: CRMScript.NetServer.NSQuotePublishDocuments
+  type: Class
+  summary: "\nPrepare the documents required to publish a quote - Email, main document as pdf, quoted products as pdf, attachments.\n"
+  example: 
+- uid: CRMScript.NetServer.NSQuotePublishDocuments.#ctor
+  commentId: M:CRMScript.NetServer.NSQuotePublishDocuments.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSQuotePublishDocuments
+  langs:
+  - crmscript
+  name: NSQuotePublishDocuments()
+  nameWithType: NSQuotePublishDocuments.#ctor
+  fullName: CRMScript.NetServer.NSQuotePublishDocuments.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSQuotePublishDocuments class.\n"
+  remarks: 
+  syntax: 
+    content: NSQuotePublishDocuments
+  example: 
+- uid: CRMScript.NetServer.NSQuotePublishDocuments.GetErrorMessage()
+  commentId: M:CRMScript.NetServer.NSQuotePublishDocuments.GetErrorMessage()
+  id: 'GetErrorMessage()'
+  so.intellisense: NSQuotePublishDocuments.GetErrorMessage
+  langs:
+  - crmscript
+  name: 'GetErrorMessage()'
+  nameWithType: NSQuotePublishDocuments.GetErrorMessage()
+  fullName: CRMScript.NetServer.NSQuotePublishDocuments.GetErrorMessage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetErrorMessage()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "If something went wrong, show this message and do not continue."
+  example: 
+  - "\n<pre><code>NSQuotePublishDocuments thing;\nString errorMessage = thing.GetErrorMessage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuotePublishDocuments.GetMailBody()
+  commentId: M:CRMScript.NetServer.NSQuotePublishDocuments.GetMailBody()
+  id: 'GetMailBody()'
+  so.intellisense: NSQuotePublishDocuments.GetMailBody
+  langs:
+  - crmscript
+  name: 'GetMailBody()'
+  nameWithType: NSQuotePublishDocuments.GetMailBody()
+  fullName: CRMScript.NetServer.NSQuotePublishDocuments.GetMailBody()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetMailBody()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The string that is the content of the mail body; this is the result of merging the mail body template with the current template variable values."
+  example: 
+  - "\n<pre><code>NSQuotePublishDocuments thing;\nString mailBody = thing.GetMailBody();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuotePublishDocuments.GetMailSubject()
+  commentId: M:CRMScript.NetServer.NSQuotePublishDocuments.GetMailSubject()
+  id: 'GetMailSubject()'
+  so.intellisense: NSQuotePublishDocuments.GetMailSubject
+  langs:
+  - crmscript
+  name: 'GetMailSubject()'
+  nameWithType: NSQuotePublishDocuments.GetMailSubject()
+  fullName: CRMScript.NetServer.NSQuotePublishDocuments.GetMailSubject()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetMailSubject()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The string that is the mail subject; done by merging the text resource SR_QUOTE_PUBLISH_MAILHEADING with the current template variable values."
+  example: 
+  - "\n<pre><code>NSQuotePublishDocuments thing;\nString mailSubject = thing.GetMailSubject();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuotePublishDocuments.GetQuoteAttachmentIds()
+  commentId: M:CRMScript.NetServer.NSQuotePublishDocuments.GetQuoteAttachmentIds()
+  id: 'GetQuoteAttachmentIds()'
+  so.intellisense: NSQuotePublishDocuments.GetQuoteAttachmentIds
+  langs:
+  - crmscript
+  name: 'GetQuoteAttachmentIds()'
+  nameWithType: NSQuotePublishDocuments.GetQuoteAttachmentIds()
+  fullName: CRMScript.NetServer.NSQuotePublishDocuments.GetQuoteAttachmentIds()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer[] GetQuoteAttachmentIds()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer[]
+      description: "Array of IDs of any attachments (standard + custom for this version)."
+  example: 
+  - "\n<pre><code>NSQuotePublishDocuments thing;\nInteger[] quoteAttachmentIds = thing.GetQuoteAttachmentIds();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuotePublishDocuments.GetQuoteDocumentId()
+  commentId: M:CRMScript.NetServer.NSQuotePublishDocuments.GetQuoteDocumentId()
+  id: 'GetQuoteDocumentId()'
+  so.intellisense: NSQuotePublishDocuments.GetQuoteDocumentId
+  langs:
+  - crmscript
+  name: 'GetQuoteDocumentId()'
+  nameWithType: NSQuotePublishDocuments.GetQuoteDocumentId()
+  fullName: CRMScript.NetServer.NSQuotePublishDocuments.GetQuoteDocumentId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetQuoteDocumentId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Quote document, as PDF; may be zero if there is no document specified for the version."
+  example: 
+  - "\n<pre><code>NSQuotePublishDocuments thing;\nInteger quoteDocumentId = thing.GetQuoteDocumentId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuotePublishDocuments.GetQuotedProductsId()
+  commentId: M:CRMScript.NetServer.NSQuotePublishDocuments.GetQuotedProductsId()
+  id: 'GetQuotedProductsId()'
+  so.intellisense: NSQuotePublishDocuments.GetQuotedProductsId
+  langs:
+  - crmscript
+  name: 'GetQuotedProductsId()'
+  nameWithType: NSQuotePublishDocuments.GetQuotedProductsId()
+  fullName: CRMScript.NetServer.NSQuotePublishDocuments.GetQuotedProductsId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetQuotedProductsId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Quoted products (quote lines or confirmation lines) document, as PDf."
+  example: 
+  - "\n<pre><code>NSQuotePublishDocuments thing;\nInteger quotedProductsId = thing.GetQuotedProductsId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuotePublishDocuments.GetToEmail()
+  commentId: M:CRMScript.NetServer.NSQuotePublishDocuments.GetToEmail()
+  id: 'GetToEmail()'
+  so.intellisense: NSQuotePublishDocuments.GetToEmail
+  langs:
+  - crmscript
+  name: 'GetToEmail()'
+  nameWithType: NSQuotePublishDocuments.GetToEmail()
+  fullName: CRMScript.NetServer.NSQuotePublishDocuments.GetToEmail()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetToEmail()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The email address of the recipient, taken from the sale's person."
+  example: 
+  - "\n<pre><code>NSQuotePublishDocuments thing;\nString toEmail = thing.GetToEmail();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuotePublishDocuments.GetToFullName()
+  commentId: M:CRMScript.NetServer.NSQuotePublishDocuments.GetToFullName()
+  id: 'GetToFullName()'
+  so.intellisense: NSQuotePublishDocuments.GetToFullName
+  langs:
+  - crmscript
+  name: 'GetToFullName()'
+  nameWithType: NSQuotePublishDocuments.GetToFullName()
+  fullName: CRMScript.NetServer.NSQuotePublishDocuments.GetToFullName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetToFullName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The full name of the recipient, taken from the sale's person."
+  example: 
+  - "\n<pre><code>NSQuotePublishDocuments thing;\nString toFullName = thing.GetToFullName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuotePublishDocuments.SetErrorMessage(String)
+  commentId: M:CRMScript.NetServer.NSQuotePublishDocuments.SetErrorMessage(String)
+  id: 'SetErrorMessage(String)'
+  so.intellisense: NSQuotePublishDocuments.SetErrorMessage
+  langs:
+  - crmscript
+  name: 'SetErrorMessage(String)'
+  nameWithType: NSQuotePublishDocuments.SetErrorMessage(String)
+  fullName: CRMScript.NetServer.NSQuotePublishDocuments.SetErrorMessage(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetErrorMessage(String errorMessage)
+    parameters:
+    - id: errorMessage
+      type: CRMScript.Global.String
+      description: "If something went wrong, show this message and do not continue."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuotePublishDocuments thing;\nString errorMessage;\nthing.SetErrorMessage(errorMessage);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuotePublishDocuments.SetMailBody(String)
+  commentId: M:CRMScript.NetServer.NSQuotePublishDocuments.SetMailBody(String)
+  id: 'SetMailBody(String)'
+  so.intellisense: NSQuotePublishDocuments.SetMailBody
+  langs:
+  - crmscript
+  name: 'SetMailBody(String)'
+  nameWithType: NSQuotePublishDocuments.SetMailBody(String)
+  fullName: CRMScript.NetServer.NSQuotePublishDocuments.SetMailBody(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMailBody(String mailBody)
+    parameters:
+    - id: mailBody
+      type: CRMScript.Global.String
+      description: "The string that is the content of the mail body; this is the result of merging the mail body template with the current template variable values."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuotePublishDocuments thing;\nString mailBody;\nthing.SetMailBody(mailBody);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuotePublishDocuments.SetMailSubject(String)
+  commentId: M:CRMScript.NetServer.NSQuotePublishDocuments.SetMailSubject(String)
+  id: 'SetMailSubject(String)'
+  so.intellisense: NSQuotePublishDocuments.SetMailSubject
+  langs:
+  - crmscript
+  name: 'SetMailSubject(String)'
+  nameWithType: NSQuotePublishDocuments.SetMailSubject(String)
+  fullName: CRMScript.NetServer.NSQuotePublishDocuments.SetMailSubject(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMailSubject(String mailSubject)
+    parameters:
+    - id: mailSubject
+      type: CRMScript.Global.String
+      description: "The string that is the mail subject; done by merging the text resource SR_QUOTE_PUBLISH_MAILHEADING with the current template variable values."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuotePublishDocuments thing;\nString mailSubject;\nthing.SetMailSubject(mailSubject);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuotePublishDocuments.SetQuoteAttachmentIds(Integer[])
+  commentId: M:CRMScript.NetServer.NSQuotePublishDocuments.SetQuoteAttachmentIds(Integer[])
+  id: 'SetQuoteAttachmentIds(Integer[])'
+  so.intellisense: NSQuotePublishDocuments.SetQuoteAttachmentIds
+  langs:
+  - crmscript
+  name: 'SetQuoteAttachmentIds(Integer[])'
+  nameWithType: NSQuotePublishDocuments.SetQuoteAttachmentIds(Integer[])
+  fullName: CRMScript.NetServer.NSQuotePublishDocuments.SetQuoteAttachmentIds(Integer[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetQuoteAttachmentIds(Integer[] quoteAttachmentIds)
+    parameters:
+    - id: quoteAttachmentIds
+      type: CRMScript.Global.Integer[]
+      description: "Array of IDs of any attachments (standard + custom for this version)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuotePublishDocuments thing;\nInteger[] quoteAttachmentIds;\nthing.SetQuoteAttachmentIds(quoteAttachmentIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuotePublishDocuments.SetQuoteDocumentId(Integer)
+  commentId: M:CRMScript.NetServer.NSQuotePublishDocuments.SetQuoteDocumentId(Integer)
+  id: 'SetQuoteDocumentId(Integer)'
+  so.intellisense: NSQuotePublishDocuments.SetQuoteDocumentId
+  langs:
+  - crmscript
+  name: 'SetQuoteDocumentId(Integer)'
+  nameWithType: NSQuotePublishDocuments.SetQuoteDocumentId(Integer)
+  fullName: CRMScript.NetServer.NSQuotePublishDocuments.SetQuoteDocumentId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetQuoteDocumentId(Integer quoteDocumentId)
+    parameters:
+    - id: quoteDocumentId
+      type: CRMScript.Global.Integer
+      description: "Quote document, as PDF; may be zero if there is no document specified for the version."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuotePublishDocuments thing;\nInteger quoteDocumentId;\nthing.SetQuoteDocumentId(quoteDocumentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuotePublishDocuments.SetQuotedProductsId(Integer)
+  commentId: M:CRMScript.NetServer.NSQuotePublishDocuments.SetQuotedProductsId(Integer)
+  id: 'SetQuotedProductsId(Integer)'
+  so.intellisense: NSQuotePublishDocuments.SetQuotedProductsId
+  langs:
+  - crmscript
+  name: 'SetQuotedProductsId(Integer)'
+  nameWithType: NSQuotePublishDocuments.SetQuotedProductsId(Integer)
+  fullName: CRMScript.NetServer.NSQuotePublishDocuments.SetQuotedProductsId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetQuotedProductsId(Integer quotedProductsId)
+    parameters:
+    - id: quotedProductsId
+      type: CRMScript.Global.Integer
+      description: "Quoted products (quote lines or confirmation lines) document, as PDf."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuotePublishDocuments thing;\nInteger quotedProductsId;\nthing.SetQuotedProductsId(quotedProductsId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuotePublishDocuments.SetToEmail(String)
+  commentId: M:CRMScript.NetServer.NSQuotePublishDocuments.SetToEmail(String)
+  id: 'SetToEmail(String)'
+  so.intellisense: NSQuotePublishDocuments.SetToEmail
+  langs:
+  - crmscript
+  name: 'SetToEmail(String)'
+  nameWithType: NSQuotePublishDocuments.SetToEmail(String)
+  fullName: CRMScript.NetServer.NSQuotePublishDocuments.SetToEmail(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetToEmail(String toEmail)
+    parameters:
+    - id: toEmail
+      type: CRMScript.Global.String
+      description: "The email address of the recipient, taken from the sale's person."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuotePublishDocuments thing;\nString toEmail;\nthing.SetToEmail(toEmail);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuotePublishDocuments.SetToFullName(String)
+  commentId: M:CRMScript.NetServer.NSQuotePublishDocuments.SetToFullName(String)
+  id: 'SetToFullName(String)'
+  so.intellisense: NSQuotePublishDocuments.SetToFullName
+  langs:
+  - crmscript
+  name: 'SetToFullName(String)'
+  nameWithType: NSQuotePublishDocuments.SetToFullName(String)
+  fullName: CRMScript.NetServer.NSQuotePublishDocuments.SetToFullName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetToFullName(String toFullName)
+    parameters:
+    - id: toFullName
+      type: CRMScript.Global.String
+      description: "The full name of the recipient, taken from the sale's person."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuotePublishDocuments thing;\nString toFullName;\nthing.SetToFullName(toFullName);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSQuotePublishDocuments
+  commentId: T:CRMScript.NetServer.NSQuotePublishDocuments
+  isExternal: true
+  name: NSQuotePublishDocuments
+  nameWithType: NSQuotePublishDocuments
+  fullName: CRMScript.NetServer.NSQuotePublishDocuments
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    isExternal: true
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

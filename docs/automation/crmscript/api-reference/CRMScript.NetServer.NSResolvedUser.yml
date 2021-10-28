@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSResolvedUser
+  commentId: T:CRMScript.NetServer.NSResolvedUser
+  id: NSResolvedUser
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSResolvedUser.#ctor
+  - CRMScript.NetServer.NSResolvedUser.GetPersonCreated()
+  - CRMScript.NetServer.NSResolvedUser.GetUser()
+  - CRMScript.NetServer.NSResolvedUser.SetPersonCreated(Bool)
+  - CRMScript.NetServer.NSResolvedUser.SetUser(NSUser)
+  name: NSResolvedUser
+  nameWithType: NSResolvedUser
+  fullName: CRMScript.NetServer.NSResolvedUser
+  type: Class
+  summary: "\nThe User Service. The service implements all services working with the User object.\n"
+  example: 
+- uid: CRMScript.NetServer.NSResolvedUser.#ctor
+  commentId: M:CRMScript.NetServer.NSResolvedUser.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSResolvedUser
+  langs:
+  - crmscript
+  name: NSResolvedUser()
+  nameWithType: NSResolvedUser.#ctor
+  fullName: CRMScript.NetServer.NSResolvedUser.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSResolvedUser class.\n"
+  remarks: 
+  syntax: 
+    content: NSResolvedUser
+  example: 
+- uid: CRMScript.NetServer.NSResolvedUser.GetPersonCreated()
+  commentId: M:CRMScript.NetServer.NSResolvedUser.GetPersonCreated()
+  id: 'GetPersonCreated()'
+  so.intellisense: NSResolvedUser.GetPersonCreated
+  langs:
+  - crmscript
+  name: 'GetPersonCreated()'
+  nameWithType: NSResolvedUser.GetPersonCreated()
+  fullName: CRMScript.NetServer.NSResolvedUser.GetPersonCreated()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetPersonCreated()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Indicates if the resolved person was created or not."
+  example: 
+  - "\n<pre><code>NSResolvedUser thing;\nBool personCreated = thing.GetPersonCreated();</code></pre>\n"
+- uid: CRMScript.NetServer.NSResolvedUser.GetUser()
+  commentId: M:CRMScript.NetServer.NSResolvedUser.GetUser()
+  id: 'GetUser()'
+  so.intellisense: NSResolvedUser.GetUser
+  langs:
+  - crmscript
+  name: 'GetUser()'
+  nameWithType: NSResolvedUser.GetUser()
+  fullName: CRMScript.NetServer.NSResolvedUser.GetUser()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSUser GetUser()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSUser
+      description: "The resolved NSUser instance."
+  example: 
+  - "\n<pre><code>NSResolvedUser thing;\nNSUser user = thing.GetUser();</code></pre>\n"
+- uid: CRMScript.NetServer.NSResolvedUser.SetPersonCreated(Bool)
+  commentId: M:CRMScript.NetServer.NSResolvedUser.SetPersonCreated(Bool)
+  id: 'SetPersonCreated(Bool)'
+  so.intellisense: NSResolvedUser.SetPersonCreated
+  langs:
+  - crmscript
+  name: 'SetPersonCreated(Bool)'
+  nameWithType: NSResolvedUser.SetPersonCreated(Bool)
+  fullName: CRMScript.NetServer.NSResolvedUser.SetPersonCreated(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonCreated(Bool personCreated)
+    parameters:
+    - id: personCreated
+      type: CRMScript.Global.Bool
+      description: "Indicates if the resolved person was created or not."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSResolvedUser thing;\nBool personCreated;\nthing.SetPersonCreated(personCreated);</code></pre>\n"
+- uid: CRMScript.NetServer.NSResolvedUser.SetUser(NSUser)
+  commentId: M:CRMScript.NetServer.NSResolvedUser.SetUser(NSUser)
+  id: 'SetUser(NSUser)'
+  so.intellisense: NSResolvedUser.SetUser
+  langs:
+  - crmscript
+  name: 'SetUser(NSUser)'
+  nameWithType: NSResolvedUser.SetUser(NSUser)
+  fullName: CRMScript.NetServer.NSResolvedUser.SetUser(NSUser)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUser(NSUser user)
+    parameters:
+    - id: user
+      type: CRMScript.NetServer.NSUser
+      description: "The resolved NSUser instance."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSResolvedUser thing;\nNSUser user;\nthing.SetUser(user);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSResolvedUser
+  commentId: T:CRMScript.NetServer.NSResolvedUser
+  isExternal: true
+  name: NSResolvedUser
+  nameWithType: NSResolvedUser
+  fullName: CRMScript.NetServer.NSResolvedUser
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.NetServer.NSUser
+  commentId: T:CRMScript.NetServer.NSUser
+  isExternal: true
+  name: NSUser
+  nameWithType: NSUser
+  fullName: CRMScript.NetServer.NSUser
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

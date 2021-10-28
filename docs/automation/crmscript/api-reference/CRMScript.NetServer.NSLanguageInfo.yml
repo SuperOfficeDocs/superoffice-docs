@@ -1,0 +1,369 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSLanguageInfo
+  commentId: T:CRMScript.NetServer.NSLanguageInfo
+  id: NSLanguageInfo
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSLanguageInfo.#ctor
+  - CRMScript.NetServer.NSLanguageInfo.GetEnglishName()
+  - CRMScript.NetServer.NSLanguageInfo.GetIsBuiltIn()
+  - CRMScript.NetServer.NSLanguageInfo.GetLanguageInfoId()
+  - CRMScript.NetServer.NSLanguageInfo.GetLCID()
+  - CRMScript.NetServer.NSLanguageInfo.GetNativeName()
+  - CRMScript.NetServer.NSLanguageInfo.GetThreeLetterISOLanguageName()
+  - CRMScript.NetServer.NSLanguageInfo.GetTwoLetterISOLanguageName()
+  - CRMScript.NetServer.NSLanguageInfo.SetEnglishName(String)
+  - CRMScript.NetServer.NSLanguageInfo.SetIsBuiltIn(Bool)
+  - CRMScript.NetServer.NSLanguageInfo.SetLanguageInfoId(Integer)
+  - CRMScript.NetServer.NSLanguageInfo.SetLCID(Integer)
+  - CRMScript.NetServer.NSLanguageInfo.SetNativeName(String)
+  - CRMScript.NetServer.NSLanguageInfo.SetThreeLetterISOLanguageName(String)
+  - CRMScript.NetServer.NSLanguageInfo.SetTwoLetterISOLanguageName(String)
+  name: NSLanguageInfo
+  nameWithType: NSLanguageInfo
+  fullName: CRMScript.NetServer.NSLanguageInfo
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSLanguageInfo.#ctor
+  commentId: M:CRMScript.NetServer.NSLanguageInfo.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSLanguageInfo
+  langs:
+  - crmscript
+  name: NSLanguageInfo()
+  nameWithType: NSLanguageInfo.#ctor
+  fullName: CRMScript.NetServer.NSLanguageInfo.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSLanguageInfo class.\n"
+  remarks: 
+  syntax: 
+    content: NSLanguageInfo
+  example: 
+- uid: CRMScript.NetServer.NSLanguageInfo.GetEnglishName()
+  commentId: M:CRMScript.NetServer.NSLanguageInfo.GetEnglishName()
+  id: 'GetEnglishName()'
+  so.intellisense: NSLanguageInfo.GetEnglishName
+  langs:
+  - crmscript
+  name: 'GetEnglishName()'
+  nameWithType: NSLanguageInfo.GetEnglishName()
+  fullName: CRMScript.NetServer.NSLanguageInfo.GetEnglishName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetEnglishName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "English name of this language (Norwegian)."
+  example: 
+  - "\n<pre><code>NSLanguageInfo thing;\nString englishName = thing.GetEnglishName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLanguageInfo.GetIsBuiltIn()
+  commentId: M:CRMScript.NetServer.NSLanguageInfo.GetIsBuiltIn()
+  id: 'GetIsBuiltIn()'
+  so.intellisense: NSLanguageInfo.GetIsBuiltIn
+  langs:
+  - crmscript
+  name: 'GetIsBuiltIn()'
+  nameWithType: NSLanguageInfo.GetIsBuiltIn()
+  fullName: CRMScript.NetServer.NSLanguageInfo.GetIsBuiltIn()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsBuiltIn()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: Has this row been inserted by SuperOffice priming data?
+  example: 
+  - "\n<pre><code>NSLanguageInfo thing;\nBool isBuiltIn = thing.GetIsBuiltIn();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLanguageInfo.GetLanguageInfoId()
+  commentId: M:CRMScript.NetServer.NSLanguageInfo.GetLanguageInfoId()
+  id: 'GetLanguageInfoId()'
+  so.intellisense: NSLanguageInfo.GetLanguageInfoId
+  langs:
+  - crmscript
+  name: 'GetLanguageInfoId()'
+  nameWithType: NSLanguageInfo.GetLanguageInfoId()
+  fullName: CRMScript.NetServer.NSLanguageInfo.GetLanguageInfoId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetLanguageInfoId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSLanguageInfo thing;\nInteger languageInfoId = thing.GetLanguageInfoId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLanguageInfo.GetLCID()
+  commentId: M:CRMScript.NetServer.NSLanguageInfo.GetLCID()
+  id: 'GetLCID()'
+  so.intellisense: NSLanguageInfo.GetLCID
+  langs:
+  - crmscript
+  name: 'GetLCID()'
+  nameWithType: NSLanguageInfo.GetLCID()
+  fullName: CRMScript.NetServer.NSLanguageInfo.GetLCID()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetLCID()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Language/culture ID as a numeric .NET code."
+  example: 
+  - "\n<pre><code>NSLanguageInfo thing;\nInteger lCID = thing.GetLCID();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLanguageInfo.GetNativeName()
+  commentId: M:CRMScript.NetServer.NSLanguageInfo.GetNativeName()
+  id: 'GetNativeName()'
+  so.intellisense: NSLanguageInfo.GetNativeName
+  langs:
+  - crmscript
+  name: 'GetNativeName()'
+  nameWithType: NSLanguageInfo.GetNativeName()
+  fullName: CRMScript.NetServer.NSLanguageInfo.GetNativeName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetNativeName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The native name of this language (Norsk Bokmål)."
+  example: 
+  - "\n<pre><code>NSLanguageInfo thing;\nString nativeName = thing.GetNativeName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLanguageInfo.GetThreeLetterISOLanguageName()
+  commentId: M:CRMScript.NetServer.NSLanguageInfo.GetThreeLetterISOLanguageName()
+  id: 'GetThreeLetterISOLanguageName()'
+  so.intellisense: NSLanguageInfo.GetThreeLetterISOLanguageName
+  langs:
+  - crmscript
+  name: 'GetThreeLetterISOLanguageName()'
+  nameWithType: NSLanguageInfo.GetThreeLetterISOLanguageName()
+  fullName: CRMScript.NetServer.NSLanguageInfo.GetThreeLetterISOLanguageName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetThreeLetterISOLanguageName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "ISO 3-letter abbreviation."
+  example: 
+  - "\n<pre><code>NSLanguageInfo thing;\nString threeLetterISOLanguageName = thing.GetThreeLetterISOLanguageName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLanguageInfo.GetTwoLetterISOLanguageName()
+  commentId: M:CRMScript.NetServer.NSLanguageInfo.GetTwoLetterISOLanguageName()
+  id: 'GetTwoLetterISOLanguageName()'
+  so.intellisense: NSLanguageInfo.GetTwoLetterISOLanguageName
+  langs:
+  - crmscript
+  name: 'GetTwoLetterISOLanguageName()'
+  nameWithType: NSLanguageInfo.GetTwoLetterISOLanguageName()
+  fullName: CRMScript.NetServer.NSLanguageInfo.GetTwoLetterISOLanguageName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTwoLetterISOLanguageName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "ISO 2-letter abbreviation."
+  example: 
+  - "\n<pre><code>NSLanguageInfo thing;\nString twoLetterISOLanguageName = thing.GetTwoLetterISOLanguageName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLanguageInfo.SetEnglishName(String)
+  commentId: M:CRMScript.NetServer.NSLanguageInfo.SetEnglishName(String)
+  id: 'SetEnglishName(String)'
+  so.intellisense: NSLanguageInfo.SetEnglishName
+  langs:
+  - crmscript
+  name: 'SetEnglishName(String)'
+  nameWithType: NSLanguageInfo.SetEnglishName(String)
+  fullName: CRMScript.NetServer.NSLanguageInfo.SetEnglishName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEnglishName(String englishName)
+    parameters:
+    - id: englishName
+      type: CRMScript.Global.String
+      description: "English name of this language (Norwegian)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLanguageInfo thing;\nString englishName;\nthing.SetEnglishName(englishName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLanguageInfo.SetIsBuiltIn(Bool)
+  commentId: M:CRMScript.NetServer.NSLanguageInfo.SetIsBuiltIn(Bool)
+  id: 'SetIsBuiltIn(Bool)'
+  so.intellisense: NSLanguageInfo.SetIsBuiltIn
+  langs:
+  - crmscript
+  name: 'SetIsBuiltIn(Bool)'
+  nameWithType: NSLanguageInfo.SetIsBuiltIn(Bool)
+  fullName: CRMScript.NetServer.NSLanguageInfo.SetIsBuiltIn(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsBuiltIn(Bool isBuiltIn)
+    parameters:
+    - id: isBuiltIn
+      type: CRMScript.Global.Bool
+      description: Has this row been inserted by SuperOffice priming data?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLanguageInfo thing;\nBool isBuiltIn;\nthing.SetIsBuiltIn(isBuiltIn);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLanguageInfo.SetLanguageInfoId(Integer)
+  commentId: M:CRMScript.NetServer.NSLanguageInfo.SetLanguageInfoId(Integer)
+  id: 'SetLanguageInfoId(Integer)'
+  so.intellisense: NSLanguageInfo.SetLanguageInfoId
+  langs:
+  - crmscript
+  name: 'SetLanguageInfoId(Integer)'
+  nameWithType: NSLanguageInfo.SetLanguageInfoId(Integer)
+  fullName: CRMScript.NetServer.NSLanguageInfo.SetLanguageInfoId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLanguageInfoId(Integer languageInfoId)
+    parameters:
+    - id: languageInfoId
+      type: CRMScript.Global.Integer
+      description: Primary key?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLanguageInfo thing;\nInteger languageInfoId;\nthing.SetLanguageInfoId(languageInfoId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLanguageInfo.SetLCID(Integer)
+  commentId: M:CRMScript.NetServer.NSLanguageInfo.SetLCID(Integer)
+  id: 'SetLCID(Integer)'
+  so.intellisense: NSLanguageInfo.SetLCID
+  langs:
+  - crmscript
+  name: 'SetLCID(Integer)'
+  nameWithType: NSLanguageInfo.SetLCID(Integer)
+  fullName: CRMScript.NetServer.NSLanguageInfo.SetLCID(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLCID(Integer lCID)
+    parameters:
+    - id: lCID
+      type: CRMScript.Global.Integer
+      description: "Language/culture ID as a numeric .NET code."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLanguageInfo thing;\nInteger lCID;\nthing.SetLCID(lCID);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLanguageInfo.SetNativeName(String)
+  commentId: M:CRMScript.NetServer.NSLanguageInfo.SetNativeName(String)
+  id: 'SetNativeName(String)'
+  so.intellisense: NSLanguageInfo.SetNativeName
+  langs:
+  - crmscript
+  name: 'SetNativeName(String)'
+  nameWithType: NSLanguageInfo.SetNativeName(String)
+  fullName: CRMScript.NetServer.NSLanguageInfo.SetNativeName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetNativeName(String nativeName)
+    parameters:
+    - id: nativeName
+      type: CRMScript.Global.String
+      description: "The native name of this language (Norsk Bokmål)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLanguageInfo thing;\nString nativeName;\nthing.SetNativeName(nativeName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLanguageInfo.SetThreeLetterISOLanguageName(String)
+  commentId: M:CRMScript.NetServer.NSLanguageInfo.SetThreeLetterISOLanguageName(String)
+  id: 'SetThreeLetterISOLanguageName(String)'
+  so.intellisense: NSLanguageInfo.SetThreeLetterISOLanguageName
+  langs:
+  - crmscript
+  name: 'SetThreeLetterISOLanguageName(String)'
+  nameWithType: NSLanguageInfo.SetThreeLetterISOLanguageName(String)
+  fullName: CRMScript.NetServer.NSLanguageInfo.SetThreeLetterISOLanguageName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetThreeLetterISOLanguageName(String threeLetterISOLanguageName)
+    parameters:
+    - id: threeLetterISOLanguageName
+      type: CRMScript.Global.String
+      description: "ISO 3-letter abbreviation."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLanguageInfo thing;\nString threeLetterISOLanguageName;\nthing.SetThreeLetterISOLanguageName(threeLetterISOLanguageName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLanguageInfo.SetTwoLetterISOLanguageName(String)
+  commentId: M:CRMScript.NetServer.NSLanguageInfo.SetTwoLetterISOLanguageName(String)
+  id: 'SetTwoLetterISOLanguageName(String)'
+  so.intellisense: NSLanguageInfo.SetTwoLetterISOLanguageName
+  langs:
+  - crmscript
+  name: 'SetTwoLetterISOLanguageName(String)'
+  nameWithType: NSLanguageInfo.SetTwoLetterISOLanguageName(String)
+  fullName: CRMScript.NetServer.NSLanguageInfo.SetTwoLetterISOLanguageName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTwoLetterISOLanguageName(String twoLetterISOLanguageName)
+    parameters:
+    - id: twoLetterISOLanguageName
+      type: CRMScript.Global.String
+      description: "ISO 2-letter abbreviation."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLanguageInfo thing;\nString twoLetterISOLanguageName;\nthing.SetTwoLetterISOLanguageName(twoLetterISOLanguageName);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSLanguageInfo
+  commentId: T:CRMScript.NetServer.NSLanguageInfo
+  isExternal: true
+  name: NSLanguageInfo
+  nameWithType: NSLanguageInfo
+  fullName: CRMScript.NetServer.NSLanguageInfo
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

@@ -1,0 +1,397 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.GenericSearch
+  commentId: T:CRMScript.Native.GenericSearch
+  id: GenericSearch
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.GenericSearch.#ctor
+  - CRMScript.Native.GenericSearch.addComparison(String,String,String,String,Integer)
+  - CRMScript.Native.GenericSearch.addCriteria(String,String,String,String,Integer)
+  - CRMScript.Native.GenericSearch.addField(String,Integer)
+  - CRMScript.Native.GenericSearch.addOrder(String,Bool)
+  - CRMScript.Native.GenericSearch.countRows()
+  - CRMScript.Native.GenericSearch.eof()
+  - CRMScript.Native.GenericSearch.execute()
+  - CRMScript.Native.GenericSearch.first()
+  - CRMScript.Native.GenericSearch.get(Integer,Integer)
+  - CRMScript.Native.GenericSearch.get(String,Integer)
+  - CRMScript.Native.GenericSearch.next()
+  - CRMScript.Native.GenericSearch.setLanguage(Integer)
+  - CRMScript.Native.GenericSearch.setLimit(Integer)
+  name: GenericSearch
+  nameWithType: GenericSearch
+  fullName: CRMScript.Native.GenericSearch
+  type: Class
+  summary: "\nObsolete. Use SearchEngine instead.<p></p>\nRepresents a generic database search. GenericSearch has less functionality for adding criteria than SearcEngine. The GenericSearch is originally made for searching and fetching data from the database. Thereby its name. GenericSearch is a tool for building up SQL queries, by adding fields and criteria.<p></p>\nGenericSearch extends theSearchEngine class with options for how to list fields. Displayfields, datafields, idfields. The fields must be given as starttablename.fieldname, for example &quot;ticket.title&quot; For tables that have foreign keys to other tables, you can reach them with starttablename.fieldname.fieldname<p></p>\nMake sure that all fields you use start with the same table, for example ticket, or else you will recieve a big join that you probably do not want.<p></p>\nFor many-to-many relations there is a special notation: table1.(table2-&gt;field2a).field2b Where field2a is field in table2 that has a foreign key to table1.\n"
+  example: 
+  - "\n<pre><code>ticket.(ticket_customers->ticket_id).cust_id</code></pre>\n"
+  - "\nThe firstname of the primary customer of a ticket is &quot;ticket.cust_id.firstname&quot;.<p></p>\nThe company name of the primary customer of a ticket is &quot;ticket.cust_id.company.name&quot;.\n"
+- uid: CRMScript.Native.GenericSearch.#ctor
+  commentId: M:CRMScript.Native.GenericSearch.#ctor
+  id: '#ctor'
+  so.intellisense: Void.GenericSearch
+  langs:
+  - crmscript
+  name: GenericSearch()
+  nameWithType: GenericSearch.#ctor
+  fullName: CRMScript.Native.GenericSearch.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the File class.\n"
+  remarks: "\nObsolete! Use SearchEngine instead.\n"
+  syntax: 
+    content: GenericSearch
+  example: 
+- uid: CRMScript.Native.GenericSearch.addComparison(String,String,String,String,Integer)
+  commentId: M:CRMScript.Native.GenericSearch.addComparison(String,String,String,String,Integer)
+  id: 'addComparison(String,String,String,String,Integer)'
+  so.intellisense: GenericSearch.addComparison
+  langs:
+  - crmscript
+  name: 'addComparison(String,String,String,String,Integer)'
+  nameWithType: GenericSearch.addComparison(String,String,String,String,Integer)
+  fullName: CRMScript.Native.GenericSearch.addComparison(String,String,String,String,Integer)
+  type: Method
+  summary: "\nAdds a criteria between two database-fields to the database query.\n"
+  remarks: 
+  syntax: 
+    content: Void addComparison(String field1, String compOperator, String field2, String rowOperator, Integer concatLevel)
+    parameters:
+    - id: field1
+      type: CRMScript.Global.String
+      description: "The field to compare with field2"
+    - id: compOperator
+      type: CRMScript.Global.String
+      description: "Comparison operator. (OperatorEquals, OperatorNotEquals, OperatorLt, OperatorLte, OperatorGt, OperatorGte, OperatorLike, OperatorNotLike, OperatorContains, OperatorBeginsWith, OperatorEndsWith, OperatorIn, OperatorNotIn, OperatorIs, OperatorOracleLeftJoin, OperatorIsNot)"
+    - id: field2
+      type: CRMScript.Global.String
+      description: "The field to compare with field1"
+    - id: rowOperator
+      type: CRMScript.Global.String
+      description: "Operator for composing this criteria with a following criterion. (OperatorAnd, OperatorOr, OperatorNotAnd, OperatorNotOr)"
+    - id: concatLevel
+      type: CRMScript.Global.Integer
+      description: "A number. All criteria with the same number will be placed inside the same brackets."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.GenericSearch.addCriteria(String,String,String,String,Integer)
+  commentId: M:CRMScript.Native.GenericSearch.addCriteria(String,String,String,String,Integer)
+  id: 'addCriteria(String,String,String,String,Integer)'
+  so.intellisense: GenericSearch.addCriteria
+  langs:
+  - crmscript
+  name: 'addCriteria(String,String,String,String,Integer)'
+  nameWithType: GenericSearch.addCriteria(String,String,String,String,Integer)
+  fullName: CRMScript.Native.GenericSearch.addCriteria(String,String,String,String,Integer)
+  type: Method
+  summary: "\nAdd search criteria to the search.\n"
+  remarks: "\nThe concatLevel specifies how this criteria will be concatenated with the rest of the query (parenthesis level). A higher concatLevel gives a &quot;(&quot;, and a lower concatlevel gives a &quot;)&quot;.\n"
+  syntax: 
+    content: Void addCriteria(String field, String operator, String value, String andOr, Integer concatLevel)
+    parameters:
+    - id: field
+      type: CRMScript.Global.String
+      description: "The name of the field to select"
+    - id: operator
+      type: CRMScript.Global.String
+      description: "The operator for the criteria (OperatorNone, OperatorAnd, OperatorOr, OperatorNotAnd, OperatorNotOr, OperatorLike, OperatorNotLike, OperatorContains, OperatorBeginsWith, OperatorEndsWith, OperatorEquals, OperatorNotEquals, OperatorGt, OperatorLt, OperatorGte, OperatorLte, OperatorIn, OperatorNotIn, OperatorIs, OperatorOracleLeftJoin, OperatorIsNot)"
+    - id: value
+      type: CRMScript.Global.String
+      description: "The value to compare with the field"
+    - id: andOr
+      type: CRMScript.Global.String
+      description: "The operator which combine this criteria with the following criteria (OperatorAnd, OperatorOr, OperatorNotAnd, OperatorNotOr)"
+    - id: concatLevel
+      type: CRMScript.Global.Integer
+      description: "A number to use for combining criteria inside brackets. If the criteria has the same concatLevel, the end up inside the same brackets."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.GenericSearch.addField(String)
+  commentId: M:CRMScript.Native.GenericSearch.addField(String)
+  id: 'addField(String)'
+  so.intellisense: GenericSearch.addField
+  langs:
+  - crmscript
+  name: 'addField(String)'
+  nameWithType: GenericSearch.addField(String)
+  fullName: CRMScript.Native.GenericSearch.addField(String)
+  type: Method
+  summary: "\nAdds a field to the queryAdds a field to be selected to the database query.\n"
+  remarks: "\nUse addField(String,Integer) to provide a field mask.\n"
+  syntax: 
+    content: Void addField(String field)
+    parameters:
+    - id: field
+      type: CRMScript.Global.String
+      description: "The name of the field to select."
+    return:
+      type: CRMScript.Global.Void 
+  example: 
+- uid: CRMScript.Native.GenericSearch.addField(String,Integer)
+  commentId: M:CRMScript.Native.GenericSearch.addField(String,Integer)
+  id: 'addField(String,Integer)'
+  so.intellisense: GenericSearch.addField
+  langs:
+  - crmscript
+  name: 'addField(String,Integer)'
+  nameWithType: GenericSearch.addField(String,Integer)
+  fullName: CRMScript.Native.GenericSearch.addField(String,Integer)
+  type: Method
+  summary: "\nAdds a field to the queryAdds a field to be selected to the database query with a field mask.\n"
+  remarks: "\nfieldMask:<table><thead><tr><th>Mask</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>ID of the table</td></tr><tr><td>2</td><td>Data value</td></tr><tr><td>4</td><td>Display value</td></tr><tr><td>8</td><td>Search value</td></tr></tbody></table>\n"
+  syntax: 
+    content: Void addField(String field, Integer fieldMask)
+    parameters:
+    - id: field
+      type: CRMScript.Global.String
+      description: "The name of the field to select"
+    - id: fieldMask
+      type: CRMScript.Global.Integer
+      description: "See table."
+    return:
+      type: CRMScript.Global.Void 
+  example: 
+- uid: CRMScript.Native.GenericSearch.addOrder(String,Bool)
+  commentId: M:CRMScript.Native.GenericSearch.addOrder(String,Bool)
+  id: 'addOrder(String,Bool)'
+  so.intellisense: GenericSearch.addOrder
+  langs:
+  - crmscript
+  name: 'addOrder(String,Bool)'
+  nameWithType: GenericSearch.addOrder(String,Bool)
+  fullName: CRMScript.Native.GenericSearch.addOrder(String,Bool)
+  type: Method
+  summary: "\nAdds order on specified field, descending or ascending.\n"
+  remarks: 
+  syntax: 
+    content: Void addOrder(String field, Bool asc)
+    parameters:
+    - id: field
+      type: CRMScript.Global.String
+      description: "The field that will be sorted"
+    - id: asc
+      type: CRMScript.Global.Bool
+      description: "The direction of the sort. true = ascending; false = descending."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.GenericSearch.countRows()
+  commentId: M:CRMScript.Native.GenericSearch.countRows()
+  id: 'countRows()'
+  so.intellisense: GenericSearch.countRows
+  langs:
+  - crmscript
+  name: 'countRows()'
+  nameWithType: GenericSearch.countRows()
+  fullName: CRMScript.Native.GenericSearch.countRows()
+  type: Method
+  summary: "\nReturns the number of rows in the result set.\n"
+  remarks: 
+  syntax: 
+    content: Integer countRows()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The number of rows in the result set."
+  example: 
+- uid: CRMScript.Native.GenericSearch.eof()
+  commentId: M:CRMScript.Native.GenericSearch.eof()
+  id: 'eof()'
+  so.intellisense: GenericSearch.eof
+  langs:
+  - crmscript
+  name: 'eof()'
+  nameWithType: GenericSearch.eof()
+  fullName: CRMScript.Native.GenericSearch.eof()
+  type: Method
+  summary: "\nReturns true if the result pointer has reached the end of result set, or false otherwise.\n"
+  remarks: 
+  syntax: 
+    content: Bool eof()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the result pointer has reached the end of result set; otherwise, false."
+  example: 
+- uid: CRMScript.Native.GenericSearch.execute()
+  commentId: M:CRMScript.Native.GenericSearch.execute()
+  id: 'execute()'
+  so.intellisense: GenericSearch.execute
+  langs:
+  - crmscript
+  name: 'execute()'
+  nameWithType: GenericSearch.execute()
+  fullName: CRMScript.Native.GenericSearch.execute()
+  type: Method
+  summary: "\nExecutes the query.\n"
+  remarks: 
+  syntax: 
+    content: Void execute()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.GenericSearch.first()
+  commentId: M:CRMScript.Native.GenericSearch.first()
+  id: 'first()'
+  so.intellisense: GenericSearch.first
+  langs:
+  - crmscript
+  name: 'first()'
+  nameWithType: GenericSearch.first()
+  fullName: CRMScript.Native.GenericSearch.first()
+  type: Method
+  summary: "\nSets the result pointer to point at the first row in the result set.\n"
+  remarks: 
+  syntax: 
+    content: Bool first()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "False if the result set is empty; otherwise, true."
+  example: 
+- uid: CRMScript.Native.GenericSearch.get(String,Integer)
+  commentId: M:CRMScript.Native.GenericSearch.get(String,Integer)
+  id: 'get(String,Integer)'
+  so.intellisense: GenericSearch.get
+  langs:
+  - crmscript
+  name: 'get(String,Integer)'
+  nameWithType: GenericSearch.get(String,Integer)
+  fullName: CRMScript.Native.GenericSearch.get(String,Integer)
+  type: Method
+  summary: "\nRetrieves the value of a field according to a field mask.\n"
+  remarks: "\nfieldMask:<table><thead><tr><th>Mask</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>ID of the table</td></tr><tr><td>2</td><td>Data value</td></tr><tr><td>4</td><td>Display value</td></tr><tr><td>8</td><td>Search value</td></tr></tbody></table>\n"
+  syntax: 
+    content: String get(String field)
+    parameters:
+    - id: field
+      type: CRMScript.Global.String
+      description: "The name of the field to select"
+    - id: fieldMask
+      type: CRMScript.Global.Integer
+      description: "See table."
+    return:
+      type: CRMScript.Global.String
+      description: "The value of the field."
+  example: 
+- uid: CRMScript.Native.GenericSearch.get(Integer,Integer)
+  commentId: M:CRMScript.Native.GenericSearch.get(Integer,Integer)
+  id: 'get(Integer,Integer)'
+  so.intellisense: GenericSearch.get
+  langs:
+  - crmscript
+  name: 'get(Integer,Integer)'
+  nameWithType: GenericSearch.get(Integer,Integer)
+  fullName: CRMScript.Native.GenericSearch.get(Integer,Integer)
+  type: Method
+  summary: "\nRetrieves the value of a field according to a field mask.\n"
+  remarks: "\nfieldMask:<table><thead><tr><th>Mask</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>ID of the table</td></tr><tr><td>2</td><td>Data value</td></tr><tr><td>4</td><td>Display value</td></tr><tr><td>8</td><td>Search value</td></tr></tbody></table>\n"
+  syntax: 
+    content: String get(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "The ID of the field to select"
+    - id: fieldMask
+      type: CRMScript.Global.Integer
+      description: "See table."
+    return:
+      type: CRMScript.Global.String
+      description: "The value of the field."
+  example: 
+- uid: CRMScript.Native.GenericSearch.next()
+  commentId: M:CRMScript.Native.GenericSearch.next()
+  id: 'next()'
+  so.intellisense: GenericSearch.next
+  langs:
+  - crmscript
+  name: 'next()'
+  nameWithType: GenericSearch.next()
+  fullName: CRMScript.Native.GenericSearch.next()
+  type: Method
+  summary: "\nSets the result set pointer to next row, returns </li></ul>\n"
+  remarks: 
+  syntax: 
+    content: Bool next()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if there is a next row; otherwise, false (the pointer has reached the last result set)"
+  example: 
+- uid: CRMScript.Native.GenericSearch.setLanguage(Integer)
+  commentId: M:CRMScript.Native.GenericSearch.setLanguage(Integer)
+  id: 'setLanguage(Integer)'
+  so.intellisense: GenericSearch.setLanguage
+  langs:
+  - crmscript
+  name: 'setLanguage(Integer)'
+  nameWithType: GenericSearch.setLanguage(Integer)
+  fullName: CRMScript.Native.GenericSearch.setLanguage(Integer)
+  type: Method
+  summary: "\nSets what language to use when showing display fields.\n"
+  remarks: 
+  syntax: 
+    content: Void setLanguage(Integer languageId)
+    parameters:
+    - id: languageId
+      type: CRMScript.Global.Integer
+      description: "What language to use."
+    return:
+      type: CRMScript.Global.Void 
+  example: 
+- uid: CRMScript.Native.GenericSearch.setLimit(Integer)
+  commentId: M:CRMScript.Native.GenericSearch.setLimit(Integer)
+  id: 'setLimit(Integer)'
+  so.intellisense: GenericSearch.setLimit
+  langs:
+  - crmscript
+  name: 'setLimit(Integer)'
+  nameWithType: GenericSearch.setLimit(Integer)
+  fullName: CRMScript.Native.GenericSearch.setLimit(Integer)
+  type: Method
+  summary: "\nSets a limit of the number of rows that will be returned in the result set.\n"
+  remarks: 
+  syntax: 
+    content: Void setLimit(Integer limit)
+    parameters:
+    - id: limit
+      type: CRMScript.Global.Integer
+      description: "The maximum number of rows to be returned in the result set."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.Native.GenericSearch
+  commentId: T:CRMScript.Native.GenericSearch
+  isExternal: true
+  name: GenericSearch
+  nameWithType: GenericSearch
+  fullName: CRMScript.Native.GenericSearch
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

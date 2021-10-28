@@ -1,0 +1,1532 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSParticipantSyncData
+  commentId: T:CRMScript.NetServer.NSParticipantSyncData
+  id: NSParticipantSyncData 
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSParticipantSyncData.#ctor
+  - CRMScript.NetServer.NSParticipantSyncData.GetContactBusiness()
+  - CRMScript.NetServer.NSParticipantSyncData.GetContactCategory()
+  - CRMScript.NetServer.NSParticipantSyncData.GetContactCountry()
+  - CRMScript.NetServer.NSParticipantSyncData.GetContactDepartment()
+  - CRMScript.NetServer.NSParticipantSyncData.GetContactFullName()
+  - CRMScript.NetServer.NSParticipantSyncData.GetContactId()
+  - CRMScript.NetServer.NSParticipantSyncData.GetContactName()
+  - CRMScript.NetServer.NSParticipantSyncData.GetContactUrl()
+  - CRMScript.NetServer.NSParticipantSyncData.GetCountry()
+  - CRMScript.NetServer.NSParticipantSyncData.GetEMail()
+  - CRMScript.NetServer.NSParticipantSyncData.GetMessenger()
+  - CRMScript.NetServer.NSParticipantSyncData.GetParticipantStatus()
+  - CRMScript.NetServer.NSParticipantSyncData.GetPersonAcademicTitle()
+  - CRMScript.NetServer.NSParticipantSyncData.GetPersonAddress()
+  - CRMScript.NetServer.NSParticipantSyncData.GetPersonCountry()
+  - CRMScript.NetServer.NSParticipantSyncData.GetPersonFirstName()
+  - CRMScript.NetServer.NSParticipantSyncData.GetPersonFormalName()
+  - CRMScript.NetServer.NSParticipantSyncData.GetPersonFullName()
+  - CRMScript.NetServer.NSParticipantSyncData.GetPersonId()
+  - CRMScript.NetServer.NSParticipantSyncData.GetPersonLastname()
+  - CRMScript.NetServer.NSParticipantSyncData.GetPersonMiddleName()
+  - CRMScript.NetServer.NSParticipantSyncData.GetPersonMrmrs()
+  - CRMScript.NetServer.NSParticipantSyncData.GetPersonPosition()
+  - CRMScript.NetServer.NSParticipantSyncData.GetPersonTitle()
+  - CRMScript.NetServer.NSParticipantSyncData.GetPhoneContact()
+  - CRMScript.NetServer.NSParticipantSyncData.GetPhoneDirect()
+  - CRMScript.NetServer.NSParticipantSyncData.GetPhoneFax()
+  - CRMScript.NetServer.NSParticipantSyncData.GetPhoneMobile()
+  - CRMScript.NetServer.NSParticipantSyncData.GetPhonePrivate()
+  - CRMScript.NetServer.NSParticipantSyncData.GetPostalAddress()
+  - CRMScript.NetServer.NSParticipantSyncData.GetStreetAddress()
+  - CRMScript.NetServer.NSParticipantSyncData.GetUrl()
+  - CRMScript.NetServer.NSParticipantSyncData.GetVoip()
+  - CRMScript.NetServer.NSParticipantSyncData.SetContactBusiness(String)
+  - CRMScript.NetServer.NSParticipantSyncData.SetContactCategory(String)
+  - CRMScript.NetServer.NSParticipantSyncData.SetContactCountry(String)
+  - CRMScript.NetServer.NSParticipantSyncData.SetContactDepartment(String)
+  - CRMScript.NetServer.NSParticipantSyncData.SetContactFullName(String)
+  - CRMScript.NetServer.NSParticipantSyncData.SetContactId(Integer)
+  - CRMScript.NetServer.NSParticipantSyncData.SetContactName(String)
+  - CRMScript.NetServer.NSParticipantSyncData.SetContactUrl(String[])
+  - CRMScript.NetServer.NSParticipantSyncData.SetCountry(String)
+  - CRMScript.NetServer.NSParticipantSyncData.SetEMail(String[])
+  - CRMScript.NetServer.NSParticipantSyncData.SetMessenger(String[])
+  - CRMScript.NetServer.NSParticipantSyncData.SetParticipantStatus(Integer)
+  - CRMScript.NetServer.NSParticipantSyncData.SetPersonAcademicTitle(String)
+  - CRMScript.NetServer.NSParticipantSyncData.SetPersonAddress(NSAddressSyncData)
+  - CRMScript.NetServer.NSParticipantSyncData.SetPersonCountry(String)
+  - CRMScript.NetServer.NSParticipantSyncData.SetPersonFirstName(String)
+  - CRMScript.NetServer.NSParticipantSyncData.SetPersonFormalName(String)
+  - CRMScript.NetServer.NSParticipantSyncData.SetPersonFullName(String)
+  - CRMScript.NetServer.NSParticipantSyncData.SetPersonId(Integer)
+  - CRMScript.NetServer.NSParticipantSyncData.SetPersonLastname(String)
+  - CRMScript.NetServer.NSParticipantSyncData.SetPersonMiddleName(String)
+  - CRMScript.NetServer.NSParticipantSyncData.SetPersonMrmrs(String)
+  - CRMScript.NetServer.NSParticipantSyncData.SetPersonPosition(String)
+  - CRMScript.NetServer.NSParticipantSyncData.SetPersonTitle(String)
+  - CRMScript.NetServer.NSParticipantSyncData.SetPhoneContact(String[])
+  - CRMScript.NetServer.NSParticipantSyncData.SetPhoneDirect(String[])
+  - CRMScript.NetServer.NSParticipantSyncData.SetPhoneFax(String[])
+  - CRMScript.NetServer.NSParticipantSyncData.SetPhoneMobile(String[])
+  - CRMScript.NetServer.NSParticipantSyncData.SetPhonePrivate(String[])
+  - CRMScript.NetServer.NSParticipantSyncData.SetPostalAddress(NSAddressSyncData)
+  - CRMScript.NetServer.NSParticipantSyncData.SetStreetAddress(NSAddressSyncData)
+  - CRMScript.NetServer.NSParticipantSyncData.SetUrl(String[])
+  - CRMScript.NetServer.NSParticipantSyncData.SetVoip(String[])
+  name: NSParticipantSyncData
+  nameWithType: NSParticipantSyncData
+  fullName: CRMScript.NetServer.NSParticipantSyncData
+  type: Class
+  summary: "\nCarrier object for ParticipantSyncData.\n"
+  example: 
+- uid: CRMScript.NetServer.NSParticipantSyncData.#ctor
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSParticipantSyncData
+  langs:
+  - crmscript
+  name: NSParticipantSyncData()
+  nameWithType: NSParticipantSyncData.#ctor
+  fullName: CRMScript.NetServer.NSParticipantSyncData.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSParticipantSyncData class.\n"
+  remarks: 
+  syntax: 
+    content: NSParticipantSyncData
+  example: 
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetContactBusiness()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetContactBusiness()
+  id: 'GetContactBusiness()'
+  so.intellisense: NSParticipantSyncData.GetContactBusiness
+  langs:
+  - crmscript
+  name: 'GetContactBusiness()'
+  nameWithType: NSParticipantSyncData.GetContactBusiness()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetContactBusiness()
+  type: Method
+  summary: # TODO
+  remarks: "\nThe GUI forces the user to enter a business type.\n"
+  syntax: 
+    content: String GetContactBusiness()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The business that the contact is associated with."
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString contactBusiness = thing.GetContactBusiness();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetContactCategory()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetContactCategory()
+  id: 'GetContactCategory()'
+  so.intellisense: NSParticipantSyncData.GetContactCategory
+  langs:
+  - crmscript
+  name: 'GetContactCategory()'
+  nameWithType: NSParticipantSyncData.GetContactCategory()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetContactCategory()
+  type: Method
+  summary: # TODO
+  remarks: "\nThe GUI forces the user to enter a category type\n"
+  syntax: 
+    content: String GetContactCategory()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The category that is set on the company."
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString contactCategory = thing.GetContactCategory();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetContactCountry()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetContactCountry()
+  id: 'GetContactCountry()'
+  so.intellisense: NSParticipantSyncData.GetContactCountry
+  langs:
+  - crmscript
+  name: 'GetContactCountry()'
+  nameWithType: NSParticipantSyncData.GetContactCountry()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetContactCountry()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetContactCountry()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString contactCountry = thing.GetContactCountry();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetContactDepartment()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetContactDepartment()
+  id: 'GetContactDepartment()'
+  so.intellisense: NSParticipantSyncData.GetContactDepartment
+  langs:
+  - crmscript
+  name: 'GetContactDepartment()'
+  nameWithType: NSParticipantSyncData.GetContactDepartment()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetContactDepartment()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetContactDepartment()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Department."
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString contactDepartment = thing.GetContactDepartment();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetContactFullName()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetContactFullName()
+  id: 'GetContactFullName()'
+  so.intellisense: NSParticipantSyncData.GetContactFullName
+  langs:
+  - crmscript
+  name: 'GetContactFullName()'
+  nameWithType: NSParticipantSyncData.GetContactFullName()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetContactFullName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetContactFullName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString contactFullName = thing.GetContactFullName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetContactId()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetContactId()
+  id: 'GetContactId()'
+  so.intellisense: NSParticipantSyncData.GetContactId
+  langs:
+  - crmscript
+  name: 'GetContactId()'
+  nameWithType: NSParticipantSyncData.GetContactId()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetContactId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetContactId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: Contact ID of owning contact, may be 0
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nInteger contactId = thing.GetContactId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetContactName()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetContactName()
+  id: 'GetContactName()'
+  so.intellisense: NSParticipantSyncData.GetContactName
+  langs:
+  - crmscript
+  name: 'GetContactName()'
+  nameWithType: NSParticipantSyncData.GetContactName()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetContactName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetContactName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Contact name."
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString contactName = thing.GetContactName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetContactUrl()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetContactUrl()
+  id: 'GetContactUrl()'
+  so.intellisense: NSParticipantSyncData.GetContactUrl
+  langs:
+  - crmscript
+  name: 'GetContactUrl()'
+  nameWithType: NSParticipantSyncData.GetContactUrl()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetContactUrl()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String[] GetContactUrl()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+      description: "The contact's internet addresses."
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString[] contactUrl = thing.GetContactUrl();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetCountry()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetCountry()
+  id: 'GetCountry()'
+  so.intellisense: NSParticipantSyncData.GetCountry
+  langs:
+  - crmscript
+  name: 'GetCountry()'
+  nameWithType: NSParticipantSyncData.GetCountry()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetCountry()
+  type: Method
+  summary: # TODO
+  remarks: "\nThe country a contact is saved with, affects the phone number format, and the address layout.\n"
+  syntax: 
+    content: String GetCountry()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The country this contact is located in."
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString country = thing.GetCountry();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetEMail()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetEMail()
+  id: 'GetEMail()'
+  so.intellisense: NSParticipantSyncData.GetEMail
+  langs:
+  - crmscript
+  name: 'GetEMail()'
+  nameWithType: NSParticipantSyncData.GetEMail()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetEMail()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String[] GetEMail()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+      description:
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString[] eMail = thing.GetEMail();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetMessenger()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetMessenger()
+  id: 'GetMessenger()'
+  so.intellisense: NSParticipantSyncData.GetMessenger
+  langs:
+  - crmscript
+  name: 'GetMessenger()'
+  nameWithType: NSParticipantSyncData.GetMessenger()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetMessenger()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String[] GetMessenger()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+      description:
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString[] messenger = thing.GetMessenger();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetParticipantStatus()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetParticipantStatus()
+  id: 'GetParticipantStatus()'
+  so.intellisense: NSParticipantSyncData.GetParticipantStatus
+  langs:
+  - crmscript
+  name: 'GetParticipantStatus()'
+  nameWithType: NSParticipantSyncData.GetParticipantStatus()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetParticipantStatus()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetParticipantStatus()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The appointment status for this participant. See <xref href=\"CRMScript.NetServer.AppointmentStatus\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nInteger participantStatus = thing.GetParticipantStatus();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetPersonAcademicTitle()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPersonAcademicTitle()
+  id: 'GetPersonAcademicTitle()'
+  so.intellisense: NSParticipantSyncData.GetPersonAcademicTitle
+  langs:
+  - crmscript
+  name: 'GetPersonAcademicTitle()'
+  nameWithType: NSParticipantSyncData.GetPersonAcademicTitle()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetPersonAcademicTitle()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPersonAcademicTitle()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Academic title, populated from Salutation list but can be overwritten with anything at all."
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString personAcademicTitle = thing.GetPersonAcademicTitle();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetPersonAddress()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPersonAddress()
+  id: 'GetPersonAddress()'
+  so.intellisense: NSParticipantSyncData.GetPersonAddress
+  langs:
+  - crmscript
+  name: 'GetPersonAddress()'
+  nameWithType: NSParticipantSyncData.GetPersonAddress()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetPersonAddress()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAddressSyncData GetPersonAddress()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAddressSyncData
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nNSAddressSyncData personAddress = thing.GetPersonAddress();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetPersonCountry()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPersonCountry()
+  id: 'GetPersonCountry()'
+  so.intellisense: NSParticipantSyncData.GetPersonCountry
+  langs:
+  - crmscript
+  name: 'GetPersonCountry()'
+  nameWithType: NSParticipantSyncData.GetPersonCountry()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetPersonCountry()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPersonCountry()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The country this contact person is located in."
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString personCountry = thing.GetPersonCountry();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetPersonFirstName()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPersonFirstName()
+  id: 'GetPersonFirstName()'
+  so.intellisense: NSParticipantSyncData.GetPersonFirstName
+  langs:
+  - crmscript
+  name: 'GetPersonFirstName()'
+  nameWithType: NSParticipantSyncData.GetPersonFirstName()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetPersonFirstName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPersonFirstName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "First name."
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString personFirstName = thing.GetPersonFirstName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetPersonFormalName()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPersonFormalName()
+  id: 'GetPersonFormalName()'
+  so.intellisense: NSParticipantSyncData.GetPersonFormalName
+  langs:
+  - crmscript
+  name: 'GetPersonFormalName()'
+  nameWithType: NSParticipantSyncData.GetPersonFormalName()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetPersonFormalName()
+  type: Method
+  summary: "\nGets formal name for a person, as used in labels. (Full name + person title + academic title)\n"
+  remarks: 
+  syntax: 
+    content: String GetPersonFormalName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString personFormalName = thing.GetPersonFormalName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetPersonFullName()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPersonFullName()
+  id: 'GetPersonFullName()'
+  so.intellisense: NSParticipantSyncData.GetPersonFullName
+  langs:
+  - crmscript
+  name: 'GetPersonFullName()'
+  nameWithType: NSParticipantSyncData.GetPersonFullName()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetPersonFullName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPersonFullName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The person's full name localized to the current culture/country.  (internal name used in clients for employees)."
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString personFullName = thing.GetPersonFullName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetPersonId()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPersonId()
+  id: 'GetPersonId()'
+  so.intellisense: NSParticipantSyncData.GetPersonId
+  langs:
+  - crmscript
+  name: 'GetPersonId()'
+  nameWithType: NSParticipantSyncData.GetPersonId()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetPersonId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPersonId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: Person ID of person the appointment is with, may be 0
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nInteger personId = thing.GetPersonId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetPersonLastname()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPersonLastname()
+  id: 'GetPersonLastname()'
+  so.intellisense: NSParticipantSyncData.GetPersonLastname
+  langs:
+  - crmscript
+  name: 'GetPersonLastname()'
+  nameWithType: NSParticipantSyncData.GetPersonLastname()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetPersonLastname()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPersonLastname()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Last name."
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString personLastname = thing.GetPersonLastname();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetPersonMiddleName()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPersonMiddleName()
+  id: 'GetPersonMiddleName()'
+  so.intellisense: NSParticipantSyncData.GetPersonMiddleName
+  langs:
+  - crmscript
+  name: 'GetPersonMiddleName()'
+  nameWithType: NSParticipantSyncData.GetPersonMiddleName()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetPersonMiddleName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPersonMiddleName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Middle name or 'van' etc."
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString personMiddleName = thing.GetPersonMiddleName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetPersonMrmrs()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPersonMrmrs()
+  id: 'GetPersonMrmrs()'
+  so.intellisense: NSParticipantSyncData.GetPersonMrmrs
+  langs:
+  - crmscript
+  name: 'GetPersonMrmrs()'
+  nameWithType: NSParticipantSyncData.GetPersonMrmrs()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetPersonMrmrs()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPersonMrmrs()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString personMrmrs = thing.GetPersonMrmrs();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetPersonPosition()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPersonPosition()
+  id: 'GetPersonPosition()'
+  so.intellisense: NSParticipantSyncData.GetPersonPosition
+  langs:
+  - crmscript
+  name: 'GetPersonPosition()'
+  nameWithType: NSParticipantSyncData.GetPersonPosition()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetPersonPosition()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPersonPosition()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The position. This is a predefined SuperOffice value, different from Title."
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString personPosition = thing.GetPersonPosition();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetPersonTitle()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPersonTitle()
+  id: 'GetPersonTitle()'
+  so.intellisense: NSParticipantSyncData.GetPersonTitle
+  langs:
+  - crmscript
+  name: 'GetPersonTitle()'
+  nameWithType: NSParticipantSyncData.GetPersonTitle()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetPersonTitle()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPersonTitle()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Title."
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString personTitle = thing.GetPersonTitle();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetPhoneContact()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPhoneContact()
+  id: 'GetPhoneContact()'
+  so.intellisense: NSParticipantSyncData.GetPhoneContact
+  langs:
+  - crmscript
+  name: 'GetPhoneContact()'
+  nameWithType: NSParticipantSyncData.GetPhoneContact()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetPhoneContact()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String[] GetPhoneContact()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+      description: "Returns a collection of office phone numbers that belong to the contact person."
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString[] phoneContact = thing.GetPhoneContact();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetPhoneDirect()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPhoneDirect()
+  id: 'GetPhoneDirect()'
+  so.intellisense: NSParticipantSyncData.GetPhoneDirect
+  langs:
+  - crmscript
+  name: 'GetPhoneDirect()'
+  nameWithType: NSParticipantSyncData.GetPhoneDirect()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetPhoneDirect()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String[] GetPhoneDirect()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+      description:
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString[] phoneDirect = thing.GetPhoneDirect();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetPhoneFax()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPhoneFax()
+  id: 'GetPhoneFax()'
+  so.intellisense: NSParticipantSyncData.GetPhoneFax
+  langs:
+  - crmscript
+  name: 'GetPhoneFax()'
+  nameWithType: NSParticipantSyncData.GetPhoneFax()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetPhoneFax()
+  type: Method
+  summary: "\nReturns a collection of fax numbers that belong to the contact person.\n"
+  remarks: 
+  syntax: 
+    content: String[] GetPhoneFax()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+      description:
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString[] phoneFax = thing.GetPhoneFax();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetPhoneMobile()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPhoneMobile()
+  id: 'GetPhoneMobile()'
+  so.intellisense: NSParticipantSyncData.GetPhoneMobile
+  langs:
+  - crmscript
+  name: 'GetPhoneMobile()'
+  nameWithType: NSParticipantSyncData.GetPhoneMobile()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetPhoneMobile()
+  type: Method
+  summary: "\nReturns a collection of mobile phone numbers that belong to the contact person.\n"
+  remarks: 
+  syntax: 
+    content: String[] GetPhoneMobile()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+      description:
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString[] phoneMobile = thing.GetPhoneMobile();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetPhonePrivate()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPhonePrivate()
+  id: 'GetPhonePrivate()'
+  so.intellisense: NSParticipantSyncData.GetPhonePrivate
+  langs:
+  - crmscript
+  name: 'GetPhonePrivate()'
+  nameWithType: NSParticipantSyncData.GetPhonePrivate()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetPhonePrivate()
+  type: Method
+  summary: "\nReturns a collection of phone numbers that belong to the contact person.\n"
+  remarks: 
+  syntax: 
+    content: String[] GetPhonePrivate()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+      description:
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString[] phonePrivate = thing.GetPhonePrivate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetPostalAddress()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetPostalAddress()
+  id: 'GetPostalAddress()'
+  so.intellisense: NSParticipantSyncData.GetPostalAddress
+  langs:
+  - crmscript
+  name: 'GetPostalAddress()'
+  nameWithType: NSParticipantSyncData.GetPostalAddress()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetPostalAddress()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAddressSyncData GetPostalAddress()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAddressSyncData
+      description:
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nNSAddressSyncData postalAddress = thing.GetPostalAddress();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetStreetAddress()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetStreetAddress()
+  id: 'GetStreetAddress()'
+  so.intellisense: NSParticipantSyncData.GetStreetAddress
+  langs:
+  - crmscript
+  name: 'GetStreetAddress()'
+  nameWithType: NSParticipantSyncData.GetStreetAddress()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetStreetAddress()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAddressSyncData GetStreetAddress()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAddressSyncData
+      description:
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nNSAddressSyncData streetAddress = thing.GetStreetAddress();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetUrl()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetUrl()
+  id: 'GetUrl()'
+  so.intellisense: NSParticipantSyncData.GetUrl
+  langs:
+  - crmscript
+  name: 'GetUrl()'
+  nameWithType: NSParticipantSyncData.GetUrl()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetUrl()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String[] GetUrl()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+      description: "The URLs related to this person."
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString[] url = thing.GetUrl();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.GetVoip()
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.GetVoip()
+  id: 'GetVoip()'
+  so.intellisense: NSParticipantSyncData.GetVoip
+  langs:
+  - crmscript
+  name: 'GetVoip()'
+  nameWithType: NSParticipantSyncData.GetVoip()
+  fullName: CRMScript.NetServer.NSParticipantSyncData.GetVoip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String[] GetVoip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+      description:
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString[] voip = thing.GetVoip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetContactBusiness(String)
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetContactBusiness(String)
+  id: 'SetContactBusiness(String)'
+  so.intellisense: NSParticipantSyncData.SetContactBusiness
+  langs:
+  - crmscript
+  name: 'SetContactBusiness(String)'
+  nameWithType: NSParticipantSyncData.SetContactBusiness(String)
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetContactBusiness(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nThe GUI forces the user to enter a business type.\n"
+  syntax: 
+    content: Void SetContactBusiness(String contactBusiness)
+    parameters:
+    - id: contactBusiness
+      type: CRMScript.Global.String
+      description: "The business that the contact is associated with."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString contactBusiness;\nthing.SetContactBusiness(contactBusiness);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetContactCategory(String)
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetContactCategory(String)
+  id: 'SetContactCategory(String)'
+  so.intellisense: NSParticipantSyncData.SetContactCategory
+  langs:
+  - crmscript
+  name: 'SetContactCategory(String)'
+  nameWithType: NSParticipantSyncData.SetContactCategory(String)
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetContactCategory(String)
+  type: Method
+  summary: "\nThe GUI forces the user to enter a category type\n"
+  remarks: 
+  syntax: 
+    content: Void SetContactCategory(String contactCategory)
+    parameters:
+    - id: contactCategory
+      type: CRMScript.Global.String
+      description: "The category that is set on the company."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString contactCategory;\nthing.SetContactCategory(contactCategory);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetContactCountry(String)
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetContactCountry(String)
+  id: 'SetContactCountry(String)'
+  so.intellisense: NSParticipantSyncData.SetContactCountry
+  langs:
+  - crmscript
+  name: 'SetContactCountry(String)'
+  nameWithType: NSParticipantSyncData.SetContactCountry(String)
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetContactCountry(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactCountry(String contactCountry)
+    parameters:
+    - id: contactCountry
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString contactCountry;\nthing.SetContactCountry(contactCountry);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetContactDepartment(String)
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetContactDepartment(String)
+  id: 'SetContactDepartment(String)'
+  so.intellisense: NSParticipantSyncData.SetContactDepartment
+  langs:
+  - crmscript
+  name: 'SetContactDepartment(String)'
+  nameWithType: NSParticipantSyncData.SetContactDepartment(String)
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetContactDepartment(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactDepartment(String contactDepartment)
+    parameters:
+    - id: contactDepartment
+      type: CRMScript.Global.String
+      description: "Department."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString contactDepartment;\nthing.SetContactDepartment(contactDepartment);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetContactFullName(String)
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetContactFullName(String)
+  id: 'SetContactFullName(String)'
+  so.intellisense: NSParticipantSyncData.SetContactFullName
+  langs:
+  - crmscript
+  name: 'SetContactFullName(String)'
+  nameWithType: NSParticipantSyncData.SetContactFullName(String)
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetContactFullName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactFullName(String contactFullName)
+    parameters:
+    - id: contactFullName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString contactFullName;\nthing.SetContactFullName(contactFullName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetContactId(Integer)
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetContactId(Integer)
+  id: 'SetContactId(Integer)'
+  so.intellisense: NSParticipantSyncData.SetContactId
+  langs:
+  - crmscript
+  name: 'SetContactId(Integer)'
+  nameWithType: NSParticipantSyncData.SetContactId(Integer)
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetContactId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactId(Integer contactId)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: Contact ID of owning contact, may be 0
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nInteger contactId;\nthing.SetContactId(contactId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetContactName(String)
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetContactName(String)
+  id: 'SetContactName(String)'
+  so.intellisense: NSParticipantSyncData.SetContactName
+  langs:
+  - crmscript
+  name: 'SetContactName(String)'
+  nameWithType: NSParticipantSyncData.SetContactName(String)
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetContactName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactName(String contactName)
+    parameters:
+    - id: contactName
+      type: CRMScript.Global.String
+      description: "Contact name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString contactName;\nthing.SetContactName(contactName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetContactUrl(String[])
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetContactUrl(String[])
+  id: 'SetContactUrl(String[])'
+  so.intellisense: NSParticipantSyncData.SetContactUrl
+  langs:
+  - crmscript
+  name: 'SetContactUrl(String[])'
+  nameWithType: NSParticipantSyncData.SetContactUrl(String[])
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetContactUrl(String[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactUrl(String[] contactUrl)
+    parameters:
+    - id: contactUrl
+      type: CRMScript.Global.String[]
+      description: "The contact's internet addresses."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString[] contactUrl;\nthing.SetContactUrl(contactUrl);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetCountry(String)
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetCountry(String)
+  id: 'SetCountry(String)'
+  so.intellisense: NSParticipantSyncData.SetCountry
+  langs:
+  - crmscript
+  name: 'SetCountry(String)'
+  nameWithType: NSParticipantSyncData.SetCountry(String)
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetCountry(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nThe country a contact is saved with, affects the phone number format, and the address layout.\n"
+  syntax: 
+    content: Void SetCountry(String country)
+    parameters:
+    - id: country
+      type: CRMScript.Global.String
+      description: "The country this contact is located in."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString country;\nthing.SetCountry(country);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetEMail(String[])
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetEMail(String[])
+  id: 'SetEMail(String[])'
+  so.intellisense: NSParticipantSyncData.SetEMail
+  langs:
+  - crmscript
+  name: 'SetEMail(String[])'
+  nameWithType: NSParticipantSyncData.SetEMail(String[])
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetEMail(String[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEMail(String[] eMail)
+    parameters:
+    - id: eMail
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString[] eMail;\nthing.SetEMail(eMail);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetMessenger(String[])
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetMessenger(String[])
+  id: 'SetMessenger(String[])'
+  so.intellisense: NSParticipantSyncData.SetMessenger
+  langs:
+  - crmscript
+  name: 'SetMessenger(String[])'
+  nameWithType: NSParticipantSyncData.SetMessenger(String[])
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetMessenger(String[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMessenger(String[] messenger)
+    parameters:
+    - id: messenger
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString[] messenger;\nthing.SetMessenger(messenger);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetParticipantStatus(Integer)
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetParticipantStatus(Integer)
+  id: 'SetParticipantStatus(Integer)'
+  so.intellisense: NSParticipantSyncData.SetParticipantStatus
+  langs:
+  - crmscript
+  name: 'SetParticipantStatus(Integer)'
+  nameWithType: NSParticipantSyncData.SetParticipantStatus(Integer)
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetParticipantStatus(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetParticipantStatus(Integer participantStatus)
+    parameters:
+    - id: participantStatus
+      type: CRMScript.Global.Integer
+      description: "The appointment status for this participant. See <xref href=\"CRMScript.NetServer.AppointmentStatus\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nInteger participantStatus;\nthing.SetParticipantStatus(participantStatus);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetPersonAcademicTitle(String)
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPersonAcademicTitle(String)
+  id: 'SetPersonAcademicTitle(String)'
+  so.intellisense: NSParticipantSyncData.SetPersonAcademicTitle
+  langs:
+  - crmscript
+  name: 'SetPersonAcademicTitle(String)'
+  nameWithType: NSParticipantSyncData.SetPersonAcademicTitle(String)
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetPersonAcademicTitle(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonAcademicTitle(String personAcademicTitle)
+    parameters:
+    - id: personAcademicTitle
+      type: CRMScript.Global.String
+      description: "Academic title, populated from Salutation list but can be overwritten with anything at all."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString personAcademicTitle;\nthing.SetPersonAcademicTitle(personAcademicTitle);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetPersonAddress(NSAddressSyncData)
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPersonAddress(NSAddressSyncData)
+  id: 'SetPersonAddress(NSAddressSyncData)'
+  so.intellisense: NSParticipantSyncData.SetPersonAddress
+  langs:
+  - crmscript
+  name: 'SetPersonAddress(NSAddressSyncData)'
+  nameWithType: NSParticipantSyncData.SetPersonAddress(NSAddressSyncData)
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetPersonAddress(NSAddressSyncData)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonAddress(NSAddressSyncData personAddress)
+    parameters:
+    - id: personAddress
+      type: CRMScript.NetServer.NSAddressSyncData
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nNSAddressSyncData personAddress;\nthing.SetPersonAddress(personAddress);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetPersonCountry(String)
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPersonCountry(String)
+  id: 'SetPersonCountry(String)'
+  so.intellisense: NSParticipantSyncData.SetPersonCountry
+  langs:
+  - crmscript
+  name: 'SetPersonCountry(String)'
+  nameWithType: NSParticipantSyncData.SetPersonCountry(String)
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetPersonCountry(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonCountry(String personCountry)
+    parameters:
+    - id: personCountry
+      type: CRMScript.Global.String
+      description: "The country this contact person is located in."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString personCountry;\nthing.SetPersonCountry(personCountry);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetPersonFirstName(String)
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPersonFirstName(String)
+  id: 'SetPersonFirstName(String)'
+  so.intellisense: NSParticipantSyncData.SetPersonFirstName
+  langs:
+  - crmscript
+  name: 'SetPersonFirstName(String)'
+  nameWithType: NSParticipantSyncData.SetPersonFirstName(String)
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetPersonFirstName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonFirstName(String personFirstName)
+    parameters:
+    - id: personFirstName
+      type: CRMScript.Global.String
+      description: "First name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString personFirstName;\nthing.SetPersonFirstName(personFirstName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetPersonFormalName(String)
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPersonFormalName(String)
+  id: 'SetPersonFormalName(String)'
+  so.intellisense: NSParticipantSyncData.SetPersonFormalName
+  langs:
+  - crmscript
+  name: 'SetPersonFormalName(String)'
+  nameWithType: NSParticipantSyncData.SetPersonFormalName(String)
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetPersonFormalName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonFormalName(String personFormalName)
+    parameters:
+    - id: personFormalName
+      type: CRMScript.Global.String
+      description: "Gets formal name for a person, as used in labels. (Full name + person title + academic title)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString personFormalName;\nthing.SetPersonFormalName(personFormalName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetPersonFullName(String)
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPersonFullName(String)
+  id: 'SetPersonFullName(String)'
+  so.intellisense: NSParticipantSyncData.SetPersonFullName
+  langs:
+  - crmscript
+  name: 'SetPersonFullName(String)'
+  nameWithType: NSParticipantSyncData.SetPersonFullName(String)
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetPersonFullName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonFullName(String personFullName)
+    parameters:
+    - id: personFullName
+      type: CRMScript.Global.String
+      description: "The person's full name localized to the current culture/country.  (internal name used in clients for employees)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString personFullName;\nthing.SetPersonFullName(personFullName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetPersonId(Integer)
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPersonId(Integer)
+  id: 'SetPersonId(Integer)'
+  so.intellisense: NSParticipantSyncData.SetPersonId
+  langs:
+  - crmscript
+  name: 'SetPersonId(Integer)'
+  nameWithType: NSParticipantSyncData.SetPersonId(Integer)
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetPersonId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonId(Integer personId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: Person ID of person the appointment is with, may be 0
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nInteger personId;\nthing.SetPersonId(personId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetPersonLastname(String)
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPersonLastname(String)
+  id: 'SetPersonLastname(String)'
+  so.intellisense: NSParticipantSyncData.SetPersonLastname
+  langs:
+  - crmscript
+  name: 'SetPersonLastname(String)'
+  nameWithType: NSParticipantSyncData.SetPersonLastname(String)
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetPersonLastname(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonLastname(String personLastname)
+    parameters:
+    - id: personLastname
+      type: CRMScript.Global.String
+      description: "Last name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString personLastname;\nthing.SetPersonLastname(personLastname);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetPersonMiddleName(String)
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPersonMiddleName(String)
+  id: 'SetPersonMiddleName(String)'
+  so.intellisense: NSParticipantSyncData.SetPersonMiddleName
+  langs:
+  - crmscript
+  name: 'SetPersonMiddleName(String)'
+  nameWithType: NSParticipantSyncData.SetPersonMiddleName(String)
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetPersonMiddleName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonMiddleName(String personMiddleName)
+    parameters:
+    - id: personMiddleName
+      type: CRMScript.Global.String
+      description: "Middle name or 'van' etc."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString personMiddleName;\nthing.SetPersonMiddleName(personMiddleName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetPersonMrmrs(String)
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPersonMrmrs(String)
+  id: 'SetPersonMrmrs(String)'
+  so.intellisense: NSParticipantSyncData.SetPersonMrmrs
+  langs:
+  - crmscript
+  name: 'SetPersonMrmrs(String)'
+  nameWithType: NSParticipantSyncData.SetPersonMrmrs(String)
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetPersonMrmrs(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonMrmrs(String personMrmrs)
+    parameters:
+    - id: personMrmrs
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString personMrmrs;\nthing.SetPersonMrmrs(personMrmrs);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetPersonPosition(String)
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPersonPosition(String)
+  id: 'SetPersonPosition(String)'
+  so.intellisense: NSParticipantSyncData.SetPersonPosition
+  langs:
+  - crmscript
+  name: 'SetPersonPosition(String)'
+  nameWithType: NSParticipantSyncData.SetPersonPosition(String)
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetPersonPosition(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonPosition(String personPosition)
+    parameters:
+    - id: personPosition
+      type: CRMScript.Global.String
+      description: "The position. This is a predefined SuperOffice value, different from Title."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString personPosition;\nthing.SetPersonPosition(personPosition);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetPersonTitle(String)
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPersonTitle(String)
+  id: 'SetPersonTitle(String)'
+  so.intellisense: NSParticipantSyncData.SetPersonTitle
+  langs:
+  - crmscript
+  name: 'SetPersonTitle(String)'
+  nameWithType: NSParticipantSyncData.SetPersonTitle(String)
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetPersonTitle(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonTitle(String personTitle)
+    parameters:
+    - id: personTitle
+      type: CRMScript.Global.String
+      description: "Title."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString personTitle;\nthing.SetPersonTitle(personTitle);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetPhoneContact(String[])
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPhoneContact(String[])
+  id: 'SetPhoneContact(String[])'
+  so.intellisense: NSParticipantSyncData.SetPhoneContact
+  langs:
+  - crmscript
+  name: 'SetPhoneContact(String[])'
+  nameWithType: NSParticipantSyncData.SetPhoneContact(String[])
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetPhoneContact(String[])
+  type: Method
+  summary: "\nReturns a collection of office phone numbers that belong to the contact person.\n"
+  remarks: 
+  syntax: 
+    content: Void SetPhoneContact(String[] phoneContact)
+    parameters:
+    - id: phoneContact
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString[] phoneContact;\nthing.SetPhoneContact(phoneContact);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetPhoneDirect(String[])
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPhoneDirect(String[])
+  id: 'SetPhoneDirect(String[])'
+  so.intellisense: NSParticipantSyncData.SetPhoneDirect
+  langs:
+  - crmscript
+  name: 'SetPhoneDirect(String[])'
+  nameWithType: NSParticipantSyncData.SetPhoneDirect(String[])
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetPhoneDirect(String[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPhoneDirect(String[] phoneDirect)
+    parameters:
+    - id: phoneDirect
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString[] phoneDirect;\nthing.SetPhoneDirect(phoneDirect);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetPhoneFax(String[])
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPhoneFax(String[])
+  id: 'SetPhoneFax(String[])'
+  so.intellisense: NSParticipantSyncData.SetPhoneFax
+  langs:
+  - crmscript
+  name: 'SetPhoneFax(String[])'
+  nameWithType: NSParticipantSyncData.SetPhoneFax(String[])
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetPhoneFax(String[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPhoneFax(String[] phoneFax)
+    parameters:
+    - id: phoneFax
+      type: CRMScript.Global.String[]
+      description: "A collection of fax numbers that belong to the contact person."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString[] phoneFax;\nthing.SetPhoneFax(phoneFax);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetPhoneMobile(String[])
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPhoneMobile(String[])
+  id: 'SetPhoneMobile(String[])'
+  so.intellisense: NSParticipantSyncData.SetPhoneMobile
+  langs:
+  - crmscript
+  name: 'SetPhoneMobile(String[])'
+  nameWithType: NSParticipantSyncData.SetPhoneMobile(String[])
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetPhoneMobile(String[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPhoneMobile(String[] phoneMobile)
+    parameters:
+    - id: phoneMobile
+      type: CRMScript.Global.String[]
+      description: "A collection of mobile phone numbers that belong to the contact person."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString[] phoneMobile;\nthing.SetPhoneMobile(phoneMobile);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetPhonePrivate(String[])
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPhonePrivate(String[])
+  id: 'SetPhonePrivate(String[])'
+  so.intellisense: NSParticipantSyncData.SetPhonePrivate
+  langs:
+  - crmscript
+  name: 'SetPhonePrivate(String[])'
+  nameWithType: NSParticipantSyncData.SetPhonePrivate(String[])
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetPhonePrivate(String[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPhonePrivate(String[] phonePrivate)
+    parameters:
+    - id: phonePrivate
+      type: CRMScript.Global.String[]
+      description: "A collection of phone numbers that belong to the contact person."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString[] phonePrivate;\nthing.SetPhonePrivate(phonePrivate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetPostalAddress(NSAddressSyncData)
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetPostalAddress(NSAddressSyncData)
+  id: 'SetPostalAddress(NSAddressSyncData)'
+  so.intellisense: NSParticipantSyncData.SetPostalAddress
+  langs:
+  - crmscript
+  name: 'SetPostalAddress(NSAddressSyncData)'
+  nameWithType: NSParticipantSyncData.SetPostalAddress(NSAddressSyncData)
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetPostalAddress(NSAddressSyncData)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPostalAddress(NSAddressSyncData postalAddress)
+    parameters:
+    - id: postalAddress
+      type: CRMScript.NetServer.NSAddressSyncData
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nNSAddressSyncData postalAddress;\nthing.SetPostalAddress(postalAddress);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetStreetAddress(NSAddressSyncData)
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetStreetAddress(NSAddressSyncData)
+  id: 'SetStreetAddress(NSAddressSyncData)'
+  so.intellisense: NSParticipantSyncData.SetStreetAddress
+  langs:
+  - crmscript
+  name: 'SetStreetAddress(NSAddressSyncData)'
+  nameWithType: NSParticipantSyncData.SetStreetAddress(NSAddressSyncData)
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetStreetAddress(NSAddressSyncData)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetStreetAddress(NSAddressSyncData streetAddress)
+    parameters:
+    - id:
+      type: CRMScript.NetServer.NSAddressSyncData
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nNSAddressSyncData streetAddress;\nthing.SetStreetAddress(streetAddress);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetUrl(String[])
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetUrl(String[])
+  id: 'SetUrl(String[])'
+  so.intellisense: NSParticipantSyncData.SetUrl
+  langs:
+  - crmscript
+  name: 'SetUrl(String[])'
+  nameWithType: NSParticipantSyncData.SetUrl(String[])
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetUrl(String[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUrl(String[] url)
+    parameters:
+    - id: url
+      type: CRMScript.Global.String[]
+      description: "The URLs related to this person."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString[] url;\nthing.SetUrl(url);</code></pre>\n"
+- uid: CRMScript.NetServer.NSParticipantSyncData.SetVoip(String[])
+  commentId: M:CRMScript.NetServer.NSParticipantSyncData.SetVoip(String[])
+  id: 'SetVoip(String[])'
+  so.intellisense: NSParticipantSyncData.SetVoip
+  langs:
+  - crmscript
+  name: 'SetVoip(String[])'
+  nameWithType: NSParticipantSyncData.SetVoip(String[])
+  fullName: CRMScript.NetServer.NSParticipantSyncData.SetVoip(String[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetVoip(String[] voip)
+    parameters:
+    - id: voip
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSParticipantSyncData thing;\nString[] voip;\nthing.SetVoip(voip);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSParticipantSyncData
+  commentId: T:CRMScript.NetServer.NSParticipantSyncData
+  isExternal: true
+  name: NSParticipantSyncData
+  nameWithType: NSParticipantSyncData
+  fullName: CRMScript.NetServer.NSParticipantSyncData
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    isExternal: true
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSAddressSyncData
+  commentId: T:CRMScript.NetServer.NSAddressSyncData
+  isExternal: true
+  name: NSAddressSyncData
+  nameWithType: NSAddressSyncData
+  fullName: CRMScript.NetServer.NSAddressSyncData
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.AppointmentStatus
+  commentId: T:CRMScript.NetServer.AppointmentStatus
+  isExternal: true
+  name: AppointmentStatus
+  nameWithType: AppointmentStatus
+  fullName: CRMScript.NetServer.AppointmentStatus

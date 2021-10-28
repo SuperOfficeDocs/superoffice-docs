@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSRating
+  commentId: T:CRMScript.NetServer.NSRating
+  id: NSRating
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSRating.#ctor
+  - CRMScript.NetServer.NSRating.GetId()
+  - CRMScript.NetServer.NSRating.GetTooltip()
+  - CRMScript.NetServer.NSRating.GetValue()
+  - CRMScript.NetServer.NSRating.SetId(Integer)
+  - CRMScript.NetServer.NSRating.SetTooltip(String)
+  - CRMScript.NetServer.NSRating.SetValue(String)
+  name: NSRating
+  nameWithType: NSRating
+  fullName: CRMScript.NetServer.NSRating
+  type: Class
+  summary: "\nSale Stage with probability percent.\n"
+  example: 
+- uid: CRMScript.NetServer.NSRating.#ctor
+  commentId: M:CRMScript.NetServer.NSRating.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSRating
+  langs:
+  - crmscript
+  name: NSRating()
+  nameWithType: NSRating.#ctor
+  fullName: CRMScript.NetServer.NSRating.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSRating class.\n"
+  remarks: 
+  syntax: 
+    content: NSRating
+  example: 
+- uid: CRMScript.NetServer.NSRating.GetId()
+  commentId: M:CRMScript.NetServer.NSRating.GetId()
+  id: 'GetId()'
+  so.intellisense: NSRating.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSRating.GetId()
+  fullName: CRMScript.NetServer.NSRating.GetId()
+  type: Method
+  summary: "\nGets the primary key (ID) for the NSRating\n"
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSRating thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRating.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSRating.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSRating.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSRating.GetTooltip()
+  fullName: CRMScript.NetServer.NSRating.GetTooltip()
+  type: Method
+  summary: "\nGets the tooltip description for the NSRating list item.\n"
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSRating thing;\nString descr = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRating.GetValue()
+  commentId: M:CRMScript.NetServer.NSRating.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSRating.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSRating.GetValue()
+  fullName: CRMScript.NetServer.NSRating.GetValue()
+  type: Method
+  summary: "\nGets the name of the NSRating.\n"
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSRating thing;\nString name = thing.GetValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRating.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSRating.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSRating.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSRating.SetId(Integer)
+  fullName: CRMScript.NetServer.NSRating.SetId(Integer)
+  type: Method
+  summary: "\nSets the primary key (ID) for the NSRating\n"
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRating thing;\nthing.SetId(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRating.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSRating.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSRating.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSRating.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSRating.SetTooltip(String)
+  type: Method
+  summary: "\nSets the tooltip description for the NSRating list item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRating thing;\nString descr = &quot;something new&quot;;\nthing.SetTooltip(descr);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRating.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSRating.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSRating.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSRating.SetValue(String)
+  fullName: CRMScript.NetServer.NSRating.SetValue(String)
+  type: Method
+  summary: "\nSets the name of the NSRating item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRating thing;\nthing.SetValue(&quot;frotz&quot;);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSRating
+  commentId: T:CRMScript.NetServer.NSRating
+  isExternal: true
+  name: NSRating
+  nameWithType: NSRating
+  fullName: CRMScript.NetServer.NSRating
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

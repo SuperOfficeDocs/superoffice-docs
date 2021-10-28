@@ -1,0 +1,313 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSIncomingMessage
+  commentId: T:CRMScript.NetServer.NSIncomingMessage
+  id: NSIncomingMessage
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSIncomingMessage.#ctor
+  - CRMScript.NetServer.NSIncomingMessage.GetContent()
+  - CRMScript.NetServer.NSIncomingMessage.GetFormat()
+  - CRMScript.NetServer.NSIncomingMessage.GetFrom()
+  - CRMScript.NetServer.NSIncomingMessage.GetPlugin()
+  - CRMScript.NetServer.NSIncomingMessage.GetSessionKey()
+  - CRMScript.NetServer.NSIncomingMessage.GetTo()
+  - CRMScript.NetServer.NSIncomingMessage.SetContent(String)
+  - CRMScript.NetServer.NSIncomingMessage.SetFormat(String)
+  - CRMScript.NetServer.NSIncomingMessage.SetFrom(String)
+  - CRMScript.NetServer.NSIncomingMessage.SetPlugin(String)
+  - CRMScript.NetServer.NSIncomingMessage.SetSessionKey(String)
+  - CRMScript.NetServer.NSIncomingMessage.SetTo(String)
+  name: NSIncomingMessage
+  nameWithType: NSIncomingMessage
+  fullName: CRMScript.NetServer.NSIncomingMessage
+  type: Class
+  summary: "\nDetails about a message to be sent.\n"
+  example: 
+- uid: CRMScript.NetServer.NSIncomingMessage.#ctor
+  commentId: M:CRMScript.NetServer.NSIncomingMessage.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSIncomingMessage
+  langs:
+  - crmscript
+  name: NSIncomingMessage()
+  nameWithType: NSIncomingMessage.#ctor
+  fullName: CRMScript.NetServer.NSIncomingMessage.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSIncomingMessage class.\n"
+  remarks: 
+  syntax: 
+    content: NSIncomingMessage
+  example: 
+- uid: CRMScript.NetServer.NSIncomingMessage.GetContent()
+  commentId: M:CRMScript.NetServer.NSIncomingMessage.GetContent()
+  id: 'GetContent()'
+  so.intellisense: NSIncomingMessage.GetContent
+  langs:
+  - crmscript
+  name: 'GetContent()'
+  nameWithType: NSIncomingMessage.GetContent()
+  fullName: CRMScript.NetServer.NSIncomingMessage.GetContent()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetContent()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Content, or body, of the message."
+  example: 
+  - "\n<pre><code>NSIncomingMessage thing;\nString content = thing.GetContent();</code></pre>\n"
+- uid: CRMScript.NetServer.NSIncomingMessage.GetFormat()
+  commentId: M:CRMScript.NetServer.NSIncomingMessage.GetFormat()
+  id: 'GetFormat()'
+  so.intellisense: NSIncomingMessage.GetFormat
+  langs:
+  - crmscript
+  name: 'GetFormat()'
+  nameWithType: NSIncomingMessage.GetFormat()
+  fullName: CRMScript.NetServer.NSIncomingMessage.GetFormat()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFormat()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Format of the content."
+  example: 
+  - "\n<pre><code>NSIncomingMessage thing;\nString format = thing.GetFormat();</code></pre>\n"
+- uid: CRMScript.NetServer.NSIncomingMessage.GetFrom()
+  commentId: M:CRMScript.NetServer.NSIncomingMessage.GetFrom()
+  id: 'GetFrom()'
+  so.intellisense: NSIncomingMessage.GetFrom
+  langs:
+  - crmscript
+  name: 'GetFrom()'
+  nameWithType: NSIncomingMessage.GetFrom()
+  fullName: CRMScript.NetServer.NSIncomingMessage.GetFrom()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFrom()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Who the message is from.  This can vary from provider to provider and can for SMS typically be a phone number or a string.  This is mail address on the form of an e-mail."
+  example: 
+  - "\n<pre><code>NSIncomingMessage thing;\nString from = thing.GetFrom();</code></pre>\n"
+- uid: CRMScript.NetServer.NSIncomingMessage.GetPlugin()
+  commentId: M:CRMScript.NetServer.NSIncomingMessage.GetPlugin()
+  id: 'GetPlugin()'
+  so.intellisense: NSIncomingMessage.GetPlugin
+  langs:
+  - crmscript
+  name: 'GetPlugin()'
+  nameWithType: NSIncomingMessage.GetPlugin()
+  fullName: CRMScript.NetServer.NSIncomingMessage.GetPlugin()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPlugin()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of plugin."
+  example: 
+  - "\n<pre><code>NSIncomingMessage thing;\nString plugin = thing.GetPlugin();</code></pre>\n"
+- uid: CRMScript.NetServer.NSIncomingMessage.GetSessionKey()
+  commentId: M:CRMScript.NetServer.NSIncomingMessage.GetSessionKey()
+  id: 'GetSessionKey()'
+  so.intellisense: NSIncomingMessage.GetSessionKey
+  langs:
+  - crmscript
+  name: 'GetSessionKey()'
+  nameWithType: NSIncomingMessage.GetSessionKey()
+  fullName: CRMScript.NetServer.NSIncomingMessage.GetSessionKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSessionKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Session key used for threading."
+  example: 
+  - "\n<pre><code>NSIncomingMessage thing;\nString sessionKey = thing.GetSessionKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSIncomingMessage.GetTo()
+  commentId: M:CRMScript.NetServer.NSIncomingMessage.GetTo()
+  id: 'GetTo()'
+  so.intellisense: NSIncomingMessage.GetTo
+  langs:
+  - crmscript
+  name: 'GetTo()'
+  nameWithType: NSIncomingMessage.GetTo()
+  fullName: CRMScript.NetServer.NSIncomingMessage.GetTo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTo()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Address of the recipient. This can be in the form of phone number or email."
+  example: 
+  - "\n<pre><code>NSIncomingMessage thing;\nString to = thing.GetTo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSIncomingMessage.SetContent(String)
+  commentId: M:CRMScript.NetServer.NSIncomingMessage.SetContent(String)
+  id: 'SetContent(String)'
+  so.intellisense: NSIncomingMessage.SetContent
+  langs:
+  - crmscript
+  name: 'SetContent(String)'
+  nameWithType: NSIncomingMessage.SetContent(String)
+  fullName: CRMScript.NetServer.NSIncomingMessage.SetContent(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContent(String content)
+    parameters:
+    - id: content
+      type: CRMScript.Global.String
+      description: "Content, or body, of the message."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSIncomingMessage thing;\nString content;\nthing.SetContent(content);</code></pre>\n"
+- uid: CRMScript.NetServer.NSIncomingMessage.SetFormat(String)
+  commentId: M:CRMScript.NetServer.NSIncomingMessage.SetFormat(String)
+  id: 'SetFormat(String)'
+  so.intellisense: NSIncomingMessage.SetFormat
+  langs:
+  - crmscript
+  name: 'SetFormat(String)'
+  nameWithType: NSIncomingMessage.SetFormat(String)
+  fullName: CRMScript.NetServer.NSIncomingMessage.SetFormat(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFormat(String format)
+    parameters:
+    - id: format
+      type: CRMScript.Global.String
+      description: "Format of the content."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSIncomingMessage thing;\nString format;\nthing.SetFormat(format);</code></pre>\n"
+- uid: CRMScript.NetServer.NSIncomingMessage.SetFrom(String)
+  commentId: M:CRMScript.NetServer.NSIncomingMessage.SetFrom(String)
+  id: 'SetFrom(String)'
+  so.intellisense: NSIncomingMessage.SetFrom
+  langs:
+  - crmscript
+  name: 'SetFrom(String)'
+  nameWithType: NSIncomingMessage.SetFrom(String)
+  fullName: CRMScript.NetServer.NSIncomingMessage.SetFrom(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFrom(String from)
+    parameters:
+    - id: from
+      type: CRMScript.Global.String
+      description: "Who the message is from.  This can vary from provider to provider and can for SMS typically be a phone number or a string.  This is mail address on the form of an e-mail."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSIncomingMessage thing;\nString from;\nthing.SetFrom(from);</code></pre>\n"
+- uid: CRMScript.NetServer.NSIncomingMessage.SetPlugin(String)
+  commentId: M:CRMScript.NetServer.NSIncomingMessage.SetPlugin(String)
+  id: 'SetPlugin(String)'
+  so.intellisense: NSIncomingMessage.SetPlugin
+  langs:
+  - crmscript
+  name: 'SetPlugin(String)'
+  nameWithType: NSIncomingMessage.SetPlugin(String)
+  fullName: CRMScript.NetServer.NSIncomingMessage.SetPlugin(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPlugin(String plugin)
+    parameters:
+    - id: plugin
+      type: CRMScript.Global.String
+      description: "Name of plugin."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSIncomingMessage thing;\nString plugin;\nthing.SetPlugin(plugin);</code></pre>\n"
+- uid: CRMScript.NetServer.NSIncomingMessage.SetSessionKey(String)
+  commentId: M:CRMScript.NetServer.NSIncomingMessage.SetSessionKey(String)
+  id: 'SetSessionKey(String)'
+  so.intellisense: NSIncomingMessage.SetSessionKey
+  langs:
+  - crmscript
+  name: 'SetSessionKey(String)'
+  nameWithType: NSIncomingMessage.SetSessionKey(String)
+  fullName: CRMScript.NetServer.NSIncomingMessage.SetSessionKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSessionKey(String sessionKey)
+    parameters:
+    - id: sessionKey
+      type: CRMScript.Global.String
+      description: "Session key used for threading."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSIncomingMessage thing;\nString sessionKey;\nthing.SetSessionKey(sessionKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSIncomingMessage.SetTo(String)
+  commentId: M:CRMScript.NetServer.NSIncomingMessage.SetTo(String)
+  id: 'SetTo(String)'
+  so.intellisense: NSIncomingMessage.SetTo
+  langs:
+  - crmscript
+  name: 'SetTo(String)'
+  nameWithType: NSIncomingMessage.SetTo(String)
+  fullName: CRMScript.NetServer.NSIncomingMessage.SetTo(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTo(String to)
+    parameters:
+    - id: to
+      type: CRMScript.Global.String
+      description: "Address of the recipient. This can be in the form of phone number or email."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSIncomingMessage thing;\nString to;\nthing.SetTo(to);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSIncomingMessage
+  commentId: T:CRMScript.NetServer.NSIncomingMessage
+  isExternal: true
+  name: NSIncomingMessage
+  nameWithType: NSIncomingMessage
+  fullName: CRMScript.NetServer.NSIncomingMessage
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

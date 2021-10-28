@@ -1,0 +1,689 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSContactActivity
+  commentId: T:CRMScript.NetServer.NSContactActivity
+  id: NSContactActivity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSContactActivity.#ctor
+  - CRMScript.NetServer.NSContactActivity.GetAction()
+  - CRMScript.NetServer.NSContactActivity.GetActionId()
+  - CRMScript.NetServer.NSContactActivity.GetActionTime()
+  - CRMScript.NetServer.NSContactActivity.GetActivityPersonId()
+  - CRMScript.NetServer.NSContactActivity.GetActivityPersonName()
+  - CRMScript.NetServer.NSContactActivity.GetAssociateFullName()
+  - CRMScript.NetServer.NSContactActivity.GetAssociateId()
+  - CRMScript.NetServer.NSContactActivity.GetCategory()
+  - CRMScript.NetServer.NSContactActivity.GetContactId()
+  - CRMScript.NetServer.NSContactActivity.GetDepartment()
+  - CRMScript.NetServer.NSContactActivity.GetName()
+  - CRMScript.NetServer.NSContactActivity.GetOrgNr()
+  - CRMScript.NetServer.NSContactActivity.GetPersonId()
+  - CRMScript.NetServer.NSContactActivity.GetURL()
+  - CRMScript.NetServer.NSContactActivity.SetAction(Integer)
+  - CRMScript.NetServer.NSContactActivity.SetActionId(Integer)
+  - CRMScript.NetServer.NSContactActivity.SetActionTime(DateTime)
+  - CRMScript.NetServer.NSContactActivity.SetActivityPersonId(Integer)
+  - CRMScript.NetServer.NSContactActivity.SetActivityPersonName(String)
+  - CRMScript.NetServer.NSContactActivity.SetAssociateFullName(String)
+  - CRMScript.NetServer.NSContactActivity.SetAssociateId(Integer)
+  - CRMScript.NetServer.NSContactActivity.SetCategory(String)
+  - CRMScript.NetServer.NSContactActivity.SetContactId(Integer)
+  - CRMScript.NetServer.NSContactActivity.SetDepartment(String)
+  - CRMScript.NetServer.NSContactActivity.SetName(String)
+  - CRMScript.NetServer.NSContactActivity.SetOrgNr(String)
+  - CRMScript.NetServer.NSContactActivity.SetPersonId(Integer)
+  - CRMScript.NetServer.NSContactActivity.SetURL(String)
+  name: NSContactActivity
+  nameWithType: NSContactActivity
+  fullName: CRMScript.NetServer.NSContactActivity
+  type: Class
+  summary: "\nCarrier object for ContactActivity.\n"
+  example: 
+- uid: CRMScript.NetServer.NSContactActivity.#ctor
+  commentId: M:CRMScript.NetServer.NSContactActivity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSContactActivity
+  langs:
+  - crmscript
+  name: NSContactActivity()
+  nameWithType: NSContactActivity.#ctor
+  fullName: CRMScript.NetServer.NSContactActivity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSContactActivity class.\n"
+  remarks: 
+  syntax: 
+    content: NSContactActivity
+  example: 
+- uid: CRMScript.NetServer.NSContactActivity.GetAction()
+  commentId: M:CRMScript.NetServer.NSContactActivity.GetAction()
+  id: 'GetAction()'
+  so.intellisense: NSContactActivity.GetAction
+  langs:
+  - crmscript
+  name: 'GetAction()'
+  nameWithType: NSContactActivity.GetAction()
+  fullName: CRMScript.NetServer.NSContactActivity.GetAction()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAction()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The activity that has occurred on this contact. See <xref href=\"CRMScript.NetServer.ContactAction\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nInteger action = thing.GetAction();</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.GetActionId()
+  commentId: M:CRMScript.NetServer.NSContactActivity.GetActionId()
+  id: 'GetActionId()'
+  so.intellisense: NSContactActivity.GetActionId
+  langs:
+  - crmscript
+  name: 'GetActionId()'
+  nameWithType: NSContactActivity.GetActionId()
+  fullName: CRMScript.NetServer.NSContactActivity.GetActionId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetActionId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of the last element an activity was found on () AppointmentId, ContactId, or PersonId)."
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nInteger actionId = thing.GetActionId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.GetActionTime()
+  commentId: M:CRMScript.NetServer.NSContactActivity.GetActionTime()
+  id: 'GetActionTime()'
+  so.intellisense: NSContactActivity.GetActionTime
+  langs:
+  - crmscript
+  name: 'GetActionTime()'
+  nameWithType: NSContactActivity.GetActionTime()
+  fullName: CRMScript.NetServer.NSContactActivity.GetActionTime()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetActionTime()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The time of the activity. If more than one activity has occurred on the contact, the last activity time is shown."
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nDateTime actionTime = thing.GetActionTime();</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.GetActivityPersonId()
+  commentId: M:CRMScript.NetServer.NSContactActivity.GetActivityPersonId()
+  id: 'GetActivityPersonId()'
+  so.intellisense: NSContactActivity.GetActivityPersonId
+  langs:
+  - crmscript
+  name: 'GetActivityPersonId()'
+  nameWithType: NSContactActivity.GetActivityPersonId()
+  fullName: CRMScript.NetServer.NSContactActivity.GetActivityPersonId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetActivityPersonId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of the person causing the activity."
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nInteger activityPersonId = thing.GetActivityPersonId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.GetActivityPersonName()
+  commentId: M:CRMScript.NetServer.NSContactActivity.GetActivityPersonName()
+  id: 'GetActivityPersonName()'
+  so.intellisense: NSContactActivity.GetActivityPersonName
+  langs:
+  - crmscript
+  name: 'GetActivityPersonName()'
+  nameWithType: NSContactActivity.GetActivityPersonName()
+  fullName: CRMScript.NetServer.NSContactActivity.GetActivityPersonName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetActivityPersonName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The person that carried out the activity on the contact."
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nString activityPersonName = thing.GetActivityPersonName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.GetAssociateFullName()
+  commentId: M:CRMScript.NetServer.NSContactActivity.GetAssociateFullName()
+  id: 'GetAssociateFullName()'
+  so.intellisense: NSContactActivity.GetAssociateFullName
+  langs:
+  - crmscript
+  name: 'GetAssociateFullName()'
+  nameWithType: NSContactActivity.GetAssociateFullName()
+  fullName: CRMScript.NetServer.NSContactActivity.GetAssociateFullName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetAssociateFullName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The contact's owner."
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nString associateFullName = thing.GetAssociateFullName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.GetAssociateId()
+  commentId: M:CRMScript.NetServer.NSContactActivity.GetAssociateId()
+  id: 'GetAssociateId()'
+  so.intellisense: NSContactActivity.GetAssociateId
+  langs:
+  - crmscript
+  name: 'GetAssociateId()'
+  nameWithType: NSContactActivity.GetAssociateId()
+  fullName: CRMScript.NetServer.NSContactActivity.GetAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Our contact."
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nInteger associateId = thing.GetAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.GetCategory()
+  commentId: M:CRMScript.NetServer.NSContactActivity.GetCategory()
+  id: 'GetCategory()'
+  so.intellisense: NSContactActivity.GetCategory
+  langs:
+  - crmscript
+  name: 'GetCategory()'
+  nameWithType: NSContactActivity.GetCategory()
+  fullName: CRMScript.NetServer.NSContactActivity.GetCategory()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCategory()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The contact category."
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nString category = thing.GetCategory();</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.GetContactId()
+  commentId: M:CRMScript.NetServer.NSContactActivity.GetContactId()
+  id: 'GetContactId()'
+  so.intellisense: NSContactActivity.GetContactId
+  langs:
+  - crmscript
+  name: 'GetContactId()'
+  nameWithType: NSContactActivity.GetContactId()
+  fullName: CRMScript.NetServer.NSContactActivity.GetContactId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetContactId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nInteger contactId = thing.GetContactId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.GetDepartment()
+  commentId: M:CRMScript.NetServer.NSContactActivity.GetDepartment()
+  id: 'GetDepartment()'
+  so.intellisense: NSContactActivity.GetDepartment
+  langs:
+  - crmscript
+  name: 'GetDepartment()'
+  nameWithType: NSContactActivity.GetDepartment()
+  fullName: CRMScript.NetServer.NSContactActivity.GetDepartment()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDepartment()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Department."
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nString department = thing.GetDepartment();</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.GetName()
+  commentId: M:CRMScript.NetServer.NSContactActivity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSContactActivity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSContactActivity.GetName()
+  fullName: CRMScript.NetServer.NSContactActivity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Contact name."
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.GetOrgNr()
+  commentId: M:CRMScript.NetServer.NSContactActivity.GetOrgNr()
+  id: 'GetOrgNr()'
+  so.intellisense: NSContactActivity.GetOrgNr
+  langs:
+  - crmscript
+  name: 'GetOrgNr()'
+  nameWithType: NSContactActivity.GetOrgNr()
+  fullName: CRMScript.NetServer.NSContactActivity.GetOrgNr()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetOrgNr()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "VAT number or similar."
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nString orgNr = thing.GetOrgNr();</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.GetPersonId()
+  commentId: M:CRMScript.NetServer.NSContactActivity.GetPersonId()
+  id: 'GetPersonId()'
+  so.intellisense: NSContactActivity.GetPersonId
+  langs:
+  - crmscript
+  name: 'GetPersonId()'
+  nameWithType: NSContactActivity.GetPersonId()
+  fullName: CRMScript.NetServer.NSContactActivity.GetPersonId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPersonId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The person Id."
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nInteger personId = thing.GetPersonId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.GetURL()
+  commentId: M:CRMScript.NetServer.NSContactActivity.GetURL()
+  id: 'GetURL()'
+  so.intellisense: NSContactActivity.GetURL
+  langs:
+  - crmscript
+  name: 'GetURL()'
+  nameWithType: NSContactActivity.GetURL()
+  fullName: CRMScript.NetServer.NSContactActivity.GetURL()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetURL()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "URL address."
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nString uRL = thing.GetURL();</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.SetAction(Integer)
+  commentId: M:CRMScript.NetServer.NSContactActivity.SetAction(Integer)
+  id: 'SetAction(Integer)'
+  so.intellisense: NSContactActivity.SetAction
+  langs:
+  - crmscript
+  name: 'SetAction(Integer)'
+  nameWithType: NSContactActivity.SetAction(Integer)
+  fullName: CRMScript.NetServer.NSContactActivity.SetAction(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAction(Integer action)
+    parameters:
+    - id: action
+      type: CRMScript.Global.Integer
+      description: "The activity that has occurred on this contact. See <xref href=\"CRMScript.NetServer.ContactAction\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nInteger action;\nthing.SetAction(action);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.SetActionId(Integer)
+  commentId: M:CRMScript.NetServer.NSContactActivity.SetActionId(Integer)
+  id: 'SetActionId(Integer)'
+  so.intellisense: NSContactActivity.SetActionId
+  langs:
+  - crmscript
+  name: 'SetActionId(Integer)'
+  nameWithType: NSContactActivity.SetActionId(Integer)
+  fullName: CRMScript.NetServer.NSContactActivity.SetActionId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetActionId(Integer actionId)
+    parameters:
+    - id: actionId
+      type: CRMScript.Global.Integer
+      description: "ID of the last element an activity was found on (AppointmentId, ContactId, or PersonId)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nInteger actionId;\nthing.SetActionId(actionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.SetActionTime(DateTime)
+  commentId: M:CRMScript.NetServer.NSContactActivity.SetActionTime(DateTime)
+  id: 'SetActionTime(DateTime)'
+  so.intellisense: NSContactActivity.SetActionTime
+  langs:
+  - crmscript
+  name: 'SetActionTime(DateTime)'
+  nameWithType: NSContactActivity.SetActionTime(DateTime)
+  fullName: CRMScript.NetServer.NSContactActivity.SetActionTime(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetActionTime(DateTime actionTime)
+    parameters:
+    - id: actionTime
+      type: CRMScript.Global.DateTime
+      description: "The time of the activity. If more than one activity has occurred on the contact, the last activity time is shown."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nDateTime actionTime;\nthing.SetActionTime(actionTime);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.SetActivityPersonId(Integer)
+  commentId: M:CRMScript.NetServer.NSContactActivity.SetActivityPersonId(Integer)
+  id: 'SetActivityPersonId(Integer)'
+  so.intellisense: NSContactActivity.SetActivityPersonId
+  langs:
+  - crmscript
+  name: 'SetActivityPersonId(Integer)'
+  nameWithType: NSContactActivity.SetActivityPersonId(Integer)
+  fullName: CRMScript.NetServer.NSContactActivity.SetActivityPersonId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetActivityPersonId(Integer activityPersonId)
+    parameters:
+    - id: activityPersonId
+      type: CRMScript.Global.Integer
+      description: "ID of the person causing the activity."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nInteger activityPersonId;\nthing.SetActivityPersonId(activityPersonId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.SetActivityPersonName(String)
+  commentId: M:CRMScript.NetServer.NSContactActivity.SetActivityPersonName(String)
+  id: 'SetActivityPersonName(String)'
+  so.intellisense: NSContactActivity.SetActivityPersonName
+  langs:
+  - crmscript
+  name: 'SetActivityPersonName(String)'
+  nameWithType: NSContactActivity.SetActivityPersonName(String)
+  fullName: CRMScript.NetServer.NSContactActivity.SetActivityPersonName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetActivityPersonName(String activityPersonName)
+    parameters:
+    - id: activityPersonName
+      type: CRMScript.Global.String
+      description: "The person that carried out the activity on the contact."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nString activityPersonName;\nthing.SetActivityPersonName(activityPersonName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.SetAssociateFullName(String)
+  commentId: M:CRMScript.NetServer.NSContactActivity.SetAssociateFullName(String)
+  id: 'SetAssociateFullName(String)'
+  so.intellisense: NSContactActivity.SetAssociateFullName
+  langs:
+  - crmscript
+  name: 'SetAssociateFullName(String)'
+  nameWithType: NSContactActivity.SetAssociateFullName(String)
+  fullName: CRMScript.NetServer.NSContactActivity.SetAssociateFullName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAssociateFullName(String associateFullName)
+    parameters:
+    - id: associateFullName
+      type: CRMScript.Global.String
+      description: "The contact's owner."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nString associateFullName;\nthing.SetAssociateFullName(associateFullName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.SetAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSContactActivity.SetAssociateId(Integer)
+  id: 'SetAssociateId(Integer)'
+  so.intellisense: NSContactActivity.SetAssociateId
+  langs:
+  - crmscript
+  name: 'SetAssociateId(Integer)'
+  nameWithType: NSContactActivity.SetAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSContactActivity.SetAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAssociateId(Integer associateId)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: "Our contact."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nInteger associateId;\nthing.SetAssociateId(associateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.SetCategory(String)
+  commentId: M:CRMScript.NetServer.NSContactActivity.SetCategory(String)
+  id: 'SetCategory(String)'
+  so.intellisense: NSContactActivity.SetCategory
+  langs:
+  - crmscript
+  name: 'SetCategory(String)'
+  nameWithType: NSContactActivity.SetCategory(String)
+  fullName: CRMScript.NetServer.NSContactActivity.SetCategory(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCategory(String category)
+    parameters:
+    - id: category
+      type: CRMScript.Global.String
+      description: "The contact category."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nString category;\nthing.SetCategory(category);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.SetContactId(Integer)
+  commentId: M:CRMScript.NetServer.NSContactActivity.SetContactId(Integer)
+  id: 'SetContactId(Integer)'
+  so.intellisense: NSContactActivity.SetContactId
+  langs:
+  - crmscript
+  name: 'SetContactId(Integer)'
+  nameWithType: NSContactActivity.SetContactId(Integer)
+  fullName: CRMScript.NetServer.NSContactActivity.SetContactId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactId(Integer contactId)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nInteger contactId;\nthing.SetContactId(contactId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.SetDepartment(String)
+  commentId: M:CRMScript.NetServer.NSContactActivity.SetDepartment(String)
+  id: 'SetDepartment(String)'
+  so.intellisense: NSContactActivity.SetDepartment
+  langs:
+  - crmscript
+  name: 'SetDepartment(String)'
+  nameWithType: NSContactActivity.SetDepartment(String)
+  fullName: CRMScript.NetServer.NSContactActivity.SetDepartment(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDepartment(String department)
+    parameters:
+    - id: department
+      type: CRMScript.Global.String
+      description: "Department."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nString department;\nthing.SetDepartment(department);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSContactActivity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSContactActivity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSContactActivity.SetName(String)
+  fullName: CRMScript.NetServer.NSContactActivity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Contact name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.SetOrgNr(String)
+  commentId: M:CRMScript.NetServer.NSContactActivity.SetOrgNr(String)
+  id: 'SetOrgNr(String)'
+  so.intellisense: NSContactActivity.SetOrgNr
+  langs:
+  - crmscript
+  name: 'SetOrgNr(String)'
+  nameWithType: NSContactActivity.SetOrgNr(String)
+  fullName: CRMScript.NetServer.NSContactActivity.SetOrgNr(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOrgNr(String orgNr)
+    parameters:
+    - id: orgNr
+      type: CRMScript.Global.String
+      description: "VAT number or similar."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nString orgNr;\nthing.SetOrgNr(orgNr);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.SetPersonId(Integer)
+  commentId: M:CRMScript.NetServer.NSContactActivity.SetPersonId(Integer)
+  id: 'SetPersonId(Integer)'
+  so.intellisense: NSContactActivity.SetPersonId
+  langs:
+  - crmscript
+  name: 'SetPersonId(Integer)'
+  nameWithType: NSContactActivity.SetPersonId(Integer)
+  fullName: CRMScript.NetServer.NSContactActivity.SetPersonId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonId(Integer personId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: "The person Id."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nInteger personId;\nthing.SetPersonId(personId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactActivity.SetURL(String)
+  commentId: M:CRMScript.NetServer.NSContactActivity.SetURL(String)
+  id: 'SetURL(String)'
+  so.intellisense: NSContactActivity.SetURL
+  langs:
+  - crmscript
+  name: 'SetURL(String)'
+  nameWithType: NSContactActivity.SetURL(String)
+  fullName: CRMScript.NetServer.NSContactActivity.SetURL(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetURL(String uRL)
+    parameters:
+    - id: uRL
+      type: CRMScript.Global.String
+      description: "URL address."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSContactActivity thing;\nString uRL;\nthing.SetURL(uRL);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSContactActivity
+  commentId: T:CRMScript.NetServer.NSContactActivity
+  isExternal: true
+  name: NSContactActivity
+  nameWithType: NSContactActivity
+  fullName: CRMScript.NetServer.NSContactActivity
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.ContactAction
+  commentId: T:CRMScript.NetServer.ContactAction
+  isExternal: true
+  name: ContactAction
+  nameWithType: ContactAction
+  fullName: CRMScript.NetServer.ContactAction
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

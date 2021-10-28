@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSUserValidationResult
+  commentId: T:CRMScript.NetServer.NSUserValidationResult
+  id: NSUserValidationResult
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSUserValidationResult.#ctor
+  - CRMScript.NetServer.NSUserValidationResult.GetReason()
+  - CRMScript.NetServer.NSUserValidationResult.GetResult()
+  - CRMScript.NetServer.NSUserValidationResult.SetReason(String)
+  - CRMScript.NetServer.NSUserValidationResult.SetResult(Bool)
+  name: NSUserValidationResult
+  nameWithType: NSUserValidationResult
+  fullName: CRMScript.NetServer.NSUserValidationResult
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSUserValidationResult.#ctor
+  commentId: M:CRMScript.NetServer.NSUserValidationResult.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSUserValidationResult
+  langs:
+  - crmscript
+  name: NSUserValidationResult()
+  nameWithType: NSUserValidationResult.#ctor
+  fullName: CRMScript.NetServer.NSUserValidationResult.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSUserValidationResult class.\n"
+  remarks: 
+  syntax: 
+    content: NSUserValidationResult
+  example: 
+- uid: CRMScript.NetServer.NSUserValidationResult.GetReason()
+  commentId: M:CRMScript.NetServer.NSUserValidationResult.GetReason()
+  id: 'GetReason()'
+  so.intellisense: NSUserValidationResult.GetReason
+  langs:
+  - crmscript
+  name: 'GetReason()'
+  nameWithType: NSUserValidationResult.GetReason()
+  fullName: CRMScript.NetServer.NSUserValidationResult.GetReason()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetReason()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSUserValidationResult thing;\nString reason = thing.GetReason();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserValidationResult.GetResult()
+  commentId: M:CRMScript.NetServer.NSUserValidationResult.GetResult()
+  id: 'GetResult()'
+  so.intellisense: NSUserValidationResult.GetResult
+  langs:
+  - crmscript
+  name: 'GetResult()'
+  nameWithType: NSUserValidationResult.GetResult()
+  fullName: CRMScript.NetServer.NSUserValidationResult.GetResult()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetResult()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSUserValidationResult thing;\nBool result = thing.GetResult();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserValidationResult.SetReason(String)
+  commentId: M:CRMScript.NetServer.NSUserValidationResult.SetReason(String)
+  id: 'SetReason(String)'
+  so.intellisense: NSUserValidationResult.SetReason
+  langs:
+  - crmscript
+  name: 'SetReason(String)'
+  nameWithType: NSUserValidationResult.SetReason(String)
+  fullName: CRMScript.NetServer.NSUserValidationResult.SetReason(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetReason(String reason)
+    parameters:
+    - id: reason
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserValidationResult thing;\nString reason;\nthing.SetReason(reason);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserValidationResult.SetResult(Bool)
+  commentId: M:CRMScript.NetServer.NSUserValidationResult.SetResult(Bool)
+  id: 'SetResult(Bool)'
+  so.intellisense: NSUserValidationResult.SetResult
+  langs:
+  - crmscript
+  name: 'SetResult(Bool)'
+  nameWithType: NSUserValidationResult.SetResult(Bool)
+  fullName: CRMScript.NetServer.NSUserValidationResult.SetResult(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetResult(Bool result)
+    parameters:
+    - id: result
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserValidationResult thing;\nBool result;\nthing.SetResult(result);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSUserValidationResult
+  commentId: T:CRMScript.NetServer.NSUserValidationResult
+  isExternal: true
+  name: NSUserValidationResult
+  nameWithType: NSUserValidationResult
+  fullName: CRMScript.NetServer.NSUserValidationResult
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

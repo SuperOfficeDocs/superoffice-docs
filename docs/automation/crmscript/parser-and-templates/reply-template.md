@@ -1,10 +1,11 @@
 ---
 uid: crmscript_reply_template
 title: Reply templates
+description: A reply template is a blueprint for an email. It consists of regular text and template variables.
 author:
 so.date:
-keywords:
-so.topic:
+keywords: crmscript, reply template, service, template
+so.topic: concept
 ---
 
 # Reply templates

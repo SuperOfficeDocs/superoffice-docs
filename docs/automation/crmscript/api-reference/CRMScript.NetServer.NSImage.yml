@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSImage
+  commentId: T:CRMScript.NetServer.NSImage
+  id: NSImage
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSImage.#ctor
+  - CRMScript.NetServer.NSImage.GetImage()
+  - CRMScript.NetServer.NSImage.SetImage(Byte[])
+  name: NSImage
+  nameWithType: NSImage
+  fullName: CRMScript.NetServer.NSImage
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSImage.#ctor
+  commentId: M:CRMScript.NetServer.NSImage.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSImage
+  langs:
+  - crmscript
+  name: NSImage()
+  nameWithType: NSImage.#ctor
+  fullName: CRMScript.NetServer.NSImage.#ctor
+  type: Constructor
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSImage
+  example: 
+- uid: CRMScript.NetServer.NSImage.GetImage()
+  commentId: M:CRMScript.NetServer.NSImage.GetImage()
+  id: 'GetImage()'
+  so.intellisense: NSImage.GetImage
+  langs:
+  - crmscript
+  name: 'GetImage()'
+  nameWithType: NSImage.GetImage()
+  fullName: CRMScript.NetServer.NSImage.GetImage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Byte[] GetImage()
+    parameters: []
+    return:
+      type: CRMScript.Global.Byte[]
+  example: 
+- uid: CRMScript.NetServer.NSImage.SetImage(Byte[])
+  commentId: M:CRMScript.NetServer.NSImage.SetImage(Byte[])
+  id: 'SetImage(Byte[])'
+  so.intellisense: NSImage.SetImage
+  langs:
+  - crmscript
+  name: 'SetImage(Byte[])'
+  nameWithType: NSImage.SetImage(Byte[])
+  fullName: CRMScript.NetServer.NSImage.SetImage(Byte[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetImage(Byte[] image)
+    parameters:
+    - id: image
+      type: CRMScript.Global.Byte[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSImage
+  commentId: T:CRMScript.NetServer.NSImage
+  isExternal: true
+  name: NSImage
+  nameWithType: NSImage
+  fullName: CRMScript.NetServer.NSImage
+- uid: CRMScript.Global.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: CRMScript.Global.Byte[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Byte
+    isExternal: true
+    name: Byte
+    nameWithType: Byte
+    fullName: CRMScript.Global.Byte
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Byte
+  commentId: T:CRMScript.Global.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: CRMScript.Global.Byte
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

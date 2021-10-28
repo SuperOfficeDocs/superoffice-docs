@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSCustomerServiceStartup
+  commentId: T:CRMScript.NetServer.NSCustomerServiceStartup
+  id: NSCustomerServiceStartup
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSCustomerServiceStartup.#ctor
+  - CRMScript.NetServer.NSCustomerServiceStartup.GetRecaptchaSiteKey()
+  - CRMScript.NetServer.NSCustomerServiceStartup.GetTimezoneEnabled()
+  - CRMScript.NetServer.NSCustomerServiceStartup.GetTZOffset()
+  - CRMScript.NetServer.NSCustomerServiceStartup.SetRecaptchaSiteKey(String)
+  - CRMScript.NetServer.NSCustomerServiceStartup.SetTimezoneEnabled(Bool)
+  - CRMScript.NetServer.NSCustomerServiceStartup.SetTZOffset(Integer)
+  name: NSCustomerServiceStartup
+  nameWithType: NSCustomerServiceStartup
+  fullName: CRMScript.NetServer.NSCustomerServiceStartup
+  type: Class
+  summary: "\nContains various data needed by Service for startup.<p></p>\n<strong>Do not use this API, as it is for internal use and might change without notice.</strong>\n"
+  example: 
+- uid: CRMScript.NetServer.NSCustomerServiceStartup.#ctor
+  commentId: M:CRMScript.NetServer.NSCustomerServiceStartup.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSCustomerServiceStartup
+  langs:
+  - crmscript
+  name: NSCustomerServiceStartup()
+  nameWithType: NSCustomerServiceStartup.#ctor
+  fullName: CRMScript.NetServer.NSCustomerServiceStartup.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSCustomerServiceStartup class.\n"
+  remarks: 
+  syntax: 
+    content: NSCustomerServiceStartup
+  example: 
+- uid: CRMScript.NetServer.NSCustomerServiceStartup.GetRecaptchaSiteKey()
+  commentId: M:CRMScript.NetServer.NSCustomerServiceStartup.GetRecaptchaSiteKey()
+  id: 'GetRecaptchaSiteKey()'
+  so.intellisense: NSCustomerServiceStartup.GetRecaptchaSiteKey
+  langs:
+  - crmscript
+  name: 'GetRecaptchaSiteKey()'
+  nameWithType: NSCustomerServiceStartup.GetRecaptchaSiteKey()
+  fullName: CRMScript.NetServer.NSCustomerServiceStartup.GetRecaptchaSiteKey()
+  type: Method
+  summary: # TODO
+  remarks: "\nThis value is taken from the web.config file\n"
+  syntax: 
+    content: String GetRecaptchaSiteKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A global reCAPTCHA site key, used with the google reCAPTCHA component."
+  example: 
+  - "\n<pre><code>NSCustomerServiceStartup thing;\nString recaptchaSiteKey = thing.GetRecaptchaSiteKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceStartup.GetTimezoneEnabled()
+  commentId: M:CRMScript.NetServer.NSCustomerServiceStartup.GetTimezoneEnabled()
+  id: 'GetTimezoneEnabled()'
+  so.intellisense: NSCustomerServiceStartup.GetTimezoneEnabled
+  langs:
+  - crmscript
+  name: 'GetTimezoneEnabled()'
+  nameWithType: NSCustomerServiceStartup.GetTimezoneEnabled()
+  fullName: CRMScript.NetServer.NSCustomerServiceStartup.GetTimezoneEnabled()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetTimezoneEnabled()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Is timezone enabled."
+  example: 
+  - "\n<pre><code>NSCustomerServiceStartup thing;\nBool timezoneEnabled = thing.GetTimezoneEnabled();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceStartup.GetTZOffset()
+  commentId: M:CRMScript.NetServer.NSCustomerServiceStartup.GetTZOffset()
+  id: 'GetTZOffset()'
+  so.intellisense: NSCustomerServiceStartup.GetTZOffset
+  langs:
+  - crmscript
+  name: 'GetTZOffset()'
+  nameWithType: NSCustomerServiceStartup.GetTZOffset()
+  fullName: CRMScript.NetServer.NSCustomerServiceStartup.GetTZOffset()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTZOffset()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The offset in minutes compared with UTC, calculated for DateTime.Now."
+  example: 
+  - "\n<pre><code>NSCustomerServiceStartup thing;\nInteger tZOffset = thing.GetTZOffset();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceStartup.SetRecaptchaSiteKey(String)
+  commentId: M:CRMScript.NetServer.NSCustomerServiceStartup.SetRecaptchaSiteKey(String)
+  id: 'SetRecaptchaSiteKey(String)'
+  so.intellisense: NSCustomerServiceStartup.SetRecaptchaSiteKey
+  langs:
+  - crmscript
+  name: 'SetRecaptchaSiteKey(String)'
+  nameWithType: NSCustomerServiceStartup.SetRecaptchaSiteKey(String)
+  fullName: CRMScript.NetServer.NSCustomerServiceStartup.SetRecaptchaSiteKey(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nThis value is taken from the web.config file\n"
+  syntax: 
+    content: Void SetRecaptchaSiteKey(String recaptchaSiteKey)
+    parameters:
+    - id: recaptchaSiteKey
+      type: CRMScript.Global.String
+      description: "A global reCAPTCHA site key, used with the google reCAPTCHA component."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCustomerServiceStartup thing;\nString recaptchaSiteKey;\nthing.SetRecaptchaSiteKey(recaptchaSiteKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceStartup.SetTimezoneEnabled(Bool)
+  commentId: M:CRMScript.NetServer.NSCustomerServiceStartup.SetTimezoneEnabled(Bool)
+  id: 'SetTimezoneEnabled(Bool)'
+  so.intellisense: NSCustomerServiceStartup.SetTimezoneEnabled
+  langs:
+  - crmscript
+  name: 'SetTimezoneEnabled(Bool)'
+  nameWithType: NSCustomerServiceStartup.SetTimezoneEnabled(Bool)
+  fullName: CRMScript.NetServer.NSCustomerServiceStartup.SetTimezoneEnabled(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTimezoneEnabled(Bool timezoneEnabled)
+    parameters:
+    - id: timezoneEnabled
+      type: CRMScript.Global.Bool
+      description: "Is timezone enabled."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCustomerServiceStartup thing;\nBool timezoneEnabled;\nthing.SetTimezoneEnabled(timezoneEnabled);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceStartup.SetTZOffset(Integer)
+  commentId: M:CRMScript.NetServer.NSCustomerServiceStartup.SetTZOffset(Integer)
+  id: 'SetTZOffset(Integer)'
+  so.intellisense: NSCustomerServiceStartup.SetTZOffset
+  langs:
+  - crmscript
+  name: 'SetTZOffset(Integer)'
+  nameWithType: NSCustomerServiceStartup.SetTZOffset(Integer)
+  fullName: CRMScript.NetServer.NSCustomerServiceStartup.SetTZOffset(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTZOffset(Integer tZOffset)
+    parameters:
+    - id: tZOffset
+      type: CRMScript.Global.Integer
+      description: "The offset in minutes compared with UTC, calculated for DateTime.Now."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCustomerServiceStartup thing;\nInteger tZOffset;\nthing.SetTZOffset(tZOffset);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSCustomerServiceStartup
+  commentId: T:CRMScript.NetServer.NSCustomerServiceStartup
+  isExternal: true
+  name: NSCustomerServiceStartup
+  nameWithType: NSCustomerServiceStartup
+  fullName: CRMScript.NetServer.NSCustomerServiceStartup
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

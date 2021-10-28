@@ -1,0 +1,175 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.TaskType
+  # Same as SuperOffice.Data.TaskType
+  commentId: T:CRMScript.NetServer.TaskType
+  id: TaskType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.TaskType.Unknown
+  - CRMScript.NetServer.TaskType.Appointment
+  - CRMScript.NetServer.TaskType.Document
+  - CRMScript.NetServer.TaskType.Email 
+  - CRMScript.NetServer.TaskType.Fax
+  - CRMScript.NetServer.TaskType.Phone
+  - CRMScript.NetServer.TaskType.ToDo
+  - CRMScript.NetServer.TaskType.MailMergeDraft
+  - CRMScript.NetServer.TaskType.MailMergeFinal
+  - CRMScript.NetServer.TaskType.Report
+  - CRMScript.NetServer.TaskType.SaintAll
+  name: TaskType
+  nameWithType: TaskType
+  fullName: CRMScript.NetServer.TaskType
+  type: Enum
+  summary: "Value for field record_type in table task. Controls icons used in GUI."
+- uid: CRMScript.NetServer.TaskType.Unknown
+  commentId: F:CRMScript.NetServer.TaskType.Unknown
+  id: TaskType.Unknown
+  langs:
+  - crmscript
+  name: TaskType.Unknown
+  nameWithType: TaskType.Unknown
+  fullName: CRMScript.NetServer.TaskType.Unknown
+  type: Field
+  summary: "\n0: This task is of an unknown/undecided type\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.TaskType
+- uid: CRMScript.NetServer.TaskType.Appointment
+  commentId: F:CRMScript.NetServer.TaskType.Appointment
+  id: TaskType.Appointment
+  langs:
+  - crmscript
+  name: TaskType.Appointment
+  nameWithType: TaskType.Appointment
+  fullName: CRMScript.NetServer.TaskType.Appointment
+  type: Field
+  summary: "\n1: The task is an appointment\n"
+  syntax: 
+    content: Appointment = 1
+    type: CRMScript.NetServer.TaskType
+- uid: CRMScript.NetServer.TaskType.Document
+  commentId: F:CRMScript.NetServer.TaskType.Document
+  id: TaskType.Document
+  langs:
+  - crmscript
+  name: TaskType.Document
+  nameWithType: TaskType.Document
+  fullName: CRMScript.NetServer.TaskType.Document
+  type: Field
+  summary: "\n2: The task is a document\n"
+  syntax: 
+    content: Document = 2
+    type: CRMScript.NetServer.TaskType
+- uid: CRMScript.NetServer.TaskType.Email
+  commentId: F:CRMScript.NetServer.TaskType.Email
+  id: TaskType.Email
+  langs:
+  - crmscript
+  name: TaskType.Email
+  nameWithType: TaskType.Email
+  fullName: CRMScript.NetServer.TaskType.Email
+  type: Field
+  summary: "\n3: The task is an email\n"
+  syntax: 
+    content: Email = 3
+    type: CRMScript.NetServer.TaskType
+- uid: CRMScript.NetServer.TaskType.Fax
+  commentId: F:CRMScript.NetServer.TaskType.Fax
+  id: TaskType.Fax
+  langs:
+  - crmscript
+  name: TaskType.Fax
+  nameWithType: TaskType.Fax
+  fullName: CRMScript.NetServer.TaskType.Fax
+  type: Field
+  summary: "\n4: The task is a fax\n"
+  syntax: 
+    content: Fax = 4
+    type: CRMScript.NetServer.TaskType
+- uid: CRMScript.NetServer.TaskType.Phone
+  commentId: F:CRMScript.NetServer.TaskType.Phone
+  id: TaskType.Phone
+  langs:
+  - crmscript
+  name: TaskType.Phone
+  nameWithType: TaskType.Phone
+  fullName: CRMScript.NetServer.TaskType.Phone
+  type: Field
+  summary: "\n5: The task is a phone call\n"
+  syntax: 
+    content: Phone = 5
+    type: CRMScript.NetServer.TaskType
+- uid: CRMScript.NetServer.TaskType.ToDo
+  commentId: F:CRMScript.NetServer.TaskType.ToDo
+  id: TaskType.ToDo
+  langs:
+  - crmscript
+  name: TaskType.ToDo
+  nameWithType: TaskType.ToDo
+  fullName: CRMScript.NetServer.TaskType.ToDo
+  type: Field
+  summary: "\n6: The task is a To-do\n"
+  syntax: 
+    content: ToDo = 6
+    type: CRMScript.NetServer.TaskType
+- uid: CRMScript.NetServer.TaskType.MailMergeDraft
+  commentId: F:CRMScript.NetServer.TaskType.MailMergeDraft
+  id: TaskType.MailMergeDraft
+  langs:
+  - crmscript
+  name: TaskType.MailMergeDraft
+  nameWithType: TaskType.MailMergeDraft
+  fullName: CRMScript.NetServer.TaskType.MailMergeDraft
+  type: Field
+  summary: "\n7: Mail merge draft document\n"
+  syntax: 
+    content: MailMergeDraft = 7
+    type: CRMScript.NetServer.TaskType
+- uid: CRMScript.NetServer.TaskType.MailMergeFinal
+  commentId: F:CRMScript.NetServer.TaskType.MailMergeFinal
+  id: TaskType.MailMergeFinal
+  langs:
+  - crmscript
+  name: TaskType.MailMergeFinal
+  nameWithType: TaskType.MailMergeFinal
+  fullName: CRMScript.NetServer.TaskType.MailMergeFinal
+  type: Field
+  summary: "\n8: Merged result of mail merge\n"
+  syntax: 
+    content: MailMergeFinal = 8
+    type: CRMScript.NetServer.TaskType
+- uid: CRMScript.NetServer.TaskType.Report
+  commentId: F:CRMScript.NetServer.TaskType.Report
+  id: TaskType.Report
+  langs:
+  - crmscript
+  name: TaskType.Report
+  nameWithType: TaskType.Report
+  fullName: CRMScript.NetServer.TaskType.Report
+  type: Field
+  summary: "\n9: Saved report run\n"
+  syntax: 
+    content: Report = 9
+    type: CRMScript.NetServer.TaskType
+- uid: CRMScript.NetServer.TaskType.SaintAll
+  commentId: F:CRMScript.NetServer.TaskType.SaintAll
+  id: TaskType.SaintAll
+  langs:
+  - crmscript
+  name: TaskType.SaintAll
+  nameWithType: TaskType.SaintAll
+  fullName: CRMScript.NetServer.TaskType.SaintAll
+  type: Field
+  summary: "\n10: All choice for Saint, every activity is recorded under this type as well as the specific type. This is NOT an acceptable value for an individual activity\n"
+  syntax: 
+    content: SaintAll = 10
+    type: CRMScript.NetServer.TaskType
+references:
+- uid: CRMScript.NetServer.TaskType
+  commentId: T:CRMScript.NetServer.TaskType
+  isExternal: true
+  name: TaskType
+  nameWithType: TaskType
+  fullName: CRMScript.NetServer.TaskType

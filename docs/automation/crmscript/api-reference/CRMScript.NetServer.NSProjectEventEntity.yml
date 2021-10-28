@@ -1,0 +1,1419 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSProjectEventEntity
+  commentId: T:CRMScript.NetServer.NSProjectEventEntity
+  id: NSProjectEventEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSProjectEventEntity.#ctor
+  - CRMScript.NetServer.NSProjectEventEntity.GetCreatedBy()
+  - CRMScript.NetServer.NSProjectEventEntity.GetCreatedDate()
+  - CRMScript.NetServer.NSProjectEventEntity.GetEnabled()
+  - CRMScript.NetServer.NSProjectEventEntity.GetEventDate()
+  - CRMScript.NetServer.NSProjectEventEntity.GetId()
+  - CRMScript.NetServer.NSProjectEventEntity.GetIsPublished()
+  - CRMScript.NetServer.NSProjectEventEntity.GetIsVisibleForCategories()
+  - CRMScript.NetServer.NSProjectEventEntity.GetIsVisibleForMembers()
+  - CRMScript.NetServer.NSProjectEventEntity.GetIsVisibleForPersonInterests()
+  - CRMScript.NetServer.NSProjectEventEntity.GetProjectEventId()
+  - CRMScript.NetServer.NSProjectEventEntity.GetProjectId()
+  - CRMScript.NetServer.NSProjectEventEntity.GetPublishFrom()
+  - CRMScript.NetServer.NSProjectEventEntity.GetPublishTo()
+  - CRMScript.NetServer.NSProjectEventEntity.GetPublishType()
+  - CRMScript.NetServer.NSProjectEventEntity.GetSignOff()
+  - CRMScript.NetServer.NSProjectEventEntity.GetSignOffConfirmationText()
+  - CRMScript.NetServer.NSProjectEventEntity.GetSignOffTaskEnable()
+  - CRMScript.NetServer.NSProjectEventEntity.GetSignOffTaskId()
+  - CRMScript.NetServer.NSProjectEventEntity.GetSignOffText()
+  - CRMScript.NetServer.NSProjectEventEntity.GetSignOffTriggersAssign()
+  - CRMScript.NetServer.NSProjectEventEntity.GetSignOn()
+  - CRMScript.NetServer.NSProjectEventEntity.GetSignOnConfirmationText()
+  - CRMScript.NetServer.NSProjectEventEntity.GetSignOnTaskEnable()
+  - CRMScript.NetServer.NSProjectEventEntity.GetSignOnTaskId()
+  - CRMScript.NetServer.NSProjectEventEntity.GetSignOnText()
+  - CRMScript.NetServer.NSProjectEventEntity.GetSignOnTriggersAssign()
+  - CRMScript.NetServer.NSProjectEventEntity.GetUpdatedBy()
+  - CRMScript.NetServer.NSProjectEventEntity.GetUpdatedDate()
+  - CRMScript.NetServer.NSProjectEventEntity.GetVisibleForCategories()
+  - CRMScript.NetServer.NSProjectEventEntity.GetVisibleForPersonInterests()
+  - CRMScript.NetServer.NSProjectEventEntity.SetCreatedBy(NSAssociate)
+  - CRMScript.NetServer.NSProjectEventEntity.SetCreatedDate(DateTime)
+  - CRMScript.NetServer.NSProjectEventEntity.SetEnabled(Bool)
+  - CRMScript.NetServer.NSProjectEventEntity.SetEventDate(DateTime)
+  - CRMScript.NetServer.NSProjectEventEntity.SetId(Integer)
+  - CRMScript.NetServer.NSProjectEventEntity.SetIsPublished(Bool)
+  - CRMScript.NetServer.NSProjectEventEntity.SetIsVisibleForCategories(Bool)
+  - CRMScript.NetServer.NSProjectEventEntity.SetIsVisibleForMembers(Bool)
+  - CRMScript.NetServer.NSProjectEventEntity.SetIsVisibleForPersonInterests(Bool)
+  - CRMScript.NetServer.NSProjectEventEntity.SetProjectEventId(Integer)
+  - CRMScript.NetServer.NSProjectEventEntity.SetProjectId(Integer)
+  - CRMScript.NetServer.NSProjectEventEntity.SetPublishFrom(DateTime)
+  - CRMScript.NetServer.NSProjectEventEntity.SetPublishTo(DateTime)
+  - CRMScript.NetServer.NSProjectEventEntity.SetPublishType(Integer)
+  - CRMScript.NetServer.NSProjectEventEntity.SetSignOff(Bool)
+  - CRMScript.NetServer.NSProjectEventEntity.SetSignOffConfirmationText(String)
+  - CRMScript.NetServer.NSProjectEventEntity.SetSignOffTaskEnable(Bool)
+  - CRMScript.NetServer.NSProjectEventEntity.SetSignOffTaskId(Integer)
+  - CRMScript.NetServer.NSProjectEventEntity.SetSignOffText(String)
+  - CRMScript.NetServer.NSProjectEventEntity.SetSignOffTriggersAssign(Bool)
+  - CRMScript.NetServer.NSProjectEventEntity.SetSignOn(Bool)
+  - CRMScript.NetServer.NSProjectEventEntity.SetSignOnConfirmationText(String)
+  - CRMScript.NetServer.NSProjectEventEntity.SetSignOnTaskEnable(Bool)
+  - CRMScript.NetServer.NSProjectEventEntity.SetSignOnTaskId(Integer)
+  - CRMScript.NetServer.NSProjectEventEntity.SetSignOnText(String)
+  - CRMScript.NetServer.NSProjectEventEntity.SetSignOnTriggersAssign(Bool)
+  - CRMScript.NetServer.NSProjectEventEntity.SetUpdatedBy(NSAssociate)
+  - CRMScript.NetServer.NSProjectEventEntity.SetUpdatedDate(DateTime)
+  - CRMScript.NetServer.NSProjectEventEntity.SetVisibleForCategories(NSMDOListItem[])
+  - CRMScript.NetServer.NSProjectEventEntity.SetVisibleForPersonInterests(NSMDOListItem[])
+  name: NSProjectEventEntity
+  nameWithType: NSProjectEventEntity
+  fullName: CRMScript.NetServer.NSProjectEventEntity
+  type: Class
+  summary: "\nThe ProjectEvent Service. The service implements all services working with the ProjectEvent object\n"
+  example: 
+- uid: CRMScript.NetServer.NSProjectEventEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSProjectEventEntity
+  langs:
+  - crmscript
+  name: NSProjectEventEntity()
+  nameWithType: NSProjectEventEntity.#ctor
+  fullName: CRMScript.NetServer.NSProjectEventEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSProjectEventEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSProjectEventEntity
+  example: 
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetCreatedBy()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetCreatedBy()
+  id: 'GetCreatedBy()'
+  so.intellisense: NSProjectEventEntity.GetCreatedBy
+  langs:
+  - crmscript
+  name: 'GetCreatedBy()'
+  nameWithType: NSProjectEventEntity.GetCreatedBy()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetCreatedBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetCreatedBy()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "The person that created the project event."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nNSAssociate createdBy = thing.GetCreatedBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetCreatedDate()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetCreatedDate()
+  id: 'GetCreatedDate()'
+  so.intellisense: NSProjectEventEntity.GetCreatedDate
+  langs:
+  - crmscript
+  name: 'GetCreatedDate()'
+  nameWithType: NSProjectEventEntity.GetCreatedDate()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetCreatedDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetCreatedDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nDateTime createdDate = thing.GetCreatedDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetEnabled()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetEnabled()
+  id: 'GetEnabled()'
+  so.intellisense: NSProjectEventEntity.GetEnabled
+  langs:
+  - crmscript
+  name: 'GetEnabled()'
+  nameWithType: NSProjectEventEntity.GetEnabled()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetEnabled()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetEnabled()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Is the event enabled."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nBool enabled = thing.GetEnabled();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetEventDate()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetEventDate()
+  id: 'GetEventDate()'
+  so.intellisense: NSProjectEventEntity.GetEventDate
+  langs:
+  - crmscript
+  name: 'GetEventDate()'
+  nameWithType: NSProjectEventEntity.GetEventDate()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetEventDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetEventDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Date of the event; publishing/visibility dates are in Publish, and restrictions are in AudienceVisibility."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nDateTime eventDate = thing.GetEventDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetId()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetId()
+  id: 'GetId()'
+  so.intellisense: NSProjectEventEntity.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSProjectEventEntity.GetId()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of the external event."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetIsPublished()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetIsPublished()
+  id: 'GetIsPublished()'
+  so.intellisense: NSProjectEventEntity.GetIsPublished
+  langs:
+  - crmscript
+  name: 'GetIsPublished()'
+  nameWithType: NSProjectEventEntity.GetIsPublished()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetIsPublished()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsPublished()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Publish to external users? When true, the event/project information is visible to external users through the Audience portal. You can control the publish duration using the PublishFrom/PublishTo properties."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nBool isPublished = thing.GetIsPublished();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetIsVisibleForCategories()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetIsVisibleForCategories()
+  id: 'GetIsVisibleForCategories()'
+  so.intellisense: NSProjectEventEntity.GetIsVisibleForCategories
+  langs:
+  - crmscript
+  name: 'GetIsVisibleForCategories()'
+  nameWithType: NSProjectEventEntity.GetIsVisibleForCategories()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetIsVisibleForCategories()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsVisibleForCategories()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nBool isVisibleForCategories = thing.GetIsVisibleForCategories();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetIsVisibleForMembers()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetIsVisibleForMembers()
+  id: 'GetIsVisibleForMembers()'
+  so.intellisense: NSProjectEventEntity.GetIsVisibleForMembers
+  langs:
+  - crmscript
+  name: 'GetIsVisibleForMembers()'
+  nameWithType: NSProjectEventEntity.GetIsVisibleForMembers()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetIsVisibleForMembers()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsVisibleForMembers()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nBool isVisibleForMembers = thing.GetIsVisibleForMembers();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetIsVisibleForPersonInterests()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetIsVisibleForPersonInterests()
+  id: 'GetIsVisibleForPersonInterests()'
+  so.intellisense: NSProjectEventEntity.GetIsVisibleForPersonInterests
+  langs:
+  - crmscript
+  name: 'GetIsVisibleForPersonInterests()'
+  nameWithType: NSProjectEventEntity.GetIsVisibleForPersonInterests()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetIsVisibleForPersonInterests()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsVisibleForPersonInterests()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nBool isVisibleForPersonInterests = thing.GetIsVisibleForPersonInterests();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetProjectEventId()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetProjectEventId()
+  id: 'GetProjectEventId()'
+  so.intellisense: NSProjectEventEntity.GetProjectEventId
+  langs:
+  - crmscript
+  name: 'GetProjectEventId()'
+  nameWithType: NSProjectEventEntity.GetProjectEventId()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetProjectEventId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetProjectEventId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nInteger projectEventId = thing.GetProjectEventId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetProjectId()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetProjectId()
+  id: 'GetProjectId()'
+  so.intellisense: NSProjectEventEntity.GetProjectId
+  langs:
+  - crmscript
+  name: 'GetProjectId()'
+  nameWithType: NSProjectEventEntity.GetProjectId()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetProjectId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetProjectId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The projectId for the project this projectEvent belongs to."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nInteger projectId = thing.GetProjectId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetPublishFrom()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetPublishFrom()
+  id: 'GetPublishFrom()'
+  so.intellisense: NSProjectEventEntity.GetPublishFrom
+  langs:
+  - crmscript
+  name: 'GetPublishFrom()'
+  nameWithType: NSProjectEventEntity.GetPublishFrom()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetPublishFrom()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetPublishFrom()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Publication valid from (inclusive)."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nDateTime publishFrom = thing.GetPublishFrom();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetPublishTo()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetPublishTo()
+  id: 'GetPublishTo()'
+  so.intellisense: NSProjectEventEntity.GetPublishTo
+  langs:
+  - crmscript
+  name: 'GetPublishTo()'
+  nameWithType: NSProjectEventEntity.GetPublishTo()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetPublishTo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetPublishTo()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Publication valid to (inclusive)."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nDateTime publishTo = thing.GetPublishTo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetPublishType()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetPublishType()
+  id: 'GetPublishType()'
+  so.intellisense: NSProjectEventEntity.GetPublishType
+  langs:
+  - crmscript
+  name: 'GetPublishType()'
+  nameWithType: NSProjectEventEntity.GetPublishType()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetPublishType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPublishType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Type of publishing action. See <xref href=\"CRMScript.NetServer.PublishType\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nInteger publishType = thing.GetPublishType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetSignOff()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetSignOff()
+  id: 'GetSignOff()'
+  so.intellisense: NSProjectEventEntity.GetSignOff
+  langs:
+  - crmscript
+  name: 'GetSignOff()'
+  nameWithType: NSProjectEventEntity.GetSignOff()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetSignOff()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetSignOff()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: Is Sign Off functionality enabled?
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nBool signOff = thing.GetSignOff();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetSignOffConfirmationText()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetSignOffConfirmationText()
+  id: 'GetSignOffConfirmationText()'
+  so.intellisense: NSProjectEventEntity.GetSignOffConfirmationText
+  langs:
+  - crmscript
+  name: 'GetSignOffConfirmationText()'
+  nameWithType: NSProjectEventEntity.GetSignOffConfirmationText()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetSignOffConfirmationText()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSignOffConfirmationText()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Text shown as confirmation text before accepting sign off."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nString signOffConfirmationText = thing.GetSignOffConfirmationText();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetSignOffTaskEnable()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetSignOffTaskEnable()
+  id: 'GetSignOffTaskEnable()'
+  so.intellisense: NSProjectEventEntity.GetSignOffTaskEnable
+  langs:
+  - crmscript
+  name: 'GetSignOffTaskEnable()'
+  nameWithType: NSProjectEventEntity.GetSignOffTaskEnable()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetSignOffTaskEnable()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetSignOffTaskEnable()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If not 0, a task should be created when the external user Signs Off an event."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nBool signOffTaskEnable = thing.GetSignOffTaskEnable();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetSignOffTaskId()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetSignOffTaskId()
+  id: 'GetSignOffTaskId()'
+  so.intellisense: NSProjectEventEntity.GetSignOffTaskId
+  langs:
+  - crmscript
+  name: 'GetSignOffTaskId()'
+  nameWithType: NSProjectEventEntity.GetSignOffTaskId()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetSignOffTaskId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSignOffTaskId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "If not 0, sign off should cause an Activity of this type to be registered."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nInteger signOffTaskId = thing.GetSignOffTaskId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetSignOffText()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetSignOffText()
+  id: 'GetSignOffText()'
+  so.intellisense: NSProjectEventEntity.GetSignOffText
+  langs:
+  - crmscript
+  name: 'GetSignOffText()'
+  nameWithType: NSProjectEventEntity.GetSignOffText()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetSignOffText()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSignOffText()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Default text for the activity created when signing off."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nString signOffText = thing.GetSignOffText();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetSignOffTriggersAssign()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetSignOffTriggersAssign()
+  id: 'GetSignOffTriggersAssign()'
+  so.intellisense: NSProjectEventEntity.GetSignOffTriggersAssign
+  langs:
+  - crmscript
+  name: 'GetSignOffTriggersAssign()'
+  nameWithType: NSProjectEventEntity.GetSignOffTriggersAssign()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetSignOffTriggersAssign()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetSignOffTriggersAssign()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If 1, the SignOff task should be created as an Assigned task, triggering the invitation dialog."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nBool signOffTriggersAssign = thing.GetSignOffTriggersAssign();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetSignOn()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetSignOn()
+  id: 'GetSignOn()'
+  so.intellisense: NSProjectEventEntity.GetSignOn
+  langs:
+  - crmscript
+  name: 'GetSignOn()'
+  nameWithType: NSProjectEventEntity.GetSignOn()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetSignOn()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetSignOn()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Is Sign On functionality enabled."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nBool signOn = thing.GetSignOn();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetSignOnConfirmationText()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetSignOnConfirmationText()
+  id: 'GetSignOnConfirmationText()'
+  so.intellisense: NSProjectEventEntity.GetSignOnConfirmationText
+  langs:
+  - crmscript
+  name: 'GetSignOnConfirmationText()'
+  nameWithType: NSProjectEventEntity.GetSignOnConfirmationText()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetSignOnConfirmationText()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSignOnConfirmationText()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Text shown as confirmation text before accepting sign on."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nString signOnConfirmationText = thing.GetSignOnConfirmationText();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetSignOnTaskEnable()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetSignOnTaskEnable()
+  id: 'GetSignOnTaskEnable()'
+  so.intellisense: NSProjectEventEntity.GetSignOnTaskEnable
+  langs:
+  - crmscript
+  name: 'GetSignOnTaskEnable()'
+  nameWithType: NSProjectEventEntity.GetSignOnTaskEnable()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetSignOnTaskEnable()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetSignOnTaskEnable()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If not 0, a task should be created when the external user Signs On to an event."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nBool signOnTaskEnable = thing.GetSignOnTaskEnable();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetSignOnTaskId()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetSignOnTaskId()
+  id: 'GetSignOnTaskId()'
+  so.intellisense: NSProjectEventEntity.GetSignOnTaskId
+  langs:
+  - crmscript
+  name: 'GetSignOnTaskId()'
+  nameWithType: NSProjectEventEntity.GetSignOnTaskId()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetSignOnTaskId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSignOnTaskId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "If not 0, sign on should cause an Activity of this type to be registered."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nInteger signOnTaskId = thing.GetSignOnTaskId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetSignOnText()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetSignOnText()
+  id: 'GetSignOnText()'
+  so.intellisense: NSProjectEventEntity.GetSignOnText
+  langs:
+  - crmscript
+  name: 'GetSignOnText()'
+  nameWithType: NSProjectEventEntity.GetSignOnText()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetSignOnText()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSignOnText()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Default text for the activity created when signing on."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nString signOnText = thing.GetSignOnText();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetSignOnTriggersAssign()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetSignOnTriggersAssign()
+  id: 'GetSignOnTriggersAssign()'
+  so.intellisense: NSProjectEventEntity.GetSignOnTriggersAssign
+  langs:
+  - crmscript
+  name: 'GetSignOnTriggersAssign()'
+  nameWithType: NSProjectEventEntity.GetSignOnTriggersAssign()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetSignOnTriggersAssign()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetSignOnTriggersAssign()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If 1, the SignOn task should be created as an Assigned task, triggering the invitation dialog."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nBool signOnTriggersAssign = thing.GetSignOnTriggersAssign();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetUpdatedBy()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetUpdatedBy()
+  id: 'GetUpdatedBy()'
+  so.intellisense: NSProjectEventEntity.GetUpdatedBy
+  langs:
+  - crmscript
+  name: 'GetUpdatedBy()'
+  nameWithType: NSProjectEventEntity.GetUpdatedBy()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetUpdatedBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetUpdatedBy()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "The person that last updated the project event."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nNSAssociate updatedBy = thing.GetUpdatedBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetUpdatedDate()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetUpdatedDate()
+  id: 'GetUpdatedDate()'
+  so.intellisense: NSProjectEventEntity.GetUpdatedDate
+  langs:
+  - crmscript
+  name: 'GetUpdatedDate()'
+  nameWithType: NSProjectEventEntity.GetUpdatedDate()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetUpdatedDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetUpdatedDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nDateTime updatedDate = thing.GetUpdatedDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetVisibleForCategories()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetVisibleForCategories()
+  id: 'GetVisibleForCategories()'
+  so.intellisense: NSProjectEventEntity.GetVisibleForCategories
+  langs:
+  - crmscript
+  name: 'GetVisibleForCategories()'
+  nameWithType: NSProjectEventEntity.GetVisibleForCategories()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetVisibleForCategories()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSMDOListItem[] GetVisibleForCategories()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSMDOListItem[]
+      description: "Array of categories that the event is visible for. MDO Table category."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nNSMDOListItem[] visibleForCategories = thing.GetVisibleForCategories();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.GetVisibleForPersonInterests()
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.GetVisibleForPersonInterests()
+  id: 'GetVisibleForPersonInterests()'
+  so.intellisense: NSProjectEventEntity.GetVisibleForPersonInterests
+  langs:
+  - crmscript
+  name: 'GetVisibleForPersonInterests()'
+  nameWithType: NSProjectEventEntity.GetVisibleForPersonInterests()
+  fullName: CRMScript.NetServer.NSProjectEventEntity.GetVisibleForPersonInterests()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSMDOListItem[] GetVisibleForPersonInterests()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSMDOListItem[]
+      description: "Array of person interests (MDO table persint) that this event is visible for."
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nNSMDOListItem[] visibleForPersonInterests = thing.GetVisibleForPersonInterests();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetCreatedBy(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetCreatedBy(NSAssociate)
+  id: 'SetCreatedBy(NSAssociate)'
+  so.intellisense: NSProjectEventEntity.SetCreatedBy
+  langs:
+  - crmscript
+  name: 'SetCreatedBy(NSAssociate)'
+  nameWithType: NSProjectEventEntity.SetCreatedBy(NSAssociate)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetCreatedBy(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCreatedBy(NSAssociate createdBy)
+    parameters:
+    - id: createdBy
+      type: CRMScript.NetServer.NSAssociate
+      description: "The person that created the project event."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nNSAssociate createdBy;\nthing.SetCreatedBy(createdBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetCreatedDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetCreatedDate(DateTime)
+  id: 'SetCreatedDate(DateTime)'
+  so.intellisense: NSProjectEventEntity.SetCreatedDate
+  langs:
+  - crmscript
+  name: 'SetCreatedDate(DateTime)'
+  nameWithType: NSProjectEventEntity.SetCreatedDate(DateTime)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetCreatedDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCreatedDate(DateTime createdDate)
+    parameters:
+    - id: createdDate
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nDateTime createdDate;\nthing.SetCreatedDate(createdDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetEnabled(Bool)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetEnabled(Bool)
+  id: 'SetEnabled(Bool)'
+  so.intellisense: NSProjectEventEntity.SetEnabled
+  langs:
+  - crmscript
+  name: 'SetEnabled(Bool)'
+  nameWithType: NSProjectEventEntity.SetEnabled(Bool)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetEnabled(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEnabled(Bool enabled)
+    parameters:
+    - id: enabled
+      type: CRMScript.Global.Bool
+      description: "Is the event enabled."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nBool enabled;\nthing.SetEnabled(enabled);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetEventDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetEventDate(DateTime)
+  id: 'SetEventDate(DateTime)'
+  so.intellisense: NSProjectEventEntity.SetEventDate
+  langs:
+  - crmscript
+  name: 'SetEventDate(DateTime)'
+  nameWithType: NSProjectEventEntity.SetEventDate(DateTime)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetEventDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEventDate(DateTime eventDate)
+    parameters:
+    - id: eventDate
+      type: CRMScript.Global.DateTime
+      description: "Date of the event; publishing/visibility dates are in Publish, and restrictions are in AudienceVisibility."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nDateTime eventDate;\nthing.SetEventDate(eventDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSProjectEventEntity.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSProjectEventEntity.SetId(Integer)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "ID of the external event."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nInteger id;\nthing.SetId(id);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetIsPublished(Bool)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetIsPublished(Bool)
+  id: 'SetIsPublished(Bool)'
+  so.intellisense: NSProjectEventEntity.SetIsPublished
+  langs:
+  - crmscript
+  name: 'SetIsPublished(Bool)'
+  nameWithType: NSProjectEventEntity.SetIsPublished(Bool)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetIsPublished(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsPublished(Bool isPublished)
+    parameters:
+    - id: isPublished
+      type: CRMScript.Global.Bool
+      description: "Publish to external users? When true, the event/project information is visible to external users through the Audience portal. You can control the publish duration using the PublishFrom/PublishTo properties."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nBool isPublished;\nthing.SetIsPublished(isPublished);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetIsVisibleForCategories(Bool)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetIsVisibleForCategories(Bool)
+  id: 'SetIsVisibleForCategories(Bool)'
+  so.intellisense: NSProjectEventEntity.SetIsVisibleForCategories
+  langs:
+  - crmscript
+  name: 'SetIsVisibleForCategories(Bool)'
+  nameWithType: NSProjectEventEntity.SetIsVisibleForCategories(Bool)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetIsVisibleForCategories(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsVisibleForCategories(Bool isVisibleForCategories)
+    parameters:
+    - id: isVisibleForCategories
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nBool isVisibleForCategories;\nthing.SetIsVisibleForCategories(isVisibleForCategories);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetIsVisibleForMembers(Bool)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetIsVisibleForMembers(Bool)
+  id: 'SetIsVisibleForMembers(Bool)'
+  so.intellisense: NSProjectEventEntity.SetIsVisibleForMembers
+  langs:
+  - crmscript
+  name: 'SetIsVisibleForMembers(Bool)'
+  nameWithType: NSProjectEventEntity.SetIsVisibleForMembers(Bool)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetIsVisibleForMembers(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsVisibleForMembers(Bool isVisibleForMembers)
+    parameters:
+    - id: isVisibleForMembers
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nBool isVisibleForMembers;\nthing.SetIsVisibleForMembers(isVisibleForMembers);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetIsVisibleForPersonInterests(Bool)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetIsVisibleForPersonInterests(Bool)
+  id: 'SetIsVisibleForPersonInterests(Bool)'
+  so.intellisense: NSProjectEventEntity.SetIsVisibleForPersonInterests
+  langs:
+  - crmscript
+  name: 'SetIsVisibleForPersonInterests(Bool)'
+  nameWithType: NSProjectEventEntity.SetIsVisibleForPersonInterests(Bool)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetIsVisibleForPersonInterests(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsVisibleForPersonInterests(Bool isVisibleForPersonInterests)
+    parameters:
+    - id: isVisibleForPersonInterests
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nBool isVisibleForPersonInterests;\nthing.SetIsVisibleForPersonInterests(isVisibleForPersonInterests);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetProjectEventId(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetProjectEventId(Integer)
+  id: 'SetProjectEventId(Integer)'
+  so.intellisense: NSProjectEventEntity.SetProjectEventId
+  langs:
+  - crmscript
+  name: 'SetProjectEventId(Integer)'
+  nameWithType: NSProjectEventEntity.SetProjectEventId(Integer)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetProjectEventId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjectEventId(Integer projectEventId)
+    parameters:
+    - id: projectEventId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nInteger projectEventId;\nthing.SetProjectEventId(projectEventId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetProjectId(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetProjectId(Integer)
+  id: 'SetProjectId(Integer)'
+  so.intellisense: NSProjectEventEntity.SetProjectId
+  langs:
+  - crmscript
+  name: 'SetProjectId(Integer)'
+  nameWithType: NSProjectEventEntity.SetProjectId(Integer)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetProjectId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjectId(Integer projectId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: "The projectId for the project this projectEvent belongs to."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nInteger projectId;\nthing.SetProjectId(projectId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetPublishFrom(DateTime)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetPublishFrom(DateTime)
+  id: 'SetPublishFrom(DateTime)'
+  so.intellisense: NSProjectEventEntity.SetPublishFrom
+  langs:
+  - crmscript
+  name: 'SetPublishFrom(DateTime)'
+  nameWithType: NSProjectEventEntity.SetPublishFrom(DateTime)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetPublishFrom(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPublishFrom(DateTime publishFrom)
+    parameters:
+    - id: publishFrom
+      type: CRMScript.Global.DateTime
+      description: "Publication valid from (inclusive)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nDateTime publishFrom;\nthing.SetPublishFrom(publishFrom);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetPublishTo(DateTime)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetPublishTo(DateTime)
+  id: 'SetPublishTo(DateTime)'
+  so.intellisense: NSProjectEventEntity.SetPublishTo
+  langs:
+  - crmscript
+  name: 'SetPublishTo(DateTime)'
+  nameWithType: NSProjectEventEntity.SetPublishTo(DateTime)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetPublishTo(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPublishTo(DateTime publishTo)
+    parameters:
+    - id: publishTo
+      type: CRMScript.Global.DateTime
+      description: "Publication valid to (inclusive)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nDateTime publishTo;\nthing.SetPublishTo(publishTo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetPublishType(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetPublishType(Integer)
+  id: 'SetPublishType(Integer)'
+  so.intellisense: NSProjectEventEntity.SetPublishType
+  langs:
+  - crmscript
+  name: 'SetPublishType(Integer)'
+  nameWithType: NSProjectEventEntity.SetPublishType(Integer)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetPublishType(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetPublishType(Integer publishType)
+    parameters:
+    - id: publishType
+      type: CRMScript.Global.Integer
+      description: "Type of publishing action. See <xref href=\"CRMScript.NetServer.PublishType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nInteger publishType;\nthing.SetPublishType(publishType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetSignOff(Bool)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetSignOff(Bool)
+  id: 'SetSignOff(Bool)'
+  so.intellisense: NSProjectEventEntity.SetSignOff
+  langs:
+  - crmscript
+  name: 'SetSignOff(Bool)'
+  nameWithType: NSProjectEventEntity.SetSignOff(Bool)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetSignOff(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSignOff(Bool signOff)
+    parameters:
+    - id: signOff
+      type: CRMScript.Global.Bool
+      description: Is Sign Off functionality enabled?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nBool signOff;\nthing.SetSignOff(signOff);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetSignOffConfirmationText(String)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetSignOffConfirmationText(String)
+  id: 'SetSignOffConfirmationText(String)'
+  so.intellisense: NSProjectEventEntity.SetSignOffConfirmationText
+  langs:
+  - crmscript
+  name: 'SetSignOffConfirmationText(String)'
+  nameWithType: NSProjectEventEntity.SetSignOffConfirmationText(String)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetSignOffConfirmationText(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSignOffConfirmationText(String signOffConfirmationText)
+    parameters:
+    - id: signOffConfirmationText
+      type: CRMScript.Global.String
+      description: "Text shown as confirmation text before accepting sign off."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nString signOffConfirmationText;\nthing.SetSignOffConfirmationText(signOffConfirmationText);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetSignOffTaskEnable(Bool)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetSignOffTaskEnable(Bool)
+  id: 'SetSignOffTaskEnable(Bool)'
+  so.intellisense: NSProjectEventEntity.SetSignOffTaskEnable
+  langs:
+  - crmscript
+  name: 'SetSignOffTaskEnable(Bool)'
+  nameWithType: NSProjectEventEntity.SetSignOffTaskEnable(Bool)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetSignOffTaskEnable(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSignOffTaskEnable(Bool signOffTaskEnable)
+    parameters:
+    - id: signOffTaskEnable
+      type: CRMScript.Global.Bool
+      description: If not 0, a task should be created when the external user Signs Off an event 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nBool signOffTaskEnable;\nthing.SetSignOffTaskEnable(signOffTaskEnable);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetSignOffTaskId(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetSignOffTaskId(Integer)
+  id: 'SetSignOffTaskId(Integer)'
+  so.intellisense: NSProjectEventEntity.SetSignOffTaskId
+  langs:
+  - crmscript
+  name: 'SetSignOffTaskId(Integer)'
+  nameWithType: NSProjectEventEntity.SetSignOffTaskId(Integer)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetSignOffTaskId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSignOffTaskId(Integer signOffTaskId)
+    parameters:
+    - id: signOffTaskId
+      type: CRMScript.Global.Integer
+      description: "If not 0, sign off should cause an Activity of this type to be registered."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nInteger signOffTaskId;\nthing.SetSignOffTaskId(signOffTaskId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetSignOffText(String)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetSignOffText(String)
+  id: 'SetSignOffText(String)'
+  so.intellisense: NSProjectEventEntity.SetSignOffText
+  langs:
+  - crmscript
+  name: 'SetSignOffText(String)'
+  nameWithType: NSProjectEventEntity.SetSignOffText(String)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetSignOffText(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSignOffText(String signOffText)
+    parameters:
+    - id: signOffText
+      type: CRMScript.Global.String
+      description: "Default text for the activity created when signing off."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nString signOffText;\nthing.SetSignOffText(signOffText);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetSignOffTriggersAssign(Bool)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetSignOffTriggersAssign(Bool)
+  id: 'SetSignOffTriggersAssign(Bool)'
+  so.intellisense: NSProjectEventEntity.SetSignOffTriggersAssign
+  langs:
+  - crmscript
+  name: 'SetSignOffTriggersAssign(Bool)'
+  nameWithType: NSProjectEventEntity.SetSignOffTriggersAssign(Bool)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetSignOffTriggersAssign(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSignOffTriggersAssign(Bool signOffTriggersAssign)
+    parameters:
+    - id: signOffTriggersAssign
+      type: CRMScript.Global.Bool
+      description: "If 1, the SignOff task should be created as an Assigned task, triggering the invitation dialog."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nBool signOffTriggersAssign;\nthing.SetSignOffTriggersAssign(signOffTriggersAssign);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetSignOn(Bool)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetSignOn(Bool)
+  id: 'SetSignOn(Bool)'
+  so.intellisense: NSProjectEventEntity.SetSignOn
+  langs:
+  - crmscript
+  name: 'SetSignOn(Bool)'
+  nameWithType: NSProjectEventEntity.SetSignOn(Bool)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetSignOn(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSignOn(Bool signOn)
+    parameters:
+    - id: signOn
+      type: CRMScript.Global.Bool
+      description: "Is Sign On functionality enabled."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nBool signOn;\nthing.SetSignOn(signOn);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetSignOnConfirmationText(String)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetSignOnConfirmationText(String)
+  id: 'SetSignOnConfirmationText(String)'
+  so.intellisense: NSProjectEventEntity.SetSignOnConfirmationText
+  langs:
+  - crmscript
+  name: 'SetSignOnConfirmationText(String)'
+  nameWithType: NSProjectEventEntity.SetSignOnConfirmationText(String)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetSignOnConfirmationText(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSignOnConfirmationText(String signOnConfirmationText)
+    parameters:
+    - id: signOnConfirmationText
+      type: CRMScript.Global.String
+      description: "Text shown as confirmation text before accepting sign on."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nString signOnConfirmationText;\nthing.SetSignOnConfirmationText(signOnConfirmationText);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetSignOnTaskEnable(Bool)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetSignOnTaskEnable(Bool)
+  id: 'SetSignOnTaskEnable(Bool)'
+  so.intellisense: NSProjectEventEntity.SetSignOnTaskEnable
+  langs:
+  - crmscript
+  name: 'SetSignOnTaskEnable(Bool)'
+  nameWithType: NSProjectEventEntity.SetSignOnTaskEnable(Bool)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetSignOnTaskEnable(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSignOnTaskEnable(Bool signOnTaskEnable)
+    parameters:
+    - id: signOnTaskEnable
+      type: CRMScript.Global.Bool
+      description: "If not 0, a task should be created when the external user Signs On to an event."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nBool signOnTaskEnable;\nthing.SetSignOnTaskEnable(signOnTaskEnable);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetSignOnTaskId(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetSignOnTaskId(Integer)
+  id: 'SetSignOnTaskId(Integer)'
+  so.intellisense: NSProjectEventEntity.SetSignOnTaskId
+  langs:
+  - crmscript
+  name: 'SetSignOnTaskId(Integer)'
+  nameWithType: NSProjectEventEntity.SetSignOnTaskId(Integer)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetSignOnTaskId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSignOnTaskId(Integer signOnTaskId)
+    parameters:
+    - id: signOnTaskId
+      type: CRMScript.Global.Integer
+      description: "If not 0, sign on should cause an Activity of this type to be registered."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nInteger signOnTaskId;\nthing.SetSignOnTaskId(signOnTaskId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetSignOnText(String)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetSignOnText(String)
+  id: 'SetSignOnText(String)'
+  so.intellisense: NSProjectEventEntity.SetSignOnText
+  langs:
+  - crmscript
+  name: 'SetSignOnText(String)'
+  nameWithType: NSProjectEventEntity.SetSignOnText(String)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetSignOnText(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSignOnText(String signOnText)
+    parameters:
+    - id: signOnText
+      type: CRMScript.Global.String
+      description: "Default text for the activity created when signing on."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nString signOnText;\nthing.SetSignOnText(signOnText);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetSignOnTriggersAssign(Bool)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetSignOnTriggersAssign(Bool)
+  id: 'SetSignOnTriggersAssign(Bool)'
+  so.intellisense: NSProjectEventEntity.SetSignOnTriggersAssign
+  langs:
+  - crmscript
+  name: 'SetSignOnTriggersAssign(Bool)'
+  nameWithType: NSProjectEventEntity.SetSignOnTriggersAssign(Bool)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetSignOnTriggersAssign(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSignOnTriggersAssign(Bool signOnTriggersAssign)
+    parameters:
+    - id: signOnTriggersAssign
+      type: CRMScript.Global.Bool
+      description: "If 1, the SignOn task should be created as an Assigned task, triggering the invitation dialog."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nBool signOnTriggersAssign;\nthing.SetSignOnTriggersAssign(signOnTriggersAssign);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetUpdatedBy(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetUpdatedBy(NSAssociate)
+  id: 'SetUpdatedBy(NSAssociate)'
+  so.intellisense: NSProjectEventEntity.SetUpdatedBy
+  langs:
+  - crmscript
+  name: 'SetUpdatedBy(NSAssociate)'
+  nameWithType: NSProjectEventEntity.SetUpdatedBy(NSAssociate)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetUpdatedBy(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedBy(NSAssociate updatedBy)
+    parameters:
+    - id:
+      type: CRMScript.NetServer.NSAssociate
+      description: "The person that last updated the project event."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nNSAssociate updatedBy;\nthing.SetUpdatedBy(updatedBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetUpdatedDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetUpdatedDate(DateTime)
+  id: 'SetUpdatedDate(DateTime)'
+  so.intellisense: NSProjectEventEntity.SetUpdatedDate
+  langs:
+  - crmscript
+  name: 'SetUpdatedDate(DateTime)'
+  nameWithType: NSProjectEventEntity.SetUpdatedDate(DateTime)
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetUpdatedDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedDate(DateTime updatedDate)
+    parameters:
+    - id:
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nDateTime updatedDate;\nthing.SetUpdatedDate(updatedDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetVisibleForCategories(NSMDOListItem[])
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetVisibleForCategories(NSMDOListItem[])
+  id: 'SetVisibleForCategories(NSMDOListItem[])'
+  so.intellisense: NSProjectEventEntity.SetVisibleForCategories
+  langs:
+  - crmscript
+  name: 'SetVisibleForCategories(NSMDOListItem[])'
+  nameWithType: NSProjectEventEntity.SetVisibleForCategories(NSMDOListItem[])
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetVisibleForCategories(NSMDOListItem[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetVisibleForCategories(NSMDOListItem[] visibleForCategories)
+    parameters:
+    - id: visibleForCategories
+      type: CRMScript.NetServer.NSMDOListItem[]
+      description: "Array of categories that the event is visible for. MDO Table category."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nNSMDOListItem[] visibleForCategories;\nthing.SetVisibleForCategories(visibleForCategories);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEventEntity.SetVisibleForPersonInterests(NSMDOListItem[])
+  commentId: M:CRMScript.NetServer.NSProjectEventEntity.SetVisibleForPersonInterests(NSMDOListItem[])
+  id: 'SetVisibleForPersonInterests(NSMDOListItem[])'
+  so.intellisense: NSProjectEventEntity.SetVisibleForPersonInterests
+  langs:
+  - crmscript
+  name: 'SetVisibleForPersonInterests(NSMDOListItem[])'
+  nameWithType: NSProjectEventEntity.SetVisibleForPersonInterests(NSMDOListItem[])
+  fullName: CRMScript.NetServer.NSProjectEventEntity.SetVisibleForPersonInterests(NSMDOListItem[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetVisibleForPersonInterests(NSMDOListItem[] visibleForPersonInterests)
+    parameters:
+    - id: visibleForPersonInterests
+      type: CRMScript.NetServer.NSMDOListItem[]
+      description: "Array of person interests (MDO table persint) that this event is visible for."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEventEntity thing;\nNSMDOListItem[] visibleForPersonInterests;\nthing.SetVisibleForPersonInterests(visibleForPersonInterests);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSProjectEventEntity
+  commentId: T:CRMScript.NetServer.NSProjectEventEntity
+  isExternal: true
+  name: NSProjectEventEntity
+  nameWithType: NSProjectEventEntity
+  fullName: CRMScript.NetServer.NSProjectEventEntity
+- uid: CRMScript.NetServer.NSAssociate
+  commentId: T:CRMScript.NetServer.NSAssociate
+  isExternal: true
+  name: NSAssociate
+  nameWithType: NSAssociate
+  fullName: CRMScript.NetServer.NSAssociate
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSMDOListItem[]
+  isExternal: true
+  name: NSMDOListItem[]
+  nameWithType: NSMDOListItem[]
+  fullName: CRMScript.NetServer.NSMDOListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSMDOListItem
+    isExternal: true
+    name: NSMDOListItem
+    nameWithType: NSMDOListItem
+    fullName: CRMScript.NetServer.NSMDOListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSMDOListItem
+  commentId: T:CRMScript.NetServer.NSMDOListItem
+  isExternal: true
+  name: NSMDOListItem
+  nameWithType: NSMDOListItem
+  fullName: CRMScript.NetServer.NSMDOListItem
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.PublishType
+  commentId: T:CRMScript.NetServer.PublishType
+  isExternal: true
+  name: PublishType
+  nameWithType: PublishType
+  fullName: CRMScript.NetServer.PublishType

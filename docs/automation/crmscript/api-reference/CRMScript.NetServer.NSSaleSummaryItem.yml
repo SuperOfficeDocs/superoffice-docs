@@ -1,0 +1,514 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSSaleSummaryItem
+  commentId: T:CRMScript.NetServer.NSSaleSummaryItem
+  id: NSSaleSummaryItem
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSSaleSummaryItem.#ctor
+  - CRMScript.NetServer.NSSaleSummaryItem.GetAmount()
+  - CRMScript.NetServer.NSSaleSummaryItem.GetAmountInBaseCurrency()
+  - CRMScript.NetServer.NSSaleSummaryItem.GetCompleted()
+  - CRMScript.NetServer.NSSaleSummaryItem.GetCurrency()
+  - CRMScript.NetServer.NSSaleSummaryItem.GetHeading()
+  - CRMScript.NetServer.NSSaleSummaryItem.GetProbability()
+  - CRMScript.NetServer.NSSaleSummaryItem.GetRegistered()
+  - CRMScript.NetServer.NSSaleSummaryItem.GetSaleDate()
+  - CRMScript.NetServer.NSSaleSummaryItem.GetSaleId()
+  - CRMScript.NetServer.NSSaleSummaryItem.GetStatus()
+  - CRMScript.NetServer.NSSaleSummaryItem.SetAmount(Float)
+  - CRMScript.NetServer.NSSaleSummaryItem.SetAmountInBaseCurrency(Float)
+  - CRMScript.NetServer.NSSaleSummaryItem.SetCompleted(Integer)
+  - CRMScript.NetServer.NSSaleSummaryItem.SetCurrency(String)
+  - CRMScript.NetServer.NSSaleSummaryItem.SetHeading(String)
+  - CRMScript.NetServer.NSSaleSummaryItem.SetProbability(Integer)
+  - CRMScript.NetServer.NSSaleSummaryItem.SetRegistered(DateTime)
+  - CRMScript.NetServer.NSSaleSummaryItem.SetSaleDate(DateTime)
+  - CRMScript.NetServer.NSSaleSummaryItem.SetSaleId(Integer)
+  - CRMScript.NetServer.NSSaleSummaryItem.SetStatus(Integer)
+  name: NSSaleSummaryItem
+  nameWithType: NSSaleSummaryItem
+  fullName: CRMScript.NetServer.NSSaleSummaryItem
+  type: Class
+  summary: "\nSale Summary item.\n"
+  example: 
+- uid: CRMScript.NetServer.NSSaleSummaryItem.#ctor
+  commentId: M:CRMScript.NetServer.NSSaleSummaryItem.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSSaleSummaryItem
+  langs:
+  - crmscript
+  name: NSSaleSummaryItem()
+  nameWithType: NSSaleSummaryItem.#ctor
+  fullName: CRMScript.NetServer.NSSaleSummaryItem.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSSaleSummaryItem class.\n"
+  remarks: 
+  syntax: 
+    content: NSSaleSummaryItem
+  example: 
+- uid: CRMScript.NetServer.NSSaleSummaryItem.GetAmount()
+  commentId: M:CRMScript.NetServer.NSSaleSummaryItem.GetAmount()
+  id: 'GetAmount()'
+  so.intellisense: NSSaleSummaryItem.GetAmount
+  langs:
+  - crmscript
+  name: 'GetAmount()'
+  nameWithType: NSSaleSummaryItem.GetAmount()
+  fullName: CRMScript.NetServer.NSSaleSummaryItem.GetAmount()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetAmount()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Total sale amount."
+  example: 
+  - "\n<pre><code>NSSaleSummaryItem thing;\nFloat amount = thing.GetAmount();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummaryItem.GetAmountInBaseCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleSummaryItem.GetAmountInBaseCurrency()
+  id: 'GetAmountInBaseCurrency()'
+  so.intellisense: NSSaleSummaryItem.GetAmountInBaseCurrency
+  langs:
+  - crmscript
+  name: 'GetAmountInBaseCurrency()'
+  nameWithType: NSSaleSummaryItem.GetAmountInBaseCurrency()
+  fullName: CRMScript.NetServer.NSSaleSummaryItem.GetAmountInBaseCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetAmountInBaseCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Sale amount converted to the base currency."
+  example: 
+  - "\n<pre><code>NSSaleSummaryItem thing;\nFloat amountInBaseCurrency = thing.GetAmountInBaseCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummaryItem.GetCompleted()
+  commentId: M:CRMScript.NetServer.NSSaleSummaryItem.GetCompleted()
+  id: 'GetCompleted()'
+  so.intellisense: NSSaleSummaryItem.GetCompleted
+  langs:
+  - crmscript
+  name: 'GetCompleted()'
+  nameWithType: NSSaleSummaryItem.GetCompleted()
+  fullName: CRMScript.NetServer.NSSaleSummaryItem.GetCompleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCompleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The Completed state. NotStarted(1) or Completed(3). See <xref href=\"CRMScript.NetServer.SaleStatus\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSSaleSummaryItem thing;\nInteger completed = thing.GetCompleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummaryItem.GetCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleSummaryItem.GetCurrency()
+  id: 'GetCurrency()'
+  so.intellisense: NSSaleSummaryItem.GetCurrency
+  langs:
+  - crmscript
+  name: 'GetCurrency()'
+  nameWithType: NSSaleSummaryItem.GetCurrency()
+  fullName: CRMScript.NetServer.NSSaleSummaryItem.GetCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "NSCurrency the sale amount is in."
+  example: 
+  - "\n<pre><code>NSSaleSummaryItem thing;\nString currency = thing.GetCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummaryItem.GetHeading()
+  commentId: M:CRMScript.NetServer.NSSaleSummaryItem.GetHeading()
+  id: 'GetHeading()'
+  so.intellisense: NSSaleSummaryItem.GetHeading
+  langs:
+  - crmscript
+  name: 'GetHeading()'
+  nameWithType: NSSaleSummaryItem.GetHeading()
+  fullName: CRMScript.NetServer.NSSaleSummaryItem.GetHeading()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetHeading()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Sale heading (short description?)."
+  example: 
+  - "\n<pre><code>NSSaleSummaryItem thing;\nString heading = thing.GetHeading();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummaryItem.GetProbability()
+  commentId: M:CRMScript.NetServer.NSSaleSummaryItem.GetProbability()
+  id: 'GetProbability()'
+  so.intellisense: NSSaleSummaryItem.GetProbability
+  langs:
+  - crmscript
+  name: 'GetProbability()'
+  nameWithType: NSSaleSummaryItem.GetProbability()
+  fullName: CRMScript.NetServer.NSSaleSummaryItem.GetProbability()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetProbability()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Probability of sale success in percent (0-100)."
+  example: 
+  - "\n<pre><code>NSSaleSummaryItem thing;\nInteger probability = thing.GetProbability();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummaryItem.GetRegistered()
+  commentId: M:CRMScript.NetServer.NSSaleSummaryItem.GetRegistered()
+  id: 'GetRegistered()'
+  so.intellisense: NSSaleSummaryItem.GetRegistered
+  langs:
+  - crmscript
+  name: 'GetRegistered()'
+  nameWithType: NSSaleSummaryItem.GetRegistered()
+  fullName: CRMScript.NetServer.NSSaleSummaryItem.GetRegistered()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetRegistered()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Registered date."
+  example: 
+  - "\n<pre><code>NSSaleSummaryItem thing;\nDateTime registered = thing.GetRegistered();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummaryItem.GetSaleDate()
+  commentId: M:CRMScript.NetServer.NSSaleSummaryItem.GetSaleDate()
+  id: 'GetSaleDate()'
+  so.intellisense: NSSaleSummaryItem.GetSaleDate
+  langs:
+  - crmscript
+  name: 'GetSaleDate()'
+  nameWithType: NSSaleSummaryItem.GetSaleDate()
+  fullName: CRMScript.NetServer.NSSaleSummaryItem.GetSaleDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetSaleDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Expected sales date."
+  example: 
+  - "\n<pre><code>NSSaleSummaryItem thing;\nDateTime saleDate = thing.GetSaleDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummaryItem.GetSaleId()
+  commentId: M:CRMScript.NetServer.NSSaleSummaryItem.GetSaleId()
+  id: 'GetSaleId()'
+  so.intellisense: NSSaleSummaryItem.GetSaleId
+  langs:
+  - crmscript
+  name: 'GetSaleId()'
+  nameWithType: NSSaleSummaryItem.GetSaleId()
+  fullName: CRMScript.NetServer.NSSaleSummaryItem.GetSaleId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSaleId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSSaleSummaryItem thing;\nInteger saleId = thing.GetSaleId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummaryItem.GetStatus()
+  commentId: M:CRMScript.NetServer.NSSaleSummaryItem.GetStatus()
+  id: 'GetStatus()'
+  so.intellisense: NSSaleSummaryItem.GetStatus
+  langs:
+  - crmscript
+  name: 'GetStatus()'
+  nameWithType: NSSaleSummaryItem.GetStatus()
+  fullName: CRMScript.NetServer.NSSaleSummaryItem.GetStatus()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetStatus()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The sale's status, indicating whether the sale is open(1), sold(2) or lost(3). See <xref href=\"CRMScript.NetServer.SaleStatus\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSSaleSummaryItem thing;\nInteger status = thing.GetStatus();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummaryItem.SetAmount(Float)
+  commentId: M:CRMScript.NetServer.NSSaleSummaryItem.SetAmount(Float)
+  id: 'SetAmount(Float)'
+  so.intellisense: NSSaleSummaryItem.SetAmount
+  langs:
+  - crmscript
+  name: 'SetAmount(Float)'
+  nameWithType: NSSaleSummaryItem.SetAmount(Float)
+  fullName: CRMScript.NetServer.NSSaleSummaryItem.SetAmount(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAmount(Float amount)
+    parameters:
+    - id: amount
+      type: CRMScript.Global.Float
+      description: "Total sale amount."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummaryItem thing;\nFloat amount;\nthing.SetAmount(amount);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummaryItem.SetAmountInBaseCurrency(Float)
+  commentId: M:CRMScript.NetServer.NSSaleSummaryItem.SetAmountInBaseCurrency(Float)
+  id: 'SetAmountInBaseCurrency(Float)'
+  so.intellisense: NSSaleSummaryItem.SetAmountInBaseCurrency
+  langs:
+  - crmscript
+  name: 'SetAmountInBaseCurrency(Float)'
+  nameWithType: NSSaleSummaryItem.SetAmountInBaseCurrency(Float)
+  fullName: CRMScript.NetServer.NSSaleSummaryItem.SetAmountInBaseCurrency(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAmountInBaseCurrency(Float amountInBaseCurrency)
+    parameters:
+    - id: amountInBaseCurrency
+      type: CRMScript.Global.Float
+      description: "Sale amount converted to the base currency."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummaryItem thing;\nFloat amountInBaseCurrency;\nthing.SetAmountInBaseCurrency(amountInBaseCurrency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummaryItem.SetCompleted(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleSummaryItem.SetCompleted(Integer)
+  id: 'SetCompleted(Integer)'
+  so.intellisense: NSSaleSummaryItem.SetCompleted
+  langs:
+  - crmscript
+  name: 'SetCompleted(Integer)'
+  nameWithType: NSSaleSummaryItem.SetCompleted(Integer)
+  fullName: CRMScript.NetServer.NSSaleSummaryItem.SetCompleted(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCompleted(Integer completed)
+    parameters:
+    - id: completed
+      type: CRMScript.Global.Integer
+      description: "The Completed state. NotStarted(1) or Completed(3)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummaryItem thing;\nInteger completed;\nthing.SetCompleted(completed);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummaryItem.SetCurrency(String)
+  commentId: M:CRMScript.NetServer.NSSaleSummaryItem.SetCurrency(String)
+  id: 'SetCurrency(String)'
+  so.intellisense: NSSaleSummaryItem.SetCurrency
+  langs:
+  - crmscript
+  name: 'SetCurrency(String)'
+  nameWithType: NSSaleSummaryItem.SetCurrency(String)
+  fullName: CRMScript.NetServer.NSSaleSummaryItem.SetCurrency(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCurrency(String currency)
+    parameters:
+    - id: currency
+      type: CRMScript.Global.String
+      description: "NSCurrency the sale amount is in."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummaryItem thing;\nString currency;\nthing.SetCurrency(currency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummaryItem.SetHeading(String)
+  commentId: M:CRMScript.NetServer.NSSaleSummaryItem.SetHeading(String)
+  id: 'SetHeading(String)'
+  so.intellisense: NSSaleSummaryItem.SetHeading
+  langs:
+  - crmscript
+  name: 'SetHeading(String)'
+  nameWithType: NSSaleSummaryItem.SetHeading(String)
+  fullName: CRMScript.NetServer.NSSaleSummaryItem.SetHeading(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetHeading(String heading)
+    parameters:
+    - id: heading
+      type: CRMScript.Global.String
+      description: "Sale heading (short description?)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummaryItem thing;\nString heading;\nthing.SetHeading(heading);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummaryItem.SetProbability(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleSummaryItem.SetProbability(Integer)
+  id: 'SetProbability(Integer)'
+  so.intellisense: NSSaleSummaryItem.SetProbability
+  langs:
+  - crmscript
+  name: 'SetProbability(Integer)'
+  nameWithType: NSSaleSummaryItem.SetProbability(Integer)
+  fullName: CRMScript.NetServer.NSSaleSummaryItem.SetProbability(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProbability(Integer probability)
+    parameters:
+    - id: probability
+      type: CRMScript.Global.Integer
+      description: "Probability of sale success in percent (0-100)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummaryItem thing;\nInteger probability;\nthing.SetProbability(probability);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummaryItem.SetRegistered(DateTime)
+  commentId: M:CRMScript.NetServer.NSSaleSummaryItem.SetRegistered(DateTime)
+  id: 'SetRegistered(DateTime)'
+  so.intellisense: NSSaleSummaryItem.SetRegistered
+  langs:
+  - crmscript
+  name: 'SetRegistered(DateTime)'
+  nameWithType: NSSaleSummaryItem.SetRegistered(DateTime)
+  fullName: CRMScript.NetServer.NSSaleSummaryItem.SetRegistered(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRegistered(DateTime registered)
+    parameters:
+    - id: registered
+      type: CRMScript.Global.DateTime
+      description: "Registered date."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummaryItem thing;\nDateTime registered;\nthing.SetRegistered(registered);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummaryItem.SetSaleDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSSaleSummaryItem.SetSaleDate(DateTime)
+  id: 'SetSaleDate(DateTime)'
+  so.intellisense: NSSaleSummaryItem.SetSaleDate
+  langs:
+  - crmscript
+  name: 'SetSaleDate(DateTime)'
+  nameWithType: NSSaleSummaryItem.SetSaleDate(DateTime)
+  fullName: CRMScript.NetServer.NSSaleSummaryItem.SetSaleDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSaleDate(DateTime )
+    parameters:
+    - id: saleDate
+      type: CRMScript.Global.DateTime
+      description: "Expected sales date."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummaryItem thing;\nDateTime saleDate;\nthing.SetSaleDate(saleDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummaryItem.SetSaleId(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleSummaryItem.SetSaleId(Integer)
+  id: 'SetSaleId(Integer)'
+  so.intellisense: NSSaleSummaryItem.SetSaleId
+  langs:
+  - crmscript
+  name: 'SetSaleId(Integer)'
+  nameWithType: NSSaleSummaryItem.SetSaleId(Integer)
+  fullName: CRMScript.NetServer.NSSaleSummaryItem.SetSaleId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSaleId(Integer saleId)
+    parameters:
+    - id: saleId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummaryItem thing;\nInteger saleId;\nthing.SetSaleId(saleId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummaryItem.SetStatus(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleSummaryItem.SetStatus(Integer)
+  id: 'SetStatus(Integer)'
+  so.intellisense: NSSaleSummaryItem.SetStatus
+  langs:
+  - crmscript
+  name: 'SetStatus(Integer)'
+  nameWithType: NSSaleSummaryItem.SetStatus(Integer)
+  fullName: CRMScript.NetServer.NSSaleSummaryItem.SetStatus(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetStatus(Integer status)
+    parameters:
+    - id: status
+      type: CRMScript.Global.Integer
+      description: "The sale's status, indicating whether the sale is open(1), sold(2) or lost(3). See <xref href=\"CRMScript.NetServer.SaleStatus\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummaryItem thing;\nInteger status;\nthing.SetStatus(status);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSSaleSummaryItem
+  commentId: T:CRMScript.NetServer.NSSaleSummaryItem
+  isExternal: true
+  name: NSSaleSummaryItem
+  nameWithType: NSSaleSummaryItem
+  fullName: CRMScript.NetServer.NSSaleSummaryItem
+- uid: CRMScript.Global.Float
+  commentId: T:CRMScript.Global.Float
+  isExternal: true
+  name: Float
+  nameWithType: Float
+  fullName: CRMScript.Global.Float
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.SaleStatus
+  commentId: T:CRMScript.NetServer.SaleStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SaleStatus
+  nameWithType: SaleStatus
+  fullName: CRMScript.NetServer.SaleStatus

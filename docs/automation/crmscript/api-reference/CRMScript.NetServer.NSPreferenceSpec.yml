@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSPreferenceSpec
+  commentId: T:CRMScript.NetServer.NSPreferenceSpec
+  id: NSPreferenceSpec
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSPreferenceSpec.#ctor
+  - CRMScript.NetServer.NSPreferenceSpec.GetKey()
+  - CRMScript.NetServer.NSPreferenceSpec.GetSection()
+  - CRMScript.NetServer.NSPreferenceSpec.SetKey(String)
+  - CRMScript.NetServer.NSPreferenceSpec.SetSection(String)
+  name: NSPreferenceSpec
+  nameWithType: NSPreferenceSpec
+  fullName: CRMScript.NetServer.NSPreferenceSpec
+  type: Class
+  summary: "\nPreference specification, consisting of the section name and key name.\n"
+  example: 
+- uid: CRMScript.NetServer.NSPreferenceSpec.#ctor
+  commentId: M:CRMScript.NetServer.NSPreferenceSpec.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSPreferenceSpec
+  langs:
+  - crmscript
+  name: NSPreferenceSpec()
+  nameWithType: NSPreferenceSpec.#ctor
+  fullName: CRMScript.NetServer.NSPreferenceSpec.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSPreferenceSpec class.\n"
+  remarks: 
+  syntax: 
+    content: NSPreferenceSpec
+  example: 
+- uid: CRMScript.NetServer.NSPreferenceSpec.GetKey()
+  commentId: M:CRMScript.NetServer.NSPreferenceSpec.GetKey()
+  id: 'GetKey()'
+  so.intellisense: NSPreferenceSpec.GetKey
+  langs:
+  - crmscript
+  name: 'GetKey()'
+  nameWithType: NSPreferenceSpec.GetKey()
+  fullName: CRMScript.NetServer.NSPreferenceSpec.GetKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Preference key name."
+  example: 
+  - "\n<pre><code>NSPreferenceSpec thing;\nString key = thing.GetKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceSpec.GetSection()
+  commentId: M:CRMScript.NetServer.NSPreferenceSpec.GetSection()
+  id: 'GetSection()'
+  so.intellisense: NSPreferenceSpec.GetSection
+  langs:
+  - crmscript
+  name: 'GetSection()'
+  nameWithType: NSPreferenceSpec.GetSection()
+  fullName: CRMScript.NetServer.NSPreferenceSpec.GetSection()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSection()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Preference section name."
+  example: 
+  - "\n<pre><code>NSPreferenceSpec thing;\nString section = thing.GetSection();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceSpec.SetKey(String)
+  commentId: M:CRMScript.NetServer.NSPreferenceSpec.SetKey(String)
+  id: 'SetKey(String)'
+  so.intellisense: NSPreferenceSpec.SetKey
+  langs:
+  - crmscript
+  name: 'SetKey(String)'
+  nameWithType: NSPreferenceSpec.SetKey(String)
+  fullName: CRMScript.NetServer.NSPreferenceSpec.SetKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetKey(String key)
+    parameters:
+    - id: key
+      type: CRMScript.Global.String
+      description: "Preference key name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreferenceSpec thing;\nString key;\nthing.SetKey(key);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceSpec.SetSection(String)
+  commentId: M:CRMScript.NetServer.NSPreferenceSpec.SetSection(String)
+  id: 'SetSection(String)'
+  so.intellisense: NSPreferenceSpec.SetSection
+  langs:
+  - crmscript
+  name: 'SetSection(String)'
+  nameWithType: NSPreferenceSpec.SetSection(String)
+  fullName: CRMScript.NetServer.NSPreferenceSpec.SetSection(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSection(String section)
+    parameters:
+    - id: section
+      type: CRMScript.Global.String
+      description: "Preference section name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreferenceSpec thing;\nString section;\nthing.SetSection(section);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSPreferenceSpec
+  commentId: T:CRMScript.NetServer.NSPreferenceSpec
+  isExternal: true
+  name: NSPreferenceSpec
+  nameWithType: NSPreferenceSpec
+  fullName: CRMScript.NetServer.NSPreferenceSpec
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

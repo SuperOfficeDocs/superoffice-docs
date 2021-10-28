@@ -1,0 +1,319 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSOutgoingMessage
+  commentId: T:CRMScript.NetServer.NSOutgoingMessage
+  id: NSOutgoingMessage
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSOutgoingMessage.#ctor
+  - CRMScript.NetServer.NSOutgoingMessage.GetContent()
+  - CRMScript.NetServer.NSOutgoingMessage.GetFormat()
+  - CRMScript.NetServer.NSOutgoingMessage.GetFrom()
+  - CRMScript.NetServer.NSOutgoingMessage.GetParentMessagingId()
+  - CRMScript.NetServer.NSOutgoingMessage.GetSuggestedSessionKey()
+  - CRMScript.NetServer.NSOutgoingMessage.GetTo()
+  - CRMScript.NetServer.NSOutgoingMessage.SetContent(String)
+  - CRMScript.NetServer.NSOutgoingMessage.SetFormat(String)
+  - CRMScript.NetServer.NSOutgoingMessage.SetFrom(String)
+  - CRMScript.NetServer.NSOutgoingMessage.SetParentMessagingId(Integer)
+  - CRMScript.NetServer.NSOutgoingMessage.SetSuggestedSessionKey(String)
+  - CRMScript.NetServer.NSOutgoingMessage.SetTo(String)
+  name: NSOutgoingMessage
+  nameWithType: NSOutgoingMessage
+  fullName: CRMScript.NetServer.NSOutgoingMessage
+  type: Class
+  summary: "\nDetails about a message to be sent.\n"
+  example: 
+- uid: CRMScript.NetServer.NSOutgoingMessage.#ctor
+  commentId: M:CRMScript.NetServer.NSOutgoingMessage.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSOutgoingMessage
+  langs:
+  - crmscript
+  name: NSOutgoingMessage()
+  nameWithType: NSOutgoingMessage.#ctor
+  fullName: CRMScript.NetServer.NSOutgoingMessage.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSOutgoingMessage class.\n"
+  remarks: 
+  syntax: 
+    content: NSOutgoingMessage
+  example: 
+- uid: CRMScript.NetServer.NSOutgoingMessage.GetContent()
+  commentId: M:CRMScript.NetServer.NSOutgoingMessage.GetContent()
+  id: 'GetContent()'
+  so.intellisense: NSOutgoingMessage.GetContent
+  langs:
+  - crmscript
+  name: 'GetContent()'
+  nameWithType: NSOutgoingMessage.GetContent()
+  fullName: CRMScript.NetServer.NSOutgoingMessage.GetContent()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetContent()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Content, or body, of the message."
+  example: 
+  - "\n<pre><code>NSOutgoingMessage thing;\nString content = thing.GetContent();</code></pre>\n"
+- uid: CRMScript.NetServer.NSOutgoingMessage.GetFormat()
+  commentId: M:CRMScript.NetServer.NSOutgoingMessage.GetFormat()
+  id: 'GetFormat()'
+  so.intellisense: NSOutgoingMessage.GetFormat
+  langs:
+  - crmscript
+  name: 'GetFormat()'
+  nameWithType: NSOutgoingMessage.GetFormat()
+  fullName: CRMScript.NetServer.NSOutgoingMessage.GetFormat()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFormat()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Format of content."
+  example: 
+  - "\n<pre><code>NSOutgoingMessage thing;\nString format = thing.GetFormat();</code></pre>\n"
+- uid: CRMScript.NetServer.NSOutgoingMessage.GetFrom()
+  commentId: M:CRMScript.NetServer.NSOutgoingMessage.GetFrom()
+  id: 'GetFrom()'
+  so.intellisense: NSOutgoingMessage.GetFrom
+  langs:
+  - crmscript
+  name: 'GetFrom()'
+  nameWithType: NSOutgoingMessage.GetFrom()
+  fullName: CRMScript.NetServer.NSOutgoingMessage.GetFrom()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFrom()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Who the message is from.  This can vary from provider to provider and can for SMS typically be a phone number or a string.  This is mail address on the form of an e-mail."
+  example: 
+  - "\n<pre><code>NSOutgoingMessage thing;\nString from = thing.GetFrom();</code></pre>\n"
+- uid: CRMScript.NetServer.NSOutgoingMessage.GetParentMessagingId()
+  commentId: M:CRMScript.NetServer.NSOutgoingMessage.GetParentMessagingId()
+  id: 'GetParentMessagingId()'
+  so.intellisense: NSOutgoingMessage.GetParentMessagingId
+  langs:
+  - crmscript
+  name: 'GetParentMessagingId()'
+  nameWithType: NSOutgoingMessage.GetParentMessagingId()
+  fullName: CRMScript.NetServer.NSOutgoingMessage.GetParentMessagingId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetParentMessagingId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID to the previous outgoing message related to this one. Used from message threading."
+  example: 
+  - "\n<pre><code>NSOutgoingMessage thing;\nInteger parentMessagingId = thing.GetParentMessagingId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSOutgoingMessage.GetSuggestedSessionKey()
+  commentId: M:CRMScript.NetServer.NSOutgoingMessage.GetSuggestedSessionKey()
+  id: 'GetSuggestedSessionKey()'
+  so.intellisense: NSOutgoingMessage.GetSuggestedSessionKey
+  langs:
+  - crmscript
+  name: 'GetSuggestedSessionKey()'
+  nameWithType: NSOutgoingMessage.GetSuggestedSessionKey()
+  fullName: CRMScript.NetServer.NSOutgoingMessage.GetSuggestedSessionKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSuggestedSessionKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSOutgoingMessage thing;\nString suggestedSessionKey = thing.GetSuggestedSessionKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSOutgoingMessage.GetTo()
+  commentId: M:CRMScript.NetServer.NSOutgoingMessage.GetTo()
+  id: 'GetTo()'
+  so.intellisense: NSOutgoingMessage.GetTo
+  langs:
+  - crmscript
+  name: 'GetTo()'
+  nameWithType: NSOutgoingMessage.GetTo()
+  fullName: CRMScript.NetServer.NSOutgoingMessage.GetTo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTo()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Address of the recipient. This can be in the form of phone number or email."
+  example: 
+  - "\n<pre><code>NSOutgoingMessage thing;\nString to = thing.GetTo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSOutgoingMessage.SetContent(String)
+  commentId: M:CRMScript.NetServer.NSOutgoingMessage.SetContent(String)
+  id: 'SetContent(String)'
+  so.intellisense: NSOutgoingMessage.SetContent
+  langs:
+  - crmscript
+  name: 'SetContent(String)'
+  nameWithType: NSOutgoingMessage.SetContent(String)
+  fullName: CRMScript.NetServer.NSOutgoingMessage.SetContent(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContent(String content)
+    parameters:
+    - id: content
+      type: CRMScript.Global.String
+      description: "Content, or body, of the message."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSOutgoingMessage thing;\nString content;\nthing.SetContent(content);</code></pre>\n"
+- uid: CRMScript.NetServer.NSOutgoingMessage.SetFormat(String)
+  commentId: M:CRMScript.NetServer.NSOutgoingMessage.SetFormat(String)
+  id: 'SetFormat(String)'
+  so.intellisense: NSOutgoingMessage.SetFormat
+  langs:
+  - crmscript
+  name: 'SetFormat(String)'
+  nameWithType: NSOutgoingMessage.SetFormat(String)
+  fullName: CRMScript.NetServer.NSOutgoingMessage.SetFormat(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFormat(String format)
+    parameters:
+    - id: format
+      type: CRMScript.Global.String
+      description: "Format of content."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSOutgoingMessage thing;\nString format;\nthing.SetFormat(format);</code></pre>\n"
+- uid: CRMScript.NetServer.NSOutgoingMessage.SetFrom(String)
+  commentId: M:CRMScript.NetServer.NSOutgoingMessage.SetFrom(String)
+  id: 'SetFrom(String)'
+  so.intellisense: NSOutgoingMessage.SetFrom
+  langs:
+  - crmscript
+  name: 'SetFrom(String)'
+  nameWithType: NSOutgoingMessage.SetFrom(String)
+  fullName: CRMScript.NetServer.NSOutgoingMessage.SetFrom(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFrom(String from)
+    parameters:
+    - id: from
+      type: CRMScript.Global.String
+      description: "Who the message is from.  This can vary from provider to provider and can for SMS typically be a phone number or a string.  This is mail address on the form of an email."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSOutgoingMessage thing;\nString from;\nthing.SetFrom(from);</code></pre>\n"
+- uid: CRMScript.NetServer.NSOutgoingMessage.SetParentMessagingId(Integer)
+  commentId: M:CRMScript.NetServer.NSOutgoingMessage.SetParentMessagingId(Integer)
+  id: 'SetParentMessagingId(Integer)'
+  so.intellisense: NSOutgoingMessage.SetParentMessagingId
+  langs:
+  - crmscript
+  name: 'SetParentMessagingId(Integer)'
+  nameWithType: NSOutgoingMessage.SetParentMessagingId(Integer)
+  fullName: CRMScript.NetServer.NSOutgoingMessage.SetParentMessagingId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetParentMessagingId(Integer parentMessagingId)
+    parameters:
+    - id: parentMessagingId
+      type: CRMScript.Global.Integer
+      description: "ID to the previous outgoing message related to this one. Used from message threading."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSOutgoingMessage thing;\nInteger parentMessagingId;\nthing.SetParentMessagingId(parentMessagingId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSOutgoingMessage.SetSuggestedSessionKey(String)
+  commentId: M:CRMScript.NetServer.NSOutgoingMessage.SetSuggestedSessionKey(String)
+  id: 'SetSuggestedSessionKey(String)'
+  so.intellisense: NSOutgoingMessage.SetSuggestedSessionKey
+  langs:
+  - crmscript
+  name: 'SetSuggestedSessionKey(String)'
+  nameWithType: NSOutgoingMessage.SetSuggestedSessionKey(String)
+  fullName: CRMScript.NetServer.NSOutgoingMessage.SetSuggestedSessionKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSuggestedSessionKey(String suggestedSessionKey)
+    parameters:
+    - id: suggestedSessionKey
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSOutgoingMessage thing;\nString suggestedSessionKey;\nthing.SetSuggestedSessionKey(suggestedSessionKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSOutgoingMessage.SetTo(String)
+  commentId: M:CRMScript.NetServer.NSOutgoingMessage.SetTo(String)
+  id: 'SetTo(String)'
+  so.intellisense: NSOutgoingMessage.SetTo
+  langs:
+  - crmscript
+  name: 'SetTo(String)'
+  nameWithType: NSOutgoingMessage.SetTo(String)
+  fullName: CRMScript.NetServer.NSOutgoingMessage.SetTo(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTo(String to)
+    parameters:
+    - id: to
+      type: CRMScript.Global.String
+      description: "Address of the recipient. This can be in the form of phone number or email."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSOutgoingMessage thing;\nString to;\nthing.SetTo(to);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSOutgoingMessage
+  commentId: T:CRMScript.NetServer.NSOutgoingMessage
+  isExternal: true
+  name: NSOutgoingMessage
+  nameWithType: NSOutgoingMessage
+  fullName: CRMScript.NetServer.NSOutgoingMessage
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

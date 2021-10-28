@@ -1,0 +1,325 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSArea
+  commentId: T:CRMScript.NetServer.NSArea
+  id: NSArea
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSArea.#ctor
+  - CRMScript.NetServer.NSArea.GetAreaId()
+  - CRMScript.NetServer.NSArea.GetFreetextEnabeled()
+  - CRMScript.NetServer.NSArea.GetMaxDataAge()
+  - CRMScript.NetServer.NSArea.GetName()
+  - CRMScript.NetServer.NSArea.GetNumberOfLogins()
+  - CRMScript.NetServer.NSArea.GetNumberOfUsers()
+  - CRMScript.NetServer.NSArea.SetAreaId(Integer)
+  - CRMScript.NetServer.NSArea.SetFreetextEnabeled(Bool)
+  - CRMScript.NetServer.NSArea.SetMaxDataAge(Integer)
+  - CRMScript.NetServer.NSArea.SetName(String)
+  - CRMScript.NetServer.NSArea.SetNumberOfLogins(Integer)
+  - CRMScript.NetServer.NSArea.SetNumberOfUsers(Integer)
+  name: NSArea
+  nameWithType: NSArea
+  fullName: CRMScript.NetServer.NSArea
+  type: Class
+  summary: "\nCarrier object for Area.\n"
+  example: 
+- uid: CRMScript.NetServer.NSArea.#ctor
+  commentId: M:CRMScript.NetServer.NSArea.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSArea
+  langs:
+  - crmscript
+  name: NSArea()
+  nameWithType: NSArea.#ctor
+  fullName: CRMScript.NetServer.NSArea.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSArea class.\n"
+  remarks: 
+  syntax: 
+    content: NSArea
+  example: 
+- uid: CRMScript.NetServer.NSArea.GetAreaId()
+  commentId: M:CRMScript.NetServer.NSArea.GetAreaId()
+  id: 'GetAreaId()'
+  so.intellisense: NSArea.GetAreaId
+  langs:
+  - crmscript
+  name: 'GetAreaId()'
+  nameWithType: NSArea.GetAreaId()
+  fullName: CRMScript.NetServer.NSArea.GetAreaId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAreaId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSArea thing;\nInteger areaId = thing.GetAreaId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArea.GetFreetextEnabeled()
+  commentId: M:CRMScript.NetServer.NSArea.GetFreetextEnabeled()
+  id: 'GetFreetextEnabeled()'
+  so.intellisense: NSArea.GetFreetextEnabeled
+  langs:
+  - crmscript
+  name: 'GetFreetextEnabeled()'
+  nameWithType: NSArea.GetFreetextEnabeled()
+  fullName: CRMScript.NetServer.NSArea.GetFreetextEnabeled()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetFreetextEnabeled()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSArea thing;\nBool freetextEnabeled = thing.GetFreetextEnabeled();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArea.GetMaxDataAge()
+  commentId: M:CRMScript.NetServer.NSArea.GetMaxDataAge()
+  id: 'GetMaxDataAge()'
+  so.intellisense: NSArea.GetMaxDataAge
+  langs:
+  - crmscript
+  name: 'GetMaxDataAge()'
+  nameWithType: NSArea.GetMaxDataAge()
+  fullName: CRMScript.NetServer.NSArea.GetMaxDataAge()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetMaxDataAge()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Max age of data when generating databases based on this area."
+  example: 
+  - "\n<pre><code>NSArea thing;\nInteger maxDataAge = thing.GetMaxDataAge();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArea.GetName()
+  commentId: M:CRMScript.NetServer.NSArea.GetName()
+  id: 'GetName()'
+  so.intellisense: NSArea.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSArea.GetName()
+  fullName: CRMScript.NetServer.NSArea.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Area name."
+  example: 
+  - "\n<pre><code>NSArea thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArea.GetNumberOfLogins()
+  commentId: M:CRMScript.NetServer.NSArea.GetNumberOfLogins()
+  id: 'GetNumberOfLogins()'
+  so.intellisense: NSArea.GetNumberOfLogins
+  langs:
+  - crmscript
+  name: 'GetNumberOfLogins()'
+  nameWithType: NSArea.GetNumberOfLogins()
+  fullName: CRMScript.NetServer.NSArea.GetNumberOfLogins()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetNumberOfLogins()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSArea thing;\nInteger numberOfLogins = thing.GetNumberOfLogins();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArea.GetNumberOfUsers()
+  commentId: M:CRMScript.NetServer.NSArea.GetNumberOfUsers()
+  id: 'GetNumberOfUsers()'
+  so.intellisense: NSArea.GetNumberOfUsers
+  langs:
+  - crmscript
+  name: 'GetNumberOfUsers()'
+  nameWithType: NSArea.GetNumberOfUsers()
+  fullName: CRMScript.NetServer.NSArea.GetNumberOfUsers()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetNumberOfUsers()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSArea thing;\nInteger numberOfUsers = thing.GetNumberOfUsers();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArea.SetAreaId(Integer)
+  commentId: M:CRMScript.NetServer.NSArea.SetAreaId(Integer)
+  id: 'SetAreaId(Integer)'
+  so.intellisense: NSArea.SetAreaId
+  langs:
+  - crmscript
+  name: 'SetAreaId(Integer)'
+  nameWithType: NSArea.SetAreaId(Integer)
+  fullName: CRMScript.NetServer.NSArea.SetAreaId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAreaId(Integer areaId)
+    parameters:
+    - id: areaId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArea thing;\nInteger areaId;\nthing.SetAreaId(areaId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArea.SetFreetextEnabeled(Bool)
+  commentId: M:CRMScript.NetServer.NSArea.SetFreetextEnabeled(Bool)
+  id: 'SetFreetextEnabeled(Bool)'
+  so.intellisense: NSArea.SetFreetextEnabeled
+  langs:
+  - crmscript
+  name: 'SetFreetextEnabeled(Bool)'
+  nameWithType: NSArea.SetFreetextEnabeled(Bool)
+  fullName: CRMScript.NetServer.NSArea.SetFreetextEnabeled(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFreetextEnabeled(Bool freetextEnabeled)
+    parameters:
+    - id: freetextEnabeled
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArea thing;\nBool freetextEnabeled;\nthing.SetFreetextEnabeled(freetextEnabeled);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArea.SetMaxDataAge(Integer)
+  commentId: M:CRMScript.NetServer.NSArea.SetMaxDataAge(Integer)
+  id: 'SetMaxDataAge(Integer)'
+  so.intellisense: NSArea.SetMaxDataAge
+  langs:
+  - crmscript
+  name: 'SetMaxDataAge(Integer)'
+  nameWithType: NSArea.SetMaxDataAge(Integer)
+  fullName: CRMScript.NetServer.NSArea.SetMaxDataAge(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMaxDataAge(Integer maxDataAge)
+    parameters:
+    - id: maxDataAge
+      type: CRMScript.Global.Integer
+      description: "Max age of data when generating databases based on this area."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArea thing;\nInteger maxDataAge;\nthing.SetMaxDataAge(maxDataAge);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArea.SetName(String)
+  commentId: M:CRMScript.NetServer.NSArea.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSArea.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSArea.SetName(String)
+  fullName: CRMScript.NetServer.NSArea.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Area name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArea thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArea.SetNumberOfLogins(Integer)
+  commentId: M:CRMScript.NetServer.NSArea.SetNumberOfLogins(Integer)
+  id: 'SetNumberOfLogins(Integer)'
+  so.intellisense: NSArea.SetNumberOfLogins
+  langs:
+  - crmscript
+  name: 'SetNumberOfLogins(Integer)'
+  nameWithType: NSArea.SetNumberOfLogins(Integer)
+  fullName: CRMScript.NetServer.NSArea.SetNumberOfLogins(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetNumberOfLogins(Integer numberOfLogins)
+    parameters:
+    - id: numberOfLogins
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArea thing;\nInteger numberOfLogins;\nthing.SetNumberOfLogins(numberOfLogins);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArea.SetNumberOfUsers(Integer)
+  commentId: M:CRMScript.NetServer.NSArea.SetNumberOfUsers(Integer)
+  id: 'SetNumberOfUsers(Integer)'
+  so.intellisense: NSArea.SetNumberOfUsers
+  langs:
+  - crmscript
+  name: 'SetNumberOfUsers(Integer)'
+  nameWithType: NSArea.SetNumberOfUsers(Integer)
+  fullName: CRMScript.NetServer.NSArea.SetNumberOfUsers(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetNumberOfUsers(Integer numberOfUsers)
+    parameters:
+    - id: numberOfUsers
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArea thing;\nInteger numberOfUsers;\nthing.SetNumberOfUsers(numberOfUsers);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSArea
+  commentId: T:CRMScript.NetServer.NSArea
+  isExternal: true
+  name: NSArea
+  nameWithType: NSArea
+  fullName: CRMScript.NetServer.NSArea
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

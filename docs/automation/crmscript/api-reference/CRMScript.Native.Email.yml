@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.Email
+  commentId: T:CRMScript.Native.Email
+  id: Email
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.Email.#ctor
+  - CRMScript.Native.Email.addAttachment(Integer,Bool)
+  - CRMScript.Native.Email.send()
+  - CRMScript.Native.Email.setValue(String,String)
+  name: Email
+  nameWithType: Email
+  fullName: CRMScript.Native.Email
+  type: Class
+  summary: "\nClass for representing and sending emails.\n"
+  example: 
+  - "\n<pre><code>Email e;\n\ne.setValue(&quot;from&quot;, &quot;bob@example.com&quot;);\ne.setValue(&quot;to&quot;, &quot;allice@example.com&quot;);\ne.setValue(&quot;to&quot;, &quot;simon@example.com&quot;); // Value must be set once for each recipient\ne.setValue(&quot;subject&quot;, &quot;test&quot;);\ne.setValue(&quot;body&quot;, &quot;This is a test.&quot;);</code></pre>\n"
+- uid: CRMScript.Native.Email.#ctor
+  commentId: M:CRMScript.Native.Email.#ctor
+  id: '#ctor'
+  so.intellisense: Void.Email
+  langs:
+  - crmscript
+  name: Email()
+  nameWithType: Email.#ctor
+  fullName: CRMScript.Native.Email.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the Email class.\n"
+  remarks: 
+  syntax: 
+    content: Email
+  example: 
+  - "\n<pre><code>Email e;\n\ne.setValue(&quot;from&quot;, &quot;bob@example.com&quot;);\ne.setValue(&quot;to&quot;, &quot;allice@example.com&quot;);\ne.setValue(&quot;to&quot;, &quot;simon@example.com&quot;); // Value must be set once for each recipient\ne.setValue(&quot;subject&quot;, &quot;test&quot;);\ne.setValue(&quot;body&quot;, &quot;This is a test.&quot;);</code></pre>\n"
+- uid: CRMScript.Native.Email.addAttachment(Integer,Bool)
+  commentId: M:CRMScript.Native.Email.addAttachment(Integer,Bool)
+  id: 'addAttachment(Integer,Bool)'
+  so.intellisense: Email.addAttachment
+  langs:
+  - crmscript
+  name: 'addAttachment(Integer,Bool)'
+  nameWithType: Email.addAttachment(Integer,Bool)
+  fullName: CRMScript.Native.Email.addAttachment(Integer,Bool)
+  type: Method
+  summary: "\nAdds an attachment to the email object.\n"
+  remarks: 
+  syntax: 
+    content: String addAttachment(Integer attachmentId, Bool inline)
+    parameters:
+    - id: attachmentId
+      type: CRMScript.Global.Integer
+      description: "The database ID of the attachment to include inline Set to true if you want to show the attachment inside the mail (used mostly for images)."
+    - id: inline
+      type: CRMScript.Global.Bool
+      description: "If true, attachments will be inlined in the email body."
+    return:
+      type: CRMScript.Global.String
+      description: "The ID of the attachment relative to the email."
+  example: 
+- uid: CRMScript.Native.Email.send()
+  commentId: M:CRMScript.Native.Email.send()
+  id: 'send()'
+  so.intellisense: Email.send
+  langs:
+  - crmscript
+  name: 'send()'
+  nameWithType: Email.send()
+  fullName: CRMScript.Native.Email.send()
+  type: Method
+  summary: "\nSends the email.\n"
+  remarks: 
+  syntax: 
+    content: Void send()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.Email.setValue(String,String)
+  commentId: M:CRMScript.Native.Email.setValue(String,String)
+  id: 'setValue(String,String)'
+  so.intellisense: Email.setValue
+  langs:
+  - crmscript
+  name: 'setValue(String,String)'
+  nameWithType: Email.setValue(String,String)
+  fullName: CRMScript.Native.Email.setValue(String,String)
+  type: Method
+  summary: "\nSets the value of the given field in the email instance.<p></p>\nFor multiple recipients, call setValue multiple times, once for each recipient.\n"
+  remarks: "\nAvailable fields:<ul><li>from: The from address.</li><li>to: The recipient.</li><li>cc: The carbon copy recipient.</li><li>bcc: The bcc recipient.</li><li>sms: A cellphone number to send sms to.</li><li>smsFrom: The from address when sending sms.</li><li>subject: The subject of the email.</li><li>body: The plain text body of the email.</li><li>bodyHtml: The HTML formated body of the email.</li><li>ticketId: The ticketId, only used with sms.</p</li></ul>><p>From version 8.1 any other header value may also be added, for example setValue(&quot;X-Foo&quot;, &quot;42&quot;);\n"
+  syntax: 
+    content: Void setValue(String name, String value)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of the field."
+    - id: value
+      type: CRMScript.Global.String
+      description: "The value to set."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.Native.Email
+  commentId: T:CRMScript.Native.Email
+  isExternal: true
+  name: Email
+  nameWithType: Email
+  fullName: CRMScript.Native.Email
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

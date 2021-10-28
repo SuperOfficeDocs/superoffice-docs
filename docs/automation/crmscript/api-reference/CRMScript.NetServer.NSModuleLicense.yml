@@ -1,0 +1,733 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSModuleLicense
+  commentId: T:CRMScript.NetServer.NSModuleLicense
+  id: NSModuleLicense
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSModuleLicense.#ctor
+  - CRMScript.NetServer.NSModuleLicense.GetAllowedUserType()
+  - CRMScript.NetServer.NSModuleLicense.GetExtraFlags()
+  - CRMScript.NetServer.NSModuleLicense.GetExtraInfo()
+  - CRMScript.NetServer.NSModuleLicense.GetIsHidden()
+  - CRMScript.NetServer.NSModuleLicense.GetLicenseType()
+  - CRMScript.NetServer.NSModuleLicense.GetModuleDescription()
+  - CRMScript.NetServer.NSModuleLicense.GetModuleName()
+  - CRMScript.NetServer.NSModuleLicense.GetModuleTooltip()
+  - CRMScript.NetServer.NSModuleLicense.GetModuleVersion()
+  - CRMScript.NetServer.NSModuleLicense.GetNumberOfLicenses()
+  - CRMScript.NetServer.NSModuleLicense.GetOwnerName()
+  - CRMScript.NetServer.NSModuleLicense.GetPrerequisiteModuleName()
+  - CRMScript.NetServer.NSModuleLicense.GetSignature()
+  - CRMScript.NetServer.NSModuleLicense.GetSortOrder()
+  - CRMScript.NetServer.NSModuleLicense.GetUnrestricted()
+  - CRMScript.NetServer.NSModuleLicense.SetAllowedUserType(Integer)
+  - CRMScript.NetServer.NSModuleLicense.SetExtraFlags(Integer)
+  - CRMScript.NetServer.NSModuleLicense.SetExtraInfo(String)
+  - CRMScript.NetServer.NSModuleLicense.SetIsHidden(Bool)
+  - CRMScript.NetServer.NSModuleLicense.SetLicenseType(Integer)
+  - CRMScript.NetServer.NSModuleLicense.SetModuleDescription(String)
+  - CRMScript.NetServer.NSModuleLicense.SetModuleName(String)
+  - CRMScript.NetServer.NSModuleLicense.SetModuleTooltip(String)
+  - CRMScript.NetServer.NSModuleLicense.SetModuleVersion(String)
+  - CRMScript.NetServer.NSModuleLicense.SetNumberOfLicenses(Integer)
+  - CRMScript.NetServer.NSModuleLicense.SetOwnerName(String)
+  - CRMScript.NetServer.NSModuleLicense.SetPrerequisiteModuleName(String)
+  - CRMScript.NetServer.NSModuleLicense.SetSignature(String)
+  - CRMScript.NetServer.NSModuleLicense.SetSortOrder(Integer)
+  - CRMScript.NetServer.NSModuleLicense.SetUnrestricted(Bool)
+  name: NSModuleLicense
+  nameWithType: NSModuleLicense
+  fullName: CRMScript.NetServer.NSModuleLicense
+  type: Class
+  summary: "\nRepresents a single module license info.\n"
+  example: 
+- uid: CRMScript.NetServer.NSModuleLicense.#ctor
+  commentId: M:CRMScript.NetServer.NSModuleLicense.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSModuleLicense
+  langs:
+  - crmscript
+  name: NSModuleLicense()
+  nameWithType: NSModuleLicense.#ctor
+  fullName: CRMScript.NetServer.NSModuleLicense.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSModuleLicense class.\n"
+  remarks: 
+  syntax: 
+    content: NSModuleLicense
+  example: 
+- uid: CRMScript.NetServer.NSModuleLicense.GetAllowedUserType()
+  commentId: M:CRMScript.NetServer.NSModuleLicense.GetAllowedUserType()
+  id: 'GetAllowedUserType()'
+  so.intellisense: NSModuleLicense.GetAllowedUserType
+  langs:
+  - crmscript
+  name: 'GetAllowedUserType()'
+  nameWithType: NSModuleLicense.GetAllowedUserType()
+  fullName: CRMScript.NetServer.NSModuleLicense.GetAllowedUserType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAllowedUserType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Allowed associate type for user licenses internal(0), external(4)."
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nInteger allowedUserType = thing.GetAllowedUserType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.GetExtraFlags()
+  commentId: M:CRMScript.NetServer.NSModuleLicense.GetExtraFlags()
+  id: 'GetExtraFlags()'
+  so.intellisense: NSModuleLicense.GetExtraFlags
+  langs:
+  - crmscript
+  name: 'GetExtraFlags()'
+  nameWithType: NSModuleLicense.GetExtraFlags()
+  fullName: CRMScript.NetServer.NSModuleLicense.GetExtraFlags()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetExtraFlags()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Unspecified extra flags of license, part of checksum. Value=1 means this a 'user plan'; such licenses cause the admin gui to switch to radiobutton view."
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nInteger extraFlags = thing.GetExtraFlags();</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.GetExtraInfo()
+  commentId: M:CRMScript.NetServer.NSModuleLicense.GetExtraInfo()
+  id: 'GetExtraInfo()'
+  so.intellisense: NSModuleLicense.GetExtraInfo
+  langs:
+  - crmscript
+  name: 'GetExtraInfo()'
+  nameWithType: NSModuleLicense.GetExtraInfo()
+  fullName: CRMScript.NetServer.NSModuleLicense.GetExtraInfo()
+  type: Method
+  summary: # TODO
+  remarks: "\nFor rows with extraFlags=1 this field contains the list of modules that this plan comprises\n"
+  syntax: 
+    content: String GetExtraInfo()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Free field, can be used by the module owner (for example host domain, for Service)."
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nString extraInfo = thing.GetExtraInfo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.GetIsHidden()
+  commentId: M:CRMScript.NetServer.NSModuleLicense.GetIsHidden()
+  id: 'GetIsHidden()'
+  so.intellisense: NSModuleLicense.GetIsHidden
+  langs:
+  - crmscript
+  name: 'GetIsHidden()'
+  nameWithType: NSModuleLicense.GetIsHidden()
+  fullName: CRMScript.NetServer.NSModuleLicense.GetIsHidden()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsHidden()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If true, then this module should not appear in GUI and is not assignable by users."
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nBool isHidden = thing.GetIsHidden();</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.GetLicenseType()
+  commentId: M:CRMScript.NetServer.NSModuleLicense.GetLicenseType()
+  id: 'GetLicenseType()'
+  so.intellisense: NSModuleLicense.GetLicenseType
+  langs:
+  - crmscript
+  name: 'GetLicenseType()'
+  nameWithType: NSModuleLicense.GetLicenseType()
+  fullName: CRMScript.NetServer.NSModuleLicense.GetLicenseType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetLicenseType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Entire system, per database, or per associate. See <xref href=\"CRMScript.NetServer.LicenseType\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nInteger licenseType = thing.GetLicenseType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.GetModuleDescription()
+  commentId: M:CRMScript.NetServer.NSModuleLicense.GetModuleDescription()
+  id: 'GetModuleDescription()'
+  so.intellisense: NSModuleLicense.GetModuleDescription
+  langs:
+  - crmscript
+  name: 'GetModuleDescription()'
+  nameWithType: NSModuleLicense.GetModuleDescription()
+  fullName: CRMScript.NetServer.NSModuleLicense.GetModuleDescription()
+  type: Method
+  summary: # TODO
+  remarks: "\nAdditional languages can be added to LocaleText, resource type 25\n"
+  syntax: 
+    content: String GetModuleDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Human-readable description of module, shown in GUI, default language."
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nString moduleDescription = thing.GetModuleDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.GetModuleName()
+  commentId: M:CRMScript.NetServer.NSModuleLicense.GetModuleName()
+  id: 'GetModuleName()'
+  so.intellisense: NSModuleLicense.GetModuleName
+  langs:
+  - crmscript
+  name: 'GetModuleName()'
+  nameWithType: NSModuleLicense.GetModuleName()
+  fullName: CRMScript.NetServer.NSModuleLicense.GetModuleName()
+  type: Method
+  summary: # TODO
+  remarks: "\nThis must be in UPPER CASE and only contain A-Z and 0-9. NO EXTENDED CHARACTERS please.\n"
+  syntax: 
+    content: String GetModuleName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the module, not visible in GUI but used in the code."
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nString moduleName = thing.GetModuleName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.GetModuleTooltip()
+  commentId: M:CRMScript.NetServer.NSModuleLicense.GetModuleTooltip()
+  id: 'GetModuleTooltip()'
+  so.intellisense: NSModuleLicense.GetModuleTooltip
+  langs:
+  - crmscript
+  name: 'GetModuleTooltip()'
+  nameWithType: NSModuleLicense.GetModuleTooltip()
+  fullName: CRMScript.NetServer.NSModuleLicense.GetModuleTooltip()
+  type: Method
+  summary: # TODO
+  remarks: "\nAdditional languages can be added to LocaleText, resource type 27\n"
+  syntax: 
+    content: String GetModuleTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Tooltip text, anything you want; shown when the cursor hovers over the line in the GUI. Default language."
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nString moduleTooltip = thing.GetModuleTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.GetModuleVersion()
+  commentId: M:CRMScript.NetServer.NSModuleLicense.GetModuleVersion()
+  id: 'GetModuleVersion()'
+  so.intellisense: NSModuleLicense.GetModuleVersion
+  langs:
+  - crmscript
+  name: 'GetModuleVersion()'
+  nameWithType: NSModuleLicense.GetModuleVersion()
+  fullName: CRMScript.NetServer.NSModuleLicense.GetModuleVersion()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetModuleVersion()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Version string for this module."
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nString moduleVersion = thing.GetModuleVersion();</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.GetNumberOfLicenses()
+  commentId: M:CRMScript.NetServer.NSModuleLicense.GetNumberOfLicenses()
+  id: 'GetNumberOfLicenses()'
+  so.intellisense: NSModuleLicense.GetNumberOfLicenses
+  langs:
+  - crmscript
+  name: 'GetNumberOfLicenses()'
+  nameWithType: NSModuleLicense.GetNumberOfLicenses()
+  fullName: CRMScript.NetServer.NSModuleLicense.GetNumberOfLicenses()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetNumberOfLicenses()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of licenses purchased."
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nInteger numberOfLicenses = thing.GetNumberOfLicenses();</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.GetOwnerName()
+  commentId: M:CRMScript.NetServer.NSModuleLicense.GetOwnerName()
+  id: 'GetOwnerName()'
+  so.intellisense: NSModuleLicense.GetOwnerName
+  langs:
+  - crmscript
+  name: 'GetOwnerName()'
+  nameWithType: NSModuleLicense.GetOwnerName()
+  fullName: CRMScript.NetServer.NSModuleLicense.GetOwnerName()
+  type: Method
+  summary: # TODO
+  remarks: "\nOwnerName SUPEROFFICE is reserved and may NEVER be used by partners. This must be in UPPER CASE and only contain A-Z and 0-9. NO EXTENDED CHARACTERS please.\n"
+  syntax: 
+    content: String GetOwnerName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the module owner, not visible in GUI but used in the code."
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nString ownerName = thing.GetOwnerName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.GetPrerequisiteModuleName()
+  commentId: M:CRMScript.NetServer.NSModuleLicense.GetPrerequisiteModuleName()
+  id: 'GetPrerequisiteModuleName()'
+  so.intellisense: NSModuleLicense.GetPrerequisiteModuleName
+  langs:
+  - crmscript
+  name: 'GetPrerequisiteModuleName()'
+  nameWithType: NSModuleLicense.GetPrerequisiteModuleName()
+  fullName: CRMScript.NetServer.NSModuleLicense.GetPrerequisiteModuleName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPrerequisiteModuleName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "If set, specifies a module license needed before this license can be granted."
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nString prerequisiteModuleName = thing.GetPrerequisiteModuleName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.GetSignature()
+  commentId: M:CRMScript.NetServer.NSModuleLicense.GetSignature()
+  id: 'GetSignature()'
+  so.intellisense: NSModuleLicense.GetSignature
+  langs:
+  - crmscript
+  name: 'GetSignature()'
+  nameWithType: NSModuleLicense.GetSignature()
+  fullName: CRMScript.NetServer.NSModuleLicense.GetSignature()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSignature()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Signature that verifies that this row is correctly transferred from SuperLicense."
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nString signature = thing.GetSignature();</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.GetSortOrder()
+  commentId: M:CRMScript.NetServer.NSModuleLicense.GetSortOrder()
+  id: 'GetSortOrder()'
+  so.intellisense: NSModuleLicense.GetSortOrder
+  langs:
+  - crmscript
+  name: 'GetSortOrder()'
+  nameWithType: NSModuleLicense.GetSortOrder()
+  fullName: CRMScript.NetServer.NSModuleLicense.GetSortOrder()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSortOrder()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Ordering value, generated by SuperLicense and transferred here. Must be followed for signatures to be correct."
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nInteger sortOrder = thing.GetSortOrder();</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.GetUnrestricted()
+  commentId: M:CRMScript.NetServer.NSModuleLicense.GetUnrestricted()
+  id: 'GetUnrestricted()'
+  so.intellisense: NSModuleLicense.GetUnrestricted
+  langs:
+  - crmscript
+  name: 'GetUnrestricted()'
+  nameWithType: NSModuleLicense.GetUnrestricted()
+  fullName: CRMScript.NetServer.NSModuleLicense.GetUnrestricted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetUnrestricted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If true, then there is no licenseNumber limit on how many of these modules may be assigned."
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nBool unrestricted = thing.GetUnrestricted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.SetAllowedUserType(Integer)
+  commentId: M:CRMScript.NetServer.NSModuleLicense.SetAllowedUserType(Integer)
+  id: 'SetAllowedUserType(Integer)'
+  so.intellisense: NSModuleLicense.SetAllowedUserType
+  langs:
+  - crmscript
+  name: 'SetAllowedUserType(Integer)'
+  nameWithType: NSModuleLicense.SetAllowedUserType(Integer)
+  fullName: CRMScript.NetServer.NSModuleLicense.SetAllowedUserType(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetAllowedUserType(Integer allowedUserType)
+    parameters:
+    - id: allowedUserType
+      type: CRMScript.Global.Integer
+      description: "Allowed associate type for user licenses internal(0), external(4). See <xref href=\"CRMScript.NetServer.AssociateType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nInteger allowedUserType;\nthing.SetAllowedUserType(allowedUserType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.SetExtraFlags(Integer)
+  commentId: M:CRMScript.NetServer.NSModuleLicense.SetExtraFlags(Integer)
+  id: 'SetExtraFlags(Integer)'
+  so.intellisense: NSModuleLicense.SetExtraFlags
+  langs:
+  - crmscript
+  name: 'SetExtraFlags(Integer)'
+  nameWithType: NSModuleLicense.SetExtraFlags(Integer)
+  fullName: CRMScript.NetServer.NSModuleLicense.SetExtraFlags(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraFlags(Integer extraFlags)
+    parameters:
+    - id: extraFlags
+      type: CRMScript.Global.Integer
+      description: "Unspecified extra flags of license, part of checksum. Value=1 means this a 'user plan'; such licenses cause the admin gui to switch to radiobutton view."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nInteger extraFlags;\nthing.SetExtraFlags(extraFlags);</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.SetExtraInfo(String)
+  commentId: M:CRMScript.NetServer.NSModuleLicense.SetExtraInfo(String)
+  id: 'SetExtraInfo(String)'
+  so.intellisense: NSModuleLicense.SetExtraInfo
+  langs:
+  - crmscript
+  name: 'SetExtraInfo(String)'
+  nameWithType: NSModuleLicense.SetExtraInfo(String)
+  fullName: CRMScript.NetServer.NSModuleLicense.SetExtraInfo(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nFor rows with extraFlags=1 this field contains the list of modules that this plan comprises\n"
+  syntax: 
+    content: Void SetExtraInfo(String extraInfo)
+    parameters:
+    - id: extraInfo
+      type: CRMScript.Global.String
+      description: "Free field, can be used by the module owner (for example host domain, for Service)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nString extraInfo;\nthing.SetExtraInfo(extraInfo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.SetIsHidden(Bool)
+  commentId: M:CRMScript.NetServer.NSModuleLicense.SetIsHidden(Bool)
+  id: 'SetIsHidden(Bool)'
+  so.intellisense: NSModuleLicense.SetIsHidden
+  langs:
+  - crmscript
+  name: 'SetIsHidden(Bool)'
+  nameWithType: NSModuleLicense.SetIsHidden(Bool)
+  fullName: CRMScript.NetServer.NSModuleLicense.SetIsHidden(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsHidden(Bool isHidden)
+    parameters:
+    - id: isHidden
+      type: CRMScript.Global.Bool
+      description: "If true, then this module should not appear in GUI and is not assignable by users."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nBool isHidden;\nthing.SetIsHidden(isHidden);</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.SetLicenseType(Integer)
+  commentId: M:CRMScript.NetServer.NSModuleLicense.SetLicenseType(Integer)
+  id: 'SetLicenseType(Integer)'
+  so.intellisense: NSModuleLicense.SetLicenseType
+  langs:
+  - crmscript
+  name: 'SetLicenseType(Integer)'
+  nameWithType: NSModuleLicense.SetLicenseType(Integer)
+  fullName: CRMScript.NetServer.NSModuleLicense.SetLicenseType(Integer)
+  type: Method
+  summary: "\nSets the licence type.\n"
+  remarks: 
+  syntax: 
+    content: Void SetLicenseType(Integer licenseType)
+    parameters:
+    - id: licenseType
+      type: CRMScript.Global.Integer
+      description: "The entire system, per database, or per associate. See <xref href=\"CRMScript.NetServer.LicenseType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nInteger licenseType;\nthing.SetLicenseType(licenseType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.SetModuleDescription(String)
+  commentId: M:CRMScript.NetServer.NSModuleLicense.SetModuleDescription(String)
+  id: 'SetModuleDescription(String)'
+  so.intellisense: NSModuleLicense.SetModuleDescription
+  langs:
+  - crmscript
+  name: 'SetModuleDescription(String)'
+  nameWithType: NSModuleLicense.SetModuleDescription(String)
+  fullName: CRMScript.NetServer.NSModuleLicense.SetModuleDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nAdditional languages can be added to LocaleText, resource type 25\n"
+  syntax: 
+    content: Void SetModuleDescription(String moduleDescription)
+    parameters:
+    - id: moduleDescription
+      type: CRMScript.Global.String
+      description: "Human-readable description of module, shown in GUI, default language."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nString moduleDescription;\nthing.SetModuleDescription(moduleDescription);</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.SetModuleName(String)
+  commentId: M:CRMScript.NetServer.NSModuleLicense.SetModuleName(String)
+  id: 'SetModuleName(String)'
+  so.intellisense: NSModuleLicense.SetModuleName
+  langs:
+  - crmscript
+  name: 'SetModuleName(String)'
+  nameWithType: NSModuleLicense.SetModuleName(String)
+  fullName: CRMScript.NetServer.NSModuleLicense.SetModuleName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetModuleName(String moduleName)
+    parameters:
+    - id: moduleName
+      type: CRMScript.Global.String
+      description: "The name of the module, not visible in GUI but used in the code. This must be in UPPER CASE and only contain A-Z and 0-9. NO EXTENDED CHARACTERS please."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nString moduleName;\nthing.SetModuleName(moduleName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.SetModuleTooltip(String)
+  commentId: M:CRMScript.NetServer.NSModuleLicense.SetModuleTooltip(String)
+  id: 'SetModuleTooltip(String)'
+  so.intellisense: NSModuleLicense.SetModuleTooltip
+  langs:
+  - crmscript
+  name: 'SetModuleTooltip(String)'
+  nameWithType: NSModuleLicense.SetModuleTooltip(String)
+  fullName: CRMScript.NetServer.NSModuleLicense.SetModuleTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nAdditional languages can be added to LocaleText, resource type 27\n"
+  syntax: 
+    content: Void SetModuleTooltip(String moduleTooltip)
+    parameters:
+    - id: moduleTooltip
+      type: CRMScript.Global.String
+      description: "Tooltip text, anything you want; shown when the cursor hovers over the line in the GUI. Default language."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nString moduleTooltip;\nthing.SetModuleTooltip(moduleTooltip);</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.SetModuleVersion(String)
+  commentId: M:CRMScript.NetServer.NSModuleLicense.SetModuleVersion(String)
+  id: 'SetModuleVersion(String)'
+  so.intellisense: NSModuleLicense.SetModuleVersion
+  langs:
+  - crmscript
+  name: 'SetModuleVersion(String)'
+  nameWithType: NSModuleLicense.SetModuleVersion(String)
+  fullName: CRMScript.NetServer.NSModuleLicense.SetModuleVersion(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetModuleVersion(String moduleVersion)
+    parameters:
+    - id: moduleVersion
+      type: CRMScript.Global.String
+      description: "Version string for this module."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nString moduleVersion;\nthing.SetModuleVersion(moduleVersion);</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.SetNumberOfLicenses(Integer)
+  commentId: M:CRMScript.NetServer.NSModuleLicense.SetNumberOfLicenses(Integer)
+  id: 'SetNumberOfLicenses(Integer)'
+  so.intellisense: NSModuleLicense.SetNumberOfLicenses
+  langs:
+  - crmscript
+  name: 'SetNumberOfLicenses(Integer)'
+  nameWithType: NSModuleLicense.SetNumberOfLicenses(Integer)
+  fullName: CRMScript.NetServer.NSModuleLicense.SetNumberOfLicenses(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetNumberOfLicenses(Integer numberOfLicenses)
+    parameters:
+    - id: numberOfLicenses
+      type: CRMScript.Global.Integer
+      description: "Number of licenses purchased."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nInteger numberOfLicenses;\nthing.SetNumberOfLicenses(numberOfLicenses);</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.SetOwnerName(String)
+  commentId: M:CRMScript.NetServer.NSModuleLicense.SetOwnerName(String)
+  id: 'SetOwnerName(String)'
+  so.intellisense: NSModuleLicense.SetOwnerName
+  langs:
+  - crmscript
+  name: 'SetOwnerName(String)'
+  nameWithType: NSModuleLicense.SetOwnerName(String)
+  fullName: CRMScript.NetServer.NSModuleLicense.SetOwnerName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOwnerName(String ownerName)
+    parameters:
+    - id: ownerName
+      type: CRMScript.Global.String
+      description: "The name of the module owner, not visible in GUI but used in the code. OwnerName SUPEROFFICE is reserved and may NEVER be used by partners. This must be in UPPER CASE and only contain A-Z and 0-9. NO EXTENDED CHARACTERS please."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nString ownerName;\nthing.SetOwnerName(ownerName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.SetPrerequisiteModuleName(String)
+  commentId: M:CRMScript.NetServer.NSModuleLicense.SetPrerequisiteModuleName(String)
+  id: 'SetPrerequisiteModuleName(String)'
+  so.intellisense: NSModuleLicense.SetPrerequisiteModuleName
+  langs:
+  - crmscript
+  name: 'SetPrerequisiteModuleName(String)'
+  nameWithType: NSModuleLicense.SetPrerequisiteModuleName(String)
+  fullName: CRMScript.NetServer.NSModuleLicense.SetPrerequisiteModuleName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPrerequisiteModuleName(String prerequisiteModuleName)
+    parameters:
+    - id: prerequisiteModuleName
+      type: CRMScript.Global.String
+      description: "If set, specifies a module license needed before this license can be granted."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nString prerequisiteModuleName;\nthing.SetPrerequisiteModuleName(prerequisiteModuleName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.SetSignature(String)
+  commentId: M:CRMScript.NetServer.NSModuleLicense.SetSignature(String)
+  id: 'SetSignature(String)'
+  so.intellisense: NSModuleLicense.SetSignature
+  langs:
+  - crmscript
+  name: 'SetSignature(String)'
+  nameWithType: NSModuleLicense.SetSignature(String)
+  fullName: CRMScript.NetServer.NSModuleLicense.SetSignature(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSignature(String signature)
+    parameters:
+    - id: signature
+      type: CRMScript.Global.String
+      description: "Signature that verifies that this row is correctly transferred from SuperLicense."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nString signature;\nthing.SetSignature(signature);</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.SetSortOrder(Integer)
+  commentId: M:CRMScript.NetServer.NSModuleLicense.SetSortOrder(Integer)
+  id: 'SetSortOrder(Integer)'
+  so.intellisense: NSModuleLicense.SetSortOrder
+  langs:
+  - crmscript
+  name: 'SetSortOrder(Integer)'
+  nameWithType: NSModuleLicense.SetSortOrder(Integer)
+  fullName: CRMScript.NetServer.NSModuleLicense.SetSortOrder(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSortOrder(Integer sortOrder)
+    parameters:
+    - id: sortOrder
+      type: CRMScript.Global.Integer
+      description: "Ordering value* generated by SuperLicense and transferred here. Must be followed for signatures to be correct."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nInteger sortOrder;\nthing.SetSortOrder(sortOrder);</code></pre>\n"
+- uid: CRMScript.NetServer.NSModuleLicense.SetUnrestricted(Bool)
+  commentId: M:CRMScript.NetServer.NSModuleLicense.SetUnrestricted(Bool)
+  id: 'SetUnrestricted(Bool)'
+  so.intellisense: NSModuleLicense.SetUnrestricted
+  langs:
+  - crmscript
+  name: 'SetUnrestricted(Bool)'
+  nameWithType: NSModuleLicense.SetUnrestricted(Bool)
+  fullName: CRMScript.NetServer.NSModuleLicense.SetUnrestricted(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUnrestricted(Bool unrestricted)
+    parameters:
+    - id: unrestricted
+      type: CRMScript.Global.Bool
+      description: "If true, then there is no licenseNumber limit on how many of these modules may be assigned."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSModuleLicense thing;\nBool unrestricted;\nthing.SetUnrestricted(unrestricted);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSModuleLicense
+  commentId: T:CRMScript.NetServer.NSModuleLicense
+  isExternal: true
+  name: NSModuleLicense
+  nameWithType: NSModuleLicense
+  fullName: CRMScript.NetServer.NSModuleLicense
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.NetServer.AssociateType
+  commentId: T:CRMScript.NetServer.AssociateType
+  isExternal: true
+  name: AssociateType
+  nameWithType: AssociateType
+  fullName: CRMScript.NetServer.AssociateType
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.LicenseType
+  commentId: T:CRMScript.NetServer.LicenseType
+  isExternal: true
+  name: LicenseType
+  nameWithType: LicenseType
+  fullName: CRMScript.NetServer.LicenseType

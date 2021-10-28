@@ -1,0 +1,607 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSTicketMessage
+  commentId: T:CRMScript.NetServer.NSTicketMessage
+  id: NSTicketMessage
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSTicketMessage.#ctor
+  - CRMScript.NetServer.NSTicketMessage.GetAuthor()
+  - CRMScript.NetServer.NSTicketMessage.GetContactDepartment()
+  - CRMScript.NetServer.NSTicketMessage.GetContactId()
+  - CRMScript.NetServer.NSTicketMessage.GetContactName()
+  - CRMScript.NetServer.NSTicketMessage.GetCreatedAt()
+  - CRMScript.NetServer.NSTicketMessage.GetEmailHeader()
+  - CRMScript.NetServer.NSTicketMessage.GetImportant()
+  - CRMScript.NetServer.NSTicketMessage.GetNumAttachments()
+  - CRMScript.NetServer.NSTicketMessage.GetPersonFullName()
+  - CRMScript.NetServer.NSTicketMessage.GetPersonId()
+  - CRMScript.NetServer.NSTicketMessage.GetSlevel()
+  - CRMScript.NetServer.NSTicketMessage.GetTicketMessageId()
+  - CRMScript.NetServer.NSTicketMessage.SetAuthor(String)
+  - CRMScript.NetServer.NSTicketMessage.SetContactDepartment(String)
+  - CRMScript.NetServer.NSTicketMessage.SetContactId(Integer)
+  - CRMScript.NetServer.NSTicketMessage.SetContactName(String)
+  - CRMScript.NetServer.NSTicketMessage.SetCreatedAt(DateTime)
+  - CRMScript.NetServer.NSTicketMessage.SetEmailHeader(String)
+  - CRMScript.NetServer.NSTicketMessage.SetImportant(Bool)
+  - CRMScript.NetServer.NSTicketMessage.SetNumAttachments(Integer)
+  - CRMScript.NetServer.NSTicketMessage.SetPersonFullName(String)
+  - CRMScript.NetServer.NSTicketMessage.SetPersonId(Integer)
+  - CRMScript.NetServer.NSTicketMessage.SetSlevel(Integer)
+  - CRMScript.NetServer.NSTicketMessage.SetTicketMessageId(Integer)
+  name: NSTicketMessage
+  nameWithType: NSTicketMessage
+  fullName: CRMScript.NetServer.NSTicketMessage
+  type: Class
+  summary: "\nThe TicketMessage carrier is used for representing a service ticket message.\n"
+  example: 
+- uid: CRMScript.NetServer.NSTicketMessage.#ctor
+  commentId: M:CRMScript.NetServer.NSTicketMessage.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSTicketMessage
+  langs:
+  - crmscript
+  name: NSTicketMessage()
+  nameWithType: NSTicketMessage.#ctor
+  fullName: CRMScript.NetServer.NSTicketMessage.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSTicketMessage class.\n"
+  remarks: 
+  syntax: 
+    content: NSTicketMessage
+  example: 
+- uid: CRMScript.NetServer.NSTicketMessage.GetAuthor()
+  commentId: M:CRMScript.NetServer.NSTicketMessage.GetAuthor()
+  id: 'GetAuthor()'
+  so.intellisense: NSTicketMessage.GetAuthor
+  langs:
+  - crmscript
+  name: 'GetAuthor()'
+  nameWithType: NSTicketMessage.GetAuthor()
+  fullName: CRMScript.NetServer.NSTicketMessage.GetAuthor()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetAuthor()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A string representing the author of the message. Could be a user's name, or a persons email address."
+  example: 
+  - "\n<pre><code>NSTicketMessage thing;\nString author = thing.GetAuthor();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessage.GetContactDepartment()
+  commentId: M:CRMScript.NetServer.NSTicketMessage.GetContactDepartment()
+  id: 'GetContactDepartment()'
+  so.intellisense: NSTicketMessage.GetContactDepartment
+  langs:
+  - crmscript
+  name: 'GetContactDepartment()'
+  nameWithType: NSTicketMessage.GetContactDepartment()
+  fullName: CRMScript.NetServer.NSTicketMessage.GetContactDepartment()
+  type: Method
+  summary: "\\n"
+  remarks: 
+  syntax: 
+    content: String GetContactDepartment()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "nDepartment."
+  example: 
+  - "\n<pre><code>NSTicketMessage thing;\nString contactDepartment = thing.GetContactDepartment();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessage.GetContactId()
+  commentId: M:CRMScript.NetServer.NSTicketMessage.GetContactId()
+  id: 'GetContactId()'
+  so.intellisense: NSTicketMessage.GetContactId
+  langs:
+  - crmscript
+  name: 'GetContactId()'
+  nameWithType: NSTicketMessage.GetContactId()
+  fullName: CRMScript.NetServer.NSTicketMessage.GetContactId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetContactId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSTicketMessage thing;\nInteger contactId = thing.GetContactId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessage.GetContactName()
+  commentId: M:CRMScript.NetServer.NSTicketMessage.GetContactName()
+  id: 'GetContactName()'
+  so.intellisense: NSTicketMessage.GetContactName
+  langs:
+  - crmscript
+  name: 'GetContactName()'
+  nameWithType: NSTicketMessage.GetContactName()
+  fullName: CRMScript.NetServer.NSTicketMessage.GetContactName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetContactName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Contact name."
+  example: 
+  - "\n<pre><code>NSTicketMessage thing;\nString contactName = thing.GetContactName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessage.GetCreatedAt()
+  commentId: M:CRMScript.NetServer.NSTicketMessage.GetCreatedAt()
+  id: 'GetCreatedAt()'
+  so.intellisense: NSTicketMessage.GetCreatedAt
+  langs:
+  - crmscript
+  name: 'GetCreatedAt()'
+  nameWithType: NSTicketMessage.GetCreatedAt()
+  fullName: CRMScript.NetServer.NSTicketMessage.GetCreatedAt()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetCreatedAt()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "When the message was posted."
+  example: 
+  - "\n<pre><code>NSTicketMessage thing;\nDateTime createdAt = thing.GetCreatedAt();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessage.GetEmailHeader()
+  commentId: M:CRMScript.NetServer.NSTicketMessage.GetEmailHeader()
+  id: 'GetEmailHeader()'
+  so.intellisense: NSTicketMessage.GetEmailHeader
+  langs:
+  - crmscript
+  name: 'GetEmailHeader()'
+  nameWithType: NSTicketMessage.GetEmailHeader()
+  fullName: CRMScript.NetServer.NSTicketMessage.GetEmailHeader()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetEmailHeader()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The email header is saved in this field as raw text."
+  example: 
+  - "\n<pre><code>NSTicketMessage thing;\nString emailHeader = thing.GetEmailHeader();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessage.GetImportant()
+  commentId: M:CRMScript.NetServer.NSTicketMessage.GetImportant()
+  id: 'GetImportant()'
+  so.intellisense: NSTicketMessage.GetImportant
+  langs:
+  - crmscript
+  name: 'GetImportant()'
+  nameWithType: NSTicketMessage.GetImportant()
+  fullName: CRMScript.NetServer.NSTicketMessage.GetImportant()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetImportant()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If this message is important or not."
+  example: 
+  - "\n<pre><code>NSTicketMessage thing;\nBool important = thing.GetImportant();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessage.GetNumAttachments()
+  commentId: M:CRMScript.NetServer.NSTicketMessage.GetNumAttachments()
+  id: 'GetNumAttachments()'
+  so.intellisense: NSTicketMessage.GetNumAttachments
+  langs:
+  - crmscript
+  name: 'GetNumAttachments()'
+  nameWithType: NSTicketMessage.GetNumAttachments()
+  fullName: CRMScript.NetServer.NSTicketMessage.GetNumAttachments()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetNumAttachments()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of attachments in the message."
+  example: 
+  - "\n<pre><code>NSTicketMessage thing;\nInteger numAttachments = thing.GetNumAttachments();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessage.GetPersonFullName()
+  commentId: M:CRMScript.NetServer.NSTicketMessage.GetPersonFullName()
+  id: 'GetPersonFullName()'
+  so.intellisense: NSTicketMessage.GetPersonFullName
+  langs:
+  - crmscript
+  name: 'GetPersonFullName()'
+  nameWithType: NSTicketMessage.GetPersonFullName()
+  fullName: CRMScript.NetServer.NSTicketMessage.GetPersonFullName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPersonFullName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Gets the persons full name (internal name used in clients for employees)."
+  example: 
+  - "\n<pre><code>NSTicketMessage thing;\nString personFullName = thing.GetPersonFullName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessage.GetPersonId()
+  commentId: M:CRMScript.NetServer.NSTicketMessage.GetPersonId()
+  id: 'GetPersonId()'
+  so.intellisense: NSTicketMessage.GetPersonId
+  langs:
+  - crmscript
+  name: 'GetPersonId()'
+  nameWithType: NSTicketMessage.GetPersonId()
+  fullName: CRMScript.NetServer.NSTicketMessage.GetPersonId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPersonId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSTicketMessage thing;\nInteger personId = thing.GetPersonId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessage.GetSlevel()
+  commentId: M:CRMScript.NetServer.NSTicketMessage.GetSlevel()
+  id: 'GetSlevel()'
+  so.intellisense: NSTicketMessage.GetSlevel
+  langs:
+  - crmscript
+  name: 'GetSlevel()'
+  nameWithType: NSTicketMessage.GetSlevel()
+  fullName: CRMScript.NetServer.NSTicketMessage.GetSlevel()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSlevel()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The security-level of the message. See <xref href=\"CRMScript.NetServer.TicketSecurityLevel\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSTicketMessage thing;\nInteger slevel = thing.GetSlevel();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessage.GetTicketMessageId()
+  commentId: M:CRMScript.NetServer.NSTicketMessage.GetTicketMessageId()
+  id: 'GetTicketMessageId()'
+  so.intellisense: NSTicketMessage.GetTicketMessageId
+  langs:
+  - crmscript
+  name: 'GetTicketMessageId()'
+  nameWithType: NSTicketMessage.GetTicketMessageId()
+  fullName: CRMScript.NetServer.NSTicketMessage.GetTicketMessageId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTicketMessageId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The primary key (auto-incremented)."
+  example: 
+  - "\n<pre><code>NSTicketMessage thing;\nInteger ticketMessageId = thing.GetTicketMessageId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessage.SetAuthor(String)
+  commentId: M:CRMScript.NetServer.NSTicketMessage.SetAuthor(String)
+  id: 'SetAuthor(String)'
+  so.intellisense: NSTicketMessage.SetAuthor
+  langs:
+  - crmscript
+  name: 'SetAuthor(String)'
+  nameWithType: NSTicketMessage.SetAuthor(String)
+  fullName: CRMScript.NetServer.NSTicketMessage.SetAuthor(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAuthor(String author)
+    parameters:
+    - id: author
+      type: CRMScript.Global.String
+      description: "A string representing the author of the message. Could be a user's name, or a persons email address."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessage thing;\nString author;\nthing.SetAuthor(author);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessage.SetContactDepartment(String)
+  commentId: M:CRMScript.NetServer.NSTicketMessage.SetContactDepartment(String)
+  id: 'SetContactDepartment(String)'
+  so.intellisense: NSTicketMessage.SetContactDepartment
+  langs:
+  - crmscript
+  name: 'SetContactDepartment(String)'
+  nameWithType: NSTicketMessage.SetContactDepartment(String)
+  fullName: CRMScript.NetServer.NSTicketMessage.SetContactDepartment(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactDepartment(String contactDepartment)
+    parameters:
+    - id: contactDepartment
+      type: CRMScript.Global.String
+      description: "Department."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessage thing;\nString contactDepartment;\nthing.SetContactDepartment(contactDepartment);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessage.SetContactId(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketMessage.SetContactId(Integer)
+  id: 'SetContactId(Integer)'
+  so.intellisense: NSTicketMessage.SetContactId
+  langs:
+  - crmscript
+  name: 'SetContactId(Integer)'
+  nameWithType: NSTicketMessage.SetContactId(Integer)
+  fullName: CRMScript.NetServer.NSTicketMessage.SetContactId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactId(Integer contactId)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessage thing;\nInteger contactId;\nthing.SetContactId(contactId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessage.SetContactName(String)
+  commentId: M:CRMScript.NetServer.NSTicketMessage.SetContactName(String)
+  id: 'SetContactName(String)'
+  so.intellisense: NSTicketMessage.SetContactName
+  langs:
+  - crmscript
+  name: 'SetContactName(String)'
+  nameWithType: NSTicketMessage.SetContactName(String)
+  fullName: CRMScript.NetServer.NSTicketMessage.SetContactName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactName(String contactName)
+    parameters:
+    - id: contactName
+      type: CRMScript.Global.String
+      description: "Contact name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessage thing;\nString contactName;\nthing.SetContactName(contactName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessage.SetCreatedAt(DateTime)
+  commentId: M:CRMScript.NetServer.NSTicketMessage.SetCreatedAt(DateTime)
+  id: 'SetCreatedAt(DateTime)'
+  so.intellisense: NSTicketMessage.SetCreatedAt
+  langs:
+  - crmscript
+  name: 'SetCreatedAt(DateTime)'
+  nameWithType: NSTicketMessage.SetCreatedAt(DateTime)
+  fullName: CRMScript.NetServer.NSTicketMessage.SetCreatedAt(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCreatedAt(DateTime createdAt)
+    parameters:
+    - id: createdAt
+      type: CRMScript.Global.DateTime
+      description: "When the message was posted."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessage thing;\nDateTime createdAt;\nthing.SetCreatedAt(createdAt);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessage.SetEmailHeader(String)
+  commentId: M:CRMScript.NetServer.NSTicketMessage.SetEmailHeader(String)
+  id: 'SetEmailHeader(String)'
+  so.intellisense: NSTicketMessage.SetEmailHeader
+  langs:
+  - crmscript
+  name: 'SetEmailHeader(String)'
+  nameWithType: NSTicketMessage.SetEmailHeader(String)
+  fullName: CRMScript.NetServer.NSTicketMessage.SetEmailHeader(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEmailHeader(String emailHeader)
+    parameters:
+    - id: emailHeader
+      type: CRMScript.Global.String
+      description: "The email header is saved in this field as raw text."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessage thing;\nString emailHeader;\nthing.SetEmailHeader(emailHeader);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessage.SetImportant(Bool)
+  commentId: M:CRMScript.NetServer.NSTicketMessage.SetImportant(Bool)
+  id: 'SetImportant(Bool)'
+  so.intellisense: NSTicketMessage.SetImportant
+  langs:
+  - crmscript
+  name: 'SetImportant(Bool)'
+  nameWithType: NSTicketMessage.SetImportant(Bool)
+  fullName: CRMScript.NetServer.NSTicketMessage.SetImportant(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetImportant(Bool important)
+    parameters:
+    - id: important
+      type: CRMScript.Global.Bool
+      description: "If this message is important or not."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessage thing;\nBool important;\nthing.SetImportant(important);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessage.SetNumAttachments(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketMessage.SetNumAttachments(Integer)
+  id: 'SetNumAttachments(Integer)'
+  so.intellisense: NSTicketMessage.SetNumAttachments
+  langs:
+  - crmscript
+  name: 'SetNumAttachments(Integer)'
+  nameWithType: NSTicketMessage.SetNumAttachments(Integer)
+  fullName: CRMScript.NetServer.NSTicketMessage.SetNumAttachments(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetNumAttachments(Integer numAttachments)
+    parameters:
+    - id: numAttachments
+      type: CRMScript.Global.Integer
+      description: "Number of attachments in the message."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessage thing;\nInteger numAttachments;\nthing.SetNumAttachments(numAttachments);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessage.SetPersonFullName(String)
+  commentId: M:CRMScript.NetServer.NSTicketMessage.SetPersonFullName(String)
+  id: 'SetPersonFullName(String)'
+  so.intellisense: NSTicketMessage.SetPersonFullName
+  langs:
+  - crmscript
+  name: 'SetPersonFullName(String)'
+  nameWithType: NSTicketMessage.SetPersonFullName(String)
+  fullName: CRMScript.NetServer.NSTicketMessage.SetPersonFullName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonFullName(String personFullName)
+    parameters:
+    - id: personFullName
+      type: CRMScript.Global.String
+      description: "Gets the persons full name (internal name used in clients for employees)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessage thing;\nString personFullName;\nthing.SetPersonFullName(personFullName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessage.SetPersonId(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketMessage.SetPersonId(Integer)
+  id: 'SetPersonId(Integer)'
+  so.intellisense: NSTicketMessage.SetPersonId
+  langs:
+  - crmscript
+  name: 'SetPersonId(Integer)'
+  nameWithType: NSTicketMessage.SetPersonId(Integer)
+  fullName: CRMScript.NetServer.NSTicketMessage.SetPersonId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonId(Integer personId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessage thing;\nInteger personId;\nthing.SetPersonId(personId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessage.SetSlevel(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketMessage.SetSlevel(Integer)
+  id: 'SetSlevel(Integer)'
+  so.intellisense: NSTicketMessage.SetSlevel
+  langs:
+  - crmscript
+  name: 'SetSlevel(Integer)'
+  nameWithType: NSTicketMessage.SetSlevel(Integer)
+  fullName: CRMScript.NetServer.NSTicketMessage.SetSlevel(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSlevel(Integer slevel)
+    parameters:
+    - id: slevel
+      type: CRMScript.Global.Integer
+      description: "The security-level of the message. See <xref href=\"CRMScript.NetServer.TicketSecurityLevel\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessage thing;\nInteger slevel;\nthing.SetSlevel(slevel);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessage.SetTicketMessageId(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketMessage.SetTicketMessageId(Integer)
+  id: 'SetTicketMessageId(Integer)'
+  so.intellisense: NSTicketMessage.SetTicketMessageId
+  langs:
+  - crmscript
+  name: 'SetTicketMessageId(Integer)'
+  nameWithType: NSTicketMessage.SetTicketMessageId(Integer)
+  fullName: CRMScript.NetServer.NSTicketMessage.SetTicketMessageId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTicketMessageId(Integer ticketMessageId)
+    parameters:
+    - id: ticketMessageId
+      type: CRMScript.Global.Integer
+      description: "The primary key (auto-incremented)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessage thing;\nInteger ticketMessageId;\nthing.SetTicketMessageId(ticketMessageId);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSTicketMessage
+  commentId: T:CRMScript.NetServer.NSTicketMessage
+  isExternal: true
+  name: NSTicketMessage
+  nameWithType: NSTicketMessage
+  fullName: CRMScript.NetServer.NSTicketMessage
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.TicketSecurityLevel
+  commentId: T:CRMScript.NetServer.TicketSecurityLevel
+  isExternal: true
+  name: TicketSecurityLevel
+  nameWithType: TicketSecurityLevel
+  fullName: CRMScript.NetServer.TicketSecurityLevel

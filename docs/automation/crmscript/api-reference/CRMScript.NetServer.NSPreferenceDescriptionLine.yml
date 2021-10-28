@@ -1,0 +1,325 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSPreferenceDescriptionLine
+  commentId: T:CRMScript.NetServer.NSPreferenceDescriptionLine
+  id: NSPreferenceDescriptionLine
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSPreferenceDescriptionLine.#ctor
+  - CRMScript.NetServer.NSPreferenceDescriptionLine.GetDescription()
+  - CRMScript.NetServer.NSPreferenceDescriptionLine.GetIsBuiltin()
+  - CRMScript.NetServer.NSPreferenceDescriptionLine.GetPrefDescId()
+  - CRMScript.NetServer.NSPreferenceDescriptionLine.GetPrefDescLineId()
+  - CRMScript.NetServer.NSPreferenceDescriptionLine.GetPrefShowValue()
+  - CRMScript.NetServer.NSPreferenceDescriptionLine.GetPrefValue()
+  - CRMScript.NetServer.NSPreferenceDescriptionLine.SetDescription(String)
+  - CRMScript.NetServer.NSPreferenceDescriptionLine.SetIsBuiltin(Bool)
+  - CRMScript.NetServer.NSPreferenceDescriptionLine.SetPrefDescId(Integer)
+  - CRMScript.NetServer.NSPreferenceDescriptionLine.SetPrefDescLineId(Integer)
+  - CRMScript.NetServer.NSPreferenceDescriptionLine.SetPrefShowValue(String)
+  - CRMScript.NetServer.NSPreferenceDescriptionLine.SetPrefValue(String)
+  name: NSPreferenceDescriptionLine
+  nameWithType: NSPreferenceDescriptionLine
+  fullName: CRMScript.NetServer.NSPreferenceDescriptionLine
+  type: Class
+  summary: "\nPreference description line, contains information about a single item in a preference description list.\n"
+  example: 
+- uid: CRMScript.NetServer.NSPreferenceDescriptionLine.#ctor
+  commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSPreferenceDescriptionLine
+  langs:
+  - crmscript
+  name: NSPreferenceDescriptionLine()
+  nameWithType: NSPreferenceDescriptionLine.#ctor
+  fullName: CRMScript.NetServer.NSPreferenceDescriptionLine.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSPreferenceDescriptionLine class.\n"
+  remarks: 
+  syntax: 
+    content: NSPreferenceDescriptionLine
+  example: 
+- uid: CRMScript.NetServer.NSPreferenceDescriptionLine.GetDescription()
+  commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSPreferenceDescriptionLine.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSPreferenceDescriptionLine.GetDescription()
+  fullName: CRMScript.NetServer.NSPreferenceDescriptionLine.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Description of preference value, multi-language parsed."
+  example: 
+  - "\n<pre><code>NSPreferenceDescriptionLine thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceDescriptionLine.GetIsBuiltin()
+  commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.GetIsBuiltin()
+  id: 'GetIsBuiltin()'
+  so.intellisense: NSPreferenceDescriptionLine.GetIsBuiltin
+  langs:
+  - crmscript
+  name: 'GetIsBuiltin()'
+  nameWithType: NSPreferenceDescriptionLine.GetIsBuiltin()
+  fullName: CRMScript.NetServer.NSPreferenceDescriptionLine.GetIsBuiltin()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsBuiltin()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "1 = This row populated and maintained by SuperOffice."
+  example: 
+  - "\n<pre><code>NSPreferenceDescriptionLine thing;\nBool isBuiltin = thing.GetIsBuiltin();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceDescriptionLine.GetPrefDescId()
+  commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.GetPrefDescId()
+  id: 'GetPrefDescId()'
+  so.intellisense: NSPreferenceDescriptionLine.GetPrefDescId
+  langs:
+  - crmscript
+  name: 'GetPrefDescId()'
+  nameWithType: NSPreferenceDescriptionLine.GetPrefDescId()
+  fullName: CRMScript.NetServer.NSPreferenceDescriptionLine.GetPrefDescId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPrefDescId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Preference description (parent)."
+  example: 
+  - "\n<pre><code>NSPreferenceDescriptionLine thing;\nInteger prefDescId = thing.GetPrefDescId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceDescriptionLine.GetPrefDescLineId()
+  commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.GetPrefDescLineId()
+  id: 'GetPrefDescLineId()'
+  so.intellisense: NSPreferenceDescriptionLine.GetPrefDescLineId
+  langs:
+  - crmscript
+  name: 'GetPrefDescLineId()'
+  nameWithType: NSPreferenceDescriptionLine.GetPrefDescLineId()
+  fullName: CRMScript.NetServer.NSPreferenceDescriptionLine.GetPrefDescLineId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPrefDescLineId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSPreferenceDescriptionLine thing;\nInteger prefDescLineId = thing.GetPrefDescLineId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceDescriptionLine.GetPrefShowValue()
+  commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.GetPrefShowValue()
+  id: 'GetPrefShowValue()'
+  so.intellisense: NSPreferenceDescriptionLine.GetPrefShowValue
+  langs:
+  - crmscript
+  name: 'GetPrefShowValue()'
+  nameWithType: NSPreferenceDescriptionLine.GetPrefShowValue()
+  fullName: CRMScript.NetServer.NSPreferenceDescriptionLine.GetPrefShowValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPrefShowValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Descriptive value, multilang-parsed, to put in list."
+  example: 
+  - "\n<pre><code>NSPreferenceDescriptionLine thing;\nString prefShowValue = thing.GetPrefShowValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceDescriptionLine.GetPrefValue()
+  commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.GetPrefValue()
+  id: 'GetPrefValue()'
+  so.intellisense: NSPreferenceDescriptionLine.GetPrefValue
+  langs:
+  - crmscript
+  name: 'GetPrefValue()'
+  nameWithType: NSPreferenceDescriptionLine.GetPrefValue()
+  fullName: CRMScript.NetServer.NSPreferenceDescriptionLine.GetPrefValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPrefValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Possible value."
+  example: 
+  - "\n<pre><code>NSPreferenceDescriptionLine thing;\nString prefValue = thing.GetPrefValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceDescriptionLine.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSPreferenceDescriptionLine.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSPreferenceDescriptionLine.SetDescription(String)
+  fullName: CRMScript.NetServer.NSPreferenceDescriptionLine.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "Description of preference value, multi-language parsed."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreferenceDescriptionLine thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceDescriptionLine.SetIsBuiltin(Bool)
+  commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.SetIsBuiltin(Bool)
+  id: 'SetIsBuiltin(Bool)'
+  so.intellisense: NSPreferenceDescriptionLine.SetIsBuiltin
+  langs:
+  - crmscript
+  name: 'SetIsBuiltin(Bool)'
+  nameWithType: NSPreferenceDescriptionLine.SetIsBuiltin(Bool)
+  fullName: CRMScript.NetServer.NSPreferenceDescriptionLine.SetIsBuiltin(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsBuiltin(Bool isBuiltin)
+    parameters:
+    - id: isBuiltin
+      type: CRMScript.Global.Bool
+      description: "1 = This row populated and maintained by SuperOffice."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreferenceDescriptionLine thing;\nBool isBuiltin;\nthing.SetIsBuiltin(isBuiltin);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceDescriptionLine.SetPrefDescId(Integer)
+  commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.SetPrefDescId(Integer)
+  id: 'SetPrefDescId(Integer)'
+  so.intellisense: NSPreferenceDescriptionLine.SetPrefDescId
+  langs:
+  - crmscript
+  name: 'SetPrefDescId(Integer)'
+  nameWithType: NSPreferenceDescriptionLine.SetPrefDescId(Integer)
+  fullName: CRMScript.NetServer.NSPreferenceDescriptionLine.SetPrefDescId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPrefDescId(Integer prefDescId)
+    parameters:
+    - id: prefDescId
+      type: CRMScript.Global.Integer
+      description: "Preference description (parent)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreferenceDescriptionLine thing;\nInteger prefDescId;\nthing.SetPrefDescId(prefDescId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceDescriptionLine.SetPrefDescLineId(Integer)
+  commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.SetPrefDescLineId(Integer)
+  id: 'SetPrefDescLineId(Integer)'
+  so.intellisense: NSPreferenceDescriptionLine.SetPrefDescLineId
+  langs:
+  - crmscript
+  name: 'SetPrefDescLineId(Integer)'
+  nameWithType: NSPreferenceDescriptionLine.SetPrefDescLineId(Integer)
+  fullName: CRMScript.NetServer.NSPreferenceDescriptionLine.SetPrefDescLineId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPrefDescLineId(Integer prefDescLineId)
+    parameters:
+    - id: prefDescLineId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreferenceDescriptionLine thing;\nInteger prefDescLineId;\nthing.SetPrefDescLineId(prefDescLineId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceDescriptionLine.SetPrefShowValue(String)
+  commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.SetPrefShowValue(String)
+  id: 'SetPrefShowValue(String)'
+  so.intellisense: NSPreferenceDescriptionLine.SetPrefShowValue
+  langs:
+  - crmscript
+  name: 'SetPrefShowValue(String)'
+  nameWithType: NSPreferenceDescriptionLine.SetPrefShowValue(String)
+  fullName: CRMScript.NetServer.NSPreferenceDescriptionLine.SetPrefShowValue(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPrefShowValue(String prefShowValue)
+    parameters:
+    - id: prefShowValue
+      type: CRMScript.Global.String
+      description: "Descriptive value, multilang-parsed, to put in list."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreferenceDescriptionLine thing;\nString prefShowValue;\nthing.SetPrefShowValue(prefShowValue);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreferenceDescriptionLine.SetPrefValue(String)
+  commentId: M:CRMScript.NetServer.NSPreferenceDescriptionLine.SetPrefValue(String)
+  id: 'SetPrefValue(String)'
+  so.intellisense: NSPreferenceDescriptionLine.SetPrefValue
+  langs:
+  - crmscript
+  name: 'SetPrefValue(String)'
+  nameWithType: NSPreferenceDescriptionLine.SetPrefValue(String)
+  fullName: CRMScript.NetServer.NSPreferenceDescriptionLine.SetPrefValue(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPrefValue(String prefValue)
+    parameters:
+    - id: prefValue
+      type: CRMScript.Global.String
+      description: "Possible value."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreferenceDescriptionLine thing;\nString prefValue;\nthing.SetPrefValue(prefValue);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSPreferenceDescriptionLine
+  commentId: T:CRMScript.NetServer.NSPreferenceDescriptionLine
+  isExternal: true
+  name: NSPreferenceDescriptionLine
+  nameWithType: NSPreferenceDescriptionLine
+  fullName: CRMScript.NetServer.NSPreferenceDescriptionLine
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

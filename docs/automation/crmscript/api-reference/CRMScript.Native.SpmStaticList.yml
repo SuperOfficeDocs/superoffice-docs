@@ -1,0 +1,241 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.SpmStaticList
+  commentId: T:CRMScript.Native.SpmStaticList
+  id: SpmStaticList
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.SpmStaticList.#ctor
+  - CRMScript.Native.SpmStaticList.addRecipient(String,String)
+  - CRMScript.Native.SpmStaticList.delete()
+  - CRMScript.Native.SpmStaticList.getRecipients()
+  - CRMScript.Native.SpmStaticList.sload(Integer)
+  - CRMScript.Native.SpmStaticList.removeRecipient(String)
+  - CRMScript.Native.SpmStaticList.save()
+  - CRMScript.Native.SpmStaticList.setFolderId(Integer)
+  - CRMScript.Native.SpmStaticList.setName(String)
+  name: SpmStaticList
+  nameWithType: SpmStaticList
+  fullName: CRMScript.Native.SpmStaticList
+  type: Class
+  summary: "\nWith this class you can create and edit static lists in the eMarketeer. A static list consist of one or more email addresses (and possible a matching name) which will be used when creating a shipment.\n"
+  example: 
+- uid: CRMScript.Native.SpmStaticList.#ctor
+  commentId: M:CRMScript.Native.SpmStaticList.#ctor
+  id: '#ctor'
+  so.intellisense: Void.SpmStaticList
+  langs:
+  - crmscript
+  name: SpmStaticList()
+  nameWithType: SpmStaticList.#ctor
+  fullName: CRMScript.Native.SpmStaticList.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the SpmStaticList class.\n"
+  remarks: 
+  syntax: 
+    content: SpmStaticList
+  example: 
+- uid: CRMScript.Native.SpmStaticList.addRecipient(String,String)
+  commentId: M:CRMScript.Native.SpmStaticList.addRecipient(String,String)
+  id: 'addRecipient(String,String)'
+  so.intellisense: SpmStaticList.addRecipient
+  langs:
+  - crmscript
+  name: 'addRecipient(String,String)'
+  nameWithType: SpmStaticList.addRecipient(String,String)
+  fullName: CRMScript.Native.SpmStaticList.addRecipient(String,String)
+  type: Method
+  summary: "\nAdds a recipient to the static list.\n"
+  remarks: "\nYou must specify the email address of the recipient (the first parameter) and optional you can specify the name of the recipient.\n"
+  syntax: 
+    content: Void addRecipient(String address, String name)
+    parameters:
+    - id: address
+      type: CRMScript.Global.String
+      description: "The email address of the recipient"
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of the recipient."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.SpmStaticList.delete()
+  commentId: M:CRMScript.Native.SpmStaticList.delete()
+  id: 'delete()'
+  so.intellisense: SpmStaticList.delete
+  langs:
+  - crmscript
+  name: 'delete()'
+  nameWithType: SpmStaticList.delete()
+  fullName: CRMScript.Native.SpmStaticList.delete()
+  type: Method
+  summary: "\nDeletes a static list.\n"
+  remarks: "\nIf the list is in use by a shipment, the list will not be deleted.\n"
+  syntax: 
+    content: Bool delete()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If the list was actually deleted; otherwise, false."
+  example: 
+- uid: CRMScript.Native.SpmStaticList.getRecipients()
+  commentId: M:CRMScript.Native.SpmStaticList.getRecipients()
+  id: 'getRecipients()'
+  so.intellisense: SpmStaticList.getRecipients
+  langs:
+  - crmscript
+  name: 'getRecipients()'
+  nameWithType: SpmStaticList.getRecipients()
+  fullName: CRMScript.Native.SpmStaticList.getRecipients()
+  type: Method
+  summary: "\nGets a map of all the recipients in this list. The first element will be the email address and the second element the name of the recipient.\n"
+  remarks: 
+  syntax: 
+    content: Map getRecipients()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description: "A map containing all the recipients."
+  example: 
+- uid: CRMScript.Native.SpmStaticList.sload(Integer)
+  commentId: M:CRMScript.Native.SpmStaticList.sload(Integer)
+  id: 'sload(Integer)'
+  so.intellisense: SpmStaticList.load
+  langs:
+  - crmscript
+  name: 'sload(Integer)'
+  nameWithType: SpmStaticList.sload(Integer)
+  fullName: CRMScript.Native.SpmStaticList.sload(Integer)
+  type: Method
+  summary: "\nLoads an existing static list.\n"
+  remarks: 
+  syntax: 
+    content: Bool load(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "The ID of the static list."
+    return:
+      type: CRMScript.Global.Bool
+      description: "False if the list was not found; otherwise, true."
+  example: 
+- uid: CRMScript.Native.SpmStaticList.removeRecipient(String)
+  commentId: M:CRMScript.Native.SpmStaticList.removeRecipient(String)
+  id: 'removeRecipient(String)'
+  so.intellisense: SpmStaticList.removeRecipient
+  langs:
+  - crmscript
+  name: 'removeRecipient(String)'
+  nameWithType: SpmStaticList.removeRecipient(String)
+  fullName: CRMScript.Native.SpmStaticList.removeRecipient(String)
+  type: Method
+  summary: "\nRemoves a recipient from the list identified by the email address.\n"
+  remarks: 
+  syntax: 
+    content: Void removeRecipient(String address)
+    parameters:
+    - id: address
+      type: CRMScript.Global.String
+      description: "The email address of the recipient to be removed."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.SpmStaticList.save()
+  commentId: M:CRMScript.Native.SpmStaticList.save()
+  id: 'save()'
+  so.intellisense: SpmStaticList.save
+  langs:
+  - crmscript
+  name: 'save()'
+  nameWithType: SpmStaticList.save()
+  fullName: CRMScript.Native.SpmStaticList.save()
+  type: Method
+  summary: "\nSaves the list and the recipients.\n"
+  remarks: 
+  syntax: 
+    content: Integer save()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the SpmStaticList object."
+  example: 
+- uid: CRMScript.Native.SpmStaticList.setFolderId(Integer)
+  commentId: M:CRMScript.Native.SpmStaticList.setFolderId(Integer)
+  id: 'setFolderId(Integer)'
+  so.intellisense: SpmStaticList.setFolderId
+  langs:
+  - crmscript
+  name: 'setFolderId(Integer)'
+  nameWithType: SpmStaticList.setFolderId(Integer)
+  fullName: CRMScript.Native.SpmStaticList.setFolderId(Integer)
+  type: Method
+  summary: "\nSets folder ID for a static list.\n"
+  remarks: 
+  syntax: 
+    content: Void setFolderId(Integer folderId)
+    parameters:
+    - id: folderId
+      type: CRMScript.Global.Integer
+      description: "The ID of the folder for this list."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.SpmStaticList.setName(String)
+  commentId: M:CRMScript.Native.SpmStaticList.setName(String)
+  id: 'setName(String)'
+  so.intellisense: SpmStaticList.setName
+  langs:
+  - crmscript
+  name: 'setName(String)'
+  nameWithType: SpmStaticList.setName(String)
+  fullName: CRMScript.Native.SpmStaticList.setName(String)
+  type: Method
+  summary: "\nSets the name of this list.\n"
+  remarks: "\nThis is only a descriptive text that will be shown in Service.\n"
+  syntax: 
+    content: Void setName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of the list."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.Native.SpmStaticList
+  commentId: T:CRMScript.Native.SpmStaticList
+  isExternal: true
+  name: SpmStaticList
+  nameWithType: SpmStaticList
+  fullName: CRMScript.Native.SpmStaticList
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.Native.Map
+  commentId: T:CRMScript.Native.Map
+  isExternal: true
+  name: Map
+  nameWithType: Map
+  fullName: CRMScript.Native.Map

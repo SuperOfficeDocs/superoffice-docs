@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSCustomerLanguage
+  commentId: T:CRMScript.NetServer.NSCustomerLanguage
+  id: NSCustomerLanguage
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSCustomerLanguage.#ctor
+  - CRMScript.NetServer.NSCustomerLanguage.GetId()
+  - CRMScript.NetServer.NSCustomerLanguage.GetTooltip()
+  - CRMScript.NetServer.NSCustomerLanguage.GetValue()
+  - CRMScript.NetServer.NSCustomerLanguage.SetId(Integer)
+  - CRMScript.NetServer.NSCustomerLanguage.SetTooltip(String)
+  - CRMScript.NetServer.NSCustomerLanguage.SetValue(String)
+  name: NSCustomerLanguage
+  nameWithType: NSCustomerLanguage
+  fullName: CRMScript.NetServer.NSCustomerLanguage
+  type: Class
+  summary: "\nCustomer languages that customer center supports. Carrier object for CustomerLanguage.\n"
+  example: 
+- uid: CRMScript.NetServer.NSCustomerLanguage.#ctor
+  commentId: M:CRMScript.NetServer.NSCustomerLanguage.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSCustomerLanguage
+  langs:
+  - crmscript
+  name: NSCustomerLanguage()
+  nameWithType: NSCustomerLanguage.#ctor
+  fullName: CRMScript.NetServer.NSCustomerLanguage.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSCustomerLanguage class.\n"
+  remarks: 
+  syntax: 
+    content: NSCustomerLanguage
+  example: 
+- uid: CRMScript.NetServer.NSCustomerLanguage.GetId()
+  commentId: M:CRMScript.NetServer.NSCustomerLanguage.GetId()
+  id: 'GetId()'
+  so.intellisense: NSCustomerLanguage.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSCustomerLanguage.GetId()
+  fullName: CRMScript.NetServer.NSCustomerLanguage.GetId()
+  type: Method
+  summary: "\nGets the primary key (ID) for the NSCustomerLanguage.\n"
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerLanguage thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerLanguage.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSCustomerLanguage.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSCustomerLanguage.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSCustomerLanguage.GetTooltip()
+  fullName: CRMScript.NetServer.NSCustomerLanguage.GetTooltip()
+  type: Method
+  summary: "\nGets the tooltip description for the NSCustomerLanguage list item.\n"
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerLanguage thing;\nString descr = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerLanguage.GetValue()
+  commentId: M:CRMScript.NetServer.NSCustomerLanguage.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSCustomerLanguage.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSCustomerLanguage.GetValue()
+  fullName: CRMScript.NetServer.NSCustomerLanguage.GetValue()
+  type: Method
+  summary: "\nGets the name of the NSCustomerLanguage.\n"
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerLanguage thing;\nString name = thing.GetValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerLanguage.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSCustomerLanguage.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSCustomerLanguage.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSCustomerLanguage.SetId(Integer)
+  fullName: CRMScript.NetServer.NSCustomerLanguage.SetId(Integer)
+  type: Method
+  summary: "\nSets the primary key (ID) for the NSCustomerLanguage\n"
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCustomerLanguage thing;\nthing.SetId(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerLanguage.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSCustomerLanguage.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSCustomerLanguage.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSCustomerLanguage.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSCustomerLanguage.SetTooltip(String)
+  type: Method
+  summary: "\nSets the tooltip description for the NSCustomerLanguage list item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCustomerLanguage thing;\nString descr = &quot;something new&quot;;\nthing.SetTooltip(descr);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerLanguage.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSCustomerLanguage.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSCustomerLanguage.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSCustomerLanguage.SetValue(String)
+  fullName: CRMScript.NetServer.NSCustomerLanguage.SetValue(String)
+  type: Method
+  summary: "\nSets the name of the NSCustomerLanguage item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCustomerLanguage thing;\nthing.SetValue(&quot;frotz&quot;);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSCustomerLanguage
+  commentId: T:CRMScript.NetServer.NSCustomerLanguage
+  isExternal: true
+  name: NSCustomerLanguage
+  nameWithType: NSCustomerLanguage
+  fullName: CRMScript.NetServer.NSCustomerLanguage
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

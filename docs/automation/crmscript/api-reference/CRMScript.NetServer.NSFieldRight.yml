@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSFieldRight
+  commentId: T:CRMScript.NetServer.NSFieldRight
+  id: NSFieldRight
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSFieldRight.#ctor
+  - CRMScript.NetServer.NSFieldRight.GetFieldRight()
+  - CRMScript.NetServer.NSFieldRight.GetMask()
+  - CRMScript.NetServer.NSFieldRight.GetReason()
+  - CRMScript.NetServer.NSFieldRight.SetFieldRight(Integer)
+  - CRMScript.NetServer.NSFieldRight.SetMask(Integer)
+  - CRMScript.NetServer.NSFieldRight.SetReason(String)
+  name: NSFieldRight
+  nameWithType: NSFieldRight
+  fullName: CRMScript.NetServer.NSFieldRight
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSFieldRight.#ctor
+  commentId: M:CRMScript.NetServer.NSFieldRight.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSFieldRight
+  langs:
+  - crmscript
+  name: NSFieldRight()
+  nameWithType: NSFieldRight.#ctor
+  fullName: CRMScript.NetServer.NSFieldRight.#ctor
+  type: Constructor
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSFieldRight
+  example: 
+- uid: CRMScript.NetServer.NSFieldRight.GetFieldRight()
+  commentId: M:CRMScript.NetServer.NSFieldRight.GetFieldRight()
+  id: 'GetFieldRight()'
+  so.intellisense: NSFieldRight.GetFieldRight
+  langs:
+  - crmscript
+  name: 'GetFieldRight()'
+  nameWithType: NSFieldRight.GetFieldRight()
+  fullName: CRMScript.NetServer.NSFieldRight.GetFieldRight()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetFieldRight()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSFieldRight.GetMask()
+  commentId: M:CRMScript.NetServer.NSFieldRight.GetMask()
+  id: 'GetMask()'
+  so.intellisense: NSFieldRight.GetMask
+  langs:
+  - crmscript
+  name: 'GetMask()'
+  nameWithType: NSFieldRight.GetMask()
+  fullName: CRMScript.NetServer.NSFieldRight.GetMask()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetMask()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSFieldRight.GetReason()
+  commentId: M:CRMScript.NetServer.NSFieldRight.GetReason()
+  id: 'GetReason()'
+  so.intellisense: NSFieldRight.GetReason
+  langs:
+  - crmscript
+  name: 'GetReason()'
+  nameWithType: NSFieldRight.GetReason()
+  fullName: CRMScript.NetServer.NSFieldRight.GetReason()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetReason()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: 
+  example: 
+- uid: CRMScript.NetServer.NSFieldRight.SetFieldRight(Integer)
+  commentId: M:CRMScript.NetServer.NSFieldRight.SetFieldRight(Integer)
+  id: 'SetFieldRight(Integer)'
+  so.intellisense: NSFieldRight.SetFieldRight
+  langs:
+  - crmscript
+  name: 'SetFieldRight(Integer)'
+  nameWithType: NSFieldRight.SetFieldRight(Integer)
+  fullName: CRMScript.NetServer.NSFieldRight.SetFieldRight(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFieldRight(Integer fieldRight)
+    parameters:
+    - id: fieldRight
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSFieldRight.SetMask(Integer)
+  commentId: M:CRMScript.NetServer.NSFieldRight.SetMask(Integer)
+  id: 'SetMask(Integer)'
+  so.intellisense: NSFieldRight.SetMask
+  langs:
+  - crmscript
+  name: 'SetMask(Integer)'
+  nameWithType: NSFieldRight.SetMask(Integer)
+  fullName: CRMScript.NetServer.NSFieldRight.SetMask(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMask(Integer mask)
+    parameters:
+    - id: mask
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSFieldRight.SetReason(String)
+  commentId: M:CRMScript.NetServer.NSFieldRight.SetReason(String)
+  id: 'SetReason(String)'
+  so.intellisense: NSFieldRight.SetReason
+  langs:
+  - crmscript
+  name: 'SetReason(String)'
+  nameWithType: NSFieldRight.SetReason(String)
+  fullName: CRMScript.NetServer.NSFieldRight.SetReason(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetReason(String reason)
+    parameters:
+    - id: reason
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSFieldRight
+  commentId: T:CRMScript.NetServer.NSFieldRight
+  isExternal: true
+  name: NSFieldRight
+  nameWithType: NSFieldRight
+  fullName: CRMScript.NetServer.NSFieldRight
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

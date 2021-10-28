@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSStream
+  commentId: T:CRMScript.NetServer.NSStream
+  id: NSStream
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSStream.#ctor
+  - CRMScript.NetServer.NSStream.GetStream()
+  - CRMScript.NetServer.NSStream.SetStream(Byte[])
+  name: NSStream
+  nameWithType: NSStream
+  fullName: CRMScript.NetServer.NSStream
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSStream.#ctor
+  commentId: M:CRMScript.NetServer.NSStream.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSStream
+  langs:
+  - crmscript
+  name: NSStream()
+  nameWithType: NSStream.#ctor
+  fullName: CRMScript.NetServer.NSStream.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSStream class.\n"
+  remarks: 
+  syntax: 
+    content: NSStream
+  example: 
+- uid: CRMScript.NetServer.NSStream.GetStream()
+  commentId: M:CRMScript.NetServer.NSStream.GetStream()
+  id: 'GetStream()'
+  so.intellisense: NSStream.GetStream
+  langs:
+  - crmscript
+  name: 'GetStream()'
+  nameWithType: NSStream.GetStream()
+  fullName: CRMScript.NetServer.NSStream.GetStream()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Byte[]GetStream()
+    parameters: []
+    return:
+      type: CRMScript.Global.Byte[]
+  example: 
+- uid: CRMScript.NetServer.NSStream.SetStream(Byte[])
+  commentId: M:CRMScript.NetServer.NSStream.SetStream(Byte[])
+  id: 'SetStream(Byte[])'
+  so.intellisense: NSStream.SetStream
+  langs:
+  - crmscript
+  name: 'SetStream(Byte[])'
+  nameWithType: NSStream.SetStream(Byte[])
+  fullName: CRMScript.NetServer.NSStream.SetStream(Byte[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetStream(Byte[] stream)
+    parameters:
+    - id: stream
+      type: CRMScript.Global.Byte[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSStream
+  commentId: T:CRMScript.NetServer.NSStream
+  isExternal: true
+  name: NSStream
+  nameWithType: NSStream
+  fullName: CRMScript.NetServer.NSStream
+- uid: CRMScript.Global.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: CRMScript.Global.Byte[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Byte
+    isExternal: true
+    name: Byte
+    nameWithType: Byte
+    fullName: CRMScript.Global.Byte
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Byte
+  commentId: T:CRMScript.Global.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: CRMScript.Global.Byte
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

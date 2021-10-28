@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.AssociateType
+  # Similar to SuperOffice.WebApi.Data.UserType. NOT same values as SuperOffice.Data.AssociateType!
+  commentId: T:CRMScript.NetServer.AssociateType
+  id: AssociateType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.AssociateType.Unknown
+  - CRMScript.NetServer.AssociateType.InternalAssociate
+  - CRMScript.NetServer.AssociateType.ResourceAssociate
+  - CRMScript.NetServer.AssociateType.ExternalAssociate
+  - CRMScript.NetServer.AssociateType.AnonymousAssociate
+  - CRMScript.NetServer.AssociateType.SystemAssociate
+  name: AssociateType
+  nameWithType: AssociateType
+  fullName: CRMScript.NetServer.AssociateType
+  type: Enum
+  summary: "\nType of user (or resource).\n"
+- uid: CRMScript.NetServer.AssociateType.Unknown
+  commentId: F:CRMScript.NetServer.AssociateType.Unknown
+  id: AssociateType.Unknown
+  langs:
+  - crmscript
+  name: AssociateType.Unknown
+  nameWithType: AssociateType.Unknown
+  fullName: CRMScript.NetServer.AssociateType.Unknown
+  type: Field
+  summary: "\n0: Unknown\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.AssociateType
+- uid: CRMScript.NetServer.AssociateType.InternalAssociate
+  commentId: F:CRMScript.NetServer.AssociateType.InternalAssociate
+  id: AssociateType.InternalAssociate
+  langs:
+  - crmscript
+  name: AssociateType.InternalAssociate
+  nameWithType: AssociateType.InternalAssociate
+  fullName: CRMScript.NetServer.AssociateType.InternalAssociate
+  type: Field
+  summary: "\n1: Employee\n"
+  syntax: 
+    content: InternalAssociate = 1
+    type: CRMScript.NetServer.AssociateType
+- uid: CRMScript.NetServer.AssociateType.ResourceAssociate
+  commentId: F:CRMScript.NetServer.AssociateType.ResourceAssociate
+  id: AssociateType.ResourceAssociate
+  langs:
+  - crmscript
+  name: AssociateType.ResourceAssociate
+  nameWithType: AssociateType.ResourceAssociate
+  fullName: CRMScript.NetServer.AssociateType.ResourceAssociate
+  type: Field
+  summary: "\n2: Resource - meeting room, projector or other bookable resource\n"
+  syntax: 
+    content: ResourceAssociate = 2
+    type: CRMScript.NetServer.AssociateType
+- uid: CRMScript.NetServer.AssociateType.ExternalAssociate
+  commentId: F:CRMScript.NetServer.AssociateType.ExternalAssociate
+  id: AssociateType.ExternalAssociate
+  langs:
+  - crmscript
+  name: AssociateType.ExternalAssociate
+  nameWithType: AssociateType.ExternalAssociate
+  fullName: CRMScript.NetServer.AssociateType.ExternalAssociate
+  type: Field
+  summary: "\n3: External person\n"
+  syntax: 
+    content: ExternalAssociate = 3
+    type: CRMScript.NetServer.AssociateType
+- uid: CRMScript.NetServer.AssociateType.AnonymousAssociate
+  commentId: F:CRMScript.NetServer.AssociateType.AnonymousAssociate
+  id: AssociateType.AnonymousAssociate
+  langs:
+  - crmscript
+  name: AssociateType.AnonymousAssociate
+  nameWithType: AssociateType.AnonymousAssociate
+  fullName: CRMScript.NetServer.AssociateType.AnonymousAssociate
+  type: Field
+  summary: "\n4: Anonymous user - used by applications that do not require login\n"
+  syntax: 
+    content: AnonymousAssociate = 4
+    type: CRMScript.NetServer.AssociateType
+- uid: CRMScript.NetServer.AssociateType.SystemAssociate
+  commentId: F:CRMScript.NetServer.AssociateType.SystemAssociate
+  id: AssociateType.SystemAssociate
+  langs:
+  - crmscript
+  name: AssociateType.SystemAssociate
+  nameWithType: AssociateType.SystemAssociate
+  fullName: CRMScript.NetServer.AssociateType.SystemAssociate
+  type: Field
+  summary: "\n5: System user - mainly used for integrations or administration. This user is not governed sentry\n"
+  syntax: 
+    content: SystemAssociate = 5
+    type: CRMScript.NetServer.AssociateType
+references:
+- uid: CRMScript.NetServer.AssociateType
+  commentId: T:CRMScript.NetServer.AssociateType
+  isExternal: true
+  name: AssociateType
+  nameWithType: AssociateType
+  fullName: CRMScript.NetServer.AssociateType

@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSChatSession
+  commentId: T:CRMScript.NetServer.NSChatSession
+  id: NSChatSession
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSChatSession.#ctor
+  - CRMScript.NetServer.NSChatSession.GetChatSessionId()
+  - CRMScript.NetServer.NSChatSession.SetChatSessionId(Integer)
+  name: NSChatSession
+  nameWithType: NSChatSession
+  fullName: CRMScript.NetServer.NSChatSession
+  type: Class
+  summary: "\nUse the ChatSessionEntity on the Chat agent instead. Chat sessions belong to a chat topic, and contain messages to/from users. Carrier object for ChatSession.\n"
+  example: 
+- uid: CRMScript.NetServer.NSChatSession.#ctor
+  commentId: M:CRMScript.NetServer.NSChatSession.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSChatSession
+  langs:
+  - crmscript
+  name: NSChatSession()
+  nameWithType: NSChatSession.#ctor
+  fullName: CRMScript.NetServer.NSChatSession.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSChatSession class.\n"
+  remarks: 
+  syntax: 
+    content: NSChatSession
+  example: 
+- uid: CRMScript.NetServer.NSChatSession.GetChatSessionId()
+  commentId: M:CRMScript.NetServer.NSChatSession.GetChatSessionId()
+  id: 'GetChatSessionId()'
+  so.intellisense: NSChatSession.GetChatSessionId
+  langs:
+  - crmscript
+  name: 'GetChatSessionId()'
+  nameWithType: NSChatSession.GetChatSessionId()
+  fullName: CRMScript.NetServer.NSChatSession.GetChatSessionId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetChatSessionId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The primary key (auto-incremented)."
+  example: 
+  - "\n<pre><code>NSChatSession thing;\nInteger chatSessionId = thing.GetChatSessionId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatSession.SetChatSessionId(Integer)
+  commentId: M:CRMScript.NetServer.NSChatSession.SetChatSessionId(Integer)
+  id: 'SetChatSessionId(Integer)'
+  so.intellisense: NSChatSession.SetChatSessionId
+  langs:
+  - crmscript
+  name: 'SetChatSessionId(Integer)'
+  nameWithType: NSChatSession.SetChatSessionId(Integer)
+  fullName: CRMScript.NetServer.NSChatSession.SetChatSessionId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChatSessionId(Integer chatSessionId)
+    parameters:
+    - id: chatSessionId
+      type: CRMScript.Global.Integer
+      description: "The primary key (auto-incremented)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatSession thing;\nInteger chatSessionId;\nthing.SetChatSessionId(chatSessionId);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSChatSession
+  commentId: T:CRMScript.NetServer.NSChatSession
+  isExternal: true
+  name: NSChatSession
+  nameWithType: NSChatSession
+  fullName: CRMScript.NetServer.NSChatSession
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

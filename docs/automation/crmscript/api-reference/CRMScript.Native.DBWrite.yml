@@ -1,0 +1,325 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.DBWrite
+  commentId: T:CRMScript.Native.DBWrite
+  id: DBWrite
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.DBWrite.#ctor
+  - CRMScript.Native.DBWrite.addClob(String,String)
+  - CRMScript.Native.DBWrite.addDate(String,Date)
+  - CRMScript.Native.DBWrite.addDateTime(String,DateTime)
+  - CRMScript.Native.DBWrite.addInteger(String,Integer)
+  - CRMScript.Native.DBWrite.addString(String,String)
+  - CRMScript.Native.DBWrite.addTable(String)
+  - CRMScript.Native.DBWrite.addTime(String,Time)
+  - CRMScript.Native.DBWrite.addWhereId(Integer)
+  - CRMScript.Native.DBWrite.delete()
+  - CRMScript.Native.DBWrite.insert()
+  - CRMScript.Native.DBWrite.update()
+  name: DBWrite
+  nameWithType: DBWrite
+  fullName: CRMScript.Native.DBWrite
+  type: Class
+  summary: "\nObsolete. Use SearchEngine to insert or update data to the database. Use the class ExtraTable if you want to update ExtraTable data.\n"
+  example: 
+- uid: CRMScript.Native.DBWrite.#ctor
+  commentId: M:CRMScript.Native.DBWrite.#ctor
+  id: '#ctor'
+  so.intellisense: Void.DBWrite
+  langs:
+  - crmscript
+  name: DBWrite()
+  nameWithType: DBWrite.#ctor
+  fullName: CRMScript.Native.DBWrite.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the DBWrite class.\n"
+  remarks: "\nObsolete! Use SearchEngine or ExtraTable.\n"
+  syntax: 
+    content: DBWrite
+  example:
+- uid: CRMScript.Native.DBWrite.addClob(String,String)
+  commentId: M:CRMScript.Native.DBWrite.addClob(String,String)
+  id: 'addClob(String,String)'
+  so.intellisense: DBWrite.addClob
+  langs:
+  - crmscript
+  name: 'addClob(String,String)'
+  nameWithType: DBWrite.addClob(String,String)
+  fullName: CRMScript.Native.DBWrite.addClob(String,String)
+  type: Method
+  summary: "\nAdds a CLOB column to write in the table.\n"
+  remarks: 
+  syntax: 
+    content: Void addClob(String name, String value)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of the column."
+    - id: value
+      type: CRMScript.Global.String
+      description: "The value to write."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.DBWrite.addDate(String,Date)
+  commentId: M:CRMScript.Native.DBWrite.addDate(String,Date)
+  id: 'addDate(String,Date)'
+  so.intellisense: DBWrite.addDate
+  langs:
+  - crmscript
+  name: 'addDate(String,Date)'
+  nameWithType: DBWrite.addDate(String,Date)
+  fullName: CRMScript.Native.DBWrite.addDate(String,Date)
+  type: Method
+  summary: "\nAdds a Date column to write in the table.\n"
+  remarks: 
+  syntax: 
+    content: Void addDate(String name, Date value)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of the column."
+    - id: value
+      type: CRMScript.Global.String
+      description: "The value to write."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.DBWrite.addDateTime(String,DateTime)
+  commentId: M:CRMScript.Native.DBWrite.addDateTime(String,DateTime)
+  id: 'addDateTime(String,DateTime)'
+  so.intellisense: DBWrite.addDateTime
+  langs:
+  - crmscript
+  name: 'addDateTime(String,DateTime)'
+  nameWithType: DBWrite.addDateTime(String,DateTime)
+  fullName: CRMScript.Native.DBWrite.addDateTime(String,DateTime)
+  type: Method
+  summary: "\nAdds a DateTime column to write in the table.\n"
+  remarks: 
+  syntax: 
+    content: Void addDateTime(String name, DateTime value)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of the column."
+    - id: value
+      type: CRMScript.Global.String
+      description: "The value to write."
+    return:
+      type: CRMScript.Global.Void 
+  example: 
+- uid: CRMScript.Native.DBWrite.addInteger(String,Integer)
+  commentId: M:CRMScript.Native.DBWrite.addInteger(String,Integer)
+  id: 'addInteger(String,Integer)'
+  so.intellisense: DBWrite.addInteger
+  langs:
+  - crmscript
+  name: 'addInteger(String,Integer)'
+  nameWithType: DBWrite.addInteger(String,Integer)
+  fullName: CRMScript.Native.DBWrite.addInteger(String,Integer)
+  type: Method
+  summary: "\nAdds an Integer column to write in the table.\n"
+  remarks: 
+  syntax: 
+    content: Void addInteger(String name, Integer value)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of the column."
+    - id: value
+      type: CRMScript.Global.String
+      description: "The value to write."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.DBWrite.addString(String,String)
+  commentId: M:CRMScript.Native.DBWrite.addString(String,String)
+  id: 'addString(String,String)'
+  so.intellisense: DBWrite.addString
+  langs:
+  - crmscript
+  name: 'addString(String,String)'
+  nameWithType: DBWrite.addString(String,String)
+  fullName: CRMScript.Native.DBWrite.addString(String,String)
+  type: Method
+  summary: "\nAdds a String column to write in the table.\n"
+  remarks: 
+  syntax: 
+    content: Void addString(String name, String value)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of the column."
+    - id: value
+      type: CRMScript.Global.String
+      description: "The value to write."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.DBWrite.addTable(String)
+  commentId: M:CRMScript.Native.DBWrite.addTable(String)
+  id: 'addTable(String)'
+  so.intellisense: DBWrite.addTable
+  langs:
+  - crmscript
+  name: 'addTable(String)'
+  nameWithType: DBWrite.addTable(String)
+  fullName: CRMScript.Native.DBWrite.addTable(String)
+  type: Method
+  summary: "\nAdds a table to be written to.\n"
+  remarks: "\nCan only be one.\n"
+  syntax: 
+    content: Void addTable(String tableName)
+    parameters:
+    - id: tableName
+      type: CRMScript.Global.String
+      description: "The name of the table, for example, ticket."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.DBWrite.addTime(String,Time)
+  commentId: M:CRMScript.Native.DBWrite.addTime(String,Time)
+  id: 'addTime(String,Time)'
+  so.intellisense: DBWrite.addTime
+  langs:
+  - crmscript
+  name: 'addTime(String,Time)'
+  nameWithType: DBWrite.addTime(String,Time)
+  fullName: CRMScript.Native.DBWrite.addTime(String,Time)
+  type: Method
+  summary: "\nAdds a Time column to write in the table.\n"
+  remarks: 
+  syntax: 
+    content: Void addTime(String name, Time value)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of the column."
+    - id: value
+      type: CRMScript.Global.String
+      description: "The value to write."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.DBWrite.addWhereId(Integer)
+  commentId: M:CRMScript.Native.DBWrite.addWhereId(Integer)
+  id: 'addWhereId(Integer)'
+  so.intellisense: DBWrite.addWhereId
+  langs:
+  - crmscript
+  name: 'addWhereId(Integer)'
+  nameWithType: DBWrite.addWhereId(Integer)
+  fullName: CRMScript.Native.DBWrite.addWhereId(Integer)
+  type: Method
+  summary: "\nSets the value of the ID of the entry to write to.\n"
+  remarks: 
+  syntax: 
+    content: Vodi addWhereId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "The ID of the row to write to."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.DBWrite.delete()
+  commentId: M:CRMScript.Native.DBWrite.delete()
+  id: 'delete()'
+  so.intellisense: DBWrite.delete
+  langs:
+  - crmscript
+  name: 'delete()'
+  nameWithType: DBWrite.delete()
+  fullName: CRMScript.Native.DBWrite.delete()
+  type: Method
+  summary: "\nDeletes the specified row in the specified table.\n"
+  remarks: 
+  syntax: 
+    content: Void delete()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.DBWrite.insert()
+  commentId: M:CRMScript.Native.DBWrite.insert()
+  id: 'insert()'
+  so.intellisense: DBWrite.insert
+  langs:
+  - crmscript
+  name: 'insert()'
+  nameWithType: DBWrite.insert()
+  fullName: CRMScript.Native.DBWrite.insert()
+  type: Method
+  summary: "\nExecutes insert-query with the specified columns and values.\n"
+  remarks: 
+  syntax: 
+    content: Integer insert()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the inserted row."
+  example: 
+- uid: CRMScript.Native.DBWrite.update()
+  commentId: M:CRMScript.Native.DBWrite.update()
+  id: 'update()'
+  so.intellisense: DBWrite.update
+  langs:
+  - crmscript
+  name: 'update()'
+  nameWithType: DBWrite.update()
+  fullName: CRMScript.Native.DBWrite.update()
+  type: Method
+  summary: "\nExecutes update-query with the specified columns and values.\n"
+  remarks: 
+  syntax: 
+    content: Void update()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.Native.DBWrite
+  commentId: T:CRMScript.Native.DBWrite
+  isExternal: true
+  name: DBWrite
+  nameWithType: DBWrite
+  fullName: CRMScript.Native.DBWrite
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Time
+  commentId: T:CRMScript.Global.Time
+  isExternal: true
+  name: Time
+  nameWithType: Time
+  fullName: CRMScript.Global.Time
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Date
+  commentId: T:CRMScript.Global.Date
+  isExternal: true
+  name: Date
+  nameWithType: Date
+  fullName: CRMScript.Global.Date
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

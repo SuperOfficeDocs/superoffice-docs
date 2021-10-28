@@ -1,0 +1,419 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSAmountClassEntity
+  commentId: T:CRMScript.NetServer.NSAmountClassEntity
+  id: NSAmountClassEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSAmountClassEntity.#ctor
+  - CRMScript.NetServer.NSAmountClassEntity.GetAmountClassId()
+  - CRMScript.NetServer.NSAmountClassEntity.GetAmountFrom()
+  - CRMScript.NetServer.NSAmountClassEntity.GetAmountTo()
+  - CRMScript.NetServer.NSAmountClassEntity.GetCurrencyId()
+  - CRMScript.NetServer.NSAmountClassEntity.GetDeleted()
+  - CRMScript.NetServer.NSAmountClassEntity.GetName()
+  - CRMScript.NetServer.NSAmountClassEntity.GetRank()
+  - CRMScript.NetServer.NSAmountClassEntity.GetTooltip()
+  - CRMScript.NetServer.NSAmountClassEntity.SetAmountClassId(Integer)
+  - CRMScript.NetServer.NSAmountClassEntity.SetAmountFrom(Float)
+  - CRMScript.NetServer.NSAmountClassEntity.SetAmountTo(Float)
+  - CRMScript.NetServer.NSAmountClassEntity.SetCurrencyId(Integer)
+  - CRMScript.NetServer.NSAmountClassEntity.SetDeleted(Bool)
+  - CRMScript.NetServer.NSAmountClassEntity.SetName(String)
+  - CRMScript.NetServer.NSAmountClassEntity.SetRank(Integer)
+  - CRMScript.NetServer.NSAmountClassEntity.SetTooltip(String)
+  name: NSAmountClassEntity
+  nameWithType: NSAmountClassEntity
+  fullName: CRMScript.NetServer.NSAmountClassEntity
+  type: Class
+  summary: "\nCarrier object for AmountClassEntity.\n"
+  example: 
+- uid: CRMScript.NetServer.NSAmountClassEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSAmountClassEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSAmountClassEntity
+  langs:
+  - crmscript
+  name: NSAmountClassEntity()
+  nameWithType: NSAmountClassEntity.#ctor
+  fullName: CRMScript.NetServer.NSAmountClassEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSAmountClassEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSAmountClassEntity
+  example: 
+- uid: CRMScript.NetServer.NSAmountClassEntity.GetAmountClassId()
+  commentId: M:CRMScript.NetServer.NSAmountClassEntity.GetAmountClassId()
+  id: 'GetAmountClassId()'
+  so.intellisense: NSAmountClassEntity.GetAmountClassId
+  langs:
+  - crmscript
+  name: 'GetAmountClassId()'
+  nameWithType: NSAmountClassEntity.GetAmountClassId()
+  fullName: CRMScript.NetServer.NSAmountClassEntity.GetAmountClassId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAmountClassId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSAmountClassEntity thing;\nInteger amountClassId = thing.GetAmountClassId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAmountClassEntity.GetAmountFrom()
+  commentId: M:CRMScript.NetServer.NSAmountClassEntity.GetAmountFrom()
+  id: 'GetAmountFrom()'
+  so.intellisense: NSAmountClassEntity.GetAmountFrom
+  langs:
+  - crmscript
+  name: 'GetAmountFrom()'
+  nameWithType: NSAmountClassEntity.GetAmountFrom()
+  fullName: CRMScript.NetServer.NSAmountClassEntity.GetAmountFrom()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetAmountFrom()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Lower limit of this amount class."
+  example: 
+  - "\n<pre><code>NSAmountClassEntity thing;\nFloat amountFrom = thing.GetAmountFrom();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAmountClassEntity.GetAmountTo()
+  commentId: M:CRMScript.NetServer.NSAmountClassEntity.GetAmountTo()
+  id: 'GetAmountTo()'
+  so.intellisense: NSAmountClassEntity.GetAmountTo
+  langs:
+  - crmscript
+  name: 'GetAmountTo()'
+  nameWithType: NSAmountClassEntity.GetAmountTo()
+  fullName: CRMScript.NetServer.NSAmountClassEntity.GetAmountTo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetAmountTo()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Upper limit of this amount class."
+  example: 
+  - "\n<pre><code>NSAmountClassEntity thing;\nFloat amountTo = thing.GetAmountTo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAmountClassEntity.GetCurrencyId()
+  commentId: M:CRMScript.NetServer.NSAmountClassEntity.GetCurrencyId()
+  id: 'GetCurrencyId()'
+  so.intellisense: NSAmountClassEntity.GetCurrencyId
+  langs:
+  - crmscript
+  name: 'GetCurrencyId()'
+  nameWithType: NSAmountClassEntity.GetCurrencyId()
+  fullName: CRMScript.NetServer.NSAmountClassEntity.GetCurrencyId()
+  type: Method
+  summary: # TODO
+  remarks: "\nMixing currencies between classes can give rise to overlapping intervals and thus unpredictable classifications.\n"
+  syntax: 
+    content: Integer GetCurrencyId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Currency the limits in this amount class refer to."
+  example: 
+  - "\n<pre><code>NSAmountClassEntity thing;\nInteger currencyId = thing.GetCurrencyId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAmountClassEntity.GetDeleted()
+  commentId: M:CRMScript.NetServer.NSAmountClassEntity.GetDeleted()
+  id: 'GetDeleted()'
+  so.intellisense: NSAmountClassEntity.GetDeleted
+  langs:
+  - crmscript
+  name: 'GetDeleted()'
+  nameWithType: NSAmountClassEntity.GetDeleted()
+  fullName: CRMScript.NetServer.NSAmountClassEntity.GetDeleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetDeleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "0 - record is active; 1 - record is deleted and should not be shown in lists."
+  example: 
+  - "\n<pre><code>NSAmountClassEntity thing;\nBool deleted = thing.GetDeleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAmountClassEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSAmountClassEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSAmountClassEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSAmountClassEntity.GetName()
+  fullName: CRMScript.NetServer.NSAmountClassEntity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The list item."
+  example: 
+  - "\n<pre><code>NSAmountClassEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAmountClassEntity.GetRank()
+  commentId: M:CRMScript.NetServer.NSAmountClassEntity.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSAmountClassEntity.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSAmountClassEntity.GetRank()
+  fullName: CRMScript.NetServer.NSAmountClassEntity.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Rank order."
+  example: 
+  - "\n<pre><code>NSAmountClassEntity thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAmountClassEntity.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSAmountClassEntity.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSAmountClassEntity.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSAmountClassEntity.GetTooltip()
+  fullName: CRMScript.NetServer.NSAmountClassEntity.GetTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Tooltip or other description."
+  example: 
+  - "\n<pre><code>NSAmountClassEntity thing;\nString tooltip = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAmountClassEntity.SetAmountClassId(Integer)
+  commentId: M:CRMScript.NetServer.NSAmountClassEntity.SetAmountClassId(Integer)
+  id: 'SetAmountClassId(Integer)'
+  so.intellisense: NSAmountClassEntity.SetAmountClassId
+  langs:
+  - crmscript
+  name: 'SetAmountClassId(Integer)'
+  nameWithType: NSAmountClassEntity.SetAmountClassId(Integer)
+  fullName: CRMScript.NetServer.NSAmountClassEntity.SetAmountClassId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAmountClassId(Integer amountClassId)
+    parameters:
+    - id: amountClassId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAmountClassEntity thing;\nInteger amountClassId;\nthing.SetAmountClassId(amountClassId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAmountClassEntity.SetAmountFrom(Float)
+  commentId: M:CRMScript.NetServer.NSAmountClassEntity.SetAmountFrom(Float)
+  id: 'SetAmountFrom(Float)'
+  so.intellisense: NSAmountClassEntity.SetAmountFrom
+  langs:
+  - crmscript
+  name: 'SetAmountFrom(Float)'
+  nameWithType: NSAmountClassEntity.SetAmountFrom(Float)
+  fullName: CRMScript.NetServer.NSAmountClassEntity.SetAmountFrom(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAmountFrom(Float amountFrom)
+    parameters:
+    - id: amountFrom
+      type: CRMScript.Global.Float
+      description: "Lower limit of this amount class."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAmountClassEntity thing;\nFloat amountFrom;\nthing.SetAmountFrom(amountFrom);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAmountClassEntity.SetAmountTo(Float)
+  commentId: M:CRMScript.NetServer.NSAmountClassEntity.SetAmountTo(Float)
+  id: 'SetAmountTo(Float)'
+  so.intellisense: NSAmountClassEntity.SetAmountTo
+  langs:
+  - crmscript
+  name: 'SetAmountTo(Float)'
+  nameWithType: NSAmountClassEntity.SetAmountTo(Float)
+  fullName: CRMScript.NetServer.NSAmountClassEntity.SetAmountTo(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAmountTo(Float amountTo)
+    parameters:
+    - id: amountTo
+      type: CRMScript.Global.Float
+      description: "Upper limit of this amount class."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAmountClassEntity thing;\nFloat amountTo;\nthing.SetAmountTo(amountTo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAmountClassEntity.SetCurrencyId(Integer)
+  commentId: M:CRMScript.NetServer.NSAmountClassEntity.SetCurrencyId(Integer)
+  id: 'SetCurrencyId(Integer)'
+  so.intellisense: NSAmountClassEntity.SetCurrencyId
+  langs:
+  - crmscript
+  name: 'SetCurrencyId(Integer)'
+  nameWithType: NSAmountClassEntity.SetCurrencyId(Integer)
+  fullName: CRMScript.NetServer.NSAmountClassEntity.SetCurrencyId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: "\nMixing currencies between classes can give rise to overlapping intervals and thus unpredictable classifications.\n"
+  syntax: 
+    content: Void SetCurrencyId(Integer currencyId)
+    parameters:
+    - id: currencyId
+      type: CRMScript.Global.Integer
+      description: "Currency the limits in this amount class refer to."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAmountClassEntity thing;\nInteger currencyId;\nthing.SetCurrencyId(currencyId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAmountClassEntity.SetDeleted(Bool)
+  commentId: M:CRMScript.NetServer.NSAmountClassEntity.SetDeleted(Bool)
+  id: 'SetDeleted(Bool)'
+  so.intellisense: NSAmountClassEntity.SetDeleted
+  langs:
+  - crmscript
+  name: 'SetDeleted(Bool)'
+  nameWithType: NSAmountClassEntity.SetDeleted(Bool)
+  fullName: CRMScript.NetServer.NSAmountClassEntity.SetDeleted(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeleted(Bool deleted)
+    parameters:
+    - id: deleted
+      type: CRMScript.Global.Bool
+      description: "0 - record is active; 1 - record is deleted and should not be shown in lists."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAmountClassEntity thing;\nBool deleted;\nthing.SetDeleted(deleted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAmountClassEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSAmountClassEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSAmountClassEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSAmountClassEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSAmountClassEntity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The list item."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAmountClassEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAmountClassEntity.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSAmountClassEntity.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSAmountClassEntity.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSAmountClassEntity.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSAmountClassEntity.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "Rank order."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAmountClassEntity thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAmountClassEntity.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSAmountClassEntity.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSAmountClassEntity.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSAmountClassEntity.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSAmountClassEntity.SetTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: "Tooltip or other description."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAmountClassEntity thing;\nString tooltip;\nthing.SetTooltip(tooltip);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSAmountClassEntity
+  commentId: T:CRMScript.NetServer.NSAmountClassEntity
+  isExternal: true
+  name: NSAmountClassEntity
+  nameWithType: NSAmountClassEntity
+  fullName: CRMScript.NetServer.NSAmountClassEntity
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Float
+  commentId: T:CRMScript.Global.Float
+  isExternal: true
+  name: Float
+  nameWithType: Float
+  fullName: CRMScript.Global.Float
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

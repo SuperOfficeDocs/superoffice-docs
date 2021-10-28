@@ -1,0 +1,172 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSEntityElement
+  commentId: T:CRMScript.NetServer.NSEntityElement
+  id: NSEntityElement
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSEntityElement.#ctor
+  - CRMScript.NetServer.NSEntityElement.GetDescription()
+  - CRMScript.NetServer.NSEntityElement.GetStrippedValue()
+  - CRMScript.NetServer.NSEntityElement.GetValue()
+  - CRMScript.NetServer.NSEntityElement.SetDescription(String)
+  - CRMScript.NetServer.NSEntityElement.SetStrippedValue(String)
+  - CRMScript.NetServer.NSEntityElement.SetValue(String)
+  name: NSEntityElement
+  nameWithType: NSEntityElement
+  fullName: CRMScript.NetServer.NSEntityElement
+  type: Class
+  summary: "\nGeneric carrier object for entity elements such as Phone, EntityElement, Url. These elements do not have id and rank. These values are changed on each save, and should not be depended on. When used in a list or array the rank is the ascending list order. Carrier object for EntityElement.\n"
+  example: 
+- uid: CRMScript.NetServer.NSEntityElement.#ctor
+  commentId: M:CRMScript.NetServer.NSEntityElement.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSEntityElement
+  langs:
+  - crmscript
+  name: NSEntityElement()
+  nameWithType: NSEntityElement.#ctor
+  fullName: CRMScript.NetServer.NSEntityElement.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSEntityElement class.\n"
+  remarks: 
+  syntax: 
+    content: NSEntityElement
+  example: 
+- uid: CRMScript.NetServer.NSEntityElement.GetDescription()
+  commentId: M:CRMScript.NetServer.NSEntityElement.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSEntityElement.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSEntityElement.GetDescription()
+  fullName: CRMScript.NetServer.NSEntityElement.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSEntityElement.GetStrippedValue()
+  commentId: M:CRMScript.NetServer.NSEntityElement.GetStrippedValue()
+  id: 'GetStrippedValue()'
+  so.intellisense: NSEntityElement.GetStrippedValue
+  langs:
+  - crmscript
+  name: 'GetStrippedValue()'
+  nameWithType: NSEntityElement.GetStrippedValue()
+  fullName: CRMScript.NetServer.NSEntityElement.GetStrippedValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetStrippedValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSEntityElement.GetValue()
+  commentId: M:CRMScript.NetServer.NSEntityElement.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSEntityElement.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSEntityElement.GetValue()
+  fullName: CRMScript.NetServer.NSEntityElement.GetValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSEntityElement.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSEntityElement.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSEntityElement.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSEntityElement.SetDescription(String)
+  fullName: CRMScript.NetServer.NSEntityElement.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSEntityElement.SetStrippedValue(String)
+  commentId: M:CRMScript.NetServer.NSEntityElement.SetStrippedValue(String)
+  id: 'SetStrippedValue(String)'
+  so.intellisense: NSEntityElement.SetStrippedValue
+  langs:
+  - crmscript
+  name: 'SetStrippedValue(String)'
+  nameWithType: NSEntityElement.SetStrippedValue(String)
+  fullName: CRMScript.NetServer.NSEntityElement.SetStrippedValue(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetStrippedValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSEntityElement.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSEntityElement.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSEntityElement.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSEntityElement.SetValue(String)
+  fullName: CRMScript.NetServer.NSEntityElement.SetValue(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSEntityElement
+  commentId: T:CRMScript.NetServer.NSEntityElement
+  isExternal: true
+  name: NSEntityElement
+  nameWithType: NSEntityElement
+  fullName: CRMScript.NetServer.NSEntityElement
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

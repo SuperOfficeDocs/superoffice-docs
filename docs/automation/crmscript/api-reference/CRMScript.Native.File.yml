@@ -1,0 +1,334 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.File
+  commentId: T:CRMScript.Native.File
+  id: File
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.File.#ctor
+  - CRMScript.Native.File.close()
+  - CRMScript.Native.File.eof()
+  - CRMScript.Native.File.flush()
+  - CRMScript.Native.File.open(String,String)
+  - CRMScript.Native.File.open(String,String,String)
+  - CRMScript.Native.File.readAll()
+  - CRMScript.Native.File.readBinary()
+  - CRMScript.Native.File.readLine()
+  - CRMScript.Native.File.rewind()
+  - CRMScript.Native.File.unlink()
+  - CRMScript.Native.File.write(String)
+  - CRMScript.Native.File.writeBinary(Byte[])
+  name: File
+  nameWithType: File
+  fullName: CRMScript.Native.File
+  type: Class
+  summary: "\nRepresents a file. <strong>This class is not available in CRM Online.</strong><p></p>\nUse open() before you call any other methods.\n"
+  example: 
+  - "\n<pre><code>File f;\n\nf.open(&quot;test.txt&quot;, &quot;a+&quot;); // Opening file appending (and creating)\nf.write(&quot;test&quot;);\nf.close(); // Closing the file when done writing\n\nFile g;\n\ng.open(&quot;test.txt&quot;, &quot;r&quot;); // Opening file for reading only\nprint(g.readAll());</code></pre>\n"
+- uid: CRMScript.Native.File.#ctor
+  commentId: M:CRMScript.Native.File.#ctor
+  id: '#ctor'
+  so.intellisense: Void.File
+  so.envir: onsite
+  langs:
+  - crmscript
+  name: File()
+  nameWithType: File.#ctor
+  fullName: CRMScript.Native.File.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the File class.\n"
+  remarks: "\nUse open() before you call any other methods.\n"
+  syntax: 
+    content: File
+  example: 
+  - "\n<pre><code>File f;\n\nf.open(&quot;test.txt&quot;, &quot;a+&quot;); // Opening file appending (and creating)\nf.write(&quot;test&quot;);\nf.close(); // Closing the file when done writing\n\nFile g;\n\ng.open(&quot;test.txt&quot;, &quot;r&quot;); // Opening file for reading only\nprint(g.readAll());</code></pre>\n"
+- uid: CRMScript.Native.File.close()
+  commentId: M:CRMScript.Native.File.close()
+  id: 'close()'
+  so.intellisense: File.close
+  langs:
+  - crmscript
+  name: 'close()'
+  nameWithType: File.close()
+  fullName: CRMScript.Native.File.close()
+  type: Method
+  summary: "\nCloses the file. The File object is then ready to open a new file.\n"
+  remarks: 
+  syntax: 
+    content: Void close()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.File.eof()
+  commentId: M:CRMScript.Native.File.eof()
+  id: 'eof()'
+  so.intellisense: File.eof
+  langs:
+  - crmscript
+  name: 'eof()'
+  nameWithType: File.eof()
+  fullName: CRMScript.Native.File.eof()
+  type: Method
+  summary: "\nReturns true if a read passed the end of file has been attempted.\n"
+  remarks: "\nWhen you read lines in a loop, you can break out of the loop when this function return true.\n"
+  syntax: 
+    content: Bool eof()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if a read passed the end of file has been attempted; otherwise, false."
+  example: 
+- uid: CRMScript.Native.File.flush()
+  commentId: M:CRMScript.Native.File.flush()
+  id: 'flush()'
+  so.intellisense: File.flush
+  langs:
+  - crmscript
+  name: 'flush()'
+  nameWithType: File.flush()
+  fullName: CRMScript.Native.File.flush()
+  type: Method
+  summary: "\nEmpties the output buffer, writing the data to the file.\n"
+  remarks: 
+  syntax: 
+    content: flush()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.File.open(String,String)
+  commentId: M:CRMScript.Native.File.open(String,String)
+  id: 'open(String,String)'
+  so.intellisense: File.open
+  langs:
+  - crmscript
+  name: 'open(String,String)'
+  nameWithType: File.open(String,String)
+  fullName: CRMScript.Native.File.open(String,String)
+  type: Method
+  summary: "\nOpens the file to be available for other calls.\n"
+  remarks: "\nUse open(String,String,String) to provide a codepage.<p></p>\nModes:<table><thead><tr><th>Mode</th><th>Description</th></tr></thead><tbody><tr><td>r or rb</td><td>Open file for reading.</td></tr><tr><td>w or wb</td><td>Truncate to zero length or create a file for writing.</td></tr><tr><td>a or ab</td><td>Append; open or create a file for writing at the end-of-file.</td></tr><tr><td>r+ or rb+ or r+b</td><td>Open file for update (reading and writing).</td></tr><tr><td>w+ or wb+ or w+b</td><td>Truncate to zero length or create a file for update.</td></tr></tbody></table>\n"
+  syntax: 
+    content: Bool open(String filename, String mode)
+    parameters:
+    - id: filename
+      type: CRMScript.Global.String
+      description: "Path to the file"
+    - id: mode
+      type: CRMScript.Global.String
+      description: "How to open the file."
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+- uid: CRMScript.Native.File.open(String,String,String)
+  commentId: M:CRMScript.Native.File.open(String,String,String)
+  id: 'open(String,String,String)'
+  so.intellisense: File.open
+  langs:
+  - crmscript
+  name: 'open(String,String,String)'
+  nameWithType: File.open(String,String,String)
+  fullName: CRMScript.Native.File.open(String,String,String)
+  type: Method
+  summary: "\nOpens the file with a codepage to be available for other calls.\n"
+  remarks: "\nUse open(String,String) if you don't need to specify codepage.<p></p>\nModes:<table><thead><tr><th>Mode</th><th>Description</th></tr></thead><tbody><tr><td>r or rb</td><td>Open file for reading.</td></tr><tr><td>w or wb</td><td>Truncate to zero length or create a file for writing.</td></tr><tr><td>a or ab</td><td>Append; open or create a file for writing at the end-of-file.</td></tr><tr><td>r+ or rb+ or r+b</td><td>Open file for update (reading and writing).</td></tr><tr><td>w+ or wb+ or w+b</td><td>Truncate to zero length or create a file for update.</td></tr></tbody></table>\n"
+  syntax: 
+    content: Bool open(String filename, String mode, String codepage)
+    parameters:
+    - id: filename
+      type: CRMScript.Global.String
+      description: "Path to the file"
+    - id: mode
+      type: CRMScript.Global.String
+      description: "How to open the file"
+    - id: codepage
+      type: CRMScript.Global.String
+      description: "What text codepage the file is in. Default is ISO-8859-1 (Latin-1), but UTF-8 is common for Unicode text files."
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+- uid: CRMScript.Native.File.readAll()
+  commentId: M:CRMScript.Native.File.readAll()
+  id: 'readAll()'
+  so.intellisense: File.readAll
+  langs:
+  - crmscript
+  name: 'readAll()'
+  nameWithType: File.readAll()
+  fullName: CRMScript.Native.File.readAll()
+  type: Method
+  summary: "\nReturns all text from the file.\n"
+  remarks: 
+  syntax: 
+    content: String readAll()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.Native.File.readBinary()
+  commentId: M:CRMScript.Native.File.readBinary()
+  id: 'readBinary()'
+  so.intellisense: File.readBinary
+  langs:
+  - crmscript
+  name: 'readBinary()'
+  nameWithType: File.readBinary()
+  fullName: CRMScript.Native.File.readBinary()
+  type: Method
+  summary: "\nReads the file and returns binary data in a Byte array.\n"
+  remarks: 
+  syntax: 
+    content: Byte readBinary()
+    parameters: []
+    return:
+      type: CRMScript.Global.Byte[]
+      description: "Binary data."
+  example: 
+- uid: CRMScript.Native.File.readLine()
+  commentId: M:CRMScript.Native.File.readLine()
+  id: 'readLine()'
+  so.intellisense: File.readLine
+  langs:
+  - crmscript
+  name: 'readLine()'
+  nameWithType: File.readLine()
+  fullName: CRMScript.Native.File.readLine()
+  type: Method
+  summary: "\nReturns the next line from the file or a null string if no more data in the file.\n"
+  remarks: 
+  syntax: 
+    content: String readLine()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The next line from the file or a null string if no more data in the file."
+  example: 
+- uid: CRMScript.Native.File.rewind()
+  commentId: M:CRMScript.Native.File.rewind()
+  id: 'rewind()'
+  so.intellisense: File.rewind
+  langs:
+  - crmscript
+  name: 'rewind()'
+  nameWithType: File.rewind()
+  fullName: CRMScript.Native.File.rewind()
+  type: Method
+  summary: "\nSets the current file pointer to the beginning of the file.\n"
+  remarks: 
+  syntax: 
+    content: Void rewind()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.File.unlink()
+  commentId: M:CRMScript.Native.File.unlink()
+  id: 'unlink()'
+  so.intellisense: File.unlink
+  langs:
+  - crmscript
+  name: 'unlink()'
+  nameWithType: File.unlink()
+  fullName: CRMScript.Native.File.unlink()
+  type: Method
+  summary: "\nDeletes the file.\n"
+  remarks: 
+  syntax: 
+    content: Bool unlink()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+- uid: CRMScript.Native.File.write(String)
+  commentId: M:CRMScript.Native.File.write(String)
+  id: 'write(String)'
+  so.intellisense: File.write
+  langs:
+  - crmscript
+  name: 'write(String)'
+  nameWithType: File.write(String)
+  fullName: CRMScript.Native.File.write(String)
+  type: Method
+  summary: "\nWrites data to the file.\n"
+  remarks: " \nCan be called many times, adding more and more data to the file.\n"
+  syntax: 
+    content: Void write(String data)
+    parameters:
+    - id: data
+      type: CRMScript.Global.String
+      description: "String to write to the file."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.File.writeBinary(Byte[])
+  commentId: M:CRMScript.Native.File.writeBinary(Byte[])
+  id: 'writeBinary(Byte[])'
+  so.intellisense: File.writeBinary
+  langs:
+  - crmscript
+  name: 'writeBinary(Byte[])'
+  nameWithType: File.writeBinary(Byte[])
+  fullName: CRMScript.Native.File.writeBinary(Byte[])
+  type: Method
+  summary: "\nWrites binary data to file.\n"
+  remarks: 
+  syntax: 
+    content: Void writeBinary(Byte[] data)
+    parameters:
+    - id: data
+      type: CRMScript.Global.Byte[]
+      description: "Data in a Byte array that you want to write to the file."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.Native.File
+  commentId: T:CRMScript.Native.File
+  isExternal: true
+  name: File
+  nameWithType: File
+  fullName: CRMScript.Native.File
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: CRMScript.Global.Byte[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Byte
+    isExternal: true
+    name: Byte
+    nameWithType: Byte
+    fullName: CRMScript.Global.Byte
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Byte
+  commentId: T:CRMScript.Global.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: CRMScript.Global.Byte
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

@@ -1,0 +1,959 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSBatchTaskInfo
+  commentId: T:CRMScript.NetServer.NSBatchTaskInfo
+  id: NSBatchTaskInfo
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSBatchTaskInfo.#ctor
+  - CRMScript.NetServer.NSBatchTaskInfo.GetAssociateId()
+  - CRMScript.NetServer.NSBatchTaskInfo.GetContext()
+  - CRMScript.NetServer.NSBatchTaskInfo.GetCreated()
+  - CRMScript.NetServer.NSBatchTaskInfo.GetDatabaseSerialNumber()
+  - CRMScript.NetServer.NSBatchTaskInfo.GetDescription()
+  - CRMScript.NetServer.NSBatchTaskInfo.GetDetailsRecord()
+  - CRMScript.NetServer.NSBatchTaskInfo.GetDetailsTable()
+  - CRMScript.NetServer.NSBatchTaskInfo.GetId()
+  - CRMScript.NetServer.NSBatchTaskInfo.GetIsInternalTask()
+  - CRMScript.NetServer.NSBatchTaskInfo.GetIsSystemTask()
+  - CRMScript.NetServer.NSBatchTaskInfo.GetLastStarted()
+  - CRMScript.NetServer.NSBatchTaskInfo.GetName()
+  - CRMScript.NetServer.NSBatchTaskInfo.GetParameterObject()
+  - CRMScript.NetServer.NSBatchTaskInfo.GetProgressDescription()
+  - CRMScript.NetServer.NSBatchTaskInfo.GetProgressPercent()
+  - CRMScript.NetServer.NSBatchTaskInfo.GetRequest()
+  - CRMScript.NetServer.NSBatchTaskInfo.GetResponse()
+  - CRMScript.NetServer.NSBatchTaskInfo.GetResult()
+  - CRMScript.NetServer.NSBatchTaskInfo.GetStartCount()
+  - CRMScript.NetServer.NSBatchTaskInfo.GetState()
+  - CRMScript.NetServer.NSBatchTaskInfo.SetAssociateId(Integer)
+  - CRMScript.NetServer.NSBatchTaskInfo.SetContext(String)
+  - CRMScript.NetServer.NSBatchTaskInfo.SetCreated(DateTime)
+  - CRMScript.NetServer.NSBatchTaskInfo.SetDatabaseSerialNumber(String)
+  - CRMScript.NetServer.NSBatchTaskInfo.SetDescription(String)
+  - CRMScript.NetServer.NSBatchTaskInfo.SetDetailsRecord(Integer)
+  - CRMScript.NetServer.NSBatchTaskInfo.SetDetailsTable(Integer)
+  - CRMScript.NetServer.NSBatchTaskInfo.SetId(Integer)
+  - CRMScript.NetServer.NSBatchTaskInfo.SetIsInternalTask(Bool)
+  - CRMScript.NetServer.NSBatchTaskInfo.SetIsSystemTask(Bool)
+  - CRMScript.NetServer.NSBatchTaskInfo.SetLastStarted(DateTime)
+  - CRMScript.NetServer.NSBatchTaskInfo.SetName(String)
+  - CRMScript.NetServer.NSBatchTaskInfo.SetParameterObject(Map)
+  - CRMScript.NetServer.NSBatchTaskInfo.SetProgressDescription(String)
+  - CRMScript.NetServer.NSBatchTaskInfo.SetProgressPercent(Integer)
+  - CRMScript.NetServer.NSBatchTaskInfo.SetRequest(String)
+  - CRMScript.NetServer.NSBatchTaskInfo.SetResponse(String)
+  - CRMScript.NetServer.NSBatchTaskInfo.SetResult(String)
+  - CRMScript.NetServer.NSBatchTaskInfo.SetStartCount(Integer)
+  - CRMScript.NetServer.NSBatchTaskInfo.SetState(Integer)
+  name: NSBatchTaskInfo
+  nameWithType: NSBatchTaskInfo
+  fullName: CRMScript.NetServer.NSBatchTaskInfo
+  type: Class
+  summary: "\nContains information about one batch task.\n"
+  example: 
+- uid: CRMScript.NetServer.NSBatchTaskInfo.#ctor
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSBatchTaskInfo
+  langs:
+  - crmscript
+  name: NSBatchTaskInfo()
+  nameWithType: NSBatchTaskInfo.#ctor
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSBatchTaskInfo class.\n"
+  remarks: 
+  syntax: 
+    content: NSBatchTaskInfo
+  example: 
+- uid: CRMScript.NetServer.NSBatchTaskInfo.GetAssociateId()
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetAssociateId()
+  id: 'GetAssociateId()'
+  so.intellisense: NSBatchTaskInfo.GetAssociateId
+  langs:
+  - crmscript
+  name: 'GetAssociateId()'
+  nameWithType: NSBatchTaskInfo.GetAssociateId()
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.GetAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Task owner. If it is a System task, AssociateId = 0."
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nInteger associateId = thing.GetAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.GetContext()
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetContext()
+  id: 'GetContext()'
+  so.intellisense: NSBatchTaskInfo.GetContext
+  langs:
+  - crmscript
+  name: 'GetContext()'
+  nameWithType: NSBatchTaskInfo.GetContext()
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.GetContext()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetContext()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Context for the executing task."
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nString context = thing.GetContext();</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.GetCreated()
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetCreated()
+  id: 'GetCreated()'
+  so.intellisense: NSBatchTaskInfo.GetCreated
+  langs:
+  - crmscript
+  name: 'GetCreated()'
+  nameWithType: NSBatchTaskInfo.GetCreated()
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.GetCreated()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetCreated()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Task creation time."
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nDateTime created = thing.GetCreated();</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.GetDatabaseSerialNumber()
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetDatabaseSerialNumber()
+  id: 'GetDatabaseSerialNumber()'
+  so.intellisense: NSBatchTaskInfo.GetDatabaseSerialNumber
+  langs:
+  - crmscript
+  name: 'GetDatabaseSerialNumber()'
+  nameWithType: NSBatchTaskInfo.GetDatabaseSerialNumber()
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.GetDatabaseSerialNumber()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDatabaseSerialNumber()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Serial number of the database the task is to run on."
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nString databaseSerialNumber = thing.GetDatabaseSerialNumber();</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.GetDescription()
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSBatchTaskInfo.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSBatchTaskInfo.GetDescription()
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Description of the task."
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.GetDetailsRecord()
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetDetailsRecord()
+  id: 'GetDetailsRecord()'
+  so.intellisense: NSBatchTaskInfo.GetDetailsRecord
+  langs:
+  - crmscript
+  name: 'GetDetailsRecord()'
+  nameWithType: NSBatchTaskInfo.GetDetailsRecord()
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.GetDetailsRecord()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDetailsRecord()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Record ID of a row in the DetailsTable containing more info about the task."
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nInteger detailsRecord = thing.GetDetailsRecord();</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.GetDetailsTable()
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetDetailsTable()
+  id: 'GetDetailsTable()'
+  so.intellisense: NSBatchTaskInfo.GetDetailsTable
+  langs:
+  - crmscript
+  name: 'GetDetailsTable()'
+  nameWithType: NSBatchTaskInfo.GetDetailsTable()
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.GetDetailsTable()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDetailsTable()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of table with more information about the task."
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nInteger detailsTable = thing.GetDetailsTable();</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.GetId()
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetId()
+  id: 'GetId()'
+  so.intellisense: NSBatchTaskInfo.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSBatchTaskInfo.GetId()
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.GetId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of the task."
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.GetIsInternalTask()
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetIsInternalTask()
+  id: 'GetIsInternalTask()'
+  so.intellisense: NSBatchTaskInfo.GetIsInternalTask
+  langs:
+  - crmscript
+  name: 'GetIsInternalTask()'
+  nameWithType: NSBatchTaskInfo.GetIsInternalTask()
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.GetIsInternalTask()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsInternalTask()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If true, this task will not add a trace to the database."
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nBool isInternalTask = thing.GetIsInternalTask();</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.GetIsSystemTask()
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetIsSystemTask()
+  id: 'GetIsSystemTask()'
+  so.intellisense: NSBatchTaskInfo.GetIsSystemTask
+  langs:
+  - crmscript
+  name: 'GetIsSystemTask()'
+  nameWithType: NSBatchTaskInfo.GetIsSystemTask()
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.GetIsSystemTask()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsSystemTask()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If true, the task is not initiated by an associate."
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nBool isSystemTask = thing.GetIsSystemTask();</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.GetLastStarted()
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetLastStarted()
+  id: 'GetLastStarted()'
+  so.intellisense: NSBatchTaskInfo.GetLastStarted
+  langs:
+  - crmscript
+  name: 'GetLastStarted()'
+  nameWithType: NSBatchTaskInfo.GetLastStarted()
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.GetLastStarted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetLastStarted()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "When was the task last started."
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nDateTime lastStarted = thing.GetLastStarted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.GetName()
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetName()
+  id: 'GetName()'
+  so.intellisense: NSBatchTaskInfo.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSBatchTaskInfo.GetName()
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of the task."
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.GetParameterObject()
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetParameterObject()
+  id: 'GetParameterObject()'
+  so.intellisense: NSBatchTaskInfo.GetParameterObject
+  langs:
+  - crmscript
+  name: 'GetParameterObject()'
+  nameWithType: NSBatchTaskInfo.GetParameterObject()
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.GetParameterObject()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Map GetParameterObject()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description: "ParameterObject will be serialized to a binary blob and saved in the BinaryObject table. The link to the BinaryObject will be set using DetailsTable and DetailsRecord."
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nMap parameterObject = thing.GetParameterObject();</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.GetProgressDescription()
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetProgressDescription()
+  id: 'GetProgressDescription()'
+  so.intellisense: NSBatchTaskInfo.GetProgressDescription
+  langs:
+  - crmscript
+  name: 'GetProgressDescription()'
+  nameWithType: NSBatchTaskInfo.GetProgressDescription()
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.GetProgressDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetProgressDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Descriptive text for the current stage."
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nString progressDescription = thing.GetProgressDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.GetProgressPercent()
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetProgressPercent()
+  id: 'GetProgressPercent()'
+  so.intellisense: NSBatchTaskInfo.GetProgressPercent
+  langs:
+  - crmscript
+  name: 'GetProgressPercent()'
+  nameWithType: NSBatchTaskInfo.GetProgressPercent()
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.GetProgressPercent()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetProgressPercent()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Task progress, in percent of estimated total."
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nInteger progressPercent = thing.GetProgressPercent();</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.GetRequest()
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetRequest()
+  id: 'GetRequest()'
+  so.intellisense: NSBatchTaskInfo.GetRequest
+  langs:
+  - crmscript
+  name: 'GetRequest()'
+  nameWithType: NSBatchTaskInfo.GetRequest()
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.GetRequest()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetRequest()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Maps to the request field in the batchtask table."
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nString request = thing.GetRequest();</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.GetResponse()
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetResponse()
+  id: 'GetResponse()'
+  so.intellisense: NSBatchTaskInfo.GetResponse
+  langs:
+  - crmscript
+  name: 'GetResponse()'
+  nameWithType: NSBatchTaskInfo.GetResponse()
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.GetResponse()
+  type: Method
+  summary: "\nMaps to the response field in the batchtask table.\n"
+  remarks: 
+  syntax: 
+    content: String GetResponse()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nString response = thing.GetResponse();</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.GetResult()
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetResult()
+  id: 'GetResult()'
+  so.intellisense: NSBatchTaskInfo.GetResult
+  langs:
+  - crmscript
+  name: 'GetResult()'
+  nameWithType: NSBatchTaskInfo.GetResult()
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.GetResult()
+  type: Method
+  summary: "\nMaps to the result field in the batchtask table.\n"
+  remarks: 
+  syntax: 
+    content: String GetResult()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nString result = thing.GetResult();</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.GetStartCount()
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetStartCount()
+  id: 'GetStartCount()'
+  so.intellisense: NSBatchTaskInfo.GetStartCount
+  langs:
+  - crmscript
+  name: 'GetStartCount()'
+  nameWithType: NSBatchTaskInfo.GetStartCount()
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.GetStartCount()
+  type: Method
+  summary: "\nMaps to the startcount field in the batchtask table.\n"
+  remarks: 
+  syntax: 
+    content: Integer GetStartCount()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nInteger startCount = thing.GetStartCount();</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.GetState()
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.GetState()
+  id: 'GetState()'
+  so.intellisense: NSBatchTaskInfo.GetState
+  langs:
+  - crmscript
+  name: 'GetState()'
+  nameWithType: NSBatchTaskInfo.GetState()
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.GetState()
+  type: Method
+  summary: "\nBatchTaskState of the task.\n"
+  remarks: 
+  syntax: 
+    content: Integer GetState()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nInteger state = thing.GetState();</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.SetAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetAssociateId(Integer)
+  id: 'SetAssociateId(Integer)'
+  so.intellisense: NSBatchTaskInfo.SetAssociateId
+  langs:
+  - crmscript
+  name: 'SetAssociateId(Integer)'
+  nameWithType: NSBatchTaskInfo.SetAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.SetAssociateId(Integer)
+  type: Method
+  summary: "\nTask owner. If it is a System task, AssociateId = 0.\n"
+  remarks: 
+  syntax: 
+    content: Void SetAssociateId(Integer associateId)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nInteger associateId;\nthing.SetAssociateId(associateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.SetContext(String)
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetContext(String)
+  id: 'SetContext(String)'
+  so.intellisense: NSBatchTaskInfo.SetContext
+  langs:
+  - crmscript
+  name: 'SetContext(String)'
+  nameWithType: NSBatchTaskInfo.SetContext(String)
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.SetContext(String)
+  type: Method
+  summary: "\nContext for the executing task.\n"
+  remarks: 
+  syntax: 
+    content: Void SetContext(String context)
+    parameters:
+    - id: context
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nString context;\nthing.SetContext(context);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.SetCreated(DateTime)
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetCreated(DateTime)
+  id: 'SetCreated(DateTime)'
+  so.intellisense: NSBatchTaskInfo.SetCreated
+  langs:
+  - crmscript
+  name: 'SetCreated(DateTime)'
+  nameWithType: NSBatchTaskInfo.SetCreated(DateTime)
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.SetCreated(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCreated(DateTime created)
+    parameters:
+    - id: created
+      type: CRMScript.Global.DateTime
+      description: "Task creation time."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nDateTime created;\nthing.SetCreated(created);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.SetDatabaseSerialNumber(String)
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetDatabaseSerialNumber(String)
+  id: 'SetDatabaseSerialNumber(String)'
+  so.intellisense: NSBatchTaskInfo.SetDatabaseSerialNumber
+  langs:
+  - crmscript
+  name: 'SetDatabaseSerialNumber(String)'
+  nameWithType: NSBatchTaskInfo.SetDatabaseSerialNumber(String)
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.SetDatabaseSerialNumber(String)
+  type: Method
+  summary: "\nSerial number of the database the task is to run on.\n"
+  remarks: 
+  syntax: 
+    content: Void SetDatabaseSerialNumber(String databaseSerialNumber)
+    parameters:
+    - id: databaseSerialNumber
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nString databaseSerialNumber;\nthing.SetDatabaseSerialNumber(databaseSerialNumber);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSBatchTaskInfo.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSBatchTaskInfo.SetDescription(String)
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.SetDescription(String)
+  type: Method
+  summary: "\nDescription of the task.\n"
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.SetDetailsRecord(Integer)
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetDetailsRecord(Integer)
+  id: 'SetDetailsRecord(Integer)'
+  so.intellisense: NSBatchTaskInfo.SetDetailsRecord
+  langs:
+  - crmscript
+  name: 'SetDetailsRecord(Integer)'
+  nameWithType: NSBatchTaskInfo.SetDetailsRecord(Integer)
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.SetDetailsRecord(Integer)
+  type: Method
+  summary: "\nRecord ID of a row in the DetailsTable containing more info about the task.\n"
+  remarks: 
+  syntax: 
+    content: Void SetDetailsRecord(Integer detailsRecord)
+    parameters:
+    - id: detailsRecord
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nInteger detailsRecord;\nthing.SetDetailsRecord(detailsRecord);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.SetDetailsTable(Integer)
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetDetailsTable(Integer)
+  id: 'SetDetailsTable(Integer)'
+  so.intellisense: NSBatchTaskInfo.SetDetailsTable
+  langs:
+  - crmscript
+  name: 'SetDetailsTable(Integer)'
+  nameWithType: NSBatchTaskInfo.SetDetailsTable(Integer)
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.SetDetailsTable(Integer)
+  type: Method
+  summary: "\nID of table with more information about the task.\n"
+  remarks: 
+  syntax: 
+    content: Void SetDetailsTable(Integer detailsTable)
+    parameters:
+    - id: detailsTable
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nInteger detailsTable;\nthing.SetDetailsTable(detailsTable);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSBatchTaskInfo.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSBatchTaskInfo.SetId(Integer)
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.SetId(Integer)
+  type: Method
+  summary: "\nID of the task.\n"
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nInteger id;\nthing.SetId(id);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.SetIsInternalTask(Bool)
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetIsInternalTask(Bool)
+  id: 'SetIsInternalTask(Bool)'
+  so.intellisense: NSBatchTaskInfo.SetIsInternalTask
+  langs:
+  - crmscript
+  name: 'SetIsInternalTask(Bool)'
+  nameWithType: NSBatchTaskInfo.SetIsInternalTask(Bool)
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.SetIsInternalTask(Bool)
+  type: Method
+  summary: "\nIf IsInternalTask is true, this task will not add a trace to the database.\n"
+  remarks: 
+  syntax: 
+    content: Void SetIsInternalTask(Bool isInternalTask)
+    parameters:
+    - id: isInternalTask
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nBool isInternalTask;\nthing.SetIsInternalTask(isInternalTask);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.SetIsSystemTask(Bool)
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetIsSystemTask(Bool)
+  id: 'SetIsSystemTask(Bool)'
+  so.intellisense: NSBatchTaskInfo.SetIsSystemTask
+  langs:
+  - crmscript
+  name: 'SetIsSystemTask(Bool)'
+  nameWithType: NSBatchTaskInfo.SetIsSystemTask(Bool)
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.SetIsSystemTask(Bool)
+  type: Method
+  summary: "\nIf IsSystemTask is true, the task is not initiated by an associate.\n"
+  remarks: 
+  syntax: 
+    content: Void SetIsSystemTask(Bool isSystemTask)
+    parameters:
+    - id: isSystemTask
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nBool isSystemTask;\nthing.SetIsSystemTask(isSystemTask);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.SetLastStarted(DateTime)
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetLastStarted(DateTime)
+  id: 'SetLastStarted(DateTime)'
+  so.intellisense: NSBatchTaskInfo.SetLastStarted
+  langs:
+  - crmscript
+  name: 'SetLastStarted(DateTime)'
+  nameWithType: NSBatchTaskInfo.SetLastStarted(DateTime)
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.SetLastStarted(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLastStarted(DateTime lastStarted)
+    parameters:
+    - id: lastStarted
+      type: CRMScript.Global.DateTime
+      description: "When was the task last started."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nDateTime lastStarted;\nthing.SetLastStarted(lastStarted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.SetName(String)
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSBatchTaskInfo.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSBatchTaskInfo.SetName(String)
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.SetName(String)
+  type: Method
+  summary: "\nName of the task.\n"
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.SetParameterObject(Map)
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetParameterObject(Map)
+  id: 'SetParameterObject(Map)'
+  so.intellisense: NSBatchTaskInfo.SetParameterObject
+  langs:
+  - crmscript
+  name: 'SetParameterObject(Map)'
+  nameWithType: NSBatchTaskInfo.SetParameterObject(Map)
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.SetParameterObject(Map)
+  type: Method
+  summary: "\nSerializes a Map to a binary blob and saves it in the BinaryObject table. The link to the BinaryObject will be set using DetailsTable and DetailsRecord.\n"
+  remarks: 
+  syntax: 
+    content: Void SetParameterObject(Map parameterObject)
+    parameters:
+    - id: parameterObject
+      type: CRMScript.Native.Map
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nMap parameterObject;\nthing.SetParameterObject(parameterObject);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.SetProgressDescription(String)
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetProgressDescription(String)
+  id: 'SetProgressDescription(String)'
+  so.intellisense: NSBatchTaskInfo.SetProgressDescription
+  langs:
+  - crmscript
+  name: 'SetProgressDescription(String)'
+  nameWithType: NSBatchTaskInfo.SetProgressDescription(String)
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.SetProgressDescription(String)
+  type: Method
+  summary: "\nDescriptive text for the current stage\n"
+  remarks: 
+  syntax: 
+    content: Void SetProgressDescription(String progressDescription)
+    parameters:
+    - id: progressDescription
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nString progressDescription;\nthing.SetProgressDescription(progressDescription);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.SetProgressPercent(Integer)
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetProgressPercent(Integer)
+  id: 'SetProgressPercent(Integer)'
+  so.intellisense: NSBatchTaskInfo.SetProgressPercent
+  langs:
+  - crmscript
+  name: 'SetProgressPercent(Integer)'
+  nameWithType: NSBatchTaskInfo.SetProgressPercent(Integer)
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.SetProgressPercent(Integer)
+  type: Method
+  summary: "\nTask progress, in percent of estimated total\n"
+  remarks: 
+  syntax: 
+    content: Void SetProgressPercent(Integer progressPercent)
+    parameters:
+    - id: progressPercent
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nInteger progressPercent;\nthing.SetProgressPercent(progressPercent);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.SetRequest(String)
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetRequest(String)
+  id: 'SetRequest(String)'
+  so.intellisense: NSBatchTaskInfo.SetRequest
+  langs:
+  - crmscript
+  name: 'SetRequest(String)'
+  nameWithType: NSBatchTaskInfo.SetRequest(String)
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.SetRequest(String)
+  type: Method
+  summary: "\nMaps to the request field in the batchtask table.\n"
+  remarks: 
+  syntax: 
+    content: Void SetRequest(String request)
+    parameters:
+    - id: request
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nString request;\nthing.SetRequest(request);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.SetResponse(String)
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetResponse(String)
+  id: 'SetResponse(String)'
+  so.intellisense: NSBatchTaskInfo.SetResponse
+  langs:
+  - crmscript
+  name: 'SetResponse(String)'
+  nameWithType: NSBatchTaskInfo.SetResponse(String)
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.SetResponse(String)
+  type: Method
+  summary: "\nMaps to the response field in the batchtask table.\n"
+  remarks: 
+  syntax: 
+    content: Void SetResponse(String response)
+    parameters:
+    - id: response
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nString response;\nthing.SetResponse(response);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.SetResult(String)
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetResult(String)
+  id: 'SetResult(String)'
+  so.intellisense: NSBatchTaskInfo.SetResult
+  langs:
+  - crmscript
+  name: 'SetResult(String)'
+  nameWithType: NSBatchTaskInfo.SetResult(String)
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.SetResult(String)
+  type: Method
+  summary: "\nMaps to the result field in the batchtask table.\n"
+  remarks: 
+  syntax: 
+    content: Void SetResult(String result)
+    parameters:
+    - id: result
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nString result;\nthing.SetResult(result);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.SetStartCount(Integer)
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetStartCount(Integer)
+  id: 'SetStartCount(Integer)'
+  so.intellisense: NSBatchTaskInfo.SetStartCount
+  langs:
+  - crmscript
+  name: 'SetStartCount(Integer)'
+  nameWithType: NSBatchTaskInfo.SetStartCount(Integer)
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.SetStartCount(Integer)
+  type: Method
+  summary: "\nMaps to the startcount field in the batchtask table.\n"
+  remarks: 
+  syntax: 
+    content: Void SetStartCount(Integer startCount)
+    parameters:
+    - id: startCount
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nInteger startCount;\nthing.SetStartCount(startCount);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchTaskInfo.SetState(Integer)
+  commentId: M:CRMScript.NetServer.NSBatchTaskInfo.SetState(Integer)
+  id: 'SetState(Integer)'
+  so.intellisense: NSBatchTaskInfo.SetState
+  langs:
+  - crmscript
+  name: 'SetState(Integer)'
+  nameWithType: NSBatchTaskInfo.SetState(Integer)
+  fullName: CRMScript.NetServer.NSBatchTaskInfo.SetState(Integer)
+  type: Method
+  summary: "\nBatchTaskState of the task.\n"
+  remarks: "\nSee <xref href=\"CRMScript.NetServer.BatchTaskState\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax: 
+    content: Void SetState(Integer state)
+    parameters:
+    - id: state
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSBatchTaskInfo thing;\nInteger state;\nthing.SetState(state);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSBatchTaskInfo
+  commentId: T:CRMScript.NetServer.NSBatchTaskInfo
+  isExternal: true
+  name: NSBatchTaskInfo
+  nameWithType: NSBatchTaskInfo
+  fullName: CRMScript.NetServer.NSBatchTaskInfo
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Native.Map
+  commentId: T:CRMScript.Native.Map
+  isExternal: true
+  name: Map
+  nameWithType: Map
+  fullName: CRMScript.Native.Map
+- uid: CRMScript.NetServer.BatchTaskState
+  commentId: T:CRMScript.NetServer.BatchTaskState
+  isExternal: true
+  name: BatchTaskState
+  nameWithType: BatchTaskState
+  fullName: CRMScript.NetServer.BatchTaskState
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

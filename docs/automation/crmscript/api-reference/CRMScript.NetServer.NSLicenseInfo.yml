@@ -1,0 +1,921 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSLicenseInfo
+  commentId: T:CRMScript.NetServer.NSLicenseInfo
+  id: NSLicenseInfo
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSLicenseInfo.#ctor
+  - CRMScript.NetServer.NSLicenseInfo.GetAdminWarningDate()
+  - CRMScript.NetServer.NSLicenseInfo.GetCompanyName()
+  - CRMScript.NetServer.NSLicenseInfo.GetDeploymentType()
+  - CRMScript.NetServer.NSLicenseInfo.GetExpiryDate()
+  - CRMScript.NetServer.NSLicenseInfo.GetExtraFlags()
+  - CRMScript.NetServer.NSLicenseInfo.GetExtraInfo()
+  - CRMScript.NetServer.NSLicenseInfo.GetGraceDate()
+  - CRMScript.NetServer.NSLicenseInfo.GetLicenseUrl()
+  - CRMScript.NetServer.NSLicenseInfo.GetLicenseVersion()
+  - CRMScript.NetServer.NSLicenseInfo.GetMaintenanceDate()
+  - CRMScript.NetServer.NSLicenseInfo.GetModuleLicenses()
+  - CRMScript.NetServer.NSLicenseInfo.GetNextCheckDate()
+  - CRMScript.NetServer.NSLicenseInfo.GetOwnerDescription()
+  - CRMScript.NetServer.NSLicenseInfo.GetOwnerName()
+  - CRMScript.NetServer.NSLicenseInfo.GetProductDescription()
+  - CRMScript.NetServer.NSLicenseInfo.GetProductType()
+  - CRMScript.NetServer.NSLicenseInfo.GetPublicKey()
+  - CRMScript.NetServer.NSLicenseInfo.GetSerialNr()
+  - CRMScript.NetServer.NSLicenseInfo.GetSignature()
+  - CRMScript.NetServer.NSLicenseInfo.SetAdminWarningDate(DateTime)
+  - CRMScript.NetServer.NSLicenseInfo.SetCompanyName(String)
+  - CRMScript.NetServer.NSLicenseInfo.SetDeploymentType(Integer)
+  - CRMScript.NetServer.NSLicenseInfo.SetExpiryDate(DateTime)
+  - CRMScript.NetServer.NSLicenseInfo.SetExtraFlags(Integer)
+  - CRMScript.NetServer.NSLicenseInfo.SetExtraInfo(String)
+  - CRMScript.NetServer.NSLicenseInfo.SetGraceDate(DateTime)
+  - CRMScript.NetServer.NSLicenseInfo.SetLicenseUrl(String)
+  - CRMScript.NetServer.NSLicenseInfo.SetLicenseVersion(String)
+  - CRMScript.NetServer.NSLicenseInfo.SetMaintenanceDate(DateTime)
+  - CRMScript.NetServer.NSLicenseInfo.SetModuleLicenses(NSModuleLicense[])
+  - CRMScript.NetServer.NSLicenseInfo.SetNextCheckDate(DateTime)
+  - CRMScript.NetServer.NSLicenseInfo.SetOwnerDescription(String)
+  - CRMScript.NetServer.NSLicenseInfo.SetOwnerName(String)
+  - CRMScript.NetServer.NSLicenseInfo.SetProductDescription(String)
+  - CRMScript.NetServer.NSLicenseInfo.SetProductType(String)
+  - CRMScript.NetServer.NSLicenseInfo.SetPublicKey(NSSignedPublicKey)
+  - CRMScript.NetServer.NSLicenseInfo.SetSerialNr(String)
+  - CRMScript.NetServer.NSLicenseInfo.SetSignature(String)
+  name: NSLicenseInfo
+  nameWithType: NSLicenseInfo
+  fullName: CRMScript.NetServer.NSLicenseInfo
+  type: Class
+  summary: "\nRepresents all licenses for this owner at this site.\n"
+  example: 
+- uid: CRMScript.NetServer.NSLicenseInfo.#ctor
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSLicenseInfo
+  langs:
+  - crmscript
+  name: NSLicenseInfo()
+  nameWithType: NSLicenseInfo.#ctor
+  fullName: CRMScript.NetServer.NSLicenseInfo.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSLicenseInfo class.\n"
+  remarks: 
+  syntax: 
+    content: NSLicenseInfo
+  example: 
+- uid: CRMScript.NetServer.NSLicenseInfo.GetAdminWarningDate()
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.GetAdminWarningDate()
+  id: 'GetAdminWarningDate()'
+  so.intellisense: NSLicenseInfo.GetAdminWarningDate
+  langs:
+  - crmscript
+  name: 'GetAdminWarningDate()'
+  nameWithType: NSLicenseInfo.GetAdminWarningDate()
+  fullName: CRMScript.NetServer.NSLicenseInfo.GetAdminWarningDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetAdminWarningDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "When should nagging begin (for instance, during login to SoAdmin)."
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nDateTime adminWarningDate = thing.GetAdminWarningDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.GetCompanyName()
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.GetCompanyName()
+  id: 'GetCompanyName()'
+  so.intellisense: NSLicenseInfo.GetCompanyName
+  langs:
+  - crmscript
+  name: 'GetCompanyName()'
+  nameWithType: NSLicenseInfo.GetCompanyName()
+  fullName: CRMScript.NetServer.NSLicenseInfo.GetCompanyName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCompanyName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of the database owner company."
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nString companyName = thing.GetCompanyName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.GetDeploymentType()
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.GetDeploymentType()
+  id: 'GetDeploymentType()'
+  so.intellisense: NSLicenseInfo.GetDeploymentType
+  langs:
+  - crmscript
+  name: 'GetDeploymentType()'
+  nameWithType: NSLicenseInfo.GetDeploymentType()
+  fullName: CRMScript.NetServer.NSLicenseInfo.GetDeploymentType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDeploymentType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Type of deployment."
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nInteger deploymentType = thing.GetDeploymentType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.GetExpiryDate()
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.GetExpiryDate()
+  id: 'GetExpiryDate()'
+  so.intellisense: NSLicenseInfo.GetExpiryDate
+  langs:
+  - crmscript
+  name: 'GetExpiryDate()'
+  nameWithType: NSLicenseInfo.GetExpiryDate()
+  fullName: CRMScript.NetServer.NSLicenseInfo.GetExpiryDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetExpiryDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Expiration date, 0 = forever."
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nDateTime expiryDate = thing.GetExpiryDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.GetExtraFlags()
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.GetExtraFlags()
+  id: 'GetExtraFlags()'
+  so.intellisense: NSLicenseInfo.GetExtraFlags
+  langs:
+  - crmscript
+  name: 'GetExtraFlags()'
+  nameWithType: NSLicenseInfo.GetExtraFlags()
+  fullName: CRMScript.NetServer.NSLicenseInfo.GetExtraFlags()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetExtraFlags()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Unspecified extra flags of license, part of checksum."
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nInteger extraFlags = thing.GetExtraFlags();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.GetExtraInfo()
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.GetExtraInfo()
+  id: 'GetExtraInfo()'
+  so.intellisense: NSLicenseInfo.GetExtraInfo
+  langs:
+  - crmscript
+  name: 'GetExtraInfo()'
+  nameWithType: NSLicenseInfo.GetExtraInfo()
+  fullName: CRMScript.NetServer.NSLicenseInfo.GetExtraInfo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExtraInfo()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: 
+  example: 
+- uid: CRMScript.NetServer.NSLicenseInfo.GetGraceDate()
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.GetGraceDate()
+  id: 'GetGraceDate()'
+  so.intellisense: NSLicenseInfo.GetGraceDate
+  langs:
+  - crmscript
+  name: 'GetGraceDate()'
+  nameWithType: NSLicenseInfo.GetGraceDate()
+  fullName: CRMScript.NetServer.NSLicenseInfo.GetGraceDate()
+  type: Method
+  summary: # TODO
+  remarks: "\nModules that normally update data should switch to read-only mode. Modules that only read anyway, should disable themselves in some other way\n"
+  syntax: 
+    content: DateTime GetGraceDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Real expiration date, when the given module actually stops working."
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nDateTime graceDate = thing.GetGraceDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.GetLicenseUrl()
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.GetLicenseUrl()
+  id: 'GetLicenseUrl()'
+  so.intellisense: NSLicenseInfo.GetLicenseUrl
+  langs:
+  - crmscript
+  name: 'GetLicenseUrl()'
+  nameWithType: NSLicenseInfo.GetLicenseUrl()
+  fullName: CRMScript.NetServer.NSLicenseInfo.GetLicenseUrl()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetLicenseUrl()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The URL that will provide keycodes for all modules owned by this owner."
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nString licenseUrl = thing.GetLicenseUrl();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.GetLicenseVersion()
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.GetLicenseVersion()
+  id: 'GetLicenseVersion()'
+  so.intellisense: NSLicenseInfo.GetLicenseVersion
+  langs:
+  - crmscript
+  name: 'GetLicenseVersion()'
+  nameWithType: NSLicenseInfo.GetLicenseVersion()
+  fullName: CRMScript.NetServer.NSLicenseInfo.GetLicenseVersion()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetLicenseVersion()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The URL that will provide keycodes for all modules owned by this owner."
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nString licenseVersion = thing.GetLicenseVersion();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.GetMaintenanceDate()
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.GetMaintenanceDate()
+  id: 'GetMaintenanceDate()'
+  so.intellisense: NSLicenseInfo.GetMaintenanceDate
+  langs:
+  - crmscript
+  name: 'GetMaintenanceDate()'
+  nameWithType: NSLicenseInfo.GetMaintenanceDate()
+  fullName: CRMScript.NetServer.NSLicenseInfo.GetMaintenanceDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetMaintenanceDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Expiration date for maintenance. After this date, upgrades should refuse to install."
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nDateTime maintenanceDate = thing.GetMaintenanceDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.GetModuleLicenses()
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.GetModuleLicenses()
+  id: 'GetModuleLicenses()'
+  so.intellisense: NSLicenseInfo.GetModuleLicenses
+  langs:
+  - crmscript
+  name: 'GetModuleLicenses()'
+  nameWithType: NSLicenseInfo.GetModuleLicenses()
+  fullName: CRMScript.NetServer.NSLicenseInfo.GetModuleLicenses()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSModuleLicense[] GetModuleLicenses()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSModuleLicense[]
+      description: "The module licenses."
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nNSModuleLicense[] moduleLicenses = thing.GetModuleLicenses();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.GetNextCheckDate()
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.GetNextCheckDate()
+  id: 'GetNextCheckDate()'
+  so.intellisense: NSLicenseInfo.GetNextCheckDate
+  langs:
+  - crmscript
+  name: 'GetNextCheckDate()'
+  nameWithType: NSLicenseInfo.GetNextCheckDate()
+  fullName: CRMScript.NetServer.NSLicenseInfo.GetNextCheckDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetNextCheckDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "When should the system next check with the license issuer."
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nDateTime nextCheckDate = thing.GetNextCheckDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.GetOwnerDescription()
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.GetOwnerDescription()
+  id: 'GetOwnerDescription()'
+  so.intellisense: NSLicenseInfo.GetOwnerDescription
+  langs:
+  - crmscript
+  name: 'GetOwnerDescription()'
+  nameWithType: NSLicenseInfo.GetOwnerDescription()
+  fullName: CRMScript.NetServer.NSLicenseInfo.GetOwnerDescription()
+  type: Method
+  summary: # TODO
+  remarks: "\nAdditional languages can be added to LocaleText, resource type 26\n"
+  syntax: 
+    content: String GetOwnerDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Human-readable description of owner, shown in GUI, default language."
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nString ownerDescription = thing.GetOwnerDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.GetOwnerName()
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.GetOwnerName()
+  id: 'GetOwnerName()'
+  so.intellisense: NSLicenseInfo.GetOwnerName
+  langs:
+  - crmscript
+  name: 'GetOwnerName()'
+  nameWithType: NSLicenseInfo.GetOwnerName()
+  fullName: CRMScript.NetServer.NSLicenseInfo.GetOwnerName()
+  type: Method
+  summary: # TODO
+  remarks: "\nOwnerName SUPEROFFICE is reserved and may NEVER be used by partners. This must be in UPPER CASE and only contain A-Z and 0-9. NO EXTENDED CHARACTERS please.\n"
+  syntax: 
+    content: String GetOwnerName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the module owner, not visible in GUI but used in the code."
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nString ownerName = thing.GetOwnerName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.GetProductDescription()
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.GetProductDescription()
+  id: 'GetProductDescription()'
+  so.intellisense: NSLicenseInfo.GetProductDescription
+  langs:
+  - crmscript
+  name: 'GetProductDescription()'
+  nameWithType: NSLicenseInfo.GetProductDescription()
+  fullName: CRMScript.NetServer.NSLicenseInfo.GetProductDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetProductDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Description of type of product."
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nString productDescription = thing.GetProductDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.GetProductType()
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.GetProductType()
+  id: 'GetProductType()'
+  so.intellisense: NSLicenseInfo.GetProductType
+  langs:
+  - crmscript
+  name: 'GetProductType()'
+  nameWithType: NSLicenseInfo.GetProductType()
+  fullName: CRMScript.NetServer.NSLicenseInfo.GetProductType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetProductType()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Type of product."
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nString productType = thing.GetProductType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.GetPublicKey()
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.GetPublicKey()
+  id: 'GetPublicKey()'
+  so.intellisense: NSLicenseInfo.GetPublicKey
+  langs:
+  - crmscript
+  name: 'GetPublicKey()'
+  nameWithType: NSLicenseInfo.GetPublicKey()
+  fullName: CRMScript.NetServer.NSLicenseInfo.GetPublicKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSSignedPublicKey GetPublicKey()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSignedPublicKey
+      description: "The public key used to verify licenses owned by this owner."
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nNSSignedPublicKey publicKey = thing.GetPublicKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.GetSerialNr()
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.GetSerialNr()
+  id: 'GetSerialNr()'
+  so.intellisense: NSLicenseInfo.GetSerialNr
+  langs:
+  - crmscript
+  name: 'GetSerialNr()'
+  nameWithType: NSLicenseInfo.GetSerialNr()
+  fullName: CRMScript.NetServer.NSLicenseInfo.GetSerialNr()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSerialNr()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Serial number. For example, 1010000014."
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nString serialNr = thing.GetSerialNr();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.GetSignature()
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.GetSignature()
+  id: 'GetSignature()'
+  so.intellisense: NSLicenseInfo.GetSignature
+  langs:
+  - crmscript
+  name: 'GetSignature()'
+  nameWithType: NSLicenseInfo.GetSignature()
+  fullName: CRMScript.NetServer.NSLicenseInfo.GetSignature()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSignature()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Signature of all non-zero-amount moduleLicense rows referring to this owner."
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nString signature = thing.GetSignature();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.SetAdminWarningDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.SetAdminWarningDate(DateTime)
+  id: 'SetAdminWarningDate(DateTime)'
+  so.intellisense: NSLicenseInfo.SetAdminWarningDate
+  langs:
+  - crmscript
+  name: 'SetAdminWarningDate(DateTime)'
+  nameWithType: NSLicenseInfo.SetAdminWarningDate(DateTime)
+  fullName: CRMScript.NetServer.NSLicenseInfo.SetAdminWarningDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAdminWarningDate(DateTime adminWarningDate)
+    parameters:
+    - id: adminWarningDate
+      type: CRMScript.Global.DateTime
+      description: "When should nagging begin (for instance, during login to SoAdmin)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nDateTime adminWarningDate;\nthing.SetAdminWarningDate(adminWarningDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.SetCompanyName(String)
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.SetCompanyName(String)
+  id: 'SetCompanyName(String)'
+  so.intellisense: NSLicenseInfo.SetCompanyName
+  langs:
+  - crmscript
+  name: 'SetCompanyName(String)'
+  nameWithType: NSLicenseInfo.SetCompanyName(String)
+  fullName: CRMScript.NetServer.NSLicenseInfo.SetCompanyName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCompanyName(String companyName)
+    parameters:
+    - id: companyName
+      type: CRMScript.Global.String
+      description: "Name of the database owner company."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nString companyName;\nthing.SetCompanyName(companyName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.SetDeploymentType(Integer)
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.SetDeploymentType(Integer)
+  id: 'SetDeploymentType(Integer)'
+  so.intellisense: NSLicenseInfo.SetDeploymentType
+  langs:
+  - crmscript
+  name: 'SetDeploymentType(Integer)'
+  nameWithType: NSLicenseInfo.SetDeploymentType(Integer)
+  fullName: CRMScript.NetServer.NSLicenseInfo.SetDeploymentType(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeploymentType(Integer deploymentType)
+    parameters:
+    - id: deploymentType
+      type: CRMScript.Global.Integer
+      description: "Type of deployment."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nInteger deploymentType;\nthing.SetDeploymentType(deploymentType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.SetExpiryDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.SetExpiryDate(DateTime)
+  id: 'SetExpiryDate(DateTime)'
+  so.intellisense: NSLicenseInfo.SetExpiryDate
+  langs:
+  - crmscript
+  name: 'SetExpiryDate(DateTime)'
+  nameWithType: NSLicenseInfo.SetExpiryDate(DateTime)
+  fullName: CRMScript.NetServer.NSLicenseInfo.SetExpiryDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExpiryDate(DateTime expiryDate)
+    parameters:
+    - id: expiryDate
+      type: CRMScript.Global.DateTime
+      description: "Expiration date, 0 = forever."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nDateTime expiryDate;\nthing.SetExpiryDate(expiryDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.SetExtraFlags(Integer)
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.SetExtraFlags(Integer)
+  id: 'SetExtraFlags(Integer)'
+  so.intellisense: NSLicenseInfo.SetExtraFlags
+  langs:
+  - crmscript
+  name: 'SetExtraFlags(Integer)'
+  nameWithType: NSLicenseInfo.SetExtraFlags(Integer)
+  fullName: CRMScript.NetServer.NSLicenseInfo.SetExtraFlags(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraFlags(Integer extraFlags)
+    parameters:
+    - id: extraFlags
+      type: CRMScript.Global.Integer
+      description: "Unspecified extra flags of license, part of checksum."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nInteger extraFlags;\nthing.SetExtraFlags(extraFlags);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.SetExtraInfo(String)
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.SetExtraInfo(String)
+  id: 'SetExtraInfo(String)'
+  so.intellisense: NSLicenseInfo.SetExtraInfo
+  langs:
+  - crmscript
+  name: 'SetExtraInfo(String)'
+  nameWithType: NSLicenseInfo.SetExtraInfo(String)
+  fullName: CRMScript.NetServer.NSLicenseInfo.SetExtraInfo(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraInfo(String extraInfo)
+    parameters:
+    - id: extraInfo
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSLicenseInfo.SetGraceDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.SetGraceDate(DateTime)
+  id: 'SetGraceDate(DateTime)'
+  so.intellisense: NSLicenseInfo.SetGraceDate
+  langs:
+  - crmscript
+  name: 'SetGraceDate(DateTime)'
+  nameWithType: NSLicenseInfo.SetGraceDate(DateTime)
+  fullName: CRMScript.NetServer.NSLicenseInfo.SetGraceDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: "\nModules that normally update data should switch to read-only mode. Modules that only read anyway, should disable themselves in some other way\n"
+  syntax: 
+    content: Void SetGraceDate(DateTime graceDate)
+    parameters:
+    - id: graceDate
+      type: CRMScript.Global.DateTime
+      description: "Real expiration date, when the given module actually stops working."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nDateTime graceDate;\nthing.SetGraceDate(graceDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.SetLicenseUrl(String)
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.SetLicenseUrl(String)
+  id: 'SetLicenseUrl(String)'
+  so.intellisense: NSLicenseInfo.SetLicenseUrl
+  langs:
+  - crmscript
+  name: 'SetLicenseUrl(String)'
+  nameWithType: NSLicenseInfo.SetLicenseUrl(String)
+  fullName: CRMScript.NetServer.NSLicenseInfo.SetLicenseUrl(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLicenseUrl(String licenseUrl)
+    parameters:
+    - id: licenseUrl
+      type: CRMScript.Global.String
+      description: "The URL that will provide keycodes for all modules owned by this owner."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nString licenseUrl;\nthing.SetLicenseUrl(licenseUrl);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.SetLicenseVersion(String)
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.SetLicenseVersion(String)
+  id: 'SetLicenseVersion(String)'
+  so.intellisense: NSLicenseInfo.SetLicenseVersion
+  langs:
+  - crmscript
+  name: 'SetLicenseVersion(String)'
+  nameWithType: NSLicenseInfo.SetLicenseVersion(String)
+  fullName: CRMScript.NetServer.NSLicenseInfo.SetLicenseVersion(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLicenseVersion(String licenseVersion)
+    parameters:
+    - id: licenseVersion
+      type: CRMScript.Global.String
+      description: "The URL that will provide keycodes for all modules owned by this owner."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nString licenseVersion;\nthing.SetLicenseVersion(licenseVersion);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.SetMaintenanceDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.SetMaintenanceDate(DateTime)
+  id: 'SetMaintenanceDate(DateTime)'
+  so.intellisense: NSLicenseInfo.SetMaintenanceDate
+  langs:
+  - crmscript
+  name: 'SetMaintenanceDate(DateTime)'
+  nameWithType: NSLicenseInfo.SetMaintenanceDate(DateTime)
+  fullName: CRMScript.NetServer.NSLicenseInfo.SetMaintenanceDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMaintenanceDate(DateTime maintenanceDate)
+    parameters:
+    - id: maintenanceDate
+      type: CRMScript.Global.DateTime
+      description: "Expiration date for maintenance. After this date, upgrades should refuse to install."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nDateTime maintenanceDate;\nthing.SetMaintenanceDate(maintenanceDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.SetModuleLicenses(NSModuleLicense[])
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.SetModuleLicenses(NSModuleLicense[])
+  id: 'SetModuleLicenses(NSModuleLicense[])'
+  so.intellisense: NSLicenseInfo.SetModuleLicenses
+  langs:
+  - crmscript
+  name: 'SetModuleLicenses(NSModuleLicense[])'
+  nameWithType: NSLicenseInfo.SetModuleLicenses(NSModuleLicense[])
+  fullName: CRMScript.NetServer.NSLicenseInfo.SetModuleLicenses(NSModuleLicense[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetModuleLicenses(NSModuleLicense[] moduleLicenses)
+    parameters:
+    - id: moduleLicenses
+      type: CRMScript.NetServer.NSModuleLicense[]
+      description: "The module licenses."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nNSModuleLicense[] moduleLicenses;\nthing.SetModuleLicenses(moduleLicenses);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.SetNextCheckDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.SetNextCheckDate(DateTime)
+  id: 'SetNextCheckDate(DateTime)'
+  so.intellisense: NSLicenseInfo.SetNextCheckDate
+  langs:
+  - crmscript
+  name: 'SetNextCheckDate(DateTime)'
+  nameWithType: NSLicenseInfo.SetNextCheckDate(DateTime)
+  fullName: CRMScript.NetServer.NSLicenseInfo.SetNextCheckDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetNextCheckDate(DateTime nextCheckDate)
+    parameters:
+    - id: nextCheckDate
+      type: CRMScript.Global.DateTime
+      description: "When should the system next check with the license issuer."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nDateTime nextCheckDate;\nthing.SetNextCheckDate(nextCheckDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.SetOwnerDescription(String)
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.SetOwnerDescription(String)
+  id: 'SetOwnerDescription(String)'
+  so.intellisense: NSLicenseInfo.SetOwnerDescription
+  langs:
+  - crmscript
+  name: 'SetOwnerDescription(String)'
+  nameWithType: NSLicenseInfo.SetOwnerDescription(String)
+  fullName: CRMScript.NetServer.NSLicenseInfo.SetOwnerDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nAdditional languages can be added to LocaleText, resource type 26\n"
+  syntax: 
+    content: Void SetOwnerDescription(String ownerDescription)
+    parameters:
+    - id: ownerDescription
+      type: CRMScript.Global.String
+      description: "Human-readable description of owner, shown in GUI, default language."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nString ownerDescription;\nthing.SetOwnerDescription(ownerDescription);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.SetOwnerName(String)
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.SetOwnerName(String)
+  id: 'SetOwnerName(String)'
+  so.intellisense: NSLicenseInfo.SetOwnerName
+  langs:
+  - crmscript
+  name: 'SetOwnerName(String)'
+  nameWithType: NSLicenseInfo.SetOwnerName(String)
+  fullName: CRMScript.NetServer.NSLicenseInfo.SetOwnerName(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nOwnerName SUPEROFFICE is reserved and may NEVER be used by partners. This must be in UPPER CASE and only contain A-Z and 0-9. NO EXTENDED CHARACTERS please.\n"
+  syntax: 
+    content: Void SetOwnerName(String ownerName)
+    parameters:
+    - id: ownerName
+      type: CRMScript.Global.String
+      description: "The name of the module owner, not visible in GUI but used in the code."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nString ownerName;\nthing.SetOwnerName(ownerName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.SetProductDescription(String)
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.SetProductDescription(String)
+  id: 'SetProductDescription(String)'
+  so.intellisense: NSLicenseInfo.SetProductDescription
+  langs:
+  - crmscript
+  name: 'SetProductDescription(String)'
+  nameWithType: NSLicenseInfo.SetProductDescription(String)
+  fullName: CRMScript.NetServer.NSLicenseInfo.SetProductDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProductDescription(String productDescription)
+    parameters:
+    - id: productDescription
+      type: CRMScript.Global.String
+      description: "Description of type of product."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nString productDescription;\nthing.SetProductDescription(productDescription);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.SetProductType(String)
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.SetProductType(String)
+  id: 'SetProductType(String)'
+  so.intellisense: NSLicenseInfo.SetProductType
+  langs:
+  - crmscript
+  name: 'SetProductType(String)'
+  nameWithType: NSLicenseInfo.SetProductType(String)
+  fullName: CRMScript.NetServer.NSLicenseInfo.SetProductType(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProductType(String productType)
+    parameters:
+    - id: productType
+      type: CRMScript.Global.String
+      description: "Type of product."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nString productType;\nthing.SetProductType(productType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.SetPublicKey(NSSignedPublicKey)
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.SetPublicKey(NSSignedPublicKey)
+  id: 'SetPublicKey(NSSignedPublicKey)'
+  so.intellisense: NSLicenseInfo.SetPublicKey
+  langs:
+  - crmscript
+  name: 'SetPublicKey(NSSignedPublicKey)'
+  nameWithType: NSLicenseInfo.SetPublicKey(NSSignedPublicKey)
+  fullName: CRMScript.NetServer.NSLicenseInfo.SetPublicKey(NSSignedPublicKey)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPublicKey(NSSignedPublicKey publicKey)
+    parameters:
+    - id: publicKey
+      type: CRMScript.NetServer.NSSignedPublicKey
+      description: "The public key used to verify licenses owned by this owner."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nNSSignedPublicKey publicKey;\nthing.SetPublicKey(publicKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.SetSerialNr(String)
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.SetSerialNr(String)
+  id: 'SetSerialNr(String)'
+  so.intellisense: NSLicenseInfo.SetSerialNr
+  langs:
+  - crmscript
+  name: 'SetSerialNr(String)'
+  nameWithType: NSLicenseInfo.SetSerialNr(String)
+  fullName: CRMScript.NetServer.NSLicenseInfo.SetSerialNr(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSerialNr(String serialNr)
+    parameters:
+    - id: serialNr
+      type: CRMScript.Global.String
+      description: "Serial number. For example, 1010000014."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nString serialNr;\nthing.SetSerialNr(serialNr);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseInfo.SetSignature(String)
+  commentId: M:CRMScript.NetServer.NSLicenseInfo.SetSignature(String)
+  id: 'SetSignature(String)'
+  so.intellisense: NSLicenseInfo.SetSignature
+  langs:
+  - crmscript
+  name: 'SetSignature(String)'
+  nameWithType: NSLicenseInfo.SetSignature(String)
+  fullName: CRMScript.NetServer.NSLicenseInfo.SetSignature(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSignature(String signature)
+    parameters:
+    - id: signature
+      type: CRMScript.Global.String
+      description: "Signature of all non-zero-amount moduleLicense rows referring to this owner."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLicenseInfo thing;\nString signature;\nthing.SetSignature(signature);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSLicenseInfo
+  commentId: T:CRMScript.NetServer.NSLicenseInfo
+  isExternal: true
+  name: NSLicenseInfo
+  nameWithType: NSLicenseInfo
+  fullName: CRMScript.NetServer.NSLicenseInfo
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSModuleLicense[]
+  isExternal: true
+  name: NSModuleLicense[]
+  nameWithType: NSModuleLicense[]
+  fullName: CRMScript.NetServer.NSModuleLicense[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSModuleLicense
+    isExternal: true
+    name: NSModuleLicense
+    nameWithType: NSModuleLicense
+    fullName: CRMScript.NetServer.NSModuleLicense
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSModuleLicense
+  commentId: T:CRMScript.NetServer.NSModuleLicense
+  isExternal: true
+  name: NSModuleLicense
+  nameWithType: NSModuleLicense
+  fullName: CRMScript.NetServer.NSModuleLicense
+- uid: CRMScript.NetServer.NSSignedPublicKey
+  commentId: T:CRMScript.NetServer.NSSignedPublicKey
+  isExternal: true
+  name: NSSignedPublicKey
+  nameWithType: NSSignedPublicKey
+  fullName: CRMScript.NetServer.NSSignedPublicKey
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

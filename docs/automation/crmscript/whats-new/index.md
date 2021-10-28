@@ -18,6 +18,6 @@ New HTTP class functions to easily send documents and attachments in a POST requ
 * [HTTP.addBinaryData][3]
 
 <!-- Referenced links -->
-[1]: ../api-reference/classes/http/addattachmentdata.md
-[2]: ../api-reference/classes/http/adddocumentdata.md
-[3]: ../api-reference/classes/http/addbinarydata.md
+[1]: <xref:CRMScript.Native.HTTP.addAttachmentData(Integer)>
+[2]: <xref:CRMScript.Native.HTTP.addDocumentData(Integer)>
+[3]: <xref:CRMScript.Native.HTTP.addBinaryData(Byte[])>

@@ -1,0 +1,367 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.XMLNode
+  commentId: T:CRMScript.Native.XMLNode
+  id: XMLNode
+  langs:
+  - crmscript
+  children:
+    - CRMScript.Native.XMLNode.#ctor(XMLNode)
+    - CRMScript.Native.XMLNode.#ctor(String)
+    - CRMScript.Native.XMLNode.toString(Integer)
+    - CRMScript.Native.XMLNode.toJSON(Integer)
+    - CRMScript.Native.XMLNode.addChild(XMLNode)
+    - CRMScript.Native.XMLNode.getChildren()
+    - CRMScript.Native.XMLNode.setChildren(XMLNode[])
+    - CRMScript.Native.XMLNode.getName()
+    - CRMScript.Native.XMLNode.setName(String)
+    - CRMScript.Native.XMLNode.getParameter(String)
+    - CRMScript.Native.XMLNode.setParameter(String, String)
+    - CRMScript.Native.XMLNode.getText()
+    - CRMScript.Native.XMLNode.setText(String)
+    - CRMScript.Native.XMLNode.getValueFromPath(String)
+  name: XMLNode
+  nameWithType: XMLNode
+  fullName: CRMScript.Native.XMLNode
+  type: Class
+  summary: "\nThis class represents an XML DOM structure.\n"
+- uid: CRMScript.Native.XMLNode.#ctor(XMLNode)
+  commentId: M:CRMScript.Native.XMLNode.#ctor(XMLNode)
+  id: '#ctor(XMLNode)'
+  so.intellisense: Void.XMLNode
+  langs:
+  - crmscript
+  parent: CRMScript.Native.XMLNode
+  name: XMLNode(XMLNode)
+  nameWithType: XMLNode.XMLNode(XMLNode)
+  fullName: CRMScript.Native.XMLNode.XMLNode(XMLNode)
+  type: Constructor
+  summary: "\nPass an object to copy.\n"
+  syntax:
+    content: XMLNode XMLNode(XMLNode value)
+    parameters:
+    - id: value
+      type: CRMScript.Native.XMLNode
+      description: "XMLNode object."
+    return:
+      type: CRMScript.Native.XMLNode
+- uid: CRMScript.Native.XMLNode.#ctor(String)
+  commentId: M:CRMScript.Native.XMLNode.#ctor(String)
+  id: '#ctor(String)'
+  so.intellisense: Void.XMLNode
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: XMLNode(String)
+  nameWithType: XMLNode.XMLNode(String)
+  fullName: CRMScript.Native.XMLNode.XMLNode(String)
+  type: Constructor
+  summary: "\nPass a string to parse and create a new object.\n"
+  syntax:
+    content: XMLNode XMLNode(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: "A string to parse."
+    return:
+      type: CRMScript.Native.XMLNode
+- uid: CRMScript.Native.XMLNode.toString(Integer)
+  commentId: M:CRMScript.Native.XMLNode.toString(Integer)
+  id: toString(Integer)
+  so.intellisense: XMLNode.toString
+  langs:
+  - crmscript
+  parent: CRMScript.Native.XMLNode
+  name: toString(Integer)
+  nameWithType: XMLNode.toString(Integer)
+  fullName: CRMScript.Native.XMLNode.toString(Integer)
+  type: Method
+  summary: "\nCreates a string containing the XMLNode as a formatted string. Child nodes are also included.\n"
+  syntax:
+    content: String toString(Integer indent)
+    parameters:
+    - id: indent
+      type: CRMScript.Global.Integer
+      description: "The text with a given number of spaces."
+    return:
+      type: CRMScript.Global.String
+- uid: CRMScript.Native.XMLNode.toJSON(Integer)
+  commentId: M:CRMScript.Native.XMLNode.toJSON(Integer)
+  id: toJSON(Integer)
+  so.intellisense: XMLNode.toJSON
+  langs:
+  - crmscript
+  parent: CRMScript.Native.XMLNode
+  name: toJSON(Integer)
+  nameWithType: XMLNode.toJSON(Integer)
+  fullName: CRMScript.Native.XMLNode.toJSON(Integer)
+  type: Method
+  summary: "\nCreates a string containing XML nodes formatted as a JSON document. Child nodes are also included.\n"
+  remarks: "\nValid types: object, array, string, number, bool, and null.\n"
+  example:
+  - "\n<pre><code>XMLNode xml = XMLNode(&quot;root&quot;);\nxMenu.setParameter(&quot;type&quot;, &quot;object&quot;);\n\nXMLNode xMenu = XMLNode(&quot;menu&quot;);\nxMenu.setParameter(&quot;type&quot;, &quot;string&quot;);\nxMenu.setText(&quot;truls&quot;);\nxml.addChild(xMenu);\n\nXMLNode xFoo = XMLNode(&quot;foo&quot;);\nxFoo.setParameter(&quot;type&quot;, &quot;number&quot;);\nxFoo.setText(&quot;1.23456&quot;);\nxml.addChild(xFoo);\n\nprint(xml.toString(0));</code></pre><p></p>\nOutputs: { &quot;menu&quot;: &quot;truls&quot;, &quot;foo&quot;: 1.23456 }\n"
+  syntax:
+    content: String toJSON(Integer indent)
+    parameters:
+    - id: indent
+      type: CRMScript.Global.Integer
+      description: "The text with a given number of spaces."
+    return:
+      type: CRMScript.Global.String
+      description: "XMLNodes converted to JSON."
+- uid: CRMScript.Native.XMLNode.addChild(XMLNode)
+  commentId: M:CRMScript.Native.XMLNode.addChild(XMLNode)
+  id: addChild(XMLNode)
+  so.intellisense: XMLNode.addChild
+  langs:
+  - crmscript
+  parent: CRMScript.Native.XMLNode
+  name: addChild(XMLNode)
+  nameWithType: XMLNode.addChild(XMLNode)
+  fullName: CRMScript.Native.XMLNode.addChild(XMLNode)
+  type: Method
+  summary: "\nAdd one node as a child node of the current node.\n"
+  example:
+  - "\n<pre><code>XMLNode xml = XMLNode(&quot;root&quot;);\nxml.setName(&quot;Root&quot;);\nxml.setParameter(&quot;type&quot;, &quot;object&quot;);\nxml.setText(&quot;Example text&quot;);\n\nXMLNode xMenu = XMLNode(&quot;menu&quot;);\nxMenu.setParameter(&quot;type&quot;, &quot;string&quot;);\nxml.addChild(xMenu);</code></pre>\n"
+  syntax:
+    content: Void addChild(XMLNode node)
+    parameters:
+    - id: node
+      type: CRMScript.Native.XMLNode
+      description: "The node to be added."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.Native.XMLNode.getChildren()
+  commentId: M:CRMScript.Native.XMLNode.getChildren()
+  id: getChildren()
+  so.intellisense: XMLNode.getChildren
+  langs:
+  - crmscript
+  parent: CRMScript.Native.XMLNode
+  name: getChildren()
+  nameWithType: XMLNode.getChildren()
+  fullName: CRMScript.Native.XMLNode.getChildren()
+  type: Method
+  summary: "\nReturns an array of the current node's children.\n"
+  syntax:
+    content: XMLNode[] getChildren()
+    parameters: []
+    return:
+      type: CRMScript.Native.XMLNode[]
+      description: "Returns an array of the current node's children."
+- uid: CRMScript.Native.XMLNode.setChildren(XMLNode[])
+  commentId: M:CRMScript.Native.XMLNode.setChildren(XMLNode[])
+  id: setChildren(XMLNode[])
+  so.intellisense: XMLNode.setChildren
+  langs:
+  - crmscript
+  parent: CRMScript.Native.XMLNode
+  name: setChildren(XMLNode[])
+  nameWithType: XMLNode.setChildren(XMLNode[])
+  fullName: CRMScript.Native.XMLNode.setChildren(XMLNode[])
+  type: Method
+  summary: "\nSets an array of XMLNodes as the children of the current node.\n"
+  example:
+  - "\n<pre><code>XMLNode xml = XMLNode(&quot;root&quot;);\nxml.setName(&quot;Root&quot;);\nxml.setParameter(&quot;type&quot;, &quot;object&quot;);\n\nXMLNode xMenu = XMLNode(&quot;menu&quot;);\nxMenu.setParameter(&quot;type&quot;, &quot;string&quot;);\nxMenu.setText(&quot;truls&quot;);\n\nXMLNode xFoo = XMLNode(&quot;foo&quot;);\nxFoo.setParameter(&quot;type&quot;, &quot;number&quot;);\nxFoo.setText(&quot;1.23456&quot;);\nXMLNode[2] array;\narray[0] = xMenu;\narray[1] = xFoo;\nxml.setChildren(array);</code></pre>\n"
+  syntax:
+    content: Void setChildren(XMLNode[] children)
+    parameters:
+    - id: children
+      type: CRMScript.Native.XMLNode[]
+      description: "Array of child nodes."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.Native.XMLNode.getName()
+  commentId: M:CRMScript.Native.XMLNode.getName()
+  id: getName()
+  so.intellisense: XMLNode.getName
+  langs:
+  - crmscript
+  parent: CRMScript.Native.XMLNode
+  name: getName()
+  nameWithType: XMLNode.getName()
+  fullName: CRMScript.Native.XMLNode.getName()
+  type: Method
+  summary: "\nGets the name of the XML tag.\n"
+  example:
+  - "\n<pre><code>XMLNode xml = XMLNode(&quot;root&quot;);\nxml.setName(&quot;Root&quot;);\nxml.setParameter(&quot;type&quot;, &quot;object&quot;);\n\nprint(xml.getName());</code></pre>\n"
+  syntax:
+    content: String getName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the XML tag."
+- uid: CRMScript.Native.XMLNode.setName(String)
+  commentId: M:CRMScript.Native.XMLNode.setName(String)
+  id: setName(String)
+  so.intellisense: XMLNode.setName
+  langs:
+  - crmscript
+  parent: CRMScript.Native.XMLNode
+  name: setName(String)
+  nameWithType: XMLNode.setName(String)
+  fullName: CRMScript.Native.XMLNode.setName(String)
+  type: Method
+  summary: "\nSets the tag name of the node.\n"
+  example:
+  - "\n<pre><code>XMLNode xml = XMLNode(&quot;root&quot;);\nxml.setName(&quot;Root&quot;);\nxml.setParameter(&quot;type&quot;, &quot;object&quot;);\n\nprint(xml.getName());</code></pre>\n"
+  syntax:
+    content: Void setName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The tag name of the node."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.Native.XMLNode.getParameter(String)
+  commentId: M:CRMScript.Native.XMLNode.getParameter(String)
+  id: getParameter(String)
+  so.intellisense: XMLNode.getParameter
+  langs:
+  - crmscript
+  parent: CRMScript.Native.XMLNode
+  name: getParameter(String)
+  nameWithType: XMLNode.getParameter(String)
+  fullName: CRMScript.Native.XMLNode.getParameter(String)
+  type: Method
+  summary: "\nGets a parameter (attribute) from the node with a given name.\n"
+  example:
+  - "\n<pre><code>XMLNode xml = XMLNode(&quot;root&quot;);\nxml.setName(&quot;Root&quot;);\nxml.setParameter(&quot;type&quot;, &quot;object&quot;);\n\nprint(xml.getParameter(&quot;type&quot;));</code></pre>\n"
+  syntax:
+    content: String getParameter(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The key to get the value for."
+    return:
+      type: CRMScript.Global.String
+- uid: CRMScript.Native.XMLNode.setParameter(String, String)
+  commentId: M:CRMScript.Native.XMLNode.setParameter(String, String)
+  id: setParameter(String, String)
+  so.intellisense: XMLNode.setParameter
+  langs:
+  - crmscript
+  parent: CRMScript.Native.XMLNode
+  name: setParameter(String, String)
+  nameWithType: XMLNode.setParameter(String, String)
+  fullName: CRMScript.Native.XMLNode.setParameter(String, String)
+  type: Method
+  summary: "\nSets a parameter with name and value. A node can have any number of parameters but all names must be unique.\n"
+  example:
+  - "\n<pre><code>XMLNode xml = XMLNode(&quot;root&quot;);\nxml.setName(&quot;Root&quot;);\nxml.setParameter(&quot;type1&quot;, &quot;object1&quot;);\nxml.setParameter(&quot;type&quot;, &quot;object&quot;);</code></pre>\n"
+  syntax:
+    content: Void setParameter(String name, String value)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The parameter name."
+    - id: value
+      type: CRMScript.Global.String
+      description: "The parameter value."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.Native.XMLNode.getText()
+  commentId: M:CRMScript.Native.XMLNode.getText()
+  id: getText()
+  so.intellisense: XMLNode.getText
+  langs:
+  - crmscript
+  parent: CRMScript.Native.XMLNode
+  name: getText()
+  nameWithType: XMLNode.getText()
+  fullName: CRMScript.Native.XMLNode.getText()
+  type: Method
+  summary: "\nGets the text between two tags. For example, &gt;TAG>Returns this text&gt;/TAG>\n"
+  example:
+  - "\n<pre><code>XMLNode xml = XMLNode(&quot;root&quot;);\nxml.setName(&quot;Root&quot;);\nxml.setParameter(&quot;type&quot;, &quot;object&quot;);\nxml.setText(&quot;Example text&quot;);\n\nprint(xml.getText());</code></pre>\n"
+  syntax:
+    content: String getText()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+- uid: CRMScript.Native.XMLNode.setText(String)
+  commentId: M:CRMScript.Native.XMLNode.setText(String)
+  id: setText(String)
+  so.intellisense: XMLNode.setText
+  langs:
+  - crmscript
+  parent: CRMScript.Native.XMLNode
+  name: setText(String)
+  nameWithType: XMLNode.setText(String)
+  fullName: CRMScript.Native.XMLNode.setText(String)
+  type: Method
+  summary: "\nSets the text between 2 tags.\n"
+  example:
+  - "\n<pre><code>XMLNode xml = XMLNode(&quot;root&quot;);\nxml.setName(&quot;Root&quot;);\nxml.setParameter(&quot;type&quot;, &quot;object&quot;);\nxml.setText(&quot;Example text&quot;);\n\nprint(xml.getText());</code></pre>\n"
+  syntax:
+    content: Void setText(String text)
+    parameters:
+    - id: text
+      type: CRMScript.Global.String
+      description: "The text between 2 tags."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.Native.XMLNode.getValueFromPath(String)
+  commentId: M:CRMScript.Native.XMLNode.getValueFromPath(String)
+  id: getValueFromPath(String)
+  so.intellisense: XMLNode.getValueFromPath
+  langs:
+  - crmscript
+  parent: CRMScript.Native.XMLNode
+  name: getValueFromPath(String)
+  nameWithType: XMLNode.getValueFromPath(String)
+  fullName: CRMScript.Native.XMLNode.getValueFromPath(String)
+  type: Method
+  summary: "\nThis function will return the value for the given path. The path should be a dot-separated string containing either names of nodes or indices.\n"
+  remarks: "\nIf your path does not lead to a node, you will get a String with a null value back (can be checked with isNull()).\n"
+  example:
+  - "\nGiven the following structure, you can get &quot;Peter&quot; by asking for &quot;persons.1.name&quot;.<pre><code>{ persons: [{name: &quot;John&quot;},{name: &quot;Peter&quot;}]}</code></pre>\n"
+  syntax:
+    content: String getValueFromPath(String path)
+    parameters:
+    - id: path
+      type: CRMScript.Global.String
+      description: "A dot-separated string containing either names of nodes or indexes."
+    return:
+      type: CRMScript.Global.String
+      description: "The value for the given path."
+references:
+- uid: CRMScript.Native.XMLNode
+  commentId: T:CRMScript.Native.XMLNode
+  isExternal: true
+  name: XMLNode
+  nameWithType: XMLNode
+  fullName: CRMScript.Native.XMLNode
+- uid: CRMScript.Native.XMLNode[]
+  isExternal: true
+  name: XMLNode[]
+  nameWithType: XMLNode[]
+  fullName: CRMScript.Native.XMLNode[]
+  spec.crmscript:
+  - uid: CRMScript.Native.XMLNode
+    name: XMLNode
+    nameWithType: XMLNode
+    fullName: CRMScript.Native.XMLNode
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

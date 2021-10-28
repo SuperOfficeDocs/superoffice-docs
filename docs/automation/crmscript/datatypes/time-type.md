@@ -4,7 +4,7 @@ title: Time data type
 author:
 so.date:
 keywords:
-so.topic:
+so.topic: concept
 ---
 
 # Time data type

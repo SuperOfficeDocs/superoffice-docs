@@ -1,0 +1,979 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSProjectMember
+  commentId: T:CRMScript.NetServer.NSProjectMember
+  id: NSProjectMember
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSProjectMember.#ctor
+  - CRMScript.NetServer.NSProjectMember.GetComment()
+  - CRMScript.NetServer.NSProjectMember.GetContactDepartment()
+  - CRMScript.NetServer.NSProjectMember.GetContactId()
+  - CRMScript.NetServer.NSProjectMember.GetContactName()
+  - CRMScript.NetServer.NSProjectMember.GetCountryId()
+  - CRMScript.NetServer.NSProjectMember.GetEmailAddress()
+  - CRMScript.NetServer.NSProjectMember.GetEmailAddressName()
+  - CRMScript.NetServer.NSProjectMember.GetEmailId()
+  - CRMScript.NetServer.NSProjectMember.GetFirstname()
+  - CRMScript.NetServer.NSProjectMember.GetFullName()
+  - CRMScript.NetServer.NSProjectMember.GetLastname()
+  - CRMScript.NetServer.NSProjectMember.GetMiddleName()
+  - CRMScript.NetServer.NSProjectMember.GetMrmrs()
+  - CRMScript.NetServer.NSProjectMember.GetPersonId()
+  - CRMScript.NetServer.NSProjectMember.GetPhone()
+  - CRMScript.NetServer.NSProjectMember.GetPhoneId()
+  - CRMScript.NetServer.NSProjectMember.GetProjectId()
+  - CRMScript.NetServer.NSProjectMember.GetProjectmemberId()
+  - CRMScript.NetServer.NSProjectMember.GetProjectMemberTypeId()
+  - CRMScript.NetServer.NSProjectMember.GetProjectMemberTypeName()
+  - CRMScript.NetServer.NSProjectMember.GetProjectName()
+  - CRMScript.NetServer.NSProjectMember.SetComment(String)
+  - CRMScript.NetServer.NSProjectMember.SetContactDepartment(String)
+  - CRMScript.NetServer.NSProjectMember.SetContactId(Integer)
+  - CRMScript.NetServer.NSProjectMember.SetContactName(String)
+  - CRMScript.NetServer.NSProjectMember.SetCountryId(Integer)
+  - CRMScript.NetServer.NSProjectMember.SetEmailAddress(String)
+  - CRMScript.NetServer.NSProjectMember.SetEmailAddressName(String)
+  - CRMScript.NetServer.NSProjectMember.SetEmailId(Integer)
+  - CRMScript.NetServer.NSProjectMember.SetFirstname(String)
+  - CRMScript.NetServer.NSProjectMember.SetFullName(String)
+  - CRMScript.NetServer.NSProjectMember.SetLastname(String)
+  - CRMScript.NetServer.NSProjectMember.SetMiddleName(String)
+  - CRMScript.NetServer.NSProjectMember.SetMrmrs(String)
+  - CRMScript.NetServer.NSProjectMember.SetPersonId(Integer)
+  - CRMScript.NetServer.NSProjectMember.SetPhone(String)
+  - CRMScript.NetServer.NSProjectMember.SetPhoneId(Integer)
+  - CRMScript.NetServer.NSProjectMember.SetProjectId(Integer)
+  - CRMScript.NetServer.NSProjectMember.SetProjectmemberId(Integer)
+  - CRMScript.NetServer.NSProjectMember.SetProjectMemberTypeId(Integer)
+  - CRMScript.NetServer.NSProjectMember.SetProjectMemberTypeName(String)
+  - CRMScript.NetServer.NSProjectMember.SetProjectName(String)
+  name: NSProjectMember
+  nameWithType: NSProjectMember
+  fullName: CRMScript.NetServer.NSProjectMember
+  type: Class
+  summary: "\nA person can be a member of multiple projects, with a different comment and member type in each project.\n"
+  example: 
+- uid: CRMScript.NetServer.NSProjectMember.#ctor
+  commentId: M:CRMScript.NetServer.NSProjectMember.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSProjectMember
+  langs:
+  - crmscript
+  name: NSProjectMember()
+  nameWithType: NSProjectMember.#ctor
+  fullName: CRMScript.NetServer.NSProjectMember.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSProjectMember class.\n"
+  remarks: 
+  syntax: 
+    content: NSProjectMember
+  example: 
+- uid: CRMScript.NetServer.NSProjectMember.GetComment()
+  commentId: M:CRMScript.NetServer.NSProjectMember.GetComment()
+  id: 'GetComment()'
+  so.intellisense: NSProjectMember.GetComment
+  langs:
+  - crmscript
+  name: 'GetComment()'
+  nameWithType: NSProjectMember.GetComment()
+  fullName: CRMScript.NetServer.NSProjectMember.GetComment()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetComment()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Comment text on the project membership."
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString comment = thing.GetComment();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.GetContactDepartment()
+  commentId: M:CRMScript.NetServer.NSProjectMember.GetContactDepartment()
+  id: 'GetContactDepartment()'
+  so.intellisense: NSProjectMember.GetContactDepartment
+  langs:
+  - crmscript
+  name: 'GetContactDepartment()'
+  nameWithType: NSProjectMember.GetContactDepartment()
+  fullName: CRMScript.NetServer.NSProjectMember.GetContactDepartment()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetContactDepartment()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Contact department."
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString contactDepartment = thing.GetContactDepartment();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.GetContactId()
+  commentId: M:CRMScript.NetServer.NSProjectMember.GetContactId()
+  id: 'GetContactId()'
+  so.intellisense: NSProjectMember.GetContactId
+  langs:
+  - crmscript
+  name: 'GetContactId()'
+  nameWithType: NSProjectMember.GetContactId()
+  fullName: CRMScript.NetServer.NSProjectMember.GetContactId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetContactId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Contact ID of person who is the project member."
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nInteger contactId = thing.GetContactId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.GetContactName()
+  commentId: M:CRMScript.NetServer.NSProjectMember.GetContactName()
+  id: 'GetContactName()'
+  so.intellisense: NSProjectMember.GetContactName
+  langs:
+  - crmscript
+  name: 'GetContactName()'
+  nameWithType: NSProjectMember.GetContactName()
+  fullName: CRMScript.NetServer.NSProjectMember.GetContactName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetContactName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Contact name."
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString contactName = thing.GetContactName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.GetCountryId()
+  commentId: M:CRMScript.NetServer.NSProjectMember.GetCountryId()
+  id: 'GetCountryId()'
+  so.intellisense: NSProjectMember.GetCountryId
+  langs:
+  - crmscript
+  name: 'GetCountryId()'
+  nameWithType: NSProjectMember.GetCountryId()
+  fullName: CRMScript.NetServer.NSProjectMember.GetCountryId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCountryId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Country."
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nInteger countryId = thing.GetCountryId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.GetEmailAddress()
+  commentId: M:CRMScript.NetServer.NSProjectMember.GetEmailAddress()
+  id: 'GetEmailAddress()'
+  so.intellisense: NSProjectMember.GetEmailAddress
+  langs:
+  - crmscript
+  name: 'GetEmailAddress()'
+  nameWithType: NSProjectMember.GetEmailAddress()
+  fullName: CRMScript.NetServer.NSProjectMember.GetEmailAddress()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetEmailAddress()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The email address."
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString emailAddress = thing.GetEmailAddress();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.GetEmailAddressName()
+  commentId: M:CRMScript.NetServer.NSProjectMember.GetEmailAddressName()
+  id: 'GetEmailAddressName()'
+  so.intellisense: NSProjectMember.GetEmailAddressName
+  langs:
+  - crmscript
+  name: 'GetEmailAddressName()'
+  nameWithType: NSProjectMember.GetEmailAddressName()
+  fullName: CRMScript.NetServer.NSProjectMember.GetEmailAddressName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetEmailAddressName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The email address description."
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString emailAddressName = thing.GetEmailAddressName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.GetEmailId()
+  commentId: M:CRMScript.NetServer.NSProjectMember.GetEmailId()
+  id: 'GetEmailId()'
+  so.intellisense: NSProjectMember.GetEmailId
+  langs:
+  - crmscript
+  name: 'GetEmailId()'
+  nameWithType: NSProjectMember.GetEmailId()
+  fullName: CRMScript.NetServer.NSProjectMember.GetEmailId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetEmailId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The person's email address Id."
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nInteger emailId = thing.GetEmailId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.GetFirstname()
+  commentId: M:CRMScript.NetServer.NSProjectMember.GetFirstname()
+  id: 'GetFirstname()'
+  so.intellisense: NSProjectMember.GetFirstname
+  langs:
+  - crmscript
+  name: 'GetFirstname()'
+  nameWithType: NSProjectMember.GetFirstname()
+  fullName: CRMScript.NetServer.NSProjectMember.GetFirstname()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFirstname()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "First name."
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString firstname = thing.GetFirstname();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.GetFullName()
+  commentId: M:CRMScript.NetServer.NSProjectMember.GetFullName()
+  id: 'GetFullName()'
+  so.intellisense: NSProjectMember.GetFullName
+  langs:
+  - crmscript
+  name: 'GetFullName()'
+  nameWithType: NSProjectMember.GetFullName()
+  fullName: CRMScript.NetServer.NSProjectMember.GetFullName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFullName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The person's full name localized to the current culture/country.  (internal name used in clients for employees)."
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString fullName = thing.GetFullName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.GetLastname()
+  commentId: M:CRMScript.NetServer.NSProjectMember.GetLastname()
+  id: 'GetLastname()'
+  so.intellisense: NSProjectMember.GetLastname
+  langs:
+  - crmscript
+  name: 'GetLastname()'
+  nameWithType: NSProjectMember.GetLastname()
+  fullName: CRMScript.NetServer.NSProjectMember.GetLastname()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetLastname()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Last name."
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString lastname = thing.GetLastname();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.GetMiddleName()
+  commentId: M:CRMScript.NetServer.NSProjectMember.GetMiddleName()
+  id: 'GetMiddleName()'
+  so.intellisense: NSProjectMember.GetMiddleName
+  langs:
+  - crmscript
+  name: 'GetMiddleName()'
+  nameWithType: NSProjectMember.GetMiddleName()
+  fullName: CRMScript.NetServer.NSProjectMember.GetMiddleName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetMiddleName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Middle name or 'van' etc."
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString middleName = thing.GetMiddleName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.GetMrmrs()
+  commentId: M:CRMScript.NetServer.NSProjectMember.GetMrmrs()
+  id: 'GetMrmrs()'
+  so.intellisense: NSProjectMember.GetMrmrs
+  langs:
+  - crmscript
+  name: 'GetMrmrs()'
+  nameWithType: NSProjectMember.GetMrmrs()
+  fullName: CRMScript.NetServer.NSProjectMember.GetMrmrs()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetMrmrs()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "For example, Mrs, Dr, Ms."
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString mrmrs = thing.GetMrmrs();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.GetPersonId()
+  commentId: M:CRMScript.NetServer.NSProjectMember.GetPersonId()
+  id: 'GetPersonId()'
+  so.intellisense: NSProjectMember.GetPersonId
+  langs:
+  - crmscript
+  name: 'GetPersonId()'
+  nameWithType: NSProjectMember.GetPersonId()
+  fullName: CRMScript.NetServer.NSProjectMember.GetPersonId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPersonId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The person's ID; primary key."
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nInteger personId = thing.GetPersonId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.GetPhone()
+  commentId: M:CRMScript.NetServer.NSProjectMember.GetPhone()
+  id: 'GetPhone()'
+  so.intellisense: NSProjectMember.GetPhone
+  langs:
+  - crmscript
+  name: 'GetPhone()'
+  nameWithType: NSProjectMember.GetPhone()
+  fullName: CRMScript.NetServer.NSProjectMember.GetPhone()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPhone()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Phone number."
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString phone = thing.GetPhone();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.GetPhoneId()
+  commentId: M:CRMScript.NetServer.NSProjectMember.GetPhoneId()
+  id: 'GetPhoneId()'
+  so.intellisense: NSProjectMember.GetPhoneId
+  langs:
+  - crmscript
+  name: 'GetPhoneId()'
+  nameWithType: NSProjectMember.GetPhoneId()
+  fullName: CRMScript.NetServer.NSProjectMember.GetPhoneId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPhoneId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The phone Id."
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nInteger phoneId = thing.GetPhoneId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.GetProjectId()
+  commentId: M:CRMScript.NetServer.NSProjectMember.GetProjectId()
+  id: 'GetProjectId()'
+  so.intellisense: NSProjectMember.GetProjectId
+  langs:
+  - crmscript
+  name: 'GetProjectId()'
+  nameWithType: NSProjectMember.GetProjectId()
+  fullName: CRMScript.NetServer.NSProjectMember.GetProjectId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetProjectId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Parent project* the project this project member belongs to."
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nInteger projectId = thing.GetProjectId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.GetProjectmemberId()
+  commentId: M:CRMScript.NetServer.NSProjectMember.GetProjectmemberId()
+  id: 'GetProjectmemberId()'
+  so.intellisense: NSProjectMember.GetProjectmemberId
+  langs:
+  - crmscript
+  name: 'GetProjectmemberId()'
+  nameWithType: NSProjectMember.GetProjectmemberId()
+  fullName: CRMScript.NetServer.NSProjectMember.GetProjectmemberId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetProjectmemberId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nInteger projectmemberId = thing.GetProjectmemberId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.GetProjectMemberTypeId()
+  commentId: M:CRMScript.NetServer.NSProjectMember.GetProjectMemberTypeId()
+  id: 'GetProjectMemberTypeId()'
+  so.intellisense: NSProjectMember.GetProjectMemberTypeId
+  langs:
+  - crmscript
+  name: 'GetProjectMemberTypeId()'
+  nameWithType: NSProjectMember.GetProjectMemberTypeId()
+  fullName: CRMScript.NetServer.NSProjectMember.GetProjectMemberTypeId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetProjectMemberTypeId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "NSProjectMember Type ID from the ProjectMemberType list."
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nInteger projectMemberTypeId = thing.GetProjectMemberTypeId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.GetProjectMemberTypeName()
+  commentId: M:CRMScript.NetServer.NSProjectMember.GetProjectMemberTypeName()
+  id: 'GetProjectMemberTypeName()'
+  so.intellisense: NSProjectMember.GetProjectMemberTypeName
+  langs:
+  - crmscript
+  name: 'GetProjectMemberTypeName()'
+  nameWithType: NSProjectMember.GetProjectMemberTypeName()
+  fullName: CRMScript.NetServer.NSProjectMember.GetProjectMemberTypeName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetProjectMemberTypeName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The project member type name 'secretary', 'member', etc."
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString projectMemberTypeName = thing.GetProjectMemberTypeName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.GetProjectName()
+  commentId: M:CRMScript.NetServer.NSProjectMember.GetProjectName()
+  id: 'GetProjectName()'
+  so.intellisense: NSProjectMember.GetProjectName
+  langs:
+  - crmscript
+  name: 'GetProjectName()'
+  nameWithType: NSProjectMember.GetProjectName()
+  fullName: CRMScript.NetServer.NSProjectMember.GetProjectName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetProjectName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of the project this project member belongs to."
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString projectName = thing.GetProjectName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.SetComment(String)
+  commentId: M:CRMScript.NetServer.NSProjectMember.SetComment(String)
+  id: 'SetComment(String)'
+  so.intellisense: NSProjectMember.SetComment
+  langs:
+  - crmscript
+  name: 'SetComment(String)'
+  nameWithType: NSProjectMember.SetComment(String)
+  fullName: CRMScript.NetServer.NSProjectMember.SetComment(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetComment(String comment)
+    parameters:
+    - id: comment
+      type: CRMScript.Global.String
+      description: "Comment text on the project membership."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString comment;\nthing.SetComment(comment);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.SetContactDepartment(String)
+  commentId: M:CRMScript.NetServer.NSProjectMember.SetContactDepartment(String)
+  id: 'SetContactDepartment(String)'
+  so.intellisense: NSProjectMember.SetContactDepartment
+  langs:
+  - crmscript
+  name: 'SetContactDepartment(String)'
+  nameWithType: NSProjectMember.SetContactDepartment(String)
+  fullName: CRMScript.NetServer.NSProjectMember.SetContactDepartment(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactDepartment(String contactDepartment)
+    parameters:
+    - id: contactDepartment
+      type: CRMScript.Global.String
+      description: "Contact department."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString contactDepartment;\nthing.SetContactDepartment(contactDepartment);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.SetContactId(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectMember.SetContactId(Integer)
+  id: 'SetContactId(Integer)'
+  so.intellisense: NSProjectMember.SetContactId
+  langs:
+  - crmscript
+  name: 'SetContactId(Integer)'
+  nameWithType: NSProjectMember.SetContactId(Integer)
+  fullName: CRMScript.NetServer.NSProjectMember.SetContactId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactId(Integer contactId)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: "Contact ID of person who is the project member."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nInteger contactId;\nthing.SetContactId(contactId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.SetContactName(String)
+  commentId: M:CRMScript.NetServer.NSProjectMember.SetContactName(String)
+  id: 'SetContactName(String)'
+  so.intellisense: NSProjectMember.SetContactName
+  langs:
+  - crmscript
+  name: 'SetContactName(String)'
+  nameWithType: NSProjectMember.SetContactName(String)
+  fullName: CRMScript.NetServer.NSProjectMember.SetContactName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactName(String contactName)
+    parameters:
+    - id: contactName
+      type: CRMScript.Global.String
+      description: "Contact name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString contactName;\nthing.SetContactName(contactName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.SetCountryId(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectMember.SetCountryId(Integer)
+  id: 'SetCountryId(Integer)'
+  so.intellisense: NSProjectMember.SetCountryId
+  langs:
+  - crmscript
+  name: 'SetCountryId(Integer)'
+  nameWithType: NSProjectMember.SetCountryId(Integer)
+  fullName: CRMScript.NetServer.NSProjectMember.SetCountryId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCountryId(Integer countryId)
+    parameters:
+    - id: countryId
+      type: CRMScript.Global.Integer
+      description: "Country."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nInteger countryId;\nthing.SetCountryId(countryId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.SetEmailAddress(String)
+  commentId: M:CRMScript.NetServer.NSProjectMember.SetEmailAddress(String)
+  id: 'SetEmailAddress(String)'
+  so.intellisense: NSProjectMember.SetEmailAddress
+  langs:
+  - crmscript
+  name: 'SetEmailAddress(String)'
+  nameWithType: NSProjectMember.SetEmailAddress(String)
+  fullName: CRMScript.NetServer.NSProjectMember.SetEmailAddress(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEmailAddress(String emailAddress)
+    parameters:
+    - id: emailAddress
+      type: CRMScript.Global.String
+      description: "The email address."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString emailAddress;\nthing.SetEmailAddress(emailAddress);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.SetEmailAddressName(String)
+  commentId: M:CRMScript.NetServer.NSProjectMember.SetEmailAddressName(String)
+  id: 'SetEmailAddressName(String)'
+  so.intellisense: NSProjectMember.SetEmailAddressName
+  langs:
+  - crmscript
+  name: 'SetEmailAddressName(String)'
+  nameWithType: NSProjectMember.SetEmailAddressName(String)
+  fullName: CRMScript.NetServer.NSProjectMember.SetEmailAddressName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEmailAddressName(String emailAddressName)
+    parameters:
+    - id: emailAddressName
+      type: CRMScript.Global.String
+      description: "The email address description."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString emailAddressName;\nthing.SetEmailAddressName(emailAddressName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.SetEmailId(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectMember.SetEmailId(Integer)
+  id: 'SetEmailId(Integer)'
+  so.intellisense: NSProjectMember.SetEmailId
+  langs:
+  - crmscript
+  name: 'SetEmailId(Integer)'
+  nameWithType: NSProjectMember.SetEmailId(Integer)
+  fullName: CRMScript.NetServer.NSProjectMember.SetEmailId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEmailId(Integer emailId)
+    parameters:
+    - id: emailId
+      type: CRMScript.Global.Integer
+      description: "The person's email address Id."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nInteger emailId;\nthing.SetEmailId(emailId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.SetFirstname(String)
+  commentId: M:CRMScript.NetServer.NSProjectMember.SetFirstname(String)
+  id: 'SetFirstname(String)'
+  so.intellisense: NSProjectMember.SetFirstname
+  langs:
+  - crmscript
+  name: 'SetFirstname(String)'
+  nameWithType: NSProjectMember.SetFirstname(String)
+  fullName: CRMScript.NetServer.NSProjectMember.SetFirstname(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFirstname(String firstname)
+    parameters:
+    - id: firstname
+      type: CRMScript.Global.String
+      description: "First name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString firstname;\nthing.SetFirstname(firstname);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.SetFullName(String)
+  commentId: M:CRMScript.NetServer.NSProjectMember.SetFullName(String)
+  id: 'SetFullName(String)'
+  so.intellisense: NSProjectMember.SetFullName
+  langs:
+  - crmscript
+  name: 'SetFullName(String)'
+  nameWithType: NSProjectMember.SetFullName(String)
+  fullName: CRMScript.NetServer.NSProjectMember.SetFullName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFullName(String fullName)
+    parameters:
+    - id: fullName
+      type: CRMScript.Global.String
+      description: "The person's full name localized to the current culture/country.  (internal name used in clients for employees)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString fullName;\nthing.SetFullName(fullName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.SetLastname(String)
+  commentId: M:CRMScript.NetServer.NSProjectMember.SetLastname(String)
+  id: 'SetLastname(String)'
+  so.intellisense: NSProjectMember.SetLastname
+  langs:
+  - crmscript
+  name: 'SetLastname(String)'
+  nameWithType: NSProjectMember.SetLastname(String)
+  fullName: CRMScript.NetServer.NSProjectMember.SetLastname(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLastname(String lastname)
+    parameters:
+    - id: lastname
+      type: CRMScript.Global.String
+      description: "Last name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString lastname;\nthing.SetLastname(lastname);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.SetMiddleName(String)
+  commentId: M:CRMScript.NetServer.NSProjectMember.SetMiddleName(String)
+  id: 'SetMiddleName(String)'
+  so.intellisense: NSProjectMember.SetMiddleName
+  langs:
+  - crmscript
+  name: 'SetMiddleName(String)'
+  nameWithType: NSProjectMember.SetMiddleName(String)
+  fullName: CRMScript.NetServer.NSProjectMember.SetMiddleName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMiddleName(String middleName)
+    parameters:
+    - id: middleName
+      type: CRMScript.Global.String
+      description: "Middle name or 'van' etc."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString middleName;\nthing.SetMiddleName(middleName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.SetMrmrs(String)
+  commentId: M:CRMScript.NetServer.NSProjectMember.SetMrmrs(String)
+  id: 'SetMrmrs(String)'
+  so.intellisense: NSProjectMember.SetMrmrs
+  langs:
+  - crmscript
+  name: 'SetMrmrs(String)'
+  nameWithType: NSProjectMember.SetMrmrs(String)
+  fullName: CRMScript.NetServer.NSProjectMember.SetMrmrs(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMrmrs(String mrmrs)
+    parameters:
+    - id: mrmrs
+      type: CRMScript.Global.String
+      description: "For example, Mrs, Dr, Ms."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString mrmrs;\nthing.SetMrmrs(mrmrs);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.SetPersonId(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectMember.SetPersonId(Integer)
+  id: 'SetPersonId(Integer)'
+  so.intellisense: NSProjectMember.SetPersonId
+  langs:
+  - crmscript
+  name: 'SetPersonId(Integer)'
+  nameWithType: NSProjectMember.SetPersonId(Integer)
+  fullName: CRMScript.NetServer.NSProjectMember.SetPersonId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonId(Integer personId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: "The person's ID; primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nInteger personId;\nthing.SetPersonId(personId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.SetPhone(String)
+  commentId: M:CRMScript.NetServer.NSProjectMember.SetPhone(String)
+  id: 'SetPhone(String)'
+  so.intellisense: NSProjectMember.SetPhone
+  langs:
+  - crmscript
+  name: 'SetPhone(String)'
+  nameWithType: NSProjectMember.SetPhone(String)
+  fullName: CRMScript.NetServer.NSProjectMember.SetPhone(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPhone(String phone)
+    parameters:
+    - id: phone
+      type: CRMScript.Global.String
+      description: "Phone number."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString phone;\nthing.SetPhone(phone);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.SetPhoneId(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectMember.SetPhoneId(Integer)
+  id: 'SetPhoneId(Integer)'
+  so.intellisense: NSProjectMember.SetPhoneId
+  langs:
+  - crmscript
+  name: 'SetPhoneId(Integer)'
+  nameWithType: NSProjectMember.SetPhoneId(Integer)
+  fullName: CRMScript.NetServer.NSProjectMember.SetPhoneId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPhoneId(Integer phoneId)
+    parameters:
+    - id: phoneId
+      type: CRMScript.Global.Integer
+      description: "The phone Id."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nInteger phoneId;\nthing.SetPhoneId(phoneId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.SetProjectId(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectMember.SetProjectId(Integer)
+  id: 'SetProjectId(Integer)'
+  so.intellisense: NSProjectMember.SetProjectId
+  langs:
+  - crmscript
+  name: 'SetProjectId(Integer)'
+  nameWithType: NSProjectMember.SetProjectId(Integer)
+  fullName: CRMScript.NetServer.NSProjectMember.SetProjectId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjectId(Integer projectId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: "Parent project* the project this project member belongs to."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nInteger projectId;\nthing.SetProjectId(projectId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.SetProjectmemberId(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectMember.SetProjectmemberId(Integer)
+  id: 'SetProjectmemberId(Integer)'
+  so.intellisense: NSProjectMember.SetProjectmemberId
+  langs:
+  - crmscript
+  name: 'SetProjectmemberId(Integer)'
+  nameWithType: NSProjectMember.SetProjectmemberId(Integer)
+  fullName: CRMScript.NetServer.NSProjectMember.SetProjectmemberId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjectmemberId(Integer projectmemberId)
+    parameters:
+    - id: projectmemberId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nInteger projectmemberId;\nthing.SetProjectmemberId(projectmemberId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.SetProjectMemberTypeId(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectMember.SetProjectMemberTypeId(Integer)
+  id: 'SetProjectMemberTypeId(Integer)'
+  so.intellisense: NSProjectMember.SetProjectMemberTypeId
+  langs:
+  - crmscript
+  name: 'SetProjectMemberTypeId(Integer)'
+  nameWithType: NSProjectMember.SetProjectMemberTypeId(Integer)
+  fullName: CRMScript.NetServer.NSProjectMember.SetProjectMemberTypeId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjectMemberTypeId(Integer projectMemberTypeId)
+    parameters:
+    - id: projectMemberTypeId
+      type: CRMScript.Global.Integer
+      description: "NSProjectMember Type ID from the ProjectMemberType list."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nInteger projectMemberTypeId;\nthing.SetProjectMemberTypeId(projectMemberTypeId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.SetProjectMemberTypeName(String)
+  commentId: M:CRMScript.NetServer.NSProjectMember.SetProjectMemberTypeName(String)
+  id: 'SetProjectMemberTypeName(String)'
+  so.intellisense: NSProjectMember.SetProjectMemberTypeName
+  langs:
+  - crmscript
+  name: 'SetProjectMemberTypeName(String)'
+  nameWithType: NSProjectMember.SetProjectMemberTypeName(String)
+  fullName: CRMScript.NetServer.NSProjectMember.SetProjectMemberTypeName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjectMemberTypeName(String projectMemberTypeName)
+    parameters:
+    - id: projectMemberTypeName
+      type: CRMScript.Global.String
+      description: "The project members type name 'secretary', 'member', etc."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString projectMemberTypeName;\nthing.SetProjectMemberTypeName(projectMemberTypeName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectMember.SetProjectName(String)
+  commentId: M:CRMScript.NetServer.NSProjectMember.SetProjectName(String)
+  id: 'SetProjectName(String)'
+  so.intellisense: NSProjectMember.SetProjectName
+  langs:
+  - crmscript
+  name: 'SetProjectName(String)'
+  nameWithType: NSProjectMember.SetProjectName(String)
+  fullName: CRMScript.NetServer.NSProjectMember.SetProjectName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjectName(String projectName)
+    parameters:
+    - id: projectName
+      type: CRMScript.Global.String
+      description: "Name of the project this project member belongs to."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectMember thing;\nString projectName;\nthing.SetProjectName(projectName);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSProjectMember
+  commentId: T:CRMScript.NetServer.NSProjectMember
+  isExternal: true
+  name: NSProjectMember
+  nameWithType: NSProjectMember
+  fullName: CRMScript.NetServer.NSProjectMember
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

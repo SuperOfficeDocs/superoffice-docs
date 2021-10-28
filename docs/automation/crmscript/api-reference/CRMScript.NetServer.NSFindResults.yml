@@ -1,0 +1,221 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSFindResults
+  commentId: T:CRMScript.NetServer.NSFindResults
+  id: NSFindResults
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSFindResults.#ctor
+  - CRMScript.NetServer.NSFindResults.GetArchiveColumns()
+  - CRMScript.NetServer.NSFindResults.GetArchiveRows()
+  - CRMScript.NetServer.NSFindResults.GetRowCount()
+  - CRMScript.NetServer.NSFindResults.SetArchiveColumns(NSArchiveColumnInfo[])
+  - CRMScript.NetServer.NSFindResults.SetArchiveRows(NSArchiveListItem[])
+  - CRMScript.NetServer.NSFindResults.SetRowCount(Integer)
+  name: NSFindResults
+  nameWithType: NSFindResults
+  fullName: CRMScript.NetServer.NSFindResults
+  type: Class
+  summary: "\nResult carrier for the Find operation. It contains a set of column specifications, and a set of row, where each row contains the columns. The row set is the result of carrying out some search operation.\n"
+  example: 
+- uid: CRMScript.NetServer.NSFindResults.#ctor
+  commentId: M:CRMScript.NetServer.NSFindResults.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSFindResults
+  langs:
+  - crmscript
+  name: NSFindResults()
+  nameWithType: NSFindResults.#ctor
+  fullName: CRMScript.NetServer.NSFindResults.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSFindResults class.\n"
+  remarks: 
+  syntax: 
+    content: NSFindResults
+  example: 
+- uid: CRMScript.NetServer.NSFindResults.GetArchiveColumns()
+  commentId: M:CRMScript.NetServer.NSFindResults.GetArchiveColumns()
+  id: 'GetArchiveColumns()'
+  so.intellisense: NSFindResults.GetArchiveColumns
+  langs:
+  - crmscript
+  name: 'GetArchiveColumns()'
+  nameWithType: NSFindResults.GetArchiveColumns()
+  fullName: CRMScript.NetServer.NSFindResults.GetArchiveColumns()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSArchiveColumnInfo[] GetArchiveColumns()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSArchiveColumnInfo[]
+      description: "Array of ColumnInfo column specifications."
+  example: 
+  - "\n<pre><code>NSFindResults thing;\nNSArchiveColumnInfo[] archiveColumns = thing.GetArchiveColumns();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFindResults.GetArchiveRows()
+  commentId: M:CRMScript.NetServer.NSFindResults.GetArchiveRows()
+  id: 'GetArchiveRows()'
+  so.intellisense: NSFindResults.GetArchiveRows
+  langs:
+  - crmscript
+  name: 'GetArchiveRows()'
+  nameWithType: NSFindResults.GetArchiveRows()
+  fullName: CRMScript.NetServer.NSFindResults.GetArchiveRows()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSArchiveListItem[] GetArchiveRows()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSArchiveListItem[]
+      description: "Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows."
+  example: 
+  - "\n<pre><code>NSFindResults thing;\nNSArchiveListItem[] archiveRows = thing.GetArchiveRows();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFindResults.GetRowCount()
+  commentId: M:CRMScript.NetServer.NSFindResults.GetRowCount()
+  id: 'GetRowCount()'
+  so.intellisense: NSFindResults.GetRowCount
+  langs:
+  - crmscript
+  name: 'GetRowCount()'
+  nameWithType: NSFindResults.GetRowCount()
+  fullName: CRMScript.NetServer.NSFindResults.GetRowCount()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRowCount()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation."
+  example: 
+  - "\n<pre><code>NSFindResults thing;\nInteger rowCount = thing.GetRowCount();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFindResults.SetArchiveColumns(NSArchiveColumnInfo[])
+  commentId: M:CRMScript.NetServer.NSFindResults.SetArchiveColumns(NSArchiveColumnInfo[])
+  id: 'SetArchiveColumns(NSArchiveColumnInfo[])'
+  so.intellisense: NSFindResults.SetArchiveColumns
+  langs:
+  - crmscript
+  name: 'SetArchiveColumns(NSArchiveColumnInfo[])'
+  nameWithType: NSFindResults.SetArchiveColumns(NSArchiveColumnInfo[])
+  fullName: CRMScript.NetServer.NSFindResults.SetArchiveColumns(NSArchiveColumnInfo[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetArchiveColumns(NSArchiveColumnInfo[] archiveColumns)
+    parameters:
+    - id: archiveColumns
+      type: CRMScript.NetServer.
+      description: "Array of ColumnInfo column specifications."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFindResults thing;\nNSArchiveColumnInfo[] archiveColumns;\nthing.SetArchiveColumns(archiveColumns);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFindResults.SetArchiveRows(NSArchiveListItem[])
+  commentId: M:CRMScript.NetServer.NSFindResults.SetArchiveRows(NSArchiveListItem[])
+  id: 'SetArchiveRows(NSArchiveListItem[])'
+  so.intellisense: NSFindResults.SetArchiveRows
+  langs:
+  - crmscript
+  name: 'SetArchiveRows(NSArchiveListItem[])'
+  nameWithType: NSFindResults.SetArchiveRows(NSArchiveListItem[])
+  fullName: CRMScript.NetServer.NSFindResults.SetArchiveRows(NSArchiveListItem[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetArchiveRows(NSArchiveListItem[] archiveRows)
+    parameters:
+    - id: archiveRows
+      type: CRMScript.NetServer.NSArchiveListItem[]
+      description: "Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFindResults thing;\nNSArchiveListItem[] archiveRows;\nthing.SetArchiveRows(archiveRows);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFindResults.SetRowCount(Integer)
+  commentId: M:CRMScript.NetServer.NSFindResults.SetRowCount(Integer)
+  id: 'SetRowCount(Integer)'
+  so.intellisense: NSFindResults.SetRowCount
+  langs:
+  - crmscript
+  name: 'SetRowCount(Integer)'
+  nameWithType: NSFindResults.SetRowCount(Integer)
+  fullName: CRMScript.NetServer.NSFindResults.SetRowCount(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRowCount(Integer rowCount)
+    parameters:
+    - id: rowCount
+      type: CRMScript.Global.Integer
+      description: "Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFindResults thing;\nInteger rowCount;\nthing.SetRowCount(rowCount);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSFindResults
+  commentId: T:CRMScript.NetServer.NSFindResults
+  isExternal: true
+  name: NSFindResults
+  nameWithType: NSFindResults
+  fullName: CRMScript.NetServer.NSFindResults
+- uid: CRMScript.NetServer.NSArchiveColumnInfo[]
+  isExternal: true
+  name: NSArchiveColumnInfo[]
+  nameWithType: NSArchiveColumnInfo[]
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSArchiveColumnInfo
+    isExternal: true
+    name: NSArchiveColumnInfo
+    nameWithType: NSArchiveColumnInfo
+    fullName: CRMScript.NetServer.NSArchiveColumnInfo
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSArchiveColumnInfo
+  commentId: T:CRMScript.NetServer.NSArchiveColumnInfo
+  isExternal: true
+  name: NSArchiveColumnInfo
+  nameWithType: NSArchiveColumnInfo
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo
+- uid: CRMScript.NetServer.NSArchiveListItem[]
+  isExternal: true
+  name: NSArchiveListItem[]
+  nameWithType: NSArchiveListItem[]
+  fullName: CRMScript.NetServer.NSArchiveListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSArchiveListItem
+    isExternal: true
+    name: NSArchiveListItem
+    nameWithType: NSArchiveListItem
+    fullName: CRMScript.NetServer.NSArchiveListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSArchiveListItem
+  commentId: T:CRMScript.NetServer.NSArchiveListItem
+  isExternal: true
+  name: NSArchiveListItem
+  nameWithType: NSArchiveListItem
+  fullName: CRMScript.NetServer.NSArchiveListItem
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

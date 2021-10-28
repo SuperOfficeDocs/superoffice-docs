@@ -1,0 +1,323 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSChatTopicAgent
+  commentId: T:CRMScript.NetServer.NSChatTopicAgent
+  id: NSChatTopicAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSChatTopicAgent.#ctor
+  - CRMScript.NetServer.NSChatTopicAgent.GetCanListen()
+  - CRMScript.NetServer.NSChatTopicAgent.GetCanManage()
+  - CRMScript.NetServer.NSChatTopicAgent.GetCanNotify()
+  - CRMScript.NetServer.NSChatTopicAgent.GetCanRespond()
+  - CRMScript.NetServer.NSChatTopicAgent.GetTopicId()
+  - CRMScript.NetServer.NSChatTopicAgent.GetUser()
+  - CRMScript.NetServer.NSChatTopicAgent.SetCanListen(Bool)
+  - CRMScript.NetServer.NSChatTopicAgent.SetCanManage(Bool)
+  - CRMScript.NetServer.NSChatTopicAgent.SetCanNotify(Bool)
+  - CRMScript.NetServer.NSChatTopicAgent.SetCanRespond(Bool)
+  - CRMScript.NetServer.NSChatTopicAgent.SetTopicId(Integer)
+  - CRMScript.NetServer.NSChatTopicAgent.SetUser(NSAssociate)
+  name: NSChatTopicAgent
+  nameWithType: NSChatTopicAgent
+  fullName: CRMScript.NetServer.NSChatTopicAgent
+  type: Class
+  summary: "\nUser agents within a chat topic. Which users are assigned and what roles they have within the chat topic. Carrier object for ChatTopicAgent.\n"
+  example: 
+- uid: CRMScript.NetServer.NSChatTopicAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSChatTopicAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSChatTopicAgent
+  langs:
+  - crmscript
+  name: NSChatTopicAgent()
+  nameWithType: NSChatTopicAgent.#ctor
+  fullName: CRMScript.NetServer.NSChatTopicAgent.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSChatTopicAgent class.\n"
+  remarks: 
+  syntax: 
+    content: NSChatTopicAgent
+  example: 
+- uid: CRMScript.NetServer.NSChatTopicAgent.GetCanListen()
+  commentId: M:CRMScript.NetServer.NSChatTopicAgent.GetCanListen()
+  id: 'GetCanListen()'
+  so.intellisense: NSChatTopicAgent.GetCanListen
+  langs:
+  - crmscript
+  name: 'GetCanListen()'
+  nameWithType: NSChatTopicAgent.GetCanListen()
+  fullName: CRMScript.NetServer.NSChatTopicAgent.GetCanListen()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetCanListen()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True of a user can listen in on this topic."
+  example: 
+  - "\n<pre><code>NSChatTopicAgent thing;\nBool canListen = thing.GetCanListen();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicAgent.GetCanManage()
+  commentId: M:CRMScript.NetServer.NSChatTopicAgent.GetCanManage()
+  id: 'GetCanManage()'
+  so.intellisense: NSChatTopicAgent.GetCanManage
+  langs:
+  - crmscript
+  name: 'GetCanManage()'
+  nameWithType: NSChatTopicAgent.GetCanManage()
+  fullName: CRMScript.NetServer.NSChatTopicAgent.GetCanManage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetCanManage()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the user is a manager for this topic."
+  example: 
+  - "\n<pre><code>NSChatTopicAgent thing;\nBool canManage = thing.GetCanManage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicAgent.GetCanNotify()
+  commentId: M:CRMScript.NetServer.NSChatTopicAgent.GetCanNotify()
+  id: 'GetCanNotify()'
+  so.intellisense: NSChatTopicAgent.GetCanNotify
+  langs:
+  - crmscript
+  name: 'GetCanNotify()'
+  nameWithType: NSChatTopicAgent.GetCanNotify()
+  fullName: CRMScript.NetServer.NSChatTopicAgent.GetCanNotify()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetCanNotify()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the user should receive notifications for this topic."
+  example: 
+  - "\n<pre><code>NSChatTopicAgent thing;\nBool canNotify = thing.GetCanNotify();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicAgent.GetCanRespond()
+  commentId: M:CRMScript.NetServer.NSChatTopicAgent.GetCanRespond()
+  id: 'GetCanRespond()'
+  so.intellisense: NSChatTopicAgent.GetCanRespond
+  langs:
+  - crmscript
+  name: 'GetCanRespond()'
+  nameWithType: NSChatTopicAgent.GetCanRespond()
+  fullName: CRMScript.NetServer.NSChatTopicAgent.GetCanRespond()
+  type: Method
+  summary: "\nTrue if the user can respond to chats in this topic\n"
+  remarks: 
+  syntax: 
+    content: Bool GetCanRespond()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSChatTopicAgent thing;\nBool canRespond = thing.GetCanRespond();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicAgent.GetTopicId()
+  commentId: M:CRMScript.NetServer.NSChatTopicAgent.GetTopicId()
+  id: 'GetTopicId()'
+  so.intellisense: NSChatTopicAgent.GetTopicId
+  langs:
+  - crmscript
+  name: 'GetTopicId()'
+  nameWithType: NSChatTopicAgent.GetTopicId()
+  fullName: CRMScript.NetServer.NSChatTopicAgent.GetTopicId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTopicId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The reference to the associated chat topic."
+  example: 
+  - "\n<pre><code>NSChatTopicAgent thing;\nInteger topicId = thing.GetTopicId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicAgent.GetUser()
+  commentId: M:CRMScript.NetServer.NSChatTopicAgent.GetUser()
+  id: 'GetUser()'
+  so.intellisense: NSChatTopicAgent.GetUser
+  langs:
+  - crmscript
+  name: 'GetUser()'
+  nameWithType: NSChatTopicAgent.GetUser()
+  fullName: CRMScript.NetServer.NSChatTopicAgent.GetUser()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetUser()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "The associate that is the user agent."
+  example: 
+  - "\n<pre><code>NSChatTopicAgent thing;\nNSAssociate user = thing.GetUser();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicAgent.SetCanListen(Bool)
+  commentId: M:CRMScript.NetServer.NSChatTopicAgent.SetCanListen(Bool)
+  id: 'SetCanListen(Bool)'
+  so.intellisense: NSChatTopicAgent.SetCanListen
+  langs:
+  - crmscript
+  name: 'SetCanListen(Bool)'
+  nameWithType: NSChatTopicAgent.SetCanListen(Bool)
+  fullName: CRMScript.NetServer.NSChatTopicAgent.SetCanListen(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCanListen(Bool canListen)
+    parameters:
+    - id: canListen
+      type: CRMScript.Global.Bool
+      description: "True of a user can listen in on this topic."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicAgent thing;\nBool canListen;\nthing.SetCanListen(canListen);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicAgent.SetCanManage(Bool)
+  commentId: M:CRMScript.NetServer.NSChatTopicAgent.SetCanManage(Bool)
+  id: 'SetCanManage(Bool)'
+  so.intellisense: NSChatTopicAgent.SetCanManage
+  langs:
+  - crmscript
+  name: 'SetCanManage(Bool)'
+  nameWithType: NSChatTopicAgent.SetCanManage(Bool)
+  fullName: CRMScript.NetServer.NSChatTopicAgent.SetCanManage(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCanManage(Bool canManage)
+    parameters:
+    - id: canManage
+      type: CRMScript.Global.Bool
+      description: "True if the user is a manager for this topic."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicAgent thing;\nBool canManage;\nthing.SetCanManage(canManage);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicAgent.SetCanNotify(Bool)
+  commentId: M:CRMScript.NetServer.NSChatTopicAgent.SetCanNotify(Bool)
+  id: 'SetCanNotify(Bool)'
+  so.intellisense: NSChatTopicAgent.SetCanNotify
+  langs:
+  - crmscript
+  name: 'SetCanNotify(Bool)'
+  nameWithType: NSChatTopicAgent.SetCanNotify(Bool)
+  fullName: CRMScript.NetServer.NSChatTopicAgent.SetCanNotify(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCanNotify(Bool canNotify)
+    parameters:
+    - id: canNotify
+      type: CRMScript.Global.Bool
+      description: "True if the user should receive notifications for this topic."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicAgent thing;\nBool canNotify;\nthing.SetCanNotify(canNotify);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicAgent.SetCanRespond(Bool)
+  commentId: M:CRMScript.NetServer.NSChatTopicAgent.SetCanRespond(Bool)
+  id: 'SetCanRespond(Bool)'
+  so.intellisense: NSChatTopicAgent.SetCanRespond
+  langs:
+  - crmscript
+  name: 'SetCanRespond(Bool)'
+  nameWithType: NSChatTopicAgent.SetCanRespond(Bool)
+  fullName: CRMScript.NetServer.NSChatTopicAgent.SetCanRespond(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCanRespond(Bool canRespond)
+    parameters:
+    - id: canRespond
+      type: CRMScript.Global.Bool
+      description: "True if the user can respond to chats in this topic."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicAgent thing;\nBool canRespond;\nthing.SetCanRespond(canRespond);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicAgent.SetTopicId(Integer)
+  commentId: M:CRMScript.NetServer.NSChatTopicAgent.SetTopicId(Integer)
+  id: 'SetTopicId(Integer)'
+  so.intellisense: NSChatTopicAgent.SetTopicId
+  langs:
+  - crmscript
+  name: 'SetTopicId(Integer)'
+  nameWithType: NSChatTopicAgent.SetTopicId(Integer)
+  fullName: CRMScript.NetServer.NSChatTopicAgent.SetTopicId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTopicId(Integer topicId)
+    parameters:
+    - id: topicId
+      type: CRMScript.Global.Integer
+      description: "The reference to the associated chat topic."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicAgent thing;\nInteger topicId;\nthing.SetTopicId(topicId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicAgent.SetUser(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSChatTopicAgent.SetUser(NSAssociate)
+  id: 'SetUser(NSAssociate)'
+  so.intellisense: NSChatTopicAgent.SetUser
+  langs:
+  - crmscript
+  name: 'SetUser(NSAssociate)'
+  nameWithType: NSChatTopicAgent.SetUser(NSAssociate)
+  fullName: CRMScript.NetServer.NSChatTopicAgent.SetUser(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUser(NSAssociate user)
+    parameters:
+    - id: user 
+      type: CRMScript.NetServer.NSAssociate
+      description: "The associate that is the user agent."
+  example: 
+  - "\n<pre><code>NSChatTopicAgent thing;\nNSAssociate user;\nthing.SetUser(user);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSChatTopicAgent
+  commentId: T:CRMScript.NetServer.NSChatTopicAgent
+  isExternal: true
+  name: NSChatTopicAgent
+  nameWithType: NSChatTopicAgent
+  fullName: CRMScript.NetServer.NSChatTopicAgent
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSAssociate
+  commentId: T:CRMScript.NetServer.NSAssociate
+  isExternal: true
+  name: NSAssociate
+  nameWithType: NSAssociate
+  fullName: CRMScript.NetServer.NSAssociate
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

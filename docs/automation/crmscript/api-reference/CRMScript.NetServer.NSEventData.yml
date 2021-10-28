@@ -1,0 +1,425 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSEventData
+  commentId: T:CRMScript.NetServer.NSEventData
+  id: NSEventData
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSEventData.#ctor
+  - CRMScript.NetServer.NSEventData.GetBlockExecution()
+  - CRMScript.NetServer.NSEventData.GetException()
+  - CRMScript.NetServer.NSEventData.GetInputValues()
+  - CRMScript.NetServer.NSEventData.GetMessage()
+  - CRMScript.NetServer.NSEventData.GetNavigateTo()
+  - CRMScript.NetServer.NSEventData.GetOutputValues()
+  - CRMScript.NetServer.NSEventData.GetStateValues()
+  - CRMScript.NetServer.NSEventData.GetType()
+  - CRMScript.NetServer.NSEventData.SetBlockExecution(Bool)
+  - CRMScript.NetServer.NSEventData.SetException(String)
+  - CRMScript.NetServer.NSEventData.SetInputValues(Map)
+  - CRMScript.NetServer.NSEventData.SetMessage(String)
+  - CRMScript.NetServer.NSEventData.SetNavigateTo(String)
+  - CRMScript.NetServer.NSEventData.SetOutputValues(Map)
+  - CRMScript.NetServer.NSEventData.SetStateValues(Map)
+  - CRMScript.NetServer.NSEventData.SetType(Integer)
+  name: NSEventData
+  nameWithType: NSEventData
+  fullName: CRMScript.NetServer.NSEventData
+  type: Class
+  summary: "\nData related to event handlers.\n"
+  example: 
+- uid: CRMScript.NetServer.NSEventData.#ctor
+  commentId: M:CRMScript.NetServer.NSEventData.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSEventData
+  langs:
+  - crmscript
+  name: NSEventData()
+  nameWithType: NSEventData.#ctor
+  fullName: CRMScript.NetServer.NSEventData.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSEventData class.\n"
+  remarks: 
+  syntax: 
+    content: NSEventData
+  example: 
+- uid: CRMScript.NetServer.NSEventData.GetBlockExecution()
+  commentId: M:CRMScript.NetServer.NSEventData.GetBlockExecution()
+  id: 'GetBlockExecution()'
+  so.intellisense: NSEventData.GetBlockExecution
+  langs:
+  - crmscript
+  name: 'GetBlockExecution()'
+  nameWithType: NSEventData.GetBlockExecution()
+  fullName: CRMScript.NetServer.NSEventData.GetBlockExecution()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetBlockExecution()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Whether the context should stop what it is doing (for example, stop saving a sale)."
+  example: 
+  - "\n<pre><code>NSEventData thing;\nBool blockExecution = thing.GetBlockExecution();</code></pre>\n"
+- uid: CRMScript.NetServer.NSEventData.GetException()
+  commentId: M:CRMScript.NetServer.NSEventData.GetException()
+  id: 'GetException()'
+  so.intellisense: NSEventData.GetException
+  langs:
+  - crmscript
+  name: 'GetException()'
+  nameWithType: NSEventData.GetException()
+  fullName: CRMScript.NetServer.NSEventData.GetException()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetException()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "String containing error message from handler system if it failed."
+  example: 
+  - "\n<pre><code>NSEventData thing;\nString exception = thing.GetException();</code></pre>\n"
+- uid: CRMScript.NetServer.NSEventData.GetInputValues()
+  commentId: M:CRMScript.NetServer.NSEventData.GetInputValues()
+  id: 'GetInputValues()'
+  so.intellisense: NSEventData.GetInputValues
+  langs:
+  - crmscript
+  name: 'GetInputValues()'
+  nameWithType: NSEventData.GetInputValues()
+  fullName: CRMScript.NetServer.NSEventData.GetInputValues()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Map GetInputValues()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description: "Environment values sent to the event handler."
+  example: 
+  - "\n<pre><code>NSEventData thing;\nMap inputValues = thing.GetInputValues();</code></pre>\n"
+- uid: CRMScript.NetServer.NSEventData.GetMessage()
+  commentId: M:CRMScript.NetServer.NSEventData.GetMessage()
+  id: 'GetMessage()'
+  so.intellisense: NSEventData.GetMessage
+  langs:
+  - crmscript
+  name: 'GetMessage()'
+  nameWithType: NSEventData.GetMessage()
+  fullName: CRMScript.NetServer.NSEventData.GetMessage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetMessage()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A message to be presented to the user."
+  example: 
+  - "\n<pre><code>NSEventData thing;\nString message = thing.GetMessage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSEventData.GetNavigateTo()
+  commentId: M:CRMScript.NetServer.NSEventData.GetNavigateTo()
+  id: 'GetNavigateTo()'
+  so.intellisense: NSEventData.GetNavigateTo
+  langs:
+  - crmscript
+  name: 'GetNavigateTo()'
+  nameWithType: NSEventData.GetNavigateTo()
+  fullName: CRMScript.NetServer.NSEventData.GetNavigateTo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetNavigateTo()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Where the context should navigate afterwards."
+  example: 
+  - "\n<pre><code>NSEventData thing;\nString navigateTo = thing.GetNavigateTo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSEventData.GetOutputValues()
+  commentId: M:CRMScript.NetServer.NSEventData.GetOutputValues()
+  id: 'GetOutputValues()'
+  so.intellisense: NSEventData.GetOutputValues
+  langs:
+  - crmscript
+  name: 'GetOutputValues()'
+  nameWithType: NSEventData.GetOutputValues()
+  fullName: CRMScript.NetServer.NSEventData.GetOutputValues()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Map GetOutputValues()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description: "Values sent back to the environment from the event handler."
+  example: 
+  - "\n<pre><code>NSEventData thing;\nMap outputValues = thing.GetOutputValues();</code></pre>\n"
+- uid: CRMScript.NetServer.NSEventData.GetStateValues()
+  commentId: M:CRMScript.NetServer.NSEventData.GetStateValues()
+  id: 'GetStateValues()'
+  so.intellisense: NSEventData.GetStateValues
+  langs:
+  - crmscript
+  name: 'GetStateValues()'
+  nameWithType: NSEventData.GetStateValues()
+  fullName: CRMScript.NetServer.NSEventData.GetStateValues()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Map GetStateValues()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description: "Values kept between event handlers."
+  example: 
+  - "\n<pre><code>NSEventData thing;\nMap stateValues = thing.GetStateValues();</code></pre>\n"
+- uid: CRMScript.NetServer.NSEventData.GetType()
+  commentId: M:CRMScript.NetServer.NSEventData.GetType()
+  id: 'GetType()'
+  so.intellisense: NSEventData.GetType
+  langs:
+  - crmscript
+  name: 'GetType()'
+  nameWithType: NSEventData.GetType()
+  fullName: CRMScript.NetServer.NSEventData.GetType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The type of event we are triggered by. See <xref href=\"CRMScript.NetServer.EventHandlerType\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSEventData thing;\nInteger type = thing.GetType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSEventData.SetBlockExecution(Bool)
+  commentId: M:CRMScript.NetServer.NSEventData.SetBlockExecution(Bool)
+  id: 'SetBlockExecution(Bool)'
+  so.intellisense: NSEventData.SetBlockExecution
+  langs:
+  - crmscript
+  name: 'SetBlockExecution(Bool)'
+  nameWithType: NSEventData.SetBlockExecution(Bool)
+  fullName: CRMScript.NetServer.NSEventData.SetBlockExecution(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetBlockExecution(Bool blockExecution)
+    parameters:
+    - id: blockExecution
+      type: CRMScript.Global.Bool
+      description: "Whether the context should stop what it is doing (for example, stop saving a sale)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSEventData thing;\nBool blockExecution;\nthing.SetBlockExecution(blockExecution);</code></pre>\n"
+- uid: CRMScript.NetServer.NSEventData.SetException(String)
+  commentId: M:CRMScript.NetServer.NSEventData.SetException(String)
+  id: 'SetException(String)'
+  so.intellisense: NSEventData.SetException
+  langs:
+  - crmscript
+  name: 'SetException(String)'
+  nameWithType: NSEventData.SetException(String)
+  fullName: CRMScript.NetServer.NSEventData.SetException(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetException(String exception)
+    parameters:
+    - id: exception
+      type: CRMScript.Global.String
+      description: "String containing error message from handler system if it failed."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSEventData thing;\nString exception;\nthing.SetException(exception);</code></pre>\n"
+- uid: CRMScript.NetServer.NSEventData.SetInputValues(Map)
+  commentId: M:CRMScript.NetServer.NSEventData.SetInputValues(Map)
+  id: 'SetInputValues(Map)'
+  so.intellisense: NSEventData.SetInputValues
+  langs:
+  - crmscript
+  name: 'SetInputValues(Map)'
+  nameWithType: NSEventData.SetInputValues(Map)
+  fullName: CRMScript.NetServer.NSEventData.SetInputValues(Map)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetInputValues(Map inputValues)
+    parameters:
+    - id: inputValues
+      type: CRMScript.Native.Map
+      description: "Environment values sent to the event handler."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSEventData thing;\nMap inputValues;\nthing.SetInputValues(inputValues);</code></pre>\n"
+- uid: CRMScript.NetServer.NSEventData.SetMessage(String)
+  commentId: M:CRMScript.NetServer.NSEventData.SetMessage(String)
+  id: 'SetMessage(String)'
+  so.intellisense: NSEventData.SetMessage
+  langs:
+  - crmscript
+  name: 'SetMessage(String)'
+  nameWithType: NSEventData.SetMessage(String)
+  fullName: CRMScript.NetServer.NSEventData.SetMessage(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMessage(String message)
+    parameters:
+    - id: message
+      type: CRMScript.Global.String
+      description: "A message to be presented to the user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSEventData thing;\nString message;\nthing.SetMessage(message);</code></pre>\n"
+- uid: CRMScript.NetServer.NSEventData.SetNavigateTo(String)
+  commentId: M:CRMScript.NetServer.NSEventData.SetNavigateTo(String)
+  id: 'SetNavigateTo(String)'
+  so.intellisense: NSEventData.SetNavigateTo
+  langs:
+  - crmscript
+  name: 'SetNavigateTo(String)'
+  nameWithType: NSEventData.SetNavigateTo(String)
+  fullName: CRMScript.NetServer.NSEventData.SetNavigateTo(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetNavigateTo(String navigateTo)
+    parameters:
+    - id: navigateTo
+      type: CRMScript.Global.String
+      description: "Where the context should navigate afterwards."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSEventData thing;\nString navigateTo;\nthing.SetNavigateTo(navigateTo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSEventData.SetOutputValues(Map)
+  commentId: M:CRMScript.NetServer.NSEventData.SetOutputValues(Map)
+  id: 'SetOutputValues(Map)'
+  so.intellisense: NSEventData.SetOutputValues
+  langs:
+  - crmscript
+  name: 'SetOutputValues(Map)'
+  nameWithType: NSEventData.SetOutputValues(Map)
+  fullName: CRMScript.NetServer.NSEventData.SetOutputValues(Map)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOutputValues(Map outputValues)
+    parameters:
+    - id: outputValues
+      type: CRMScript.Native.Map
+      description: "Values sent back to the environment from the event handler."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSEventData thing;\nMap outputValues;\nthing.SetOutputValues(outputValues);</code></pre>\n"
+- uid: CRMScript.NetServer.NSEventData.SetStateValues(Map)
+  commentId: M:CRMScript.NetServer.NSEventData.SetStateValues(Map)
+  id: 'SetStateValues(Map)'
+  so.intellisense: NSEventData.SetStateValues
+  langs:
+  - crmscript
+  name: 'SetStateValues(Map)'
+  nameWithType: NSEventData.SetStateValues(Map)
+  fullName: CRMScript.NetServer.NSEventData.SetStateValues(Map)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetStateValues(Map stateValues)
+    parameters:
+    - id: stateValues
+      type: CRMScript.Native.Map
+      description: "Values kept between event handlers."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSEventData thing;\nMap stateValues;\nthing.SetStateValues(stateValues);</code></pre>\n"
+- uid: CRMScript.NetServer.NSEventData.SetType(Integer)
+  commentId: M:CRMScript.NetServer.NSEventData.SetType(Integer)
+  id: 'SetType(Integer)'
+  so.intellisense: NSEventData.SetType
+  langs:
+  - crmscript
+  name: 'SetType(Integer)'
+  nameWithType: NSEventData.SetType(Integer)
+  fullName: CRMScript.NetServer.NSEventData.SetType(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetType(Integer type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "The type of event we are triggered by. See <xref href=\"CRMScript.NetServer.EventHandlerType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSEventData thing;\nInteger type;\nthing.SetType(type);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSEventData
+  commentId: T:CRMScript.NetServer.NSEventData
+  isExternal: true
+  name: NSEventData
+  nameWithType: NSEventData
+  fullName: CRMScript.NetServer.NSEventData
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Native.Map
+  commentId: T:CRMScript.Native.Map
+  isExternal: true
+  name: Map
+  nameWithType: Map
+  fullName: CRMScript.Native.Map
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.EventHandlerType
+  commentId: T:CRMScript.NetServer.EventHandlerType
+  isExternal: true
+  name: EventHandlerType
+  nameWithType: EventHandlerType
+  fullName: CRMScript.NetServer.EventHandlerType

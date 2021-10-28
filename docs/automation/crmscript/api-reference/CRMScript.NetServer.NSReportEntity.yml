@@ -1,0 +1,425 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSReportEntity
+  commentId: T:CRMScript.NetServer.NSReportEntity
+  id: NSReportEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSReportEntity.#ctor
+  - CRMScript.NetServer.NSReportEntity.GetAssociateId()
+  - CRMScript.NetServer.NSReportEntity.GetDescription()
+  - CRMScript.NetServer.NSReportEntity.GetName()
+  - CRMScript.NetServer.NSReportEntity.GetPublished()
+  - CRMScript.NetServer.NSReportEntity.GetReportCategory()
+  - CRMScript.NetServer.NSReportEntity.GetReportId()
+  - CRMScript.NetServer.NSReportEntity.GetReportLayout()
+  - CRMScript.NetServer.NSReportEntity.GetTemplateId()
+  - CRMScript.NetServer.NSReportEntity.SetAssociateId(Integer)
+  - CRMScript.NetServer.NSReportEntity.SetDescription(String)
+  - CRMScript.NetServer.NSReportEntity.SetName(String)
+  - CRMScript.NetServer.NSReportEntity.SetPublished(Bool)
+  - CRMScript.NetServer.NSReportEntity.SetReportCategory(Integer)
+  - CRMScript.NetServer.NSReportEntity.SetReportId(Integer)
+  - CRMScript.NetServer.NSReportEntity.SetReportLayout(Integer)
+  - CRMScript.NetServer.NSReportEntity.SetTemplateId(Integer)
+  name: NSReportEntity
+  nameWithType: NSReportEntity
+  fullName: CRMScript.NetServer.NSReportEntity
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSReportEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSReportEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSReportEntity
+  langs:
+  - crmscript
+  name: NSReportEntity()
+  nameWithType: NSReportEntity.#ctor
+  fullName: CRMScript.NetServer.NSReportEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSReportEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSReportEntity
+  example: 
+- uid: CRMScript.NetServer.NSReportEntity.GetAssociateId()
+  commentId: M:CRMScript.NetServer.NSReportEntity.GetAssociateId()
+  id: 'GetAssociateId()'
+  so.intellisense: NSReportEntity.GetAssociateId
+  langs:
+  - crmscript
+  name: 'GetAssociateId()'
+  nameWithType: NSReportEntity.GetAssociateId()
+  fullName: CRMScript.NetServer.NSReportEntity.GetAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The owner of the report."
+  example: 
+  - "\n<pre><code>NSReportEntity thing;\nInteger associateId = thing.GetAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportEntity.GetDescription()
+  commentId: M:CRMScript.NetServer.NSReportEntity.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSReportEntity.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSReportEntity.GetDescription()
+  fullName: CRMScript.NetServer.NSReportEntity.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The description of the report."
+  example: 
+  - "\n<pre><code>NSReportEntity thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSReportEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSReportEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSReportEntity.GetName()
+  fullName: CRMScript.NetServer.NSReportEntity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the report."
+  example: 
+  - "\n<pre><code>NSReportEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportEntity.GetPublished()
+  commentId: M:CRMScript.NetServer.NSReportEntity.GetPublished()
+  id: 'GetPublished()'
+  so.intellisense: NSReportEntity.GetPublished
+  langs:
+  - crmscript
+  name: 'GetPublished()'
+  nameWithType: NSReportEntity.GetPublished()
+  fullName: CRMScript.NetServer.NSReportEntity.GetPublished()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetPublished()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: Is the report published?
+  example: 
+  - "\n<pre><code>NSReportEntity thing;\nBool published = thing.GetPublished();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportEntity.GetReportCategory()
+  commentId: M:CRMScript.NetServer.NSReportEntity.GetReportCategory()
+  id: 'GetReportCategory()'
+  so.intellisense: NSReportEntity.GetReportCategory
+  langs:
+  - crmscript
+  name: 'GetReportCategory()'
+  nameWithType: NSReportEntity.GetReportCategory()
+  fullName: CRMScript.NetServer.NSReportEntity.GetReportCategory()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetReportCategory()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The category of the report. See <xref href=\"CRMScript.NetServer.ReportCategory\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSReportEntity thing;\nInteger reportCategory = thing.GetReportCategory();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportEntity.GetReportId()
+  commentId: M:CRMScript.NetServer.NSReportEntity.GetReportId()
+  id: 'GetReportId()'
+  so.intellisense: NSReportEntity.GetReportId
+  langs:
+  - crmscript
+  name: 'GetReportId()'
+  nameWithType: NSReportEntity.GetReportId()
+  fullName: CRMScript.NetServer.NSReportEntity.GetReportId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetReportId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the report."
+  example: 
+  - "\n<pre><code>NSReportEntity thing;\nInteger reportId = thing.GetReportId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportEntity.GetReportLayout()
+  commentId: M:CRMScript.NetServer.NSReportEntity.GetReportLayout()
+  id: 'GetReportLayout()'
+  so.intellisense: NSReportEntity.GetReportLayout
+  langs:
+  - crmscript
+  name: 'GetReportLayout()'
+  nameWithType: NSReportEntity.GetReportLayout()
+  fullName: CRMScript.NetServer.NSReportEntity.GetReportLayout()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetReportLayout()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The layout of the report. See <xref href=\"CRMScript.NetServer.ReportLayout\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSReportEntity thing;\nInteger reportLayout = thing.GetReportLayout();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportEntity.GetTemplateId()
+  commentId: M:CRMScript.NetServer.NSReportEntity.GetTemplateId()
+  id: 'GetTemplateId()'
+  so.intellisense: NSReportEntity.GetTemplateId
+  langs:
+  - crmscript
+  name: 'GetTemplateId()'
+  nameWithType: NSReportEntity.GetTemplateId()
+  fullName: CRMScript.NetServer.NSReportEntity.GetTemplateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTemplateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of report template."
+  example: 
+  - "\n<pre><code>NSReportEntity thing;\nInteger templateId = thing.GetTemplateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportEntity.SetAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSReportEntity.SetAssociateId(Integer)
+  id: 'SetAssociateId(Integer)'
+  so.intellisense: NSReportEntity.SetAssociateId
+  langs:
+  - crmscript
+  name: 'SetAssociateId(Integer)'
+  nameWithType: NSReportEntity.SetAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSReportEntity.SetAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAssociateId(Integer associateId)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: "The owner of the report."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReportEntity thing;\nInteger associateId;\nthing.SetAssociateId(associateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportEntity.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSReportEntity.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSReportEntity.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSReportEntity.SetDescription(String)
+  fullName: CRMScript.NetServer.NSReportEntity.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "The description of the report."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReportEntity thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSReportEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSReportEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSReportEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSReportEntity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of the report."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReportEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportEntity.SetPublished(Bool)
+  commentId: M:CRMScript.NetServer.NSReportEntity.SetPublished(Bool)
+  id: 'SetPublished(Bool)'
+  so.intellisense: NSReportEntity.SetPublished
+  langs:
+  - crmscript
+  name: 'SetPublished(Bool)'
+  nameWithType: NSReportEntity.SetPublished(Bool)
+  fullName: CRMScript.NetServer.NSReportEntity.SetPublished(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPublished(Bool published)
+    parameters:
+    - id: published
+      type: CRMScript.Global.Bool
+      description: Is the report published?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReportEntity thing;\nBool published;\nthing.SetPublished(published);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportEntity.SetReportCategory(Integer)
+  commentId: M:CRMScript.NetServer.NSReportEntity.SetReportCategory(Integer)
+  id: 'SetReportCategory(Integer)'
+  so.intellisense: NSReportEntity.SetReportCategory
+  langs:
+  - crmscript
+  name: 'SetReportCategory(Integer)'
+  nameWithType: NSReportEntity.SetReportCategory(Integer)
+  fullName: CRMScript.NetServer.NSReportEntity.SetReportCategory(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetReportCategory(Integer reportCategory)
+    parameters:
+    - id: reportCategory
+      type: CRMScript.Global.Integer
+      description: "The category of the report. See <xref href=\"CRMScript.NetServer.ReportCategory\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReportEntity thing;\nInteger reportCategory;\nthing.SetReportCategory(reportCategory);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportEntity.SetReportId(Integer)
+  commentId: M:CRMScript.NetServer.NSReportEntity.SetReportId(Integer)
+  id: 'SetReportId(Integer)'
+  so.intellisense: NSReportEntity.SetReportId
+  langs:
+  - crmscript
+  name: 'SetReportId(Integer)'
+  nameWithType: NSReportEntity.SetReportId(Integer)
+  fullName: CRMScript.NetServer.NSReportEntity.SetReportId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetReportId(Integer reportId)
+    parameters:
+    - id: reportId
+      type: CRMScript.Global.Integer
+      description: "The ID of the report."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReportEntity thing;\nInteger reportId;\nthing.SetReportId(reportId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportEntity.SetReportLayout(Integer)
+  commentId: M:CRMScript.NetServer.NSReportEntity.SetReportLayout(Integer)
+  id: 'SetReportLayout(Integer)'
+  so.intellisense: NSReportEntity.SetReportLayout
+  langs:
+  - crmscript
+  name: 'SetReportLayout(Integer)'
+  nameWithType: NSReportEntity.SetReportLayout(Integer)
+  fullName: CRMScript.NetServer.NSReportEntity.SetReportLayout(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetReportLayout(Integer reportLayout)
+    parameters:
+    - id: reportLayout
+      type: CRMScript.Global.Integer
+      description: "The layout of the report. See <xref href=\"CRMScript.NetServer.ReportLayout\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReportEntity thing;\nInteger reportLayout;\nthing.SetReportLayout(reportLayout);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportEntity.SetTemplateId(Integer)
+  commentId: M:CRMScript.NetServer.NSReportEntity.SetTemplateId(Integer)
+  id: 'SetTemplateId(Integer)'
+  so.intellisense: NSReportEntity.SetTemplateId
+  langs:
+  - crmscript
+  name: 'SetTemplateId(Integer)'
+  nameWithType: NSReportEntity.SetTemplateId(Integer)
+  fullName: CRMScript.NetServer.NSReportEntity.SetTemplateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTemplateId(Integer templateId)
+    parameters:
+    - id: templateId
+      type: CRMScript.Global.Integer
+      description: "The ID of report template."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReportEntity thing;\nInteger templateId;\nthing.SetTemplateId(templateId);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSReportEntity
+  commentId: T:CRMScript.NetServer.NSReportEntity
+  isExternal: true
+  name: NSReportEntity
+  nameWithType: NSReportEntity
+  fullName: CRMScript.NetServer.NSReportEntity
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.ReportLayout
+  commentId: T:CRMScript.NetServer.ReportLayout
+  isExternal: true
+  name: ReportLayout
+  nameWithType: ReportLayout
+  fullName: CRMScript.NetServer.ReportLayout
+- uid: CRMScript.NetServer.ReportCategory
+  commentId: T:CRMScript.NetServer.ReportCategory
+  isExternal: true
+  name: ReportCategory
+  nameWithType: ReportCategory
+  fullName: CRMScript.NetServer.ReportCategory

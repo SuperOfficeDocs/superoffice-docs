@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSQuoteVersionAttachment
+  commentId: T:CRMScript.NetServer.NSQuoteVersionAttachment
+  id: NSQuoteVersionAttachment
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSQuoteVersionAttachment.#ctor
+  - CRMScript.NetServer.NSQuoteVersionAttachment.GetDocumentId()
+  - CRMScript.NetServer.NSQuoteVersionAttachment.GetIncluded()
+  - CRMScript.NetServer.NSQuoteVersionAttachment.SetDocumentId(Integer)
+  - CRMScript.NetServer.NSQuoteVersionAttachment.SetIncluded(Bool)
+  name: NSQuoteVersionAttachment
+  nameWithType: NSQuoteVersionAttachment
+  fullName: CRMScript.NetServer.NSQuoteVersionAttachment
+  type: Class
+  summary: "\nAttachment documents for a given version of a Quote.\n"
+  example: 
+- uid: CRMScript.NetServer.NSQuoteVersionAttachment.#ctor
+  commentId: M:CRMScript.NetServer.NSQuoteVersionAttachment.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSQuoteVersionAttachment
+  langs:
+  - crmscript
+  name: NSQuoteVersionAttachment()
+  nameWithType: NSQuoteVersionAttachment.#ctor
+  fullName: CRMScript.NetServer.NSQuoteVersionAttachment.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSQuoteVersionAttachment class.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteVersionAttachment
+  example: 
+- uid: CRMScript.NetServer.NSQuoteVersionAttachment.GetDocumentId()
+  commentId: M:CRMScript.NetServer.NSQuoteVersionAttachment.GetDocumentId()
+  id: 'GetDocumentId()'
+  so.intellisense: NSQuoteVersionAttachment.GetDocumentId
+  langs:
+  - crmscript
+  name: 'GetDocumentId()'
+  nameWithType: NSQuoteVersionAttachment.GetDocumentId()
+  fullName: CRMScript.NetServer.NSQuoteVersionAttachment.GetDocumentId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDocumentId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Link to document."
+  example: 
+  - "\n<pre><code>NSQuoteVersionAttachment thing;\nInteger documentId = thing.GetDocumentId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionAttachment.GetIncluded()
+  commentId: M:CRMScript.NetServer.NSQuoteVersionAttachment.GetIncluded()
+  id: 'GetIncluded()'
+  so.intellisense: NSQuoteVersionAttachment.GetIncluded
+  langs:
+  - crmscript
+  name: 'GetIncluded()'
+  nameWithType: NSQuoteVersionAttachment.GetIncluded()
+  fullName: CRMScript.NetServer.NSQuoteVersionAttachment.GetIncluded()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIncluded()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Will this attachment be included in the next 'Send Quote' operation."
+  example: 
+  - "\n<pre><code>NSQuoteVersionAttachment thing;\nBool included = thing.GetIncluded();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionAttachment.SetDocumentId(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteVersionAttachment.SetDocumentId(Integer)
+  id: 'SetDocumentId(Integer)'
+  so.intellisense: NSQuoteVersionAttachment.SetDocumentId
+  langs:
+  - crmscript
+  name: 'SetDocumentId(Integer)'
+  nameWithType: NSQuoteVersionAttachment.SetDocumentId(Integer)
+  fullName: CRMScript.NetServer.NSQuoteVersionAttachment.SetDocumentId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDocumentId(Integer documentId)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: "Link to document."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersionAttachment thing;\nInteger documentId;\nthing.SetDocumentId(documentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionAttachment.SetIncluded(Bool)
+  commentId: M:CRMScript.NetServer.NSQuoteVersionAttachment.SetIncluded(Bool)
+  id: 'SetIncluded(Bool)'
+  so.intellisense: NSQuoteVersionAttachment.SetIncluded
+  langs:
+  - crmscript
+  name: 'SetIncluded(Bool)'
+  nameWithType: NSQuoteVersionAttachment.SetIncluded(Bool)
+  fullName: CRMScript.NetServer.NSQuoteVersionAttachment.SetIncluded(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIncluded(Bool included)
+    parameters:
+    - id: included
+      type: CRMScript.Global.Bool
+      description: "Will this attachment be included in the next 'Send Quote' operation."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersionAttachment thing;\nBool included;\nthing.SetIncluded(included);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSQuoteVersionAttachment
+  commentId: T:CRMScript.NetServer.NSQuoteVersionAttachment
+  isExternal: true
+  name: NSQuoteVersionAttachment
+  nameWithType: NSQuoteVersionAttachment
+  fullName: CRMScript.NetServer.NSQuoteVersionAttachment
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

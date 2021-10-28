@@ -1,0 +1,1867 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSSelectionEntity
+  commentId: T:CRMScript.NetServer.NSSelectionEntity
+  id: NSSelectionEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSSelectionEntity.#ctor
+  - CRMScript.NetServer.NSSelectionEntity.GetAssociate()
+  - CRMScript.NetServer.NSSelectionEntity.GetChartKey()
+  - CRMScript.NetServer.NSSelectionEntity.GetCompanyUnique()
+  - CRMScript.NetServer.NSSelectionEntity.GetCompleted()
+  - CRMScript.NetServer.NSSelectionEntity.GetCreatedBy()
+  - CRMScript.NetServer.NSSelectionEntity.GetCreatedDate()
+  - CRMScript.NetServer.NSSelectionEntity.GetDescription()
+  - CRMScript.NetServer.NSSelectionEntity.GetGroupIdx()
+  - CRMScript.NetServer.NSSelectionEntity.GetIncludePerson()
+  - CRMScript.NetServer.NSSelectionEntity.GetLastLoaded()
+  - CRMScript.NetServer.NSSelectionEntity.GetLastLoadedBy()
+  - CRMScript.NetServer.NSSelectionEntity.GetLastLoadedByAssociate()
+  - CRMScript.NetServer.NSSelectionEntity.GetLastMembershipChange()
+  - CRMScript.NetServer.NSSelectionEntity.GetLastMembershipChangeBy()
+  - CRMScript.NetServer.NSSelectionEntity.GetLastMembershipChangeByAssociate()
+  - CRMScript.NetServer.NSSelectionEntity.GetLeftSelectionId()
+  - CRMScript.NetServer.NSSelectionEntity.GetMailingsProviderName()
+  - CRMScript.NetServer.NSSelectionEntity.GetMainHeading()
+  - CRMScript.NetServer.NSSelectionEntity.GetMainProviderName()
+  - CRMScript.NetServer.NSSelectionEntity.GetMemberCount()
+  - CRMScript.NetServer.NSSelectionEntity.GetMemberTabHeading()
+  - CRMScript.NetServer.NSSelectionEntity.GetName()
+  - CRMScript.NetServer.NSSelectionEntity.GetPostit()
+  - CRMScript.NetServer.NSSelectionEntity.GetPostitTextId()
+  - CRMScript.NetServer.NSSelectionEntity.GetRightSelectionId()
+  - CRMScript.NetServer.NSSelectionEntity.GetSelectionCategory()
+  - CRMScript.NetServer.NSSelectionEntity.GetSelectionId()
+  - CRMScript.NetServer.NSSelectionEntity.GetSelectionType()
+  - CRMScript.NetServer.NSSelectionEntity.GetSelectionUnionType()
+  - CRMScript.NetServer.NSSelectionEntity.GetShadowProviderName()
+  - CRMScript.NetServer.NSSelectionEntity.GetSoundEx()
+  - CRMScript.NetServer.NSSelectionEntity.GetSource()
+  - CRMScript.NetServer.NSSelectionEntity.GetTargetTableName()
+  - CRMScript.NetServer.NSSelectionEntity.GetTargetTableNumber()
+  - CRMScript.NetServer.NSSelectionEntity.GetTextId()
+  - CRMScript.NetServer.NSSelectionEntity.GetUpdatedBy()
+  - CRMScript.NetServer.NSSelectionEntity.GetUpdatedCount()
+  - CRMScript.NetServer.NSSelectionEntity.GetUpdatedDate()
+  - CRMScript.NetServer.NSSelectionEntity.GetVisibility()
+  - CRMScript.NetServer.NSSelectionEntity.GetVisibleFor()
+  - CRMScript.NetServer.NSSelectionEntity.SetAssociate(NSAssociate)
+  - CRMScript.NetServer.NSSelectionEntity.SetChartKey(String)
+  - CRMScript.NetServer.NSSelectionEntity.SetCompanyUnique(Bool)
+  - CRMScript.NetServer.NSSelectionEntity.SetCompleted(Bool)
+  - CRMScript.NetServer.NSSelectionEntity.SetCreatedBy(NSAssociate)
+  - CRMScript.NetServer.NSSelectionEntity.SetCreatedDate(DateTime)
+  - CRMScript.NetServer.NSSelectionEntity.SetDescription(String)
+  - CRMScript.NetServer.NSSelectionEntity.SetGroupIdx(Integer)
+  - CRMScript.NetServer.NSSelectionEntity.SetIncludePerson(Integer)
+  - CRMScript.NetServer.NSSelectionEntity.SetLastLoaded(DateTime)
+  - CRMScript.NetServer.NSSelectionEntity.SetLastLoadedBy(Integer)
+  - CRMScript.NetServer.NSSelectionEntity.SetLastLoadedByAssociate(NSAssociate)
+  - CRMScript.NetServer.NSSelectionEntity.SetLastMembershipChange(DateTime)
+  - CRMScript.NetServer.NSSelectionEntity.SetLastMembershipChangeBy(Integer)
+  - CRMScript.NetServer.NSSelectionEntity.SetLastMembershipChangeByAssociate(NSAssociate)
+  - CRMScript.NetServer.NSSelectionEntity.SetLeftSelectionId(Integer)
+  - CRMScript.NetServer.NSSelectionEntity.SetMailingsProviderName(String)
+  - CRMScript.NetServer.NSSelectionEntity.SetMainHeading(String)
+  - CRMScript.NetServer.NSSelectionEntity.SetMainProviderName(String)
+  - CRMScript.NetServer.NSSelectionEntity.SetMemberCount(Integer)
+  - CRMScript.NetServer.NSSelectionEntity.SetMemberTabHeading(String)
+  - CRMScript.NetServer.NSSelectionEntity.SetName(String)
+  - CRMScript.NetServer.NSSelectionEntity.SetPostit(String)
+  - CRMScript.NetServer.NSSelectionEntity.SetPostitTextId(Integer)
+  - CRMScript.NetServer.NSSelectionEntity.SetRightSelectionId(Integer)
+  - CRMScript.NetServer.NSSelectionEntity.SetSelectionCategory(NSSelectionCategory)
+  - CRMScript.NetServer.NSSelectionEntity.SetSelectionId(Integer)
+  - CRMScript.NetServer.NSSelectionEntity.SetSelectionType(Integer)
+  - CRMScript.NetServer.NSSelectionEntity.SetSelectionUnionType(Integer)
+  - CRMScript.NetServer.NSSelectionEntity.SetShadowProviderName(String)
+  - CRMScript.NetServer.NSSelectionEntity.SetSoundEx(String)
+  - CRMScript.NetServer.NSSelectionEntity.SetSource(Integer)
+  - CRMScript.NetServer.NSSelectionEntity.SetTargetTableName(String)
+  - CRMScript.NetServer.NSSelectionEntity.SetTargetTableNumber(Integer)
+  - CRMScript.NetServer.NSSelectionEntity.SetTextId(Integer)
+  - CRMScript.NetServer.NSSelectionEntity.SetUpdatedBy(NSAssociate)
+  - CRMScript.NetServer.NSSelectionEntity.SetUpdatedCount(Integer)
+  - CRMScript.NetServer.NSSelectionEntity.SetUpdatedDate(DateTime)
+  - CRMScript.NetServer.NSSelectionEntity.SetVisibility(Integer)
+  - CRMScript.NetServer.NSSelectionEntity.SetVisibleFor(NSVisibleFor[])
+  name: NSSelectionEntity
+  nameWithType: NSSelectionEntity
+  fullName: CRMScript.NetServer.NSSelectionEntity
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSSelectionEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSSelectionEntity
+  langs:
+  - crmscript
+  name: NSSelectionEntity()
+  nameWithType: NSSelectionEntity.#ctor
+  fullName: CRMScript.NetServer.NSSelectionEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSSelectionEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSSelectionEntity
+  example: 
+- uid: CRMScript.NetServer.NSSelectionEntity.GetAssociate()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetAssociate()
+  id: 'GetAssociate()'
+  so.intellisense: NSSelectionEntity.GetAssociate
+  langs:
+  - crmscript
+  name: 'GetAssociate()'
+  nameWithType: NSSelectionEntity.GetAssociate()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetAssociate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetAssociate()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "Owner of the selection."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nNSAssociate associate = thing.GetAssociate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetChartKey()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetChartKey()
+  id: 'GetChartKey()'
+  so.intellisense: NSSelectionEntity.GetChartKey
+  langs:
+  - crmscript
+  name: 'GetChartKey()'
+  nameWithType: NSSelectionEntity.GetChartKey()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetChartKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetChartKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "ID/key of the last-used chart tile on this selection."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nString chartKey = thing.GetChartKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetCompanyUnique()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetCompanyUnique()
+  id: 'GetCompanyUnique()'
+  so.intellisense: NSSelectionEntity.GetCompanyUnique
+  langs:
+  - crmscript
+  name: 'GetCompanyUnique()'
+  nameWithType: NSSelectionEntity.GetCompanyUnique()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetCompanyUnique()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetCompanyUnique()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: Filter out duplicate members based on company?
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nBool companyUnique = thing.GetCompanyUnique();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetCompleted()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetCompleted()
+  id: 'GetCompleted()'
+  so.intellisense: NSSelectionEntity.GetCompleted
+  langs:
+  - crmscript
+  name: 'GetCompleted()'
+  nameWithType: NSSelectionEntity.GetCompleted()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetCompleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetCompleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "The Completed state."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nBool completed = thing.GetCompleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetCreatedBy()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetCreatedBy()
+  id: 'GetCreatedBy()'
+  so.intellisense: NSSelectionEntity.GetCreatedBy
+  langs:
+  - crmscript
+  name: 'GetCreatedBy()'
+  nameWithType: NSSelectionEntity.GetCreatedBy()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetCreatedBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetCreatedBy()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "Who created the selection."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nNSAssociate createdBy = thing.GetCreatedBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetCreatedDate()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetCreatedDate()
+  id: 'GetCreatedDate()'
+  so.intellisense: NSSelectionEntity.GetCreatedDate
+  langs:
+  - crmscript
+  name: 'GetCreatedDate()'
+  nameWithType: NSSelectionEntity.GetCreatedDate()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetCreatedDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetCreatedDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nDateTime createdDate = thing.GetCreatedDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetDescription()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSSelectionEntity.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSSelectionEntity.GetDescription()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetGroupIdx()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetGroupIdx()
+  id: 'GetGroupIdx()'
+  so.intellisense: NSSelectionEntity.GetGroupIdx
+  langs:
+  - crmscript
+  name: 'GetGroupIdx()'
+  nameWithType: NSSelectionEntity.GetGroupIdx()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetGroupIdx()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetGroupIdx()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Original primary user group of associate."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger groupIdx = thing.GetGroupIdx();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetIncludePerson()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetIncludePerson()
+  id: 'GetIncludePerson()'
+  so.intellisense: NSSelectionEntity.GetIncludePerson
+  langs:
+  - crmscript
+  name: 'GetIncludePerson()'
+  nameWithType: NSSelectionEntity.GetIncludePerson()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetIncludePerson()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetIncludePerson()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "0 = Include first person, 1 = Include all persons, 2 = Include no persons."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger includePerson = thing.GetIncludePerson();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetLastLoaded()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetLastLoaded()
+  id: 'GetLastLoaded()'
+  so.intellisense: NSSelectionEntity.GetLastLoaded
+  langs:
+  - crmscript
+  name: 'GetLastLoaded()'
+  nameWithType: NSSelectionEntity.GetLastLoaded()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetLastLoaded()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetLastLoaded()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The date/time this selection was last loaded (selectionentity fetched)."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nDateTime lastLoaded = thing.GetLastLoaded();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetLastLoadedBy()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetLastLoadedBy()
+  id: 'GetLastLoadedBy()'
+  so.intellisense: NSSelectionEntity.GetLastLoadedBy
+  langs:
+  - crmscript
+  name: 'GetLastLoadedBy()'
+  nameWithType: NSSelectionEntity.GetLastLoadedBy()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetLastLoadedBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetLastLoadedBy()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Who last loaded this selection."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger lastLoadedBy = thing.GetLastLoadedBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetLastLoadedByAssociate()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetLastLoadedByAssociate()
+  id: 'GetLastLoadedByAssociate()'
+  so.intellisense: NSSelectionEntity.GetLastLoadedByAssociate
+  langs:
+  - crmscript
+  name: 'GetLastLoadedByAssociate()'
+  nameWithType: NSSelectionEntity.GetLastLoadedByAssociate()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetLastLoadedByAssociate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetLastLoadedByAssociate()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "NSAssociate that last looked at the selection members; only date (not time) is valid."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nNSAssociate lastLoadedByAssociate = thing.GetLastLoadedByAssociate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetLastMembershipChange()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetLastMembershipChange()
+  id: 'GetLastMembershipChange()'
+  so.intellisense: NSSelectionEntity.GetLastMembershipChange
+  langs:
+  - crmscript
+  name: 'GetLastMembershipChange()'
+  nameWithType: NSSelectionEntity.GetLastMembershipChange()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetLastMembershipChange()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetLastMembershipChange()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The date/time the membership the selection last changed. Dynamic - change of criteria; Static - add/remove members; Combined - change of algorithm."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nDateTime lastMembershipChange = thing.GetLastMembershipChange();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetLastMembershipChangeBy()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetLastMembershipChangeBy()
+  id: 'GetLastMembershipChangeBy()'
+  so.intellisense: NSSelectionEntity.GetLastMembershipChangeBy
+  langs:
+  - crmscript
+  name: 'GetLastMembershipChangeBy()'
+  nameWithType: NSSelectionEntity.GetLastMembershipChangeBy()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetLastMembershipChangeBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetLastMembershipChangeBy()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Who last changed the membership."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger lastMembershipChangeBy = thing.GetLastMembershipChangeBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetLastMembershipChangeByAssociate()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetLastMembershipChangeByAssociate()
+  id: 'GetLastMembershipChangeByAssociate()'
+  so.intellisense: NSSelectionEntity.GetLastMembershipChangeByAssociate
+  langs:
+  - crmscript
+  name: 'GetLastMembershipChangeByAssociate()'
+  nameWithType: NSSelectionEntity.GetLastMembershipChangeByAssociate()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetLastMembershipChangeByAssociate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetLastMembershipChangeByAssociate()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "Associate that last changed the selection membership (static members, dynamic criteria, combined parameters); only date (not time) is valid."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nNSAssociate lastMembershipChangeByAssociate = thing.GetLastMembershipChangeByAssociate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetLeftSelectionId()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetLeftSelectionId()
+  id: 'GetLeftSelectionId()'
+  so.intellisense: NSSelectionEntity.GetLeftSelectionId
+  langs:
+  - crmscript
+  name: 'GetLeftSelectionId()'
+  nameWithType: NSSelectionEntity.GetLeftSelectionId()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetLeftSelectionId()
+  type: Method
+  summary: "\nLeftSelectionId is used in combination with RightSelectionId and CombinationType to define an union of two selections when SelectionType=Combined.\n"
+  remarks: 
+  syntax: 
+    content: Integer GetLeftSelectionId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger leftSelectionId = thing.GetLeftSelectionId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetMailingsProviderName()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetMailingsProviderName()
+  id: 'GetMailingsProviderName()'
+  so.intellisense: NSSelectionEntity.GetMailingsProviderName
+  langs:
+  - crmscript
+  name: 'GetMailingsProviderName()'
+  nameWithType: NSSelectionEntity.GetMailingsProviderName()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetMailingsProviderName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetMailingsProviderName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the provider for the Mailings tab, if relevant; this string will contain resource references."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nString mailingsProviderName = thing.GetMailingsProviderName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetMainHeading()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetMainHeading()
+  id: 'GetMainHeading()'
+  so.intellisense: NSSelectionEntity.GetMainHeading
+  langs:
+  - crmscript
+  name: 'GetMainHeading()'
+  nameWithType: NSSelectionEntity.GetMainHeading()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetMainHeading()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetMainHeading()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "'Static selection of Companies', or whatever else is appropriate, made by combining text resources for the type and the entity (plural form); this string will contain resource references"
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nString mainHeading = thing.GetMainHeading();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetMainProviderName()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetMainProviderName()
+  id: 'GetMainProviderName()'
+  so.intellisense: NSSelectionEntity.GetMainProviderName
+  langs:
+  - crmscript
+  name: 'GetMainProviderName()'
+  nameWithType: NSSelectionEntity.GetMainProviderName()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetMainProviderName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetMainProviderName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the Archive Provider that will deliver the content of the archive* the actual entity rows."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nString mainProviderName = thing.GetMainProviderName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetMemberCount()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetMemberCount()
+  id: 'GetMemberCount()'
+  so.intellisense: NSSelectionEntity.GetMemberCount
+  langs:
+  - crmscript
+  name: 'GetMemberCount()'
+  nameWithType: NSSelectionEntity.GetMemberCount()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetMemberCount()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetMemberCount()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "How many selection members (for progress bar calculations)* estimate, -1 (or 4294967295) means we don't know."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger memberCount = thing.GetMemberCount();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetMemberTabHeading()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetMemberTabHeading()
+  id: 'GetMemberTabHeading()'
+  so.intellisense: NSSelectionEntity.GetMemberTabHeading
+  langs:
+  - crmscript
+  name: 'GetMemberTabHeading()'
+  nameWithType: NSSelectionEntity.GetMemberTabHeading()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetMemberTabHeading()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetMemberTabHeading()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "'Companies', or whatever else is appropriate* the plural form of the entity name; this string will contain resource references"
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nString memberTabHeading = thing.GetMemberTabHeading();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSSelectionEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSSelectionEntity.GetName()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of selection, free-text indexed."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetPostit()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetPostit()
+  id: 'GetPostit()'
+  so.intellisense: NSSelectionEntity.GetPostit
+  langs:
+  - crmscript
+  name: 'GetPostit()'
+  nameWithType: NSSelectionEntity.GetPostit()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetPostit()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPostit()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nString postit = thing.GetPostit();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetPostitTextId()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetPostitTextId()
+  id: 'GetPostitTextId()'
+  so.intellisense: NSSelectionEntity.GetPostitTextId
+  langs:
+  - crmscript
+  name: 'GetPostitTextId()'
+  nameWithType: NSSelectionEntity.GetPostitTextId()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetPostitTextId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPostitTextId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Postit text record ID."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger postitTextId = thing.GetPostitTextId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetRightSelectionId()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetRightSelectionId()
+  id: 'GetRightSelectionId()'
+  so.intellisense: NSSelectionEntity.GetRightSelectionId
+  langs:
+  - crmscript
+  name: 'GetRightSelectionId()'
+  nameWithType: NSSelectionEntity.GetRightSelectionId()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetRightSelectionId()
+  type: Method
+  summary: "\nRightSelectionId  is used in combination with LeftSelectionId and CombinationType to define an union of two selections when SelectionType=Combined.\n"
+  remarks: 
+  syntax: 
+    content: Integer GetRightSelectionId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger rightSelectionId = thing.GetRightSelectionId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetSelectionCategory()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetSelectionCategory()
+  id: 'GetSelectionCategory()'
+  so.intellisense: NSSelectionEntity.GetSelectionCategory
+  langs:
+  - crmscript
+  name: 'GetSelectionCategory()'
+  nameWithType: NSSelectionEntity.GetSelectionCategory()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetSelectionCategory()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSSelectionCategory GetSelectionCategory()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSelectionCategory
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nNSSelectionCategory selectionCategory = thing.GetSelectionCategory();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetSelectionId()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetSelectionId()
+  id: 'GetSelectionId()'
+  so.intellisense: NSSelectionEntity.GetSelectionId
+  langs:
+  - crmscript
+  name: 'GetSelectionId()'
+  nameWithType: NSSelectionEntity.GetSelectionId()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetSelectionId()
+  type: Method
+  summary: "\nPrimary key\n"
+  remarks: 
+  syntax: 
+    content: Integer GetSelectionId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Selection category type (list item)."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger selectionId = thing.GetSelectionId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetSelectionType()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetSelectionType()
+  id: 'GetSelectionType()'
+  so.intellisense: NSSelectionEntity.GetSelectionType
+  langs:
+  - crmscript
+  name: 'GetSelectionType()'
+  nameWithType: NSSelectionEntity.GetSelectionType()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetSelectionType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSelectionType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Static/Dynamic/Combined? See <xref href=\"CRMScript.NetServer.SelectionType\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger selectionType = thing.GetSelectionType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetSelectionUnionType()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetSelectionUnionType()
+  id: 'GetSelectionUnionType()'
+  so.intellisense: NSSelectionEntity.GetSelectionUnionType
+  langs:
+  - crmscript
+  name: 'GetSelectionUnionType()'
+  nameWithType: NSSelectionEntity.GetSelectionUnionType()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetSelectionUnionType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSelectionUnionType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "How to combine the two selections when SelectionType = Combined. See <xref href=\"CRMScript.NetServer.SelectionUnionType\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger selectionUnionType = thing.GetSelectionUnionType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetShadowProviderName()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetShadowProviderName()
+  id: 'GetShadowProviderName()'
+  so.intellisense: NSSelectionEntity.GetShadowProviderName
+  langs:
+  - crmscript
+  name: 'GetShadowProviderName()'
+  nameWithType: NSSelectionEntity.GetShadowProviderName()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetShadowProviderName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetShadowProviderName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name, if relevant, of the Archive Provider that will deliver the Shadow rows. contact/person rows related to the actual entity. Can be blank, indicating that there is no shadow archive."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nString shadowProviderName = thing.GetShadowProviderName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetSoundEx()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetSoundEx()
+  id: 'GetSoundEx()'
+  so.intellisense: NSSelectionEntity.GetSoundEx
+  langs:
+  - crmscript
+  name: 'GetSoundEx()'
+  nameWithType: NSSelectionEntity.GetSoundEx()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetSoundEx()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSoundEx()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "What the name sounds like, for duplicate detection."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nString soundEx = thing.GetSoundEx();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetSource()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetSource()
+  id: 'GetSource()'
+  so.intellisense: NSSelectionEntity.GetSource
+  langs:
+  - crmscript
+  name: 'GetSource()'
+  nameWithType: NSSelectionEntity.GetSource()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetSource()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSource()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "How did we get this selection? For future integration needs."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger source = thing.GetSource();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetTargetTableName()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetTargetTableName()
+  id: 'GetTargetTableName()'
+  so.intellisense: NSSelectionEntity.GetTargetTableName
+  langs:
+  - crmscript
+  name: 'GetTargetTableName()'
+  nameWithType: NSSelectionEntity.GetTargetTableName()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetTargetTableName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTargetTableName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "TargetTableName contains the name of the table in lowercase. defines the type of selection members this selection contains. e.g. 'contact', or 'project' or 'sale'"
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nString targetTableName = thing.GetTargetTableName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetTargetTableNumber()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetTargetTableNumber()
+  id: 'GetTargetTableNumber()'
+  so.intellisense: NSSelectionEntity.GetTargetTableNumber
+  langs:
+  - crmscript
+  name: 'GetTargetTableNumber()'
+  nameWithType: NSSelectionEntity.GetTargetTableNumber()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetTargetTableNumber()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTargetTableNumber()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "TargetTableNumber defines the type of selection members this selection contains. e.g. the table number for 'contact', or 'project' or 'sale'"
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger targetTableNumber = thing.GetTargetTableNumber();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetTextId()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetTextId()
+  id: 'GetTextId()'
+  so.intellisense: NSSelectionEntity.GetTextId
+  langs:
+  - crmscript
+  name: 'GetTextId()'
+  nameWithType: NSSelectionEntity.GetTextId()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetTextId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTextId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Description text record Id."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger textId = thing.GetTextId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetUpdatedBy()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetUpdatedBy()
+  id: 'GetUpdatedBy()'
+  so.intellisense: NSSelectionEntity.GetUpdatedBy
+  langs:
+  - crmscript
+  name: 'GetUpdatedBy()'
+  nameWithType: NSSelectionEntity.GetUpdatedBy()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetUpdatedBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetUpdatedBy()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "Who last modified the selection."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nNSAssociate updatedBy = thing.GetUpdatedBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetUpdatedCount()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetUpdatedCount()
+  id: 'GetUpdatedCount()'
+  so.intellisense: NSSelectionEntity.GetUpdatedCount
+  langs:
+  - crmscript
+  name: 'GetUpdatedCount()'
+  nameWithType: NSSelectionEntity.GetUpdatedCount()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetUpdatedCount()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetUpdatedCount()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of updates made to this record."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger updatedCount = thing.GetUpdatedCount();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetUpdatedDate()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetUpdatedDate()
+  id: 'GetUpdatedDate()'
+  so.intellisense: NSSelectionEntity.GetUpdatedDate
+  langs:
+  - crmscript
+  name: 'GetUpdatedDate()'
+  nameWithType: NSSelectionEntity.GetUpdatedDate()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetUpdatedDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetUpdatedDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nDateTime updatedDate = thing.GetUpdatedDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetVisibility()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetVisibility()
+  id: 'GetVisibility()'
+  so.intellisense: NSSelectionEntity.GetVisibility
+  langs:
+  - crmscript
+  name: 'GetVisibility()'
+  nameWithType: NSSelectionEntity.GetVisibility()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetVisibility()
+  type: Method
+  summary: "\nObsolete, but still maintained de-normalization of visiblefor\n"
+  remarks: 
+  syntax: 
+    content: Integer GetVisibility()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger visibility = thing.GetVisibility();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.GetVisibleFor()
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.GetVisibleFor()
+  id: 'GetVisibleFor()'
+  so.intellisense: NSSelectionEntity.GetVisibleFor
+  langs:
+  - crmscript
+  name: 'GetVisibleFor()'
+  nameWithType: NSSelectionEntity.GetVisibleFor()
+  fullName: CRMScript.NetServer.NSSelectionEntity.GetVisibleFor()
+  type: Method
+  summary: "\nReturns the user groups and/or users the SelectionEntity item is visible for.\n"
+  remarks: 
+  syntax: 
+    content: NSVisibleFor[] GetVisibleFor()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSVisibleFor[]
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nNSVisibleFor[] visibleFor = thing.GetVisibleFor();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetAssociate(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetAssociate(NSAssociate)
+  id: 'SetAssociate(NSAssociate)'
+  so.intellisense: NSSelectionEntity.SetAssociate
+  langs:
+  - crmscript
+  name: 'SetAssociate(NSAssociate)'
+  nameWithType: NSSelectionEntity.SetAssociate(NSAssociate)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetAssociate(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAssociate(NSAssociate associate)
+    parameters:
+    - id: associate
+      type: CRMScript.NetServer.NSAssociate
+      description: "Owner of the selection."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nNSAssociate associate;\nthing.SetAssociate(associate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetChartKey(String)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetChartKey(String)
+  id: 'SetChartKey(String)'
+  so.intellisense: NSSelectionEntity.SetChartKey
+  langs:
+  - crmscript
+  name: 'SetChartKey(String)'
+  nameWithType: NSSelectionEntity.SetChartKey(String)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetChartKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChartKey(String chartKey)
+    parameters:
+    - id: chartKey
+      type: CRMScript.Global.String
+      description: "ID/key of the last-used chart tile on this selection."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nString chartKey;\nthing.SetChartKey(chartKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetCompanyUnique(Bool)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetCompanyUnique(Bool)
+  id: 'SetCompanyUnique(Bool)'
+  so.intellisense: NSSelectionEntity.SetCompanyUnique
+  langs:
+  - crmscript
+  name: 'SetCompanyUnique(Bool)'
+  nameWithType: NSSelectionEntity.SetCompanyUnique(Bool)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetCompanyUnique(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCompanyUnique(Bool companyUnique)
+    parameters:
+    - id: companyUnique
+      type: CRMScript.Global.Bool
+      description: Filter out duplicate members based on company?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nBool companyUnique;\nthing.SetCompanyUnique(companyUnique);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetCompleted(Bool)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetCompleted(Bool)
+  id: 'SetCompleted(Bool)'
+  so.intellisense: NSSelectionEntity.SetCompleted
+  langs:
+  - crmscript
+  name: 'SetCompleted(Bool)'
+  nameWithType: NSSelectionEntity.SetCompleted(Bool)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetCompleted(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCompleted(Bool completed)
+    parameters:
+    - id: completed
+      type: CRMScript.Global.Bool
+      description: "The Completed state."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nBool completed;\nthing.SetCompleted(completed);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetCreatedBy(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetCreatedBy(NSAssociate)
+  id: 'SetCreatedBy(NSAssociate)'
+  so.intellisense: NSSelectionEntity.SetCreatedBy
+  langs:
+  - crmscript
+  name: 'SetCreatedBy(NSAssociate)'
+  nameWithType: NSSelectionEntity.SetCreatedBy(NSAssociate)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetCreatedBy(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCreatedBy(NSAssociate createdBy)
+    parameters:
+    - id: createdBy
+      type: CRMScript.NetServer.NSAssociate
+      description: "Who created the selection."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nNSAssociate createdBy;\nthing.SetCreatedBy(createdBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetCreatedDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetCreatedDate(DateTime)
+  id: 'SetCreatedDate(DateTime)'
+  so.intellisense: NSSelectionEntity.SetCreatedDate
+  langs:
+  - crmscript
+  name: 'SetCreatedDate(DateTime)'
+  nameWithType: NSSelectionEntity.SetCreatedDate(DateTime)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetCreatedDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCreatedDate(DateTime createdDate)
+    parameters:
+    - id: createdDate
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nDateTime createdDate;\nthing.SetCreatedDate(createdDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSSelectionEntity.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSSelectionEntity.SetDescription(String)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetGroupIdx(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetGroupIdx(Integer)
+  id: 'SetGroupIdx(Integer)'
+  so.intellisense: NSSelectionEntity.SetGroupIdx
+  langs:
+  - crmscript
+  name: 'SetGroupIdx(Integer)'
+  nameWithType: NSSelectionEntity.SetGroupIdx(Integer)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetGroupIdx(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetGroupIdx(Integer groupIdx)
+    parameters:
+    - id: groupIdx
+      type: CRMScript.Global.Integer
+      description: "Original primary user group of associate."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger groupIdx;\nthing.SetGroupIdx(groupIdx);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetIncludePerson(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetIncludePerson(Integer)
+  id: 'SetIncludePerson(Integer)'
+  so.intellisense: NSSelectionEntity.SetIncludePerson
+  langs:
+  - crmscript
+  name: 'SetIncludePerson(Integer)'
+  nameWithType: NSSelectionEntity.SetIncludePerson(Integer)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetIncludePerson(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIncludePerson(Integer includePerson)
+    parameters:
+    - id: includePerson
+      type: CRMScript.Global.Integer
+      description: "0 = Include first person, 1 = Include all persons, 2 = Include no persons."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger includePerson;\nthing.SetIncludePerson(includePerson);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetLastLoaded(DateTime)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetLastLoaded(DateTime)
+  id: 'SetLastLoaded(DateTime)'
+  so.intellisense: NSSelectionEntity.SetLastLoaded
+  langs:
+  - crmscript
+  name: 'SetLastLoaded(DateTime)'
+  nameWithType: NSSelectionEntity.SetLastLoaded(DateTime)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetLastLoaded(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLastLoaded(DateTime lastLoaded)
+    parameters:
+    - id:  lastLoaded
+      type: CRMScript.Global.DateTime
+      description: "The date/time this selection was last loaded (selectionentity fetched)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nDateTime lastLoaded;\nthing.SetLastLoaded(lastLoaded);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetLastLoadedBy(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetLastLoadedBy(Integer)
+  id: 'SetLastLoadedBy(Integer)'
+  so.intellisense: NSSelectionEntity.SetLastLoadedBy
+  langs:
+  - crmscript
+  name: 'SetLastLoadedBy(Integer)'
+  nameWithType: NSSelectionEntity.SetLastLoadedBy(Integer)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetLastLoadedBy(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLastLoadedBy(Integer lastLoadedBy)
+    parameters:
+    - id: lastLoadedBy
+      type: CRMScript.Global.Integer
+      description: "Who last loaded this selection."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger lastLoadedBy;\nthing.SetLastLoadedBy(lastLoadedBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetLastLoadedByAssociate(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetLastLoadedByAssociate(NSAssociate)
+  id: 'SetLastLoadedByAssociate(NSAssociate)'
+  so.intellisense: NSSelectionEntity.SetLastLoadedByAssociate
+  langs:
+  - crmscript
+  name: 'SetLastLoadedByAssociate(NSAssociate)'
+  nameWithType: NSSelectionEntity.SetLastLoadedByAssociate(NSAssociate)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetLastLoadedByAssociate(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLastLoadedByAssociate(NSAssociate lastLoadedByAssociate)
+    parameters:
+    - id: lastLoadedByAssociate
+      type: CRMScript.NetServer.NSAssociate
+      description: "NSAssociate that last looked at the selection members; only date (not time) is valid."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nNSAssociate lastLoadedByAssociate;\nthing.SetLastLoadedByAssociate(lastLoadedByAssociate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetLastMembershipChange(DateTime)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetLastMembershipChange(DateTime)
+  id: 'SetLastMembershipChange(DateTime)'
+  so.intellisense: NSSelectionEntity.SetLastMembershipChange
+  langs:
+  - crmscript
+  name: 'SetLastMembershipChange(DateTime)'
+  nameWithType: NSSelectionEntity.SetLastMembershipChange(DateTime)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetLastMembershipChange(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLastMembershipChange(DateTime lastMembershipChange)
+    parameters:
+    - id: lastMembershipChange
+      type: CRMScript.Global.DateTime
+      description: "The date/time the membership the selection last changed. Dynamic - change of criteria; Static - add/remove members; Combined - change of algorithm."
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nDateTime lastMembershipChange;\nthing.SetLastMembershipChange(lastMembershipChange);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetLastMembershipChangeBy(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetLastMembershipChangeBy(Integer)
+  id: 'SetLastMembershipChangeBy(Integer)'
+  so.intellisense: NSSelectionEntity.SetLastMembershipChangeBy
+  langs:
+  - crmscript
+  name: 'SetLastMembershipChangeBy(Integer)'
+  nameWithType: NSSelectionEntity.SetLastMembershipChangeBy(Integer)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetLastMembershipChangeBy(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLastMembershipChangeBy(Integer lastMembershipChangeBy)
+    parameters:
+    - id: lastMembershipChangeBy
+      type: CRMScript.Global.Integer
+      description: "Who last changed the membership."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger lastMembershipChangeBy;\nthing.SetLastMembershipChangeBy(lastMembershipChangeBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetLastMembershipChangeByAssociate(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetLastMembershipChangeByAssociate(NSAssociate)
+  id: 'SetLastMembershipChangeByAssociate(NSAssociate)'
+  so.intellisense: NSSelectionEntity.SetLastMembershipChangeByAssociate
+  langs:
+  - crmscript
+  name: 'SetLastMembershipChangeByAssociate(NSAssociate)'
+  nameWithType: NSSelectionEntity.SetLastMembershipChangeByAssociate(NSAssociate)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetLastMembershipChangeByAssociate(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLastMembershipChangeByAssociate(NSAssociate lastMembershipChangeByAssociate)
+    parameters:
+    - id: lastMembershipChangeByAssociate
+      type: CRMScript.NetServer.NSAssociate
+      description: "Associate that last changed the selection membership (static members, dynamic criteria, combined parameters); only date (not time) is valid."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nNSAssociate lastMembershipChangeByAssociate;\nthing.SetLastMembershipChangeByAssociate(lastMembershipChangeByAssociate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetLeftSelectionId(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetLeftSelectionId(Integer)
+  id: 'SetLeftSelectionId(Integer)'
+  so.intellisense: NSSelectionEntity.SetLeftSelectionId
+  langs:
+  - crmscript
+  name: 'SetLeftSelectionId(Integer)'
+  nameWithType: NSSelectionEntity.SetLeftSelectionId(Integer)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetLeftSelectionId(Integer)
+  type: Method
+  summary: "\nLeftSelectionId is used in combination with RightSelectionId and CombinationType to define an union of two selections when SelectionType=Combined.\n"
+  remarks: 
+  syntax: 
+    content: Void SetLeftSelectionId(Integer leftSelectionId)
+    parameters:
+    - id: leftSelectionId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger leftSelectionId;\nthing.SetLeftSelectionId(leftSelectionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetMailingsProviderName(String)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetMailingsProviderName(String)
+  id: 'SetMailingsProviderName(String)'
+  so.intellisense: NSSelectionEntity.SetMailingsProviderName
+  langs:
+  - crmscript
+  name: 'SetMailingsProviderName(String)'
+  nameWithType: NSSelectionEntity.SetMailingsProviderName(String)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetMailingsProviderName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMailingsProviderName(String mailingsProviderName)
+    parameters:
+    - id: mailingsProviderName
+      type: CRMScript.Global.String
+      description: "The name of the provider for the Mailings tab, if relevant; this string will contain resource references."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nString mailingsProviderName;\nthing.SetMailingsProviderName(mailingsProviderName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetMainHeading(String)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetMainHeading(String)
+  id: 'SetMainHeading(String)'
+  so.intellisense: NSSelectionEntity.SetMainHeading
+  langs:
+  - crmscript
+  name: 'SetMainHeading(String)'
+  nameWithType: NSSelectionEntity.SetMainHeading(String)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetMainHeading(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMainHeading(String mainHeading)
+    parameters:
+    - id: mainHeading
+      type: CRMScript.Global.String
+      description: "'Static selection of Companies', or whatever else is appropriate, made by combining text resources for the type and the entity (plural form); this string will contain resource references"
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nString mainHeading;\nthing.SetMainHeading(mainHeading);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetMainProviderName(String)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetMainProviderName(String)
+  id: 'SetMainProviderName(String)'
+  so.intellisense: NSSelectionEntity.SetMainProviderName
+  langs:
+  - crmscript
+  name: 'SetMainProviderName(String)'
+  nameWithType: NSSelectionEntity.SetMainProviderName(String)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetMainProviderName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMainProviderName(String mainProviderName)
+    parameters:
+    - id: mainProviderName
+      type: CRMScript.Global.String
+      description: "The name of the Archive Provider that will deliver the content of the archive* the actual entity rows."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nString mainProviderName;\nthing.SetMainProviderName(mainProviderName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetMemberCount(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetMemberCount(Integer)
+  id: 'SetMemberCount(Integer)'
+  so.intellisense: NSSelectionEntity.SetMemberCount
+  langs:
+  - crmscript
+  name: 'SetMemberCount(Integer)'
+  nameWithType: NSSelectionEntity.SetMemberCount(Integer)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetMemberCount(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMemberCount(Integer memberCount)
+    parameters:
+    - id: memberCount
+      type: CRMScript.Global.Integer
+      description: "How many selection members (for progress bar calculations)* estimate, -1 (or 4294967295) means we don't know."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger memberCount;\nthing.SetMemberCount(memberCount);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetMemberTabHeading(String)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetMemberTabHeading(String)
+  id: 'SetMemberTabHeading(String)'
+  so.intellisense: NSSelectionEntity.SetMemberTabHeading
+  langs:
+  - crmscript
+  name: 'SetMemberTabHeading(String)'
+  nameWithType: NSSelectionEntity.SetMemberTabHeading(String)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetMemberTabHeading(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMemberTabHeading(String memberTabHeading)
+    parameters:
+    - id: memberTabHeading
+      type: CRMScript.Global.String
+      description: "'Companies', or whatever else is appropriate* the plural form of the entity name; this string will contain resource references"
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nString memberTabHeading;\nthing.SetMemberTabHeading(memberTabHeading);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSSelectionEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSSelectionEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Name of selection, free-text indexed."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetPostit(String)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetPostit(String)
+  id: 'SetPostit(String)'
+  so.intellisense: NSSelectionEntity.SetPostit
+  langs:
+  - crmscript
+  name: 'SetPostit(String)'
+  nameWithType: NSSelectionEntity.SetPostit(String)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetPostit(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPostit(String postit)
+    parameters:
+    - id: postit
+      type: CRMScript.Global.String
+      description: "The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nString postit;\nthing.SetPostit(postit);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetPostitTextId(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetPostitTextId(Integer)
+  id: 'SetPostitTextId(Integer)'
+  so.intellisense: NSSelectionEntity.SetPostitTextId
+  langs:
+  - crmscript
+  name: 'SetPostitTextId(Integer)'
+  nameWithType: NSSelectionEntity.SetPostitTextId(Integer)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetPostitTextId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPostitTextId(Integer postitTextId)
+    parameters:
+    - id: postitTextId
+      type: CRMScript.Global.Integer
+      description: "Postit text record ID."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger postitTextId;\nthing.SetPostitTextId(postitTextId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetRightSelectionId(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetRightSelectionId(Integer)
+  id: 'SetRightSelectionId(Integer)'
+  so.intellisense: NSSelectionEntity.SetRightSelectionId
+  langs:
+  - crmscript
+  name: 'SetRightSelectionId(Integer)'
+  nameWithType: NSSelectionEntity.SetRightSelectionId(Integer)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetRightSelectionId(Integer)
+  type: Method
+  summary: "\nRightSelectionId  is used in combination with LeftSelectionId and CombinationType to define an union of two selections when SelectionType=Combined.\n"
+  remarks: 
+  syntax: 
+    content: Void SetRightSelectionId(Integer rightSelectionId)
+    parameters:
+    - id: rightSelectionId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger rightSelectionId;\nthing.SetRightSelectionId(rightSelectionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetSelectionCategory(NSSelectionCategory)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetSelectionCategory(NSSelectionCategory)
+  id: 'SetSelectionCategory(NSSelectionCategory)'
+  so.intellisense: NSSelectionEntity.SetSelectionCategory
+  langs:
+  - crmscript
+  name: 'SetSelectionCategory(NSSelectionCategory)'
+  nameWithType: NSSelectionEntity.SetSelectionCategory(NSSelectionCategory)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetSelectionCategory(NSSelectionCategory)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSelectionCategory(NSSelectionCategory selectionCategory)
+    parameters:
+    - id:  selectionCategory
+      type: CRMScript.NetServer.NSSelectionCategory
+      description: "Selection category type (list item)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nNSSelectionCategory selectionCategory;\nthing.SetSelectionCategory(selectionCategory);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetSelectionId(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetSelectionId(Integer)
+  id: 'SetSelectionId(Integer)'
+  so.intellisense: NSSelectionEntity.SetSelectionId
+  langs:
+  - crmscript
+  name: 'SetSelectionId(Integer)'
+  nameWithType: NSSelectionEntity.SetSelectionId(Integer)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetSelectionId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSelectionId(Integer selectionId)
+    parameters:
+    - id: selectionId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger selectionId;\nthing.SetSelectionId(selectionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetSelectionType(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetSelectionType(Integer)
+  id: 'SetSelectionType(Integer)'
+  so.intellisense: NSSelectionEntity.SetSelectionType
+  langs:
+  - crmscript
+  name: 'SetSelectionType(Integer)'
+  nameWithType: NSSelectionEntity.SetSelectionType(Integer)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetSelectionType(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetSelectionType(Integer selectionType)
+    parameters:
+    - id: selectionType
+      type: CRMScript.Global.Integer
+      description: "Static/Dynamic/Combined? See <xref href=\"CRMScript.NetServer.SelectionType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger selectionType;\nthing.SetSelectionType(selectionType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetSelectionUnionType(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetSelectionUnionType(Integer)
+  id: 'SetSelectionUnionType(Integer)'
+  so.intellisense: NSSelectionEntity.SetSelectionUnionType
+  langs:
+  - crmscript
+  name: 'SetSelectionUnionType(Integer)'
+  nameWithType: NSSelectionEntity.SetSelectionUnionType(Integer)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetSelectionUnionType(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetSelectionUnionType(Integer selectionUnionType)
+    parameters:
+    - id: selectionUnionType
+      type: CRMScript.Global.Integer
+      description: "How to combine the two selections when SelectionType = Combined. See <xref href=\"CRMScript.NetServer.SelectionUnionType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger selectionUnionType;\nthing.SetSelectionUnionType(selectionUnionType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetShadowProviderName(String)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetShadowProviderName(String)
+  id: 'SetShadowProviderName(String)'
+  so.intellisense: NSSelectionEntity.SetShadowProviderName
+  langs:
+  - crmscript
+  name: 'SetShadowProviderName(String)'
+  nameWithType: NSSelectionEntity.SetShadowProviderName(String)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetShadowProviderName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetShadowProviderName(String shadowProviderName)
+    parameters:
+    - id: shadowProviderName
+      type: CRMScript.Global.String
+      description: "The name, if relevant, of the Archive Provider that will deliver the Shadow rows, contact/person rows related to the actual entity. Can be blank, indicating that there is no shadow archive."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nString shadowProviderName;\nthing.SetShadowProviderName(shadowProviderName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetSoundEx(String)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetSoundEx(String)
+  id: 'SetSoundEx(String)'
+  so.intellisense: NSSelectionEntity.SetSoundEx
+  langs:
+  - crmscript
+  name: 'SetSoundEx(String)'
+  nameWithType: NSSelectionEntity.SetSoundEx(String)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetSoundEx(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSoundEx(String soundEx)
+    parameters:
+    - id: soundEx
+      type: CRMScript.Global.String
+      description: "What the name sounds like, for duplicate detection."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nString soundEx;\nthing.SetSoundEx(soundEx);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetSource(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetSource(Integer)
+  id: 'SetSource(Integer)'
+  so.intellisense: NSSelectionEntity.SetSource
+  langs:
+  - crmscript
+  name: 'SetSource(Integer)'
+  nameWithType: NSSelectionEntity.SetSource(Integer)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetSource(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSource(Integer source)
+    parameters:
+    - id: source
+      type: CRMScript.Global.Integer
+      description: "How did we get this selection? For future integration needs."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger source;\nthing.SetSource(source);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetTargetTableName(String)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetTargetTableName(String)
+  id: 'SetTargetTableName(String)'
+  so.intellisense: NSSelectionEntity.SetTargetTableName
+  langs:
+  - crmscript
+  name: 'SetTargetTableName(String)'
+  nameWithType: NSSelectionEntity.SetTargetTableName(String)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetTargetTableName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTargetTableName(String targetTableName)
+    parameters:
+    - id: targetTableName
+      type: CRMScript.Global.String
+      description: "TargetTableName contains the name of the table in lowercase. defines the type of selection members this selection contains. e.g. 'contact', or 'project' or 'sale'"
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nString targetTableName;\nthing.SetTargetTableName(targetTableName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetTargetTableNumber(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetTargetTableNumber(Integer)
+  id: 'SetTargetTableNumber(Integer)'
+  so.intellisense: NSSelectionEntity.SetTargetTableNumber
+  langs:
+  - crmscript
+  name: 'SetTargetTableNumber(Integer)'
+  nameWithType: NSSelectionEntity.SetTargetTableNumber(Integer)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetTargetTableNumber(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTargetTableNumber(Integer targetTableNumber)
+    parameters:
+    - id: targetTableNumber
+      type: CRMScript.Global.Integer
+      description: "TargetTableNumber defines the type of selection members this selection contains. e.g. the table number for 'contact', or 'project' or 'sale'"
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger targetTableNumber;\nthing.SetTargetTableNumber(targetTableNumber);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetTextId(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetTextId(Integer)
+  id: 'SetTextId(Integer)'
+  so.intellisense: NSSelectionEntity.SetTextId
+  langs:
+  - crmscript
+  name: 'SetTextId(Integer)'
+  nameWithType: NSSelectionEntity.SetTextId(Integer)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetTextId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTextId(Integer textId)
+    parameters:
+    - id: textId
+      type: CRMScript.Global.Integer
+      description: "Description text record Id."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger textId;\nthing.SetTextId(textId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetUpdatedBy(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetUpdatedBy(NSAssociate)
+  id: 'SetUpdatedBy(NSAssociate)'
+  so.intellisense: NSSelectionEntity.SetUpdatedBy
+  langs:
+  - crmscript
+  name: 'SetUpdatedBy(NSAssociate)'
+  nameWithType: NSSelectionEntity.SetUpdatedBy(NSAssociate)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetUpdatedBy(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedBy(NSAssociate updatedBy)
+    parameters:
+    - id: updatedBy
+      type: CRMScript.NetServer.NSAssociate
+      description: "Who last modified the selection."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nNSAssociate updatedBy;\nthing.SetUpdatedBy(updatedBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetUpdatedCount(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetUpdatedCount(Integer)
+  id: 'SetUpdatedCount(Integer)'
+  so.intellisense: NSSelectionEntity.SetUpdatedCount
+  langs:
+  - crmscript
+  name: 'SetUpdatedCount(Integer)'
+  nameWithType: NSSelectionEntity.SetUpdatedCount(Integer)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetUpdatedCount(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedCount(Integer updatedCount)
+    parameters:
+    - id: updatedCount
+      type: CRMScript.Global.Integer
+      description: "Number of updates made to this record."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger updatedCount;\nthing.SetUpdatedCount(updatedCount);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetUpdatedDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetUpdatedDate(DateTime)
+  id: 'SetUpdatedDate(DateTime)'
+  so.intellisense: NSSelectionEntity.SetUpdatedDate
+  langs:
+  - crmscript
+  name: 'SetUpdatedDate(DateTime)'
+  nameWithType: NSSelectionEntity.SetUpdatedDate(DateTime)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetUpdatedDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedDate(DateTime updatedDate)
+    parameters:
+    - id: updatedDate
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nDateTime updatedDate;\nthing.SetUpdatedDate(updatedDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetVisibility(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetVisibility(Integer)
+  id: 'SetVisibility(Integer)'
+  so.intellisense: NSSelectionEntity.SetVisibility
+  langs:
+  - crmscript
+  name: 'SetVisibility(Integer)'
+  nameWithType: NSSelectionEntity.SetVisibility(Integer)
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetVisibility(Integer)
+  type: Method
+  summary: "\nObsolete, but still maintained de-normalization of visiblefor\n"
+  remarks: 
+  syntax: 
+    content: Void SetVisibility(Integer visibility)
+    parameters:
+    - id: visibility
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nInteger visibility;\nthing.SetVisibility(visibility);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectionEntity.SetVisibleFor(NSVisibleFor[])
+  commentId: M:CRMScript.NetServer.NSSelectionEntity.SetVisibleFor(NSVisibleFor[])
+  id: 'SetVisibleFor(NSVisibleFor[])'
+  so.intellisense: NSSelectionEntity.SetVisibleFor
+  langs:
+  - crmscript
+  name: 'SetVisibleFor(NSVisibleFor[])'
+  nameWithType: NSSelectionEntity.SetVisibleFor(NSVisibleFor[])
+  fullName: CRMScript.NetServer.NSSelectionEntity.SetVisibleFor(NSVisibleFor[])
+  type: Method
+  summary: "\nSets the user-groups and/or users the SelectionEntity item is visible for.\n"
+  remarks: 
+  syntax: 
+    content: Void SetVisibleFor(NSVisibleFor[] visibleFor)
+    parameters:
+    - id: visibleFor
+      type: CRMScript.NetServer.NSVisibleFor[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectionEntity thing;\nNSVisibleFor[] visibleFor = thing.GetVisibleFor();\nvisibleFor[0].SetVisiblity(1);  // usergroup\nvisibleFor[0].SetVisibleId(123); // usergroup id\nthing.SetVisibleFor(visibleFor);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSSelectionEntity
+  commentId: T:CRMScript.NetServer.NSSelectionEntity
+  isExternal: true
+  name: NSSelectionEntity
+  nameWithType: NSSelectionEntity
+  fullName: CRMScript.NetServer.NSSelectionEntity
+- uid: CRMScript.NetServer.NSAssociate
+  commentId: T:CRMScript.NetServer.NSAssociate
+  isExternal: true
+  name: NSAssociate
+  nameWithType: NSAssociate
+  fullName: CRMScript.NetServer.NSAssociate
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSSelectionCategory
+  commentId: T:CRMScript.NetServer.NSSelectionCategory
+  isExternal: true
+  name: NSSelectionCategory
+  nameWithType: NSSelectionCategory
+  fullName: CRMScript.NetServer.NSSelectionCategory
+- uid: CRMScript.NetServer.NSVisibleFor[]
+  isExternal: true
+  name: NSVisibleFor[]
+  nameWithType: NSVisibleFor[]
+  fullName: CRMScript.NetServer.NSVisibleFor[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSVisibleFor
+    isExternal: true
+    name: NSVisibleFor
+    nameWithType: NSVisibleFor
+    fullName: CRMScript.NetServer.NSVisibleFor
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSVisibleFor
+  commentId: T:CRMScript.NetServer.NSVisibleFor
+  isExternal: true
+  name: NSVisibleFor
+  nameWithType: NSVisibleFor
+  fullName: CRMScript.NetServer.NSVisibleFor
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.SelectionUnionType
+  commentId: T:CRMScript.NetServer.SelectionUnionType
+  isExternal: true
+  name: SelectionUnionType
+  nameWithType: SelectionUnionType
+  fullName: CRMScript.NetServer.SelectionUnionType
+- uid: CRMScript.NetServer.SelectionType
+  commentId: T:CRMScript.NetServer.SelectionType
+  isExternal: true
+  name: SelectionType
+  nameWithType: SelectionType
+  fullName: CRMScript.NetServer.SelectionType

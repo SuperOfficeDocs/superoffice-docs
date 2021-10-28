@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSActivitySummary
+  commentId: T:CRMScript.NetServer.NSActivitySummary
+  id: NSActivitySummary
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSActivitySummary.#ctor
+  - CRMScript.NetServer.NSActivitySummary.GetNumBusyActivities()
+  - CRMScript.NetServer.NSActivitySummary.GetNumFreeActivities()
+  - CRMScript.NetServer.NSActivitySummary.GetPercentageBusy()
+  - CRMScript.NetServer.NSActivitySummary.SetNumBusyActivities(Integer)
+  - CRMScript.NetServer.NSActivitySummary.SetNumFreeActivities(Integer)
+  - CRMScript.NetServer.NSActivitySummary.SetPercentageBusy(Integer)
+  name: NSActivitySummary
+  nameWithType: NSActivitySummary
+  fullName: CRMScript.NetServer.NSActivitySummary
+  type: Class
+  summary: "\nActivity information summary - number of free and busy activities. Carrier object for ActivitySummary.\n"
+  example: 
+- uid: CRMScript.NetServer.NSActivitySummary.#ctor
+  commentId: M:CRMScript.NetServer.NSActivitySummary.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSActivitySummary
+  langs:
+  - crmscript
+  name: NSActivitySummary()
+  nameWithType: NSActivitySummary.#ctor
+  fullName: CRMScript.NetServer.NSActivitySummary.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSActivitySummary class.\n"
+  remarks: 
+  syntax: 
+    content: NSActivitySummary
+  example: 
+- uid: CRMScript.NetServer.NSActivitySummary.GetNumBusyActivities()
+  commentId: M:CRMScript.NetServer.NSActivitySummary.GetNumBusyActivities()
+  id: 'GetNumBusyActivities()'
+  so.intellisense: NSActivitySummary.GetNumBusyActivities
+  langs:
+  - crmscript
+  name: 'GetNumBusyActivities()'
+  nameWithType: NSActivitySummary.GetNumBusyActivities()
+  fullName: CRMScript.NetServer.NSActivitySummary.GetNumBusyActivities()
+  type: Method
+  summary: "\nReturns the number of activities and tasks in the diary that are of type 'busy'.\n"
+  remarks: "\nSales and documents are not activities in this case, only diary appointments and tasks.\n"
+  syntax: 
+    content: Integer GetNumBusyActivities()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The number of activities and tasks in the diary of type busy."
+  example: 
+  - "\n<pre><code>NSActivitySummary thing;\nInteger numBusyActivities = thing.GetNumBusyActivities();</code></pre>\n"
+- uid: CRMScript.NetServer.NSActivitySummary.GetNumFreeActivities()
+  commentId: M:CRMScript.NetServer.NSActivitySummary.GetNumFreeActivities()
+  id: 'GetNumFreeActivities()'
+  so.intellisense: NSActivitySummary.GetNumFreeActivities
+  langs:
+  - crmscript
+  name: 'GetNumFreeActivities()'
+  nameWithType: NSActivitySummary.GetNumFreeActivities()
+  fullName: CRMScript.NetServer.NSActivitySummary.GetNumFreeActivities()
+  type: Method
+  summary: "\nReturns the number of activities of the type 'free'.\n"
+  remarks: "\nSales and documents are not activities in this case, only diary appointments and tasks.\n"
+  syntax: 
+    content: Integer GetNumFreeActivities()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The number of activities of type free."
+  example: 
+  - "\n<pre><code>NSActivitySummary thing;\nInteger numFreeActivities = thing.GetNumFreeActivities();</code></pre>\n"
+- uid: CRMScript.NetServer.NSActivitySummary.GetPercentageBusy()
+  commentId: M:CRMScript.NetServer.NSActivitySummary.GetPercentageBusy()
+  id: 'GetPercentageBusy()'
+  so.intellisense: NSActivitySummary.GetPercentageBusy
+  langs:
+  - crmscript
+  name: 'GetPercentageBusy()'
+  nameWithType: NSActivitySummary.GetPercentageBusy()
+  fullName: CRMScript.NetServer.NSActivitySummary.GetPercentageBusy()
+  type: Method
+  summary: "\nChecks how much of the active work-day that is booked in appointments.\n"
+  remarks: 
+  syntax: 
+    content: Integer GetPercentageBusy()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "How much of the active work-day that is booked in appointments."
+  example: 
+  - "\n<pre><code>NSActivitySummary thing;\nInteger percentageBusy = thing.GetPercentageBusy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSActivitySummary.SetNumBusyActivities(Integer)
+  commentId: M:CRMScript.NetServer.NSActivitySummary.SetNumBusyActivities(Integer)
+  id: 'SetNumBusyActivities(Integer)'
+  so.intellisense: NSActivitySummary.SetNumBusyActivities
+  langs:
+  - crmscript
+  name: 'SetNumBusyActivities(Integer)'
+  nameWithType: NSActivitySummary.SetNumBusyActivities(Integer)
+  fullName: CRMScript.NetServer.NSActivitySummary.SetNumBusyActivities(Integer)
+  type: Method
+  summary: "\nSets the number of activities and tasks in the diary that are of type 'busy'.\n"
+  remarks: "\nSales and documents are not activities in this case, only diary appointments and tasks.\n"
+  syntax: 
+    content: Void SetNumBusyActivities(Integer numBusyActivities)
+    parameters:
+    - id: numBusyActivities
+      type: CRMScript.Global.Integer
+      description: "The number of activities and tasks in the diary that are of type busy."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSActivitySummary thing;\nInteger numBusyActivities;\nthing.SetNumBusyActivities(numBusyActivities);</code></pre>\n"
+- uid: CRMScript.NetServer.NSActivitySummary.SetNumFreeActivities(Integer)
+  commentId: M:CRMScript.NetServer.NSActivitySummary.SetNumFreeActivities(Integer)
+  id: 'SetNumFreeActivities(Integer)'
+  so.intellisense: NSActivitySummary.SetNumFreeActivities
+  langs:
+  - crmscript
+  name: 'SetNumFreeActivities(Integer)'
+  nameWithType: NSActivitySummary.SetNumFreeActivities(Integer)
+  fullName: CRMScript.NetServer.NSActivitySummary.SetNumFreeActivities(Integer)
+  type: Method
+  summary: "\nSets the number of activities of the type 'free'.\n"
+  remarks: "\nSales and documents are not activities in this case, only diary appointments and tasks.\n"
+  syntax: 
+    content: Void SetNumFreeActivities(Integer numFreeActivities)
+    parameters:
+    - id: numFreeActivities
+      type: CRMScript.Global.Integer
+      description: "The number of activities of the type free."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSActivitySummary thing;\nInteger numFreeActivities;\nthing.SetNumFreeActivities(numFreeActivities);</code></pre>\n"
+- uid: CRMScript.NetServer.NSActivitySummary.SetPercentageBusy(Integer)
+  commentId: M:CRMScript.NetServer.NSActivitySummary.SetPercentageBusy(Integer)
+  id: 'SetPercentageBusy(Integer)'
+  so.intellisense: NSActivitySummary.SetPercentageBusy
+  langs:
+  - crmscript
+  name: 'SetPercentageBusy(Integer)'
+  nameWithType: NSActivitySummary.SetPercentageBusy(Integer)
+  fullName: CRMScript.NetServer.NSActivitySummary.SetPercentageBusy(Integer)
+  type: Method
+  summary: "\nSets how much of the active work-day that is booked in appointments.\n"
+  remarks: 
+  syntax: 
+    content: Void SetPercentageBusy(Integer percentageBusy)
+    parameters:
+    - id: percentageBusy
+      type: CRMScript.Global.Integer
+      description: "How much of the active work-day that is booked in appointments."
+    return:
+      type: CRMScript.Global.Void 
+  example: 
+  - "\n<pre><code>NSActivitySummary thing;\nInteger percentageBusy;\nthing.SetPercentageBusy(percentageBusy);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSActivitySummary
+  commentId: T:CRMScript.NetServer.NSActivitySummary
+  isExternal: true
+  name: NSActivitySummary
+  nameWithType: NSActivitySummary
+  fullName: CRMScript.NetServer.NSActivitySummary
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

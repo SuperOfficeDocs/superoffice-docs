@@ -1,0 +1,597 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.Customer
+  commentId: T:CRMScript.Native.Customer
+  id: Customer
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.Customer.#ctor
+  - CRMScript.Native.Customer.addEmail(String,Integer,Integer)
+  - CRMScript.Native.Customer.addEmail(String,Integer,Integer,Integer)
+  - CRMScript.Native.Customer.checkFieldRights(String,String)
+  - CRMScript.Native.Customer.checkTableRights(String)
+  - CRMScript.Native.Customer.findExternallyFromEmail(String)
+  - CRMScript.Native.Customer.findExternallyFromEmail(String,Integer)
+  - CRMScript.Native.Customer.findExternallyFromKey(Integer,String)
+  - CRMScript.Native.Customer.findFromAgentAndKey(Integer,String)
+  - CRMScript.Native.Customer.findFromCellphone(String)
+  - CRMScript.Native.Customer.findFromEmail(String)
+  - CRMScript.Native.Customer.getValue(String)
+  - CRMScript.Native.Customer.load(Integer)
+  - CRMScript.Native.Customer.loadFromAgentAndKey(Integer,String)
+  - CRMScript.Native.Customer.login()
+  - CRMScript.Native.Customer.logout()
+  - CRMScript.Native.Customer.makeSalutation()
+  - CRMScript.Native.Customer.removeEmail(String)
+  - CRMScript.Native.Customer.removeExternalEmails(Integer,Integer)
+  - CRMScript.Native.Customer.save()
+  - CRMScript.Native.Customer.save(String)
+  - CRMScript.Native.Customer.setValue(String,String)
+  - CRMScript.Native.Customer.toParser(Parser)
+  name: Customer
+  nameWithType: Customer
+  fullName: CRMScript.Native.Customer
+  type: Class
+  summary: "\nRepresents a customer.\n"
+  example: 
+  - "\n<pre><code>Customer c;\n\nc.load(2); // Loads customer with ID = 2\nprint(c.getValue(&quot;email&quot;)); // Returns a list of all emails\nc.setValue(&quot;firstname&quot;, &quot;Bob&quot;);\nc.save();</code></pre>\n"
+- uid: CRMScript.Native.Customer.#ctor
+  commentId: M:CRMScript.Native.Customer.#ctor
+  id: '#ctor'
+  so.intellisense: Void.Customer
+  langs:
+  - crmscript
+  name: Customer()
+  nameWithType: Customer.#ctor
+  fullName: CRMScript.Native.Customer.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the Customer class.\n"
+  remarks: 
+  syntax: 
+    content: Customer
+  example: 
+  - "\n<pre><code>Customer c;\n\nc.load(2); // Loads customer with id = 2\nprint(c.getValue(&quot;email&quot;)); // Returns a list of all emails\nc.setValue(&quot;firstname&quot;, &quot;Bob&quot;);\nc.save();</code></pre>\n"
+- uid: CRMScript.Native.Customer.addEmail(String,Integer,Integer)
+  commentId: M:CRMScript.Native.Customer.addEmail(String,Integer,Integer)
+  id: 'addEmail(String,Integer,Integer)'
+  so.intellisense: Customer.addEmail
+  langs:
+  - crmscript
+  name: 'addEmail(String,Integer,Integer)'
+  nameWithType: Customer.addEmail(String,Integer,Integer)
+  fullName: CRMScript.Native.Customer.addEmail(String,Integer,Integer)
+  type: Method
+  summary: "\nAdds an email to a customerAdds an email to a customer.\n"
+  remarks: "\n Commonly used in database integrations.<p></p>\nUse addEmail(String,Integer,Integer,Integer) to provide the external sorting rank.\n"
+  syntax: 
+    content: Void addEmail(String email, Integer extTable, Integer dbiAgentId)
+    parameters:
+    - id: email
+      type: CRMScript.Global.String
+      description: "Email address."
+    - id: extTable
+      type: CRMScript.Global.Integer
+      description: "External owner of this email address as an extTable ID. extTable is a deprecated database integration called data sources."
+    - id: dbiAgentId
+      type: CRMScript.Global.Integer
+      description: "External owner of this email address as a dbiAgent ID."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.Customer.addEmail(String,Integer,Integer,Integer)
+  commentId: M:CRMScript.Native.Customer.addEmail(String,Integer,Integer,Integer)
+  id: 'addEmail(String,Integer,Integer,Integer)'
+  so.intellisense: Customer.addEmail
+  langs:
+  - crmscript
+  name: 'addEmail(String,Integer,Integer,Integer)'
+  nameWithType: Customer.addEmail(String,Integer,Integer,Integer)
+  fullName: CRMScript.Native.Customer.addEmail(String,Integer,Integer,Integer)
+  type: Method
+  summary: "\nAdds an email to a customer with the external sorting rank.\n"
+  remarks: "\nCommonly used in database integrations.\n"
+  syntax: 
+    content: Void addEmail()
+    parameters:
+    - id: email
+      type: CRMScript.Global.String
+      description: "Email address"
+    - id: externalRank
+      type: CRMScript.Global.Integer
+      description: "External sorting rank. (Can't be changed in the Service GUI)."
+    - id: extTable
+      type: CRMScript.Global.Integer
+      description: "External owner of this email address as an extTable ID. extTable is a deprecated database integration called data sources."
+    - id: dbiAgentId
+      type: CRMScript.Global.Integer
+      description: "External owner of this email address as a dbiAgent ID."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.Customer.checkFieldRights(String,String)
+  commentId: M:CRMScript.Native.Customer.checkFieldRights(String,String)
+  id: 'checkFieldRights(String,String)'
+  so.intellisense: Customer.checkFieldRights
+  langs:
+  - crmscript
+  name: 'checkFieldRights(String,String)'
+  nameWithType: Customer.checkFieldRights(String,String)
+  fullName: CRMScript.Native.Customer.checkFieldRights(String,String)
+  type: Method
+  summary: "\nChecks if the current user has access to the field.\n"
+  remarks:
+  syntax: 
+    content: Bool checkFieldRights(String field, String fieldRight)
+    parameters:
+    - id: field
+      type: CRMScript.Global.String
+      description: "The field to check."
+    - id: fieldRight
+      type: CRMScript.Global.String
+      description: "Type of access to check for - read or write."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the current user has access to the field; otherwise, false."
+  example: 
+  - "\n<pre><code>Customer c;\n\nc.load(3);\nBool b = c.checkFieldRights(&quot;person&quot;,&quot;read&quot;);\nprint(b.toString());</code></pre>\n"
+- uid: CRMScript.Native.Customer.checkTableRights(String)
+  commentId: M:CRMScript.Native.Customer.checkTableRights(String)
+  id: 'checkTableRights(String)'
+  so.intellisense: Customer.checkTableRights
+  langs:
+  - crmscript
+  name: 'checkTableRights(String)'
+  nameWithType: Customer.checkTableRights(String)
+  fullName: CRMScript.Native.Customer.checkTableRights(String)
+  type: Method
+  summary: "\nUse this function to see if the current user has access to this customer.\n"
+  remarks:
+  syntax: 
+    content: Bool checkTableRights(String tableRight)
+    parameters:
+    - id: tableRight
+      type: CRMScript.Global.String
+      description: "Type of access to check for - select, update, or insert."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the current user has access to the customer; otherwise, false."
+  example: 
+  - "\n<pre><code>Customer c;\n\nc.load(3);\nBool b = c.checkTableRights(&quot;select&quot;);\nprint(b.toString());</code></pre>\n"
+- uid: CRMScript.Native.Customer.findExternallyFromEmail(String)
+  commentId: M:CRMScript.Native.Customer.findExternallyFromEmail(String)
+  id: 'findExternallyFromEmail(String)'
+  so.intellisense: Customer.findExternallyFromEmail
+  langs:
+  - crmscript
+  name: 'findExternallyFromEmail(String)'
+  nameWithType: Customer.findExternallyFromEmail(String)
+  fullName: CRMScript.Native.Customer.findExternallyFromEmail(String)
+  type: Method
+  summary: "\nFinds an entry in the external database based on an email address.\n"
+  remarks: "\nIt will search all external data sources for a Customer matching the given email address. If an entry is found, a proxy entry is created and saved.<p></p>\nUse findExternallyFromEmail(String,Integer) to provide an extTable ID to limit the search to 1 data source."
+  syntax: 
+    content: Bool findExternallyFromEmail(String email)
+    parameters:
+    - id: email
+      type: CRMScript.Global.String
+      description: "The email address (&quot;alias@domain&quot;)."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if an entry is found; otherwise, false."
+  example: 
+- uid: CRMScript.Native.Customer.findExternallyFromEmail(String,Integer)
+  commentId: M:CRMScript.Native.Customer.findExternallyFromEmail(String,Integer)
+  id: 'findExternallyFromEmail(String,Integer)'
+  so.intellisense: Customer.findExternallyFromEmail
+  langs:
+  - crmscript
+  name: 'findExternallyFromEmail(String,Integer)'
+  nameWithType: Customer.findExternallyFromEmail(String,Integer)
+  fullName: CRMScript.Native.Customer.findExternallyFromEmail(String,Integer)
+  type: Method
+  summary: "\nFinds an entry in the external database based on an email address and an extTable ID to limit the search to one data source.\n"
+  remarks: "\nIt will search all external data sources for a Customer matching the given email address. If an entry is found, a proxy entry is created and saved.\n"
+  syntax: 
+    content: Bool findExternallyFromEmail(String email, Integer extTable)
+    parameters:
+    - id: email
+      type: CRMScript.Global.String
+      description: "The email address (&quot;alias@domain&quot;)."
+    - id: extTable
+      type: CRMScript.Global.Integer
+      description: "Used if you want to search only one data source."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if an entry is found; otherwise, false."
+  example: 
+- uid: CRMScript.Native.Customer.findExternallyFromKey(Integer,String)
+  commentId: M:CRMScript.Native.Customer.findExternallyFromKey(Integer,String)
+  id: 'findExternallyFromKey(Integer,String)'
+  so.intellisense: Customer.findExternallyFromKey
+  langs:
+  - crmscript
+  name: 'findExternallyFromKey(Integer,String)'
+  nameWithType: Customer.findExternallyFromKey(Integer,String)
+  fullName: CRMScript.Native.Customer.findExternallyFromKey(Integer,String)
+  type: Method
+  summary: "\nFinds an external entry based on its primary key and table ID.\n"
+  remarks: "\nSearches for and possibly creates a proxy entry for an external entry based on the external table (implicitly defines data source), and the primary key.<p></p>\nIf an proxy entry already exists, it is loaded. If not, the given external data source is searched, and if an entry is found, a local proxy entry is created and saved.\n"
+  syntax: 
+    content: Integer findExternallyFromKey(Integer table, String key)
+    parameters:
+    - id: table
+      type: CRMScript.Global.Integer
+      description: "The external table (ext_table.id)."
+    - id: key
+      type: CRMScript.Global.String
+      description: "The primary key in the external table defining the entry."
+    return:
+      type: CRMScript.Global.Integer
+      description: "True if found; otherwise, false."
+  example: 
+- uid: CRMScript.Native.Customer.findFromAgentAndKey(Integer,String)
+  commentId: M:CRMScript.Native.Customer.findFromAgentAndKey(Integer,String)
+  id: 'findFromAgentAndKey(Integer,String)'
+  so.intellisense: Customer.findFromAgentAndKey
+  langs:
+  - crmscript
+  name: 'findFromAgentAndKey(Integer,String)'
+  nameWithType: Customer.findFromAgentAndKey(Integer,String)
+  fullName: CRMScript.Native.Customer.findFromAgentAndKey(Integer,String)
+  type: Method
+  summary: "\nFinds a customer entry in the database based on the given agent ID and external key.\n"
+  remarks: 
+  syntax: 
+    content: Integer findFromAgentAndKey(Integer agent, String key)
+    parameters:
+    - id: agent
+      type: CRMScript.Global.Integer
+      description: "The agent ID for the external entry. Implicitly defines the external data source."
+    - id: key
+      type: CRMScript.Global.String
+      description: "The primary key of the external entry."
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID for the customer entry in the database; or -1 if not found."
+  example: 
+- uid: CRMScript.Native.Customer.findFromCellphone(String)
+  commentId: M:CRMScript.Native.Customer.findFromCellphone(String)
+  id: 'findFromCellphone(String)'
+  so.intellisense: Customer.findFromCellphone
+  langs:
+  - crmscript
+  name: 'findFromCellphone(String)'
+  nameWithType: Customer.findFromCellphone(String)
+  fullName: CRMScript.Native.Customer.findFromCellphone(String)
+  type: Method
+  summary: "\nFinds an entry based on the cellphone.\n"
+  remarks: 
+  syntax: 
+    content: Bool findFromCellphone(String cellphone)
+    parameters:
+    - id: cellphone
+      type: CRMScript.Global.String
+      description: "The cellphone to lookup."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if found; otherwise, false."
+  example: 
+- uid: CRMScript.Native.Customer.findFromEmail(String)
+  commentId: M:CRMScript.Native.Customer.findFromEmail(String)
+  id: 'findFromEmail(String)'
+  so.intellisense: Customer.findFromEmail
+  langs:
+  - crmscript
+  name: 'findFromEmail(String)'
+  nameWithType: Customer.findFromEmail(String)
+  fullName: CRMScript.Native.Customer.findFromEmail(String)
+  type: Method
+  summary: "\nFind a Customer instance based on the email address.\n"
+  remarks: 
+  syntax: 
+    content: findFromEmail(String email)
+    parameters:
+    - id: email
+      type: CRMScript.Global.String
+      description: "The address to look up. Must be address alone (alias@domain)."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if found; otherwise, false."
+  example: 
+- uid: CRMScript.Native.Customer.getValue(String)
+  commentId: M:CRMScript.Native.Customer.getValue(String)
+  id: 'getValue(String)'
+  so.intellisense: Customer.getValue
+  langs:
+  - crmscript
+  name: 'getValue(String)'
+  nameWithType: Customer.getValue(String)
+  fullName: CRMScript.Native.Customer.getValue(String)
+  type: Method
+  summary: "\nReturns the value of the given field of the customer.\n"
+  remarks: "\nAvailable fields:<ul><li>id</li><li>name The name of the customer.</li><li>firstname</li><li>lastname</li><li>phone</li><li>cellphone</li><li>note</li><li>username: This is the usedname used for the external web.</li><li>password: This is the password used for the external web.</li><li>email: A list of all email addresses.</li><li>mainEmail: The main email address.</li><li>language: The name, languagecode or ID of the customers language.</li><li>deleted</li><li>company: The ID of the related company</li><li>display_company: The value showing the name of the related company.</li><li>dbi_agent_id</li><li>dbi_key</li><li>dbi_last_modified</li><li>dbi_last_syncronized These values are for database integration</li><li>priority: The id or name of the customers priority.</li><li>our_contact: The username, loginname or ID of the related contact (user).</li><li>x_*: The extrafield with the given database field name.[extra field] The extrafield with the given name (for example,  &quot;Country&quot;).</li></ul>\n"
+  syntax: 
+    content: String getValue(String colName)
+    parameters:
+    - id: colName
+      type: CRMScript.Global.String
+      description: "The customer field to get data from."
+    return:
+      type: CRMScript.Global.String
+      description: "The value of colName."
+  example: 
+  - "\n<pre><code>Customer c;\n\nc.load(3);\nBool b = c.checkTableRights(&quot;select&quot;);\nprint(b.toString());\n\nc.setValue(&quot;name&quot;, &quot;Test&quot;);\nprint(c.getValue(&quot;name&quot;));</code></pre>\n"
+- uid: CRMScript.Native.Customer.load(Integer)
+  commentId: M:CRMScript.Native.Customer.load(Integer)
+  id: 'load(Integer)'
+  so.intellisense: Customer.load
+  langs:
+  - crmscript
+  name: 'load(Integer)'
+  nameWithType: Customer.load(Integer)
+  fullName: CRMScript.Native.Customer.load(Integer)
+  type: Method
+  summary: "\nLoads the customer with the given ID.\n"
+  remarks: 
+  syntax: 
+    content: Bool load(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "The ID of the customer to load."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the customer exists; otherwise, false."
+  example: 
+  - "\n<pre><code>Customer c;\n\nprint(c.load(3));</code></pre>\n"
+- uid: CRMScript.Native.Customer.loadFromAgentAndKey(Integer,String)
+  commentId: M:CRMScript.Native.Customer.loadFromAgentAndKey(Integer,String)
+  id: 'loadFromAgentAndKey(Integer,String)'
+  so.intellisense: Customer.loadFromAgentAndKey
+  langs:
+  - crmscript
+  name: 'loadFromAgentAndKey(Integer,String)'
+  nameWithType: Customer.loadFromAgentAndKey(Integer,String)
+  fullName: CRMScript.Native.Customer.loadFromAgentAndKey(Integer,String)
+  type: Method
+  summary: "\nLoads a customer based on agent id and external key.\n"
+  remarks: "\nLoading might overwriting existing values.\n"
+  syntax: 
+    content: Bool loadFromAgentAndKey(Integer agent, String key)
+    parameters:
+    - id: agent
+      type: CRMScript.Global.Integer
+      description: "The ID of the agent that owns this customer."
+    - id: key
+      type: CRMScript.Global.String
+      description: "The external key of this customer."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if operation was successful; false if the customer does not exist."
+  example: 
+- uid: CRMScript.Native.Customer.login()
+  commentId: M:CRMScript.Native.Customer.login()
+  id: 'login()'
+  so.intellisense: Customer.login
+  langs:
+  - crmscript
+  name: 'login()'
+  nameWithType: Customer.login()
+  fullName: CRMScript.Native.Customer.login()
+  type: Method
+  summary: "\nCreates a valid login session for the current customer.\n"
+  remarks: "\nUse getValue(&quot;loginSessionKey&quot;) to get the actual session key created.<p></p>\nUse logout() to kill the session.\n"
+  syntax: 
+    content: Void login()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.Customer.logout()
+  commentId: M:CRMScript.Native.Customer.logout()
+  id: 'logout()'
+  so.intellisense: Customer.logout
+  langs:
+  - crmscript
+  name: 'logout()'
+  nameWithType: Customer.logout()
+  fullName: CRMScript.Native.Customer.logout()
+  type: Method
+  summary: "\nLogs out a customer.\n"
+  remarks: 
+  syntax: 
+    content: Void logout()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.Customer.makeSalutation()
+  commentId: M:CRMScript.Native.Customer.makeSalutation()
+  id: 'makeSalutation()'
+  so.intellisense: Customer.makeSalutation
+  langs:
+  - crmscript
+  name: 'makeSalutation()'
+  nameWithType: Customer.makeSalutation()
+  fullName: CRMScript.Native.Customer.makeSalutation()
+  type: Method
+  summary: "\nCreates a salutation greeting the customer.\n"
+  remarks: "\nCan be used in the beginning of a document or email.\n"
+  syntax: 
+    content: String makeSalutation()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A salutation string."
+  example: 
+  - "\n<pre><code>Customer c;\n\nc.load(3);\nBool b = c.checkTableRights(&quot;select&quot;);\nprint(b.toString());\n\nc.setValue(&quot;name&quot;, &quot;Test&quot;);\nc.setValue(&quot;salutation&quot;, &quot;Welcome to SuperOffice&quot;);\n\nc.makeSalutation();</code></pre>\n"
+- uid: CRMScript.Native.Customer.removeEmail(String)
+  commentId: M:CRMScript.Native.Customer.removeEmail(String)
+  id: 'removeEmail(String)'
+  so.intellisense: Customer.removeEmail
+  langs:
+  - crmscript
+  name: 'removeEmail(String)'
+  nameWithType: Customer.removeEmail(String)
+  fullName: CRMScript.Native.Customer.removeEmail(String)
+  type: Method
+  summary: "\nRemoves the email address from the customer.\n"
+  remarks: "\nFor the action to take place, you must save().\n"
+  syntax: 
+    content: Void removeEmail(String email)
+    parameters:
+    - id: email
+      type: CRMScript.Global.String
+      description: "The email address you want to remove from the customer."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.Customer.removeExternalEmails(Integer,Integer)
+  commentId: M:CRMScript.Native.Customer.removeExternalEmails(Integer,Integer)
+  id: 'removeExternalEmails(Integer,Integer)'
+  so.intellisense: Customer.removeExternalEmails
+  langs:
+  - crmscript
+  name: 'removeExternalEmails(Integer,Integer)'
+  nameWithType: Customer.removeExternalEmails(Integer,Integer)
+  fullName: CRMScript.Native.Customer.removeExternalEmails(Integer,Integer)
+  type: Method
+  summary: "\nRemoves all external emails from a given source (extTable).\n"
+  remarks: "\nUsed with set() to make sure emails deleted from the external source is deleted.\n"
+  syntax: 
+    content: Void removeExternalEmails(Integer p_0, Integer p_1)
+    parameters:
+    - id: p_0
+      type: CRMScript.Global.Integer
+      description: 
+    - id: p_1
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.Customer.save()
+  commentId: M:CRMScript.Native.Customer.save()
+  id: 'save()'
+  so.intellisense: Customer.save
+  langs:
+  - crmscript
+  name: 'save()'
+  nameWithType: Customer.save()
+  fullName: CRMScript.Native.Customer.save()
+  type: Method
+  summary: "\nSaves a customer. If ID is set, the customer will be updated. Otherwise, a new customer entry will be created.\n"
+  remarks: "\nUse save(String) to provide the source key of the StoreAndProcess consent.\n"
+  syntax: 
+    content: Integer save()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the saved customer."
+  example: 
+- uid: CRMScript.Native.Customer.save(String)
+  commentId: M:CRMScript.Native.Customer.save(String)
+  id: 'save(String)'
+  so.intellisense: Customer.save
+  langs:
+  - crmscript
+  name: 'save(String)'
+  nameWithType: Customer.save(String)
+  fullName: CRMScript.Native.Customer.save(String)
+  type: Method
+  summary: "\nSaves a customer with the source key of the StoreAndProcess consent. If ID is set, the customer will be updated. Otherwise, a new customer entry will be created.\n"
+  remarks: 
+  syntax: 
+    content: Integer save(String gdprSourceKey)
+    parameters:
+    - id: gdprSourceKey
+      type: CRMScript.Global.String
+      description: "The source key of the StoreAndProcess consent to set (can be found in the consent system)."
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the saved customer."
+  example:
+- uid: CRMScript.Native.Customer.setValue(String,String)
+  commentId: M:CRMScript.Native.Customer.setValue(String,String)
+  id: 'setValue(String,String)'
+  so.intellisense: Customer.setValue
+  langs:
+  - crmscript
+  name: 'setValue(String,String)'
+  nameWithType: Customer.setValue(String,String)
+  fullName: CRMScript.Native.Customer.setValue(String,String)
+  type: Method
+  summary: "\nSets the given field with the given value.\n"
+  remarks: "\nAvailable fields:<ul><li>name or display_name: The name of the customer.</li><li>firstname</li><li>lastname</li><li>title (From 7.x)</li><li>mrmrs (From 7.x)</li><li>year_of_birth (From 7.x)</li><li>month_of_birth (From 7.x)</li><li>day_of_birth (From 7.x)</li><li>birth_date (From 7.x)</li><li>person_number (From 7.x)</li><li>post1 (From 7.x)</li><li>post2 (From 7.x)</li><li>post3 (From 7.x)</li><li>salutation (From 7.x)</li><li>middleName (From 7.x)</li><li>phone</li><li>direct/formattedNumber: Same as phone(From 7.x)</li><li>phone/formattedNumber:  Same as phone (From 7.x)</li><li>cellphone</li><li>mobile/formattedNumber: Same as cellphone (From 7.x)</li><li>note</li><li>infoText: Same as note. (From 7.x)</li><li>username: This is the usedname used for the external web.</li><li>password: This is the password used for the external web.</li><li>email or display_email: Adds an email to the customer (does not erase existing ones).</li><li>company: The ID of the related company</li><li>display_company: The value showing the name of the related company.</li><li>deleted</li><li>dbi_agent_id</li><li>dbi_key</li><li>dbi_last_modified</li><li>dbi_last_syncronized: These values are for database integration</li><li>priority or priority_id: The id or name of the customers priority.</li><li>language: The name, languagecode or ID of the customers language.</li><li>ourContact: The username, loginname or ID of the related contact (user).</li><li>x_* The extrafield with the given database field name.</li><li>[extra field] The extrafield with the given name (for example, &quot;Country&quot;).</li></ul>\n"
+  syntax: 
+    content: Void setValue(String field, String value)
+    parameters:
+    - id: field
+      type: CRMScript.Global.String
+      description: "The field to set."
+    - id: value
+      type: CRMScript.Global.String
+      description: "The value to set."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>Customer c;\n\nc.load(3);\nBool b = c.checkTableRights(&quot;select&quot;);\nprint(b.toString());\n\nc.setValue(&quot;name&quot;, &quot;Test&quot;);\nprint(c.getValue(&quot;name&quot;));</code></pre>\n"
+- uid: CRMScript.Native.Customer.toParser(Parser)
+  commentId: M:CRMScript.Native.Customer.toParser(Parser)
+  id: 'toParser(Parser)'
+  so.intellisense: Customer.toParser
+  langs:
+  - crmscript
+  name: 'toParser(Parser)'
+  nameWithType: Customer.toParser(Parser)
+  fullName: CRMScript.Native.Customer.toParser(Parser)
+  type: Method
+  summary: "\nFills a Parser object with a Customer's values, including extra fields. The fields are prefixed with &quot;customer.&quot;.\n"
+  remarks: "\nConsecutive calls will overwrite (rather than append) the values in the Parser instance.\n"
+  syntax: 
+    content: Void toParser(Parser parser)
+    parameters:
+    - id: parser
+      type: CRMScript.Native.Parser
+      description: "The parser to set."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.Native.Customer
+  commentId: T:CRMScript.Native.Customer
+  isExternal: true
+  name: Customer
+  nameWithType: Customer
+  fullName: CRMScript.Native.Customer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Native.Parser
+  commentId: T:CRMScript.Native.Parser
+  isExternal: true
+  name: Parser
+  nameWithType: Parser
+  fullName: CRMScript.Native.Parser

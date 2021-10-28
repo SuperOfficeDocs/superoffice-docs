@@ -1,0 +1,477 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSVersionInfo
+  commentId: T:CRMScript.NetServer.NSVersionInfo
+  id: NSVersionInfo
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSVersionInfo.#ctor
+  - CRMScript.NetServer.NSVersionInfo.GetCheckedInByAssociateId()
+  - CRMScript.NetServer.NSVersionInfo.GetCheckedInByName()
+  - CRMScript.NetServer.NSVersionInfo.GetCheckedInDate()
+  - CRMScript.NetServer.NSVersionInfo.GetDescription()
+  - CRMScript.NetServer.NSVersionInfo.GetDisplayText()
+  - CRMScript.NetServer.NSVersionInfo.GetDocumentId()
+  - CRMScript.NetServer.NSVersionInfo.GetExternalReference()
+  - CRMScript.NetServer.NSVersionInfo.GetExtraFields()
+  - CRMScript.NetServer.NSVersionInfo.GetVersionId()
+  - CRMScript.NetServer.NSVersionInfo.SetCheckedInByAssociateId(Integer)
+  - CRMScript.NetServer.NSVersionInfo.SetCheckedInByName(String)
+  - CRMScript.NetServer.NSVersionInfo.SetCheckedInDate(DateTime)
+  - CRMScript.NetServer.NSVersionInfo.SetDescription(String)
+  - CRMScript.NetServer.NSVersionInfo.SetDisplayText(String)
+  - CRMScript.NetServer.NSVersionInfo.SetDocumentId(Integer)
+  - CRMScript.NetServer.NSVersionInfo.SetExternalReference(String)
+  - CRMScript.NetServer.NSVersionInfo.SetExtraFields(String[])
+  - CRMScript.NetServer.NSVersionInfo.SetVersionId(String)
+  name: NSVersionInfo
+  nameWithType: NSVersionInfo
+  fullName: CRMScript.NetServer.NSVersionInfo
+  type: Class
+  summary: "\nAn instance of this class represents information about one version of one document.\n"
+  example: 
+- uid: CRMScript.NetServer.NSVersionInfo.#ctor
+  commentId: M:CRMScript.NetServer.NSVersionInfo.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSVersionInfo
+  langs:
+  - crmscript
+  name: NSVersionInfo()
+  nameWithType: NSVersionInfo.#ctor
+  fullName: CRMScript.NetServer.NSVersionInfo.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSVersionInfo class.\n"
+  remarks: 
+  syntax: 
+    content: NSVersionInfo
+  example: 
+- uid: CRMScript.NetServer.NSVersionInfo.GetCheckedInByAssociateId()
+  commentId: M:CRMScript.NetServer.NSVersionInfo.GetCheckedInByAssociateId()
+  id: 'GetCheckedInByAssociateId()'
+  so.intellisense: NSVersionInfo.GetCheckedInByAssociateId
+  langs:
+  - crmscript
+  name: 'GetCheckedInByAssociateId()'
+  nameWithType: NSVersionInfo.GetCheckedInByAssociateId()
+  fullName: CRMScript.NetServer.NSVersionInfo.GetCheckedInByAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCheckedInByAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Associate ID of the user who performed the check-in."
+  example: 
+  - "\n<pre><code>NSVersionInfo thing;\nInteger checkedInByAssociateId = thing.GetCheckedInByAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSVersionInfo.GetCheckedInByName()
+  commentId: M:CRMScript.NetServer.NSVersionInfo.GetCheckedInByName()
+  id: 'GetCheckedInByName()'
+  so.intellisense: NSVersionInfo.GetCheckedInByName
+  langs:
+  - crmscript
+  name: 'GetCheckedInByName()'
+  nameWithType: NSVersionInfo.GetCheckedInByName()
+  fullName: CRMScript.NetServer.NSVersionInfo.GetCheckedInByName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCheckedInByName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name (nicely formatted) of the user/person who performed the check-in."
+  example: 
+  - "\n<pre><code>NSVersionInfo thing;\nString checkedInByName = thing.GetCheckedInByName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSVersionInfo.GetCheckedInDate()
+  commentId: M:CRMScript.NetServer.NSVersionInfo.GetCheckedInDate()
+  id: 'GetCheckedInDate()'
+  so.intellisense: NSVersionInfo.GetCheckedInDate
+  langs:
+  - crmscript
+  name: 'GetCheckedInDate()'
+  nameWithType: NSVersionInfo.GetCheckedInDate()
+  fullName: CRMScript.NetServer.NSVersionInfo.GetCheckedInDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetCheckedInDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The date that this version was checked in and became official."
+  example: 
+  - "\n<pre><code>NSVersionInfo thing;\nDateTime checkedInDate = thing.GetCheckedInDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSVersionInfo.GetDescription()
+  commentId: M:CRMScript.NetServer.NSVersionInfo.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSVersionInfo.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSVersionInfo.GetDescription()
+  fullName: CRMScript.NetServer.NSVersionInfo.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Arbitrary description string."
+  example: 
+  - "\n<pre><code>NSVersionInfo thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSVersionInfo.GetDisplayText()
+  commentId: M:CRMScript.NetServer.NSVersionInfo.GetDisplayText()
+  id: 'GetDisplayText()'
+  so.intellisense: NSVersionInfo.GetDisplayText
+  langs:
+  - crmscript
+  name: 'GetDisplayText()'
+  nameWithType: NSVersionInfo.GetDisplayText()
+  fullName: CRMScript.NetServer.NSVersionInfo.GetDisplayText()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDisplayText()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A short description, suitable for display in a popup menu or dropdown list of versions."
+  example: 
+  - "\n<pre><code>NSVersionInfo thing;\nString displayText = thing.GetDisplayText();</code></pre>\n"
+- uid: CRMScript.NetServer.NSVersionInfo.GetDocumentId()
+  commentId: M:CRMScript.NetServer.NSVersionInfo.GetDocumentId()
+  id: 'GetDocumentId()'
+  so.intellisense: NSVersionInfo.GetDocumentId
+  langs:
+  - crmscript
+  name: 'GetDocumentId()'
+  nameWithType: NSVersionInfo.GetDocumentId()
+  fullName: CRMScript.NetServer.NSVersionInfo.GetDocumentId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDocumentId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The document ID that uniquely identifies the document within the SuperOffice database."
+  example: 
+  - "\n<pre><code>NSVersionInfo thing;\nInteger documentId = thing.GetDocumentId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSVersionInfo.GetExternalReference()
+  commentId: M:CRMScript.NetServer.NSVersionInfo.GetExternalReference()
+  id: 'GetExternalReference()'
+  so.intellisense: NSVersionInfo.GetExternalReference
+  langs:
+  - crmscript
+  name: 'GetExternalReference()'
+  nameWithType: NSVersionInfo.GetExternalReference()
+  fullName: CRMScript.NetServer.NSVersionInfo.GetExternalReference()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExternalReference()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The document plugin's key that uniquely identifies a document; stored in the externalReference field of the document table."
+  example: 
+  - "\n<pre><code>NSVersionInfo thing;\nString externalReference = thing.GetExternalReference();</code></pre>\n"
+- uid: CRMScript.NetServer.NSVersionInfo.GetExtraFields()
+  commentId: M:CRMScript.NetServer.NSVersionInfo.GetExtraFields()
+  id: 'GetExtraFields()'
+  so.intellisense: NSVersionInfo.GetExtraFields
+  langs:
+  - crmscript
+  name: 'GetExtraFields()'
+  nameWithType: NSVersionInfo.GetExtraFields()
+  fullName: CRMScript.NetServer.NSVersionInfo.GetExtraFields()
+  type: Method
+  summary: # TODO
+  remarks: "\nThis set of metadata is related directly to the version that  this VersioNinfo structure describes; metadata related to the document as a whole is retrieved using the SuperOffice.CRM.Documents.IDocumentPlugin2.LoadMetaData method.  The string should be formatted like a query string, i.e., name1=value1&amp;name2=value2...* this format, instead of a string/string dictionary avoids serialization problems, even though it is somewhat less efficient.\n"
+  syntax: 
+    content: String[] GetExtraFields()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+      description: "Private metadata, owned by the document plugin."
+  example: 
+  - "\n<pre><code>NSVersionInfo thing;\nString[] extraFields = thing.GetExtraFields();</code></pre>\n"
+- uid: CRMScript.NetServer.NSVersionInfo.GetVersionId()
+  commentId: M:CRMScript.NetServer.NSVersionInfo.GetVersionId()
+  id: 'GetVersionId()'
+  so.intellisense: NSVersionInfo.GetVersionId
+  langs:
+  - crmscript
+  name: 'GetVersionId()'
+  nameWithType: NSVersionInfo.GetVersionId()
+  fullName: CRMScript.NetServer.NSVersionInfo.GetVersionId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetVersionId()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The document plugin's version id that uniquely identifies one version of a document. If versioning is not supported, this will be blank. When versioning is supported, blank values imply the latest checked-in version."
+  example: 
+  - "\n<pre><code>NSVersionInfo thing;\nString versionId = thing.GetVersionId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSVersionInfo.SetCheckedInByAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSVersionInfo.SetCheckedInByAssociateId(Integer)
+  id: 'SetCheckedInByAssociateId(Integer)'
+  so.intellisense: NSVersionInfo.SetCheckedInByAssociateId
+  langs:
+  - crmscript
+  name: 'SetCheckedInByAssociateId(Integer)'
+  nameWithType: NSVersionInfo.SetCheckedInByAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSVersionInfo.SetCheckedInByAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCheckedInByAssociateId(Integer checkedInByAssociateId)
+    parameters:
+    - id: checkedInByAssociateId
+      type: CRMScript.Global.Integer
+      description: "Associate ID of the user who performed the check-in."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSVersionInfo thing;\nInteger checkedInByAssociateId;\nthing.SetCheckedInByAssociateId(checkedInByAssociateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSVersionInfo.SetCheckedInByName(String)
+  commentId: M:CRMScript.NetServer.NSVersionInfo.SetCheckedInByName(String)
+  id: 'SetCheckedInByName(String)'
+  so.intellisense: NSVersionInfo.SetCheckedInByName
+  langs:
+  - crmscript
+  name: 'SetCheckedInByName(String)'
+  nameWithType: NSVersionInfo.SetCheckedInByName(String)
+  fullName: CRMScript.NetServer.NSVersionInfo.SetCheckedInByName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCheckedInByName(String checkedInByName)
+    parameters:
+    - id: checkedInByName
+      type: CRMScript.Global.String
+      description: "Name (nicely formatted) of the user/person who performed the check-in."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSVersionInfo thing;\nString checkedInByName;\nthing.SetCheckedInByName(checkedInByName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSVersionInfo.SetCheckedInDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSVersionInfo.SetCheckedInDate(DateTime)
+  id: 'SetCheckedInDate(DateTime)'
+  so.intellisense: NSVersionInfo.SetCheckedInDate
+  langs:
+  - crmscript
+  name: 'SetCheckedInDate(DateTime)'
+  nameWithType: NSVersionInfo.SetCheckedInDate(DateTime)
+  fullName: CRMScript.NetServer.NSVersionInfo.SetCheckedInDate(DateTime)
+  type: Method
+  summary: "\nSets the date that this version was checked inThe date that this version was checked in and became official\n"
+  remarks: 
+  syntax: 
+    content: Void SetCheckedInDate(DateTime checkedInDate)
+    parameters:
+    - id: checkedInDate
+      type: CRMScript.Global.DateTime
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSVersionInfo thing;\nDateTime checkedInDate;\nthing.SetCheckedInDate(checkedInDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSVersionInfo.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSVersionInfo.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSVersionInfo.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSVersionInfo.SetDescription(String)
+  fullName: CRMScript.NetServer.NSVersionInfo.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "Arbitrary description string."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSVersionInfo thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSVersionInfo.SetDisplayText(String)
+  commentId: M:CRMScript.NetServer.NSVersionInfo.SetDisplayText(String)
+  id: 'SetDisplayText(String)'
+  so.intellisense: NSVersionInfo.SetDisplayText
+  langs:
+  - crmscript
+  name: 'SetDisplayText(String)'
+  nameWithType: NSVersionInfo.SetDisplayText(String)
+  fullName: CRMScript.NetServer.NSVersionInfo.SetDisplayText(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDisplayText(String displayText)
+    parameters:
+    - id: displayText
+      type: CRMScript.Global.String
+      description: "A short description, suitable for display in a popup menu or dropdown list of versions."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSVersionInfo thing;\nString displayText;\nthing.SetDisplayText(displayText);</code></pre>\n"
+- uid: CRMScript.NetServer.NSVersionInfo.SetDocumentId(Integer)
+  commentId: M:CRMScript.NetServer.NSVersionInfo.SetDocumentId(Integer)
+  id: 'SetDocumentId(Integer)'
+  so.intellisense: NSVersionInfo.SetDocumentId
+  langs:
+  - crmscript
+  name: 'SetDocumentId(Integer)'
+  nameWithType: NSVersionInfo.SetDocumentId(Integer)
+  fullName: CRMScript.NetServer.NSVersionInfo.SetDocumentId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDocumentId(Integer documentId)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: "The document ID that uniquely identifies the document within the SuperOffice database."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSVersionInfo thing;\nInteger documentId;\nthing.SetDocumentId(documentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSVersionInfo.SetExternalReference(String)
+  commentId: M:CRMScript.NetServer.NSVersionInfo.SetExternalReference(String)
+  id: 'SetExternalReference(String)'
+  so.intellisense: NSVersionInfo.SetExternalReference
+  langs:
+  - crmscript
+  name: 'SetExternalReference(String)'
+  nameWithType: NSVersionInfo.SetExternalReference(String)
+  fullName: CRMScript.NetServer.NSVersionInfo.SetExternalReference(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExternalReference(String externalReference)
+    parameters:
+    - id: externalReference
+      type: CRMScript.Global.String
+      description: "The document plugin's key that uniquely identifies a document; stored in the externalReference field of the document table."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSVersionInfo thing;\nString externalReference;\nthing.SetExternalReference(externalReference);</code></pre>\n"
+- uid: CRMScript.NetServer.NSVersionInfo.SetExtraFields(String[])
+  commentId: M:CRMScript.NetServer.NSVersionInfo.SetExtraFields(String[])
+  id: 'SetExtraFields(String[])'
+  so.intellisense: NSVersionInfo.SetExtraFields
+  langs:
+  - crmscript
+  name: 'SetExtraFields(String[])'
+  nameWithType: NSVersionInfo.SetExtraFields(String[])
+  fullName: CRMScript.NetServer.NSVersionInfo.SetExtraFields(String[])
+  type: Method
+  summary: # TODO
+  remarks: "\nThis set of metadata is related directly to the version that this VersioNinfo structure describes; metadata related to the document as a whole is retrieved using the SuperOffice.CRM.Documents.IDocumentPlugin2.LoadMetaData method.  The string should be formatted like a query string, i.e., name1=value1&amp;name2=value2...* this format, instead of a string/string dictionary avoids serialization problems, even though it is somewhat less efficient\n"
+  syntax: 
+    content: Void SetExtraFields(String[] extraFields)
+    parameters:
+    - id: extraFields
+      type: CRMScript.Global.String[]
+      description: "Private metadata, owned by the document plugin."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSVersionInfo thing;\nString[] extraFields;\nthing.SetExtraFields(extraFields);</code></pre>\n"
+- uid: CRMScript.NetServer.NSVersionInfo.SetVersionId(String)
+  commentId: M:CRMScript.NetServer.NSVersionInfo.SetVersionId(String)
+  id: 'SetVersionId(String)'
+  so.intellisense: NSVersionInfo.SetVersionId
+  langs:
+  - crmscript
+  name: 'SetVersionId(String)'
+  nameWithType: NSVersionInfo.SetVersionId(String)
+  fullName: CRMScript.NetServer.NSVersionInfo.SetVersionId(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nIf versioning is not supported, this will be blank. When versioning is supported, blank values imply the latest checked-in version.\n"
+  syntax: 
+    content: Void SetVersionId(String versionId)
+    parameters:
+    - id: versionId
+      type: CRMScript.Global.String
+      description: "The document plugin's version id that uniquely identifies one version of a document."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSVersionInfo thing;\nString versionId;\nthing.SetVersionId(versionId);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSVersionInfo
+  commentId: T:CRMScript.NetServer.NSVersionInfo
+  isExternal: true
+  name: NSVersionInfo
+  nameWithType: NSVersionInfo
+  fullName: CRMScript.NetServer.NSVersionInfo
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    isExternal: true
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

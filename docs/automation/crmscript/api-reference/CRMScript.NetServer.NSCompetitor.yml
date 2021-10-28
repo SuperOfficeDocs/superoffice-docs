@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSCompetitor
+  commentId: T:CRMScript.NetServer.NSCompetitor
+  id: NSCompetitor
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSCompetitor.#ctor
+  - CRMScript.NetServer.NSCompetitor.GetId()
+  - CRMScript.NetServer.NSCompetitor.GetTooltip()
+  - CRMScript.NetServer.NSCompetitor.GetValue()
+  - CRMScript.NetServer.NSCompetitor.SetId(Integer)
+  - CRMScript.NetServer.NSCompetitor.SetTooltip(String)
+  - CRMScript.NetServer.NSCompetitor.SetValue(String)
+  name: NSCompetitor
+  nameWithType: NSCompetitor
+  fullName: CRMScript.NetServer.NSCompetitor
+  type: Class
+  summary: "\nCarrier object for Competitor.\n"
+  example: 
+- uid: CRMScript.NetServer.NSCompetitor.#ctor
+  commentId: M:CRMScript.NetServer.NSCompetitor.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSCompetitor
+  langs:
+  - crmscript
+  name: NSCompetitor()
+  nameWithType: NSCompetitor.#ctor
+  fullName: CRMScript.NetServer.NSCompetitor.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSCompetitor class.\n"
+  remarks: 
+  syntax: 
+    content: NSCompetitor
+  example: 
+- uid: CRMScript.NetServer.NSCompetitor.GetId()
+  commentId: M:CRMScript.NetServer.NSCompetitor.GetId()
+  id: 'GetId()'
+  so.intellisense: NSCompetitor.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSCompetitor.GetId()
+  fullName: CRMScript.NetServer.NSCompetitor.GetId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Gets the primary key (ID) for the NSCompetitor."
+  example: 
+  - "\n<pre><code>NSCompetitor thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCompetitor.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSCompetitor.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSCompetitor.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSCompetitor.GetTooltip()
+  fullName: CRMScript.NetServer.NSCompetitor.GetTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Gets the tooltip description for the NSCompetitor list item."
+  example: 
+  - "\n<pre><code>NSCompetitor thing;\nString descr = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCompetitor.GetValue()
+  commentId: M:CRMScript.NetServer.NSCompetitor.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSCompetitor.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSCompetitor.GetValue()
+  fullName: CRMScript.NetServer.NSCompetitor.GetValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Gets the name of the NSCompetitor."
+  example: 
+  - "\n<pre><code>NSCompetitor thing;\nString name = thing.GetValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCompetitor.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSCompetitor.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSCompetitor.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSCompetitor.SetId(Integer)
+  fullName: CRMScript.NetServer.NSCompetitor.SetId(Integer)
+  type: Method
+  summary: "\nSets the primary key (ID) for the NSCompetitor.\n"
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCompetitor thing;\nthing.SetId(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCompetitor.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSCompetitor.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSCompetitor.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSCompetitor.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSCompetitor.SetTooltip(String)
+  type: Method
+  summary: "\nSets the tooltip description for the NSCompetitor list item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCompetitor thing;\nString descr = &quot;something new&quot;;\nthing.SetTooltip(descr);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCompetitor.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSCompetitor.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSCompetitor.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSCompetitor.SetValue(String)
+  fullName: CRMScript.NetServer.NSCompetitor.SetValue(String)
+  type: Method
+  summary: "\nSets the name of the NSCompetitor item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCompetitor thing;\nthing.SetValue(&quot;frotz&quot;);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSCompetitor
+  commentId: T:CRMScript.NetServer.NSCompetitor
+  isExternal: true
+  name: NSCompetitor
+  nameWithType: NSCompetitor
+  fullName: CRMScript.NetServer.NSCompetitor
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.TicketMessageCategory
+  # Same as SuperOffice.Data.TicketMessageCategory
+  commentId: T:CRMScript.NetServer.TicketMessageCategory
+  id: TicketMessageCategory
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.TicketMessageCategory.Message
+  - CRMScript.NetServer.TicketMessageCategory.Bounce
+  - CRMScript.NetServer.TicketMessageCategory.OutboxFailed
+  name: TicketMessageCategory
+  nameWithType: TicketMessageCategory
+  fullName: CRMScript.NetServer.TicketMessageCategory
+  type: Enum
+  summary: "\nClassification of ticket messages.\n"
+- uid: CRMScript.NetServer.TicketMessageCategory.Message
+  commentId: F:CRMScript.NetServer.TicketMessageCategory.Message
+  id: TicketMessageCategory.Message
+  langs:
+  - crmscript
+  name: TicketMessageCategory.Message
+  nameWithType: TicketMessageCategory.Message
+  fullName: CRMScript.NetServer.TicketMessageCategory.Message
+  type: Field
+  summary: "\n0: A normal message.\n"
+  syntax: 
+    content: Message = 0
+    type: CRMScript.NetServer.TicketMessageCategory
+- uid: CRMScript.NetServer.TicketMessageCategory.Bounce
+  commentId: F:CRMScript.NetServer.TicketMessageCategory.Bounce
+  id: TicketMessageCategory.Bounce
+  langs:
+  - crmscript
+  name: TicketMessageCategory.Bounce
+  nameWithType: TicketMessageCategory.Bounce
+  fullName: CRMScript.NetServer.TicketMessageCategory.Bounce
+  type: Field
+  summary: "\n1: Email bounce\n"
+  syntax: 
+    content: Bounce = 1
+    type: CRMScript.NetServer.TicketMessageCategory
+- uid: CRMScript.NetServer.TicketMessageCategory.OutboxFailed
+  commentId: F:CRMScript.NetServer.TicketMessageCategory.OutboxFailed
+  id: TicketMessageCategory.OutboxFailed
+  langs:
+  - crmscript
+  name: TicketMessageCategory.OutboxFailed
+  nameWithType: TicketMessageCategory.OutboxFailed
+  fullName: CRMScript.NetServer.TicketMessageCategory.OutboxFailed
+  type: Field
+  summary: "\n2: This message is the error message returned by the sending system (for example a mail server).\n"
+  syntax: 
+    content: OutboxFailed = 2
+    type: CRMScript.NetServer.TicketMessageCategory
+references:
+- uid: CRMScript.NetServer.TicketMessageCategory
+  commentId: T:CRMScript.NetServer.TicketMessageCategory
+  isExternal: true
+  name: TicketMessageCategory
+  nameWithType: TicketMessageCategory
+  fullName: CRMScript.NetServer.TicketMessageCategory

@@ -1,0 +1,747 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSSelectableMDOListItem
+  commentId: T:CRMScript.NetServer.NSSelectableMDOListItem
+  id: NSSelectableMDOListItem
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSSelectableMDOListItem.#ctor
+  - CRMScript.NetServer.NSSelectableMDOListItem.GetChildItems()
+  - CRMScript.NetServer.NSSelectableMDOListItem.GetColorBlock()
+  - CRMScript.NetServer.NSSelectableMDOListItem.GetDeleted()
+  - CRMScript.NetServer.NSSelectableMDOListItem.GetExtraInfo()
+  - CRMScript.NetServer.NSSelectableMDOListItem.GetFullName()
+  - CRMScript.NetServer.NSSelectableMDOListItem.GetHidden()
+  - CRMScript.NetServer.NSSelectableMDOListItem.GetIconHint()
+  - CRMScript.NetServer.NSSelectableMDOListItem.GetId()
+  - CRMScript.NetServer.NSSelectableMDOListItem.GetLastChanged()
+  - CRMScript.NetServer.NSSelectableMDOListItem.GetName()
+  - CRMScript.NetServer.NSSelectableMDOListItem.GetRank()
+  - CRMScript.NetServer.NSSelectableMDOListItem.GetSelected()
+  - CRMScript.NetServer.NSSelectableMDOListItem.GetStyleHint()
+  - CRMScript.NetServer.NSSelectableMDOListItem.GetToolTip()
+  - CRMScript.NetServer.NSSelectableMDOListItem.GetType()
+  - CRMScript.NetServer.NSSelectableMDOListItem.SetChildItems(NSSelectableMDOListItem[])
+  - CRMScript.NetServer.NSSelectableMDOListItem.SetColorBlock(Integer)
+  - CRMScript.NetServer.NSSelectableMDOListItem.SetDeleted(Bool)
+  - CRMScript.NetServer.NSSelectableMDOListItem.SetExtraInfo(String)
+  - CRMScript.NetServer.NSSelectableMDOListItem.SetFullName(String)
+  - CRMScript.NetServer.NSSelectableMDOListItem.SetHidden(Bool)
+  - CRMScript.NetServer.NSSelectableMDOListItem.SetIconHint(String)
+  - CRMScript.NetServer.NSSelectableMDOListItem.SetId(Integer)
+  - CRMScript.NetServer.NSSelectableMDOListItem.SetLastChanged(DateTime)
+  - CRMScript.NetServer.NSSelectableMDOListItem.SetName(String)
+  - CRMScript.NetServer.NSSelectableMDOListItem.SetRank(Integer)
+  - CRMScript.NetServer.NSSelectableMDOListItem.SetSelected(Bool)
+  - CRMScript.NetServer.NSSelectableMDOListItem.SetStyleHint(String)
+  - CRMScript.NetServer.NSSelectableMDOListItem.SetToolTip(String)
+  - CRMScript.NetServer.NSSelectableMDOListItem.SetType(String)
+  name: NSSelectableMDOListItem
+  nameWithType: NSSelectableMDOListItem
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.#ctor
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSSelectableMDOListItem
+  langs:
+  - crmscript
+  name: NSSelectableMDOListItem()
+  nameWithType: NSSelectableMDOListItem.#ctor
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSSelectableMDOListItem class.\n"
+  remarks: 
+  syntax: 
+    content: NSSelectableMDOListItem
+  example: 
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.GetChildItems()
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetChildItems()
+  id: 'GetChildItems()'
+  so.intellisense: NSSelectableMDOListItem.GetChildItems
+  langs:
+  - crmscript
+  name: 'GetChildItems()'
+  nameWithType: NSSelectableMDOListItem.GetChildItems()
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.GetChildItems()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSSelectableMDOListItem[] GetChildItems()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSelectableMDOListItem[]
+      description: "The child items of the NSSelectableMDOListItem."
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nNSSelectableMDOListItem[] childItems = thing.GetChildItems();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.GetColorBlock()
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetColorBlock()
+  id: 'GetColorBlock()'
+  so.intellisense: NSSelectableMDOListItem.GetColorBlock
+  langs:
+  - crmscript
+  name: 'GetColorBlock()'
+  nameWithType: NSSelectableMDOListItem.GetColorBlock()
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.GetColorBlock()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetColorBlock()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The color indicator of the ListItem color block."
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nInteger colorBlock = thing.GetColorBlock();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.GetDeleted()
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetDeleted()
+  id: 'GetDeleted()'
+  so.intellisense: NSSelectableMDOListItem.GetDeleted
+  langs:
+  - crmscript
+  name: 'GetDeleted()'
+  nameWithType: NSSelectableMDOListItem.GetDeleted()
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.GetDeleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetDeleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "The deleted status of the ListItem."
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nBool deleted = thing.GetDeleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.GetExtraInfo()
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetExtraInfo()
+  id: 'GetExtraInfo()'
+  so.intellisense: NSSelectableMDOListItem.GetExtraInfo
+  langs:
+  - crmscript
+  name: 'GetExtraInfo()'
+  nameWithType: NSSelectableMDOListItem.GetExtraInfo()
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.GetExtraInfo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExtraInfo()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field."
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nString extraInfo = thing.GetExtraInfo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.GetFullName()
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetFullName()
+  id: 'GetFullName()'
+  so.intellisense: NSSelectableMDOListItem.GetFullName
+  langs:
+  - crmscript
+  name: 'GetFullName()'
+  nameWithType: NSSelectableMDOListItem.GetFullName()
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.GetFullName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFullName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the ListItem in its context."
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nString fullName = thing.GetFullName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.GetHidden()
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetHidden()
+  id: 'GetHidden()'
+  so.intellisense: NSSelectableMDOListItem.GetHidden
+  langs:
+  - crmscript
+  name: 'GetHidden()'
+  nameWithType: NSSelectableMDOListItem.GetHidden()
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.GetHidden()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetHidden()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the ListItem is hidden."
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nBool hidden = thing.GetHidden();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.GetIconHint()
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetIconHint()
+  id: 'GetIconHint()'
+  so.intellisense: NSSelectableMDOListItem.GetIconHint
+  langs:
+  - crmscript
+  name: 'GetIconHint()'
+  nameWithType: NSSelectableMDOListItem.GetIconHint()
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.GetIconHint()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetIconHint()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The Icon hint of the ListItem. Custom field."
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nString iconHint = thing.GetIconHint();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.GetId()
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetId()
+  id: 'GetId()'
+  so.intellisense: NSSelectableMDOListItem.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSSelectableMDOListItem.GetId()
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.GetId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the ListItem."
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.GetLastChanged()
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetLastChanged()
+  id: 'GetLastChanged()'
+  so.intellisense: NSSelectableMDOListItem.GetLastChanged
+  langs:
+  - crmscript
+  name: 'GetLastChanged()'
+  nameWithType: NSSelectableMDOListItem.GetLastChanged()
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.GetLastChanged()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetLastChanged()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Time of last change."
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nDateTime lastChanged = thing.GetLastChanged();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.GetName()
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetName()
+  id: 'GetName()'
+  so.intellisense: NSSelectableMDOListItem.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSSelectableMDOListItem.GetName()
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the ListItem."
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.GetRank()
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSSelectableMDOListItem.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSSelectableMDOListItem.GetRank()
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The rank of the ListItem."
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.GetSelected()
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetSelected()
+  id: 'GetSelected()'
+  so.intellisense: NSSelectableMDOListItem.GetSelected
+  langs:
+  - crmscript
+  name: 'GetSelected()'
+  nameWithType: NSSelectableMDOListItem.GetSelected()
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.GetSelected()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetSelected()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the ListItem is selected."
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nBool selected = thing.GetSelected();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.GetStyleHint()
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetStyleHint()
+  id: 'GetStyleHint()'
+  so.intellisense: NSSelectableMDOListItem.GetStyleHint
+  langs:
+  - crmscript
+  name: 'GetStyleHint()'
+  nameWithType: NSSelectableMDOListItem.GetStyleHint()
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.GetStyleHint()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetStyleHint()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Style hint indicating, information such as background color etc. Custom field."
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nString styleHint = thing.GetStyleHint();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.GetToolTip()
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetToolTip()
+  id: 'GetToolTip()'
+  so.intellisense: NSSelectableMDOListItem.GetToolTip
+  langs:
+  - crmscript
+  name: 'GetToolTip()'
+  nameWithType: NSSelectableMDOListItem.GetToolTip()
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.GetToolTip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetToolTip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The tooltip of the ListItem."
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nString toolTip = thing.GetToolTip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.GetType()
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.GetType()
+  id: 'GetType()'
+  so.intellisense: NSSelectableMDOListItem.GetType
+  langs:
+  - crmscript
+  name: 'GetType()'
+  nameWithType: NSSelectableMDOListItem.GetType()
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.GetType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetType()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The type of the ListItem. Custom field."
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nString type = thing.GetType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.SetChildItems(NSSelectableMDOListItem[])
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetChildItems(NSSelectableMDOListItem[])
+  id: 'SetChildItems(NSSelectableMDOListItem[])'
+  so.intellisense: NSSelectableMDOListItem.SetChildItems
+  langs:
+  - crmscript
+  name: 'SetChildItems(NSSelectableMDOListItem[])'
+  nameWithType: NSSelectableMDOListItem.SetChildItems(NSSelectableMDOListItem[])
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.SetChildItems(NSSelectableMDOListItem[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChildItems(NSSelectableMDOListItem[] childItems)
+    parameters:
+    - id: childItems
+      type: CRMScript.NetServer.NSSelectableMDOListItem[]
+      description: "The child items of the NSSelectableMDOListItem."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nNSSelectableMDOListItem[] childItems;\nthing.SetChildItems(childItems);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.SetColorBlock(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetColorBlock(Integer)
+  id: 'SetColorBlock(Integer)'
+  so.intellisense: NSSelectableMDOListItem.SetColorBlock
+  langs:
+  - crmscript
+  name: 'SetColorBlock(Integer)'
+  nameWithType: NSSelectableMDOListItem.SetColorBlock(Integer)
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.SetColorBlock(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetColorBlock(Integer colorBlock)
+    parameters:
+    - id: colorBlock
+      type: CRMScript.Global.Integer
+      description: "The color indicator of the ListItem color block."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nInteger colorBlock;\nthing.SetColorBlock(colorBlock);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.SetDeleted(Bool)
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetDeleted(Bool)
+  id: 'SetDeleted(Bool)'
+  so.intellisense: NSSelectableMDOListItem.SetDeleted
+  langs:
+  - crmscript
+  name: 'SetDeleted(Bool)'
+  nameWithType: NSSelectableMDOListItem.SetDeleted(Bool)
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.SetDeleted(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeleted(Bool deleted)
+    parameters:
+    - id: deleted
+      type: CRMScript.Global.Bool
+      description: "The deleted status of the ListItem."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nBool deleted;\nthing.SetDeleted(deleted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.SetExtraInfo(String)
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetExtraInfo(String)
+  id: 'SetExtraInfo(String)'
+  so.intellisense: NSSelectableMDOListItem.SetExtraInfo
+  langs:
+  - crmscript
+  name: 'SetExtraInfo(String)'
+  nameWithType: NSSelectableMDOListItem.SetExtraInfo(String)
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.SetExtraInfo(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraInfo(String extraInfo)
+    parameters:
+    - id: extraInfo
+      type: CRMScript.Global.String
+      description: "Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nString extraInfo;\nthing.SetExtraInfo(extraInfo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.SetFullName(String)
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetFullName(String)
+  id: 'SetFullName(String)'
+  so.intellisense: NSSelectableMDOListItem.SetFullName
+  langs:
+  - crmscript
+  name: 'SetFullName(String)'
+  nameWithType: NSSelectableMDOListItem.SetFullName(String)
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.SetFullName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFullName(String fullName)
+    parameters:
+    - id: fullName
+      type: CRMScript.Global.String
+      description: "The name of the ListItem in its context."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nString fullName;\nthing.SetFullName(fullName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.SetHidden(Bool)
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetHidden(Bool)
+  id: 'SetHidden(Bool)'
+  so.intellisense: NSSelectableMDOListItem.SetHidden
+  langs:
+  - crmscript
+  name: 'SetHidden(Bool)'
+  nameWithType: NSSelectableMDOListItem.SetHidden(Bool)
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.SetHidden(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetHidden(Bool hidden)
+    parameters:
+    - id: hidden
+      type: CRMScript.Global.Bool
+      description: "True if the ListItem is hidden."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nBool hidden;\nthing.SetHidden(hidden);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.SetIconHint(String)
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetIconHint(String)
+  id: 'SetIconHint(String)'
+  so.intellisense: NSSelectableMDOListItem.SetIconHint
+  langs:
+  - crmscript
+  name: 'SetIconHint(String)'
+  nameWithType: NSSelectableMDOListItem.SetIconHint(String)
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.SetIconHint(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIconHint(String iconHint)
+    parameters:
+    - id: iconHint
+      type: CRMScript.Global.String
+      description: "The Icon hint of the ListItem. Custom field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nString iconHint;\nthing.SetIconHint(iconHint);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSSelectableMDOListItem.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSSelectableMDOListItem.SetId(Integer)
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.SetId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "The ID of the ListItem."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nInteger id;\nthing.SetId(id);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.SetLastChanged(DateTime)
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetLastChanged(DateTime)
+  id: 'SetLastChanged(DateTime)'
+  so.intellisense: NSSelectableMDOListItem.SetLastChanged
+  langs:
+  - crmscript
+  name: 'SetLastChanged(DateTime)'
+  nameWithType: NSSelectableMDOListItem.SetLastChanged(DateTime)
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.SetLastChanged(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLastChanged(DateTime lastChanged)
+    parameters:
+    - id: lastChanged
+      type: CRMScript.Global.DateTime
+      description: "Time of last change."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nDateTime lastChanged;\nthing.SetLastChanged(lastChanged);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.SetName(String)
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSSelectableMDOListItem.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSSelectableMDOListItem.SetName(String)
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of the ListItem."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSSelectableMDOListItem.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSSelectableMDOListItem.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "The rank of the ListItem."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.SetSelected(Bool)
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetSelected(Bool)
+  id: 'SetSelected(Bool)'
+  so.intellisense: NSSelectableMDOListItem.SetSelected
+  langs:
+  - crmscript
+  name: 'SetSelected(Bool)'
+  nameWithType: NSSelectableMDOListItem.SetSelected(Bool)
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.SetSelected(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSelected(Bool selected)
+    parameters:
+    - id: selected
+      type: CRMScript.Global.Bool
+      description: "True if the ListItem is selected."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nBool selected;\nthing.SetSelected(selected);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.SetStyleHint(String)
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetStyleHint(String)
+  id: 'SetStyleHint(String)'
+  so.intellisense: NSSelectableMDOListItem.SetStyleHint
+  langs:
+  - crmscript
+  name: 'SetStyleHint(String)'
+  nameWithType: NSSelectableMDOListItem.SetStyleHint(String)
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.SetStyleHint(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetStyleHint(String styleHint)
+    parameters:
+    - id: styleHint
+      type: CRMScript.Global.String
+      description: "Style hint indicating, information such as background color etc. Custom field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nString styleHint;\nthing.SetStyleHint(styleHint);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.SetToolTip(String)
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetToolTip(String)
+  id: 'SetToolTip(String)'
+  so.intellisense: NSSelectableMDOListItem.SetToolTip
+  langs:
+  - crmscript
+  name: 'SetToolTip(String)'
+  nameWithType: NSSelectableMDOListItem.SetToolTip(String)
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.SetToolTip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetToolTip(String toolTip)
+    parameters:
+    - id: toolTip
+      type: CRMScript.Global.String
+      description: "The tooltip of the ListItem."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nString toolTip;\nthing.SetToolTip(toolTip);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSelectableMDOListItem.SetType(String)
+  commentId: M:CRMScript.NetServer.NSSelectableMDOListItem.SetType(String)
+  id: 'SetType(String)'
+  so.intellisense: NSSelectableMDOListItem.SetType
+  langs:
+  - crmscript
+  name: 'SetType(String)'
+  nameWithType: NSSelectableMDOListItem.SetType(String)
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem.SetType(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetType(String type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.String
+      description: "The type of the ListItem. Custom field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSelectableMDOListItem thing;\nString type;\nthing.SetType(type);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSSelectableMDOListItem
+  commentId: T:CRMScript.NetServer.NSSelectableMDOListItem
+  isExternal: true
+  name: NSSelectableMDOListItem
+  nameWithType: NSSelectableMDOListItem
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem
+- uid: CRMScript.NetServer.NSSelectableMDOListItem[]
+  isExternal: true
+  name: NSSelectableMDOListItem[]
+  nameWithType: NSSelectableMDOListItem[]
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSSelectableMDOListItem
+    isExternal: true
+    name: NSSelectableMDOListItem
+    nameWithType: NSSelectableMDOListItem
+    fullName: CRMScript.NetServer.NSSelectableMDOListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSSelectableMDOListItem
+  commentId: T:CRMScript.NetServer.NSSelectableMDOListItem
+  isExternal: true
+  name: NSSelectableMDOListItem
+  nameWithType: NSSelectableMDOListItem
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

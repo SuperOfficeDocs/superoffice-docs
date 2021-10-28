@@ -1,0 +1,427 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSDiaryViewEntity
+  commentId: T:CRMScript.NetServer.NSDiaryViewEntity
+  id: NSDiaryViewEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSDiaryViewEntity.#ctor
+  - CRMScript.NetServer.NSDiaryViewEntity.GetAssociateList()
+  - CRMScript.NetServer.NSDiaryViewEntity.GetAssocId()
+  - CRMScript.NetServer.NSDiaryViewEntity.GetDiaryViewId()
+  - CRMScript.NetServer.NSDiaryViewEntity.GetName()
+  - CRMScript.NetServer.NSDiaryViewEntity.GetRank()
+  - CRMScript.NetServer.NSDiaryViewEntity.GetTooltip()
+  - CRMScript.NetServer.NSDiaryViewEntity.GetTzLocationId()
+  - CRMScript.NetServer.NSDiaryViewEntity.GetVisibleColumns()
+  - CRMScript.NetServer.NSDiaryViewEntity.SetAssociateList(NSSelectableMDOListItem[])
+  - CRMScript.NetServer.NSDiaryViewEntity.SetAssocId(Integer)
+  - CRMScript.NetServer.NSDiaryViewEntity.SetDiaryViewId(Integer)
+  - CRMScript.NetServer.NSDiaryViewEntity.SetName(String)
+  - CRMScript.NetServer.NSDiaryViewEntity.SetRank(Integer)
+  - CRMScript.NetServer.NSDiaryViewEntity.SetTooltip(String)
+  - CRMScript.NetServer.NSDiaryViewEntity.SetTzLocationId(Integer)
+  - CRMScript.NetServer.NSDiaryViewEntity.SetVisibleColumns(Integer)
+  name: NSDiaryViewEntity
+  nameWithType: NSDiaryViewEntity
+  fullName: CRMScript.NetServer.NSDiaryViewEntity
+  type: Class
+  summary: "\nThe DiaryView Service. The service implements all services working with the DiaryView object.\n"
+  example: 
+- uid: CRMScript.NetServer.NSDiaryViewEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSDiaryViewEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSDiaryViewEntity
+  langs:
+  - crmscript
+  name: NSDiaryViewEntity()
+  nameWithType: NSDiaryViewEntity.#ctor
+  fullName: CRMScript.NetServer.NSDiaryViewEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSDiaryViewEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSDiaryViewEntity
+  example: 
+- uid: CRMScript.NetServer.NSDiaryViewEntity.GetAssociateList()
+  commentId: M:CRMScript.NetServer.NSDiaryViewEntity.GetAssociateList()
+  id: 'GetAssociateList()'
+  so.intellisense: NSDiaryViewEntity.GetAssociateList
+  langs:
+  - crmscript
+  name: 'GetAssociateList()'
+  nameWithType: NSDiaryViewEntity.GetAssociateList()
+  fullName: CRMScript.NetServer.NSDiaryViewEntity.GetAssociateList()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSSelectableMDOListItem[] GetAssociateList()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSelectableMDOListItem[]
+      description:
+  example: 
+  - "\n<pre><code>NSDiaryViewEntity thing;\nNSSelectableMDOListItem[] associateList = thing.GetAssociateList();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiaryViewEntity.GetAssocId()
+  commentId: M:CRMScript.NetServer.NSDiaryViewEntity.GetAssocId()
+  id: 'GetAssocId()'
+  so.intellisense: NSDiaryViewEntity.GetAssocId
+  langs:
+  - crmscript
+  name: 'GetAssocId()'
+  nameWithType: NSDiaryViewEntity.GetAssocId()
+  fullName: CRMScript.NetServer.NSDiaryViewEntity.GetAssocId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAssocId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Owning associate ID for the DiaryView."
+  example: 
+  - "\n<pre><code>NSDiaryViewEntity thing;\nInteger assocId = thing.GetAssocId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiaryViewEntity.GetDiaryViewId()
+  commentId: M:CRMScript.NetServer.NSDiaryViewEntity.GetDiaryViewId()
+  id: 'GetDiaryViewId()'
+  so.intellisense: NSDiaryViewEntity.GetDiaryViewId
+  langs:
+  - crmscript
+  name: 'GetDiaryViewId()'
+  nameWithType: NSDiaryViewEntity.GetDiaryViewId()
+  fullName: CRMScript.NetServer.NSDiaryViewEntity.GetDiaryViewId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDiaryViewId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of the DiaryView."
+  example: 
+  - "\n<pre><code>NSDiaryViewEntity thing;\nInteger diaryViewId = thing.GetDiaryViewId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiaryViewEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSDiaryViewEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSDiaryViewEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSDiaryViewEntity.GetName()
+  fullName: CRMScript.NetServer.NSDiaryViewEntity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of the DiaryView."
+  example: 
+  - "\n<pre><code>NSDiaryViewEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiaryViewEntity.GetRank()
+  commentId: M:CRMScript.NetServer.NSDiaryViewEntity.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSDiaryViewEntity.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSDiaryViewEntity.GetRank()
+  fullName: CRMScript.NetServer.NSDiaryViewEntity.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "DiaryView rank."
+  example: 
+  - "\n<pre><code>NSDiaryViewEntity thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiaryViewEntity.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSDiaryViewEntity.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSDiaryViewEntity.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSDiaryViewEntity.GetTooltip()
+  fullName: CRMScript.NetServer.NSDiaryViewEntity.GetTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Tooltip/description of the DiaryView."
+  example: 
+  - "\n<pre><code>NSDiaryViewEntity thing;\nString tooltip = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiaryViewEntity.GetTzLocationId()
+  commentId: M:CRMScript.NetServer.NSDiaryViewEntity.GetTzLocationId()
+  id: 'GetTzLocationId()'
+  so.intellisense: NSDiaryViewEntity.GetTzLocationId
+  langs:
+  - crmscript
+  name: 'GetTzLocationId()'
+  nameWithType: NSDiaryViewEntity.GetTzLocationId()
+  fullName: CRMScript.NetServer.NSDiaryViewEntity.GetTzLocationId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTzLocationId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Default timezone location for this view."
+  example: 
+  - "\n<pre><code>NSDiaryViewEntity thing;\nInteger tzLocationId = thing.GetTzLocationId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiaryViewEntity.GetVisibleColumns()
+  commentId: M:CRMScript.NetServer.NSDiaryViewEntity.GetVisibleColumns()
+  id: 'GetVisibleColumns()'
+  so.intellisense: NSDiaryViewEntity.GetVisibleColumns
+  langs:
+  - crmscript
+  name: 'GetVisibleColumns()'
+  nameWithType: NSDiaryViewEntity.GetVisibleColumns()
+  fullName: CRMScript.NetServer.NSDiaryViewEntity.GetVisibleColumns()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetVisibleColumns()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of columns that should be visible simultaneously."
+  example: 
+  - "\n<pre><code>NSDiaryViewEntity thing;\nInteger visibleColumns = thing.GetVisibleColumns();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiaryViewEntity.SetAssociateList(NSSelectableMDOListItem[])
+  commentId: M:CRMScript.NetServer.NSDiaryViewEntity.SetAssociateList(NSSelectableMDOListItem[])
+  id: 'SetAssociateList(NSSelectableMDOListItem[])'
+  so.intellisense: NSDiaryViewEntity.SetAssociateList
+  langs:
+  - crmscript
+  name: 'SetAssociateList(NSSelectableMDOListItem[])'
+  nameWithType: NSDiaryViewEntity.SetAssociateList(NSSelectableMDOListItem[])
+  fullName: CRMScript.NetServer.NSDiaryViewEntity.SetAssociateList(NSSelectableMDOListItem[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAssociateList(NSSelectableMDOListItem[] associateList)
+    parameters:
+    - id: associateList
+      type: CRMScript.NetServer.NSSelectableMDOListItem[]
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDiaryViewEntity thing;\nNSSelectableMDOListItem[] associateList;\nthing.SetAssociateList(associateList);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiaryViewEntity.SetAssocId(Integer)
+  commentId: M:CRMScript.NetServer.NSDiaryViewEntity.SetAssocId(Integer)
+  id: 'SetAssocId(Integer)'
+  so.intellisense: NSDiaryViewEntity.SetAssocId
+  langs:
+  - crmscript
+  name: 'SetAssocId(Integer)'
+  nameWithType: NSDiaryViewEntity.SetAssocId(Integer)
+  fullName: CRMScript.NetServer.NSDiaryViewEntity.SetAssocId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAssocId(Integer assocId)
+    parameters:
+    - id: assocId
+      type: CRMScript.Global.Integer
+      description: "Owning associate ID for the DiaryView."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDiaryViewEntity thing;\nInteger assocId;\nthing.SetAssocId(assocId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiaryViewEntity.SetDiaryViewId(Integer)
+  commentId: M:CRMScript.NetServer.NSDiaryViewEntity.SetDiaryViewId(Integer)
+  id: 'SetDiaryViewId(Integer)'
+  so.intellisense: NSDiaryViewEntity.SetDiaryViewId
+  langs:
+  - crmscript
+  name: 'SetDiaryViewId(Integer)'
+  nameWithType: NSDiaryViewEntity.SetDiaryViewId(Integer)
+  fullName: CRMScript.NetServer.NSDiaryViewEntity.SetDiaryViewId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDiaryViewId(Integer diaryViewId)
+    parameters:
+    - id: diaryViewId
+      type: CRMScript.Global.Integer
+      description: "ID of the DiaryView."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDiaryViewEntity thing;\nInteger diaryViewId;\nthing.SetDiaryViewId(diaryViewId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiaryViewEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSDiaryViewEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSDiaryViewEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSDiaryViewEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSDiaryViewEntity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Name of the DiaryView."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDiaryViewEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiaryViewEntity.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSDiaryViewEntity.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSDiaryViewEntity.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSDiaryViewEntity.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSDiaryViewEntity.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "DiaryView rank."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDiaryViewEntity thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiaryViewEntity.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSDiaryViewEntity.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSDiaryViewEntity.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSDiaryViewEntity.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSDiaryViewEntity.SetTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: "Tooltip/description of the DiaryView."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDiaryViewEntity thing;\nString tooltip;\nthing.SetTooltip(tooltip);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiaryViewEntity.SetTzLocationId(Integer)
+  commentId: M:CRMScript.NetServer.NSDiaryViewEntity.SetTzLocationId(Integer)
+  id: 'SetTzLocationId(Integer)'
+  so.intellisense: NSDiaryViewEntity.SetTzLocationId
+  langs:
+  - crmscript
+  name: 'SetTzLocationId(Integer)'
+  nameWithType: NSDiaryViewEntity.SetTzLocationId(Integer)
+  fullName: CRMScript.NetServer.NSDiaryViewEntity.SetTzLocationId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTzLocationId(Integer tzLocationId)
+    parameters:
+    - id: tzLocationId
+      type: CRMScript.Global.Integer
+      description: "Default timezone location for this view."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDiaryViewEntity thing;\nInteger tzLocationId;\nthing.SetTzLocationId(tzLocationId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDiaryViewEntity.SetVisibleColumns(Integer)
+  commentId: M:CRMScript.NetServer.NSDiaryViewEntity.SetVisibleColumns(Integer)
+  id: 'SetVisibleColumns(Integer)'
+  so.intellisense: NSDiaryViewEntity.SetVisibleColumns
+  langs:
+  - crmscript
+  name: 'SetVisibleColumns(Integer)'
+  nameWithType: NSDiaryViewEntity.SetVisibleColumns(Integer)
+  fullName: CRMScript.NetServer.NSDiaryViewEntity.SetVisibleColumns(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetVisibleColumns(Integer visibleColumns)
+    parameters:
+    - id: visibleColumns
+      type: CRMScript.Global.Integer
+      description: "Number of columns that should be visible simultaneously."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDiaryViewEntity thing;\nInteger visibleColumns;\nthing.SetVisibleColumns(visibleColumns);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSDiaryViewEntity
+  commentId: T:CRMScript.NetServer.NSDiaryViewEntity
+  isExternal: true
+  name: NSDiaryViewEntity
+  nameWithType: NSDiaryViewEntity
+  fullName: CRMScript.NetServer.NSDiaryViewEntity
+- uid: CRMScript.NetServer.NSSelectableMDOListItem[]
+  isExternal: true
+  name: NSSelectableMDOListItem[]
+  nameWithType: NSSelectableMDOListItem[]
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSSelectableMDOListItem
+    isExternal: true
+    name: NSSelectableMDOListItem
+    nameWithType: NSSelectableMDOListItem
+    fullName: CRMScript.NetServer.NSSelectableMDOListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSSelectableMDOListItem
+  commentId: T:CRMScript.NetServer.NSSelectableMDOListItem
+  isExternal: true
+  name: NSSelectableMDOListItem
+  nameWithType: NSSelectableMDOListItem
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

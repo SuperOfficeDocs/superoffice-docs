@@ -1,0 +1,319 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSServiceAuth
+  commentId: T:CRMScript.NetServer.NSServiceAuth
+  id: NSServiceAuth
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSServiceAuth.#ctor
+  - CRMScript.NetServer.NSServiceAuth.GetAuthType()
+  - CRMScript.NetServer.NSServiceAuth.GetPassword()
+  - CRMScript.NetServer.NSServiceAuth.GetPort()
+  - CRMScript.NetServer.NSServiceAuth.GetServer()
+  - CRMScript.NetServer.NSServiceAuth.GetServiceAuthId()
+  - CRMScript.NetServer.NSServiceAuth.GetUsername()
+  - CRMScript.NetServer.NSServiceAuth.SetAuthType(String)
+  - CRMScript.NetServer.NSServiceAuth.SetPassword(String)
+  - CRMScript.NetServer.NSServiceAuth.SetPort(Integer)
+  - CRMScript.NetServer.NSServiceAuth.SetServer(String)
+  - CRMScript.NetServer.NSServiceAuth.SetServiceAuthId(Integer)
+  - CRMScript.NetServer.NSServiceAuth.SetUsername(String)
+  name: NSServiceAuth
+  nameWithType: NSServiceAuth
+  fullName: CRMScript.NetServer.NSServiceAuth
+  type: Class
+  summary: "\nProperties for service authentication.\n"
+  example: 
+- uid: CRMScript.NetServer.NSServiceAuth.#ctor
+  commentId: M:CRMScript.NetServer.NSServiceAuth.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSServiceAuth
+  langs:
+  - crmscript
+  name: NSServiceAuth()
+  nameWithType: NSServiceAuth.#ctor
+  fullName: CRMScript.NetServer.NSServiceAuth.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSServiceAuth class.\n" 
+  remarks: 
+  syntax: 
+    content: NSServiceAuth
+  example: 
+- uid: CRMScript.NetServer.NSServiceAuth.GetAuthType()
+  commentId: M:CRMScript.NetServer.NSServiceAuth.GetAuthType()
+  id: 'GetAuthType()'
+  so.intellisense: NSServiceAuth.GetAuthType
+  langs:
+  - crmscript
+  name: 'GetAuthType()'
+  nameWithType: NSServiceAuth.GetAuthType()
+  fullName: CRMScript.NetServer.NSServiceAuth.GetAuthType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetAuthType()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The type of authentication, plain-text, OAuth..."
+  example: 
+  - "\n<pre><code>NSServiceAuth thing;\nString authType = thing.GetAuthType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSServiceAuth.GetPassword()
+  commentId: M:CRMScript.NetServer.NSServiceAuth.GetPassword()
+  id: 'GetPassword()'
+  so.intellisense: NSServiceAuth.GetPassword
+  langs:
+  - crmscript
+  name: 'GetPassword()'
+  nameWithType: NSServiceAuth.GetPassword()
+  fullName: CRMScript.NetServer.NSServiceAuth.GetPassword()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPassword()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The (decrypted) password or token."
+  example: 
+  - "\n<pre><code>NSServiceAuth thing;\nString password = thing.GetPassword();</code></pre>\n"
+- uid: CRMScript.NetServer.NSServiceAuth.GetPort()
+  commentId: M:CRMScript.NetServer.NSServiceAuth.GetPort()
+  id: 'GetPort()'
+  so.intellisense: NSServiceAuth.GetPort
+  langs:
+  - crmscript
+  name: 'GetPort()'
+  nameWithType: NSServiceAuth.GetPort()
+  fullName: CRMScript.NetServer.NSServiceAuth.GetPort()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPort()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The server port."
+  example: 
+  - "\n<pre><code>NSServiceAuth thing;\nInteger port = thing.GetPort();</code></pre>\n"
+- uid: CRMScript.NetServer.NSServiceAuth.GetServer()
+  commentId: M:CRMScript.NetServer.NSServiceAuth.GetServer()
+  id: 'GetServer()'
+  so.intellisense: NSServiceAuth.GetServer
+  langs:
+  - crmscript
+  name: 'GetServer()'
+  nameWithType: NSServiceAuth.GetServer()
+  fullName: CRMScript.NetServer.NSServiceAuth.GetServer()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetServer()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The mail server."
+  example: 
+  - "\n<pre><code>NSServiceAuth thing;\nString server = thing.GetServer();</code></pre>\n"
+- uid: CRMScript.NetServer.NSServiceAuth.GetServiceAuthId()
+  commentId: M:CRMScript.NetServer.NSServiceAuth.GetServiceAuthId()
+  id: 'GetServiceAuthId()'
+  so.intellisense: NSServiceAuth.GetServiceAuthId
+  langs:
+  - crmscript
+  name: 'GetServiceAuthId()'
+  nameWithType: NSServiceAuth.GetServiceAuthId()
+  fullName: CRMScript.NetServer.NSServiceAuth.GetServiceAuthId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetServiceAuthId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The primary key."
+  example: 
+  - "\n<pre><code>NSServiceAuth thing;\nInteger serviceAuthId = thing.GetServiceAuthId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSServiceAuth.GetUsername()
+  commentId: M:CRMScript.NetServer.NSServiceAuth.GetUsername()
+  id: 'GetUsername()'
+  so.intellisense: NSServiceAuth.GetUsername
+  langs:
+  - crmscript
+  name: 'GetUsername()'
+  nameWithType: NSServiceAuth.GetUsername()
+  fullName: CRMScript.NetServer.NSServiceAuth.GetUsername()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetUsername()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The username."
+  example: 
+  - "\n<pre><code>NSServiceAuth thing;\nString username = thing.GetUsername();</code></pre>\n"
+- uid: CRMScript.NetServer.NSServiceAuth.SetAuthType(String)
+  commentId: M:CRMScript.NetServer.NSServiceAuth.SetAuthType(String)
+  id: 'SetAuthType(String)'
+  so.intellisense: NSServiceAuth.SetAuthType
+  langs:
+  - crmscript
+  name: 'SetAuthType(String)'
+  nameWithType: NSServiceAuth.SetAuthType(String)
+  fullName: CRMScript.NetServer.NSServiceAuth.SetAuthType(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAuthType(String authType)
+    parameters:
+    - id: authType
+      type: CRMScript.Global.String
+      description: "The type of authentication, plain-text, OAuth..."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSServiceAuth thing;\nString authType;\nthing.SetAuthType(authType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSServiceAuth.SetPassword(String)
+  commentId: M:CRMScript.NetServer.NSServiceAuth.SetPassword(String)
+  id: 'SetPassword(String)'
+  so.intellisense: NSServiceAuth.SetPassword
+  langs:
+  - crmscript
+  name: 'SetPassword(String)'
+  nameWithType: NSServiceAuth.SetPassword(String)
+  fullName: CRMScript.NetServer.NSServiceAuth.SetPassword(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPassword(String password)
+    parameters:
+    - id: password
+      type: CRMScript.Global.String
+      description: "The (decrypted) password or token."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSServiceAuth thing;\nString password;\nthing.SetPassword(password);</code></pre>\n"
+- uid: CRMScript.NetServer.NSServiceAuth.SetPort(Integer)
+  commentId: M:CRMScript.NetServer.NSServiceAuth.SetPort(Integer)
+  id: 'SetPort(Integer)'
+  so.intellisense: NSServiceAuth.SetPort
+  langs:
+  - crmscript
+  name: 'SetPort(Integer)'
+  nameWithType: NSServiceAuth.SetPort(Integer)
+  fullName: CRMScript.NetServer.NSServiceAuth.SetPort(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPort(Integer port)
+    parameters:
+    - id: port
+      type: CRMScript.Global.Integer
+      description: "The server port."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSServiceAuth thing;\nInteger port;\nthing.SetPort(port);</code></pre>\n"
+- uid: CRMScript.NetServer.NSServiceAuth.SetServer(String)
+  commentId: M:CRMScript.NetServer.NSServiceAuth.SetServer(String)
+  id: 'SetServer(String)'
+  so.intellisense: NSServiceAuth.SetServer
+  langs:
+  - crmscript
+  name: 'SetServer(String)'
+  nameWithType: NSServiceAuth.SetServer(String)
+  fullName: CRMScript.NetServer.NSServiceAuth.SetServer(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetServer(String server)
+    parameters:
+    - id: server
+      type: CRMScript.Global.String
+      description: "The mail server."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSServiceAuth thing;\nString server;\nthing.SetServer(server);</code></pre>\n"
+- uid: CRMScript.NetServer.NSServiceAuth.SetServiceAuthId(Integer)
+  commentId: M:CRMScript.NetServer.NSServiceAuth.SetServiceAuthId(Integer)
+  id: 'SetServiceAuthId(Integer)'
+  so.intellisense: NSServiceAuth.SetServiceAuthId
+  langs:
+  - crmscript
+  name: 'SetServiceAuthId(Integer)'
+  nameWithType: NSServiceAuth.SetServiceAuthId(Integer)
+  fullName: CRMScript.NetServer.NSServiceAuth.SetServiceAuthId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetServiceAuthId(Integer serviceAuthId)
+    parameters:
+    - id: serviceAuthId
+      type: CRMScript.Global.Integer
+      description: "The primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSServiceAuth thing;\nInteger serviceAuthId;\nthing.SetServiceAuthId(serviceAuthId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSServiceAuth.SetUsername(String)
+  commentId: M:CRMScript.NetServer.NSServiceAuth.SetUsername(String)
+  id: 'SetUsername(String)'
+  so.intellisense: NSServiceAuth.SetUsername
+  langs:
+  - crmscript
+  name: 'SetUsername(String)'
+  nameWithType: NSServiceAuth.SetUsername(String)
+  fullName: CRMScript.NetServer.NSServiceAuth.SetUsername(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUsername(String username)
+    parameters:
+    - id: username
+      type: CRMScript.Global.String
+      description: "The username."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSServiceAuth thing;\nString username;\nthing.SetUsername(username);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSServiceAuth
+  commentId: T:CRMScript.NetServer.NSServiceAuth
+  isExternal: true
+  name: NSServiceAuth
+  nameWithType: NSServiceAuth
+  fullName: CRMScript.NetServer.NSServiceAuth
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

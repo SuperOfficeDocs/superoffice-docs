@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.Notify
+  commentId: T:CRMScript.Native.Notify
+  id: Notify
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.Notify.#ctor
+  - CRMScript.Native.Notify.sendCustomMessage(Integer,String)
+  - CRMScript.Native.Notify.sendNewTicket(Integer)
+  - CRMScript.Native.Notify.sendNewTicket(Integer,Bool)
+  - CRMScript.Native.Notify.sendNewTicketMessage(Integer,Bool)
+  - CRMScript.Native.Notify.sendTicketActivated(Integer)
+  - CRMScript.Native.Notify.sendTicketTakenOver(Integer,Integer,Integer)
+  name: Notify
+  nameWithType: Notify
+  fullName: CRMScript.Native.Notify
+  type: Class
+  summary: "\nHandles notification of different types.\n"
+  example: 
+- uid: CRMScript.Native.Notify.#ctor
+  commentId: M:CRMScript.Native.Notify.#ctor
+  id: '#ctor'
+  so.intellisense: Void.Notify
+  langs:
+  - crmscript
+  name: Notify()
+  nameWithType: Notify.#ctor
+  fullName: CRMScript.Native.Notify.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the Notify class.\n"
+  remarks: 
+  syntax: 
+    content: Notify
+  example: 
+- uid: CRMScript.Native.Notify.sendCustomMessage(Integer,String)
+  commentId: M:CRMScript.Native.Notify.sendCustomMessage(Integer,String)
+  id: 'sendCustomMessage(Integer,String)'
+  so.intellisense: Notify.sendCustomMessage
+  langs:
+  - crmscript
+  name: 'sendCustomMessage(Integer,String)'
+  nameWithType: Notify.sendCustomMessage(Integer,String)
+  fullName: CRMScript.Native.Notify.sendCustomMessage(Integer,String)
+  type: Method
+  summary: "\nSends a custom notification to a user.\n"
+  remarks: 
+  syntax: 
+    content: Void sendCustomMessage(Integer recipientId, String message)
+    parameters:
+    - id: recipientId
+      type: CRMScript.Global.Integer
+      description: "The ID of the user to notify"
+    - id: message
+      type: CRMScript.Global.String
+      description: "The notify message."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.Notify.sendNewTicket(Integer)
+  commentId: M:CRMScript.Native.Notify.sendNewTicket(Integer)
+  id: 'sendNewTicket(Integer)'
+  so.intellisense: Notify.sendNewTicket
+  langs:
+  - crmscript
+  name: 'sendNewTicket(Integer)'
+  nameWithType: Notify.sendNewTicket(Integer)
+  fullName: CRMScript.Native.Notify.sendNewTicket(Integer)
+  type: Method
+  summary: "\nSends a notification about a new request according to the user's notify configuration.\n"
+  remarks: 
+  syntax: 
+    content: Void sendNewTicket(Integer ticketId)
+    parameters:
+    - id: ticketId
+      type: CRMScript.Global.Integer
+      description: "The ID of the ticket to notify about."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.Notify.sendNewTicket(Integer,Bool)
+  commentId: M:CRMScript.Native.Notify.sendNewTicket(Integer,Bool)
+  id: 'sendNewTicket(Integer,Bool)'
+  so.intellisense: Notify.sendNewTicket
+  langs:
+  - crmscript
+  name: 'sendNewTicket(Integer,Bool)'
+  nameWithType: Notify.sendNewTicket(Integer,Bool)
+  fullName: CRMScript.Native.Notify.sendNewTicket(Integer,Bool)
+  type: Method
+  summary: "\nSends a notification about a new request according to the user's notify configuration. By setting the parameter skipCategoryMemberNotification, this method will not notify members of the category (if set up) or the email address free-text field on the category.\n"
+  remarks: 
+  syntax: 
+    content: Void sendNewTicket(Integer ticketId, Bool skipCategoryMemberNotification)
+    parameters:
+    - id: ticketId
+      type: CRMScript.Global.Integer
+      description: "The ID of the ticket to notify about"
+    - id: skipCategoryMemberNotification
+      type: CRMScript.Global.Bool
+      description: "Do not notify members or the email notification address set up on the category."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.Notify.sendNewTicketMessage(Integer,Bool)
+  commentId: M:CRMScript.Native.Notify.sendNewTicketMessage(Integer,Bool)
+  id: 'sendNewTicketMessage(Integer,Bool)'
+  so.intellisense: Notify.sendNewTicketMessage
+  langs:
+  - crmscript
+  name: 'sendNewTicketMessage(Integer,Bool)'
+  nameWithType: Notify.sendNewTicketMessage(Integer,Bool)
+  fullName: CRMScript.Native.Notify.sendNewTicketMessage(Integer,Bool)
+  type: Method
+  summary: "\nNotifies a user about a new message in the specified ticket according to the users notify configuration.\n"
+  remarks: "\nIf onlyToHotList is set to true, only those who has this ticket in their hotlists will be notified.\n"
+  syntax: 
+    content: Void sendNewTicketMessage(Integer ticketId, Bool onlyToHotLlist)
+    parameters:
+    - id: ticketId
+      type: CRMScript.Global.Integer
+      description: "The ID of the ticket to be notified about"
+    - id: onlyToHotLlist
+      type: CRMScript.Global.Bool
+      description: "If true, only those with this ticket on their hotlists will be notified."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.Notify.sendTicketActivated(Integer)
+  commentId: M:CRMScript.Native.Notify.sendTicketActivated(Integer)
+  id: 'sendTicketActivated(Integer)'
+  so.intellisense: Notify.sendTicketActivated
+  langs:
+  - crmscript
+  name: 'sendTicketActivated(Integer)'
+  nameWithType: Notify.sendTicketActivated(Integer)
+  fullName: CRMScript.Native.Notify.sendTicketActivated(Integer)
+  type: Method
+  summary: "\nSends a notification about a ticket being activated, according to the users notify configuration.\n"
+  remarks: 
+  syntax: 
+    content: Void sendTicketActivated(Integer ticketId)
+    parameters:
+    - id: ticketId
+      type: CRMScript.Global.Integer
+      description: "The ID of the ticket to be notified about."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.Notify.sendTicketTakenOver(Integer,Integer,Integer)
+  commentId: M:CRMScript.Native.Notify.sendTicketTakenOver(Integer,Integer,Integer)
+  id: 'sendTicketTakenOver(Integer,Integer,Integer)'
+  so.intellisense: Notify.sendTicketTakenOver
+  langs:
+  - crmscript
+  name: 'sendTicketTakenOver(Integer,Integer,Integer)'
+  nameWithType: Notify.sendTicketTakenOver(Integer,Integer,Integer)
+  fullName: CRMScript.Native.Notify.sendTicketTakenOver(Integer,Integer,Integer)
+  type: Method
+  summary: "\nSends a notification to the users about a ticket being taken over.\n"
+  remarks: 
+  syntax: 
+    content: Void sendTicketTakenOver(Integer ticketId, Integer oldUserId, Integer newUserId)
+    parameters:
+    - id: ticketId
+      type: CRMScript.Global.Integer
+      description: "The ID of the ticket to be notified about"
+    - id: oldUserId
+      type: CRMScript.Global.Integer
+      description: "The ID of the user who owned the ticket"
+    - id: newUserId
+      type: CRMScript.Global.Integer
+      description: "The ID of the user who now owns the ticket."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.Native.Notify
+  commentId: T:CRMScript.Native.Notify
+  isExternal: true
+  name: Notify
+  nameWithType: Notify
+  fullName: CRMScript.Native.Notify
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

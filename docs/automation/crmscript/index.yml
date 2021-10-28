@@ -159,9 +159,11 @@ landingContent:
     linkLists:
       - linkListType: reference
         links:
-        - text: Classes
-          url: ../../crmscript/docs/api-reference/classes/index.md
+        - text: Classes (native)
+          url: ../../crmscript/docs/api-reference/CRMScript.NetServer.yml
+        - text: Classes (NetServer)
+          url: ../../crmscript/docs/api-reference/CRMScript.Native.yml
         - text: Global functions
-          url: ../../crmscript/docs/api-reference/global-functions/index.md
+          url: ../../crmscript/docs/api-reference/CRMScript.Global.Void.yml
         - text: Trigger scripts
-          url: ../../crmscript/docs/api-reference/trigger-scripts/index.md
+          url: ../../crmscript/docs/api-reference/CRMScript.Event.Trigger.yml

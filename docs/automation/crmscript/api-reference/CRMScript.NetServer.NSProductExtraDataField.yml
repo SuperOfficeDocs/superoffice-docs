@@ -1,0 +1,194 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSProductExtraDataField
+  commentId: T:CRMScript.NetServer.NSProductExtraDataField
+  id: NSProductExtraDataField
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSProductExtraDataField.#ctor
+  - CRMScript.NetServer.NSProductExtraDataField.GetName()
+  - CRMScript.NetServer.NSProductExtraDataField.GetType()
+  - CRMScript.NetServer.NSProductExtraDataField.GetValue()
+  - CRMScript.NetServer.NSProductExtraDataField.SetName(String)
+  - CRMScript.NetServer.NSProductExtraDataField.SetType(Integer)
+  - CRMScript.NetServer.NSProductExtraDataField.SetValue(String)
+  name: NSProductExtraDataField
+  nameWithType: NSProductExtraDataField
+  fullName: CRMScript.NetServer.NSProductExtraDataField
+  type: Class
+  summary: "\nA way to show some simple extra data on a product, typically to hep the user to identify the correct product. Basically a bucket of additional info that the ERP system would like to store and show in the user interface. Information placed here is shown in the GUI if the provide-extra-data capability is true.\n"
+  example: 
+- uid: CRMScript.NetServer.NSProductExtraDataField.#ctor
+  commentId: M:CRMScript.NetServer.NSProductExtraDataField.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSProductExtraDataField
+  langs:
+  - crmscript
+  name: NSProductExtraDataField()
+  nameWithType: NSProductExtraDataField.#ctor
+  fullName: CRMScript.NetServer.NSProductExtraDataField.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSProductExtraDataField class.\n"
+  remarks: 
+  syntax: 
+    content: NSProductExtraDataField
+  example: 
+- uid: CRMScript.NetServer.NSProductExtraDataField.GetName()
+  commentId: M:CRMScript.NetServer.NSProductExtraDataField.GetName()
+  id: 'GetName()'
+  so.intellisense: NSProductExtraDataField.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSProductExtraDataField.GetName()
+  fullName: CRMScript.NetServer.NSProductExtraDataField.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Label for the field."
+  example: 
+  - "\n<pre><code>NSProductExtraDataField thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProductExtraDataField.GetType()
+  commentId: M:CRMScript.NetServer.NSProductExtraDataField.GetType()
+  id: 'GetType()'
+  so.intellisense: NSProductExtraDataField.GetType
+  langs:
+  - crmscript
+  name: 'GetType()'
+  nameWithType: NSProductExtraDataField.GetType()
+  fullName: CRMScript.NetServer.NSProductExtraDataField.GetType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "String, URL, image. How the value should be interpreted. See <xref href=\"CRMScript.NetServer.ExtraDataFieldType\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSProductExtraDataField thing;\nInteger type = thing.GetType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProductExtraDataField.GetValue()
+  commentId: M:CRMScript.NetServer.NSProductExtraDataField.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSProductExtraDataField.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSProductExtraDataField.GetValue()
+  fullName: CRMScript.NetServer.NSProductExtraDataField.GetValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Value for the field. If type is string, it can contain format specifiers (use this for displaying numbers correctly as the user's computer is set up)."
+  example: 
+  - "\n<pre><code>NSProductExtraDataField thing;\nString value = thing.GetValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProductExtraDataField.SetName(String)
+  commentId: M:CRMScript.NetServer.NSProductExtraDataField.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSProductExtraDataField.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSProductExtraDataField.SetName(String)
+  fullName: CRMScript.NetServer.NSProductExtraDataField.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Label for the field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProductExtraDataField thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProductExtraDataField.SetType(Integer)
+  commentId: M:CRMScript.NetServer.NSProductExtraDataField.SetType(Integer)
+  id: 'SetType(Integer)'
+  so.intellisense: NSProductExtraDataField.SetType
+  langs:
+  - crmscript
+  name: 'SetType(Integer)'
+  nameWithType: NSProductExtraDataField.SetType(Integer)
+  fullName: CRMScript.NetServer.NSProductExtraDataField.SetType(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetType(Integer type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "String, URL, image. How the value should be interpreted. See <xref href=\"CRMScript.NetServer.ExtraDataFieldType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProductExtraDataField thing;\nInteger type;\nthing.SetType(type);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProductExtraDataField.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSProductExtraDataField.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSProductExtraDataField.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSProductExtraDataField.SetValue(String)
+  fullName: CRMScript.NetServer.NSProductExtraDataField.SetValue(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: "Value for the field. If type is string, it can contain format specifiers (use this for displaying numbers correctly as the user's computer is set up)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProductExtraDataField thing;\nString value;\nthing.SetValue(value);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSProductExtraDataField
+  commentId: T:CRMScript.NetServer.NSProductExtraDataField
+  isExternal: true
+  name: NSProductExtraDataField
+  nameWithType: NSProductExtraDataField
+  fullName: CRMScript.NetServer.NSProductExtraDataField
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.ExtraDataFieldType
+  commentId: T:CRMScript.NetServer.ExtraDataFieldType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ExtraDataFieldType
+  nameWithType: ExtraDataFieldType
+  fullName: CRMScript.NetServer.ExtraDataFieldType

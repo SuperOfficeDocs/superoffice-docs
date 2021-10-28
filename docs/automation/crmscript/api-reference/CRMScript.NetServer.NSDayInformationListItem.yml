@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSDayInformationListItem
+  commentId: T:CRMScript.NetServer.NSDayInformationListItem
+  id: NSDayInformationListItem
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSDayInformationListItem.#ctor
+  - CRMScript.NetServer.NSDayInformationListItem.GetActivityInformation()
+  - CRMScript.NetServer.NSDayInformationListItem.GetDate()
+  - CRMScript.NetServer.NSDayInformationListItem.GetRedLetterInformation()
+  - CRMScript.NetServer.NSDayInformationListItem.SetActivityInformation(NSActivitySummary)
+  - CRMScript.NetServer.NSDayInformationListItem.SetDate(DateTime)
+  - CRMScript.NetServer.NSDayInformationListItem.SetRedLetterInformation(NSRedLetterSummary)
+  name: NSDayInformationListItem
+  nameWithType: NSDayInformationListItem
+  fullName: CRMScript.NetServer.NSDayInformationListItem
+  type: Class
+  summary: "\nSummary information about the activities and holidays for one day.\n"
+  example: 
+- uid: CRMScript.NetServer.NSDayInformationListItem.#ctor
+  commentId: M:CRMScript.NetServer.NSDayInformationListItem.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSDayInformationListItem
+  langs:
+  - crmscript
+  name: NSDayInformationListItem()
+  nameWithType: NSDayInformationListItem.#ctor
+  fullName: CRMScript.NetServer.NSDayInformationListItem.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSDayInformationListItem class.\n"
+  remarks: 
+  syntax: 
+    content: NSDayInformationListItem
+  example: 
+- uid: CRMScript.NetServer.NSDayInformationListItem.GetActivityInformation()
+  commentId: M:CRMScript.NetServer.NSDayInformationListItem.GetActivityInformation()
+  id: 'GetActivityInformation()'
+  so.intellisense: NSDayInformationListItem.GetActivityInformation
+  langs:
+  - crmscript
+  name: 'GetActivityInformation()'
+  nameWithType: NSDayInformationListItem.GetActivityInformation()
+  fullName: CRMScript.NetServer.NSDayInformationListItem.GetActivityInformation()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSActivitySummary GetActivityInformation()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSActivitySummary
+      description: "Activity information summary - number of free and busy activities."
+  example: 
+  - "\n<pre><code>NSDayInformationListItem thing;\nNSActivitySummary activityInformation = thing.GetActivityInformation();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDayInformationListItem.GetDate()
+  commentId: M:CRMScript.NetServer.NSDayInformationListItem.GetDate()
+  id: 'GetDate()'
+  so.intellisense: NSDayInformationListItem.GetDate
+  langs:
+  - crmscript
+  name: 'GetDate()'
+  nameWithType: NSDayInformationListItem.GetDate()
+  fullName: CRMScript.NetServer.NSDayInformationListItem.GetDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Date that this item is valid for; there is exactly one item per date, ordered by date."
+  example: 
+  - "\n<pre><code>NSDayInformationListItem thing;\nDateTime date = thing.GetDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDayInformationListItem.GetRedLetterInformation()
+  commentId: M:CRMScript.NetServer.NSDayInformationListItem.GetRedLetterInformation()
+  id: 'GetRedLetterInformation()'
+  so.intellisense: NSDayInformationListItem.GetRedLetterInformation
+  langs:
+  - crmscript
+  name: 'GetRedLetterInformation()'
+  nameWithType: NSDayInformationListItem.GetRedLetterInformation()
+  fullName: CRMScript.NetServer.NSDayInformationListItem.GetRedLetterInformation()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSRedLetterSummary GetRedLetterInformation()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSRedLetterSummary
+      description: "Summary of red-letter day information* holiday in own country, and in other countries known to the system."
+  example: 
+  - "\n<pre><code>NSDayInformationListItem thing;\nNSRedLetterSummary redLetterInformation = thing.GetRedLetterInformation();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDayInformationListItem.SetActivityInformation(NSActivitySummary)
+  commentId: M:CRMScript.NetServer.NSDayInformationListItem.SetActivityInformation(NSActivitySummary)
+  id: 'SetActivityInformation(NSActivitySummary)'
+  so.intellisense: NSDayInformationListItem.SetActivityInformation
+  langs:
+  - crmscript
+  name: 'SetActivityInformation(NSActivitySummary)'
+  nameWithType: NSDayInformationListItem.SetActivityInformation(NSActivitySummary)
+  fullName: CRMScript.NetServer.NSDayInformationListItem.SetActivityInformation(NSActivitySummary)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetActivityInformation(NSActivitySummary activityInformation)
+    parameters:
+    - id: activityInformation
+      type: CRMScript.NetServer.NSActivitySummary
+      description: "Activity information summary* number of free and busy activities."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDayInformationListItem thing;\nNSActivitySummary activityInformation;\nthing.SetActivityInformation(activityInformation);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDayInformationListItem.SetDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSDayInformationListItem.SetDate(DateTime)
+  id: 'SetDate(DateTime)'
+  so.intellisense: NSDayInformationListItem.SetDate
+  langs:
+  - crmscript
+  name: 'SetDate(DateTime)'
+  nameWithType: NSDayInformationListItem.SetDate(DateTime)
+  fullName: CRMScript.NetServer.NSDayInformationListItem.SetDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDate(DateTime date)
+    parameters:
+    - id: date
+      type: CRMScript.Global.DateTime
+      description: "Date that this item is valid for; there is exactly one item per date, ordered by date."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDayInformationListItem thing;\nDateTime date;\nthing.SetDate(date);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDayInformationListItem.SetRedLetterInformation(NSRedLetterSummary)
+  commentId: M:CRMScript.NetServer.NSDayInformationListItem.SetRedLetterInformation(NSRedLetterSummary)
+  id: 'SetRedLetterInformation(NSRedLetterSummary)'
+  so.intellisense: NSDayInformationListItem.SetRedLetterInformation
+  langs:
+  - crmscript
+  name: 'SetRedLetterInformation(NSRedLetterSummary)'
+  nameWithType: NSDayInformationListItem.SetRedLetterInformation(NSRedLetterSummary)
+  fullName: CRMScript.NetServer.NSDayInformationListItem.SetRedLetterInformation(NSRedLetterSummary)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRedLetterInformation(NSRedLetterSummary redLetterInformation)
+    parameters:
+    - id: redLetterInformation
+      type: CRMScript.NetServer.NSRedLetterSummary
+      description: "Summary of red-letter day information - holiday in own country, and in other countries known to the system."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDayInformationListItem thing;\nNSRedLetterSummary redLetterInformation;\nthing.SetRedLetterInformation(redLetterInformation);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSDayInformationListItem
+  commentId: T:CRMScript.NetServer.NSDayInformationListItem
+  isExternal: true
+  name: NSDayInformationListItem
+  nameWithType: NSDayInformationListItem
+  fullName: CRMScript.NetServer.NSDayInformationListItem
+- uid: CRMScript.NetServer.NSActivitySummary
+  commentId: T:CRMScript.NetServer.NSActivitySummary
+  isExternal: true
+  name: NSActivitySummary
+  nameWithType: NSActivitySummary
+  fullName: CRMScript.NetServer.NSActivitySummary
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.NetServer.NSRedLetterSummary
+  commentId: T:CRMScript.NetServer.NSRedLetterSummary
+  isExternal: true
+  name: NSRedLetterSummary
+  nameWithType: NSRedLetterSummary
+  fullName: CRMScript.NetServer.NSRedLetterSummary
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

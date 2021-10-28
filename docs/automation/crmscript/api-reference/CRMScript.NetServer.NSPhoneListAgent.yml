@@ -1,0 +1,264 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSPhoneListAgent
+  commentId: T:CRMScript.NetServer.NSPhoneListAgent
+  id: NSPhoneListAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSPhoneListAgent.#ctor
+  - CRMScript.NetServer.NSPhoneListAgent.AddToFavorites(Integer)
+  - CRMScript.NetServer.NSPhoneListAgent.GetContactPhones(Integer)
+  - CRMScript.NetServer.NSPhoneListAgent.GetDepartmentPhones(Integer)
+  - CRMScript.NetServer.NSPhoneListAgent.GetFavoritesPhones()
+  - CRMScript.NetServer.NSPhoneListAgent.GetPreferences()
+  - CRMScript.NetServer.NSPhoneListAgent.Search(String)
+  - CRMScript.NetServer.NSPhoneListAgent.SearchWithPreferences(String,NSPhoneListPreferences)
+  - CRMScript.NetServer.NSPhoneListAgent.SetPreferences(NSPhoneListPreferences)
+  name: NSPhoneListAgent
+  nameWithType: NSPhoneListAgent
+  fullName: CRMScript.NetServer.NSPhoneListAgent
+  type: Class
+  summary: "\nCollection of all services for searching for person or contact (company) phone numbers.\n"
+  example: 
+  - "\n<pre><code>NSPhoneListAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSPhoneListAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSPhoneListAgent
+  langs:
+  - crmscript
+  name: NSPhoneListAgent()
+  nameWithType: NSPhoneListAgent.#ctor
+  fullName: CRMScript.NetServer.NSPhoneListAgent.#ctor
+  type: Constructor
+  summary: "\nCollection of all services for searching for person or contact (company) phone numbers.\n"
+  remarks: 
+  syntax: 
+    content: NSPhoneListAgent
+  example: 
+  - "\n<pre><code>NSPhoneListAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListAgent.AddToFavorites(Integer)
+  commentId: M:CRMScript.NetServer.NSPhoneListAgent.AddToFavorites(Integer)
+  id: 'AddToFavorites(Integer)'
+  so.intellisense: NSPhoneListAgent.AddToFavorites
+  langs:
+  - crmscript
+  name: 'AddToFavorites(Integer)'
+  nameWithType: NSPhoneListAgent.AddToFavorites(Integer)
+  fullName: CRMScript.NetServer.NSPhoneListAgent.AddToFavorites(Integer)
+  type: Method
+  summary: "\nAdds a new contact to the history/favorites. If the contact already existed in the history, it isn't added but the rank is updated.\n"
+  remarks: 
+  syntax: 
+    content: Integer AddToFavorites(Integer contactId)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Integer
+      description: "The rank of the new history item."
+  example: 
+  - "\n<pre><code>NSPhoneListAgent agent;\nInteger contactId;\nInteger res = agent.AddToFavorites(contactId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListAgent.GetContactPhones(Integer)
+  commentId: M:CRMScript.NetServer.NSPhoneListAgent.GetContactPhones(Integer)
+  id: 'GetContactPhones(Integer)'
+  so.intellisense: NSPhoneListAgent.GetContactPhones
+  langs:
+  - crmscript
+  name: 'GetContactPhones(Integer)'
+  nameWithType: NSPhoneListAgent.GetContactPhones(Integer)
+  fullName: CRMScript.NetServer.NSPhoneListAgent.GetContactPhones(Integer)
+  type: Method
+  summary: "\nReturns an array of phone list items for all the persons belonging to a contact (company).\n"
+  remarks: 
+  syntax: 
+    content: NSPhoneListItem[] GetContactPhones(Integer contactId)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: "must be a valid contact Id."
+    return:
+      type: CRMScript.NetServer.NSPhoneListItem[]
+  example: 
+  - "\n<pre><code>NSPhoneListAgent agent;\nInteger contactId;\nNSPhoneListItem[] res = agent.GetContactPhones(contactId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListAgent.GetDepartmentPhones(Integer)
+  commentId: M:CRMScript.NetServer.NSPhoneListAgent.GetDepartmentPhones(Integer)
+  id: 'GetDepartmentPhones(Integer)'
+  so.intellisense: NSPhoneListAgent.GetDepartmentPhones
+  langs:
+  - crmscript
+  name: 'GetDepartmentPhones(Integer)'
+  nameWithType: NSPhoneListAgent.GetDepartmentPhones(Integer)
+  fullName: CRMScript.NetServer.NSPhoneListAgent.GetDepartmentPhones(Integer)
+  type: Method
+  summary: "\nReturns an array of phone list items with the in-parameter as restriction.\n"
+  remarks: 
+  syntax: 
+    content: NSPhoneListItem[] GetDepartmentPhones(Integer departmentId)
+    parameters:
+    - id: departmentId
+      type: CRMScript.Global.Integer
+      description: "must be a valid department ID (UserGroupId)."
+    return:
+      type: CRMScript.NetServer.NSPhoneListItem[]
+  example: 
+  - "\n<pre><code>NSPhoneListAgent agent;\nInteger departmentId;\nNSPhoneListItem[] res = agent.GetDepartmentPhones(departmentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListAgent.GetFavoritesPhones()
+  commentId: M:CRMScript.NetServer.NSPhoneListAgent.GetFavoritesPhones()
+  id: 'GetFavoritesPhones()'
+  so.intellisense: NSPhoneListAgent.GetFavoritesPhones
+  langs:
+  - crmscript
+  name: 'GetFavoritesPhones()'
+  nameWithType: NSPhoneListAgent.GetFavoritesPhones()
+  fullName: CRMScript.NetServer.NSPhoneListAgent.GetFavoritesPhones()
+  type: Method
+  summary: "\nReturns an array of phone list items with the Contacts in the users favorites dropdown list.\n"
+  remarks: 
+  syntax: 
+    content: NSPhoneListItem[] GetFavoritesPhones()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSPhoneListItem[]
+  example: 
+  - "\n<pre><code>NSPhoneListAgent agent;\nNSPhoneListItem[] res = agent.GetFavoritesPhones();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListAgent.GetPreferences()
+  commentId: M:CRMScript.NetServer.NSPhoneListAgent.GetPreferences()
+  id: 'GetPreferences()'
+  so.intellisense: NSPhoneListAgent.GetPreferences
+  langs:
+  - crmscript
+  name: 'GetPreferences()'
+  nameWithType: NSPhoneListAgent.GetPreferences()
+  fullName: CRMScript.NetServer.NSPhoneListAgent.GetPreferences()
+  type: Method
+  summary: "\nGets Phone List Preferences from the CRM 5 user preferences\n"
+  remarks: 
+  syntax: 
+    content: NSPhoneListPreferences GetPreferences()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSPhoneListPreferences
+  example: 
+  - "\n<pre><code>NSPhoneListAgent agent;\nNSPhoneListPreferences res = agent.GetPreferences();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListAgent.Search(String)
+  commentId: M:CRMScript.NetServer.NSPhoneListAgent.Search(String)
+  id: 'Search(String)'
+  so.intellisense: NSPhoneListAgent.Search
+  langs:
+  - crmscript
+  name: 'Search(String)'
+  nameWithType: NSPhoneListAgent.Search(String)
+  fullName: CRMScript.NetServer.NSPhoneListAgent.Search(String)
+  type: Method
+  summary: "\nSearches the phone list using default search preferences or the preferences already set by the NSPhoneListPreferences Service\n"
+  remarks: 
+  syntax: 
+    content: NSPhoneListItem[] Search(String searchString)
+    parameters:
+    - id: searchString
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPhoneListItem[]
+  example: 
+  - "\n<pre><code>NSPhoneListAgent agent;\nString searchString;\nNSPhoneListItem[] res = agent.Search(searchString);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListAgent.SearchWithPreferences(String,NSPhoneListPreferences)
+  commentId: M:CRMScript.NetServer.NSPhoneListAgent.SearchWithPreferences(String,NSPhoneListPreferences)
+  id: 'SearchWithPreferences(String,NSPhoneListPreferences)'
+  so.intellisense: NSPhoneListAgent.SearchWithPreferences
+  langs:
+  - crmscript
+  name: 'SearchWithPreferences(String,NSPhoneListPreferences)'
+  nameWithType: NSPhoneListAgent.SearchWithPreferences(String,NSPhoneListPreferences)
+  fullName: CRMScript.NetServer.NSPhoneListAgent.SearchWithPreferences(String,NSPhoneListPreferences)
+  type: Method
+  summary: "\nSearches the phone list based on the supplied preferences.\n"
+  remarks: 
+  syntax: 
+    content: NSPhoneListItem[] SearchWithPreferences(String searchString, NSPhoneListPreferences preferences)
+    parameters:
+    - id: searchString
+      type: CRMScript.Global.String
+      description: 
+    - id: preferences
+      type: CRMScript.NetServer.NSPhoneListPreferences
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPhoneListItem[]
+  example: 
+  - "\n<pre><code>NSPhoneListAgent agent;\nString searchString;\nNSPhoneListPreferences preferences;\nNSPhoneListItem[] res = agent.SearchWithPreferences(searchString, preferences);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListAgent.SetPreferences(NSPhoneListPreferences)
+  commentId: M:CRMScript.NetServer.NSPhoneListAgent.SetPreferences(NSPhoneListPreferences)
+  id: 'SetPreferences(NSPhoneListPreferences)'
+  so.intellisense: NSPhoneListAgent.SetPreferences
+  langs:
+  - crmscript
+  name: 'SetPreferences(NSPhoneListPreferences)'
+  nameWithType: NSPhoneListAgent.SetPreferences(NSPhoneListPreferences)
+  fullName: CRMScript.NetServer.NSPhoneListAgent.SetPreferences(NSPhoneListPreferences)
+  type: Method
+  summary: "\nSets Phone List Preferences to the CRM 5 user preferences\n"
+  remarks: 
+  syntax: 
+    content: Void SetPreferences(NSPhoneListPreferences preferences)
+    parameters:
+    - id: preferences
+      type: CRMScript.NetServer.NSPhoneListPreferences
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSPhoneListAgent
+  commentId: T:CRMScript.NetServer.NSPhoneListAgent
+  isExternal: true
+  name: NSPhoneListAgent
+  nameWithType: NSPhoneListAgent
+  fullName: CRMScript.NetServer.NSPhoneListAgent
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSPhoneListItem[]
+  isExternal: true
+  name: NSPhoneListItem[]
+  nameWithType: NSPhoneListItem[]
+  fullName: CRMScript.NetServer.NSPhoneListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSPhoneListItem
+    isExternal: true
+    name: NSPhoneListItem
+    nameWithType: NSPhoneListItem
+    fullName: CRMScript.NetServer.NSPhoneListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSPhoneListItem
+  commentId: T:CRMScript.NetServer.NSPhoneListItem
+  isExternal: true
+  name: NSPhoneListItem
+  nameWithType: NSPhoneListItem
+  fullName: CRMScript.NetServer.NSPhoneListItem
+- uid: CRMScript.NetServer.NSPhoneListPreferences
+  commentId: T:CRMScript.NetServer.NSPhoneListPreferences
+  isExternal: true
+  name: NSPhoneListPreferences
+  nameWithType: NSPhoneListPreferences
+  fullName: CRMScript.NetServer.NSPhoneListPreferences
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

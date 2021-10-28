@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSDataRight
+  commentId: T:CRMScript.NetServer.NSDataRight
+  id: NSDataRight
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSDataRight.#ctor
+  - CRMScript.NetServer.NSDataRight.GetDescription()
+  - CRMScript.NetServer.NSDataRight.GetValue()
+  - CRMScript.NetServer.NSDataRight.SetDescription(String)
+  - CRMScript.NetServer.NSDataRight.SetValue(String)
+  name: NSDataRight
+  nameWithType: NSDataRight
+  fullName: CRMScript.NetServer.NSDataRight
+  type: Class
+  summary: "\nCarrier object for DataRight.\n"
+  example: 
+- uid: CRMScript.NetServer.NSDataRight.#ctor
+  commentId: M:CRMScript.NetServer.NSDataRight.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSDataRight
+  langs:
+  - crmscript
+  name: NSDataRight()
+  nameWithType: NSDataRight.#ctor
+  fullName: CRMScript.NetServer.NSDataRight.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSDataRight class.\n"
+  remarks: 
+  syntax: 
+    content: NSDataRight
+  example: 
+- uid: CRMScript.NetServer.NSDataRight.GetDescription()
+  commentId: M:CRMScript.NetServer.NSDataRight.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSDataRight.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSDataRight.GetDescription()
+  fullName: CRMScript.NetServer.NSDataRight.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSDataRight thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDataRight.GetValue()
+  commentId: M:CRMScript.NetServer.NSDataRight.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSDataRight.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSDataRight.GetValue()
+  fullName: CRMScript.NetServer.NSDataRight.GetValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSDataRight thing;\nString value = thing.GetValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDataRight.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSDataRight.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSDataRight.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSDataRight.SetDescription(String)
+  fullName: CRMScript.NetServer.NSDataRight.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDataRight thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDataRight.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSDataRight.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSDataRight.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSDataRight.SetValue(String)
+  fullName: CRMScript.NetServer.NSDataRight.SetValue(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDataRight thing;\nString value;\nthing.SetValue(value);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSDataRight
+  commentId: T:CRMScript.NetServer.NSDataRight
+  isExternal: true
+  name: NSDataRight
+  nameWithType: NSDataRight
+  fullName: CRMScript.NetServer.NSDataRight
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

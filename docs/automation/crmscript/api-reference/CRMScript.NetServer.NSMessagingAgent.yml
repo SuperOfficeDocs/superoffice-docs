@@ -1,0 +1,272 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSMessagingAgent
+  commentId: T:CRMScript.NetServer.NSMessagingAgent
+  id: NSMessagingAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSMessagingAgent.#ctor
+  - CRMScript.NetServer.NSMessagingAgent.CreateMessage(NSIncomingMessage)
+  - CRMScript.NetServer.NSMessagingAgent.GetDeliveryStatus(Integer[])
+  - CRMScript.NetServer.NSMessagingAgent.GetPlugins()
+  - CRMScript.NetServer.NSMessagingAgent.SendMessages(String,NSOutgoingMessage[])
+  - CRMScript.NetServer.NSMessagingAgent.SendMessagesWithConfig(String)
+  - CRMScript.NetServer.NSMessagingAgent.SetDeliveryStatus(String,String,Integer,String)
+  name: NSMessagingAgent
+  nameWithType: NSMessagingAgent
+  fullName: CRMScript.NetServer.NSMessagingAgent
+  type: Class
+  summary: "\nSMS and other external messaging systems.\n"
+  example: 
+  - "\n<pre><code>NSMessagingAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMessagingAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSMessagingAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSMessagingAgent
+  langs:
+  - crmscript
+  name: NSMessagingAgent()
+  nameWithType: NSMessagingAgent.#ctor
+  fullName: CRMScript.NetServer.NSMessagingAgent.#ctor
+  type: Constructor
+  summary: "\nSMS and other external messaging systems.\n"
+  remarks: 
+  syntax: 
+    content: NSMessagingAgent
+  example: 
+  - "\n<pre><code>NSMessagingAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMessagingAgent.CreateMessage(NSIncomingMessage)
+  commentId: M:CRMScript.NetServer.NSMessagingAgent.CreateMessage(NSIncomingMessage)
+  id: 'CreateMessage(NSIncomingMessage)'
+  so.intellisense: NSMessagingAgent.CreateMessage
+  langs:
+  - crmscript
+  name: 'CreateMessage(NSIncomingMessage)'
+  nameWithType: NSMessagingAgent.CreateMessage(NSIncomingMessage)
+  fullName: CRMScript.NetServer.NSMessagingAgent.CreateMessage(NSIncomingMessage)
+  type: Method
+  summary: "\nCreates a new message and insert it in the message queue. (inbox)\n"
+  remarks: 
+  syntax: 
+    content: Void CreateMessage(NSIncomingMessage incomingMessage)
+    parameters:
+    - id: incomingMessage
+      type: CRMScript.NetServer.NSIncomingMessage
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSMessagingAgent.GetDeliveryStatus(Integer[])
+  commentId: M:CRMScript.NetServer.NSMessagingAgent.GetDeliveryStatus(Integer[])
+  id: 'GetDeliveryStatus(Integer[])'
+  so.intellisense: NSMessagingAgent.GetDeliveryStatus
+  langs:
+  - crmscript
+  name: 'GetDeliveryStatus(Integer[])'
+  nameWithType: NSMessagingAgent.GetDeliveryStatus(Integer[])
+  fullName: CRMScript.NetServer.NSMessagingAgent.GetDeliveryStatus(Integer[])
+  type: Method
+  summary: "\nGets delivery status\n"
+  remarks: 
+  syntax: 
+    content: NSMessageDeliveryStatus[] GetDeliveryStatus(Integer[] messagingIds)
+    parameters:
+    - id: messagingIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSMessageDeliveryStatus[]
+  example: 
+- uid: CRMScript.NetServer.NSMessagingAgent.GetPlugins()
+  commentId: M:CRMScript.NetServer.NSMessagingAgent.GetPlugins()
+  id: 'GetPlugins()'
+  so.intellisense: NSMessagingAgent.GetPlugins
+  langs:
+  - crmscript
+  name: 'GetPlugins()'
+  nameWithType: NSMessagingAgent.GetPlugins()
+  fullName: CRMScript.NetServer.NSMessagingAgent.GetPlugins()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSProviderInfo[] GetPlugins()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSProviderInfo[]
+  example: 
+- uid: CRMScript.NetServer.NSMessagingAgent.SendMessages(String,NSOutgoingMessage[])
+  commentId: M:CRMScript.NetServer.NSMessagingAgent.SendMessages(String,NSOutgoingMessage[])
+  id: 'SendMessages(String,NSOutgoingMessage[])'
+  so.intellisense: NSMessagingAgent.SendMessages
+  langs:
+  - crmscript
+  name: 'SendMessages(String,NSOutgoingMessage[])'
+  nameWithType: NSMessagingAgent.SendMessages(String,NSOutgoingMessage[])
+  fullName: CRMScript.NetServer.NSMessagingAgent.SendMessages(String,NSOutgoingMessage[])
+  type: Method
+  summary: "\nSends an array of messages\n"
+  remarks: 
+  syntax: 
+    content: NSMessageDeliveryStatus[] SendMessages(String plugin, NSOutgoingMessage[] outgoingMessages)
+    parameters:
+    - id: plugin
+      type: CRMScript.Global.String
+      description: 
+    - id: outgoingMessages
+      type: CRMScript.NetServer.NSOutgoingMessage[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSMessageDeliveryStatus[]
+  example: 
+  - "\n<pre><code>NSMessagingAgent agent;\nString plugin;\nNSOutgoingMessage[] outgoingMessages;\nNSMessageDeliveryStatus[] res = agent.SendMessages(plugin, outgoingMessages);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMessagingAgent.SendMessagesWithConfig(String)
+  commentId: M:CRMScript.NetServer.NSMessagingAgent.SendMessagesWithConfig(String)
+  id: 'SendMessagesWithConfig(String)'
+  so.intellisense: NSMessagingAgent.SendMessagesWithConfig
+  langs:
+  - crmscript
+  name: 'SendMessagesWithConfig(String)'
+  nameWithType: NSMessagingAgent.SendMessagesWithConfig(String)
+  fullName: CRMScript.NetServer.NSMessagingAgent.SendMessagesWithConfig(String)
+  type: Method
+  summary: "\nSends an array of messages using given config\n"
+  remarks: 
+  syntax: 
+    content: NSMessageDeliveryStatus[] SendMessagesWithConfig(String plugin, NSOutgoingMessage[] outgoingMessages, Map config)
+    parameters:
+    - id: plugin
+      type: CRMScript.Global.String
+      description: 
+    - id: outgoingMessages
+      type: CRMScript.NetServer.NSOutgoingMessage[]
+      description: 
+    - id: config
+      type: CRMScript.Native.Map
+      description:
+    return:
+      type: CRMScript.NetServer.NSMessageDeliveryStatus[]
+  example: 
+  - "\n<pre><code>NSMessagingAgent agent;\nString plugin;\nNSOutgoingMessage[] outgoingMessages;\nMap config;\nNSMessageDeliveryStatus[] res = agent.SendMessagesWithConfig(plugin, outgoingMessages, config);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMessagingAgent.SetDeliveryStatus(String,String,Integer,String)
+  commentId: M:CRMScript.NetServer.NSMessagingAgent.SetDeliveryStatus(String,String,Integer,String)
+  id: 'SetDeliveryStatus(String,String,Integer,String)'
+  so.intellisense: NSMessagingAgent.SetDeliveryStatus
+  langs:
+  - crmscript
+  name: 'SetDeliveryStatus(String,String,Integer,String)'
+  nameWithType: NSMessagingAgent.SetDeliveryStatus(String,String,Integer,String)
+  fullName: CRMScript.NetServer.NSMessagingAgent.SetDeliveryStatus(String,String,Integer,String)
+  type: Method
+  summary: "\nSets or change the delivery status on an outgoing message.\n"
+  remarks: 
+  syntax: 
+    content: Void SetDeliveryStatus(String plugin, String externalMessageId, Integer status, String statusDescription)
+    parameters:
+    - id: plugin
+      type: CRMScript.Global.String
+      description: 
+    - id: externalMessageId
+      type: CRMScript.Global.String
+      description: 
+    - id: status
+      type: CRMScript.Global.Integer
+      description: 
+    - id: statusDescription
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSMessagingAgent
+  commentId: T:CRMScript.NetServer.NSMessagingAgent
+  isExternal: true
+  name: NSMessagingAgent
+  nameWithType: NSMessagingAgent
+  fullName: CRMScript.NetServer.NSMessagingAgent
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    isExternal: true
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSMessageDeliveryStatus[]
+  isExternal: true
+  name: NSMessageDeliveryStatus[]
+  nameWithType: NSMessageDeliveryStatus[]
+  fullName: CRMScript.NetServer.NSMessageDeliveryStatus[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSMessageDeliveryStatus
+    isExternal: true
+    name: NSMessageDeliveryStatus
+    nameWithType: NSMessageDeliveryStatus
+    fullName: CRMScript.NetServer.NSMessageDeliveryStatus
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSMessageDeliveryStatus
+  commentId: T:CRMScript.NetServer.NSMessageDeliveryStatus
+  isExternal: true
+  name: NSMessageDeliveryStatus
+  nameWithType: NSMessageDeliveryStatus
+  fullName: CRMScript.NetServer.NSMessageDeliveryStatus
+- uid: CRMScript.NetServer.NSProviderInfo[]
+  isExternal: true
+  name: NSProviderInfo[]
+  nameWithType: NSProviderInfo[]
+  fullName: CRMScript.NetServer.NSProviderInfo[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSProviderInfo
+    isExternal: true
+    name: NSProviderInfo
+    nameWithType: NSProviderInfo
+    fullName: CRMScript.NetServer.NSProviderInfo
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSProviderInfo
+  commentId: T:CRMScript.NetServer.NSProviderInfo
+  isExternal: true
+  name: NSProviderInfo
+  nameWithType: NSProviderInfo
+  fullName: CRMScript.NetServer.NSProviderInfo
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

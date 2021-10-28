@@ -1,0 +1,235 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.ReplyTemplate
+  commentId: T:CRMScript.Native.ReplyTemplate
+  id: ReplyTemplate
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.ReplyTemplate.#ctor
+  - CRMScript.Native.ReplyTemplate.getAttachments(Integer)
+  - CRMScript.Native.ReplyTemplate.getHtmlBody(Integer)
+  - CRMScript.Native.ReplyTemplate.getName()
+  - CRMScript.Native.ReplyTemplate.getPlainBody(Integer)
+  - CRMScript.Native.ReplyTemplate.getSmsBody(Integer)
+  - CRMScript.Native.ReplyTemplate.getSubject(Integer)
+  - CRMScript.Native.ReplyTemplate.load(Integer)
+  name: ReplyTemplate
+  nameWithType: ReplyTemplate
+  fullName: CRMScript.Native.ReplyTemplate
+  type: Class
+  summary: "\nRepresents a reply template.\n"
+  example: 
+  - "\n<pre><code>ReplyTemplate rt;\n\nrt.load(2); // Loads a reply template with ID = 2\n\nParser p;</code></pre>\n"
+- uid: CRMScript.Native.ReplyTemplate.#ctor
+  commentId: M:CRMScript.Native.ReplyTemplate.#ctor
+  id: '#ctor'
+  so.intellisense: Void.ReplyTemplate
+  langs:
+  - crmscript
+  name: ReplyTemplate()
+  nameWithType: ReplyTemplate.#ctor
+  fullName: CRMScript.Native.ReplyTemplate.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the ReplyTemplate class.\n"
+  remarks: 
+  syntax: 
+    content: ReplyTemplate
+  example: 
+  - "\n<pre><code>ReplyTemplate rt;\n\nrt.load(2); // Loads a reply template with id = 2\n\nParser p;</code></pre>\n"
+- uid: CRMScript.Native.ReplyTemplate.getAttachments(Integer)
+  commentId: M:CRMScript.Native.ReplyTemplate.getAttachments(Integer)
+  id: 'getAttachments(Integer)'
+  so.intellisense: ReplyTemplate.getAttachments
+  langs:
+  - crmscript
+  name: 'getAttachments(Integer)'
+  nameWithType: ReplyTemplate.getAttachments(Integer)
+  fullName: CRMScript.Native.ReplyTemplate.getAttachments(Integer)
+  type: Method
+  summary: "\nGets all attachment IDs belonging to a reply template.\n"
+  remarks: 
+  syntax: 
+    content: Integer[] getAttachments(Integer lang)
+    parameters:
+    - id: lang
+      type: CRMScript.Global.Integer
+      description: "Language as an integer."
+    return:
+      type: CRMScript.Global.Integer[]
+      description: "Attachment IDs belonging to a reply template."
+  example: 
+- uid: CRMScript.Native.ReplyTemplate.getHtmlBody(Integer)
+  commentId: M:CRMScript.Native.ReplyTemplate.getHtmlBody(Integer)
+  id: 'getHtmlBody(Integer)'
+  so.intellisense: ReplyTemplate.getHtmlBody
+  langs:
+  - crmscript
+  name: 'getHtmlBody(Integer)'
+  nameWithType: ReplyTemplate.getHtmlBody(Integer)
+  fullName: CRMScript.Native.ReplyTemplate.getHtmlBody(Integer)
+  type: Method
+  summary: "\nReturns the reply template HTML body, in the language given by language. If language does not exists it will return default language.\n"
+  remarks: "\nSupported languages depend on configuration.\n"
+  syntax: 
+    content: String getHtmlBody(Integer language)
+    parameters:
+    - id: language
+      type: CRMScript.Global.Integer
+      description: "Language as an integer."
+    return:
+      type: CRMScript.Global.String
+      description: "The reply template HTML body, in the language given."
+  example: 
+- uid: CRMScript.Native.ReplyTemplate.getName()
+  commentId: M:CRMScript.Native.ReplyTemplate.getName()
+  id: 'getName()'
+  so.intellisense: ReplyTemplate.getName
+  langs:
+  - crmscript
+  name: 'getName()'
+  nameWithType: ReplyTemplate.getName()
+  fullName: CRMScript.Native.ReplyTemplate.getName()
+  type: Method
+  summary: "\nReturns the name of the reply template.\n"
+  remarks: 
+  syntax: 
+    content: String getName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the reply template."
+  example: 
+- uid: CRMScript.Native.ReplyTemplate.getPlainBody(Integer)
+  commentId: M:CRMScript.Native.ReplyTemplate.getPlainBody(Integer)
+  id: 'getPlainBody(Integer)'
+  so.intellisense: ReplyTemplate.getPlainBody
+  langs:
+  - crmscript
+  name: 'getPlainBody(Integer)'
+  nameWithType: ReplyTemplate.getPlainBody(Integer)
+  fullName: CRMScript.Native.ReplyTemplate.getPlainBody(Integer)
+  type: Method
+  summary: "\nReturns the reply template plain text body in the given language (if available). If language does not exists, it will return default language.\n"
+  remarks: 
+  syntax: 
+    content: String getPlainBody(Integer language)
+    parameters:
+    - id: language
+      type: CRMScript.Global.Integer
+      description: "Language as an integer."
+    return:
+      type: CRMScript.Global.String
+      description: "The reply template plain text body in the given language."
+  example: 
+- uid: CRMScript.Native.ReplyTemplate.getSmsBody(Integer)
+  commentId: M:CRMScript.Native.ReplyTemplate.getSmsBody(Integer)
+  id: 'getSmsBody(Integer)'
+  so.intellisense: ReplyTemplate.getSmsBody
+  langs:
+  - crmscript
+  name: 'getSmsBody(Integer)'
+  nameWithType: ReplyTemplate.getSmsBody(Integer)
+  fullName: CRMScript.Native.ReplyTemplate.getSmsBody(Integer)
+  type: Method
+  summary: "\nReturns the reply template SMS body, in the language given by language ID. If language does not exists it will return default language.\n"
+  remarks: 
+  syntax: 
+    content: String getSmsBody(Integer language)
+    parameters:
+    - id: language
+      type: CRMScript.Global.Integer
+      description: "Language as an integer."
+    return:
+      type: CRMScript.Global.String
+      description: "The reply template SMS body in the language given."
+  example: 
+- uid: CRMScript.Native.ReplyTemplate.getSubject(Integer)
+  commentId: M:CRMScript.Native.ReplyTemplate.getSubject(Integer)
+  id: 'getSubject(Integer)'
+  so.intellisense: ReplyTemplate.getSubject
+  langs:
+  - crmscript
+  name: 'getSubject(Integer)'
+  nameWithType: ReplyTemplate.getSubject(Integer)
+  fullName: CRMScript.Native.ReplyTemplate.getSubject(Integer)
+  type: Method
+  summary: "\nReturns the reply template subject, in the language given by language. If language does not exists it will return default language.\n"
+  remarks: "\nSupported languages depend on configuration.\n"
+  syntax: 
+    content: String getSubject(Integer language)
+    parameters:
+    - id: language
+      type: CRMScript.Global.Integer
+      description: "Language as an integer."
+    return:
+      type: CRMScript.Global.String
+      description: "The reply template plain-text subject in the language given."
+  example: 
+- uid: CRMScript.Native.ReplyTemplate.load(Integer)
+  commentId: M:CRMScript.Native.ReplyTemplate.load(Integer)
+  id: 'load(Integer)'
+  so.intellisense: ReplyTemplate.load
+  langs:
+  - crmscript
+  name: 'load(Integer)'
+  nameWithType: ReplyTemplate.load(Integer)
+  fullName: CRMScript.Native.ReplyTemplate.load(Integer)
+  type: Method
+  summary: "\nThis function loads a reply template to the object.\n"
+  remarks: 
+  syntax: 
+    content: Bool load(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "Reply template ID."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if reply template with given ID loaded successfully; otherwise, false."
+  example: 
+references:
+- uid: CRMScript.Native.ReplyTemplate
+  commentId: T:CRMScript.Native.ReplyTemplate
+  isExternal: true
+  name: ReplyTemplate
+  nameWithType: ReplyTemplate
+  fullName: CRMScript.Native.ReplyTemplate
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

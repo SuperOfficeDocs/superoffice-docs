@@ -1,0 +1,237 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSTemporaryKeyInfo
+  commentId: T:CRMScript.NetServer.NSTemporaryKeyInfo
+  id: NSTemporaryKeyInfo
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSTemporaryKeyInfo.#ctor
+  - CRMScript.NetServer.NSTemporaryKeyInfo.GetDomain()
+  - CRMScript.NetServer.NSTemporaryKeyInfo.GetIsExpired()
+  - CRMScript.NetServer.NSTemporaryKeyInfo.GetPersonId()
+  - CRMScript.NetServer.NSTemporaryKeyInfo.GetTargetId()
+  - CRMScript.NetServer.NSTemporaryKeyInfo.SetDomain(Integer)
+  - CRMScript.NetServer.NSTemporaryKeyInfo.SetIsExpired(Bool)
+  - CRMScript.NetServer.NSTemporaryKeyInfo.SetPersonId(Integer)
+  - CRMScript.NetServer.NSTemporaryKeyInfo.SetTargetId(Integer)
+  name: NSTemporaryKeyInfo
+  nameWithType: NSTemporaryKeyInfo
+  fullName: CRMScript.NetServer.NSTemporaryKeyInfo
+  type: Class
+  summary: "\nThe fields returned when checking a temporary key.\n"
+  example: 
+- uid: CRMScript.NetServer.NSTemporaryKeyInfo.#ctor
+  commentId: M:CRMScript.NetServer.NSTemporaryKeyInfo.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSTemporaryKeyInfo
+  langs:
+  - crmscript
+  name: NSTemporaryKeyInfo()
+  nameWithType: NSTemporaryKeyInfo.#ctor
+  fullName: CRMScript.NetServer.NSTemporaryKeyInfo.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSTemporaryKeyInfo class.\n"
+  remarks: 
+  syntax: 
+    content: NSTemporaryKeyInfo
+  example: 
+- uid: CRMScript.NetServer.NSTemporaryKeyInfo.GetDomain()
+  commentId: M:CRMScript.NetServer.NSTemporaryKeyInfo.GetDomain()
+  id: 'GetDomain()'
+  so.intellisense: NSTemporaryKeyInfo.GetDomain
+  langs:
+  - crmscript
+  name: 'GetDomain()'
+  nameWithType: NSTemporaryKeyInfo.GetDomain()
+  fullName: CRMScript.NetServer.NSTemporaryKeyInfo.GetDomain()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDomain()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The domain for this key. Unknown if key is not valid. See <xref href=\"CRMScript.NetServer.TemporaryKeyDomain\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSTemporaryKeyInfo thing;\nInteger domain = thing.GetDomain();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemporaryKeyInfo.GetIsExpired()
+  commentId: M:CRMScript.NetServer.NSTemporaryKeyInfo.GetIsExpired()
+  id: 'GetIsExpired()'
+  so.intellisense: NSTemporaryKeyInfo.GetIsExpired
+  langs:
+  - crmscript
+  name: 'GetIsExpired()'
+  nameWithType: NSTemporaryKeyInfo.GetIsExpired()
+  fullName: CRMScript.NetServer.NSTemporaryKeyInfo.GetIsExpired()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsExpired()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Whether the key is expired or not."
+  example: 
+  - "\n<pre><code>NSTemporaryKeyInfo thing;\nBool isExpired = thing.GetIsExpired();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemporaryKeyInfo.GetPersonId()
+  commentId: M:CRMScript.NetServer.NSTemporaryKeyInfo.GetPersonId()
+  id: 'GetPersonId()'
+  so.intellisense: NSTemporaryKeyInfo.GetPersonId
+  langs:
+  - crmscript
+  name: 'GetPersonId()'
+  nameWithType: NSTemporaryKeyInfo.GetPersonId()
+  fullName: CRMScript.NetServer.NSTemporaryKeyInfo.GetPersonId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPersonId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The person ID this key is related to. May be null."
+  example: 
+  - "\n<pre><code>NSTemporaryKeyInfo thing;\nInteger personId = thing.GetPersonId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemporaryKeyInfo.GetTargetId()
+  commentId: M:CRMScript.NetServer.NSTemporaryKeyInfo.GetTargetId()
+  id: 'GetTargetId()'
+  so.intellisense: NSTemporaryKeyInfo.GetTargetId
+  langs:
+  - crmscript
+  name: 'GetTargetId()'
+  nameWithType: NSTemporaryKeyInfo.GetTargetId()
+  fullName: CRMScript.NetServer.NSTemporaryKeyInfo.GetTargetId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTargetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The primary key of the entity this temporary key is for, dependent of domain."
+  example: 
+  - "\n<pre><code>NSTemporaryKeyInfo thing;\nInteger targetId = thing.GetTargetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemporaryKeyInfo.SetDomain(Integer)
+  commentId: M:CRMScript.NetServer.NSTemporaryKeyInfo.SetDomain(Integer)
+  id: 'SetDomain(Integer)'
+  so.intellisense: NSTemporaryKeyInfo.SetDomain
+  langs:
+  - crmscript
+  name: 'SetDomain(Integer)'
+  nameWithType: NSTemporaryKeyInfo.SetDomain(Integer)
+  fullName: CRMScript.NetServer.NSTemporaryKeyInfo.SetDomain(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDomain(Integer domain)
+    parameters:
+    - id: domain
+      type: CRMScript.Global.Integer
+      description: "The domain for this key. Unknown if key is not valid. See <xref href=\"CRMScript.NetServer.TemporaryKeyDomain\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTemporaryKeyInfo thing;\nInteger domain;\nthing.SetDomain(domain);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemporaryKeyInfo.SetIsExpired(Bool)
+  commentId: M:CRMScript.NetServer.NSTemporaryKeyInfo.SetIsExpired(Bool)
+  id: 'SetIsExpired(Bool)'
+  so.intellisense: NSTemporaryKeyInfo.SetIsExpired
+  langs:
+  - crmscript
+  name: 'SetIsExpired(Bool)'
+  nameWithType: NSTemporaryKeyInfo.SetIsExpired(Bool)
+  fullName: CRMScript.NetServer.NSTemporaryKeyInfo.SetIsExpired(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsExpired(Bool isExpired)
+    parameters:
+    - id: isExpired
+      type: CRMScript.Global.Bool
+      description: "Whether the key is expired or not."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTemporaryKeyInfo thing;\nBool isExpired;\nthing.SetIsExpired(isExpired);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemporaryKeyInfo.SetPersonId(Integer)
+  commentId: M:CRMScript.NetServer.NSTemporaryKeyInfo.SetPersonId(Integer)
+  id: 'SetPersonId(Integer)'
+  so.intellisense: NSTemporaryKeyInfo.SetPersonId
+  langs:
+  - crmscript
+  name: 'SetPersonId(Integer)'
+  nameWithType: NSTemporaryKeyInfo.SetPersonId(Integer)
+  fullName: CRMScript.NetServer.NSTemporaryKeyInfo.SetPersonId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonId(Integer personId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: "The person ID this key is related to. May be null."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTemporaryKeyInfo thing;\nInteger personId;\nthing.SetPersonId(personId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemporaryKeyInfo.SetTargetId(Integer)
+  commentId: M:CRMScript.NetServer.NSTemporaryKeyInfo.SetTargetId(Integer)
+  id: 'SetTargetId(Integer)'
+  so.intellisense: NSTemporaryKeyInfo.SetTargetId
+  langs:
+  - crmscript
+  name: 'SetTargetId(Integer)'
+  nameWithType: NSTemporaryKeyInfo.SetTargetId(Integer)
+  fullName: CRMScript.NetServer.NSTemporaryKeyInfo.SetTargetId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTargetId(Integer targetId)
+    parameters:
+    - id: targetId
+      type: CRMScript.Global.Integer
+      description: "The primary key of the entity this temporary key is for, dependent of domain."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTemporaryKeyInfo thing;\nInteger targetId;\nthing.SetTargetId(targetId);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSTemporaryKeyInfo
+  commentId: T:CRMScript.NetServer.NSTemporaryKeyInfo
+  isExternal: true
+  name: NSTemporaryKeyInfo
+  nameWithType: NSTemporaryKeyInfo
+  fullName: CRMScript.NetServer.NSTemporaryKeyInfo
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.TemporaryKeyDomain
+  commentId: T:CRMScript.NetServer.TemporaryKeyDomain
+  isExternal: true
+  name: TemporaryKeyDomain
+  nameWithType: TemporaryKeyDomain
+  fullName: CRMScript.NetServer.TemporaryKeyDomain

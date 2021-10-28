@@ -1,0 +1,299 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSPocketAgent
+  commentId: T:CRMScript.NetServer.NSPocketAgent
+  id: NSPocketAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSPocketAgent.#ctor
+  - CRMScript.NetServer.NSPocketAgent.GetPocketStartupData(String[])
+  - CRMScript.NetServer.NSPocketAgent.GetPushNotificationTagsForDevice(String)
+  - CRMScript.NetServer.NSPocketAgent.GetRegisteredDevices(Integer)
+  - CRMScript.NetServer.NSPocketAgent.RegisterDeviceForPushNotification(NSPocketDeviceInfo)
+  - CRMScript.NetServer.NSPocketAgent.RunAppointmentAlarmBroker()
+  - CRMScript.NetServer.NSPocketAgent.SendPushNotification(Integer[],PocketNotificationMessage)
+  - CRMScript.NetServer.NSPocketAgent.SetPushNotificationTagsForDevice(String,String)
+  - CRMScript.NetServer.NSPocketAgent.SetPushNotificationTagsForUser(Integer,String)
+  name: NSPocketAgent
+  nameWithType: NSPocketAgent
+  fullName: CRMScript.NetServer.NSPocketAgent
+  type: Class
+  summary: "\nAgent with Pocket specific functionality.\n"
+  example: 
+  - "\n<pre><code>NSPocketAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSPocketAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSPocketAgent
+  langs:
+  - crmscript
+  name: NSPocketAgent()
+  nameWithType: NSPocketAgent.#ctor
+  fullName: CRMScript.NetServer.NSPocketAgent.#ctor
+  type: Constructor
+  summary: "\nAgent with Pocket specific functionality.\n"
+  remarks: 
+  syntax: 
+    content: NSPocketAgent
+  example: 
+  - "\n<pre><code>NSPocketAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketAgent.GetPocketStartupData(String[])
+  commentId: M:CRMScript.NetServer.NSPocketAgent.GetPocketStartupData(String[])
+  id: 'GetPocketStartupData(String[])'
+  so.intellisense: NSPocketAgent.GetPocketStartupData
+  langs:
+  - crmscript
+  name: 'GetPocketStartupData(String[])'
+  nameWithType: NSPocketAgent.GetPocketStartupData(String[])
+  fullName: CRMScript.NetServer.NSPocketAgent.GetPocketStartupData(String[])
+  type: Method
+  summary: "\nReturns start-up data for SuperOffice Pocket CRM\n"
+  remarks: 
+  syntax: 
+    content: NSPocketStartupData GetPocketStartupData(String[] tables, DateTime currentClientTime)
+    parameters:
+    - id: tables
+      type: CRMScript.Global.String[]
+      description: 
+    - id: currentClientTime
+      type: CRMScript.Global.DateTime
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPocketStartupData
+  example: 
+  - "\n<pre><code>NSPocketAgent agent;\nString[] tables;\nDateTime currentClientTime;\nNSPocketStartupData res = agent.GetPocketStartupData(tables, currentClientTime);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketAgent.GetPushNotificationTagsForDevice(String)
+  commentId: M:CRMScript.NetServer.NSPocketAgent.GetPushNotificationTagsForDevice(String)
+  id: 'GetPushNotificationTagsForDevice(String)'
+  so.intellisense: NSPocketAgent.GetPushNotificationTagsForDevice
+  langs:
+  - crmscript
+  name: 'GetPushNotificationTagsForDevice(String)'
+  nameWithType: NSPocketAgent.GetPushNotificationTagsForDevice(String)
+  fullName: CRMScript.NetServer.NSPocketAgent.GetPushNotificationTagsForDevice(String)
+  type: Method
+  summary: "\nRetrieves current tag value for a device\n"
+  remarks: 
+  syntax: 
+    content: String GetPushNotificationTagsForDevice(String deviceIdentifier)
+    parameters:
+    - id: deviceIdentifier
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSPocketAgent agent;\nString deviceIdentifier;\nString res = agent.GetPushNotificationTagsForDevice(deviceIdentifier);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketAgent.GetRegisteredDevices(Integer)
+  commentId: M:CRMScript.NetServer.NSPocketAgent.GetRegisteredDevices(Integer)
+  id: 'GetRegisteredDevices(Integer)'
+  so.intellisense: NSPocketAgent.GetRegisteredDevices
+  langs:
+  - crmscript
+  name: 'GetRegisteredDevices(Integer)'
+  nameWithType: NSPocketAgent.GetRegisteredDevices(Integer)
+  fullName: CRMScript.NetServer.NSPocketAgent.GetRegisteredDevices(Integer)
+  type: Method
+  summary: "\nRetrieves all registered devices for an associate\n"
+  remarks: 
+  syntax: 
+    content: NSPocketDeviceInfo[] GetRegisteredDevices(Integer associateId)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPocketDeviceInfo[]
+  example: 
+- uid: CRMScript.NetServer.NSPocketAgent.RegisterDeviceForPushNotification(NSPocketDeviceInfo)
+  commentId: M:CRMScript.NetServer.NSPocketAgent.RegisterDeviceForPushNotification(NSPocketDeviceInfo)
+  id: 'RegisterDeviceForPushNotification(NSPocketDeviceInfo)'
+  so.intellisense: NSPocketAgent.RegisterDeviceForPushNotification
+  langs:
+  - crmscript
+  name: 'RegisterDeviceForPushNotification(NSPocketDeviceInfo)'
+  nameWithType: NSPocketAgent.RegisterDeviceForPushNotification(NSPocketDeviceInfo)
+  fullName: CRMScript.NetServer.NSPocketAgent.RegisterDeviceForPushNotification(NSPocketDeviceInfo)
+  type: Method
+  summary: "\nRegisters a device that should receive push notifications when notable events occur\n"
+  remarks: 
+  syntax: 
+    content: Void RegisterDeviceForPushNotification(NSPocketDeviceInfo deviceInfo)
+    parameters:
+    - id: deviceInfo
+      type: CRMScript.NetServer.NSPocketDeviceInfo
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSPocketAgent.RunAppointmentAlarmBroker()
+  commentId: M:CRMScript.NetServer.NSPocketAgent.RunAppointmentAlarmBroker()
+  id: 'RunAppointmentAlarmBroker()'
+  so.intellisense: NSPocketAgent.RunAppointmentAlarmBroker
+  langs:
+  - crmscript
+  name: 'RunAppointmentAlarmBroker()'
+  nameWithType: NSPocketAgent.RunAppointmentAlarmBroker()
+  fullName: CRMScript.NetServer.NSPocketAgent.RunAppointmentAlarmBroker()
+  type: Method
+  summary: "\nExecutes the AppointmentAlarmBroker once\n"
+  remarks: 
+  syntax: 
+    content: Void RunAppointmentAlarmBroker()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSPocketAgent.SendPushNotification(Integer[],PocketNotificationMessage)
+  commentId: M:CRMScript.NetServer.NSPocketAgent.SendPushNotification(Integer[],PocketNotificationMessage)
+  id: 'SendPushNotification(Integer[],PocketNotificationMessage)'
+  so.intellisense: NSPocketAgent.SendPushNotification
+  langs:
+  - crmscript
+  name: 'SendPushNotification(Integer[],PocketNotificationMessage)'
+  nameWithType: NSPocketAgent.SendPushNotification(Integer[],PocketNotificationMessage)
+  fullName: CRMScript.NetServer.NSPocketAgent.SendPushNotification(Integer[],PocketNotificationMessage)
+  type: Method
+  summary: "\nSends a push notification to one or more associates\n"
+  remarks: 
+  syntax: 
+    content: Void SendPushNotification(Integer[] associateIds, PocketNotificationMessage message)
+    parameters:
+    - id: associateIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    - id: message
+      type: CRMScript.NetServer.PocketNotificationMessage
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSPocketAgent.SetPushNotificationTagsForDevice(String,String)
+  commentId: M:CRMScript.NetServer.NSPocketAgent.SetPushNotificationTagsForDevice(String,String)
+  id: 'SetPushNotificationTagsForDevice(String,String)'
+  so.intellisense: NSPocketAgent.SetPushNotificationTagsForDevice
+  langs:
+  - crmscript
+  name: 'SetPushNotificationTagsForDevice(String,String)'
+  nameWithType: NSPocketAgent.SetPushNotificationTagsForDevice(String,String)
+  fullName: CRMScript.NetServer.NSPocketAgent.SetPushNotificationTagsForDevice(String,String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPushNotificationTagsForDevice(String deviceIdentifier, String tags)
+    parameters:
+    - id: deviceIdentifier
+      type: CRMScript.Global.String
+      description: 
+    - id: tags
+      type: CRMScript.Global.String
+      description: "The notification events a device should receive push notifications for."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSPocketAgent.SetPushNotificationTagsForUser(Integer,String)
+  commentId: M:CRMScript.NetServer.NSPocketAgent.SetPushNotificationTagsForUser(Integer,String)
+  id: 'SetPushNotificationTagsForUser(Integer,String)'
+  so.intellisense: NSPocketAgent.SetPushNotificationTagsForUser
+  langs:
+  - crmscript
+  name: 'SetPushNotificationTagsForUser(Integer,String)'
+  nameWithType: NSPocketAgent.SetPushNotificationTagsForUser(Integer,String)
+  fullName: CRMScript.NetServer.NSPocketAgent.SetPushNotificationTagsForUser(Integer,String)
+  type: Method
+  summary: # TODO
+  remarks: "\nThis will update all registered devices for this user.\n"
+  syntax: 
+    content: Void SetPushNotificationTagsForUser(Integer associateId, String tags)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: tags
+      type: CRMScript.Global.String
+      description: "The notification events a user should receive push notifications for."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSPocketAgent
+  commentId: T:CRMScript.NetServer.NSPocketAgent
+  isExternal: true
+  name: NSPocketAgent
+  nameWithType: NSPocketAgent
+  fullName: CRMScript.NetServer.NSPocketAgent
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    isExternal: true
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSPocketStartupData
+  commentId: T:CRMScript.NetServer.NSPocketStartupData
+  isExternal: true
+  name: NSPocketStartupData
+  nameWithType: NSPocketStartupData
+  fullName: CRMScript.NetServer.NSPocketStartupData
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSPocketDeviceInfo[]
+  isExternal: true
+  name: NSPocketDeviceInfo[]
+  nameWithType: NSPocketDeviceInfo[]
+  fullName: CRMScript.NetServer.NSPocketDeviceInfo[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSPocketDeviceInfo
+    isExternal: true
+    name: NSPocketDeviceInfo
+    nameWithType: NSPocketDeviceInfo
+    fullName: CRMScript.NetServer.NSPocketDeviceInfo
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSPocketDeviceInfo
+  commentId: T:CRMScript.NetServer.NSPocketDeviceInfo
+  isExternal: true
+  name: NSPocketDeviceInfo
+  nameWithType: NSPocketDeviceInfo
+  fullName: CRMScript.NetServer.NSPocketDeviceInfo
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    isExternal: true
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'

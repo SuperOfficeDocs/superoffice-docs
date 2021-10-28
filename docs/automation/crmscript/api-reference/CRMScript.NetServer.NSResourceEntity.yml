@@ -1,0 +1,369 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSResourceEntity
+  commentId: T:CRMScript.NetServer.NSResourceEntity
+  id: NSResourceEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSResourceEntity.#ctor
+  - CRMScript.NetServer.NSResourceEntity.GetDeleted()
+  - CRMScript.NetServer.NSResourceEntity.GetIsLocation()
+  - CRMScript.NetServer.NSResourceEntity.GetLocationAddress()
+  - CRMScript.NetServer.NSResourceEntity.GetName()
+  - CRMScript.NetServer.NSResourceEntity.GetRank()
+  - CRMScript.NetServer.NSResourceEntity.GetResourceId()
+  - CRMScript.NetServer.NSResourceEntity.GetTooltip()
+  - CRMScript.NetServer.NSResourceEntity.SetDeleted(Bool)
+  - CRMScript.NetServer.NSResourceEntity.SetIsLocation(Bool)
+  - CRMScript.NetServer.NSResourceEntity.SetLocationAddress(String)
+  - CRMScript.NetServer.NSResourceEntity.SetName(String)
+  - CRMScript.NetServer.NSResourceEntity.SetRank(Integer)
+  - CRMScript.NetServer.NSResourceEntity.SetResourceId(Integer)
+  - CRMScript.NetServer.NSResourceEntity.SetTooltip(String)
+  name: NSResourceEntity
+  nameWithType: NSResourceEntity
+  fullName: CRMScript.NetServer.NSResourceEntity
+  type: Class
+  summary: "\nThe resource entity contains resource information.\n"
+  example: 
+- uid: CRMScript.NetServer.NSResourceEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSResourceEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSResourceEntity
+  langs:
+  - crmscript
+  name: NSResourceEntity()
+  nameWithType: NSResourceEntity.#ctor
+  fullName: CRMScript.NetServer.NSResourceEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSResourceEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSResourceEntity
+  example: 
+- uid: CRMScript.NetServer.NSResourceEntity.GetDeleted()
+  commentId: M:CRMScript.NetServer.NSResourceEntity.GetDeleted()
+  id: 'GetDeleted()'
+  so.intellisense: NSResourceEntity.GetDeleted
+  langs:
+  - crmscript
+  name: 'GetDeleted()'
+  nameWithType: NSResourceEntity.GetDeleted()
+  fullName: CRMScript.NetServer.NSResourceEntity.GetDeleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetDeleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If true, the resource is deleted."
+  example: 
+  - "\n<pre><code>NSResourceEntity thing;\nBool deleted = thing.GetDeleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceEntity.GetIsLocation()
+  commentId: M:CRMScript.NetServer.NSResourceEntity.GetIsLocation()
+  id: 'GetIsLocation()'
+  so.intellisense: NSResourceEntity.GetIsLocation
+  langs:
+  - crmscript
+  name: 'GetIsLocation()'
+  nameWithType: NSResourceEntity.GetIsLocation()
+  fullName: CRMScript.NetServer.NSResourceEntity.GetIsLocation()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsLocation()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If true the resource is a location."
+  example: 
+  - "\n<pre><code>NSResourceEntity thing;\nBool isLocation = thing.GetIsLocation();</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceEntity.GetLocationAddress()
+  commentId: M:CRMScript.NetServer.NSResourceEntity.GetLocationAddress()
+  id: 'GetLocationAddress()'
+  so.intellisense: NSResourceEntity.GetLocationAddress
+  langs:
+  - crmscript
+  name: 'GetLocationAddress()'
+  nameWithType: NSResourceEntity.GetLocationAddress()
+  fullName: CRMScript.NetServer.NSResourceEntity.GetLocationAddress()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetLocationAddress()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Address of location, if this is a resource that is a location."
+  example: 
+  - "\n<pre><code>NSResourceEntity thing;\nString locationAddress = thing.GetLocationAddress();</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSResourceEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSResourceEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSResourceEntity.GetName()
+  fullName: CRMScript.NetServer.NSResourceEntity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Initials, also login name, possibly database user name."
+  example: 
+  - "\n<pre><code>NSResourceEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceEntity.GetRank()
+  commentId: M:CRMScript.NetServer.NSResourceEntity.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSResourceEntity.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSResourceEntity.GetRank()
+  fullName: CRMScript.NetServer.NSResourceEntity.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Rank order."
+  example: 
+  - "\n<pre><code>NSResourceEntity thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceEntity.GetResourceId()
+  commentId: M:CRMScript.NetServer.NSResourceEntity.GetResourceId()
+  id: 'GetResourceId()'
+  so.intellisense: NSResourceEntity.GetResourceId
+  langs:
+  - crmscript
+  name: 'GetResourceId()'
+  nameWithType: NSResourceEntity.GetResourceId()
+  fullName: CRMScript.NetServer.NSResourceEntity.GetResourceId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetResourceId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSResourceEntity thing;\nInteger resourceId = thing.GetResourceId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceEntity.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSResourceEntity.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSResourceEntity.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSResourceEntity.GetTooltip()
+  fullName: CRMScript.NetServer.NSResourceEntity.GetTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Tooltip or other description."
+  example: 
+  - "\n<pre><code>NSResourceEntity thing;\nString tooltip = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceEntity.SetDeleted(Bool)
+  commentId: M:CRMScript.NetServer.NSResourceEntity.SetDeleted(Bool)
+  id: 'SetDeleted(Bool)'
+  so.intellisense: NSResourceEntity.SetDeleted
+  langs:
+  - crmscript
+  name: 'SetDeleted(Bool)'
+  nameWithType: NSResourceEntity.SetDeleted(Bool)
+  fullName: CRMScript.NetServer.NSResourceEntity.SetDeleted(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeleted(Bool deleted)
+    parameters:
+    - id: deleted
+      type: CRMScript.Global.Bool
+      description: "If true, the resource is deleted."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSResourceEntity thing;\nBool deleted;\nthing.SetDeleted(deleted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceEntity.SetIsLocation(Bool)
+  commentId: M:CRMScript.NetServer.NSResourceEntity.SetIsLocation(Bool)
+  id: 'SetIsLocation(Bool)'
+  so.intellisense: NSResourceEntity.SetIsLocation
+  langs:
+  - crmscript
+  name: 'SetIsLocation(Bool)'
+  nameWithType: NSResourceEntity.SetIsLocation(Bool)
+  fullName: CRMScript.NetServer.NSResourceEntity.SetIsLocation(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsLocation(Bool isLocation)
+    parameters:
+    - id: isLocation
+      type: CRMScript.Global.Bool
+      description: "If true the resource is a location."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSResourceEntity thing;\nBool isLocation;\nthing.SetIsLocation(isLocation);</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceEntity.SetLocationAddress(String)
+  commentId: M:CRMScript.NetServer.NSResourceEntity.SetLocationAddress(String)
+  id: 'SetLocationAddress(String)'
+  so.intellisense: NSResourceEntity.SetLocationAddress
+  langs:
+  - crmscript
+  name: 'SetLocationAddress(String)'
+  nameWithType: NSResourceEntity.SetLocationAddress(String)
+  fullName: CRMScript.NetServer.NSResourceEntity.SetLocationAddress(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLocationAddress(String locationAddress)
+    parameters:
+    - id: locationAddress
+      type: CRMScript.Global.String
+      description: "Address of location, if this is a resource that is a location."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSResourceEntity thing;\nString locationAddress;\nthing.SetLocationAddress(locationAddress);</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSResourceEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSResourceEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSResourceEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSResourceEntity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Initials, also login name, possibly database user name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSResourceEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceEntity.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSResourceEntity.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSResourceEntity.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSResourceEntity.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSResourceEntity.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "Rank order."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSResourceEntity thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceEntity.SetResourceId(Integer)
+  commentId: M:CRMScript.NetServer.NSResourceEntity.SetResourceId(Integer)
+  id: 'SetResourceId(Integer)'
+  so.intellisense: NSResourceEntity.SetResourceId
+  langs:
+  - crmscript
+  name: 'SetResourceId(Integer)'
+  nameWithType: NSResourceEntity.SetResourceId(Integer)
+  fullName: CRMScript.NetServer.NSResourceEntity.SetResourceId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetResourceId(Integer resourceId)
+    parameters:
+    - id: resourceId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSResourceEntity thing;\nInteger resourceId;\nthing.SetResourceId(resourceId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceEntity.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSResourceEntity.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSResourceEntity.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSResourceEntity.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSResourceEntity.SetTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: "Tooltip or other description."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSResourceEntity thing;\nString tooltip;\nthing.SetTooltip(tooltip);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSResourceEntity
+  commentId: T:CRMScript.NetServer.NSResourceEntity
+  isExternal: true
+  name: NSResourceEntity
+  nameWithType: NSResourceEntity
+  fullName: CRMScript.NetServer.NSResourceEntity
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

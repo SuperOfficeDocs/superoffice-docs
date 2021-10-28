@@ -1,0 +1,1664 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  id: String
+  langs:
+  - crmscript
+  children:
+    - CRMScript.Global.String.#ctor
+    - CRMScript.Global.String.#ctor(String)
+    - CRMScript.Global.String.#ctor(Byte[])
+    - CRMScript.Global.String.#ctor(Byte[], String)
+    - CRMScript.Global.String.#ctor(NSStream)
+    - CRMScript.Global.String.#ctor(NSStream, String)
+    - CRMScript.Global.String.getLength()
+    - CRMScript.Global.String.toLower()
+    - CRMScript.Global.String.toUpper()
+    - CRMScript.Global.String.isLower()
+    - CRMScript.Global.String.isUpper()
+    - CRMScript.Global.String.escape(String)
+    - CRMScript.Global.String.equals(String)
+    - CRMScript.Global.String.equalsIgnoreCase(String)
+    - CRMScript.Global.String.beginsWith(String)
+    - CRMScript.Global.String.caseBeginsWith(String)
+    - CRMScript.Global.String.endsWith(String)
+    - CRMScript.Global.String.caseEndsWith(String)
+    - CRMScript.Global.String.compare(String)
+    - CRMScript.Global.String.caseCompare(String)
+    - CRMScript.Global.String.append(String)
+    - CRMScript.Global.String.append(Byte)
+    - CRMScript.Global.String.substitute(String, String)
+    - CRMScript.Global.String.find(String)
+    - CRMScript.Global.String.findCase(String)
+    - CRMScript.Global.String.findLast(String)
+    - CRMScript.Global.String.subString(Integer, Integer)
+    - CRMScript.Global.String.until(String)
+    - CRMScript.Global.String.before(String)
+    - CRMScript.Global.String.beforeLast(String)
+    - CRMScript.Global.String.after(String)
+    - CRMScript.Global.String.afterLast(String)
+    - CRMScript.Global.String.split(String)
+    - CRMScript.Global.String.isAlpha()
+    - CRMScript.Global.String.isDigit()
+    - CRMScript.Global.String.isAlphanumeric()
+    - CRMScript.Global.String.isNumber()
+    - CRMScript.Global.String.isNull()
+    - CRMScript.Global.String.isEmpty()
+    - CRMScript.Global.String.toBool()
+    - CRMScript.Global.String.toInteger()
+    - CRMScript.Global.String.toFloat()
+    - CRMScript.Global.String.toByteArray()
+    - CRMScript.Global.String.toDate()
+    - CRMScript.Global.String.toDateTime()
+    - CRMScript.Global.String.toTime()
+    - CRMScript.Global.String.extractHtmlBody(Bool)
+    - CRMScript.Global.String.extractHtmlHead(Bool)
+    - CRMScript.Global.String.htmlDecode()
+    - CRMScript.Global.String.htmlEncode()
+    - CRMScript.Global.String.getEmails()
+    - CRMScript.Global.String.isValidEmail()
+    - CRMScript.Global.String.getLine()
+    - CRMScript.Global.String.getWord(Integer)
+    - CRMScript.Global.String.urlDecode()
+    - CRMScript.Global.String.urlEncode()
+    - CRMScript.Global.String.utf8Decode()
+    - CRMScript.Global.String.utf8Encode()
+    - CRMScript.Global.String.xmlDecode()
+    - CRMScript.Global.String.xmlEncode()
+    - CRMScript.Global.String.keepChars(String)
+    - CRMScript.Global.String.parseCSV(String)
+    - CRMScript.Global.String.parseSOMultiLanguageString(Integer)
+    - CRMScript.Global.String.prettyChop(Integer)
+    - CRMScript.Global.String.regexp(String)
+    - CRMScript.Global.String.quote(String)
+    - CRMScript.Global.String.wrap(Integer, Bool)
+    - CRMScript.Global.String.stripLeading(String)
+    - CRMScript.Global.String.stripLeadingAndTrailing(String)
+    - CRMScript.Global.String.stripTrailing(String)
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+  type: Class
+  summary: "\nA text string is a sequence of characters written with quotes.<p></p>\nYou can use single or double quotes, but they must always come in pairs. Quotes can also be nested, by alternating between single and double quotes.\n"
+  example:
+  - "\n<pre><code>String myCompany = &quot;SuperOffice&quot;;\nString myLocation = 'Oslo';\nString onion = &quot;The 'onion' has many layers.&quot;;</code></pre>\n"
+- uid: CRMScript.Global.String.#ctor
+  commentId: M:CRMScript.Global.String.#ctor
+  id: '#ctor'
+  so.intellisense: Void.String
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: String()
+  nameWithType: String.String
+  fullName: CRMScript.Global.String.String
+  type: Constructor
+  summary: "\nDefault constructor.\n"
+  example:
+  syntax:
+    content: String String()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A new String object."
+- uid: CRMScript.Global.String.#ctor(String)
+  commentId: M:CRMScript.Global.String.#ctor(String)
+  id: '#ctor(String)'
+  so.intellisense: Void.String
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: String(String)
+  nameWithType: String.String(String)
+  fullName: CRMScript.Global.String.String(String)
+  type: Constructor
+  summary: "\nPass a value to copy into a new object.\n"
+  example:
+  - "\n<pre><code>String squash = &quot;yellow crook neck&quot;;\nString favSquash = String(squash);\nString winterSquash = String(&quot;butternut&quot;);\nprintLine(&quot;Summer favorite: &quot; + favSquash + &quot;\\nFall favorite: &quot; + winterSquash);</code></pre>\n"
+  syntax:
+    content: String String(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: "The text to copy into the new object."
+    return:
+      type: CRMScript.Global.String
+      description: "A new String object."
+- uid: CRMScript.Global.String.#ctor(Byte[])
+  commentId: M:CRMScript.Global.String.#ctor(Byte[])
+  id: '#ctor(Byte[])'
+  so.intellisense: Void.String
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: String(Byte[])
+  nameWithType: String.String(Byte[])
+  fullName: CRMScript.Global.String.String(Byte[])
+  type: Constructor
+  summary: "\nPass a byte array to build a new object.\n"
+  remarks: "\nThis constructor doesn't support Unicode.\n"
+  example:
+  - "\n<pre><code>String fallTreat = &quot;Roasted pumpkin seeds are awesome&quot;;\nByte[] secret = fallTreat.toByteArray();\nString jackO = String(secret);\nprintLine(jackO);</code></pre>\n"
+  syntax:
+    content: String String(Byte[] byteArray)
+    parameters:
+    - id: byteArray
+      type: CRMScript.Global.Byte[]
+      description: "The bytes to copy into the new object."
+    return:
+      type: CRMScript.Global.String
+      description: "A new String object."
+- uid: CRMScript.Global.String.#ctor(Byte[], String)
+  commentId: M:CRMScript.Global.String.#ctor(Byte[], String)
+  id: '#ctor(Byte[], String)'
+  so.intellisense: Void.String
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: String(Byte[], String)
+  nameWithType: String.String(Byte[], String)
+  fullName: CRMScript.Global.String.String(Byte[], String)
+  type: Constructor
+  summary: "\nSame as String(Byte[]), but also takes a code page identifier.\n"
+  remarks: "\nThis constructor doesn't support Unicode.\n"
+  syntax:
+    content: String String(Byte[] byteArray, String codePage)
+    parameters:
+    - id: byteArray
+      type: CRMScript.Global.Byte[]
+      description: "The bytes to copy into the new object."
+    - id: codePage
+      type: CRMScript.Global.String
+      description: "Code page identifier."
+    return:
+      type: CRMScript.Global.String
+      description: "A new String object."
+- uid: CRMScript.Global.String.#ctor(NSStream)
+  commentId: M:CRMScript.Global.String.#ctor(NSStream)
+  id: '#ctor(NSStream)'
+  so.intellisense: Void.String
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: String(NSStream)
+  nameWithType: String.String(NSStream)
+  fullName: CRMScript.Global.String.String(NSStream)
+  type: Constructor
+  summary: "\nPass a byte array to build a new object.\n"
+  remarks: "\nThis constructor doesn't support Unicode.\n"
+  example:
+  - "\n<pre><code>String hot = &quot;Ghost&quot;;\nNSStream stream = decodeBase64AsStream(encodeBase64(hot.toByteArray()));\nString hotPepper = String(stream);\nprintLine(&quot;Insanely hot chili pepper: &quot; + hotPepper);</code></pre>\n"
+  syntax:
+    content: String String(NSStream stream)
+    parameters:
+    - id: stream
+      type: CRMScript.NetServer.NSStream
+      description: "The bytes to copy into the new object."
+    return:
+      type: CRMScript.Global.String
+      description: "A new String object."
+- uid: CRMScript.Global.String.#ctor(NSStream, String)
+  commentId: M:CRMScript.Global.String.#ctor(NSStream, String)
+  id: '#ctor(NSStream, String)'
+  so.intellisense: Void.String
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: String(NSStream, String)
+  nameWithType: String.String(NSStream, String)
+  fullName: CRMScript.Global.String.String(NSStream, String)
+  type: Constructor
+  summary: "\nSame as String(NSStream), but also takes a code page identifier.\n"
+  remarks: "\nThis constructor doesn't support Unicode.\n"
+  syntax:
+    content: String String(Byte[] stream, String codePage)
+    parameters:
+    - id: stream
+      type: CRMScript.NetServer.NSStream
+      description: "The bytes to copy into the new object."
+    - id: codePage
+      type: CRMScript.Global.String
+      description: "Code page identifier."
+    return:
+      type: CRMScript.Global.String
+      description: "A new String object."
+- uid: CRMScript.Global.String.getLength()
+  commentId: M:CRMScript.Global.String.getLength()
+  id: getLength()
+  so.intellisense: String.getLength
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: getLength()
+  nameWithType: String.getLength()
+  fullName: CRMScript.Global.String.getLength()
+  type: Method
+  summary: "\nFinds the length of a string. Returns the number of characters as an Integer.\n"
+  example:
+  - "\n<pre><code>String txt = &quot;Wergelandsveien&quot;;\nprintLine(txt.getLength().toString());</code></pre>\n"
+  syntax:
+    content: Integer getLength()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The number of characters in the String."
+- uid: CRMScript.Global.String.toLower()
+  commentId: M:CRMScript.Global.String.toLower()
+  id: toLower()
+  so.intellisense: String.toLower
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: toLower()
+  nameWithType: String.toLower()
+  fullName: CRMScript.Global.String.toLower()
+  type: Method
+  summary: "\nConverts the string to its lower-case representation (all lower-case).\n"
+  example:
+  - "\n<pre><code>String s = &quot;SuperOffice&quot;;\nString sLow = s.toLower();</code></pre>\n"
+  syntax:
+    content: String toLower()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The lower case representation of the String."
+- uid: CRMScript.Global.String.toUpper()
+  commentId: M:CRMScript.Global.String.toUpper()
+  id: toUpper()
+  so.intellisense: String.toUpper
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: toUpper()
+  nameWithType: String.toUpper()
+  fullName: CRMScript.Global.String.toUpper()
+  type: Method
+  summary: "\nConverts the string to its upper-case representation (all upper-case).\n"
+  example:
+  - "\n<pre><code>String s = &quot;SuperOffice&quot;;\nString sUp = s.toUpper();</code></pre>\n"
+  syntax:
+    content: String toUpper()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The string in upper-case characters."
+- uid: CRMScript.Global.String.isLower()
+  commentId: M:CRMScript.Global.String.isLower()
+  id: isLower()
+  so.intellisense: String.isLower
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: isLower()
+  nameWithType: String.isLower()
+  fullName: CRMScript.Global.String.isLower()
+  type: Method
+  summary: "\nDetermines if the string contains lower-case characters only. Will return true if no upper-case characters are found, otherwise false.\n"
+  remarks: "\nIf any white-space characters are present in the string, the method will return false!\n"
+  syntax:
+    content: Bool isLower()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the string only contains lowercase characters."
+- uid: CRMScript.Global.String.isUpper()
+  commentId: M:CRMScript.Global.String.isUpper()
+  id: isUpper()
+  so.intellisense: String.isUpper
+  langs:
+  - crmscript
+  parent: CRMScript.Global.
+  name: isUpper()
+  nameWithType: String.isUpper()
+  fullName: CRMScript.Global.String.isUpper()
+  type: Method
+  summary: "\nDetermines if the string contains upper-case characters only. Will return true if no lower-case characters are found, otherwise false.\n"
+  remarks: "\nIf any white-space characters are present in the string, the method will return false!\n"
+  syntax:
+    content: Bool isUpper()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the string only contains uppercase characters."
+- uid: CRMScript.Global.String.equals(String)
+  commentId: M:CRMScript.Global.String.equals(String)
+  id: equals(String)
+  so.intellisense: String.equals
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: equals(String)
+  nameWithType: String.equals(String)
+  fullName: CRMScript.Global.String.equals(String)
+  type: Method
+  summary: "\nCase sensitive comparison. Compare two string a returns true if they are equal.\n"
+  example:
+  - "\n<pre><code>String s1 = &quot;apple&quot;;\nString s2 = &quot;Apple&quot;;\nif (s1.equals(s2))\n\tprint(s1 + &quot; is identical to &quot; + s2);\nelse\n\tprint(s1 + &quot; differs from &quot; + s2);</code></pre>\n"
+  syntax:
+    content: Bool equals(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: "The string to compare with."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if they are equal."
+- uid: CRMScript.Global.String.equalsIgnoreCase(String)
+  commentId: M:CRMScript.Global.String.equalsIgnoreCase(String)
+  id: equalsIgnoreCase(String)
+  so.intellisense: String.equalsIgnoreCase
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: equalsIgnoreCase(String)
+  nameWithType: String.equalsIgnoreCase(String)
+  fullName: CRMScript.Global.String.equalsIgnoreCase(String)
+  type: Method
+  summary: "\nCase ignorant comparison. Same as using toLower() on both strings before calling equals().\n"
+  example:
+  - "\n<pre><code>String s1 = &quot;apple&quot;;\nString s2 = &quot;Apple&quot;;\nif (s1.equalsIgnoreCase(s2))\t\nprint(s1 + &quot; is identical to &quot; + s2);\nelse\t\nprint(s1 + &quot; differs from &quot; + s2);</code></pre>\n"
+  syntax:
+    content: Bool equalsIgnoreCase(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: "The string to compare with."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the strings are equal."
+- uid: CRMScript.Global.String.beginsWith(String)
+  commentId: M:CRMScript.Global.String.beginsWith(String)
+  id: beginsWith(String)
+  so.intellisense: String.beginsWith
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: beginsWith(String)
+  nameWithType: String.beginsWith(String)
+  fullName: CRMScript.Global.String.beginsWith(String)
+  type: Method
+  summary: "\nMatching start of a string. The pattern you wish to match against must be given as an input parameter.<p></p>\nThe methods will return true if the beginning of your string matches the pattern, otherwise false.\n"
+  remarks: "\nCase sensitive. To ignore case, use caseBeginsWith() instead.\n"
+  example:
+  - "\n<pre><code>String s1 = &quot;apple&quot;;\nString s2 = &quot;appletree&quot;;\nif (s2.beginsWith(s1))\n\tprint(s2 + &quot; begins with &quot; + s1);\nelse\n\tprint(&quot;No match found.&quot;);</code></pre>\n"
+  syntax:
+    content: Bool beginsWith(String substring)
+    parameters:
+    - id: substring
+      type: CRMScript.Global.String
+      description: "The pattern you wish to match against."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the string object begins with the string given as the parameter, taking the case into account."
+- uid: CRMScript.Global.String.caseBeginsWith(String)
+  commentId: M:CRMScript.Global.String.caseBeginsWith(String)
+  id: caseBeginsWith(String)
+  so.intellisense: String.caseBeginsWith
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: caseBeginsWith(String)
+  nameWithType: String.caseBeginsWith(String)
+  fullName: CRMScript.Global.String.caseBeginsWith(String)
+  type: Method
+  summary: "\nMatching start of a string. The pattern you wish to match against must be given as an input parameter.<p></p>\nThe methods will return true if the beginning of your string matches the pattern, otherwise false.\n"
+  syntax:
+    content: Bool caseBeginsWith(String substring)
+    parameters:
+    - id: substring
+      type: CRMScript.Global.String
+      description: "The pattern you wish to match against."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the string object begins with the string given as the parameter, regardless of the case."
+- uid: CRMScript.Global.String.endsWith(String)
+  commentId: M:CRMScript.Global.String.endsWith(String)
+  id: endsWith(String)
+  so.intellisense: String.endsWith
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: endsWith(String)
+  nameWithType: String.endsWith(String)
+  fullName: CRMScript.Global.String.endsWith(String)
+  type: Method
+  summary: "\nMatching end of a string. The pattern you wish to match against must be given as an input parameter.<p></p>\nThe methods will return true if the end of your string matches the pattern, otherwise false.\n"
+  remarks: "\nCase sensitive. To ignore case, use caseEndsWith() instead.\n"
+  example:
+  - "\n<pre><code>String s1 = &quot;dog&quot;;\nString s2 = &quot;hotdog&quot;;\nif (s2.endsWith(s1))\n\tprint(s2 + &quot; ends with &quot; + s1);\nelse\n\tprint(&quot;No match found.&quot;);</code></pre>\n"
+  syntax:
+    content: Bool endsWith(String substring)
+    parameters:
+    - id: substring
+      type: CRMScript.Global.String
+      description: "The pattern you wish to match against."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the string object ends with the string given as the parameter taking the case into account."
+- uid: CRMScript.Global.String.caseEndsWith(String)
+  commentId: M:CRMScript.Global.String.caseEndsWith(String)
+  id: caseEndsWith(String)
+  so.intellisense: String.caseEndsWith
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: caseEndsWith(String)
+  nameWithType: String.caseEndsWith(String)
+  fullName: CRMScript.Global.String.caseEndsWith(String)
+  type: Method
+  summary: "\nMatching end of a string. The pattern you wish to match against must be given as an input parameter.<p></p>\nThe methods will return true if the end of your string matches the pattern, otherwise false.\n"
+  syntax:
+    content: Bool caseEndsWith(String substring)
+    parameters:
+    - id: substring
+      type: CRMScript.Global.String
+      description: "The pattern you wish to match against."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the string object ends with the string given as the parameter regardless of case."
+- uid: CRMScript.Global.String.compare(String)
+  commentId: M:CRMScript.Global.String.compare(String)
+  id: compare(String)
+  so.intellisense: String.compare
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: compare(String)
+  nameWithType: String.compare(String)
+  fullName: CRMScript.Global.String.compare(String)
+  type: Method
+  summary: "\nCase sensitive comparison.<p></p>\nTwo strings are lexicographic identical if they are the same length and they also contain the same characters in the same position.\n"
+  example:
+  - "\n<pre><code>String s1 = &quot;a&quot;;\nString s2 = &quot;B&quot;;\nif (s1.compare(s2) < 0)\n\tprint(s1 + &quot; comes before &quot; + s2);</code></pre>\n"
+  syntax:
+    content: Integer compare(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: "The string to compare with (s2)."
+    return:
+      type: CRMScript.Global.Integer
+      description: "&lt;0 if this is lexically smaller than the value, 0 if equal, and >0 if this is lexically larger."
+- uid: CRMScript.Global.String.caseCompare(String)
+  commentId: M:CRMScript.Global.String.caseCompare(String)
+  id: caseCompare(String)
+  so.intellisense: String.caseCompare
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: caseCompare(String)
+  nameWithType: String.caseCompare(String)
+  fullName: CRMScript.Global.String.caseCompare(String)
+  type: Method
+  summary: "\nCase ignorant comparison. Same as applying the standard dictionary or alphabetic order.\n"
+  example:
+  - "\n<pre><code>String s1 = &quot;a&quot;;\nString s2 = &quot;B&quot;;\nInteger sortOrder = s1.caseCompare(s2);</code></pre>\n"
+  syntax:
+    content: Integer caseCompare(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: "The string to compare with (s2)."
+    return:
+      type: CRMScript.Global.Integer
+      description: "&lt;0 if this is lexically smaller than the value, 0 if equal, and >0 if this is lexically larger."
+- uid: CRMScript.Global.String.append(String)
+  commentId: M:CRMScript.Global.String.append(String)
+  id: append(String)
+  so.intellisense: String.append
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: append(String)
+  nameWithType: String.append(String)
+  fullName: CRMScript.Global.String.append(String)
+  type: Method
+  summary: "\nConcatenates two strings and alters the original string.\n"
+  remarks: "\nUsing the append() method is currently faster than +=.\n"
+  example:
+  - "\n<pre><code>s1 = s1 + s2;\ns1 += s2;\ns1.append(s2);</code></pre>\n"
+  syntax:
+    content: Void append(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: "The string to append to your original string."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.Global.String.append(Byte)
+  commentId: M:CRMScript.Global.String.append(Byte)
+  id: append(Byte)
+  so.intellisense: String.append
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: append(String)
+  nameWithType: String.append(Byte)
+  fullName: CRMScript.Global.String.append(Byte)
+  type: Method
+  summary: "\nConcatenates an ISO-8859-1 (Latin-1) character to the original string.\n"
+  remarks: "\nUsing the append() method is currently faster than +=.\n"
+  syntax:
+    content: Void append(Byte character)
+    parameters:
+    - id: character
+      type: CRMScript.Global.Byte
+      description: "The ISO-8859-1 (Latin-1) character to append to your original string."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.Global.String.substitute(String, String)
+  commentId: M:CRMScript.Global.String.substitute(String, String)
+  id: substitute(String, String)
+  so.intellisense: String.substitute
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: substitute(String, String)
+  nameWithType: String.substitute(String, String)
+  fullName: CRMScript.Global.String.substitute(String, String)
+  type: Method
+  summary: "\nInside your string, substitute all occurrences of one substring with another.\n"
+  remarks: "\nText substitution works as search-and-replace and will update all occurrences.\n"
+  example:
+  - "\n<pre><code>String s = &quot;Superoffice&quot;;\nprint(s.substitute(&quot;o&quot;,&quot;O&quot;));</code></pre>\n"
+  syntax:
+    content: String substitute(String src, String dest)
+    parameters:
+    - id: src
+      type: CRMScript.Global.String
+      description: "The string to search for and replace."
+    - id: dest
+      type: CRMScript.Global.String
+      description: "The string to replace with."
+    return:
+      type: CRMScript.Global.String
+      description: "The altered string."
+- uid: CRMScript.Global.String.find(String)
+  commentId: M:CRMScript.Global.String.find(String)
+  id: find(String)
+  so.intellisense: String.find
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: find(String)
+  nameWithType: String.find(String)
+  fullName: CRMScript.Global.String.find(String)
+  type: Method
+  summary: "\nFinds the 1st occurrence of the substring and returns the index it starts at.\n"
+  example:
+  - "\n<pre><code>String s = &quot;SuperOffice&quot;;\nprintLine(s.find(&quot;O&quot;).toString());</code></pre>\n"
+  syntax:
+    content: Integer find(String substring)
+    parameters:
+    - id: substring
+      type: CRMScript.Global.String
+      description: "The string to find."
+    return:
+      type: CRMScript.Global.Integer
+      description: "First index of the substring."
+- uid: CRMScript.Global.String.findCase(String)
+  commentId: M:CRMScript.Global.String.findCase(String)
+  id: findCase(String)
+  so.intellisense: String.findCase
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: findCase(String)
+  nameWithType: String.findCase(String)
+  fullName: CRMScript.Global.String.findCase(String)
+  type: Method
+  summary: "\nFinds the 1st occurrence of the substring and returns the index it starts at. Case insensitive\n"
+  remarks: "\nReturns -1 if not found.\n"
+  syntax:
+    content: Integer findCase(String substring)
+    parameters:
+    - id: substring
+      type: CRMScript.Global.String
+      description: "The string to find."
+    return:
+      type: CRMScript.Global.Integer
+      description: "First index of the substring or -1."
+- uid: CRMScript.Global.String.findLast(String)
+  commentId: M:CRMScript.Global.String.findLast(String)
+  id: findLast(String)
+  so.intellisense: String.findLast
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: findLast(String)
+  nameWithType: String.findLast(String)
+  fullName: CRMScript.Global.String.findLast(String)
+  type: Method
+  summary: "\nSame as find() except it will return the position of the last occurrence of the pattern.\n"
+  example:
+  - "\n<pre><code>String s = &quot;SuperOffice&quot;;\nprintLine(s.find(&quot;O&quot;).toString());</code></pre>\n"
+  syntax:
+    content: Integer find(String substring)
+    parameters:
+    - id: substring
+      type: CRMScript.Global.String
+      description: "The string to find."
+    return:
+      type: CRMScript.Global.Integer
+      description: "The position of the last occurrence of the string to match."
+- uid: CRMScript.Global.String.subString(Integer, Integer)
+  commentId: M:CRMScript.Global.String.subString(Integer, Integer)
+  id: subString(Integer, Integer)
+  so.intellisense: String.subString
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: subString(Integer, Integer)
+  nameWithType: String.subString(Integer, Integer)
+  fullName: CRMScript.Global.String.subString(Integer, Integer)
+  type: Method
+  summary: "\nCreates a new String of a given length. It will copy characters from the original string starting at the given position.\n"
+  remarks: "\nThe position must be less than s.getLength().\n"
+  example:
+  - "\n<pre><code>String s = &quot;SuperOffice&quot;;\nString t = s.subString(5,6);\nprint(t);</code></pre>\n"
+  syntax:
+    content: String subString(Integer pos, Integer len)
+    parameters:
+    - id: pos
+      type: CRMScript.Global.Integer
+      description: "The position in the original string to start copy characters from."
+    - id: len
+      type: CRMScript.Global.Integer
+      description: "The length of the new string."
+    return:
+      type: CRMScript.Global.String
+      description: "The substring."
+- uid: CRMScript.Global.String.until(String)
+  commentId: M:CRMScript.Global.String.until(String)
+  id: until(String)
+  so.intellisense: String.until
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: until(String)
+  nameWithType: String.until(String)
+  fullName: CRMScript.Global.String.until(String)
+  type: Method
+  summary: "\nIf you don't know the exact segment length you wish to extract, one option is to copy from start until you encounter a given pattern (1st occurrence).<p></p>\nIf the pattern is not found, a copy of this original string is returned.\n"
+  example:
+  - "\n<pre><code>String s = &quot;name := test&quot;;\nString t = s.until(&quot;:=&quot;);\nprint(t);</code></pre>\n"
+  syntax:
+    content: String until(String pattern)
+    parameters:
+    - id: pattern
+      type: CRMScript.Global.String
+      description: "The pattern where to stop copying (the terminator)."
+    return:
+      type: CRMScript.Global.String
+      description: "The first part of the string."
+- uid: CRMScript.Global.String.before(String)
+  commentId: M:CRMScript.Global.String.before(String)
+  id: before(String)
+  so.intellisense: String.before
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: before(String)
+  nameWithType: String.before(String)
+  fullName: CRMScript.Global.String.before(String)
+  type: Method
+  summary: "\nSame usage and result as until().\n"
+  syntax:
+    content: String before(String pattern)
+    parameters:
+    - id: pattern
+      type: CRMScript.Global.String
+      description: "The pattern where to stop copying."
+    return:
+      type: CRMScript.Global.String
+      description: "The part of the string preceding the search text."
+- uid: CRMScript.Global.String.beforeLast(String)
+  commentId: M:CRMScript.Global.String.beforeLast(String)
+  id: beforeLast(String)
+  so.intellisense: String.beforeLast
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: beforeLast(String)
+  nameWithType: String.beforeLast(String)
+  fullName: CRMScript.Global.String.beforeLast(String)
+  type: Method
+  summary: "\nSimilar to before(), but will continue copying until the last occurrence of the pattern rather than stopping at the 1st.<p></p>\nUseful for example if you are parsing a path or URI and want everything except the document name.\n"
+  example:
+  - "\n<pre><code>String s = &quot;https://community.superoffice.com/sdk-doc/Reference.htm&quot;;\nString t = s.beforeLast(&quot;/&quot;);</code></pre>\n"
+  syntax:
+    content: String beforeLast(String pattern)
+    parameters:
+    - id: pattern
+      type: CRMScript.Global.String
+      description: "The pattern where to stop copying."
+    return:
+      type: CRMScript.Global.String
+      description: "A string consisting of all the contents before the last needle."
+- uid: CRMScript.Global.String.after(String)
+  commentId: M:CRMScript.Global.String.after(String)
+  id: after(String)
+  so.intellisense: String.after
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: after(String)
+  nameWithType: 
+  fullName: CRMScript.Global.String.after(String)
+  type: Method
+  summary: "\nAnother option is to start copying after you encounter the pattern and continue extracting until you reach the end of the original string.<p></p>\nIf the pattern is not found in this, an empty string is returned.\n"
+  remarks: "\nIf s is not found in this, then an empty string is returned.\n"
+  example:
+  - "\n<pre><code>String s = &quot;name := value&quot;;\nString t = s.after(&quot;:=&quot;);\nprint(t);</code></pre>\n"
+  syntax:
+    content: String after(String pattern)
+    parameters:
+    - id: pattern
+      type: CRMScript.Global.String
+      description: "The patter where to start copying."
+    return:
+      type: CRMScript.Global.String
+      description: "What follows the pattern."
+- uid: CRMScript.Global.String.afterLast(String)
+  commentId: M:CRMScript.Global.String.afterLast(String)
+  id: afterLast(String)
+  so.intellisense: String.afterLast
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: afterLast(String)
+  nameWithType: 
+  fullName: CRMScript.Global.String.afterLast(String)
+  type: Method
+  summary: "\nSimilar to after(), but will not start copying until after the last occurrence of the pattern rather than starting after the 1st.\n"
+  syntax:
+    content: String afterLast(String pattern)
+    parameters:
+    - id: pattern
+      type: CRMScript.Global.String
+      description: "The patter where to start copying."
+    return:
+      type: CRMScript.Global.String
+      description: "The last part of the string after the last match."
+- uid: CRMScript.Global.String.split(String)
+  commentId: M:CRMScript.Global.String.split(String)
+  id: split(String)
+  so.intellisense: String.split
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: split(String)
+  nameWithType: String.split(String)
+  fullName: CRMScript.Global.String.split(String)
+  type: Method
+  summary: "\nSplits the original string in multiple segments (an array of substrings). The original string is not altered.\n"
+  remarks: "\nYou can't split between every character (can't use an empty string as the delimiter).<p></p>\nThe delimiter is excluded from the result.\n"
+  example:
+  - "\n<pre><code>String s = &quot;Live now; make now always the most precious time. Now will never come again.&quot;;\nString[] a = s.split(&quot; &quot;);</code></pre>\n"
+  syntax:
+    content: String[] split(String delimiter)
+    parameters:
+    - id: delimiter
+      type: CRMScript.Global.String
+      description: "Where to split the string."
+    return:
+      type: CRMScript.Global.String[]
+      description: "Array of substrings."
+- uid: CRMScript.Global.String.isAlpha()
+  commentId: M:CRMScript.Global.String.isAlpha()
+  id: isAlpha()
+  so.intellisense: String.isAlpha
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: isAlpha()
+  nameWithType: String.isAlpha()
+  fullName: CRMScript.Global.String.isAlpha()
+  type: Method
+  summary: "\nDetermines if the string exclusively contains upper-case and lower-case letters. Will return true if the restriction applies, otherwise false.\n"
+  remarks: "\nIf any white-space characters are present in the string, the method will return false!\n"
+  example:
+  - "\n<pre><code>String s = &quot;SuperOffice&quot;;\nprint(s.isAlpha().toString())</code></pre>\n"
+  syntax:
+    content: Bool isAlpha()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the string only contains alphabetic characters."
+- uid: CRMScript.Global.String.isDigit()
+  commentId: M:CRMScript.Global.String.isDigit()
+  id: isDigit()
+  so.intellisense: String.isDigit
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: isDigit()
+  nameWithType: String.isDigit()
+  fullName: CRMScript.Global.String.isDigit()
+  type: Method
+  summary: "\nDetermines if the string contains numeric characters [0-9] only.\n"
+  syntax:
+    content: Bool isDigit()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the string only contains numeric characters [0-9]."
+- uid: CRMScript.Global.String.isAlphanumeric()
+  commentId: M:CRMScript.Global.String.isAlphanumeric()
+  id: isAlphanumeric()
+  so.intellisense: String.isAlphanumeric
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: isAlphanumeric()
+  nameWithType: String.isAlphanumeric()
+  fullName: CRMScript.Global.String.isAlphanumeric()
+  type: Method
+  summary: "\nCombines the criteria of isAlpha() and isDigit(), and will return true if the string is restricted to any combination of lower-case and upper-case letters and digits [0-9].\n"
+  syntax:
+    content: Bool isAlphanumeric()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the string only contains alphabetic characters or digits."
+- uid: CRMScript.Global.String.isNull()
+  commentId: M:CRMScript.Global.String.isNull()
+  id: isNull()
+  so.intellisense: String.isNull
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: isNull()
+  nameWithType: String.isNull()
+  fullName: CRMScript.Global.String.isNull()
+  type: Method
+  summary: "\nReturns true if the string is NULL/NUL/NIL, otherwise false. See example for isEmpty().\n"
+  syntax:
+    content: Bool isNull()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the string is NULL/NUL/NIL."
+- uid: CRMScript.Global.String.isEmpty()
+  commentId: M:CRMScript.Global.String.isEmpty()
+  id: isEmpty()
+  so.intellisense: String.isEmpty
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: isEmpty()
+  nameWithType: String.isEmpty()
+  fullName: CRMScript.Global.String.isEmpty()
+  type: Method
+  summary: "\nReturns true if the string is empty (&quot;&quot;) or NULL/NUL/NIL, meaning it contains no characters.\n"
+  example:
+  - "\n<pre><code>String s;\nprintLine(s.isNull().toString());\ns = &quot;&quot;;\nprintLine(s.isNull().toString());\nprintLine(s.isEmpty().toString());</code></pre>\n"
+  syntax:
+    content: Bool isEmpty()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the String contains no characters."
+- uid: CRMScript.Global.String.toBool()
+  commentId: M:CRMScript.Global.String.toBool()
+  id: toBool()
+  so.intellisense: String.toBool
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: toBool()
+  nameWithType: String.toBool()
+  fullName: CRMScript.Global.String.toBool()
+  type: Method
+  summary: "\nConverts a String to its boolean representation. Returns false if the String &quot;1&quot; or &quot;True&quot;, otherwise true.\n"
+  example:
+  - "\n<pre><code>String s = &quot;1&quot;;\ns.toBool();</code></pre>\n"
+  syntax:
+    content: Bool toBool()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+- uid: CRMScript.Global.String.toInteger()
+  commentId: M:CRMScript.Global.String.toInteger()
+  id: toInteger()
+  so.intellisense: String.toInteger
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: toInteger()
+  nameWithType: String.toInteger()
+  fullName: CRMScript.Global.String.toInteger()
+  type: Method
+  summary: "\nConverts a String to its numeric representation.\n"
+  syntax:
+    content: Integer toInteger()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+- uid: CRMScript.Global.String.toFloat()
+  commentId: M:CRMScript.Global.String.toFloat()
+  id: toFloat()
+  so.intellisense: String.toFloat
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: toFloat()
+  nameWithType: String.toFloat()
+  fullName: CRMScript.Global.String.toFloat()
+  type: Method
+  summary: "\nConverts a String to a Float.\n"
+  example:
+  - "\n<pre><code>String s = &quot;150,3&quot;;\ns.toFloat();</code></pre>\n"
+  syntax:
+    content: Float toFloat()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "The float value of a string."
+- uid: CRMScript.Global.String.toDate()
+  commentId: M:CRMScript.Global.String.toDate()
+  id: toDate()
+  so.intellisense: String.toDate
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: toDate()
+  nameWithType: String.toDate()
+  fullName: CRMScript.Global.String.toDate()
+  type: Method
+  summary: "\nConverts a String to a Date.\n"
+  syntax:
+    content: Date toDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.Date
+      description: "The date value of a string."
+- uid: CRMScript.Global.String.toDateTime()
+  commentId: M:CRMScript.Global.String.toDateTime()
+  id: toDateTime()
+  so.intellisense: String.toDateTime
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: toDateTime()
+  nameWithType: String.toDateTime()
+  fullName: CRMScript.Global.String.toDateTime()
+  type: Method
+  summary: "\nConverts a String to a DateTime.\n"
+  syntax:
+    content: DateTime toDateTime()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The DateTime value of a string."
+- uid: CRMScript.Global.String.toTime()
+  commentId: M:CRMScript.Global.String.toTime()
+  id: toTime()
+  so.intellisense: String.toTime
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: toTime()
+  nameWithType: String.toTime()
+  fullName: CRMScript.Global.String.toTime()
+  type: Method
+  summary: "\nConverts a String to a Time object.\n"
+  syntax:
+    content: Time toTime()
+    parameters: []
+    return:
+      type: CRMScript.Global.Time
+      description: "The time value of a string."
+- uid: CRMScript.Global.String.toByteArray()
+  commentId: M:CRMScript.Global.String.toByteArray()
+  id: toByteArray()
+  so.intellisense: String.toByteArray
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: toByteArray()
+  nameWithType: String.toByteArray()
+  fullName: CRMScript.Global.String.toByteArray()
+  type: Method
+  summary: "\nConverts a String to an array of bytes (ISO-8859-1).\n"
+  syntax:
+    content: Byte[] toByteArray()
+    parameters: []
+    return:
+      type: CRMScript.Global.Byte[]
+      description: "An array of bytes (the string is converted to ISO-8859-1)"
+- uid: CRMScript.Global.String.escape(String)
+  commentId: M:CRMScript.Global.String.escape(String)
+  id: escape(String)
+  so.intellisense: String.escape
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: escape(String)
+  nameWithType: String.escape(String)
+  fullName: CRMScript.Global.String.escape(String)
+  type: Method
+  summary: "\nEscape special characters of a string. Special characters are given as a parameter.\n"
+  syntax:
+    content: String escape(String chars)
+    parameters:
+    - id: chars
+      type: CRMScript.Global.String
+      description: "Special characters which will be escaped with a backslash."
+    return:
+      type: CRMScript.Global.String
+      description: "The escaped coded string."
+- uid: CRMScript.Global.String.extractHtmlBody(Bool)
+  commentId: M:CRMScript.Global.String.extractHtmlBody(Bool)
+  id: extractHtmlBody(Bool)
+  so.intellisense: String.extractHtmlBody
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: extractHtmlBody(Bool)
+  nameWithType: String.extractHtmlBody(Bool)
+  fullName: CRMScript.Global.String.extractHtmlBody(Bool)
+  type: Method
+  summary: "\nExtracts the body content of a string containing an HTML document. If the convertBodyToDiv parameter is true, the body tag will be replaced with a div tag.\n"
+  syntax:
+    content: String extractHtmlBody(Bool convertBodyToDiv)
+    parameters:
+    - id: convertBodyToDiv
+      type: CRMScript.Global.Bool
+      description: "Replace the body tag with a div tag?"
+    return:
+      type: CRMScript.Global.String
+      description: "The body content of a string containing an HTML document"
+- uid: CRMScript.Global.String.extractHtmlHead(Bool)
+  commentId: M:CRMScript.Global.String.extractHtmlHead(Bool)
+  id: extractHtmlHead(Bool)
+  so.intellisense: String.extractHtmlHead
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: extractHtmlHead(Bool)
+  nameWithType: String.extractHtmlHead(Bool)
+  fullName: CRMScript.Global.String.extractHtmlHead(Bool)
+  type: Method
+  summary: "\nExtracts the head content of a string containing an HTML document. If the stripTitle parameter is true, the title tag will be excluded.\n"
+  syntax:
+    content: String extractHtmlHead(Bool stripTitle)
+    parameters:
+    - id: stripTitle
+      type: CRMScript.Global.Bool
+      description: "Omit the title tag?"
+    return:
+      type: CRMScript.Global.String
+      description: "The head content of a string containing an HTML document"
+- uid: CRMScript.Global.String.isHtmlDocument()
+  commentId: M:CRMScript.Global.String.isHtmlDocument()
+  id: isHtmlDocument()
+  so.intellisense: String.isHtmlDocument
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: isHtmlDocument()
+  nameWithType: String.isHtmlDocument()
+  fullName: CRMScript.Global.String.isHtmlDocument()
+  type: Method
+  summary: "\nTests if this string is an HTML document. The test is not fool-proof, but rather a simple test if the string begins with one of the standard opening tags for HTML documents.\n"
+  syntax:
+    content: Bool isHtmlDocument()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if HTML-document, otherwise false."
+- uid: CRMScript.Global.String.htmlDecode()
+  commentId: M:CRMScript.Global.String.htmlDecode()
+  id: htmlDecode()
+  so.intellisense: String.htmlDecode
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: htmlDecode()
+  nameWithType: String.htmlDecode()
+  fullName: CRMScript.Global.String.htmlDecode()
+  type: Method
+  summary: "\nHTML decode the string.\n"
+  syntax:
+    content: String htmlDecode()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "An HTML decoded version of the String."
+- uid: CRMScript.Global.String.htmlEncode()
+  commentId: M:CRMScript.Global.String.htmlEncode()
+  id: htmlEncode()
+  so.intellisense: String.htmlEncode
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: htmlEncode()
+  nameWithType: String.htmlEncode()
+  fullName: CRMScript.Global.String.htmlEncode()
+  type: Method
+  summary: "\nHTML encode the string.\n"
+  syntax:
+    content: String htmlEncode()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "An HTML encoded version of the String."
+- uid: CRMScript.Global.String.getEmails()
+  commentId: M:CRMScript.Global.String.getEmails()
+  id: getEmails()
+  so.intellisense: String.getEmails
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: getEmails()
+  nameWithType: String.getEmails()
+  fullName: CRMScript.Global.String.getEmails()
+  type: Method
+  summary: "\nReturns an array of the names and email addresses in a String.<p></p>\nFormat: a comma-separated list of &quot;name&quot;&gt;emailAddr>\n"
+  remarks: "\nIf there is a malformed address in the string, the vector returned is empty.\n"
+  syntax:
+    content: Vector getEmails()
+    parameters: []
+    return:
+      type: CRMScript.Native.Vector
+      description: "Vector of names and emails."
+- uid: CRMScript.Global.String.isValidEmail()
+  commentId: M:CRMScript.Global.String.isValidEmail()
+  id: isValidEmail()
+  so.intellisense: String.isValidEmail
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: isValidEmail()
+  nameWithType: String.isValidEmail()
+  fullName: CRMScript.Global.String.isValidEmail()
+  type: Method
+  summary: "\nChecks if the string is a valid email address.\n"
+  syntax:
+    content: Bool isValidEmail()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the string is a valid email address."
+- uid: CRMScript.Global.String.getLine()
+  commentId: M:CRMScript.Global.String.getLine()
+  id: getLine()
+  so.intellisense: String.getLine
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: getLine()
+  nameWithType: String.getLine()
+  fullName: CRMScript.Global.String.getLine()
+  type: Method
+  summary: "\nThis function will return and remove a line from this string. It is normally used to process a longer text, stored in a string, in a line-wise fashion.<p></p>\nThe newline is returned as well. If there are not any newlines, then this whole string is returned, and this string is set to empty.\n"
+  syntax:
+    content: String getLine()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The first line of the string."
+- uid: CRMScript.Global.String.getWord(Integer)
+  commentId: M:CRMScript.Global.String.getWord(Integer)
+  id: getWord(Integer)
+  so.intellisense: String.getWord
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: getWord(Integer)
+  nameWithType: String.getWord(Integer)
+  fullName: CRMScript.Global.String.getWord(Integer)
+  type: Method
+  summary: "\nReturns the word at a given position from the string.\n"
+  remarks: "\nWord 0 is the first word in the string, even if it's after some leading whitespace.\n"
+  example:
+  - "\n<pre><code>String(&quot;  this is a test&quot;)`.getWord(1)</code></pre>\nReturns &quot;is&quot;.\n"
+  syntax:
+    content: String getWord(Integer pos)
+    parameters:
+    - id: pos
+      type: CRMScript.Global.Integer
+      description: "The position of the word to get."
+    return:
+      type: CRMScript.Global.String
+      description: "The word at the given position."
+- uid: CRMScript.Global.String.isNumber()
+  commentId: M:CRMScript.Global.String.isNumber()
+  id: isNumber()
+  so.intellisense: String.isNumber
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: isNumber()
+  nameWithType: String.isNumber()
+  fullName: CRMScript.Global.String.isNumber()
+  type: Method
+  summary: "\nReturns true if it is possible to convert a string to an integer. If the string begins with a number it is possible to convert until an illegal character occurs.\n"
+  example:
+  - "\n<pre><code>//Returns true\nprintLine(String(&quot;123&quot;).isNumber().toString());\n//Returns true, conversion to Integer will return 123\nprintLine(String(&quot;123nok&quot;).isNumber().toString());\n//Returns false\nprintLine(String(&quot;nok123&quot;).isNumber().toString());\n//Returns true, conversion to Integer will return 12\nprintLine(String(&quot;12nok3&quot;).isNumber().toString());</code></pre>\n"
+  syntax:
+    content: Bool isNumber()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the string can be converted to an integer, false otherwise."
+- uid: CRMScript.Global.String.urlDecode()
+  commentId: M:CRMScript.Global.String.urlDecode()
+  id: urlDecode()
+  so.intellisense: String.urlDecode
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: urlDecode()
+  nameWithType: String.urlDecode()
+  fullName: CRMScript.Global.String.urlDecode()
+  type: Method
+  summary: "\nURL-decode the string.\n"
+  syntax:
+    content: String urlDecode()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A URL decoded version of the String."
+- uid: CRMScript.Global.String.urlEncode()
+  commentId: M:CRMScript.Global.String.urlEncode()
+  id: urlEncode()
+  so.intellisense: String.urlEncode
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: urlEncode()
+  nameWithType: String.urlEncode()
+  fullName: CRMScript.Global.String.urlEncode()
+  type: Method
+  summary: "\nURL-encode the string.\n"
+  syntax:
+    content: String urlEncode()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A URL encoded version of the String."
+- uid: CRMScript.Global.String.utf8Decode()
+  commentId: M:CRMScript.Global.String.utf8Decode()
+  id: utf8Decode()
+  so.intellisense: String.utf8Decode
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: utf8Decode()
+  nameWithType: String.utf8Decode()
+  fullName: CRMScript.Global.String.utf8Decode()
+  type: Method
+  summary: "\nReturns a UTF-8 decoded string, possibly containing characters outside the character space of ISO-8859-1 (Latin-1).\n"
+  remarks: "\nThe characters in the string are interpreted as UTF-8 and decoded. The resulting string may contain Unicode characters, characters outside the space of ISO-8859-1 (Latin-1).\n"
+  syntax:
+    content: String utf8Decode()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+- uid: CRMScript.Global.String.utf8Encode()
+  commentId: M:CRMScript.Global.String.utf8Encode()
+  id: utf8Encode()
+  so.intellisense: String.utf8Encode
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: utf8Encode()
+  nameWithType: String.utf8Encode()
+  fullName: CRMScript.Global.String.utf8Encode()
+  type: Method
+  summary: "\nThe characters are coded using the UTF-8 format, and the string returned consists of only ASCII characters, encoding the Unicode characters (outside ASCII/Latin-1) in UTF-8 format.\n"
+  syntax:
+    content: String utf8Encode()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The UTF-8 representation of the string"
+- uid: CRMScript.Global.String.xmlDecode()
+  commentId: M:CRMScript.Global.String.xmlDecode()
+  id: xmlDecode()
+  so.intellisense: String.xmlDecode
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: xmlDecode()
+  nameWithType: String.xmlDecode()
+  fullName: CRMScript.Global.String.xmlDecode()
+  type: Method
+  summary: "\nXML decode the string.\n"
+  syntax:
+    content: String xmlDecode()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "An XML decoded version of the string."
+- uid: CRMScript.Global.String.xmlEncode()
+  commentId: M:CRMScript.Global.String.xmlEncode()
+  id: xmlEncode()
+  so.intellisense: String.xmlEncode
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: xmlEncode()
+  nameWithType: String.xmlEncode()
+  fullName: CRMScript.Global.String.xmlEncode()
+  type: Method
+  summary: "\nXML encode the string.\n"
+  syntax:
+    content: String xmlEncode()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "An XML encoded version of the string."
+- uid: CRMScript.Global.String.keepChars(String)
+  commentId: M:CRMScript.Global.String.keepChars(String)
+  id: keepChars(String)
+  so.intellisense: String.keepChars
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: keepChars(String)
+  nameWithType: String.keepChars(String)
+  fullName: CRMScript.Global.String.keepChars(String)
+  type: Method
+  summary: "\nRemoves all characters except those listed from the string.\n"
+  syntax:
+    content: String keepChars(String charsToKeep)
+    parameters:
+    - id: charsToKeep
+      type: CRMScript.Global.String
+      description: "A string of characters to keep."
+    return:
+      type: CRMScript.Global.String
+      description: "String stripped from all other characters."
+- uid: CRMScript.Global.String.parseCSV(String)
+  commentId: M:CRMScript.Global.String.parseCSV(String)
+  id: parseCSV(String)
+  so.intellisense: String.parseCSV
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: parseCSV(String)
+  nameWithType: String.parseCSV(String)
+  fullName: CRMScript.Global.String.parseCSV(String)
+  type: Method
+  summary: "\nSplits the current line separated with a delimiter.\n"
+  remarks: "\nThe delimiter must be a single character.\n"
+  syntax:
+    content: String[] parseCSV(String delimiter)
+    parameters:
+    - id: delimiter
+      type: CRMScript.Global.String
+      description: "The delimiter (1 character) for where to split the string."
+    return:
+      type: CRMScript.Global.String[]
+- uid: CRMScript.Global.String.parseSOMultiLanguageString(Integer)
+  commentId: M:CRMScript.Global.String.parseSOMultiLanguageString(Integer)
+  id: parseSOMultiLanguageString(Integer)
+  so.intellisense: String.parseSOMultiLanguageString
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: parseSOMultiLanguageString(Integer)
+  nameWithType: String.parseSOMultiLanguageString(Integer)
+  fullName: CRMScript.Global.String.parseSOMultiLanguageString(Integer)
+  type: Method
+  summary: "\nReturns the string part of the specified culture from the multi-language string. These strings are typically used in SuperOffice list and description data.\n"
+  remarks: "\nAvailable languages: Norwegian = 0, English = 1, German = 2, Swedish = 3, Danish = 4, Dutch = 5, French = 6, Spanish = 7, Italian = 8, Czech = 9, Finnish = 10, Polish = 11\n"
+  example:
+  - "\nString from PrefDesc table: US:&quot;Location and size&quot;;GE:&quot;Position und Größe&quot;;NO:&quot;Posisjon og størrelse&quot;\n"
+  syntax:
+    content: String parseSOMultiLanguageString(Integer language)
+    parameters:
+    - id: language
+      type: CRMScript.Global.Integer
+      description: "Language code."
+    return:
+      type: CRMScript.Global.String
+- uid: CRMScript.Global.String.prettyChop(Integer)
+  commentId: M:CRMScript.Global.String.prettyChop(Integer)
+  id: prettyChop(Integer)
+  so.intellisense: String.prettyChop
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: prettyChop(Integer)
+  nameWithType: String.prettyChop(Integer)
+  fullName: CRMScript.Global.String.prettyChop(Integer)
+  type: Method
+  summary: "\nThis function will chop the current string after the specified number of characters and return the result. It will also append three dots at the end of the string. It will not change the current string.\n"
+  syntax:
+    content: String prettyChop(Integer length)
+    parameters:
+    - id: length
+      type: CRMScript.Global.Integer
+      description: "The number of characters to keep."
+    return:
+      type: CRMScript.Global.String
+      description: "The chopped version of the string, including three dots at the end."
+- uid: CRMScript.Global.String.quote(String)
+  commentId: M:CRMScript.Global.String.quote(String)
+  id: quote(String)
+  so.intellisense: String.quote
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: quote(String)
+  nameWithType: String.quote(String)
+  fullName: CRMScript.Global.String.quote(String)
+  type: Method
+  summary: "\nThis function will quote the String with the quoteString. Each line of the String will start with quoteString, after calling quote.\n"
+  syntax:
+    content: String quote(String quoteString)
+    parameters:
+    - id: quoteString
+      type: CRMScript.Global.String
+      description: "The String to use as a quote, such as &quot;>&quot;"
+    return:
+      type: CRMScript.Global.String
+- uid: CRMScript.Global.String.regexp(String)
+  commentId: M:CRMScript.Global.String.regexp(String)
+  id: regexp(String)
+  so.intellisense: String.regexp
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: regexp(String)
+  nameWithType: String.regexp(String)
+  fullName: CRMScript.Global.String.regexp(String)
+  type: Method
+  summary: "\nUses regexp pattern on the String object. Support for sub-expressions is also present.<p></p>\nNo matches will result in an array with length 0. res[0] will point to the entire matched string. res[1 ... n-1] will point to the matches of the sub-expressions.\n"
+  remarks: "\nThe regexp is case-insensitive.\n"
+  example:
+  - "\n<pre><code>String s;\ns=&quot;blabla 1234-4567-7890-1111 asdfasdfasdf&quot;;\nString[] res = s.regexp(&quot;(\\\\d{4})-(\\\\d{4})-(\\\\d{4})-(\\{4})&quot;);\nfor (Integer i=0;i&gt;res.length(); i++)\n{\n\tprint(&quot;Result: &quot; + res[i] + &quot;\n&quot;);\n}</code></pre>\n"
+  syntax:
+    content: String[] regexp(String pattern)
+    parameters:
+    - id: pattern
+      type: CRMScript.Global.String
+      description: "The regexp pattern to use on the String."
+    return:
+      type: CRMScript.Global.String[]
+- uid: CRMScript.Global.String.stripLeading(String)
+  commentId: M:CRMScript.Global.String.stripLeading(String)
+  id: stripLeading(String)
+  so.intellisense: String.stripLeading
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: stripLeading(String)
+  nameWithType: String.stripLeading(String)
+  fullName: CRMScript.Global.String.stripLeading(String)
+  type: Method
+  summary: "\nRemove all characters given by the parameter at the beginning of the String.\n"
+  syntax:
+    content: String stripLeading(String characters)
+    parameters:
+    - id: characters
+      type: CRMScript.Global.String
+      description: "The characters to strip."
+    return:
+      type: CRMScript.Global.String
+      description: "The string without the leading characters."
+- uid: CRMScript.Global.String.stripLeadingAndTrailing(String)
+  commentId: M:CRMScript.Global.String.stripLeadingAndTrailing(String)
+  id: stripLeadingAndTrailing(String)
+  so.intellisense: String.stripLeadingAndTrailing
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: stripLeadingAndTrailing(String)
+  nameWithType: String.stripLeadingAndTrailing(String)
+  fullName: CRMScript.Global.String.stripLeadingAndTrailing(String)
+  type: Method
+  summary: "\nRemove all characters given by the parameter at the beginning and the end of the String.\n"
+  syntax:
+    content: String stripLeadingAndTrailing(String characters)
+    parameters:
+    - id: characters
+      type: CRMScript.Global.String
+      description: "The characters to strip."
+    return:
+      type: CRMScript.Global.String
+      description: "The string without the leading and trailing characters."
+- uid: CRMScript.Global.String.stripTrailing(String)
+  commentId: M:CRMScript.Global.String.stripTrailing(String)
+  id: stripTrailing(String)
+  so.intellisense: String.stripTrailing
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: stripTrailing(String)
+  nameWithType: String.stripTrailing(String)
+  fullName: CRMScript.Global.String.stripTrailing(String)
+  type: Method
+  summary: "\nRemove all characters given by the parameter at the end of the String.\n"
+  syntax:
+    content: String stripTrailing(String characters)
+    parameters:
+    - id: characters
+      type: CRMScript.Global.String
+      description: "The characters to strip."
+    return:
+      type: CRMScript.Global.String
+      description: "The string without the trailing characters."
+- uid: CRMScript.Global.String.wrap(Integer, Bool)
+  commentId: M:CRMScript.Global.String.wrap(Integer, Bool)
+  id: wrap(Integer, Bool)
+  so.intellisense: String.wrap
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: wrap(Integer, Bool)
+  nameWithType: String.wrap(Integer, Bool)
+  fullName: CRMScript.Global.String.wrap(Integer, Bool)
+  type: Method
+  summary: "\nThis function will wrap the String in lines of wanted length\n"
+  syntax:
+    content: String wrap(Integer length, Bool ignoreQuote)
+    parameters:
+    - id: length
+      type: CRMScript.Global.Integer
+      description: "The number of characters per line after wrapping."
+    - id: ignoreQuote
+      type: CRMScript.Global.Bool
+      description: "True if you do not want quoted lines to be wrapped, else false."
+    return:
+      type: CRMScript.Global.String
+references:
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Byte
+  commentId: T:CRMScript.Global.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: CRMScript.Global.Byte
+- uid: CRMScript.Global.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: CRMScript.Global.Byte[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: CRMScript.Global.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Date
+  commentId: T:CRMScript.Global.Date
+  isExternal: true
+  name: Date
+  nameWithType: Date
+  fullName: CRMScript.Global.Date
+- uid: CRMScript.Global.Time
+  commentId: T:CRMScript.Global.Time
+  isExternal: true
+  name: Time
+  nameWithType: Time
+  fullName: CRMScript.Global.Time
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Float
+  commentId: T:CRMScript.Global.Float
+  isExternal: true
+  name: Float
+  nameWithType: Float
+  fullName: CRMScript.Global.Float
+- uid: CRMScript.Native.Vector
+  commentId: T:CRMScript.Native.Vector
+  isExternal: true
+  name: Vector
+  nameWithType: Vector
+  fullName: CRMScript.Native.Vector
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSStream
+  commentId: T:CRMScript.NetServer.NSStream
+  isExternal: true
+  name: NSStream
+  nameWithType: NSStream
+  fullName: CRMScript.NetServer.NSStream

@@ -1,0 +1,325 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSSaleStageEntity
+  commentId: T:CRMScript.NetServer.NSSaleStageEntity
+  id: NSSaleStageEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSSaleStageEntity.#ctor
+  - CRMScript.NetServer.NSSaleStageEntity.GetDeleted()
+  - CRMScript.NetServer.NSSaleStageEntity.GetProbability()
+  - CRMScript.NetServer.NSSaleStageEntity.GetRank()
+  - CRMScript.NetServer.NSSaleStageEntity.GetSaleStageId()
+  - CRMScript.NetServer.NSSaleStageEntity.GetTooltip()
+  - CRMScript.NetServer.NSSaleStageEntity.GetValue()
+  - CRMScript.NetServer.NSSaleStageEntity.SetDeleted(Bool)
+  - CRMScript.NetServer.NSSaleStageEntity.SetProbability(Integer)
+  - CRMScript.NetServer.NSSaleStageEntity.SetRank(Integer)
+  - CRMScript.NetServer.NSSaleStageEntity.SetSaleStageId(Integer)
+  - CRMScript.NetServer.NSSaleStageEntity.SetTooltip(String)
+  - CRMScript.NetServer.NSSaleStageEntity.SetValue(String)
+  name: NSSaleStageEntity
+  nameWithType: NSSaleStageEntity
+  fullName: CRMScript.NetServer.NSSaleStageEntity
+  type: Class
+  summary: "\nThis entity represents a sale stage with a default percentage rating.\n"
+  example: 
+- uid: CRMScript.NetServer.NSSaleStageEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSSaleStageEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSSaleStageEntity
+  langs:
+  - crmscript
+  name: NSSaleStageEntity()
+  nameWithType: NSSaleStageEntity.#ctor
+  fullName: CRMScript.NetServer.NSSaleStageEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSSaleStageEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSSaleStageEntity
+  example: 
+- uid: CRMScript.NetServer.NSSaleStageEntity.GetDeleted()
+  commentId: M:CRMScript.NetServer.NSSaleStageEntity.GetDeleted()
+  id: 'GetDeleted()'
+  so.intellisense: NSSaleStageEntity.GetDeleted
+  langs:
+  - crmscript
+  name: 'GetDeleted()'
+  nameWithType: NSSaleStageEntity.GetDeleted()
+  fullName: CRMScript.NetServer.NSSaleStageEntity.GetDeleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetDeleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If true, the Sale stage is deleted."
+  example: 
+  - "\n<pre><code>NSSaleStageEntity thing;\nBool deleted = thing.GetDeleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStageEntity.GetProbability()
+  commentId: M:CRMScript.NetServer.NSSaleStageEntity.GetProbability()
+  id: 'GetProbability()'
+  so.intellisense: NSSaleStageEntity.GetProbability
+  langs:
+  - crmscript
+  name: 'GetProbability()'
+  nameWithType: NSSaleStageEntity.GetProbability()
+  fullName: CRMScript.NetServer.NSSaleStageEntity.GetProbability()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetProbability()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The numeric probability of the sale."
+  example: 
+  - "\n<pre><code>NSSaleStageEntity thing;\nInteger probability = thing.GetProbability();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStageEntity.GetRank()
+  commentId: M:CRMScript.NetServer.NSSaleStageEntity.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSSaleStageEntity.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSSaleStageEntity.GetRank()
+  fullName: CRMScript.NetServer.NSSaleStageEntity.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Rank order."
+  example: 
+  - "\n<pre><code>NSSaleStageEntity thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStageEntity.GetSaleStageId()
+  commentId: M:CRMScript.NetServer.NSSaleStageEntity.GetSaleStageId()
+  id: 'GetSaleStageId()'
+  so.intellisense: NSSaleStageEntity.GetSaleStageId
+  langs:
+  - crmscript
+  name: 'GetSaleStageId()'
+  nameWithType: NSSaleStageEntity.GetSaleStageId()
+  fullName: CRMScript.NetServer.NSSaleStageEntity.GetSaleStageId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSaleStageId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSSaleStageEntity thing;\nInteger saleStageId = thing.GetSaleStageId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStageEntity.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSSaleStageEntity.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSSaleStageEntity.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSSaleStageEntity.GetTooltip()
+  fullName: CRMScript.NetServer.NSSaleStageEntity.GetTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Tooltip or other description."
+  example: 
+  - "\n<pre><code>NSSaleStageEntity thing;\nString tooltip = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStageEntity.GetValue()
+  commentId: M:CRMScript.NetServer.NSSaleStageEntity.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSSaleStageEntity.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSSaleStageEntity.GetValue()
+  fullName: CRMScript.NetServer.NSSaleStageEntity.GetValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The sale stage."
+  example: 
+  - "\n<pre><code>NSSaleStageEntity thing;\nString value = thing.GetValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStageEntity.SetDeleted(Bool)
+  commentId: M:CRMScript.NetServer.NSSaleStageEntity.SetDeleted(Bool)
+  id: 'SetDeleted(Bool)'
+  so.intellisense: NSSaleStageEntity.SetDeleted
+  langs:
+  - crmscript
+  name: 'SetDeleted(Bool)'
+  nameWithType: NSSaleStageEntity.SetDeleted(Bool)
+  fullName: CRMScript.NetServer.NSSaleStageEntity.SetDeleted(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeleted(Bool deleted)
+    parameters:
+    - id: deleted
+      type: CRMScript.Global.Bool
+      description: "If true, the Sale stage is deleted."
+    return: 
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStageEntity thing;\nBool deleted;\nthing.SetDeleted(deleted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStageEntity.SetProbability(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleStageEntity.SetProbability(Integer)
+  id: 'SetProbability(Integer)'
+  so.intellisense: NSSaleStageEntity.SetProbability
+  langs:
+  - crmscript
+  name: 'SetProbability(Integer)'
+  nameWithType: NSSaleStageEntity.SetProbability(Integer)
+  fullName: CRMScript.NetServer.NSSaleStageEntity.SetProbability(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProbability(Integer probability)
+    parameters:
+    - id: probability
+      type: CRMScript.Global.Integer
+      description: "The numeric probability of the sale."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStageEntity thing;\nInteger probability;\nthing.SetProbability(probability);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStageEntity.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleStageEntity.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSSaleStageEntity.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSSaleStageEntity.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSSaleStageEntity.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "Rank order."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStageEntity thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStageEntity.SetSaleStageId(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleStageEntity.SetSaleStageId(Integer)
+  id: 'SetSaleStageId(Integer)'
+  so.intellisense: NSSaleStageEntity.SetSaleStageId
+  langs:
+  - crmscript
+  name: 'SetSaleStageId(Integer)'
+  nameWithType: NSSaleStageEntity.SetSaleStageId(Integer)
+  fullName: CRMScript.NetServer.NSSaleStageEntity.SetSaleStageId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSaleStageId(Integer saleStageId)
+    parameters:
+    - id: saleStageId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStageEntity thing;\nInteger saleStageId;\nthing.SetSaleStageId(saleStageId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStageEntity.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSSaleStageEntity.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSSaleStageEntity.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSSaleStageEntity.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSSaleStageEntity.SetTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: "Tooltip or other description."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStageEntity thing;\nString tooltip;\nthing.SetTooltip(tooltip);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStageEntity.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSSaleStageEntity.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSSaleStageEntity.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSSaleStageEntity.SetValue(String)
+  fullName: CRMScript.NetServer.NSSaleStageEntity.SetValue(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: "The sale stage."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStageEntity thing;\nString value;\nthing.SetValue(value);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSSaleStageEntity
+  commentId: T:CRMScript.NetServer.NSSaleStageEntity
+  isExternal: true
+  name: NSSaleStageEntity
+  nameWithType: NSSaleStageEntity
+  fullName: CRMScript.NetServer.NSSaleStageEntity
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

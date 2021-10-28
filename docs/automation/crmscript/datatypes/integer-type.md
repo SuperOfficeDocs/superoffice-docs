@@ -4,7 +4,7 @@ title: Integer data type
 author:
 so.date:
 keywords:
-so.topic:
+so.topic: concept
 ---
 
 # Integer data type

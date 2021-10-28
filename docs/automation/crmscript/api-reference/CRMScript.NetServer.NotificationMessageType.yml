@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NotificationMessageType
+  # Same as SuperOffice.Data.NotificationMessageType
+  commentId: T:CRMScript.NetServer.NotificationMessageType
+  id: NotificationMessageType
+  children:
+  - CRMScript.NetServer.NotificationMessageType.ImportantMessage
+  - CRMScript.NetServer.NotificationMessageType.Message
+  - CRMScript.NetServer.NotificationMessageType.RemoteAction
+  - CRMScript.NetServer.NotificationMessageType.ShowWebPage
+  - CRMScript.NetServer.NotificationMessageType.YesNoQuestion
+  langs:
+  - crmscript
+  name: NotificationMessageType
+  nameWithType: NotificationMessageType
+  fullName: CRMScript.NetServer.NotificationMessageType
+  type: Enum
+  summary: "\nDefines what type of content the notification contains\n"
+- uid: CRMScript.NetServer.NotificationMessageType.Message
+  commentId: F:CRMScript.NetServer.NotificationMessageType.Message
+  id: Message
+  langs:
+  - crmscript
+  name: Message
+  nameWithType: NotificationMessageType.Message
+  fullName: CRMScript.NetServer.NotificationMessageType.Message
+  type: Field
+  summary: "\n0: A plain message\n"
+  syntax:
+    content: Message = 0
+    return:
+      type: CRMScript.NetServer.NotificationMessageType
+- uid: CRMScript.NetServer.NotificationMessageType.ImportantMessage
+  commentId: F:CRMScript.NetServer.NotificationMessageType.ImportantMessage
+  id: ImportantMessage
+  langs:
+  - crmscript
+  name: ImportantMessage
+  nameWithType: NotificationMessageType.ImportantMessage
+  fullName: CRMScript.NetServer.NotificationMessageType.ImportantMessage
+  type: Field
+  summary: "\n1: A message with high priority\n"
+  syntax:
+    content: ImportantMessage = 1
+    return:
+      type: CRMScript.NetServer.NotificationMessageType
+- uid: CRMScript.NetServer.NotificationMessageType.RemoteAction
+  commentId: F:CRMScript.NetServer.NotificationMessageType.RemoteAction
+  id: RemoteAction
+  langs:
+  - crmscript
+  name: RemoteAction
+  nameWithType: NotificationMessageType.RemoteAction
+  fullName: CRMScript.NetServer.NotificationMessageType.RemoteAction
+  type: Field
+  summary: "\n2: Trigger an action\n"
+  syntax:
+    content: RemoteAction = 2
+    return:
+      type: CRMScript.NetServer.NotificationMessageType
+- uid: CRMScript.NetServer.NotificationMessageType.YesNoQuestion
+  commentId: F:CRMScript.NetServer.NotificationMessageType.YesNoQuestion
+  id: YesNoQuestion
+  langs:
+  - crmscript
+  name: YesNoQuestion
+  nameWithType: NotificationMessageType.YesNoQuestion
+  fullName: CRMScript.NetServer.NotificationMessageType.YesNoQuestion
+  type: Field
+  summary: "\n3: Ask user a yes or no question\n"
+  syntax:
+    content: YesNoQuestion = 3
+    return:
+      type: CRMScript.NetServer.NotificationMessageType
+- uid: CRMScript.NetServer.NotificationMessageType.ShowWebPage
+  commentId: F:CRMScript.NetServer.NotificationMessageType.ShowWebPage
+  id: ShowWebPage
+  langs:
+  - crmscript
+  name: ShowWebPage
+  nameWithType: NotificationMessageType.ShowWebPage
+  fullName: CRMScript.NetServer.NotificationMessageType.ShowWebPage
+  type: Field
+  summary: "\n4: Show a web page\n"
+  syntax:
+    content: ShowWebPage = 4
+    return:
+      type: CRMScript.NetServer.NotificationMessageType
+references:
+- uid: CRMScript.NetServer.NotificationMessageType
+  commentId: T:CRMScript.NetServer.NotificationMessageType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: NotificationMessageType
+  nameWithType: NotificationMessageType
+  fullName: CRMScript.NetServer.NotificationMessageType

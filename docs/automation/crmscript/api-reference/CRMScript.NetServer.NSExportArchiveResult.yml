@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSExportArchiveResult
+  commentId: T:CRMScript.NetServer.NSExportArchiveResult
+  id: NSExportArchiveResult
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSExportArchiveResult.#ctor
+  - CRMScript.NetServer.NSExportArchiveResult.GetBatchTaskId()
+  - CRMScript.NetServer.NSExportArchiveResult.GetFileName()
+  - CRMScript.NetServer.NSExportArchiveResult.GetMessage()
+  - CRMScript.NetServer.NSExportArchiveResult.SetBatchTaskId(Integer)
+  - CRMScript.NetServer.NSExportArchiveResult.SetFileName(String)
+  - CRMScript.NetServer.NSExportArchiveResult.SetMessage(String)
+  name: NSExportArchiveResult
+  nameWithType: NSExportArchiveResult
+  fullName: CRMScript.NetServer.NSExportArchiveResult
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSExportArchiveResult.#ctor
+  commentId: M:CRMScript.NetServer.NSExportArchiveResult.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSExportArchiveResult
+  langs:
+  - crmscript
+  name: NSExportArchiveResult()
+  nameWithType: NSExportArchiveResult.#ctor
+  fullName: CRMScript.NetServer.NSExportArchiveResult.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSExportArchiveResult class.\n"
+  remarks: 
+  syntax: 
+    content: NSExportArchiveResult
+  example: 
+- uid: CRMScript.NetServer.NSExportArchiveResult.GetBatchTaskId()
+  commentId: M:CRMScript.NetServer.NSExportArchiveResult.GetBatchTaskId()
+  id: 'GetBatchTaskId()'
+  so.intellisense: NSExportArchiveResult.GetBatchTaskId
+  langs:
+  - crmscript
+  name: 'GetBatchTaskId()'
+  nameWithType: NSExportArchiveResult.GetBatchTaskId()
+  fullName: CRMScript.NetServer.NSExportArchiveResult.GetBatchTaskId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetBatchTaskId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of the BatchTask created. &lt;=0 if no BatchTask was created."
+  example: 
+  - "\n<pre><code>NSExportArchiveResult thing;\nInteger batchTaskId = thing.GetBatchTaskId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSExportArchiveResult.GetFileName()
+  commentId: M:CRMScript.NetServer.NSExportArchiveResult.GetFileName()
+  id: 'GetFileName()'
+  so.intellisense: NSExportArchiveResult.GetFileName
+  langs:
+  - crmscript
+  name: 'GetFileName()'
+  nameWithType: NSExportArchiveResult.GetFileName()
+  fullName: CRMScript.NetServer.NSExportArchiveResult.GetFileName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFileName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The path to the output file created, if it exists. Will be an empty string if no file was created."
+  example: 
+  - "\n<pre><code>NSExportArchiveResult thing;\nString fileName = thing.GetFileName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSExportArchiveResult.GetMessage()
+  commentId: M:CRMScript.NetServer.NSExportArchiveResult.GetMessage()
+  id: 'GetMessage()'
+  so.intellisense: NSExportArchiveResult.GetMessage
+  langs:
+  - crmscript
+  name: 'GetMessage()'
+  nameWithType: NSExportArchiveResult.GetMessage()
+  fullName: CRMScript.NetServer.NSExportArchiveResult.GetMessage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetMessage()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Descriptive messages; errors, etc."
+  example: 
+  - "\n<pre><code>NSExportArchiveResult thing;\nString message = thing.GetMessage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSExportArchiveResult.SetBatchTaskId(Integer)
+  commentId: M:CRMScript.NetServer.NSExportArchiveResult.SetBatchTaskId(Integer)
+  id: 'SetBatchTaskId(Integer)'
+  so.intellisense: NSExportArchiveResult.SetBatchTaskId
+  langs:
+  - crmscript
+  name: 'SetBatchTaskId(Integer)'
+  nameWithType: NSExportArchiveResult.SetBatchTaskId(Integer)
+  fullName: CRMScript.NetServer.NSExportArchiveResult.SetBatchTaskId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetBatchTaskId(Integer batchTaskId)
+    parameters:
+    - id: batchTaskId
+      type: CRMScript.Global.Integer
+      description: "ID of the BatchTask created. &lt;=0 if no BatchTask was created."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSExportArchiveResult thing;\nInteger batchTaskId;\nthing.SetBatchTaskId(batchTaskId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSExportArchiveResult.SetFileName(String)
+  commentId: M:CRMScript.NetServer.NSExportArchiveResult.SetFileName(String)
+  id: 'SetFileName(String)'
+  so.intellisense: NSExportArchiveResult.SetFileName
+  langs:
+  - crmscript
+  name: 'SetFileName(String)'
+  nameWithType: NSExportArchiveResult.SetFileName(String)
+  fullName: CRMScript.NetServer.NSExportArchiveResult.SetFileName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFileName(String fileName)
+    parameters:
+    - id: fileName
+      type: CRMScript.Global.String
+      description: "The path to the output file created, if it exists. Will be an empty string if no file was created."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSExportArchiveResult thing;\nString fileName;\nthing.SetFileName(fileName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSExportArchiveResult.SetMessage(String)
+  commentId: M:CRMScript.NetServer.NSExportArchiveResult.SetMessage(String)
+  id: 'SetMessage(String)'
+  so.intellisense: NSExportArchiveResult.SetMessage
+  langs:
+  - crmscript
+  name: 'SetMessage(String)'
+  nameWithType: NSExportArchiveResult.SetMessage(String)
+  fullName: CRMScript.NetServer.NSExportArchiveResult.SetMessage(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMessage(String message)
+    parameters:
+    - id: message
+      type: CRMScript.Global.String
+      description: "Descriptive messages; errors, etc."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSExportArchiveResult thing;\nString message;\nthing.SetMessage(message);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSExportArchiveResult
+  commentId: T:CRMScript.NetServer.NSExportArchiveResult
+  isExternal: true
+  name: NSExportArchiveResult
+  nameWithType: NSExportArchiveResult
+  fullName: CRMScript.NetServer.NSExportArchiveResult
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

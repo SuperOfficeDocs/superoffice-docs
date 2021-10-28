@@ -1,0 +1,281 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSFieldInfoRelation
+  commentId: T:CRMScript.NetServer.NSFieldInfoRelation
+  id: NSFieldInfoRelation
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSFieldInfoRelation.#ctor
+  - CRMScript.NetServer.NSFieldInfoRelation.GetDefaultValue()
+  - CRMScript.NetServer.NSFieldInfoRelation.GetMdoListName()
+  - CRMScript.NetServer.NSFieldInfoRelation.GetTargetLabel()
+  - CRMScript.NetServer.NSFieldInfoRelation.GetTargetTable()
+  - CRMScript.NetServer.NSFieldInfoRelation.GetUseDropDown()
+  - CRMScript.NetServer.NSFieldInfoRelation.SetDefaultValue(Integer)
+  - CRMScript.NetServer.NSFieldInfoRelation.SetMdoListName(String)
+  - CRMScript.NetServer.NSFieldInfoRelation.SetTargetLabel(String)
+  - CRMScript.NetServer.NSFieldInfoRelation.SetTargetTable(String)
+  - CRMScript.NetServer.NSFieldInfoRelation.SetUseDropDown(Bool)
+  name: NSFieldInfoRelation
+  nameWithType: NSFieldInfoRelation
+  fullName: CRMScript.NetServer.NSFieldInfoRelation
+  type: Class
+  summary: "\nRelation to other table database field.\n"
+  example: 
+- uid: CRMScript.NetServer.NSFieldInfoRelation.#ctor
+  commentId: M:CRMScript.NetServer.NSFieldInfoRelation.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSFieldInfoRelation
+  langs:
+  - crmscript
+  name: NSFieldInfoRelation()
+  nameWithType: NSFieldInfoRelation.#ctor
+  fullName: CRMScript.NetServer.NSFieldInfoRelation.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSFieldInfoRelation class.\n"
+  remarks: 
+  syntax: 
+    content: NSFieldInfoRelation
+  example: 
+- uid: CRMScript.NetServer.NSFieldInfoRelation.GetDefaultValue()
+  commentId: M:CRMScript.NetServer.NSFieldInfoRelation.GetDefaultValue()
+  id: 'GetDefaultValue()'
+  so.intellisense: NSFieldInfoRelation.GetDefaultValue
+  langs:
+  - crmscript
+  name: 'GetDefaultValue()'
+  nameWithType: NSFieldInfoRelation.GetDefaultValue()
+  fullName: CRMScript.NetServer.NSFieldInfoRelation.GetDefaultValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDefaultValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Default record ID."
+  example: 
+  - "\n<pre><code>NSFieldInfoRelation thing;\nInteger defaultValue = thing.GetDefaultValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldInfoRelation.GetMdoListName()
+  commentId: M:CRMScript.NetServer.NSFieldInfoRelation.GetMdoListName()
+  id: 'GetMdoListName()'
+  so.intellisense: NSFieldInfoRelation.GetMdoListName
+  langs:
+  - crmscript
+  name: 'GetMdoListName()'
+  nameWithType: NSFieldInfoRelation.GetMdoListName()
+  fullName: CRMScript.NetServer.NSFieldInfoRelation.GetMdoListName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetMdoListName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "MDO list name used to populate this list. (Read-only, derived from TargetTable)."
+  example: 
+  - "\n<pre><code>NSFieldInfoRelation thing;\nString mdoListName = thing.GetMdoListName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldInfoRelation.GetTargetLabel()
+  commentId: M:CRMScript.NetServer.NSFieldInfoRelation.GetTargetLabel()
+  id: 'GetTargetLabel()'
+  so.intellisense: NSFieldInfoRelation.GetTargetLabel
+  langs:
+  - crmscript
+  name: 'GetTargetLabel()'
+  nameWithType: NSFieldInfoRelation.GetTargetLabel()
+  fullName: CRMScript.NetServer.NSFieldInfoRelation.GetTargetLabel()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTargetLabel()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Display name on target entity."
+  example: 
+  - "\n<pre><code>NSFieldInfoRelation thing;\nString targetLabel = thing.GetTargetLabel();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldInfoRelation.GetTargetTable()
+  commentId: M:CRMScript.NetServer.NSFieldInfoRelation.GetTargetTable()
+  id: 'GetTargetTable()'
+  so.intellisense: NSFieldInfoRelation.GetTargetTable
+  langs:
+  - crmscript
+  name: 'GetTargetTable()'
+  nameWithType: NSFieldInfoRelation.GetTargetTable()
+  fullName: CRMScript.NetServer.NSFieldInfoRelation.GetTargetTable()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTargetTable()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: Name of target table 'contact', 'y_equipment'
+  example: 
+  - "\n<pre><code>NSFieldInfoRelation thing;\nString targetTable = thing.GetTargetTable();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldInfoRelation.GetUseDropDown()
+  commentId: M:CRMScript.NetServer.NSFieldInfoRelation.GetUseDropDown()
+  id: 'GetUseDropDown()'
+  so.intellisense: NSFieldInfoRelation.GetUseDropDown
+  langs:
+  - crmscript
+  name: 'GetUseDropDown()'
+  nameWithType: NSFieldInfoRelation.GetUseDropDown()
+  fullName: CRMScript.NetServer.NSFieldInfoRelation.GetUseDropDown()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetUseDropDown()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: Show as dropdown list on target?
+  example: 
+  - "\n<pre><code>NSFieldInfoRelation thing;\nBool useDropDown = thing.GetUseDropDown();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldInfoRelation.SetDefaultValue(Integer)
+  commentId: M:CRMScript.NetServer.NSFieldInfoRelation.SetDefaultValue(Integer)
+  id: 'SetDefaultValue(Integer)'
+  so.intellisense: NSFieldInfoRelation.SetDefaultValue
+  langs:
+  - crmscript
+  name: 'SetDefaultValue(Integer)'
+  nameWithType: NSFieldInfoRelation.SetDefaultValue(Integer)
+  fullName: CRMScript.NetServer.NSFieldInfoRelation.SetDefaultValue(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDefaultValue(Integer defaultValue)
+    parameters:
+    - id: defaultValue
+      type: CRMScript.Global.Integer
+      description: "Default record ID."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldInfoRelation thing;\nInteger defaultValue;\nthing.SetDefaultValue(defaultValue);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldInfoRelation.SetMdoListName(String)
+  commentId: M:CRMScript.NetServer.NSFieldInfoRelation.SetMdoListName(String)
+  id: 'SetMdoListName(String)'
+  so.intellisense: NSFieldInfoRelation.SetMdoListName
+  langs:
+  - crmscript
+  name: 'SetMdoListName(String)'
+  nameWithType: NSFieldInfoRelation.SetMdoListName(String)
+  fullName: CRMScript.NetServer.NSFieldInfoRelation.SetMdoListName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMdoListName(String mdoListName)
+    parameters:
+    - id: mdoListName
+      type: CRMScript.Global.String
+      description: "MDO list name used to populate this list. (Read-only, derived from TargetTable)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldInfoRelation thing;\nString mdoListName;\nthing.SetMdoListName(mdoListName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldInfoRelation.SetTargetLabel(String)
+  commentId: M:CRMScript.NetServer.NSFieldInfoRelation.SetTargetLabel(String)
+  id: 'SetTargetLabel(String)'
+  so.intellisense: NSFieldInfoRelation.SetTargetLabel
+  langs:
+  - crmscript
+  name: 'SetTargetLabel(String)'
+  nameWithType: NSFieldInfoRelation.SetTargetLabel(String)
+  fullName: CRMScript.NetServer.NSFieldInfoRelation.SetTargetLabel(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTargetLabel(String targetLabel)
+    parameters:
+    - id: targetLabel
+      type: CRMScript.Global.String
+      description: "Display name on target entity."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldInfoRelation thing;\nString targetLabel;\nthing.SetTargetLabel(targetLabel);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldInfoRelation.SetTargetTable(String)
+  commentId: M:CRMScript.NetServer.NSFieldInfoRelation.SetTargetTable(String)
+  id: 'SetTargetTable(String)'
+  so.intellisense: NSFieldInfoRelation.SetTargetTable
+  langs:
+  - crmscript
+  name: 'SetTargetTable(String)'
+  nameWithType: NSFieldInfoRelation.SetTargetTable(String)
+  fullName: CRMScript.NetServer.NSFieldInfoRelation.SetTargetTable(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTargetTable(String targetTable)
+    parameters:
+    - id: targetTable
+      type: CRMScript.Global.String
+      description: Name of target table 'contact', 'y_equipment'
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldInfoRelation thing;\nString targetTable;\nthing.SetTargetTable(targetTable);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldInfoRelation.SetUseDropDown(Bool)
+  commentId: M:CRMScript.NetServer.NSFieldInfoRelation.SetUseDropDown(Bool)
+  id: 'SetUseDropDown(Bool)'
+  so.intellisense: NSFieldInfoRelation.SetUseDropDown
+  langs:
+  - crmscript
+  name: 'SetUseDropDown(Bool)'
+  nameWithType: NSFieldInfoRelation.SetUseDropDown(Bool)
+  fullName: CRMScript.NetServer.NSFieldInfoRelation.SetUseDropDown(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUseDropDown(Bool useDropDown)
+    parameters:
+    - id: useDropDown
+      type: CRMScript.Global.Bool
+      description: Show as dropdown list on target?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldInfoRelation thing;\nBool useDropDown;\nthing.SetUseDropDown(useDropDown);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSFieldInfoRelation
+  commentId: T:CRMScript.NetServer.NSFieldInfoRelation
+  isExternal: true
+  name: NSFieldInfoRelation
+  nameWithType: NSFieldInfoRelation
+  fullName: CRMScript.NetServer.NSFieldInfoRelation
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

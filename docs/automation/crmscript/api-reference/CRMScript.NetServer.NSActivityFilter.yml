@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSActivityFilter
+  commentId: T:CRMScript.NetServer.NSActivityFilter
+  id: NSActivityFilter
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSActivityFilter.#ctor
+  - CRMScript.NetServer.NSActivityFilter.GetAssociateList()
+  - CRMScript.NetServer.NSActivityFilter.GetFromDate()
+  - CRMScript.NetServer.NSActivityFilter.GetFutureDateList()
+  - CRMScript.NetServer.NSActivityFilter.GetGroupList()
+  - CRMScript.NetServer.NSActivityFilter.GetToDate()
+  - CRMScript.NetServer.NSActivityFilter.SetAssociateList(NSSelectableMDOListItem[])
+  - CRMScript.NetServer.NSActivityFilter.SetFromDate(DateTime)
+  - CRMScript.NetServer.NSActivityFilter.SetFutureDateList(NSMDOListItem[])
+  - CRMScript.NetServer.NSActivityFilter.SetGroupList(NSSelectableMDOListItem[])
+  - CRMScript.NetServer.NSActivityFilter.SetToDate(DateTime)
+  name: NSActivityFilter
+  nameWithType: NSActivityFilter
+  fullName: CRMScript.NetServer.NSActivityFilter
+  type: Class
+  summary: "\nActivity list filter information. Carrier object for ActivityFilter.\n"
+  example: 
+- uid: CRMScript.NetServer.NSActivityFilter.#ctor
+  commentId: M:CRMScript.NetServer.NSActivityFilter.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSActivityFilter
+  langs:
+  - crmscript
+  name: NSActivityFilter()
+  nameWithType: NSActivityFilter.#ctor
+  fullName: CRMScript.NetServer.NSActivityFilter.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSActivityFilter class.\n"
+  remarks: 
+  syntax: 
+    content: NSActivityFilter
+  example: 
+- uid: CRMScript.NetServer.NSActivityFilter.GetAssociateList()
+  commentId: M:CRMScript.NetServer.NSActivityFilter.GetAssociateList()
+  id: 'GetAssociateList()'
+  so.intellisense: NSActivityFilter.GetAssociateList
+  langs:
+  - crmscript
+  name: 'GetAssociateList()'
+  nameWithType: NSActivityFilter.GetAssociateList()
+  fullName: CRMScript.NetServer.NSActivityFilter.GetAssociateList()
+  type: Method
+  summary: "\nReturns the list of associates to filter on.\n"
+  remarks: 
+  syntax: 
+    content: NSSelectableMDOListItem[] GetAssociateList()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSelectableMDOListItem[]
+      description:
+  example: 
+  - "\n<pre><code>NSActivityFilter thing;\nNSSelectableMDOListItem[] associateList = thing.GetAssociateList();</code></pre>\n"
+- uid: CRMScript.NetServer.NSActivityFilter.GetFromDate()
+  commentId: M:CRMScript.NetServer.NSActivityFilter.GetFromDate()
+  id: 'GetFromDate()'
+  so.intellisense: NSActivityFilter.GetFromDate
+  langs:
+  - crmscript
+  name: 'GetFromDate()'
+  nameWithType: NSActivityFilter.GetFromDate()
+  fullName: CRMScript.NetServer.NSActivityFilter.GetFromDate()
+  type: Method
+  summary: "\nReturns the date to filter from.\n"
+  remarks: 
+  syntax: 
+    content: DateTime GetFromDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The date to filter from."
+  example: 
+  - "\n<pre><code>NSActivityFilter thing;\nDateTime fromDate = thing.GetFromDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSActivityFilter.GetFutureDateList()
+  commentId: M:CRMScript.NetServer.NSActivityFilter.GetFutureDateList()
+  id: 'GetFutureDateList()'
+  so.intellisense: NSActivityFilter.GetFutureDateList
+  langs:
+  - crmscript
+  name: 'GetFutureDateList()'
+  nameWithType: NSActivityFilter.GetFutureDateList()
+  fullName: CRMScript.NetServer.NSActivityFilter.GetFutureDateList()
+  type: Method
+  summary: "\nReturns the list of future date selections.\n"
+  remarks: 
+  syntax: 
+    content: NSMDOListItem[] GetFutureDateList()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSMDOListItem[]
+      description: "A static MDO list with standard values."
+  example: 
+  - "\n<pre><code>NSActivityFilter thing;\nNSMDOListItem[] futureDateList = thing.GetFutureDateList();</code></pre>\n"
+- uid: CRMScript.NetServer.NSActivityFilter.GetGroupList()
+  commentId: M:CRMScript.NetServer.NSActivityFilter.GetGroupList()
+  id: 'GetGroupList()'
+  so.intellisense: NSActivityFilter.GetGroupList
+  langs:
+  - crmscript
+  name: 'GetGroupList()'
+  nameWithType: NSActivityFilter.GetGroupList()
+  fullName: CRMScript.NetServer.NSActivityFilter.GetGroupList()
+  type: Method
+  summary: "\nReturns the list of groups to filter on.\n"
+  remarks: 
+  syntax: 
+    content: NSSelectableMDOListItem[] GetGroupList()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSelectableMDOListItem[]
+      description: "The list of groups to filter on."
+  example: 
+  - "\n<pre><code>NSActivityFilter thing;\nNSSelectableMDOListItem[] groupList = thing.GetGroupList();</code></pre>\n"
+- uid: CRMScript.NetServer.NSActivityFilter.GetToDate()
+  commentId: M:CRMScript.NetServer.NSActivityFilter.GetToDate()
+  id: 'GetToDate()'
+  so.intellisense: NSActivityFilter.GetToDate
+  langs:
+  - crmscript
+  name: 'GetToDate()'
+  nameWithType: NSActivityFilter.GetToDate()
+  fullName: CRMScript.NetServer.NSActivityFilter.GetToDate()
+  type: Method
+  summary: "\nReturns the date to filter to.\n"
+  remarks: 
+  syntax: 
+    content: DateTime GetToDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The date to filter to."
+  example: 
+  - "\n<pre><code>NSActivityFilter thing;\nDateTime toDate = thing.GetToDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSActivityFilter.SetAssociateList(NSSelectableMDOListItem[])
+  commentId: M:CRMScript.NetServer.NSActivityFilter.SetAssociateList(NSSelectableMDOListItem[])
+  id: 'SetAssociateList(NSSelectableMDOListItem[])'
+  so.intellisense: NSActivityFilter.SetAssociateList
+  langs:
+  - crmscript
+  name: 'SetAssociateList(NSSelectableMDOListItem[])'
+  nameWithType: NSActivityFilter.SetAssociateList(NSSelectableMDOListItem[])
+  fullName: CRMScript.NetServer.NSActivityFilter.SetAssociateList(NSSelectableMDOListItem[])
+  type: Method
+  summary: "\nSets the list of associates to filter on.\n"
+  remarks: 
+  syntax: 
+    content: Void SetAssociateList(NSSelectableMDOListItem[] associateList)
+    parameters:
+    - id: associateList
+      type: CRMScript.NetServer.NSSelectableMDOListItem[]
+      description: "list of associates."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSActivityFilter thing;\nNSSelectableMDOListItem[] associateList;\nthing.SetAssociateList(associateList);</code></pre>\n"
+- uid: CRMScript.NetServer.NSActivityFilter.SetFromDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSActivityFilter.SetFromDate(DateTime)
+  id: 'SetFromDate(DateTime)'
+  so.intellisense: NSActivityFilter.SetFromDate
+  langs:
+  - crmscript
+  name: 'SetFromDate(DateTime)'
+  nameWithType: NSActivityFilter.SetFromDate(DateTime)
+  fullName: CRMScript.NetServer.NSActivityFilter.SetFromDate(DateTime)
+  type: Method
+  summary: "\nSets the date to filter from.\n"
+  remarks: 
+  syntax: 
+    content: Void SetFromDate(DateTime fromDate)
+    parameters:
+    - id: fromDate
+      type: CRMScript.Global.DateTime
+      description: "The date to filter from."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSActivityFilter thing;\nDateTime fromDate;\nthing.SetFromDate(fromDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSActivityFilter.SetFutureDateList(NSMDOListItem[])
+  commentId: M:CRMScript.NetServer.NSActivityFilter.SetFutureDateList(NSMDOListItem[])
+  id: 'SetFutureDateList(NSMDOListItem[])'
+  so.intellisense: NSActivityFilter.SetFutureDateList
+  langs:
+  - crmscript
+  name: 'SetFutureDateList(NSMDOListItem[])'
+  nameWithType: NSActivityFilter.SetFutureDateList(NSMDOListItem[])
+  fullName: CRMScript.NetServer.NSActivityFilter.SetFutureDateList(NSMDOListItem[])
+  type: Method
+  summary: "\nSets the list of future date selections.\n"
+  remarks: 
+  syntax: 
+    content: Void SetFutureDateList(NSMDOListItem[] futureDateList)
+    parameters:
+    - id: futureDateList
+      type: CRMScript.NetServer.NSMDOListItem[]
+      description: "The list of future date selections. A static MDO list with standard values."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSActivityFilter thing;\nNSMDOListItem[] futureDateList;\nthing.SetFutureDateList(futureDateList);</code></pre>\n"
+- uid: CRMScript.NetServer.NSActivityFilter.SetGroupList(NSSelectableMDOListItem[])
+  commentId: M:CRMScript.NetServer.NSActivityFilter.SetGroupList(NSSelectableMDOListItem[])
+  id: 'SetGroupList(NSSelectableMDOListItem[])'
+  so.intellisense: NSActivityFilter.SetGroupList
+  langs:
+  - crmscript
+  name: 'SetGroupList(NSSelectableMDOListItem[])'
+  nameWithType: NSActivityFilter.SetGroupList(NSSelectableMDOListItem[])
+  fullName: CRMScript.NetServer.NSActivityFilter.SetGroupList(NSSelectableMDOListItem[])
+  type: Method
+  summary: "\nSets the list of groups to filter on.\n"
+  remarks: 
+  syntax: 
+    content: Void SetGroupList(NSSelectableMDOListItem[] groupList)
+    parameters:
+    - id: groupList
+      type: CRMScript.NetServer.NSSelectableMDOListItem[]
+      description: "The list of groups to filter on."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSActivityFilter thing;\nNSSelectableMDOListItem[] groupList;\nthing.SetGroupList(groupList);</code></pre>\n"
+- uid: CRMScript.NetServer.NSActivityFilter.SetToDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSActivityFilter.SetToDate(DateTime)
+  id: 'SetToDate(DateTime)'
+  so.intellisense: NSActivityFilter.SetToDate
+  langs:
+  - crmscript
+  name: 'SetToDate(DateTime)'
+  nameWithType: NSActivityFilter.SetToDate(DateTime)
+  fullName: CRMScript.NetServer.NSActivityFilter.SetToDate(DateTime)
+  type: Method
+  summary: "\nSets the date to filter to.\n"
+  remarks: 
+  syntax: 
+    content: Void SetToDate(DateTime toDate)
+    parameters:
+    - id: toDate
+      type: CRMScript.Global.DateTime
+      description: "The date to filter to."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSActivityFilter thing;\nDateTime toDate;\nthing.SetToDate(toDate);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSActivityFilter
+  commentId: T:CRMScript.NetServer.NSActivityFilter
+  isExternal: true
+  name: NSActivityFilter
+  nameWithType: NSActivityFilter
+  fullName: CRMScript.NetServer.NSActivityFilter
+- uid: CRMScript.NetServer.NSSelectableMDOListItem[]
+  isExternal: true
+  name: NSSelectableMDOListItem[]
+  nameWithType: NSSelectableMDOListItem[]
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSSelectableMDOListItem
+    isExternal: true
+    name: NSSelectableMDOListItem
+    nameWithType: NSSelectableMDOListItem
+    fullName: CRMScript.NetServer.NSSelectableMDOListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSSelectableMDOListItem
+  commentId: T:CRMScript.NetServer.NSSelectableMDOListItem
+  isExternal: true
+  name: NSSelectableMDOListItem
+  nameWithType: NSSelectableMDOListItem
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.NetServer.NSMDOListItem[]
+  isExternal: true
+  name: NSMDOListItem[]
+  nameWithType: NSMDOListItem[]
+  fullName: CRMScript.NetServer.NSMDOListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSMDOListItem
+    isExternal: true
+    name: NSMDOListItem
+    nameWithType: NSMDOListItem
+    fullName: CRMScript.NetServer.NSMDOListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSMDOListItem
+  commentId: T:CRMScript.NetServer.NSMDOListItem
+  isExternal: true
+  name: NSMDOListItem
+  nameWithType: NSMDOListItem
+  fullName: CRMScript.NetServer.NSMDOListItem
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

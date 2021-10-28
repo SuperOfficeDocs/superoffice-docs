@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSTableRight
+  commentId: T:CRMScript.NetServer.NSTableRight
+  id: NSTableRight
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSTableRight.#ctor
+  - CRMScript.NetServer.NSTableRight.GetMask()
+  - CRMScript.NetServer.NSTableRight.GetReason()
+  - CRMScript.NetServer.NSTableRight.GetTableRight()
+  - CRMScript.NetServer.NSTableRight.SetMask(Integer)
+  - CRMScript.NetServer.NSTableRight.SetReason(String)
+  - CRMScript.NetServer.NSTableRight.SetTableRight(Integer)
+  name: NSTableRight
+  nameWithType: NSTableRight
+  fullName: CRMScript.NetServer.NSTableRight
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSTableRight.#ctor
+  commentId: M:CRMScript.NetServer.NSTableRight.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSTableRight
+  langs:
+  - crmscript
+  name: NSTableRight()
+  nameWithType: NSTableRight.#ctor
+  fullName: CRMScript.NetServer.NSTableRight.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSTableRight class.\n"
+  remarks: 
+  syntax: 
+    content: NSTableRight
+  example: 
+- uid: CRMScript.NetServer.NSTableRight.GetMask()
+  commentId: M:CRMScript.NetServer.NSTableRight.GetMask()
+  id: 'GetMask()'
+  so.intellisense: NSTableRight.GetMask
+  langs:
+  - crmscript
+  name: 'GetMask()'
+  nameWithType: NSTableRight.GetMask()
+  fullName: CRMScript.NetServer.NSTableRight.GetMask()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetMask()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSTableRight.GetReason()
+  commentId: M:CRMScript.NetServer.NSTableRight.GetReason()
+  id: 'GetReason()'
+  so.intellisense: NSTableRight.GetReason
+  langs:
+  - crmscript
+  name: 'GetReason()'
+  nameWithType: NSTableRight.GetReason()
+  fullName: CRMScript.NetServer.NSTableRight.GetReason()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetReason()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSTableRight.GetTableRight()
+  commentId: M:CRMScript.NetServer.NSTableRight.GetTableRight()
+  id: 'GetTableRight()'
+  so.intellisense: NSTableRight.GetTableRight
+  langs:
+  - crmscript
+  name: 'GetTableRight()'
+  nameWithType: NSTableRight.GetTableRight()
+  fullName: CRMScript.NetServer.NSTableRight.GetTableRight()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTableRight()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSTableRight.SetMask(Integer)
+  commentId: M:CRMScript.NetServer.NSTableRight.SetMask(Integer)
+  id: 'SetMask(Integer)'
+  so.intellisense: NSTableRight.SetMask
+  langs:
+  - crmscript
+  name: 'SetMask(Integer)'
+  nameWithType: NSTableRight.SetMask(Integer)
+  fullName: CRMScript.NetServer.NSTableRight.SetMask(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMask(Integer mask)
+    parameters:
+    - id: mask
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSTableRight.SetReason(String)
+  commentId: M:CRMScript.NetServer.NSTableRight.SetReason(String)
+  id: 'SetReason(String)'
+  so.intellisense: NSTableRight.SetReason
+  langs:
+  - crmscript
+  name: 'SetReason(String)'
+  nameWithType: NSTableRight.SetReason(String)
+  fullName: CRMScript.NetServer.NSTableRight.SetReason(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetReason(String reason)
+    parameters:
+    - id: reason
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSTableRight.SetTableRight(Integer)
+  commentId: M:CRMScript.NetServer.NSTableRight.SetTableRight(Integer)
+  id: 'SetTableRight(Integer)'
+  so.intellisense: NSTableRight.SetTableRight
+  langs:
+  - crmscript
+  name: 'SetTableRight(Integer)'
+  nameWithType: NSTableRight.SetTableRight(Integer)
+  fullName: CRMScript.NetServer.NSTableRight.SetTableRight(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTableRight(Integer right)
+    parameters:
+    - id: right
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSTableRight
+  commentId: T:CRMScript.NetServer.NSTableRight
+  isExternal: true
+  name: NSTableRight
+  nameWithType: NSTableRight
+  fullName: CRMScript.NetServer.NSTableRight
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

@@ -1,0 +1,419 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSCustomerCenterConfig
+  commentId: T:CRMScript.NetServer.NSCustomerCenterConfig
+  id: NSCustomerCenterConfig
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSCustomerCenterConfig.#ctor
+  - CRMScript.NetServer.NSCustomerCenterConfig.GetConfig()
+  - CRMScript.NetServer.NSCustomerCenterConfig.GetCustConfigId()
+  - CRMScript.NetServer.NSCustomerCenterConfig.GetCustLangId()
+  - CRMScript.NetServer.NSCustomerCenterConfig.GetRegistered()
+  - CRMScript.NetServer.NSCustomerCenterConfig.GetRegisteredAssociateId()
+  - CRMScript.NetServer.NSCustomerCenterConfig.GetType()
+  - CRMScript.NetServer.NSCustomerCenterConfig.GetUpdated()
+  - CRMScript.NetServer.NSCustomerCenterConfig.GetUpdatedAssociateId()
+  - CRMScript.NetServer.NSCustomerCenterConfig.SetConfig(String)
+  - CRMScript.NetServer.NSCustomerCenterConfig.SetCustConfigId(Integer)
+  - CRMScript.NetServer.NSCustomerCenterConfig.SetCustLangId(Integer)
+  - CRMScript.NetServer.NSCustomerCenterConfig.SetRegistered(DateTime)
+  - CRMScript.NetServer.NSCustomerCenterConfig.SetRegisteredAssociateId(Integer)
+  - CRMScript.NetServer.NSCustomerCenterConfig.SetType(Integer)
+  - CRMScript.NetServer.NSCustomerCenterConfig.SetRegiSetUpdated(DateTime)
+  - CRMScript.NetServer.NSCustomerCenterConfig.SetUpdatedAssociateId(Integer)
+  name: NSCustomerCenterConfig
+  nameWithType: NSCustomerCenterConfig
+  fullName: CRMScript.NetServer.NSCustomerCenterConfig
+  type: Class
+  summary: "\nContains configuration when displaying the Customer Center. Carrier object for CustomerCenterConfig.\n"
+  example: 
+- uid: CRMScript.NetServer.NSCustomerCenterConfig.#ctor
+  commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSCustomerCenterConfig
+  langs:
+  - crmscript
+  name: NSCustomerCenterConfig()
+  nameWithType: NSCustomerCenterConfig.#ctor
+  fullName: CRMScript.NetServer.NSCustomerCenterConfig.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSCustomerCenterConfig class.\n"
+  remarks: 
+  syntax: 
+    content: NSCustomerCenterConfig
+  example: 
+- uid: CRMScript.NetServer.NSCustomerCenterConfig.GetConfig()
+  commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.GetConfig()
+  id: 'GetConfig()'
+  so.intellisense: NSCustomerCenterConfig.GetConfig
+  langs:
+  - crmscript
+  name: 'GetConfig()'
+  nameWithType: NSCustomerCenterConfig.GetConfig()
+  fullName: CRMScript.NetServer.NSCustomerCenterConfig.GetConfig()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetConfig()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A JSON-formatted config."
+  example: 
+  - "\n<pre><code>NSCustomerCenterConfig thing;\nString config = thing.GetConfig();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerCenterConfig.GetCustConfigId()
+  commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.GetCustConfigId()
+  id: 'GetCustConfigId()'
+  so.intellisense: NSCustomerCenterConfig.GetCustConfigId
+  langs:
+  - crmscript
+  name: 'GetCustConfigId()'
+  nameWithType: NSCustomerCenterConfig.GetCustConfigId()
+  fullName: CRMScript.NetServer.NSCustomerCenterConfig.GetCustConfigId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCustConfigId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSCustomerCenterConfig thing;\nInteger custConfigId = thing.GetCustConfigId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerCenterConfig.GetCustLangId()
+  commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.GetCustLangId()
+  id: 'GetCustLangId()'
+  so.intellisense: NSCustomerCenterConfig.GetCustLangId
+  langs:
+  - crmscript
+  name: 'GetCustLangId()'
+  nameWithType: NSCustomerCenterConfig.GetCustLangId()
+  fullName: CRMScript.NetServer.NSCustomerCenterConfig.GetCustLangId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCustLangId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The customer language which this config belongs to. 0 indicates that the config is global."
+  example: 
+  - "\n<pre><code>NSCustomerCenterConfig thing;\nInteger custLangId = thing.GetCustLangId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerCenterConfig.GetRegistered()
+  commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.GetRegistered()
+  id: 'GetRegistered()'
+  so.intellisense: NSCustomerCenterConfig.GetRegistered
+  langs:
+  - crmscript
+  name: 'GetRegistered()'
+  nameWithType: NSCustomerCenterConfig.GetRegistered()
+  fullName: CRMScript.NetServer.NSCustomerCenterConfig.GetRegistered()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetRegistered()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+  example: 
+  - "\n<pre><code>NSCustomerCenterConfig thing;\nDateTime registered = thing.GetRegistered();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerCenterConfig.GetRegisteredAssociateId()
+  commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.GetRegisteredAssociateId()
+  id: 'GetRegisteredAssociateId()'
+  so.intellisense: NSCustomerCenterConfig.GetRegisteredAssociateId
+  langs:
+  - crmscript
+  name: 'GetRegisteredAssociateId()'
+  nameWithType: NSCustomerCenterConfig.GetRegisteredAssociateId()
+  fullName: CRMScript.NetServer.NSCustomerCenterConfig.GetRegisteredAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRegisteredAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Registered by whom."
+  example: 
+  - "\n<pre><code>NSCustomerCenterConfig thing;\nInteger registeredAssociateId = thing.GetRegisteredAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerCenterConfig.GetType()
+  commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.GetType()
+  id: 'GetType()'
+  so.intellisense: NSCustomerCenterConfig.GetType
+  langs:
+  - crmscript
+  name: 'GetType()'
+  nameWithType: NSCustomerCenterConfig.GetType()
+  fullName: CRMScript.NetServer.NSCustomerCenterConfig.GetType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "What kind of data is in this row. What kind of data is in this row. See <xref href=\"CRMScript.NetServer.ConfigType\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSCustomerCenterConfig thing;\nInteger type = thing.GetType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerCenterConfig.GetUpdated()
+  commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.GetUpdated()
+  id: 'GetUpdated()'
+  so.intellisense: NSCustomerCenterConfig.GetUpdated
+  langs:
+  - crmscript
+  name: 'GetUpdated()'
+  nameWithType: NSCustomerCenterConfig.GetUpdated()
+  fullName: CRMScript.NetServer.NSCustomerCenterConfig.GetUpdated()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetUpdated()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+  example: 
+  - "\n<pre><code>NSCustomerCenterConfig thing;\nDateTime updated = thing.GetUpdated();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerCenterConfig.GetUpdatedAssociateId()
+  commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.GetUpdatedAssociateId()
+  id: 'GetUpdatedAssociateId()'
+  so.intellisense: NSCustomerCenterConfig.GetUpdatedAssociateId
+  langs:
+  - crmscript
+  name: 'GetUpdatedAssociateId()'
+  nameWithType: NSCustomerCenterConfig.GetUpdatedAssociateId()
+  fullName: CRMScript.NetServer.NSCustomerCenterConfig.GetUpdatedAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetUpdatedAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Last updated by whom."
+  example: 
+  - "\n<pre><code>NSCustomerCenterConfig thing;\nInteger updatedAssociateId = thing.GetUpdatedAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerCenterConfig.SetConfig(String)
+  commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.SetConfig(String)
+  id: 'SetConfig(String)'
+  so.intellisense: NSCustomerCenterConfig.SetConfig
+  langs:
+  - crmscript
+  name: 'SetConfig(String)'
+  nameWithType: NSCustomerCenterConfig.SetConfig(String)
+  fullName: CRMScript.NetServer.NSCustomerCenterConfig.SetConfig(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetConfig(String config)
+    parameters:
+    - id: config
+      type: CRMScript.Global.String
+      description: "A JSON-formatted config."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCustomerCenterConfig thing;\nString config;\nthing.SetConfig(config);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerCenterConfig.SetCustConfigId(Integer)
+  commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.SetCustConfigId(Integer)
+  id: 'SetCustConfigId(Integer)'
+  so.intellisense: NSCustomerCenterConfig.SetCustConfigId
+  langs:
+  - crmscript
+  name: 'SetCustConfigId(Integer)'
+  nameWithType: NSCustomerCenterConfig.SetCustConfigId(Integer)
+  fullName: CRMScript.NetServer.NSCustomerCenterConfig.SetCustConfigId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCustConfigId(Integer custConfigId)
+    parameters:
+    - id: custConfigId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCustomerCenterConfig thing;\nInteger custConfigId;\nthing.SetCustConfigId(custConfigId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerCenterConfig.SetCustLangId(Integer)
+  commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.SetCustLangId(Integer)
+  id: 'SetCustLangId(Integer)'
+  so.intellisense: NSCustomerCenterConfig.SetCustLangId
+  langs:
+  - crmscript
+  name: 'SetCustLangId(Integer)'
+  nameWithType: NSCustomerCenterConfig.SetCustLangId(Integer)
+  fullName: CRMScript.NetServer.NSCustomerCenterConfig.SetCustLangId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCustLangId(Integer custLangId)
+    parameters:
+    - id: custLangId
+      type: CRMScript.Global.Integer
+      description: "The customer language which this config belongs to. 0 indicates that the config is global."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCustomerCenterConfig thing;\nInteger custLangId;\nthing.SetCustLangId(custLangId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerCenterConfig.SetRegistered(DateTime)
+  commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.SetRegistered(DateTime)
+  id: 'SetRegistered(DateTime)'
+  so.intellisense: NSCustomerCenterConfig.SetRegistered
+  langs:
+  - crmscript
+  name: 'SetRegistered(DateTime)'
+  nameWithType: NSCustomerCenterConfig.SetRegistered(DateTime)
+  fullName: CRMScript.NetServer.NSCustomerCenterConfig.SetRegistered(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRegistered(DateTime registered)
+    parameters:
+    - id: registered
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCustomerCenterConfig thing;\nDateTime registered;\nthing.SetRegistered(registered);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerCenterConfig.SetRegisteredAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.SetRegisteredAssociateId(Integer)
+  id: 'SetRegisteredAssociateId(Integer)'
+  so.intellisense: NSCustomerCenterConfig.SetRegisteredAssociateId
+  langs:
+  - crmscript
+  name: 'SetRegisteredAssociateId(Integer)'
+  nameWithType: NSCustomerCenterConfig.SetRegisteredAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSCustomerCenterConfig.SetRegisteredAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRegisteredAssociateId(Integer registeredAssociateId)
+    parameters:
+    - id: registeredAssociateId
+      type: CRMScript.Global.Integer
+      description: "Registered by whom."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCustomerCenterConfig thing;\nInteger registeredAssociateId;\nthing.SetRegisteredAssociateId(registeredAssociateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerCenterConfig.SetType(Integer)
+  commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.SetType(Integer)
+  id: 'SetType(Integer)'
+  so.intellisense: NSCustomerCenterConfig.SetType
+  langs:
+  - crmscript
+  name: 'SetType(Integer)'
+  nameWithType: NSCustomerCenterConfig.SetType(Integer)
+  fullName: CRMScript.NetServer.NSCustomerCenterConfig.SetType(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetType(Integer type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "What kind of data is in this row. See <xref href=\"CRMScript.NetServer.ConfigType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCustomerCenterConfig thing;\nInteger type;\nthing.SetType(type);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerCenterConfig.SetRegiSetUpdated(DateTime)
+  commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.SetRegiSetUpdated(DateTime)
+  id: 'SetRegiSetUpdated(DateTime)'
+  so.intellisense: NSCustomerCenterConfig.SetUpdated
+  langs:
+  - crmscript
+  name: 'SetRegiSetUpdated(DateTime)'
+  nameWithType: NSCustomerCenterConfig.SetRegiSetUpdated(DateTime)
+  fullName: CRMScript.NetServer.NSCustomerCenterConfig.SetRegiSetUpdated(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdated(DateTime updated)
+    parameters:
+    - id: updated
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCustomerCenterConfig thing;\nDateTime updated;\nthing.SetUpdated(updated);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerCenterConfig.SetUpdatedAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSCustomerCenterConfig.SetUpdatedAssociateId(Integer)
+  id: 'SetUpdatedAssociateId(Integer)'
+  so.intellisense: NSCustomerCenterConfig.SetUpdatedAssociateId
+  langs:
+  - crmscript
+  name: 'SetUpdatedAssociateId(Integer)'
+  nameWithType: NSCustomerCenterConfig.SetUpdatedAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSCustomerCenterConfig.SetUpdatedAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedAssociateId(Integer updatedAssociateId)
+    parameters:
+    - id: updatedAssociateId
+      type: CRMScript.Global.Integer
+      description: "Last updated by whom."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCustomerCenterConfig thing;\nInteger updatedAssociateId;\nthing.SetUpdatedAssociateId(updatedAssociateId);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSCustomerCenterConfig
+  commentId: T:CRMScript.NetServer.NSCustomerCenterConfig
+  isExternal: true
+  name: NSCustomerCenterConfig
+  nameWithType: NSCustomerCenterConfig
+  fullName: CRMScript.NetServer.NSCustomerCenterConfig
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.ConfigType
+  commentId: T:CRMScript.NetServer.ConfigType
+  isExternal: true
+  name: ConfigType
+  nameWithType: ConfigType
+  fullName: CRMScript.NetServer.ConfigType

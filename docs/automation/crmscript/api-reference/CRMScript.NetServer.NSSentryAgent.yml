@@ -1,0 +1,276 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSSentryAgent
+  commentId: T:CRMScript.NetServer.NSSentryAgent
+  id: NSSentryAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSSentryAgent.#ctor
+  - CRMScript.NetServer.NSSentryAgent.CanCreateAppointmentInAllDiaries()
+  - CRMScript.NetServer.NSSentryAgent.CanCreateAppointmentInAssociateDiaries(Integer[])
+  - CRMScript.NetServer.NSSentryAgent.GetFunctionRights()
+  - CRMScript.NetServer.NSSentryAgent.GetNewTableRight(String)
+  - CRMScript.NetServer.NSSentryAgent.GetTableRightByContactOwnership(String,Integer)
+  - CRMScript.NetServer.NSSentryAgent.GetTableRightByOwnership(String,Integer,Integer)
+  - CRMScript.NetServer.NSSentryAgent.HasFunctionRight(String)
+  name: NSSentryAgent
+  nameWithType: NSSentryAgent
+  fullName: CRMScript.NetServer.NSSentryAgent
+  type: Class
+  summary: "\nData and function right queries.\n"
+  example: 
+  - "\n<pre><code>NSSentryAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSentryAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSSentryAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSSentryAgent
+  langs:
+  - crmscript
+  name: NSSentryAgent()
+  nameWithType: NSSentryAgent.#ctor
+  fullName: CRMScript.NetServer.NSSentryAgent.#ctor
+  type: Constructor
+  summary: "\nData and function right queries.\n"
+  remarks: 
+  syntax: 
+    content: NSSentryAgent
+  example: 
+  - "\n<pre><code>NSSentryAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSentryAgent.CanCreateAppointmentInAllDiaries()
+  commentId: M:CRMScript.NetServer.NSSentryAgent.CanCreateAppointmentInAllDiaries()
+  id: 'CanCreateAppointmentInAllDiaries()'
+  so.intellisense: NSSentryAgent.CanCreateAppointmentInAllDiaries
+  langs:
+  - crmscript
+  name: 'CanCreateAppointmentInAllDiaries()'
+  nameWithType: NSSentryAgent.CanCreateAppointmentInAllDiaries()
+  fullName: CRMScript.NetServer.NSSentryAgent.CanCreateAppointmentInAllDiaries()
+  type: Method
+  summary: "\nChecks if the current associate can create appointments in diaries belonging all other associates. It checks only against associates that are diary owners.\n"
+  remarks: 
+  syntax: 
+    content: Bool CanCreateAppointmentInAllDiaries()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSSentryAgent agent;\nBool res = agent.CanCreateAppointmentInAllDiaries();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSentryAgent.CanCreateAppointmentInAssociateDiaries(Integer[])
+  commentId: M:CRMScript.NetServer.NSSentryAgent.CanCreateAppointmentInAssociateDiaries(Integer[])
+  id: 'CanCreateAppointmentInAssociateDiaries(Integer[])'
+  so.intellisense: NSSentryAgent.CanCreateAppointmentInAssociateDiaries
+  langs:
+  - crmscript
+  name: 'CanCreateAppointmentInAssociateDiaries(Integer[])'
+  nameWithType: NSSentryAgent.CanCreateAppointmentInAssociateDiaries(Integer[])
+  fullName: CRMScript.NetServer.NSSentryAgent.CanCreateAppointmentInAssociateDiaries(Integer[])
+  type: Method
+  summary: "\nChecks if the current associate can create appointments in diaries belonging to the associates listed in associateIds. Checks only against associates that are diary owners.\n"
+  remarks: 
+  syntax: 
+    content: Bool CanCreateAppointmentInAssociateDiaries(Integer[] associateIds)
+    parameters:
+    - id: associateIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description: "If none of the associates listed in the associateIds parameter is a diary owner, the method will return true."
+  example: 
+  - "\n<pre><code>NSSentryAgent agent;\nInteger[] associateIds;\nBool res = agent.CanCreateAppointmentInAssociateDiaries(associateIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSentryAgent.GetFunctionRights()
+  commentId: M:CRMScript.NetServer.NSSentryAgent.GetFunctionRights()
+  id: 'GetFunctionRights()'
+  so.intellisense: NSSentryAgent.GetFunctionRights
+  langs:
+  - crmscript
+  name: 'GetFunctionRights()'
+  nameWithType: NSSentryAgent.GetFunctionRights()
+  fullName: CRMScript.NetServer.NSSentryAgent.GetFunctionRights()
+  type: Method
+  summary: "\nGets a string array of all functions rights for the role of the current associate.\n"
+  remarks: 
+  syntax: 
+    content: String[] GetFunctionRights()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+      description:
+  example: 
+  - "\n<pre><code>NSSentryAgent agent;\nString[] res = agent.GetFunctionRights();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSentryAgent.GetNewTableRight(String)
+  commentId: M:CRMScript.NetServer.NSSentryAgent.GetNewTableRight(String)
+  id: 'GetNewTableRight(String)'
+  so.intellisense: NSSentryAgent.GetNewTableRight
+  langs:
+  - crmscript
+  name: 'GetNewTableRight(String)'
+  nameWithType: NSSentryAgent.GetNewTableRight(String)
+  fullName: CRMScript.NetServer.NSSentryAgent.GetNewTableRight(String)
+  type: Method
+  summary: "\nReturns an NSTableRight for a new row based on tableName parameter.\n"
+  remarks: 
+  syntax: 
+    content: NSTableRight GetNewTableRight(String tableName)
+    parameters:
+    - id: tableName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSTableRight
+  example: 
+  - "\n<pre><code>NSSentryAgent agent;\nString tableName;\nNSTableRight res = agent.GetNewTableRight(tableName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSentryAgent.GetTableRightByContactOwnership(String,Integer)
+  commentId: M:CRMScript.NetServer.NSSentryAgent.GetTableRightByContactOwnership(String,Integer)
+  id: 'GetTableRightByContactOwnership(String,Integer)'
+  so.intellisense: NSSentryAgent.GetTableRightByContactOwnership
+  langs:
+  - crmscript
+  name: 'GetTableRightByContactOwnership(String,Integer)'
+  nameWithType: NSSentryAgent.GetTableRightByContactOwnership(String,Integer)
+  fullName: CRMScript.NetServer.NSSentryAgent.GetTableRightByContactOwnership(String,Integer)
+  type: Method
+  summary: "\nReturn the NSTableRight from the relationship between the current user and the given user and group.\n"
+  remarks: 
+  syntax: 
+    content: NSTableRight GetTableRightByContactOwnership(String tableName, Integer contactId)
+    parameters:
+    - id: tableName
+      type: CRMScript.Global.String
+      description: 
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSTableRight
+  example: 
+  - "\n<pre><code>NSSentryAgent agent;\nString tableName;\nInteger contactId;\nNSTableRight res = agent.GetTableRightByContactOwnership(tableName, contactId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSentryAgent.GetTableRightByOwnership(String,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSSentryAgent.GetTableRightByOwnership(String,Integer,Integer)
+  id: 'GetTableRightByOwnership(String,Integer,Integer)'
+  so.intellisense: NSSentryAgent.GetTableRightByOwnership
+  langs:
+  - crmscript
+  name: 'GetTableRightByOwnership(String,Integer,Integer)'
+  nameWithType: NSSentryAgent.GetTableRightByOwnership(String,Integer,Integer)
+  fullName: CRMScript.NetServer.NSSentryAgent.GetTableRightByOwnership(String,Integer,Integer)
+  type: Method
+  summary: "\nReturn the NSTableRight from the relationship between the current user and the given user and group.\n"
+  remarks: 
+  syntax: 
+    content: NSTableRight GetTableRightByOwnership(String tableName, Integer contactGroupId, Integer contactAssociateId)
+    parameters:
+    - id: tableName
+      type: CRMScript.Global.String
+      description: 
+    - id: contactGroupId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: contactAssociateId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSTableRight
+  example: 
+  - "\n<pre><code>NSSentryAgent agent;\nString tableName;\nInteger contactGroupId;\nInteger contactAssociateId;\nNSTableRight res = agent.GetTableRightByOwnership(tableName, contactGroupId, contactAssociateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSentryAgent.HasFunctionRight(String)
+  commentId: M:CRMScript.NetServer.NSSentryAgent.HasFunctionRight(String)
+  id: 'HasFunctionRight(String)'
+  so.intellisense: NSSentryAgent.HasFunctionRight
+  langs:
+  - crmscript
+  name: 'HasFunctionRight(String)'
+  nameWithType: NSSentryAgent.HasFunctionRight(String)
+  fullName: CRMScript.NetServer.NSSentryAgent.HasFunctionRight(String)
+  type: Method
+  summary: "\nGets a boolean value indicating if the current user has the functional right.\n"
+  remarks: 
+  syntax: 
+    content: Bool HasFunctionRight(String functionRight)
+    parameters:
+    - id: functionRight
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+references:
+- uid: CRMScript.NetServer.NSSentryAgent
+  commentId: T:CRMScript.NetServer.NSSentryAgent
+  isExternal: true
+  name: NSSentryAgent
+  nameWithType: NSSentryAgent
+  fullName: CRMScript.NetServer.NSSentryAgent
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    isExternal: true
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    isExternal: true
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSTableRight
+  commentId: T:CRMScript.NetServer.NSTableRight
+  isExternal: true
+  name: NSTableRight
+  nameWithType: NSTableRight
+  fullName: CRMScript.NetServer.NSTableRight
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

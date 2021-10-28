@@ -1,0 +1,1583 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSProduct
+  commentId: T:CRMScript.NetServer.NSProduct
+  id: NSProduct
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSProduct.#ctor
+  - CRMScript.NetServer.NSProduct.GetCode()
+  - CRMScript.NetServer.NSProduct.GetDefaultSubscriptionQuantity()
+  - CRMScript.NetServer.NSProduct.GetDescription()
+  - CRMScript.NetServer.NSProduct.GetERPPriceListKey()
+  - CRMScript.NetServer.NSProduct.GetERPProductKey()
+  - CRMScript.NetServer.NSProduct.GetExtraField1()
+  - CRMScript.NetServer.NSProduct.GetExtraField2()
+  - CRMScript.NetServer.NSProduct.GetExtraField3()
+  - CRMScript.NetServer.NSProduct.GetExtraField4()
+  - CRMScript.NetServer.NSProduct.GetExtraField5()
+  - CRMScript.NetServer.NSProduct.GetExtraInfo()
+  - CRMScript.NetServer.NSProduct.GetInAssortment()
+  - CRMScript.NetServer.NSProduct.GetInStock()
+  - CRMScript.NetServer.NSProduct.GetIsSubscription()
+  - CRMScript.NetServer.NSProduct.GetItemNumber()
+  - CRMScript.NetServer.NSProduct.GetName()
+  - CRMScript.NetServer.NSProduct.GetPriceUnit()
+  - CRMScript.NetServer.NSProduct.GetProductCategoryKey()
+  - CRMScript.NetServer.NSProduct.GetProductFamilyKey()
+  - CRMScript.NetServer.NSProduct.GetProductId()
+  - CRMScript.NetServer.NSProduct.GetProductTypeKey()
+  - CRMScript.NetServer.NSProduct.GetQuantityUnit()
+  - CRMScript.NetServer.NSProduct.GetRawExtraInfo()
+  - CRMScript.NetServer.NSProduct.GetRights()
+  - CRMScript.NetServer.NSProduct.GetRule()
+  - CRMScript.NetServer.NSProduct.GetSubscriptionUnit()
+  - CRMScript.NetServer.NSProduct.GetSupplier()
+  - CRMScript.NetServer.NSProduct.GetSupplierCode()
+  - CRMScript.NetServer.NSProduct.GetUnitCost()
+  - CRMScript.NetServer.NSProduct.GetUnitListPrice()
+  - CRMScript.NetServer.NSProduct.GetUnitMinimumPrice()
+  - CRMScript.NetServer.NSProduct.GetUrl()
+  - CRMScript.NetServer.NSProduct.GetVAT()
+  - CRMScript.NetServer.NSProduct.GetVATInfo()
+  - CRMScript.NetServer.NSProduct.SetCode(String)
+  - CRMScript.NetServer.NSProduct.SetDefaultSubscriptionQuantity(Float)
+  - CRMScript.NetServer.NSProduct.SetDescription(String)
+  - CRMScript.NetServer.NSProduct.SetERPPriceListKey(String)
+  - CRMScript.NetServer.NSProduct.SetERPProductKey(String)
+  - CRMScript.NetServer.NSProduct.SetExtraField1(String)
+  - CRMScript.NetServer.NSProduct.SetExtraField2(String)
+  - CRMScript.NetServer.NSProduct.SetExtraField3(String)
+  - CRMScript.NetServer.NSProduct.SetExtraField4(String)
+  - CRMScript.NetServer.NSProduct.SetExtraField5(String)
+  - CRMScript.NetServer.NSProduct.SetExtraInfo(NSProductExtraDataField[])
+  - CRMScript.NetServer.NSProduct.SetInAssortment(Bool)
+  - CRMScript.NetServer.NSProduct.SetInStock(Float)
+  - CRMScript.NetServer.NSProduct.SetIsSubscription(Bool)
+  - CRMScript.NetServer.NSProduct.SetItemNumber(String)
+  - CRMScript.NetServer.NSProduct.SetName(String)
+  - CRMScript.NetServer.NSProduct.SetPriceUnit(String)
+  - CRMScript.NetServer.NSProduct.SetProductCategoryKey(String)
+  - CRMScript.NetServer.NSProduct.SetProductFamilyKey(String)
+  - CRMScript.NetServer.NSProduct.SetProductId(Integer)
+  - CRMScript.NetServer.NSProduct.SetProductTypeKey(String)
+  - CRMScript.NetServer.NSProduct.SetQuantityUnit(String)
+  - CRMScript.NetServer.NSProduct.SetRawExtraInfo(String)
+  - CRMScript.NetServer.NSProduct.SetRights(String)
+  - CRMScript.NetServer.NSProduct.SetRule(String)
+  - CRMScript.NetServer.NSProduct.SetSubscriptionUnit(String)
+  - CRMScript.NetServer.NSProduct.SetSupplier(String)
+  - CRMScript.NetServer.NSProduct.SetSupplierCode(String)
+  - CRMScript.NetServer.NSProduct.SetUnitCost(Float)
+  - CRMScript.NetServer.NSProduct.SetUnitListPrice(Float)
+  - CRMScript.NetServer.NSProduct.SetUnitMinimumPrice(Float)
+  - CRMScript.NetServer.NSProduct.SetUrl(String)
+  - CRMScript.NetServer.NSProduct.SetVAT(Float)
+  - CRMScript.NetServer.NSProduct.SetVATInfo(String)
+  name: NSProduct
+  nameWithType: NSProduct
+  fullName: CRMScript.NetServer.NSProduct
+  type: Class
+  summary: "\nInformation about a Product from the ERP system. This may be fetched from SuperOffice Product table through the SO Connector.\n"
+  example: 
+- uid: CRMScript.NetServer.NSProduct.#ctor
+  commentId: M:CRMScript.NetServer.NSProduct.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSProduct
+  langs:
+  - crmscript
+  name: NSProduct()
+  nameWithType: NSProduct.#ctor
+  fullName: CRMScript.NetServer.NSProduct.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSProduct class.\n"
+  remarks: 
+  syntax: 
+    content: NSProduct
+  example: 
+- uid: CRMScript.NetServer.NSProduct.GetCode()
+  commentId: M:CRMScript.NetServer.NSProduct.GetCode()
+  id: 'GetCode()'
+  so.intellisense: NSProduct.GetCode
+  langs:
+  - crmscript
+  name: 'GetCode()'
+  nameWithType: NSProduct.GetCode()
+  fullName: CRMScript.NetServer.NSProduct.GetCode()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCode()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The product code / article number in the product supplier system."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString code = thing.GetCode();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetDefaultSubscriptionQuantity()
+  commentId: M:CRMScript.NetServer.NSProduct.GetDefaultSubscriptionQuantity()
+  id: 'GetDefaultSubscriptionQuantity()'
+  so.intellisense: NSProduct.GetDefaultSubscriptionQuantity
+  langs:
+  - crmscript
+  name: 'GetDefaultSubscriptionQuantity()'
+  nameWithType: NSProduct.GetDefaultSubscriptionQuantity()
+  fullName: CRMScript.NetServer.NSProduct.GetDefaultSubscriptionQuantity()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetDefaultSubscriptionQuantity()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "The default number of SubscriptionUnits to suggest when creating quote lines from this product."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nFloat defaultSubscriptionQuantity = thing.GetDefaultSubscriptionQuantity();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetDescription()
+  commentId: M:CRMScript.NetServer.NSProduct.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSProduct.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSProduct.GetDescription()
+  fullName: CRMScript.NetServer.NSProduct.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The description to use, with potentially several lines. Will be used as tool-tip to use in the list user interface too."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetERPPriceListKey()
+  commentId: M:CRMScript.NetServer.NSProduct.GetERPPriceListKey()
+  id: 'GetERPPriceListKey()'
+  so.intellisense: NSProduct.GetERPPriceListKey
+  langs:
+  - crmscript
+  name: 'GetERPPriceListKey()'
+  nameWithType: NSProduct.GetERPPriceListKey()
+  fullName: CRMScript.NetServer.NSProduct.GetERPPriceListKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetERPPriceListKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Foreign key to the price list that this product is a part of, or the primary key of the price list if this is a built-in list."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString eRPPriceListKey = thing.GetERPPriceListKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetERPProductKey()
+  commentId: M:CRMScript.NetServer.NSProduct.GetERPProductKey()
+  id: 'GetERPProductKey()'
+  so.intellisense: NSProduct.GetERPProductKey
+  langs:
+  - crmscript
+  name: 'GetERPProductKey()'
+  nameWithType: NSProduct.GetERPProductKey()
+  fullName: CRMScript.NetServer.NSProduct.GetERPProductKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetERPProductKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Reference/foreign key to the product in the given price list in the product supplier system, if it exists there."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString eRPProductKey = thing.GetERPProductKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetExtraField1()
+  commentId: M:CRMScript.NetServer.NSProduct.GetExtraField1()
+  id: 'GetExtraField1()'
+  so.intellisense: NSProduct.GetExtraField1
+  langs:
+  - crmscript
+  name: 'GetExtraField1()'
+  nameWithType: NSProduct.GetExtraField1()
+  fullName: CRMScript.NetServer.NSProduct.GetExtraField1()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExtraField1()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A simple field for adding information that the Connector can provide, and that the quote document need to display."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString extraField1 = thing.GetExtraField1();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetExtraField2()
+  commentId: M:CRMScript.NetServer.NSProduct.GetExtraField2()
+  id: 'GetExtraField2()'
+  so.intellisense: NSProduct.GetExtraField2
+  langs:
+  - crmscript
+  name: 'GetExtraField2()'
+  nameWithType: NSProduct.GetExtraField2()
+  fullName: CRMScript.NetServer.NSProduct.GetExtraField2()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExtraField2()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A simple field for adding information that the Connector can provide, and that the quote document need to display."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString extraField2 = thing.GetExtraField2();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetExtraField3()
+  commentId: M:CRMScript.NetServer.NSProduct.GetExtraField3()
+  id: 'GetExtraField3()'
+  so.intellisense: NSProduct.GetExtraField3
+  langs:
+  - crmscript
+  name: 'GetExtraField3()'
+  nameWithType: NSProduct.GetExtraField3()
+  fullName: CRMScript.NetServer.NSProduct.GetExtraField3()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExtraField3()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A simple field for adding information that the Connector can provide, and that the quote document need to display."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString extraField3 = thing.GetExtraField3();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetExtraField4()
+  commentId: M:CRMScript.NetServer.NSProduct.GetExtraField4()
+  id: 'GetExtraField4()'
+  so.intellisense: NSProduct.GetExtraField4
+  langs:
+  - crmscript
+  name: 'GetExtraField4()'
+  nameWithType: NSProduct.GetExtraField4()
+  fullName: CRMScript.NetServer.NSProduct.GetExtraField4()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExtraField4()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A simple field for adding information that the Connector can provide, and that the quote document need to display."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString extraField4 = thing.GetExtraField4();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetExtraField5()
+  commentId: M:CRMScript.NetServer.NSProduct.GetExtraField5()
+  id: 'GetExtraField5()'
+  so.intellisense: NSProduct.GetExtraField5
+  langs:
+  - crmscript
+  name: 'GetExtraField5()'
+  nameWithType: NSProduct.GetExtraField5()
+  fullName: CRMScript.NetServer.NSProduct.GetExtraField5()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExtraField5()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A simple field for adding information that the Connector can provide, and that the quote document need to display."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString extraField5 = thing.GetExtraField5();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetExtraInfo()
+  commentId: M:CRMScript.NetServer.NSProduct.GetExtraInfo()
+  id: 'GetExtraInfo()'
+  so.intellisense: NSProduct.GetExtraInfo
+  langs:
+  - crmscript
+  name: 'GetExtraInfo()'
+  nameWithType: NSProduct.GetExtraInfo()
+  fullName: CRMScript.NetServer.NSProduct.GetExtraInfo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSProductExtraDataField[] GetExtraInfo()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSProductExtraDataField[]
+      description: "Extra information, supplied by QuoteConnector, used by a future dynamic GUI extension."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nNSProductExtraDataField[] extraInfo = thing.GetExtraInfo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetInAssortment()
+  commentId: M:CRMScript.NetServer.NSProduct.GetInAssortment()
+  id: 'GetInAssortment()'
+  so.intellisense: NSProduct.GetInAssortment
+  langs:
+  - crmscript
+  name: 'GetInAssortment()'
+  nameWithType: NSProduct.GetInAssortment()
+  fullName: CRMScript.NetServer.NSProduct.GetInAssortment()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetInAssortment()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True for products that should currently be offered, false when the product is discontinued and should not ordinarily be offered. When false the product no longer appears in search results."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nBool inAssortment = thing.GetInAssortment();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetInStock()
+  commentId: M:CRMScript.NetServer.NSProduct.GetInStock()
+  id: 'GetInStock()'
+  so.intellisense: NSProduct.GetInStock
+  langs:
+  - crmscript
+  name: 'GetInStock()'
+  nameWithType: NSProduct.GetInStock()
+  fullName: CRMScript.NetServer.NSProduct.GetInStock()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetInStock()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Negative numbers will be interpreted as how many is ordered. Might not be available."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nFloat inStock = thing.GetInStock();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetIsSubscription()
+  commentId: M:CRMScript.NetServer.NSProduct.GetIsSubscription()
+  id: 'GetIsSubscription()'
+  so.intellisense: NSProduct.GetIsSubscription
+  langs:
+  - crmscript
+  name: 'GetIsSubscription()'
+  nameWithType: NSProduct.GetIsSubscription()
+  fullName: CRMScript.NetServer.NSProduct.GetIsSubscription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsSubscription()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: Is this a subscription product, sold in repeating intervals/amounts?
+  example: 
+  - "\n<pre><code>NSProduct thing;\nBool isSubscription = thing.GetIsSubscription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetItemNumber()
+  commentId: M:CRMScript.NetServer.NSProduct.GetItemNumber()
+  id: 'GetItemNumber()'
+  so.intellisense: NSProduct.GetItemNumber
+  langs:
+  - crmscript
+  name: 'GetItemNumber()'
+  nameWithType: NSProduct.GetItemNumber()
+  fullName: CRMScript.NetServer.NSProduct.GetItemNumber()
+  type: Method
+  summary: # TODO
+  remarks: "\nTypically used to sort the items in the quote by some standard way.\n"
+  syntax: 
+    content: String GetItemNumber()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Line item number, NOR «Postnummer». Specific numbers from some hierarchy, for instance &quot;1.4.3.2P&quot;."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString itemNumber = thing.GetItemNumber();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetName()
+  commentId: M:CRMScript.NetServer.NSProduct.GetName()
+  id: 'GetName()'
+  so.intellisense: NSProduct.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSProduct.GetName()
+  fullName: CRMScript.NetServer.NSProduct.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name to use in the user interface."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetPriceUnit()
+  commentId: M:CRMScript.NetServer.NSProduct.GetPriceUnit()
+  id: 'GetPriceUnit()'
+  so.intellisense: NSProduct.GetPriceUnit
+  langs:
+  - crmscript
+  name: 'GetPriceUnit()'
+  nameWithType: NSProduct.GetPriceUnit()
+  fullName: CRMScript.NetServer.NSProduct.GetPriceUnit()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPriceUnit()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "What is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); read-only for lines that originate in defined products."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString priceUnit = thing.GetPriceUnit();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetProductCategoryKey()
+  commentId: M:CRMScript.NetServer.NSProduct.GetProductCategoryKey()
+  id: 'GetProductCategoryKey()'
+  so.intellisense: NSProduct.GetProductCategoryKey
+  langs:
+  - crmscript
+  name: 'GetProductCategoryKey()'
+  nameWithType: NSProduct.GetProductCategoryKey()
+  fullName: CRMScript.NetServer.NSProduct.GetProductCategoryKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetProductCategoryKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Either a ListId to an ID from a connector provided list, or, if the connection doesn't support lists, a text with the actual product category."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString productCategoryKey = thing.GetProductCategoryKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetProductFamilyKey()
+  commentId: M:CRMScript.NetServer.NSProduct.GetProductFamilyKey()
+  id: 'GetProductFamilyKey()'
+  so.intellisense: NSProduct.GetProductFamilyKey
+  langs:
+  - crmscript
+  name: 'GetProductFamilyKey()'
+  nameWithType: NSProduct.GetProductFamilyKey()
+  fullName: CRMScript.NetServer.NSProduct.GetProductFamilyKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetProductFamilyKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Either a ListId to an ID from a connector provided list, or, if the connection doesn't support lists, a text with the actual product family."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString productFamilyKey = thing.GetProductFamilyKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetProductId()
+  commentId: M:CRMScript.NetServer.NSProduct.GetProductId()
+  id: 'GetProductId()'
+  so.intellisense: NSProduct.GetProductId
+  langs:
+  - crmscript
+  name: 'GetProductId()'
+  nameWithType: NSProduct.GetProductId()
+  fullName: CRMScript.NetServer.NSProduct.GetProductId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetProductId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nInteger productId = thing.GetProductId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetProductTypeKey()
+  commentId: M:CRMScript.NetServer.NSProduct.GetProductTypeKey()
+  id: 'GetProductTypeKey()'
+  so.intellisense: NSProduct.GetProductTypeKey
+  langs:
+  - crmscript
+  name: 'GetProductTypeKey()'
+  nameWithType: NSProduct.GetProductTypeKey()
+  fullName: CRMScript.NetServer.NSProduct.GetProductTypeKey()
+  type: Method
+  summary: "\nEither a ListId to an ID from a connector provided list, or, if the connection doesn't support lists, a text with the actual product type.\n"
+  remarks: 
+  syntax: 
+    content: String GetProductTypeKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString productTypeKey = thing.GetProductTypeKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetQuantityUnit()
+  commentId: M:CRMScript.NetServer.NSProduct.GetQuantityUnit()
+  id: 'GetQuantityUnit()'
+  so.intellisense: NSProduct.GetQuantityUnit
+  langs:
+  - crmscript
+  name: 'GetQuantityUnit()'
+  nameWithType: NSProduct.GetQuantityUnit()
+  fullName: CRMScript.NetServer.NSProduct.GetQuantityUnit()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetQuantityUnit()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "What is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); Connector handles conversion relative to PriceUnit if they are different."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString quantityUnit = thing.GetQuantityUnit();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetRawExtraInfo()
+  commentId: M:CRMScript.NetServer.NSProduct.GetRawExtraInfo()
+  id: 'GetRawExtraInfo()'
+  so.intellisense: NSProduct.GetRawExtraInfo
+  langs:
+  - crmscript
+  name: 'GetRawExtraInfo()'
+  nameWithType: NSProduct.GetRawExtraInfo()
+  fullName: CRMScript.NetServer.NSProduct.GetRawExtraInfo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetRawExtraInfo()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Read-only extra information in plain text, supplied by QuoteConnector, used by a future dynamic GUI extension."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString rawExtraInfo = thing.GetRawExtraInfo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetRights()
+  commentId: M:CRMScript.NetServer.NSProduct.GetRights()
+  id: 'GetRights()'
+  so.intellisense: NSProduct.GetRights
+  langs:
+  - crmscript
+  name: 'GetRights()'
+  nameWithType: NSProduct.GetRights()
+  fullName: CRMScript.NetServer.NSProduct.GetRights()
+  type: Method
+  summary: # TODO
+  remarks: "\nWill be used by SuperOffice to control the user interface when showing the record.\n"
+  syntax: 
+    content: String GetRights()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Field1=right&amp;Field2=right, etc. of any fields that have non-standard field access rights. Rights can be one of N (=None or Hidden), R (=Read-only), W (=Writeable), M (=Mandatory). The fields will mostly be from the Quoteline table, but some added fields that are conceptually part of the quoteline, like Image will also be possibly to set rights on."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString rights = thing.GetRights();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetRule()
+  commentId: M:CRMScript.NetServer.NSProduct.GetRule()
+  id: 'GetRule()'
+  so.intellisense: NSProduct.GetRule
+  langs:
+  - crmscript
+  name: 'GetRule()'
+  nameWithType: NSProduct.GetRule()
+  fullName: CRMScript.NetServer.NSProduct.GetRule()
+  type: Method
+  summary: # TODO
+  remarks: "\nWill NOT be used by SuperOffice.\n"
+  syntax: 
+    content: String GetRule()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The names of one or more calculation rules that are in effect for this line, comma-separated case-insensitive."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString rule = thing.GetRule();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetSubscriptionUnit()
+  commentId: M:CRMScript.NetServer.NSProduct.GetSubscriptionUnit()
+  id: 'GetSubscriptionUnit()'
+  so.intellisense: NSProduct.GetSubscriptionUnit
+  langs:
+  - crmscript
+  name: 'GetSubscriptionUnit()'
+  nameWithType: NSProduct.GetSubscriptionUnit()
+  fullName: CRMScript.NetServer.NSProduct.GetSubscriptionUnit()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSubscriptionUnit()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Either a ListId to an ID from a connector provided list, or, if the connection doesn't support lists, a text with the actual subscription unit."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString subscriptionUnit = thing.GetSubscriptionUnit();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetSupplier()
+  commentId: M:CRMScript.NetServer.NSProduct.GetSupplier()
+  id: 'GetSupplier()'
+  so.intellisense: NSProduct.GetSupplier
+  langs:
+  - crmscript
+  name: 'GetSupplier()'
+  nameWithType: NSProduct.GetSupplier()
+  fullName: CRMScript.NetServer.NSProduct.GetSupplier()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSupplier()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "In SuperOffice, an ID from the contact table, when saved as an ERP cache, the name of the supplier."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString supplier = thing.GetSupplier();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetSupplierCode()
+  commentId: M:CRMScript.NetServer.NSProduct.GetSupplierCode()
+  id: 'GetSupplierCode()'
+  so.intellisense: NSProduct.GetSupplierCode
+  langs:
+  - crmscript
+  name: 'GetSupplierCode()'
+  nameWithType: NSProduct.GetSupplierCode()
+  fullName: CRMScript.NetServer.NSProduct.GetSupplierCode()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSupplierCode()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Suppliers part code/number or other key-like field."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString supplierCode = thing.GetSupplierCode();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetUnitCost()
+  commentId: M:CRMScript.NetServer.NSProduct.GetUnitCost()
+  id: 'GetUnitCost()'
+  so.intellisense: NSProduct.GetUnitCost
+  langs:
+  - crmscript
+  name: 'GetUnitCost()'
+  nameWithType: NSProduct.GetUnitCost()
+  fullName: CRMScript.NetServer.NSProduct.GetUnitCost()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetUnitCost()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "The cost price. Might not be given, use Decimal.MinValue to signal this."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nFloat unitCost = thing.GetUnitCost();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetUnitListPrice()
+  commentId: M:CRMScript.NetServer.NSProduct.GetUnitListPrice()
+  id: 'GetUnitListPrice()'
+  so.intellisense: NSProduct.GetUnitListPrice
+  langs:
+  - crmscript
+  name: 'GetUnitListPrice()'
+  nameWithType: NSProduct.GetUnitListPrice()
+  fullName: CRMScript.NetServer.NSProduct.GetUnitListPrice()
+  type: Method
+  summary: # TODO
+  remarks: "\nThe ListPrice will stay the same even when a larger amount is ordered.\n"
+  syntax: 
+    content: Float GetUnitListPrice()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "The basic/normal/standard price from which the discount is computed from."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nFloat unitListPrice = thing.GetUnitListPrice();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetUnitMinimumPrice()
+  commentId: M:CRMScript.NetServer.NSProduct.GetUnitMinimumPrice()
+  id: 'GetUnitMinimumPrice()'
+  so.intellisense: NSProduct.GetUnitMinimumPrice
+  langs:
+  - crmscript
+  name: 'GetUnitMinimumPrice()'
+  nameWithType: NSProduct.GetUnitMinimumPrice()
+  fullName: CRMScript.NetServer.NSProduct.GetUnitMinimumPrice()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetUnitMinimumPrice()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "The minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nFloat unitMinimumPrice = thing.GetUnitMinimumPrice();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetUrl()
+  commentId: M:CRMScript.NetServer.NSProduct.GetUrl()
+  id: 'GetUrl()'
+  so.intellisense: NSProduct.GetUrl
+  langs:
+  - crmscript
+  name: 'GetUrl()'
+  nameWithType: NSProduct.GetUrl()
+  fullName: CRMScript.NetServer.NSProduct.GetUrl()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetUrl()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "URL to product information web page."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString url = thing.GetUrl();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetVAT()
+  commentId: M:CRMScript.NetServer.NSProduct.GetVAT()
+  id: 'GetVAT()'
+  so.intellisense: NSProduct.GetVAT
+  langs:
+  - crmscript
+  name: 'GetVAT()'
+  nameWithType: NSProduct.GetVAT()
+  fullName: CRMScript.NetServer.NSProduct.GetVAT()
+  type: Method
+  summary: # TODO
+  remarks: "\nIn the Superoffice product register, this field is available in the product admin GUI.\n"
+  syntax: 
+    content: Float GetVAT()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Tax/VAT if available from ERP system. THIS IS A PERCENTAGE."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nFloat vAT = thing.GetVAT();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.GetVATInfo()
+  commentId: M:CRMScript.NetServer.NSProduct.GetVATInfo()
+  id: 'GetVATInfo()'
+  so.intellisense: NSProduct.GetVATInfo
+  langs:
+  - crmscript
+  name: 'GetVATInfo()'
+  nameWithType: NSProduct.GetVATInfo()
+  fullName: CRMScript.NetServer.NSProduct.GetVATInfo()
+  type: Method
+  summary: # TODO
+  remarks: "\nNot used in any business logic in SuperOffice; available to document templates.\n"
+  syntax: 
+    content: String GetVATInfo()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "VATInfo you need to show in the final quoteDocument, like the VAT type that is used."
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString vATInfo = thing.GetVATInfo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetCode(String)
+  commentId: M:CRMScript.NetServer.NSProduct.SetCode(String)
+  id: 'SetCode(String)'
+  so.intellisense: NSProduct.SetCode
+  langs:
+  - crmscript
+  name: 'SetCode(String)'
+  nameWithType: NSProduct.SetCode(String)
+  fullName: CRMScript.NetServer.NSProduct.SetCode(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCode(String code)
+    parameters:
+    - id: code
+      type: CRMScript.Global.String
+      description: "The product code / article number in the product supplier system."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString code;\nthing.SetCode(code);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetDefaultSubscriptionQuantity(Float)
+  commentId: M:CRMScript.NetServer.NSProduct.SetDefaultSubscriptionQuantity(Float)
+  id: 'SetDefaultSubscriptionQuantity(Float)'
+  so.intellisense: NSProduct.SetDefaultSubscriptionQuantity
+  langs:
+  - crmscript
+  name: 'SetDefaultSubscriptionQuantity(Float)'
+  nameWithType: NSProduct.SetDefaultSubscriptionQuantity(Float)
+  fullName: CRMScript.NetServer.NSProduct.SetDefaultSubscriptionQuantity(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDefaultSubscriptionQuantity(Float defaultSubscriptionQuantity)
+    parameters:
+    - id: defaultSubscriptionQuantity
+      type: CRMScript.Global.Float
+      description: "The default number of SubscriptionUnits to suggest when creating quote lines from this product."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nFloat defaultSubscriptionQuantity;\nthing.SetDefaultSubscriptionQuantity(defaultSubscriptionQuantity);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSProduct.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSProduct.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSProduct.SetDescription(String)
+  fullName: CRMScript.NetServer.NSProduct.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "The description to use, with potentially several lines. Will be used as tool-tip to use in the list user interface too."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetERPPriceListKey(String)
+  commentId: M:CRMScript.NetServer.NSProduct.SetERPPriceListKey(String)
+  id: 'SetERPPriceListKey(String)'
+  so.intellisense: NSProduct.SetERPPriceListKey
+  langs:
+  - crmscript
+  name: 'SetERPPriceListKey(String)'
+  nameWithType: NSProduct.SetERPPriceListKey(String)
+  fullName: CRMScript.NetServer.NSProduct.SetERPPriceListKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetERPPriceListKey(String eRPPriceListKey)
+    parameters:
+    - id: eRPPriceListKey
+      type: CRMScript.Global.String
+      description: "Foreign key to the price list that this product is a part of, or the primary key of the price list if this is a built-in list."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString eRPPriceListKey;\nthing.SetERPPriceListKey(eRPPriceListKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetERPProductKey(String)
+  commentId: M:CRMScript.NetServer.NSProduct.SetERPProductKey(String)
+  id: 'SetERPProductKey(String)'
+  so.intellisense: NSProduct.SetERPProductKey
+  langs:
+  - crmscript
+  name: 'SetERPProductKey(String)'
+  nameWithType: NSProduct.SetERPProductKey(String)
+  fullName: CRMScript.NetServer.NSProduct.SetERPProductKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetERPProductKey(String eRPProductKey)
+    parameters:
+    - id: eRPProductKey
+      type: CRMScript.Global.String
+      description: "Reference/foreign key to the product in the given price list in the product supplier system, if it exists there."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString eRPProductKey;\nthing.SetERPProductKey(eRPProductKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetExtraField1(String)
+  commentId: M:CRMScript.NetServer.NSProduct.SetExtraField1(String)
+  id: 'SetExtraField1(String)'
+  so.intellisense: NSProduct.SetExtraField1
+  langs:
+  - crmscript
+  name: 'SetExtraField1(String)'
+  nameWithType: NSProduct.SetExtraField1(String)
+  fullName: CRMScript.NetServer.NSProduct.SetExtraField1(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraField1(String extraField1)
+    parameters:
+    - id: extraField1
+      type: CRMScript.Global.String
+      description: "A simple field for adding information that the Connector can provide, and that the quote document need to display."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString extraField1;\nthing.SetExtraField1(extraField1);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetExtraField2(String)
+  commentId: M:CRMScript.NetServer.NSProduct.SetExtraField2(String)
+  id: 'SetExtraField2(String)'
+  so.intellisense: NSProduct.SetExtraField2
+  langs:
+  - crmscript
+  name: 'SetExtraField2(String)'
+  nameWithType: NSProduct.SetExtraField2(String)
+  fullName: CRMScript.NetServer.NSProduct.SetExtraField2(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraField2(String extraField2)
+    parameters:
+    - id: extraField2
+      type: CRMScript.Global.String
+      description: "A simple field for adding information that the Connector can provide, and that the quote document need to display."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString extraField2;\nthing.SetExtraField2(extraField2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetExtraField3(String)
+  commentId: M:CRMScript.NetServer.NSProduct.SetExtraField3(String)
+  id: 'SetExtraField3(String)'
+  so.intellisense: NSProduct.SetExtraField3
+  langs:
+  - crmscript
+  name: 'SetExtraField3(String)'
+  nameWithType: NSProduct.SetExtraField3(String)
+  fullName: CRMScript.NetServer.NSProduct.SetExtraField3(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraField3(String extraField3)
+    parameters:
+    - id: extraField3
+      type: CRMScript.Global.String
+      description: "A simple field for adding information that the Connector can provide, and that the quote document need to display."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString extraField3;\nthing.SetExtraField3(extraField3);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetExtraField4(String)
+  commentId: M:CRMScript.NetServer.NSProduct.SetExtraField4(String)
+  id: 'SetExtraField4(String)'
+  so.intellisense: NSProduct.SetExtraField4
+  langs:
+  - crmscript
+  name: 'SetExtraField4(String)'
+  nameWithType: NSProduct.SetExtraField4(String)
+  fullName: CRMScript.NetServer.NSProduct.SetExtraField4(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraField4(String extraField4)
+    parameters:
+    - id: extraField4
+      type: CRMScript.Global.String
+      description: "A simple field for adding information that the Connector can provide, and that the quote document need to display."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString extraField4;\nthing.SetExtraField4(extraField4);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetExtraField5(String)
+  commentId: M:CRMScript.NetServer.NSProduct.SetExtraField5(String)
+  id: 'SetExtraField5(String)'
+  so.intellisense: NSProduct.SetExtraField5
+  langs:
+  - crmscript
+  name: 'SetExtraField5(String)'
+  nameWithType: NSProduct.SetExtraField5(String)
+  fullName: CRMScript.NetServer.NSProduct.SetExtraField5(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraField5(String extraField5)
+    parameters:
+    - id: extraField5
+      type: CRMScript.Global.String
+      description: "A simple field for adding information that the Connector can provide, and that the quote document need to display."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString extraField5;\nthing.SetExtraField5(extraField5);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetExtraInfo(NSProductExtraDataField[])
+  commentId: M:CRMScript.NetServer.NSProduct.SetExtraInfo(NSProductExtraDataField[])
+  id: 'SetExtraInfo(NSProductExtraDataField[])'
+  so.intellisense: NSProduct.SetExtraInfo
+  langs:
+  - crmscript
+  name: 'SetExtraInfo(NSProductExtraDataField[])'
+  nameWithType: NSProduct.SetExtraInfo(NSProductExtraDataField[])
+  fullName: CRMScript.NetServer.NSProduct.SetExtraInfo(NSProductExtraDataField[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraInfo(NSProductExtraDataField[] extraInfo)
+    parameters:
+    - id: extraInfo
+      type: CRMScript.NetServer.NSProductExtraDataField[]
+      description: "Extra information, supplied by QuoteConnector, used by a future dynamic GUI extension."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nNSProductExtraDataField[] extraInfo;\nthing.SetExtraInfo(extraInfo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetInAssortment(Bool)
+  commentId: M:CRMScript.NetServer.NSProduct.SetInAssortment(Bool)
+  id: 'SetInAssortment(Bool)'
+  so.intellisense: NSProduct.SetInAssortment
+  langs:
+  - crmscript
+  name: 'SetInAssortment(Bool)'
+  nameWithType: NSProduct.SetInAssortment(Bool)
+  fullName: CRMScript.NetServer.NSProduct.SetInAssortment(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetInAssortment(Bool inAssortment)
+    parameters:
+    - id: inAssortment
+      type: CRMScript.Global.Bool
+      description: "True for products that should currently be offered, false when the product is discontinued and should not ordinarily be offered. When false the product no longer appears in search results."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nBool inAssortment;\nthing.SetInAssortment(inAssortment);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetInStock(Float)
+  commentId: M:CRMScript.NetServer.NSProduct.SetInStock(Float)
+  id: 'SetInStock(Float)'
+  so.intellisense: NSProduct.SetInStock
+  langs:
+  - crmscript
+  name: 'SetInStock(Float)'
+  nameWithType: NSProduct.SetInStock(Float)
+  fullName: CRMScript.NetServer.NSProduct.SetInStock(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetInStock(Float inStock)
+    parameters:
+    - id: inStock
+      type: CRMScript.Global.Float
+      description: "Negative numbers will be interpreted as how many is ordered. Might not be available."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nFloat inStock;\nthing.SetInStock(inStock);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetIsSubscription(Bool)
+  commentId: M:CRMScript.NetServer.NSProduct.SetIsSubscription(Bool)
+  id: 'SetIsSubscription(Bool)'
+  so.intellisense: NSProduct.SetIsSubscription
+  langs:
+  - crmscript
+  name: 'SetIsSubscription(Bool)'
+  nameWithType: NSProduct.SetIsSubscription(Bool)
+  fullName: CRMScript.NetServer.NSProduct.SetIsSubscription(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsSubscription(Bool isSubscription)
+    parameters:
+    - id: isSubscription
+      type: CRMScript.Global.Bool
+      description: Is this a subscription product, sold in repeating intervals/amounts?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nBool isSubscription;\nthing.SetIsSubscription(isSubscription);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetItemNumber(String)
+  commentId: M:CRMScript.NetServer.NSProduct.SetItemNumber(String)
+  id: 'SetItemNumber(String)'
+  so.intellisense: NSProduct.SetItemNumber
+  langs:
+  - crmscript
+  name: 'SetItemNumber(String)'
+  nameWithType: NSProduct.SetItemNumber(String)
+  fullName: CRMScript.NetServer.NSProduct.SetItemNumber(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nTypically used to sort the items in the quote by some standard way.\n"
+  syntax: 
+    content: Void SetItemNumber(String itemNumber)
+    parameters:
+    - id: itemNumber
+      type: CRMScript.Global.String
+      description: "Line item number, NOR «Postnummer». Specific numbers from some hierarchy, for instance &quot;1.4.3.2P&quot;."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString itemNumber;\nthing.SetItemNumber(itemNumber);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetName(String)
+  commentId: M:CRMScript.NetServer.NSProduct.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSProduct.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSProduct.SetName(String)
+  fullName: CRMScript.NetServer.NSProduct.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name to use in the user interface."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetPriceUnit(String)
+  commentId: M:CRMScript.NetServer.NSProduct.SetPriceUnit(String)
+  id: 'SetPriceUnit(String)'
+  so.intellisense: NSProduct.SetPriceUnit
+  langs:
+  - crmscript
+  name: 'SetPriceUnit(String)'
+  nameWithType: NSProduct.SetPriceUnit(String)
+  fullName: CRMScript.NetServer.NSProduct.SetPriceUnit(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPriceUnit(String priceUnit)
+    parameters:
+    - id: priceUnit
+      type: CRMScript.Global.String
+      description: "What is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); read-only for lines that originate in defined products."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString priceUnit;\nthing.SetPriceUnit(priceUnit);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetProductCategoryKey(String)
+  commentId: M:CRMScript.NetServer.NSProduct.SetProductCategoryKey(String)
+  id: 'SetProductCategoryKey(String)'
+  so.intellisense: NSProduct.SetProductCategoryKey
+  langs:
+  - crmscript
+  name: 'SetProductCategoryKey(String)'
+  nameWithType: NSProduct.SetProductCategoryKey(String)
+  fullName: CRMScript.NetServer.NSProduct.SetProductCategoryKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProductCategoryKey(String productCategoryKey)
+    parameters:
+    - id: productCategoryKey
+      type: CRMScript.Global.String
+      description: "Either a ListId to an ID from a connector provided list, or, if the connection doesn't support lists, a text with the actual product category."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString productCategoryKey;\nthing.SetProductCategoryKey(productCategoryKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetProductFamilyKey(String)
+  commentId: M:CRMScript.NetServer.NSProduct.SetProductFamilyKey(String)
+  id: 'SetProductFamilyKey(String)'
+  so.intellisense: NSProduct.SetProductFamilyKey
+  langs:
+  - crmscript
+  name: 'SetProductFamilyKey(String)'
+  nameWithType: NSProduct.SetProductFamilyKey(String)
+  fullName: CRMScript.NetServer.NSProduct.SetProductFamilyKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProductFamilyKey(String productFamilyKey)
+    parameters:
+    - id: productFamilyKey
+      type: CRMScript.Global.String
+      description: "Either a ListId to an ID from a connector provided list, or, if the connection doesn't support lists, a text with the actual product family."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString productFamilyKey;\nthing.SetProductFamilyKey(productFamilyKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetProductId(Integer)
+  commentId: M:CRMScript.NetServer.NSProduct.SetProductId(Integer)
+  id: 'SetProductId(Integer)'
+  so.intellisense: NSProduct.SetProductId
+  langs:
+  - crmscript
+  name: 'SetProductId(Integer)'
+  nameWithType: NSProduct.SetProductId(Integer)
+  fullName: CRMScript.NetServer.NSProduct.SetProductId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProductId(Integer productId)
+    parameters:
+    - id: productId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nInteger productId;\nthing.SetProductId(productId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetProductTypeKey(String)
+  commentId: M:CRMScript.NetServer.NSProduct.SetProductTypeKey(String)
+  id: 'SetProductTypeKey(String)'
+  so.intellisense: NSProduct.SetProductTypeKey
+  langs:
+  - crmscript
+  name: 'SetProductTypeKey(String)'
+  nameWithType: NSProduct.SetProductTypeKey(String)
+  fullName: CRMScript.NetServer.NSProduct.SetProductTypeKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProductTypeKey(String productTypeKey)
+    parameters:
+    - id: productTypeKey
+      type: CRMScript.Global.String
+      description: "Either a ListId to an ID from a connector provided list, or, if the connection doesn't support lists, a text with the actual product type."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString productTypeKey;\nthing.SetProductTypeKey(productTypeKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetQuantityUnit(String)
+  commentId: M:CRMScript.NetServer.NSProduct.SetQuantityUnit(String)
+  id: 'SetQuantityUnit(String)'
+  so.intellisense: NSProduct.SetQuantityUnit
+  langs:
+  - crmscript
+  name: 'SetQuantityUnit(String)'
+  nameWithType: NSProduct.SetQuantityUnit(String)
+  fullName: CRMScript.NetServer.NSProduct.SetQuantityUnit(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetQuantityUnit(String quantityUnit)
+    parameters:
+    - id: quantityUnit
+      type: CRMScript.Global.String
+      description: "What is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); Connector handles conversion relative to PriceUnit if they are different."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString quantityUnit;\nthing.SetQuantityUnit(quantityUnit);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetRawExtraInfo(String)
+  commentId: M:CRMScript.NetServer.NSProduct.SetRawExtraInfo(String)
+  id: 'SetRawExtraInfo(String)'
+  so.intellisense: NSProduct.SetRawExtraInfo
+  langs:
+  - crmscript
+  name: 'SetRawExtraInfo(String)'
+  nameWithType: NSProduct.SetRawExtraInfo(String)
+  fullName: CRMScript.NetServer.NSProduct.SetRawExtraInfo(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRawExtraInfo(String rawExtraInfo)
+    parameters:
+    - id: rawExtraInfo
+      type: CRMScript.Global.String
+      description: "Read-only extra information in plain text, supplied by QuoteConnector, used by a future dynamic GUI extension."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString rawExtraInfo;\nthing.SetRawExtraInfo(rawExtraInfo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetRights(String)
+  commentId: M:CRMScript.NetServer.NSProduct.SetRights(String)
+  id: 'SetRights(String)'
+  so.intellisense: NSProduct.SetRights
+  langs:
+  - crmscript
+  name: 'SetRights(String)'
+  nameWithType: NSProduct.SetRights(String)
+  fullName: CRMScript.NetServer.NSProduct.SetRights(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nWill be used by SuperOffice to control the user interface when showing the record.\n"
+  syntax: 
+    content: Void SetRights(String rights)
+    parameters:
+    - id: rights
+      type: CRMScript.Global.String
+      description: "Field1=right&amp;Field2=right, etc. of any fields that have non-standard field access rights. Rights can be one of N (=None or Hidden), R (=Read-only), W (=Writeable), M (=Mandatory). The fields will mostly be from the Quoteline table, but some added fields that are conceptually part of the quoteline, like Image will also be possibly to set rights on."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString rights;\nthing.SetRights(rights);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetRule(String)
+  commentId: M:CRMScript.NetServer.NSProduct.SetRule(String)
+  id: 'SetRule(String)'
+  so.intellisense: NSProduct.SetRule
+  langs:
+  - crmscript
+  name: 'SetRule(String)'
+  nameWithType: NSProduct.SetRule(String)
+  fullName: CRMScript.NetServer.NSProduct.SetRule(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nWill NOT be used by SuperOffice.\n"
+  syntax: 
+    content: Void SetRule(String rule)
+    parameters:
+    - id: rule
+      type: CRMScript.Global.String
+      description: "The names of one or more calculation rules that are in effect for this line, comma-separated case-insensitive."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString rule;\nthing.SetRule(rule);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetSubscriptionUnit(String)
+  commentId: M:CRMScript.NetServer.NSProduct.SetSubscriptionUnit(String)
+  id: 'SetSubscriptionUnit(String)'
+  so.intellisense: NSProduct.SetSubscriptionUnit
+  langs:
+  - crmscript
+  name: 'SetSubscriptionUnit(String)'
+  nameWithType: NSProduct.SetSubscriptionUnit(String)
+  fullName: CRMScript.NetServer.NSProduct.SetSubscriptionUnit(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSubscriptionUnit(String subscriptionUnit)
+    parameters:
+    - id: subscriptionUnit
+      type: CRMScript.Global.String
+      description: "Either a ListId to an ID from a connector provided list, or, if the connection doesn't support lists, a text with the actual subscription unit."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString subscriptionUnit;\nthing.SetSubscriptionUnit(subscriptionUnit);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetSupplier(String)
+  commentId: M:CRMScript.NetServer.NSProduct.SetSupplier(String)
+  id: 'SetSupplier(String)'
+  so.intellisense: NSProduct.SetSupplier
+  langs:
+  - crmscript
+  name: 'SetSupplier(String)'
+  nameWithType: NSProduct.SetSupplier(String)
+  fullName: CRMScript.NetServer.NSProduct.SetSupplier(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSupplier(String supplier)
+    parameters:
+    - id: supplier
+      type: CRMScript.Global.String
+      description: "In SuperOffice, an ID from the contact table, when saved as an ERP cache, the name of the supplier."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString supplier;\nthing.SetSupplier(supplier);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetSupplierCode(String)
+  commentId: M:CRMScript.NetServer.NSProduct.SetSupplierCode(String)
+  id: 'SetSupplierCode(String)'
+  so.intellisense: NSProduct.SetSupplierCode
+  langs:
+  - crmscript
+  name: 'SetSupplierCode(String)'
+  nameWithType: NSProduct.SetSupplierCode(String)
+  fullName: CRMScript.NetServer.NSProduct.SetSupplierCode(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSupplierCode(String supplierCode)
+    parameters:
+    - id: supplierCode
+      type: CRMScript.Global.String
+      description: "Suppliers part code/number or other key-like field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString supplierCode;\nthing.SetSupplierCode(supplierCode);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetUnitCost(Float)
+  commentId: M:CRMScript.NetServer.NSProduct.SetUnitCost(Float)
+  id: 'SetUnitCost(Float)'
+  so.intellisense: NSProduct.SetUnitCost
+  langs:
+  - crmscript
+  name: 'SetUnitCost(Float)'
+  nameWithType: NSProduct.SetUnitCost(Float)
+  fullName: CRMScript.NetServer.NSProduct.SetUnitCost(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUnitCost(Float unitCost)
+    parameters:
+    - id: unitCost
+      type: CRMScript.Global.Float
+      description: "The cost price. Might not be given, use Decimal.MinValue to signal this."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nFloat unitCost;\nthing.SetUnitCost(unitCost);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetUnitListPrice(Float)
+  commentId: M:CRMScript.NetServer.NSProduct.SetUnitListPrice(Float)
+  id: 'SetUnitListPrice(Float)'
+  so.intellisense: NSProduct.SetUnitListPrice
+  langs:
+  - crmscript
+  name: 'SetUnitListPrice(Float)'
+  nameWithType: NSProduct.SetUnitListPrice(Float)
+  fullName: CRMScript.NetServer.NSProduct.SetUnitListPrice(Float)
+  type: Method
+  summary: # TODO
+  remarks: "\nThe ListPrice will stay the same even when a larger amount is ordered.\n"
+  syntax: 
+    content: Void SetUnitListPrice(Float unitListPrice)
+    parameters:
+    - id: unitListPrice
+      type: CRMScript.Global.Float
+      description: "The basic/normal/standard price from which the discount is computed from."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nFloat unitListPrice;\nthing.SetUnitListPrice(unitListPrice);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetUnitMinimumPrice(Float)
+  commentId: M:CRMScript.NetServer.NSProduct.SetUnitMinimumPrice(Float)
+  id: 'SetUnitMinimumPrice(Float)'
+  so.intellisense: NSProduct.SetUnitMinimumPrice
+  langs:
+  - crmscript
+  name: 'SetUnitMinimumPrice(Float)'
+  nameWithType: NSProduct.SetUnitMinimumPrice(Float)
+  fullName: CRMScript.NetServer.NSProduct.SetUnitMinimumPrice(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUnitMinimumPrice(Float unitMinimumPrice)
+    parameters:
+    - id: unitMinimumPrice
+      type: CRMScript.Global.Float
+      description: "The minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nFloat unitMinimumPrice;\nthing.SetUnitMinimumPrice(unitMinimumPrice);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetUrl(String)
+  commentId: M:CRMScript.NetServer.NSProduct.SetUrl(String)
+  id: 'SetUrl(String)'
+  so.intellisense: NSProduct.SetUrl
+  langs:
+  - crmscript
+  name: 'SetUrl(String)'
+  nameWithType: NSProduct.SetUrl(String)
+  fullName: CRMScript.NetServer.NSProduct.SetUrl(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUrl(String url)
+    parameters:
+    - id: url
+      type: CRMScript.Global.String
+      description: "URL to product information web page."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString url;\nthing.SetUrl(url);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetVAT(Float)
+  commentId: M:CRMScript.NetServer.NSProduct.SetVAT(Float)
+  id: 'SetVAT(Float)'
+  so.intellisense: NSProduct.SetVAT
+  langs:
+  - crmscript
+  name: 'SetVAT(Float)'
+  nameWithType: NSProduct.SetVAT(Float)
+  fullName: CRMScript.NetServer.NSProduct.SetVAT(Float)
+  type: Method
+  summary: # TODO
+  remarks: "\nIn the Superoffice product register, this field is available in the product admin GUI.\n"
+  syntax: 
+    content: Void SetVAT(Float vAT)
+    parameters:
+    - id: vAT
+      type: CRMScript.Global.Float
+      description: "Tax/VAT if available from ERP system. THIS IS A PERCENTAGE."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nFloat vAT;\nthing.SetVAT(vAT);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProduct.SetVATInfo(String)
+  commentId: M:CRMScript.NetServer.NSProduct.SetVATInfo(String)
+  id: 'SetVATInfo(String)'
+  so.intellisense: NSProduct.SetVATInfo
+  langs:
+  - crmscript
+  name: 'SetVATInfo(String)'
+  nameWithType: NSProduct.SetVATInfo(String)
+  fullName: CRMScript.NetServer.NSProduct.SetVATInfo(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nNot used in any business logic in SuperOffice; available to document templates.\n"
+  syntax: 
+    content: Void SetVATInfo(String vATInfo)
+    parameters:
+    - id: vATInfo
+      type: CRMScript.Global.String
+      description: "VATInfo you need to show in the final quoteDocument, like the VAT type that is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProduct thing;\nString vATInfo;\nthing.SetVATInfo(vATInfo);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSProduct
+  commentId: T:CRMScript.NetServer.NSProduct
+  isExternal: true
+  name: NSProduct
+  nameWithType: NSProduct
+  fullName: CRMScript.NetServer.NSProduct
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Float
+  commentId: T:CRMScript.Global.Float
+  isExternal: true
+  name: Float
+  nameWithType: Float
+  fullName: CRMScript.Global.Float
+- uid: CRMScript.NetServer.NSProductExtraDataField[]
+  isExternal: true
+  name: NSProductExtraDataField[]
+  nameWithType: NSProductExtraDataField[]
+  fullName: CRMScript.NetServer.NSProductExtraDataField[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSProductExtraDataField
+    isExternal: true
+    name: NSProductExtraDataField
+    nameWithType: NSProductExtraDataField
+    fullName: CRMScript.NetServer.NSProductExtraDataField
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSProductExtraDataField
+  commentId: T:CRMScript.NetServer.NSProductExtraDataField
+  isExternal: true
+  name: NSProductExtraDataField
+  nameWithType: NSProductExtraDataField
+  fullName: CRMScript.NetServer.NSProductExtraDataField
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

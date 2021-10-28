@@ -4,7 +4,7 @@ title: Map data type
 author:
 so.date:
 keywords:
-so.topic:
+so.topic: concept
 ---
 
 # Map data type
@@ -98,7 +98,7 @@ In both cases, you provide the key to look up the element and the **value to add
 ### Void increaseValueForKey(String key, Integer value)
 
 ```crmscript
-Map m = Map("height=25\nwidth=10);
+Map m = Map("height=25\nwidth=10");
 m.increaseValueForKey("height", -5);
 ```
 

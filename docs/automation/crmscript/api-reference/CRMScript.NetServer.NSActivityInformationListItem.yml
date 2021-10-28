@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSActivityInformationListItem
+  commentId: T:CRMScript.NetServer.NSActivityInformationListItem
+  id: NSActivityInformationListItem
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSActivityInformationListItem.#ctor
+  - CRMScript.NetServer.NSActivityInformationListItem.GetActivityInformation()
+  - CRMScript.NetServer.NSActivityInformationListItem.GetDate()
+  - CRMScript.NetServer.NSActivityInformationListItem.SetActivityInformation(NSActivitySummary)
+  - CRMScript.NetServer.NSActivityInformationListItem.SetDate(DateTime)
+  name: NSActivityInformationListItem
+  nameWithType: NSActivityInformationListItem
+  fullName: CRMScript.NetServer.NSActivityInformationListItem
+  type: Class
+  summary: "\nCarrier object for ActivityInformationListItem.\n"
+  example: 
+- uid: CRMScript.NetServer.NSActivityInformationListItem.#ctor
+  commentId: M:CRMScript.NetServer.NSActivityInformationListItem.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSActivityInformationListItem
+  langs:
+  - crmscript
+  name: NSActivityInformationListItem()
+  nameWithType: NSActivityInformationListItem.#ctor
+  fullName: CRMScript.NetServer.NSActivityInformationListItem.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSActivityInformationListItem class.\n"
+  remarks: 
+  syntax: 
+    content: NSActivityInformationListItem
+  example: 
+- uid: CRMScript.NetServer.NSActivityInformationListItem.GetActivityInformation()
+  commentId: M:CRMScript.NetServer.NSActivityInformationListItem.GetActivityInformation()
+  id: 'GetActivityInformation()'
+  so.intellisense: NSActivityInformationListItem.GetActivityInformation
+  langs:
+  - crmscript
+  name: 'GetActivityInformation()'
+  nameWithType: NSActivityInformationListItem.GetActivityInformation()
+  fullName: CRMScript.NetServer.NSActivityInformationListItem.GetActivityInformation()
+  type: Method
+  summary: "\nReturns the number of free and busy activities.\n"
+  remarks: 
+  syntax: 
+    content: NSActivitySummary GetActivityInformation()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSActivitySummary
+      description: "The number of free and busy activities."
+  example: 
+  - "\n<pre><code>NSActivityInformationListItem thing;\nNSActivitySummary activityInformation = thing.GetActivityInformation();</code></pre>\n"
+- uid: CRMScript.NetServer.NSActivityInformationListItem.GetDate()
+  commentId: M:CRMScript.NetServer.NSActivityInformationListItem.GetDate()
+  id: 'GetDate()'
+  so.intellisense: NSActivityInformationListItem.GetDate
+  langs:
+  - crmscript
+  name: 'GetDate()'
+  nameWithType: NSActivityInformationListItem.GetDate()
+  fullName: CRMScript.NetServer.NSActivityInformationListItem.GetDate()
+  type: Method
+  summary: "\nReturns the date that this item is valid for.\n"
+  remarks: "\nThere is exactly one item per date, ordered by date.\n"
+  syntax: 
+    content: DateTime GetDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The date that this item is valid for."
+  example: 
+  - "\n<pre><code>NSActivityInformationListItem thing;\nDateTime date = thing.GetDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSActivityInformationListItem.SetActivityInformation(NSActivitySummary)
+  commentId: M:CRMScript.NetServer.NSActivityInformationListItem.SetActivityInformation(NSActivitySummary)
+  id: 'SetActivityInformation(NSActivitySummary)'
+  so.intellisense: NSActivityInformationListItem.SetActivityInformation
+  langs:
+  - crmscript
+  name: 'SetActivityInformation(NSActivitySummary)'
+  nameWithType: NSActivityInformationListItem.SetActivityInformation(NSActivitySummary)
+  fullName: CRMScript.NetServer.NSActivityInformationListItem.SetActivityInformation(NSActivitySummary)
+  type: Method
+  summary: "\nSets the number of free and busy activities.\n"
+  remarks: 
+  syntax: 
+    content: Void SetActivityInformation(NSActivitySummary activityInformation)
+    parameters:
+    - id: activityInformation
+      type: CRMScript.NetServer.NSActivitySummary
+      description: "The number of free and busy activities."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSActivityInformationListItem thing;\nNSActivitySummary activityInformation;\nthing.SetActivityInformation(activityInformation);</code></pre>\n"
+- uid: CRMScript.NetServer.NSActivityInformationListItem.SetDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSActivityInformationListItem.SetDate(DateTime)
+  id: 'SetDate(DateTime)'
+  so.intellisense: NSActivityInformationListItem.SetDate
+  langs:
+  - crmscript
+  name: 'SetDate(DateTime)'
+  nameWithType: NSActivityInformationListItem.SetDate(DateTime)
+  fullName: CRMScript.NetServer.NSActivityInformationListItem.SetDate(DateTime)
+  type: Method
+  summary: "\nSets the date that this item is valid for.\n"
+  remarks: "\nThere is exactly one item per date, ordered by date.\n"
+  syntax: 
+    content: Void SetDate(DateTime date)
+    parameters:
+    - id: date
+      type: CRMScript.Global.DateTime
+      description: "The date that this item is valid."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSActivityInformationListItem thing;\nDateTime date;\nthing.SetDate(date);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSActivityInformationListItem
+  commentId: T:CRMScript.NetServer.NSActivityInformationListItem
+  isExternal: true
+  name: NSActivityInformationListItem
+  nameWithType: NSActivityInformationListItem
+  fullName: CRMScript.NetServer.NSActivityInformationListItem
+- uid: CRMScript.NetServer.NSActivitySummary
+  commentId: T:CRMScript.NetServer.NSActivitySummary
+  isExternal: true
+  name: NSActivitySummary
+  nameWithType: NSActivitySummary
+  fullName: CRMScript.NetServer.NSActivitySummary
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

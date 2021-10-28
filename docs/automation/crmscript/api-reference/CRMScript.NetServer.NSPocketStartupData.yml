@@ -1,0 +1,521 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSPocketStartupData
+  commentId: T:CRMScript.NetServer.NSPocketStartupData
+  id: NSPocketStartupData
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSPocketStartupData.#ctor
+  - CRMScript.NetServer.NSPocketStartupData.GetBaseLocaleTimeZoneData()
+  - CRMScript.NetServer.NSPocketStartupData.GetCustomData()
+  - CRMScript.NetServer.NSPocketStartupData.GetIsPushNotificationEnabled()
+  - CRMScript.NetServer.NSPocketStartupData.GetNotificationsCount()
+  - CRMScript.NetServer.NSPocketStartupData.GetOverdueSalesCount()
+  - CRMScript.NetServer.NSPocketStartupData.GetPhoneLocaleTimeZoneData()
+  - CRMScript.NetServer.NSPocketStartupData.GetPocketPreferences()
+  - CRMScript.NetServer.NSPocketStartupData.GetSystemWebPanels()
+  - CRMScript.NetServer.NSPocketStartupData.GetTableRights()
+  - CRMScript.NetServer.NSPocketStartupData.SetBaseLocaleTimeZoneData(NSTimeZoneData)
+  - CRMScript.NetServer.NSPocketStartupData.SetCustomData(String)
+  - CRMScript.NetServer.NSPocketStartupData.SetIsPushNotificationEnabled(Bool)
+  - CRMScript.NetServer.NSPocketStartupData.SetNotificationsCount(Integer)
+  - CRMScript.NetServer.NSPocketStartupData.SetOverdueSalesCount(Integer)
+  - CRMScript.NetServer.NSPocketStartupData.SetPhoneLocaleTimeZoneData(NSTimeZoneData)
+  - CRMScript.NetServer.NSPocketStartupData.SetPocketPreferences(NSPreference[])
+  - CRMScript.NetServer.NSPocketStartupData.SetSystemWebPanels(NSWebPanelEntity[])
+  - CRMScript.NetServer.NSPocketStartupData.SetTableRights(Integer[])
+  name: NSPocketStartupData
+  nameWithType: NSPocketStartupData
+  fullName: CRMScript.NetServer.NSPocketStartupData
+  type: Class
+  summary: "\nThe Pocket Service. The service implements pocket specific stuff, like consolidated post-login stuff.\n"
+  example: 
+- uid: CRMScript.NetServer.NSPocketStartupData.#ctor
+  commentId: M:CRMScript.NetServer.NSPocketStartupData.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSPocketStartupData
+  langs:
+  - crmscript
+  name: NSPocketStartupData()
+  nameWithType: NSPocketStartupData.#ctor
+  fullName: CRMScript.NetServer.NSPocketStartupData.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSPocketStartupData class.\n"
+  remarks: 
+  syntax: 
+    content: NSPocketStartupData
+  example: 
+- uid: CRMScript.NetServer.NSPocketStartupData.GetBaseLocaleTimeZoneData()
+  commentId: M:CRMScript.NetServer.NSPocketStartupData.GetBaseLocaleTimeZoneData()
+  id: 'GetBaseLocaleTimeZoneData()'
+  so.intellisense: NSPocketStartupData.GetBaseLocaleTimeZoneData
+  langs:
+  - crmscript
+  name: 'GetBaseLocaleTimeZoneData()'
+  nameWithType: NSPocketStartupData.GetBaseLocaleTimeZoneData()
+  fullName: CRMScript.NetServer.NSPocketStartupData.GetBaseLocaleTimeZoneData()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSTimeZoneData GetBaseLocaleTimeZoneData()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSTimeZoneData
+  example: 
+  - "\n<pre><code>NSPocketStartupData thing;\nNSTimeZoneData baseLocaleTimeZoneData = thing.GetBaseLocaleTimeZoneData();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketStartupData.GetCustomData()
+  commentId: M:CRMScript.NetServer.NSPocketStartupData.GetCustomData()
+  id: 'GetCustomData()'
+  so.intellisense: NSPocketStartupData.GetCustomData
+  langs:
+  - crmscript
+  name: 'GetCustomData()'
+  nameWithType: NSPocketStartupData.GetCustomData()
+  fullName: CRMScript.NetServer.NSPocketStartupData.GetCustomData()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCustomData()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Custom data for Pocket, in JSON format."
+  example: 
+  - "\n<pre><code>NSPocketStartupData thing;\nString customData = thing.GetCustomData();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketStartupData.GetIsPushNotificationEnabled()
+  commentId: M:CRMScript.NetServer.NSPocketStartupData.GetIsPushNotificationEnabled()
+  id: 'GetIsPushNotificationEnabled()'
+  so.intellisense: NSPocketStartupData.GetIsPushNotificationEnabled
+  langs:
+  - crmscript
+  name: 'GetIsPushNotificationEnabled()'
+  nameWithType: NSPocketStartupData.GetIsPushNotificationEnabled()
+  fullName: CRMScript.NetServer.NSPocketStartupData.GetIsPushNotificationEnabled()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsPushNotificationEnabled()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Is push notification configured and enabled in Netserver."
+  example: 
+  - "\n<pre><code>NSPocketStartupData thing;\nBool isPushNotificationEnabled = thing.GetIsPushNotificationEnabled();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketStartupData.GetNotificationsCount()
+  commentId: M:CRMScript.NetServer.NSPocketStartupData.GetNotificationsCount()
+  id: 'GetNotificationsCount()'
+  so.intellisense: NSPocketStartupData.GetNotificationsCount
+  langs:
+  - crmscript
+  name: 'GetNotificationsCount()'
+  nameWithType: NSPocketStartupData.GetNotificationsCount()
+  fullName: CRMScript.NetServer.NSPocketStartupData.GetNotificationsCount()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetNotificationsCount()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of new invitations."
+  example: 
+  - "\n<pre><code>NSPocketStartupData thing;\nInteger notificationsCount = thing.GetNotificationsCount();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketStartupData.GetOverdueSalesCount()
+  commentId: M:CRMScript.NetServer.NSPocketStartupData.GetOverdueSalesCount()
+  id: 'GetOverdueSalesCount()'
+  so.intellisense: NSPocketStartupData.GetOverdueSalesCount
+  langs:
+  - crmscript
+  name: 'GetOverdueSalesCount()'
+  nameWithType: NSPocketStartupData.GetOverdueSalesCount()
+  fullName: CRMScript.NetServer.NSPocketStartupData.GetOverdueSalesCount()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetOverdueSalesCount()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of overdue sales for current user."
+  example: 
+  - "\n<pre><code>NSPocketStartupData thing;\nInteger overdueSalesCount = thing.GetOverdueSalesCount();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketStartupData.GetPhoneLocaleTimeZoneData()
+  commentId: M:CRMScript.NetServer.NSPocketStartupData.GetPhoneLocaleTimeZoneData()
+  id: 'GetPhoneLocaleTimeZoneData()'
+  so.intellisense: NSPocketStartupData.GetPhoneLocaleTimeZoneData
+  langs:
+  - crmscript
+  name: 'GetPhoneLocaleTimeZoneData()'
+  nameWithType: NSPocketStartupData.GetPhoneLocaleTimeZoneData()
+  fullName: CRMScript.NetServer.NSPocketStartupData.GetPhoneLocaleTimeZoneData()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSTimeZoneData GetPhoneLocaleTimeZoneData()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSTimeZoneData
+  example: 
+  - "\n<pre><code>NSPocketStartupData thing;\nNSTimeZoneData phoneLocaleTimeZoneData = thing.GetPhoneLocaleTimeZoneData();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketStartupData.GetPocketPreferences()
+  commentId: M:CRMScript.NetServer.NSPocketStartupData.GetPocketPreferences()
+  id: 'GetPocketPreferences()'
+  so.intellisense: NSPocketStartupData.GetPocketPreferences
+  langs:
+  - crmscript
+  name: 'GetPocketPreferences()'
+  nameWithType: NSPocketStartupData.GetPocketPreferences()
+  fullName: CRMScript.NetServer.NSPocketStartupData.GetPocketPreferences()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSPreference[] GetPocketPreferences()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSPreference[]
+      description: "All Pocket specific preferences, including WebPanels defined by the user in Pocket."
+  example: 
+  - "\n<pre><code>NSPocketStartupData thing;\nNSPreference[] pocketPreferences = thing.GetPocketPreferences();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketStartupData.GetSystemWebPanels()
+  commentId: M:CRMScript.NetServer.NSPocketStartupData.GetSystemWebPanels()
+  id: 'GetSystemWebPanels()'
+  so.intellisense: NSPocketStartupData.GetSystemWebPanels
+  langs:
+  - crmscript
+  name: 'GetSystemWebPanels()'
+  nameWithType: NSPocketStartupData.GetSystemWebPanels()
+  fullName: CRMScript.NetServer.NSPocketStartupData.GetSystemWebPanels()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSWebPanelEntity[] GetSystemWebPanels()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSWebPanelEntity[]
+      description: "Web panels defined in Admin client, set to be shown in Pocket client."
+  example: 
+  - "\n<pre><code>NSPocketStartupData thing;\nNSWebPanelEntity[] systemWebPanels = thing.GetSystemWebPanels();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketStartupData.GetTableRights()
+  commentId: M:CRMScript.NetServer.NSPocketStartupData.GetTableRights()
+  id: 'GetTableRights()'
+  so.intellisense: NSPocketStartupData.GetTableRights
+  langs:
+  - crmscript
+  name: 'GetTableRights()'
+  nameWithType: NSPocketStartupData.GetTableRights()
+  fullName: CRMScript.NetServer.NSPocketStartupData.GetTableRights()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer[] GetTableRights()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer[]
+      description: "List of table rights for logged in user, in the same order as the Tables array parameter. See <xref href=\"CRMScript.NetServer.ETableRight\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSPocketStartupData thing;\nInteger[] tableRights = thing.GetTableRights();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketStartupData.SetBaseLocaleTimeZoneData(NSTimeZoneData)
+  commentId: M:CRMScript.NetServer.NSPocketStartupData.SetBaseLocaleTimeZoneData(NSTimeZoneData)
+  id: 'SetBaseLocaleTimeZoneData(NSTimeZoneData)'
+  so.intellisense: NSPocketStartupData.SetBaseLocaleTimeZoneData
+  langs:
+  - crmscript
+  name: 'SetBaseLocaleTimeZoneData(NSTimeZoneData)'
+  nameWithType: NSPocketStartupData.SetBaseLocaleTimeZoneData(NSTimeZoneData)
+  fullName: CRMScript.NetServer.NSPocketStartupData.SetBaseLocaleTimeZoneData(NSTimeZoneData)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetBaseLocaleTimeZoneData(NSTimeZoneData baseLocaleTimeZoneData)
+    parameters:
+    - id: baseLocaleTimeZoneData
+      type: CRMScript.NetServer.NSTimeZoneData
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPocketStartupData thing;\nNSTimeZoneData baseLocaleTimeZoneData;\nthing.SetBaseLocaleTimeZoneData(baseLocaleTimeZoneData);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketStartupData.SetCustomData(String)
+  commentId: M:CRMScript.NetServer.NSPocketStartupData.SetCustomData(String)
+  id: 'SetCustomData(String)'
+  so.intellisense: NSPocketStartupData.SetCustomData
+  langs:
+  - crmscript
+  name: 'SetCustomData(String)'
+  nameWithType: NSPocketStartupData.SetCustomData(String)
+  fullName: CRMScript.NetServer.NSPocketStartupData.SetCustomData(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCustomData(String customData)
+    parameters:
+    - id: customData
+      type: CRMScript.Global.String
+      description: "Custom data for Pocket, in JSON format."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPocketStartupData thing;\nString customData;\nthing.SetCustomData(customData);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketStartupData.SetIsPushNotificationEnabled(Bool)
+  commentId: M:CRMScript.NetServer.NSPocketStartupData.SetIsPushNotificationEnabled(Bool)
+  id: 'SetIsPushNotificationEnabled(Bool)'
+  so.intellisense: NSPocketStartupData.SetIsPushNotificationEnabled
+  langs:
+  - crmscript
+  name: 'SetIsPushNotificationEnabled(Bool)'
+  nameWithType: NSPocketStartupData.SetIsPushNotificationEnabled(Bool)
+  fullName: CRMScript.NetServer.NSPocketStartupData.SetIsPushNotificationEnabled(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsPushNotificationEnabled(Bool isPushNotificationEnabled)
+    parameters:
+    - id: isPushNotificationEnabled
+      type: CRMScript.Global.Bool
+      description: "Is push notification configured and enabled in Netserver."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPocketStartupData thing;\nBool isPushNotificationEnabled;\nthing.SetIsPushNotificationEnabled(isPushNotificationEnabled);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketStartupData.SetNotificationsCount(Integer)
+  commentId: M:CRMScript.NetServer.NSPocketStartupData.SetNotificationsCount(Integer)
+  id: 'SetNotificationsCount(Integer)'
+  so.intellisense: NSPocketStartupData.SetNotificationsCount
+  langs:
+  - crmscript
+  name: 'SetNotificationsCount(Integer)'
+  nameWithType: NSPocketStartupData.SetNotificationsCount(Integer)
+  fullName: CRMScript.NetServer.NSPocketStartupData.SetNotificationsCount(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetNotificationsCount(Integer notificationsCount)
+    parameters:
+    - id: notificationsCount
+      type: CRMScript.Global.Integer
+      description: "Number of new invitations."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPocketStartupData thing;\nInteger notificationsCount;\nthing.SetNotificationsCount(notificationsCount);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketStartupData.SetOverdueSalesCount(Integer)
+  commentId: M:CRMScript.NetServer.NSPocketStartupData.SetOverdueSalesCount(Integer)
+  id: 'SetOverdueSalesCount(Integer)'
+  so.intellisense: NSPocketStartupData.SetOverdueSalesCount
+  langs:
+  - crmscript
+  name: 'SetOverdueSalesCount(Integer)'
+  nameWithType: NSPocketStartupData.SetOverdueSalesCount(Integer)
+  fullName: CRMScript.NetServer.NSPocketStartupData.SetOverdueSalesCount(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOverdueSalesCount(Integer overdueSalesCount)
+    parameters:
+    - id: overdueSalesCount
+      type: CRMScript.Global.Integer
+      description: "Number of overdue sales for current user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPocketStartupData thing;\nInteger overdueSalesCount;\nthing.SetOverdueSalesCount(overdueSalesCount);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketStartupData.SetPhoneLocaleTimeZoneData(NSTimeZoneData)
+  commentId: M:CRMScript.NetServer.NSPocketStartupData.SetPhoneLocaleTimeZoneData(NSTimeZoneData)
+  id: 'SetPhoneLocaleTimeZoneData(NSTimeZoneData)'
+  so.intellisense: NSPocketStartupData.SetPhoneLocaleTimeZoneData
+  langs:
+  - crmscript
+  name: 'SetPhoneLocaleTimeZoneData(NSTimeZoneData)'
+  nameWithType: NSPocketStartupData.SetPhoneLocaleTimeZoneData(NSTimeZoneData)
+  fullName: CRMScript.NetServer.NSPocketStartupData.SetPhoneLocaleTimeZoneData(NSTimeZoneData)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPhoneLocaleTimeZoneData(NSTimeZoneData phoneLocaleTimeZoneData)
+    parameters:
+    - id: phoneLocaleTimeZoneData
+      type: CRMScript.NetServer.NSTimeZoneData
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPocketStartupData thing;\nNSTimeZoneData phoneLocaleTimeZoneData;\nthing.SetPhoneLocaleTimeZoneData(phoneLocaleTimeZoneData);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketStartupData.SetPocketPreferences(NSPreference[])
+  commentId: M:CRMScript.NetServer.NSPocketStartupData.SetPocketPreferences(NSPreference[])
+  id: 'SetPocketPreferences(NSPreference[])'
+  so.intellisense: NSPocketStartupData.SetPocketPreferences
+  langs:
+  - crmscript
+  name: 'SetPocketPreferences(NSPreference[])'
+  nameWithType: NSPocketStartupData.SetPocketPreferences(NSPreference[])
+  fullName: CRMScript.NetServer.NSPocketStartupData.SetPocketPreferences(NSPreference[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPocketPreferences(NSPreference[] pocketPreferences)
+    parameters:
+    - id: pocketPreferences
+      type: CRMScript.NetServer.NSPreference[]
+      description: "All Pocket specific preferences, including WebPanels defined by the user in Pocket."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPocketStartupData thing;\nNSPreference[] pocketPreferences;\nthing.SetPocketPreferences(pocketPreferences);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketStartupData.SetSystemWebPanels(NSWebPanelEntity[])
+  commentId: M:CRMScript.NetServer.NSPocketStartupData.SetSystemWebPanels(NSWebPanelEntity[])
+  id: 'SetSystemWebPanels(NSWebPanelEntity[])'
+  so.intellisense: NSPocketStartupData.SetSystemWebPanels
+  langs:
+  - crmscript
+  name: 'SetSystemWebPanels(NSWebPanelEntity[])'
+  nameWithType: NSPocketStartupData.SetSystemWebPanels(NSWebPanelEntity[])
+  fullName: CRMScript.NetServer.NSPocketStartupData.SetSystemWebPanels(NSWebPanelEntity[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSystemWebPanels(NSWebPanelEntity[] systemWebPanels)
+    parameters:
+    - id: systemWebPanels
+      type: CRMScript.NetServer.NSWebPanelEntity[]
+      description: "Web panels defined in Admin client, set to be shown in Pocket client."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPocketStartupData thing;\nNSWebPanelEntity[] systemWebPanels;\nthing.SetSystemWebPanels(systemWebPanels);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketStartupData.SetTableRights(Integer[])
+  commentId: M:CRMScript.NetServer.NSPocketStartupData.SetTableRights(Integer[])
+  id: 'SetTableRights(Integer[])'
+  so.intellisense: NSPocketStartupData.SetTableRights
+  langs:
+  - crmscript
+  name: 'SetTableRights(Integer[])'
+  nameWithType: NSPocketStartupData.SetTableRights(Integer[])
+  fullName: CRMScript.NetServer.NSPocketStartupData.SetTableRights(Integer[])
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetTableRights(Integer[] tableRights)
+    parameters:
+    - id: tableRights
+      type: CRMScript.Global.Integer[]
+      description: "List of table rights for logged in user, in the same order as the Tables array parameter. See <xref href=\"CRMScript.NetServer.ETableRight\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPocketStartupData thing;\nInteger[] tableRights;\nthing.SetTableRights(tableRights);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSPocketStartupData
+  commentId: T:CRMScript.NetServer.NSPocketStartupData
+  isExternal: true
+  name: NSPocketStartupData
+  nameWithType: NSPocketStartupData
+  fullName: CRMScript.NetServer.NSPocketStartupData
+- uid: CRMScript.NetServer.NSTimeZoneData
+  commentId: T:CRMScript.NetServer.NSTimeZoneData
+  isExternal: true
+  name: NSTimeZoneData
+  nameWithType: NSTimeZoneData
+  fullName: CRMScript.NetServer.NSTimeZoneData
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSPreference[]
+  isExternal: true
+  name: NSPreference[]
+  nameWithType: NSPreference[]
+  fullName: CRMScript.NetServer.NSPreference[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSPreference
+    isExternal: true
+    name: NSPreference
+    nameWithType: NSPreference
+    fullName: CRMScript.NetServer.NSPreference
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSPreference
+  commentId: T:CRMScript.NetServer.NSPreference
+  isExternal: true
+  name: NSPreference
+  nameWithType: NSPreference
+  fullName: CRMScript.NetServer.NSPreference
+- uid: CRMScript.NetServer.NSWebPanelEntity[]
+  isExternal: true
+  name: NSWebPanelEntity[]
+  nameWithType: NSWebPanelEntity[]
+  fullName: CRMScript.NetServer.NSWebPanelEntity[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSWebPanelEntity
+    isExternal: true
+    name: NSWebPanelEntity
+    nameWithType: NSWebPanelEntity
+    fullName: CRMScript.NetServer.NSWebPanelEntity
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSWebPanelEntity
+  commentId: T:CRMScript.NetServer.NSWebPanelEntity
+  isExternal: true
+  name: NSWebPanelEntity
+  nameWithType: NSWebPanelEntity
+  fullName: CRMScript.NetServer.NSWebPanelEntity
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    isExternal: true
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.ETableRight
+  commentId: T:CRMScript.NetServer.ETableRight
+  isExternal: true
+  name: ETableRight
+  nameWithType: ETableRight
+  fullName: CRMScript.NetServer.ETableRight

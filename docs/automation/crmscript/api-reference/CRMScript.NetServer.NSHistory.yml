@@ -1,0 +1,363 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSHistory
+  commentId: T:CRMScript.NetServer.NSHistory
+  id: NSHistory
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSHistory.#ctor
+  - CRMScript.NetServer.NSHistory.GetAssociateId()
+  - CRMScript.NetServer.NSHistory.GetHistoryId()
+  - CRMScript.NetServer.NSHistory.GetHistoryName()
+  - CRMScript.NetServer.NSHistory.GetId()
+  - CRMScript.NetServer.NSHistory.GetItemInfo()
+  - CRMScript.NetServer.NSHistory.GetName()
+  - CRMScript.NetServer.NSHistory.GetRank()
+  - CRMScript.NetServer.NSHistory.SetAssociateId(Integer)
+  - CRMScript.NetServer.NSHistory.SetHistoryId(Integer)
+  - CRMScript.NetServer.NSHistory.SetHistoryName(String)
+  - CRMScript.NetServer.NSHistory.SetId(Integer)
+  - CRMScript.NetServer.NSHistory.SetItemInfo(String)
+  - CRMScript.NetServer.NSHistory.SetName(String)
+  - CRMScript.NetServer.NSHistory.SetRank(Integer)
+  name: NSHistory
+  nameWithType: NSHistory
+  fullName: CRMScript.NetServer.NSHistory
+  type: Class
+  summary: "\nThe usage history of the currently logged in user is represented as History objects.\n"
+  example: 
+- uid: CRMScript.NetServer.NSHistory.#ctor
+  commentId: M:CRMScript.NetServer.NSHistory.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSHistory
+  langs:
+  - crmscript
+  name: NSHistory()
+  nameWithType: NSHistory.#ctor
+  fullName: CRMScript.NetServer.NSHistory.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSHistory class.\n"
+  remarks: 
+  syntax: 
+    content: NSHistory
+  example: 
+- uid: CRMScript.NetServer.NSHistory.GetAssociateId()
+  commentId: M:CRMScript.NetServer.NSHistory.GetAssociateId()
+  id: 'GetAssociateId()'
+  so.intellisense: NSHistory.GetAssociateId
+  langs:
+  - crmscript
+  name: 'GetAssociateId()'
+  nameWithType: NSHistory.GetAssociateId()
+  fullName: CRMScript.NetServer.NSHistory.GetAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Owner of history list."
+  example: 
+  - "\n<pre><code>NSHistory thing;\nInteger associateId = thing.GetAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSHistory.GetHistoryId()
+  commentId: M:CRMScript.NetServer.NSHistory.GetHistoryId()
+  id: 'GetHistoryId()'
+  so.intellisense: NSHistory.GetHistoryId
+  langs:
+  - crmscript
+  name: 'GetHistoryId()'
+  nameWithType: NSHistory.GetHistoryId()
+  fullName: CRMScript.NetServer.NSHistory.GetHistoryId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetHistoryId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSHistory thing;\nInteger historyId = thing.GetHistoryId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSHistory.GetHistoryName()
+  commentId: M:CRMScript.NetServer.NSHistory.GetHistoryName()
+  id: 'GetHistoryName()'
+  so.intellisense: NSHistory.GetHistoryName
+  langs:
+  - crmscript
+  name: 'GetHistoryName()'
+  nameWithType: NSHistory.GetHistoryName()
+  fullName: CRMScript.NetServer.NSHistory.GetHistoryName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetHistoryName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the history list, for instance contact. Represents the history table's TableId field."
+  example: 
+  - "\n<pre><code>NSHistory thing;\nString historyName = thing.GetHistoryName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSHistory.GetId()
+  commentId: M:CRMScript.NetServer.NSHistory.GetId()
+  id: 'GetId()'
+  so.intellisense: NSHistory.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSHistory.GetId()
+  fullName: CRMScript.NetServer.NSHistory.GetId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of the history item, for instance a contact id. Represents the history table's RecordId field, if the item is based on a history table record."
+  example: 
+  - "\n<pre><code>NSHistory thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSHistory.GetItemInfo()
+  commentId: M:CRMScript.NetServer.NSHistory.GetItemInfo()
+  id: 'GetItemInfo()'
+  so.intellisense: NSHistory.GetItemInfo
+  langs:
+  - crmscript
+  name: 'GetItemInfo()'
+  nameWithType: NSHistory.GetItemInfo()
+  fullName: CRMScript.NetServer.NSHistory.GetItemInfo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetItemInfo()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Extra information on the history item, e.g. The Associate Type for an associate or other relevant info."
+  example: 
+  - "\n<pre><code>NSHistory thing;\nString itemInfo = thing.GetItemInfo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSHistory.GetName()
+  commentId: M:CRMScript.NetServer.NSHistory.GetName()
+  id: 'GetName()'
+  so.intellisense: NSHistory.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSHistory.GetName()
+  fullName: CRMScript.NetServer.NSHistory.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of the history item, for instance contact name."
+  example: 
+  - "\n<pre><code>NSHistory thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSHistory.GetRank()
+  commentId: M:CRMScript.NetServer.NSHistory.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSHistory.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSHistory.GetRank()
+  fullName: CRMScript.NetServer.NSHistory.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Sort order, indexed so it can used for sorting in the query."
+  example: 
+  - "\n<pre><code>NSHistory thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSHistory.SetAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSHistory.SetAssociateId(Integer)
+  id: 'SetAssociateId(Integer)'
+  so.intellisense: NSHistory.SetAssociateId
+  langs:
+  - crmscript
+  name: 'SetAssociateId(Integer)'
+  nameWithType: NSHistory.SetAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSHistory.SetAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAssociateId(Integer associateId)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: "Owner of history list."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSHistory thing;\nInteger associateId;\nthing.SetAssociateId(associateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSHistory.SetHistoryId(Integer)
+  commentId: M:CRMScript.NetServer.NSHistory.SetHistoryId(Integer)
+  id: 'SetHistoryId(Integer)'
+  so.intellisense: NSHistory.SetHistoryId
+  langs:
+  - crmscript
+  name: 'SetHistoryId(Integer)'
+  nameWithType: NSHistory.SetHistoryId(Integer)
+  fullName: CRMScript.NetServer.NSHistory.SetHistoryId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetHistoryId(Integer historyId)
+    parameters:
+    - id: historyId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSHistory thing;\nInteger historyId;\nthing.SetHistoryId(historyId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSHistory.SetHistoryName(String)
+  commentId: M:CRMScript.NetServer.NSHistory.SetHistoryName(String)
+  id: 'SetHistoryName(String)'
+  so.intellisense: NSHistory.SetHistoryName
+  langs:
+  - crmscript
+  name: 'SetHistoryName(String)'
+  nameWithType: NSHistory.SetHistoryName(String)
+  fullName: CRMScript.NetServer.NSHistory.SetHistoryName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetHistoryName(String historyName)
+    parameters:
+    - id: historyName
+      type: CRMScript.Global.String
+      description: "The name of the history list, for instance contact. Represents the history table's TableId field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSHistory thing;\nString historyName;\nthing.SetHistoryName(historyName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSHistory.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSHistory.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSHistory.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSHistory.SetId(Integer)
+  fullName: CRMScript.NetServer.NSHistory.SetId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "ID of the history item, for instance a contact id. Represents the history table's RecordId field, if the item is based on a history table record."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSHistory thing;\nInteger id;\nthing.SetId(id);</code></pre>\n"
+- uid: CRMScript.NetServer.NSHistory.SetItemInfo(String)
+  commentId: M:CRMScript.NetServer.NSHistory.SetItemInfo(String)
+  id: 'SetItemInfo(String)'
+  so.intellisense: NSHistory.SetItemInfo
+  langs:
+  - crmscript
+  name: 'SetItemInfo(String)'
+  nameWithType: NSHistory.SetItemInfo(String)
+  fullName: CRMScript.NetServer.NSHistory.SetItemInfo(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetItemInfo(String itemInfo)
+    parameters:
+    - id: itemInfo
+      type: CRMScript.Global.String
+      description: "Extra information on the history item, e.g. The Associate Type for an associate or other relevant info."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSHistory thing;\nString itemInfo;\nthing.SetItemInfo(itemInfo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSHistory.SetName(String)
+  commentId: M:CRMScript.NetServer.NSHistory.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSHistory.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSHistory.SetName(String)
+  fullName: CRMScript.NetServer.NSHistory.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Name of the history item, for instance contact name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSHistory thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSHistory.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSHistory.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSHistory.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSHistory.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSHistory.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "Sort order, indexed so it can used for sorting in the query."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSHistory thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSHistory
+  commentId: T:CRMScript.NetServer.NSHistory
+  isExternal: true
+  name: NSHistory
+  nameWithType: NSHistory
+  fullName: CRMScript.NetServer.NSHistory
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

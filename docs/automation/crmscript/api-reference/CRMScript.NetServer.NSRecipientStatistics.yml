@@ -1,0 +1,295 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSRecipientStatistics
+  commentId: T:CRMScript.NetServer.NSRecipientStatistics
+  id: NSRecipientStatistics
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSRecipientStatistics.#ctor
+  - CRMScript.NetServer.NSRecipientStatistics.GetNoAddresses()
+  - CRMScript.NetServer.NSRecipientStatistics.GetNoFaxOrEmails()
+  - CRMScript.NetServer.NSRecipientStatistics.GetTotal()
+  - CRMScript.NetServer.NSRecipientStatistics.GetValidEmailAddresses()
+  - CRMScript.NetServer.NSRecipientStatistics.GetValidFaxNumbers()
+  - CRMScript.NetServer.NSRecipientStatistics.GetValidPostalAddresses()
+  - CRMScript.NetServer.NSRecipientStatistics.SetNoAddresses(Integer)
+  - CRMScript.NetServer.NSRecipientStatistics.SetNoFaxOrEmails(Integer)
+  - CRMScript.NetServer.NSRecipientStatistics.SetTotal(Integer)
+  - CRMScript.NetServer.NSRecipientStatistics.SetValidEmailAddresses(Integer)
+  - CRMScript.NetServer.NSRecipientStatistics.SetValidFaxNumbers(Integer)
+  - CRMScript.NetServer.NSRecipientStatistics.SetValidPostalAddresses(Integer)
+  name: NSRecipientStatistics
+  nameWithType: NSRecipientStatistics
+  fullName: CRMScript.NetServer.NSRecipientStatistics
+  type: Class
+  summary: "\nCarrier object for RecipientStatistics.\n"
+  example: 
+- uid: CRMScript.NetServer.NSRecipientStatistics.#ctor
+  commentId: M:CRMScript.NetServer.NSRecipientStatistics.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSRecipientStatistics
+  langs:
+  - crmscript
+  name: NSRecipientStatistics()
+  nameWithType: NSRecipientStatistics.#ctor
+  fullName: CRMScript.NetServer.NSRecipientStatistics.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSRecipientStatistics class.\n"
+  remarks: 
+  syntax: 
+    content: NSRecipientStatistics
+  example: 
+- uid: CRMScript.NetServer.NSRecipientStatistics.GetNoAddresses()
+  commentId: M:CRMScript.NetServer.NSRecipientStatistics.GetNoAddresses()
+  id: 'GetNoAddresses()'
+  so.intellisense: NSRecipientStatistics.GetNoAddresses
+  langs:
+  - crmscript
+  name: 'GetNoAddresses()'
+  nameWithType: NSRecipientStatistics.GetNoAddresses()
+  fullName: CRMScript.NetServer.NSRecipientStatistics.GetNoAddresses()
+  type: Method
+  summary: "\nNumber of members with an invalid address.\n"
+  remarks: 
+  syntax: 
+    content: Integer GetNoAddresses()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSRecipientStatistics.GetNoFaxOrEmails()
+  commentId: M:CRMScript.NetServer.NSRecipientStatistics.GetNoFaxOrEmails()
+  id: 'GetNoFaxOrEmails()'
+  so.intellisense: NSRecipientStatistics.GetNoFaxOrEmails
+  langs:
+  - crmscript
+  name: 'GetNoFaxOrEmails()'
+  nameWithType: NSRecipientStatistics.GetNoFaxOrEmails()
+  fullName: CRMScript.NetServer.NSRecipientStatistics.GetNoFaxOrEmails()
+  type: Method
+  summary: "\nNumber of members with no fax or email address.\n"
+  remarks: 
+  syntax: 
+    content: Integer GetNoFaxOrEmails()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSRecipientStatistics.GetTotal()
+  commentId: M:CRMScript.NetServer.NSRecipientStatistics.GetTotal()
+  id: 'GetTotal()'
+  so.intellisense: NSRecipientStatistics.GetTotal
+  langs:
+  - crmscript
+  name: 'GetTotal()'
+  nameWithType: NSRecipientStatistics.GetTotal()
+  fullName: CRMScript.NetServer.NSRecipientStatistics.GetTotal()
+  type: Method
+  summary: "\nTotal number of members.\n"
+  remarks: 
+  syntax: 
+    content: Integer GetTotal()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSRecipientStatistics.GetValidEmailAddresses()
+  commentId: M:CRMScript.NetServer.NSRecipientStatistics.GetValidEmailAddresses()
+  id: 'GetValidEmailAddresses()'
+  so.intellisense: NSRecipientStatistics.GetValidEmailAddresses
+  langs:
+  - crmscript
+  name: 'GetValidEmailAddresses()'
+  nameWithType: NSRecipientStatistics.GetValidEmailAddresses()
+  fullName: CRMScript.NetServer.NSRecipientStatistics.GetValidEmailAddresses()
+  type: Method
+  summary: "\nNumber of members with a valid email address.\n"
+  remarks: 
+  syntax: 
+    content: Integer GetValidEmailAddresses()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSRecipientStatistics.GetValidFaxNumbers()
+  commentId: M:CRMScript.NetServer.NSRecipientStatistics.GetValidFaxNumbers()
+  id: 'GetValidFaxNumbers()'
+  so.intellisense: NSRecipientStatistics.GetValidFaxNumbers
+  langs:
+  - crmscript
+  name: 'GetValidFaxNumbers()'
+  nameWithType: NSRecipientStatistics.GetValidFaxNumbers()
+  fullName: CRMScript.NetServer.NSRecipientStatistics.GetValidFaxNumbers()
+  type: Method
+  summary: "\nNumber of members with a valid fax number.\n"
+  remarks: 
+  syntax: 
+    content: Integer GetValidFaxNumbers()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSRecipientStatistics.GetValidPostalAddresses()
+  commentId: M:CRMScript.NetServer.NSRecipientStatistics.GetValidPostalAddresses()
+  id: 'GetValidPostalAddresses()'
+  so.intellisense: NSRecipientStatistics.GetValidPostalAddresses
+  langs:
+  - crmscript
+  name: 'GetValidPostalAddresses()'
+  nameWithType: NSRecipientStatistics.GetValidPostalAddresses()
+  fullName: CRMScript.NetServer.NSRecipientStatistics.GetValidPostalAddresses()
+  type: Method
+  summary: "\nNumber of members with a valid postal address.\n"
+  remarks: 
+  syntax: 
+    content: Integer GetValidPostalAddresses()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSRecipientStatistics.SetNoAddresses(Integer)
+  commentId: M:CRMScript.NetServer.NSRecipientStatistics.SetNoAddresses(Integer)
+  id: 'SetNoAddresses(Integer)'
+  so.intellisense: NSRecipientStatistics.SetNoAddresses
+  langs:
+  - crmscript
+  name: 'SetNoAddresses(Integer)'
+  nameWithType: NSRecipientStatistics.SetNoAddresses(Integer)
+  fullName: CRMScript.NetServer.NSRecipientStatistics.SetNoAddresses(Integer)
+  type: Method
+  summary: "\nNumber of members with an invalid address.\n"
+  remarks: 
+  syntax: 
+    content: Void SetNoAddresses(Integer num)
+    parameters:
+    - id: num
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSRecipientStatistics.SetNoFaxOrEmails(Integer)
+  commentId: M:CRMScript.NetServer.NSRecipientStatistics.SetNoFaxOrEmails(Integer)
+  id: 'SetNoFaxOrEmails(Integer)'
+  so.intellisense: NSRecipientStatistics.SetNoFaxOrEmails
+  langs:
+  - crmscript
+  name: 'SetNoFaxOrEmails(Integer)'
+  nameWithType: NSRecipientStatistics.SetNoFaxOrEmails(Integer)
+  fullName: CRMScript.NetServer.NSRecipientStatistics.SetNoFaxOrEmails(Integer)
+  type: Method
+  summary: "\nNumber of members with no fax or email address.\n"
+  remarks: 
+  syntax: 
+    content: Void SetNoFaxOrEmails(Integer num)
+    parameters:
+    - id: num
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSRecipientStatistics.SetTotal(Integer)
+  commentId: M:CRMScript.NetServer.NSRecipientStatistics.SetTotal(Integer)
+  id: 'SetTotal(Integer)'
+  so.intellisense: NSRecipientStatistics.SetTotal
+  langs:
+  - crmscript
+  name: 'SetTotal(Integer)'
+  nameWithType: NSRecipientStatistics.SetTotal(Integer)
+  fullName: CRMScript.NetServer.NSRecipientStatistics.SetTotal(Integer)
+  type: Method
+  summary: "\nTotal number of members.\n"
+  remarks: 
+  syntax: 
+    content: Void SetTotal(Integer num)
+    parameters:
+    - id: num
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSRecipientStatistics.SetValidEmailAddresses(Integer)
+  commentId: M:CRMScript.NetServer.NSRecipientStatistics.SetValidEmailAddresses(Integer)
+  id: 'SetValidEmailAddresses(Integer)'
+  so.intellisense: NSRecipientStatistics.SetValidEmailAddresses
+  langs:
+  - crmscript
+  name: 'SetValidEmailAddresses(Integer)'
+  nameWithType: NSRecipientStatistics.SetValidEmailAddresses(Integer)
+  fullName: CRMScript.NetServer.NSRecipientStatistics.SetValidEmailAddresses(Integer)
+  type: Method
+  summary: "\nNumber of members with a valid email address.\n"
+  remarks: 
+  syntax: 
+    content: Void SetValidEmailAddresses(Integer num)
+    parameters:
+    - id: num
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSRecipientStatistics.SetValidFaxNumbers(Integer)
+  commentId: M:CRMScript.NetServer.NSRecipientStatistics.SetValidFaxNumbers(Integer)
+  id: 'SetValidFaxNumbers(Integer)'
+  so.intellisense: NSRecipientStatistics.SetValidFaxNumbers
+  langs:
+  - crmscript
+  name: 'SetValidFaxNumbers(Integer)'
+  nameWithType: NSRecipientStatistics.SetValidFaxNumbers(Integer)
+  fullName: CRMScript.NetServer.NSRecipientStatistics.SetValidFaxNumbers(Integer)
+  type: Method
+  summary: "\nNumber of members with a valid fax number.\n"
+  remarks: 
+  syntax: 
+    content: Void SetValidFaxNumbers(Integer num)
+    parameters:
+    - id: num
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSRecipientStatistics.SetValidPostalAddresses(Integer)
+  commentId: M:CRMScript.NetServer.NSRecipientStatistics.SetValidPostalAddresses(Integer)
+  id: 'SetValidPostalAddresses(Integer)'
+  so.intellisense: NSRecipientStatistics.SetValidPostalAddresses
+  langs:
+  - crmscript
+  name: 'SetValidPostalAddresses(Integer)'
+  nameWithType: NSRecipientStatistics.SetValidPostalAddresses(Integer)
+  fullName: CRMScript.NetServer.NSRecipientStatistics.SetValidPostalAddresses(Integer)
+  type: Method
+  summary: "\nNumber of members with a valid postal address.\n"
+  remarks: 
+  syntax: 
+    content: Void SetValidPostalAddresses(Integer num)
+    parameters:
+    - id: num
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSRecipientStatistics
+  commentId: T:CRMScript.NetServer.NSRecipientStatistics
+  isExternal: true
+  name: NSRecipientStatistics
+  nameWithType: NSRecipientStatistics
+  fullName: CRMScript.NetServer.NSRecipientStatistics
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.ImportEntityType
+  # Same as SuperOffice.Data.ImportEntityType
+  commentId: T:CRMScript.NetServer.ImportEntityType
+  id: ImportEntityType
+  children:
+  - CRMScript.NetServer.ImportEntityType.Contact
+  - CRMScript.NetServer.ImportEntityType.Person
+  - CRMScript.NetServer.ImportEntityType.Product
+  - CRMScript.NetServer.ImportEntityType.Unknown
+  langs:
+  - crmscript
+  name: ImportEntityType
+  nameWithType: ImportEntityType
+  fullName: CRMScript.NetServer.ImportEntityType
+  type: Enum
+  summary: "\nEntity's type for import.\nConsists of flag values that can be combined.\n"
+- uid: CRMScript.NetServer.ImportEntityType.Unknown
+  commentId: F:CRMScript.NetServer.ImportEntityType.Unknown
+  id: Unknown
+  parent: CRMScript.NetServer.ImportEntityType
+  langs:
+  - crmscript
+  name: Unknown
+  nameWithType: ImportEntityType.Unknown
+  fullName: CRMScript.NetServer.ImportEntityType.Unknown
+  type: Field
+  summary: "\n0: Unknown\n"
+  syntax:
+    content: Unknown = 0
+    return:
+      type: CRMScript.NetServer.ImportEntityType
+- uid: CRMScript.NetServer.ImportEntityType.Person
+  commentId: F:CRMScript.NetServer.ImportEntityType.Person
+  id: Person
+  parent: CRMScript.NetServer.ImportEntityType
+  langs:
+  - crmscript
+  name: Person
+  nameWithType: ImportEntityType.Person
+  fullName: CRMScript.NetServer.ImportEntityType.Person
+  type: Field
+  summary: "\n1: Person\n"
+  syntax:
+    content: Person = 1
+    return:
+      type: CRMScript.NetServer.ImportEntityType
+- uid: CRMScript.NetServer.ImportEntityType.Contact
+  commentId: F:CRMScript.NetServer.ImportEntityType.Contact
+  id: Contact
+  parent: CRMScript.NetServer.ImportEntityType
+  langs:
+  - crmscript
+  name: Contact
+  nameWithType: ImportEntityType.Contact
+  fullName: CRMScript.NetServer.ImportEntityType.Contact
+  type: Field
+  summary: "\n2: Contact\n"
+  syntax:
+    content: Contact = 2
+    return:
+      type: CRMScript.NetServer.ImportEntityType
+- uid: CRMScript.NetServer.ImportEntityType.Product
+  commentId: F:CRMScript.NetServer.ImportEntityType.Product
+  id: Product
+  parent: CRMScript.NetServer.ImportEntityType
+  langs:
+  - crmscript
+  name: Product
+  nameWithType: ImportEntityType.Product
+  fullName: CRMScript.NetServer.ImportEntityType.Product
+  type: Field
+  summary: "\n4: Product\n"
+  syntax:
+    content: Product = 4
+    return:
+      type: CRMScript.NetServer.ImportEntityType
+references:
+- uid: CRMScript.NetServer.ImportEntityType
+  commentId: T:CRMScript.NetServer.ImportEntityType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ImportEntityType
+  nameWithType: ImportEntityType
+  fullName: CRMScript.NetServer.ImportEntityType

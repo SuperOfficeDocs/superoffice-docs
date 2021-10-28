@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSPosition
+  commentId: T:CRMScript.NetServer.NSPosition
+  id: NSPosition
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSPosition.#ctor
+  - CRMScript.NetServer.NSPosition.GetId()
+  - CRMScript.NetServer.NSPosition.GetTooltip()
+  - CRMScript.NetServer.NSPosition.GetValue()
+  - CRMScript.NetServer.NSPosition.SetId(Integer)
+  - CRMScript.NetServer.NSPosition.SetTooltip(String)
+  - CRMScript.NetServer.NSPosition.SetValue(String)
+  name: NSPosition
+  nameWithType: NSPosition
+  fullName: CRMScript.NetServer.NSPosition
+  type: Class
+  summary: "\nCarrier object for Position.\n"
+  example: 
+- uid: CRMScript.NetServer.NSPosition.#ctor
+  commentId: M:CRMScript.NetServer.NSPosition.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSPosition
+  langs:
+  - crmscript
+  name: NSPosition()
+  nameWithType: NSPosition.#ctor
+  fullName: CRMScript.NetServer.NSPosition.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSPosition class.\n"
+  remarks: 
+  syntax: 
+    content: NSPosition
+  example: 
+- uid: CRMScript.NetServer.NSPosition.GetId()
+  commentId: M:CRMScript.NetServer.NSPosition.GetId()
+  id: 'GetId()'
+  so.intellisense: NSPosition.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSPosition.GetId()
+  fullName: CRMScript.NetServer.NSPosition.GetId()
+  type: Method
+  summary: "\nGets the primary key (ID) for the NSPosition\n"
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "NSPosition Id."
+  example: 
+  - "\n<pre><code>NSPosition thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPosition.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSPosition.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSPosition.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSPosition.GetTooltip()
+  fullName: CRMScript.NetServer.NSPosition.GetTooltip()
+  type: Method
+  summary: "\nGets the tooltip description for the NSPosition list item.\n"
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "NSPosition tooltip description."
+  example: 
+  - "\n<pre><code>NSPosition thing;\nString descr = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPosition.GetValue()
+  commentId: M:CRMScript.NetServer.NSPosition.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSPosition.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSPosition.GetValue()
+  fullName: CRMScript.NetServer.NSPosition.GetValue()
+  type: Method
+  summary: "\nGets the name of the NSPosition.\n"
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "NSPosition name."
+  example: 
+  - "\n<pre><code>NSPosition thing;\nString name = thing.GetValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPosition.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSPosition.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSPosition.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSPosition.SetId(Integer)
+  fullName: CRMScript.NetServer.NSPosition.SetId(Integer)
+  type: Method
+  summary: "\nSets the primary key (ID) for the NSPosition\n"
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPosition thing;\nthing.SetId(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPosition.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSPosition.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSPosition.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSPosition.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSPosition.SetTooltip(String)
+  type: Method
+  summary: "\nSets the tooltip description for the NSPosition list item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPosition thing;\nString descr = &quot;something new&quot;;\nthing.SetTooltip(descr);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPosition.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSPosition.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSPosition.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSPosition.SetValue(String)
+  fullName: CRMScript.NetServer.NSPosition.SetValue(String)
+  type: Method
+  summary: "\nSets the name of the NSPosition item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPosition thing;\nthing.SetValue(&quot;frotz&quot;);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSPosition
+  commentId: T:CRMScript.NetServer.NSPosition
+  isExternal: true
+  name: NSPosition
+  nameWithType: NSPosition
+  fullName: CRMScript.NetServer.NSPosition
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

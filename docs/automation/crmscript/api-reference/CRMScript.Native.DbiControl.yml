@@ -1,0 +1,196 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.DbiControl
+  commentId: T:CRMScript.Native.DbiControl
+  id: DbiControl
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.DbiControl.#ctor
+  - CRMScript.Native.DbiControl.getObject()
+  - CRMScript.Native.DbiControl.getParameter(String)
+  - CRMScript.Native.DbiControl.getParameters()
+  - CRMScript.Native.DbiControl.saveParameter(String,String)
+  - CRMScript.Native.DbiControl.sendObject(Map)
+  - CRMScript.Native.DbiControl.setParameter(String,String)
+  name: DbiControl
+  nameWithType: DbiControl
+  fullName: CRMScript.Native.DbiControl
+  type: Class
+  summary: "\nUsed for communicating with DBI agents to share data with external systems.\n"
+  example: 
+- uid: CRMScript.Native.DbiControl.#ctor
+  commentId: M:CRMScript.Native.DbiControl.#ctor
+  id: '#ctor'
+  so.intellisense: Void.DbiControl
+  langs:
+  - crmscript
+  name: DbiControl()
+  nameWithType: DbiControl.#ctor
+  fullName: CRMScript.Native.DbiControl.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the DbiControl class.\n"
+  remarks: 
+  syntax: 
+    content: DbiControl
+  example: 
+- uid: CRMScript.Native.DbiControl.getObject()
+  commentId: M:CRMScript.Native.DbiControl.getObject()
+  id: 'getObject()'
+  so.intellisense: DbiControl.getObject
+  langs:
+  - crmscript
+  name: 'getObject()'
+  nameWithType: DbiControl.getObject()
+  fullName: CRMScript.Native.DbiControl.getObject()
+  type: Method
+  summary: "\nWhen fetching data from external system, this function is called repeatedly.\n"
+  remarks: 
+  syntax: 
+    content: Map getObject()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description: "Field-value pairs for the currently fetched object."
+  example: 
+- uid: CRMScript.Native.DbiControl.getParameter(String)
+  commentId: M:CRMScript.Native.DbiControl.getParameter(String)
+  id: 'getParameter(String)'
+  so.intellisense: DbiControl.getParameter
+  langs:
+  - crmscript
+  name: 'getParameter(String)'
+  nameWithType: DbiControl.getParameter(String)
+  fullName: CRMScript.Native.DbiControl.getParameter(String)
+  type: Method
+  summary: "\nReturns the value of the given parameter.\n"
+  remarks: 
+  syntax: 
+    content: String getParameter(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Name of the parameter to get the value of."
+    return:
+      type: CRMScript.Global.String
+      description: "The value of the named parameter."
+  example: 
+- uid: CRMScript.Native.DbiControl.getParameters()
+  commentId: M:CRMScript.Native.DbiControl.getParameters()
+  id: 'getParameters()'
+  so.intellisense: DbiControl.getParameters
+  langs:
+  - crmscript
+  name: 'getParameters()'
+  nameWithType: DbiControl.getParameters()
+  fullName: CRMScript.Native.DbiControl.getParameters()
+  type: Method
+  summary: "\nRetrieves parameters for a DBI setup.\n"
+  remarks: "\nIt can among else define parameters for limiting the data set, or whatever else you define under the &quot;Settings/DBI&quot; section of eJournal. You will also get saved parameters so that you can store values from one run to another.\n"
+  syntax: 
+    content: Map getParameters()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description: "Field-value pairs."
+  example: 
+- uid: CRMScript.Native.DbiControl.saveParameter(String,String)
+  commentId: M:CRMScript.Native.DbiControl.saveParameter(String,String)
+  id: 'saveParameter(String,String)'
+  so.intellisense: DbiControl.saveParameter
+  langs:
+  - crmscript
+  name: 'saveParameter(String,String)'
+  nameWithType: DbiControl.saveParameter(String,String)
+  fullName: CRMScript.Native.DbiControl.saveParameter(String,String)
+  type: Method
+  summary: "\nSaves a parameter to the object.\n"
+  remarks: 
+  syntax: 
+    content: Void saveParameter(String name, String val)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Name of parameter to save for later retrieval by other DBI integration runs."
+    - id: val
+      type: CRMScript.Global.String
+      description: "The value to be saved for the given parameter."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.DbiControl.sendObject(Map)
+  commentId: M:CRMScript.Native.DbiControl.sendObject(Map)
+  id: 'sendObject(Map)'
+  so.intellisense: DbiControl.sendObject
+  langs:
+  - crmscript
+  name: 'sendObject(Map)'
+  nameWithType: DbiControl.sendObject(Map)
+  fullName: CRMScript.Native.DbiControl.sendObject(Map)
+  type: Method
+  summary: "\nThis function will send an object to the external system agent, during a DBI integration session.\n"
+  remarks: "\nThis may be a map of table.field_name and value, for instance, for an ODBC agent.\n"
+  syntax: 
+    content: Void sendObject(Map values)
+    parameters:
+    - id: values
+      type: CRMScript.Native.Map
+      description: "Field-value pairs that define the object in a way that is meaningful to the external agent."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.DbiControl.setParameter(String,String)
+  commentId: M:CRMScript.Native.DbiControl.setParameter(String,String)
+  id: 'setParameter(String,String)'
+  so.intellisense: DbiControl.setParameter
+  langs:
+  - crmscript
+  name: 'setParameter(String,String)'
+  nameWithType: DbiControl.setParameter(String,String)
+  fullName: CRMScript.Native.DbiControl.setParameter(String,String)
+  type: Method
+  summary: "\nAllows you to set parameter values that are sent to the external DBI agent.\n"
+  remarks: "\nThe parameters set using this function are not saved for later retrieval.\n"
+  syntax: 
+    content: Void setParameter(String name, String val)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of the parameter (for example, resultSet.size)."
+    - id: val
+      type: CRMScript.Global.String
+      description: "A string representation of the value (for example, 100)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.Native.DbiControl
+  commentId: T:CRMScript.Native.DbiControl
+  isExternal: true
+  name: DbiControl
+  nameWithType: DbiControl
+  fullName: CRMScript.Native.DbiControl
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.Native.Map
+  commentId: T:CRMScript.Native.Map
+  isExternal: true
+  name: Map
+  nameWithType: Map
+  fullName: CRMScript.Native.Map

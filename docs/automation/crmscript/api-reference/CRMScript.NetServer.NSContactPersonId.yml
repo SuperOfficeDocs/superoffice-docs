@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSContactPersonId
+  commentId: T:CRMScript.NetServer.NSContactPersonId
+  id: NSContactPersonId
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSContactPersonId.#ctor
+  - CRMScript.NetServer.NSContactPersonId.GetContactId()
+  - CRMScript.NetServer.NSContactPersonId.GetPersonId()
+  - CRMScript.NetServer.NSContactPersonId.SetContactId(Integer)
+  - CRMScript.NetServer.NSContactPersonId.SetPersonId(Integer)
+  name: NSContactPersonId
+  nameWithType: NSContactPersonId
+  fullName: CRMScript.NetServer.NSContactPersonId
+  type: Class
+  summary: # TOOd."
+  example: 
+- uid: CRMScript.NetServer.NSContactPersonId.#ctor
+  commentId: M:CRMScript.NetServer.NSContactPersonId.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSContactPersonId
+  langs:
+  - crmscript
+  name: NSContactPersonId()
+  nameWithType: NSContactPersonId.#ctor
+  fullName: CRMScript.NetServer.NSContactPersonId.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSContactPersonId class.\n"
+  remarks: 
+  syntax: 
+    content: NSContactPersonId
+  example: 
+- uid: CRMScript.NetServer.NSContactPersonId.GetContactId()
+  commentId: M:CRMScript.NetServer.NSContactPersonId.GetContactId()
+  id: 'GetContactId()'
+  so.intellisense: NSContactPersonId.GetContactId
+  langs:
+  - crmscript
+  name: 'GetContactId()'
+  nameWithType: NSContactPersonId.GetContactId()
+  fullName: CRMScript.NetServer.NSContactPersonId.GetContactId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetContactId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "A contact ID."
+  example: 
+- uid: CRMScript.NetServer.NSContactPersonId.GetPersonId()
+  commentId: M:CRMScript.NetServer.NSContactPersonId.GetPersonId()
+  id: 'GetPersonId()'
+  so.intellisense: NSContactPersonId.GetPersonId
+  langs:
+  - crmscript
+  name: 'GetPersonId()'
+  nameWithType: NSContactPersonId.GetPersonId()
+  fullName: CRMScript.NetServer.NSContactPersonId.GetPersonId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPersonId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "A person ID."
+  example: 
+- uid: CRMScript.NetServer.NSContactPersonId.SetContactId(Integer)
+  commentId: M:CRMScript.NetServer.NSContactPersonId.SetContactId(Integer)
+  id: 'SetContactId(Integer)'
+  so.intellisense: NSContactPersonId.SetContactId
+  langs:
+  - crmscript
+  name: 'SetContactId(Integer)'
+  nameWithType: NSContactPersonId.SetContactId(Integer)
+  fullName: CRMScript.NetServer.NSContactPersonId.SetContactId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "A contact Id."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSContactPersonId.SetPersonId(Integer)
+  commentId: M:CRMScript.NetServer.NSContactPersonId.SetPersonId(Integer)
+  id: 'SetPersonId(Integer)'
+  so.intellisense: NSContactPersonId.SetPersonId
+  langs:
+  - crmscript
+  name: 'SetPersonId(Integer)'
+  nameWithType: NSContactPersonId.SetPersonId(Integer)
+  fullName: CRMScript.NetServer.NSContactPersonId.SetPersonId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "A person Id."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSContactPersonId
+  commentId: T:CRMScript.NetServer.NSContactPersonId
+  isExternal: true
+  name: NSContactPersonId
+  nameWithType: NSContactPersonId
+  fullName: CRMScript.NetServer.NSContactPersonId
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

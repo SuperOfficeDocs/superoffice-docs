@@ -1,0 +1,251 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSArchiveRestrictionGroup
+  commentId: T:CRMScript.NetServer.NSArchiveRestrictionGroup
+  id: NSArchiveRestrictionGroup
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSArchiveRestrictionGroup.#ctor
+  - CRMScript.NetServer.NSArchiveRestrictionGroup.GetDescription()
+  - CRMScript.NetServer.NSArchiveRestrictionGroup.GetName()
+  - CRMScript.NetServer.NSArchiveRestrictionGroup.GetRank()
+  - CRMScript.NetServer.NSArchiveRestrictionGroup.GetRestrictions()
+  - CRMScript.NetServer.NSArchiveRestrictionGroup.SetDescription(String)
+  - CRMScript.NetServer.NSArchiveRestrictionGroup.SetName(String)
+  - CRMScript.NetServer.NSArchiveRestrictionGroup.SetRank(Integer)
+  - CRMScript.NetServer.NSArchiveRestrictionGroup.SetRestrictions(NSArchiveRestrictionInfo[])
+  name: NSArchiveRestrictionGroup
+  nameWithType: NSArchiveRestrictionGroup
+  fullName: CRMScript.NetServer.NSArchiveRestrictionGroup
+  type: Class
+  summary: "\nCarrier for restriction group. Contains all the search restrictions for the group - that is, ArchiveRestrictionInfo - objects, including info such as rank and name.\n"
+  example: 
+- uid: CRMScript.NetServer.NSArchiveRestrictionGroup.#ctor
+  commentId: M:CRMScript.NetServer.NSArchiveRestrictionGroup.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSArchiveRestrictionGroup
+  langs:
+  - crmscript
+  name: NSArchiveRestrictionGroup()
+  nameWithType: NSArchiveRestrictionGroup.#ctor
+  fullName: CRMScript.NetServer.NSArchiveRestrictionGroup.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSArchiveRestrictionGroup class.\n"
+  remarks: 
+  syntax: 
+    content: NSArchiveRestrictionGroup
+  example: 
+- uid: CRMScript.NetServer.NSArchiveRestrictionGroup.GetDescription()
+  commentId: M:CRMScript.NetServer.NSArchiveRestrictionGroup.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSArchiveRestrictionGroup.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSArchiveRestrictionGroup.GetDescription()
+  fullName: CRMScript.NetServer.NSArchiveRestrictionGroup.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Description of group."
+  example: 
+  - "\n<pre><code>NSArchiveRestrictionGroup thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveRestrictionGroup.GetName()
+  commentId: M:CRMScript.NetServer.NSArchiveRestrictionGroup.GetName()
+  id: 'GetName()'
+  so.intellisense: NSArchiveRestrictionGroup.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSArchiveRestrictionGroup.GetName()
+  fullName: CRMScript.NetServer.NSArchiveRestrictionGroup.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of this criteria group."
+  example: 
+  - "\n<pre><code>NSArchiveRestrictionGroup thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveRestrictionGroup.GetRank()
+  commentId: M:CRMScript.NetServer.NSArchiveRestrictionGroup.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSArchiveRestrictionGroup.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSArchiveRestrictionGroup.GetRank()
+  fullName: CRMScript.NetServer.NSArchiveRestrictionGroup.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Rank order within this CriteriaModel."
+  example: 
+  - "\n<pre><code>NSArchiveRestrictionGroup thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveRestrictionGroup.GetRestrictions()
+  commentId: M:CRMScript.NetServer.NSArchiveRestrictionGroup.GetRestrictions()
+  id: 'GetRestrictions()'
+  so.intellisense: NSArchiveRestrictionGroup.GetRestrictions
+  langs:
+  - crmscript
+  name: 'GetRestrictions()'
+  nameWithType: NSArchiveRestrictionGroup.GetRestrictions()
+  fullName: CRMScript.NetServer.NSArchiveRestrictionGroup.GetRestrictions()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSArchiveRestrictionInfo[] GetRestrictions()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSArchiveRestrictionInfo[]
+      description: "Array of NSArchiveRestrictionInfo restriction specifications."
+  example: 
+  - "\n<pre><code>NSArchiveRestrictionGroup thing;\nNSArchiveRestrictionInfo[] restrictions = thing.GetRestrictions();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveRestrictionGroup.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSArchiveRestrictionGroup.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSArchiveRestrictionGroup.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSArchiveRestrictionGroup.SetDescription(String)
+  fullName: CRMScript.NetServer.NSArchiveRestrictionGroup.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "Description of group."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveRestrictionGroup thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveRestrictionGroup.SetName(String)
+  commentId: M:CRMScript.NetServer.NSArchiveRestrictionGroup.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSArchiveRestrictionGroup.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSArchiveRestrictionGroup.SetName(String)
+  fullName: CRMScript.NetServer.NSArchiveRestrictionGroup.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of this criteria group."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveRestrictionGroup thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveRestrictionGroup.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSArchiveRestrictionGroup.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSArchiveRestrictionGroup.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSArchiveRestrictionGroup.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSArchiveRestrictionGroup.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "Rank order within this CriteriaModel."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveRestrictionGroup thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveRestrictionGroup.SetRestrictions(NSArchiveRestrictionInfo[])
+  commentId: M:CRMScript.NetServer.NSArchiveRestrictionGroup.SetRestrictions(NSArchiveRestrictionInfo[])
+  id: 'SetRestrictions(NSArchiveRestrictionInfo[])'
+  so.intellisense: NSArchiveRestrictionGroup.SetRestrictions
+  langs:
+  - crmscript
+  name: 'SetRestrictions(NSArchiveRestrictionInfo[])'
+  nameWithType: NSArchiveRestrictionGroup.SetRestrictions(NSArchiveRestrictionInfo[])
+  fullName: CRMScript.NetServer.NSArchiveRestrictionGroup.SetRestrictions(NSArchiveRestrictionInfo[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRestrictions(NSArchiveRestrictionInfo[] restrictions)
+    parameters:
+    - id: restrictions
+      type: CRMScript.NetServer.NSArchiveRestrictionInfo[]
+      description: "Array of NSArchiveRestrictionInfo restriction specifications."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveRestrictionGroup thing;\nNSArchiveRestrictionInfo[] restrictions;\nthing.SetRestrictions(restrictions);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSArchiveRestrictionGroup
+  commentId: T:CRMScript.NetServer.NSArchiveRestrictionGroup
+  isExternal: true
+  name: NSArchiveRestrictionGroup
+  nameWithType: NSArchiveRestrictionGroup
+  fullName: CRMScript.NetServer.NSArchiveRestrictionGroup
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSArchiveRestrictionInfo[]
+  isExternal: true
+  name: NSArchiveRestrictionInfo[]
+  nameWithType: NSArchiveRestrictionInfo[]
+  fullName: CRMScript.NetServer.NSArchiveRestrictionInfo[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSArchiveRestrictionInfo
+    isExternal: true
+    name: NSArchiveRestrictionInfo
+    nameWithType: NSArchiveRestrictionInfo
+    fullName: CRMScript.NetServer.NSArchiveRestrictionInfo
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSArchiveRestrictionInfo
+  commentId: T:CRMScript.NetServer.NSArchiveRestrictionInfo
+  isExternal: true
+  name: NSArchiveRestrictionInfo
+  nameWithType: NSArchiveRestrictionInfo
+  fullName: CRMScript.NetServer.NSArchiveRestrictionInfo
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

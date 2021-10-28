@@ -1,0 +1,237 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSQuoteVersionStatusInformation
+  commentId: T:CRMScript.NetServer.NSQuoteVersionStatusInformation
+  id: NSQuoteVersionStatusInformation
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSQuoteVersionStatusInformation.#ctor
+  - CRMScript.NetServer.NSQuoteVersionStatusInformation.GetDisplayMessage()
+  - CRMScript.NetServer.NSQuoteVersionStatusInformation.GetDisplayTooltip()
+  - CRMScript.NetServer.NSQuoteVersionStatusInformation.GetIconHint()
+  - CRMScript.NetServer.NSQuoteVersionStatusInformation.GetStatus()
+  - CRMScript.NetServer.NSQuoteVersionStatusInformation.SetDisplayMessage(String)
+  - CRMScript.NetServer.NSQuoteVersionStatusInformation.SetDisplayTooltip(String)
+  - CRMScript.NetServer.NSQuoteVersionStatusInformation.SetIconHint(String)
+  - CRMScript.NetServer.NSQuoteVersionStatusInformation.SetStatus(Integer)
+  name: NSQuoteVersionStatusInformation
+  nameWithType: NSQuoteVersionStatusInformation
+  fullName: CRMScript.NetServer.NSQuoteVersionStatusInformation
+  type: Class
+  summary: "\nInformation about possible button actions for the quote version dialog.\n"
+  example: 
+- uid: CRMScript.NetServer.NSQuoteVersionStatusInformation.#ctor
+  commentId: M:CRMScript.NetServer.NSQuoteVersionStatusInformation.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSQuoteVersionStatusInformation
+  langs:
+  - crmscript
+  name: NSQuoteVersionStatusInformation()
+  nameWithType: NSQuoteVersionStatusInformation.#ctor
+  fullName: CRMScript.NetServer.NSQuoteVersionStatusInformation.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSQuoteVersionStatusInformation class.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteVersionStatusInformation
+  example: 
+- uid: CRMScript.NetServer.NSQuoteVersionStatusInformation.GetDisplayMessage()
+  commentId: M:CRMScript.NetServer.NSQuoteVersionStatusInformation.GetDisplayMessage()
+  id: 'GetDisplayMessage()'
+  so.intellisense: NSQuoteVersionStatusInformation.GetDisplayMessage
+  langs:
+  - crmscript
+  name: 'GetDisplayMessage()'
+  nameWithType: NSQuoteVersionStatusInformation.GetDisplayMessage()
+  fullName: CRMScript.NetServer.NSQuoteVersionStatusInformation.GetDisplayMessage()
+  type: Method
+  summary: "\nChecks for errors on quote lines, alternatives and the version itself.\n"
+  remarks: 
+  syntax: 
+    content: String GetDisplayMessage()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Generated error message for the Quote Version."
+  example: 
+  - "\n<pre><code>NSQuoteVersionStatusInformation thing;\nString displayMessage = thing.GetDisplayMessage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionStatusInformation.GetDisplayTooltip()
+  commentId: M:CRMScript.NetServer.NSQuoteVersionStatusInformation.GetDisplayTooltip()
+  id: 'GetDisplayTooltip()'
+  so.intellisense: NSQuoteVersionStatusInformation.GetDisplayTooltip
+  langs:
+  - crmscript
+  name: 'GetDisplayTooltip()'
+  nameWithType: NSQuoteVersionStatusInformation.GetDisplayTooltip()
+  fullName: CRMScript.NetServer.NSQuoteVersionStatusInformation.GetDisplayTooltip()
+  type: Method
+  summary: "\nChecks for errors on quote lines, alternatives and the version itself.\n"
+  remarks: 
+  syntax: 
+    content: String GetDisplayTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Generated full tooltip for the Quote Version."
+  example: 
+  - "\n<pre><code>NSQuoteVersionStatusInformation thing;\nString displayTooltip = thing.GetDisplayTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionStatusInformation.GetIconHint()
+  commentId: M:CRMScript.NetServer.NSQuoteVersionStatusInformation.GetIconHint()
+  id: 'GetIconHint()'
+  so.intellisense: NSQuoteVersionStatusInformation.GetIconHint
+  langs:
+  - crmscript
+  name: 'GetIconHint()'
+  nameWithType: NSQuoteVersionStatusInformation.GetIconHint()
+  fullName: CRMScript.NetServer.NSQuoteVersionStatusInformation.GetIconHint()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetIconHint()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Icon hint for the associated message."
+  example: 
+  - "\n<pre><code>NSQuoteVersionStatusInformation thing;\nString iconHint = thing.GetIconHint();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionStatusInformation.GetStatus()
+  commentId: M:CRMScript.NetServer.NSQuoteVersionStatusInformation.GetStatus()
+  id: 'GetStatus()'
+  so.intellisense: NSQuoteVersionStatusInformation.GetStatus
+  langs:
+  - crmscript
+  name: 'GetStatus()'
+  nameWithType: NSQuoteVersionStatusInformation.GetStatus()
+  fullName: CRMScript.NetServer.NSQuoteVersionStatusInformation.GetStatus()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetStatus()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Status information for the quote version. See <xref href=\"CRMScript.NetServer.QuoteStatus\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSQuoteVersionStatusInformation thing;\nInteger status = thing.GetStatus();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionStatusInformation.SetDisplayMessage(String)
+  commentId: M:CRMScript.NetServer.NSQuoteVersionStatusInformation.SetDisplayMessage(String)
+  id: 'SetDisplayMessage(String)'
+  so.intellisense: NSQuoteVersionStatusInformation.SetDisplayMessage
+  langs:
+  - crmscript
+  name: 'SetDisplayMessage(String)'
+  nameWithType: NSQuoteVersionStatusInformation.SetDisplayMessage(String)
+  fullName: CRMScript.NetServer.NSQuoteVersionStatusInformation.SetDisplayMessage(String)
+  type: Method
+  summary: "\nChecks for errors on quote lines, alternatives and the version itself.\n"
+  remarks: 
+  syntax: 
+    content: Void SetDisplayMessage(String displayMessage)
+    parameters:
+    - id: displayMessage
+      type: CRMScript.Global.String
+      description: "Generated error message for the Quote Version."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersionStatusInformation thing;\nString displayMessage;\nthing.SetDisplayMessage(displayMessage);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionStatusInformation.SetDisplayTooltip(String)
+  commentId: M:CRMScript.NetServer.NSQuoteVersionStatusInformation.SetDisplayTooltip(String)
+  id: 'SetDisplayTooltip(String)'
+  so.intellisense: NSQuoteVersionStatusInformation.SetDisplayTooltip
+  langs:
+  - crmscript
+  name: 'SetDisplayTooltip(String)'
+  nameWithType: NSQuoteVersionStatusInformation.SetDisplayTooltip(String)
+  fullName: CRMScript.NetServer.NSQuoteVersionStatusInformation.SetDisplayTooltip(String)
+  type: Method
+  summary: "\nChecks for errors on quote lines, alternatives and the version itself.\n"
+  remarks: 
+  syntax: 
+    content: Void SetDisplayTooltip(String displayTooltip)
+    parameters:
+    - id: displayTooltip
+      type: CRMScript.Global.String
+      description: "Generated full tooltip for the Quote Version."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersionStatusInformation thing;\nString displayTooltip;\nthing.SetDisplayTooltip(displayTooltip);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionStatusInformation.SetIconHint(String)
+  commentId: M:CRMScript.NetServer.NSQuoteVersionStatusInformation.SetIconHint(String)
+  id: 'SetIconHint(String)'
+  so.intellisense: NSQuoteVersionStatusInformation.SetIconHint
+  langs:
+  - crmscript
+  name: 'SetIconHint(String)'
+  nameWithType: NSQuoteVersionStatusInformation.SetIconHint(String)
+  fullName: CRMScript.NetServer.NSQuoteVersionStatusInformation.SetIconHint(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIconHint(String iconHint)
+    parameters:
+    - id: iconHint
+      type: CRMScript.Global.String
+      description: "Icon hint for the associated message."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersionStatusInformation thing;\nString iconHint;\nthing.SetIconHint(iconHint);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionStatusInformation.SetStatus(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteVersionStatusInformation.SetStatus(Integer)
+  id: 'SetStatus(Integer)'
+  so.intellisense: NSQuoteVersionStatusInformation.SetStatus
+  langs:
+  - crmscript
+  name: 'SetStatus(Integer)'
+  nameWithType: NSQuoteVersionStatusInformation.SetStatus(Integer)
+  fullName: CRMScript.NetServer.NSQuoteVersionStatusInformation.SetStatus(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetStatus(Integer status)
+    parameters:
+    - id: status
+      type: CRMScript.Global.Integer
+      description: "Status information for the quote version. See <xref href=\"CRMScript.NetServer.QuoteStatus\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersionStatusInformation thing;\nInteger status;\nthing.SetStatus(status);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSQuoteVersionStatusInformation
+  commentId: T:CRMScript.NetServer.NSQuoteVersionStatusInformation
+  isExternal: true
+  name: NSQuoteVersionStatusInformation
+  nameWithType: NSQuoteVersionStatusInformation
+  fullName: CRMScript.NetServer.NSQuoteVersionStatusInformation
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.QuoteStatus
+  commentId: T:CRMScript.NetServer.QuoteStatus
+  isExternal: true
+  name: QuoteStatus
+  nameWithType: QuoteStatus
+  fullName: CRMScript.NetServer.QuoteStatus

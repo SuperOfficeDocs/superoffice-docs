@@ -1,0 +1,441 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSSatellite
+  commentId: T:CRMScript.NetServer.NSSatellite
+  id: NSSatellite
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSSatellite.#ctor
+  - CRMScript.NetServer.NSSatellite.GetArea()
+  - CRMScript.NetServer.NSSatellite.GetContact()
+  - CRMScript.NetServer.NSSatellite.GetCreated()
+  - CRMScript.NetServer.NSSatellite.GetCreatedBy()
+  - CRMScript.NetServer.NSSatellite.GetLicenseOwners()
+  - CRMScript.NetServer.NSSatellite.GetSatelliteId()
+  - CRMScript.NetServer.NSSatellite.GetUpdated()
+  - CRMScript.NetServer.NSSatellite.GetUpdatedBy()
+  - CRMScript.NetServer.NSSatellite.SetArea(NSArea)
+  - CRMScript.NetServer.NSSatellite.SetContact(NSContact)
+  - CRMScript.NetServer.NSSatellite.SetCreated(DateTime)
+  - CRMScript.NetServer.NSSatellite.SetCreatedBy(NSAssociate)
+  - CRMScript.NetServer.NSSatellite.SetLicenseOwners(NSLicenseOwner[])
+  - CRMScript.NetServer.NSSatellite.SetSatelliteId(Integer)
+  - CRMScript.NetServer.NSSatellite.SetUpdated(DateTime)
+  - CRMScript.NetServer.NSSatellite.SetUpdatedBy(NSAssociate)
+  name: NSSatellite
+  nameWithType: NSSatellite
+  fullName: CRMScript.NetServer.NSSatellite
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSSatellite.#ctor
+  commentId: M:CRMScript.NetServer.NSSatellite.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSSatellite
+  langs:
+  - crmscript
+  name: NSSatellite()
+  nameWithType: NSSatellite.#ctor
+  fullName: CRMScript.NetServer.NSSatellite.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSSatellite class.\n"
+  remarks: 
+  syntax: 
+    content: NSSatellite
+  example: 
+- uid: CRMScript.NetServer.NSSatellite.GetArea()
+  commentId: M:CRMScript.NetServer.NSSatellite.GetArea()
+  id: 'GetArea()'
+  so.intellisense: NSSatellite.GetArea
+  langs:
+  - crmscript
+  name: 'GetArea()'
+  nameWithType: NSSatellite.GetArea()
+  fullName: CRMScript.NetServer.NSSatellite.GetArea()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSArea GetArea()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSArea
+  example: 
+  - "\n<pre><code>NSSatellite thing;\nNSArea area = thing.GetArea();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSatellite.GetContact()
+  commentId: M:CRMScript.NetServer.NSSatellite.GetContact()
+  id: 'GetContact()'
+  so.intellisense: NSSatellite.GetContact
+  langs:
+  - crmscript
+  name: 'GetContact()'
+  nameWithType: NSSatellite.GetContact()
+  fullName: CRMScript.NetServer.NSSatellite.GetContact()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSContact GetContact()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSContact
+  example: 
+  - "\n<pre><code>NSSatellite thing;\nNSContact contact = thing.GetContact();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSatellite.GetCreated()
+  commentId: M:CRMScript.NetServer.NSSatellite.GetCreated()
+  id: 'GetCreated()'
+  so.intellisense: NSSatellite.GetCreated
+  langs:
+  - crmscript
+  name: 'GetCreated()'
+  nameWithType: NSSatellite.GetCreated()
+  fullName: CRMScript.NetServer.NSSatellite.GetCreated()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetCreated()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+  example: 
+  - "\n<pre><code>NSSatellite thing;\nDateTime created = thing.GetCreated();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSatellite.GetCreatedBy()
+  commentId: M:CRMScript.NetServer.NSSatellite.GetCreatedBy()
+  id: 'GetCreatedBy()'
+  so.intellisense: NSSatellite.GetCreatedBy
+  langs:
+  - crmscript
+  name: 'GetCreatedBy()'
+  nameWithType: NSSatellite.GetCreatedBy()
+  fullName: CRMScript.NetServer.NSSatellite.GetCreatedBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetCreatedBy()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+  example: 
+  - "\n<pre><code>NSSatellite thing;\nNSAssociate createdBy = thing.GetCreatedBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSatellite.GetLicenseOwners()
+  commentId: M:CRMScript.NetServer.NSSatellite.GetLicenseOwners()
+  id: 'GetLicenseOwners()'
+  so.intellisense: NSSatellite.GetLicenseOwners
+  langs:
+  - crmscript
+  name: 'GetLicenseOwners()'
+  nameWithType: NSSatellite.GetLicenseOwners()
+  fullName: CRMScript.NetServer.NSSatellite.GetLicenseOwners()
+  type: Method
+  summary: # TODO
+  remarks: "\nThese module licenses are either assigned or unassigned to this user\n"
+  syntax: 
+    content: NSLicenseOwner[] GetLicenseOwners()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSLicenseOwner[]
+      description: "The restricted and unrestricted module licenses grouped by license owner."
+  example: 
+  - "\n<pre><code>NSSatellite thing;\nNSLicenseOwner[] licenseOwners = thing.GetLicenseOwners();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSatellite.GetSatelliteId()
+  commentId: M:CRMScript.NetServer.NSSatellite.GetSatelliteId()
+  id: 'GetSatelliteId()'
+  so.intellisense: NSSatellite.GetSatelliteId
+  langs:
+  - crmscript
+  name: 'GetSatelliteId()'
+  nameWithType: NSSatellite.GetSatelliteId()
+  fullName: CRMScript.NetServer.NSSatellite.GetSatelliteId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSatelliteId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSSatellite thing;\nInteger satelliteId = thing.GetSatelliteId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSatellite.GetUpdated()
+  commentId: M:CRMScript.NetServer.NSSatellite.GetUpdated()
+  id: 'GetUpdated()'
+  so.intellisense: NSSatellite.GetUpdated
+  langs:
+  - crmscript
+  name: 'GetUpdated()'
+  nameWithType: NSSatellite.GetUpdated()
+  fullName: CRMScript.NetServer.NSSatellite.GetUpdated()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetUpdated()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+  example: 
+  - "\n<pre><code>NSSatellite thing;\nDateTime updated = thing.GetUpdated();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSatellite.GetUpdatedBy()
+  commentId: M:CRMScript.NetServer.NSSatellite.GetUpdatedBy()
+  id: 'GetUpdatedBy()'
+  so.intellisense: NSSatellite.GetUpdatedBy
+  langs:
+  - crmscript
+  name: 'GetUpdatedBy()'
+  nameWithType: NSSatellite.GetUpdatedBy()
+  fullName: CRMScript.NetServer.NSSatellite.GetUpdatedBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetUpdatedBy()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+  example: 
+  - "\n<pre><code>NSSatellite thing;\nNSAssociate updatedBy = thing.GetUpdatedBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSatellite.SetArea(NSArea)
+  commentId: M:CRMScript.NetServer.NSSatellite.SetArea(NSArea)
+  id: 'SetArea(NSArea)'
+  so.intellisense: NSSatellite.SetArea
+  langs:
+  - crmscript
+  name: 'SetArea(NSArea)'
+  nameWithType: NSSatellite.SetArea(NSArea)
+  fullName: CRMScript.NetServer.NSSatellite.SetArea(NSArea)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetArea(NSArea area)
+    parameters:
+    - id: area
+      type: CRMScript.NetServer.NSArea
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSatellite thing;\nNSArea area;\nthing.SetArea(area);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSatellite.SetContact(NSContact)
+  commentId: M:CRMScript.NetServer.NSSatellite.SetContact(NSContact)
+  id: 'SetContact(NSContact)'
+  so.intellisense: NSSatellite.SetContact
+  langs:
+  - crmscript
+  name: 'SetContact(NSContact)'
+  nameWithType: NSSatellite.SetContact(NSContact)
+  fullName: CRMScript.NetServer.NSSatellite.SetContact(NSContact)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContact(NSContact contact)
+    parameters:
+    - id: contact
+      type: CRMScript.NetServer.NSContact
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSatellite thing;\nNSContact contact;\nthing.SetContact(contact);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSatellite.SetCreated(DateTime)
+  commentId: M:CRMScript.NetServer.NSSatellite.SetCreated(DateTime)
+  id: 'SetCreated(DateTime)'
+  so.intellisense: NSSatellite.SetCreated
+  langs:
+  - crmscript
+  name: 'SetCreated(DateTime)'
+  nameWithType: NSSatellite.SetCreated(DateTime)
+  fullName: CRMScript.NetServer.NSSatellite.SetCreated(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCreated(DateTime created)
+    parameters:
+    - id: created
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSatellite thing;\nDateTime created;\nthing.SetCreated(created);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSatellite.SetCreatedBy(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSSatellite.SetCreatedBy(NSAssociate)
+  id: 'SetCreatedBy(NSAssociate)'
+  so.intellisense: NSSatellite.SetCreatedBy
+  langs:
+  - crmscript
+  name: 'SetCreatedBy(NSAssociate)'
+  nameWithType: NSSatellite.SetCreatedBy(NSAssociate)
+  fullName: CRMScript.NetServer.NSSatellite.SetCreatedBy(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCreatedBy(NSAssociate createdBy)
+    parameters:
+    - id: createdBy
+      type:  CRMScript.NetServer.NSAssociate
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSatellite thing;\nNSAssociate createdBy;\nthing.SetCreatedBy(createdBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSatellite.SetLicenseOwners(NSLicenseOwner[])
+  commentId: M:CRMScript.NetServer.NSSatellite.SetLicenseOwners(NSLicenseOwner[])
+  id: 'SetLicenseOwners(NSLicenseOwner[])'
+  so.intellisense: NSSatellite.SetLicenseOwners
+  langs:
+  - crmscript
+  name: 'SetLicenseOwners(NSLicenseOwner[])'
+  nameWithType: NSSatellite.SetLicenseOwners(NSLicenseOwner[])
+  fullName: CRMScript.NetServer.NSSatellite.SetLicenseOwners(NSLicenseOwner[])
+  type: Method
+  summary: # TODO
+  remarks: "\nThese module licenses are either assigned or unassigned to this user\n"
+  syntax: 
+    content: Void SetLicenseOwners(NSLicenseOwner[] licenseOwners)
+    parameters:
+    - id: licenseOwners
+      type: CRMScript.NetServer.NSLicenseOwner[]
+      description: "The restricted and unrestricted module licenses grouped by license owner."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSatellite thing;\nNSLicenseOwner[] licenseOwners;\nthing.SetLicenseOwners(licenseOwners);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSatellite.SetSatelliteId(Integer)
+  commentId: M:CRMScript.NetServer.NSSatellite.SetSatelliteId(Integer)
+  id: 'SetSatelliteId(Integer)'
+  so.intellisense: NSSatellite.SetSatelliteId
+  langs:
+  - crmscript
+  name: 'SetSatelliteId(Integer)'
+  nameWithType: NSSatellite.SetSatelliteId(Integer)
+  fullName: CRMScript.NetServer.NSSatellite.SetSatelliteId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSatelliteId(Integer satelliteId)
+    parameters:
+    - id: satelliteId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSatellite thing;\nInteger satelliteId;\nthing.SetSatelliteId(satelliteId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSatellite.SetUpdated(DateTime)
+  commentId: M:CRMScript.NetServer.NSSatellite.SetUpdated(DateTime)
+  id: 'SetUpdated(DateTime)'
+  so.intellisense: NSSatellite.SetUpdated
+  langs:
+  - crmscript
+  name: 'SetUpdated(DateTime)'
+  nameWithType: NSSatellite.SetUpdated(DateTime)
+  fullName: CRMScript.NetServer.NSSatellite.SetUpdated(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdated(DateTime updated)
+    parameters:
+    - id: updated
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSatellite thing;\nDateTime updated;\nthing.SetUpdated(updated);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSatellite.SetUpdatedBy(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSSatellite.SetUpdatedBy(NSAssociate)
+  id: 'SetUpdatedBy(NSAssociate)'
+  so.intellisense: NSSatellite.SetUpdatedBy
+  langs:
+  - crmscript
+  name: 'SetUpdatedBy(NSAssociate)'
+  nameWithType: NSSatellite.SetUpdatedBy(NSAssociate)
+  fullName: CRMScript.NetServer.NSSatellite.SetUpdatedBy(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedBy(NSAssociate updatedBy)
+    parameters:
+    - id: updatedBy
+      type: CRMScript.NetServer.NSAssociate
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSatellite thing;\nNSAssociate updatedBy;\nthing.SetUpdatedBy(updatedBy);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSSatellite
+  commentId: T:CRMScript.NetServer.NSSatellite
+  isExternal: true
+  name: NSSatellite
+  nameWithType: NSSatellite
+  fullName: CRMScript.NetServer.NSSatellite
+- uid: CRMScript.NetServer.NSArea
+  commentId: T:CRMScript.NetServer.NSArea
+  isExternal: true
+  name: NSArea
+  nameWithType: NSArea
+  fullName: CRMScript.NetServer.NSArea
+- uid: CRMScript.NetServer.NSContact
+  commentId: T:CRMScript.NetServer.NSContact
+  isExternal: true
+  name: NSContact
+  nameWithType: NSContact
+  fullName: CRMScript.NetServer.NSContact
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.NetServer.NSAssociate
+  commentId: T:CRMScript.NetServer.NSAssociate
+  isExternal: true
+  name: NSAssociate
+  nameWithType: NSAssociate
+  fullName: CRMScript.NetServer.NSAssociate
+- uid: CRMScript.NetServer.NSLicenseOwner[]
+  isExternal: true
+  name: NSLicenseOwner[]
+  nameWithType: NSLicenseOwner[]
+  fullName: CRMScript.NetServer.NSLicenseOwner[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSLicenseOwner
+    isExternal: true
+    name: NSLicenseOwner
+    nameWithType: NSLicenseOwner
+    fullName: CRMScript.NetServer.NSLicenseOwner
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSLicenseOwner
+  commentId: T:CRMScript.NetServer.NSLicenseOwner
+  isExternal: true
+  name: NSLicenseOwner
+  nameWithType: NSLicenseOwner
+  fullName: CRMScript.NetServer.NSLicenseOwner
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

@@ -1,0 +1,1197 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity
+  commentId: T:CRMScript.NetServer.NSDocumentTemplateEntity
+  id: NSDocumentTemplateEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSDocumentTemplateEntity.#ctor
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetAutoeventId()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetDefaultOref()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetDeleted()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetDirection()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetDocumentTemplateId()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetDocumentTypeKey()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetEmailSubject()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetFilename()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetIncludeSignature()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetIntentId()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetInvitationDocType()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetIsDefaultPublished()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetIsInUseInGuides()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetLoadTemplateFromPlugin()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetMimeType()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetName()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetPrivacyDocType()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetQuoteDocType()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetRank()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetRecordType()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetSaveInDb()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetSenderEmailAddress()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetSenderEmailMode()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetShowCurrents()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.GetTooltip()
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetAutoeventId(Integer)
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetDefaultOref(String)
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetDeleted(Bool)
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetDirection(Integer)
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetDocumentTemplateId(Integer)
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetDocumentTypeKey(Integer)
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetEmailSubject(String)
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetFilename(String)
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetIncludeSignature(Bool)
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetIntentId(Integer)
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetInvitationDocType(Integer)
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetIsDefaultPublished(Bool)
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetIsInUseInGuides(Bool)
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetLoadTemplateFromPlugin(Integer)
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetMimeType(String)
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetName(String)
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetPrivacyDocType(Integer)
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetQuoteDocType(Integer)
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetRank(Integer)
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetRecordType(NSDocTmplType)
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetSaveInDb(Integer)
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetSenderEmailAddress(String)
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetSenderEmailMode(Integer)
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetShowCurrents(Bool)
+  - CRMScript.NetServer.NSDocumentTemplateEntity.SetTooltip(String)
+  name: NSDocumentTemplateEntity
+  nameWithType: NSDocumentTemplateEntity
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity
+  type: Class
+  summary: "\nThe template a document is based on is stored in the SO\_arc\\template folder on the server. This will return the name as displayed in the GUI, and not the physical document name, of the template the document object is based on.\n"
+  example: 
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSDocumentTemplateEntity
+  langs:
+  - crmscript
+  name: NSDocumentTemplateEntity()
+  nameWithType: NSDocumentTemplateEntity.#ctor
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSDocumentTemplateEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSDocumentTemplateEntity
+  example: 
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetAutoeventId()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetAutoeventId()
+  id: 'GetAutoeventId()'
+  so.intellisense: NSDocumentTemplateEntity.GetAutoeventId
+  langs:
+  - crmscript
+  name: 'GetAutoeventId()'
+  nameWithType: NSDocumentTemplateEntity.GetAutoeventId()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetAutoeventId()
+  type: Method
+  summary: "\nWhich document plugin is responsible for the documents generated from this template\n"
+  remarks: 
+  syntax: 
+    content: Integer GetAutoeventId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nInteger autoeventId = thing.GetAutoeventId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetDefaultOref()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetDefaultOref()
+  id: 'GetDefaultOref()'
+  so.intellisense: NSDocumentTemplateEntity.GetDefaultOref
+  langs:
+  - crmscript
+  name: 'GetDefaultOref()'
+  nameWithType: NSDocumentTemplateEntity.GetDefaultOref()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetDefaultOref()
+  type: Method
+  summary: "\nProcessed via tag substitution to give document reference\n"
+  remarks: 
+  syntax: 
+    content: String GetDefaultOref()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nString defaultOref = thing.GetDefaultOref();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetDeleted()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetDeleted()
+  id: 'GetDeleted()'
+  so.intellisense: NSDocumentTemplateEntity.GetDeleted
+  langs:
+  - crmscript
+  name: 'GetDeleted()'
+  nameWithType: NSDocumentTemplateEntity.GetDeleted()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetDeleted()
+  type: Method
+  summary: "\nTrue if deleted\n"
+  remarks: 
+  syntax: 
+    content: Bool GetDeleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nBool deleted = thing.GetDeleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetDirection()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetDirection()
+  id: 'GetDirection()'
+  so.intellisense: NSDocumentTemplateEntity.GetDirection
+  langs:
+  - crmscript
+  name: 'GetDirection()'
+  nameWithType: NSDocumentTemplateEntity.GetDirection()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetDirection()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDirection()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "1 = incoming, 2 = outgoing. See <xref href=\"CRMScript.NetServer.TaskDirection\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nInteger direction = thing.GetDirection();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetDocumentTemplateId()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetDocumentTemplateId()
+  id: 'GetDocumentTemplateId()'
+  so.intellisense: NSDocumentTemplateEntity.GetDocumentTemplateId
+  langs:
+  - crmscript
+  name: 'GetDocumentTemplateId()'
+  nameWithType: NSDocumentTemplateEntity.GetDocumentTemplateId()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetDocumentTemplateId()
+  type: Method
+  summary: "\nPrimary key\n"
+  remarks: 
+  syntax: 
+    content: Integer GetDocumentTemplateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nInteger documentTemplateId = thing.GetDocumentTemplateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetDocumentTypeKey()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetDocumentTypeKey()
+  id: 'GetDocumentTypeKey()'
+  so.intellisense: NSDocumentTemplateEntity.GetDocumentTypeKey
+  langs:
+  - crmscript
+  name: 'GetDocumentTypeKey()'
+  nameWithType: NSDocumentTemplateEntity.GetDocumentTypeKey()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetDocumentTypeKey()
+  type: Method
+  summary: "\nThe document type to use when creating a blank document. Plugin-specific. Used when not creating template from a local file.\n"
+  remarks: 
+  syntax: 
+    content: Integer GetDocumentTypeKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nInteger documentTypeKey = thing.GetDocumentTypeKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetEmailSubject()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetEmailSubject()
+  id: 'GetEmailSubject()'
+  so.intellisense: NSDocumentTemplateEntity.GetEmailSubject
+  langs:
+  - crmscript
+  name: 'GetEmailSubject()'
+  nameWithType: NSDocumentTemplateEntity.GetEmailSubject()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetEmailSubject()
+  type: Method
+  summary: "\nSubject to use if document template is an email.\n"
+  remarks: 
+  syntax: 
+    content: String GetEmailSubject()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nString emailSubject = thing.GetEmailSubject();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetFilename()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetFilename()
+  id: 'GetFilename()'
+  so.intellisense: NSDocumentTemplateEntity.GetFilename
+  langs:
+  - crmscript
+  name: 'GetFilename()'
+  nameWithType: NSDocumentTemplateEntity.GetFilename()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetFilename()
+  type: Method
+  summary: "\nRelative to TemplatePath, or extref for other document plugins. i.e URL or full path.\n"
+  remarks: 
+  syntax: 
+    content: String GetFilename()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nString filename = thing.GetFilename();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetIncludeSignature()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetIncludeSignature()
+  id: 'GetIncludeSignature()'
+  so.intellisense: NSDocumentTemplateEntity.GetIncludeSignature
+  langs:
+  - crmscript
+  name: 'GetIncludeSignature()'
+  nameWithType: NSDocumentTemplateEntity.GetIncludeSignature()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetIncludeSignature()
+  type: Method
+  summary: "\nTrue if the email signature should be added in bottom of mail if this an email template\n"
+  remarks: 
+  syntax: 
+    content: Bool GetIncludeSignature()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nBool includeSignature = thing.GetIncludeSignature();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetIntentId()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetIntentId()
+  id: 'GetIntentId()'
+  so.intellisense: NSDocumentTemplateEntity.GetIntentId
+  langs:
+  - crmscript
+  name: 'GetIntentId()'
+  nameWithType: NSDocumentTemplateEntity.GetIntentId()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetIntentId()
+  type: Method
+  summary: "\nWhat is the intention of this document (used by SAINT)\n"
+  remarks: 
+  syntax: 
+    content: Integer GetIntentId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nInteger intentId = thing.GetIntentId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetInvitationDocType()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetInvitationDocType()
+  id: 'GetInvitationDocType()'
+  so.intellisense: NSDocumentTemplateEntity.GetInvitationDocType
+  langs:
+  - crmscript
+  name: 'GetInvitationDocType()'
+  nameWithType: NSDocumentTemplateEntity.GetInvitationDocType()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetInvitationDocType()
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Integer GetInvitationDocType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Type for sending email meeting invitation. See <xref href=\"CRMScript.NetServer.DocTmplInvitationType\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nInteger invitationDocType = thing.GetInvitationDocType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetIsDefaultPublished()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetIsDefaultPublished()
+  id: 'GetIsDefaultPublished()'
+  so.intellisense: NSDocumentTemplateEntity.GetIsDefaultPublished
+  langs:
+  - crmscript
+  name: 'GetIsDefaultPublished()'
+  nameWithType: NSDocumentTemplateEntity.GetIsDefaultPublished()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetIsDefaultPublished()
+  type: Method
+  summary: "\n\n"
+  remarks: 
+  syntax: 
+    content: Bool GetIsDefaultPublished()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Published to external persons."
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nBool isDefaultPublished = thing.GetIsDefaultPublished();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetIsInUseInGuides()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetIsInUseInGuides()
+  id: 'GetIsInUseInGuides()'
+  so.intellisense: NSDocumentTemplateEntity.GetIsInUseInGuides
+  langs:
+  - crmscript
+  name: 'GetIsInUseInGuides()'
+  nameWithType: NSDocumentTemplateEntity.GetIsInUseInGuides()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetIsInUseInGuides()
+  type: Method
+  summary: "\nTrue if the template is in use in a project or sales guide\n"
+  remarks: 
+  syntax: 
+    content: Bool GetIsInUseInGuides()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nBool isInUseInGuides = thing.GetIsInUseInGuides();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetLoadTemplateFromPlugin()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetLoadTemplateFromPlugin()
+  id: 'GetLoadTemplateFromPlugin()'
+  so.intellisense: NSDocumentTemplateEntity.GetLoadTemplateFromPlugin
+  langs:
+  - crmscript
+  name: 'GetLoadTemplateFromPlugin()'
+  nameWithType: NSDocumentTemplateEntity.GetLoadTemplateFromPlugin()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetLoadTemplateFromPlugin()
+  type: Method
+  summary: "\nWhich document plugin is responsible for this template's contents\n"
+  remarks: 
+  syntax: 
+    content: Integer GetLoadTemplateFromPlugin()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nInteger loadTemplateFromPlugin = thing.GetLoadTemplateFromPlugin();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetMimeType()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetMimeType()
+  id: 'GetMimeType()'
+  so.intellisense: NSDocumentTemplateEntity.GetMimeType
+  langs:
+  - crmscript
+  name: 'GetMimeType()'
+  nameWithType: NSDocumentTemplateEntity.GetMimeType()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetMimeType()
+  type: Method
+  summary: "\nThe mime type\n"
+  remarks: 
+  syntax: 
+    content: String GetMimeType()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nString mimeType = thing.GetMimeType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSDocumentTemplateEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSDocumentTemplateEntity.GetName()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetName()
+  type: Method
+  summary: "\nThe template list item\n"
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetPrivacyDocType()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetPrivacyDocType()
+  id: 'GetPrivacyDocType()'
+  so.intellisense: NSDocumentTemplateEntity.GetPrivacyDocType
+  langs:
+  - crmscript
+  name: 'GetPrivacyDocType()'
+  nameWithType: NSDocumentTemplateEntity.GetPrivacyDocType()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetPrivacyDocType()
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Integer GetPrivacyDocType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Indicator that this document template has a functional role, related to privacy/GDPR. See <xref href=\"CRMScript.NetServer.DocTmplPrivacyType\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nInteger privacyDocType = thing.GetPrivacyDocType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetQuoteDocType()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetQuoteDocType()
+  id: 'GetQuoteDocType()'
+  so.intellisense: NSDocumentTemplateEntity.GetQuoteDocType
+  langs:
+  - crmscript
+  name: 'GetQuoteDocType()'
+  nameWithType: NSDocumentTemplateEntity.GetQuoteDocType()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetQuoteDocType()
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Integer GetQuoteDocType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The role this document plays in the Quote system, if any. See <xref href=\"CRMScript.NetServer.DocTmplQuoteType\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nInteger quoteDocType = thing.GetQuoteDocType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetRank()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSDocumentTemplateEntity.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSDocumentTemplateEntity.GetRank()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetRank()
+  type: Method
+  summary: "\n\n"
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Rank order."
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetRecordType()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetRecordType()
+  id: 'GetRecordType()'
+  so.intellisense: NSDocumentTemplateEntity.GetRecordType
+  langs:
+  - crmscript
+  name: 'GetRecordType()'
+  nameWithType: NSDocumentTemplateEntity.GetRecordType()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetRecordType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSDocTmplType GetRecordType()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSDocTmplType
+      description: "1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo See <xref href=\"CRMScript.NetServer.TaskType\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nNSDocTmplType recordType = thing.GetRecordType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetSaveInDb()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetSaveInDb()
+  id: 'GetSaveInDb()'
+  so.intellisense: NSDocumentTemplateEntity.GetSaveInDb
+  langs:
+  - crmscript
+  name: 'GetSaveInDb()'
+  nameWithType: NSDocumentTemplateEntity.GetSaveInDb()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetSaveInDb()
+  type: Method
+  summary: "\n1 = save document records in DB; otherwise not.\n"
+  remarks: 
+  syntax: 
+    content: Integer GetSaveInDb()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nInteger saveInDb = thing.GetSaveInDb();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetSenderEmailAddress()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetSenderEmailAddress()
+  id: 'GetSenderEmailAddress()'
+  so.intellisense: NSDocumentTemplateEntity.GetSenderEmailAddress
+  langs:
+  - crmscript
+  name: 'GetSenderEmailAddress()'
+  nameWithType: NSDocumentTemplateEntity.GetSenderEmailAddress()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetSenderEmailAddress()
+  type: Method
+  summary: "\nIf email template, default sender address when template is of type quote email or privacy email.\n"
+  remarks: 
+  syntax: 
+    content: String GetSenderEmailAddress()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nString senderEmailAddress = thing.GetSenderEmailAddress();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetSenderEmailMode()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetSenderEmailMode()
+  id: 'GetSenderEmailMode()'
+  so.intellisense: NSDocumentTemplateEntity.GetSenderEmailMode
+  langs:
+  - crmscript
+  name: 'GetSenderEmailMode()'
+  nameWithType: NSDocumentTemplateEntity.GetSenderEmailMode()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetSenderEmailMode()
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Integer GetSenderEmailMode()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address. See <xref href=\"CRMScript.NetServer.SenderMailMode\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nInteger senderEmailMode = thing.GetSenderEmailMode();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetShowCurrents()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetShowCurrents()
+  id: 'GetShowCurrents()'
+  so.intellisense: NSDocumentTemplateEntity.GetShowCurrents
+  langs:
+  - crmscript
+  name: 'GetShowCurrents()'
+  nameWithType: NSDocumentTemplateEntity.GetShowCurrents()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetShowCurrents()
+  type: Method
+  summary: "\nTrue if when using this template there should be shown a place for editing current choices of person, compant, sale, project etc\n"
+  remarks: 
+  syntax: 
+    content: Bool GetShowCurrents()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nBool showCurrents = thing.GetShowCurrents();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSDocumentTemplateEntity.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSDocumentTemplateEntity.GetTooltip()
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.GetTooltip()
+  type: Method
+  summary: "\nTooltip or other description\n"
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nString tooltip = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetAutoeventId(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetAutoeventId(Integer)
+  id: 'SetAutoeventId(Integer)'
+  so.intellisense: NSDocumentTemplateEntity.SetAutoeventId
+  langs:
+  - crmscript
+  name: 'SetAutoeventId(Integer)'
+  nameWithType: NSDocumentTemplateEntity.SetAutoeventId(Integer)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetAutoeventId(Integer)
+  type: Method
+  summary: "\nWhich document plugin is responsible for the documents generated from this template\n"
+  remarks: 
+  syntax: 
+    content: Void SetAutoeventId(Integer autoeventId)
+    parameters:
+    - id: autoeventId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nInteger autoeventId;\nthing.SetAutoeventId(autoeventId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetDefaultOref(String)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetDefaultOref(String)
+  id: 'SetDefaultOref(String)'
+  so.intellisense: NSDocumentTemplateEntity.SetDefaultOref
+  langs:
+  - crmscript
+  name: 'SetDefaultOref(String)'
+  nameWithType: NSDocumentTemplateEntity.SetDefaultOref(String)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetDefaultOref(String)
+  type: Method
+  summary: "\nProcessed via tag substitution to give document reference\n"
+  remarks: 
+  syntax: 
+    content: Void SetDefaultOref(String defaultOref)
+    parameters:
+    - id: defaultOref
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nString defaultOref;\nthing.SetDefaultOref(defaultOref);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetDeleted(Bool)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetDeleted(Bool)
+  id: 'SetDeleted(Bool)'
+  so.intellisense: NSDocumentTemplateEntity.SetDeleted
+  langs:
+  - crmscript
+  name: 'SetDeleted(Bool)'
+  nameWithType: NSDocumentTemplateEntity.SetDeleted(Bool)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetDeleted(Bool)
+  type: Method
+  summary: "\nTrue if deleted\n"
+  remarks: 
+  syntax: 
+    content: Void SetDeleted(Bool deleted)
+    parameters:
+    - id: deleted
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nBool deleted;\nthing.SetDeleted(deleted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetDirection(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetDirection(Integer)
+  id: 'SetDirection(Integer)'
+  so.intellisense: NSDocumentTemplateEntity.SetDirection
+  langs:
+  - crmscript
+  name: 'SetDirection(Integer)'
+  nameWithType: NSDocumentTemplateEntity.SetDirection(Integer)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetDirection(Integer)
+  type: Method
+  summary: "\nSets the direction of a document template.\n"
+  remarks: 
+  syntax: 
+    content: Void SetDirection(Integer direction)
+    parameters:
+    - id: direction
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.TaskDirection\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nInteger direction;\nthing.SetDirection(direction);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetDocumentTemplateId(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetDocumentTemplateId(Integer)
+  id: 'SetDocumentTemplateId(Integer)'
+  so.intellisense: NSDocumentTemplateEntity.SetDocumentTemplateId
+  langs:
+  - crmscript
+  name: 'SetDocumentTemplateId(Integer)'
+  nameWithType: NSDocumentTemplateEntity.SetDocumentTemplateId(Integer)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetDocumentTemplateId(Integer)
+  type: Method
+  summary: "\nPrimary key\n"
+  remarks: 
+  syntax: 
+    content: Void SetDocumentTemplateId(Integer documentTemplateId)
+    parameters:
+    - id: documentTemplateId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nInteger documentTemplateId;\nthing.SetDocumentTemplateId(documentTemplateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetDocumentTypeKey(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetDocumentTypeKey(Integer)
+  id: 'SetDocumentTypeKey(Integer)'
+  so.intellisense: NSDocumentTemplateEntity.SetDocumentTypeKey
+  langs:
+  - crmscript
+  name: 'SetDocumentTypeKey(Integer)'
+  nameWithType: NSDocumentTemplateEntity.SetDocumentTypeKey(Integer)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetDocumentTypeKey(Integer)
+  type: Method
+  summary: "\nThe document type to use when creating a blank document. Plugin-specific. Used when not creating template from a local file.\n"
+  remarks: 
+  syntax: 
+    content: Void SetDocumentTypeKey(Integer documentTypeKey)
+    parameters:
+    - id: documentTypeKey
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nInteger documentTypeKey;\nthing.SetDocumentTypeKey(documentTypeKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetEmailSubject(String)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetEmailSubject(String)
+  id: 'SetEmailSubject(String)'
+  so.intellisense: NSDocumentTemplateEntity.SetEmailSubject
+  langs:
+  - crmscript
+  name: 'SetEmailSubject(String)'
+  nameWithType: NSDocumentTemplateEntity.SetEmailSubject(String)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetEmailSubject(String)
+  type: Method
+  summary: "\nSubject to use if document template is an email.\n"
+  remarks: 
+  syntax: 
+    content: Void SetEmailSubject(String emailSubject)
+    parameters:
+    - id: emailSubject
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nString emailSubject;\nthing.SetEmailSubject(emailSubject);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetFilename(String)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetFilename(String)
+  id: 'SetFilename(String)'
+  so.intellisense: NSDocumentTemplateEntity.SetFilename
+  langs:
+  - crmscript
+  name: 'SetFilename(String)'
+  nameWithType: NSDocumentTemplateEntity.SetFilename(String)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetFilename(String)
+  type: Method
+  summary: "\nRelative to TemplatePath, or extref for other document plugins. i.e URL or full path.\n"
+  remarks: 
+  syntax: 
+    content: Void SetFilename(String filename)
+    parameters:
+    - id: filename
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nString filename;\nthing.SetFilename(filename);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetIncludeSignature(Bool)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetIncludeSignature(Bool)
+  id: 'SetIncludeSignature(Bool)'
+  so.intellisense: NSDocumentTemplateEntity.SetIncludeSignature
+  langs:
+  - crmscript
+  name: 'SetIncludeSignature(Bool)'
+  nameWithType: NSDocumentTemplateEntity.SetIncludeSignature(Bool)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetIncludeSignature(Bool)
+  type: Method
+  summary: "\nTrue if the email signature should be added in bottom of mail if this an email template\n"
+  remarks: 
+  syntax: 
+    content: Void SetIncludeSignature(Bool includeSignature)
+    parameters:
+    - id: includeSignature
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nBool includeSignature;\nthing.SetIncludeSignature(includeSignature);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetIntentId(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetIntentId(Integer)
+  id: 'SetIntentId(Integer)'
+  so.intellisense: NSDocumentTemplateEntity.SetIntentId
+  langs:
+  - crmscript
+  name: 'SetIntentId(Integer)'
+  nameWithType: NSDocumentTemplateEntity.SetIntentId(Integer)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetIntentId(Integer)
+  type: Method
+  summary: "\nWhat is the intention of this document (used by SAINT)\n"
+  remarks: 
+  syntax: 
+    content: Void SetIntentId(Integer intentId)
+    parameters:
+    - id: intentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nInteger intentId;\nthing.SetIntentId(intentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetInvitationDocType(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetInvitationDocType(Integer)
+  id: 'SetInvitationDocType(Integer)'
+  so.intellisense: NSDocumentTemplateEntity.SetInvitationDocType
+  langs:
+  - crmscript
+  name: 'SetInvitationDocType(Integer)'
+  nameWithType: NSDocumentTemplateEntity.SetInvitationDocType(Integer)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetInvitationDocType(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetInvitationDocType(Integer invitationDocType)
+    parameters:
+    - id: invitationDocType
+      type: CRMScript.Global.Integer
+      description: "The role this document plays in the Quote system, if any. See <xref href=\"CRMScript.NetServer.DocTmplQuoteType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nInteger invitationDocType;\nthing.SetInvitationDocType(invitationDocType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetIsDefaultPublished(Bool)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetIsDefaultPublished(Bool)
+  id: 'SetIsDefaultPublished(Bool)'
+  so.intellisense: NSDocumentTemplateEntity.SetIsDefaultPublished
+  langs:
+  - crmscript
+  name: 'SetIsDefaultPublished(Bool)'
+  nameWithType: NSDocumentTemplateEntity.SetIsDefaultPublished(Bool)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetIsDefaultPublished(Bool)
+  type: Method
+  summary: "\nPublished to external persons\n"
+  remarks: 
+  syntax: 
+    content: Void SetIsDefaultPublished(Bool isDefaultPublished)
+    parameters:
+    - id: isDefaultPublished
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nBool isDefaultPublished;\nthing.SetIsDefaultPublished(isDefaultPublished);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetIsInUseInGuides(Bool)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetIsInUseInGuides(Bool)
+  id: 'SetIsInUseInGuides(Bool)'
+  so.intellisense: NSDocumentTemplateEntity.SetIsInUseInGuides
+  langs:
+  - crmscript
+  name: 'SetIsInUseInGuides(Bool)'
+  nameWithType: NSDocumentTemplateEntity.SetIsInUseInGuides(Bool)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetIsInUseInGuides(Bool)
+  type: Method
+  summary: "\nTrue if the template is in use in a project or sales guide\n"
+  remarks: 
+  syntax: 
+    content: Void SetIsInUseInGuides(Bool isInUseInGuides)
+    parameters:
+    - id: isInUseInGuides
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nBool isInUseInGuides;\nthing.SetIsInUseInGuides(isInUseInGuides);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetLoadTemplateFromPlugin(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetLoadTemplateFromPlugin(Integer)
+  id: 'SetLoadTemplateFromPlugin(Integer)'
+  so.intellisense: NSDocumentTemplateEntity.SetLoadTemplateFromPlugin
+  langs:
+  - crmscript
+  name: 'SetLoadTemplateFromPlugin(Integer)'
+  nameWithType: NSDocumentTemplateEntity.SetLoadTemplateFromPlugin(Integer)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetLoadTemplateFromPlugin(Integer)
+  type: Method
+  summary: "\nWhich document plugin is responsible for this template's contents\n"
+  remarks: 
+  syntax: 
+    content: Void SetLoadTemplateFromPlugin(Integer loadTemplateFromPlugin)
+    parameters:
+    - id: loadTemplateFromPlugin
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nInteger loadTemplateFromPlugin;\nthing.SetLoadTemplateFromPlugin(loadTemplateFromPlugin);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetMimeType(String)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetMimeType(String)
+  id: 'SetMimeType(String)'
+  so.intellisense: NSDocumentTemplateEntity.SetMimeType
+  langs:
+  - crmscript
+  name: 'SetMimeType(String)'
+  nameWithType: NSDocumentTemplateEntity.SetMimeType(String)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetMimeType(String)
+  type: Method
+  summary: "\nThe mime type\n"
+  remarks: 
+  syntax: 
+    content: Void SetMimeType(String mimeType)
+    parameters:
+    - id: mimeType
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nString mimeType;\nthing.SetMimeType(mimeType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSDocumentTemplateEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSDocumentTemplateEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetName(String)
+  type: Method
+  summary: "\nThe template list item\n"
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetPrivacyDocType(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetPrivacyDocType(Integer)
+  id: 'SetPrivacyDocType(Integer)'
+  so.intellisense: NSDocumentTemplateEntity.SetPrivacyDocType
+  langs:
+  - crmscript
+  name: 'SetPrivacyDocType(Integer)'
+  nameWithType: NSDocumentTemplateEntity.SetPrivacyDocType(Integer)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetPrivacyDocType(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetPrivacyDocType(Integer privacyDocType)
+    parameters:
+    - id: privacyDocType
+      type: CRMScript.Global.Integer
+      description: "Indicator that this document template has a functional role, related to privacy/GDPR. See <xref href=\"CRMScript.NetServer.DocTmplPrivacyType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nInteger privacyDocType;\nthing.SetPrivacyDocType(privacyDocType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetQuoteDocType(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetQuoteDocType(Integer)
+  id: 'SetQuoteDocType(Integer)'
+  so.intellisense: NSDocumentTemplateEntity.SetQuoteDocType
+  langs:
+  - crmscript
+  name: 'SetQuoteDocType(Integer)'
+  nameWithType: NSDocumentTemplateEntity.SetQuoteDocType(Integer)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetQuoteDocType(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetQuoteDocType(Integer quoteDocType)
+    parameters:
+    - id: quoteDocType
+      type: CRMScript.Global.Integer
+      description: "The role this document plays in the Quote system, if any. See <xref href=\"CRMScript.NetServer.DocTmplQuoteType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nInteger quoteDocType;\nthing.SetQuoteDocType(quoteDocType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSDocumentTemplateEntity.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSDocumentTemplateEntity.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetRank(Integer)
+  type: Method
+  summary: "\nRank order\n"
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetRecordType(NSDocTmplType)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetRecordType(NSDocTmplType)
+  id: 'SetRecordType(NSDocTmplType)'
+  so.intellisense: NSDocumentTemplateEntity.SetRecordType
+  langs:
+  - crmscript
+  name: 'SetRecordType(NSDocTmplType)'
+  nameWithType: NSDocumentTemplateEntity.SetRecordType(NSDocTmplType)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetRecordType(NSDocTmplType)
+  type: Method
+  summary: "\n1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo\n"
+  remarks: "\nSee <xref href=\"CRMScript.NetServer.TaskType\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax: 
+    content: Void SetRecordType(NSDocTmplType recordType)
+    parameters:
+    - id: recordType
+      type: CRMScript.NetServer.NSDocTmplType
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nNSDocTmplType recordType;\nthing.SetRecordType(recordType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetSaveInDb(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetSaveInDb(Integer)
+  id: 'SetSaveInDb(Integer)'
+  so.intellisense: NSDocumentTemplateEntity.SetSaveInDb
+  langs:
+  - crmscript
+  name: 'SetSaveInDb(Integer)'
+  nameWithType: NSDocumentTemplateEntity.SetSaveInDb(Integer)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetSaveInDb(Integer)
+  type: Method
+  summary: "\n1 = save document records in DB; otherwise not.\n"
+  remarks: 
+  syntax: 
+    content: Void SetSaveInDb(Integer saveInDb)
+    parameters:
+    - id: saveInDb
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nInteger saveInDb;\nthing.SetSaveInDb(saveInDb);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetSenderEmailAddress(String)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetSenderEmailAddress(String)
+  id: 'SetSenderEmailAddress(String)'
+  so.intellisense: NSDocumentTemplateEntity.SetSenderEmailAddress
+  langs:
+  - crmscript
+  name: 'SetSenderEmailAddress(String)'
+  nameWithType: NSDocumentTemplateEntity.SetSenderEmailAddress(String)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetSenderEmailAddress(String)
+  type: Method
+  summary: "\nIf email template, default senderaddress when template is of type quote email or privacy email.\n"
+  remarks: 
+  syntax: 
+    content: Void SetSenderEmailAddress(String senderEmailAddress)
+    parameters:
+    - id: senderEmailAddress
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nString senderEmailAddress;\nthing.SetSenderEmailAddress(senderEmailAddress);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetSenderEmailMode(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetSenderEmailMode(Integer)
+  id: 'SetSenderEmailMode(Integer)'
+  so.intellisense: NSDocumentTemplateEntity.SetSenderEmailMode
+  langs:
+  - crmscript
+  name: 'SetSenderEmailMode(Integer)'
+  nameWithType: NSDocumentTemplateEntity.SetSenderEmailMode(Integer)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetSenderEmailMode(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetSenderEmailMode(Integer senderEmailMode)
+    parameters:
+    - id: senderEmailMode
+      type: CRMScript.Global.Integer
+      description: "If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address. See <xref href=\"CRMScript.NetServer.SenderMailMode\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nInteger senderEmailMode;\nthing.SetSenderEmailMode(senderEmailMode);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetShowCurrents(Bool)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetShowCurrents(Bool)
+  id: 'SetShowCurrents(Bool)'
+  so.intellisense: NSDocumentTemplateEntity.SetShowCurrents
+  langs:
+  - crmscript
+  name: 'SetShowCurrents(Bool)'
+  nameWithType: NSDocumentTemplateEntity.SetShowCurrents(Bool)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetShowCurrents(Bool)
+  type: Method
+  summary: "\nTrue if when using this template there should be shown a place for editing current choices of person, compant, sale, project etc\n"
+  remarks: 
+  syntax: 
+    content: Void SetShowCurrents(Bool showCurrents)
+    parameters:
+    - id: showCurrents
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nBool showCurrents;\nthing.SetShowCurrents(showCurrents);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSDocumentTemplateEntity.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSDocumentTemplateEntity.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSDocumentTemplateEntity.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity.SetTooltip(String)
+  type: Method
+  summary: "\nTooltip or other description\n"
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentTemplateEntity thing;\nString tooltip;\nthing.SetTooltip(tooltip);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSDocumentTemplateEntity
+  commentId: T:CRMScript.NetServer.NSDocumentTemplateEntity
+  isExternal: true
+  name: NSDocumentTemplateEntity
+  nameWithType: NSDocumentTemplateEntity
+  fullName: CRMScript.NetServer.NSDocumentTemplateEntity
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.NetServer.NSDocTmplType
+  commentId: T:CRMScript.NetServer.NSDocTmplType
+  isExternal: true
+  name: NSDocTmplType
+  nameWithType: NSDocTmplType
+  fullName: CRMScript.NetServer.NSDocTmplType
+- uid: CRMScript.NetServer.TaskType
+  commentId: T:CRMScript.NetServer.TaskType
+  isExternal: true
+  name: TaskType
+  nameWithType: TaskType
+  fullName: CRMScript.NetServer.TaskType
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.DocTmplQuoteType
+  commentId: T:CRMScript.NetServer.DocTmplQuoteType
+  isExternal: true
+  name: DocTmplQuoteType
+  nameWithType: DocTmplQuoteType
+  fullName: CRMScript.NetServer.DocTmplQuoteType
+- uid: CRMScript.NetServer.DocTmplInvitationType
+  commentId: T:CRMScript.NetServer.DocTmplInvitationType
+  isExternal: true
+  name: DocTmplInvitationType
+  nameWithType: DocTmplInvitationType
+  fullName: CRMScript.NetServer.DocTmplInvitationType
+- uid: CRMScript.NetServer.DocTmplPrivacyType
+  commentId: T:CRMScript.NetServer.DocTmplPrivacyType
+  isExternal: true
+  name: DocTmplPrivacyType
+  nameWithType: DocTmplPrivacyType
+  fullName: CRMScript.NetServer.DocTmplPrivacyType
+- uid: CRMScript.NetServer.SenderMailMode
+  commentId: T:CRMScript.NetServer.SenderMailMode
+  isExternal: true
+  name: SenderMailMode
+  nameWithType: SenderMailMode
+  fullName: CRMScript.NetServer.SenderMailMode

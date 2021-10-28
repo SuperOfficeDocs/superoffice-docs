@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.Profile
+  commentId: T:CRMScript.Native.Profile
+  id: Profile
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.Profile.#ctor
+  - CRMScript.Native.Profile.getListTicketsFields(Integer)
+  name: Profile
+  nameWithType: Profile
+  fullName: CRMScript.Native.Profile
+  type: Class
+  summary: "\nMethods for fetching info about a users profile.\n"
+  example: 
+- uid: CRMScript.Native.Profile.#ctor
+  commentId: M:CRMScript.Native.Profile.#ctor
+  id: '#ctor'
+  so.intellisense: Void.Profile
+  langs:
+  - crmscript
+  name: Profile()
+  nameWithType: Profile.#ctor
+  fullName: CRMScript.Native.Profile.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the Profile class.\n"
+  remarks: 
+  syntax: 
+    content: Profile
+  example: 
+- uid: CRMScript.Native.Profile.getListTicketsFields(Integer)
+  commentId: M:CRMScript.Native.Profile.getListTicketsFields(Integer)
+  id: 'getListTicketsFields(Integer)'
+  so.intellisense: Profile.getListTicketsFields
+  langs:
+  - crmscript
+  name: 'getListTicketsFields(Integer)'
+  nameWithType: Profile.getListTicketsFields(Integer)
+  fullName: CRMScript.Native.Profile.getListTicketsFields(Integer)
+  type: Method
+  summary: "\nDeprecated from version 7!<p></p>\nReturns an array containing information about a user's profile for the list-tickets tables as <code>headerField, databaseField, chop, headerField, databaseField, chop, ...</code>\n"
+  remarks: 
+  syntax: 
+    content: String[] getListTicketsFields(Integer user)
+    parameters:
+    - id: user
+      type: CRMScript.Global.Integer
+      description: "The user to get a profile for."
+    return:
+      type: CRMScript.Global.String[]
+      description: "Information about a user's profile for the list-tickets tables in a SearchEngine- and DataTable-friendly way."
+  example: 
+  - "\nExample for use in the construction script for the Screen Element DataTable:<pre><code>Map config = getScreenElementConfig(screenElementIndex);\nProfile p;\nString[] fields = p.getListTicketsFields(getVariable(&quot;activeUser&quot;).toInteger());\nInteger c = 0;\nfor (Integer i = 0; i &lt; (fields.length()* 2); i = i+3)\n{\n  config.insert(&quot;fields.&quot; + c.toString() + &quot;.label&quot;, fields[i]);\n  config.insert(&quot;fields.&quot; + c.toString() + &quot;.field&quot;, fields[i+1]);\n  config.insert(&quot;fields.&quot; + c.toString() + &quot;.chop&quot;, fields[i+2]);\n  if (fields[i+1] == &quot;ticket.status&quot; || fields[i+1] == &quot;ticket.ticket_status&quot;)\n  {\n    config.insert(&quot;showTicketStatus&quot;, &quot;true&quot;);\n  }\n  c++;\n}\nconfig.insert(&quot;fields.length&quot;, c.toString());</code></pre><pre><code>config.insert(&quot;criteria.0.field&quot;, &quot;ticket.ticket_status.(ticket_status_lang-&gt;ticket_status).language&quot;);\nconfig.insert(&quot;criteria.0.operator&quot;, &quot;OperatorEquals&quot;);\nconfig.insert(&quot;criteria.0.value&quot;, getVariable(&quot;userLang&quot;));\nconfig.insert(&quot;criteria.length&quot;, &quot;1&quot;);</code></pre>\n"
+  - "\nWhen using this function with a DataTable, it is important to add a criteria for which language the user has:<pre><code>config.insert(&quot;criteria.0.field&quot;, &quot;ticket.ticket_status.(ticket_status_lang-&gt;ticket_status).language&quot;);config.insert(&quot;criteria.0.operator&quot;, &quot;OperatorEquals&quot;);config.insert(&quot;criteria.0.value&quot;, getVariable(&quot;userLang&quot;));config.insert(&quot;criteria.length&quot;, &quot;1&quot;);</code></pre>\n"
+references:
+- uid: CRMScript.Native.Profile
+  commentId: T:CRMScript.Native.Profile
+  isExternal: true
+  name: Profile
+  nameWithType: Profile
+  fullName: CRMScript.Native.Profile
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'

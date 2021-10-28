@@ -1,0 +1,287 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSCommandInfo
+  commentId: T:CRMScript.NetServer.NSCommandInfo
+  id: NSCommandInfo
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSCommandInfo.#ctor
+  - CRMScript.NetServer.NSCommandInfo.GetDisplayName()
+  - CRMScript.NetServer.NSCommandInfo.GetDisplayTooltip()
+  - CRMScript.NetServer.NSCommandInfo.GetIconHint()
+  - CRMScript.NetServer.NSCommandInfo.GetName()
+  - CRMScript.NetServer.NSCommandInfo.GetReturnType()
+  - CRMScript.NetServer.NSCommandInfo.SetDisplayName(String)
+  - CRMScript.NetServer.NSCommandInfo.SetDisplayTooltip(String)
+  - CRMScript.NetServer.NSCommandInfo.SetIconHint(String)
+  - CRMScript.NetServer.NSCommandInfo.SetName(String)
+  - CRMScript.NetServer.NSCommandInfo.SetReturnType(Integer)
+  name: NSCommandInfo
+  nameWithType: NSCommandInfo
+  fullName: CRMScript.NetServer.NSCommandInfo
+  type: Class
+  summary: "\nAn instance of this class describes a custom command, declared and implemented by a document plugin.\n"
+  example: 
+- uid: CRMScript.NetServer.NSCommandInfo.#ctor
+  commentId: M:CRMScript.NetServer.NSCommandInfo.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSCommandInfo
+  langs:
+  - crmscript
+  name: NSCommandInfo()
+  nameWithType: NSCommandInfo.#ctor
+  fullName: CRMScript.NetServer.NSCommandInfo.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSCommandInfo class.\n"
+  remarks: 
+  syntax: 
+    content: NSCommandInfo
+  example: 
+- uid: CRMScript.NetServer.NSCommandInfo.GetDisplayName()
+  commentId: M:CRMScript.NetServer.NSCommandInfo.GetDisplayName()
+  id: 'GetDisplayName()'
+  so.intellisense: NSCommandInfo.GetDisplayName
+  langs:
+  - crmscript
+  name: 'GetDisplayName()'
+  nameWithType: NSCommandInfo.GetDisplayName()
+  fullName: CRMScript.NetServer.NSCommandInfo.GetDisplayName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDisplayName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Display name, shown in menus, command lists and similar GUI elements."
+  example: 
+  - "\n<pre><code>NSCommandInfo thing;\nString displayName = thing.GetDisplayName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCommandInfo.GetDisplayTooltip()
+  commentId: M:CRMScript.NetServer.NSCommandInfo.GetDisplayTooltip()
+  id: 'GetDisplayTooltip()'
+  so.intellisense: NSCommandInfo.GetDisplayTooltip
+  langs:
+  - crmscript
+  name: 'GetDisplayTooltip()'
+  nameWithType: NSCommandInfo.GetDisplayTooltip()
+  fullName: CRMScript.NetServer.NSCommandInfo.GetDisplayTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDisplayTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Tooltip string associate with the command* can be a literal or a tooltip hint."
+  example: 
+  - "\n<pre><code>NSCommandInfo thing;\nString displayTooltip = thing.GetDisplayTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCommandInfo.GetIconHint()
+  commentId: M:CRMScript.NetServer.NSCommandInfo.GetIconHint()
+  id: 'GetIconHint()'
+  so.intellisense: NSCommandInfo.GetIconHint
+  langs:
+  - crmscript
+  name: 'GetIconHint()'
+  nameWithType: NSCommandInfo.GetIconHint()
+  fullName: CRMScript.NetServer.NSCommandInfo.GetIconHint()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetIconHint()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Icon hint, which should resolve to an icon that is compatible in size with a standard menu or dropdown list font. May be blank."
+  example: 
+  - "\n<pre><code>NSCommandInfo thing;\nString iconHint = thing.GetIconHint();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCommandInfo.GetName()
+  commentId: M:CRMScript.NetServer.NSCommandInfo.GetName()
+  id: 'GetName()'
+  so.intellisense: NSCommandInfo.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSCommandInfo.GetName()
+  fullName: CRMScript.NetServer.NSCommandInfo.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The programmatic name of the command, uniquely identifying this command for the document plugin."
+  example: 
+  - "\n<pre><code>NSCommandInfo thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCommandInfo.GetReturnType()
+  commentId: M:CRMScript.NetServer.NSCommandInfo.GetReturnType()
+  id: 'GetReturnType()'
+  so.intellisense: NSCommandInfo.GetReturnType
+  langs:
+  - crmscript
+  name: 'GetReturnType()'
+  nameWithType: NSCommandInfo.GetReturnType()
+  fullName: CRMScript.NetServer.NSCommandInfo.GetReturnType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetReturnType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Declaration of what kind of return type the execution of this command will give. See <xref href=\"CRMScript.NetServer.ReturnType\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSCommandInfo thing;\nInteger returnType = thing.GetReturnType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCommandInfo.SetDisplayName(String)
+  commentId: M:CRMScript.NetServer.NSCommandInfo.SetDisplayName(String)
+  id: 'SetDisplayName(String)'
+  so.intellisense: NSCommandInfo.SetDisplayName
+  langs:
+  - crmscript
+  name: 'SetDisplayName(String)'
+  nameWithType: NSCommandInfo.SetDisplayName(String)
+  fullName: CRMScript.NetServer.NSCommandInfo.SetDisplayName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDisplayName(String displayName)
+    parameters:
+    - id: displayName
+      type: CRMScript.Global.String
+      description: "Display name, shown in menus, command lists and similar GUI elements."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCommandInfo thing;\nString displayName;\nthing.SetDisplayName(displayName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCommandInfo.SetDisplayTooltip(String)
+  commentId: M:CRMScript.NetServer.NSCommandInfo.SetDisplayTooltip(String)
+  id: 'SetDisplayTooltip(String)'
+  so.intellisense: NSCommandInfo.SetDisplayTooltip
+  langs:
+  - crmscript
+  name: 'SetDisplayTooltip(String)'
+  nameWithType: NSCommandInfo.SetDisplayTooltip(String)
+  fullName: CRMScript.NetServer.NSCommandInfo.SetDisplayTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDisplayTooltip(String displayTooltip)
+    parameters:
+    - id: displayTooltip
+      type: CRMScript.Global.String
+      description: "Tooltip string associate with the command - can be a literal or a tooltip hint."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCommandInfo thing;\nString displayTooltip;\nthing.SetDisplayTooltip(displayTooltip);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCommandInfo.SetIconHint(String)
+  commentId: M:CRMScript.NetServer.NSCommandInfo.SetIconHint(String)
+  id: 'SetIconHint(String)'
+  so.intellisense: NSCommandInfo.SetIconHint
+  langs:
+  - crmscript
+  name: 'SetIconHint(String)'
+  nameWithType: NSCommandInfo.SetIconHint(String)
+  fullName: CRMScript.NetServer.NSCommandInfo.SetIconHint(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIconHint(String iconHint)
+    parameters:
+    - id: iconHint
+      type: CRMScript.Global.String
+      description: "Icon hint, which should resolve to an icon that is compatible in size with a standard menu or dropdown list font. May be blank."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCommandInfo thing;\nString iconHint;\nthing.SetIconHint(iconHint);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCommandInfo.SetName(String)
+  commentId: M:CRMScript.NetServer.NSCommandInfo.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSCommandInfo.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSCommandInfo.SetName(String)
+  fullName: CRMScript.NetServer.NSCommandInfo.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The programmatic name of the command, uniquely identifying this command for the document plugin."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCommandInfo thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCommandInfo.SetReturnType(Integer)
+  commentId: M:CRMScript.NetServer.NSCommandInfo.SetReturnType(Integer)
+  id: 'SetReturnType(Integer)'
+  so.intellisense: NSCommandInfo.SetReturnType
+  langs:
+  - crmscript
+  name: 'SetReturnType(Integer)'
+  nameWithType: NSCommandInfo.SetReturnType(Integer)
+  fullName: CRMScript.NetServer.NSCommandInfo.SetReturnType(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetReturnType(Integer returnType)
+    parameters:
+    - id: returnType
+      type: CRMScript.Global.Integer
+      description: "Declaration of what kind of return type the execution of this command will give. See <xref href=\"CRMScript.NetServer.ReturnType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCommandInfo thing;\nInteger returnType;\nthing.SetReturnType(returnType);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSCommandInfo
+  commentId: T:CRMScript.NetServer.NSCommandInfo
+  isExternal: true
+  name: NSCommandInfo
+  nameWithType: NSCommandInfo
+  fullName: CRMScript.NetServer.NSCommandInfo
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.ReturnType
+  commentId: T:CRMScript.NetServer.ReturnType
+  isExternal: true
+  name: ReturnType
+  nameWithType: ReturnType
+  fullName: CRMScript.NetServer.ReturnType
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

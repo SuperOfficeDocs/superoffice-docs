@@ -1,0 +1,270 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.Vector
+  commentId: T:CRMScript.Native.Vector
+  id: Vector
+  langs:
+  - crmscript
+  children:
+    - CRMScript.Native.Vector.#ctor(Integer[])
+    - CRMScript.Native.Vector.parseString(String, String)
+    - CRMScript.Native.Vector.pushBack(String)
+    - CRMScript.Native.Vector.set(Integer, String)
+    - CRMScript.Native.Vector.get(Integer)
+    - CRMScript.Native.Vector.size()
+    - CRMScript.Native.Vector.toIntegerArray()
+    - CRMScript.Native.Vector.toStringArray()
+    - CRMScript.Native.Vector.buildString(String)
+    - CRMScript.Native.Vector.removeAt(Integer)
+  name: Vector
+  nameWithType: Vector
+  fullName: CRMScript.Native.Vector
+  type: Class
+  summary: "\nThis class represents a Vector, in which you can add objects of the type String..\n"
+- uid: CRMScript.Native.Vector.#ctor(Integer[])
+  commentId: M:CRMScript.Native.Vector.#ctor(Integer[])
+  id: '#ctor(Integer[])'
+  so.intellisense: Vector
+  langs:
+  - crmscript
+  parent: CRMScript.Native.Vector
+  name: Vector(Integer[])
+  nameWithType: Vector.Vector(Integer[])
+  fullName: CRMScript.Native.Vector.Vector(Integer[])
+  type: Constructor
+  summary: "\nPass a number array to convert into a new object.\n"
+  syntax:
+    content: Vector Vector(Integer[] value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.Integer[]
+      description: "An Integer array."
+    return:
+      type: CRMScript.Native.Vector
+- uid: CRMScript.Native.Vector.parseString(String, String)
+  commentId: M:CRMScript.Native.Vector.parseString(String, String)
+  id: parseString(String, String)
+  so.intellisense: Vector.parseString
+  langs:
+  - crmscript
+  parent: CRMScript.Native.Vector
+  name: parseString(String, String)
+  nameWithType: Vector.parseString(String, String)
+  fullName: CRMScript.Native.Vector.parseString(String, String)
+  type: Method
+  summary: "\nParses a text into a vector. The fields in the string are separated by the given delimiter.\n"
+  remarks: "\nThis method does not support escaped characters.\n"
+  syntax:
+    content: Void parseString(String text, String delimiter)
+    parameters:
+    - id: text
+      type: CRMScript.Global.String
+      description: "The string to be parsed."
+    - id: delimiter
+      type: CRMScript.Global.String
+      description: "The delimiter for the fields."
+    return:
+- uid: CRMScript.Native.Vector.removeAt(Integer)
+  commentId: M:CRMScript.Native.Vector.removeAt(Integer)
+  id: removeAt(Integer)
+  so.intellisense: Vector.removeAt
+  langs:
+  - crmscript
+  parent: CRMScript.Native.Vector
+  name: removeAt(Integer)
+  nameWithType: Vector.removeAt(Integer)
+  fullName: CRMScript.Native.Vector.removeAt(Integer)
+  type: Method
+  summary: "\nRemoves an element at the specified index.\n"
+  syntax:
+    content: Void removeAt(Integer index)
+    parameters:
+    - id: index
+      type: CRMScript.Global.Integer
+      description: "The index (starting at 0) of the element to remove from the vector."
+    return:
+- uid: CRMScript.Native.Vector.get(Integer)
+  commentId: M:CRMScript.Native.Vector.get(Integer)
+  id: get(Integer)
+  so.intellisense: Vector.get
+  langs:
+  - crmscript
+  parent: CRMScript.Native.Vector
+  name: get(Integer)
+  nameWithType: Vector.get(Integer)
+  fullName: CRMScript.Native.Vector.get(Integer)
+  type: Method
+  summary: "\nReturns an element in the vector at the given position.\n"
+  remarks: "\nIf the index specified is out of bounds, a RunTimeException will be raised.\n"
+  syntax:
+    content: String get(Integer index)
+    parameters:
+    - id: index
+      type: CRMScript.Global.Integer
+      description: "The index (starting at 0) of the element to be retrieved."
+    return:
+      type: CRMScript.Global.String
+- uid: CRMScript.Native.Vector.set(Integer, String)
+  commentId: M:CRMScript.Native.Vector.set(Integer, String)
+  id: set(Integer, String)
+  so.intellisense: Vector.set
+  langs:
+  - crmscript
+  parent: CRMScript.Native.Vector
+  name: set(Integer, String)
+  nameWithType: Vector.set(Integer, String)
+  fullName: CRMScript.Native.Vector.set(Integer, String)
+  type: Method
+  summary: "\nSets the value at the specified index.\n"
+  remarks: "\nIf the index specified is out of bounds, a RunTimeException will be raised.\n"
+  syntax:
+    content: Void set(Integer index, String value)
+    parameters:
+    - id: index
+      type: CRMScript.Global.Integer
+      description: "The index of the vector to set the value."
+    - id: value
+      type: CRMScript.Global.String
+      description: "The value to set at the specified index."
+    return:
+- uid: CRMScript.Native.Vector.size()
+  commentId: M:CRMScript.Native.Vector.size()
+  id: size()
+  so.intellisense: Vector.size
+  langs:
+  - crmscript
+  parent: CRMScript.Native.Vector
+  name: size()
+  nameWithType: Vector.size()
+  fullName: CRMScript.Native.Vector.size()
+  type: Method
+  summary: "\nReturns the size of the vector.\n"
+  syntax:
+    content: Integer size()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+- uid: CRMScript.Native.Vector.toIntegerArray()
+  commentId: M:CRMScript.Native.Vector.toIntegerArray()
+  id: toIntegerArray()
+  so.intellisense: Vector.toIntegerArray
+  langs:
+  - crmscript
+  parent: CRMScript.Native.Vector
+  name: toIntegerArray()
+  nameWithType: Vector.toIntegerArray()
+  fullName: CRMScript.Native.Vector.toIntegerArray()
+  type: Method
+  summary: "\nConvert a vector to an integer array.\n"
+  remarks: "\nInvalid values will be represented as null.\n"
+  syntax:
+    content: Integer[] toIntegerArray()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer[]
+- uid: CRMScript.Native.Vector.toStringArray()
+  commentId: M:CRMScript.Native.Vector.toStringArray()
+  id: toStringArray()
+  so.intellisense: Vector.toStringArray
+  langs:
+  - crmscript
+  parent: CRMScript.Native.Vector
+  name: toStringArray()
+  nameWithType: Vector.toStringArray()
+  fullName: CRMScript.Native.Vector.toStringArray()
+  type: Method
+  summary: "\nConvert a vector to a string array.\n"
+  syntax:
+    content: String[] toStringArray()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+- uid: CRMScript.Native.Vector.buildString(String)
+  commentId: M:CRMScript.Native.Vector.buildString(String)
+  id: buildString(String)
+  so.intellisense: Vector.buildString
+  langs:
+  - crmscript
+  parent: CRMScript.Native.Vector
+  name: buildString(String)
+  nameWithType: Vector.buildString(String)
+  fullName: CRMScript.Native.Vector.buildString(String)
+  type: Method
+  summary: "\nReturns a string of all the elements in the vector, separated by the specified delimiter.\n"
+  remarks: "not escape any characters which might be equal to the delimiter."
+  syntax:
+    content: String buildString(String delimiter)
+    parameters:
+    - id: delimiter
+      type: CRMScript.Global.String
+      description: "The delimiter used for separating the elements."
+    return:
+      type: CRMScript.Global.String
+      description: "A string with all the elements separated by the delimiter."
+- uid: CRMScript.Native.Vector.pushBack(String)
+  commentId: M:CRMScript.Native.Vector.pushBack(String)
+  id: Vector.pushBack(String)
+  so.intellisense: Vector.pushBack
+  langs:
+  - crmscript
+  parent: CRMScript.Vector.pushBack(String)
+  name: pushBack(String)
+  nameWithType: Vector.pushBack(String)
+  fullName: CRMScript.Native.Vector.pushBack(String)
+  type: Method
+  summary: "\nPushes a string object to the end of the vector.\n"
+  syntax:
+    content: pushBack(String element)
+    parameters:
+    - id: element
+      type: CRMScript.Global.String
+      description: "The string object to push on the vector."
+    return:
+references:
+- uid: CRMScript.Native.Vector
+  commentId: T:CRMScript.Native.Vector
+  isExternal: true
+  name: Vector
+  nameWithType: Vector
+  fullName: CRMScript.Native.Vector
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'

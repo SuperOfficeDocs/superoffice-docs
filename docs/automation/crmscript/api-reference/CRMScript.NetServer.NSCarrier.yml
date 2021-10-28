@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSCarrier
+  commentId: T:CRMScript.NetServer.NSCarrier
+  id: NSCarrier
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSCarrier.#ctor
+  - CRMScript.NetServer.NSCarrier.GetFieldProperties()
+  - CRMScript.NetServer.NSCarrier.GetTableRight()
+  - CRMScript.NetServer.NSCarrier.SetFieldProperties(Map)
+  - CRMScript.NetServer.NSCarrier.SetTableRight(NSTableRight)
+  name: NSCarrier
+  nameWithType: NSCarrier
+  fullName: CRMScript.NetServer.NSCarrier
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSCarrier.#ctor
+  commentId: M:CRMScript.NetServer.NSCarrier.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSCarrier
+  langs:
+  - crmscript
+  name: NSCarrier()
+  nameWithType: NSCarrier.#ctor
+  fullName: CRMScript.NetServer.NSCarrier.#ctor
+  type: Constructor
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSCarrier
+  example: 
+- uid: CRMScript.NetServer.NSCarrier.GetFieldProperties()
+  commentId: M:CRMScript.NetServer.NSCarrier.GetFieldProperties()
+  id: 'GetFieldProperties()'
+  so.intellisense: NSCarrier.GetFieldProperties
+  langs:
+  - crmscript
+  name: 'GetFieldProperties()'
+  nameWithType: NSCarrier.GetFieldProperties()
+  fullName: CRMScript.NetServer.NSCarrier.GetFieldProperties()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Map GetFieldProperties()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSCarrier.GetTableRight()
+  commentId: M:CRMScript.NetServer.NSCarrier.GetTableRight()
+  id: 'GetTableRight()'
+  so.intellisense: NSCarrier.GetTableRight
+  langs:
+  - crmscript
+  name: 'GetTableRight()'
+  nameWithType: NSCarrier.GetTableRight()
+  fullName: CRMScript.NetServer.NSCarrier.GetTableRight()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSTableRight GetTableRight()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSTableRight
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSCarrier.SetFieldProperties(Map)
+  commentId: M:CRMScript.NetServer.NSCarrier.SetFieldProperties(Map)
+  id: 'SetFieldProperties(Map)'
+  so.intellisense: NSCarrier.SetFieldProperties
+  langs:
+  - crmscript
+  name: 'SetFieldProperties(Map)'
+  nameWithType: NSCarrier.SetFieldProperties(Map)
+  fullName: CRMScript.NetServer.NSCarrier.SetFieldProperties(Map)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFieldProperties(Map properties)
+    parameters:
+    - id: properties
+      type: CRMScript.Native.Map
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSCarrier.SetTableRight(NSTableRight)
+  commentId: M:CRMScript.NetServer.NSCarrier.SetTableRight(NSTableRight)
+  id: 'SetTableRight(NSTableRight)'
+  so.intellisense: NSCarrier.SetTableRight
+  langs:
+  - crmscript
+  name: 'SetTableRight(NSTableRight)'
+  nameWithType: NSCarrier.SetTableRight(NSTableRight)
+  fullName: CRMScript.NetServer.NSCarrier.SetTableRight(NSTableRight)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTableRight(NSTableRight right)
+    parameters:
+    - id: right
+      type: CRMScript.NetServer.NSTableRight
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSCarrier
+  commentId: T:CRMScript.NetServer.NSCarrier
+  isExternal: true
+  name: NSCarrier
+  nameWithType: NSCarrier
+  fullName: CRMScript.NetServer.NSCarrier
+- uid: CRMScript.NetServer.NSTableRight
+  commentId: T:CRMScript.NetServer.NSTableRight
+  isExternal: true
+  name: NSTableRight
+  nameWithType: NSTableRight
+  fullName: CRMScript.NetServer.NSTableRight
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.Native.Map
+  commentId: T:CRMScript.Native.Map
+  isExternal: true
+  name: Map
+  nameWithType: Map
+  fullName: CRMScript.Native.Map
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

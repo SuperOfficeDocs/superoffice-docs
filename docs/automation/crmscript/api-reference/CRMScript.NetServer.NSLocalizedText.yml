@@ -1,0 +1,331 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSLocalizedText
+  commentId: T:CRMScript.NetServer.NSLocalizedText
+  id: NSLocalizedText
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSLocalizedText.#ctor
+  - CRMScript.NetServer.NSLocalizedText.GetIsBuiltIn()
+  - CRMScript.NetServer.NSLocalizedText.GetLanguageId()
+  - CRMScript.NetServer.NSLocalizedText.GetLocalizedTextId()
+  - CRMScript.NetServer.NSLocalizedText.GetResourceId()
+  - CRMScript.NetServer.NSLocalizedText.GetText()
+  - CRMScript.NetServer.NSLocalizedText.GetType()
+  - CRMScript.NetServer.NSLocalizedText.SetIsBuiltIn(Bool)
+  - CRMScript.NetServer.NSLocalizedText.SetLanguageId(Integer)
+  - CRMScript.NetServer.NSLocalizedText.SetLocalizedTextId(Integer)
+  - CRMScript.NetServer.NSLocalizedText.SetResourceId(Integer)
+  - CRMScript.NetServer.NSLocalizedText.SetText(String)
+  - CRMScript.NetServer.NSLocalizedText.SetType(Integer)
+  name: NSLocalizedText
+  nameWithType: NSLocalizedText
+  fullName: CRMScript.NetServer.NSLocalizedText
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSLocalizedText.#ctor
+  commentId: M:CRMScript.NetServer.NSLocalizedText.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSLocalizedText
+  langs:
+  - crmscript
+  name: NSLocalizedText()
+  nameWithType: NSLocalizedText.#ctor
+  fullName: CRMScript.NetServer.NSLocalizedText.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSLocalizedText class.\n"
+  remarks: 
+  syntax: 
+    content: NSLocalizedText
+  example: 
+- uid: CRMScript.NetServer.NSLocalizedText.GetIsBuiltIn()
+  commentId: M:CRMScript.NetServer.NSLocalizedText.GetIsBuiltIn()
+  id: 'GetIsBuiltIn()'
+  so.intellisense: NSLocalizedText.GetIsBuiltIn
+  langs:
+  - crmscript
+  name: 'GetIsBuiltIn()'
+  nameWithType: NSLocalizedText.GetIsBuiltIn()
+  fullName: CRMScript.NetServer.NSLocalizedText.GetIsBuiltIn()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsBuiltIn()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "1 = this row is populated and maintained by SuperOffice."
+  example: 
+  - "\n<pre><code>NSLocalizedText thing;\nBool isBuiltIn = thing.GetIsBuiltIn();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLocalizedText.GetLanguageId()
+  commentId: M:CRMScript.NetServer.NSLocalizedText.GetLanguageId()
+  id: 'GetLanguageId()'
+  so.intellisense: NSLocalizedText.GetLanguageId
+  langs:
+  - crmscript
+  name: 'GetLanguageId()'
+  nameWithType: NSLocalizedText.GetLanguageId()
+  fullName: CRMScript.NetServer.NSLocalizedText.GetLanguageId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetLanguageId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Language ID as LCID value."
+  example: 
+  - "\n<pre><code>NSLocalizedText thing;\nInteger languageId = thing.GetLanguageId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLocalizedText.GetLocalizedTextId()
+  commentId: M:CRMScript.NetServer.NSLocalizedText.GetLocalizedTextId()
+  id: 'GetLocalizedTextId()'
+  so.intellisense: NSLocalizedText.GetLocalizedTextId
+  langs:
+  - crmscript
+  name: 'GetLocalizedTextId()'
+  nameWithType: NSLocalizedText.GetLocalizedTextId()
+  fullName: CRMScript.NetServer.NSLocalizedText.GetLocalizedTextId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetLocalizedTextId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSLocalizedText thing;\nInteger localizedTextId = thing.GetLocalizedTextId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLocalizedText.GetResourceId()
+  commentId: M:CRMScript.NetServer.NSLocalizedText.GetResourceId()
+  id: 'GetResourceId()'
+  so.intellisense: NSLocalizedText.GetResourceId
+  langs:
+  - crmscript
+  name: 'GetResourceId()'
+  nameWithType: NSLocalizedText.GetResourceId()
+  fullName: CRMScript.NetServer.NSLocalizedText.GetResourceId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetResourceId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer'
+      description: "Resource Id."
+  example: 
+  - "\n<pre><code>NSLocalizedText thing;\nInteger resourceId = thing.GetResourceId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLocalizedText.GetText()
+  commentId: M:CRMScript.NetServer.NSLocalizedText.GetText()
+  id: 'GetText()'
+  so.intellisense: NSLocalizedText.GetText
+  langs:
+  - crmscript
+  name: 'GetText()'
+  nameWithType: NSLocalizedText.GetText()
+  fullName: CRMScript.NetServer.NSLocalizedText.GetText()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetText()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The text string itself."
+  example: 
+  - "\n<pre><code>NSLocalizedText thing;\nString text = thing.GetText();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLocalizedText.GetType()
+  commentId: M:CRMScript.NetServer.NSLocalizedText.GetType()
+  id: 'GetType()'
+  so.intellisense: NSLocalizedText.GetType
+  langs:
+  - crmscript
+  name: 'GetType()'
+  nameWithType: NSLocalizedText.GetType()
+  fullName: CRMScript.NetServer.NSLocalizedText.GetType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The type of the text string, such as Field label, Udef label. See <xref href=\"CRMScript.NetServer.LocalizedTextType\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSLocalizedText thing;\nInteger type = thing.GetType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLocalizedText.SetIsBuiltIn(Bool)
+  commentId: M:CRMScript.NetServer.NSLocalizedText.SetIsBuiltIn(Bool)
+  id: 'SetIsBuiltIn(Bool)'
+  so.intellisense: NSLocalizedText.SetIsBuiltIn
+  langs:
+  - crmscript
+  name: 'SetIsBuiltIn(Bool)'
+  nameWithType: NSLocalizedText.SetIsBuiltIn(Bool)
+  fullName: CRMScript.NetServer.NSLocalizedText.SetIsBuiltIn(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsBuiltIn(Bool isBuiltIn)
+    parameters:
+    - id: isBuiltIn
+      type: CRMScript.Global.Bool
+      description: "1 = this row is populated and maintained by SuperOffice."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLocalizedText thing;\nBool isBuiltIn;\nthing.SetIsBuiltIn(isBuiltIn);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLocalizedText.SetLanguageId(Integer)
+  commentId: M:CRMScript.NetServer.NSLocalizedText.SetLanguageId(Integer)
+  id: 'SetLanguageId(Integer)'
+  so.intellisense: NSLocalizedText.SetLanguageId
+  langs:
+  - crmscript
+  name: 'SetLanguageId(Integer)'
+  nameWithType: NSLocalizedText.SetLanguageId(Integer)
+  fullName: CRMScript.NetServer.NSLocalizedText.SetLanguageId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLanguageId(Integer languageId)
+    parameters:
+    - id: languageId
+      type: CRMScript.Global.Integer
+      description: "Language ID as LCID value."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLocalizedText thing;\nInteger languageId;\nthing.SetLanguageId(languageId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLocalizedText.SetLocalizedTextId(Integer)
+  commentId: M:CRMScript.NetServer.NSLocalizedText.SetLocalizedTextId(Integer)
+  id: 'SetLocalizedTextId(Integer)'
+  so.intellisense: NSLocalizedText.SetLocalizedTextId
+  langs:
+  - crmscript
+  name: 'SetLocalizedTextId(Integer)'
+  nameWithType: NSLocalizedText.SetLocalizedTextId(Integer)
+  fullName: CRMScript.NetServer.NSLocalizedText.SetLocalizedTextId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLocalizedTextId(Integer localizedTextId)
+    parameters:
+    - id: localizedTextId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLocalizedText thing;\nInteger localizedTextId;\nthing.SetLocalizedTextId(localizedTextId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLocalizedText.SetResourceId(Integer)
+  commentId: M:CRMScript.NetServer.NSLocalizedText.SetResourceId(Integer)
+  id: 'SetResourceId(Integer)'
+  so.intellisense: NSLocalizedText.SetResourceId
+  langs:
+  - crmscript
+  name: 'SetResourceId(Integer)'
+  nameWithType: NSLocalizedText.SetResourceId(Integer)
+  fullName: CRMScript.NetServer.NSLocalizedText.SetResourceId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetResourceId(Integer resourceId)
+    parameters:
+    - id: resourceId
+      type: CRMScript.Global.Integer
+      description: "Resource Id."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLocalizedText thing;\nInteger resourceId;\nthing.SetResourceId(resourceId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLocalizedText.SetText(String)
+  commentId: M:CRMScript.NetServer.NSLocalizedText.SetText(String)
+  id: 'SetText(String)'
+  so.intellisense: NSLocalizedText.SetText
+  langs:
+  - crmscript
+  name: 'SetText(String)'
+  nameWithType: NSLocalizedText.SetText(String)
+  fullName: CRMScript.NetServer.NSLocalizedText.SetText(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetText(String text)
+    parameters:
+    - id: text
+      type: CRMScript.Global.String
+      description: "The text string itself."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLocalizedText thing;\nString text;\nthing.SetText(text);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLocalizedText.SetType(Integer)
+  commentId: M:CRMScript.NetServer.NSLocalizedText.SetType(Integer)
+  id: 'SetType(Integer)'
+  so.intellisense: NSLocalizedText.SetType
+  langs:
+  - crmscript
+  name: 'SetType(Integer)'
+  nameWithType: NSLocalizedText.SetType(Integer)
+  fullName: CRMScript.NetServer.NSLocalizedText.SetType(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetType(Integer type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "The type of the text string, such as Field label, Udef label. See <xref href=\"CRMScript.NetServer.LocalizedTextType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLocalizedText thing;\nInteger type;\nthing.SetType(type);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSLocalizedText
+  commentId: T:CRMScript.NetServer.NSLocalizedText
+  isExternal: true
+  name: NSLocalizedText
+  nameWithType: NSLocalizedText
+  fullName: CRMScript.NetServer.NSLocalizedText
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.LocalizedTextType
+  commentId: T:CRMScript.NetServer.LocalizedTextType
+  isExternal: true
+  name: LocalizedTextType
+  nameWithType: LocalizedTextType
+  fullName: CRMScript.NetServer.LocalizedTextType

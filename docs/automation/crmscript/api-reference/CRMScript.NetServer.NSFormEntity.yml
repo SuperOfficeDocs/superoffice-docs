@@ -1,0 +1,1047 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSFormEntity
+  commentId: T:CRMScript.NetServer.NSFormEntity
+  id: NSFormEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSFormEntity.#ctor
+  - CRMScript.NetServer.NSFormEntity.GetActive()
+  - CRMScript.NetServer.NSFormEntity.GetConfig()
+  - CRMScript.NetServer.NSFormEntity.GetDescription()
+  - CRMScript.NetServer.NSFormEntity.GetExpires()
+  - CRMScript.NetServer.NSFormEntity.GetFolderId()
+  - CRMScript.NetServer.NSFormEntity.GetFolderName()
+  - CRMScript.NetServer.NSFormEntity.GetFormId()
+  - CRMScript.NetServer.NSFormEntity.GetFormKey()
+  - CRMScript.NetServer.NSFormEntity.GetGroupId()
+  - CRMScript.NetServer.NSFormEntity.GetMaxSubmits()
+  - CRMScript.NetServer.NSFormEntity.GetName()
+  - CRMScript.NetServer.NSFormEntity.GetNewTicket()
+  - CRMScript.NetServer.NSFormEntity.GetRecaptchaMode()
+  - CRMScript.NetServer.NSFormEntity.GetRecipe()
+  - CRMScript.NetServer.NSFormEntity.GetRegistered()
+  - CRMScript.NetServer.NSFormEntity.GetRegisteredAssociateId()
+  - CRMScript.NetServer.NSFormEntity.GetResponseShipmentId()
+  - CRMScript.NetServer.NSFormEntity.GetScriptId()
+  - CRMScript.NetServer.NSFormEntity.GetType()
+  - CRMScript.NetServer.NSFormEntity.GetUpdated()
+  - CRMScript.NetServer.NSFormEntity.GetUpdatedAssociateId()
+  - CRMScript.NetServer.NSFormEntity.GetUpdatedCount()
+  - CRMScript.NetServer.NSFormEntity.SetActive(Bool)
+  - CRMScript.NetServer.NSFormEntity.SetConfig(String)
+  - CRMScript.NetServer.NSFormEntity.SetDescription(String)
+  - CRMScript.NetServer.NSFormEntity.SetExpires(DateTime)
+  - CRMScript.NetServer.NSFormEntity.SetFolderId(Integer)
+  - CRMScript.NetServer.NSFormEntity.SetFolderName(String)
+  - CRMScript.NetServer.NSFormEntity.SetFormId(Integer)
+  - CRMScript.NetServer.NSFormEntity.SetFormKey(String)
+  - CRMScript.NetServer.NSFormEntity.SetGroupId(Integer)
+  - CRMScript.NetServer.NSFormEntity.SetMaxSubmits(Integer)
+  - CRMScript.NetServer.NSFormEntity.SetName(String)
+  - CRMScript.NetServer.NSFormEntity.SetNewTicket(Bool)
+  - CRMScript.NetServer.NSFormEntity.SetRecaptchaMode(Integer)
+  - CRMScript.NetServer.NSFormEntity.SetRecipe(String)
+  - CRMScript.NetServer.NSFormEntity.SetRegistered(DateTime)
+  - CRMScript.NetServer.NSFormEntity.SetRegisteredAssociateId(Integer)
+  - CRMScript.NetServer.NSFormEntity.SetResponseShipmentId(Integer)
+  - CRMScript.NetServer.NSFormEntity.SetScriptId(Integer)
+  - CRMScript.NetServer.NSFormEntity.SetType(Integer)
+  - CRMScript.NetServer.NSFormEntity.SetUpdated(DateTime)
+  - CRMScript.NetServer.NSFormEntity.SetUpdatedAssociateId(Integer)
+  - CRMScript.NetServer.NSFormEntity.SetUpdatedCount(Integer)
+  name: NSFormEntity
+  nameWithType: NSFormEntity
+  fullName: CRMScript.NetServer.NSFormEntity
+  type: Class
+  summary: "\nDefinition and configuration of a Form.\n"
+  example: 
+- uid: CRMScript.NetServer.NSFormEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSFormEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSFormEntity
+  langs:
+  - crmscript
+  name: NSFormEntity()
+  nameWithType: NSFormEntity.#ctor
+  fullName: CRMScript.NetServer.NSFormEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSFormEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSFormEntity
+  example: 
+- uid: CRMScript.NetServer.NSFormEntity.GetActive()
+  commentId: M:CRMScript.NetServer.NSFormEntity.GetActive()
+  id: 'GetActive()'
+  so.intellisense: NSFormEntity.GetActive
+  langs:
+  - crmscript
+  name: 'GetActive()'
+  nameWithType: NSFormEntity.GetActive()
+  fullName: CRMScript.NetServer.NSFormEntity.GetActive()
+  type: Method
+  summary: "\nIndicates if this form is active or not\n"
+  remarks: 
+  syntax: 
+    content: Bool GetActive()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nBool active = thing.GetActive();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.GetConfig()
+  commentId: M:CRMScript.NetServer.NSFormEntity.GetConfig()
+  id: 'GetConfig()'
+  so.intellisense: NSFormEntity.GetConfig
+  langs:
+  - crmscript
+  name: 'GetConfig()'
+  nameWithType: NSFormEntity.GetConfig()
+  fullName: CRMScript.NetServer.NSFormEntity.GetConfig()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetConfig()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The JSON-formatted config of this form."
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nString config = thing.GetConfig();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.GetDescription()
+  commentId: M:CRMScript.NetServer.NSFormEntity.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSFormEntity.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSFormEntity.GetDescription()
+  fullName: CRMScript.NetServer.NSFormEntity.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Detailed description."
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.GetExpires()
+  commentId: M:CRMScript.NetServer.NSFormEntity.GetExpires()
+  id: 'GetExpires()'
+  so.intellisense: NSFormEntity.GetExpires
+  langs:
+  - crmscript
+  name: 'GetExpires()'
+  nameWithType: NSFormEntity.GetExpires()
+  fullName: CRMScript.NetServer.NSFormEntity.GetExpires()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetExpires()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "After this, the form will become inactive."
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nDateTime expires = thing.GetExpires();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.GetFolderId()
+  commentId: M:CRMScript.NetServer.NSFormEntity.GetFolderId()
+  id: 'GetFolderId()'
+  so.intellisense: NSFormEntity.GetFolderId
+  langs:
+  - crmscript
+  name: 'GetFolderId()'
+  nameWithType: NSFormEntity.GetFolderId()
+  fullName: CRMScript.NetServer.NSFormEntity.GetFolderId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetFolderId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The folder which this form belongs to. -1 indicates that the shipment is on the root."
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nInteger folderId = thing.GetFolderId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.GetFolderName()
+  commentId: M:CRMScript.NetServer.NSFormEntity.GetFolderName()
+  id: 'GetFolderName()'
+  so.intellisense: NSFormEntity.GetFolderName
+  langs:
+  - crmscript
+  name: 'GetFolderName()'
+  nameWithType: NSFormEntity.GetFolderName()
+  fullName: CRMScript.NetServer.NSFormEntity.GetFolderName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFolderName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the folder for this form."
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nString folderName = thing.GetFolderName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.GetFormId()
+  commentId: M:CRMScript.NetServer.NSFormEntity.GetFormId()
+  id: 'GetFormId()'
+  so.intellisense: NSFormEntity.GetFormId
+  langs:
+  - crmscript
+  name: 'GetFormId()'
+  nameWithType: NSFormEntity.GetFormId()
+  fullName: CRMScript.NetServer.NSFormEntity.GetFormId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetFormId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nInteger formId = thing.GetFormId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.GetFormKey()
+  commentId: M:CRMScript.NetServer.NSFormEntity.GetFormKey()
+  id: 'GetFormKey()'
+  so.intellisense: NSFormEntity.GetFormKey
+  langs:
+  - crmscript
+  name: 'GetFormKey()'
+  nameWithType: NSFormEntity.GetFormKey()
+  fullName: CRMScript.NetServer.NSFormEntity.GetFormKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFormKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A short string used as unique ID to access this form."
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nString formKey = thing.GetFormKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.GetGroupId()
+  commentId: M:CRMScript.NetServer.NSFormEntity.GetGroupId()
+  id: 'GetGroupId()'
+  so.intellisense: NSFormEntity.GetGroupId
+  langs:
+  - crmscript
+  name: 'GetGroupId()'
+  nameWithType: NSFormEntity.GetGroupId()
+  fullName: CRMScript.NetServer.NSFormEntity.GetGroupId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetGroupId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The group which this form belongs to."
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nInteger groupId = thing.GetGroupId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.GetMaxSubmits()
+  commentId: M:CRMScript.NetServer.NSFormEntity.GetMaxSubmits()
+  id: 'GetMaxSubmits()'
+  so.intellisense: NSFormEntity.GetMaxSubmits
+  langs:
+  - crmscript
+  name: 'GetMaxSubmits()'
+  nameWithType: NSFormEntity.GetMaxSubmits()
+  fullName: CRMScript.NetServer.NSFormEntity.GetMaxSubmits()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetMaxSubmits()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "After this number of submits, the form will become inactive."
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nInteger maxSubmits = thing.GetMaxSubmits();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSFormEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSFormEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSFormEntity.GetName()
+  fullName: CRMScript.NetServer.NSFormEntity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of this form."
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.GetNewTicket()
+  commentId: M:CRMScript.NetServer.NSFormEntity.GetNewTicket()
+  id: 'GetNewTicket()'
+  so.intellisense: NSFormEntity.GetNewTicket
+  langs:
+  - crmscript
+  name: 'GetNewTicket()'
+  nameWithType: NSFormEntity.GetNewTicket()
+  fullName: CRMScript.NetServer.NSFormEntity.GetNewTicket()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetNewTicket()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Indicates if this form creates a ticket or not."
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nBool newTicket = thing.GetNewTicket();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.GetRecaptchaMode()
+  commentId: M:CRMScript.NetServer.NSFormEntity.GetRecaptchaMode()
+  id: 'GetRecaptchaMode()'
+  so.intellisense: NSFormEntity.GetRecaptchaMode
+  langs:
+  - crmscript
+  name: 'GetRecaptchaMode()'
+  nameWithType: NSFormEntity.GetRecaptchaMode()
+  fullName: CRMScript.NetServer.NSFormEntity.GetRecaptchaMode()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRecaptchaMode()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "What is the state of the reCAPTCHA configuration? This is a read-only member. See <xref href=\"CRMScript.NetServer.FormsRecaptchaMode\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nInteger recaptchaMode = thing.GetRecaptchaMode();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.GetRecipe()
+  commentId: M:CRMScript.NetServer.NSFormEntity.GetRecipe()
+  id: 'GetRecipe()'
+  so.intellisense: NSFormEntity.GetRecipe
+  langs:
+  - crmscript
+  name: 'GetRecipe()'
+  nameWithType: NSFormEntity.GetRecipe()
+  fullName: CRMScript.NetServer.NSFormEntity.GetRecipe()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetRecipe()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The JSON-formatted recipe of this form."
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nString recipe = thing.GetRecipe();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.GetRegistered()
+  commentId: M:CRMScript.NetServer.NSFormEntity.GetRegistered()
+  id: 'GetRegistered()'
+  so.intellisense: NSFormEntity.GetRegistered
+  langs:
+  - crmscript
+  name: 'GetRegistered()'
+  nameWithType: NSFormEntity.GetRegistered()
+  fullName: CRMScript.NetServer.NSFormEntity.GetRegistered()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetRegistered()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nDateTime registered = thing.GetRegistered();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.GetRegisteredAssociateId()
+  commentId: M:CRMScript.NetServer.NSFormEntity.GetRegisteredAssociateId()
+  id: 'GetRegisteredAssociateId()'
+  so.intellisense: NSFormEntity.GetRegisteredAssociateId
+  langs:
+  - crmscript
+  name: 'GetRegisteredAssociateId()'
+  nameWithType: NSFormEntity.GetRegisteredAssociateId()
+  fullName: CRMScript.NetServer.NSFormEntity.GetRegisteredAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRegisteredAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Registered by whom."
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nInteger registeredAssociateId = thing.GetRegisteredAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.GetResponseShipmentId()
+  commentId: M:CRMScript.NetServer.NSFormEntity.GetResponseShipmentId()
+  id: 'GetResponseShipmentId()'
+  so.intellisense: NSFormEntity.GetResponseShipmentId
+  langs:
+  - crmscript
+  name: 'GetResponseShipmentId()'
+  nameWithType: NSFormEntity.GetResponseShipmentId()
+  fullName: CRMScript.NetServer.NSFormEntity.GetResponseShipmentId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetResponseShipmentId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the s_shipment that is used to send the response mails."
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nInteger responseShipmentId = thing.GetResponseShipmentId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.GetScriptId()
+  commentId: M:CRMScript.NetServer.NSFormEntity.GetScriptId()
+  id: 'GetScriptId()'
+  so.intellisense: NSFormEntity.GetScriptId
+  langs:
+  - crmscript
+  name: 'GetScriptId()'
+  nameWithType: NSFormEntity.GetScriptId()
+  fullName: CRMScript.NetServer.NSFormEntity.GetScriptId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetScriptId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The CRMScript Macro that will be run when the form is submitted."
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nInteger scriptId = thing.GetScriptId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.GetType()
+  commentId: M:CRMScript.NetServer.NSFormEntity.GetType()
+  id: 'GetType()'
+  so.intellisense: NSFormEntity.GetType
+  langs:
+  - crmscript
+  name: 'GetType()'
+  nameWithType: NSFormEntity.GetType()
+  fullName: CRMScript.NetServer.NSFormEntity.GetType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "What kind of form is this? Indicates if this is a normal form or a template. See <xref href=\"CRMScript.NetServer.FormType\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nInteger type = thing.GetType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.GetUpdated()
+  commentId: M:CRMScript.NetServer.NSFormEntity.GetUpdated()
+  id: 'GetUpdated()'
+  so.intellisense: NSFormEntity.GetUpdated
+  langs:
+  - crmscript
+  name: 'GetUpdated()'
+  nameWithType: NSFormEntity.GetUpdated()
+  fullName: CRMScript.NetServer.NSFormEntity.GetUpdated()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetUpdated()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nDateTime updated = thing.GetUpdated();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.GetUpdatedAssociateId()
+  commentId: M:CRMScript.NetServer.NSFormEntity.GetUpdatedAssociateId()
+  id: 'GetUpdatedAssociateId()'
+  so.intellisense: NSFormEntity.GetUpdatedAssociateId
+  langs:
+  - crmscript
+  name: 'GetUpdatedAssociateId()'
+  nameWithType: NSFormEntity.GetUpdatedAssociateId()
+  fullName: CRMScript.NetServer.NSFormEntity.GetUpdatedAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetUpdatedAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Last updated by whom."
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nInteger updatedAssociateId = thing.GetUpdatedAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.GetUpdatedCount()
+  commentId: M:CRMScript.NetServer.NSFormEntity.GetUpdatedCount()
+  id: 'GetUpdatedCount()'
+  so.intellisense: NSFormEntity.GetUpdatedCount
+  langs:
+  - crmscript
+  name: 'GetUpdatedCount()'
+  nameWithType: NSFormEntity.GetUpdatedCount()
+  fullName: CRMScript.NetServer.NSFormEntity.GetUpdatedCount()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetUpdatedCount()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of updates made to this record."
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nInteger updatedCount = thing.GetUpdatedCount();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.SetActive(Bool)
+  commentId: M:CRMScript.NetServer.NSFormEntity.SetActive(Bool)
+  id: 'SetActive(Bool)'
+  so.intellisense: NSFormEntity.SetActive
+  langs:
+  - crmscript
+  name: 'SetActive(Bool)'
+  nameWithType: NSFormEntity.SetActive(Bool)
+  fullName: CRMScript.NetServer.NSFormEntity.SetActive(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetActive(Bool active)
+    parameters:
+    - id: active
+      type: CRMScript.Global.Bool
+      description: "Indicates if this form is active or not."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nBool active;\nthing.SetActive(active);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.SetConfig(String)
+  commentId: M:CRMScript.NetServer.NSFormEntity.SetConfig(String)
+  id: 'SetConfig(String)'
+  so.intellisense: NSFormEntity.SetConfig
+  langs:
+  - crmscript
+  name: 'SetConfig(String)'
+  nameWithType: NSFormEntity.SetConfig(String)
+  fullName: CRMScript.NetServer.NSFormEntity.SetConfig(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetConfig(String config)
+    parameters:
+    - id: config
+      type: CRMScript.Global.String
+      description: "The JSON-formatted config of this form."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nString config;\nthing.SetConfig(config);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSFormEntity.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSFormEntity.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSFormEntity.SetDescription(String)
+  fullName: CRMScript.NetServer.NSFormEntity.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "Detailed description."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.SetExpires(DateTime)
+  commentId: M:CRMScript.NetServer.NSFormEntity.SetExpires(DateTime)
+  id: 'SetExpires(DateTime)'
+  so.intellisense: NSFormEntity.SetExpires
+  langs:
+  - crmscript
+  name: 'SetExpires(DateTime)'
+  nameWithType: NSFormEntity.SetExpires(DateTime)
+  fullName: CRMScript.NetServer.NSFormEntity.SetExpires(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExpires(DateTime expires)
+    parameters:
+    - id: expires
+      type: CRMScript.Global.DateTime
+      description: "After this, the form will become inactive."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nDateTime expires;\nthing.SetExpires(expires);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.SetFolderId(Integer)
+  commentId: M:CRMScript.NetServer.NSFormEntity.SetFolderId(Integer)
+  id: 'SetFolderId(Integer)'
+  so.intellisense: NSFormEntity.SetFolderId
+  langs:
+  - crmscript
+  name: 'SetFolderId(Integer)'
+  nameWithType: NSFormEntity.SetFolderId(Integer)
+  fullName: CRMScript.NetServer.NSFormEntity.SetFolderId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFolderId(Integer folderId)
+    parameters:
+    - id: folderId
+      type: CRMScript.Global.Integer
+      description: "The folder which this form belongs to. -1 indicates that the shipment is on the root."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nInteger folderId;\nthing.SetFolderId(folderId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.SetFolderName(String)
+  commentId: M:CRMScript.NetServer.NSFormEntity.SetFolderName(String)
+  id: 'SetFolderName(String)'
+  so.intellisense: NSFormEntity.SetFolderName
+  langs:
+  - crmscript
+  name: 'SetFolderName(String)'
+  nameWithType: NSFormEntity.SetFolderName(String)
+  fullName: CRMScript.NetServer.NSFormEntity.SetFolderName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFolderName(String folderName)
+    parameters:
+    - id: folderName
+      type: CRMScript.Global.String
+      description: "The name of the folder for this form."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nString folderName;\nthing.SetFolderName(folderName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.SetFormId(Integer)
+  commentId: M:CRMScript.NetServer.NSFormEntity.SetFormId(Integer)
+  id: 'SetFormId(Integer)'
+  so.intellisense: NSFormEntity.SetFormId
+  langs:
+  - crmscript
+  name: 'SetFormId(Integer)'
+  nameWithType: NSFormEntity.SetFormId(Integer)
+  fullName: CRMScript.NetServer.NSFormEntity.SetFormId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFormId(Integer formId)
+    parameters:
+    - id: formId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nInteger formId;\nthing.SetFormId(formId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.SetFormKey(String)
+  commentId: M:CRMScript.NetServer.NSFormEntity.SetFormKey(String)
+  id: 'SetFormKey(String)'
+  so.intellisense: NSFormEntity.SetFormKey
+  langs:
+  - crmscript
+  name: 'SetFormKey(String)'
+  nameWithType: NSFormEntity.SetFormKey(String)
+  fullName: CRMScript.NetServer.NSFormEntity.SetFormKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFormKey(String formKey)
+    parameters:
+    - id: formKey
+      type: CRMScript.Global.String
+      description: "A short string used as unique id to access this form."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nString formKey;\nthing.SetFormKey(formKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.SetGroupId(Integer)
+  commentId: M:CRMScript.NetServer.NSFormEntity.SetGroupId(Integer)
+  id: 'SetGroupId(Integer)'
+  so.intellisense: NSFormEntity.SetGroupId
+  langs:
+  - crmscript
+  name: 'SetGroupId(Integer)'
+  nameWithType: NSFormEntity.SetGroupId(Integer)
+  fullName: CRMScript.NetServer.NSFormEntity.SetGroupId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetGroupId(Integer groupId)
+    parameters:
+    - id: groupId
+      type: CRMScript.Global.Integer
+      description: "The group which this form belongs to."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nInteger groupId;\nthing.SetGroupId(groupId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.SetMaxSubmits(Integer)
+  commentId: M:CRMScript.NetServer.NSFormEntity.SetMaxSubmits(Integer)
+  id: 'SetMaxSubmits(Integer)'
+  so.intellisense: NSFormEntity.SetMaxSubmits
+  langs:
+  - crmscript
+  name: 'SetMaxSubmits(Integer)'
+  nameWithType: NSFormEntity.SetMaxSubmits(Integer)
+  fullName: CRMScript.NetServer.NSFormEntity.SetMaxSubmits(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMaxSubmits(Integer maxSubmits)
+    parameters:
+    - id: maxSubmits
+      type: CRMScript.Global.Integer
+      description: "After this number of submits, the form will become inactive."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nInteger maxSubmits;\nthing.SetMaxSubmits(maxSubmits);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSFormEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSFormEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSFormEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSFormEntity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of this form."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.SetNewTicket(Bool)
+  commentId: M:CRMScript.NetServer.NSFormEntity.SetNewTicket(Bool)
+  id: 'SetNewTicket(Bool)'
+  so.intellisense: NSFormEntity.SetNewTicket
+  langs:
+  - crmscript
+  name: 'SetNewTicket(Bool)'
+  nameWithType: NSFormEntity.SetNewTicket(Bool)
+  fullName: CRMScript.NetServer.NSFormEntity.SetNewTicket(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetNewTicket(Bool newTicket)
+    parameters:
+    - id: newTicket
+      type: CRMScript.Global.Bool
+      description: "Indicates if this form creates a ticket or not."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nBool newTicket;\nthing.SetNewTicket(newTicket);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.SetRecaptchaMode(Integer)
+  commentId: M:CRMScript.NetServer.NSFormEntity.SetRecaptchaMode(Integer)
+  id: 'SetRecaptchaMode(Integer)'
+  so.intellisense: NSFormEntity.SetRecaptchaMode
+  langs:
+  - crmscript
+  name: 'SetRecaptchaMode(Integer)'
+  nameWithType: NSFormEntity.SetRecaptchaMode(Integer)
+  fullName: CRMScript.NetServer.NSFormEntity.SetRecaptchaMode(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetRecaptchaMode(Integer recaptchaMode)
+    parameters:
+    - id: recaptchaMode
+      type: CRMScript.Global.Integer
+      description: "What is the state of the reCAPTCHA configuration? This is a read-only member. See <xref href=\"CRMScript.NetServer.FormsRecaptchaMode\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nInteger recaptchaMode;\nthing.SetRecaptchaMode(recaptchaMode);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.SetRecipe(String)
+  commentId: M:CRMScript.NetServer.NSFormEntity.SetRecipe(String)
+  id: 'SetRecipe(String)'
+  so.intellisense: NSFormEntity.SetRecipe
+  langs:
+  - crmscript
+  name: 'SetRecipe(String)'
+  nameWithType: NSFormEntity.SetRecipe(String)
+  fullName: CRMScript.NetServer.NSFormEntity.SetRecipe(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRecipe(String recipe)
+    parameters:
+    - id: recipe
+      type: CRMScript.Global.String
+      description: "The JSON-formatted recipe of this form."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nString recipe;\nthing.SetRecipe(recipe);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.SetRegistered(DateTime)
+  commentId: M:CRMScript.NetServer.NSFormEntity.SetRegistered(DateTime)
+  id: 'SetRegistered(DateTime)'
+  so.intellisense: NSFormEntity.SetRegistered
+  langs:
+  - crmscript
+  name: 'SetRegistered(DateTime)'
+  nameWithType: NSFormEntity.SetRegistered(DateTime)
+  fullName: CRMScript.NetServer.NSFormEntity.SetRegistered(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRegistered(DateTime registered)
+    parameters:
+    - id: registered
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nDateTime registered;\nthing.SetRegistered(registered);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.SetRegisteredAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSFormEntity.SetRegisteredAssociateId(Integer)
+  id: 'SetRegisteredAssociateId(Integer)'
+  so.intellisense: NSFormEntity.SetRegisteredAssociateId
+  langs:
+  - crmscript
+  name: 'SetRegisteredAssociateId(Integer)'
+  nameWithType: NSFormEntity.SetRegisteredAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSFormEntity.SetRegisteredAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRegisteredAssociateId(Integer registeredAssociateId)
+    parameters:
+    - id: registeredAssociateId
+      type: CRMScript.Global.Integer
+      description: "Registered by whom."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nInteger registeredAssociateId;\nthing.SetRegisteredAssociateId(registeredAssociateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.SetResponseShipmentId(Integer)
+  commentId: M:CRMScript.NetServer.NSFormEntity.SetResponseShipmentId(Integer)
+  id: 'SetResponseShipmentId(Integer)'
+  so.intellisense: NSFormEntity.SetResponseShipmentId
+  langs:
+  - crmscript
+  name: 'SetResponseShipmentId(Integer)'
+  nameWithType: NSFormEntity.SetResponseShipmentId(Integer)
+  fullName: CRMScript.NetServer.NSFormEntity.SetResponseShipmentId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetResponseShipmentId(Integer responseShipmentId)
+    parameters:
+    - id: responseShipmentId
+      type: CRMScript.Global.Integer
+      description: "The ID of the s_shipment that is used to send the response mails."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nInteger responseShipmentId;\nthing.SetResponseShipmentId(responseShipmentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.SetScriptId(Integer)
+  commentId: M:CRMScript.NetServer.NSFormEntity.SetScriptId(Integer)
+  id: 'SetScriptId(Integer)'
+  so.intellisense: NSFormEntity.SetScriptId
+  langs:
+  - crmscript
+  name: 'SetScriptId(Integer)'
+  nameWithType: NSFormEntity.SetScriptId(Integer)
+  fullName: CRMScript.NetServer.NSFormEntity.SetScriptId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetScriptId(Integer scriptId)
+    parameters:
+    - id: scriptId
+      type: CRMScript.Global.Integer
+      description: "The CRMScript Macro that will be run when the form is submitted."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nInteger scriptId;\nthing.SetScriptId(scriptId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.SetType(Integer)
+  commentId: M:CRMScript.NetServer.NSFormEntity.SetType(Integer)
+  id: 'SetType(Integer)'
+  so.intellisense: NSFormEntity.SetType
+  langs:
+  - crmscript
+  name: 'SetType(Integer)'
+  nameWithType: NSFormEntity.SetType(Integer)
+  fullName: CRMScript.NetServer.NSFormEntity.SetType(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetType(Integer type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "What kind of form is this? Indicates if this is a normal form or a template. See <xref href=\"CRMScript.NetServer.FormType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nInteger type = 0;\nthing.SetType(type);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.SetUpdated(DateTime)
+  commentId: M:CRMScript.NetServer.NSFormEntity.SetUpdated(DateTime)
+  id: 'SetUpdated(DateTime)'
+  so.intellisense: NSFormEntity.SetUpdated
+  langs:
+  - crmscript
+  name: 'SetUpdated(DateTime)'
+  nameWithType: NSFormEntity.SetUpdated(DateTime)
+  fullName: CRMScript.NetServer.NSFormEntity.SetUpdated(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdated(DateTime updated)
+    parameters:
+    - id: updated
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nDateTime updated;\nthing.SetUpdated(updated);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.SetUpdatedAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSFormEntity.SetUpdatedAssociateId(Integer)
+  id: 'SetUpdatedAssociateId(Integer)'
+  so.intellisense: NSFormEntity.SetUpdatedAssociateId
+  langs:
+  - crmscript
+  name: 'SetUpdatedAssociateId(Integer)'
+  nameWithType: NSFormEntity.SetUpdatedAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSFormEntity.SetUpdatedAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedAssociateId(Integer updatedAssociateId)
+    parameters:
+    - id: updatedAssociateId
+      type: CRMScript.Global.Integer
+      description: "Last updated by whom."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nInteger updatedAssociateId;\nthing.SetUpdatedAssociateId(updatedAssociateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFormEntity.SetUpdatedCount(Integer)
+  commentId: M:CRMScript.NetServer.NSFormEntity.SetUpdatedCount(Integer)
+  id: 'SetUpdatedCount(Integer)'
+  so.intellisense: NSFormEntity.SetUpdatedCount
+  langs:
+  - crmscript
+  name: 'SetUpdatedCount(Integer)'
+  nameWithType: NSFormEntity.SetUpdatedCount(Integer)
+  fullName: CRMScript.NetServer.NSFormEntity.SetUpdatedCount(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedCount(Integer updatedCount)
+    parameters:
+    - id: updatedCount
+      type: CRMScript.Global.Integer
+      description: "Number of updates made to this record."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFormEntity thing;\nInteger updatedCount;\nthing.SetUpdatedCount(updatedCount);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSFormEntity
+  commentId: T:CRMScript.NetServer.NSFormEntity
+  isExternal: true
+  name: NSFormEntity
+  nameWithType: NSFormEntity
+  fullName: CRMScript.NetServer.NSFormEntity
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.FormsRecaptchaMode
+  commentId: T:CRMScript.NetServer.FormsRecaptchaMode
+  isExternal: true
+  name: FormsRecaptchaMode
+  nameWithType: FormsRecaptchaMode
+  fullName: CRMScript.NetServer.FormsRecaptchaMode
+- uid: CRMScript.NetServer.FormType
+  commentId: T:CRMScript.NetServer.FormType
+  isExternal: true
+  name: FormType
+  nameWithType: FormType
+  fullName: CRMScript.NetServer.FormType

@@ -1,0 +1,285 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSArchiveConfiguration
+  commentId: T:CRMScript.NetServer.NSArchiveConfiguration
+  id: NSArchiveConfiguration
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSArchiveConfiguration.#ctor
+  - CRMScript.NetServer.NSArchiveConfiguration.GetArchiveColumnInfo()
+  - CRMScript.NetServer.NSArchiveConfiguration.GetArchiveEntityInfo()
+  - CRMScript.NetServer.NSArchiveConfiguration.GetArchiveOrderByInfo()
+  - CRMScript.NetServer.NSArchiveConfiguration.GetOwnerKeys()
+  - CRMScript.NetServer.NSArchiveConfiguration.SetArchiveColumnInfo(NSArchiveColumnInfo[])
+  - CRMScript.NetServer.NSArchiveConfiguration.SetArchiveEntityInfo(NSSelectableMDOListItem[])
+  - CRMScript.NetServer.NSArchiveConfiguration.SetArchiveOrderByInfo(NSArchiveOrderByInfo[])
+  - CRMScript.NetServer.NSArchiveConfiguration.SetOwnerKeys(String)
+  name: NSArchiveConfiguration
+  nameWithType: NSArchiveConfiguration
+  fullName: CRMScript.NetServer.NSArchiveConfiguration
+  type: Class
+  summary: "\nUsed to store and fetch the configuration of an archive. The configuration consists of entities and columns; entities correspond to archive provider entities and the checkboxes you see in the bottom of standard archives. Column configuration includes both what columns should be visible, what order they are in (left to right), and whether the archive rows should be sorted by one or more columns.<p></p>\nDesired columns can be set through the selectable MDO list called archiveColumns:\\<perovider name>, and entities can be set through the selectable MDO list archiveEntities:\\<provider name>. You can also use the SetChosenEntities and SetChosenColumns method of this service. The selectable MDO list implementation is suitable for data binding using mdo list controls.\n"
+  example: 
+- uid: CRMScript.NetServer.NSArchiveConfiguration.#ctor
+  commentId: M:CRMScript.NetServer.NSArchiveConfiguration.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSArchiveConfiguration
+  langs:
+  - crmscript
+  name: NSArchiveConfiguration()
+  nameWithType: NSArchiveConfiguration.#ctor
+  fullName: CRMScript.NetServer.NSArchiveConfiguration.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSArchiveConfiguration class.\n"
+  remarks: 
+  syntax: 
+    content: NSArchiveConfiguration
+  example: 
+- uid: CRMScript.NetServer.NSArchiveConfiguration.GetArchiveColumnInfo()
+  commentId: M:CRMScript.NetServer.NSArchiveConfiguration.GetArchiveColumnInfo()
+  id: 'GetArchiveColumnInfo()'
+  so.intellisense: NSArchiveConfiguration.GetArchiveColumnInfo
+  langs:
+  - crmscript
+  name: 'GetArchiveColumnInfo()'
+  nameWithType: NSArchiveConfiguration.GetArchiveColumnInfo()
+  fullName: CRMScript.NetServer.NSArchiveConfiguration.GetArchiveColumnInfo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSArchiveColumnInfo[] GetArchiveColumnInfo()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSArchiveColumnInfo[]
+      description:
+  example: 
+  - "\n<pre><code>NSArchiveConfiguration thing;\nNSArchiveColumnInfo[] archiveColumnInfo = thing.GetArchiveColumnInfo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveConfiguration.GetArchiveEntityInfo()
+  commentId: M:CRMScript.NetServer.NSArchiveConfiguration.GetArchiveEntityInfo()
+  id: 'GetArchiveEntityInfo()'
+  so.intellisense: NSArchiveConfiguration.GetArchiveEntityInfo
+  langs:
+  - crmscript
+  name: 'GetArchiveEntityInfo()'
+  nameWithType: NSArchiveConfiguration.GetArchiveEntityInfo()
+  fullName: CRMScript.NetServer.NSArchiveConfiguration.GetArchiveEntityInfo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSSelectableMDOListItem[] GetArchiveEntityInfo()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSelectableMDOListItem[]
+      description:
+  example: 
+  - "\n<pre><code>NSArchiveConfiguration thing;\nNSSelectableMDOListItem[] archiveEntityInfo = thing.GetArchiveEntityInfo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveConfiguration.GetArchiveOrderByInfo()
+  commentId: M:CRMScript.NetServer.NSArchiveConfiguration.GetArchiveOrderByInfo()
+  id: 'GetArchiveOrderByInfo()'
+  so.intellisense: NSArchiveConfiguration.GetArchiveOrderByInfo
+  langs:
+  - crmscript
+  name: 'GetArchiveOrderByInfo()'
+  nameWithType: NSArchiveConfiguration.GetArchiveOrderByInfo()
+  fullName: CRMScript.NetServer.NSArchiveConfiguration.GetArchiveOrderByInfo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSArchiveOrderByInfo[] GetArchiveOrderByInfo()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSArchiveOrderByInfo[]
+      description:
+  example: 
+  - "\n<pre><code>NSArchiveConfiguration thing;\nNSArchiveOrderByInfo[] archiveOrderByInfo = thing.GetArchiveOrderByInfo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveConfiguration.GetOwnerKeys()
+  commentId: M:CRMScript.NetServer.NSArchiveConfiguration.GetOwnerKeys()
+  id: 'GetOwnerKeys()'
+  so.intellisense: NSArchiveConfiguration.GetOwnerKeys
+  langs:
+  - crmscript
+  name: 'GetOwnerKeys()'
+  nameWithType: NSArchiveConfiguration.GetOwnerKeys()
+  fullName: CRMScript.NetServer.NSArchiveConfiguration.GetOwnerKeys()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetOwnerKeys()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The actual ownership information for the configuration that was retrieved."
+  example: 
+  - "\n<pre><code>NSArchiveConfiguration thing;\nString ownerKeys = thing.GetOwnerKeys();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveConfiguration.SetArchiveColumnInfo(NSArchiveColumnInfo[])
+  commentId: M:CRMScript.NetServer.NSArchiveConfiguration.SetArchiveColumnInfo(NSArchiveColumnInfo[])
+  id: 'SetArchiveColumnInfo(NSArchiveColumnInfo[])'
+  so.intellisense: NSArchiveConfiguration.SetArchiveColumnInfo
+  langs:
+  - crmscript
+  name: 'SetArchiveColumnInfo(NSArchiveColumnInfo[])'
+  nameWithType: NSArchiveConfiguration.SetArchiveColumnInfo(NSArchiveColumnInfo[])
+  fullName: CRMScript.NetServer.NSArchiveConfiguration.SetArchiveColumnInfo(NSArchiveColumnInfo[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetArchiveColumnInfo(NSArchiveColumnInfo[] archiveColumnInfo)
+    parameters:
+    - id: archiveColumnInfo
+      type: CRMScript.NetServer.NSArchiveColumnInfo[]
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveConfiguration thing;\nNSArchiveColumnInfo[] archiveColumnInfo;\nthing.SetArchiveColumnInfo(archiveColumnInfo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveConfiguration.SetArchiveEntityInfo(NSSelectableMDOListItem[])
+  commentId: M:CRMScript.NetServer.NSArchiveConfiguration.SetArchiveEntityInfo(NSSelectableMDOListItem[])
+  id: 'SetArchiveEntityInfo(NSSelectableMDOListItem[])'
+  so.intellisense: NSArchiveConfiguration.SetArchiveEntityInfo
+  langs:
+  - crmscript
+  name: 'SetArchiveEntityInfo(NSSelectableMDOListItem[])'
+  nameWithType: NSArchiveConfiguration.SetArchiveEntityInfo(NSSelectableMDOListItem[])
+  fullName: CRMScript.NetServer.NSArchiveConfiguration.SetArchiveEntityInfo(NSSelectableMDOListItem[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetArchiveEntityInfo(NSSelectableMDOListItem[] archiveEntityInfo)
+    parameters:
+    - id: archiveEntityInfo
+      type: CRMScript.NetServer.NSSelectableMDOListItem[]
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveConfiguration thing;\nNSSelectableMDOListItem[] archiveEntityInfo;\nthing.SetArchiveEntityInfo(archiveEntityInfo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveConfiguration.SetArchiveOrderByInfo(NSArchiveOrderByInfo[])
+  commentId: M:CRMScript.NetServer.NSArchiveConfiguration.SetArchiveOrderByInfo(NSArchiveOrderByInfo[])
+  id: 'SetArchiveOrderByInfo(NSArchiveOrderByInfo[])'
+  so.intellisense: NSArchiveConfiguration.SetArchiveOrderByInfo
+  langs:
+  - crmscript
+  name: 'SetArchiveOrderByInfo(NSArchiveOrderByInfo[])'
+  nameWithType: NSArchiveConfiguration.SetArchiveOrderByInfo(NSArchiveOrderByInfo[])
+  fullName: CRMScript.NetServer.NSArchiveConfiguration.SetArchiveOrderByInfo(NSArchiveOrderByInfo[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetArchiveOrderByInfo(NSArchiveOrderByInfo[] archiveOrderByInfo)
+    parameters:
+    - id: archiveColumnInfo
+      type: CRMScript.NetServer.NSArchiveColumnInfo[]
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveConfiguration thing;\nNSArchiveOrderByInfo[] archiveOrderByInfo;\nthing.SetArchiveOrderByInfo(archiveOrderByInfo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveConfiguration.SetOwnerKeys(String)
+  commentId: M:CRMScript.NetServer.NSArchiveConfiguration.SetOwnerKeys(String)
+  id: 'SetOwnerKeys(String)'
+  so.intellisense: NSArchiveConfiguration.SetOwnerKeys
+  langs:
+  - crmscript
+  name: 'SetOwnerKeys(String)'
+  nameWithType: NSArchiveConfiguration.SetOwnerKeys(String)
+  fullName: CRMScript.NetServer.NSArchiveConfiguration.SetOwnerKeys(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOwnerKeys(String ownerKeys)
+    parameters:
+    - id: ownerKeys
+      type: CRMScript.Global.String
+      description: "The actual ownership information for the configuration that was retrieved."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveConfiguration thing;\nString ownerKeys;\nthing.SetOwnerKeys(ownerKeys);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSArchiveConfiguration
+  commentId: T:CRMScript.NetServer.NSArchiveConfiguration
+  isExternal: true
+  name: NSArchiveConfiguration
+  nameWithType: NSArchiveConfiguration
+  fullName: CRMScript.NetServer.NSArchiveConfiguration
+- uid: CRMScript.NetServer.NSArchiveColumnInfo[]
+  isExternal: true
+  name: NSArchiveColumnInfo[]
+  nameWithType: NSArchiveColumnInfo[]
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSArchiveColumnInfo
+    isExternal: true
+    name: NSArchiveColumnInfo
+    nameWithType: NSArchiveColumnInfo
+    fullName: CRMScript.NetServer.NSArchiveColumnInfo
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSArchiveColumnInfo
+  commentId: T:CRMScript.NetServer.NSArchiveColumnInfo
+  isExternal: true
+  name: NSArchiveColumnInfo
+  nameWithType: NSArchiveColumnInfo
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo
+- uid: CRMScript.NetServer.NSSelectableMDOListItem[]
+  isExternal: true
+  name: NSSelectableMDOListItem[]
+  nameWithType: NSSelectableMDOListItem[]
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSSelectableMDOListItem
+    isExternal: true
+    name: NSSelectableMDOListItem
+    nameWithType: NSSelectableMDOListItem
+    fullName: CRMScript.NetServer.NSSelectableMDOListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSSelectableMDOListItem
+  commentId: T:CRMScript.NetServer.NSSelectableMDOListItem
+  isExternal: true
+  name: NSSelectableMDOListItem
+  nameWithType: NSSelectableMDOListItem
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem
+- uid: CRMScript.NetServer.NSArchiveOrderByInfo[]
+  isExternal: true
+  name: NSArchiveOrderByInfo[]
+  nameWithType: NSArchiveOrderByInfo[]
+  fullName: CRMScript.NetServer.NSArchiveOrderByInfo[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSArchiveOrderByInfo
+    isExternal: true
+    name: NSArchiveOrderByInfo
+    nameWithType: NSArchiveOrderByInfo
+    fullName: CRMScript.NetServer.NSArchiveOrderByInfo
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSArchiveOrderByInfo
+  commentId: T:CRMScript.NetServer.NSArchiveOrderByInfo
+  isExternal: true
+  name: NSArchiveOrderByInfo
+  nameWithType: NSArchiveOrderByInfo
+  fullName: CRMScript.NetServer.NSArchiveOrderByInfo
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

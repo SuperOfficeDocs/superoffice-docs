@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSAccessGatewayInfo
+  commentId: T:CRMScript.NetServer.NSAccessGatewayInfo
+  id: NSAccessGatewayInfo
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSAccessGatewayInfo.#ctor
+  - CRMScript.NetServer.NSAccessGatewayInfo.GetClientId()
+  - CRMScript.NetServer.NSAccessGatewayInfo.GetRedirectUri()
+  - CRMScript.NetServer.NSAccessGatewayInfo.SetClientId(String)
+  - CRMScript.NetServer.NSAccessGatewayInfo.SetRedirectUri(String)
+  name: NSAccessGatewayInfo
+  nameWithType: NSAccessGatewayInfo
+  fullName: CRMScript.NetServer.NSAccessGatewayInfo
+  type: Class
+  summary: "\nAccess gateway related data and operations. Carrier object for AccessGatewayInfo.\n"
+  example: 
+- uid: CRMScript.NetServer.NSAccessGatewayInfo.#ctor
+  commentId: M:CRMScript.NetServer.NSAccessGatewayInfo.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSAccessGatewayInfo
+  langs:
+  - crmscript
+  name: NSAccessGatewayInfo()
+  nameWithType: NSAccessGatewayInfo.#ctor
+  fullName: CRMScript.NetServer.NSAccessGatewayInfo.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSAccessGatewayInfo class.\n"
+  remarks: 
+  syntax: 
+    content: NSAccessGatewayInfo
+  example: 
+- uid: CRMScript.NetServer.NSAccessGatewayInfo.GetClientId()
+  commentId: M:CRMScript.NetServer.NSAccessGatewayInfo.GetClientId()
+  id: 'GetClientId()'
+  so.intellisense: NSAccessGatewayInfo.GetClientId
+  langs:
+  - crmscript
+  name: 'GetClientId()'
+  nameWithType: NSAccessGatewayInfo.GetClientId()
+  fullName: CRMScript.NetServer.NSAccessGatewayInfo.GetClientId()
+  type: Method
+  summary: "\nReturns the registered client ID for AccessGateway OIDC.\n"
+  remarks: 
+  syntax: 
+    content: String GetClientId()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The registered client ID for AccessGateway OIDC."
+  example: 
+  - "\n<pre><code>NSAccessGatewayInfo thing;\nString clientId = thing.GetClientId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAccessGatewayInfo.GetRedirectUri()
+  commentId: M:CRMScript.NetServer.NSAccessGatewayInfo.GetRedirectUri()
+  id: 'GetRedirectUri()'
+  so.intellisense: NSAccessGatewayInfo.GetRedirectUri
+  langs:
+  - crmscript
+  name: 'GetRedirectUri()'
+  nameWithType: NSAccessGatewayInfo.GetRedirectUri()
+  fullName: CRMScript.NetServer.NSAccessGatewayInfo.GetRedirectUri()
+  type: Method
+  summary: "\nReturns the registered redirect_uri for AccessGateway OIDC.\n"
+  remarks: 
+  syntax: 
+    content: String GetRedirectUri()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The registered redirect_uri for AccessGateway OIDC."
+  example: 
+  - "\n<pre><code>NSAccessGatewayInfo thing;\nString redirectUri = thing.GetRedirectUri();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAccessGatewayInfo.SetClientId(String)
+  commentId: M:CRMScript.NetServer.NSAccessGatewayInfo.SetClientId(String)
+  id: 'SetClientId(String)'
+  so.intellisense: NSAccessGatewayInfo.SetClientId
+  langs:
+  - crmscript
+  name: 'SetClientId(String)'
+  nameWithType: NSAccessGatewayInfo.SetClientId(String)
+  fullName: CRMScript.NetServer.NSAccessGatewayInfo.SetClientId(String)
+  type: Method
+  summary: "\nSets the client ID for AccessGateway OIDC.\n"
+  remarks: 
+  syntax: 
+    content: Void SetClientId(String clientId)
+    parameters:
+    - id: clientId
+      type: CRMScript.Global.String
+      description: "Client ID for AccessGateway OIDC."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAccessGatewayInfo thing;\nString clientId;\nthing.SetClientId(clientId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAccessGatewayInfo.SetRedirectUri(String)
+  commentId: M:CRMScript.NetServer.NSAccessGatewayInfo.SetRedirectUri(String)
+  id: 'SetRedirectUri(String)'
+  so.intellisense: NSAccessGatewayInfo.SetRedirectUri
+  langs:
+  - crmscript
+  name: 'SetRedirectUri(String)'
+  nameWithType: NSAccessGatewayInfo.SetRedirectUri(String)
+  fullName: CRMScript.NetServer.NSAccessGatewayInfo.SetRedirectUri(String)
+  type: Method
+  summary: "\nSets the redirect_uri for AccessGateway OIDC.\n"
+  remarks: 
+  syntax: 
+    content: Void SetRedirectUri(String redirectUri)
+    parameters:
+    - id: redirectUri
+      type: CRMScript.Global.String
+      description: "The redirect_uri for AccessGateway OIDC."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAccessGatewayInfo thing;\nString redirectUri;\nthing.SetRedirectUri(redirectUri);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSAccessGatewayInfo
+  commentId: T:CRMScript.NetServer.NSAccessGatewayInfo
+  isExternal: true
+  name: NSAccessGatewayInfo
+  nameWithType: NSAccessGatewayInfo
+  fullName: CRMScript.NetServer.NSAccessGatewayInfo
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

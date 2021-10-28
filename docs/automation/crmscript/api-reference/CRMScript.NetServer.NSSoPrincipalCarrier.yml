@@ -1,0 +1,1167 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier
+  commentId: T:CRMScript.NetServer.NSSoPrincipalCarrier
+  id: NSSoPrincipalCarrier
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSSoPrincipalCarrier.#ctor
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetAssociate()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetAssociateId()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetBusinessId()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetCategoryId()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetContactId()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetContactOwner()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetCountryId()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetDatabaseContextIdentifier()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetEjAccessLevel()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetEjUserId()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetEjUserStatus()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetEMailAddress()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetFullName()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetFunctionRights()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetGroupId()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetHomeCountryId()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetIsPerson()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetLicenses()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetPersonId()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetProvidedCredentials()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetRoleDescription()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetRoleId()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetRoleName()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetRoleType()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetSecondaryGroups()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.GetUserType()
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetAssociate(String)
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetAssociateId(Integer)
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetBusinessId(Integer)
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetCategoryId(Integer)
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetContactId(Integer)
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetContactOwner(Integer)
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetCountryId(Integer)
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetDatabaseContextIdentifier(String)
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetEjAccessLevel(Integer)
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetEjUserId(Integer)
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetEjUserStatus(Integer)
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetEMailAddress(String)
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetFullName(String)
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetFunctionRights(String[])
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetGroupId(Integer)
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetHomeCountryId(Integer)
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetIsPerson(Bool)
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetLicenses(NSGrantedModuleLicense[])
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetPersonId(Integer)
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetProvidedCredentials(NSProvidedCredential[])
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetRoleDescription(String)
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetRoleId(Integer)
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetRoleName(String)
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetRoleType(Integer)
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetSecondaryGroups(Integer[])
+  - CRMScript.NetServer.NSSoPrincipalCarrier.SetUserType(Integer)
+  name: NSSoPrincipalCarrier
+  nameWithType: NSSoPrincipalCarrier
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.#ctor
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSSoPrincipalCarrier
+  langs:
+  - crmscript
+  name: NSSoPrincipalCarrier()
+  nameWithType: NSSoPrincipalCarrier.#ctor
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSSoPrincipalCarrier class.\n"
+  remarks: 
+  syntax: 
+    content: NSSoPrincipalCarrier
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetAssociate()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetAssociate()
+  id: 'GetAssociate()'
+  so.intellisense: NSSoPrincipalCarrier.GetAssociate
+  langs:
+  - crmscript
+  name: 'GetAssociate()'
+  nameWithType: NSSoPrincipalCarrier.GetAssociate()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetAssociate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetAssociate()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetAssociateId()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetAssociateId()
+  id: 'GetAssociateId()'
+  so.intellisense: NSSoPrincipalCarrier.GetAssociateId
+  langs:
+  - crmscript
+  name: 'GetAssociateId()'
+  nameWithType: NSSoPrincipalCarrier.GetAssociateId()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetBusinessId()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetBusinessId()
+  id: 'GetBusinessId()'
+  so.intellisense: NSSoPrincipalCarrier.GetBusinessId
+  langs:
+  - crmscript
+  name: 'GetBusinessId()'
+  nameWithType: NSSoPrincipalCarrier.GetBusinessId()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetBusinessId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetBusinessId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetCategoryId()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetCategoryId()
+  id: 'GetCategoryId()'
+  so.intellisense: NSSoPrincipalCarrier.GetCategoryId
+  langs:
+  - crmscript
+  name: 'GetCategoryId()'
+  nameWithType: NSSoPrincipalCarrier.GetCategoryId()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetCategoryId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCategoryId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetContactId()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetContactId()
+  id: 'GetContactId()'
+  so.intellisense: NSSoPrincipalCarrier.GetContactId
+  langs:
+  - crmscript
+  name: 'GetContactId()'
+  nameWithType: NSSoPrincipalCarrier.GetContactId()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetContactId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetContactId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetContactOwner()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetContactOwner()
+  id: 'GetContactOwner()'
+  so.intellisense: NSSoPrincipalCarrier.GetContactOwner
+  langs:
+  - crmscript
+  name: 'GetContactOwner()'
+  nameWithType: NSSoPrincipalCarrier.GetContactOwner()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetContactOwner()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetContactOwner()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetCountryId()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetCountryId()
+  id: 'GetCountryId()'
+  so.intellisense: NSSoPrincipalCarrier.GetCountryId
+  langs:
+  - crmscript
+  name: 'GetCountryId()'
+  nameWithType: NSSoPrincipalCarrier.GetCountryId()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetCountryId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCountryId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetDatabaseContextIdentifier()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetDatabaseContextIdentifier()
+  id: 'GetDatabaseContextIdentifier()'
+  so.intellisense: NSSoPrincipalCarrier.GetDatabaseContextIdentifier
+  langs:
+  - crmscript
+  name: 'GetDatabaseContextIdentifier()'
+  nameWithType: NSSoPrincipalCarrier.GetDatabaseContextIdentifier()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetDatabaseContextIdentifier()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDatabaseContextIdentifier()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetEjAccessLevel()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetEjAccessLevel()
+  id: 'GetEjAccessLevel()'
+  so.intellisense: NSSoPrincipalCarrier.GetEjAccessLevel
+  langs:
+  - crmscript
+  name: 'GetEjAccessLevel()'
+  nameWithType: NSSoPrincipalCarrier.GetEjAccessLevel()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetEjAccessLevel()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetEjAccessLevel()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetEjUserId()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetEjUserId()
+  id: 'GetEjUserId()'
+  so.intellisense: NSSoPrincipalCarrier.GetEjUserId
+  langs:
+  - crmscript
+  name: 'GetEjUserId()'
+  nameWithType: NSSoPrincipalCarrier.GetEjUserId()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetEjUserId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetEjUserId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetEjUserStatus()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetEjUserStatus()
+  id: 'GetEjUserStatus()'
+  so.intellisense: NSSoPrincipalCarrier.GetEjUserStatus
+  langs:
+  - crmscript
+  name: 'GetEjUserStatus()'
+  nameWithType: NSSoPrincipalCarrier.GetEjUserStatus()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetEjUserStatus()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetEjUserStatus()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetEMailAddress()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetEMailAddress()
+  id: 'GetEMailAddress()'
+  so.intellisense: NSSoPrincipalCarrier.GetEMailAddress
+  langs:
+  - crmscript
+  name: 'GetEMailAddress()'
+  nameWithType: NSSoPrincipalCarrier.GetEMailAddress()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetEMailAddress()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetEMailAddress()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetFullName()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetFullName()
+  id: 'GetFullName()'
+  so.intellisense: NSSoPrincipalCarrier.GetFullName
+  langs:
+  - crmscript
+  name: 'GetFullName()'
+  nameWithType: NSSoPrincipalCarrier.GetFullName()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetFullName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFullName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetFunctionRights()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetFunctionRights()
+  id: 'GetFunctionRights()'
+  so.intellisense: NSSoPrincipalCarrier.GetFunctionRights
+  langs:
+  - crmscript
+  name: 'GetFunctionRights()'
+  nameWithType: NSSoPrincipalCarrier.GetFunctionRights()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetFunctionRights()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String[] GetFunctionRights()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetGroupId()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetGroupId()
+  id: 'GetGroupId()'
+  so.intellisense: NSSoPrincipalCarrier.GetGroupId
+  langs:
+  - crmscript
+  name: 'GetGroupId()'
+  nameWithType: NSSoPrincipalCarrier.GetGroupId()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetGroupId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetGroupId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetHomeCountryId()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetHomeCountryId()
+  id: 'GetHomeCountryId()'
+  so.intellisense: NSSoPrincipalCarrier.GetHomeCountryId
+  langs:
+  - crmscript
+  name: 'GetHomeCountryId()'
+  nameWithType: NSSoPrincipalCarrier.GetHomeCountryId()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetHomeCountryId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetHomeCountryId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetIsPerson()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetIsPerson()
+  id: 'GetIsPerson()'
+  so.intellisense: NSSoPrincipalCarrier.GetIsPerson
+  langs:
+  - crmscript
+  name: 'GetIsPerson()'
+  nameWithType: NSSoPrincipalCarrier.GetIsPerson()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetIsPerson()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsPerson()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetLicenses()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetLicenses()
+  id: 'GetLicenses()'
+  so.intellisense: NSSoPrincipalCarrier.GetLicenses
+  langs:
+  - crmscript
+  name: 'GetLicenses()'
+  nameWithType: NSSoPrincipalCarrier.GetLicenses()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetLicenses()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSGrantedModuleLicense[] GetLicenses()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSGrantedModuleLicense[]
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetPersonId()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetPersonId()
+  id: 'GetPersonId()'
+  so.intellisense: NSSoPrincipalCarrier.GetPersonId
+  langs:
+  - crmscript
+  name: 'GetPersonId()'
+  nameWithType: NSSoPrincipalCarrier.GetPersonId()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetPersonId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPersonId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetProvidedCredentials()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetProvidedCredentials()
+  id: 'GetProvidedCredentials()'
+  so.intellisense: NSSoPrincipalCarrier.GetProvidedCredentials
+  langs:
+  - crmscript
+  name: 'GetProvidedCredentials()'
+  nameWithType: NSSoPrincipalCarrier.GetProvidedCredentials()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetProvidedCredentials()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSProvidedCredential[] GetProvidedCredentials()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSProvidedCredential[]
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetRoleDescription()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetRoleDescription()
+  id: 'GetRoleDescription()'
+  so.intellisense: NSSoPrincipalCarrier.GetRoleDescription
+  langs:
+  - crmscript
+  name: 'GetRoleDescription()'
+  nameWithType: NSSoPrincipalCarrier.GetRoleDescription()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetRoleDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetRoleDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetRoleId()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetRoleId()
+  id: 'GetRoleId()'
+  so.intellisense: NSSoPrincipalCarrier.GetRoleId
+  langs:
+  - crmscript
+  name: 'GetRoleId()'
+  nameWithType: NSSoPrincipalCarrier.GetRoleId()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetRoleId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRoleId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetRoleName()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetRoleName()
+  id: 'GetRoleName()'
+  so.intellisense: NSSoPrincipalCarrier.GetRoleName
+  langs:
+  - crmscript
+  name: 'GetRoleName()'
+  nameWithType: NSSoPrincipalCarrier.GetRoleName()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetRoleName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetRoleName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetRoleType()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetRoleType()
+  id: 'GetRoleType()'
+  so.intellisense: NSSoPrincipalCarrier.GetRoleType
+  langs:
+  - crmscript
+  name: 'GetRoleType()'
+  nameWithType: NSSoPrincipalCarrier.GetRoleType()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetRoleType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRoleType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetSecondaryGroups()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetSecondaryGroups()
+  id: 'GetSecondaryGroups()'
+  so.intellisense: NSSoPrincipalCarrier.GetSecondaryGroups
+  langs:
+  - crmscript
+  name: 'GetSecondaryGroups()'
+  nameWithType: NSSoPrincipalCarrier.GetSecondaryGroups()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetSecondaryGroups()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer[] GetSecondaryGroups()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer[]
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.GetUserType()
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.GetUserType()
+  id: 'GetUserType()'
+  so.intellisense: NSSoPrincipalCarrier.GetUserType
+  langs:
+  - crmscript
+  name: 'GetUserType()'
+  nameWithType: NSSoPrincipalCarrier.GetUserType()
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.GetUserType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetUserType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetAssociate(String)
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetAssociate(String)
+  id: 'SetAssociate(String)'
+  so.intellisense: NSSoPrincipalCarrier.SetAssociate
+  langs:
+  - crmscript
+  name: 'SetAssociate(String)'
+  nameWithType: NSSoPrincipalCarrier.SetAssociate(String)
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetAssociate(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAssociate(String associate)
+    parameters:
+    - id: associate
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetAssociateId(Integer)
+  id: 'SetAssociateId(Integer)'
+  so.intellisense: NSSoPrincipalCarrier.SetAssociateId
+  langs:
+  - crmscript
+  name: 'SetAssociateId(Integer)'
+  nameWithType: NSSoPrincipalCarrier.SetAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAssociateId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetBusinessId(Integer)
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetBusinessId(Integer)
+  id: 'SetBusinessId(Integer)'
+  so.intellisense: NSSoPrincipalCarrier.SetBusinessId
+  langs:
+  - crmscript
+  name: 'SetBusinessId(Integer)'
+  nameWithType: NSSoPrincipalCarrier.SetBusinessId(Integer)
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetBusinessId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetBusinessId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetCategoryId(Integer)
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetCategoryId(Integer)
+  id: 'SetCategoryId(Integer)'
+  so.intellisense: NSSoPrincipalCarrier.SetCategoryId
+  langs:
+  - crmscript
+  name: 'SetCategoryId(Integer)'
+  nameWithType: NSSoPrincipalCarrier.SetCategoryId(Integer)
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetCategoryId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCategoryId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetContactId(Integer)
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetContactId(Integer)
+  id: 'SetContactId(Integer)'
+  so.intellisense: NSSoPrincipalCarrier.SetContactId
+  langs:
+  - crmscript
+  name: 'SetContactId(Integer)'
+  nameWithType: NSSoPrincipalCarrier.SetContactId(Integer)
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetContactId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetContactOwner(Integer)
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetContactOwner(Integer)
+  id: 'SetContactOwner(Integer)'
+  so.intellisense: NSSoPrincipalCarrier.SetContactOwner
+  langs:
+  - crmscript
+  name: 'SetContactOwner(Integer)'
+  nameWithType: NSSoPrincipalCarrier.SetContactOwner(Integer)
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetContactOwner(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactOwner(Integer owner)
+    parameters:
+    - id: owner
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetCountryId(Integer)
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetCountryId(Integer)
+  id: 'SetCountryId(Integer)'
+  so.intellisense: NSSoPrincipalCarrier.SetCountryId
+  langs:
+  - crmscript
+  name: 'SetCountryId(Integer)'
+  nameWithType: NSSoPrincipalCarrier.SetCountryId(Integer)
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetCountryId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCountryId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetDatabaseContextIdentifier(String)
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetDatabaseContextIdentifier(String)
+  id: 'SetDatabaseContextIdentifier(String)'
+  so.intellisense: NSSoPrincipalCarrier.SetDatabaseContextIdentifier
+  langs:
+  - crmscript
+  name: 'SetDatabaseContextIdentifier(String)'
+  nameWithType: NSSoPrincipalCarrier.SetDatabaseContextIdentifier(String)
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetDatabaseContextIdentifier(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDatabaseContextIdentifier(String id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetEjAccessLevel(Integer)
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetEjAccessLevel(Integer)
+  id: 'SetEjAccessLevel(Integer)'
+  so.intellisense: NSSoPrincipalCarrier.SetEjAccessLevel
+  langs:
+  - crmscript
+  name: 'SetEjAccessLevel(Integer)'
+  nameWithType: NSSoPrincipalCarrier.SetEjAccessLevel(Integer)
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetEjAccessLevel(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEjAccessLevel(Integer level)
+    parameters:
+    - id: level
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetEjUserId(Integer)
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetEjUserId(Integer)
+  id: 'SetEjUserId(Integer)'
+  so.intellisense: NSSoPrincipalCarrier.SetEjUserId
+  langs:
+  - crmscript
+  name: 'SetEjUserId(Integer)'
+  nameWithType: NSSoPrincipalCarrier.SetEjUserId(Integer)
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetEjUserId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEjUserId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetEjUserStatus(Integer)
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetEjUserStatus(Integer)
+  id: 'SetEjUserStatus(Integer)'
+  so.intellisense: NSSoPrincipalCarrier.SetEjUserStatus
+  langs:
+  - crmscript
+  name: 'SetEjUserStatus(Integer)'
+  nameWithType: NSSoPrincipalCarrier.SetEjUserStatus(Integer)
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetEjUserStatus(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEjUserStatus(Integer status)
+    parameters:
+    - id: status
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetEMailAddress(String)
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetEMailAddress(String)
+  id: 'SetEMailAddress(String)'
+  so.intellisense: NSSoPrincipalCarrier.SetEMailAddress
+  langs:
+  - crmscript
+  name: 'SetEMailAddress(String)'
+  nameWithType: NSSoPrincipalCarrier.SetEMailAddress(String)
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetEMailAddress(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEMailAddress(String email)
+    parameters:
+    - id: email
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetFullName(String)
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetFullName(String)
+  id: 'SetFullName(String)'
+  so.intellisense: NSSoPrincipalCarrier.SetFullName
+  langs:
+  - crmscript
+  name: 'SetFullName(String)'
+  nameWithType: NSSoPrincipalCarrier.SetFullName(String)
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetFullName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFullName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetFunctionRights(String[])
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetFunctionRights(String[])
+  id: 'SetFunctionRights(String[])'
+  so.intellisense: NSSoPrincipalCarrier.SetFunctionRights
+  langs:
+  - crmscript
+  name: 'SetFunctionRights(String[])'
+  nameWithType: NSSoPrincipalCarrier.SetFunctionRights(String[])
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetFunctionRights(String[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFunctionRights(String[] rights)
+    parameters:
+    - id: rights
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetGroupId(Integer)
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetGroupId(Integer)
+  id: 'SetGroupId(Integer)'
+  so.intellisense: NSSoPrincipalCarrier.SetGroupId
+  langs:
+  - crmscript
+  name: 'SetGroupId(Integer)'
+  nameWithType: NSSoPrincipalCarrier.SetGroupId(Integer)
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetGroupId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetGroupId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetHomeCountryId(Integer)
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetHomeCountryId(Integer)
+  id: 'SetHomeCountryId(Integer)'
+  so.intellisense: NSSoPrincipalCarrier.SetHomeCountryId
+  langs:
+  - crmscript
+  name: 'SetHomeCountryId(Integer)'
+  nameWithType: NSSoPrincipalCarrier.SetHomeCountryId(Integer)
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetHomeCountryId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetHomeCountryId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetIsPerson(Bool)
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetIsPerson(Bool)
+  id: 'SetIsPerson(Bool)'
+  so.intellisense: NSSoPrincipalCarrier.SetIsPerson
+  langs:
+  - crmscript
+  name: 'SetIsPerson(Bool)'
+  nameWithType: NSSoPrincipalCarrier.SetIsPerson(Bool)
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetIsPerson(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsPerson(Bool isPerson)
+    parameters:
+    - id: isPerson
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetLicenses(NSGrantedModuleLicense[])
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetLicenses(NSGrantedModuleLicense[])
+  id: 'SetLicenses(NSGrantedModuleLicense[])'
+  so.intellisense: NSSoPrincipalCarrier.SetLicenses
+  langs:
+  - crmscript
+  name: 'SetLicenses(NSGrantedModuleLicense[])'
+  nameWithType: NSSoPrincipalCarrier.SetLicenses(NSGrantedModuleLicense[])
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetLicenses(NSGrantedModuleLicense[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLicenses(NSGrantedModuleLicense[] licenses)
+    parameters:
+    - id: licenses
+      type: CRMScript.NetServer.NSGrantedModuleLicense[]
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetPersonId(Integer)
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetPersonId(Integer)
+  id: 'SetPersonId(Integer)'
+  so.intellisense: NSSoPrincipalCarrier.SetPersonId
+  langs:
+  - crmscript
+  name: 'SetPersonId(Integer)'
+  nameWithType: NSSoPrincipalCarrier.SetPersonId(Integer)
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetPersonId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetProvidedCredentials(NSProvidedCredential[])
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetProvidedCredentials(NSProvidedCredential[])
+  id: 'SetProvidedCredentials(NSProvidedCredential[])'
+  so.intellisense: NSSoPrincipalCarrier.SetProvidedCredentials
+  langs:
+  - crmscript
+  name: 'SetProvidedCredentials(NSProvidedCredential[])'
+  nameWithType: NSSoPrincipalCarrier.SetProvidedCredentials(NSProvidedCredential[])
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetProvidedCredentials(NSProvidedCredential[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProvidedCredentials(NSProvidedCredential[] credentials)
+    parameters:
+    - id: credentials
+      type: CRMScript.NetServer.NSProvidedCredential[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetRoleDescription(String)
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetRoleDescription(String)
+  id: 'SetRoleDescription(String)'
+  so.intellisense: NSSoPrincipalCarrier.SetRoleDescription
+  langs:
+  - crmscript
+  name: 'SetRoleDescription(String)'
+  nameWithType: NSSoPrincipalCarrier.SetRoleDescription(String)
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetRoleDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRoleDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetRoleId(Integer)
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetRoleId(Integer)
+  id: 'SetRoleId(Integer)'
+  so.intellisense: NSSoPrincipalCarrier.SetRoleId
+  langs:
+  - crmscript
+  name: 'SetRoleId(Integer)'
+  nameWithType: NSSoPrincipalCarrier.SetRoleId(Integer)
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetRoleId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRoleId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetRoleName(String)
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetRoleName(String)
+  id: 'SetRoleName(String)'
+  so.intellisense: NSSoPrincipalCarrier.SetRoleName
+  langs:
+  - crmscript
+  name: 'SetRoleName(String)'
+  nameWithType: NSSoPrincipalCarrier.SetRoleName(String)
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetRoleName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRoleName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetRoleType(Integer)
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetRoleType(Integer)
+  id: 'SetRoleType(Integer)'
+  so.intellisense: NSSoPrincipalCarrier.SetRoleType
+  langs:
+  - crmscript
+  name: 'SetRoleType(Integer)'
+  nameWithType: NSSoPrincipalCarrier.SetRoleType(Integer)
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetRoleType(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRoleType(Integer type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetSecondaryGroups(Integer[])
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetSecondaryGroups(Integer[])
+  id: 'SetSecondaryGroups(Integer[])'
+  so.intellisense: NSSoPrincipalCarrier.SetSecondaryGroups
+  langs:
+  - crmscript
+  name: 'SetSecondaryGroups(Integer[])'
+  nameWithType: NSSoPrincipalCarrier.SetSecondaryGroups(Integer[])
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetSecondaryGroups(Integer[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSecondaryGroups(Integer[] groups)
+    parameters:
+    - id: groups
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier.SetUserType(Integer)
+  commentId: M:CRMScript.NetServer.NSSoPrincipalCarrier.SetUserType(Integer)
+  id: 'SetUserType(Integer)'
+  so.intellisense: NSSoPrincipalCarrier.SetUserType
+  langs:
+  - crmscript
+  name: 'SetUserType(Integer)'
+  nameWithType: NSSoPrincipalCarrier.SetUserType(Integer)
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier.SetUserType(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUserType(Integer type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSSoPrincipalCarrier
+  commentId: T:CRMScript.NetServer.NSSoPrincipalCarrier
+  isExternal: true
+  name: NSSoPrincipalCarrier
+  nameWithType: NSSoPrincipalCarrier
+  fullName: CRMScript.NetServer.NSSoPrincipalCarrier
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    isExternal: true
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    isExternal: true
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

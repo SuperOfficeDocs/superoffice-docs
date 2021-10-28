@@ -79,6 +79,8 @@ items:
     href: ../datatypes/datetime-type.md
   - name: Generic type
     href: ../datatypes/generic-type.md
+  - name: EventData type
+    href: ../datatypes/eventdata-type.md
 - name: Debugging
   items:
   - name: Built in debugger

@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.ExternalUserInfoModification
+  # Similar to SuperOffice.WebApi.Data.ExternalUserInfoModification
+  commentId: T:CRMScript.NetServer.ExternalUserInfoModification
+  id: ExternalUserInfoModification
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.ExternalUserInfoModification.Unknown
+  - CRMScript.NetServer.ExternalUserInfoModification.UserName
+  - CRMScript.NetServer.ExternalUserInfoModification.Password
+  - CRMScript.NetServer.ExternalUserInfoModification.Role
+  - CRMScript.NetServer.ExternalUserInfoModification.Active
+  name: ExternalUserInfoModification
+  nameWithType: ExternalUserInfoModification
+  fullName: CRMScript.NetServer.ExternalUserInfoModification
+  type: Enum
+  summary: "\nWhat part of the external user should be changed.\n"
+- uid: CRMScript.NetServer.ExternalUserInfoModification.Unknown
+  commentId: F:CRMScript.NetServer.ExternalUserInfoModification.Unknown
+  id: ExternalUserInfoModification.Unknown
+  langs:
+  - crmscript
+  name: ExternalUserInfoModification.Unknown
+  nameWithType: ExternalUserInfoModification.Unknown
+  fullName: CRMScript.NetServer.ExternalUserInfoModification.Unknown
+  type: Field
+  summary: "\n0: Unknown - used when initializing\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.ExternalUserInfoModification
+- uid: CRMScript.NetServer.ExternalUserInfoModification.UserName
+  commentId: F:CRMScript.NetServer.ExternalUserInfoModification.UserName
+  id: ExternalUserInfoModification.UserName
+  langs:
+  - crmscript
+  name: ExternalUserInfoModification.UserName
+  nameWithType: ExternalUserInfoModification.UserName
+  fullName: CRMScript.NetServer.ExternalUserInfoModification.UserName
+  type: Field
+  summary: "\n1: Change the UserName\n"
+  syntax: 
+    content: UserName = 1
+    type: CRMScript.NetServer.ExternalUserInfoModification
+- uid: CRMScript.NetServer.ExternalUserInfoModification.Password
+  commentId: F:CRMScript.NetServer.ExternalUserInfoModification.Password
+  id: ExternalUserInfoModification.Password
+  langs:
+  - crmscript
+  name: ExternalUserInfoModification.Password
+  nameWithType: ExternalUserInfoModification.Password
+  fullName: CRMScript.NetServer.ExternalUserInfoModification.Password
+  type: Field
+  summary: "\n2: Change the Password\n"
+  syntax: 
+    content: Password = 2
+    type: CRMScript.NetServer.ExternalUserInfoModification
+- uid: CRMScript.NetServer.ExternalUserInfoModification.Role
+  commentId: F:CRMScript.NetServer.ExternalUserInfoModification.Role
+  id: ExternalUserInfoModification.Role
+  langs:
+  - crmscript
+  name: ExternalUserInfoModification.Role
+  nameWithType: ExternalUserInfoModification.Role
+  fullName: CRMScript.NetServer.ExternalUserInfoModification.Role
+  type: Field
+  summary: "\n4: Change role ID.\n"
+  syntax: 
+    content: Role = 4
+    type: CRMScript.NetServer.ExternalUserInfoModification
+- uid: CRMScript.NetServer.ExternalUserInfoModification.Active
+  commentId: F:CRMScript.NetServer.ExternalUserInfoModification.Active
+  id: ExternalUserInfoModification.Active
+  langs:
+  - crmscript
+  name: ExternalUserInfoModification.Active
+  nameWithType: ExternalUserInfoModification.Active
+  fullName: CRMScript.NetServer.ExternalUserInfoModification.Active
+  type: Field
+  summary: "\n8: Change isActive\n"
+  syntax: 
+    content: Active = 8
+    type: CRMScript.NetServer.ExternalUserInfoModification
+references:
+- uid: CRMScript.NetServer.ExternalUserInfoModification
+  commentId: T:CRMScript.NetServer.ExternalUserInfoModification
+  isExternal: true
+  name: ExternalUserInfoModification
+  nameWithType: ExternalUserInfoModification
+  fullName: CRMScript.NetServer.ExternalUserInfoModification

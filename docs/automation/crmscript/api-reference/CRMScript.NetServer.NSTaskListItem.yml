@@ -1,0 +1,655 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSTaskListItem
+  commentId: T:CRMScript.NetServer.NSTaskListItem
+  id: NSTaskListItem
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSTaskListItem.#ctor
+  - CRMScript.NetServer.NSTaskListItem.GetColorIndex()
+  - CRMScript.NetServer.NSTaskListItem.GetDefaultVideomeetingStatus()
+  - CRMScript.NetServer.NSTaskListItem.GetDeleted()
+  - CRMScript.NetServer.NSTaskListItem.GetDirection()
+  - CRMScript.NetServer.NSTaskListItem.GetIntentId()
+  - CRMScript.NetServer.NSTaskListItem.GetIsDefaultAlldayEvent()
+  - CRMScript.NetServer.NSTaskListItem.GetIsDefaultFree()
+  - CRMScript.NetServer.NSTaskListItem.GetIsDefaultPublished()
+  - CRMScript.NetServer.NSTaskListItem.GetRank()
+  - CRMScript.NetServer.NSTaskListItem.GetTaskListItemId()
+  - CRMScript.NetServer.NSTaskListItem.GetTooltip()
+  - CRMScript.NetServer.NSTaskListItem.GetType()
+  - CRMScript.NetServer.NSTaskListItem.GetValue()
+  - CRMScript.NetServer.NSTaskListItem.SetColorIndex(Integer)
+  - CRMScript.NetServer.NSTaskListItem.SetDefaultVideomeetingStatus(Integer)
+  - CRMScript.NetServer.NSTaskListItem.SetDeleted(Bool)
+  - CRMScript.NetServer.NSTaskListItem.SetDirection(Integer)
+  - CRMScript.NetServer.NSTaskListItem.SetIntentId(Integer)
+  - CRMScript.NetServer.NSTaskListItem.SetIsDefaultAlldayEvent(Bool)
+  - CRMScript.NetServer.NSTaskListItem.SetIsDefaultFree(Bool)
+  - CRMScript.NetServer.NSTaskListItem.SetIsDefaultPublished(Bool)
+  - CRMScript.NetServer.NSTaskListItem.SetRank(Integer)
+  - CRMScript.NetServer.NSTaskListItem.SetTaskListItemId(Integer)
+  - CRMScript.NetServer.NSTaskListItem.SetTooltip(String)
+  - CRMScript.NetServer.NSTaskListItem.SetType(Integer)
+  - CRMScript.NetServer.NSTaskListItem.SetValue(String)
+  name: NSTaskListItem
+  nameWithType: NSTaskListItem
+  fullName: CRMScript.NetServer.NSTaskListItem
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSTaskListItem.#ctor
+  commentId: M:CRMScript.NetServer.NSTaskListItem.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSTaskListItem
+  langs:
+  - crmscript
+  name: NSTaskListItem()
+  nameWithType: NSTaskListItem.#ctor
+  fullName: CRMScript.NetServer.NSTaskListItem.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSTaskListItem class.\n"
+  remarks: 
+  syntax: 
+    content: NSTaskListItem
+  example: 
+- uid: CRMScript.NetServer.NSTaskListItem.GetColorIndex()
+  commentId: M:CRMScript.NetServer.NSTaskListItem.GetColorIndex()
+  id: 'GetColorIndex()'
+  so.intellisense: NSTaskListItem.GetColorIndex
+  langs:
+  - crmscript
+  name: 'GetColorIndex()'
+  nameWithType: NSTaskListItem.GetColorIndex()
+  fullName: CRMScript.NetServer.NSTaskListItem.GetColorIndex()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetColorIndex()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "JAP. See <xref href=\"CRMScript.NetServer.ColorIndex\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nInteger colorIndex = thing.GetColorIndex();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.GetDefaultVideomeetingStatus()
+  commentId: M:CRMScript.NetServer.NSTaskListItem.GetDefaultVideomeetingStatus()
+  id: 'GetDefaultVideomeetingStatus()'
+  so.intellisense: NSTaskListItem.GetDefaultVideomeetingStatus
+  langs:
+  - crmscript
+  name: 'GetDefaultVideomeetingStatus()'
+  nameWithType: NSTaskListItem.GetDefaultVideomeetingStatus()
+  fullName: CRMScript.NetServer.NSTaskListItem.GetDefaultVideomeetingStatus()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDefaultVideomeetingStatus()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Default video-meeting status for meetings created in SuperOffice CRM. See <xref href=\"CRMScript.NetServer.VideoMeetingStatus\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nInteger defaultVideomeetingStatus = thing.GetDefaultVideomeetingStatus();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.GetDeleted()
+  commentId: M:CRMScript.NetServer.NSTaskListItem.GetDeleted()
+  id: 'GetDeleted()'
+  so.intellisense: NSTaskListItem.GetDeleted
+  langs:
+  - crmscript
+  name: 'GetDeleted()'
+  nameWithType: NSTaskListItem.GetDeleted()
+  fullName: CRMScript.NetServer.NSTaskListItem.GetDeleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetDeleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If true, the Task list item is deleted."
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nBool deleted = thing.GetDeleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.GetDirection()
+  commentId: M:CRMScript.NetServer.NSTaskListItem.GetDirection()
+  id: 'GetDirection()'
+  so.intellisense: NSTaskListItem.GetDirection
+  langs:
+  - crmscript
+  name: 'GetDirection()'
+  nameWithType: NSTaskListItem.GetDirection()
+  fullName: CRMScript.NetServer.NSTaskListItem.GetDirection()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDirection()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "1 = incoming, 2 = outgoing. See <xref href=\"CRMScript.NetServer.TaskDirection\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nInteger direction = thing.GetDirection();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.GetIntentId()
+  commentId: M:CRMScript.NetServer.NSTaskListItem.GetIntentId()
+  id: 'GetIntentId()'
+  so.intellisense: NSTaskListItem.GetIntentId
+  langs:
+  - crmscript
+  name: 'GetIntentId()'
+  nameWithType: NSTaskListItem.GetIntentId()
+  fullName: CRMScript.NetServer.NSTaskListItem.GetIntentId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetIntentId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Link to the intention of this kind of task (used by SAINT)."
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nInteger intentId = thing.GetIntentId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.GetIsDefaultAlldayEvent()
+  commentId: M:CRMScript.NetServer.NSTaskListItem.GetIsDefaultAlldayEvent()
+  id: 'GetIsDefaultAlldayEvent()'
+  so.intellisense: NSTaskListItem.GetIsDefaultAlldayEvent
+  langs:
+  - crmscript
+  name: 'GetIsDefaultAlldayEvent()'
+  nameWithType: NSTaskListItem.GetIsDefaultAlldayEvent()
+  fullName: CRMScript.NetServer.NSTaskListItem.GetIsDefaultAlldayEvent()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsDefaultAlldayEvent()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if all day event."
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nBool isDefaultAlldayEvent = thing.GetIsDefaultAlldayEvent();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.GetIsDefaultFree()
+  commentId: M:CRMScript.NetServer.NSTaskListItem.GetIsDefaultFree()
+  id: 'GetIsDefaultFree()'
+  so.intellisense: NSTaskListItem.GetIsDefaultFree
+  langs:
+  - crmscript
+  name: 'GetIsDefaultFree()'
+  nameWithType: NSTaskListItem.GetIsDefaultFree()
+  fullName: CRMScript.NetServer.NSTaskListItem.GetIsDefaultFree()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsDefaultFree()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if free, false if busy."
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nBool isDefaultFree = thing.GetIsDefaultFree();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.GetIsDefaultPublished()
+  commentId: M:CRMScript.NetServer.NSTaskListItem.GetIsDefaultPublished()
+  id: 'GetIsDefaultPublished()'
+  so.intellisense: NSTaskListItem.GetIsDefaultPublished
+  langs:
+  - crmscript
+  name: 'GetIsDefaultPublished()'
+  nameWithType: NSTaskListItem.GetIsDefaultPublished()
+  fullName: CRMScript.NetServer.NSTaskListItem.GetIsDefaultPublished()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsDefaultPublished()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Published to external persons."
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nBool isDefaultPublished = thing.GetIsDefaultPublished();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.GetRank()
+  commentId: M:CRMScript.NetServer.NSTaskListItem.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSTaskListItem.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSTaskListItem.GetRank()
+  fullName: CRMScript.NetServer.NSTaskListItem.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Rank order."
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.GetTaskListItemId()
+  commentId: M:CRMScript.NetServer.NSTaskListItem.GetTaskListItemId()
+  id: 'GetTaskListItemId()'
+  so.intellisense: NSTaskListItem.GetTaskListItemId
+  langs:
+  - crmscript
+  name: 'GetTaskListItemId()'
+  nameWithType: NSTaskListItem.GetTaskListItemId()
+  fullName: CRMScript.NetServer.NSTaskListItem.GetTaskListItemId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTaskListItemId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nInteger taskListItemId = thing.GetTaskListItemId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSTaskListItem.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSTaskListItem.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSTaskListItem.GetTooltip()
+  fullName: CRMScript.NetServer.NSTaskListItem.GetTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Tooltip or other description."
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nString tooltip = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.GetType()
+  commentId: M:CRMScript.NetServer.NSTaskListItem.GetType()
+  id: 'GetType()'
+  so.intellisense: NSTaskListItem.GetType
+  langs:
+  - crmscript
+  name: 'GetType()'
+  nameWithType: NSTaskListItem.GetType()
+  fullName: CRMScript.NetServer.NSTaskListItem.GetType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo; See <xref href=\"CRMScript.NetServer.TaskType\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nInteger type = thing.GetType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.GetValue()
+  commentId: M:CRMScript.NetServer.NSTaskListItem.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSTaskListItem.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSTaskListItem.GetValue()
+  fullName: CRMScript.NetServer.NSTaskListItem.GetValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The list item."
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nString value = thing.GetValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.SetColorIndex(Integer)
+  commentId: M:CRMScript.NetServer.NSTaskListItem.SetColorIndex(Integer)
+  id: 'SetColorIndex(Integer)'
+  so.intellisense: NSTaskListItem.SetColorIndex
+  langs:
+  - crmscript
+  name: 'SetColorIndex(Integer)'
+  nameWithType: NSTaskListItem.SetColorIndex(Integer)
+  fullName: CRMScript.NetServer.NSTaskListItem.SetColorIndex(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetColorIndex(Integer colorIndex)
+    parameters:
+    - id: colorIndex
+      type: CRMScript.Global.Integer
+      description: "JAP. See <xref href=\"CRMScript.NetServer.ColorIndex\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nInteger colorIndex;\nthing.SetColorIndex(colorIndex);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.SetDefaultVideomeetingStatus(Integer)
+  commentId: M:CRMScript.NetServer.NSTaskListItem.SetDefaultVideomeetingStatus(Integer)
+  id: 'SetDefaultVideomeetingStatus(Integer)'
+  so.intellisense: NSTaskListItem.SetDefaultVideomeetingStatus
+  langs:
+  - crmscript
+  name: 'SetDefaultVideomeetingStatus(Integer)'
+  nameWithType: NSTaskListItem.SetDefaultVideomeetingStatus(Integer)
+  fullName: CRMScript.NetServer.NSTaskListItem.SetDefaultVideomeetingStatus(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDefaultVideomeetingStatus(Integer defaultVideomeetingStatus)
+    parameters:
+    - id: defaultVideomeetingStatus
+      type: CRMScript.Global.Integer
+      description: "Default video-meeting status for meetings created in SuperOffice CRM. See <xref href=\"CRMScript.NetServer.VideoMeetingStatus\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nInteger defaultVideomeetingStatus;\nthing.SetDefaultVideomeetingStatus(defaultVideomeetingStatus);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.SetDeleted(Bool)
+  commentId: M:CRMScript.NetServer.NSTaskListItem.SetDeleted(Bool)
+  id: 'SetDeleted(Bool)'
+  so.intellisense: NSTaskListItem.SetDeleted
+  langs:
+  - crmscript
+  name: 'SetDeleted(Bool)'
+  nameWithType: NSTaskListItem.SetDeleted(Bool)
+  fullName: CRMScript.NetServer.NSTaskListItem.SetDeleted(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeleted(Bool deleted)
+    parameters:
+    - id: deleted
+      type: CRMScript.Global.Bool
+      description: "If true, the Task list item is deleted."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nBool deleted;\nthing.SetDeleted(deleted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.SetDirection(Integer)
+  commentId: M:CRMScript.NetServer.NSTaskListItem.SetDirection(Integer)
+  id: 'SetDirection(Integer)'
+  so.intellisense: NSTaskListItem.SetDirection
+  langs:
+  - crmscript
+  name: 'SetDirection(Integer)'
+  nameWithType: NSTaskListItem.SetDirection(Integer)
+  fullName: CRMScript.NetServer.NSTaskListItem.SetDirection(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetDirection(Integer direction)
+    parameters:
+    - id: direction
+      type: CRMScript.Global.Integer
+      description: "1 = incoming, 2 = outgoing. See <xref href=\"CRMScript.NetServer.TaskDirection\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nInteger direction;\nthing.SetDirection(direction);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.SetIntentId(Integer)
+  commentId: M:CRMScript.NetServer.NSTaskListItem.SetIntentId(Integer)
+  id: 'SetIntentId(Integer)'
+  so.intellisense: NSTaskListItem.SetIntentId
+  langs:
+  - crmscript
+  name: 'SetIntentId(Integer)'
+  nameWithType: NSTaskListItem.SetIntentId(Integer)
+  fullName: CRMScript.NetServer.NSTaskListItem.SetIntentId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIntentId(Integer intentId)
+    parameters:
+    - id: intentId
+      type: CRMScript.Global.Integer
+      description: "Link to the intention of this kind of task (used by SAINT)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nInteger intentId;\nthing.SetIntentId(intentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.SetIsDefaultAlldayEvent(Bool)
+  commentId: M:CRMScript.NetServer.NSTaskListItem.SetIsDefaultAlldayEvent(Bool)
+  id: 'SetIsDefaultAlldayEvent(Bool)'
+  so.intellisense: NSTaskListItem.SetIsDefaultAlldayEvent
+  langs:
+  - crmscript
+  name: 'SetIsDefaultAlldayEvent(Bool)'
+  nameWithType: NSTaskListItem.SetIsDefaultAlldayEvent(Bool)
+  fullName: CRMScript.NetServer.NSTaskListItem.SetIsDefaultAlldayEvent(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsDefaultAlldayEvent(Bool isDefaultAlldayEvent)
+    parameters:
+    - id: isDefaultAlldayEvent
+      type: CRMScript.Global.Bool
+      description: "True if all day event."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nBool isDefaultAlldayEvent;\nthing.SetIsDefaultAlldayEvent(isDefaultAlldayEvent);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.SetIsDefaultFree(Bool)
+  commentId: M:CRMScript.NetServer.NSTaskListItem.SetIsDefaultFree(Bool)
+  id: 'SetIsDefaultFree(Bool)'
+  so.intellisense: NSTaskListItem.SetIsDefaultFree
+  langs:
+  - crmscript
+  name: 'SetIsDefaultFree(Bool)'
+  nameWithType: NSTaskListItem.SetIsDefaultFree(Bool)
+  fullName: CRMScript.NetServer.NSTaskListItem.SetIsDefaultFree(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsDefaultFree(Bool isDefaultFree)
+    parameters:
+    - id: isDefaultFree
+      type: CRMScript.Global.Bool
+      description: "True if free, false if busy."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nBool isDefaultFree;\nthing.SetIsDefaultFree(isDefaultFree);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.SetIsDefaultPublished(Bool)
+  commentId: M:CRMScript.NetServer.NSTaskListItem.SetIsDefaultPublished(Bool)
+  id: 'SetIsDefaultPublished(Bool)'
+  so.intellisense: NSTaskListItem.SetIsDefaultPublished
+  langs:
+  - crmscript
+  name: 'SetIsDefaultPublished(Bool)'
+  nameWithType: NSTaskListItem.SetIsDefaultPublished(Bool)
+  fullName: CRMScript.NetServer.NSTaskListItem.SetIsDefaultPublished(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsDefaultPublished(Bool isDefaultPublished)
+    parameters:
+    - id: isDefaultPublished
+      type: CRMScript.Global.Bool
+      description: "Published to external persons."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nBool isDefaultPublished;\nthing.SetIsDefaultPublished(isDefaultPublished);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSTaskListItem.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSTaskListItem.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSTaskListItem.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSTaskListItem.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "Rank order."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.SetTaskListItemId(Integer)
+  commentId: M:CRMScript.NetServer.NSTaskListItem.SetTaskListItemId(Integer)
+  id: 'SetTaskListItemId(Integer)'
+  so.intellisense: NSTaskListItem.SetTaskListItemId
+  langs:
+  - crmscript
+  name: 'SetTaskListItemId(Integer)'
+  nameWithType: NSTaskListItem.SetTaskListItemId(Integer)
+  fullName: CRMScript.NetServer.NSTaskListItem.SetTaskListItemId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTaskListItemId(Integer taskListItemId)
+    parameters:
+    - id: taskListItemId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nInteger taskListItemId;\nthing.SetTaskListItemId(taskListItemId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSTaskListItem.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSTaskListItem.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSTaskListItem.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSTaskListItem.SetTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: "Tooltip or other description."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nString tooltip;\nthing.SetTooltip(tooltip);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.SetType(Integer)
+  commentId: M:CRMScript.NetServer.NSTaskListItem.SetType(Integer)
+  id: 'SetType(Integer)'
+  so.intellisense: NSTaskListItem.SetType
+  langs:
+  - crmscript
+  name: 'SetType(Integer)'
+  nameWithType: NSTaskListItem.SetType(Integer)
+  fullName: CRMScript.NetServer.NSTaskListItem.SetType(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetType(Integer type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo; See <xref href=\"CRMScript.NetServer.TaskType\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nInteger type;\nthing.SetType(type);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTaskListItem.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSTaskListItem.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSTaskListItem.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSTaskListItem.SetValue(String)
+  fullName: CRMScript.NetServer.NSTaskListItem.SetValue(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: "The list item."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTaskListItem thing;\nString value;\nthing.SetValue(value);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSTaskListItem
+  commentId: T:CRMScript.NetServer.NSTaskListItem
+  isExternal: true
+  name: NSTaskListItem
+  nameWithType: NSTaskListItem
+  fullName: CRMScript.NetServer.NSTaskListItem
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.TaskType
+  commentId: T:CRMScript.NetServer.TaskType
+  isExternal: true
+  name: TaskType
+  nameWithType: TaskType
+  fullName: CRMScript.NetServer.TaskType
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.TaskDirection
+  commentId: T:CRMScript.NetServer.TaskDirection
+  isExternal: true
+  name: TaskDirection
+  nameWithType: TaskDirection
+  fullName: CRMScript.NetServer.TaskDirection
+- uid: CRMScript.NetServer.VideoMeetingStatus
+  commentId: T:CRMScript.NetServer.VideoMeetingStatus
+  isExternal: true
+  name: VideoMeetingStatus
+  nameWithType: VideoMeetingStatus
+  fullName: CRMScript.NetServer.VideoMeetingStatus
+- uid: CRMScript.NetServer.ColorIndex
+  commentId: T:CRMScript.NetServer.ColorIndex
+  isExternal: true
+  name: ColorIndex
+  nameWithType: ColorIndex
+  fullName: CRMScript.NetServer.ColorIndex

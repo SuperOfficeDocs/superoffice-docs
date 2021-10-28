@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSApproveRejectResponse
+  commentId: T:CRMScript.NetServer.NSApproveRejectResponse
+  id: NSApproveRejectResponse
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSApproveRejectResponse.#ctor
+  - CRMScript.NetServer.NSApproveRejectResponse.GetCreatedAppointmentId()
+  - CRMScript.NetServer.NSApproveRejectResponse.GetPluginResponse()
+  - CRMScript.NetServer.NSApproveRejectResponse.SetCreatedAppointmentId(Integer)
+  - CRMScript.NetServer.NSApproveRejectResponse.SetPluginResponse(NSPluginResponse)
+  name: NSApproveRejectResponse
+  nameWithType: NSApproveRejectResponse
+  fullName: CRMScript.NetServer.NSApproveRejectResponse
+  type: Class
+  summary: "\nContains a PluginResponse and an appointment ID if the operation created one.\n"
+  example: 
+- uid: CRMScript.NetServer.NSApproveRejectResponse.#ctor
+  commentId: M:CRMScript.NetServer.NSApproveRejectResponse.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSApproveRejectResponse
+  langs:
+  - crmscript
+  name: NSApproveRejectResponse()
+  nameWithType: NSApproveRejectResponse.#ctor
+  fullName: CRMScript.NetServer.NSApproveRejectResponse.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSApproveRejectResponse class.\n"
+  remarks: 
+  syntax: 
+    content: NSApproveRejectResponse
+  example: 
+- uid: CRMScript.NetServer.NSApproveRejectResponse.GetCreatedAppointmentId()
+  commentId: M:CRMScript.NetServer.NSApproveRejectResponse.GetCreatedAppointmentId()
+  id: 'GetCreatedAppointmentId()'
+  so.intellisense: NSApproveRejectResponse.GetCreatedAppointmentId
+  langs:
+  - crmscript
+  name: 'GetCreatedAppointmentId()'
+  nameWithType: NSApproveRejectResponse.GetCreatedAppointmentId()
+  fullName: CRMScript.NetServer.NSApproveRejectResponse.GetCreatedAppointmentId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCreatedAppointmentId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of the created follow up."
+  example: 
+  - "\n<pre><code>NSApproveRejectResponse thing;\nInteger createdAppointmentId = thing.GetCreatedAppointmentId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSApproveRejectResponse.GetPluginResponse()
+  commentId: M:CRMScript.NetServer.NSApproveRejectResponse.GetPluginResponse()
+  id: 'GetPluginResponse()'
+  so.intellisense: NSApproveRejectResponse.GetPluginResponse
+  langs:
+  - crmscript
+  name: 'GetPluginResponse()'
+  nameWithType: NSApproveRejectResponse.GetPluginResponse()
+  fullName: CRMScript.NetServer.NSApproveRejectResponse.GetPluginResponse()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSPluginResponse GetPluginResponse()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSPluginResponse
+      description: "The response from the operation."
+  example: 
+  - "\n<pre><code>NSApproveRejectResponse thing;\nNSPluginResponse pluginResponse = thing.GetPluginResponse();</code></pre>\n"
+- uid: CRMScript.NetServer.NSApproveRejectResponse.SetCreatedAppointmentId(Integer)
+  commentId: M:CRMScript.NetServer.NSApproveRejectResponse.SetCreatedAppointmentId(Integer)
+  id: 'SetCreatedAppointmentId(Integer)'
+  so.intellisense: NSApproveRejectResponse.SetCreatedAppointmentId
+  langs:
+  - crmscript
+  name: 'SetCreatedAppointmentId(Integer)'
+  nameWithType: NSApproveRejectResponse.SetCreatedAppointmentId(Integer)
+  fullName: CRMScript.NetServer.NSApproveRejectResponse.SetCreatedAppointmentId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCreatedAppointmentId(Integer createdAppointmentId)
+    parameters:
+    - id: createdAppointmentId
+      type: CRMScript.Global.Integer
+      description: "ID of the created follow up."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSApproveRejectResponse thing;\nInteger createdAppointmentId;\nthing.SetCreatedAppointmentId(createdAppointmentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSApproveRejectResponse.SetPluginResponse(NSPluginResponse)
+  commentId: M:CRMScript.NetServer.NSApproveRejectResponse.SetPluginResponse(NSPluginResponse)
+  id: 'SetPluginResponse(NSPluginResponse)'
+  so.intellisense: NSApproveRejectResponse.SetPluginResponse
+  langs:
+  - crmscript
+  name: 'SetPluginResponse(NSPluginResponse)'
+  nameWithType: NSApproveRejectResponse.SetPluginResponse(NSPluginResponse)
+  fullName: CRMScript.NetServer.NSApproveRejectResponse.SetPluginResponse(NSPluginResponse)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPluginResponse(NSPluginResponse pluginResponse)
+    parameters:
+    - id: pluginResponse
+      type: CRMScript.NetServer.NSPluginResponse
+      description: "The response from the operation."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSApproveRejectResponse thing;\nNSPluginResponse pluginResponse;\nthing.SetPluginResponse(pluginResponse);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSApproveRejectResponse
+  commentId: T:CRMScript.NetServer.NSApproveRejectResponse
+  isExternal: true
+  name: NSApproveRejectResponse
+  nameWithType: NSApproveRejectResponse
+  fullName: CRMScript.NetServer.NSApproveRejectResponse
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSPluginResponse
+  commentId: T:CRMScript.NetServer.NSPluginResponse
+  isExternal: true
+  name: NSPluginResponse
+  nameWithType: NSPluginResponse
+  fullName: CRMScript.NetServer.NSPluginResponse
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

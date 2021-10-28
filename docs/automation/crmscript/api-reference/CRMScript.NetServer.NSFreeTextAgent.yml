@@ -1,0 +1,374 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSFreeTextAgent
+  commentId: T:CRMScript.NetServer.NSFreeTextAgent
+  id: NSFreeTextAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSFreeTextAgent.#ctor
+  - CRMScript.NetServer.NSFreeTextAgent.AddWords(String)
+  - CRMScript.NetServer.NSFreeTextAgent.DeleteStopWordsById(Integer[])
+  - CRMScript.NetServer.NSFreeTextAgent.GetStatus()
+  - CRMScript.NetServer.NSFreeTextAgent.GetStopWordList()
+  - CRMScript.NetServer.NSFreeTextAgent.GetSuggestedStopWords(Integer)
+  - CRMScript.NetServer.NSFreeTextAgent.RegenerateIndex(Bool)
+  - CRMScript.NetServer.NSFreeTextAgent.SetAutoEnableTravelAreas(Bool)
+  - CRMScript.NetServer.NSFreeTextAgent.SetEnabled(Bool)
+  - CRMScript.NetServer.NSFreeTextAgent.SetMultiWordOperator(Integer)
+  - CRMScript.NetServer.NSFreeTextAgent.SetSingleWordOperator(Integer)
+  name: NSFreeTextAgent
+  nameWithType: NSFreeTextAgent
+  fullName: CRMScript.NetServer.NSFreeTextAgent
+  type: Class
+  summary: "\nThis agent can be used to manage the free text system.\n"
+  example: 
+  - "\n<pre><code>NSFreeTextAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFreeTextAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSFreeTextAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSFreeTextAgent
+  langs:
+  - crmscript
+  name: NSFreeTextAgent()
+  nameWithType: NSFreeTextAgent.#ctor
+  fullName: CRMScript.NetServer.NSFreeTextAgent.#ctor
+  type: Constructor
+  summary: "\nThis agent can be used to manage the free text system.\n"
+  remarks: 
+  syntax: 
+    content: NSFreeTextAgent
+  example: 
+  - "\n<pre><code>NSFreeTextAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFreeTextAgent.AddWords(String)
+  commentId: M:CRMScript.NetServer.NSFreeTextAgent.AddWords(String)
+  id: 'AddWords(String)'
+  so.intellisense: NSFreeTextAgent.AddWords
+  langs:
+  - crmscript
+  name: 'AddWords(String)'
+  nameWithType: NSFreeTextAgent.AddWords(String)
+  fullName: CRMScript.NetServer.NSFreeTextAgent.AddWords(String)
+  type: Method
+  summary: "\nAdds the words in the string to the stop word list\n"
+  remarks: 
+  syntax: 
+    content: Void AddWords(String stopWords)
+    parameters:
+    - id: stopWords
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFreeTextAgent agent;\nString stopWords;\nagent.AddWords(stopWords);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFreeTextAgent.DeleteStopWordsById(Integer[])
+  commentId: M:CRMScript.NetServer.NSFreeTextAgent.DeleteStopWordsById(Integer[])
+  id: 'DeleteStopWordsById(Integer[])'
+  so.intellisense: NSFreeTextAgent.DeleteStopWordsById
+  langs:
+  - crmscript
+  name: 'DeleteStopWordsById(Integer[])'
+  nameWithType: NSFreeTextAgent.DeleteStopWordsById(Integer[])
+  fullName: CRMScript.NetServer.NSFreeTextAgent.DeleteStopWordsById(Integer[])
+  type: Method
+  summary: "\nDeletes the stop words with these IDs\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteStopWordsById(Integer[] stopWordIds)
+    parameters:
+    - id: stopWordIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFreeTextAgent agent;\nInteger[] stopWordIds;\nagent.DeleteStopWordsById(stopWordIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFreeTextAgent.GetStatus()
+  commentId: M:CRMScript.NetServer.NSFreeTextAgent.GetStatus()
+  id: 'GetStatus()'
+  so.intellisense: NSFreeTextAgent.GetStatus
+  langs:
+  - crmscript
+  name: 'GetStatus()'
+  nameWithType: NSFreeTextAgent.GetStatus()
+  fullName: CRMScript.NetServer.NSFreeTextAgent.GetStatus()
+  type: Method
+  summary: "\nReturns status for the free-text search words\n"
+  remarks: 
+  syntax: 
+    content: NSFreeText GetStatus()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSFreeText
+  example: 
+  - "\n<pre><code>NSFreeTextAgent agent;\nNSFreeText res = agent.GetStatus();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFreeTextAgent.GetStopWordList()
+  commentId: M:CRMScript.NetServer.NSFreeTextAgent.GetStopWordList()
+  id: 'GetStopWordList()'
+  so.intellisense: NSFreeTextAgent.GetStopWordList
+  langs:
+  - crmscript
+  name: 'GetStopWordList()'
+  nameWithType: NSFreeTextAgent.GetStopWordList()
+  fullName: CRMScript.NetServer.NSFreeTextAgent.GetStopWordList()
+  type: Method
+  summary: "\nReturns the list of stop words\n"
+  remarks: 
+  syntax: 
+    content: String[] GetStopWordList()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+      description: "list of stop words."
+  example: 
+  - "\n<pre><code>NSFreeTextAgent agent;\nString[] res = agent.GetStopWordList();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFreeTextAgent.GetSuggestedStopWords(Integer)
+  commentId: M:CRMScript.NetServer.NSFreeTextAgent.GetSuggestedStopWords(Integer)
+  id: 'GetSuggestedStopWords(Integer)'
+  so.intellisense: NSFreeTextAgent.GetSuggestedStopWords
+  langs:
+  - crmscript
+  name: 'GetSuggestedStopWords(Integer)'
+  nameWithType: NSFreeTextAgent.GetSuggestedStopWords(Integer)
+  fullName: CRMScript.NetServer.NSFreeTextAgent.GetSuggestedStopWords(Integer)
+  type: Method
+  summary: "\nReturns the top used words in the free-text index table, sorted as most used first\n"
+  remarks: 
+  syntax: 
+    content: NSMDOListItem[] GetSuggestedStopWords(Integer countWords)
+    parameters:
+    - id: countWords
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSMDOListItem[]
+      description:
+  example: 
+  - "\n<pre><code>NSFreeTextAgent agent;\nInteger countWords;\nNSMDOListItem[] res = agent.GetSuggestedStopWords(countWords);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFreeTextAgent.RegenerateIndex(Bool)
+  commentId: M:CRMScript.NetServer.NSFreeTextAgent.RegenerateIndex(Bool)
+  id: 'RegenerateIndex(Bool)'
+  so.intellisense: NSFreeTextAgent.RegenerateIndex
+  langs:
+  - crmscript
+  name: 'RegenerateIndex(Bool)'
+  nameWithType: NSFreeTextAgent.RegenerateIndex(Bool)
+  fullName: CRMScript.NetServer.NSFreeTextAgent.RegenerateIndex(Bool)
+  type: Method
+  summary: "\nWipes and regenerates the free-text index by scanning the database (free-text search will be unavailable while this operation runs\n"
+  remarks: 
+  syntax: 
+    content: NSBatchTaskInfo RegenerateIndex(Bool runAsBatch)
+    parameters:
+    - id: runAsBatch
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.NetServer.NSBatchTaskInfo
+      description:
+  example: 
+  - "\n<pre><code>NSFreeTextAgent agent;\nBool runAsBatch;\nNSBatchTaskInfo res = agent.RegenerateIndex(runAsBatch);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFreeTextAgent.SetAutoEnableTravelAreas(Bool)
+  commentId: M:CRMScript.NetServer.NSFreeTextAgent.SetAutoEnableTravelAreas(Bool)
+  id: 'SetAutoEnableTravelAreas(Bool)'
+  so.intellisense: NSFreeTextAgent.SetAutoEnableTravelAreas
+  langs:
+  - crmscript
+  name: 'SetAutoEnableTravelAreas(Bool)'
+  nameWithType: NSFreeTextAgent.SetAutoEnableTravelAreas(Bool)
+  fullName: CRMScript.NetServer.NSFreeTextAgent.SetAutoEnableTravelAreas(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAutoEnableTravelAreas(Bool autoEnable)
+    parameters:
+    - id: autoEnable
+      type: CRMScript.Global.Bool
+      description: "Automatically enable free-text search for new travel areas? true or false."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFreeTextAgent agent;\nBool autoEnable;\nagent.SetAutoEnableTravelAreas(autoEnable);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFreeTextAgent.SetEnabled(Bool)
+  commentId: M:CRMScript.NetServer.NSFreeTextAgent.SetEnabled(Bool)
+  id: 'SetEnabled(Bool)'
+  so.intellisense: NSFreeTextAgent.SetEnabled
+  langs:
+  - crmscript
+  name: 'SetEnabled(Bool)'
+  nameWithType: NSFreeTextAgent.SetEnabled(Bool)
+  fullName: CRMScript.NetServer.NSFreeTextAgent.SetEnabled(Bool)
+  type: Method
+  summary: "\nSets free-text search to enabled (true) or disabled (false)\n"
+  remarks: 
+  syntax: 
+    content: Void SetEnabled(Bool enabled)
+    parameters:
+    - id: enabled
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFreeTextAgent agent;\nBool enabled;\nagent.SetEnabled(enabled);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFreeTextAgent.SetMultiWordOperator(Integer)
+  commentId: M:CRMScript.NetServer.NSFreeTextAgent.SetMultiWordOperator(Integer)
+  id: 'SetMultiWordOperator(Integer)'
+  so.intellisense: NSFreeTextAgent.SetMultiWordOperator
+  langs:
+  - crmscript
+  name: 'SetMultiWordOperator(Integer)'
+  nameWithType: NSFreeTextAgent.SetMultiWordOperator(Integer)
+  fullName: CRMScript.NetServer.NSFreeTextAgent.SetMultiWordOperator(Integer)
+  type: Method
+  summary: "\nSets the operator used when matching multiple words\n"
+  remarks:
+  syntax: 
+    content: Void SetMultiWordOperator(Integer freeTextOperator)
+    parameters:
+    - id: freeTextOperator
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.FreeTextOperator\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFreeTextAgent agent;\nInteger freeTextOperator;\nagent.SetMultiWordOperator(freeTextOperator);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFreeTextAgent.SetSingleWordOperator(Integer)
+  commentId: M:CRMScript.NetServer.NSFreeTextAgent.SetSingleWordOperator(Integer)
+  id: 'SetSingleWordOperator(Integer)'
+  so.intellisense: NSFreeTextAgent.SetSingleWordOperator
+  langs:
+  - crmscript
+  name: 'SetSingleWordOperator(Integer)'
+  nameWithType: NSFreeTextAgent.SetSingleWordOperator(Integer)
+  fullName: CRMScript.NetServer.NSFreeTextAgent.SetSingleWordOperator(Integer)
+  type: Method
+  summary: "\nSets the operator used when matching single words\n"
+  remarks:
+  syntax: 
+    content: Void SetSingleWordOperator(Integer freeTextOperator)
+    parameters:
+    - id: freeTextOperator
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.FreeTextOperator\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFreeTextAgent agent;\nInteger freeTextOperator;\nagent.SetSingleWordOperator(freeTextOperator);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSFreeTextAgent
+  commentId: T:CRMScript.NetServer.NSFreeTextAgent
+  isExternal: true
+  name: NSFreeTextAgent
+  nameWithType: NSFreeTextAgent
+  fullName: CRMScript.NetServer.NSFreeTextAgent
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    isExternal: true
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSFreeText
+  commentId: T:CRMScript.NetServer.NSFreeText
+  isExternal: true
+  name: NSFreeText
+  nameWithType: NSFreeText
+  fullName: CRMScript.NetServer.NSFreeText
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    isExternal: true
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSMDOListItem[]
+  isExternal: true
+  name: NSMDOListItem[]
+  nameWithType: NSMDOListItem[]
+  fullName: CRMScript.NetServer.NSMDOListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSMDOListItem
+    isExternal: true
+    name: NSMDOListItem
+    nameWithType: NSMDOListItem
+    fullName: CRMScript.NetServer.NSMDOListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSMDOListItem
+  commentId: T:CRMScript.NetServer.NSMDOListItem
+  isExternal: true
+  name: NSMDOListItem
+  nameWithType: NSMDOListItem
+  fullName: CRMScript.NetServer.NSMDOListItem
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.NetServer.NSBatchTaskInfo
+  commentId: T:CRMScript.NetServer.NSBatchTaskInfo
+  isExternal: true
+  name: NSBatchTaskInfo
+  nameWithType: NSBatchTaskInfo
+  fullName: CRMScript.NetServer.NSBatchTaskInfo
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.FreeTextOperator
+  commentId: T:CRMScript.NetServer.FreeTextOperator
+  isExternal: true
+  name: FreeTextOperator
+  nameWithType: FreeTextOperator
+  fullName: CRMScript.NetServer.FreeTextOperator

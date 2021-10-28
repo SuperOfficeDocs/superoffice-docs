@@ -1,0 +1,2148 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSSaleEntity
+  commentId: T:CRMScript.NetServer.NSSaleEntity
+  id: NSSaleEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSSaleEntity.#ctor
+  - CRMScript.NetServer.NSSaleEntity.GetActiveErpLinks()
+  - CRMScript.NetServer.NSSaleEntity.GetActiveLinks()
+  - CRMScript.NetServer.NSSaleEntity.GetAmount()
+  - CRMScript.NetServer.NSSaleEntity.GetAppointment()
+  - CRMScript.NetServer.NSSaleEntity.GetAssociate()
+  - CRMScript.NetServer.NSSaleEntity.GetCompetitor()
+  - CRMScript.NetServer.NSSaleEntity.GetCompleted()
+  - CRMScript.NetServer.NSSaleEntity.GetContact()
+  - CRMScript.NetServer.NSSaleEntity.GetCreatedBy()
+  - CRMScript.NetServer.NSSaleEntity.GetCreatedDate()
+  - CRMScript.NetServer.NSSaleEntity.GetCredited()
+  - CRMScript.NetServer.NSSaleEntity.GetCurrency()
+  - CRMScript.NetServer.NSSaleEntity.GetCustomFields()
+  - CRMScript.NetServer.NSSaleEntity.GetEarning()
+  - CRMScript.NetServer.NSSaleEntity.GetEarningPercent()
+  - CRMScript.NetServer.NSSaleEntity.GetExtraFields()
+  - CRMScript.NetServer.NSSaleEntity.GetHeading()
+  - CRMScript.NetServer.NSSaleEntity.GetIsPublished()
+  - CRMScript.NetServer.NSSaleEntity.GetLinks()
+  - CRMScript.NetServer.NSSaleEntity.GetNextDueDate()
+  - CRMScript.NetServer.NSSaleEntity.GetNumber()
+  - CRMScript.NetServer.NSSaleEntity.GetPerson()
+  - CRMScript.NetServer.NSSaleEntity.GetPostit()
+  - CRMScript.NetServer.NSSaleEntity.GetProbability()
+  - CRMScript.NetServer.NSSaleEntity.GetProject()
+  - CRMScript.NetServer.NSSaleEntity.GetPublishEventDate()
+  - CRMScript.NetServer.NSSaleEntity.GetPublishFrom()
+  - CRMScript.NetServer.NSSaleEntity.GetPublishTo()
+  - CRMScript.NetServer.NSSaleEntity.GetRating()
+  - CRMScript.NetServer.NSSaleEntity.GetReason()
+  - CRMScript.NetServer.NSSaleEntity.GetReasonSold()
+  - CRMScript.NetServer.NSSaleEntity.GetReasonStalled()
+  - CRMScript.NetServer.NSSaleEntity.GetReopenDate()
+  - CRMScript.NetServer.NSSaleEntity.GetSaledate()
+  - CRMScript.NetServer.NSSaleEntity.GetSaleId()
+  - CRMScript.NetServer.NSSaleEntity.GetSaleStakeholders()
+  - CRMScript.NetServer.NSSaleEntity.GetSaleText()
+  - CRMScript.NetServer.NSSaleEntity.GetSaleType()
+  - CRMScript.NetServer.NSSaleEntity.GetSource()
+  - CRMScript.NetServer.NSSaleEntity.GetStatus()
+  - CRMScript.NetServer.NSSaleEntity.GetUpdatedBy()
+  - CRMScript.NetServer.NSSaleEntity.GetUpdatedDate()
+  - CRMScript.NetServer.NSSaleEntity.GetUserDefinedFields()
+  - CRMScript.NetServer.NSSaleEntity.GetVisibleFor()
+  - CRMScript.NetServer.NSSaleEntity.SetActiveErpLinks(Integer)
+  - CRMScript.NetServer.NSSaleEntity.SetActiveLinks(Integer)
+  - CRMScript.NetServer.NSSaleEntity.SetAmount(Float)
+  - CRMScript.NetServer.NSSaleEntity.SetAppointment(NSAppointment)
+  - CRMScript.NetServer.NSSaleEntity.SetAssociate(NSAssociate)
+  - CRMScript.NetServer.NSSaleEntity.SetCompetitor(NSCompetitor)
+  - CRMScript.NetServer.NSSaleEntity.SetCompleted(Integer)
+  - CRMScript.NetServer.NSSaleEntity.SetContact(NSContact)
+  - CRMScript.NetServer.NSSaleEntity.SetCreatedBy(NSAssociate)
+  - CRMScript.NetServer.NSSaleEntity.SetCreatedDate(DateTime)
+  - CRMScript.NetServer.NSSaleEntity.SetCredited(NSCredited)
+  - CRMScript.NetServer.NSSaleEntity.SetCurrency(NSCurrency)
+  - CRMScript.NetServer.NSSaleEntity.SetCustomFields(Map)
+  - CRMScript.NetServer.NSSaleEntity.SetEarning(Float)
+  - CRMScript.NetServer.NSSaleEntity.SetEarningPercent(Float)
+  - CRMScript.NetServer.NSSaleEntity.SetExtraFields(Map)
+  - CRMScript.NetServer.NSSaleEntity.SetHeading(String)
+  - CRMScript.NetServer.NSSaleEntity.SetIsPublished(Bool)
+  - CRMScript.NetServer.NSSaleEntity.SetLinks(NSLink[])
+  - CRMScript.NetServer.NSSaleEntity.SetNextDueDate(DateTime)
+  - CRMScript.NetServer.NSSaleEntity.SetNumber(String)
+  - CRMScript.NetServer.NSSaleEntity.SetPerson(NSPerson)
+  - CRMScript.NetServer.NSSaleEntity.SetPostit(String)
+  - CRMScript.NetServer.NSSaleEntity.SetProbability(Integer)
+  - CRMScript.NetServer.NSSaleEntity.SetProject(NSProject)
+  - CRMScript.NetServer.NSSaleEntity.SetPublishEventDate(DateTime)
+  - CRMScript.NetServer.NSSaleEntity.SetPublishFrom(DateTime)
+  - CRMScript.NetServer.NSSaleEntity.SetPublishTo(DateTime)
+  - CRMScript.NetServer.NSSaleEntity.SetRating(NSRating)
+  - CRMScript.NetServer.NSSaleEntity.SetReason(NSReason)
+  - CRMScript.NetServer.NSSaleEntity.SetReasonSold(NSReasonSold)
+  - CRMScript.NetServer.NSSaleEntity.SetReasonStalled(NSReasonStalled)
+  - CRMScript.NetServer.NSSaleEntity.SetReopenDate(DateTime)
+  - CRMScript.NetServer.NSSaleEntity.SetSaledate(DateTime)
+  - CRMScript.NetServer.NSSaleEntity.SetSaleId(Integer)
+  - CRMScript.NetServer.NSSaleEntity.SetSaleStakeholders(NSSaleStakeholder[])
+  - CRMScript.NetServer.NSSaleEntity.SetSaleText(String)
+  - CRMScript.NetServer.NSSaleEntity.SetSaleType(NSSaleType)
+  - CRMScript.NetServer.NSSaleEntity.SetSource(NSSource)
+  - CRMScript.NetServer.NSSaleEntity.SetStatus(Integer)
+  - CRMScript.NetServer.NSSaleEntity.SetUpdatedBy(NSAssociate)
+  - CRMScript.NetServer.NSSaleEntity.SetUpdatedDate(DateTime)
+  - CRMScript.NetServer.NSSaleEntity.SetUserDefinedFields(Map)
+  - CRMScript.NetServer.NSSaleEntity.SetVisibleFor(NSVisibleFor[])
+  name: NSSaleEntity
+  nameWithType: NSSaleEntity
+  fullName: CRMScript.NetServer.NSSaleEntity
+  type: Class
+  summary: "\nThe Sale Entity contains the sale amount, currency, and sale members. Sales are linked to contacts, persons, and/or projects.\n"
+  example: 
+- uid: CRMScript.NetServer.NSSaleEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSSaleEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSSaleEntity
+  langs:
+  - crmscript
+  name: NSSaleEntity()
+  nameWithType: NSSaleEntity.#ctor
+  fullName: CRMScript.NetServer.NSSaleEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSSaleEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSSaleEntity
+  example: 
+- uid: CRMScript.NetServer.NSSaleEntity.GetActiveErpLinks()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetActiveErpLinks()
+  id: 'GetActiveErpLinks()'
+  so.intellisense: NSSaleEntity.GetActiveErpLinks
+  langs:
+  - crmscript
+  name: 'GetActiveErpLinks()'
+  nameWithType: NSSaleEntity.GetActiveErpLinks()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetActiveErpLinks()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetActiveErpLinks()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The number of active ERP links."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nInteger activeErpLinks = thing.GetActiveErpLinks();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetActiveLinks()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetActiveLinks()
+  id: 'GetActiveLinks()'
+  so.intellisense: NSSaleEntity.GetActiveLinks
+  langs:
+  - crmscript
+  name: 'GetActiveLinks()'
+  nameWithType: NSSaleEntity.GetActiveLinks()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetActiveLinks()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetActiveLinks()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of active links to sale, document, appointment."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nInteger activeLinks = thing.GetActiveLinks();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetAmount()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetAmount()
+  id: 'GetAmount()'
+  so.intellisense: NSSaleEntity.GetAmount
+  langs:
+  - crmscript
+  name: 'GetAmount()'
+  nameWithType: NSSaleEntity.GetAmount()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetAmount()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetAmount()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Total sale amount."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nFloat amount = thing.GetAmount();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetAppointment()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetAppointment()
+  id: 'GetAppointment()'
+  so.intellisense: NSSaleEntity.GetAppointment
+  langs:
+  - crmscript
+  name: 'GetAppointment()'
+  nameWithType: NSSaleEntity.GetAppointment()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetAppointment()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAppointment GetAppointment()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAppointment
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSAppointment appointment = thing.GetAppointment();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetAssociate()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetAssociate()
+  id: 'GetAssociate()'
+  so.intellisense: NSSaleEntity.GetAssociate
+  langs:
+  - crmscript
+  name: 'GetAssociate()'
+  nameWithType: NSSaleEntity.GetAssociate()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetAssociate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetAssociate()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "The sale owner."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSAssociate associate = thing.GetAssociate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetCompetitor()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetCompetitor()
+  id: 'GetCompetitor()'
+  so.intellisense: NSSaleEntity.GetCompetitor
+  langs:
+  - crmscript
+  name: 'GetCompetitor()'
+  nameWithType: NSSaleEntity.GetCompetitor()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetCompetitor()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSCompetitor GetCompetitor()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSCompetitor
+      description: "List of all possible competitors."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSCompetitor competitor = thing.GetCompetitor();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetCompleted()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetCompleted()
+  id: 'GetCompleted()'
+  so.intellisense: NSSaleEntity.GetCompleted
+  langs:
+  - crmscript
+  name: 'GetCompleted()'
+  nameWithType: NSSaleEntity.GetCompleted()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetCompleted()
+  type: Method
+  summary: # TODO
+  remarks: "\nThe completed state is either Started or Completed. NotStarted is treated as Started. The value maps to the Done database field.\n"
+  syntax: 
+    content: Integer GetCompleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The Sale completed state."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nInteger completed = thing.GetCompleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetContact()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetContact()
+  id: 'GetContact()'
+  so.intellisense: NSSaleEntity.GetContact
+  langs:
+  - crmscript
+  name: 'GetContact()'
+  nameWithType: NSSaleEntity.GetContact()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetContact()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSContact GetContact()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSContact
+      description: "The contact associated with the sale. It may also be 0 if no contact is associated with the sale."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSContact contact = thing.GetContact();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetCreatedBy()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetCreatedBy()
+  id: 'GetCreatedBy()'
+  so.intellisense: NSSaleEntity.GetCreatedBy
+  langs:
+  - crmscript
+  name: 'GetCreatedBy()'
+  nameWithType: NSSaleEntity.GetCreatedBy()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetCreatedBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetCreatedBy()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "Who created to sale."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSAssociate createdBy = thing.GetCreatedBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetCreatedDate()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetCreatedDate()
+  id: 'GetCreatedDate()'
+  so.intellisense: NSSaleEntity.GetCreatedDate
+  langs:
+  - crmscript
+  name: 'GetCreatedDate()'
+  nameWithType: NSSaleEntity.GetCreatedDate()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetCreatedDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetCreatedDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Registered date."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nDateTime createdDate = thing.GetCreatedDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetCredited()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetCredited()
+  id: 'GetCredited()'
+  so.intellisense: NSSaleEntity.GetCredited
+  langs:
+  - crmscript
+  name: 'GetCredited()'
+  nameWithType: NSSaleEntity.GetCredited()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetCredited()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSCredited GetCredited()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSCredited
+      description: "List of who is to be credited for the sale."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSCredited credited = thing.GetCredited();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetCurrency()
+  id: 'GetCurrency()'
+  so.intellisense: NSSaleEntity.GetCurrency
+  langs:
+  - crmscript
+  name: 'GetCurrency()'
+  nameWithType: NSSaleEntity.GetCurrency()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSCurrency GetCurrency()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSCurrency
+      description: "The currency the sale object was sold in."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSCurrency currency = thing.GetCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetCustomFields()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetCustomFields()
+  id: 'GetCustomFields()'
+  so.intellisense: NSSaleEntity.GetCustomFields
+  langs:
+  - crmscript
+  name: 'GetCustomFields()'
+  nameWithType: NSSaleEntity.GetCustomFields()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetCustomFields()
+  type: Method
+  summary: "\nGets the user-defined + extra fields on a SaleEntity as a map.\n"
+  remarks: 
+  syntax: 
+    content: Map GetCustomFields()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nMap udefs = thing.GetCustomFields();\nlog( udefs[&quot;SuperOffice:1&quot;] ); // &quot;[I:123]&quot;* integer or list item id\nlog( udefs[&quot;SuperOffice:1:DisplayText&quot;] ); // &quot;bla bla&quot;* list item value\nlog( udefs[&quot;custom.progid&quot;] ); // &quot;foobar&quot;* string value\nlog( udefs[&quot;x_bar&quot;] ); // &quot;[I:123]&quot;* list item id\nlog( udefs[&quot;x_bar:DisplayText&quot;] ); // &quot;foobar&quot;* list item name value</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetEarning()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetEarning()
+  id: 'GetEarning()'
+  so.intellisense: NSSaleEntity.GetEarning
+  langs:
+  - crmscript
+  name: 'GetEarning()'
+  nameWithType: NSSaleEntity.GetEarning()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetEarning()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetEarning()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Earning on sale."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nFloat earning = thing.GetEarning();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetEarningPercent()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetEarningPercent()
+  id: 'GetEarningPercent()'
+  so.intellisense: NSSaleEntity.GetEarningPercent
+  langs:
+  - crmscript
+  name: 'GetEarningPercent()'
+  nameWithType: NSSaleEntity.GetEarningPercent()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetEarningPercent()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetEarningPercent()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Earning as percent of total."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nFloat earningPercent = thing.GetEarningPercent();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetExtraFields()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetExtraFields()
+  id: 'GetExtraFields()'
+  so.intellisense: NSSaleEntity.GetExtraFields
+  langs:
+  - crmscript
+  name: 'GetExtraFields()'
+  nameWithType: NSSaleEntity.GetExtraFields()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetExtraFields()
+  type: Method
+  summary: "\nGets the extra fields on SaleEntity as a map.\n"
+  remarks: 
+  syntax: 
+    content: Map GetExtraFields()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nMap extras = thing.GetExtraFields();\nlog( extras[&quot;x_abc&quot;] ); // &quot;[I:123]&quot;* integer or list item id\nlog( extras[&quot;x_abc:DisplayText&quot;] ); // &quot;bla bla&quot;* list item value\nlog( extras[&quot;x_bla&quot;] ); // &quot;foobar&quot;* string value</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetHeading()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetHeading()
+  id: 'GetHeading()'
+  so.intellisense: NSSaleEntity.GetHeading
+  langs:
+  - crmscript
+  name: 'GetHeading()'
+  nameWithType: NSSaleEntity.GetHeading()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetHeading()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetHeading()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Sale heading (short description?)."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nString heading = thing.GetHeading();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetIsPublished()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetIsPublished()
+  id: 'GetIsPublished()'
+  so.intellisense: NSSaleEntity.GetIsPublished
+  langs:
+  - crmscript
+  name: 'GetIsPublished()'
+  nameWithType: NSSaleEntity.GetIsPublished()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetIsPublished()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsPublished()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: Should this SaleEntity be published and visible to strangers?
+  example: 
+- uid: CRMScript.NetServer.NSSaleEntity.GetLinks()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetLinks()
+  id: 'GetLinks()'
+  so.intellisense: NSSaleEntity.GetLinks
+  langs:
+  - crmscript
+  name: 'GetLinks()'
+  nameWithType: NSSaleEntity.GetLinks()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetLinks()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSLink[] GetLinks()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSLink[]
+      description: "List of all elements linked to the sale."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSLink[] links = thing.GetLinks();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetNextDueDate()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetNextDueDate()
+  id: 'GetNextDueDate()'
+  so.intellisense: NSSaleEntity.GetNextDueDate
+  langs:
+  - crmscript
+  name: 'GetNextDueDate()'
+  nameWithType: NSSaleEntity.GetNextDueDate()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetNextDueDate()
+  type: Method
+  summary: # TODO
+  remarks: "\nMaintained by the system, but very convenient for searching.\n"
+  syntax: 
+    content: DateTime GetNextDueDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Next due date, this is a de.normalization of 'closest future activity date, or most recent if no future activities'."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nDateTime nextDueDate = thing.GetNextDueDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetNumber()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetNumber()
+  id: 'GetNumber()'
+  so.intellisense: NSSaleEntity.GetNumber
+  langs:
+  - crmscript
+  name: 'GetNumber()'
+  nameWithType: NSSaleEntity.GetNumber()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetNumber()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetNumber()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Alphanumeric user field."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nString number = thing.GetNumber();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetPerson()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetPerson()
+  id: 'GetPerson()'
+  so.intellisense: NSSaleEntity.GetPerson
+  langs:
+  - crmscript
+  name: 'GetPerson()'
+  nameWithType: NSSaleEntity.GetPerson()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetPerson()
+  type: Method
+  summary: "\nA sale may also be connected to a person. This must be a contact person registered on the current contact. This does not mean that a person is required.\n"
+  remarks: 
+  syntax: 
+    content: NSPerson GetPerson()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSPerson
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSPerson person = thing.GetPerson();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetPostit()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetPostit()
+  id: 'GetPostit()'
+  so.intellisense: NSSaleEntity.GetPostit
+  langs:
+  - crmscript
+  name: 'GetPostit()'
+  nameWithType: NSSaleEntity.GetPostit()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetPostit()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPostit()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nString postit = thing.GetPostit();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetProbability()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetProbability()
+  id: 'GetProbability()'
+  so.intellisense: NSSaleEntity.GetProbability
+  langs:
+  - crmscript
+  name: 'GetProbability()'
+  nameWithType: NSSaleEntity.GetProbability()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetProbability()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetProbability()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Actual probability, may differ from the one in the list."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nInteger probability = thing.GetProbability();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetProject()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetProject()
+  id: 'GetProject()'
+  so.intellisense: NSSaleEntity.GetProject
+  langs:
+  - crmscript
+  name: 'GetProject()'
+  nameWithType: NSSaleEntity.GetProject()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetProject()
+  type: Method
+  summary: "\nA sale may also be connected to a project, so you see the sale both on the company card, and on the project card. This does not mean that a project is required.\n"
+  remarks: 
+  syntax: 
+    content: NSProject GetProject()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSProject
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSProject project = thing.GetProject();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetPublishEventDate()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetPublishEventDate()
+  id: 'GetPublishEventDate()'
+  so.intellisense: NSSaleEntity.GetPublishEventDate
+  langs:
+  - crmscript
+  name: 'GetPublishEventDate()'
+  nameWithType: NSSaleEntity.GetPublishEventDate()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetPublishEventDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetPublishEventDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Publish event date on SaleEntity."
+  example: 
+- uid: CRMScript.NetServer.NSSaleEntity.GetPublishFrom()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetPublishFrom()
+  id: 'GetPublishFrom()'
+  so.intellisense: NSSaleEntity.GetPublishFrom
+  langs:
+  - crmscript
+  name: 'GetPublishFrom()'
+  nameWithType: NSSaleEntity.GetPublishFrom()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetPublishFrom()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetPublishFrom()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Publish from date on SaleEntity."
+  example: 
+- uid: CRMScript.NetServer.NSSaleEntity.GetPublishTo()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetPublishTo()
+  id: 'GetPublishTo()'
+  so.intellisense: NSSaleEntity.GetPublishTo
+  langs:
+  - crmscript
+  name: 'GetPublishTo()'
+  nameWithType: NSSaleEntity.GetPublishTo()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetPublishTo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetPublishTo()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Publish to date on SaleEntity. After this date the event is no longer visible."
+  example: 
+- uid: CRMScript.NetServer.NSSaleEntity.GetRating()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetRating()
+  id: 'GetRating()'
+  so.intellisense: NSSaleEntity.GetRating
+  langs:
+  - crmscript
+  name: 'GetRating()'
+  nameWithType: NSSaleEntity.GetRating()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetRating()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSRating GetRating()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSRating
+      description: "The sale rating."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSRating rating = thing.GetRating();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetReason()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetReason()
+  id: 'GetReason()'
+  so.intellisense: NSSaleEntity.GetReason
+  langs:
+  - crmscript
+  name: 'GetReason()'
+  nameWithType: NSSaleEntity.GetReason()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetReason()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSReason GetReason()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSReason
+      description: "The sale reason."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSReason reason = thing.GetReason();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetReasonSold()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetReasonSold()
+  id: 'GetReasonSold()'
+  so.intellisense: NSSaleEntity.GetReasonSold
+  langs:
+  - crmscript
+  name: 'GetReasonSold()'
+  nameWithType: NSSaleEntity.GetReasonSold()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetReasonSold()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSReasonSold GetReasonSold()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSReasonSold
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSReasonSold reasonSold = thing.GetReasonSold();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetReasonStalled()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetReasonStalled()
+  id: 'GetReasonStalled()'
+  so.intellisense: NSSaleEntity.GetReasonStalled
+  langs:
+  - crmscript
+  name: 'GetReasonStalled()'
+  nameWithType: NSSaleEntity.GetReasonStalled()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetReasonStalled()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSReasonStalled GetReasonStalled()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSReasonStalled
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSReasonStalled reasonStalled = thing.GetReasonStalled();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetReopenDate()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetReopenDate()
+  id: 'GetReopenDate()'
+  so.intellisense: NSSaleEntity.GetReopenDate
+  langs:
+  - crmscript
+  name: 'GetReopenDate()'
+  nameWithType: NSSaleEntity.GetReopenDate()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetReopenDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetReopenDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Date the sale is to be reopened; valid only for status=stalled. Not necessarily the same as the nextDueDate."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nDateTime reopenDate = thing.GetReopenDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetSaledate()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetSaledate()
+  id: 'GetSaledate()'
+  so.intellisense: NSSaleEntity.GetSaledate
+  langs:
+  - crmscript
+  name: 'GetSaledate()'
+  nameWithType: NSSaleEntity.GetSaledate()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetSaledate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetSaledate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "(expected / lost / won) sales date."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nDateTime saledate = thing.GetSaledate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetSaleId()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetSaleId()
+  id: 'GetSaleId()'
+  so.intellisense: NSSaleEntity.GetSaleId
+  langs:
+  - crmscript
+  name: 'GetSaleId()'
+  nameWithType: NSSaleEntity.GetSaleId()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetSaleId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSaleId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nInteger saleId = thing.GetSaleId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetSaleStakeholders()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetSaleStakeholders()
+  id: 'GetSaleStakeholders()'
+  so.intellisense: NSSaleEntity.GetSaleStakeholders
+  langs:
+  - crmscript
+  name: 'GetSaleStakeholders()'
+  nameWithType: NSSaleEntity.GetSaleStakeholders()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetSaleStakeholders()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSSaleStakeholder[] GetSaleStakeholders()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSaleStakeholder[]
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSSaleStakeholder[] saleStakeholders = thing.GetSaleStakeholders();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetSaleText()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetSaleText()
+  id: 'GetSaleText()'
+  so.intellisense: NSSaleEntity.GetSaleText
+  langs:
+  - crmscript
+  name: 'GetSaleText()'
+  nameWithType: NSSaleEntity.GetSaleText()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetSaleText()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSaleText()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Text describing the sale."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nString saleText = thing.GetSaleText();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetSaleType()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetSaleType()
+  id: 'GetSaleType()'
+  so.intellisense: NSSaleEntity.GetSaleType
+  langs:
+  - crmscript
+  name: 'GetSaleType()'
+  nameWithType: NSSaleEntity.GetSaleType()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetSaleType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSSaleType GetSaleType()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSaleType
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSSaleType saleType = thing.GetSaleType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetSource()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetSource()
+  id: 'GetSource()'
+  so.intellisense: NSSaleEntity.GetSource
+  langs:
+  - crmscript
+  name: 'GetSource()'
+  nameWithType: NSSaleEntity.GetSource()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetSource()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSSource GetSource()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSource
+      description: "The sale source."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSSource source = thing.GetSource();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetStatus()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetStatus()
+  id: 'GetStatus()'
+  so.intellisense: NSSaleEntity.GetStatus
+  langs:
+  - crmscript
+  name: 'GetStatus()'
+  nameWithType: NSSaleEntity.GetStatus()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetStatus()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetStatus()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The state of the Sale (Open, Sold, Lost, Stalled). See <xref href=\"CRMScript.NetServer.SaleStatus\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nInteger status = thing.GetStatus();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetUpdatedBy()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetUpdatedBy()
+  id: 'GetUpdatedBy()'
+  so.intellisense: NSSaleEntity.GetUpdatedBy
+  langs:
+  - crmscript
+  name: 'GetUpdatedBy()'
+  nameWithType: NSSaleEntity.GetUpdatedBy()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetUpdatedBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetUpdatedBy()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "Who updated the sale."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSAssociate updatedBy = thing.GetUpdatedBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetUpdatedDate()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetUpdatedDate()
+  id: 'GetUpdatedDate()'
+  so.intellisense: NSSaleEntity.GetUpdatedDate
+  langs:
+  - crmscript
+  name: 'GetUpdatedDate()'
+  nameWithType: NSSaleEntity.GetUpdatedDate()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetUpdatedDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetUpdatedDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Last updated."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nDateTime updatedDate = thing.GetUpdatedDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetUserDefinedFields()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetUserDefinedFields()
+  id: 'GetUserDefinedFields()'
+  so.intellisense: NSSaleEntity.GetUserDefinedFields
+  langs:
+  - crmscript
+  name: 'GetUserDefinedFields()'
+  nameWithType: NSSaleEntity.GetUserDefinedFields()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetUserDefinedFields()
+  type: Method
+  summary: "\nGets the user-defined fields on the SaleEntity as a map.\n"
+  remarks: 
+  syntax: 
+    content: Map GetUserDefinedFields()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nMap udefs = thing.GetUserDefinedFields();\nlog( udefs[&quot;SuperOffice:1&quot;] ); // &quot;[I:123]&quot;* integer or list item id\nlog( udefs[&quot;SuperOffice:1:DisplayText&quot;] ); // &quot;bla bla&quot;* list item value\nlog( udefs[&quot;custom.progid&quot;] ); // &quot;foobar&quot;* string value</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.GetVisibleFor()
+  commentId: M:CRMScript.NetServer.NSSaleEntity.GetVisibleFor()
+  id: 'GetVisibleFor()'
+  so.intellisense: NSSaleEntity.GetVisibleFor
+  langs:
+  - crmscript
+  name: 'GetVisibleFor()'
+  nameWithType: NSSaleEntity.GetVisibleFor()
+  fullName: CRMScript.NetServer.NSSaleEntity.GetVisibleFor()
+  type: Method
+  summary: "\nReturns the user groups and/or users the SaleEntity item is visible for.\n"
+  remarks: 
+  syntax: 
+    content: NSVisibleFor[] GetVisibleFor()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSVisibleFor[]
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSVisibleFor[] visibleFor = thing.GetVisibleFor();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetActiveErpLinks(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetActiveErpLinks(Integer)
+  id: 'SetActiveErpLinks(Integer)'
+  so.intellisense: NSSaleEntity.SetActiveErpLinks
+  langs:
+  - crmscript
+  name: 'SetActiveErpLinks(Integer)'
+  nameWithType: NSSaleEntity.SetActiveErpLinks(Integer)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetActiveErpLinks(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetActiveErpLinks(Integer activeErpLinks)
+    parameters:
+    - id: activeErpLinks
+      type: CRMScript.Global.Integer
+      description: "The number of active ERP links."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nInteger activeErpLinks;\nthing.SetActiveErpLinks(activeErpLinks);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetActiveLinks(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetActiveLinks(Integer)
+  id: 'SetActiveLinks(Integer)'
+  so.intellisense: NSSaleEntity.SetActiveLinks
+  langs:
+  - crmscript
+  name: 'SetActiveLinks(Integer)'
+  nameWithType: NSSaleEntity.SetActiveLinks(Integer)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetActiveLinks(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetActiveLinks(Integer activeLinks)
+    parameters:
+    - id: activeLinks
+      type: CRMScript.Global.Integer
+      description: "Number of active links to sale, document, appointment."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nInteger activeLinks;\nthing.SetActiveLinks(activeLinks);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetAmount(Float)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetAmount(Float)
+  id: 'SetAmount(Float)'
+  so.intellisense: NSSaleEntity.SetAmount
+  langs:
+  - crmscript
+  name: 'SetAmount(Float)'
+  nameWithType: NSSaleEntity.SetAmount(Float)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetAmount(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAmount(Float amount)
+    parameters:
+    - id: amount
+      type: CRMScript.Global.Float
+      description: "Total sale amount."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nFloat amount;\nthing.SetAmount(amount);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetAppointment(NSAppointment)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetAppointment(NSAppointment)
+  id: 'SetAppointment(NSAppointment)'
+  so.intellisense: NSSaleEntity.SetAppointment
+  langs:
+  - crmscript
+  name: 'SetAppointment(NSAppointment)'
+  nameWithType: NSSaleEntity.SetAppointment(NSAppointment)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetAppointment(NSAppointment)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAppointment(NSAppointment appointment)
+    parameters:
+    - id: appointment
+      type: CRMScript.NetServer.NSAppointment
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSAppointment appointment;\nthing.SetAppointment(appointment);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetAssociate(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetAssociate(NSAssociate)
+  id: 'SetAssociate(NSAssociate)'
+  so.intellisense: NSSaleEntity.SetAssociate
+  langs:
+  - crmscript
+  name: 'SetAssociate(NSAssociate)'
+  nameWithType: NSSaleEntity.SetAssociate(NSAssociate)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetAssociate(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAssociate(NSAssociate associate)
+    parameters:
+    - id:  associate
+      type:  CRMScript.NetServer.NSAssociate
+      description: "The sale owner."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSAssociate associate;\nthing.SetAssociate(associate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetCompetitor(NSCompetitor)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetCompetitor(NSCompetitor)
+  id: 'SetCompetitor(NSCompetitor)'
+  so.intellisense: NSSaleEntity.SetCompetitor
+  langs:
+  - crmscript
+  name: 'SetCompetitor(NSCompetitor)'
+  nameWithType: NSSaleEntity.SetCompetitor(NSCompetitor)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetCompetitor(NSCompetitor)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCompetitor(NSCompetitor competitor)
+    parameters:
+    - id: competitor
+      type: CRMScript.NetServer.NSCompetitor
+      description: "List of all possible competitors."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSCompetitor competitor;\nthing.SetCompetitor(competitor);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetCompleted(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetCompleted(Integer)
+  id: 'SetCompleted(Integer)'
+  so.intellisense: NSSaleEntity.SetCompleted
+  langs:
+  - crmscript
+  name: 'SetCompleted(Integer)'
+  nameWithType: NSSaleEntity.SetCompleted(Integer)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetCompleted(Integer)
+  type: Method
+  summary: # TODO
+  remarks: "\nThe completed state is either Started or Completed. NotStarted is treated as Started. The value maps to the Done database field.\n"
+  syntax: 
+    content: Void SetCompleted(Integer completed)
+    parameters:
+    - id: completed
+      type: CRMScript.Global.Integer
+      description: "The Sale completed state."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nInteger completed;\nthing.SetCompleted(completed);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetContact(NSContact)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetContact(NSContact)
+  id: 'SetContact(NSContact)'
+  so.intellisense: NSSaleEntity.SetContact
+  langs:
+  - crmscript
+  name: 'SetContact(NSContact)'
+  nameWithType: NSSaleEntity.SetContact(NSContact)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetContact(NSContact)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContact(NSContact contact)
+    parameters:
+    - id: contact
+      type: CRMScript.NetServer.NSContact
+      description: "The contact associated with the sale. It may also be 0 if no contact is associated with the sale."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSContact contact;\nthing.SetContact(contact);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetCreatedBy(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetCreatedBy(NSAssociate)
+  id: 'SetCreatedBy(NSAssociate)'
+  so.intellisense: NSSaleEntity.SetCreatedBy
+  langs:
+  - crmscript
+  name: 'SetCreatedBy(NSAssociate)'
+  nameWithType: NSSaleEntity.SetCreatedBy(NSAssociate)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetCreatedBy(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCreatedBy(NSAssociate createdBy)
+    parameters:
+    - id: createdBy
+      type: CRMScript.NetServer.NSAssociate
+      description: "Who created to sale."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSAssociate createdBy;\nthing.SetCreatedBy(createdBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetCreatedDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetCreatedDate(DateTime)
+  id: 'SetCreatedDate(DateTime)'
+  so.intellisense: NSSaleEntity.SetCreatedDate
+  langs:
+  - crmscript
+  name: 'SetCreatedDate(DateTime)'
+  nameWithType: NSSaleEntity.SetCreatedDate(DateTime)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetCreatedDate(DateTime)
+  type: Method
+  summary: "\nRegistered date\n"
+  remarks: 
+  syntax: 
+    content: Void SetCreatedDate(DateTime createdDate)
+    parameters: 
+    - id: createdDate
+      type: CRMScript.Global.DateTime
+      description: "Registered date."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nDateTime createdDate;\nthing.SetCreatedDate(createdDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetCredited(NSCredited)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetCredited(NSCredited)
+  id: 'SetCredited(NSCredited)'
+  so.intellisense: NSSaleEntity.SetCredited
+  langs:
+  - crmscript
+  name: 'SetCredited(NSCredited)'
+  nameWithType: NSSaleEntity.SetCredited(NSCredited)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetCredited(NSCredited)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCredited(NSCredited credited)
+    parameters:
+    - id: credited
+      type: CRMScript.NetServer.NSCredited
+      description: "List of who is to be credited for the sale."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSCredited credited;\nthing.SetCredited(credited);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetCurrency(NSCurrency)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetCurrency(NSCurrency)
+  id: 'SetCurrency(NSCurrency)'
+  so.intellisense: NSSaleEntity.SetCurrency
+  langs:
+  - crmscript
+  name: 'SetCurrency(NSCurrency)'
+  nameWithType: NSSaleEntity.SetCurrency(NSCurrency)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetCurrency(NSCurrency)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCurrency(NSCurrency currency)
+    parameters:
+    - id: currency
+      type: CRMScript.NetServer.NSCurrency
+      description: "The currency the sale object was sold in."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSCurrency currency;\nthing.SetCurrency(currency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetCustomFields(Map)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetCustomFields(Map)
+  id: 'SetCustomFields(Map)'
+  so.intellisense: NSSaleEntity.SetCustomFields
+  langs:
+  - crmscript
+  name: 'SetCustomFields(Map)'
+  nameWithType: NSSaleEntity.SetCustomFields(Map)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetCustomFields(Map)
+  type: Method
+  summary: "\nSets the user-defined and extra fields on a SaleEntity with a map.\n"
+  remarks: 
+  syntax: 
+    content: Void SetCustomFields(Map udefs)
+    parameters:
+    - id: udefs
+      type: CRMScript.Native.Map
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nMap udefs;\nudefs[&quot;SuperOffice:1&quot;] = &quot;[I:123]&quot;;\nudefs[&quot;SuperOffice:1&quot;] = &quot;123&quot;; // this will also work, but beware of decimal point variations in different languages\nudefs[&quot;custom.progid&quot;] = &quot;foobar&quot;;\nudefs[&quot;x_foo&quot;] = &quot;foobar&quot;;\nudefs[&quot;x_bar&quot;] = &quot;456&quot;; // List item id\nthing.SetCustomFields(udefs);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetEarning(Float)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetEarning(Float)
+  id: 'SetEarning(Float)'
+  so.intellisense: NSSaleEntity.SetEarning
+  langs:
+  - crmscript
+  name: 'SetEarning(Float)'
+  nameWithType: NSSaleEntity.SetEarning(Float)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetEarning(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEarning(Float earning)
+    parameters:
+    - id: earning
+      type: CRMScript.Global.Float
+      description: "Earning on sale."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nFloat earning;\nthing.SetEarning(earning);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetEarningPercent(Float)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetEarningPercent(Float)
+  id: 'SetEarningPercent(Float)'
+  so.intellisense: NSSaleEntity.SetEarningPercent
+  langs:
+  - crmscript
+  name: 'SetEarningPercent(Float)'
+  nameWithType: NSSaleEntity.SetEarningPercent(Float)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetEarningPercent(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEarningPercent(Float earningPercent)
+    parameters:
+    - id: earningPercent
+      type: CRMScript.Global.Float
+      description: "Earning as percent of total."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nFloat earningPercent;\nthing.SetEarningPercent(earningPercent);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetExtraFields(Map)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetExtraFields(Map)
+  id: 'SetExtraFields(Map)'
+  so.intellisense: NSSaleEntity.SetExtraFields
+  langs:
+  - crmscript
+  name: 'SetExtraFields(Map)'
+  nameWithType: NSSaleEntity.SetExtraFields(Map)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetExtraFields(Map)
+  type: Method
+  summary: "\nSets the extra field values on SaleEntity with a map.\n"
+  remarks: 
+  syntax: 
+    content: Void SetExtraFields(Map extras)
+    parameters:
+    - id: extras
+      type: CRMScript.Native.Map
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nMap extras;\nextras[&quot;SuperOffice:1&quot;] = &quot;[I:123]&quot;;\nextras[&quot;SuperOffice:1&quot;] = &quot;123&quot;; // this will also work, but beware of decimal point variations in different languages\nextras[&quot;custom.progid&quot;] = &quot;foobar&quot;;\nthing.SetExtraFields(extras);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetHeading(String)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetHeading(String)
+  id: 'SetHeading(String)'
+  so.intellisense: NSSaleEntity.SetHeading
+  langs:
+  - crmscript
+  name: 'SetHeading(String)'
+  nameWithType: NSSaleEntity.SetHeading(String)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetHeading(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetHeading(String heading)
+    parameters:
+    - id: heading
+      type: CRMScript.Global.String
+      description: "Sale heading (short description?)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nString heading;\nthing.SetHeading(heading);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetIsPublished(Bool)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetIsPublished(Bool)
+  id: 'SetIsPublished(Bool)'
+  so.intellisense: NSSaleEntity.SIsPublished
+  langs:
+  - crmscript
+  name: 'SetIsPublished(Bool)'
+  nameWithType: NSSaleEntity.SetIsPublished(Bool)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetIsPublished(Bool)
+  type: Method
+  summary: "\nSets the visibility of the entity\n"
+  remarks: 
+  syntax: 
+    content: Void SetIsPublished(Bool isPublished)
+    parameters:
+    - id: isPublished
+      type: CRMScript.Global.Bool
+      description: Should this SaleEntity be published and visible to strangers?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSaleEntity.SetLinks(NSLink[])
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetLinks(NSLink[])
+  id: 'SetLinks(NSLink[])'
+  so.intellisense: NSSaleEntity.SetLinks
+  langs:
+  - crmscript
+  name: 'SetLinks(NSLink[])'
+  nameWithType: NSSaleEntity.SetLinks(NSLink[])
+  fullName: CRMScript.NetServer.NSSaleEntity.SetLinks(NSLink[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLinks(NSLink[] links)
+    parameters:
+    - id: links
+      type: CRMScript.NetServer.NSLink[]
+      description: "List of all elements linked to the sale."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSLink[] links;\nthing.SetLinks(links);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetNextDueDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetNextDueDate(DateTime)
+  id: 'SetNextDueDate(DateTime)'
+  so.intellisense: NSSaleEntity.SetNextDueDate
+  langs:
+  - crmscript
+  name: 'SetNextDueDate(DateTime)'
+  nameWithType: NSSaleEntity.SetNextDueDate(DateTime)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetNextDueDate(DateTime)
+  type: Method
+  summary: "\n Maintained by the system, but very convenient for searching.\n"
+  remarks: 
+  syntax:  
+    content: Void SetNextDueDate(DateTime nextDueDate)
+    parameters:
+    - id: nextDueDate
+      type: CRMScript.Global.DateTime
+      description: "Next due date, this is a de-normalization of 'closest future activity date, or most recent if no future activities'."
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nDateTime nextDueDate;\nthing.SetNextDueDate(nextDueDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetNumber(String)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetNumber(String)
+  id: 'SetNumber(String)'
+  so.intellisense: NSSaleEntity.SetNumber
+  langs:
+  - crmscript
+  name: 'SetNumber(String)'
+  nameWithType: NSSaleEntity.SetNumber(String)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetNumber(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetNumber(String number)
+    parameters:
+    - id: number
+      type: CRMScript.Global.String
+      description: "Alphanumeric user field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nString number;\nthing.SetNumber(number);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetPerson(NSPerson)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetPerson(NSPerson)
+  id: 'SetPerson(NSPerson)'
+  so.intellisense: NSSaleEntity.SetPerson
+  langs:
+  - crmscript
+  name: 'SetPerson(NSPerson)'
+  nameWithType: NSSaleEntity.SetPerson(NSPerson)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetPerson(NSPerson)
+  type: Method
+  summary: "\nA sale may also be connected to a person. This must be a contact person registered on the current contact. This does not mean that a person is required.\n"
+  remarks: 
+  syntax: 
+    content: Void SetPerson(NSPerson person)
+    parameters:
+    - id: person
+      type: CRMScript.NetServer.NSPerson
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSPerson person;\nthing.SetPerson(person);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetPostit(String)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetPostit(String)
+  id: 'SetPostit(String)'
+  so.intellisense: NSSaleEntity.SetPostit
+  langs:
+  - crmscript
+  name: 'SetPostit(String)'
+  nameWithType: NSSaleEntity.SetPostit(String)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetPostit(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPostit(String postit)
+    parameters:
+    - id: postit
+      type: CRMScript.Global.String
+      description: "The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nString postit;\nthing.SetPostit(postit);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetProbability(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetProbability(Integer)
+  id: 'SetProbability(Integer)'
+  so.intellisense: NSSaleEntity.SetProbability
+  langs:
+  - crmscript
+  name: 'SetProbability(Integer)'
+  nameWithType: NSSaleEntity.SetProbability(Integer)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetProbability(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProbability(Integer probability)
+    parameters:
+    - id: probability
+      type: CRMScript.Global.Integer
+      description: "Actual probability, may differ from the one in the list."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nInteger probability;\nthing.SetProbability(probability);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetProject(NSProject)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetProject(NSProject)
+  id: 'SetProject(NSProject)'
+  so.intellisense: NSSaleEntity.SetProject
+  langs:
+  - crmscript
+  name: 'SetProject(NSProject)'
+  nameWithType: NSSaleEntity.SetProject(NSProject)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetProject(NSProject)
+  type: Method
+  summary: "\nA sale may also be connected to a project, so you see the sale both on the company card, and on the project card. This does not mean that a project is required.\n"
+  remarks: 
+  syntax: 
+    content: Void SetProject(NSProject project)
+    parameters:
+    - id: project
+      type: CRMScript.NetServer.NSProject
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSProject project;\nthing.SetProject(project);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetPublishEventDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetPublishEventDate(DateTime)
+  id: 'SetPublishEventDate(DateTime)'
+  so.intellisense: NSSaleEntity.SetPublishEventDate
+  langs:
+  - crmscript
+  name: 'SetPublishEventDate(DateTime)'
+  nameWithType: NSSaleEntity.SetPublishEventDate(DateTime)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetPublishEventDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPublishEventDate(DateTime publishDate)
+    parameters:
+    - id: publishDate
+      type: CRMScript.Global.DateTime
+      description: "Publish event date on SaleEntity."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSaleEntity.SetPublishFrom(DateTime)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetPublishFrom(DateTime)
+  id: 'SetPublishFrom(DateTime)'
+  so.intellisense: NSSaleEntity.SetPublishFrom
+  langs:
+  - crmscript
+  name: 'SetPublishFrom(DateTime)'
+  nameWithType: NSSaleEntity.SetPublishFrom(DateTime)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetPublishFrom(DateTime)
+  type: Method
+  summary: "\nSets the publish from date on a SaleEntity.\n"
+  remarks: 
+  syntax: 
+    content: Void SetPublishFrom(DateTime publishFrom)
+    parameters:
+    - id: publishFrom
+      type: CRMScript.Global.DateTime
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSaleEntity.SetPublishTo(DateTime)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetPublishTo(DateTime)
+  id: 'SetPublishTo(DateTime)'
+  so.intellisense: NSSaleEntity.SetPublishTo
+  langs:
+  - crmscript
+  name: 'SetPublishTo(DateTime)'
+  nameWithType: NSSaleEntity.SetPublishTo(DateTime)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetPublishTo(DateTime)
+  type: Method
+  summary: "\nSets the publish to date on SaleEntity.\n"
+  remarks: 
+  syntax: 
+    content: Void SetPublishTo(DateTime publishTo)
+    parameters:
+    - id: publishTo
+      type: CRMScript.Global.DateTime
+      description: "After this date the event is no longer visible."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSaleEntity.SetRating(NSRating)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetRating(NSRating)
+  id: 'SetRating(NSRating)'
+  so.intellisense: NSSaleEntity.SetRating
+  langs:
+  - crmscript
+  name: 'SetRating(NSRating)'
+  nameWithType: NSSaleEntity.SetRating(NSRating)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetRating(NSRating)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRating(NSRating rating)
+    parameters:
+    - id: rating
+      type: CRMScript.NetServer.NSRating
+      description: "The sale rating."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSRating rating;\nthing.SetRating(rating);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetReason(NSReason)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetReason(NSReason)
+  id: 'SetReason(NSReason)'
+  so.intellisense: NSSaleEntity.SetReason
+  langs:
+  - crmscript
+  name: 'SetReason(NSReason)'
+  nameWithType: NSSaleEntity.SetReason(NSReason)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetReason(NSReason)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetReason(NSReason reason)
+    parameters:
+    - id: reason
+      type: CRMScript.NetServer.NSReason
+      description: "The sale reason."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSReason reason;\nthing.SetReason(reason);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetReasonSold(NSReasonSold)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetReasonSold(NSReasonSold)
+  id: 'SetReasonSold(NSReasonSold)'
+  so.intellisense: NSSaleEntity.SetReasonSold
+  langs:
+  - crmscript
+  name: 'SetReasonSold(NSReasonSold)'
+  nameWithType: NSSaleEntity.SetReasonSold(NSReasonSold)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetReasonSold(NSReasonSold)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetReasonSold(NSReasonSold reasonSold)
+    parameters:
+    - id: reasonSold
+      type: CRMScript.NetServer.NSReasonSold
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSReasonSold reasonSold;\nthing.SetReasonSold(reasonSold);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetReasonStalled(NSReasonStalled)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetReasonStalled(NSReasonStalled)
+  id: 'SetReasonStalled(NSReasonStalled)'
+  so.intellisense: NSSaleEntity.SetReasonStalled
+  langs:
+  - crmscript
+  name: 'SetReasonStalled(NSReasonStalled)'
+  nameWithType: NSSaleEntity.SetReasonStalled(NSReasonStalled)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetReasonStalled(NSReasonStalled)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetReasonStalled(NSReasonStalled reasonStalled)
+    parameters:
+    - id: reasonStalled
+      type: CRMScript.NetServer.NSReasonStalled
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSReasonStalled reasonStalled;\nthing.SetReasonStalled(reasonStalled);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetReopenDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetReopenDate(DateTime)
+  id: 'SetReopenDate(DateTime)'
+  so.intellisense: NSSaleEntity.SetReopenDate
+  langs:
+  - crmscript
+  name: 'SetReopenDate(DateTime)'
+  nameWithType: NSSaleEntity.SetReopenDate(DateTime)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetReopenDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetReopenDate(DateTime reopenDate)
+    parameters:
+    - id: reopenDate
+      type: CRMScript.Global.DateTime
+      description: "Date the sale is to be reopened; valid only for status=stalled. Not necessarily the same as the nextDueDate."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nDateTime reopenDate;\nthing.SetReopenDate(reopenDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetSaledate(DateTime)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetSaledate(DateTime)
+  id: 'SetSaledate(DateTime)'
+  so.intellisense: NSSaleEntity.SetSaledate
+  langs:
+  - crmscript
+  name: 'SetSaledate(DateTime)'
+  nameWithType: NSSaleEntity.SetSaledate(DateTime)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetSaledate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSaledate(DateTime saledate)
+    parameters:
+    - id: saledate
+      type: CRMScript.Global.DateTime
+      description: "(expected / lost / won) sales date."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nDateTime saledate;\nthing.SetSaledate(saledate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetSaleId(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetSaleId(Integer)
+  id: 'SetSaleId(Integer)'
+  so.intellisense: NSSaleEntity.SetSaleId
+  langs:
+  - crmscript
+  name: 'SetSaleId(Integer)'
+  nameWithType: NSSaleEntity.SetSaleId(Integer)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetSaleId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSaleId(Integer saleId)
+    parameters:
+    - id: saleId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nInteger saleId;\nthing.SetSaleId(saleId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetSaleStakeholders(NSSaleStakeholder[])
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetSaleStakeholders(NSSaleStakeholder[])
+  id: 'SetSaleStakeholders(NSSaleStakeholder[])'
+  so.intellisense: NSSaleEntity.SetSaleStakeholders
+  langs:
+  - crmscript
+  name: 'SetSaleStakeholders(NSSaleStakeholder[])'
+  nameWithType: NSSaleEntity.SetSaleStakeholders(NSSaleStakeholder[])
+  fullName: CRMScript.NetServer.NSSaleEntity.SetSaleStakeholders(NSSaleStakeholder[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSaleStakeholders(NSSaleStakeholder[] saleStakeholders)
+    parameters:
+    - id: saleStakeholders
+      type: CRMScript.NetServer.NSSaleStakeholder[]
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSSaleStakeholder[] saleStakeholders;\nthing.SetSaleStakeholders(saleStakeholders);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetSaleText(String)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetSaleText(String)
+  id: 'SetSaleText(String)'
+  so.intellisense: NSSaleEntity.SetSaleText
+  langs:
+  - crmscript
+  name: 'SetSaleText(String)'
+  nameWithType: NSSaleEntity.SetSaleText(String)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetSaleText(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSaleText(String saleText)
+    parameters:
+    - id: saleText
+      type: CRMScript.Global.String
+      description: "Text describing the sale."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nString saleText;\nthing.SetSaleText(saleText);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetSaleType(NSSaleType)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetSaleType(NSSaleType)
+  id: 'SetSaleType(NSSaleType)'
+  so.intellisense: NSSaleEntity.SetSaleType
+  langs:
+  - crmscript
+  name: 'SetSaleType(NSSaleType)'
+  nameWithType: NSSaleEntity.SetSaleType(NSSaleType)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetSaleType(NSSaleType)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSaleType(NSSaleType saleType)
+    parameters:
+    - id: saleType
+      type: CRMScript.NetServer.NSSaleType
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSSaleType saleType;\nthing.SetSaleType(saleType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetSource(NSSource)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetSource(NSSource)
+  id: 'SetSource(NSSource)'
+  so.intellisense: NSSaleEntity.SetSource
+  langs:
+  - crmscript
+  name: 'SetSource(NSSource)'
+  nameWithType: NSSaleEntity.SetSource(NSSource)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetSource(NSSource)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSource(NSSource source)
+    parameters:
+    - id: source
+      type: CRMScript.NetServer.NSSource
+      description: "The sale source."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSSource source;\nthing.SetSource(source);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetStatus(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetStatus(Integer)
+  id: 'SetStatus(Integer)'
+  so.intellisense: NSSaleEntity.SetStatus
+  langs:
+  - crmscript
+  name: 'SetStatus(Integer)'
+  nameWithType: NSSaleEntity.SetStatus(Integer)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetStatus(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetStatus(Integer status)
+    parameters:
+    - id: status
+      type: CRMScript.Global.Integer
+      description: "The state of the Sale (Open,Sold,Lost,Stalled). See <xref href=\"CRMScript.NetServer.SaleStatus\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nInteger status;\nthing.SetStatus(status);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetUpdatedBy(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetUpdatedBy(NSAssociate)
+  id: 'SetUpdatedBy(NSAssociate)'
+  so.intellisense: NSSaleEntity.SetUpdatedBy
+  langs:
+  - crmscript
+  name: 'SetUpdatedBy(NSAssociate)'
+  nameWithType: NSSaleEntity.SetUpdatedBy(NSAssociate)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetUpdatedBy(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedBy(NSAssociate updatedBy)
+    parameters:
+    - id: updatedBy
+      type: CRMScript.NetServer.NSAssociate
+      description: "Who updated the sale."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSAssociate updatedBy;\nthing.SetUpdatedBy(updatedBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetUpdatedDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetUpdatedDate(DateTime)
+  id: 'SetUpdatedDate(DateTime)'
+  so.intellisense: NSSaleEntity.SetUpdatedDate
+  langs:
+  - crmscript
+  name: 'SetUpdatedDate(DateTime)'
+  nameWithType: NSSaleEntity.SetUpdatedDate(DateTime)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetUpdatedDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedDate(DateTime updatedDate)
+    parameters:
+    - id: updatedDate
+      type: CRMScript.Global.DateTime
+      description: "Last updated."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nDateTime updatedDate;\nthing.SetUpdatedDate(updatedDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetUserDefinedFields(Map)
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetUserDefinedFields(Map)
+  id: 'SetUserDefinedFields(Map)'
+  so.intellisense: NSSaleEntity.SetUserDefinedFields
+  langs:
+  - crmscript
+  name: 'SetUserDefinedFields(Map)'
+  nameWithType: NSSaleEntity.SetUserDefinedFields(Map)
+  fullName: CRMScript.NetServer.NSSaleEntity.SetUserDefinedFields(Map)
+  type: Method
+  summary: "\nSets the user-defined fields on the SaleEntity as a map.\n"
+  remarks: 
+  syntax: 
+    content: Void SetUserDefinedFields(Map udefs)
+    parameters:
+    - id: udefs
+      type: CRMScript.Native.Map
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nMap udefs;\nudefs[&quot;SuperOffice:1&quot;] = &quot;[I:123]&quot;;\nudefs[&quot;SuperOffice:1&quot;] = &quot;123&quot;; // this will also work, but beware of decimal point variations in different languages\nudefs[&quot;custom.progid&quot;] = &quot;foobar&quot;;\nthing.SetUserDefinedFields(udefs);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleEntity.SetVisibleFor(NSVisibleFor[])
+  commentId: M:CRMScript.NetServer.NSSaleEntity.SetVisibleFor(NSVisibleFor[])
+  id: 'SetVisibleFor(NSVisibleFor[])'
+  so.intellisense: NSSaleEntity.SetVisibleFor
+  langs:
+  - crmscript
+  name: 'SetVisibleFor(NSVisibleFor[])'
+  nameWithType: NSSaleEntity.SetVisibleFor(NSVisibleFor[])
+  fullName: CRMScript.NetServer.NSSaleEntity.SetVisibleFor(NSVisibleFor[])
+  type: Method
+  summary: "\nSets the user groups and/or users the SaleEntity item is visible for.\n"
+  remarks: 
+  syntax: 
+    content: Void SetVisibleFor(NSVisibleFor[] visibleFor)
+    parameters:
+    - id: visibleFor
+      type: CRMScript.NetServer.NSVisibleFor[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleEntity thing;\nNSVisibleFor[] visibleFor = thing.GetVisibleFor();\nvisibleFor[0].SetVisiblity(1);  // usergroup\nvisibleFor[0].SetVisibleId(123); // usergroup id\nthing.SetVisibleFor(visibleFor);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSSaleEntity
+  commentId: T:CRMScript.NetServer.NSSaleEntity
+  isExternal: true
+  name: NSSaleEntity
+  nameWithType: NSSaleEntity
+  fullName: CRMScript.NetServer.NSSaleEntity
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Float
+  commentId: T:CRMScript.Global.Float
+  isExternal: true
+  name: Float
+  nameWithType: Float
+  fullName: CRMScript.Global.Float
+- uid: CRMScript.NetServer.NSAppointment
+  commentId: T:CRMScript.NetServer.NSAppointment
+  isExternal: true
+  name: NSAppointment
+  nameWithType: NSAppointment
+  fullName: CRMScript.NetServer.NSAppointment
+- uid: CRMScript.NetServer.NSAssociate
+  commentId: T:CRMScript.NetServer.NSAssociate
+  isExternal: true
+  name: NSAssociate
+  nameWithType: NSAssociate
+  fullName: CRMScript.NetServer.NSAssociate
+- uid: CRMScript.NetServer.NSCompetitor
+  commentId: T:CRMScript.NetServer.NSCompetitor
+  isExternal: true
+  name: NSCompetitor
+  nameWithType: NSCompetitor
+  fullName: CRMScript.NetServer.NSCompetitor
+- uid: CRMScript.NetServer.NSContact
+  commentId: T:CRMScript.NetServer.NSContact
+  isExternal: true
+  name: NSContact
+  nameWithType: NSContact
+  fullName: CRMScript.NetServer.NSContact
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.NetServer.NSCredited
+  commentId: T:CRMScript.NetServer.NSCredited
+  isExternal: true
+  name: NSCredited
+  nameWithType: NSCredited
+  fullName: CRMScript.NetServer.NSCredited
+- uid: CRMScript.NetServer.NSCurrency
+  commentId: T:CRMScript.NetServer.NSCurrency
+  isExternal: true
+  name: NSCurrency
+  nameWithType: NSCurrency
+  fullName: CRMScript.NetServer.NSCurrency
+- uid: CRMScript.Native.Map
+  commentId: T:CRMScript.Native.Map
+  isExternal: true
+  name: Map
+  nameWithType: Map
+  fullName: CRMScript.Native.Map
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.NetServer.NSLink[]
+  isExternal: true
+  name: NSLink[]
+  nameWithType: NSLink[]
+  fullName: CRMScript.NetServer.NSLink[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSLink
+    isExternal: true
+    name: NSLink
+    nameWithType: NSLink
+    fullName: CRMScript.NetServer.NSLink
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSLink
+  commentId: T:CRMScript.NetServer.NSLink
+  isExternal: true
+  name: NSLink
+  nameWithType: NSLink
+  fullName: CRMScript.NetServer.NSLink
+- uid: CRMScript.NetServer.NSPerson
+  commentId: T:CRMScript.NetServer.NSPerson
+  isExternal: true
+  name: NSPerson
+  nameWithType: NSPerson
+  fullName: CRMScript.NetServer.NSPerson
+- uid: CRMScript.NetServer.NSProject
+  commentId: T:CRMScript.NetServer.NSProject
+  isExternal: true
+  name: NSProject
+  nameWithType: NSProject
+  fullName: CRMScript.NetServer.NSProject
+- uid: CRMScript.NetServer.NSRating
+  commentId: T:CRMScript.NetServer.NSRating
+  isExternal: true
+  name: NSRating
+  nameWithType: NSRating
+  fullName: CRMScript.NetServer.NSRating
+- uid: CRMScript.NetServer.NSReason
+  commentId: T:CRMScript.NetServer.NSReason
+  isExternal: true
+  name: NSReason
+  nameWithType: NSReason
+  fullName: CRMScript.NetServer.NSReason
+- uid: CRMScript.NetServer.NSReasonSold
+  commentId: T:CRMScript.NetServer.NSReasonSold
+  isExternal: true
+  name: NSReasonSold
+  nameWithType: NSReasonSold
+  fullName: CRMScript.NetServer.NSReasonSold
+- uid: CRMScript.NetServer.NSReasonStalled
+  commentId: T:CRMScript.NetServer.NSReasonStalled
+  isExternal: true
+  name: NSReasonStalled
+  nameWithType: NSReasonStalled
+  fullName: CRMScript.NetServer.NSReasonStalled
+- uid: CRMScript.NetServer.NSSaleStakeholder[]
+  isExternal: true
+  name: NSSaleStakeholder[]
+  nameWithType: NSSaleStakeholder[]
+  fullName: CRMScript.NetServer.NSSaleStakeholder[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSSaleStakeholder
+    isExternal: true
+    name: NSSaleStakeholder
+    nameWithType: NSSaleStakeholder
+    fullName: CRMScript.NetServer.NSSaleStakeholder
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSSaleStakeholder
+  commentId: T:CRMScript.NetServer.NSSaleStakeholder
+  isExternal: true
+  name: NSSaleStakeholder
+  nameWithType: NSSaleStakeholder
+  fullName: CRMScript.NetServer.NSSaleStakeholder
+- uid: CRMScript.NetServer.NSSaleType
+  commentId: T:CRMScript.NetServer.NSSaleType
+  isExternal: true
+  name: NSSaleType
+  nameWithType: NSSaleType
+  fullName: CRMScript.NetServer.NSSaleType
+- uid: CRMScript.NetServer.NSSource
+  commentId: T:CRMScript.NetServer.NSSource
+  isExternal: true
+  name: NSSource
+  nameWithType: NSSource
+  fullName: CRMScript.NetServer.NSSource
+- uid: CRMScript.NetServer.NSVisibleFor[]
+  isExternal: true
+  name: NSVisibleFor[]
+  nameWithType: NSVisibleFor[]
+  fullName: CRMScript.NetServer.NSVisibleFor[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSVisibleFor
+    isExternal: true
+    name: NSVisibleFor
+    nameWithType: NSVisibleFor
+    fullName: CRMScript.NetServer.NSVisibleFor
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSVisibleFor
+  commentId: T:CRMScript.NetServer.NSVisibleFor
+  isExternal: true
+  name: NSVisibleFor
+  nameWithType: NSVisibleFor
+  fullName: CRMScript.NetServer.NSVisibleFor
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.SaleStatus
+  commentId: T:CRMScript.NetServer.SaleStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SaleStatus
+  nameWithType: SaleStatus
+  fullName: CRMScript.NetServer.SaleStatus

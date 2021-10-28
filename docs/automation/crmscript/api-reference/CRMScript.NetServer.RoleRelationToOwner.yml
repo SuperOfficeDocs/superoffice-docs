@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.RoleRelationToOwner
+  # Same as SuperOffice.WebApi.Data.RoleRelationToOwner
+  commentId: T:CRMScript.NetServer.RoleRelationToOwner
+  id: RoleRelationToOwner
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.RoleRelationToOwner.MyOwn
+  - CRMScript.NetServer.RoleRelationToOwner.PrimaryGroup
+  - CRMScript.NetServer.RoleRelationToOwner.OtherGroups
+  - CRMScript.NetServer.RoleRelationToOwner.OtherAssociates
+  - CRMScript.NetServer.RoleRelationToOwner.ExternalUser
+  - CRMScript.NetServer.RoleRelationToOwner.Anonymous
+  - CRMScript.NetServer.RoleRelationToOwner.MyCompany
+  - CRMScript.NetServer.RoleRelationToOwner.SameProject
+  name: RoleRelationToOwner
+  nameWithType: RoleRelationToOwner
+  fullName: CRMScript.NetServer.RoleRelationToOwner
+  type: Enum
+  summary: "\nDescribes the available relation to owner types available for roles.\n"
+- uid: CRMScript.NetServer.RoleRelationToOwner.MyOwn
+  commentId: F:CRMScript.NetServer.RoleRelationToOwner.MyOwn
+  id: RoleRelationToOwner.MyOwn
+  langs:
+  - crmscript
+  name: RoleRelationToOwner.MyOwn
+  nameWithType: RoleRelationToOwner.MyOwn
+  fullName: CRMScript.NetServer.RoleRelationToOwner.MyOwn
+  type: Field
+  summary: "\n0: Data owned by my own user\n"
+  syntax: 
+    content: MyOwn = 0
+    type: CRMScript.NetServer.RoleRelationToOwner
+- uid: CRMScript.NetServer.RoleRelationToOwner.PrimaryGroup
+  commentId: F:CRMScript.NetServer.RoleRelationToOwner.PrimaryGroup
+  id: RoleRelationToOwner.PrimaryGroup
+  langs:
+  - crmscript
+  name: RoleRelationToOwner.PrimaryGroup
+  nameWithType: RoleRelationToOwner.PrimaryGroup
+  fullName: CRMScript.NetServer.RoleRelationToOwner.PrimaryGroup
+  type: Field
+  summary: "\n1: Data owned by users in my primary group\n"
+  syntax: 
+    content: PrimaryGroup = 1
+    type: CRMScript.NetServer.RoleRelationToOwner
+- uid: CRMScript.NetServer.RoleRelationToOwner.OtherGroups
+  commentId: F:CRMScript.NetServer.RoleRelationToOwner.OtherGroups
+  id: RoleRelationToOwner.OtherGroups
+  langs:
+  - crmscript
+  name: RoleRelationToOwner.OtherGroups
+  nameWithType: RoleRelationToOwner.OtherGroups
+  fullName: CRMScript.NetServer.RoleRelationToOwner.OtherGroups
+  type: Field
+  summary: "\n2: Data owned by users in my other groups\n"
+  syntax: 
+    content: OtherGroups = 2
+    type: CRMScript.NetServer.RoleRelationToOwner
+- uid: CRMScript.NetServer.RoleRelationToOwner.OtherAssociates
+  commentId: F:CRMScript.NetServer.RoleRelationToOwner.OtherAssociates
+  id: RoleRelationToOwner.OtherAssociates
+  langs:
+  - crmscript
+  name: RoleRelationToOwner.OtherAssociates
+  nameWithType: RoleRelationToOwner.OtherAssociates
+  fullName: CRMScript.NetServer.RoleRelationToOwner.OtherAssociates
+  type: Field
+  summary: "\n3: Data owned by users that has no common user groups with the current user\n"
+  syntax: 
+    content: OtherAssociates = 3
+    type: CRMScript.NetServer.RoleRelationToOwner
+- uid: CRMScript.NetServer.RoleRelationToOwner.ExternalUser
+  commentId: F:CRMScript.NetServer.RoleRelationToOwner.ExternalUser
+  id: RoleRelationToOwner.ExternalUser
+  langs:
+  - crmscript
+  name: RoleRelationToOwner.ExternalUser
+  nameWithType: RoleRelationToOwner.ExternalUser
+  fullName: CRMScript.NetServer.RoleRelationToOwner.ExternalUser
+  type: Field
+  summary: "\n4: Data owned by external users\n"
+  syntax: 
+    content: ExternalUser = 4
+    type: CRMScript.NetServer.RoleRelationToOwner
+- uid: CRMScript.NetServer.RoleRelationToOwner.Anonymous
+  commentId: F:CRMScript.NetServer.RoleRelationToOwner.Anonymous
+  id: RoleRelationToOwner.Anonymous
+  langs:
+  - crmscript
+  name: RoleRelationToOwner.Anonymous
+  nameWithType: RoleRelationToOwner.Anonymous
+  fullName: CRMScript.NetServer.RoleRelationToOwner.Anonymous
+  type: Field
+  summary: "\n5: Data owned by anonymous users\n"
+  syntax: 
+    content: Anonymous = 5
+    type: CRMScript.NetServer.RoleRelationToOwner
+- uid: CRMScript.NetServer.RoleRelationToOwner.MyCompany
+  commentId: F:CRMScript.NetServer.RoleRelationToOwner.MyCompany
+  id: RoleRelationToOwner.MyCompany
+  langs:
+  - crmscript
+  name: RoleRelationToOwner.MyCompany
+  nameWithType: RoleRelationToOwner.MyCompany
+  fullName: CRMScript.NetServer.RoleRelationToOwner.MyCompany
+  type: Field
+  summary: "\n6: Data owned by my company\n"
+  syntax: 
+    content: MyCompany = 6
+    type: CRMScript.NetServer.RoleRelationToOwner
+- uid: CRMScript.NetServer.RoleRelationToOwner.SameProject
+  commentId: F:CRMScript.NetServer.RoleRelationToOwner.SameProject
+  id: RoleRelationToOwner.SameProject
+  langs:
+  - crmscript
+  name: RoleRelationToOwner.SameProject
+  nameWithType: RoleRelationToOwner.SameProject
+  fullName: CRMScript.NetServer.RoleRelationToOwner.SameProject
+  type: Field
+  summary: "\n7: Data owned by users on the same project\n"
+  syntax: 
+    content: SameProject = 7
+    type: CRMScript.NetServer.RoleRelationToOwner
+references:
+- uid: CRMScript.NetServer.RoleRelationToOwner
+  commentId: T:CRMScript.NetServer.RoleRelationToOwner
+  isExternal: true
+  name: RoleRelationToOwner
+  nameWithType: RoleRelationToOwner
+  fullName: CRMScript.NetServer.RoleRelationToOwner

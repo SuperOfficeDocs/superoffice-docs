@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSNavigatorCompany
+  commentId: T:CRMScript.NetServer.NSNavigatorCompany
+  id: NSNavigatorCompany
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSNavigatorCompany.#ctor
+  - CRMScript.NetServer.NSNavigatorCompany.GetId()
+  - CRMScript.NetServer.NSNavigatorCompany.GetTooltip()
+  - CRMScript.NetServer.NSNavigatorCompany.GetValue()
+  - CRMScript.NetServer.NSNavigatorCompany.SetId(Integer)
+  - CRMScript.NetServer.NSNavigatorCompany.SetTooltip(String)
+  - CRMScript.NetServer.NSNavigatorCompany.SetValue(String)
+  name: NSNavigatorCompany
+  nameWithType: NSNavigatorCompany
+  fullName: CRMScript.NetServer.NSNavigatorCompany
+  type: Class
+  summary: "\nCarrier object for NavigatorCompany.\n"
+  example: 
+- uid: CRMScript.NetServer.NSNavigatorCompany.#ctor
+  commentId: M:CRMScript.NetServer.NSNavigatorCompany.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSNavigatorCompany
+  langs:
+  - crmscript
+  name: NSNavigatorCompany()
+  nameWithType: NSNavigatorCompany.#ctor
+  fullName: CRMScript.NetServer.NSNavigatorCompany.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSNavigatorCompany class.\n"
+  remarks: 
+  syntax: 
+    content: NSNavigatorCompany
+  example: 
+- uid: CRMScript.NetServer.NSNavigatorCompany.GetId()
+  commentId: M:CRMScript.NetServer.NSNavigatorCompany.GetId()
+  id: 'GetId()'
+  so.intellisense: NSNavigatorCompany.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSNavigatorCompany.GetId()
+  fullName: CRMScript.NetServer.NSNavigatorCompany.GetId()
+  type: Method
+  summary: "\nGets the primary key (ID) for the NSNavigatorCompany\n"
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "NavigatorCompany ID."
+  example: 
+  - "\n<pre><code>NSNavigatorCompany thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSNavigatorCompany.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSNavigatorCompany.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSNavigatorCompany.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSNavigatorCompany.GetTooltip()
+  fullName: CRMScript.NetServer.NSNavigatorCompany.GetTooltip()
+  type: Method
+  summary: "\nGets the tooltip description for the NSNavigatorCompany list item.\n"
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "NSNavigatorCompany tooltip description."
+  example: 
+  - "\n<pre><code>NSNavigatorCompany thing;\nString descr = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSNavigatorCompany.GetValue()
+  commentId: M:CRMScript.NetServer.NSNavigatorCompany.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSNavigatorCompany.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSNavigatorCompany.GetValue()
+  fullName: CRMScript.NetServer.NSNavigatorCompany.GetValue()
+  type: Method
+  summary: "\nGets the name of the NSNavigatorCompany.\n"
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "NavigatorCompany name."
+  example: 
+  - "\n<pre><code>NSNavigatorCompany thing;\nString name = thing.GetValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSNavigatorCompany.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSNavigatorCompany.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSNavigatorCompany.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSNavigatorCompany.SetId(Integer)
+  fullName: CRMScript.NetServer.NSNavigatorCompany.SetId(Integer)
+  type: Method
+  summary: "\nSets the primary key (ID) for the NSNavigatorCompany\n"
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSNavigatorCompany thing;\nthing.SetId(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSNavigatorCompany.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSNavigatorCompany.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSNavigatorCompany.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSNavigatorCompany.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSNavigatorCompany.SetTooltip(String)
+  type: Method
+  summary: "\nSets the tooltip description for the NSNavigatorCompany list item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSNavigatorCompany thing;\nString descr = &quot;something new&quot;;\nthing.SetTooltip(descr);</code></pre>\n"
+- uid: CRMScript.NetServer.NSNavigatorCompany.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSNavigatorCompany.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSNavigatorCompany.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSNavigatorCompany.SetValue(String)
+  fullName: CRMScript.NetServer.NSNavigatorCompany.SetValue(String)
+  type: Method
+  summary: "\nSets the name of the NSNavigatorCompany item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSNavigatorCompany thing;\nthing.SetValue(&quot;frotz&quot;);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSNavigatorCompany
+  commentId: T:CRMScript.NetServer.NSNavigatorCompany
+  isExternal: true
+  name: NSNavigatorCompany
+  nameWithType: NSNavigatorCompany
+  fullName: CRMScript.NetServer.NSNavigatorCompany
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

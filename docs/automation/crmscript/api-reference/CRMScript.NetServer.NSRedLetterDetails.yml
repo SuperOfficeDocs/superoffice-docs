@@ -1,0 +1,151 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSRedLetterDetails
+  commentId: T:CRMScript.NetServer.NSRedLetterDetails
+  id: NSRedLetterDetails
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSRedLetterDetails.#ctor
+  - CRMScript.NetServer.NSRedLetterDetails.GetOtherCountryDayTexts()
+  - CRMScript.NetServer.NSRedLetterDetails.GetOwnCountryDayTexts()
+  - CRMScript.NetServer.NSRedLetterDetails.SetOtherCountryDayTexts(String[])
+  - CRMScript.NetServer.NSRedLetterDetails.SetOwnCountryDayTexts(String[])
+  name: NSRedLetterDetails
+  nameWithType: NSRedLetterDetails
+  fullName: CRMScript.NetServer.NSRedLetterDetails
+  type: Class
+  summary: "\nRed-letter day text details, all the texts related to the given day.\n"
+  example: 
+- uid: CRMScript.NetServer.NSRedLetterDetails.#ctor
+  commentId: M:CRMScript.NetServer.NSRedLetterDetails.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSRedLetterDetails
+  langs:
+  - crmscript
+  name: NSRedLetterDetails()
+  nameWithType: NSRedLetterDetails.#ctor
+  fullName: CRMScript.NetServer.NSRedLetterDetails.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSRedLetterDetails class.\n"
+  remarks: 
+  syntax: 
+    content: NSRedLetterDetails
+  example: 
+- uid: CRMScript.NetServer.NSRedLetterDetails.GetOtherCountryDayTexts()
+  commentId: M:CRMScript.NetServer.NSRedLetterDetails.GetOtherCountryDayTexts()
+  id: 'GetOtherCountryDayTexts()'
+  so.intellisense: NSRedLetterDetails.GetOtherCountryDayTexts
+  langs:
+  - crmscript
+  name: 'GetOtherCountryDayTexts()'
+  nameWithType: NSRedLetterDetails.GetOtherCountryDayTexts()
+  fullName: CRMScript.NetServer.NSRedLetterDetails.GetOtherCountryDayTexts()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String[] GetOtherCountryDayTexts()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+      description: "Red-letter day texts for other countries than the associates' own country."
+  example: 
+  - "\n<pre><code>NSRedLetterDetails thing;\nString[] otherCountryDayTexts = thing.GetOtherCountryDayTexts();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRedLetterDetails.GetOwnCountryDayTexts()
+  commentId: M:CRMScript.NetServer.NSRedLetterDetails.GetOwnCountryDayTexts()
+  id: 'GetOwnCountryDayTexts()'
+  so.intellisense: NSRedLetterDetails.GetOwnCountryDayTexts
+  langs:
+  - crmscript
+  name: 'GetOwnCountryDayTexts()'
+  nameWithType: NSRedLetterDetails.GetOwnCountryDayTexts()
+  fullName: CRMScript.NetServer.NSRedLetterDetails.GetOwnCountryDayTexts()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String[] GetOwnCountryDayTexts()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+      description: "Array, possibly empty, of the texts related to one day in the red-letter system."
+  example: 
+  - "\n<pre><code>NSRedLetterDetails thing;\nString[] ownCountryDayTexts = thing.GetOwnCountryDayTexts();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRedLetterDetails.SetOtherCountryDayTexts(String[])
+  commentId: M:CRMScript.NetServer.NSRedLetterDetails.SetOtherCountryDayTexts(String[])
+  id: 'SetOtherCountryDayTexts(String[])'
+  so.intellisense: NSRedLetterDetails.SetOtherCountryDayTexts
+  langs:
+  - crmscript
+  name: 'SetOtherCountryDayTexts(String[])'
+  nameWithType: NSRedLetterDetails.SetOtherCountryDayTexts(String[])
+  fullName: CRMScript.NetServer.NSRedLetterDetails.SetOtherCountryDayTexts(String[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOtherCountryDayTexts(String[] otherCountryDayTexts)
+    parameters:
+    - id: otherCountryDayTexts
+      type: CRMScript.Global.String[]
+      description: "Red-letter day texts for other countries than the associates' own country."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRedLetterDetails thing;\nString[] otherCountryDayTexts;\nthing.SetOtherCountryDayTexts(otherCountryDayTexts);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRedLetterDetails.SetOwnCountryDayTexts(String[])
+  commentId: M:CRMScript.NetServer.NSRedLetterDetails.SetOwnCountryDayTexts(String[])
+  id: 'SetOwnCountryDayTexts(String[])'
+  so.intellisense: NSRedLetterDetails.SetOwnCountryDayTexts
+  langs:
+  - crmscript
+  name: 'SetOwnCountryDayTexts(String[])'
+  nameWithType: NSRedLetterDetails.SetOwnCountryDayTexts(String[])
+  fullName: CRMScript.NetServer.NSRedLetterDetails.SetOwnCountryDayTexts(String[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOwnCountryDayTexts(String[] ownCountryDayTexts)
+    parameters:
+    - id: ownCountryDayTexts
+      type: CRMScript.Global.String[]
+      description: "Array, possibly empty, of the texts related to one day in the red-letter system."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRedLetterDetails thing;\nString[] ownCountryDayTexts;\nthing.SetOwnCountryDayTexts(ownCountryDayTexts);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSRedLetterDetails
+  commentId: T:CRMScript.NetServer.NSRedLetterDetails
+  isExternal: true
+  name: NSRedLetterDetails
+  nameWithType: NSRedLetterDetails
+  fullName: CRMScript.NetServer.NSRedLetterDetails
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    isExternal: true
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

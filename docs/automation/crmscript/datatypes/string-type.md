@@ -3,8 +3,8 @@ uid: crmscript_datatypes_string
 title: String data type
 author:
 so.date:
-keywords:
-so.topic:
+keywords: CRMScript, string
+so.topic: concept
 ---
 
 # String data type

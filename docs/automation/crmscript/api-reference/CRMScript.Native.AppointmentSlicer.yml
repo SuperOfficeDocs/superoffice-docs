@@ -1,0 +1,238 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.AppointmentSlicer
+  commentId: T:CRMScript.Native.AppointmentSlicer
+  id: AppointmentSlicer
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.AppointmentSlicer.#ctor
+  - CRMScript.Native.AppointmentSlicer.addAppointment(Integer,DateTime,DateTime,String)
+  - CRMScript.Native.AppointmentSlicer.clear()
+  - CRMScript.Native.AppointmentSlicer.eof()
+  - CRMScript.Native.AppointmentSlicer.getLoadForDay(Date,Time,Time,Integer)
+  - CRMScript.Native.AppointmentSlicer.getValue(String)
+  - CRMScript.Native.AppointmentSlicer.next()
+  - CRMScript.Native.AppointmentSlicer.setActiveDate(Date)
+  name: AppointmentSlicer
+  nameWithType: AppointmentSlicer
+  fullName: CRMScript.Native.AppointmentSlicer
+  type: Class
+  summary: "\nSlices appointments into single entities that are within a single day. This class is essential when having calender data (with entries possibly spanning several days), which you would like to display in the calender control (which only accepts data for single days).\n"
+- uid: CRMScript.Native.AppointmentSlicer.#ctor
+  commentId: M:CRMScript.Native.AppointmentSlicer.#ctor
+  id: '#ctor'
+  so.intellisense: Void.AppointmentSlicer
+  langs:
+  - crmscript
+  name: AppointmentSlicer()
+  nameWithType: AppointmentSlicer.AppointmentSlicer()
+  fullName: CRMScript.Native.AppointmentSlicer.AppointmentSlicer()
+  type: Constructor
+  summary: "\nDefault constructor.\n"
+  remarks: 
+  syntax: 
+    content: AppointmentSlicer
+  example: 
+  - "\n<pre><code>AppointmentSlicer a;\n\na.addAppointment(1, DateTime(2017, 4, 23, 8, 0, 0), DateTime(2017, 4, 23, 10, 30, 0), &quot;Meeting&quot;);</code></pre>\n"
+- uid: CRMScript.Native.AppointmentSlicer.addAppointment(Integer,DateTime,DateTime,String)
+  commentId: M:CRMScript.Native.AppointmentSlicer.addAppointment(Integer,DateTime,DateTime,String)
+  id: 'addAppointment(Integer,DateTime,DateTime,String)'
+  so.intellisense: AppointmentSlicer.addAppointment
+  langs:
+  - crmscript
+  name: 'addAppointment(Integer,DateTime,DateTime,String)'
+  nameWithType: AppointmentSlicer.addAppointment(Integer,DateTime,DateTime,String)
+  fullName: CRMScript.Native.AppointmentSlicer.addAppointment(Integer,DateTime,DateTime,String)
+  type: Method
+  summary: "\nAdds an appointment to the class.\n"
+  remarks: 
+  syntax: 
+    content: addAppointment(Integer id, DateTime start, DateTime end, String title)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "The ID of the appointment (can be retrieved later)."
+    - id: title
+      type: CRMScript.Global.DateTime
+      description: "The title of the appointment."
+    - id: start
+      type: CRMScript.Global.DateTime
+      description: "When the appointment starts."
+    - id: stop
+      type: CRMScript.Global.String
+      description: "When the appointment ends."
+  example: 
+- uid: CRMScript.Native.AppointmentSlicer.clear()
+  commentId: M:CRMScript.Native.AppointmentSlicer.clear()
+  id: 'clear()'
+  so.intellisense: AppointmentSlicer.clear
+  langs:
+  - crmscript
+  name: 'clear()'
+  nameWithType: AppointmentSlicer.clear()
+  fullName: CRMScript.Native.AppointmentSlicer.clear()
+  type: Method
+  summary: "\nClears all the added appointments from the instance.\n"
+  remarks: 
+  syntax: 
+    content: clear()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.AppointmentSlicer.eof()
+  commentId: M:CRMScript.Native.AppointmentSlicer.eof()
+  id: 'eof()'
+  so.intellisense: AppointmentSlicer.eof
+  langs:
+  - crmscript
+  name: 'eof()'
+  nameWithType: AppointmentSlicer.eof()
+  fullName: CRMScript.Native.AppointmentSlicer.eof()
+  type: Method
+  summary: "\nReturns true if the internal iterator is past the appointments for the chosen day; otherwise, false.\n"
+  remarks: 
+  syntax: 
+    content: Bool eof()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the internal iterator is past the appointments for the chosen day; otherwise, false."
+  example: 
+- uid: CRMScript.Native.AppointmentSlicer.getLoadForDay(Date,Time,Time,Integer)
+  commentId: M:CRMScript.Native.AppointmentSlicer.getLoadForDay(Date,Time,Time,Integer)
+  id: 'getLoadForDay(Date,Time,Time,Integer)'
+  so.intellisense: AppointmentSlicer.getLoadForDay
+  langs:
+  - crmscript
+  name: 'getLoadForDay(Date,Time,Time,Integer)'
+  nameWithType: AppointmentSlicer.getLoadForDay(Date,Time,Time,Integer)
+  fullName: CRMScript.Native.AppointmentSlicer.getLoadForDay(Date,Time,Time,Integer)
+  type: Method
+  summary: "\nReturns the accumulated load for a given day.\n"
+  remarks: "\nThe load is calculated by adding all the appointments for that day, cutting them at the start and stop times. Finally, the value returned is never more than max (unless max is -1, in which case there is no limit).<p></p>\nThe start and stop limits are useful because it can be used to eliminate private appointments in the evening.<p></p>\nThe max is good, because one normally never works more than 8 hours pr. day :)\n"
+  syntax: 
+    content: Integer getLoadForDay(Date day, Time start, Time stop, Integer max)
+    parameters:
+    - id: day
+      type: CRMScript.Global.Date
+      description: "The day to get the load for."
+    - id: start
+      type: CRMScript.Global.Time
+      description: "When to start calculating."
+    - id: stop
+      type: CRMScript.Global.Time
+      description: "When to stop calculating."
+    - id: max
+      type: CRMScript.Global.Integer
+      description: "The maximum time returned."
+    return:
+      type: CRMScript.Global.Integer
+      description: "The calculated load for the given day."
+  example: 
+- uid: CRMScript.Native.AppointmentSlicer.getValue(String)
+  commentId: M:CRMScript.Native.AppointmentSlicer.getValue(String)
+  id: 'getValue(String)'
+  so.intellisense: AppointmentSlicer.getValue
+  langs:
+  - crmscript
+  name: 'getValue(String)'
+  nameWithType: AppointmentSlicer.getValue(String)
+  fullName: CRMScript.Native.AppointmentSlicer.getValue(String)
+  type: Method
+  summary: "\nReturns the value for the given field for the appointment pointed to by the internal iterator.\n"
+  remarks: "\nAvailable fields: id, date, start, stop, stop, title\n"
+  syntax: 
+    content: String getValue(String field)
+    parameters:
+    - id: field
+      type: CRMScript.Global.String
+      description: "The field to get the value for."
+    return:
+      type: CRMScript.Global.String
+      description: "The value for the given field for the appointment pointed to by the internal iterator."
+  example: 
+- uid: CRMScript.Native.AppointmentSlicer.next()
+  commentId: M:CRMScript.Native.AppointmentSlicer.next()
+  id: 'next()'
+  so.intellisense: AppointmentSlicer.next
+  langs:
+  - crmscript
+  name: 'next()'
+  nameWithType: AppointmentSlicer.next()
+  fullName: CRMScript.Native.AppointmentSlicer.next()
+  type: Method
+  summary: "\nMoves the internal iterator to next appointment in the same day.<p></p>\nReturns false if<code>eof()</code>; otherwise, true.\n"
+  remarks: 
+  syntax: 
+    content: next()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "False if eof(); otherwise, true."
+  example: 
+- uid: CRMScript.Native.AppointmentSlicer.setActiveDate(Date)
+  commentId: M:CRMScript.Native.AppointmentSlicer.setActiveDate(Date)
+  id: 'setActiveDate(Date)'
+  so.intellisense: AppointmentSlicer.setActiveDate
+  langs:
+  - crmscript
+  name: 'setActiveDate(Date)'
+  nameWithType: AppointmentSlicer.setActiveDate(Date)
+  fullName: CRMScript.Native.AppointmentSlicer.setActiveDate(Date)
+  type: Method
+  summary: "\nSets the internal iterator to the given date.\n"
+  remarks: 
+  syntax: 
+    content: Void SetActiveDate(Date date)
+    parameters:
+    - id: date
+      type: CRMScript.Global.Date
+      description: "The date to set the internal iterator to."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.Native.AppointmentSlicer
+  commentId: T:CRMScript.Native.AppointmentSlicer
+  isExternal: true
+  name: AppointmentSlicer
+  nameWithType: AppointmentSlicer
+  fullName: CRMScript.Native.AppointmentSlicer
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Time
+  commentId: T:CRMScript.Global.Time
+  isExternal: true
+  name: Time
+  nameWithType: Time
+  fullName: CRMScript.Global.Time
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Date
+  commentId: T:CRMScript.Global.Date
+  isExternal: true
+  name: Date
+  nameWithType: Date
+  fullName: CRMScript.Global.Date
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool

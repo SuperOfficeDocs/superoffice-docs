@@ -1,0 +1,375 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSFreeText
+  commentId: T:CRMScript.NetServer.NSFreeText
+  id: NSFreeText
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSFreeText.#ctor
+  - CRMScript.NetServer.NSFreeText.GetAutoEnableTravelAreas()
+  - CRMScript.NetServer.NSFreeText.GetCountWords()
+  - CRMScript.NetServer.NSFreeText.GetFreeTextEnabled()
+  - CRMScript.NetServer.NSFreeText.GetLastGenerated()
+  - CRMScript.NetServer.NSFreeText.GetMultiWordOperator()
+  - CRMScript.NetServer.NSFreeText.GetOccurrences()
+  - CRMScript.NetServer.NSFreeText.GetSingleWordOperator()
+  - CRMScript.NetServer.NSFreeText.SetAutoEnableTravelAreas(Bool)
+  - CRMScript.NetServer.NSFreeText.SetCountWords(Integer)
+  - CRMScript.NetServer.NSFreeText.SetFreeTextEnabled(Bool)
+  - CRMScript.NetServer.NSFreeText.SetLastGenerated(DateTime)
+  - CRMScript.NetServer.NSFreeText.SetMultiWordOperator(Integer)
+  - CRMScript.NetServer.NSFreeText.SetOccurrences(Integer)
+  - CRMScript.NetServer.NSFreeText.SetSingleWordOperator(Integer)
+  name: NSFreeText
+  nameWithType: NSFreeText
+  fullName: CRMScript.NetServer.NSFreeText
+  type: Class
+  summary: "\nUsed to manage freetext search.\n"
+  example: 
+- uid: CRMScript.NetServer.NSFreeText.#ctor
+  commentId: M:CRMScript.NetServer.NSFreeText.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSFreeText
+  langs:
+  - crmscript
+  name: NSFreeText()
+  nameWithType: NSFreeText.#ctor
+  fullName: CRMScript.NetServer.NSFreeText.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSFreeText class.\n"
+  remarks: 
+  syntax: 
+    content: NSFreeText
+  example: 
+- uid: CRMScript.NetServer.NSFreeText.GetAutoEnableTravelAreas()
+  commentId: M:CRMScript.NetServer.NSFreeText.GetAutoEnableTravelAreas()
+  id: 'GetAutoEnableTravelAreas()'
+  so.intellisense: NSFreeText.GetAutoEnableTravelAreas
+  langs:
+  - crmscript
+  name: 'GetAutoEnableTravelAreas()'
+  nameWithType: NSFreeText.GetAutoEnableTravelAreas()
+  fullName: CRMScript.NetServer.NSFreeText.GetAutoEnableTravelAreas()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetAutoEnableTravelAreas()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Automatically enable free-text search for new travel areas."
+  example: 
+  - "\n<pre><code>NSFreeText thing;\nBool autoEnableTravelAreas = thing.GetAutoEnableTravelAreas();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFreeText.GetCountWords()
+  commentId: M:CRMScript.NetServer.NSFreeText.GetCountWords()
+  id: 'GetCountWords()'
+  so.intellisense: NSFreeText.GetCountWords
+  langs:
+  - crmscript
+  name: 'GetCountWords()'
+  nameWithType: NSFreeText.GetCountWords()
+  fullName: CRMScript.NetServer.NSFreeText.GetCountWords()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCountWords()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Count of unique search words."
+  example: 
+  - "\n<pre><code>NSFreeText thing;\nInteger countWords = thing.GetCountWords();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFreeText.GetFreeTextEnabled()
+  commentId: M:CRMScript.NetServer.NSFreeText.GetFreeTextEnabled()
+  id: 'GetFreeTextEnabled()'
+  so.intellisense: NSFreeText.GetFreeTextEnabled
+  langs:
+  - crmscript
+  name: 'GetFreeTextEnabled()'
+  nameWithType: NSFreeText.GetFreeTextEnabled()
+  fullName: CRMScript.NetServer.NSFreeText.GetFreeTextEnabled()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetFreeTextEnabled()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if free-text search enabled."
+  example: 
+  - "\n<pre><code>NSFreeText thing;\nBool freeTextEnabled = thing.GetFreeTextEnabled();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFreeText.GetLastGenerated()
+  commentId: M:CRMScript.NetServer.NSFreeText.GetLastGenerated()
+  id: 'GetLastGenerated()'
+  so.intellisense: NSFreeText.GetLastGenerated
+  langs:
+  - crmscript
+  name: 'GetLastGenerated()'
+  nameWithType: NSFreeText.GetLastGenerated()
+  fullName: CRMScript.NetServer.NSFreeText.GetLastGenerated()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetLastGenerated()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Last time search has been generated."
+  example: 
+  - "\n<pre><code>NSFreeText thing;\nDateTime lastGenerated = thing.GetLastGenerated();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFreeText.GetMultiWordOperator()
+  commentId: M:CRMScript.NetServer.NSFreeText.GetMultiWordOperator()
+  id: 'GetMultiWordOperator()'
+  so.intellisense: NSFreeText.GetMultiWordOperator
+  langs:
+  - crmscript
+  name: 'GetMultiWordOperator()'
+  nameWithType: NSFreeText.GetMultiWordOperator()
+  fullName: CRMScript.NetServer.NSFreeText.GetMultiWordOperator()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetMultiWordOperator()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Starts with, contains or exact match. See <xref href=\"CRMScript.NetServer.FreeTextOperator\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSFreeText thing;\nInteger multiWordOperator = thing.GetMultiWordOperator();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFreeText.GetOccurrences()
+  commentId: M:CRMScript.NetServer.NSFreeText.GetOccurrences()
+  id: 'GetOccurrences()'
+  so.intellisense: NSFreeText.GetOccurrences
+  langs:
+  - crmscript
+  name: 'GetOccurrences()'
+  nameWithType: NSFreeText.GetOccurrences()
+  fullName: CRMScript.NetServer.NSFreeText.GetOccurrences()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetOccurrences()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Total count of search words."
+  example: 
+  - "\n<pre><code>NSFreeText thing;\nInteger occurrences = thing.GetOccurrences();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFreeText.GetSingleWordOperator()
+  commentId: M:CRMScript.NetServer.NSFreeText.GetSingleWordOperator()
+  id: 'GetSingleWordOperator()'
+  so.intellisense: NSFreeText.GetSingleWordOperator
+  langs:
+  - crmscript
+  name: 'GetSingleWordOperator()'
+  nameWithType: NSFreeText.GetSingleWordOperator()
+  fullName: CRMScript.NetServer.NSFreeText.GetSingleWordOperator()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSingleWordOperator()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Starts with, contains or exact match. See <xref href=\"CRMScript.NetServer.FreeTextOperator\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSFreeText thing;\nInteger singleWordOperator = thing.GetSingleWordOperator();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFreeText.SetAutoEnableTravelAreas(Bool)
+  commentId: M:CRMScript.NetServer.NSFreeText.SetAutoEnableTravelAreas(Bool)
+  id: 'SetAutoEnableTravelAreas(Bool)'
+  so.intellisense: NSFreeText.SetAutoEnableTravelAreas
+  langs:
+  - crmscript
+  name: 'SetAutoEnableTravelAreas(Bool)'
+  nameWithType: NSFreeText.SetAutoEnableTravelAreas(Bool)
+  fullName: CRMScript.NetServer.NSFreeText.SetAutoEnableTravelAreas(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAutoEnableTravelAreas(Bool autoEnableTravelAreas)
+    parameters:
+    - id: autoEnableTravelAreas
+      type: CRMScript.Global.Bool
+      description: "Automatically enable free-text search for new travel areas."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFreeText thing;\nBool autoEnableTravelAreas;\nthing.SetAutoEnableTravelAreas(autoEnableTravelAreas);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFreeText.SetCountWords(Integer)
+  commentId: M:CRMScript.NetServer.NSFreeText.SetCountWords(Integer)
+  id: 'SetCountWords(Integer)'
+  so.intellisense: NSFreeText.SetCountWords
+  langs:
+  - crmscript
+  name: 'SetCountWords(Integer)'
+  nameWithType: NSFreeText.SetCountWords(Integer)
+  fullName: CRMScript.NetServer.NSFreeText.SetCountWords(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCountWords(Integer countWords)
+    parameters:
+    - id: countWords
+      type: CRMScript.Global.Integer
+      description: "Count of unique search words."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFreeText thing;\nInteger countWords;\nthing.SetCountWords(countWords);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFreeText.SetFreeTextEnabled(Bool)
+  commentId: M:CRMScript.NetServer.NSFreeText.SetFreeTextEnabled(Bool)
+  id: 'SetFreeTextEnabled(Bool)'
+  so.intellisense: NSFreeText.SetFreeTextEnabled
+  langs:
+  - crmscript
+  name: 'SetFreeTextEnabled(Bool)'
+  nameWithType: NSFreeText.SetFreeTextEnabled(Bool)
+  fullName: CRMScript.NetServer.NSFreeText.SetFreeTextEnabled(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFreeTextEnabled(Bool freeTextEnabled)
+    parameters:
+    - id: freeTextEnabled
+      type: CRMScript.Global.Bool
+      description: "True if free-text search enabled."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFreeText thing;\nBool freeTextEnabled;\nthing.SetFreeTextEnabled(freeTextEnabled);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFreeText.SetLastGenerated(DateTime)
+  commentId: M:CRMScript.NetServer.NSFreeText.SetLastGenerated(DateTime)
+  id: 'SetLastGenerated(DateTime)'
+  so.intellisense: NSFreeText.SetLastGenerated
+  langs:
+  - crmscript
+  name: 'SetLastGenerated(DateTime)'
+  nameWithType: NSFreeText.SetLastGenerated(DateTime)
+  fullName: CRMScript.NetServer.NSFreeText.SetLastGenerated(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLastGenerated(DateTime lastGenerated)
+    parameters:
+    - id: lastGenerated
+      type: CRMScript.Global.DateTime
+      description: "Last time search has been generated."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFreeText thing;\nDateTime lastGenerated;\nthing.SetLastGenerated(lastGenerated);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFreeText.SetMultiWordOperator(Integer)
+  commentId: M:CRMScript.NetServer.NSFreeText.SetMultiWordOperator(Integer)
+  id: 'SetMultiWordOperator(Integer)'
+  so.intellisense: NSFreeText.SetMultiWordOperator
+  langs:
+  - crmscript
+  name: 'SetMultiWordOperator(Integer)'
+  nameWithType: NSFreeText.SetMultiWordOperator(Integer)
+  fullName: CRMScript.NetServer.NSFreeText.SetMultiWordOperator(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetMultiWordOperator(Integer multiWordOperator)
+    parameters:
+    - id: multiWordOperator
+      type: CRMScript.Global.Integer
+      description: "Starts with, contains or exact match. See <xref href=\"CRMScript.NetServer.FreeTextOperator\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFreeText thing;\nInteger multiWordOperator;\nthing.SetMultiWordOperator(multiWordOperator);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFreeText.SetOccurrences(Integer)
+  commentId: M:CRMScript.NetServer.NSFreeText.SetOccurrences(Integer)
+  id: 'SetOccurrences(Integer)'
+  so.intellisense: NSFreeText.SetOccurrences
+  langs:
+  - crmscript
+  name: 'SetOccurrences(Integer)'
+  nameWithType: NSFreeText.SetOccurrences(Integer)
+  fullName: CRMScript.NetServer.NSFreeText.SetOccurrences(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOccurrences(Integer occurrences)
+    parameters:
+    - id: occurrences
+      type: CRMScript.Global.Integer
+      description: "Total count of search words."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFreeText thing;\nInteger occurrences;\nthing.SetOccurrences(occurrences);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFreeText.SetSingleWordOperator(Integer)
+  commentId: M:CRMScript.NetServer.NSFreeText.SetSingleWordOperator(Integer)
+  id: 'SetSingleWordOperator(Integer)'
+  so.intellisense: NSFreeText.SetSingleWordOperator
+  langs:
+  - crmscript
+  name: 'SetSingleWordOperator(Integer)'
+  nameWithType: NSFreeText.SetSingleWordOperator(Integer)
+  fullName: CRMScript.NetServer.NSFreeText.SetSingleWordOperator(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetSingleWordOperator(Integer singleWordOperator)
+    parameters:
+    - id: singleWordOperator
+      type: CRMScript.Global.Integer
+      description: "Starts with, contains or exact match. See <xref href=\"CRMScript.NetServer.FreeTextOperator\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFreeText thing;\nInteger singleWordOperator;\nthing.SetSingleWordOperator(singleWordOperator);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSFreeText
+  commentId: T:CRMScript.NetServer.NSFreeText
+  isExternal: true
+  name: NSFreeText
+  nameWithType: NSFreeText
+  fullName: CRMScript.NetServer.NSFreeText
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.FreeTextOperator
+  commentId: T:CRMScript.NetServer.FreeTextOperator
+  isExternal: true
+  name: FreeTextOperator
+  nameWithType: FreeTextOperator
+  fullName: CRMScript.NetServer.FreeTextOperator

@@ -1,0 +1,224 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSDataRights
+  commentId: T:CRMScript.NetServer.NSDataRights
+  id: NSDataRights
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSDataRights.#ctor
+  - CRMScript.NetServer.NSDataRights.GetColumnsInfo()
+  - CRMScript.NetServer.NSDataRights.GetRights()
+  - CRMScript.NetServer.NSDataRights.GetRowsInfo()
+  - CRMScript.NetServer.NSDataRights.SetColumnsInfo(NSRelationToOwner[])
+  - CRMScript.NetServer.NSDataRights.SetRights(NSDataRight[][])
+  - CRMScript.NetServer.NSDataRights.SetRowsInfo(NSEntityName[])
+  name: NSDataRights
+  nameWithType: NSDataRights
+  fullName: CRMScript.NetServer.NSDataRights
+  type: Class
+  summary: "\nCarrier object for DataRights.\n"
+  example: 
+- uid: CRMScript.NetServer.NSDataRights.#ctor
+  commentId: M:CRMScript.NetServer.NSDataRights.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSDataRights
+  langs:
+  - crmscript
+  name: NSDataRights()
+  nameWithType: NSDataRights.#ctor
+  fullName: CRMScript.NetServer.NSDataRights.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSDataRights class.\n"
+  remarks: 
+  syntax: 
+    content: NSDataRights
+  example: 
+- uid: CRMScript.NetServer.NSDataRights.GetColumnsInfo()
+  commentId: M:CRMScript.NetServer.NSDataRights.GetColumnsInfo()
+  id: 'GetColumnsInfo()'
+  so.intellisense: NSDataRights.GetColumnsInfo
+  langs:
+  - crmscript
+  name: 'GetColumnsInfo()'
+  nameWithType: NSDataRights.GetColumnsInfo()
+  fullName: CRMScript.NetServer.NSDataRights.GetColumnsInfo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSRelationToOwner[] GetColumnsInfo()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSRelationToOwner[]
+  example: 
+  - "\n<pre><code>NSDataRights thing;\nNSRelationToOwner[] columnsInfo = thing.GetColumnsInfo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDataRights.GetRights()
+  commentId: M:CRMScript.NetServer.NSDataRights.GetRights()
+  id: 'GetRights()'
+  so.intellisense: NSDataRights.GetRights
+  langs:
+  - crmscript
+  name: 'GetRights()'
+  nameWithType: NSDataRights.GetRights()
+  fullName: CRMScript.NetServer.NSDataRights.GetRights()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSDataRight[] GetRights()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSDataRight[]
+  example: 
+  - "\n<pre><code>NSDataRights thing;\nNSDataRight[] rights = thing.GetRights();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDataRights.GetRowsInfo()
+  commentId: M:CRMScript.NetServer.NSDataRights.GetRowsInfo()
+  id: 'GetRowsInfo()'
+  so.intellisense: NSDataRights.GetRowsInfo
+  langs:
+  - crmscript
+  name: 'GetRowsInfo()'
+  nameWithType: NSDataRights.GetRowsInfo()
+  fullName: CRMScript.NetServer.NSDataRights.GetRowsInfo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSEntityName[] GetRowsInfo()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSEntityName[]
+  example: 
+  - "\n<pre><code>NSDataRights thing;\nNSEntityName[] rowsInfo = thing.GetRowsInfo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDataRights.SetColumnsInfo(NSRelationToOwner[])
+  commentId: M:CRMScript.NetServer.NSDataRights.SetColumnsInfo(NSRelationToOwner[])
+  id: 'SetColumnsInfo(NSRelationToOwner[])'
+  so.intellisense: NSDataRights.SetColumnsInfo
+  langs:
+  - crmscript
+  name: 'SetColumnsInfo(NSRelationToOwner[])'
+  nameWithType: NSDataRights.SetColumnsInfo(NSRelationToOwner[])
+  fullName: CRMScript.NetServer.NSDataRights.SetColumnsInfo(NSRelationToOwner[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetColumnsInfo(NSRelationToOwner[] columnsInfo)
+    parameters:
+    - id: columnsInfo
+      type: CRMScript.NetServer.NSRelationToOwner[]
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDataRights thing;\nNSRelationToOwner[] columnsInfo;\nthing.SetColumnsInfo(columnsInfo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDataRights.SetRights(NSDataRight[][])
+  commentId: M:CRMScript.NetServer.NSDataRights.SetRights(NSDataRight[][])
+  id: 'SetRights(NSDataRight[][])'
+  so.intellisense: NSDataRights.SetRights
+  langs:
+  - crmscript
+  name: 'SetRights(NSDataRight[][])'
+  nameWithType: NSDataRights.SetRights(NSDataRight[][])
+  fullName: CRMScript.NetServer.NSDataRights.SetRights(NSDataRight[][])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRights(NSDataRight[][] rights)
+    parameters:
+    - id: rights
+      type: CRMScript.NetServer.NSDataRight[][]
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDataRights thing;\nNSDataRight[][] rights;\nthing.SetRights(rights);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDataRights.SetRowsInfo(NSEntityName[])
+  commentId: M:CRMScript.NetServer.NSDataRights.SetRowsInfo(NSEntityName[])
+  id: 'SetRowsInfo(NSEntityName[])'
+  so.intellisense: NSDataRights.SetRowsInfo
+  langs:
+  - crmscript
+  name: 'SetRowsInfo(NSEntityName[])'
+  nameWithType: NSDataRights.SetRowsInfo(NSEntityName[])
+  fullName: CRMScript.NetServer.NSDataRights.SetRowsInfo(NSEntityName[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRowsInfo(NSEntityName[] rowsInfo)
+    parameters:
+    - id: rowsInfo
+      type: CRMScript.NetServer.NSEntityName[]
+      description: 
+  example: 
+  - "\n<pre><code>NSDataRights thing;\nNSEntityName[] rowsInfo;\nthing.SetRowsInfo(rowsInfo);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSDataRights
+  commentId: T:CRMScript.NetServer.NSDataRights
+  isExternal: true
+  name: NSDataRights
+  nameWithType: NSDataRights
+  fullName: CRMScript.NetServer.NSDataRights
+- uid: CRMScript.NetServer.NSRelationToOwner[]
+  isExternal: true
+  name: NSRelationToOwner[]
+  nameWithType: NSRelationToOwner[]
+  fullName: CRMScript.NetServer.NSRelationToOwner[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSRelationToOwner
+    isExternal: true
+    name: NSRelationToOwner
+    nameWithType: NSRelationToOwner
+    fullName: CRMScript.NetServer.NSRelationToOwner
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSRelationToOwner
+  commentId: T:CRMScript.NetServer.NSRelationToOwner
+  isExternal: true
+  name: NSRelationToOwner
+  nameWithType: NSRelationToOwner
+  fullName: CRMScript.NetServer.NSRelationToOwner
+- uid: CRMScript.NetServer.NSDataRight[]
+  isExternal: true
+  name: NSDataRight[]
+  nameWithType: NSDataRight[]
+  fullName: CRMScript.NetServer.NSDataRight[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSDataRight
+    isExternal: true
+    name: NSDataRight
+    nameWithType: NSDataRight
+    fullName: CRMScript.NetServer.NSDataRight
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSEntityName[]
+  isExternal: true
+  name: NSEntityName[]
+  nameWithType: NSEntityName[]
+  fullName: CRMScript.NetServer.NSEntityName[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSEntityName
+    isExternal: true
+    name: NSEntityName
+    nameWithType: NSEntityName
+    fullName: CRMScript.NetServer.NSEntityName
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSEntityName
+  commentId: T:CRMScript.NetServer.NSEntityName
+  isExternal: true
+  name: NSEntityName
+  nameWithType: NSEntityName
+  fullName: CRMScript.NetServer.NSEntityName
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

@@ -1,0 +1,2598 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSDocumentAgent
+  commentId: T:CRMScript.NetServer.NSDocumentAgent
+  id: NSDocumentAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSDocumentAgent.#ctor
+  - CRMScript.NetServer.NSDocumentAgent.CheckinDocument(Integer,String[],String,String[])
+  - CRMScript.NetServer.NSDocumentAgent.CheckoutDocument(Integer,String[])
+  - CRMScript.NetServer.NSDocumentAgent.CreateDefaultDocumentEntity()
+  - CRMScript.NetServer.NSDocumentAgent.CreateDefaultDocumentEntityFromSuggestion(Integer)
+  - CRMScript.NetServer.NSDocumentAgent.CreateDefaultDocumentPreview()
+  - CRMScript.NetServer.NSDocumentAgent.CreateDefaultSuggestedDocumentEntity()
+  - CRMScript.NetServer.NSDocumentAgent.CreateDefaultTemplateVariablesParameters()
+  - CRMScript.NetServer.NSDocumentAgent.CreateDocumentStream(NSDocumentEntity,Bool)
+  - CRMScript.NetServer.NSDocumentAgent.CreateNewPhysicalDocumentFromTemplate(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  - CRMScript.NetServer.NSDocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String[],String[],String)
+  - CRMScript.NetServer.NSDocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags2(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  - CRMScript.NetServer.NSDocumentAgent.CreateNewPhysicalMailMergeDocumentFromTemplate(Integer,String)
+  - CRMScript.NetServer.NSDocumentAgent.CreateTempFile(String)
+  - CRMScript.NetServer.NSDocumentAgent.DeleteDocumentEntity(Integer)
+  - CRMScript.NetServer.NSDocumentAgent.DeletePhysicalDocument(Integer,String[])
+  - CRMScript.NetServer.NSDocumentAgent.DeleteTempFile(String)
+  - CRMScript.NetServer.NSDocumentAgent.ExecuteDocumentCommand(Integer,String,String[],String,String[])
+  - CRMScript.NetServer.NSDocumentAgent.GetAppointmentDocuments(Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetCheckoutState(Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetContactDocuments(Integer,Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetContactDocumentsByTemplateHeading(Integer,Integer,Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetContactDocumentsByTemplateType(Integer,Integer,Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetContactDocumentsByTemplateTypes(Integer,Integer,Integer[])
+  - CRMScript.NetServer.NSDocumentAgent.GetDocument(Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetDocumentCommands(Integer,String[])
+  - CRMScript.NetServer.NSDocumentAgent.GetDocumentEntity(Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetDocumentList(Integer[])
+  - CRMScript.NetServer.NSDocumentAgent.GetDocumentProperties(Integer,String[])
+  - CRMScript.NetServer.NSDocumentAgent.GetDocumentsByTemplateHeading(Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetDocumentStream(Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetDocumentStreamFromEntity(NSDocumentEntity)
+  - CRMScript.NetServer.NSDocumentAgent.GetDocumentUrl(Integer,String,Bool)
+  - CRMScript.NetServer.NSDocumentAgent.GetMyPublishedDocuments()
+  - CRMScript.NetServer.NSDocumentAgent.GetPersonDocuments(Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetPersonDocumentsByDate(Integer,Bool,Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetPersonDocumentsByTemplateHeading(Integer,Bool,Integer,Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetPersonDocumentsByTemplateType(Integer,Bool,Integer,Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetPersonDocumentsByTemplateTypes(Integer,Bool,Integer,Integer[])
+  - CRMScript.NetServer.NSDocumentAgent.GetPluginCapabilities(Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetPluginList()
+  - CRMScript.NetServer.NSDocumentAgent.GetPreviewDocumentStream(Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetProjectDocuments(Integer,Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetProjectDocumentsByTemplateHeading(Integer,Integer,Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetProjectDocumentsByTemplateType(Integer,Integer,Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetProjectDocumentsByTemplateTypes(Integer,Integer,Integer[])
+  - CRMScript.NetServer.NSDocumentAgent.GetProjectMemberDocuments(Integer,Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetProjectMemberDocumentsByTemplateHeading(Integer,Integer,Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetProjectMemberDocumentsByTemplateType(Integer,Integer,Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetProjectMemberDocumentsByTemplateTypes(Integer,Integer,Integer[])
+  - CRMScript.NetServer.NSDocumentAgent.GetPublishedDocument(Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetPublishedDocuments(Integer[])
+  - CRMScript.NetServer.NSDocumentAgent.GetPublishedDocumentsByDate(Integer,Bool,Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetPublishedPersonDocumentsByDate(Integer,Bool,Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetPublishedProjectDocuments(Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetSaleDocuments(Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetSanitizedDocumentStream(Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetSanitizedTemplateStream(String,Bool,String)
+  - CRMScript.NetServer.NSDocumentAgent.GetSanitizedTemplateStreamFromId(Integer,String)
+  - CRMScript.NetServer.NSDocumentAgent.GetSuggestedDocumentEntity(Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetTempFile(String)
+  - CRMScript.NetServer.NSDocumentAgent.GetTemplateStream(String,Bool,String)
+  - CRMScript.NetServer.NSDocumentAgent.GetTemplateStreamFromId(Integer,String)
+  - CRMScript.NetServer.NSDocumentAgent.GetUnsanitizedPreviewDocumentStream(Integer)
+  - CRMScript.NetServer.NSDocumentAgent.GetVersionList(Integer)
+  - CRMScript.NetServer.NSDocumentAgent.RenameDocument(Integer,String)
+  - CRMScript.NetServer.NSDocumentAgent.SaveDocumentEntity(NSDocumentEntity)
+  - CRMScript.NetServer.NSDocumentAgent.SaveDocumentTemplateStream(Integer,NSStream,String,Integer)
+  - CRMScript.NetServer.NSDocumentAgent.SavePrivacyReport(String,String,Integer)
+  - CRMScript.NetServer.NSDocumentAgent.SaveSuggestedDocumentEntity(NSSuggestedDocumentEntity)
+  - CRMScript.NetServer.NSDocumentAgent.SetDocumentStream(NSDocumentEntity,Bool)
+  - CRMScript.NetServer.NSDocumentAgent.SetDocumentStreamFromId(Integer)
+  - CRMScript.NetServer.NSDocumentAgent.SetTemplateStream(String,Bool,NSStream)
+  - CRMScript.NetServer.NSDocumentAgent.SubstituteMergeDocumentTemplateVariables(Integer,Integer,String[],String[])
+  - CRMScript.NetServer.NSDocumentAgent.SubstituteMergeDocumentTemplateVariables2(Integer,Integer,Map)
+  - CRMScript.NetServer.NSDocumentAgent.SubstituteMergeDocumentTemplateVariablesEx(Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String[],String[])
+  - CRMScript.NetServer.NSDocumentAgent.SubstituteMergeDocumentTemplateVariablesEx2(Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,Map)
+  - CRMScript.NetServer.NSDocumentAgent.SubstituteTemplateVariables(String,Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  - CRMScript.NetServer.NSDocumentAgent.SubstituteTemplateVariablesEx()
+  - CRMScript.NetServer.NSDocumentAgent.SubstituteTemplateVariablesWithCustomTags(String,Integer,String[],String[],Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  - CRMScript.NetServer.NSDocumentAgent.SubstituteTemplateVariablesWithCustomTags2(String,Integer,Map,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  - CRMScript.NetServer.NSDocumentAgent.UndoCheckoutDocument(Integer,String[])
+  - CRMScript.NetServer.NSDocumentAgent.ValidateDocumentEntity(NSDocumentEntity)
+  - CRMScript.NetServer.NSDocumentAgent.VerifyGetDocumentStream(Integer)
+  name: NSDocumentAgent
+  nameWithType: NSDocumentAgent
+  fullName: CRMScript.NetServer.NSDocumentAgent
+  type: Class
+  summary: "\nCollection of all services that work with Document data. This is services for the document information, not the physical document themselves. These are handled by the BLOB service methods.\n"
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSDocumentAgent
+  langs:
+  - crmscript
+  name: NSDocumentAgent()
+  nameWithType: NSDocumentAgent.#ctor
+  fullName: CRMScript.NetServer.NSDocumentAgent.#ctor
+  type: Constructor
+  summary: "\nCollection of all services that work with Document data. This is services for the document information, not the physical document themselves. These are handled by the BLOB service methods.\n"
+  remarks: 
+  syntax: 
+    content: NSDocumentAgent
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.CheckinDocument(Integer,String[],String,String[])
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.CheckinDocument(Integer,String[],String,String[])
+  id: 'CheckinDocument(Integer,String[],String,String[])'
+  so.intellisense: NSDocumentAgent.CheckinDocument
+  langs:
+  - crmscript
+  name: 'CheckinDocument(Integer,String[],String,String[])'
+  nameWithType: NSDocumentAgent.CheckinDocument(Integer,String[],String,String[])
+  fullName: CRMScript.NetServer.NSDocumentAgent.CheckinDocument(Integer,String[],String,String[])
+  type: Method
+  summary: "\nChecks in a currently checked-out document\n"
+  remarks: 
+  syntax: 
+    content: NSReturnInfo CheckinDocument(Integer documentId, String[] allowedReturnTypes, String versionDescription, String[] versionExtraFields)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: allowedReturnTypes
+      type: CRMScript.Global.String[]
+      description: 
+    - id: versionDescription
+      type: CRMScript.Global.String
+      description: 
+    - id: versionExtraFields
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSReturnInfo
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger documentId;\nString[] allowedReturnTypes;\nString versionDescription;\nString[] versionExtraFields;\nNSReturnInfo res = agent.CheckinDocument(documentId, allowedReturnTypes, versionDescription, versionExtraFields);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.CheckoutDocument(Integer,String[])
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.CheckoutDocument(Integer,String[])
+  id: 'CheckoutDocument(Integer,String[])'
+  so.intellisense: NSDocumentAgent.CheckoutDocument
+  langs:
+  - crmscript
+  name: 'CheckoutDocument(Integer,String[])'
+  nameWithType: NSDocumentAgent.CheckoutDocument(Integer,String[])
+  fullName: CRMScript.NetServer.NSDocumentAgent.CheckoutDocument(Integer,String[])
+  type: Method
+  summary: "\nChecks out a document for editing by the current user.\n"
+  remarks: 
+  syntax: 
+    content: NSReturnInfo CheckoutDocument(Integer documentId, String[] allowedReturnTypes)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: allowedReturnTypes
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSReturnInfo
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger documentId;\nString[] allowedReturnTypes;\nNSReturnInfo res = agent.CheckoutDocument(documentId, allowedReturnTypes);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.CreateDefaultDocumentEntity()
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.CreateDefaultDocumentEntity()
+  id: 'CreateDefaultDocumentEntity()'
+  so.intellisense: NSDocumentAgent.CreateDefaultDocumentEntity
+  langs:
+  - crmscript
+  name: 'CreateDefaultDocumentEntity()'
+  nameWithType: NSDocumentAgent.CreateDefaultDocumentEntity()
+  fullName: CRMScript.NetServer.NSDocumentAgent.CreateDefaultDocumentEntity()
+  type: Method
+  summary: "\nSets default values into a new NSDocumentEntity.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSDocumentEntity CreateDefaultDocumentEntity()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSDocumentEntity
+      description: "The new entity with default values."
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nNSDocumentEntity thing = agent.CreateDefaultDocumentEntity();\nthing = agent.SaveDocumentEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.CreateDefaultDocumentEntityFromSuggestion(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.CreateDefaultDocumentEntityFromSuggestion(Integer)
+  id: 'CreateDefaultDocumentEntityFromSuggestion(Integer)'
+  so.intellisense: NSDocumentAgent.CreateDefaultDocumentEntityFromSuggestion
+  langs:
+  - crmscript
+  name: 'CreateDefaultDocumentEntityFromSuggestion(Integer)'
+  nameWithType: NSDocumentAgent.CreateDefaultDocumentEntityFromSuggestion(Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.CreateDefaultDocumentEntityFromSuggestion(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSDocumentEntity CreateDefaultDocumentEntityFromSuggestion(Integer suggestedDocumentId)
+    parameters:
+    - id: suggestedDocumentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocumentEntity
+      description: "The new entity."
+  example: 
+- uid: CRMScript.NetServer.NSDocumentAgent.CreateDefaultDocumentPreview()
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.CreateDefaultDocumentPreview()
+  id: 'CreateDefaultDocumentPreview()'
+  so.intellisense: NSDocumentAgent.CreateDefaultDocumentPreview
+  langs:
+  - crmscript
+  name: 'CreateDefaultDocumentPreview()'
+  nameWithType: NSDocumentAgent.CreateDefaultDocumentPreview()
+  fullName: CRMScript.NetServer.NSDocumentAgent.CreateDefaultDocumentPreview()
+  type: Method
+  summary: "\nSets default values into a new NSDocumentPreview.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSDocumentPreview CreateDefaultDocumentPreview()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSDocumentPreview
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nNSDocumentPreview thing = agent.CreateDefaultDocumentPreview();\nthing = agent.SaveDocumentPreview(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.CreateDefaultSuggestedDocumentEntity()
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.CreateDefaultSuggestedDocumentEntity()
+  id: 'CreateDefaultSuggestedDocumentEntity()'
+  so.intellisense: NSDocumentAgent.CreateDefaultSuggestedDocumentEntity
+  langs:
+  - crmscript
+  name: 'CreateDefaultSuggestedDocumentEntity()'
+  nameWithType: NSDocumentAgent.CreateDefaultSuggestedDocumentEntity()
+  fullName: CRMScript.NetServer.NSDocumentAgent.CreateDefaultSuggestedDocumentEntity()
+  type: Method
+  summary: "\nSets default values into a new NSSuggestedDocumentEntity.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSSuggestedDocumentEntity CreateDefaultSuggestedDocumentEntity()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSuggestedDocumentEntity
+      description: "The new entity."
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nNSSuggestedDocumentEntity thing = agent.CreateDefaultSuggestedDocumentEntity();\nthing = agent.SaveSuggestedDocumentEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.CreateDefaultTemplateVariablesParameters()
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.CreateDefaultTemplateVariablesParameters()
+  id: 'CreateDefaultTemplateVariablesParameters()'
+  so.intellisense: NSDocumentAgent.CreateDefaultTemplateVariablesParameters
+  langs:
+  - crmscript
+  name: 'CreateDefaultTemplateVariablesParameters()'
+  nameWithType: NSDocumentAgent.CreateDefaultTemplateVariablesParameters()
+  fullName: CRMScript.NetServer.NSDocumentAgent.CreateDefaultTemplateVariablesParameters()
+  type: Method
+  summary: "\nSets default values into a new NSTemplateVariablesParameters.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSTemplateVariablesParameters CreateDefaultTemplateVariablesParameters()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSTemplateVariablesParameters
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nNSTemplateVariablesParameters thing = agent.CreateDefaultTemplateVariablesParameters();\nthing = agent.SaveTemplateVariablesParameters(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.CreateDocumentStream(NSDocumentEntity,Bool)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.CreateDocumentStream(NSDocumentEntity,Bool)
+  id: 'CreateDocumentStream(NSDocumentEntity,Bool)'
+  so.intellisense: NSDocumentAgent.CreateDocumentStream
+  langs:
+  - crmscript
+  name: 'CreateDocumentStream(NSDocumentEntity,Bool)'
+  nameWithType: NSDocumentAgent.CreateDocumentStream(NSDocumentEntity,Bool)
+  fullName: CRMScript.NetServer.NSDocumentAgent.CreateDocumentStream(NSDocumentEntity,Bool)
+  type: Method
+  summary: "\nCreates a new NSStream that can be used to store the document in the file archive.\n"
+  remarks: 
+  syntax: 
+    content: NSStream CreateDocumentStream(NSDocumentEntity documentEntity, Bool overwriteExistingData)
+    parameters:
+    - id: documentEntity
+      type: CRMScript.NetServer.NSDocumentEntity
+      description: 
+    - id: overwriteExistingData
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.NetServer.NSStream
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nNSDocumentEntity documentEntity;\nBool overwriteExistingData;\nNSStream res = agent.CreateDocumentStream(documentEntity, overwriteExistingData);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.CreateNewPhysicalDocumentFromTemplate(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.CreateNewPhysicalDocumentFromTemplate(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  id: 'CreateNewPhysicalDocumentFromTemplate(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)'
+  so.intellisense: NSDocumentAgent.CreateNewPhysicalDocumentFromTemplate
+  langs:
+  - crmscript
+  name: 'CreateNewPhysicalDocumentFromTemplate(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)'
+  nameWithType: NSDocumentAgent.CreateNewPhysicalDocumentFromTemplate(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  fullName: CRMScript.NetServer.NSDocumentAgent.CreateNewPhysicalDocumentFromTemplate(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  type: Method
+  summary: "\nCreates a new document content based on a document template and store it in the document archive. Tags are substituted according to the provided IDs.\n"
+  remarks: "\nUse GetDocumentStream to obtain the created document. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.\n"
+  syntax: 
+    content: NSDocumentEntity CreateNewPhysicalDocumentFromTemplate(Integer contactId, Integer personId, Integer appointmentId, Integer documentId, Integer saleId, Integer selectionId, Integer projectId, String uiCulture)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: saleId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: selectionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: uiCulture
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocumentEntity
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger contactId;\nInteger personId;\nInteger appointmentId;\nInteger documentId;\nInteger saleId;\nInteger selectionId;\nInteger projectId;\nString uiCulture;\nNSDocumentEntity res = agent.CreateNewPhysicalDocumentFromTemplate(contactId, personId, appointmentId, documentId, saleId, selectionId, projectId, uiCulture);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String[],String[],String)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String[],String[],String)
+  id: 'CreateNewPhysicalDocumentFromTemplateWithCustomTags(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String[],String[],String)'
+  so.intellisense: NSDocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags
+  langs:
+  - crmscript
+  name: 'CreateNewPhysicalDocumentFromTemplateWithCustomTags(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String[],String[],String)'
+  nameWithType: NSDocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String[],String[],String)
+  fullName: CRMScript.NetServer.NSDocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String[],String[],String)
+  type: Method
+  summary: "\nCreates a new physical document based on a document template and store it in the document archive. Tags are substituted according to the provided IDs.\n"
+  remarks: "\nUse GetDocumentStream to obtain the created document content. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.\n"
+  syntax: 
+    content: NSDocumentEntity CreateNewPhysicalDocumentFromTemplateWithCustomTags(Integer contactId, Integer personId, Integer appointmentId, Integer documentId, Integer saleId, Integer selectionId, Integer projectId, String[] customTags, String[] customValues, String uiCulture)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: saleId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: selectionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: customTags
+      type: CRMScript.Global.String[]
+      description: 
+    - id: customValues
+      type: CRMScript.Global.String[]
+      description: 
+    - id: uiCulture
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocumentEntity
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger contactId;\nInteger personId;\nInteger appointmentId;\nInteger documentId;\nInteger saleId;\nInteger selectionId;\nInteger projectId;\nString[] customTags;\nString[] customValues;\nString uiCulture;\nNSDocumentEntity res = agent.CreateNewPhysicalDocumentFromTemplateWithCustomTags(contactId, personId, appointmentId, documentId, saleId, selectionId, projectId, customTags, customValues, uiCulture);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags2(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags2(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  id: 'CreateNewPhysicalDocumentFromTemplateWithCustomTags2(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)'
+  so.intellisense: NSDocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags2
+  langs:
+  - crmscript
+  name: 'CreateNewPhysicalDocumentFromTemplateWithCustomTags2(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)'
+  nameWithType: NSDocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags2(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  fullName: CRMScript.NetServer.NSDocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags2(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  type: Method
+  summary: "\nCreates a new physical document based on a document template and store it in the document archive. Tags are substituted according to the provided IDs.\n"
+  remarks: "\nUse GetDocumentStream to obtain the created document content. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.\n"
+  syntax: 
+    content: NSDocumentEntity CreateNewPhysicalDocumentFromTemplateWithCustomTags2(Integer contactId, Integer personId, Integer appointmentId, Integer documentId, Integer saleId, Integer selectionId, Integer projectId, Map customTags, String uiCulture)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: saleId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: selectionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: uiCulture
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocumentEntity
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger contactId;\nInteger personId;\nInteger appointmentId;\nInteger documentId;\nInteger saleId;\nInteger selectionId;\nInteger projectId;\nMap customTags;\nString uiCulture;\nNSDocumentEntity res = agent.CreateNewPhysicalDocumentFromTemplateWithCustomTags2(contactId, personId, appointmentId, documentId, saleId, selectionId, projectId, customTags, uiCulture);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.CreateNewPhysicalMailMergeDocumentFromTemplate(Integer,String)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.CreateNewPhysicalMailMergeDocumentFromTemplate(Integer,String)
+  id: 'CreateNewPhysicalMailMergeDocumentFromTemplate(Integer,String)'
+  so.intellisense: NSDocumentAgent.CreateNewPhysicalMailMergeDocumentFromTemplate
+  langs:
+  - crmscript
+  name: 'CreateNewPhysicalMailMergeDocumentFromTemplate(Integer,String)'
+  nameWithType: NSDocumentAgent.CreateNewPhysicalMailMergeDocumentFromTemplate(Integer,String)
+  fullName: CRMScript.NetServer.NSDocumentAgent.CreateNewPhysicalMailMergeDocumentFromTemplate(Integer,String)
+  type: Method
+  summary: "\nCreates a new physical document based on the documents template."
+  remarks: "\nDo not replace template tags, as the document is going to be used as a mail merge source.<p></p>\nUse GetDocumentStream to obtain the created documents. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.\n"
+  syntax: 
+    content: NSDocumentEntity CreateNewPhysicalMailMergeDocumentFromTemplate(Integer documentId, String uiCulture)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: uiCulture
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocumentEntity
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger documentId;\nString uiCulture;\nNSDocumentEntity res = agent.CreateNewPhysicalMailMergeDocumentFromTemplate(documentId, uiCulture);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.CreateTempFile(String)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.CreateTempFile(String)
+  id: 'CreateTempFile(String)'
+  so.intellisense: NSDocumentAgent.CreateTempFile
+  langs:
+  - crmscript
+  name: 'CreateTempFile(String)'
+  nameWithType: NSDocumentAgent.CreateTempFile(String)
+  fullName: CRMScript.NetServer.NSDocumentAgent.CreateTempFile(String)
+  type: Method
+  summary: "\nCreates a new temporary file based on the provided stream.  Specified filename may be overridden, and actual name is returned.\n"
+  remarks: 
+  syntax: 
+    content: String CreateTempFile(String filename, NSStream dataStream)
+    parameters:
+    - id: filename
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nString filename;\nNSStream dataStream;\nString res = agent.CreateTempFile(filename, dataStream);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.DeleteDocumentEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.DeleteDocumentEntity(Integer)
+  id: 'DeleteDocumentEntity(Integer)'
+  so.intellisense: NSDocumentAgent.DeleteDocumentEntity
+  langs:
+  - crmscript
+  name: 'DeleteDocumentEntity(Integer)'
+  nameWithType: NSDocumentAgent.DeleteDocumentEntity(Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.DeleteDocumentEntity(Integer)
+  type: Method
+  summary: "\nDeletes the NSDocumentEntity\n"
+  remarks: 
+  syntax: 
+    content: DeleteDocumentEntity(Integer documentEntity)
+    parameters:
+    - id: documentEntity
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nagent.DeleteDocumentEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.DeletePhysicalDocument(Integer,String[])
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.DeletePhysicalDocument(Integer,String[])
+  id: 'DeletePhysicalDocument(Integer,String[])'
+  so.intellisense: NSDocumentAgent.DeletePhysicalDocument
+  langs:
+  - crmscript
+  name: 'DeletePhysicalDocument(Integer,String[])'
+  nameWithType: NSDocumentAgent.DeletePhysicalDocument(Integer,String[])
+  fullName: CRMScript.NetServer.NSDocumentAgent.DeletePhysicalDocument(Integer,String[])
+  type: Method
+  summary: "\nDeletes the document contents\n"
+  remarks: 
+  syntax: 
+    content: NSReturnInfo DeletePhysicalDocument(Integer documentId, String[] allowedReturnType)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: allowedReturnType
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSReturnInfo
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger documentId;\nString[] allowedReturnType;\nNSReturnInfo res = agent.DeletePhysicalDocument(documentId, allowedReturnType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.DeleteTempFile(String)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.DeleteTempFile(String)
+  id: 'DeleteTempFile(String)'
+  so.intellisense: NSDocumentAgent.DeleteTempFile
+  langs:
+  - crmscript
+  name: 'DeleteTempFile(String)'
+  nameWithType: NSDocumentAgent.DeleteTempFile(String)
+  fullName: CRMScript.NetServer.NSDocumentAgent.DeleteTempFile(String)
+  type: Method
+  summary: "\nDeletes a temporary file created with CreateTempFile.\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteTempFile(String filename)
+    parameters:
+    - id: filename
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSDocumentAgent.ExecuteDocumentCommand(Integer,String,String[],String,String[])
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.ExecuteDocumentCommand(Integer,String,String[],String,String[])
+  id: 'ExecuteDocumentCommand(Integer,String,String[],String,String[])'
+  so.intellisense: NSDocumentAgent.ExecuteDocumentCommand
+  langs:
+  - crmscript
+  name: 'ExecuteDocumentCommand(Integer,String,String[],String,String[])'
+  nameWithType: NSDocumentAgent.ExecuteDocumentCommand(Integer,String,String[],String,String[])
+  fullName: CRMScript.NetServer.NSDocumentAgent.ExecuteDocumentCommand(Integer,String,String[],String,String[])
+  type: Method
+  summary: "\nExecutes a custom command on a particular document, optionally a particular version\n"
+  remarks: 
+  syntax: 
+    content: NSReturnInfo ExecuteDocumentCommand(Integer documentId, String versionId, String[] allowedReturnTypes, String command, String[] additionalData)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: versionId
+      type: CRMScript.Global.String
+      description: 
+    - id: allowedReturnTypes
+      type: CRMScript.Global.String[]
+      description: 
+    - id: command
+      type: CRMScript.Global.String
+      description: 
+    - id: additionalData
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSReturnInfo
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger documentId;\nString versionId;\nString[] allowedReturnTypes;\nString command;\nString[] additionalData;\nNSReturnInfo res = agent.ExecuteDocumentCommand(documentId, versionId, allowedReturnTypes, command, additionalData);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetAppointmentDocuments(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetAppointmentDocuments(Integer)
+  id: 'GetAppointmentDocuments(Integer)'
+  so.intellisense: NSDocumentAgent.GetAppointmentDocuments
+  langs:
+  - crmscript
+  name: 'GetAppointmentDocuments(Integer)'
+  nameWithType: NSDocumentAgent.GetAppointmentDocuments(Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetAppointmentDocuments(Integer)
+  type: Method
+  summary: "\nGets all documents that are linked to the appointment (the documents that are listed in the appointment dialog).\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetAppointmentDocuments(Integer appointmentId)
+    parameters:
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger appointmentId;\nNSDocument[] res = agent.GetAppointmentDocuments(appointmentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetCheckoutState(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetCheckoutState(Integer)
+  id: 'GetCheckoutState(Integer)'
+  so.intellisense: NSDocumentAgent.GetCheckoutState
+  langs:
+  - crmscript
+  name: 'GetCheckoutState(Integer)'
+  nameWithType: NSDocumentAgent.GetCheckoutState(Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetCheckoutState(Integer)
+  type: Method
+  summary: "\nGets the current checkout state for a document, relative to the user performing the call.\n"
+  remarks: 
+  syntax: 
+    content: NSCheckoutInfo GetCheckoutState(Integer documentId)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSCheckoutInfo
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger documentId;\nNSCheckoutInfo res = agent.GetCheckoutState(documentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetContactDocuments(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetContactDocuments(Integer,Integer)
+  id: 'GetContactDocuments(Integer,Integer)'
+  so.intellisense: NSDocumentAgent.GetContactDocuments
+  langs:
+  - crmscript
+  name: 'GetContactDocuments(Integer,Integer)'
+  nameWithType: NSDocumentAgent.GetContactDocuments(Integer,Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetContactDocuments(Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of document appointments within a time range.\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetContactDocuments(Integer contactId, DateTime startTime, DateTime endTime, Integer count)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+      description: "The document appointments belong to the contact specified."
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger contactId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nNSDocument[] res = agent.GetContactDocuments(contactId, startTime, endTime, count);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetContactDocumentsByTemplateHeading(Integer,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetContactDocumentsByTemplateHeading(Integer,Integer,Integer)
+  id: 'GetContactDocumentsByTemplateHeading(Integer,Integer,Integer)'
+  so.intellisense: NSDocumentAgent.GetContactDocumentsByTemplateHeading
+  langs:
+  - crmscript
+  name: 'GetContactDocumentsByTemplateHeading(Integer,Integer,Integer)'
+  nameWithType: NSDocumentAgent.GetContactDocumentsByTemplateHeading(Integer,Integer,Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetContactDocumentsByTemplateHeading(Integer,Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of document appointments within a time range, filtered by the document template heading.\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetContactDocumentsByTemplateHeading(Integer contactId, DateTime startTime, DateTime endTime, Integer count, Integer templateHeadingId)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: templateHeadingId
+      type: CRMScript.Global.Integer
+      description: "The heading represents a grouping or filtering of document templates."
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+      description: "The document appointments belong to the contact specified."
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger contactId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger templateHeadingId;\nNSDocument[] res = agent.GetContactDocumentsByTemplateHeading(contactId, startTime, endTime, count, templateHeadingId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetContactDocumentsByTemplateType(Integer,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetContactDocumentsByTemplateType(Integer,Integer,Integer)
+  id: 'GetContactDocumentsByTemplateType(Integer,Integer,Integer)'
+  so.intellisense: NSDocumentAgent.GetContactDocumentsByTemplateType
+  langs:
+  - crmscript
+  name: 'GetContactDocumentsByTemplateType(Integer,Integer,Integer)'
+  nameWithType: NSDocumentAgent.GetContactDocumentsByTemplateType(Integer,Integer,Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetContactDocumentsByTemplateType(Integer,Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of document appointments within a time range, filtered by document template type.\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetContactDocumentsByTemplateType(Integer contactId, DateTime startTime, DateTime endTime, Integer count, Integer documentTemplateId)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: documentTemplateId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+      description: "The document appointments belong to the contact specified."
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger contactId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger documentTemplateId;\nNSDocument[] res = agent.GetContactDocumentsByTemplateType(contactId, startTime, endTime, count, documentTemplateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetContactDocumentsByTemplateTypes(Integer,Integer,Integer[])
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetContactDocumentsByTemplateTypes(Integer,Integer,Integer[])
+  id: 'GetContactDocumentsByTemplateTypes(Integer,Integer,Integer[])'
+  so.intellisense: NSDocumentAgent.GetContactDocumentsByTemplateTypes
+  langs:
+  - crmscript
+  name: 'GetContactDocumentsByTemplateTypes(Integer,Integer,Integer[])'
+  nameWithType: NSDocumentAgent.GetContactDocumentsByTemplateTypes(Integer,Integer,Integer[])
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetContactDocumentsByTemplateTypes(Integer,Integer,Integer[])
+  type: Method
+  summary: "\nReturns a specified number of document appointments within a time range, filtered by document template types.\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetContactDocumentsByTemplateTypes(Integer contactId, DateTime startTime, DateTime endTime, Integer count, Integer[] documentTemplateIds)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: documentTemplateIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+      description: "The document appointments belong to the contact specified."
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger contactId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger[] documentTemplateIds;\nNSDocument[] res = agent.GetContactDocumentsByTemplateTypes(contactId, startTime, endTime, count, documentTemplateIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetDocument(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetDocument(Integer)
+  id: 'GetDocument(Integer)'
+  so.intellisense: NSDocumentAgent.GetDocument
+  langs:
+  - crmscript
+  name: 'GetDocument(Integer)'
+  nameWithType: NSDocumentAgent.GetDocument(Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetDocument(Integer)
+  type: Method
+  summary: "\nGets an NSDocument object.\n"
+  remarks: 
+  syntax: 
+    content: NSDocument GetDocument(Integer documentId)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocument
+      description: 
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nNSDocument thing = agent.GetDocument(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetDocumentCommands(Integer,String[])
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetDocumentCommands(Integer,String[])
+  id: 'GetDocumentCommands(Integer,String[])'
+  so.intellisense: NSDocumentAgent.GetDocumentCommands
+  langs:
+  - crmscript
+  name: 'GetDocumentCommands(Integer,String[])'
+  nameWithType: NSDocumentAgent.GetDocumentCommands(Integer,String[])
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetDocumentCommands(Integer,String[])
+  type: Method
+  summary: "\nGets a list of custom commands valid for the specific document at this time.\n"
+  remarks: "\nThis information should not be cached by clients, as it may change between documents and over time.\n"
+  syntax: 
+    content: NSCommandInfo[] GetDocumentCommands(Integer documentId, String[] allowedReturnTypes)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: allowedReturnTypes
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSCommandInfo[]
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger documentId;\nString[] allowedReturnTypes;\nNSCommandInfo[] res = agent.GetDocumentCommands(documentId, allowedReturnTypes);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetDocumentEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetDocumentEntity(Integer)
+  id: 'GetDocumentEntity(Integer)'
+  so.intellisense: NSDocumentAgent.GetDocumentEntity
+  langs:
+  - crmscript
+  name: 'GetDocumentEntity(Integer)'
+  nameWithType: NSDocumentAgent.GetDocumentEntity(Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetDocumentEntity(Integer)
+  type: Method
+  summary: "\nGets an NSDocumentEntity object.\n"
+  remarks: 
+  syntax: 
+    content: NSDocumentEntity GetDocumentEntity(Integer documentEntityId)
+    parameters:
+    - id: documentEntityId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocumentEntity
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nNSDocumentEntity thing = agent.GetDocumentEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetDocumentList(Integer[])
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetDocumentList(Integer[])
+  id: 'GetDocumentList(Integer[])'
+  so.intellisense: NSDocumentAgent.GetDocumentList
+  langs:
+  - crmscript
+  name: 'GetDocumentList(Integer[])'
+  nameWithType: NSDocumentAgent.GetDocumentList(Integer[])
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetDocumentList(Integer[])
+  type: Method
+  summary: "\nGets an array of NSDocument objects.\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetDocumentList(Integer[] documentIds)
+    parameters:
+    - id: documentIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+      description:
+  example: 
+  - "\n<pre><code>Integer[] ids;\nNSDocumentAgent agent;\nNSDocument[] docs = agent.GetDocumentList(ids);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetDocumentProperties(Integer,String[])
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetDocumentProperties(Integer,String[])
+  id: 'GetDocumentProperties(Integer,String[])'
+  so.intellisense: NSDocumentAgent.GetDocumentProperties
+  langs:
+  - crmscript
+  name: 'GetDocumentProperties(Integer,String[])'
+  nameWithType: NSDocumentAgent.GetDocumentProperties(Integer,String[])
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetDocumentProperties(Integer,String[])
+  type: Method
+  summary: "\nGets plugin-dependent properties for the document.\n"
+  remarks: "\nA number of standard properties that should be supported by all plugins are defined in SuperOffice.CRM.Documents.Constants.Properties.\n"
+  syntax: 
+    content: Map GetDocumentProperties(Integer documentId, String[] requestedProperties)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: requestedProperties
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger documentId;\nString[] requestedProperties;\nMap res = agent.GetDocumentProperties(documentId, requestedProperties);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetDocumentsByTemplateHeading(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetDocumentsByTemplateHeading(Integer)
+  id: 'GetDocumentsByTemplateHeading(Integer)'
+  so.intellisense: NSDocumentAgent.GetDocumentsByTemplateHeading
+  langs:
+  - crmscript
+  name: 'GetDocumentsByTemplateHeading(Integer)'
+  nameWithType: NSDocumentAgent.GetDocumentsByTemplateHeading(Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetDocumentsByTemplateHeading(Integer)
+  type: Method
+  summary: "\nReturns document appointments, filtered by the document template heading.\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetDocumentsByTemplateHeading(Integer templateHeadingId)
+    parameters:
+    - id: templateHeadingId
+      type: CRMScript.Global.Integer
+      description: "The heading represents a grouping or filtering of document templates."
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger templateHeadingId;\nNSDocument[] res = agent.GetDocumentsByTemplateHeading(templateHeadingId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetDocumentStream(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetDocumentStream(Integer)
+  id: 'GetDocumentStream(Integer)'
+  so.intellisense: NSDocumentAgent.GetDocumentStream
+  langs:
+  - crmscript
+  name: 'GetDocumentStream(Integer)'
+  nameWithType: NSDocumentAgent.GetDocumentStream(Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetDocumentStream(Integer)
+  type: Method
+  summary: "\nGets the document content as a stream\n"
+  remarks: 
+  syntax: 
+    content: NSStream GetDocumentStream(Integer documentId)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSStream
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger documentId;\nNSStream res = agent.GetDocumentStream(documentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetDocumentStreamFromEntity(NSDocumentEntity)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetDocumentStreamFromEntity(NSDocumentEntity)
+  id: 'GetDocumentStreamFromEntity(NSDocumentEntity)'
+  so.intellisense: NSDocumentAgent.GetDocumentStreamFromEntity
+  langs:
+  - crmscript
+  name: 'GetDocumentStreamFromEntity(NSDocumentEntity)'
+  nameWithType: NSDocumentAgent.GetDocumentStreamFromEntity(NSDocumentEntity)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetDocumentStreamFromEntity(NSDocumentEntity)
+  type: Method
+  summary: "\nGets the document as a stream\n"
+  remarks: 
+  syntax: 
+    content: NSStream GetDocumentStreamFromEntity(NSDocumentEntity documentEntity)
+    parameters:
+    - id: documentEntity
+      type: CRMScript.NetServer.NSDocumentEntity
+      description: 
+    return:
+      type: CRMScript.NetServer.NSStream
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nNSDocumentEntity documentEntity;\nNSStream res = agent.GetDocumentStreamFromEntity(documentEntity);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetDocumentUrl(Integer,String,Bool)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetDocumentUrl(Integer,String,Bool)
+  id: 'GetDocumentUrl(Integer,String,Bool)'
+  so.intellisense: NSDocumentAgent.GetDocumentUrl
+  langs:
+  - crmscript
+  name: 'GetDocumentUrl(Integer,String,Bool)'
+  nameWithType: NSDocumentAgent.GetDocumentUrl(Integer,String,Bool)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetDocumentUrl(Integer,String,Bool)
+  type: Method
+  summary: "\nGets a URL referring to the given document content.\n"
+  remarks: "\nThis URL may be passed to the ultimate client (text editor of some kind?), which is then responsible for all further operations.<p></p>\nNot all documents and document plugins support this feature.\n"
+  syntax: 
+    content: String GetDocumentUrl(Integer documentId, String versionId, Bool writeableUrl)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: versionId
+      type: CRMScript.Global.String
+      description: 
+    - id: writeableUrl
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description: "The returned string is a fully qualified URL."
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger documentId;\nString versionId;\nBool writeableUrl;\nString res = agent.GetDocumentUrl(documentId, versionId, writeableUrl);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetMyPublishedDocuments()
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetMyPublishedDocuments()
+  id: 'GetMyPublishedDocuments()'
+  so.intellisense: NSDocumentAgent.GetMyPublishedDocuments
+  langs:
+  - crmscript
+  name: 'GetMyPublishedDocuments()'
+  nameWithType: NSDocumentAgent.GetMyPublishedDocuments()
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetMyPublishedDocuments()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetMyPublishedDocuments()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nNSDocument[] res = agent.GetMyPublishedDocuments();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetPersonDocuments(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetPersonDocuments(Integer)
+  id: 'GetPersonDocuments(Integer)'
+  so.intellisense: NSDocumentAgent.GetPersonDocuments
+  langs:
+  - crmscript
+  name: 'GetPersonDocuments(Integer)'
+  nameWithType: NSDocumentAgent.GetPersonDocuments(Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetPersonDocuments(Integer)
+  type: Method
+  summary: "\nGets all documents that are linked to the person (the documents that are listed in the person dialog).\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetPersonDocuments(Integer personId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger personId;\nNSDocument[] res = agent.GetPersonDocuments(personId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetPersonDocumentsByDate(Integer,Bool,Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetPersonDocumentsByDate(Integer,Bool,Integer)
+  id: 'GetPersonDocumentsByDate(Integer,Bool,Integer)'
+  so.intellisense: NSDocumentAgent.GetPersonDocumentsByDate
+  langs:
+  - crmscript
+  name: 'GetPersonDocumentsByDate(Integer,Bool,Integer)'
+  nameWithType: NSDocumentAgent.GetPersonDocumentsByDate(Integer,Bool,Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetPersonDocumentsByDate(Integer,Bool,Integer)
+  type: Method
+  summary: "\nReturns a specified number of document appointments within a time range. The document appointments belong to the person specified.\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetPersonDocumentsByDate(Integer personId, Bool includeProjectDocuments, DateTime startTime, DateTime endTime, Integer count)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: includeProjectDocuments
+      type: CRMScript.Global.Bool
+      description: 
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger personId;\nBool includeProjectDocuments;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nNSDocument[] res = agent.GetPersonDocumentsByDate(personId, includeProjectDocuments, startTime, endTime, count);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetPersonDocumentsByTemplateHeading(Integer,Bool,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetPersonDocumentsByTemplateHeading(Integer,Bool,Integer,Integer)
+  id: 'GetPersonDocumentsByTemplateHeading(Integer,Bool,Integer,Integer)'
+  so.intellisense: NSDocumentAgent.GetPersonDocumentsByTemplateHeading
+  langs:
+  - crmscript
+  name: 'GetPersonDocumentsByTemplateHeading(Integer,Bool,Integer,Integer)'
+  nameWithType: NSDocumentAgent.GetPersonDocumentsByTemplateHeading(Integer,Bool,Integer,Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetPersonDocumentsByTemplateHeading(Integer,Bool,Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of document appointments within a time range, filtered by document template heading.\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetPersonDocumentsByTemplateHeading(Integer personId, Bool includeProjectDocuments, DateTime startTime, DateTime endTime, Integer count, Integer templateHeadingId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: includeProjectDocuments
+      type: CRMScript.Global.Bool
+      description: 
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: templateHeadingId
+      type: CRMScript.Global.Integer
+      description: "The heading represents a grouping or filtering of document templates."
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+      description: "The document appointments belong to the person specified."
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger personId;\nBool includeProjectDocuments;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger templateHeadingId;\nNSDocument[] res = agent.GetPersonDocumentsByTemplateHeading(personId, includeProjectDocuments, startTime, endTime, count, templateHeadingId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetPersonDocumentsByTemplateType(Integer,Bool,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetPersonDocumentsByTemplateType(Integer,Bool,Integer,Integer)
+  id: 'GetPersonDocumentsByTemplateType(Integer,Bool,Integer,Integer)'
+  so.intellisense: NSDocumentAgent.GetPersonDocumentsByTemplateType
+  langs:
+  - crmscript
+  name: 'GetPersonDocumentsByTemplateType(Integer,Bool,Integer,Integer)'
+  nameWithType: NSDocumentAgent.GetPersonDocumentsByTemplateType(Integer,Bool,Integer,Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetPersonDocumentsByTemplateType(Integer,Bool,Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of document appointments within a time range, filtered by document template type.\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetPersonDocumentsByTemplateType(Integer personId, Bool includeProjectDocuments, DateTime startTime, DateTime endTime, Integer count, Integer documentTemplateId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: includeProjectDocuments
+      type: CRMScript.Global.Bool
+      description: 
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: documentTemplateId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+      description: "The document appointments belong to the person specified."
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger personId;\nBool includeProjectDocuments;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger documentTemplateId;\nNSDocument[] res = agent.GetPersonDocumentsByTemplateType(personId, includeProjectDocuments, startTime, endTime, count, documentTemplateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetPersonDocumentsByTemplateTypes(Integer,Bool,Integer,Integer[])
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetPersonDocumentsByTemplateTypes(Integer,Bool,Integer,Integer[])
+  id: 'GetPersonDocumentsByTemplateTypes(Integer,Bool,Integer,Integer[])'
+  so.intellisense: NSDocumentAgent.GetPersonDocumentsByTemplateTypes
+  langs:
+  - crmscript
+  name: 'GetPersonDocumentsByTemplateTypes(Integer,Bool,Integer,Integer[])'
+  nameWithType: NSDocumentAgent.GetPersonDocumentsByTemplateTypes(Integer,Bool,Integer,Integer[])
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetPersonDocumentsByTemplateTypes(Integer,Bool,Integer,Integer[])
+  type: Method
+  summary: "\nReturns a specified number of document appointments within a time range, filtered by document template types.\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetPersonDocumentsByTemplateTypes(Integer personId, Bool includeProjectDocuments, DateTime startTime, DateTime endTime, Integer count, Integer[] documentTemplateIds)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: includeProjectDocuments
+      type: CRMScript.Global.Bool
+      description: 
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: documentTemplateIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+      description: "The document appointments belong to the person specified."
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger personId;\nBool includeProjectDocuments;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger[] documentTemplateIds;\nNSDocument[] res = agent.GetPersonDocumentsByTemplateTypes(personId, includeProjectDocuments, startTime, endTime, count, documentTemplateIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetPluginCapabilities(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetPluginCapabilities(Integer)
+  id: 'GetPluginCapabilities(Integer)'
+  so.intellisense: NSDocumentAgent.GetPluginCapabilities
+  langs:
+  - crmscript
+  name: 'GetPluginCapabilities(Integer)'
+  nameWithType: NSDocumentAgent.GetPluginCapabilities(Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetPluginCapabilities(Integer)
+  type: Method
+  summary: "\nGets a list of plugin-dependent capabilities for a given document archive plugin.\n"
+  remarks: 
+  syntax: 
+    content: Map GetPluginCapabilities(Integer pluginId)
+    parameters:
+    - id: pluginId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Native.Map
+      description: "A standard set of properties is defined in SuperOffice.CRM.Documents.Constants.Capabilities."
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger pluginId;\nMap res = agent.GetPluginCapabilities(pluginId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetPluginList()
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetPluginList()
+  id: 'GetPluginList()'
+  so.intellisense: NSDocumentAgent.GetPluginList
+  langs:
+  - crmscript
+  name: 'GetPluginList()'
+  nameWithType: NSDocumentAgent.GetPluginList()
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetPluginList()
+  type: Method
+  summary: "\nGets a list of installed document plugins\n"
+  remarks: 
+  syntax: 
+    content: Map GetPluginList()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nMap res = agent.GetPluginList();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetPreviewDocumentStream(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetPreviewDocumentStream(Integer)
+  id: 'GetPreviewDocumentStream(Integer)'
+  so.intellisense: NSDocumentAgent.GetPreviewDocumentStream
+  langs:
+  - crmscript
+  name: 'GetPreviewDocumentStream(Integer)'
+  nameWithType: NSDocumentAgent.GetPreviewDocumentStream(Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetPreviewDocumentStream(Integer)
+  type: Method
+  summary: "\nGets the preview version of the document content as a stream. Retrieves a sanitized version if possible\n"
+  remarks: 
+  syntax: 
+    content: NSDocumentPreview GetPreviewDocumentStream(Integer documentId)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocumentPreview
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger documentId;\nNSDocumentPreview res = agent.GetPreviewDocumentStream(documentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetProjectDocuments(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetProjectDocuments(Integer,Integer)
+  id: 'GetProjectDocuments(Integer,Integer)'
+  so.intellisense: NSDocumentAgent.GetProjectDocuments
+  langs:
+  - crmscript
+  name: 'GetProjectDocuments(Integer,Integer)'
+  nameWithType: NSDocumentAgent.GetProjectDocuments(Integer,Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetProjectDocuments(Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of document appointments within a time range.\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetProjectDocuments(Integer projectId, DateTime startTime, DateTime endTime, Integer count)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+      description: "The document appointments belong to the project specified."
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger projectId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nNSDocument[] res = agent.GetProjectDocuments(projectId, startTime, endTime, count);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetProjectDocumentsByTemplateHeading(Integer,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetProjectDocumentsByTemplateHeading(Integer,Integer,Integer)
+  id: 'GetProjectDocumentsByTemplateHeading(Integer,Integer,Integer)'
+  so.intellisense: NSDocumentAgent.GetProjectDocumentsByTemplateHeading
+  langs:
+  - crmscript
+  name: 'GetProjectDocumentsByTemplateHeading(Integer,Integer,Integer)'
+  nameWithType: NSDocumentAgent.GetProjectDocumentsByTemplateHeading(Integer,Integer,Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetProjectDocumentsByTemplateHeading(Integer,Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of document appointments within a time range, filtered by document template heading.\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetProjectDocumentsByTemplateHeading(Integer projectId, DateTime startTime, DateTime endTime, Integer count, Integer templateHeadingId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: templateHeadingId
+      type: CRMScript.Global.Integer
+      description: "The heading represents a grouping or filtering of document templates."
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+      description: "The document appointments belong to the project specified."
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger projectId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger templateHeadingId;\nNSDocument[] res = agent.GetProjectDocumentsByTemplateHeading(projectId, startTime, endTime, count, templateHeadingId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetProjectDocumentsByTemplateType(Integer,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetProjectDocumentsByTemplateType(Integer,Integer,Integer)
+  id: 'GetProjectDocumentsByTemplateType(Integer,Integer,Integer)'
+  so.intellisense: NSDocumentAgent.GetProjectDocumentsByTemplateType
+  langs:
+  - crmscript
+  name: 'GetProjectDocumentsByTemplateType(Integer,Integer,Integer)'
+  nameWithType: NSDocumentAgent.GetProjectDocumentsByTemplateType(Integer,Integer,Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetProjectDocumentsByTemplateType(Integer,Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of document appointments within a time range, filtered by document template type.\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetProjectDocumentsByTemplateType(Integer projectId, DateTime startTime, DateTime endTime, Integer count, Integer documentTemplateId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: documentTemplateId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+      description: "The document appointments belong to the project specified."
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger projectId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger documentTemplateId;\nNSDocument[] res = agent.GetProjectDocumentsByTemplateType(projectId, startTime, endTime, count, documentTemplateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetProjectDocumentsByTemplateTypes(Integer,Integer,Integer[])
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetProjectDocumentsByTemplateTypes(Integer,Integer,Integer[])
+  id: 'GetProjectDocumentsByTemplateTypes(Integer,Integer,Integer[])'
+  so.intellisense: NSDocumentAgent.GetProjectDocumentsByTemplateTypes
+  langs:
+  - crmscript
+  name: 'GetProjectDocumentsByTemplateTypes(Integer,Integer,Integer[])'
+  nameWithType: NSDocumentAgent.GetProjectDocumentsByTemplateTypes(Integer,Integer,Integer[])
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetProjectDocumentsByTemplateTypes(Integer,Integer,Integer[])
+  type: Method
+  summary: "\nReturns a specified number of document appointments within a time range, filtered by document template types.\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetProjectDocumentsByTemplateTypes(Integer projectId, DateTime startTime, DateTime endTime, Integer count, Integer[] documentTemplateIds)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: documentTemplateIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+      description: 
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger projectId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger[] documentTemplateIds;\nNSDocument[] res = agent.GetProjectDocumentsByTemplateTypes(projectId, startTime, endTime, count, documentTemplateIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetProjectMemberDocuments(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetProjectMemberDocuments(Integer,Integer)
+  id: 'GetProjectMemberDocuments(Integer,Integer)'
+  so.intellisense: NSDocumentAgent.GetProjectMemberDocuments
+  langs:
+  - crmscript
+  name: 'GetProjectMemberDocuments(Integer,Integer)'
+  nameWithType: NSDocumentAgent.GetProjectMemberDocuments(Integer,Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetProjectMemberDocuments(Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of document appointments within a time range.\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetProjectMemberDocuments(Integer personId, DateTime startTime, DateTime endTime, Integer count)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+      description: "The document appointments belong to the project member specified."
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger personId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nNSDocument[] res = agent.GetProjectMemberDocuments(personId, startTime, endTime, count);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetProjectMemberDocumentsByTemplateHeading(Integer,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetProjectMemberDocumentsByTemplateHeading(Integer,Integer,Integer)
+  id: 'GetProjectMemberDocumentsByTemplateHeading(Integer,Integer,Integer)'
+  so.intellisense: NSDocumentAgent.GetProjectMemberDocumentsByTemplateHeading
+  langs:
+  - crmscript
+  name: 'GetProjectMemberDocumentsByTemplateHeading(Integer,Integer,Integer)'
+  nameWithType: NSDocumentAgent.GetProjectMemberDocumentsByTemplateHeading(Integer,Integer,Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetProjectMemberDocumentsByTemplateHeading(Integer,Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of document appointments within a time range, filtered by document template heading.\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetProjectMemberDocumentsByTemplateHeading(Integer personId, DateTime startTime, DateTime endTime, Integer count, Integer templateHeadingId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: templateHeadingId
+      type: CRMScript.Global.Integer
+      description: "The heading represents a grouping or filtering of document templates."
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+      description: "The document appointments belong to the project member specified."
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger personId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger templateHeadingId;\nNSDocument[] res = agent.GetProjectMemberDocumentsByTemplateHeading(personId, startTime, endTime, count, templateHeadingId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetProjectMemberDocumentsByTemplateType(Integer,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetProjectMemberDocumentsByTemplateType(Integer,Integer,Integer)
+  id: 'GetProjectMemberDocumentsByTemplateType(Integer,Integer,Integer)'
+  so.intellisense: NSDocumentAgent.GetProjectMemberDocumentsByTemplateType
+  langs:
+  - crmscript
+  name: 'GetProjectMemberDocumentsByTemplateType(Integer,Integer,Integer)'
+  nameWithType: NSDocumentAgent.GetProjectMemberDocumentsByTemplateType(Integer,Integer,Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetProjectMemberDocumentsByTemplateType(Integer,Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of document appointments within a time range, filtered by document template type.\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetProjectMemberDocumentsByTemplateType(Integer personId, DateTime startTime, DateTime endTime, Integer count, Integer documentTemplateId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: documentTemplateId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+      description: "The document appointments belong to the project member specified."
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger personId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger documentTemplateId;\nNSDocument[] res = agent.GetProjectMemberDocumentsByTemplateType(personId, startTime, endTime, count, documentTemplateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetProjectMemberDocumentsByTemplateTypes(Integer,Integer,Integer[])
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetProjectMemberDocumentsByTemplateTypes(Integer,Integer,Integer[])
+  id: 'GetProjectMemberDocumentsByTemplateTypes(Integer,Integer,Integer[])'
+  so.intellisense: NSDocumentAgent.GetProjectMemberDocumentsByTemplateTypes
+  langs:
+  - crmscript
+  name: 'GetProjectMemberDocumentsByTemplateTypes(Integer,Integer,Integer[])'
+  nameWithType: NSDocumentAgent.GetProjectMemberDocumentsByTemplateTypes(Integer,Integer,Integer[])
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetProjectMemberDocumentsByTemplateTypes(Integer,Integer,Integer[])
+  type: Method
+  summary: "\nReturns a specified number of document appointments within a time range, filtered by document template types.\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetProjectMemberDocumentsByTemplateTypes(Integer personId, DateTime startTime, DateTime endTime, Integer count, Integer[] documentTemplateIds)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: documentTemplateIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+      description: "The document appointments belong to the project member specified."
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger personId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger[] documentTemplateIds;\nNSDocument[] res = agent.GetProjectMemberDocumentsByTemplateTypes(personId, startTime, endTime, count, documentTemplateIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetPublishedDocument(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetPublishedDocument(Integer)
+  id: 'GetPublishedDocument(Integer)'
+  so.intellisense: NSDocumentAgent.GetPublishedDocument
+  langs:
+  - crmscript
+  name: 'GetPublishedDocument(Integer)'
+  nameWithType: NSDocumentAgent.GetPublishedDocument(Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetPublishedDocument(Integer)
+  type: Method
+  summary: "\nGets the document if it's published\n"
+  remarks: 
+  syntax: 
+    content: NSDocument GetPublishedDocument(Integer documentId)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocument
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger documentId;\nNSDocument res = agent.GetPublishedDocument(documentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetPublishedDocuments(Integer[])
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetPublishedDocuments(Integer[])
+  id: 'GetPublishedDocuments(Integer[])'
+  so.intellisense: NSDocumentAgent.GetPublishedDocuments
+  langs:
+  - crmscript
+  name: 'GetPublishedDocuments(Integer[])'
+  nameWithType: NSDocumentAgent.GetPublishedDocuments(Integer[])
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetPublishedDocuments(Integer[])
+  type: Method
+  summary: "\nGets the published documents from an array of document IDs.\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetPublishedDocuments(Integer[] documentIds)
+    parameters:
+    - id: documentIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger[] documentIds;\nNSDocument[] res = agent.GetPublishedDocuments(documentIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetPublishedDocumentsByDate(Integer,Bool,Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetPublishedDocumentsByDate(Integer,Bool,Integer)
+  id: 'GetPublishedDocumentsByDate(Integer,Bool,Integer)'
+  so.intellisense: NSDocumentAgent.GetPublishedDocumentsByDate
+  langs:
+  - crmscript
+  name: 'GetPublishedDocumentsByDate(Integer,Bool,Integer)'
+  nameWithType: NSDocumentAgent.GetPublishedDocumentsByDate(Integer,Bool,Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetPublishedDocumentsByDate(Integer,Bool,Integer)
+  type: Method
+  summary: "\nReturns a specified number of published document appointments within a time range.\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetPublishedDocumentsByDate(Integer personId, Bool includeProjectDocuments, DateTime startTime, DateTime endTime, Integer count)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: includeProjectDocuments
+      type: CRMScript.Global.Bool
+      description: 
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+      description: "The document appointments is visible to the person specified or the document is in a project the person belongs to."
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger personId;\nBool includeProjectDocuments;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nNSDocument[] res = agent.GetPublishedDocumentsByDate(personId, includeProjectDocuments, startTime, endTime, count);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetPublishedPersonDocumentsByDate(Integer,Bool,Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetPublishedPersonDocumentsByDate(Integer,Bool,Integer)
+  id: 'GetPublishedPersonDocumentsByDate(Integer,Bool,Integer)'
+  so.intellisense: NSDocumentAgent.GetPublishedPersonDocumentsByDate
+  langs:
+  - crmscript
+  name: 'GetPublishedPersonDocumentsByDate(Integer,Bool,Integer)'
+  nameWithType: NSDocumentAgent.GetPublishedPersonDocumentsByDate(Integer,Bool,Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetPublishedPersonDocumentsByDate(Integer,Bool,Integer)
+  type: Method
+  summary: "\nReturns a specified number of published document appointments within a time range.\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetPublishedPersonDocumentsByDate(Integer personId, Bool includeProjectDocuments, DateTime startTime, DateTime endTime, Integer count)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: includeProjectDocuments
+      type: CRMScript.Global.Bool
+      description: 
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+      description: "The document appointments belong to the person specified or the document is in a project the person belongs to."
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger personId;\nBool includeProjectDocuments;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nNSDocument[] res = agent.GetPublishedPersonDocumentsByDate(personId, includeProjectDocuments, startTime, endTime, count);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetPublishedProjectDocuments(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetPublishedProjectDocuments(Integer)
+  id: 'GetPublishedProjectDocuments(Integer)'
+  so.intellisense: NSDocumentAgent.GetPublishedProjectDocuments
+  langs:
+  - crmscript
+  name: 'GetPublishedProjectDocuments(Integer)'
+  nameWithType: NSDocumentAgent.GetPublishedProjectDocuments(Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetPublishedProjectDocuments(Integer)
+  type: Method
+  summary: "\nGets published appointment documents by project ID.\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetPublishedProjectDocuments(Integer projectId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger projectId;\nNSDocument[] res = agent.GetPublishedProjectDocuments(projectId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetSaleDocuments(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetSaleDocuments(Integer)
+  id: 'GetSaleDocuments(Integer)'
+  so.intellisense: NSDocumentAgent.GetSaleDocuments
+  langs:
+  - crmscript
+  name: 'GetSaleDocuments(Integer)'
+  nameWithType: NSDocumentAgent.GetSaleDocuments(Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetSaleDocuments(Integer)
+  type: Method
+  summary: "\nGets all documents that are linked to the sale (the documents that are listed in the sale dialog).\n"
+  remarks: 
+  syntax: 
+    content: NSDocument[] GetSaleDocuments(Integer saleId)
+    parameters:
+    - id: saleId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocument[]
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger saleId;\nNSDocument[] res = agent.GetSaleDocuments(saleId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetSanitizedDocumentStream(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetSanitizedDocumentStream(Integer)
+  id: 'GetSanitizedDocumentStream(Integer)'
+  so.intellisense: NSDocumentAgent.GetSanitizedDocumentStream
+  langs:
+  - crmscript
+  name: 'GetSanitizedDocumentStream(Integer)'
+  nameWithType: NSDocumentAgent.GetSanitizedDocumentStream(Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetSanitizedDocumentStream(Integer)
+  type: Method
+  summary: "\nGets the document content as a stream. Retrieves a sanitized version if possible\n"
+  remarks: 
+  syntax: 
+    content: NSStream GetSanitizedDocumentStream(Integer documentId)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSStream
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger documentId;\nNSStream res = agent.GetSanitizedDocumentStream(documentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetSanitizedTemplateStream(String,Bool,String)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetSanitizedTemplateStream(String,Bool,String)
+  id: 'GetSanitizedTemplateStream(String,Bool,String)'
+  so.intellisense: NSDocumentAgent.GetSanitizedTemplateStream
+  langs:
+  - crmscript
+  name: 'GetSanitizedTemplateStream(String,Bool,String)'
+  nameWithType: NSDocumentAgent.GetSanitizedTemplateStream(String,Bool,String)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetSanitizedTemplateStream(String,Bool,String)
+  type: Method
+  summary: "\nRetrieves a stream to a mail template based on its name. Sanitizes the contents if possible.\n"
+  remarks: 
+  syntax: 
+    content: NSStream GetSanitizedTemplateStream(String templateName, Bool allowPersonal, String uiCulture)
+    parameters:
+    - id: templateName
+      type: CRMScript.Global.String
+      description: 
+    - id: allowPersonal
+      type: CRMScript.Global.Bool
+      description: 
+    - id: uiCulture
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSStream
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nString templateName;\nBool allowPersonal;\nString uiCulture;\nNSStream res = agent.GetSanitizedTemplateStream(templateName, allowPersonal, uiCulture);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetSanitizedTemplateStreamFromId(Integer,String)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetSanitizedTemplateStreamFromId(Integer,String)
+  id: 'GetSanitizedTemplateStreamFromId(Integer,String)'
+  so.intellisense: NSDocumentAgent.GetSanitizedTemplateStreamFromId
+  langs:
+  - crmscript
+  name: 'GetSanitizedTemplateStreamFromId(Integer,String)'
+  nameWithType: NSDocumentAgent.GetSanitizedTemplateStreamFromId(Integer,String)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetSanitizedTemplateStreamFromId(Integer,String)
+  type: Method
+  summary: "\nRetrieve a stream to a document template based on its ID. Sanitizes the contents if possible.\n"
+  remarks: 
+  syntax: 
+    content: NSStream GetSanitizedTemplateStreamFromId(Integer templateId, String uiCulture)
+    parameters:
+    - id: templateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: uiCulture
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSStream
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger templateId;\nString uiCulture;\nNSStream res = agent.GetSanitizedTemplateStreamFromId(templateId, uiCulture);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetSuggestedDocumentEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetSuggestedDocumentEntity(Integer)
+  id: 'GetSuggestedDocumentEntity(Integer)'
+  so.intellisense: NSDocumentAgent.GetSuggestedDocumentEntity
+  langs:
+  - crmscript
+  name: 'GetSuggestedDocumentEntity(Integer)'
+  nameWithType: NSDocumentAgent.GetSuggestedDocumentEntity(Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetSuggestedDocumentEntity(Integer)
+  type: Method
+  summary: "\nGets an NSSuggestedDocumentEntity object.\n"
+  remarks: 
+  syntax: 
+    content: NSSuggestedDocumentEntity GetSuggestedDocumentEntity(Integer suggestedDocumentEntityId)
+    parameters:
+    - id: suggestedDocumentEntityId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSSuggestedDocumentEntity
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nNSSuggestedDocumentEntity thing = agent.GetSuggestedDocumentEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetTempFile(String)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetTempFile(String)
+  id: 'GetTempFile(String)'
+  so.intellisense: NSDocumentAgent.GetTempFile
+  langs:
+  - crmscript
+  name: 'GetTempFile(String)'
+  nameWithType: NSDocumentAgent.GetTempFile(String)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetTempFile(String)
+  type: Method
+  summary: "\nGets data stream for temporary file created with CreateTempFile.\n"
+  remarks: 
+  syntax: 
+    content: NSStream GetTempFile(String filename)
+    parameters:
+    - id: filename
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSStream
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nString filename;\nNSStream res = agent.GetTempFile(filename);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetTemplateStream(String,Bool,String)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetTemplateStream(String,Bool,String)
+  id: 'GetTemplateStream(String,Bool,String)'
+  so.intellisense: NSDocumentAgent.GetTemplateStream
+  langs:
+  - crmscript
+  name: 'GetTemplateStream(String,Bool,String)'
+  nameWithType: NSDocumentAgent.GetTemplateStream(String,Bool,String)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetTemplateStream(String,Bool,String)
+  type: Method
+  summary: "\nRetrieve a stream to a mail template based on its name\n"
+  remarks: 
+  syntax: 
+    content: NSStream GetTemplateStream(String templateName, Bool allowPersonal, String uiCulture)
+    parameters:
+    - id: templateName
+      type: CRMScript.Global.String
+      description: 
+    - id: allowPersonal
+      type: CRMScript.Global.Bool
+      description: 
+    - id: uiCulture
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSStream
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nString templateName;\nBool allowPersonal;\nString uiCulture;\nNSStream res = agent.GetTemplateStream(templateName, allowPersonal, uiCulture);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetTemplateStreamFromId(Integer,String)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetTemplateStreamFromId(Integer,String)
+  id: 'GetTemplateStreamFromId(Integer,String)'
+  so.intellisense: NSDocumentAgent.GetTemplateStreamFromId
+  langs:
+  - crmscript
+  name: 'GetTemplateStreamFromId(Integer,String)'
+  nameWithType: NSDocumentAgent.GetTemplateStreamFromId(Integer,String)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetTemplateStreamFromId(Integer,String)
+  type: Method
+  summary: "\nRetrieve a stream to a document template based on its ID\n"
+  remarks: 
+  syntax: 
+    content: NSStream GetTemplateStreamFromId(Integer templateId, String uiCulture)
+    parameters:
+    - id: templateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: uiCulture
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSStream
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger templateId;\nString uiCulture;\nNSStream res = agent.GetTemplateStreamFromId(templateId, uiCulture);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetUnsanitizedPreviewDocumentStream(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetUnsanitizedPreviewDocumentStream(Integer)
+  id: 'GetUnsanitizedPreviewDocumentStream(Integer)'
+  so.intellisense: NSDocumentAgent.GetUnsanitizedPreviewDocumentStream
+  langs:
+  - crmscript
+  name: 'GetUnsanitizedPreviewDocumentStream(Integer)'
+  nameWithType: NSDocumentAgent.GetUnsanitizedPreviewDocumentStream(Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetUnsanitizedPreviewDocumentStream(Integer)
+  type: Method
+  summary: "\nGets the preview version of the document content as a stream. Retrieves an unsanitized version.\n"
+  remarks: "\nThis has less CPU impact but the caller must sanitize the content before presenting it to the user.\n"
+  syntax: 
+    content: NSDocumentPreview GetUnsanitizedPreviewDocumentStream(Integer documentId)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocumentPreview
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger documentId;\nNSDocumentPreview res = agent.GetUnsanitizedPreviewDocumentStream(documentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.GetVersionList(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.GetVersionList(Integer)
+  id: 'GetVersionList(Integer)'
+  so.intellisense: NSDocumentAgent.GetVersionList
+  langs:
+  - crmscript
+  name: 'GetVersionList(Integer)'
+  nameWithType: NSDocumentAgent.GetVersionList(Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.GetVersionList(Integer)
+  type: Method
+  summary: "\nGets a list of existing, committed  versions for a given document\n"
+  remarks: 
+  syntax: 
+    content: NSVersionInfo[] GetVersionList(Integer documentId)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSVersionInfo[]
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger documentId;\nNSVersionInfo[] res = agent.GetVersionList(documentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.RenameDocument(Integer,String)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.RenameDocument(Integer,String)
+  id: 'RenameDocument(Integer,String)'
+  so.intellisense: NSDocumentAgent.RenameDocument
+  langs:
+  - crmscript
+  name: 'RenameDocument(Integer,String)'
+  nameWithType: NSDocumentAgent.RenameDocument(Integer,String)
+  fullName: CRMScript.NetServer.NSDocumentAgent.RenameDocument(Integer,String)
+  type: Method
+  summary: "\nRename the physical document (change the file name or equivalent concept in the document archive).\n"
+  remarks: 
+  syntax: 
+    content: String RenameDocument(Integer documentId, String newFilename)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: newFilename
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger documentId;\nString newFilename;\nString res = agent.RenameDocument(documentId, newFilename);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.SaveDocumentEntity(NSDocumentEntity)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.SaveDocumentEntity(NSDocumentEntity)
+  id: 'SaveDocumentEntity(NSDocumentEntity)'
+  so.intellisense: NSDocumentAgent.SaveDocumentEntity
+  langs:
+  - crmscript
+  name: 'SaveDocumentEntity(NSDocumentEntity)'
+  nameWithType: NSDocumentAgent.SaveDocumentEntity(NSDocumentEntity)
+  fullName: CRMScript.NetServer.NSDocumentAgent.SaveDocumentEntity(NSDocumentEntity)
+  type: Method
+  summary: "\nUpdates the existing NSDocumentEntity or creates a new NSDocumentEntity if the id parameter is 0\n"
+  remarks: 
+  syntax: 
+    content: NSDocumentEntity SaveDocumentEntity(NSDocumentEntity documentEntity)
+    parameters:
+    - id: documentEntity
+      type: CRMScript.NetServer.NSDocumentEntity
+      description: "The NSDocumentEntity to save."
+    return:
+      type: CRMScript.NetServer.NSDocumentEntity
+      description:
+  example: 
+  - "\n<pre><code>NSDocument  agent;\nNSDocumentEntity thing = agent.CreateDefaultDocumentEntity();\nthing = agent.SaveDocumentEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.SaveDocumentTemplateStream(Integer,NSStream,String,Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.SaveDocumentTemplateStream(Integer,NSStream,String,Integer)
+  id: 'SaveDocumentTemplateStream(Integer,NSStream,String,Integer)'
+  so.intellisense: NSDocumentAgent.SaveDocumentTemplateStream
+  langs:
+  - crmscript
+  name: 'SaveDocumentTemplateStream(Integer,NSStream,String,Integer)'
+  nameWithType: NSDocumentAgent.SaveDocumentTemplateStream(Integer,NSStream,String,Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.SaveDocumentTemplateStream(Integer,NSStream,String,Integer)
+  type: Method
+  summary: "\nSaves content in stream to document template file\n"
+  remarks: 
+  syntax: 
+    content: NSTemplateInfo SaveDocumentTemplateStream(Integer documentTemplateId, NSStream content, String languageCode, Integer pluginId)
+    parameters:
+    - id: documentTemplateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: content
+      type: CRMScript.NetServer.NSStream
+      description:
+    - id: languageCode
+      type: CRMScript.Global.String
+      description: 
+    - id: pluginId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSTemplateInfo
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger documentTemplateId;\nNSStream content;\nString languageCode;\nInteger pluginId;\nNSTemplateInfo res = agent.SaveDocumentTemplateStream(documentTemplateId, content, languageCode, pluginId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.SavePrivacyReport(String,String,Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.SavePrivacyReport(String,String,Integer)
+  id: 'SavePrivacyReport(String,String,Integer)'
+  so.intellisense: NSDocumentAgent.SavePrivacyReport
+  langs:
+  - crmscript
+  name: 'SavePrivacyReport(String,String,Integer)'
+  nameWithType: NSDocumentAgent.SavePrivacyReport(String,String,Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.SavePrivacyReport(String,String,Integer)
+  type: Method
+  summary: "\nGenerates a PDF from HTML and makes a document\n"
+  remarks: 
+  syntax: 
+    content: Integer SavePrivacyReport(String htmlReport, String title, Integer personId)
+    parameters:
+    - id: htmlReport
+      type: CRMScript.Global.String
+      description: 
+    - id: title
+      type: CRMScript.Global.String
+      description: 
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nString htmlReport;\nString title;\nInteger personId;\nInteger res = agent.SavePrivacyReport(htmlReport, title, personId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.SaveSuggestedDocumentEntity(NSSuggestedDocumentEntity)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.SaveSuggestedDocumentEntity(NSSuggestedDocumentEntity)
+  id: 'SaveSuggestedDocumentEntity(NSSuggestedDocumentEntity)'
+  so.intellisense: NSDocumentAgent.SaveSuggestedDocumentEntity
+  langs:
+  - crmscript
+  name: 'SaveSuggestedDocumentEntity(NSSuggestedDocumentEntity)'
+  nameWithType: NSDocumentAgent.SaveSuggestedDocumentEntity(NSSuggestedDocumentEntity)
+  fullName: CRMScript.NetServer.NSDocumentAgent.SaveSuggestedDocumentEntity(NSSuggestedDocumentEntity)
+  type: Method
+  summary: "\nUpdates the existing NSSuggestedDocumentEntity or creates a new NSSuggestedDocumentEntity if the id parameter is 0\n"
+  remarks: 
+  syntax: 
+    content: NSSuggestedDocumentEntity SaveSuggestedDocumentEntity(NSSuggestedDocumentEntity suggestedDocumentEntity)
+    parameters:
+    - id: suggestedDocumentEntity
+      type: CRMScript.NetServer.NSSuggestedDocumentEntity
+      description: "The NSSuggestedDocumentEntity to save."
+    return:
+      type: CRMScript.NetServer.NSSuggestedDocumentEntity
+      description:
+  example: 
+  - "\n<pre><code>NSDocument  agent;\nNSSuggestedDocumentEntity thing = agent.CreateDefaultSuggestedDocumentEntity();\nthing = agent.SaveSuggestedDocumentEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.SetDocumentStream(NSDocumentEntity,Bool)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.SetDocumentStream(NSDocumentEntity,Bool)
+  id: 'SetDocumentStream(NSDocumentEntity,Bool)'
+  so.intellisense: NSDocumentAgent.SetDocumentStream
+  langs:
+  - crmscript
+  name: 'SetDocumentStream(NSDocumentEntity,Bool)'
+  nameWithType: NSDocumentAgent.SetDocumentStream(NSDocumentEntity,Bool)
+  fullName: CRMScript.NetServer.NSDocumentAgent.SetDocumentStream(NSDocumentEntity,Bool)
+  type: Method
+  summary: "\nStore a document's contents from its stream. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned.\n"
+  remarks: "\nThe client should not assume that any earlier, cached entity information is valid.\n"
+  syntax: 
+    content: NSDocumentEntity SetDocumentStream(NSDocumentEntity documentEntity, NSStream stream, Bool overwriteExistingData)
+    parameters:
+    - id: documentEntity
+      type: CRMScript.NetServer.NSDocumentEntity
+      description: 
+    - id: overwriteExistingData
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocumentEntity
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nNSDocumentEntity documentEntity;\nNSStream stream;\nBool overwriteExistingData;\nNSDocumentEntity res = agent.SetDocumentStream(documentEntity, stream, overwriteExistingData);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.SetDocumentStreamFromId(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.SetDocumentStreamFromId(Integer)
+  id: 'SetDocumentStreamFromId(Integer)'
+  so.intellisense: NSDocumentAgent.SetDocumentStreamFromId
+  langs:
+  - crmscript
+  name: 'SetDocumentStreamFromId(Integer)'
+  nameWithType: NSDocumentAgent.SetDocumentStreamFromId(Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.SetDocumentStreamFromId(Integer)
+  type: Method
+  summary: "\nStores document content from stream. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned.\n"
+  remarks: "\nThe client should not assume that any earlier, cached entity information is valid.\n"
+  syntax: 
+    content: NSDocumentEntity SetDocumentStreamFromId(Integer documentId, NSStream stream)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDocumentEntity
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger documentId;\nNSStream stream;\nNSDocumentEntity res = agent.SetDocumentStreamFromId(documentId, stream);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.SetTemplateStream(String,Bool,NSStream)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.SetTemplateStream(String,Bool,NSStream)
+  id: 'SetTemplateStream(String,Bool,NSStream)'
+  so.intellisense: NSDocumentAgent.SetTemplateStream
+  langs:
+  - crmscript
+  name: 'SetTemplateStream(String,Bool,NSStream)'
+  nameWithType: NSDocumentAgent.SetTemplateStream(String,Bool,NSStream)
+  fullName: CRMScript.NetServer.NSDocumentAgent.SetTemplateStream(String,Bool,NSStream)
+  type: Method
+  summary: "\nSaves a mail signature template to the document archive\n"
+  remarks: 
+  syntax: 
+    content: Void SetTemplateStream(String filename, Bool personal, NSStream stream)
+    parameters:
+    - id: filename
+      type: CRMScript.Global.String
+      description: 
+    - id: personal
+      type: CRMScript.Global.Bool
+      description: 
+    - id: stream
+      type: CRMScript.NetServer.NSStream
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nString filename;\nBool personal;\nNSStream stream;\nagent.SetTemplateStream(filename, personal, stream);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.SubstituteMergeDocumentTemplateVariables(Integer,Integer,String[],String[])
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.SubstituteMergeDocumentTemplateVariables(Integer,Integer,String[],String[])
+  id: 'SubstituteMergeDocumentTemplateVariables(Integer,Integer,String[],String[])'
+  so.intellisense: NSDocumentAgent.SubstituteMergeDocumentTemplateVariables
+  langs:
+  - crmscript
+  name: 'SubstituteMergeDocumentTemplateVariables(Integer,Integer,String[],String[])'
+  nameWithType: NSDocumentAgent.SubstituteMergeDocumentTemplateVariables(Integer,Integer,String[],String[])
+  fullName: CRMScript.NetServer.NSDocumentAgent.SubstituteMergeDocumentTemplateVariables(Integer,Integer,String[],String[])
+  type: Method
+  summary: "\nParses the source document, and replaces any template variable tags with their values, based on the associate ID.<p><p/>\nThis method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags.\n"
+  remarks: 
+  syntax: 
+    content: NSStream SubstituteMergeDocumentTemplateVariables(Integer documentId, Integer associateId, String[] customTags, String[] customValues)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: "The source document should be of type MergeDraft."
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: customTags
+      type: CRMScript.Global.String[]
+      description: 
+    - id: customValues
+      type: CRMScript.Global.String[]
+      description: "Custom values will override values otherwise set."
+    return:
+      type: CRMScript.NetServer.NSStream
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger documentId;\nInteger associateId;\nString[] customTags;\nString[] customValues;\nNSStream res = agent.SubstituteMergeDocumentTemplateVariables(documentId, associateId, customTags, customValues);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.SubstituteMergeDocumentTemplateVariables2(Integer,Integer,Map)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.SubstituteMergeDocumentTemplateVariables2(Integer,Integer,Map)
+  id: 'SubstituteMergeDocumentTemplateVariables2(Integer,Integer,Map)'
+  so.intellisense: NSDocumentAgent.SubstituteMergeDocumentTemplateVariables2
+  langs:
+  - crmscript
+  name: 'SubstituteMergeDocumentTemplateVariables2(Integer,Integer,Map)'
+  nameWithType: NSDocumentAgent.SubstituteMergeDocumentTemplateVariables2(Integer,Integer,Map)
+  fullName: CRMScript.NetServer.NSDocumentAgent.SubstituteMergeDocumentTemplateVariables2(Integer,Integer,Map)
+  type: Method
+  summary: "\nParses the source document, and replaces any template variable tags with their values, based on the associate ID.\n"
+  remarks: 
+  syntax: 
+    content: NSStream SubstituteMergeDocumentTemplateVariables2(Integer documentId, Integer associateId, Map customTags)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: "The source document should be of type MergeDraft."
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: customTags
+      type: CRMScript.Native.Map
+      description: "These tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set."
+    return:
+      type: CRMScript.NetServer.NSStream
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger documentId;\nInteger associateId;\nMap customTags;\nNSStream res = agent.SubstituteMergeDocumentTemplateVariables2(documentId, associateId, customTags);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.SubstituteMergeDocumentTemplateVariablesEx(Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String[],String[])
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.SubstituteMergeDocumentTemplateVariablesEx(Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String[],String[])
+  id: 'SubstituteMergeDocumentTemplateVariablesEx(Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String[],String[])'
+  so.intellisense: NSDocumentAgent.SubstituteMergeDocumentTemplateVariablesEx
+  langs:
+  - crmscript
+  name: 'SubstituteMergeDocumentTemplateVariablesEx(Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String[],String[])'
+  nameWithType: NSDocumentAgent.SubstituteMergeDocumentTemplateVariablesEx(Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String[],String[])
+  fullName: CRMScript.NetServer.NSDocumentAgent.SubstituteMergeDocumentTemplateVariablesEx(Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String[],String[])
+  type: Method
+  summary: "\nParses the source document, and replaces any template variable tags with their values, based on the provided identifiers. This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags\n"
+  remarks: 
+  syntax: 
+    content: NSStream SubstituteMergeDocumentTemplateVariablesEx(Integer mergeDocumentId, Integer contactId, Integer personId, Integer projectId, Integer selectionId, Integer appointmentId, Integer documentId, Integer saleId, String[] customTags, String[] customValues)
+    parameters:
+    - id: mergeDocumentId
+      type: CRMScript.Global.Integer
+      description: "The source document should be of type MergeDraft."
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: selectionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: saleId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: customTags
+      type: CRMScript.Global.String[]
+      description: 
+    - id: customValues
+      type: CRMScript.Global.String[]
+      description: "Custom values will override values otherwise set."
+    return:
+      type: CRMScript.NetServer.NSStream
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger mergeDocumentId;\nInteger contactId;\nInteger personId;\nInteger projectId;\nInteger selectionId;\nInteger appointmentId;\nInteger documentId;\nInteger saleId;\nString[] customTags;\nString[] customValues;\nNSStream res = agent.SubstituteMergeDocumentTemplateVariablesEx(mergeDocumentId, contactId, personId, projectId, selectionId, appointmentId, documentId, saleId, customTags, customValues);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.SubstituteMergeDocumentTemplateVariablesEx2(Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,Map)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.SubstituteMergeDocumentTemplateVariablesEx2(Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,Map)
+  id: 'SubstituteMergeDocumentTemplateVariablesEx2(Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,Map)'
+  so.intellisense: NSDocumentAgent.SubstituteMergeDocumentTemplateVariablesEx2
+  langs:
+  - crmscript
+  name: 'SubstituteMergeDocumentTemplateVariablesEx2(Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,Map)'
+  nameWithType: NSDocumentAgent.SubstituteMergeDocumentTemplateVariablesEx2(Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,Map)
+  fullName: CRMScript.NetServer.NSDocumentAgent.SubstituteMergeDocumentTemplateVariablesEx2(Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,Map)
+  type: Method
+  summary: "\nParses the source document, and replaces any template variable tags with their values, based on the provided identifiers. This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.\n"
+  remarks: 
+  syntax: 
+    content: NSStream SubstituteMergeDocumentTemplateVariablesEx2(Integer mergeDocumentId, Integer contactId, Integer personId, Integer projectId, Integer selectionId, Integer appointmentId, Integer documentId, Integer saleId, Map customTags)
+    parameters:
+    - id: mergeDocumentId
+      type: CRMScript.Global.Integer
+      description: "The source document should be of type MergeDraft."
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: selectionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: saleId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: customTags
+      type: CRMScript.Native.Map
+      description: "These tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set."
+    return:
+      type: CRMScript.NetServer.NSStream
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger mergeDocumentId;\nInteger contactId;\nInteger personId;\nInteger projectId;\nInteger selectionId;\nInteger appointmentId;\nInteger documentId;\nInteger saleId;\nMap customTags;\nNSStream res = agent.SubstituteMergeDocumentTemplateVariablesEx2(mergeDocumentId, contactId, personId, projectId, selectionId, appointmentId, documentId, saleId, customTags);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.SubstituteTemplateVariables(String,Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.SubstituteTemplateVariables(String,Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  id: 'SubstituteTemplateVariables(String,Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)'
+  so.intellisense: NSDocumentAgent.SubstituteTemplateVariables
+  langs:
+  - crmscript
+  name: 'SubstituteTemplateVariables(String,Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)'
+  nameWithType: NSDocumentAgent.SubstituteTemplateVariables(String,Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  fullName: CRMScript.NetServer.NSDocumentAgent.SubstituteTemplateVariables(String,Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  type: Method
+  summary: "\nParses the source string, and replaces any template variable tags with their values, based on the IDs given in the other parameters.\n"
+  remarks:
+  syntax: 
+    content: String SubstituteTemplateVariables(String source, Integer generatorEncoding, Integer contactId, Integer personId, Integer appointmentId, Integer documentId, Integer saleId, Integer selectionId, Integer projectId, String cultureName)
+    parameters:
+    - id: source
+      type: CRMScript.Global.String
+      description: 
+    - id: generatorEncoding
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.GeneratorEncoding\" data-throw-if-not-resolved=\"false\"></xref>"
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: saleId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: selectionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: cultureName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nString source;\nInteger generatorEncoding;\nInteger contactId;\nInteger personId;\nInteger appointmentId;\nInteger documentId;\nInteger saleId;\nInteger selectionId;\nInteger projectId;\nString cultureName;\nString res = agent.SubstituteTemplateVariables(source, generatorEncoding, contactId, personId, appointmentId, documentId, saleId, selectionId, projectId, cultureName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.SubstituteTemplateVariablesEx()
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.SubstituteTemplateVariablesEx()
+  id: 'SubstituteTemplateVariablesEx()'
+  so.intellisense: NSDocumentAgent.SubstituteTemplateVariablesEx
+  langs:
+  - crmscript
+  name: 'SubstituteTemplateVariablesEx()'
+  nameWithType: NSDocumentAgent.SubstituteTemplateVariablesEx()
+  fullName: CRMScript.NetServer.NSDocumentAgent.SubstituteTemplateVariablesEx()
+  type: Method
+  summary: "\nParses the source string, and replaces any template variable tags with their values, based on the identities, custom values and entities specified in the other parameters.\n"
+  remarks: 
+  syntax: 
+    content: String SubstituteTemplateVariablesEx(NSTemplateVariablesParameters parameters)
+    parameters:
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nNSTemplateVariablesParameters parameters;\nString res = agent.SubstituteTemplateVariablesEx(parameters);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.SubstituteTemplateVariablesWithCustomTags(String,Integer,String[],String[],Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.SubstituteTemplateVariablesWithCustomTags(String,Integer,String[],String[],Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  id: 'SubstituteTemplateVariablesWithCustomTags(String,Integer,String[],String[],Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)'
+  so.intellisense: NSDocumentAgent.SubstituteTemplateVariablesWithCustomTags
+  langs:
+  - crmscript
+  name: 'SubstituteTemplateVariablesWithCustomTags(String,Integer,String[],String[],Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)'
+  nameWithType: NSDocumentAgent.SubstituteTemplateVariablesWithCustomTags(String,Integer,String[],String[],Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  fullName: CRMScript.NetServer.NSDocumentAgent.SubstituteTemplateVariablesWithCustomTags(String,Integer,String[],String[],Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  type: Method
+  summary: "\nParse the source string, and replace any template variable tags with their values, based on the IDs given in the other parameters.<p><p/>\nThis method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.\n"
+  remarks:
+  syntax: 
+    content: String SubstituteTemplateVariablesWithCustomTags(String source, Integer generatorEncoding, String[] customTags, String[] customValues, Integer contactId, Integer personId, Integer appointmentId, Integer documentId, Integer saleId, Integer selectionId, Integer projectId, String cultureName)
+    parameters:
+    - id: source
+      type: CRMScript.Global.String
+      description: 
+    - id: generatorEncoding
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.GeneratorEncoding\" data-throw-if-not-resolved=\"false\"></xref>"
+    - id: customTags
+      type: CRMScript.Global.String[]
+      description: 
+    - id: customValues
+      type: CRMScript.Global.String[]
+      description: 
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: saleId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: selectionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: cultureName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nString source;\nInteger generatorEncoding;\nString[] customTags;\nString[] customValues;\nInteger contactId;\nInteger personId;\nInteger appointmentId;\nInteger documentId;\nInteger saleId;\nInteger selectionId;\nInteger projectId;\nString cultureName;\nString res = agent.SubstituteTemplateVariablesWithCustomTags(source, generatorEncoding, customTags, customValues, contactId, personId, appointmentId, documentId, saleId, selectionId, projectId, cultureName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.SubstituteTemplateVariablesWithCustomTags2(String,Integer,Map,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.SubstituteTemplateVariablesWithCustomTags2(String,Integer,Map,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  id: 'SubstituteTemplateVariablesWithCustomTags2(String,Integer,Map,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)'
+  so.intellisense: NSDocumentAgent.SubstituteTemplateVariablesWithCustomTags2
+  langs:
+  - crmscript
+  name: 'SubstituteTemplateVariablesWithCustomTags2(String,Integer,Map,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)'
+  nameWithType: NSDocumentAgent.SubstituteTemplateVariablesWithCustomTags2(String,Integer,Map,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  fullName: CRMScript.NetServer.NSDocumentAgent.SubstituteTemplateVariablesWithCustomTags2(String,Integer,Map,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+  type: Method
+  summary: "\nParse the source string, and replace any template variable tags with their values, based on the IDs given in the other parameters.<p><p/>\nThis method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.\n"
+  remarks:
+  syntax: 
+    content: String SubstituteTemplateVariablesWithCustomTags2(String source, Integer generatorEncoding, Map customTags, Integer contactId, Integer personId, Integer appointmentId, Integer documentId, Integer saleId, Integer selectionId, Integer projectId, String cultureName)
+    parameters:
+    - id: source
+      type: CRMScript.Global.String
+      description: 
+    - id: generatorEncoding
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.GeneratorEncoding\" data-throw-if-not-resolved=\"false\"></xref>"
+    - id: customTags
+      type: CRMScript.Native.Map
+      description: 
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: saleId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: selectionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: cultureName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nString source;\nInteger generatorEncoding;\nMap customTags;\nInteger contactId;\nInteger personId;\nInteger appointmentId;\nInteger documentId;\nInteger saleId;\nInteger selectionId;\nInteger projectId;\nString cultureName;\nString res = agent.SubstituteTemplateVariablesWithCustomTags2(source, generatorEncoding, customTags, contactId, personId, appointmentId, documentId, saleId, selectionId, projectId, cultureName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.UndoCheckoutDocument(Integer,String[])
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.UndoCheckoutDocument(Integer,String[])
+  id: 'UndoCheckoutDocument(Integer,String[])'
+  so.intellisense: NSDocumentAgent.UndoCheckoutDocument
+  langs:
+  - crmscript
+  name: 'UndoCheckoutDocument(Integer,String[])'
+  nameWithType: NSDocumentAgent.UndoCheckoutDocument(Integer,String[])
+  fullName: CRMScript.NetServer.NSDocumentAgent.UndoCheckoutDocument(Integer,String[])
+  type: Method
+  summary: "\nUndoes (abandon) a checkout\n"
+  remarks: 
+  syntax: 
+    content: NSReturnInfo UndoCheckoutDocument(Integer documentId, String[] allowedReturnTypes)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: allowedReturnTypes
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSReturnInfo
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nInteger documentId;\nString[] allowedReturnTypes;\nNSReturnInfo res = agent.UndoCheckoutDocument(documentId, allowedReturnTypes);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.ValidateDocumentEntity(NSDocumentEntity)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.ValidateDocumentEntity(NSDocumentEntity)
+  id: 'ValidateDocumentEntity(NSDocumentEntity)'
+  so.intellisense: NSDocumentAgent.ValidateDocumentEntity
+  langs:
+  - crmscript
+  name: 'ValidateDocumentEntity(NSDocumentEntity)'
+  nameWithType: NSDocumentAgent.ValidateDocumentEntity(NSDocumentEntity)
+  fullName: CRMScript.NetServer.NSDocumentAgent.ValidateDocumentEntity(NSDocumentEntity)
+  type: Method
+  summary: "\nChecks that entity is ready for saving, return error messages by field.\n"
+  remarks: 
+  syntax: 
+    content: Map ValidateDocumentEntity(NSDocumentEntity documentEntity)
+    parameters:
+    - id: documentEntity
+      type: CRMScript.NetServer.NSDocumentEntity
+      description: 
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSDocumentAgent agent;\nNSDocumentEntity documentEntity;\nMap res = agent.ValidateDocumentEntity(documentEntity);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDocumentAgent.VerifyGetDocumentStream(Integer)
+  commentId: M:CRMScript.NetServer.NSDocumentAgent.VerifyGetDocumentStream(Integer)
+  id: 'VerifyGetDocumentStream(Integer)'
+  so.intellisense: NSDocumentAgent.VerifyGetDocumentStream
+  langs:
+  - crmscript
+  name: 'VerifyGetDocumentStream(Integer)'
+  nameWithType: NSDocumentAgent.VerifyGetDocumentStream(Integer)
+  fullName: CRMScript.NetServer.NSDocumentAgent.VerifyGetDocumentStream(Integer)
+  type: Method
+  summary: "\nVerifies that the requested document stream exists, and that we can access it, without actually getting the stream.\n"
+  remarks: 
+  syntax: 
+    content: Void VerifyGetDocumentStream(Integer documentId)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSDocumentAgent
+  commentId: T:CRMScript.NetServer.NSDocumentAgent
+  isExternal: true
+  name: NSDocumentAgent
+  nameWithType: NSDocumentAgent
+  fullName: CRMScript.NetServer.NSDocumentAgent
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    isExternal: true
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSReturnInfo
+  commentId: T:CRMScript.NetServer.NSReturnInfo
+  isExternal: true
+  name: NSReturnInfo
+  nameWithType: NSReturnInfo
+  fullName: CRMScript.NetServer.NSReturnInfo
+- uid: CRMScript.NetServer.NSDocumentEntity
+  commentId: T:CRMScript.NetServer.NSDocumentEntity
+  isExternal: true
+  name: NSDocumentEntity
+  nameWithType: NSDocumentEntity
+  fullName: CRMScript.NetServer.NSDocumentEntity
+- uid: CRMScript.NetServer.NSDocumentPreview
+  commentId: T:CRMScript.NetServer.NSDocumentPreview
+  isExternal: true
+  name: NSDocumentPreview
+  nameWithType: NSDocumentPreview
+  fullName: CRMScript.NetServer.NSDocumentPreview
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity
+  commentId: T:CRMScript.NetServer.NSSuggestedDocumentEntity
+  isExternal: true
+  name: NSSuggestedDocumentEntity
+  nameWithType: NSSuggestedDocumentEntity
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters
+  commentId: T:CRMScript.NetServer.NSTemplateVariablesParameters
+  isExternal: true
+  name: NSTemplateVariablesParameters
+  nameWithType: NSTemplateVariablesParameters
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.NetServer.NSStream
+  commentId: T:CRMScript.NetServer.NSStream
+  isExternal: true
+  name: NSStream
+  nameWithType: NSStream
+  fullName: CRMScript.NetServer.NSStream
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSDocument[]
+  isExternal: true
+  name: NSDocument[]
+  nameWithType: NSDocument[]
+  fullName: CRMScript.NetServer.NSDocument[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSDocument
+    isExternal: true
+    name: NSDocument
+    nameWithType: NSDocument
+    fullName: CRMScript.NetServer.NSDocument
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSDocument
+  commentId: T:CRMScript.NetServer.NSDocument
+  isExternal: true
+  name: NSDocument
+  nameWithType: NSDocument
+  fullName: CRMScript.NetServer.NSDocument
+- uid: CRMScript.NetServer.NSCheckoutInfo
+  commentId: T:CRMScript.NetServer.NSCheckoutInfo
+  isExternal: true
+  name: NSCheckoutInfo
+  nameWithType: NSCheckoutInfo
+  fullName: CRMScript.NetServer.NSCheckoutInfo
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    isExternal: true
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSDocument
+  commentId: T:CRMScript.NetServer.NSDocument
+  isExternal: true
+  name: NSDocument
+  nameWithType: NSDocument
+  fullName: CRMScript.NetServer.NSDocument
+- uid: CRMScript.NetServer.NSCommandInfo[]
+  isExternal: true
+  name: NSCommandInfo[]
+  nameWithType: NSCommandInfo[]
+  fullName: CRMScript.NetServer.NSCommandInfo[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSCommandInfo
+    isExternal: true
+    name: NSCommandInfo
+    nameWithType: NSCommandInfo
+    fullName: CRMScript.NetServer.NSCommandInfo
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSCommandInfo
+  commentId: T:CRMScript.NetServer.NSCommandInfo
+  isExternal: true
+  name: NSCommandInfo
+  nameWithType: NSCommandInfo
+  fullName: CRMScript.NetServer.NSCommandInfo
+- uid: CRMScript.Native.Map
+  commentId: T:CRMScript.Native.Map
+  isExternal: true
+  name: Map
+  nameWithType: Map
+  fullName: CRMScript.Native.Map
+- uid: CRMScript.NetServer.NSVersionInfo[]
+  isExternal: true
+  name: NSVersionInfo[]
+  nameWithType: NSVersionInfo[]
+  fullName: CRMScript.NetServer.NSVersionInfo[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSVersionInfo
+    isExternal: true
+    name: NSVersionInfo
+    nameWithType: NSVersionInfo
+    fullName: CRMScript.NetServer.NSVersionInfo
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSVersionInfo
+  commentId: T:CRMScript.NetServer.NSVersionInfo
+  isExternal: true
+  name: NSVersionInfo
+  nameWithType: NSVersionInfo
+  fullName: CRMScript.NetServer.NSVersionInfo
+- uid: CRMScript.NetServer.NSTemplateInfo
+  commentId: T:CRMScript.NetServer.NSTemplateInfo
+  isExternal: true
+  name: NSTemplateInfo
+  nameWithType: NSTemplateInfo
+  fullName: CRMScript.NetServer.NSTemplateInfo
+- uid: CRMScript.NetServer.GeneratorEncoding
+  commentId: T:CRMScript.NetServer.GeneratorEncoding
+  isExternal: true
+  name: GeneratorEncoding
+  nameWithType: GeneratorEncoding
+  fullName: CRMScript.NetServer.GeneratorEncoding

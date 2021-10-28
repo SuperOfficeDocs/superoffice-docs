@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Global.Byte
+  commentId: T:CRMScript.Global.Byte
+  id: Byte
+  langs:
+  - crmscript
+  children:
+    - CRMScript.Global.Byte.#ctor
+    - CRMScript.Global.Byte.#ctor(Integer)
+    - CRMScript.Global.Byte.toBool()
+    - CRMScript.Global.Byte.toString()
+    - CRMScript.Global.Byte.toInteger()
+    - CRMScript.Global.Byte.toHex()
+    - CRMScript.Global.Byte.toHex(Integer)
+  name: Byte
+  nameWithType: Byte
+  fullName: CRMScript.Global.Byte
+  type: Class
+  summary: "\nRepresents a byte. A byte can only contain integer values between 0 and 255. Large values will be masked.\n"
+- uid: CRMScript.Global.Byte.#ctor
+  commentId: M:CRMScript.Global.Byte.#ctor
+  id: '#ctor'
+  so.intellisense: Void.Byte
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Byte
+  name: Byte()
+  nameWithType: Byte.Byte()
+  fullName: CRMScript.Global.Byte.Byte()
+  type: Constructor
+  summary: "\nDefault constructor.\n"
+  syntax:
+    content: Byte Byte()
+    parameters: []
+    return:
+      type: CRMScript.Global.Byte
+- uid: CRMScript.Global.Byte.#ctor(Integer)
+  commentId: M:CRMScript.Global.Byte.#ctor(Integer)
+  id: '#ctor(Integer)'
+  so.intellisense: Void.Byte
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Byte
+  name: Byte(Integer)
+  nameWithType: Byte.Byte(Integer)
+  fullName: CRMScript.Global.Byte.Byte(Integer)
+  type: Constructor
+  summary: "\nPass a number to copy into a new object.\n"
+  syntax:
+    content: Byte Byte(Integer value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.Integer
+      description: "A number 0-255."
+    return:
+      type: CRMScript.Global.Byte
+- uid: CRMScript.Global.Byte.toHex()
+  commentId: M:CRMScript.Global.Byte.toHex()
+  id: toHex()
+  so.intellisense: Byte.toHex
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Byte
+  name: toHex()
+  nameWithType: Byte.toHex()
+  fullName: CRMScript.Global.Byte.toHex()
+  type: Method
+  summary: "\nConvert the value of the current byte to a hexadecimal representation of the byte. For example, 10 will return &quot;a&quot;, 11 will return &quot;b&quot;, and so on.\n"
+  remarks: "\nUse toHex(Integer) to provide the number of padding zeros.\n"
+  syntax:
+    content: String toHex()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Hexadecimal representation of the byte."
+- uid: CRMScript.Global.Byte.toHex(Integer)
+  commentId: M:CRMScript.Global.Byte.toHex(Integer)
+  id: toHex(Integer)
+  so.intellisense: Byte.toHex
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Byte
+  name: toHex(Integer)
+  nameWithType: Byte.toHex(Integer)
+  fullName: CRMScript.Global.Byte.toHex(Integer)
+  type: Method
+  summary: "\nConvert the value of the current byte to a hexadecimal representation of the byte with padding zeros. For example, 10 will return &quot;a&quot;, 11 will return &quot;b&quot;, and so on.\n"
+  remarks: 
+  syntax:
+    content: String toHex(Integer padding)
+    parameters:
+    - id: padding
+      type: CRMScript.Global.Integer
+      description: "The number of padding zeros."
+    return:
+      type: CRMScript.Global.String
+      description: "Hexadecimal representation of the byte with padding zeros."
+- uid: CRMScript.Global.Byte.toString()
+  commentId: M:CRMScript.Global.Byte.toString()
+  id: toString()
+  so.intellisense: Byte.toString
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Byte
+  name: toString()
+  nameWithType: Byte.toString()
+  fullName: CRMScript.Global.Byte.toString()
+  type: Method
+  summary: "\nConverts a byte value to its string representation.\n"
+  syntax:
+    content: String toString()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+- uid: CRMScript.Global.Byte.toInteger()
+  commentId: M:CRMScript.Global.Byte.toInteger()
+  id: toInteger()
+  so.intellisense: Byte.toInteger
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Byte
+  name: toInteger()
+  nameWithType: Byte.toInteger()
+  fullName: CRMScript.Global.Byte.toInteger()
+  type: Method
+  summary: "\nConverts a byte value to its integer representation (0 - 255).\n"
+  syntax:
+    content: Integer toInteger()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Integer representation (0 - 255)"
+- uid: CRMScript.Global.Byte.toBool()
+  commentId: M:CRMScript.Global.Byte.toBool()
+  id: toBool()
+  so.intellisense: Byte.toBool
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Byte
+  name: toBool()
+  nameWithType: Byte.toBool()
+  fullName: CRMScript.Global.Byte.toBool()
+  type: Method
+  summary: "\nReturns the boolean value of the Byte.\n"
+  example:
+  - "\n<pre><code>If(value != 0)\n\treturn true;\nelse\n\treturn false;</code></pre>\n"
+  syntax:
+    content: Bool toBool()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+references:
+- uid: CRMScript.Global.Byte
+  commentId: T:CRMScript.Global.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: CRMScript.Global.Byte
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool

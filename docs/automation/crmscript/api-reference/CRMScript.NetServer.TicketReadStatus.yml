@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.TicketReadStatus
+  # Same as SuperOffice.Data.TicketReadStatus
+  commentId: T:CRMScript.NetServer.TicketReadStatus
+  id: TicketReadStatus
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.TicketReadStatus.Unknown
+  - CRMScript.NetServer.TicketReadStatus.Green
+  - CRMScript.NetServer.TicketReadStatus.Yellow
+  - CRMScript.NetServer.TicketReadStatus.Red
+  name: TicketReadStatus
+  nameWithType: TicketReadStatus
+  fullName: CRMScript.NetServer.TicketReadStatus
+  type: Enum
+  summary: "\nWhether the owner has read the ticket or not (red, yellow, green)\n"
+- uid: CRMScript.NetServer.TicketReadStatus.Unknown
+  commentId: F:CRMScript.NetServer.TicketReadStatus.Unknown
+  id: TicketReadStatus.Unknown
+  langs:
+  - crmscript
+  name: TicketReadStatus.Unknown
+  nameWithType: TicketReadStatus.Unknown
+  fullName: CRMScript.NetServer.TicketReadStatus.Unknown
+  type: Field
+  summary: "\n0: Unknown status\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.TicketReadStatus
+- uid: CRMScript.NetServer.TicketReadStatus.Green
+  commentId: F:CRMScript.NetServer.TicketReadStatus.Green
+  id: TicketReadStatus.Green
+  langs:
+  - crmscript
+  name: TicketReadStatus.Green
+  nameWithType: TicketReadStatus.Green
+  fullName: CRMScript.NetServer.TicketReadStatus.Green
+  type: Field
+  summary: "\n1: The ticket has been read by the owner\n"
+  syntax: 
+    content: Green = 1
+    type: CRMScript.NetServer.TicketReadStatus
+- uid: CRMScript.NetServer.TicketReadStatus.Yellow
+  commentId: F:CRMScript.NetServer.TicketReadStatus.Yellow
+  id: TicketReadStatus.Yellow
+  langs:
+  - crmscript
+  name: TicketReadStatus.Yellow
+  nameWithType: TicketReadStatus.Yellow
+  fullName: CRMScript.NetServer.TicketReadStatus.Yellow
+  type: Field
+  summary: "\n2: The ticket has received new information since last read\n"
+  syntax: 
+    content: Yellow = 2
+    type: CRMScript.NetServer.TicketReadStatus
+- uid: CRMScript.NetServer.TicketReadStatus.Red
+  commentId: F:CRMScript.NetServer.TicketReadStatus.Red
+  id: TicketReadStatus.Red
+  langs:
+  - crmscript
+  name: TicketReadStatus.Red
+  nameWithType: TicketReadStatus.Red
+  fullName: CRMScript.NetServer.TicketReadStatus.Red
+  type: Field
+  summary: "\n3: The ticket is unread by the owner\n"
+  syntax: 
+    content: Red = 3
+    type: CRMScript.NetServer.TicketReadStatus
+references:
+- uid: CRMScript.NetServer.TicketReadStatus
+  commentId: T:CRMScript.NetServer.TicketReadStatus
+  isExternal: true
+  name: TicketReadStatus
+  nameWithType: TicketReadStatus
+  fullName: CRMScript.NetServer.TicketReadStatus

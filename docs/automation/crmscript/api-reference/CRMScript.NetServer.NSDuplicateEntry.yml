@@ -1,0 +1,265 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSDuplicateEntry
+  commentId: T:CRMScript.NetServer.NSDuplicateEntry
+  id: NSDuplicateEntry
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSDuplicateEntry.#ctor
+  - CRMScript.NetServer.NSDuplicateEntry.GetEntryIdentifier()
+  - CRMScript.NetServer.NSDuplicateEntry.GetEntryName()
+  - CRMScript.NetServer.NSDuplicateEntry.GetRuleDisplayName()
+  - CRMScript.NetServer.NSDuplicateEntry.GetRuleName()
+  - CRMScript.NetServer.NSDuplicateEntry.GetSoPrimaryKey()
+  - CRMScript.NetServer.NSDuplicateEntry.SetEntryIdentifier(String)
+  - CRMScript.NetServer.NSDuplicateEntry.SetEntryName(String)
+  - CRMScript.NetServer.NSDuplicateEntry.SetRuleDisplayName(String)
+  - CRMScript.NetServer.NSDuplicateEntry.SetRuleName(String)
+  - CRMScript.NetServer.NSDuplicateEntry.SetSoPrimaryKey(Integer)
+  name: NSDuplicateEntry
+  nameWithType: NSDuplicateEntry
+  fullName: CRMScript.NetServer.NSDuplicateEntry
+  type: Class
+  summary: "\nCarrier object for DuplicateEntry.\n"
+  example: 
+- uid: CRMScript.NetServer.NSDuplicateEntry.#ctor
+  commentId: M:CRMScript.NetServer.NSDuplicateEntry.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSDuplicateEntry
+  langs:
+  - crmscript
+  name: NSDuplicateEntry()
+  nameWithType: NSDuplicateEntry.#ctor
+  fullName: CRMScript.NetServer.NSDuplicateEntry.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSDuplicateEntry class.\n"
+  remarks: 
+  syntax: 
+    content: NSDuplicateEntry
+  example: 
+- uid: CRMScript.NetServer.NSDuplicateEntry.GetEntryIdentifier()
+  commentId: M:CRMScript.NetServer.NSDuplicateEntry.GetEntryIdentifier()
+  id: 'GetEntryIdentifier()'
+  so.intellisense: NSDuplicateEntry.GetEntryIdentifier
+  langs:
+  - crmscript
+  name: 'GetEntryIdentifier()'
+  nameWithType: NSDuplicateEntry.GetEntryIdentifier()
+  fullName: CRMScript.NetServer.NSDuplicateEntry.GetEntryIdentifier()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetEntryIdentifier()
+    parameters: []
+    return: 
+      type: CRMScript.Global.String
+      description: "String identifier for entry. Typically used to identify an entry in an external system."
+  example: 
+- uid: CRMScript.NetServer.NSDuplicateEntry.GetEntryName()
+  commentId: M:CRMScript.NetServer.NSDuplicateEntry.GetEntryName()
+  id: 'GetEntryName()'
+  so.intellisense: NSDuplicateEntry.GetEntryName
+  langs:
+  - crmscript
+  name: 'GetEntryName()'
+  nameWithType: NSDuplicateEntry.GetEntryName()
+  fullName: CRMScript.NetServer.NSDuplicateEntry.GetEntryName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetEntryName()
+    parameters: []
+    return: 
+      type: CRMScript.Global.String
+      description: "Name of duplicate entry."
+  example: 
+- uid: CRMScript.NetServer.NSDuplicateEntry.GetRuleDisplayName()
+  commentId: M:CRMScript.NetServer.NSDuplicateEntry.GetRuleDisplayName()
+  id: 'GetRuleDisplayName()'
+  so.intellisense: NSDuplicateEntry.GetRuleDisplayName
+  langs:
+  - crmscript
+  name: 'GetRuleDisplayName()'
+  nameWithType: NSDuplicateEntry.GetRuleDisplayName()
+  fullName: CRMScript.NetServer.NSDuplicateEntry.GetRuleDisplayName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetRuleDisplayName()
+    parameters: []
+    return: 
+      type: CRMScript.Global.String
+      description: "Short name of rule to display to user."
+  example: 
+- uid: CRMScript.NetServer.NSDuplicateEntry.GetRuleName()
+  commentId: M:CRMScript.NetServer.NSDuplicateEntry.GetRuleName()
+  id: 'GetRuleName()'
+  so.intellisense: NSDuplicateEntry.GetRuleName
+  langs:
+  - crmscript
+  name: 'GetRuleName()'
+  nameWithType: NSDuplicateEntry.GetRuleName()
+  fullName: CRMScript.NetServer.NSDuplicateEntry.GetRuleName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetRuleName()
+    parameters: []
+    return: 
+      type: CRMScript.Global.String
+      description: "Identifying name for rule."
+  example: 
+- uid: CRMScript.NetServer.NSDuplicateEntry.GetSoPrimaryKey()
+  commentId: M:CRMScript.NetServer.NSDuplicateEntry.GetSoPrimaryKey()
+  id: 'GetSoPrimaryKey()'
+  so.intellisense: NSDuplicateEntry.GetSoPrimaryKey
+  langs:
+  - crmscript
+  name: 'GetSoPrimaryKey()'
+  nameWithType: NSDuplicateEntry.GetSoPrimaryKey()
+  fullName: CRMScript.NetServer.NSDuplicateEntry.GetSoPrimaryKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSoPrimaryKey()
+    parameters: []
+    return: 
+      type: CRMScript.Global.String
+      description: "Identity of an entry in the SuperOffice database. Should be 0 for matches from external systems."
+  example: 
+- uid: CRMScript.NetServer.NSDuplicateEntry.SetEntryIdentifier(String)
+  commentId: M:CRMScript.NetServer.NSDuplicateEntry.SetEntryIdentifier(String)
+  id: 'SetEntryIdentifier(String)'
+  so.intellisense: NSDuplicateEntry.SetEntryIdentifier
+  langs:
+  - crmscript
+  name: 'SetEntryIdentifier(String)'
+  nameWithType: NSDuplicateEntry.SetEntryIdentifier(String)
+  fullName: CRMScript.NetServer.NSDuplicateEntry.SetEntryIdentifier(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEntryIdentifier(String id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.String
+      description: "String identifier for entry. Typically used to identify an entry in an external system."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSDuplicateEntry.SetEntryName(String)
+  commentId: M:CRMScript.NetServer.NSDuplicateEntry.SetEntryName(String)
+  id: 'SetEntryName(String)'
+  so.intellisense: NSDuplicateEntry.SetEntryName
+  langs:
+  - crmscript
+  name: 'SetEntryName(String)'
+  nameWithType: NSDuplicateEntry.SetEntryName(String)
+  fullName: CRMScript.NetServer.NSDuplicateEntry.SetEntryName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEntryName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Name of duplicate entry."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSDuplicateEntry.SetRuleDisplayName(String)
+  commentId: M:CRMScript.NetServer.NSDuplicateEntry.SetRuleDisplayName(String)
+  id: 'SetRuleDisplayName(String)'
+  so.intellisense: NSDuplicateEntry.SetRuleDisplayName
+  langs:
+  - crmscript
+  name: 'SetRuleDisplayName(String)'
+  nameWithType: NSDuplicateEntry.SetRuleDisplayName(String)
+  fullName: CRMScript.NetServer.NSDuplicateEntry.SetRuleDisplayName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRuleDisplayName(String displayName)
+    parameters:
+    - id: displayName
+      type: CRMScript.Global.String
+      description: "Short name of rule to display to user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSDuplicateEntry.SetRuleName(String)
+  commentId: M:CRMScript.NetServer.NSDuplicateEntry.SetRuleName(String)
+  id: 'SetRuleName(String)'
+  so.intellisense: NSDuplicateEntry.SetRuleName
+  langs:
+  - crmscript
+  name: 'SetRuleName(String)'
+  nameWithType: NSDuplicateEntry.SetRuleName(String)
+  fullName: CRMScript.NetServer.NSDuplicateEntry.SetRuleName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRuleName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Identifying name for rule."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSDuplicateEntry.SetSoPrimaryKey(Integer)
+  commentId: M:CRMScript.NetServer.NSDuplicateEntry.SetSoPrimaryKey(Integer)
+  id: 'SetSoPrimaryKey(Integer)'
+  so.intellisense: NSDuplicateEntry.SetSoPrimaryKey
+  langs:
+  - crmscript
+  name: 'SetSoPrimaryKey(Integer)'
+  nameWithType: NSDuplicateEntry.SetSoPrimaryKey(Integer)
+  fullName: CRMScript.NetServer.NSDuplicateEntry.SetSoPrimaryKey(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSoPrimaryKey(Integer key)
+    parameters:
+    - id: key
+      type: CRMScript.Global.Integer
+      description: "Identity of an entry in the SuperOffice database. Should be 0 for matches from external systems."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSDuplicateEntry
+  commentId: T:CRMScript.NetServer.NSDuplicateEntry
+  isExternal: true
+  name: NSDuplicateEntry
+  nameWithType: NSDuplicateEntry
+  fullName: CRMScript.NetServer.NSDuplicateEntry
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

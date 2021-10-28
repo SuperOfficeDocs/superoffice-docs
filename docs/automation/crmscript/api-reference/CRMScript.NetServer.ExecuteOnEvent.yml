@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.ExecuteOnEvent
+  # Same as SuperOffice.Data.ExecuteOnEvent
+  commentId: T:CRMScript.NetServer.ExecuteOnEvent
+  id: ExecuteOnEvent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.ExecuteOnEvent.Never
+  - CRMScript.NetServer.ExecuteOnEvent.Logon
+  - CRMScript.NetServer.ExecuteOnEvent.Logoff
+  - CRMScript.NetServer.ExecuteOnEvent.LocalUpdate
+  - CRMScript.NetServer.ExecuteOnEvent.Wait
+  name: ExecuteOnEvent
+  nameWithType: ExecuteOnEvent
+  fullName: CRMScript.NetServer.ExecuteOnEvent
+  type: Enum
+  summary: "\nValue for the executeOnEvent field in table externalapplication\n"
+- uid: CRMScript.NetServer.ExecuteOnEvent.Never
+  commentId: F:CRMScript.NetServer.ExecuteOnEvent.Never
+  id: ExecuteOnEvent.Never
+  langs:
+  - crmscript
+  name: ExecuteOnEvent.Never
+  nameWithType: ExecuteOnEvent.Never
+  fullName: CRMScript.NetServer.ExecuteOnEvent.Never
+  type: Field
+  summary: "\n0: This application is never executed automatically\n"
+  syntax: 
+    content: Never = 0
+    type: CRMScript.NetServer.ExecuteOnEvent
+- uid: CRMScript.NetServer.ExecuteOnEvent.Logon
+  commentId: F:CRMScript.NetServer.ExecuteOnEvent.Logon
+  id: ExecuteOnEvent.Logon
+  langs:
+  - crmscript
+  name: ExecuteOnEvent.Logon
+  nameWithType: ExecuteOnEvent.Logon
+  fullName: CRMScript.NetServer.ExecuteOnEvent.Logon
+  type: Field
+  summary: "\n1: Execute this application during logon\n"
+  syntax: 
+    content: Logon = 1
+    type: CRMScript.NetServer.ExecuteOnEvent
+- uid: CRMScript.NetServer.ExecuteOnEvent.Logoff
+  commentId: F:CRMScript.NetServer.ExecuteOnEvent.Logoff
+  id: ExecuteOnEvent.Logoff
+  langs:
+  - crmscript
+  name: ExecuteOnEvent.Logoff
+  nameWithType: ExecuteOnEvent.Logoff
+  fullName: CRMScript.NetServer.ExecuteOnEvent.Logoff
+  type: Field
+  summary: "\n2: Execute this application before logoff\n"
+  syntax: 
+    content: Logoff = 2
+    type: CRMScript.NetServer.ExecuteOnEvent
+- uid: CRMScript.NetServer.ExecuteOnEvent.LocalUpdate
+  commentId: F:CRMScript.NetServer.ExecuteOnEvent.LocalUpdate
+  id: ExecuteOnEvent.LocalUpdate
+  langs:
+  - crmscript
+  name: ExecuteOnEvent.LocalUpdate
+  nameWithType: ExecuteOnEvent.LocalUpdate
+  fullName: CRMScript.NetServer.ExecuteOnEvent.LocalUpdate
+  type: Field
+  summary: "\n3: Execute this application before a local update (start travelling)\n"
+  syntax: 
+    content: LocalUpdate = 3
+    type: CRMScript.NetServer.ExecuteOnEvent
+- uid: CRMScript.NetServer.ExecuteOnEvent.Wait
+  commentId: F:CRMScript.NetServer.ExecuteOnEvent.Wait
+  id: ExecuteOnEvent.Wait
+  langs:
+  - crmscript
+  name: ExecuteOnEvent.Wait
+  nameWithType: ExecuteOnEvent.Wait
+  fullName: CRMScript.NetServer.ExecuteOnEvent.Wait
+  type: Field
+  summary: "\n16384: When executing this application, wait for it to start\n"
+  syntax: 
+    content: Wait = 16384
+    type: CRMScript.NetServer.ExecuteOnEvent
+references:
+- uid: CRMScript.NetServer.ExecuteOnEvent
+  commentId: T:CRMScript.NetServer.ExecuteOnEvent
+  isExternal: true
+  name: ExecuteOnEvent
+  nameWithType: ExecuteOnEvent
+  fullName: CRMScript.NetServer.ExecuteOnEvent

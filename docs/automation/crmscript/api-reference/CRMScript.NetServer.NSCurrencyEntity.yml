@@ -1,0 +1,375 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSCurrencyEntity
+  commentId: T:CRMScript.NetServer.NSCurrencyEntity
+  id: NSCurrencyEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSCurrencyEntity.#ctor
+  - CRMScript.NetServer.NSCurrencyEntity.GetCurrencyId()
+  - CRMScript.NetServer.NSCurrencyEntity.GetDeleted()
+  - CRMScript.NetServer.NSCurrencyEntity.GetName()
+  - CRMScript.NetServer.NSCurrencyEntity.GetRank()
+  - CRMScript.NetServer.NSCurrencyEntity.GetRate()
+  - CRMScript.NetServer.NSCurrencyEntity.GetTooltip()
+  - CRMScript.NetServer.NSCurrencyEntity.GetUnits()
+  - CRMScript.NetServer.NSCurrencyEntity.SetCurrencyId(Integer)
+  - CRMScript.NetServer.NSCurrencyEntity.SetDeleted(Bool)
+  - CRMScript.NetServer.NSCurrencyEntity.SetName(String)
+  - CRMScript.NetServer.NSCurrencyEntity.SetRank(Integer)
+  - CRMScript.NetServer.NSCurrencyEntity.SetRate(Float)
+  - CRMScript.NetServer.NSCurrencyEntity.SetTooltip(String)
+  - CRMScript.NetServer.NSCurrencyEntity.SetUnits(Float)
+  name: NSCurrencyEntity
+  nameWithType: NSCurrencyEntity
+  fullName: CRMScript.NetServer.NSCurrencyEntity
+  type: Class
+  summary: "\nCarrier object for CurrencyEntity.\n"
+  example: 
+- uid: CRMScript.NetServer.NSCurrencyEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSCurrencyEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSCurrencyEntity
+  langs:
+  - crmscript
+  name: NSCurrencyEntity()
+  nameWithType: NSCurrencyEntity.#ctor
+  fullName: CRMScript.NetServer.NSCurrencyEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSCurrencyEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSCurrencyEntity
+  example: 
+- uid: CRMScript.NetServer.NSCurrencyEntity.GetCurrencyId()
+  commentId: M:CRMScript.NetServer.NSCurrencyEntity.GetCurrencyId()
+  id: 'GetCurrencyId()'
+  so.intellisense: NSCurrencyEntity.GetCurrencyId
+  langs:
+  - crmscript
+  name: 'GetCurrencyId()'
+  nameWithType: NSCurrencyEntity.GetCurrencyId()
+  fullName: CRMScript.NetServer.NSCurrencyEntity.GetCurrencyId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCurrencyId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSCurrencyEntity thing;\nInteger currencyId = thing.GetCurrencyId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCurrencyEntity.GetDeleted()
+  commentId: M:CRMScript.NetServer.NSCurrencyEntity.GetDeleted()
+  id: 'GetDeleted()'
+  so.intellisense: NSCurrencyEntity.GetDeleted
+  langs:
+  - crmscript
+  name: 'GetDeleted()'
+  nameWithType: NSCurrencyEntity.GetDeleted()
+  fullName: CRMScript.NetServer.NSCurrencyEntity.GetDeleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetDeleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists."
+  example: 
+  - "\n<pre><code>NSCurrencyEntity thing;\nBool deleted = thing.GetDeleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCurrencyEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSCurrencyEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSCurrencyEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSCurrencyEntity.GetName()
+  fullName: CRMScript.NetServer.NSCurrencyEntity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The list item."
+  example: 
+  - "\n<pre><code>NSCurrencyEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCurrencyEntity.GetRank()
+  commentId: M:CRMScript.NetServer.NSCurrencyEntity.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSCurrencyEntity.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSCurrencyEntity.GetRank()
+  fullName: CRMScript.NetServer.NSCurrencyEntity.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Rank order."
+  example: 
+  - "\n<pre><code>NSCurrencyEntity thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCurrencyEntity.GetRate()
+  commentId: M:CRMScript.NetServer.NSCurrencyEntity.GetRate()
+  id: 'GetRate()'
+  so.intellisense: NSCurrencyEntity.GetRate
+  langs:
+  - crmscript
+  name: 'GetRate()'
+  nameWithType: NSCurrencyEntity.GetRate()
+  fullName: CRMScript.NetServer.NSCurrencyEntity.GetRate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetRate()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Exchange rate."
+  example: 
+  - "\n<pre><code>NSCurrencyEntity thing;\nFloat rate = thing.GetRate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCurrencyEntity.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSCurrencyEntity.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSCurrencyEntity.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSCurrencyEntity.GetTooltip()
+  fullName: CRMScript.NetServer.NSCurrencyEntity.GetTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Tooltip or other description."
+  example: 
+  - "\n<pre><code>NSCurrencyEntity thing;\nString tooltip = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCurrencyEntity.GetUnits()
+  commentId: M:CRMScript.NetServer.NSCurrencyEntity.GetUnits()
+  id: 'GetUnits()'
+  so.intellisense: NSCurrencyEntity.GetUnits
+  langs:
+  - crmscript
+  name: 'GetUnits()'
+  nameWithType: NSCurrencyEntity.GetUnits()
+  fullName: CRMScript.NetServer.NSCurrencyEntity.GetUnits()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetUnits()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Exchange unit scale (0.01, 0.1, 1, 10, 100 etc)."
+  example: 
+  - "\n<pre><code>NSCurrencyEntity thing;\nFloat units = thing.GetUnits();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCurrencyEntity.SetCurrencyId(Integer)
+  commentId: M:CRMScript.NetServer.NSCurrencyEntity.SetCurrencyId(Integer)
+  id: 'SetCurrencyId(Integer)'
+  so.intellisense: NSCurrencyEntity.SetCurrencyId
+  langs:
+  - crmscript
+  name: 'SetCurrencyId(Integer)'
+  nameWithType: NSCurrencyEntity.SetCurrencyId(Integer)
+  fullName: CRMScript.NetServer.NSCurrencyEntity.SetCurrencyId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCurrencyId(Integer currencyId)
+    parameters:
+    - id: currencyId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCurrencyEntity thing;\nInteger currencyId;\nthing.SetCurrencyId(currencyId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCurrencyEntity.SetDeleted(Bool)
+  commentId: M:CRMScript.NetServer.NSCurrencyEntity.SetDeleted(Bool)
+  id: 'SetDeleted(Bool)'
+  so.intellisense: NSCurrencyEntity.SetDeleted
+  langs:
+  - crmscript
+  name: 'SetDeleted(Bool)'
+  nameWithType: NSCurrencyEntity.SetDeleted(Bool)
+  fullName: CRMScript.NetServer.NSCurrencyEntity.SetDeleted(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeleted(Bool deleted)
+    parameters:
+    - id: deleted
+      type: CRMScript.Global.Bool
+      description: "0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCurrencyEntity thing;\nBool deleted;\nthing.SetDeleted(deleted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCurrencyEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSCurrencyEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSCurrencyEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSCurrencyEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSCurrencyEntity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The list item."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCurrencyEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCurrencyEntity.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSCurrencyEntity.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSCurrencyEntity.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSCurrencyEntity.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSCurrencyEntity.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "Rank order."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCurrencyEntity thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCurrencyEntity.SetRate(Float)
+  commentId: M:CRMScript.NetServer.NSCurrencyEntity.SetRate(Float)
+  id: 'SetRate(Float)'
+  so.intellisense: NSCurrencyEntity.SetRate
+  langs:
+  - crmscript
+  name: 'SetRate(Float)'
+  nameWithType: NSCurrencyEntity.SetRate(Float)
+  fullName: CRMScript.NetServer.NSCurrencyEntity.SetRate(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRate(Float rate)
+    parameters:
+    - id: rate
+      type: CRMScript.Global.Float
+      description: "Exchange rate."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCurrencyEntity thing;\nFloat rate;\nthing.SetRate(rate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCurrencyEntity.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSCurrencyEntity.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSCurrencyEntity.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSCurrencyEntity.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSCurrencyEntity.SetTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: "Tooltip or other description."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCurrencyEntity thing;\nString tooltip;\nthing.SetTooltip(tooltip);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCurrencyEntity.SetUnits(Float)
+  commentId: M:CRMScript.NetServer.NSCurrencyEntity.SetUnits(Float)
+  id: 'SetUnits(Float)'
+  so.intellisense: NSCurrencyEntity.SetUnits
+  langs:
+  - crmscript
+  name: 'SetUnits(Float)'
+  nameWithType: NSCurrencyEntity.SetUnits(Float)
+  fullName: CRMScript.NetServer.NSCurrencyEntity.SetUnits(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUnits(Float units)
+    parameters:
+    - id: units
+      type: CRMScript.Global.Float
+      description: "Exchange unit scale (0.01, 0.1, 1, 10, 100 etc)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCurrencyEntity thing;\nFloat units;\nthing.SetUnits(units);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSCurrencyEntity
+  commentId: T:CRMScript.NetServer.NSCurrencyEntity
+  isExternal: true
+  name: NSCurrencyEntity
+  nameWithType: NSCurrencyEntity
+  fullName: CRMScript.NetServer.NSCurrencyEntity
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Float
+  commentId: T:CRMScript.Global.Float
+  isExternal: true
+  name: Float
+  nameWithType: Float
+  fullName: CRMScript.Global.Float
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

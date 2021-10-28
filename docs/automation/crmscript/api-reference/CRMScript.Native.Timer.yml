@@ -1,0 +1,151 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.Timer
+  commentId: T:CRMScript.Native.Timer
+  id: Timer
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.Timer.#ctor
+  - CRMScript.Native.Timer.getHiResTimer()
+  - CRMScript.Native.Timer.getSeconds()
+  - CRMScript.Native.Timer.getTimer()
+  - CRMScript.Native.Timer.start()
+  - CRMScript.Native.Timer.stop()
+  name: Timer
+  nameWithType: Timer
+  fullName: CRMScript.Native.Timer
+  type: Class
+  summary: "\nTimer class\n"
+  example: 
+  - "\n<pre><code>Timer timer;\ntimer.start();\n\n// code you want to time\n\ntimer.stop();\nFloat timeTaken = timer.getSeconds();</code></pre>\n"
+- uid: CRMScript.Native.Timer.#ctor
+  commentId: M:CRMScript.Native.Timer.#ctor
+  id: '#ctor'
+  so.intellisense: Void.Timer
+  langs:
+  - crmscript
+  name: Timer()
+  nameWithType: Timer.#ctor
+  fullName: CRMScript.Native.Timer.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the Timer class.\n"
+  remarks: 
+  syntax: 
+    content: Timer
+  example: 
+  - "\n<pre><code>Timer timer;\ntimer.start();\n\n// code you want to time\n\ntimer.stop();\nFloat timeTaken = timer.getSeconds();</code></pre>\n"
+- uid: CRMScript.Native.Timer.getHiResTimer()
+  commentId: M:CRMScript.Native.Timer.getHiResTimer()
+  id: 'getHiResTimer()'
+  so.intellisense: Timer.getHiResTimer
+  langs:
+  - crmscript
+  name: 'getHiResTimer()'
+  nameWithType: Timer.getHiResTimer()
+  fullName: CRMScript.Native.Timer.getHiResTimer()
+  type: Method
+  summary: "\nGets a high resolution timer in seconds.\n"
+  remarks: 
+  syntax: 
+    content: Float getHiResTimer()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description:
+  example: 
+- uid: CRMScript.Native.Timer.getSeconds()
+  commentId: M:CRMScript.Native.Timer.getSeconds()
+  id: 'getSeconds()'
+  so.intellisense: Timer.getSeconds
+  langs:
+  - crmscript
+  name: 'getSeconds()'
+  nameWithType: Timer.getSeconds()
+  fullName: CRMScript.Native.Timer.getSeconds()
+  type: Method
+  summary: "\nThis function will return the number of seconds between start and stop.\n"
+  remarks: 
+  syntax: 
+    content: Float getSeconds()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "The number of seconds between start and stop."
+  example: 
+- uid: CRMScript.Native.Timer.getTimer()
+  commentId: M:CRMScript.Native.Timer.getTimer()
+  id: 'getTimer()'
+  so.intellisense: Timer.getTimer
+  langs:
+  - crmscript
+  name: 'getTimer()'
+  nameWithType: Timer.getTimer()
+  fullName: CRMScript.Native.Timer.getTimer()
+  type: Method
+  summary: "\nGets a timer value in seconds from the real time system clock. This is normally a low resolution timer.\n"
+  remarks: 
+  syntax: 
+    content: Float getTimer()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description:
+  example: 
+- uid: CRMScript.Native.Timer.start()
+  commentId: M:CRMScript.Native.Timer.start()
+  id: 'start()'
+  so.intellisense: Timer.start
+  langs:
+  - crmscript
+  name: 'start()'
+  nameWithType: Timer.start()
+  fullName: CRMScript.Native.Timer.start()
+  type: Method
+  summary: "\nThis function will start the timer.\n"
+  remarks: 
+  syntax: 
+    content: Void start()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.Native.Timer.stop()
+  commentId: M:CRMScript.Native.Timer.stop()
+  id: 'stop()'
+  so.intellisense: Timer.stop
+  langs:
+  - crmscript
+  name: 'stop()'
+  nameWithType: Timer.stop()
+  fullName: CRMScript.Native.Timer.stop()
+  type: Method
+  summary: "\nThis function will stop the timer.\n"
+  remarks: 
+  syntax: 
+    content: Void stop()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+references:
+- uid: CRMScript.Native.Timer
+  commentId: T:CRMScript.Native.Timer
+  isExternal: true
+  name: Timer
+  nameWithType: Timer
+  fullName: CRMScript.Native.Timer
+- uid: CRMScript.Global.Float
+  commentId: T:CRMScript.Global.Float
+  isExternal: true
+  name: Float
+  nameWithType: Float
+  fullName: CRMScript.Global.Float
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

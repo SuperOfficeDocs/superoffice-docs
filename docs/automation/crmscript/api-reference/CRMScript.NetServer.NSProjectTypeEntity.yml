@@ -1,0 +1,527 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSProjectTypeEntity
+  commentId: T:CRMScript.NetServer.NSProjectTypeEntity
+  id: NSProjectTypeEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSProjectTypeEntity.#ctor
+  - CRMScript.NetServer.NSProjectTypeEntity.GetDeleted()
+  - CRMScript.NetServer.NSProjectTypeEntity.GetDurationUnit()
+  - CRMScript.NetServer.NSProjectTypeEntity.GetHasGuide()
+  - CRMScript.NetServer.NSProjectTypeEntity.GetIsAutoAdvance()
+  - CRMScript.NetServer.NSProjectTypeEntity.GetName()
+  - CRMScript.NetServer.NSProjectTypeEntity.GetProjectDuration()
+  - CRMScript.NetServer.NSProjectTypeEntity.GetProjTypeId()
+  - CRMScript.NetServer.NSProjectTypeEntity.GetRank()
+  - CRMScript.NetServer.NSProjectTypeEntity.GetStages()
+  - CRMScript.NetServer.NSProjectTypeEntity.GetTooltip()
+  - CRMScript.NetServer.NSProjectTypeEntity.SetDeleted(Bool)
+  - CRMScript.NetServer.NSProjectTypeEntity.SetDurationUnit(Integer)
+  - CRMScript.NetServer.NSProjectTypeEntity.SetHasGuide(Bool)
+  - CRMScript.NetServer.NSProjectTypeEntity.SetIsAutoAdvance(Bool)
+  - CRMScript.NetServer.NSProjectTypeEntity.SetName(String)
+  - CRMScript.NetServer.NSProjectTypeEntity.SetProjectDuration(Integer)
+  - CRMScript.NetServer.NSProjectTypeEntity.SetProjTypeId(Integer)
+  - CRMScript.NetServer.NSProjectTypeEntity.SetRank(Integer)
+  - CRMScript.NetServer.NSProjectTypeEntity.SetStages(NSSelectableMDOListItem[])
+  - CRMScript.NetServer.NSProjectTypeEntity.SetTooltip(String)
+  name: NSProjectTypeEntity
+  nameWithType: NSProjectTypeEntity
+  fullName: CRMScript.NetServer.NSProjectTypeEntity
+  type: Class
+  summary: "\nCarrier object for ProjectTypeEntity.\n"
+  example: 
+- uid: CRMScript.NetServer.NSProjectTypeEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSProjectTypeEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSProjectTypeEntity
+  langs:
+  - crmscript
+  name: NSProjectTypeEntity()
+  nameWithType: NSProjectTypeEntity.#ctor
+  fullName: CRMScript.NetServer.NSProjectTypeEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSProjectTypeEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSProjectTypeEntity
+  example: 
+- uid: CRMScript.NetServer.NSProjectTypeEntity.GetDeleted()
+  commentId: M:CRMScript.NetServer.NSProjectTypeEntity.GetDeleted()
+  id: 'GetDeleted()'
+  so.intellisense: NSProjectTypeEntity.GetDeleted
+  langs:
+  - crmscript
+  name: 'GetDeleted()'
+  nameWithType: NSProjectTypeEntity.GetDeleted()
+  fullName: CRMScript.NetServer.NSProjectTypeEntity.GetDeleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetDeleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists."
+  example: 
+  - "\n<pre><code>NSProjectTypeEntity thing;\nBool deleted = thing.GetDeleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectTypeEntity.GetDurationUnit()
+  commentId: M:CRMScript.NetServer.NSProjectTypeEntity.GetDurationUnit()
+  id: 'GetDurationUnit()'
+  so.intellisense: NSProjectTypeEntity.GetDurationUnit
+  langs:
+  - crmscript
+  name: 'GetDurationUnit()'
+  nameWithType: NSProjectTypeEntity.GetDurationUnit()
+  fullName: CRMScript.NetServer.NSProjectTypeEntity.GetDurationUnit()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDurationUnit()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Units for the duration. See <xref href=\"CRMScript.NetServer.DurationUnit\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSProjectTypeEntity thing;\nInteger durationUnit = thing.GetDurationUnit();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectTypeEntity.GetHasGuide()
+  commentId: M:CRMScript.NetServer.NSProjectTypeEntity.GetHasGuide()
+  id: 'GetHasGuide()'
+  so.intellisense: NSProjectTypeEntity.GetHasGuide
+  langs:
+  - crmscript
+  name: 'GetHasGuide()'
+  nameWithType: NSProjectTypeEntity.GetHasGuide()
+  fullName: CRMScript.NetServer.NSProjectTypeEntity.GetHasGuide()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetHasGuide()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Does this project type have a guide attached."
+  example: 
+  - "\n<pre><code>NSProjectTypeEntity thing;\nBool hasGuide = thing.GetHasGuide();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectTypeEntity.GetIsAutoAdvance()
+  commentId: M:CRMScript.NetServer.NSProjectTypeEntity.GetIsAutoAdvance()
+  id: 'GetIsAutoAdvance()'
+  so.intellisense: NSProjectTypeEntity.GetIsAutoAdvance
+  langs:
+  - crmscript
+  name: 'GetIsAutoAdvance()'
+  nameWithType: NSProjectTypeEntity.GetIsAutoAdvance()
+  fullName: CRMScript.NetServer.NSProjectTypeEntity.GetIsAutoAdvance()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsAutoAdvance()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: Does the project status advance automatically, when the last guided activity in a status is completed?
+  example: 
+  - "\n<pre><code>NSProjectTypeEntity thing;\nBool isAutoAdvance = thing.GetIsAutoAdvance();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectTypeEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSProjectTypeEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSProjectTypeEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSProjectTypeEntity.GetName()
+  fullName: CRMScript.NetServer.NSProjectTypeEntity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The list item."
+  example: 
+  - "\n<pre><code>NSProjectTypeEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectTypeEntity.GetProjectDuration()
+  commentId: M:CRMScript.NetServer.NSProjectTypeEntity.GetProjectDuration()
+  id: 'GetProjectDuration()'
+  so.intellisense: NSProjectTypeEntity.GetProjectDuration
+  langs:
+  - crmscript
+  name: 'GetProjectDuration()'
+  nameWithType: NSProjectTypeEntity.GetProjectDuration()
+  fullName: CRMScript.NetServer.NSProjectTypeEntity.GetProjectDuration()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetProjectDuration()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Expected duration of project, in given units."
+  example: 
+  - "\n<pre><code>NSProjectTypeEntity thing;\nInteger projectDuration = thing.GetProjectDuration();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectTypeEntity.GetProjTypeId()
+  commentId: M:CRMScript.NetServer.NSProjectTypeEntity.GetProjTypeId()
+  id: 'GetProjTypeId()'
+  so.intellisense: NSProjectTypeEntity.GetProjTypeId
+  langs:
+  - crmscript
+  name: 'GetProjTypeId()'
+  nameWithType: NSProjectTypeEntity.GetProjTypeId()
+  fullName: CRMScript.NetServer.NSProjectTypeEntity.GetProjTypeId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetProjTypeId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSProjectTypeEntity thing;\nInteger projTypeId = thing.GetProjTypeId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectTypeEntity.GetRank()
+  commentId: M:CRMScript.NetServer.NSProjectTypeEntity.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSProjectTypeEntity.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSProjectTypeEntity.GetRank()
+  fullName: CRMScript.NetServer.NSProjectTypeEntity.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Rank order."
+  example: 
+  - "\n<pre><code>NSProjectTypeEntity thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectTypeEntity.GetStages()
+  commentId: M:CRMScript.NetServer.NSProjectTypeEntity.GetStages()
+  id: 'GetStages()'
+  so.intellisense: NSProjectTypeEntity.GetStages
+  langs:
+  - crmscript
+  name: 'GetStages()'
+  nameWithType: NSProjectTypeEntity.GetStages()
+  fullName: CRMScript.NetServer.NSProjectTypeEntity.GetStages()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSSelectableMDOListItem[] GetStages()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSelectableMDOListItem[]
+      description: "Stages (project statuses), those associated with this ProjType are selected."
+  example: 
+  - "\n<pre><code>NSProjectTypeEntity thing;\nNSSelectableMDOListItem[] stages = thing.GetStages();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectTypeEntity.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSProjectTypeEntity.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSProjectTypeEntity.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSProjectTypeEntity.GetTooltip()
+  fullName: CRMScript.NetServer.NSProjectTypeEntity.GetTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Tooltip or other description."
+  example: 
+  - "\n<pre><code>NSProjectTypeEntity thing;\nString tooltip = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectTypeEntity.SetDeleted(Bool)
+  commentId: M:CRMScript.NetServer.NSProjectTypeEntity.SetDeleted(Bool)
+  id: 'SetDeleted(Bool)'
+  so.intellisense: NSProjectTypeEntity.SetDeleted
+  langs:
+  - crmscript
+  name: 'SetDeleted(Bool)'
+  nameWithType: NSProjectTypeEntity.SetDeleted(Bool)
+  fullName: CRMScript.NetServer.NSProjectTypeEntity.SetDeleted(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeleted(Bool deleted)
+    parameters:
+    - id: deleted
+      type: CRMScript.Global.Bool
+      description: "0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectTypeEntity thing;\nBool deleted;\nthing.SetDeleted(deleted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectTypeEntity.SetDurationUnit(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectTypeEntity.SetDurationUnit(Integer)
+  id: 'SetDurationUnit(Integer)'
+  so.intellisense: NSProjectTypeEntity.SetDurationUnit
+  langs:
+  - crmscript
+  name: 'SetDurationUnit(Integer)'
+  nameWithType: NSProjectTypeEntity.SetDurationUnit(Integer)
+  fullName: CRMScript.NetServer.NSProjectTypeEntity.SetDurationUnit(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetDurationUnit(Integer durationUnit)
+    parameters:
+    - id: durationUnit
+      type: CRMScript.Global.Integer
+      description: "Units for the duration. See <xref href=\"CRMScript.NetServer.DurationUnit\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectTypeEntity thing;\nInteger durationUnit;\nthing.SetDurationUnit(durationUnit);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectTypeEntity.SetHasGuide(Bool)
+  commentId: M:CRMScript.NetServer.NSProjectTypeEntity.SetHasGuide(Bool)
+  id: 'SetHasGuide(Bool)'
+  so.intellisense: NSProjectTypeEntity.SetHasGuide
+  langs:
+  - crmscript
+  name: 'SetHasGuide(Bool)'
+  nameWithType: NSProjectTypeEntity.SetHasGuide(Bool)
+  fullName: CRMScript.NetServer.NSProjectTypeEntity.SetHasGuide(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetHasGuide(Bool hasGuide)
+    parameters:
+    - id: hasGuide
+      type: CRMScript.Global.Bool
+      description: "Does this project type have a guide attached."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectTypeEntity thing;\nBool hasGuide;\nthing.SetHasGuide(hasGuide);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectTypeEntity.SetIsAutoAdvance(Bool)
+  commentId: M:CRMScript.NetServer.NSProjectTypeEntity.SetIsAutoAdvance(Bool)
+  id: 'SetIsAutoAdvance(Bool)'
+  so.intellisense: NSProjectTypeEntity.SetIsAutoAdvance
+  langs:
+  - crmscript
+  name: 'SetIsAutoAdvance(Bool)'
+  nameWithType: NSProjectTypeEntity.SetIsAutoAdvance(Bool)
+  fullName: CRMScript.NetServer.NSProjectTypeEntity.SetIsAutoAdvance(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsAutoAdvance(Bool isAutoAdvance)
+    parameters:
+    - id: isAutoAdvance
+      type: CRMScript.Global.Bool
+      description: Does the project status advance automatically, when the last guided activity in a status is completed?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectTypeEntity thing;\nBool isAutoAdvance;\nthing.SetIsAutoAdvance(isAutoAdvance);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectTypeEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSProjectTypeEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSProjectTypeEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSProjectTypeEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSProjectTypeEntity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The list item."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectTypeEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectTypeEntity.SetProjectDuration(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectTypeEntity.SetProjectDuration(Integer)
+  id: 'SetProjectDuration(Integer)'
+  so.intellisense: NSProjectTypeEntity.SetProjectDuration
+  langs:
+  - crmscript
+  name: 'SetProjectDuration(Integer)'
+  nameWithType: NSProjectTypeEntity.SetProjectDuration(Integer)
+  fullName: CRMScript.NetServer.NSProjectTypeEntity.SetProjectDuration(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjectDuration(Integer projectDuration)
+    parameters:
+    - id: projectDuration
+      type: CRMScript.Global.Integer
+      description: "Expected duration of project, in given units."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectTypeEntity thing;\nInteger projectDuration;\nthing.SetProjectDuration(projectDuration);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectTypeEntity.SetProjTypeId(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectTypeEntity.SetProjTypeId(Integer)
+  id: 'SetProjTypeId(Integer)'
+  so.intellisense: NSProjectTypeEntity.SetProjTypeId
+  langs:
+  - crmscript
+  name: 'SetProjTypeId(Integer)'
+  nameWithType: NSProjectTypeEntity.SetProjTypeId(Integer)
+  fullName: CRMScript.NetServer.NSProjectTypeEntity.SetProjTypeId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjTypeId(Integer projTypeId)
+    parameters:
+    - id: projTypeId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectTypeEntity thing;\nInteger projTypeId;\nthing.SetProjTypeId(projTypeId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectTypeEntity.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectTypeEntity.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSProjectTypeEntity.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSProjectTypeEntity.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSProjectTypeEntity.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "Rank order."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectTypeEntity thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectTypeEntity.SetStages(NSSelectableMDOListItem[])
+  commentId: M:CRMScript.NetServer.NSProjectTypeEntity.SetStages(NSSelectableMDOListItem[])
+  id: 'SetStages(NSSelectableMDOListItem[])'
+  so.intellisense: NSProjectTypeEntity.SetStages
+  langs:
+  - crmscript
+  name: 'SetStages(NSSelectableMDOListItem[])'
+  nameWithType: NSProjectTypeEntity.SetStages(NSSelectableMDOListItem[])
+  fullName: CRMScript.NetServer.NSProjectTypeEntity.SetStages(NSSelectableMDOListItem[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetStages(NSSelectableMDOListItem[] stages)
+    parameters:
+    - id: stages
+      type: CRMScript.NetServer.NSSelectableMDOListItem[]
+      description: "Stages (project statuses), those associated with this ProjType are selected."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectTypeEntity thing;\nNSSelectableMDOListItem[] stages;\nthing.SetStages(stages);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectTypeEntity.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSProjectTypeEntity.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSProjectTypeEntity.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSProjectTypeEntity.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSProjectTypeEntity.SetTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: "Tooltip or other description."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectTypeEntity thing;\nString tooltip;\nthing.SetTooltip(tooltip);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSProjectTypeEntity
+  commentId: T:CRMScript.NetServer.NSProjectTypeEntity
+  isExternal: true
+  name: NSProjectTypeEntity
+  nameWithType: NSProjectTypeEntity
+  fullName: CRMScript.NetServer.NSProjectTypeEntity
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSSelectableMDOListItem[]
+  isExternal: true
+  name: NSSelectableMDOListItem[]
+  nameWithType: NSSelectableMDOListItem[]
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSSelectableMDOListItem
+    isExternal: true
+    name: NSSelectableMDOListItem
+    nameWithType: NSSelectableMDOListItem
+    fullName: CRMScript.NetServer.NSSelectableMDOListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSSelectableMDOListItem
+  commentId: T:CRMScript.NetServer.NSSelectableMDOListItem
+  isExternal: true
+  name: NSSelectableMDOListItem
+  nameWithType: NSSelectableMDOListItem
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.DurationUnit
+  commentId: T:CRMScript.NetServer.DurationUnit
+  isExternal: true
+  name: DurationUnit
+  nameWithType: DurationUnit
+  fullName: CRMScript.NetServer.DurationUnit

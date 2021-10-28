@@ -1,0 +1,2859 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSQuoteAgent
+  commentId: T:CRMScript.NetServer.NSQuoteAgent
+  id: NSQuoteAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSQuoteAgent.#ctor
+  - CRMScript.NetServer.NSQuoteAgent.AddSaleTypeQuoteAttachment(Integer,Integer)
+  - CRMScript.NetServer.NSQuoteAgent.ApproveQuoteVersion(Integer,String,Integer,String)
+  - CRMScript.NetServer.NSQuoteAgent.CanConnectorProvideCapability(Integer,String)
+  - CRMScript.NetServer.NSQuoteAgent.CopyQuoteAlternative(Integer,Integer,String)
+  - CRMScript.NetServer.NSQuoteAgent.CopySuperOfficePriceList(Integer,String,DateTime,DateTime,Integer,Bool)
+  - CRMScript.NetServer.NSQuoteAgent.CreateAndSaveQuote(Integer,Integer,String)
+  - CRMScript.NetServer.NSQuoteAgent.CreateAndSaveQuoteFromSale(Integer,Integer)
+  - CRMScript.NetServer.NSQuoteAgent.CreateAndSaveQuoteVersion(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.CreateConnectionFromConnectorName(String)
+  - CRMScript.NetServer.NSQuoteAgent.CreateDefaultPriceList()
+  - CRMScript.NetServer.NSQuoteAgent.CreateDefaultProduct()
+  - CRMScript.NetServer.NSQuoteAgent.CreateDefaultQuoteAlternative()
+  - CRMScript.NetServer.NSQuoteAgent.CreateOrUpdateQuoteVersionAttachments(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.CreateQuoteAlternative(Integer,String,String)
+  - CRMScript.NetServer.NSQuoteAgent.CreateQuoteLine(Integer,String)
+  - CRMScript.NetServer.NSQuoteAgent.CreateQuoteLineFromProduct(Integer,NSProduct)
+  - CRMScript.NetServer.NSQuoteAgent.DeleteConnection(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.DeletePriceList(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.DeleteProduct(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.DeleteQuote(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.DeleteQuoteAlternative(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.DeleteQuoteLine(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.DeleteQuoteLines(Integer[])
+  - CRMScript.NetServer.NSQuoteAgent.DeleteSaleTypeQuoteAttachment(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.FindProduct(Integer,String,String)
+  - CRMScript.NetServer.NSQuoteAgent.GenerateQuoteDocuments(Integer,Integer,Bool,Integer,Bool,String)
+  - CRMScript.NetServer.NSQuoteAgent.GetActivePriceLists(Integer,String)
+  - CRMScript.NetServer.NSQuoteAgent.GetActivePriceListsByCurrencyId(Integer,Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetAllAvailableQuoteConnections()
+  - CRMScript.NetServer.NSQuoteAgent.GetAllAvailableQuoteConnectionsWithPriceLists()
+  - CRMScript.NetServer.NSQuoteAgent.GetAllInstalledQuoteConnections()
+  - CRMScript.NetServer.NSQuoteAgent.GetAllPriceLists(Integer,String)
+  - CRMScript.NetServer.NSQuoteAgent.GetAllPriceListsByCurrencyId(Integer,Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetAllQuoteLineConfigurations()
+  - CRMScript.NetServer.NSQuoteAgent.GetConfigurationFields(Integer,String)
+  - CRMScript.NetServer.NSQuoteAgent.GetConnection(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetConnectionConfigFields(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetConnectionsForAssociate(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetConnectionStartupErrors()
+  - CRMScript.NetServer.NSQuoteAgent.GetConnectionStartupResponse(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetConnectorCapabilities(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetConnectorCapabilityNames(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetExtraInfo(String)
+  - CRMScript.NetServer.NSQuoteAgent.GetInUseQuoteLineConfigurations()
+  - CRMScript.NetServer.NSQuoteAgent.GetOrderConfirmation(Integer,Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetOrderState(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetPriceList(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetProduct(Integer,String)
+  - CRMScript.NetServer.NSQuoteAgent.GetProductFromDbId(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetProductImage(Integer,String,Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetQuote(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetQuoteAlternative(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetQuoteAlternatives(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetQuoteEntity(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetQuoteEntityFromSaleId(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetQuoteFromSaleId(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetQuoteLine(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetQuoteLineConfiguration(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetQuoteLineConfigurationFromFieldName(String)
+  - CRMScript.NetServer.NSQuoteAgent.GetQuoteLineImage(Integer,Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetQuoteLines(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetQuoteList(String)
+  - CRMScript.NetServer.NSQuoteAgent.GetQuoteVersion(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetQuoteVersions(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetQuoteVersionWorkflowButtonStates(Integer,Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetQuoteVersionWorkflowImageState(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetQuoteVersionWorkflowState(Integer,Integer)
+  - CRMScript.NetServer.NSQuoteAgent.GetQuoteVersionWorkflowStatusInfo(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.HasConnections()
+  - CRMScript.NetServer.NSQuoteAgent.IncludeQuoteVersionAttachment(Integer,Integer,Bool)
+  - CRMScript.NetServer.NSQuoteAgent.MoveQuoteLine(Integer,Bool)
+  - CRMScript.NetServer.NSQuoteAgent.PlaceOrder(Integer,Bool,String,String,String)
+  - CRMScript.NetServer.NSQuoteAgent.RecalculateQuoteAlternative(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.RecalculateQuoteLine(NSQuoteLine,String[])
+  - CRMScript.NetServer.NSQuoteAgent.RejectQuoteVersion(Integer,String,Integer,String)
+  - CRMScript.NetServer.NSQuoteAgent.RemoveProduct(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.RestoreConnection(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.SaveConnection(NSQuoteConnection)
+  - CRMScript.NetServer.NSQuoteAgent.SaveConnectionConfigFields(Integer,Map)
+  - CRMScript.NetServer.NSQuoteAgent.SavePriceList(NSPriceList)
+  - CRMScript.NetServer.NSQuoteAgent.SaveProduct(NSProduct)
+  - CRMScript.NetServer.NSQuoteAgent.SaveQuote(NSQuote)
+  - CRMScript.NetServer.NSQuoteAgent.SaveQuoteAlternative(NSQuoteAlternative)
+  - CRMScript.NetServer.NSQuoteAgent.SaveQuoteEntity(NSQuoteEntity)
+  - CRMScript.NetServer.NSQuoteAgent.SaveQuoteLine(NSQuoteLine)
+  - CRMScript.NetServer.NSQuoteAgent.SaveQuoteLineConfiguration(NSQuoteLineConfiguration)
+  - CRMScript.NetServer.NSQuoteAgent.SaveQuoteLineConfigurations()
+  - CRMScript.NetServer.NSQuoteAgent.SaveQuoteLineImage(Integer,NSImage,Integer)
+  - CRMScript.NetServer.NSQuoteAgent.SaveQuoteLines(NSQuoteLine[])
+  - CRMScript.NetServer.NSQuoteAgent.SaveQuoteVersion(NSQuoteVersion)
+  - CRMScript.NetServer.NSQuoteAgent.SaveQuoteVersionNumber(Integer,String)
+  - CRMScript.NetServer.NSQuoteAgent.SendQuoteVersion(Integer,DateTime,DateTime,String,String)
+  - CRMScript.NetServer.NSQuoteAgent.TestConnection(String)
+  - CRMScript.NetServer.NSQuoteAgent.ToggleProductInAssortment(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.ToggleQuoteVersionAttachmentIncluded(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.ToggleSaleTypeQuoteAttachmentDefaultIncluded(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.UpdateQuoteVersionPrices(Integer)
+  - CRMScript.NetServer.NSQuoteAgent.ValidateQuoteVersion(Integer,Integer)
+  name: NSQuoteAgent
+  nameWithType: NSQuoteAgent
+  fullName: CRMScript.NetServer.NSQuoteAgent
+  type: Class
+  summary: "\nServices for the Quote Management feature, part of the Sale module.\n"
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSQuoteAgent
+  langs:
+  - crmscript
+  name: NSQuoteAgent()
+  nameWithType: NSQuoteAgent.#ctor
+  fullName: CRMScript.NetServer.NSQuoteAgent.#ctor
+  type: Constructor
+  summary: "\nServices for the Quote Management feature, part of the Sale module.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteAgent
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.AddSaleTypeQuoteAttachment(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.AddSaleTypeQuoteAttachment(Integer,Integer)
+  id: 'AddSaleTypeQuoteAttachment(Integer,Integer)'
+  so.intellisense: NSQuoteAgent.AddSaleTypeQuoteAttachment
+  langs:
+  - crmscript
+  name: 'AddSaleTypeQuoteAttachment(Integer,Integer)'
+  nameWithType: NSQuoteAgent.AddSaleTypeQuoteAttachment(Integer,Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.AddSaleTypeQuoteAttachment(Integer,Integer)
+  type: Method
+  summary: "\nAdds a new quote attachment document to a sale type\n"
+  remarks: 
+  syntax: 
+    content: Integer AddSaleTypeQuoteAttachment(Integer saleTypeId, Integer documentId)
+    parameters:
+    - id: saleTypeId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger saleTypeId;\nInteger documentId;\nInteger res = agent.AddSaleTypeQuoteAttachment(saleTypeId, documentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.ApproveQuoteVersion(Integer,String,Integer,String)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.ApproveQuoteVersion(Integer,String,Integer,String)
+  id: 'ApproveQuoteVersion(Integer,String,Integer,String)'
+  so.intellisense: NSQuoteAgent.ApproveQuoteVersion
+  langs:
+  - crmscript
+  name: 'ApproveQuoteVersion(Integer,String,Integer,String)'
+  nameWithType: NSQuoteAgent.ApproveQuoteVersion(Integer,String,Integer,String)
+  fullName: CRMScript.NetServer.NSQuoteAgent.ApproveQuoteVersion(Integer,String,Integer,String)
+  type: Method
+  summary: "\nApproves a quote version\n"
+  remarks: 
+  syntax: 
+    content: NSApproveRejectResponse ApproveQuoteVersion(Integer quoteVersionId, String approvedByText, Integer approvedByAssociateId, String approvalText)
+    parameters:
+    - id: quoteVersionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: approvedByText
+      type: CRMScript.Global.String
+      description: 
+    - id: approvedByAssociateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: approvalText
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSApproveRejectResponse
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteVersionId;\nString approvedByText;\nInteger approvedByAssociateId;\nString approvalText;\nNSApproveRejectResponse res = agent.ApproveQuoteVersion(quoteVersionId, approvedByText, approvedByAssociateId, approvalText);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.CanConnectorProvideCapability(Integer,String)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.CanConnectorProvideCapability(Integer,String)
+  id: 'CanConnectorProvideCapability(Integer,String)'
+  so.intellisense: NSQuoteAgent.CanConnectorProvideCapability
+  langs:
+  - crmscript
+  name: 'CanConnectorProvideCapability(Integer,String)'
+  nameWithType: NSQuoteAgent.CanConnectorProvideCapability(Integer,String)
+  fullName: CRMScript.NetServer.NSQuoteAgent.CanConnectorProvideCapability(Integer,String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool CanConnectorProvideCapability(Integer quoteConnectionId, String capabilityName)
+    parameters:
+    - id: quoteConnectionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: capabilityName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description: "Can the connector provide the capability."
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteConnectionId;\nString capabilityName;\nBool res = agent.CanConnectorProvideCapability(quoteConnectionId, capabilityName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.CopyQuoteAlternative(Integer,Integer,String)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.CopyQuoteAlternative(Integer,Integer,String)
+  id: 'CopyQuoteAlternative(Integer,Integer,String)'
+  so.intellisense: NSQuoteAgent.CopyQuoteAlternative
+  langs:
+  - crmscript
+  name: 'CopyQuoteAlternative(Integer,Integer,String)'
+  nameWithType: NSQuoteAgent.CopyQuoteAlternative(Integer,Integer,String)
+  fullName: CRMScript.NetServer.NSQuoteAgent.CopyQuoteAlternative(Integer,Integer,String)
+  type: Method
+  summary: "\nCopies a quote alternative from the same sale and adds it to a version.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteAlternative CopyQuoteAlternative(Integer quoteVersionId, Integer quoteAlternativeId, String quoteAlternativeName)
+    parameters:
+    - id: quoteVersionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: quoteAlternativeId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: quoteAlternativeName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteAlternative
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteVersionId;\nInteger quoteAlternativeId;\nString quoteAlternativeName;\nNSQuoteAlternative res = agent.CopyQuoteAlternative(quoteVersionId, quoteAlternativeId, quoteAlternativeName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.CopySuperOfficePriceList(Integer,String,DateTime,DateTime,Integer,Bool)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.CopySuperOfficePriceList(Integer,String,DateTime,DateTime,Integer,Bool)
+  id: 'CopySuperOfficePriceList(Integer,String,DateTime,DateTime,Integer,Bool)'
+  so.intellisense: NSQuoteAgent.CopySuperOfficePriceList
+  langs:
+  - crmscript
+  name: 'CopySuperOfficePriceList(Integer,String,DateTime,DateTime,Integer,Bool)'
+  nameWithType: NSQuoteAgent.CopySuperOfficePriceList(Integer,String,DateTime,DateTime,Integer,Bool)
+  fullName: CRMScript.NetServer.NSQuoteAgent.CopySuperOfficePriceList(Integer,String,DateTime,DateTime,Integer,Bool)
+  type: Method
+  summary: "\nCreates a copy of a PriceList in the SuperOffice database\n"
+  remarks: 
+  syntax: 
+    content: NSPriceList CopySuperOfficePriceList(Integer originalPriceListId, String newName, DateTime validFrom, DateTime validTo, Integer newCurrencyId, Bool convertCurrency)
+    parameters:
+    - id: originalPriceListId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: newName
+      type: CRMScript.Global.String
+      description: 
+    - id: validFrom
+      type: CRMScript.Global.DateTime
+      description: 
+    - id: validTo
+      type: CRMScript.Global.DateTime
+      description:
+    - id: newCurrencyId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: convertCurrency
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPriceList
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger originalPriceListId;\nString newName;\nDateTime validFrom;\nDateTime validTo;\nInteger newCurrencyId;\nBool convertCurrency;\nNSPriceList res = agent.CopySuperOfficePriceList(originalPriceListId, newName, validFrom, validTo, newCurrencyId, convertCurrency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.CreateAndSaveQuote(Integer,Integer,String)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.CreateAndSaveQuote(Integer,Integer,String)
+  id: 'CreateAndSaveQuote(Integer,Integer,String)'
+  so.intellisense: NSQuoteAgent.CreateAndSaveQuote
+  langs:
+  - crmscript
+  name: 'CreateAndSaveQuote(Integer,Integer,String)'
+  nameWithType: NSQuoteAgent.CreateAndSaveQuote(Integer,Integer,String)
+  fullName: CRMScript.NetServer.NSQuoteAgent.CreateAndSaveQuote(Integer,Integer,String)
+  type: Method
+  summary: "\nCreates a new quote on a sale.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteEntity CreateAndSaveQuote(Integer saleId, Integer connectionId, String firstAlternativeName)
+    parameters:
+    - id: saleId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: connectionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: firstAlternativeName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteEntity
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger saleId;\nInteger connectionId;\nString firstAlternativeName;\nNSQuoteEntity res = agent.CreateAndSaveQuote(saleId, connectionId, firstAlternativeName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.CreateAndSaveQuoteFromSale(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.CreateAndSaveQuoteFromSale(Integer,Integer)
+  id: 'CreateAndSaveQuoteFromSale(Integer,Integer)'
+  so.intellisense: NSQuoteAgent.CreateAndSaveQuoteFromSale
+  langs:
+  - crmscript
+  name: 'CreateAndSaveQuoteFromSale(Integer,Integer)'
+  nameWithType: NSQuoteAgent.CreateAndSaveQuoteFromSale(Integer,Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.CreateAndSaveQuoteFromSale(Integer,Integer)
+  type: Method
+  summary: "\nCreates a copy the active version with connected alternatives and quotelines from another sale.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteEntity CreateAndSaveQuoteFromSale(Integer copyFromSaleId, Integer copyToSaleId)
+    parameters:
+    - id: copyFromSaleId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: copyToSaleId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteEntity
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger copyFromSaleId;\nInteger copyToSaleId;\nNSQuoteEntity res = agent.CreateAndSaveQuoteFromSale(copyFromSaleId, copyToSaleId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.CreateAndSaveQuoteVersion(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.CreateAndSaveQuoteVersion(Integer)
+  id: 'CreateAndSaveQuoteVersion(Integer)'
+  so.intellisense: NSQuoteAgent.CreateAndSaveQuoteVersion
+  langs:
+  - crmscript
+  name: 'CreateAndSaveQuoteVersion(Integer)'
+  nameWithType: NSQuoteAgent.CreateAndSaveQuoteVersion(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.CreateAndSaveQuoteVersion(Integer)
+  type: Method
+  summary: "\nCreated a new NSQuoteVersion based on another NSQuoteVersion on the same Quote.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteVersion CreateAndSaveQuoteVersion(Integer quoteVersionId)
+    parameters:
+    - id: quoteVersionId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteVersion
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteVersionId;\nNSQuoteVersion res = agent.CreateAndSaveQuoteVersion(quoteVersionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.CreateConnectionFromConnectorName(String)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.CreateConnectionFromConnectorName(String)
+  id: 'CreateConnectionFromConnectorName(String)'
+  so.intellisense: NSQuoteAgent.CreateConnectionFromConnectorName
+  langs:
+  - crmscript
+  name: 'CreateConnectionFromConnectorName(String)'
+  nameWithType: NSQuoteAgent.CreateConnectionFromConnectorName(String)
+  fullName: CRMScript.NetServer.NSQuoteAgent.CreateConnectionFromConnectorName(String)
+  type: Method
+  summary: "\nCreates a new connection.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteConnection CreateConnectionFromConnectorName(String connectorName)
+    parameters:
+    - id: connectorName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteConnection
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nString connectorName;\nNSQuoteConnection res = agent.CreateConnectionFromConnectorName(connectorName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.CreateDefaultPriceList()
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.CreateDefaultPriceList()
+  id: 'CreateDefaultPriceList()'
+  so.intellisense: NSQuoteAgent.CreateDefaultPriceList
+  langs:
+  - crmscript
+  name: 'CreateDefaultPriceList()'
+  nameWithType: NSQuoteAgent.CreateDefaultPriceList()
+  fullName: CRMScript.NetServer.NSQuoteAgent.CreateDefaultPriceList()
+  type: Method
+  summary: "\nSets default values into a new NSPriceList.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSPriceList CreateDefaultPriceList()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSPriceList
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nNSPriceList thing = agent.CreateDefaultPriceList();\nthing = agent.SavePriceList(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.CreateDefaultProduct()
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.CreateDefaultProduct()
+  id: 'CreateDefaultProduct()'
+  so.intellisense: NSQuoteAgent.CreateDefaultProduct
+  langs:
+  - crmscript
+  name: 'CreateDefaultProduct()'
+  nameWithType: NSQuoteAgent.CreateDefaultProduct()
+  fullName: CRMScript.NetServer.NSQuoteAgent.CreateDefaultProduct()
+  type: Method
+  summary: "\nSets default values into a new NSProduct.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSProduct CreateDefaultProduct()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSProduct
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nNSProduct thing = agent.CreateDefaultProduct();\nthing = agent.SaveProduct(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.CreateDefaultQuoteAlternative()
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.CreateDefaultQuoteAlternative()
+  id: 'CreateDefaultQuoteAlternative()'
+  so.intellisense: NSQuoteAgent.CreateDefaultQuoteAlternative
+  langs:
+  - crmscript
+  name: 'CreateDefaultQuoteAlternative()'
+  nameWithType: NSQuoteAgent.CreateDefaultQuoteAlternative()
+  fullName: CRMScript.NetServer.NSQuoteAgent.CreateDefaultQuoteAlternative()
+  type: Method
+  summary: "\nSets default values into a new NSQuoteAlternative.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSQuoteAlternative CreateDefaultQuoteAlternative()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSQuoteAlternative
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nNSQuoteAlternative thing = agent.CreateDefaultQuoteAlternative();\nthing = agent.SaveQuoteAlternative(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.CreateOrUpdateQuoteVersionAttachments(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.CreateOrUpdateQuoteVersionAttachments(Integer)
+  id: 'CreateOrUpdateQuoteVersionAttachments(Integer)'
+  so.intellisense: NSQuoteAgent.CreateOrUpdateQuoteVersionAttachments
+  langs:
+  - crmscript
+  name: 'CreateOrUpdateQuoteVersionAttachments(Integer)'
+  nameWithType: NSQuoteAgent.CreateOrUpdateQuoteVersionAttachments(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.CreateOrUpdateQuoteVersionAttachments(Integer)
+  type: Method
+  summary: "\nLooks at the Quote version, related sale and sale type, and ensures that the correct NSQuoteVersionAttachment records exist. This method may create or delete records\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteVersionAttachment[] CreateOrUpdateQuoteVersionAttachments(Integer quoteVersionId)
+    parameters:
+    - id: quoteVersionId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteVersionAttachment[]
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteVersionId;\nNSQuoteVersionAttachment[] res = agent.CreateOrUpdateQuoteVersionAttachments(quoteVersionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.CreateQuoteAlternative(Integer,String,String)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.CreateQuoteAlternative(Integer,String,String)
+  id: 'CreateQuoteAlternative(Integer,String,String)'
+  so.intellisense: NSQuoteAgent.CreateQuoteAlternative
+  langs:
+  - crmscript
+  name: 'CreateQuoteAlternative(Integer,String,String)'
+  nameWithType: NSQuoteAgent.CreateQuoteAlternative(Integer,String,String)
+  fullName: CRMScript.NetServer.NSQuoteAgent.CreateQuoteAlternative(Integer,String,String)
+  type: Method
+  summary: "\nCreates a new quote alternative on a version.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteAlternative CreateQuoteAlternative(Integer quoteVersionId, String quoteAlternativeName, String quoteAlternativeDescription)
+    parameters:
+    - id: quoteVersionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: quoteAlternativeName
+      type: CRMScript.Global.String
+      description: 
+    - id: quoteAlternativeDescription
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteAlternative
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteVersionId;\nString quoteAlternativeName;\nString quoteAlternativeDescription;\nNSQuoteAlternative res = agent.CreateQuoteAlternative(quoteVersionId, quoteAlternativeName, quoteAlternativeDescription);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.CreateQuoteLine(Integer,String)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.CreateQuoteLine(Integer,String)
+  id: 'CreateQuoteLine(Integer,String)'
+  so.intellisense: NSQuoteAgent.CreateQuoteLine
+  langs:
+  - crmscript
+  name: 'CreateQuoteLine(Integer,String)'
+  nameWithType: NSQuoteAgent.CreateQuoteLine(Integer,String)
+  fullName: CRMScript.NetServer.NSQuoteAgent.CreateQuoteLine(Integer,String)
+  type: Method
+  summary: "\nCreates a quoteline based on a product key.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteLine CreateQuoteLine(Integer quoteAlternativeId, String eRPProductKey)
+    parameters:
+    - id: quoteAlternativeId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: eRPProductKey
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteLine
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteAlternativeId;\nString eRPProductKey;\nNSQuoteLine res = agent.CreateQuoteLine(quoteAlternativeId, eRPProductKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.CreateQuoteLineFromProduct(Integer,NSProduct)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.CreateQuoteLineFromProduct(Integer,NSProduct)
+  id: 'CreateQuoteLineFromProduct(Integer,NSProduct)'
+  so.intellisense: NSQuoteAgent.CreateQuoteLineFromProduct
+  langs:
+  - crmscript
+  name: 'CreateQuoteLineFromProduct(Integer,NSProduct)'
+  nameWithType: NSQuoteAgent.CreateQuoteLineFromProduct(Integer,NSProduct)
+  fullName: CRMScript.NetServer.NSQuoteAgent.CreateQuoteLineFromProduct(Integer,NSProduct)
+  type: Method
+  summary: "\nCreates a quoteline based on a product.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteLine CreateQuoteLineFromProduct(Integer quoteAlternativeId, NSProduct product)
+    parameters:
+    - id: quoteAlternativeId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: product
+      type: CRMScript.NetServer.NSProduct
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteLine
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteAlternativeId;\nNSProduct product;\nNSQuoteLine res = agent.CreateQuoteLineFromProduct(quoteAlternativeId, product);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.DeleteConnection(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.DeleteConnection(Integer)
+  id: 'DeleteConnection(Integer)'
+  so.intellisense: NSQuoteAgent.DeleteConnection
+  langs:
+  - crmscript
+  name: 'DeleteConnection(Integer)'
+  nameWithType: NSQuoteAgent.DeleteConnection(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.DeleteConnection(Integer)
+  type: Method
+  summary: "\nMarks a connection as deleted.\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteConnection(Integer quoteConnectionId)
+    parameters:
+    - id: quoteConnectionId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteConnectionId;\nagent.DeleteConnection(quoteConnectionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.DeletePriceList(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.DeletePriceList(Integer)
+  id: 'DeletePriceList(Integer)'
+  so.intellisense: NSQuoteAgent.DeletePriceList
+  langs:
+  - crmscript
+  name: 'DeletePriceList(Integer)'
+  nameWithType: NSQuoteAgent.DeletePriceList(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.DeletePriceList(Integer)
+  type: Method
+  summary: "\nDeletes the NSPriceList\n"
+  remarks: 
+  syntax: 
+    content: Void DeletePriceList(Integer priceList)
+    parameters:
+    - id: priceList
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nagent.DeletePriceList(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.DeleteProduct(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.DeleteProduct(Integer)
+  id: 'DeleteProduct(Integer)'
+  so.intellisense: NSQuoteAgent.DeleteProduct
+  langs:
+  - crmscript
+  name: 'DeleteProduct(Integer)'
+  nameWithType: NSQuoteAgent.DeleteProduct(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.DeleteProduct(Integer)
+  type: Method
+  summary: "\nDeletes the NSProduct\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteProduct(Integer product)
+    parameters:
+    - id: product
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nagent.DeleteProduct(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.DeleteQuote(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.DeleteQuote(Integer)
+  id: 'DeleteQuote(Integer)'
+  so.intellisense: NSQuoteAgent.DeleteQuote
+  langs:
+  - crmscript
+  name: 'DeleteQuote(Integer)'
+  nameWithType: NSQuoteAgent.DeleteQuote(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.DeleteQuote(Integer)
+  type: Method
+  summary: "\nDeletes a Quote\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteQuote(Integer quoteId)
+    parameters:
+    - id: quoteId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSQuoteAgent.DeleteQuoteAlternative(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.DeleteQuoteAlternative(Integer)
+  id: 'DeleteQuoteAlternative(Integer)'
+  so.intellisense: NSQuoteAgent.DeleteQuoteAlternative
+  langs:
+  - crmscript
+  name: 'DeleteQuoteAlternative(Integer)'
+  nameWithType: NSQuoteAgent.DeleteQuoteAlternative(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.DeleteQuoteAlternative(Integer)
+  type: Method
+  summary: "\nDeletes a quote alternative\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteQuoteAlternative(Integer quoteAlternativeId)
+    parameters:
+    - id: quoteAlternativeId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteAlternativeId;\nagent.DeleteQuoteAlternative(quoteAlternativeId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.DeleteQuoteLine(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.DeleteQuoteLine(Integer)
+  id: 'DeleteQuoteLine(Integer)'
+  so.intellisense: NSQuoteAgent.DeleteQuoteLine
+  langs:
+  - crmscript
+  name: 'DeleteQuoteLine(Integer)'
+  nameWithType: NSQuoteAgent.DeleteQuoteLine(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.DeleteQuoteLine(Integer)
+  type: Method
+  summary: "\nDeletes the QuoteLine in the SuperOffice database\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteQuoteLine(Integer quoteLineId)
+    parameters:
+    - id: quoteLineId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteLineId;\nagent.DeleteQuoteLine(quoteLineId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.DeleteQuoteLines(Integer[])
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.DeleteQuoteLines(Integer[])
+  id: 'DeleteQuoteLines(Integer[])'
+  so.intellisense: NSQuoteAgent.DeleteQuoteLines
+  langs:
+  - crmscript
+  name: 'DeleteQuoteLines(Integer[])'
+  nameWithType: NSQuoteAgent.DeleteQuoteLines(Integer[])
+  fullName: CRMScript.NetServer.NSQuoteAgent.DeleteQuoteLines(Integer[])
+  type: Method
+  summary: "\nDeletes the QuoteLines in the SuperOffice database\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteQuoteLines(Integer[] quoteLineIds)
+    parameters:
+    - id: quoteLineIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger[] quoteLineIds;\nagent.DeleteQuoteLines(quoteLineIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.DeleteSaleTypeQuoteAttachment(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.DeleteSaleTypeQuoteAttachment(Integer)
+  id: 'DeleteSaleTypeQuoteAttachment(Integer)'
+  so.intellisense: NSQuoteAgent.DeleteSaleTypeQuoteAttachment
+  langs:
+  - crmscript
+  name: 'DeleteSaleTypeQuoteAttachment(Integer)'
+  nameWithType: NSQuoteAgent.DeleteSaleTypeQuoteAttachment(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.DeleteSaleTypeQuoteAttachment(Integer)
+  type: Method
+  summary: "\nDeletes the sale type quote attachment with the given ID\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteSaleTypeQuoteAttachment(Integer saleTypeQuoteAttachmentId)
+    parameters:
+    - id: saleTypeQuoteAttachmentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSQuoteAgent.FindProduct(Integer,String,String)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.FindProduct(Integer,String,String)
+  id: 'FindProduct(Integer,String,String)'
+  so.intellisense: NSQuoteAgent.FindProduct
+  langs:
+  - crmscript
+  name: 'FindProduct(Integer,String,String)'
+  nameWithType: NSQuoteAgent.FindProduct(Integer,String,String)
+  fullName: CRMScript.NetServer.NSQuoteAgent.FindProduct(Integer,String,String)
+  type: Method
+  summary: "\nGets a product, from the ProductProvider\n"
+  remarks: 
+  syntax: 
+    content: NSProduct[] FindProduct(Integer quoteAlternativeId, String userInput, String priceListKey)
+    parameters:
+    - id: quoteAlternativeId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: userInput
+      type: CRMScript.Global.String
+      description: 
+    - id: priceListKey
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSProduct[]
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteAlternativeId;\nString userInput;\nString priceListKey;\nNSProduct[] res = agent.FindProduct(quoteAlternativeId, userInput, priceListKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GenerateQuoteDocuments(Integer,Integer,Bool,Integer,Bool,String)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GenerateQuoteDocuments(Integer,Integer,Bool,Integer,Bool,String)
+  id: 'GenerateQuoteDocuments(Integer,Integer,Bool,Integer,Bool,String)'
+  so.intellisense: NSQuoteAgent.GenerateQuoteDocuments
+  langs:
+  - crmscript
+  name: 'GenerateQuoteDocuments(Integer,Integer,Bool,Integer,Bool,String)'
+  nameWithType: NSQuoteAgent.GenerateQuoteDocuments(Integer,Integer,Bool,Integer,Bool,String)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GenerateQuoteDocuments(Integer,Integer,Bool,Integer,Bool,String)
+  type: Method
+  summary: "\nGenerate all the documents required to send the Quote as an email to the prospect, or an Order Confirmation; it just depends on the template IDs for the lines doc and mail body.\n"
+  remarks: "\nQuote version status is not changed by this method.\n"
+  syntax: 
+    content: NSQuotePublishDocuments GenerateQuoteDocuments(Integer quoteVersionId, Integer emailBodyTemplateId, Bool attachMainDocument, Integer quotedProductsTemplateId, Bool includeAttachments, String rawMailSubject)
+    parameters:
+    - id: quoteVersionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: emailBodyTemplateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: attachMainDocument
+      type: CRMScript.Global.Bool
+      description: 
+    - id: quotedProductsTemplateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: includeAttachments
+      type: CRMScript.Global.Bool
+      description: 
+    - id: rawMailSubject
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuotePublishDocuments
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteVersionId;\nInteger emailBodyTemplateId;\nBool attachMainDocument;\nInteger quotedProductsTemplateId;\nBool includeAttachments;\nString rawMailSubject;\nNSQuotePublishDocuments res = agent.GenerateQuoteDocuments(quoteVersionId, emailBodyTemplateId, attachMainDocument, quotedProductsTemplateId, includeAttachments, rawMailSubject);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetActivePriceLists(Integer,String)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetActivePriceLists(Integer,String)
+  id: 'GetActivePriceLists(Integer,String)'
+  so.intellisense: NSQuoteAgent.GetActivePriceLists
+  langs:
+  - crmscript
+  name: 'GetActivePriceLists(Integer,String)'
+  nameWithType: NSQuoteAgent.GetActivePriceLists(Integer,String)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetActivePriceLists(Integer,String)
+  type: Method
+  summary: "\nGets the available active PriceLists in a specific currency.\n"
+  remarks: 
+  syntax: 
+    content: NSPriceList[] GetActivePriceLists(Integer quoteConnectionId, String currency)
+    parameters:
+    - id: quoteConnectionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: currency
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPriceList[]
+      description: "Will return empty array if there is no PriceList with the stated currency available."
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteConnectionId;\nString currency;\nNSPriceList[] res = agent.GetActivePriceLists(quoteConnectionId, currency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetActivePriceListsByCurrencyId(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetActivePriceListsByCurrencyId(Integer,Integer)
+  id: 'GetActivePriceListsByCurrencyId(Integer,Integer)'
+  so.intellisense: NSQuoteAgent.GetActivePriceListsByCurrencyId
+  langs:
+  - crmscript
+  name: 'GetActivePriceListsByCurrencyId(Integer,Integer)'
+  nameWithType: NSQuoteAgent.GetActivePriceListsByCurrencyId(Integer,Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetActivePriceListsByCurrencyId(Integer,Integer)
+  type: Method
+  summary: "\nGets the available active PriceLists in a specific currency.\n"
+  remarks: 
+  syntax: 
+    content: NSPriceList[] GetActivePriceListsByCurrencyId(Integer quoteConnectionId, Integer currencyId)
+    parameters:
+    - id: quoteConnectionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: currencyId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPriceList[]
+      description: "Will return empty array if there is no PriceList with the stated currency available."
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteConnectionId;\nInteger currencyId;\nNSPriceList[] res = agent.GetActivePriceListsByCurrencyId(quoteConnectionId, currencyId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetAllAvailableQuoteConnections()
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetAllAvailableQuoteConnections()
+  id: 'GetAllAvailableQuoteConnections()'
+  so.intellisense: NSQuoteAgent.GetAllAvailableQuoteConnections
+  langs:
+  - crmscript
+  name: 'GetAllAvailableQuoteConnections()'
+  nameWithType: NSQuoteAgent.GetAllAvailableQuoteConnections()
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetAllAvailableQuoteConnections()
+  type: Method
+  summary: "\nGets all available connections. Some installed connections may not be available to the user.\n"
+  remarks: "\nUse GetAllAvailableQuoteConnectionsWithPriceLists if you need the price lists on the connections as well.\n"
+  syntax: 
+    content: NSQuoteConnection[] GetAllAvailableQuoteConnections()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSQuoteConnection[]
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nNSQuoteConnection[] res = agent.GetAllAvailableQuoteConnections();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetAllAvailableQuoteConnectionsWithPriceLists()
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetAllAvailableQuoteConnectionsWithPriceLists()
+  id: 'GetAllAvailableQuoteConnectionsWithPriceLists()'
+  so.intellisense: NSQuoteAgent.GetAllAvailableQuoteConnectionsWithPriceLists
+  langs:
+  - crmscript
+  name: 'GetAllAvailableQuoteConnectionsWithPriceLists()'
+  nameWithType: NSQuoteAgent.GetAllAvailableQuoteConnectionsWithPriceLists()
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetAllAvailableQuoteConnectionsWithPriceLists()
+  type: Method
+  summary: "\nGets all available connections. Some installed connections may not be available to the user. Includes price lists for the connection.\n"
+  remarks: "\nThis is a heavy call\n"
+  syntax: 
+    content: NSQuoteConnection[] GetAllAvailableQuoteConnectionsWithPriceLists()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSQuoteConnection[]
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nNSQuoteConnection[] res = agent.GetAllAvailableQuoteConnectionsWithPriceLists();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetAllInstalledQuoteConnections()
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetAllInstalledQuoteConnections()
+  id: 'GetAllInstalledQuoteConnections()'
+  so.intellisense: NSQuoteAgent.GetAllInstalledQuoteConnections
+  langs:
+  - crmscript
+  name: 'GetAllInstalledQuoteConnections()'
+  nameWithType: NSQuoteAgent.GetAllInstalledQuoteConnections()
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetAllInstalledQuoteConnections()
+  type: Method
+  summary: "\nGets all installed connections. Some installed connections may not be available to the user.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteConnection[] GetAllInstalledQuoteConnections()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSQuoteConnection[]
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nNSQuoteConnection[] res = agent.GetAllInstalledQuoteConnections();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetAllPriceLists(Integer,String)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetAllPriceLists(Integer,String)
+  id: 'GetAllPriceLists(Integer,String)'
+  so.intellisense: NSQuoteAgent.GetAllPriceLists
+  langs:
+  - crmscript
+  name: 'GetAllPriceLists(Integer,String)'
+  nameWithType: NSQuoteAgent.GetAllPriceLists(Integer,String)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetAllPriceLists(Integer,String)
+  type: Method
+  summary: "\nGets the all PriceLists in all currencies, including those inactive.\n"
+  remarks: 
+  syntax: 
+    content: NSPriceList[] GetAllPriceLists(Integer quoteConnectionId, String currency)
+    parameters:
+    - id: quoteConnectionId
+      type: CRMScript.Global.Integer
+      description: "Primary key of the connection"
+    - id: currency
+      type: CRMScript.Global.String
+      description: "Iso currency like USD or NOK. See http://www.currency-iso.org/dl_iso_table_a1.xls for details. Case insensitive."
+    return:
+      type: CRMScript.NetServer.NSPriceList[]
+      description: "Will return an empty array if there is no PriceList with the stated currency available."
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteConnectionId;\nString currency;\nNSPriceList[] res = agent.GetAllPriceLists(quoteConnectionId, currency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetAllPriceListsByCurrencyId(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetAllPriceListsByCurrencyId(Integer,Integer)
+  id: 'GetAllPriceListsByCurrencyId(Integer,Integer)'
+  so.intellisense: NSQuoteAgent.GetAllPriceListsByCurrencyId
+  langs:
+  - crmscript
+  name: 'GetAllPriceListsByCurrencyId(Integer,Integer)'
+  nameWithType: NSQuoteAgent.GetAllPriceListsByCurrencyId(Integer,Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetAllPriceListsByCurrencyId(Integer,Integer)
+  type: Method
+  summary: "\nGets the all PriceLists in all currencies, including those inactive.\n"
+  remarks: 
+  syntax: 
+    content: NSPriceList[] GetAllPriceListsByCurrencyId(Integer quoteConnectionId, Integer currencyId)
+    parameters:
+    - id: quoteConnectionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: currencyId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPriceList[]
+      description: "Will return empty array if there is no PriceList available."
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteConnectionId;\nInteger currencyId;\nNSPriceList[] res = agent.GetAllPriceListsByCurrencyId(quoteConnectionId, currencyId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetAllQuoteLineConfigurations()
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetAllQuoteLineConfigurations()
+  id: 'GetAllQuoteLineConfigurations()'
+  so.intellisense: NSQuoteAgent.GetAllQuoteLineConfigurations
+  langs:
+  - crmscript
+  name: 'GetAllQuoteLineConfigurations()'
+  nameWithType: NSQuoteAgent.GetAllQuoteLineConfigurations()
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetAllQuoteLineConfigurations()
+  type: Method
+  summary: "\nReturns all the configuration fields\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteLineConfiguration[] GetAllQuoteLineConfigurations()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSQuoteLineConfiguration[]
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nNSQuoteLineConfiguration[] res = agent.GetAllQuoteLineConfigurations();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetConfigurationFields(Integer,String)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetConfigurationFields(Integer,String)
+  id: 'GetConfigurationFields(Integer,String)'
+  so.intellisense: NSQuoteAgent.GetConfigurationFields
+  langs:
+  - crmscript
+  name: 'GetConfigurationFields(Integer,String)'
+  nameWithType: NSQuoteAgent.GetConfigurationFields(Integer,String)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetConfigurationFields(Integer,String)
+  type: Method
+  summary: "\nUsed by ADMIN. Asks for metadata needed to populate admin dialog that takes in the information needed to create a connection to an ERP system. The values entered in the dialog are stored in the SuperOffice database and used when InitializeConnector is called by the client.\n"
+  remarks: 
+  syntax: 
+    content: Map GetConfigurationFields()
+    parameters:
+    - id: connectionId
+      type: CRMScript.Global.Integer
+      description: "ID of an existing connection, if any. Initializes connection with current config values if non-zero."
+    - id: connectorName
+      type: CRMScript.Global.String
+      description: "Name of the connector. Ignored if connectionId is non-zero."
+    return:
+      type: CRMScript.Native.Map
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger connectionId;\nString connectorName;\nMap res = agent.GetConfigurationFields(connectionId, connectorName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetConnection(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetConnection(Integer)
+  id: 'GetConnection(Integer)'
+  so.intellisense: NSQuoteAgent.GetConnection
+  langs:
+  - crmscript
+  name: 'GetConnection(Integer)'
+  nameWithType: NSQuoteAgent.GetConnection(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetConnection(Integer)
+  type: Method
+  summary: "\nReturns the specified connection.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteConnection GetConnection(Integer quoteConnectionId)
+    parameters:
+    - id: quoteConnectionId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteConnection
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteConnectionId;\nNSQuoteConnection res = agent.GetConnection(quoteConnectionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetConnectionConfigFields(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetConnectionConfigFields(Integer)
+  id: 'GetConnectionConfigFields(Integer)'
+  so.intellisense: NSQuoteAgent.GetConnectionConfigFields
+  langs:
+  - crmscript
+  name: 'GetConnectionConfigFields(Integer)'
+  nameWithType: NSQuoteAgent.GetConnectionConfigFields(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetConnectionConfigFields(Integer)
+  type: Method
+  summary: "\nReturns the config fields for the connection.\n"
+  remarks: 
+  syntax: 
+    content: Map GetConnectionConfigFields(Integer quoteConnectionId)
+    parameters:
+    - id: quoteConnectionId
+      type: CRMScript.Global.Integer
+      description: "Primary key of the connection."
+    return:
+      type: CRMScript.Native.Map
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteConnectionId;\nMap res = agent.GetConnectionConfigFields(quoteConnectionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetConnectionsForAssociate(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetConnectionsForAssociate(Integer)
+  id: 'GetConnectionsForAssociate(Integer)'
+  so.intellisense: NSQuoteAgent.GetConnectionsForAssociate
+  langs:
+  - crmscript
+  name: 'GetConnectionsForAssociate(Integer)'
+  nameWithType: NSQuoteAgent.GetConnectionsForAssociate(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetConnectionsForAssociate(Integer)
+  type: Method
+  summary: "\nReturns all connections available for the specified user.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteConnection[] GetConnectionsForAssociate(Integer associateId)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteConnection[]
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger associateId;\nNSQuoteConnection[] res = agent.GetConnectionsForAssociate(associateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetConnectionStartupErrors()
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetConnectionStartupErrors()
+  id: 'GetConnectionStartupErrors()'
+  so.intellisense: NSQuoteAgent.GetConnectionStartupErrors
+  langs:
+  - crmscript
+  name: 'GetConnectionStartupErrors()'
+  nameWithType: NSQuoteAgent.GetConnectionStartupErrors()
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetConnectionStartupErrors()
+  type: Method
+  summary: "\nReturns an array of PluginResponseInfos for all failed connection initializations.\n"
+  remarks: 
+  syntax: 
+    content: NSPluginResponse[] GetConnectionStartupErrors()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSPluginResponse[]
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nNSPluginResponse[] res = agent.GetConnectionStartupErrors();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetConnectionStartupResponse(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetConnectionStartupResponse(Integer)
+  id: 'GetConnectionStartupResponse(Integer)'
+  so.intellisense: NSQuoteAgent.GetConnectionStartupResponse
+  langs:
+  - crmscript
+  name: 'GetConnectionStartupResponse(Integer)'
+  nameWithType: NSQuoteAgent.GetConnectionStartupResponse(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetConnectionStartupResponse(Integer)
+  type: Method
+  summary: "\nReturns the PluginResponseInfo for the connection initialization.\n"
+  remarks: "\nDoes not initialize the connection, just returns what happened when initialize was called.\n"
+  syntax: 
+    content: NSPluginResponse GetConnectionStartupResponse(Integer quoteConnectionId)
+    parameters:
+    - id: quoteConnectionId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPluginResponse
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteConnectionId;\nNSPluginResponse res = agent.GetConnectionStartupResponse(quoteConnectionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetConnectorCapabilities(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetConnectorCapabilities(Integer)
+  id: 'GetConnectorCapabilities(Integer)'
+  so.intellisense: NSQuoteAgent.GetConnectorCapabilities
+  langs:
+  - crmscript
+  name: 'GetConnectorCapabilities(Integer)'
+  nameWithType: NSQuoteAgent.GetConnectorCapabilities(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetConnectorCapabilities(Integer)
+  type: Method
+  summary: "\nGets a list of connector capabilities\n"
+  remarks: 
+  syntax: 
+    content: String[] GetConnectorCapabilities(Integer quoteConnectionId)
+    parameters:
+    - id: quoteConnectionId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.String[]
+      description:
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteConnectionId;\nString[] res = agent.GetConnectorCapabilities(quoteConnectionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetConnectorCapabilityNames(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetConnectorCapabilityNames(Integer)
+  id: 'GetConnectorCapabilityNames(Integer)'
+  so.intellisense: NSQuoteAgent.GetConnectorCapabilityNames
+  langs:
+  - crmscript
+  name: 'GetConnectorCapabilityNames(Integer)'
+  nameWithType: NSQuoteAgent.GetConnectorCapabilityNames(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetConnectorCapabilityNames(Integer)
+  type: Method
+  summary: "\nGets a list of all possible connector capabilities\n"
+  remarks: 
+  syntax: 
+    content: String[] GetConnectorCapabilityNames(Integer quoteConnectionId)
+    parameters:
+    - id: quoteConnectionId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.String[]
+      description:
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteConnectionId;\nString[] res = agent.GetConnectorCapabilityNames(quoteConnectionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetExtraInfo(String)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetExtraInfo(String)
+  id: 'GetExtraInfo(String)'
+  so.intellisense: NSQuoteAgent.GetExtraInfo
+  langs:
+  - crmscript
+  name: 'GetExtraInfo(String)'
+  nameWithType: NSQuoteAgent.GetExtraInfo(String)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetExtraInfo(String)
+  type: Method
+  summary: "\nConverts an XML string into an object representation.\n"
+  remarks: 
+  syntax: 
+    content: NSProductExtraDataField[] GetExtraInfo(String quoteLineExtraData)
+    parameters:
+    - id: quoteLineExtraData
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSProductExtraDataField[]
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nString quoteLineExtraData;\nNSProductExtraDataField[] res = agent.GetExtraInfo(quoteLineExtraData);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetInUseQuoteLineConfigurations()
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetInUseQuoteLineConfigurations()
+  id: 'GetInUseQuoteLineConfigurations()'
+  so.intellisense: NSQuoteAgent.GetInUseQuoteLineConfigurations
+  langs:
+  - crmscript
+  name: 'GetInUseQuoteLineConfigurations()'
+  nameWithType: NSQuoteAgent.GetInUseQuoteLineConfigurations()
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetInUseQuoteLineConfigurations()
+  type: Method
+  summary: "\nReturns the configuration fields that should be visible in the GUI.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteLineConfiguration[] GetInUseQuoteLineConfigurations()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSQuoteLineConfiguration[]
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nNSQuoteLineConfiguration[] res = agent.GetInUseQuoteLineConfigurations();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetOrderConfirmation(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetOrderConfirmation(Integer,Integer)
+  id: 'GetOrderConfirmation(Integer,Integer)'
+  so.intellisense: NSQuoteAgent.GetOrderConfirmation
+  langs:
+  - crmscript
+  name: 'GetOrderConfirmation(Integer,Integer)'
+  nameWithType: NSQuoteAgent.GetOrderConfirmation(Integer,Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetOrderConfirmation(Integer,Integer)
+  type: Method
+  summary: "\nGets a base64-encoded data stream that is just the order confirmation document, for the given quote version; no permanent document is created or stored anywhere; the result is a PDF\n"
+  remarks: 
+  syntax: 
+    content: String GetOrderConfirmation(Integer quoteVersionId, Integer confirmationTemplateId)
+    parameters:
+    - id: quoteVersionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: confirmationTemplateId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteVersionId;\nInteger confirmationTemplateId;\nString res = agent.GetOrderConfirmation(quoteVersionId, confirmationTemplateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetOrderState(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetOrderState(Integer)
+  id: 'GetOrderState(Integer)'
+  so.intellisense: NSQuoteAgent.GetOrderState
+  langs:
+  - crmscript
+  name: 'GetOrderState(Integer)'
+  nameWithType: NSQuoteAgent.GetOrderState(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetOrderState(Integer)
+  type: Method
+  summary: "\nIf there is a problem with a quoteline, the error description shall be placed in the status and reason fields of the quoteline, if there is a problem with the alternative, the error description shall be placed in the status and reason fields of the alternative. A summary of all the problems (if any) should be placed in the response object. Requires that the Create-Order capability is true.\n"
+  remarks: 
+  syntax: 
+    content: NSPluginUrlResponse GetOrderState(Integer quoteVersionId)
+    parameters:
+    - id: quoteVersionId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPluginUrlResponse
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteVersionId;\nNSPluginUrlResponse res = agent.GetOrderState(quoteVersionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetPriceList(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetPriceList(Integer)
+  id: 'GetPriceList(Integer)'
+  so.intellisense: NSQuoteAgent.GetPriceList
+  langs:
+  - crmscript
+  name: 'GetPriceList(Integer)'
+  nameWithType: NSQuoteAgent.GetPriceList(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetPriceList(Integer)
+  type: Method
+  summary: "\nGets an NSPriceList object.\n"
+  remarks: 
+  syntax: 
+    content: NSPriceList GetPriceList(Integer priceListId)
+    parameters:
+    - id: priceListId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPriceList
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nNSPriceList thing = agent.GetPriceList(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetProduct(Integer,String)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetProduct(Integer,String)
+  id: 'GetProduct(Integer,String)'
+  so.intellisense: NSQuoteAgent.GetProduct
+  langs:
+  - crmscript
+  name: 'GetProduct(Integer,String)'
+  nameWithType: NSQuoteAgent.GetProduct(Integer,String)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetProduct(Integer,String)
+  type: Method
+  summary: "\nGets a product with the given key\n"
+  remarks: 
+  syntax: 
+    content: NSProduct GetProduct(Integer quoteConnectionId, String eRPProductKey)
+    parameters:
+    - id: quoteConnectionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: eRPProductKey
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSProduct
+  example: 
+- uid: CRMScript.NetServer.NSQuoteAgent.GetProductFromDbId(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetProductFromDbId(Integer)
+  id: 'GetProductFromDbId(Integer)'
+  so.intellisense: NSQuoteAgent.GetProductFromDbId
+  langs:
+  - crmscript
+  name: 'GetProductFromDbId(Integer)'
+  nameWithType: NSQuoteAgent.GetProductFromDbId(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetProductFromDbId(Integer)
+  type: Method
+  summary: "\nGets a product with the given database ID\n"
+  remarks: 
+  syntax: 
+    content: NSProduct GetProductFromDbId(Integer productId)
+    parameters:
+    - id: productId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSProduct
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger productId;\nNSProduct res = agent.GetProductFromDbId(productId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetProductImage(Integer,String,Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetProductImage(Integer,String,Integer)
+  id: 'GetProductImage(Integer,String,Integer)'
+  so.intellisense: NSQuoteAgent.GetProductImage
+  langs:
+  - crmscript
+  name: 'GetProductImage(Integer,String,Integer)'
+  nameWithType: NSQuoteAgent.GetProductImage(Integer,String,Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetProductImage(Integer,String,Integer)
+  type: Method
+  summary: "\nGets an image connected to a product, from the ProductProvider\n"
+  remarks: 
+  syntax: 
+    content: String GetProductImage(Integer quoteConnectionId, String eRPProductKey, Integer rank)
+    parameters:
+    - id: quoteConnectionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: eRPProductKey
+      type: CRMScript.Global.String
+      description: 
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteConnectionId;\nString eRPProductKey;\nInteger rank;\nString res = agent.GetProductImage(quoteConnectionId, eRPProductKey, rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetQuote(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuote(Integer)
+  id: 'GetQuote(Integer)'
+  so.intellisense: NSQuoteAgent.GetQuote
+  langs:
+  - crmscript
+  name: 'GetQuote(Integer)'
+  nameWithType: NSQuoteAgent.GetQuote(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetQuote(Integer)
+  type: Method
+  summary: "\nGets an NSQuote\n"
+  remarks: 
+  syntax: 
+    content: NSQuote GetQuote(Integer quoteId)
+    parameters:
+    - id: quoteId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuote
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteId;\nNSQuote res = agent.GetQuote(quoteId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetQuoteAlternative(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteAlternative(Integer)
+  id: 'GetQuoteAlternative(Integer)'
+  so.intellisense: NSQuoteAgent.GetQuoteAlternative
+  langs:
+  - crmscript
+  name: 'GetQuoteAlternative(Integer)'
+  nameWithType: NSQuoteAgent.GetQuoteAlternative(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetQuoteAlternative(Integer)
+  type: Method
+  summary: "\nGets an NSQuoteAlternative object.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteAlternative GetQuoteAlternative(Integer quoteAlternativeId)
+    parameters:
+    - id: quoteAlternativeId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteAlternative
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nNSQuoteAlternative thing = agent.GetQuoteAlternative(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetQuoteAlternatives(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteAlternatives(Integer)
+  id: 'GetQuoteAlternatives(Integer)'
+  so.intellisense: NSQuoteAgent.GetQuoteAlternatives
+  langs:
+  - crmscript
+  name: 'GetQuoteAlternatives(Integer)'
+  nameWithType: NSQuoteAgent.GetQuoteAlternatives(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetQuoteAlternatives(Integer)
+  type: Method
+  summary: "\nGets all quote alternatives for a quote version\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteAlternative[] GetQuoteAlternatives(Integer quoteVersionId)
+    parameters:
+    - id: quoteVersionId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteAlternative[]
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteVersionId;\nNSQuoteAlternative[] res = agent.GetQuoteAlternatives(quoteVersionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetQuoteEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteEntity(Integer)
+  id: 'GetQuoteEntity(Integer)'
+  so.intellisense: NSQuoteAgent.GetQuoteEntity
+  langs:
+  - crmscript
+  name: 'GetQuoteEntity(Integer)'
+  nameWithType: NSQuoteAgent.GetQuoteEntity(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetQuoteEntity(Integer)
+  type: Method
+  summary: "\nGets a Quote\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteEntity GetQuoteEntity(Integer quoteId)
+    parameters:
+    - id: quoteId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteEntity
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteId;\nNSQuoteEntity res = agent.GetQuoteEntity(quoteId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetQuoteEntityFromSaleId(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteEntityFromSaleId(Integer)
+  id: 'GetQuoteEntityFromSaleId(Integer)'
+  so.intellisense: NSQuoteAgent.GetQuoteEntityFromSaleId
+  langs:
+  - crmscript
+  name: 'GetQuoteEntityFromSaleId(Integer)'
+  nameWithType: NSQuoteAgent.GetQuoteEntityFromSaleId(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetQuoteEntityFromSaleId(Integer)
+  type: Method
+  summary: "\nGets a Quote for a sale\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteEntity GetQuoteEntityFromSaleId(Integer saleId)
+    parameters:
+    - id: saleId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteEntity
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger saleId;\nNSQuoteEntity res = agent.GetQuoteEntityFromSaleId(saleId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetQuoteFromSaleId(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteFromSaleId(Integer)
+  id: 'GetQuoteFromSaleId(Integer)'
+  so.intellisense: NSQuoteAgent.GetQuoteFromSaleId
+  langs:
+  - crmscript
+  name: 'GetQuoteFromSaleId(Integer)'
+  nameWithType: NSQuoteAgent.GetQuoteFromSaleId(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetQuoteFromSaleId(Integer)
+  type: Method
+  summary: "\nGets an NSQuote for a sale\n"
+  remarks: 
+  syntax: 
+    content: NSQuote GetQuoteFromSaleId(Integer saleId)
+    parameters:
+    - id: saleId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuote
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger saleId;\nNSQuote res = agent.GetQuoteFromSaleId(saleId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetQuoteLine(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteLine(Integer)
+  id: 'GetQuoteLine(Integer)'
+  so.intellisense: NSQuoteAgent.GetQuoteLine
+  langs:
+  - crmscript
+  name: 'GetQuoteLine(Integer)'
+  nameWithType: NSQuoteAgent.GetQuoteLine(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetQuoteLine(Integer)
+  type: Method
+  summary: "\nGets QuoteLine from database\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteLine GetQuoteLine(Integer quoteLineId)
+    parameters:
+    - id: quoteLineId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteLine
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteLineId;\nNSQuoteLine res = agent.GetQuoteLine(quoteLineId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetQuoteLineConfiguration(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteLineConfiguration(Integer)
+  id: 'GetQuoteLineConfiguration(Integer)'
+  so.intellisense: NSQuoteAgent.GetQuoteLineConfiguration
+  langs:
+  - crmscript
+  name: 'GetQuoteLineConfiguration(Integer)'
+  nameWithType: NSQuoteAgent.GetQuoteLineConfiguration(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetQuoteLineConfiguration(Integer)
+  type: Method
+  summary: "\nReturns the configuration field with the given ID\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteLineConfiguration GetQuoteLineConfiguration(Integer quoteLineConfigurationId)
+    parameters:
+    - id: quoteLineConfigurationId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteLineConfiguration
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteLineConfigurationId;\nNSQuoteLineConfiguration res = agent.GetQuoteLineConfiguration(quoteLineConfigurationId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetQuoteLineConfigurationFromFieldName(String)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteLineConfigurationFromFieldName(String)
+  id: 'GetQuoteLineConfigurationFromFieldName(String)'
+  so.intellisense: NSQuoteAgent.GetQuoteLineConfigurationFromFieldName
+  langs:
+  - crmscript
+  name: 'GetQuoteLineConfigurationFromFieldName(String)'
+  nameWithType: NSQuoteAgent.GetQuoteLineConfigurationFromFieldName(String)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetQuoteLineConfigurationFromFieldName(String)
+  type: Method
+  summary: "\nReturns the configuration field with the given field name\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteLineConfiguration GetQuoteLineConfigurationFromFieldName(String fieldName)
+    parameters:
+    - id: fieldName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteLineConfiguration
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nString fieldName;\nNSQuoteLineConfiguration res = agent.GetQuoteLineConfigurationFromFieldName(fieldName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetQuoteLineImage(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteLineImage(Integer,Integer)
+  id: 'GetQuoteLineImage(Integer,Integer)'
+  so.intellisense: NSQuoteAgent.GetQuoteLineImage
+  langs:
+  - crmscript
+  name: 'GetQuoteLineImage(Integer,Integer)'
+  nameWithType: NSQuoteAgent.GetQuoteLineImage(Integer,Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetQuoteLineImage(Integer,Integer)
+  type: Method
+  summary: "\nGets an image connected to a quoteline, either from the ERPProvider or from the SuperOffice database\n"
+  remarks: 
+  syntax: 
+    content: NSImage GetQuoteLineImage(Integer quoteLineId, Integer rank)
+    parameters:
+    - id: quoteLineId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSImage
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteLineId;\nInteger rank;\nNSImage res = agent.GetQuoteLineImage(quoteLineId, rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetQuoteLines(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteLines(Integer)
+  id: 'GetQuoteLines(Integer)'
+  so.intellisense: NSQuoteAgent.GetQuoteLines
+  langs:
+  - crmscript
+  name: 'GetQuoteLines(Integer)'
+  nameWithType: NSQuoteAgent.GetQuoteLines(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetQuoteLines(Integer)
+  type: Method
+  summary: "\nGets all QuoteLines from an alternative\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteLine[] GetQuoteLines(Integer quoteAlternativeId)
+    parameters:
+    - id: quoteAlternativeId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteLine[]
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteAlternativeId;\nNSQuoteLine[] res = agent.GetQuoteLines(quoteAlternativeId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetQuoteList(String)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteList(String)
+  id: 'GetQuoteList(String)'
+  so.intellisense: NSQuoteAgent.GetQuoteList
+  langs:
+  - crmscript
+  name: 'GetQuoteList(String)'
+  nameWithType: NSQuoteAgent.GetQuoteList(String)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetQuoteList(String)
+  type: Method
+  summary: "\nGets a named list from the connector.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteListItem[] GetQuoteList(String quoteListType)
+    parameters:
+    - id: quoteListType
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteListItem[]
+      description: "Array of QuoteListItems; NULL if the given list is not supported."
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nString quoteListType;\nNSQuoteListItem[] res = agent.GetQuoteList(quoteListType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetQuoteVersion(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteVersion(Integer)
+  id: 'GetQuoteVersion(Integer)'
+  so.intellisense: NSQuoteAgent.GetQuoteVersion
+  langs:
+  - crmscript
+  name: 'GetQuoteVersion(Integer)'
+  nameWithType: NSQuoteAgent.GetQuoteVersion(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetQuoteVersion(Integer)
+  type: Method
+  summary: "\nGets an NSQuoteVersion\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteVersion GetQuoteVersion(Integer quoteVersionId)
+    parameters:
+    - id: quoteVersionId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteVersion
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteVersionId;\nNSQuoteVersion res = agent.GetQuoteVersion(quoteVersionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetQuoteVersions(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteVersions(Integer)
+  id: 'GetQuoteVersions(Integer)'
+  so.intellisense: NSQuoteAgent.GetQuoteVersions
+  langs:
+  - crmscript
+  name: 'GetQuoteVersions(Integer)'
+  nameWithType: NSQuoteAgent.GetQuoteVersions(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetQuoteVersions(Integer)
+  type: Method
+  summary: "\nGets all quote versions for a sale\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteVersion[] GetQuoteVersions(Integer quoteId)
+    parameters:
+    - id: quoteId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteVersion[]
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteId;\nNSQuoteVersion[] res = agent.GetQuoteVersions(quoteId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetQuoteVersionWorkflowButtonStates(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteVersionWorkflowButtonStates(Integer,Integer)
+  id: 'GetQuoteVersionWorkflowButtonStates(Integer,Integer)'
+  so.intellisense: NSQuoteAgent.GetQuoteVersionWorkflowButtonStates
+  langs:
+  - crmscript
+  name: 'GetQuoteVersionWorkflowButtonStates(Integer,Integer)'
+  nameWithType: NSQuoteAgent.GetQuoteVersionWorkflowButtonStates(Integer,Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetQuoteVersionWorkflowButtonStates(Integer,Integer)
+  type: Method
+  summary: "\nGets all button states for the Quote version dialog.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteVersionWorkflowState GetQuoteVersionWorkflowButtonStates(Integer quoteVersionId, Integer quoteAlternativeId)
+    parameters:
+    - id: quoteVersionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: quoteAlternativeId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteVersionWorkflowState
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteVersionId;\nInteger quoteAlternativeId;\nNSQuoteVersionWorkflowState res = agent.GetQuoteVersionWorkflowButtonStates(quoteVersionId, quoteAlternativeId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetQuoteVersionWorkflowImageState(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteVersionWorkflowImageState(Integer)
+  id: 'GetQuoteVersionWorkflowImageState(Integer)'
+  so.intellisense: NSQuoteAgent.GetQuoteVersionWorkflowImageState
+  langs:
+  - crmscript
+  name: 'GetQuoteVersionWorkflowImageState(Integer)'
+  nameWithType: NSQuoteAgent.GetQuoteVersionWorkflowImageState(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetQuoteVersionWorkflowImageState(Integer)
+  type: Method
+  summary: "\nGets state icon and name for the Quote version dialog header.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteVersionButtonState GetQuoteVersionWorkflowImageState(Integer quoteVersionId)
+    parameters:
+    - id: quoteVersionId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteVersionButtonState
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteVersionId;\nNSQuoteVersionButtonState res = agent.GetQuoteVersionWorkflowImageState(quoteVersionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetQuoteVersionWorkflowState(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteVersionWorkflowState(Integer,Integer)
+  id: 'GetQuoteVersionWorkflowState(Integer,Integer)'
+  so.intellisense: NSQuoteAgent.GetQuoteVersionWorkflowState
+  langs:
+  - crmscript
+  name: 'GetQuoteVersionWorkflowState(Integer,Integer)'
+  nameWithType: NSQuoteAgent.GetQuoteVersionWorkflowState(Integer,Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetQuoteVersionWorkflowState(Integer,Integer)
+  type: Method
+  summary: "\nGets all button states for the Quote version dialog. Packages ImageState, Button states and status info into one call.\n"
+  remarks: "\nCollects most important warnings/errors from across all quote lines/alternatives in this quote version.\n"
+  syntax: 
+    content: NSQuoteVersionWorkflowState GetQuoteVersionWorkflowState(Integer quoteVersionId, Integer quoteAlternativeId)
+    parameters:
+    - id: quoteVersionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: quoteAlternativeId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteVersionWorkflowState
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteVersionId;\nInteger quoteAlternativeId;\nNSQuoteVersionWorkflowState res = agent.GetQuoteVersionWorkflowState(quoteVersionId, quoteAlternativeId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.GetQuoteVersionWorkflowStatusInfo(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.GetQuoteVersionWorkflowStatusInfo(Integer)
+  id: 'GetQuoteVersionWorkflowStatusInfo(Integer)'
+  so.intellisense: NSQuoteAgent.GetQuoteVersionWorkflowStatusInfo
+  langs:
+  - crmscript
+  name: 'GetQuoteVersionWorkflowStatusInfo(Integer)'
+  nameWithType: NSQuoteAgent.GetQuoteVersionWorkflowStatusInfo(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.GetQuoteVersionWorkflowStatusInfo(Integer)
+  type: Method
+  summary: "\nGets status info for the Quote version dialog header.\n"
+  remarks: "\nCollects most important warnings/errors from across all quote lines/alternatives in this quote version."
+  syntax: 
+    content: NSQuoteVersionStatusInformation GetQuoteVersionWorkflowStatusInfo(Integer quoteVersionId)
+    parameters:
+    - id: quoteVersionId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteVersionStatusInformation
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteVersionId;\nNSQuoteVersionStatusInformation res = agent.GetQuoteVersionWorkflowStatusInfo(quoteVersionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.HasConnections()
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.HasConnections()
+  id: 'HasConnections()'
+  so.intellisense: NSQuoteAgent.HasConnections
+  langs:
+  - crmscript
+  name: 'HasConnections()'
+  nameWithType: NSQuoteAgent.HasConnections()
+  fullName: CRMScript.NetServer.NSQuoteAgent.HasConnections()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSPluginResponse HasConnections()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSPluginResponse
+      description: "Whether or not the system has any connections available for this user."
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nNSPluginResponse res = agent.HasConnections();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.IncludeQuoteVersionAttachment(Integer,Integer,Bool)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.IncludeQuoteVersionAttachment(Integer,Integer,Bool)
+  id: 'IncludeQuoteVersionAttachment(Integer,Integer,Bool)'
+  so.intellisense: NSQuoteAgent.IncludeQuoteVersionAttachment
+  langs:
+  - crmscript
+  name: 'IncludeQuoteVersionAttachment(Integer,Integer,Bool)'
+  nameWithType: NSQuoteAgent.IncludeQuoteVersionAttachment(Integer,Integer,Bool)
+  fullName: CRMScript.NetServer.NSQuoteAgent.IncludeQuoteVersionAttachment(Integer,Integer,Bool)
+  type: Method
+  summary: "\nToggles the 'included' state of a quote version attachment\n"
+  remarks: "\nThrows exceptions if called on locked versions\n"
+  syntax: 
+    content: Bool IncludeQuoteVersionAttachment(Integer quoteVersionId, Integer documentId, Bool include)
+    parameters:
+    - id: quoteVersionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: include
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteVersionId;\nInteger documentId;\nBool include;\nBool res = agent.IncludeQuoteVersionAttachment(quoteVersionId, documentId, include);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.MoveQuoteLine(Integer,Bool)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.MoveQuoteLine(Integer,Bool)
+  id: 'MoveQuoteLine(Integer,Bool)'
+  so.intellisense: NSQuoteAgent.MoveQuoteLine
+  langs:
+  - crmscript
+  name: 'MoveQuoteLine(Integer,Bool)'
+  nameWithType: NSQuoteAgent.MoveQuoteLine(Integer,Bool)
+  fullName: CRMScript.NetServer.NSQuoteAgent.MoveQuoteLine(Integer,Bool)
+  type: Method
+  summary: "\nMoves quote line rank up/down\n"
+  remarks: 
+  syntax: 
+    content: Void MoveQuoteLine(Integer quoteLineId, Bool direction)
+    parameters:
+    - id: quoteLineId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: direction
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteLineId;\nBool direction;\nagent.MoveQuoteLine(quoteLineId, direction);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.PlaceOrder(Integer,Bool,String,String,String)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.PlaceOrder(Integer,Bool,String,String,String)
+  id: 'PlaceOrder(Integer,Bool,String,String,String)'
+  so.intellisense: NSQuoteAgent.PlaceOrder
+  langs:
+  - crmscript
+  name: 'PlaceOrder(Integer,Bool,String,String,String)'
+  nameWithType: NSQuoteAgent.PlaceOrder(Integer,Bool,String,String,String)
+  fullName: CRMScript.NetServer.NSQuoteAgent.PlaceOrder(Integer,Bool,String,String,String)
+  type: Method
+  summary: "\nPlaces an order in the ERP system.\n"
+  remarks: 
+  syntax: 
+    content: NSPluginUrlResponse PlaceOrder(Integer quoteAlternativeId, Bool markSaleAsSold, String poNumber, String orderComment, String culture)
+    parameters:
+    - id: quoteAlternativeId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: markSaleAsSold
+      type: CRMScript.Global.Bool
+      description: 
+    - id: poNumber
+      type: CRMScript.Global.String
+      description: 
+    - id: orderComment
+      type: CRMScript.Global.String
+      description: 
+    - id: culture
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPluginUrlResponse
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteAlternativeId;\nBool markSaleAsSold;\nString poNumber;\nString orderComment;\nString culture;\nNSPluginUrlResponse res = agent.PlaceOrder(quoteAlternativeId, markSaleAsSold, poNumber, orderComment, culture);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.RecalculateQuoteAlternative(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.RecalculateQuoteAlternative(Integer)
+  id: 'RecalculateQuoteAlternative(Integer)'
+  so.intellisense: NSQuoteAgent.RecalculateQuoteAlternative
+  langs:
+  - crmscript
+  name: 'RecalculateQuoteAlternative(Integer)'
+  nameWithType: NSQuoteAgent.RecalculateQuoteAlternative(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.RecalculateQuoteAlternative(Integer)
+  type: Method
+  summary: "\nWhen the user changes one or more values in a quoteline or a quoteAlternative, the connector gets to change the QuoteLines and the alternative, for instance calculate VAT. RecalculateQuoteAlternative shall be called when the user changes any of the following fields: Quantity, DiscountAmount, DiscountPercent, listprice (if allowed). RecalculateQuoteAlternative will calculate the TotalPrice and the VAT (if possible) for the lines and the alternative.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteAlternativeRecalculated RecalculateQuoteAlternative(Integer quoteAlternative)
+    parameters:
+    - id: quoteAlternative
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteAlternativeRecalculated
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteAlternative;\nNSQuoteAlternativeRecalculated res = agent.RecalculateQuoteAlternative(quoteAlternative);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.RecalculateQuoteLine(NSQuoteLine,String[])
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.RecalculateQuoteLine(NSQuoteLine,String[])
+  id: 'RecalculateQuoteLine(NSQuoteLine,String[])'
+  so.intellisense: NSQuoteAgent.RecalculateQuoteLine
+  langs:
+  - crmscript
+  name: 'RecalculateQuoteLine(NSQuoteLine,String[])'
+  nameWithType: NSQuoteAgent.RecalculateQuoteLine(NSQuoteLine,String[])
+  fullName: CRMScript.NetServer.NSQuoteAgent.RecalculateQuoteLine(NSQuoteLine,String[])
+  type: Method
+  summary: "\nWhen the user changes one or more values in a quoteline, the connector gets to change the QuoteLine, for instance calculate VAT. Shall be called when the user changes any of the following fields: Quantity, DiscountAmount, DiscountPercent, ListPrice (if allowed). Will calculate the TotalPrice and the VAT (if possible) for the line.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteLine RecalculateQuoteLine(NSQuoteLine quoteLine, String[] changedFields)
+    parameters:
+    - id: quoteLine
+      type: CRMScript.NetServer.NSQuoteLine
+      description: 
+    - id: changedFields
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteLine
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nNSQuoteLine quoteLine;\nString[] changedFields;\nNSQuoteLine res = agent.RecalculateQuoteLine(quoteLine, changedFields);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.RejectQuoteVersion(Integer,String,Integer,String)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.RejectQuoteVersion(Integer,String,Integer,String)
+  id: 'RejectQuoteVersion(Integer,String,Integer,String)'
+  so.intellisense: NSQuoteAgent.RejectQuoteVersion
+  langs:
+  - crmscript
+  name: 'RejectQuoteVersion(Integer,String,Integer,String)'
+  nameWithType: NSQuoteAgent.RejectQuoteVersion(Integer,String,Integer,String)
+  fullName: CRMScript.NetServer.NSQuoteAgent.RejectQuoteVersion(Integer,String,Integer,String)
+  type: Method
+  summary: "\nRejects a quote version\n"
+  remarks: 
+  syntax: 
+    content: NSApproveRejectResponse RejectQuoteVersion(Integer quoteVersionId, String rejectedByText, Integer rejectedByAssociateId, String rejectionText)
+    parameters:
+    - id: quoteVersionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: rejectedByText
+      type: CRMScript.Global.String
+      description: 
+    - id: rejectedByAssociateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: rejectionText
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSApproveRejectResponse
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteVersionId;\nString rejectedByText;\nInteger rejectedByAssociateId;\nString rejectionText;\nNSApproveRejectResponse res = agent.RejectQuoteVersion(quoteVersionId, rejectedByText, rejectedByAssociateId, rejectionText);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.RemoveProduct(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.RemoveProduct(Integer)
+  id: 'RemoveProduct(Integer)'
+  so.intellisense: NSQuoteAgent.RemoveProduct
+  langs:
+  - crmscript
+  name: 'RemoveProduct(Integer)'
+  nameWithType: NSQuoteAgent.RemoveProduct(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.RemoveProduct(Integer)
+  type: Method
+  summary: "\nRemoves a product from the database\n"
+  remarks: 
+  syntax: 
+    content: Void RemoveProduct(Integer productId)
+    parameters:
+    - id: productId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSQuoteAgent.RestoreConnection(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.RestoreConnection(Integer)
+  id: 'RestoreConnection(Integer)'
+  so.intellisense: NSQuoteAgent.RestoreConnection
+  langs:
+  - crmscript
+  name: 'RestoreConnection(Integer)'
+  nameWithType: NSQuoteAgent.RestoreConnection(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.RestoreConnection(Integer)
+  type: Method
+  summary: "\nRestores a connection marked as deleted.\n"
+  remarks: 
+  syntax: 
+    content: Void RestoreConnection(Integer quoteConnectionId)
+    parameters:
+    - id: quoteConnectionId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteConnectionId;\nagent.RestoreConnection(quoteConnectionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.SaveConnection(NSQuoteConnection)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.SaveConnection(NSQuoteConnection)
+  id: 'SaveConnection(NSQuoteConnection)'
+  so.intellisense: NSQuoteAgent.SaveConnection
+  langs:
+  - crmscript
+  name: 'SaveConnection(NSQuoteConnection)'
+  nameWithType: NSQuoteAgent.SaveConnection(NSQuoteConnection)
+  fullName: CRMScript.NetServer.NSQuoteAgent.SaveConnection(NSQuoteConnection)
+  type: Method
+  summary: "\nSaves a connection to the database.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteConnection SaveConnection(NSQuoteConnection connection)
+    parameters:
+    - id: connection
+      type: CRMScript.NetServer.NSQuoteConnection
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteConnection
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nNSQuoteConnection connection;\nNSQuoteConnection res = agent.SaveConnection(connection);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.SaveConnectionConfigFields(Integer,Map)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.SaveConnectionConfigFields(Integer,Map)
+  id: 'SaveConnectionConfigFields(Integer,Map)'
+  so.intellisense: NSQuoteAgent.SaveConnectionConfigFields
+  langs:
+  - crmscript
+  name: 'SaveConnectionConfigFields(Integer,Map)'
+  nameWithType: NSQuoteAgent.SaveConnectionConfigFields(Integer,Map)
+  fullName: CRMScript.NetServer.NSQuoteAgent.SaveConnectionConfigFields(Integer,Map)
+  type: Method
+  summary: "\nSaves the connection config fields.\n"
+  remarks: 
+  syntax: 
+    content: Map SaveConnectionConfigFields(Integer quoteConnectionId, Map connectionConfigFields)
+    parameters:
+    - id: quoteConnectionId
+      type: CRMScript.Global.Integer
+      description: "Primary key of the connection"
+    - id: connectionConfigFields
+      type: CRMScript.Native.Map
+      description:
+    return:
+      type: CRMScript.Native.Map
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteConnectionId;\nMap connectionConfigFields;\nMap res = agent.SaveConnectionConfigFields(quoteConnectionId, connectionConfigFields);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.SavePriceList(NSPriceList)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.SavePriceList(NSPriceList)
+  id: 'SavePriceList(NSPriceList)'
+  so.intellisense: NSQuoteAgent.SavePriceList
+  langs:
+  - crmscript
+  name: 'SavePriceList(NSPriceList)'
+  nameWithType: NSQuoteAgent.SavePriceList(NSPriceList)
+  fullName: CRMScript.NetServer.NSQuoteAgent.SavePriceList(NSPriceList)
+  type: Method
+  summary: "\nUpdates the existing NSPriceList or creates a new NSPriceList if the id parameter is 0\n"
+  remarks: 
+  syntax: 
+    content: NSPriceList SavePriceList(NSPriceList priceList)
+    parameters:
+    - id: priceList
+      type: CRMScript.NetServer.NSPriceList
+      description: "The NSPriceList to save."
+    return:
+      type: CRMScript.NetServer.NSPriceList
+  example: 
+  - "\n<pre><code>NSQuote  agent;\nNSPriceList thing = agent.CreateDefaultPriceList();\nthing = agent.SavePriceList(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.SaveProduct(NSProduct)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.SaveProduct(NSProduct)
+  id: 'SaveProduct(NSProduct)'
+  so.intellisense: NSQuoteAgent.SaveProduct
+  langs:
+  - crmscript
+  name: 'SaveProduct(NSProduct)'
+  nameWithType: NSQuoteAgent.SaveProduct(NSProduct)
+  fullName: CRMScript.NetServer.NSQuoteAgent.SaveProduct(NSProduct)
+  type: Method
+  summary: "\nUpdates the existing NSProduct or creates a new NSProduct if the id parameter is 0\n"
+  remarks: 
+  syntax: 
+    content: NSProduct SaveProduct(NSProduct product)
+    parameters:
+    - id: product
+      type: CRMScript.NetServer.NSProduct
+      description: "The NSProduct to save."
+    return:
+      type: CRMScript.NetServer.NSProduct
+  example: 
+  - "\n<pre><code>NSQuote  agent;\nNSProduct thing = agent.CreateDefaultProduct();\nthing = agent.SaveProduct(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.SaveQuote(NSQuote)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.SaveQuote(NSQuote)
+  id: 'SaveQuote(NSQuote)'
+  so.intellisense: NSQuoteAgent.SaveQuote
+  langs:
+  - crmscript
+  name: 'SaveQuote(NSQuote)'
+  nameWithType: NSQuoteAgent.SaveQuote(NSQuote)
+  fullName: CRMScript.NetServer.NSQuoteAgent.SaveQuote(NSQuote)
+  type: Method
+  summary: "\nSaves an NSQuote\n"
+  remarks: 
+  syntax: 
+    content: NSQuote SaveQuote(NSQuote quote)
+    parameters:
+    - id: quote
+      type: CRMScript.NetServer.NSQuote
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuote
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nNSQuote quote;\nNSQuote res = agent.SaveQuote(quote);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.SaveQuoteAlternative(NSQuoteAlternative)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.SaveQuoteAlternative(NSQuoteAlternative)
+  id: 'SaveQuoteAlternative(NSQuoteAlternative)'
+  so.intellisense: NSQuoteAgent.SaveQuoteAlternative
+  langs:
+  - crmscript
+  name: 'SaveQuoteAlternative(NSQuoteAlternative)'
+  nameWithType: NSQuoteAgent.SaveQuoteAlternative(NSQuoteAlternative)
+  fullName: CRMScript.NetServer.NSQuoteAgent.SaveQuoteAlternative(NSQuoteAlternative)
+  type: Method
+  summary: "\nUpdates the existing NSQuoteAlternative or creates a new NSQuoteAlternative if the id parameter is 0\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteAlternative SaveQuoteAlternative(NSQuoteAlternative quoteAlternative)
+    parameters:
+    - id: quoteAlternative
+      type: CRMScript.NetServer.NSQuoteAlternative
+      description: "The NSQuoteAlternative to save."
+    return:
+      type: CRMScript.NetServer.NSQuoteAlternative
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nNSQuoteAlternative thing = agent.CreateDefaultQuoteAlternative();\nthing = agent.SaveQuoteAlternative(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.SaveQuoteEntity(NSQuoteEntity)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.SaveQuoteEntity(NSQuoteEntity)
+  id: 'SaveQuoteEntity(NSQuoteEntity)'
+  so.intellisense: NSQuoteAgent.SaveQuoteEntity
+  langs:
+  - crmscript
+  name: 'SaveQuoteEntity(NSQuoteEntity)'
+  nameWithType: NSQuoteAgent.SaveQuoteEntity(NSQuoteEntity)
+  fullName: CRMScript.NetServer.NSQuoteAgent.SaveQuoteEntity(NSQuoteEntity)
+  type: Method
+  summary: "\nSaves an NSQuoteEntity.\n"
+  remarks: "\nVersions and alternatives will not be saved by this call.\n"
+  syntax: 
+    content: NSQuoteEntity SaveQuoteEntity(NSQuoteEntity quoteEntity)
+    parameters:
+    - id: quoteEntity
+      type: CRMScript.NetServer.NSQuoteEntity
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteEntity
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nNSQuoteEntity quoteEntity;\nNSQuoteEntity res = agent.SaveQuoteEntity(quoteEntity);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.SaveQuoteLine(NSQuoteLine)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.SaveQuoteLine(NSQuoteLine)
+  id: 'SaveQuoteLine(NSQuoteLine)'
+  so.intellisense: NSQuoteAgent.SaveQuoteLine
+  langs:
+  - crmscript
+  name: 'SaveQuoteLine(NSQuoteLine)'
+  nameWithType: NSQuoteAgent.SaveQuoteLine(NSQuoteLine)
+  fullName: CRMScript.NetServer.NSQuoteAgent.SaveQuoteLine(NSQuoteLine)
+  type: Method
+  summary: "\nSaves the NSQuoteLine in the SuperOffice database\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteLine SaveQuoteLine(NSQuoteLine quoteLine)
+    parameters:
+    - id: quoteLine
+      type: CRMScript.NetServer.NSQuoteLine
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteLine
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nNSQuoteLine quoteLine;\nNSQuoteLine res = agent.SaveQuoteLine(quoteLine);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.SaveQuoteLineConfiguration(NSQuoteLineConfiguration)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.SaveQuoteLineConfiguration(NSQuoteLineConfiguration)
+  id: 'SaveQuoteLineConfiguration(NSQuoteLineConfiguration)'
+  so.intellisense: NSQuoteAgent.SaveQuoteLineConfiguration
+  langs:
+  - crmscript
+  name: 'SaveQuoteLineConfiguration(NSQuoteLineConfiguration)'
+  nameWithType: NSQuoteAgent.SaveQuoteLineConfiguration(NSQuoteLineConfiguration)
+  fullName: CRMScript.NetServer.NSQuoteAgent.SaveQuoteLineConfiguration(NSQuoteLineConfiguration)
+  type: Method
+  summary: "\nSaves an NSQuoteLineConfiguration object. It is not possible to add a new configuration.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteLineConfiguration SaveQuoteLineConfiguration(NSQuoteLineConfiguration quoteLineConfiguration)
+    parameters:
+    - id: quoteLineConfiguration
+      type: CRMScript.NetServer.NSQuoteLineConfiguration
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteLineConfiguration
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nNSQuoteLineConfiguration quoteLineConfiguration;\nNSQuoteLineConfiguration res = agent.SaveQuoteLineConfiguration(quoteLineConfiguration);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.SaveQuoteLineConfigurations()
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.SaveQuoteLineConfigurations()
+  id: 'SaveQuoteLineConfigurations()'
+  so.intellisense: NSQuoteAgent.SaveQuoteLineConfigurations
+  langs:
+  - crmscript
+  name: 'SaveQuoteLineConfigurations()'
+  nameWithType: NSQuoteAgent.SaveQuoteLineConfigurations()
+  fullName: CRMScript.NetServer.NSQuoteAgent.SaveQuoteLineConfigurations()
+  type: Method
+  summary: "\nSaves a collection of QuoteLineConfigurations. It is not possible to add a new configurations.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteLineConfiguration[] SaveQuoteLineConfigurations(NSQuoteLineConfiguration[] quoteLineConfigurations)
+    parameters:
+    - id: quoteLineConfigurations
+      type: CRMScript.NetServer.NSQuoteLineConfiguration[]
+      description:
+    return:
+      type: CRMScript.NetServer.NSQuoteLineConfiguration[]
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nNSQuoteLineConfiguration[] quoteLineConfigurations;\nNSQuoteLineConfiguration[] res = agent.SaveQuoteLineConfigurations(quoteLineConfigurations);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.SaveQuoteLineImage(Integer,NSImage,Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.SaveQuoteLineImage(Integer,NSImage,Integer)
+  id: 'SaveQuoteLineImage(Integer,NSImage,Integer)'
+  so.intellisense: NSQuoteAgent.SaveQuoteLineImage
+  langs:
+  - crmscript
+  name: 'SaveQuoteLineImage(Integer,NSImage,Integer)'
+  nameWithType: NSQuoteAgent.SaveQuoteLineImage(Integer,NSImage,Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.SaveQuoteLineImage(Integer,NSImage,Integer)
+  type: Method
+  summary: "\nSaves the image connected to a quoteline in the SuperOffice database\n"
+  remarks: 
+  syntax: 
+    content: Void SaveQuoteLineImage(Integer quoteLineId, NSImage image, Integer rank)
+    parameters:
+    - id: quoteLineId
+      type: CRMScript.NetServer.CRMScript.Global.Integer
+      description: 
+    - id: image
+      type: NSImage
+      description:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteLineId;\nNSImage image;\nInteger rank;\nagent.SaveQuoteLineImage(quoteLineId, image, rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.SaveQuoteLines(NSQuoteLine[])
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.SaveQuoteLines(NSQuoteLine[])
+  id: 'SaveQuoteLines(NSQuoteLine[])'
+  so.intellisense: NSQuoteAgent.SaveQuoteLines
+  langs:
+  - crmscript
+  name: 'SaveQuoteLines(NSQuoteLine[])'
+  nameWithType: NSQuoteAgent.SaveQuoteLines(NSQuoteLine[])
+  fullName: CRMScript.NetServer.NSQuoteAgent.SaveQuoteLines(NSQuoteLine[])
+  type: Method
+  summary: "\nSaves the QuoteLines in the SuperOffice database\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteLine[] SaveQuoteLines(NSQuoteLine[] quoteLines)
+    parameters:
+    - id: quoteLines
+      type: CRMScript.NetServer.NSQuoteLine[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteLine[]
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nNSQuoteLine[] quoteLines;\nNSQuoteLine[] res = agent.SaveQuoteLines(quoteLines);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.SaveQuoteVersion(NSQuoteVersion)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.SaveQuoteVersion(NSQuoteVersion)
+  id: 'SaveQuoteVersion(NSQuoteVersion)'
+  so.intellisense: NSQuoteAgent.SaveQuoteVersion
+  langs:
+  - crmscript
+  name: 'SaveQuoteVersion(NSQuoteVersion)'
+  nameWithType: NSQuoteAgent.SaveQuoteVersion(NSQuoteVersion)
+  fullName: CRMScript.NetServer.NSQuoteAgent.SaveQuoteVersion(NSQuoteVersion)
+  type: Method
+  summary: "\nSaves a quote version\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteVersion SaveQuoteVersion(NSQuoteVersion quoteVersion)
+    parameters:
+    - id: quoteVersion
+      type: CRMScript.NetServer.NSQuoteVersion
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteVersion
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nNSQuoteVersion quoteVersion;\nNSQuoteVersion res = agent.SaveQuoteVersion(quoteVersion);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.SaveQuoteVersionNumber(Integer,String)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.SaveQuoteVersionNumber(Integer,String)
+  id: 'SaveQuoteVersionNumber(Integer,String)'
+  so.intellisense: NSQuoteAgent.SaveQuoteVersionNumber
+  langs:
+  - crmscript
+  name: 'SaveQuoteVersionNumber(Integer,String)'
+  nameWithType: NSQuoteAgent.SaveQuoteVersionNumber(Integer,String)
+  fullName: CRMScript.NetServer.NSQuoteAgent.SaveQuoteVersionNumber(Integer,String)
+  type: Method
+  summary: "\nSave the quote version number if it is valid\n"
+  remarks: 
+  syntax: 
+    content: Bool SaveQuoteVersionNumber(Integer quoteVersionId, String number)
+    parameters:
+    - id: quoteVersionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: number
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteVersionId;\nString number;\nBool res = agent.SaveQuoteVersionNumber(quoteVersionId, number);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.SendQuoteVersion(Integer,DateTime,DateTime,String,String)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.SendQuoteVersion(Integer,DateTime,DateTime,String,String)
+  id: 'SendQuoteVersion(Integer,DateTime,DateTime,String,String)'
+  so.intellisense: NSQuoteAgent.SendQuoteVersion
+  langs:
+  - crmscript
+  name: 'SendQuoteVersion(Integer,DateTime,DateTime,String,String)'
+  nameWithType: NSQuoteAgent.SendQuoteVersion(Integer,DateTime,DateTime,String,String)
+  fullName: CRMScript.NetServer.NSQuoteAgent.SendQuoteVersion(Integer,DateTime,DateTime,String,String)
+  type: Method
+  summary: "\nSends the quote to the user's customer.\n"
+  remarks: "\nMore parameters to be added later...\n"
+  syntax: 
+    content: NSPluginUrlResponse SendQuoteVersion(Integer quoteVersionId, DateTime expiryDate, DateTime followupDate, String followupText, String culture)
+    parameters:
+    - id: quoteVersionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: expiryDate
+      type: CRMScript.Global.DateTime
+      description:
+    - id: followupDate
+      type: CRMScript.Global.DateTime
+      description:
+    - id: followupText
+      type: CRMScript.Global.String
+      description: 
+    - id: culture
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPluginUrlResponse
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteVersionId;\nDateTime expiryDate;\nDateTime followupDate;\nString followupText;\nString culture;\nNSPluginUrlResponse res = agent.SendQuoteVersion(quoteVersionId, expiryDate, followupDate, followupText, culture);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.TestConnection(String)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.TestConnection(String)
+  id: 'TestConnection(String)'
+  so.intellisense: NSQuoteAgent.TestConnection
+  langs:
+  - crmscript
+  name: 'TestConnection(String)'
+  nameWithType: NSQuoteAgent.TestConnection(String)
+  fullName: CRMScript.NetServer.NSQuoteAgent.TestConnection(String)
+  type: Method
+  summary: "\nTests if the connection data is sufficient to get a connection with the ERP system. The Connector should try to do some operations to check if the connection has sufficient rights to run. The connection has not been created yet. TestConnection()is called without InitializeConnector being called first.\n" 
+  remarks: "\nUsed by the Admin clients\n"
+  syntax: 
+    content: NSPluginResponse TestConnection(String connectorName, Map connectionData)
+    parameters:
+    - id: connectorName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPluginResponse
+      description: "how the test went."
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nString connectorName;\nMap connectionData;\nNSPluginResponse res = agent.TestConnection(connectorName, connectionData);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.ToggleProductInAssortment(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.ToggleProductInAssortment(Integer)
+  id: 'ToggleProductInAssortment(Integer)'
+  so.intellisense: NSQuoteAgent.ToggleProductInAssortment
+  langs:
+  - crmscript
+  name: 'ToggleProductInAssortment(Integer)'
+  nameWithType: NSQuoteAgent.ToggleProductInAssortment(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.ToggleProductInAssortment(Integer)
+  type: Method
+  summary: "\nToggles if the product is in assortment or not\n"
+  remarks: 
+  syntax: 
+    content: Void ToggleProductInAssortment(Integer productId)
+    parameters:
+    - id: productId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSQuoteAgent.ToggleQuoteVersionAttachmentIncluded(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.ToggleQuoteVersionAttachmentIncluded(Integer)
+  id: 'ToggleQuoteVersionAttachmentIncluded(Integer)'
+  so.intellisense: NSQuoteAgent.ToggleQuoteVersionAttachmentIncluded
+  langs:
+  - crmscript
+  name: 'ToggleQuoteVersionAttachmentIncluded(Integer)'
+  nameWithType: NSQuoteAgent.ToggleQuoteVersionAttachmentIncluded(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.ToggleQuoteVersionAttachmentIncluded(Integer)
+  type: Method
+  summary: "\nToggle the 'included' state of a quote version attachment\n"
+  remarks: 
+  syntax: 
+    content: Bool ToggleQuoteVersionAttachmentIncluded(Integer quoteVersionAttachmentId)
+    parameters:
+    - id: quoteVersionAttachmentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteVersionAttachmentId;\nBool res = agent.ToggleQuoteVersionAttachmentIncluded(quoteVersionAttachmentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.ToggleSaleTypeQuoteAttachmentDefaultIncluded(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.ToggleSaleTypeQuoteAttachmentDefaultIncluded(Integer)
+  id: 'ToggleSaleTypeQuoteAttachmentDefaultIncluded(Integer)'
+  so.intellisense: NSQuoteAgent.ToggleSaleTypeQuoteAttachmentDefaultIncluded
+  langs:
+  - crmscript
+  name: 'ToggleSaleTypeQuoteAttachmentDefaultIncluded(Integer)'
+  nameWithType: NSQuoteAgent.ToggleSaleTypeQuoteAttachmentDefaultIncluded(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.ToggleSaleTypeQuoteAttachmentDefaultIncluded(Integer)
+  type: Method
+  summary: "\nToggles the 'default included' state of a sale type quote attachment\n"
+  remarks: 
+  syntax: 
+    content: Bool ToggleSaleTypeQuoteAttachmentDefaultIncluded(Integer saleTypeQuoteAttachmentId)
+    parameters:
+    - id: saleTypeQuoteAttachmentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger saleTypeQuoteAttachmentId;\nBool res = agent.ToggleSaleTypeQuoteAttachmentDefaultIncluded(saleTypeQuoteAttachmentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.UpdateQuoteVersionPrices(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.UpdateQuoteVersionPrices(Integer)
+  id: 'UpdateQuoteVersionPrices(Integer)'
+  so.intellisense: NSQuoteAgent.UpdateQuoteVersionPrices
+  langs:
+  - crmscript
+  name: 'UpdateQuoteVersionPrices(Integer)'
+  nameWithType: NSQuoteAgent.UpdateQuoteVersionPrices(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.UpdateQuoteVersionPrices(Integer)
+  type: Method
+  summary: "\nUpdates price on the all the quote lines for each alternative in the current quote version\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteVersionValidated UpdateQuoteVersionPrices(Integer quoteVersionId)
+    parameters:
+    - id: quoteVersionId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSQuoteVersionValidated
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteVersionId;\nNSQuoteVersionValidated res = agent.UpdateQuoteVersionPrices(quoteVersionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAgent.ValidateQuoteVersion(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAgent.ValidateQuoteVersion(Integer,Integer)
+  id: 'ValidateQuoteVersion(Integer,Integer)'
+  so.intellisense: NSQuoteAgent.ValidateQuoteVersion
+  langs:
+  - crmscript
+  name: 'ValidateQuoteVersion(Integer,Integer)'
+  nameWithType: NSQuoteAgent.ValidateQuoteVersion(Integer,Integer)
+  fullName: CRMScript.NetServer.NSQuoteAgent.ValidateQuoteVersion(Integer,Integer)
+  type: Method
+  summary: "\nWhen the user changes one or more values in a quoteline or a quoteAlternative, the connector gets to change the QuoteLines and the alternative, for instance calculate VAT. ValidateQuoteVersion shall be called when the user presses the validate button, presses the send button or closes the quote dialog.\n"
+  remarks: "\nRecalculateQuoteAlternative should typically validate all alternatives, set values in extrafields, and set the state in the version.\n"
+  syntax: 
+    content: NSQuoteVersionValidated ValidateQuoteVersion(Integer quoteVersionId, Integer action)
+    parameters:
+    - id: quoteVersionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: action
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.QuoteVersionButtonAction\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSQuoteVersionValidated
+  example: 
+  - "\n<pre><code>NSQuoteAgent agent;\nInteger quoteVersionId;\nInteger action;\nNSQuoteVersionValidated res = agent.ValidateQuoteVersion(quoteVersionId, action);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSQuoteAgent
+  commentId: T:CRMScript.NetServer.NSQuoteAgent
+  isExternal: true
+  name: NSQuoteAgent
+  nameWithType: NSQuoteAgent
+  fullName: CRMScript.NetServer.NSQuoteAgent
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSApproveRejectResponse
+  commentId: T:CRMScript.NetServer.NSApproveRejectResponse
+  isExternal: true
+  name: NSApproveRejectResponse
+  nameWithType: NSApproveRejectResponse
+  fullName: CRMScript.NetServer.NSApproveRejectResponse
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.NetServer.NSQuoteAlternative
+  commentId: T:CRMScript.NetServer.NSQuoteAlternative
+  isExternal: true
+  name: NSQuoteAlternative
+  nameWithType: NSQuoteAlternative
+  fullName: CRMScript.NetServer.NSQuoteAlternative
+- uid: CRMScript.NetServer.NSPriceList
+  commentId: T:CRMScript.NetServer.NSPriceList
+  isExternal: true
+  name: NSPriceList
+  nameWithType: NSPriceList
+  fullName: CRMScript.NetServer.NSPriceList
+- uid: CRMScript.NetServer.NSQuoteEntity
+  commentId: T:CRMScript.NetServer.NSQuoteEntity
+  isExternal: true
+  name: NSQuoteEntity
+  nameWithType: NSQuoteEntity
+  fullName: CRMScript.NetServer.NSQuoteEntity
+- uid: CRMScript.NetServer.NSQuoteVersion
+  commentId: T:CRMScript.NetServer.NSQuoteVersion
+  isExternal: true
+  name: NSQuoteVersion
+  nameWithType: NSQuoteVersion
+  fullName: CRMScript.NetServer.NSQuoteVersion
+- uid: CRMScript.NetServer.NSQuoteConnection
+  commentId: T:CRMScript.NetServer.NSQuoteConnection
+  isExternal: true
+  name: NSQuoteConnection
+  nameWithType: NSQuoteConnection
+  fullName: CRMScript.NetServer.NSQuoteConnection
+- uid: CRMScript.NetServer.NSProduct
+  commentId: T:CRMScript.NetServer.NSProduct
+  isExternal: true
+  name: NSProduct
+  nameWithType: NSProduct
+  fullName: CRMScript.NetServer.NSProduct
+- uid: CRMScript.NetServer.NSQuoteVersionAttachment[]
+  isExternal: true
+  name: NSQuoteVersionAttachment[]
+  nameWithType: NSQuoteVersionAttachment[]
+  fullName: CRMScript.NetServer.NSQuoteVersionAttachment[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSQuoteVersionAttachment
+    isExternal: true
+    name: NSQuoteVersionAttachment
+    nameWithType: NSQuoteVersionAttachment
+    fullName: CRMScript.NetServer.NSQuoteVersionAttachment
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSQuoteVersionAttachment
+  commentId: T:CRMScript.NetServer.NSQuoteVersionAttachment
+  isExternal: true
+  name: NSQuoteVersionAttachment
+  nameWithType: NSQuoteVersionAttachment
+  fullName: CRMScript.NetServer.NSQuoteVersionAttachment
+- uid: CRMScript.NetServer.NSQuoteLine
+  commentId: T:CRMScript.NetServer.NSQuoteLine
+  isExternal: true
+  name: NSQuoteLine
+  nameWithType: NSQuoteLine
+  fullName: CRMScript.NetServer.NSQuoteLine
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    isExternal: true
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSProduct[]
+  isExternal: true
+  name: NSProduct[]
+  nameWithType: NSProduct[]
+  fullName: CRMScript.NetServer.NSProduct[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSProduct
+    isExternal: true
+    name: NSProduct
+    nameWithType: NSProduct
+    fullName: CRMScript.NetServer.NSProduct
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSProduct
+  commentId: T:CRMScript.NetServer.NSProduct
+  isExternal: true
+  name: NSProduct
+  nameWithType: NSProduct
+  fullName: CRMScript.NetServer.NSProduct
+- uid: CRMScript.NetServer.NSQuotePublishDocuments
+  commentId: T:CRMScript.NetServer.NSQuotePublishDocuments
+  isExternal: true
+  name: NSQuotePublishDocuments
+  nameWithType: NSQuotePublishDocuments
+  fullName: CRMScript.NetServer.NSQuotePublishDocuments
+- uid: CRMScript.NetServer.NSPriceList[]
+  isExternal: true
+  name: NSPriceList[]
+  nameWithType: NSPriceList[]
+  fullName: CRMScript.NetServer.NSPriceList[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSPriceList
+    isExternal: true
+    name: NSPriceList
+    nameWithType: NSPriceList
+    fullName: CRMScript.NetServer.NSPriceList
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSPriceList
+  commentId: T:CRMScript.NetServer.NSPriceList
+  isExternal: true
+  name: NSPriceList
+  nameWithType: NSPriceList
+  fullName: CRMScript.NetServer.NSPriceList
+- uid: CRMScript.NetServer.NSQuoteConnection[]
+  isExternal: true
+  name: NSQuoteConnection[]
+  nameWithType: NSQuoteConnection[]
+  fullName: CRMScript.NetServer.NSQuoteConnection[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSQuoteConnection
+    isExternal: true
+    name: NSQuoteConnection
+    nameWithType: NSQuoteConnection
+    fullName: CRMScript.NetServer.NSQuoteConnection
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSQuoteConnection
+  commentId: T:CRMScript.NetServer.NSQuoteConnection
+  isExternal: true
+  name: NSQuoteConnection
+  nameWithType: NSQuoteConnection
+  fullName: CRMScript.NetServer.NSQuoteConnection
+- uid: CRMScript.NetServer.NSQuoteLineConfiguration[]
+  isExternal: true
+  name: NSQuoteLineConfiguration[]
+  nameWithType: NSQuoteLineConfiguration[]
+  fullName: CRMScript.NetServer.NSQuoteLineConfiguration[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSQuoteLineConfiguration
+    isExternal: true
+    name: NSQuoteLineConfiguration
+    nameWithType: NSQuoteLineConfiguration
+    fullName: CRMScript.NetServer.NSQuoteLineConfiguration
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSQuoteLineConfiguration
+  commentId: T:CRMScript.NetServer.NSQuoteLineConfiguration
+  isExternal: true
+  name: NSQuoteLineConfiguration
+  nameWithType: NSQuoteLineConfiguration
+  fullName: CRMScript.NetServer.NSQuoteLineConfiguration
+- uid: CRMScript.NetServer.NSPluginResponse[]
+  isExternal: true
+  name: NSPluginResponse[]
+  nameWithType: NSPluginResponse[]
+  fullName: CRMScript.NetServer.NSPluginResponse[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSPluginResponse
+    isExternal: true
+    name: NSPluginResponse
+    nameWithType: NSPluginResponse
+    fullName: CRMScript.NetServer.NSPluginResponse
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSPluginResponse
+  commentId: T:CRMScript.NetServer.NSPluginResponse
+  isExternal: true
+  name: NSPluginResponse
+  nameWithType: NSPluginResponse
+  fullName: CRMScript.NetServer.NSPluginResponse
+- uid: CRMScript.NetServer.NSPluginResponse
+  commentId: T:CRMScript.NetServer.NSPluginResponse
+  isExternal: true
+  name: NSPluginResponse
+  nameWithType: NSPluginResponse
+  fullName: CRMScript.NetServer.NSPluginResponse
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    isExternal: true
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSProductExtraDataField[]
+  isExternal: true
+  name: NSProductExtraDataField[]
+  nameWithType: NSProductExtraDataField[]
+  fullName: CRMScript.NetServer.NSProductExtraDataField[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSProductExtraDataField
+    isExternal: true
+    name: NSProductExtraDataField
+    nameWithType: NSProductExtraDataField
+    fullName: CRMScript.NetServer.NSProductExtraDataField
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSProductExtraDataField
+  commentId: T:CRMScript.NetServer.NSProductExtraDataField
+  isExternal: true
+  name: NSProductExtraDataField
+  nameWithType: NSProductExtraDataField
+  fullName: CRMScript.NetServer.NSProductExtraDataField
+- uid: CRMScript.NetServer.NSPluginUrlResponse
+  commentId: T:CRMScript.NetServer.NSPluginUrlResponse
+  isExternal: true
+  name: NSPluginUrlResponse
+  nameWithType: NSPluginUrlResponse
+  fullName: CRMScript.NetServer.NSPluginUrlResponse
+- uid: CRMScript.NetServer.NSQuote
+  commentId: T:CRMScript.NetServer.NSQuote
+  isExternal: true
+  name: NSQuote
+  nameWithType: NSQuote
+  fullName: CRMScript.NetServer.NSQuote
+- uid: CRMScript.NetServer.NSQuoteAlternative[]
+  isExternal: true
+  name: NSQuoteAlternative[]
+  nameWithType: NSQuoteAlternative[]
+  fullName: CRMScript.NetServer.NSQuoteAlternative[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSQuoteAlternative
+    isExternal: true
+    name: NSQuoteAlternative
+    nameWithType: NSQuoteAlternative
+    fullName: CRMScript.NetServer.NSQuoteAlternative
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSQuoteAlternative
+  commentId: T:CRMScript.NetServer.NSQuoteAlternative
+  isExternal: true
+  name: NSQuoteAlternative
+  nameWithType: NSQuoteAlternative
+  fullName: CRMScript.NetServer.NSQuoteAlternative
+- uid: CRMScript.NetServer.NSQuoteLineConfiguration
+  commentId: T:CRMScript.NetServer.NSQuoteLineConfiguration
+  isExternal: true
+  name: NSQuoteLineConfiguration
+  nameWithType: NSQuoteLineConfiguration
+  fullName: CRMScript.NetServer.NSQuoteLineConfiguration
+- uid: CRMScript.NetServer.NSImage
+  commentId: T:CRMScript.NetServer.NSImage
+  isExternal: true
+  name: NSImage
+  nameWithType: NSImage
+  fullName: CRMScript.NetServer.NSImage
+- uid: CRMScript.NetServer.NSQuoteLine[]
+  isExternal: true
+  name: NSQuoteLine[]
+  nameWithType: NSQuoteLine[]
+  fullName: CRMScript.NetServer.NSQuoteLine[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSQuoteLine
+    isExternal: true
+    name: NSQuoteLine
+    nameWithType: NSQuoteLine
+    fullName: CRMScript.NetServer.NSQuoteLine
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSQuoteLine
+  commentId: T:CRMScript.NetServer.NSQuoteLine
+  isExternal: true
+  name: NSQuoteLine
+  nameWithType: NSQuoteLine
+  fullName: CRMScript.NetServer.NSQuoteLine
+- uid: CRMScript.NetServer.NSQuoteListItem[]
+  isExternal: true
+  name: NSQuoteListItem[]
+  nameWithType: NSQuoteListItem[]
+  fullName: CRMScript.NetServer.NSQuoteListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSQuoteListItem
+    isExternal: true
+    name: NSQuoteListItem
+    nameWithType: NSQuoteListItem
+    fullName: CRMScript.NetServer.NSQuoteListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSQuoteListItem
+  commentId: T:CRMScript.NetServer.NSQuoteListItem
+  isExternal: true
+  name: NSQuoteListItem
+  nameWithType: NSQuoteListItem
+  fullName: CRMScript.NetServer.NSQuoteListItem
+- uid: CRMScript.NetServer.NSQuoteVersion[]
+  isExternal: true
+  name: NSQuoteVersion[]
+  nameWithType: NSQuoteVersion[]
+  fullName: CRMScript.NetServer.NSQuoteVersion[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSQuoteVersion
+    isExternal: true
+    name: NSQuoteVersion
+    nameWithType: NSQuoteVersion
+    fullName: CRMScript.NetServer.NSQuoteVersion
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSQuoteVersion
+  commentId: T:CRMScript.NetServer.NSQuoteVersion
+  isExternal: true
+  name: NSQuoteVersion
+  nameWithType: NSQuoteVersion
+  fullName: CRMScript.NetServer.NSQuoteVersion
+- uid: CRMScript.NetServer.NSQuoteVersionWorkflowState
+  commentId: T:CRMScript.NetServer.NSQuoteVersionWorkflowState
+  isExternal: true
+  name: NSQuoteVersionWorkflowState
+  nameWithType: NSQuoteVersionWorkflowState
+  fullName: CRMScript.NetServer.NSQuoteVersionWorkflowState
+- uid: CRMScript.NetServer.NSQuoteVersionButtonState
+  commentId: T:CRMScript.NetServer.NSQuoteVersionButtonState
+  isExternal: true
+  name: NSQuoteVersionButtonState
+  nameWithType: NSQuoteVersionButtonState
+  fullName: CRMScript.NetServer.NSQuoteVersionButtonState
+- uid: CRMScript.NetServer.NSQuoteVersionStatusInformation
+  commentId: T:CRMScript.NetServer.NSQuoteVersionStatusInformation
+  isExternal: true
+  name: NSQuoteVersionStatusInformation
+  nameWithType: NSQuoteVersionStatusInformation
+  fullName: CRMScript.NetServer.NSQuoteVersionStatusInformation
+- uid: CRMScript.NetServer.NSQuoteAlternativeRecalculated
+  commentId: T:CRMScript.NetServer.NSQuoteAlternativeRecalculated
+  isExternal: true
+  name: NSQuoteAlternativeRecalculated
+  nameWithType: NSQuoteAlternativeRecalculated
+  fullName: CRMScript.NetServer.NSQuoteAlternativeRecalculated
+- uid: CRMScript.NetServer.NSQuoteVersionValidated
+  commentId: T:CRMScript.NetServer.NSQuoteVersionValidated
+  isExternal: true
+  name: NSQuoteVersionValidated
+  nameWithType: NSQuoteVersionValidated
+  fullName: CRMScript.NetServer.NSQuoteVersionValidated
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.QuoteVersionButtonAction
+  commentId: T:CRMScript.NetServer.QuoteVersionButtonAction
+  isExternal: true
+  name: QuoteVersionButtonAction
+  nameWithType: QuoteVersionButtonAction
+  fullName: CRMScript.NetServer.QuoteVersionButtonAction

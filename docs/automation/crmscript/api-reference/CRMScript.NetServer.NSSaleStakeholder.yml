@@ -1,0 +1,891 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSSaleStakeholder
+  commentId: T:CRMScript.NetServer.NSSaleStakeholder
+  id: NSSaleStakeholder
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSSaleStakeholder.#ctor
+  - CRMScript.NetServer.NSSaleStakeholder.GetComment()
+  - CRMScript.NetServer.NSSaleStakeholder.GetContactId()
+  - CRMScript.NetServer.NSSaleStakeholder.GetContactName()
+  - CRMScript.NetServer.NSSaleStakeholder.GetCountryId()
+  - CRMScript.NetServer.NSSaleStakeholder.GetEmailAddress()
+  - CRMScript.NetServer.NSSaleStakeholder.GetEmailDescription()
+  - CRMScript.NetServer.NSSaleStakeholder.GetEmailId()
+  - CRMScript.NetServer.NSSaleStakeholder.GetFirstname()
+  - CRMScript.NetServer.NSSaleStakeholder.GetLastname()
+  - CRMScript.NetServer.NSSaleStakeholder.GetMiddleName()
+  - CRMScript.NetServer.NSSaleStakeholder.GetMrmrs()
+  - CRMScript.NetServer.NSSaleStakeholder.GetPersonId()
+  - CRMScript.NetServer.NSSaleStakeholder.GetPhone()
+  - CRMScript.NetServer.NSSaleStakeholder.GetPhoneId()
+  - CRMScript.NetServer.NSSaleStakeholder.GetRank()
+  - CRMScript.NetServer.NSSaleStakeholder.GetSaleId()
+  - CRMScript.NetServer.NSSaleStakeholder.GetSaleStakeholderId()
+  - CRMScript.NetServer.NSSaleStakeholder.GetStakeholderRoleId()
+  - CRMScript.NetServer.NSSaleStakeholder.GetStakeholderRoleName()
+  - CRMScript.NetServer.NSSaleStakeholder.SetComment(String)
+  - CRMScript.NetServer.NSSaleStakeholder.SetContactId(Integer)
+  - CRMScript.NetServer.NSSaleStakeholder.SetContactName(String)
+  - CRMScript.NetServer.NSSaleStakeholder.SetCountryId(Integer)
+  - CRMScript.NetServer.NSSaleStakeholder.SetEmailAddress(String)
+  - CRMScript.NetServer.NSSaleStakeholder.SetEmailDescription(String)
+  - CRMScript.NetServer.NSSaleStakeholder.SetEmailId(Integer)
+  - CRMScript.NetServer.NSSaleStakeholder.SetFirstname(String)
+  - CRMScript.NetServer.NSSaleStakeholder.SetLastname(String)
+  - CRMScript.NetServer.NSSaleStakeholder.SetMiddleName(String)
+  - CRMScript.NetServer.NSSaleStakeholder.SetMrmrs(String)
+  - CRMScript.NetServer.NSSaleStakeholder.SetPersonId(Integer)
+  - CRMScript.NetServer.NSSaleStakeholder.SetPhone(String)
+  - CRMScript.NetServer.NSSaleStakeholder.SetPhoneId(Integer)
+  - CRMScript.NetServer.NSSaleStakeholder.SetRank(Integer)
+  - CRMScript.NetServer.NSSaleStakeholder.SetSaleId(Integer)
+  - CRMScript.NetServer.NSSaleStakeholder.SetSaleStakeholderId(Integer)
+  - CRMScript.NetServer.NSSaleStakeholder.SetStakeholderRoleId(Integer)
+  - CRMScript.NetServer.NSSaleStakeholder.SetStakeholderRoleName(String)
+  name: NSSaleStakeholder
+  nameWithType: NSSaleStakeholder
+  fullName: CRMScript.NetServer.NSSaleStakeholder
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSSaleStakeholder.#ctor
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSSaleStakeholder
+  langs:
+  - crmscript
+  name: NSSaleStakeholder()
+  nameWithType: NSSaleStakeholder.#ctor
+  fullName: CRMScript.NetServer.NSSaleStakeholder.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSSaleStakeholder class.\n"
+  remarks: 
+  syntax: 
+    content: NSSaleStakeholder
+  example: 
+- uid: CRMScript.NetServer.NSSaleStakeholder.GetComment()
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetComment()
+  id: 'GetComment()'
+  so.intellisense: NSSaleStakeholder.GetComment
+  langs:
+  - crmscript
+  name: 'GetComment()'
+  nameWithType: NSSaleStakeholder.GetComment()
+  fullName: CRMScript.NetServer.NSSaleStakeholder.GetComment()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetComment()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Optional comment text."
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nString comment = thing.GetComment();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.GetContactId()
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetContactId()
+  id: 'GetContactId()'
+  so.intellisense: NSSaleStakeholder.GetContactId
+  langs:
+  - crmscript
+  name: 'GetContactId()'
+  nameWithType: NSSaleStakeholder.GetContactId()
+  fullName: CRMScript.NetServer.NSSaleStakeholder.GetContactId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetContactId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Contact ID of person or contact who is the sale stakeholder."
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nInteger contactId = thing.GetContactId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.GetContactName()
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetContactName()
+  id: 'GetContactName()'
+  so.intellisense: NSSaleStakeholder.GetContactName
+  langs:
+  - crmscript
+  name: 'GetContactName()'
+  nameWithType: NSSaleStakeholder.GetContactName()
+  fullName: CRMScript.NetServer.NSSaleStakeholder.GetContactName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetContactName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Contact name."
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nString contactName = thing.GetContactName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.GetCountryId()
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetCountryId()
+  id: 'GetCountryId()'
+  so.intellisense: NSSaleStakeholder.GetCountryId
+  langs:
+  - crmscript
+  name: 'GetCountryId()'
+  nameWithType: NSSaleStakeholder.GetCountryId()
+  fullName: CRMScript.NetServer.NSSaleStakeholder.GetCountryId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCountryId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Country ID, primary key."
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nInteger countryId = thing.GetCountryId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.GetEmailAddress()
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetEmailAddress()
+  id: 'GetEmailAddress()'
+  so.intellisense: NSSaleStakeholder.GetEmailAddress
+  langs:
+  - crmscript
+  name: 'GetEmailAddress()'
+  nameWithType: NSSaleStakeholder.GetEmailAddress()
+  fullName: CRMScript.NetServer.NSSaleStakeholder.GetEmailAddress()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetEmailAddress()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Email address."
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nString emailAddress = thing.GetEmailAddress();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.GetEmailDescription()
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetEmailDescription()
+  id: 'GetEmailDescription()'
+  so.intellisense: NSSaleStakeholder.GetEmailDescription
+  langs:
+  - crmscript
+  name: 'GetEmailDescription()'
+  nameWithType: NSSaleStakeholder.GetEmailDescription()
+  fullName: CRMScript.NetServer.NSSaleStakeholder.GetEmailDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetEmailDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Email description."
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nString emailDescription = thing.GetEmailDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.GetEmailId()
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetEmailId()
+  id: 'GetEmailId()'
+  so.intellisense: NSSaleStakeholder.GetEmailId
+  langs:
+  - crmscript
+  name: 'GetEmailId()'
+  nameWithType: NSSaleStakeholder.GetEmailId()
+  fullName: CRMScript.NetServer.NSSaleStakeholder.GetEmailId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetEmailId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Email address ID, Primary key."
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nInteger emailId = thing.GetEmailId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.GetFirstname()
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetFirstname()
+  id: 'GetFirstname()'
+  so.intellisense: NSSaleStakeholder.GetFirstname
+  langs:
+  - crmscript
+  name: 'GetFirstname()'
+  nameWithType: NSSaleStakeholder.GetFirstname()
+  fullName: CRMScript.NetServer.NSSaleStakeholder.GetFirstname()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFirstname()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "First name."
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nString firstname = thing.GetFirstname();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.GetLastname()
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetLastname()
+  id: 'GetLastname()'
+  so.intellisense: NSSaleStakeholder.GetLastname
+  langs:
+  - crmscript
+  name: 'GetLastname()'
+  nameWithType: NSSaleStakeholder.GetLastname()
+  fullName: CRMScript.NetServer.NSSaleStakeholder.GetLastname()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetLastname()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Last name."
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nString lastname = thing.GetLastname();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.GetMiddleName()
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetMiddleName()
+  id: 'GetMiddleName()'
+  so.intellisense: NSSaleStakeholder.GetMiddleName
+  langs:
+  - crmscript
+  name: 'GetMiddleName()'
+  nameWithType: NSSaleStakeholder.GetMiddleName()
+  fullName: CRMScript.NetServer.NSSaleStakeholder.GetMiddleName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetMiddleName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Middle name or 'van' etc."
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nString middleName = thing.GetMiddleName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.GetMrmrs()
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetMrmrs()
+  id: 'GetMrmrs()'
+  so.intellisense: NSSaleStakeholder.GetMrmrs
+  langs:
+  - crmscript
+  name: 'GetMrmrs()'
+  nameWithType: NSSaleStakeholder.GetMrmrs()
+  fullName: CRMScript.NetServer.NSSaleStakeholder.GetMrmrs()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetMrmrs()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Mrs, Mr, Ms, Dr."
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nString mrmrs = thing.GetMrmrs();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.GetPersonId()
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetPersonId()
+  id: 'GetPersonId()'
+  so.intellisense: NSSaleStakeholder.GetPersonId
+  langs:
+  - crmscript
+  name: 'GetPersonId()'
+  nameWithType: NSSaleStakeholder.GetPersonId()
+  fullName: CRMScript.NetServer.NSSaleStakeholder.GetPersonId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPersonId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Person ID, Primary key."
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nInteger personId = thing.GetPersonId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.GetPhone()
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetPhone()
+  id: 'GetPhone()'
+  so.intellisense: NSSaleStakeholder.GetPhone
+  langs:
+  - crmscript
+  name: 'GetPhone()'
+  nameWithType: NSSaleStakeholder.GetPhone()
+  fullName: CRMScript.NetServer.NSSaleStakeholder.GetPhone()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPhone()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Phone number."
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nString phone = thing.GetPhone();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.GetPhoneId()
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetPhoneId()
+  id: 'GetPhoneId()'
+  so.intellisense: NSSaleStakeholder.GetPhoneId
+  langs:
+  - crmscript
+  name: 'GetPhoneId()'
+  nameWithType: NSSaleStakeholder.GetPhoneId()
+  fullName: CRMScript.NetServer.NSSaleStakeholder.GetPhoneId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPhoneId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nInteger phoneId = thing.GetPhoneId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.GetRank()
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSSaleStakeholder.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSSaleStakeholder.GetRank()
+  fullName: CRMScript.NetServer.NSSaleStakeholder.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Rank in list of stakeholders."
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.GetSaleId()
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetSaleId()
+  id: 'GetSaleId()'
+  so.intellisense: NSSaleStakeholder.GetSaleId
+  langs:
+  - crmscript
+  name: 'GetSaleId()'
+  nameWithType: NSSaleStakeholder.GetSaleId()
+  fullName: CRMScript.NetServer.NSSaleStakeholder.GetSaleId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSaleId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Parent sale."
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nInteger saleId = thing.GetSaleId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.GetSaleStakeholderId()
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetSaleStakeholderId()
+  id: 'GetSaleStakeholderId()'
+  so.intellisense: NSSaleStakeholder.GetSaleStakeholderId
+  langs:
+  - crmscript
+  name: 'GetSaleStakeholderId()'
+  nameWithType: NSSaleStakeholder.GetSaleStakeholderId()
+  fullName: CRMScript.NetServer.NSSaleStakeholder.GetSaleStakeholderId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSaleStakeholderId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nInteger saleStakeholderId = thing.GetSaleStakeholderId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.GetStakeholderRoleId()
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetStakeholderRoleId()
+  id: 'GetStakeholderRoleId()'
+  so.intellisense: NSSaleStakeholder.GetStakeholderRoleId
+  langs:
+  - crmscript
+  name: 'GetStakeholderRoleId()'
+  nameWithType: NSSaleStakeholder.GetStakeholderRoleId()
+  fullName: CRMScript.NetServer.NSSaleStakeholder.GetStakeholderRoleId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetStakeholderRoleId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Stakeholder role list ID, Primary key."
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nInteger stakeholderRoleId = thing.GetStakeholderRoleId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.GetStakeholderRoleName()
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.GetStakeholderRoleName()
+  id: 'GetStakeholderRoleName()'
+  so.intellisense: NSSaleStakeholder.GetStakeholderRoleName
+  langs:
+  - crmscript
+  name: 'GetStakeholderRoleName()'
+  nameWithType: NSSaleStakeholder.GetStakeholderRoleName()
+  fullName: CRMScript.NetServer.NSSaleStakeholder.GetStakeholderRoleName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetStakeholderRoleName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Stakeholder role name."
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nString stakeholderRoleName = thing.GetStakeholderRoleName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.SetComment(String)
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetComment(String)
+  id: 'SetComment(String)'
+  so.intellisense: NSSaleStakeholder.SetComment
+  langs:
+  - crmscript
+  name: 'SetComment(String)'
+  nameWithType: NSSaleStakeholder.SetComment(String)
+  fullName: CRMScript.NetServer.NSSaleStakeholder.SetComment(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetComment(String comment)
+    parameters:
+    - id: comment
+      type: CRMScript.Global.String
+      description: "Optional comment text."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nString comment;\nthing.SetComment(comment);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.SetContactId(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetContactId(Integer)
+  id: 'SetContactId(Integer)'
+  so.intellisense: NSSaleStakeholder.SetContactId
+  langs:
+  - crmscript
+  name: 'SetContactId(Integer)'
+  nameWithType: NSSaleStakeholder.SetContactId(Integer)
+  fullName: CRMScript.NetServer.NSSaleStakeholder.SetContactId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactId(Integer contactId)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: "Contact ID of person or contact who is the sale stakeholder."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nInteger contactId;\nthing.SetContactId(contactId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.SetContactName(String)
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetContactName(String)
+  id: 'SetContactName(String)'
+  so.intellisense: NSSaleStakeholder.SetContactName
+  langs:
+  - crmscript
+  name: 'SetContactName(String)'
+  nameWithType: NSSaleStakeholder.SetContactName(String)
+  fullName: CRMScript.NetServer.NSSaleStakeholder.SetContactName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactName(String contactName)
+    parameters:
+    - id: contactName
+      type: CRMScript.Global.String
+      description: "Contact name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nString contactName;\nthing.SetContactName(contactName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.SetCountryId(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetCountryId(Integer)
+  id: 'SetCountryId(Integer)'
+  so.intellisense: NSSaleStakeholder.SetCountryId
+  langs:
+  - crmscript
+  name: 'SetCountryId(Integer)'
+  nameWithType: NSSaleStakeholder.SetCountryId(Integer)
+  fullName: CRMScript.NetServer.NSSaleStakeholder.SetCountryId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCountryId(Integer countryId)
+    parameters:
+    - id: countryId
+      type: CRMScript.Global.Integer
+      description: "Country ID, primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nInteger countryId;\nthing.SetCountryId(countryId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.SetEmailAddress(String)
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetEmailAddress(String)
+  id: 'SetEmailAddress(String)'
+  so.intellisense: NSSaleStakeholder.SetEmailAddress
+  langs:
+  - crmscript
+  name: 'SetEmailAddress(String)'
+  nameWithType: NSSaleStakeholder.SetEmailAddress(String)
+  fullName: CRMScript.NetServer.NSSaleStakeholder.SetEmailAddress(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEmailAddress(String emailAddress)
+    parameters:
+    - id: emailAddress
+      type: CRMScript.Global.String
+      description: "Email address."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nString emailAddress;\nthing.SetEmailAddress(emailAddress);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.SetEmailDescription(String)
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetEmailDescription(String)
+  id: 'SetEmailDescription(String)'
+  so.intellisense: NSSaleStakeholder.SetEmailDescription
+  langs:
+  - crmscript
+  name: 'SetEmailDescription(String)'
+  nameWithType: NSSaleStakeholder.SetEmailDescription(String)
+  fullName: CRMScript.NetServer.NSSaleStakeholder.SetEmailDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEmailDescription(String emailDescription)
+    parameters:
+    - id: emailDescription
+      type: CRMScript.Global.String
+      description: "Email description."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nString emailDescription;\nthing.SetEmailDescription(emailDescription);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.SetEmailId(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetEmailId(Integer)
+  id: 'SetEmailId(Integer)'
+  so.intellisense: NSSaleStakeholder.SetEmailId
+  langs:
+  - crmscript
+  name: 'SetEmailId(Integer)'
+  nameWithType: NSSaleStakeholder.SetEmailId(Integer)
+  fullName: CRMScript.NetServer.NSSaleStakeholder.SetEmailId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEmailId(Integer emailId)
+    parameters:
+    - id: emailId
+      type: CRMScript.Global.Integer
+      description: "Email address ID, Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nInteger emailId;\nthing.SetEmailId(emailId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.SetFirstname(String)
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetFirstname(String)
+  id: 'SetFirstname(String)'
+  so.intellisense: NSSaleStakeholder.SetFirstname
+  langs:
+  - crmscript
+  name: 'SetFirstname(String)'
+  nameWithType: NSSaleStakeholder.SetFirstname(String)
+  fullName: CRMScript.NetServer.NSSaleStakeholder.SetFirstname(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFirstname(String firstname)
+    parameters:
+    - id: firstname
+      type: CRMScript.Global.String
+      description: "First name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nString firstname;\nthing.SetFirstname(firstname);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.SetLastname(String)
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetLastname(String)
+  id: 'SetLastname(String)'
+  so.intellisense: NSSaleStakeholder.SetLastname
+  langs:
+  - crmscript
+  name: 'SetLastname(String)'
+  nameWithType: NSSaleStakeholder.SetLastname(String)
+  fullName: CRMScript.NetServer.NSSaleStakeholder.SetLastname(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLastname(String lastname)
+    parameters:
+    - id: lastname
+      type: CRMScript.Global.String
+      description: "Last name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nString lastname;\nthing.SetLastname(lastname);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.SetMiddleName(String)
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetMiddleName(String)
+  id: 'SetMiddleName(String)'
+  so.intellisense: NSSaleStakeholder.SetMiddleName
+  langs:
+  - crmscript
+  name: 'SetMiddleName(String)'
+  nameWithType: NSSaleStakeholder.SetMiddleName(String)
+  fullName: CRMScript.NetServer.NSSaleStakeholder.SetMiddleName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMiddleName(String middleName)
+    parameters:
+    - id: middleName
+      type: CRMScript.Global.String
+      description: "Middle name or 'van' etc."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nString middleName;\nthing.SetMiddleName(middleName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.SetMrmrs(String)
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetMrmrs(String)
+  id: 'SetMrmrs(String)'
+  so.intellisense: NSSaleStakeholder.SetMrmrs
+  langs:
+  - crmscript
+  name: 'SetMrmrs(String)'
+  nameWithType: NSSaleStakeholder.SetMrmrs(String)
+  fullName: CRMScript.NetServer.NSSaleStakeholder.SetMrmrs(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMrmrs(String mrmrs)
+    parameters:
+    - id: mrmrs
+      type: CRMScript.Global.String
+      description: "Mrs, Mr, Ms, Dr."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nString mrmrs;\nthing.SetMrmrs(mrmrs);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.SetPersonId(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetPersonId(Integer)
+  id: 'SetPersonId(Integer)'
+  so.intellisense: NSSaleStakeholder.SetPersonId
+  langs:
+  - crmscript
+  name: 'SetPersonId(Integer)'
+  nameWithType: NSSaleStakeholder.SetPersonId(Integer)
+  fullName: CRMScript.NetServer.NSSaleStakeholder.SetPersonId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonId(Integer personId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: "Person ID, Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nInteger personId;\nthing.SetPersonId(personId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.SetPhone(String)
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetPhone(String)
+  id: 'SetPhone(String)'
+  so.intellisense: NSSaleStakeholder.SetPhone
+  langs:
+  - crmscript
+  name: 'SetPhone(String)'
+  nameWithType: NSSaleStakeholder.SetPhone(String)
+  fullName: CRMScript.NetServer.NSSaleStakeholder.SetPhone(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPhone(String phone)
+    parameters:
+    - id: phone
+      type: CRMScript.Global.String
+      description: "Phone number."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nString phone;\nthing.SetPhone(phone);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.SetPhoneId(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetPhoneId(Integer)
+  id: 'SetPhoneId(Integer)'
+  so.intellisense: NSSaleStakeholder.SetPhoneId
+  langs:
+  - crmscript
+  name: 'SetPhoneId(Integer)'
+  nameWithType: NSSaleStakeholder.SetPhoneId(Integer)
+  fullName: CRMScript.NetServer.NSSaleStakeholder.SetPhoneId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPhoneId(Integer phoneId)
+    parameters:
+    - id: phoneId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nInteger phoneId;\nthing.SetPhoneId(phoneId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSSaleStakeholder.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSSaleStakeholder.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSSaleStakeholder.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "Rank in list of stakeholders."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.SetSaleId(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetSaleId(Integer)
+  id: 'SetSaleId(Integer)'
+  so.intellisense: NSSaleStakeholder.SetSaleId
+  langs:
+  - crmscript
+  name: 'SetSaleId(Integer)'
+  nameWithType: NSSaleStakeholder.SetSaleId(Integer)
+  fullName: CRMScript.NetServer.NSSaleStakeholder.SetSaleId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSaleId(Integer saleId)
+    parameters:
+    - id: saleId
+      type: CRMScript.Global.Integer
+      description: "Parent sale."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nInteger saleId;\nthing.SetSaleId(saleId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.SetSaleStakeholderId(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetSaleStakeholderId(Integer)
+  id: 'SetSaleStakeholderId(Integer)'
+  so.intellisense: NSSaleStakeholder.SetSaleStakeholderId
+  langs:
+  - crmscript
+  name: 'SetSaleStakeholderId(Integer)'
+  nameWithType: NSSaleStakeholder.SetSaleStakeholderId(Integer)
+  fullName: CRMScript.NetServer.NSSaleStakeholder.SetSaleStakeholderId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSaleStakeholderId(Integer saleStakeholderId)
+    parameters:
+    - id: saleStakeholderId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nInteger saleStakeholderId;\nthing.SetSaleStakeholderId(saleStakeholderId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.SetStakeholderRoleId(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetStakeholderRoleId(Integer)
+  id: 'SetStakeholderRoleId(Integer)'
+  so.intellisense: NSSaleStakeholder.SetStakeholderRoleId
+  langs:
+  - crmscript
+  name: 'SetStakeholderRoleId(Integer)'
+  nameWithType: NSSaleStakeholder.SetStakeholderRoleId(Integer)
+  fullName: CRMScript.NetServer.NSSaleStakeholder.SetStakeholderRoleId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetStakeholderRoleId(Integer stakeholderRoleId)
+    parameters:
+    - id: stakeholderRoleId
+      type: CRMScript.Global.Integer
+      description: "Stakeholder role list ID, Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nInteger stakeholderRoleId;\nthing.SetStakeholderRoleId(stakeholderRoleId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleStakeholder.SetStakeholderRoleName(String)
+  commentId: M:CRMScript.NetServer.NSSaleStakeholder.SetStakeholderRoleName(String)
+  id: 'SetStakeholderRoleName(String)'
+  so.intellisense: NSSaleStakeholder.SetStakeholderRoleName
+  langs:
+  - crmscript
+  name: 'SetStakeholderRoleName(String)'
+  nameWithType: NSSaleStakeholder.SetStakeholderRoleName(String)
+  fullName: CRMScript.NetServer.NSSaleStakeholder.SetStakeholderRoleName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetStakeholderRoleName(String stakeholderRoleName)
+    parameters:
+    - id: stakeholderRoleName
+      type: CRMScript.Global.String
+      description: "Stakeholder role name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleStakeholder thing;\nString stakeholderRoleName;\nthing.SetStakeholderRoleName(stakeholderRoleName);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSSaleStakeholder
+  commentId: T:CRMScript.NetServer.NSSaleStakeholder
+  isExternal: true
+  name: NSSaleStakeholder
+  nameWithType: NSSaleStakeholder
+  fullName: CRMScript.NetServer.NSSaleStakeholder
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

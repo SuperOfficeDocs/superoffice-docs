@@ -1,0 +1,172 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSNavigatorAgent
+  commentId: T:CRMScript.NetServer.NSNavigatorAgent
+  id: NSNavigatorAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSNavigatorAgent.#ctor
+  - CRMScript.NetServer.NSNavigatorAgent.GetNavigatorCompanies(String)
+  - CRMScript.NetServer.NSNavigatorAgent.GetNavigatorCompany(Integer)
+  - CRMScript.NetServer.NSNavigatorAgent.GetNavigatorCompanyList(Integer[])
+  name: NSNavigatorAgent
+  nameWithType: NSNavigatorAgent
+  fullName: CRMScript.NetServer.NSNavigatorAgent
+  type: Class
+  summary: "\nNavigator stuff.\n"
+  example: 
+  - "\n<pre><code>NSNavigatorAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSNavigatorAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSNavigatorAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSNavigatorAgent
+  langs:
+  - crmscript
+  name: NSNavigatorAgent()
+  nameWithType: NSNavigatorAgent.#ctor
+  fullName: CRMScript.NetServer.NSNavigatorAgent.#ctor
+  type: Constructor
+  summary: "\nNavigator stuff.\n"
+  remarks: 
+  syntax: 
+    content: NSNavigatorAgent
+  example: 
+  - "\n<pre><code>NSNavigatorAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSNavigatorAgent.GetNavigatorCompanies(String)
+  commentId: M:CRMScript.NetServer.NSNavigatorAgent.GetNavigatorCompanies(String)
+  id: 'GetNavigatorCompanies(String)'
+  so.intellisense: NSNavigatorAgent.GetNavigatorCompanies
+  langs:
+  - crmscript
+  name: 'GetNavigatorCompanies(String)'
+  nameWithType: NSNavigatorAgent.GetNavigatorCompanies(String)
+  fullName: CRMScript.NetServer.NSNavigatorAgent.GetNavigatorCompanies(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSNavigatorCompany[] GetNavigatorCompanies(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSNavigatorCompany[]
+  example: 
+  - "\n<pre><code>NSNavigatorAgent agent;\nString name = &quot;&quot;;\nNSNavigatorCompany[] thing = agent.GetNavigatorCompanies(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSNavigatorAgent.GetNavigatorCompany(Integer)
+  commentId: M:CRMScript.NetServer.NSNavigatorAgent.GetNavigatorCompany(Integer)
+  id: 'GetNavigatorCompany(Integer)'
+  so.intellisense: NSNavigatorAgent.GetNavigatorCompany
+  langs:
+  - crmscript
+  name: 'GetNavigatorCompany(Integer)'
+  nameWithType: NSNavigatorAgent.GetNavigatorCompany(Integer)
+  fullName: CRMScript.NetServer.NSNavigatorAgent.GetNavigatorCompany(Integer)
+  type: Method
+  summary: "\nGets an NSNavigatorCompany object.\n"
+  remarks: 
+  syntax: 
+    content: NSNavigatorCompany GetNavigatorCompany(Integer navigatorCompanyId)
+    parameters:
+    - id: navigatorCompanyId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSNavigatorCompany
+  example: 
+  - "\n<pre><code>NSNavigatorAgent agent;\nNSNavigatorCompany thing = agent.GetNavigatorCompany(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSNavigatorAgent.GetNavigatorCompanyList(Integer[])
+  commentId: M:CRMScript.NetServer.NSNavigatorAgent.GetNavigatorCompanyList(Integer[])
+  id: 'GetNavigatorCompanyList(Integer[])'
+  so.intellisense: NSNavigatorAgent.GetNavigatorCompanyList
+  langs:
+  - crmscript
+  name: 'GetNavigatorCompanyList(Integer[])'
+  nameWithType: NSNavigatorAgent.GetNavigatorCompanyList(Integer[])
+  fullName: CRMScript.NetServer.NSNavigatorAgent.GetNavigatorCompanyList(Integer[])
+  type: Method
+  summary: "\nGets an array of NSNavigatorCompany objects.\n"
+  remarks: 
+  syntax: 
+    content: NSNavigatorCompany[] GetNavigatorCompanyList(Integer[]  navigatorCompanyIds)
+    parameters:
+    - id: navigatorCompanyIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSNavigatorCompany[]
+  example: 
+  - "\n<pre><code>Integer[] ids;\nNSNavigatorAgent agent;\nagent.GetNavigatorCompanyList(ids);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSNavigatorAgent
+  commentId: T:CRMScript.NetServer.NSNavigatorAgent
+  isExternal: true
+  name: NSNavigatorAgent
+  nameWithType: NSNavigatorAgent
+  fullName: CRMScript.NetServer.NSNavigatorAgent
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSNavigatorCompany[]
+  isExternal: true
+  name: NSNavigatorCompany[]
+  nameWithType: NSNavigatorCompany[]
+  fullName: CRMScript.NetServer.NSNavigatorCompany[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSNavigatorCompany
+    isExternal: true
+    name: NSNavigatorCompany
+    nameWithType: NSNavigatorCompany
+    fullName: CRMScript.NetServer.NSNavigatorCompany
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSNavigatorCompany
+  commentId: T:CRMScript.NetServer.NSNavigatorCompany
+  isExternal: true
+  name: NSNavigatorCompany
+  nameWithType: NSNavigatorCompany
+  fullName: CRMScript.NetServer.NSNavigatorCompany
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSNavigatorCompany
+  commentId: T:CRMScript.NetServer.NSNavigatorCompany
+  isExternal: true
+  name: NSNavigatorCompany
+  nameWithType: NSNavigatorCompany
+  fullName: CRMScript.NetServer.NSNavigatorCompany
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    isExternal: true
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

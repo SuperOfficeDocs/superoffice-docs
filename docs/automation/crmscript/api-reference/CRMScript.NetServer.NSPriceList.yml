@@ -1,0 +1,507 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSPriceList
+  commentId: T:CRMScript.NetServer.NSPriceList
+  id: NSPriceList
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSPriceList.#ctor
+  - CRMScript.NetServer.NSPriceList.GetCurrency()
+  - CRMScript.NetServer.NSPriceList.GetCurrencyName()
+  - CRMScript.NetServer.NSPriceList.GetDescription()
+  - CRMScript.NetServer.NSPriceList.GetERPPriceListKey()
+  - CRMScript.NetServer.NSPriceList.GetIsActive()
+  - CRMScript.NetServer.NSPriceList.GetName()
+  - CRMScript.NetServer.NSPriceList.GetPriceListId()
+  - CRMScript.NetServer.NSPriceList.GetQuoteConnectionId()
+  - CRMScript.NetServer.NSPriceList.GetValidFrom()
+  - CRMScript.NetServer.NSPriceList.GetValidTo()
+  - CRMScript.NetServer.NSPriceList.SetCurrency(String)
+  - CRMScript.NetServer.NSPriceList.SetCurrencyName(String)
+  - CRMScript.NetServer.NSPriceList.SetDescription(String)
+  - CRMScript.NetServer.NSPriceList.SetERPPriceListKey(String)
+  - CRMScript.NetServer.NSPriceList.SetIsActive(Bool)
+  - CRMScript.NetServer.NSPriceList.SetName(String)
+  - CRMScript.NetServer.NSPriceList.SetPriceListId(Integer)
+  - CRMScript.NetServer.NSPriceList.SetQuoteConnectionId(Integer)
+  - CRMScript.NetServer.NSPriceList.SetValidFrom(DateTime)
+  - CRMScript.NetServer.NSPriceList.SetValidTo(DateTime)
+  name: NSPriceList
+  nameWithType: NSPriceList
+  fullName: CRMScript.NetServer.NSPriceList
+  type: Class
+  summary: "\nA price list is basically a collection of products. It can be valid in a time period, and outright deactivated. All prices in the product list is in a specific currency. We have decieded not to separate prices and products, which means that we get a simpler data model, but some redundancy.\n"
+  example: 
+- uid: CRMScript.NetServer.NSPriceList.#ctor
+  commentId: M:CRMScript.NetServer.NSPriceList.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSPriceList
+  langs:
+  - crmscript
+  name: NSPriceList()
+  nameWithType: NSPriceList.#ctor
+  fullName: CRMScript.NetServer.NSPriceList.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSPriceList class.\n"
+  remarks: 
+  syntax: 
+    content: NSPriceList
+  example: 
+- uid: CRMScript.NetServer.NSPriceList.GetCurrency()
+  commentId: M:CRMScript.NetServer.NSPriceList.GetCurrency()
+  id: 'GetCurrency()'
+  so.intellisense: NSPriceList.GetCurrency
+  langs:
+  - crmscript
+  name: 'GetCurrency()'
+  nameWithType: NSPriceList.GetCurrency()
+  fullName: CRMScript.NetServer.NSPriceList.GetCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The iso currency code, like 'USD' or 'NOK'."
+  example: 
+  - "\n<pre><code>NSPriceList thing;\nString currency = thing.GetCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPriceList.GetCurrencyName()
+  commentId: M:CRMScript.NetServer.NSPriceList.GetCurrencyName()
+  id: 'GetCurrencyName()'
+  so.intellisense: NSPriceList.GetCurrencyName
+  langs:
+  - crmscript
+  name: 'GetCurrencyName()'
+  nameWithType: NSPriceList.GetCurrencyName()
+  fullName: CRMScript.NetServer.NSPriceList.GetCurrencyName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCurrencyName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name to use in the user interface, like perhaps 'US dollar' or '$'."
+  example: 
+  - "\n<pre><code>NSPriceList thing;\nString currencyName = thing.GetCurrencyName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPriceList.GetDescription()
+  commentId: M:CRMScript.NetServer.NSPriceList.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSPriceList.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSPriceList.GetDescription()
+  fullName: CRMScript.NetServer.NSPriceList.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Description of this price list, will be used as tool-tip in the user interface."
+  example: 
+  - "\n<pre><code>NSPriceList thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPriceList.GetERPPriceListKey()
+  commentId: M:CRMScript.NetServer.NSPriceList.GetERPPriceListKey()
+  id: 'GetERPPriceListKey()'
+  so.intellisense: NSPriceList.GetERPPriceListKey
+  langs:
+  - crmscript
+  name: 'GetERPPriceListKey()'
+  nameWithType: NSPriceList.GetERPPriceListKey()
+  fullName: CRMScript.NetServer.NSPriceList.GetERPPriceListKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetERPPriceListKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The key that uniquely identifies this price list in the ERP system."
+  example: 
+  - "\n<pre><code>NSPriceList thing;\nString eRPPriceListKey = thing.GetERPPriceListKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPriceList.GetIsActive()
+  commentId: M:CRMScript.NetServer.NSPriceList.GetIsActive()
+  id: 'GetIsActive()'
+  so.intellisense: NSPriceList.GetIsActive
+  langs:
+  - crmscript
+  name: 'GetIsActive()'
+  nameWithType: NSPriceList.GetIsActive()
+  fullName: CRMScript.NetServer.NSPriceList.GetIsActive()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsActive()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Is the list active (as opposed to being worked on, suddenly canceled, etc."
+  example: 
+  - "\n<pre><code>NSPriceList thing;\nBool isActive = thing.GetIsActive();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPriceList.GetName()
+  commentId: M:CRMScript.NetServer.NSPriceList.GetName()
+  id: 'GetName()'
+  so.intellisense: NSPriceList.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSPriceList.GetName()
+  fullName: CRMScript.NetServer.NSPriceList.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of this price list to use in the user interface."
+  example: 
+  - "\n<pre><code>NSPriceList thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPriceList.GetPriceListId()
+  commentId: M:CRMScript.NetServer.NSPriceList.GetPriceListId()
+  id: 'GetPriceListId()'
+  so.intellisense: NSPriceList.GetPriceListId
+  langs:
+  - crmscript
+  name: 'GetPriceListId()'
+  nameWithType: NSPriceList.GetPriceListId()
+  fullName: CRMScript.NetServer.NSPriceList.GetPriceListId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPriceListId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSPriceList thing;\nInteger priceListId = thing.GetPriceListId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPriceList.GetQuoteConnectionId()
+  commentId: M:CRMScript.NetServer.NSPriceList.GetQuoteConnectionId()
+  id: 'GetQuoteConnectionId()'
+  so.intellisense: NSPriceList.GetQuoteConnectionId
+  langs:
+  - crmscript
+  name: 'GetQuoteConnectionId()'
+  nameWithType: NSPriceList.GetQuoteConnectionId()
+  fullName: CRMScript.NetServer.NSPriceList.GetQuoteConnectionId()
+  type: Method
+  summary: # TODO
+  remarks: "\nReserved for future use\n"
+  syntax: 
+    content: Integer GetQuoteConnectionId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The connection to the ERP system used for this price list."
+  example: 
+  - "\n<pre><code>NSPriceList thing;\nInteger quoteConnectionId = thing.GetQuoteConnectionId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPriceList.GetValidFrom()
+  commentId: M:CRMScript.NetServer.NSPriceList.GetValidFrom()
+  id: 'GetValidFrom()'
+  so.intellisense: NSPriceList.GetValidFrom
+  langs:
+  - crmscript
+  name: 'GetValidFrom()'
+  nameWithType: NSPriceList.GetValidFrom()
+  fullName: CRMScript.NetServer.NSPriceList.GetValidFrom()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetValidFrom()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The date (inclusive) the price list start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date."
+  example: 
+  - "\n<pre><code>NSPriceList thing;\nDateTime validFrom = thing.GetValidFrom();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPriceList.GetValidTo()
+  commentId: M:CRMScript.NetServer.NSPriceList.GetValidTo()
+  id: 'GetValidTo()'
+  so.intellisense: NSPriceList.GetValidTo
+  langs:
+  - crmscript
+  name: 'GetValidTo()'
+  nameWithType: NSPriceList.GetValidTo()
+  fullName: CRMScript.NetServer.NSPriceList.GetValidTo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetValidTo()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The date (inclusive) the price list ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date."
+  example: 
+  - "\n<pre><code>NSPriceList thing;\nDateTime validTo = thing.GetValidTo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPriceList.SetCurrency(String)
+  commentId: M:CRMScript.NetServer.NSPriceList.SetCurrency(String)
+  id: 'SetCurrency(String)'
+  so.intellisense: NSPriceList.SetCurrency
+  langs:
+  - crmscript
+  name: 'SetCurrency(String)'
+  nameWithType: NSPriceList.SetCurrency(String)
+  fullName: CRMScript.NetServer.NSPriceList.SetCurrency(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCurrency(String currency)
+    parameters:
+    - id: currency
+      type: CRMScript.Global.String
+      description: "The iso currency code, like 'USD' or 'NOK'."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPriceList thing;\nString currency;\nthing.SetCurrency(currency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPriceList.SetCurrencyName(String)
+  commentId: M:CRMScript.NetServer.NSPriceList.SetCurrencyName(String)
+  id: 'SetCurrencyName(String)'
+  so.intellisense: NSPriceList.SetCurrencyName
+  langs:
+  - crmscript
+  name: 'SetCurrencyName(String)'
+  nameWithType: NSPriceList.SetCurrencyName(String)
+  fullName: CRMScript.NetServer.NSPriceList.SetCurrencyName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCurrencyName(String currencyName)
+    parameters:
+    - id: currencyName
+      type: CRMScript.Global.String
+      description: "The name to use in the user interface, like perhaps 'US dollar' or '$'."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPriceList thing;\nString currencyName;\nthing.SetCurrencyName(currencyName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPriceList.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSPriceList.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSPriceList.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSPriceList.SetDescription(String)
+  fullName: CRMScript.NetServer.NSPriceList.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "Description of this price list, will be used as tool-tip in the user interface."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPriceList thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPriceList.SetERPPriceListKey(String)
+  commentId: M:CRMScript.NetServer.NSPriceList.SetERPPriceListKey(String)
+  id: 'SetERPPriceListKey(String)'
+  so.intellisense: NSPriceList.SetERPPriceListKey
+  langs:
+  - crmscript
+  name: 'SetERPPriceListKey(String)'
+  nameWithType: NSPriceList.SetERPPriceListKey(String)
+  fullName: CRMScript.NetServer.NSPriceList.SetERPPriceListKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetERPPriceListKey(String eRPPriceListKey)
+    parameters:
+    - id: eRPPriceListKey
+      type: CRMScript.Global.String
+      description: "The key that uniquely identifies this price list in the ERP system."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPriceList thing;\nString eRPPriceListKey;\nthing.SetERPPriceListKey(eRPPriceListKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPriceList.SetIsActive(Bool)
+  commentId: M:CRMScript.NetServer.NSPriceList.SetIsActive(Bool)
+  id: 'SetIsActive(Bool)'
+  so.intellisense: NSPriceList.SetIsActive
+  langs:
+  - crmscript
+  name: 'SetIsActive(Bool)'
+  nameWithType: NSPriceList.SetIsActive(Bool)
+  fullName: CRMScript.NetServer.NSPriceList.SetIsActive(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsActive(Bool isActive)
+    parameters:
+    - id: isActive
+      type: CRMScript.Global.Bool
+      description: "Is the list active (as opposed to being worked on, suddenly canceled, etc."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPriceList thing;\nBool isActive;\nthing.SetIsActive(isActive);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPriceList.SetName(String)
+  commentId: M:CRMScript.NetServer.NSPriceList.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSPriceList.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSPriceList.SetName(String)
+  fullName: CRMScript.NetServer.NSPriceList.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Name of this price list to use in the user interface."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPriceList thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPriceList.SetPriceListId(Integer)
+  commentId: M:CRMScript.NetServer.NSPriceList.SetPriceListId(Integer)
+  id: 'SetPriceListId(Integer)'
+  so.intellisense: NSPriceList.SetPriceListId
+  langs:
+  - crmscript
+  name: 'SetPriceListId(Integer)'
+  nameWithType: NSPriceList.SetPriceListId(Integer)
+  fullName: CRMScript.NetServer.NSPriceList.SetPriceListId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPriceListId(Integer priceListId)
+    parameters:
+    - id: priceListId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPriceList thing;\nInteger priceListId;\nthing.SetPriceListId(priceListId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPriceList.SetQuoteConnectionId(Integer)
+  commentId: M:CRMScript.NetServer.NSPriceList.SetQuoteConnectionId(Integer)
+  id: 'SetQuoteConnectionId(Integer)'
+  so.intellisense: NSPriceList.SetQuoteConnectionId
+  langs:
+  - crmscript
+  name: 'SetQuoteConnectionId(Integer)'
+  nameWithType: NSPriceList.SetQuoteConnectionId(Integer)
+  fullName: CRMScript.NetServer.NSPriceList.SetQuoteConnectionId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: "\nReserved for future use\n"
+  syntax: 
+    content: Void SetQuoteConnectionId(Integer quoteConnectionId)
+    parameters:
+    - id: quoteConnectionId
+      type: CRMScript.Global.Integer
+      description: "The connection to the ERP system used for this price list."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPriceList thing;\nInteger quoteConnectionId;\nthing.SetQuoteConnectionId(quoteConnectionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPriceList.SetValidFrom(DateTime)
+  commentId: M:CRMScript.NetServer.NSPriceList.SetValidFrom(DateTime)
+  id: 'SetValidFrom(DateTime)'
+  so.intellisense: NSPriceList.SetValidFrom
+  langs:
+  - crmscript
+  name: 'SetValidFrom(DateTime)'
+  nameWithType: NSPriceList.SetValidFrom(DateTime)
+  fullName: CRMScript.NetServer.NSPriceList.SetValidFrom(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetValidFrom(DateTime validFrom)
+    parameters:
+    - id: validFrom
+      type: CRMScript.Global.DateTime
+      description: "The date (inclusive) the price list start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPriceList thing;\nDateTime validFrom;\nthing.SetValidFrom(validFrom);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPriceList.SetValidTo(DateTime)
+  commentId: M:CRMScript.NetServer.NSPriceList.SetValidTo(DateTime)
+  id: 'SetValidTo(DateTime)'
+  so.intellisense: NSPriceList.SetValidTo
+  langs:
+  - crmscript
+  name: 'SetValidTo(DateTime)'
+  nameWithType: NSPriceList.SetValidTo(DateTime)
+  fullName: CRMScript.NetServer.NSPriceList.SetValidTo(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetValidTo(DateTime validTo)
+    parameters:
+    - id: validTo
+      type: CRMScript.Global.DateTime
+      description: "The date (inclusive) the price list ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPriceList thing;\nDateTime validTo;\nthing.SetValidTo(validTo);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSPriceList
+  commentId: T:CRMScript.NetServer.NSPriceList
+  isExternal: true
+  name: NSPriceList
+  nameWithType: NSPriceList
+  fullName: CRMScript.NetServer.NSPriceList
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

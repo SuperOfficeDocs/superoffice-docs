@@ -1,0 +1,251 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSQuoteVersionWorkflowState
+  commentId: T:CRMScript.NetServer.NSQuoteVersionWorkflowState
+  id: NSQuoteVersionWorkflowState
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSQuoteVersionWorkflowState.#ctor
+  - CRMScript.NetServer.NSQuoteVersionWorkflowState.GetActionButtons()
+  - CRMScript.NetServer.NSQuoteVersionWorkflowState.GetStateImage()
+  - CRMScript.NetServer.NSQuoteVersionWorkflowState.GetStatus()
+  - CRMScript.NetServer.NSQuoteVersionWorkflowState.GetUpdatePricesButton()
+  - CRMScript.NetServer.NSQuoteVersionWorkflowState.SetActionButtons(NSQuoteVersionButtonState[])
+  - CRMScript.NetServer.NSQuoteVersionWorkflowState.SetStateImage(NSQuoteVersionButtonState)
+  - CRMScript.NetServer.NSQuoteVersionWorkflowState.SetStatus(NSQuoteVersionStatusInformation)
+  - CRMScript.NetServer.NSQuoteVersionWorkflowState.SetUpdatePricesButton(NSQuoteVersionButtonState)
+  name: NSQuoteVersionWorkflowState
+  nameWithType: NSQuoteVersionWorkflowState
+  fullName: CRMScript.NetServer.NSQuoteVersionWorkflowState
+  type: Class
+  summary: "\nInformation about possible button actions for the quote version dialog.\n"
+  example: 
+- uid: CRMScript.NetServer.NSQuoteVersionWorkflowState.#ctor
+  commentId: M:CRMScript.NetServer.NSQuoteVersionWorkflowState.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSQuoteVersionWorkflowState
+  langs:
+  - crmscript
+  name: NSQuoteVersionWorkflowState()
+  nameWithType: NSQuoteVersionWorkflowState.#ctor
+  fullName: CRMScript.NetServer.NSQuoteVersionWorkflowState.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSQuoteVersionWorkflowState class.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteVersionWorkflowState
+  example: 
+- uid: CRMScript.NetServer.NSQuoteVersionWorkflowState.GetActionButtons()
+  commentId: M:CRMScript.NetServer.NSQuoteVersionWorkflowState.GetActionButtons()
+  id: 'GetActionButtons()'
+  so.intellisense: NSQuoteVersionWorkflowState.GetActionButtons
+  langs:
+  - crmscript
+  name: 'GetActionButtons()'
+  nameWithType: NSQuoteVersionWorkflowState.GetActionButtons()
+  fullName: CRMScript.NetServer.NSQuoteVersionWorkflowState.GetActionButtons()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSQuoteVersionButtonState[] GetActionButtons()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSQuoteVersionButtonState[]
+      description: "Array of visible buttons with defined actions in the quote version dialog."
+  example: 
+  - "\n<pre><code>NSQuoteVersionWorkflowState thing;\nNSQuoteVersionButtonState[] actionButtons = thing.GetActionButtons();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionWorkflowState.GetStateImage()
+  commentId: M:CRMScript.NetServer.NSQuoteVersionWorkflowState.GetStateImage()
+  id: 'GetStateImage()'
+  so.intellisense: NSQuoteVersionWorkflowState.GetStateImage
+  langs:
+  - crmscript
+  name: 'GetStateImage()'
+  nameWithType: NSQuoteVersionWorkflowState.GetStateImage()
+  fullName: CRMScript.NetServer.NSQuoteVersionWorkflowState.GetStateImage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSQuoteVersionButtonState GetStateImage()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSQuoteVersionButtonState
+      description: "Information about the state image for the current quote version."
+  example: 
+  - "\n<pre><code>NSQuoteVersionWorkflowState thing;\nNSQuoteVersionButtonState stateImage = thing.GetStateImage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionWorkflowState.GetStatus()
+  commentId: M:CRMScript.NetServer.NSQuoteVersionWorkflowState.GetStatus()
+  id: 'GetStatus()'
+  so.intellisense: NSQuoteVersionWorkflowState.GetStatus
+  langs:
+  - crmscript
+  name: 'GetStatus()'
+  nameWithType: NSQuoteVersionWorkflowState.GetStatus()
+  fullName: CRMScript.NetServer.NSQuoteVersionWorkflowState.GetStatus()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSQuoteVersionStatusInformation GetStatus()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSQuoteVersionStatusInformation
+      description: "Status information for the Quote Version."
+  example: 
+  - "\n<pre><code>NSQuoteVersionWorkflowState thing;\nNSQuoteVersionStatusInformation status = thing.GetStatus();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionWorkflowState.GetUpdatePricesButton()
+  commentId: M:CRMScript.NetServer.NSQuoteVersionWorkflowState.GetUpdatePricesButton()
+  id: 'GetUpdatePricesButton()'
+  so.intellisense: NSQuoteVersionWorkflowState.GetUpdatePricesButton
+  langs:
+  - crmscript
+  name: 'GetUpdatePricesButton()'
+  nameWithType: NSQuoteVersionWorkflowState.GetUpdatePricesButton()
+  fullName: CRMScript.NetServer.NSQuoteVersionWorkflowState.GetUpdatePricesButton()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSQuoteVersionButtonState GetUpdatePricesButton()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSQuoteVersionButtonState
+      description: "Information about the action for the update prices button."
+  example: 
+  - "\n<pre><code>NSQuoteVersionWorkflowState thing;\nNSQuoteVersionButtonState updatePricesButton = thing.GetUpdatePricesButton();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionWorkflowState.SetActionButtons(NSQuoteVersionButtonState[])
+  commentId: M:CRMScript.NetServer.NSQuoteVersionWorkflowState.SetActionButtons(NSQuoteVersionButtonState[])
+  id: 'SetActionButtons(NSQuoteVersionButtonState[])'
+  so.intellisense: NSQuoteVersionWorkflowState.SetActionButtons
+  langs:
+  - crmscript
+  name: 'SetActionButtons(NSQuoteVersionButtonState[])'
+  nameWithType: NSQuoteVersionWorkflowState.SetActionButtons(NSQuoteVersionButtonState[])
+  fullName: CRMScript.NetServer.NSQuoteVersionWorkflowState.SetActionButtons(NSQuoteVersionButtonState[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetActionButtons(NSQuoteVersionButtonState[] actionButtons)
+    parameters:
+    - id: actionButtons
+      type: CRMScript.NetServer.NSQuoteVersionButtonState[]
+      description: "Array of visible buttons with defined actions in the quote version dialog."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersionWorkflowState thing;\nNSQuoteVersionButtonState[] actionButtons;\nthing.SetActionButtons(actionButtons);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionWorkflowState.SetStateImage(NSQuoteVersionButtonState)
+  commentId: M:CRMScript.NetServer.NSQuoteVersionWorkflowState.SetStateImage(NSQuoteVersionButtonState)
+  id: 'SetStateImage(NSQuoteVersionButtonState)'
+  so.intellisense: NSQuoteVersionWorkflowState.SetStateImage
+  langs:
+  - crmscript
+  name: 'SetStateImage(NSQuoteVersionButtonState)'
+  nameWithType: NSQuoteVersionWorkflowState.SetStateImage(NSQuoteVersionButtonState)
+  fullName: CRMScript.NetServer.NSQuoteVersionWorkflowState.SetStateImage(NSQuoteVersionButtonState)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetStateImage(NSQuoteVersionButtonState stateImage)
+    parameters:
+    - id: stateImage
+      type: CRMScript.NetServer.NSQuoteVersionButtonState
+      description: "Information about the state image for the current quote version."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersionWorkflowState thing;\nNSQuoteVersionButtonState stateImage;\nthing.SetStateImage(stateImage);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionWorkflowState.SetStatus(NSQuoteVersionStatusInformation)
+  commentId: M:CRMScript.NetServer.NSQuoteVersionWorkflowState.SetStatus(NSQuoteVersionStatusInformation)
+  id: 'SetStatus(NSQuoteVersionStatusInformation)'
+  so.intellisense: NSQuoteVersionWorkflowState.SetStatus
+  langs:
+  - crmscript
+  name: 'SetStatus(NSQuoteVersionStatusInformation)'
+  nameWithType: NSQuoteVersionWorkflowState.SetStatus(NSQuoteVersionStatusInformation)
+  fullName: CRMScript.NetServer.NSQuoteVersionWorkflowState.SetStatus(NSQuoteVersionStatusInformation)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetStatus(NSQuoteVersionStatusInformation status)
+    parameters:
+    - id: status
+      type: CRMScript.NetServer.NSQuoteVersionStatusInformation
+      description: "Status information for the Quote Version."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersionWorkflowState thing;\nNSQuoteVersionStatusInformation status;\nthing.SetStatus(status);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionWorkflowState.SetUpdatePricesButton(NSQuoteVersionButtonState)
+  commentId: M:CRMScript.NetServer.NSQuoteVersionWorkflowState.SetUpdatePricesButton(NSQuoteVersionButtonState)
+  id: 'SetUpdatePricesButton(NSQuoteVersionButtonState)'
+  so.intellisense: NSQuoteVersionWorkflowState.SetUpdatePricesButton
+  langs:
+  - crmscript
+  name: 'SetUpdatePricesButton(NSQuoteVersionButtonState)'
+  nameWithType: NSQuoteVersionWorkflowState.SetUpdatePricesButton(NSQuoteVersionButtonState)
+  fullName: CRMScript.NetServer.NSQuoteVersionWorkflowState.SetUpdatePricesButton(NSQuoteVersionButtonState)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatePricesButton(NSQuoteVersionButtonState updatePricesButton)
+    parameters:
+    - id: updatePricesButton
+      type: CRMScript.NetServer.NSQuoteVersionButtonState
+      description: "Information about the action for the update prices button."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersionWorkflowState thing;\nNSQuoteVersionButtonState updatePricesButton;\nthing.SetUpdatePricesButton(updatePricesButton);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSQuoteVersionWorkflowState
+  commentId: T:CRMScript.NetServer.NSQuoteVersionWorkflowState
+  isExternal: true
+  name: NSQuoteVersionWorkflowState
+  nameWithType: NSQuoteVersionWorkflowState
+  fullName: CRMScript.NetServer.NSQuoteVersionWorkflowState
+- uid: CRMScript.NetServer.NSQuoteVersionButtonState[]
+  isExternal: true
+  name: NSQuoteVersionButtonState[]
+  nameWithType: NSQuoteVersionButtonState[]
+  fullName: CRMScript.NetServer.NSQuoteVersionButtonState[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSQuoteVersionButtonState
+    isExternal: true
+    name: NSQuoteVersionButtonState
+    nameWithType: NSQuoteVersionButtonState
+    fullName: CRMScript.NetServer.NSQuoteVersionButtonState
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSQuoteVersionButtonState
+  commentId: T:CRMScript.NetServer.NSQuoteVersionButtonState
+  isExternal: true
+  name: NSQuoteVersionButtonState
+  nameWithType: NSQuoteVersionButtonState
+  fullName: CRMScript.NetServer.NSQuoteVersionButtonState
+- uid: CRMScript.NetServer.NSQuoteVersionButtonState
+  commentId: T:CRMScript.NetServer.NSQuoteVersionButtonState
+  isExternal: true
+  name: NSQuoteVersionButtonState
+  nameWithType: NSQuoteVersionButtonState
+  fullName: CRMScript.NetServer.NSQuoteVersionButtonState
+- uid: CRMScript.NetServer.NSQuoteVersionStatusInformation
+  commentId: T:CRMScript.NetServer.NSQuoteVersionStatusInformation
+  isExternal: true
+  name: NSQuoteVersionStatusInformation
+  nameWithType: NSQuoteVersionStatusInformation
+  fullName: CRMScript.NetServer.NSQuoteVersionStatusInformation
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

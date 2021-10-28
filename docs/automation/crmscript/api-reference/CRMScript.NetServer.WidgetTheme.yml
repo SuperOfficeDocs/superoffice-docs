@@ -1,0 +1,49 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.WidgetTheme
+  # Same as SuperOffice.Data.WidgetTheme
+  commentId: T:CRMScript.NetServer.WidgetTheme
+  id: WidgetTheme
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.WidgetTheme.Classic
+  - CRMScript.NetServer.WidgetTheme.Modern
+  name: WidgetTheme
+  nameWithType: WidgetTheme
+  fullName: CRMScript.NetServer.WidgetTheme
+  type: Enum
+  summary: "\nValue for field widget_theme in table chat_topic.\n"
+- uid: CRMScript.NetServer.WidgetTheme.Classic
+  commentId: F:CRMScript.NetServer.WidgetTheme.Classic
+  id: WidgetTheme.Classic
+  langs:
+  - crmscript
+  name: WidgetTheme.Classic
+  nameWithType: WidgetTheme.Classic
+  fullName: CRMScript.NetServer.WidgetTheme.Classic
+  type: Field
+  summary: "\n0: Set widget theme to classic\n"
+  syntax: 
+    content: Classic = 0
+    type: CRMScript.NetServer.WidgetTheme
+- uid: CRMScript.NetServer.WidgetTheme.Modern
+  commentId: F:CRMScript.NetServer.WidgetTheme.Modern
+  id: WidgetTheme.Modern
+  langs:
+  - crmscript
+  name: WidgetTheme.Modern
+  nameWithType: WidgetTheme.Modern
+  fullName: CRMScript.NetServer.WidgetTheme.Modern
+  type: Field
+  summary: "\n1: Set widget theme to modern\n"
+  syntax: 
+    content: Modern = 1
+    type: CRMScript.NetServer.WidgetTheme
+references:
+- uid: CRMScript.NetServer.WidgetTheme
+  commentId: T:CRMScript.NetServer.WidgetTheme
+  isExternal: true
+  name: WidgetTheme
+  nameWithType: WidgetTheme
+  fullName: CRMScript.NetServer.WidgetTheme

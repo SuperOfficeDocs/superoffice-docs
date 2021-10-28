@@ -1,0 +1,357 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.Company
+  commentId: T:CRMScript.Native.Company
+  id: Company
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.Company.#ctor
+  - CRMScript.Native.Company.checkFieldRights(String,String)
+  - CRMScript.Native.Company.checkTableRights(String)
+  - CRMScript.Native.Company.findFromDomain(String)
+  - CRMScript.Native.Company.getFormattedAddress()
+  - CRMScript.Native.Company.getValue(String)
+  - CRMScript.Native.Company.load(Integer)
+  - CRMScript.Native.Company.loadFromAgentAndKey(Integer,String)
+  - CRMScript.Native.Company.save()
+  - CRMScript.Native.Company.setFormattedAddress(NSLocalizedField[][])
+  - CRMScript.Native.Company.setValue(String,String)
+  - CRMScript.Native.Company.toParser(Parser)
+  name: Company
+  nameWithType: Company
+  fullName: CRMScript.Native.Company
+  type: Class
+  summary: "\nRepresents a company.\n"
+  example: 
+  - "\n<pre><code>Company c;\n\nc.load(2); // Loads company with ID = 2\nprint(c.getValue(&quot;primContact&quot;));\nc.setValue(&quot;name&quot;, &quot;SuperOffice&quot;);\nBool b = c.checkFieldRights(&quot;contact&quot;, &quot;read&quot;);\nprint(b.toString());\nc.save();</code></pre>\n"
+- uid: CRMScript.Native.Company.#ctor
+  commentId: M:CRMScript.Native.Company.#ctor
+  id: '#ctor'
+  so.intellisense: Void.Company
+  langs:
+  - crmscript
+  name: Company()
+  nameWithType: Company.#ctor
+  fullName: CRMScript.Native.Company.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the Company class.\n"
+  remarks: 
+  syntax: 
+    content: Company
+  example: 
+  - "\n<pre><code>Company c;\n\nc.load(2);</code></pre>\n"
+- uid: CRMScript.Native.Company.checkFieldRights(String,String)
+  commentId: M:CRMScript.Native.Company.checkFieldRights(String,String)
+  id: 'checkFieldRights(String,String)'
+  so.intellisense: Company.checkFieldRights
+  langs:
+  - crmscript
+  name: 'checkFieldRights(String,String)'
+  nameWithType: Company.checkFieldRights(String,String)
+  fullName: CRMScript.Native.Company.checkFieldRights(String,String)
+  type: Method
+  summary: "\nChecks if the current user has access to the field.\n"
+  remarks:
+  syntax: 
+    content: Bool checkFieldRights(String field, String fieldRight)
+    parameters:
+    - id: field
+      type: CRMScript.Global.String
+      description: "The field to check."
+    - id: fieldRight
+      type: CRMScript.Global.String
+      description: "Type of access to check for - read or write."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the current user has access to the field; otherwise, false."
+  example: 
+  - "\n<pre><code>Company c;\n\nc.load(3);\nBool b = c.checkFieldRights(&quot;contact&quot;, &quot;read&quot;);\nprint(b.toString());</code></pre>\n"
+- uid: CRMScript.Native.Company.checkTableRights(String)
+  commentId: M:CRMScript.Native.Company.checkTableRights(String)
+  id: 'checkTableRights(String)'
+  so.intellisense: Company.checkTableRights
+  langs:
+  - crmscript
+  name: 'checkTableRights(String)'
+  nameWithType: Company.checkTableRights(String)
+  fullName: CRMScript.Native.Company.checkTableRights(String)
+  type: Method
+  summary: "\nChecks if the current user has access to this company.\n"
+  remarks:
+  syntax: 
+    content: Bool checkTableRights(String tableRight)
+    parameters:
+    - id: tableRight
+      type: CRMScript.Global.String
+      description: "Type of access to check for - select, update, or insert."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the current user has access to the company; otherwise, false."
+  example: 
+  - "\n<pre><code>Company c;\n\nc.load(3);\nBool b = c.checkTableRights(&quot;select&quot;);\nprint(b.toString());</code></pre>\n"
+- uid: CRMScript.Native.Company.findFromDomain(String)
+  commentId: M:CRMScript.Native.Company.findFromDomain(String)
+  id: 'findFromDomain(String)'
+  so.intellisense: Company.findFromDomain
+  langs:
+  - crmscript
+  name: 'findFromDomain(String)'
+  nameWithType: Company.findFromDomain(String)
+  fullName: CRMScript.Native.Company.findFromDomain(String)
+  type: Method
+  summary: "\nFind and load company object given a domain.\n"
+  remarks: 
+  syntax: 
+    content: findFromDomain(String domain)
+    parameters:
+    - id: domain
+      type: CRMScript.Global.String
+      description: "Domain of the company."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if successfully loaded; otherwise, false."
+  example: 
+- uid: CRMScript.Native.Company.getFormattedAddress()
+  commentId: M:CRMScript.Native.Company.getFormattedAddress()
+  id: 'getFormattedAddress()'
+  so.intellisense: Company.getFormattedAddress
+  langs:
+  - crmscript
+  name: 'getFormattedAddress()'
+  nameWithType: Company.getFormattedAddress()
+  fullName: CRMScript.Native.Company.getFormattedAddress()
+  type: Method
+  summary: "\nGets the formatted company address.\n"
+  remarks: 
+  syntax: 
+    content: NSLocalizedField[][] getFormattedAddress()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSLocalizedField[][]
+      description: "The formatted company address."
+  example: 
+- uid: CRMScript.Native.Company.getValue(String)
+  commentId: M:CRMScript.Native.Company.getValue(String)
+  id: 'getValue(String)'
+  so.intellisense: Company.getValue
+  langs:
+  - crmscript
+  name: 'getValue(String)'
+  nameWithType: Company.getValue(String)
+  fullName: CRMScript.Native.Company.getValue(String)
+  type: Method
+  summary: "\nGets a String with the value of a given column.\n"
+  remarks: "\nPossible colNames:<ul><li>id: Integer, The primary key (auto-incremented)</li><li>primContact: Integer, The ID of the customer who is the primary contact for this company customer.id</li><li>name: String, The name of the company</li><li>note: String, A freetext field for various notes about this company</li><li>phone: String, The company's phone number</li><li>fax: String, The company's faxnumber</li><li>adr: String, The company's address</li><li>priority: Integer, The reference to the default priority for this company. NULL or -1 if not set. ticket_priority.id</li><li>deleted: Bool, A boolean telling if the company is deleted</li><li>language: Integer, The reference to the default customer language for this company. NULL or -1 if not set. cust_lang.id</li><li>ourContact: Integer, The customer's primary contact ejuser.id</li><li>extTable: Integer, The reference to the external table if this is a cached entry. NULL or -1 if not. ext_table.id</li><li>extKey: String, The primary key for the cached entry in the external datasource.</li><li>extLastCached: DateTime, When the cached entry was last updated.</li><li>domain: String, A display version of the company_domain table for this company.</li><li>x_* The extrafield with the given database field name.</li></ul>\n"
+  syntax: 
+    content: String getValue(String colName)
+    parameters:
+    - id: colName
+      type: CRMScript.Global.String
+      description: "The column to get data from."
+    return:
+      type: CRMScript.Global.String
+      description: "A string value of the given column."
+  example: 
+  - "\n<pre><code>Company c;\n\nc.load(3);\nprint(c.getValue(&quot;name&quot;));</code></pre>\n"
+- uid: CRMScript.Native.Company.load(Integer)
+  commentId: M:CRMScript.Native.Company.load(Integer)
+  id: 'load(Integer)'
+  so.intellisense: Company.load
+  langs:
+  - crmscript
+  name: 'load(Integer)'
+  nameWithType: Company.load(Integer)
+  fullName: CRMScript.Native.Company.load(Integer)
+  type: Method
+  summary: "\nLoad object with values from company with given ID.\n"
+  remarks: 
+  syntax: 
+    content: Bool load(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "The ID of the company."
+    return: 
+      type: CRMScript.Global.Bool
+      description: "True if successfully loaded; otherwise, false."
+  example: 
+  - "\n<pre><code>Company c;\n\nBool b = c.load(3);\nprint(b.toString());</code></pre>\n"
+- uid: CRMScript.Native.Company.loadFromAgentAndKey(Integer,String)
+  commentId: M:CRMScript.Native.Company.loadFromAgentAndKey(Integer,String)
+  id: 'loadFromAgentAndKey(Integer,String)'
+  so.intellisense: Company.loadFromAgentAndKey
+  langs:
+  - crmscript
+  name: 'loadFromAgentAndKey(Integer,String)'
+  nameWithType: Company.loadFromAgentAndKey(Integer,String)
+  fullName: CRMScript.Native.Company.loadFromAgentAndKey(Integer,String)
+  type: Method
+  summary: "\nLoads a company based on agent ID and external key.\n"
+  remarks: "\nLoading might overwriting existing values.\n"
+  syntax: 
+    content: Bool loadFromAgentAndKey(Integer agent, String key)
+    parameters:
+    - id: agent
+      type: CRMScript.Global.Integer
+      description: "The ID of the agent that owns this company."
+    - id: key
+      type: CRMScript.Global.String
+      description: "The external key of this company."
+    return: 
+      type: CRMScript.Global.Bool
+      description: "True if successfully loaded; false if the company does not exist."
+  example: 
+- uid: CRMScript.Native.Company.save()
+  commentId: M:CRMScript.Native.Company.save()
+  id: 'save()'
+  so.intellisense: Company.save
+  langs:
+  - crmscript
+  name: 'save()'
+  nameWithType: Company.save()
+  fullName: CRMScript.Native.Company.save()
+  type: Method
+  summary: "\nSaves the object and returns its ID.\n"
+  remarks: 
+  syntax: 
+    content: Integer save()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The company ID."
+  example: 
+- uid: CRMScript.Native.Company.setFormattedAddress(NSLocalizedField[][])
+  commentId: M:CRMScript.Native.Company.setFormattedAddress(NSLocalizedField[][])
+  id: 'setFormattedAddress(NSLocalizedField[][])'
+  so.intellisense: Company.setFormattedAddress
+  langs:
+  - crmscript
+  name: 'setFormattedAddress(NSLocalizedField[][])'
+  nameWithType: Company.setFormattedAddress(NSLocalizedField[][])
+  fullName: CRMScript.Native.Company.setFormattedAddress(NSLocalizedField[][])
+  type: Method
+  summary: "\nSets the formatted address for a company.\n"
+  remarks: 
+  syntax: 
+    content: Void SetFormattedAddress(NSLocalizedField[][] name)
+    parameters:
+    - id: name
+      type: CRMScript.NetServer.NSLocalizedField[][]
+      description: "The new address."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.Company.setValue(String,String)
+  commentId: M:CRMScript.Native.Company.setValue(String,String)
+  id: 'setValue(String,String)'
+  so.intellisense: Company.setValue
+  langs:
+  - crmscript
+  name: 'setValue(String,String)'
+  nameWithType: Company.setValue(String,String)
+  fullName: CRMScript.Native.Company.setValue(String,String)
+  type: Method
+  summary: "\nSets a value in a column of a company.\n"
+  remarks: "\nPossible column names<ul><li>id: Integer, The primary key (auto-incremented)</li><li>primContact: Integer, The ID of the customer who is the primary contact for this company customer.id</li><li>name: String, The name of the company</li><li>note: String, A freetext field for various notes about this company</li><li>infoText: the same as note (From 7.x)</li><li>phone: String, The company's phone number</li><li>phone/formattedNumber: String (From 7.x)</li><li>fax/formattedNumber: String (From 7.x)</li><li>fax: String, The company's faxnumber</li><li>adr: String, The company's address (From 7.x setting address with adr is no longer supported. Attempting to do so, will result in a GeneralException. Use NetServer instead)</li><li>priority: Integer, The reference to the default priority for this company. NULL or -1 if not set. ticket_priority.id</li><li>deleted: Bool, A boolean telling if the company is deleted</li><li>language: Integer, The reference to the default customer language for this company. NULL or -1 if not set. cust_lang.id</li><li>ourContact: Integer, The customer's primary contact ejuser.id</li><li>ourSalesContact: Integer, The sales contact for this company. (From 7.x)</li><li>supportAssociateId: String, Set the support associate id. Supports both integer and the username. (From 7.x)</li><li>primContact: Integer, The customer's primary contact customer.id</li><li>extTable: Integer, The reference to the external table if this is a cached entry. NULL or -1 if not. ext_table.id</li><li>extKey: String, The primary key for the cached entry in the external datasource.</li><li>extLastCached: DateTime, When the cached entry was last updated.</li><li>domain: String, A display version of the company_domain table for this company.</li></ul>\n"
+  syntax: 
+    content: Void SetValue(String colName, String value)
+    parameters:
+    - id: colName
+      type: CRMScript.Global.String
+      description: "Column name."
+    - id: value
+      type: CRMScript.Global.String
+      description: "Value that should be stored."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>Company c;\n\nc.load(3);\nBool b = c.checkTableRights(&quot;select&quot;);\nprint(b.toString());\n\nc.setValue(&quot;name&quot;, &quot;Test&quot;);</code></pre>\n"
+- uid: CRMScript.Native.Company.toParser(Parser)
+  commentId: M:CRMScript.Native.Company.toParser(Parser)
+  id: 'toParser(Parser)'
+  so.intellisense: Company.toParser
+  langs:
+  - crmscript
+  name: 'toParser(Parser)'
+  nameWithType: Company.toParser(Parser)
+  fullName: CRMScript.Native.Company.toParser(Parser)
+  type: Method
+  summary: "\nPuts a lot of fields into the input parser.\n"
+  remarks: "\nFields that will be loaded:<ul><li>company.id: The ID</li><li>company.name: The name</li><li>company.note: The note</li><li>company.domain: The domain</li><li>company.phone: Phone number</li><li>company.fax: Fax number</li><li>company.adr: The address</li><li>company.ourContact: The ID of the user that is this company's contact</li><li>company.primaryContact.id: The ID of the customer that is this company's primary contact</li><li>company.primaryContact.email: The email address of the customer that is this company's primary contact</li><li>company.extraFieldName: The name of the extrafield, (not x_fieldname)</li></ul>\n"
+  syntax: 
+    content: toParser(Parser parser)
+    parameters:
+    - id: parser
+      type: CRMScript.Native.Parser
+      description: "The parser to put the field-value-pairs to."
+  example: 
+references:
+- uid: CRMScript.Native.Company
+  commentId: T:CRMScript.Native.Company
+  isExternal: true
+  name: Company
+  nameWithType: Company
+  fullName: CRMScript.Native.Company
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Native.Parser
+  commentId: T:CRMScript.Native.Parser
+  isExternal: true
+  name: Parser
+  nameWithType: Parser
+  fullName: CRMScript.Native.Parser
+- uid: CRMScript.NetServer.NSLocalizedField
+  commentId: T:CRMScript.NetServer.NSLocalizedField
+  isExternal: true
+  name: NSLocalizedField
+  nameWithType: NSLocalizedField
+  fullName: CRMScript.NetServer.NSLocalizedField
+- uid: CRMScript.NetServer.NSLocalizedField[]
+  commentId: T:CRMScript.NetServer.NSLocalizedField[]
+  isExternal: true
+  name: NSLocalizedField[]
+  nameWithType: NSLocalizedField[]
+  fullName: CRMScript.NetServer.NSLocalizedField[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSLocalizedField
+    commentId: T:CRMScript.NetServer.NSLocalizedField
+    isExternal: true
+    name: NSLocalizedField
+    nameWithType: NSLocalizedField
+    fullName: CRMScript.NetServer.NSLocalizedField
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSLocalizedField[][]
+  commentId: T:CRMScript.NetServer.NSLocalizedField[][]
+  isExternal: true
+  name: NSLocalizedField[][]
+  nameWithType: NSLocalizedField[][]
+  fullName: CRMScript.NetServer.NSLocalizedField[][]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSLocalizedField[]
+    commentId: T:CRMScript.NetServer.NSLocalizedField[]
+    isExternal: true
+    name: NSLocalizedField[]
+    nameWithType: NSLocalizedField[]
+    fullName: CRMScript.NetServer.NSLocalizedField[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'

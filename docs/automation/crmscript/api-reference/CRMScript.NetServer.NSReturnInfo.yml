@@ -1,0 +1,329 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSReturnInfo
+  commentId: T:CRMScript.NetServer.NSReturnInfo
+  id: NSReturnInfo
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSReturnInfo.#ctor
+  - CRMScript.NetServer.NSReturnInfo.GetAdditionalInfo()
+  - CRMScript.NetServer.NSReturnInfo.GetExternalReference()
+  - CRMScript.NetServer.NSReturnInfo.GetSuccess()
+  - CRMScript.NetServer.NSReturnInfo.GetType()
+  - CRMScript.NetServer.NSReturnInfo.GetValue()
+  - CRMScript.NetServer.NSReturnInfo.GetVersionId()
+  - CRMScript.NetServer.NSReturnInfo.SetAdditionalInfo(String)
+  - CRMScript.NetServer.NSReturnInfo.SetExternalReference(String)
+  - CRMScript.NetServer.NSReturnInfo.SetSuccess(Bool)
+  - CRMScript.NetServer.NSReturnInfo.SetType(Integer)
+  - CRMScript.NetServer.NSReturnInfo.SetValue(String)
+  - CRMScript.NetServer.NSReturnInfo.SetVersionId(String)
+  name: NSReturnInfo
+  nameWithType: NSReturnInfo
+  fullName: CRMScript.NetServer.NSReturnInfo
+  type: Class
+  summary: "\nReturn value object for Document Plugin API calls.\n"
+  example: 
+- uid: CRMScript.NetServer.NSReturnInfo.#ctor
+  commentId: M:CRMScript.NetServer.NSReturnInfo.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSReturnInfo
+  langs:
+  - crmscript
+  name: NSReturnInfo()
+  nameWithType: NSReturnInfo.#ctor
+  fullName: CRMScript.NetServer.NSReturnInfo.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSReturnInfo class.\n"
+  remarks: 
+  syntax: 
+    content: NSReturnInfo
+  example: 
+- uid: CRMScript.NetServer.NSReturnInfo.GetAdditionalInfo()
+  commentId: M:CRMScript.NetServer.NSReturnInfo.GetAdditionalInfo()
+  id: 'GetAdditionalInfo()'
+  so.intellisense: NSReturnInfo.GetAdditionalInfo
+  langs:
+  - crmscript
+  name: 'GetAdditionalInfo()'
+  nameWithType: NSReturnInfo.GetAdditionalInfo()
+  fullName: CRMScript.NetServer.NSReturnInfo.GetAdditionalInfo()
+  type: Method
+  summary: # TODO
+  remarks: "\nThis member is ignored for return types None, Message and SoProtocol. It can be used to pass execution-dependent information to the code that handles CustomGui and Other.\n"
+  syntax: 
+    content: String GetAdditionalInfo()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Optional, additional information meant for further processing."
+  example: 
+  - "\n<pre><code>NSReturnInfo thing;\nString additionalInfo = thing.GetAdditionalInfo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReturnInfo.GetExternalReference()
+  commentId: M:CRMScript.NetServer.NSReturnInfo.GetExternalReference()
+  id: 'GetExternalReference()'
+  so.intellisense: NSReturnInfo.GetExternalReference
+  langs:
+  - crmscript
+  name: 'GetExternalReference()'
+  nameWithType: NSReturnInfo.GetExternalReference()
+  fullName: CRMScript.NetServer.NSReturnInfo.GetExternalReference()
+  type: Method
+  summary: # TODO
+  remarks: "\nStored in the externalReference field of the document table\n"
+  syntax: 
+    content: String GetExternalReference()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The document plugin's key that uniquely identifies a document."
+  example: 
+  - "\n<pre><code>NSReturnInfo thing;\nString externalReference = thing.GetExternalReference();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReturnInfo.GetSuccess()
+  commentId: M:CRMScript.NetServer.NSReturnInfo.GetSuccess()
+  id: 'GetSuccess()'
+  so.intellisense: NSReturnInfo.GetSuccess
+  langs:
+  - crmscript
+  name: 'GetSuccess()'
+  nameWithType: NSReturnInfo.GetSuccess()
+  fullName: CRMScript.NetServer.NSReturnInfo.GetSuccess()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetSuccess()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Did the call succeed. A successful call may still return a message or other return value."
+  example: 
+  - "\n<pre><code>NSReturnInfo thing;\nBool success = thing.GetSuccess();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReturnInfo.GetType()
+  commentId: M:CRMScript.NetServer.NSReturnInfo.GetType()
+  id: 'GetType()'
+  so.intellisense: NSReturnInfo.GetType
+  langs:
+  - crmscript
+  name: 'GetType()'
+  nameWithType: NSReturnInfo.GetType()
+  fullName: CRMScript.NetServer.NSReturnInfo.GetType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "How is the return value to be understood by the caller. See <xref href=\"CRMScript.NetServer.ReturnType\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSReturnInfo thing;\nInteger type = thing.GetType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReturnInfo.GetValue()
+  commentId: M:CRMScript.NetServer.NSReturnInfo.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSReturnInfo.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSReturnInfo.GetValue()
+  fullName: CRMScript.NetServer.NSReturnInfo.GetValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Return value, may be blank."
+  example: 
+  - "\n<pre><code>NSReturnInfo thing;\nString value = thing.GetValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReturnInfo.GetVersionId()
+  commentId: M:CRMScript.NetServer.NSReturnInfo.GetVersionId()
+  id: 'GetVersionId()'
+  so.intellisense: NSReturnInfo.GetVersionId
+  langs:
+  - crmscript
+  name: 'GetVersionId()'
+  nameWithType: NSReturnInfo.GetVersionId()
+  fullName: CRMScript.NetServer.NSReturnInfo.GetVersionId()
+  type: Method
+  summary: # TODO
+  remarks: "\nIf versioning is not supported, this will be blank. When versioning is supported, blank values imply the latest checked-in version.\n"
+  syntax: 
+    content: String GetVersionId()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The document plugin's version id that uniquely identifies one version of a document."
+  example: 
+  - "\n<pre><code>NSReturnInfo thing;\nString versionId = thing.GetVersionId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReturnInfo.SetAdditionalInfo(String)
+  commentId: M:CRMScript.NetServer.NSReturnInfo.SetAdditionalInfo(String)
+  id: 'SetAdditionalInfo(String)'
+  so.intellisense: NSReturnInfo.SetAdditionalInfo
+  langs:
+  - crmscript
+  name: 'SetAdditionalInfo(String)'
+  nameWithType: NSReturnInfo.SetAdditionalInfo(String)
+  fullName: CRMScript.NetServer.NSReturnInfo.SetAdditionalInfo(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nThis member is ignored for return types None, Message and SoProtocol. It can be used to pass execution-dependent information to the code that handles CustomGui and Other.\n"
+  syntax: 
+    content: Void SetAdditionalInfo(String additionalInfo)
+    parameters:
+    - id: additionalInfo
+      type: CRMScript.Global.String
+      description: "Optional, additional information meant for further processing."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReturnInfo thing;\nString additionalInfo;\nthing.SetAdditionalInfo(additionalInfo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReturnInfo.SetExternalReference(String)
+  commentId: M:CRMScript.NetServer.NSReturnInfo.SetExternalReference(String)
+  id: 'SetExternalReference(String)'
+  so.intellisense: NSReturnInfo.SetExternalReference
+  langs:
+  - crmscript
+  name: 'SetExternalReference(String)'
+  nameWithType: NSReturnInfo.SetExternalReference(String)
+  fullName: CRMScript.NetServer.NSReturnInfo.SetExternalReference(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nStored in the externalReference field of the document table\n"
+  syntax: 
+    content: Void SetExternalReference(String externalReference)
+    parameters:
+    - id: externalReference
+      type: CRMScript.Global.String
+      description: "The document plugin's key that uniquely identifies a document."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReturnInfo thing;\nString externalReference;\nthing.SetExternalReference(externalReference);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReturnInfo.SetSuccess(Bool)
+  commentId: M:CRMScript.NetServer.NSReturnInfo.SetSuccess(Bool)
+  id: 'SetSuccess(Bool)'
+  so.intellisense: NSReturnInfo.SetSuccess
+  langs:
+  - crmscript
+  name: 'SetSuccess(Bool)'
+  nameWithType: NSReturnInfo.SetSuccess(Bool)
+  fullName: CRMScript.NetServer.NSReturnInfo.SetSuccess(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSuccess(Bool success)
+    parameters:
+    - id: success
+      type: CRMScript.Global.Bool
+      description: "Did the call succeed. A successful call may still return a message or other return value."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReturnInfo thing;\nBool success;\nthing.SetSuccess(success);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReturnInfo.SetType(Integer)
+  commentId: M:CRMScript.NetServer.NSReturnInfo.SetType(Integer)
+  id: 'SetType(Integer)'
+  so.intellisense: NSReturnInfo.SetType
+  langs:
+  - crmscript
+  name: 'SetType(Integer)'
+  nameWithType: NSReturnInfo.SetType(Integer)
+  fullName: CRMScript.NetServer.NSReturnInfo.SetType(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetType(Integer type)
+    parameters: 
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "How is the return value to be understood by the caller See <xref href=\"CRMScript.NetServer.ReturnType\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSReturnInfo thing;\nInteger type;\nthing.SetType(type);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReturnInfo.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSReturnInfo.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSReturnInfo.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSReturnInfo.SetValue(String)
+  fullName: CRMScript.NetServer.NSReturnInfo.SetValue(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: "Return value, may be blank."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReturnInfo thing;\nString value;\nthing.SetValue(value);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReturnInfo.SetVersionId(String)
+  commentId: M:CRMScript.NetServer.NSReturnInfo.SetVersionId(String)
+  id: 'SetVersionId(String)'
+  so.intellisense: NSReturnInfo.SetVersionId
+  langs:
+  - crmscript
+  name: 'SetVersionId(String)'
+  nameWithType: NSReturnInfo.SetVersionId(String)
+  fullName: CRMScript.NetServer.NSReturnInfo.SetVersionId(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nIf versioning is not supported, this will be blank. When versioning is supported, blank values imply the latest checked-in version.\n"
+  syntax: 
+    content: Void SetVersionId(String versionId)
+    parameters:
+    - id: versionId
+      type: CRMScript.Global.String
+      description: "The document plugin's version id that uniquely identifies one version of a document."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReturnInfo thing;\nString versionId;\nthing.SetVersionId(versionId);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSReturnInfo
+  commentId: T:CRMScript.NetServer.NSReturnInfo
+  isExternal: true
+  name: NSReturnInfo
+  nameWithType: NSReturnInfo
+  fullName: CRMScript.NetServer.NSReturnInfo
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.ReturnType
+  commentId: T:CRMScript.NetServer.ReturnType
+  isExternal: true
+  name: ReturnType
+  nameWithType: ReturnType
+  fullName: CRMScript.NetServer.ReturnType
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

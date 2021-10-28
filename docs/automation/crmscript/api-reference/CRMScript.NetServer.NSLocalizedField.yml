@@ -1,0 +1,307 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSLocalizedField
+  commentId: T:CRMScript.NetServer.NSLocalizedField
+  id: NSLocalizedField
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSLocalizedField.#ctor
+  - CRMScript.NetServer.NSLocalizedField.GetAddressType()
+  - CRMScript.NetServer.NSLocalizedField.GetLabel()
+  - CRMScript.NetServer.NSLocalizedField.GetName()
+  - CRMScript.NetServer.NSLocalizedField.GetTooltip()
+  - CRMScript.NetServer.NSLocalizedField.GetValue()
+  - CRMScript.NetServer.NSLocalizedField.GetValueLength()
+  - CRMScript.NetServer.NSLocalizedField.SetAddressType(String)
+  - CRMScript.NetServer.NSLocalizedField.SetLabel(String)
+  - CRMScript.NetServer.NSLocalizedField.SetName(String)
+  - CRMScript.NetServer.NSLocalizedField.SetTooltip(String)
+  - CRMScript.NetServer.NSLocalizedField.SetValue(String)
+  - CRMScript.NetServer.NSLocalizedField.SetValueLength(Integer)
+  name: NSLocalizedField
+  nameWithType: NSLocalizedField
+  fullName: CRMScript.NetServer.NSLocalizedField
+  type: Class
+  summary: "\nCarrier object for LocalizedField.\n"
+  example: 
+- uid: CRMScript.NetServer.NSLocalizedField.#ctor
+  commentId: M:CRMScript.NetServer.NSLocalizedField.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSLocalizedField
+  langs:
+  - crmscript
+  name: NSLocalizedField()
+  nameWithType: NSLocalizedField.#ctor
+  fullName: CRMScript.NetServer.NSLocalizedField.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSLocalizedField class.\n"
+  remarks: 
+  syntax: 
+    content: NSLocalizedField
+  example: 
+- uid: CRMScript.NetServer.NSLocalizedField.GetAddressType()
+  commentId: M:CRMScript.NetServer.NSLocalizedField.GetAddressType()
+  id: 'GetAddressType()'
+  so.intellisense: NSLocalizedField.GetAddressType
+  langs:
+  - crmscript
+  name: 'GetAddressType()'
+  nameWithType: NSLocalizedField.GetAddressType()
+  fullName: CRMScript.NetServer.NSLocalizedField.GetAddressType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetAddressType()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: 
+  example: 
+- uid: CRMScript.NetServer.NSLocalizedField.GetLabel()
+  commentId: M:CRMScript.NetServer.NSLocalizedField.GetLabel()
+  id: 'GetLabel()'
+  so.intellisense: NSLocalizedField.GetLabel
+  langs:
+  - crmscript
+  name: 'GetLabel()'
+  nameWithType: NSLocalizedField.GetLabel()
+  fullName: CRMScript.NetServer.NSLocalizedField.GetLabel()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetLabel()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The label of the field."
+  example: 
+- uid: CRMScript.NetServer.NSLocalizedField.GetName()
+  commentId: M:CRMScript.NetServer.NSLocalizedField.GetName()
+  id: 'GetName()'
+  so.intellisense: NSLocalizedField.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSLocalizedField.GetName()
+  fullName: CRMScript.NetServer.NSLocalizedField.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of the value field."
+  example: 
+- uid: CRMScript.NetServer.NSLocalizedField.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSLocalizedField.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSLocalizedField.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSLocalizedField.GetTooltip()
+  fullName: CRMScript.NetServer.NSLocalizedField.GetTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The tooltip."
+  example: 
+- uid: CRMScript.NetServer.NSLocalizedField.GetValue()
+  commentId: M:CRMScript.NetServer.NSLocalizedField.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSLocalizedField.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSLocalizedField.GetValue()
+  fullName: CRMScript.NetServer.NSLocalizedField.GetValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The field's value."
+  example: 
+- uid: CRMScript.NetServer.NSLocalizedField.GetValueLength()
+  commentId: M:CRMScript.NetServer.NSLocalizedField.GetValueLength()
+  id: 'GetValueLength()'
+  so.intellisense: NSLocalizedField.GetValueLength
+  langs:
+  - crmscript
+  name: 'GetValueLength()'
+  nameWithType: NSLocalizedField.GetValueLength()
+  fullName: CRMScript.NetServer.NSLocalizedField.GetValueLength()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetValueLength()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Database length of the value."
+  example: 
+- uid: CRMScript.NetServer.NSLocalizedField.SetAddressType(String)
+  commentId: M:CRMScript.NetServer.NSLocalizedField.SetAddressType(String)
+  id: 'SetAddressType(String)'
+  so.intellisense: NSLocalizedField.SetAddressType
+  langs:
+  - crmscript
+  name: 'SetAddressType(String)'
+  nameWithType: NSLocalizedField.SetAddressType(String)
+  fullName: CRMScript.NetServer.NSLocalizedField.SetAddressType(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAddressType(String type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSLocalizedField.SetLabel(String)
+  commentId: M:CRMScript.NetServer.NSLocalizedField.SetLabel(String)
+  id: 'SetLabel(String)'
+  so.intellisense: NSLocalizedField.SetLabel
+  langs:
+  - crmscript
+  name: 'SetLabel(String)'
+  nameWithType: NSLocalizedField.SetLabel(String)
+  fullName: CRMScript.NetServer.NSLocalizedField.SetLabel(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLabel(String label)
+    parameters:
+    - id: label
+      type: CRMScript.Global.String
+      description: "The label of the field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSLocalizedField.SetName(String)
+  commentId: M:CRMScript.NetServer.NSLocalizedField.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSLocalizedField.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSLocalizedField.SetName(String)
+  fullName: CRMScript.NetServer.NSLocalizedField.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Name of the value field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSLocalizedField.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSLocalizedField.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSLocalizedField.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSLocalizedField.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSLocalizedField.SetTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: "The tooltip."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSLocalizedField.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSLocalizedField.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSLocalizedField.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSLocalizedField.SetValue(String)
+  fullName: CRMScript.NetServer.NSLocalizedField.SetValue(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: "The field's value."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSLocalizedField.SetValueLength(Integer)
+  commentId: M:CRMScript.NetServer.NSLocalizedField.SetValueLength(Integer)
+  id: 'SetValueLength(Integer)'
+  so.intellisense: NSLocalizedField.SetValueLength
+  langs:
+  - crmscript
+  name: 'SetValueLength(Integer)'
+  nameWithType: NSLocalizedField.SetValueLength(Integer)
+  fullName: CRMScript.NetServer.NSLocalizedField.SetValueLength(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetValueLength(Integer length)
+    parameters:
+    - id: length
+      type: CRMScript.Global.Integer
+      description: "Database length of the value."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSLocalizedField
+  commentId: T:CRMScript.NetServer.NSLocalizedField
+  isExternal: true
+  name: NSLocalizedField
+  nameWithType: NSLocalizedField
+  fullName: CRMScript.NetServer.NSLocalizedField
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

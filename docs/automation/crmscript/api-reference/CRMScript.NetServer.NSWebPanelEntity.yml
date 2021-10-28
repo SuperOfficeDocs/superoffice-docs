@@ -1,0 +1,994 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSWebPanelEntity
+  commentId: T:CRMScript.NetServer.NSWebPanelEntity
+  id: NSWebPanelEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSWebPanelEntity.#ctor
+  - CRMScript.NetServer.NSWebPanelEntity.GetDeleted()
+  - CRMScript.NetServer.NSWebPanelEntity.GetIcon()
+  - CRMScript.NetServer.NSWebPanelEntity.GetName()
+  - CRMScript.NetServer.NSWebPanelEntity.GetOnCentral()
+  - CRMScript.NetServer.NSWebPanelEntity.GetOnSalesMarketingPocket()
+  - CRMScript.NetServer.NSWebPanelEntity.GetOnSalesMarketingWeb()
+  - CRMScript.NetServer.NSWebPanelEntity.GetOnSatellite()
+  - CRMScript.NetServer.NSWebPanelEntity.GetOnSattelite()
+  - CRMScript.NetServer.NSWebPanelEntity.GetOnTravel()
+  - CRMScript.NetServer.NSWebPanelEntity.GetProgId()
+  - CRMScript.NetServer.NSWebPanelEntity.GetRank()
+  - CRMScript.NetServer.NSWebPanelEntity.GetShowInAddressBar()
+  - CRMScript.NetServer.NSWebPanelEntity.GetShowInMenuBar()
+  - CRMScript.NetServer.NSWebPanelEntity.GetShowInStatusBar()
+  - CRMScript.NetServer.NSWebPanelEntity.GetShowInToolBar()
+  - CRMScript.NetServer.NSWebPanelEntity.GetTooltip()
+  - CRMScript.NetServer.NSWebPanelEntity.GetUrl()
+  - CRMScript.NetServer.NSWebPanelEntity.GetUrlEncoding()
+  - CRMScript.NetServer.NSWebPanelEntity.GetVisibleIn()
+  - CRMScript.NetServer.NSWebPanelEntity.GetWebPanelId()
+  - CRMScript.NetServer.NSWebPanelEntity.GetWindowName() 
+  - CRMScript.NetServer.NSWebPanelEntity.SetDeleted(Bool)
+  - CRMScript.NetServer.NSWebPanelEntity.SetIcon(Integer)
+  - CRMScript.NetServer.NSWebPanelEntity.SetName(String)
+  - CRMScript.NetServer.NSWebPanelEntity.SetOnCentral(Bool)
+  - CRMScript.NetServer.NSWebPanelEntity.SetOnSalesMarketingPocket(Bool)
+  - CRMScript.NetServer.NSWebPanelEntity.SetOnSalesMarketingWeb(Bool)
+  - CRMScript.NetServer.NSWebPanelEntity.SetOnSatellite(Bool)
+  - CRMScript.NetServer.NSWebPanelEntity.SetOnSattelite(Bool)
+  - CRMScript.NetServer.NSWebPanelEntity.SetOnTravel(Bool)
+  - CRMScript.NetServer.NSWebPanelEntity.SetProgId(String)
+  - CRMScript.NetServer.NSWebPanelEntity.SetRank(Integer)
+  - CRMScript.NetServer.NSWebPanelEntity.SetShowInAddressBar(Bool)
+  - CRMScript.NetServer.NSWebPanelEntity.SetShowInMenuBar(Bool)
+  - CRMScript.NetServer.NSWebPanelEntity.SetShowInStatusBar(Bool)
+  - CRMScript.NetServer.NSWebPanelEntity.SetShowInToolBar(Bool)
+  - CRMScript.NetServer.NSWebPanelEntity.SetTooltip(String)
+  - CRMScript.NetServer.NSWebPanelEntity.SetUrl(String)
+  - CRMScript.NetServer.NSWebPanelEntity.SetUrlEncoding(Integer)
+  - CRMScript.NetServer.NSWebPanelEntity.SetVisibleIn(Integer)
+  - CRMScript.NetServer.NSWebPanelEntity.SetWebPanelId(Integer)
+  - CRMScript.NetServer.NSWebPanelEntity.SetWindowName(String)
+  name: NSWebPanelEntity
+  nameWithType: NSWebPanelEntity
+  fullName: CRMScript.NetServer.NSWebPanelEntity
+  type: Class
+  summary: "\nContains information on a web panel.\n"
+  example: 
+- uid: CRMScript.NetServer.NSWebPanelEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSWebPanelEntity
+  langs:
+  - crmscript
+  name: NSWebPanelEntity()
+  nameWithType: NSWebPanelEntity.#ctor
+  fullName: CRMScript.NetServer.NSWebPanelEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSWebPanelEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSWebPanelEntity
+  example: 
+- uid: CRMScript.NetServer.NSWebPanelEntity.GetDeleted()
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetDeleted()
+  id: 'GetDeleted()'
+  so.intellisense: NSWebPanelEntity.GetDeleted
+  langs:
+  - crmscript
+  name: 'GetDeleted()'
+  nameWithType: NSWebPanelEntity.GetDeleted()
+  fullName: CRMScript.NetServer.NSWebPanelEntity.GetDeleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetDeleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the web panel is marked as deleted."
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nBool deleted = thing.GetDeleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.GetIcon()
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetIcon()
+  id: 'GetIcon()'
+  so.intellisense: NSWebPanelEntity.GetIcon
+  langs:
+  - crmscript
+  name: 'GetIcon()'
+  nameWithType: NSWebPanelEntity.GetIcon()
+  fullName: CRMScript.NetServer.NSWebPanelEntity.GetIcon()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetIcon()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The icon of the web panel."
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nInteger icon = thing.GetIcon();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSWebPanelEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSWebPanelEntity.GetName()
+  fullName: CRMScript.NetServer.NSWebPanelEntity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the web panel."
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.GetOnCentral()
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetOnCentral()
+  id: 'GetOnCentral()'
+  so.intellisense: NSWebPanelEntity.GetOnCentral
+  langs:
+  - crmscript
+  name: 'GetOnCentral()'
+  nameWithType: NSWebPanelEntity.GetOnCentral()
+  fullName: CRMScript.NetServer.NSWebPanelEntity.GetOnCentral()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetOnCentral()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Is the web panel visible when user is on central database."
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nBool onCentral = thing.GetOnCentral();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.GetOnSalesMarketingPocket()
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetOnSalesMarketingPocket()
+  id: 'GetOnSalesMarketingPocket()'
+  so.intellisense: NSWebPanelEntity.GetOnSalesMarketingPocket
+  langs:
+  - crmscript
+  name: 'GetOnSalesMarketingPocket()'
+  nameWithType: NSWebPanelEntity.GetOnSalesMarketingPocket()
+  fullName: CRMScript.NetServer.NSWebPanelEntity.GetOnSalesMarketingPocket()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetOnSalesMarketingPocket()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Is the web panel visible when user is on pocket client."
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nBool onSalesMarketingPocket = thing.GetOnSalesMarketingPocket();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.GetOnSalesMarketingWeb()
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetOnSalesMarketingWeb()
+  id: 'GetOnSalesMarketingWeb()'
+  so.intellisense: NSWebPanelEntity.GetOnSalesMarketingWeb
+  langs:
+  - crmscript
+  name: 'GetOnSalesMarketingWeb()'
+  nameWithType: NSWebPanelEntity.GetOnSalesMarketingWeb()
+  fullName: CRMScript.NetServer.NSWebPanelEntity.GetOnSalesMarketingWeb()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetOnSalesMarketingWeb()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Is the web panel visible when user is on web client."
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nBool onSalesMarketingWeb = thing.GetOnSalesMarketingWeb();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.GetOnSatellite()
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetOnSatellite()
+  id: 'GetOnSatellite()'
+  so.intellisense: NSWebPanelEntity.GetOnSatellite
+  langs:
+  - crmscript
+  name: 'GetOnSatellite()'
+  nameWithType: NSWebPanelEntity.GetOnSatellite()
+  fullName: CRMScript.NetServer.NSWebPanelEntity.GetOnSatellite()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetOnSatellite()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Is the web panel visible when user is on a satellite."
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nBool onSatellite = thing.GetOnSatellite();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.GetOnSattelite()
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetOnSattelite()
+  id: 'GetOnSattelite()'
+  so.intellisense: NSWebPanelEntity.GetOnSattelite
+  langs:
+  - crmscript
+  name: 'GetOnSattelite()'
+  nameWithType: NSWebPanelEntity.GetOnSattelite()
+  fullName: CRMScript.NetServer.NSWebPanelEntity.GetOnSattelite()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetOnSattelite()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+  example: 
+- uid: CRMScript.NetServer.NSWebPanelEntity.GetOnTravel()
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetOnTravel()
+  id: 'GetOnTravel()'
+  so.intellisense: NSWebPanelEntity.GetOnTravel
+  langs:
+  - crmscript
+  name: 'GetOnTravel()'
+  nameWithType: NSWebPanelEntity.GetOnTravel()
+  fullName: CRMScript.NetServer.NSWebPanelEntity.GetOnTravel()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetOnTravel()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Is the web panel visible when user is on travel."
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nBool onTravel = thing.GetOnTravel();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.GetProgId()
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetProgId()
+  id: 'GetProgId()'
+  so.intellisense: NSWebPanelEntity.GetProgId
+  langs:
+  - crmscript
+  name: 'GetProgId()'
+  nameWithType: NSWebPanelEntity.GetProgId()
+  fullName: CRMScript.NetServer.NSWebPanelEntity.GetProgId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetProgId()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database IDs."
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nString progId = thing.GetProgId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.GetRank()
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSWebPanelEntity.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSWebPanelEntity.GetRank()
+  fullName: CRMScript.NetServer.NSWebPanelEntity.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The rank of the web panel."
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.GetShowInAddressBar()
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetShowInAddressBar()
+  id: 'GetShowInAddressBar()'
+  so.intellisense: NSWebPanelEntity.GetShowInAddressBar
+  langs:
+  - crmscript
+  name: 'GetShowInAddressBar()'
+  nameWithType: NSWebPanelEntity.GetShowInAddressBar()
+  fullName: CRMScript.NetServer.NSWebPanelEntity.GetShowInAddressBar()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetShowInAddressBar()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Does the web panel have an address bar."
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nBool showInAddressBar = thing.GetShowInAddressBar();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.GetShowInMenuBar()
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetShowInMenuBar()
+  id: 'GetShowInMenuBar()'
+  so.intellisense: NSWebPanelEntity.GetShowInMenuBar
+  langs:
+  - crmscript
+  name: 'GetShowInMenuBar()'
+  nameWithType: NSWebPanelEntity.GetShowInMenuBar()
+  fullName: CRMScript.NetServer.NSWebPanelEntity.GetShowInMenuBar()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetShowInMenuBar()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Does the web panel have a menu bar."
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nBool showInMenuBar = thing.GetShowInMenuBar();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.GetShowInStatusBar()
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetShowInStatusBar()
+  id: 'GetShowInStatusBar()'
+  so.intellisense: NSWebPanelEntity.GetShowInStatusBar
+  langs:
+  - crmscript
+  name: 'GetShowInStatusBar()'
+  nameWithType: NSWebPanelEntity.GetShowInStatusBar()
+  fullName: CRMScript.NetServer.NSWebPanelEntity.GetShowInStatusBar()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetShowInStatusBar()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Does the web panel have a status bar."
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nBool showInStatusBar = thing.GetShowInStatusBar();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.GetShowInToolBar()
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetShowInToolBar()
+  id: 'GetShowInToolBar()'
+  so.intellisense: NSWebPanelEntity.GetShowInToolBar
+  langs:
+  - crmscript
+  name: 'GetShowInToolBar()'
+  nameWithType: NSWebPanelEntity.GetShowInToolBar()
+  fullName: CRMScript.NetServer.NSWebPanelEntity.GetShowInToolBar()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetShowInToolBar()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Does the web panel have a toolbar."
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nBool showInToolBar = thing.GetShowInToolBar();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSWebPanelEntity.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSWebPanelEntity.GetTooltip()
+  fullName: CRMScript.NetServer.NSWebPanelEntity.GetTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The tooltip of the web panel."
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nString tooltip = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.GetUrl()
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetUrl()
+  id: 'GetUrl()'
+  so.intellisense: NSWebPanelEntity.GetUrl
+  langs:
+  - crmscript
+  name: 'GetUrl()'
+  nameWithType: NSWebPanelEntity.GetUrl()
+  fullName: CRMScript.NetServer.NSWebPanelEntity.GetUrl()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetUrl()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The URl."
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nString url = thing.GetUrl();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.GetUrlEncoding()
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetUrlEncoding()
+  id: 'GetUrlEncoding()'
+  so.intellisense: NSWebPanelEntity.GetUrlEncoding
+  langs:
+  - crmscript
+  name: 'GetUrlEncoding()'
+  nameWithType: NSWebPanelEntity.GetUrlEncoding()
+  fullName: CRMScript.NetServer.NSWebPanelEntity.GetUrlEncoding()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetUrlEncoding()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The encoding of the URL. See <xref href=\"CRMScript.NetServer.UrlEncoding\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nInteger urlEncoding = thing.GetUrlEncoding();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.GetVisibleIn()
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetVisibleIn()
+  id: 'GetVisibleIn()'
+  so.intellisense: NSWebPanelEntity.GetVisibleIn
+  langs:
+  - crmscript
+  name: 'GetVisibleIn()'
+  nameWithType: NSWebPanelEntity.GetVisibleIn()
+  fullName: CRMScript.NetServer.NSWebPanelEntity.GetVisibleIn()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetVisibleIn()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The web panel is visible in."
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nInteger visibleIn = thing.GetVisibleIn();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.GetWebPanelId()
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetWebPanelId()
+  id: 'GetWebPanelId()'
+  so.intellisense: NSWebPanelEntity.GetWebPanelId
+  langs:
+  - crmscript
+  name: 'GetWebPanelId()'
+  nameWithType: NSWebPanelEntity.GetWebPanelId()
+  fullName: CRMScript.NetServer.NSWebPanelEntity.GetWebPanelId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetWebPanelId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The identity of the web panel."
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nInteger webPanelId = thing.GetWebPanelId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.GetWindowName()
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.GetWindowName()
+  id: 'GetWindowName()'
+  so.intellisense: NSWebPanelEntity.GetWindowName
+  langs:
+  - crmscript
+  name: 'GetWindowName()'
+  nameWithType: NSWebPanelEntity.GetWindowName()
+  fullName: CRMScript.NetServer.NSWebPanelEntity.GetWindowName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetWindowName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The window which the URL address is to open in (web panel only)."
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nString windowName = thing.GetWindowName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.SetDeleted(Bool)
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetDeleted(Bool)
+  id: 'SetDeleted(Bool)'
+  so.intellisense: NSWebPanelEntity.SetDeleted
+  langs:
+  - crmscript
+  name: 'SetDeleted(Bool)'
+  nameWithType: NSWebPanelEntity.SetDeleted(Bool)
+  fullName: CRMScript.NetServer.NSWebPanelEntity.SetDeleted(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeleted(Bool deleted)
+    parameters:
+    - id: deleted
+      type: CRMScript.Global.Bool
+      description: "True if the web panel is marked as deleted."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nBool deleted;\nthing.SetDeleted(deleted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.SetIcon(Integer)
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetIcon(Integer)
+  id: 'SetIcon(Integer)'
+  so.intellisense: NSWebPanelEntity.SetIcon
+  langs:
+  - crmscript
+  name: 'SetIcon(Integer)'
+  nameWithType: NSWebPanelEntity.SetIcon(Integer)
+  fullName: CRMScript.NetServer.NSWebPanelEntity.SetIcon(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIcon(Integer icon)
+    parameters:
+    - id: icon
+      type: CRMScript.Global.Integer
+      description: "The icon of the web panel."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nInteger icon;\nthing.SetIcon(icon);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSWebPanelEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSWebPanelEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSWebPanelEntity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of the web panel."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.SetOnCentral(Bool)
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetOnCentral(Bool)
+  id: 'SetOnCentral(Bool)'
+  so.intellisense: NSWebPanelEntity.SetOnCentral
+  langs:
+  - crmscript
+  name: 'SetOnCentral(Bool)'
+  nameWithType: NSWebPanelEntity.SetOnCentral(Bool)
+  fullName: CRMScript.NetServer.NSWebPanelEntity.SetOnCentral(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOnCentral(Bool onCentral)
+    parameters:
+    - id: onCentral
+      type: CRMScript.Global.Bool
+      description: "Is the web panel visible when user is on central database."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nBool onCentral;\nthing.SetOnCentral(onCentral);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.SetOnSalesMarketingPocket(Bool)
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetOnSalesMarketingPocket(Bool)
+  id: 'SetOnSalesMarketingPocket(Bool)'
+  so.intellisense: NSWebPanelEntity.SetOnSalesMarketingPocket
+  langs:
+  - crmscript
+  name: 'SetOnSalesMarketingPocket(Bool)'
+  nameWithType: NSWebPanelEntity.SetOnSalesMarketingPocket(Bool)
+  fullName: CRMScript.NetServer.NSWebPanelEntity.SetOnSalesMarketingPocket(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOnSalesMarketingPocket(Bool onSalesMarketingPocket)
+    parameters:
+    - id: onSalesMarketingPocket
+      type: CRMScript.Global.Bool
+      description: "Is the web panel visible when user is on pocket client."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nBool onSalesMarketingPocket;\nthing.SetOnSalesMarketingPocket(onSalesMarketingPocket);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.SetOnSalesMarketingWeb(Bool)
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetOnSalesMarketingWeb(Bool)
+  id: 'SetOnSalesMarketingWeb(Bool)'
+  so.intellisense: NSWebPanelEntity.SetOnSalesMarketingWeb
+  langs:
+  - crmscript
+  name: 'SetOnSalesMarketingWeb(Bool)'
+  nameWithType: NSWebPanelEntity.SetOnSalesMarketingWeb(Bool)
+  fullName: CRMScript.NetServer.NSWebPanelEntity.SetOnSalesMarketingWeb(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOnSalesMarketingWeb(Bool onSalesMarketingWeb)
+    parameters:
+    - id: onSalesMarketingWeb
+      type: CRMScript.Global.Bool
+      description: "Is the web panel visible when user is on web client."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nBool onSalesMarketingWeb;\nthing.SetOnSalesMarketingWeb(onSalesMarketingWeb);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.SetOnSatellite(Bool)
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetOnSatellite(Bool)
+  id: 'SetOnSatellite(Bool)'
+  so.intellisense: NSWebPanelEntity.SetOnSatellite
+  langs:
+  - crmscript
+  name: 'SetOnSatellite(Bool)'
+  nameWithType: NSWebPanelEntity.SetOnSatellite(Bool)
+  fullName: CRMScript.NetServer.NSWebPanelEntity.SetOnSatellite(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOnSatellite(Bool onSatellite)
+    parameters:
+    - id: onSatellite
+      type: CRMScript.Global.Bool
+      description: "Is the web panel visible when user is on a satellite."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nBool onSatellite;\nthing.SetOnSatellite(onSatellite);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.SetOnSattelite(Bool)
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetOnSattelite(Bool)
+  id: 'SetOnSattelite(Bool)'
+  so.intellisense: NSWebPanelEntity.SetOnSattelite
+  langs:
+  - crmscript
+  name: 'SetOnSattelite(Bool)'
+  nameWithType: NSWebPanelEntity.SetOnSattelite(Bool)
+  fullName: CRMScript.NetServer.NSWebPanelEntity.SetOnSattelite(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOnSattelite(Bool onSattelite)
+    parameters:
+    - id: onSattelite
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSWebPanelEntity.SetOnTravel(Bool)
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetOnTravel(Bool)
+  id: 'SetOnTravel(Bool)'
+  so.intellisense: NSWebPanelEntity.SetOnTravel
+  langs:
+  - crmscript
+  name: 'SetOnTravel(Bool)'
+  nameWithType: NSWebPanelEntity.SetOnTravel(Bool)
+  fullName: CRMScript.NetServer.NSWebPanelEntity.SetOnTravel(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOnTravel(Bool onTravel)
+    parameters:
+    - id: onTravel
+      type: CRMScript.Global.Bool
+      description: "Is the web panel visible when user is on travel."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nBool onTravel;\nthing.SetOnTravel(onTravel);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.SetProgId(String)
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetProgId(String)
+  id: 'SetProgId(String)'
+  so.intellisense: NSWebPanelEntity.SetProgId
+  langs:
+  - crmscript
+  name: 'SetProgId(String)'
+  nameWithType: NSWebPanelEntity.SetProgId(String)
+  fullName: CRMScript.NetServer.NSWebPanelEntity.SetProgId(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProgId(String progId)
+    parameters:
+    - id: progId
+      type: CRMScript.Global.String
+      description: "String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database IDs."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nString progId;\nthing.SetProgId(progId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSWebPanelEntity.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSWebPanelEntity.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSWebPanelEntity.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "The rank of the web panel."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.SetShowInAddressBar(Bool)
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetShowInAddressBar(Bool)
+  id: 'SetShowInAddressBar(Bool)'
+  so.intellisense: NSWebPanelEntity.SetShowInAddressBar
+  langs:
+  - crmscript
+  name: 'SetShowInAddressBar(Bool)'
+  nameWithType: NSWebPanelEntity.SetShowInAddressBar(Bool)
+  fullName: CRMScript.NetServer.NSWebPanelEntity.SetShowInAddressBar(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetShowInAddressBar(Bool showInAddressBar)
+    parameters:
+    - id: showInAddressBar
+      type: CRMScript.Global.Bool
+      description: "Does the web panel have an address bar."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nBool showInAddressBar;\nthing.SetShowInAddressBar(showInAddressBar);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.SetShowInMenuBar(Bool)
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetShowInMenuBar(Bool)
+  id: 'SetShowInMenuBar(Bool)'
+  so.intellisense: NSWebPanelEntity.SetShowInMenuBar
+  langs:
+  - crmscript
+  name: 'SetShowInMenuBar(Bool)'
+  nameWithType: NSWebPanelEntity.SetShowInMenuBar(Bool)
+  fullName: CRMScript.NetServer.NSWebPanelEntity.SetShowInMenuBar(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetShowInMenuBar(Bool showInMenuBar)
+    parameters:
+    - id: showInMenuBar
+      type: CRMScript.Global.Bool
+      description: "Does the web panel have a menu bar."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nBool showInMenuBar;\nthing.SetShowInMenuBar(showInMenuBar);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.SetShowInStatusBar(Bool)
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetShowInStatusBar(Bool)
+  id: 'SetShowInStatusBar(Bool)'
+  so.intellisense: NSWebPanelEntity.SetShowInStatusBar
+  langs:
+  - crmscript
+  name: 'SetShowInStatusBar(Bool)'
+  nameWithType: NSWebPanelEntity.SetShowInStatusBar(Bool)
+  fullName: CRMScript.NetServer.NSWebPanelEntity.SetShowInStatusBar(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetShowInStatusBar(Bool showInStatusBar)
+    parameters:
+    - id: showInStatusBar
+      type: CRMScript.Global.Bool
+      description: "Does the web panel have a status bar."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nBool showInStatusBar;\nthing.SetShowInStatusBar(showInStatusBar);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.SetShowInToolBar(Bool)
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetShowInToolBar(Bool)
+  id: 'SetShowInToolBar(Bool)'
+  so.intellisense: NSWebPanelEntity.SetShowInToolBar
+  langs:
+  - crmscript
+  name: 'SetShowInToolBar(Bool)'
+  nameWithType: NSWebPanelEntity.SetShowInToolBar(Bool)
+  fullName: CRMScript.NetServer.NSWebPanelEntity.SetShowInToolBar(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetShowInToolBar(Bool showInToolBar)
+    parameters:
+    - id: showInToolBar
+      type: CRMScript.Global.Bool
+      description: "Does the web panel have a toolbar."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nBool showInToolBar;\nthing.SetShowInToolBar(showInToolBar);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSWebPanelEntity.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSWebPanelEntity.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSWebPanelEntity.SetTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: "The tooltip of the web panel."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nString tooltip;\nthing.SetTooltip(tooltip);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.SetUrl(String)
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetUrl(String)
+  id: 'SetUrl(String)'
+  so.intellisense: NSWebPanelEntity.SetUrl
+  langs:
+  - crmscript
+  name: 'SetUrl(String)'
+  nameWithType: NSWebPanelEntity.SetUrl(String)
+  fullName: CRMScript.NetServer.NSWebPanelEntity.SetUrl(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUrl(String url)
+    parameters:
+    - id: url
+      type: CRMScript.Global.String
+      description: "The URl."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nString url;\nthing.SetUrl(url);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.SetUrlEncoding(Integer)
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetUrlEncoding(Integer)
+  id: 'SetUrlEncoding(Integer)'
+  so.intellisense: NSWebPanelEntity.SetUrlEncoding
+  langs:
+  - crmscript
+  name: 'SetUrlEncoding(Integer)'
+  nameWithType: NSWebPanelEntity.SetUrlEncoding(Integer)
+  fullName: CRMScript.NetServer.NSWebPanelEntity.SetUrlEncoding(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUrlEncoding(Integer urlEncoding)
+    parameters:
+    - id: urlEncoding
+      type: CRMScript.Global.Integer
+      description: "The encoding of the URL. See <xref href=\"CRMScript.NetServer.UrlEncoding\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nInteger urlEncoding;\nthing.SetUrlEncoding(urlEncoding);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.SetVisibleIn(Integer)
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetVisibleIn(Integer)
+  id: 'SetVisibleIn(Integer)'
+  so.intellisense: NSWebPanelEntity.SetVisibleIn
+  langs:
+  - crmscript
+  name: 'SetVisibleIn(Integer)'
+  nameWithType: NSWebPanelEntity.SetVisibleIn(Integer)
+  fullName: CRMScript.NetServer.NSWebPanelEntity.SetVisibleIn(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetVisibleIn(Integer visibleIn)
+    parameters:
+    - id: visibleIn
+      type: CRMScript.Global.Integer
+      description: "The web panel is visible in. See <xref href=\"CRMScript.NetServer.Navigation\" data-throw-if-not-resolved=\"false\"></xref>"
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nInteger visibleIn;\nthing.SetVisibleIn(visibleIn);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.SetWebPanelId(Integer)
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetWebPanelId(Integer)
+  id: 'SetWebPanelId(Integer)'
+  so.intellisense: NSWebPanelEntity.SetWebPanelId
+  langs:
+  - crmscript
+  name: 'SetWebPanelId(Integer)'
+  nameWithType: NSWebPanelEntity.SetWebPanelId(Integer)
+  fullName: CRMScript.NetServer.NSWebPanelEntity.SetWebPanelId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWebPanelId(Integer webPanelId)
+    parameters:
+    - id: webPanelId
+      type: CRMScript.Global.Integer
+      description: "The identity of the web panel."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nInteger webPanelId;\nthing.SetWebPanelId(webPanelId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebPanelEntity.SetWindowName(String)
+  commentId: M:CRMScript.NetServer.NSWebPanelEntity.SetWindowName(String)
+  id: 'SetWindowName(String)'
+  so.intellisense: NSWebPanelEntity.SetWindowName
+  langs:
+  - crmscript
+  name: 'SetWindowName(String)'
+  nameWithType: NSWebPanelEntity.SetWindowName(String)
+  fullName: CRMScript.NetServer.NSWebPanelEntity.SetWindowName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWindowName(String windowName)
+    parameters:
+    - id: windowName
+      type: CRMScript.Global.String
+      description: "The window which the URL address is to open in (web panel only)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebPanelEntity thing;\nString windowName;\nthing.SetWindowName(windowName);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSWebPanelEntity
+  commentId: T:CRMScript.NetServer.NSWebPanelEntity
+  isExternal: true
+  name: NSWebPanelEntity
+  nameWithType: NSWebPanelEntity
+  fullName: CRMScript.NetServer.NSWebPanelEntity
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.Navigation
+  commentId: T:CRMScript.NetServer.Navigation
+  isExternal: true
+  name: Navigation
+  nameWithType: Navigation
+  fullName: CRMScript.NetServer.Navigation
+- uid: CRMScript.NetServer.urlEncoding
+  commentId: T:CRMScript.NetServer.urlEncoding
+  isExternal: true
+  name: urlEncoding
+  nameWithType: urlEncoding
+  fullName: CRMScript.NetServer.urlEncoding

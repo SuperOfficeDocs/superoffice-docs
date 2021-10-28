@@ -1,0 +1,701 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity
+  commentId: T:CRMScript.NetServer.NSSuggestedAppointmentEntity
+  id: NSSuggestedAppointmentEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.#ctor
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.GetAssignToMember()
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.GetAutoSuggest()
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.GetDaysFuture()
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.GetDeleted()
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.GetDuration()
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.GetIsMilestone()
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.GetName()
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.GetProjectTypeStatusLink()
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.GetRank()
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.GetSaleTypeStageLink()
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.GetSuggestedAppointmentId()
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.GetText()
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.GetTooltip()
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.GetType()
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.SetAssignToMember(Bool)
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.SetAutoSuggest(Bool)
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.SetDaysFuture(Integer)
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.SetDeleted(Bool)
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.SetDuration(TimeSpan)
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.SetIsMilestone(Bool)
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.SetName(String)
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.SetProjectTypeStatusLink(NSProjectTypeStatusLink)
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.SetRank(Integer)
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.SetSaleTypeStageLink(NSSaleTypeStageLink)
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.SetSuggestedAppointmentId(Integer)
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.SetText(String)
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.SetTooltip(String)
+  - CRMScript.NetServer.NSSuggestedAppointmentEntity.SetType(NSTask)
+  name: NSSuggestedAppointmentEntity
+  nameWithType: NSSuggestedAppointmentEntity
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSSuggestedAppointmentEntity
+  langs:
+  - crmscript
+  name: NSSuggestedAppointmentEntity()
+  nameWithType: NSSuggestedAppointmentEntity.#ctor
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSSuggestedAppointmentEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSSuggestedAppointmentEntity
+  example: 
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetAssignToMember()
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetAssignToMember()
+  id: 'GetAssignToMember()'
+  so.intellisense: NSSuggestedAppointmentEntity.GetAssignToMember
+  langs:
+  - crmscript
+  name: 'GetAssignToMember()'
+  nameWithType: NSSuggestedAppointmentEntity.GetAssignToMember()
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetAssignToMember()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetAssignToMember()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Should this appointment be assigned to project member."
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nBool assignToMember = thing.GetAssignToMember();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetAutoSuggest()
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetAutoSuggest()
+  id: 'GetAutoSuggest()'
+  so.intellisense: NSSuggestedAppointmentEntity.GetAutoSuggest
+  langs:
+  - crmscript
+  name: 'GetAutoSuggest()'
+  nameWithType: NSSuggestedAppointmentEntity.GetAutoSuggest()
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetAutoSuggest()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetAutoSuggest()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Should this appointment be auto-suggested."
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nBool autoSuggest = thing.GetAutoSuggest();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetDaysFuture()
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetDaysFuture()
+  id: 'GetDaysFuture()'
+  so.intellisense: NSSuggestedAppointmentEntity.GetDaysFuture
+  langs:
+  - crmscript
+  name: 'GetDaysFuture()'
+  nameWithType: NSSuggestedAppointmentEntity.GetDaysFuture()
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetDaysFuture()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDaysFuture()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "How many days into the future the appointment should be scheduled."
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nInteger daysFuture = thing.GetDaysFuture();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetDeleted()
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetDeleted()
+  id: 'GetDeleted()'
+  so.intellisense: NSSuggestedAppointmentEntity.GetDeleted
+  langs:
+  - crmscript
+  name: 'GetDeleted()'
+  nameWithType: NSSuggestedAppointmentEntity.GetDeleted()
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetDeleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetDeleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists."
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nBool deleted = thing.GetDeleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetDuration()
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetDuration()
+  id: 'GetDuration()'
+  so.intellisense: NSSuggestedAppointmentEntity.GetDuration
+  langs:
+  - crmscript
+  name: 'GetDuration()'
+  nameWithType: NSSuggestedAppointmentEntity.GetDuration()
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetDuration()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: TimeSpan GetDuration()
+    parameters: []
+    return:
+      type: CRMScript.Native.TimeSpan
+      description: "Duration in minutes of suggested appointment."
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nTimeSpan duration = thing.GetDuration();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetIsMilestone()
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetIsMilestone()
+  id: 'GetIsMilestone()'
+  so.intellisense: NSSuggestedAppointmentEntity.GetIsMilestone
+  langs:
+  - crmscript
+  name: 'GetIsMilestone()'
+  nameWithType: NSSuggestedAppointmentEntity.GetIsMilestone()
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetIsMilestone()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsMilestone()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Is this a milestone activity."
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nBool isMilestone = thing.GetIsMilestone();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSSuggestedAppointmentEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSSuggestedAppointmentEntity.GetName()
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Item name, visible in Guide."
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetProjectTypeStatusLink()
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetProjectTypeStatusLink()
+  id: 'GetProjectTypeStatusLink()'
+  so.intellisense: NSSuggestedAppointmentEntity.GetProjectTypeStatusLink
+  langs:
+  - crmscript
+  name: 'GetProjectTypeStatusLink()'
+  nameWithType: NSSuggestedAppointmentEntity.GetProjectTypeStatusLink()
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetProjectTypeStatusLink()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSProjectTypeStatusLink GetProjectTypeStatusLink()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSProjectTypeStatusLink
+      description: "Project type and project status link info."
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nNSProjectTypeStatusLink projectTypeStatusLink = thing.GetProjectTypeStatusLink();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetRank()
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSSuggestedAppointmentEntity.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSSuggestedAppointmentEntity.GetRank()
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Rank, controls rank of non-instantiated items in Guide."
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetSaleTypeStageLink()
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetSaleTypeStageLink()
+  id: 'GetSaleTypeStageLink()'
+  so.intellisense: NSSuggestedAppointmentEntity.GetSaleTypeStageLink
+  langs:
+  - crmscript
+  name: 'GetSaleTypeStageLink()'
+  nameWithType: NSSuggestedAppointmentEntity.GetSaleTypeStageLink()
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetSaleTypeStageLink()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSSaleTypeStageLink GetSaleTypeStageLink()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSaleTypeStageLink
+      description: "Sale type and stage link info."
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nNSSaleTypeStageLink saleTypeStageLink = thing.GetSaleTypeStageLink();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetSuggestedAppointmentId()
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetSuggestedAppointmentId()
+  id: 'GetSuggestedAppointmentId()'
+  so.intellisense: NSSuggestedAppointmentEntity.GetSuggestedAppointmentId
+  langs:
+  - crmscript
+  name: 'GetSuggestedAppointmentId()'
+  nameWithType: NSSuggestedAppointmentEntity.GetSuggestedAppointmentId()
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetSuggestedAppointmentId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSuggestedAppointmentId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nInteger suggestedAppointmentId = thing.GetSuggestedAppointmentId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetText()
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetText()
+  id: 'GetText()'
+  so.intellisense: NSSuggestedAppointmentEntity.GetText
+  langs:
+  - crmscript
+  name: 'GetText()'
+  nameWithType: NSSuggestedAppointmentEntity.GetText()
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetText()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetText()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The suggested text of the new appointment."
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nString text = thing.GetText();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSSuggestedAppointmentEntity.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSSuggestedAppointmentEntity.GetTooltip()
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Tooltip / description."
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nString tooltip = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetType()
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.GetType()
+  id: 'GetType()'
+  so.intellisense: NSSuggestedAppointmentEntity.GetType
+  langs:
+  - crmscript
+  name: 'GetType()'
+  nameWithType: NSSuggestedAppointmentEntity.GetType()
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.GetType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSTask GetType()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSTask
+      description: "Type of the suggested appointment."
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nNSTask type = thing.GetType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetAssignToMember(Bool)
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetAssignToMember(Bool)
+  id: 'SetAssignToMember(Bool)'
+  so.intellisense: NSSuggestedAppointmentEntity.SetAssignToMember
+  langs:
+  - crmscript
+  name: 'SetAssignToMember(Bool)'
+  nameWithType: NSSuggestedAppointmentEntity.SetAssignToMember(Bool)
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetAssignToMember(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAssignToMember(Bool assignToMember)
+    parameters:
+    - id: assignToMember
+      type: CRMScript.Global.Bool
+      description: "Should this appointment be assigned to project member."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nBool assignToMember;\nthing.SetAssignToMember(assignToMember);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetAutoSuggest(Bool)
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetAutoSuggest(Bool)
+  id: 'SetAutoSuggest(Bool)'
+  so.intellisense: NSSuggestedAppointmentEntity.SetAutoSuggest
+  langs:
+  - crmscript
+  name: 'SetAutoSuggest(Bool)'
+  nameWithType: NSSuggestedAppointmentEntity.SetAutoSuggest(Bool)
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetAutoSuggest(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAutoSuggest(Bool autoSuggest)
+    parameters:
+    - id: autoSuggest
+      type: CRMScript.Global.Bool
+      description: "Should this appointment be auto-suggested."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nBool autoSuggest;\nthing.SetAutoSuggest(autoSuggest);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetDaysFuture(Integer)
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetDaysFuture(Integer)
+  id: 'SetDaysFuture(Integer)'
+  so.intellisense: NSSuggestedAppointmentEntity.SetDaysFuture
+  langs:
+  - crmscript
+  name: 'SetDaysFuture(Integer)'
+  nameWithType: NSSuggestedAppointmentEntity.SetDaysFuture(Integer)
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetDaysFuture(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDaysFuture(Integer daysFuture)
+    parameters:
+    - id: daysFuture
+      type: CRMScript.Global.Integer
+      description: "How many days into the future the appointment should be scheduled."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nInteger daysFuture;\nthing.SetDaysFuture(daysFuture);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetDeleted(Bool)
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetDeleted(Bool)
+  id: 'SetDeleted(Bool)'
+  so.intellisense: NSSuggestedAppointmentEntity.SetDeleted
+  langs:
+  - crmscript
+  name: 'SetDeleted(Bool)'
+  nameWithType: NSSuggestedAppointmentEntity.SetDeleted(Bool)
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetDeleted(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeleted(Bool deleted)
+    parameters:
+    - id: deleted
+      type: CRMScript.Global.Bool
+      description: "0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nBool deleted;\nthing.SetDeleted(deleted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetDuration(TimeSpan)
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetDuration(TimeSpan)
+  id: 'SetDuration(TimeSpan)'
+  so.intellisense: NSSuggestedAppointmentEntity.SetDuration
+  langs:
+  - crmscript
+  name: 'SetDuration(TimeSpan)'
+  nameWithType: NSSuggestedAppointmentEntity.SetDuration(TimeSpan)
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetDuration(TimeSpan)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDuration(TimeSpan duration)
+    parameters:
+    - id: duration
+      type: CRMScript.Native.TimeSpan
+      description: "Duration in minutes of suggested appointment."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nTimeSpan duration;\nthing.SetDuration(duration);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetIsMilestone(Bool)
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetIsMilestone(Bool)
+  id: 'SetIsMilestone(Bool)'
+  so.intellisense: NSSuggestedAppointmentEntity.SetIsMilestone
+  langs:
+  - crmscript
+  name: 'SetIsMilestone(Bool)'
+  nameWithType: NSSuggestedAppointmentEntity.SetIsMilestone(Bool)
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetIsMilestone(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsMilestone(Bool isMilestone)
+    parameters:
+    - id: isMilestone
+      type: CRMScript.Global.Bool
+      description: "Is this a milestone activity."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nBool isMilestone;\nthing.SetIsMilestone(isMilestone);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSSuggestedAppointmentEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSSuggestedAppointmentEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Item name, visible in Guide."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetProjectTypeStatusLink(NSProjectTypeStatusLink)
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetProjectTypeStatusLink(NSProjectTypeStatusLink)
+  id: 'SetProjectTypeStatusLink(NSProjectTypeStatusLink)'
+  so.intellisense: NSSuggestedAppointmentEntity.SetProjectTypeStatusLink
+  langs:
+  - crmscript
+  name: 'SetProjectTypeStatusLink(NSProjectTypeStatusLink)'
+  nameWithType: NSSuggestedAppointmentEntity.SetProjectTypeStatusLink(NSProjectTypeStatusLink)
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetProjectTypeStatusLink(NSProjectTypeStatusLink)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjectTypeStatusLink(NSProjectTypeStatusLink projectTypeStatusLink)
+    parameters:
+    - id: projectTypeStatusLink
+      type: CRMScript.NetServer.NSProjectTypeStatusLink
+      description: "Project type and project status link info."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nNSProjectTypeStatusLink projectTypeStatusLink;\nthing.SetProjectTypeStatusLink(projectTypeStatusLink);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSSuggestedAppointmentEntity.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSSuggestedAppointmentEntity.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "Rank, controls rank of non-instantiated items in Guide."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetSaleTypeStageLink(NSSaleTypeStageLink)
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetSaleTypeStageLink(NSSaleTypeStageLink)
+  id: 'SetSaleTypeStageLink(NSSaleTypeStageLink)'
+  so.intellisense: NSSuggestedAppointmentEntity.SetSaleTypeStageLink
+  langs:
+  - crmscript
+  name: 'SetSaleTypeStageLink(NSSaleTypeStageLink)'
+  nameWithType: NSSuggestedAppointmentEntity.SetSaleTypeStageLink(NSSaleTypeStageLink)
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetSaleTypeStageLink(NSSaleTypeStageLink)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSaleTypeStageLink(NSSaleTypeStageLink saleTypeStageLink)
+    parameters:
+    - id: saleTypeStageLink
+      type: CRMScript.NetServer.NSSaleTypeStageLink
+      description: "Sale type and stage link info."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nNSSaleTypeStageLink saleTypeStageLink;\nthing.SetSaleTypeStageLink(saleTypeStageLink);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetSuggestedAppointmentId(Integer)
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetSuggestedAppointmentId(Integer)
+  id: 'SetSuggestedAppointmentId(Integer)'
+  so.intellisense: NSSuggestedAppointmentEntity.SetSuggestedAppointmentId
+  langs:
+  - crmscript
+  name: 'SetSuggestedAppointmentId(Integer)'
+  nameWithType: NSSuggestedAppointmentEntity.SetSuggestedAppointmentId(Integer)
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetSuggestedAppointmentId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSuggestedAppointmentId(Integer suggestedAppointmentId)
+    parameters:
+    - id: suggestedAppointmentId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nInteger suggestedAppointmentId;\nthing.SetSuggestedAppointmentId(suggestedAppointmentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetText(String)
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetText(String)
+  id: 'SetText(String)'
+  so.intellisense: NSSuggestedAppointmentEntity.SetText
+  langs:
+  - crmscript
+  name: 'SetText(String)'
+  nameWithType: NSSuggestedAppointmentEntity.SetText(String)
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetText(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetText(String text)
+    parameters:
+    - id: text
+      type: CRMScript.Global.String
+      description: "The suggested text of the new appointment."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nString text;\nthing.SetText(text);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSSuggestedAppointmentEntity.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSSuggestedAppointmentEntity.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: "Tooltip / description."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nString tooltip;\nthing.SetTooltip(tooltip);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetType(NSTask)
+  commentId: M:CRMScript.NetServer.NSSuggestedAppointmentEntity.SetType(NSTask)
+  id: 'SetType(NSTask)'
+  so.intellisense: NSSuggestedAppointmentEntity.SetType
+  langs:
+  - crmscript
+  name: 'SetType(NSTask)'
+  nameWithType: NSSuggestedAppointmentEntity.SetType(NSTask)
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity.SetType(NSTask)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetType(NSTask type)
+    parameters:
+    - id: type
+      type: CRMScript.NetServer.NSTask
+      description: "Type of the suggested appointment."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedAppointmentEntity thing;\nNSTask type;\nthing.SetType(type);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity
+  commentId: T:CRMScript.NetServer.NSSuggestedAppointmentEntity
+  isExternal: true
+  name: NSSuggestedAppointmentEntity
+  nameWithType: NSSuggestedAppointmentEntity
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Native.TimeSpan
+  commentId: T:CRMScript.Native.TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: CRMScript.Native.TimeSpan
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSProjectTypeStatusLink
+  commentId: T:CRMScript.NetServer.NSProjectTypeStatusLink
+  isExternal: true
+  name: NSProjectTypeStatusLink
+  nameWithType: NSProjectTypeStatusLink
+  fullName: CRMScript.NetServer.NSProjectTypeStatusLink
+- uid: CRMScript.NetServer.NSSaleTypeStageLink
+  commentId: T:CRMScript.NetServer.NSSaleTypeStageLink
+  isExternal: true
+  name: NSSaleTypeStageLink
+  nameWithType: NSSaleTypeStageLink
+  fullName: CRMScript.NetServer.NSSaleTypeStageLink
+- uid: CRMScript.NetServer.NSTask
+  commentId: T:CRMScript.NetServer.NSTask
+  isExternal: true
+  name: NSTask
+  nameWithType: NSTask
+  fullName: CRMScript.NetServer.NSTask
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.MacroReturnValue
+  commentId: T:CRMScript.Native.MacroReturnValue
+  id: MacroReturnValue
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.MacroReturnValue.#ctor
+  - CRMScript.Native.MacroReturnValue.#ctor(String,String)
+  - CRMScript.Native.MacroReturnValue.getDescription()
+  - CRMScript.Native.MacroReturnValue.getName()
+  - CRMScript.Native.MacroReturnValue.setDescription(String)
+  - CRMScript.Native.MacroReturnValue.setName(String)
+  name: MacroReturnValue
+  nameWithType: MacroReturnValue
+  fullName: CRMScript.Native.MacroReturnValue
+  type: Class
+  summary: "\nMacroReturnValue\n"
+  example: 
+- uid: CRMScript.Native.MacroReturnValue.#ctor
+  commentId: M:CRMScript.Native.MacroReturnValue.#ctor
+  id: '#ctor'
+  so.intellisense: Void.MacroReturnValue
+  langs:
+  - crmscript
+  name: MacroReturnValue()
+  nameWithType: MacroReturnValue.#ctor
+  fullName: CRMScript.Native.MacroReturnValue.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the MacroReturnValue class.\n"
+  remarks: 
+  syntax: 
+    content: MacroReturnValue
+  example: 
+- uid: CRMScript.Native.MacroReturnValue.#ctor(String,String)
+  commentId: M:CRMScript.Native.MacroReturnValue.#ctor(String,String)
+  id: '#ctor(String,String)'
+  so.intellisense: Void.MacroReturnValue
+  langs:
+  - crmscript
+  name: 'MacroReturnValue(String,String)'
+  nameWithType: MacroReturnValue.#ctor(String,String)
+  fullName: CRMScript.Native.MacroReturnValue.#ctor(String,String)
+  type: Constructor
+  summary: "\nCreates and returns a macro return value.\n"
+  remarks: 
+  syntax: 
+    content: MacroReturnValue(String name, String description)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of the return value"
+    - id: description
+      type: CRMScript.Global.String
+      description: "A longer description of the return value."
+    return:
+      type: CRMScript.Native.MacroReturnValue
+  example: 
+- uid: CRMScript.Native.MacroReturnValue.getDescription()
+  commentId: M:CRMScript.Native.MacroReturnValue.getDescription()
+  id: 'getDescription()'
+  so.intellisense: MacroReturnValue.getDescription
+  langs:
+  - crmscript
+  name: 'getDescription()'
+  nameWithType: MacroReturnValue.getDescription()
+  fullName: CRMScript.Native.MacroReturnValue.getDescription()
+  type: Method
+  summary: "\nReturns the description of the macro return value.\n"
+  remarks: 
+  syntax: 
+    content: String getDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The description of the macro return value."
+  example: 
+- uid: CRMScript.Native.MacroReturnValue.getName()
+  commentId: M:CRMScript.Native.MacroReturnValue.getName()
+  id: 'getName()'
+  so.intellisense: MacroReturnValue.getName
+  langs:
+  - crmscript
+  name: 'getName()'
+  nameWithType: MacroReturnValue.getName()
+  fullName: CRMScript.Native.MacroReturnValue.getName()
+  type: Method
+  summary: "\nReturns the name of the macro return value.\n"
+  remarks: 
+  syntax: 
+    content: String getName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the macro return value."
+  example: 
+- uid: CRMScript.Native.MacroReturnValue.setDescription(String)
+  commentId: M:CRMScript.Native.MacroReturnValue.setDescription(String)
+  id: 'setDescription(String)'
+  so.intellisense: MacroReturnValue.setDescription
+  langs:
+  - crmscript
+  name: 'setDescription(String)'
+  nameWithType: MacroReturnValue.setDescription(String)
+  fullName: CRMScript.Native.MacroReturnValue.setDescription(String)
+  type: Method
+  summary: "\nSets the description of the macro return value.\n"
+  remarks: 
+  syntax: 
+    content: Void setDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description:
+    return:
+      type: CRMScript.Global.Void 
+  example: 
+- uid: CRMScript.Native.MacroReturnValue.setName(String)
+  commentId: M:CRMScript.Native.MacroReturnValue.setName(String)
+  id: 'setName(String)'
+  so.intellisense: MacroReturnValue.setName
+  langs:
+  - crmscript
+  name: 'setName(String)'
+  nameWithType: MacroReturnValue.setName(String)
+  fullName: CRMScript.Native.MacroReturnValue.setName(String)
+  type: Method
+  summary: "\nSets the name of the macro return value.\n"
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description:
+    return:
+      type: CRMScript.Global.Void 
+  example: 
+references:
+- uid: CRMScript.Native.MacroReturnValue
+  commentId: T:CRMScript.Native.MacroReturnValue
+  isExternal: true
+  name: MacroReturnValue
+  nameWithType: MacroReturnValue
+  fullName: CRMScript.Native.MacroReturnValue
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

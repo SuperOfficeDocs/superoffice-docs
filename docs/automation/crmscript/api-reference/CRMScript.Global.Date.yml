@@ -1,0 +1,325 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Global.Date
+  commentId: T:CRMScript.Global.Date
+  id: Date
+  langs:
+  - crmscript
+  children:
+    - CRMScript.Global.Date.#ctor
+    - CRMScript.Global.Date.#ctor(Date)
+    - CRMScript.Global.Date.#ctor(String)
+    - CRMScript.Global.Date.toString()
+    - CRMScript.Global.Date.addDay(Integer)
+    - CRMScript.Global.Date.addMonth(Integer)
+    - CRMScript.Global.Date.addYear(Integer)
+    - CRMScript.Global.Date.getMDay()
+    - CRMScript.Global.Date.getMonth()
+    - CRMScript.Global.Date.getWeek()
+    - CRMScript.Global.Date.getWeekDay()
+    - CRMScript.Global.Date.getYear()
+    - CRMScript.Global.Date.isNull()
+  name: Date
+  nameWithType: Date
+  fullName: CRMScript.Global.Date
+  type: Class
+  summary: "\nDate is a complex data type representing a day, month, and year on ISO format YYYY-MM-DD. The default value is now.<p></p>\nBefore a Date is initialized, it has no value. This is commonly written as NULL, NUL, or NIL in other programming languages. CRMScript automatically initializes Date objects when declared to the current date. Thus this situation is uncommon.\n"
+  example:
+  - "\n<pre><code>Date d;\nprint(d.toString());</code></pre>\n"
+- uid: CRMScript.Global.Date.#ctor
+  commentId: M:CRMScript.Global.Date.#ctor
+  id: '#ctor(Date)'
+  so.intellisense: Void.Date
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Date
+  name: Date()
+  nameWithType: Date.Date()
+  fullName: CRMScript.Global.Date.Date()
+  type: Constructor
+  summary: "\nDefault constructor.\n"
+  remarks: "\nThe default value is now.\n"
+  example:
+  syntax:
+    content: Date Date()
+    parameters: []
+    return:
+      type: CRMScript.Global.Date
+- uid: CRMScript.Global.Date.#ctor(Date)
+  commentId: M:CRMScript.Global.Date.#ctor(Date)
+  id: '#ctor(Date)'
+  so.intellisense: Void.Date
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Date
+  name: Date(Date)
+  nameWithType: Date.#ctor(Date)
+  fullName: CRMScript.Global.Date.#ctor(Date)
+  type: Constructor
+  summary: "\nPass a value to copy into a new object.\n"
+  remarks: "\nThe default value is now.\n"
+  example:
+  - "\n<pre><code>Date d;\nDate next = Date(d);\nprintLine(next.toString());</code></pre>\n"
+  syntax:
+    content: Date Date(Date value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.Date
+      description: "Date object."
+    return:
+      type: CRMScript.Global.Date
+- uid: CRMScript.Global.Date.#ctor(String)
+  commentId: M:CRMScript.Global.Date.#ctor(String)
+  id: '#ctor(String)'
+  so.intellisense: Void.Date
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Date
+  name: Date(String)
+  nameWithType: Date.#ctor(String)
+  fullName: CRMScript.Global.Date.#ctor(String)
+  type: Constructor
+  summary: "\nPass a String containing a date on format YYYY-MM-DD. The constructor will parse the text and create a Date object.\n"
+  remarks: "\nThe default value is now.\n"
+  example:
+  - "\n<pre><code>String newYearsDay = &quot;2020-01-01&quot;;\nDate q1 = Date(newYearsDay);</code></pre>\n"
+  syntax:
+    content: Date Date(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: "A String containing a date (YYYY-MM-DD)."
+    return:
+      type: CRMScript.Global.Date
+- uid: CRMScript.Global.Date.toString()
+  commentId: M:CRMScript.Global.Date.toString()
+  id: toString()
+  so.intellisense: Date.toString
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Date
+  name: toString()
+  nameWithType: Date.toString()
+  fullName: CRMScript.Global.Date.toString()
+  type: Method
+  summary: "\nConverts a date value to its string representation, in ISO format.\n"
+  remarks: "\nOne of the most frequently used methods, typically when you are going to output something.\n"
+  example:
+  - "\n<pre><code>Date d;\nString s = d.toString();</code></pre>\n"
+  syntax:
+    content: String toString()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+- uid: CRMScript.Global.Date.addDay(Integer)
+  commentId: M:CRMScript.Global.Date.addDay(Integer)
+  id: addDay(Integer)
+  so.intellisense: Date.addDay
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Date
+  name: addDay(Integer)
+  nameWithType: Date.addDay(Integer)
+  fullName: CRMScript.Global.Date.addDay(Integer)
+  type: Method
+  summary: "\nAdjusts the currently set date with the given number of days. The original object will be modified, and a copy is returned.\n"
+  remarks: "\nIf the number is negative, the days are subtracted.\n"
+  example:
+  - "\n<pre><code>Date d;\nd.addDay(3);\nprintLine(&quot;Three days from now: &quot; + d.toString());</code></pre>\n"
+  syntax:
+    content: Date addDay(Integer num)
+    parameters:
+    - id: num
+      type: CRMScript.Global.Integer
+      description: "Number of days to add."
+    return:
+      type: CRMScript.Global.Date
+- uid: CRMScript.Global.Date.addMonth(Integer)
+  commentId: M:CRMScript.Global.Date.addMonth(Integer)
+  id: addMonth(Integer)
+  so.intellisense: Date.addMonth
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Date
+  name: addMonth(Integer)
+  nameWithType: Date.addMonth(Integer)
+  fullName: CRMScript.Global.Date.addMonth(Integer)
+  type: Method
+  summary: "\nAdjusts the currently set date with the given number of months.\n"
+  example:
+  - "\n<pre><code>Date d;\nd.addMonth(3);\nprintLine(&quot;Three months from now: &quot; + d.toString());</code></pre>\n"
+  remarks: "The day remains unchanged regardless of the number of days in the months added or subtracted. However, if the update would result in February 29th in a year that is not a leap year, CRMScript automatically corrects it to March 1st."
+  syntax:
+    content: Date addMonth(Integer num)
+    parameters:
+    - id: num
+      type: CRMScript.Global.Integer
+      description: "Number of months to add."
+    return:
+      type: CRMScript.Global.Date
+- uid: CRMScript.Global.Date.addYear(Integer)
+  commentId: M:CRMScript.Global.Date.addYear(Integer)
+  id: addYear(Integer)
+  so.intellisense: Date.addYear
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Date
+  name: addYear(Integer)
+  nameWithType: Date.addYear(Integer)
+  fullName: CRMScript.Global.Date.addYear(Integer)
+  type: Method
+  summary: "\nAdjusts the currently set date with the given number of years.\n"
+  remarks: "\nThe original object will be modified, and a copy is returned.\n"
+  example:
+  - "\n<pre><code>Date d;\nd.addYear(1);\nprintLine(&quot;A year from now: &quot; + d.toString());</code></pre>\n"
+  syntax:
+    content: Date addYear(Integer num)
+    parameters:
+    - id: num
+      type: CRMScript.Global.Integer
+      description: "Number of years to add."
+    return:
+      type: CRMScript.Global.Date
+- uid: CRMScript.Global.Date.getMDay()
+  commentId: M:CRMScript.Global.Date.getMDay()
+  id: getMDay()
+  so.intellisense: Date.getMDay
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Date
+  name: getMDay()
+  nameWithType: Date.getMDay()
+  fullName: CRMScript.Global.Date.getMDay()
+  type: Method
+  summary: "\nReturns the day of the month as an Integer [1-31].\n"
+  example:
+  - "\n<pre><code>Date d;\nprint(d.getMDay().toString());</code></pre>\n"
+  syntax:
+    content: Integer getMDay()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+- uid: CRMScript.Global.Date.getMonth()
+  commentId: M:CRMScript.Global.Date.getMonth()
+  id: getMonth()
+  so.intellisense: Date.getMonth
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Date
+  name: getMonth()
+  nameWithType: Date.getMonth()
+  fullName: CRMScript.Global.Date.getMonth()
+  type: Method
+  summary: "\nReturns the month as an Integer [1-12].\n"
+  example:
+  - "\n<pre><code>Date d;\nprint(d.getMonth().toString());</code></pre>\n"
+  syntax:
+    content: Integer getMonth()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+- uid: CRMScript.Global.Date.getWeek()
+  commentId: M:CRMScript.Global.Date.getWeek()
+  id: getWeek()
+  so.intellisense: Date.getWeek
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Date
+  name: getWeek()
+  nameWithType: Date.getWeek()
+  fullName: CRMScript.Global.Date.getWeek()
+  type: Method
+  summary: "\nReturns the ISO number of the week as an Integer [1-53].\n"
+  remarks: "\nSee http://en.wikipedia.org/wiki/ISO_8601 for detailed info on ISO week numbers.\n"
+  example:
+  - "\n<pre><code>Date d;\nprint(d.getWeek().toString());</code></pre>\n"
+  syntax:
+    content: Integer getWeek()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+- uid: CRMScript.Global.Date.getWeekDay()
+  commentId: M:CRMScript.Global.Date.getWeekDay()
+  id: getWeekDay()
+  so.intellisense: Date.getWeekDay
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Date
+  name: getWeekDay()
+  nameWithType: Date.getWeekDay()
+  fullName: CRMScript.Global.Date.getWeekDay()
+  type: Method
+  summary: "\nReturns the ISO day of the week as an Integer [0-6].\n"
+  remarks: "\nThe 1st day of the week is Monday and has index 0!\n"
+  example:
+  - "\n<pre><code>Date d;\nprint(d.getWeekDay().toString());</code></pre>\n"
+  syntax:
+    content: Integer getWeekDay()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+- uid: CRMScript.Global.Date.getYear()
+  commentId: M:CRMScript.Global.Date.getYear()
+  id: getYear()
+  so.intellisense: Date.getYear
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Date
+  name: getYear()
+  nameWithType: Date.getYear()
+  fullName: CRMScript.Global.Date.getYear()
+  type: Method
+  summary: "\nReturns the year as an Integer.\n"
+  example:
+  - "\n<pre><code>Date d;\nprint(d.getYear().toString());</code></pre>\n"
+  syntax:
+    content: Integer getYear()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+- uid: CRMScript.Global.Date.isNull()
+  commentId: M:CRMScript.Global.Date.isNull()
+  id: isNull()
+  so.intellisense: Date.isNull
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Date
+  name: isNull()
+  nameWithType: Date.isNull()
+  fullName: CRMScript.Global.Date.isNull()
+  type: Method
+  summary: "\nReturns true if it has no value and false if it does.\n"
+  remarks: "\nA NULL/NUL/NIL Date is different from zero, in that it is conceptually without a value.\n"
+  example:
+  - "\n<pre><code>Date d;\nprint(d.isNull().toString());</code></pre>\n"
+  syntax:
+    content: Bool isNull()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+references:
+- uid: CRMScript.Global.Date
+  commentId: T:CRMScript.Global.Date
+  isExternal: true
+  name: Date
+  nameWithType: Date
+  fullName: CRMScript.Global.Date
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool

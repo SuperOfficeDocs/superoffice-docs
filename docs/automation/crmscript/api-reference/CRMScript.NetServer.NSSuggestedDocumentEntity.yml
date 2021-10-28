@@ -1,0 +1,563 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity
+  commentId: T:CRMScript.NetServer.NSSuggestedDocumentEntity
+  id: NSSuggestedDocumentEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSSuggestedDocumentEntity.#ctor
+  - CRMScript.NetServer.NSSuggestedDocumentEntity.GetDeleted()
+  - CRMScript.NetServer.NSSuggestedDocumentEntity.GetDocTmpl()
+  - CRMScript.NetServer.NSSuggestedDocumentEntity.GetDoctmplId()
+  - CRMScript.NetServer.NSSuggestedDocumentEntity.GetHeader()
+  - CRMScript.NetServer.NSSuggestedDocumentEntity.GetName()
+  - CRMScript.NetServer.NSSuggestedDocumentEntity.GetOurRef()
+  - CRMScript.NetServer.NSSuggestedDocumentEntity.GetProjectTypeStatusLink()
+  - CRMScript.NetServer.NSSuggestedDocumentEntity.GetRank()
+  - CRMScript.NetServer.NSSuggestedDocumentEntity.GetSaleTypeStageLink()
+  - CRMScript.NetServer.NSSuggestedDocumentEntity.GetSuggestedDocumentId()
+  - CRMScript.NetServer.NSSuggestedDocumentEntity.GetTooltip()
+  - CRMScript.NetServer.NSSuggestedDocumentEntity.SetDeleted(Bool)
+  - CRMScript.NetServer.NSSuggestedDocumentEntity.SetDocTmpl(NSDocumentTemplate)
+  - CRMScript.NetServer.NSSuggestedDocumentEntity.SetDoctmplId(Integer)
+  - CRMScript.NetServer.NSSuggestedDocumentEntity.SetHeader(String)
+  - CRMScript.NetServer.NSSuggestedDocumentEntity.SetName(String)
+  - CRMScript.NetServer.NSSuggestedDocumentEntity.SetOurRef(String)
+  - CRMScript.NetServer.NSSuggestedDocumentEntity.SetProjectTypeStatusLink(NSProjectTypeStatusLink)
+  - CRMScript.NetServer.NSSuggestedDocumentEntity.SetRank(Integer)
+  - CRMScript.NetServer.NSSuggestedDocumentEntity.SetSaleTypeStageLink(NSSaleTypeStageLink)
+  - CRMScript.NetServer.NSSuggestedDocumentEntity.SetSuggestedDocumentId(Integer)
+  - CRMScript.NetServer.NSSuggestedDocumentEntity.SetTooltip(String)
+  name: NSSuggestedDocumentEntity
+  nameWithType: NSSuggestedDocumentEntity
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSSuggestedDocumentEntity
+  langs:
+  - crmscript
+  name: NSSuggestedDocumentEntity()
+  nameWithType: NSSuggestedDocumentEntity.#ctor
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSSuggestedDocumentEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSSuggestedDocumentEntity
+  example: 
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity.GetDeleted()
+  commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.GetDeleted()
+  id: 'GetDeleted()'
+  so.intellisense: NSSuggestedDocumentEntity.GetDeleted
+  langs:
+  - crmscript
+  name: 'GetDeleted()'
+  nameWithType: NSSuggestedDocumentEntity.GetDeleted()
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity.GetDeleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetDeleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists."
+  example: 
+  - "\n<pre><code>NSSuggestedDocumentEntity thing;\nBool deleted = thing.GetDeleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity.GetDocTmpl()
+  commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.GetDocTmpl()
+  id: 'GetDocTmpl()'
+  so.intellisense: NSSuggestedDocumentEntity.GetDocTmpl
+  langs:
+  - crmscript
+  name: 'GetDocTmpl()'
+  nameWithType: NSSuggestedDocumentEntity.GetDocTmpl()
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity.GetDocTmpl()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSDocumentTemplate GetDocTmpl()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSDocumentTemplate
+      description: "Document template."
+  example: 
+  - "\n<pre><code>NSSuggestedDocumentEntity thing;\nNSDocumentTemplate docTmpl = thing.GetDocTmpl();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity.GetDoctmplId()
+  commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.GetDoctmplId()
+  id: 'GetDoctmplId()'
+  so.intellisense: NSSuggestedDocumentEntity.GetDoctmplId
+  langs:
+  - crmscript
+  name: 'GetDoctmplId()'
+  nameWithType: NSSuggestedDocumentEntity.GetDoctmplId()
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity.GetDoctmplId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDoctmplId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Type of the suggested document."
+  example: 
+  - "\n<pre><code>NSSuggestedDocumentEntity thing;\nInteger doctmplId = thing.GetDoctmplId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity.GetHeader()
+  commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.GetHeader()
+  id: 'GetHeader()'
+  so.intellisense: NSSuggestedDocumentEntity.GetHeader
+  langs:
+  - crmscript
+  name: 'GetHeader()'
+  nameWithType: NSSuggestedDocumentEntity.GetHeader()
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity.GetHeader()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetHeader()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: Suggested 'header'
+  example: 
+  - "\n<pre><code>NSSuggestedDocumentEntity thing;\nString header = thing.GetHeader();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSSuggestedDocumentEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSSuggestedDocumentEntity.GetName()
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Item name, visible in Guide."
+  example: 
+  - "\n<pre><code>NSSuggestedDocumentEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity.GetOurRef()
+  commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.GetOurRef()
+  id: 'GetOurRef()'
+  so.intellisense: NSSuggestedDocumentEntity.GetOurRef
+  langs:
+  - crmscript
+  name: 'GetOurRef()'
+  nameWithType: NSSuggestedDocumentEntity.GetOurRef()
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity.GetOurRef()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetOurRef()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: Suggested 'our reference'
+  example: 
+  - "\n<pre><code>NSSuggestedDocumentEntity thing;\nString ourRef = thing.GetOurRef();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity.GetProjectTypeStatusLink()
+  commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.GetProjectTypeStatusLink()
+  id: 'GetProjectTypeStatusLink()'
+  so.intellisense: NSSuggestedDocumentEntity.GetProjectTypeStatusLink
+  langs:
+  - crmscript
+  name: 'GetProjectTypeStatusLink()'
+  nameWithType: NSSuggestedDocumentEntity.GetProjectTypeStatusLink()
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity.GetProjectTypeStatusLink()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSProjectTypeStatusLink GetProjectTypeStatusLink()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSProjectTypeStatusLink
+      description: "Project type and project status link info."
+  example: 
+  - "\n<pre><code>NSSuggestedDocumentEntity thing;\nNSProjectTypeStatusLink projectTypeStatusLink = thing.GetProjectTypeStatusLink();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity.GetRank()
+  commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSSuggestedDocumentEntity.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSSuggestedDocumentEntity.GetRank()
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Rank, controls rank of non-instantiated items in Guide."
+  example: 
+  - "\n<pre><code>NSSuggestedDocumentEntity thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity.GetSaleTypeStageLink()
+  commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.GetSaleTypeStageLink()
+  id: 'GetSaleTypeStageLink()'
+  so.intellisense: NSSuggestedDocumentEntity.GetSaleTypeStageLink
+  langs:
+  - crmscript
+  name: 'GetSaleTypeStageLink()'
+  nameWithType: NSSuggestedDocumentEntity.GetSaleTypeStageLink()
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity.GetSaleTypeStageLink()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSSaleTypeStageLink GetSaleTypeStageLink()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSaleTypeStageLink
+      description: "Sale type and stage link info."
+  example: 
+  - "\n<pre><code>NSSuggestedDocumentEntity thing;\nNSSaleTypeStageLink saleTypeStageLink = thing.GetSaleTypeStageLink();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity.GetSuggestedDocumentId()
+  commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.GetSuggestedDocumentId()
+  id: 'GetSuggestedDocumentId()'
+  so.intellisense: NSSuggestedDocumentEntity.GetSuggestedDocumentId
+  langs:
+  - crmscript
+  name: 'GetSuggestedDocumentId()'
+  nameWithType: NSSuggestedDocumentEntity.GetSuggestedDocumentId()
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity.GetSuggestedDocumentId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSuggestedDocumentId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSSuggestedDocumentEntity thing;\nInteger suggestedDocumentId = thing.GetSuggestedDocumentId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSSuggestedDocumentEntity.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSSuggestedDocumentEntity.GetTooltip()
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity.GetTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Tooltip / description."
+  example: 
+  - "\n<pre><code>NSSuggestedDocumentEntity thing;\nString tooltip = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity.SetDeleted(Bool)
+  commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.SetDeleted(Bool)
+  id: 'SetDeleted(Bool)'
+  so.intellisense: NSSuggestedDocumentEntity.SetDeleted
+  langs:
+  - crmscript
+  name: 'SetDeleted(Bool)'
+  nameWithType: NSSuggestedDocumentEntity.SetDeleted(Bool)
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity.SetDeleted(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeleted(Bool deleted)
+    parameters:
+    - id: deleted
+      type: CRMScript.Global.Bool
+      description: "0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedDocumentEntity thing;\nBool deleted;\nthing.SetDeleted(deleted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity.SetDocTmpl(NSDocumentTemplate)
+  commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.SetDocTmpl(NSDocumentTemplate)
+  id: 'SetDocTmpl(NSDocumentTemplate)'
+  so.intellisense: NSSuggestedDocumentEntity.SetDocTmpl
+  langs:
+  - crmscript
+  name: 'SetDocTmpl(NSDocumentTemplate)'
+  nameWithType: NSSuggestedDocumentEntity.SetDocTmpl(NSDocumentTemplate)
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity.SetDocTmpl(NSDocumentTemplate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDocTmpl(NSDocumentTemplate docTmpl)
+    parameters:
+    - id: docTmpl
+      type: CRMScript.NetServer.NSDocumentTemplate
+      description: "Document template."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedDocumentEntity thing;\nNSDocumentTemplate docTmpl;\nthing.SetDocTmpl(docTmpl);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity.SetDoctmplId(Integer)
+  commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.SetDoctmplId(Integer)
+  id: 'SetDoctmplId(Integer)'
+  so.intellisense: NSSuggestedDocumentEntity.SetDoctmplId
+  langs:
+  - crmscript
+  name: 'SetDoctmplId(Integer)'
+  nameWithType: NSSuggestedDocumentEntity.SetDoctmplId(Integer)
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity.SetDoctmplId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDoctmplId(Integer doctmplId)
+    parameters:
+    - id: doctmplId
+      type: CRMScript.Global.Integer
+      description: "Type of the suggested document."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedDocumentEntity thing;\nInteger doctmplId;\nthing.SetDoctmplId(doctmplId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity.SetHeader(String)
+  commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.SetHeader(String)
+  id: 'SetHeader(String)'
+  so.intellisense: NSSuggestedDocumentEntity.SetHeader
+  langs:
+  - crmscript
+  name: 'SetHeader(String)'
+  nameWithType: NSSuggestedDocumentEntity.SetHeader(String)
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity.SetHeader(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetHeader(String header)
+    parameters:
+    - id: header
+      type: CRMScript.Global.String
+      description: Suggested 'header'
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedDocumentEntity thing;\nString header;\nthing.SetHeader(header);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSSuggestedDocumentEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSSuggestedDocumentEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Item name, visible in Guide."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedDocumentEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity.SetOurRef(String)
+  commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.SetOurRef(String)
+  id: 'SetOurRef(String)'
+  so.intellisense: NSSuggestedDocumentEntity.SetOurRef
+  langs:
+  - crmscript
+  name: 'SetOurRef(String)'
+  nameWithType: NSSuggestedDocumentEntity.SetOurRef(String)
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity.SetOurRef(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOurRef(String ourRef)
+    parameters:
+    - id: ourRef
+      type: CRMScript.Global.String
+      description: Suggested 'our reference'
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedDocumentEntity thing;\nString ourRef;\nthing.SetOurRef(ourRef);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity.SetProjectTypeStatusLink(NSProjectTypeStatusLink)
+  commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.SetProjectTypeStatusLink(NSProjectTypeStatusLink)
+  id: 'SetProjectTypeStatusLink(NSProjectTypeStatusLink)'
+  so.intellisense: NSSuggestedDocumentEntity.SetProjectTypeStatusLink
+  langs:
+  - crmscript
+  name: 'SetProjectTypeStatusLink(NSProjectTypeStatusLink)'
+  nameWithType: NSSuggestedDocumentEntity.SetProjectTypeStatusLink(NSProjectTypeStatusLink)
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity.SetProjectTypeStatusLink(NSProjectTypeStatusLink)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjectTypeStatusLink(NSProjectTypeStatusLink projectTypeStatusLink)
+    parameters:
+    - id: projectTypeStatusLink
+      type: CRMScript.NetServer.NSProjectTypeStatusLink
+      description: "Project type and project status link info."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedDocumentEntity thing;\nNSProjectTypeStatusLink projectTypeStatusLink;\nthing.SetProjectTypeStatusLink(projectTypeStatusLink);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSSuggestedDocumentEntity.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSSuggestedDocumentEntity.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "Rank, controls rank of non-instantiated items in Guide."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedDocumentEntity thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity.SetSaleTypeStageLink(NSSaleTypeStageLink)
+  commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.SetSaleTypeStageLink(NSSaleTypeStageLink)
+  id: 'SetSaleTypeStageLink(NSSaleTypeStageLink)'
+  so.intellisense: NSSuggestedDocumentEntity.SetSaleTypeStageLink
+  langs:
+  - crmscript
+  name: 'SetSaleTypeStageLink(NSSaleTypeStageLink)'
+  nameWithType: NSSuggestedDocumentEntity.SetSaleTypeStageLink(NSSaleTypeStageLink)
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity.SetSaleTypeStageLink(NSSaleTypeStageLink)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSaleTypeStageLink(NSSaleTypeStageLink saleTypeStageLink)
+    parameters:
+    - id: saleTypeStageLink
+      type: CRMScript.NetServer.NSSaleTypeStageLink
+      description: "Sale type and stage link info."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedDocumentEntity thing;\nNSSaleTypeStageLink saleTypeStageLink;\nthing.SetSaleTypeStageLink(saleTypeStageLink);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity.SetSuggestedDocumentId(Integer)
+  commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.SetSuggestedDocumentId(Integer)
+  id: 'SetSuggestedDocumentId(Integer)'
+  so.intellisense: NSSuggestedDocumentEntity.SetSuggestedDocumentId
+  langs:
+  - crmscript
+  name: 'SetSuggestedDocumentId(Integer)'
+  nameWithType: NSSuggestedDocumentEntity.SetSuggestedDocumentId(Integer)
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity.SetSuggestedDocumentId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSuggestedDocumentId(Integer suggestedDocumentId)
+    parameters:
+    - id: suggestedDocumentId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedDocumentEntity thing;\nInteger suggestedDocumentId;\nthing.SetSuggestedDocumentId(suggestedDocumentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSSuggestedDocumentEntity.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSSuggestedDocumentEntity.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSSuggestedDocumentEntity.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity.SetTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: "Tooltip / description."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSuggestedDocumentEntity thing;\nString tooltip;\nthing.SetTooltip(tooltip);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSSuggestedDocumentEntity
+  commentId: T:CRMScript.NetServer.NSSuggestedDocumentEntity
+  isExternal: true
+  name: NSSuggestedDocumentEntity
+  nameWithType: NSSuggestedDocumentEntity
+  fullName: CRMScript.NetServer.NSSuggestedDocumentEntity
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.NetServer.NSDocumentTemplate
+  commentId: T:CRMScript.NetServer.NSDocumentTemplate
+  isExternal: true
+  name: NSDocumentTemplate
+  nameWithType: NSDocumentTemplate
+  fullName: CRMScript.NetServer.NSDocumentTemplate
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSProjectTypeStatusLink
+  commentId: T:CRMScript.NetServer.NSProjectTypeStatusLink
+  isExternal: true
+  name: NSProjectTypeStatusLink
+  nameWithType: NSProjectTypeStatusLink
+  fullName: CRMScript.NetServer.NSProjectTypeStatusLink
+- uid: CRMScript.NetServer.NSSaleTypeStageLink
+  commentId: T:CRMScript.NetServer.NSSaleTypeStageLink
+  isExternal: true
+  name: NSSaleTypeStageLink
+  nameWithType: NSSaleTypeStageLink
+  fullName: CRMScript.NetServer.NSSaleTypeStageLink
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

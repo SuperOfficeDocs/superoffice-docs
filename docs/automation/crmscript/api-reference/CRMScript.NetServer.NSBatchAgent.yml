@@ -1,0 +1,390 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSBatchAgent
+  commentId: T:CRMScript.NetServer.NSBatchAgent
+  id: NSBatchAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSBatchAgent.#ctor
+  - CRMScript.NetServer.NSBatchAgent.DeleteBatchTask(Integer)
+  - CRMScript.NetServer.NSBatchAgent.DeleteBatchTasks(Integer[])
+  - CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfo(Integer)
+  - CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByAssociates(Integer[])
+  - CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByAssociatesAndState(Integer[],Integer)
+  - CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByNameAndAssociates(String,Integer[])
+  - CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByNameAndState(String,Integer)
+  - CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByState(Integer)
+  - CRMScript.NetServer.NSBatchAgent.StartBatchJob(NSBatchTaskInfo)
+  - CRMScript.NetServer.NSBatchAgent.StopBatchJob(Integer)
+  - CRMScript.NetServer.NSBatchAgent.UpdateBatchTask(NSBatchTaskInfo)
+  name: NSBatchAgent
+  nameWithType: NSBatchAgent
+  fullName: CRMScript.NetServer.NSBatchAgent
+  type: Class
+  summary: "\nStart, stop and monitor predefined batch tasks.\n"
+  example: 
+  - "\n<pre><code>NSBatchAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSBatchAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSBatchAgent
+  langs:
+  - crmscript
+  name: NSBatchAgent()
+  nameWithType: NSBatchAgent.#ctor
+  fullName: CRMScript.NetServer.NSBatchAgent.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSBatchAgent class.\n"
+  remarks: 
+  syntax: 
+    content: NSBatchAgent
+  example: 
+  - "\n<pre><code>NSBatchAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchAgent.DeleteBatchTask(Integer)
+  commentId: M:CRMScript.NetServer.NSBatchAgent.DeleteBatchTask(Integer)
+  id: 'DeleteBatchTask(Integer)'
+  so.intellisense: NSBatchAgent.DeleteBatchTask
+  langs:
+  - crmscript
+  name: 'DeleteBatchTask(Integer)'
+  nameWithType: NSBatchAgent.DeleteBatchTask(Integer)
+  fullName: CRMScript.NetServer.NSBatchAgent.DeleteBatchTask(Integer)
+  type: Method
+  summary: "\nDeletes a batch task from the database.\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteBatchTask(Integer batchTaskId)
+    parameters:
+    - id: batchTaskId
+      type: CRMScript.Global.Integer
+      description: "The batchTask ids to delete."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSBatchAgent.DeleteBatchTasks(Integer[])
+  commentId: M:CRMScript.NetServer.NSBatchAgent.DeleteBatchTasks(Integer[])
+  id: 'DeleteBatchTasks(Integer[])'
+  so.intellisense: NSBatchAgent.DeleteBatchTasks
+  langs:
+  - crmscript
+  name: 'DeleteBatchTasks(Integer[])'
+  nameWithType: NSBatchAgent.DeleteBatchTasks(Integer[])
+  fullName: CRMScript.NetServer.NSBatchAgent.DeleteBatchTasks(Integer[])
+  type: Method
+  summary: "\nDeletes batch tasks from the database.\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteBatchTasks(Integer[] batchTaskIds)
+    parameters:
+    - id: batchTaskIds
+      type: CRMScript.Global.Integer[]
+      description: "Array of batchTask ids to delete."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfo(Integer)
+  commentId: M:CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfo(Integer)
+  id: 'GetBatchTaskInfo(Integer)'
+  so.intellisense: NSBatchAgent.GetBatchTaskInfo
+  langs:
+  - crmscript
+  name: 'GetBatchTaskInfo(Integer)'
+  nameWithType: NSBatchAgent.GetBatchTaskInfo(Integer)
+  fullName: CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfo(Integer)
+  type: Method
+  summary: "\nGets a single NSBatchTaskInfo based on ID.\n"
+  remarks: 
+  syntax: 
+    content: NSBatchTaskInfo GetBatchTaskInfo(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "ID of the BatchTaskInfo to get."
+    return:
+      type: CRMScript.NetServer.NSBatchTaskInfo
+      description: "A BatchTaskInfo."
+  example: 
+  - "\n<pre><code>NSBatchAgent agent;\nInteger id;\nNSBatchTaskInfo res = agent.GetBatchTaskInfo(id);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByAssociates(Integer[])
+  commentId: M:CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByAssociates(Integer[])
+  id: 'GetBatchTaskInfosByAssociates(Integer[])'
+  so.intellisense: NSBatchAgent.GetBatchTaskInfosByAssociates
+  langs:
+  - crmscript
+  name: 'GetBatchTaskInfosByAssociates(Integer[])'
+  nameWithType: NSBatchAgent.GetBatchTaskInfosByAssociates(Integer[])
+  fullName: CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByAssociates(Integer[])
+  type: Method
+  summary: "\nGets an array of NSBatchTaskInfo for the provided associate IDs.\n"
+  remarks: 
+  syntax: 
+    content: NSBatchTaskInfo[] GetBatchTaskInfosByAssociates(Integer[] associateIds)
+    parameters:
+    - id: associateIds
+      type: CRMScript.Global.Integer[]
+      description: "Array of associate IDs."
+    return:
+      type: CRMScript.NetServer.NSBatchTaskInfo[]
+      description: "An array of BatchTaskInfo."
+  example: 
+  - "\n<pre><code>NSBatchAgent agent;\nInteger[] associateIds;\nNSBatchTaskInfo[] res = agent.GetBatchTaskInfosByAssociates(associateIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByAssociatesAndState(Integer[],Integer)
+  commentId: M:CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByAssociatesAndState(Integer[],Integer)
+  id: 'GetBatchTaskInfosByAssociatesAndState(Integer[],Integer)'
+  so.intellisense: NSBatchAgent.GetBatchTaskInfosByAssociatesAndState
+  langs:
+  - crmscript
+  name: 'GetBatchTaskInfosByAssociatesAndState(Integer[],Integer)'
+  nameWithType: NSBatchAgent.GetBatchTaskInfosByAssociatesAndState(Integer[],Integer)
+  fullName: CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByAssociatesAndState(Integer[],Integer)
+  type: Method
+  summary: "\nGets an array of NSBatchTaskInfo for the provided associate IDs and batch task state.\n"
+  remarks:
+  syntax: 
+    content: NSBatchTaskInfo[] GetBatchTaskInfosByAssociatesAndState(Integer[] associateIds, Integer state)
+    parameters:
+    - id: associateIds
+      type: CRMScript.Global.Integer[]
+      description: "Array of associate IDs"
+    - id: state
+      type: CRMScript.Global.Integer
+      description: "The BatchTaskState to get batch tasks for. See <xref href=\"CRMScript.NetServer.BatchTaskState\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSBatchTaskInfo[]
+      description: "An array of BatchTaskInfo."
+  example: 
+  - "\n<pre><code>NSBatchAgent agent;\nInteger[] associateIds;\nInteger state;\nNSBatchTaskInfo[] res = agent.GetBatchTaskInfosByAssociatesAndState(associateIds, state);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByNameAndAssociates(String,Integer[])
+  commentId: M:CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByNameAndAssociates(String,Integer[])
+  id: 'GetBatchTaskInfosByNameAndAssociates(String,Integer[])'
+  so.intellisense: NSBatchAgent.GetBatchTaskInfosByNameAndAssociates
+  langs:
+  - crmscript
+  name: 'GetBatchTaskInfosByNameAndAssociates(String,Integer[])'
+  nameWithType: NSBatchAgent.GetBatchTaskInfosByNameAndAssociates(String,Integer[])
+  fullName: CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByNameAndAssociates(String,Integer[])
+  type: Method
+  summary: "\nGets an array of NSBatchTaskInfo for the provided associate IDs and batch task definition name.\n"
+  remarks: 
+  syntax: 
+    content: NSBatchTaskInfo[] GetBatchTaskInfosByNameAndAssociates(String name, Integer[] associateIds)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Batchtask definition name."
+    - id: associateIds
+      type: CRMScript.Global.Integer[]
+      description: "Array of associate IDs."
+    return:
+      type: CRMScript.NetServer.NSBatchTaskInfo[]
+      description: "An array of BatchTaskInfo."
+  example: 
+  - "\n<pre><code>NSBatchAgent agent;\nString name;\nInteger[] associateIds;\nNSBatchTaskInfo[] res = agent.GetBatchTaskInfosByNameAndAssociates(name, associateIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByNameAndState(String,Integer)
+  commentId: M:CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByNameAndState(String,Integer)
+  id: 'GetBatchTaskInfosByNameAndState(String,Integer)'
+  so.intellisense: NSBatchAgent.GetBatchTaskInfosByNameAndState
+  langs:
+  - crmscript
+  name: 'GetBatchTaskInfosByNameAndState(String,Integer)'
+  nameWithType: NSBatchAgent.GetBatchTaskInfosByNameAndState(String,Integer)
+  fullName: CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByNameAndState(String,Integer)
+  type: Method
+  summary: "\nGets an array of NSBatchTaskInfo with state defined by a BatchTaskState and the batchtask definition name.\n"
+  remarks:
+  syntax: 
+    content: NSBatchTaskInfo[] GetBatchTaskInfosByNameAndState(String name, Integer state)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Batchtask definition name."
+    - id: state
+      type: CRMScript.Global.Integer
+      description: "The BatchTaskState to get batch tasks for. See <xref href=\"CRMScript.NetServer.BatchTaskState\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSBatchTaskInfo[]
+      description: "An array of BatchTaskInfo."
+  example: 
+  - "\n<pre><code>NSBatchAgent agent;\nString name;\nInteger state;\nNSBatchTaskInfo[] res = agent.GetBatchTaskInfosByNameAndState(name, state);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByState(Integer)
+  commentId: M:CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByState(Integer)
+  id: 'GetBatchTaskInfosByState(Integer)'
+  so.intellisense: NSBatchAgent.GetBatchTaskInfosByState
+  langs:
+  - crmscript
+  name: 'GetBatchTaskInfosByState(Integer)'
+  nameWithType: NSBatchAgent.GetBatchTaskInfosByState(Integer)
+  fullName: CRMScript.NetServer.NSBatchAgent.GetBatchTaskInfosByState(Integer)
+  type: Method
+  summary: "\nGets an array of NSBatchTaskInfo with state defined by a BatchTaskState.\n"
+  remarks:
+  syntax: 
+    content: NSBatchTaskInfo[] GetBatchTaskInfosByState(Integer state)
+    parameters:
+    - id: state
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.BatchTaskState\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSBatchTaskInfo[]
+      description: "An array of BatchTaskInfo."
+  example: 
+  - "\n<pre><code>NSBatchAgent agent;\nInteger state;\nNSBatchTaskInfo[] res = agent.GetBatchTaskInfosByState(state);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchAgent.StartBatchJob(NSBatchTaskInfo)
+  commentId: M:CRMScript.NetServer.NSBatchAgent.StartBatchJob(NSBatchTaskInfo)
+  id: 'StartBatchJob(NSBatchTaskInfo)'
+  so.intellisense: NSBatchAgent.StartBatchJob
+  langs:
+  - crmscript
+  name: 'StartBatchJob(NSBatchTaskInfo)'
+  nameWithType: NSBatchAgent.StartBatchJob(NSBatchTaskInfo)
+  fullName: CRMScript.NetServer.NSBatchAgent.StartBatchJob(NSBatchTaskInfo)
+  type: Method
+  summary: "\nStarts a batch job based on NSBatchTaskInfo.\n"
+  remarks: 
+  syntax: 
+    content: Integer StartBatchJob(NSBatchTaskInfo batchTaskInfo)
+    parameters:
+    - id: batchTaskInfo
+      type: CRMScript.NetServer.NSBatchTaskInfo
+      description: "Use BatchTaskInfo to describe the new batch job."
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the created batch job."
+  example: 
+  - "\n<pre><code>NSBatchAgent agent;\nNSBatchTaskInfo batchTaskInfo;\nInteger res = agent.StartBatchJob(batchTaskInfo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchAgent.StopBatchJob(Integer)
+  commentId: M:CRMScript.NetServer.NSBatchAgent.StopBatchJob(Integer)
+  id: 'StopBatchJob(Integer)'
+  so.intellisense: NSBatchAgent.StopBatchJob
+  langs:
+  - crmscript
+  name: 'StopBatchJob(Integer)'
+  nameWithType: NSBatchAgent.StopBatchJob(Integer)
+  fullName: CRMScript.NetServer.NSBatchAgent.StopBatchJob(Integer)
+  type: Method
+  summary: "\nStops a batch job based on ID.\n"
+  remarks: 
+  syntax: 
+    content: Bool StopBatchJob(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "ID of the batch job to stop."
+    return:
+      type: CRMScript.Global.Bool
+      description: "true if the job was stopped successfully."
+  example: 
+  - "\n<pre><code>NSBatchAgent agent;\nInteger id;\nBool res = agent.StopBatchJob(id);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBatchAgent.UpdateBatchTask(NSBatchTaskInfo)
+  commentId: M:CRMScript.NetServer.NSBatchAgent.UpdateBatchTask(NSBatchTaskInfo)
+  id: 'UpdateBatchTask(NSBatchTaskInfo)'
+  so.intellisense: NSBatchAgent.UpdateBatchTask
+  langs:
+  - crmscript
+  name: 'UpdateBatchTask(NSBatchTaskInfo)'
+  nameWithType: NSBatchAgent.UpdateBatchTask(NSBatchTaskInfo)
+  fullName: CRMScript.NetServer.NSBatchAgent.UpdateBatchTask(NSBatchTaskInfo)
+  type: Method
+  summary: "\nUpdates information about a BatchTask.\n"
+  remarks: "\nOnly the following properties can be updated: State, Description, Response and Request.\n"
+  syntax: 
+    content: NSBatchTaskInfo UpdateBatchTask(NSBatchTaskInfo batchTaskInfo)
+    parameters:
+    - id: batchTaskInfo
+      type: CRMScript.NetServer.NSBatchTaskInfo
+      description: "The updated information to save."
+    return:
+      type: CRMScript.NetServer.NSBatchTaskInfo
+      description: "The updated BatchTaskInfo."
+  example: 
+  - "\n<pre><code>NSBatchAgent agent;\nNSBatchTaskInfo batchTaskInfo;\nNSBatchTaskInfo res = agent.UpdateBatchTask(batchTaskInfo);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSBatchAgent
+  commentId: T:CRMScript.NetServer.NSBatchAgent
+  isExternal: true
+  name: NSBatchAgent
+  nameWithType: NSBatchAgent
+  fullName: CRMScript.NetServer.NSBatchAgent
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    isExternal: true
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSBatchTaskInfo
+  commentId: T:CRMScript.NetServer.NSBatchTaskInfo
+  isExternal: true
+  name: NSBatchTaskInfo
+  nameWithType: NSBatchTaskInfo
+  fullName: CRMScript.NetServer.NSBatchTaskInfo
+- uid: CRMScript.NetServer.NSBatchTaskInfo[]
+  isExternal: true
+  name: NSBatchTaskInfo[]
+  nameWithType: NSBatchTaskInfo[]
+  fullName: CRMScript.NetServer.NSBatchTaskInfo[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSBatchTaskInfo
+    isExternal: true
+    name: NSBatchTaskInfo
+    nameWithType: NSBatchTaskInfo
+    fullName: CRMScript.NetServer.NSBatchTaskInfo
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSBatchTaskInfo
+  commentId: T:CRMScript.NetServer.NSBatchTaskInfo
+  isExternal: true
+  name: NSBatchTaskInfo
+  nameWithType: NSBatchTaskInfo
+  fullName: CRMScript.NetServer.NSBatchTaskInfo
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.NetServer.BatchTaskState
+  commentId: T:CRMScript.NetServer.BatchTaskState
+  isExternal: true
+  name: BatchTaskState
+  nameWithType: BatchTaskState
+  fullName: CRMScript.NetServer.BatchTaskState
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

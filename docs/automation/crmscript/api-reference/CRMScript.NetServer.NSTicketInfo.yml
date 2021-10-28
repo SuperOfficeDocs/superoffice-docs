@@ -1,0 +1,407 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSTicketInfo
+  commentId: T:CRMScript.NetServer.NSTicketInfo
+  id: NSTicketInfo
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSTicketInfo.#ctor
+  - CRMScript.NetServer.NSTicketInfo.GetCategoryName()
+  - CRMScript.NetServer.NSTicketInfo.GetContactName()
+  - CRMScript.NetServer.NSTicketInfo.GetOwnerName()
+  - CRMScript.NetServer.NSTicketInfo.GetPersonName()
+  - CRMScript.NetServer.NSTicketInfo.GetPriorityName()
+  - CRMScript.NetServer.NSTicketInfo.GetTicketId()
+  - CRMScript.NetServer.NSTicketInfo.GetTicketUrl()
+  - CRMScript.NetServer.NSTicketInfo.GetTitle()
+  - CRMScript.NetServer.NSTicketInfo.SetCategoryName(String)
+  - CRMScript.NetServer.NSTicketInfo.SetContactName(String)
+  - CRMScript.NetServer.NSTicketInfo.SetOwnerName(String)
+  - CRMScript.NetServer.NSTicketInfo.SetPersonName(String)
+  - CRMScript.NetServer.NSTicketInfo.SetPriorityName(String)
+  - CRMScript.NetServer.NSTicketInfo.SetTicketId(Integer)
+  - CRMScript.NetServer.NSTicketInfo.SetTicketUrl(String)
+  - CRMScript.NetServer.NSTicketInfo.SetTitle(String)
+  name: NSTicketInfo
+  nameWithType: NSTicketInfo
+  fullName: CRMScript.NetServer.NSTicketInfo
+  type: Class
+  summary: "\nA small carrier that contains information about a ticket.\n"
+  example: 
+- uid: CRMScript.NetServer.NSTicketInfo.#ctor
+  commentId: M:CRMScript.NetServer.NSTicketInfo.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSTicketInfo
+  langs:
+  - crmscript
+  name: NSTicketInfo()
+  nameWithType: NSTicketInfo.#ctor
+  fullName: CRMScript.NetServer.NSTicketInfo.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSTicketInfo class.\n"
+  remarks: 
+  syntax: 
+    content: NSTicketInfo
+  example: 
+- uid: CRMScript.NetServer.NSTicketInfo.GetCategoryName()
+  commentId: M:CRMScript.NetServer.NSTicketInfo.GetCategoryName()
+  id: 'GetCategoryName()'
+  so.intellisense: NSTicketInfo.GetCategoryName
+  langs:
+  - crmscript
+  name: 'GetCategoryName()'
+  nameWithType: NSTicketInfo.GetCategoryName()
+  fullName: CRMScript.NetServer.NSTicketInfo.GetCategoryName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCategoryName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the category for the request."
+  example: 
+  - "\n<pre><code>NSTicketInfo thing;\nString categoryName = thing.GetCategoryName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketInfo.GetContactName()
+  commentId: M:CRMScript.NetServer.NSTicketInfo.GetContactName()
+  id: 'GetContactName()'
+  so.intellisense: NSTicketInfo.GetContactName
+  langs:
+  - crmscript
+  name: 'GetContactName()'
+  nameWithType: NSTicketInfo.GetContactName()
+  fullName: CRMScript.NetServer.NSTicketInfo.GetContactName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetContactName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the contact/company connected to the ticket."
+  example: 
+  - "\n<pre><code>NSTicketInfo thing;\nString contactName = thing.GetContactName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketInfo.GetOwnerName()
+  commentId: M:CRMScript.NetServer.NSTicketInfo.GetOwnerName()
+  id: 'GetOwnerName()'
+  so.intellisense: NSTicketInfo.GetOwnerName
+  langs:
+  - crmscript
+  name: 'GetOwnerName()'
+  nameWithType: NSTicketInfo.GetOwnerName()
+  fullName: CRMScript.NetServer.NSTicketInfo.GetOwnerName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetOwnerName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the owner which the request was assigned to."
+  example: 
+  - "\n<pre><code>NSTicketInfo thing;\nString ownerName = thing.GetOwnerName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketInfo.GetPersonName()
+  commentId: M:CRMScript.NetServer.NSTicketInfo.GetPersonName()
+  id: 'GetPersonName()'
+  so.intellisense: NSTicketInfo.GetPersonName
+  langs:
+  - crmscript
+  name: 'GetPersonName()'
+  nameWithType: NSTicketInfo.GetPersonName()
+  fullName: CRMScript.NetServer.NSTicketInfo.GetPersonName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPersonName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the person/customer connected to the ticket."
+  example: 
+  - "\n<pre><code>NSTicketInfo thing;\nString personName = thing.GetPersonName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketInfo.GetPriorityName()
+  commentId: M:CRMScript.NetServer.NSTicketInfo.GetPriorityName()
+  id: 'GetPriorityName()'
+  so.intellisense: NSTicketInfo.GetPriorityName
+  langs:
+  - crmscript
+  name: 'GetPriorityName()'
+  nameWithType: NSTicketInfo.GetPriorityName()
+  fullName: CRMScript.NetServer.NSTicketInfo.GetPriorityName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPriorityName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the priority for the request."
+  example: 
+  - "\n<pre><code>NSTicketInfo thing;\nString priorityName = thing.GetPriorityName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketInfo.GetTicketId()
+  commentId: M:CRMScript.NetServer.NSTicketInfo.GetTicketId()
+  id: 'GetTicketId()'
+  so.intellisense: NSTicketInfo.GetTicketId
+  langs:
+  - crmscript
+  name: 'GetTicketId()'
+  nameWithType: NSTicketInfo.GetTicketId()
+  fullName: CRMScript.NetServer.NSTicketInfo.GetTicketId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTicketId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the created ticket."
+  example: 
+  - "\n<pre><code>NSTicketInfo thing;\nInteger ticketId = thing.GetTicketId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketInfo.GetTicketUrl()
+  commentId: M:CRMScript.NetServer.NSTicketInfo.GetTicketUrl()
+  id: 'GetTicketUrl()'
+  so.intellisense: NSTicketInfo.GetTicketUrl
+  langs:
+  - crmscript
+  name: 'GetTicketUrl()'
+  nameWithType: NSTicketInfo.GetTicketUrl()
+  fullName: CRMScript.NetServer.NSTicketInfo.GetTicketUrl()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTicketUrl()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A URL leading directly to the created request. This is a URL meant to be used by a Service user."
+  example: 
+  - "\n<pre><code>NSTicketInfo thing;\nString ticketUrl = thing.GetTicketUrl();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketInfo.GetTitle()
+  commentId: M:CRMScript.NetServer.NSTicketInfo.GetTitle()
+  id: 'GetTitle()'
+  so.intellisense: NSTicketInfo.GetTitle
+  langs:
+  - crmscript
+  name: 'GetTitle()'
+  nameWithType: NSTicketInfo.GetTitle()
+  fullName: CRMScript.NetServer.NSTicketInfo.GetTitle()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTitle()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The title/subject of the created ticket."
+  example: 
+  - "\n<pre><code>NSTicketInfo thing;\nString title = thing.GetTitle();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketInfo.SetCategoryName(String)
+  commentId: M:CRMScript.NetServer.NSTicketInfo.SetCategoryName(String)
+  id: 'SetCategoryName(String)'
+  so.intellisense: NSTicketInfo.SetCategoryName
+  langs:
+  - crmscript
+  name: 'SetCategoryName(String)'
+  nameWithType: NSTicketInfo.SetCategoryName(String)
+  fullName: CRMScript.NetServer.NSTicketInfo.SetCategoryName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCategoryName(String categoryName)
+    parameters:
+    - id: categoryName
+      type: CRMScript.Global.String
+      description: "The name of the category for the request."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketInfo thing;\nString categoryName;\nthing.SetCategoryName(categoryName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketInfo.SetContactName(String)
+  commentId: M:CRMScript.NetServer.NSTicketInfo.SetContactName(String)
+  id: 'SetContactName(String)'
+  so.intellisense: NSTicketInfo.SetContactName
+  langs:
+  - crmscript
+  name: 'SetContactName(String)'
+  nameWithType: NSTicketInfo.SetContactName(String)
+  fullName: CRMScript.NetServer.NSTicketInfo.SetContactName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactName(String contactName)
+    parameters:
+    - id: contactName
+      type: CRMScript.Global.String
+      description: "The name of the contact/company connected to the ticket."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketInfo thing;\nString contactName;\nthing.SetContactName(contactName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketInfo.SetOwnerName(String)
+  commentId: M:CRMScript.NetServer.NSTicketInfo.SetOwnerName(String)
+  id: 'SetOwnerName(String)'
+  so.intellisense: NSTicketInfo.SetOwnerName
+  langs:
+  - crmscript
+  name: 'SetOwnerName(String)'
+  nameWithType: NSTicketInfo.SetOwnerName(String)
+  fullName: CRMScript.NetServer.NSTicketInfo.SetOwnerName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOwnerName(String ownerName)
+    parameters:
+    - id: ownerName
+      type: CRMScript.Global.String
+      description: "The name of the owner which the request was assigned to."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketInfo thing;\nString ownerName;\nthing.SetOwnerName(ownerName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketInfo.SetPersonName(String)
+  commentId: M:CRMScript.NetServer.NSTicketInfo.SetPersonName(String)
+  id: 'SetPersonName(String)'
+  so.intellisense: NSTicketInfo.SetPersonName
+  langs:
+  - crmscript
+  name: 'SetPersonName(String)'
+  nameWithType: NSTicketInfo.SetPersonName(String)
+  fullName: CRMScript.NetServer.NSTicketInfo.SetPersonName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonName(String personName)
+    parameters:
+    - id: personName
+      type: CRMScript.Global.String
+      description: "The name of the person/customer connected to the ticket."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketInfo thing;\nString personName;\nthing.SetPersonName(personName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketInfo.SetPriorityName(String)
+  commentId: M:CRMScript.NetServer.NSTicketInfo.SetPriorityName(String)
+  id: 'SetPriorityName(String)'
+  so.intellisense: NSTicketInfo.SetPriorityName
+  langs:
+  - crmscript
+  name: 'SetPriorityName(String)'
+  nameWithType: NSTicketInfo.SetPriorityName(String)
+  fullName: CRMScript.NetServer.NSTicketInfo.SetPriorityName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPriorityName(String priorityName)
+    parameters:
+    - id: priorityName
+      type: CRMScript.Global.String
+      description: "The name of the priority for the request."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketInfo thing;\nString priorityName;\nthing.SetPriorityName(priorityName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketInfo.SetTicketId(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketInfo.SetTicketId(Integer)
+  id: 'SetTicketId(Integer)'
+  so.intellisense: NSTicketInfo.SetTicketId
+  langs:
+  - crmscript
+  name: 'SetTicketId(Integer)'
+  nameWithType: NSTicketInfo.SetTicketId(Integer)
+  fullName: CRMScript.NetServer.NSTicketInfo.SetTicketId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTicketId(Integer ticketId)
+    parameters:
+    - id: ticketId
+      type: CRMScript.Global.Integer
+      description: "The ID of the created ticket."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketInfo thing;\nInteger ticketId;\nthing.SetTicketId(ticketId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketInfo.SetTicketUrl(String)
+  commentId: M:CRMScript.NetServer.NSTicketInfo.SetTicketUrl(String)
+  id: 'SetTicketUrl(String)'
+  so.intellisense: NSTicketInfo.SetTicketUrl
+  langs:
+  - crmscript
+  name: 'SetTicketUrl(String)'
+  nameWithType: NSTicketInfo.SetTicketUrl(String)
+  fullName: CRMScript.NetServer.NSTicketInfo.SetTicketUrl(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTicketUrl(String ticketUrl)
+    parameters:
+    - id: ticketUrl
+      type: CRMScript.Global.String
+      description: "A URL leading directly to the created request. This is a URL meant to be used by a Service user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketInfo thing;\nString ticketUrl;\nthing.SetTicketUrl(ticketUrl);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketInfo.SetTitle(String)
+  commentId: M:CRMScript.NetServer.NSTicketInfo.SetTitle(String)
+  id: 'SetTitle(String)'
+  so.intellisense: NSTicketInfo.SetTitle
+  langs:
+  - crmscript
+  name: 'SetTitle(String)'
+  nameWithType: NSTicketInfo.SetTitle(String)
+  fullName: CRMScript.NetServer.NSTicketInfo.SetTitle(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTitle(String title)
+    parameters:
+    - id: title
+      type: CRMScript.Global.String
+      description: "The title/subject of the created ticket."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketInfo thing;\nString title;\nthing.SetTitle(title);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSTicketInfo
+  commentId: T:CRMScript.NetServer.NSTicketInfo
+  isExternal: true
+  name: NSTicketInfo
+  nameWithType: NSTicketInfo
+  fullName: CRMScript.NetServer.NSTicketInfo
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

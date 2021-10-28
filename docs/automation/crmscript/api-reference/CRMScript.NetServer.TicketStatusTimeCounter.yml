@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.TicketStatusTimeCounter
+  # Same as SuperOffice.Data.TicketStatusTimeCounter
+  commentId: T:CRMScript.NetServer.TicketStatusTimeCounter
+  id: TicketStatusTimeCounter
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.TicketStatusTimeCounter.None
+  - CRMScript.NetServer.TicketStatusTimeCounter.Internally
+  - CRMScript.NetServer.TicketStatusTimeCounter.Externally
+  - CRMScript.NetServer.TicketStatusTimeCounter.Queue
+  name: TicketStatusTimeCounter
+  nameWithType: TicketStatusTimeCounter
+  fullName: CRMScript.NetServer.TicketStatusTimeCounter
+  type: Enum
+  summary: "\nWhich field in ticket we count time spent on.\n"
+- uid: CRMScript.NetServer.TicketStatusTimeCounter.None
+  commentId: F:CRMScript.NetServer.TicketStatusTimeCounter.None
+  id: TicketStatusTimeCounter.None
+  langs:
+  - crmscript
+  name: TicketStatusTimeCounter.None
+  nameWithType: TicketStatusTimeCounter.None
+  fullName: CRMScript.NetServer.TicketStatusTimeCounter.None
+  type: Field
+  summary: "\n0: Not counted\n"
+  syntax: 
+    content: None = 0
+    type: CRMScript.NetServer.TicketStatusTimeCounter
+- uid: CRMScript.NetServer.TicketStatusTimeCounter.Internally
+  commentId: F:CRMScript.NetServer.TicketStatusTimeCounter.Internally
+  id: TicketStatusTimeCounter.Internally
+  langs:
+  - crmscript
+  name: TicketStatusTimeCounter.Internally
+  nameWithType: TicketStatusTimeCounter.Internally
+  fullName: CRMScript.NetServer.TicketStatusTimeCounter.Internally
+  type: Field
+  summary: "\n1: Time is counted in the _internally field\n"
+  syntax: 
+    content: Internally = 1
+    type: CRMScript.NetServer.TicketStatusTimeCounter
+- uid: CRMScript.NetServer.TicketStatusTimeCounter.Externally
+  commentId: F:CRMScript.NetServer.TicketStatusTimeCounter.Externally
+  id: TicketStatusTimeCounter.Externally
+  langs:
+  - crmscript
+  name: TicketStatusTimeCounter.Externally
+  nameWithType: TicketStatusTimeCounter.Externally
+  fullName: CRMScript.NetServer.TicketStatusTimeCounter.Externally
+  type: Field
+  summary: "\n2: Time is counted in the _externally field\n"
+  syntax: 
+    content: Externally = 2
+    type: CRMScript.NetServer.TicketStatusTimeCounter
+- uid: CRMScript.NetServer.TicketStatusTimeCounter.Queue
+  commentId: F:CRMScript.NetServer.TicketStatusTimeCounter.Queue
+  id: TicketStatusTimeCounter.Queue
+  langs:
+  - crmscript
+  name: TicketStatusTimeCounter.Queue
+  nameWithType: TicketStatusTimeCounter.Queue
+  fullName: CRMScript.NetServer.TicketStatusTimeCounter.Queue
+  type: Field
+  summary: "\n3: Time is counted in the _queue field\n"
+  syntax: 
+    content: Queue = 3
+    type: CRMScript.NetServer.TicketStatusTimeCounter
+references:
+- uid: CRMScript.NetServer.TicketStatusTimeCounter
+  commentId: T:CRMScript.NetServer.TicketStatusTimeCounter
+  isExternal: true
+  name: TicketStatusTimeCounter
+  nameWithType: TicketStatusTimeCounter
+  fullName: CRMScript.NetServer.TicketStatusTimeCounter

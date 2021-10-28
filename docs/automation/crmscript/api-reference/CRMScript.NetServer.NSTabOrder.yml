@@ -1,0 +1,231 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSTabOrder
+  commentId: T:CRMScript.NetServer.NSTabOrder
+  id: NSTabOrder
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSTabOrder.#ctor
+  - CRMScript.NetServer.NSTabOrder.GetAssociateId()
+  - CRMScript.NetServer.NSTabOrder.GetOrder()
+  - CRMScript.NetServer.NSTabOrder.GetTabName()
+  - CRMScript.NetServer.NSTabOrder.GetTabOrderId()
+  - CRMScript.NetServer.NSTabOrder.SetAssociateId(Integer)
+  - CRMScript.NetServer.NSTabOrder.SetOrder(String)
+  - CRMScript.NetServer.NSTabOrder.SetTabName(String)
+  - CRMScript.NetServer.NSTabOrder.SetTabOrderId(Integer)
+  name: NSTabOrder
+  nameWithType: NSTabOrder
+  fullName: CRMScript.NetServer.NSTabOrder
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSTabOrder.#ctor
+  commentId: M:CRMScript.NetServer.NSTabOrder.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSTabOrder
+  langs:
+  - crmscript
+  name: NSTabOrder()
+  nameWithType: NSTabOrder.#ctor
+  fullName: CRMScript.NetServer.NSTabOrder.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSTabOrder class.\n"
+  remarks: 
+  syntax: 
+    content: NSTabOrder
+  example: 
+- uid: CRMScript.NetServer.NSTabOrder.GetAssociateId()
+  commentId: M:CRMScript.NetServer.NSTabOrder.GetAssociateId()
+  id: 'GetAssociateId()'
+  so.intellisense: NSTabOrder.GetAssociateId
+  langs:
+  - crmscript
+  name: 'GetAssociateId()'
+  nameWithType: NSTabOrder.GetAssociateId()
+  fullName: CRMScript.NetServer.NSTabOrder.GetAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Associate who owns this tab order."
+  example: 
+  - "\n<pre><code>NSTabOrder thing;\nInteger associateId = thing.GetAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTabOrder.GetOrder()
+  commentId: M:CRMScript.NetServer.NSTabOrder.GetOrder()
+  id: 'GetOrder()'
+  so.intellisense: NSTabOrder.GetOrder
+  langs:
+  - crmscript
+  name: 'GetOrder()'
+  nameWithType: NSTabOrder.GetOrder()
+  fullName: CRMScript.NetServer.NSTabOrder.GetOrder()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetOrder()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The actual tab order."
+  example: 
+  - "\n<pre><code>NSTabOrder thing;\nString order = thing.GetOrder();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTabOrder.GetTabName()
+  commentId: M:CRMScript.NetServer.NSTabOrder.GetTabName()
+  id: 'GetTabName()'
+  so.intellisense: NSTabOrder.GetTabName
+  langs:
+  - crmscript
+  name: 'GetTabName()'
+  nameWithType: NSTabOrder.GetTabName()
+  fullName: CRMScript.NetServer.NSTabOrder.GetTabName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTabName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of tab control."
+  example: 
+  - "\n<pre><code>NSTabOrder thing;\nString tabName = thing.GetTabName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTabOrder.GetTabOrderId()
+  commentId: M:CRMScript.NetServer.NSTabOrder.GetTabOrderId()
+  id: 'GetTabOrderId()'
+  so.intellisense: NSTabOrder.GetTabOrderId
+  langs:
+  - crmscript
+  name: 'GetTabOrderId()'
+  nameWithType: NSTabOrder.GetTabOrderId()
+  fullName: CRMScript.NetServer.NSTabOrder.GetTabOrderId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTabOrderId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSTabOrder thing;\nInteger tabOrderId = thing.GetTabOrderId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTabOrder.SetAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSTabOrder.SetAssociateId(Integer)
+  id: 'SetAssociateId(Integer)'
+  so.intellisense: NSTabOrder.SetAssociateId
+  langs:
+  - crmscript
+  name: 'SetAssociateId(Integer)'
+  nameWithType: NSTabOrder.SetAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSTabOrder.SetAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAssociateId(Integer associateId)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: "Associate who owns this tab order."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTabOrder thing;\nInteger associateId;\nthing.SetAssociateId(associateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTabOrder.SetOrder(String)
+  commentId: M:CRMScript.NetServer.NSTabOrder.SetOrder(String)
+  id: 'SetOrder(String)'
+  so.intellisense: NSTabOrder.SetOrder
+  langs:
+  - crmscript
+  name: 'SetOrder(String)'
+  nameWithType: NSTabOrder.SetOrder(String)
+  fullName: CRMScript.NetServer.NSTabOrder.SetOrder(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOrder(String order)
+    parameters:
+    - id: order
+      type: CRMScript.Global.String
+      description: "The actual tab order."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTabOrder thing;\nString order;\nthing.SetOrder(order);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTabOrder.SetTabName(String)
+  commentId: M:CRMScript.NetServer.NSTabOrder.SetTabName(String)
+  id: 'SetTabName(String)'
+  so.intellisense: NSTabOrder.SetTabName
+  langs:
+  - crmscript
+  name: 'SetTabName(String)'
+  nameWithType: NSTabOrder.SetTabName(String)
+  fullName: CRMScript.NetServer.NSTabOrder.SetTabName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTabName(String tabName)
+    parameters:
+    - id: tabName
+      type: CRMScript.Global.String
+      description: "Name of tab control."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTabOrder thing;\nString tabName;\nthing.SetTabName(tabName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTabOrder.SetTabOrderId(Integer)
+  commentId: M:CRMScript.NetServer.NSTabOrder.SetTabOrderId(Integer)
+  id: 'SetTabOrderId(Integer)'
+  so.intellisense: NSTabOrder.SetTabOrderId
+  langs:
+  - crmscript
+  name: 'SetTabOrderId(Integer)'
+  nameWithType: NSTabOrder.SetTabOrderId(Integer)
+  fullName: CRMScript.NetServer.NSTabOrder.SetTabOrderId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTabOrderId(Integer tabOrderId)
+    parameters:
+    - id: tabOrderId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTabOrder thing;\nInteger tabOrderId;\nthing.SetTabOrderId(tabOrderId);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSTabOrder
+  commentId: T:CRMScript.NetServer.NSTabOrder
+  isExternal: true
+  name: NSTabOrder
+  nameWithType: NSTabOrder
+  fullName: CRMScript.NetServer.NSTabOrder
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

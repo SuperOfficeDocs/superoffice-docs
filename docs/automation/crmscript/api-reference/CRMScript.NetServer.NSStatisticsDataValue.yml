@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSStatisticsDataValue
+  commentId: T:CRMScript.NetServer.NSStatisticsDataValue
+  id: NSStatisticsDataValue
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSStatisticsDataValue.#ctor
+  - CRMScript.NetServer.NSStatisticsDataValue.GetDescription()
+  - CRMScript.NetServer.NSStatisticsDataValue.GetLabel()
+  - CRMScript.NetServer.NSStatisticsDataValue.GetValue()
+  - CRMScript.NetServer.NSStatisticsDataValue.SetDescription(String)
+  - CRMScript.NetServer.NSStatisticsDataValue.SetLabel(String)
+  - CRMScript.NetServer.NSStatisticsDataValue.SetValue(Float)
+  name: NSStatisticsDataValue
+  nameWithType: NSStatisticsDataValue
+  fullName: CRMScript.NetServer.NSStatisticsDataValue
+  type: Class
+  summary: "\nContains a single data value in a data set, used by CS for Status Screen reports.\n"
+  example: 
+- uid: CRMScript.NetServer.NSStatisticsDataValue.#ctor
+  commentId: M:CRMScript.NetServer.NSStatisticsDataValue.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSStatisticsDataValue
+  langs:
+  - crmscript
+  name: NSStatisticsDataValue()
+  nameWithType: NSStatisticsDataValue.#ctor
+  fullName: CRMScript.NetServer.NSStatisticsDataValue.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSStatisticsDataValue class.\n"
+  remarks: 
+  syntax: 
+    content: NSStatisticsDataValue
+  example: 
+- uid: CRMScript.NetServer.NSStatisticsDataValue.GetDescription()
+  commentId: M:CRMScript.NetServer.NSStatisticsDataValue.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSStatisticsDataValue.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSStatisticsDataValue.GetDescription()
+  fullName: CRMScript.NetServer.NSStatisticsDataValue.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Tooltip for data value."
+  example: 
+  - "\n<pre><code>NSStatisticsDataValue thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatisticsDataValue.GetLabel()
+  commentId: M:CRMScript.NetServer.NSStatisticsDataValue.GetLabel()
+  id: 'GetLabel()'
+  so.intellisense: NSStatisticsDataValue.GetLabel
+  langs:
+  - crmscript
+  name: 'GetLabel()'
+  nameWithType: NSStatisticsDataValue.GetLabel()
+  fullName: CRMScript.NetServer.NSStatisticsDataValue.GetLabel()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetLabel()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The label for the data value."
+  example: 
+  - "\n<pre><code>NSStatisticsDataValue thing;\nString label = thing.GetLabel();</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatisticsDataValue.GetValue()
+  commentId: M:CRMScript.NetServer.NSStatisticsDataValue.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSStatisticsDataValue.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSStatisticsDataValue.GetValue()
+  fullName: CRMScript.NetServer.NSStatisticsDataValue.GetValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "The value for the data value."
+  example: 
+  - "\n<pre><code>NSStatisticsDataValue thing;\nFloat value = thing.GetValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatisticsDataValue.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSStatisticsDataValue.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSStatisticsDataValue.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSStatisticsDataValue.SetDescription(String)
+  fullName: CRMScript.NetServer.NSStatisticsDataValue.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "Tooltip for data value."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSStatisticsDataValue thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatisticsDataValue.SetLabel(String)
+  commentId: M:CRMScript.NetServer.NSStatisticsDataValue.SetLabel(String)
+  id: 'SetLabel(String)'
+  so.intellisense: NSStatisticsDataValue.SetLabel
+  langs:
+  - crmscript
+  name: 'SetLabel(String)'
+  nameWithType: NSStatisticsDataValue.SetLabel(String)
+  fullName: CRMScript.NetServer.NSStatisticsDataValue.SetLabel(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLabel(String label)
+    parameters:
+    - id: label
+      type: CRMScript.Global.String
+      description: "The label for the data value."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSStatisticsDataValue thing;\nString label;\nthing.SetLabel(label);</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatisticsDataValue.SetValue(Float)
+  commentId: M:CRMScript.NetServer.NSStatisticsDataValue.SetValue(Float)
+  id: 'SetValue(Float)'
+  so.intellisense: NSStatisticsDataValue.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(Float)'
+  nameWithType: NSStatisticsDataValue.SetValue(Float)
+  fullName: CRMScript.NetServer.NSStatisticsDataValue.SetValue(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetValue(Float value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.Float
+      description: "The value for the data value."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSStatisticsDataValue thing;\nFloat value;\nthing.SetValue(value);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSStatisticsDataValue
+  commentId: T:CRMScript.NetServer.NSStatisticsDataValue
+  isExternal: true
+  name: NSStatisticsDataValue
+  nameWithType: NSStatisticsDataValue
+  fullName: CRMScript.NetServer.NSStatisticsDataValue
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Float
+  commentId: T:CRMScript.Global.Float
+  isExternal: true
+  name: Float
+  nameWithType: Float
+  fullName: CRMScript.Global.Float
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

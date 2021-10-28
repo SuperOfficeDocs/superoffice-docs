@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSSentiment
+  commentId: T:CRMScript.NetServer.NSSentiment
+  id: NSSentiment
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSSentiment.#ctor
+  - CRMScript.NetServer.NSSentiment.GetConfidence()
+  - CRMScript.NetServer.NSSentiment.GetScore()
+  - CRMScript.NetServer.NSSentiment.SetConfidence(Integer)
+  - CRMScript.NetServer.NSSentiment.SetScore(Integer)
+  name: NSSentiment
+  nameWithType: NSSentiment
+  fullName: CRMScript.NetServer.NSSentiment
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSSentiment.#ctor
+  commentId: M:CRMScript.NetServer.NSSentiment.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSSentiment
+  langs:
+  - crmscript
+  name: NSSentiment()
+  nameWithType: NSSentiment.#ctor
+  fullName: CRMScript.NetServer.NSSentiment.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSSentiment class.\n"
+  remarks: 
+  syntax: 
+    content: NSSentiment
+  example: 
+- uid: CRMScript.NetServer.NSSentiment.GetConfidence()
+  commentId: M:CRMScript.NetServer.NSSentiment.GetConfidence()
+  id: 'GetConfidence()'
+  so.intellisense: NSSentiment.GetConfidence
+  langs:
+  - crmscript
+  name: 'GetConfidence()'
+  nameWithType: NSSentiment.GetConfidence()
+  fullName: CRMScript.NetServer.NSSentiment.GetConfidence()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetConfidence()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Sentiment analysis confidence, where available. 0 = no idea, 100 = perfectly confident, -1 = no confidence score available."
+  example: 
+  - "\n<pre><code>NSSentiment thing;\nInteger confidence = thing.GetConfidence();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSentiment.GetScore()
+  commentId: M:CRMScript.NetServer.NSSentiment.GetScore()
+  id: 'GetScore()'
+  so.intellisense: NSSentiment.GetScore
+  langs:
+  - crmscript
+  name: 'GetScore()'
+  nameWithType: NSSentiment.GetScore()
+  fullName: CRMScript.NetServer.NSSentiment.GetScore()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetScore()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Sentiment score, -100 = very unhappy, 100 = very happy, 0 = no idea (not recognized)."
+  example: 
+  - "\n<pre><code>NSSentiment thing;\nInteger score = thing.GetScore();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSentiment.SetConfidence(Integer)
+  commentId: M:CRMScript.NetServer.NSSentiment.SetConfidence(Integer)
+  id: 'SetConfidence(Integer)'
+  so.intellisense: NSSentiment.SetConfidence
+  langs:
+  - crmscript
+  name: 'SetConfidence(Integer)'
+  nameWithType: NSSentiment.SetConfidence(Integer)
+  fullName: CRMScript.NetServer.NSSentiment.SetConfidence(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetConfidence(Integer confidence)
+    parameters:
+    - id: confidence
+      type: CRMScript.Global.Integer
+      description: "Sentiment analysis confidence, where available. 0 = no idea, 100 = perfectly confident, -1 = no confidence score available."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSentiment thing;\nInteger confidence;\nthing.SetConfidence(confidence);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSentiment.SetScore(Integer)
+  commentId: M:CRMScript.NetServer.NSSentiment.SetScore(Integer)
+  id: 'SetScore(Integer)'
+  so.intellisense: NSSentiment.SetScore
+  langs:
+  - crmscript
+  name: 'SetScore(Integer)'
+  nameWithType: NSSentiment.SetScore(Integer)
+  fullName: CRMScript.NetServer.NSSentiment.SetScore(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetScore(Integer score)
+    parameters:
+    - id: score
+      type: CRMScript.Global.Integer
+      description: "Sentiment score, -100 = very unhappy, 100 = very happy, 0 = no idea (not recognized)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSentiment thing;\nInteger score;\nthing.SetScore(score);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSSentiment
+  commentId: T:CRMScript.NetServer.NSSentiment
+  isExternal: true
+  name: NSSentiment
+  nameWithType: NSSentiment
+  fullName: CRMScript.NetServer.NSSentiment
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

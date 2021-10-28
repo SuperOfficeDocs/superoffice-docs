@@ -1,0 +1,338 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSDSAParameters
+  # TODO FIXME This class is incomplete. It's actually a .NET Datatype that is a property in the NSSignedPublicKey class
+  commentId: T:CRMScript.NetServer.NSDSAParameters
+  id: NSDSAParameters
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSDSAParameters.#ctor
+  - CRMScript.NetServer.NSDSAParameters.GetCounter()
+  - CRMScript.NetServer.NSDSAParameters.GetG()
+  - CRMScript.NetServer.NSDSAParameters.GetJ()
+  - CRMScript.NetServer.NSDSAParameters.GetP()
+  - CRMScript.NetServer.NSDSAParameters.GetQ()
+  - CRMScript.NetServer.NSDSAParameters.GetSeed()
+  - CRMScript.NetServer.NSDSAParameters.GetY()
+  - CRMScript.NetServer.NSDSAParameters.SetCounter(Integer)
+  - CRMScript.NetServer.NSDSAParameters.SetG(NSBinary)
+  - CRMScript.NetServer.NSDSAParameters.SetJ(NSBinary)
+  - CRMScript.NetServer.NSDSAParameters.SetP(NSBinary)
+  - CRMScript.NetServer.NSDSAParameters.SetQ(NSBinary)
+  - CRMScript.NetServer.NSDSAParameters.SetSeed(NSBinary)
+  - CRMScript.NetServer.NSDSAParameters.SetY(NSBinary)
+  name: NSDSAParameters
+  nameWithType: NSDSAParameters
+  fullName: CRMScript.NetServer.NSDSAParameters
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSDSAParameters.#ctor
+  commentId: M:CRMScript.NetServer.NSDSAParameters.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSDSAParameters
+  langs:
+  - crmscript
+  name: NSDSAParameters()
+  nameWithType: NSDSAParameters.#ctor
+  fullName: CRMScript.NetServer.NSDSAParameters.#ctor
+  type: Constructor
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSDSAParameters
+  example: 
+- uid: CRMScript.NetServer.NSDSAParameters.GetCounter()
+  commentId: M:CRMScript.NetServer.NSDSAParameters.GetCounter()
+  id: 'GetCounter()'
+  so.intellisense: NSDSAParameters.GetCounter
+  langs:
+  - crmscript
+  name: 'GetCounter()'
+  nameWithType: NSDSAParameters.GetCounter()
+  fullName: CRMScript.NetServer.NSDSAParameters.GetCounter()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCounter()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSDSAParameters.GetG()
+  commentId: M:CRMScript.NetServer.NSDSAParameters.GetG()
+  id: 'GetG()'
+  so.intellisense: NSDSAParameters.GetG
+  langs:
+  - crmscript
+  name: 'GetG()'
+  nameWithType: NSDSAParameters.GetG()
+  fullName: CRMScript.NetServer.NSDSAParameters.GetG()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSBinary GetG()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSBinary
+  example: 
+- uid: CRMScript.NetServer.NSDSAParameters.GetJ()
+  commentId: M:CRMScript.NetServer.NSDSAParameters.GetJ()
+  id: 'GetJ()'
+  so.intellisense: NSDSAParameters.GetJ
+  langs:
+  - crmscript
+  name: 'GetJ()'
+  nameWithType: NSDSAParameters.GetJ()
+  fullName: CRMScript.NetServer.NSDSAParameters.GetJ()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSBinary GetJ()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSBinary
+  example: 
+- uid: CRMScript.NetServer.NSDSAParameters.GetP()
+  commentId: M:CRMScript.NetServer.NSDSAParameters.GetP()
+  id: 'GetP()'
+  so.intellisense: NSDSAParameters.GetP
+  langs:
+  - crmscript
+  name: 'GetP()'
+  nameWithType: NSDSAParameters.GetP()
+  fullName: CRMScript.NetServer.NSDSAParameters.GetP()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSBinary GetP()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSBinary
+  example: 
+- uid: CRMScript.NetServer.NSDSAParameters.GetQ()
+  commentId: M:CRMScript.NetServer.NSDSAParameters.GetQ()
+  id: 'GetQ()'
+  so.intellisense: NSDSAParameters.GetQ
+  langs:
+  - crmscript
+  name: 'GetQ()'
+  nameWithType: NSDSAParameters.GetQ()
+  fullName: CRMScript.NetServer.NSDSAParameters.GetQ()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSBinary GetQ()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSBinary
+  example: 
+- uid: CRMScript.NetServer.NSDSAParameters.GetSeed()
+  commentId: M:CRMScript.NetServer.NSDSAParameters.GetSeed()
+  id: 'GetSeed()'
+  so.intellisense: NSDSAParameters.GetSeed
+  langs:
+  - crmscript
+  name: 'GetSeed()'
+  nameWithType: NSDSAParameters.GetSeed()
+  fullName: CRMScript.NetServer.NSDSAParameters.GetSeed()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSBinary GetSeed()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSBinary
+  example: 
+- uid: CRMScript.NetServer.NSDSAParameters.GetY()
+  commentId: M:CRMScript.NetServer.NSDSAParameters.GetY()
+  id: 'GetY()'
+  so.intellisense: NSDSAParameters.GetY
+  langs:
+  - crmscript
+  name: 'GetY()'
+  nameWithType: NSDSAParameters.GetY()
+  fullName: CRMScript.NetServer.NSDSAParameters.GetY()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSBinary GetY()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSBinary
+  example: 
+- uid: CRMScript.NetServer.NSDSAParameters.SetCounter(Integer)
+  commentId: M:CRMScript.NetServer.NSDSAParameters.SetCounter(Integer)
+  id: 'SetCounter(Integer)'
+  so.intellisense: NSDSAParameters.SetCounter
+  langs:
+  - crmscript
+  name: 'SetCounter(Integer)'
+  nameWithType: NSDSAParameters.SetCounter(Integer)
+  fullName: CRMScript.NetServer.NSDSAParameters.SetCounter(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCounter(Integer counter)
+    parameters:
+    - id: counter
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSDSAParameters.SetG(NSBinary)
+  commentId: M:CRMScript.NetServer.NSDSAParameters.SetG(NSBinary)
+  id: 'SetG(NSBinary)'
+  so.intellisense: NSDSAParameters.SetG
+  langs:
+  - crmscript
+  name: 'SetG(NSBinary)'
+  nameWithType: NSDSAParameters.SetG(NSBinary)
+  fullName: CRMScript.NetServer.NSDSAParameters.SetG(NSBinary)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetG(NSBinary value)
+    parameters:
+    - id: value
+      type: CRMScript.NetServer.NSBinary
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSDSAParameters.SetJ(NSBinary)
+  commentId: M:CRMScript.NetServer.NSDSAParameters.SetJ(NSBinary)
+  id: 'SetJ(NSBinary)'
+  so.intellisense: NSDSAParameters.SetJ
+  langs:
+  - crmscript
+  name: 'SetJ(NSBinary)'
+  nameWithType: NSDSAParameters.SetJ(NSBinary)
+  fullName: CRMScript.NetServer.NSDSAParameters.SetJ(NSBinary)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetJ(NSBinary value)
+    parameters:
+    - id: value
+      type: CRMScript.NetServer.NSBinary
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSDSAParameters.SetP(NSBinary)
+  commentId: M:CRMScript.NetServer.NSDSAParameters.SetP(NSBinary)
+  id: 'SetP(NSBinary)'
+  so.intellisense: NSDSAParameters.SetP
+  langs:
+  - crmscript
+  name: 'SetP(NSBinary)'
+  nameWithType: NSDSAParameters.SetP(NSBinary)
+  fullName: CRMScript.NetServer.NSDSAParameters.SetP(NSBinary)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetP(NSBinary value)
+    parameters:
+    - id: value
+      type: CRMScript.NetServer.NSBinary
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSDSAParameters.SetQ(NSBinary)
+  commentId: M:CRMScript.NetServer.NSDSAParameters.SetQ(NSBinary)
+  id: 'SetQ(NSBinary)'
+  so.intellisense: NSDSAParameters.SetQ
+  langs:
+  - crmscript
+  name: 'SetQ(NSBinary)'
+  nameWithType: NSDSAParameters.SetQ(NSBinary)
+  fullName: CRMScript.NetServer.NSDSAParameters.SetQ(NSBinary)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetQ(NSBinary value)
+    parameters:
+    - id: value
+      type: CRMScript.NetServer.NSBinary
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSDSAParameters.SetSeed(NSBinary)
+  commentId: M:CRMScript.NetServer.NSDSAParameters.SetSeed(NSBinary)
+  id: 'SetSeed(NSBinary)'
+  so.intellisense: NSDSAParameters.SetSeed
+  langs:
+  - crmscript
+  name: 'SetSeed(NSBinary)'
+  nameWithType: NSDSAParameters.SetSeed(NSBinary)
+  fullName: CRMScript.NetServer.NSDSAParameters.SetSeed(NSBinary)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSeed(NSBinary value)
+    parameters:
+    - id: value
+      type: CRMScript.NetServer.NSBinary
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSDSAParameters.SetY(NSBinary)
+  commentId: M:CRMScript.NetServer.NSDSAParameters.SetY(NSBinary)
+  id: 'SetY(NSBinary)'
+  so.intellisense: NSDSAParameters.SetY
+  langs:
+  - crmscript
+  name: 'SetY(NSBinary)'
+  nameWithType: NSDSAParameters.SetY(NSBinary)
+  fullName: CRMScript.NetServer.NSDSAParameters.SetY(NSBinary)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetY(NSBinary value)
+    parameters:
+    - id: value
+      type: CRMScript.NetServer.NSBinary
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSDSAParameters
+  commentId: T:CRMScript.NetServer.NSDSAParameters
+  isExternal: true
+  name: NSDSAParameters
+  nameWithType: NSDSAParameters
+  fullName: CRMScript.NetServer.NSDSAParameters
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

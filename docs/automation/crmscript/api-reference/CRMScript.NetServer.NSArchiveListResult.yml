@@ -1,0 +1,157 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSArchiveListResult
+  commentId: T:CRMScript.NetServer.NSArchiveListResult
+  id: NSArchiveListResult
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSArchiveListResult.#ctor
+  - CRMScript.NetServer.NSArchiveListResult.GetRowCount()
+  - CRMScript.NetServer.NSArchiveListResult.GetRows()
+  - CRMScript.NetServer.NSArchiveListResult.SetRowCount(Integer)
+  - CRMScript.NetServer.NSArchiveListResult.SetRows(NSArchiveListItem[])
+  name: NSArchiveListResult
+  nameWithType: NSArchiveListResult
+  fullName: CRMScript.NetServer.NSArchiveListResult
+  type: Class
+  summary: "\nHeader/Detail variant of archive result, with a Row Count plus the actual rows. Future extensions may include other header data on the same level as the RowCount.\n"
+  example: 
+- uid: CRMScript.NetServer.NSArchiveListResult.#ctor
+  commentId: M:CRMScript.NetServer.NSArchiveListResult.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSArchiveListResult
+  langs:
+  - crmscript
+  name: NSArchiveListResult()
+  nameWithType: NSArchiveListResult.#ctor
+  fullName: CRMScript.NetServer.NSArchiveListResult.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSArchiveListResult class.\n"
+  remarks: 
+  syntax: 
+    content: NSArchiveListResult
+  example: 
+- uid: CRMScript.NetServer.NSArchiveListResult.GetRowCount()
+  commentId: M:CRMScript.NetServer.NSArchiveListResult.GetRowCount()
+  id: 'GetRowCount()'
+  so.intellisense: NSArchiveListResult.GetRowCount
+  langs:
+  - crmscript
+  name: 'GetRowCount()'
+  nameWithType: NSArchiveListResult.GetRowCount()
+  fullName: CRMScript.NetServer.NSArchiveListResult.GetRowCount()
+  type: Method
+  summary: # TODO
+  remarks: "\nIf you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a paging-off situation.\n"
+  syntax: 
+    content: Integer GetRowCount()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Count of rows, independent of paging."
+  example: 
+  - "\n<pre><code>NSArchiveListResult thing;\nInteger rowCount = thing.GetRowCount();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveListResult.GetRows()
+  commentId: M:CRMScript.NetServer.NSArchiveListResult.GetRows()
+  id: 'GetRows()'
+  so.intellisense: NSArchiveListResult.GetRows
+  langs:
+  - crmscript
+  name: 'GetRows()'
+  nameWithType: NSArchiveListResult.GetRows()
+  fullName: CRMScript.NetServer.NSArchiveListResult.GetRows()
+  type: Method
+  summary: # TODO
+  remarks: "\nSee RowCount for a paging-independent count estimate\n"
+  syntax: 
+    content: NSArchiveListItem[] GetRows()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSArchiveListItem[]
+      description: "The actual rows, according to the paging info, of the result."
+  example: 
+  - "\n<pre><code>NSArchiveListResult thing;\nNSArchiveListItem[] rows = thing.GetRows();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveListResult.SetRowCount(Integer)
+  commentId: M:CRMScript.NetServer.NSArchiveListResult.SetRowCount(Integer)
+  id: 'SetRowCount(Integer)'
+  so.intellisense: NSArchiveListResult.SetRowCount
+  langs:
+  - crmscript
+  name: 'SetRowCount(Integer)'
+  nameWithType: NSArchiveListResult.SetRowCount(Integer)
+  fullName: CRMScript.NetServer.NSArchiveListResult.SetRowCount(Integer)
+  type: Method
+  summary: # TODO
+  remarks: "\nIf you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation\n"
+  syntax: 
+    content: Void SetRowCount(Integer rowCount)
+    parameters:
+    - id: rowCount
+      type: CRMScript.Global.Integer
+      description: "Count of rows, independent of paging."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveListResult thing;\nInteger rowCount;\nthing.SetRowCount(rowCount);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveListResult.SetRows(NSArchiveListItem[])
+  commentId: M:CRMScript.NetServer.NSArchiveListResult.SetRows(NSArchiveListItem[])
+  id: 'SetRows(NSArchiveListItem[])'
+  so.intellisense: NSArchiveListResult.SetRows
+  langs:
+  - crmscript
+  name: 'SetRows(NSArchiveListItem[])'
+  nameWithType: NSArchiveListResult.SetRows(NSArchiveListItem[])
+  fullName: CRMScript.NetServer.NSArchiveListResult.SetRows(NSArchiveListItem[])
+  type: Method
+  summary: # TODO
+  remarks: "\nSee RowCount for a paging-independent count estimate\n"
+  syntax: 
+    content: Void SetRows(NSArchiveListItem[] rows)
+    parameters: 
+    - id: rows
+      type: CRMScript.NetServer.NSArchiveListItem[]
+      description: "The actual rows, according to the paging info, of the result."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveListResult thing;\nNSArchiveListItem[] rows;\nthing.SetRows(rows);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSArchiveListResult
+  commentId: T:CRMScript.NetServer.NSArchiveListResult
+  isExternal: true
+  name: NSArchiveListResult
+  nameWithType: NSArchiveListResult
+  fullName: CRMScript.NetServer.NSArchiveListResult
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSArchiveListItem[]
+  isExternal: true
+  name: NSArchiveListItem[]
+  nameWithType: NSArchiveListItem[]
+  fullName: CRMScript.NetServer.NSArchiveListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSArchiveListItem
+    isExternal: true
+    name: NSArchiveListItem
+    nameWithType: NSArchiveListItem
+    fullName: CRMScript.NetServer.NSArchiveListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSArchiveListItem
+  commentId: T:CRMScript.NetServer.NSArchiveListItem
+  isExternal: true
+  name: NSArchiveListItem
+  nameWithType: NSArchiveListItem
+  fullName: CRMScript.NetServer.NSArchiveListItem
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

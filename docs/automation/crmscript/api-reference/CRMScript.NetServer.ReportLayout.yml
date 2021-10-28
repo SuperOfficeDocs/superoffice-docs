@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.ReportLayout
+  # Same as SuperOffice.Data.ReportLayout
+  commentId: T:CRMScript.NetServer.ReportLayout
+  id: ReportLayout
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.ReportLayout.Unknown
+  - CRMScript.NetServer.ReportLayout.List
+  - CRMScript.NetServer.ReportLayout.Label
+  - CRMScript.NetServer.ReportLayout.GroupList
+  - CRMScript.NetServer.ReportLayout.CrossTable
+  - CRMScript.NetServer.ReportLayout.CalendarWeek5
+  - CRMScript.NetServer.ReportLayout.CalendarWeek7
+  - CRMScript.NetServer.ReportLayout.CalendarMonth
+  - CRMScript.NetServer.ReportLayout.Text
+  name: ReportLayout
+  nameWithType: ReportLayout
+  fullName: CRMScript.NetServer.ReportLayout
+  type: Enum
+  summary: # TODO
+- uid: CRMScript.NetServer.ReportLayout.Unknown
+  commentId: F:CRMScript.NetServer.ReportLayout.Unknown
+  id: ReportLayout.Unknown
+  langs:
+  - crmscript
+  name: ReportLayout.Unknown
+  nameWithType: ReportLayout.Unknown
+  fullName: CRMScript.NetServer.ReportLayout.Unknown
+  type: Field
+  summary: "\n0: Unknown\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.ReportLayout
+- uid: CRMScript.NetServer.ReportLayout.List
+  commentId: F:CRMScript.NetServer.ReportLayout.List
+  id: ReportLayout.List
+  langs:
+  - crmscript
+  name: ReportLayout.List
+  nameWithType: ReportLayout.List
+  fullName: CRMScript.NetServer.ReportLayout.List
+  type: Field
+  summary: "\n1: List\n"
+  syntax: 
+    content: List = 1
+    type: CRMScript.NetServer.ReportLayout
+- uid: CRMScript.NetServer.ReportLayout.Label
+  commentId: F:CRMScript.NetServer.ReportLayout.Label
+  id: ReportLayout.Label
+  langs:
+  - crmscript
+  name: ReportLayout.Label
+  nameWithType: ReportLayout.Label
+  fullName: CRMScript.NetServer.ReportLayout.Label
+  type: Field
+  summary: "\n2: Label\n"
+  syntax: 
+    content: Label = 2
+    type: CRMScript.NetServer.ReportLayout
+- uid: CRMScript.NetServer.ReportLayout.GroupList
+  commentId: F:CRMScript.NetServer.ReportLayout.GroupList
+  id: ReportLayout.GroupList
+  langs:
+  - crmscript
+  name: ReportLayout.GroupList
+  nameWithType: ReportLayout.GroupList
+  fullName: CRMScript.NetServer.ReportLayout.GroupList
+  type: Field
+  summary: "\n3: GroupList\n"
+  syntax: 
+    content: GroupList = 3
+    type: CRMScript.NetServer.ReportLayout
+- uid: CRMScript.NetServer.ReportLayout.CrossTable
+  commentId: F:CRMScript.NetServer.ReportLayout.CrossTable
+  id: ReportLayout.CrossTable
+  langs:
+  - crmscript
+  name: ReportLayout.CrossTable
+  nameWithType: ReportLayout.CrossTable
+  fullName: CRMScript.NetServer.ReportLayout.CrossTable
+  type: Field
+  summary: "\n4: CrossTable\n"
+  syntax: 
+    content: CrossTable = 4
+    type: CRMScript.NetServer.ReportLayout
+- uid: CRMScript.NetServer.ReportLayout.CalendarWeek5
+  commentId: F:CRMScript.NetServer.ReportLayout.CalendarWeek5
+  id: ReportLayout.CalendarWeek5
+  langs:
+  - crmscript
+  name: ReportLayout.CalendarWeek5
+  nameWithType: ReportLayout.CalendarWeek5
+  fullName: CRMScript.NetServer.ReportLayout.CalendarWeek5
+  type: Field
+  summary: "\n5: CalendarWeek5\n"
+  syntax: 
+    content: CalendarWeek5 = 5
+    type: CRMScript.NetServer.ReportLayout
+- uid: CRMScript.NetServer.ReportLayout.CalendarWeek7
+  commentId: F:CRMScript.NetServer.ReportLayout.CalendarWeek7
+  id: ReportLayout.CalendarWeek7
+  langs:
+  - crmscript
+  name: ReportLayout.CalendarWeek7
+  nameWithType: ReportLayout.CalendarWeek7
+  fullName: CRMScript.NetServer.ReportLayout.CalendarWeek7
+  type: Field
+  summary: "\n6: CalendarWeek7\n"
+  syntax: 
+    content: CalendarWeek7 = 6
+    type: CRMScript.NetServer.ReportLayout
+- uid: CRMScript.NetServer.ReportLayout.CalendarMonth
+  commentId: F:CRMScript.NetServer.ReportLayout.CalendarMonth
+  id: ReportLayout.CalendarMonth
+  langs:
+  - crmscript
+  name: ReportLayout.CalendarMonth
+  nameWithType: ReportLayout.CalendarMonth
+  fullName: CRMScript.NetServer.ReportLayout.CalendarMonth
+  type: Field
+  summary: "\n7: CalendarMonth\n"
+  syntax: 
+    content: CalendarMonth = 7
+    type: CRMScript.NetServer.ReportLayout
+- uid: CRMScript.NetServer.ReportLayout.Text
+  commentId: F:CRMScript.NetServer.ReportLayout.Text
+  id: ReportLayout.Text
+  langs:
+  - crmscript
+  name: ReportLayout.Text
+  nameWithType: ReportLayout.Text
+  fullName: CRMScript.NetServer.ReportLayout.Text
+  type: Field
+  summary: "\n8: Text\n"
+  syntax: 
+    content: Text = 8
+    type: CRMScript.NetServer.ReportLayout
+references:
+- uid: CRMScript.NetServer.ReportLayout
+  commentId: T:CRMScript.NetServer.ReportLayout
+  isExternal: true
+  name: ReportLayout
+  nameWithType: ReportLayout
+  fullName: CRMScript.NetServer.ReportLayout

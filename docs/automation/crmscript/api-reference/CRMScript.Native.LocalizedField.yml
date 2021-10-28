@@ -1,0 +1,237 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.LocalizedField
+  commentId: T:CRMScript.Native.LocalizedField
+  id: LocalizedField
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.LocalizedField.#ctor
+  - CRMScript.Native.LocalizedField.getAddressType()
+  - CRMScript.Native.LocalizedField.getLabel()
+  - CRMScript.Native.LocalizedField.getName()
+  - CRMScript.Native.LocalizedField.getTooltip()
+  - CRMScript.Native.LocalizedField.getValue()
+  - CRMScript.Native.LocalizedField.getValueLength()
+  - CRMScript.Native.LocalizedField.setName(String)
+  - CRMScript.Native.LocalizedField.setTooltip(String)
+  - CRMScript.Native.LocalizedField.setValue(String)
+  name: LocalizedField
+  nameWithType: LocalizedField
+  fullName: CRMScript.Native.LocalizedField
+  type: Class
+  summary: "\nRepresents fields. Used by Company.set/getAddress() functions.\n"
+  example: 
+  - "\n<pre><code>Company c;\nc.load(someId);\nLocalizedField[][] adr = c.getFormattedAddress();\nadr[0][0].setValue(adr[0][0].getValue() + &quot;A&quot;); // Add an 'A' to the first address field\nc.setFormattedAddress(adr);\nc.save();\n\n// Print all info about all the address fields\nfor (Integer i = 0; i &lt; adr.length(); i++)\n{\n  for (Integer j = 0; j &lt; adr[i].length(); j++)\n    print(adr[i][j].getLabel() + &quot;:&quot; + adr[i][j].getName() + &quot;:&quot; + adr[i][j].getValue() + &quot;:&quot; + adr[i][j].getTooltip() + &quot;:&quot; + adr[i][j].getValueLength().toString() + &quot;:&quot; + adr[i][j].getAddressType() +  &quot;     &quot;);\n\n  print(&quot;\n&quot;);\n}</code></pre>\n"
+- uid: CRMScript.Native.LocalizedField.#ctor
+  commentId: M:CRMScript.Native.LocalizedField.#ctor
+  id: '#ctor'
+  so.intellisense: Void.LocalizedField
+  langs:
+  - crmscript
+  name: LocalizedField()
+  nameWithType: LocalizedField.#ctor
+  fullName: CRMScript.Native.LocalizedField.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the Knowledge class.\n"
+  remarks: 
+  syntax: 
+    content: LocalizedField
+  example:
+  - "\n<pre><code>Company c;\nc.load(someId);\nLocalizedField[][] adr = c.getFormattedAddress();\nadr[0][0].setValue(adr[0][0].getValue() + &quot;A&quot;); // Add an 'A' to the first address field\nc.setFormattedAddress(adr);\nc.save();\n\n// Print all info about all the address fields\nfor (Integer i = 0; i &lt; adr.length(); i++)\n{\n  for (Integer j = 0; j &lt; adr[i].length(); j++)\n    print(adr[i][j].getLabel() + &quot;:&quot; + adr[i][j].getName() + &quot;:&quot; + adr[i][j].getValue() + &quot;:&quot; + adr[i][j].getTooltip() + &quot;:&quot; + adr[i][j].getValueLength().toString() + &quot;:&quot; + adr[i][j].getAddressType() +  &quot;     &quot;);\n\n  print(&quot;\n&quot;);\n}</code></pre>\n"
+- uid: CRMScript.Native.LocalizedField.getAddressType()
+  commentId: M:CRMScript.Native.LocalizedField.getAddressType()
+  id: 'getAddressType()'
+  so.intellisense: LocalizedField.getAddressType
+  langs:
+  - crmscript
+  name: 'getAddressType()'
+  nameWithType: LocalizedField.getAddressType()
+  fullName: CRMScript.Native.LocalizedField.getAddressType()
+  type: Method
+  summary: "\nGets address type\n"
+  remarks: 
+  syntax: 
+    content: String getAddressType()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.Native.LocalizedField.getLabel()
+  commentId: M:CRMScript.Native.LocalizedField.getLabel()
+  id: 'getLabel()'
+  so.intellisense: LocalizedField.getLabel
+  langs:
+  - crmscript
+  name: 'getLabel()'
+  nameWithType: LocalizedField.getLabel()
+  fullName: CRMScript.Native.LocalizedField.getLabel()
+  type: Method
+  summary: "\nGets label\n"
+  remarks: 
+  syntax: 
+    content: String getLabel()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.Native.LocalizedField.getName()
+  commentId: M:CRMScript.Native.LocalizedField.getName()
+  id: 'getName()'
+  so.intellisense: LocalizedField.getName
+  langs:
+  - crmscript
+  name: 'getName()'
+  nameWithType: LocalizedField.getName()
+  fullName: CRMScript.Native.LocalizedField.getName()
+  type: Method
+  summary: "\nGets name\n"
+  remarks: 
+  syntax: 
+    content: String getName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.Native.LocalizedField.getTooltip()
+  commentId: M:CRMScript.Native.LocalizedField.getTooltip()
+  id: 'getTooltip()'
+  so.intellisense: LocalizedField.getTooltip
+  langs:
+  - crmscript
+  name: 'getTooltip()'
+  nameWithType: LocalizedField.getTooltip()
+  fullName: CRMScript.Native.LocalizedField.getTooltip()
+  type: Method
+  summary: "\nGets tooltip\n"
+  remarks: 
+  syntax: 
+    content: String getTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.Native.LocalizedField.getValue()
+  commentId: M:CRMScript.Native.LocalizedField.getValue()
+  id: 'getValue()'
+  so.intellisense: LocalizedField.getValue
+  langs:
+  - crmscript
+  name: 'getValue()'
+  nameWithType: LocalizedField.getValue()
+  fullName: CRMScript.Native.LocalizedField.getValue()
+  type: Method
+  summary: "\nGets name\n"
+  remarks: 
+  syntax: 
+    content: String getValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.Native.LocalizedField.getValueLength()
+  commentId: M:CRMScript.Native.LocalizedField.getValueLength()
+  id: 'getValueLength()'
+  so.intellisense: LocalizedField.getValueLength
+  langs:
+  - crmscript
+  name: 'getValueLength()'
+  nameWithType: LocalizedField.getValueLength()
+  fullName: CRMScript.Native.LocalizedField.getValueLength()
+  type: Method
+  summary: "\nGets value length\n"
+  remarks: 
+  syntax: 
+    content: String getValueLength()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.Native.LocalizedField.setName(String)
+  commentId: M:CRMScript.Native.LocalizedField.setName(String)
+  id: 'setName(String)'
+  so.intellisense: LocalizedField.setName
+  langs:
+  - crmscript
+  name: 'setName(String)'
+  nameWithType: LocalizedField.setName(String)
+  fullName: CRMScript.Native.LocalizedField.setName(String)
+  type: Method
+  summary: "\nSets name\n"
+  remarks: 
+  syntax: 
+    content: Void setName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.LocalizedField.setTooltip(String)
+  commentId: M:CRMScript.Native.LocalizedField.setTooltip(String)
+  id: 'setTooltip(String)'
+  so.intellisense: LocalizedField.setTooltip
+  langs:
+  - crmscript
+  name: 'setTooltip(String)'
+  nameWithType: LocalizedField.setTooltip(String)
+  fullName: CRMScript.Native.LocalizedField.setTooltip(String)
+  type: Method
+  summary: "\nSets tooltip\n"
+  remarks: 
+  syntax: 
+    content: Void setTooltip(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.LocalizedField.setValue(String)
+  commentId: M:CRMScript.Native.LocalizedField.setValue(String)
+  id: 'setValue(String)'
+  so.intellisense: LocalizedField.setValue
+  langs:
+  - crmscript
+  name: 'setValue(String)'
+  nameWithType: LocalizedField.setValue(String)
+  fullName: CRMScript.Native.LocalizedField.setValue(String)
+  type: Method
+  summary: "\nSets value\n"
+  remarks: 
+  syntax: 
+    content: Void setValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.Native.LocalizedField
+  commentId: T:CRMScript.Native.LocalizedField
+  isExternal: true
+  name: LocalizedField
+  nameWithType: LocalizedField
+  fullName: CRMScript.Native.LocalizedField
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

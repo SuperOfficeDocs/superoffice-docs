@@ -1,0 +1,231 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSMailbox
+  commentId: T:CRMScript.NetServer.NSMailbox
+  id: NSMailbox
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSMailbox.#ctor
+  - CRMScript.NetServer.NSMailbox.GetAddress()
+  - CRMScript.NetServer.NSMailbox.GetCategoryName()
+  - CRMScript.NetServer.NSMailbox.GetMailInFilterId()
+  - CRMScript.NetServer.NSMailbox.GetPriorityName()
+  - CRMScript.NetServer.NSMailbox.SetAddress(String)
+  - CRMScript.NetServer.NSMailbox.SetCategoryName(String)
+  - CRMScript.NetServer.NSMailbox.SetMailInFilterId(Integer)
+  - CRMScript.NetServer.NSMailbox.SetPriorityName(String)
+  name: NSMailbox
+  nameWithType: NSMailbox
+  fullName: CRMScript.NetServer.NSMailbox
+  type: Class
+  summary: "\nCarrier containing information about a Service mailbox.\n"
+  example: 
+- uid: CRMScript.NetServer.NSMailbox.#ctor
+  commentId: M:CRMScript.NetServer.NSMailbox.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSMailbox
+  langs:
+  - crmscript
+  name: NSMailbox()
+  nameWithType: NSMailbox.#ctor
+  fullName: CRMScript.NetServer.NSMailbox.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSMailbox class.\n"
+  remarks: 
+  syntax: 
+    content: NSMailbox
+  example: 
+- uid: CRMScript.NetServer.NSMailbox.GetAddress()
+  commentId: M:CRMScript.NetServer.NSMailbox.GetAddress()
+  id: 'GetAddress()'
+  so.intellisense: NSMailbox.GetAddress
+  langs:
+  - crmscript
+  name: 'GetAddress()'
+  nameWithType: NSMailbox.GetAddress()
+  fullName: CRMScript.NetServer.NSMailbox.GetAddress()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetAddress()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The address associated with this mailbox (used as FROM address when sending emails)."
+  example: 
+  - "\n<pre><code>NSMailbox thing;\nString address = thing.GetAddress();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailbox.GetCategoryName()
+  commentId: M:CRMScript.NetServer.NSMailbox.GetCategoryName()
+  id: 'GetCategoryName()'
+  so.intellisense: NSMailbox.GetCategoryName
+  langs:
+  - crmscript
+  name: 'GetCategoryName()'
+  nameWithType: NSMailbox.GetCategoryName()
+  fullName: CRMScript.NetServer.NSMailbox.GetCategoryName()
+  type: Method
+  summary: "\nThe name of the category that the mailbox is connected to\n"
+  remarks: 
+  syntax: 
+    content: String GetCategoryName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSMailbox thing;\nString categoryName = thing.GetCategoryName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailbox.GetMailInFilterId()
+  commentId: M:CRMScript.NetServer.NSMailbox.GetMailInFilterId()
+  id: 'GetMailInFilterId()'
+  so.intellisense: NSMailbox.GetMailInFilterId
+  langs:
+  - crmscript
+  name: 'GetMailInFilterId()'
+  nameWithType: NSMailbox.GetMailInFilterId()
+  fullName: CRMScript.NetServer.NSMailbox.GetMailInFilterId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetMailInFilterId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The primary key (auto-incremented)."
+  example: 
+  - "\n<pre><code>NSMailbox thing;\nInteger mailInFilterId = thing.GetMailInFilterId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailbox.GetPriorityName()
+  commentId: M:CRMScript.NetServer.NSMailbox.GetPriorityName()
+  id: 'GetPriorityName()'
+  so.intellisense: NSMailbox.GetPriorityName
+  langs:
+  - crmscript
+  name: 'GetPriorityName()'
+  nameWithType: NSMailbox.GetPriorityName()
+  fullName: CRMScript.NetServer.NSMailbox.GetPriorityName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPriorityName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the priority that the mailbox is connected to."
+  example: 
+  - "\n<pre><code>NSMailbox thing;\nString priorityName = thing.GetPriorityName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailbox.SetAddress(String)
+  commentId: M:CRMScript.NetServer.NSMailbox.SetAddress(String)
+  id: 'SetAddress(String)'
+  so.intellisense: NSMailbox.SetAddress
+  langs:
+  - crmscript
+  name: 'SetAddress(String)'
+  nameWithType: NSMailbox.SetAddress(String)
+  fullName: CRMScript.NetServer.NSMailbox.SetAddress(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAddress(String address)
+    parameters:
+    - id: address
+      type: CRMScript.Global.String
+      description: "The address associated with this mailbox (used as FROM address when sending emails)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMailbox thing;\nString address;\nthing.SetAddress(address);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailbox.SetCategoryName(String)
+  commentId: M:CRMScript.NetServer.NSMailbox.SetCategoryName(String)
+  id: 'SetCategoryName(String)'
+  so.intellisense: NSMailbox.SetCategoryName
+  langs:
+  - crmscript
+  name: 'SetCategoryName(String)'
+  nameWithType: NSMailbox.SetCategoryName(String)
+  fullName: CRMScript.NetServer.NSMailbox.SetCategoryName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCategoryName(String categoryName)
+    parameters:
+    - id: categoryName
+      type: CRMScript.Global.String
+      description: "The name of the category that the mailbox is connected to."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMailbox thing;\nString categoryName;\nthing.SetCategoryName(categoryName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailbox.SetMailInFilterId(Integer)
+  commentId: M:CRMScript.NetServer.NSMailbox.SetMailInFilterId(Integer)
+  id: 'SetMailInFilterId(Integer)'
+  so.intellisense: NSMailbox.SetMailInFilterId
+  langs:
+  - crmscript
+  name: 'SetMailInFilterId(Integer)'
+  nameWithType: NSMailbox.SetMailInFilterId(Integer)
+  fullName: CRMScript.NetServer.NSMailbox.SetMailInFilterId(Integer)
+  type: Method
+  summary: "\nThe primary key (auto-incremented)\n"
+  remarks: 
+  syntax: 
+    content: Void SetMailInFilterId(Integer mailInFilterId)
+    parameters:
+    - id: mailInFilterId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMailbox thing;\nInteger mailInFilterId;\nthing.SetMailInFilterId(mailInFilterId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailbox.SetPriorityName(String)
+  commentId: M:CRMScript.NetServer.NSMailbox.SetPriorityName(String)
+  id: 'SetPriorityName(String)'
+  so.intellisense: NSMailbox.SetPriorityName
+  langs:
+  - crmscript
+  name: 'SetPriorityName(String)'
+  nameWithType: NSMailbox.SetPriorityName(String)
+  fullName: CRMScript.NetServer.NSMailbox.SetPriorityName(String)
+  type: Method
+  summary: "\nThe name of the priority that the mailbox is connected to\n"
+  remarks: 
+  syntax: 
+    content: Void SetPriorityName(String priorityName)
+    parameters:
+    - id: priorityName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMailbox thing;\nString priorityName;\nthing.SetPriorityName(priorityName);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSMailbox
+  commentId: T:CRMScript.NetServer.NSMailbox
+  isExternal: true
+  name: NSMailbox
+  nameWithType: NSMailbox
+  fullName: CRMScript.NetServer.NSMailbox
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

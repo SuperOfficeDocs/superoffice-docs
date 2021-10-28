@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSRelationAgent
+  commentId: T:CRMScript.NetServer.NSRelationAgent
+  id: NSRelationAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSRelationAgent.#ctor
+  - CRMScript.NetServer.NSRelationAgent.CreateDefaultContactRelationEntity()
+  - CRMScript.NetServer.NSRelationAgent.DeleteContactRelation(Integer)
+  - CRMScript.NetServer.NSRelationAgent.GetContactRelationEntity(Integer)
+  - CRMScript.NetServer.NSRelationAgent.SaveContactRelation(NSContactRelationEntity)
+  name: NSRelationAgent
+  nameWithType: NSRelationAgent
+  fullName: CRMScript.NetServer.NSRelationAgent
+  type: Class
+  summary: "\nContact/Person relations.\n"
+  example: 
+  - "\n<pre><code>NSRelationAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRelationAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSRelationAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSRelationAgent
+  langs:
+  - crmscript
+  name: NSRelationAgent()
+  nameWithType: NSRelationAgent.#ctor
+  fullName: CRMScript.NetServer.NSRelationAgent.#ctor
+  type: Constructor
+  summary: "\nContact/Person relations.\n"
+  remarks: 
+  syntax: 
+    content: NSRelationAgent
+  example: 
+  - "\n<pre><code>NSRelationAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRelationAgent.CreateDefaultContactRelationEntity()
+  commentId: M:CRMScript.NetServer.NSRelationAgent.CreateDefaultContactRelationEntity()
+  id: 'CreateDefaultContactRelationEntity()'
+  so.intellisense: NSRelationAgent.CreateDefaultContactRelationEntity
+  langs:
+  - crmscript
+  name: 'CreateDefaultContactRelationEntity()'
+  nameWithType: NSRelationAgent.CreateDefaultContactRelationEntity()
+  fullName: CRMScript.NetServer.NSRelationAgent.CreateDefaultContactRelationEntity()
+  type: Method
+  summary: "\nSets default values into a new NSContactRelationEntity.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSContactRelationEntity CreateDefaultContactRelationEntity()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSContactRelationEntity
+  example: 
+  - "\n<pre><code>NSRelationAgent agent;\nNSContactRelationEntity thing = agent.CreateDefaultContactRelationEntity();\nthing = agent.SaveContactRelationEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRelationAgent.DeleteContactRelation(Integer)
+  commentId: M:CRMScript.NetServer.NSRelationAgent.DeleteContactRelation(Integer)
+  id: 'DeleteContactRelation(Integer)'
+  so.intellisense: NSRelationAgent.DeleteContactRelation
+  langs:
+  - crmscript
+  name: 'DeleteContactRelation(Integer)'
+  nameWithType: NSRelationAgent.DeleteContactRelation(Integer)
+  fullName: CRMScript.NetServer.NSRelationAgent.DeleteContactRelation(Integer)
+  type: Method
+  summary: "\nDeletes the specified contact relation.\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteContactRelation(Integer contactRelationEntityId)
+    parameters:
+    - id: contactRelationEntityId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSRelationAgent.GetContactRelationEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSRelationAgent.GetContactRelationEntity(Integer)
+  id: 'GetContactRelationEntity(Integer)'
+  so.intellisense: NSRelationAgent.GetContactRelationEntity
+  langs:
+  - crmscript
+  name: 'GetContactRelationEntity(Integer)'
+  nameWithType: NSRelationAgent.GetContactRelationEntity(Integer)
+  fullName: CRMScript.NetServer.NSRelationAgent.GetContactRelationEntity(Integer)
+  type: Method
+  summary: "\nGets an NSContactRelationEntity object.\n"
+  remarks: 
+  syntax: 
+    content: NSContactRelationEntity GetContactRelationEntity(Integer contactRelationEntityId)
+    parameters:
+    - id: contactRelationEntityId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSContactRelationEntity
+  example: 
+  - "\n<pre><code>NSRelationAgent agent;\nNSContactRelationEntity thing = agent.GetContactRelationEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRelationAgent.SaveContactRelation(NSContactRelationEntity)
+  commentId: M:CRMScript.NetServer.NSRelationAgent.SaveContactRelation(NSContactRelationEntity)
+  id: 'SaveContactRelation(NSContactRelationEntity)'
+  so.intellisense: NSRelationAgent.SaveContactRelation
+  langs:
+  - crmscript
+  name: 'SaveContactRelation(NSContactRelationEntity)'
+  nameWithType: NSRelationAgent.SaveContactRelation(NSContactRelationEntity)
+  fullName: CRMScript.NetServer.NSRelationAgent.SaveContactRelation(NSContactRelationEntity)
+  type: Method
+  summary: "\nCreates a new or updates an existing contact relation.\n"
+  remarks: 
+  syntax: 
+    content: NSContactRelationEntity SaveContactRelation(NSContactRelationEntity contactRelationEntity)
+    parameters:
+    - id: contactRelationEntity
+      type: CRMScript.NetServer.NSContactRelationEntity
+      description:
+    return:
+      type: CRMScript.NetServer.NSContactRelationEntity
+  example: 
+  - "\n<pre><code>NSRelationAgent agent;\nNSContactRelationEntity contactRelationEntity;\nNSContactRelationEntity res = agent.SaveContactRelation(contactRelationEntity);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSRelationAgent
+  commentId: T:CRMScript.NetServer.NSRelationAgent
+  isExternal: true
+  name: NSRelationAgent
+  nameWithType: NSRelationAgent
+  fullName: CRMScript.NetServer.NSRelationAgent
+- uid: CRMScript.NetServer.NSContactRelationEntity
+  commentId: T:CRMScript.NetServer.NSContactRelationEntity
+  isExternal: true
+  name: NSContactRelationEntity
+  nameWithType: NSContactRelationEntity
+  fullName: CRMScript.NetServer.NSContactRelationEntity
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

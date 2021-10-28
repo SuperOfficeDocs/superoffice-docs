@@ -1,0 +1,327 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.SpmShipment
+  commentId: T:CRMScript.Native.SpmShipment
+  id: SpmShipment
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.SpmShipment.#ctor
+  - CRMScript.Native.SpmShipment.addList(Integer)
+  - CRMScript.Native.SpmShipment.addListCRMProject(Integer)
+  - CRMScript.Native.SpmShipment.addListCRMSelection(Integer)
+  - CRMScript.Native.SpmShipment.addListSelection(Integer)
+  - CRMScript.Native.SpmShipment.addListTicketSelection(Integer)
+  - CRMScript.Native.SpmShipment.save()
+  - CRMScript.Native.SpmShipment.setDescription(String)
+  - CRMScript.Native.SpmShipment.setFolderId(Integer)
+  - CRMScript.Native.SpmShipment.setFrom(String)
+  - CRMScript.Native.SpmShipment.setMessage(Integer)
+  - CRMScript.Native.SpmShipment.setSendRate(Integer)
+  - CRMScript.Native.SpmShipment.setStartDate(DateTime)
+  name: SpmShipment
+  nameWithType: SpmShipment
+  fullName: CRMScript.Native.SpmShipment
+  type: Class
+  summary: "\nDenotes a shipment in the eMarketeer module. A SpmShipment object will be responsible for the actual shipment. This object needs a SpmStaticList and a SpmMessage object as input.\n"
+  example: 
+- uid: CRMScript.Native.SpmShipment.#ctor
+  commentId: M:CRMScript.Native.SpmShipment.#ctor
+  id: '#ctor'
+  so.intellisense: Void.SpmShipment
+  langs:
+  - crmscript
+  name: SpmShipment()
+  nameWithType: SpmShipment.#ctor
+  fullName: CRMScript.Native.SpmShipment.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the SpmShipment class.\n"
+  remarks: 
+  syntax: 
+    content: SpmShipment
+  example: 
+- uid: CRMScript.Native.SpmShipment.addList(Integer)
+  commentId: M:CRMScript.Native.SpmShipment.addList(Integer)
+  id: 'addList(Integer)'
+  so.intellisense: SpmShipment.addList
+  langs:
+  - crmscript
+  name: 'addList(Integer)'
+  nameWithType: SpmShipment.addList(Integer)
+  fullName: CRMScript.Native.SpmShipment.addList(Integer)
+  type: Method
+  summary: "\nAdds a list of recipients to the shipment.\n"
+  remarks: "\nYou can add more than one list. If two or more of these lists contains the same address, only one email will be sent to this recipient. The lists can be of either dynamic or static types.\n"
+  syntax: 
+    content: Void addList(Integer list)
+    parameters:
+    - id: list
+      type: CRMScript.Global.Integer
+      description: "The ID of the list to add."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.SpmShipment.addListCRMProject(Integer)
+  commentId: M:CRMScript.Native.SpmShipment.addListCRMProject(Integer)
+  id: 'addListCRMProject(Integer)'
+  so.intellisense: SpmShipment.addListCRMProject
+  langs:
+  - crmscript
+  name: 'addListCRMProject(Integer)'
+  nameWithType: SpmShipment.addListCRMProject(Integer)
+  fullName: CRMScript.Native.SpmShipment.addListCRMProject(Integer)
+  type: Method
+  summary: "\nAdds a CRM list of project members to shipment.\n"
+  remarks: 
+  syntax: 
+    content: Void addListCRMProject(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "ID of list to add."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.SpmShipment.addListCRMSelection(Integer)
+  commentId: M:CRMScript.Native.SpmShipment.addListCRMSelection(Integer)
+  id: 'addListCRMSelection(Integer)'
+  so.intellisense: SpmShipment.addListCRMSelection
+  langs:
+  - crmscript
+  name: 'addListCRMSelection(Integer)'
+  nameWithType: SpmShipment.addListCRMSelection(Integer)
+  fullName: CRMScript.Native.SpmShipment.addListCRMSelection(Integer)
+  type: Method
+  summary: "\nAdds a CRM selection to shipment.\n"
+  remarks: 
+  syntax: 
+    content: Void addListCRMSelection(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "ID of selection to add."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.SpmShipment.addListSelection(Integer)
+  commentId: M:CRMScript.Native.SpmShipment.addListSelection(Integer)
+  id: 'addListSelection(Integer)'
+  so.intellisense: SpmShipment.addListSelection
+  langs:
+  - crmscript
+  name: 'addListSelection(Integer)'
+  nameWithType: SpmShipment.addListSelection(Integer)
+  fullName: CRMScript.Native.SpmShipment.addListSelection(Integer)
+  type: Method
+  summary: "\nAdds a selection list to shipment.\n"
+  remarks: 
+  syntax: 
+    content: Void addListSelection(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "ID of selection list to add."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.SpmShipment.addListTicketSelection(Integer)
+  commentId: M:CRMScript.Native.SpmShipment.addListTicketSelection(Integer)
+  id: 'addListTicketSelection(Integer)'
+  so.intellisense: SpmShipment.addListTicketSelection
+  langs:
+  - crmscript
+  name: 'addListTicketSelection(Integer)'
+  nameWithType: SpmShipment.addListTicketSelection(Integer)
+  fullName: CRMScript.Native.SpmShipment.addListTicketSelection(Integer)
+  type: Method
+  summary: "\nAdds a ticket selection list to shipment.\n"
+  remarks: 
+  syntax: 
+    content: Void addListTicketSelection(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "ID of list to add."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.SpmShipment.save()
+  commentId: M:CRMScript.Native.SpmShipment.save()
+  id: 'save()'
+  so.intellisense: SpmShipment.save
+  langs:
+  - crmscript
+  name: 'save()'
+  nameWithType: SpmShipment.save()
+  fullName: CRMScript.Native.SpmShipment.save()
+  type: Method
+  summary: "\nSaves the SpmShipment object.\n"
+  remarks: "\nWarning: this will activate the shipment and it will be executed at the indicated start date.\n"
+  syntax: 
+    content: save()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of the SpmShipment object."
+  example: 
+- uid: CRMScript.Native.SpmShipment.setDescription(String)
+  commentId: M:CRMScript.Native.SpmShipment.setDescription(String)
+  id: 'setDescription(String)'
+  so.intellisense: SpmShipment.setDescription
+  langs:
+  - crmscript
+  name: 'setDescription(String)'
+  nameWithType: SpmShipment.setDescription(String)
+  fullName: CRMScript.Native.SpmShipment.setDescription(String)
+  type: Method
+  summary: "\nSets the descriptive text of the SpmShipment.\n"
+  remarks: "\nIt is not used in the outgoing email, but will be visible when listed in Service.\n"
+  syntax: 
+    content: Void setDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "A text which describes this shipment."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.SpmShipment.setFolderId(Integer)
+  commentId: M:CRMScript.Native.SpmShipment.setFolderId(Integer)
+  id: 'setFolderId(Integer)'
+  so.intellisense: SpmShipment.setFolderId
+  langs:
+  - crmscript
+  name: 'setFolderId(Integer)'
+  nameWithType: SpmShipment.setFolderId(Integer)
+  fullName: CRMScript.Native.SpmShipment.setFolderId(Integer)
+  type: Method
+  summary: "\nSets the folder that this SpmShipment will be stored in.\n"
+  remarks: "\nIf you specify a folder ID that does not exist, the shipment will not be visible through Service.\n"
+  syntax: 
+    content: Void setFolderId(Integer folderId)
+    parameters:
+    - id: folderId
+      type: CRMScript.Global.Integer
+      description: "The ID of the folder that this shipment will be stored in. A value of -1 indicates that it should be stored in the root folder."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.SpmShipment.setFrom(String)
+  commentId: M:CRMScript.Native.SpmShipment.setFrom(String)
+  id: 'setFrom(String)'
+  so.intellisense: SpmShipment.setFrom
+  langs:
+  - crmscript
+  name: 'setFrom(String)'
+  nameWithType: SpmShipment.setFrom(String)
+  fullName: CRMScript.Native.SpmShipment.setFrom(String)
+  type: Method
+  summary: "\nSets the from address of the outgoing email.\n"
+  remarks: "\n This should be an email address that is imported by Service unless you have other reasons to do so.\n"
+  syntax: 
+    content: Void setFrom(String from)
+    parameters:
+    - id: from
+      type: CRMScript.Global.String
+      description: "A string denoting the from address."
+    return:
+      type: CRMScript.Global.Void 
+  example: 
+- uid: CRMScript.Native.SpmShipment.setMessage(Integer)
+  commentId: M:CRMScript.Native.SpmShipment.setMessage(Integer)
+  id: 'setMessage(Integer)'
+  so.intellisense: SpmShipment.setMessage
+  langs:
+  - crmscript
+  name: 'setMessage(Integer)'
+  nameWithType: SpmShipment.setMessage(Integer)
+  fullName: CRMScript.Native.SpmShipment.setMessage(Integer)
+  type: Method
+  summary: "\nSets the ID of the SpmMessage object that will be used for the shipment.\n"
+  remarks: "\nYou must specify this for a shipment to be valid.\n"
+  syntax: 
+    content: Void setMessage(Integer messageId)
+    parameters:
+    - id: messageId
+      type: CRMScript.Global.Integer
+      description: "The ID of a valid SpmMessage object."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.SpmShipment.setSendRate(Integer)
+  commentId: M:CRMScript.Native.SpmShipment.setSendRate(Integer)
+  id: 'setSendRate(Integer)'
+  so.intellisense: SpmShipment.setSendRate
+  langs:
+  - crmscript
+  name: 'setSendRate(Integer)'
+  nameWithType: SpmShipment.setSendRate(Integer)
+  fullName: CRMScript.Native.SpmShipment.setSendRate(Integer)
+  type: Method
+  summary: "\nSets the rate of outgoing emails per minute for this shipment.\n"
+  remarks: "\nRequired for a shipment! If you specify a value larger than Service actually can handle, it will send at full speed.<p></p>\nWarning: this can lower performance of both eJournal and your mail server if set too high.\n"
+  syntax: 
+    content: Void setSendRate(Integer sendRate)
+    parameters:
+    - id: sendRate
+      type: CRMScript.Global.Integer
+      description: "The number of emails per minute sent from Service."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.SpmShipment.setStartDate(DateTime)
+  commentId: M:CRMScript.Native.SpmShipment.setStartDate(DateTime)
+  id: 'setStartDate(DateTime)'
+  so.intellisense: SpmShipment.setStartDate
+  langs:
+  - crmscript
+  name: 'setStartDate(DateTime)'
+  nameWithType: SpmShipment.setStartDate(DateTime)
+  fullName: CRMScript.Native.SpmShipment.setStartDate(DateTime)
+  type: Method
+  summary: "\nSets the date and time when the shipment will be started.\n"
+  remarks: "\nIf you specify a past date the shipment will be started immediately.\n"
+  syntax: 
+    content: Void setStartDate(DateTime start)
+    parameters:
+    - id: start
+      type: CRMScript.Global.DateTime
+      description: "The start date and time for this shipment."
+  example: 
+references:
+- uid: CRMScript.Native.SpmShipment
+  commentId: T:CRMScript.Native.SpmShipment
+  isExternal: true
+  name: SpmShipment
+  nameWithType: SpmShipment
+  fullName: CRMScript.Native.SpmShipment
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime

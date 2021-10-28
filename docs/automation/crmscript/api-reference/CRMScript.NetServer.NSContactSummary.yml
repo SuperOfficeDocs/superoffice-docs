@@ -1,0 +1,393 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSContactSummary
+  commentId: T:CRMScript.NetServer.NSContactSummary
+  id: NSContactSummary
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSContactSummary.#ctor
+  - CRMScript.NetServer.NSContactSummary.GetChats()
+  - CRMScript.NetServer.NSContactSummary.GetContact()
+  - CRMScript.NetServer.NSContactSummary.GetDocuments()
+  - CRMScript.NetServer.NSContactSummary.GetFollowups()
+  - CRMScript.NetServer.NSContactSummary.GetSales()
+  - CRMScript.NetServer.NSContactSummary.GetTickets()
+  - CRMScript.NetServer.NSContactSummary.SetChats(NSChatSummaryItem[])
+  - CRMScript.NetServer.NSContactSummary.SetContact(NSContact)
+  - CRMScript.NetServer.NSContactSummary.SetDocuments(NSActivitySummaryItem[])
+  - CRMScript.NetServer.NSContactSummary.SetFollowups(NSActivitySummaryItem[])
+  - CRMScript.NetServer.NSContactSummary.SetSales(NSSaleSummaryItem[])
+  - CRMScript.NetServer.NSContactSummary.SetTickets((NSTicketSummaryItem[])
+  name: NSContactSummary
+  nameWithType: NSContactSummary
+  fullName: CRMScript.NetServer.NSContactSummary
+  type: Class
+  summary: "\nSummary of contact with recent activities, chats, and requests included.\n"
+  example: 
+- uid: CRMScript.NetServer.NSContactSummary.#ctor
+  commentId: M:CRMScript.NetServer.NSContactSummary.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSContactSummary
+  langs:
+  - crmscript
+  name: NSContactSummary()
+  nameWithType: NSContactSummary.#ctor
+  fullName: CRMScript.NetServer.NSContactSummary.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSContactSummary class.\n"
+  remarks: 
+  syntax: 
+    content: NSContactSummary
+  example: 
+- uid: CRMScript.NetServer.NSContactSummary.GetChats()
+  commentId: M:CRMScript.NetServer.NSContactSummary.GetChats()
+  id: 'GetChats()'
+  so.intellisense: NSContactSummary.GetChats
+  langs:
+  - crmscript
+  name: 'GetChats()'
+  nameWithType: NSContactSummary.GetChats()
+  fullName: CRMScript.NetServer.NSContactSummary.GetChats()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSChatSummaryItem[] GetChats()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSChatSummaryItem[]
+      description: "Recent chats with contact."
+  example: 
+  - "\n<pre><code>NSContactSummary thing;\nNSChatSummaryItem[] chats = thing.GetChats();</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactSummary.GetContact()
+  commentId: M:CRMScript.NetServer.NSContactSummary.GetContact()
+  id: 'GetContact()'
+  so.intellisense: NSContactSummary.GetContact
+  langs:
+  - crmscript
+  name: 'GetContact()'
+  nameWithType: NSContactSummary.GetContact()
+  fullName: CRMScript.NetServer.NSContactSummary.GetContact()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSContact GetContact()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSContact
+      description: "Simple Contact data."
+  example: 
+  - "\n<pre><code>NSContactSummary thing;\nNSContact contact = thing.GetContact();</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactSummary.GetDocuments()
+  commentId: M:CRMScript.NetServer.NSContactSummary.GetDocuments()
+  id: 'GetDocuments()'
+  so.intellisense: NSContactSummary.GetDocuments
+  langs:
+  - crmscript
+  name: 'GetDocuments()'
+  nameWithType: NSContactSummary.GetDocuments()
+  fullName: CRMScript.NetServer.NSContactSummary.GetDocuments()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSActivitySummaryItem[] GetDocuments()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSActivitySummaryItem[]
+      description: "Recent documents on contact."
+  example: 
+  - "\n<pre><code>NSContactSummary thing;\nNSActivitySummaryItem[] documents = thing.GetDocuments();</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactSummary.GetFollowups()
+  commentId: M:CRMScript.NetServer.NSContactSummary.GetFollowups()
+  id: 'GetFollowups()'
+  so.intellisense: NSContactSummary.GetFollowups
+  langs:
+  - crmscript
+  name: 'GetFollowups()'
+  nameWithType: NSContactSummary.GetFollowups()
+  fullName: CRMScript.NetServer.NSContactSummary.GetFollowups()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSActivitySummaryItem[] GetFollowups()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSActivitySummaryItem[]
+      description: "Recent follow-ups on contact."
+  example: 
+  - "\n<pre><code>NSContactSummary thing;\nNSActivitySummaryItem[] followups = thing.GetFollowups();</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactSummary.GetSales()
+  commentId: M:CRMScript.NetServer.NSContactSummary.GetSales()
+  id: 'GetSales()'
+  so.intellisense: NSContactSummary.GetSales
+  langs:
+  - crmscript
+  name: 'GetSales()'
+  nameWithType: NSContactSummary.GetSales()
+  fullName: CRMScript.NetServer.NSContactSummary.GetSales()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSSaleSummaryItem[] GetSales()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSaleSummaryItem[]
+      description: "Recent sales on contact."
+  example: 
+  - "\n<pre><code>NSContactSummary thing;\nNSSaleSummaryItem[] sales = thing.GetSales();</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactSummary.GetTickets()
+  commentId: M:CRMScript.NetServer.NSContactSummary.GetTickets()
+  id: 'GetTickets()'
+  so.intellisense: NSContactSummary.GetTickets
+  langs:
+  - crmscript
+  name: 'GetTickets()'
+  nameWithType: NSContactSummary.GetTickets()
+  fullName: CRMScript.NetServer.NSContactSummary.GetTickets()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSTicketSummaryItem[] GetTickets()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSTicketSummaryItem[]
+      description: "Recent tickets on contact."
+  example: 
+  - "\n<pre><code>NSContactSummary thing;\nNSTicketSummaryItem[] tickets = thing.GetTickets();</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactSummary.SetChats(NSChatSummaryItem[])
+  commentId: M:CRMScript.NetServer.NSContactSummary.SetChats(NSChatSummaryItem[])
+  id: 'SetChats(NSChatSummaryItem[])'
+  so.intellisense: NSContactSummary.SetChats
+  langs:
+  - crmscript
+  name: 'SetChats(NSChatSummaryItem[])'
+  nameWithType: NSContactSummary.SetChats(NSChatSummaryItem[])
+  fullName: CRMScript.NetServer.NSContactSummary.SetChats(NSChatSummaryItem[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChats(NSChatSummaryItem[] chats)
+    parameters:
+    - id: chats
+      type: CRMScript.NetServer.NSChatSummaryItem[]
+      description: "Recent chats with contact."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSContactSummary thing;\nNSChatSummaryItem[] chats;\nthing.SetChats(chats);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactSummary.SetContact(NSContact)
+  commentId: M:CRMScript.NetServer.NSContactSummary.SetContact(NSContact)
+  id: 'SetContact(NSContact)'
+  so.intellisense: NSContactSummary.SetContact
+  langs:
+  - crmscript
+  name: 'SetContact(NSContact)'
+  nameWithType: NSContactSummary.SetContact(NSContact)
+  fullName: CRMScript.NetServer.NSContactSummary.SetContact(NSContact)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContact(NSContact contact)
+    parameters:
+    - id: contact
+      type: CRMScript.NetServer.NSContact
+      description: "Simple Contact data."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSContactSummary thing;\nNSContact contact;\nthing.SetContact(contact);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactSummary.SetDocuments(NSActivitySummaryItem[])
+  commentId: M:CRMScript.NetServer.NSContactSummary.SetDocuments(NSActivitySummaryItem[])
+  id: 'SetDocuments(NSActivitySummaryItem[])'
+  so.intellisense: NSContactSummary.SetDocuments
+  langs:
+  - crmscript
+  name: 'SetDocuments(NSActivitySummaryItem[])'
+  nameWithType: NSContactSummary.SetDocuments(NSActivitySummaryItem[])
+  fullName: CRMScript.NetServer.NSContactSummary.SetDocuments(NSActivitySummaryItem[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDocuments(NSActivitySummaryItem[] documents)
+    parameters:
+    - id: documents
+      type: CRMScript.NetServer.NSActivitySummaryItem[]
+      description: "Recent documents on contact."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSContactSummary thing;\nNSActivitySummaryItem[] documents;\nthing.SetDocuments(documents);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactSummary.SetFollowups(NSActivitySummaryItem[])
+  commentId: M:CRMScript.NetServer.NSContactSummary.SetFollowups(NSActivitySummaryItem[])
+  id: 'SetFollowups(NSActivitySummaryItem[])'
+  so.intellisense: NSContactSummary.SetFollowups
+  langs:
+  - crmscript
+  name: 'SetFollowups(NSActivitySummaryItem[])'
+  nameWithType: NSContactSummary.SetFollowups(NSActivitySummaryItem[])
+  fullName: CRMScript.NetServer.NSContactSummary.SetFollowups(NSActivitySummaryItem[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFollowups(NSActivitySummaryItem[] followups)
+    parameters:
+    - id: followups
+      type: CRMScript.NetServer.NSActivitySummaryItem[]
+      description: "Recent follow-ups on contact."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSContactSummary thing;\nNSActivitySummaryItem[] followups;\nthing.SetFollowups(followups);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactSummary.SetSales(NSSaleSummaryItem[])
+  commentId: M:CRMScript.NetServer.NSContactSummary.SetSales(NSSaleSummaryItem[])
+  id: 'SetSales(NSSaleSummaryItem[])'
+  so.intellisense: NSContactSummary.SetSales
+  langs:
+  - crmscript
+  name: 'SetSales(NSSaleSummaryItem[])'
+  nameWithType: NSContactSummary.SetSales(NSSaleSummaryItem[])
+  fullName: CRMScript.NetServer.NSContactSummary.SetSales(NSSaleSummaryItem[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSales(NSSaleSummaryItem[] sales)
+    parameters:
+    - id: sales
+      type: CRMScript.NetServer.NSSaleSummaryItem[]
+      description: "Recent sales on contact."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSContactSummary thing;\nNSSaleSummaryItem[] sales;\nthing.SetSales(sales);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactSummary.SetTickets((NSTicketSummaryItem[])
+  commentId: M:CRMScript.NetServer.NSContactSummary.SetTickets((NSTicketSummaryItem[])
+  id: 'SetTickets((NSTicketSummaryItem[])'
+  so.intellisense: NSContactSummary.SetTickets
+  langs:
+  - crmscript
+  name: 'SetTickets((NSTicketSummaryItem[])'
+  nameWithType: NSContactSummary.SetTickets((NSTicketSummaryItem[])
+  fullName: CRMScript.NetServer.NSContactSummary.SetTickets((NSTicketSummaryItem[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTickets(NSTicketSummaryItem[] tickets)
+    parameters:
+    - id: tickets
+      type: CRMScript.NetServer.NSTicketSummaryItem[]
+      description: "Recent tickets on contact."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSContactSummary thing;\nNSTicketSummaryItem[] tickets;\nthing.SetTickets(tickets);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSContactSummary
+  commentId: T:CRMScript.NetServer.NSContactSummary
+  isExternal: true
+  name: NSContactSummary
+  nameWithType: NSContactSummary
+  fullName: CRMScript.NetServer.NSContactSummary
+- uid: CRMScript.NetServer.NSChatSummaryItem[]
+  isExternal: true
+  name: NSChatSummaryItem[]
+  nameWithType: NSChatSummaryItem[]
+  fullName: CRMScript.NetServer.NSChatSummaryItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSChatSummaryItem
+    isExternal: true
+    name: NSChatSummaryItem
+    nameWithType: NSChatSummaryItem
+    fullName: CRMScript.NetServer.NSChatSummaryItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSChatSummaryItem
+  commentId: T:CRMScript.NetServer.NSChatSummaryItem
+  isExternal: true
+  name: NSChatSummaryItem
+  nameWithType: NSChatSummaryItem
+  fullName: CRMScript.NetServer.NSChatSummaryItem
+- uid: CRMScript.NetServer.NSContact
+  commentId: T:CRMScript.NetServer.NSContact
+  isExternal: true
+  name: NSContact
+  nameWithType: NSContact
+  fullName: CRMScript.NetServer.NSContact
+- uid: CRMScript.NetServer.NSActivitySummaryItem[]
+  isExternal: true
+  name: NSActivitySummaryItem[]
+  nameWithType: NSActivitySummaryItem[]
+  fullName: CRMScript.NetServer.NSActivitySummaryItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSActivitySummaryItem
+    isExternal: true
+    name: NSActivitySummaryItem
+    nameWithType: NSActivitySummaryItem
+    fullName: CRMScript.NetServer.NSActivitySummaryItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSActivitySummaryItem
+  commentId: T:CRMScript.NetServer.NSActivitySummaryItem
+  isExternal: true
+  name: NSActivitySummaryItem
+  nameWithType: NSActivitySummaryItem
+  fullName: CRMScript.NetServer.NSActivitySummaryItem
+- uid: CRMScript.NetServer.NSSaleSummaryItem[]
+  isExternal: true
+  name: NSSaleSummaryItem[]
+  nameWithType: NSSaleSummaryItem[]
+  fullName: CRMScript.NetServer.NSSaleSummaryItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSSaleSummaryItem
+    isExternal: true
+    name: NSSaleSummaryItem
+    nameWithType: NSSaleSummaryItem
+    fullName: CRMScript.NetServer.NSSaleSummaryItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSSaleSummaryItem
+  commentId: T:CRMScript.NetServer.NSSaleSummaryItem
+  isExternal: true
+  name: NSSaleSummaryItem
+  nameWithType: NSSaleSummaryItem
+  fullName: CRMScript.NetServer.NSSaleSummaryItem
+- uid: CRMScript.NetServer.NSTicketSummaryItem[]
+  isExternal: true
+  name: NSTicketSummaryItem[]
+  nameWithType: NSTicketSummaryItem[]
+  fullName: CRMScript.NetServer.NSTicketSummaryItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSTicketSummaryItem
+    isExternal: true
+    name: NSTicketSummaryItem
+    nameWithType: NSTicketSummaryItem
+    fullName: CRMScript.NetServer.NSTicketSummaryItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSTicketSummaryItem
+  commentId: T:CRMScript.NetServer.NSTicketSummaryItem
+  isExternal: true
+  name: NSTicketSummaryItem
+  nameWithType: NSTicketSummaryItem
+  fullName: CRMScript.NetServer.NSTicketSummaryItem
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

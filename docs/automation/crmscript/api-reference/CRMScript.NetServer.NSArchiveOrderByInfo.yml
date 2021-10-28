@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSArchiveOrderByInfo
+  commentId: T:CRMScript.NetServer.NSArchiveOrderByInfo
+  id: NSArchiveOrderByInfo
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSArchiveOrderByInfo.#ctor
+  - CRMScript.NetServer.NSArchiveOrderByInfo.GetDirection()
+  - CRMScript.NetServer.NSArchiveOrderByInfo.GetName()
+  - CRMScript.NetServer.NSArchiveOrderByInfo.SetDirection(Integer)
+  - CRMScript.NetServer.NSArchiveOrderByInfo.SetName(String)
+  name: NSArchiveOrderByInfo
+  nameWithType: NSArchiveOrderByInfo
+  fullName: CRMScript.NetServer.NSArchiveOrderByInfo
+  type: Class
+  summary: "\nCarries information about an ordering criterion for an archive.\n"
+  example: 
+- uid: CRMScript.NetServer.NSArchiveOrderByInfo.#ctor
+  commentId: M:CRMScript.NetServer.NSArchiveOrderByInfo.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSArchiveOrderByInfo
+  langs:
+  - crmscript
+  name: NSArchiveOrderByInfo()
+  nameWithType: NSArchiveOrderByInfo.#ctor
+  fullName: CRMScript.NetServer.NSArchiveOrderByInfo.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSArchiveOrderByInfo class.\n"
+  remarks: 
+  syntax: 
+    content: NSArchiveOrderByInfo
+  example: 
+- uid: CRMScript.NetServer.NSArchiveOrderByInfo.GetDirection()
+  commentId: M:CRMScript.NetServer.NSArchiveOrderByInfo.GetDirection()
+  id: 'GetDirection()'
+  so.intellisense: NSArchiveOrderByInfo.GetDirection
+  langs:
+  - crmscript
+  name: 'GetDirection()'
+  nameWithType: NSArchiveOrderByInfo.GetDirection()
+  fullName: CRMScript.NetServer.NSArchiveOrderByInfo.GetDirection()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDirection()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Direction to order. See <xref href=\"CRMScript.NetServer.OrderBySortType\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSArchiveOrderByInfo thing;\nInteger direction = thing.GetDirection();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveOrderByInfo.GetName()
+  commentId: M:CRMScript.NetServer.NSArchiveOrderByInfo.GetName()
+  id: 'GetName()'
+  so.intellisense: NSArchiveOrderByInfo.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSArchiveOrderByInfo.GetName()
+  fullName: CRMScript.NetServer.NSArchiveOrderByInfo.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Programmatic name of the column to order by, semantically the same as the NSArchiveColumnInfo.Name."
+  example: 
+  - "\n<pre><code>NSArchiveOrderByInfo thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveOrderByInfo.SetDirection(Integer)
+  commentId: M:CRMScript.NetServer.NSArchiveOrderByInfo.SetDirection(Integer)
+  id: 'SetDirection(Integer)'
+  so.intellisense: NSArchiveOrderByInfo.SetDirection
+  langs:
+  - crmscript
+  name: 'SetDirection(Integer)'
+  nameWithType: NSArchiveOrderByInfo.SetDirection(Integer)
+  fullName: CRMScript.NetServer.NSArchiveOrderByInfo.SetDirection(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetDirection(Integer direction)
+    parameters:
+    - id: direction
+      type: CRMScript.Global.Integer
+      description: "Direction to order. See <xref href=\"CRMScript.NetServer.OrderBySortType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveOrderByInfo thing;\nInteger direction;\nthing.SetDirection(direction);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveOrderByInfo.SetName(String)
+  commentId: M:CRMScript.NetServer.NSArchiveOrderByInfo.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSArchiveOrderByInfo.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSArchiveOrderByInfo.SetName(String)
+  fullName: CRMScript.NetServer.NSArchiveOrderByInfo.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Programmatic name of the column to order by, semantically the same as the NSArchiveColumnInfo.Name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSArchiveOrderByInfo thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSArchiveOrderByInfo
+  commentId: T:CRMScript.NetServer.NSArchiveOrderByInfo
+  isExternal: true
+  name: NSArchiveOrderByInfo
+  nameWithType: NSArchiveOrderByInfo
+  fullName: CRMScript.NetServer.NSArchiveOrderByInfo
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.OrderBySortType
+  commentId: T:CRMScript.NetServer.OrderBySortType
+  isExternal: true
+  name: OrderBySortType
+  nameWithType: OrderBySortType
+  fullName: CRMScript.NetServer.OrderBySortType
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

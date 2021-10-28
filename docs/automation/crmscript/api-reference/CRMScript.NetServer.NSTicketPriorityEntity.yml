@@ -1,0 +1,1287 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSTicketPriorityEntity
+  commentId: T:CRMScript.NetServer.NSTicketPriorityEntity
+  id: NSTicketPriorityEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSTicketPriorityEntity.#ctor
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetChangedOwner()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetDeadline()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetFlags()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetFriStart()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetFriStop()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetMonStart()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetMonStop()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetName()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetNonDates()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetSatStart()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetSatStop()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetSortOrder()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetStatus()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetSunStart()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetSunStop()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetThuStart()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetThuStop()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetTicketChangedPriority()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetTicketClosed()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetTicketNew()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetTicketNewinfo()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetTicketPriorityId()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetTicketRead()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetTueStart()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetTueStop()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetWedStart()
+  - CRMScript.NetServer.NSTicketPriorityEntity.GetWedStop()
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetChangedOwner(Integer)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetDeadline(Integer)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetFlags(Integer)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetFriStart(DateTime)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetFriStop(DateTime)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetMonStart(DateTime)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetMonStop(DateTime)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetName(String)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetNonDates(DateTime[])
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetSatStart(DateTime)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetSatStop(DateTime)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetSortOrder(Integer)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetStatus(Integer)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetSunStart(DateTime)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetSunStop(DateTime)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetThuStart(DateTime)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetThuStop(DateTime)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetTicketChangedPriority(Integer)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetTicketClosed(Integer)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetTicketNew(Integer)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetTicketNewinfo(Integer)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetTicketPriorityId(Integer)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetTicketRead(Integer)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetTueStart(DateTime)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetTueStop(DateTime)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetWedStart(DateTime)
+  - CRMScript.NetServer.NSTicketPriorityEntity.SetWedStop(DateTime)
+  name: NSTicketPriorityEntity
+  nameWithType: NSTicketPriorityEntity
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity
+  type: Class
+  summary: "\nEntity for a ticket priority. This entity describes the meta data for a ticket priority, and provides special operations on it.\n"
+  example: 
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSTicketPriorityEntity
+  langs:
+  - crmscript
+  name: NSTicketPriorityEntity()
+  nameWithType: NSTicketPriorityEntity.#ctor
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSTicketPriorityEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSTicketPriorityEntity
+  example: 
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetChangedOwner()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetChangedOwner()
+  id: 'GetChangedOwner()'
+  so.intellisense: NSTicketPriorityEntity.GetChangedOwner
+  langs:
+  - crmscript
+  name: 'GetChangedOwner()'
+  nameWithType: NSTicketPriorityEntity.GetChangedOwner()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetChangedOwner()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetChangedOwner()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "What to do with the escalation chain when the request changes owner (manually). See <xref href=\"CRMScript.NetServer.TicketPriorityEscalateEvent\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nInteger changedOwner = thing.GetChangedOwner();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetDeadline()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetDeadline()
+  id: 'GetDeadline()'
+  so.intellisense: NSTicketPriorityEntity.GetDeadline
+  langs:
+  - crmscript
+  name: 'GetDeadline()'
+  nameWithType: NSTicketPriorityEntity.GetDeadline()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetDeadline()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDeadline()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Deadline to add if escalated (minutes)."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nInteger deadline = thing.GetDeadline();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetFlags()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetFlags()
+  id: 'GetFlags()'
+  so.intellisense: NSTicketPriorityEntity.GetFlags
+  langs:
+  - crmscript
+  name: 'GetFlags()'
+  nameWithType: NSTicketPriorityEntity.GetFlags()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetFlags()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetFlags()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "A bit mask of flags. See <xref href=\"CRMScript.NetServer.TicketPriorityFlags\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nInteger flags = thing.GetFlags();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetFriStart()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetFriStart()
+  id: 'GetFriStart()'
+  so.intellisense: NSTicketPriorityEntity.GetFriStart
+  langs:
+  - crmscript
+  name: 'GetFriStart()'
+  nameWithType: NSTicketPriorityEntity.GetFriStart()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetFriStart()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetFriStart()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The work hour start for Fridays. Note that only the time part of the DateTime is used."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime friStart = thing.GetFriStart();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetFriStop()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetFriStop()
+  id: 'GetFriStop()'
+  so.intellisense: NSTicketPriorityEntity.GetFriStop
+  langs:
+  - crmscript
+  name: 'GetFriStop()'
+  nameWithType: NSTicketPriorityEntity.GetFriStop()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetFriStop()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetFriStop()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The work hour stop for Fridays. Note that only the time part of the DateTime is used."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime friStop = thing.GetFriStop();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetMonStart()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetMonStart()
+  id: 'GetMonStart()'
+  so.intellisense: NSTicketPriorityEntity.GetMonStart
+  langs:
+  - crmscript
+  name: 'GetMonStart()'
+  nameWithType: NSTicketPriorityEntity.GetMonStart()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetMonStart()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetMonStart()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The work hour start for Mondays. Note that only the time part of the DateTime is used."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime monStart = thing.GetMonStart();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetMonStop()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetMonStop()
+  id: 'GetMonStop()'
+  so.intellisense: NSTicketPriorityEntity.GetMonStop
+  langs:
+  - crmscript
+  name: 'GetMonStop()'
+  nameWithType: NSTicketPriorityEntity.GetMonStop()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetMonStop()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetMonStop()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The work hour stop for Mondays. Note that only the time part of the DateTime is used."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime monStop = thing.GetMonStop();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSTicketPriorityEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSTicketPriorityEntity.GetName()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the priority."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetNonDates()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetNonDates()
+  id: 'GetNonDates()'
+  so.intellisense: NSTicketPriorityEntity.GetNonDates
+  langs:
+  - crmscript
+  name: 'GetNonDates()'
+  nameWithType: NSTicketPriorityEntity.GetNonDates()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetNonDates()
+  type: Method
+  summary: # TODO
+  remarks: "\nNote that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime\n"
+  syntax: 
+    content: DateTime[] GetNonDates()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime[]
+      description: "Dates which the escalation time should not be running."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime[] nonDates = thing.GetNonDates();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetSatStart()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetSatStart()
+  id: 'GetSatStart()'
+  so.intellisense: NSTicketPriorityEntity.GetSatStart
+  langs:
+  - crmscript
+  name: 'GetSatStart()'
+  nameWithType: NSTicketPriorityEntity.GetSatStart()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetSatStart()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetSatStart()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The work hour start for Saturdays. Note that only the time part of the DateTime is used."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime satStart = thing.GetSatStart();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetSatStop()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetSatStop()
+  id: 'GetSatStop()'
+  so.intellisense: NSTicketPriorityEntity.GetSatStop
+  langs:
+  - crmscript
+  name: 'GetSatStop()'
+  nameWithType: NSTicketPriorityEntity.GetSatStop()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetSatStop()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetSatStop()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The work hour stop for Saturdays. Note that only the time part of the DateTime is used."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime satStop = thing.GetSatStop();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetSortOrder()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetSortOrder()
+  id: 'GetSortOrder()'
+  so.intellisense: NSTicketPriorityEntity.GetSortOrder
+  langs:
+  - crmscript
+  name: 'GetSortOrder()'
+  nameWithType: NSTicketPriorityEntity.GetSortOrder()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetSortOrder()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSortOrder()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Indicates the sort order for this priority. 1 is first, 100 is last."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nInteger sortOrder = thing.GetSortOrder();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetStatus()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetStatus()
+  id: 'GetStatus()'
+  so.intellisense: NSTicketPriorityEntity.GetStatus
+  langs:
+  - crmscript
+  name: 'GetStatus()'
+  nameWithType: NSTicketPriorityEntity.GetStatus()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetStatus()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetStatus()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The status (normal/deleted) of the priority. See <xref href=\"CRMScript.NetServer.TicketPriorityStatus\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nInteger status = thing.GetStatus();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetSunStart()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetSunStart()
+  id: 'GetSunStart()'
+  so.intellisense: NSTicketPriorityEntity.GetSunStart
+  langs:
+  - crmscript
+  name: 'GetSunStart()'
+  nameWithType: NSTicketPriorityEntity.GetSunStart()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetSunStart()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetSunStart()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The work hour start for Sundays. Note that only the time part of the DateTime is used."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime sunStart = thing.GetSunStart();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetSunStop()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetSunStop()
+  id: 'GetSunStop()'
+  so.intellisense: NSTicketPriorityEntity.GetSunStop
+  langs:
+  - crmscript
+  name: 'GetSunStop()'
+  nameWithType: NSTicketPriorityEntity.GetSunStop()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetSunStop()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetSunStop()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The work hour stop for Sundays. Note that only the time part of the DateTime is used."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime sunStop = thing.GetSunStop();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetThuStart()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetThuStart()
+  id: 'GetThuStart()'
+  so.intellisense: NSTicketPriorityEntity.GetThuStart
+  langs:
+  - crmscript
+  name: 'GetThuStart()'
+  nameWithType: NSTicketPriorityEntity.GetThuStart()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetThuStart()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetThuStart()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The work hour start for Thursdays. Note that only the time part of the DateTime is used."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime thuStart = thing.GetThuStart();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetThuStop()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetThuStop()
+  id: 'GetThuStop()'
+  so.intellisense: NSTicketPriorityEntity.GetThuStop
+  langs:
+  - crmscript
+  name: 'GetThuStop()'
+  nameWithType: NSTicketPriorityEntity.GetThuStop()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetThuStop()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetThuStop()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The work hour stop for Thursdays. Note that only the time part of the DateTime is used."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime thuStop = thing.GetThuStop();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetTicketChangedPriority()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetTicketChangedPriority()
+  id: 'GetTicketChangedPriority()'
+  so.intellisense: NSTicketPriorityEntity.GetTicketChangedPriority
+  langs:
+  - crmscript
+  name: 'GetTicketChangedPriority()'
+  nameWithType: NSTicketPriorityEntity.GetTicketChangedPriority()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetTicketChangedPriority()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTicketChangedPriority()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "What to do with the escalation chain when the request is changed into this priority. See <xref href=\"CRMScript.NetServer.TicketPriorityEscalateEvent\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nInteger ticketChangedPriority = thing.GetTicketChangedPriority();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetTicketClosed()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetTicketClosed()
+  id: 'GetTicketClosed()'
+  so.intellisense: NSTicketPriorityEntity.GetTicketClosed
+  langs:
+  - crmscript
+  name: 'GetTicketClosed()'
+  nameWithType: NSTicketPriorityEntity.GetTicketClosed()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetTicketClosed()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTicketClosed()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "indicates what to do with the escalation chain when the request is closed. See <xref href=\"CRMScript.NetServer.TicketPriorityEscalateEvent\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nInteger ticketClosed = thing.GetTicketClosed();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetTicketNew()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetTicketNew()
+  id: 'GetTicketNew()'
+  so.intellisense: NSTicketPriorityEntity.GetTicketNew
+  langs:
+  - crmscript
+  name: 'GetTicketNew()'
+  nameWithType: NSTicketPriorityEntity.GetTicketNew()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetTicketNew()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTicketNew()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "What to do with the escalation chain when a new request is registered. See <xref href=\"CRMScript.NetServer.TicketPriorityEscalateEvent\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nInteger ticketNew = thing.GetTicketNew();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetTicketNewinfo()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetTicketNewinfo()
+  id: 'GetTicketNewinfo()'
+  so.intellisense: NSTicketPriorityEntity.GetTicketNewinfo
+  langs:
+  - crmscript
+  name: 'GetTicketNewinfo()'
+  nameWithType: NSTicketPriorityEntity.GetTicketNewinfo()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetTicketNewinfo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTicketNewinfo()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "What to do with the escalation chain when the request gets new info. See <xref href=\"CRMScript.NetServer.TicketPriorityEscalateEvent\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nInteger ticketNewinfo = thing.GetTicketNewinfo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetTicketPriorityId()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetTicketPriorityId()
+  id: 'GetTicketPriorityId()'
+  so.intellisense: NSTicketPriorityEntity.GetTicketPriorityId
+  langs:
+  - crmscript
+  name: 'GetTicketPriorityId()'
+  nameWithType: NSTicketPriorityEntity.GetTicketPriorityId()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetTicketPriorityId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTicketPriorityId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The primary key (auto-incremented)."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nInteger ticketPriorityId = thing.GetTicketPriorityId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetTicketRead()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetTicketRead()
+  id: 'GetTicketRead()'
+  so.intellisense: NSTicketPriorityEntity.GetTicketRead
+  langs:
+  - crmscript
+  name: 'GetTicketRead()'
+  nameWithType: NSTicketPriorityEntity.GetTicketRead()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetTicketRead()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTicketRead()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "What to do with the escalation chain when the request is read. See <xref href=\"CRMScript.NetServer.TicketPriorityEscalateEvent\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nInteger ticketRead = thing.GetTicketRead();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetTueStart()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetTueStart()
+  id: 'GetTueStart()'
+  so.intellisense: NSTicketPriorityEntity.GetTueStart
+  langs:
+  - crmscript
+  name: 'GetTueStart()'
+  nameWithType: NSTicketPriorityEntity.GetTueStart()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetTueStart()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetTueStart()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The work hour start for Tuesdays. Note that only the time part of the DateTime is used."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime tueStart = thing.GetTueStart();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetTueStop()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetTueStop()
+  id: 'GetTueStop()'
+  so.intellisense: NSTicketPriorityEntity.GetTueStop
+  langs:
+  - crmscript
+  name: 'GetTueStop()'
+  nameWithType: NSTicketPriorityEntity.GetTueStop()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetTueStop()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetTueStop()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The work hour stop for Tuesdays. Note that only the time part of the DateTime is used."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime tueStop = thing.GetTueStop();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetWedStart()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetWedStart()
+  id: 'GetWedStart()'
+  so.intellisense: NSTicketPriorityEntity.GetWedStart
+  langs:
+  - crmscript
+  name: 'GetWedStart()'
+  nameWithType: NSTicketPriorityEntity.GetWedStart()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetWedStart()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetWedStart()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The work hour start for Wednesdays. Note that only the time part of the DateTime is used."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime wedStart = thing.GetWedStart();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.GetWedStop()
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.GetWedStop()
+  id: 'GetWedStop()'
+  so.intellisense: NSTicketPriorityEntity.GetWedStop
+  langs:
+  - crmscript
+  name: 'GetWedStop()'
+  nameWithType: NSTicketPriorityEntity.GetWedStop()
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.GetWedStop()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetWedStop()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The work hour stop for Wednesdays. Note that only the time part of the DateTime is used."
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime wedStop = thing.GetWedStop();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetChangedOwner(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetChangedOwner(Integer)
+  id: 'SetChangedOwner(Integer)'
+  so.intellisense: NSTicketPriorityEntity.SetChangedOwner
+  langs:
+  - crmscript
+  name: 'SetChangedOwner(Integer)'
+  nameWithType: NSTicketPriorityEntity.SetChangedOwner(Integer)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetChangedOwner(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChangedOwner(Integer changedOwner)
+    parameters:
+    - id: changedOwner
+      type: CRMScript.Global.Integer
+      description: "What to do with the escalation chain when the request changes owner (manually). See <xref href=\"CRMScript.NetServer.TicketPriorityEscalateEvent\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nInteger changedOwner;\nthing.SetChangedOwner(changedOwner);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetDeadline(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetDeadline(Integer)
+  id: 'SetDeadline(Integer)'
+  so.intellisense: NSTicketPriorityEntity.SetDeadline
+  langs:
+  - crmscript
+  name: 'SetDeadline(Integer)'
+  nameWithType: NSTicketPriorityEntity.SetDeadline(Integer)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetDeadline(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeadline(Integer deadline)
+    parameters:
+    - id: deadline
+      type: CRMScript.Global.Integer
+      description: "Deadline to add if escalated (minutes)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nInteger deadline;\nthing.SetDeadline(deadline);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetFlags(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetFlags(Integer)
+  id: 'SetFlags(Integer)'
+  so.intellisense: NSTicketPriorityEntity.SetFlags
+  langs:
+  - crmscript
+  name: 'SetFlags(Integer)'
+  nameWithType: NSTicketPriorityEntity.SetFlags(Integer)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetFlags(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFlags(Integer flags)
+    parameters:
+    - id: flags
+      type: CRMScript.Global.Integer
+      description: "A bitmask of flags. See <xref href=\"CRMScript.NetServer.TicketPriorityFlags\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nInteger flags;\nthing.SetFlags(flags);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetFriStart(DateTime)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetFriStart(DateTime)
+  id: 'SetFriStart(DateTime)'
+  so.intellisense: NSTicketPriorityEntity.SetFriStart
+  langs:
+  - crmscript
+  name: 'SetFriStart(DateTime)'
+  nameWithType: NSTicketPriorityEntity.SetFriStart(DateTime)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetFriStart(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFriStart(DateTime friStart)
+    parameters:
+    - id: friStart
+      type: CRMScript.Global.DateTime
+      description: "The work hour start for Fridays. Note that only the time part of the DateTime is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime friStart;\nthing.SetFriStart(friStart);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetFriStop(DateTime)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetFriStop(DateTime)
+  id: 'SetFriStop(DateTime)'
+  so.intellisense: NSTicketPriorityEntity.SetFriStop
+  langs:
+  - crmscript
+  name: 'SetFriStop(DateTime)'
+  nameWithType: NSTicketPriorityEntity.SetFriStop(DateTime)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetFriStop(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFriStop(DateTime friStop)
+    parameters:
+    - id: friStop
+      type: CRMScript.Global.DateTime
+      description: "The work hour stop for Fridays. Note that only the time part of the DateTime is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime friStop;\nthing.SetFriStop(friStop);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetMonStart(DateTime)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetMonStart(DateTime)
+  id: 'SetMonStart(DateTime)'
+  so.intellisense: NSTicketPriorityEntity.SetMonStart
+  langs:
+  - crmscript
+  name: 'SetMonStart(DateTime)'
+  nameWithType: NSTicketPriorityEntity.SetMonStart(DateTime)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetMonStart(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMonStart(DateTime monStart)
+    parameters:
+    - id: monStart
+      type: CRMScript.Global.DateTime
+      description: "The work hour start for Mondays. Note that only the time part of the DateTime is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime monStart;\nthing.SetMonStart(monStart);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetMonStop(DateTime)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetMonStop(DateTime)
+  id: 'SetMonStop(DateTime)'
+  so.intellisense: NSTicketPriorityEntity.SetMonStop
+  langs:
+  - crmscript
+  name: 'SetMonStop(DateTime)'
+  nameWithType: NSTicketPriorityEntity.SetMonStop(DateTime)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetMonStop(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMonStop(DateTime monStop)
+    parameters:
+    - id: monStop
+      type: CRMScript.Global.DateTime
+      description: "The work hour stop for Mondays. Note that only the time part of the DateTime is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime monStop;\nthing.SetMonStop(monStop);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSTicketPriorityEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSTicketPriorityEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of the priority."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetNonDates(DateTime[])
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetNonDates(DateTime[])
+  id: 'SetNonDates(DateTime[])'
+  so.intellisense: NSTicketPriorityEntity.SetNonDates
+  langs:
+  - crmscript
+  name: 'SetNonDates(DateTime[])'
+  nameWithType: NSTicketPriorityEntity.SetNonDates(DateTime[])
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetNonDates(DateTime[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetNonDates(DateTime[] nonDates)
+    parameters:
+    - id: nonDates
+      type: CRMScript.Global.DateTime[]
+      description: "Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime[] nonDates;\nthing.SetNonDates(nonDates);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetSatStart(DateTime)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetSatStart(DateTime)
+  id: 'SetSatStart(DateTime)'
+  so.intellisense: NSTicketPriorityEntity.SetSatStart
+  langs:
+  - crmscript
+  name: 'SetSatStart(DateTime)'
+  nameWithType: NSTicketPriorityEntity.SetSatStart(DateTime)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetSatStart(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSatStart(DateTime satStart)
+    parameters:
+    - id: satStart
+      type: CRMScript.Global.DateTime
+      description: "The work hour start for Saturdays. Note that only the time part of the DateTime is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime satStart;\nthing.SetSatStart(satStart);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetSatStop(DateTime)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetSatStop(DateTime)
+  id: 'SetSatStop(DateTime)'
+  so.intellisense: NSTicketPriorityEntity.SetSatStop
+  langs:
+  - crmscript
+  name: 'SetSatStop(DateTime)'
+  nameWithType: NSTicketPriorityEntity.SetSatStop(DateTime)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetSatStop(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSatStop(DateTime satStop)
+    parameters:
+    - id: satStop
+      type: CRMScript.Global.DateTime
+      description: "The work hour stop for Saturdays. Note that only the time part of the DateTime is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime satStop;\nthing.SetSatStop(satStop);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetSortOrder(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetSortOrder(Integer)
+  id: 'SetSortOrder(Integer)'
+  so.intellisense: NSTicketPriorityEntity.SetSortOrder
+  langs:
+  - crmscript
+  name: 'SetSortOrder(Integer)'
+  nameWithType: NSTicketPriorityEntity.SetSortOrder(Integer)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetSortOrder(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSortOrder(Integer sortOrder)
+    parameters:
+    - id: sortOrder
+      type: CRMScript.Global.Integer
+      description: "Indicates the sort order for this priority. 1 is first, 100 is last."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nInteger sortOrder;\nthing.SetSortOrder(sortOrder);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetStatus(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetStatus(Integer)
+  id: 'SetStatus(Integer)'
+  so.intellisense: NSTicketPriorityEntity.SetStatus
+  langs:
+  - crmscript
+  name: 'SetStatus(Integer)'
+  nameWithType: NSTicketPriorityEntity.SetStatus(Integer)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetStatus(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetStatus(Integer status)
+    parameters:
+    - id: status
+      type: CRMScript.Global.Integer
+      description: "The status (normal/deleted) of the priority. See <xref href=\"CRMScript.NetServer.TicketPriorityStatus\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nInteger status;\nthing.SetStatus(status);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetSunStart(DateTime)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetSunStart(DateTime)
+  id: 'SetSunStart(DateTime)'
+  so.intellisense: NSTicketPriorityEntity.SetSunStart
+  langs:
+  - crmscript
+  name: 'SetSunStart(DateTime)'
+  nameWithType: NSTicketPriorityEntity.SetSunStart(DateTime)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetSunStart(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSunStart(DateTime sunStart)
+    parameters:
+    - id: sunStart
+      type: CRMScript.Global.DateTime
+      description: "The work hour start for Sundays. Note that only the time part of the DateTime is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime sunStart;\nthing.SetSunStart(sunStart);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetSunStop(DateTime)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetSunStop(DateTime)
+  id: 'SetSunStop(DateTime)'
+  so.intellisense: NSTicketPriorityEntity.SetSunStop
+  langs:
+  - crmscript
+  name: 'SetSunStop(DateTime)'
+  nameWithType: NSTicketPriorityEntity.SetSunStop(DateTime)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetSunStop(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSunStop(DateTime sunStop)
+    parameters:
+    - id: sunStop
+      type: CRMScript.Global.DateTime
+      description: "The work hour stop for Sundays. Note that only the time part of the DateTime is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime sunStop;\nthing.SetSunStop(sunStop);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetThuStart(DateTime)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetThuStart(DateTime)
+  id: 'SetThuStart(DateTime)'
+  so.intellisense: NSTicketPriorityEntity.SetThuStart
+  langs:
+  - crmscript
+  name: 'SetThuStart(DateTime)'
+  nameWithType: NSTicketPriorityEntity.SetThuStart(DateTime)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetThuStart(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetThuStart(DateTime thuStart)
+    parameters:
+    - id: thuStart
+      type: CRMScript.Global.DateTime
+      description: "The work hour start for Thursdays. Note that only the time part of the DateTime is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime thuStart;\nthing.SetThuStart(thuStart);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetThuStop(DateTime)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetThuStop(DateTime)
+  id: 'SetThuStop(DateTime)'
+  so.intellisense: NSTicketPriorityEntity.SetThuStop
+  langs:
+  - crmscript
+  name: 'SetThuStop(DateTime)'
+  nameWithType: NSTicketPriorityEntity.SetThuStop(DateTime)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetThuStop(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetThuStop(DateTime thuStop)
+    parameters:
+    - id: thuStop
+      type: CRMScript.Global.DateTime
+      description: "The work hour stop for Thursdays. Note that only the time part of the DateTime is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime thuStop;\nthing.SetThuStop(thuStop);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetTicketChangedPriority(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetTicketChangedPriority(Integer)
+  id: 'SetTicketChangedPriority(Integer)'
+  so.intellisense: NSTicketPriorityEntity.SetTicketChangedPriority
+  langs:
+  - crmscript
+  name: 'SetTicketChangedPriority(Integer)'
+  nameWithType: NSTicketPriorityEntity.SetTicketChangedPriority(Integer)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetTicketChangedPriority(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTicketChangedPriority(Integer ticketChangedPriority)
+    parameters:
+    - id: ticketChangedPriority
+      type: CRMScript.Global.Integer
+      description: "Indicates what to do with the escalation chain when the request is changed into this priority. See <xref href=\"CRMScript.NetServer.TicketPriorityEscalateEvent\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nInteger ticketChangedPriority;\nthing.SetTicketChangedPriority(ticketChangedPriority);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetTicketClosed(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetTicketClosed(Integer)
+  id: 'SetTicketClosed(Integer)'
+  so.intellisense: NSTicketPriorityEntity.SetTicketClosed
+  langs:
+  - crmscript
+  name: 'SetTicketClosed(Integer)'
+  nameWithType: NSTicketPriorityEntity.SetTicketClosed(Integer)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetTicketClosed(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTicketClosed(Integer ticketClosed)
+    parameters:
+    - id: ticketClosed
+      type: CRMScript.Global.Integer
+      description: "Indicates what to do with the escalation chain when the request is closed. See <xref href=\"CRMScript.NetServer.TicketPriorityEscalateEvent\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nInteger ticketClosed;\nthing.SetTicketClosed(ticketClosed);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetTicketNew(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetTicketNew(Integer)
+  id: 'SetTicketNew(Integer)'
+  so.intellisense: NSTicketPriorityEntity.SetTicketNew
+  langs:
+  - crmscript
+  name: 'SetTicketNew(Integer)'
+  nameWithType: NSTicketPriorityEntity.SetTicketNew(Integer)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetTicketNew(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTicketNew(Integer ticketNew)
+    parameters:
+    - id: ticketNew
+      type: CRMScript.Global.Integer
+      description: "Indicates what to do with the escalation chain when a new request is registered. See <xref href=\"CRMScript.NetServer.TicketPriorityEscalateEvent\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nInteger ticketNew;\nthing.SetTicketNew(ticketNew);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetTicketNewinfo(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetTicketNewinfo(Integer)
+  id: 'SetTicketNewinfo(Integer)'
+  so.intellisense: NSTicketPriorityEntity.SetTicketNewinfo
+  langs:
+  - crmscript
+  name: 'SetTicketNewinfo(Integer)'
+  nameWithType: NSTicketPriorityEntity.SetTicketNewinfo(Integer)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetTicketNewinfo(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTicketNewinfo(Integer ticketNewinfo)
+    parameters:
+    - id: ticketNewinfo
+      type: CRMScript.Global.Integer
+      description: "Indicates what to do with the escalation chain when the request gets new info. See <xref href=\"CRMScript.NetServer.TicketPriorityEscalateEvent\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nInteger ticketNewinfo;\nthing.SetTicketNewinfo(ticketNewinfo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetTicketPriorityId(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetTicketPriorityId(Integer)
+  id: 'SetTicketPriorityId(Integer)'
+  so.intellisense: NSTicketPriorityEntity.SetTicketPriorityId
+  langs:
+  - crmscript
+  name: 'SetTicketPriorityId(Integer)'
+  nameWithType: NSTicketPriorityEntity.SetTicketPriorityId(Integer)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetTicketPriorityId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTicketPriorityId(Integer ticketPriorityId)
+    parameters:
+    - id: ticketPriorityId
+      type: CRMScript.Global.Integer
+      description: "The primary key (auto-incremented)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nInteger ticketPriorityId;\nthing.SetTicketPriorityId(ticketPriorityId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetTicketRead(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetTicketRead(Integer)
+  id: 'SetTicketRead(Integer)'
+  so.intellisense: NSTicketPriorityEntity.SetTicketRead
+  langs:
+  - crmscript
+  name: 'SetTicketRead(Integer)'
+  nameWithType: NSTicketPriorityEntity.SetTicketRead(Integer)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetTicketRead(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTicketRead(Integer ticketRead)
+    parameters:
+    - id: ticketRead
+      type: CRMScript.Global.Integer
+      description: "What to do with the escalation chain when the request is read. See <xref href=\"CRMScript.NetServer.TicketPriorityEscalateEvent\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nInteger ticketRead;\nthing.SetTicketRead(ticketRead);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetTueStart(DateTime)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetTueStart(DateTime)
+  id: 'SetTueStart(DateTime)'
+  so.intellisense: NSTicketPriorityEntity.SetTueStart
+  langs:
+  - crmscript
+  name: 'SetTueStart(DateTime)'
+  nameWithType: NSTicketPriorityEntity.SetTueStart(DateTime)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetTueStart(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTueStart(DateTime tueStart)
+    parameters:
+    - id: tueStart
+      type: CRMScript.Global.DateTime
+      description: "The work hour start for Tuesdays. Note that only the time part of the DateTime is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime tueStart;\nthing.SetTueStart(tueStart);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetTueStop(DateTime)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetTueStop(DateTime)
+  id: 'SetTueStop(DateTime)'
+  so.intellisense: NSTicketPriorityEntity.SetTueStop
+  langs:
+  - crmscript
+  name: 'SetTueStop(DateTime)'
+  nameWithType: NSTicketPriorityEntity.SetTueStop(DateTime)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetTueStop(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTueStop(DateTime tueStop)
+    parameters:
+    - id: tueStop
+      type: CRMScript.Global.DateTime
+      description: "The work hour stop for Tuesdays. Note that only the time part of the DateTime is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime tueStop;\nthing.SetTueStop(tueStop);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetWedStart(DateTime)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetWedStart(DateTime)
+  id: 'SetWedStart(DateTime)'
+  so.intellisense: NSTicketPriorityEntity.SetWedStart
+  langs:
+  - crmscript
+  name: 'SetWedStart(DateTime)'
+  nameWithType: NSTicketPriorityEntity.SetWedStart(DateTime)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetWedStart(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWedStart(DateTime wedStart)
+    parameters:
+    - id: wedStart
+      type: CRMScript.Global.DateTime
+      description: "The work hour start for Wednesdays. Note that only the time part of the DateTime is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime wedStart;\nthing.SetWedStart(wedStart);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketPriorityEntity.SetWedStop(DateTime)
+  commentId: M:CRMScript.NetServer.NSTicketPriorityEntity.SetWedStop(DateTime)
+  id: 'SetWedStop(DateTime)'
+  so.intellisense: NSTicketPriorityEntity.SetWedStop
+  langs:
+  - crmscript
+  name: 'SetWedStop(DateTime)'
+  nameWithType: NSTicketPriorityEntity.SetWedStop(DateTime)
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity.SetWedStop(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWedStop(DateTime wedStop)
+    parameters:
+    - id: wedStop
+      type: CRMScript.Global.DateTime
+      description: "The work hour stop for Wednesdays. Note that only the time part of the DateTime is used."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketPriorityEntity thing;\nDateTime wedStop;\nthing.SetWedStop(wedStop);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSTicketPriorityEntity
+  commentId: T:CRMScript.NetServer.NSTicketPriorityEntity
+  isExternal: true
+  name: NSTicketPriorityEntity
+  nameWithType: NSTicketPriorityEntity
+  fullName: CRMScript.NetServer.NSTicketPriorityEntity
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.DateTime[]
+  isExternal: true
+  name: DateTime[]
+  nameWithType: DateTime[]
+  fullName: CRMScript.Global.DateTime[]
+  spec.crmscript:
+  - uid: CRMScript.Global.DateTime
+    isExternal: true
+    name: DateTime
+    nameWithType: DateTime
+    fullName: CRMScript.Global.DateTime
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.ChatSessionFlags
+  commentId: T:CRMScript.NetServer.ChatSessionFlags
+  isExternal: true
+  name: ChatSessionFlags
+  nameWithType: ChatSessionFlags
+  fullName: CRMScript.NetServer.ChatSessionFlags
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.TicketPriorityEscalateEvent
+  commentId: T:CRMScript.NetServer.TicketPriorityEscalateEvent
+  isExternal: true
+  name: TicketPriorityEscalateEvent
+  nameWithType: TicketPriorityEscalateEvent
+  fullName: CRMScript.NetServer.TicketPriorityEscalateEvent
+- uid: CRMScript.NetServer.TicketPriorityStatus
+  commentId: T:CRMScript.NetServer.TicketPriorityStatus
+  isExternal: true
+  name: TicketPriorityStatus
+  nameWithType: TicketPriorityStatus
+  fullName: CRMScript.NetServer.TicketPriorityStatus
+- uid: CRMScript.NetServer.TicketPriorityFlags
+  commentId: T:CRMScript.NetServer.TicketPriorityFlags
+  isExternal: true
+  name: TicketPriorityFlags
+  nameWithType: TicketPriorityFlags
+  fullName: CRMScript.NetServer.TicketPriorityFlags

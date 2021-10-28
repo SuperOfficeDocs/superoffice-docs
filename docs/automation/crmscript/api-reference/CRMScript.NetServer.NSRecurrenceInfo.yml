@@ -1,0 +1,548 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSRecurrenceInfo
+  commentId: T:CRMScript.NetServer.NSRecurrenceInfo
+  id: NSRecurrenceInfo
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSRecurrenceInfo.#ctor
+  - CRMScript.NetServer.NSRecurrenceInfo.GetDates()
+  - CRMScript.NetServer.NSRecurrenceInfo.GetDayPattern()
+  - CRMScript.NetServer.NSRecurrenceInfo.GetEndDate()
+  - CRMScript.NetServer.NSRecurrenceInfo.GetIsRecurrence()
+  - CRMScript.NetServer.NSRecurrenceInfo.GetMonthPattern()
+  - CRMScript.NetServer.NSRecurrenceInfo.GetPattern()
+  - CRMScript.NetServer.NSRecurrenceInfo.GetRecurrenceCounter()
+  - CRMScript.NetServer.NSRecurrenceInfo.GetRecurrenceEndType()
+  - CRMScript.NetServer.NSRecurrenceInfo.GetRecurrenceId()
+  - CRMScript.NetServer.NSRecurrenceInfo.GetStartDate()
+  - CRMScript.NetServer.NSRecurrenceInfo.GetWeekPattern()
+  - CRMScript.NetServer.NSRecurrenceInfo.GetYearPattern()
+  - CRMScript.NetServer.NSRecurrenceInfo.SetDates(NSRecurrenceDate[])
+  - CRMScript.NetServer.NSRecurrenceInfo.SetDayPattern(Integer)
+  - CRMScript.NetServer.NSRecurrenceInfo.SetEndDate(DateTime)
+  - CRMScript.NetServer.NSRecurrenceInfo.SetIsRecurrence(Bool)
+  - CRMScript.NetServer.NSRecurrenceInfo.SetMonthPattern(Integer)
+  - CRMScript.NetServer.NSRecurrenceInfo.SetPattern(Integer)
+  - CRMScript.NetServer.NSRecurrenceInfo.SetRecurrenceCounter(Integer)
+  - CRMScript.NetServer.NSRecurrenceInfo.SetRecurrenceEndType(Integer)
+  - CRMScript.NetServer.NSRecurrenceInfo.SetRecurrenceId(Integer)
+  - CRMScript.NetServer.NSRecurrenceInfo.SetStartDate(DateTime)
+  - CRMScript.NetServer.NSRecurrenceInfo.SetWeekPattern(Integer)
+  - CRMScript.NetServer.NSRecurrenceInfo.SetYearPattern(Integer)
+  name: NSRecurrenceInfo
+  nameWithType: NSRecurrenceInfo
+  fullName: CRMScript.NetServer.NSRecurrenceInfo
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.#ctor
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSRecurrenceInfo
+  langs:
+  - crmscript
+  name: NSRecurrenceInfo()
+  nameWithType: NSRecurrenceInfo.#ctor
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSRecurrenceInfo class.\n"
+  remarks: 
+  syntax: 
+    content: NSRecurrenceInfo
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.GetDates()
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.GetDates()
+  id: 'GetDates()'
+  so.intellisense: NSRecurrenceInfo.GetDates
+  langs:
+  - crmscript
+  name: 'GetDates()'
+  nameWithType: NSRecurrenceInfo.GetDates()
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.GetDates()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSRecurrenceDate[] GetDates()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSRecurrenceDate[]
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.GetDayPattern()
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.GetDayPattern()
+  id: 'GetDayPattern()'
+  so.intellisense: NSRecurrenceInfo.GetDayPattern
+  langs:
+  - crmscript
+  name: 'GetDayPattern()'
+  nameWithType: NSRecurrenceInfo.GetDayPattern()
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.GetDayPattern()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDayPattern()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.GetEndDate()
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.GetEndDate()
+  id: 'GetEndDate()'
+  so.intellisense: NSRecurrenceInfo.GetEndDate
+  langs:
+  - crmscript
+  name: 'GetEndDate()'
+  nameWithType: NSRecurrenceInfo.GetEndDate()
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.GetEndDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetEndDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.GetIsRecurrence()
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.GetIsRecurrence()
+  id: 'GetIsRecurrence()'
+  so.intellisense: NSRecurrenceInfo.GetIsRecurrence
+  langs:
+  - crmscript
+  name: 'GetIsRecurrence()'
+  nameWithType: NSRecurrenceInfo.GetIsRecurrence()
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.GetIsRecurrence()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsRecurrence()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.GetMonthPattern()
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.GetMonthPattern()
+  id: 'GetMonthPattern()'
+  so.intellisense: NSRecurrenceInfo.GetMonthPattern
+  langs:
+  - crmscript
+  name: 'GetMonthPattern()'
+  nameWithType: NSRecurrenceInfo.GetMonthPattern()
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.GetMonthPattern()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetMonthPattern()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.GetPattern()
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.GetPattern()
+  id: 'GetPattern()'
+  so.intellisense: NSRecurrenceInfo.GetPattern
+  langs:
+  - crmscript
+  name: 'GetPattern()'
+  nameWithType: NSRecurrenceInfo.GetPattern()
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.GetPattern()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPattern()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.GetRecurrenceCounter()
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.GetRecurrenceCounter()
+  id: 'GetRecurrenceCounter()'
+  so.intellisense: NSRecurrenceInfo.GetRecurrenceCounter
+  langs:
+  - crmscript
+  name: 'GetRecurrenceCounter()'
+  nameWithType: NSRecurrenceInfo.GetRecurrenceCounter()
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.GetRecurrenceCounter()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRecurrenceCounter()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.GetRecurrenceEndType()
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.GetRecurrenceEndType()
+  id: 'GetRecurrenceEndType()'
+  so.intellisense: NSRecurrenceInfo.GetRecurrenceEndType
+  langs:
+  - crmscript
+  name: 'GetRecurrenceEndType()'
+  nameWithType: NSRecurrenceInfo.GetRecurrenceEndType()
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.GetRecurrenceEndType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRecurrenceEndType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer 
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.GetRecurrenceId()
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.GetRecurrenceId()
+  id: 'GetRecurrenceId()'
+  so.intellisense: NSRecurrenceInfo.GetRecurrenceId
+  langs:
+  - crmscript
+  name: 'GetRecurrenceId()'
+  nameWithType: NSRecurrenceInfo.GetRecurrenceId()
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.GetRecurrenceId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRecurrenceId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.GetStartDate()
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.GetStartDate()
+  id: 'GetStartDate()'
+  so.intellisense: NSRecurrenceInfo.GetStartDate
+  langs:
+  - crmscript
+  name: 'GetStartDate()'
+  nameWithType: NSRecurrenceInfo.GetStartDate()
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.GetStartDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetStartDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.GetWeekPattern()
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.GetWeekPattern()
+  id: 'GetWeekPattern()'
+  so.intellisense: NSRecurrenceInfo.GetWeekPattern
+  langs:
+  - crmscript
+  name: 'GetWeekPattern()'
+  nameWithType: NSRecurrenceInfo.GetWeekPattern()
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.GetWeekPattern()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetWeekPattern()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.GetYearPattern()
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.GetYearPattern()
+  id: 'GetYearPattern()'
+  so.intellisense: NSRecurrenceInfo.GetYearPattern
+  langs:
+  - crmscript
+  name: 'GetYearPattern()'
+  nameWithType: NSRecurrenceInfo.GetYearPattern()
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.GetYearPattern()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetYearPattern()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.SetDates(NSRecurrenceDate[])
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.SetDates(NSRecurrenceDate[])
+  id: 'SetDates(NSRecurrenceDate[])'
+  so.intellisense: NSRecurrenceInfo.SetDates
+  langs:
+  - crmscript
+  name: 'SetDates(NSRecurrenceDate[])'
+  nameWithType: NSRecurrenceInfo.SetDates(NSRecurrenceDate[])
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.SetDates(NSRecurrenceDate[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDates(NSRecurrenceDate[] dates)
+    parameters:
+    - id: dates
+      type: CRMScript.NetServer.NSRecurrenceDate[]
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.SetDayPattern(Integer)
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.SetDayPattern(Integer)
+  id: 'SetDayPattern(Integer)'
+  so.intellisense: NSRecurrenceInfo.SetDayPattern
+  langs:
+  - crmscript
+  name: 'SetDayPattern(Integer)'
+  nameWithType: NSRecurrenceInfo.SetDayPattern(Integer)
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.SetDayPattern(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDayPattern(Integer pattern)
+    parameters:
+    - id: pattern
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.SetEndDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.SetEndDate(DateTime)
+  id: 'SetEndDate(DateTime)'
+  so.intellisense: NSRecurrenceInfo.SetEndDate
+  langs:
+  - crmscript
+  name: 'SetEndDate(DateTime)'
+  nameWithType: NSRecurrenceInfo.SetEndDate(DateTime)
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.SetEndDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEndDate(DateTime date)
+    parameters:
+    - id: date
+      type: CRMScript.Global.DateTime
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.SetIsRecurrence(Bool)
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.SetIsRecurrence(Bool)
+  id: 'SetIsRecurrence(Bool)'
+  so.intellisense: NSRecurrenceInfo.SetIsRecurrence
+  langs:
+  - crmscript
+  name: 'SetIsRecurrence(Bool)'
+  nameWithType: NSRecurrenceInfo.SetIsRecurrence(Bool)
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.SetIsRecurrence(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsRecurrence(Bool isRecurrence)
+    parameters:
+    - id: isRecurrence
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.SetMonthPattern(Integer)
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.SetMonthPattern(Integer)
+  id: 'SetMonthPattern(Integer)'
+  so.intellisense: NSRecurrenceInfo.SetMonthPattern
+  langs:
+  - crmscript
+  name: 'SetMonthPattern(Integer)'
+  nameWithType: NSRecurrenceInfo.SetMonthPattern(Integer)
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.SetMonthPattern(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMonthPattern(Integer pattern)
+    parameters:
+    - id: pattern
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.SetPattern(Integer)
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.SetPattern(Integer)
+  id: 'SetPattern(Integer)'
+  so.intellisense: NSRecurrenceInfo.SetPattern
+  langs:
+  - crmscript
+  name: 'SetPattern(Integer)'
+  nameWithType: NSRecurrenceInfo.SetPattern(Integer)
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.SetPattern(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPattern(Integer pattern)
+    parameters:
+    - id: pattern
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.SetRecurrenceCounter(Integer)
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.SetRecurrenceCounter(Integer)
+  id: 'SetRecurrenceCounter(Integer)'
+  so.intellisense: NSRecurrenceInfo.SetRecurrenceCounter
+  langs:
+  - crmscript
+  name: 'SetRecurrenceCounter(Integer)'
+  nameWithType: NSRecurrenceInfo.SetRecurrenceCounter(Integer)
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.SetRecurrenceCounter(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRecurrenceCounter(Integer counter)
+    parameters:
+    - id: counter
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.SetRecurrenceEndType(Integer)
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.SetRecurrenceEndType(Integer)
+  id: 'SetRecurrenceEndType(Integer)'
+  so.intellisense: NSRecurrenceInfo.SetRecurrenceEndType
+  langs:
+  - crmscript
+  name: 'SetRecurrenceEndType(Integer)'
+  nameWithType: NSRecurrenceInfo.SetRecurrenceEndType(Integer)
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.SetRecurrenceEndType(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRecurrenceEndType(Integer endType)
+    parameters:
+    - id: endType
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.SetRecurrenceId(Integer)
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.SetRecurrenceId(Integer)
+  id: 'SetRecurrenceId(Integer)'
+  so.intellisense: NSRecurrenceInfo.SetRecurrenceId
+  langs:
+  - crmscript
+  name: 'SetRecurrenceId(Integer)'
+  nameWithType: NSRecurrenceInfo.SetRecurrenceId(Integer)
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.SetRecurrenceId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRecurrenceId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.SetStartDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.SetStartDate(DateTime)
+  id: 'SetStartDate(DateTime)'
+  so.intellisense: NSRecurrenceInfo.SetStartDate
+  langs:
+  - crmscript
+  name: 'SetStartDate(DateTime)'
+  nameWithType: NSRecurrenceInfo.SetStartDate(DateTime)
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.SetStartDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetStartDate(DateTime date)
+    parameters:
+    - id: date
+      type: CRMScript.Global.DateTime
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.SetWeekPattern(Integer)
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.SetWeekPattern(Integer)
+  id: 'SetWeekPattern(Integer)'
+  so.intellisense: NSRecurrenceInfo.SetWeekPattern
+  langs:
+  - crmscript
+  name: 'SetWeekPattern(Integer)'
+  nameWithType: NSRecurrenceInfo.SetWeekPattern(Integer)
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.SetWeekPattern(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWeekPattern(Integer pattern)
+    parameters:
+    - id: pattern
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceInfo.SetYearPattern(Integer)
+  commentId: M:CRMScript.NetServer.NSRecurrenceInfo.SetYearPattern(Integer)
+  id: 'SetYearPattern(Integer)'
+  so.intellisense: NSRecurrenceInfo.SetYearPattern
+  langs:
+  - crmscript
+  name: 'SetYearPattern(Integer)'
+  nameWithType: NSRecurrenceInfo.SetYearPattern(Integer)
+  fullName: CRMScript.NetServer.NSRecurrenceInfo.SetYearPattern(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetYearPattern(Integer pattern)
+    parameters:
+    - id: pattern
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSRecurrenceInfo
+  commentId: T:CRMScript.NetServer.NSRecurrenceInfo
+  isExternal: true
+  name: NSRecurrenceInfo
+  nameWithType: NSRecurrenceInfo
+  fullName: CRMScript.NetServer.NSRecurrenceInfo
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

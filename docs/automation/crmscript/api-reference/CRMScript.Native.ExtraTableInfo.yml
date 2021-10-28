@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.ExtraTableInfo
+  commentId: T:CRMScript.Native.ExtraTableInfo
+  id: ExtraTableInfo
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.ExtraTableInfo.#ctor
+  - CRMScript.Native.ExtraTableInfo.getFlags()
+  - CRMScript.Native.ExtraTableInfo.getId()
+  - CRMScript.Native.ExtraTableInfo.getName()
+  - CRMScript.Native.ExtraTableInfo.load(String)
+  name: ExtraTableInfo
+  nameWithType: ExtraTableInfo
+  fullName: CRMScript.Native.ExtraTableInfo
+  type: Class
+  summary: "\nWith this class you can retrieve meta information about an extra table. The class will only retrieve information, thus it is not possible to change an extra table from this class.\n"
+  example: 
+  - "\n<pre><code>ExtraTableInfo e;\n\ne.load(&quot;y_mytable&quot;);</code></pre>\n"
+- uid: CRMScript.Native.ExtraTableInfo.#ctor
+  commentId: M:CRMScript.Native.ExtraTableInfo.#ctor
+  id: '#ctor'
+  so.intellisense: Void.ExtraTableInfo
+  langs:
+  - crmscript
+  name: ExtraTableInfo()
+  nameWithType: ExtraTableInfo.#ctor
+  fullName: CRMScript.Native.ExtraTableInfo.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the ExtraTableInfo class.\n"
+  remarks: 
+  syntax: 
+    content: ExtraTableInfo
+  example: 
+  - "\n<pre><code>ExtraTableInfo e;\n\ne.load(&quot;y_mytable&quot;);</code></pre>\n"
+- uid: CRMScript.Native.ExtraTableInfo.getFlags()
+  commentId: M:CRMScript.Native.ExtraTableInfo.getFlags()
+  id: 'getFlags()'
+  so.intellisense: ExtraTableInfo.getFlags
+  langs:
+  - crmscript
+  name: 'getFlags()'
+  nameWithType: ExtraTableInfo.getFlags()
+  fullName: CRMScript.Native.ExtraTableInfo.getFlags()
+  type: Method
+  summary: "\nReturns the flags for this extra table.\n"
+  remarks: "\nAvailable flags: FlagHidden = 0, FlagDeleted = 8\n"
+  syntax: 
+    content: Integer getFlags()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The flags for this table."
+  example: 
+- uid: CRMScript.Native.ExtraTableInfo.getId()
+  commentId: M:CRMScript.Native.ExtraTableInfo.getId()
+  id: 'getId()'
+  so.intellisense: ExtraTableInfo.getId
+  langs:
+  - crmscript
+  name: 'getId()'
+  nameWithType: ExtraTableInfo.getId()
+  fullName: CRMScript.Native.ExtraTableInfo.getId()
+  type: Method
+  summary: "\nReturns the ID of the extra table.\n"
+  remarks: 
+  syntax: 
+    content: Integer getId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the extra table."
+  example: 
+- uid: CRMScript.Native.ExtraTableInfo.getName()
+  commentId: M:CRMScript.Native.ExtraTableInfo.getName()
+  id: 'getName()'
+  so.intellisense: ExtraTableInfo.getName
+  langs:
+  - crmscript
+  name: 'getName()'
+  nameWithType: ExtraTableInfo.getName()
+  fullName: CRMScript.Native.ExtraTableInfo.getName()
+  type: Method
+  summary: "\nReturn the textual name of the extra table.\n"
+  remarks: 
+  syntax: 
+    content: String getName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The textual name of the extra table."
+  example: 
+- uid: CRMScript.Native.ExtraTableInfo.load(String)
+  commentId: M:CRMScript.Native.ExtraTableInfo.load(String)
+  id: 'load(String)'
+  so.intellisense: ExtraTableInfo.load
+  langs:
+  - crmscript
+  name: 'load(String)'
+  nameWithType: ExtraTableInfo.load(String)
+  fullName: CRMScript.Native.ExtraTableInfo.load(String)
+  type: Method
+  summary: "\nLoad the extra table with the given table name.\n"
+  remarks: 
+  syntax: 
+    content: Void load(String tableName)
+    parameters:
+    - id: tableName
+      type: CRMScript.Global.String
+      description: "Name of the table (for example y_mytable)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.Native.ExtraTableInfo
+  commentId: T:CRMScript.Native.ExtraTableInfo
+  isExternal: true
+  name: ExtraTableInfo
+  nameWithType: ExtraTableInfo
+  fullName: CRMScript.Native.ExtraTableInfo
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

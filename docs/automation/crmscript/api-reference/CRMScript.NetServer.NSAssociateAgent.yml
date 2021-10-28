@@ -1,0 +1,288 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSAssociateAgent
+  commentId: T:CRMScript.NetServer.NSAssociateAgent
+  id: NSAssociateAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSAssociateAgent.#ctor
+  - CRMScript.NetServer.NSAssociateAgent.GetAssociate(Integer)
+  - CRMScript.NetServer.NSAssociateAgent.GetAssociateByPersonId(Integer)
+  - CRMScript.NetServer.NSAssociateAgent.GetAssociateList(Integer[])
+  - CRMScript.NetServer.NSAssociateAgent.GetAssociatesByGroup(Integer,Integer)
+  - CRMScript.NetServer.NSAssociateAgent.GetNote(Integer)
+  - CRMScript.NetServer.NSAssociateAgent.LogOffWindowsUsers(Integer[])
+  - CRMScript.NetServer.NSAssociateAgent.SaveNote(Integer,String[])
+  name: NSAssociateAgent
+  nameWithType: NSAssociateAgent
+  fullName: CRMScript.NetServer.NSAssociateAgent
+  type: Class
+  summary: "\nAssociate utilities, notes, not user administration.\n"
+  example: 
+  - "\n<pre><code>NSAssociateAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAssociateAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSAssociateAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSAssociateAgent
+  langs:
+  - crmscript
+  name: NSAssociateAgent()
+  nameWithType: NSAssociateAgent.#ctor
+  fullName: CRMScript.NetServer.NSAssociateAgent.#ctor
+  type: Constructor
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociateAgent
+  example: 
+  - "\n<pre><code>NSAssociateAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAssociateAgent.GetAssociate(Integer)
+  commentId: M:CRMScript.NetServer.NSAssociateAgent.GetAssociate(Integer)
+  id: 'GetAssociate(Integer)'
+  so.intellisense: NSAssociateAgent.GetAssociate
+  langs:
+  - crmscript
+  name: 'GetAssociate(Integer)'
+  nameWithType: NSAssociateAgent.GetAssociate(Integer)
+  fullName: CRMScript.NetServer.NSAssociateAgent.GetAssociate(Integer)
+  type: Method
+  summary: "\nGets an NSAssociate object.\n"
+  remarks: 
+  syntax: 
+    content: NSAssociate GetAssociate(Integer associateId)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description:
+  example: 
+  - "\n<pre><code>NSAssociateAgent agent;\nNSAssociate thing = agent.GetAssociate(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAssociateAgent.GetAssociateByPersonId(Integer)
+  commentId: M:CRMScript.NetServer.NSAssociateAgent.GetAssociateByPersonId(Integer)
+  id: 'GetAssociateByPersonId(Integer)'
+  so.intellisense: NSAssociateAgent.GetAssociateByPersonId
+  langs:
+  - crmscript
+  name: 'GetAssociateByPersonId(Integer)'
+  nameWithType: NSAssociateAgent.GetAssociateByPersonId(Integer)
+  fullName: CRMScript.NetServer.NSAssociateAgent.GetAssociateByPersonId(Integer)
+  type: Method
+  summary: "\nReturns the associate that belongs to this person if the person is an associate.\n"
+  remarks: 
+  syntax: 
+    content: NSAssociate GetAssociateByPersonId(Integer personId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "The associate that belongs to this person if the person is an associate."
+  example: 
+  - "\n<pre><code>NSAssociateAgent agent;\nInteger personId;\nNSAssociate res = agent.GetAssociateByPersonId(personId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAssociateAgent.GetAssociateList(Integer[])
+  commentId: M:CRMScript.NetServer.NSAssociateAgent.GetAssociateList(Integer[])
+  id: 'GetAssociateList(Integer[])'
+  so.intellisense: NSAssociateAgent.GetAssociateList
+  langs:
+  - crmscript
+  name: 'GetAssociateList(Integer[])'
+  nameWithType: NSAssociateAgent.GetAssociateList(Integer[])
+  fullName: CRMScript.NetServer.NSAssociateAgent.GetAssociateList(Integer[])
+  type: Method
+  summary: "\nRetrieves a list of associates.\n"
+  remarks: 
+  syntax: 
+    content: NSAssociate[] GetAssociateList(Integer[] associateIds)
+    parameters:
+    - id: associateIds
+      type: CRMScript.Global.Integer[]
+      description:
+    return:
+      type: CRMScript.NetServer.NSAssociate[]
+      description:
+  example: 
+  - "\n<pre><code>Integer[] ids;\nNSAssociateAgent agent;\nagent.GetAssociateList(ids);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAssociateAgent.GetAssociatesByGroup(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAssociateAgent.GetAssociatesByGroup(Integer,Integer)
+  id: 'GetAssociatesByGroup(Integer,Integer)'
+  so.intellisense: NSAssociateAgent.GetAssociatesByGroup
+  langs:
+  - crmscript
+  name: 'GetAssociatesByGroup(Integer,Integer)'
+  nameWithType: NSAssociateAgent.GetAssociatesByGroup(Integer,Integer)
+  fullName: CRMScript.NetServer.NSAssociateAgent.GetAssociatesByGroup(Integer,Integer)
+  type: Method
+  summary: "\nReturns a array of associate based on DiaryGroupType and groupId.\n"
+  remarks: 
+  syntax: 
+    content: NSAssociate[] GetAssociatesByGroup(Integer groupId, Integer type)
+    parameters:
+    - id: groupId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "The different types are Userdefined, Usergroup, and ResourceHeadings."
+    return:
+      type: CRMScript.NetServer.NSAssociate[]
+      description:
+  example: 
+  - "\n<pre><code>NSAssociateAgent agent;\nInteger groupId;\nInteger type;\nNSAssociate[] res = agent.GetAssociatesByGroup(groupId, type);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAssociateAgent.GetNote(Integer)
+  commentId: M:CRMScript.NetServer.NSAssociateAgent.GetNote(Integer)
+  id: 'GetNote(Integer)'
+  so.intellisense: NSAssociateAgent.GetNote
+  langs:
+  - crmscript
+  name: 'GetNote(Integer)'
+  nameWithType: NSAssociateAgent.GetNote(Integer)
+  fullName: CRMScript.NetServer.NSAssociateAgent.GetNote(Integer)
+  type: Method
+  summary: "\nReturns an array of strings(notepad pages).\n"
+  remarks: 
+  syntax: 
+    content: String[] GetNote(Integer associateId)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.String[]
+      description:
+  example: 
+  - "\n<pre><code>NSAssociateAgent agent;\nInteger associateId;\nString[] res = agent.GetNote(associateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAssociateAgent.LogOffWindowsUsers(Integer[])
+  commentId: M:CRMScript.NetServer.NSAssociateAgent.LogOffWindowsUsers(Integer[])
+  id: 'LogOffWindowsUsers(Integer[])'
+  so.intellisense: NSAssociateAgent.LogOffWindowsUsers
+  langs:
+  - crmscript
+  name: 'LogOffWindowsUsers(Integer[])'
+  nameWithType: NSAssociateAgent.LogOffWindowsUsers(Integer[])
+  fullName: CRMScript.NetServer.NSAssociateAgent.LogOffWindowsUsers(Integer[])
+  type: Method
+  summary: "\nLogs off associates that are logged on to the Win client\n"
+  remarks: 
+  syntax: 
+    content: Void LogOffWindowsUsers(Integer[] associateIds)
+    parameters:
+    - id: associateIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAssociateAgent agent;\nInteger[] associateIds;\nagent.LogOffWindowsUsers(associateIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAssociateAgent.SaveNote(Integer,String[])
+  commentId: M:CRMScript.NetServer.NSAssociateAgent.SaveNote(Integer,String[])
+  id: 'SaveNote(Integer,String[])'
+  so.intellisense: NSAssociateAgent.SaveNote
+  langs:
+  - crmscript
+  name: 'SaveNote(Integer,String[])'
+  nameWithType: NSAssociateAgent.SaveNote(Integer,String[])
+  fullName: CRMScript.NetServer.NSAssociateAgent.SaveNote(Integer,String[])
+  type: Method
+  summary: "\nSaves an array of strings(notepad pages).\n"
+  remarks: 
+  syntax: 
+    content: Void SaveNote(Integer associateId, String[] note)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: note
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSAssociateAgent
+  commentId: T:CRMScript.NetServer.NSAssociateAgent
+  isExternal: true
+  name: NSAssociateAgent
+  nameWithType: NSAssociateAgent
+  fullName: CRMScript.NetServer.NSAssociateAgent
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSAssociate
+  commentId: T:CRMScript.NetServer.NSAssociate
+  isExternal: true
+  name: NSAssociate
+  nameWithType: NSAssociate
+  fullName: CRMScript.NetServer.NSAssociate
+- uid: CRMScript.NetServer.NSAssociate[]
+  isExternal: true
+  name: NSAssociate[]
+  nameWithType: NSAssociate[]
+  fullName: CRMScript.NetServer.NSAssociate[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSAssociate
+    isExternal: true
+    name: NSAssociate
+    nameWithType: NSAssociate
+    fullName: CRMScript.NetServer.NSAssociate
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSAssociate
+  commentId: T:CRMScript.NetServer.NSAssociate
+  isExternal: true
+  name: NSAssociate
+  nameWithType: NSAssociate
+  fullName: CRMScript.NetServer.NSAssociate
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    isExternal: true
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    isExternal: true
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

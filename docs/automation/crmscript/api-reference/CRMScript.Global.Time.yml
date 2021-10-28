@@ -1,0 +1,276 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Global.Time
+  commentId: T:CRMScript.Global.Time
+  id: Time
+  langs:
+  - crmscript
+  children:
+    - CRMScript.Global.Time.#ctor
+    - CRMScript.Global.Time.#ctor(Time)
+    - CRMScript.Global.Time.#ctor(String)
+    - CRMScript.Global.Time.toString()
+    - CRMScript.Global.Time.setHour(Integer)
+    - CRMScript.Global.Time.setMin(Integer)
+    - CRMScript.Global.Time.setSec(Integer)
+    - CRMScript.Global.Time.getHour()
+    - CRMScript.Global.Time.getMin()
+    - CRMScript.Global.Time.getSec()
+    - CRMScript.Global.Time.isNull()
+  name: Time
+  nameWithType: Time
+  fullName: CRMScript.Global.Time
+  type: Class
+  summary: "\nA class for representing time as objects. Time is a complex data type representing the time of the day in hours, minutes, and seconds. The default value is now. ISO 8601 uses the 24-hour clock system. Format: hh:mm:ss\n"
+  example:
+  - "\n<pre><code>Time t;\nprint(t.toString());</code></pre>\n"
+- uid: CRMScript.Global.Time.#ctor
+  commentId: M:CRMScript.Global.Time.#ctor
+  id: '#ctor'
+  so.intellisense: Void.Time
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Time
+  name: Time()
+  nameWithType: Time.Time()
+  fullName: CRMScript.Global.Time.Time()
+  type: Constructor
+  summary: "\nDefault constructor.\n"
+  example:
+  syntax:
+    content: Time Time()
+    parameters: []
+    return:
+      type: CRMScript.Global.Time
+- uid: CRMScript.Global.Time.#ctor(Time)
+  commentId: M:CRMScript.Global.Time.#ctor(Time)
+  id: '#ctor(Time)'
+  so.intellisense: Void.Time
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Time
+  name: Time(Time)
+  nameWithType: Time.Time(Time)
+  fullName: CRMScript.Global.Time.Time(Time)
+  type: Constructor
+  summary: "\nPass a value to copy into a new object.\n"
+  example:
+  - "\n<pre><code>Time d;\nTime t;\nTime prev = Time(t);\nprintLine(prev.toString());</code></pre>\n"
+  syntax:
+    content: Time Time(Time value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.Time
+      description: "Time object."
+    return:
+      type: CRMScript.Global.Time
+- uid: CRMScript.Global.Time.#ctor(String)
+  commentId: M:CRMScript.Global.Time.#ctor(String)
+  id: '#ctor(String)'
+  so.intellisense: Void.Time
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Time
+  name: Time(String)
+  nameWithType: Time.Time(String)
+  fullName: CRMScript.Global.Time.Time(String)
+  type: Constructor
+  summary: "\nPass a String containing a timestamp on format HH:MM:SS. The constructor will parse the text and create a Time object.\n"
+  example:
+  - "\n<pre><code>String noon = &quot;12:00:00&quot;;\nTime lunch = Time(noon);\nTime dailyMeeting = Time(&quot;08:00:00&quot;);</code></pre>\n"
+  syntax:
+    content: Time Time(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: "A timestamp (HH:MM:SS)."
+    return:
+      type: CRMScript.Global.Time
+- uid: CRMScript.Global.Time.toString()
+  commentId: M:CRMScript.Global.Time.toString()
+  id: toString()
+  so.intellisense: Time.toString
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Time
+  name: toString()
+  nameWithType: Time.toString()
+  fullName: CRMScript.Global.Time.toString()
+  type: Method
+  summary: "\nConverts a Time value to its string representation.<p></p>\nOne of the most frequently used methods, typically when you are going to output something.\n"
+  example:
+  - "\n<pre><code>Time t;\nString s = t.toString();</code></pre>\n"
+  syntax:
+    content: String toString()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+- uid: CRMScript.Global.Time.setHour(Integer)
+  commentId: M:CRMScript.Global.Time.setHour(Integer)
+  id: setHour(Integer)
+  so.intellisense: Time.setHour
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Time
+  name: setHour(Integer)
+  nameWithType: Time.setHour(Integer)
+  fullName: CRMScript.Global.Time.setHour(Integer)
+  type: Method
+  summary: "\nOverwrites the current time and sets hours to the given number [0-23].\n"
+  example:
+  - "\n<pre><code>Time t;\nt.setHour(14);</code></pre>\n"
+  - "\n10:15:30:\n<pre><code>Time t;\nt.setHour(10);\nt.setMin(15);\nt.setSec(30);</code></pre>\n"
+  syntax:
+    content: Void setHour(Integer hour)
+    parameters:
+    - id: hour
+      type: CRMScript.Global.Integer
+      description: "Number of hours, 0-23."
+    return:
+- uid: CRMScript.Global.Time.setMin(Integer)
+  commentId: M:CRMScript.Global.Time.setMin(Integer)
+  id: setMin(Integer)
+  so.intellisense: Time.setMin
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Time
+  name: setMin(Integer)
+  nameWithType: Time.setMin(Integer)
+  fullName: CRMScript.Global.Time.setMin(Integer)
+  type: Method
+  summary: "\nOverwrites the current time and sets minutes to the given number [0-59].\n"
+  example:
+  - "\n<pre><code>Time t;\nt.setMin(37);</code></pre>\n"
+  - "\n10:15:30:\n<pre><code>Time t;\nt.setHour(10);\nt.setMin(15);\nt.setSec(30);</code></pre>\n"
+  syntax:
+    content: Void setMin(Integer min)
+    parameters:
+    - id: min
+      type: CRMScript.Global.Integer
+      description: "Number of minutes, 0-59."
+    return:
+- uid: CRMScript.Global.Time.setSec(Integer)
+  commentId: M:CRMScript.Global.Time.setSec(Integer)
+  id: setSec(Integer)
+  so.intellisense: Time.setSec
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Time
+  name: setSec(Integer)
+  nameWithType: Time.setSec(Integer)
+  fullName: CRMScript.Global.Time.setSec(Integer)
+  type: Method
+  summary: "\nOverwrites the current time and sets seconds to the given number [0-59].\n"
+  example:
+  - "\n<pre><code>Time t;\nt.setSec(0);</code></pre>\n"
+  - "\n10:15:30:\n<pre><code>Time t;\nt.setHour(10);\nt.setMin(15);\nt.setSec(30);</code></pre>\n"
+  syntax:
+    content: Void setSec(Integer sec)
+    parameters:
+    - id: sec
+      type: CRMScript.Global.Integer
+      description: "Number of seconds, 0-59."
+    return:
+- uid: CRMScript.Global.Time.getHour()
+  commentId: M:CRMScript.Global.Time.getHour()
+  id: getHour()
+  so.intellisense: Time.getHour
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Time
+  name: getHour()
+  nameWithType: Time.getHour()
+  fullName: CRMScript.Global.Time.getHour()
+  type: Method
+  summary: "\nReturns the hour portion of the time as an Integer.\n"
+  example:
+  - "\n<pre><code>Time t;\nprint(t.getHour().toString());</code></pre>\n"
+  syntax:
+    content: Integer getHour()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+- uid: CRMScript.Global.Time.getMin()
+  commentId: M:CRMScript.Global.Time.getMin()
+  id: getMin()
+  so.intellisense: Time.getMin
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Time
+  name: getMin()
+  nameWithType: Time.getMin()
+  fullName: CRMScript.Global.Time.getMin()
+  type: Method
+  summary: "\nReturns the minutes portion of the time as an Integer.\n"
+  example:
+  - "\n<pre><code>Time t;\nprint(t.getMin().toString());</code></pre>\n"
+  syntax:
+    content: Integer getMin()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+- uid: CRMScript.Global.Time.getSec()
+  commentId: M:CRMScript.Global.Time.getSec()
+  id: getSec()
+  so.intellisense: Time.getSec
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Time
+  name: getSec()
+  nameWithType: Time.getSec()
+  fullName: CRMScript.Global.Time.getSec()
+  type: Method
+  summary: "\nReturns the seconds portion of the time as an Integer.\n"
+  example:
+  - "\n<pre><code>Time t;\nprint(t.getSec().toString());</code></pre>\n"
+  syntax:
+    content: Integer getSec()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+- uid: CRMScript.Global.Time.isNull()
+  commentId: M:CRMScript.Global.Time.isNull()
+  id: isNull()
+  so.intellisense: Time.isNull
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Time
+  name: isNull()
+  nameWithType: Time.isNull()
+  fullName: CRMScript.Global.Time.isNull()
+  type: Method
+  summary: "\nReturns true if it has no value and false if it does.\n"
+  remarks: "\nA NULL/NUL/NIL Time is different from zero, in that it is conceptually without a value.\n"
+  example:
+  - "\n<pre><code>Time t;\nprint(t.isNull().toString());</code></pre>\n"
+  syntax:
+    content: Bool isNull()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+references:
+- uid: CRMScript.Global.Time
+  commentId: T:CRMScript.Global.Time
+  isExternal: true
+  name: Time
+  nameWithType: Time
+  fullName: CRMScript.Global.Time
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool

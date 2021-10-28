@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSHistoryRequest
+  commentId: T:CRMScript.NetServer.NSHistoryRequest
+  id: NSHistoryRequest
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSHistoryRequest.#ctor
+  - CRMScript.NetServer.NSHistoryRequest.GetEntityName()
+  - CRMScript.NetServer.NSHistoryRequest.GetEntityOrParentId()
+  - CRMScript.NetServer.NSHistoryRequest.GetRequestForNewRecord()
+  - CRMScript.NetServer.NSHistoryRequest.SetEntityName(String)
+  - CRMScript.NetServer.NSHistoryRequest.SetEntityOrParentId(Integer)
+  - CRMScript.NetServer.NSHistoryRequest.SetRequestForNewRecord(Bool)
+  name: NSHistoryRequest
+  nameWithType: NSHistoryRequest
+  fullName: CRMScript.NetServer.NSHistoryRequest
+  type: Class
+  summary: "\nSpecification for a request for history information, by ID. It is possible to ask for rights for a new record (insert), but then you need to supply the parent ID for entities that have parents (projectmember, selectionmember, person).\n"
+  example: 
+- uid: CRMScript.NetServer.NSHistoryRequest.#ctor
+  commentId: M:CRMScript.NetServer.NSHistoryRequest.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSHistoryRequest
+  langs:
+  - crmscript
+  name: NSHistoryRequest()
+  nameWithType: NSHistoryRequest.#ctor
+  fullName: CRMScript.NetServer.NSHistoryRequest.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSHistoryRequest class.\n"
+  remarks: 
+  syntax: 
+    content: NSHistoryRequest
+  example: 
+- uid: CRMScript.NetServer.NSHistoryRequest.GetEntityName()
+  commentId: M:CRMScript.NetServer.NSHistoryRequest.GetEntityName()
+  id: 'GetEntityName()'
+  so.intellisense: NSHistoryRequest.GetEntityName
+  langs:
+  - crmscript
+  name: 'GetEntityName()'
+  nameWithType: NSHistoryRequest.GetEntityName()
+  fullName: CRMScript.NetServer.NSHistoryRequest.GetEntityName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetEntityName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of entity to get history for."
+  example: 
+  - "\n<pre><code>NSHistoryRequest thing;\nString entityName = thing.GetEntityName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSHistoryRequest.GetEntityOrParentId()
+  commentId: M:CRMScript.NetServer.NSHistoryRequest.GetEntityOrParentId()
+  id: 'GetEntityOrParentId()'
+  so.intellisense: NSHistoryRequest.GetEntityOrParentId
+  langs:
+  - crmscript
+  name: 'GetEntityOrParentId()'
+  nameWithType: NSHistoryRequest.GetEntityOrParentId()
+  fullName: CRMScript.NetServer.NSHistoryRequest.GetEntityOrParentId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetEntityOrParentId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of entity to get history for, or parent entity id if requesting insert rights for an entity that has a parent."
+  example: 
+  - "\n<pre><code>NSHistoryRequest thing;\nInteger entityOrParentId = thing.GetEntityOrParentId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSHistoryRequest.GetRequestForNewRecord()
+  commentId: M:CRMScript.NetServer.NSHistoryRequest.GetRequestForNewRecord()
+  id: 'GetRequestForNewRecord()'
+  so.intellisense: NSHistoryRequest.GetRequestForNewRecord
+  langs:
+  - crmscript
+  name: 'GetRequestForNewRecord()'
+  nameWithType: NSHistoryRequest.GetRequestForNewRecord()
+  fullName: CRMScript.NetServer.NSHistoryRequest.GetRequestForNewRecord()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetRequestForNewRecord()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Are we requesting insert rights? If true, then EntityorParentId is taken to mean parent Id."
+  example: 
+  - "\n<pre><code>NSHistoryRequest thing;\nBool requestForNewRecord = thing.GetRequestForNewRecord();</code></pre>\n"
+- uid: CRMScript.NetServer.NSHistoryRequest.SetEntityName(String)
+  commentId: M:CRMScript.NetServer.NSHistoryRequest.SetEntityName(String)
+  id: 'SetEntityName(String)'
+  so.intellisense: NSHistoryRequest.SetEntityName
+  langs:
+  - crmscript
+  name: 'SetEntityName(String)'
+  nameWithType: NSHistoryRequest.SetEntityName(String)
+  fullName: CRMScript.NetServer.NSHistoryRequest.SetEntityName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEntityName(String entityName)
+    parameters:
+    - id: entityName
+      type: CRMScript.Global.String
+      description: "Name of entity to get history for."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSHistoryRequest thing;\nString entityName;\nthing.SetEntityName(entityName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSHistoryRequest.SetEntityOrParentId(Integer)
+  commentId: M:CRMScript.NetServer.NSHistoryRequest.SetEntityOrParentId(Integer)
+  id: 'SetEntityOrParentId(Integer)'
+  so.intellisense: NSHistoryRequest.SetEntityOrParentId
+  langs:
+  - crmscript
+  name: 'SetEntityOrParentId(Integer)'
+  nameWithType: NSHistoryRequest.SetEntityOrParentId(Integer)
+  fullName: CRMScript.NetServer.NSHistoryRequest.SetEntityOrParentId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEntityOrParentId(Integer entityOrParentId)
+    parameters:
+    - id: entityOrParentId
+      type: CRMScript.Global.Integer
+      description: "ID of entity to get history for, or parent entity id if requesting insert rights for an entity that has a parent."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSHistoryRequest thing;\nInteger entityOrParentId;\nthing.SetEntityOrParentId(entityOrParentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSHistoryRequest.SetRequestForNewRecord(Bool)
+  commentId: M:CRMScript.NetServer.NSHistoryRequest.SetRequestForNewRecord(Bool)
+  id: 'SetRequestForNewRecord(Bool)'
+  so.intellisense: NSHistoryRequest.SetRequestForNewRecord
+  langs:
+  - crmscript
+  name: 'SetRequestForNewRecord(Bool)'
+  nameWithType: NSHistoryRequest.SetRequestForNewRecord(Bool)
+  fullName: CRMScript.NetServer.NSHistoryRequest.SetRequestForNewRecord(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRequestForNewRecord(Bool requestForNewRecord)
+    parameters:
+    - id: requestForNewRecord
+      type: CRMScript.Global.Bool
+      description: "Are we requesting insert rights? If true, then EntityorParentId is taken to mean parent Id."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSHistoryRequest thing;\nBool requestForNewRecord;\nthing.SetRequestForNewRecord(requestForNewRecord);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSHistoryRequest
+  commentId: T:CRMScript.NetServer.NSHistoryRequest
+  isExternal: true
+  name: NSHistoryRequest
+  nameWithType: NSHistoryRequest
+  fullName: CRMScript.NetServer.NSHistoryRequest
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

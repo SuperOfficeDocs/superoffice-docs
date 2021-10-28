@@ -1,0 +1,483 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.MainMenu
+  commentId: T:CRMScript.Native.MainMenu
+  id: MainMenu
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.MainMenu.addGroup(String,String)
+  - CRMScript.Native.MainMenu.addGroup(String,String,Integer)
+  - CRMScript.Native.MainMenu.addGroup(String,String,Integer,String)
+  - CRMScript.Native.MainMenu.addItem(String,String)
+  - CRMScript.Native.MainMenu.addItem(String,String,Integer,Integer)
+  - CRMScript.Native.MainMenu.addItem(String,String,Integer,Integer,String,String,String)
+  - CRMScript.Native.MainMenu.addItem(String,String,Integer,Integer,String,String,String,String)
+  - CRMScript.Native.MainMenu.clear()
+  - CRMScript.Native.MainMenu.deleteGroup(Integer)
+  - CRMScript.Native.MainMenu.deleteItem(Integer,Integer)
+  - CRMScript.Native.MainMenu.getGroupId(Integer)
+  - CRMScript.Native.MainMenu.getGroupIndex()
+  - CRMScript.Native.MainMenu.getItemId(Integer,Integer)
+  - CRMScript.Native.MainMenu.getItemIndex(Integer,String)
+  - CRMScript.Native.MainMenu.getNumGroups()
+  - CRMScript.Native.MainMenu.getNumItems(Integer)
+  name: MainMenu
+  nameWithType: MainMenu
+  fullName: CRMScript.Native.MainMenu
+  type: Class
+  summary: "\nUsed to control the main (left-side) menu of SuperOffice CRM. Customizing the main menu means modifying the corresponding trigger.\n"
+  example: 
+- uid: CRMScript.Native.MainMenu.addGroup(String,String)
+  commentId: M:CRMScript.Native.MainMenu.addGroup(String,String)
+  id: 'addGroup(String,String)'
+  so.intellisense: MainMenu.addGroup
+  langs:
+  - crmscript
+  name: 'addGroup(String,String)'
+  nameWithType: MainMenu.addGroup(String,String)
+  fullName: CRMScript.Native.MainMenu.addGroup(String,String)
+  type: Method
+  summary: "\nAdds a group to the main menu (navigator) with the given label and image. By default, it appends the item to the bottom of the main menu. Use one of the other addGroup variants to specify the exact position or on-click JavaScript code.\n"
+  remarks: "\nThe image is specified by the URL to the actual file.\n"
+  syntax: 
+    content: Void addGroup(String label, String image)
+    parameters:
+    - id: label
+      type: CRMScript.Global.String
+      description: "The label of the group"
+    - id: image
+      type: CRMScript.Global.String
+      description: "URL to the actual file."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>MainMenu menu = getMainMenu();\nmenu.addGroup(&quot;My label&quot;, &quot;http://..../graphics/picture.png&quot;);</code></pre>\n"
+- uid: CRMScript.Native.MainMenu.addGroup(String,String,Integer)
+  commentId: M:CRMScript.Native.MainMenu.addGroup(String,String,Integer)
+  id: 'addGroup(String,String,Integer)'
+  so.intellisense: MainMenu.addGroup
+  langs:
+  - crmscript
+  name: 'addGroup(String,String,Integer)'
+  nameWithType: MainMenu.addGroup(String,String,Integer)
+  fullName: CRMScript.Native.MainMenu.addGroup(String,String,Integer)
+  type: Method
+  summary: "\nAdds a group to the main menu (navigator) with the given label and image in a specific position. This will shift the index of all subsequent groups. Thus, you should not make assumptions about which slot a group is in.\n"
+  remarks: "\nThe image is specified by the URL to the actual file.\n"
+  syntax: 
+    content: Void addGroup(String label, String image, Integer position)
+    parameters:
+    - id: label
+      type: CRMScript.Global.String
+      description: "The label of the group"
+    - id: image
+      type: CRMScript.Global.String
+      description: "URL to the actual file"
+    - id: position
+      type: CRMScript.Global.Integer
+      description: "The position inside the menu of this group."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>MainMenu menu = getMainMenu();\nmenu.addGroup(&quot;My label2&quot;, &quot;http://..../graphics/picture.png&quot;, 3);</code></pre>Add the following javascript code: <code>&quot;window.location='http://www.superoffice.com'&quot;</code>\n"
+- uid: CRMScript.Native.MainMenu.addGroup(String,String,Integer,String)
+  commentId: M:CRMScript.Native.MainMenu.addGroup(String,String,Integer,String)
+  id: 'addGroup(String,String,Integer,String)'
+  so.intellisense: MainMenu.addGroup
+  langs:
+  - crmscript
+  name: 'addGroup(String,String,Integer,String)'
+  nameWithType: MainMenu.addGroup(String,String,Integer,String)
+  fullName: CRMScript.Native.MainMenu.addGroup(String,String,Integer,String)
+  type: Method
+  summary: "\nAdds a group to the main menu (navigator) with the given label and image in a specific position. This will shift the index of all subsequent groups. Thus, you should not make assumptions about which slot a group is in.<p></p>\nIn addition, you can specify on-click JavaScript code. Use this to create clickable menu groups.\n"
+  remarks: "\nThe image is specified by the URL to the actual file.\n"
+  syntax: 
+    content: Void addGroup(String label, String image, Integer position, String onClick)
+    parameters:
+    - id: label
+      type: CRMScript.Global.String
+      description: "The label of the group"
+    - id: image
+      type: CRMScript.Global.String
+      description: "URL to the actual file"
+    - id: position
+      type: CRMScript.Global.Integer
+      description: "The position inside the menu of this group"
+    - id: onClick
+      type: CRMScript.Global.String
+      description: "JavaScript that is executed when clicking the group."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>MainMenu menu = getMainMenu();\nmenu.addGroup(&quot;My label&quot;, &quot;http://..../graphics/picture.png&quot;);\nmenu.addGroup(&quot;My label2&quot;, &quot;http://..../graphics/picture.png&quot;, 3, &quot;window.location='http://www.superoffice.com'&quot;);</code></pre>\n"
+- uid: CRMScript.Native.MainMenu.addItem(String,String)
+  commentId: M:CRMScript.Native.MainMenu.addItem(String,String)
+  id: 'addItem(String,String)'
+  so.intellisense: MainMenu.addItem
+  langs:
+  - crmscript
+  name: 'addItem(String,String)'
+  nameWithType: MainMenu.addItem(String,String)
+  fullName: CRMScript.Native.MainMenu.addItem(String,String)
+  type: Method
+  summary: "\nAdds an item to the SuperOffice main menu (navigator).\n"
+  remarks:
+  syntax: 
+    content: Void addItem(String label, String url)
+    parameters:
+    - id: label
+      type: CRMScript.Global.String
+      description: "The label of the menu item"
+    - id: url
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>MainMenu menu = getMainMenu();\nmenu.addItem(&quot;List equipment&quot;, getProgram(1) + &quot;&amp;action=listExtraTable&amp;extraTable=y_equipment&quot;);\n\nmenu.addItem(&quot;New unit&quot;, getProgram(1) + &quot;&amp;action=editExtraTableEntry&amp;extraTable=y_equipment&quot;, 1, 1);</code></pre>\n"
+- uid: CRMScript.Native.MainMenu.addItem(String,String,Integer,Integer)
+  commentId: M:CRMScript.Native.MainMenu.addItem(String,String,Integer,Integer)
+  id: 'addItem(String,String,Integer,Integer)'
+  so.intellisense: MainMenu.addItem
+  langs:
+  - crmscript
+  name: 'addItem(String,String,Integer,Integer)'
+  nameWithType: MainMenu.addItem(String,String,Integer,Integer,)
+  fullName: CRMScript.Native.MainMenu.addItem(String,String,Integer,Integer)
+  type: Method
+  summary: "\nAdds an item to the SuperOffice main menu (navigator).\n"
+  remarks:
+  syntax: 
+    content: Void addItem(String label, String url, Integer group, Integer position)
+    parameters:
+    - id: label
+      type: CRMScript.Global.String
+      description: "The label of the menu item"
+    - id: url
+      type: CRMScript.Global.String
+      description: 
+    - id: group
+      type: CRMScript.Global.Integer
+      description: "Optional. Which header this item belongs to"
+    - id: position
+      type: CRMScript.Global.Integer
+      description: "Optional. The position inside the group of this item."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>MainMenu menu = getMainMenu();\nmenu.addItem(&quot;List equipment&quot;, getProgram(1) + &quot;&amp;action=listExtraTable&amp;extraTable=y_equipment&quot;);\n\nmenu.addItem(&quot;New unit&quot;, getProgram(1) + &quot;&amp;action=editExtraTableEntry&amp;extraTable=y_equipment&quot;, 1, 1);</code></pre>\n"
+- uid: CRMScript.Native.MainMenu.addItem(String,String,Integer,Integer,String,String,String)
+  commentId: M:CRMScript.Native.MainMenu.addItem(String,String,Integer,Integer,String,String,String)
+  id: 'addItem(String,String,Integer,Integer,String,String,String)'
+  so.intellisense: MainMenu.addItem
+  langs:
+  - crmscript
+  name: 'addItem(String,String,Integer,Integer,String,String,String)'
+  nameWithType: MainMenu.addItem(String,String,Integer,Integer,String,String,String)
+  fullName: CRMScript.Native.MainMenu.addItem(String,String,Integer,Integer,String,String,String)
+  type: Method
+  summary: "\nAdds an item to the SuperOffice main menu (navigator).\n"
+  remarks:
+  syntax: 
+    content: Void addItem(String label, String url, Integer group, Integer position, String onClick, String itemId, String target)
+    parameters:
+    - id: label
+      type: CRMScript.Global.String
+      description: "The label of the menu item"
+    - id: url
+      type: CRMScript.Global.String
+      description: 
+    - id: group
+      type: CRMScript.Global.Integer
+      description: "Optional. Which header this item belongs to"
+    - id: position
+      type: CRMScript.Global.Integer
+      description: "Optional. The position inside the group of this item"
+    - id: onClick
+      type: CRMScript.Global.String
+      description: "Optional. JavaScript that is executed when clicking the item"
+    - id: itemId
+      type: CRMScript.Global.String
+      description: "Optional. A programmatic ID for the item"
+    - id: target
+      type: CRMScript.Global.String
+      description: "Optional. The target attribute of the link."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>MainMenu menu = getMainMenu();\nmenu.addItem(&quot;List equipment&quot;, getProgram(1) + &quot;&amp;action=listExtraTable&amp;extraTable=y_equipment&quot;);\n\nmenu.addItem(&quot;New unit&quot;, getProgram(1) + &quot;&amp;action=editExtraTableEntry&amp;extraTable=y_equipment&quot;, 1, 1);</code></pre>\n"
+- uid: CRMScript.Native.MainMenu.addItem(String,String,Integer,Integer,String,String,String,String)
+  commentId: M:CRMScript.Native.MainMenu.addItem(String,String,Integer,Integer,String,String,String,String)
+  id: 'addItem(String,String,Integer,Integer,String,String,String,String)'
+  so.intellisense: MainMenu.addItem
+  langs:
+  - crmscript
+  name: 'addItem(String,String,Integer,Integer,String,String,String,String)'
+  nameWithType: MainMenu.addItem(String,String,Integer,Integer,String,String,String,String)
+  fullName: CRMScript.Native.MainMenu.addItem(String,String,Integer,Integer,String,String,String,String)
+  type: Method
+  summary: "\nAdds an item to the SuperOffice main menu (navigator).\n"
+  remarks: "\nThe image is specified by the URL to the actual file.\n"
+  syntax: 
+    content: Void addItem(String label, String url, Integer group, Integer position, String onClick, String itemId, String target, String iconUrl)
+    parameters:
+    - id: label
+      type: CRMScript.Global.String
+      description: "The label of the menu item"
+    - id: url
+      type: CRMScript.Global.String
+      description: 
+    - id: group
+      type: CRMScript.Global.Integer
+      description: "Optional. Which header this item belongs to"
+    - id: position
+      type: CRMScript.Global.Integer
+      description: "Optional. The position inside the group of this item"
+    - id: onClick
+      type: CRMScript.Global.String
+      description: "Optional. JavaScript that is executed when clicking the item"
+    - id: itemId
+      type: CRMScript.Global.String
+      description: "Optional. A programmatic ID for the item"
+    - id: target
+      type: CRMScript.Global.String
+      description: "Optional. The target attribute of the link"
+    - id: iconUrl
+      type: CRMScript.Global.String
+      description: "Optional. URL of a custom icon."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>MainMenu menu = getMainMenu();\nmenu.addItem(&quot;List equipment&quot;, getProgram(1) + &quot;&amp;action=listExtraTable&amp;extraTable=y_equipment&quot;);\n\nmenu.addItem(&quot;New unit&quot;, getProgram(1) + &quot;&amp;action=editExtraTableEntry&amp;extraTable=y_equipment&quot;, 1, 1);</code></pre>\n"
+- uid: CRMScript.Native.MainMenu.clear()
+  commentId: M:CRMScript.Native.MainMenu.clear()
+  id: 'clear()'
+  so.intellisense: MainMenu.clear
+  langs:
+  - crmscript
+  name: 'clear()'
+  nameWithType: MainMenu.clear()
+  fullName: CRMScript.Native.MainMenu.clear()
+  type: Method
+  summary: "\nClears all the contents of the menu.\n"
+  remarks: 
+  syntax: 
+    content: Void clear()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.MainMenu.deleteGroup(Integer)
+  commentId: M:CRMScript.Native.MainMenu.deleteGroup(Integer)
+  id: 'deleteGroup(Integer)'
+  so.intellisense: MainMenu.deleteGroup
+  langs:
+  - crmscript
+  name: 'deleteGroup(Integer)'
+  nameWithType: MainMenu.deleteGroup(Integer)
+  fullName: CRMScript.Native.MainMenu.deleteGroup(Integer)
+  type: Method
+  summary: "\nRemoves the group at the given index (starts at 0) from the main menu.\n"
+  remarks: "\nVerify that you're removing the correct group by checking with getGroupId() what's in that slot first.\n"
+  syntax: 
+    content: Void deleteGroup(Integer index)
+    parameters:
+    - id: index
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>Integer pos = 3;\nMainMenu menu = getMainMenu();\nif (menu.getGroupId(pos) == &quot;my label&quot;) {\n  menu.deleteGroup(pos);\n}</code></pre>\n"
+- uid: CRMScript.Native.MainMenu.deleteItem(Integer,Integer)
+  commentId: M:CRMScript.Native.MainMenu.deleteItem(Integer,Integer)
+  id: 'deleteItem(Integer,Integer)'
+  so.intellisense: MainMenu.deleteItem
+  langs:
+  - crmscript
+  name: 'deleteItem(Integer,Integer)'
+  nameWithType: MainMenu.deleteItem(Integer,Integer)
+  fullName: CRMScript.Native.MainMenu.deleteItem(Integer,Integer)
+  type: Method
+  summary: "\nRemoves the item at the given index from the group.\n"
+  remarks: 
+  syntax: 
+    content: Void deleteItem(Integer group, Integer index)
+    parameters:
+    - id: group
+      type: CRMScript.Global.Integer
+      description: 
+    - id: index
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.MainMenu.getGroupId(Integer)
+  commentId: M:CRMScript.Native.MainMenu.getGroupId(Integer)
+  id: 'getGroupId(Integer)'
+  so.intellisense: MainMenu.getGroupId
+  langs:
+  - crmscript
+  name: 'getGroupId(Integer)'
+  nameWithType: MainMenu.getGroupId(Integer)
+  fullName: CRMScript.Native.MainMenu.getGroupId(Integer)
+  type: Method
+  summary: "\nReturns the label (ID) of a group in the main menu given its position.\n"
+  remarks: "The IDs are unique strings starting at zero.\n"
+  syntax: 
+    content: String getGroupId(Integer group)
+    parameters:
+    - id: group
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>MainMenu menu = getMainMenu();\nString label = menu.getGroupId(4);</code></pre>\n"
+- uid: CRMScript.Native.MainMenu.getGroupIndex()
+  commentId: M:CRMScript.Native.MainMenu.getGroupIndex()
+  id: 'getGroupIndex()'
+  so.intellisense: MainMenu.getGroupIndex
+  langs:
+  - crmscript
+  name: 'getGroupIndex()'
+  nameWithType: MainMenu.getGroupIndex()
+  fullName: CRMScript.Native.MainMenu.getGroupIndex()
+  type: Method
+  summary: "\nReturns the position of a specific group in the main menu given its label (ID)\n"
+  remarks: 
+  syntax: 
+    content: Integer getGroupIndex(String label)
+    parameters:
+    - id: label
+      type: CRMScript.Global.String
+      description: "Group label (ID)."
+    return:
+      type: CRMScript.Global.Integer
+      description: "The position of a specific group in the main menu."
+  example: 
+  - "\n<pre><code>MainMenu menu = getMainMenu();\nInteger pos = menu.getGroupIndex(&quot;my MITs&quot;);</code></pre>\n"
+- uid: CRMScript.Native.MainMenu.getItemId(Integer,Integer)
+  commentId: M:CRMScript.Native.MainMenu.getItemId(Integer,Integer)
+  id: 'getItemId(Integer,Integer)'
+  so.intellisense: MainMenu.getItemId
+  langs:
+  - crmscript
+  name: 'getItemId(Integer,Integer)'
+  nameWithType: MainMenu.getItemId(Integer,Integer)
+  fullName: CRMScript.Native.MainMenu.getItemId(Integer,Integer)
+  type: Method
+  summary: "\nReturns the label (ID) of an item in a group given its position.\n"
+  remarks: 
+  syntax: 
+    content: String getItemId(Integer group, Integer pos)
+    parameters:
+    - id: group
+      type: CRMScript.Global.Integer
+      description: 
+    - id: pos
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description: "The label (ID) of an item."
+  example: 
+  - "\n<pre><code>MainMenu menu = getMainMenu();\nString label = menu.getItemId(4,1);</code></pre>\n"
+- uid: CRMScript.Native.MainMenu.getItemIndex(Integer,String)
+  commentId: M:CRMScript.Native.MainMenu.getItemIndex(Integer,String)
+  id: 'getItemIndex(Integer,String)'
+  so.intellisense: MainMenu.getItemIndex
+  langs:
+  - crmscript
+  name: 'getItemIndex(Integer,String)'
+  nameWithType: MainMenu.getItemIndex(Integer,String)
+  fullName: CRMScript.Native.MainMenu.getItemIndex(Integer,String)
+  type: Method
+  summary: "\nReturns the position of a specific item in the group given its label (ID).\n"
+  remarks: 
+  syntax: 
+    content: Integer getItemIndex(Integer group, String label)
+    parameters:
+    - id: group
+      type: CRMScript.Global.Integer
+      description: 
+    - id: label
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Integer
+      description: "The position of a specific item."
+  example: 
+  - "\n<pre><code>MainMenu menu = getMainMenu();\nInteger pos = menu.getItemIndex(2,&quot;secret company&quot;);</code></pre>\n"
+- uid: CRMScript.Native.MainMenu.getNumGroups()
+  commentId: M:CRMScript.Native.MainMenu.getNumGroups()
+  id: 'getNumGroups()'
+  so.intellisense: MainMenu.getNumGroups
+  langs:
+  - crmscript
+  name: 'getNumGroups()'
+  nameWithType: MainMenu.getNumGroups()
+  fullName: CRMScript.Native.MainMenu.getNumGroups()
+  type: Method
+  summary: "\nReturns the current number of groups in the main menu.\n"
+  remarks: 
+  syntax: 
+    content: Integer getNumGroups()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>MainMenu menu = getMainMenu();\nInteger nGroups = menu.getNumGroups();</code></pre>\n"
+- uid: CRMScript.Native.MainMenu.getNumItems(Integer)
+  commentId: M:CRMScript.Native.MainMenu.getNumItems(Integer)
+  id: 'getNumItems(Integer)'
+  so.intellisense: MainMenu.getNumItems
+  langs:
+  - crmscript
+  name: 'getNumItems(Integer)'
+  nameWithType: MainMenu.getNumItems(Integer)
+  fullName: CRMScript.Native.MainMenu.getNumItems(Integer)
+  type: Method
+  summary: "\nReturns the current number of items in the group.\n"
+  remarks: 
+  syntax: 
+    content: Integer getNumItems(Integer group)
+    parameters:
+    - id: group
+      type: CRMScript.Global.Integer
+      description: "The group."
+    return:
+      type: CRMScript.Global.Integer
+      description: "The number of items in the group."
+  example: 
+  - "\n<pre><code>MainMenu menu = getMainMenu();\nInteger nItems = menu.getNumItems(2);</code></pre>\n"
+references:
+- uid: CRMScript.Native.MainMenu
+  commentId: T:CRMScript.Native.MainMenu
+  isExternal: true
+  name: MainMenu
+  nameWithType: MainMenu
+  fullName: CRMScript.Native.MainMenu
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

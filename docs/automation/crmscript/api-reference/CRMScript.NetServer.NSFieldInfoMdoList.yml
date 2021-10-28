@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSFieldInfoMdoList
+  commentId: T:CRMScript.NetServer.NSFieldInfoMdoList
+  id: NSFieldInfoMdoList
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSFieldInfoMdoList.#ctor
+  - CRMScript.NetServer.NSFieldInfoMdoList.GetDefaultValue()
+  - CRMScript.NetServer.NSFieldInfoMdoList.GetMdoListName()
+  - CRMScript.NetServer.NSFieldInfoMdoList.SetDefaultValue(Integer)
+  - CRMScript.NetServer.NSFieldInfoMdoList.SetMdoListName(String)
+  name: NSFieldInfoMdoList
+  nameWithType: NSFieldInfoMdoList
+  fullName: CRMScript.NetServer.NSFieldInfoMdoList
+  type: Class
+  summary: "\nMDO List custom database field.\n"
+  example: 
+- uid: CRMScript.NetServer.NSFieldInfoMdoList.#ctor
+  commentId: M:CRMScript.NetServer.NSFieldInfoMdoList.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSFieldInfoMdoList
+  langs:
+  - crmscript
+  name: NSFieldInfoMdoList()
+  nameWithType: NSFieldInfoMdoList.#ctor
+  fullName: CRMScript.NetServer.NSFieldInfoMdoList.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSFieldInfoMdoList class.\n"
+  remarks: 
+  syntax: 
+    content: NSFieldInfoMdoList
+  example: 
+- uid: CRMScript.NetServer.NSFieldInfoMdoList.GetDefaultValue()
+  commentId: M:CRMScript.NetServer.NSFieldInfoMdoList.GetDefaultValue()
+  id: 'GetDefaultValue()'
+  so.intellisense: NSFieldInfoMdoList.GetDefaultValue
+  langs:
+  - crmscript
+  name: 'GetDefaultValue()'
+  nameWithType: NSFieldInfoMdoList.GetDefaultValue()
+  fullName: CRMScript.NetServer.NSFieldInfoMdoList.GetDefaultValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDefaultValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Default list item Id."
+  example: 
+  - "\n<pre><code>NSFieldInfoMdoList thing;\nInteger defaultValue = thing.GetDefaultValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldInfoMdoList.GetMdoListName()
+  commentId: M:CRMScript.NetServer.NSFieldInfoMdoList.GetMdoListName()
+  id: 'GetMdoListName()'
+  so.intellisense: NSFieldInfoMdoList.GetMdoListName
+  langs:
+  - crmscript
+  name: 'GetMdoListName()'
+  nameWithType: NSFieldInfoMdoList.GetMdoListName()
+  fullName: CRMScript.NetServer.NSFieldInfoMdoList.GetMdoListName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetMdoListName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "MDO list name used to populate this list. (Read-only)."
+  example: 
+  - "\n<pre><code>NSFieldInfoMdoList thing;\nString mdoListName = thing.GetMdoListName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldInfoMdoList.SetDefaultValue(Integer)
+  commentId: M:CRMScript.NetServer.NSFieldInfoMdoList.SetDefaultValue(Integer)
+  id: 'SetDefaultValue(Integer)'
+  so.intellisense: NSFieldInfoMdoList.SetDefaultValue
+  langs:
+  - crmscript
+  name: 'SetDefaultValue(Integer)'
+  nameWithType: NSFieldInfoMdoList.SetDefaultValue(Integer)
+  fullName: CRMScript.NetServer.NSFieldInfoMdoList.SetDefaultValue(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDefaultValue(Integer defaultValue)
+    parameters:
+    - id: defaultValue
+      type: CRMScript.Global.Integer
+      description: "Default list item Id."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldInfoMdoList thing;\nInteger defaultValue;\nthing.SetDefaultValue(defaultValue);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldInfoMdoList.SetMdoListName(String)
+  commentId: M:CRMScript.NetServer.NSFieldInfoMdoList.SetMdoListName(String)
+  id: 'SetMdoListName(String)'
+  so.intellisense: NSFieldInfoMdoList.SetMdoListName
+  langs:
+  - crmscript
+  name: 'SetMdoListName(String)'
+  nameWithType: NSFieldInfoMdoList.SetMdoListName(String)
+  fullName: CRMScript.NetServer.NSFieldInfoMdoList.SetMdoListName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMdoListName(String mdoListName)
+    parameters:
+    - id: mdoListName
+      type: CRMScript.Global.String
+      description: "MDO list name used to populate this list. (Read-only)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldInfoMdoList thing;\nString mdoListName;\nthing.SetMdoListName(mdoListName);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSFieldInfoMdoList
+  commentId: T:CRMScript.NetServer.NSFieldInfoMdoList
+  isExternal: true
+  name: NSFieldInfoMdoList
+  nameWithType: NSFieldInfoMdoList
+  fullName: CRMScript.NetServer.NSFieldInfoMdoList
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

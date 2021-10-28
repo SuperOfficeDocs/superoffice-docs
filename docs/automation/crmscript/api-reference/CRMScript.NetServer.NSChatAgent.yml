@@ -1,0 +1,963 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSChatAgent
+  commentId: T:CRMScript.NetServer.NSChatAgent
+  id: NSChatAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSChatAgent.#ctor
+  - CRMScript.NetServer.NSChatAgent.AcceptChatSessionTransfer(Integer)
+  - CRMScript.NetServer.NSChatAgent.AddChatMessage(Integer,NSChatMessage)
+  - CRMScript.NetServer.NSChatAgent.AddChatTopicUserAgent(Integer,NSChatTopicAgent)
+  - CRMScript.NetServer.NSChatAgent.ChatSessionsForUser()
+  - CRMScript.NetServer.NSChatAgent.ChatTopicsForUser()
+  - CRMScript.NetServer.NSChatAgent.CreateChatSessionForTopic(Integer)
+  - CRMScript.NetServer.NSChatAgent.CreateDefaultChatSessionEntity()
+  - CRMScript.NetServer.NSChatAgent.CreateDefaultChatTopicAgent()
+  - CRMScript.NetServer.NSChatAgent.CreateDefaultChatTopicEntity()
+  - CRMScript.NetServer.NSChatAgent.DeleteChatSessionEntity(Integer)
+  - CRMScript.NetServer.NSChatAgent.DeleteChatTopicEntity(Integer)
+  - CRMScript.NetServer.NSChatAgent.DeleteChatTopicUserAgent(Integer,String)
+  - CRMScript.NetServer.NSChatAgent.GetChatMessages(Integer,Integer)
+  - CRMScript.NetServer.NSChatAgent.GetChatPresence()
+  - CRMScript.NetServer.NSChatAgent.GetChatSessionEntity(Integer)
+  - CRMScript.NetServer.NSChatAgent.GetChatTopicEntity(Integer)
+  - CRMScript.NetServer.NSChatAgent.GetChatTopicUserAgent(Integer,String)
+  - CRMScript.NetServer.NSChatAgent.GetChatTopicUserAgentList(Integer)
+  - CRMScript.NetServer.NSChatAgent.GetChatTranscript(Integer,Bool)
+  - CRMScript.NetServer.NSChatAgent.GetUserAgentList(Bool,Bool)
+  - CRMScript.NetServer.NSChatAgent.IsWithinOpeningHours(Integer)
+  - CRMScript.NetServer.NSChatAgent.PickUpChatSession(Integer)
+  - CRMScript.NetServer.NSChatAgent.PickUpFirstChatSession()
+  - CRMScript.NetServer.NSChatAgent.RejectChatSessionTransfer(Integer)
+  - CRMScript.NetServer.NSChatAgent.ResetChatSession(Integer)
+  - CRMScript.NetServer.NSChatAgent.SaveChatPresence(NSChatPresence[])
+  - CRMScript.NetServer.NSChatAgent.SaveChatSessionEntity(NSChatSessionEntity)
+  - CRMScript.NetServer.NSChatAgent.SaveChatTopicEntity(NSChatTopicEntity)
+  - CRMScript.NetServer.NSChatAgent.TransferChatSession(Integer,String)
+  - CRMScript.NetServer.NSChatAgent.UpdateChatTopicUserAgent(Integer,String,NSChatTopicAgent)
+  - CRMScript.NetServer.NSChatAgent.UpdateChatTopicUserAgent(Integer,NSChatTopicAgent[])
+  name: NSChatAgent
+  nameWithType: NSChatAgent
+  fullName: CRMScript.NetServer.NSChatAgent
+  type: Class
+  summary: "\nChat functions. Manage chat channels, sessions, and messages.\n"
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSChatAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSChatAgent
+  langs:
+  - crmscript
+  name: NSChatAgent()
+  nameWithType: NSChatAgent.#ctor
+  fullName: CRMScript.NetServer.NSChatAgent.#ctor
+  type: Constructor
+  summary: "\nChat functions. Manage chat channels, sessions, and messages.\n"
+  remarks: 
+  syntax: 
+    content: NSChatAgent
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.AcceptChatSessionTransfer(Integer)
+  commentId: M:CRMScript.NetServer.NSChatAgent.AcceptChatSessionTransfer(Integer)
+  id: 'AcceptChatSessionTransfer(Integer)'
+  so.intellisense: NSChatAgent.AcceptChatSessionTransfer
+  langs:
+  - crmscript
+  name: 'AcceptChatSessionTransfer(Integer)'
+  nameWithType: NSChatAgent.AcceptChatSessionTransfer(Integer)
+  fullName: CRMScript.NetServer.NSChatAgent.AcceptChatSessionTransfer(Integer)
+  type: Method
+  summary: "\nAccept the transfer: assign the session to the user. If the session is not being transferred, nothing happens.\n"
+  remarks: 
+  syntax: 
+    content: NSChatSessionEntity AcceptChatSessionTransfer(Integer chatSessionId)
+    parameters:
+    - id: chatSessionId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSChatSessionEntity
+      description:
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nInteger chatSessionId;\nNSChatSessionEntity res = agent.AcceptChatSessionTransfer(chatSessionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.AddChatMessage(Integer,NSChatMessage)
+  commentId: M:CRMScript.NetServer.NSChatAgent.AddChatMessage(Integer,NSChatMessage)
+  id: 'AddChatMessage(Integer,NSChatMessage)'
+  so.intellisense: NSChatAgent.AddChatMessage
+  langs:
+  - crmscript
+  name: 'AddChatMessage(Integer,NSChatMessage)'
+  nameWithType: NSChatAgent.AddChatMessage(Integer,NSChatMessage)
+  fullName: CRMScript.NetServer.NSChatAgent.AddChatMessage(Integer,NSChatMessage)
+  type: Method
+  summary: "\nAdds a new message to a chat session\n"
+  remarks: 
+  syntax: 
+    content: NSChatMessage AddChatMessage(Integer chatSessionId, NSChatMessage message)
+    parameters:
+    - id: chatSessionId
+      type: CRMScript.Global.Integer
+      description:
+    - id: message)
+      type: CRMScript.NetServer.NSChatMessage
+      description: "The message to add."
+    return:
+      type: CRMScript.NetServer.NSChatMessage
+      description:
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nInteger chatSessionId;\nNSChatMessage message;\nNSChatMessage res = agent.AddChatMessage(chatSessionId, message);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.AddChatTopicUserAgent(Integer,NSChatTopicAgent)
+  commentId: M:CRMScript.NetServer.NSChatAgent.AddChatTopicUserAgent(Integer,NSChatTopicAgent)
+  id: 'AddChatTopicUserAgent(Integer,NSChatTopicAgent)'
+  so.intellisense: NSChatAgent.AddChatTopicUserAgent
+  langs:
+  - crmscript
+  name: 'AddChatTopicUserAgent(Integer,NSChatTopicAgent)'
+  nameWithType: NSChatAgent.AddChatTopicUserAgent(Integer,NSChatTopicAgent)
+  fullName: CRMScript.NetServer.NSChatAgent.AddChatTopicUserAgent(Integer,NSChatTopicAgent)
+  type: Method
+  summary: "\nAdds a user to a chat topic\n"
+  remarks: 
+  syntax: 
+    content: NSChatTopicAgent AddChatTopicUserAgent(Integer chatTopicId, NSChatTopicAgent useragent)
+    parameters:
+    - id: chatTopicId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: useragent
+      type: CRMScript.NetServer.NSChatTopicAgent
+      description:
+    return:
+      type: CRMScript.NetServer.NSChatTopicAgent
+      description:
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nInteger chatTopicId;\nNSChatTopicAgent useragent;\nNSChatTopicAgent res = agent.AddChatTopicUserAgent(chatTopicId, useragent);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.ChatSessionsForUser()
+  commentId: M:CRMScript.NetServer.NSChatAgent.ChatSessionsForUser()
+  id: 'ChatSessionsForUser()'
+  so.intellisense: NSChatAgent.ChatSessionsForUser
+  langs:
+  - crmscript
+  name: 'ChatSessionsForUser()'
+  nameWithType: NSChatAgent.ChatSessionsForUser()
+  fullName: CRMScript.NetServer.NSChatAgent.ChatSessionsForUser()
+  type: Method
+  summary: "\nGets all chat sessions which this user is a member of.\n"
+  remarks: "\nMembers means that you have at least one of: Can Respond, Notifications, Listen or Manager\n"
+  syntax: 
+    content: NSChatSessionEntity[] ChatSessionsForUser()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSChatSessionEntity[]
+      description:
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nNSChatSessionEntity[] res = agent.ChatSessionsForUser();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.ChatTopicsForUser()
+  commentId: M:CRMScript.NetServer.NSChatAgent.ChatTopicsForUser()
+  id: 'ChatTopicsForUser()'
+  so.intellisense: NSChatAgent.ChatTopicsForUser
+  langs:
+  - crmscript
+  name: 'ChatTopicsForUser()'
+  nameWithType: NSChatAgent.ChatTopicsForUser()
+  fullName: CRMScript.NetServer.NSChatAgent.ChatTopicsForUser()
+  type: Method
+  summary: "\nGets all chat topics which this user is a member of.nd, Notifications, Listen or Manager.\n"
+  remarks: "\nMembers means that you have at least one of: Can Respond, Notifications, Listen or Manager\n"
+  syntax: 
+    content: NSChatTopicEntity[] ChatTopicsForUser()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSChatTopicEntity[]
+      description:
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nNSChatTopicEntity[] res = agent.ChatTopicsForUser();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.CreateChatSessionForTopic(Integer)
+  commentId: M:CRMScript.NetServer.NSChatAgent.CreateChatSessionForTopic(Integer)
+  id: 'CreateChatSessionForTopic(Integer)'
+  so.intellisense: NSChatAgent.CreateChatSessionForTopic
+  langs:
+  - crmscript
+  name: 'CreateChatSessionForTopic(Integer)'
+  nameWithType: NSChatAgent.CreateChatSessionForTopic(Integer)
+  fullName: CRMScript.NetServer.NSChatAgent.CreateChatSessionForTopic(Integer)
+  type: Method
+  summary: "\nCreates a new session on a chat topic\n"
+  remarks: 
+  syntax: 
+    content: NSChatSessionEntity CreateChatSessionForTopic(Integer chatTopicId)
+    parameters:
+    - id: chatTopicId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSChatSessionEntity
+      description:
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nInteger chatTopicId;\nNSChatSessionEntity res = agent.CreateChatSessionForTopic(chatTopicId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.CreateDefaultChatSessionEntity()
+  commentId: M:CRMScript.NetServer.NSChatAgent.CreateDefaultChatSessionEntity()
+  id: 'CreateDefaultChatSessionEntity()'
+  so.intellisense: NSChatAgent.CreateDefaultChatSessionEntity
+  langs:
+  - crmscript
+  name: 'CreateDefaultChatSessionEntity()'
+  nameWithType: NSChatAgent.CreateDefaultChatSessionEntity()
+  fullName: CRMScript.NetServer.NSChatAgent.CreateDefaultChatSessionEntity()
+  type: Method
+  summary: "\nSets default values into a new NSChatSessionEntity.\n"
+  remarks: "\nNetServer calculates default values (for example Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSChatSessionEntity CreateDefaultChatSessionEntity()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSChatSessionEntity
+      description:
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nNSChatSessionEntity thing = agent.CreateDefaultChatSessionEntity();\nthing = agent.SaveChatSessionEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.CreateDefaultChatTopicAgent()
+  commentId: M:CRMScript.NetServer.NSChatAgent.CreateDefaultChatTopicAgent()
+  id: 'CreateDefaultChatTopicAgent()'
+  so.intellisense: NSChatAgent.CreateDefaultChatTopicAgent
+  langs:
+  - crmscript
+  name: 'CreateDefaultChatTopicAgent()'
+  nameWithType: NSChatAgent.CreateDefaultChatTopicAgent()
+  fullName: CRMScript.NetServer.NSChatAgent.CreateDefaultChatTopicAgent()
+  type: Method
+  summary: "\nSets default values into a new NSChatTopicAgent.\n"
+  remarks: "\nNetServer calculates default values (for example Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSChatTopicAgent CreateDefaultChatTopicAgent()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSChatTopicAgent
+      description:
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nNSChatTopicAgent thing = agent.CreateDefaultChatTopicAgent();\nthing = agent.SaveChatTopicAgent(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.CreateDefaultChatTopicEntity()
+  commentId: M:CRMScript.NetServer.NSChatAgent.CreateDefaultChatTopicEntity()
+  id: 'CreateDefaultChatTopicEntity()'
+  so.intellisense: NSChatAgent.CreateDefaultChatTopicEntity
+  langs:
+  - crmscript
+  name: 'CreateDefaultChatTopicEntity()'
+  nameWithType: NSChatAgent.CreateDefaultChatTopicEntity()
+  fullName: CRMScript.NetServer.NSChatAgent.CreateDefaultChatTopicEntity()
+  type: Method
+  summary: "\nSets default values into a new NSChatTopicEntity.\n"
+  remarks: "\nNetServer calculates default values (for example Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSChatTopicEntity CreateDefaultChatTopicEntity()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSChatTopicEntity
+      description:
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nNSChatTopicEntity thing = agent.CreateDefaultChatTopicEntity();\nthing = agent.SaveChatTopicEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.DeleteChatSessionEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSChatAgent.DeleteChatSessionEntity(Integer)
+  id: 'DeleteChatSessionEntity(Integer)'
+  so.intellisense: NSChatAgent.DeleteChatSessionEntity
+  langs:
+  - crmscript
+  name: 'DeleteChatSessionEntity(Integer)'
+  nameWithType: NSChatAgent.DeleteChatSessionEntity(Integer)
+  fullName: CRMScript.NetServer.NSChatAgent.DeleteChatSessionEntity(Integer)
+  type: Method
+  summary: "\nDeletes the NSChatSessionEntity\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteChatSessionEntity(Integer chatSessionEntity)
+    parameters:
+    - id: chatSessionEntity
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nagent.DeleteChatSessionEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.DeleteChatTopicEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSChatAgent.DeleteChatTopicEntity(Integer)
+  id: 'DeleteChatTopicEntity(Integer)'
+  so.intellisense: NSChatAgent.DeleteChatTopicEntity
+  langs:
+  - crmscript
+  name: 'DeleteChatTopicEntity(Integer)'
+  nameWithType: NSChatAgent.DeleteChatTopicEntity(Integer)
+  fullName: CRMScript.NetServer.NSChatAgent.DeleteChatTopicEntity(Integer)
+  type: Method
+  summary: "\nDeletes the NSChatTopicEntity\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteChatTopicEntity(Integer chatTopicEntity)
+    parameters:
+    - id: chatTopicEntity
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nagent.DeleteChatTopicEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.DeleteChatTopicUserAgent(Integer,String)
+  commentId: M:CRMScript.NetServer.NSChatAgent.DeleteChatTopicUserAgent(Integer,String)
+  id: 'DeleteChatTopicUserAgent(Integer,String)'
+  so.intellisense: NSChatAgent.DeleteChatTopicUserAgent
+  langs:
+  - crmscript
+  name: 'DeleteChatTopicUserAgent(Integer,String)'
+  nameWithType: NSChatAgent.DeleteChatTopicUserAgent(Integer,String)
+  fullName: CRMScript.NetServer.NSChatAgent.DeleteChatTopicUserAgent(Integer,String)
+  type: Method
+  summary: "\nRemoves a user from a topic\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteChatTopicUserAgent(Integer chatTopicId, String username)
+    parameters:
+    - id: chatTopicId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: username
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nInteger chatTopicId;\nString username;\nagent.DeleteChatTopicUserAgent(chatTopicId, username);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.GetChatMessages(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSChatAgent.GetChatMessages(Integer,Integer)
+  id: 'GetChatMessages(Integer,Integer)'
+  so.intellisense: NSChatAgent.GetChatMessages
+  langs:
+  - crmscript
+  name: 'GetChatMessages(Integer,Integer)'
+  nameWithType: NSChatAgent.GetChatMessages(Integer,Integer)
+  fullName: CRMScript.NetServer.NSChatAgent.GetChatMessages(Integer,Integer)
+  type: Method
+  summary: "\nGets all or some of the messages in a chat session\n"
+  remarks: 
+  syntax: 
+    content: NSChatMessage[] GetChatMessages(Integer chatSessionId, Integer after)
+    parameters:
+    - id: chatSessionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: after
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSChatMessage[]
+      description:
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nInteger chatSessionId;\nInteger after;\nNSChatMessage[] res = agent.GetChatMessages(chatSessionId, after);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.GetChatPresence()
+  commentId: M:CRMScript.NetServer.NSChatAgent.GetChatPresence()
+  id: 'GetChatPresence()'
+  so.intellisense: NSChatAgent.GetChatPresence
+  langs:
+  - crmscript
+  name: 'GetChatPresence()'
+  nameWithType: NSChatAgent.GetChatPresence()
+  fullName: CRMScript.NetServer.NSChatAgent.GetChatPresence()
+  type: Method
+  summary: "\nGets the chat presence status for all chat users.\n"
+  remarks: 
+  syntax: 
+    content: NSChatPresence[] GetChatPresence()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSChatPresence[]
+      description:
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nNSChatPresence[] res = agent.GetChatPresence();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.GetChatSessionEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSChatAgent.GetChatSessionEntity(Integer)
+  id: 'GetChatSessionEntity(Integer)'
+  so.intellisense: NSChatAgent.GetChatSessionEntity
+  langs:
+  - crmscript
+  name: 'GetChatSessionEntity(Integer)'
+  nameWithType: NSChatAgent.GetChatSessionEntity(Integer)
+  fullName: CRMScript.NetServer.NSChatAgent.GetChatSessionEntity(Integer)
+  type: Method
+  summary: "\nGets an NSChatSessionEntity object.\n"
+  remarks: 
+  syntax: 
+    content: NSChatSessionEntity GetChatSessionEntity(Integer chatSessionEntityId)
+    parameters:
+    - id: chatSessionEntityId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSChatSessionEntity
+      description:
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nNSChatSessionEntity thing = agent.GetChatSessionEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.GetChatTopicEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSChatAgent.GetChatTopicEntity(Integer)
+  id: 'GetChatTopicEntity(Integer)'
+  so.intellisense: NSChatAgent.GetChatTopicEntity
+  langs:
+  - crmscript
+  name: 'GetChatTopicEntity(Integer)'
+  nameWithType: NSChatAgent.GetChatTopicEntity(Integer)
+  fullName: CRMScript.NetServer.NSChatAgent.GetChatTopicEntity(Integer)
+  type: Method
+  summary: "\nGets an NSChatTopicEntity object.\n"
+  remarks: 
+  syntax: 
+    content: NSChatTopicEntity GetChatTopicEntity(Integer chatTopicEntityId)
+    parameters:
+    - id: chatTopicEntityId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSChatTopicEntity
+      description:
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nNSChatTopicEntity thing = agent.GetChatTopicEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.GetChatTopicUserAgent(Integer,String)
+  commentId: M:CRMScript.NetServer.NSChatAgent.GetChatTopicUserAgent(Integer,String)
+  id: 'GetChatTopicUserAgent(Integer,String)'
+  so.intellisense: NSChatAgent.GetChatTopicUserAgent
+  langs:
+  - crmscript
+  name: 'GetChatTopicUserAgent(Integer,String)'
+  nameWithType: NSChatAgent.GetChatTopicUserAgent(Integer,String)
+  fullName: CRMScript.NetServer.NSChatAgent.GetChatTopicUserAgent(Integer,String)
+  type: Method
+  summary: "\nGets a user assigned to a topic\n"
+  remarks: 
+  syntax: 
+    content: NSChatTopicAgent GetChatTopicUserAgent(Integer chatTopicId, String username)
+    parameters:
+    - id: chatTopicId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: username
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSChatTopicAgent
+      description:
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nInteger chatTopicId;\nString username;\nNSChatTopicAgent res = agent.GetChatTopicUserAgent(chatTopicId, username);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.GetChatTopicUserAgentList(Integer)
+  commentId: M:CRMScript.NetServer.NSChatAgent.GetChatTopicUserAgentList(Integer)
+  id: 'GetChatTopicUserAgentList(Integer)'
+  so.intellisense: NSChatAgent.GetChatTopicUserAgentList
+  langs:
+  - crmscript
+  name: 'GetChatTopicUserAgentList(Integer)'
+  nameWithType: NSChatAgent.GetChatTopicUserAgentList(Integer)
+  fullName: CRMScript.NetServer.NSChatAgent.GetChatTopicUserAgentList(Integer)
+  type: Method
+  summary: "\nGets a list of users assigned to a chat topic.\n"
+  remarks: 
+  syntax: 
+    content: NSChatTopicAgent[] GetChatTopicUserAgentList(Integer chatTopicId)
+    parameters:
+    - id: chatTopicId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSChatTopicAgent[]
+      description:
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nInteger chatTopicId;\nNSChatTopicAgent[] res = agent.GetChatTopicUserAgentList(chatTopicId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.GetChatTranscript(Integer,Bool)
+  commentId: M:CRMScript.NetServer.NSChatAgent.GetChatTranscript(Integer,Bool)
+  id: 'GetChatTranscript(Integer,Bool)'
+  so.intellisense: NSChatAgent.GetChatTranscript
+  langs:
+  - crmscript
+  name: 'GetChatTranscript(Integer,Bool)'
+  nameWithType: NSChatAgent.GetChatTranscript(Integer,Bool)
+  fullName: CRMScript.NetServer.NSChatAgent.GetChatTranscript(Integer,Bool)
+  type: Method
+  summary: "\nGets the chat transcript, formatted as plain text or HTML.\n"
+  remarks: 
+  syntax: 
+    content: String GetChatTranscript(Integer chatSessionId, Bool html)
+    parameters:
+    - id: chatSessionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: html
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description: "chat transcript, formatted as plain text or HTMl."
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nInteger chatSessionId;\nBool html;\nString res = agent.GetChatTranscript(chatSessionId, html);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.GetUserAgentList(Bool,Bool)
+  commentId: M:CRMScript.NetServer.NSChatAgent.GetUserAgentList(Bool,Bool)
+  id: 'GetUserAgentList(Bool,Bool)'
+  so.intellisense: NSChatAgent.GetUserAgentList
+  langs:
+  - crmscript
+  name: 'GetUserAgentList(Bool,Bool)'
+  nameWithType: NSChatAgent.GetUserAgentList(Bool,Bool)
+  fullName: CRMScript.NetServer.NSChatAgent.GetUserAgentList(Bool,Bool)
+  type: Method
+  summary: "\nGets list of users that can be assigned to chat topics.\n"
+  remarks: "\n Users with Chat-CALs from the MDO list 'chatuser'\n"
+  syntax: 
+    content: NSMDOListItem[] GetUserAgentList(Bool flat, Bool onlyPresent)
+    parameters:
+    - id: flat
+      type: CRMScript.Global.Bool
+      description: 
+    - id: onlyPresent
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.NetServer.NSMDOListItem[]
+      description:
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nBool flat;\nBool onlyPresent;\nNSMDOListItem[] res = agent.GetUserAgentList(flat, onlyPresent);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.IsWithinOpeningHours(Integer)
+  commentId: M:CRMScript.NetServer.NSChatAgent.IsWithinOpeningHours(Integer)
+  id: 'IsWithinOpeningHours(Integer)'
+  so.intellisense: NSChatAgent.IsWithinOpeningHours
+  langs:
+  - crmscript
+  name: 'IsWithinOpeningHours(Integer)'
+  nameWithType: NSChatAgent.IsWithinOpeningHours(Integer)
+  fullName: CRMScript.NetServer.NSChatAgent.IsWithinOpeningHours(Integer)
+  type: Method
+  summary: "\nChecks if we are right now within the opening hours of the given topic. Will use timezones to calculate if configured.\n"
+  remarks: 
+  syntax: 
+    content: Bool IsWithinOpeningHours(Integer chatTopicId)
+    parameters:
+    - id: chatTopicId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nInteger chatTopicId;\nBool res = agent.IsWithinOpeningHours(chatTopicId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.PickUpChatSession(Integer)
+  commentId: M:CRMScript.NetServer.NSChatAgent.PickUpChatSession(Integer)
+  id: 'PickUpChatSession(Integer)'
+  so.intellisense: NSChatAgent.PickUpChatSession
+  langs:
+  - crmscript
+  name: 'PickUpChatSession(Integer)'
+  nameWithType: NSChatAgent.PickUpChatSession(Integer)
+  fullName: CRMScript.NetServer.NSChatAgent.PickUpChatSession(Integer)
+  type: Method
+  summary: "\nAnswer the session: assign the session to the user. The welcome message is sent to the customer.\n"
+  remarks: 
+  syntax: 
+    content: NSChatSessionEntity PickUpChatSession(Integer chatSessionId)
+    parameters:
+    - id: chatSessionId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSChatSessionEntity
+      description: "Returns NULL if session was not in queue."
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nInteger chatSessionId;\nNSChatSessionEntity res = agent.PickUpChatSession(chatSessionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.PickUpFirstChatSession()
+  commentId: M:CRMScript.NetServer.NSChatAgent.PickUpFirstChatSession()
+  id: 'PickUpFirstChatSession()'
+  so.intellisense: NSChatAgent.PickUpFirstChatSession
+  langs:
+  - crmscript
+  name: 'PickUpFirstChatSession()'
+  nameWithType: NSChatAgent.PickUpFirstChatSession()
+  fullName: CRMScript.NetServer.NSChatAgent.PickUpFirstChatSession()
+  type: Method
+  summary: "\nAnswer the first available session from the queue: assign the session to the user. The welcome message is sent to the customer.\n"
+  remarks: 
+  syntax: 
+    content: NSChatSessionEntity PickUpFirstChatSession()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSChatSessionEntity
+      description:
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nNSChatSessionEntity res = agent.PickUpFirstChatSession();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.RejectChatSessionTransfer(Integer)
+  commentId: M:CRMScript.NetServer.NSChatAgent.RejectChatSessionTransfer(Integer)
+  id: 'RejectChatSessionTransfer(Integer)'
+  so.intellisense: NSChatAgent.RejectChatSessionTransfer
+  langs:
+  - crmscript
+  name: 'RejectChatSessionTransfer(Integer)'
+  nameWithType: NSChatAgent.RejectChatSessionTransfer(Integer)
+  fullName: CRMScript.NetServer.NSChatAgent.RejectChatSessionTransfer(Integer)
+  type: Method
+  summary: "\nDo not want. Deny the transfer to the user. If the session is not being transferred, nothing happens.\n"
+  remarks: 
+  syntax: 
+    content: NSChatSessionEntity RejectChatSessionTransfer(Integer chatSessionId)
+    parameters:
+    - id: chatSessionId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSChatSessionEntity
+      description:
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nInteger chatSessionId;\nNSChatSessionEntity res = agent.RejectChatSessionTransfer(chatSessionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.ResetChatSession(Integer)
+  commentId: M:CRMScript.NetServer.NSChatAgent.ResetChatSession(Integer)
+  id: 'ResetChatSession(Integer)'
+  so.intellisense: NSChatAgent.ResetChatSession
+  langs:
+  - crmscript
+  name: 'ResetChatSession(Integer)'
+  nameWithType: NSChatAgent.ResetChatSession(Integer)
+  fullName: CRMScript.NetServer.NSChatAgent.ResetChatSession(Integer)
+  type: Method
+  summary: "\nResets chat session, puts it back on the queue for pickup.\n"
+  remarks: "\nUsed by bots to hand off a session to human\n"
+  syntax: 
+    content: NSChatSessionEntity ResetChatSession(Integer chatSessionId)
+    parameters:
+    - id: chatSessionId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSChatSessionEntity
+      description:
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nInteger chatSessionId;\nNSChatSessionEntity res = agent.ResetChatSession(chatSessionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.SaveChatPresence(NSChatPresence[])
+  commentId: M:CRMScript.NetServer.NSChatAgent.SaveChatPresence(NSChatPresence[])
+  id: 'SaveChatPresence(NSChatPresence[])'
+  so.intellisense: NSChatAgent.SaveChatPresence
+  langs:
+  - crmscript
+  name: 'SaveChatPresence(NSChatPresence[])'
+  nameWithType: NSChatAgent.SaveChatPresence(NSChatPresence[])
+  fullName: CRMScript.NetServer.NSChatAgent.SaveChatPresence(NSChatPresence[])
+  type: Method
+  summary: "\nSaves the chat presence for specified users\n"
+  remarks: 
+  syntax: 
+    content: Void SaveChatPresence(NSChatPresence[] chatPresence)
+    parameters:
+    - id: chatPresence
+      type: CRMScript.NetServer.NSChatPresence[]
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nNSChatPresence[] chatPresence;\nagent.SaveChatPresence(chatPresence);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.SaveChatSessionEntity(NSChatSessionEntity)
+  commentId: M:CRMScript.NetServer.NSChatAgent.SaveChatSessionEntity(NSChatSessionEntity)
+  id: 'SaveChatSessionEntity(NSChatSessionEntity)'
+  so.intellisense: NSChatAgent.SaveChatSessionEntity
+  langs:
+  - crmscript
+  name: 'SaveChatSessionEntity(NSChatSessionEntity)'
+  nameWithType: NSChatAgent.SaveChatSessionEntity(NSChatSessionEntity)
+  fullName: CRMScript.NetServer.NSChatAgent.SaveChatSessionEntity(NSChatSessionEntity)
+  type: Method
+  summary: "\nUpdates the existing NSChatSessionEntity or creates a new NSChatSessionEntity if the id parameter is 0\n"
+  remarks: 
+  syntax: 
+    content: NSChatSessionEntity SaveChatSessionEntity(NSChatSessionEntity chatSessionEntity)
+    parameters:
+    - id: chatSessionEntity
+      type: CRMScript.NetServer.NSChatSessionEntity
+      description:
+    return:
+      type: CRMScript.NetServer.NSChatSessionEntity
+  example: 
+  - "\n<pre><code>NSChat  agent;\nNSChatSessionEntity thing = agent.CreateDefaultChatSessionEntity();\nthing = agent.SaveChatSessionEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.SaveChatTopicEntity(NSChatTopicEntity)
+  commentId: M:CRMScript.NetServer.NSChatAgent.SaveChatTopicEntity(NSChatTopicEntity)
+  id: 'SaveChatTopicEntity(NSChatTopicEntity)'
+  so.intellisense: NSChatAgent.SaveChatTopicEntity
+  langs:
+  - crmscript
+  name: 'SaveChatTopicEntity(NSChatTopicEntity)'
+  nameWithType: NSChatAgent.SaveChatTopicEntity(NSChatTopicEntity)
+  fullName: CRMScript.NetServer.NSChatAgent.SaveChatTopicEntity(NSChatTopicEntity)
+  type: Method
+  summary: "\nUpdates the existing NSChatTopicEntity or creates a new NSChatTopicEntity if the id parameter is 0\n"
+  remarks: 
+  syntax: 
+    content: NSChatTopicEntity SaveChatTopicEntity(NSChatTopicEntity chatTopicEntity)
+    parameters:
+    - id: chatSessionEntity
+      type: CRMScript.NetServer.NSChatSessionEntity
+      description: "The NSChatTopicEntity to save."
+    return:
+      type: CRMScript.NetServer.NSChatTopicEntity
+  example: 
+  - "\n<pre><code>NSChat  agent;\nNSChatTopicEntity thing = agent.CreateDefaultChatTopicEntity();\nthing = agent.SaveChatTopicEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.TransferChatSession(Integer,String)
+  commentId: M:CRMScript.NetServer.NSChatAgent.TransferChatSession(Integer,String)
+  id: 'TransferChatSession(Integer,String)'
+  so.intellisense: NSChatAgent.TransferChatSession
+  langs:
+  - crmscript
+  name: 'TransferChatSession(Integer,String)'
+  nameWithType: NSChatAgent.TransferChatSession(Integer,String)
+  fullName: CRMScript.NetServer.NSChatAgent.TransferChatSession(Integer,String)
+  type: Method
+  summary: "\nRequests to send the session to another user. If the session does not belong to the user, nothing happens.\n"
+  remarks: 
+  syntax: 
+    content: NSChatSessionEntity TransferChatSession(Integer chatSessionId, String toAssociate)
+    parameters:
+    - id: chatSessionId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: toAssociate
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSChatSessionEntity
+      description:
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nInteger chatSessionId;\nString toAssociate;\nNSChatSessionEntity res = agent.TransferChatSession(chatSessionId, toAssociate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.UpdateChatTopicUserAgent(Integer,String,NSChatTopicAgent)
+  commentId: M:CRMScript.NetServer.NSChatAgent.UpdateChatTopicUserAgent(Integer,String,NSChatTopicAgent)
+  id: 'UpdateChatTopicUserAgent(Integer,String,NSChatTopicAgent)'
+  so.intellisense: NSChatAgent.UpdateChatTopicUserAgent
+  langs:
+  - crmscript
+  name: 'UpdateChatTopicUserAgent(Integer,String,NSChatTopicAgent)'
+  nameWithType: NSChatAgent.UpdateChatTopicUserAgent(Integer,String,NSChatTopicAgent)
+  fullName: CRMScript.NetServer.NSChatAgent.UpdateChatTopicUserAgent(Integer,String,NSChatTopicAgent)
+  type: Method
+  summary: "\nUpdates a user's role in a chat topic\n"
+  remarks: 
+  syntax: 
+    content: NSChatTopicAgent UpdateChatTopicUserAgent(Integer chatTopicId, String username, NSChatTopicAgent useragent)
+    parameters:
+    - id: chatTopicId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: username
+      type: CRMScript.Global.String
+      description: 
+    - id: useragent
+      type: CRMScript.NetServer.NSChatTopicAgent
+      description:
+    return:
+      type: CRMScript.NetServer.NSChatTopicAgent
+      description:
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nInteger chatTopicId;\nString username;\nNSChatTopicAgent useragent;\nNSChatTopicAgent res = agent.UpdateChatTopicUserAgent(chatTopicId, username, useragent);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatAgent.UpdateChatTopicUserAgent(Integer,NSChatTopicAgent[])
+  commentId: M:CRMScript.NetServer.NSChatAgent.UpdateChatTopicUserAgent(Integer,NSChatTopicAgent[])
+  id: 'UpdateChatTopicUserAgent(Integer,NSChatTopicAgent[])'
+  so.intellisense: NSChatAgent.UpdateChatTopicUserAgents
+  langs:
+  - crmscript
+  name: 'UpdateChatTopicUserAgent(Integer,NSChatTopicAgent[])'
+  nameWithType: NSChatAgent.UpdateChatTopicUserAgent(Integer,NSChatTopicAgent[])
+  fullName: CRMScript.NetServer.NSChatAgent.UpdateChatTopicUserAgent(Integer,NSChatTopicAgent[])
+  type: Method
+  summary: "\nUpdates users roles in a chat topic\n"
+  remarks: 
+  syntax: 
+    content: NSChatTopicAgent[] UpdateChatTopicUserAgents(Integer chatTopicId, NSChatTopicAgent[] useragents)
+    parameters:
+    - id: chatTopicId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: useragents
+      type: CRMScript.NetServer.NSChatTopicAgent[]
+      description:
+    return:
+      type: CRMScript.NetServer.NSChatTopicAgent[]
+      description:
+  example: 
+  - "\n<pre><code>NSChatAgent agent;\nInteger chatTopicId;\nNSChatTopicAgent[] useragents;\nNSChatTopicAgent[] res = agent.UpdateChatTopicUserAgents(chatTopicId, useragents);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSChatAgent
+  commentId: T:CRMScript.NetServer.NSChatAgent
+  isExternal: true
+  name: NSChatAgent
+  nameWithType: NSChatAgent
+  fullName: CRMScript.NetServer.NSChatAgent
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSChatSessionEntity
+  commentId: T:CRMScript.NetServer.NSChatSessionEntity
+  isExternal: true
+  name: NSChatSessionEntity
+  nameWithType: NSChatSessionEntity
+  fullName: CRMScript.NetServer.NSChatSessionEntity
+- uid: CRMScript.NetServer.NSChatMessage
+  commentId: T:CRMScript.NetServer.NSChatMessage
+  isExternal: true
+  name: NSChatMessage
+  nameWithType: NSChatMessage
+  fullName: CRMScript.NetServer.NSChatMessage
+- uid: CRMScript.NetServer.NSChatTopicAgent
+  commentId: T:CRMScript.NetServer.NSChatTopicAgent
+  isExternal: true
+  name: NSChatTopicAgent
+  nameWithType: NSChatTopicAgent
+  fullName: CRMScript.NetServer.NSChatTopicAgent
+- uid: CRMScript.NetServer.NSChatSessionEntity[]
+  isExternal: true
+  name: NSChatSessionEntity[]
+  nameWithType: NSChatSessionEntity[]
+  fullName: CRMScript.NetServer.NSChatSessionEntity[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSChatSessionEntity
+    isExternal: true
+    name: NSChatSessionEntity
+    nameWithType: NSChatSessionEntity
+    fullName: CRMScript.NetServer.NSChatSessionEntity
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSChatSessionEntity
+  commentId: T:CRMScript.NetServer.NSChatSessionEntity
+  isExternal: true
+  name: NSChatSessionEntity
+  nameWithType: NSChatSessionEntity
+  fullName: CRMScript.NetServer.NSChatSessionEntity
+- uid: CRMScript.NetServer.NSChatTopicEntity[]
+  isExternal: true
+  name: NSChatTopicEntity[]
+  nameWithType: NSChatTopicEntity[]
+  fullName: CRMScript.NetServer.NSChatTopicEntity[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSChatTopicEntity
+    isExternal: true
+    name: NSChatTopicEntity
+    nameWithType: NSChatTopicEntity
+    fullName: CRMScript.NetServer.NSChatTopicEntity
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSChatTopicEntity
+  commentId: T:CRMScript.NetServer.NSChatTopicEntity
+  isExternal: true
+  name: NSChatTopicEntity
+  nameWithType: NSChatTopicEntity
+  fullName: CRMScript.NetServer.NSChatTopicEntity
+- uid: CRMScript.NetServer.NSChatTopicEntity
+  commentId: T:CRMScript.NetServer.NSChatTopicEntity
+  isExternal: true
+  name: NSChatTopicEntity
+  nameWithType: NSChatTopicEntity
+  fullName: CRMScript.NetServer.NSChatTopicEntity
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSChatMessage[]
+  isExternal: true
+  name: NSChatMessage[]
+  nameWithType: NSChatMessage[]
+  fullName: CRMScript.NetServer.NSChatMessage[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSChatMessage
+    isExternal: true
+    name: NSChatMessage
+    nameWithType: NSChatMessage
+    fullName: CRMScript.NetServer.NSChatMessage
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSChatMessage
+  commentId: T:CRMScript.NetServer.NSChatMessage
+  isExternal: true
+  name: NSChatMessage
+  nameWithType: NSChatMessage
+  fullName: CRMScript.NetServer.NSChatMessage
+- uid: CRMScript.NetServer.NSChatPresence[]
+  isExternal: true
+  name: NSChatPresence[]
+  nameWithType: NSChatPresence[]
+  fullName: CRMScript.NetServer.NSChatPresence[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSChatPresence
+    isExternal: true
+    name: NSChatPresence
+    nameWithType: NSChatPresence
+    fullName: CRMScript.NetServer.NSChatPresence
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSChatPresence
+  commentId: T:CRMScript.NetServer.NSChatPresence
+  isExternal: true
+  name: NSChatPresence
+  nameWithType: NSChatPresence
+  fullName: CRMScript.NetServer.NSChatPresence
+- uid: CRMScript.NetServer.NSChatTopicAgent[]
+  isExternal: true
+  name: NSChatTopicAgent[]
+  nameWithType: NSChatTopicAgent[]
+  fullName: CRMScript.NetServer.NSChatTopicAgent[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSChatTopicAgent
+    isExternal: true
+    name: NSChatTopicAgent
+    nameWithType: NSChatTopicAgent
+    fullName: CRMScript.NetServer.NSChatTopicAgent
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSChatTopicAgent
+  commentId: T:CRMScript.NetServer.NSChatTopicAgent
+  isExternal: true
+  name: NSChatTopicAgent
+  nameWithType: NSChatTopicAgent
+  fullName: CRMScript.NetServer.NSChatTopicAgent
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.NetServer.NSMDOListItem[]
+  isExternal: true
+  name: NSMDOListItem[]
+  nameWithType: NSMDOListItem[]
+  fullName: CRMScript.NetServer.NSMDOListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSMDOListItem
+    isExternal: true
+    name: NSMDOListItem
+    nameWithType: NSMDOListItem
+    fullName: CRMScript.NetServer.NSMDOListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSMDOListItem
+  commentId: T:CRMScript.NetServer.NSMDOListItem
+  isExternal: true
+  name: NSMDOListItem
+  nameWithType: NSMDOListItem
+  fullName: CRMScript.NetServer.NSMDOListItem
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

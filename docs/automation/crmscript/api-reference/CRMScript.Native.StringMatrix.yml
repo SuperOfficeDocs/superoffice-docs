@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.StringMatrix
+  commentId: T:CRMScript.Native.StringMatrix
+  id: StringMatrix
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.StringMatrix.#ctor
+  - CRMScript.Native.StringMatrix.addCell(String)
+  - CRMScript.Native.StringMatrix.addRow()
+  - CRMScript.Native.StringMatrix.clear()
+  - CRMScript.Native.StringMatrix.deleteRow(Integer)
+  - CRMScript.Native.StringMatrix.getCell(Integer,Integer)
+  - CRMScript.Native.StringMatrix.getNumColumns(Integer)
+  - CRMScript.Native.StringMatrix.getNumRows()
+  - CRMScript.Native.StringMatrix.setCell(Integer,Integer,String)
+  name: StringMatrix
+  nameWithType: StringMatrix
+  fullName: CRMScript.Native.StringMatrix
+  type: Class
+  summary: "\nTwo-dimensional string array.\n"
+  example: 
+- uid: CRMScript.Native.StringMatrix.#ctor
+  commentId: M:CRMScript.Native.StringMatrix.#ctor
+  id: '#ctor'
+  so.intellisense: Void.StringMatrix
+  langs:
+  - crmscript
+  name: StringMatrix()
+  nameWithType: StringMatrix.#ctor
+  fullName: CRMScript.Native.StringMatrix.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the StringMatrix class.\n"
+  remarks: 
+  syntax: 
+    content: StringMatrix
+  example: 
+- uid: CRMScript.Native.StringMatrix.addCell(String)
+  commentId: M:CRMScript.Native.StringMatrix.addCell(String)
+  id: 'addCell(String)'
+  so.intellisense: StringMatrix.addCell
+  langs:
+  - crmscript
+  name: 'addCell(String)'
+  nameWithType: StringMatrix.addCell(String)
+  fullName: CRMScript.Native.StringMatrix.addCell(String)
+  type: Method
+  summary: "\nAdds a cell to the current row.\n"
+  remarks: 
+  syntax: 
+    content: Void addCell(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: "The value to store in the cell."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.StringMatrix.addRow()
+  commentId: M:CRMScript.Native.StringMatrix.addRow()
+  id: 'addRow()'
+  so.intellisense: StringMatrix.addRow
+  langs:
+  - crmscript
+  name: 'addRow()'
+  nameWithType: StringMatrix.addRow()
+  fullName: CRMScript.Native.StringMatrix.addRow()
+  type: Method
+  summary: "\nAdds a row to the matrix.\n"
+  remarks: 
+  syntax: 
+    content: Void addRow()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.StringMatrix.clear()
+  commentId: M:CRMScript.Native.StringMatrix.clear()
+  id: 'clear()'
+  so.intellisense: StringMatrix.clear
+  langs:
+  - crmscript
+  name: 'clear()'
+  nameWithType: StringMatrix.clear()
+  fullName: CRMScript.Native.StringMatrix.clear()
+  type: Method
+  summary: "\nClears the whole matrix.\n"
+  remarks: 
+  syntax: 
+    content: Void clear()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.StringMatrix.deleteRow(Integer)
+  commentId: M:CRMScript.Native.StringMatrix.deleteRow(Integer)
+  id: 'deleteRow(Integer)'
+  so.intellisense: StringMatrix.deleteRow
+  langs:
+  - crmscript
+  name: 'deleteRow(Integer)'
+  nameWithType: StringMatrix.deleteRow(Integer)
+  fullName: CRMScript.Native.StringMatrix.deleteRow(Integer)
+  type: Method
+  summary: "\nDeletes a row from the matrix.\n"
+  remarks: 
+  syntax: 
+    content: Void deleteRow(Integer row)
+    parameters:
+    - id: row
+      type: CRMScript.Global.Integer
+      description: "The zero-based index of the row to delete."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.StringMatrix.getCell(Integer,Integer)
+  commentId: M:CRMScript.Native.StringMatrix.getCell(Integer,Integer)
+  id: 'getCell(Integer,Integer)'
+  so.intellisense: StringMatrix.getCell
+  langs:
+  - crmscript
+  name: 'getCell(Integer,Integer)'
+  nameWithType: StringMatrix.getCell(Integer,Integer)
+  fullName: CRMScript.Native.StringMatrix.getCell(Integer,Integer)
+  type: Method
+  summary: "\nReturns the value for a given cell.\n"
+  remarks: 
+  syntax: 
+    content: String getCell(Integer row, Integer column)
+    parameters:
+    - id: row
+      type: CRMScript.Global.Integer
+      description: "The zero-based index of the row."
+    - id: column
+      type: CRMScript.Global.Integer
+      description: "The zero-based index of the column."
+    return:
+      type: CRMScript.Global.String
+      description: "The value of the cell at the specified position."
+  example: 
+- uid: CRMScript.Native.StringMatrix.getNumColumns(Integer)
+  commentId: M:CRMScript.Native.StringMatrix.getNumColumns(Integer)
+  id: 'getNumColumns(Integer)'
+  so.intellisense: StringMatrix.getNumColumns
+  langs:
+  - crmscript
+  name: 'getNumColumns(Integer)'
+  nameWithType: StringMatrix.getNumColumns(Integer)
+  fullName: CRMScript.Native.StringMatrix.getNumColumns(Integer)
+  type: Method
+  summary: "\nReturns number of columns in a given row\n"
+  remarks: 
+  syntax: 
+    content: Integer getNumColumns(Integer row)
+    parameters:
+    - id: row
+      type: CRMScript.Global.Integer
+      description: "The row to count the cells in."
+    return:
+      type: CRMScript.Global.Integer
+      description: "The numbers of columns (cells) in the given row."
+  example: 
+- uid: CRMScript.Native.StringMatrix.getNumRows()
+  commentId: M:CRMScript.Native.StringMatrix.getNumRows()
+  id: 'getNumRows()'
+  so.intellisense: StringMatrix.getNumRows
+  langs:
+  - crmscript
+  name: 'getNumRows()'
+  nameWithType: StringMatrix.getNumRows()
+  fullName: CRMScript.Native.StringMatrix.getNumRows()
+  type: Method
+  summary: "\nReturns the number of rows in the matrix.\n"
+  remarks: 
+  syntax: 
+    content: Integer getNumRows()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The number of rows in the matrix."
+  example: 
+- uid: CRMScript.Native.StringMatrix.setCell(Integer,Integer,String)
+  commentId: M:CRMScript.Native.StringMatrix.setCell(Integer,Integer,String)
+  id: 'setCell(Integer,Integer,String)'
+  so.intellisense: StringMatrix.setCell
+  langs:
+  - crmscript
+  name: 'setCell(Integer,Integer,String)'
+  nameWithType: StringMatrix.setCell(Integer,Integer,String)
+  fullName: CRMScript.Native.StringMatrix.setCell(Integer,Integer,String)
+  type: Method
+  summary: "\nSets the value of the specified cell.\n"
+  remarks: 
+  syntax: 
+    content: Vodi setCell(Integer row, Integer column, String value)
+    parameters:
+    - id: row
+      type: CRMScript.Global.Integer
+      description: "The row"
+    - id: column
+      type: CRMScript.Global.Integer
+      description: "The column"
+    - id: value
+      type: CRMScript.Global.String
+      description: "The value to set in the specified cell."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.Native.StringMatrix
+  commentId: T:CRMScript.Native.StringMatrix
+  isExternal: true
+  name: StringMatrix
+  nameWithType: StringMatrix
+  fullName: CRMScript.Native.StringMatrix
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

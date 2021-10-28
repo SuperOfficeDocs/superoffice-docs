@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSPriority
+  commentId: T:CRMScript.NetServer.NSPriority
+  id: NSPriority
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSPriority.#ctor
+  - CRMScript.NetServer.NSPriority.GetId()
+  - CRMScript.NetServer.NSPriority.GetTooltip()
+  - CRMScript.NetServer.NSPriority.GetValue()
+  - CRMScript.NetServer.NSPriority.SetId(Integer)
+  - CRMScript.NetServer.NSPriority.SetTooltip(String)
+  - CRMScript.NetServer.NSPriority.SetValue(String)
+  name: NSPriority
+  nameWithType: NSPriority
+  fullName: CRMScript.NetServer.NSPriority
+  type: Class
+  summary: "\nCarrier object for Priority\n"
+  example: 
+- uid: CRMScript.NetServer.NSPriority.#ctor
+  commentId: M:CRMScript.NetServer.NSPriority.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSPriority
+  langs:
+  - crmscript
+  name: NSPriority()
+  nameWithType: NSPriority.#ctor
+  fullName: CRMScript.NetServer.NSPriority.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSPriority class.\n"
+  remarks: 
+  syntax: 
+    content: NSPriority
+  example: 
+- uid: CRMScript.NetServer.NSPriority.GetId()
+  commentId: M:CRMScript.NetServer.NSPriority.GetId()
+  id: 'GetId()'
+  so.intellisense: NSPriority.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSPriority.GetId()
+  fullName: CRMScript.NetServer.NSPriority.GetId()
+  type: Method
+  summary: "\nGets the primary key (ID) for the Priority\n"
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSPriority thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPriority.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSPriority.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSPriority.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSPriority.GetTooltip()
+  fullName: CRMScript.NetServer.NSPriority.GetTooltip()
+  type: Method
+  summary: "\nGets the tooltip description for the Priority list item.\n"
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSPriority thing;\nString descr = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPriority.GetValue()
+  commentId: M:CRMScript.NetServer.NSPriority.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSPriority.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSPriority.GetValue()
+  fullName: CRMScript.NetServer.NSPriority.GetValue()
+  type: Method
+  summary: "\nGets the name of the Priority.\n"
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSPriority thing;\nString name = thing.GetValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPriority.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSPriority.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSPriority.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSPriority.SetId(Integer)
+  fullName: CRMScript.NetServer.NSPriority.SetId(Integer)
+  type: Method
+  summary: "\nSets the primary key (ID) for the Priority\n"
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPriority thing;\nthing.SetId(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPriority.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSPriority.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSPriority.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSPriority.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSPriority.SetTooltip(String)
+  type: Method
+  summary: "\nSets the tooltip description for the Priority list item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPriority thing;\nString descr = &quot;something new&quot;;\nthing.SetTooltip(descr);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPriority.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSPriority.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSPriority.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSPriority.SetValue(String)
+  fullName: CRMScript.NetServer.NSPriority.SetValue(String)
+  type: Method
+  summary: "\nSets the name of the Priority item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPriority thing;\nthing.SetValue(&quot;frotz&quot;);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSPriority
+  commentId: T:CRMScript.NetServer.NSPriority
+  isExternal: true
+  name: NSPriority
+  nameWithType: NSPriority
+  fullName: CRMScript.NetServer.NSPriority
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

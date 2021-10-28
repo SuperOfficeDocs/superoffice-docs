@@ -4,7 +4,7 @@ title: Date data type
 author:
 so.date:
 keywords:
-so.topic:
+so.topic: concept
 ---
 
 # Date data type
@@ -71,7 +71,7 @@ The parameter granularity is *days*.
 ```crmscript!
 Date d;
 d.addDay(3);
-printLine("Three days from now: "  + d.toString());
+printLine("Three days from now: " + d.toString());
 
 Date d2;
 d2.addDay(-2);

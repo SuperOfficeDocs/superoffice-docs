@@ -1,0 +1,1366 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSProjectAgent
+  commentId: T:CRMScript.NetServer.NSProjectAgent
+  id: NSProjectAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSProjectAgent.#ctor
+  - CRMScript.NetServer.NSProjectAgent.AddProjectMembers(Integer,NSProjectMember[])
+  - CRMScript.NetServer.NSProjectAgent.CreateDefaultProjectEntity()
+  - CRMScript.NetServer.NSProjectAgent.CreateDefaultProjectEventEntity()
+  - CRMScript.NetServer.NSProjectAgent.CreateDefaultProjectMember()
+  - CRMScript.NetServer.NSProjectAgent.CreateNewEntry()
+  - CRMScript.NetServer.NSProjectAgent.DeleteProjectEntity(Integer)
+  - CRMScript.NetServer.NSProjectAgent.DeleteProjectEventEntity(Integer)
+  - CRMScript.NetServer.NSProjectAgent.DeleteProjectEventEntityFromProjectId(Integer)
+  - CRMScript.NetServer.NSProjectAgent.DeleteProjectMember(Integer)
+  - CRMScript.NetServer.NSProjectAgent.DeleteProjectMemberByIds(Integer[])
+  - CRMScript.NetServer.NSProjectAgent.DeleteProjectMembers(Integer,Integer[])
+  - CRMScript.NetServer.NSProjectAgent.GetDuplicateRules()
+  - CRMScript.NetServer.NSProjectAgent.GetDuplicates(String)
+  - CRMScript.NetServer.NSProjectAgent.GetMyMemberProjects()
+  - CRMScript.NetServer.NSProjectAgent.GetMyProjectEvents()
+  - CRMScript.NetServer.NSProjectAgent.GetMyProjects(Bool)
+  - CRMScript.NetServer.NSProjectAgent.GetMyPublishedProjects()
+  - CRMScript.NetServer.NSProjectAgent.GetNextMilestone(Integer)
+  - CRMScript.NetServer.NSProjectAgent.GetNextProjectStatus(Integer)
+  - CRMScript.NetServer.NSProjectAgent.GetProject(Integer)
+  - CRMScript.NetServer.NSProjectAgent.GetProjectEntity(Integer)
+  - CRMScript.NetServer.NSProjectAgent.GetProjectEvent(Integer)
+  - CRMScript.NetServer.NSProjectAgent.GetProjectEventEntity(Integer)
+  - CRMScript.NetServer.NSProjectAgent.GetProjectEventEntityFromProjectId(Integer)
+  - CRMScript.NetServer.NSProjectAgent.GetProjectEventList(Integer[])
+  - CRMScript.NetServer.NSProjectAgent.GetProjectEventOnPerson(Integer,Integer)
+  - CRMScript.NetServer.NSProjectAgent.GetProjectEventsOnPerson(Integer)
+  - CRMScript.NetServer.NSProjectAgent.GetProjectImage(Integer)
+  - CRMScript.NetServer.NSProjectAgent.GetProjectList(Integer[])
+  - CRMScript.NetServer.NSProjectAgent.GetProjectMember(Integer)
+  - CRMScript.NetServer.NSProjectAgent.GetProjectMembers(Integer)
+  - CRMScript.NetServer.NSProjectAgent.GetProjectMembersById(Integer[])
+  - CRMScript.NetServer.NSProjectAgent.GetProjectsFromContact(Integer)
+  - CRMScript.NetServer.NSProjectAgent.GetProjectsFromPerson(Integer)
+  - CRMScript.NetServer.NSProjectAgent.GetPublishedProject(Integer)
+  - CRMScript.NetServer.NSProjectAgent.GetPublishedProjects(Integer[])
+  - CRMScript.NetServer.NSProjectAgent.GetPublishedProjectsOnPersonId(Integer)
+  - CRMScript.NetServer.NSProjectAgent.HasGuide(Integer)
+  - CRMScript.NetServer.NSProjectAgent.HasGuideActivities(Integer)
+  - CRMScript.NetServer.NSProjectAgent.IsNumberValid(Integer,String)
+  - CRMScript.NetServer.NSProjectAgent.Merge(Integer,Integer,Bool)
+  - CRMScript.NetServer.NSProjectAgent.OfferAutoNextStatusOnApppointmentCompleted(Integer)
+  - CRMScript.NetServer.NSProjectAgent.SaveProjectEntity(NSProjectEntity)
+  - CRMScript.NetServer.NSProjectAgent.SaveProjectEventEntity(NSProjectEventEntity)
+  - CRMScript.NetServer.NSProjectAgent.SaveProjectMember(NSProjectMember)
+  - CRMScript.NetServer.NSProjectAgent.SaveProjectMembersFunctionAndComment(Integer[],Integer,String)
+  - CRMScript.NetServer.NSProjectAgent.SetDuplicateRulesStatus(NSDuplicateRule[])
+  - CRMScript.NetServer.NSProjectAgent.SetProjectImage(Integer,NSImage)
+  - CRMScript.NetServer.NSProjectAgent.UpdateProjectMember(NSProjectMember)
+  - CRMScript.NetServer.NSProjectAgent.ValidateProjectEntity(NSProjectEntity)
+  name: NSProjectAgent
+  nameWithType: NSProjectAgent
+  fullName: CRMScript.NetServer.NSProjectAgent
+  type: Class
+  summary: "\nCollection of all services that work with Project data.\n"
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSProjectAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSProjectAgent
+  langs:
+  - crmscript
+  name: NSProjectAgent()
+  nameWithType: NSProjectAgent.#ctor
+  fullName: CRMScript.NetServer.NSProjectAgent.#ctor
+  type: Constructor
+  summary: "\nCollection of all services that work with Project data.\n"
+  remarks: 
+  syntax: 
+    content: NSProjectAgent
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.AddProjectMembers(Integer,NSProjectMember[])
+  commentId: M:CRMScript.NetServer.NSProjectAgent.AddProjectMembers(Integer,NSProjectMember[])
+  id: 'AddProjectMembers(Integer,NSProjectMember[])'
+  so.intellisense: NSProjectAgent.AddProjectMembers
+  langs:
+  - crmscript
+  name: 'AddProjectMembers(Integer,NSProjectMember[])'
+  nameWithType: NSProjectAgent.AddProjectMembers(Integer,NSProjectMember[])
+  fullName: CRMScript.NetServer.NSProjectAgent.AddProjectMembers(Integer,NSProjectMember[])
+  type: Method
+  summary: "\nAdds multiple project members to a project\n"
+  remarks: 
+  syntax: 
+    content: Void AddProjectMembers(Integer projectEntityId, NSProjectMember[] projectMembers)
+    parameters:
+    - id: projectEntityId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: projectMembers
+      type: CRMScript.NetServer.NSProjectMember[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSProjectAgent.CreateDefaultProjectEntity()
+  commentId: M:CRMScript.NetServer.NSProjectAgent.CreateDefaultProjectEntity()
+  id: 'CreateDefaultProjectEntity()'
+  so.intellisense: NSProjectAgent.CreateDefaultProjectEntity
+  langs:
+  - crmscript
+  name: 'CreateDefaultProjectEntity()'
+  nameWithType: NSProjectAgent.CreateDefaultProjectEntity()
+  fullName: CRMScript.NetServer.NSProjectAgent.CreateDefaultProjectEntity()
+  type: Method
+  summary: "\nSets default values into a new NSProjectEntity.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSProjectEntity CreateDefaultProjectEntity()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSProjectEntity
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nNSProjectEntity thing = agent.CreateDefaultProjectEntity();\nthing = agent.SaveProjectEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.CreateDefaultProjectEventEntity()
+  commentId: M:CRMScript.NetServer.NSProjectAgent.CreateDefaultProjectEventEntity()
+  id: 'CreateDefaultProjectEventEntity()'
+  so.intellisense: NSProjectAgent.CreateDefaultProjectEventEntity
+  langs:
+  - crmscript
+  name: 'CreateDefaultProjectEventEntity()'
+  nameWithType: NSProjectAgent.CreateDefaultProjectEventEntity()
+  fullName: CRMScript.NetServer.NSProjectAgent.CreateDefaultProjectEventEntity()
+  type: Method
+  summary: "\nSets default values into a new NSProjectEventEntity.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSProjectEventEntity CreateDefaultProjectEventEntity()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSProjectEventEntity
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nNSProjectEventEntity thing = agent.CreateDefaultProjectEventEntity();\nthing = agent.SaveProjectEventEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.CreateDefaultProjectMember()
+  commentId: M:CRMScript.NetServer.NSProjectAgent.CreateDefaultProjectMember()
+  id: 'CreateDefaultProjectMember()'
+  so.intellisense: NSProjectAgent.CreateDefaultProjectMember
+  langs:
+  - crmscript
+  name: 'CreateDefaultProjectMember()'
+  nameWithType: NSProjectAgent.CreateDefaultProjectMember()
+  fullName: CRMScript.NetServer.NSProjectAgent.CreateDefaultProjectMember()
+  type: Method
+  summary: "\nSets default values into a new NSProjectMember.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSProjectMember CreateDefaultProjectMember()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSProjectMember
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nNSProjectMember thing = agent.CreateDefaultProjectMember();\nthing = agent.SaveProjectMember(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.CreateNewEntry()
+  commentId: M:CRMScript.NetServer.NSProjectAgent.CreateNewEntry()
+  id: 'CreateNewEntry()'
+  so.intellisense: NSProjectAgent.CreateNewEntry
+  langs:
+  - crmscript
+  name: 'CreateNewEntry()'
+  nameWithType: NSProjectAgent.CreateNewEntry()
+  fullName: CRMScript.NetServer.NSProjectAgent.CreateNewEntry()
+  type: Method
+  summary: "\nCreates a new project based on external duplicate\n"
+  remarks: 
+  syntax: 
+    content: Integer CreateNewEntry(NSDuplicateEntry duplicate)
+    parameters:
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nNSDuplicateEntry duplicate;\nInteger res = agent.CreateNewEntry(duplicate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.DeleteProjectEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.DeleteProjectEntity(Integer)
+  id: 'DeleteProjectEntity(Integer)'
+  so.intellisense: NSProjectAgent.DeleteProjectEntity
+  langs:
+  - crmscript
+  name: 'DeleteProjectEntity(Integer)'
+  nameWithType: NSProjectAgent.DeleteProjectEntity(Integer)
+  fullName: CRMScript.NetServer.NSProjectAgent.DeleteProjectEntity(Integer)
+  type: Method
+  summary: "\nDeletes the NSProjectEntity\n"
+  remarks: 
+  syntax: 
+    content: DeleteProjectEntity(Integer projectEntity)
+    parameters:
+    - id: projectEntity
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nagent.DeleteProjectEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.DeleteProjectEventEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.DeleteProjectEventEntity(Integer)
+  id: 'DeleteProjectEventEntity(Integer)'
+  so.intellisense: NSProjectAgent.DeleteProjectEventEntity
+  langs:
+  - crmscript
+  name: 'DeleteProjectEventEntity(Integer)'
+  nameWithType: NSProjectAgent.DeleteProjectEventEntity(Integer)
+  fullName: CRMScript.NetServer.NSProjectAgent.DeleteProjectEventEntity(Integer)
+  type: Method
+  summary: "\nDeletes the NSProjectEventEntity\n"
+  remarks: 
+  syntax: 
+    content: DeleteProjectEventEntity(Integer projectEventEntity)
+    parameters:
+    - id: projectEventEntity
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nagent.DeleteProjectEventEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.DeleteProjectEventEntityFromProjectId(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.DeleteProjectEventEntityFromProjectId(Integer)
+  id: 'DeleteProjectEventEntityFromProjectId(Integer)'
+  so.intellisense: NSProjectAgent.DeleteProjectEventEntityFromProjectId
+  langs:
+  - crmscript
+  name: 'DeleteProjectEventEntityFromProjectId(Integer)'
+  nameWithType: NSProjectAgent.DeleteProjectEventEntityFromProjectId(Integer)
+  fullName: CRMScript.NetServer.NSProjectAgent.DeleteProjectEventEntityFromProjectId(Integer)
+  type: Method
+  summary: "\nDeletes a project event based on a project ID. Does not delete the project, but does delete the published and ExternalEvent and AudienceVisibility records.\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteProjectEventEntityFromProjectId(Integer projectId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nInteger projectId;\nagent.DeleteProjectEventEntityFromProjectId(projectId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.DeleteProjectMember(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.DeleteProjectMember(Integer)
+  id: 'DeleteProjectMember(Integer)'
+  so.intellisense: NSProjectAgent.DeleteProjectMember
+  langs:
+  - crmscript
+  name: 'DeleteProjectMember(Integer)'
+  nameWithType: NSProjectAgent.DeleteProjectMember(Integer)
+  fullName: CRMScript.NetServer.NSProjectAgent.DeleteProjectMember(Integer)
+  type: Method
+  summary: "\nDeletes the NSProjectMember\n"
+  remarks: 
+  syntax: 
+    content: DeleteProjectMember(Integer projectMember)
+    parameters:
+    - id: projectMember
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nagent.DeleteProjectMember(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.DeleteProjectMemberByIds(Integer[])
+  commentId: M:CRMScript.NetServer.NSProjectAgent.DeleteProjectMemberByIds(Integer[])
+  id: 'DeleteProjectMemberByIds(Integer[])'
+  so.intellisense: NSProjectAgent.DeleteProjectMemberByIds
+  langs:
+  - crmscript
+  name: 'DeleteProjectMemberByIds(Integer[])'
+  nameWithType: NSProjectAgent.DeleteProjectMemberByIds(Integer[])
+  fullName: CRMScript.NetServer.NSProjectAgent.DeleteProjectMemberByIds(Integer[])
+  type: Method
+  summary: "\nDeletes project-member rows.\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteProjectMemberByIds(Integer[] projectMemberIds)
+    parameters:
+    - id: projectMemberIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSProjectAgent.DeleteProjectMembers(Integer,Integer[])
+  commentId: M:CRMScript.NetServer.NSProjectAgent.DeleteProjectMembers(Integer,Integer[])
+  id: 'DeleteProjectMembers(Integer,Integer[])'
+  so.intellisense: NSProjectAgent.DeleteProjectMembers
+  langs:
+  - crmscript
+  name: 'DeleteProjectMembers(Integer,Integer[])'
+  nameWithType: NSProjectAgent.DeleteProjectMembers(Integer,Integer[])
+  fullName: CRMScript.NetServer.NSProjectAgent.DeleteProjectMembers(Integer,Integer[])
+  type: Method
+  summary: "\nDeletes the given project members from a project\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteProjectMembers(Integer projectEntityId, Integer[] memberIds)
+    parameters:
+    - id: projectEntityId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: memberIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSProjectAgent.GetDuplicateRules()
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetDuplicateRules()
+  id: 'GetDuplicateRules()'
+  so.intellisense: NSProjectAgent.GetDuplicateRules
+  langs:
+  - crmscript
+  name: 'GetDuplicateRules()'
+  nameWithType: NSProjectAgent.GetDuplicateRules()
+  fullName: CRMScript.NetServer.NSProjectAgent.GetDuplicateRules()
+  type: Method
+  summary: "\nRetrieve all available duplicate rules for project\n"
+  remarks: 
+  syntax: 
+    content: NSDuplicateRule[] GetDuplicateRules()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSDuplicateRule[]
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nNSDuplicateRule[] res = agent.GetDuplicateRules();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.GetDuplicates(String)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetDuplicates(String)
+  id: 'GetDuplicates(String)'
+  so.intellisense: NSProjectAgent.GetDuplicates
+  langs:
+  - crmscript
+  name: 'GetDuplicates(String)'
+  nameWithType: NSProjectAgent.GetDuplicates(String)
+  fullName: CRMScript.NetServer.NSProjectAgent.GetDuplicates(String)
+  type: Method
+  summary: "\nGets duplicates(exact or similar in the database) based on the name\n"
+  remarks: 
+  syntax: 
+    content: NSDuplicateEntry[] GetDuplicates(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDuplicateEntry[]
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nString name;\nNSDuplicateEntry[] res = agent.GetDuplicates(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.GetMyMemberProjects()
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetMyMemberProjects()
+  id: 'GetMyMemberProjects()'
+  so.intellisense: NSProjectAgent.GetMyMemberProjects
+  langs:
+  - crmscript
+  name: 'GetMyMemberProjects()'
+  nameWithType: NSProjectAgent.GetMyMemberProjects()
+  fullName: CRMScript.NetServer.NSProjectAgent.GetMyMemberProjects()
+  type: Method
+  summary: "\nReturns projects where an user is project member.\n"
+  remarks: 
+  syntax: 
+    content: NSProject[] GetMyMemberProjects()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSProject[]
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nNSProject[] res = agent.GetMyMemberProjects();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.GetMyProjectEvents()
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetMyProjectEvents()
+  id: 'GetMyProjectEvents()'
+  so.intellisense: NSProjectAgent.GetMyProjectEvents
+  langs:
+  - crmscript
+  name: 'GetMyProjectEvents()'
+  nameWithType: NSProjectAgent.GetMyProjectEvents()
+  fullName: CRMScript.NetServer.NSProjectAgent.GetMyProjectEvents()
+  type: Method
+  summary: "\nGets all project events that belongs to the currently logged-on user.\n"
+  remarks: 
+  syntax: 
+    content: NSProjectEvent[] GetMyProjectEvents()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSProjectEvent[]
+      description: "The list of events is filtered by the Audience Visibility restrictions set when the project event is created."
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nNSProjectEvent[] res = agent.GetMyProjectEvents();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.GetMyProjects(Bool)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetMyProjects(Bool)
+  id: 'GetMyProjects(Bool)'
+  so.intellisense: NSProjectAgent.GetMyProjects
+  langs:
+  - crmscript
+  name: 'GetMyProjects(Bool)'
+  nameWithType: NSProjectAgent.GetMyProjects(Bool)
+  fullName: CRMScript.NetServer.NSProjectAgent.GetMyProjects(Bool)
+  type: Method
+  summary: "\nReturns projects belonging to an associate. If memberProjects is false only the projects where the associate is project responsible is returned, otherwise both the projects where the associate is project responsible and project member is returned.\n"
+  remarks: 
+  syntax: 
+    content: NSProject[] GetMyProjects(Bool includeMemberProjects)
+    parameters:
+    - id: includeMemberProjects
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.NetServer.NSProject[]
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nBool includeMemberProjects;\nNSProject[] res = agent.GetMyProjects(includeMemberProjects);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.GetMyPublishedProjects()
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetMyPublishedProjects()
+  id: 'GetMyPublishedProjects()'
+  so.intellisense: NSProjectAgent.GetMyPublishedProjects
+  langs:
+  - crmscript
+  name: 'GetMyPublishedProjects()'
+  nameWithType: NSProjectAgent.GetMyPublishedProjects()
+  fullName: CRMScript.NetServer.NSProjectAgent.GetMyPublishedProjects()
+  type: Method
+  summary: "\nGets published projects from the logged in user.\n"
+  remarks: 
+  syntax: 
+    content: NSProject[] GetMyPublishedProjects()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSProject[]
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nNSProject[] res = agent.GetMyPublishedProjects();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.GetNextMilestone(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetNextMilestone(Integer)
+  id: 'GetNextMilestone(Integer)'
+  so.intellisense: NSProjectAgent.GetNextMilestone
+  langs:
+  - crmscript
+  name: 'GetNextMilestone(Integer)'
+  nameWithType: NSProjectAgent.GetNextMilestone(Integer)
+  fullName: CRMScript.NetServer.NSProjectAgent.GetNextMilestone(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAppointment GetNextMilestone(Integer projectId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: "Next upcoming milestone appointment."
+    return:
+      type: CRMScript.NetServer.NSAppointment
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nInteger projectId;\nNSAppointment res = agent.GetNextMilestone(projectId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.GetNextProjectStatus(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetNextProjectStatus(Integer)
+  id: 'GetNextProjectStatus(Integer)'
+  so.intellisense: NSProjectAgent.GetNextProjectStatus
+  langs:
+  - crmscript
+  name: 'GetNextProjectStatus(Integer)'
+  nameWithType: NSProjectAgent.GetNextProjectStatus(Integer)
+  fullName: CRMScript.NetServer.NSProjectAgent.GetNextProjectStatus(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetNextProjectStatus(Integer projectId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSProjectAgent.GetProject(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetProject(Integer)
+  id: 'GetProject(Integer)'
+  so.intellisense: NSProjectAgent.GetProject
+  langs:
+  - crmscript
+  name: 'GetProject(Integer)'
+  nameWithType: NSProjectAgent.GetProject(Integer)
+  fullName: CRMScript.NetServer.NSProjectAgent.GetProject(Integer)
+  type: Method
+  summary: "\nGets an NSProject object.\n"
+  remarks: 
+  syntax: 
+    content: NSProject GetProject(Integer projectId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSProject
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nNSProject thing = agent.GetProject(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.GetProjectEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectEntity(Integer)
+  id: 'GetProjectEntity(Integer)'
+  so.intellisense: NSProjectAgent.GetProjectEntity
+  langs:
+  - crmscript
+  name: 'GetProjectEntity(Integer)'
+  nameWithType: NSProjectAgent.GetProjectEntity(Integer)
+  fullName: CRMScript.NetServer.NSProjectAgent.GetProjectEntity(Integer)
+  type: Method
+  summary: "\nGets an NSProjectEntity object.\n"
+  remarks: 
+  syntax: 
+    content: NSProjectEntity GetProjectEntity(Integer projectEntityId)
+    parameters:
+    - id: projectEntityId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSProjectEntity
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nNSProjectEntity thing = agent.GetProjectEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.GetProjectEvent(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectEvent(Integer)
+  id: 'GetProjectEvent(Integer)'
+  so.intellisense: NSProjectAgent.GetProjectEvent
+  langs:
+  - crmscript
+  name: 'GetProjectEvent(Integer)'
+  nameWithType: NSProjectAgent.GetProjectEvent(Integer)
+  fullName: CRMScript.NetServer.NSProjectAgent.GetProjectEvent(Integer)
+  type: Method
+  summary: "\nGets an NSProjectEvent object.\n"
+  remarks: 
+  syntax: 
+    content: NSProjectEvent GetProjectEvent(Integer projectEventId)
+    parameters:
+    - id: projectEventId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSProjectEvent
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nNSProjectEvent thing = agent.GetProjectEvent(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.GetProjectEventEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectEventEntity(Integer)
+  id: 'GetProjectEventEntity(Integer)'
+  so.intellisense: NSProjectAgent.GetProjectEventEntity
+  langs:
+  - crmscript
+  name: 'GetProjectEventEntity(Integer)'
+  nameWithType: NSProjectAgent.GetProjectEventEntity(Integer)
+  fullName: CRMScript.NetServer.NSProjectAgent.GetProjectEventEntity(Integer)
+  type: Method
+  summary: "\nGets an NSProjectEventEntity object.\n"
+  remarks: 
+  syntax: 
+    content: NSProjectEventEntity GetProjectEventEntity(Integer projectEventEntityId)
+    parameters:
+    - id: projectEventEntityId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSProjectEventEntity
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nNSProjectEventEntity thing = agent.GetProjectEventEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.GetProjectEventEntityFromProjectId(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectEventEntityFromProjectId(Integer)
+  id: 'GetProjectEventEntityFromProjectId(Integer)'
+  so.intellisense: NSProjectAgent.GetProjectEventEntityFromProjectId
+  langs:
+  - crmscript
+  name: 'GetProjectEventEntityFromProjectId(Integer)'
+  nameWithType: NSProjectAgent.GetProjectEventEntityFromProjectId(Integer)
+  fullName: CRMScript.NetServer.NSProjectAgent.GetProjectEventEntityFromProjectId(Integer)
+  type: Method
+  summary: "\nGets an NSProjectEventEntity based on a projectId.\n"
+  remarks: 
+  syntax: 
+    content: NSProjectEventEntity GetProjectEventEntityFromProjectId(Integer projectId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSProjectEventEntity
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nInteger projectId;\nNSProjectEventEntity res = agent.GetProjectEventEntityFromProjectId(projectId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.GetProjectEventList(Integer[])
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectEventList(Integer[])
+  id: 'GetProjectEventList(Integer[])'
+  so.intellisense: NSProjectAgent.GetProjectEventList
+  langs:
+  - crmscript
+  name: 'GetProjectEventList(Integer[])'
+  nameWithType: NSProjectAgent.GetProjectEventList(Integer[])
+  fullName: CRMScript.NetServer.NSProjectAgent.GetProjectEventList(Integer[])
+  type: Method
+  summary: "\nGets an array of NSProjectEvent objects.\n"
+  remarks: 
+  syntax: 
+    content: NSProjectEvent[] GetProjectEventList(Integer[]  projectEventIds)
+    parameters:
+    - id: projectEventIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSProjectEvent[]
+  example: 
+  - "\n<pre><code>Integer[] ids;\nNSProjectAgent agent;\nNSProjectEvent[] res = agent.GetProjectEventList(ids);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.GetProjectEventOnPerson(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectEventOnPerson(Integer,Integer)
+  id: 'GetProjectEventOnPerson(Integer,Integer)'
+  so.intellisense: NSProjectAgent.GetProjectEventOnPerson
+  langs:
+  - crmscript
+  name: 'GetProjectEventOnPerson(Integer,Integer)'
+  nameWithType: NSProjectAgent.GetProjectEventOnPerson(Integer,Integer)
+  fullName: CRMScript.NetServer.NSProjectAgent.GetProjectEventOnPerson(Integer,Integer)
+  type: Method
+  summary: "\nGets an NSProjectEvent object from a project and a person.\n"
+  remarks: 
+  syntax: 
+    content: NSProjectEvent GetProjectEventOnPerson(Integer projectId, Integer personId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSProjectEvent
+  example: 
+- uid: CRMScript.NetServer.NSProjectAgent.GetProjectEventsOnPerson(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectEventsOnPerson(Integer)
+  id: 'GetProjectEventsOnPerson(Integer)'
+  so.intellisense: NSProjectAgent.GetProjectEventsOnPerson
+  langs:
+  - crmscript
+  name: 'GetProjectEventsOnPerson(Integer)'
+  nameWithType: NSProjectAgent.GetProjectEventsOnPerson(Integer)
+  fullName: CRMScript.NetServer.NSProjectAgent.GetProjectEventsOnPerson(Integer)
+  type: Method
+  summary: "\nGets all project events that belongs to the person specified.\n"
+  remarks: 
+  syntax: 
+    content: NSProjectEvent[] GetProjectEventsOnPerson(Integer personId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSProjectEvent[]
+      description: "The list of events are filtered by the Audience Visibility restrictions set when the project event is created."
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nInteger personId;\nNSProjectEvent[] res = agent.GetProjectEventsOnPerson(personId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.GetProjectImage(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectImage(Integer)
+  id: 'GetProjectImage(Integer)'
+  so.intellisense: NSProjectAgent.GetProjectImage
+  langs:
+  - crmscript
+  name: 'GetProjectImage(Integer)'
+  nameWithType: NSProjectAgent.GetProjectImage(Integer)
+  fullName: CRMScript.NetServer.NSProjectAgent.GetProjectImage(Integer)
+  type: Method
+  summary: "\nReturns the project image that is displayed in the CRM application.\n"
+  remarks: 
+  syntax: 
+    content: NSImage GetProjectImage(Integer projectId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSImage
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nInteger projectId;\nNSImage res = agent.GetProjectImage(projectId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.GetProjectList(Integer[])
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectList(Integer[])
+  id: 'GetProjectList(Integer[])'
+  so.intellisense: NSProjectAgent.GetProjectList
+  langs:
+  - crmscript
+  name: 'GetProjectList(Integer[])'
+  nameWithType: NSProjectAgent.GetProjectList(Integer[])
+  fullName: CRMScript.NetServer.NSProjectAgent.GetProjectList(Integer[])
+  type: Method
+  summary: "\nGets an array of Project objects.\n"
+  remarks: 
+  syntax: 
+    content: NSProject[] GetProjectList(Integer[] projectIds)
+    parameters:
+    - id: projectIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSProject[]
+  example: 
+  - "\n<pre><code>Integer[] ids;\nNSProjectAgent agent;\nNSProject[] res = agent.GetProjectList(ids);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.GetProjectMember(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectMember(Integer)
+  id: 'GetProjectMember(Integer)'
+  so.intellisense: NSProjectAgent.GetProjectMember
+  langs:
+  - crmscript
+  name: 'GetProjectMember(Integer)'
+  nameWithType: NSProjectAgent.GetProjectMember(Integer)
+  fullName: CRMScript.NetServer.NSProjectAgent.GetProjectMember(Integer)
+  type: Method
+  summary: "\nGets an NSProjectMember object.\n"
+  remarks: 
+  syntax: 
+    content: NSProjectMember GetProjectMember(Integer projectMemberId)
+    parameters:
+    - id: projectMemberId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSProjectMember
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nNSProjectMember thing = agent.GetProjectMember(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.GetProjectMembers(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectMembers(Integer)
+  id: 'GetProjectMembers(Integer)'
+  so.intellisense: NSProjectAgent.GetProjectMembers
+  langs:
+  - crmscript
+  name: 'GetProjectMembers(Integer)'
+  nameWithType: NSProjectAgent.GetProjectMembers(Integer)
+  fullName: CRMScript.NetServer.NSProjectAgent.GetProjectMembers(Integer)
+  type: Method
+  summary: "\nReturns an array of project members\n"
+  remarks: 
+  syntax: 
+    content: NSProjectMember[] GetProjectMembers(Integer projectId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSProjectMember[]
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nInteger projectId;\nNSProjectMember[] res = agent.GetProjectMembers(projectId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.GetProjectMembersById(Integer[])
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectMembersById(Integer[])
+  id: 'GetProjectMembersById(Integer[])'
+  so.intellisense: NSProjectAgent.GetProjectMembersById
+  langs:
+  - crmscript
+  name: 'GetProjectMembersById(Integer[])'
+  nameWithType: NSProjectAgent.GetProjectMembersById(Integer[])
+  fullName: CRMScript.NetServer.NSProjectAgent.GetProjectMembersById(Integer[])
+  type: Method
+  summary: "\nReturns an array of project members.\n"
+  remarks: 
+  syntax: 
+    content: NSProjectMember[] GetProjectMembersById(Integer[] projectMemberIds)
+    parameters:
+    - id: projectMemberIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSProjectMember[]
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nInteger rojectMemberIds;\nNSProjectMember[] res = agent.GetProjectMembersById(projectMemberIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.GetProjectsFromContact(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectsFromContact(Integer)
+  id: 'GetProjectsFromContact(Integer)'
+  so.intellisense: NSProjectAgent.GetProjectsFromContact
+  langs:
+  - crmscript
+  name: 'GetProjectsFromContact(Integer)'
+  nameWithType: NSProjectAgent.GetProjectsFromContact(Integer)
+  fullName: CRMScript.NetServer.NSProjectAgent.GetProjectsFromContact(Integer)
+  type: Method
+  summary: "\nReturns all projects where the given contact has project members.\n"
+  remarks: 
+  syntax: 
+    content: NSProject[] GetProjectsFromContact(Integer contactId)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSProject[]
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nInteger contactId;\nNSProject[] res = agent.GetProjectsFromContact(contactId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.GetProjectsFromPerson(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectsFromPerson(Integer)
+  id: 'GetProjectsFromPerson(Integer)'
+  so.intellisense: NSProjectAgent.GetProjectsFromPerson
+  langs:
+  - crmscript
+  name: 'GetProjectsFromPerson(Integer)'
+  nameWithType: NSProjectAgent.GetProjectsFromPerson(Integer)
+  fullName: CRMScript.NetServer.NSProjectAgent.GetProjectsFromPerson(Integer)
+  type: Method
+  summary: "\nReturns all projects where the person is project member.\n"
+  remarks: 
+  syntax: 
+    content: NSProject[] GetProjectsFromPerson(Integer personId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSProject[]
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nInteger personId;\nNSProject[] res = agent.GetProjectsFromPerson(personId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.GetPublishedProject(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetPublishedProject(Integer)
+  id: 'GetPublishedProject(Integer)'
+  so.intellisense: NSProjectAgent.GetPublishedProject
+  langs:
+  - crmscript
+  name: 'GetPublishedProject(Integer)'
+  nameWithType: NSProjectAgent.GetPublishedProject(Integer)
+  fullName: CRMScript.NetServer.NSProjectAgent.GetPublishedProject(Integer)
+  type: Method
+  summary: "\nGets published project by project ID.\n"
+  remarks: 
+  syntax: 
+    content: NSProject GetPublishedProject(Integer projectId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSProject
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nInteger projectId;\nNSProject res = agent.GetPublishedProject(projectId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.GetPublishedProjects(Integer[])
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetPublishedProjects(Integer[])
+  id: 'GetPublishedProjects(Integer[])'
+  so.intellisense: NSProjectAgent.GetPublishedProjects
+  langs:
+  - crmscript
+  name: 'GetPublishedProjects(Integer[])'
+  nameWithType: NSProjectAgent.GetPublishedProjects(Integer[])
+  fullName: CRMScript.NetServer.NSProjectAgent.GetPublishedProjects(Integer[])
+  type: Method
+  summary: "\nGets published projects by project IDs.\n"
+  remarks: 
+  syntax: 
+    content: NSProject[] GetPublishedProjects(Integer[] projectIds)
+    parameters:
+    - id: projectIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSProject[]
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nInteger[] projectIds;\nNSProject[] res = agent.GetPublishedProjects(projectIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.GetPublishedProjectsOnPersonId(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetPublishedProjectsOnPersonId(Integer)
+  id: 'GetPublishedProjectsOnPersonId(Integer)'
+  so.intellisense: NSProjectAgent.GetPublishedProjectsOnPersonId
+  langs:
+  - crmscript
+  name: 'GetPublishedProjectsOnPersonId(Integer)'
+  nameWithType: NSProjectAgent.GetPublishedProjectsOnPersonId(Integer)
+  fullName: CRMScript.NetServer.NSProjectAgent.GetPublishedProjectsOnPersonId(Integer)
+  type: Method
+  summary: "\nGets published projects where person is a member\n"
+  remarks: 
+  syntax: 
+    content: NSProject[] GetPublishedProjectsOnPersonId(Integer personId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSProject[]
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nInteger personId;\nNSProject[] res = agent.GetPublishedProjectsOnPersonId(personId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.HasGuide(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.HasGuide(Integer)
+  id: 'HasGuide(Integer)'
+  so.intellisense: NSProjectAgent.HasGuide
+  langs:
+  - crmscript
+  name: 'HasGuide(Integer)'
+  nameWithType: NSProjectAgent.HasGuide(Integer)
+  fullName: CRMScript.NetServer.NSProjectAgent.HasGuide(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool HasGuide(Integer projectId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description: Does this project have a guide associated with its project type?
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nInteger projectId;\nBool res = agent.HasGuide(projectId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.HasGuideActivities(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.HasGuideActivities(Integer)
+  id: 'HasGuideActivities(Integer)'
+  so.intellisense: NSProjectAgent.HasGuideActivities
+  langs:
+  - crmscript
+  name: 'HasGuideActivities(Integer)'
+  nameWithType: NSProjectAgent.HasGuideActivities(Integer)
+  fullName: CRMScript.NetServer.NSProjectAgent.HasGuideActivities(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool HasGuideActivities(Integer projectId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSProjectAgent.IsNumberValid(Integer,String)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.IsNumberValid(Integer,String)
+  id: 'IsNumberValid(Integer,String)'
+  so.intellisense: NSProjectAgent.IsNumberValid
+  langs:
+  - crmscript
+  name: 'IsNumberValid(Integer,String)'
+  nameWithType: NSProjectAgent.IsNumberValid(Integer,String)
+  fullName: CRMScript.NetServer.NSProjectAgent.IsNumberValid(Integer,String)
+  type: Method
+  summary: "\nChecks if the number is unique or required.\n"
+  remarks: "\nThe setting is configured from admin under system options.\n"
+  syntax: 
+    content: Bool IsNumberValid(Integer contactId, String number)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: number
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nInteger contactId;\nString number;\nBool res = agent.IsNumberValid(contactId, number);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.Merge(Integer,Integer,Bool)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.Merge(Integer,Integer,Bool)
+  id: 'Merge(Integer,Integer,Bool)'
+  so.intellisense: NSProjectAgent.Merge
+  langs:
+  - crmscript
+  name: 'Merge(Integer,Integer,Bool)'
+  nameWithType: NSProjectAgent.Merge(Integer,Integer,Bool)
+  fullName: CRMScript.NetServer.NSProjectAgent.Merge(Integer,Integer,Bool)
+  type: Method
+  summary: "\nMerges two projects into one, removing the source project in the process\n"
+  remarks: 
+  syntax: 
+    content: Void Merge(Integer sourceProjectId, Integer destinationProjectId, Bool replaceEmptyFieldsOnDestination)
+    parameters:
+    - id: sourceProjectId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: destinationProjectId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: replaceEmptyFieldsOnDestination
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSProjectAgent.OfferAutoNextStatusOnApppointmentCompleted(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.OfferAutoNextStatusOnApppointmentCompleted(Integer)
+  id: 'OfferAutoNextStatusOnApppointmentCompleted(Integer)'
+  so.intellisense: NSProjectAgent.OfferAutoNextStatusOnApppointmentCompleted
+  langs:
+  - crmscript
+  name: 'OfferAutoNextStatusOnApppointmentCompleted(Integer)'
+  nameWithType: NSProjectAgent.OfferAutoNextStatusOnApppointmentCompleted(Integer)
+  fullName: CRMScript.NetServer.NSProjectAgent.OfferAutoNextStatusOnApppointmentCompleted(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool OfferAutoNextStatusOnApppointmentCompleted(Integer appointmentId)
+    parameters:
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSProjectAgent.SaveProjectEntity(NSProjectEntity)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.SaveProjectEntity(NSProjectEntity)
+  id: 'SaveProjectEntity(NSProjectEntity)'
+  so.intellisense: NSProjectAgent.SaveProjectEntity
+  langs:
+  - crmscript
+  name: 'SaveProjectEntity(NSProjectEntity)'
+  nameWithType: NSProjectAgent.SaveProjectEntity(NSProjectEntity)
+  fullName: CRMScript.NetServer.NSProjectAgent.SaveProjectEntity(NSProjectEntity)
+  type: Method
+  summary: "\nUpdates the existing NSProjectEntity or creates a new NSProjectEntity if the  ID parameter is 0.\n"
+  remarks: 
+  syntax: 
+    content: NSProjectEntity SaveProjectEntity(NSProjectEntity projectEntity)
+    parameters:
+    - id: projectEntity
+      type: CRMScript.NetServer.NSProjectEntity
+      description: "The entity to save."
+    return:
+      type: CRMScript.NetServer.NSProjectEntity
+      description: "New or updated NSProjectEntity."
+  example: 
+  - "\n<pre><code>NSProject  agent;\nNSProjectEntity thing = agent.CreateDefaultProjectEntity();\nthing = agent.SaveProjectEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.SaveProjectEventEntity(NSProjectEventEntity)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.SaveProjectEventEntity(NSProjectEventEntity)
+  id: 'SaveProjectEventEntity(NSProjectEventEntity)'
+  so.intellisense: NSProjectAgent.SaveProjectEventEntity
+  langs:
+  - crmscript
+  name: 'SaveProjectEventEntity(NSProjectEventEntity)'
+  nameWithType: NSProjectAgent.SaveProjectEventEntity(NSProjectEventEntity)
+  fullName: CRMScript.NetServer.NSProjectAgent.SaveProjectEventEntity(NSProjectEventEntity)
+  type: Method
+  summary: "\nUpdates the existing NSProjectEventEntity or creates a new NSProjectEventEntity if the ID parameter is 0.<p></p>\nReturns.\n"
+  remarks: 
+  syntax: 
+    content: NSProjectEventEntity SaveProjectEventEntity(NSProjectEventEntity entity)
+    parameters:
+    - id: entity
+      type: CRMScript.NetServer.NSProjectEventEntity
+      description: "The entity to save."
+    return:
+      type: CRMScript.NetServer.NSProjectEventEntity
+      description: "The new or updated NSProjectEventEntity."
+  example: 
+  - "\n<pre><code>NSProject agent;\nNSProjectEventEntity thing = agent.CreateDefaultProjectEventEntity();\nthing = agent.SaveProjectEventEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.SaveProjectMember(NSProjectMember)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.SaveProjectMember(NSProjectMember)
+  id: 'SaveProjectMember(NSProjectMember)'
+  so.intellisense: NSProjectAgent.SaveProjectMember
+  langs:
+  - crmscript
+  name: 'SaveProjectMember(NSProjectMember)'
+  nameWithType: NSProjectAgent.SaveProjectMember(NSProjectMember)
+  fullName: CRMScript.NetServer.NSProjectAgent.SaveProjectMember(NSProjectMember)
+  type: Method
+  summary: "\nUpdates the existing NSProjectMember or creates a new NSProjectMember if the id parameter is 0\n"
+  remarks: 
+  syntax: 
+    content: NSProjectMember SaveProjectMember(NSProjectMember projectMember)
+    parameters:
+    - id: projectMember
+      type: CRMScript.NetServer.NSProjectMember
+      description: "The NSProjectMember to save."
+    return:
+      type: CRMScript.NetServer.NSProjectMember
+  example: 
+  - "\n<pre><code>NSProject  agent;\nNSProjectMember thing = agent.CreateDefaultProjectMember();\nthing = agent.SaveProjectMember(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.SaveProjectMembersFunctionAndComment(Integer[],Integer,String)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.SaveProjectMembersFunctionAndComment(Integer[],Integer,String)
+  id: 'SaveProjectMembersFunctionAndComment(Integer[],Integer,String)'
+  so.intellisense: NSProjectAgent.SaveProjectMembersFunctionAndComment
+  langs:
+  - crmscript
+  name: 'SaveProjectMembersFunctionAndComment(Integer[],Integer,String)'
+  nameWithType: NSProjectAgent.SaveProjectMembersFunctionAndComment(Integer[],Integer,String)
+  fullName: CRMScript.NetServer.NSProjectAgent.SaveProjectMembersFunctionAndComment(Integer[],Integer,String)
+  type: Method
+  summary: "\nSaves role and comment on an array of project members represented by IDs.\n"
+  remarks: 
+  syntax: 
+    content: Void SaveProjectMembersFunctionAndComment(Integer[] projectMemberIds, Integer roleId, String comment)
+    parameters:
+    - id: projectMemberIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    - id: roleId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: comment
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSProjectAgent.SetDuplicateRulesStatus(NSDuplicateRule[])
+  commentId: M:CRMScript.NetServer.NSProjectAgent.SetDuplicateRulesStatus(NSDuplicateRule[])
+  id: 'SetDuplicateRulesStatus(NSDuplicateRule[])'
+  so.intellisense: NSProjectAgent.SetDuplicateRulesStatus
+  langs:
+  - crmscript
+  name: 'SetDuplicateRulesStatus(NSDuplicateRule[])'
+  nameWithType: NSProjectAgent.SetDuplicateRulesStatus(NSDuplicateRule[])
+  fullName: CRMScript.NetServer.NSProjectAgent.SetDuplicateRulesStatus(NSDuplicateRule[])
+  type: Method
+  summary: "\nSets which duplicate rules should be active or not\n"
+  remarks: 
+  syntax: 
+    content: Void SetDuplicateRulesStatus(NSDuplicateRule[] rules)
+    parameters:
+    - id: rules
+      type: CRMScript.NetServer.NSDuplicateRule[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSProjectAgent.SetProjectImage(Integer,NSImage)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.SetProjectImage(Integer,NSImage)
+  id: 'SetProjectImage(Integer,NSImage)'
+  so.intellisense: NSProjectAgent.SetProjectImage
+  langs:
+  - crmscript
+  name: 'SetProjectImage(Integer,NSImage)'
+  nameWithType: NSProjectAgent.SetProjectImage(Integer,NSImage)
+  fullName: CRMScript.NetServer.NSProjectAgent.SetProjectImage(Integer,NSImage)
+  type: Method
+  summary: "\nStores the project image that is displayed in the CRM application.\n"
+  remarks: 
+  syntax: 
+    content: Void SetProjectImage(Integer projectId, NSImage image)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: image
+      type: CRMScript.NetServer.NSImage
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSProjectAgent.UpdateProjectMember(NSProjectMember)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.UpdateProjectMember(NSProjectMember)
+  id: 'UpdateProjectMember(NSProjectMember)'
+  so.intellisense: NSProjectAgent.UpdateProjectMember
+  langs:
+  - crmscript
+  name: 'UpdateProjectMember(NSProjectMember)'
+  nameWithType: NSProjectAgent.UpdateProjectMember(NSProjectMember)
+  fullName: CRMScript.NetServer.NSProjectAgent.UpdateProjectMember(NSProjectMember)
+  type: Method
+  summary: "\nUpdates an NSProjectMember row.\n"
+  remarks: 
+  syntax: 
+    content: NSProjectMember UpdateProjectMember(NSProjectMember projectMember)
+    parameters:
+    - id: projectMember
+      type: CRMScript.NetServer.NSProjectMember
+      description: 
+    return:
+      type: CRMScript.NetServer.NSProjectMember
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nNSProjectMember projectMember;\nNSProjectMember res = agent.UpdateProjectMember(projectMember);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.ValidateProjectEntity(NSProjectEntity)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.ValidateProjectEntity(NSProjectEntity)
+  id: 'ValidateProjectEntity(NSProjectEntity)'
+  so.intellisense: NSProjectAgent.ValidateProjectEntity
+  langs:
+  - crmscript
+  name: 'ValidateProjectEntity(NSProjectEntity)'
+  nameWithType: NSProjectAgent.ValidateProjectEntity(NSProjectEntity)
+  fullName: CRMScript.NetServer.NSProjectAgent.ValidateProjectEntity(NSProjectEntity)
+  type: Method
+  summary: "\nChecks that entity is ready for saving, return error messages by field.\n"
+  remarks: 
+  syntax: 
+    content: Map ValidateProjectEntity(NSProjectEntity projectEntity)
+    parameters:
+    - id: projectEntity
+      type: CRMScript.NetServer.NSProjectEntity
+      description: 
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nNSProjectEntity projectEntity;\nMap res = agent.ValidateProjectEntity(NSProjectEntity);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSProjectAgent
+  commentId: T:CRMScript.NetServer.NSProjectAgent
+  isExternal: true
+  name: NSProjectAgent
+  nameWithType: NSProjectAgent
+  fullName: CRMScript.NetServer.NSProjectAgent
+- uid: CRMScript.NetServer.NSProjectMember[]
+  isExternal: true
+  name: NSProjectMember[]
+  nameWithType: NSProjectMember[]
+  fullName: CRMScript.NetServer.NSProjectMember[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSProjectMember
+    isExternal: true
+    name: NSProjectMember
+    nameWithType: NSProjectMember
+    fullName: CRMScript.NetServer.NSProjectMember
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSProjectMember
+  commentId: T:CRMScript.NetServer.NSProjectMember
+  isExternal: true
+  name: NSProjectMember
+  nameWithType: NSProjectMember
+  fullName: CRMScript.NetServer.NSProjectMember
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSProjectEntity
+  commentId: T:CRMScript.NetServer.NSProjectEntity
+  isExternal: true
+  name: NSProjectEntity
+  nameWithType: NSProjectEntity
+  fullName: CRMScript.NetServer.NSProjectEntity
+- uid: CRMScript.NetServer.NSProjectEventEntity
+  commentId: T:CRMScript.NetServer.NSProjectEventEntity
+  isExternal: true
+  name: NSProjectEventEntity
+  nameWithType: NSProjectEventEntity
+  fullName: CRMScript.NetServer.NSProjectEventEntity
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    isExternal: true
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSDuplicateRule[]
+  isExternal: true
+  name: NSDuplicateRule[]
+  nameWithType: NSDuplicateRule[]
+  fullName: CRMScript.NetServer.NSDuplicateRule[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSDuplicateRule
+    isExternal: true
+    name: NSDuplicateRule
+    nameWithType: NSDuplicateRule
+    fullName: CRMScript.NetServer.NSDuplicateRule
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSDuplicateRule
+  commentId: T:CRMScript.NetServer.NSDuplicateRule
+  isExternal: true
+  name: NSDuplicateRule
+  nameWithType: NSDuplicateRule
+  fullName: CRMScript.NetServer.NSDuplicateRule
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSDuplicateEntry[]
+  isExternal: true
+  name: NSDuplicateEntry[]
+  nameWithType: NSDuplicateEntry[]
+  fullName: CRMScript.NetServer.NSDuplicateEntry[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSDuplicateEntry
+    isExternal: true
+    name: NSDuplicateEntry
+    nameWithType: NSDuplicateEntry
+    fullName: CRMScript.NetServer.NSDuplicateEntry
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSDuplicateEntry
+  commentId: T:CRMScript.NetServer.NSDuplicateEntry
+  isExternal: true
+  name: NSDuplicateEntry
+  nameWithType: NSDuplicateEntry
+  fullName: CRMScript.NetServer.NSDuplicateEntry
+- uid: CRMScript.NetServer.NSProject[]
+  isExternal: true
+  name: NSProject[]
+  nameWithType: NSProject[]
+  fullName: CRMScript.NetServer.NSProject[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSProject
+    isExternal: true
+    name: NSProject
+    nameWithType: NSProject
+    fullName: CRMScript.NetServer.NSProject
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSProject
+  commentId: T:CRMScript.NetServer.NSProject
+  isExternal: true
+  name: NSProject
+  nameWithType: NSProject
+  fullName: CRMScript.NetServer.NSProject
+- uid: CRMScript.NetServer.NSProjectEvent[]
+  isExternal: true
+  name: NSProjectEvent[]
+  nameWithType: NSProjectEvent[]
+  fullName: CRMScript.NetServer.NSProjectEvent[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSProjectEvent
+    isExternal: true
+    name: NSProjectEvent
+    nameWithType: NSProjectEvent
+    fullName: CRMScript.NetServer.NSProjectEvent
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSProjectEvent
+  commentId: T:CRMScript.NetServer.NSProjectEvent
+  isExternal: true
+  name: NSProjectEvent
+  nameWithType: NSProjectEvent
+  fullName: CRMScript.NetServer.NSProjectEvent
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.NetServer.NSAppointment
+  commentId: T:CRMScript.NetServer.NSAppointment
+  isExternal: true
+  name: NSAppointment
+  nameWithType: NSAppointment
+  fullName: CRMScript.NetServer.NSAppointment
+- uid: CRMScript.NetServer.NSProject
+  commentId: T:CRMScript.NetServer.NSProject
+  isExternal: true
+  name: NSProject
+  nameWithType: NSProject
+  fullName: CRMScript.NetServer.NSProject
+- uid: CRMScript.NetServer.NSImage
+  commentId: T:CRMScript.NetServer.NSImage
+  isExternal: true
+  name: NSImage
+  nameWithType: NSImage
+  fullName: CRMScript.NetServer.NSImage
+- uid: CRMScript.Native.Map
+  commentId: T:CRMScript.Native.Map
+  isExternal: true
+  name: Map
+  nameWithType: Map
+  fullName: CRMScript.Native.Map

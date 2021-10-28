@@ -1,0 +1,1028 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSContactAgent
+  commentId: T:CRMScript.NetServer.NSContactAgent
+  id: NSContactAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSContactAgent.#ctor
+  - CRMScript.NetServer.NSContactAgent.AddPerson(Integer,NSPersonEntity)
+  - CRMScript.NetServer.NSContactAgent.ChangeCountry(NSContactEntity,Integer)
+  - CRMScript.NetServer.NSContactAgent.Copy(Integer,String,String,Bool)
+  - CRMScript.NetServer.NSContactAgent.CreateDefaultContactEntity()
+  - CRMScript.NetServer.NSContactAgent.CreateNewEntry(NSDuplicateEntry)
+  - CRMScript.NetServer.NSContactAgent.DeleteContactEntity(Integer)
+  - CRMScript.NetServer.NSContactAgent.DeleteExpired()
+  - CRMScript.NetServer.NSContactAgent.GetAddress(Integer)
+  - CRMScript.NetServer.NSContactAgent.GetAddressByCountry(Integer,Integer)
+  - CRMScript.NetServer.NSContactAgent.GetContact(Integer)
+  - CRMScript.NetServer.NSContactAgent.GetContactEntity(Integer)
+  - CRMScript.NetServer.NSContactAgent.GetContactList(Integer[])
+  - CRMScript.NetServer.NSContactAgent.GetContactSummary(Integer,Integer)
+  - CRMScript.NetServer.NSContactAgent.GetContactWithPersons(Integer)
+  - CRMScript.NetServer.NSContactAgent.GetDuplicateRules()
+  - CRMScript.NetServer.NSContactAgent.GetDuplicates(String)
+  - CRMScript.NetServer.NSContactAgent.GetMyActiveContacts(DateTime.Integer[],Integer)
+  - CRMScript.NetServer.NSContactAgent.GetMyBizCard()
+  - CRMScript.NetServer.NSContactAgent.GetMyContact()
+  - CRMScript.NetServer.NSContactAgent.GetMyContacts()
+  - CRMScript.NetServer.NSContactAgent.GetMyRecentContacts(Integer)
+  - CRMScript.NetServer.NSContactAgent.GetNameDepartmentDuplicates(String,String)
+  - CRMScript.NetServer.NSContactAgent.GetPersons(Integer)
+  - CRMScript.NetServer.NSContactAgent.GetQuoteVersionAddresses(Integer)
+  - CRMScript.NetServer.NSContactAgent.IsNumberValid(Integer,String)
+  - CRMScript.NetServer.NSContactAgent.Merge(Integer,Integer,Bool,Bool)
+  - CRMScript.NetServer.NSContactAgent.SaveContactEntity(NSContactEntity)
+  - CRMScript.NetServer.NSContactAgent.SaveQuoteVersionAddress(Integer,NSAddress,Integer,Integer)
+  - CRMScript.NetServer.NSContactAgent.SetDuplicateRulesStatus(NSDuplicateRule[])
+  - CRMScript.NetServer.NSContactAgent.Undelete(Integer)
+  - CRMScript.NetServer.NSContactAgent.ValidateContactEntity(NSContactEntity)
+  name: NSContactAgent
+  nameWithType: NSContactAgent
+  fullName: CRMScript.NetServer.NSContactAgent
+  type: Class
+  summary: "\nContact (company) data services.\n"
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSContactAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSContactAgent
+  langs:
+  - crmscript
+  name: NSContactAgent()
+  nameWithType: NSContactAgent.#ctor
+  fullName: CRMScript.NetServer.NSContactAgent.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSContactAgent class.\n"
+  remarks: 
+  syntax: 
+    content: NSContactAgent
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.AddPerson(Integer,NSPersonEntity)
+  commentId: M:CRMScript.NetServer.NSContactAgent.AddPerson(Integer,NSPersonEntity)
+  id: 'AddPerson(Integer,NSPersonEntity)'
+  so.intellisense: NSContactAgent.AddPerson
+  langs:
+  - crmscript
+  name: 'AddPerson(Integer,NSPersonEntity)'
+  nameWithType: NSContactAgent.AddPerson(Integer,NSPersonEntity)
+  fullName: CRMScript.NetServer.NSContactAgent.AddPerson(Integer,NSPersonEntity)
+  type: Method
+  summary: "\nAdds a person to the given contact\n"
+  remarks: 
+  syntax: 
+    content: NSPersonEntity AddPerson(Integer contactId, NSPersonEntity newPersonEntity)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: "Contact to add person to"
+    - id: newPersonEntity
+      type: CRMScript.NetServer.NSPersonEntity
+      description: "Person object to add."
+    return:
+      type: CRMScript.NetServer.NSPersonEntity
+      description: "Updated person object."
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nInteger contactId;\nNSPersonEntity newPersonEntity;\nNSPersonEntity res = agent.AddPerson(contactId, newPersonEntity);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.ChangeCountry(NSContactEntity,Integer)
+  commentId: M:CRMScript.NetServer.NSContactAgent.ChangeCountry(NSContactEntity,Integer)
+  id: 'ChangeCountry(NSContactEntity,Integer)'
+  so.intellisense: NSContactAgent.ChangeCountry
+  langs:
+  - crmscript
+  name: 'ChangeCountry(NSContactEntity,Integer)'
+  nameWithType: NSContactAgent.ChangeCountry(NSContactEntity,Integer)
+  fullName: CRMScript.NetServer.NSContactAgent.ChangeCountry(NSContactEntity,Integer)
+  type: Method
+  summary: "\nChanges country regenerates the default values and localized information such as phone number and address format\n"
+  remarks: 
+  syntax: 
+    content: NSContactEntity ChangeCountry(NSContactEntity contactEntity, Integer toCountryId)
+    parameters:
+    - id: contactEntity
+      type: CRMScript.NetServer.NSContactEntity
+      description:
+    - id: toCountryId
+      type: CRMScript.Global.Integer
+      description: "The country to switch to."
+    return:
+      type: CRMScript.NetServer.NSContactEntity
+  example: 
+- uid: CRMScript.NetServer.NSContactAgent.Copy(Integer,String,String,Bool)
+  commentId: M:CRMScript.NetServer.NSContactAgent.Copy(Integer,String,String,Bool)
+  id: 'Copy(Integer,String,String,Bool)'
+  so.intellisense: NSContactAgent.Copy
+  langs:
+  - crmscript
+  name: 'Copy(Integer,String,String,Bool)'
+  nameWithType: NSContactAgent.Copy(Integer,String,String,Bool)
+  fullName: CRMScript.NetServer.NSContactAgent.Copy(Integer,String,String,Bool)
+  type: Method
+  summary: "\nCopies a contact. Activities and related data will be ignored\n"
+  remarks: 
+  syntax: 
+    content: Integer Copy(Integer sourceContactId, String destinationContactName, String destinationContactDepartment, Bool copyPersons)
+    parameters:
+    - id: sourceContactId
+      type: CRMScript.Global.Integer
+      description: "The ID of the contact to copy"
+    - id: destinationContactName
+      type: CRMScript.Global.String
+      description: "The name of the destination contact"
+    - id: destinationContactDepartment
+      type: CRMScript.Global.String
+      description: "The department of the destination contact"
+    - id: copyPersons
+      type: CRMScript.Global.Bool
+      description: "If true, persons will be copied from source contact."
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of copied contact."
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nInteger sourceContactId;\nString destinationContactName;\nString destinationContactDepartment;\nBool copyPersons;\nInteger res = agent.Copy(sourceContactId, destinationContactName, destinationContactDepartment, copyPersons);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.CreateDefaultContactEntity()
+  commentId: M:CRMScript.NetServer.NSContactAgent.CreateDefaultContactEntity()
+  id: 'CreateDefaultContactEntity()'
+  so.intellisense: NSContactAgent.CreateDefaultContactEntity
+  langs:
+  - crmscript
+  name: 'CreateDefaultContactEntity()'
+  nameWithType: NSContactAgent.CreateDefaultContactEntity()
+  fullName: CRMScript.NetServer.NSContactAgent.CreateDefaultContactEntity()
+  type: Method
+  summary: "\nSets default values into a new NSContactEntity.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSContactEntity CreateDefaultContactEntity()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSContactEntity
+      description: "New ContactEntity with default values."
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nNSContactEntity thing = agent.CreateDefaultContactEntity();\nthing = agent.SaveContactEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.CreateNewEntry(NSDuplicateEntry)
+  commentId: M:CRMScript.NetServer.NSContactAgent.CreateNewEntry(NSDuplicateEntry)
+  id: 'CreateNewEntry(NSDuplicateEntry)'
+  so.intellisense: NSContactAgent.CreateNewEntry
+  langs:
+  - crmscript
+  name: 'CreateNewEntry(NSDuplicateEntry)'
+  nameWithType: NSContactAgent.CreateNewEntry(NSDuplicateEntry)
+  fullName: CRMScript.NetServer.NSContactAgent.CreateNewEntry(NSDuplicateEntry)
+  type: Method
+  summary: "\nCreates a new contact based on external duplicate\n"
+  remarks: 
+  syntax: 
+    content: Integer CreateNewEntry(NSDuplicateEntry duplicate)
+    parameters:
+    - id: duplicate
+      type: CRMScript.NetServer.NSDuplicateEntry
+      description: "The duplicate to create a new entry based upon."
+    return:
+      type: CRMScript.Global.Integer
+      description: "The database identity of the newly created entry."
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nNSDuplicateEntry duplicate;\nInteger res = agent.CreateNewEntry(duplicate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.DeleteContactEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSContactAgent.DeleteContactEntity(Integer)
+  id: 'DeleteContactEntity(Integer)'
+  so.intellisense: NSContactAgent.DeleteContactEntity
+  langs:
+  - crmscript
+  name: 'DeleteContactEntity(Integer)'
+  nameWithType: NSContactAgent.DeleteContactEntity(Integer)
+  fullName: CRMScript.NetServer.NSContactAgent.DeleteContactEntity(Integer)
+  type: Method
+  summary: "\nDeletes the NSContactEntity\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteContactEntity(Integer contactEntity)
+    parameters:
+    - id: contactEntity
+      type: CRMScript.Global.Integer
+      description: "The identity of the ContactEntity."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nagent.DeleteContactEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.DeleteExpired()
+  commentId: M:CRMScript.NetServer.NSContactAgent.DeleteExpired()
+  id: 'DeleteExpired()'
+  so.intellisense: NSContactAgent.DeleteExpired
+  langs:
+  - crmscript
+  name: 'DeleteExpired()'
+  nameWithType: NSContactAgent.DeleteExpired()
+  fullName: CRMScript.NetServer.NSContactAgent.DeleteExpired()
+  type: Method
+  summary: "\nTriggers deletion of contacts (companies) that has been (soft) deleted and have timed out the expiry period (the SoftDeleteRetention preference).\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteExpired()
+    parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSContactAgent.GetAddress(Integer)
+  commentId: M:CRMScript.NetServer.NSContactAgent.GetAddress(Integer)
+  id: 'GetAddress(Integer)'
+  so.intellisense: NSContactAgent.GetAddress
+  langs:
+  - crmscript
+  name: 'GetAddress(Integer)'
+  nameWithType: NSContactAgent.GetAddress(Integer)
+  fullName: CRMScript.NetServer.NSContactAgent.GetAddress(Integer)
+  type: Method
+  summary: "\nGets a contact's localized addressGets the contact's localized address\n"
+  remarks: 
+  syntax: 
+    content: LocalizedField[][]GetAddress(Integer contact Id)
+    parameters: 
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: "The contact Id."
+    return:
+      type: CRMScript.NetServer.LocalizedField[][]
+      description:
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nInteger contactId;\nNSAddress res = agent.GetAddress(contactId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.GetAddressByCountry(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSContactAgent.GetAddressByCountry(Integer,Integer)
+  id: 'GetAddressByCountry(Integer,Integer)'
+  so.intellisense: NSContactAgent.GetAddressByCountry
+  langs:
+  - crmscript
+  name: 'GetAddressByCountry(Integer,Integer)'
+  nameWithType: NSContactAgent.GetAddressByCountry(Integer,Integer)
+  fullName: CRMScript.NetServer.NSContactAgent.GetAddressByCountry(Integer,Integer)
+  type: Method
+  summary: "\nGets a contact's localized addressGets the contact's localized address\n"
+  remarks: 
+  syntax: 
+    content: LocalizedField[][] GetAddressByCountry(Integer contactId, Integer countryId)
+    parameters: 
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: "The contact ID"
+    - id: countryId
+      type: CRMScript.Global.Integer
+      description: "The country Id."
+    return:
+      type: CRMScript.NetServer.LocalizedField[][]
+      description:
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nInteger contactId;\nInteger countryId;\nNSAddress res = agent.GetAddressByCountry(contactId, countryId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.GetContact(Integer)
+  commentId: M:CRMScript.NetServer.NSContactAgent.GetContact(Integer)
+  id: 'GetContact(Integer)'
+  so.intellisense: NSContactAgent.GetContact
+  langs:
+  - crmscript
+  name: 'GetContact(Integer)'
+  nameWithType: NSContactAgent.GetContact(Integer)
+  fullName: CRMScript.NetServer.NSContactAgent.GetContact(Integer)
+  type: Method
+  summary: "\nGets an NSContact object.\n"
+  remarks: 
+  syntax: 
+    content: NSContact GetContact(Integer contactId)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: "The identifier of the Contact object."
+    return:
+      type: CRMScript.NetServer.NSContact
+      description:
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nNSContact thing = agent.GetContact(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.GetContactEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSContactAgent.GetContactEntity(Integer)
+  id: 'GetContactEntity(Integer)'
+  so.intellisense: NSContactAgent.GetContactEntity
+  langs:
+  - crmscript
+  name: 'GetContactEntity(Integer)'
+  nameWithType: NSContactAgent.GetContactEntity(Integer)
+  fullName: CRMScript.NetServer.NSContactAgent.GetContactEntity(Integer)
+  type: Method
+  summary: "\nGets an NSContactEntity object.\n"
+  remarks: 
+  syntax: 
+    content: NSContactEntity GetContactEntity(Integer contactEntityId)
+    parameters:
+    - id: contactEntityId
+      type: CRMScript.Global.Integer
+      description: "The identifier of the ContactEntity object."
+    return:
+      type: CRMScript.NetServer.NSContactEntity
+      description: 
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nNSContactEntity thing = agent.GetContactEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.GetContactList(Integer[])
+  commentId: M:CRMScript.NetServer.NSContactAgent.GetContactList(Integer[])
+  id: 'GetContactList(Integer[])'
+  so.intellisense: NSContactAgent.GetContactList
+  langs:
+  - crmscript
+  name: 'GetContactList(Integer[])'
+  nameWithType: NSContactAgent.GetContactList(Integer[])
+  fullName: CRMScript.NetServer.NSContactAgent.GetContactList(Integer[])
+  type: Method
+  summary: "\nGets an array of Contact objects.\n"
+  remarks: 
+  syntax: 
+    content: NSContact[] GetContactList(Integer[] contactIds)
+    parameters:
+    - id: contactIds
+      type: CRMScript.Global.Integer[]
+      description: "Array of identifiers for Contact."
+    return:
+      type: CRMScript.NetServer.NSContact[]
+      description: "Array of NSContact."
+  example: 
+  - "\n<pre><code>Integer[] ids;\nNSContactAgent agent;\nagent.GetContactList(ids);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.GetContactSummary(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSContactAgent.GetContactSummary(Integer,Integer)
+  id: 'GetContactSummary(Integer,Integer)'
+  so.intellisense: NSContactAgent.GetContactSummary
+  langs:
+  - crmscript
+  name: 'GetContactSummary(Integer,Integer)'
+  nameWithType: NSContactAgent.GetContactSummary(Integer,Integer)
+  fullName: CRMScript.NetServer.NSContactAgent.GetContactSummary(Integer,Integer)
+  type: Method
+  summary: "\nGets summary of contact and its recent activity.\n"
+  remarks: 
+  syntax: 
+    content: NSContactSummary GetContactSummary(Integer contactId, Integer limit)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: "The contact ID to summarize."
+    - id: limit
+      type: CRMScript.Global.Integer
+      description: "Max number of items to include in summary lists."
+    return:
+      type: CRMScript.NetServer.NSContactSummary
+      description: "Summary of contact, with recent requests, sales, follow-ups, chats."
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nInteger contactId;\nInteger limit;\nNSContactSummary res = agent.GetContactSummary(contactId, limit);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.GetContactWithPersons(Integer)
+  commentId: M:CRMScript.NetServer.NSContactAgent.GetContactWithPersons(Integer)
+  id: 'GetContactWithPersons(Integer)'
+  so.intellisense: NSContactAgent.GetContactWithPersons
+  langs:
+  - crmscript
+  name: 'GetContactWithPersons(Integer)'
+  nameWithType: NSContactAgent.GetContactWithPersons(Integer)
+  fullName: CRMScript.NetServer.NSContactAgent.GetContactWithPersons(Integer)
+  type: Method
+  summary: "\nReturns the contact with all the contact persons belonging to the contact\n"
+  remarks: 
+  syntax: 
+    content: NSContactEntity GetContactWithPersons(Integer contactId)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: "The ID of the contact."
+    return:
+      type: CRMScript.NetServer.NSContactEntity
+      description: "ContactEntity with all data and persons."
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nInteger contactId;\nNSContactEntity res = agent.GetContactWithPersons(contactId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.GetDuplicateRules()
+  commentId: M:CRMScript.NetServer.NSContactAgent.GetDuplicateRules()
+  id: 'GetDuplicateRules()'
+  so.intellisense: NSContactAgent.GetDuplicateRules
+  langs:
+  - crmscript
+  name: 'GetDuplicateRules()'
+  nameWithType: NSContactAgent.GetDuplicateRules()
+  fullName: CRMScript.NetServer.NSContactAgent.GetDuplicateRules()
+  type: Method
+  summary: "\nRetrieves all available duplicate rules for contact\n"
+  remarks: 
+  syntax: 
+    content: NSDuplicateRule[] GetDuplicateRules()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSDuplicateRule[]
+      description: "All available duplicate rules."
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nNSDuplicateRule[] res = agent.GetDuplicateRules();</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.GetDuplicates(String)
+  commentId: M:CRMScript.NetServer.NSContactAgent.GetDuplicates(String)
+  id: 'GetDuplicates(String)'
+  so.intellisense: NSContactAgent.GetDuplicates
+  langs:
+  - crmscript
+  name: 'GetDuplicates(String)'
+  nameWithType: NSContactAgent.GetDuplicates(String)
+  fullName: CRMScript.NetServer.NSContactAgent.GetDuplicates(String)
+  type: Method
+  summary: "\nGets duplicates (exact or similar in the database) based on the name\n"
+  remarks: 
+  syntax: 
+    content: NSDuplicateEntry[] GetDuplicates(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Name used for lookup."
+    return:
+      type: CRMScript.NetServer.NSDuplicateEntry[]
+      description: "Any records matching the specified name."
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nString name;\nNSDuplicateEntry[] res = agent.GetDuplicates(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.GetMyActiveContacts(DateTime.Integer[],Integer)
+  commentId: M:CRMScript.NetServer.NSContactAgent.GetMyActiveContacts(DateTime.Integer[],Integer)
+  id: 'GetMyActiveContacts(DateTime.Integer[],Integer)'
+  so.intellisense: NSContactAgent.GetMyActiveContacts
+  langs:
+  - crmscript
+  name: 'GetMyActiveContacts(DateTime.Integer[],Integer)'
+  nameWithType: NSContactAgent.GetMyActiveContacts(DateTime.Integer[],Integer)
+  fullName: CRMScript.NetServer.NSContactAgent.GetMyActiveContacts(DateTime.Integer[],Integer)
+  type: Method
+  summary: "\nReturns the contacts where there has been activity since activityStartTime.\n"
+  remarks: "\nIf activityStartTime is larger than the current date, all contacts with activity since the last log-out are returned. The result set can be filtered by category and action type.\n"
+  syntax: 
+    content: NSContactActivity[] GetMyActiveContacts(DateTime activityStartTime, Integer[] contactCategories, Integer actionType)
+    parameters:
+    - id: activityStartTime
+      type: CRMScript.Global.DateTime
+      description: "The start time of the activities. If the start time is set to a future date; activities since the user last logged out are returned."
+    - id: contactCategories
+      type: CRMScript.Global.Integer[]
+      description: "The type of action that has occurred. For example, updates, deletes, new appointments"
+    - id: actionType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.ContactAction\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSContactActivity[]
+      description: "Array of contacts where there have been activity in the period."
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nDateTime activityStartTime;\nInteger[] contactCategories;\nInteger actionType;\nNSContactActivity[] res = agent.GetMyActiveContacts(activityStartTime, contactCategories, actionType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.GetMyBizCard()
+  commentId: M:CRMScript.NetServer.NSContactAgent.GetMyBizCard()
+  id: 'GetMyBizCard()'
+  so.intellisense: NSContactAgent.GetMyBizCard
+  langs:
+  - crmscript
+  name: 'GetMyBizCard()'
+  nameWithType: NSContactAgent.GetMyBizCard()
+  fullName: CRMScript.NetServer.NSContactAgent.GetMyBizCard()
+  type: Method
+  summary: "\nReturns all data needed to display the logged on person's business card (company, person, and company interest data).\n"
+  remarks: 
+  syntax: 
+    content: NSContactEntity GetMyBizCard()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSContactEntity
+      description: "The contact object with persons and interests."
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nNSContactEntity res = agent.GetMyBizCard();</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.GetMyContact()
+  commentId: M:CRMScript.NetServer.NSContactAgent.GetMyContact()
+  id: 'GetMyContact()'
+  so.intellisense: NSContactAgent.GetMyContact
+  langs:
+  - crmscript
+  name: 'GetMyContact()'
+  nameWithType: NSContactAgent.GetMyContact()
+  fullName: CRMScript.NetServer.NSContactAgent.GetMyContact()
+  type: Method
+  summary: "\nGets the contact belonging to the currently logged-on user.\n"
+  remarks: 
+  syntax: 
+    content: NSContactEntity GetMyContact()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSContactEntity
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nNSContactEntity res = agent.GetMyContact();</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.GetMyContacts()
+  commentId: M:CRMScript.NetServer.NSContactAgent.GetMyContacts()
+  id: 'GetMyContacts()'
+  so.intellisense: NSContactAgent.GetMyContacts
+  langs:
+  - crmscript
+  name: 'GetMyContacts()'
+  nameWithType: NSContactAgent.GetMyContacts()
+  fullName: CRMScript.NetServer.NSContactAgent.GetMyContacts()
+  type: Method
+  summary: "\nGets the contacts where the user currently logged in is set as contact owner.\n"
+  remarks: 
+  syntax: 
+    content: NSContact[] GetMyContacts()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSContact[]
+      description: "The contact."
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nNSContact[] res = agent.GetMyContacts();</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.GetMyRecentContacts(Integer)
+  commentId: M:CRMScript.NetServer.NSContactAgent.GetMyRecentContacts(Integer)
+  id: 'GetMyRecentContacts(Integer)'
+  so.intellisense: NSContactAgent.GetMyRecentContacts
+  langs:
+  - crmscript
+  name: 'GetMyRecentContacts(Integer)'
+  nameWithType: NSContactAgent.GetMyRecentContacts(Integer)
+  fullName: CRMScript.NetServer.NSContactAgent.GetMyRecentContacts(Integer)
+  type: Method
+  summary: "\nReturns a set of initial contacts.\n"
+  remarks: "\nThis could be the contacts in a favorites selection, the history list, the diary, or from all sources. If retrieved from the diary it will get appointments for the current and the next day.\n"
+  syntax: 
+    content: NSContact[] GetMyRecentContacts(Integer sourceType)
+    parameters:
+    - id: sourceType
+      type: CRMScript.Global.Integer
+      description: "The source where the contacts are retrieved from (Favorites, History, Diary). See <xref href=\"CRMScript.NetServer.ContactSourceType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSContact[]
+      description: "Array of contacts."
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nInteger sourceType;\nNSContact[] res = agent.GetMyRecentContacts(sourceType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.GetNameDepartmentDuplicates(String,String)
+  commentId: M:CRMScript.NetServer.NSContactAgent.GetNameDepartmentDuplicates(String,String)
+  id: 'GetNameDepartmentDuplicates(String,String)'
+  so.intellisense: NSContactAgent.GetNameDepartmentDuplicates
+  langs:
+  - crmscript
+  name: 'GetNameDepartmentDuplicates(String,String)'
+  nameWithType: NSContactAgent.GetNameDepartmentDuplicates(String,String)
+  fullName: CRMScript.NetServer.NSContactAgent.GetNameDepartmentDuplicates(String,String)
+  type: Method
+  summary: "\nGets duplicates based on the contact name and department\n"
+  remarks: 
+  syntax: 
+    content: NSDuplicateEntry[] GetNameDepartmentDuplicates(String name, String department)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Name used for lookup"
+    - id: department
+      type: CRMScript.Global.String
+      description: "Department used for lookup (if any)."
+    return:
+      type: CRMScript.NetServer.NSDuplicateEntry[]
+      description: "Any records matching the specified name and department."
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nString name;\nString department;\nNSDuplicateEntry[] res = agent.GetNameDepartmentDuplicates(name, department);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.GetPersons(Integer)
+  commentId: M:CRMScript.NetServer.NSContactAgent.GetPersons(Integer)
+  id: 'GetPersons(Integer)'
+  so.intellisense: NSContactAgent.GetPersons
+  langs:
+  - crmscript
+  name: 'GetPersons(Integer)'
+  nameWithType: NSContactAgent.GetPersons(Integer)
+  fullName: CRMScript.NetServer.NSContactAgent.GetPersons(Integer)
+  type: Method
+  summary: "\nReturns an array of all the contact persons for the company card.\n"
+  remarks: 
+  syntax: 
+    content: NSPerson[] GetPersons(Integer contactId)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSPerson[]
+      description: "Array of Persons."
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nInteger contactId;\nNSPerson[] res = agent.GetPersons(contactId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.GetQuoteVersionAddresses(Integer)
+  commentId: M:CRMScript.NetServer.NSContactAgent.GetQuoteVersionAddresses(Integer)
+  id: 'GetQuoteVersionAddresses(Integer)'
+  so.intellisense: NSContactAgent.GetQuoteVersionAddresses
+  langs:
+  - crmscript
+  name: 'GetQuoteVersionAddresses(Integer)'
+  nameWithType: NSContactAgent.GetQuoteVersionAddresses(Integer)
+  fullName: CRMScript.NetServer.NSContactAgent.GetQuoteVersionAddresses(Integer)
+  type: Method
+  summary: "\nGets the associated billing and invoice quote version addresses.\n"
+  remarks: "\nThese addresses might be address on the contact, or a custom address.\n"
+  syntax: 
+    content: NSAddress[] GetQuoteVersionAddresses(Integer quoteVersionId)
+    parameters:
+    - id: quoteVersionId
+      type: CRMScript.Global.Integer
+      description: "The version to get the addresses for."
+    return:
+      type: CRMScript.NetServer.NSAddress[]
+      description: "The quote version addresses. Invoice and billing address, in that order."
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nInteger quoteVersionId;\nNSAddress[] res = agent.GetQuoteVersionAddresses(quoteVersionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.IsNumberValid(Integer,String)
+  commentId: M:CRMScript.NetServer.NSContactAgent.IsNumberValid(Integer,String)
+  id: 'IsNumberValid(Integer,String)'
+  so.intellisense: NSContactAgent.IsNumberValid
+  langs:
+  - crmscript
+  name: 'IsNumberValid(Integer,String)'
+  nameWithType: NSContactAgent.IsNumberValid(Integer,String)
+  fullName: CRMScript.NetServer.NSContactAgent.IsNumberValid(Integer,String)
+  type: Method
+  summary: "\nChecks if the number is unique or required. The setting is configured from admin under system options.\n"
+  remarks: 
+  syntax: 
+    content: Bool IsNumberValid(Integer contactId, String number)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: number
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSContactAgent.Merge(Integer,Integer,Bool,Bool)
+  commentId: M:CRMScript.NetServer.NSContactAgent.Merge(Integer,Integer,Bool,Bool)
+  id: 'Merge(Integer,Integer,Bool,Bool)'
+  so.intellisense: NSContactAgent.Merge
+  langs:
+  - crmscript
+  name: 'Merge(Integer,Integer,Bool,Bool)'
+  nameWithType: NSContactAgent.Merge(Integer,Integer,Bool,Bool)
+  fullName: CRMScript.NetServer.NSContactAgent.Merge(Integer,Integer,Bool,Bool)
+  type: Method
+  summary: "\nMerges two contacts. The destination contact will remain.\n"
+  remarks: 
+  syntax: 
+    content: Void Merge(Integer sourceContactId, Integer destinationContactId, Bool mergeIdenticalPersons, Bool replaceEmptyFieldsOnDestination)
+    parameters:
+    - id: sourceContactId
+      type: CRMScript.Global.Integer
+      description: "Source contact to merge from. This contact will disappear after the merge."
+    - id: destinationContactId
+      type: CRMScript.Global.Integer
+      description: "Destination contact to merge into"
+    - id: mergeIdenticalPersons
+      type: CRMScript.Global.Bool
+      description: "Persons with identical names will be merged"
+    - id: replaceEmptyFieldsOnDestination
+      type: CRMScript.Global.Bool
+      description: "If true, empty fields on destination will be replaced by values from source."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSContactAgent.SaveContactEntity(NSContactEntity)
+  commentId: M:CRMScript.NetServer.NSContactAgent.SaveContactEntity(NSContactEntity)
+  id: 'SaveContactEntity(NSContactEntity)'
+  so.intellisense: NSContactAgent.SaveContactEntity
+  langs:
+  - crmscript
+  name: 'SaveContactEntity(NSContactEntity)'
+  nameWithType: NSContactAgent.SaveContactEntity(NSContactEntity)
+  fullName: CRMScript.NetServer.NSContactAgent.SaveContactEntity(NSContactEntity)
+  type: Method
+  summary: "\nUpdates the existing NSContactEntity or creates a new NSContactEntity if the ID parameter is 0.\n"
+  remarks: 
+  syntax: 
+    content: NSContactEntity SaveContactEntity(NSContactEntity contactEntityId)
+    parameters: 
+    - id: contactEntityId
+      type: NSContactEntity
+      description:
+    return:
+      type: CRMScript.NetServer.NSContactEntity
+      description: "The new or updated NSContactEntity."
+  example: 
+  - "\n<pre><code>NSContact  agent;\nNSContactEntity thing = agent.CreateDefaultContactEntity();\nthing = agent.SaveContactEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.SaveQuoteVersionAddress(Integer,NSAddress,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSContactAgent.SaveQuoteVersionAddress(Integer,NSAddress,Integer,Integer)
+  id: 'SaveQuoteVersionAddress(Integer,NSAddress,Integer,Integer)'
+  so.intellisense: NSContactAgent.SaveQuoteVersionAddress
+  langs:
+  - crmscript
+  name: 'SaveQuoteVersionAddress(Integer,NSAddress,Integer,Integer)'
+  nameWithType: NSContactAgent.SaveQuoteVersionAddress(Integer,NSAddress,Integer,Integer)
+  fullName: CRMScript.NetServer.NSContactAgent.SaveQuoteVersionAddress(Integer,NSAddress,Integer,Integer)
+  type: Method
+  summary: "\nSaves a custom quote version address.\n"
+  remarks:
+  syntax: 
+    content: NSAddress SaveQuoteVersionAddress(Integer quoteVersionId, NSAddress address, Integer addressType, Integer countryId)
+    parameters:
+    - id: quoteVersionId
+      type: CRMScript.Global.Integer
+      description: "The version to save the address on."
+    - id: address
+      type: CRMScript.NetServer.NSAddress
+      description: "The address to save on the quote version."
+    - id: addressType
+      type: CRMScript.Global.Integer
+      description: "Should be either QuoteBillingAddress or QuoteShippingAddress"
+    - id: countryId
+      type: CRMScript.Global.Integer
+      description: "The country for the custom address."
+    return:
+      type: CRMScript.NetServer.NSAddress
+      description: "The saved addresses."
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nInteger quoteVersionId;\nNSAddress address;\nInteger addressType;\nInteger countryId;\nNSAddress res = agent.SaveQuoteVersionAddress(quoteVersionId, address, addressType, countryId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.SetDuplicateRulesStatus(NSDuplicateRule[])
+  commentId: M:CRMScript.NetServer.NSContactAgent.SetDuplicateRulesStatus(NSDuplicateRule[])
+  id: 'SetDuplicateRulesStatus(NSDuplicateRule[])'
+  so.intellisense: NSContactAgent.SetDuplicateRulesStatus
+  langs:
+  - crmscript
+  name: 'SetDuplicateRulesStatus(NSDuplicateRule[])'
+  nameWithType: NSContactAgent.SetDuplicateRulesStatus(NSDuplicateRule[])
+  fullName: CRMScript.NetServer.NSContactAgent.SetDuplicateRulesStatus(NSDuplicateRule[])
+  type: Method
+  summary: "\nSets which duplicate rules should be active or not\n"
+  remarks: 
+  syntax: 
+    content: Void SetDuplicateRulesStatus(NSDuplicateRule[] rules)
+    parameters:
+    - id: rules
+      type: CRMScript.NetServer.NSDuplicateRule[]
+      description: "Duplicate rules to update active status for."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSContactAgent.Undelete(Integer)
+  commentId: M:CRMScript.NetServer.NSContactAgent.Undelete(Integer)
+  id: 'Undelete(Integer)'
+  so.intellisense: NSContactAgent.Undelete
+  langs:
+  - crmscript
+  name: 'Undelete(Integer)'
+  nameWithType: NSContactAgent.Undelete(Integer)
+  fullName: CRMScript.NetServer.NSContactAgent.Undelete(Integer)
+  type: Method
+  summary: "\nThis entity supports Soft Delete. Call this method to Undelete a previously soft-deleted record\n"
+  remarks: 
+  syntax: 
+    content: Void Undelete(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "The primary key of the entity to un-delete."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nInteger id;\nagent.Undelete(id);</code></pre>\n"
+- uid: CRMScript.NetServer.NSContactAgent.ValidateContactEntity(NSContactEntity)
+  commentId: M:CRMScript.NetServer.NSContactAgent.ValidateContactEntity(NSContactEntity)
+  id: 'ValidateContactEntity(NSContactEntity)'
+  so.intellisense: NSContactAgent.ValidateContactEntity
+  langs:
+  - crmscript
+  name: 'ValidateContactEntity(NSContactEntity)'
+  nameWithType: NSContactAgent.ValidateContactEntity(NSContactEntity)
+  fullName: CRMScript.NetServer.NSContactAgent.ValidateContactEntity(NSContactEntity)
+  type: Method
+  summary: "\nChecks that entity is ready for saving, return error messages by field.\n"
+  remarks: 
+  syntax: 
+    content: Map ValidateContactEntity(NSContactEntity contactEntity)
+    parameters:
+    - id: contactEntity
+      type: CRMScript.NetServer.NSContactEntity
+      description: 
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSContactAgent agent;\nNSContactEntity contactEntity;\nMap res = agent.ValidateContactEntity(contactEntity);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSContactAgent
+  commentId: T:CRMScript.NetServer.NSContactAgent
+  isExternal: true
+  name: NSContactAgent
+  nameWithType: NSContactAgent
+  fullName: CRMScript.NetServer.NSContactAgent
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSPersonEntity
+  commentId: T:CRMScript.NetServer.NSPersonEntity
+  isExternal: true
+  name: NSPersonEntity
+  nameWithType: NSPersonEntity
+  fullName: CRMScript.NetServer.NSPersonEntity
+- uid: CRMScript.NetServer.NSContactEntity
+  commentId: T:CRMScript.NetServer.NSContactEntity
+  isExternal: true
+  name: NSContactEntity
+  nameWithType: NSContactEntity
+  fullName: CRMScript.NetServer.NSContactEntity
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSContact
+  commentId: T:CRMScript.NetServer.NSContact
+  isExternal: true
+  name: NSContact
+  nameWithType: NSContact
+  fullName: CRMScript.NetServer.NSContact
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    isExternal: true
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSContact[]
+  isExternal: true
+  name: NSContact[]
+  nameWithType: NSContact[]
+  fullName: CRMScript.NetServer.NSContact[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSContact
+    isExternal: true
+    name: NSContact
+    nameWithType: NSContact
+    fullName: CRMScript.NetServer.NSContact
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSContact
+  commentId: T:CRMScript.NetServer.NSContact
+  isExternal: true
+  name: NSContact
+  nameWithType: NSContact
+  fullName: CRMScript.NetServer.NSContact
+- uid: CRMScript.NetServer.NSContactSummary
+  commentId: T:CRMScript.NetServer.NSContactSummary
+  isExternal: true
+  name: NSContactSummary
+  nameWithType: NSContactSummary
+  fullName: CRMScript.NetServer.NSContactSummary
+- uid: CRMScript.NetServer.NSDuplicateRule[]
+  isExternal: true
+  name: NSDuplicateRule[]
+  nameWithType: NSDuplicateRule[]
+  fullName: CRMScript.NetServer.NSDuplicateRule[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSDuplicateRule
+    isExternal: true
+    name: NSDuplicateRule
+    nameWithType: NSDuplicateRule
+    fullName: CRMScript.NetServer.NSDuplicateRule
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSDuplicateRule
+  commentId: T:CRMScript.NetServer.NSDuplicateRule
+  isExternal: true
+  name: NSDuplicateRule
+  nameWithType: NSDuplicateRule
+  fullName: CRMScript.NetServer.NSDuplicateRule
+- uid: CRMScript.NetServer.NSDuplicateEntry[]
+  isExternal: true
+  name: NSDuplicateEntry[]
+  nameWithType: NSDuplicateEntry[]
+  fullName: CRMScript.NetServer.NSDuplicateEntry[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSDuplicateEntry
+    isExternal: true
+    name: NSDuplicateEntry
+    nameWithType: NSDuplicateEntry
+    fullName: CRMScript.NetServer.NSDuplicateEntry
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSDuplicateEntry
+  commentId: T:CRMScript.NetServer.NSDuplicateEntry
+  isExternal: true
+  name: NSDuplicateEntry
+  nameWithType: NSDuplicateEntry
+  fullName: CRMScript.NetServer.NSDuplicateEntry
+- uid: CRMScript.NetServer.NSContactActivity[]
+  isExternal: true
+  name: NSContactActivity[]
+  nameWithType: NSContactActivity[]
+  fullName: CRMScript.NetServer.NSContactActivity[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSContactActivity
+    isExternal: true
+    name: NSContactActivity
+    nameWithType: NSContactActivity
+    fullName: CRMScript.NetServer.NSContactActivity
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSContactActivity
+  commentId: T:CRMScript.NetServer.NSContactActivity
+  isExternal: true
+  name: NSContactActivity
+  nameWithType: NSContactActivity
+  fullName: CRMScript.NetServer.NSContactActivity
+- uid: CRMScript.NetServer.NSPerson[]
+  isExternal: true
+  name: NSPerson[]
+  nameWithType: NSPerson[]
+  fullName: CRMScript.NetServer.NSPerson[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSPerson
+    isExternal: true
+    name: NSPerson
+    nameWithType: NSPerson
+    fullName: CRMScript.NetServer.NSPerson
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSPerson
+  commentId: T:CRMScript.NetServer.NSPerson
+  isExternal: true
+  name: NSPerson
+  nameWithType: NSPerson
+  fullName: CRMScript.NetServer.NSPerson
+- uid: CRMScript.NetServer.NSAddress[]
+  isExternal: true
+  name: NSAddress[]
+  nameWithType: NSAddress[]
+  fullName: CRMScript.NetServer.NSAddress[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSAddress
+    isExternal: true
+    name: NSAddress
+    nameWithType: NSAddress
+    fullName: CRMScript.NetServer.NSAddress
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSAddress
+  commentId: T:CRMScript.NetServer.NSAddress
+  isExternal: true
+  name: NSAddress
+  nameWithType: NSAddress
+  fullName: CRMScript.NetServer.NSAddress
+- uid: CRMScript.NetServer.NSAddress
+  commentId: T:CRMScript.NetServer.NSAddress
+  isExternal: true
+  name: NSAddress
+  nameWithType: NSAddress
+  fullName: CRMScript.NetServer.NSAddress
+- uid: CRMScript.Native.Map
+  commentId: T:CRMScript.Native.Map
+  isExternal: true
+  name: Map
+  nameWithType: Map
+  fullName: CRMScript.Native.Map
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.ContactAction
+  commentId: T:CRMScript.NetServer.ContactAction
+  isExternal: true
+  name: ContactAction
+  nameWithType: ContactAction
+  fullName: CRMScript.NetServer.ContactAction
+- uid: CRMScript.NetServer.ContactSourceType
+  commentId: T:CRMScript.NetServer.ContactSourceType
+  isExternal: true
+  name: ContactSourceType
+  nameWithType: ContactSourceType
+  fullName: CRMScript.NetServer.ContactSourceType
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

@@ -1,0 +1,171 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSImportErpData
+  commentId: T:CRMScript.NetServer.NSImportErpData
+  id: NSImportErpData
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSImportErpData.#ctor
+  - CRMScript.NetServer.NSImportErpData.GetColumnInfos()
+  - CRMScript.NetServer.NSImportErpData.GetImportLines()
+  - CRMScript.NetServer.NSImportErpData.SetColumnInfos(NSImportColumnInfo[])
+  - CRMScript.NetServer.NSImportErpData.SetImportLines(NSImportLine[])
+  name: NSImportErpData
+  nameWithType: NSImportErpData
+  fullName: CRMScript.NetServer.NSImportErpData
+  type: Class
+  summary: "\nUsed to import data into the system. Representing one entity that will be imported.\n"
+  example: 
+- uid: CRMScript.NetServer.NSImportErpData.#ctor
+  commentId: M:CRMScript.NetServer.NSImportErpData.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSImportErpData
+  langs:
+  - crmscript
+  name: NSImportErpData()
+  nameWithType: NSImportErpData.#ctor
+  fullName: CRMScript.NetServer.NSImportErpData.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSImportErpData class.\n"
+  remarks: 
+  syntax: 
+    content: NSImportErpData
+  example: 
+- uid: CRMScript.NetServer.NSImportErpData.GetColumnInfos()
+  commentId: M:CRMScript.NetServer.NSImportErpData.GetColumnInfos()
+  id: 'GetColumnInfos()'
+  so.intellisense: NSImportErpData.GetColumnInfos
+  langs:
+  - crmscript
+  name: 'GetColumnInfos()'
+  nameWithType: NSImportErpData.GetColumnInfos()
+  fullName: CRMScript.NetServer.NSImportErpData.GetColumnInfos()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSImportColumnInfo[] GetColumnInfos()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSImportColumnInfo[]
+      description: "Array of column definitions."
+  example: 
+  - "\n<pre><code>NSImportErpData thing;\nNSImportColumnInfo[] columnInfos = thing.GetColumnInfos();</code></pre>\n"
+- uid: CRMScript.NetServer.NSImportErpData.GetImportLines()
+  commentId: M:CRMScript.NetServer.NSImportErpData.GetImportLines()
+  id: 'GetImportLines()'
+  so.intellisense: NSImportErpData.GetImportLines
+  langs:
+  - crmscript
+  name: 'GetImportLines()'
+  nameWithType: NSImportErpData.GetImportLines()
+  fullName: CRMScript.NetServer.NSImportErpData.GetImportLines()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSImportLine[] GetImportLines()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSImportLine[]
+      description: "An array of Import lines."
+  example: 
+  - "\n<pre><code>NSImportErpData thing;\nNSImportLine[] importLines = thing.GetImportLines();</code></pre>\n"
+- uid: CRMScript.NetServer.NSImportErpData.SetColumnInfos(NSImportColumnInfo[])
+  commentId: M:CRMScript.NetServer.NSImportErpData.SetColumnInfos(NSImportColumnInfo[])
+  id: 'SetColumnInfos(NSImportColumnInfo[])'
+  so.intellisense: NSImportErpData.SetColumnInfos
+  langs:
+  - crmscript
+  name: 'SetColumnInfos(NSImportColumnInfo[])'
+  nameWithType: NSImportErpData.SetColumnInfos(NSImportColumnInfo[])
+  fullName: CRMScript.NetServer.NSImportErpData.SetColumnInfos(NSImportColumnInfo[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetColumnInfos(NSImportColumnInfo[] columnInfos)
+    parameters:
+    - id: columnInfos
+      type: CRMScript.NetServer.NSImportColumnInfo[]
+      description: "Array of column definitions."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSImportErpData thing;\nNSImportColumnInfo[] columnInfos;\nthing.SetColumnInfos(columnInfos);</code></pre>\n"
+- uid: CRMScript.NetServer.NSImportErpData.SetImportLines(NSImportLine[])
+  commentId: M:CRMScript.NetServer.NSImportErpData.SetImportLines(NSImportLine[])
+  id: 'SetImportLines(NSImportLine[])'
+  so.intellisense: NSImportErpData.SetImportLines
+  langs:
+  - crmscript
+  name: 'SetImportLines(NSImportLine[])'
+  nameWithType: NSImportErpData.SetImportLines(NSImportLine[])
+  fullName: CRMScript.NetServer.NSImportErpData.SetImportLines(NSImportLine[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetImportLines(NSImportLine[] importLines)
+    parameters:
+    - id: importLines
+      type: CRMScript.NetServer.NSImportLine[]
+      description: "An array of Import lines."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSImportErpData thing;\nNSImportLine[] importLines;\nthing.SetImportLines(importLines);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSImportErpData
+  commentId: T:CRMScript.NetServer.NSImportErpData
+  isExternal: true
+  name: NSImportErpData
+  nameWithType: NSImportErpData
+  fullName: CRMScript.NetServer.NSImportErpData
+- uid: CRMScript.NetServer.NSImportColumnInfo[]
+  isExternal: true
+  name: NSImportColumnInfo[]
+  nameWithType: NSImportColumnInfo[]
+  fullName: CRMScript.NetServer.NSImportColumnInfo[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSImportColumnInfo
+    isExternal: true
+    name: NSImportColumnInfo
+    nameWithType: NSImportColumnInfo
+    fullName: CRMScript.NetServer.NSImportColumnInfo
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSImportColumnInfo
+  commentId: T:CRMScript.NetServer.NSImportColumnInfo
+  isExternal: true
+  name: NSImportColumnInfo
+  nameWithType: NSImportColumnInfo
+  fullName: CRMScript.NetServer.NSImportColumnInfo
+- uid: CRMScript.NetServer.NSImportLine[]
+  isExternal: true
+  name: NSImportLine[]
+  nameWithType: NSImportLine[]
+  fullName: CRMScript.NetServer.NSImportLine[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSImportLine
+    isExternal: true
+    name: NSImportLine
+    nameWithType: NSImportLine
+    fullName: CRMScript.NetServer.NSImportLine
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSImportLine
+  commentId: T:CRMScript.NetServer.NSImportLine
+  isExternal: true
+  name: NSImportLine
+  nameWithType: NSImportLine
+  fullName: CRMScript.NetServer.NSImportLine
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

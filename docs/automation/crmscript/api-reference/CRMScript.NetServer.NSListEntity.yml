@@ -1,0 +1,501 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSListEntity
+  commentId: T:CRMScript.NetServer.NSListEntity
+  id: NSListEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSListEntity.#ctor
+  - CRMScript.NetServer.NSListEntity.GetDeleted()
+  - CRMScript.NetServer.NSListEntity.GetId()
+  - CRMScript.NetServer.NSListEntity.GetInUseByUserDefinedFields()
+  - CRMScript.NetServer.NSListEntity.GetIsCustomList()
+  - CRMScript.NetServer.NSListEntity.GetIsMDOList()
+  - CRMScript.NetServer.NSListEntity.GetListType()
+  - CRMScript.NetServer.NSListEntity.GetName()
+  - CRMScript.NetServer.NSListEntity.GetRank()
+  - CRMScript.NetServer.NSListEntity.GetTooltip()
+  - CRMScript.NetServer.NSListEntity.GetUseGroupsAndHeadings()
+  - CRMScript.NetServer.NSListEntity.SetDeleted(Bool)
+  - CRMScript.NetServer.NSListEntity.SetId(Integer)
+  - CRMScript.NetServer.NSListEntity.SetInUseByUserDefinedFields(Bool)
+  - CRMScript.NetServer.NSListEntity.SetIsCustomList(Bool)
+  - CRMScript.NetServer.NSListEntity.SetIsMDOList(Bool)
+  - CRMScript.NetServer.NSListEntity.SetListType(String)
+  - CRMScript.NetServer.NSListEntity.SetName(String)
+  - CRMScript.NetServer.NSListEntity.SetRank(Integer)
+  - CRMScript.NetServer.NSListEntity.SetTooltip(String)
+  - CRMScript.NetServer.NSListEntity.SetUseGroupsAndHeadings(Bool)
+  name: NSListEntity
+  nameWithType: NSListEntity
+  fullName: CRMScript.NetServer.NSListEntity
+  type: Class
+  summary: "\nThe list entity contains information about a specific list.\n"
+  example: 
+- uid: CRMScript.NetServer.NSListEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSListEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSListEntity
+  langs:
+  - crmscript
+  name: NSListEntity()
+  nameWithType: NSListEntity.#ctor
+  fullName: CRMScript.NetServer.NSListEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSListEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSListEntity
+  example: 
+- uid: CRMScript.NetServer.NSListEntity.GetDeleted()
+  commentId: M:CRMScript.NetServer.NSListEntity.GetDeleted()
+  id: 'GetDeleted()'
+  so.intellisense: NSListEntity.GetDeleted
+  langs:
+  - crmscript
+  name: 'GetDeleted()'
+  nameWithType: NSListEntity.GetDeleted()
+  fullName: CRMScript.NetServer.NSListEntity.GetDeleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetDeleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the list item is marked as deleted."
+  example: 
+  - "\n<pre><code>NSListEntity thing;\nBool deleted = thing.GetDeleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSListEntity.GetId()
+  commentId: M:CRMScript.NetServer.NSListEntity.GetId()
+  id: 'GetId()'
+  so.intellisense: NSListEntity.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSListEntity.GetId()
+  fullName: CRMScript.NetServer.NSListEntity.GetId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The identity of the list."
+  example: 
+  - "\n<pre><code>NSListEntity thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSListEntity.GetInUseByUserDefinedFields()
+  commentId: M:CRMScript.NetServer.NSListEntity.GetInUseByUserDefinedFields()
+  id: 'GetInUseByUserDefinedFields()'
+  so.intellisense: NSListEntity.GetInUseByUserDefinedFields
+  langs:
+  - crmscript
+  name: 'GetInUseByUserDefinedFields()'
+  nameWithType: NSListEntity.GetInUseByUserDefinedFields()
+  fullName: CRMScript.NetServer.NSListEntity.GetInUseByUserDefinedFields()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetInUseByUserDefinedFields()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if this in use by one or more udfields."
+  example: 
+  - "\n<pre><code>NSListEntity thing;\nBool inUseByUserDefinedFields = thing.GetInUseByUserDefinedFields();</code></pre>\n"
+- uid: CRMScript.NetServer.NSListEntity.GetIsCustomList()
+  commentId: M:CRMScript.NetServer.NSListEntity.GetIsCustomList()
+  id: 'GetIsCustomList()'
+  so.intellisense: NSListEntity.GetIsCustomList
+  langs:
+  - crmscript
+  name: 'GetIsCustomList()'
+  nameWithType: NSListEntity.GetIsCustomList()
+  fullName: CRMScript.NetServer.NSListEntity.GetIsCustomList()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsCustomList()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Indicates if this is a custom list or a standard list."
+  example: 
+  - "\n<pre><code>NSListEntity thing;\nBool isCustomList = thing.GetIsCustomList();</code></pre>\n"
+- uid: CRMScript.NetServer.NSListEntity.GetIsMDOList()
+  commentId: M:CRMScript.NetServer.NSListEntity.GetIsMDOList()
+  id: 'GetIsMDOList()'
+  so.intellisense: NSListEntity.GetIsMDOList
+  langs:
+  - crmscript
+  name: 'GetIsMDOList()'
+  nameWithType: NSListEntity.GetIsMDOList()
+  fullName: CRMScript.NetServer.NSListEntity.GetIsMDOList()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsMDOList()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Indicates if this is an MDO list."
+  example: 
+  - "\n<pre><code>NSListEntity thing;\nBool isMDOList = thing.GetIsMDOList();</code></pre>\n"
+- uid: CRMScript.NetServer.NSListEntity.GetListType()
+  commentId: M:CRMScript.NetServer.NSListEntity.GetListType()
+  id: 'GetListType()'
+  so.intellisense: NSListEntity.GetListType
+  langs:
+  - crmscript
+  name: 'GetListType()'
+  nameWithType: NSListEntity.GetListType()
+  fullName: CRMScript.NetServer.NSListEntity.GetListType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetListType()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The type of this list, often indicated by the database name, but not necessarily."
+  example: 
+  - "\n<pre><code>NSListEntity thing;\nString listType = thing.GetListType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSListEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSListEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSListEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSListEntity.GetName()
+  fullName: CRMScript.NetServer.NSListEntity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the list."
+  example: 
+  - "\n<pre><code>NSListEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSListEntity.GetRank()
+  commentId: M:CRMScript.NetServer.NSListEntity.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSListEntity.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSListEntity.GetRank()
+  fullName: CRMScript.NetServer.NSListEntity.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The rank of the list."
+  example: 
+  - "\n<pre><code>NSListEntity thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSListEntity.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSListEntity.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSListEntity.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSListEntity.GetTooltip()
+  fullName: CRMScript.NetServer.NSListEntity.GetTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The tooltip of the list."
+  example: 
+  - "\n<pre><code>NSListEntity thing;\nString tooltip = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSListEntity.GetUseGroupsAndHeadings()
+  commentId: M:CRMScript.NetServer.NSListEntity.GetUseGroupsAndHeadings()
+  id: 'GetUseGroupsAndHeadings()'
+  so.intellisense: NSListEntity.GetUseGroupsAndHeadings
+  langs:
+  - crmscript
+  name: 'GetUseGroupsAndHeadings()'
+  nameWithType: NSListEntity.GetUseGroupsAndHeadings()
+  fullName: CRMScript.NetServer.NSListEntity.GetUseGroupsAndHeadings()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetUseGroupsAndHeadings()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Indicates if this list should use groups and headings."
+  example: 
+  - "\n<pre><code>NSListEntity thing;\nBool useGroupsAndHeadings = thing.GetUseGroupsAndHeadings();</code></pre>\n"
+- uid: CRMScript.NetServer.NSListEntity.SetDeleted(Bool)
+  commentId: M:CRMScript.NetServer.NSListEntity.SetDeleted(Bool)
+  id: 'SetDeleted(Bool)'
+  so.intellisense: NSListEntity.SetDeleted
+  langs:
+  - crmscript
+  name: 'SetDeleted(Bool)'
+  nameWithType: NSListEntity.SetDeleted(Bool)
+  fullName: CRMScript.NetServer.NSListEntity.SetDeleted(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeleted(Bool deleted)
+    parameters:
+    - id: deleted
+      type: CRMScript.Global.Bool
+      description: "True if the list item is marked as deleted."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSListEntity thing;\nBool deleted;\nthing.SetDeleted(deleted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSListEntity.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSListEntity.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSListEntity.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSListEntity.SetId(Integer)
+  fullName: CRMScript.NetServer.NSListEntity.SetId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "The identity of the list."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSListEntity thing;\nInteger id;\nthing.SetId(id);</code></pre>\n"
+- uid: CRMScript.NetServer.NSListEntity.SetInUseByUserDefinedFields(Bool)
+  commentId: M:CRMScript.NetServer.NSListEntity.SetInUseByUserDefinedFields(Bool)
+  id: 'SetInUseByUserDefinedFields(Bool)'
+  so.intellisense: NSListEntity.SetInUseByUserDefinedFields
+  langs:
+  - crmscript
+  name: 'SetInUseByUserDefinedFields(Bool)'
+  nameWithType: NSListEntity.SetInUseByUserDefinedFields(Bool)
+  fullName: CRMScript.NetServer.NSListEntity.SetInUseByUserDefinedFields(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetInUseByUserDefinedFields(Bool inUseByUserDefinedFields)
+    parameters:
+    - id: inUseByUserDefinedFields
+      type: CRMScript.Global.Bool
+      description: "True if this in use by one or more udfields."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSListEntity thing;\nBool inUseByUserDefinedFields;\nthing.SetInUseByUserDefinedFields(inUseByUserDefinedFields);</code></pre>\n"
+- uid: CRMScript.NetServer.NSListEntity.SetIsCustomList(Bool)
+  commentId: M:CRMScript.NetServer.NSListEntity.SetIsCustomList(Bool)
+  id: 'SetIsCustomList(Bool)'
+  so.intellisense: NSListEntity.SetIsCustomList
+  langs:
+  - crmscript
+  name: 'SetIsCustomList(Bool)'
+  nameWithType: NSListEntity.SetIsCustomList(Bool)
+  fullName: CRMScript.NetServer.NSListEntity.SetIsCustomList(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsCustomList(Bool isCustomList)
+    parameters:
+    - id: isCustomList
+      type: CRMScript.Global.Bool
+      description: "Indicates if this is a custom list or a standard list."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSListEntity thing;\nBool isCustomList;\nthing.SetIsCustomList(isCustomList);</code></pre>\n"
+- uid: CRMScript.NetServer.NSListEntity.SetIsMDOList(Bool)
+  commentId: M:CRMScript.NetServer.NSListEntity.SetIsMDOList(Bool)
+  id: 'SetIsMDOList(Bool)'
+  so.intellisense: NSListEntity.SetIsMDOList
+  langs:
+  - crmscript
+  name: 'SetIsMDOList(Bool)'
+  nameWithType: NSListEntity.SetIsMDOList(Bool)
+  fullName: CRMScript.NetServer.NSListEntity.SetIsMDOList(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsMDOList(Bool isMDOList)
+    parameters:
+    - id: isMDOList
+      type: CRMScript.Global.Bool
+      description: "Indicates if this is an MDO list."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSListEntity thing;\nBool isMDOList;\nthing.SetIsMDOList(isMDOList);</code></pre>\n"
+- uid: CRMScript.NetServer.NSListEntity.SetListType(String)
+  commentId: M:CRMScript.NetServer.NSListEntity.SetListType(String)
+  id: 'SetListType(String)'
+  so.intellisense: NSListEntity.SetListType
+  langs:
+  - crmscript
+  name: 'SetListType(String)'
+  nameWithType: NSListEntity.SetListType(String)
+  fullName: CRMScript.NetServer.NSListEntity.SetListType(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetListType(String listType)
+    parameters:
+    - id: listType
+      type: CRMScript.Global.String
+      description: "The type of this list, often indicated by the database name, but not necessarily."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSListEntity thing;\nString listType;\nthing.SetListType(listType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSListEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSListEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSListEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSListEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSListEntity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of the list."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSListEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSListEntity.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSListEntity.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSListEntity.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSListEntity.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSListEntity.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "The rank of the list."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSListEntity thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSListEntity.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSListEntity.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSListEntity.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSListEntity.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSListEntity.SetTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: "The tooltip of the list."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSListEntity thing;\nString tooltip;\nthing.SetTooltip(tooltip);</code></pre>\n"
+- uid: CRMScript.NetServer.NSListEntity.SetUseGroupsAndHeadings(Bool)
+  commentId: M:CRMScript.NetServer.NSListEntity.SetUseGroupsAndHeadings(Bool)
+  id: 'SetUseGroupsAndHeadings(Bool)'
+  so.intellisense: NSListEntity.SetUseGroupsAndHeadings
+  langs:
+  - crmscript
+  name: 'SetUseGroupsAndHeadings(Bool)'
+  nameWithType: NSListEntity.SetUseGroupsAndHeadings(Bool)
+  fullName: CRMScript.NetServer.NSListEntity.SetUseGroupsAndHeadings(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUseGroupsAndHeadings(Bool useGroupsAndHeadings)
+    parameters:
+    - id: useGroupsAndHeadings
+      type: CRMScript.Global.Bool
+      description: "Indicates if this list should use groups and headings."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSListEntity thing;\nBool useGroupsAndHeadings;\nthing.SetUseGroupsAndHeadings(useGroupsAndHeadings);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSListEntity
+  commentId: T:CRMScript.NetServer.NSListEntity
+  isExternal: true
+  name: NSListEntity
+  nameWithType: NSListEntity
+  fullName: CRMScript.NetServer.NSListEntity
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

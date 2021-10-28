@@ -1,0 +1,1507 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSProjectEntity
+  commentId: T:CRMScript.NetServer.NSProjectEntity
+  id: NSProjectEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSProjectEntity.#ctor
+  - CRMScript.NetServer.NSProjectEntity.GetActiveErpLinks()
+  - CRMScript.NetServer.NSProjectEntity.GetActiveLinks()
+  - CRMScript.NetServer.NSProjectEntity.GetActiveStatusMonitorId()
+  - CRMScript.NetServer.NSProjectEntity.GetAssociate()
+  - CRMScript.NetServer.NSProjectEntity.GetCompleted()
+  - CRMScript.NetServer.NSProjectEntity.GetCreatedBy()
+  - CRMScript.NetServer.NSProjectEntity.GetCreatedDate()
+  - CRMScript.NetServer.NSProjectEntity.GetCustomFields()
+  - CRMScript.NetServer.NSProjectEntity.GetDescription()
+  - CRMScript.NetServer.NSProjectEntity.GetEndDate()
+  - CRMScript.NetServer.NSProjectEntity.GetExtraFields()
+  - CRMScript.NetServer.NSProjectEntity.GetHasImage()
+  - CRMScript.NetServer.NSProjectEntity.GetImageDescription()
+  - CRMScript.NetServer.NSProjectEntity.GetIsPublished()
+  - CRMScript.NetServer.NSProjectEntity.GetLinks()
+  - CRMScript.NetServer.NSProjectEntity.GetName()
+  - CRMScript.NetServer.NSProjectEntity.GetNextMilestoneDate()
+  - CRMScript.NetServer.NSProjectEntity.GetNmdAppointmentId()
+  - CRMScript.NetServer.NSProjectEntity.GetPostit()
+  - CRMScript.NetServer.NSProjectEntity.GetProjectId()
+  - CRMScript.NetServer.NSProjectEntity.GetProjectMembers()
+  - CRMScript.NetServer.NSProjectEntity.GetProjectNumber()
+  - CRMScript.NetServer.NSProjectEntity.GetProjectStatus()
+  - CRMScript.NetServer.NSProjectEntity.GetProjectType()
+  - CRMScript.NetServer.NSProjectEntity.GetPublishEventDate()
+  - CRMScript.NetServer.NSProjectEntity.GetPublishFrom()
+  - CRMScript.NetServer.NSProjectEntity.GetPublishTo()
+  - CRMScript.NetServer.NSProjectEntity.GetUpdatedBy()
+  - CRMScript.NetServer.NSProjectEntity.GetUpdatedDate()
+  - CRMScript.NetServer.NSProjectEntity.GetUrls()
+  - CRMScript.NetServer.NSProjectEntity.GetUserDefinedFields()
+  - CRMScript.NetServer.NSProjectEntity.SetActiveErpLinks(Integer)
+  - CRMScript.NetServer.NSProjectEntity.SetActiveLinks(Integer)
+  - CRMScript.NetServer.NSProjectEntity.SetActiveStatusMonitorId(Integer)
+  - CRMScript.NetServer.NSProjectEntity.SetAssociate(NSAssociate)
+  - CRMScript.NetServer.NSProjectEntity.SetCompleted(Bool)
+  - CRMScript.NetServer.NSProjectEntity.SetCreatedBy(NSAssociate)
+  - CRMScript.NetServer.NSProjectEntity.SetCreatedDate(DateTime)
+  - CRMScript.NetServer.NSProjectEntity.SetCustomFields(Map)
+  - CRMScript.NetServer.NSProjectEntity.SetDescription(String)
+  - CRMScript.NetServer.NSProjectEntity.SetEndDate(DateTime)
+  - CRMScript.NetServer.NSProjectEntity.SetExtraFields(Map)
+  - CRMScript.NetServer.NSProjectEntity.SetHasImage(Bool)
+  - CRMScript.NetServer.NSProjectEntity.SetImageDescription(String)
+  - CRMScript.NetServer.NSProjectEntity.SetIsPublished(Bool)
+  - CRMScript.NetServer.NSProjectEntity.SetLinks(NSLink[])
+  - CRMScript.NetServer.NSProjectEntity.SetName(String)
+  - CRMScript.NetServer.NSProjectEntity.SetNextMilestoneDate(DateTime)
+  - CRMScript.NetServer.NSProjectEntity.SetNmdAppointmentId(Integer)
+  - CRMScript.NetServer.NSProjectEntity.SetPostit(String)
+  - CRMScript.NetServer.NSProjectEntity.SetProjectId(Integer)
+  - CRMScript.NetServer.NSProjectEntity.SetProjectMembers(NSProjectMember[])
+  - CRMScript.NetServer.NSProjectEntity.SetProjectNumber(String)
+  - CRMScript.NetServer.NSProjectEntity.SetProjectStatus(NSProjectStatus)
+  - CRMScript.NetServer.NSProjectEntity.SetProjectType(NSProjectType)
+  - CRMScript.NetServer.NSProjectEntity.SetPublishEventDate(DateTime)
+  - CRMScript.NetServer.NSProjectEntity.SetPublishFrom(DateTime)
+  - CRMScript.NetServer.NSProjectEntity.SetPublishTo(DateTime)
+  - CRMScript.NetServer.NSProjectEntity.SetUpdatedBy(NSAssociate)
+  - CRMScript.NetServer.NSProjectEntity.SetUpdatedDate(DateTime)
+  - CRMScript.NetServer.NSProjectEntity.SetUrls(NSEntityElement[])
+  - CRMScript.NetServer.NSProjectEntity.SetUserDefinedFields(Map)
+  name: NSProjectEntity
+  nameWithType: NSProjectEntity
+  fullName: CRMScript.NetServer.NSProjectEntity
+  type: Class
+  summary: "\nThe Project Service. The service implements all services working with the Project object.\n"
+  example: 
+- uid: CRMScript.NetServer.NSProjectEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSProjectEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSProjectEntity
+  langs:
+  - crmscript
+  name: NSProjectEntity()
+  nameWithType: NSProjectEntity.#ctor
+  fullName: CRMScript.NetServer.NSProjectEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSProjectEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSProjectEntity
+  example: 
+- uid: CRMScript.NetServer.NSProjectEntity.GetActiveErpLinks()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetActiveErpLinks()
+  id: 'GetActiveErpLinks()'
+  so.intellisense: NSProjectEntity.GetActiveErpLinks
+  langs:
+  - crmscript
+  name: 'GetActiveErpLinks()'
+  nameWithType: NSProjectEntity.GetActiveErpLinks()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetActiveErpLinks()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetActiveErpLinks()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The number of active ERP links."
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nInteger activeErpLinks = thing.GetActiveErpLinks();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetActiveLinks()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetActiveLinks()
+  id: 'GetActiveLinks()'
+  so.intellisense: NSProjectEntity.GetActiveLinks
+  langs:
+  - crmscript
+  name: 'GetActiveLinks()'
+  nameWithType: NSProjectEntity.GetActiveLinks()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetActiveLinks()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetActiveLinks()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of active links to documents, other appointments, and such."
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nInteger activeLinks = thing.GetActiveLinks();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetActiveStatusMonitorId()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetActiveStatusMonitorId()
+  id: 'GetActiveStatusMonitorId()'
+  so.intellisense: NSProjectEntity.GetActiveStatusMonitorId
+  langs:
+  - crmscript
+  name: 'GetActiveStatusMonitorId()'
+  nameWithType: NSProjectEntity.GetActiveStatusMonitorId()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetActiveStatusMonitorId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetActiveStatusMonitorId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Active status monitor identity with the lowest rank for project."
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nInteger activeStatusMonitorId = thing.GetActiveStatusMonitorId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetAssociate()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetAssociate()
+  id: 'GetAssociate()'
+  so.intellisense: NSProjectEntity.GetAssociate
+  langs:
+  - crmscript
+  name: 'GetAssociate()'
+  nameWithType: NSProjectEntity.GetAssociate()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetAssociate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetAssociate()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "The person that created the project."
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nNSAssociate associate = thing.GetAssociate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetCompleted()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetCompleted()
+  id: 'GetCompleted()'
+  so.intellisense: NSProjectEntity.GetCompleted
+  langs:
+  - crmscript
+  name: 'GetCompleted()'
+  nameWithType: NSProjectEntity.GetCompleted()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetCompleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetCompleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Done (0=false, 1=true); implies changes in which fields are shown in GUI, as well as which fields can be updated."
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nBool completed = thing.GetCompleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetCreatedBy()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetCreatedBy()
+  id: 'GetCreatedBy()'
+  so.intellisense: NSProjectEntity.GetCreatedBy
+  langs:
+  - crmscript
+  name: 'GetCreatedBy()'
+  nameWithType: NSProjectEntity.GetCreatedBy()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetCreatedBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetCreatedBy()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "The person that created the project."
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nNSAssociate createdBy = thing.GetCreatedBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetCreatedDate()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetCreatedDate()
+  id: 'GetCreatedDate()'
+  so.intellisense: NSProjectEntity.GetCreatedDate
+  langs:
+  - crmscript
+  name: 'GetCreatedDate()'
+  nameWithType: NSProjectEntity.GetCreatedDate()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetCreatedDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetCreatedDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Registered date."
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nDateTime createdDate = thing.GetCreatedDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetCustomFields()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetCustomFields()
+  id: 'GetCustomFields()'
+  so.intellisense: NSProjectEntity.GetCustomFields
+  langs:
+  - crmscript
+  name: 'GetCustomFields()'
+  nameWithType: NSProjectEntity.GetCustomFields()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetCustomFields()
+  type: Method
+  summary: "\nGets the user-defined + extra fields on a ProjectEntity as a map.\n"
+  remarks: 
+  syntax: 
+    content: Map GetCustomFields()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nMap udefs = thing.GetCustomFields();\nlog( udefs[&quot;SuperOffice:1&quot;] ); // &quot;[I:123]&quot;* integer or list item id\nlog( udefs[&quot;SuperOffice:1:DisplayText&quot;] ); // &quot;bla bla&quot;* list item value\nlog( udefs[&quot;custom.progid&quot;] ); // &quot;foobar&quot;* string value\nlog( udefs[&quot;x_bar&quot;] ); // &quot;[I:123]&quot;* list item id\nlog( udefs[&quot;x_bar:DisplayText&quot;] ); // &quot;foobar&quot;* list item name value</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetDescription()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSProjectEntity.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSProjectEntity.GetDescription()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases."
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetEndDate()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetEndDate()
+  id: 'GetEndDate()'
+  so.intellisense: NSProjectEntity.GetEndDate
+  langs:
+  - crmscript
+  name: 'GetEndDate()'
+  nameWithType: NSProjectEntity.GetEndDate()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetEndDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetEndDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Planned end date for project, inherited from type and later editable."
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nDateTime endDate = thing.GetEndDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetExtraFields()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetExtraFields()
+  id: 'GetExtraFields()'
+  so.intellisense: NSProjectEntity.GetExtraFields
+  langs:
+  - crmscript
+  name: 'GetExtraFields()'
+  nameWithType: NSProjectEntity.GetExtraFields()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetExtraFields()
+  type: Method
+  summary: "\nGets the extra fields on ProjectEntity as a map.\n"
+  remarks: 
+  syntax: 
+    content: Map GetExtraFields()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nMap extras = thing.GetExtraFields();\nlog( extras[&quot;x_abc&quot;] ); // &quot;[I:123]&quot;* integer or list item id\nlog( extras[&quot;x_abc:DisplayText&quot;] ); // &quot;bla bla&quot;* list item value\nlog( extras[&quot;x_bla&quot;] ); // &quot;foobar&quot;* string value</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetHasImage()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetHasImage()
+  id: 'GetHasImage()'
+  so.intellisense: NSProjectEntity.GetHasImage
+  langs:
+  - crmscript
+  name: 'GetHasImage()'
+  nameWithType: NSProjectEntity.GetHasImage()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetHasImage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetHasImage()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the project has an image. (This is the image that is displayed in the CRM client)."
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nBool hasImage = thing.GetHasImage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetImageDescription()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetImageDescription()
+  id: 'GetImageDescription()'
+  so.intellisense: NSProjectEntity.GetImageDescription
+  langs:
+  - crmscript
+  name: 'GetImageDescription()'
+  nameWithType: NSProjectEntity.GetImageDescription()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetImageDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetImageDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Description of the project image if it exists. (This is the image that is displayed in the CRM client)."
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nString imageDescription = thing.GetImageDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetIsPublished()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetIsPublished()
+  id: 'GetIsPublished()'
+  so.intellisense: NSProjectEntity.GetIsPublished
+  langs:
+  - crmscript
+  name: 'GetIsPublished()'
+  nameWithType: NSProjectEntity.GetIsPublished()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetIsPublished()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsPublished()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: Should this ProjectEntity be published and visible to strangers?
+  example: 
+- uid: CRMScript.NetServer.NSProjectEntity.GetLinks()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetLinks()
+  id: 'GetLinks()'
+  so.intellisense: NSProjectEntity.GetLinks
+  langs:
+  - crmscript
+  name: 'GetLinks()'
+  nameWithType: NSProjectEntity.GetLinks()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetLinks()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSLink[] GetLinks()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSLink[]
+      description: "All elements linked to the project."
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nNSLink[] links = thing.GetLinks();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSProjectEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSProjectEntity.GetName()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Project name."
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetNextMilestoneDate()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetNextMilestoneDate()
+  id: 'GetNextMilestoneDate()'
+  so.intellisense: NSProjectEntity.GetNextMilestoneDate
+  langs:
+  - crmscript
+  name: 'GetNextMilestoneDate()'
+  nameWithType: NSProjectEntity.GetNextMilestoneDate()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetNextMilestoneDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetNextMilestoneDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Calculated date, reflects date of closest non-complete future milestone activity."
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nDateTime nextMilestoneDate = thing.GetNextMilestoneDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetNmdAppointmentId()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetNmdAppointmentId()
+  id: 'GetNmdAppointmentId()'
+  so.intellisense: NSProjectEntity.GetNmdAppointmentId
+  langs:
+  - crmscript
+  name: 'GetNmdAppointmentId()'
+  nameWithType: NSProjectEntity.GetNmdAppointmentId()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetNmdAppointmentId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetNmdAppointmentId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: ID of appointment that &quot;caused&quot; the nextMilestoneDate, can be 0
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nInteger nmdAppointmentId = thing.GetNmdAppointmentId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetPostit()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetPostit()
+  id: 'GetPostit()'
+  so.intellisense: NSProjectEntity.GetPostit
+  langs:
+  - crmscript
+  name: 'GetPostit()'
+  nameWithType: NSProjectEntity.GetPostit()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetPostit()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPostit()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases."
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nString postit = thing.GetPostit();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetProjectId()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetProjectId()
+  id: 'GetProjectId()'
+  so.intellisense: NSProjectEntity.GetProjectId
+  langs:
+  - crmscript
+  name: 'GetProjectId()'
+  nameWithType: NSProjectEntity.GetProjectId()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetProjectId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetProjectId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nInteger projectId = thing.GetProjectId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetProjectMembers()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetProjectMembers()
+  id: 'GetProjectMembers()'
+  so.intellisense: NSProjectEntity.GetProjectMembers
+  langs:
+  - crmscript
+  name: 'GetProjectMembers()'
+  nameWithType: NSProjectEntity.GetProjectMembers()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetProjectMembers()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSProjectMember[] GetProjectMembers()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSProjectMember[]
+      description: "The persons that are members of the project."
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nNSProjectMember[] projectMembers = thing.GetProjectMembers();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetProjectNumber()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetProjectNumber()
+  id: 'GetProjectNumber()'
+  so.intellisense: NSProjectEntity.GetProjectNumber
+  langs:
+  - crmscript
+  name: 'GetProjectNumber()'
+  nameWithType: NSProjectEntity.GetProjectNumber()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetProjectNumber()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetProjectNumber()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Automatically generated number."
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nString projectNumber = thing.GetProjectNumber();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetProjectStatus()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetProjectStatus()
+  id: 'GetProjectStatus()'
+  so.intellisense: NSProjectEntity.GetProjectStatus
+  langs:
+  - crmscript
+  name: 'GetProjectStatus()'
+  nameWithType: NSProjectEntity.GetProjectStatus()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetProjectStatus()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSProjectStatus GetProjectStatus()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSProjectStatus
+      description: "Project status is a list defined by the database administrator. Different statuses of a project may be &quot;In planning&quot;, &quot;Started&quot;, &quot;Finished&quot; and so on."
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nNSProjectStatus projectStatus = thing.GetProjectStatus();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetProjectType()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetProjectType()
+  id: 'GetProjectType()'
+  so.intellisense: NSProjectEntity.GetProjectType
+  langs:
+  - crmscript
+  name: 'GetProjectType()'
+  nameWithType: NSProjectEntity.GetProjectType()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetProjectType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSProjectType GetProjectType()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSProjectType
+      description: "Project type is a list defined by the database admin. For example, 'Large', 'Small', 'Party'..."
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nNSProjectType projectType = thing.GetProjectType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetPublishEventDate()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetPublishEventDate()
+  id: 'GetPublishEventDate()'
+  so.intellisense: NSProjectEntity.GetPublishEventDate
+  langs:
+  - crmscript
+  name: 'GetPublishEventDate()'
+  nameWithType: NSProjectEntity.GetPublishEventDate()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetPublishEventDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetPublishEventDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Publish event date on ProjectEntity."
+  example: 
+- uid: CRMScript.NetServer.NSProjectEntity.GetPublishFrom()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetPublishFrom()
+  id: 'GetPublishFrom()'
+  so.intellisense: NSProjectEntity.GetPublishFrom
+  langs:
+  - crmscript
+  name: 'GetPublishFrom()'
+  nameWithType: NSProjectEntity.GetPublishFrom()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetPublishFrom()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetPublishFrom()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Publish from date on ProjectEntity."
+  example: 
+- uid: CRMScript.NetServer.NSProjectEntity.GetPublishTo()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetPublishTo()
+  id: 'GetPublishTo()'
+  so.intellisense: NSProjectEntity.GetPublishTo
+  langs:
+  - crmscript
+  name: 'GetPublishTo()'
+  nameWithType: NSProjectEntity.GetPublishTo()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetPublishTo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetPublishTo()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Publish to date on ProjectEntity. After this date the event is no longer visible."
+  example: 
+- uid: CRMScript.NetServer.NSProjectEntity.GetUpdatedBy()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetUpdatedBy()
+  id: 'GetUpdatedBy()'
+  so.intellisense: NSProjectEntity.GetUpdatedBy
+  langs:
+  - crmscript
+  name: 'GetUpdatedBy()'
+  nameWithType: NSProjectEntity.GetUpdatedBy()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetUpdatedBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetUpdatedBy()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "The person that last updated the project."
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nNSAssociate updatedBy = thing.GetUpdatedBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetUpdatedDate()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetUpdatedDate()
+  id: 'GetUpdatedDate()'
+  so.intellisense: NSProjectEntity.GetUpdatedDate
+  langs:
+  - crmscript
+  name: 'GetUpdatedDate()'
+  nameWithType: NSProjectEntity.GetUpdatedDate()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetUpdatedDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetUpdatedDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Last updated date."
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nDateTime updatedDate = thing.GetUpdatedDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetUrls()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetUrls()
+  id: 'GetUrls()'
+  so.intellisense: NSProjectEntity.GetUrls
+  langs:
+  - crmscript
+  name: 'GetUrls()'
+  nameWithType: NSProjectEntity.GetUrls()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetUrls()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSEntityElement[] GetUrls()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSEntityElement[]
+      description: "The project's internet addresses."
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nNSEntityElement[] urls = thing.GetUrls();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.GetUserDefinedFields()
+  commentId: M:CRMScript.NetServer.NSProjectEntity.GetUserDefinedFields()
+  id: 'GetUserDefinedFields()'
+  so.intellisense: NSProjectEntity.GetUserDefinedFields
+  langs:
+  - crmscript
+  name: 'GetUserDefinedFields()'
+  nameWithType: NSProjectEntity.GetUserDefinedFields()
+  fullName: CRMScript.NetServer.NSProjectEntity.GetUserDefinedFields()
+  type: Method
+  summary: "\nGets the user-defined fields on the ProjectEntity as a map.\n"
+  remarks: 
+  syntax: 
+    content: Map GetUserDefinedFields()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nMap udefs = thing.GetUserDefinedFields();\nlog( udefs[&quot;SuperOffice:1&quot;] ); // &quot;[I:123]&quot;* integer or list item id\nlog( udefs[&quot;SuperOffice:1:DisplayText&quot;] ); // &quot;bla bla&quot;* list item value\nlog( udefs[&quot;custom.progid&quot;] ); // &quot;foobar&quot;* string value</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetActiveErpLinks(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetActiveErpLinks(Integer)
+  id: 'SetActiveErpLinks(Integer)'
+  so.intellisense: NSProjectEntity.SetActiveErpLinks
+  langs:
+  - crmscript
+  name: 'SetActiveErpLinks(Integer)'
+  nameWithType: NSProjectEntity.SetActiveErpLinks(Integer)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetActiveErpLinks(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetActiveErpLinks(Integer activeErpLinks)
+    parameters:
+    - id: activeErpLinks
+      type: CRMScript.Global.Integer
+      description: "The number of active ERP links."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nInteger activeErpLinks;\nthing.SetActiveErpLinks(activeErpLinks);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetActiveLinks(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetActiveLinks(Integer)
+  id: 'SetActiveLinks(Integer)'
+  so.intellisense: NSProjectEntity.SetActiveLinks
+  langs:
+  - crmscript
+  name: 'SetActiveLinks(Integer)'
+  nameWithType: NSProjectEntity.SetActiveLinks(Integer)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetActiveLinks(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetActiveLinks(Integer activeLinks)
+    parameters:
+    - id: activeLinks
+      type: CRMScript.Global.Integer
+      description: "Number of active links to documents, other appointments, and such."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nInteger activeLinks;\nthing.SetActiveLinks(activeLinks);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetActiveStatusMonitorId(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetActiveStatusMonitorId(Integer)
+  id: 'SetActiveStatusMonitorId(Integer)'
+  so.intellisense: NSProjectEntity.SetActiveStatusMonitorId
+  langs:
+  - crmscript
+  name: 'SetActiveStatusMonitorId(Integer)'
+  nameWithType: NSProjectEntity.SetActiveStatusMonitorId(Integer)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetActiveStatusMonitorId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetActiveStatusMonitorId(Integer activeStatusMonitorId)
+    parameters:
+    - id: activeStatusMonitorId
+      type: CRMScript.Global.Integer
+      description: "Active status monitor identity with the lowest rank for project."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nInteger activeStatusMonitorId;\nthing.SetActiveStatusMonitorId(activeStatusMonitorId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetAssociate(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetAssociate(NSAssociate)
+  id: 'SetAssociate(NSAssociate)'
+  so.intellisense: NSProjectEntity.SetAssociate
+  langs:
+  - crmscript
+  name: 'SetAssociate(NSAssociate)'
+  nameWithType: NSProjectEntity.SetAssociate(NSAssociate)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetAssociate(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAssociate(NSAssociate associate)
+    parameters:
+    - id: associate
+      type: NSProjectEntity.NSAssociate
+      description: "The person that created the project."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nNSAssociate associate;\nthing.SetAssociate(associate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetCompleted(Bool)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetCompleted(Bool)
+  id: 'SetCompleted(Bool)'
+  so.intellisense: NSProjectEntity.SetCompleted
+  langs:
+  - crmscript
+  name: 'SetCompleted(Bool)'
+  nameWithType: NSProjectEntity.SetCompleted(Bool)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetCompleted(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCompleted(Bool completed)
+    parameters:
+    - id: completed
+      type: CRMScript.Global.Bool
+      description: "Done (0=false, 1=true). Status implies changes in which fields are shown in GUI, as well as which fields can be updated."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nBool completed;\nthing.SetCompleted(completed);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetCreatedBy(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetCreatedBy(NSAssociate)
+  id: 'SetCreatedBy(NSAssociate)'
+  so.intellisense: NSProjectEntity.SetCreatedBy
+  langs:
+  - crmscript
+  name: 'SetCreatedBy(NSAssociate)'
+  nameWithType: NSProjectEntity.SetCreatedBy(NSAssociate)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetCreatedBy(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCreatedBy(NSAssociate createdBy)
+    parameters:
+    - id: createdBy
+      type: NSProjectEntity.NSAssociate
+      description: "The person that created the project."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nNSAssociate createdBy;\nthing.SetCreatedBy(createdBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetCreatedDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetCreatedDate(DateTime)
+  id: 'SetCreatedDate(DateTime)'
+  so.intellisense: NSProjectEntity.SetCreatedDate
+  langs:
+  - crmscript
+  name: 'SetCreatedDate(DateTime)'
+  nameWithType: NSProjectEntity.SetCreatedDate(DateTime)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetCreatedDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCreatedDate(DateTime createdDate)
+    parameters:
+    - id: createdDate
+      type: CRMScript.Global.DateTime
+      description: "Registered date."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nDateTime createdDate;\nthing.SetCreatedDate(createdDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetCustomFields(Map)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetCustomFields(Map)
+  id: 'SetCustomFields(Map)'
+  so.intellisense: NSProjectEntity.SetCustomFields
+  langs:
+  - crmscript
+  name: 'SetCustomFields(Map)'
+  nameWithType: NSProjectEntity.SetCustomFields(Map)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetCustomFields(Map)
+  type: Method
+  summary: "\nSets the user-defined and extra fields on a ProjectEntity with a map.\n"
+  remarks: 
+  syntax: 
+    content: Void SetCustomFields(Map udefs)
+    parameters:
+    - id: udefs
+      type: CRMScript.Native.Map
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nMap udefs;\nudefs[&quot;SuperOffice:1&quot;] = &quot;[I:123]&quot;;\nudefs[&quot;SuperOffice:1&quot;] = &quot;123&quot;; // this will also work, but beware of decimal point variations in different languages\nudefs[&quot;custom.progid&quot;] = &quot;foobar&quot;;\nudefs[&quot;x_foo&quot;] = &quot;foobar&quot;;\nudefs[&quot;x_bar&quot;] = &quot;456&quot;; // List item id\nthing.SetCustomFields(udefs);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSProjectEntity.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSProjectEntity.SetDescription(String)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetEndDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetEndDate(DateTime)
+  id: 'SetEndDate(DateTime)'
+  so.intellisense: NSProjectEntity.SetEndDate
+  langs:
+  - crmscript
+  name: 'SetEndDate(DateTime)'
+  nameWithType: NSProjectEntity.SetEndDate(DateTime)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetEndDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEndDate(DateTime endDate)
+    parameters:
+    - id: endDate
+      type: CRMScript.Global.DateTime
+      description: "Planned end date for project, inherited from type and later editable."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nDateTime endDate;\nthing.SetEndDate(endDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetExtraFields(Map)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetExtraFields(Map)
+  id: 'SetExtraFields(Map)'
+  so.intellisense: NSProjectEntity.SetExtraFields
+  langs:
+  - crmscript
+  name: 'SetExtraFields(Map)'
+  nameWithType: NSProjectEntity.SetExtraFields(Map)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetExtraFields(Map)
+  type: Method
+  summary: "\nSets the extra field values on ProjectEntity with a map.\n"
+  remarks: 
+  syntax: 
+    content: Void SetExtraFields(Map extras)
+    parameters:
+    - id: extras
+      type: CRMScript.Native.Map
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nMap extras;\nextras[&quot;SuperOffice:1&quot;] = &quot;[I:123]&quot;;\nextras[&quot;SuperOffice:1&quot;] = &quot;123&quot;; // this will also work, but beware of decimal point variations in different languages\nextras[&quot;custom.progid&quot;] = &quot;foobar&quot;;\nthing.SetExtraFields(extras);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetHasImage(Bool)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetHasImage(Bool)
+  id: 'SetHasImage(Bool)'
+  so.intellisense: NSProjectEntity.SetHasImage
+  langs:
+  - crmscript
+  name: 'SetHasImage(Bool)'
+  nameWithType: NSProjectEntity.SetHasImage(Bool)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetHasImage(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetHasImage(Bool hasImage)
+    parameters:
+    - id: hasImage
+      type: CRMScript.Global.Bool
+      description: "True if the project has an image. (This is the image that is displayed in the CRM client)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nBool hasImage;\nthing.SetHasImage(hasImage);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetImageDescription(String)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetImageDescription(String)
+  id: 'SetImageDescription(String)'
+  so.intellisense: NSProjectEntity.SetImageDescription
+  langs:
+  - crmscript
+  name: 'SetImageDescription(String)'
+  nameWithType: NSProjectEntity.SetImageDescription(String)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetImageDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetImageDescription(String imageDescription)
+    parameters:
+    - id: imageDescription
+      type: CRMScript.Global.String
+      description: "Description of the project image if it exists. (This is the image that is displayed in the CRM client)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nString imageDescription;\nthing.SetImageDescription(imageDescription);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetIsPublished(Bool)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetIsPublished(Bool)
+  id: 'SetIsPublished(Bool)'
+  so.intellisense: NSProjectEntity.SetIsPublished
+  langs:
+  - crmscript
+  name: 'SetIsPublished(Bool)'
+  nameWithType: NSProjectEntity.SetIsPublished(Bool)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetIsPublished(Bool)
+  type: Method
+  summary: "\nSets the visibility of a ProjectEntity\n"
+  remarks: 
+  syntax: 
+    content: Void SetIsPublished(Bool sPublished)
+    parameters:
+    - id: isPublished
+      type: CRMScript.Global.Bool
+      description: Should this ProjectEntity be published and visible to strangers?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSProjectEntity.SetLinks(NSLink[])
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetLinks(NSLink[])
+  id: 'SetLinks(NSLink[])'
+  so.intellisense: NSProjectEntity.SetLinks
+  langs:
+  - crmscript
+  name: 'SetLinks(NSLink[])'
+  nameWithType: NSProjectEntity.SetLinks(NSLink[])
+  fullName: CRMScript.NetServer.NSProjectEntity.SetLinks(NSLink[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLinks(NSLink[] links)
+    parameters:
+    - id: links
+      type: CRMScript.NetServer.NSLink[]
+      description: "List of all elements linked to the project."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nNSLink[] links;\nthing.SetLinks(links);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSProjectEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSProjectEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Project name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetNextMilestoneDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetNextMilestoneDate(DateTime)
+  id: 'SetNextMilestoneDate(DateTime)'
+  so.intellisense: NSProjectEntity.SetNextMilestoneDate
+  langs:
+  - crmscript
+  name: 'SetNextMilestoneDate(DateTime)'
+  nameWithType: NSProjectEntity.SetNextMilestoneDate(DateTime)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetNextMilestoneDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetNextMilestoneDate(DateTime nextMilestoneDate)
+    parameters:
+    - id: nextMilestoneDate
+      type: CRMScript.Global.DateTime
+      description: "Calculated date, reflects date of closest non-complete future milestone activity."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nDateTime nextMilestoneDate;\nthing.SetNextMilestoneDate(nextMilestoneDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetNmdAppointmentId(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetNmdAppointmentId(Integer)
+  id: 'SetNmdAppointmentId(Integer)'
+  so.intellisense: NSProjectEntity.SetNmdAppointmentId
+  langs:
+  - crmscript
+  name: 'SetNmdAppointmentId(Integer)'
+  nameWithType: NSProjectEntity.SetNmdAppointmentId(Integer)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetNmdAppointmentId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetNmdAppointmentId(Integer nmdAppointmentId)
+    parameters:
+    - id: nmdAppointmentId
+      type: CRMScript.Global.Integer
+      description: ID of appointment that &quot;caused&quot; the nextMilestoneDate, can be 0
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nInteger nmdAppointmentId;\nthing.SetNmdAppointmentId(nmdAppointmentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetPostit(String)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetPostit(String)
+  id: 'SetPostit(String)'
+  so.intellisense: NSProjectEntity.SetPostit
+  langs:
+  - crmscript
+  name: 'SetPostit(String)'
+  nameWithType: NSProjectEntity.SetPostit(String)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetPostit(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPostit(String postIt)
+    parameters:
+    - id: postIt
+      type: CRMScript.Global.String
+      description: "The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nString postIt;\nthing.SetPostit(postIt);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetProjectId(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetProjectId(Integer)
+  id: 'SetProjectId(Integer)'
+  so.intellisense: NSProjectEntity.SetProjectId
+  langs:
+  - crmscript
+  name: 'SetProjectId(Integer)'
+  nameWithType: NSProjectEntity.SetProjectId(Integer)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetProjectId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjectId(Integer projectId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nInteger projectId;\nthing.SetProjectId(projectId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetProjectMembers(NSProjectMember[])
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetProjectMembers(NSProjectMember[])
+  id: 'SetProjectMembers(NSProjectMember[])'
+  so.intellisense: NSProjectEntity.SetProjectMembers
+  langs:
+  - crmscript
+  name: 'SetProjectMembers(NSProjectMember[])'
+  nameWithType: NSProjectEntity.SetProjectMembers(NSProjectMember[])
+  fullName: CRMScript.NetServer.NSProjectEntity.SetProjectMembers(NSProjectMember[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjectMembers(NSProjectMember[] projectMembers)
+    parameters:
+    - id: projectMembers
+      type: CRMScript.NetServer.NSProjectMember[]
+      description: "The persons that are members of the project."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nNSProjectMember[] projectMembers;\nthing.SetProjectMembers(projectMembers);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetProjectNumber(String)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetProjectNumber(String)
+  id: 'SetProjectNumber(String)'
+  so.intellisense: NSProjectEntity.SetProjectNumber
+  langs:
+  - crmscript
+  name: 'SetProjectNumber(String)'
+  nameWithType: NSProjectEntity.SetProjectNumber(String)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetProjectNumber(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjectNumber(String projectNumber)
+    parameters:
+    - id: projectNumber
+      type: CRMScript.Global.String
+      description: "Automatically generated number."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nString projectNumber;\nthing.SetProjectNumber(projectNumber);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetProjectStatus(NSProjectStatus)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetProjectStatus(NSProjectStatus)
+  id: 'SetProjectStatus(NSProjectStatus)'
+  so.intellisense: NSProjectEntity.SetProjectStatus
+  langs:
+  - crmscript
+  name: 'SetProjectStatus(NSProjectStatus)'
+  nameWithType: NSProjectEntity.SetProjectStatus(NSProjectStatus)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetProjectStatus(NSProjectStatus)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjectStatus(NSProjectStatus projectStatus)
+    parameters:
+    - id: projectStatus
+      type: CRMScript.NetServer.NSProjectStatus
+      description: "Project status is a list defined by the database administrator. Different statuses of a project may be &quot;In planning&quot;, &quot;Started&quot;, &quot;Finished&quot; and so on."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nNSProjectStatus projectStatus;\nthing.SetProjectStatus(projectStatus);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetProjectType(NSProjectType)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetProjectType(NSProjectType)
+  id: 'SetProjectType(NSProjectType)'
+  so.intellisense: NSProjectEntity.SetProjectType
+  langs:
+  - crmscript
+  name: 'SetProjectType(NSProjectType)'
+  nameWithType: NSProjectEntity.SetProjectType(NSProjectType)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetProjectType(NSProjectType)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjectType(NSProjectType projectType)
+    parameters:
+    - id: projectType
+      type: CRMScript.NetServer.NSProjectType
+      description: "Project type is a list defined by the database admin. For example, 'Large', 'Small', 'Party'..."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nNSProjectType projectType;\nthing.SetProjectType(projectType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetPublishEventDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetPublishEventDate(DateTime)
+  id: 'SetPublishEventDate(DateTime)'
+  so.intellisense: NSProjectEntity.SetPublishEventDate
+  langs:
+  - crmscript
+  name: 'SetPublishEventDate(DateTime)'
+  nameWithType: NSProjectEntity.SetPublishEventDate(DateTime)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetPublishEventDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPublishEventDate(DateTime publishDate)
+    parameters:
+    - id: publishDate
+      type: CRMScript.Global.DateTime
+      description: "Publish event date on ProjectEntity."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSProjectEntity.SetPublishFrom(DateTime)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetPublishFrom(DateTime)
+  id: 'SetPublishFrom(DateTime)'
+  so.intellisense: NSProjectEntity.SetPublishFrom
+  langs:
+  - crmscript
+  name: 'SetPublishFrom(DateTime)'
+  nameWithType: NSProjectEntity.SetPublishFrom(DateTime)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetPublishFrom(DateTime)
+  type: Method
+  summary: "\nSets the publish from date on a ProjectEntity.\n"
+  remarks: 
+  syntax: 
+    content: Void SetPublishFrom(DateTime publishFrom)
+    parameters:
+    - id: publishFrom
+      type: CRMScript.Global.DateTime
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSProjectEntity.SetPublishTo(DateTime)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetPublishTo(DateTime)
+  id: 'SetPublishTo(DateTime)'
+  so.intellisense: NSProjectEntity.SetPublishTo
+  langs:
+  - crmscript
+  name: 'SetPublishTo(DateTime)'
+  nameWithType: NSProjectEntity.SetPublishTo(DateTime)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetPublishTo(DateTime)
+  type: Method
+  summary: "\nSets the publish to date on ProjectEntity.\n"
+  remarks: 
+  syntax: 
+    content: Void SetPublishTo(DateTime publishTo)
+    parameters:
+    - id: publishTo
+      type: CRMScript.Global.DateTime
+      description: "After this date the event is no longer visible."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSProjectEntity.SetUpdatedBy(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetUpdatedBy(NSAssociate)
+  id: 'SetUpdatedBy(NSAssociate)'
+  so.intellisense: NSProjectEntity.SetUpdatedBy
+  langs:
+  - crmscript
+  name: 'SetUpdatedBy(NSAssociate)'
+  nameWithType: NSProjectEntity.SetUpdatedBy(NSAssociate)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetUpdatedBy(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedBy(NSAssociate updatedBy)
+    parameters:
+    - id: updatedBy
+      type: NSProjectEntity.NSAssociate
+      description: "The person that last updated the project."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nNSAssociate updatedBy;\nthing.SetUpdatedBy(updatedBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetUpdatedDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetUpdatedDate(DateTime)
+  id: 'SetUpdatedDate(DateTime)'
+  so.intellisense: NSProjectEntity.SetUpdatedDate
+  langs:
+  - crmscript
+  name: 'SetUpdatedDate(DateTime)'
+  nameWithType: NSProjectEntity.SetUpdatedDate(DateTime)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetUpdatedDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedDate(DateTime updatedDate)
+    parameters:
+    - id: updatedDate
+      type: CRMScript.Global.DateTime
+      description: "Last updated date."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nDateTime updatedDate;\nthing.SetUpdatedDate(updatedDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetUrls(NSEntityElement[])
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetUrls(NSEntityElement[])
+  id: 'SetUrls(NSEntityElement[])'
+  so.intellisense: NSProjectEntity.SetUrls
+  langs:
+  - crmscript
+  name: 'SetUrls(NSEntityElement[])'
+  nameWithType: NSProjectEntity.SetUrls(NSEntityElement[])
+  fullName: CRMScript.NetServer.NSProjectEntity.SetUrls(NSEntityElement[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUrls(NSEntityElement[] urls)
+    parameters:
+    - id: urls
+      type: CRMScript.NetServer.NSEntityElement[]
+      description: "The project's internet addresses."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nNSEntityElement[] urls;\nthing.SetUrls(urls);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectEntity.SetUserDefinedFields(Map)
+  commentId: M:CRMScript.NetServer.NSProjectEntity.SetUserDefinedFields(Map)
+  id: 'SetUserDefinedFields(Map)'
+  so.intellisense: NSProjectEntity.SetUserDefinedFields
+  langs:
+  - crmscript
+  name: 'SetUserDefinedFields(Map)'
+  nameWithType: NSProjectEntity.SetUserDefinedFields(Map)
+  fullName: CRMScript.NetServer.NSProjectEntity.SetUserDefinedFields(Map)
+  type: Method
+  summary: "\nSets the user-defined fields on the ProjectEntity as a map.\n"
+  remarks: 
+  syntax: 
+    content: Void SetUserDefinedFields(Map udefs)
+    parameters:
+    - id: udefs
+      type: CRMScript.Native.Map
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectEntity thing;\nMap udefs;\nudefs[&quot;SuperOffice:1&quot;] = &quot;[I:123]&quot;;\nudefs[&quot;SuperOffice:1&quot;] = &quot;123&quot;; // this will also work, but beware of decimal point variations in different languages\nudefs[&quot;custom.progid&quot;] = &quot;foobar&quot;;\nthing.SetUserDefinedFields(udefs);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSProjectEntity
+  commentId: T:CRMScript.NetServer.NSProjectEntity
+  isExternal: true
+  name: NSProjectEntity
+  nameWithType: NSProjectEntity
+  fullName: CRMScript.NetServer.NSProjectEntity
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSAssociate
+  commentId: T:CRMScript.NetServer.NSAssociate
+  isExternal: true
+  name: NSAssociate
+  nameWithType: NSAssociate
+  fullName: CRMScript.NetServer.NSAssociate
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Native.Map
+  commentId: T:CRMScript.Native.Map
+  isExternal: true
+  name: Map
+  nameWithType: Map
+  fullName: CRMScript.Native.Map
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSLink[]
+  isExternal: true
+  name: NSLink[]
+  nameWithType: NSLink[]
+  fullName: CRMScript.NetServer.NSLink[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSLink
+    isExternal: true
+    name: NSLink
+    nameWithType: NSLink
+    fullName: CRMScript.NetServer.NSLink
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSLink
+  commentId: T:CRMScript.NetServer.NSLink
+  isExternal: true
+  name: NSLink
+  nameWithType: NSLink
+  fullName: CRMScript.NetServer.NSLink
+- uid: CRMScript.NetServer.NSProjectMember[]
+  isExternal: true
+  name: NSProjectMember[]
+  nameWithType: NSProjectMember[]
+  fullName: CRMScript.NetServer.NSProjectMember[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSProjectMember
+    isExternal: true
+    name: NSProjectMember
+    nameWithType: NSProjectMember
+    fullName: CRMScript.NetServer.NSProjectMember
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSProjectMember
+  commentId: T:CRMScript.NetServer.NSProjectMember
+  isExternal: true
+  name: NSProjectMember
+  nameWithType: NSProjectMember
+  fullName: CRMScript.NetServer.NSProjectMember
+- uid: CRMScript.NetServer.NSProjectStatus
+  commentId: T:CRMScript.NetServer.NSProjectStatus
+  isExternal: true
+  name: NSProjectStatus
+  nameWithType: NSProjectStatus
+  fullName: CRMScript.NetServer.NSProjectStatus
+- uid: CRMScript.NetServer.NSProjectType
+  commentId: T:CRMScript.NetServer.NSProjectType
+  isExternal: true
+  name: NSProjectType
+  nameWithType: NSProjectType
+  fullName: CRMScript.NetServer.NSProjectType
+- uid: CRMScript.NetServer.NSEntityElement[]
+  isExternal: true
+  name: NSEntityElement[]
+  nameWithType: NSEntityElement[]
+  fullName: CRMScript.NetServer.NSEntityElement[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSEntityElement
+    isExternal: true
+    name: NSEntityElement
+    nameWithType: NSEntityElement
+    fullName: CRMScript.NetServer.NSEntityElement
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSEntityElement
+  commentId: T:CRMScript.NetServer.NSEntityElement
+  isExternal: true
+  name: NSEntityElement
+  nameWithType: NSEntityElement
+  fullName: CRMScript.NetServer.NSEntityElement
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

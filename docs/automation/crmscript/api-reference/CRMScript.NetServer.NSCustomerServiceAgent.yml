@@ -1,0 +1,946 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSCustomerServiceAgent
+  commentId: T:CRMScript.NetServer.NSCustomerServiceAgent
+  id: NSCustomerServiceAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSCustomerServiceAgent.#ctor
+  - CRMScript.NetServer.NSCustomerServiceAgent.AddMessageFromMailData(Integer,String)
+  - CRMScript.NetServer.NSCustomerServiceAgent.ChatSessionsForUser()
+  - CRMScript.NetServer.NSCustomerServiceAgent.CheckIfCustomizedTemplates()
+  - CRMScript.NetServer.NSCustomerServiceAgent.CheckSymmetricEncryption(String)
+  - CRMScript.NetServer.NSCustomerServiceAgent.CreateDefaultCustomerCenterConfig()
+  - CRMScript.NetServer.NSCustomerServiceAgent.CreateDefaultMailboxEntity()
+  - CRMScript.NetServer.NSCustomerServiceAgent.CreateDefaultSmsConfig()
+  - CRMScript.NetServer.NSCustomerServiceAgent.CreateSession(String)
+  - CRMScript.NetServer.NSCustomerServiceAgent.CreateTicketFromMailData(Integer,String)
+  - CRMScript.NetServer.NSCustomerServiceAgent.DeleteChatSessions(Integer[])
+  - CRMScript.NetServer.NSCustomerServiceAgent.DeleteCustomerCenterConfig(Integer)
+  - CRMScript.NetServer.NSCustomerServiceAgent.EventHandlerExists(Integer)
+  - CRMScript.NetServer.NSCustomerServiceAgent.ExecuteEventHandlers(NSEventData)
+  - CRMScript.NetServer.NSCustomerServiceAgent.FindTicketsByTitleOrId(String,Integer)
+  - CRMScript.NetServer.NSCustomerServiceAgent.GetAllCustomerCenterConfigs()
+  - CRMScript.NetServer.NSCustomerServiceAgent.GetCustomerCenterConfig(Integer)
+  - CRMScript.NetServer.NSCustomerServiceAgent.GetCustomerServiceStartup()
+  - CRMScript.NetServer.NSCustomerServiceAgent.GetMailboxEntity(Integer)
+  - CRMScript.NetServer.NSCustomerServiceAgent.GetMailboxes()
+  - CRMScript.NetServer.NSCustomerServiceAgent.GetProgramUrl(String,Bool)
+  - CRMScript.NetServer.NSCustomerServiceAgent.GetSmsConfig()
+  - CRMScript.NetServer.NSCustomerServiceAgent.GetStatistics()
+  - CRMScript.NetServer.NSCustomerServiceAgent.HasChatNotify()
+  - CRMScript.NetServer.NSCustomerServiceAgent.RemoveSession(Integer)
+  - CRMScript.NetServer.NSCustomerServiceAgent.SaveAllCustomerCenterConfigs(NSCustomerCenterConfig[])
+  - CRMScript.NetServer.NSCustomerServiceAgent.SaveCustomerCenterConfig(NSCustomerCenterConfig)
+  - CRMScript.NetServer.NSCustomerServiceAgent.SaveMailboxEntity(NSMailboxEntity)
+  - CRMScript.NetServer.NSCustomerServiceAgent.SaveSmsConfig(NSSmsConfig)
+  - CRMScript.NetServer.NSCustomerServiceAgent.SessionIsValid(String)
+  - CRMScript.NetServer.NSCustomerServiceAgent.TestSmtpServer(String,String,Bool)
+  - CRMScript.NetServer.NSCustomerServiceAgent.UpdateFeatureToggles(CsFeatureToggle[])
+  name: NSCustomerServiceAgent
+  nameWithType: NSCustomerServiceAgent
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent
+  type: Class
+  summary: "\nAgent used for Customer Service methods.\n"
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSCustomerServiceAgent
+  langs:
+  - crmscript
+  name: NSCustomerServiceAgent()
+  nameWithType: NSCustomerServiceAgent.#ctor
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.#ctor
+  type: Constructor
+  summary: "\nAgent used for Customer Service methods.\n"
+  remarks: 
+  syntax: 
+    content: NSCustomerServiceAgent
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.AddMessageFromMailData(Integer,String)
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.AddMessageFromMailData(Integer,String)
+  id: 'AddMessageFromMailData(Integer,String)'
+  so.intellisense: NSCustomerServiceAgent.AddMessageFromMailData
+  langs:
+  - crmscript
+  name: 'AddMessageFromMailData(Integer,String)'
+  nameWithType: NSCustomerServiceAgent.AddMessageFromMailData(Integer,String)
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.AddMessageFromMailData(Integer,String)
+  type: Method
+  summary: "\nAdds a message to an existing request in the sam way as importMail would do it from an email.\n"
+  remarks: 
+  syntax: 
+    content: NSTicketInfo AddMessageFromMailData(Integer ticketId, String data)
+    parameters:
+    - id: ticketId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: data
+      type: CRMScript.Global.String
+      description: "RFC822 formatted data."
+    return:
+      type: CRMScript.NetServer.NSTicketInfo
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nInteger ticketId;\nString data;\nNSTicketInfo res = agent.AddMessageFromMailData(ticketId, data);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.ChatSessionsForUser()
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.ChatSessionsForUser()
+  id: 'ChatSessionsForUser()'
+  so.intellisense: NSCustomerServiceAgent.ChatSessionsForUser
+  langs:
+  - crmscript
+  name: 'ChatSessionsForUser()'
+  nameWithType: NSCustomerServiceAgent.ChatSessionsForUser()
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.ChatSessionsForUser()
+  type: Method
+  summary: "\nGets all chat TOPICS which this user is a member of.\n"
+  remarks: "\nMembers means that you have at least one of: Can Respond, Notifications, Listen or Manager\n"
+  syntax: 
+    content: NSChatSession[] ChatSessionsForUser()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSChatSession[]
+      description: "chat topics."
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nNSChatSession[] res = agent.ChatSessionsForUser();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.CheckIfCustomizedTemplates()
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.CheckIfCustomizedTemplates()
+  id: 'CheckIfCustomizedTemplates()'
+  so.intellisense: NSCustomerServiceAgent.CheckIfCustomizedTemplates
+  langs:
+  - crmscript
+  name: 'CheckIfCustomizedTemplates()'
+  nameWithType: NSCustomerServiceAgent.CheckIfCustomizedTemplates()
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.CheckIfCustomizedTemplates()
+  type: Method
+  summary: "\nChecks whether the core HTML templates are customized\n"
+  remarks: 
+  syntax: 
+    content: Bool CheckIfCustomizedTemplates()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nBool res = agent.CheckIfCustomizedTemplates();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.CheckSymmetricEncryption(String)
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.CheckSymmetricEncryption(String)
+  id: 'CheckSymmetricEncryption(String)'
+  so.intellisense: NSCustomerServiceAgent.CheckSymmetricEncryption
+  langs:
+  - crmscript
+  name: 'CheckSymmetricEncryption(String)'
+  nameWithType: NSCustomerServiceAgent.CheckSymmetricEncryption(String)
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.CheckSymmetricEncryption(String)
+  type: Method
+  summary: "\nChecks that we are using the same encryption keys\n"
+  remarks: 
+  syntax: 
+    content: String CheckSymmetricEncryption(String encryptedString)
+    parameters:
+    - id: encryptedString
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nString encryptedString;\nString res = agent.CheckSymmetricEncryption(encryptedString);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.CreateDefaultCustomerCenterConfig()
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.CreateDefaultCustomerCenterConfig()
+  id: 'CreateDefaultCustomerCenterConfig()'
+  so.intellisense: NSCustomerServiceAgent.CreateDefaultCustomerCenterConfig
+  langs:
+  - crmscript
+  name: 'CreateDefaultCustomerCenterConfig()'
+  nameWithType: NSCustomerServiceAgent.CreateDefaultCustomerCenterConfig()
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.CreateDefaultCustomerCenterConfig()
+  type: Method
+  summary: "\nSets default values into a new NSCustomerCenterConfig.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSCustomerCenterConfig CreateDefaultCustomerCenterConfig()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSCustomerCenterConfig
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nNSCustomerCenterConfig thing = agent.CreateDefaultCustomerCenterConfig();\nthing = agent.SaveCustomerCenterConfig(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.CreateDefaultMailboxEntity()
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.CreateDefaultMailboxEntity()
+  id: 'CreateDefaultMailboxEntity()'
+  so.intellisense: NSCustomerServiceAgent.CreateDefaultMailboxEntity
+  langs:
+  - crmscript
+  name: 'CreateDefaultMailboxEntity()'
+  nameWithType: NSCustomerServiceAgent.CreateDefaultMailboxEntity()
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.CreateDefaultMailboxEntity()
+  type: Method
+  summary: "\nSets default values into a new NSMailboxEntity\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSMailboxEntity CreateDefaultMailboxEntity()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSMailboxEntity
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nNSMailboxEntity thing = agent.CreateDefaultMailboxEntity();\nthing = agent.SaveMailboxEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.CreateDefaultSmsConfig()
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.CreateDefaultSmsConfig()
+  id: 'CreateDefaultSmsConfig()'
+  so.intellisense: NSCustomerServiceAgent.CreateDefaultSmsConfig
+  langs:
+  - crmscript
+  name: 'CreateDefaultSmsConfig()'
+  nameWithType: NSCustomerServiceAgent.CreateDefaultSmsConfig()
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.CreateDefaultSmsConfig()
+  type: Method
+  summary: "\nSets default values into a new NSSmsConfig.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSSmsConfig CreateDefaultSmsConfig()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSmsConfig
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nNSSmsConfig thing = agent.CreateDefaultSmsConfig();\nthing = agent.SaveSmsConfig(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.CreateSession(String)
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.CreateSession(String)
+  id: 'CreateSession(String)'
+  so.intellisense: NSCustomerServiceAgent.CreateSession
+  langs:
+  - crmscript
+  name: 'CreateSession(String)'
+  nameWithType: NSCustomerServiceAgent.CreateSession(String)
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.CreateSession(String)
+  type: Method
+  summary: "\nCreates a login session for a CS user\n"
+  remarks: 
+  syntax: 
+    content: NSCsSessionKey CreateSession(String remoteIp)
+    parameters:
+    - id: remoteIp
+      type: CRMScript.Global.String
+      description: "The IP of the client creating the session."
+    return:
+      type: CRMScript.NetServer.NSCsSessionKey
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nString remoteIp;\nNSCsSessionKey res = agent.CreateSession(remoteIp);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.CreateTicketFromMailData(Integer,String)
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.CreateTicketFromMailData(Integer,String)
+  id: 'CreateTicketFromMailData(Integer,String)'
+  so.intellisense: NSCustomerServiceAgent.CreateTicketFromMailData
+  langs:
+  - crmscript
+  name: 'CreateTicketFromMailData(Integer,String)'
+  nameWithType: NSCustomerServiceAgent.CreateTicketFromMailData(Integer,String)
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.CreateTicketFromMailData(Integer,String)
+  type: Method
+  summary: "\nCreates a new ticket in the same way as importMail would import an email.\n"
+  remarks: 
+  syntax: 
+    content: NSTicketInfo CreateTicketFromMailData(Integer mailboxId, String data)
+    parameters:
+    - id: mailboxId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: data
+      type: CRMScript.Global.String
+      description: "RFC822 formatted data."
+    return:
+      type: CRMScript.NetServer.NSTicketInfo
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nInteger mailboxId;\nString data;\nNSTicketInfo res = agent.CreateTicketFromMailData(mailboxId, data);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.DeleteChatSessions(Integer[])
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.DeleteChatSessions(Integer[])
+  id: 'DeleteChatSessions(Integer[])'
+  so.intellisense: NSCustomerServiceAgent.DeleteChatSessions
+  langs:
+  - crmscript
+  name: 'DeleteChatSessions(Integer[])'
+  nameWithType: NSCustomerServiceAgent.DeleteChatSessions(Integer[])
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.DeleteChatSessions(Integer[])
+  type: Method
+  summary: "\nDeletes the specified chat sessions.\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteChatSessions(Integer[] ids)
+    parameters:
+    - id: ids
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nInteger[] ids;\nagent.DeleteChatSessions(ids);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.DeleteCustomerCenterConfig(Integer)
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.DeleteCustomerCenterConfig(Integer)
+  id: 'DeleteCustomerCenterConfig(Integer)'
+  so.intellisense: NSCustomerServiceAgent.DeleteCustomerCenterConfig
+  langs:
+  - crmscript
+  name: 'DeleteCustomerCenterConfig(Integer)'
+  nameWithType: NSCustomerServiceAgent.DeleteCustomerCenterConfig(Integer)
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.DeleteCustomerCenterConfig(Integer)
+  type: Method
+  summary: "\nDeletes the NSCustomerCenterConfig\n"
+  remarks: 
+  syntax: 
+    content: DeleteCustomerCenterConfig(Integer customerCenterConfig)
+    parameters:
+    - id: customerCenterConfig
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nagent.DeleteCustomerCenterConfig(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.EventHandlerExists(Integer)
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.EventHandlerExists(Integer)
+  id: 'EventHandlerExists(Integer)'
+  so.intellisense: NSCustomerServiceAgent.EventHandlerExists
+  langs:
+  - crmscript
+  name: 'EventHandlerExists(Integer)'
+  nameWithType: NSCustomerServiceAgent.EventHandlerExists(Integer)
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.EventHandlerExists(Integer)
+  type: Method
+  summary: "\nChecks if an event handler exists.\n"
+  remarks: 
+  syntax: 
+    content: Bool EventHandlerExists(Integer eventHandlerType)
+    parameters:
+    - id: eventHandlerType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.EventHandlerType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nInteger eventHandlerType;\nBool res = agent.EventHandlerExists(eventHandlerType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.ExecuteEventHandlers(NSEventData)
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.ExecuteEventHandlers(NSEventData)
+  id: 'ExecuteEventHandlers(NSEventData)'
+  so.intellisense: NSCustomerServiceAgent.ExecuteEventHandlers
+  langs:
+  - crmscript
+  name: 'ExecuteEventHandlers(NSEventData)'
+  nameWithType: NSCustomerServiceAgent.ExecuteEventHandlers(NSEventData)
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.ExecuteEventHandlers(NSEventData)
+  type: Method
+  summary: "\nExecutes event handlers in CRMScript for a given event.\n"
+  remarks: 
+  syntax: 
+    content: NSEventData ExecuteEventHandlers(NSEventData eventData)
+    parameters:
+    - id: eventData
+      type: CRMScript.NetServer.NSEventData
+      description: 
+    return:
+      type: CRMScript.NetServer.NSEventData
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nNSEventData eventData;\nNSEventData res = agent.ExecuteEventHandlers(eventData);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.FindTicketsByTitleOrId(String,Integer)
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.FindTicketsByTitleOrId(String,Integer)
+  id: 'FindTicketsByTitleOrId(String,Integer)'
+  so.intellisense: NSCustomerServiceAgent.FindTicketsByTitleOrId
+  langs:
+  - crmscript
+  name: 'FindTicketsByTitleOrId(String,Integer)'
+  nameWithType: NSCustomerServiceAgent.FindTicketsByTitleOrId(String,Integer)
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.FindTicketsByTitleOrId(String,Integer)
+  type: Method
+  summary: "\nSearches for tickets matching title or ID\n"
+  remarks: 
+  syntax: 
+    content: NSTicketInfo[] FindTicketsByTitleOrId(String titleOrId, Integer maxRows)
+    parameters:
+    - id: titleOrId
+      type: CRMScript.Global.String
+      description: 
+    - id: maxRows
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSTicketInfo[]
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nString titleOrId;\nInteger maxRows;\nNSTicketInfo[] res = agent.FindTicketsByTitleOrId(titleOrId, maxRows);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.GetAllCustomerCenterConfigs()
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.GetAllCustomerCenterConfigs()
+  id: 'GetAllCustomerCenterConfigs()'
+  so.intellisense: NSCustomerServiceAgent.GetAllCustomerCenterConfigs
+  langs:
+  - crmscript
+  name: 'GetAllCustomerCenterConfigs()'
+  nameWithType: NSCustomerServiceAgent.GetAllCustomerCenterConfigs()
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.GetAllCustomerCenterConfigs()
+  type: Method
+  summary: "\nGets all rows from cust_config as an array of NSCustomerCenterConfig entities\n"
+  remarks: 
+  syntax: 
+    content: NSCustomerCenterConfig[] GetAllCustomerCenterConfigs()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSCustomerCenterConfig[]
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nNSCustomerCenterConfig[] res = agent.GetAllCustomerCenterConfigs();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.GetCustomerCenterConfig(Integer)
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.GetCustomerCenterConfig(Integer)
+  id: 'GetCustomerCenterConfig(Integer)'
+  so.intellisense: NSCustomerServiceAgent.GetCustomerCenterConfig
+  langs:
+  - crmscript
+  name: 'GetCustomerCenterConfig(Integer)'
+  nameWithType: NSCustomerServiceAgent.GetCustomerCenterConfig(Integer)
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.GetCustomerCenterConfig(Integer)
+  type: Method
+  summary: "\nGets an NSCustomerCenterConfig object.\n"
+  remarks: 
+  syntax: 
+    content: NSCustomerCenterConfig GetCustomerCenterConfig(Integer customerCenterConfigId)
+    parameters:
+    - id: customerCenterConfigId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSCustomerCenterConfig
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nNSCustomerCenterConfig thing = agent.GetCustomerCenterConfig(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.GetCustomerServiceStartup()
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.GetCustomerServiceStartup()
+  id: 'GetCustomerServiceStartup()'
+  so.intellisense: NSCustomerServiceAgent.GetCustomerServiceStartup
+  langs:
+  - crmscript
+  name: 'GetCustomerServiceStartup()'
+  nameWithType: NSCustomerServiceAgent.GetCustomerServiceStartup()
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.GetCustomerServiceStartup()
+  type: Method
+  summary: "\nGets the carrier with data that Service needs when starting up\n"
+  remarks: 
+  syntax: 
+    content: NSCustomerServiceStartup GetCustomerServiceStartup()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSCustomerServiceStartup
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nNSCustomerServiceStartup res = agent.GetCustomerServiceStartup();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.GetMailboxEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.GetMailboxEntity(Integer)
+  id: 'GetMailboxEntity(Integer)'
+  so.intellisense: NSCustomerServiceAgent.GetMailboxEntity
+  langs:
+  - crmscript
+  name: 'GetMailboxEntity(Integer)'
+  nameWithType: NSCustomerServiceAgent.GetMailboxEntity(Integer)
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.GetMailboxEntity(Integer)
+  type: Method
+  summary: "\nGets an NSMailboxEntity object.\n"
+  remarks: 
+  syntax: 
+    content: NSMailboxEntity GetMailboxEntity(Integer mailboxEntityId)
+    parameters:
+    - id: mailboxEntityId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSMailboxEntity
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nNSMailboxEntity thing = agent.GetMailboxEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.GetMailboxes()
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.GetMailboxes()
+  id: 'GetMailboxes()'
+  so.intellisense: NSCustomerServiceAgent.GetMailboxes
+  langs:
+  - crmscript
+  name: 'GetMailboxes()'
+  nameWithType: NSCustomerServiceAgent.GetMailboxes()
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.GetMailboxes()
+  type: Method
+  summary: "\nGets all registered mailboxes in Service\n"
+  remarks: 
+  syntax: 
+    content: NSMailbox[] GetMailboxes()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSMailbox[]
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nNSMailbox[] res = agent.GetMailboxes();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.GetProgramUrl(String,Bool)
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.GetProgramUrl(String,Bool)
+  id: 'GetProgramUrl(String,Bool)'
+  so.intellisense: NSCustomerServiceAgent.GetProgramUrl
+  langs:
+  - crmscript
+  name: 'GetProgramUrl(String,Bool)'
+  nameWithType: NSCustomerServiceAgent.GetProgramUrl(String,Bool)
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.GetProgramUrl(String,Bool)
+  type: Method
+  summary: "\nConverts a module name into a Service URL.\n"
+  remarks: 
+  syntax: 
+    content: String GetProgramUrl(String programName, Bool external)
+    parameters:
+    - id: programName
+      type: CRMScript.Global.String
+      description: 
+    - id: external
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nString programName;\nBool external;\nString res = agent.GetProgramUrl(programName, external);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.GetSmsConfig()
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.GetSmsConfig()
+  id: 'GetSmsConfig()'
+  so.intellisense: NSCustomerServiceAgent.GetSmsConfig
+  langs:
+  - crmscript
+  name: 'GetSmsConfig()'
+  nameWithType: NSCustomerServiceAgent.GetSmsConfig()
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.GetSmsConfig()
+  type: Method
+  summary: "\nGets the NSSmsConfig settings for Customer Service SMS providers.\n"
+  remarks: 
+  syntax: 
+    content: NSSmsConfig GetSmsConfig()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSmsConfig
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nNSSmsConfig res = agent.GetSmsConfig();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.GetStatistics()
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.GetStatistics()
+  id: 'GetStatistics()'
+  so.intellisense: NSCustomerServiceAgent.GetStatistics
+  langs:
+  - crmscript
+  name: 'GetStatistics()'
+  nameWithType: NSCustomerServiceAgent.GetStatistics()
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.GetStatistics()
+  type: Method
+  summary: "\nGets the calculated results for the required statistics for the Service Status page\n"
+  remarks:
+  syntax: 
+    content: CRMScript.NetServer.NSStatisticsDataSet[] GetStatistics(Integer[] functions)
+    parameters: 
+    - id: functions
+      type: CRMScript.Global.Integer
+      description: "List of functions to calculate and return. See <xref href=\"CRMScript.NetServer.StatusScreenPanelType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSStatisticsDataSet[]
+      description: "Array of StatisticsDataSet."
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nInteger[] functions;\nNSStatisticsDataSet[] res = agent.GetStatistics(functions);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.HasChatNotify()
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.HasChatNotify()
+  id: 'HasChatNotify()'
+  so.intellisense: NSCustomerServiceAgent.HasChatNotify
+  langs:
+  - crmscript
+  name: 'HasChatNotify()'
+  nameWithType: NSCustomerServiceAgent.HasChatNotify()
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.HasChatNotify()
+  type: Method
+  summary: "\nChecks if user has any chat notification\n"
+  remarks: 
+  syntax: 
+    content: Bool HasChatNotify()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nBool res = agent.HasChatNotify();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.RemoveSession(Integer)
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.RemoveSession(Integer)
+  id: 'RemoveSession(Integer)'
+  so.intellisense: NSCustomerServiceAgent.RemoveSession
+  langs:
+  - crmscript
+  name: 'RemoveSession(Integer)'
+  nameWithType: NSCustomerServiceAgent.RemoveSession(Integer)
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.RemoveSession(Integer)
+  type: Method
+  summary: "\nRemoves a login session for a Service user\n"
+  remarks: 
+  syntax: 
+    content: Void RemoveSession(Integer loginId)
+    parameters:
+    - id: loginId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.SaveAllCustomerCenterConfigs(NSCustomerCenterConfig[])
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.SaveAllCustomerCenterConfigs(NSCustomerCenterConfig[])
+  id: 'SaveAllCustomerCenterConfigs(NSCustomerCenterConfig[])'
+  so.intellisense: NSCustomerServiceAgent.SaveAllCustomerCenterConfigs
+  langs:
+  - crmscript
+  name: 'SaveAllCustomerCenterConfigs(NSCustomerCenterConfig[])'
+  nameWithType: NSCustomerServiceAgent.SaveAllCustomerCenterConfigs(NSCustomerCenterConfig[])
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.SaveAllCustomerCenterConfigs(NSCustomerCenterConfig[])
+  type: Method
+  summary: "\nSaves an array of NSCustomerCenterConfig entities to the database\n"
+  remarks: 
+  syntax: 
+    content: Void SaveAllCustomerCenterConfigs(NSCustomerCenterConfig[] custConfigs)
+    parameters:
+    - id: custConfigs
+      type: CRMScript.NetServer.NSCustomerCenterConfig[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nagent.SaveAllCustomerCenterConfigs(custConfigs);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.SaveCustomerCenterConfig(NSCustomerCenterConfig)
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.SaveCustomerCenterConfig(NSCustomerCenterConfig)
+  id: 'SaveCustomerCenterConfig(NSCustomerCenterConfig)'
+  so.intellisense: NSCustomerServiceAgent.SaveCustomerCenterConfig
+  langs:
+  - crmscript
+  name: 'SaveCustomerCenterConfig(NSCustomerCenterConfig)'
+  nameWithType: NSCustomerServiceAgent.SaveCustomerCenterConfig(NSCustomerCenterConfig)
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.SaveCustomerCenterConfig(NSCustomerCenterConfig)
+  type: Method
+  summary: "\nUpdates the existing NSCustomerCenterConfig or creates a new NSCustomerCenterConfig if the id parameter is 0\n"
+  remarks: 
+  syntax: 
+    content: NSCustomerCenterConfig SaveCustomerCenterConfig(NSCustomerCenterConfig customerCenterConfig)
+    parameters:
+    - id: customerCenterConfig
+      type: CRMScript.NetServer.NSCustomerCenterConfig
+      description: "The NSCustomerCenterConfig to save."
+    return:
+      type: CRMScript.NetServer.NSCustomerCenterConfig
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerService  agent;\nNSCustomerCenterConfig thing = agent.CreateDefaultCustomerCenterConfig();\nthing = agent.SaveCustomerCenterConfig(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.SaveMailboxEntity(NSMailboxEntity)
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.SaveMailboxEntity(NSMailboxEntity)
+  id: 'SaveMailboxEntity(NSMailboxEntity)'
+  so.intellisense: NSCustomerServiceAgent.SaveMailboxEntity
+  langs:
+  - crmscript
+  name: 'SaveMailboxEntity(NSMailboxEntity)'
+  nameWithType: NSCustomerServiceAgent.SaveMailboxEntity(NSMailboxEntity)
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.SaveMailboxEntity(NSMailboxEntity)
+  type: Method
+  summary: "\nUpdates the existing NSMailboxEntity or creates a new NSMailboxEntity if the ID parameter is 0\n"
+  remarks: 
+  syntax: 
+    content: NSMailboxEntity SaveMailboxEntity(NSMailboxEntity mailboxEntity)
+    parameters:
+    - id: mailboxEntity
+      type: CRMScript.NetServer.NSMailboxEntity
+      description: "The NSMailboxEntity to save."
+    return:
+      type: CRMScript.NetServer.NSMailboxEntity
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerService  agent;\nNSMailboxEntity thing = agent.CreateDefaultMailboxEntity();\nthing = agent.SaveMailboxEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.SaveSmsConfig(NSSmsConfig)
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.SaveSmsConfig(NSSmsConfig)
+  id: 'SaveSmsConfig(NSSmsConfig)'
+  so.intellisense: NSCustomerServiceAgent.SaveSmsConfig
+  langs:
+  - crmscript
+  name: 'SaveSmsConfig(NSSmsConfig)'
+  nameWithType: NSCustomerServiceAgent.SaveSmsConfig(NSSmsConfig)
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.SaveSmsConfig(NSSmsConfig)
+  type: Method
+  summary: "\nUpdates the existing NSSmsConfig or creates a new NSSmsConfig if the ID parameter is 0\n"
+  remarks: 
+  syntax: 
+    content: NSSmsConfig SaveSmsConfig(NSSmsConfig smsConfig)
+    parameters:
+    - id: smsConfig
+      type: CRMScript.NetServer.NSSmsConfig
+      description: 
+    return:
+      type: CRMScript.NetServer.NSSmsConfig
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerService  agent;\nNSSmsConfig thing = agent.CreateDefaultSmsConfig();\nthing = agent.SaveSmsConfig(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.SessionIsValid(String)
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.SessionIsValid(String)
+  id: 'SessionIsValid(String)'
+  so.intellisense: NSCustomerServiceAgent.SessionIsValid
+  langs:
+  - crmscript
+  name: 'SessionIsValid(String)'
+  nameWithType: NSCustomerServiceAgent.SessionIsValid(String)
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.SessionIsValid(String)
+  type: Method
+  summary: "\nChecks if a Service session is valid\n"
+  remarks: 
+  syntax: 
+    content: Bool SessionIsValid(String csSessionKey)
+    parameters:
+    - id: csSessionKey
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nString csSessionKey;\nBool res = agent.SessionIsValid(csSessionKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.TestSmtpServer(String,String,Bool)
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.TestSmtpServer(String,String,Bool)
+  id: 'TestSmtpServer(String,String,Bool)'
+  so.intellisense: NSCustomerServiceAgent.TestSmtpServer
+  langs:
+  - crmscript
+  name: 'TestSmtpServer(String,String,Bool)'
+  nameWithType: NSCustomerServiceAgent.TestSmtpServer(String,String,Bool)
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.TestSmtpServer(String,String,Bool)
+  type: Method
+  summary: "\nTests an SMTP account, by sending an email to a special @superoffice.com account\n"
+  remarks: 
+  syntax: 
+    content: NSSmtpTestResult TestSmtpServer(String smtpUri, String from, Bool useStoredPassword)
+    parameters:
+    - id: smtpUri
+      type: CRMScript.Global.String
+      description: 
+    - id: from
+      type: CRMScript.Global.String
+      description: 
+    - id: useStoredPassword
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.NetServer.NSSmtpTestResult
+      description:
+  example: 
+  - "\n<pre><code>NSCustomerServiceAgent agent;\nString smtpUri;\nString from;\nBool useStoredPassword;\nNSSmtpTestResult res = agent.TestSmtpServer(smtpUri, from, useStoredPassword);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCustomerServiceAgent.UpdateFeatureToggles(CsFeatureToggle[])
+  commentId: M:CRMScript.NetServer.NSCustomerServiceAgent.UpdateFeatureToggles(CsFeatureToggle[])
+  id: 'UpdateFeatureToggles(CsFeatureToggle[])'
+  so.intellisense: NSCustomerServiceAgent.UpdateFeatureToggles
+  langs:
+  - crmscript
+  name: 'UpdateFeatureToggles(CsFeatureToggle[])'
+  nameWithType: NSCustomerServiceAgent.UpdateFeatureToggles(CsFeatureToggle[])
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent.UpdateFeatureToggles(CsFeatureToggle[])
+  type: Method
+  summary: "\nUpdates the cached FeatureToggles for Service\n"
+  remarks: 
+  syntax: 
+    content: Void UpdateFeatureToggles(CsFeatureToggle[] featureToggles)
+    parameters:
+    - id: featureToggles
+      type: CRMScript.NetServer.CsFeatureToggle[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSCustomerServiceAgent
+  commentId: T:CRMScript.NetServer.NSCustomerServiceAgent
+  isExternal: true
+  name: NSCustomerServiceAgent
+  nameWithType: NSCustomerServiceAgent
+  fullName: CRMScript.NetServer.NSCustomerServiceAgent
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSTicketInfo
+  commentId: T:CRMScript.NetServer.NSTicketInfo
+  isExternal: true
+  name: NSTicketInfo
+  nameWithType: NSTicketInfo
+  fullName: CRMScript.NetServer.NSTicketInfo
+- uid: CRMScript.NetServer.NSChatSession[]
+  isExternal: true
+  name: NSChatSession[]
+  nameWithType: NSChatSession[]
+  fullName: CRMScript.NetServer.NSChatSession[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSChatSession
+    isExternal: true
+    name: NSChatSession
+    nameWithType: NSChatSession
+    fullName: CRMScript.NetServer.NSChatSession
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSChatSession
+  commentId: T:CRMScript.NetServer.NSChatSession
+  isExternal: true
+  name: NSChatSession
+  nameWithType: NSChatSession
+  fullName: CRMScript.NetServer.NSChatSession
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.NetServer.NSCustomerCenterConfig
+  commentId: T:CRMScript.NetServer.NSCustomerCenterConfig
+  isExternal: true
+  name: NSCustomerCenterConfig
+  nameWithType: NSCustomerCenterConfig
+  fullName: CRMScript.NetServer.NSCustomerCenterConfig
+- uid: CRMScript.NetServer.NSMailboxEntity
+  commentId: T:CRMScript.NetServer.NSMailboxEntity
+  isExternal: true
+  name: NSMailboxEntity
+  nameWithType: NSMailboxEntity
+  fullName: CRMScript.NetServer.NSMailboxEntity
+- uid: CRMScript.NetServer.NSSmsConfig
+  commentId: T:CRMScript.NetServer.NSSmsConfig
+  isExternal: true
+  name: NSSmsConfig
+  nameWithType: NSSmsConfig
+  fullName: CRMScript.NetServer.NSSmsConfig
+- uid: CRMScript.NetServer.NSCsSessionKey
+  commentId: T:CRMScript.NetServer.NSCsSessionKey
+  isExternal: true
+  name: NSCsSessionKey
+  nameWithType: NSCsSessionKey
+  fullName: CRMScript.NetServer.NSCsSessionKey
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    isExternal: true
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEventData
+  commentId: T:CRMScript.NetServer.NSEventData
+  isExternal: true
+  name: NSEventData
+  nameWithType: NSEventData
+  fullName: CRMScript.NetServer.NSEventData
+- uid: CRMScript.NetServer.NSTicketInfo[]
+  isExternal: true
+  name: NSTicketInfo[]
+  nameWithType: NSTicketInfo[]
+  fullName: CRMScript.NetServer.NSTicketInfo[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSTicketInfo
+    isExternal: true
+    name: NSTicketInfo
+    nameWithType: NSTicketInfo
+    fullName: CRMScript.NetServer.NSTicketInfo
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSTicketInfo
+  commentId: T:CRMScript.NetServer.NSTicketInfo
+  isExternal: true
+  name: NSTicketInfo
+  nameWithType: NSTicketInfo
+  fullName: CRMScript.NetServer.NSTicketInfo
+- uid: CRMScript.NetServer.NSCustomerCenterConfig[]
+  isExternal: true
+  name: NSCustomerCenterConfig[]
+  nameWithType: NSCustomerCenterConfig[]
+  fullName: CRMScript.NetServer.NSCustomerCenterConfig[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSCustomerCenterConfig
+    isExternal: true
+    name: NSCustomerCenterConfig
+    nameWithType: NSCustomerCenterConfig
+    fullName: CRMScript.NetServer.NSCustomerCenterConfig
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSCustomerCenterConfig
+  commentId: T:CRMScript.NetServer.NSCustomerCenterConfig
+  isExternal: true
+  name: NSCustomerCenterConfig
+  nameWithType: NSCustomerCenterConfig
+  fullName: CRMScript.NetServer.NSCustomerCenterConfig
+- uid: CRMScript.NetServer.NSCustomerServiceStartup
+  commentId: T:CRMScript.NetServer.NSCustomerServiceStartup
+  isExternal: true
+  name: NSCustomerServiceStartup
+  nameWithType: NSCustomerServiceStartup
+  fullName: CRMScript.NetServer.NSCustomerServiceStartup
+- uid: CRMScript.NetServer.NSMailbox[]
+  isExternal: true
+  name: NSMailbox[]
+  nameWithType: NSMailbox[]
+  fullName: CRMScript.NetServer.NSMailbox[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSMailbox
+    isExternal: true
+    name: NSMailbox
+    nameWithType: NSMailbox
+    fullName: CRMScript.NetServer.NSMailbox
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSMailbox
+  commentId: T:CRMScript.NetServer.NSMailbox
+  isExternal: true
+  name: NSMailbox
+  nameWithType: NSMailbox
+  fullName: CRMScript.NetServer.NSMailbox
+- uid: CRMScript.NetServer.NSSmtpTestResult
+  commentId: T:CRMScript.NetServer.NSSmtpTestResult
+  isExternal: true
+  name: NSSmtpTestResult
+  nameWithType: NSSmtpTestResult
+  fullName: CRMScript.NetServer.NSSmtpTestResult
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.StatusScreenPanelType
+  commentId: T:CRMScript.NetServer.StatusScreenPanelType
+  isExternal: true
+  name: StatusScreenPanelType
+  nameWithType: StatusScreenPanelType
+  fullName: CRMScript.NetServer.StatusScreenPanelType

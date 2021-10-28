@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSReasonStalled
+  commentId: T:CRMScript.NetServer.NSReasonStalled
+  id: NSReasonStalled
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSReasonStalled.#ctor
+  - CRMScript.NetServer.NSReasonStalled.GetId()
+  - CRMScript.NetServer.NSReasonStalled.GetTooltip()
+  - CRMScript.NetServer.NSReasonStalled.GetValue()
+  - CRMScript.NetServer.NSReasonStalled.SetId(Integer)
+  - CRMScript.NetServer.NSReasonStalled.SetTooltip(String)
+  - CRMScript.NetServer.NSReasonStalled.SetValue(String)
+  name: NSReasonStalled
+  nameWithType: NSReasonStalled
+  fullName: CRMScript.NetServer.NSReasonStalled
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSReasonStalled.#ctor
+  commentId: M:CRMScript.NetServer.NSReasonStalled.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSReasonStalled
+  langs:
+  - crmscript
+  name: NSReasonStalled()
+  nameWithType: NSReasonStalled.#ctor
+  fullName: CRMScript.NetServer.NSReasonStalled.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSReasonStalled class.\n"
+  remarks: 
+  syntax: 
+    content: NSReasonStalled
+  example: 
+- uid: CRMScript.NetServer.NSReasonStalled.GetId()
+  commentId: M:CRMScript.NetServer.NSReasonStalled.GetId()
+  id: 'GetId()'
+  so.intellisense: NSReasonStalled.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSReasonStalled.GetId()
+  fullName: CRMScript.NetServer.NSReasonStalled.GetId()
+  type: Method
+  summary: "\nGets the primary key (ID) for the ReasonStalled\n"
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSReasonStalled thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReasonStalled.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSReasonStalled.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSReasonStalled.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSReasonStalled.GetTooltip()
+  fullName: CRMScript.NetServer.NSReasonStalled.GetTooltip()
+  type: Method
+  summary: "\nGets the tooltip description for the ReasonStalled list item.\n"
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSReasonStalled thing;\nString descr = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReasonStalled.GetValue()
+  commentId: M:CRMScript.NetServer.NSReasonStalled.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSReasonStalled.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSReasonStalled.GetValue()
+  fullName: CRMScript.NetServer.NSReasonStalled.GetValue()
+  type: Method
+  summary: "\nGets the name of the ReasonStalled.\n"
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSReasonStalled thing;\nString name = thing.GetValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReasonStalled.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSReasonStalled.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSReasonStalled.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSReasonStalled.SetId(Integer)
+  fullName: CRMScript.NetServer.NSReasonStalled.SetId(Integer)
+  type: Method
+  summary: "\nSets the primary key (ID) for the ReasonStalled\n"
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReasonStalled thing;\nthing.SetId(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReasonStalled.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSReasonStalled.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSReasonStalled.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSReasonStalled.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSReasonStalled.SetTooltip(String)
+  type: Method
+  summary: "\nSets the tooltip description for the ReasonStalled list item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReasonStalled thing;\nString descr = &quot;something new&quot;;\nthing.SetTooltip(descr);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReasonStalled.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSReasonStalled.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSReasonStalled.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSReasonStalled.SetValue(String)
+  fullName: CRMScript.NetServer.NSReasonStalled.SetValue(String)
+  type: Method
+  summary: "\nSets the name of the ReasonStalled item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReasonStalled thing;\nthing.SetValue(&quot;frotz&quot;);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSReasonStalled
+  commentId: T:CRMScript.NetServer.NSReasonStalled
+  isExternal: true
+  name: NSReasonStalled
+  nameWithType: NSReasonStalled
+  fullName: CRMScript.NetServer.NSReasonStalled
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

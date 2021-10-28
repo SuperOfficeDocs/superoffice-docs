@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSQuickReply
+  commentId: T:CRMScript.NetServer.NSQuickReply
+  id: NSQuickReply
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSQuickReply.#ctor
+  - CRMScript.NetServer.NSQuickReply.GetHtmlBody()
+  - CRMScript.NetServer.NSQuickReply.GetName()
+  - CRMScript.NetServer.NSQuickReply.GetQuickReplyId()
+  - CRMScript.NetServer.NSQuickReply.SetHtmlBody(String)
+  - CRMScript.NetServer.NSQuickReply.SetName(String)
+  - CRMScript.NetServer.NSQuickReply.SetQuickReplyId(Integer)
+  name: NSQuickReply
+  nameWithType: NSQuickReply
+  fullName: CRMScript.NetServer.NSQuickReply
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSQuickReply.#ctor
+  commentId: M:CRMScript.NetServer.NSQuickReply.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSQuickReply
+  langs:
+  - crmscript
+  name: NSQuickReply()
+  nameWithType: NSQuickReply.#ctor
+  fullName: CRMScript.NetServer.NSQuickReply.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSQuickReply class.\n"
+  remarks: 
+  syntax: 
+    content: NSQuickReply
+  example: 
+- uid: CRMScript.NetServer.NSQuickReply.GetHtmlBody()
+  commentId: M:CRMScript.NetServer.NSQuickReply.GetHtmlBody()
+  id: 'GetHtmlBody()'
+  so.intellisense: NSQuickReply.GetHtmlBody
+  langs:
+  - crmscript
+  name: 'GetHtmlBody()'
+  nameWithType: NSQuickReply.GetHtmlBody()
+  fullName: CRMScript.NetServer.NSQuickReply.GetHtmlBody()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetHtmlBody()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The HTML body of the quick reply."
+  example: 
+  - "\n<pre><code>NSQuickReply thing;\nString htmlBody = thing.GetHtmlBody();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuickReply.GetName()
+  commentId: M:CRMScript.NetServer.NSQuickReply.GetName()
+  id: 'GetName()'
+  so.intellisense: NSQuickReply.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSQuickReply.GetName()
+  fullName: CRMScript.NetServer.NSQuickReply.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The short name of the quick reply."
+  example: 
+  - "\n<pre><code>NSQuickReply thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuickReply.GetQuickReplyId()
+  commentId: M:CRMScript.NetServer.NSQuickReply.GetQuickReplyId()
+  id: 'GetQuickReplyId()'
+  so.intellisense: NSQuickReply.GetQuickReplyId
+  langs:
+  - crmscript
+  name: 'GetQuickReplyId()'
+  nameWithType: NSQuickReply.GetQuickReplyId()
+  fullName: CRMScript.NetServer.NSQuickReply.GetQuickReplyId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetQuickReplyId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSQuickReply thing;\nInteger quickReplyId = thing.GetQuickReplyId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuickReply.SetHtmlBody(String)
+  commentId: M:CRMScript.NetServer.NSQuickReply.SetHtmlBody(String)
+  id: 'SetHtmlBody(String)'
+  so.intellisense: NSQuickReply.SetHtmlBody
+  langs:
+  - crmscript
+  name: 'SetHtmlBody(String)'
+  nameWithType: NSQuickReply.SetHtmlBody(String)
+  fullName: CRMScript.NetServer.NSQuickReply.SetHtmlBody(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetHtmlBody(String htmlBody)
+    parameters:
+    - id: htmlBody
+      type: CRMScript.Global.String
+      description: "The HTML body of the quick reply."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuickReply thing;\nString htmlBody;\nthing.SetHtmlBody(htmlBody);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuickReply.SetName(String)
+  commentId: M:CRMScript.NetServer.NSQuickReply.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSQuickReply.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSQuickReply.SetName(String)
+  fullName: CRMScript.NetServer.NSQuickReply.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The short name of the quick reply."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuickReply thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuickReply.SetQuickReplyId(Integer)
+  commentId: M:CRMScript.NetServer.NSQuickReply.SetQuickReplyId(Integer)
+  id: 'SetQuickReplyId(Integer)'
+  so.intellisense: NSQuickReply.SetQuickReplyId
+  langs:
+  - crmscript
+  name: 'SetQuickReplyId(Integer)'
+  nameWithType: NSQuickReply.SetQuickReplyId(Integer)
+  fullName: CRMScript.NetServer.NSQuickReply.SetQuickReplyId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetQuickReplyId(Integer quickReplyId)
+    parameters:
+    - id: quickReplyId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuickReply thing;\nInteger quickReplyId;\nthing.SetQuickReplyId(quickReplyId);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSQuickReply
+  commentId: T:CRMScript.NetServer.NSQuickReply
+  isExternal: true
+  name: NSQuickReply
+  nameWithType: NSQuickReply
+  fullName: CRMScript.NetServer.NSQuickReply
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

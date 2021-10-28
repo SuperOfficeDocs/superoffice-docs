@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSWebhookResult
+  commentId: T:CRMScript.NetServer.NSWebhookResult
+  id: NSWebhookResult
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSWebhookResult.#ctor
+  - CRMScript.NetServer.NSWebhookResult.GetMessage()
+  - CRMScript.NetServer.NSWebhookResult.GetSuccess()
+  - CRMScript.NetServer.NSWebhookResult.SetMessage(String)
+  - CRMScript.NetServer.NSWebhookResult.SetSuccess(Bool)
+  name: NSWebhookResult
+  nameWithType: NSWebhookResult
+  fullName: CRMScript.NetServer.NSWebhookResult
+  type: Class
+  summary: "\nResult of calling a webhook.\n"
+  example: 
+- uid: CRMScript.NetServer.NSWebhookResult.#ctor
+  commentId: M:CRMScript.NetServer.NSWebhookResult.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSWebhookResult
+  langs:
+  - crmscript
+  name: NSWebhookResult()
+  nameWithType: NSWebhookResult.#ctor
+  fullName: CRMScript.NetServer.NSWebhookResult.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSWebhookResult class.\n"
+  remarks: 
+  syntax: 
+    content: NSWebhookResult
+  example: 
+- uid: CRMScript.NetServer.NSWebhookResult.GetMessage()
+  commentId: M:CRMScript.NetServer.NSWebhookResult.GetMessage()
+  id: 'GetMessage()'
+  so.intellisense: NSWebhookResult.GetMessage
+  langs:
+  - crmscript
+  name: 'GetMessage()'
+  nameWithType: NSWebhookResult.GetMessage()
+  fullName: CRMScript.NetServer.NSWebhookResult.GetMessage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetMessage()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Headers and body of response from webhook."
+  example: 
+  - "\n<pre><code>NSWebhookResult thing;\nString message = thing.GetMessage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhookResult.GetSuccess()
+  commentId: M:CRMScript.NetServer.NSWebhookResult.GetSuccess()
+  id: 'GetSuccess()'
+  so.intellisense: NSWebhookResult.GetSuccess
+  langs:
+  - crmscript
+  name: 'GetSuccess()'
+  nameWithType: NSWebhookResult.GetSuccess()
+  fullName: CRMScript.NetServer.NSWebhookResult.GetSuccess()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetSuccess()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Was call to webhook successful? (200 OK)."
+  example: 
+  - "\n<pre><code>NSWebhookResult thing;\nBool success = thing.GetSuccess();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhookResult.SetMessage(String)
+  commentId: M:CRMScript.NetServer.NSWebhookResult.SetMessage(String)
+  id: 'SetMessage(String)'
+  so.intellisense: NSWebhookResult.SetMessage
+  langs:
+  - crmscript
+  name: 'SetMessage(String)'
+  nameWithType: NSWebhookResult.SetMessage(String)
+  fullName: CRMScript.NetServer.NSWebhookResult.SetMessage(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMessage(String message)
+    parameters:
+    - id: message
+      type: CRMScript.Global.String
+      description: "Headers and body of response from webhook."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebhookResult thing;\nString message;\nthing.SetMessage(message);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhookResult.SetSuccess(Bool)
+  commentId: M:CRMScript.NetServer.NSWebhookResult.SetSuccess(Bool)
+  id: 'SetSuccess(Bool)'
+  so.intellisense: NSWebhookResult.SetSuccess
+  langs:
+  - crmscript
+  name: 'SetSuccess(Bool)'
+  nameWithType: NSWebhookResult.SetSuccess(Bool)
+  fullName: CRMScript.NetServer.NSWebhookResult.SetSuccess(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSuccess(Bool success)
+    parameters:
+    - id: success
+      type: CRMScript.Global.Bool
+      description: "Was call to webhook successful? (200 OK)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebhookResult thing;\nBool success;\nthing.SetSuccess(success);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSWebhookResult
+  commentId: T:CRMScript.NetServer.NSWebhookResult
+  isExternal: true
+  name: NSWebhookResult
+  nameWithType: NSWebhookResult
+  fullName: CRMScript.NetServer.NSWebhookResult
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

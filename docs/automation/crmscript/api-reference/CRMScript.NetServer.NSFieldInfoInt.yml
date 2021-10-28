@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSFieldInfoInt
+  commentId: T:CRMScript.NetServer.NSFieldInfoInt
+  id: NSFieldInfoInt
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSFieldInfoInt.#ctor
+  - CRMScript.NetServer.NSFieldInfoInt.GetDefaultValue()
+  - CRMScript.NetServer.NSFieldInfoInt.SetDefaultValue(Integer)
+  name: NSFieldInfoInt
+  nameWithType: NSFieldInfoInt
+  fullName: CRMScript.NetServer.NSFieldInfoInt
+  type: Class
+  summary: "\nInteger custom database field.\n"
+  example: 
+- uid: CRMScript.NetServer.NSFieldInfoInt.#ctor
+  commentId: M:CRMScript.NetServer.NSFieldInfoInt.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSFieldInfoInt
+  langs:
+  - crmscript
+  name: NSFieldInfoInt()
+  nameWithType: NSFieldInfoInt.#ctor
+  fullName: CRMScript.NetServer.NSFieldInfoInt.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSFieldInfoInt class.\n"
+  remarks: 
+  syntax: 
+    content: NSFieldInfoInt
+  example: 
+- uid: CRMScript.NetServer.NSFieldInfoInt.GetDefaultValue()
+  commentId: M:CRMScript.NetServer.NSFieldInfoInt.GetDefaultValue()
+  id: 'GetDefaultValue()'
+  so.intellisense: NSFieldInfoInt.GetDefaultValue
+  langs:
+  - crmscript
+  name: 'GetDefaultValue()'
+  nameWithType: NSFieldInfoInt.GetDefaultValue()
+  fullName: CRMScript.NetServer.NSFieldInfoInt.GetDefaultValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDefaultValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Default integer value."
+  example: 
+  - "\n<pre><code>NSFieldInfoInt thing;\nInteger defaultValue = thing.GetDefaultValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldInfoInt.SetDefaultValue(Integer)
+  commentId: M:CRMScript.NetServer.NSFieldInfoInt.SetDefaultValue(Integer)
+  id: 'SetDefaultValue(Integer)'
+  so.intellisense: NSFieldInfoInt.SetDefaultValue
+  langs:
+  - crmscript
+  name: 'SetDefaultValue(Integer)'
+  nameWithType: NSFieldInfoInt.SetDefaultValue(Integer)
+  fullName: CRMScript.NetServer.NSFieldInfoInt.SetDefaultValue(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDefaultValue(Integer defaultValue)
+    parameters:
+    - id: defaultValue
+      type: CRMScript.Global.Integer
+      description: "Default integer value."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldInfoInt thing;\nInteger defaultValue;\nthing.SetDefaultValue(defaultValue);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSFieldInfoInt
+  commentId: T:CRMScript.NetServer.NSFieldInfoInt
+  isExternal: true
+  name: NSFieldInfoInt
+  nameWithType: NSFieldInfoInt
+  fullName: CRMScript.NetServer.NSFieldInfoInt
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

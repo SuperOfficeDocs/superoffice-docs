@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSLicenseResult
+  commentId: T:CRMScript.NetServer.NSLicenseResult
+  id: NSLicenseResult
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSLicenseResult.#ctor
+  - CRMScript.NetServer.NSLicenseResult.GetReason()
+  - CRMScript.NetServer.NSLicenseResult.GetSucceeded()
+  - CRMScript.NetServer.NSLicenseResult.SetReason(String)
+  - CRMScript.NetServer.NSLicenseResult.SetSucceeded(Bool)
+  name: NSLicenseResult
+  nameWithType: NSLicenseResult
+  fullName: CRMScript.NetServer.NSLicenseResult
+  type: Class
+  summary: "\nCarrier object for LicenseResult.\n"
+  example: 
+- uid: CRMScript.NetServer.NSLicenseResult.#ctor
+  commentId: M:CRMScript.NetServer.NSLicenseResult.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSLicenseResult
+  langs:
+  - crmscript
+  name: NSLicenseResult()
+  nameWithType: NSLicenseResult.#ctor
+  fullName: CRMScript.NetServer.NSLicenseResult.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSLicenseResult class.\n"
+  remarks: 
+  syntax: 
+    content: NSLicenseResult
+  example: 
+- uid: CRMScript.NetServer.NSLicenseResult.GetReason()
+  commentId: M:CRMScript.NetServer.NSLicenseResult.GetReason()
+  id: 'GetReason()'
+  so.intellisense: NSLicenseResult.GetReason
+  langs:
+  - crmscript
+  name: 'GetReason()'
+  nameWithType: NSLicenseResult.GetReason()
+  fullName: CRMScript.NetServer.NSLicenseResult.GetReason()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetReason()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSLicenseResult thing;\nString reason = thing.GetReason();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseResult.GetSucceeded()
+  commentId: M:CRMScript.NetServer.NSLicenseResult.GetSucceeded()
+  id: 'GetSucceeded()'
+  so.intellisense: NSLicenseResult.GetSucceeded
+  langs:
+  - crmscript
+  name: 'GetSucceeded()'
+  nameWithType: NSLicenseResult.GetSucceeded()
+  fullName: CRMScript.NetServer.NSLicenseResult.GetSucceeded()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetSucceeded()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSLicenseResult thing;\nBool succeeded = thing.GetSucceeded();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseResult.SetReason(String)
+  commentId: M:CRMScript.NetServer.NSLicenseResult.SetReason(String)
+  id: 'SetReason(String)'
+  so.intellisense: NSLicenseResult.SetReason
+  langs:
+  - crmscript
+  name: 'SetReason(String)'
+  nameWithType: NSLicenseResult.SetReason(String)
+  fullName: CRMScript.NetServer.NSLicenseResult.SetReason(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetReason(String reason)
+    parameters:
+    - id: reason
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLicenseResult thing;\nString reason;\nthing.SetReason(reason);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLicenseResult.SetSucceeded(Bool)
+  commentId: M:CRMScript.NetServer.NSLicenseResult.SetSucceeded(Bool)
+  id: 'SetSucceeded(Bool)'
+  so.intellisense: NSLicenseResult.SetSucceeded
+  langs:
+  - crmscript
+  name: 'SetSucceeded(Bool)'
+  nameWithType: NSLicenseResult.SetSucceeded(Bool)
+  fullName: CRMScript.NetServer.NSLicenseResult.SetSucceeded(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSucceeded(Bool succeeded)
+    parameters:
+    - id: succeeded
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLicenseResult thing;\nBool succeeded;\nthing.SetSucceeded(succeeded);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSLicenseResult
+  commentId: T:CRMScript.NetServer.NSLicenseResult
+  isExternal: true
+  name: NSLicenseResult
+  nameWithType: NSLicenseResult
+  fullName: CRMScript.NetServer.NSLicenseResult
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

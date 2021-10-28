@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.RecurrenceUpdateMode
+  # Same as SuperOffice.Data.RecurrenceUpdateMode
+  commentId: T:CRMScript.NetServer.RecurrenceUpdateMode
+  id: RecurrenceUpdateMode
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.RecurrenceUpdateMode.Unknown
+  - CRMScript.NetServer.RecurrenceUpdateMode.OnlyThis
+  - CRMScript.NetServer.RecurrenceUpdateMode.ThisAndForward
+  - CRMScript.NetServer.RecurrenceUpdateMode.StopRecurrence
+  name: RecurrenceUpdateMode
+  nameWithType: RecurrenceUpdateMode
+  fullName: CRMScript.NetServer.RecurrenceUpdateMode
+  type: Enum
+  summary: "\nAppointment recurrence change mode: only this, this and forward, stop.\n"
+- uid: CRMScript.NetServer.RecurrenceUpdateMode.Unknown
+  commentId: F:CRMScript.NetServer.RecurrenceUpdateMode.Unknown
+  id: RecurrenceUpdateMode.Unknown
+  langs:
+  - crmscript
+  name: RecurrenceUpdateMode.Unknown
+  nameWithType: RecurrenceUpdateMode.Unknown
+  fullName: CRMScript.NetServer.RecurrenceUpdateMode.Unknown
+  type: Field
+  summary: "\n0: Unknown/undecided type\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.RecurrenceUpdateMode
+- uid: CRMScript.NetServer.RecurrenceUpdateMode.OnlyThis
+  commentId: F:CRMScript.NetServer.RecurrenceUpdateMode.OnlyThis
+  id: RecurrenceUpdateMode.OnlyThis
+  langs:
+  - crmscript
+  name: RecurrenceUpdateMode.OnlyThis
+  nameWithType: RecurrenceUpdateMode.OnlyThis
+  fullName: CRMScript.NetServer.RecurrenceUpdateMode.OnlyThis
+  type: Field
+  summary: "\n1: Update only this instance\n"
+  syntax: 
+    content: OnlyThis = 1
+    type: CRMScript.NetServer.RecurrenceUpdateMode
+- uid: CRMScript.NetServer.RecurrenceUpdateMode.ThisAndForward
+  commentId: F:CRMScript.NetServer.RecurrenceUpdateMode.ThisAndForward
+  id: RecurrenceUpdateMode.ThisAndForward
+  langs:
+  - crmscript
+  name: RecurrenceUpdateMode.ThisAndForward
+  nameWithType: RecurrenceUpdateMode.ThisAndForward
+  fullName: CRMScript.NetServer.RecurrenceUpdateMode.ThisAndForward
+  type: Field
+  summary: "\n2: Update this instance and all instances forward in time\n"
+  syntax: 
+    content: ThisAndForward = 2
+    type: CRMScript.NetServer.RecurrenceUpdateMode
+- uid: CRMScript.NetServer.RecurrenceUpdateMode.StopRecurrence
+  commentId: F:CRMScript.NetServer.RecurrenceUpdateMode.StopRecurrence
+  id: RecurrenceUpdateMode.StopRecurrence
+  langs:
+  - crmscript
+  name: RecurrenceUpdateMode.StopRecurrence
+  nameWithType: RecurrenceUpdateMode.StopRecurrence
+  fullName: CRMScript.NetServer.RecurrenceUpdateMode.StopRecurrence
+  type: Field
+  summary: "\n9: Stop the recurrence from this instance and forward in time\n"
+  syntax: 
+    content: StopRecurrence = 9
+    type: CRMScript.NetServer.RecurrenceUpdateMode
+references:
+- uid: CRMScript.NetServer.RecurrenceUpdateMode
+  commentId: T:CRMScript.NetServer.RecurrenceUpdateMode
+  isExternal: true
+  name: RecurrenceUpdateMode
+  nameWithType: RecurrenceUpdateMode
+  fullName: CRMScript.NetServer.RecurrenceUpdateMode

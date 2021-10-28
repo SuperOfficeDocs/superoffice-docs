@@ -4,7 +4,7 @@ title: DateTime data type
 author:
 so.date:
 keywords:
-so.topic:
+so.topic: concept
 ---
 
 # DateTime data type
@@ -32,7 +32,7 @@ DateTime past = DateTime(dt);
 printLine(past.toString());
 ```
 
-### DateTime DateTime(Integer year, Integer month, Integer mday,Integer hour,Integer min,Integer sec)
+### DateTime DateTime(Integer year, Integer month, Integer mday, Integer hour, Integer min, Integer sec)
 
 Specify all elements of a DateTime individually. The constructor automatically calculates the weekday.
 
@@ -43,7 +43,7 @@ printLine(schoolEnds.toString());
 
 ### DateTime DateTime(String p0)
 
-Pass a `String` containing date and time on format one of the listed formats. The constructor will parse the text and create a `DateTime` object.
+Pass a `String` containing date and time on the format of one of the listed formats. The constructor will parse the text and create a `DateTime` object.
 
 * YYYY-MM-DD HH:MM:SS
 * YYYY-MM-DD HH:MM - automatically sets sec = 0
@@ -121,8 +121,8 @@ Try the following snippet to view output of all modes.
 DateTime dt;
 Integer i = 0;
 while (i < 17){
-printLine(dt.toString(i,1,true));
-i++;
+  printLine(dt.toString(i,1,true));
+  i++;
 }
 ```
 

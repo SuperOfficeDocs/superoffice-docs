@@ -1,0 +1,383 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSSaleTypeStageLink
+  commentId: T:CRMScript.NetServer.NSSaleTypeStageLink
+  id: NSSaleTypeStageLink
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSSaleTypeStageLink.#ctor
+  - CRMScript.NetServer.NSSaleTypeStageLink.GetProbability()
+  - CRMScript.NetServer.NSSaleTypeStageLink.GetProbId()
+  - CRMScript.NetServer.NSSaleTypeStageLink.GetProbName()
+  - CRMScript.NetServer.NSSaleTypeStageLink.GetProbTooltip()
+  - CRMScript.NetServer.NSSaleTypeStageLink.GetSaleTypeId()
+  - CRMScript.NetServer.NSSaleTypeStageLink.GetSaleTypeName()
+  - CRMScript.NetServer.NSSaleTypeStageLink.GetSaleTypeStageLinkId()
+  - CRMScript.NetServer.NSSaleTypeStageLink.GetSaleTypeTooltip()
+  - CRMScript.NetServer.NSSaleTypeStageLink.SetProbability(Integer)
+  - CRMScript.NetServer.NSSaleTypeStageLink.SetProbId(Integer)
+  - CRMScript.NetServer.NSSaleTypeStageLink.SetProbName(String)
+  - CRMScript.NetServer.NSSaleTypeStageLink.SetProbTooltip(String)
+  - CRMScript.NetServer.NSSaleTypeStageLink.SetSaleTypeId(Integer)
+  - CRMScript.NetServer.NSSaleTypeStageLink.SetSaleTypeName(String)
+  - CRMScript.NetServer.NSSaleTypeStageLink.SetSaleTypeStageLinkId(Integer)
+  - CRMScript.NetServer.NSSaleTypeStageLink.SetSaleTypeTooltip(String)
+  name: NSSaleTypeStageLink
+  nameWithType: NSSaleTypeStageLink
+  fullName: CRMScript.NetServer.NSSaleTypeStageLink
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSSaleTypeStageLink.#ctor
+  commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSSaleTypeStageLink
+  langs:
+  - crmscript
+  name: NSSaleTypeStageLink()
+  nameWithType: NSSaleTypeStageLink.#ctor
+  fullName: CRMScript.NetServer.NSSaleTypeStageLink.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSSaleTypeStageLink class.\n"
+  remarks: 
+  syntax: 
+    content: NSSaleTypeStageLink
+  example: 
+- uid: CRMScript.NetServer.NSSaleTypeStageLink.GetProbability()
+  commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.GetProbability()
+  id: 'GetProbability()'
+  so.intellisense: NSSaleTypeStageLink.GetProbability
+  langs:
+  - crmscript
+  name: 'GetProbability()'
+  nameWithType: NSSaleTypeStageLink.GetProbability()
+  fullName: CRMScript.NetServer.NSSaleTypeStageLink.GetProbability()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetProbability()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSSaleTypeStageLink.GetProbId()
+  commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.GetProbId()
+  id: 'GetProbId()'
+  so.intellisense: NSSaleTypeStageLink.GetProbId
+  langs:
+  - crmscript
+  name: 'GetProbId()'
+  nameWithType: NSSaleTypeStageLink.GetProbId()
+  fullName: CRMScript.NetServer.NSSaleTypeStageLink.GetProbId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetProbId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSSaleTypeStageLink.GetProbName()
+  commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.GetProbName()
+  id: 'GetProbName()'
+  so.intellisense: NSSaleTypeStageLink.GetProbName
+  langs:
+  - crmscript
+  name: 'GetProbName()'
+  nameWithType: NSSaleTypeStageLink.GetProbName()
+  fullName: CRMScript.NetServer.NSSaleTypeStageLink.GetProbName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetProbName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSSaleTypeStageLink.GetProbTooltip()
+  commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.GetProbTooltip()
+  id: 'GetProbTooltip()'
+  so.intellisense: NSSaleTypeStageLink.GetProbTooltip
+  langs:
+  - crmscript
+  name: 'GetProbTooltip()'
+  nameWithType: NSSaleTypeStageLink.GetProbTooltip()
+  fullName: CRMScript.NetServer.NSSaleTypeStageLink.GetProbTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetProbTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSSaleTypeStageLink.GetSaleTypeId()
+  commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.GetSaleTypeId()
+  id: 'GetSaleTypeId()'
+  so.intellisense: NSSaleTypeStageLink.GetSaleTypeId
+  langs:
+  - crmscript
+  name: 'GetSaleTypeId()'
+  nameWithType: NSSaleTypeStageLink.GetSaleTypeId()
+  fullName: CRMScript.NetServer.NSSaleTypeStageLink.GetSaleTypeId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSaleTypeId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSSaleTypeStageLink.GetSaleTypeName()
+  commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.GetSaleTypeName()
+  id: 'GetSaleTypeName()'
+  so.intellisense: NSSaleTypeStageLink.GetSaleTypeName
+  langs:
+  - crmscript
+  name: 'GetSaleTypeName()'
+  nameWithType: NSSaleTypeStageLink.GetSaleTypeName()
+  fullName: CRMScript.NetServer.NSSaleTypeStageLink.GetSaleTypeName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSaleTypeName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSSaleTypeStageLink.GetSaleTypeStageLinkId()
+  commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.GetSaleTypeStageLinkId()
+  id: 'GetSaleTypeStageLinkId()'
+  so.intellisense: NSSaleTypeStageLink.GetSaleTypeStageLinkId
+  langs:
+  - crmscript
+  name: 'GetSaleTypeStageLinkId()'
+  nameWithType: NSSaleTypeStageLink.GetSaleTypeStageLinkId()
+  fullName: CRMScript.NetServer.NSSaleTypeStageLink.GetSaleTypeStageLinkId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSaleTypeStageLinkId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSSaleTypeStageLink.GetSaleTypeTooltip()
+  commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.GetSaleTypeTooltip()
+  id: 'GetSaleTypeTooltip()'
+  so.intellisense: NSSaleTypeStageLink.GetSaleTypeTooltip
+  langs:
+  - crmscript
+  name: 'GetSaleTypeTooltip()'
+  nameWithType: NSSaleTypeStageLink.GetSaleTypeTooltip()
+  fullName: CRMScript.NetServer.NSSaleTypeStageLink.GetSaleTypeTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSaleTypeTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSSaleTypeStageLink.SetProbability(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.SetProbability(Integer)
+  id: 'SetProbability(Integer)'
+  so.intellisense: NSSaleTypeStageLink.SetProbability
+  langs:
+  - crmscript
+  name: 'SetProbability(Integer)'
+  nameWithType: NSSaleTypeStageLink.SetProbability(Integer)
+  fullName: CRMScript.NetServer.NSSaleTypeStageLink.SetProbability(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProbability(Integer prob)
+    parameters:
+    - id: prob
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSaleTypeStageLink.SetProbId(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.SetProbId(Integer)
+  id: 'SetProbId(Integer)'
+  so.intellisense: NSSaleTypeStageLink.SetProbId
+  langs:
+  - crmscript
+  name: 'SetProbId(Integer)'
+  nameWithType: NSSaleTypeStageLink.SetProbId(Integer)
+  fullName: CRMScript.NetServer.NSSaleTypeStageLink.SetProbId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProbId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSaleTypeStageLink.SetProbName(String)
+  commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.SetProbName(String)
+  id: 'SetProbName(String)'
+  so.intellisense: NSSaleTypeStageLink.SetProbName
+  langs:
+  - crmscript
+  name: 'SetProbName(String)'
+  nameWithType: NSSaleTypeStageLink.SetProbName(String)
+  fullName: CRMScript.NetServer.NSSaleTypeStageLink.SetProbName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProbName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSaleTypeStageLink.SetProbTooltip(String)
+  commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.SetProbTooltip(String)
+  id: 'SetProbTooltip(String)'
+  so.intellisense: NSSaleTypeStageLink.SetProbTooltip
+  langs:
+  - crmscript
+  name: 'SetProbTooltip(String)'
+  nameWithType: NSSaleTypeStageLink.SetProbTooltip(String)
+  fullName: CRMScript.NetServer.NSSaleTypeStageLink.SetProbTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProbTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSaleTypeStageLink.SetSaleTypeId(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.SetSaleTypeId(Integer)
+  id: 'SetSaleTypeId(Integer)'
+  so.intellisense: NSSaleTypeStageLink.SetSaleTypeId
+  langs:
+  - crmscript
+  name: 'SetSaleTypeId(Integer)'
+  nameWithType: NSSaleTypeStageLink.SetSaleTypeId(Integer)
+  fullName: CRMScript.NetServer.NSSaleTypeStageLink.SetSaleTypeId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSaleTypeId(Integer typeId)
+    parameters:
+    - id: typeId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSaleTypeStageLink.SetSaleTypeName(String)
+  commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.SetSaleTypeName(String)
+  id: 'SetSaleTypeName(String)'
+  so.intellisense: NSSaleTypeStageLink.SetSaleTypeName
+  langs:
+  - crmscript
+  name: 'SetSaleTypeName(String)'
+  nameWithType: NSSaleTypeStageLink.SetSaleTypeName(String)
+  fullName: CRMScript.NetServer.NSSaleTypeStageLink.SetSaleTypeName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSaleTypeName(String typeName)
+    parameters:
+    - id: typeName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSaleTypeStageLink.SetSaleTypeStageLinkId(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.SetSaleTypeStageLinkId(Integer)
+  id: 'SetSaleTypeStageLinkId(Integer)'
+  so.intellisense: NSSaleTypeStageLink.SetSaleTypeStageLinkId
+  langs:
+  - crmscript
+  name: 'SetSaleTypeStageLinkId(Integer)'
+  nameWithType: NSSaleTypeStageLink.SetSaleTypeStageLinkId(Integer)
+  fullName: CRMScript.NetServer.NSSaleTypeStageLink.SetSaleTypeStageLinkId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSaleTypeStageLinkId(Integer linkId)
+    parameters:
+    - id: linkId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSaleTypeStageLink.SetSaleTypeTooltip(String)
+  commentId: M:CRMScript.NetServer.NSSaleTypeStageLink.SetSaleTypeTooltip(String)
+  id: 'SetSaleTypeTooltip(String)'
+  so.intellisense: NSSaleTypeStageLink.SetSaleTypeTooltip
+  langs:
+  - crmscript
+  name: 'SetSaleTypeTooltip(String)'
+  nameWithType: NSSaleTypeStageLink.SetSaleTypeTooltip(String)
+  fullName: CRMScript.NetServer.NSSaleTypeStageLink.SetSaleTypeTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSaleTypeTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSSaleTypeStageLink
+  commentId: T:CRMScript.NetServer.NSSaleTypeStageLink
+  isExternal: true
+  name: NSSaleTypeStageLink
+  nameWithType: NSSaleTypeStageLink
+  fullName: CRMScript.NetServer.NSSaleTypeStageLink
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

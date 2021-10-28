@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSSmtpTestResult
+  commentId: T:CRMScript.NetServer.NSSmtpTestResult
+  id: NSSmtpTestResult
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSSmtpTestResult.#ctor
+  - CRMScript.NetServer.NSSmtpTestResult.GetErrorMessage()
+  - CRMScript.NetServer.NSSmtpTestResult.GetSuccess()
+  - CRMScript.NetServer.NSSmtpTestResult.SetErrorMessage(String)
+  - CRMScript.NetServer.NSSmtpTestResult.SetSuccess(Bool)
+  name: NSSmtpTestResult
+  nameWithType: NSSmtpTestResult
+  fullName: CRMScript.NetServer.NSSmtpTestResult
+  type: Class
+  summary: "\nCarrier containing information about the result of a SMTP test.\n"
+  example: 
+- uid: CRMScript.NetServer.NSSmtpTestResult.#ctor
+  commentId: M:CRMScript.NetServer.NSSmtpTestResult.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSSmtpTestResult
+  langs:
+  - crmscript
+  name: NSSmtpTestResult()
+  nameWithType: NSSmtpTestResult.#ctor
+  fullName: CRMScript.NetServer.NSSmtpTestResult.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSSmtpTestResult class.\n"
+  remarks: 
+  syntax: 
+    content: NSSmtpTestResult
+  example: 
+- uid: CRMScript.NetServer.NSSmtpTestResult.GetErrorMessage()
+  commentId: M:CRMScript.NetServer.NSSmtpTestResult.GetErrorMessage()
+  id: 'GetErrorMessage()'
+  so.intellisense: NSSmtpTestResult.GetErrorMessage
+  langs:
+  - crmscript
+  name: 'GetErrorMessage()'
+  nameWithType: NSSmtpTestResult.GetErrorMessage()
+  fullName: CRMScript.NetServer.NSSmtpTestResult.GetErrorMessage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetErrorMessage()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "If an error occurred, this member will contain a description of the error."
+  example: 
+  - "\n<pre><code>NSSmtpTestResult thing;\nString errorMessage = thing.GetErrorMessage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSmtpTestResult.GetSuccess()
+  commentId: M:CRMScript.NetServer.NSSmtpTestResult.GetSuccess()
+  id: 'GetSuccess()'
+  so.intellisense: NSSmtpTestResult.GetSuccess
+  langs:
+  - crmscript
+  name: 'GetSuccess()'
+  nameWithType: NSSmtpTestResult.GetSuccess()
+  fullName: CRMScript.NetServer.NSSmtpTestResult.GetSuccess()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetSuccess()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the test went ok. False if it failed. See the error message for details."
+  example: 
+  - "\n<pre><code>NSSmtpTestResult thing;\nBool success = thing.GetSuccess();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSmtpTestResult.SetErrorMessage(String)
+  commentId: M:CRMScript.NetServer.NSSmtpTestResult.SetErrorMessage(String)
+  id: 'SetErrorMessage(String)'
+  so.intellisense: NSSmtpTestResult.SetErrorMessage
+  langs:
+  - crmscript
+  name: 'SetErrorMessage(String)'
+  nameWithType: NSSmtpTestResult.SetErrorMessage(String)
+  fullName: CRMScript.NetServer.NSSmtpTestResult.SetErrorMessage(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetErrorMessage(String errorMessage)
+    parameters:
+    - id: errorMessage
+      type: CRMScript.Global.String
+      description: "If an error occurred, this member will contain a description of the error."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSmtpTestResult thing;\nString errorMessage;\nthing.SetErrorMessage(errorMessage);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSmtpTestResult.SetSuccess(Bool)
+  commentId: M:CRMScript.NetServer.NSSmtpTestResult.SetSuccess(Bool)
+  id: 'SetSuccess(Bool)'
+  so.intellisense: NSSmtpTestResult.SetSuccess
+  langs:
+  - crmscript
+  name: 'SetSuccess(Bool)'
+  nameWithType: NSSmtpTestResult.SetSuccess(Bool)
+  fullName: CRMScript.NetServer.NSSmtpTestResult.SetSuccess(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSuccess(Bool success)
+    parameters:
+    - id: success
+      type: CRMScript.Global.Bool
+      description: "True if the test went ok. False if it failed. See the error message for details."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSmtpTestResult thing;\nBool success;\nthing.SetSuccess(success);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSSmtpTestResult
+  commentId: T:CRMScript.NetServer.NSSmtpTestResult
+  isExternal: true
+  name: NSSmtpTestResult
+  nameWithType: NSSmtpTestResult
+  fullName: CRMScript.NetServer.NSSmtpTestResult
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

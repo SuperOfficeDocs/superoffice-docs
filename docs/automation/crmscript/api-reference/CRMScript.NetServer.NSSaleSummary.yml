@@ -1,0 +1,1293 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSSaleSummary
+  commentId: T:CRMScript.NetServer.NSSaleSummary
+  id: NSSaleSummary
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSSaleSummary.#ctor
+  - CRMScript.NetServer.NSSaleSummary.GetBaseCurrency()
+  - CRMScript.NetServer.NSSaleSummary.GetCurrentOverdue()
+  - CRMScript.NetServer.NSSaleSummary.GetCurrentOverdueTotalBaseCurrency()
+  - CRMScript.NetServer.NSSaleSummary.GetCurrentOverdueTotalOwnCurrency()
+  - CRMScript.NetServer.NSSaleSummary.GetCurrentOverdueWeightedBaseCurrency()
+  - CRMScript.NetServer.NSSaleSummary.GetCurrentOverdueWeightedOwnCurrency()
+  - CRMScript.NetServer.NSSaleSummary.GetFutureOpen()
+  - CRMScript.NetServer.NSSaleSummary.GetFutureOpenTotalBaseCurrency()
+  - CRMScript.NetServer.NSSaleSummary.GetFutureOpenTotalOwnCurrency()
+  - CRMScript.NetServer.NSSaleSummary.GetFutureOpenWeightedBaseCurrency()
+  - CRMScript.NetServer.NSSaleSummary.GetFutureOpenWeightedOwnCurrency()
+  - CRMScript.NetServer.NSSaleSummary.GetLost()
+  - CRMScript.NetServer.NSSaleSummary.GetLostTotalBaseCurrency()
+  - CRMScript.NetServer.NSSaleSummary.GetLostTotalOwnCurrency()
+  - CRMScript.NetServer.NSSaleSummary.GetOpen()
+  - CRMScript.NetServer.NSSaleSummary.GetOpenTotalBaseCurrency()
+  - CRMScript.NetServer.NSSaleSummary.GetOpenTotalOwnCurrency()
+  - CRMScript.NetServer.NSSaleSummary.GetOpenWeightedBaseCurrency()
+  - CRMScript.NetServer.NSSaleSummary.GetOpenWeightedOwnCurrency()
+  - CRMScript.NetServer.NSSaleSummary.GetOwnCurrency()
+  - CRMScript.NetServer.NSSaleSummary.GetPreviousOverdue()
+  - CRMScript.NetServer.NSSaleSummary.GetPreviousOverdueTotalBaseCurrency()
+  - CRMScript.NetServer.NSSaleSummary.GetPreviousOverdueTotalOwnCurrency()
+  - CRMScript.NetServer.NSSaleSummary.GetPreviousOverdueWeightedBaseCurrency()
+  - CRMScript.NetServer.NSSaleSummary.GetPreviousOverdueWeightedOwnCurrency()
+  - CRMScript.NetServer.NSSaleSummary.GetSold()
+  - CRMScript.NetServer.NSSaleSummary.GetSoldTotalBaseCurrency()
+  - CRMScript.NetServer.NSSaleSummary.GetSoldTotalOwnCurrency()
+  - CRMScript.NetServer.NSSaleSummary.SetBaseCurrency(String)
+  - CRMScript.NetServer.NSSaleSummary.SetCurrentOverdue(Integer)
+  - CRMScript.NetServer.NSSaleSummary.SetCurrentOverdueTotalBaseCurrency(Float)
+  - CRMScript.NetServer.NSSaleSummary.SetCurrentOverdueTotalOwnCurrency(Float)
+  - CRMScript.NetServer.NSSaleSummary.SetCurrentOverdueWeightedBaseCurrency(Float)
+  - CRMScript.NetServer.NSSaleSummary.SetCurrentOverdueWeightedOwnCurrency(Float)
+  - CRMScript.NetServer.NSSaleSummary.SetFutureOpen(Integer)
+  - CRMScript.NetServer.NSSaleSummary.SetFutureOpenTotalBaseCurrency(Float)
+  - CRMScript.NetServer.NSSaleSummary.SetFutureOpenTotalOwnCurrency(Float)
+  - CRMScript.NetServer.NSSaleSummary.SetFutureOpenWeightedBaseCurrency(Float)
+  - CRMScript.NetServer.NSSaleSummary.SetFutureOpenWeightedOwnCurrency(Float)
+  - CRMScript.NetServer.NSSaleSummary.SetLost(Integer)
+  - CRMScript.NetServer.NSSaleSummary.SetLostTotalBaseCurrency(Float)
+  - CRMScript.NetServer.NSSaleSummary.SetLostTotalOwnCurrency(Float)
+  - CRMScript.NetServer.NSSaleSummary.SetOpen(Integer)
+  - CRMScript.NetServer.NSSaleSummary.SetOpenTotalBaseCurrency(Float)
+  - CRMScript.NetServer.NSSaleSummary.SetOpenTotalOwnCurrency(Float)
+  - CRMScript.NetServer.NSSaleSummary.SetOpenWeightedBaseCurrency(Float)
+  - CRMScript.NetServer.NSSaleSummary.SetOpenWeightedOwnCurrency(Float)
+  - CRMScript.NetServer.NSSaleSummary.SetOwnCurrency(String)
+  - CRMScript.NetServer.NSSaleSummary.SetPreviousOverdue(Integer)
+  - CRMScript.NetServer.NSSaleSummary.SetPreviousOverdueTotalBaseCurrency(Float)
+  - CRMScript.NetServer.NSSaleSummary.SetPreviousOverdueTotalOwnCurrency(Float)
+  - CRMScript.NetServer.NSSaleSummary.SetPreviousOverdueWeightedBaseCurrency(Float)
+  - CRMScript.NetServer.NSSaleSummary.SetPreviousOverdueWeightedOwnCurrency(Float)
+  - CRMScript.NetServer.NSSaleSummary.SetSold(Integer)
+  - CRMScript.NetServer.NSSaleSummary.SetSoldTotalBaseCurrency(Float)
+  - CRMScript.NetServer.NSSaleSummary.SetSoldTotalOwnCurrency(Float)
+  name: NSSaleSummary
+  nameWithType: NSSaleSummary
+  fullName: CRMScript.NetServer.NSSaleSummary
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSSaleSummary.#ctor
+  commentId: M:CRMScript.NetServer.NSSaleSummary.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSSaleSummary
+  langs:
+  - crmscript
+  name: NSSaleSummary()
+  nameWithType: NSSaleSummary.#ctor
+  fullName: CRMScript.NetServer.NSSaleSummary.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSSaleSummary class.\n"
+  remarks: 
+  syntax: 
+    content: NSSaleSummary
+  example: 
+- uid: CRMScript.NetServer.NSSaleSummary.GetBaseCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetBaseCurrency()
+  id: 'GetBaseCurrency()'
+  so.intellisense: NSSaleSummary.GetBaseCurrency
+  langs:
+  - crmscript
+  name: 'GetBaseCurrency()'
+  nameWithType: NSSaleSummary.GetBaseCurrency()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetBaseCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetBaseCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Default currency for the installation."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nString baseCurrency = thing.GetBaseCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetCurrentOverdue()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetCurrentOverdue()
+  id: 'GetCurrentOverdue()'
+  so.intellisense: NSSaleSummary.GetCurrentOverdue
+  langs:
+  - crmscript
+  name: 'GetCurrentOverdue()'
+  nameWithType: NSSaleSummary.GetCurrentOverdue()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetCurrentOverdue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCurrentOverdue()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of all overdue sales within the period."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nInteger currentOverdue = thing.GetCurrentOverdue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetCurrentOverdueTotalBaseCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetCurrentOverdueTotalBaseCurrency()
+  id: 'GetCurrentOverdueTotalBaseCurrency()'
+  so.intellisense: NSSaleSummary.GetCurrentOverdueTotalBaseCurrency
+  langs:
+  - crmscript
+  name: 'GetCurrentOverdueTotalBaseCurrency()'
+  nameWithType: NSSaleSummary.GetCurrentOverdueTotalBaseCurrency()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetCurrentOverdueTotalBaseCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetCurrentOverdueTotalBaseCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Summed amount for all overdue sales within the period in default currency for the installation."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat currentOverdueTotalBaseCurrency = thing.GetCurrentOverdueTotalBaseCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetCurrentOverdueTotalOwnCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetCurrentOverdueTotalOwnCurrency()
+  id: 'GetCurrentOverdueTotalOwnCurrency()'
+  so.intellisense: NSSaleSummary.GetCurrentOverdueTotalOwnCurrency
+  langs:
+  - crmscript
+  name: 'GetCurrentOverdueTotalOwnCurrency()'
+  nameWithType: NSSaleSummary.GetCurrentOverdueTotalOwnCurrency()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetCurrentOverdueTotalOwnCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetCurrentOverdueTotalOwnCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Summed amount for all overdue sales within the period in default currency for the current user."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat currentOverdueTotalOwnCurrency = thing.GetCurrentOverdueTotalOwnCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetCurrentOverdueWeightedBaseCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetCurrentOverdueWeightedBaseCurrency()
+  id: 'GetCurrentOverdueWeightedBaseCurrency()'
+  so.intellisense: NSSaleSummary.GetCurrentOverdueWeightedBaseCurrency
+  langs:
+  - crmscript
+  name: 'GetCurrentOverdueWeightedBaseCurrency()'
+  nameWithType: NSSaleSummary.GetCurrentOverdueWeightedBaseCurrency()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetCurrentOverdueWeightedBaseCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetCurrentOverdueWeightedBaseCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Weighted sum for all overdue sales within the period in default currency for the installation."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat currentOverdueWeightedBaseCurrency = thing.GetCurrentOverdueWeightedBaseCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetCurrentOverdueWeightedOwnCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetCurrentOverdueWeightedOwnCurrency()
+  id: 'GetCurrentOverdueWeightedOwnCurrency()'
+  so.intellisense: NSSaleSummary.GetCurrentOverdueWeightedOwnCurrency
+  langs:
+  - crmscript
+  name: 'GetCurrentOverdueWeightedOwnCurrency()'
+  nameWithType: NSSaleSummary.GetCurrentOverdueWeightedOwnCurrency()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetCurrentOverdueWeightedOwnCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetCurrentOverdueWeightedOwnCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Weighted sum for all overdue sales within the period in default currency for the current user."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat currentOverdueWeightedOwnCurrency = thing.GetCurrentOverdueWeightedOwnCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetFutureOpen()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetFutureOpen()
+  id: 'GetFutureOpen()'
+  so.intellisense: NSSaleSummary.GetFutureOpen
+  langs:
+  - crmscript
+  name: 'GetFutureOpen()'
+  nameWithType: NSSaleSummary.GetFutureOpen()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetFutureOpen()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetFutureOpen()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of all Future Pipe/All open sales with date after the period."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nInteger futureOpen = thing.GetFutureOpen();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetFutureOpenTotalBaseCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetFutureOpenTotalBaseCurrency()
+  id: 'GetFutureOpenTotalBaseCurrency()'
+  so.intellisense: NSSaleSummary.GetFutureOpenTotalBaseCurrency
+  langs:
+  - crmscript
+  name: 'GetFutureOpenTotalBaseCurrency()'
+  nameWithType: NSSaleSummary.GetFutureOpenTotalBaseCurrency()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetFutureOpenTotalBaseCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetFutureOpenTotalBaseCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Summed amount for all Future Pipe/All open sales with date after the period in default currency for the installation."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat futureOpenTotalBaseCurrency = thing.GetFutureOpenTotalBaseCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetFutureOpenTotalOwnCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetFutureOpenTotalOwnCurrency()
+  id: 'GetFutureOpenTotalOwnCurrency()'
+  so.intellisense: NSSaleSummary.GetFutureOpenTotalOwnCurrency
+  langs:
+  - crmscript
+  name: 'GetFutureOpenTotalOwnCurrency()'
+  nameWithType: NSSaleSummary.GetFutureOpenTotalOwnCurrency()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetFutureOpenTotalOwnCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetFutureOpenTotalOwnCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Summed amount for all Future Pipe/All open sales with date after the period in default currency for the current user."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat futureOpenTotalOwnCurrency = thing.GetFutureOpenTotalOwnCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetFutureOpenWeightedBaseCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetFutureOpenWeightedBaseCurrency()
+  id: 'GetFutureOpenWeightedBaseCurrency()'
+  so.intellisense: NSSaleSummary.GetFutureOpenWeightedBaseCurrency
+  langs:
+  - crmscript
+  name: 'GetFutureOpenWeightedBaseCurrency()'
+  nameWithType: NSSaleSummary.GetFutureOpenWeightedBaseCurrency()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetFutureOpenWeightedBaseCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetFutureOpenWeightedBaseCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Weighted sum for all Future Pipe/All open sales with date after the period in default currency for the installation."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat futureOpenWeightedBaseCurrency = thing.GetFutureOpenWeightedBaseCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetFutureOpenWeightedOwnCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetFutureOpenWeightedOwnCurrency()
+  id: 'GetFutureOpenWeightedOwnCurrency()'
+  so.intellisense: NSSaleSummary.GetFutureOpenWeightedOwnCurrency
+  langs:
+  - crmscript
+  name: 'GetFutureOpenWeightedOwnCurrency()'
+  nameWithType: NSSaleSummary.GetFutureOpenWeightedOwnCurrency()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetFutureOpenWeightedOwnCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetFutureOpenWeightedOwnCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Weighted sum for all Future Pipe/All open sales with date after the period in default currency for the current user."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat futureOpenWeightedOwnCurrency = thing.GetFutureOpenWeightedOwnCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetLost()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetLost()
+  id: 'GetLost()'
+  so.intellisense: NSSaleSummary.GetLost
+  langs:
+  - crmscript
+  name: 'GetLost()'
+  nameWithType: NSSaleSummary.GetLost()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetLost()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetLost()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of all lost within the period."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nInteger lost = thing.GetLost();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetLostTotalBaseCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetLostTotalBaseCurrency()
+  id: 'GetLostTotalBaseCurrency()'
+  so.intellisense: NSSaleSummary.GetLostTotalBaseCurrency
+  langs:
+  - crmscript
+  name: 'GetLostTotalBaseCurrency()'
+  nameWithType: NSSaleSummary.GetLostTotalBaseCurrency()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetLostTotalBaseCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetLostTotalBaseCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Summed amount for all lost within the period in default currency for the installation."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat lostTotalBaseCurrency = thing.GetLostTotalBaseCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetLostTotalOwnCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetLostTotalOwnCurrency()
+  id: 'GetLostTotalOwnCurrency()'
+  so.intellisense: NSSaleSummary.GetLostTotalOwnCurrency
+  langs:
+  - crmscript
+  name: 'GetLostTotalOwnCurrency()'
+  nameWithType: NSSaleSummary.GetLostTotalOwnCurrency()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetLostTotalOwnCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetLostTotalOwnCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Summed amount for all lost within the period in default currency for the current user."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat lostTotalOwnCurrency = thing.GetLostTotalOwnCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetOpen()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetOpen()
+  id: 'GetOpen()'
+  so.intellisense: NSSaleSummary.GetOpen
+  langs:
+  - crmscript
+  name: 'GetOpen()'
+  nameWithType: NSSaleSummary.GetOpen()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetOpen()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetOpen()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of all open within the period."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nInteger open = thing.GetOpen();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetOpenTotalBaseCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetOpenTotalBaseCurrency()
+  id: 'GetOpenTotalBaseCurrency()'
+  so.intellisense: NSSaleSummary.GetOpenTotalBaseCurrency
+  langs:
+  - crmscript
+  name: 'GetOpenTotalBaseCurrency()'
+  nameWithType: NSSaleSummary.GetOpenTotalBaseCurrency()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetOpenTotalBaseCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetOpenTotalBaseCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Summed amount for all open within the period in default currency for the installation."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat openTotalBaseCurrency = thing.GetOpenTotalBaseCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetOpenTotalOwnCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetOpenTotalOwnCurrency()
+  id: 'GetOpenTotalOwnCurrency()'
+  so.intellisense: NSSaleSummary.GetOpenTotalOwnCurrency
+  langs:
+  - crmscript
+  name: 'GetOpenTotalOwnCurrency()'
+  nameWithType: NSSaleSummary.GetOpenTotalOwnCurrency()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetOpenTotalOwnCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetOpenTotalOwnCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Summed amount for all open within the period in default currency for the current user."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat openTotalOwnCurrency = thing.GetOpenTotalOwnCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetOpenWeightedBaseCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetOpenWeightedBaseCurrency()
+  id: 'GetOpenWeightedBaseCurrency()'
+  so.intellisense: NSSaleSummary.GetOpenWeightedBaseCurrency
+  langs:
+  - crmscript
+  name: 'GetOpenWeightedBaseCurrency()'
+  nameWithType: NSSaleSummary.GetOpenWeightedBaseCurrency()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetOpenWeightedBaseCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetOpenWeightedBaseCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Weighted sum for all open within the period in default currency for the installation."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat openWeightedBaseCurrency = thing.GetOpenWeightedBaseCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetOpenWeightedOwnCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetOpenWeightedOwnCurrency()
+  id: 'GetOpenWeightedOwnCurrency()'
+  so.intellisense: NSSaleSummary.GetOpenWeightedOwnCurrency
+  langs:
+  - crmscript
+  name: 'GetOpenWeightedOwnCurrency()'
+  nameWithType: NSSaleSummary.GetOpenWeightedOwnCurrency()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetOpenWeightedOwnCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetOpenWeightedOwnCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Weighted sum for all open within the period in default currency for the current user."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat openWeightedOwnCurrency = thing.GetOpenWeightedOwnCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetOwnCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetOwnCurrency()
+  id: 'GetOwnCurrency()'
+  so.intellisense: NSSaleSummary.GetOwnCurrency
+  langs:
+  - crmscript
+  name: 'GetOwnCurrency()'
+  nameWithType: NSSaleSummary.GetOwnCurrency()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetOwnCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetOwnCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Default currency for the current user."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nString ownCurrency = thing.GetOwnCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetPreviousOverdue()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetPreviousOverdue()
+  id: 'GetPreviousOverdue()'
+  so.intellisense: NSSaleSummary.GetPreviousOverdue
+  langs:
+  - crmscript
+  name: 'GetPreviousOverdue()'
+  nameWithType: NSSaleSummary.GetPreviousOverdue()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetPreviousOverdue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPreviousOverdue()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of all open sales with date before this period."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nInteger previousOverdue = thing.GetPreviousOverdue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetPreviousOverdueTotalBaseCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetPreviousOverdueTotalBaseCurrency()
+  id: 'GetPreviousOverdueTotalBaseCurrency()'
+  so.intellisense: NSSaleSummary.GetPreviousOverdueTotalBaseCurrency
+  langs:
+  - crmscript
+  name: 'GetPreviousOverdueTotalBaseCurrency()'
+  nameWithType: NSSaleSummary.GetPreviousOverdueTotalBaseCurrency()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetPreviousOverdueTotalBaseCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetPreviousOverdueTotalBaseCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Summed amount for all open sales with date before this period in default currency for the installation."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat previousOverdueTotalBaseCurrency = thing.GetPreviousOverdueTotalBaseCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetPreviousOverdueTotalOwnCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetPreviousOverdueTotalOwnCurrency()
+  id: 'GetPreviousOverdueTotalOwnCurrency()'
+  so.intellisense: NSSaleSummary.GetPreviousOverdueTotalOwnCurrency
+  langs:
+  - crmscript
+  name: 'GetPreviousOverdueTotalOwnCurrency()'
+  nameWithType: NSSaleSummary.GetPreviousOverdueTotalOwnCurrency()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetPreviousOverdueTotalOwnCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetPreviousOverdueTotalOwnCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Summed amount for all open sales with date before this period in default currency for the current user."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat previousOverdueTotalOwnCurrency = thing.GetPreviousOverdueTotalOwnCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetPreviousOverdueWeightedBaseCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetPreviousOverdueWeightedBaseCurrency()
+  id: 'GetPreviousOverdueWeightedBaseCurrency()'
+  so.intellisense: NSSaleSummary.GetPreviousOverdueWeightedBaseCurrency
+  langs:
+  - crmscript
+  name: 'GetPreviousOverdueWeightedBaseCurrency()'
+  nameWithType: NSSaleSummary.GetPreviousOverdueWeightedBaseCurrency()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetPreviousOverdueWeightedBaseCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetPreviousOverdueWeightedBaseCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Weighted sum for all open sales with date before this period in default currency for the installation."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat previousOverdueWeightedBaseCurrency = thing.GetPreviousOverdueWeightedBaseCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetPreviousOverdueWeightedOwnCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetPreviousOverdueWeightedOwnCurrency()
+  id: 'GetPreviousOverdueWeightedOwnCurrency()'
+  so.intellisense: NSSaleSummary.GetPreviousOverdueWeightedOwnCurrency
+  langs:
+  - crmscript
+  name: 'GetPreviousOverdueWeightedOwnCurrency()'
+  nameWithType: NSSaleSummary.GetPreviousOverdueWeightedOwnCurrency()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetPreviousOverdueWeightedOwnCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetPreviousOverdueWeightedOwnCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Weighted sum for all open sales with date before this period in default currency for the current user."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat previousOverdueWeightedOwnCurrency = thing.GetPreviousOverdueWeightedOwnCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetSold()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetSold()
+  id: 'GetSold()'
+  so.intellisense: NSSaleSummary.GetSold
+  langs:
+  - crmscript
+  name: 'GetSold()'
+  nameWithType: NSSaleSummary.GetSold()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetSold()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSold()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of all sold within the period."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nInteger sold = thing.GetSold();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetSoldTotalBaseCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetSoldTotalBaseCurrency()
+  id: 'GetSoldTotalBaseCurrency()'
+  so.intellisense: NSSaleSummary.GetSoldTotalBaseCurrency
+  langs:
+  - crmscript
+  name: 'GetSoldTotalBaseCurrency()'
+  nameWithType: NSSaleSummary.GetSoldTotalBaseCurrency()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetSoldTotalBaseCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetSoldTotalBaseCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Summed amount for all sold within the period in default currency for the installation."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat soldTotalBaseCurrency = thing.GetSoldTotalBaseCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.GetSoldTotalOwnCurrency()
+  commentId: M:CRMScript.NetServer.NSSaleSummary.GetSoldTotalOwnCurrency()
+  id: 'GetSoldTotalOwnCurrency()'
+  so.intellisense: NSSaleSummary.GetSoldTotalOwnCurrency
+  langs:
+  - crmscript
+  name: 'GetSoldTotalOwnCurrency()'
+  nameWithType: NSSaleSummary.GetSoldTotalOwnCurrency()
+  fullName: CRMScript.NetServer.NSSaleSummary.GetSoldTotalOwnCurrency()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetSoldTotalOwnCurrency()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Summed amount for all sold within the period in default currency for the current user."
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat soldTotalOwnCurrency = thing.GetSoldTotalOwnCurrency();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetBaseCurrency(String)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetBaseCurrency(String)
+  id: 'SetBaseCurrency(String)'
+  so.intellisense: NSSaleSummary.SetBaseCurrency
+  langs:
+  - crmscript
+  name: 'SetBaseCurrency(String)'
+  nameWithType: NSSaleSummary.SetBaseCurrency(String)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetBaseCurrency(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetBaseCurrency(String baseCurrency)
+    parameters:
+    - id: baseCurrency
+      type: CRMScript.Global.String
+      description: "Default currency for the installation."
+    return: 
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nString baseCurrency;\nthing.SetBaseCurrency(baseCurrency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetCurrentOverdue(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetCurrentOverdue(Integer)
+  id: 'SetCurrentOverdue(Integer)'
+  so.intellisense: NSSaleSummary.SetCurrentOverdue
+  langs:
+  - crmscript
+  name: 'SetCurrentOverdue(Integer)'
+  nameWithType: NSSaleSummary.SetCurrentOverdue(Integer)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetCurrentOverdue(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCurrentOverdue(Integer currentOverdue)
+    parameters:
+    - id: currentOverdue
+      type: CRMScript.Global.Integer
+      description: "Number of all overdue sales within the period."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nInteger currentOverdue;\nthing.SetCurrentOverdue(currentOverdue);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetCurrentOverdueTotalBaseCurrency(Float)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetCurrentOverdueTotalBaseCurrency(Float)
+  id: 'SetCurrentOverdueTotalBaseCurrency(Float)'
+  so.intellisense: NSSaleSummary.SetCurrentOverdueTotalBaseCurrency
+  langs:
+  - crmscript
+  name: 'SetCurrentOverdueTotalBaseCurrency(Float)'
+  nameWithType: NSSaleSummary.SetCurrentOverdueTotalBaseCurrency(Float)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetCurrentOverdueTotalBaseCurrency(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCurrentOverdueTotalBaseCurrency(Float currentOverdueTotalBaseCurrency)
+    parameters:
+    - id: currentOverdueTotalBaseCurrency
+      type: CRMScript.Global.Float
+      description: "Summed amount for all overdue sales within the period in default currency for the installation."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat currentOverdueTotalBaseCurrency;\nthing.SetCurrentOverdueTotalBaseCurrency(currentOverdueTotalBaseCurrency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetCurrentOverdueTotalOwnCurrency(Float)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetCurrentOverdueTotalOwnCurrency(Float)
+  id: 'SetCurrentOverdueTotalOwnCurrency(Float)'
+  so.intellisense: NSSaleSummary.SetCurrentOverdueTotalOwnCurrency
+  langs:
+  - crmscript
+  name: 'SetCurrentOverdueTotalOwnCurrency(Float)'
+  nameWithType: NSSaleSummary.SetCurrentOverdueTotalOwnCurrency(Float)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetCurrentOverdueTotalOwnCurrency(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCurrentOverdueTotalOwnCurrency(Float currentOverdueTotalOwnCurrency)
+    parameters: 
+    - id: currentOverdueTotalOwnCurrency
+      type: CRMScript.Global.Float
+      description: "Summed amount for all overdue sales within the period in default currency for the current user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat currentOverdueTotalOwnCurrency;\nthing.SetCurrentOverdueTotalOwnCurrency(currentOverdueTotalOwnCurrency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetCurrentOverdueWeightedBaseCurrency(Float)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetCurrentOverdueWeightedBaseCurrency(Float)
+  id: 'SetCurrentOverdueWeightedBaseCurrency(Float)'
+  so.intellisense: NSSaleSummary.SetCurrentOverdueWeightedBaseCurrency
+  langs:
+  - crmscript
+  name: 'SetCurrentOverdueWeightedBaseCurrency(Float)'
+  nameWithType: NSSaleSummary.SetCurrentOverdueWeightedBaseCurrency(Float)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetCurrentOverdueWeightedBaseCurrency(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCurrentOverdueWeightedBaseCurrency(Float currentOverdueWeightedBaseCurrency)
+    parameters:
+    - id: currentOverdueWeightedBaseCurrency
+      type: CRMScript.Global.Float
+      description: "Weighted sum for all overdue sales within the period in default currency for the installation."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat currentOverdueWeightedBaseCurrency;\nthing.SetCurrentOverdueWeightedBaseCurrency(currentOverdueWeightedBaseCurrency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetCurrentOverdueWeightedOwnCurrency(Float)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetCurrentOverdueWeightedOwnCurrency(Float)
+  id: 'SetCurrentOverdueWeightedOwnCurrency(Float)'
+  so.intellisense: NSSaleSummary.SetCurrentOverdueWeightedOwnCurrency
+  langs:
+  - crmscript
+  name: 'SetCurrentOverdueWeightedOwnCurrency(Float)'
+  nameWithType: NSSaleSummary.SetCurrentOverdueWeightedOwnCurrency(Float)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetCurrentOverdueWeightedOwnCurrency(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCurrentOverdueWeightedOwnCurrency(Float currentOverdueWeightedOwnCurrency)
+    parameters:
+    - id: currentOverdueWeightedOwnCurrency
+      type: CRMScript.Global.Float
+      description: "Weighted sum for all overdue sales within the period in default currency for the current user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat currentOverdueWeightedOwnCurrency;\nthing.SetCurrentOverdueWeightedOwnCurrency(currentOverdueWeightedOwnCurrency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetFutureOpen(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetFutureOpen(Integer)
+  id: 'SetFutureOpen(Integer)'
+  so.intellisense: NSSaleSummary.SetFutureOpen
+  langs:
+  - crmscript
+  name: 'SetFutureOpen(Integer)'
+  nameWithType: NSSaleSummary.SetFutureOpen(Integer)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetFutureOpen(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFutureOpen(Integer futureOpen)
+    parameters:
+    - id: futureOpen
+      type: CRMScript.Global.Integer
+      description: "Number of all Future Pipe/All open sales with date after the period."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nInteger futureOpen;\nthing.SetFutureOpen(futureOpen);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetFutureOpenTotalBaseCurrency(Float)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetFutureOpenTotalBaseCurrency(Float)
+  id: 'SetFutureOpenTotalBaseCurrency(Float)'
+  so.intellisense: NSSaleSummary.SetFutureOpenTotalBaseCurrency
+  langs:
+  - crmscript
+  name: 'SetFutureOpenTotalBaseCurrency(Float)'
+  nameWithType: NSSaleSummary.SetFutureOpenTotalBaseCurrency(Float)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetFutureOpenTotalBaseCurrency(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFutureOpenTotalBaseCurrency(Float futureOpenTotalBaseCurrency)
+    parameters:
+    - id: futureOpenTotalBaseCurrency
+      type: CRMScript.Global.Float
+      description: "Summed amount for all Future Pipe/All open sales with date after the period in default currency for the installation."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat futureOpenTotalBaseCurrency;\nthing.SetFutureOpenTotalBaseCurrency(futureOpenTotalBaseCurrency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetFutureOpenTotalOwnCurrency(Float)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetFutureOpenTotalOwnCurrency(Float)
+  id: 'SetFutureOpenTotalOwnCurrency(Float)'
+  so.intellisense: NSSaleSummary.SetFutureOpenTotalOwnCurrency
+  langs:
+  - crmscript
+  name: 'SetFutureOpenTotalOwnCurrency(Float)'
+  nameWithType: NSSaleSummary.SetFutureOpenTotalOwnCurrency(Float)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetFutureOpenTotalOwnCurrency(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFutureOpenTotalOwnCurrency(Float futureOpenTotalOwnCurrency)
+    parameters:
+    - id: futureOpenTotalOwnCurrency
+      type: CRMScript.Global.Float
+      description: "Summed amount for all Future Pipe/All open sales with date after the period in default currency for the current user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat futureOpenTotalOwnCurrency;\nthing.SetFutureOpenTotalOwnCurrency(futureOpenTotalOwnCurrency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetFutureOpenWeightedBaseCurrency(Float)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetFutureOpenWeightedBaseCurrency(Float)
+  id: 'SetFutureOpenWeightedBaseCurrency(Float)'
+  so.intellisense: NSSaleSummary.SetFutureOpenWeightedBaseCurrency
+  langs:
+  - crmscript
+  name: 'SetFutureOpenWeightedBaseCurrency(Float)'
+  nameWithType: NSSaleSummary.SetFutureOpenWeightedBaseCurrency(Float)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetFutureOpenWeightedBaseCurrency(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFutureOpenWeightedBaseCurrency(Float futureOpenWeightedBaseCurrency)
+    parameters:
+    - id: futureOpenWeightedBaseCurrency
+      type: CRMScript.Global.Float
+      description: "Weighted sum for all Future Pipe/All open sales with date after the period in default currency for the installation."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat futureOpenWeightedBaseCurrency;\nthing.SetFutureOpenWeightedBaseCurrency(futureOpenWeightedBaseCurrency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetFutureOpenWeightedOwnCurrency(Float)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetFutureOpenWeightedOwnCurrency(Float)
+  id: 'SetFutureOpenWeightedOwnCurrency(Float)'
+  so.intellisense: NSSaleSummary.SetFutureOpenWeightedOwnCurrency
+  langs:
+  - crmscript
+  name: 'SetFutureOpenWeightedOwnCurrency(Float)'
+  nameWithType: NSSaleSummary.SetFutureOpenWeightedOwnCurrency(Float)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetFutureOpenWeightedOwnCurrency(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFutureOpenWeightedOwnCurrency(Float futureOpenWeightedOwnCurrency)
+    parameters:
+    - id: futureOpenWeightedOwnCurrency
+      type: CRMScript.Global.Float
+      description: "Weighted sum for all Future Pipe/All open sales with date after the period in default currency for the current user."
+    return: 
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat futureOpenWeightedOwnCurrency;\nthing.SetFutureOpenWeightedOwnCurrency(futureOpenWeightedOwnCurrency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetLost(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetLost(Integer)
+  id: 'SetLost(Integer)'
+  so.intellisense: NSSaleSummary.SetLost
+  langs:
+  - crmscript
+  name: 'SetLost(Integer)'
+  nameWithType: NSSaleSummary.SetLost(Integer)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetLost(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLost(Integer lost)
+    parameters:
+    - id: lost
+      type: CRMScript.Global.Integer
+      description: "Number of all lost within the period."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nInteger lost;\nthing.SetLost(lost);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetLostTotalBaseCurrency(Float)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetLostTotalBaseCurrency(Float)
+  id: 'SetLostTotalBaseCurrency(Float)'
+  so.intellisense: NSSaleSummary.SetLostTotalBaseCurrency
+  langs:
+  - crmscript
+  name: 'SetLostTotalBaseCurrency(Float)'
+  nameWithType: NSSaleSummary.SetLostTotalBaseCurrency(Float)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetLostTotalBaseCurrency(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLostTotalBaseCurrency(Float lostTotalBaseCurrency)
+    parameters:
+    - id: lostTotalBaseCurrency
+      type: CRMScript.Global.Float
+      description: "Summed amount for all lost within the period in default currency for the installation."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat lostTotalBaseCurrency;\nthing.SetLostTotalBaseCurrency(lostTotalBaseCurrency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetLostTotalOwnCurrency(Float)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetLostTotalOwnCurrency(Float)
+  id: 'SetLostTotalOwnCurrency(Float)'
+  so.intellisense: NSSaleSummary.SetLostTotalOwnCurrency
+  langs:
+  - crmscript
+  name: 'SetLostTotalOwnCurrency(Float)'
+  nameWithType: NSSaleSummary.SetLostTotalOwnCurrency(Float)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetLostTotalOwnCurrency(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLostTotalOwnCurrency(Float lostTotalOwnCurrency)
+    parameters:
+    - id: lostTotalOwnCurrency
+      type: CRMScript.Global.Float
+      description: "Summed amount for all lost within the period in default currency for the current user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat lostTotalOwnCurrency;\nthing.SetLostTotalOwnCurrency(lostTotalOwnCurrency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetOpen(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetOpen(Integer)
+  id: 'SetOpen(Integer)'
+  so.intellisense: NSSaleSummary.SetOpen
+  langs:
+  - crmscript
+  name: 'SetOpen(Integer)'
+  nameWithType: NSSaleSummary.SetOpen(Integer)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetOpen(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOpen(Integer open)
+    parameters:
+    - id: open
+      type: CRMScript.Global.Integer
+      description: "Number of all open within the period."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nInteger open;\nthing.SetOpen(open);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetOpenTotalBaseCurrency(Float)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetOpenTotalBaseCurrency(Float)
+  id: 'SetOpenTotalBaseCurrency(Float)'
+  so.intellisense: NSSaleSummary.SetOpenTotalBaseCurrency
+  langs:
+  - crmscript
+  name: 'SetOpenTotalBaseCurrency(Float)'
+  nameWithType: NSSaleSummary.SetOpenTotalBaseCurrency(Float)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetOpenTotalBaseCurrency(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOpenTotalBaseCurrency(Float openTotalBaseCurrency)
+    parameters:
+    - id: openTotalBaseCurrency
+      type: CRMScript.Global.Float
+      description: "Summed amount for all open within the period in default currency for the installation."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat openTotalBaseCurrency;\nthing.SetOpenTotalBaseCurrency(openTotalBaseCurrency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetOpenTotalOwnCurrency(Float)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetOpenTotalOwnCurrency(Float)
+  id: 'SetOpenTotalOwnCurrency(Float)'
+  so.intellisense: NSSaleSummary.SetOpenTotalOwnCurrency
+  langs:
+  - crmscript
+  name: 'SetOpenTotalOwnCurrency(Float)'
+  nameWithType: NSSaleSummary.SetOpenTotalOwnCurrency(Float)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetOpenTotalOwnCurrency(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOpenTotalOwnCurrency(Float openTotalOwnCurrency)
+    parameters:
+    - id: openTotalOwnCurrency
+      type: CRMScript.Global.Float
+      description: "Summed amount for all open within the period in default currency for the current user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat openTotalOwnCurrency;\nthing.SetOpenTotalOwnCurrency(openTotalOwnCurrency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetOpenWeightedBaseCurrency(Float)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetOpenWeightedBaseCurrency(Float)
+  id: 'SetOpenWeightedBaseCurrency(Float)'
+  so.intellisense: NSSaleSummary.SetOpenWeightedBaseCurrency
+  langs:
+  - crmscript
+  name: 'SetOpenWeightedBaseCurrency(Float)'
+  nameWithType: NSSaleSummary.SetOpenWeightedBaseCurrency(Float)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetOpenWeightedBaseCurrency(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOpenWeightedBaseCurrency(Float openWeightedBaseCurrency)
+    parameters:
+    - id: openWeightedBaseCurrency
+      type: CRMScript.Global.Float
+      description: "Weighted sum for all open within the period in default currency for the installation."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat openWeightedBaseCurrency;\nthing.SetOpenWeightedBaseCurrency(openWeightedBaseCurrency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetOpenWeightedOwnCurrency(Float)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetOpenWeightedOwnCurrency(Float)
+  id: 'SetOpenWeightedOwnCurrency(Float)'
+  so.intellisense: NSSaleSummary.SetOpenWeightedOwnCurrency
+  langs:
+  - crmscript
+  name: 'SetOpenWeightedOwnCurrency(Float)'
+  nameWithType: NSSaleSummary.SetOpenWeightedOwnCurrency(Float)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetOpenWeightedOwnCurrency(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOpenWeightedOwnCurrency(Float openWeightedOwnCurrency)
+    parameters:
+    - id: openWeightedOwnCurrency
+      type: CRMScript.Global.Float
+      description: "Weighted sum for all open within the period in default currency for the current user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat openWeightedOwnCurrency;\nthing.SetOpenWeightedOwnCurrency(openWeightedOwnCurrency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetOwnCurrency(String)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetOwnCurrency(String)
+  id: 'SetOwnCurrency(String)'
+  so.intellisense: NSSaleSummary.SetOwnCurrency
+  langs:
+  - crmscript
+  name: 'SetOwnCurrency(String)'
+  nameWithType: NSSaleSummary.SetOwnCurrency(String)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetOwnCurrency(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOwnCurrency(String ownCurrency)
+    parameters:
+    - id: ownCurrency
+      type: CRMScript.Global.String
+      description: "Default currency for the current user."
+    return: 
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nString ownCurrency;\nthing.SetOwnCurrency(ownCurrency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetPreviousOverdue(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetPreviousOverdue(Integer)
+  id: 'SetPreviousOverdue(Integer)'
+  so.intellisense: NSSaleSummary.SetPreviousOverdue
+  langs:
+  - crmscript
+  name: 'SetPreviousOverdue(Integer)'
+  nameWithType: NSSaleSummary.SetPreviousOverdue(Integer)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetPreviousOverdue(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPreviousOverdue(Integer previousOverdue)
+    parameters:
+    - id: previousOverdue
+      type: CRMScript.Global.Integer
+      description: "Number of all open sales with date before this period."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nInteger previousOverdue;\nthing.SetPreviousOverdue(previousOverdue);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetPreviousOverdueTotalBaseCurrency(Float)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetPreviousOverdueTotalBaseCurrency(Float)
+  id: 'SetPreviousOverdueTotalBaseCurrency(Float)'
+  so.intellisense: NSSaleSummary.SetPreviousOverdueTotalBaseCurrency
+  langs:
+  - crmscript
+  name: 'SetPreviousOverdueTotalBaseCurrency(Float)'
+  nameWithType: NSSaleSummary.SetPreviousOverdueTotalBaseCurrency(Float)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetPreviousOverdueTotalBaseCurrency(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPreviousOverdueTotalBaseCurrency(Float previousOverdueTotalBaseCurrency)
+    parameters:
+    - id: previousOverdueTotalBaseCurrency
+      type: CRMScript.Global.Float
+      description: "Summed amount for all open sales with date before this period in default currency for the installation."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat previousOverdueTotalBaseCurrency;\nthing.SetPreviousOverdueTotalBaseCurrency(previousOverdueTotalBaseCurrency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetPreviousOverdueTotalOwnCurrency(Float)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetPreviousOverdueTotalOwnCurrency(Float)
+  id: 'SetPreviousOverdueTotalOwnCurrency(Float)'
+  so.intellisense: NSSaleSummary.SetPreviousOverdueTotalOwnCurrency
+  langs:
+  - crmscript
+  name: 'SetPreviousOverdueTotalOwnCurrency(Float)'
+  nameWithType: NSSaleSummary.SetPreviousOverdueTotalOwnCurrency(Float)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetPreviousOverdueTotalOwnCurrency(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPreviousOverdueTotalOwnCurrency(Float previousOverdueTotalOwnCurrency)
+    parameters:
+    - id: previousOverdueTotalOwnCurrency
+      type: CRMScript.Global.Float
+      description: "Summed amount for all open sales with date before this period in default currency for the current user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat previousOverdueTotalOwnCurrency;\nthing.SetPreviousOverdueTotalOwnCurrency(previousOverdueTotalOwnCurrency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetPreviousOverdueWeightedBaseCurrency(Float)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetPreviousOverdueWeightedBaseCurrency(Float)
+  id: 'SetPreviousOverdueWeightedBaseCurrency(Float)'
+  so.intellisense: NSSaleSummary.SetPreviousOverdueWeightedBaseCurrency
+  langs:
+  - crmscript
+  name: 'SetPreviousOverdueWeightedBaseCurrency(Float)'
+  nameWithType: NSSaleSummary.SetPreviousOverdueWeightedBaseCurrency(Float)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetPreviousOverdueWeightedBaseCurrency(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPreviousOverdueWeightedBaseCurrency(Float previousOverdueWeightedBaseCurrency)
+    parameters:
+    - id: previousOverdueWeightedBaseCurrency
+      type: CRMScript.Global.Float
+      description: "Weighted sum for all open sales with date before this period in default currency for the installation."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat previousOverdueWeightedBaseCurrency;\nthing.SetPreviousOverdueWeightedBaseCurrency(previousOverdueWeightedBaseCurrency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetPreviousOverdueWeightedOwnCurrency(Float)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetPreviousOverdueWeightedOwnCurrency(Float)
+  id: 'SetPreviousOverdueWeightedOwnCurrency(Float)'
+  so.intellisense: NSSaleSummary.SetPreviousOverdueWeightedOwnCurrency
+  langs:
+  - crmscript
+  name: 'SetPreviousOverdueWeightedOwnCurrency(Float)'
+  nameWithType: NSSaleSummary.SetPreviousOverdueWeightedOwnCurrency(Float)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetPreviousOverdueWeightedOwnCurrency(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPreviousOverdueWeightedOwnCurrency(Float previousOverdueWeightedOwnCurrency)
+    parameters:
+    - id: previousOverdueWeightedOwnCurrency
+      type: CRMScript.Global.Float
+      description: "Weighted sum for all open sales with date before this period in default currency for the current user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat previousOverdueWeightedOwnCurrency;\nthing.SetPreviousOverdueWeightedOwnCurrency(previousOverdueWeightedOwnCurrency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetSold(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetSold(Integer)
+  id: 'SetSold(Integer)'
+  so.intellisense: NSSaleSummary.SetSold
+  langs:
+  - crmscript
+  name: 'SetSold(Integer)'
+  nameWithType: NSSaleSummary.SetSold(Integer)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetSold(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSold(Integer sold)
+    parameters:
+    - id: sold
+      type: CRMScript.Global.Integer
+      description: "Number of all sold within the period."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nInteger sold;\nthing.SetSold(sold);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetSoldTotalBaseCurrency(Float)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetSoldTotalBaseCurrency(Float)
+  id: 'SetSoldTotalBaseCurrency(Float)'
+  so.intellisense: NSSaleSummary.SetSoldTotalBaseCurrency
+  langs:
+  - crmscript
+  name: 'SetSoldTotalBaseCurrency(Float)'
+  nameWithType: NSSaleSummary.SetSoldTotalBaseCurrency(Float)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetSoldTotalBaseCurrency(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSoldTotalBaseCurrency(Float soldTotalBaseCurrency)
+    parameters:
+    - id: soldTotalBaseCurrency
+      type: CRMScript.Global.Float
+      description: "Summed amount for all sold within the period in default currency for the installation."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat soldTotalBaseCurrency;\nthing.SetSoldTotalBaseCurrency(soldTotalBaseCurrency);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleSummary.SetSoldTotalOwnCurrency(Float)
+  commentId: M:CRMScript.NetServer.NSSaleSummary.SetSoldTotalOwnCurrency(Float)
+  id: 'SetSoldTotalOwnCurrency(Float)'
+  so.intellisense: NSSaleSummary.SetSoldTotalOwnCurrency
+  langs:
+  - crmscript
+  name: 'SetSoldTotalOwnCurrency(Float)'
+  nameWithType: NSSaleSummary.SetSoldTotalOwnCurrency(Float)
+  fullName: CRMScript.NetServer.NSSaleSummary.SetSoldTotalOwnCurrency(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSoldTotalOwnCurrency(Float soldTotalOwnCurrency)
+    parameters:
+    - id: soldTotalOwnCurrency
+      type: CRMScript.Global.Float
+      description: "Summed amount for all sold within the period in default currency for the current user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleSummary thing;\nFloat soldTotalOwnCurrency;\nthing.SetSoldTotalOwnCurrency(soldTotalOwnCurrency);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSSaleSummary
+  commentId: T:CRMScript.NetServer.NSSaleSummary
+  isExternal: true
+  name: NSSaleSummary
+  nameWithType: NSSaleSummary
+  fullName: CRMScript.NetServer.NSSaleSummary
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Float
+  commentId: T:CRMScript.Global.Float
+  isExternal: true
+  name: Float
+  nameWithType: Float
+  fullName: CRMScript.Global.Float
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

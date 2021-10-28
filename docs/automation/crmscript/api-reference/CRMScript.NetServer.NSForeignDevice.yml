@@ -1,0 +1,457 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSForeignDevice
+  commentId: T:CRMScript.NetServer.NSForeignDevice
+  id: NSForeignDevice
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSForeignDevice.#ctor
+  - CRMScript.NetServer.NSForeignDevice.GetAssociateFullName()
+  - CRMScript.NetServer.NSForeignDevice.GetCreatedBy()
+  - CRMScript.NetServer.NSForeignDevice.GetCreatedDate()
+  - CRMScript.NetServer.NSForeignDevice.GetDeviceIdentifier()
+  - CRMScript.NetServer.NSForeignDevice.GetForeignAppId()
+  - CRMScript.NetServer.NSForeignDevice.GetForeignDeviceId()
+  - CRMScript.NetServer.NSForeignDevice.GetName()
+  - CRMScript.NetServer.NSForeignDevice.GetUpdatedBy()
+  - CRMScript.NetServer.NSForeignDevice.GetUpdatedDate()
+  - CRMScript.NetServer.NSForeignDevice.SetAssociateFullName(String)
+  - CRMScript.NetServer.NSForeignDevice.SetCreatedBy(String)
+  - CRMScript.NetServer.NSForeignDevice.SetCreatedDate(DateTime)
+  - CRMScript.NetServer.NSForeignDevice.SetDeviceIdentifier(String)
+  - CRMScript.NetServer.NSForeignDevice.SetForeignAppId(Integer)
+  - CRMScript.NetServer.NSForeignDevice.SetForeignDeviceId(Integer)
+  - CRMScript.NetServer.NSForeignDevice.SetName(String)
+  - CRMScript.NetServer.NSForeignDevice.SetUpdatedBy(String)
+  - CRMScript.NetServer.NSForeignDevice.SetUpdatedDate(DateTime)
+  name: NSForeignDevice
+  nameWithType: NSForeignDevice
+  fullName: CRMScript.NetServer.NSForeignDevice
+  type: Class
+  summary: "\nSaves a foreign device belonging to the ForeignDevice and application name specified.\n"
+  example: 
+- uid: CRMScript.NetServer.NSForeignDevice.#ctor
+  commentId: M:CRMScript.NetServer.NSForeignDevice.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSForeignDevice
+  langs:
+  - crmscript
+  name: NSForeignDevice()
+  nameWithType: NSForeignDevice.#ctor
+  fullName: CRMScript.NetServer.NSForeignDevice.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSForeignDevice class.\n"
+  remarks: 
+  syntax: 
+    content: NSForeignDevice
+  example: 
+- uid: CRMScript.NetServer.NSForeignDevice.GetAssociateFullName()
+  commentId: M:CRMScript.NetServer.NSForeignDevice.GetAssociateFullName()
+  id: 'GetAssociateFullName()'
+  so.intellisense: NSForeignDevice.GetAssociateFullName
+  langs:
+  - crmscript
+  name: 'GetAssociateFullName()'
+  nameWithType: NSForeignDevice.GetAssociateFullName()
+  fullName: CRMScript.NetServer.NSForeignDevice.GetAssociateFullName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetAssociateFullName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The person owning the Foreign Device."
+  example: 
+  - "\n<pre><code>NSForeignDevice thing;\nString associateFullName = thing.GetAssociateFullName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignDevice.GetCreatedBy()
+  commentId: M:CRMScript.NetServer.NSForeignDevice.GetCreatedBy()
+  id: 'GetCreatedBy()'
+  so.intellisense: NSForeignDevice.GetCreatedBy
+  langs:
+  - crmscript
+  name: 'GetCreatedBy()'
+  nameWithType: NSForeignDevice.GetCreatedBy()
+  fullName: CRMScript.NetServer.NSForeignDevice.GetCreatedBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCreatedBy()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The person that created the device."
+  example: 
+  - "\n<pre><code>NSForeignDevice thing;\nString createdBy = thing.GetCreatedBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignDevice.GetCreatedDate()
+  commentId: M:CRMScript.NetServer.NSForeignDevice.GetCreatedDate()
+  id: 'GetCreatedDate()'
+  so.intellisense: NSForeignDevice.GetCreatedDate
+  langs:
+  - crmscript
+  name: 'GetCreatedDate()'
+  nameWithType: NSForeignDevice.GetCreatedDate()
+  fullName: CRMScript.NetServer.NSForeignDevice.GetCreatedDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetCreatedDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+  example: 
+  - "\n<pre><code>NSForeignDevice thing;\nDateTime createdDate = thing.GetCreatedDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignDevice.GetDeviceIdentifier()
+  commentId: M:CRMScript.NetServer.NSForeignDevice.GetDeviceIdentifier()
+  id: 'GetDeviceIdentifier()'
+  so.intellisense: NSForeignDevice.GetDeviceIdentifier
+  langs:
+  - crmscript
+  name: 'GetDeviceIdentifier()'
+  nameWithType: NSForeignDevice.GetDeviceIdentifier()
+  fullName: CRMScript.NetServer.NSForeignDevice.GetDeviceIdentifier()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDeviceIdentifier()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Optional unique ID of device (Palm pilot device ID, etc)."
+  example: 
+  - "\n<pre><code>NSForeignDevice thing;\nString deviceIdentifier = thing.GetDeviceIdentifier();</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignDevice.GetForeignAppId()
+  commentId: M:CRMScript.NetServer.NSForeignDevice.GetForeignAppId()
+  id: 'GetForeignAppId()'
+  so.intellisense: NSForeignDevice.GetForeignAppId
+  langs:
+  - crmscript
+  name: 'GetForeignAppId()'
+  nameWithType: NSForeignDevice.GetForeignAppId()
+  fullName: CRMScript.NetServer.NSForeignDevice.GetForeignAppId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetForeignAppId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Reference to foreign application (device type)."
+  example: 
+  - "\n<pre><code>NSForeignDevice thing;\nInteger foreignAppId = thing.GetForeignAppId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignDevice.GetForeignDeviceId()
+  commentId: M:CRMScript.NetServer.NSForeignDevice.GetForeignDeviceId()
+  id: 'GetForeignDeviceId()'
+  so.intellisense: NSForeignDevice.GetForeignDeviceId
+  langs:
+  - crmscript
+  name: 'GetForeignDeviceId()'
+  nameWithType: NSForeignDevice.GetForeignDeviceId()
+  fullName: CRMScript.NetServer.NSForeignDevice.GetForeignDeviceId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetForeignDeviceId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSForeignDevice thing;\nInteger foreignDeviceId = thing.GetForeignDeviceId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignDevice.GetName()
+  commentId: M:CRMScript.NetServer.NSForeignDevice.GetName()
+  id: 'GetName()'
+  so.intellisense: NSForeignDevice.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSForeignDevice.GetName()
+  fullName: CRMScript.NetServer.NSForeignDevice.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of device."
+  example: 
+  - "\n<pre><code>NSForeignDevice thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignDevice.GetUpdatedBy()
+  commentId: M:CRMScript.NetServer.NSForeignDevice.GetUpdatedBy()
+  id: 'GetUpdatedBy()'
+  so.intellisense: NSForeignDevice.GetUpdatedBy
+  langs:
+  - crmscript
+  name: 'GetUpdatedBy()'
+  nameWithType: NSForeignDevice.GetUpdatedBy()
+  fullName: CRMScript.NetServer.NSForeignDevice.GetUpdatedBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetUpdatedBy()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The person that last updated this device."
+  example: 
+  - "\n<pre><code>NSForeignDevice thing;\nString updatedBy = thing.GetUpdatedBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignDevice.GetUpdatedDate()
+  commentId: M:CRMScript.NetServer.NSForeignDevice.GetUpdatedDate()
+  id: 'GetUpdatedDate()'
+  so.intellisense: NSForeignDevice.GetUpdatedDate
+  langs:
+  - crmscript
+  name: 'GetUpdatedDate()'
+  nameWithType: NSForeignDevice.GetUpdatedDate()
+  fullName: CRMScript.NetServer.NSForeignDevice.GetUpdatedDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetUpdatedDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+  example: 
+  - "\n<pre><code>NSForeignDevice thing;\nDateTime updatedDate = thing.GetUpdatedDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignDevice.SetAssociateFullName(String)
+  commentId: M:CRMScript.NetServer.NSForeignDevice.SetAssociateFullName(String)
+  id: 'SetAssociateFullName(String)'
+  so.intellisense: NSForeignDevice.SetAssociateFullName
+  langs:
+  - crmscript
+  name: 'SetAssociateFullName(String)'
+  nameWithType: NSForeignDevice.SetAssociateFullName(String)
+  fullName: CRMScript.NetServer.NSForeignDevice.SetAssociateFullName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAssociateFullName(String associateFullName)
+    parameters:
+    - id: associateFullName
+      type: CRMScript.Global.String
+      description: "The person owning the Foreign Device."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSForeignDevice thing;\nString associateFullName;\nthing.SetAssociateFullName(associateFullName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignDevice.SetCreatedBy(String)
+  commentId: M:CRMScript.NetServer.NSForeignDevice.SetCreatedBy(String)
+  id: 'SetCreatedBy(String)'
+  so.intellisense: NSForeignDevice.SetCreatedBy
+  langs:
+  - crmscript
+  name: 'SetCreatedBy(String)'
+  nameWithType: NSForeignDevice.SetCreatedBy(String)
+  fullName: CRMScript.NetServer.NSForeignDevice.SetCreatedBy(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCreatedBy(String createdBy)
+    parameters:
+    - id: createdBy
+      type: CRMScript.Global.String
+      description: "The person that created the device."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSForeignDevice thing;\nString createdBy;\nthing.SetCreatedBy(createdBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignDevice.SetCreatedDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSForeignDevice.SetCreatedDate(DateTime)
+  id: 'SetCreatedDate(DateTime)'
+  so.intellisense: NSForeignDevice.SetCreatedDate
+  langs:
+  - crmscript
+  name: 'SetCreatedDate(DateTime)'
+  nameWithType: NSForeignDevice.SetCreatedDate(DateTime)
+  fullName: CRMScript.NetServer.NSForeignDevice.SetCreatedDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCreatedDate(DateTime createdDate)
+    parameters:
+    - id: createdDate
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSForeignDevice thing;\nDateTime createdDate;\nthing.SetCreatedDate(createdDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignDevice.SetDeviceIdentifier(String)
+  commentId: M:CRMScript.NetServer.NSForeignDevice.SetDeviceIdentifier(String)
+  id: 'SetDeviceIdentifier(String)'
+  so.intellisense: NSForeignDevice.SetDeviceIdentifier
+  langs:
+  - crmscript
+  name: 'SetDeviceIdentifier(String)'
+  nameWithType: NSForeignDevice.SetDeviceIdentifier(String)
+  fullName: CRMScript.NetServer.NSForeignDevice.SetDeviceIdentifier(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeviceIdentifier(String deviceIdentifier)
+    parameters:
+    - id: deviceIdentifier
+      type: CRMScript.Global.String
+      description: "Optional unique ID of device (Palm pilot device ID, etc)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSForeignDevice thing;\nString deviceIdentifier;\nthing.SetDeviceIdentifier(deviceIdentifier);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignDevice.SetForeignAppId(Integer)
+  commentId: M:CRMScript.NetServer.NSForeignDevice.SetForeignAppId(Integer)
+  id: 'SetForeignAppId(Integer)'
+  so.intellisense: NSForeignDevice.SetForeignAppId
+  langs:
+  - crmscript
+  name: 'SetForeignAppId(Integer)'
+  nameWithType: NSForeignDevice.SetForeignAppId(Integer)
+  fullName: CRMScript.NetServer.NSForeignDevice.SetForeignAppId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetForeignAppId(Integer foreignAppId)
+    parameters:
+    - id: foreignAppId
+      type: CRMScript.Global.Integer
+      description: "Reference to foreign application (device type)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSForeignDevice thing;\nInteger foreignAppId;\nthing.SetForeignAppId(foreignAppId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignDevice.SetForeignDeviceId(Integer)
+  commentId: M:CRMScript.NetServer.NSForeignDevice.SetForeignDeviceId(Integer)
+  id: 'SetForeignDeviceId(Integer)'
+  so.intellisense: NSForeignDevice.SetForeignDeviceId
+  langs:
+  - crmscript
+  name: 'SetForeignDeviceId(Integer)'
+  nameWithType: NSForeignDevice.SetForeignDeviceId(Integer)
+  fullName: CRMScript.NetServer.NSForeignDevice.SetForeignDeviceId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetForeignDeviceId(Integer foreignDeviceId)
+    parameters:
+    - id: foreignDeviceId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSForeignDevice thing;\nInteger foreignDeviceId;\nthing.SetForeignDeviceId(foreignDeviceId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignDevice.SetName(String)
+  commentId: M:CRMScript.NetServer.NSForeignDevice.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSForeignDevice.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSForeignDevice.SetName(String)
+  fullName: CRMScript.NetServer.NSForeignDevice.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Name of device."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSForeignDevice thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignDevice.SetUpdatedBy(String)
+  commentId: M:CRMScript.NetServer.NSForeignDevice.SetUpdatedBy(String)
+  id: 'SetUpdatedBy(String)'
+  so.intellisense: NSForeignDevice.SetUpdatedBy
+  langs:
+  - crmscript
+  name: 'SetUpdatedBy(String)'
+  nameWithType: NSForeignDevice.SetUpdatedBy(String)
+  fullName: CRMScript.NetServer.NSForeignDevice.SetUpdatedBy(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedBy(String updatedBy)
+    parameters:
+    - id: updatedBy
+      type: CRMScript.Global.String
+      description: "The person that last updated this device."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSForeignDevice thing;\nString updatedBy;\nthing.SetUpdatedBy(updatedBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignDevice.SetUpdatedDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSForeignDevice.SetUpdatedDate(DateTime)
+  id: 'SetUpdatedDate(DateTime)'
+  so.intellisense: NSForeignDevice.SetUpdatedDate
+  langs:
+  - crmscript
+  name: 'SetUpdatedDate(DateTime)'
+  nameWithType: NSForeignDevice.SetUpdatedDate(DateTime)
+  fullName: CRMScript.NetServer.NSForeignDevice.SetUpdatedDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedDate(DateTime updatedDate)
+    parameters:
+    - id: updatedDate
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSForeignDevice thing;\nDateTime updatedDate;\nthing.SetUpdatedDate(updatedDate);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSForeignDevice
+  commentId: T:CRMScript.NetServer.NSForeignDevice
+  isExternal: true
+  name: NSForeignDevice
+  nameWithType: NSForeignDevice
+  fullName: CRMScript.NetServer.NSForeignDevice
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

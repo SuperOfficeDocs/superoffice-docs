@@ -1,0 +1,457 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSQuoteLineConfiguration
+  commentId: T:CRMScript.NetServer.NSQuoteLineConfiguration
+  id: NSQuoteLineConfiguration
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSQuoteLineConfiguration.#ctor
+  - CRMScript.NetServer.NSQuoteLineConfiguration.GetEditable()
+  - CRMScript.NetServer.NSQuoteLineConfiguration.GetFieldName()
+  - CRMScript.NetServer.NSQuoteLineConfiguration.GetInUse()
+  - CRMScript.NetServer.NSQuoteLineConfiguration.GetLabel()
+  - CRMScript.NetServer.NSQuoteLineConfiguration.GetMandatory()
+  - CRMScript.NetServer.NSQuoteLineConfiguration.GetQuoteLineConfigurationId()
+  - CRMScript.NetServer.NSQuoteLineConfiguration.GetRank()
+  - CRMScript.NetServer.NSQuoteLineConfiguration.GetRestrictEdit()
+  - CRMScript.NetServer.NSQuoteLineConfiguration.GetTooltip()
+  - CRMScript.NetServer.NSQuoteLineConfiguration.SetEditable(Bool)
+  - CRMScript.NetServer.NSQuoteLineConfiguration.SetFieldName(String)
+  - CRMScript.NetServer.NSQuoteLineConfiguration.SetInUse(Bool)
+  - CRMScript.NetServer.NSQuoteLineConfiguration.SetLabel(String)
+  - CRMScript.NetServer.NSQuoteLineConfiguration.SetMandatory(Bool)
+  - CRMScript.NetServer.NSQuoteLineConfiguration.SetQuoteLineConfigurationId(Integer)
+  - CRMScript.NetServer.NSQuoteLineConfiguration.SetRank(Integer)
+  - CRMScript.NetServer.NSQuoteLineConfiguration.SetRestrictEdit(Bool)
+  - CRMScript.NetServer.NSQuoteLineConfiguration.SetTooltip(String)
+  name: NSQuoteLineConfiguration
+  nameWithType: NSQuoteLineConfiguration
+  fullName: CRMScript.NetServer.NSQuoteLineConfiguration
+  type: Class
+  summary: "\nContains information about which configuration fields that is visible in the GUI. Read only and mandatory fields are also specified.\n"
+  example: 
+- uid: CRMScript.NetServer.NSQuoteLineConfiguration.#ctor
+  commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSQuoteLineConfiguration
+  langs:
+  - crmscript
+  name: NSQuoteLineConfiguration()
+  nameWithType: NSQuoteLineConfiguration.#ctor
+  fullName: CRMScript.NetServer.NSQuoteLineConfiguration.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSQuoteLineConfiguration class.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteLineConfiguration
+  example: 
+- uid: CRMScript.NetServer.NSQuoteLineConfiguration.GetEditable()
+  commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.GetEditable()
+  id: 'GetEditable()'
+  so.intellisense: NSQuoteLineConfiguration.GetEditable
+  langs:
+  - crmscript
+  name: 'GetEditable()'
+  nameWithType: NSQuoteLineConfiguration.GetEditable()
+  fullName: CRMScript.NetServer.NSQuoteLineConfiguration.GetEditable()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetEditable()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: Is this a read only field?
+  example: 
+  - "\n<pre><code>NSQuoteLineConfiguration thing;\nBool editable = thing.GetEditable();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteLineConfiguration.GetFieldName()
+  commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.GetFieldName()
+  id: 'GetFieldName()'
+  so.intellisense: NSQuoteLineConfiguration.GetFieldName
+  langs:
+  - crmscript
+  name: 'GetFieldName()'
+  nameWithType: NSQuoteLineConfiguration.GetFieldName()
+  fullName: CRMScript.NetServer.NSQuoteLineConfiguration.GetFieldName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFieldName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the field being configured, from data dictionary."
+  example: 
+  - "\n<pre><code>NSQuoteLineConfiguration thing;\nString fieldName = thing.GetFieldName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteLineConfiguration.GetInUse()
+  commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.GetInUse()
+  id: 'GetInUse()'
+  so.intellisense: NSQuoteLineConfiguration.GetInUse
+  langs:
+  - crmscript
+  name: 'GetInUse()'
+  nameWithType: NSQuoteLineConfiguration.GetInUse()
+  fullName: CRMScript.NetServer.NSQuoteLineConfiguration.GetInUse()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetInUse()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: Should this field be displayed in the GUI?
+  example: 
+  - "\n<pre><code>NSQuoteLineConfiguration thing;\nBool inUse = thing.GetInUse();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteLineConfiguration.GetLabel()
+  commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.GetLabel()
+  id: 'GetLabel()'
+  so.intellisense: NSQuoteLineConfiguration.GetLabel
+  langs:
+  - crmscript
+  name: 'GetLabel()'
+  nameWithType: NSQuoteLineConfiguration.GetLabel()
+  fullName: CRMScript.NetServer.NSQuoteLineConfiguration.GetLabel()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetLabel()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Label resource string."
+  example: 
+  - "\n<pre><code>NSQuoteLineConfiguration thing;\nString label = thing.GetLabel();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteLineConfiguration.GetMandatory()
+  commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.GetMandatory()
+  id: 'GetMandatory()'
+  so.intellisense: NSQuoteLineConfiguration.GetMandatory
+  langs:
+  - crmscript
+  name: 'GetMandatory()'
+  nameWithType: NSQuoteLineConfiguration.GetMandatory()
+  fullName: CRMScript.NetServer.NSQuoteLineConfiguration.GetMandatory()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetMandatory()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: Is this a mandatory field?
+  example: 
+  - "\n<pre><code>NSQuoteLineConfiguration thing;\nBool mandatory = thing.GetMandatory();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteLineConfiguration.GetQuoteLineConfigurationId()
+  commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.GetQuoteLineConfigurationId()
+  id: 'GetQuoteLineConfigurationId()'
+  so.intellisense: NSQuoteLineConfiguration.GetQuoteLineConfigurationId
+  langs:
+  - crmscript
+  name: 'GetQuoteLineConfigurationId()'
+  nameWithType: NSQuoteLineConfiguration.GetQuoteLineConfigurationId()
+  fullName: CRMScript.NetServer.NSQuoteLineConfiguration.GetQuoteLineConfigurationId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetQuoteLineConfigurationId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSQuoteLineConfiguration thing;\nInteger quoteLineConfigurationId = thing.GetQuoteLineConfigurationId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteLineConfiguration.GetRank()
+  commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSQuoteLineConfiguration.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSQuoteLineConfiguration.GetRank()
+  fullName: CRMScript.NetServer.NSQuoteLineConfiguration.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Rank of the field."
+  example: 
+  - "\n<pre><code>NSQuoteLineConfiguration thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteLineConfiguration.GetRestrictEdit()
+  commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.GetRestrictEdit()
+  id: 'GetRestrictEdit()'
+  so.intellisense: NSQuoteLineConfiguration.GetRestrictEdit
+  langs:
+  - crmscript
+  name: 'GetRestrictEdit()'
+  nameWithType: NSQuoteLineConfiguration.GetRestrictEdit()
+  fullName: CRMScript.NetServer.NSQuoteLineConfiguration.GetRestrictEdit()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetRestrictEdit()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If true, then this field cannot be set readwrite or mandatory It's bound to be readonly."
+  example: 
+  - "\n<pre><code>NSQuoteLineConfiguration thing;\nBool restrictEdit = thing.GetRestrictEdit();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteLineConfiguration.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSQuoteLineConfiguration.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSQuoteLineConfiguration.GetTooltip()
+  fullName: CRMScript.NetServer.NSQuoteLineConfiguration.GetTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Tooltip resource string."
+  example: 
+  - "\n<pre><code>NSQuoteLineConfiguration thing;\nString tooltip = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteLineConfiguration.SetEditable(Bool)
+  commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.SetEditable(Bool)
+  id: 'SetEditable(Bool)'
+  so.intellisense: NSQuoteLineConfiguration.SetEditable
+  langs:
+  - crmscript
+  name: 'SetEditable(Bool)'
+  nameWithType: NSQuoteLineConfiguration.SetEditable(Bool)
+  fullName: CRMScript.NetServer.NSQuoteLineConfiguration.SetEditable(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEditable(Bool editable)
+    parameters:
+    - id: editable
+      type: CRMScript.Global.Bool
+      description: Is this a read only field?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteLineConfiguration thing;\nBool editable;\nthing.SetEditable(editable);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteLineConfiguration.SetFieldName(String)
+  commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.SetFieldName(String)
+  id: 'SetFieldName(String)'
+  so.intellisense: NSQuoteLineConfiguration.SetFieldName
+  langs:
+  - crmscript
+  name: 'SetFieldName(String)'
+  nameWithType: NSQuoteLineConfiguration.SetFieldName(String)
+  fullName: CRMScript.NetServer.NSQuoteLineConfiguration.SetFieldName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFieldName(String fieldName)
+    parameters:
+    - id: fieldName
+      type: CRMScript.Global.String
+      description: "The name of the field being configured, from data dictionary."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteLineConfiguration thing;\nString fieldName;\nthing.SetFieldName(fieldName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteLineConfiguration.SetInUse(Bool)
+  commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.SetInUse(Bool)
+  id: 'SetInUse(Bool)'
+  so.intellisense: NSQuoteLineConfiguration.SetInUse
+  langs:
+  - crmscript
+  name: 'SetInUse(Bool)'
+  nameWithType: NSQuoteLineConfiguration.SetInUse(Bool)
+  fullName: CRMScript.NetServer.NSQuoteLineConfiguration.SetInUse(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetInUse(Bool inUse)
+    parameters:
+    - id: inUse
+      type: CRMScript.Global.Bool
+      description: Should this field be displayed in the GUI?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteLineConfiguration thing;\nBool inUse;\nthing.SetInUse(inUse);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteLineConfiguration.SetLabel(String)
+  commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.SetLabel(String)
+  id: 'SetLabel(String)'
+  so.intellisense: NSQuoteLineConfiguration.SetLabel
+  langs:
+  - crmscript
+  name: 'SetLabel(String)'
+  nameWithType: NSQuoteLineConfiguration.SetLabel(String)
+  fullName: CRMScript.NetServer.NSQuoteLineConfiguration.SetLabel(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLabel(String label)
+    parameters:
+    - id: label
+      type: CRMScript.Global.String
+      description: "Label resource string."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteLineConfiguration thing;\nString label;\nthing.SetLabel(label);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteLineConfiguration.SetMandatory(Bool)
+  commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.SetMandatory(Bool)
+  id: 'SetMandatory(Bool)'
+  so.intellisense: NSQuoteLineConfiguration.SetMandatory
+  langs:
+  - crmscript
+  name: 'SetMandatory(Bool)'
+  nameWithType: NSQuoteLineConfiguration.SetMandatory(Bool)
+  fullName: CRMScript.NetServer.NSQuoteLineConfiguration.SetMandatory(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMandatory(Bool mandatory)
+    parameters:
+    - id: mandatory
+      type: CRMScript.Global.Bool
+      description: Is this a mandatory field?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteLineConfiguration thing;\nBool mandatory;\nthing.SetMandatory(mandatory);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteLineConfiguration.SetQuoteLineConfigurationId(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.SetQuoteLineConfigurationId(Integer)
+  id: 'SetQuoteLineConfigurationId(Integer)'
+  so.intellisense: NSQuoteLineConfiguration.SetQuoteLineConfigurationId
+  langs:
+  - crmscript
+  name: 'SetQuoteLineConfigurationId(Integer)'
+  nameWithType: NSQuoteLineConfiguration.SetQuoteLineConfigurationId(Integer)
+  fullName: CRMScript.NetServer.NSQuoteLineConfiguration.SetQuoteLineConfigurationId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetQuoteLineConfigurationId(Integer quoteLineConfigurationId)
+    parameters:
+    - id: quoteLineConfigurationId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteLineConfiguration thing;\nInteger quoteLineConfigurationId;\nthing.SetQuoteLineConfigurationId(quoteLineConfigurationId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteLineConfiguration.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSQuoteLineConfiguration.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSQuoteLineConfiguration.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSQuoteLineConfiguration.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "Rank of the field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteLineConfiguration thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteLineConfiguration.SetRestrictEdit(Bool)
+  commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.SetRestrictEdit(Bool)
+  id: 'SetRestrictEdit(Bool)'
+  so.intellisense: NSQuoteLineConfiguration.SetRestrictEdit
+  langs:
+  - crmscript
+  name: 'SetRestrictEdit(Bool)'
+  nameWithType: NSQuoteLineConfiguration.SetRestrictEdit(Bool)
+  fullName: CRMScript.NetServer.NSQuoteLineConfiguration.SetRestrictEdit(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRestrictEdit(Bool restrictEdit)
+    parameters:
+    - id: restrictEdit
+      type: CRMScript.Global.Bool
+      description: "If true, then this field cannot be set readwrite or mandatory. It's bound to be readonly."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteLineConfiguration thing;\nBool restrictEdit;\nthing.SetRestrictEdit(restrictEdit);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteLineConfiguration.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSQuoteLineConfiguration.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSQuoteLineConfiguration.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSQuoteLineConfiguration.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSQuoteLineConfiguration.SetTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: "Tooltip resource string."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteLineConfiguration thing;\nString tooltip;\nthing.SetTooltip(tooltip);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSQuoteLineConfiguration
+  commentId: T:CRMScript.NetServer.NSQuoteLineConfiguration
+  isExternal: true
+  name: NSQuoteLineConfiguration
+  nameWithType: NSQuoteLineConfiguration
+  fullName: CRMScript.NetServer.NSQuoteLineConfiguration
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

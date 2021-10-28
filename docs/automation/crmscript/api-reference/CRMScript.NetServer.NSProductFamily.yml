@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSProductFamily
+  commentId: T:CRMScript.NetServer.NSProductFamily
+  id: NSProductFamily
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSProductFamily.#ctor
+  - CRMScript.NetServer.NSProductFamily.GetId()
+  - CRMScript.NetServer.NSProductFamily.GetTooltip()
+  - CRMScript.NetServer.NSProductFamily.GetValue()
+  - CRMScript.NetServer.NSProductFamily.SetId(Integer)
+  - CRMScript.NetServer.NSProductFamily.SetTooltip(String)
+  - CRMScript.NetServer.NSProductFamily.SetValue(String)
+  name: NSProductFamily
+  nameWithType: NSProductFamily
+  fullName: CRMScript.NetServer.NSProductFamily
+  type: Class
+  summary: "\nThe built-in product family list. Used by the SuperOffice Quote Connector to categorize products.\n"
+  example: 
+- uid: CRMScript.NetServer.NSProductFamily.#ctor
+  commentId: M:CRMScript.NetServer.NSProductFamily.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSProductFamily
+  langs:
+  - crmscript
+  name: NSProductFamily()
+  nameWithType: NSProductFamily.#ctor
+  fullName: CRMScript.NetServer.NSProductFamily.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSProductFamily class.\n"
+  remarks: 
+  syntax: 
+    content: NSProductFamily
+  example: 
+- uid: CRMScript.NetServer.NSProductFamily.GetId()
+  commentId: M:CRMScript.NetServer.NSProductFamily.GetId()
+  id: 'GetId()'
+  so.intellisense: NSProductFamily.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSProductFamily.GetId()
+  fullName: CRMScript.NetServer.NSProductFamily.GetId()
+  type: Method
+  summary: "\nGets the primary key (ID) for the NSProductFamily.\n"
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "NSProductFamily Id."
+  example: 
+  - "\n<pre><code>NSProductFamily thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProductFamily.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSProductFamily.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSProductFamily.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSProductFamily.GetTooltip()
+  fullName: CRMScript.NetServer.NSProductFamily.GetTooltip()
+  type: Method
+  summary: "\nGets the tooltip description for the NSProductFamily list item.\n"
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "NSProductFamily tooltip description."
+  example: 
+  - "\n<pre><code>NSProductFamily thing;\nString descr = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProductFamily.GetValue()
+  commentId: M:CRMScript.NetServer.NSProductFamily.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSProductFamily.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSProductFamily.GetValue()
+  fullName: CRMScript.NetServer.NSProductFamily.GetValue()
+  type: Method
+  summary: "\nGets the name of the NSProductFamily.\n"
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "NSProductFamily name."
+  example: 
+  - "\n<pre><code>NSProductFamily thing;\nString name = thing.GetValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProductFamily.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSProductFamily.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSProductFamily.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSProductFamily.SetId(Integer)
+  fullName: CRMScript.NetServer.NSProductFamily.SetId(Integer)
+  type: Method
+  summary: "\nSets the primary key (ID) for the NSProductFamily\n"
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProductFamily thing;\nthing.SetId(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProductFamily.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSProductFamily.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSProductFamily.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSProductFamily.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSProductFamily.SetTooltip(String)
+  type: Method
+  summary: "\nSets the tooltip description for the NSProductFamily list item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProductFamily thing;\nString descr = &quot;something new&quot;;\nthing.SetTooltip(descr);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProductFamily.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSProductFamily.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSProductFamily.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSProductFamily.SetValue(String)
+  fullName: CRMScript.NetServer.NSProductFamily.SetValue(String)
+  type: Method
+  summary: "\nSets the name of the NSProductFamily item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProductFamily thing;\nthing.SetValue(&quot;frotz&quot;);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSProductFamily
+  commentId: T:CRMScript.NetServer.NSProductFamily
+  isExternal: true
+  name: NSProductFamily
+  nameWithType: NSProductFamily
+  fullName: CRMScript.NetServer.NSProductFamily
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

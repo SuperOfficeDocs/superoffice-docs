@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.DocumentLockSemantics
+  # Same as SuperOffice.CRM.Documents.DocumentLockSemantics
+  commentId: T:CRMScript.NetServer.DocumentLockSemantics
+  id: DocumentLockSemantics
+  langs: 
+  - crmscript
+  children:
+  - CRMScript.NetServer.DocumentLockSemantics.None
+  - CRMScript.NetServer.DocumentLockSemantics.Locking
+  - CRMScript.NetServer.DocumentLockSemantics.Versioning
+  name: DocumentLockSemantics
+  nameWithType: DocumentLockSemantics
+  fullName: CRMScript.NetServer.DocumentLockSemantics
+  type: Enum
+  summary: "\nLocking semantics requested/applied to a document.\n"
+- uid: CRMScript.NetServer.DocumentLockSemantics.None
+  commentId: F:CRMScript.NetServer.DocumentLockSemantics.None
+  id: DocumentLockSemantics.None
+  langs:
+  - crmscript
+  name: DocumentLockSemantics.None
+  nameWithType: DocumentLockSemantics.None
+  fullName: CRMScript.NetServer.DocumentLockSemantics.None
+  type: Field
+  summary: "\n0: Neither locking nor versioning is requested for the document\n"
+  syntax: 
+    content: None = 0
+    type: CRMScript.NetServer.DocumentLockSemantics
+- uid: CRMScript.NetServer.DocumentLockSemantics.Locking
+  commentId: F:CRMScript.NetServer.DocumentLockSemantics.Locking
+  id: DocumentLockSemantics.Locking
+  langs:
+  - crmscript
+  name: DocumentLockSemantics.Locking
+  nameWithType: DocumentLockSemantics.Locking
+  fullName: CRMScript.NetServer.DocumentLockSemantics.Locking
+  type: Field
+  summary: "\n1: Locking, but not versioning, is requested for the document\n"
+  syntax: 
+    content: Locking = 1
+    type: CRMScript.NetServer.DocumentLockSemantics
+- uid: CRMScript.NetServer.DocumentLockSemantics.Versioning
+  commentId: F:CRMScript.NetServer.DocumentLockSemantics.Versioning
+  id: DocumentLockSemantics.Versioning
+  langs:
+  - crmscript
+  name: DocumentLockSemantics.Versioning
+  nameWithType: DocumentLockSemantics.Versioning
+  fullName: CRMScript.NetServer.DocumentLockSemantics.Versioning
+  type: Field
+  summary: "\n2: Versioning is requested for the document (locking is implied)\n"
+  syntax: 
+    content: Versioning = 2
+    type: CRMScript.NetServer.DocumentLockSemantics
+references:
+- uid: CRMScript.NetServer.DocumentLockSemantics
+  commentId: T:CRMScript.NetServer.DocumentLockSemantics
+  isExternal: true
+  name: DocumentLockSemantics
+  nameWithType: DocumentLockSemantics
+  fullName: CRMScript.NetServer.DocumentLockSemantics

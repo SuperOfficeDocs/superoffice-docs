@@ -1,0 +1,419 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSRelationDefinitionEntity
+  commentId: T:CRMScript.NetServer.NSRelationDefinitionEntity
+  id: NSRelationDefinitionEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSRelationDefinitionEntity.#ctor
+  - CRMScript.NetServer.NSRelationDefinitionEntity.GetDeleted()
+  - CRMScript.NetServer.NSRelationDefinitionEntity.GetDestination()
+  - CRMScript.NetServer.NSRelationDefinitionEntity.GetName()
+  - CRMScript.NetServer.NSRelationDefinitionEntity.GetPassiveText()
+  - CRMScript.NetServer.NSRelationDefinitionEntity.GetRank()
+  - CRMScript.NetServer.NSRelationDefinitionEntity.GetReldefId()
+  - CRMScript.NetServer.NSRelationDefinitionEntity.GetSource()
+  - CRMScript.NetServer.NSRelationDefinitionEntity.GetTooltip()
+  - CRMScript.NetServer.NSRelationDefinitionEntity.SetDeleted(Bool)
+  - CRMScript.NetServer.NSRelationDefinitionEntity.SetDestination(Integer)
+  - CRMScript.NetServer.NSRelationDefinitionEntity.SetName(String)
+  - CRMScript.NetServer.NSRelationDefinitionEntity.SetPassiveText(String)
+  - CRMScript.NetServer.NSRelationDefinitionEntity.SetRank(Integer)
+  - CRMScript.NetServer.NSRelationDefinitionEntity.SetReldefId(Integer)
+  - CRMScript.NetServer.NSRelationDefinitionEntity.SetSource(Integer)
+  - CRMScript.NetServer.NSRelationDefinitionEntity.SetTooltip(String)
+  name: NSRelationDefinitionEntity
+  nameWithType: NSRelationDefinitionEntity
+  fullName: CRMScript.NetServer.NSRelationDefinitionEntity
+  type: Class
+  summary: "\nA relation definition entity with source and destination tables.\n"
+  example: 
+- uid: CRMScript.NetServer.NSRelationDefinitionEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSRelationDefinitionEntity
+  langs:
+  - crmscript
+  name: NSRelationDefinitionEntity()
+  nameWithType: NSRelationDefinitionEntity.#ctor
+  fullName: CRMScript.NetServer.NSRelationDefinitionEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSRelationDefinitionEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSRelationDefinitionEntity
+  example: 
+- uid: CRMScript.NetServer.NSRelationDefinitionEntity.GetDeleted()
+  commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.GetDeleted()
+  id: 'GetDeleted()'
+  so.intellisense: NSRelationDefinitionEntity.GetDeleted
+  langs:
+  - crmscript
+  name: 'GetDeleted()'
+  nameWithType: NSRelationDefinitionEntity.GetDeleted()
+  fullName: CRMScript.NetServer.NSRelationDefinitionEntity.GetDeleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetDeleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if deleted."
+  example: 
+  - "\n<pre><code>NSRelationDefinitionEntity thing;\nBool deleted = thing.GetDeleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRelationDefinitionEntity.GetDestination()
+  commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.GetDestination()
+  id: 'GetDestination()'
+  so.intellisense: NSRelationDefinitionEntity.GetDestination
+  langs:
+  - crmscript
+  name: 'GetDestination()'
+  nameWithType: NSRelationDefinitionEntity.GetDestination()
+  fullName: CRMScript.NetServer.NSRelationDefinitionEntity.GetDestination()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDestination()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The destination of the relation. See <xref href=\"CRMScript.NetServer.RelationTarget\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSRelationDefinitionEntity thing;\nInteger destination = thing.GetDestination();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRelationDefinitionEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSRelationDefinitionEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSRelationDefinitionEntity.GetName()
+  fullName: CRMScript.NetServer.NSRelationDefinitionEntity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Active text."
+  example: 
+  - "\n<pre><code>NSRelationDefinitionEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRelationDefinitionEntity.GetPassiveText()
+  commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.GetPassiveText()
+  id: 'GetPassiveText()'
+  so.intellisense: NSRelationDefinitionEntity.GetPassiveText
+  langs:
+  - crmscript
+  name: 'GetPassiveText()'
+  nameWithType: NSRelationDefinitionEntity.GetPassiveText()
+  fullName: CRMScript.NetServer.NSRelationDefinitionEntity.GetPassiveText()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPassiveText()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Text used in passive direction."
+  example: 
+  - "\n<pre><code>NSRelationDefinitionEntity thing;\nString passiveText = thing.GetPassiveText();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRelationDefinitionEntity.GetRank()
+  commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSRelationDefinitionEntity.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSRelationDefinitionEntity.GetRank()
+  fullName: CRMScript.NetServer.NSRelationDefinitionEntity.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Rank order."
+  example: 
+  - "\n<pre><code>NSRelationDefinitionEntity thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRelationDefinitionEntity.GetReldefId()
+  commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.GetReldefId()
+  id: 'GetReldefId()'
+  so.intellisense: NSRelationDefinitionEntity.GetReldefId
+  langs:
+  - crmscript
+  name: 'GetReldefId()'
+  nameWithType: NSRelationDefinitionEntity.GetReldefId()
+  fullName: CRMScript.NetServer.NSRelationDefinitionEntity.GetReldefId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetReldefId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "primary key."
+  example: 
+  - "\n<pre><code>NSRelationDefinitionEntity thing;\nInteger reldefId = thing.GetReldefId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRelationDefinitionEntity.GetSource()
+  commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.GetSource()
+  id: 'GetSource()'
+  so.intellisense: NSRelationDefinitionEntity.GetSource
+  langs:
+  - crmscript
+  name: 'GetSource()'
+  nameWithType: NSRelationDefinitionEntity.GetSource()
+  fullName: CRMScript.NetServer.NSRelationDefinitionEntity.GetSource()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSource()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The source of the relation. See <xref href=\"CRMScript.NetServer.RelationTarget\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSRelationDefinitionEntity thing;\nInteger source = thing.GetSource();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRelationDefinitionEntity.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSRelationDefinitionEntity.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSRelationDefinitionEntity.GetTooltip()
+  fullName: CRMScript.NetServer.NSRelationDefinitionEntity.GetTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Tooltip or other description."
+  example: 
+  - "\n<pre><code>NSRelationDefinitionEntity thing;\nString tooltip = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRelationDefinitionEntity.SetDeleted(Bool)
+  commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.SetDeleted(Bool)
+  id: 'SetDeleted(Bool)'
+  so.intellisense: NSRelationDefinitionEntity.SetDeleted
+  langs:
+  - crmscript
+  name: 'SetDeleted(Bool)'
+  nameWithType: NSRelationDefinitionEntity.SetDeleted(Bool)
+  fullName: CRMScript.NetServer.NSRelationDefinitionEntity.SetDeleted(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeleted(Bool deleted)
+    parameters:
+    - id: deleted
+      type: CRMScript.Global.Bool
+      description: "True if deleted."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRelationDefinitionEntity thing;\nBool deleted;\nthing.SetDeleted(deleted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRelationDefinitionEntity.SetDestination(Integer)
+  commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.SetDestination(Integer)
+  id: 'SetDestination(Integer)'
+  so.intellisense: NSRelationDefinitionEntity.SetDestination
+  langs:
+  - crmscript
+  name: 'SetDestination(Integer)'
+  nameWithType: NSRelationDefinitionEntity.SetDestination(Integer)
+  fullName: CRMScript.NetServer.NSRelationDefinitionEntity.SetDestination(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetDestination(Integer destination)
+    parameters:
+    - id: destination
+      type: CRMScript.Global.Integer
+      description: "The destination of the relation. See <xref href=\"CRMScript.NetServer.RelationTarget\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRelationDefinitionEntity thing;\nInteger destination;\nthing.SetDestination(destination);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRelationDefinitionEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSRelationDefinitionEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSRelationDefinitionEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSRelationDefinitionEntity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Active text."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRelationDefinitionEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRelationDefinitionEntity.SetPassiveText(String)
+  commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.SetPassiveText(String)
+  id: 'SetPassiveText(String)'
+  so.intellisense: NSRelationDefinitionEntity.SetPassiveText
+  langs:
+  - crmscript
+  name: 'SetPassiveText(String)'
+  nameWithType: NSRelationDefinitionEntity.SetPassiveText(String)
+  fullName: CRMScript.NetServer.NSRelationDefinitionEntity.SetPassiveText(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPassiveText(String passiveText)
+    parameters:
+    - id: passiveText
+      type: CRMScript.Global.String
+      description: "Text used in passive direction."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRelationDefinitionEntity thing;\nString passiveText;\nthing.SetPassiveText(passiveText);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRelationDefinitionEntity.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSRelationDefinitionEntity.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSRelationDefinitionEntity.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSRelationDefinitionEntity.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "Rank order."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRelationDefinitionEntity thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRelationDefinitionEntity.SetReldefId(Integer)
+  commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.SetReldefId(Integer)
+  id: 'SetReldefId(Integer)'
+  so.intellisense: NSRelationDefinitionEntity.SetReldefId
+  langs:
+  - crmscript
+  name: 'SetReldefId(Integer)'
+  nameWithType: NSRelationDefinitionEntity.SetReldefId(Integer)
+  fullName: CRMScript.NetServer.NSRelationDefinitionEntity.SetReldefId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetReldefId(Integer reldefId)
+    parameters:
+    - id: reldefId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRelationDefinitionEntity thing;\nInteger reldefId;\nthing.SetReldefId(reldefId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRelationDefinitionEntity.SetSource(Integer)
+  commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.SetSource(Integer)
+  id: 'SetSource(Integer)'
+  so.intellisense: NSRelationDefinitionEntity.SetSource
+  langs:
+  - crmscript
+  name: 'SetSource(Integer)'
+  nameWithType: NSRelationDefinitionEntity.SetSource(Integer)
+  fullName: CRMScript.NetServer.NSRelationDefinitionEntity.SetSource(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetSource(Integer source)
+    parameters:
+    - id: source
+      type: CRMScript.Global.Integer
+      description: "The source of the relation. See <xref href=\"CRMScript.NetServer.RelationTarget\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRelationDefinitionEntity thing;\nInteger source;\nthing.SetSource(source);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRelationDefinitionEntity.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSRelationDefinitionEntity.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSRelationDefinitionEntity.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSRelationDefinitionEntity.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSRelationDefinitionEntity.SetTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: "Tooltip or other description."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRelationDefinitionEntity thing;\nString tooltip;\nthing.SetTooltip(tooltip);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSRelationDefinitionEntity
+  commentId: T:CRMScript.NetServer.NSRelationDefinitionEntity
+  isExternal: true
+  name: NSRelationDefinitionEntity
+  nameWithType: NSRelationDefinitionEntity
+  fullName: CRMScript.NetServer.NSRelationDefinitionEntity
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.RelationTarget
+  commentId: T:CRMScript.NetServer.RelationTarget
+  isExternal: true
+  name: RelationTarget
+  nameWithType: RelationTarget
+  fullName: CRMScript.NetServer.RelationTarget

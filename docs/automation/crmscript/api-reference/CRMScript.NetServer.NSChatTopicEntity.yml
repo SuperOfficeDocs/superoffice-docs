@@ -1,0 +1,1121 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSChatTopicEntity
+  commentId: T:CRMScript.NetServer.NSChatTopicEntity
+  id: NSChatTopicEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSChatTopicEntity.#ctor
+  - CRMScript.NetServer.NSChatTopicEntity.GetAlertRecipient()
+  - CRMScript.NetServer.NSChatTopicEntity.GetAlertTemplate()
+  - CRMScript.NetServer.NSChatTopicEntity.GetBadgeHeader()
+  - CRMScript.NetServer.NSChatTopicEntity.GetBotEnabled()
+  - CRMScript.NetServer.NSChatTopicEntity.GetBotSettings()
+  - CRMScript.NetServer.NSChatTopicEntity.GetChatTopicId()
+  - CRMScript.NetServer.NSChatTopicEntity.GetCollectConsent()
+  - CRMScript.NetServer.NSChatTopicEntity.GetCustomQueueText()
+  - CRMScript.NetServer.NSChatTopicEntity.GetCustomQueueTextEnabled()
+  - CRMScript.NetServer.NSChatTopicEntity.GetDescription()
+  - CRMScript.NetServer.NSChatTopicEntity.GetLanguage()
+  - CRMScript.NetServer.NSChatTopicEntity.GetLastAccept()
+  - CRMScript.NetServer.NSChatTopicEntity.GetName()
+  - CRMScript.NetServer.NSChatTopicEntity.GetOpeningHours()
+  - CRMScript.NetServer.NSChatTopicEntity.GetOpeningHoursEnabled()
+  - CRMScript.NetServer.NSChatTopicEntity.GetSecondsPrAccept()
+  - CRMScript.NetServer.NSChatTopicEntity.GetTicketCategory()
+  - CRMScript.NetServer.NSChatTopicEntity.GetTicketEnabled()
+  - CRMScript.NetServer.NSChatTopicEntity.GetTicketPriority()
+  - CRMScript.NetServer.NSChatTopicEntity.GetWarnManagerNewChatMinutes()
+  - CRMScript.NetServer.NSChatTopicEntity.GetWarnNewChatMinutes()
+  - CRMScript.NetServer.NSChatTopicEntity.GetWelcomeMessage()
+  - CRMScript.NetServer.NSChatTopicEntity.GetWidget()
+  - CRMScript.NetServer.NSChatTopicEntity.SetAlertRecipient(String)
+  - CRMScript.NetServer.NSChatTopicEntity.SetAlertTemplate(NSReplyTemplate)
+  - CRMScript.NetServer.NSChatTopicEntity.SetBadgeHeader(String)
+  - CRMScript.NetServer.NSChatTopicEntity.SetBotEnabled(Bool)
+  - CRMScript.NetServer.NSChatTopicEntity.SetBotSettings(NSChatBotSettings)
+  - CRMScript.NetServer.NSChatTopicEntity.SetChatTopicId(Integer)
+  - CRMScript.NetServer.NSChatTopicEntity.SetCollectConsent(Bool)
+  - CRMScript.NetServer.NSChatTopicEntity.SetCustomQueueText(String)
+  - CRMScript.NetServer.NSChatTopicEntity.SetCustomQueueTextEnabled(Bool)
+  - CRMScript.NetServer.NSChatTopicEntity.SetDescription(String)
+  - CRMScript.NetServer.NSChatTopicEntity.SetLanguage(NSCustomerLanguage)
+  - CRMScript.NetServer.NSChatTopicEntity.SetLastAccept(DateTime)
+  - CRMScript.NetServer.NSChatTopicEntity.SetName(String)
+  - CRMScript.NetServer.NSChatTopicEntity.SetOpeningHours(NSChatOpeningHours)
+  - CRMScript.NetServer.NSChatTopicEntity.SetOpeningHoursEnabled(Bool)
+  - CRMScript.NetServer.NSChatTopicEntity.SetSecondsPrAccept(Integer)
+  - CRMScript.NetServer.NSChatTopicEntity.SetTicketCategory(NSTicketCategory)
+  - CRMScript.NetServer.NSChatTopicEntity.SetTicketEnabled(Bool)
+  - CRMScript.NetServer.NSChatTopicEntity.SetTicketPriority(NSTicketPriority)
+  - CRMScript.NetServer.NSChatTopicEntity.SetWarnManagerNewChatMinutes(Integer)
+  - CRMScript.NetServer.NSChatTopicEntity.SetWarnNewChatMinutes(Integer)
+  - CRMScript.NetServer.NSChatTopicEntity.SetWelcomeMessage(String)
+  - CRMScript.NetServer.NSChatTopicEntity.SetWidget(NSChatWidgetSettings)
+  name: NSChatTopicEntity
+  nameWithType: NSChatTopicEntity
+  fullName: CRMScript.NetServer.NSChatTopicEntity
+  type: Class
+  summary: "\nChat topics define who is assigned, when the channel is open for business, and look of the chat widget. Carrier object for ChatTopicEntity.\n"
+  example: 
+- uid: CRMScript.NetServer.NSChatTopicEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSChatTopicEntity
+  langs:
+  - crmscript
+  name: NSChatTopicEntity()
+  nameWithType: NSChatTopicEntity.#ctor
+  fullName: CRMScript.NetServer.NSChatTopicEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSChatTopicEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSChatTopicEntity
+  example: 
+- uid: CRMScript.NetServer.NSChatTopicEntity.GetAlertRecipient()
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.GetAlertRecipient()
+  id: 'GetAlertRecipient()'
+  so.intellisense: NSChatTopicEntity.GetAlertRecipient
+  langs:
+  - crmscript
+  name: 'GetAlertRecipient()'
+  nameWithType: NSChatTopicEntity.GetAlertRecipient()
+  fullName: CRMScript.NetServer.NSChatTopicEntity.GetAlertRecipient()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetAlertRecipient()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The recipients for the alert template."
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nString alertRecipient = thing.GetAlertRecipient();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.GetAlertTemplate()
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.GetAlertTemplate()
+  id: 'GetAlertTemplate()'
+  so.intellisense: NSChatTopicEntity.GetAlertTemplate
+  langs:
+  - crmscript
+  name: 'GetAlertTemplate()'
+  nameWithType: NSChatTopicEntity.GetAlertTemplate()
+  fullName: CRMScript.NetServer.NSChatTopicEntity.GetAlertTemplate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSReplyTemplate GetAlertTemplate()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSReplyTemplate
+      description: "Template to use for alerts."
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nNSReplyTemplate alertTemplate = thing.GetAlertTemplate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.GetBadgeHeader()
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.GetBadgeHeader()
+  id: 'GetBadgeHeader()'
+  so.intellisense: NSChatTopicEntity.GetBadgeHeader
+  langs:
+  - crmscript
+  name: 'GetBadgeHeader()'
+  nameWithType: NSChatTopicEntity.GetBadgeHeader()
+  fullName: CRMScript.NetServer.NSChatTopicEntity.GetBadgeHeader()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetBadgeHeader()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The badge header of the chat topic."
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nString badgeHeader = thing.GetBadgeHeader();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.GetBotEnabled()
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.GetBotEnabled()
+  id: 'GetBotEnabled()'
+  so.intellisense: NSChatTopicEntity.GetBotEnabled
+  langs:
+  - crmscript
+  name: 'GetBotEnabled()'
+  nameWithType: NSChatTopicEntity.GetBotEnabled()
+  fullName: CRMScript.NetServer.NSChatTopicEntity.GetBotEnabled()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetBotEnabled()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Enable chatbot on this topic. Run the trigger scripts on bot events."
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nBool botEnabled = thing.GetBotEnabled();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.GetBotSettings()
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.GetBotSettings()
+  id: 'GetBotSettings()'
+  so.intellisense: NSChatTopicEntity.GetBotSettings
+  langs:
+  - crmscript
+  name: 'GetBotSettings()'
+  nameWithType: NSChatTopicEntity.GetBotSettings()
+  fullName: CRMScript.NetServer.NSChatTopicEntity.GetBotSettings()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSChatBotSettings GetBotSettings()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSChatBotSettings
+      description: "Settings for chatbot - trigger script IDs to run on bot events."
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nNSChatBotSettings botSettings = thing.GetBotSettings();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.GetChatTopicId()
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.GetChatTopicId()
+  id: 'GetChatTopicId()'
+  so.intellisense: NSChatTopicEntity.GetChatTopicId
+  langs:
+  - crmscript
+  name: 'GetChatTopicId()'
+  nameWithType: NSChatTopicEntity.GetChatTopicId()
+  fullName: CRMScript.NetServer.NSChatTopicEntity.GetChatTopicId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetChatTopicId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The primary key (auto-incremented)."
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nInteger chatTopicId = thing.GetChatTopicId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.GetCollectConsent()
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.GetCollectConsent()
+  id: 'GetCollectConsent()'
+  so.intellisense: NSChatTopicEntity.GetCollectConsent
+  langs:
+  - crmscript
+  name: 'GetCollectConsent()'
+  nameWithType: NSChatTopicEntity.GetCollectConsent()
+  fullName: CRMScript.NetServer.NSChatTopicEntity.GetCollectConsent()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetCollectConsent()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Collect consent to store from user."
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nBool collectConsent = thing.GetCollectConsent();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.GetCustomQueueText()
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.GetCustomQueueText()
+  id: 'GetCustomQueueText()'
+  so.intellisense: NSChatTopicEntity.GetCustomQueueText
+  langs:
+  - crmscript
+  name: 'GetCustomQueueText()'
+  nameWithType: NSChatTopicEntity.GetCustomQueueText()
+  fullName: CRMScript.NetServer.NSChatTopicEntity.GetCustomQueueText()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCustomQueueText()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A text to be used in the queue message in the chat widget. Usage is controlled by the flags field, bit number 3."
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nString customQueueText = thing.GetCustomQueueText();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.GetCustomQueueTextEnabled()
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.GetCustomQueueTextEnabled()
+  id: 'GetCustomQueueTextEnabled()'
+  so.intellisense: NSChatTopicEntity.GetCustomQueueTextEnabled
+  langs:
+  - crmscript
+  name: 'GetCustomQueueTextEnabled()'
+  nameWithType: NSChatTopicEntity.GetCustomQueueTextEnabled()
+  fullName: CRMScript.NetServer.NSChatTopicEntity.GetCustomQueueTextEnabled()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetCustomQueueTextEnabled()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Use the custom queue message text."
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nBool customQueueTextEnabled = thing.GetCustomQueueTextEnabled();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.GetDescription()
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSChatTopicEntity.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSChatTopicEntity.GetDescription()
+  fullName: CRMScript.NetServer.NSChatTopicEntity.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The description for this topic."
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.GetLanguage()
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.GetLanguage()
+  id: 'GetLanguage()'
+  so.intellisense: NSChatTopicEntity.GetLanguage
+  langs:
+  - crmscript
+  name: 'GetLanguage()'
+  nameWithType: NSChatTopicEntity.GetLanguage()
+  fullName: CRMScript.NetServer.NSChatTopicEntity.GetLanguage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSCustomerLanguage GetLanguage()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSCustomerLanguage
+      description: "Customer language used in this topic. Optional."
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nNSCustomerLanguage language = thing.GetLanguage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.GetLastAccept()
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.GetLastAccept()
+  id: 'GetLastAccept()'
+  so.intellisense: NSChatTopicEntity.GetLastAccept
+  langs:
+  - crmscript
+  name: 'GetLastAccept()'
+  nameWithType: NSChatTopicEntity.GetLastAccept()
+  fullName: CRMScript.NetServer.NSChatTopicEntity.GetLastAccept()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetLastAccept()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "The last time a session was accepted from the inside for this topic."
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nDateTime lastAccept = thing.GetLastAccept();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSChatTopicEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSChatTopicEntity.GetName()
+  fullName: CRMScript.NetServer.NSChatTopicEntity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of this chat topic."
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.GetOpeningHours()
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.GetOpeningHours()
+  id: 'GetOpeningHours()'
+  so.intellisense: NSChatTopicEntity.GetOpeningHours
+  langs:
+  - crmscript
+  name: 'GetOpeningHours()'
+  nameWithType: NSChatTopicEntity.GetOpeningHours()
+  fullName: CRMScript.NetServer.NSChatTopicEntity.GetOpeningHours()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSChatOpeningHours GetOpeningHours()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSChatOpeningHours
+      description: "Opening hours settings."
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nNSChatOpeningHours openingHours = thing.GetOpeningHours();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.GetOpeningHoursEnabled()
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.GetOpeningHoursEnabled()
+  id: 'GetOpeningHoursEnabled()'
+  so.intellisense: NSChatTopicEntity.GetOpeningHoursEnabled
+  langs:
+  - crmscript
+  name: 'GetOpeningHoursEnabled()'
+  nameWithType: NSChatTopicEntity.GetOpeningHoursEnabled()
+  fullName: CRMScript.NetServer.NSChatTopicEntity.GetOpeningHoursEnabled()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetOpeningHoursEnabled()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Whether to use opening hours or not."
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nBool openingHoursEnabled = thing.GetOpeningHoursEnabled();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.GetSecondsPrAccept()
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.GetSecondsPrAccept()
+  id: 'GetSecondsPrAccept()'
+  so.intellisense: NSChatTopicEntity.GetSecondsPrAccept
+  langs:
+  - crmscript
+  name: 'GetSecondsPrAccept()'
+  nameWithType: NSChatTopicEntity.GetSecondsPrAccept()
+  fullName: CRMScript.NetServer.NSChatTopicEntity.GetSecondsPrAccept()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSecondsPrAccept()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The average number of seconds per accept for this topic."
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nInteger secondsPrAccept = thing.GetSecondsPrAccept();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.GetTicketCategory()
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.GetTicketCategory()
+  id: 'GetTicketCategory()'
+  so.intellisense: NSChatTopicEntity.GetTicketCategory
+  langs:
+  - crmscript
+  name: 'GetTicketCategory()'
+  nameWithType: NSChatTopicEntity.GetTicketCategory()
+  fullName: CRMScript.NetServer.NSChatTopicEntity.GetTicketCategory()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSTicketCategory GetTicketCategory()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSTicketCategory
+      description: "Category on ticket created from off-line request."
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nNSTicketCategory ticketCategory = thing.GetTicketCategory();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.GetTicketEnabled()
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.GetTicketEnabled()
+  id: 'GetTicketEnabled()'
+  so.intellisense: NSChatTopicEntity.GetTicketEnabled
+  langs:
+  - crmscript
+  name: 'GetTicketEnabled()'
+  nameWithType: NSChatTopicEntity.GetTicketEnabled()
+  fullName: CRMScript.NetServer.NSChatTopicEntity.GetTicketEnabled()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetTicketEnabled()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Enable ticket submission in offline mode."
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nBool ticketEnabled = thing.GetTicketEnabled();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.GetTicketPriority()
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.GetTicketPriority()
+  id: 'GetTicketPriority()'
+  so.intellisense: NSChatTopicEntity.GetTicketPriority
+  langs:
+  - crmscript
+  name: 'GetTicketPriority()'
+  nameWithType: NSChatTopicEntity.GetTicketPriority()
+  fullName: CRMScript.NetServer.NSChatTopicEntity.GetTicketPriority()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSTicketPriority GetTicketPriority()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSTicketPriority
+      description: "Priority on ticket created from off-line request."
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nNSTicketPriority ticketPriority = thing.GetTicketPriority();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.GetWarnManagerNewChatMinutes()
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.GetWarnManagerNewChatMinutes()
+  id: 'GetWarnManagerNewChatMinutes()'
+  so.intellisense: NSChatTopicEntity.GetWarnManagerNewChatMinutes
+  langs:
+  - crmscript
+  name: 'GetWarnManagerNewChatMinutes()'
+  nameWithType: NSChatTopicEntity.GetWarnManagerNewChatMinutes()
+  fullName: CRMScript.NetServer.NSChatTopicEntity.GetWarnManagerNewChatMinutes()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetWarnManagerNewChatMinutes()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Contains the manager notify time in minutes."
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nInteger warnManagerNewChatMinutes = thing.GetWarnManagerNewChatMinutes();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.GetWarnNewChatMinutes()
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.GetWarnNewChatMinutes()
+  id: 'GetWarnNewChatMinutes()'
+  so.intellisense: NSChatTopicEntity.GetWarnNewChatMinutes
+  langs:
+  - crmscript
+  name: 'GetWarnNewChatMinutes()'
+  nameWithType: NSChatTopicEntity.GetWarnNewChatMinutes()
+  fullName: CRMScript.NetServer.NSChatTopicEntity.GetWarnNewChatMinutes()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetWarnNewChatMinutes()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Contains the user notify time in minutes."
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nInteger warnNewChatMinutes = thing.GetWarnNewChatMinutes();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.GetWelcomeMessage()
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.GetWelcomeMessage()
+  id: 'GetWelcomeMessage()'
+  so.intellisense: NSChatTopicEntity.GetWelcomeMessage
+  langs:
+  - crmscript
+  name: 'GetWelcomeMessage()'
+  nameWithType: NSChatTopicEntity.GetWelcomeMessage()
+  fullName: CRMScript.NetServer.NSChatTopicEntity.GetWelcomeMessage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetWelcomeMessage()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The welcome message sent to the customer when the chat session starts."
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nString welcomeMessage = thing.GetWelcomeMessage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.GetWidget()
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.GetWidget()
+  id: 'GetWidget()'
+  so.intellisense: NSChatTopicEntity.GetWidget
+  langs:
+  - crmscript
+  name: 'GetWidget()'
+  nameWithType: NSChatTopicEntity.GetWidget()
+  fullName: CRMScript.NetServer.NSChatTopicEntity.GetWidget()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSChatWidgetSettings GetWidget()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSChatWidgetSettings
+      description: "Settings for the chat widget."
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nNSChatWidgetSettings widget = thing.GetWidget();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.SetAlertRecipient(String)
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.SetAlertRecipient(String)
+  id: 'SetAlertRecipient(String)'
+  so.intellisense: NSChatTopicEntity.SetAlertRecipient
+  langs:
+  - crmscript
+  name: 'SetAlertRecipient(String)'
+  nameWithType: NSChatTopicEntity.SetAlertRecipient(String)
+  fullName: CRMScript.NetServer.NSChatTopicEntity.SetAlertRecipient(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAlertRecipient(String alertRecipient)
+    parameters:
+    - id: alertRecipient
+      type: CRMScript.Global.String
+      description: "The recipients for the alert template."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nString alertRecipient;\nthing.SetAlertRecipient(alertRecipient);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.SetAlertTemplate(NSReplyTemplate)
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.SetAlertTemplate(NSReplyTemplate)
+  id: 'SetAlertTemplate(NSReplyTemplate)'
+  so.intellisense: NSChatTopicEntity.SetAlertTemplate
+  langs:
+  - crmscript
+  name: 'SetAlertTemplate(NSReplyTemplate)'
+  nameWithType: NSChatTopicEntity.SetAlertTemplate(NSReplyTemplate)
+  fullName: CRMScript.NetServer.NSChatTopicEntity.SetAlertTemplate(NSReplyTemplate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAlertTemplate(NSReplyTemplate alertTemplate)
+    parameters:
+    - id: alertTemplate
+      type: CRMScript.NetServer.NSReplyTemplate
+      description: "Template to use for alerts."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nNSReplyTemplate alertTemplate;\nthing.SetAlertTemplate(alertTemplate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.SetBadgeHeader(String)
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.SetBadgeHeader(String)
+  id: 'SetBadgeHeader(String)'
+  so.intellisense: NSChatTopicEntity.SetBadgeHeader
+  langs:
+  - crmscript
+  name: 'SetBadgeHeader(String)'
+  nameWithType: NSChatTopicEntity.SetBadgeHeader(String)
+  fullName: CRMScript.NetServer.NSChatTopicEntity.SetBadgeHeader(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetBadgeHeader(String badgeHeader)
+    parameters:
+    - id: badgeHeader
+      type: CRMScript.Global.String
+      description: "The badge header of the chat topic."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nString badgeHeader;\nthing.SetBadgeHeader(badgeHeader);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.SetBotEnabled(Bool)
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.SetBotEnabled(Bool)
+  id: 'SetBotEnabled(Bool)'
+  so.intellisense: NSChatTopicEntity.SetBotEnabled
+  langs:
+  - crmscript
+  name: 'SetBotEnabled(Bool)'
+  nameWithType: NSChatTopicEntity.SetBotEnabled(Bool)
+  fullName: CRMScript.NetServer.NSChatTopicEntity.SetBotEnabled(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetBotEnabled(Bool botEnabled)
+    parameters:
+    - id: botEnabled
+      type: CRMScript.Global.Bool
+      description: "Enable chatbot on this topic. Run the trigger scripts on bot events."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nBool botEnabled;\nthing.SetBotEnabled(botEnabled);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.SetBotSettings(NSChatBotSettings)
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.SetBotSettings(NSChatBotSettings)
+  id: 'SetBotSettings(NSChatBotSettings)'
+  so.intellisense: NSChatTopicEntity.SetBotSettings
+  langs:
+  - crmscript
+  name: 'SetBotSettings(NSChatBotSettings)'
+  nameWithType: NSChatTopicEntity.SetBotSettings(NSChatBotSettings)
+  fullName: CRMScript.NetServer.NSChatTopicEntity.SetBotSettings(NSChatBotSettings)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetBotSettings(NSChatBotSettings botSettings)
+    parameters:
+    - id: botSettings
+      type: NSChatBotSettings
+      description: "Settings for chatbot - trigger script ids to run on bot events."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nNSChatBotSettings botSettings;\nthing.SetBotSettings(botSettings);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.SetChatTopicId(Integer)
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.SetChatTopicId(Integer)
+  id: 'SetChatTopicId(Integer)'
+  so.intellisense: NSChatTopicEntity.SetChatTopicId
+  langs:
+  - crmscript
+  name: 'SetChatTopicId(Integer)'
+  nameWithType: NSChatTopicEntity.SetChatTopicId(Integer)
+  fullName: CRMScript.NetServer.NSChatTopicEntity.SetChatTopicId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChatTopicId(Integer chatTopicId)
+    parameters:
+    - id: chatTopicId
+      type: CRMScript.Global.Integer
+      description: "The primary key (auto-incremented)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nInteger chatTopicId;\nthing.SetChatTopicId(chatTopicId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.SetCollectConsent(Bool)
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.SetCollectConsent(Bool)
+  id: 'SetCollectConsent(Bool)'
+  so.intellisense: NSChatTopicEntity.SetCollectConsent
+  langs:
+  - crmscript
+  name: 'SetCollectConsent(Bool)'
+  nameWithType: NSChatTopicEntity.SetCollectConsent(Bool)
+  fullName: CRMScript.NetServer.NSChatTopicEntity.SetCollectConsent(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCollectConsent(Bool collectConsent)
+    parameters:
+    - id: collectConsent
+      type: CRMScript.Global.Bool
+      description: "Collect consent to store from user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nBool collectConsent;\nthing.SetCollectConsent(collectConsent);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.SetCustomQueueText(String)
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.SetCustomQueueText(String)
+  id: 'SetCustomQueueText(String)'
+  so.intellisense: NSChatTopicEntity.SetCustomQueueText
+  langs:
+  - crmscript
+  name: 'SetCustomQueueText(String)'
+  nameWithType: NSChatTopicEntity.SetCustomQueueText(String)
+  fullName: CRMScript.NetServer.NSChatTopicEntity.SetCustomQueueText(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCustomQueueText(String customQueueText)
+    parameters:
+    - id: customQueueText
+      type: CRMScript.Global.String
+      description: "A text to be used in the queue message in the chat widget. Usage is controlled by the flags field, bit number 3."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nString customQueueText;\nthing.SetCustomQueueText(customQueueText);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.SetCustomQueueTextEnabled(Bool)
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.SetCustomQueueTextEnabled(Bool)
+  id: 'SetCustomQueueTextEnabled(Bool)'
+  so.intellisense: NSChatTopicEntity.SetCustomQueueTextEnabled
+  langs:
+  - crmscript
+  name: 'SetCustomQueueTextEnabled(Bool)'
+  nameWithType: NSChatTopicEntity.SetCustomQueueTextEnabled(Bool)
+  fullName: CRMScript.NetServer.NSChatTopicEntity.SetCustomQueueTextEnabled(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCustomQueueTextEnabled(Bool customQueueTextEnabled)
+    parameters:
+    - id: customQueueTextEnabled
+      type: CRMScript.Global.Bool
+      description: "Use the custom queue message text."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nBool customQueueTextEnabled;\nthing.SetCustomQueueTextEnabled(customQueueTextEnabled);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSChatTopicEntity.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSChatTopicEntity.SetDescription(String)
+  fullName: CRMScript.NetServer.NSChatTopicEntity.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "The description for this topic."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.SetLanguage(NSCustomerLanguage)
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.SetLanguage(NSCustomerLanguage)
+  id: 'SetLanguage(NSCustomerLanguage)'
+  so.intellisense: NSChatTopicEntity.SetLanguage
+  langs:
+  - crmscript
+  name: 'SetLanguage(NSCustomerLanguage)'
+  nameWithType: NSChatTopicEntity.SetLanguage(NSCustomerLanguage)
+  fullName: CRMScript.NetServer.NSChatTopicEntity.SetLanguage(NSCustomerLanguage)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLanguage(NSCustomerLanguage language)
+    parameters:
+    - id: language
+      type: CRMScript.NetServer.NSCustomerLanguage
+      description: "Customer language used in this topic. Optional."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nNSCustomerLanguage language;\nthing.SetLanguage(language);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.SetLastAccept(DateTime)
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.SetLastAccept(DateTime)
+  id: 'SetLastAccept(DateTime)'
+  so.intellisense: NSChatTopicEntity.SetLastAccept
+  langs:
+  - crmscript
+  name: 'SetLastAccept(DateTime)'
+  nameWithType: NSChatTopicEntity.SetLastAccept(DateTime)
+  fullName: CRMScript.NetServer.NSChatTopicEntity.SetLastAccept(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLastAccept(DateTime lastAccept)
+    parameters:
+    - id: lastAccept
+      type: CRMScript.Global.DateTime
+      description: "The last time a session was accepted from the inside for this topic."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nDateTime lastAccept;\nthing.SetLastAccept(lastAccept);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSChatTopicEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSChatTopicEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSChatTopicEntity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of this chat topic."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.SetOpeningHours(NSChatOpeningHours)
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.SetOpeningHours(NSChatOpeningHours)
+  id: 'SetOpeningHours(NSChatOpeningHours)'
+  so.intellisense: NSChatTopicEntity.SetOpeningHours
+  langs:
+  - crmscript
+  name: 'SetOpeningHours(NSChatOpeningHours)'
+  nameWithType: NSChatTopicEntity.SetOpeningHours(NSChatOpeningHours)
+  fullName: CRMScript.NetServer.NSChatTopicEntity.SetOpeningHours(NSChatOpeningHours)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOpeningHours(NSChatOpeningHours openingHours)
+    parameters:
+    - id: openingHours
+      type: CRMScript.NetServer.NSChatOpeningHours
+      description: "Opening hours settings."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nNSChatOpeningHours openingHours;\nthing.SetOpeningHours(openingHours);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.SetOpeningHoursEnabled(Bool)
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.SetOpeningHoursEnabled(Bool)
+  id: 'SetOpeningHoursEnabled(Bool)'
+  so.intellisense: NSChatTopicEntity.SetOpeningHoursEnabled
+  langs:
+  - crmscript
+  name: 'SetOpeningHoursEnabled(Bool)'
+  nameWithType: NSChatTopicEntity.SetOpeningHoursEnabled(Bool)
+  fullName: CRMScript.NetServer.NSChatTopicEntity.SetOpeningHoursEnabled(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOpeningHoursEnabled(Bool openingHoursEnabled)
+    parameters:
+    - id: openingHoursEnabled
+      type: CRMScript.Global.Bool
+      description: "Whether to use opening hours or not."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nBool openingHoursEnabled;\nthing.SetOpeningHoursEnabled(openingHoursEnabled);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.SetSecondsPrAccept(Integer)
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.SetSecondsPrAccept(Integer)
+  id: 'SetSecondsPrAccept(Integer)'
+  so.intellisense: NSChatTopicEntity.SetSecondsPrAccept
+  langs:
+  - crmscript
+  name: 'SetSecondsPrAccept(Integer)'
+  nameWithType: NSChatTopicEntity.SetSecondsPrAccept(Integer)
+  fullName: CRMScript.NetServer.NSChatTopicEntity.SetSecondsPrAccept(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSecondsPrAccept(Integer secondsPrAccept)
+    parameters:
+    - id: secondsPrAccept
+      type: CRMScript.Global.Integer
+      description: "The average number of seconds per accept for this topic."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nInteger secondsPrAccept;\nthing.SetSecondsPrAccept(secondsPrAccept);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.SetTicketCategory(NSTicketCategory)
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.SetTicketCategory(NSTicketCategory)
+  id: 'SetTicketCategory(NSTicketCategory)'
+  so.intellisense: NSChatTopicEntity.SetTicketCategory
+  langs:
+  - crmscript
+  name: 'SetTicketCategory(NSTicketCategory)'
+  nameWithType: NSChatTopicEntity.SetTicketCategory(NSTicketCategory)
+  fullName: CRMScript.NetServer.NSChatTopicEntity.SetTicketCategory(NSTicketCategory)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTicketCategory(NSTicketCategory ticketCategory)
+    parameters:
+    - id: ticketCategory
+      type: CRMScript.NetServer.NSTicketCategory
+      description: "Category on ticket created from off-line request."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nNSTicketCategory ticketCategory;\nthing.SetTicketCategory(ticketCategory);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.SetTicketEnabled(Bool)
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.SetTicketEnabled(Bool)
+  id: 'SetTicketEnabled(Bool)'
+  so.intellisense: NSChatTopicEntity.SetTicketEnabled
+  langs:
+  - crmscript
+  name: 'SetTicketEnabled(Bool)'
+  nameWithType: NSChatTopicEntity.SetTicketEnabled(Bool)
+  fullName: CRMScript.NetServer.NSChatTopicEntity.SetTicketEnabled(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTicketEnabled(Bool ticketEnabled)
+    parameters:
+    - id: ticketEnabled
+      type: CRMScript.Global.Bool
+      description: "Enable ticket submission in offline mode."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nBool ticketEnabled;\nthing.SetTicketEnabled(ticketEnabled);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.SetTicketPriority(NSTicketPriority)
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.SetTicketPriority(NSTicketPriority)
+  id: 'SetTicketPriority(NSTicketPriority)'
+  so.intellisense: NSChatTopicEntity.SetTicketPriority
+  langs:
+  - crmscript
+  name: 'SetTicketPriority(NSTicketPriority)'
+  nameWithType: NSChatTopicEntity.SetTicketPriority(NSTicketPriority)
+  fullName: CRMScript.NetServer.NSChatTopicEntity.SetTicketPriority(NSTicketPriority)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTicketPriority(NSTicketPriority ticketPriority)
+    parameters:
+    - id: ticketPriority
+      type: CRMScript.NetServer.NSTicketPriority
+      description: "Priority on ticket created from off-line request."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nNSTicketPriority ticketPriority;\nthing.SetTicketPriority(ticketPriority);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.SetWarnManagerNewChatMinutes(Integer)
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.SetWarnManagerNewChatMinutes(Integer)
+  id: 'SetWarnManagerNewChatMinutes(Integer)'
+  so.intellisense: NSChatTopicEntity.SetWarnManagerNewChatMinutes
+  langs:
+  - crmscript
+  name: 'SetWarnManagerNewChatMinutes(Integer)'
+  nameWithType: NSChatTopicEntity.SetWarnManagerNewChatMinutes(Integer)
+  fullName: CRMScript.NetServer.NSChatTopicEntity.SetWarnManagerNewChatMinutes(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWarnManagerNewChatMinutes(Integer warnManagerNewChatMinutes)
+    parameters:
+    - id: warnManagerNewChatMinutes
+      type: CRMScript.Global.Integer
+      description: "Contains the manager notify time in minutes."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nInteger warnManagerNewChatMinutes;\nthing.SetWarnManagerNewChatMinutes(warnManagerNewChatMinutes);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.SetWarnNewChatMinutes(Integer)
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.SetWarnNewChatMinutes(Integer)
+  id: 'SetWarnNewChatMinutes(Integer)'
+  so.intellisense: NSChatTopicEntity.SetWarnNewChatMinutes
+  langs:
+  - crmscript
+  name: 'SetWarnNewChatMinutes(Integer)'
+  nameWithType: NSChatTopicEntity.SetWarnNewChatMinutes(Integer)
+  fullName: CRMScript.NetServer.NSChatTopicEntity.SetWarnNewChatMinutes(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWarnNewChatMinutes(Integer warnNewChatMinutes)
+    parameters:
+    - id: warnNewChatMinutes
+      type: CRMScript.Global.Integer
+      description: "Contains the user notify time in minutes."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nInteger warnNewChatMinutes;\nthing.SetWarnNewChatMinutes(warnNewChatMinutes);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.SetWelcomeMessage(String)
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.SetWelcomeMessage(String)
+  id: 'SetWelcomeMessage(String)'
+  so.intellisense: NSChatTopicEntity.SetWelcomeMessage
+  langs:
+  - crmscript
+  name: 'SetWelcomeMessage(String)'
+  nameWithType: NSChatTopicEntity.SetWelcomeMessage(String)
+  fullName: CRMScript.NetServer.NSChatTopicEntity.SetWelcomeMessage(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWelcomeMessage(String welcomeMessage)
+    parameters:
+    - id: welcomeMessage
+      type: CRMScript.Global.String
+      description: "The welcome message sent to the customer when the chat session starts."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nString welcomeMessage;\nthing.SetWelcomeMessage(welcomeMessage);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatTopicEntity.SetWidget(NSChatWidgetSettings)
+  commentId: M:CRMScript.NetServer.NSChatTopicEntity.SetWidget(NSChatWidgetSettings)
+  id: 'SetWidget(NSChatWidgetSettings)'
+  so.intellisense: NSChatTopicEntity.SetWidget
+  langs:
+  - crmscript
+  name: 'SetWidget(NSChatWidgetSettings)'
+  nameWithType: NSChatTopicEntity.SetWidget(NSChatWidgetSettings)
+  fullName: CRMScript.NetServer.NSChatTopicEntity.SetWidget(NSChatWidgetSettings)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWidget(NSChatWidgetSettings widget)
+    parameters:
+    - id: widget
+      type: CRMScript.NetServer.NSChatWidgetSettings
+      description: "Settings for the chat widget."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatTopicEntity thing;\nNSChatWidgetSettings widget;\nthing.SetWidget(widget);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSChatTopicEntity
+  commentId: T:CRMScript.NetServer.NSChatTopicEntity
+  isExternal: true
+  name: NSChatTopicEntity
+  nameWithType: NSChatTopicEntity
+  fullName: CRMScript.NetServer.NSChatTopicEntity
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSReplyTemplate
+  commentId: T:CRMScript.NetServer.NSReplyTemplate
+  isExternal: true
+  name: NSReplyTemplate
+  nameWithType: NSReplyTemplate
+  fullName: CRMScript.NetServer.NSReplyTemplate
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.NetServer.NSChatBotSettings
+  commentId: T:CRMScript.NetServer.NSChatBotSettings
+  isExternal: true
+  name: NSChatBotSettings
+  nameWithType: NSChatBotSettings
+  fullName: CRMScript.NetServer.NSChatBotSettings
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSCustomerLanguage
+  commentId: T:CRMScript.NetServer.NSCustomerLanguage
+  isExternal: true
+  name: NSCustomerLanguage
+  nameWithType: NSCustomerLanguage
+  fullName: CRMScript.NetServer.NSCustomerLanguage
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.NetServer.NSChatOpeningHours
+  commentId: T:CRMScript.NetServer.NSChatOpeningHours
+  isExternal: true
+  name: NSChatOpeningHours
+  nameWithType: NSChatOpeningHours
+  fullName: CRMScript.NetServer.NSChatOpeningHours
+- uid: CRMScript.NetServer.NSTicketCategory
+  commentId: T:CRMScript.NetServer.NSTicketCategory
+  isExternal: true
+  name: NSTicketCategory
+  nameWithType: NSTicketCategory
+  fullName: CRMScript.NetServer.NSTicketCategory
+- uid: CRMScript.NetServer.NSTicketPriority
+  commentId: T:CRMScript.NetServer.NSTicketPriority
+  isExternal: true
+  name: NSTicketPriority
+  nameWithType: NSTicketPriority
+  fullName: CRMScript.NetServer.NSTicketPriority
+- uid: CRMScript.NetServer.NSChatWidgetSettings
+  commentId: T:CRMScript.NetServer.NSChatWidgetSettings
+  isExternal: true
+  name: NSChatWidgetSettings
+  nameWithType: NSChatWidgetSettings
+  fullName: CRMScript.NetServer.NSChatWidgetSettings
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

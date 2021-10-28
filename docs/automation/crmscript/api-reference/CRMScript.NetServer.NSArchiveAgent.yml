@@ -1,0 +1,1155 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSArchiveAgent
+  commentId: T:CRMScript.NetServer.NSArchiveAgent
+  id: NSArchiveAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSArchiveAgent.#ctor
+  - CRMScript.NetServer.NSArchiveAgent.CreateDefaultArchiveListResult()
+  - CRMScript.NetServer.NSArchiveAgent.ExportArchive(String,String,String[],String[],String,String[],Integer)
+  - CRMScript.NetServer.NSArchiveAgent.GetActivityFilter()
+  - CRMScript.NetServer.NSArchiveAgent.GetArchiveConfiguration(String,String)
+  - CRMScript.NetServer.NSArchiveAgent.GetArchiveConfigurationV2(String,String,String,String)
+  - CRMScript.NetServer.NSArchiveAgent.GetArchiveConfigurationWithContext(String,String,String)
+  - CRMScript.NetServer.NSArchiveAgent.GetArchiveList(String,String,String[],Integer,Integer)
+  - CRMScript.NetServer.NSArchiveAgent.GetArchiveList2(String,String,String,String,String,Integer,Integer)
+  - CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumns(String,String[],String[],Integer,Integer)
+  - CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumns2(String,String,String,String,String,Integer,Integer)
+  - CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithContext(String,String[],String[],Integer,Integer,String)
+  - CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithContext2(String,String,String,String,String,Integer,Integer,String)
+  - CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithHeader(String,String[],String[],Integer,Integer,String)
+  - CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithHeader2(String,String,String,String,String,Integer,Integer,String)
+  - CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext(String,String[],String[],Integer,Integer,String,String)
+  - CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2(String,String,String,String,String,Integer,Integer,String,String)
+  - CRMScript.NetServer.NSArchiveAgent.GetArchiveListWithContext(String,String,String[],Integer,Integer,String)
+  - CRMScript.NetServer.NSArchiveAgent.GetArchiveListWithContext2(String,String,String,String,String,Integer,Integer,String)
+  - CRMScript.NetServer.NSArchiveAgent.GetAvailableColumns(String,String)
+  - CRMScript.NetServer.NSArchiveAgent.GetAvailableEntities(String,String)
+  - CRMScript.NetServer.NSArchiveAgent.GetGroupAssociateIds(Integer[])
+  - CRMScript.NetServer.NSArchiveAgent.GetProviderNames()
+  - CRMScript.NetServer.NSArchiveAgent.SetActivityFilter(NSActivityFilter)
+  - CRMScript.NetServer.NSArchiveAgent.SetChosenColumns(String,String,String[])
+  - CRMScript.NetServer.NSArchiveAgent.SetChosenColumnsV2(String,String,String,String,String[])
+  - CRMScript.NetServer.NSArchiveAgent.SetChosenEntities(String,String,String[])
+  - CRMScript.NetServer.NSArchiveAgent.SetChosenEntitiesV2(String,String,String,String,String[])
+  - CRMScript.NetServer.NSArchiveAgent.SetColumnWidths(String,String[])
+  - CRMScript.NetServer.NSArchiveAgent.SetColumnWidthsV2(String,String,String,String,String[])
+  name: NSArchiveAgent
+  nameWithType: NSArchiveAgent
+  fullName: CRMScript.NetServer.NSArchiveAgent
+  type: Class
+  summary: "\nArchiveList functions of all kinds.\n"
+  example: 
+  - "\n<pre><code>NSArchiveAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSArchiveAgent
+  langs:
+  - crmscript
+  name: NSArchiveAgent()
+  nameWithType: NSArchiveAgent.#ctor
+  fullName: CRMScript.NetServer.NSArchiveAgent.#ctor
+  type: Constructor
+  summary: "\nArchiveList functions of all kinds.\n"
+  remarks: 
+  syntax: 
+    content: NSArchiveAgent
+  example: 
+  - "\n<pre><code>NSArchiveAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveAgent.CreateDefaultArchiveListResult()
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.CreateDefaultArchiveListResult()
+  id: 'CreateDefaultArchiveListResult()'
+  so.intellisense: NSArchiveAgent.CreateDefaultArchiveListResult
+  langs:
+  - crmscript
+  name: 'CreateDefaultArchiveListResult()'
+  nameWithType: NSArchiveAgent.CreateDefaultArchiveListResult()
+  fullName: CRMScript.NetServer.NSArchiveAgent.CreateDefaultArchiveListResult()
+  type: Method
+  summary: "\nSets default values into a new NSArchiveListResult.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance.\n"
+  syntax: 
+    content: NSArchiveListResult CreateDefaultArchiveListResult()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSArchiveListResult
+      description: "A new NSArchiveListResult with default values."
+  example: 
+  - "\n<pre><code>NSArchiveAgent agent;\nNSArchiveListResult thing = agent.CreateDefaultArchiveListResult();\nthing = agent.SaveArchiveListResult(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveAgent.ExportArchive(String,String,String[],String[],String,String[],Integer)
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.ExportArchive(String,String,String[],String[],String,String[],Integer)
+  id: 'ExportArchive(String,String,String[],String[],String,String[],Integer)'
+  so.intellisense: NSArchiveAgent.ExportArchive
+  langs:
+  - crmscript
+  name: 'ExportArchive(String,String,String[],String[],String,String[],Integer)'
+  nameWithType: NSArchiveAgent.ExportArchive(String,String,String[],String[],String,String[],Integer)
+  fullName: CRMScript.NetServer.NSArchiveAgent.ExportArchive(String,String,String[],String[],String,String[],Integer)
+  type: Method
+  summary: "\nExports the target archive to a downloadable format.\n"
+  remarks: 
+  syntax: 
+    content: NSExportArchiveResult ExportArchive(String providerName, String context, String[] desiredEntities, String[] columns, NSArchiveOrderByInfo[] sortOrder, NSArchiveRestrictionInfo[] restrictions, String exportType, String[] selectedRowIds, Integer estimatedRowCount)
+    parameters:
+    - id: providerName
+      type: CRMScript.Global.String
+      description: 
+    - id: context
+      type: CRMScript.Global.String
+      description: 
+    - id: desiredEntities
+      type: CRMScript.Global.String[]
+      description: 
+    - id: columns
+      type: CRMScript.Global.String[]
+      description: 
+    - id: exportType
+      type: CRMScript.Global.String
+      description: 
+    - id: selectedRowIds
+      type: CRMScript.Global.String[]
+      description: 
+    - id: estimatedRowCount
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSExportArchiveResult
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSArchiveAgent.GetActivityFilter()
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.GetActivityFilter()
+  id: 'GetActivityFilter()'
+  so.intellisense: NSArchiveAgent.GetActivityFilter
+  langs:
+  - crmscript
+  name: 'GetActivityFilter()'
+  nameWithType: NSArchiveAgent.GetActivityFilter()
+  fullName: CRMScript.NetServer.NSArchiveAgent.GetActivityFilter()
+  type: Method
+  summary: "\nGets activity filter for the specified list.\n"
+  remarks: 
+  syntax: 
+    content: NSActivityFilter GetActivityFilter()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSActivityFilter
+      description: "The activity filter for the specified list."
+  example: 
+  - "\n<pre><code>NSArchiveAgent agent;\nNSActivityFilter res = agent.GetActivityFilter();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveAgent.GetArchiveConfiguration(String,String)
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.GetArchiveConfiguration(String,String)
+  id: 'GetArchiveConfiguration(String,String)'
+  so.intellisense: NSArchiveAgent.GetArchiveConfiguration
+  langs:
+  - crmscript
+  name: 'GetArchiveConfiguration(String,String)'
+  nameWithType: NSArchiveAgent.GetArchiveConfiguration(String,String)
+  fullName: CRMScript.NetServer.NSArchiveAgent.GetArchiveConfiguration(String,String)
+  type: Method
+  summary: "\nGets the configuration for one archive. The configuration is keyed by a combination of archive provider name and gui name.\n"
+  remarks: 
+  syntax: 
+    content: NSArchiveConfiguration GetArchiveConfiguration(String guiName, String providerName)
+    parameters:
+    - id: guiName
+      type: CRMScript.Global.String
+      description: "An arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui."
+    - id: providerName
+      type: CRMScript.Global.String
+      description: "Must match an archive provider plugin."
+    return:
+      type: CRMScript.NetServer.NSArchiveConfiguration
+      description:
+  example: 
+  - "\n<pre><code>NSArchiveAgent agent;\nString guiName;\nString providerName;\nNSArchiveConfiguration res = agent.GetArchiveConfiguration(guiName, providerName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveAgent.GetArchiveConfigurationV2(String,String,String,String)
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.GetArchiveConfigurationV2(String,String,String,String)
+  id: 'GetArchiveConfigurationV2(String,String,String,String)'
+  so.intellisense: NSArchiveAgent.GetArchiveConfigurationV2
+  langs:
+  - crmscript
+  name: 'GetArchiveConfigurationV2(String,String,String,String)'
+  nameWithType: NSArchiveAgent.GetArchiveConfigurationV2(String,String,String,String)
+  fullName: CRMScript.NetServer.NSArchiveAgent.GetArchiveConfigurationV2(String,String,String,String)
+  type: Method
+  summary: "\nGets the configuration for one archive. The configuration is keyed by a combination of archive provider name (plus optional context), gui name, and optional table binding.\n"
+  remarks: 
+  syntax: 
+    content: NSArchiveConfiguration GetArchiveConfigurationV2(String guiName, String providerName, String context, String ownerKeys)
+    parameters:
+    - id: guiName
+      type: CRMScript.Global.String
+      description: "An arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui."
+    - id: providerName
+      type: CRMScript.Global.String
+      description: "Must match an archive provider plugin."
+    - id: context
+      type: CRMScript.Global.String
+      description: 
+    - id: ownerKeys
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSArchiveConfiguration
+      description:
+  example: 
+  - "\n<pre><code>NSArchiveAgent agent;\nString guiName;\nString providerName;\nString context;\nString ownerKeys;\nNSArchiveConfiguration res = agent.GetArchiveConfigurationV2(guiName, providerName, context, ownerKeys);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveAgent.GetArchiveConfigurationWithContext(String,String,String)
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.GetArchiveConfigurationWithContext(String,String,String)
+  id: 'GetArchiveConfigurationWithContext(String,String,String)'
+  so.intellisense: NSArchiveAgent.GetArchiveConfigurationWithContext
+  langs:
+  - crmscript
+  name: 'GetArchiveConfigurationWithContext(String,String,String)'
+  nameWithType: NSArchiveAgent.GetArchiveConfigurationWithContext(String,String,String)
+  fullName: CRMScript.NetServer.NSArchiveAgent.GetArchiveConfigurationWithContext(String,String,String)
+  type: Method
+  summary: "\nGets the configuration for one archive, with context parameter. The configuration is keyed by a combination of archive provider name and gui name.\n"
+  remarks: 
+  syntax: 
+    content: NSArchiveConfiguration GetArchiveConfigurationWithContext(String guiName, String providerName, String context)
+    parameters:
+    - id: guiName
+      type: CRMScript.Global.String
+      description: "An arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui."
+    - id: providerName
+      type: CRMScript.Global.String
+      description: "Must match an archive provider plugin"
+    - id: context
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSArchiveConfiguration
+      description:
+  example: 
+  - "\n<pre><code>NSArchiveAgent agent;\nString guiName;\nString providerName;\nString context;\nNSArchiveConfiguration res = agent.GetArchiveConfigurationWithContext(guiName, providerName, context);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveAgent.GetArchiveList(String,String,String[],Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.GetArchiveList(String,String,String[],Integer,Integer)
+  id: 'GetArchiveList(String,String,String[],Integer,Integer)'
+  so.intellisense: NSArchiveAgent.GetArchiveList
+  langs:
+  - crmscript
+  name: 'GetArchiveList(String,String,String[],Integer,Integer)'
+  nameWithType: NSArchiveAgent.GetArchiveList(String,String,String[],Integer,Integer)
+  fullName: CRMScript.NetServer.NSArchiveAgent.GetArchiveList(String,String,String[],Integer,Integer)
+  type: Method
+  summary: "\nGets a page of data for an archive.\n"
+  remarks: 
+  syntax: 
+    content: NSArchiveListItem[] GetArchiveList(String guiName, String providerName, NSArchiveOrderByInfo[] sortOrder, NSArchiveRestrictionInfo[] restriction, String[] entities, Integer page, Integer pageSize)
+    parameters:
+    - id: guiName
+      type: CRMScript.Global.String
+      description: 
+    - id: providerName
+      type: CRMScript.Global.String
+      description: 
+    - id: entities
+      type: CRMScript.Global.String[]
+      description: 
+    - id: page
+      type: CRMScript.Global.Integer
+      description: 
+    - id: pageSize
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSArchiveListItem[]
+      description: "The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected."
+  example: 
+  - "\n<pre><code>NSArchiveAgent agent;\nString guiName;\nString providerName;\nNSArchiveOrderByInfo[] sortOrder;\nNSArchiveRestrictionInfo[] restriction;\nString[] entities;\nInteger page;\nInteger pageSize;\nNSArchiveListItem[] res = agent.GetArchiveList(guiName, providerName, sortOrder, restriction, entities, page, pageSize);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveAgent.GetArchiveList2(String,String,String,String,String,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.GetArchiveList2(String,String,String,String,String,Integer,Integer)
+  id: 'GetArchiveList2(String,String,String,String,String,Integer,Integer)'
+  so.intellisense: NSArchiveAgent.GetArchiveList2
+  langs:
+  - crmscript
+  name: 'GetArchiveList2(String,String,String,String,String,Integer,Integer)'
+  nameWithType: NSArchiveAgent.GetArchiveList2(String,String,String,String,String,Integer,Integer)
+  fullName: CRMScript.NetServer.NSArchiveAgent.GetArchiveList2(String,String,String,String,String,Integer,Integer)
+  type: Method
+  summary: "\nGets a page of data for an archive using a restriction string.\n"
+  remarks: 
+  syntax: 
+    content: NSArchiveListItem[] GetArchiveList2(String guiName, String providerName, String sortOrder, String restriction, String entities, Integer page, Integer pageSize)
+    parameters:
+    - id: guiName
+      type: CRMScript.Global.String
+      description: 
+    - id: providerName
+      type: CRMScript.Global.String
+      description: 
+    - id: sortOrder
+      type: CRMScript.Global.String
+      description: 
+    - id: restriction
+      type: CRMScript.Global.String
+      description: 
+    - id: entities
+      type: CRMScript.Global.String
+      description: 
+    - id: page
+      type: CRMScript.Global.Integer
+      description: 
+    - id: pageSize
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSArchiveListItem[]
+      description: "The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected."
+  example: 
+  - "\n<pre><code>NSArchiveAgent agent;\nString guiName;\nString providerName;\nString sortOrder;\nString restriction;\nString entities;\nInteger page;\nInteger pageSize;\nNSArchiveListItem[] res = agent.GetArchiveList2(guiName, providerName, sortOrder, restriction, entities, page, pageSize);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumns(String,String[],String[],Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumns(String,String[],String[],Integer,Integer)
+  id: 'GetArchiveListByColumns(String,String[],String[],Integer,Integer)'
+  so.intellisense: NSArchiveAgent.GetArchiveListByColumns
+  langs:
+  - crmscript
+  name: 'GetArchiveListByColumns(String,String[],String[],Integer,Integer)'
+  nameWithType: NSArchiveAgent.GetArchiveListByColumns(String,String[],String[],Integer,Integer)
+  fullName: CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumns(String,String[],String[],Integer,Integer)
+  type: Method
+  summary: "\nGets a page of results for an archive list, explicitly specifying the restrictions, orderby and chosen columns.\n"
+  remarks: 
+  syntax: 
+    content: NSArchiveListItem[] GetArchiveListByColumns(String providerName, String[] columns, NSArchiveOrderByInfo[] sortOrder, NSArchiveRestrictionInfo[] restriction, String[] entities, Integer page, Integer pageSize)
+    parameters:
+    - id: providerName
+      type: CRMScript.Global.String
+      description: 
+    - id: columns
+      type: CRMScript.Global.String[]
+      description: 
+    - id: entities
+      type: CRMScript.Global.String[]
+      description: 
+    - id: page
+      type: CRMScript.Global.Integer
+      description: 
+    - id: pageSize
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSArchiveListItem[]
+      description:
+  example: 
+  - "\n<pre><code>NSArchiveAgent agent;\nString providerName;\nString[] columns;\nNSArchiveOrderByInfo[] sortOrder;\nNSArchiveRestrictionInfo[] restriction;\nString[] entities;\nInteger page;\nInteger pageSize;\nNSArchiveListItem[] res = agent.GetArchiveListByColumns(providerName, columns, sortOrder, restriction, entities, page, pageSize);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumns2(String,String,String,String,String,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumns2(String,String,String,String,String,Integer,Integer)
+  id: 'GetArchiveListByColumns2(String,String,String,String,String,Integer,Integer)'
+  so.intellisense: NSArchiveAgent.GetArchiveListByColumns2
+  langs:
+  - crmscript
+  name: 'GetArchiveListByColumns2(String,String,String,String,String,Integer,Integer)'
+  nameWithType: NSArchiveAgent.GetArchiveListByColumns2(String,String,String,String,String,Integer,Integer)
+  fullName: CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumns2(String,String,String,String,String,Integer,Integer)
+  type: Method
+  summary: "\nGets a page of results for an archive list, explicitly specifying the restrictions as a string, orderby and chosen columns.\n"
+  remarks: 
+  syntax: 
+    content: NSArchiveListItem[] GetArchiveListByColumns2(String providerName, String columns, String sortOrder, String restrictions, String entities, Integer page, Integer pageSize)
+    parameters:
+    - id: providerName
+      type: CRMScript.Global.String
+      description: 
+    - id: columns
+      type: CRMScript.Global.String
+      description: 
+    - id: sortOrder
+      type: CRMScript.Global.String
+      description: 
+    - id: restrictions
+      type: CRMScript.Global.String
+      description: 
+    - id: entities
+      type: CRMScript.Global.String
+      description: 
+    - id: page
+      type: CRMScript.Global.Integer
+      description: 
+    - id: pageSize
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSArchiveListItem[]
+  example: 
+  - "\n<pre><code>NSArchiveAgent agent;\nString providerName;\nString columns;\nString sortOrder;\nString restrictions;\nString entities;\nInteger page;\nInteger pageSize;\nNSArchiveListItem[] res = agent.GetArchiveListByColumns2(providerName, columns, sortOrder, restrictions, entities, page, pageSize);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithContext(String,String[],String[],Integer,Integer,String)
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithContext(String,String[],String[],Integer,Integer,String)
+  id: 'GetArchiveListByColumnsWithContext(String,String[],String[],Integer,Integer,String)'
+  so.intellisense: NSArchiveAgent.GetArchiveListByColumnsWithContext
+  langs:
+  - crmscript
+  name: 'GetArchiveListByColumnsWithContext(String,String[],String[],Integer,Integer,String)'
+  nameWithType: NSArchiveAgent.GetArchiveListByColumnsWithContext(String,String[],String[],Integer,Integer,String)
+  fullName: CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithContext(String,String[],String[],Integer,Integer,String)
+  type: Method
+  summary: "\nGets a page of results for an archive list with context parameter, explicitly specifying the restrictions, orderby and chosen columns.\n"
+  remarks: 
+  syntax: 
+    content: NSArchiveListItem[] GetArchiveListByColumnsWithContext(String providerName, String[] columns, NSArchiveOrderByInfo[] sortOrder, NSArchiveRestrictionInfo[] restriction, String[] entities, Integer page, Integer pageSize, String context)
+    parameters:
+    - id: providerName
+      type: CRMScript.Global.String
+      description: 
+    - id: columns
+      type: CRMScript.Global.String[]
+      description: 
+    - id: entities
+      type: CRMScript.Global.String[]
+      description: 
+    - id: page
+      type: CRMScript.Global.Integer
+      description: 
+    - id: pageSize
+      type: CRMScript.Global.Integer
+      description: 
+    - id: context
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSArchiveListItem[]
+      description:
+  example: 
+  - "\n<pre><code>NSArchiveAgent agent;\nString providerName;\nString[] columns;\nNSArchiveOrderByInfo[] sortOrder;\nNSArchiveRestrictionInfo[] restriction;\nString[] entities;\nInteger page;\nInteger pageSize;\nString context;\nNSArchiveListItem[] res = agent.GetArchiveListByColumnsWithContext(providerName, columns, sortOrder, restriction, entities, page, pageSize, context);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithContext2(String,String,String,String,String,Integer,Integer,String)
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithContext2(String,String,String,String,String,Integer,Integer,String)
+  id: 'GetArchiveListByColumnsWithContext2(String,String,String,String,String,Integer,Integer,String)'
+  so.intellisense: NSArchiveAgent.GetArchiveListByColumnsWithContext2
+  langs:
+  - crmscript
+  name: 'GetArchiveListByColumnsWithContext2(String,String,String,String,String,Integer,Integer,String)'
+  nameWithType: NSArchiveAgent.GetArchiveListByColumnsWithContext2(String,String,String,String,String,Integer,Integer,String)
+  fullName: CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithContext2(String,String,String,String,String,Integer,Integer,String)
+  type: Method
+  summary: "\nGets a page of results for an archive list with context parameter, explicitly specifying the restrictions as a string, orderby and chosen columns.\n"
+  remarks: 
+  syntax: 
+    content: NSArchiveListItem[] GetArchiveListByColumnsWithContext2(String providerName, String columns, String sortOrder, String restriction, String entities, Integer page, Integer pageSize, String context)
+    parameters:
+    - id: providerName
+      type: CRMScript.Global.String
+      description: 
+    - id: columns
+      type: CRMScript.Global.String
+      description: 
+    - id: sortOrder
+      type: CRMScript.Global.String
+      description: 
+    - id: restriction
+      type: CRMScript.Global.String
+      description: 
+    - id: entities
+      type: CRMScript.Global.String
+      description: 
+    - id: page
+      type: CRMScript.Global.Integer
+      description: 
+    - id: pageSize
+      type: CRMScript.Global.Integer
+      description: 
+    - id: context
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSArchiveListItem[]
+      description:
+  example: 
+  - "\n<pre><code>NSArchiveAgent agent;\nString providerName;\nString columns;\nString sortOrder;\nString restriction;\nString entities;\nInteger page;\nInteger pageSize;\nString context;\nNSArchiveListItem[] res = agent.GetArchiveListByColumnsWithContext2(providerName, columns, sortOrder, restriction, entities, page, pageSize, context);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithHeader(String,String[],String[],Integer,Integer,String)
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithHeader(String,String[],String[],Integer,Integer,String)
+  id: 'GetArchiveListByColumnsWithHeader(String,String[],String[],Integer,Integer,String)'
+  so.intellisense: NSArchiveAgent.GetArchiveListByColumnsWithHeader
+  langs:
+  - crmscript
+  name: 'GetArchiveListByColumnsWithHeader(String,String[],String[],Integer,Integer,String)'
+  nameWithType: NSArchiveAgent.GetArchiveListByColumnsWithHeader(String,String[],String[],Integer,Integer,String)
+  fullName: CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithHeader(String,String[],String[],Integer,Integer,String)
+  type: Method
+  summary: "\nGets a page of results for an archive list, explicitly specifying the restrictions, orderby and chosen columns; as well as a name/value string formatted set of options. The return value includes a header that has various extra information, in addition to the actual rows.\n"
+  remarks: 
+  syntax: 
+    content: NSArchiveListResult GetArchiveListByColumnsWithHeader(String providerName, String[] columns, NSArchiveOrderByInfo[] sortOrder, NSArchiveRestrictionInfo[] restriction, String[] entities, Integer page, Integer pageSize, String options)
+    parameters:
+    - id: providerName
+      type: CRMScript.Global.String
+      description: 
+    - id: columns
+      type: CRMScript.Global.String[]
+      description: 
+    - id: entities
+      type: CRMScript.Global.String[]
+      description: 
+    - id: page
+      type: CRMScript.Global.Integer
+      description: 
+    - id: pageSize
+      type: CRMScript.Global.Integer
+      description: 
+    - id: options
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSArchiveListResult
+      description:
+  example: 
+  - "\n<pre><code>NSArchiveAgent agent;\nString providerName;\nString[] columns;\nNSArchiveOrderByInfo[] sortOrder;\nNSArchiveRestrictionInfo[] restriction;\nString[] entities;\nInteger page;\nInteger pageSize;\nString options;\nNSArchiveListResult res = agent.GetArchiveListByColumnsWithHeader(providerName, columns, sortOrder, restriction, entities, page, pageSize, options);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithHeader2(String,String,String,String,String,Integer,Integer,String)
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithHeader2(String,String,String,String,String,Integer,Integer,String)
+  id: 'GetArchiveListByColumnsWithHeader2(String,String,String,String,String,Integer,Integer,String)'
+  so.intellisense: NSArchiveAgent.GetArchiveListByColumnsWithHeader2
+  langs:
+  - crmscript
+  name: 'GetArchiveListByColumnsWithHeader2(String,String,String,String,String,Integer,Integer,String)'
+  nameWithType: NSArchiveAgent.GetArchiveListByColumnsWithHeader2(String,String,String,String,String,Integer,Integer,String)
+  fullName: CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithHeader2(String,String,String,String,String,Integer,Integer,String)
+  type: Method
+  summary: "\nGets a page of results for an archive list, explicitly specifying the restrictions as strings, orderby and chosen columns; as well as a name/value string formatted set of options.\n"
+  remarks: 
+  syntax: 
+    content: NSArchiveListResult GetArchiveListByColumnsWithHeader2(String providerName, String columns, String sortOrder, String restriction, String entities, Integer page, Integer pageSize, String options)
+    parameters:
+    - id: providerName
+      type: CRMScript.Global.String
+      description: 
+    - id: columns
+      type: CRMScript.Global.String
+      description: 
+    - id: sortOrder
+      type: CRMScript.Global.String
+      description: 
+    - id: restriction
+      type: CRMScript.Global.String
+      description: 
+    - id: entities
+      type: CRMScript.Global.String
+      description: 
+    - id: page
+      type: CRMScript.Global.Integer
+      description: 
+    - id: pageSize
+      type: CRMScript.Global.Integer
+      description: 
+    - id: options
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSArchiveListResult
+      description: "Includes a header that has various extra information, in addition to the actual rows."
+  example: 
+  - "\n<pre><code>NSArchiveAgent agent;\nString providerName;\nString columns;\nString sortOrder;\nString restriction;\nString entities;\nInteger page;\nInteger pageSize;\nString options;\nNSArchiveListResult res = agent.GetArchiveListByColumnsWithHeader2(providerName, columns, sortOrder, restriction, entities, page, pageSize, options);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext(String,String[],String[],Integer,Integer,String,String)
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext(String,String[],String[],Integer,Integer,String,String)
+  id: 'GetArchiveListByColumnsWithHeaderWithContext(String,String[],String[],Integer,Integer,String,String)'
+  so.intellisense: NSArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext
+  langs:
+  - crmscript
+  name: 'GetArchiveListByColumnsWithHeaderWithContext(String,String[],String[],Integer,Integer,String,String)'
+  nameWithType: NSArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext(String,String[],String[],Integer,Integer,String,String)
+  fullName: CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext(String,String[],String[],Integer,Integer,String,String)
+  type: Method
+  summary: "\nGets a page of results for an archive list, with context parameter, explicitly specifying the restrictions, orderby and chosen columns; as well as a name/value string formatted set of options.\n"
+  remarks: 
+  syntax: 
+    content: NSArchiveListResult GetArchiveListByColumnsWithHeaderWithContext(String providerName, String[] columns, NSArchiveOrderByInfo[] sortOrder, NSArchiveRestrictionInfo[] restriction, String[] entities, Integer page, Integer pageSize, String options, String context)
+    parameters:
+    - id: providerName
+      type: CRMScript.Global.String
+      description: 
+    - id: columns
+      type: CRMScript.Global.String[]
+      description: 
+    - id: entities
+      type: CRMScript.Global.String[]
+      description: 
+    - id: page
+      type: CRMScript.Global.Integer
+      description: 
+    - id: pageSize
+      type: CRMScript.Global.Integer
+      description: 
+    - id: options
+      type: CRMScript.Global.String
+      description: 
+    - id: context
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSArchiveListResult
+      description: "Includes a header that has various extra information, in addition to the actual rows."
+  example: 
+  - "\n<pre><code>NSArchiveAgent agent;\nString providerName;\nString[] columns;\nNSArchiveOrderByInfo[] sortOrder;\nNSArchiveRestrictionInfo[] restriction;\nString[] entities;\nInteger page;\nInteger pageSize;\nString options;\nString context;\nNSArchiveListResult res = agent.GetArchiveListByColumnsWithHeaderWithContext(providerName, columns, sortOrder, restriction, entities, page, pageSize, options, context);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2(String,String,String,String,String,Integer,Integer,String,String)
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2(String,String,String,String,String,Integer,Integer,String,String)
+  id: 'GetArchiveListByColumnsWithHeaderWithContext2(String,String,String,String,String,Integer,Integer,String,String)'
+  so.intellisense: NSArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2
+  langs:
+  - crmscript
+  name: 'GetArchiveListByColumnsWithHeaderWithContext2(String,String,String,String,String,Integer,Integer,String,String)'
+  nameWithType: NSArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2(String,String,String,String,String,Integer,Integer,String,String)
+  fullName: CRMScript.NetServer.NSArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2(String,String,String,String,String,Integer,Integer,String,String)
+  type: Method
+  summary: "\nGets a page of results for an archive list, with context parameter, explicitly specifying the restrictions as strings, orderby and chosen columns; as well as a name/value string formatted set of options.\n"
+  remarks: 
+  syntax: 
+    content: NSArchiveListResult GetArchiveListByColumnsWithHeaderWithContext2(String providerName, String columns, String sortOrder, String restriction, String entities, Integer page, Integer pageSize, String options, String context)
+    parameters:
+    - id: providerName
+      type: CRMScript.Global.String
+      description: 
+    - id: columns
+      type: CRMScript.Global.String
+      description: 
+    - id: sortOrder
+      type: CRMScript.Global.String
+      description: 
+    - id: restriction
+      type: CRMScript.Global.String
+      description: 
+    - id: entities
+      type: CRMScript.Global.String
+      description: 
+    - id: page
+      type: CRMScript.Global.Integer
+      description: 
+    - id: pageSize
+      type: CRMScript.Global.Integer
+      description: 
+    - id: options
+      type: CRMScript.Global.String
+      description: 
+    - id: context
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSArchiveListResult
+      description: "Includes a header that has various extra information, in addition to the actual rows."
+  example: 
+  - "\n<pre><code>NSArchiveAgent agent;\nString providerName;\nString columns;\nString sortOrder;\nString restriction;\nString entities;\nInteger page;\nInteger pageSize;\nString options;\nString context;\nNSArchiveListResult res = agent.GetArchiveListByColumnsWithHeaderWithContext2(providerName, columns, sortOrder, restriction, entities, page, pageSize, options, context);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveAgent.GetArchiveListWithContext(String,String,String[],Integer,Integer,String)
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.GetArchiveListWithContext(String,String,String[],Integer,Integer,String)
+  id: 'GetArchiveListWithContext(String,String,String[],Integer,Integer,String)'
+  so.intellisense: NSArchiveAgent.GetArchiveListWithContext
+  langs:
+  - crmscript
+  name: 'GetArchiveListWithContext(String,String,String[],Integer,Integer,String)'
+  nameWithType: NSArchiveAgent.GetArchiveListWithContext(String,String,String[],Integer,Integer,String)
+  fullName: CRMScript.NetServer.NSArchiveAgent.GetArchiveListWithContext(String,String,String[],Integer,Integer,String)
+  type: Method
+  summary: "\nGets a page of data for an archive, with context parameter. The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected.\n"
+  remarks: 
+  syntax: 
+    content: NSArchiveListItem[] GetArchiveListWithContext(String guiName, String providerName, NSArchiveOrderByInfo[] sortOrder, NSArchiveRestrictionInfo[] restriction, String[] entities, Integer page, Integer pageSize, String context)
+    parameters:
+    - id: guiName
+      type: CRMScript.Global.String
+      description: 
+    - id: providerName
+      type: CRMScript.Global.String
+      description: 
+    - id: entities
+      type: CRMScript.Global.String[]
+      description: 
+    - id: page
+      type: CRMScript.Global.Integer
+      description: 
+    - id: pageSize
+      type: CRMScript.Global.Integer
+      description: 
+    - id: context
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSArchiveListItem[]
+      description:
+  example: 
+  - "\n<pre><code>NSArchiveAgent agent;\nString guiName;\nString providerName;\nNSArchiveOrderByInfo[] sortOrder;\nNSArchiveRestrictionInfo[] restriction;\nString[] entities;\nInteger page;\nInteger pageSize;\nString context;\nNSArchiveListItem[] res = agent.GetArchiveListWithContext(guiName, providerName, sortOrder, restriction, entities, page, pageSize, context);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveAgent.GetArchiveListWithContext2(String,String,String,String,String,Integer,Integer,String)
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.GetArchiveListWithContext2(String,String,String,String,String,Integer,Integer,String)
+  id: 'GetArchiveListWithContext2(String,String,String,String,String,Integer,Integer,String)'
+  so.intellisense: NSArchiveAgent.GetArchiveListWithContext2
+  langs:
+  - crmscript
+  name: 'GetArchiveListWithContext2(String,String,String,String,String,Integer,Integer,String)'
+  nameWithType: NSArchiveAgent.GetArchiveListWithContext2(String,String,String,String,String,Integer,Integer,String)
+  fullName: CRMScript.NetServer.NSArchiveAgent.GetArchiveListWithContext2(String,String,String,String,String,Integer,Integer,String)
+  type: Method
+  summary: "\nGets a page of data for an archive using restrictions as strings, with context parameter.\n"
+  remarks: 
+  syntax: 
+    content: NSArchiveListItem[] GetArchiveListWithContext2(String guiName, String providerName, String sortOrder, String restriction, String entities, Integer page, Integer pageSize, String context)
+    parameters:
+    - id: guiName
+      type: CRMScript.Global.String
+      description: 
+    - id: providerName
+      type: CRMScript.Global.String
+      description: 
+    - id: sortOrder
+      type: CRMScript.Global.String
+      description: 
+    - id: restriction
+      type: CRMScript.Global.String
+      description: 
+    - id: entities
+      type: CRMScript.Global.String
+      description: 
+    - id: page
+      type: CRMScript.Global.Integer
+      description: 
+    - id: pageSize
+      type: CRMScript.Global.Integer
+      description: 
+    - id: context
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSArchiveListItem[]
+      description: "The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected."
+  example: 
+  - "\n<pre><code>NSArchiveAgent agent;\nString guiName;\nString providerName;\nString sortOrder;\nString restriction;\nString entities;\nInteger page;\nInteger pageSize;\nString context;\nNSArchiveListItem[] res = agent.GetArchiveListWithContext2(guiName, providerName, sortOrder, restriction, entities, page, pageSize, context);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveAgent.GetAvailableColumns(String,String)
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.GetAvailableColumns(String,String)
+  id: 'GetAvailableColumns(String,String)'
+  so.intellisense: NSArchiveAgent.GetAvailableColumns
+  langs:
+  - crmscript
+  name: 'GetAvailableColumns(String,String)'
+  nameWithType: NSArchiveAgent.GetAvailableColumns(String,String)
+  fullName: CRMScript.NetServer.NSArchiveAgent.GetAvailableColumns(String,String)
+  type: Method
+  summary: "\nReturns list of all columns supported by an archive provider. See also <xref href=\"CRMScript.NetServer.NSArchiveAgent.GetArchiveConfiguration(String,String)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  remarks: 
+  syntax: 
+    content: NSArchiveColumnInfo[] GetAvailableColumns(String providerName, String context)
+    parameters:
+    - id: providerName
+      type: CRMScript.Global.String
+      description: 
+    - id: context
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSArchiveColumnInfo[]
+      description:
+  example: 
+  - "\n<pre><code>NSArchiveAgent agent;\nString providerName;\nString context;\nNSArchiveColumnInfo[] res = agent.GetAvailableColumns(providerName, context);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveAgent.GetAvailableEntities(String,String)
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.GetAvailableEntities(String,String)
+  id: 'GetAvailableEntities(String,String)'
+  so.intellisense: NSArchiveAgent.GetAvailableEntities
+  langs:
+  - crmscript
+  name: 'GetAvailableEntities(String,String)'
+  nameWithType: NSArchiveAgent.GetAvailableEntities(String,String)
+  fullName: CRMScript.NetServer.NSArchiveAgent.GetAvailableEntities(String,String)
+  type: Method
+  summary: "\nReturns list of all entities supported by an archive provider. See also <xref href=\"CRMScript.NetServer.NSArchiveAgent.GetArchiveConfiguration(String,String)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  remarks: 
+  syntax: 
+    content: NSMDOListItem[] GetAvailableEntities(String providerName, String context)
+    parameters:
+    - id: providerName
+      type: CRMScript.Global.String
+      description: 
+    - id: context
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSMDOListItem[]
+      description:
+  example: 
+  - "\n<pre><code>NSArchiveAgent agent;\nString providerName;\nString context;\nNSMDOListItem[] res = agent.GetAvailableEntities(providerName, context);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveAgent.GetGroupAssociateIds(Integer[])
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.GetGroupAssociateIds(Integer[])
+  id: 'GetGroupAssociateIds(Integer[])'
+  so.intellisense: NSArchiveAgent.GetGroupAssociateIds
+  langs:
+  - crmscript
+  name: 'GetGroupAssociateIds(Integer[])'
+  nameWithType: NSArchiveAgent.GetGroupAssociateIds(Integer[])
+  fullName: CRMScript.NetServer.NSArchiveAgent.GetGroupAssociateIds(Integer[])
+  type: Method
+  summary: "\nReturns the associate IDs that belongs to the given groups.\n"
+  remarks: 
+  syntax: 
+    content: Integer[] GetGroupAssociateIds(Integer[] groupIds)
+    parameters:
+    - id: groupIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.Global.Integer[]
+      description: "The associate IDs."
+  example: 
+  - "\n<pre><code>NSArchiveAgent agent;\nInteger[] groupIds;\nInteger[] res = agent.GetGroupAssociateIds(groupIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveAgent.GetProviderNames()
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.GetProviderNames()
+  id: 'GetProviderNames()'
+  so.intellisense: NSArchiveAgent.GetProviderNames
+  langs:
+  - crmscript
+  name: 'GetProviderNames()'
+  nameWithType: NSArchiveAgent.GetProviderNames()
+  fullName: CRMScript.NetServer.NSArchiveAgent.GetProviderNames()
+  type: Method
+  summary: "\nReturns list of all archive provider names.\n"
+  remarks: 
+  syntax: 
+    content: String[] GetProviderNames()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+      description: "Array of all archive provider names."
+  example: 
+  - "\n<pre><code>NSArchiveAgent agent;\nString[] res = agent.GetProviderNames();</code></pre>\n"
+- uid: CRMScript.NetServer.NSArchiveAgent.SetActivityFilter(NSActivityFilter)
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.SetActivityFilter(NSActivityFilter)
+  id: 'SetActivityFilter(NSActivityFilter)'
+  so.intellisense: NSArchiveAgent.SetActivityFilter
+  langs:
+  - crmscript
+  name: 'SetActivityFilter(NSActivityFilter)'
+  nameWithType: NSArchiveAgent.SetActivityFilter(NSActivityFilter)
+  fullName: CRMScript.NetServer.NSArchiveAgent.SetActivityFilter(NSActivityFilter)
+  type: Method
+  summary: "\nSets activity filter for the specified list.\n"
+  remarks: 
+  syntax: 
+    content: Void SetActivityFilter(NSActivityFilter activityFilter)
+    parameters:
+    - id: activityFilter
+      type: CRMScript.NetServer.NSActivityFilter
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSArchiveAgent.SetChosenColumns(String,String,String[])
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.SetChosenColumns(String,String,String[])
+  id: 'SetChosenColumns(String,String,String[])'
+  so.intellisense: NSArchiveAgent.SetChosenColumns
+  langs:
+  - crmscript
+  name: 'SetChosenColumns(String,String,String[])'
+  nameWithType: NSArchiveAgent.SetChosenColumns(String,String,String[])
+  fullName: CRMScript.NetServer.NSArchiveAgent.SetChosenColumns(String,String,String[])
+  type: Method
+  summary: "\nSets the currently chosen columns for the given gui name/provider name combination.\n"
+  remarks: "\nThis service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveColumns: plus the archive provider name and gui name as its additionalInfo.\n"
+  syntax: 
+    content: Void SetChosenColumns(String guiName, String providerName, String[] chosenColumns)
+    parameters:
+    - id: guiName
+      type: CRMScript.Global.String
+      description: 
+    - id: providerName
+      type: CRMScript.Global.String
+      description: 
+    - id: chosenColumns
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSArchiveAgent.SetChosenColumnsV2(String,String,String,String,String[])
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.SetChosenColumnsV2(String,String,String,String,String[])
+  id: 'SetChosenColumnsV2(String,String,String,String,String[])'
+  so.intellisense: NSArchiveAgent.SetChosenColumnsV2
+  langs:
+  - crmscript
+  name: 'SetChosenColumnsV2(String,String,String,String,String[])'
+  nameWithType: NSArchiveAgent.SetChosenColumnsV2(String,String,String,String,String[])
+  fullName: CRMScript.NetServer.NSArchiveAgent.SetChosenColumnsV2(String,String,String,String,String[])
+  type: Method
+  summary: "\nSets the currently chosen columns for the given gui name/provider name combination.\n"
+  remarks: "\nThis service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveColumns: plus the archive provider name and gui name as its additionalInfo.\n"
+  syntax: 
+    content: Void SetChosenColumnsV2(String guiName, String providerName, String context, String ownerKeys, String[] chosenColumns)
+    parameters:
+    - id: guiName
+      type: CRMScript.Global.String
+      description: 
+    - id: providerName
+      type: CRMScript.Global.String
+      description: 
+    - id: context
+      type: CRMScript.Global.String
+      description: 
+    - id: ownerKeys
+      type: CRMScript.Global.String
+      description: 
+    - id: chosenColumns
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSArchiveAgent.SetChosenEntities(String,String,String[])
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.SetChosenEntities(String,String,String[])
+  id: 'SetChosenEntities(String,String,String[])'
+  so.intellisense: NSArchiveAgent.SetChosenEntities
+  langs:
+  - crmscript
+  name: 'SetChosenEntities(String,String,String[])'
+  nameWithType: NSArchiveAgent.SetChosenEntities(String,String,String[])
+  fullName: CRMScript.NetServer.NSArchiveAgent.SetChosenEntities(String,String,String[])
+  type: Method
+  summary: "\nSets the currently chosen entities for the given gui name/provider name combination.\n"
+  remarks: "\nThis service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveEntities: plus the archive provider name and gui name as its additionalInfo."
+  syntax: 
+    content: Void SetChosenEntities(String guiName, String providerName, String[] entities)
+    parameters:
+    - id: guiName
+      type: CRMScript.Global.String
+      description: 
+    - id: providerName
+      type: CRMScript.Global.String
+      description: 
+    - id: entities
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSArchiveAgent.SetChosenEntitiesV2(String,String,String,String,String[])
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.SetChosenEntitiesV2(String,String,String,String,String[])
+  id: 'SetChosenEntitiesV2(String,String,String,String,String[])'
+  so.intellisense: NSArchiveAgent.SetChosenEntitiesV2
+  langs:
+  - crmscript
+  name: 'SetChosenEntitiesV2(String,String,String,String,String[])'
+  nameWithType: NSArchiveAgent.SetChosenEntitiesV2(String,String,String,String,String[])
+  fullName: CRMScript.NetServer.NSArchiveAgent.SetChosenEntitiesV2(String,String,String,String,String[])
+  type: Method
+  summary: "\nSets the currently chosen entities for the given gui name/provider name combination.\n"
+  remarks: "\nThis service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveEntities: plus the archive provider name and gui name as its additionalInfo.\n"
+  syntax: 
+    content: Void SetChosenEntitiesV2(String guiName, String providerName, String context, String ownerKeys, String[] entities)
+    parameters:
+    - id: guiName
+      type: CRMScript.Global.String
+      description: 
+    - id: providerName
+      type: CRMScript.Global.String
+      description: 
+    - id: context
+      type: CRMScript.Global.String
+      description: 
+    - id: ownerKeys
+      type: CRMScript.Global.String
+      description: 
+    - id: entities
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSArchiveAgent.SetColumnWidths(String,String[])
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.SetColumnWidths(String,String[])
+  id: 'SetColumnWidths(String,String[])'
+  so.intellisense: NSArchiveAgent.SetColumnWidths
+  langs:
+  - crmscript
+  name: 'SetColumnWidths(String,String[])'
+  nameWithType: NSArchiveAgent.SetColumnWidths(String,String[])
+  fullName: CRMScript.NetServer.NSArchiveAgent.SetColumnWidths(String,String[])
+  type: Method
+  summary: "\nSets the column widths for the given set of columns and GUI name.\n"
+  remarks: 
+  syntax: 
+    content: Void SetColumnWidths(String guiName, String[] columnWidths)
+    parameters:
+    - id: guiName
+      type: CRMScript.Global.String
+      description: 
+    - id: columnWidths
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSArchiveAgent.SetColumnWidthsV2(String,String,String,String,String[])
+  commentId: M:CRMScript.NetServer.NSArchiveAgent.SetColumnWidthsV2(String,String,String,String,String[])
+  id: 'SetColumnWidthsV2(String,String,String,String,String[])'
+  so.intellisense: NSArchiveAgent.SetColumnWidthsV2
+  langs:
+  - crmscript
+  name: 'SetColumnWidthsV2(String,String,String,String,String[])'
+  nameWithType: NSArchiveAgent.SetColumnWidthsV2(String,String,String,String,String[])
+  fullName: CRMScript.NetServer.NSArchiveAgent.SetColumnWidthsV2(String,String,String,String,String[])
+  type: Method
+  summary: "\nSets the column widths for the given set of columns and GUI name.\n"
+  remarks: 
+  syntax: 
+    content: Void SetColumnWidthsV2(String guiName, String providerName, String context, String ownerKeys, String[] columnWidths)
+    parameters:
+    - id: guiName
+      type: CRMScript.Global.String
+      description: 
+    - id: providerName
+      type: CRMScript.Global.String
+      description: 
+    - id: context
+      type: CRMScript.Global.String
+      description: 
+    - id: ownerKeys
+      type: CRMScript.Global.String
+      description: 
+    - id: columnWidths
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSArchiveAgent
+  commentId: T:CRMScript.NetServer.NSArchiveAgent
+  isExternal: true
+  name: NSArchiveAgent
+  nameWithType: NSArchiveAgent
+  fullName: CRMScript.NetServer.NSArchiveAgent
+- uid: CRMScript.NetServer.NSArchiveListResult
+  commentId: T:CRMScript.NetServer.NSArchiveListResult
+  isExternal: true
+  name: NSArchiveListResult
+  nameWithType: NSArchiveListResult
+  fullName: CRMScript.NetServer.NSArchiveListResult
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    isExternal: true
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSExportArchiveResult
+  commentId: T:CRMScript.NetServer.NSExportArchiveResult
+  isExternal: true
+  name: NSExportArchiveResult
+  nameWithType: NSExportArchiveResult
+  fullName: CRMScript.NetServer.NSExportArchiveResult
+- uid: CRMScript.NetServer.NSActivityFilter
+  commentId: T:CRMScript.NetServer.NSActivityFilter
+  isExternal: true
+  name: NSActivityFilter
+  nameWithType: NSActivityFilter
+  fullName: CRMScript.NetServer.NSActivityFilter
+- uid: CRMScript.NetServer.NSArchiveConfiguration
+  commentId: T:CRMScript.NetServer.NSArchiveConfiguration
+  isExternal: true
+  name: NSArchiveConfiguration
+  nameWithType: NSArchiveConfiguration
+  fullName: CRMScript.NetServer.NSArchiveConfiguration
+- uid: CRMScript.NetServer.NSArchiveListItem[]
+  isExternal: true
+  name: NSArchiveListItem[]
+  nameWithType: NSArchiveListItem[]
+  fullName: CRMScript.NetServer.NSArchiveListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSArchiveListItem
+    isExternal: true
+    name: NSArchiveListItem
+    nameWithType: NSArchiveListItem
+    fullName: CRMScript.NetServer.NSArchiveListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSArchiveListItem
+  commentId: T:CRMScript.NetServer.NSArchiveListItem
+  isExternal: true
+  name: NSArchiveListItem
+  nameWithType: NSArchiveListItem
+  fullName: CRMScript.NetServer.NSArchiveListItem
+- uid: CRMScript.NetServer.NSArchiveColumnInfo[]
+  isExternal: true
+  name: NSArchiveColumnInfo[]
+  nameWithType: NSArchiveColumnInfo[]
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSArchiveColumnInfo
+    isExternal: true
+    name: NSArchiveColumnInfo
+    nameWithType: NSArchiveColumnInfo
+    fullName: CRMScript.NetServer.NSArchiveColumnInfo
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSArchiveColumnInfo
+  commentId: T:CRMScript.NetServer.NSArchiveColumnInfo
+  isExternal: true
+  name: NSArchiveColumnInfo
+  nameWithType: NSArchiveColumnInfo
+  fullName: CRMScript.NetServer.NSArchiveColumnInfo
+- uid: CRMScript.NetServer.NSMDOListItem[]
+  isExternal: true
+  name: NSMDOListItem[]
+  nameWithType: NSMDOListItem[]
+  fullName: CRMScript.NetServer.NSMDOListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSMDOListItem
+    isExternal: true
+    name: NSMDOListItem
+    nameWithType: NSMDOListItem
+    fullName: CRMScript.NetServer.NSMDOListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSMDOListItem
+  commentId: T:CRMScript.NetServer.NSMDOListItem
+  isExternal: true
+  name: NSMDOListItem
+  nameWithType: NSMDOListItem
+  fullName: CRMScript.NetServer.NSMDOListItem
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    isExternal: true
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

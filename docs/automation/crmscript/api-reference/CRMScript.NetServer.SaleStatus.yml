@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.SaleStatus
+  # Same as SuperOffice.Data.SaleStatues
+  commentId: T:CRMScript.NetServer.SaleStatus
+  id: SaleStatus
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.SaleStatus.Lost
+  - CRMScript.NetServer.SaleStatus.Open
+  - CRMScript.NetServer.SaleStatus.SaintAll
+  - CRMScript.NetServer.SaleStatus.Sold
+  - CRMScript.NetServer.SaleStatus.Stalled
+  - CRMScript.NetServer.SaleStatus.Unknown
+  name: SaleStatus
+  nameWithType: SaleStatus
+  fullName: CRMScript.NetServer.SaleStatus
+  type: Enum
+  summary: "\nValue for the status field in the sale table.\n"
+- uid: CRMScript.NetServer.SaleStatus.Unknown
+  commentId: F:CRMScript.NetServer.SaleStatus.Unknown
+  id: Unknown
+  langs:
+  - crmscript
+  name: Unknown
+  nameWithType: SaleStatus.Unknown
+  fullName: CRMScript.NetServer.SaleStatus.Unknown
+  type: Field
+  summary: "\n0: Sale status is unknown\n"
+  syntax:
+    content: Unknown = 0
+    return:
+      type: CRMScript.NetServer.SaleStatus
+- uid: CRMScript.NetServer.SaleStatus.Open
+  commentId: F:CRMScript.NetServer.SaleStatus.Open
+  id: Open
+  langs:
+  - crmscript
+  name: Open
+  nameWithType: SaleStatus.Open
+  fullName: CRMScript.NetServer.SaleStatus.Open
+  type: Field
+  summary: "\n1: Sale is open\n"
+  syntax:
+    content: Open = 1
+    return:
+      type: CRMScript.NetServer.SaleStatus
+- uid: CRMScript.NetServer.SaleStatus.Sold
+  commentId: F:CRMScript.NetServer.SaleStatus.Sold
+  id: Sold
+  langs:
+  - crmscript
+  name: Sold
+  nameWithType: SaleStatus.Sold
+  fullName: CRMScript.NetServer.SaleStatus.Sold
+  type: Field
+  summary: "\n2: Sale has been sold (green $ in GUI)\n"
+  syntax:
+    content: Sold = 2
+    return:
+      type: CRMScript.NetServer.SaleStatus
+- uid: CRMScript.NetServer.SaleStatus.Lost
+  commentId: F:CRMScript.NetServer.SaleStatus.Lost
+  id: Lost
+  langs:
+  - crmscript
+  name: Lost
+  nameWithType: SaleStatus.Lost
+  fullName: CRMScript.NetServer.SaleStatus.Lost
+  type: Field
+  summary: "\n3: Sale has been lost (red $ in GUI)\n"
+  syntax:
+    content: Lost = 3
+    return:
+      type: CRMScript.NetServer.SaleStatus
+- uid: CRMScript.NetServer.SaleStatus.Stalled
+  commentId: F:CRMScript.NetServer.SaleStatus.Stalled
+  id: Stalled
+  langs:
+  - crmscript
+  name: Stalled
+  nameWithType: SaleStatus.Stalled
+  fullName: CRMScript.NetServer.SaleStatus.Stalled
+  type: Field
+  summary: "\n4: Sale has been stalled, or parked, awaiting further developments\n"
+  syntax:
+    content: Stalled = 4
+    return:
+      type: CRMScript.NetServer.SaleStatus
+- uid: CRMScript.NetServer.SaleStatus.SaintAll
+  commentId: F:CRMScript.NetServer.SaleStatus.SaintAll
+  id: SaintAll
+  langs:
+  - crmscript
+  name: SaintAll
+  nameWithType: SaleStatus.SaintAll
+  fullName: CRMScript.NetServer.SaleStatus.SaintAll
+  type: Field
+  summary: "\n1000: All choice for Saint. This is NOT an acceptable value for a sale, but is used by the Saint system for indexing all sales\n"
+  syntax:
+    content: SaintAll = 1000
+    return:
+      type: CRMScript.NetServer.SaleStatus
+references:
+- uid: CRMScript.NetServer.SaleStatus
+  commentId: T:CRMScript.NetServer.SaleStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SaleStatus
+  nameWithType: SaleStatus
+  fullName: CRMScript.NetServer.SaleStatus

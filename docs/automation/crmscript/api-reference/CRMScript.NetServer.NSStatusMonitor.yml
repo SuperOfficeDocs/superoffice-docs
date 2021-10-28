@@ -1,0 +1,727 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSStatusMonitor
+  commentId: T:CRMScript.NetServer.NSStatusMonitor
+  id: NSStatusMonitor
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSStatusMonitor.#ctor
+  - CRMScript.NetServer.NSStatusMonitor.GetDefaultTask()
+  - CRMScript.NetServer.NSStatusMonitor.GetDefaultTaskText()
+  - CRMScript.NetServer.NSStatusMonitor.GetDeleted()
+  - CRMScript.NetServer.NSStatusMonitor.GetDescription()
+  - CRMScript.NetServer.NSStatusMonitor.GetGenerationStart()
+  - CRMScript.NetServer.NSStatusMonitor.GetIsVisual()
+  - CRMScript.NetServer.NSStatusMonitor.GetLastGenerated()
+  - CRMScript.NetServer.NSStatusMonitor.GetName()
+  - CRMScript.NetServer.NSStatusMonitor.GetNeedsUpdate()
+  - CRMScript.NetServer.NSStatusMonitor.GetNumMatches()
+  - CRMScript.NetServer.NSStatusMonitor.GetNumNeedUpdate()
+  - CRMScript.NetServer.NSStatusMonitor.GetOwnerTable()
+  - CRMScript.NetServer.NSStatusMonitor.GetPictureId()
+  - CRMScript.NetServer.NSStatusMonitor.GetRank()
+  - CRMScript.NetServer.NSStatusMonitor.GetStatusMonitorId()
+  - CRMScript.NetServer.NSStatusMonitor.SetDefaultTask(Integer)
+  - CRMScript.NetServer.NSStatusMonitor.SetDefaultTaskText(String)
+  - CRMScript.NetServer.NSStatusMonitor.SetDeleted(Bool)
+  - CRMScript.NetServer.NSStatusMonitor.SetDescription(String)
+  - CRMScript.NetServer.NSStatusMonitor.SetGenerationStart(DateTime)
+  - CRMScript.NetServer.NSStatusMonitor.SetIsVisual(Bool)
+  - CRMScript.NetServer.NSStatusMonitor.SetLastGenerated(DateTime)
+  - CRMScript.NetServer.NSStatusMonitor.SetName(String)
+  - CRMScript.NetServer.NSStatusMonitor.SetNeedsUpdate(Bool)
+  - CRMScript.NetServer.NSStatusMonitor.SetNumMatches(Integer)
+  - CRMScript.NetServer.NSStatusMonitor.SetNumNeedUpdate(Integer)
+  - CRMScript.NetServer.NSStatusMonitor.SetOwnerTable(Integer)
+  - CRMScript.NetServer.NSStatusMonitor.SetPictureId(Integer)
+  - CRMScript.NetServer.NSStatusMonitor.SetRank(Integer)
+  - CRMScript.NetServer.NSStatusMonitor.SetStatusMonitorId(Integer)
+  name: NSStatusMonitor
+  nameWithType: NSStatusMonitor
+  fullName: CRMScript.NetServer.NSStatusMonitor
+  type: Class
+  summary: "\nDefinition of all properties for a status monitor.\n"
+  example: 
+- uid: CRMScript.NetServer.NSStatusMonitor.#ctor
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSStatusMonitor
+  langs:
+  - crmscript
+  name: NSStatusMonitor()
+  nameWithType: NSStatusMonitor.#ctor
+  fullName: CRMScript.NetServer.NSStatusMonitor.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSStatusMonitor class.\n"
+  remarks: 
+  syntax: 
+    content: NSStatusMonitor
+  example: 
+- uid: CRMScript.NetServer.NSStatusMonitor.GetDefaultTask()
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.GetDefaultTask()
+  id: 'GetDefaultTask()'
+  so.intellisense: NSStatusMonitor.GetDefaultTask
+  langs:
+  - crmscript
+  name: 'GetDefaultTask()'
+  nameWithType: NSStatusMonitor.GetDefaultTask()
+  fullName: CRMScript.NetServer.NSStatusMonitor.GetDefaultTask()
+  type: Method
+  summary: # TODO
+  remarks: "\nThe default task text is in the text table (since it can be long), and may contain template variables\n"
+  syntax: 
+    content: Integer GetDefaultTask()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Default task type for this status."
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nInteger defaultTask = thing.GetDefaultTask();</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.GetDefaultTaskText()
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.GetDefaultTaskText()
+  id: 'GetDefaultTaskText()'
+  so.intellisense: NSStatusMonitor.GetDefaultTaskText
+  langs:
+  - crmscript
+  name: 'GetDefaultTaskText()'
+  nameWithType: NSStatusMonitor.GetDefaultTaskText()
+  fullName: CRMScript.NetServer.NSStatusMonitor.GetDefaultTaskText()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDefaultTaskText()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Default task text for this status."
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nString defaultTaskText = thing.GetDefaultTaskText();</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.GetDeleted()
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.GetDeleted()
+  id: 'GetDeleted()'
+  so.intellisense: NSStatusMonitor.GetDeleted
+  langs:
+  - crmscript
+  name: 'GetDeleted()'
+  nameWithType: NSStatusMonitor.GetDeleted()
+  fullName: CRMScript.NetServer.NSStatusMonitor.GetDeleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetDeleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Deleted flag, 1 if this record is deleted (never from the database)."
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nBool deleted = thing.GetDeleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.GetDescription()
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSStatusMonitor.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSStatusMonitor.GetDescription()
+  fullName: CRMScript.NetServer.NSStatusMonitor.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Description of the status monitor."
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.GetGenerationStart()
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.GetGenerationStart()
+  id: 'GetGenerationStart()'
+  so.intellisense: NSStatusMonitor.GetGenerationStart
+  langs:
+  - crmscript
+  name: 'GetGenerationStart()'
+  nameWithType: NSStatusMonitor.GetGenerationStart()
+  fullName: CRMScript.NetServer.NSStatusMonitor.GetGenerationStart()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetGenerationStart()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "When was the last regeneration started."
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nDateTime generationStart = thing.GetGenerationStart();</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.GetIsVisual()
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.GetIsVisual()
+  id: 'GetIsVisual()'
+  so.intellisense: NSStatusMonitor.GetIsVisual
+  langs:
+  - crmscript
+  name: 'GetIsVisual()'
+  nameWithType: NSStatusMonitor.GetIsVisual()
+  fullName: CRMScript.NetServer.NSStatusMonitor.GetIsVisual()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsVisual()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Should the status be visualized (active) in the client."
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nBool isVisual = thing.GetIsVisual();</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.GetLastGenerated()
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.GetLastGenerated()
+  id: 'GetLastGenerated()'
+  so.intellisense: NSStatusMonitor.GetLastGenerated
+  langs:
+  - crmscript
+  name: 'GetLastGenerated()'
+  nameWithType: NSStatusMonitor.GetLastGenerated()
+  fullName: CRMScript.NetServer.NSStatusMonitor.GetLastGenerated()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetLastGenerated()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "When was this status last generated (i.e., statusValue rows created)."
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nDateTime lastGenerated = thing.GetLastGenerated();</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.GetName()
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.GetName()
+  id: 'GetName()'
+  so.intellisense: NSStatusMonitor.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSStatusMonitor.GetName()
+  fullName: CRMScript.NetServer.NSStatusMonitor.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of status monitor."
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.GetNeedsUpdate()
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.GetNeedsUpdate()
+  id: 'GetNeedsUpdate()'
+  so.intellisense: NSStatusMonitor.GetNeedsUpdate
+  langs:
+  - crmscript
+  name: 'GetNeedsUpdate()'
+  nameWithType: NSStatusMonitor.GetNeedsUpdate()
+  fullName: CRMScript.NetServer.NSStatusMonitor.GetNeedsUpdate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetNeedsUpdate()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Is the definition dirty, ie., ALL values are invalid until a recalculation; this flag is set when the status DEFINITION is changed, as opposed to the flag on StatusValue."
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nBool needsUpdate = thing.GetNeedsUpdate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.GetNumMatches()
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.GetNumMatches()
+  id: 'GetNumMatches()'
+  so.intellisense: NSStatusMonitor.GetNumMatches
+  langs:
+  - crmscript
+  name: 'GetNumMatches()'
+  nameWithType: NSStatusMonitor.GetNumMatches()
+  fullName: CRMScript.NetServer.NSStatusMonitor.GetNumMatches()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetNumMatches()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: Number of targets that have this status, this should be the number of rows in StatusValue pointing to this definition, and that have isSignalled set to 1
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nInteger numMatches = thing.GetNumMatches();</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.GetNumNeedUpdate()
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.GetNumNeedUpdate()
+  id: 'GetNumNeedUpdate()'
+  so.intellisense: NSStatusMonitor.GetNumNeedUpdate
+  langs:
+  - crmscript
+  name: 'GetNumNeedUpdate()'
+  nameWithType: NSStatusMonitor.GetNumNeedUpdate()
+  fullName: CRMScript.NetServer.NSStatusMonitor.GetNumNeedUpdate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetNumNeedUpdate()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of targets that had this status, but have their needsUpdate bit set due to some change."
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nInteger numNeedUpdate = thing.GetNumNeedUpdate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.GetOwnerTable()
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.GetOwnerTable()
+  id: 'GetOwnerTable()'
+  so.intellisense: NSStatusMonitor.GetOwnerTable
+  langs:
+  - crmscript
+  name: 'GetOwnerTable()'
+  nameWithType: NSStatusMonitor.GetOwnerTable()
+  fullName: CRMScript.NetServer.NSStatusMonitor.GetOwnerTable()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetOwnerTable()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of table that owns the status monitor."
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nInteger ownerTable = thing.GetOwnerTable();</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.GetPictureId()
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.GetPictureId()
+  id: 'GetPictureId()'
+  so.intellisense: NSStatusMonitor.GetPictureId
+  langs:
+  - crmscript
+  name: 'GetPictureId()'
+  nameWithType: NSStatusMonitor.GetPictureId()
+  fullName: CRMScript.NetServer.NSStatusMonitor.GetPictureId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPictureId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of BinaryObject row that contains image for status monitor."
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nInteger pictureId = thing.GetPictureId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.GetRank()
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSStatusMonitor.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSStatusMonitor.GetRank()
+  fullName: CRMScript.NetServer.NSStatusMonitor.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Priority rank, in case more than one status is signalled. Lowest wins."
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.GetStatusMonitorId()
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.GetStatusMonitorId()
+  id: 'GetStatusMonitorId()'
+  so.intellisense: NSStatusMonitor.GetStatusMonitorId
+  langs:
+  - crmscript
+  name: 'GetStatusMonitorId()'
+  nameWithType: NSStatusMonitor.GetStatusMonitorId()
+  fullName: CRMScript.NetServer.NSStatusMonitor.GetStatusMonitorId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetStatusMonitorId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nInteger statusMonitorId = thing.GetStatusMonitorId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.SetDefaultTask(Integer)
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.SetDefaultTask(Integer)
+  id: 'SetDefaultTask(Integer)'
+  so.intellisense: NSStatusMonitor.SetDefaultTask
+  langs:
+  - crmscript
+  name: 'SetDefaultTask(Integer)'
+  nameWithType: NSStatusMonitor.SetDefaultTask(Integer)
+  fullName: CRMScript.NetServer.NSStatusMonitor.SetDefaultTask(Integer)
+  type: Method
+  summary: # TODO
+  remarks: "\nThe default task text is in the text table (since it can be long), and may contain template variables\n"
+  syntax: 
+    content: Void SetDefaultTask(Integer defaultTask)
+    parameters:
+    - id: defaultTask
+      type: CRMScript.Global.Integer
+      description: "Default task type for this status."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nInteger defaultTask;\nthing.SetDefaultTask(defaultTask);</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.SetDefaultTaskText(String)
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.SetDefaultTaskText(String)
+  id: 'SetDefaultTaskText(String)'
+  so.intellisense: NSStatusMonitor.SetDefaultTaskText
+  langs:
+  - crmscript
+  name: 'SetDefaultTaskText(String)'
+  nameWithType: NSStatusMonitor.SetDefaultTaskText(String)
+  fullName: CRMScript.NetServer.NSStatusMonitor.SetDefaultTaskText(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDefaultTaskText(String defaultTaskText)
+    parameters:
+    - id: defaultTaskText
+      type: CRMScript.Global.String
+      description: "Default task text for this status."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nString defaultTaskText;\nthing.SetDefaultTaskText(defaultTaskText);</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.SetDeleted(Bool)
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.SetDeleted(Bool)
+  id: 'SetDeleted(Bool)'
+  so.intellisense: NSStatusMonitor.SetDeleted
+  langs:
+  - crmscript
+  name: 'SetDeleted(Bool)'
+  nameWithType: NSStatusMonitor.SetDeleted(Bool)
+  fullName: CRMScript.NetServer.NSStatusMonitor.SetDeleted(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeleted(Bool deleted)
+    parameters:
+    - id: deleted
+      type: CRMScript.Global.Bool
+      description: "Deleted flag, 1 if this record is deleted (never from the database)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nBool deleted;\nthing.SetDeleted(deleted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSStatusMonitor.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSStatusMonitor.SetDescription(String)
+  fullName: CRMScript.NetServer.NSStatusMonitor.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "Description of the status monitor."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.SetGenerationStart(DateTime)
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.SetGenerationStart(DateTime)
+  id: 'SetGenerationStart(DateTime)'
+  so.intellisense: NSStatusMonitor.SetGenerationStart
+  langs:
+  - crmscript
+  name: 'SetGenerationStart(DateTime)'
+  nameWithType: NSStatusMonitor.SetGenerationStart(DateTime)
+  fullName: CRMScript.NetServer.NSStatusMonitor.SetGenerationStart(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetGenerationStart(DateTime generationStart)
+    parameters:
+    - id: generationStart
+      type: CRMScript.Global.DateTime
+      description: "When was the last regeneration started."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nDateTime generationStart;\nthing.SetGenerationStart(generationStart);</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.SetIsVisual(Bool)
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.SetIsVisual(Bool)
+  id: 'SetIsVisual(Bool)'
+  so.intellisense: NSStatusMonitor.SetIsVisual
+  langs:
+  - crmscript
+  name: 'SetIsVisual(Bool)'
+  nameWithType: NSStatusMonitor.SetIsVisual(Bool)
+  fullName: CRMScript.NetServer.NSStatusMonitor.SetIsVisual(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsVisual(Bool isVisual)
+    parameters:
+    - id: isVisual
+      type: CRMScript.Global.Bool
+      description: "Should the status be visualized (active) in the client."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nBool isVisual;\nthing.SetIsVisual(isVisual);</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.SetLastGenerated(DateTime)
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.SetLastGenerated(DateTime)
+  id: 'SetLastGenerated(DateTime)'
+  so.intellisense: NSStatusMonitor.SetLastGenerated
+  langs:
+  - crmscript
+  name: 'SetLastGenerated(DateTime)'
+  nameWithType: NSStatusMonitor.SetLastGenerated(DateTime)
+  fullName: CRMScript.NetServer.NSStatusMonitor.SetLastGenerated(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLastGenerated(DateTime lastGenerated)
+    parameters:
+    - id: lastGenerated
+      type: CRMScript.Global.DateTime
+      description: "When was this status last generated (i.e., statusValue rows created)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nDateTime lastGenerated;\nthing.SetLastGenerated(lastGenerated);</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.SetName(String)
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSStatusMonitor.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSStatusMonitor.SetName(String)
+  fullName: CRMScript.NetServer.NSStatusMonitor.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Name of status monitor."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.SetNeedsUpdate(Bool)
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.SetNeedsUpdate(Bool)
+  id: 'SetNeedsUpdate(Bool)'
+  so.intellisense: NSStatusMonitor.SetNeedsUpdate
+  langs:
+  - crmscript
+  name: 'SetNeedsUpdate(Bool)'
+  nameWithType: NSStatusMonitor.SetNeedsUpdate(Bool)
+  fullName: CRMScript.NetServer.NSStatusMonitor.SetNeedsUpdate(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetNeedsUpdate(Bool needsUpdate)
+    parameters:
+    - id: needsUpdate
+      type: CRMScript.Global.Bool
+      description: "Is the definition dirty, ie., ALL values are invalid until a recalculation; this flag is set when the status DEFINITION is changed, as opposed to the flag on StatusValue."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nBool needsUpdate;\nthing.SetNeedsUpdate(needsUpdate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.SetNumMatches(Integer)
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.SetNumMatches(Integer)
+  id: 'SetNumMatches(Integer)'
+  so.intellisense: NSStatusMonitor.SetNumMatches
+  langs:
+  - crmscript
+  name: 'SetNumMatches(Integer)'
+  nameWithType: NSStatusMonitor.SetNumMatches(Integer)
+  fullName: CRMScript.NetServer.NSStatusMonitor.SetNumMatches(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetNumMatches(Integer numMatches)
+    parameters:
+    - id: numMatches
+      type: CRMScript.Global.Integer
+      description: Number of targets that have this status, this should be the number of rows in StatusValue pointing to this definition, and that have isSignalled set to 1
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nInteger numMatches;\nthing.SetNumMatches(numMatches);</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.SetNumNeedUpdate(Integer)
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.SetNumNeedUpdate(Integer)
+  id: 'SetNumNeedUpdate(Integer)'
+  so.intellisense: NSStatusMonitor.SetNumNeedUpdate
+  langs:
+  - crmscript
+  name: 'SetNumNeedUpdate(Integer)'
+  nameWithType: NSStatusMonitor.SetNumNeedUpdate(Integer)
+  fullName: CRMScript.NetServer.NSStatusMonitor.SetNumNeedUpdate(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetNumNeedUpdate(Integer numNeedUpdate)
+    parameters:
+    - id: numNeedUpdate
+      type: CRMScript.Global.Integer
+      description: "Number of targets that had this status, but have their needsUpdate bit set due to some change."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nInteger numNeedUpdate;\nthing.SetNumNeedUpdate(numNeedUpdate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.SetOwnerTable(Integer)
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.SetOwnerTable(Integer)
+  id: 'SetOwnerTable(Integer)'
+  so.intellisense: NSStatusMonitor.SetOwnerTable
+  langs:
+  - crmscript
+  name: 'SetOwnerTable(Integer)'
+  nameWithType: NSStatusMonitor.SetOwnerTable(Integer)
+  fullName: CRMScript.NetServer.NSStatusMonitor.SetOwnerTable(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOwnerTable(Integer ownerTable)
+    parameters:
+    - id: ownerTable
+      type: CRMScript.Global.Integer
+      description: "ID of table that owns the status monitor."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nInteger ownerTable;\nthing.SetOwnerTable(ownerTable);</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.SetPictureId(Integer)
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.SetPictureId(Integer)
+  id: 'SetPictureId(Integer)'
+  so.intellisense: NSStatusMonitor.SetPictureId
+  langs:
+  - crmscript
+  name: 'SetPictureId(Integer)'
+  nameWithType: NSStatusMonitor.SetPictureId(Integer)
+  fullName: CRMScript.NetServer.NSStatusMonitor.SetPictureId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPictureId(Integer pictureId)
+    parameters:
+    - id: pictureId
+      type: CRMScript.Global.Integer
+      description: "ID of BinaryObject row that contains image for status monitor."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nInteger pictureId;\nthing.SetPictureId(pictureId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSStatusMonitor.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSStatusMonitor.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSStatusMonitor.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "Priority rank, in case more than one status is signalled. Lowest wins."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSStatusMonitor.SetStatusMonitorId(Integer)
+  commentId: M:CRMScript.NetServer.NSStatusMonitor.SetStatusMonitorId(Integer)
+  id: 'SetStatusMonitorId(Integer)'
+  so.intellisense: NSStatusMonitor.SetStatusMonitorId
+  langs:
+  - crmscript
+  name: 'SetStatusMonitorId(Integer)'
+  nameWithType: NSStatusMonitor.SetStatusMonitorId(Integer)
+  fullName: CRMScript.NetServer.NSStatusMonitor.SetStatusMonitorId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetStatusMonitorId(Integer statusMonitorId)
+    parameters:
+    - id: statusMonitorId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSStatusMonitor thing;\nInteger statusMonitorId;\nthing.SetStatusMonitorId(statusMonitorId);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSStatusMonitor
+  commentId: T:CRMScript.NetServer.NSStatusMonitor
+  isExternal: true
+  name: NSStatusMonitor
+  nameWithType: NSStatusMonitor
+  fullName: CRMScript.NetServer.NSStatusMonitor
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

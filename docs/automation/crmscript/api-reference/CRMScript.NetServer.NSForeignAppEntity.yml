@@ -1,0 +1,395 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSForeignAppEntity
+  commentId: T:CRMScript.NetServer.NSForeignAppEntity
+  id: NSForeignAppEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSForeignAppEntity.#ctor
+  - CRMScript.NetServer.NSForeignAppEntity.GetCreatedBy()
+  - CRMScript.NetServer.NSForeignAppEntity.GetCreatedDate()
+  - CRMScript.NetServer.NSForeignAppEntity.GetDevices()
+  - CRMScript.NetServer.NSForeignAppEntity.GetForeignAppId()
+  - CRMScript.NetServer.NSForeignAppEntity.GetName()
+  - CRMScript.NetServer.NSForeignAppEntity.GetUpdatedBy()
+  - CRMScript.NetServer.NSForeignAppEntity.GetUpdatedDate()
+  - CRMScript.NetServer.NSForeignAppEntity.SetCreatedBy(NSAssociate)
+  - CRMScript.NetServer.NSForeignAppEntity.SetCreatedDate(DateTime)
+  - CRMScript.NetServer.NSForeignAppEntity.SetDevices(NSForeignDevice[])
+  - CRMScript.NetServer.NSForeignAppEntity.SetForeignAppId(Integer)
+  - CRMScript.NetServer.NSForeignAppEntity.SetName(String)
+  - CRMScript.NetServer.NSForeignAppEntity.SetUpdatedBy(NSAssociate)
+  - CRMScript.NetServer.NSForeignAppEntity.SetUpdatedDate(DateTime)
+  name: NSForeignAppEntity
+  nameWithType: NSForeignAppEntity
+  fullName: CRMScript.NetServer.NSForeignAppEntity
+  type: Class
+  summary: "\nCarrier object for ForeignAppEntity.n"
+  example: 
+- uid: CRMScript.NetServer.NSForeignAppEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSForeignAppEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSForeignAppEntity
+  langs:
+  - crmscript
+  name: NSForeignAppEntity()
+  nameWithType: NSForeignAppEntity.#ctor
+  fullName: CRMScript.NetServer.NSForeignAppEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSForeignAppEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSForeignAppEntity
+  example: 
+- uid: CRMScript.NetServer.NSForeignAppEntity.GetCreatedBy()
+  commentId: M:CRMScript.NetServer.NSForeignAppEntity.GetCreatedBy()
+  id: 'GetCreatedBy()'
+  so.intellisense: NSForeignAppEntity.GetCreatedBy
+  langs:
+  - crmscript
+  name: 'GetCreatedBy()'
+  nameWithType: NSForeignAppEntity.GetCreatedBy()
+  fullName: CRMScript.NetServer.NSForeignAppEntity.GetCreatedBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetCreatedBy()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "The person that created the foreign application."
+  example: 
+  - "\n<pre><code>NSForeignAppEntity thing;\nNSAssociate createdBy = thing.GetCreatedBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignAppEntity.GetCreatedDate()
+  commentId: M:CRMScript.NetServer.NSForeignAppEntity.GetCreatedDate()
+  id: 'GetCreatedDate()'
+  so.intellisense: NSForeignAppEntity.GetCreatedDate
+  langs:
+  - crmscript
+  name: 'GetCreatedDate()'
+  nameWithType: NSForeignAppEntity.GetCreatedDate()
+  fullName: CRMScript.NetServer.NSForeignAppEntity.GetCreatedDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetCreatedDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+  example: 
+  - "\n<pre><code>NSForeignAppEntity thing;\nDateTime createdDate = thing.GetCreatedDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignAppEntity.GetDevices()
+  commentId: M:CRMScript.NetServer.NSForeignAppEntity.GetDevices()
+  id: 'GetDevices()'
+  so.intellisense: NSForeignAppEntity.GetDevices
+  langs:
+  - crmscript
+  name: 'GetDevices()'
+  nameWithType: NSForeignAppEntity.GetDevices()
+  fullName: CRMScript.NetServer.NSForeignAppEntity.GetDevices()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSForeignDevice[] GetDevices()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSForeignDevice[]
+      description: "The devices that belong to this foreign app."
+  example: 
+  - "\n<pre><code>NSForeignAppEntity thing;\nNSForeignDevice[] devices = thing.GetDevices();</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignAppEntity.GetForeignAppId()
+  commentId: M:CRMScript.NetServer.NSForeignAppEntity.GetForeignAppId()
+  id: 'GetForeignAppId()'
+  so.intellisense: NSForeignAppEntity.GetForeignAppId
+  langs:
+  - crmscript
+  name: 'GetForeignAppId()'
+  nameWithType: NSForeignAppEntity.GetForeignAppId()
+  fullName: CRMScript.NetServer.NSForeignAppEntity.GetForeignAppId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetForeignAppId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSForeignAppEntity thing;\nInteger foreignAppId = thing.GetForeignAppId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignAppEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSForeignAppEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSForeignAppEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSForeignAppEntity.GetName()
+  fullName: CRMScript.NetServer.NSForeignAppEntity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of foreign application."
+  example: 
+  - "\n<pre><code>NSForeignAppEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignAppEntity.GetUpdatedBy()
+  commentId: M:CRMScript.NetServer.NSForeignAppEntity.GetUpdatedBy()
+  id: 'GetUpdatedBy()'
+  so.intellisense: NSForeignAppEntity.GetUpdatedBy
+  langs:
+  - crmscript
+  name: 'GetUpdatedBy()'
+  nameWithType: NSForeignAppEntity.GetUpdatedBy()
+  fullName: CRMScript.NetServer.NSForeignAppEntity.GetUpdatedBy()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetUpdatedBy()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "The person that last updated this foreign application."
+  example: 
+  - "\n<pre><code>NSForeignAppEntity thing;\nNSAssociate updatedBy = thing.GetUpdatedBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignAppEntity.GetUpdatedDate()
+  commentId: M:CRMScript.NetServer.NSForeignAppEntity.GetUpdatedDate()
+  id: 'GetUpdatedDate()'
+  so.intellisense: NSForeignAppEntity.GetUpdatedDate
+  langs:
+  - crmscript
+  name: 'GetUpdatedDate()'
+  nameWithType: NSForeignAppEntity.GetUpdatedDate()
+  fullName: CRMScript.NetServer.NSForeignAppEntity.GetUpdatedDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetUpdatedDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+  example: 
+  - "\n<pre><code>NSForeignAppEntity thing;\nDateTime updatedDate = thing.GetUpdatedDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignAppEntity.SetCreatedBy(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSForeignAppEntity.SetCreatedBy(NSAssociate)
+  id: 'SetCreatedBy(NSAssociate)'
+  so.intellisense: NSForeignAppEntity.SetCreatedBy
+  langs:
+  - crmscript
+  name: 'SetCreatedBy(NSAssociate)'
+  nameWithType: NSForeignAppEntity.SetCreatedBy(NSAssociate)
+  fullName: CRMScript.NetServer.NSForeignAppEntity.SetCreatedBy(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCreatedBy(NSAssociate createdBy)
+    parameters:
+    - id: createdBy
+      type: CRMScript.NetServer.NSAssociate
+      description: "The person that created the foreign application."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSForeignAppEntity thing;\nNSAssociate createdBy;\nthing.SetCreatedBy(createdBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignAppEntity.SetCreatedDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSForeignAppEntity.SetCreatedDate(DateTime)
+  id: 'SetCreatedDate(DateTime)'
+  so.intellisense: NSForeignAppEntity.SetCreatedDate
+  langs:
+  - crmscript
+  name: 'SetCreatedDate(DateTime)'
+  nameWithType: NSForeignAppEntity.SetCreatedDate(DateTime)
+  fullName: CRMScript.NetServer.NSForeignAppEntity.SetCreatedDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCreatedDate(DateTime createdDate)
+    parameters:
+    - id: createdDate
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSForeignAppEntity thing;\nDateTime createdDate;\nthing.SetCreatedDate(createdDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignAppEntity.SetDevices(NSForeignDevice[])
+  commentId: M:CRMScript.NetServer.NSForeignAppEntity.SetDevices(NSForeignDevice[])
+  id: 'SetDevices(NSForeignDevice[])'
+  so.intellisense: NSForeignAppEntity.SetDevices
+  langs:
+  - crmscript
+  name: 'SetDevices(NSForeignDevice[])'
+  nameWithType: NSForeignAppEntity.SetDevices(NSForeignDevice[])
+  fullName: CRMScript.NetServer.NSForeignAppEntity.SetDevices(NSForeignDevice[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDevices(NSForeignDevice[] devices)
+    parameters:
+    - id: devices
+      type: CRMScript.NetServer.NSForeignDevice[]
+      description: "The devices that belong to this foreign app."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSForeignAppEntity thing;\nNSForeignDevice[] devices;\nthing.SetDevices(devices);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignAppEntity.SetForeignAppId(Integer)
+  commentId: M:CRMScript.NetServer.NSForeignAppEntity.SetForeignAppId(Integer)
+  id: 'SetForeignAppId(Integer)'
+  so.intellisense: NSForeignAppEntity.SetForeignAppId
+  langs:
+  - crmscript
+  name: 'SetForeignAppId(Integer)'
+  nameWithType: NSForeignAppEntity.SetForeignAppId(Integer)
+  fullName: CRMScript.NetServer.NSForeignAppEntity.SetForeignAppId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetForeignAppId(Integer foreignAppId)
+    parameters:
+    - id: foreignAppId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSForeignAppEntity thing;\nInteger foreignAppId;\nthing.SetForeignAppId(foreignAppId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignAppEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSForeignAppEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSForeignAppEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSForeignAppEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSForeignAppEntity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Name of foreign application."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSForeignAppEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignAppEntity.SetUpdatedBy(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSForeignAppEntity.SetUpdatedBy(NSAssociate)
+  id: 'SetUpdatedBy(NSAssociate)'
+  so.intellisense: NSForeignAppEntity.SetUpdatedBy
+  langs:
+  - crmscript
+  name: 'SetUpdatedBy(NSAssociate)'
+  nameWithType: NSForeignAppEntity.SetUpdatedBy(NSAssociate)
+  fullName: CRMScript.NetServer.NSForeignAppEntity.SetUpdatedBy(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedBy(NSAssociate updatedBy)
+    parameters:
+    - id: updatedBy
+      type: CRMScript.NetServer.NSAssociate
+      description: "The person that last updated this foreign application."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSForeignAppEntity thing;\nNSAssociate updatedBy;\nthing.SetUpdatedBy(updatedBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSForeignAppEntity.SetUpdatedDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSForeignAppEntity.SetUpdatedDate(DateTime)
+  id: 'SetUpdatedDate(DateTime)'
+  so.intellisense: NSForeignAppEntity.SetUpdatedDate
+  langs:
+  - crmscript
+  name: 'SetUpdatedDate(DateTime)'
+  nameWithType: NSForeignAppEntity.SetUpdatedDate(DateTime)
+  fullName: CRMScript.NetServer.NSForeignAppEntity.SetUpdatedDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedDate(DateTime updatedDate)
+    parameters:
+    - id: updatedDate
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSForeignAppEntity thing;\nDateTime updatedDate;\nthing.SetUpdatedDate(updatedDate);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSForeignAppEntity
+  commentId: T:CRMScript.NetServer.NSForeignAppEntity
+  isExternal: true
+  name: NSForeignAppEntity
+  nameWithType: NSForeignAppEntity
+  fullName: CRMScript.NetServer.NSForeignAppEntity
+- uid: CRMScript.NetServer.NSAssociate
+  commentId: T:CRMScript.NetServer.NSAssociate
+  isExternal: true
+  name: NSAssociate
+  nameWithType: NSAssociate
+  fullName: CRMScript.NetServer.NSAssociate
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.NetServer.NSForeignDevice[]
+  isExternal: true
+  name: NSForeignDevice[]
+  nameWithType: NSForeignDevice[]
+  fullName: CRMScript.NetServer.NSForeignDevice[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSForeignDevice
+    isExternal: true
+    name: NSForeignDevice
+    nameWithType: NSForeignDevice
+    fullName: CRMScript.NetServer.NSForeignDevice
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSForeignDevice
+  commentId: T:CRMScript.NetServer.NSForeignDevice
+  isExternal: true
+  name: NSForeignDevice
+  nameWithType: NSForeignDevice
+  fullName: CRMScript.NetServer.NSForeignDevice
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

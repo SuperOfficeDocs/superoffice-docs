@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.TicketMessageType
+  # Same as SuperOffice.Data.TicketMessageType
+  commentId: T:CRMScript.NetServer.TicketMessageType
+  id: TicketMessageType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.TicketMessageType.Unknown
+  - CRMScript.NetServer.TicketMessageType.Plain
+  - CRMScript.NetServer.TicketMessageType.Html
+  name: TicketMessageType
+  nameWithType: TicketMessageType
+  fullName: CRMScript.NetServer.TicketMessageType
+  type: Enum
+  summary: "\nIndicates if the field body contains plain or HTML text.\n"
+- uid: CRMScript.NetServer.TicketMessageType.Unknown
+  commentId: F:CRMScript.NetServer.TicketMessageType.Unknown
+  id: TicketMessageType.Unknown
+  langs:
+  - crmscript
+  name: TicketMessageType.Unknown
+  nameWithType: TicketMessageType.Unknown
+  fullName: CRMScript.NetServer.TicketMessageType.Unknown
+  type: Field
+  summary: "\n0: Unknown type\n"
+  syntax: 
+    content: Unknown = 0
+    type: CRMScript.NetServer.TicketMessageType
+- uid: CRMScript.NetServer.TicketMessageType.Plain
+  commentId: F:CRMScript.NetServer.TicketMessageType.Plain
+  id: TicketMessageType.Plain
+  langs:
+  - crmscript
+  name: TicketMessageType.Plain
+  nameWithType: TicketMessageType.Plain
+  fullName: CRMScript.NetServer.TicketMessageType.Plain
+  type: Field
+  summary: "\n1: The body field contains plain text\n"
+  syntax: 
+    content: Plain = 1
+    type: CRMScript.NetServer.TicketMessageType
+- uid: CRMScript.NetServer.TicketMessageType.Html
+  commentId: F:CRMScript.NetServer.TicketMessageType.Html
+  id: TicketMessageType.Html
+  langs:
+  - crmscript
+  name: TicketMessageType.Html
+  nameWithType: TicketMessageType.Html
+  fullName: CRMScript.NetServer.TicketMessageType.Html
+  type: Field
+  summary: "\n2: The body field contains HTML text.\n"
+  syntax: 
+    content: Html = 2
+    type: CRMScript.NetServer.TicketMessageType
+references:
+- uid: CRMScript.NetServer.TicketMessageType
+  commentId: T:CRMScript.NetServer.TicketMessageType
+  isExternal: true
+  name: TicketMessageType
+  nameWithType: TicketMessageType
+  fullName: CRMScript.NetServer.TicketMessageType

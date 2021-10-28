@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSRecurrenceWeekPattern
+  commentId: T:CRMScript.NetServer.NSRecurrenceWeekPattern
+  id: NSRecurrenceWeekPattern
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSRecurrenceWeekPattern.#ctor
+  - CRMScript.NetServer.NSRecurrenceWeekPattern.GetCycle()
+  - CRMScript.NetServer.NSRecurrenceWeekPattern.GetWeekdays()
+  - CRMScript.NetServer.NSRecurrenceWeekPattern.SetCycle(Integer)
+  - CRMScript.NetServer.NSRecurrenceWeekPattern.SetWeekdays(Integer)
+  name: NSRecurrenceWeekPattern
+  nameWithType: NSRecurrenceWeekPattern
+  fullName: CRMScript.NetServer.NSRecurrenceWeekPattern
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceWeekPattern.#ctor
+  commentId: M:CRMScript.NetServer.NSRecurrenceWeekPattern.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSRecurrenceWeekPattern
+  langs:
+  - crmscript
+  name: NSRecurrenceWeekPattern()
+  nameWithType: NSRecurrenceWeekPattern.#ctor
+  fullName: CRMScript.NetServer.NSRecurrenceWeekPattern.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSRecurrenceWeekPattern class.\n"
+  remarks: 
+  syntax: 
+    content: NSRecurrenceWeekPattern
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceWeekPattern.GetCycle()
+  commentId: M:CRMScript.NetServer.NSRecurrenceWeekPattern.GetCycle()
+  id: 'GetCycle()'
+  so.intellisense: NSRecurrenceWeekPattern.GetCycle
+  langs:
+  - crmscript
+  name: 'GetCycle()'
+  nameWithType: NSRecurrenceWeekPattern.GetCycle()
+  fullName: CRMScript.NetServer.NSRecurrenceWeekPattern.GetCycle()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCycle()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceWeekPattern.GetWeekdays()
+  commentId: M:CRMScript.NetServer.NSRecurrenceWeekPattern.GetWeekdays()
+  id: 'GetWeekdays()'
+  so.intellisense: NSRecurrenceWeekPattern.GetWeekdays
+  langs:
+  - crmscript
+  name: 'GetWeekdays()'
+  nameWithType: NSRecurrenceWeekPattern.GetWeekdays()
+  fullName: CRMScript.NetServer.NSRecurrenceWeekPattern.GetWeekdays()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetWeekdays()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceWeekPattern.SetCycle(Integer)
+  commentId: M:CRMScript.NetServer.NSRecurrenceWeekPattern.SetCycle(Integer)
+  id: 'SetCycle(Integer)'
+  so.intellisense: NSRecurrenceWeekPattern.SetCycle
+  langs:
+  - crmscript
+  name: 'SetCycle(Integer)'
+  nameWithType: NSRecurrenceWeekPattern.SetCycle(Integer)
+  fullName: CRMScript.NetServer.NSRecurrenceWeekPattern.SetCycle(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCycle(Integer cycle)
+    parameters:
+    - id: cycle
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceWeekPattern.SetWeekdays(Integer)
+  commentId: M:CRMScript.NetServer.NSRecurrenceWeekPattern.SetWeekdays(Integer)
+  id: 'SetWeekdays(Integer)'
+  so.intellisense: NSRecurrenceWeekPattern.SetWeekdays
+  langs:
+  - crmscript
+  name: 'SetWeekdays(Integer)'
+  nameWithType: NSRecurrenceWeekPattern.SetWeekdays(Integer)
+  fullName: CRMScript.NetServer.NSRecurrenceWeekPattern.SetWeekdays(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWeekdays(Integer weekdays)
+    parameters:
+    - id: weekdays
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSRecurrenceWeekPattern
+  commentId: T:CRMScript.NetServer.NSRecurrenceWeekPattern
+  isExternal: true
+  name: NSRecurrenceWeekPattern
+  nameWithType: NSRecurrenceWeekPattern
+  fullName: CRMScript.NetServer.NSRecurrenceWeekPattern
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

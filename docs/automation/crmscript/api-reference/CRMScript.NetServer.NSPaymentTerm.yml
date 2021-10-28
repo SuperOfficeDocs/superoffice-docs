@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSPaymentTerm
+  commentId: T:CRMScript.NetServer.NSPaymentTerm
+  id: NSPaymentTerm
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSPaymentTerm.#ctor
+  - CRMScript.NetServer.NSPaymentTerm.GetId()
+  - CRMScript.NetServer.NSPaymentTerm.GetTooltip()
+  - CRMScript.NetServer.NSPaymentTerm.GetValue()
+  - CRMScript.NetServer.NSPaymentTerm.SetId(Integer)
+  - CRMScript.NetServer.NSPaymentTerm.SetTooltip(String)
+  - CRMScript.NetServer.NSPaymentTerm.SetValue(String)
+  name: NSPaymentTerm
+  nameWithType: NSPaymentTerm
+  fullName: CRMScript.NetServer.NSPaymentTerm
+  type: Class
+  summary: "\nThe built-in payment terms list. Used by the SuperOffice Quote Connector to categorize quote versions.\n"
+  example: 
+- uid: CRMScript.NetServer.NSPaymentTerm.#ctor
+  commentId: M:CRMScript.NetServer.NSPaymentTerm.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSPaymentTerm
+  langs:
+  - crmscript
+  name: NSPaymentTerm()
+  nameWithType: NSPaymentTerm.#ctor
+  fullName: CRMScript.NetServer.NSPaymentTerm.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSPaymentTerm class.\n"
+  remarks: 
+  syntax: 
+    content: NSPaymentTerm
+  example: 
+- uid: CRMScript.NetServer.NSPaymentTerm.GetId()
+  commentId: M:CRMScript.NetServer.NSPaymentTerm.GetId()
+  id: 'GetId()'
+  so.intellisense: NSPaymentTerm.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSPaymentTerm.GetId()
+  fullName: CRMScript.NetServer.NSPaymentTerm.GetId()
+  type: Method
+  summary: "\nGets the primary key (ID) for the NSPaymentTerm\n"
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "NSPaymentTerm Id."
+  example: 
+  - "\n<pre><code>NSPaymentTerm thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPaymentTerm.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSPaymentTerm.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSPaymentTerm.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSPaymentTerm.GetTooltip()
+  fullName: CRMScript.NetServer.NSPaymentTerm.GetTooltip()
+  type: Method
+  summary: "\nGets the tooltip description for the NSPaymentTerm list item.\n"
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "NSPaymentTerm tooltip description."
+  example: 
+  - "\n<pre><code>NSPaymentTerm thing;\nString descr = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPaymentTerm.GetValue()
+  commentId: M:CRMScript.NetServer.NSPaymentTerm.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSPaymentTerm.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSPaymentTerm.GetValue()
+  fullName: CRMScript.NetServer.NSPaymentTerm.GetValue()
+  type: Method
+  summary: "\nGets the name of the NSPaymentTerm.\n"
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "NSPaymentTerm name."
+  example: 
+  - "\n<pre><code>NSPaymentTerm thing;\nString name = thing.GetValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPaymentTerm.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSPaymentTerm.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSPaymentTerm.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSPaymentTerm.SetId(Integer)
+  fullName: CRMScript.NetServer.NSPaymentTerm.SetId(Integer)
+  type: Method
+  summary: "\nSets the primary key (ID) for the NSPaymentTerm\n"
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPaymentTerm thing;\nthing.SetId(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPaymentTerm.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSPaymentTerm.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSPaymentTerm.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSPaymentTerm.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSPaymentTerm.SetTooltip(String)
+  type: Method
+  summary: "\nSets the tooltip description for the NSPaymentTerm list item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPaymentTerm thing;\nString descr = &quot;something new&quot;;\nthing.SetTooltip(descr);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPaymentTerm.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSPaymentTerm.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSPaymentTerm.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSPaymentTerm.SetValue(String)
+  fullName: CRMScript.NetServer.NSPaymentTerm.SetValue(String)
+  type: Method
+  summary: "\nSets the name of the NSPaymentTerm item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPaymentTerm thing;\nthing.SetValue(&quot;frotz&quot;);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSPaymentTerm
+  commentId: T:CRMScript.NetServer.NSPaymentTerm
+  isExternal: true
+  name: NSPaymentTerm
+  nameWithType: NSPaymentTerm
+  fullName: CRMScript.NetServer.NSPaymentTerm
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

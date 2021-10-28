@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.ReturnType
+  # Same as SuperOffice.CRM.ReturnType
+  commentId: T:CRMScript.NetServer.ReturnType
+  id: ReturnType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.ReturnType.None
+  - CRMScript.NetServer.ReturnType.Message
+  - CRMScript.NetServer.ReturnType.SoProtocol
+  - CRMScript.NetServer.ReturnType.CustomGui
+  - CRMScript.NetServer.ReturnType.Other
+  - CRMScript.NetServer.ReturnType.URL
+  name: ReturnType
+  nameWithType: ReturnType
+  fullName: CRMScript.NetServer.ReturnType
+  type: Enum
+  summary: "\nHow should a return value from an API call or command be interpreted by the caller\n"
+- uid: CRMScript.NetServer.ReturnType.None
+  commentId: F:CRMScript.NetServer.ReturnType.None
+  id: ReturnType.None
+  langs:
+  - crmscript
+  name: ReturnType.None
+  nameWithType: ReturnType.None
+  fullName: CRMScript.NetServer.ReturnType.None
+  type: Field
+  summary: "\n0: There is no return value to be parsed.\n"
+  syntax: 
+    content: None = 0
+    type: CRMScript.NetServer.ReturnType
+- uid: CRMScript.NetServer.ReturnType.Message
+  commentId: F:CRMScript.NetServer.ReturnType.Message
+  id: ReturnType.Message
+  langs:
+  - crmscript
+  name: ReturnType.Message
+  nameWithType: ReturnType.Message
+  fullName: CRMScript.NetServer.ReturnType.Message
+  type: Field
+  summary: "\n1: The return value is a string, to be shown to the user as a message. A modal dialog box for example.\n"
+  syntax: 
+    content: Message = 1
+    type: CRMScript.NetServer.ReturnType
+- uid: CRMScript.NetServer.ReturnType.SoProtocol
+  commentId: F:CRMScript.NetServer.ReturnType.SoProtocol
+  id: ReturnType.SoProtocol
+  langs:
+  - crmscript
+  name: ReturnType.SoProtocol
+  nameWithType: ReturnType.SoProtocol
+  fullName: CRMScript.NetServer.ReturnType.SoProtocol
+  type: Field
+  summary: "\n2: SoProtocol. The return value is an SoProtocol-compliant navigation string, to be parsed according to the rules for SoProtocol strings. For example, &quot;contact.main?contact_id=123&quot;\n"
+  syntax: 
+    content: SoProtocol = 2
+    type: CRMScript.NetServer.ReturnType
+- uid: CRMScript.NetServer.ReturnType.CustomGui
+  commentId: F:CRMScript.NetServer.ReturnType.CustomGui
+  id: ReturnType.CustomGui
+  langs:
+  - crmscript
+  name: ReturnType.CustomGui
+  nameWithType: ReturnType.CustomGui
+  fullName: CRMScript.NetServer.ReturnType.CustomGui
+  type: Field
+  summary: "\n3: The return value is the name of a custom GUI. The GetCustomGui method on the document plugin will be invoked, and the resulting GUI rendered.\n"
+  syntax: 
+    content: CustomGui = 3
+    type: CRMScript.NetServer.ReturnType
+- uid: CRMScript.NetServer.ReturnType.Other
+  commentId: F:CRMScript.NetServer.ReturnType.Other
+  id: ReturnType.Other
+  langs:
+  - crmscript
+  name: ReturnType.Other
+  nameWithType: ReturnType.Other
+  fullName: CRMScript.NetServer.ReturnType.Other
+  type: Field
+  summary: "\n4: The return value is intended for custom processing; this implies that the document plugin has installed some component on the intended client that will intercept and handle this return value.<p></p>\nNote that this requires advanced knowledge of the client and its construction and navigation. Also note that this will make the functionality client-specific, so that it may not be available or work as intended on clients not specifically supported or known.\n"
+  syntax: 
+    content: Other = 4
+    type: CRMScript.NetServer.ReturnType
+- uid: CRMScript.NetServer.ReturnType.URL
+  commentId: F:CRMScript.NetServer.ReturnType.URL
+  id: ReturnType.URL
+  langs:
+  - crmscript
+  name: ReturnType.URL
+  nameWithType: ReturnType.URL
+  fullName: CRMScript.NetServer.ReturnType.URL
+  type: Field
+  summary: "\n5: The return value is a URL that should be opened in a new window.\n"
+  syntax: 
+    content: URL = 5
+    type: CRMScript.NetServer.ReturnType
+references:
+- uid: CRMScript.NetServer.ReturnType
+  commentId: T:CRMScript.NetServer.ReturnType
+  isExternal: true
+  name: ReturnType
+  nameWithType: ReturnType
+  fullName: CRMScript.NetServer.ReturnType

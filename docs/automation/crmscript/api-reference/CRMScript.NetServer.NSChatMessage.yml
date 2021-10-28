@@ -1,0 +1,475 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSChatMessage
+  commentId: T:CRMScript.NetServer.NSChatMessage
+  id: NSChatMessage
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSChatMessage.#ctor
+  - CRMScript.NetServer.NSChatMessage.GetAuthor()
+  - CRMScript.NetServer.NSChatMessage.GetChatMessageId()
+  - CRMScript.NetServer.NSChatMessage.GetChatSessionId()
+  - CRMScript.NetServer.NSChatMessage.GetMessage()
+  - CRMScript.NetServer.NSChatMessage.GetReadByCustomer()
+  - CRMScript.NetServer.NSChatMessage.GetSpecialParam()
+  - CRMScript.NetServer.NSChatMessage.GetSpecialType()
+  - CRMScript.NetServer.NSChatMessage.GetType()
+  - CRMScript.NetServer.NSChatMessage.GetWhenPosted()
+  - CRMScript.NetServer.NSChatMessage.SetAuthor(String)
+  - CRMScript.NetServer.NSChatMessage.SetChatMessageId(Integer)
+  - CRMScript.NetServer.NSChatMessage.SetChatSessionId(Integer)
+  - CRMScript.NetServer.NSChatMessage.SetMessage(String)
+  - CRMScript.NetServer.NSChatMessage.SetReadByCustomer(Integer)
+  - CRMScript.NetServer.NSChatMessage.SetSpecialParam(String)
+  - CRMScript.NetServer.NSChatMessage.SetSpecialType(Integer)
+  - CRMScript.NetServer.NSChatMessage.SetType(Integer)
+  - CRMScript.NetServer.NSChatMessage.SetWhenPosted(DateTime)
+  name: NSChatMessage
+  nameWithType: NSChatMessage
+  fullName: CRMScript.NetServer.NSChatMessage
+  type: Class
+  summary: "\nA message in a chat session. Carrier object for ChatMessage.\n"
+  example: 
+- uid: CRMScript.NetServer.NSChatMessage.#ctor
+  commentId: M:CRMScript.NetServer.NSChatMessage.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSChatMessage
+  langs:
+  - crmscript
+  name: NSChatMessage()
+  nameWithType: NSChatMessage.#ctor
+  fullName: CRMScript.NetServer.NSChatMessage.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSChatMessage class.\n"
+  remarks: 
+  syntax: 
+    content: NSChatMessage
+  example: 
+- uid: CRMScript.NetServer.NSChatMessage.GetAuthor()
+  commentId: M:CRMScript.NetServer.NSChatMessage.GetAuthor()
+  id: 'GetAuthor()'
+  so.intellisense: NSChatMessage.GetAuthor
+  langs:
+  - crmscript
+  name: 'GetAuthor()'
+  nameWithType: NSChatMessage.GetAuthor()
+  fullName: CRMScript.NetServer.NSChatMessage.GetAuthor()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetAuthor()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The author of the message."
+  example: 
+  - "\n<pre><code>NSChatMessage thing;\nString author = thing.GetAuthor();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatMessage.GetChatMessageId()
+  commentId: M:CRMScript.NetServer.NSChatMessage.GetChatMessageId()
+  id: 'GetChatMessageId()'
+  so.intellisense: NSChatMessage.GetChatMessageId
+  langs:
+  - crmscript
+  name: 'GetChatMessageId()'
+  nameWithType: NSChatMessage.GetChatMessageId()
+  fullName: CRMScript.NetServer.NSChatMessage.GetChatMessageId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetChatMessageId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The primary key (auto-incremented)."
+  example: 
+  - "\n<pre><code>NSChatMessage thing;\nInteger chatMessageId = thing.GetChatMessageId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatMessage.GetChatSessionId()
+  commentId: M:CRMScript.NetServer.NSChatMessage.GetChatSessionId()
+  id: 'GetChatSessionId()'
+  so.intellisense: NSChatMessage.GetChatSessionId
+  langs:
+  - crmscript
+  name: 'GetChatSessionId()'
+  nameWithType: NSChatMessage.GetChatSessionId()
+  fullName: CRMScript.NetServer.NSChatMessage.GetChatSessionId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetChatSessionId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The reference to the associated chat session."
+  example: 
+  - "\n<pre><code>NSChatMessage thing;\nInteger chatSessionId = thing.GetChatSessionId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatMessage.GetMessage()
+  commentId: M:CRMScript.NetServer.NSChatMessage.GetMessage()
+  id: 'GetMessage()'
+  so.intellisense: NSChatMessage.GetMessage
+  langs:
+  - crmscript
+  name: 'GetMessage()'
+  nameWithType: NSChatMessage.GetMessage()
+  fullName: CRMScript.NetServer.NSChatMessage.GetMessage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetMessage()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The message."
+  example: 
+  - "\n<pre><code>NSChatMessage thing;\nString message = thing.GetMessage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatMessage.GetReadByCustomer()
+  commentId: M:CRMScript.NetServer.NSChatMessage.GetReadByCustomer()
+  id: 'GetReadByCustomer()'
+  so.intellisense: NSChatMessage.GetReadByCustomer
+  langs:
+  - crmscript
+  name: 'GetReadByCustomer()'
+  nameWithType: NSChatMessage.GetReadByCustomer()
+  fullName: CRMScript.NetServer.NSChatMessage.GetReadByCustomer()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetReadByCustomer()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Whether the message has been read by the customer or not."
+  example: 
+  - "\n<pre><code>NSChatMessage thing;\nInteger readByCustomer = thing.GetReadByCustomer();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatMessage.GetSpecialParam()
+  commentId: M:CRMScript.NetServer.NSChatMessage.GetSpecialParam()
+  id: 'GetSpecialParam()'
+  so.intellisense: NSChatMessage.GetSpecialParam
+  langs:
+  - crmscript
+  name: 'GetSpecialParam()'
+  nameWithType: NSChatMessage.GetSpecialParam()
+  fullName: CRMScript.NetServer.NSChatMessage.GetSpecialParam()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSpecialParam()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Special parameter for the special_type."
+  example: 
+  - "\n<pre><code>NSChatMessage thing;\nString specialParam = thing.GetSpecialParam();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatMessage.GetSpecialType()
+  commentId: M:CRMScript.NetServer.NSChatMessage.GetSpecialType()
+  id: 'GetSpecialType()'
+  so.intellisense: NSChatMessage.GetSpecialType
+  langs:
+  - crmscript
+  name: 'GetSpecialType()'
+  nameWithType: NSChatMessage.GetSpecialType()
+  fullName: CRMScript.NetServer.NSChatMessage.GetSpecialType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSpecialType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Indicates if it is a special message, such as a URL redirection. See <xref href=\"CRMScript.NetServer.ChatMessageSpecialType\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSChatMessage thing;\nInteger specialType = thing.GetSpecialType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatMessage.GetType()
+  commentId: M:CRMScript.NetServer.NSChatMessage.GetType()
+  id: 'GetType()'
+  so.intellisense: NSChatMessage.GetType
+  langs:
+  - crmscript
+  name: 'GetType()'
+  nameWithType: NSChatMessage.GetType()
+  fullName: CRMScript.NetServer.NSChatMessage.GetType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The type of the message. See <xref href=\"CRMScript.NetServer.ChatMessageType\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSChatMessage thing;\nInteger type = thing.GetType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatMessage.GetWhenPosted()
+  commentId: M:CRMScript.NetServer.NSChatMessage.GetWhenPosted()
+  id: 'GetWhenPosted()'
+  so.intellisense: NSChatMessage.GetWhenPosted
+  langs:
+  - crmscript
+  name: 'GetWhenPosted()'
+  nameWithType: NSChatMessage.GetWhenPosted()
+  fullName: CRMScript.NetServer.NSChatMessage.GetWhenPosted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetWhenPosted()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "When the message was posted (UTC timestamp)."
+  example: 
+  - "\n<pre><code>NSChatMessage thing;\nDateTime whenPosted = thing.GetWhenPosted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatMessage.SetAuthor(String)
+  commentId: M:CRMScript.NetServer.NSChatMessage.SetAuthor(String)
+  id: 'SetAuthor(String)'
+  so.intellisense: NSChatMessage.SetAuthor
+  langs:
+  - crmscript
+  name: 'SetAuthor(String)'
+  nameWithType: NSChatMessage.SetAuthor(String)
+  fullName: CRMScript.NetServer.NSChatMessage.SetAuthor(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAuthor(String author)
+    parameters:
+    - id: author
+      type: CRMScript.Global.String
+      description: "The author of the message."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatMessage thing;\nString author;\nthing.SetAuthor(author);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatMessage.SetChatMessageId(Integer)
+  commentId: M:CRMScript.NetServer.NSChatMessage.SetChatMessageId(Integer)
+  id: 'SetChatMessageId(Integer)'
+  so.intellisense: NSChatMessage.SetChatMessageId
+  langs:
+  - crmscript
+  name: 'SetChatMessageId(Integer)'
+  nameWithType: NSChatMessage.SetChatMessageId(Integer)
+  fullName: CRMScript.NetServer.NSChatMessage.SetChatMessageId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChatMessageId(Integer chatMessageId)
+    parameters:
+    - id: chatMessageId
+      type: CRMScript.Global.Integer
+      description: "The primary key (auto-incremented)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatMessage thing;\nInteger chatMessageId;\nthing.SetChatMessageId(chatMessageId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatMessage.SetChatSessionId(Integer)
+  commentId: M:CRMScript.NetServer.NSChatMessage.SetChatSessionId(Integer)
+  id: 'SetChatSessionId(Integer)'
+  so.intellisense: NSChatMessage.SetChatSessionId
+  langs:
+  - crmscript
+  name: 'SetChatSessionId(Integer)'
+  nameWithType: NSChatMessage.SetChatSessionId(Integer)
+  fullName: CRMScript.NetServer.NSChatMessage.SetChatSessionId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChatSessionId(Integer chatSessionId)
+    parameters:
+    - id: chatSessionId
+      type: CRMScript.Global.Integer
+      description: "The reference to the associated chat session."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatMessage thing;\nInteger chatSessionId;\nthing.SetChatSessionId(chatSessionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatMessage.SetMessage(String)
+  commentId: M:CRMScript.NetServer.NSChatMessage.SetMessage(String)
+  id: 'SetMessage(String)'
+  so.intellisense: NSChatMessage.SetMessage
+  langs:
+  - crmscript
+  name: 'SetMessage(String)'
+  nameWithType: NSChatMessage.SetMessage(String)
+  fullName: CRMScript.NetServer.NSChatMessage.SetMessage(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMessage(String message)
+    parameters:
+    - id: message
+      type: CRMScript.Global.String
+      description: "The message."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatMessage thing;\nString message;\nthing.SetMessage(message);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatMessage.SetReadByCustomer(Integer)
+  commentId: M:CRMScript.NetServer.NSChatMessage.SetReadByCustomer(Integer)
+  id: 'SetReadByCustomer(Integer)'
+  so.intellisense: NSChatMessage.SetReadByCustomer
+  langs:
+  - crmscript
+  name: 'SetReadByCustomer(Integer)'
+  nameWithType: NSChatMessage.SetReadByCustomer(Integer)
+  fullName: CRMScript.NetServer.NSChatMessage.SetReadByCustomer(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetReadByCustomer(Integer readByCustomer)
+    parameters:
+    - id: readByCustomer
+      type: CRMScript.Global.Integer
+      description: "Whether the message has been read by the customer or not."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatMessage thing;\nInteger readByCustomer;\nthing.SetReadByCustomer(readByCustomer);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatMessage.SetSpecialParam(String)
+  commentId: M:CRMScript.NetServer.NSChatMessage.SetSpecialParam(String)
+  id: 'SetSpecialParam(String)'
+  so.intellisense: NSChatMessage.SetSpecialParam
+  langs:
+  - crmscript
+  name: 'SetSpecialParam(String)'
+  nameWithType: NSChatMessage.SetSpecialParam(String)
+  fullName: CRMScript.NetServer.NSChatMessage.SetSpecialParam(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSpecialParam(String specialParam)
+    parameters:
+    - id: specialParam
+      type: CRMScript.Global.String
+      description: "Special parameter for the special_type."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatMessage thing;\nString specialParam;\nthing.SetSpecialParam(specialParam);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatMessage.SetSpecialType(Integer)
+  commentId: M:CRMScript.NetServer.NSChatMessage.SetSpecialType(Integer)
+  id: 'SetSpecialType(Integer)'
+  so.intellisense: NSChatMessage.SetSpecialType
+  langs:
+  - crmscript
+  name: 'SetSpecialType(Integer)'
+  nameWithType: NSChatMessage.SetSpecialType(Integer)
+  fullName: CRMScript.NetServer.NSChatMessage.SetSpecialType(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetSpecialType(Integer specialType)
+    parameters:
+    - id: specialType
+      type: CRMScript.Global.Integer
+      description: "Indicates if it is a special message, such as a URL redirection. See <xref href=\"CRMScript.NetServer.ChatMessageSpecialType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatMessage thing;\nInteger specialType;\nthing.SetSpecialType(specialType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatMessage.SetType(Integer)
+  commentId: M:CRMScript.NetServer.NSChatMessage.SetType(Integer)
+  id: 'SetType(Integer)'
+  so.intellisense: NSChatMessage.SetType
+  langs:
+  - crmscript
+  name: 'SetType(Integer)'
+  nameWithType: NSChatMessage.SetType(Integer)
+  fullName: CRMScript.NetServer.NSChatMessage.SetType(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetType(Integer type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "The type of the message. See <xref href=\"CRMScript.NetServer.ChatMessageType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatMessage thing;\nInteger type;\nthing.SetType(type);</code></pre>\n"
+- uid: CRMScript.NetServer.NSChatMessage.SetWhenPosted(DateTime)
+  commentId: M:CRMScript.NetServer.NSChatMessage.SetWhenPosted(DateTime)
+  id: 'SetWhenPosted(DateTime)'
+  so.intellisense: NSChatMessage.SetWhenPosted
+  langs:
+  - crmscript
+  name: 'SetWhenPosted(DateTime)'
+  nameWithType: NSChatMessage.SetWhenPosted(DateTime)
+  fullName: CRMScript.NetServer.NSChatMessage.SetWhenPosted(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWhenPosted(DateTime whenPosted)
+    parameters:
+    - id: whenPosted
+      type: CRMScript.Global.DateTime
+      description: "When the message was posted (UTC timestamp)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSChatMessage thing;\nDateTime whenPosted;\nthing.SetWhenPosted(whenPosted);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSChatMessage
+  commentId: T:CRMScript.NetServer.NSChatMessage
+  isExternal: true
+  name: NSChatMessage
+  nameWithType: NSChatMessage
+  fullName: CRMScript.NetServer.NSChatMessage
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.ChatMessageType
+  commentId: T:CRMScript.NetServer.ChatMessageType
+  isExternal: true
+  name: type
+  nameWithType: type
+  fullName: CRMScript.NetServer.ChatMessageType
+- uid: CRMScript.NetServer.ChatMessageSpecialType
+  commentId: T:CRMScript.NetServer.ChatMessageSpecialType
+  isExternal: true
+  name: ChatMessageSpecialType
+  nameWithType: ChatMessageSpecialType
+  fullName: CRMScript.NetServer.ChatMessageSpecialType
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

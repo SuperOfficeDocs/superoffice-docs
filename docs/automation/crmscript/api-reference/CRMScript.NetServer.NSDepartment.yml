@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSDepartment
+  commentId: T:CRMScript.NetServer.NSDepartment
+  id: NSDepartment
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSDepartment.#ctor
+  - CRMScript.NetServer.NSDepartment.GetId()
+  - CRMScript.NetServer.NSDepartment.GetTooltip()
+  - CRMScript.NetServer.NSDepartment.GetValue()
+  - CRMScript.NetServer.NSDepartment.SetId(Integer)
+  - CRMScript.NetServer.NSDepartment.SetTooltip(String)
+  - CRMScript.NetServer.NSDepartment.SetValue(String)
+  name: NSDepartment
+  nameWithType: NSDepartment
+  fullName: CRMScript.NetServer.NSDepartment
+  type: Class
+  summary: "\nAlso known as User Group."
+  example: 
+- uid: CRMScript.NetServer.NSDepartment.#ctor
+  commentId: M:CRMScript.NetServer.NSDepartment.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSDepartment
+  langs:
+  - crmscript
+  name: NSDepartment()
+  nameWithType: NSDepartment.#ctor
+  fullName: CRMScript.NetServer.NSDepartment.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSDepartment class.\n"
+  remarks: 
+  syntax: 
+    content: NSDepartment
+  example: 
+- uid: CRMScript.NetServer.NSDepartment.GetId()
+  commentId: M:CRMScript.NetServer.NSDepartment.GetId()
+  id: 'GetId()'
+  so.intellisense: NSDepartment.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSDepartment.GetId()
+  fullName: CRMScript.NetServer.NSDepartment.GetId()
+  type: Method
+  summary: "\nGets the primary key (ID) for the Department\n"
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSDepartment thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDepartment.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSDepartment.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSDepartment.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSDepartment.GetTooltip()
+  fullName: CRMScript.NetServer.NSDepartment.GetTooltip()
+  type: Method
+  summary: "\nGets the tooltip description for the Department list item.\n"
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String'
+      description:
+  example: 
+  - "\n<pre><code>NSDepartment thing;\nString descr = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDepartment.GetValue()
+  commentId: M:CRMScript.NetServer.NSDepartment.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSDepartment.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSDepartment.GetValue()
+  fullName: CRMScript.NetServer.NSDepartment.GetValue()
+  type: Method
+  summary: "\nGets the name of the Department.\n"
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSDepartment thing;\nString name = thing.GetValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDepartment.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSDepartment.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSDepartment.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSDepartment.SetId(Integer)
+  fullName: CRMScript.NetServer.NSDepartment.SetId(Integer)
+  type: Method
+  summary: "\nSets the primary key (ID) for the Department\n"
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDepartment thing;\nthing.SetId(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDepartment.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSDepartment.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSDepartment.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSDepartment.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSDepartment.SetTooltip(String)
+  type: Method
+  summary: "\nSets the tooltip description for the Department list item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDepartment thing;\nString descr = &quot;something new&quot;;\nthing.SetTooltip(descr);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDepartment.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSDepartment.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSDepartment.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSDepartment.SetValue(String)
+  fullName: CRMScript.NetServer.NSDepartment.SetValue(String)
+  type: Method
+  summary: "\nSets the name of the Department item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDepartment thing;\nthing.SetValue(&quot;frotz&quot;);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSDepartment
+  commentId: T:CRMScript.NetServer.NSDepartment
+  isExternal: true
+  name: NSDepartment
+  nameWithType: NSDepartment
+  fullName: CRMScript.NetServer.NSDepartment
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

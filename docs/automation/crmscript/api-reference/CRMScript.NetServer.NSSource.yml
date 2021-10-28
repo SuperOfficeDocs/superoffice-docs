@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSSource
+  commentId: T:CRMScript.NetServer.NSSource
+  id: NSSource
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSSource.#ctor
+  - CRMScript.NetServer.NSSource.GetId()
+  - CRMScript.NetServer.NSSource.GetTooltip()
+  - CRMScript.NetServer.NSSource.GetValue()
+  - CRMScript.NetServer.NSSource.SetId(Integer)
+  - CRMScript.NetServer.NSSource.SetTooltip(String)
+  - CRMScript.NetServer.NSSource.SetValue(String)
+  name: NSSource
+  nameWithType: NSSource
+  fullName: CRMScript.NetServer.NSSource
+  type: Class
+  summary: "\nSource of a sale.\n"
+  example: 
+- uid: CRMScript.NetServer.NSSource.#ctor
+  commentId: M:CRMScript.NetServer.NSSource.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSSource
+  langs:
+  - crmscript
+  name: NSSource()
+  nameWithType: NSSource.#ctor
+  fullName: CRMScript.NetServer.NSSource.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSSource class.\n"
+  remarks: 
+  syntax: 
+    content: NSSource
+  example: 
+- uid: CRMScript.NetServer.NSSource.GetId()
+  commentId: M:CRMScript.NetServer.NSSource.GetId()
+  id: 'GetId()'
+  so.intellisense: NSSource.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSSource.GetId()
+  fullName: CRMScript.NetServer.NSSource.GetId()
+  type: Method
+  summary: "\nGets the primary key (ID) for the Source\n"
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSSource thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSource.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSSource.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSSource.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSSource.GetTooltip()
+  fullName: CRMScript.NetServer.NSSource.GetTooltip()
+  type: Method
+  summary: "\nGets the tooltip description for the Source list item.\n"
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSSource thing;\nString descr = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSource.GetValue()
+  commentId: M:CRMScript.NetServer.NSSource.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSSource.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSSource.GetValue()
+  fullName: CRMScript.NetServer.NSSource.GetValue()
+  type: Method
+  summary: "\nGets the name of the Source.\n"
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSSource thing;\nString name = thing.GetValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSource.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSSource.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSSource.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSSource.SetId(Integer)
+  fullName: CRMScript.NetServer.NSSource.SetId(Integer)
+  type: Method
+  summary: "\nSets the primary key (ID) for the Source\n"
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSource thing;\nthing.SetId(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSource.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSSource.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSSource.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSSource.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSSource.SetTooltip(String)
+  type: Method
+  summary: "\nSets the tooltip description for the Source list item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSource thing;\nString descr = &quot;something new&quot;;\nthing.SetTooltip(descr);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSource.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSSource.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSSource.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSSource.SetValue(String)
+  fullName: CRMScript.NetServer.NSSource.SetValue(String)
+  type: Method
+  summary: "\nSets the name of the Source item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSource thing;\nthing.SetValue(&quot;frotz&quot;);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSSource
+  commentId: T:CRMScript.NetServer.NSSource
+  isExternal: true
+  name: NSSource
+  nameWithType: NSSource
+  fullName: CRMScript.NetServer.NSSource
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

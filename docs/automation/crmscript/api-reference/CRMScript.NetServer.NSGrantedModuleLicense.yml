@@ -1,0 +1,691 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSGrantedModuleLicense
+  commentId: T:CRMScript.NetServer.NSGrantedModuleLicense
+  id: NSGrantedModuleLicense
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSGrantedModuleLicense.#ctor
+  - CRMScript.NetServer.NSGrantedModuleLicense.GetDescription()
+  - CRMScript.NetServer.NSGrantedModuleLicense.GetExpiryDate()
+  - CRMScript.NetServer.NSGrantedModuleLicense.GetExtraFlags()
+  - CRMScript.NetServer.NSGrantedModuleLicense.GetExtraInfo()
+  - CRMScript.NetServer.NSGrantedModuleLicense.GetIsHidden()
+  - CRMScript.NetServer.NSGrantedModuleLicense.GetIsUnrestricted()
+  - CRMScript.NetServer.NSGrantedModuleLicense.GetLicenseNumber()
+  - CRMScript.NetServer.NSGrantedModuleLicense.GetLicenseType()
+  - CRMScript.NetServer.NSGrantedModuleLicense.GetModuleId()
+  - CRMScript.NetServer.NSGrantedModuleLicense.GetName()
+  - CRMScript.NetServer.NSGrantedModuleLicense.GetOwnerDescription()
+  - CRMScript.NetServer.NSGrantedModuleLicense.GetOwnerId()
+  - CRMScript.NetServer.NSGrantedModuleLicense.GetOwnerName()
+  - CRMScript.NetServer.NSGrantedModuleLicense.GetSortOrder()
+  - CRMScript.NetServer.NSGrantedModuleLicense.GetVersion()
+  - CRMScript.NetServer.NSGrantedModuleLicense.SetDescription(String)
+  - CRMScript.NetServer.NSGrantedModuleLicense.SetExpiryDate(DateTime)
+  - CRMScript.NetServer.NSGrantedModuleLicense.SetExtraFlags(Integer)
+  - CRMScript.NetServer.NSGrantedModuleLicense.SetExtraInfo(String)
+  - CRMScript.NetServer.NSGrantedModuleLicense.SetIsHidden(Bool)
+  - CRMScript.NetServer.NSGrantedModuleLicense.SetIsUnrestricted(Bool)
+  - CRMScript.NetServer.NSGrantedModuleLicense.SetLicenseNumber(Integer)
+  - CRMScript.NetServer.NSGrantedModuleLicense.SetLicenseType(Integer)
+  - CRMScript.NetServer.NSGrantedModuleLicense.SetModuleId(Integer)
+  - CRMScript.NetServer.NSGrantedModuleLicense.SetName(String)
+  - CRMScript.NetServer.NSGrantedModuleLicense.SetOwnerDescription(String)
+  - CRMScript.NetServer.NSGrantedModuleLicense.SetOwnerId(Integer)
+  - CRMScript.NetServer.NSGrantedModuleLicense.SetOwnerName(String)
+  - CRMScript.NetServer.NSGrantedModuleLicense.SetSortOrder(Integer)
+  - CRMScript.NetServer.NSGrantedModuleLicense.SetVersion(String)
+  name: NSGrantedModuleLicense
+  nameWithType: NSGrantedModuleLicense
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.#ctor
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSGrantedModuleLicense
+  langs:
+  - crmscript
+  name: NSGrantedModuleLicense()
+  nameWithType: NSGrantedModuleLicense.#ctor
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.#ctor
+  type: Constructor
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSGrantedModuleLicense
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.GetDescription()
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSGrantedModuleLicense.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSGrantedModuleLicense.GetDescription()
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.GetExpiryDate()
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetExpiryDate()
+  id: 'GetExpiryDate()'
+  so.intellisense: NSGrantedModuleLicense.GetExpiryDate
+  langs:
+  - crmscript
+  name: 'GetExpiryDate()'
+  nameWithType: NSGrantedModuleLicense.GetExpiryDate()
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.GetExpiryDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTimeGetExpiryDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.GetExtraFlags()
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetExtraFlags()
+  id: 'GetExtraFlags()'
+  so.intellisense: NSGrantedModuleLicense.GetExtraFlags
+  langs:
+  - crmscript
+  name: 'GetExtraFlags()'
+  nameWithType: NSGrantedModuleLicense.GetExtraFlags()
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.GetExtraFlags()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetExtraFlags()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.GetExtraInfo()
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetExtraInfo()
+  id: 'GetExtraInfo()'
+  so.intellisense: NSGrantedModuleLicense.GetExtraInfo
+  langs:
+  - crmscript
+  name: 'GetExtraInfo()'
+  nameWithType: NSGrantedModuleLicense.GetExtraInfo()
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.GetExtraInfo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExtraInfo()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.GetIsHidden()
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetIsHidden()
+  id: 'GetIsHidden()'
+  so.intellisense: NSGrantedModuleLicense.GetIsHidden
+  langs:
+  - crmscript
+  name: 'GetIsHidden()'
+  nameWithType: NSGrantedModuleLicense.GetIsHidden()
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.GetIsHidden()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsHidden()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.GetIsUnrestricted()
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetIsUnrestricted()
+  id: 'GetIsUnrestricted()'
+  so.intellisense: NSGrantedModuleLicense.GetIsUnrestricted
+  langs:
+  - crmscript
+  name: 'GetIsUnrestricted()'
+  nameWithType: NSGrantedModuleLicense.GetIsUnrestricted()
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.GetIsUnrestricted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsUnrestricted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.GetLicenseNumber()
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetLicenseNumber()
+  id: 'GetLicenseNumber()'
+  so.intellisense: NSGrantedModuleLicense.GetLicenseNumber
+  langs:
+  - crmscript
+  name: 'GetLicenseNumber()'
+  nameWithType: NSGrantedModuleLicense.GetLicenseNumber()
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.GetLicenseNumber()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetLicenseNumber()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.GetLicenseType()
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetLicenseType()
+  id: 'GetLicenseType()'
+  so.intellisense: NSGrantedModuleLicense.GetLicenseType
+  langs:
+  - crmscript
+  name: 'GetLicenseType()'
+  nameWithType: NSGrantedModuleLicense.GetLicenseType()
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.GetLicenseType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetLicenseType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.GetModuleId()
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetModuleId()
+  id: 'GetModuleId()'
+  so.intellisense: NSGrantedModuleLicense.GetModuleId
+  langs:
+  - crmscript
+  name: 'GetModuleId()'
+  nameWithType: NSGrantedModuleLicense.GetModuleId()
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.GetModuleId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetModuleId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.GetName()
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetName()
+  id: 'GetName()'
+  so.intellisense: NSGrantedModuleLicense.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSGrantedModuleLicense.GetName()
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.GetOwnerDescription()
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetOwnerDescription()
+  id: 'GetOwnerDescription()'
+  so.intellisense: NSGrantedModuleLicense.GetOwnerDescription
+  langs:
+  - crmscript
+  name: 'GetOwnerDescription()'
+  nameWithType: NSGrantedModuleLicense.GetOwnerDescription()
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.GetOwnerDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetOwnerDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.GetOwnerId()
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetOwnerId()
+  id: 'GetOwnerId()'
+  so.intellisense: NSGrantedModuleLicense.GetOwnerId
+  langs:
+  - crmscript
+  name: 'GetOwnerId()'
+  nameWithType: NSGrantedModuleLicense.GetOwnerId()
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.GetOwnerId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetOwnerId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.GetOwnerName()
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetOwnerName()
+  id: 'GetOwnerName()'
+  so.intellisense: NSGrantedModuleLicense.GetOwnerName
+  langs:
+  - crmscript
+  name: 'GetOwnerName()'
+  nameWithType: NSGrantedModuleLicense.GetOwnerName()
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.GetOwnerName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetOwnerName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.GetSortOrder()
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetSortOrder()
+  id: 'GetSortOrder()'
+  so.intellisense: NSGrantedModuleLicense.GetSortOrder
+  langs:
+  - crmscript
+  name: 'GetSortOrder()'
+  nameWithType: NSGrantedModuleLicense.GetSortOrder()
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.GetSortOrder()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSortOrder()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.GetVersion()
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.GetVersion()
+  id: 'GetVersion()'
+  so.intellisense: NSGrantedModuleLicense.GetVersion
+  langs:
+  - crmscript
+  name: 'GetVersion()'
+  nameWithType: NSGrantedModuleLicense.GetVersion()
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.GetVersion()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetVersion()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSGrantedModuleLicense.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSGrantedModuleLicense.SetDescription(String)
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.SetExpiryDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetExpiryDate(DateTime)
+  id: 'SetExpiryDate(DateTime)'
+  so.intellisense: NSGrantedModuleLicense.SetExpiryDate
+  langs:
+  - crmscript
+  name: 'SetExpiryDate(DateTime)'
+  nameWithType: NSGrantedModuleLicense.SetExpiryDate(DateTime)
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.SetExpiryDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExpiryDate(DateTime expiry)
+    parameters:
+    - id: expiry
+      type: CRMScript.Global.DateTime
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.SetExtraFlags(Integer)
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetExtraFlags(Integer)
+  id: 'SetExtraFlags(Integer)'
+  so.intellisense: NSGrantedModuleLicense.SetExtraFlags
+  langs:
+  - crmscript
+  name: 'SetExtraFlags(Integer)'
+  nameWithType: NSGrantedModuleLicense.SetExtraFlags(Integer)
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.SetExtraFlags(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraFlags(Integer flags)
+    parameters:
+    - id: flags
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.SetExtraInfo(String)
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetExtraInfo(String)
+  id: 'SetExtraInfo(String)'
+  so.intellisense: NSGrantedModuleLicense.SetExtraInfo
+  langs:
+  - crmscript
+  name: 'SetExtraInfo(String)'
+  nameWithType: NSGrantedModuleLicense.SetExtraInfo(String)
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.SetExtraInfo(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraInfo(String info)
+    parameters:
+    - id: info
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.SetIsHidden(Bool)
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetIsHidden(Bool)
+  id: 'SetIsHidden(Bool)'
+  so.intellisense: NSGrantedModuleLicense.SetIsHidden
+  langs:
+  - crmscript
+  name: 'SetIsHidden(Bool)'
+  nameWithType: NSGrantedModuleLicense.SetIsHidden(Bool)
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.SetIsHidden(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsHidden(Bool isHidden)
+    parameters:
+    - id: isHidden
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.SetIsUnrestricted(Bool)
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetIsUnrestricted(Bool)
+  id: 'SetIsUnrestricted(Bool)'
+  so.intellisense: NSGrantedModuleLicense.SetIsUnrestricted
+  langs:
+  - crmscript
+  name: 'SetIsUnrestricted(Bool)'
+  nameWithType: NSGrantedModuleLicense.SetIsUnrestricted(Bool)
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.SetIsUnrestricted(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsUnrestricted(Bool isUnrestricted)
+    parameters:
+    - id: isUnrestricted
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.SetLicenseNumber(Integer)
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetLicenseNumber(Integer)
+  id: 'SetLicenseNumber(Integer)'
+  so.intellisense: NSGrantedModuleLicense.SetLicenseNumber
+  langs:
+  - crmscript
+  name: 'SetLicenseNumber(Integer)'
+  nameWithType: NSGrantedModuleLicense.SetLicenseNumber(Integer)
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.SetLicenseNumber(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLicenseNumber(Integer licenseNumber)
+    parameters:
+    - id: licenseNumber
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.SetLicenseType(Integer)
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetLicenseType(Integer)
+  id: 'SetLicenseType(Integer)'
+  so.intellisense: NSGrantedModuleLicense.SetLicenseType
+  langs:
+  - crmscript
+  name: 'SetLicenseType(Integer)'
+  nameWithType: NSGrantedModuleLicense.SetLicenseType(Integer)
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.SetLicenseType(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLicenseType(Integer licenseType)
+    parameters:
+    - id: licenseType
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.SetModuleId(Integer)
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetModuleId(Integer)
+  id: 'SetModuleId(Integer)'
+  so.intellisense: NSGrantedModuleLicense.SetModuleId
+  langs:
+  - crmscript
+  name: 'SetModuleId(Integer)'
+  nameWithType: NSGrantedModuleLicense.SetModuleId(Integer)
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.SetModuleId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetModuleId(Integer moduleId)
+    parameters:
+    - id: moduleId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.SetName(String)
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSGrantedModuleLicense.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSGrantedModuleLicense.SetName(String)
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.SetOwnerDescription(String)
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetOwnerDescription(String)
+  id: 'SetOwnerDescription(String)'
+  so.intellisense: NSGrantedModuleLicense.SetOwnerDescription
+  langs:
+  - crmscript
+  name: 'SetOwnerDescription(String)'
+  nameWithType: NSGrantedModuleLicense.SetOwnerDescription(String)
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.SetOwnerDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOwnerDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.SetOwnerId(Integer)
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetOwnerId(Integer)
+  id: 'SetOwnerId(Integer)'
+  so.intellisense: NSGrantedModuleLicense.SetOwnerId
+  langs:
+  - crmscript
+  name: 'SetOwnerId(Integer)'
+  nameWithType: NSGrantedModuleLicense.SetOwnerId(Integer)
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.SetOwnerId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOwnerId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.SetOwnerName(String)
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetOwnerName(String)
+  id: 'SetOwnerName(String)'
+  so.intellisense: NSGrantedModuleLicense.SetOwnerName
+  langs:
+  - crmscript
+  name: 'SetOwnerName(String)'
+  nameWithType: NSGrantedModuleLicense.SetOwnerName(String)
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.SetOwnerName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOwnerName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.SetSortOrder(Integer)
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetSortOrder(Integer)
+  id: 'SetSortOrder(Integer)'
+  so.intellisense: NSGrantedModuleLicense.SetSortOrder
+  langs:
+  - crmscript
+  name: 'SetSortOrder(Integer)'
+  nameWithType: NSGrantedModuleLicense.SetSortOrder(Integer)
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.SetSortOrder(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSortOrder(Integer sortOrder)
+    parameters:
+    - id: sortOrder
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSGrantedModuleLicense.SetVersion(String)
+  commentId: M:CRMScript.NetServer.NSGrantedModuleLicense.SetVersion(String)
+  id: 'SetVersion(String)'
+  so.intellisense: NSGrantedModuleLicense.SetVersion
+  langs:
+  - crmscript
+  name: 'SetVersion(String)'
+  nameWithType: NSGrantedModuleLicense.SetVersion(String)
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense.SetVersion(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetVersion(String version)
+    parameters:
+    - id: version
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSGrantedModuleLicense
+  commentId: T:CRMScript.NetServer.NSGrantedModuleLicense
+  isExternal: true
+  name: NSGrantedModuleLicense
+  nameWithType: NSGrantedModuleLicense
+  fullName: CRMScript.NetServer.NSGrantedModuleLicense
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

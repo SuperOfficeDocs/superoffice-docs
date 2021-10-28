@@ -1,0 +1,369 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSConsentSource
+  commentId: T:CRMScript.NetServer.NSConsentSource
+  id: NSConsentSource
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSConsentSource.#ctor
+  - CRMScript.NetServer.NSConsentSource.GetConsentSourceId()
+  - CRMScript.NetServer.NSConsentSource.GetDeleted()
+  - CRMScript.NetServer.NSConsentSource.GetKey()
+  - CRMScript.NetServer.NSConsentSource.GetMailTemplateId()
+  - CRMScript.NetServer.NSConsentSource.GetName()
+  - CRMScript.NetServer.NSConsentSource.GetRank()
+  - CRMScript.NetServer.NSConsentSource.GetTooltip()
+  - CRMScript.NetServer.NSConsentSource.SetConsentSourceId(Integer)
+  - CRMScript.NetServer.NSConsentSource.SetDeleted(Bool)
+  - CRMScript.NetServer.NSConsentSource.SetKey(String)
+  - CRMScript.NetServer.NSConsentSource.SetMailTemplateId(Integer)
+  - CRMScript.NetServer.NSConsentSource.SetName(String)
+  - CRMScript.NetServer.NSConsentSource.SetRank(Integer)
+  - CRMScript.NetServer.NSConsentSource.SetTooltip(String)
+  name: NSConsentSource
+  nameWithType: NSConsentSource
+  fullName: CRMScript.NetServer.NSConsentSource
+  type: Class
+  summary: "\nCarrier object for ConsentSource.\n"
+  example: 
+- uid: CRMScript.NetServer.NSConsentSource.#ctor
+  commentId: M:CRMScript.NetServer.NSConsentSource.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSConsentSource
+  langs:
+  - crmscript
+  name: NSConsentSource()
+  nameWithType: NSConsentSource.#ctor
+  fullName: CRMScript.NetServer.NSConsentSource.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSConsentSource class.\n"
+  remarks: 
+  syntax: 
+    content: NSConsentSource
+  example: 
+- uid: CRMScript.NetServer.NSConsentSource.GetConsentSourceId()
+  commentId: M:CRMScript.NetServer.NSConsentSource.GetConsentSourceId()
+  id: 'GetConsentSourceId()'
+  so.intellisense: NSConsentSource.GetConsentSourceId
+  langs:
+  - crmscript
+  name: 'GetConsentSourceId()'
+  nameWithType: NSConsentSource.GetConsentSourceId()
+  fullName: CRMScript.NetServer.NSConsentSource.GetConsentSourceId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetConsentSourceId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSConsentSource thing;\nInteger consentSourceId = thing.GetConsentSourceId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentSource.GetDeleted()
+  commentId: M:CRMScript.NetServer.NSConsentSource.GetDeleted()
+  id: 'GetDeleted()'
+  so.intellisense: NSConsentSource.GetDeleted
+  langs:
+  - crmscript
+  name: 'GetDeleted()'
+  nameWithType: NSConsentSource.GetDeleted()
+  fullName: CRMScript.NetServer.NSConsentSource.GetDeleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetDeleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "true if the NSConsentSource is deleted."
+  example: 
+  - "\n<pre><code>NSConsentSource thing;\nBool deleted = thing.GetDeleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentSource.GetKey()
+  commentId: M:CRMScript.NetServer.NSConsentSource.GetKey()
+  id: 'GetKey()'
+  so.intellisense: NSConsentSource.GetKey
+  langs:
+  - crmscript
+  name: 'GetKey()'
+  nameWithType: NSConsentSource.GetKey()
+  fullName: CRMScript.NetServer.NSConsentSource.GetKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The key used to uniquely identify this consent source."
+  example: 
+  - "\n<pre><code>NSConsentSource thing;\nString key = thing.GetKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentSource.GetMailTemplateId()
+  commentId: M:CRMScript.NetServer.NSConsentSource.GetMailTemplateId()
+  id: 'GetMailTemplateId()'
+  so.intellisense: NSConsentSource.GetMailTemplateId
+  langs:
+  - crmscript
+  name: 'GetMailTemplateId()'
+  nameWithType: NSConsentSource.GetMailTemplateId()
+  fullName: CRMScript.NetServer.NSConsentSource.GetMailTemplateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetMailTemplateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The mail template to use when automatically sending emails to new persons created with this consent source."
+  example: 
+  - "\n<pre><code>NSConsentSource thing;\nInteger mailTemplateId = thing.GetMailTemplateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentSource.GetName()
+  commentId: M:CRMScript.NetServer.NSConsentSource.GetName()
+  id: 'GetName()'
+  so.intellisense: NSConsentSource.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSConsentSource.GetName()
+  fullName: CRMScript.NetServer.NSConsentSource.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of consent source."
+  example: 
+  - "\n<pre><code>NSConsentSource thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentSource.GetRank()
+  commentId: M:CRMScript.NetServer.NSConsentSource.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSConsentSource.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSConsentSource.GetRank()
+  fullName: CRMScript.NetServer.NSConsentSource.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Rank of this consent source."
+  example: 
+  - "\n<pre><code>NSConsentSource thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentSource.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSConsentSource.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSConsentSource.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSConsentSource.GetTooltip()
+  fullName: CRMScript.NetServer.NSConsentSource.GetTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Tooltip for this consent source."
+  example: 
+  - "\n<pre><code>NSConsentSource thing;\nString tooltip = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentSource.SetConsentSourceId(Integer)
+  commentId: M:CRMScript.NetServer.NSConsentSource.SetConsentSourceId(Integer)
+  id: 'SetConsentSourceId(Integer)'
+  so.intellisense: NSConsentSource.SetConsentSourceId
+  langs:
+  - crmscript
+  name: 'SetConsentSourceId(Integer)'
+  nameWithType: NSConsentSource.SetConsentSourceId(Integer)
+  fullName: CRMScript.NetServer.NSConsentSource.SetConsentSourceId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetConsentSourceId(Integer consentSourceId)
+    parameters:
+    - id: consentSourceId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentSource thing;\nInteger consentSourceId;\nthing.SetConsentSourceId(consentSourceId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentSource.SetDeleted(Bool)
+  commentId: M:CRMScript.NetServer.NSConsentSource.SetDeleted(Bool)
+  id: 'SetDeleted(Bool)'
+  so.intellisense: NSConsentSource.SetDeleted
+  langs:
+  - crmscript
+  name: 'SetDeleted(Bool)'
+  nameWithType: NSConsentSource.SetDeleted(Bool)
+  fullName: CRMScript.NetServer.NSConsentSource.SetDeleted(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeleted(Bool deleted)
+    parameters:
+    - id: deleted
+      type: CRMScript.Global.Bool
+      description: "true if the NSConsentSource is deleted."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentSource thing;\nBool deleted;\nthing.SetDeleted(deleted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentSource.SetKey(String)
+  commentId: M:CRMScript.NetServer.NSConsentSource.SetKey(String)
+  id: 'SetKey(String)'
+  so.intellisense: NSConsentSource.SetKey
+  langs:
+  - crmscript
+  name: 'SetKey(String)'
+  nameWithType: NSConsentSource.SetKey(String)
+  fullName: CRMScript.NetServer.NSConsentSource.SetKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetKey(String key)
+    parameters:
+    - id: key
+      type: CRMScript.Global.String
+      description: "The key used to uniquely identify this consent source."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentSource thing;\nString key;\nthing.SetKey(key);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentSource.SetMailTemplateId(Integer)
+  commentId: M:CRMScript.NetServer.NSConsentSource.SetMailTemplateId(Integer)
+  id: 'SetMailTemplateId(Integer)'
+  so.intellisense: NSConsentSource.SetMailTemplateId
+  langs:
+  - crmscript
+  name: 'SetMailTemplateId(Integer)'
+  nameWithType: NSConsentSource.SetMailTemplateId(Integer)
+  fullName: CRMScript.NetServer.NSConsentSource.SetMailTemplateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMailTemplateId(Integer mailTemplateId)
+    parameters:
+    - id: mailTemplateId
+      type: CRMScript.Global.Integer
+      description: "The mail template to use when automatically sending emails to new persons created with this consent source."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentSource thing;\nInteger mailTemplateId;\nthing.SetMailTemplateId(mailTemplateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentSource.SetName(String)
+  commentId: M:CRMScript.NetServer.NSConsentSource.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSConsentSource.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSConsentSource.SetName(String)
+  fullName: CRMScript.NetServer.NSConsentSource.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Name of consent source."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentSource thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentSource.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSConsentSource.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSConsentSource.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSConsentSource.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSConsentSource.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "Rank of this consent source."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentSource thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSConsentSource.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSConsentSource.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSConsentSource.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSConsentSource.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSConsentSource.SetTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: "Tooltip for this consent source."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSConsentSource thing;\nString tooltip;\nthing.SetTooltip(tooltip);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSConsentSource
+  commentId: T:CRMScript.NetServer.NSConsentSource
+  isExternal: true
+  name: NSConsentSource
+  nameWithType: NSConsentSource
+  fullName: CRMScript.NetServer.NSConsentSource
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

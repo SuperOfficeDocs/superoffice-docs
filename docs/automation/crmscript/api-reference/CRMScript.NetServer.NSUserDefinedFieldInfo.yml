@@ -1,0 +1,1617 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo
+  commentId: T:CRMScript.NetServer.NSUserDefinedFieldInfo
+  id: NSUserDefinedFieldInfo
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.#ctor
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetColumnId()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldDefault()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldHeight()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldLabel()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldLeft()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldTop()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldType()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldWidth()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetFormatMask()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetHasBeenPublished()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetHideLabel()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetIsIndexed()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetIsMandatory()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetIsReadOnly()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetJustification()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetLabelHeight()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetLabelLeft()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetLabelTop()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetLabelWidth()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetLastVersionId()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetListTableId()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetMdoListName()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetOwnerTableId()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetPage1LineNo()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetProgId()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetShortLabel()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetTabOrder()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetTemplateVariableName()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetTextLength()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetTooltip()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetType()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetUDefFieldId()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetUdefIdentity()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetUDListDefinitionId()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.GetVersion()
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetColumnId(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldDefault(String)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldHeight(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldLabel(String)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldLeft(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldTop(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldType(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldWidth(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetFormatMask(String)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetHasBeenPublished(Bool)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetHideLabel(Bool)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetIsIndexed(Bool)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetIsMandatory(Bool)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetIsReadOnly(Bool)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetJustification(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetLabelHeight(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetLabelLeft(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetLabelTop(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetLabelWidth(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetLastVersionId(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetListTableId(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetMdoListName(String)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetOwnerTableId(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetPage1LineNo(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetProgId(String)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetShortLabel(String)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetTabOrder(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetTemplateVariableName(String)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetTextLength(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetTooltip(String)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetType(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetUDefFieldId(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetUdefIdentity(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetUDListDefinitionId(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfo.SetVersion(Integer)
+  name: NSUserDefinedFieldInfo
+  nameWithType: NSUserDefinedFieldInfo
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo
+  type: Class
+  summary: "\nCan be used to mirror the layout of the user-defined fields in the user interface.\n"
+  example: 
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.#ctor
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSUserDefinedFieldInfo
+  langs:
+  - crmscript
+  name: NSUserDefinedFieldInfo()
+  nameWithType: NSUserDefinedFieldInfo.#ctor
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSUserDefinedFieldInfo class.\n"
+  remarks: 
+  syntax: 
+    content: NSUserDefinedFieldInfo
+  example: 
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetColumnId()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetColumnId()
+  id: 'GetColumnId()'
+  so.intellisense: NSUserDefinedFieldInfo.GetColumnId
+  langs:
+  - crmscript
+  name: 'GetColumnId()'
+  nameWithType: NSUserDefinedFieldInfo.GetColumnId()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetColumnId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetColumnId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the database column this field corresponds to."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger columnId = thing.GetColumnId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldDefault()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldDefault()
+  id: 'GetFieldDefault()'
+  so.intellisense: NSUserDefinedFieldInfo.GetFieldDefault
+  langs:
+  - crmscript
+  name: 'GetFieldDefault()'
+  nameWithType: NSUserDefinedFieldInfo.GetFieldDefault()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldDefault()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFieldDefault()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Optional default value for String fields."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nString fieldDefault = thing.GetFieldDefault();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldHeight()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldHeight()
+  id: 'GetFieldHeight()'
+  so.intellisense: NSUserDefinedFieldInfo.GetFieldHeight
+  langs:
+  - crmscript
+  name: 'GetFieldHeight()'
+  nameWithType: NSUserDefinedFieldInfo.GetFieldHeight()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldHeight()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetFieldHeight()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "field height in pixels, 0 = 'enough' (from font)."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger fieldHeight = thing.GetFieldHeight();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldLabel()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldLabel()
+  id: 'GetFieldLabel()'
+  so.intellisense: NSUserDefinedFieldInfo.GetFieldLabel
+  langs:
+  - crmscript
+  name: 'GetFieldLabel()'
+  nameWithType: NSUserDefinedFieldInfo.GetFieldLabel()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldLabel()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFieldLabel()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The label (lead text)."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nString fieldLabel = thing.GetFieldLabel();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldLeft()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldLeft()
+  id: 'GetFieldLeft()'
+  so.intellisense: NSUserDefinedFieldInfo.GetFieldLeft
+  langs:
+  - crmscript
+  name: 'GetFieldLeft()'
+  nameWithType: NSUserDefinedFieldInfo.GetFieldLeft()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldLeft()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetFieldLeft()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "X pixel coordinate of field."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger fieldLeft = thing.GetFieldLeft();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldTop()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldTop()
+  id: 'GetFieldTop()'
+  so.intellisense: NSUserDefinedFieldInfo.GetFieldTop
+  langs:
+  - crmscript
+  name: 'GetFieldTop()'
+  nameWithType: NSUserDefinedFieldInfo.GetFieldTop()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldTop()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetFieldTop()
+    parameters: []
+    return: 
+      type: CRMScript.Global.Integer
+      description: "Y pixel coordinate of field."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger fieldTop = thing.GetFieldTop();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldType()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldType()
+  id: 'GetFieldType()'
+  so.intellisense: NSUserDefinedFieldInfo.GetFieldType
+  langs:
+  - crmscript
+  name: 'GetFieldType()'
+  nameWithType: NSUserDefinedFieldInfo.GetFieldType()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetFieldType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UDefFieldType\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger fieldType = thing.GetFieldType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldWidth()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldWidth()
+  id: 'GetFieldWidth()'
+  so.intellisense: NSUserDefinedFieldInfo.GetFieldWidth
+  langs:
+  - crmscript
+  name: 'GetFieldWidth()'
+  nameWithType: NSUserDefinedFieldInfo.GetFieldWidth()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetFieldWidth()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetFieldWidth()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "field width in pixels, 0 = 'enough' (from font)."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger fieldWidth = thing.GetFieldWidth();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetFormatMask()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetFormatMask()
+  id: 'GetFormatMask()'
+  so.intellisense: NSUserDefinedFieldInfo.GetFormatMask
+  langs:
+  - crmscript
+  name: 'GetFormatMask()'
+  nameWithType: NSUserDefinedFieldInfo.GetFormatMask()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetFormatMask()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFormatMask()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Formatting mask, can be whatever the controls understand (currently nothing)."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nString formatMask = thing.GetFormatMask();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetHasBeenPublished()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetHasBeenPublished()
+  id: 'GetHasBeenPublished()'
+  so.intellisense: NSUserDefinedFieldInfo.GetHasBeenPublished
+  langs:
+  - crmscript
+  name: 'GetHasBeenPublished()'
+  nameWithType: NSUserDefinedFieldInfo.GetHasBeenPublished()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetHasBeenPublished()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetHasBeenPublished()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: Has the udef field been published?
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nBool hasBeenPublished = thing.GetHasBeenPublished();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetHideLabel()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetHideLabel()
+  id: 'GetHideLabel()'
+  so.intellisense: NSUserDefinedFieldInfo.GetHideLabel
+  langs:
+  - crmscript
+  name: 'GetHideLabel()'
+  nameWithType: NSUserDefinedFieldInfo.GetHideLabel()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetHideLabel()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetHideLabel()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: Hide the label if 1
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nBool hideLabel = thing.GetHideLabel();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetIsIndexed()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetIsIndexed()
+  id: 'GetIsIndexed()'
+  so.intellisense: NSUserDefinedFieldInfo.GetIsIndexed
+  langs:
+  - crmscript
+  name: 'GetIsIndexed()'
+  nameWithType: NSUserDefinedFieldInfo.GetIsIndexed()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetIsIndexed()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsIndexed()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Is this field indexed? true if yes; false if no."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nBool isIndexed = thing.GetIsIndexed();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetIsMandatory()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetIsMandatory()
+  id: 'GetIsMandatory()'
+  so.intellisense: NSUserDefinedFieldInfo.GetIsMandatory
+  langs:
+  - crmscript
+  name: 'GetIsMandatory()'
+  nameWithType: NSUserDefinedFieldInfo.GetIsMandatory()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetIsMandatory()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsMandatory()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "0 = no, 1 = yes (field must be filled out)."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nBool isMandatory = thing.GetIsMandatory();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetIsReadOnly()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetIsReadOnly()
+  id: 'GetIsReadOnly()'
+  so.intellisense: NSUserDefinedFieldInfo.GetIsReadOnly
+  langs:
+  - crmscript
+  name: 'GetIsReadOnly()'
+  nameWithType: NSUserDefinedFieldInfo.GetIsReadOnly()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetIsReadOnly()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsReadOnly()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "0 = read/write, 1 = readonly (don't combine with mandatory)."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nBool isReadOnly = thing.GetIsReadOnly();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetJustification()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetJustification()
+  id: 'GetJustification()'
+  so.intellisense: NSUserDefinedFieldInfo.GetJustification
+  langs:
+  - crmscript
+  name: 'GetJustification()'
+  nameWithType: NSUserDefinedFieldInfo.GetJustification()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetJustification()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetJustification()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Justification. See <xref href=\"CRMScript.NetServer.UdefJustification\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger justification = thing.GetJustification();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetLabelHeight()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetLabelHeight()
+  id: 'GetLabelHeight()'
+  so.intellisense: NSUserDefinedFieldInfo.GetLabelHeight
+  langs:
+  - crmscript
+  name: 'GetLabelHeight()'
+  nameWithType: NSUserDefinedFieldInfo.GetLabelHeight()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetLabelHeight()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetLabelHeight()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "label height in pixels, 0 = 'enough' (from font)."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger labelHeight = thing.GetLabelHeight();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetLabelLeft()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetLabelLeft()
+  id: 'GetLabelLeft()'
+  so.intellisense: NSUserDefinedFieldInfo.GetLabelLeft
+  langs:
+  - crmscript
+  name: 'GetLabelLeft()'
+  nameWithType: NSUserDefinedFieldInfo.GetLabelLeft()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetLabelLeft()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetLabelLeft()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "X pixel coordinate of label."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger labelLeft = thing.GetLabelLeft();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetLabelTop()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetLabelTop()
+  id: 'GetLabelTop()'
+  so.intellisense: NSUserDefinedFieldInfo.GetLabelTop
+  langs:
+  - crmscript
+  name: 'GetLabelTop()'
+  nameWithType: NSUserDefinedFieldInfo.GetLabelTop()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetLabelTop()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetLabelTop()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Y pixel coordinate of label."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger labelTop = thing.GetLabelTop();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetLabelWidth()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetLabelWidth()
+  id: 'GetLabelWidth()'
+  so.intellisense: NSUserDefinedFieldInfo.GetLabelWidth
+  langs:
+  - crmscript
+  name: 'GetLabelWidth()'
+  nameWithType: NSUserDefinedFieldInfo.GetLabelWidth()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetLabelWidth()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetLabelWidth()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "label width in pixels, 0 = 'enough' (from font)."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger labelWidth = thing.GetLabelWidth();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetLastVersionId()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetLastVersionId()
+  id: 'GetLastVersionId()'
+  so.intellisense: NSUserDefinedFieldInfo.GetLastVersionId
+  langs:
+  - crmscript
+  name: 'GetLastVersionId()'
+  nameWithType: NSUserDefinedFieldInfo.GetLastVersionId()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetLastVersionId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetLastVersionId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "UDefFieldId this field had in the previous version, 0 = field is new in this version."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger lastVersionId = thing.GetLastVersionId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetListTableId()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetListTableId()
+  id: 'GetListTableId()'
+  so.intellisense: NSUserDefinedFieldInfo.GetListTableId
+  langs:
+  - crmscript
+  name: 'GetListTableId()'
+  nameWithType: NSUserDefinedFieldInfo.GetListTableId()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetListTableId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetListTableId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The table ID of the source table for lists kTableAssoc, kTableContInt or whatever."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger listTableId = thing.GetListTableId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetMdoListName()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetMdoListName()
+  id: 'GetMdoListName()'
+  so.intellisense: NSUserDefinedFieldInfo.GetMdoListName
+  langs:
+  - crmscript
+  name: 'GetMdoListName()'
+  nameWithType: NSUserDefinedFieldInfo.GetMdoListName()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetMdoListName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetMdoListName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only)."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nString mdoListName = thing.GetMdoListName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetOwnerTableId()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetOwnerTableId()
+  id: 'GetOwnerTableId()'
+  so.intellisense: NSUserDefinedFieldInfo.GetOwnerTableId
+  langs:
+  - crmscript
+  name: 'GetOwnerTableId()'
+  nameWithType: NSUserDefinedFieldInfo.GetOwnerTableId()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetOwnerTableId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetOwnerTableId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of owning table (contact, person, project)."
+  example: 
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetPage1LineNo()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetPage1LineNo()
+  id: 'GetPage1LineNo()'
+  so.intellisense: NSUserDefinedFieldInfo.GetPage1LineNo
+  langs:
+  - crmscript
+  name: 'GetPage1LineNo()'
+  nameWithType: NSUserDefinedFieldInfo.GetPage1LineNo()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetPage1LineNo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPage1LineNo()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: Line no on View Page 1, used if MDO flags are OFF. 0 = this field is not visible on page 1
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger page1LineNo = thing.GetPage1LineNo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetProgId()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetProgId()
+  id: 'GetProgId()'
+  so.intellisense: NSUserDefinedFieldInfo.GetProgId
+  langs:
+  - crmscript
+  name: 'GetProgId()'
+  nameWithType: NSUserDefinedFieldInfo.GetProgId()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetProgId()
+  type: Method
+  summary: # TODO
+  remarks: "\nUse a Company.Product.Field format to avoid naming conflicts; the Company name SuperOffice is reserved.\n"
+  syntax: 
+    content: String GetProgId()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Programmatic ID, for use by software that needs to find a particular field. Carried over like udefIdentity across generations."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nString progId = thing.GetProgId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetShortLabel()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetShortLabel()
+  id: 'GetShortLabel()'
+  so.intellisense: NSUserDefinedFieldInfo.GetShortLabel
+  langs:
+  - crmscript
+  name: 'GetShortLabel()'
+  nameWithType: NSUserDefinedFieldInfo.GetShortLabel()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetShortLabel()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetShortLabel()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Short name to be used in Archive headings and on page 1. If blank, the fieldLabel will be used everywhere."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nString shortLabel = thing.GetShortLabel();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetTabOrder()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetTabOrder()
+  id: 'GetTabOrder()'
+  so.intellisense: NSUserDefinedFieldInfo.GetTabOrder
+  langs:
+  - crmscript
+  name: 'GetTabOrder()'
+  nameWithType: NSUserDefinedFieldInfo.GetTabOrder()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetTabOrder()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTabOrder()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Tab order value, sets the field processing sequence."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger tabOrder = thing.GetTabOrder();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetTemplateVariableName()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetTemplateVariableName()
+  id: 'GetTemplateVariableName()'
+  so.intellisense: NSUserDefinedFieldInfo.GetTemplateVariableName
+  langs:
+  - crmscript
+  name: 'GetTemplateVariableName()'
+  nameWithType: NSUserDefinedFieldInfo.GetTemplateVariableName()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetTemplateVariableName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTemplateVariableName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Template variable name."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nString templateVariableName = thing.GetTemplateVariableName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetTextLength()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetTextLength()
+  id: 'GetTextLength()'
+  so.intellisense: NSUserDefinedFieldInfo.GetTextLength
+  langs:
+  - crmscript
+  name: 'GetTextLength()'
+  nameWithType: NSUserDefinedFieldInfo.GetTextLength()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetTextLength()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTextLength()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Length (in characters) of a text field, 0 for other types."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger textLength = thing.GetTextLength();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSUserDefinedFieldInfo.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSUserDefinedFieldInfo.GetTooltip()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Optional tooltip text for this field."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nString tooltip = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetType()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetType()
+  id: 'GetType()'
+  so.intellisense: NSUserDefinedFieldInfo.GetType
+  langs:
+  - crmscript
+  name: 'GetType()'
+  nameWithType: NSUserDefinedFieldInfo.GetType()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetType()
+  type: Method
+  summary: # TODO
+  remarks: "\nThis is not the actual tableNumber, rather it's an enum.\n"
+  syntax: 
+    content: Integer GetType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of owning table (contact, person, project). See <xref href=\"CRMScript.NetServer.UDefType\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger type = thing.GetType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetUDefFieldId()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetUDefFieldId()
+  id: 'GetUDefFieldId()'
+  so.intellisense: NSUserDefinedFieldInfo.GetUDefFieldId
+  langs:
+  - crmscript
+  name: 'GetUDefFieldId()'
+  nameWithType: NSUserDefinedFieldInfo.GetUDefFieldId()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetUDefFieldId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetUDefFieldId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger uDefFieldId = thing.GetUDefFieldId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetUdefIdentity()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetUdefIdentity()
+  id: 'GetUdefIdentity()'
+  so.intellisense: NSUserDefinedFieldInfo.GetUdefIdentity
+  langs:
+  - crmscript
+  name: 'GetUdefIdentity()'
+  nameWithType: NSUserDefinedFieldInfo.GetUdefIdentity()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetUdefIdentity()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetUdefIdentity()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Unique number used to track field identity across layout changes."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger udefIdentity = thing.GetUdefIdentity();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetUDListDefinitionId()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetUDListDefinitionId()
+  id: 'GetUDListDefinitionId()'
+  so.intellisense: NSUserDefinedFieldInfo.GetUDListDefinitionId
+  langs:
+  - crmscript
+  name: 'GetUDListDefinitionId()'
+  nameWithType: NSUserDefinedFieldInfo.GetUDListDefinitionId()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetUDListDefinitionId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetUDListDefinitionId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "List to use for populating dropdown or listbox."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger uDListDefinitionId = thing.GetUDListDefinitionId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.GetVersion()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.GetVersion()
+  id: 'GetVersion()'
+  so.intellisense: NSUserDefinedFieldInfo.GetVersion
+  langs:
+  - crmscript
+  name: 'GetVersion()'
+  nameWithType: NSUserDefinedFieldInfo.GetVersion()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.GetVersion()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetVersion()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Definition version number; ALL fields get new version whenever layout is updated."
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger version = thing.GetVersion();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetColumnId(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetColumnId(Integer)
+  id: 'SetColumnId(Integer)'
+  so.intellisense: NSUserDefinedFieldInfo.SetColumnId
+  langs:
+  - crmscript
+  name: 'SetColumnId(Integer)'
+  nameWithType: NSUserDefinedFieldInfo.SetColumnId(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetColumnId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetColumnId(Integer columnId)
+    parameters:
+    - id: columnId
+      type: CRMScript.Global.Integer
+      description: "The ID of the database column this field corresponds to."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger columnId;\nthing.SetColumnId(columnId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldDefault(String)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldDefault(String)
+  id: 'SetFieldDefault(String)'
+  so.intellisense: NSUserDefinedFieldInfo.SetFieldDefault
+  langs:
+  - crmscript
+  name: 'SetFieldDefault(String)'
+  nameWithType: NSUserDefinedFieldInfo.SetFieldDefault(String)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldDefault(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFieldDefault(String fieldDefault)
+    parameters:
+    - id: fieldDefault
+      type: CRMScript.Global.String
+      description: "Optional default value for String fields."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nString fieldDefault;\nthing.SetFieldDefault(fieldDefault);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldHeight(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldHeight(Integer)
+  id: 'SetFieldHeight(Integer)'
+  so.intellisense: NSUserDefinedFieldInfo.SetFieldHeight
+  langs:
+  - crmscript
+  name: 'SetFieldHeight(Integer)'
+  nameWithType: NSUserDefinedFieldInfo.SetFieldHeight(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldHeight(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFieldHeight(Integer fieldHeight)
+    parameters:
+    - id: fieldHeight
+      type: CRMScript.Global.Integer
+      description: "field height in pixels, 0 = 'enough' (from font)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger fieldHeight;\nthing.SetFieldHeight(fieldHeight);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldLabel(String)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldLabel(String)
+  id: 'SetFieldLabel(String)'
+  so.intellisense: NSUserDefinedFieldInfo.SetFieldLabel
+  langs:
+  - crmscript
+  name: 'SetFieldLabel(String)'
+  nameWithType: NSUserDefinedFieldInfo.SetFieldLabel(String)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldLabel(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFieldLabel(String fieldLabel)
+    parameters:
+    - id: fieldLabel
+      type: CRMScript.Global.String
+      description: "The label (lead text)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nString fieldLabel;\nthing.SetFieldLabel(fieldLabel);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldLeft(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldLeft(Integer)
+  id: 'SetFieldLeft(Integer)'
+  so.intellisense: NSUserDefinedFieldInfo.SetFieldLeft
+  langs:
+  - crmscript
+  name: 'SetFieldLeft(Integer)'
+  nameWithType: NSUserDefinedFieldInfo.SetFieldLeft(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldLeft(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFieldLeft(Integer fieldLeft)
+    parameters:
+    - id: fieldLeft
+      type: CRMScript.Global.Integer
+      description: "X pixel coordinate of field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger fieldLeft;\nthing.SetFieldLeft(fieldLeft);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldTop(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldTop(Integer)
+  id: 'SetFieldTop(Integer)'
+  so.intellisense: NSUserDefinedFieldInfo.SetFieldTop
+  langs:
+  - crmscript
+  name: 'SetFieldTop(Integer)'
+  nameWithType: NSUserDefinedFieldInfo.SetFieldTop(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldTop(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFieldTop(Integer fieldTop)
+    parameters:
+    - id: fieldTop
+      type: CRMScript.Global.Integer
+      description: "Y pixel coordinate of field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger fieldTop;\nthing.SetFieldTop(fieldTop);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldType(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldType(Integer)
+  id: 'SetFieldType(Integer)'
+  so.intellisense: NSUserDefinedFieldInfo.SetFieldType
+  langs:
+  - crmscript
+  name: 'SetFieldType(Integer)'
+  nameWithType: NSUserDefinedFieldInfo.SetFieldType(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldType(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFieldType(Integer fieldType)
+    parameters:
+    - id: fieldType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UDefFieldType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger fieldType;\nthing.SetFieldType(fieldType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldWidth(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldWidth(Integer)
+  id: 'SetFieldWidth(Integer)'
+  so.intellisense: NSUserDefinedFieldInfo.SetFieldWidth
+  langs:
+  - crmscript
+  name: 'SetFieldWidth(Integer)'
+  nameWithType: NSUserDefinedFieldInfo.SetFieldWidth(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetFieldWidth(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFieldWidth(Integer fieldWidth)
+    parameters:
+    - id: fieldWidth
+      type: CRMScript.Global.Integer
+      description: "field width in pixels, 0 = 'enough' (from font)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger fieldWidth;\nthing.SetFieldWidth(fieldWidth);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetFormatMask(String)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetFormatMask(String)
+  id: 'SetFormatMask(String)'
+  so.intellisense: NSUserDefinedFieldInfo.SetFormatMask
+  langs:
+  - crmscript
+  name: 'SetFormatMask(String)'
+  nameWithType: NSUserDefinedFieldInfo.SetFormatMask(String)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetFormatMask(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFormatMask(String formatMask)
+    parameters:
+    - id: formatMask
+      type: CRMScript.Global.String
+      description: "Formatting mask, can be whatever the controls understand (currently nothing)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nString formatMask;\nthing.SetFormatMask(formatMask);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetHasBeenPublished(Bool)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetHasBeenPublished(Bool)
+  id: 'SetHasBeenPublished(Bool)'
+  so.intellisense: NSUserDefinedFieldInfo.SetHasBeenPublished
+  langs:
+  - crmscript
+  name: 'SetHasBeenPublished(Bool)'
+  nameWithType: NSUserDefinedFieldInfo.SetHasBeenPublished(Bool)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetHasBeenPublished(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetHasBeenPublished(Bool hasBeenPublished)
+    parameters:
+    - id: hasBeenPublished
+      type: CRMScript.Global.Bool
+      description: Has the udef field been published?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nBool hasBeenPublished;\nthing.SetHasBeenPublished(hasBeenPublished);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetHideLabel(Bool)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetHideLabel(Bool)
+  id: 'SetHideLabel(Bool)'
+  so.intellisense: NSUserDefinedFieldInfo.SetHideLabel
+  langs:
+  - crmscript
+  name: 'SetHideLabel(Bool)'
+  nameWithType: NSUserDefinedFieldInfo.SetHideLabel(Bool)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetHideLabel(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetHideLabel(Bool hideLabel)
+    parameters:
+    - id: hideLabel
+      type: CRMScript.Global.Bool
+      description: Hide the label if 1
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nBool hideLabel;\nthing.SetHideLabel(hideLabel);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetIsIndexed(Bool)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetIsIndexed(Bool)
+  id: 'SetIsIndexed(Bool)'
+  so.intellisense: NSUserDefinedFieldInfo.SetIsIndexed
+  langs:
+  - crmscript
+  name: 'SetIsIndexed(Bool)'
+  nameWithType: NSUserDefinedFieldInfo.SetIsIndexed(Bool)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetIsIndexed(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsIndexed(Bool isIndexed)
+    parameters:
+    - id: isIndexed
+      type: CRMScript.Global.Bool
+      description: "Is this field indexed? true if yes; false if no."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nBool isIndexed;\nthing.SetIsIndexed(isIndexed);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetIsMandatory(Bool)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetIsMandatory(Bool)
+  id: 'SetIsMandatory(Bool)'
+  so.intellisense: NSUserDefinedFieldInfo.SetIsMandatory
+  langs:
+  - crmscript
+  name: 'SetIsMandatory(Bool)'
+  nameWithType: NSUserDefinedFieldInfo.SetIsMandatory(Bool)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetIsMandatory(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsMandatory(Bool isMandatory)
+    parameters:
+    - id: isMandatory
+      type: CRMScript.Global.Bool
+      description: "0 = no, 1 = yes (field must be filled out)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nBool isMandatory;\nthing.SetIsMandatory(isMandatory);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetIsReadOnly(Bool)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetIsReadOnly(Bool)
+  id: 'SetIsReadOnly(Bool)'
+  so.intellisense: NSUserDefinedFieldInfo.SetIsReadOnly
+  langs:
+  - crmscript
+  name: 'SetIsReadOnly(Bool)'
+  nameWithType: NSUserDefinedFieldInfo.SetIsReadOnly(Bool)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetIsReadOnly(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsReadOnly(Bool isReadOnly)
+    parameters:
+    - id: isReadOnly
+      type: CRMScript.Global.Bool
+      description: "0 = read/write, 1 = readonly (don't combine with mandatory)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nBool isReadOnly;\nthing.SetIsReadOnly(isReadOnly);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetJustification(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetJustification(Integer)
+  id: 'SetJustification(Integer)'
+  so.intellisense: NSUserDefinedFieldInfo.SetJustification
+  langs:
+  - crmscript
+  name: 'SetJustification(Integer)'
+  nameWithType: NSUserDefinedFieldInfo.SetJustification(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetJustification(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetJustification(Integer justification)
+    parameters:
+    - id: justification
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UdefJustification\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger justification;\nthing.SetJustification(justification);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetLabelHeight(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetLabelHeight(Integer)
+  id: 'SetLabelHeight(Integer)'
+  so.intellisense: NSUserDefinedFieldInfo.SetLabelHeight
+  langs:
+  - crmscript
+  name: 'SetLabelHeight(Integer)'
+  nameWithType: NSUserDefinedFieldInfo.SetLabelHeight(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetLabelHeight(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLabelHeight(Integer labelHeight)
+    parameters:
+    - id: labelHeight
+      type: CRMScript.Global.Integer
+      description: "label height in pixels, 0 = 'enough' (from font)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger labelHeight;\nthing.SetLabelHeight(labelHeight);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetLabelLeft(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetLabelLeft(Integer)
+  id: 'SetLabelLeft(Integer)'
+  so.intellisense: NSUserDefinedFieldInfo.SetLabelLeft
+  langs:
+  - crmscript
+  name: 'SetLabelLeft(Integer)'
+  nameWithType: NSUserDefinedFieldInfo.SetLabelLeft(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetLabelLeft(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLabelLeft(Integer labelLeft)
+    parameters:
+    - id: labelLeft
+      type: CRMScript.Global.Integer
+      description: "X pixel coordinate of label."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger labelLeft;\nthing.SetLabelLeft(labelLeft);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetLabelTop(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetLabelTop(Integer)
+  id: 'SetLabelTop(Integer)'
+  so.intellisense: NSUserDefinedFieldInfo.SetLabelTop
+  langs:
+  - crmscript
+  name: 'SetLabelTop(Integer)'
+  nameWithType: NSUserDefinedFieldInfo.SetLabelTop(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetLabelTop(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLabelTop(Integer labelTop)
+    parameters:
+    - id: labelTop
+      type: CRMScript.Global.Integer
+      description: "Y pixel coordinate of label."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger labelTop;\nthing.SetLabelTop(labelTop);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetLabelWidth(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetLabelWidth(Integer)
+  id: 'SetLabelWidth(Integer)'
+  so.intellisense: NSUserDefinedFieldInfo.SetLabelWidth
+  langs:
+  - crmscript
+  name: 'SetLabelWidth(Integer)'
+  nameWithType: NSUserDefinedFieldInfo.SetLabelWidth(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetLabelWidth(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLabelWidth(Integer labelWidth)
+    parameters:
+    - id: labelWidth
+      type: CRMScript.Global.Integer
+      description: "label width in pixels, 0 = 'enough' (from font)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger labelWidth;\nthing.SetLabelWidth(labelWidth);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetLastVersionId(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetLastVersionId(Integer)
+  id: 'SetLastVersionId(Integer)'
+  so.intellisense: NSUserDefinedFieldInfo.SetLastVersionId
+  langs:
+  - crmscript
+  name: 'SetLastVersionId(Integer)'
+  nameWithType: NSUserDefinedFieldInfo.SetLastVersionId(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetLastVersionId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLastVersionId(Integer lastVersionId)
+    parameters:
+    - id: lastVersionId
+      type: CRMScript.Global.Integer
+      description: "UDefFieldId this field had in the previous version, 0 = field is new in this version."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger lastVersionId;\nthing.SetLastVersionId(lastVersionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetListTableId(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetListTableId(Integer)
+  id: 'SetListTableId(Integer)'
+  so.intellisense: NSUserDefinedFieldInfo.SetListTableId
+  langs:
+  - crmscript
+  name: 'SetListTableId(Integer)'
+  nameWithType: NSUserDefinedFieldInfo.SetListTableId(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetListTableId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetListTableId(Integer listTableId)
+    parameters:
+    - id: listTableId
+      type: CRMScript.Global.Integer
+      description: "The table ID of the source table for lists kTableAssoc, kTableContInt or whatever."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger listTableId;\nthing.SetListTableId(listTableId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetMdoListName(String)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetMdoListName(String)
+  id: 'SetMdoListName(String)'
+  so.intellisense: NSUserDefinedFieldInfo.SetMdoListName
+  langs:
+  - crmscript
+  name: 'SetMdoListName(String)'
+  nameWithType: NSUserDefinedFieldInfo.SetMdoListName(String)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetMdoListName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMdoListName(String mdoListName)
+    parameters:
+    - id: mdoListName
+      type: CRMScript.Global.String
+      description: "MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nString mdoListName;\nthing.SetMdoListName(mdoListName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetOwnerTableId(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetOwnerTableId(Integer)
+  id: 'SetOwnerTableId(Integer)'
+  so.intellisense: NSUserDefinedFieldInfo.SetOwnerTableId
+  langs:
+  - crmscript
+  name: 'SetOwnerTableId(Integer)'
+  nameWithType: NSUserDefinedFieldInfo.SetOwnerTableId(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetOwnerTableId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOwnerTableId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "ID of owning table (contact, person, project)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetPage1LineNo(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetPage1LineNo(Integer)
+  id: 'SetPage1LineNo(Integer)'
+  so.intellisense: NSUserDefinedFieldInfo.SetPage1LineNo
+  langs:
+  - crmscript
+  name: 'SetPage1LineNo(Integer)'
+  nameWithType: NSUserDefinedFieldInfo.SetPage1LineNo(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetPage1LineNo(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPage1LineNo(Integer page1LineNo)
+    parameters:
+    - id: page1LineNo
+      type: CRMScript.Global.Integer
+      description: Line no on View Page 1, used if MDO flags are OFF. 0 = this field is not visible on page 1
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger page1LineNo;\nthing.SetPage1LineNo(page1LineNo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetProgId(String)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetProgId(String)
+  id: 'SetProgId(String)'
+  so.intellisense: NSUserDefinedFieldInfo.SetProgId
+  langs:
+  - crmscript
+  name: 'SetProgId(String)'
+  nameWithType: NSUserDefinedFieldInfo.SetProgId(String)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetProgId(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nUse a Company.Product.Field format to avoid naming conflicts; the Company name SuperOffice is reserved.\n"
+  syntax: 
+    content: Void SetProgId(String progId)
+    parameters:
+    - id: progId
+      type: CRMScript.Global.String
+      description: "Programmatic ID, for use by software that needs to find a particular field. Carried over like udefIdentity across generations."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nString progId;\nthing.SetProgId(progId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetShortLabel(String)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetShortLabel(String)
+  id: 'SetShortLabel(String)'
+  so.intellisense: NSUserDefinedFieldInfo.SetShortLabel
+  langs:
+  - crmscript
+  name: 'SetShortLabel(String)'
+  nameWithType: NSUserDefinedFieldInfo.SetShortLabel(String)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetShortLabel(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetShortLabel(String shortLabel)
+    parameters:
+    - id: shortLabel
+      type: CRMScript.Global.String
+      description: "Short name to be used in Archive headings and on page 1. If blank, the fieldLabel will be used everywhere."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nString shortLabel;\nthing.SetShortLabel(shortLabel);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetTabOrder(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetTabOrder(Integer)
+  id: 'SetTabOrder(Integer)'
+  so.intellisense: NSUserDefinedFieldInfo.SetTabOrder
+  langs:
+  - crmscript
+  name: 'SetTabOrder(Integer)'
+  nameWithType: NSUserDefinedFieldInfo.SetTabOrder(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetTabOrder(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTabOrder(Integer tabOrder)
+    parameters:
+    - id: tabOrder
+      type: CRMScript.Global.Integer
+      description: "Tab order value, sets the field processing sequence."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger tabOrder;\nthing.SetTabOrder(tabOrder);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetTemplateVariableName(String)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetTemplateVariableName(String)
+  id: 'SetTemplateVariableName(String)'
+  so.intellisense: NSUserDefinedFieldInfo.SetTemplateVariableName
+  langs:
+  - crmscript
+  name: 'SetTemplateVariableName(String)'
+  nameWithType: NSUserDefinedFieldInfo.SetTemplateVariableName(String)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetTemplateVariableName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTemplateVariableName(String templateVariableName)
+    parameters:
+    - id: templateVariableName
+      type: CRMScript.Global.String
+      description: "Template variable name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nString templateVariableName;\nthing.SetTemplateVariableName(templateVariableName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetTextLength(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetTextLength(Integer)
+  id: 'SetTextLength(Integer)'
+  so.intellisense: NSUserDefinedFieldInfo.SetTextLength
+  langs:
+  - crmscript
+  name: 'SetTextLength(Integer)'
+  nameWithType: NSUserDefinedFieldInfo.SetTextLength(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetTextLength(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTextLength(Integer textLength)
+    parameters:
+    - id: textLength
+      type: CRMScript.Global.Integer
+      description: "Length (in characters) of a text field, 0 for other types."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger textLength;\nthing.SetTextLength(textLength);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSUserDefinedFieldInfo.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSUserDefinedFieldInfo.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: "Optional tooltip text for this field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nString tooltip;\nthing.SetTooltip(tooltip);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetType(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetType(Integer)
+  id: 'SetType(Integer)'
+  so.intellisense: NSUserDefinedFieldInfo.SetType
+  langs:
+  - crmscript
+  name: 'SetType(Integer)'
+  nameWithType: NSUserDefinedFieldInfo.SetType(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetType(Integer)
+  type: Method
+  summary: # TODO
+  remarks: "\nThis is not the actual tableNumber, rather it's an enum.\n"
+  syntax: 
+    content: Void SetType(Integer type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "ID of owning table (contact, person, project). See <xref href=\"CRMScript.NetServer.UDefType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger type;\nthing.SetType(type);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetUDefFieldId(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetUDefFieldId(Integer)
+  id: 'SetUDefFieldId(Integer)'
+  so.intellisense: NSUserDefinedFieldInfo.SetUDefFieldId
+  langs:
+  - crmscript
+  name: 'SetUDefFieldId(Integer)'
+  nameWithType: NSUserDefinedFieldInfo.SetUDefFieldId(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetUDefFieldId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUDefFieldId(Integer uDefFieldId)
+    parameters:
+    - id: uDefFieldId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger uDefFieldId;\nthing.SetUDefFieldId(uDefFieldId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetUdefIdentity(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetUdefIdentity(Integer)
+  id: 'SetUdefIdentity(Integer)'
+  so.intellisense: NSUserDefinedFieldInfo.SetUdefIdentity
+  langs:
+  - crmscript
+  name: 'SetUdefIdentity(Integer)'
+  nameWithType: NSUserDefinedFieldInfo.SetUdefIdentity(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetUdefIdentity(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUdefIdentity(Integer udefIdentity)
+    parameters:
+    - id: udefIdentity
+      type: CRMScript.Global.Integer
+      description: "Unique number used to track field identity across layout changes."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger udefIdentity;\nthing.SetUdefIdentity(udefIdentity);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetUDListDefinitionId(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetUDListDefinitionId(Integer)
+  id: 'SetUDListDefinitionId(Integer)'
+  so.intellisense: NSUserDefinedFieldInfo.SetUDListDefinitionId
+  langs:
+  - crmscript
+  name: 'SetUDListDefinitionId(Integer)'
+  nameWithType: NSUserDefinedFieldInfo.SetUDListDefinitionId(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetUDListDefinitionId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUDListDefinitionId(Integer uDListDefinitionId)
+    parameters:
+    - id: uDListDefinitionId
+      type: CRMScript.Global.Integer
+      description: "List to use for populating dropdown or listbox."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger uDListDefinitionId;\nthing.SetUDListDefinitionId(uDListDefinitionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo.SetVersion(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfo.SetVersion(Integer)
+  id: 'SetVersion(Integer)'
+  so.intellisense: NSUserDefinedFieldInfo.SetVersion
+  langs:
+  - crmscript
+  name: 'SetVersion(Integer)'
+  nameWithType: NSUserDefinedFieldInfo.SetVersion(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo.SetVersion(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetVersion(Integer version)
+    parameters:
+    - id: version
+      type: CRMScript.Global.Integer
+      description: "Definition version number; ALL fields get new version whenever layout is updated."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo thing;\nInteger version;\nthing.SetVersion(version);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo
+  commentId: T:CRMScript.NetServer.NSUserDefinedFieldInfo
+  isExternal: true
+  name: NSUserDefinedFieldInfo
+  nameWithType: NSUserDefinedFieldInfo
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.UDefFieldType
+  commentId: T:CRMScript.NetServer.UDefFieldType
+  isExternal: true
+  name: UDefFieldType
+  nameWithType: UDefFieldType
+  fullName: CRMScript.NetServer.UDefFieldType
+- uid: CRMScript.NetServer.UdefJustification
+  commentId: T:CRMScript.NetServer.UdefJustification
+  isExternal: true
+  name: UdefJustification
+  nameWithType: UdefJustification
+  fullName: CRMScript.NetServer.UdefJustification
+- uid: CRMScript.NetServer.UDefType
+  commentId: T:CRMScript.NetServer.UDefType
+  isExternal: true
+  name: UDefType
+  nameWithType: UDefType
+  fullName: CRMScript.NetServer.UDefType

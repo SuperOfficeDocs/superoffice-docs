@@ -1,0 +1,513 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSFieldMetadata
+  commentId: T:CRMScript.NetServer.NSFieldMetadata
+  id: NSFieldMetadata
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSFieldMetadata.#ctor
+  - CRMScript.NetServer.NSFieldMetadata.GetAccess()
+  - CRMScript.NetServer.NSFieldMetadata.GetDefaultValue()
+  - CRMScript.NetServer.NSFieldMetadata.GetDisplayDescription()
+  - CRMScript.NetServer.NSFieldMetadata.GetDisplayName()
+  - CRMScript.NetServer.NSFieldMetadata.GetFieldKey()
+  - CRMScript.NetServer.NSFieldMetadata.GetFieldType()
+  - CRMScript.NetServer.NSFieldMetadata.GetListName()
+  - CRMScript.NetServer.NSFieldMetadata.GetMaxLength()
+  - CRMScript.NetServer.NSFieldMetadata.GetRank()
+  - CRMScript.NetServer.NSFieldMetadata.GetShowInSearch()
+  - CRMScript.NetServer.NSFieldMetadata.SetAccess(Integer)
+  - CRMScript.NetServer.NSFieldMetadata.SetDefaultValue(String)
+  - CRMScript.NetServer.NSFieldMetadata.SetDisplayDescription(String)
+  - CRMScript.NetServer.NSFieldMetadata.SetDisplayName(String)
+  - CRMScript.NetServer.NSFieldMetadata.SetFieldKey(String)
+  - CRMScript.NetServer.NSFieldMetadata.SetFieldType(Integer)
+  - CRMScript.NetServer.NSFieldMetadata.SetListName(String)
+  - CRMScript.NetServer.NSFieldMetadata.SetMaxLength(Integer)
+  - CRMScript.NetServer.NSFieldMetadata.SetRank(Integer)
+  - CRMScript.NetServer.NSFieldMetadata.SetShowInSearch(Bool)
+  name: NSFieldMetadata
+  nameWithType: NSFieldMetadata
+  fullName: CRMScript.NetServer.NSFieldMetadata
+  type: Class
+  summary: "\nUsed to populate the Admin configuration dialog for a connection. The call to the ERP Connector’s GetConfigurationFields method returns a list of fields and field types. The Admin client builds a dialog with these fields.\n"
+  example: 
+- uid: CRMScript.NetServer.NSFieldMetadata.#ctor
+  commentId: M:CRMScript.NetServer.NSFieldMetadata.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSFieldMetadata
+  langs:
+  - crmscript
+  name: NSFieldMetadata()
+  nameWithType: NSFieldMetadata.#ctor
+  fullName: CRMScript.NetServer.NSFieldMetadata.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSFieldMetadata class.\n"
+  remarks: 
+  syntax: 
+    content: NSFieldMetadata
+  example: 
+- uid: CRMScript.NetServer.NSFieldMetadata.GetAccess()
+  commentId: M:CRMScript.NetServer.NSFieldMetadata.GetAccess()
+  id: 'GetAccess()'
+  so.intellisense: NSFieldMetadata.GetAccess
+  langs:
+  - crmscript
+  name: 'GetAccess()'
+  nameWithType: NSFieldMetadata.GetAccess()
+  fullName: CRMScript.NetServer.NSFieldMetadata.GetAccess()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAccess()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Access restrictions on the field. See <xref href=\"CRMScript.NetServer.FieldAccess\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSFieldMetadata thing;\nInteger access = thing.GetAccess();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldMetadata.GetDefaultValue()
+  commentId: M:CRMScript.NetServer.NSFieldMetadata.GetDefaultValue()
+  id: 'GetDefaultValue()'
+  so.intellisense: NSFieldMetadata.GetDefaultValue
+  langs:
+  - crmscript
+  name: 'GetDefaultValue()'
+  nameWithType: NSFieldMetadata.GetDefaultValue()
+  fullName: CRMScript.NetServer.NSFieldMetadata.GetDefaultValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDefaultValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A default value for the field."
+  example: 
+  - "\n<pre><code>NSFieldMetadata thing;\nString defaultValue = thing.GetDefaultValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldMetadata.GetDisplayDescription()
+  commentId: M:CRMScript.NetServer.NSFieldMetadata.GetDisplayDescription()
+  id: 'GetDisplayDescription()'
+  so.intellisense: NSFieldMetadata.GetDisplayDescription
+  langs:
+  - crmscript
+  name: 'GetDisplayDescription()'
+  nameWithType: NSFieldMetadata.GetDisplayDescription()
+  fullName: CRMScript.NetServer.NSFieldMetadata.GetDisplayDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDisplayDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Tooltip for the field name."
+  example: 
+  - "\n<pre><code>NSFieldMetadata thing;\nString displayDescription = thing.GetDisplayDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldMetadata.GetDisplayName()
+  commentId: M:CRMScript.NetServer.NSFieldMetadata.GetDisplayName()
+  id: 'GetDisplayName()'
+  so.intellisense: NSFieldMetadata.GetDisplayName
+  langs:
+  - crmscript
+  name: 'GetDisplayName()'
+  nameWithType: NSFieldMetadata.GetDisplayName()
+  fullName: CRMScript.NetServer.NSFieldMetadata.GetDisplayName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDisplayName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Localized field name – shown in the GUi."
+  example: 
+  - "\n<pre><code>NSFieldMetadata thing;\nString displayName = thing.GetDisplayName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldMetadata.GetFieldKey()
+  commentId: M:CRMScript.NetServer.NSFieldMetadata.GetFieldKey()
+  id: 'GetFieldKey()'
+  so.intellisense: NSFieldMetadata.GetFieldKey
+  langs:
+  - crmscript
+  name: 'GetFieldKey()'
+  nameWithType: NSFieldMetadata.GetFieldKey()
+  fullName: CRMScript.NetServer.NSFieldMetadata.GetFieldKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFieldKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Internal key/name of the field. Used as the key in the ConnectionConfigField values when TestConnection is called."
+  example: 
+  - "\n<pre><code>NSFieldMetadata thing;\nString fieldKey = thing.GetFieldKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldMetadata.GetFieldType()
+  commentId: M:CRMScript.NetServer.NSFieldMetadata.GetFieldType()
+  id: 'GetFieldType()'
+  so.intellisense: NSFieldMetadata.GetFieldType
+  langs:
+  - crmscript
+  name: 'GetFieldType()'
+  nameWithType: NSFieldMetadata.GetFieldType()
+  fullName: CRMScript.NetServer.NSFieldMetadata.GetFieldType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetFieldType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Text, Integer, etc. See <xref href=\"CRMScript.NetServer.FieldMetadataType\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSFieldMetadata thing;\nInteger fieldType = thing.GetFieldType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldMetadata.GetListName()
+  commentId: M:CRMScript.NetServer.NSFieldMetadata.GetListName()
+  id: 'GetListName()'
+  so.intellisense: NSFieldMetadata.GetListName
+  langs:
+  - crmscript
+  name: 'GetListName()'
+  nameWithType: NSFieldMetadata.GetListName()
+  fullName: CRMScript.NetServer.NSFieldMetadata.GetListName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetListName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "MDO List provider name for list fields."
+  example: 
+  - "\n<pre><code>NSFieldMetadata thing;\nString listName = thing.GetListName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldMetadata.GetMaxLength()
+  commentId: M:CRMScript.NetServer.NSFieldMetadata.GetMaxLength()
+  id: 'GetMaxLength()'
+  so.intellisense: NSFieldMetadata.GetMaxLength
+  langs:
+  - crmscript
+  name: 'GetMaxLength()'
+  nameWithType: NSFieldMetadata.GetMaxLength()
+  fullName: CRMScript.NetServer.NSFieldMetadata.GetMaxLength()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetMaxLength()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Maximum length for strings, if set. 0 means no restriction. (Though sooner or later something will no doubt overflow if you pile on the gigabytes.)."
+  example: 
+  - "\n<pre><code>NSFieldMetadata thing;\nInteger maxLength = thing.GetMaxLength();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldMetadata.GetRank()
+  commentId: M:CRMScript.NetServer.NSFieldMetadata.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSFieldMetadata.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSFieldMetadata.GetRank()
+  fullName: CRMScript.NetServer.NSFieldMetadata.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "A way to set the order of the fields. Lowest value will be displayed first/over the fields with other values."
+  example: 
+  - "\n<pre><code>NSFieldMetadata thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldMetadata.GetShowInSearch()
+  commentId: M:CRMScript.NetServer.NSFieldMetadata.GetShowInSearch()
+  id: 'GetShowInSearch()'
+  so.intellisense: NSFieldMetadata.GetShowInSearch
+  langs:
+  - crmscript
+  name: 'GetShowInSearch()'
+  nameWithType: NSFieldMetadata.GetShowInSearch()
+  fullName: CRMScript.NetServer.NSFieldMetadata.GetShowInSearch()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetShowInSearch()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if this field is displayed in search result."
+  example: 
+  - "\n<pre><code>NSFieldMetadata thing;\nBool showInSearch = thing.GetShowInSearch();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldMetadata.SetAccess(Integer)
+  commentId: M:CRMScript.NetServer.NSFieldMetadata.SetAccess(Integer)
+  id: 'SetAccess(Integer)'
+  so.intellisense: NSFieldMetadata.SetAccess
+  langs:
+  - crmscript
+  name: 'SetAccess(Integer)'
+  nameWithType: NSFieldMetadata.SetAccess(Integer)
+  fullName: CRMScript.NetServer.NSFieldMetadata.SetAccess(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetAccess(Integer access)
+    parameters:
+    - id: access
+      type: CRMScript.Global.Integer
+      description: "Access restrictions on the field. See <xref href=\"CRMScript.NetServer.FieldAccess\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldMetadata thing;\nInteger access;\nthing.SetAccess(access);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldMetadata.SetDefaultValue(String)
+  commentId: M:CRMScript.NetServer.NSFieldMetadata.SetDefaultValue(String)
+  id: 'SetDefaultValue(String)'
+  so.intellisense: NSFieldMetadata.SetDefaultValue
+  langs:
+  - crmscript
+  name: 'SetDefaultValue(String)'
+  nameWithType: NSFieldMetadata.SetDefaultValue(String)
+  fullName: CRMScript.NetServer.NSFieldMetadata.SetDefaultValue(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDefaultValue(String defaultValue)
+    parameters:
+    - id: defaultValue
+      type: CRMScript.Global.String
+      description: "A default value for the field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldMetadata thing;\nString defaultValue;\nthing.SetDefaultValue(defaultValue);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldMetadata.SetDisplayDescription(String)
+  commentId: M:CRMScript.NetServer.NSFieldMetadata.SetDisplayDescription(String)
+  id: 'SetDisplayDescription(String)'
+  so.intellisense: NSFieldMetadata.SetDisplayDescription
+  langs:
+  - crmscript
+  name: 'SetDisplayDescription(String)'
+  nameWithType: NSFieldMetadata.SetDisplayDescription(String)
+  fullName: CRMScript.NetServer.NSFieldMetadata.SetDisplayDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDisplayDescription(String displayDescription)
+    parameters:
+    - id: displayDescription
+      type: CRMScript.Global.String
+      description: "Tooltip for the field name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldMetadata thing;\nString displayDescription;\nthing.SetDisplayDescription(displayDescription);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldMetadata.SetDisplayName(String)
+  commentId: M:CRMScript.NetServer.NSFieldMetadata.SetDisplayName(String)
+  id: 'SetDisplayName(String)'
+  so.intellisense: NSFieldMetadata.SetDisplayName
+  langs:
+  - crmscript
+  name: 'SetDisplayName(String)'
+  nameWithType: NSFieldMetadata.SetDisplayName(String)
+  fullName: CRMScript.NetServer.NSFieldMetadata.SetDisplayName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDisplayName(String displayName)
+    parameters:
+    - id: displayName
+      type: CRMScript.Global.String
+      description: "Localized field name – shown in the GUi."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldMetadata thing;\nString displayName;\nthing.SetDisplayName(displayName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldMetadata.SetFieldKey(String)
+  commentId: M:CRMScript.NetServer.NSFieldMetadata.SetFieldKey(String)
+  id: 'SetFieldKey(String)'
+  so.intellisense: NSFieldMetadata.SetFieldKey
+  langs:
+  - crmscript
+  name: 'SetFieldKey(String)'
+  nameWithType: NSFieldMetadata.SetFieldKey(String)
+  fullName: CRMScript.NetServer.NSFieldMetadata.SetFieldKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFieldKey(String fieldKey)
+    parameters:
+    - id: fieldKey
+      type: CRMScript.Global.String
+      description: "Internal key/name of the field. Used as the key in the ConnectionConfigField values when TestConnection is called."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldMetadata thing;\nString fieldKey;\nthing.SetFieldKey(fieldKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldMetadata.SetFieldType(Integer)
+  commentId: M:CRMScript.NetServer.NSFieldMetadata.SetFieldType(Integer)
+  id: 'SetFieldType(Integer)'
+  so.intellisense: NSFieldMetadata.SetFieldType
+  langs:
+  - crmscript
+  name: 'SetFieldType(Integer)'
+  nameWithType: NSFieldMetadata.SetFieldType(Integer)
+  fullName: CRMScript.NetServer.NSFieldMetadata.SetFieldType(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetFieldType(Integer fieldType)
+    parameters:
+    - id: fieldType
+      type: CRMScript.Global.Integer
+      description: "Text, Integer, etc. See <xref href=\"CRMScript.NetServer.FieldMetadataType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldMetadata thing;\nInteger fieldType;\nthing.SetFieldType(fieldType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldMetadata.SetListName(String)
+  commentId: M:CRMScript.NetServer.NSFieldMetadata.SetListName(String)
+  id: 'SetListName(String)'
+  so.intellisense: NSFieldMetadata.SetListName
+  langs:
+  - crmscript
+  name: 'SetListName(String)'
+  nameWithType: NSFieldMetadata.SetListName(String)
+  fullName: CRMScript.NetServer.NSFieldMetadata.SetListName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetListName(String listName)
+    parameters:
+    - id: listName
+      type: CRMScript.Global.String
+      description: "MDO List provider name for list fields."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldMetadata thing;\nString listName;\nthing.SetListName(listName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldMetadata.SetMaxLength(Integer)
+  commentId: M:CRMScript.NetServer.NSFieldMetadata.SetMaxLength(Integer)
+  id: 'SetMaxLength(Integer)'
+  so.intellisense: NSFieldMetadata.SetMaxLength
+  langs:
+  - crmscript
+  name: 'SetMaxLength(Integer)'
+  nameWithType: NSFieldMetadata.SetMaxLength(Integer)
+  fullName: CRMScript.NetServer.NSFieldMetadata.SetMaxLength(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMaxLength(Integer maxLength)
+    parameters:
+    - id: maxLength
+      type: CRMScript.Global.Integer
+      description: "Maximum length for strings, if set. 0 means no restriction. (Though sooner or later something will no doubt overflow if you pile on the gigabytes.)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldMetadata thing;\nInteger maxLength;\nthing.SetMaxLength(maxLength);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldMetadata.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSFieldMetadata.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSFieldMetadata.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSFieldMetadata.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSFieldMetadata.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "A way to set the order of the fields. Lowest value will be displayed first/over the fields with other values."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldMetadata thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldMetadata.SetShowInSearch(Bool)
+  commentId: M:CRMScript.NetServer.NSFieldMetadata.SetShowInSearch(Bool)
+  id: 'SetShowInSearch(Bool)'
+  so.intellisense: NSFieldMetadata.SetShowInSearch
+  langs:
+  - crmscript
+  name: 'SetShowInSearch(Bool)'
+  nameWithType: NSFieldMetadata.SetShowInSearch(Bool)
+  fullName: CRMScript.NetServer.NSFieldMetadata.SetShowInSearch(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetShowInSearch(Bool showInSearch)
+    parameters:
+    - id: showInSearch
+      type: CRMScript.Global.Bool
+      description: "True if this field is displayed in search result."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldMetadata thing;\nBool showInSearch;\nthing.SetShowInSearch(showInSearch);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSFieldMetadata
+  commentId: T:CRMScript.NetServer.NSFieldMetadata
+  isExternal: true
+  name: NSFieldMetadata
+  nameWithType: NSFieldMetadata
+  fullName: CRMScript.NetServer.NSFieldMetadata
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.FieldMetadataType
+  commentId: T:CRMScript.NetServer.FieldMetadataType
+  isExternal: true
+  name: FieldMetadataType
+  nameWithType: FieldMetadataType
+  fullName: CRMScript.NetServer.FieldMetadataType
+- uid: CRMScript.NetServer.FieldAccess
+  commentId: T:CRMScript.NetServer.FieldAccess
+  isExternal: true
+  name: FieldAccess
+  nameWithType: FieldAccess
+  fullName: CRMScript.NetServer.FieldAccess

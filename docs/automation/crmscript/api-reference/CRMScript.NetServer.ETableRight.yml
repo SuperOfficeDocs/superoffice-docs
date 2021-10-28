@@ -1,0 +1,301 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.ETableRight
+  # Same as SuperOffice.Data.ETableRight
+  commentId: T:CRMScript.NetServer.ETableRight
+  id: ETableRight
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.ETableRight.None
+  - CRMScript.NetServer.ETableRight.Select
+  - CRMScript.NetServer.ETableRight.Update
+  - CRMScript.NetServer.ETableRight.Insert
+  - CRMScript.NetServer.ETableRight.Delete
+  - CRMScript.NetServer.ETableRight.Filtering
+  - CRMScript.NetServer.ETableRight.RestrictedUpdate
+  - CRMScript.NetServer.ETableRight.Unused1
+  - CRMScript.NetServer.ETableRight.Uninitialized
+  - CRMScript.NetServer.ETableRight.FULL
+  - CRMScript.NetServer.ETableRight.WRITE
+  - CRMScript.NetServer.ETableRight.URU
+  - CRMScript.NetServer.ETableRight.UDR
+  - CRMScript.NetServer.ETableRight.UR
+  - CRMScript.NetServer.ETableRight.URI
+  - CRMScript.NetServer.ETableRight.R
+  - CRMScript.NetServer.ETableRight.RI
+  - CRMScript.NetServer.ETableRight.RF
+  - CRMScript.NetServer.ETableRight.F
+  - CRMScript.NetServer.ETableRight.FI
+  name: ETableRight
+  nameWithType: ETableRight
+  fullName: CRMScript.NetServer.ETableRight
+  type: Enum
+  summary: "\nA combination of bits representing permissions on a row.\nConsists of flag values that can be combined.\n"
+- uid: CRMScript.NetServer.ETableRight.None
+  commentId: F:CRMScript.NetServer.ETableRight.None
+  id: ETableRight.None
+  langs:
+  - crmscript
+  name: ETableRight.None
+  nameWithType: ETableRight.None
+  fullName: CRMScript.NetServer.ETableRight.None
+  type: Field
+  summary: "\n0: The row should be hidden from the user.\n"
+  syntax: 
+    content: None = 0
+    type: CRMScript.NetServer.ETableRight
+- uid: CRMScript.NetServer.ETableRight.Select
+  commentId: F:CRMScript.NetServer.ETableRight.Select
+  id: ETableRight.Select
+  langs:
+  - crmscript
+  name: ETableRight.Select
+  nameWithType: ETableRight.Select
+  fullName: CRMScript.NetServer.ETableRight.Select
+  type: Field
+  summary: "\n1: The user is allowed to see the row.\n"
+  syntax: 
+    content: Select = 1
+    type: CRMScript.NetServer.ETableRight
+- uid: CRMScript.NetServer.ETableRight.Update
+  commentId: F:CRMScript.NetServer.ETableRight.Update
+  id: ETableRight.Update
+  langs:
+  - crmscript
+  name: ETableRight.Update
+  nameWithType: ETableRight.Update
+  fullName: CRMScript.NetServer.ETableRight.Update
+  type: Field
+  summary: "\n2: The user is allowed to modify the values in this row.\n"
+  syntax: 
+    content: Update = 2
+    type: CRMScript.NetServer.ETableRight
+- uid: CRMScript.NetServer.ETableRight.Insert
+  commentId: F:CRMScript.NetServer.ETableRight.Insert
+  id: ETableRight.Insert
+  langs:
+  - crmscript
+  name: ETableRight.Insert
+  nameWithType: ETableRight.Insert
+  fullName: CRMScript.NetServer.ETableRight.Insert
+  type: Field
+  summary: "\n4: The user is allowed to add new rows to the table.\n"
+  syntax: 
+    content: Insert = 4
+    type: CRMScript.NetServer.ETableRight
+- uid: CRMScript.NetServer.ETableRight.Delete
+  commentId: F:CRMScript.NetServer.ETableRight.Delete
+  id: ETableRight.Delete
+  langs:
+  - crmscript
+  name: ETableRight.Delete
+  nameWithType: ETableRight.Delete
+  fullName: CRMScript.NetServer.ETableRight.Delete
+  type: Field
+  summary: "\n8: The user is allowed to delete this row.\n"
+  syntax: 
+    content: Delete = 8
+    type: CRMScript.NetServer.ETableRight
+- uid: CRMScript.NetServer.ETableRight.Filtering
+  commentId: F:CRMScript.NetServer.ETableRight.Filtering
+  id: ETableRight.Filtering
+  langs:
+  - crmscript
+  name: ETableRight.Filtering
+  nameWithType: ETableRight.Filtering
+  fullName: CRMScript.NetServer.ETableRight.Filtering
+  type: Field
+  summary: "\n16: A flag used to indicate that some fields may be hidden.\n"
+  syntax: 
+    content: Filtering = 16
+    type: CRMScript.NetServer.ETableRight
+- uid: CRMScript.NetServer.ETableRight.RestrictedUpdate
+  commentId: F:CRMScript.NetServer.ETableRight.RestrictedUpdate
+  id: ETableRight.RestrictedUpdate
+  langs:
+  - crmscript
+  name: ETableRight.RestrictedUpdate
+  nameWithType: ETableRight.RestrictedUpdate
+  fullName: CRMScript.NetServer.ETableRight.RestrictedUpdate
+  type: Field
+  summary: "\n32: A hint flag used to indicate that some fields may not be updateable, even though the user has update access to the row.\n"
+  syntax: 
+    content: RestrictedUpdate = 32
+    type: CRMScript.NetServer.ETableRight
+- uid: CRMScript.NetServer.ETableRight.Unused1
+  commentId: F:CRMScript.NetServer.ETableRight.Unused1
+  id: ETableRight.Unused1
+  langs:
+  - crmscript
+  name: ETableRight.Unused1
+  nameWithType: ETableRight.Unused1
+  fullName: CRMScript.NetServer.ETableRight.Unused1
+  type: Field
+  summary: "\n64: Unused value only present for serialization purposes\n"
+  syntax: 
+    content: Unused1 = 64
+    type: CRMScript.NetServer.ETableRight
+- uid: CRMScript.NetServer.ETableRight.Uninitialized
+  commentId: F:CRMScript.NetServer.ETableRight.Uninitialized
+  id: ETableRight.Uninitialized
+  langs:
+  - crmscript
+  name: ETableRight.Uninitialized
+  nameWithType: ETableRight.Uninitialized
+  fullName: CRMScript.NetServer.ETableRight.Uninitialized
+  type: Field
+  summary: "\n128: Magic value to indicate not\n"
+  syntax: 
+    content: Uninitialized = 128
+    type: CRMScript.NetServer.ETableRight
+- uid: CRMScript.NetServer.ETableRight.FULL
+  commentId: F:CRMScript.NetServer.ETableRight.FULL
+  id: ETableRight.FULL
+  langs:
+  - crmscript
+  name: ETableRight.FULL
+  nameWithType: ETableRight.FULL
+  fullName: CRMScript.NetServer.ETableRight.FULL
+  type: Field
+  summary: "\n15: Select, Update, Insert, Delete - no restrictions\n"
+  syntax: 
+    content: FULL = 15
+    type: CRMScript.NetServer.ETableRight
+- uid: CRMScript.NetServer.ETableRight.WRITE
+  commentId: F:CRMScript.NetServer.ETableRight.WRITE
+  id: ETableRight.WRITE
+  langs:
+  - crmscript
+  name: ETableRight.WRITE
+  nameWithType: ETableRight.WRITE
+  fullName: CRMScript.NetServer.ETableRight.WRITE
+  type: Field
+  summary: "\n38: WRITE\n"
+  syntax: 
+    content: WRITE = 38
+    type: CRMScript.NetServer.ETableRight
+- uid: CRMScript.NetServer.ETableRight.URU
+  commentId: F:CRMScript.NetServer.ETableRight.URU
+  id: ETableRight.URU
+  langs:
+  - crmscript
+  name: ETableRight.URU
+  nameWithType: ETableRight.URU
+  fullName: CRMScript.NetServer.ETableRight.URU
+  type: Field
+  summary: "\n34: URU\n"
+  syntax: 
+    content: URU = 34
+    type: CRMScript.NetServer.ETableRight
+- uid: CRMScript.NetServer.ETableRight.UDR
+  commentId: F:CRMScript.NetServer.ETableRight.UDR
+  id: ETableRight.UDR
+  langs:
+  - crmscript
+  name: ETableRight.UDR
+  nameWithType: ETableRight.UDR
+  fullName: CRMScript.NetServer.ETableRight.UDR
+  type: Field
+  summary: "\n11: UDR\n"
+  syntax: 
+    content: UDR = 11
+    type: CRMScript.NetServer.ETableRight
+- uid: CRMScript.NetServer.ETableRight.UR
+  commentId: F:CRMScript.NetServer.ETableRight.UR
+  id: ETableRight.UR
+  langs:
+  - crmscript
+  name: ETableRight.UR
+  nameWithType: ETableRight.UR
+  fullName: CRMScript.NetServer.ETableRight.UR
+  type: Field
+  summary: "\n3: UR\n"
+  syntax: 
+    content: UR = 3
+    type: CRMScript.NetServer.ETableRight
+- uid: CRMScript.NetServer.ETableRight.URI
+  commentId: F:CRMScript.NetServer.ETableRight.URI
+  id: ETableRight.URI
+  langs:
+  - crmscript
+  name: ETableRight.URI
+  nameWithType: ETableRight.URI
+  fullName: CRMScript.NetServer.ETableRight.URI
+  type: Field
+  summary: "\n7: URI\n"
+  syntax: 
+    content: URI = 7
+    type: CRMScript.NetServer.ETableRight
+- uid: CRMScript.NetServer.ETableRight.R
+  commentId: F:CRMScript.NetServer.ETableRight.R
+  id: ETableRight.R
+  langs:
+  - crmscript
+  name: ETableRight.R
+  nameWithType: ETableRight.R
+  fullName: CRMScript.NetServer.ETableRight.R
+  type: Field
+  summary: "\n1: R\n"
+  syntax: 
+    content: R = 1
+    type: CRMScript.NetServer.ETableRight
+- uid: CRMScript.NetServer.ETableRight.RI
+  commentId: F:CRMScript.NetServer.ETableRight.RI
+  id: ETableRight.RI
+  langs:
+  - crmscript
+  name: ETableRight.RI
+  nameWithType: ETableRight.RI
+  fullName: CRMScript.NetServer.ETableRight.RI
+  type: Field
+  summary: "\n5: RI\n"
+  syntax: 
+    content: RI = 5
+    type: CRMScript.NetServer.ETableRight
+- uid: CRMScript.NetServer.ETableRight.RF
+  commentId: F:CRMScript.NetServer.ETableRight.RF
+  id: ETableRight.RF
+  langs:
+  - crmscript
+  name: ETableRight.RF
+  nameWithType: ETableRight.RF
+  fullName: CRMScript.NetServer.ETableRight.RF
+  type: Field
+  summary: "\n17: RF\n"
+  syntax: 
+    content: RF = 17
+    type: CRMScript.NetServer.ETableRight
+- uid: CRMScript.NetServer.ETableRight.F
+  commentId: F:CRMScript.NetServer.ETableRight.F
+  id: ETableRight.F
+  langs:
+  - crmscript
+  name: ETableRight.F
+  nameWithType: ETableRight.F
+  fullName: CRMScript.NetServer.ETableRight.F
+  type: Field
+  summary: "\n16: F\n"
+  syntax: 
+    content: F = 16
+    type: CRMScript.NetServer.ETableRight
+- uid: CRMScript.NetServer.ETableRight.FI
+  commentId: F:CRMScript.NetServer.ETableRight.FI
+  id: ETableRight.FI
+  langs:
+  - crmscript
+  name: ETableRight.FI
+  nameWithType: ETableRight.FI
+  fullName: CRMScript.NetServer.ETableRight.FI
+  type: Field
+  summary: "\n20: FI\n"
+  syntax: 
+    content: FI = 20
+    type: CRMScript.NetServer.ETableRight
+references:
+- uid: CRMScript.NetServer.ETableRight
+  commentId: T:CRMScript.NetServer.ETableRight
+  isExternal: true
+  name: ETableRight
+  nameWithType: ETableRight
+  fullName: CRMScript.NetServer.ETableRight

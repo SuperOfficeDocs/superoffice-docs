@@ -1,0 +1,49 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.ChatWidgetSize
+  # Same as SuperOffice.Data.ChatWidgetSize
+  commentId: T:CRMScript.NetServer.ChatWidgetSize
+  id: ChatWidgetSize
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.ChatWidgetSize.Normal
+  - CRMScript.NetServer.ChatWidgetSize.Large
+  name: ChatWidgetSize
+  nameWithType: ChatWidgetSize
+  fullName: CRMScript.NetServer.ChatWidgetSize
+  type: Enum
+  summary: # TODO
+- uid: CRMScript.NetServer.ChatWidgetSize.Normal
+  commentId: F:CRMScript.NetServer.ChatWidgetSize.Normal
+  id: ChatWidgetSize.Normal
+  langs:
+  - crmscript
+  name: ChatWidgetSize.Normal
+  nameWithType: ChatWidgetSize.Normal
+  fullName: CRMScript.NetServer.ChatWidgetSize.Normal
+  type: Field
+  summary: "\n0: Normal\n"
+  syntax: 
+    content: Normal = 0
+    type: CRMScript.NetServer.ChatWidgetSize
+- uid: CRMScript.NetServer.ChatWidgetSize.Large
+  commentId: F:CRMScript.NetServer.ChatWidgetSize.Large
+  id: ChatWidgetSize.Large
+  langs:
+  - crmscript
+  name: ChatWidgetSize.Large
+  nameWithType: ChatWidgetSize.Large
+  fullName: CRMScript.NetServer.ChatWidgetSize.Large
+  type: Field
+  summary: "\n1: Large\n"
+  syntax: 
+    content: Large = 1
+    type: CRMScript.NetServer.ChatWidgetSize
+references:
+- uid: CRMScript.NetServer.ChatWidgetSize
+  commentId: T:CRMScript.NetServer.ChatWidgetSize
+  isExternal: true
+  name: ChatWidgetSize
+  nameWithType: ChatWidgetSize
+  fullName: CRMScript.NetServer.ChatWidgetSize

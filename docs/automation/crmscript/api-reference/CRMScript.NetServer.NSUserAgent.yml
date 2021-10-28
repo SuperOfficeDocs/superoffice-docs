@@ -1,0 +1,2583 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSUserAgent
+  commentId: T:CRMScript.NetServer.NSUserAgent
+  id: NSUserAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSUserAgent.#ctor
+  - CRMScript.NetServer.NSUserAgent.AddOwnerContact(Integer)
+  - CRMScript.NetServer.NSUserAgent.CanChangePassword(Integer)
+  - CRMScript.NetServer.NSUserAgent.ChangeOwnPassword(String,String)
+  - CRMScript.NetServer.NSUserAgent.ChangePassword(Integer,String,String)
+  - CRMScript.NetServer.NSUserAgent.ChangePasswordFromName(String,String,String)
+  - CRMScript.NetServer.NSUserAgent.ChangeUserType(NSUser,Integer)
+  - CRMScript.NetServer.NSUserAgent.CheckAccessGatewayRegistration()
+  - CRMScript.NetServer.NSUserAgent.CreateDefaultRoleEntity()
+  - CRMScript.NetServer.NSUserAgent.CreateDefaultRoleEntityFromType(Integer)
+  - CRMScript.NetServer.NSUserAgent.CreateDefaultServiceAuth()
+  - CRMScript.NetServer.NSUserAgent.CreateDefaultUntrustedCredentials()
+  - CRMScript.NetServer.NSUserAgent.CreateDefaultUser()
+  - CRMScript.NetServer.NSUserAgent.CreateDefaultUserFromUserType(Integer)
+  - CRMScript.NetServer.NSUserAgent.CreateDefaultUserFromUserTypeAndCredential(Integer,Integer,String,String,String)
+  - CRMScript.NetServer.NSUserAgent.CreateDefaultUserFromUserTypeAndPersonId(Integer,Integer)
+  - CRMScript.NetServer.NSUserAgent.CreateExternalUser(Integer,String,String,Integer,Bool)
+  - CRMScript.NetServer.NSUserAgent.CreateUserGroup()
+  - CRMScript.NetServer.NSUserAgent.DecryptAndSaveExternalTokens(NSTokenManagementInfo)
+  - CRMScript.NetServer.NSUserAgent.DeleteCredential(Integer,String)
+  - CRMScript.NetServer.NSUserAgent.DeleteExternalUser(Integer)
+  - CRMScript.NetServer.NSUserAgent.DeleteRole(Integer,Integer)
+  - CRMScript.NetServer.NSUserAgent.DeleteServiceAuth(Integer)
+  - CRMScript.NetServer.NSUserAgent.DeleteUser(Integer)
+  - CRMScript.NetServer.NSUserAgent.DeleteUserFromName(String)
+  - CRMScript.NetServer.NSUserAgent.DeleteUserGroup(Integer,Integer)
+  - CRMScript.NetServer.NSUserAgent.FindCredentialsGroups(String,String)
+  - CRMScript.NetServer.NSUserAgent.FindCredentialUsers(String,String)
+  - CRMScript.NetServer.NSUserAgent.FindRolesWithFunctionalRight(String)
+  - CRMScript.NetServer.NSUserAgent.FindRolesWithFunctionalRights(String[])
+  - CRMScript.NetServer.NSUserAgent.FindRolesWithoutFunctionalRights(String[])
+  - CRMScript.NetServer.NSUserAgent.GenerateNewPasswordForExternalUser(String)
+  - CRMScript.NetServer.NSUserAgent.GetAccessGatewayInfo()
+  - CRMScript.NetServer.NSUserAgent.GetAccessToken(String,Bool)
+  - CRMScript.NetServer.NSUserAgent.GetAllFunctionalRights(Integer)
+  - CRMScript.NetServer.NSUserAgent.GetAllRoles(Integer)
+  - CRMScript.NetServer.NSUserAgent.GetAllUserGroups(Bool)
+  - CRMScript.NetServer.NSUserAgent.GetCredentialsGroups(Integer)
+  - CRMScript.NetServer.NSUserAgent.GetCredentialTypes()
+  - CRMScript.NetServer.NSUserAgent.GetCredentialTypesForUserType(Integer)
+  - CRMScript.NetServer.NSUserAgent.GetCredentialUsers(String,String)
+  - CRMScript.NetServer.NSUserAgent.GetCredentialUsersInGroup(String,String)
+  - CRMScript.NetServer.NSUserAgent.GetDataRight(Integer,String,Integer)
+  - CRMScript.NetServer.NSUserAgent.GetDataRights(Integer,String)
+  - CRMScript.NetServer.NSUserAgent.GetDefaultAssociateUserName(NSUser)
+  - CRMScript.NetServer.NSUserAgent.GetExternalTokens(String)
+  - CRMScript.NetServer.NSUserAgent.GetFunctionalRights(Integer)
+  - CRMScript.NetServer.NSUserAgent.GetRole(Integer)
+  - CRMScript.NetServer.NSUserAgent.GetRoleEntity(Integer)
+  - CRMScript.NetServer.NSUserAgent.GetServiceAuth(Integer)
+  - CRMScript.NetServer.NSUserAgent.GetUntrustedCredentials(String)
+  - CRMScript.NetServer.NSUserAgent.GetUntrustedCredentialsForAssociate(Integer,String)
+  - CRMScript.NetServer.NSUserAgent.GetUser(Integer)
+  - CRMScript.NetServer.NSUserAgent.GetUserFromEjUserId(Integer)
+  - CRMScript.NetServer.NSUserAgent.GetUserFromName(String)
+  - CRMScript.NetServer.NSUserAgent.GetUserFromPersonId(Integer)
+  - CRMScript.NetServer.NSUserAgent.GetUserGroup(Integer)
+  - CRMScript.NetServer.NSUserAgent.GetUserGroupList(Integer[])
+  - CRMScript.NetServer.NSUserAgent.GetUserInfo(Integer)
+  - CRMScript.NetServer.NSUserAgent.GetUserInfoList(Integer[])
+  - CRMScript.NetServer.NSUserAgent.GetValidUserName(Integer,Integer,Integer,String)
+  - CRMScript.NetServer.NSUserAgent.GetValidUserNameForNewUser(NSUser)
+  - CRMScript.NetServer.NSUserAgent.IsNickNameUnique(Integer,String)
+  - CRMScript.NetServer.NSUserAgent.IsPasswordValid(Integer,Integer,Integer,String)
+  - CRMScript.NetServer.NSUserAgent.IsPasswordValidWithReason(Integer,Integer,Integer,String)
+  - CRMScript.NetServer.NSUserAgent.IsUserNameValid(Integer,Integer,Integer,String,String)
+  - CRMScript.NetServer.NSUserAgent.IsUserNameValidWithReason(Integer,Integer,Integer,String,String)
+  - CRMScript.NetServer.NSUserAgent.MakeRetired(Integer,Bool)
+  - CRMScript.NetServer.NSUserAgent.RegisterWithAccessGateway(String)
+  - CRMScript.NetServer.NSUserAgent.RemoveLicenses(Integer)
+  - CRMScript.NetServer.NSUserAgent.RemoveOwnerContact(Integer)
+  - CRMScript.NetServer.NSUserAgent.RemoveUntrustedCredentials(String,String)
+  - CRMScript.NetServer.NSUserAgent.RemoveUntrustedCredentialsForAssociate(Integer,String,String)
+  - CRMScript.NetServer.NSUserAgent.ResolveUserFromInfo(Integer,String,String[],String[],Integer)
+  - CRMScript.NetServer.NSUserAgent.SaveCredential(Integer,NSCredential)
+  - CRMScript.NetServer.NSUserAgent.SaveExternalTokens(NSTokenManagementInfo)
+  - CRMScript.NetServer.NSUserAgent.SaveRoleEntity(NSRoleEntity)
+  - CRMScript.NetServer.NSUserAgent.SaveServiceAuth(NSServiceAuth)
+  - CRMScript.NetServer.NSUserAgent.SaveUntrustedCredentials(String,NSUntrustedCredentials)
+  - CRMScript.NetServer.NSUserAgent.SaveUntrustedCredentialsForAssociate(Integer,String,NSUntrustedCredential)
+  - CRMScript.NetServer.NSUserAgent.SaveUser(NSUser)
+  - CRMScript.NetServer.NSUserAgent.SaveUserFromName(String,NSUser)
+  - CRMScript.NetServer.NSUserAgent.SaveUserGroup(NSUserGroup)
+  - CRMScript.NetServer.NSUserAgent.SetDataRight(Integer,String,Integer,String)
+  - CRMScript.NetServer.NSUserAgent.SetExternalUserInfo(Integer,String,String,Bool,Integer,Integer)
+  - CRMScript.NetServer.NSUserAgent.SetFunctionalRights(Integer,Integer[])
+  - CRMScript.NetServer.NSUserAgent.SetGeneratedPassword(Integer)
+  - CRMScript.NetServer.NSUserAgent.SetGeneratedPasswordFromName(String)
+  - CRMScript.NetServer.NSUserAgent.SetPassword(Integer,String)
+  - CRMScript.NetServer.NSUserAgent.SetPasswordFromName(String,String)
+  - CRMScript.NetServer.NSUserAgent.ValidateUser(NSUser)
+  name: NSUserAgent
+  nameWithType: NSUserAgent
+  fullName: CRMScript.NetServer.NSUserAgent
+  type: Class
+  summary: "\nUser administration.\n"
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSUserAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSUserAgent
+  langs:
+  - crmscript
+  name: NSUserAgent()
+  nameWithType: NSUserAgent.#ctor
+  fullName: CRMScript.NetServer.NSUserAgent.#ctor
+  type: Constructor
+  summary: "\nUser administration.\n"
+  remarks: 
+  syntax: 
+    content: NSUserAgent
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.AddOwnerContact(Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.AddOwnerContact(Integer)
+  id: 'AddOwnerContact(Integer)'
+  so.intellisense: NSUserAgent.AddOwnerContact
+  langs:
+  - crmscript
+  name: 'AddOwnerContact(Integer)'
+  nameWithType: NSUserAgent.AddOwnerContact(Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.AddOwnerContact(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void AddOwnerContact(Integer contactId)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.CanChangePassword(Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.CanChangePassword(Integer)
+  id: 'CanChangePassword(Integer)'
+  so.intellisense: NSUserAgent.CanChangePassword
+  langs:
+  - crmscript
+  name: 'CanChangePassword(Integer)'
+  nameWithType: NSUserAgent.CanChangePassword(Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.CanChangePassword(Integer)
+  type: Method
+  summary: "\nChecks if the current associate can change the password for an associate\n"
+  remarks: 
+  syntax: 
+    content: Bool CanChangePassword(Integer associateId)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nInteger associateId;\nBool res = agent.CanChangePassword(associateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.ChangeOwnPassword(String,String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.ChangeOwnPassword(String,String)
+  id: 'ChangeOwnPassword(String,String)'
+  so.intellisense: NSUserAgent.ChangeOwnPassword
+  langs:
+  - crmscript
+  name: 'ChangeOwnPassword(String,String)'
+  nameWithType: NSUserAgent.ChangeOwnPassword(String,String)
+  fullName: CRMScript.NetServer.NSUserAgent.ChangeOwnPassword(String,String)
+  type: Method
+  summary: "\nChanges password for a user.\n"
+  remarks: 
+  syntax: 
+    content: Bool ChangeOwnPassword(String oldPassword, String newPassword)
+    parameters:
+    - id: oldPassword
+      type: CRMScript.Global.String
+      description: 
+    - id: newPassword
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nString oldPassword;\nString newPassword;\nBool res = agent.ChangeOwnPassword(oldPassword, newPassword);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.ChangePassword(Integer,String,String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.ChangePassword(Integer,String,String)
+  id: 'ChangePassword(Integer,String,String)'
+  so.intellisense: NSUserAgent.ChangePassword
+  langs:
+  - crmscript
+  name: 'ChangePassword(Integer,String,String)'
+  nameWithType: NSUserAgent.ChangePassword(Integer,String,String)
+  fullName: CRMScript.NetServer.NSUserAgent.ChangePassword(Integer,String,String)
+  type: Method
+  summary: "\nChanges password for a user.\n"
+  remarks: 
+  syntax: 
+    content: Bool ChangePassword(Integer associateId, String oldPassword, String newPassword)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: oldPassword
+      type: CRMScript.Global.String
+      description: 
+    - id: newPassword
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nInteger associateId;\nString oldPassword;\nString newPassword;\nBool res = agent.ChangePassword(associateId, oldPassword, newPassword);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.ChangePasswordFromName(String,String,String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.ChangePasswordFromName(String,String,String)
+  id: 'ChangePasswordFromName(String,String,String)'
+  so.intellisense: NSUserAgent.ChangePasswordFromName
+  langs:
+  - crmscript
+  name: 'ChangePasswordFromName(String,String,String)'
+  nameWithType: NSUserAgent.ChangePasswordFromName(String,String,String)
+  fullName: CRMScript.NetServer.NSUserAgent.ChangePasswordFromName(String,String,String)
+  type: Method
+  summary: "\nChanges password for a user.\n"
+  remarks: 
+  syntax: 
+    content: Bool ChangePasswordFromName(String associateName, String oldPassword, String newPassword)
+    parameters:
+    - id: associateName
+      type: CRMScript.Global.String
+      description: 
+    - id: oldPassword
+      type: CRMScript.Global.String
+      description: 
+    - id: newPassword
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nString associateName;\nString oldPassword;\nString newPassword;\nBool res = agent.ChangePasswordFromName(associateName, oldPassword, newPassword);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.ChangeUserType(NSUser,Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.ChangeUserType(NSUser,Integer)
+  id: 'ChangeUserType(NSUser,Integer)'
+  so.intellisense: NSUserAgent.ChangeUserType
+  langs:
+  - crmscript
+  name: 'ChangeUserType(NSUser,Integer)'
+  nameWithType: NSUserAgent.ChangeUserType(NSUser,Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.ChangeUserType(NSUser,Integer)
+  type: Method
+  summary: "\nGets a user from the user name.\n"
+  remarks: 
+  syntax: 
+    content: NSUser ChangeUserType(NSUser user, Integer userType)
+    parameters:
+    - id: user
+      type: CRMScript.NetServer.NSUser
+      description: 
+    - id: userType
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSUser
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nNSUser user;\nInteger userType;\nNSUser res = agent.ChangeUserType(user, userType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.CheckAccessGatewayRegistration()
+  commentId: M:CRMScript.NetServer.NSUserAgent.CheckAccessGatewayRegistration()
+  id: 'CheckAccessGatewayRegistration()'
+  so.intellisense: NSUserAgent.CheckAccessGatewayRegistration
+  langs:
+  - crmscript
+  name: 'CheckAccessGatewayRegistration()'
+  nameWithType: NSUserAgent.CheckAccessGatewayRegistration()
+  fullName: CRMScript.NetServer.NSUserAgent.CheckAccessGatewayRegistration()
+  type: Method
+  summary: "\nChecks if AccessGatewayRegistration is valid\n"
+  remarks: 
+  syntax: 
+    content: Bool CheckAccessGatewayRegistration()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nBool res = agent.CheckAccessGatewayRegistration();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.CreateDefaultRoleEntity()
+  commentId: M:CRMScript.NetServer.NSUserAgent.CreateDefaultRoleEntity()
+  id: 'CreateDefaultRoleEntity()'
+  so.intellisense: NSUserAgent.CreateDefaultRoleEntity
+  langs:
+  - crmscript
+  name: 'CreateDefaultRoleEntity()'
+  nameWithType: NSUserAgent.CreateDefaultRoleEntity()
+  fullName: CRMScript.NetServer.NSUserAgent.CreateDefaultRoleEntity()
+  type: Method
+  summary: "\nSets default values into a new NSRoleEntity.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSRoleEntity CreateDefaultRoleEntity()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSRoleEntity
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nNSRoleEntity thing = agent.CreateDefaultRoleEntity();\nthing = agent.SaveRoleEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.CreateDefaultRoleEntityFromType(Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.CreateDefaultRoleEntityFromType(Integer)
+  id: 'CreateDefaultRoleEntityFromType(Integer)'
+  so.intellisense: NSUserAgent.CreateDefaultRoleEntityFromType
+  langs:
+  - crmscript
+  name: 'CreateDefaultRoleEntityFromType(Integer)'
+  nameWithType: NSUserAgent.CreateDefaultRoleEntityFromType(Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.CreateDefaultRoleEntityFromType(Integer)
+  type: Method
+  summary: "\nCreates a new role entity of the specified role type. The role type cannot be changed after the entity is created.\n"
+  remarks: 
+  syntax: 
+    content: NSRoleEntity CreateDefaultRoleEntityFromType(Integer type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.RoleType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSRoleEntity
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nInteger type;\nNSRoleEntity res = agent.CreateDefaultRoleEntityFromType(type);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.CreateDefaultServiceAuth()
+  commentId: M:CRMScript.NetServer.NSUserAgent.CreateDefaultServiceAuth()
+  id: 'CreateDefaultServiceAuth()'
+  so.intellisense: NSUserAgent.CreateDefaultServiceAuth
+  langs:
+  - crmscript
+  name: 'CreateDefaultServiceAuth()'
+  nameWithType: NSUserAgent.CreateDefaultServiceAuth()
+  fullName: CRMScript.NetServer.NSUserAgent.CreateDefaultServiceAuth()
+  type: Method
+  summary: "\nSets default values into a new NSServiceAuth.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSServiceAuth CreateDefaultServiceAuth()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSServiceAuth
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nNSServiceAuth thing = agent.CreateDefaultServiceAuth();\nthing = agent.SaveServiceAuth(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.CreateDefaultUntrustedCredentials()
+  commentId: M:CRMScript.NetServer.NSUserAgent.CreateDefaultUntrustedCredentials()
+  id: 'CreateDefaultUntrustedCredentials()'
+  so.intellisense: NSUserAgent.CreateDefaultUntrustedCredentials
+  langs:
+  - crmscript
+  name: 'CreateDefaultUntrustedCredentials()'
+  nameWithType: NSUserAgent.CreateDefaultUntrustedCredentials()
+  fullName: CRMScript.NetServer.NSUserAgent.CreateDefaultUntrustedCredentials()
+  type: Method
+  summary: "\nSets default values into a new NSUntrustedCredentials.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSUntrustedCredentials CreateDefaultUntrustedCredentials()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSUntrustedCredentials
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nNSUntrustedCredentials thing = agent.CreateDefaultUntrustedCredentials();\nthing = agent.SaveUntrustedCredentials(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.CreateDefaultUser()
+  commentId: M:CRMScript.NetServer.NSUserAgent.CreateDefaultUser()
+  id: 'CreateDefaultUser()'
+  so.intellisense: NSUserAgent.CreateDefaultUser
+  langs:
+  - crmscript
+  name: 'CreateDefaultUser()'
+  nameWithType: NSUserAgent.CreateDefaultUser()
+  fullName: CRMScript.NetServer.NSUserAgent.CreateDefaultUser()
+  type: Method
+  summary: "\nSets default values into a new NSUser.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSUser CreateDefaultUser()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSUser
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nNSUser thing = agent.CreateDefaultUser();\nthing = agent.SaveUser(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.CreateDefaultUserFromUserType(Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.CreateDefaultUserFromUserType(Integer)
+  id: 'CreateDefaultUserFromUserType(Integer)'
+  so.intellisense: NSUserAgent.CreateDefaultUserFromUserType
+  langs:
+  - crmscript
+  name: 'CreateDefaultUserFromUserType(Integer)'
+  nameWithType: NSUserAgent.CreateDefaultUserFromUserType(Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.CreateDefaultUserFromUserType(Integer)
+  type: Method
+  summary: "\nCreates default NSUser providing the user type.  Only System and Anonymous users can be created without an existing person.\n"
+  remarks: "\nUse CreateDefaultUserFromUserTypeAndPersonId to create internal (i.e. Employee) or external users.\n"
+  syntax: 
+    content: NSUser CreateDefaultUserFromUserType(Integer userType)
+    parameters:
+    - id: userType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.AssociateType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSUser
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nInteger userType;\nNSUser res = agent.CreateDefaultUserFromUserType(userType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.CreateDefaultUserFromUserTypeAndCredential(Integer,Integer,String,String,String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.CreateDefaultUserFromUserTypeAndCredential(Integer,Integer,String,String,String)
+  id: 'CreateDefaultUserFromUserTypeAndCredential(Integer,Integer,String,String,String)'
+  so.intellisense: NSUserAgent.CreateDefaultUserFromUserTypeAndCredential
+  langs:
+  - crmscript
+  name: 'CreateDefaultUserFromUserTypeAndCredential(Integer,Integer,String,String,String)'
+  nameWithType: NSUserAgent.CreateDefaultUserFromUserTypeAndCredential(Integer,Integer,String,String,String)
+  fullName: CRMScript.NetServer.NSUserAgent.CreateDefaultUserFromUserTypeAndCredential(Integer,Integer,String,String,String)
+  type: Method
+  summary: "\nCreates an NSPersonEntity with default values based on the contactId and credentials.\n"
+  remarks: 
+  syntax: 
+    content: NSUser CreateDefaultUserFromUserTypeAndCredential(Integer userType, Integer contactId, String credentialType, String credentialValue, String credentialDisplayValue)
+    parameters:
+    - id: userType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.AssociateType\" data-throw-if-not-resolved=\"false\"></xref>"
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: credentialType
+      type: CRMScript.Global.String
+      description: 
+    - id: credentialValue
+      type: CRMScript.Global.String
+      description: 
+    - id: credentialDisplayValue
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSUser
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.CreateDefaultUserFromUserTypeAndPersonId(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.CreateDefaultUserFromUserTypeAndPersonId(Integer,Integer)
+  id: 'CreateDefaultUserFromUserTypeAndPersonId(Integer,Integer)'
+  so.intellisense: NSUserAgent.CreateDefaultUserFromUserTypeAndPersonId
+  langs:
+  - crmscript
+  name: 'CreateDefaultUserFromUserTypeAndPersonId(Integer,Integer)'
+  nameWithType: NSUserAgent.CreateDefaultUserFromUserTypeAndPersonId(Integer,Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.CreateDefaultUserFromUserTypeAndPersonId(Integer,Integer)
+  type: Method
+  summary: "\nCreates default NSUser providing the associate type and person id.  System and Anonymous users can be created without an existing person and permits person id to be 0.\n"
+  remarks: 
+  syntax: 
+    content: NSUser CreateDefaultUserFromUserTypeAndPersonId(Integer userType, Integer personId)
+    parameters:
+    - id: userType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.AssociateType\" data-throw-if-not-resolved=\"false\"></xref>"
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSUser
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nInteger userType;\nInteger personId;\nNSUser res = agent.CreateDefaultUserFromUserTypeAndPersonId(userType, personId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.CreateExternalUser(Integer,String,String,Integer,Bool)
+  commentId: M:CRMScript.NetServer.NSUserAgent.CreateExternalUser(Integer,String,String,Integer,Bool)
+  id: 'CreateExternalUser(Integer,String,String,Integer,Bool)'
+  so.intellisense: NSUserAgent.CreateExternalUser
+  langs:
+  - crmscript
+  name: 'CreateExternalUser(Integer,String,String,Integer,Bool)'
+  nameWithType: NSUserAgent.CreateExternalUser(Integer,String,String,Integer,Bool)
+  fullName: CRMScript.NetServer.NSUserAgent.CreateExternalUser(Integer,String,String,Integer,Bool)
+  type: Method
+  summary: "\nCreates an associate of type external user.\n"
+  remarks: 
+  syntax: 
+    content: Integer CreateExternalUser(Integer personId, String userName, String password, Integer roleId, Bool isActive)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: userName
+      type: CRMScript.Global.String
+      description: 
+    - id: password
+      type: CRMScript.Global.String
+      description: 
+    - id: roleId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: isActive
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nInteger personId;\nString userName;\nString password;\nInteger roleId;\nBool isActive;\nInteger res = agent.CreateExternalUser(personId, userName, password, roleId, isActive);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.CreateUserGroup()
+  commentId: M:CRMScript.NetServer.NSUserAgent.CreateUserGroup()
+  id: 'CreateUserGroup()'
+  so.intellisense: NSUserAgent.CreateUserGroup
+  langs:
+  - crmscript
+  name: 'CreateUserGroup()'
+  nameWithType: NSUserAgent.CreateUserGroup()
+  fullName: CRMScript.NetServer.NSUserAgent.CreateUserGroup()
+  type: Method
+  summary: "\nCreates UserGroup (Rank is assigned to the highest rank)\n"
+  remarks: 
+  syntax: 
+    content: NSUserGroup CreateUserGroup()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSUserGroup
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.DecryptAndSaveExternalTokens(NSTokenManagementInfo)
+  commentId: M:CRMScript.NetServer.NSUserAgent.DecryptAndSaveExternalTokens(NSTokenManagementInfo)
+  id: 'DecryptAndSaveExternalTokens(NSTokenManagementInfo)'
+  so.intellisense: NSUserAgent.DecryptAndSaveExternalTokens
+  langs:
+  - crmscript
+  name: 'DecryptAndSaveExternalTokens(NSTokenManagementInfo)'
+  nameWithType: NSUserAgent.DecryptAndSaveExternalTokens(NSTokenManagementInfo)
+  fullName: CRMScript.NetServer.NSUserAgent.DecryptAndSaveExternalTokens(NSTokenManagementInfo)
+  type: Method
+  summary: "\nFirst asks AccessGateway to decrypt the tokens, then saves the external tokens to the DB and returns a key that can be used to retrieve them\n"
+  remarks: 
+  syntax: 
+    content: String DecryptAndSaveExternalTokens(NSTokenManagementInfo tokenManagementInfo)
+    parameters:
+    - id: tokenManagementInfo
+      type: CRMScript.NetServer.NSTokenManagementInfo
+      description:
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nNSTokenManagementInfo tokenManagementInfo;\nString res = agent.DecryptAndSaveExternalTokens(tokenManagementInfo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.DeleteCredential(Integer,String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.DeleteCredential(Integer,String)
+  id: 'DeleteCredential(Integer,String)'
+  so.intellisense: NSUserAgent.DeleteCredential
+  langs:
+  - crmscript
+  name: 'DeleteCredential(Integer,String)'
+  nameWithType: NSUserAgent.DeleteCredential(Integer,String)
+  fullName: CRMScript.NetServer.NSUserAgent.DeleteCredential(Integer,String)
+  type: Method
+  summary: "\nRemoves credential of a specific type for a user\n"
+  remarks: 
+  syntax: 
+    content: Bool DeleteCredential(Integer userId, String credentialType)
+    parameters:
+    - id: userId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: credentialType
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nInteger userId;\nString credentialType;\nBool res = agent.DeleteCredential(userId, credentialType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.DeleteExternalUser(Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.DeleteExternalUser(Integer)
+  id: 'DeleteExternalUser(Integer)'
+  so.intellisense: NSUserAgent.DeleteExternalUser
+  langs:
+  - crmscript
+  name: 'DeleteExternalUser(Integer)'
+  nameWithType: NSUserAgent.DeleteExternalUser(Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.DeleteExternalUser(Integer)
+  type: Method
+  summary: "\nDeletes an associate of type external user.\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteExternalUser(Integer associateId)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.DeleteRole(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.DeleteRole(Integer,Integer)
+  id: 'DeleteRole(Integer,Integer)'
+  so.intellisense: NSUserAgent.DeleteRole
+  langs:
+  - crmscript
+  name: 'DeleteRole(Integer,Integer)'
+  nameWithType: NSUserAgent.DeleteRole(Integer,Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.DeleteRole(Integer,Integer)
+  type: Method
+  summary: "\nDeletes the specified role and move all users associated with the role to the replacingRoleId\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteRole(Integer roleIdToDelete, Integer replacingRoleId)
+    parameters:
+    - id: roleIdToDelete
+      type: CRMScript.Global.Integer
+      description: 
+    - id: replacingRoleId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.DeleteServiceAuth(Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.DeleteServiceAuth(Integer)
+  id: 'DeleteServiceAuth(Integer)'
+  so.intellisense: NSUserAgent.DeleteServiceAuth
+  langs:
+  - crmscript
+  name: 'DeleteServiceAuth(Integer)'
+  nameWithType: NSUserAgent.DeleteServiceAuth(Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.DeleteServiceAuth(Integer)
+  type: Method
+  summary: "\nDeletes the NSServiceAuth\n"
+  remarks: 
+  syntax: 
+    content: DeleteServiceAuth(Integer serviceAuth)
+    parameters:
+    - id: serviceAuth
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nagent.DeleteServiceAuth(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.DeleteUser(Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.DeleteUser(Integer)
+  id: 'DeleteUser(Integer)'
+  so.intellisense: NSUserAgent.DeleteUser
+  langs:
+  - crmscript
+  name: 'DeleteUser(Integer)'
+  nameWithType: NSUserAgent.DeleteUser(Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.DeleteUser(Integer)
+  type: Method
+  summary: "\nDeletes the NSUser\n"
+  remarks: 
+  syntax: 
+    content: DeleteUser(Integer user)
+    parameters:
+    - id: user
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nagent.DeleteUser(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.DeleteUserFromName(String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.DeleteUserFromName(String)
+  id: 'DeleteUserFromName(String)'
+  so.intellisense: NSUserAgent.DeleteUserFromName
+  langs:
+  - crmscript
+  name: 'DeleteUserFromName(String)'
+  nameWithType: NSUserAgent.DeleteUserFromName(String)
+  fullName: CRMScript.NetServer.NSUserAgent.DeleteUserFromName(String)
+  type: Method
+  summary: "\nDeletes a user, with lookup based on the user name.\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteUserFromName(String userName)
+    parameters:
+    - id: userName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nString userName;\nagent.DeleteUserFromName(userName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.DeleteUserGroup(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.DeleteUserGroup(Integer,Integer)
+  id: 'DeleteUserGroup(Integer,Integer)'
+  so.intellisense: NSUserAgent.DeleteUserGroup
+  langs:
+  - crmscript
+  name: 'DeleteUserGroup(Integer,Integer)'
+  nameWithType: NSUserAgent.DeleteUserGroup(Integer,Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.DeleteUserGroup(Integer,Integer)
+  type: Method
+  summary: "\nDeletes a user group and move its members to another user group\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteUserGroup(Integer userGroupToDelete, Integer userGroupToMoveTo)
+    parameters:
+    - id: userGroupToDelete
+      type: CRMScript.Global.Integer
+      description: 
+    - id: userGroupToMoveTo
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.FindCredentialsGroups(String,String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.FindCredentialsGroups(String,String)
+  id: 'FindCredentialsGroups(String,String)'
+  so.intellisense: NSUserAgent.FindCredentialsGroups
+  langs:
+  - crmscript
+  name: 'FindCredentialsGroups(String,String)'
+  nameWithType: NSUserAgent.FindCredentialsGroups(String,String)
+  fullName: CRMScript.NetServer.NSUserAgent.FindCredentialsGroups(String,String)
+  type: Method
+  summary: "\nGets user groups holding users filtered by the searchString.\n"
+  remarks: "\nThis method is only relevant if the CredentialType control is of type link.\n"
+  syntax: 
+    content: NSCredentialsGroup[] FindCredentialsGroups(String type, String searchString)
+    parameters:
+    - id: type
+      type: CRMScript.Global.String
+      description: 
+    - id: searchString
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSCredentialsGroup[]
+      description: "There will always be at least one groups even if the underlying provider does not support groups."
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.FindCredentialUsers(String,String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.FindCredentialUsers(String,String)
+  id: 'FindCredentialUsers(String,String)'
+  so.intellisense: NSUserAgent.FindCredentialUsers
+  langs:
+  - crmscript
+  name: 'FindCredentialUsers(String,String)'
+  nameWithType: NSUserAgent.FindCredentialUsers(String,String)
+  fullName: CRMScript.NetServer.NSUserAgent.FindCredentialUsers(String,String)
+  type: Method
+  summary: "\nFind users matching the partial name.\n"
+  remarks: 
+  syntax: 
+    content: NSCredentialsGroupUsers FindCredentialUsers(String type, String searchString)
+    parameters:
+    - id: type
+      type: CRMScript.Global.String
+      description: 
+    - id: searchString
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSCredentialsGroupUsers
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.FindRolesWithFunctionalRight(String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.FindRolesWithFunctionalRight(String)
+  id: 'FindRolesWithFunctionalRight(String)'
+  so.intellisense: NSUserAgent.FindRolesWithFunctionalRight
+  langs:
+  - crmscript
+  name: 'FindRolesWithFunctionalRight(String)'
+  nameWithType: NSUserAgent.FindRolesWithFunctionalRight(String)
+  fullName: CRMScript.NetServer.NSUserAgent.FindRolesWithFunctionalRight(String)
+  type: Method
+  summary: "\nFinds all roles with a given functional right. The roles matched must contain the specified functional right.\n"
+  remarks: 
+  syntax: 
+    content: NSMDOListItem[] FindRolesWithFunctionalRight(String functionalRightName)
+    parameters:
+    - id: functionalRightName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSMDOListItem[]
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nString functionalRightName;\nNSMDOListItem[] res = agent.FindRolesWithFunctionalRight(functionalRightName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.FindRolesWithFunctionalRights(String[])
+  commentId: M:CRMScript.NetServer.NSUserAgent.FindRolesWithFunctionalRights(String[])
+  id: 'FindRolesWithFunctionalRights(String[])'
+  so.intellisense: NSUserAgent.FindRolesWithFunctionalRights
+  langs:
+  - crmscript
+  name: 'FindRolesWithFunctionalRights(String[])'
+  nameWithType: NSUserAgent.FindRolesWithFunctionalRights(String[])
+  fullName: CRMScript.NetServer.NSUserAgent.FindRolesWithFunctionalRights(String[])
+  type: Method
+  summary: "\nFinds all roles with a given set of functional rights. The roles matched must contain one or more of the specified functional rights.\n"
+  remarks: 
+  syntax: 
+    content: Integer[] FindRolesWithFunctionalRights(String[] functionalRightNames)
+    parameters:
+    - id: functionalRightNames
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.Global.Integer[]
+      description:
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nString[] functionalRightNames;\nInteger[] res = agent.FindRolesWithFunctionalRights(functionalRightNames);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.FindRolesWithoutFunctionalRights(String[])
+  commentId: M:CRMScript.NetServer.NSUserAgent.FindRolesWithoutFunctionalRights(String[])
+  id: 'FindRolesWithoutFunctionalRights(String[])'
+  so.intellisense: NSUserAgent.FindRolesWithoutFunctionalRights
+  langs:
+  - crmscript
+  name: 'FindRolesWithoutFunctionalRights(String[])'
+  nameWithType: NSUserAgent.FindRolesWithoutFunctionalRights(String[])
+  fullName: CRMScript.NetServer.NSUserAgent.FindRolesWithoutFunctionalRights(String[])
+  type: Method
+  summary: "\nFinds all roles without a given set of functional rights. The roles matched must not contain any of the specified functional rights.\n"
+  remarks: 
+  syntax: 
+    content: Integer[] FindRolesWithoutFunctionalRights(String[] functionalRightNames)
+    parameters:
+    - id: functionalRightNames
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.Global.Integer[]
+      description:
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nString[] functionalRightNames;\nInteger[] res = agent.FindRolesWithoutFunctionalRights(functionalRightNames);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.GenerateNewPasswordForExternalUser(String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GenerateNewPasswordForExternalUser(String)
+  id: 'GenerateNewPasswordForExternalUser(String)'
+  so.intellisense: NSUserAgent.GenerateNewPasswordForExternalUser
+  langs:
+  - crmscript
+  name: 'GenerateNewPasswordForExternalUser(String)'
+  nameWithType: NSUserAgent.GenerateNewPasswordForExternalUser(String)
+  fullName: CRMScript.NetServer.NSUserAgent.GenerateNewPasswordForExternalUser(String)
+  type: Method
+  summary: "\nGenerates a new password for an external user.\n"
+  remarks: 
+  syntax: 
+    content: String GenerateNewPasswordForExternalUser(String associateName)
+    parameters:
+    - id: associateName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nString associateName;\nString res = agent.GenerateNewPasswordForExternalUser(associateName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.GetAccessGatewayInfo()
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetAccessGatewayInfo()
+  id: 'GetAccessGatewayInfo()'
+  so.intellisense: NSUserAgent.GetAccessGatewayInfo
+  langs:
+  - crmscript
+  name: 'GetAccessGatewayInfo()'
+  nameWithType: NSUserAgent.GetAccessGatewayInfo()
+  fullName: CRMScript.NetServer.NSUserAgent.GetAccessGatewayInfo()
+  type: Method
+  summary: "\nReturns accessgateway registration info\n"
+  remarks: 
+  syntax: 
+    content: NSAccessGatewayInfo GetAccessGatewayInfo()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAccessGatewayInfo
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.GetAccessToken(String,Bool)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetAccessToken(String,Bool)
+  id: 'GetAccessToken(String,Bool)'
+  so.intellisense: NSUserAgent.GetAccessToken
+  langs:
+  - crmscript
+  name: 'GetAccessToken(String,Bool)'
+  nameWithType: NSUserAgent.GetAccessToken(String,Bool)
+  fullName: CRMScript.NetServer.NSUserAgent.GetAccessToken(String,Bool)
+  type: Method
+  summary: "\nGets an access token based on the current user's session.\n"
+  remarks: 
+  syntax: 
+    content: String GetAccessToken(String appToken, Bool includeCsSession)
+    parameters:
+    - id: appToken
+      type: CRMScript.Global.String
+      description: 
+    - id: includeCsSession
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nString appToken;\nBool includeCsSession;\nString res = agent.GetAccessToken(appToken, includeCsSession);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.GetAllFunctionalRights(Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetAllFunctionalRights(Integer)
+  id: 'GetAllFunctionalRights(Integer)'
+  so.intellisense: NSUserAgent.GetAllFunctionalRights
+  langs:
+  - crmscript
+  name: 'GetAllFunctionalRights(Integer)'
+  nameWithType: NSUserAgent.GetAllFunctionalRights(Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.GetAllFunctionalRights(Integer)
+  type: Method
+  summary: "\nGets a list of all functional rights for the given type of role.\n"
+  remarks: 
+  syntax: 
+    content: NSSelectableMDOListItem[] GetAllFunctionalRights(Integer roleType)
+    parameters:
+    - id: roleType
+      type: CRMScript.Global.Integer
+      description: "MDO List name = 'FunctionRights', extra='roleType=0'. See <xref href=\"CRMScript.NetServer.RoleType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSSelectableMDOListItem[]
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nInteger roleType;\nNSSelectableMDOListItem[] res = agent.GetAllFunctionalRights(roleType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.GetAllRoles(Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetAllRoles(Integer)
+  id: 'GetAllRoles(Integer)'
+  so.intellisense: NSUserAgent.GetAllRoles
+  langs:
+  - crmscript
+  name: 'GetAllRoles(Integer)'
+  nameWithType: NSUserAgent.GetAllRoles(Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.GetAllRoles(Integer)
+  type: Method
+  summary: "\nGets a list of all roles for the given type of role. \n"
+  remarks: 
+  syntax: 
+    content: NSSelectableMDOListItem[] GetAllRoles(Integer roleType)
+    parameters:
+    - id: roleType
+      type: CRMScript.Global.Integer
+      description: "MDO List name = 'Roles', extra='0' (roleType) See <xref href=\"CRMScript.NetServer.RoleType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSSelectableMDOListItem[]
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nInteger roleType;\nNSSelectableMDOListItem[] res = agent.GetAllRoles(roleType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.GetAllUserGroups(Bool)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetAllUserGroups(Bool)
+  id: 'GetAllUserGroups(Bool)'
+  so.intellisense: NSUserAgent.GetAllUserGroups
+  langs:
+  - crmscript
+  name: 'GetAllUserGroups(Bool)'
+  nameWithType: NSUserAgent.GetAllUserGroups(Bool)
+  fullName: CRMScript.NetServer.NSUserAgent.GetAllUserGroups(Bool)
+  type: Method
+  summary: "\nGets all user groups\n"
+  remarks: 
+  syntax: 
+    content: NSUserGroup[] GetAllUserGroups(Bool includeDeleted)
+    parameters:
+    - id: includeDeleted
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.NetServer.NSUserGroup[]
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nBool includeDeleted;\nNSUserGroup[] res = agent.GetAllUserGroups(includeDeleted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.GetCredentialsGroups(Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetCredentialsGroups(Integer)
+  id: 'GetCredentialsGroups(Integer)'
+  so.intellisense: NSUserAgent.GetCredentialsGroups
+  langs:
+  - crmscript
+  name: 'GetCredentialsGroups(Integer)'
+  nameWithType: NSUserAgent.GetCredentialsGroups(Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.GetCredentialsGroups(Integer)
+  type: Method
+  summary: "\nGets user groups holding users.\n"
+  remarks: "\nThis method is only relevant if the CredentialType control is of type link.\n"
+  syntax: 
+    content: NSCredentialsGroup[] GetCredentialsGroups(Integer type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSCredentialsGroup[]
+      description: "There will always be at least one groups even if the underlying provider does not support groups."
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.GetCredentialTypes()
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetCredentialTypes()
+  id: 'GetCredentialTypes()'
+  so.intellisense: NSUserAgent.GetCredentialTypes
+  langs:
+  - crmscript
+  name: 'GetCredentialTypes()'
+  nameWithType: NSUserAgent.GetCredentialTypes()
+  fullName: CRMScript.NetServer.NSUserAgent.GetCredentialTypes()
+  type: Method
+  summary: "\nGets available credential types that can be used for authentication\n"
+  remarks: 
+  syntax: 
+    content: NSCredentialType[] GetCredentialTypes()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSCredentialType[]
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nNSCredentialType[] res = agent.GetCredentialTypes();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.GetCredentialTypesForUserType(Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetCredentialTypesForUserType(Integer)
+  id: 'GetCredentialTypesForUserType(Integer)'
+  so.intellisense: NSUserAgent.GetCredentialTypesForUserType
+  langs:
+  - crmscript
+  name: 'GetCredentialTypesForUserType(Integer)'
+  nameWithType: NSUserAgent.GetCredentialTypesForUserType(Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.GetCredentialTypesForUserType(Integer)
+  type: Method
+  summary: "\nGets available credential types that can be used for the specified user type.\n"
+  remarks: 
+  syntax: 
+    content: NSCredentialType[] GetCredentialTypesForUserType(Integer userType)
+    parameters:
+    - id: userType
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSCredentialType[]
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nInteger userType;\nNSCredentialType[] res = agent.GetCredentialTypesForUserType(userType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.GetCredentialUsers(String,String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetCredentialUsers(String,String)
+  id: 'GetCredentialUsers(String,String)'
+  so.intellisense: NSUserAgent.GetCredentialUsers
+  langs:
+  - crmscript
+  name: 'GetCredentialUsers(String,String)'
+  nameWithType: NSUserAgent.GetCredentialUsers(String,String)
+  fullName: CRMScript.NetServer.NSUserAgent.GetCredentialUsers(String,String)
+  type: Method
+  summary: "\nGets credential users within a user group\n"
+  remarks: 
+  syntax: 
+    content: NSCredentialsGroupUsers GetCredentialUsers(String groupName, String type)
+    parameters:
+    - id: groupName
+      type: CRMScript.Global.String
+      description: "Name of user group needed to discover the users."
+    - id: type
+      type: CRMScript.Global.String
+      description: "Type of credentials, corresponding to name of plugin and type in the credentials table."
+    return:
+      type: CRMScript.NetServer.NSCredentialsGroupUsers
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.GetCredentialUsersInGroup(String,String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetCredentialUsersInGroup(String,String)
+  id: 'GetCredentialUsersInGroup(String,String)'
+  so.intellisense: NSUserAgent.GetCredentialUsersInGroup
+  langs:
+  - crmscript
+  name: 'GetCredentialUsersInGroup(String,String)'
+  nameWithType: NSUserAgent.GetCredentialUsersInGroup(String,String)
+  fullName: CRMScript.NetServer.NSUserAgent.GetCredentialUsersInGroup(String,String)
+  type: Method
+  summary: "\nGets credential users within a user group\n"
+  remarks: 
+  syntax: 
+    content: NSCredentialsGroupUsers GetCredentialUsersInGroup(String type, String groupName)
+    parameters:
+    - id: type
+      type: CRMScript.Global.String
+      description: 
+    - id: groupName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSCredentialsGroupUsers
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.GetDataRight(Integer,String,Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetDataRight(Integer,String,Integer)
+  id: 'GetDataRight(Integer,String,Integer)'
+  so.intellisense: NSUserAgent.GetDataRight
+  langs:
+  - crmscript
+  name: 'GetDataRight(Integer,String,Integer)'
+  nameWithType: NSUserAgent.GetDataRight(Integer,String,Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.GetDataRight(Integer,String,Integer)
+  type: Method
+  summary: "\nReads one specific data right at the given position.\n"
+  remarks: "\nAn exception will be thrown if non existing position is specified.\n"
+  syntax: 
+    content: String GetDataRight(Integer roleId, String tableName, Integer relationToOwner)
+    parameters:
+    - id: roleId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: tableName
+      type: CRMScript.Global.String
+      description: 
+    - id: relationToOwner
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.RoleRelationToOwner\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nInteger roleId;\nString tableName;\nInteger relationToOwner;\nString res = agent.GetDataRight(roleId, tableName, relationToOwner);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.GetDataRights(Integer,String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetDataRights(Integer,String)
+  id: 'GetDataRights(Integer,String)'
+  so.intellisense: NSUserAgent.GetDataRights
+  langs:
+  - crmscript
+  name: 'GetDataRights(Integer,String)'
+  nameWithType: NSUserAgent.GetDataRights(Integer,String)
+  fullName: CRMScript.NetServer.NSUserAgent.GetDataRights(Integer,String)
+  type: Method
+  summary: "\nReads specific a set of data rights at the given row in the rights matrix.\n"
+  remarks: "\nAn exception will be thrown if non existing position is specified.\n"
+  syntax: 
+    content: Map GetDataRights(Integer roleId, String tableName)
+    parameters:
+    - id: roleId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: tableName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nInteger roleId;\nString tableName;\nMap res = agent.GetDataRights(roleId, tableName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.GetDefaultAssociateUserName(NSUser)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetDefaultAssociateUserName(NSUser)
+  id: 'GetDefaultAssociateUserName(NSUser)'
+  so.intellisense: NSUserAgent.GetDefaultAssociateUserName
+  langs:
+  - crmscript
+  name: 'GetDefaultAssociateUserName(NSUser)'
+  nameWithType: NSUserAgent.GetDefaultAssociateUserName(NSUser)
+  fullName: CRMScript.NetServer.NSUserAgent.GetDefaultAssociateUserName(NSUser)
+  type: Method
+  summary: "\nGets the default username for a person\n"
+  remarks: 
+  syntax: 
+    content: String GetDefaultAssociateUserName(NSUser user)
+    parameters:
+    - id: user
+      type: CRMScript.NetServer.NSUser
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.GetExternalTokens(String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetExternalTokens(String)
+  id: 'GetExternalTokens(String)'
+  so.intellisense: NSUserAgent.GetExternalTokens
+  langs:
+  - crmscript
+  name: 'GetExternalTokens(String)'
+  nameWithType: NSUserAgent.GetExternalTokens(String)
+  fullName: CRMScript.NetServer.NSUserAgent.GetExternalTokens(String)
+  type: Method
+  summary: "\nRetrieves the tokens from the DB based on the given key\n"
+  remarks: 
+  syntax: 
+    content: NSTokenManagementInfo GetExternalTokens(String key)
+    parameters:
+    - id: key
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSTokenManagementInfo
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nString key;\nNSTokenManagementInfo res = agent.GetExternalTokens(key);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.GetFunctionalRights(Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetFunctionalRights(Integer)
+  id: 'GetFunctionalRights(Integer)'
+  so.intellisense: NSUserAgent.GetFunctionalRights
+  langs:
+  - crmscript
+  name: 'GetFunctionalRights(Integer)'
+  nameWithType: NSUserAgent.GetFunctionalRights(Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.GetFunctionalRights(Integer)
+  type: Method
+  summary: "\nGets all functional rights for the given role. Functional rights not set on the role are not included.\n"
+  remarks: 
+  syntax: 
+    content: NSSelectableMDOListItem[] GetFunctionalRights(Integer roleId)
+    parameters:
+    - id: roleId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSSelectableMDOListItem[]
+      description: MDO List name = 'FunctionRights', extra='role=123'
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nInteger roleId;\nNSSelectableMDOListItem[] res = agent.GetFunctionalRights(roleId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.GetRole(Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetRole(Integer)
+  id: 'GetRole(Integer)'
+  so.intellisense: NSUserAgent.GetRole
+  langs:
+  - crmscript
+  name: 'GetRole(Integer)'
+  nameWithType: NSUserAgent.GetRole(Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.GetRole(Integer)
+  type: Method
+  summary: "\nGets an NSRole object.\n"
+  remarks: 
+  syntax: 
+    content: NSRole GetRole(Integer roleId)
+    parameters:
+    - id: roleId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSRole
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nNSRole thing = agent.GetRole(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.GetRoleEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetRoleEntity(Integer)
+  id: 'GetRoleEntity(Integer)'
+  so.intellisense: NSUserAgent.GetRoleEntity
+  langs:
+  - crmscript
+  name: 'GetRoleEntity(Integer)'
+  nameWithType: NSUserAgent.GetRoleEntity(Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.GetRoleEntity(Integer)
+  type: Method
+  summary: "\nGets an NSRoleEntity object.\n"
+  remarks: 
+  syntax: 
+    content: NSRoleEntity GetRoleEntity(Integer roleEntityId)
+    parameters:
+    - id: roleEntityId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSRoleEntity
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nNSRoleEntity thing = agent.GetRoleEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.GetServiceAuth(Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetServiceAuth(Integer)
+  id: 'GetServiceAuth(Integer)'
+  so.intellisense: NSUserAgent.GetServiceAuth
+  langs:
+  - crmscript
+  name: 'GetServiceAuth(Integer)'
+  nameWithType: NSUserAgent.GetServiceAuth(Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.GetServiceAuth(Integer)
+  type: Method
+  summary: "\nGets an NSServiceAuth object.\n"
+  remarks: 
+  syntax: 
+    content: NSServiceAuth GetServiceAuth(Integer serviceAuthId)
+    parameters:
+    - id: serviceAuthId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSServiceAuth
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nNSServiceAuth thing = agent.GetServiceAuth(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.GetUntrustedCredentials(String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetUntrustedCredentials(String)
+  id: 'GetUntrustedCredentials(String)'
+  so.intellisense: NSUserAgent.GetUntrustedCredentials
+  langs:
+  - crmscript
+  name: 'GetUntrustedCredentials(String)'
+  nameWithType: NSUserAgent.GetUntrustedCredentials(String)
+  fullName: CRMScript.NetServer.NSUserAgent.GetUntrustedCredentials(String)
+  type: Method
+  summary: "\nGets a set of credentials of a specified type for authenticated user.\n"
+  remarks: 
+  syntax: 
+    content: NSUntrustedCredentials[] GetUntrustedCredentials(String type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSUntrustedCredentials[]
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nString type;\nNSUntrustedCredentials[] res = agent.GetUntrustedCredentials(type);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.GetUntrustedCredentialsForAssociate(Integer,String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetUntrustedCredentialsForAssociate(Integer,String)
+  id: 'GetUntrustedCredentialsForAssociate(Integer,String)'
+  so.intellisense: NSUserAgent.GetUntrustedCredentialsForAssociate
+  langs:
+  - crmscript
+  name: 'GetUntrustedCredentialsForAssociate(Integer,String)'
+  nameWithType: NSUserAgent.GetUntrustedCredentialsForAssociate(Integer,String)
+  fullName: CRMScript.NetServer.NSUserAgent.GetUntrustedCredentialsForAssociate(Integer,String)
+  type: Method
+  summary: "\nGets a set of credentials of a specified type for a specified user. SecretValue is only populated for authenticated user, and system users.\n"
+  remarks: 
+  syntax: 
+    content: NSUntrustedCredentials[] GetUntrustedCredentialsForAssociate(Integer associateId, String type)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: type
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSUntrustedCredentials[]
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nInteger associateId;\nString type;\nNSUntrustedCredentials[] res = agent.GetUntrustedCredentialsForAssociate(associateId, type);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.GetUser(Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetUser(Integer)
+  id: 'GetUser(Integer)'
+  so.intellisense: NSUserAgent.GetUser
+  langs:
+  - crmscript
+  name: 'GetUser(Integer)'
+  nameWithType: NSUserAgent.GetUser(Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.GetUser(Integer)
+  type: Method
+  summary: "\nGets an NSUser object.\n"
+  remarks: 
+  syntax: 
+    content: NSUser GetUser(Integer userId)
+    parameters:
+    - id: userId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSUser
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nNSUser thing = agent.GetUser(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.GetUserFromEjUserId(Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetUserFromEjUserId(Integer)
+  id: 'GetUserFromEjUserId(Integer)'
+  so.intellisense: NSUserAgent.GetUserFromEjUserId
+  langs:
+  - crmscript
+  name: 'GetUserFromEjUserId(Integer)'
+  nameWithType: NSUserAgent.GetUserFromEjUserId(Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.GetUserFromEjUserId(Integer)
+  type: Method
+  summary: "\nGets user from ejUserId.\n"
+  remarks: "\nUsed for eJournal Legacy Support.\n"
+  syntax: 
+    content: NSUser[] GetUserFromEjUserId(Integer ejUserId)
+    parameters:
+    - id: ejUserId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSUser[]
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.GetUserFromName(String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetUserFromName(String)
+  id: 'GetUserFromName(String)'
+  so.intellisense: NSUserAgent.GetUserFromName
+  langs:
+  - crmscript
+  name: 'GetUserFromName(String)'
+  nameWithType: NSUserAgent.GetUserFromName(String)
+  fullName: CRMScript.NetServer.NSUserAgent.GetUserFromName(String)
+  type: Method
+  summary: "\nGets a user, with lookup based on user name.\n"
+  remarks: 
+  syntax: 
+    content: NSUser GetUserFromName(String userName)
+    parameters:
+    - id: userName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSUser
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nString userName;\nNSUser res = agent.GetUserFromName(userName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.GetUserFromPersonId(Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetUserFromPersonId(Integer)
+  id: 'GetUserFromPersonId(Integer)'
+  so.intellisense: NSUserAgent.GetUserFromPersonId
+  langs:
+  - crmscript
+  name: 'GetUserFromPersonId(Integer)'
+  nameWithType: NSUserAgent.GetUserFromPersonId(Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.GetUserFromPersonId(Integer)
+  type: Method
+  summary: "\nReturns the user associated with the supplied person ID.\n"
+  remarks: 
+  syntax: 
+    content: NSUser[] GetUserFromPersonId(Integer personId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSUser[]
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.GetUserGroup(Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetUserGroup(Integer)
+  id: 'GetUserGroup(Integer)'
+  so.intellisense: NSUserAgent.GetUserGroup
+  langs:
+  - crmscript
+  name: 'GetUserGroup(Integer)'
+  nameWithType: NSUserAgent.GetUserGroup(Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.GetUserGroup(Integer)
+  type: Method
+  summary: "\nGets an NSUserGroup object.\n"
+  remarks: 
+  syntax: 
+    content: NSUserGroup GetUserGroup(Integer userGroupId)
+    parameters:
+    - id: userGroupId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSUserGroup
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nNSUserGroup thing = agent.GetUserGroup(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.GetUserGroupList(Integer[])
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetUserGroupList(Integer[])
+  id: 'GetUserGroupList(Integer[])'
+  so.intellisense: NSUserAgent.GetUserGroupList
+  langs:
+  - crmscript
+  name: 'GetUserGroupList(Integer[])'
+  nameWithType: NSUserAgent.GetUserGroupList(Integer[])
+  fullName: CRMScript.NetServer.NSUserAgent.GetUserGroupList(Integer[])
+  type: Method
+  summary: "\nGets an array of UserGroup objects.\n"
+  remarks: 
+  syntax: 
+    content: NSUserGroup[] GetUserGroupList(Integer[]  userGroupIds)
+    parameters:
+    - id: userGroupIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSUserGroup[]
+  example: 
+  - "\n<pre><code>Integer[] ids;\nNSUserAgent agent;\nagent.GetUserGroupList(ids);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.GetUserInfo(Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetUserInfo(Integer)
+  id: 'GetUserInfo(Integer)'
+  so.intellisense: NSUserAgent.GetUserInfo
+  langs:
+  - crmscript
+  name: 'GetUserInfo(Integer)'
+  nameWithType: NSUserAgent.GetUserInfo(Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.GetUserInfo(Integer)
+  type: Method
+  summary: "\nGets an NSUserInfo object.\n"
+  remarks: 
+  syntax: 
+    content: NSUserInfo GetUserInfo(Integer userInfoId)
+    parameters:
+    - id: userInfoId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSUserInfo
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nNSUserInfo thing = agent.GetUserInfo(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.GetUserInfoList(Integer[])
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetUserInfoList(Integer[])
+  id: 'GetUserInfoList(Integer[])'
+  so.intellisense: NSUserAgent.GetUserInfoList
+  langs:
+  - crmscript
+  name: 'GetUserInfoList(Integer[])'
+  nameWithType: NSUserAgent.GetUserInfoList(Integer[])
+  fullName: CRMScript.NetServer.NSUserAgent.GetUserInfoList(Integer[])
+  type: Method
+  summary: "\nGets an array of NSUserInfo objects.\n"
+  remarks: 
+  syntax: 
+    content: NSUserInfo[] GetUserInfoList(Integer[] userInfoIds)
+    parameters:
+    - id: userInfoIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSUserInfo[]
+  example: 
+  - "\n<pre><code>Integer[] ids;\nNSUserAgent agent;\nagent.GetUserInfoList(ids);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.GetValidUserName(Integer,Integer,Integer,String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetValidUserName(Integer,Integer,Integer,String)
+  id: 'GetValidUserName(Integer,Integer,Integer,String)'
+  so.intellisense: NSUserAgent.GetValidUserName
+  langs:
+  - crmscript
+  name: 'GetValidUserName(Integer,Integer,Integer,String)'
+  nameWithType: NSUserAgent.GetValidUserName(Integer,Integer,Integer,String)
+  fullName: CRMScript.NetServer.NSUserAgent.GetValidUserName(Integer,Integer,Integer,String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetValidUserName(Integer associateId, Integer type, Integer personId, String userName)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.AssociateType\" data-throw-if-not-resolved=\"false\"></xref>"
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: userName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.GetValidUserNameForNewUser(NSUser)
+  commentId: M:CRMScript.NetServer.NSUserAgent.GetValidUserNameForNewUser(NSUser)
+  id: 'GetValidUserNameForNewUser(NSUser)'
+  so.intellisense: NSUserAgent.GetValidUserNameForNewUser
+  langs:
+  - crmscript
+  name: 'GetValidUserNameForNewUser(NSUser)'
+  nameWithType: NSUserAgent.GetValidUserNameForNewUser(NSUser)
+  fullName: CRMScript.NetServer.NSUserAgent.GetValidUserNameForNewUser(NSUser)
+  type: Method
+  summary: "\nGenerates a valid username for an unsaved user.\n"
+  remarks: 
+  syntax: 
+    content: String GetValidUserNameForNewUser(NSUser user)
+    parameters:
+    - id: user
+      type: CRMScript.NetServer.NSUser
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.IsNickNameUnique(Integer,String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.IsNickNameUnique(Integer,String)
+  id: 'IsNickNameUnique(Integer,String)'
+  so.intellisense: NSUserAgent.IsNickNameUnique
+  langs:
+  - crmscript
+  name: 'IsNickNameUnique(Integer,String)'
+  nameWithType: NSUserAgent.IsNickNameUnique(Integer,String)
+  fullName: CRMScript.NetServer.NSUserAgent.IsNickNameUnique(Integer,String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool IsNickNameUnique(Integer associateId, String nickName)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: nickName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.IsPasswordValid(Integer,Integer,Integer,String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.IsPasswordValid(Integer,Integer,Integer,String)
+  id: 'IsPasswordValid(Integer,Integer,Integer,String)'
+  so.intellisense: NSUserAgent.IsPasswordValid
+  langs:
+  - crmscript
+  name: 'IsPasswordValid(Integer,Integer,Integer,String)'
+  nameWithType: NSUserAgent.IsPasswordValid(Integer,Integer,Integer,String)
+  fullName: CRMScript.NetServer.NSUserAgent.IsPasswordValid(Integer,Integer,Integer,String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool IsPasswordValid(Integer associateId, Integer type, Integer personId, String password)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.AssociateType\" data-throw-if-not-resolved=\"false\"></xref>"
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: password
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.IsPasswordValidWithReason(Integer,Integer,Integer,String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.IsPasswordValidWithReason(Integer,Integer,Integer,String)
+  id: 'IsPasswordValidWithReason(Integer,Integer,Integer,String)'
+  so.intellisense: NSUserAgent.IsPasswordValidWithReason
+  langs:
+  - crmscript
+  name: 'IsPasswordValidWithReason(Integer,Integer,Integer,String)'
+  nameWithType: NSUserAgent.IsPasswordValidWithReason(Integer,Integer,Integer,String)
+  fullName: CRMScript.NetServer.NSUserAgent.IsPasswordValidWithReason(Integer,Integer,Integer,String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSUserValidationResult IsPasswordValidWithReason(Integer associateId, Integer type, Integer personId, String password)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.AssociateType\" data-throw-if-not-resolved=\"false\"></xref>"
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: password
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSUserValidationResult
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.IsUserNameValid(Integer,Integer,Integer,String,String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.IsUserNameValid(Integer,Integer,Integer,String,String)
+  id: 'IsUserNameValid(Integer,Integer,Integer,String,String)'
+  so.intellisense: NSUserAgent.IsUserNameValid
+  langs:
+  - crmscript
+  name: 'IsUserNameValid(Integer,Integer,Integer,String,String)'
+  nameWithType: NSUserAgent.IsUserNameValid(Integer,Integer,Integer,String,String)
+  fullName: CRMScript.NetServer.NSUserAgent.IsUserNameValid(Integer,Integer,Integer,String,String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool IsUserNameValid(Integer associateId, Integer type, Integer personId, String userName)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.AssociateType\" data-throw-if-not-resolved=\"false\"></xref>"
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: userName
+      type: CRMScript.Global.String
+      description: 
+    - id: username
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.IsUserNameValidWithReason(Integer,Integer,Integer,String,String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.IsUserNameValidWithReason(Integer,Integer,Integer,String,String)
+  id: 'IsUserNameValidWithReason(Integer,Integer,Integer,String,String)'
+  so.intellisense: NSUserAgent.IsUserNameValidWithReason
+  langs:
+  - crmscript
+  name: 'IsUserNameValidWithReason(Integer,Integer,Integer,String,String)'
+  nameWithType: NSUserAgent.IsUserNameValidWithReason(Integer,Integer,Integer,String,String)
+  fullName: CRMScript.NetServer.NSUserAgent.IsUserNameValidWithReason(Integer,Integer,Integer,String,String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSUserValidationResult IsUserNameValidWithReason(Integer associateId, Integer type, Integer personId, String userName)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.AssociateType\" data-throw-if-not-resolved=\"false\"></xref>"
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: userName
+      type: CRMScript.Global.String
+      description: 
+    - id: username
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSUserValidationResult
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.MakeRetired(Integer,Bool)
+  commentId: M:CRMScript.NetServer.NSUserAgent.MakeRetired(Integer,Bool)
+  id: 'MakeRetired(Integer,Bool)'
+  so.intellisense: NSUserAgent.MakeRetired
+  langs:
+  - crmscript
+  name: 'MakeRetired(Integer,Bool)'
+  nameWithType: NSUserAgent.MakeRetired(Integer,Bool)
+  fullName: CRMScript.NetServer.NSUserAgent.MakeRetired(Integer,Bool)
+  type: Method
+  summary: "\nRetiring a user means to remove all licenses, setting person.retired=1 and associate.deleted=1. Un-retiring a user means setting  person.retired=0 and associate.deleted=0\n"
+  remarks: 
+  syntax: 
+    content: Void MakeRetired(Integer associateId, Bool retired)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: retired
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.RegisterWithAccessGateway(String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.RegisterWithAccessGateway(String)
+  id: 'RegisterWithAccessGateway(String)'
+  so.intellisense: NSUserAgent.RegisterWithAccessGateway
+  langs:
+  - crmscript
+  name: 'RegisterWithAccessGateway(String)'
+  nameWithType: NSUserAgent.RegisterWithAccessGateway(String)
+  fullName: CRMScript.NetServer.NSUserAgent.RegisterWithAccessGateway(String)
+  type: Method
+  summary: "\nRegisters with access gateway if not already done, otherwise will attempt to update.\n"
+  remarks: 
+  syntax: 
+    content: NSAccessGatewayInfo RegisterWithAccessGateway(String redirectUri)
+    parameters:
+    - id: redirectUri
+      type: CRMScript.Global.String
+      description: "The registered redirect_uri for AccessGateway OIDC."
+    return:
+      type: CRMScript.NetServer.NSAccessGatewayInfo
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.RemoveLicenses(Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.RemoveLicenses(Integer)
+  id: 'RemoveLicenses(Integer)'
+  so.intellisense: NSUserAgent.RemoveLicenses
+  langs:
+  - crmscript
+  name: 'RemoveLicenses(Integer)'
+  nameWithType: NSUserAgent.RemoveLicenses(Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.RemoveLicenses(Integer)
+  type: Method
+  summary: "\nRemoves all user licenses.\n"
+  remarks: 
+  syntax: 
+    content: Void RemoveLicenses(Integer associateId)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.RemoveOwnerContact(Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.RemoveOwnerContact(Integer)
+  id: 'RemoveOwnerContact(Integer)'
+  so.intellisense: NSUserAgent.RemoveOwnerContact
+  langs:
+  - crmscript
+  name: 'RemoveOwnerContact(Integer)'
+  nameWithType: NSUserAgent.RemoveOwnerContact(Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.RemoveOwnerContact(Integer)
+  type: Method
+  summary: "\nRemoves a contact from the ownercontactlink table\n"
+  remarks: 
+  syntax: 
+    content: Void RemoveOwnerContact(Integer contactId)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.RemoveUntrustedCredentials(String,String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.RemoveUntrustedCredentials(String,String)
+  id: 'RemoveUntrustedCredentials(String,String)'
+  so.intellisense: NSUserAgent.RemoveUntrustedCredentials
+  langs:
+  - crmscript
+  name: 'RemoveUntrustedCredentials(String,String)'
+  nameWithType: NSUserAgent.RemoveUntrustedCredentials(String,String)
+  fullName: CRMScript.NetServer.NSUserAgent.RemoveUntrustedCredentials(String,String)
+  type: Method
+  summary: "\nRemoves a credentials entry for authenticated user.\n"
+  remarks: 
+  syntax: 
+    content: Void RemoveUntrustedCredentials(String type, String publicValue)
+    parameters:
+    - id: type
+      type: CRMScript.Global.String
+      description: 
+    - id: publicValue
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.RemoveUntrustedCredentialsForAssociate(Integer,String,String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.RemoveUntrustedCredentialsForAssociate(Integer,String,String)
+  id: 'RemoveUntrustedCredentialsForAssociate(Integer,String,String)'
+  so.intellisense: NSUserAgent.RemoveUntrustedCredentialsForAssociate
+  langs:
+  - crmscript
+  name: 'RemoveUntrustedCredentialsForAssociate(Integer,String,String)'
+  nameWithType: NSUserAgent.RemoveUntrustedCredentialsForAssociate(Integer,String,String)
+  fullName: CRMScript.NetServer.NSUserAgent.RemoveUntrustedCredentialsForAssociate(Integer,String,String)
+  type: Method
+  summary: "\nRemoves a credentials entry for a specified user.\n"
+  remarks: 
+  syntax: 
+    content: Void RemoveUntrustedCredentialsForAssociate(Integer associateId, String type, String publicValue)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: type
+      type: CRMScript.Global.String
+      description: 
+    - id: publicValue
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.ResolveUserFromInfo(Integer,String,String[],String[],Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.ResolveUserFromInfo(Integer,String,String[],String[],Integer)
+  id: 'ResolveUserFromInfo(Integer,String,String[],String[],Integer)'
+  so.intellisense: NSUserAgent.ResolveUserFromInfo
+  langs:
+  - crmscript
+  name: 'ResolveUserFromInfo(Integer,String,String[],String[],Integer)'
+  nameWithType: NSUserAgent.ResolveUserFromInfo(Integer,String,String[],String[],Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.ResolveUserFromInfo(Integer,String,String[],String[],Integer)
+  type: Method
+  summary: "\nGets a user from the provided information. If the user or associated person does not exist, it will be created on demand.\n"
+  remarks: 
+  syntax: 
+    content: NSResolvedUser ResolveUserFromInfo(Integer contactId, String personName, String[] phoneNumbers, String[] emails, Integer userType, NSCredential credential)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: personName
+      type: CRMScript.Global.String
+      description: 
+    - id: phoneNumbers
+      type: CRMScript.Global.String[]
+      description: 
+    - id: emails
+      type: CRMScript.Global.String[]
+      description: 
+    - id: userType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.AssociateType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSResolvedUser
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nInteger contactId;\nString personName;\nString[] phoneNumbers;\nString[] emails;\nInteger userType;\nNSCredential credential;\nNSResolvedUser res = agent.ResolveUserFromInfo(contactId, personName, phoneNumbers, emails, userType, credential);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.SaveCredential(Integer,NSCredential)
+  commentId: M:CRMScript.NetServer.NSUserAgent.SaveCredential(Integer,NSCredential)
+  id: 'SaveCredential(Integer,NSCredential)'
+  so.intellisense: NSUserAgent.SaveCredential
+  langs:
+  - crmscript
+  name: 'SaveCredential(Integer,NSCredential)'
+  nameWithType: NSUserAgent.SaveCredential(Integer,NSCredential)
+  fullName: CRMScript.NetServer.NSUserAgent.SaveCredential(Integer,NSCredential)
+  type: Method
+  summary: "\nSaves (adds/replaces) current credential of the same type for the user.\n"
+  remarks: 
+  syntax: 
+    content: Bool SaveCredential(Integer userId, NSCredential credential)
+    parameters:
+    - id: userId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: credential
+      type: CRMScript.NetServer.NSCredential
+      description:
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nInteger userId;\nNSCredential credential;\nBool res = agent.SaveCredential(userId, credential);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.SaveExternalTokens(NSTokenManagementInfo)
+  commentId: M:CRMScript.NetServer.NSUserAgent.SaveExternalTokens(NSTokenManagementInfo)
+  id: 'SaveExternalTokens(NSTokenManagementInfo)'
+  so.intellisense: NSUserAgent.SaveExternalTokens
+  langs:
+  - crmscript
+  name: 'SaveExternalTokens(NSTokenManagementInfo)'
+  nameWithType: NSUserAgent.SaveExternalTokens(NSTokenManagementInfo)
+  fullName: CRMScript.NetServer.NSUserAgent.SaveExternalTokens(NSTokenManagementInfo)
+  type: Method
+  summary: "\nSaves the external tokens to the DB and returns a key that can be used to retrieve them\n"
+  remarks: 
+  syntax: 
+    content: String SaveExternalTokens(NSTokenManagementInfo tokenManagementInfo)
+    parameters:
+    - id: tokenManagementInfo
+      type: CRMScript.NetServer.NSTokenManagementInfo
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nNSTokenManagementInfo tokenManagementInfo;\nString res = agent.SaveExternalTokens(tokenManagementInfo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.SaveRoleEntity(NSRoleEntity)
+  commentId: M:CRMScript.NetServer.NSUserAgent.SaveRoleEntity(NSRoleEntity)
+  id: 'SaveRoleEntity(NSRoleEntity)'
+  so.intellisense: NSUserAgent.SaveRoleEntity
+  langs:
+  - crmscript
+  name: 'SaveRoleEntity(NSRoleEntity)'
+  nameWithType: NSUserAgent.SaveRoleEntity(NSRoleEntity)
+  fullName: CRMScript.NetServer.NSUserAgent.SaveRoleEntity(NSRoleEntity)
+  type: Method
+  summary: "\nUpdates the existing NSRoleEntity or creates a new NSRoleEntity if the id parameter is 0\n"
+  remarks: 
+  syntax: 
+    content: NSRoleEntity SaveRoleEntity(NSRoleEntity roleEntity)
+    parameters:
+    - id: roleEntity
+      type: CRMScript.NetServer.NSRoleEntity
+      description: "The NSRoleEntity to save."
+    return:
+      type: CRMScript.NetServer.NSRoleEntity
+  example: 
+  - "\n<pre><code>NSUser  agent;\nNSRoleEntity thing = agent.CreateDefaultRoleEntity();\nthing = agent.SaveRoleEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.SaveServiceAuth(NSServiceAuth)
+  commentId: M:CRMScript.NetServer.NSUserAgent.SaveServiceAuth(NSServiceAuth)
+  id: 'SaveServiceAuth(NSServiceAuth)'
+  so.intellisense: NSUserAgent.SaveServiceAuth
+  langs:
+  - crmscript
+  name: 'SaveServiceAuth(NSServiceAuth)'
+  nameWithType: NSUserAgent.SaveServiceAuth(NSServiceAuth)
+  fullName: CRMScript.NetServer.NSUserAgent.SaveServiceAuth(NSServiceAuth)
+  type: Method
+  summary: "\nUpdates the existing NSServiceAuth or creates a new NSServiceAuth if the id parameter is 0\n"
+  remarks: 
+  syntax: 
+    content: NSServiceAuth SaveServiceAuth(NSServiceAuth serviceAuth)
+    parameters:
+    - id: serviceAuth
+      type: CRMScript.NetServer.NSServiceAuth
+      description:
+    return:
+      type: CRMScript.NetServer.NSServiceAuth
+  example: 
+  - "\n<pre><code>NSUser  agent;\nNSServiceAuth thing = agent.CreateDefaultServiceAuth();\nthing = agent.SaveServiceAuth(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.SaveUntrustedCredentials(String,NSUntrustedCredentials)
+  commentId: M:CRMScript.NetServer.NSUserAgent.SaveUntrustedCredentials(String,NSUntrustedCredentials)
+  id: 'SaveUntrustedCredentials(String,NSUntrustedCredentials)'
+  so.intellisense: NSUserAgent.SaveUntrustedCredentials
+  langs:
+  - crmscript
+  name: 'SaveUntrustedCredentials(String,NSUntrustedCredentials)'
+  nameWithType: NSUserAgent.SaveUntrustedCredentials(String,NSUntrustedCredentials)
+  fullName: CRMScript.NetServer.NSUserAgent.SaveUntrustedCredentials(String,NSUntrustedCredentials)
+  type: Method
+  summary: "\nSaves credentials for authenticated user.\n"
+  remarks: 
+  syntax: 
+    content: Void SaveUntrustedCredentials(String type, NSUntrustedCredentials credentials)
+    parameters:
+    - id: type
+      type: CRMScript.Global.String
+      description: 
+    - id: credentials
+      type: CRMScript.NetServer.NSUntrustedCredentials
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.SaveUntrustedCredentialsForAssociate(Integer,String,NSUntrustedCredential)
+  commentId: M:CRMScript.NetServer.NSUserAgent.SaveUntrustedCredentialsForAssociate(Integer,String,NSUntrustedCredential)
+  id: 'SaveUntrustedCredentialsForAssociate(Integer,String,NSUntrustedCredential)'
+  so.intellisense: NSUserAgent.SaveUntrustedCredentialsForAssociate
+  langs:
+  - crmscript
+  name: 'SaveUntrustedCredentialsForAssociate(Integer,String,NSUntrustedCredential)'
+  nameWithType: NSUserAgent.SaveUntrustedCredentialsForAssociate(Integer,String,NSUntrustedCredential)
+  fullName: CRMScript.NetServer.NSUserAgent.SaveUntrustedCredentialsForAssociate(Integer,String,NSUntrustedCredential)
+  type: Method
+  summary: "\nSaves credentials for a specified user.\n"
+  remarks: 
+  syntax: 
+    content: Void SaveUntrustedCredentialsForAssociate(Integer associateId, String type, NSUntrustedCredentials credentials)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: type
+      type: CRMScript.Global.String
+      description: 
+    - id: credentials
+      type: CRMScript.NetServer.NSUntrustedCredentials
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.SaveUser(NSUser)
+  commentId: M:CRMScript.NetServer.NSUserAgent.SaveUser(NSUser)
+  id: 'SaveUser(NSUser)'
+  so.intellisense: NSUserAgent.SaveUser
+  langs:
+  - crmscript
+  name: 'SaveUser(NSUser)'
+  nameWithType: NSUserAgent.SaveUser(NSUser)
+  fullName: CRMScript.NetServer.NSUserAgent.SaveUser(NSUser)
+  type: Method
+  summary: "\nUpdates the existing NSUser or creates a new NSUser if the id parameter is 0\n"
+  remarks: 
+  syntax: 
+    content: NSUser SaveUser(NSUser user)
+    parameters:
+    - id: user
+      type: CRMScript.NetServer.NSUser
+      description: "The NSUser to save."
+    return:
+      type: CRMScript.NetServer.NSUser
+  example: 
+  - "\n<pre><code>NSUser  agent;\nNSUser thing = agent.CreateDefaultUser();\nthing = agent.SaveUser(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.SaveUserFromName(String,NSUser)
+  commentId: M:CRMScript.NetServer.NSUserAgent.SaveUserFromName(String,NSUser)
+  id: 'SaveUserFromName(String,NSUser)'
+  so.intellisense: NSUserAgent.SaveUserFromName
+  langs:
+  - crmscript
+  name: 'SaveUserFromName(String,NSUser)'
+  nameWithType: NSUserAgent.SaveUserFromName(String,NSUser)
+  fullName: CRMScript.NetServer.NSUserAgent.SaveUserFromName(String,NSUser)
+  type: Method
+  summary: "\nSaves a user, with lookup based on the user name.\n"
+  remarks: 
+  syntax: 
+    content: NSUser SaveUserFromName(String userName, NSUser user)
+    parameters:
+    - id: userName
+      type: CRMScript.Global.String
+      description: 
+    - id: user
+      type: CRMScript.NetServer.NSUser
+      description: 
+    return:
+      type: CRMScript.NetServer.NSUser
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nString userName;\nNSUser user;\nNSUser res = agent.SaveUserFromName(userName, user);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.SaveUserGroup(NSUserGroup)
+  commentId: M:CRMScript.NetServer.NSUserAgent.SaveUserGroup(NSUserGroup)
+  id: 'SaveUserGroup(NSUserGroup)'
+  so.intellisense: NSUserAgent.SaveUserGroup
+  langs:
+  - crmscript
+  name: 'SaveUserGroup(NSUserGroup)'
+  nameWithType: NSUserAgent.SaveUserGroup(NSUserGroup)
+  fullName: CRMScript.NetServer.NSUserAgent.SaveUserGroup(NSUserGroup)
+  type: Method
+  summary: "\nSaves a user group. Sets UserGroup.Deleted to mark a user group as deleted and invisible in the user interface.\n"
+  remarks: 
+  syntax: 
+    content: NSUserGroup SaveUserGroup(NSUserGroup userGroup)
+    parameters:
+    - id: userGroup
+      type: CRMScript.NetServer.NSUserGroup
+      description: 
+    return:
+      type: CRMScript.NetServer.NSUserGroup
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nNSUserGroup userGroup;\nNSUserGroup res = agent.SaveUserGroup(userGroup);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.SetDataRight(Integer,String,Integer,String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.SetDataRight(Integer,String,Integer,String)
+  id: 'SetDataRight(Integer,String,Integer,String)'
+  so.intellisense: NSUserAgent.SetDataRight
+  langs:
+  - crmscript
+  name: 'SetDataRight(Integer,String,Integer,String)'
+  nameWithType: NSUserAgent.SetDataRight(Integer,String,Integer,String)
+  fullName: CRMScript.NetServer.NSUserAgent.SetDataRight(Integer,String,Integer,String)
+  type: Method
+  summary: "\nSets one specific data right at the given position.\n"
+  remarks: "\nAn exception will be thrown if non existing position is specified.\n"
+  syntax: 
+    content: Void SetDataRight(Integer roleId, String tableName, Integer relationToOwner, String dataRightValue)
+    parameters:
+    - id: roleId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: tableName
+      type: CRMScript.Global.String
+      description: 
+    - id: relationToOwner
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.RoleRelationToOwner\" data-throw-if-not-resolved=\"false\"></xref>."
+    - id: dataRightValue
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.SetExternalUserInfo(Integer,String,String,Bool,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.SetExternalUserInfo(Integer,String,String,Bool,Integer,Integer)
+  id: 'SetExternalUserInfo(Integer,String,String,Bool,Integer,Integer)'
+  so.intellisense: NSUserAgent.SetExternalUserInfo
+  langs:
+  - crmscript
+  name: 'SetExternalUserInfo(Integer,String,String,Bool,Integer,Integer)'
+  nameWithType: NSUserAgent.SetExternalUserInfo(Integer,String,String,Bool,Integer,Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.SetExternalUserInfo(Integer,String,String,Bool,Integer,Integer)
+  type: Method
+  summary: "\nModifies an external user. Changes external users information according to the flags set in  externalUserInfoModification.\n"
+  remarks: 
+  syntax: 
+    content: Void SetExternalUserInfo(Integer associateId, String userName, String password, Bool isActive, Integer roleId, Integer externalUserInfoModification)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: userName
+      type: CRMScript.Global.String
+      description: 
+    - id: password
+      type: CRMScript.Global.String
+      description: 
+    - id: isActive
+      type: CRMScript.Global.Bool
+      description: 
+    - id: roleId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: externalUserInfoModification
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.ExternalUserInfoModification\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.SetFunctionalRights(Integer,Integer[])
+  commentId: M:CRMScript.NetServer.NSUserAgent.SetFunctionalRights(Integer,Integer[])
+  id: 'SetFunctionalRights(Integer,Integer[])'
+  so.intellisense: NSUserAgent.SetFunctionalRights
+  langs:
+  - crmscript
+  name: 'SetFunctionalRights(Integer,Integer[])'
+  nameWithType: NSUserAgent.SetFunctionalRights(Integer,Integer[])
+  fullName: CRMScript.NetServer.NSUserAgent.SetFunctionalRights(Integer,Integer[])
+  type: Method
+  summary: "\nSets all functional rights for the given role. Functional rights not specified here will be removed from the role.\n"
+  remarks: 
+  syntax: 
+    content: Void SetFunctionalRights(Integer roleId, Integer[] functionalRightIds)
+    parameters:
+    - id: roleId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: functionalRightIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.SetGeneratedPassword(Integer)
+  commentId: M:CRMScript.NetServer.NSUserAgent.SetGeneratedPassword(Integer)
+  id: 'SetGeneratedPassword(Integer)'
+  so.intellisense: NSUserAgent.SetGeneratedPassword
+  langs:
+  - crmscript
+  name: 'SetGeneratedPassword(Integer)'
+  nameWithType: NSUserAgent.SetGeneratedPassword(Integer)
+  fullName: CRMScript.NetServer.NSUserAgent.SetGeneratedPassword(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String SetGeneratedPassword(Integer associateId)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.SetGeneratedPasswordFromName(String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.SetGeneratedPasswordFromName(String)
+  id: 'SetGeneratedPasswordFromName(String)'
+  so.intellisense: NSUserAgent.SetGeneratedPasswordFromName
+  langs:
+  - crmscript
+  name: 'SetGeneratedPasswordFromName(String)'
+  nameWithType: NSUserAgent.SetGeneratedPasswordFromName(String)
+  fullName: CRMScript.NetServer.NSUserAgent.SetGeneratedPasswordFromName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String SetGeneratedPasswordFromName(String associateName)
+    parameters:
+    - id: associateName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSUserAgent.SetPassword(Integer,String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.SetPassword(Integer,String)
+  id: 'SetPassword(Integer,String)'
+  so.intellisense: NSUserAgent.SetPassword
+  langs:
+  - crmscript
+  name: 'SetPassword(Integer,String)'
+  nameWithType: NSUserAgent.SetPassword(Integer,String)
+  fullName: CRMScript.NetServer.NSUserAgent.SetPassword(Integer,String)
+  type: Method
+  summary: "\nChanges password for a user.\n"
+  remarks: 
+  syntax: 
+    content: Bool SetPassword(Integer associateId, String password)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: password
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nInteger associateId;\nString password;\nBool res = agent.SetPassword(associateId, password);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.SetPasswordFromName(String,String)
+  commentId: M:CRMScript.NetServer.NSUserAgent.SetPasswordFromName(String,String)
+  id: 'SetPasswordFromName(String,String)'
+  so.intellisense: NSUserAgent.SetPasswordFromName
+  langs:
+  - crmscript
+  name: 'SetPasswordFromName(String,String)'
+  nameWithType: NSUserAgent.SetPasswordFromName(String,String)
+  fullName: CRMScript.NetServer.NSUserAgent.SetPasswordFromName(String,String)
+  type: Method
+  summary: "\nChanges password for a user.\n"
+  remarks: 
+  syntax: 
+    content: Bool SetPasswordFromName(String associateName, String password)
+    parameters:
+    - id: associateName
+      type: CRMScript.Global.String
+      description: 
+    - id: password
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nString associateName;\nString password;\nBool res = agent.SetPasswordFromName(associateName, password);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserAgent.ValidateUser(NSUser)
+  commentId: M:CRMScript.NetServer.NSUserAgent.ValidateUser(NSUser)
+  id: 'ValidateUser(NSUser)'
+  so.intellisense: NSUserAgent.ValidateUser
+  langs:
+  - crmscript
+  name: 'ValidateUser(NSUser)'
+  nameWithType: NSUserAgent.ValidateUser(NSUser)
+  fullName: CRMScript.NetServer.NSUserAgent.ValidateUser(NSUser)
+  type: Method
+  summary: "\nChecks that entity is ready for saving, return error messages by field.\n"
+  remarks: 
+  syntax: 
+    content: Map ValidateUser(NSUser user)
+    parameters:
+    - id: user
+      type: CRMScript.NetServer.NSUser
+      description: 
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSUserAgent agent;\nNSUser user;\nMap res = agent.ValidateUser(user);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSUserAgent
+  commentId: T:CRMScript.NetServer.NSUserAgent
+  isExternal: true
+  name: NSUserAgent
+  nameWithType: NSUserAgent
+  fullName: CRMScript.NetServer.NSUserAgent
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.NetServer.NSRoleEntity
+  commentId: T:CRMScript.NetServer.NSRoleEntity
+  isExternal: true
+  name: NSRoleEntity
+  nameWithType: NSRoleEntity
+  fullName: CRMScript.NetServer.NSRoleEntity
+- uid: CRMScript.NetServer.NSServiceAuth
+  commentId: T:CRMScript.NetServer.NSServiceAuth
+  isExternal: true
+  name: NSServiceAuth
+  nameWithType: NSServiceAuth
+  fullName: CRMScript.NetServer.NSServiceAuth
+- uid: CRMScript.NetServer.NSUntrustedCredentials
+  commentId: T:CRMScript.NetServer.NSUntrustedCredentials
+  isExternal: true
+  name: NSUntrustedCredentials
+  nameWithType: NSUntrustedCredentials
+  fullName: CRMScript.NetServer.NSUntrustedCredentials
+- uid: CRMScript.NetServer.NSCredentialsGroup[]
+  isExternal: true
+  name: NSCredentialsGroup[]
+  nameWithType: NSCredentialsGroup[]
+  fullName: CRMScript.NetServer.NSCredentialsGroup[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSCredentialsGroup
+    isExternal: true
+    name: NSCredentialsGroup
+    nameWithType: NSCredentialsGroup
+    fullName: CRMScript.NetServer.NSCredentialsGroup
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSCredentialsGroup
+  commentId: T:CRMScript.NetServer.NSCredentialsGroup
+  isExternal: true
+  name: NSCredentialsGroup
+  nameWithType: NSCredentialsGroup
+  fullName: CRMScript.NetServer.NSCredentialsGroup
+- uid: CRMScript.NetServer.NSCredentialsGroupUsers
+  commentId: T:CRMScript.NetServer.NSCredentialsGroupUsers
+  isExternal: true
+  name: NSCredentialsGroupUsers
+  nameWithType: NSCredentialsGroupUsers
+  fullName: CRMScript.NetServer.NSCredentialsGroupUsers
+- uid: CRMScript.NetServer.NSMDOListItem[]
+  isExternal: true
+  name: NSMDOListItem[]
+  nameWithType: NSMDOListItem[]
+  fullName: CRMScript.NetServer.NSMDOListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSMDOListItem
+    isExternal: true
+    name: NSMDOListItem
+    nameWithType: NSMDOListItem
+    fullName: CRMScript.NetServer.NSMDOListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSMDOListItem
+  commentId: T:CRMScript.NetServer.NSMDOListItem
+  isExternal: true
+  name: NSMDOListItem
+  nameWithType: NSMDOListItem
+  fullName: CRMScript.NetServer.NSMDOListItem
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    isExternal: true
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    isExternal: true
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSAccessGatewayInfo
+  commentId: T:CRMScript.NetServer.NSAccessGatewayInfo
+  isExternal: true
+  name: NSAccessGatewayInfo
+  nameWithType: NSAccessGatewayInfo
+  fullName: CRMScript.NetServer.NSAccessGatewayInfo
+- uid: CRMScript.NetServer.NSSelectableMDOListItem[]
+  isExternal: true
+  name: NSSelectableMDOListItem[]
+  nameWithType: NSSelectableMDOListItem[]
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSSelectableMDOListItem
+    isExternal: true
+    name: NSSelectableMDOListItem
+    nameWithType: NSSelectableMDOListItem
+    fullName: CRMScript.NetServer.NSSelectableMDOListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSSelectableMDOListItem
+  commentId: T:CRMScript.NetServer.NSSelectableMDOListItem
+  isExternal: true
+  name: NSSelectableMDOListItem
+  nameWithType: NSSelectableMDOListItem
+  fullName: CRMScript.NetServer.NSSelectableMDOListItem
+- uid: CRMScript.NetServer.NSUserGroup[]
+  isExternal: true
+  name: NSUserGroup[]
+  nameWithType: NSUserGroup[]
+  fullName: CRMScript.NetServer.NSUserGroup[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSUserGroup
+    isExternal: true
+    name: NSUserGroup
+    nameWithType: NSUserGroup
+    fullName: CRMScript.NetServer.NSUserGroup
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSUserGroup
+  commentId: T:CRMScript.NetServer.NSUserGroup
+  isExternal: true
+  name: NSUserGroup
+  nameWithType: NSUserGroup
+  fullName: CRMScript.NetServer.NSUserGroup
+- uid: CRMScript.NetServer.NSCredentialType[]
+  isExternal: true
+  name: NSCredentialType[]
+  nameWithType: NSCredentialType[]
+  fullName: CRMScript.NetServer.NSCredentialType[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSCredentialType
+    isExternal: true
+    name: NSCredentialType
+    nameWithType: NSCredentialType
+    fullName: CRMScript.NetServer.NSCredentialType
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSCredentialType
+  commentId: T:CRMScript.NetServer.NSCredentialType
+  isExternal: true
+  name: NSCredentialType
+  nameWithType: NSCredentialType
+  fullName: CRMScript.NetServer.NSCredentialType
+- uid: CRMScript.Native.Map
+  commentId: T:CRMScript.Native.Map
+  isExternal: true
+  name: Map
+  nameWithType: Map
+  fullName: CRMScript.Native.Map
+- uid: CRMScript.NetServer.NSTokenManagementInfo
+  commentId: T:CRMScript.NetServer.NSTokenManagementInfo
+  isExternal: true
+  name: NSTokenManagementInfo
+  nameWithType: NSTokenManagementInfo
+  fullName: CRMScript.NetServer.NSTokenManagementInfo
+- uid: CRMScript.NetServer.NSRole
+  commentId: T:CRMScript.NetServer.NSRole
+  isExternal: true
+  name: NSRole
+  nameWithType: NSRole
+  fullName: CRMScript.NetServer.NSRole
+- uid: CRMScript.NetServer.NSUntrustedCredentials[]
+  isExternal: true
+  name: NSUntrustedCredentials[]
+  nameWithType: NSUntrustedCredentials[]
+  fullName: CRMScript.NetServer.NSUntrustedCredentials[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSUntrustedCredentials
+    isExternal: true
+    name: NSUntrustedCredentials
+    nameWithType: NSUntrustedCredentials
+    fullName: CRMScript.NetServer.NSUntrustedCredentials
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSUntrustedCredentials
+  commentId: T:CRMScript.NetServer.NSUntrustedCredentials
+  isExternal: true
+  name: NSUntrustedCredentials
+  nameWithType: NSUntrustedCredentials
+  fullName: CRMScript.NetServer.NSUntrustedCredentials
+- uid: CRMScript.NetServer.NSUser[]
+  isExternal: true
+  name: NSUser[]
+  nameWithType: NSUser[]
+  fullName: CRMScript.NetServer.NSUser[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSUser
+    isExternal: true
+    name: NSUser
+    nameWithType: NSUser
+    fullName: CRMScript.NetServer.NSUser
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSUser
+  commentId: T:CRMScript.NetServer.NSUser
+  isExternal: true
+  name: NSUser
+  nameWithType: NSUser
+  fullName: CRMScript.NetServer.NSUser
+- uid: CRMScript.NetServer.NSUserInfo[]
+  isExternal: true
+  name: NSUserInfo[]
+  nameWithType: NSUserInfo[]
+  fullName: CRMScript.NetServer.NSUserInfo[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSUserInfo
+    isExternal: true
+    name: NSUserInfo
+    nameWithType: NSUserInfo
+    fullName: CRMScript.NetServer.NSUserInfo
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSUserInfo
+  commentId: T:CRMScript.NetServer.NSUserInfo
+  isExternal: true
+  name: NSUserInfo
+  nameWithType: NSUserInfo
+  fullName: CRMScript.NetServer.NSUserInfo
+- uid: CRMScript.NetServer.NSUserValidationResult
+  commentId: T:CRMScript.NetServer.NSUserValidationResult
+  isExternal: true
+  name: NSUserValidationResult
+  nameWithType: NSUserValidationResult
+  fullName: CRMScript.NetServer.NSUserValidationResult
+- uid: CRMScript.NetServer.NSResolvedUser
+  commentId: T:CRMScript.NetServer.NSResolvedUser
+  isExternal: true
+  name: NSResolvedUser
+  nameWithType: NSResolvedUser
+  fullName: CRMScript.NetServer.NSResolvedUser
+- uid: CRMScript.NetServer.AssociateType
+  commentId: T:CRMScript.NetServer.AssociateType
+  isExternal: true
+  name: AssociateType
+  nameWithType: AssociateType
+  fullName: CRMScript.NetServer.AssociateType
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.RoleType
+  commentId: T:CRMScript.NetServer.RoleType
+  isExternal: true
+  name: RoleType
+  nameWithType: RoleType
+  fullName: CRMScript.NetServer.RoleType
+- uid: CRMScript.NetServer.RoleRelationToOwner
+  commentId: T:CRMScript.NetServer.RoleRelationToOwner
+  isExternal: true
+  name: RoleRelationToOwner
+  nameWithType: RoleRelationToOwner
+  fullName: CRMScript.NetServer.RoleRelationToOwner
+- uid: CRMScript.NetServer.ExternalUserInfoModification
+  commentId: T:CRMScript.NetServer.ExternalUserInfoModification
+  isExternal: true
+  name: ExternalUserInfoModification
+  nameWithType: ExternalUserInfoModification
+  fullName: CRMScript.NetServer.ExternalUserInfoModification

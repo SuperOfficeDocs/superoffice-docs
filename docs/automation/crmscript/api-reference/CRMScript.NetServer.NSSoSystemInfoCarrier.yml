@@ -1,0 +1,887 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier
+  commentId: T:CRMScript.NetServer.NSSoSystemInfoCarrier
+  id: NSSoSystemInfoCarrier
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.#ctor
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.GetAccumulatedNextCheckDate()
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.GetAssemblyVersion()
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.GetBranchName()
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.GetBuildLabel()
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.GetBuildType()
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.GetCompanyId()
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.GetCompanyName()
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.GetDatabaseMinor()
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.GetDatabaseName()
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.GetDatabaseType()
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.GetDatabaseVersion()
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.GetDaysUntilNetServerExpiry()
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.GetDescription()
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.GetFileVersion()
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.GetIsOnTravel()
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.GetIsSatellite()
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.GetIsUnicode()
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.GetLicense()
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.GetWarningEnglish()
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.GetWarningResource()
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.SetAccumulatedNextCheckDate(DateTime)
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.SetAssemblyVersion(String)
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.SetBranchName(String)
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.SetBuildLabel(String)
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.SetBuildType(Integer)
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.SetCompanyId(Integer)
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.SetCompanyName(String)
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.SetDatabaseMinor(String)
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.SetDatabaseName(String)
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.SetDatabaseType(String)
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.SetDatabaseVersion(Integer)
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.SetDaysUntilNetServerExpiry(Integer)
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.SetDescription(String)
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.SetFileVersion(String)
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.SetIsOnTravel(Bool)
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.SetIsSatellite(Bool)
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.SetIsUnicode(Bool)
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.SetLicense(NSLicenseInfo)
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.SetWarningEnglish(String)
+  - CRMScript.NetServer.NSSoSystemInfoCarrier.SetWarningResource(String)
+  name: NSSoSystemInfoCarrier
+  nameWithType: NSSoSystemInfoCarrier
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.#ctor
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSSoSystemInfoCarrier
+  langs:
+  - crmscript
+  name: NSSoSystemInfoCarrier()
+  nameWithType: NSSoSystemInfoCarrier.#ctor
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSSoSystemInfoCarrier class.\n"
+  remarks: 
+  syntax: 
+    content: NSSoSystemInfoCarrier
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.GetAccumulatedNextCheckDate()
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetAccumulatedNextCheckDate()
+  id: 'GetAccumulatedNextCheckDate()'
+  so.intellisense: NSSoSystemInfoCarrier.GetAccumulatedNextCheckDate
+  langs:
+  - crmscript
+  name: 'GetAccumulatedNextCheckDate()'
+  nameWithType: NSSoSystemInfoCarrier.GetAccumulatedNextCheckDate()
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.GetAccumulatedNextCheckDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetAccumulatedNextCheckDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.GetAssemblyVersion()
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetAssemblyVersion()
+  id: 'GetAssemblyVersion()'
+  so.intellisense: NSSoSystemInfoCarrier.GetAssemblyVersion
+  langs:
+  - crmscript
+  name: 'GetAssemblyVersion()'
+  nameWithType: NSSoSystemInfoCarrier.GetAssemblyVersion()
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.GetAssemblyVersion()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetAssemblyVersion()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.GetBranchName()
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetBranchName()
+  id: 'GetBranchName()'
+  so.intellisense: NSSoSystemInfoCarrier.GetBranchName
+  langs:
+  - crmscript
+  name: 'GetBranchName()'
+  nameWithType: NSSoSystemInfoCarrier.GetBranchName()
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.GetBranchName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetBranchName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.GetBuildLabel()
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetBuildLabel()
+  id: 'GetBuildLabel()'
+  so.intellisense: NSSoSystemInfoCarrier.GetBuildLabel
+  langs:
+  - crmscript
+  name: 'GetBuildLabel()'
+  nameWithType: NSSoSystemInfoCarrier.GetBuildLabel()
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.GetBuildLabel()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetBuildLabel()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.GetBuildType()
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetBuildType()
+  id: 'GetBuildType()'
+  so.intellisense: NSSoSystemInfoCarrier.GetBuildType
+  langs:
+  - crmscript
+  name: 'GetBuildType()'
+  nameWithType: NSSoSystemInfoCarrier.GetBuildType()
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.GetBuildType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetBuildType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.GetCompanyId()
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetCompanyId()
+  id: 'GetCompanyId()'
+  so.intellisense: NSSoSystemInfoCarrier.GetCompanyId
+  langs:
+  - crmscript
+  name: 'GetCompanyId()'
+  nameWithType: NSSoSystemInfoCarrier.GetCompanyId()
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.GetCompanyId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCompanyId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.GetCompanyName()
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetCompanyName()
+  id: 'GetCompanyName()'
+  so.intellisense: NSSoSystemInfoCarrier.GetCompanyName
+  langs:
+  - crmscript
+  name: 'GetCompanyName()'
+  nameWithType: NSSoSystemInfoCarrier.GetCompanyName()
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.GetCompanyName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCompanyName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.GetDatabaseMinor()
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetDatabaseMinor()
+  id: 'GetDatabaseMinor()'
+  so.intellisense: NSSoSystemInfoCarrier.GetDatabaseMinor
+  langs:
+  - crmscript
+  name: 'GetDatabaseMinor()'
+  nameWithType: NSSoSystemInfoCarrier.GetDatabaseMinor()
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.GetDatabaseMinor()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDatabaseMinor()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.GetDatabaseName()
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetDatabaseName()
+  id: 'GetDatabaseName()'
+  so.intellisense: NSSoSystemInfoCarrier.GetDatabaseName
+  langs:
+  - crmscript
+  name: 'GetDatabaseName()'
+  nameWithType: NSSoSystemInfoCarrier.GetDatabaseName()
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.GetDatabaseName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDatabaseName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.GetDatabaseType()
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetDatabaseType()
+  id: 'GetDatabaseType()'
+  so.intellisense: NSSoSystemInfoCarrier.GetDatabaseType
+  langs:
+  - crmscript
+  name: 'GetDatabaseType()'
+  nameWithType: NSSoSystemInfoCarrier.GetDatabaseType()
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.GetDatabaseType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDatabaseType()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.GetDatabaseVersion()
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetDatabaseVersion()
+  id: 'GetDatabaseVersion()'
+  so.intellisense: NSSoSystemInfoCarrier.GetDatabaseVersion
+  langs:
+  - crmscript
+  name: 'GetDatabaseVersion()'
+  nameWithType: NSSoSystemInfoCarrier.GetDatabaseVersion()
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.GetDatabaseVersion()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDatabaseVersion()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.GetDaysUntilNetServerExpiry()
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetDaysUntilNetServerExpiry()
+  id: 'GetDaysUntilNetServerExpiry()'
+  so.intellisense: NSSoSystemInfoCarrier.GetDaysUntilNetServerExpiry
+  langs:
+  - crmscript
+  name: 'GetDaysUntilNetServerExpiry()'
+  nameWithType: NSSoSystemInfoCarrier.GetDaysUntilNetServerExpiry()
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.GetDaysUntilNetServerExpiry()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDaysUntilNetServerExpiry()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.GetDescription()
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSSoSystemInfoCarrier.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSSoSystemInfoCarrier.GetDescription()
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.GetFileVersion()
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetFileVersion()
+  id: 'GetFileVersion()'
+  so.intellisense: NSSoSystemInfoCarrier.GetFileVersion
+  langs:
+  - crmscript
+  name: 'GetFileVersion()'
+  nameWithType: NSSoSystemInfoCarrier.GetFileVersion()
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.GetFileVersion()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFileVersion()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.GetIsOnTravel()
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetIsOnTravel()
+  id: 'GetIsOnTravel()'
+  so.intellisense: NSSoSystemInfoCarrier.GetIsOnTravel
+  langs:
+  - crmscript
+  name: 'GetIsOnTravel()'
+  nameWithType: NSSoSystemInfoCarrier.GetIsOnTravel()
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.GetIsOnTravel()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsOnTravel()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.GetIsSatellite()
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetIsSatellite()
+  id: 'GetIsSatellite()'
+  so.intellisense: NSSoSystemInfoCarrier.GetIsSatellite
+  langs:
+  - crmscript
+  name: 'GetIsSatellite()'
+  nameWithType: NSSoSystemInfoCarrier.GetIsSatellite()
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.GetIsSatellite()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsSatellite()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.GetIsUnicode()
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetIsUnicode()
+  id: 'GetIsUnicode()'
+  so.intellisense: NSSoSystemInfoCarrier.GetIsUnicode
+  langs:
+  - crmscript
+  name: 'GetIsUnicode()'
+  nameWithType: NSSoSystemInfoCarrier.GetIsUnicode()
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.GetIsUnicode()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsUnicode()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.GetLicense()
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetLicense()
+  id: 'GetLicense()'
+  so.intellisense: NSSoSystemInfoCarrier.GetLicense
+  langs:
+  - crmscript
+  name: 'GetLicense()'
+  nameWithType: NSSoSystemInfoCarrier.GetLicense()
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.GetLicense()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSLicenseInfo GetLicense()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSLicenseInfo
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.GetWarningEnglish()
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetWarningEnglish()
+  id: 'GetWarningEnglish()'
+  so.intellisense: NSSoSystemInfoCarrier.GetWarningEnglish
+  langs:
+  - crmscript
+  name: 'GetWarningEnglish()'
+  nameWithType: NSSoSystemInfoCarrier.GetWarningEnglish()
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.GetWarningEnglish()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetWarningEnglish()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.GetWarningResource()
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.GetWarningResource()
+  id: 'GetWarningResource()'
+  so.intellisense: NSSoSystemInfoCarrier.GetWarningResource
+  langs:
+  - crmscript
+  name: 'GetWarningResource()'
+  nameWithType: NSSoSystemInfoCarrier.GetWarningResource()
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.GetWarningResource()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetWarningResource()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.SetAccumulatedNextCheckDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetAccumulatedNextCheckDate(DateTime)
+  id: 'SetAccumulatedNextCheckDate(DateTime)'
+  so.intellisense: NSSoSystemInfoCarrier.SetAccumulatedNextCheckDate
+  langs:
+  - crmscript
+  name: 'SetAccumulatedNextCheckDate(DateTime)'
+  nameWithType: NSSoSystemInfoCarrier.SetAccumulatedNextCheckDate(DateTime)
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.SetAccumulatedNextCheckDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAccumulatedNextCheckDate(DateTime date)
+    parameters:
+    - id: date
+      type: CRMScript.Global.DateTime
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.SetAssemblyVersion(String)
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetAssemblyVersion(String)
+  id: 'SetAssemblyVersion(String)'
+  so.intellisense: NSSoSystemInfoCarrier.SetAssemblyVersion
+  langs:
+  - crmscript
+  name: 'SetAssemblyVersion(String)'
+  nameWithType: NSSoSystemInfoCarrier.SetAssemblyVersion(String)
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.SetAssemblyVersion(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAssemblyVersion(String version)
+    parameters:
+    - id: version
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.SetBranchName(String)
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetBranchName(String)
+  id: 'SetBranchName(String)'
+  so.intellisense: NSSoSystemInfoCarrier.SetBranchName
+  langs:
+  - crmscript
+  name: 'SetBranchName(String)'
+  nameWithType: NSSoSystemInfoCarrier.SetBranchName(String)
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.SetBranchName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetBranchName(String branch)
+    parameters:
+    - id: branch
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.SetBuildLabel(String)
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetBuildLabel(String)
+  id: 'SetBuildLabel(String)'
+  so.intellisense: NSSoSystemInfoCarrier.SetBuildLabel
+  langs:
+  - crmscript
+  name: 'SetBuildLabel(String)'
+  nameWithType: NSSoSystemInfoCarrier.SetBuildLabel(String)
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.SetBuildLabel(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetBuildLabel(String label)
+    parameters:
+    - id: label
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.SetBuildType(Integer)
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetBuildType(Integer)
+  id: 'SetBuildType(Integer)'
+  so.intellisense: NSSoSystemInfoCarrier.SetBuildType
+  langs:
+  - crmscript
+  name: 'SetBuildType(Integer)'
+  nameWithType: NSSoSystemInfoCarrier.SetBuildType(Integer)
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.SetBuildType(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetBuildType(Integer type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.SetCompanyId(Integer)
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetCompanyId(Integer)
+  id: 'SetCompanyId(Integer)'
+  so.intellisense: NSSoSystemInfoCarrier.SetCompanyId
+  langs:
+  - crmscript
+  name: 'SetCompanyId(Integer)'
+  nameWithType: NSSoSystemInfoCarrier.SetCompanyId(Integer)
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.SetCompanyId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCompanyId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.SetCompanyName(String)
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetCompanyName(String)
+  id: 'SetCompanyName(String)'
+  so.intellisense: NSSoSystemInfoCarrier.SetCompanyName
+  langs:
+  - crmscript
+  name: 'SetCompanyName(String)'
+  nameWithType: NSSoSystemInfoCarrier.SetCompanyName(String)
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.SetCompanyName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCompanyName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.SetDatabaseMinor(String)
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetDatabaseMinor(String)
+  id: 'SetDatabaseMinor(String)'
+  so.intellisense: NSSoSystemInfoCarrier.SetDatabaseMinor
+  langs:
+  - crmscript
+  name: 'SetDatabaseMinor(String)'
+  nameWithType: NSSoSystemInfoCarrier.SetDatabaseMinor(String)
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.SetDatabaseMinor(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDatabaseMinor(String databaseMinor)
+    parameters:
+    - id: databaseMinor
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.SetDatabaseName(String)
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetDatabaseName(String)
+  id: 'SetDatabaseName(String)'
+  so.intellisense: NSSoSystemInfoCarrier.SetDatabaseName
+  langs:
+  - crmscript
+  name: 'SetDatabaseName(String)'
+  nameWithType: NSSoSystemInfoCarrier.SetDatabaseName(String)
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.SetDatabaseName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDatabaseName(String databaseName)
+    parameters:
+    - id: databaseName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.SetDatabaseType(String)
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetDatabaseType(String)
+  id: 'SetDatabaseType(String)'
+  so.intellisense: NSSoSystemInfoCarrier.SetDatabaseType
+  langs:
+  - crmscript
+  name: 'SetDatabaseType(String)'
+  nameWithType: NSSoSystemInfoCarrier.SetDatabaseType(String)
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.SetDatabaseType(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDatabaseType(String type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.SetDatabaseVersion(Integer)
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetDatabaseVersion(Integer)
+  id: 'SetDatabaseVersion(Integer)'
+  so.intellisense: NSSoSystemInfoCarrier.SetDatabaseVersion
+  langs:
+  - crmscript
+  name: 'SetDatabaseVersion(Integer)'
+  nameWithType: NSSoSystemInfoCarrier.SetDatabaseVersion(Integer)
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.SetDatabaseVersion(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDatabaseVersion(Integer version)
+    parameters:
+    - id: version
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.SetDaysUntilNetServerExpiry(Integer)
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetDaysUntilNetServerExpiry(Integer)
+  id: 'SetDaysUntilNetServerExpiry(Integer)'
+  so.intellisense: NSSoSystemInfoCarrier.SetDaysUntilNetServerExpiry
+  langs:
+  - crmscript
+  name: 'SetDaysUntilNetServerExpiry(Integer)'
+  nameWithType: NSSoSystemInfoCarrier.SetDaysUntilNetServerExpiry(Integer)
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.SetDaysUntilNetServerExpiry(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDaysUntilNetServerExpiry(Integer expiry)
+    parameters:
+    - id: expiry
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSSoSystemInfoCarrier.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSSoSystemInfoCarrier.SetDescription(String)
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.SetFileVersion(String)
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetFileVersion(String)
+  id: 'SetFileVersion(String)'
+  so.intellisense: NSSoSystemInfoCarrier.SetFileVersion
+  langs:
+  - crmscript
+  name: 'SetFileVersion(String)'
+  nameWithType: NSSoSystemInfoCarrier.SetFileVersion(String)
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.SetFileVersion(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFileVersion(String version)
+    parameters:
+    - id: version
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.SetIsOnTravel(Bool)
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetIsOnTravel(Bool)
+  id: 'SetIsOnTravel(Bool)'
+  so.intellisense: NSSoSystemInfoCarrier.SetIsOnTravel
+  langs:
+  - crmscript
+  name: 'SetIsOnTravel(Bool)'
+  nameWithType: NSSoSystemInfoCarrier.SetIsOnTravel(Bool)
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.SetIsOnTravel(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsOnTravel(Bool isOnTravel)
+    parameters:
+    - id: isOnTravel
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.SetIsSatellite(Bool)
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetIsSatellite(Bool)
+  id: 'SetIsSatellite(Bool)'
+  so.intellisense: NSSoSystemInfoCarrier.SetIsSatellite
+  langs:
+  - crmscript
+  name: 'SetIsSatellite(Bool)'
+  nameWithType: NSSoSystemInfoCarrier.SetIsSatellite(Bool)
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.SetIsSatellite(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsSatellite(Bool isSatellite)
+    parameters:
+    - id: isSatellite
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.SetIsUnicode(Bool)
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetIsUnicode(Bool)
+  id: 'SetIsUnicode(Bool)'
+  so.intellisense: NSSoSystemInfoCarrier.SetIsUnicode
+  langs:
+  - crmscript
+  name: 'SetIsUnicode(Bool)'
+  nameWithType: NSSoSystemInfoCarrier.SetIsUnicode(Bool)
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.SetIsUnicode(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsUnicode(Bool isUnicode)
+    parameters:
+    - id: isUnicode
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.SetLicense(NSLicenseInfo)
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetLicense(NSLicenseInfo)
+  id: 'SetLicense(NSLicenseInfo)'
+  so.intellisense: NSSoSystemInfoCarrier.SetLicense
+  langs:
+  - crmscript
+  name: 'SetLicense(NSLicenseInfo)'
+  nameWithType: NSSoSystemInfoCarrier.SetLicense(NSLicenseInfo)
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.SetLicense(NSLicenseInfo)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLicense(NSLicenseInfo license)
+    parameters:
+    - id: license
+      type: CRMScript.NetServer.NSLicenseInfo
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.SetWarningEnglish(String)
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetWarningEnglish(String)
+  id: 'SetWarningEnglish(String)'
+  so.intellisense: NSSoSystemInfoCarrier.SetWarningEnglish
+  langs:
+  - crmscript
+  name: 'SetWarningEnglish(String)'
+  nameWithType: NSSoSystemInfoCarrier.SetWarningEnglish(String)
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.SetWarningEnglish(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWarningEnglish(String warning)
+    parameters:
+    - id: warning
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier.SetWarningResource(String)
+  commentId: M:CRMScript.NetServer.NSSoSystemInfoCarrier.SetWarningResource(String)
+  id: 'SetWarningResource(String)'
+  so.intellisense: NSSoSystemInfoCarrier.SetWarningResource
+  langs:
+  - crmscript
+  name: 'SetWarningResource(String)'
+  nameWithType: NSSoSystemInfoCarrier.SetWarningResource(String)
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier.SetWarningResource(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWarningResource(String resource)
+    parameters:
+    - id: resource
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSSoSystemInfoCarrier
+  commentId: T:CRMScript.NetServer.NSSoSystemInfoCarrier
+  isExternal: true
+  name: NSSoSystemInfoCarrier
+  nameWithType: NSSoSystemInfoCarrier
+  fullName: CRMScript.NetServer.NSSoSystemInfoCarrier
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.NetServer.NSLicenseInfo
+  commentId: T:CRMScript.NetServer.NSLicenseInfo
+  isExternal: true
+  name: NSLicenseInfo
+  nameWithType: NSLicenseInfo
+  fullName: CRMScript.NetServer.NSLicenseInfo
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

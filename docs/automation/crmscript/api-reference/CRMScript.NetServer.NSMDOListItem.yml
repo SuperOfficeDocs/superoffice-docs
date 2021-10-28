@@ -1,0 +1,609 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSMDOListItem
+  commentId: T:CRMScript.NetServer.NSMDOListItem
+  id: NSMDOListItem
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSMDOListItem.#ctor
+  - CRMScript.NetServer.NSMDOListItem.GetChildItems()
+  - CRMScript.NetServer.NSMDOListItem.GetColorBlock()
+  - CRMScript.NetServer.NSMDOListItem.GetDeleted()
+  - CRMScript.NetServer.NSMDOListItem.GetExtraInfo()
+  - CRMScript.NetServer.NSMDOListItem.GetFullName()
+  - CRMScript.NetServer.NSMDOListItem.GetIconHint()
+  - CRMScript.NetServer.NSMDOListItem.GetId()
+  - CRMScript.NetServer.NSMDOListItem.GetName()
+  - CRMScript.NetServer.NSMDOListItem.GetRank()
+  - CRMScript.NetServer.NSMDOListItem.GetStyleHint()
+  - CRMScript.NetServer.NSMDOListItem.GetToolTip()
+  - CRMScript.NetServer.NSMDOListItem.GetType()
+  - CRMScript.NetServer.NSMDOListItem.SetChildItems(NSMDOListItem[])
+  - CRMScript.NetServer.NSMDOListItem.SetColorBlock(Integer)
+  - CRMScript.NetServer.NSMDOListItem.SetDeleted(Bool)
+  - CRMScript.NetServer.NSMDOListItem.SetExtraInfo(String)
+  - CRMScript.NetServer.NSMDOListItem.SetFullName(String)
+  - CRMScript.NetServer.NSMDOListItem.SetIconHint(String)
+  - CRMScript.NetServer.NSMDOListItem.SetId(Integer)
+  - CRMScript.NetServer.NSMDOListItem.SetName(String)
+  - CRMScript.NetServer.NSMDOListItem.SetRank(Integer)
+  - CRMScript.NetServer.NSMDOListItem.SetStyleHint(String)
+  - CRMScript.NetServer.NSMDOListItem.SetToolTip(String)
+  - CRMScript.NetServer.NSMDOListItem.SetType(String)
+  name: NSMDOListItem
+  nameWithType: NSMDOListItem
+  fullName: CRMScript.NetServer.NSMDOListItem
+  type: Class
+  summary: "\nCarrier object for MDOListItem.\n"
+  example: 
+- uid: CRMScript.NetServer.NSMDOListItem.#ctor
+  commentId: M:CRMScript.NetServer.NSMDOListItem.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSMDOListItem
+  langs:
+  - crmscript
+  name: NSMDOListItem()
+  nameWithType: NSMDOListItem.#ctor
+  fullName: CRMScript.NetServer.NSMDOListItem.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSMDOListItem class.\n"
+  remarks: 
+  syntax: 
+    content: NSMDOListItem
+  example: 
+- uid: CRMScript.NetServer.NSMDOListItem.GetChildItems()
+  commentId: M:CRMScript.NetServer.NSMDOListItem.GetChildItems()
+  id: 'GetChildItems()'
+  so.intellisense: NSMDOListItem.GetChildItems
+  langs:
+  - crmscript
+  name: 'GetChildItems()'
+  nameWithType: NSMDOListItem.GetChildItems()
+  fullName: CRMScript.NetServer.NSMDOListItem.GetChildItems()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSMDOListItem[] GetChildItems()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSMDOListItem[]
+      description: "The child items of the NSMDOListItem."
+  example: 
+  - "\n<pre><code>NSMDOListItem thing;\nNSMDOListItem[] childItems = thing.GetChildItems();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMDOListItem.GetColorBlock()
+  commentId: M:CRMScript.NetServer.NSMDOListItem.GetColorBlock()
+  id: 'GetColorBlock()'
+  so.intellisense: NSMDOListItem.GetColorBlock
+  langs:
+  - crmscript
+  name: 'GetColorBlock()'
+  nameWithType: NSMDOListItem.GetColorBlock()
+  fullName: CRMScript.NetServer.NSMDOListItem.GetColorBlock()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetColorBlock()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The color indicator of the ListItem color block."
+  example: 
+  - "\n<pre><code>NSMDOListItem thing;\nInteger colorBlock = thing.GetColorBlock();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMDOListItem.GetDeleted()
+  commentId: M:CRMScript.NetServer.NSMDOListItem.GetDeleted()
+  id: 'GetDeleted()'
+  so.intellisense: NSMDOListItem.GetDeleted
+  langs:
+  - crmscript
+  name: 'GetDeleted()'
+  nameWithType: NSMDOListItem.GetDeleted()
+  fullName: CRMScript.NetServer.NSMDOListItem.GetDeleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetDeleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "The deleted status of the ListItem."
+  example: 
+  - "\n<pre><code>NSMDOListItem thing;\nBool deleted = thing.GetDeleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMDOListItem.GetExtraInfo()
+  commentId: M:CRMScript.NetServer.NSMDOListItem.GetExtraInfo()
+  id: 'GetExtraInfo()'
+  so.intellisense: NSMDOListItem.GetExtraInfo
+  langs:
+  - crmscript
+  name: 'GetExtraInfo()'
+  nameWithType: NSMDOListItem.GetExtraInfo()
+  fullName: CRMScript.NetServer.NSMDOListItem.GetExtraInfo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExtraInfo()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field."
+  example: 
+  - "\n<pre><code>NSMDOListItem thing;\nString extraInfo = thing.GetExtraInfo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMDOListItem.GetFullName()
+  commentId: M:CRMScript.NetServer.NSMDOListItem.GetFullName()
+  id: 'GetFullName()'
+  so.intellisense: NSMDOListItem.GetFullName
+  langs:
+  - crmscript
+  name: 'GetFullName()'
+  nameWithType: NSMDOListItem.GetFullName()
+  fullName: CRMScript.NetServer.NSMDOListItem.GetFullName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFullName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the ListItem in its context."
+  example: 
+  - "\n<pre><code>NSMDOListItem thing;\nString fullName = thing.GetFullName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMDOListItem.GetIconHint()
+  commentId: M:CRMScript.NetServer.NSMDOListItem.GetIconHint()
+  id: 'GetIconHint()'
+  so.intellisense: NSMDOListItem.GetIconHint
+  langs:
+  - crmscript
+  name: 'GetIconHint()'
+  nameWithType: NSMDOListItem.GetIconHint()
+  fullName: CRMScript.NetServer.NSMDOListItem.GetIconHint()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetIconHint()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The Icon hint of the ListItem. Custom field."
+  example: 
+  - "\n<pre><code>NSMDOListItem thing;\nString iconHint = thing.GetIconHint();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMDOListItem.GetId()
+  commentId: M:CRMScript.NetServer.NSMDOListItem.GetId()
+  id: 'GetId()'
+  so.intellisense: NSMDOListItem.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSMDOListItem.GetId()
+  fullName: CRMScript.NetServer.NSMDOListItem.GetId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the ListItem."
+  example: 
+  - "\n<pre><code>NSMDOListItem thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMDOListItem.GetName()
+  commentId: M:CRMScript.NetServer.NSMDOListItem.GetName()
+  id: 'GetName()'
+  so.intellisense: NSMDOListItem.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSMDOListItem.GetName()
+  fullName: CRMScript.NetServer.NSMDOListItem.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the ListItem."
+  example: 
+  - "\n<pre><code>NSMDOListItem thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMDOListItem.GetRank()
+  commentId: M:CRMScript.NetServer.NSMDOListItem.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSMDOListItem.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSMDOListItem.GetRank()
+  fullName: CRMScript.NetServer.NSMDOListItem.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The rank of the ListItem."
+  example: 
+  - "\n<pre><code>NSMDOListItem thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMDOListItem.GetStyleHint()
+  commentId: M:CRMScript.NetServer.NSMDOListItem.GetStyleHint()
+  id: 'GetStyleHint()'
+  so.intellisense: NSMDOListItem.GetStyleHint
+  langs:
+  - crmscript
+  name: 'GetStyleHint()'
+  nameWithType: NSMDOListItem.GetStyleHint()
+  fullName: CRMScript.NetServer.NSMDOListItem.GetStyleHint()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetStyleHint()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Style hint indicating, information such as background color etc. Custom field."
+  example: 
+  - "\n<pre><code>NSMDOListItem thing;\nString styleHint = thing.GetStyleHint();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMDOListItem.GetToolTip()
+  commentId: M:CRMScript.NetServer.NSMDOListItem.GetToolTip()
+  id: 'GetToolTip()'
+  so.intellisense: NSMDOListItem.GetToolTip
+  langs:
+  - crmscript
+  name: 'GetToolTip()'
+  nameWithType: NSMDOListItem.GetToolTip()
+  fullName: CRMScript.NetServer.NSMDOListItem.GetToolTip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetToolTip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The tooltip of the ListItem."
+  example: 
+  - "\n<pre><code>NSMDOListItem thing;\nString toolTip = thing.GetToolTip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMDOListItem.GetType()
+  commentId: M:CRMScript.NetServer.NSMDOListItem.GetType()
+  id: 'GetType()'
+  so.intellisense: NSMDOListItem.GetType
+  langs:
+  - crmscript
+  name: 'GetType()'
+  nameWithType: NSMDOListItem.GetType()
+  fullName: CRMScript.NetServer.NSMDOListItem.GetType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetType()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The type of the ListItem. Custom field."
+  example: 
+  - "\n<pre><code>NSMDOListItem thing;\nString type = thing.GetType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMDOListItem.SetChildItems(NSMDOListItem[])
+  commentId: M:CRMScript.NetServer.NSMDOListItem.SetChildItems(NSMDOListItem[])
+  id: 'SetChildItems(NSMDOListItem[])'
+  so.intellisense: NSMDOListItem.SetChildItems
+  langs:
+  - crmscript
+  name: 'SetChildItems(NSMDOListItem[])'
+  nameWithType: NSMDOListItem.SetChildItems(NSMDOListItem[])
+  fullName: CRMScript.NetServer.NSMDOListItem.SetChildItems(NSMDOListItem[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChildItems(NSMDOListItem[] childItems)
+    parameters:
+    - id: childItems
+      type: CRMScript.NetServer.NSMDOListItem[]
+      description: "The child items of the NSMDOListItem."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMDOListItem thing;\nNSMDOListItem[] childItems;\nthing.SetChildItems(childItems);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMDOListItem.SetColorBlock(Integer)
+  commentId: M:CRMScript.NetServer.NSMDOListItem.SetColorBlock(Integer)
+  id: 'SetColorBlock(Integer)'
+  so.intellisense: NSMDOListItem.SetColorBlock
+  langs:
+  - crmscript
+  name: 'SetColorBlock(Integer)'
+  nameWithType: NSMDOListItem.SetColorBlock(Integer)
+  fullName: CRMScript.NetServer.NSMDOListItem.SetColorBlock(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetColorBlock(Integer colorBlock)
+    parameters:
+    - id: colorBlock
+      type: CRMScript.Global.Integer
+      description: "The color indicator of the ListItem color block."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMDOListItem thing;\nInteger colorBlock;\nthing.SetColorBlock(colorBlock);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMDOListItem.SetDeleted(Bool)
+  commentId: M:CRMScript.NetServer.NSMDOListItem.SetDeleted(Bool)
+  id: 'SetDeleted(Bool)'
+  so.intellisense: NSMDOListItem.SetDeleted
+  langs:
+  - crmscript
+  name: 'SetDeleted(Bool)'
+  nameWithType: NSMDOListItem.SetDeleted(Bool)
+  fullName: CRMScript.NetServer.NSMDOListItem.SetDeleted(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeleted(Bool deleted)
+    parameters:
+    - id: deleted
+      type: CRMScript.Global.Bool
+      description: "The deleted status of the ListItem."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMDOListItem thing;\nBool deleted;\nthing.SetDeleted(deleted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMDOListItem.SetExtraInfo(String)
+  commentId: M:CRMScript.NetServer.NSMDOListItem.SetExtraInfo(String)
+  id: 'SetExtraInfo(String)'
+  so.intellisense: NSMDOListItem.SetExtraInfo
+  langs:
+  - crmscript
+  name: 'SetExtraInfo(String)'
+  nameWithType: NSMDOListItem.SetExtraInfo(String)
+  fullName: CRMScript.NetServer.NSMDOListItem.SetExtraInfo(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraInfo(String extraInfo)
+    parameters:
+    - id: extraInfo
+      type: CRMScript.Global.String
+      description: "Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMDOListItem thing;\nString extraInfo;\nthing.SetExtraInfo(extraInfo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMDOListItem.SetFullName(String)
+  commentId: M:CRMScript.NetServer.NSMDOListItem.SetFullName(String)
+  id: 'SetFullName(String)'
+  so.intellisense: NSMDOListItem.SetFullName
+  langs:
+  - crmscript
+  name: 'SetFullName(String)'
+  nameWithType: NSMDOListItem.SetFullName(String)
+  fullName: CRMScript.NetServer.NSMDOListItem.SetFullName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFullName(String fullName)
+    parameters:
+    - id: fullName
+      type: CRMScript.Global.String
+      description: "The name of the ListItem in its context."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMDOListItem thing;\nString fullName;\nthing.SetFullName(fullName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMDOListItem.SetIconHint(String)
+  commentId: M:CRMScript.NetServer.NSMDOListItem.SetIconHint(String)
+  id: 'SetIconHint(String)'
+  so.intellisense: NSMDOListItem.SetIconHint
+  langs:
+  - crmscript
+  name: 'SetIconHint(String)'
+  nameWithType: NSMDOListItem.SetIconHint(String)
+  fullName: CRMScript.NetServer.NSMDOListItem.SetIconHint(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIconHint(String iconHint)
+    parameters:
+    - id: iconHint
+      type: CRMScript.Global.String
+      description: "The Icon hint of the ListItem. Custom field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMDOListItem thing;\nString iconHint;\nthing.SetIconHint(iconHint);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMDOListItem.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSMDOListItem.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSMDOListItem.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSMDOListItem.SetId(Integer)
+  fullName: CRMScript.NetServer.NSMDOListItem.SetId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "The ID of the ListItem."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMDOListItem thing;\nInteger id;\nthing.SetId(id);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMDOListItem.SetName(String)
+  commentId: M:CRMScript.NetServer.NSMDOListItem.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSMDOListItem.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSMDOListItem.SetName(String)
+  fullName: CRMScript.NetServer.NSMDOListItem.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of the ListItem."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMDOListItem thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMDOListItem.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSMDOListItem.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSMDOListItem.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSMDOListItem.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSMDOListItem.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "The rank of the ListItem."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMDOListItem thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMDOListItem.SetStyleHint(String)
+  commentId: M:CRMScript.NetServer.NSMDOListItem.SetStyleHint(String)
+  id: 'SetStyleHint(String)'
+  so.intellisense: NSMDOListItem.SetStyleHint
+  langs:
+  - crmscript
+  name: 'SetStyleHint(String)'
+  nameWithType: NSMDOListItem.SetStyleHint(String)
+  fullName: CRMScript.NetServer.NSMDOListItem.SetStyleHint(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetStyleHint(String styleHint)
+    parameters:
+    - id: styleHint
+      type: CRMScript.Global.String
+      description: "Style hint indicating, information such as background color etc. Custom field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMDOListItem thing;\nString styleHint;\nthing.SetStyleHint(styleHint);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMDOListItem.SetToolTip(String)
+  commentId: M:CRMScript.NetServer.NSMDOListItem.SetToolTip(String)
+  id: 'SetToolTip(String)'
+  so.intellisense: NSMDOListItem.SetToolTip
+  langs:
+  - crmscript
+  name: 'SetToolTip(String)'
+  nameWithType: NSMDOListItem.SetToolTip(String)
+  fullName: CRMScript.NetServer.NSMDOListItem.SetToolTip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetToolTip(String toolTip)
+    parameters:
+    - id: toolTip
+      type: CRMScript.Global.String
+      description: "The tooltip of the ListItem."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMDOListItem thing;\nString toolTip;\nthing.SetToolTip(toolTip);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMDOListItem.SetType(String)
+  commentId: M:CRMScript.NetServer.NSMDOListItem.SetType(String)
+  id: 'SetType(String)'
+  so.intellisense: NSMDOListItem.SetType
+  langs:
+  - crmscript
+  name: 'SetType(String)'
+  nameWithType: NSMDOListItem.SetType(String)
+  fullName: CRMScript.NetServer.NSMDOListItem.SetType(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetType(String type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.String
+      description: "The type of the ListItem. Custom field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMDOListItem thing;\nString type;\nthing.SetType(type);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSMDOListItem
+  commentId: T:CRMScript.NetServer.NSMDOListItem
+  isExternal: true
+  name: NSMDOListItem
+  nameWithType: NSMDOListItem
+  fullName: CRMScript.NetServer.NSMDOListItem
+- uid: CRMScript.NetServer.NSMDOListItem[]
+  isExternal: true
+  name: NSMDOListItem[]
+  nameWithType: NSMDOListItem[]
+  fullName: CRMScript.NetServer.NSMDOListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSMDOListItem
+    isExternal: true
+    name: NSMDOListItem
+    nameWithType: NSMDOListItem
+    fullName: CRMScript.NetServer.NSMDOListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSMDOListItem
+  commentId: T:CRMScript.NetServer.NSMDOListItem
+  isExternal: true
+  name: NSMDOListItem
+  nameWithType: NSMDOListItem
+  fullName: CRMScript.NetServer.NSMDOListItem
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

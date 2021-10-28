@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSFieldInfoAttachment
+  commentId: T:CRMScript.NetServer.NSFieldInfoAttachment
+  id: NSFieldInfoAttachment
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSFieldInfoAttachment.#ctor
+  - CRMScript.NetServer.NSFieldInfoAttachment.GetDefaultValue()
+  - CRMScript.NetServer.NSFieldInfoAttachment.SetDefaultValue(Integer)
+  name: NSFieldInfoAttachment
+  nameWithType: NSFieldInfoAttachment
+  fullName: CRMScript.NetServer.NSFieldInfoAttachment
+  type: Class
+  summary: "\nAttachment custom database field.\n"
+  example: 
+- uid: CRMScript.NetServer.NSFieldInfoAttachment.#ctor
+  commentId: M:CRMScript.NetServer.NSFieldInfoAttachment.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSFieldInfoAttachment
+  langs:
+  - crmscript
+  name: NSFieldInfoAttachment()
+  nameWithType: NSFieldInfoAttachment.#ctor
+  fullName: CRMScript.NetServer.NSFieldInfoAttachment.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSFieldInfoAttachment class.\n"
+  remarks: 
+  syntax: 
+    content: NSFieldInfoAttachment
+  example: 
+- uid: CRMScript.NetServer.NSFieldInfoAttachment.GetDefaultValue()
+  commentId: M:CRMScript.NetServer.NSFieldInfoAttachment.GetDefaultValue()
+  id: 'GetDefaultValue()'
+  so.intellisense: NSFieldInfoAttachment.GetDefaultValue
+  langs:
+  - crmscript
+  name: 'GetDefaultValue()'
+  nameWithType: NSFieldInfoAttachment.GetDefaultValue()
+  fullName: CRMScript.NetServer.NSFieldInfoAttachment.GetDefaultValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDefaultValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Default attachment ID value."
+  example: 
+  - "\n<pre><code>NSFieldInfoAttachment thing;\nInteger defaultValue = thing.GetDefaultValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldInfoAttachment.SetDefaultValue(Integer)
+  commentId: M:CRMScript.NetServer.NSFieldInfoAttachment.SetDefaultValue(Integer)
+  id: 'SetDefaultValue(Integer)'
+  so.intellisense: NSFieldInfoAttachment.SetDefaultValue
+  langs:
+  - crmscript
+  name: 'SetDefaultValue(Integer)'
+  nameWithType: NSFieldInfoAttachment.SetDefaultValue(Integer)
+  fullName: CRMScript.NetServer.NSFieldInfoAttachment.SetDefaultValue(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDefaultValue(Integer defaultValue)
+    parameters:
+    - id: defaultValue
+      type: CRMScript.Global.Integer
+      description: "Default attachment ID value."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldInfoAttachment thing;\nInteger defaultValue;\nthing.SetDefaultValue(defaultValue);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSFieldInfoAttachment
+  commentId: T:CRMScript.NetServer.NSFieldInfoAttachment
+  isExternal: true
+  name: NSFieldInfoAttachment
+  nameWithType: NSFieldInfoAttachment
+  fullName: CRMScript.NetServer.NSFieldInfoAttachment
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.Visibility
+  # Same as SuperOffice.Data.Visibility
+  commentId: T:CRMScript.NetServer.Visibility
+  id: Visibility
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.Visibility.All
+  - CRMScript.NetServer.Visibility.Associate
+  - CRMScript.NetServer.Visibility.Group
+  name: Visibility
+  nameWithType: Visibility
+  fullName: CRMScript.NetServer.Visibility
+  type: Enum
+  summary: "\nThe visibility of the record.\n"
+- uid: CRMScript.NetServer.Visibility.All
+  commentId: F:CRMScript.NetServer.Visibility.All
+  id: Visibility.All
+  langs:
+  - crmscript
+  name: Visibility.All
+  nameWithType: Visibility.All
+  fullName: CRMScript.NetServer.Visibility.All
+  type: Field
+  summary: "\n0: Visible for all users\n"
+  syntax: 
+    content: All = 0
+    type: CRMScript.NetServer.Visibility
+- uid: CRMScript.NetServer.Visibility.Associate
+  commentId: F:CRMScript.NetServer.Visibility.Associate
+  id: Visibility.Associate
+  langs:
+  - crmscript
+  name: Visibility.Associate
+  nameWithType: Visibility.Associate
+  fullName: CRMScript.NetServer.Visibility.Associate
+  type: Field
+  summary: "\n1: The visibility is set for an associate\n"
+  syntax: 
+    content: Associate = 1
+    type: CRMScript.NetServer.Visibility
+- uid: CRMScript.NetServer.Visibility.Group
+  commentId: F:CRMScript.NetServer.Visibility.Group
+  id: Visibility.Group
+  langs:
+  - crmscript
+  name: Visibility.Group
+  nameWithType: Visibility.Group
+  fullName: CRMScript.NetServer.Visibility.Group
+  type: Field
+  summary: "\n2: The visibility is set for a group\n"
+  syntax: 
+    content: Group = 2
+    type: CRMScript.NetServer.Visibility
+references:
+- uid: CRMScript.NetServer.Visibility
+  commentId: T:CRMScript.NetServer.Visibility
+  isExternal: true
+  name: Visibility
+  nameWithType: Visibility
+  fullName: CRMScript.NetServer.Visibility

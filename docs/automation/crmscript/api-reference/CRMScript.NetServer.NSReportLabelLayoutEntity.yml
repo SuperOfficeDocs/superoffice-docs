@@ -1,0 +1,589 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity
+  commentId: T:CRMScript.NetServer.NSReportLabelLayoutEntity
+  id: NSReportLabelLayoutEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.#ctor
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.GetBottomMargin()
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.GetCountColumns()
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.GetCountRows()
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.GetDescription()
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.GetLeftMargin()
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.GetName()
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.GetOrientation()
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.GetPaperHeight()
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.GetPaperWidth()
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.GetReportLabelLayoutId()
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.GetRightMargin()
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.GetTopMargin()
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.SetBottomMargin(Integer)
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.SetCountColumns(Integer)
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.SetCountRows(Integer)
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.SetDescription(String)
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.SetLeftMargin(Integer)
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.SetName(String)
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.SetOrientation(Integer)
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.SetPaperHeight(Integer)
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.SetPaperWidth(Integer)
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.SetReportLabelLayoutId(Integer)
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.SetRightMargin(Integer)
+  - CRMScript.NetServer.NSReportLabelLayoutEntity.SetTopMargin(Integer)
+  name: NSReportLabelLayoutEntity
+  nameWithType: NSReportLabelLayoutEntity
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSReportLabelLayoutEntity
+  langs:
+  - crmscript
+  name: NSReportLabelLayoutEntity()
+  nameWithType: NSReportLabelLayoutEntity.#ctor
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSReportLabelLayoutEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSReportLabelLayoutEntity
+  example: 
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.GetBottomMargin()
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.GetBottomMargin()
+  id: 'GetBottomMargin()'
+  so.intellisense: NSReportLabelLayoutEntity.GetBottomMargin
+  langs:
+  - crmscript
+  name: 'GetBottomMargin()'
+  nameWithType: NSReportLabelLayoutEntity.GetBottomMargin()
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.GetBottomMargin()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetBottomMargin()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Bottom margin in twips."
+  example: 
+  - "\n<pre><code>NSReportLabelLayoutEntity thing;\nInteger bottomMargin = thing.GetBottomMargin();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.GetCountColumns()
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.GetCountColumns()
+  id: 'GetCountColumns()'
+  so.intellisense: NSReportLabelLayoutEntity.GetCountColumns
+  langs:
+  - crmscript
+  name: 'GetCountColumns()'
+  nameWithType: NSReportLabelLayoutEntity.GetCountColumns()
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.GetCountColumns()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCountColumns()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of columns."
+  example: 
+  - "\n<pre><code>NSReportLabelLayoutEntity thing;\nInteger countColumns = thing.GetCountColumns();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.GetCountRows()
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.GetCountRows()
+  id: 'GetCountRows()'
+  so.intellisense: NSReportLabelLayoutEntity.GetCountRows
+  langs:
+  - crmscript
+  name: 'GetCountRows()'
+  nameWithType: NSReportLabelLayoutEntity.GetCountRows()
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.GetCountRows()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCountRows()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of rows."
+  example: 
+  - "\n<pre><code>NSReportLabelLayoutEntity thing;\nInteger countRows = thing.GetCountRows();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.GetDescription()
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSReportLabelLayoutEntity.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSReportLabelLayoutEntity.GetDescription()
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Description."
+  example: 
+  - "\n<pre><code>NSReportLabelLayoutEntity thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.GetLeftMargin()
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.GetLeftMargin()
+  id: 'GetLeftMargin()'
+  so.intellisense: NSReportLabelLayoutEntity.GetLeftMargin
+  langs:
+  - crmscript
+  name: 'GetLeftMargin()'
+  nameWithType: NSReportLabelLayoutEntity.GetLeftMargin()
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.GetLeftMargin()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetLeftMargin()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Left margin in twips."
+  example: 
+  - "\n<pre><code>NSReportLabelLayoutEntity thing;\nInteger leftMargin = thing.GetLeftMargin();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSReportLabelLayoutEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSReportLabelLayoutEntity.GetName()
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of the label layout."
+  example: 
+  - "\n<pre><code>NSReportLabelLayoutEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.GetOrientation()
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.GetOrientation()
+  id: 'GetOrientation()'
+  so.intellisense: NSReportLabelLayoutEntity.GetOrientation
+  langs:
+  - crmscript
+  name: 'GetOrientation()'
+  nameWithType: NSReportLabelLayoutEntity.GetOrientation()
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.GetOrientation()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetOrientation()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Paper orientation 1=portrait, 2=landscape. See <xref href=\"CRMScript.NetServer.ReportPaperOrientation\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSReportLabelLayoutEntity thing;\nInteger orientation = thing.GetOrientation();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.GetPaperHeight()
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.GetPaperHeight()
+  id: 'GetPaperHeight()'
+  so.intellisense: NSReportLabelLayoutEntity.GetPaperHeight
+  langs:
+  - crmscript
+  name: 'GetPaperHeight()'
+  nameWithType: NSReportLabelLayoutEntity.GetPaperHeight()
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.GetPaperHeight()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPaperHeight()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Paper height in twips."
+  example: 
+  - "\n<pre><code>NSReportLabelLayoutEntity thing;\nInteger paperHeight = thing.GetPaperHeight();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.GetPaperWidth()
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.GetPaperWidth()
+  id: 'GetPaperWidth()'
+  so.intellisense: NSReportLabelLayoutEntity.GetPaperWidth
+  langs:
+  - crmscript
+  name: 'GetPaperWidth()'
+  nameWithType: NSReportLabelLayoutEntity.GetPaperWidth()
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.GetPaperWidth()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPaperWidth()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Paper width in twips."
+  example: 
+  - "\n<pre><code>NSReportLabelLayoutEntity thing;\nInteger paperWidth = thing.GetPaperWidth();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.GetReportLabelLayoutId()
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.GetReportLabelLayoutId()
+  id: 'GetReportLabelLayoutId()'
+  so.intellisense: NSReportLabelLayoutEntity.GetReportLabelLayoutId
+  langs:
+  - crmscript
+  name: 'GetReportLabelLayoutId()'
+  nameWithType: NSReportLabelLayoutEntity.GetReportLabelLayoutId()
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.GetReportLabelLayoutId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetReportLabelLayoutId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSReportLabelLayoutEntity thing;\nInteger reportLabelLayoutId = thing.GetReportLabelLayoutId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.GetRightMargin()
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.GetRightMargin()
+  id: 'GetRightMargin()'
+  so.intellisense: NSReportLabelLayoutEntity.GetRightMargin
+  langs:
+  - crmscript
+  name: 'GetRightMargin()'
+  nameWithType: NSReportLabelLayoutEntity.GetRightMargin()
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.GetRightMargin()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRightMargin()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Right margin in twips."
+  example: 
+  - "\n<pre><code>NSReportLabelLayoutEntity thing;\nInteger rightMargin = thing.GetRightMargin();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.GetTopMargin()
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.GetTopMargin()
+  id: 'GetTopMargin()'
+  so.intellisense: NSReportLabelLayoutEntity.GetTopMargin
+  langs:
+  - crmscript
+  name: 'GetTopMargin()'
+  nameWithType: NSReportLabelLayoutEntity.GetTopMargin()
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.GetTopMargin()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTopMargin()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Top margin in twips."
+  example: 
+  - "\n<pre><code>NSReportLabelLayoutEntity thing;\nInteger topMargin = thing.GetTopMargin();</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.SetBottomMargin(Integer)
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.SetBottomMargin(Integer)
+  id: 'SetBottomMargin(Integer)'
+  so.intellisense: NSReportLabelLayoutEntity.SetBottomMargin
+  langs:
+  - crmscript
+  name: 'SetBottomMargin(Integer)'
+  nameWithType: NSReportLabelLayoutEntity.SetBottomMargin(Integer)
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.SetBottomMargin(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetBottomMargin(Integer bottomMargin)
+    parameters:
+    - id: bottomMargin
+      type: CRMScript.Global.Integer
+      description: "Bottom margin in twips."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReportLabelLayoutEntity thing;\nInteger bottomMargin;\nthing.SetBottomMargin(bottomMargin);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.SetCountColumns(Integer)
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.SetCountColumns(Integer)
+  id: 'SetCountColumns(Integer)'
+  so.intellisense: NSReportLabelLayoutEntity.SetCountColumns
+  langs:
+  - crmscript
+  name: 'SetCountColumns(Integer)'
+  nameWithType: NSReportLabelLayoutEntity.SetCountColumns(Integer)
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.SetCountColumns(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCountColumns(Integer countColumns)
+    parameters:
+    - id: countColumns
+      type: CRMScript.Global.Integer
+      description: "Number og columns."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReportLabelLayoutEntity thing;\nInteger countColumns;\nthing.SetCountColumns(countColumns);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.SetCountRows(Integer)
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.SetCountRows(Integer)
+  id: 'SetCountRows(Integer)'
+  so.intellisense: NSReportLabelLayoutEntity.SetCountRows
+  langs:
+  - crmscript
+  name: 'SetCountRows(Integer)'
+  nameWithType: NSReportLabelLayoutEntity.SetCountRows(Integer)
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.SetCountRows(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCountRows(Integer countRows)
+    parameters:
+    - id: countRows
+      type: CRMScript.Global.Integer
+      description: "Number of rows."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReportLabelLayoutEntity thing;\nInteger countRows;\nthing.SetCountRows(countRows);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSReportLabelLayoutEntity.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSReportLabelLayoutEntity.SetDescription(String)
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "Description."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReportLabelLayoutEntity thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.SetLeftMargin(Integer)
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.SetLeftMargin(Integer)
+  id: 'SetLeftMargin(Integer)'
+  so.intellisense: NSReportLabelLayoutEntity.SetLeftMargin
+  langs:
+  - crmscript
+  name: 'SetLeftMargin(Integer)'
+  nameWithType: NSReportLabelLayoutEntity.SetLeftMargin(Integer)
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.SetLeftMargin(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLeftMargin(Integer leftMargin)
+    parameters:
+    - id: leftMargin
+      type: CRMScript.Global.Integer
+      description: "Left margin in twips."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReportLabelLayoutEntity thing;\nInteger leftMargin;\nthing.SetLeftMargin(leftMargin);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSReportLabelLayoutEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSReportLabelLayoutEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Name of the label layout."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReportLabelLayoutEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.SetOrientation(Integer)
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.SetOrientation(Integer)
+  id: 'SetOrientation(Integer)'
+  so.intellisense: NSReportLabelLayoutEntity.SetOrientation
+  langs:
+  - crmscript
+  name: 'SetOrientation(Integer)'
+  nameWithType: NSReportLabelLayoutEntity.SetOrientation(Integer)
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.SetOrientation(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetOrientation(Integer orientation)
+    parameters:
+    - id: orientation
+      type: CRMScript.Global.Integer
+      description: "Paper orientation. 1=portrait, 2=landscape. See <xref href=\"CRMScript.NetServer.ReportPaperOrientation\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReportLabelLayoutEntity thing;\nInteger orientation;\nthing.SetOrientation(orientation);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.SetPaperHeight(Integer)
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.SetPaperHeight(Integer)
+  id: 'SetPaperHeight(Integer)'
+  so.intellisense: NSReportLabelLayoutEntity.SetPaperHeight
+  langs:
+  - crmscript
+  name: 'SetPaperHeight(Integer)'
+  nameWithType: NSReportLabelLayoutEntity.SetPaperHeight(Integer)
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.SetPaperHeight(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPaperHeight(Integer paperHeight)
+    parameters:
+    - id: paperHeight
+      type: CRMScript.Global.Integer
+      description: "Paper height in twips."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReportLabelLayoutEntity thing;\nInteger paperHeight;\nthing.SetPaperHeight(paperHeight);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.SetPaperWidth(Integer)
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.SetPaperWidth(Integer)
+  id: 'SetPaperWidth(Integer)'
+  so.intellisense: NSReportLabelLayoutEntity.SetPaperWidth
+  langs:
+  - crmscript
+  name: 'SetPaperWidth(Integer)'
+  nameWithType: NSReportLabelLayoutEntity.SetPaperWidth(Integer)
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.SetPaperWidth(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPaperWidth(Integer paperWidth)
+    parameters:
+    - id: paperWidth
+      type: CRMScript.Global.Integer
+      description: "Paper width in twips."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReportLabelLayoutEntity thing;\nInteger paperWidth;\nthing.SetPaperWidth(paperWidth);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.SetReportLabelLayoutId(Integer)
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.SetReportLabelLayoutId(Integer)
+  id: 'SetReportLabelLayoutId(Integer)'
+  so.intellisense: NSReportLabelLayoutEntity.SetReportLabelLayoutId
+  langs:
+  - crmscript
+  name: 'SetReportLabelLayoutId(Integer)'
+  nameWithType: NSReportLabelLayoutEntity.SetReportLabelLayoutId(Integer)
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.SetReportLabelLayoutId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetReportLabelLayoutId(Integer reportLabelLayoutId)
+    parameters:
+    - id: reportLabelLayoutId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReportLabelLayoutEntity thing;\nInteger reportLabelLayoutId;\nthing.SetReportLabelLayoutId(reportLabelLayoutId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.SetRightMargin(Integer)
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.SetRightMargin(Integer)
+  id: 'SetRightMargin(Integer)'
+  so.intellisense: NSReportLabelLayoutEntity.SetRightMargin
+  langs:
+  - crmscript
+  name: 'SetRightMargin(Integer)'
+  nameWithType: NSReportLabelLayoutEntity.SetRightMargin(Integer)
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.SetRightMargin(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRightMargin(Integer rightMargin)
+    parameters:
+    - id: rightMargin
+      type: CRMScript.Global.Integer
+      description: "Right margin in twips."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReportLabelLayoutEntity thing;\nInteger rightMargin;\nthing.SetRightMargin(rightMargin);</code></pre>\n"
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity.SetTopMargin(Integer)
+  commentId: M:CRMScript.NetServer.NSReportLabelLayoutEntity.SetTopMargin(Integer)
+  id: 'SetTopMargin(Integer)'
+  so.intellisense: NSReportLabelLayoutEntity.SetTopMargin
+  langs:
+  - crmscript
+  name: 'SetTopMargin(Integer)'
+  nameWithType: NSReportLabelLayoutEntity.SetTopMargin(Integer)
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity.SetTopMargin(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTopMargin(Integer topMargin)
+    parameters:
+    - id: topMargin
+      type: CRMScript.Global.Integer
+      description: "Top margin in twips."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSReportLabelLayoutEntity thing;\nInteger topMargin;\nthing.SetTopMargin(topMargin);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSReportLabelLayoutEntity
+  commentId: T:CRMScript.NetServer.NSReportLabelLayoutEntity
+  isExternal: true
+  name: NSReportLabelLayoutEntity
+  nameWithType: NSReportLabelLayoutEntity
+  fullName: CRMScript.NetServer.NSReportLabelLayoutEntity
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.ReportPaperOrientation
+  commentId: T:CRMScript.NetServer.ReportPaperOrientation
+  isExternal: true
+  name: ReportPaperOrientation
+  nameWithType: ReportPaperOrientation
+  fullName: CRMScript.NetServer.ReportPaperOrientation

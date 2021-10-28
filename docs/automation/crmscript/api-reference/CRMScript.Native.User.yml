@@ -1,0 +1,275 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.User
+  commentId: T:CRMScript.Native.User
+  id: User
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.User.#ctor
+  - CRMScript.Native.User.getValue(String)
+  - CRMScript.Native.User.hasTicketAccess(Integer,Integer)
+  - CRMScript.Native.User.isAdministrator()
+  - CRMScript.Native.User.isLoggedIn(Integer)
+  - CRMScript.Native.User.load(Integer)
+  - CRMScript.Native.User.loadFromAgentAndKey(Integer,String)
+  - CRMScript.Native.User.save()
+  - CRMScript.Native.User.setValue(String,String,String)
+  - CRMScript.Native.User.toParser(Parser)
+  name: User
+  nameWithType: User
+  fullName: CRMScript.Native.User
+  type: Class
+  summary: "\nClass for representing a user.\n"
+  example: 
+  - "\n<pre><code>User u;\n\nu.load(2); // Loads user with id = 2\nprint(u.getValue(&quot;username&quot;));\nu.setValue(&quot;email&quot;, &quot;bob@example.com&quot;);\nu.setValue(&quot;language&quot;, &quot;en&quot;); // &quot;no&quot; or &quot;en&quot;\nu.setValue(&quot;status&quot;, &quot;1&quot;); // 1 is Active, 2 is Not Present, 3 is deleted\nprint(u.isLoggedIn(2).toString()); // 2 = web pages, 1 = soap interface</code></pre>\n"
+- uid: CRMScript.Native.User.#ctor
+  commentId: M:CRMScript.Native.User.#ctor
+  id: '#ctor'
+  so.intellisense: Void.User
+  langs:
+  - crmscript
+  name: User()
+  nameWithType: User.#ctor
+  fullName: CRMScript.Native.User.#ctor
+  type: Constructor
+  summary: "\nClass for representing a user.\n"
+  remarks: 
+  syntax: 
+    content: User
+  example: 
+  - "\n<pre><code>User u;\n\nu.load(2); // Loads user with id = 2\nprint(u.getValue(&quot;username&quot;));\nu.setValue(&quot;email&quot;, &quot;bob@example.com&quot;);\nu.setValue(&quot;language&quot;, &quot;en&quot;); // &quot;no&quot; or &quot;en&quot;\nu.setValue(&quot;status&quot;, &quot;1&quot;); // 1 is Active, 2 is Not Present, 3 is deleted\nprint(u.isLoggedIn(2).toString()); // 2 = web pages, 1 = soap interface</code></pre>\n"
+- uid: CRMScript.Native.User.getValue(String)
+  commentId: M:CRMScript.Native.User.getValue(String)
+  id: 'getValue(String)'
+  so.intellisense: User.getValue
+  langs:
+  - crmscript
+  name: 'getValue(String)'
+  nameWithType: User.getValue(String)
+  fullName: CRMScript.Native.User.getValue(String)
+  type: Method
+  summary: "\nGets the value of a given column.\n"
+  remarks: "\n<h3>Possible values:</h3><table><thead><tr><th>Value</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>Integer</td><td>The primary key (auto-incremented)</td></tr><tr><td>loginname</td><td>String</td><td>The unique loginname for this user.</td></tr><tr><td>username</td><td>String</td><td>The unique username for this user.</td></tr><tr><td>password</td><td>String</td><td>The encrypted password for this user.</td></tr><tr><td>firstname</td><td>String</td><td>The firstname for this user.</td></tr><tr><td>middlename</td><td>String</td><td>The middlename for this user.</td></tr><tr><td>lastname</td><td>String</td><td>The lastname for this user.</td></tr><tr><td>email</td><td>String</td><td>The email address for this user.</td></tr><tr><td>status</td><td>Integer</td><td>The status (enum) for this user. 1 is Active, 2 is Not Present, 3 is deleted</td></tr><tr><td>signature</td><td>String</td><td>The users signature.</td></tr><tr><td>language</td><td>String</td><td>A string indicating the user's language (&quot;no&quot; or &quot;en&quot;).</td></tr><tr><td>flags</td><td>Integer</td><td>A bitmask indicating flags for this entry.</td></tr><tr><td>lastCategory</td><td>Integer</td><td>The last chosen category for this user when posting tickets. category.id</td></tr><tr><td>pictureId</td><td>Integer</td><td>The attachment ID of the picture for this user.</td></tr><tr><td>defaultUser</td><td>Integer</td><td>The default user to set on new tickets in this category (1=automatically, 2=unassigned, 3=the owner)</td></tr><tr><td>initials</td><td>String</td><td>Obsolete field,cannot be removed because of not null error on older systems</td></tr><tr><td>group</td><td>Integer</td><td>The group ID of the primary group which this user belongs to</td></tr><tr><td>role</td><td>Integer</td><td>The role ID of the role this user belongs to</td></tr><tr><td>associateId</td><td>Integer</td><td>The corresponding associate id for this user</td></tr><tr><td>ownerCompany</td><td>Integer</td><td>the contact ID of the owning company of the users' connected person entity.</td></tr><tr><td>x_* </td><td></td><td>The extrafield with the given database field name.</td></tr></tbody></table><p></p>\n<h3>The different notify masks: (Indicated by bit enums):</h3><table><thead><tr><th>Flag</th><th>Value</th></tr></thead><tbody><tr><td>NewTicket</td><td>1</td></tr><tr><td>NewTicketMessage</td><td>2</td></tr><tr><td>TicketEscalated</td><td>3</td></tr><tr><td>TicketActivated</td><td>4</td></tr><tr><td>ActiveTickets</td><td>5 //only used as a filter (ejuser)</td></tr><tr><td>TicketTakeOver</td><td>6</td></tr><tr><td>Hotlist</td><td>9  //only used as a filter (ejuser)</td></tr><tr><td>Custom</td><td>10</td></tr></tbody></table><p></p>\n<h3>Access flags:</h3><table><thead><tr><th>Flag</th><th>Value</th></tr></thead><tbody><tr><td>AccessNone</td><td>0 (value 0)</td></tr><tr><td>AccessListOthers</td><td>0 bit number 1)</td></tr><tr><td>AccessReadOthers</td><td>1</td></tr><tr><td>AccessEditOthers </td><td>2</td></tr><tr><td>AccessEditOwnPref </td><td>3</td></tr><tr><td>AccessCategoryAdministration</td><td>4</td></tr><tr><td>AccessUserAdministration</td><td>5</td></tr><tr><td>AccessEjournalAdministration</td><td>6</td></tr><tr><td>AccessStatistics </td><td>7</td></tr><tr><td>AccessDocuments</td><td>8</td></tr><tr><td>AccessJustCategory</td><td>9 //obsolete</td></tr> <tr><td>AccessEditProfile</td><td>10</td></tr><tr><td>AccessListOnlyOwn</td><td>11</td></tr><tr><td>AccessReadOnlyOwn</td><td>12</td></tr><tr><td>AccessEditOnlyOwn</td><td>13</td></tr><tr><td>AccessChat</td><td>14</td></tr><tr><td>AccessChatAdmin</td><td>15</td></tr><tr><td>AccessSpm</td><td>16</td></tr><tr><td>AccessEditFaq</td><td>17</td></tr><tr><td>AccessFaqAdmin</td><td>18</td></tr><tr><td>AccessListExtraTablesContent</td><td>19</td></tr><tr><td>AccessEditExtraTablesContent</td><td>20</td></tr><tr><td>AccessReadSelections</td><td>21</td></tr><tr><td>AccessEditSelections</td><td>22</td></tr><tr><td>AccessPostToFacebook</td><td>23</td></tr></tbody></table>\n<p></p><h3>User flags:</h3><table><thead><tr><th>Flag</th><th>Value</th></tr></thead><tbody><tr><td>None</td><td>0</td></tr><tr><td>UseLastCategory</td><td>1</td></tr><tr><td>DefaultTicketClose</td><td>2</td></tr><tr><td>DefaultMessageClose</td><td>3</td></tr><tr><td>SortDesc</td><td>4</td></tr><tr><td>PreviewImages</td><td>5</td></tr><tr><td>OnlyOwnCategories</td><td>6</td></tr><tr><td>SmallFonts</td><td>7</td></tr><tr><td>InsertLastMessage</td><td>8</td></tr><tr><td>ShowQuickSearch</td><td>9</td></tr><tr><td>Use24HrsClock</td><td>10</td></tr><tr><td>AddMessageNewWindow</td><td>11</td></tr><tr><td>OnlyShowOpenTicketsInHotlist</td><td>12</td></tr><tr><td>UseLocalClock</td><td>13</td></tr><tr><td>HighlightActiveScreenElement</td><td>14</td></tr><tr><td>DisplayOwnCategories</td><td>15</td></tr><tr><td>SuppressWarnOnNavigate</td><td>16</td></tr><tr><td>SuppressPreviewWarning</td><td>17</td></tr><tr><td>PlainTextEditor</td><td>18</td></tr><tr><td>FckEditorSingleLineBreak</td><td>19</td></tr><tr><td>CustomDateFormat</td><td>20</td></tr><tr><td>SundayFirstDayInWeek</td><td>21</td></tr><tr><td>OldScreensOnEditTicket</td><td>22</td></tr><tr><td>KeepFormattingOnPaste</td><td>23</td></tr><tr><td>DisplayCheckboxLeft</td><td>24</td></tr><tr><td>ShowMessagesAsPlainText</td><td>25</td></tr></thead><tbody>\n"
+  syntax: 
+    content: String getValue(String colName)
+    parameters:
+    - id: colName
+      type: CRMScript.Global.String
+      description: "String with column name."
+    return:
+      type: CRMScript.Global.String
+      description: "Returns a string with value in given column."
+  example: 
+- uid: CRMScript.Native.User.hasTicketAccess(Integer,Integer)
+  commentId: M:CRMScript.Native.User.hasTicketAccess(Integer,Integer)
+  id: 'hasTicketAccess(Integer,Integer)'
+  so.intellisense: User.hasTicketAccess
+  langs:
+  - crmscript
+  name: 'hasTicketAccess(Integer,Integer)'
+  nameWithType: User.hasTicketAccess(Integer,Integer)
+  fullName: CRMScript.Native.User.hasTicketAccess(Integer,Integer)
+  type: Method
+  summary: "\nReturns true if the user have at least the given access to the given ticket id. \n"
+  remarks: 
+  syntax: 
+    content: Bool hasTicketAccess(Integer ticketId, Integer accessLevel)
+    parameters:
+    - id: ticketId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: accessLevel
+      type: CRMScript.Global.Integer
+      description: "AccessLevel is 0 for listing tickets, 1 for reading tickets and 2 for editing tickets."
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+- uid: CRMScript.Native.User.isAdministrator()
+  commentId: M:CRMScript.Native.User.isAdministrator()
+  id: 'isAdministrator()'
+  so.intellisense: User.isAdministrator
+  langs:
+  - crmscript
+  name: 'isAdministrator()'
+  nameWithType: User.isAdministrator()
+  fullName: CRMScript.Native.User.isAdministrator()
+  type: Method
+  summary: "\nReturns true if the user is an administrator, false if not.\n"
+  remarks: 
+  syntax: 
+    content: Bool isAdministrator()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+- uid: CRMScript.Native.User.isLoggedIn(Integer)
+  commentId: M:CRMScript.Native.User.isLoggedIn(Integer)
+  id: 'isLoggedIn(Integer)'
+  so.intellisense: User.isLoggedIn
+  langs:
+  - crmscript
+  name: 'isLoggedIn(Integer)'
+  nameWithType: User.isLoggedIn(Integer)
+  fullName: CRMScript.Native.User.isLoggedIn(Integer)
+  type: Method
+  summary: "\nChecks if a user is logged in or not.\n"
+  remarks: 
+  syntax: 
+    content: Bool isLoggedIn(Integer origin)
+    parameters:
+    - id: origin
+      type: CRMScript.Global.Integer
+      description: 2 = web pages, 1 = soap interface."
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+- uid: CRMScript.Native.User.load(Integer)
+  commentId: M:CRMScript.Native.User.load(Integer)
+  id: 'load(Integer)'
+  so.intellisense: User.load
+  langs:
+  - crmscript
+  name: 'load(Integer)'
+  nameWithType: User.load(Integer)
+  fullName: CRMScript.Native.User.load(Integer)
+  type: Method
+  summary: "\nLoads a user from the database\n"
+  remarks: 
+  syntax: 
+    content: Bool load(Integer p_id)
+    parameters:
+    - id: p_id
+      type: CRMScript.Global.Integer
+      description: "The user Id."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the user is loaded successfully."
+  example: 
+- uid: CRMScript.Native.User.loadFromAgentAndKey(Integer,String)
+  commentId: M:CRMScript.Native.User.loadFromAgentAndKey(Integer,String)
+  id: 'loadFromAgentAndKey(Integer,String)'
+  so.intellisense: User.loadFromAgentAndKey
+  langs:
+  - crmscript
+  name: 'loadFromAgentAndKey(Integer,String)'
+  nameWithType: User.loadFromAgentAndKey(Integer,String)
+  fullName: CRMScript.Native.User.loadFromAgentAndKey(Integer,String)
+  type: Method
+  summary: "\nLoads a user from an Agent with userId and the Agent's key.\n"
+  remarks: 
+  syntax: 
+    content: Bool loadFromAgentAndKey(Integer id, String Key)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "ID of the user"
+    - id: Key
+      type: CRMScript.Global.String
+      description: "Key of the agent."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the user is loaded successfully."
+  example: 
+- uid: CRMScript.Native.User.save()
+  commentId: M:CRMScript.Native.User.save()
+  id: 'save()'
+  so.intellisense: User.save
+  langs:
+  - crmscript
+  name: 'save()'
+  nameWithType: User.save()
+  fullName: CRMScript.Native.User.save()
+  type: Method
+  summary: "\nSaves a user object to the database, returns the ID of the user.\n"
+  remarks: 
+  syntax: 
+    content: Integer save()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Returns the ID of the user."
+  example: 
+- uid: CRMScript.Native.User.setValue(String,String,String)
+  commentId: M:CRMScript.Native.User.setValue(String,String,String)
+  id: 'setValue(String,String,String)'
+  so.intellisense: User.setValue
+  langs:
+  - crmscript
+  name: 'setValue(String,String,String)'
+  nameWithType: User.setValue(String,String,String)
+  fullName: CRMScript.Native.User.setValue(String,String,String)
+  type: Method
+  summary: "\nSets a value in a given column.\n"
+  remarks: "\n<h3>Possible values:</h3><table><thead><tr><th>Value</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>Integer</td><td>The primary key (auto-incremented)</td></tr><tr><td>loginname</td><td>String</td><td>The unique loginname for this user.</td></tr><tr><td>username</td><td>String</td><td>The unique username for this user.</td></tr><tr><td>password</td><td>String</td><td>The encrypted password for this user.</td></tr><tr><td>firstname</td><td>String</td><td>The firstname for this user.</td></tr><tr><td>middlename</td><td>String</td><td>The middlename for this user.</td></tr><tr><td>lastname</td><td>String</td><td>The lastname for this user.</td></tr><tr><td>email</td><td>String</td><td>The email address for this user.</td></tr><tr><td>status</td><td>Integer</td><td>The status (enum) for this user. 1 is Active, 2 is Not Present, 3 is deleted</td></tr><tr><td>signature</td><td>String</td><td>The users signature.</td></tr><tr><td>language</td><td>String</td><td>A string indicating the user's language (&quot;no&quot; or &quot;en&quot;).</td></tr><tr><td>flags</td><td>Integer</td><td>A bitmask indicating flags for this entry.</td></tr><tr><td>lastCategory</td><td>Integer</td><td>The last chosen category for this user when posting tickets. category.id</td></tr><tr><td>pictureId</td><td>Integer</td><td>The attachment ID of the picture for this user.</td></tr><tr><td>defaultUser</td><td>Integer</td><td>The default user to set on new tickets in this category (1=automatically, 2=unassigned, 3=the owner)</td></tr><tr><td>initials</td><td>String</td><td>Obsolete field,cannot be removed because of not null error on older systems</td></tr><tr><td>group</td><td>Integer</td><td>The group ID of the primary group which this user belongs to</td></tr><tr><td>role</td><td>Integer</td><td>The role ID of the role this user belongs to</td></tr><tr><td>associateId</td><td>Integer</td><td>The corresponding associate id for this user</td></tr><tr><td>ownerCompany</td><td>Integer</td><td>the contact ID of the owning company of the users' connected person entity.</td></tr><tr><td>x_* </td><td></td><td>The extrafield with the given database field name.</td></tr></tbody></table><p></p>\n<h3>The different notify masks: (Indicated by bit enums):</h3><table><thead><tr><th>Flag</th><th>Value</th></tr></thead><tbody><tr><td>NewTicket</td><td>1</td></tr><tr><td>NewTicketMessage</td><td>2</td></tr><tr><td>TicketEscalated</td><td>3</td></tr><tr><td>TicketActivated</td><td>4</td></tr><tr><td>ActiveTickets</td><td>5 //only used as a filter (ejuser)</td></tr><tr><td>TicketTakeOver</td><td>6</td></tr><tr><td>Hotlist</td><td>9  //only used as a filter (ejuser)</td></tr><tr><td>Custom</td><td>10</td></tr></tbody></table><p></p>\n<h3>Access flags:</h3><table><thead><tr><th>Flag</th><th>Value</th></tr></thead><tbody><tr><td>AccessNone</td><td>0 (value 0)</td></tr><tr><td>AccessListOthers</td><td>0 bit number 1)</td></tr><tr><td>AccessReadOthers</td><td>1</td></tr><tr><td>AccessEditOthers </td><td>2</td></tr><tr><td>AccessEditOwnPref </td><td>3</td></tr><tr><td>AccessCategoryAdministration</td><td>4</td></tr><tr><td>AccessUserAdministration</td><td>5</td></tr><tr><td>AccessEjournalAdministration</td><td>6</td></tr><tr><td>AccessStatistics </td><td>7</td></tr><tr><td>AccessDocuments</td><td>8</td></tr><tr><td>AccessJustCategory</td><td>9 //obsolete</td></tr> <tr><td>AccessEditProfile</td><td>10</td></tr><tr><td>AccessListOnlyOwn</td><td>11</td></tr><tr><td>AccessReadOnlyOwn</td><td>12</td></tr><tr><td>AccessEditOnlyOwn</td><td>13</td></tr><tr><td>AccessChat</td><td>14</td></tr><tr><td>AccessChatAdmin</td><td>15</td></tr><tr><td>AccessSpm</td><td>16</td></tr><tr><td>AccessEditFaq</td><td>17</td></tr><tr><td>AccessFaqAdmin</td><td>18</td></tr><tr><td>AccessListExtraTablesContent</td><td>19</td></tr><tr><td>AccessEditExtraTablesContent</td><td>20</td></tr><tr><td>AccessReadSelections</td><td>21</td></tr><tr><td>AccessEditSelections</td><td>22</td></tr><tr><td>AccessPostToFacebook</td><td>23</td></tr></tbody></table>\n<p></p><h3>User flags:</h3><table><thead><tr><th>Flag</th><th>Value</th></tr></thead><tbody><tr><td>None</td><td>0</td></tr><tr><td>UseLastCategory</td><td>1</td></tr><tr><td>DefaultTicketClose</td><td>2</td></tr><tr><td>DefaultMessageClose</td><td>3</td></tr><tr><td>SortDesc</td><td>4</td></tr><tr><td>PreviewImages</td><td>5</td></tr><tr><td>OnlyOwnCategories</td><td>6</td></tr><tr><td>SmallFonts</td><td>7</td></tr><tr><td>InsertLastMessage</td><td>8</td></tr><tr><td>ShowQuickSearch</td><td>9</td></tr><tr><td>Use24HrsClock</td><td>10</td></tr><tr><td>AddMessageNewWindow</td><td>11</td></tr><tr><td>OnlyShowOpenTicketsInHotlist</td><td>12</td></tr><tr><td>UseLocalClock</td><td>13</td></tr><tr><td>HighlightActiveScreenElement</td><td>14</td></tr><tr><td>DisplayOwnCategories</td><td>15</td></tr><tr><td>SuppressWarnOnNavigate</td><td>16</td></tr><tr><td>SuppressPreviewWarning</td><td>17</td></tr><tr><td>PlainTextEditor</td><td>18</td></tr><tr><td>FckEditorSingleLineBreak</td><td>19</td></tr><tr><td>CustomDateFormat</td><td>20</td></tr><tr><td>SundayFirstDayInWeek</td><td>21</td></tr><tr><td>OldScreensOnEditTicket</td><td>22</td></tr><tr><td>KeepFormattingOnPaste</td><td>23</td></tr><tr><td>DisplayCheckboxLeft</td><td>24</td></tr><tr><td>ShowMessagesAsPlainText</td><td>25</td></tr></thead><tbody>\n"
+  syntax: 
+    content: Void setValue(String column, String value)
+    parameters:
+    - id: column
+      type: CRMScript.Global.String
+      description: 
+    - id: value
+      type: CRMScript.Global.String
+      description: 
+    - id: columns
+      type: CRMScript.Global.String
+      description: "String with column name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.User.toParser(Parser)
+  commentId: M:CRMScript.Native.User.toParser(Parser)
+  id: 'toParser(Parser)'
+  so.intellisense: User.toParser
+  langs:
+  - crmscript
+  name: 'toParser(Parser)'
+  nameWithType: User.toParser(Parser)
+  fullName: CRMScript.Native.User.toParser(Parser)
+  type: Method
+  summary: "\nLoads a user and returns it to a given Parser.\n"
+  remarks: 
+  syntax: 
+    content: Void toParser(Parser parser)
+    parameters:
+    - id: parser
+      type: CRMScript.Native.Parser
+      description: "Parser the user should be loaded to."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+references:
+- uid: CRMScript.Native.User
+  commentId: T:CRMScript.Native.User
+  isExternal: true
+  name: User
+  nameWithType: User
+  fullName: CRMScript.Native.User
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.Native.Parser
+  commentId: T:CRMScript.Native.Parser
+  isExternal: true
+  name: Parser
+  nameWithType: Parser
+  fullName: CRMScript.Native.Parser

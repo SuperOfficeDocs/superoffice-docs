@@ -1,0 +1,275 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSFavourite
+  commentId: T:CRMScript.NetServer.NSFavourite
+  id: NSFavourite
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSFavourite.#ctor
+  - CRMScript.NetServer.NSFavourite.GetAssociateId()
+  - CRMScript.NetServer.NSFavourite.GetExtraInfo()
+  - CRMScript.NetServer.NSFavourite.GetRank()
+  - CRMScript.NetServer.NSFavourite.GetRecordId()
+  - CRMScript.NetServer.NSFavourite.GetTableName()
+  - CRMScript.NetServer.NSFavourite.SetAssociateId(Integer)
+  - CRMScript.NetServer.NSFavourite.SetExtraInfo(String)
+  - CRMScript.NetServer.NSFavourite.SetRank(Integer)
+  - CRMScript.NetServer.NSFavourite.SetRecordId(Integer)
+  - CRMScript.NetServer.NSFavourite.SetTableName(String)
+  name: NSFavourite
+  nameWithType: NSFavourite
+  fullName: CRMScript.NetServer.NSFavourite
+  type: Class
+  summary: "\nFavourite carrier.\n"
+  example: 
+- uid: CRMScript.NetServer.NSFavourite.#ctor
+  commentId: M:CRMScript.NetServer.NSFavourite.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSFavourite
+  langs:
+  - crmscript
+  name: NSFavourite()
+  nameWithType: NSFavourite.#ctor
+  fullName: CRMScript.NetServer.NSFavourite.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSFavourite class.\n"
+  remarks: 
+  syntax: 
+    content: NSFavourite
+  example: 
+- uid: CRMScript.NetServer.NSFavourite.GetAssociateId()
+  commentId: M:CRMScript.NetServer.NSFavourite.GetAssociateId()
+  id: 'GetAssociateId()'
+  so.intellisense: NSFavourite.GetAssociateId
+  langs:
+  - crmscript
+  name: 'GetAssociateId()'
+  nameWithType: NSFavourite.GetAssociateId()
+  fullName: CRMScript.NetServer.NSFavourite.GetAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of the associate this favorite belongs to."
+  example: 
+  - "\n<pre><code>NSFavourite thing;\nInteger associateId = thing.GetAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFavourite.GetExtraInfo()
+  commentId: M:CRMScript.NetServer.NSFavourite.GetExtraInfo()
+  id: 'GetExtraInfo()'
+  so.intellisense: NSFavourite.GetExtraInfo
+  langs:
+  - crmscript
+  name: 'GetExtraInfo()'
+  nameWithType: NSFavourite.GetExtraInfo()
+  fullName: CRMScript.NetServer.NSFavourite.GetExtraInfo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExtraInfo()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Extra information for this favorite."
+  example: 
+  - "\n<pre><code>NSFavourite thing;\nString extraInfo = thing.GetExtraInfo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFavourite.GetRank()
+  commentId: M:CRMScript.NetServer.NSFavourite.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSFavourite.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSFavourite.GetRank()
+  fullName: CRMScript.NetServer.NSFavourite.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Rank order."
+  example: 
+  - "\n<pre><code>NSFavourite thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFavourite.GetRecordId()
+  commentId: M:CRMScript.NetServer.NSFavourite.GetRecordId()
+  id: 'GetRecordId()'
+  so.intellisense: NSFavourite.GetRecordId
+  langs:
+  - crmscript
+  name: 'GetRecordId()'
+  nameWithType: NSFavourite.GetRecordId()
+  fullName: CRMScript.NetServer.NSFavourite.GetRecordId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRecordId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of the record this favorite belongs to."
+  example: 
+  - "\n<pre><code>NSFavourite thing;\nInteger recordId = thing.GetRecordId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFavourite.GetTableName()
+  commentId: M:CRMScript.NetServer.NSFavourite.GetTableName()
+  id: 'GetTableName()'
+  so.intellisense: NSFavourite.GetTableName
+  langs:
+  - crmscript
+  name: 'GetTableName()'
+  nameWithType: NSFavourite.GetTableName()
+  fullName: CRMScript.NetServer.NSFavourite.GetTableName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTableName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of the table this favorite belongs to."
+  example: 
+  - "\n<pre><code>NSFavourite thing;\nString tableName = thing.GetTableName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFavourite.SetAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSFavourite.SetAssociateId(Integer)
+  id: 'SetAssociateId(Integer)'
+  so.intellisense: NSFavourite.SetAssociateId
+  langs:
+  - crmscript
+  name: 'SetAssociateId(Integer)'
+  nameWithType: NSFavourite.SetAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSFavourite.SetAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAssociateId(Integer associateId)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: "ID of the associate this favorite belongs to."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFavourite thing;\nInteger associateId;\nthing.SetAssociateId(associateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFavourite.SetExtraInfo(String)
+  commentId: M:CRMScript.NetServer.NSFavourite.SetExtraInfo(String)
+  id: 'SetExtraInfo(String)'
+  so.intellisense: NSFavourite.SetExtraInfo
+  langs:
+  - crmscript
+  name: 'SetExtraInfo(String)'
+  nameWithType: NSFavourite.SetExtraInfo(String)
+  fullName: CRMScript.NetServer.NSFavourite.SetExtraInfo(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraInfo(String extraInfo)
+    parameters:
+    - id: extraInfo
+      type: CRMScript.Global.String
+      description: "Extra information for this favorite."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFavourite thing;\nString extraInfo;\nthing.SetExtraInfo(extraInfo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFavourite.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSFavourite.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSFavourite.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSFavourite.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSFavourite.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "Rank order."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFavourite thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFavourite.SetRecordId(Integer)
+  commentId: M:CRMScript.NetServer.NSFavourite.SetRecordId(Integer)
+  id: 'SetRecordId(Integer)'
+  so.intellisense: NSFavourite.SetRecordId
+  langs:
+  - crmscript
+  name: 'SetRecordId(Integer)'
+  nameWithType: NSFavourite.SetRecordId(Integer)
+  fullName: CRMScript.NetServer.NSFavourite.SetRecordId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRecordId(Integer recordId)
+    parameters:
+    - id: recordId
+      type: CRMScript.Global.Integer
+      description: "ID of the record this favorite belongs to."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFavourite thing;\nInteger recordId;\nthing.SetRecordId(recordId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSFavourite.SetTableName(String)
+  commentId: M:CRMScript.NetServer.NSFavourite.SetTableName(String)
+  id: 'SetTableName(String)'
+  so.intellisense: NSFavourite.SetTableName
+  langs:
+  - crmscript
+  name: 'SetTableName(String)'
+  nameWithType: NSFavourite.SetTableName(String)
+  fullName: CRMScript.NetServer.NSFavourite.SetTableName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTableName(String tableName)
+    parameters:
+    - id: tableName
+      type: CRMScript.Global.String
+      description: "Name of the table this favorite belongs to."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFavourite thing;\nString tableName;\nthing.SetTableName(tableName);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSFavourite
+  commentId: T:CRMScript.NetServer.NSFavourite
+  isExternal: true
+  name: NSFavourite
+  nameWithType: NSFavourite
+  fullName: CRMScript.NetServer.NSFavourite
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

@@ -1,0 +1,665 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSWebhook
+  commentId: T:CRMScript.NetServer.NSWebhook
+  id: NSWebhook
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSWebhook.#ctor
+  - CRMScript.NetServer.NSWebhook.GetEvents()
+  - CRMScript.NetServer.NSWebhook.GetHeaders()
+  - CRMScript.NetServer.NSWebhook.GetName()
+  - CRMScript.NetServer.NSWebhook.GetProperties()
+  - CRMScript.NetServer.NSWebhook.GetRegistered()
+  - CRMScript.NetServer.NSWebhook.GetRegisteredAssociate()
+  - CRMScript.NetServer.NSWebhook.GetSecret()
+  - CRMScript.NetServer.NSWebhook.GetState()
+  - CRMScript.NetServer.NSWebhook.GetTargetUrl()
+  - CRMScript.NetServer.NSWebhook.GetType()
+  - CRMScript.NetServer.NSWebhook.GetUpdated()
+  - CRMScript.NetServer.NSWebhook.GetUpdatedAssociate()
+  - CRMScript.NetServer.NSWebhook.GetWebhookId()
+  - CRMScript.NetServer.NSWebhook.SetEvents(String[])
+  - CRMScript.NetServer.NSWebhook.SetHeaders(Map)
+  - CRMScript.NetServer.NSWebhook.SetName(String)
+  - CRMScript.NetServer.NSWebhook.SetProperties(Map)
+  - CRMScript.NetServer.NSWebhook.SetRegistered(DateTime)
+  - CRMScript.NetServer.NSWebhook.SetRegisteredAssociate(NSAssociate)
+  - CRMScript.NetServer.NSWebhook.SetSecret(String)
+  - CRMScript.NetServer.NSWebhook.SetState(Integer)
+  - CRMScript.NetServer.NSWebhook.SetTargetUrl(String)
+  - CRMScript.NetServer.NSWebhook.SetType(String)
+  - CRMScript.NetServer.NSWebhook.SetUpdated(DateTime)
+  - CRMScript.NetServer.NSWebhook.SetUpdatedAssociate(NSAssociate)
+  - CRMScript.NetServer.NSWebhook.SetWebhookId(Integer)
+  name: NSWebhook
+  nameWithType: NSWebhook
+  fullName: CRMScript.NetServer.NSWebhook
+  type: Class
+  summary: "\nnWebhook definitions. Webhooks broadcast events from NetServer to remote servers.\n"
+  example: 
+- uid: CRMScript.NetServer.NSWebhook.#ctor
+  commentId: M:CRMScript.NetServer.NSWebhook.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSWebhook
+  langs:
+  - crmscript
+  name: NSWebhook()
+  nameWithType: NSWebhook.#ctor
+  fullName: CRMScript.NetServer.NSWebhook.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSWebhook class.\n"
+  remarks: 
+  syntax: 
+    content: NSWebhook
+  example: 
+- uid: CRMScript.NetServer.NSWebhook.GetEvents()
+  commentId: M:CRMScript.NetServer.NSWebhook.GetEvents()
+  id: 'GetEvents()'
+  so.intellisense: NSWebhook.GetEvents
+  langs:
+  - crmscript
+  name: 'GetEvents()'
+  nameWithType: NSWebhook.GetEvents()
+  fullName: CRMScript.NetServer.NSWebhook.GetEvents()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String[] GetEvents()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+      description: "Array of event names that trigger this webhook ['contact.created', 'sale.changed']"
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nString[] events = thing.GetEvents();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.GetHeaders()
+  commentId: M:CRMScript.NetServer.NSWebhook.GetHeaders()
+  id: 'GetHeaders()'
+  so.intellisense: NSWebhook.GetHeaders
+  langs:
+  - crmscript
+  name: 'GetHeaders()'
+  nameWithType: NSWebhook.GetHeaders()
+  fullName: CRMScript.NetServer.NSWebhook.GetHeaders()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Map GetHeaders()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description: "Custom HTTP Headers to add to webhook requests."
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nMap headers = thing.GetHeaders();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.GetName()
+  commentId: M:CRMScript.NetServer.NSWebhook.GetName()
+  id: 'GetName()'
+  so.intellisense: NSWebhook.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSWebhook.GetName()
+  fullName: CRMScript.NetServer.NSWebhook.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name to identify this webhook. Does not have to be unique."
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.GetProperties()
+  commentId: M:CRMScript.NetServer.NSWebhook.GetProperties()
+  id: 'GetProperties()'
+  so.intellisense: NSWebhook.GetProperties
+  langs:
+  - crmscript
+  name: 'GetProperties()'
+  nameWithType: NSWebhook.GetProperties()
+  fullName: CRMScript.NetServer.NSWebhook.GetProperties()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Map GetProperties()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description: "Custom values to inject into JSON body of webhook call."
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nMap properties = thing.GetProperties();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.GetRegistered()
+  commentId: M:CRMScript.NetServer.NSWebhook.GetRegistered()
+  id: 'GetRegistered()'
+  so.intellisense: NSWebhook.GetRegistered
+  langs:
+  - crmscript
+  name: 'GetRegistered()'
+  nameWithType: NSWebhook.GetRegistered()
+  fullName: CRMScript.NetServer.NSWebhook.GetRegistered()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetRegistered()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nDateTime registered = thing.GetRegistered();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.GetRegisteredAssociate()
+  commentId: M:CRMScript.NetServer.NSWebhook.GetRegisteredAssociate()
+  id: 'GetRegisteredAssociate()'
+  so.intellisense: NSWebhook.GetRegisteredAssociate
+  langs:
+  - crmscript
+  name: 'GetRegisteredAssociate()'
+  nameWithType: NSWebhook.GetRegisteredAssociate()
+  fullName: CRMScript.NetServer.NSWebhook.GetRegisteredAssociate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetRegisteredAssociate()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "The user that created the webhook."
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nNSAssociate registeredAssociate = thing.GetRegisteredAssociate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.GetSecret()
+  commentId: M:CRMScript.NetServer.NSWebhook.GetSecret()
+  id: 'GetSecret()'
+  so.intellisense: NSWebhook.GetSecret
+  langs:
+  - crmscript
+  name: 'GetSecret()'
+  nameWithType: NSWebhook.GetSecret()
+  fullName: CRMScript.NetServer.NSWebhook.GetSecret()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetSecret()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Shared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server."
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nString secret = thing.GetSecret();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.GetState()
+  commentId: M:CRMScript.NetServer.NSWebhook.GetState()
+  id: 'GetState()'
+  so.intellisense: NSWebhook.GetState
+  langs:
+  - crmscript
+  name: 'GetState()'
+  nameWithType: NSWebhook.GetState()
+  fullName: CRMScript.NetServer.NSWebhook.GetState()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetState()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Webhook status, should we post events to the URL? See <xref href=\"CRMScript.NetServer.WebhookState\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nInteger state = thing.GetState();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.GetTargetUrl()
+  commentId: M:CRMScript.NetServer.NSWebhook.GetTargetUrl()
+  id: 'GetTargetUrl()'
+  so.intellisense: NSWebhook.GetTargetUrl
+  langs:
+  - crmscript
+  name: 'GetTargetUrl()'
+  nameWithType: NSWebhook.GetTargetUrl()
+  fullName: CRMScript.NetServer.NSWebhook.GetTargetUrl()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTargetUrl()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Destination to POST event info to. URL for webhooks. ID for CRM scripts."
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nString targetUrl = thing.GetTargetUrl();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.GetType()
+  commentId: M:CRMScript.NetServer.NSWebhook.GetType()
+  id: 'GetType()'
+  so.intellisense: NSWebhook.GetType
+  langs:
+  - crmscript
+  name: 'GetType()'
+  nameWithType: NSWebhook.GetType()
+  fullName: CRMScript.NetServer.NSWebhook.GetType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetType()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of plugin that handles this webhook. 'webhook' for webhooks, which are handled by the system plugin."
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nString type = thing.GetType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.GetUpdated()
+  commentId: M:CRMScript.NetServer.NSWebhook.GetUpdated()
+  id: 'GetUpdated()'
+  so.intellisense: NSWebhook.GetUpdated
+  langs:
+  - crmscript
+  name: 'GetUpdated()'
+  nameWithType: NSWebhook.GetUpdated()
+  fullName: CRMScript.NetServer.NSWebhook.GetUpdated()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetUpdated()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nDateTime updated = thing.GetUpdated();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.GetUpdatedAssociate()
+  commentId: M:CRMScript.NetServer.NSWebhook.GetUpdatedAssociate()
+  id: 'GetUpdatedAssociate()'
+  so.intellisense: NSWebhook.GetUpdatedAssociate
+  langs:
+  - crmscript
+  name: 'GetUpdatedAssociate()'
+  nameWithType: NSWebhook.GetUpdatedAssociate()
+  fullName: CRMScript.NetServer.NSWebhook.GetUpdatedAssociate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAssociate GetUpdatedAssociate()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "The user that last updated the webhook."
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nNSAssociate updatedAssociate = thing.GetUpdatedAssociate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.GetWebhookId()
+  commentId: M:CRMScript.NetServer.NSWebhook.GetWebhookId()
+  id: 'GetWebhookId()'
+  so.intellisense: NSWebhook.GetWebhookId
+  langs:
+  - crmscript
+  name: 'GetWebhookId()'
+  nameWithType: NSWebhook.GetWebhookId()
+  fullName: CRMScript.NetServer.NSWebhook.GetWebhookId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetWebhookId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary Key. Unique id for this webhook."
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nInteger webhookId = thing.GetWebhookId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.SetEvents(String[])
+  commentId: M:CRMScript.NetServer.NSWebhook.SetEvents(String[])
+  id: 'SetEvents(String[])'
+  so.intellisense: NSWebhook.SetEvents
+  langs:
+  - crmscript
+  name: 'SetEvents(String[])'
+  nameWithType: NSWebhook.SetEvents(String[])
+  fullName: CRMScript.NetServer.NSWebhook.SetEvents(String[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEvents(String[] events)
+    parameters:
+    - id: events
+      type: CRMScript.Global.String[]
+      description: "Array of event names that trigger this webhook ['contact.created', 'sale.changed']"
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nString[] events;\nthing.SetEvents(events);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.SetHeaders(Map)
+  commentId: M:CRMScript.NetServer.NSWebhook.SetHeaders(Map)
+  id: 'SetHeaders(Map)'
+  so.intellisense: NSWebhook.SetHeaders
+  langs:
+  - crmscript
+  name: 'SetHeaders(Map)'
+  nameWithType: NSWebhook.SetHeaders(Map)
+  fullName: CRMScript.NetServer.NSWebhook.SetHeaders(Map)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetHeaders(Map headers)
+    parameters:
+    - id: headers
+      type: CRMScript.Native.Map
+      description: "Custom HTTP Headers to add to webhook requests."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nMap headers;\nthing.SetHeaders(headers);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.SetName(String)
+  commentId: M:CRMScript.NetServer.NSWebhook.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSWebhook.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSWebhook.SetName(String)
+  fullName: CRMScript.NetServer.NSWebhook.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Name to identify this webhook. Does not have to be unique."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.SetProperties(Map)
+  commentId: M:CRMScript.NetServer.NSWebhook.SetProperties(Map)
+  id: 'SetProperties(Map)'
+  so.intellisense: NSWebhook.SetProperties
+  langs:
+  - crmscript
+  name: 'SetProperties(Map)'
+  nameWithType: NSWebhook.SetProperties(Map)
+  fullName: CRMScript.NetServer.NSWebhook.SetProperties(Map)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProperties(Map properties)
+    parameters:
+    - id: properties
+      type: CRMScript.Native.Map
+      description: "Custom values to inject into JSON body of webhook call."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nMap properties;\nthing.SetProperties(properties);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.SetRegistered(DateTime)
+  commentId: M:CRMScript.NetServer.NSWebhook.SetRegistered(DateTime)
+  id: 'SetRegistered(DateTime)'
+  so.intellisense: NSWebhook.SetRegistered
+  langs:
+  - crmscript
+  name: 'SetRegistered(DateTime)'
+  nameWithType: NSWebhook.SetRegistered(DateTime)
+  fullName: CRMScript.NetServer.NSWebhook.SetRegistered(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRegistered(DateTime registered)
+    parameters:
+    - id: registered
+      type: CRMScript.Global.DateTime
+      description: "Registered when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nDateTime registered;\nthing.SetRegistered(registered);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.SetRegisteredAssociate(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSWebhook.SetRegisteredAssociate(NSAssociate)
+  id: 'SetRegisteredAssociate(NSAssociate)'
+  so.intellisense: NSWebhook.SetRegisteredAssociate
+  langs:
+  - crmscript
+  name: 'SetRegisteredAssociate(NSAssociate)'
+  nameWithType: NSWebhook.SetRegisteredAssociate(NSAssociate)
+  fullName: CRMScript.NetServer.NSWebhook.SetRegisteredAssociate(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRegisteredAssociate(NSAssociate registeredAssociate)
+    parameters:
+    - id: registeredAssociate
+      type: CRMScript.NetServer.NSAssociate
+      description: "The user that created the webhook."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nNSAssociate registeredAssociate;\nthing.SetRegisteredAssociate(registeredAssociate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.SetSecret(String)
+  commentId: M:CRMScript.NetServer.NSWebhook.SetSecret(String)
+  id: 'SetSecret(String)'
+  so.intellisense: NSWebhook.SetSecret
+  langs:
+  - crmscript
+  name: 'SetSecret(String)'
+  nameWithType: NSWebhook.SetSecret(String)
+  fullName: CRMScript.NetServer.NSWebhook.SetSecret(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSecret(String secret)
+    parameters:
+    - id: secret
+      type: CRMScript.Global.String
+      description: "Shared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nString secret;\nthing.SetSecret(secret);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.SetState(Integer)
+  commentId: M:CRMScript.NetServer.NSWebhook.SetState(Integer)
+  id: 'SetState(Integer)'
+  so.intellisense: NSWebhook.SetState
+  langs:
+  - crmscript
+  name: 'SetState(Integer)'
+  nameWithType: NSWebhook.SetState(Integer)
+  fullName: CRMScript.NetServer.NSWebhook.SetState(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetState(Integer state)
+    parameters:
+    - id: state
+      type: CRMScript.Global.Integer
+      description: "Webhook status. Should we post events to the URL? See <xref href=\"CRMScript.NetServer.WebhookState\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nInteger state;\nthing.SetState(state);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.SetTargetUrl(String)
+  commentId: M:CRMScript.NetServer.NSWebhook.SetTargetUrl(String)
+  id: 'SetTargetUrl(String)'
+  so.intellisense: NSWebhook.SetTargetUrl
+  langs:
+  - crmscript
+  name: 'SetTargetUrl(String)'
+  nameWithType: NSWebhook.SetTargetUrl(String)
+  fullName: CRMScript.NetServer.NSWebhook.SetTargetUrl(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTargetUrl(String targetUrl)
+    parameters:
+    - id: targetUrl
+      type: CRMScript.Global.String
+      description: "Destination to POST event info to. URL for webhooks. ID for CRM scripts."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nString targetUrl;\nthing.SetTargetUrl(targetUrl);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.SetType(String)
+  commentId: M:CRMScript.NetServer.NSWebhook.SetType(String)
+  id: 'SetType(String)'
+  so.intellisense: NSWebhook.SetType
+  langs:
+  - crmscript
+  name: 'SetType(String)'
+  nameWithType: NSWebhook.SetType(String)
+  fullName: CRMScript.NetServer.NSWebhook.SetType(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetType(String type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.String
+      description: "Name of plugin that handles this webhook. 'webhook' for webhooks, which are handled by the system plugin."
+    return: 
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nString type;\nthing.SetType(type);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.SetUpdated(DateTime)
+  commentId: M:CRMScript.NetServer.NSWebhook.SetUpdated(DateTime)
+  id: 'SetUpdated(DateTime)'
+  so.intellisense: NSWebhook.SetUpdated
+  langs:
+  - crmscript
+  name: 'SetUpdated(DateTime)'
+  nameWithType: NSWebhook.SetUpdated(DateTime)
+  fullName: CRMScript.NetServer.NSWebhook.SetUpdated(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdated(DateTime updated)
+    parameters:
+    - id: updated
+      type: CRMScript.Global.DateTime
+      description: "Last updated when."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nDateTime updated;\nthing.SetUpdated(updated);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.SetUpdatedAssociate(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSWebhook.SetUpdatedAssociate(NSAssociate)
+  id: 'SetUpdatedAssociate(NSAssociate)'
+  so.intellisense: NSWebhook.SetUpdatedAssociate
+  langs:
+  - crmscript
+  name: 'SetUpdatedAssociate(NSAssociate)'
+  nameWithType: NSWebhook.SetUpdatedAssociate(NSAssociate)
+  fullName: CRMScript.NetServer.NSWebhook.SetUpdatedAssociate(NSAssociate)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUpdatedAssociate(NSAssociate updatedAssociate)
+    parameters:
+    - id: updatedAssociate
+      type: CRMScript.NetServer.NSAssociate
+      description: "The user that last updated the webhook."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nNSAssociate updatedAssociate;\nthing.SetUpdatedAssociate(updatedAssociate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWebhook.SetWebhookId(Integer)
+  commentId: M:CRMScript.NetServer.NSWebhook.SetWebhookId(Integer)
+  id: 'SetWebhookId(Integer)'
+  so.intellisense: NSWebhook.SetWebhookId
+  langs:
+  - crmscript
+  name: 'SetWebhookId(Integer)'
+  nameWithType: NSWebhook.SetWebhookId(Integer)
+  fullName: CRMScript.NetServer.NSWebhook.SetWebhookId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWebhookId(Integer webhookId)
+    parameters:
+    - id: webhookId
+      type: CRMScript.Global.Integer
+      description: "Primary Key. Unique ID for this webhook."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSWebhook thing;\nInteger webhookId;\nthing.SetWebhookId(webhookId);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSWebhook
+  commentId: T:CRMScript.NetServer.NSWebhook
+  isExternal: true
+  name: NSWebhook
+  nameWithType: NSWebhook
+  fullName: CRMScript.NetServer.NSWebhook
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    isExternal: true
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Native.Map
+  commentId: T:CRMScript.Native.Map
+  isExternal: true
+  name: Map
+  nameWithType: Map
+  fullName: CRMScript.Native.Map
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.NetServer.NSAssociate
+  commentId: T:CRMScript.NetServer.NSAssociate
+  isExternal: true
+  name: NSAssociate
+  nameWithType: NSAssociate
+  fullName: CRMScript.NetServer.NSAssociate
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.WebhookState
+  commentId: T:CRMScript.NetServer.WebhookState
+  isExternal: true
+  name: WebhookState
+  nameWithType: WebhookState
+  fullName: CRMScript.NetServer.WebhookState

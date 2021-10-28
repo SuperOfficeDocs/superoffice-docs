@@ -1,0 +1,747 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters
+  commentId: T:CRMScript.NetServer.NSTemplateVariablesParameters
+  id: NSTemplateVariablesParameters
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSTemplateVariablesParameters.#ctor
+  - CRMScript.NetServer.NSTemplateVariablesParameters.GetAppointmentId()
+  - CRMScript.NetServer.NSTemplateVariablesParameters.GetContactId()
+  - CRMScript.NetServer.NSTemplateVariablesParameters.GetCultureName()
+  - CRMScript.NetServer.NSTemplateVariablesParameters.GetCustomTags()
+  - CRMScript.NetServer.NSTemplateVariablesParameters.GetDocumentEntity()
+  - CRMScript.NetServer.NSTemplateVariablesParameters.GetDocumentId()
+  - CRMScript.NetServer.NSTemplateVariablesParameters.GetEncoding()
+  - CRMScript.NetServer.NSTemplateVariablesParameters.GetPersonId()
+  - CRMScript.NetServer.NSTemplateVariablesParameters.GetProductKey()
+  - CRMScript.NetServer.NSTemplateVariablesParameters.GetProjectId()
+  - CRMScript.NetServer.NSTemplateVariablesParameters.GetQuoteAlternativeId()
+  - CRMScript.NetServer.NSTemplateVariablesParameters.GetQuoteLineId()
+  - CRMScript.NetServer.NSTemplateVariablesParameters.GetSaleId()
+  - CRMScript.NetServer.NSTemplateVariablesParameters.GetSelectionId()
+  - CRMScript.NetServer.NSTemplateVariablesParameters.GetSourceInput()
+  - CRMScript.NetServer.NSTemplateVariablesParameters.SetAppointmentId(Integer)
+  - CRMScript.NetServer.NSTemplateVariablesParameters.SetContactId(Integer)
+  - CRMScript.NetServer.NSTemplateVariablesParameters.SetCultureName(String)
+  - CRMScript.NetServer.NSTemplateVariablesParameters.SetCustomTags(String[])
+  - CRMScript.NetServer.NSTemplateVariablesParameters.SetDocumentEntity(NSDocumentEntity)
+  - CRMScript.NetServer.NSTemplateVariablesParameters.SetDocumentId(Integer)
+  - CRMScript.NetServer.NSTemplateVariablesParameters.SetEncoding(Integer)
+  - CRMScript.NetServer.NSTemplateVariablesParameters.SetPersonId(Integer)
+  - CRMScript.NetServer.NSTemplateVariablesParameters.SetProductKey(String)
+  - CRMScript.NetServer.NSTemplateVariablesParameters.SetProjectId(Integer)
+  - CRMScript.NetServer.NSTemplateVariablesParameters.SetQuoteAlternativeId(Integer)
+  - CRMScript.NetServer.NSTemplateVariablesParameters.SetQuoteLineId(Integer)
+  - CRMScript.NetServer.NSTemplateVariablesParameters.SetSaleId(Integer)
+  - CRMScript.NetServer.NSTemplateVariablesParameters.SetSelectionId(Integer)
+  - CRMScript.NetServer.NSTemplateVariablesParameters.SetSourceInput(String)
+  name: NSTemplateVariablesParameters
+  nameWithType: NSTemplateVariablesParameters
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters
+  type: Class
+  summary: "\nParameters specifying source and properties for template variable substitution.\n"
+  example: 
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.#ctor
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSTemplateVariablesParameters
+  langs:
+  - crmscript
+  name: NSTemplateVariablesParameters()
+  nameWithType: NSTemplateVariablesParameters.#ctor
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSTemplateVariablesParameters class.\n"
+  remarks: 
+  syntax: 
+    content: NSTemplateVariablesParameters
+  example: 
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.GetAppointmentId()
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetAppointmentId()
+  id: 'GetAppointmentId()'
+  so.intellisense: NSTemplateVariablesParameters.GetAppointmentId
+  langs:
+  - crmscript
+  name: 'GetAppointmentId()'
+  nameWithType: NSTemplateVariablesParameters.GetAppointmentId()
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.GetAppointmentId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAppointmentId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Identifier for an appointment."
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nInteger appointmentId = thing.GetAppointmentId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.GetContactId()
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetContactId()
+  id: 'GetContactId()'
+  so.intellisense: NSTemplateVariablesParameters.GetContactId
+  langs:
+  - crmscript
+  name: 'GetContactId()'
+  nameWithType: NSTemplateVariablesParameters.GetContactId()
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.GetContactId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetContactId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Identifier for a contact."
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nInteger contactId = thing.GetContactId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.GetCultureName()
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetCultureName()
+  id: 'GetCultureName()'
+  so.intellisense: NSTemplateVariablesParameters.GetCultureName
+  langs:
+  - crmscript
+  name: 'GetCultureName()'
+  nameWithType: NSTemplateVariablesParameters.GetCultureName()
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.GetCultureName()
+  type: Method
+  summary: # TODO
+  remarks: "\nUse a blank string to accept current culture that is set on the server.\n"
+  syntax: 
+    content: String GetCultureName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of culture to be used for culture-sensitive data, such as dates or multi-language texts."
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nString cultureName = thing.GetCultureName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.GetCustomTags()
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetCustomTags()
+  id: 'GetCustomTags()'
+  so.intellisense: NSTemplateVariablesParameters.GetCustomTags
+  langs:
+  - crmscript
+  name: 'GetCustomTags()'
+  nameWithType: NSTemplateVariablesParameters.GetCustomTags()
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.GetCustomTags()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String[] GetCustomTags()
+    parameters: []
+    return:
+      type: CRMScript.Global.String[]
+      description: "Array with custom tags and values. Array may be of unlimited height, but need to be exactly 2 in width."
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nString[] customTags = thing.GetCustomTags();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.GetDocumentEntity()
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetDocumentEntity()
+  id: 'GetDocumentEntity()'
+  so.intellisense: NSTemplateVariablesParameters.GetDocumentEntity
+  langs:
+  - crmscript
+  name: 'GetDocumentEntity()'
+  nameWithType: NSTemplateVariablesParameters.GetDocumentEntity()
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.GetDocumentEntity()
+  type: Method
+  summary: # TODO
+  remarks: "\nUseful for unsaved data.  NSDocumentEntity.DocumentId need to match the DocumentId specified in separate property.\n"
+  syntax: 
+    content: NSDocumentEntity GetDocumentEntity()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSDocumentEntity
+      description: "Custom document entity to use for data retrieval."
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nNSDocumentEntity documentEntity = thing.GetDocumentEntity();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.GetDocumentId()
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetDocumentId()
+  id: 'GetDocumentId()'
+  so.intellisense: NSTemplateVariablesParameters.GetDocumentId
+  langs:
+  - crmscript
+  name: 'GetDocumentId()'
+  nameWithType: NSTemplateVariablesParameters.GetDocumentId()
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.GetDocumentId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDocumentId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Identifier for a document."
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nInteger documentId = thing.GetDocumentId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.GetEncoding()
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetEncoding()
+  id: 'GetEncoding()'
+  so.intellisense: NSTemplateVariablesParameters.GetEncoding
+  langs:
+  - crmscript
+  name: 'GetEncoding()'
+  nameWithType: NSTemplateVariablesParameters.GetEncoding()
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.GetEncoding()
+  type: Method
+  summary: # TODO
+  remarks: "\nNon-text formats such as MsWord or Excel should be Base64 encoded in the source string.\n"
+  syntax: 
+    content: Integer GetEncoding()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Encoding of source string. See <xref href=\"CRMScript.NetServer.GeneratorEncoding\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nInteger encoding = thing.GetEncoding();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.GetPersonId()
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetPersonId()
+  id: 'GetPersonId()'
+  so.intellisense: NSTemplateVariablesParameters.GetPersonId
+  langs:
+  - crmscript
+  name: 'GetPersonId()'
+  nameWithType: NSTemplateVariablesParameters.GetPersonId()
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.GetPersonId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPersonId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Identifier for a person."
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nInteger personId = thing.GetPersonId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.GetProductKey()
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetProductKey()
+  id: 'GetProductKey()'
+  so.intellisense: NSTemplateVariablesParameters.GetProductKey
+  langs:
+  - crmscript
+  name: 'GetProductKey()'
+  nameWithType: NSTemplateVariablesParameters.GetProductKey()
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.GetProductKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetProductKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Product key."
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nString productKey = thing.GetProductKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.GetProjectId()
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetProjectId()
+  id: 'GetProjectId()'
+  so.intellisense: NSTemplateVariablesParameters.GetProjectId
+  langs:
+  - crmscript
+  name: 'GetProjectId()'
+  nameWithType: NSTemplateVariablesParameters.GetProjectId()
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.GetProjectId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetProjectId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Identifier for a project."
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nInteger projectId = thing.GetProjectId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.GetQuoteAlternativeId()
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetQuoteAlternativeId()
+  id: 'GetQuoteAlternativeId()'
+  so.intellisense: NSTemplateVariablesParameters.GetQuoteAlternativeId
+  langs:
+  - crmscript
+  name: 'GetQuoteAlternativeId()'
+  nameWithType: NSTemplateVariablesParameters.GetQuoteAlternativeId()
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.GetQuoteAlternativeId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetQuoteAlternativeId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Quote alternative Id."
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nInteger quoteAlternativeId = thing.GetQuoteAlternativeId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.GetQuoteLineId()
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetQuoteLineId()
+  id: 'GetQuoteLineId()'
+  so.intellisense: NSTemplateVariablesParameters.GetQuoteLineId
+  langs:
+  - crmscript
+  name: 'GetQuoteLineId()'
+  nameWithType: NSTemplateVariablesParameters.GetQuoteLineId()
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.GetQuoteLineId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetQuoteLineId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Quote line Id."
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nInteger quoteLineId = thing.GetQuoteLineId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.GetSaleId()
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetSaleId()
+  id: 'GetSaleId()'
+  so.intellisense: NSTemplateVariablesParameters.GetSaleId
+  langs:
+  - crmscript
+  name: 'GetSaleId()'
+  nameWithType: NSTemplateVariablesParameters.GetSaleId()
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.GetSaleId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSaleId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Identifier for a sale."
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nInteger saleId = thing.GetSaleId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.GetSelectionId()
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetSelectionId()
+  id: 'GetSelectionId()'
+  so.intellisense: NSTemplateVariablesParameters.GetSelectionId
+  langs:
+  - crmscript
+  name: 'GetSelectionId()'
+  nameWithType: NSTemplateVariablesParameters.GetSelectionId()
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.GetSelectionId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSelectionId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Identifier for a selection."
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nInteger selectionId = thing.GetSelectionId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.GetSourceInput()
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.GetSourceInput()
+  id: 'GetSourceInput()'
+  so.intellisense: NSTemplateVariablesParameters.GetSourceInput
+  langs:
+  - crmscript
+  name: 'GetSourceInput()'
+  nameWithType: NSTemplateVariablesParameters.GetSourceInput()
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.GetSourceInput()
+  type: Method
+  summary: # TODO
+  remarks: "\nSuch variables must have delimiters corresponding to the standard for the given generator encoding.Non-text source data (such as the binary content of a .doc file) should be passed in as Base64.\n"
+  syntax: 
+    content: String GetSourceInput()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Source string to parse for template variables."
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nString sourceInput = thing.GetSourceInput();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.SetAppointmentId(Integer)
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetAppointmentId(Integer)
+  id: 'SetAppointmentId(Integer)'
+  so.intellisense: NSTemplateVariablesParameters.SetAppointmentId
+  langs:
+  - crmscript
+  name: 'SetAppointmentId(Integer)'
+  nameWithType: NSTemplateVariablesParameters.SetAppointmentId(Integer)
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.SetAppointmentId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAppointmentId(Integer appointmentId)
+    parameters:
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: "Identifier for an appointment."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nInteger appointmentId;\nthing.SetAppointmentId(appointmentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.SetContactId(Integer)
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetContactId(Integer)
+  id: 'SetContactId(Integer)'
+  so.intellisense: NSTemplateVariablesParameters.SetContactId
+  langs:
+  - crmscript
+  name: 'SetContactId(Integer)'
+  nameWithType: NSTemplateVariablesParameters.SetContactId(Integer)
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.SetContactId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetContactId(Integer contactId)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: "Identifier for a contact."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nInteger contactId;\nthing.SetContactId(contactId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.SetCultureName(String)
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetCultureName(String)
+  id: 'SetCultureName(String)'
+  so.intellisense: NSTemplateVariablesParameters.SetCultureName
+  langs:
+  - crmscript
+  name: 'SetCultureName(String)'
+  nameWithType: NSTemplateVariablesParameters.SetCultureName(String)
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.SetCultureName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCultureName(String cultureName)
+    parameters:
+    - id: cultureName
+      type: CRMScript.Global.String
+      description: "Name of culture to be used for culture-sensitive data, such as dates or multi-language texts. Use a blank string to accept current culture that is set on the server."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nString cultureName;\nthing.SetCultureName(cultureName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.SetCustomTags(String[])
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetCustomTags(String[])
+  id: 'SetCustomTags(String[])'
+  so.intellisense: NSTemplateVariablesParameters.SetCustomTags
+  langs:
+  - crmscript
+  name: 'SetCustomTags(String[])'
+  nameWithType: NSTemplateVariablesParameters.SetCustomTags(String[])
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.SetCustomTags(String[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCustomTags(String[] customTags)
+    parameters:
+    - id: customTags
+      type: CRMScript.Global.String[]
+      description: "Array with custom tags and values. Array may be of unlimited height, but need to be exactly 2 in width."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nString[] customTags;\nthing.SetCustomTags(customTags);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.SetDocumentEntity(NSDocumentEntity)
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetDocumentEntity(NSDocumentEntity)
+  id: 'SetDocumentEntity(NSDocumentEntity)'
+  so.intellisense: NSTemplateVariablesParameters.SetDocumentEntity
+  langs:
+  - crmscript
+  name: 'SetDocumentEntity(NSDocumentEntity)'
+  nameWithType: NSTemplateVariablesParameters.SetDocumentEntity(NSDocumentEntity)
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.SetDocumentEntity(NSDocumentEntity)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDocumentEntity(NSDocumentEntity documentEntity)
+    parameters:
+    - id: documentEntity
+      type: CRMScript.NetServer.NSDocumentEntity
+      description: "Custom document entity to use for data retrieval. Useful for unsaved data.  NSDocumentEntity.DocumentId need to match the DocumentId specified in separate property."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nNSDocumentEntity documentEntity;\nthing.SetDocumentEntity(documentEntity);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.SetDocumentId(Integer)
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetDocumentId(Integer)
+  id: 'SetDocumentId(Integer)'
+  so.intellisense: NSTemplateVariablesParameters.SetDocumentId
+  langs:
+  - crmscript
+  name: 'SetDocumentId(Integer)'
+  nameWithType: NSTemplateVariablesParameters.SetDocumentId(Integer)
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.SetDocumentId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDocumentId(Integer documentId)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: "Identifier for a document."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nInteger documentId;\nthing.SetDocumentId(documentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.SetEncoding(Integer)
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetEncoding(Integer)
+  id: 'SetEncoding(Integer)'
+  so.intellisense: NSTemplateVariablesParameters.SetEncoding
+  langs:
+  - crmscript
+  name: 'SetEncoding(Integer)'
+  nameWithType: NSTemplateVariablesParameters.SetEncoding(Integer)
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.SetEncoding(Integer)
+  type: Method
+  summary: # TODO
+  remarks: "\nNon-text formats such as MsWord or Excel should be Base64 encoded in the source string.\n"
+  syntax: 
+    content: Void SetEncoding(Integer encoding)
+    parameters:
+    - id: encoding
+      type: CRMScript.Global.Integer
+      description: "Encoding of source string. See <xref href=\"CRMScript.NetServer.GeneratorEncoding\" data-throw-if-not-resolved=\"false\"></xref>."
+    return: 
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nInteger encoding;\nthing.SetEncoding(encoding);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.SetPersonId(Integer)
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetPersonId(Integer)
+  id: 'SetPersonId(Integer)'
+  so.intellisense: NSTemplateVariablesParameters.SetPersonId
+  langs:
+  - crmscript
+  name: 'SetPersonId(Integer)'
+  nameWithType: NSTemplateVariablesParameters.SetPersonId(Integer)
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.SetPersonId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPersonId(Integer personId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: "Identifier for a person."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nInteger personId;\nthing.SetPersonId(personId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.SetProductKey(String)
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetProductKey(String)
+  id: 'SetProductKey(String)'
+  so.intellisense: NSTemplateVariablesParameters.SetProductKey
+  langs:
+  - crmscript
+  name: 'SetProductKey(String)'
+  nameWithType: NSTemplateVariablesParameters.SetProductKey(String)
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.SetProductKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProductKey(String productKey)
+    parameters:
+    - id: productKey
+      type: CRMScript.Global.String
+      description: "Product key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nString productKey;\nthing.SetProductKey(productKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.SetProjectId(Integer)
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetProjectId(Integer)
+  id: 'SetProjectId(Integer)'
+  so.intellisense: NSTemplateVariablesParameters.SetProjectId
+  langs:
+  - crmscript
+  name: 'SetProjectId(Integer)'
+  nameWithType: NSTemplateVariablesParameters.SetProjectId(Integer)
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.SetProjectId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjectId(Integer projectId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: "Identifier for a project."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nInteger projectId;\nthing.SetProjectId(projectId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.SetQuoteAlternativeId(Integer)
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetQuoteAlternativeId(Integer)
+  id: 'SetQuoteAlternativeId(Integer)'
+  so.intellisense: NSTemplateVariablesParameters.SetQuoteAlternativeId
+  langs:
+  - crmscript
+  name: 'SetQuoteAlternativeId(Integer)'
+  nameWithType: NSTemplateVariablesParameters.SetQuoteAlternativeId(Integer)
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.SetQuoteAlternativeId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetQuoteAlternativeId(Integer quoteAlternativeId)
+    parameters:
+    - id: quoteAlternativeId
+      type: CRMScript.Global.Integer
+      description: "Quote alternative Id."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nInteger quoteAlternativeId;\nthing.SetQuoteAlternativeId(quoteAlternativeId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.SetQuoteLineId(Integer)
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetQuoteLineId(Integer)
+  id: 'SetQuoteLineId(Integer)'
+  so.intellisense: NSTemplateVariablesParameters.SetQuoteLineId
+  langs:
+  - crmscript
+  name: 'SetQuoteLineId(Integer)'
+  nameWithType: NSTemplateVariablesParameters.SetQuoteLineId(Integer)
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.SetQuoteLineId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetQuoteLineId(Integer quoteLineId)
+    parameters:
+    - id: quoteLineId
+      type: CRMScript.Global.Integer
+      description: "Quote line Id."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nInteger quoteLineId;\nthing.SetQuoteLineId(quoteLineId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.SetSaleId(Integer)
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetSaleId(Integer)
+  id: 'SetSaleId(Integer)'
+  so.intellisense: NSTemplateVariablesParameters.SetSaleId
+  langs:
+  - crmscript
+  name: 'SetSaleId(Integer)'
+  nameWithType: NSTemplateVariablesParameters.SetSaleId(Integer)
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.SetSaleId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSaleId(Integer saleId)
+    parameters:
+    - id: saleId
+      type: CRMScript.Global.Integer
+      description: "Identifier for a sale."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nInteger saleId;\nthing.SetSaleId(saleId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.SetSelectionId(Integer)
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetSelectionId(Integer)
+  id: 'SetSelectionId(Integer)'
+  so.intellisense: NSTemplateVariablesParameters.SetSelectionId
+  langs:
+  - crmscript
+  name: 'SetSelectionId(Integer)'
+  nameWithType: NSTemplateVariablesParameters.SetSelectionId(Integer)
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.SetSelectionId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSelectionId(Integer selectionId)
+    parameters:
+    - id: selectionId
+      type: CRMScript.Global.Integer
+      description: "Identifier for a selection."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nInteger selectionId;\nthing.SetSelectionId(selectionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters.SetSourceInput(String)
+  commentId: M:CRMScript.NetServer.NSTemplateVariablesParameters.SetSourceInput(String)
+  id: 'SetSourceInput(String)'
+  so.intellisense: NSTemplateVariablesParameters.SetSourceInput
+  langs:
+  - crmscript
+  name: 'SetSourceInput(String)'
+  nameWithType: NSTemplateVariablesParameters.SetSourceInput(String)
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters.SetSourceInput(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSourceInput(String sourceInput)
+    parameters:
+    - id: sourceInput
+      type: CRMScript.Global.String
+      description: "Source string to parse for template variables. Such variables must have delimiters corresponding to the standard for the given generator encoding.Non-text source data (such as the binary content of a .doc file) should be passed in as Base64."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTemplateVariablesParameters thing;\nString sourceInput;\nthing.SetSourceInput(sourceInput);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSTemplateVariablesParameters
+  commentId: T:CRMScript.NetServer.NSTemplateVariablesParameters
+  isExternal: true
+  name: NSTemplateVariablesParameters
+  nameWithType: NSTemplateVariablesParameters
+  fullName: CRMScript.NetServer.NSTemplateVariablesParameters
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    isExternal: true
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSDocumentEntity
+  commentId: T:CRMScript.NetServer.NSDocumentEntity
+  isExternal: true
+  name: NSDocumentEntity
+  nameWithType: NSDocumentEntity
+  fullName: CRMScript.NetServer.NSDocumentEntity
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.GeneratorEncoding
+  commentId: T:CRMScript.NetServer.GeneratorEncoding
+  isExternal: true
+  name: GeneratorEncoding
+  nameWithType: GeneratorEncoding
+  fullName: CRMScript.NetServer.GeneratorEncoding

@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSCheckoutInfo
+  commentId: T:CRMScript.NetServer.NSCheckoutInfo
+  id: NSCheckoutInfo
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSCheckoutInfo.#ctor
+  - CRMScript.NetServer.NSCheckoutInfo.GetAssociateId()
+  - CRMScript.NetServer.NSCheckoutInfo.GetName()
+  - CRMScript.NetServer.NSCheckoutInfo.GetState()
+  - CRMScript.NetServer.NSCheckoutInfo.SetAssociateId(Integer)
+  - CRMScript.NetServer.NSCheckoutInfo.SetName(String)
+  - CRMScript.NetServer.NSCheckoutInfo.SetState(Integer)
+  name: NSCheckoutInfo
+  nameWithType: NSCheckoutInfo
+  fullName: CRMScript.NetServer.NSCheckoutInfo
+  type: Class
+  summary: "\nInformation about the checked-out state of one document, describing whether it is checked out, and to whom.\n"
+  example: 
+- uid: CRMScript.NetServer.NSCheckoutInfo.#ctor
+  commentId: M:CRMScript.NetServer.NSCheckoutInfo.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSCheckoutInfo
+  langs:
+  - crmscript
+  name: NSCheckoutInfo()
+  nameWithType: NSCheckoutInfo.#ctor
+  fullName: CRMScript.NetServer.NSCheckoutInfo.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSCheckoutInfo class.\n"
+  remarks: 
+  syntax: 
+    content: NSCheckoutInfo
+  example: 
+- uid: CRMScript.NetServer.NSCheckoutInfo.GetAssociateId()
+  commentId: M:CRMScript.NetServer.NSCheckoutInfo.GetAssociateId()
+  id: 'GetAssociateId()'
+  so.intellisense: NSCheckoutInfo.GetAssociateId
+  langs:
+  - crmscript
+  name: 'GetAssociateId()'
+  nameWithType: NSCheckoutInfo.GetAssociateId()
+  fullName: CRMScript.NetServer.NSCheckoutInfo.GetAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of associate who has currently checked out the document; 0 if it is not checked out, or is checked out by someone who is not a SuperOffice user."
+  example: 
+  - "\n<pre><code>NSCheckoutInfo thing;\nInteger associateId = thing.GetAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCheckoutInfo.GetName()
+  commentId: M:CRMScript.NetServer.NSCheckoutInfo.GetName()
+  id: 'GetName()'
+  so.intellisense: NSCheckoutInfo.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSCheckoutInfo.GetName()
+  fullName: CRMScript.NetServer.NSCheckoutInfo.GetName()
+  type: Method
+  summary: # TODO
+  remarks: "\nThis property may also be blank if the AssociateId is nonzero; NetServer will retrieve the associates' name as needed.\n"
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of person who has currently checked out the document; blank if it is not checked out."
+  example: 
+  - "\n<pre><code>NSCheckoutInfo thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCheckoutInfo.GetState()
+  commentId: M:CRMScript.NetServer.NSCheckoutInfo.GetState()
+  id: 'GetState()'
+  so.intellisense: NSCheckoutInfo.GetState
+  langs:
+  - crmscript
+  name: 'GetState()'
+  nameWithType: NSCheckoutInfo.GetState()
+  fullName: CRMScript.NetServer.NSCheckoutInfo.GetState()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetState()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The checkout state. See <xref href=\"CRMScript.NetServer.CheckoutState\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSCheckoutInfo thing;\nInteger state = thing.GetState();</code></pre>\n"
+- uid: CRMScript.NetServer.NSCheckoutInfo.SetAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSCheckoutInfo.SetAssociateId(Integer)
+  id: 'SetAssociateId(Integer)'
+  so.intellisense: NSCheckoutInfo.SetAssociateId
+  langs:
+  - crmscript
+  name: 'SetAssociateId(Integer)'
+  nameWithType: NSCheckoutInfo.SetAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSCheckoutInfo.SetAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAssociateId(Integer associateId)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: "ID of associate who has currently checked out the document; 0 if it is not checked out, or is checked out by someone who is not a SuperOffice user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCheckoutInfo thing;\nInteger associateId;\nthing.SetAssociateId(associateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCheckoutInfo.SetName(String)
+  commentId: M:CRMScript.NetServer.NSCheckoutInfo.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSCheckoutInfo.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSCheckoutInfo.SetName(String)
+  fullName: CRMScript.NetServer.NSCheckoutInfo.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nThis property may also be blank if the AssociateId is nonzero; NetServer will retrieve the associates' name as needed.\n"
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Name of person who has currently checked out the document; blank if it is not checked out."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCheckoutInfo thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSCheckoutInfo.SetState(Integer)
+  commentId: M:CRMScript.NetServer.NSCheckoutInfo.SetState(Integer)
+  id: 'SetState(Integer)'
+  so.intellisense: NSCheckoutInfo.SetState
+  langs:
+  - crmscript
+  name: 'SetState(Integer)'
+  nameWithType: NSCheckoutInfo.SetState(Integer)
+  fullName: CRMScript.NetServer.NSCheckoutInfo.SetState(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetState(Integer state)
+    parameters:
+    - id: state
+      type: CRMScript.Global.Integer
+      description: "Checkout state. See <xref href=\"CRMScript.NetServer.CheckoutState\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSCheckoutInfo thing;\nInteger state;\nthing.SetState(state);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSCheckoutInfo
+  commentId: T:CRMScript.NetServer.NSCheckoutInfo
+  isExternal: true
+  name: NSCheckoutInfo
+  nameWithType: NSCheckoutInfo
+  fullName: CRMScript.NetServer.NSCheckoutInfo
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.CheckoutState
+  commentId: T:CRMScript.NetServer.CheckoutState
+  isExternal: true
+  name: CheckoutState
+  nameWithType: CheckoutState
+  fullName: CRMScript.NetServer.CheckoutState
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

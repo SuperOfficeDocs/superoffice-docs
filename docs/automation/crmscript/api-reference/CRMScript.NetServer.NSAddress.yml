@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSAddress
+  commentId: T:CRMScript.NetServer.NSAddress
+  id: NSAddress
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSAddress.#ctor
+  - CRMScript.NetServer.NSAddress.GetLocalizedAddress()
+  - CRMScript.NetServer.NSAddress.GetWgs84Latitude()
+  - CRMScript.NetServer.NSAddress.GetWgs84Longitude()
+  - CRMScript.NetServer.NSAddress.SetLocalizedAddress(NSLocalizedField[][])
+  - CRMScript.NetServer.NSAddress.SetWgs84Latitude(Float)
+  - CRMScript.NetServer.NSAddress.SetWgs84Longitude(Float)
+  name: NSAddress
+  nameWithType: NSAddress
+  fullName: CRMScript.NetServer.NSAddress
+  type: Class
+  summary: "\nCarrier object for Address.\n"
+  example: 
+- uid: CRMScript.NetServer.NSAddress.#ctor
+  commentId: M:CRMScript.NetServer.NSAddress.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSAddress
+  langs:
+  - crmscript
+  name: NSAddress()
+  nameWithType: NSAddress.#ctor
+  fullName: CRMScript.NetServer.NSAddress.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSAddress class.\n"
+  remarks: 
+  syntax: 
+    content: NSAddress
+  example: 
+- uid: CRMScript.NetServer.NSAddress.GetLocalizedAddress()
+  commentId: M:CRMScript.NetServer.NSAddress.GetLocalizedAddress()
+  id: 'GetLocalizedAddress()'
+  so.intellisense: NSAddress.GetLocalizedAddress
+  langs:
+  - crmscript
+  name: 'GetLocalizedAddress()'
+  nameWithType: NSAddress.GetLocalizedAddress()
+  fullName: CRMScript.NetServer.NSAddress.GetLocalizedAddress()
+  type: Method
+  summary: "\nNSLocalizedField[] is a list of LocalizedFieldList objects. Used to store localized information such as formatted address data.\n"
+  remarks: 
+  syntax: 
+    content: NSLocalizedField[][] GetLocalizedAddress()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSLocalizedField[][]
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSAddress.GetWgs84Latitude()
+  commentId: M:CRMScript.NetServer.NSAddress.GetWgs84Latitude()
+  id: 'GetWgs84Latitude()'
+  so.intellisense: NSAddress.GetWgs84Latitude
+  langs:
+  - crmscript
+  name: 'GetWgs84Latitude()'
+  nameWithType: NSAddress.GetWgs84Latitude()
+  fullName: CRMScript.NetServer.NSAddress.GetWgs84Latitude()
+  type: Method
+  summary: Latitude (that's north/south), decimal degrees, relative to WGS 84 ellipsoid. SuperOffice ASA is at 59.91892. This value needs no further grid reference or other qualifying information.
+  remarks: 
+  syntax: 
+    content: Float GetWgs84Latitude()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSAddress.GetWgs84Longitude()
+  commentId: M:CRMScript.NetServer.NSAddress.GetWgs84Longitude()
+  id: 'GetWgs84Longitude()'
+  so.intellisense: NSAddress.GetWgs84Longitude
+  langs:
+  - crmscript
+  name: 'GetWgs84Longitude()'
+  nameWithType: NSAddress.GetWgs84Longitude()
+  fullName: CRMScript.NetServer.NSAddress.GetWgs84Longitude()
+  type: Method
+  summary: Longitude (that's East/west), decimal degrees, relative to WGS 84 ellipsoid. SuperOffice ASA is at 10.73159. This value needs no further grid reference or other qualifying information.
+  remarks: 
+  syntax: 
+    content: Float GetWgs84Longitude()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSAddress.SetLocalizedAddress(NSLocalizedField[][])
+  commentId: M:CRMScript.NetServer.NSAddress.SetLocalizedAddress(NSLocalizedField[][])
+  id: 'SetLocalizedAddress(NSLocalizedField[][])'
+  so.intellisense: NSAddress.SetLocalizedAddress
+  langs:
+  - crmscript
+  name: 'SetLocalizedAddress(NSLocalizedField[][])'
+  nameWithType: NSAddress.SetLocalizedAddress(NSLocalizedField[][])
+  fullName: CRMScript.NetServer.NSAddress.SetLocalizedAddress(NSLocalizedField[][])
+  type: Method
+  summary: "\nNSLocalizedField[] is a list of LocalizedFieldList objects. Used to store localized information such as formatted address data.\n"
+  remarks: 
+  syntax: 
+    content: Void SetLocalizedAddress(NSLocalizedField[][] list)
+    parameters:
+    - id: list
+      type: CRMScript.NetServer.NSLocalizedField[][]
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSAddress.SetWgs84Latitude(Float)
+  commentId: M:CRMScript.NetServer.NSAddress.SetWgs84Latitude(Float)
+  id: 'SetWgs84Latitude(Float)'
+  so.intellisense: NSAddress.SetWgs84Latitude
+  langs:
+  - crmscript
+  name: 'SetWgs84Latitude(Float)'
+  nameWithType: NSAddress.SetWgs84Latitude(Float)
+  fullName: CRMScript.NetServer.NSAddress.SetWgs84Latitude(Float)
+  type: Method
+  summary: Latitude (that's north/south), decimal degrees, relative to WGS 84 ellipsoid. SuperOffice ASA is at 59.91892. This value needs no further grid reference or other qualifying information.
+  remarks: 
+  syntax: 
+    content: Void SetWgs84Latitude(Float latitude)
+    parameters:
+    - id: latitude
+      type: CRMScript.Global.Float
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSAddress.SetWgs84Longitude(Float)
+  commentId: M:CRMScript.NetServer.NSAddress.SetWgs84Longitude(Float)
+  id: 'SetWgs84Longitude(Float)'
+  so.intellisense: NSAddress.SetWgs84Longitude
+  langs:
+  - crmscript
+  name: 'SetWgs84Longitude(Float)'
+  nameWithType: NSAddress.SetWgs84Longitude(Float)
+  fullName: CRMScript.NetServer.NSAddress.SetWgs84Longitude(Float)
+  type: Method
+  summary: Longitude (that's East/west), decimal degrees, relative to WGS 84 ellipsoid. SuperOffice ASA is at 10.73159. This value needs no further grid reference or other qualifying information.
+  remarks: 
+  syntax: 
+    content: Void SetWgs84Longitude(Float longitude)
+    parameters:
+    - id: longitude
+      type: CRMScript.Global.Float
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSAddress
+  commentId: T:CRMScript.NetServer.NSAddress
+  isExternal: true
+  name: NSAddress
+  nameWithType: NSAddress
+  fullName: CRMScript.NetServer.NSAddress
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.Global.Float
+  commentId: T:CRMScript.Global.Float
+  isExternal: true
+  name: Float
+  nameWithType: Float
+  fullName: CRMScript.Global.Float
+- uid: CRMScript.NetServer.NSLocalizedField
+  commentId: T:CRMScript.NetServer.NSLocalizedField
+  isExternal: true
+  name: NSLocalizedField
+  nameWithType: NSLocalizedField
+  fullName: CRMScript.NetServer.NSLocalizedField
+- uid: CRMScript.NetServer.NSLocalizedField[]
+  commentId: T:CRMScript.NetServer.NSLocalizedField[]
+  isExternal: true
+  name: NSLocalizedField[]
+  nameWithType: NSLocalizedField[]
+  fullName: CRMScript.NetServer.NSLocalizedField[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSLocalizedField
+    commentId: T:CRMScript.NetServer.NSLocalizedField
+    isExternal: true
+    name: NSLocalizedField
+    nameWithType: NSLocalizedField
+    fullName: CRMScript.NetServer.NSLocalizedField
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSLocalizedField[][]
+  commentId: T:CRMScript.NetServer.NSLocalizedField[][]
+  isExternal: true
+  name: NSLocalizedField[][]
+  nameWithType: NSLocalizedField[][]
+  fullName: CRMScript.NetServer.NSLocalizedField[][]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSLocalizedField[]
+    commentId: T:CRMScript.NetServer.NSLocalizedField[]
+    isExternal: true
+    name: NSLocalizedField[]
+    nameWithType: NSLocalizedField[]
+    fullName: CRMScript.NetServer.NSLocalizedField[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSSaleType
+  commentId: T:CRMScript.NetServer.NSSaleType
+  id: NSSaleType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSSaleType.#ctor
+  - CRMScript.NetServer.NSSaleType.GetId()
+  - CRMScript.NetServer.NSSaleType.GetTooltip()
+  - CRMScript.NetServer.NSSaleType.GetValue()
+  - CRMScript.NetServer.NSSaleType.SetId(Integer)
+  - CRMScript.NetServer.NSSaleType.SetTooltip(String)
+  - CRMScript.NetServer.NSSaleType.SetValue(String)
+  name: NSSaleType
+  nameWithType: NSSaleType
+  fullName: CRMScript.NetServer.NSSaleType
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSSaleType.#ctor
+  commentId: M:CRMScript.NetServer.NSSaleType.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSSaleType
+  langs:
+  - crmscript
+  name: NSSaleType()
+  nameWithType: NSSaleType.#ctor
+  fullName: CRMScript.NetServer.NSSaleType.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSSaleType class.\n"
+  remarks: 
+  syntax: 
+    content: NSSaleType
+  example: 
+- uid: CRMScript.NetServer.NSSaleType.GetId()
+  commentId: M:CRMScript.NetServer.NSSaleType.GetId()
+  id: 'GetId()'
+  so.intellisense: NSSaleType.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSSaleType.GetId()
+  fullName: CRMScript.NetServer.NSSaleType.GetId()
+  type: Method
+  summary: "\nGets the primary key (ID) for the NSSaleType\n"
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSSaleType thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleType.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSSaleType.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSSaleType.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSSaleType.GetTooltip()
+  fullName: CRMScript.NetServer.NSSaleType.GetTooltip()
+  type: Method
+  summary: "\nGets the tooltip description for the NSSaleType list item.\n"
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSSaleType thing;\nString descr = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleType.GetValue()
+  commentId: M:CRMScript.NetServer.NSSaleType.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSSaleType.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSSaleType.GetValue()
+  fullName: CRMScript.NetServer.NSSaleType.GetValue()
+  type: Method
+  summary: "\nGets the name of the NSSaleType.\n"
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSSaleType thing;\nString name = thing.GetValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleType.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSSaleType.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSSaleType.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSSaleType.SetId(Integer)
+  fullName: CRMScript.NetServer.NSSaleType.SetId(Integer)
+  type: Method
+  summary: "\nSets the primary key (ID) for the NSSaleType\n"
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleType thing;\nthing.SetId(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleType.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSSaleType.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSSaleType.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSSaleType.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSSaleType.SetTooltip(String)
+  type: Method
+  summary: "\nSets the tooltip description for the NSSaleType list item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleType thing;\nString descr = &quot;something new&quot;;\nthing.SetTooltip(descr);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSaleType.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSSaleType.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSSaleType.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSSaleType.SetValue(String)
+  fullName: CRMScript.NetServer.NSSaleType.SetValue(String)
+  type: Method
+  summary: "\nSets the name of the NSSaleType item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSSaleType thing;\nthing.SetValue(&quot;frotz&quot;);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSSaleType
+  commentId: T:CRMScript.NetServer.NSSaleType
+  isExternal: true
+  name: NSSaleType
+  nameWithType: NSSaleType
+  fullName: CRMScript.NetServer.NSSaleType
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

@@ -1,0 +1,26 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Event
+  commentId: N:CRMScript.Event
+  id: CRMScript.Event
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Event.Trigger
+  name: CRMScript.Event
+  nameWithType: CRMScript.Event
+  fullName: CRMScript.Event
+  type: Namespace
+references:
+- uid: CRMScript.Event
+  commentId: N:CRMScript.Event
+  isExternal: true
+  name: CRMScript.Event
+  nameWithType: CRMScript.Event
+  fullName: CRMScript.Event
+- uid: CRMScript.Event.Trigger
+  commentId: T:CRMScript.Event.Trigger
+  isExternal: true
+  name: Trigger
+  nameWithType: Trigger
+  fullName: CRMScript.Event.Trigger

@@ -1,0 +1,555 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSMailMergeTask
+  commentId: T:CRMScript.NetServer.NSMailMergeTask
+  id: NSMailMergeTask
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSMailMergeTask.#ctor
+  - CRMScript.NetServer.NSMailMergeTask.GetCompleted()
+  - CRMScript.NetServer.NSMailMergeTask.GetDescription()
+  - CRMScript.NetServer.NSMailMergeTask.GetDuration()
+  - CRMScript.NetServer.NSMailMergeTask.GetOwnerAssociateId()
+  - CRMScript.NetServer.NSMailMergeTask.GetPriorityId()
+  - CRMScript.NetServer.NSMailMergeTask.GetProjectId()
+  - CRMScript.NetServer.NSMailMergeTask.GetSaleId()
+  - CRMScript.NetServer.NSMailMergeTask.GetSingleEntryOnEachCompany()
+  - CRMScript.NetServer.NSMailMergeTask.GetStartDate()
+  - CRMScript.NetServer.NSMailMergeTask.GetTypeId()
+  - CRMScript.NetServer.NSMailMergeTask.GetVisibleFor()
+  - CRMScript.NetServer.NSMailMergeTask.SetCompleted(Integer)
+  - CRMScript.NetServer.NSMailMergeTask.SetDescription(String)
+  - CRMScript.NetServer.NSMailMergeTask.SetDuration(Integer)
+  - CRMScript.NetServer.NSMailMergeTask.SetOwnerAssociateId(Integer)
+  - CRMScript.NetServer.NSMailMergeTask.SetPriorityId(Integer)
+  - CRMScript.NetServer.NSMailMergeTask.SetProjectId(Integer)
+  - CRMScript.NetServer.NSMailMergeTask.SetSaleId(Integer)
+  - CRMScript.NetServer.NSMailMergeTask.SetSingleEntryOnEachCompany(Bool)
+  - CRMScript.NetServer.NSMailMergeTask.SetStartDate(DateTime)
+  - CRMScript.NetServer.NSMailMergeTask.SetTypeId(Integer)
+  - CRMScript.NetServer.NSMailMergeTask.SetVisibleFor(NSVisibleFor)
+  name: NSMailMergeTask
+  nameWithType: NSMailMergeTask
+  fullName: CRMScript.NetServer.NSMailMergeTask
+  type: Class
+  summary: "\nProperties describing a task to create on recipients of a mail merge.\n"
+  example: 
+- uid: CRMScript.NetServer.NSMailMergeTask.#ctor
+  commentId: M:CRMScript.NetServer.NSMailMergeTask.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSMailMergeTask
+  langs:
+  - crmscript
+  name: NSMailMergeTask()
+  nameWithType: NSMailMergeTask.#ctor
+  fullName: CRMScript.NetServer.NSMailMergeTask.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSMailMergeTask class.\n"
+  remarks: 
+  syntax: 
+    content: NSMailMergeTask
+  example: 
+- uid: CRMScript.NetServer.NSMailMergeTask.GetCompleted()
+  commentId: M:CRMScript.NetServer.NSMailMergeTask.GetCompleted()
+  id: 'GetCompleted()'
+  so.intellisense: NSMailMergeTask.GetCompleted
+  langs:
+  - crmscript
+  name: 'GetCompleted()'
+  nameWithType: NSMailMergeTask.GetCompleted()
+  fullName: CRMScript.NetServer.NSMailMergeTask.GetCompleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCompleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Completed status for task."
+  example: 
+  - "\n<pre><code>NSMailMergeTask thing;\nInteger completed = thing.GetCompleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailMergeTask.GetDescription()
+  commentId: M:CRMScript.NetServer.NSMailMergeTask.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSMailMergeTask.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSMailMergeTask.GetDescription()
+  fullName: CRMScript.NetServer.NSMailMergeTask.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Text describing task."
+  example: 
+  - "\n<pre><code>NSMailMergeTask thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailMergeTask.GetDuration()
+  commentId: M:CRMScript.NetServer.NSMailMergeTask.GetDuration()
+  id: 'GetDuration()'
+  so.intellisense: NSMailMergeTask.GetDuration
+  langs:
+  - crmscript
+  name: 'GetDuration()'
+  nameWithType: NSMailMergeTask.GetDuration()
+  fullName: CRMScript.NetServer.NSMailMergeTask.GetDuration()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDuration()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Duration of task."
+  example: 
+  - "\n<pre><code>NSMailMergeTask thing;\nInteger duration = thing.GetDuration();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailMergeTask.GetOwnerAssociateId()
+  commentId: M:CRMScript.NetServer.NSMailMergeTask.GetOwnerAssociateId()
+  id: 'GetOwnerAssociateId()'
+  so.intellisense: NSMailMergeTask.GetOwnerAssociateId
+  langs:
+  - crmscript
+  name: 'GetOwnerAssociateId()'
+  nameWithType: NSMailMergeTask.GetOwnerAssociateId()
+  fullName: CRMScript.NetServer.NSMailMergeTask.GetOwnerAssociateId()
+  type: Method
+  summary: # TODO
+  remarks: "\nIf value is 0, the recipient owner(our contact) will be used.\n"
+  syntax: 
+    content: Integer GetOwnerAssociateId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Associate identity of who should be set as owner of the task."
+  example: 
+  - "\n<pre><code>NSMailMergeTask thing;\nInteger ownerAssociateId = thing.GetOwnerAssociateId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailMergeTask.GetPriorityId()
+  commentId: M:CRMScript.NetServer.NSMailMergeTask.GetPriorityId()
+  id: 'GetPriorityId()'
+  so.intellisense: NSMailMergeTask.GetPriorityId
+  langs:
+  - crmscript
+  name: 'GetPriorityId()'
+  nameWithType: NSMailMergeTask.GetPriorityId()
+  fullName: CRMScript.NetServer.NSMailMergeTask.GetPriorityId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPriorityId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Priority of task."
+  example: 
+  - "\n<pre><code>NSMailMergeTask thing;\nInteger priorityId = thing.GetPriorityId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailMergeTask.GetProjectId()
+  commentId: M:CRMScript.NetServer.NSMailMergeTask.GetProjectId()
+  id: 'GetProjectId()'
+  so.intellisense: NSMailMergeTask.GetProjectId
+  langs:
+  - crmscript
+  name: 'GetProjectId()'
+  nameWithType: NSMailMergeTask.GetProjectId()
+  fullName: CRMScript.NetServer.NSMailMergeTask.GetProjectId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetProjectId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Project identity to set on task."
+  example: 
+  - "\n<pre><code>NSMailMergeTask thing;\nInteger projectId = thing.GetProjectId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailMergeTask.GetSaleId()
+  commentId: M:CRMScript.NetServer.NSMailMergeTask.GetSaleId()
+  id: 'GetSaleId()'
+  so.intellisense: NSMailMergeTask.GetSaleId
+  langs:
+  - crmscript
+  name: 'GetSaleId()'
+  nameWithType: NSMailMergeTask.GetSaleId()
+  fullName: CRMScript.NetServer.NSMailMergeTask.GetSaleId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSaleId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Sale identity to set on task."
+  example: 
+  - "\n<pre><code>NSMailMergeTask thing;\nInteger saleId = thing.GetSaleId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailMergeTask.GetSingleEntryOnEachCompany()
+  commentId: M:CRMScript.NetServer.NSMailMergeTask.GetSingleEntryOnEachCompany()
+  id: 'GetSingleEntryOnEachCompany()'
+  so.intellisense: NSMailMergeTask.GetSingleEntryOnEachCompany
+  langs:
+  - crmscript
+  name: 'GetSingleEntryOnEachCompany()'
+  nameWithType: NSMailMergeTask.GetSingleEntryOnEachCompany()
+  fullName: CRMScript.NetServer.NSMailMergeTask.GetSingleEntryOnEachCompany()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetSingleEntryOnEachCompany()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Should we only create one task on each company? If false, separate tasks will be created for all persons from the same company."
+  example: 
+  - "\n<pre><code>NSMailMergeTask thing;\nBool singleEntryOnEachCompany = thing.GetSingleEntryOnEachCompany();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailMergeTask.GetStartDate()
+  commentId: M:CRMScript.NetServer.NSMailMergeTask.GetStartDate()
+  id: 'GetStartDate()'
+  so.intellisense: NSMailMergeTask.GetStartDate
+  langs:
+  - crmscript
+  name: 'GetStartDate()'
+  nameWithType: NSMailMergeTask.GetStartDate()
+  fullName: CRMScript.NetServer.NSMailMergeTask.GetStartDate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: DateTime GetStartDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description: "When the task should start."
+  example: 
+  - "\n<pre><code>NSMailMergeTask thing;\nDateTime startDate = thing.GetStartDate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailMergeTask.GetTypeId()
+  commentId: M:CRMScript.NetServer.NSMailMergeTask.GetTypeId()
+  id: 'GetTypeId()'
+  so.intellisense: NSMailMergeTask.GetTypeId
+  langs:
+  - crmscript
+  name: 'GetTypeId()'
+  nameWithType: NSMailMergeTask.GetTypeId()
+  fullName: CRMScript.NetServer.NSMailMergeTask.GetTypeId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTypeId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Type identity to set on task."
+  example: 
+  - "\n<pre><code>NSMailMergeTask thing;\nInteger typeId = thing.GetTypeId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailMergeTask.GetVisibleFor()
+  commentId: M:CRMScript.NetServer.NSMailMergeTask.GetVisibleFor()
+  id: 'GetVisibleFor()'
+  so.intellisense: NSMailMergeTask.GetVisibleFor
+  langs:
+  - crmscript
+  name: 'GetVisibleFor()'
+  nameWithType: NSMailMergeTask.GetVisibleFor()
+  fullName: CRMScript.NetServer.NSMailMergeTask.GetVisibleFor()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSVisibleFor GetVisibleFor()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSVisibleFor
+      description: "Who the task should be visible for."
+  example: 
+  - "\n<pre><code>NSMailMergeTask thing;\nNSVisibleFor visibleFor = thing.GetVisibleFor();</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailMergeTask.SetCompleted(Integer)
+  commentId: M:CRMScript.NetServer.NSMailMergeTask.SetCompleted(Integer)
+  id: 'SetCompleted(Integer)'
+  so.intellisense: NSMailMergeTask.SetCompleted
+  langs:
+  - crmscript
+  name: 'SetCompleted(Integer)'
+  nameWithType: NSMailMergeTask.SetCompleted(Integer)
+  fullName: CRMScript.NetServer.NSMailMergeTask.SetCompleted(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCompleted(Integer completed)
+    parameters:
+    - id: completed
+      type: CRMScript.Global.Integer
+      description: "Completed status for task."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMailMergeTask thing;\nInteger completed;\nthing.SetCompleted(completed);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailMergeTask.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSMailMergeTask.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSMailMergeTask.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSMailMergeTask.SetDescription(String)
+  fullName: CRMScript.NetServer.NSMailMergeTask.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "Text describing task."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMailMergeTask thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailMergeTask.SetDuration(Integer)
+  commentId: M:CRMScript.NetServer.NSMailMergeTask.SetDuration(Integer)
+  id: 'SetDuration(Integer)'
+  so.intellisense: NSMailMergeTask.SetDuration
+  langs:
+  - crmscript
+  name: 'SetDuration(Integer)'
+  nameWithType: NSMailMergeTask.SetDuration(Integer)
+  fullName: CRMScript.NetServer.NSMailMergeTask.SetDuration(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDuration(Integer duration)
+    parameters:
+    - id: duration
+      type: CRMScript.Global.Integer
+      description: "Duration of task."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMailMergeTask thing;\nInteger duration;\nthing.SetDuration(duration);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailMergeTask.SetOwnerAssociateId(Integer)
+  commentId: M:CRMScript.NetServer.NSMailMergeTask.SetOwnerAssociateId(Integer)
+  id: 'SetOwnerAssociateId(Integer)'
+  so.intellisense: NSMailMergeTask.SetOwnerAssociateId
+  langs:
+  - crmscript
+  name: 'SetOwnerAssociateId(Integer)'
+  nameWithType: NSMailMergeTask.SetOwnerAssociateId(Integer)
+  fullName: CRMScript.NetServer.NSMailMergeTask.SetOwnerAssociateId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: "\nIf value is 0, the recipient owner(our contact) will be used.\n"
+  syntax: 
+    content: Void SetOwnerAssociateId(Integer ownerAssociateId)
+    parameters:
+    - id: ownerAssociateId
+      type: CRMScript.Global.Integer
+      description: "Associate identity of who should be set as owner of the task."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMailMergeTask thing;\nInteger ownerAssociateId;\nthing.SetOwnerAssociateId(ownerAssociateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailMergeTask.SetPriorityId(Integer)
+  commentId: M:CRMScript.NetServer.NSMailMergeTask.SetPriorityId(Integer)
+  id: 'SetPriorityId(Integer)'
+  so.intellisense: NSMailMergeTask.SetPriorityId
+  langs:
+  - crmscript
+  name: 'SetPriorityId(Integer)'
+  nameWithType: NSMailMergeTask.SetPriorityId(Integer)
+  fullName: CRMScript.NetServer.NSMailMergeTask.SetPriorityId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPriorityId(Integer priorityId)
+    parameters:
+    - id: priorityId
+      type: CRMScript.Global.Integer
+      description: "Priority of task."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMailMergeTask thing;\nInteger priorityId;\nthing.SetPriorityId(priorityId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailMergeTask.SetProjectId(Integer)
+  commentId: M:CRMScript.NetServer.NSMailMergeTask.SetProjectId(Integer)
+  id: 'SetProjectId(Integer)'
+  so.intellisense: NSMailMergeTask.SetProjectId
+  langs:
+  - crmscript
+  name: 'SetProjectId(Integer)'
+  nameWithType: NSMailMergeTask.SetProjectId(Integer)
+  fullName: CRMScript.NetServer.NSMailMergeTask.SetProjectId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjectId(Integer projectId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: "Project identity to set on task."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMailMergeTask thing;\nInteger projectId;\nthing.SetProjectId(projectId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailMergeTask.SetSaleId(Integer)
+  commentId: M:CRMScript.NetServer.NSMailMergeTask.SetSaleId(Integer)
+  id: 'SetSaleId(Integer)'
+  so.intellisense: NSMailMergeTask.SetSaleId
+  langs:
+  - crmscript
+  name: 'SetSaleId(Integer)'
+  nameWithType: NSMailMergeTask.SetSaleId(Integer)
+  fullName: CRMScript.NetServer.NSMailMergeTask.SetSaleId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSaleId(Integer saleId)
+    parameters:
+    - id: saleId
+      type: CRMScript.Global.Integer
+      description: "Sale identity to set on task."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMailMergeTask thing;\nInteger saleId;\nthing.SetSaleId(saleId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailMergeTask.SetSingleEntryOnEachCompany(Bool)
+  commentId: M:CRMScript.NetServer.NSMailMergeTask.SetSingleEntryOnEachCompany(Bool)
+  id: 'SetSingleEntryOnEachCompany(Bool)'
+  so.intellisense: NSMailMergeTask.SetSingleEntryOnEachCompany
+  langs:
+  - crmscript
+  name: 'SetSingleEntryOnEachCompany(Bool)'
+  nameWithType: NSMailMergeTask.SetSingleEntryOnEachCompany(Bool)
+  fullName: CRMScript.NetServer.NSMailMergeTask.SetSingleEntryOnEachCompany(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSingleEntryOnEachCompany(Bool singleEntryOnEachCompany)
+    parameters:
+    - id: singleEntryOnEachCompany
+      type: CRMScript.Global.Bool
+      description: "Should we only create one task on each company? If false, separate tasks will be created for all persons from the same company."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMailMergeTask thing;\nBool singleEntryOnEachCompany;\nthing.SetSingleEntryOnEachCompany(singleEntryOnEachCompany);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailMergeTask.SetStartDate(DateTime)
+  commentId: M:CRMScript.NetServer.NSMailMergeTask.SetStartDate(DateTime)
+  id: 'SetStartDate(DateTime)'
+  so.intellisense: NSMailMergeTask.SetStartDate
+  langs:
+  - crmscript
+  name: 'SetStartDate(DateTime)'
+  nameWithType: NSMailMergeTask.SetStartDate(DateTime)
+  fullName: CRMScript.NetServer.NSMailMergeTask.SetStartDate(DateTime)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetStartDate(DateTime startDate)
+    parameters:
+    - id: startDate
+      type: CRMScript.Global.DateTime
+      description: "When the task should start."
+  example: 
+  - "\n<pre><code>NSMailMergeTask thing;\nDateTime startDate;\nthing.SetStartDate(startDate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailMergeTask.SetTypeId(Integer)
+  commentId: M:CRMScript.NetServer.NSMailMergeTask.SetTypeId(Integer)
+  id: 'SetTypeId(Integer)'
+  so.intellisense: NSMailMergeTask.SetTypeId
+  langs:
+  - crmscript
+  name: 'SetTypeId(Integer)'
+  nameWithType: NSMailMergeTask.SetTypeId(Integer)
+  fullName: CRMScript.NetServer.NSMailMergeTask.SetTypeId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTypeId(Integer typeId)
+    parameters:
+    - id: typeId
+      type: CRMScript.Global.Integer
+      description: "Type identity to set on task."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMailMergeTask thing;\nInteger typeId;\nthing.SetTypeId(typeId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSMailMergeTask.SetVisibleFor(NSVisibleFor)
+  commentId: M:CRMScript.NetServer.NSMailMergeTask.SetVisibleFor(NSVisibleFor)
+  id: 'SetVisibleFor(NSVisibleFor)'
+  so.intellisense: NSMailMergeTask.SetVisibleFor
+  langs:
+  - crmscript
+  name: 'SetVisibleFor(NSVisibleFor)'
+  nameWithType: NSMailMergeTask.SetVisibleFor(NSVisibleFor)
+  fullName: CRMScript.NetServer.NSMailMergeTask.SetVisibleFor(NSVisibleFor)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetVisibleFor(NSVisibleFor visibleFor)
+    parameters:
+    - id: visibleFor
+      type: CRMScript.NetServer.NSVisibleFor
+      description: "Who the task should be visible for."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSMailMergeTask thing;\nNSVisibleFor visibleFor;\nthing.SetVisibleFor(visibleFor);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSMailMergeTask
+  commentId: T:CRMScript.NetServer.NSMailMergeTask
+  isExternal: true
+  name: NSMailMergeTask
+  nameWithType: NSMailMergeTask
+  fullName: CRMScript.NetServer.NSMailMergeTask
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.NetServer.NSVisibleFor
+  commentId: T:CRMScript.NetServer.NSVisibleFor
+  isExternal: true
+  name: NSVisibleFor
+  nameWithType: NSVisibleFor
+  fullName: CRMScript.NetServer.NSVisibleFor
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

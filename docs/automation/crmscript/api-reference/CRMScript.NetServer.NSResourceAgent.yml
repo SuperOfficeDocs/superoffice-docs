@@ -1,0 +1,245 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSResourceAgent
+  commentId: T:CRMScript.NetServer.NSResourceAgent
+  id: NSResourceAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSResourceAgent.#ctor
+  - CRMScript.NetServer.NSResourceAgent.ActivateResourceSubstitution(String,String,Bool)
+  - CRMScript.NetServer.NSResourceAgent.DeleteResourceSubstitution(String,String)
+  - CRMScript.NetServer.NSResourceAgent.GetResourceSubstitutions(String[],String,Bool)
+  - CRMScript.NetServer.NSResourceAgent.IsResourceSubstitutionActive(String[],String)
+  - CRMScript.NetServer.NSResourceAgent.SetResourceSubstitution(String,String,String,Bool)
+  name: NSResourceAgent
+  nameWithType: NSResourceAgent
+  fullName: CRMScript.NetServer.NSResourceAgent
+  type: Class
+  summary: "\nString resource substitution management.\n"
+  example: 
+  - "\n<pre><code>NSResourceAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSResourceAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSResourceAgent
+  langs:
+  - crmscript
+  name: NSResourceAgent()
+  nameWithType: NSResourceAgent.#ctor
+  fullName: CRMScript.NetServer.NSResourceAgent.#ctor
+  type: Constructor
+  summary: "\nString resource substitution management.\n"
+  remarks: 
+  syntax: 
+    content: NSResourceAgent
+  example: 
+  - "\n<pre><code>NSResourceAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceAgent.ActivateResourceSubstitution(String,String,Bool)
+  commentId: M:CRMScript.NetServer.NSResourceAgent.ActivateResourceSubstitution(String,String,Bool)
+  id: 'ActivateResourceSubstitution(String,String,Bool)'
+  so.intellisense: NSResourceAgent.ActivateResourceSubstitution
+  langs:
+  - crmscript
+  name: 'ActivateResourceSubstitution(String,String,Bool)'
+  nameWithType: NSResourceAgent.ActivateResourceSubstitution(String,String,Bool)
+  fullName: CRMScript.NetServer.NSResourceAgent.ActivateResourceSubstitution(String,String,Bool)
+  type: Method
+  summary: "\nActivates or deactivates a resource substitution for one or more cultures\n"
+  remarks: 
+  syntax: 
+    content: Void ActivateResourceSubstitution(String resourceName, String culture, Bool isActive)
+    parameters:
+    - id: resourceName
+      type: CRMScript.Global.String
+      description: "The name of the resource, without any brackets; if blank then this is the MASTER SWITCH for the override system"
+    - id: culture
+      type: CRMScript.Global.String
+      description: "The .NET culture string; if blank, then ALL substitutions for this resource will be affected"
+    - id: isActive
+      type: CRMScript.Global.Bool
+      description: "New status of override."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSResourceAgent agent;\nString resourceName;\nString culture;\nBool isActive;\nagent.ActivateResourceSubstitution(resourceName, culture, isActive);</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceAgent.DeleteResourceSubstitution(String,String)
+  commentId: M:CRMScript.NetServer.NSResourceAgent.DeleteResourceSubstitution(String,String)
+  id: 'DeleteResourceSubstitution(String,String)'
+  so.intellisense: NSResourceAgent.DeleteResourceSubstitution
+  langs:
+  - crmscript
+  name: 'DeleteResourceSubstitution(String,String)'
+  nameWithType: NSResourceAgent.DeleteResourceSubstitution(String,String)
+  fullName: CRMScript.NetServer.NSResourceAgent.DeleteResourceSubstitution(String,String)
+  type: Method
+  summary: "\nPermanently deletes a resource substitution for one or more cultures\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteResourceSubstitution(String resourceName, String culture)
+    parameters:
+    - id: resourceName
+      type: CRMScript.Global.String
+      description: "The name of the resource, without any brackets"
+    - id: culture
+      type: CRMScript.Global.String
+      description: "The .NET culture string; if blank, then ALL substitutions for this resource will be dropped."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSResourceAgent agent;\nString resourceName;\nString culture;\nagent.DeleteResourceSubstitution(resourceName, culture);</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceAgent.GetResourceSubstitutions(String[],String,Bool)
+  commentId: M:CRMScript.NetServer.NSResourceAgent.GetResourceSubstitutions(String[],String,Bool)
+  id: 'GetResourceSubstitutions(String[],String,Bool)'
+  so.intellisense: NSResourceAgent.GetResourceSubstitutions
+  langs:
+  - crmscript
+  name: 'GetResourceSubstitutions(String[],String,Bool)'
+  nameWithType: NSResourceAgent.GetResourceSubstitutions(String[],String,Bool)
+  fullName: CRMScript.NetServer.NSResourceAgent.GetResourceSubstitutions(String[],String,Bool)
+  type: Method
+  summary: "\nGets substitutions for some or all resources for one culture\n"
+  remarks: 
+  syntax: 
+    content: NSResourceOverride[] GetResourceSubstitutions(String[] resourceNames, String culture, Bool activeOnly)
+    parameters:
+    - id: resourceNames
+      type: CRMScript.Global.String[]
+      description: "Array of names of resources for which overrides are sought; if empty, then get all"
+    - id: culture
+      type: CRMScript.Global.String
+      description: ".NET culture string; if empty, then get all"
+    - id: activeOnly
+      type: CRMScript.Global.Bool
+      description: "If true, then only resources with active substitutions will be returned; if false then ALL existing overrides will be returned."
+    return:
+      type: CRMScript.NetServer.NSResourceOverride[]
+  example: 
+  - "\n<pre><code>NSResourceAgent agent;\nString[] resourceNames;\nString culture;\nBool activeOnly;\nNSResourceOverride[] res = agent.GetResourceSubstitutions(resourceNames, culture, activeOnly);</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceAgent.IsResourceSubstitutionActive(String[],String)
+  commentId: M:CRMScript.NetServer.NSResourceAgent.IsResourceSubstitutionActive(String[],String)
+  id: 'IsResourceSubstitutionActive(String[],String)'
+  so.intellisense: NSResourceAgent.IsResourceSubstitutionActive
+  langs:
+  - crmscript
+  name: 'IsResourceSubstitutionActive(String[],String)'
+  nameWithType: NSResourceAgent.IsResourceSubstitutionActive(String[],String)
+  fullName: CRMScript.NetServer.NSResourceAgent.IsResourceSubstitutionActive(String[],String)
+  type: Method
+  summary: "\nDetermines if resource substitution/override is active, globally or for a subset of resources/cultures\n"
+  remarks: 
+  syntax: 
+    content: NSResourceOverride[] IsResourceSubstitutionActive(String[] resourceNames, String culture)
+    parameters:
+    - id: resourceNames
+      type: CRMScript.Global.String[]
+      description: "Array of names of resources for which overrides are sought; if empty, then get the MASTER on/off"
+    - id: culture
+      type: CRMScript.Global.String
+      description: ".NET culture string; if empty, then get for all cultures (unless resourceName)."
+    return:
+      type: CRMScript.NetServer.NSResourceOverride[]
+  example: 
+  - "\n<pre><code>NSResourceAgent agent;\nString[] resourceNames;\nString culture;\nNSResourceOverride[] res = agent.IsResourceSubstitutionActive(resourceNames, culture);</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceAgent.SetResourceSubstitution(String,String,String,Bool)
+  commentId: M:CRMScript.NetServer.NSResourceAgent.SetResourceSubstitution(String,String,String,Bool)
+  id: 'SetResourceSubstitution(String,String,String,Bool)'
+  so.intellisense: NSResourceAgent.SetResourceSubstitution
+  langs:
+  - crmscript
+  name: 'SetResourceSubstitution(String,String,String,Bool)'
+  nameWithType: NSResourceAgent.SetResourceSubstitution(String,String,String,Bool)
+  fullName: CRMScript.NetServer.NSResourceAgent.SetResourceSubstitution(String,String,String,Bool)
+  type: Method
+  summary: "\nCreates or updates a resource substitution\n"
+  remarks: 
+  syntax: 
+    content: Void SetResourceSubstitution(String resourceName, String resourceValues, String culture, Bool isActive)
+    parameters:
+    - id: resourceName
+      type: CRMScript.Global.String
+      description: "The name of the resource, without any brackets"
+    - id: resourceValues
+      type: CRMScript.Global.String
+      description: "The new value of the resource"
+    - id: culture
+      type: CRMScript.Global.String
+      description: "The .NET culture string"
+    - id: isActive
+      type: CRMScript.Global.Bool
+      description: "Is the substitution now active."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSResourceAgent agent;\nString resourceName;\nString resourceValues;\nString culture;\nBool isActive;\nagent.SetResourceSubstitution(resourceName, resourceValues, culture, isActive);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSResourceAgent
+  commentId: T:CRMScript.NetServer.NSResourceAgent
+  isExternal: true
+  name: NSResourceAgent
+  nameWithType: NSResourceAgent
+  fullName: CRMScript.NetServer.NSResourceAgent
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    isExternal: true
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSResourceOverride[]
+  isExternal: true
+  name: NSResourceOverride[]
+  nameWithType: NSResourceOverride[]
+  fullName: CRMScript.NetServer.NSResourceOverride[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSResourceOverride
+    isExternal: true
+    name: NSResourceOverride
+    nameWithType: NSResourceOverride
+    fullName: CRMScript.NetServer.NSResourceOverride
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSResourceOverride
+  commentId: T:CRMScript.NetServer.NSResourceOverride
+  isExternal: true
+  name: NSResourceOverride
+  nameWithType: NSResourceOverride
+  fullName: CRMScript.NetServer.NSResourceOverride
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

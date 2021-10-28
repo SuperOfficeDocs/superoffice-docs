@@ -1,0 +1,413 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSPhoneListPreferences
+  commentId: T:CRMScript.NetServer.NSPhoneListPreferences
+  id: NSPhoneListPreferences
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSPhoneListPreferences.#ctor
+  - CRMScript.NetServer.NSPhoneListPreferences.GetSearchCompany()
+  - CRMScript.NetServer.NSPhoneListPreferences.GetSearchDepartment()
+  - CRMScript.NetServer.NSPhoneListPreferences.GetSearchFirstname()
+  - CRMScript.NetServer.NSPhoneListPreferences.GetSearchLastname()
+  - CRMScript.NetServer.NSPhoneListPreferences.GetSearchModeCompany()
+  - CRMScript.NetServer.NSPhoneListPreferences.GetSearchModeDepartment()
+  - CRMScript.NetServer.NSPhoneListPreferences.GetSearchModeFirstname()
+  - CRMScript.NetServer.NSPhoneListPreferences.GetSearchModeLastname()
+  - CRMScript.NetServer.NSPhoneListPreferences.SetSearchCompany(Bool)
+  - CRMScript.NetServer.NSPhoneListPreferences.SetSearchDepartment(Bool)
+  - CRMScript.NetServer.NSPhoneListPreferences.SetSearchFirstname(Bool)
+  - CRMScript.NetServer.NSPhoneListPreferences.SetSearchLastname(Bool)
+  - CRMScript.NetServer.NSPhoneListPreferences.SetSearchModeCompany(Integer)
+  - CRMScript.NetServer.NSPhoneListPreferences.SetSearchModeDepartment(Integer)
+  - CRMScript.NetServer.NSPhoneListPreferences.SetSearchModeFirstname(Integer)
+  - CRMScript.NetServer.NSPhoneListPreferences.SetSearchModeLastname(Integer)
+  name: NSPhoneListPreferences
+  nameWithType: NSPhoneListPreferences
+  fullName: CRMScript.NetServer.NSPhoneListPreferences
+  type: Class
+  summary: "\nSearch preferences for a phone list search.\n"
+  example: 
+- uid: CRMScript.NetServer.NSPhoneListPreferences.#ctor
+  commentId: M:CRMScript.NetServer.NSPhoneListPreferences.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSPhoneListPreferences
+  langs:
+  - crmscript
+  name: NSPhoneListPreferences()
+  nameWithType: NSPhoneListPreferences.#ctor
+  fullName: CRMScript.NetServer.NSPhoneListPreferences.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSPhoneListPreferences class.\n"
+  remarks: 
+  syntax: 
+    content: NSPhoneListPreferences
+  example: 
+- uid: CRMScript.NetServer.NSPhoneListPreferences.GetSearchCompany()
+  commentId: M:CRMScript.NetServer.NSPhoneListPreferences.GetSearchCompany()
+  id: 'GetSearchCompany()'
+  so.intellisense: NSPhoneListPreferences.GetSearchCompany
+  langs:
+  - crmscript
+  name: 'GetSearchCompany()'
+  nameWithType: NSPhoneListPreferences.GetSearchCompany()
+  fullName: CRMScript.NetServer.NSPhoneListPreferences.GetSearchCompany()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetSearchCompany()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if you want to search for Companies by their name."
+  example: 
+  - "\n<pre><code>NSPhoneListPreferences thing;\nBool searchCompany = thing.GetSearchCompany();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListPreferences.GetSearchDepartment()
+  commentId: M:CRMScript.NetServer.NSPhoneListPreferences.GetSearchDepartment()
+  id: 'GetSearchDepartment()'
+  so.intellisense: NSPhoneListPreferences.GetSearchDepartment
+  langs:
+  - crmscript
+  name: 'GetSearchDepartment()'
+  nameWithType: NSPhoneListPreferences.GetSearchDepartment()
+  fullName: CRMScript.NetServer.NSPhoneListPreferences.GetSearchDepartment()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetSearchDepartment()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if you want to search for Departments where your colleagues work."
+  example: 
+  - "\n<pre><code>NSPhoneListPreferences thing;\nBool searchDepartment = thing.GetSearchDepartment();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListPreferences.GetSearchFirstname()
+  commentId: M:CRMScript.NetServer.NSPhoneListPreferences.GetSearchFirstname()
+  id: 'GetSearchFirstname()'
+  so.intellisense: NSPhoneListPreferences.GetSearchFirstname
+  langs:
+  - crmscript
+  name: 'GetSearchFirstname()'
+  nameWithType: NSPhoneListPreferences.GetSearchFirstname()
+  fullName: CRMScript.NetServer.NSPhoneListPreferences.GetSearchFirstname()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetSearchFirstname()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if you want to search for Persons by their firstname."
+  example: 
+  - "\n<pre><code>NSPhoneListPreferences thing;\nBool searchFirstname = thing.GetSearchFirstname();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListPreferences.GetSearchLastname()
+  commentId: M:CRMScript.NetServer.NSPhoneListPreferences.GetSearchLastname()
+  id: 'GetSearchLastname()'
+  so.intellisense: NSPhoneListPreferences.GetSearchLastname
+  langs:
+  - crmscript
+  name: 'GetSearchLastname()'
+  nameWithType: NSPhoneListPreferences.GetSearchLastname()
+  fullName: CRMScript.NetServer.NSPhoneListPreferences.GetSearchLastname()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetSearchLastname()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if you want to search for Persons by their last name."
+  example: 
+  - "\n<pre><code>NSPhoneListPreferences thing;\nBool searchLastname = thing.GetSearchLastname();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListPreferences.GetSearchModeCompany()
+  commentId: M:CRMScript.NetServer.NSPhoneListPreferences.GetSearchModeCompany()
+  id: 'GetSearchModeCompany()'
+  so.intellisense: NSPhoneListPreferences.GetSearchModeCompany
+  langs:
+  - crmscript
+  name: 'GetSearchModeCompany()'
+  nameWithType: NSPhoneListPreferences.GetSearchModeCompany()
+  fullName: CRMScript.NetServer.NSPhoneListPreferences.GetSearchModeCompany()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSearchModeCompany()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.StringSearchType\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSPhoneListPreferences thing;\nInteger searchMode = thing.GetSearchModeCompany();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListPreferences.GetSearchModeDepartment()
+  commentId: M:CRMScript.NetServer.NSPhoneListPreferences.GetSearchModeDepartment()
+  id: 'GetSearchModeDepartment()'
+  so.intellisense: NSPhoneListPreferences.GetSearchModeDepartment
+  langs:
+  - crmscript
+  name: 'GetSearchModeDepartment()'
+  nameWithType: NSPhoneListPreferences.GetSearchModeDepartment()
+  fullName: CRMScript.NetServer.NSPhoneListPreferences.GetSearchModeDepartment()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSearchModeDepartment()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.StringSearchType\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSPhoneListPreferences thing;\nInteger searchMode = thing.GetSearchModeDepartment();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListPreferences.GetSearchModeFirstname()
+  commentId: M:CRMScript.NetServer.NSPhoneListPreferences.GetSearchModeFirstname()
+  id: 'GetSearchModeFirstname()'
+  so.intellisense: NSPhoneListPreferences.GetSearchModeFirstname
+  langs:
+  - crmscript
+  name: 'GetSearchModeFirstname()'
+  nameWithType: NSPhoneListPreferences.GetSearchModeFirstname()
+  fullName: CRMScript.NetServer.NSPhoneListPreferences.GetSearchModeFirstname()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSearchModeFirstname()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.StringSearchType\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSPhoneListPreferences thing;\nInteger searchMode = thing.GetSearchModeFirstname();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListPreferences.GetSearchModeLastname()
+  commentId: M:CRMScript.NetServer.NSPhoneListPreferences.GetSearchModeLastname()
+  id: 'GetSearchModeLastname()'
+  so.intellisense: NSPhoneListPreferences.GetSearchModeLastname
+  langs:
+  - crmscript
+  name: 'GetSearchModeLastname()'
+  nameWithType: NSPhoneListPreferences.GetSearchModeLastname()
+  fullName: CRMScript.NetServer.NSPhoneListPreferences.GetSearchModeLastname()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSearchModeLastname()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.StringSearchType\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSPhoneListPreferences thing;\nInteger searchMode = thing.GetSearchModeLastname();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListPreferences.SetSearchCompany(Bool)
+  commentId: M:CRMScript.NetServer.NSPhoneListPreferences.SetSearchCompany(Bool)
+  id: 'SetSearchCompany(Bool)'
+  so.intellisense: NSPhoneListPreferences.SetSearchCompany
+  langs:
+  - crmscript
+  name: 'SetSearchCompany(Bool)'
+  nameWithType: NSPhoneListPreferences.SetSearchCompany(Bool)
+  fullName: CRMScript.NetServer.NSPhoneListPreferences.SetSearchCompany(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSearchCompany(Bool searchCompany)
+    parameters:
+    - id: searchCompany
+      type: CRMScript.Global.Bool
+      description: "True if you want to search for Companies by their name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPhoneListPreferences thing;\nBool searchCompany;\nthing.SetSearchCompany(searchCompany);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListPreferences.SetSearchDepartment(Bool)
+  commentId: M:CRMScript.NetServer.NSPhoneListPreferences.SetSearchDepartment(Bool)
+  id: 'SetSearchDepartment(Bool)'
+  so.intellisense: NSPhoneListPreferences.SetSearchDepartment
+  langs:
+  - crmscript
+  name: 'SetSearchDepartment(Bool)'
+  nameWithType: NSPhoneListPreferences.SetSearchDepartment(Bool)
+  fullName: CRMScript.NetServer.NSPhoneListPreferences.SetSearchDepartment(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSearchDepartment(Bool searchDepartment)
+    parameters:
+    - id: searchDepartment
+      type: CRMScript.Global.Bool
+      description: "True if you want to search for Departments where your colleagues work."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPhoneListPreferences thing;\nBool searchDepartment;\nthing.SetSearchDepartment(searchDepartment);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListPreferences.SetSearchFirstname(Bool)
+  commentId: M:CRMScript.NetServer.NSPhoneListPreferences.SetSearchFirstname(Bool)
+  id: 'SetSearchFirstname(Bool)'
+  so.intellisense: NSPhoneListPreferences.SetSearchFirstname
+  langs:
+  - crmscript
+  name: 'SetSearchFirstname(Bool)'
+  nameWithType: NSPhoneListPreferences.SetSearchFirstname(Bool)
+  fullName: CRMScript.NetServer.NSPhoneListPreferences.SetSearchFirstname(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSearchFirstname(Bool searchFirstname)
+    parameters:
+    - id: searchFirstname
+      type: CRMScript.Global.Bool
+      description: "True if you want to search for Persons by their firstname."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPhoneListPreferences thing;\nBool searchFirstname;\nthing.SetSearchFirstname(searchFirstname);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListPreferences.SetSearchLastname(Bool)
+  commentId: M:CRMScript.NetServer.NSPhoneListPreferences.SetSearchLastname(Bool)
+  id: 'SetSearchLastname(Bool)'
+  so.intellisense: NSPhoneListPreferences.SetSearchLastname
+  langs:
+  - crmscript
+  name: 'SetSearchLastname(Bool)'
+  nameWithType: NSPhoneListPreferences.SetSearchLastname(Bool)
+  fullName: CRMScript.NetServer.NSPhoneListPreferences.SetSearchLastname(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSearchLastname(Bool searchLastname)
+    parameters:
+    - id: searchLastname
+      type: CRMScript.Global.Bool
+      description: "True if you want to search for Persons by their last name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPhoneListPreferences thing;\nBool searchLastname;\nthing.SetSearchLastname(searchLastname);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListPreferences.SetSearchModeCompany(Integer)
+  commentId: M:CRMScript.NetServer.NSPhoneListPreferences.SetSearchModeCompany(Integer)
+  id: 'SetSearchModeCompany(Integer)'
+  so.intellisense: NSPhoneListPreferences.SetSearchModeCompany
+  langs:
+  - crmscript
+  name: 'SetSearchModeCompany(Integer)'
+  nameWithType: NSPhoneListPreferences.SetSearchModeCompany(Integer)
+  fullName: CRMScript.NetServer.NSPhoneListPreferences.SetSearchModeCompany(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetSearchModeCompany(Integer searchMode)
+    parameters:
+    - id: searchMode
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.StringSearchType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPhoneListPreferences thing;\nInteger searchMode;\nthing.SetSearchModeCompany(searchMode);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListPreferences.SetSearchModeDepartment(Integer)
+  commentId: M:CRMScript.NetServer.NSPhoneListPreferences.SetSearchModeDepartment(Integer)
+  id: 'SetSearchModeDepartment(Integer)'
+  so.intellisense: NSPhoneListPreferences.SetSearchModeDepartment
+  langs:
+  - crmscript
+  name: 'SetSearchModeDepartment(Integer)'
+  nameWithType: NSPhoneListPreferences.SetSearchModeDepartment(Integer)
+  fullName: CRMScript.NetServer.NSPhoneListPreferences.SetSearchModeDepartment(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetSearchModeDepartment(Integer searchMode)
+    parameters:
+    - id: searchMode
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.StringSearchType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPhoneListPreferences thing;\nInteger searchMode;\nthing.SetSearchModeDepartment(searchMode);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListPreferences.SetSearchModeFirstname(Integer)
+  commentId: M:CRMScript.NetServer.NSPhoneListPreferences.SetSearchModeFirstname(Integer)
+  id: 'SetSearchModeFirstname(Integer)'
+  so.intellisense: NSPhoneListPreferences.SetSearchModeFirstname
+  langs:
+  - crmscript
+  name: 'SetSearchModeFirstname(Integer)'
+  nameWithType: NSPhoneListPreferences.SetSearchModeFirstname(Integer)
+  fullName: CRMScript.NetServer.NSPhoneListPreferences.SetSearchModeFirstname(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetSearchModeFirstname(Integer searchMode)
+    parameters:
+    - id: searchMode
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.StringSearchType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPhoneListPreferences thing;\nInteger searchMode;\nthing.SetSearchModeFirstname(searchMode);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPhoneListPreferences.SetSearchModeLastname(Integer)
+  commentId: M:CRMScript.NetServer.NSPhoneListPreferences.SetSearchModeLastname(Integer)
+  id: 'SetSearchModeLastname(Integer)'
+  so.intellisense: NSPhoneListPreferences.SetSearchModeLastname
+  langs:
+  - crmscript
+  name: 'SetSearchModeLastname(Integer)'
+  nameWithType: NSPhoneListPreferences.SetSearchModeLastname(Integer)
+  fullName: CRMScript.NetServer.NSPhoneListPreferences.SetSearchModeLastname(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetSearchModeLastname(Integer searchMode)
+    parameters:
+    - id: searchMode
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.StringSearchType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPhoneListPreferences thing;\nInteger searchMode;\nthing.SetSearchModeLastname(searchMode);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSPhoneListPreferences
+  commentId: T:CRMScript.NetServer.NSPhoneListPreferences
+  isExternal: true
+  name: NSPhoneListPreferences
+  nameWithType: NSPhoneListPreferences
+  fullName: CRMScript.NetServer.NSPhoneListPreferences
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.StringSearchType
+  commentId: T:CRMScript.NetServer.StringSearchType
+  isExternal: true
+  name: StringSearchType
+  nameWithType: StringSearchType
+  fullName: CRMScript.NetServer.StringSearchType

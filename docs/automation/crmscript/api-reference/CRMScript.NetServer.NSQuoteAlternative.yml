@@ -1,0 +1,1085 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSQuoteAlternative
+  commentId: T:CRMScript.NetServer.NSQuoteAlternative
+  id: NSQuoteAlternative
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSQuoteAlternative.#ctor
+  - CRMScript.NetServer.NSQuoteAlternative.GetDescription()
+  - CRMScript.NetServer.NSQuoteAlternative.GetDiscountAmount()
+  - CRMScript.NetServer.NSQuoteAlternative.GetDiscountPercent()
+  - CRMScript.NetServer.NSQuoteAlternative.GetEarningAmount()
+  - CRMScript.NetServer.NSQuoteAlternative.GetEarningPercent()
+  - CRMScript.NetServer.NSQuoteAlternative.GetERPDiscountAmount()
+  - CRMScript.NetServer.NSQuoteAlternative.GetERPDiscountPercent()
+  - CRMScript.NetServer.NSQuoteAlternative.GetERPQuoteAlternativeKey()
+  - CRMScript.NetServer.NSQuoteAlternative.GetExtraField1()
+  - CRMScript.NetServer.NSQuoteAlternative.GetExtraField2()
+  - CRMScript.NetServer.NSQuoteAlternative.GetExtraField3()
+  - CRMScript.NetServer.NSQuoteAlternative.GetExtraField4()
+  - CRMScript.NetServer.NSQuoteAlternative.GetExtraField5()
+  - CRMScript.NetServer.NSQuoteAlternative.GetName()
+  - CRMScript.NetServer.NSQuoteAlternative.GetQuoteAlternativeId()
+  - CRMScript.NetServer.NSQuoteAlternative.GetQuoteVersionId()
+  - CRMScript.NetServer.NSQuoteAlternative.GetReason()
+  - CRMScript.NetServer.NSQuoteAlternative.GetStatus()
+  - CRMScript.NetServer.NSQuoteAlternative.GetSubTotal()
+  - CRMScript.NetServer.NSQuoteAlternative.GetTotalPrice()
+  - CRMScript.NetServer.NSQuoteAlternative.GetUserValueOverride()
+  - CRMScript.NetServer.NSQuoteAlternative.GetVAT()
+  - CRMScript.NetServer.NSQuoteAlternative.GetVATInfo()
+  - CRMScript.NetServer.NSQuoteAlternative.SetDescription(String)
+  - CRMScript.NetServer.NSQuoteAlternative.SetDiscountAmount(Float)
+  - CRMScript.NetServer.NSQuoteAlternative.SetDiscountPercent(Float)
+  - CRMScript.NetServer.NSQuoteAlternative.SetEarningAmount(Float)
+  - CRMScript.NetServer.NSQuoteAlternative.SetEarningPercent(Float)
+  - CRMScript.NetServer.NSQuoteAlternative.SetERPDiscountAmount(Float)
+  - CRMScript.NetServer.NSQuoteAlternative.SetERPDiscountPercent(Float)
+  - CRMScript.NetServer.NSQuoteAlternative.SetERPQuoteAlternativeKey(String)
+  - CRMScript.NetServer.NSQuoteAlternative.SetExtraField1(String)
+  - CRMScript.NetServer.NSQuoteAlternative.SetExtraField2(String)
+  - CRMScript.NetServer.NSQuoteAlternative.SetExtraField3(String)
+  - CRMScript.NetServer.NSQuoteAlternative.SetExtraField4(String)
+  - CRMScript.NetServer.NSQuoteAlternative.SetExtraField5(String)
+  - CRMScript.NetServer.NSQuoteAlternative.SetName(String)
+  - CRMScript.NetServer.NSQuoteAlternative.SetQuoteAlternativeId(Integer)
+  - CRMScript.NetServer.NSQuoteAlternative.SetQuoteVersionId(Integer)
+  - CRMScript.NetServer.NSQuoteAlternative.SetReason(String)
+  - CRMScript.NetServer.NSQuoteAlternative.SetStatus(Integer)
+  - CRMScript.NetServer.NSQuoteAlternative.SetSubTotal(Float)
+  - CRMScript.NetServer.NSQuoteAlternative.SetTotalPrice(Float)
+  - CRMScript.NetServer.NSQuoteAlternative.SetUserValueOverride(Integer)
+  - CRMScript.NetServer.NSQuoteAlternative.SetVAT(Float)
+  - CRMScript.NetServer.NSQuoteAlternative.SetVATInfo(String)
+  name: NSQuoteAlternative
+  nameWithType: NSQuoteAlternative
+  fullName: CRMScript.NetServer.NSQuoteAlternative
+  type: Class
+  summary: "\nInformation about a connection to the ERP system.\n"
+  example: 
+- uid: CRMScript.NetServer.NSQuoteAlternative.#ctor
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSQuoteAlternative
+  langs:
+  - crmscript
+  name: NSQuoteAlternative()
+  nameWithType: NSQuoteAlternative.#ctor
+  fullName: CRMScript.NetServer.NSQuoteAlternative.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSQuoteAlternative class.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteAlternative
+  example: 
+- uid: CRMScript.NetServer.NSQuoteAlternative.GetDescription()
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSQuoteAlternative.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSQuoteAlternative.GetDescription()
+  fullName: CRMScript.NetServer.NSQuoteAlternative.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The tool-tip to use in the user interface (on the tab, for instance)."
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.GetDiscountAmount()
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetDiscountAmount()
+  id: 'GetDiscountAmount()'
+  so.intellisense: NSQuoteAlternative.GetDiscountAmount
+  langs:
+  - crmscript
+  name: 'GetDiscountAmount()'
+  nameWithType: NSQuoteAlternative.GetDiscountAmount()
+  fullName: CRMScript.NetServer.NSQuoteAlternative.GetDiscountAmount()
+  type: Method
+  summary: # TODO
+  remarks: "\nBoth the two 'DiscountPercent' and 'DiscountAmount' shall be filled out, but the UserValueOverride field must be set to the field the user actually changed. If this field is filled out by the user, it overrides the discount suggested by the connector. If the user has not filled any values, the system will copy the ERP discount amount value into this field.\n"
+  syntax: 
+    content: Float GetDiscountAmount()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "The discount the sales rep specifies, in whatever currency the sale is in."
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nFloat discountAmount = thing.GetDiscountAmount();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.GetDiscountPercent()
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetDiscountPercent()
+  id: 'GetDiscountPercent()'
+  so.intellisense: NSQuoteAlternative.GetDiscountPercent
+  langs:
+  - crmscript
+  name: 'GetDiscountPercent()'
+  nameWithType: NSQuoteAlternative.GetDiscountPercent()
+  fullName: CRMScript.NetServer.NSQuoteAlternative.GetDiscountPercent()
+  type: Method
+  summary: # TODO
+  remarks: "\nBoth the two 'DiscountPercent' and 'DiscountAmount' shall be filled out, but the UserValueOverride field must be set to the field the user actually changed. If this field is filled out by the user, it overrides the discount suggested by the connector. If the user has not filled any values, the system will copy the ERP discount percent value into this field.\n"
+  syntax: 
+    content: Float GetDiscountPercent()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "The discount the sales rep specifies, in percent. '12%' is represented as '12'."
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nFloat discountPercent = thing.GetDiscountPercent();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.GetEarningAmount()
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetEarningAmount()
+  id: 'GetEarningAmount()'
+  so.intellisense: NSQuoteAlternative.GetEarningAmount
+  langs:
+  - crmscript
+  name: 'GetEarningAmount()'
+  nameWithType: NSQuoteAlternative.GetEarningAmount()
+  fullName: CRMScript.NetServer.NSQuoteAlternative.GetEarningAmount()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetEarningAmount()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Earning on this alternative, as an absolute amount."
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nFloat earningAmount = thing.GetEarningAmount();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.GetEarningPercent()
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetEarningPercent()
+  id: 'GetEarningPercent()'
+  so.intellisense: NSQuoteAlternative.GetEarningPercent
+  langs:
+  - crmscript
+  name: 'GetEarningPercent()'
+  nameWithType: NSQuoteAlternative.GetEarningPercent()
+  fullName: CRMScript.NetServer.NSQuoteAlternative.GetEarningPercent()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetEarningPercent()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "The earning on this alternative, in percent of total. The Percentage is given in integer form, '12%' is represented as '12'."
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nFloat earningPercent = thing.GetEarningPercent();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.GetERPDiscountAmount()
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetERPDiscountAmount()
+  id: 'GetERPDiscountAmount()'
+  so.intellisense: NSQuoteAlternative.GetERPDiscountAmount
+  langs:
+  - crmscript
+  name: 'GetERPDiscountAmount()'
+  nameWithType: NSQuoteAlternative.GetERPDiscountAmount()
+  fullName: CRMScript.NetServer.NSQuoteAlternative.GetERPDiscountAmount()
+  type: Method
+  summary: "\nCan be overridden by the user in the field 'DiscountPercent' or 'DiscountAmount'. Both the two 'ERPDiscountPercent' and 'ERPDiscountAmount' shall be filled out. If UserValueOverride is 'None', then the ERPDiscountAmount shall be copied into DiscountAmount and ERPDiscountPercent into DiscountPercent.\n"
+  remarks: 
+  syntax: 
+    content: Float GetERPDiscountAmount()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "The discount the system calculates based on customer /amount / whatever."
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nFloat eRPDiscountAmount = thing.GetERPDiscountAmount();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.GetERPDiscountPercent()
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetERPDiscountPercent()
+  id: 'GetERPDiscountPercent()'
+  so.intellisense: NSQuoteAlternative.GetERPDiscountPercent
+  langs:
+  - crmscript
+  name: 'GetERPDiscountPercent()'
+  nameWithType: NSQuoteAlternative.GetERPDiscountPercent()
+  fullName: CRMScript.NetServer.NSQuoteAlternative.GetERPDiscountPercent()
+  type: Method
+  summary: # TODO
+  remarks: "\nCan be overridden by the sales rep in the field 'DiscountPercent' or 'DiscountAmount'. Both the two 'ERPDiscountPercent' and 'ERPDiscountAmount' shall be filled out. If UserValueOverride is 'None', then the ERPDiscountAmount shall be copied into DiscountAmount and ERPDiscountPercent into DiscountPercent.\n"
+  syntax: 
+    content: Float GetERPDiscountPercent()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "The discount the system calculates based on customer /amount / whatever. The Percentage is given in integer form, '12%' is represented as '12'."
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nFloat eRPDiscountPercent = thing.GetERPDiscountPercent();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.GetERPQuoteAlternativeKey()
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetERPQuoteAlternativeKey()
+  id: 'GetERPQuoteAlternativeKey()'
+  so.intellisense: NSQuoteAlternative.GetERPQuoteAlternativeKey
+  langs:
+  - crmscript
+  name: 'GetERPQuoteAlternativeKey()'
+  nameWithType: NSQuoteAlternative.GetERPQuoteAlternativeKey()
+  fullName: CRMScript.NetServer.NSQuoteAlternative.GetERPQuoteAlternativeKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetERPQuoteAlternativeKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Key that identifies this alternative in the ERP system, if it exists there."
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nString eRPQuoteAlternativeKey = thing.GetERPQuoteAlternativeKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.GetExtraField1()
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetExtraField1()
+  id: 'GetExtraField1()'
+  so.intellisense: NSQuoteAlternative.GetExtraField1
+  langs:
+  - crmscript
+  name: 'GetExtraField1()'
+  nameWithType: NSQuoteAlternative.GetExtraField1()
+  fullName: CRMScript.NetServer.NSQuoteAlternative.GetExtraField1()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExtraField1()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Optional information added by Quote Connector; usable in the quote document merge process."
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nString extraField1 = thing.GetExtraField1();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.GetExtraField2()
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetExtraField2()
+  id: 'GetExtraField2()'
+  so.intellisense: NSQuoteAlternative.GetExtraField2
+  langs:
+  - crmscript
+  name: 'GetExtraField2()'
+  nameWithType: NSQuoteAlternative.GetExtraField2()
+  fullName: CRMScript.NetServer.NSQuoteAlternative.GetExtraField2()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExtraField2()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Optional information added by Quote Connector; usable in the quote document merge process."
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nString extraField2 = thing.GetExtraField2();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.GetExtraField3()
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetExtraField3()
+  id: 'GetExtraField3()'
+  so.intellisense: NSQuoteAlternative.GetExtraField3
+  langs:
+  - crmscript
+  name: 'GetExtraField3()'
+  nameWithType: NSQuoteAlternative.GetExtraField3()
+  fullName: CRMScript.NetServer.NSQuoteAlternative.GetExtraField3()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExtraField3()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Optional information added by Quote Connector; usable in the quote document merge process."
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nString extraField3 = thing.GetExtraField3();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.GetExtraField4()
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetExtraField4()
+  id: 'GetExtraField4()'
+  so.intellisense: NSQuoteAlternative.GetExtraField4
+  langs:
+  - crmscript
+  name: 'GetExtraField4()'
+  nameWithType: NSQuoteAlternative.GetExtraField4()
+  fullName: CRMScript.NetServer.NSQuoteAlternative.GetExtraField4()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExtraField4()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Optional information added by Quote Connector; usable in the quote document merge process."
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nString extraField4 = thing.GetExtraField4();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.GetExtraField5()
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetExtraField5()
+  id: 'GetExtraField5()'
+  so.intellisense: NSQuoteAlternative.GetExtraField5
+  langs:
+  - crmscript
+  name: 'GetExtraField5()'
+  nameWithType: NSQuoteAlternative.GetExtraField5()
+  fullName: CRMScript.NetServer.NSQuoteAlternative.GetExtraField5()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExtraField5()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Optional information added by Quote Connector; usable in the quote document merge process."
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nString extraField5 = thing.GetExtraField5();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.GetName()
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetName()
+  id: 'GetName()'
+  so.intellisense: NSQuoteAlternative.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSQuoteAlternative.GetName()
+  fullName: CRMScript.NetServer.NSQuoteAlternative.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of Alternative. Shown in tab in user interface, intentionally kept short."
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.GetQuoteAlternativeId()
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetQuoteAlternativeId()
+  id: 'GetQuoteAlternativeId()'
+  so.intellisense: NSQuoteAlternative.GetQuoteAlternativeId
+  langs:
+  - crmscript
+  name: 'GetQuoteAlternativeId()'
+  nameWithType: NSQuoteAlternative.GetQuoteAlternativeId()
+  fullName: CRMScript.NetServer.NSQuoteAlternative.GetQuoteAlternativeId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetQuoteAlternativeId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nInteger quoteAlternativeId = thing.GetQuoteAlternativeId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.GetQuoteVersionId()
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetQuoteVersionId()
+  id: 'GetQuoteVersionId()'
+  so.intellisense: NSQuoteAlternative.GetQuoteVersionId
+  langs:
+  - crmscript
+  name: 'GetQuoteVersionId()'
+  nameWithType: NSQuoteAlternative.GetQuoteVersionId()
+  fullName: CRMScript.NetServer.NSQuoteAlternative.GetQuoteVersionId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetQuoteVersionId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The version that owns this alternative (the chain is Sale 1-&gt;1 Quote 1-&gt;+ QuoteVersion 1-&gt;+ QuoteAlternative."
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nInteger quoteVersionId = thing.GetQuoteVersionId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.GetReason()
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetReason()
+  id: 'GetReason()'
+  so.intellisense: NSQuoteAlternative.GetReason
+  langs:
+  - crmscript
+  name: 'GetReason()'
+  nameWithType: NSQuoteAlternative.GetReason()
+  fullName: CRMScript.NetServer.NSQuoteAlternative.GetReason()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetReason()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "If there was a problem, this field contains a localized explanation of the problem and possible steps to fix it that the user can be shown."
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nString reason = thing.GetReason();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.GetStatus()
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetStatus()
+  id: 'GetStatus()'
+  so.intellisense: NSQuoteAlternative.GetStatus
+  langs:
+  - crmscript
+  name: 'GetStatus()'
+  nameWithType: NSQuoteAlternative.GetStatus()
+  fullName: CRMScript.NetServer.NSQuoteAlternative.GetStatus()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetStatus()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "If there was a problem with for instance calculation, this field is set to warning or error. See <xref href=\"CRMScript.NetServer.QuoteStatus\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nInteger status = thing.GetStatus();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.GetSubTotal()
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetSubTotal()
+  id: 'GetSubTotal()'
+  so.intellisense: NSQuoteAlternative.GetSubTotal
+  langs:
+  - crmscript
+  name: 'GetSubTotal()'
+  nameWithType: NSQuoteAlternative.GetSubTotal()
+  fullName: CRMScript.NetServer.NSQuoteAlternative.GetSubTotal()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetSubTotal()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Value to help the user interface, is computed by summing the total price of the quote lines, and NOT by summing their subtotals."
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nFloat subTotal = thing.GetSubTotal();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.GetTotalPrice()
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetTotalPrice()
+  id: 'GetTotalPrice()'
+  so.intellisense: NSQuoteAlternative.GetTotalPrice
+  langs:
+  - crmscript
+  name: 'GetTotalPrice()'
+  nameWithType: NSQuoteAlternative.GetTotalPrice()
+  fullName: CRMScript.NetServer.NSQuoteAlternative.GetTotalPrice()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Float GetTotalPrice()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Sum of the QuoteLines.TotalPrice, AlternativeDiscount or QuoteLines.TotalCost + Earning based on what, if anything, the user has entered last. Shall be calculated by the connector."
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nFloat totalPrice = thing.GetTotalPrice();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.GetUserValueOverride()
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetUserValueOverride()
+  id: 'GetUserValueOverride()'
+  so.intellisense: NSQuoteAlternative.GetUserValueOverride
+  langs:
+  - crmscript
+  name: 'GetUserValueOverride()'
+  nameWithType: NSQuoteAlternative.GetUserValueOverride()
+  fullName: CRMScript.NetServer.NSQuoteAlternative.GetUserValueOverride()
+  type: Method
+  summary: # TODO
+  remarks: "\nIf the user has filled out the discountpercentage field, then the UserValueOverride field is set to OverridePercent. (The DiscountAmount, EarningPercent, EarningAmount and TotalPrice fields are calculated based on the discountPercent.)\n"
+  syntax: 
+    content: Integer GetUserValueOverride()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Has the pre-calculated (from ERP) price information been overridden, and how. See <xref href=\"CRMScript.NetServer.ValueOverride\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nInteger userValueOverride = thing.GetUserValueOverride();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.GetVAT()
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetVAT()
+  id: 'GetVAT()'
+  so.intellisense: NSQuoteAlternative.GetVAT
+  langs:
+  - crmscript
+  name: 'GetVAT()'
+  nameWithType: NSQuoteAlternative.GetVAT()
+  fullName: CRMScript.NetServer.NSQuoteAlternative.GetVAT()
+  type: Method
+  summary: # TODO
+  remarks: "\nThe SuperOffice quote connector will calculate this field based on the vat PERCENTAGES on the individual lines; other connectors may implement other algorithms at will.\n"
+  syntax: 
+    content: Float GetVAT()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description: "Tax/VAT, THIS IS AN AMOUNT, available as a merge field in the quote document."
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nFloat vAT = thing.GetVAT();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.GetVATInfo()
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.GetVATInfo()
+  id: 'GetVATInfo()'
+  so.intellisense: NSQuoteAlternative.GetVATInfo
+  langs:
+  - crmscript
+  name: 'GetVATInfo()'
+  nameWithType: NSQuoteAlternative.GetVATInfo()
+  fullName: CRMScript.NetServer.NSQuoteAlternative.GetVATInfo()
+  type: Method
+  summary: # TODO
+  remarks: "\nThis field has no business logic in the CRM code, but is available as a merge field in the quote documents.\n"
+  syntax: 
+    content: String GetVATInfo()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Extra info about VAT that the connector might insert."
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nString vATInfo = thing.GetVATInfo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSQuoteAlternative.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSQuoteAlternative.SetDescription(String)
+  fullName: CRMScript.NetServer.NSQuoteAlternative.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "The tool-tip to use in the user interface (on the tab, for instance)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.SetDiscountAmount(Float)
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetDiscountAmount(Float)
+  id: 'SetDiscountAmount(Float)'
+  so.intellisense: NSQuoteAlternative.SetDiscountAmount
+  langs:
+  - crmscript
+  name: 'SetDiscountAmount(Float)'
+  nameWithType: NSQuoteAlternative.SetDiscountAmount(Float)
+  fullName: CRMScript.NetServer.NSQuoteAlternative.SetDiscountAmount(Float)
+  type: Method
+  summary: # TODO
+  remarks: "\nIf this field is filled out by the user, it overrides the discount suggested by the connector. If the user has not filled any values, the system will copy the ERP discount amount value into this field.\n"
+  syntax: 
+    content: Void SetDiscountAmount(Float discountAmount)
+    parameters:
+    - id: discountAmount
+      type: CRMScript.Global.Float
+      description: "The discount the sales rep specifies, in whatever currency the sale is in. Both the two 'DiscountPercent' and 'DiscountAmount' shall be filled out, but the UserValueOverride field must be set to the field the user actually changed."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nFloat discountAmount;\nthing.SetDiscountAmount(discountAmount);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.SetDiscountPercent(Float)
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetDiscountPercent(Float)
+  id: 'SetDiscountPercent(Float)'
+  so.intellisense: NSQuoteAlternative.SetDiscountPercent
+  langs:
+  - crmscript
+  name: 'SetDiscountPercent(Float)'
+  nameWithType: NSQuoteAlternative.SetDiscountPercent(Float)
+  fullName: CRMScript.NetServer.NSQuoteAlternative.SetDiscountPercent(Float)
+  type: Method
+  summary: # TODO
+  remarks: "\nIf this field is filled out by the user, it overrides the discount suggested by the connector. If the user has not filled any values, the system will copy the ERP discount percent value into this field.\n"
+  syntax: 
+    content: Void SetDiscountPercent(Float discountPercent)
+    parameters:
+    - id: discountPercent
+      type: CRMScript.Global.Float
+      description: "The discount the sales rep specifies, in percent. The Percentage is given in integer form, i.e. '12%' is represented as '12'. Both the two 'DiscountPercent' and 'DiscountAmount' shall be filled out, but the UserValueOverride field must be set to the field the user actually changed."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nFloat discountPercent;\nthing.SetDiscountPercent(discountPercent);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.SetEarningAmount(Float)
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetEarningAmount(Float)
+  id: 'SetEarningAmount(Float)'
+  so.intellisense: NSQuoteAlternative.SetEarningAmount
+  langs:
+  - crmscript
+  name: 'SetEarningAmount(Float)'
+  nameWithType: NSQuoteAlternative.SetEarningAmount(Float)
+  fullName: CRMScript.NetServer.NSQuoteAlternative.SetEarningAmount(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEarningAmount(Float earningAmount)
+    parameters:
+    - id: earningAmount
+      type: CRMScript.Global.Float
+      description: "Earning on this alternative, as an absolute amount."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nFloat earningAmount;\nthing.SetEarningAmount(earningAmount);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.SetEarningPercent(Float)
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetEarningPercent(Float)
+  id: 'SetEarningPercent(Float)'
+  so.intellisense: NSQuoteAlternative.SetEarningPercent
+  langs:
+  - crmscript
+  name: 'SetEarningPercent(Float)'
+  nameWithType: NSQuoteAlternative.SetEarningPercent(Float)
+  fullName: CRMScript.NetServer.NSQuoteAlternative.SetEarningPercent(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEarningPercent(Float earningPercent)
+    parameters:
+    - id: earningPercent
+      type: CRMScript.Global.Float
+      description: "The earning on this alternative, in percent of total. The Percentage is given in integer form, i.e. '12%' is represented as '12'."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nFloat earningPercent;\nthing.SetEarningPercent(earningPercent);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.SetERPDiscountAmount(Float)
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetERPDiscountAmount(Float)
+  id: 'SetERPDiscountAmount(Float)'
+  so.intellisense: NSQuoteAlternative.SetERPDiscountAmount
+  langs:
+  - crmscript
+  name: 'SetERPDiscountAmount(Float)'
+  nameWithType: NSQuoteAlternative.SetERPDiscountAmount(Float)
+  fullName: CRMScript.NetServer.NSQuoteAlternative.SetERPDiscountAmount(Float)
+  type: Method
+  summary: # TODO
+  remarks: "\nCan be overridden by the user in the field 'DiscountPercent' or 'DiscountAmount'. Both the two 'ERPDiscountPercent' and 'ERPDiscountAmount' shall be filled out. If UserValueOverride is 'None', then the ERPDiscountAmount shall be copied into DiscountAmount and ERPDiscountPercent into DiscountPercent.\n"
+  syntax: 
+    content: Void SetERPDiscountAmount(Float eRPDiscountAmount)
+    parameters:
+    - id: eRPDiscountAmount
+      type: CRMScript.Global.Float
+      description: "The discount the system calculates based on customer /amount / whatever."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nFloat eRPDiscountAmount;\nthing.SetERPDiscountAmount(eRPDiscountAmount);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.SetERPDiscountPercent(Float)
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetERPDiscountPercent(Float)
+  id: 'SetERPDiscountPercent(Float)'
+  so.intellisense: NSQuoteAlternative.SetERPDiscountPercent
+  langs:
+  - crmscript
+  name: 'SetERPDiscountPercent(Float)'
+  nameWithType: NSQuoteAlternative.SetERPDiscountPercent(Float)
+  fullName: CRMScript.NetServer.NSQuoteAlternative.SetERPDiscountPercent(Float)
+  type: Method
+  summary: # TODO
+  remarks: "\nCan be overridden by the sales rep in the field 'DiscountPercent' or 'DiscountAmount'. Both the two 'ERPDiscountPercent' and 'ERPDiscountAmount' shall be filled out. If UserValueOverride is 'None', then the ERPDiscountAmount shall be copied into DiscountAmount and ERPDiscountPercent into DiscountPercent.\n"
+  syntax: 
+    content: Void SetERPDiscountPercent(Float eRPDiscountPercent)
+    parameters:
+    - id: eRPDiscountPercent
+      type: CRMScript.Global.Float
+      description: "The discount the system calculates based on customer /amount / whatever. The Percentage is given in integer form, i.e. '12%' is represented as '12'."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nFloat eRPDiscountPercent;\nthing.SetERPDiscountPercent(eRPDiscountPercent);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.SetERPQuoteAlternativeKey(String)
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetERPQuoteAlternativeKey(String)
+  id: 'SetERPQuoteAlternativeKey(String)'
+  so.intellisense: NSQuoteAlternative.SetERPQuoteAlternativeKey
+  langs:
+  - crmscript
+  name: 'SetERPQuoteAlternativeKey(String)'
+  nameWithType: NSQuoteAlternative.SetERPQuoteAlternativeKey(String)
+  fullName: CRMScript.NetServer.NSQuoteAlternative.SetERPQuoteAlternativeKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetERPQuoteAlternativeKey(String eRPQuoteAlternativeKey)
+    parameters:
+    - id: eRPQuoteAlternativeKey
+      type: CRMScript.Global.String
+      description: "Key that identifies this alternative in the ERP system, if it exists there."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nString eRPQuoteAlternativeKey;\nthing.SetERPQuoteAlternativeKey(eRPQuoteAlternativeKey);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.SetExtraField1(String)
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetExtraField1(String)
+  id: 'SetExtraField1(String)'
+  so.intellisense: NSQuoteAlternative.SetExtraField1
+  langs:
+  - crmscript
+  name: 'SetExtraField1(String)'
+  nameWithType: NSQuoteAlternative.SetExtraField1(String)
+  fullName: CRMScript.NetServer.NSQuoteAlternative.SetExtraField1(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraField1(String extraField1)
+    parameters:
+    - id: extraField1
+      type: CRMScript.Global.String
+      description: "Optional information added by Quote Connector; usable in the quote document merge process."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nString extraField1;\nthing.SetExtraField1(extraField1);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.SetExtraField2(String)
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetExtraField2(String)
+  id: 'SetExtraField2(String)'
+  so.intellisense: NSQuoteAlternative.SetExtraField2
+  langs:
+  - crmscript
+  name: 'SetExtraField2(String)'
+  nameWithType: NSQuoteAlternative.SetExtraField2(String)
+  fullName: CRMScript.NetServer.NSQuoteAlternative.SetExtraField2(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraField2(String extraField2)
+    parameters:
+    - id: extraField2
+      type: CRMScript.Global.String
+      description: "Optional information added by Quote Connector; usable in the quote document merge process."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nString extraField2;\nthing.SetExtraField2(extraField2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.SetExtraField3(String)
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetExtraField3(String)
+  id: 'SetExtraField3(String)'
+  so.intellisense: NSQuoteAlternative.SetExtraField3
+  langs:
+  - crmscript
+  name: 'SetExtraField3(String)'
+  nameWithType: NSQuoteAlternative.SetExtraField3(String)
+  fullName: CRMScript.NetServer.NSQuoteAlternative.SetExtraField3(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraField3(String extraField3)
+    parameters:
+    - id: extraField3
+      type: CRMScript.Global.String
+      description: "Optional information added by Quote Connector; usable in the quote document merge process."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nString extraField3;\nthing.SetExtraField3(extraField3);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.SetExtraField4(String)
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetExtraField4(String)
+  id: 'SetExtraField4(String)'
+  so.intellisense: NSQuoteAlternative.SetExtraField4
+  langs:
+  - crmscript
+  name: 'SetExtraField4(String)'
+  nameWithType: NSQuoteAlternative.SetExtraField4(String)
+  fullName: CRMScript.NetServer.NSQuoteAlternative.SetExtraField4(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraField4(String extraField4)
+    parameters:
+    - id: extraField4
+      type: CRMScript.Global.String
+      description: "Optional information added by Quote Connector; usable in the quote document merge process."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nString extraField4;\nthing.SetExtraField4(extraField4);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.SetExtraField5(String)
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetExtraField5(String)
+  id: 'SetExtraField5(String)'
+  so.intellisense: NSQuoteAlternative.SetExtraField5
+  langs:
+  - crmscript
+  name: 'SetExtraField5(String)'
+  nameWithType: NSQuoteAlternative.SetExtraField5(String)
+  fullName: CRMScript.NetServer.NSQuoteAlternative.SetExtraField5(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraField5(String extraField5)
+    parameters:
+    - id: extraField5
+      type: CRMScript.Global.String
+      description: "Optional information added by Quote Connector; usable in the quote document merge process."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nString extraField5;\nthing.SetExtraField5(extraField5);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.SetName(String)
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSQuoteAlternative.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSQuoteAlternative.SetName(String)
+  fullName: CRMScript.NetServer.NSQuoteAlternative.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Name of Alternative. Shown in tab in user interface, intentionally kept short."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.SetQuoteAlternativeId(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetQuoteAlternativeId(Integer)
+  id: 'SetQuoteAlternativeId(Integer)'
+  so.intellisense: NSQuoteAlternative.SetQuoteAlternativeId
+  langs:
+  - crmscript
+  name: 'SetQuoteAlternativeId(Integer)'
+  nameWithType: NSQuoteAlternative.SetQuoteAlternativeId(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAlternative.SetQuoteAlternativeId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetQuoteAlternativeId(Integer quoteAlternativeId)
+    parameters:
+    - id: quoteAlternativeId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nInteger quoteAlternativeId;\nthing.SetQuoteAlternativeId(quoteAlternativeId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.SetQuoteVersionId(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetQuoteVersionId(Integer)
+  id: 'SetQuoteVersionId(Integer)'
+  so.intellisense: NSQuoteAlternative.SetQuoteVersionId
+  langs:
+  - crmscript
+  name: 'SetQuoteVersionId(Integer)'
+  nameWithType: NSQuoteAlternative.SetQuoteVersionId(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAlternative.SetQuoteVersionId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetQuoteVersionId(Integer quoteVersionId)
+    parameters:
+    - id: quoteVersionId
+      type: CRMScript.Global.Integer
+      description: "The version that owns this alternative (the chain is Sale 1-&gt;1 Quote 1-&gt;+ QuoteVersion 1-&gt;+ QuoteAlternative."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nInteger quoteVersionId;\nthing.SetQuoteVersionId(quoteVersionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.SetReason(String)
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetReason(String)
+  id: 'SetReason(String)'
+  so.intellisense: NSQuoteAlternative.SetReason
+  langs:
+  - crmscript
+  name: 'SetReason(String)'
+  nameWithType: NSQuoteAlternative.SetReason(String)
+  fullName: CRMScript.NetServer.NSQuoteAlternative.SetReason(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetReason(String reason)
+    parameters:
+    - id: reason
+      type: CRMScript.Global.String
+      description: "If there was a problem, this field contains a localized explanation of the problem and possible steps to fix it that the user can be shown."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nString reason;\nthing.SetReason(reason);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.SetStatus(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetStatus(Integer)
+  id: 'SetStatus(Integer)'
+  so.intellisense: NSQuoteAlternative.SetStatus
+  langs:
+  - crmscript
+  name: 'SetStatus(Integer)'
+  nameWithType: NSQuoteAlternative.SetStatus(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAlternative.SetStatus(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetStatus(Integer status)
+    parameters:
+    - id: status
+      type: CRMScript.Global.Integer
+      description: "If there was a problem with for instance calculation, this field is set to warning or error. See <xref href=\"CRMScript.NetServer.QuoteStatus\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nInteger status;\nthing.SetStatus(status);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.SetSubTotal(Float)
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetSubTotal(Float)
+  id: 'SetSubTotal(Float)'
+  so.intellisense: NSQuoteAlternative.SetSubTotal
+  langs:
+  - crmscript
+  name: 'SetSubTotal(Float)'
+  nameWithType: NSQuoteAlternative.SetSubTotal(Float)
+  fullName: CRMScript.NetServer.NSQuoteAlternative.SetSubTotal(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSubTotal(Float subTotal)
+    parameters:
+    - id: subTotal
+      type: CRMScript.Global.Float
+      description: "Value to help the user interface, is computed by summing the total price of the quote lines, and NOT by summing their subtotals."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nFloat subTotal;\nthing.SetSubTotal(subTotal);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.SetTotalPrice(Float)
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetTotalPrice(Float)
+  id: 'SetTotalPrice(Float)'
+  so.intellisense: NSQuoteAlternative.SetTotalPrice
+  langs:
+  - crmscript
+  name: 'SetTotalPrice(Float)'
+  nameWithType: NSQuoteAlternative.SetTotalPrice(Float)
+  fullName: CRMScript.NetServer.NSQuoteAlternative.SetTotalPrice(Float)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTotalPrice(Float totalPrice)
+    parameters:
+    - id: totalPrice
+      type: CRMScript.Global.Float
+      description: "Sum of the QuoteLines.TotalPrice* AlternativeDiscount or QuoteLines.TotalCost + Earning based on what, if anything, the user has entered last. Shall be calculated by the connector."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nFloat totalPrice;\nthing.SetTotalPrice(totalPrice);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.SetUserValueOverride(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetUserValueOverride(Integer)
+  id: 'SetUserValueOverride(Integer)'
+  so.intellisense: NSQuoteAlternative.SetUserValueOverride
+  langs:
+  - crmscript
+  name: 'SetUserValueOverride(Integer)'
+  nameWithType: NSQuoteAlternative.SetUserValueOverride(Integer)
+  fullName: CRMScript.NetServer.NSQuoteAlternative.SetUserValueOverride(Integer)
+  type: Method
+  summary: # TODO
+  remarks: "\nIf the user has filled out the discountpercentage field, then the UserValueOverride field is set to OverridePercent. (The DiscountAmount, EarningPercent, EarningAmount and TotalPrice fields are calculated based on the discountPercent.)\n"
+  syntax: 
+    content: Void SetUserValueOverride(Integer userValueOverride)
+    parameters:
+    - id: userValueOverride
+      type: CRMScript.Global.Integer
+      description: "Has the pre-calculated (from ERP) price information been overridden, and how. See <xref href=\"CRMScript.NetServer.ValueOverride\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nInteger userValueOverride;\nthing.SetUserValueOverride(userValueOverride);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.SetVAT(Float)
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetVAT(Float)
+  id: 'SetVAT(Float)'
+  so.intellisense: NSQuoteAlternative.SetVAT
+  langs:
+  - crmscript
+  name: 'SetVAT(Float)'
+  nameWithType: NSQuoteAlternative.SetVAT(Float)
+  fullName: CRMScript.NetServer.NSQuoteAlternative.SetVAT(Float)
+  type: Method
+  summary: # TODO
+  remarks: "\nThe SuperOffice quote connector will calculate this field based on the vat PERCENTAGES on the individual lines; other connectors may implement other algorithms at will.\n"
+  syntax: 
+    content: Void SetVAT(Float vAT)
+    parameters:
+    - id: vAT
+      type: CRMScript.Global.Float
+      description: "Tax/VAT* THIS IS AN AMOUNT, available as a merge field in the quote document."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nFloat vAT;\nthing.SetVAT(vAT);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteAlternative.SetVATInfo(String)
+  commentId: M:CRMScript.NetServer.NSQuoteAlternative.SetVATInfo(String)
+  id: 'SetVATInfo(String)'
+  so.intellisense: NSQuoteAlternative.SetVATInfo
+  langs:
+  - crmscript
+  name: 'SetVATInfo(String)'
+  nameWithType: NSQuoteAlternative.SetVATInfo(String)
+  fullName: CRMScript.NetServer.NSQuoteAlternative.SetVATInfo(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nThis field has no business logic in the CRM code, but is available as a merge field in the quote documents.\n"
+  syntax: 
+    content: Void SetVATInfo(String vATInfo)
+    parameters:
+    - id: vATInfo
+      type: CRMScript.Global.String
+      description: "Extra info about VAT that the connector might insert."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteAlternative thing;\nString vATInfo;\nthing.SetVATInfo(vATInfo);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSQuoteAlternative
+  commentId: T:CRMScript.NetServer.NSQuoteAlternative
+  isExternal: true
+  name: NSQuoteAlternative
+  nameWithType: NSQuoteAlternative
+  fullName: CRMScript.NetServer.NSQuoteAlternative
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Float
+  commentId: T:CRMScript.Global.Float
+  isExternal: true
+  name: Float
+  nameWithType: Float
+  fullName: CRMScript.Global.Float
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.ValueOverride
+  commentId: T:CRMScript.NetServer.ValueOverride
+  isExternal: true
+  name: ValueOverride
+  nameWithType: ValueOverride
+  fullName: CRMScript.NetServer.ValueOverride
+- uid: CRMScript.NetServer.QuoteStatus
+  commentId: T:CRMScript.NetServer.QuoteStatus
+  isExternal: true
+  name: QuoteStatus
+  nameWithType: QuoteStatus
+  fullName: CRMScript.NetServer.QuoteStatus

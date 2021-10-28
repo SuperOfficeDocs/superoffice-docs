@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSTask
+  commentId: T:CRMScript.NetServer.NSTask
+  id: NSTask
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSTask.#ctor
+  - CRMScript.NetServer.NSTask.GetId()
+  - CRMScript.NetServer.NSTask.GetTooltip()
+  - CRMScript.NetServer.NSTask.GetValue()
+  - CRMScript.NetServer.NSTask.SetId(Integer)
+  - CRMScript.NetServer.NSTask.SetTooltip(String)
+  - CRMScript.NetServer.NSTask.SetValue(String)
+  name: NSTask
+  nameWithType: NSTask
+  fullName: CRMScript.NetServer.NSTask
+  type: Class
+  summary: "\nType of an appointment.\n"
+  example: 
+- uid: CRMScript.NetServer.NSTask.#ctor
+  commentId: M:CRMScript.NetServer.NSTask.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSTask
+  langs:
+  - crmscript
+  name: NSTask()
+  nameWithType: NSTask.#ctor
+  fullName: CRMScript.NetServer.NSTask.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSTask class.\n"
+  remarks: 
+  syntax: 
+    content: NSTask
+  example: 
+- uid: CRMScript.NetServer.NSTask.GetId()
+  commentId: M:CRMScript.NetServer.NSTask.GetId()
+  id: 'GetId()'
+  so.intellisense: NSTask.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSTask.GetId()
+  fullName: CRMScript.NetServer.NSTask.GetId()
+  type: Method
+  summary: "\nGets the primary key (ID) for the Task\n"
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSTask thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTask.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSTask.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSTask.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSTask.GetTooltip()
+  fullName: CRMScript.NetServer.NSTask.GetTooltip()
+  type: Method
+  summary: "\nGets the tooltip description for the Task list item.\n"
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSTask thing;\nString descr = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTask.GetValue()
+  commentId: M:CRMScript.NetServer.NSTask.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSTask.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSTask.GetValue()
+  fullName: CRMScript.NetServer.NSTask.GetValue()
+  type: Method
+  summary: "\nGets the name of the Task.\n"
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSTask thing;\nString name = thing.GetValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTask.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSTask.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSTask.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSTask.SetId(Integer)
+  fullName: CRMScript.NetServer.NSTask.SetId(Integer)
+  type: Method
+  summary: "\nSets the primary key (ID) for the Task\n"
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTask thing;\nthing.SetId(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTask.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSTask.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSTask.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSTask.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSTask.SetTooltip(String)
+  type: Method
+  summary: "\nSets the tooltip description for the Task list item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTask thing;\nString descr = &quot;something new&quot;;\nthing.SetTooltip(descr);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTask.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSTask.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSTask.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSTask.SetValue(String)
+  fullName: CRMScript.NetServer.NSTask.SetValue(String)
+  type: Method
+  summary: "\nSets the name of the Task item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTask thing;\nthing.SetValue(&quot;frotz&quot;);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSTask
+  commentId: T:CRMScript.NetServer.NSTask
+  isExternal: true
+  name: NSTask
+  nameWithType: NSTask
+  fullName: CRMScript.NetServer.NSTask
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSRedLetterSummary
+  commentId: T:CRMScript.NetServer.NSRedLetterSummary
+  id: NSRedLetterSummary
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSRedLetterSummary.#ctor
+  - CRMScript.NetServer.NSRedLetterSummary.GetIsOtherCountryHoliday()
+  - CRMScript.NetServer.NSRedLetterSummary.GetIsOwnCountryHoliday()
+  - CRMScript.NetServer.NSRedLetterSummary.SetIsOtherCountryHoliday(Bool)
+  - CRMScript.NetServer.NSRedLetterSummary.SetIsOwnCountryHoliday(Bool)
+  name: NSRedLetterSummary
+  nameWithType: NSRedLetterSummary
+  fullName: CRMScript.NetServer.NSRedLetterSummary
+  type: Class
+  summary: "\nSummary of red-letter day information - holiday in own country, and in other countries known to the system.\n"
+  example: 
+- uid: CRMScript.NetServer.NSRedLetterSummary.#ctor
+  commentId: M:CRMScript.NetServer.NSRedLetterSummary.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSRedLetterSummary
+  langs:
+  - crmscript
+  name: NSRedLetterSummary()
+  nameWithType: NSRedLetterSummary.#ctor
+  fullName: CRMScript.NetServer.NSRedLetterSummary.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSRedLetterSummary class.\n"
+  remarks: 
+  syntax: 
+    content: NSRedLetterSummary
+  example: 
+- uid: CRMScript.NetServer.NSRedLetterSummary.GetIsOtherCountryHoliday()
+  commentId: M:CRMScript.NetServer.NSRedLetterSummary.GetIsOtherCountryHoliday()
+  id: 'GetIsOtherCountryHoliday()'
+  so.intellisense: NSRedLetterSummary.GetIsOtherCountryHoliday
+  langs:
+  - crmscript
+  name: 'GetIsOtherCountryHoliday()'
+  nameWithType: NSRedLetterSummary.GetIsOtherCountryHoliday()
+  fullName: CRMScript.NetServer.NSRedLetterSummary.GetIsOtherCountryHoliday()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsOtherCountryHoliday()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If true, this day is a holiday in at least one of the countries that has defined associates in the system, but not in the country of the associate whose diary is being scanned."
+  example: 
+  - "\n<pre><code>NSRedLetterSummary thing;\nBool isOtherCountryHoliday = thing.GetIsOtherCountryHoliday();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRedLetterSummary.GetIsOwnCountryHoliday()
+  commentId: M:CRMScript.NetServer.NSRedLetterSummary.GetIsOwnCountryHoliday()
+  id: 'GetIsOwnCountryHoliday()'
+  so.intellisense: NSRedLetterSummary.GetIsOwnCountryHoliday
+  langs:
+  - crmscript
+  name: 'GetIsOwnCountryHoliday()'
+  nameWithType: NSRedLetterSummary.GetIsOwnCountryHoliday()
+  fullName: CRMScript.NetServer.NSRedLetterSummary.GetIsOwnCountryHoliday()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsOwnCountryHoliday()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "If true, this day is a holiday in the country of the given associate."
+  example: 
+  - "\n<pre><code>NSRedLetterSummary thing;\nBool isOwnCountryHoliday = thing.GetIsOwnCountryHoliday();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRedLetterSummary.SetIsOtherCountryHoliday(Bool)
+  commentId: M:CRMScript.NetServer.NSRedLetterSummary.SetIsOtherCountryHoliday(Bool)
+  id: 'SetIsOtherCountryHoliday(Bool)'
+  so.intellisense: NSRedLetterSummary.SetIsOtherCountryHoliday
+  langs:
+  - crmscript
+  name: 'SetIsOtherCountryHoliday(Bool)'
+  nameWithType: NSRedLetterSummary.SetIsOtherCountryHoliday(Bool)
+  fullName: CRMScript.NetServer.NSRedLetterSummary.SetIsOtherCountryHoliday(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsOtherCountryHoliday(Bool isOtherCountryHoliday)
+    parameters:
+    - id: isOtherCountryHoliday
+      type: CRMScript.Global.Bool
+      description: "If true, this day is a holiday in at least one of the countries that has defined associates in the system, but not in the country of the associate whose diary is being scanned."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRedLetterSummary thing;\nBool isOtherCountryHoliday;\nthing.SetIsOtherCountryHoliday(isOtherCountryHoliday);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRedLetterSummary.SetIsOwnCountryHoliday(Bool)
+  commentId: M:CRMScript.NetServer.NSRedLetterSummary.SetIsOwnCountryHoliday(Bool)
+  id: 'SetIsOwnCountryHoliday(Bool)'
+  so.intellisense: NSRedLetterSummary.SetIsOwnCountryHoliday
+  langs:
+  - crmscript
+  name: 'SetIsOwnCountryHoliday(Bool)'
+  nameWithType: NSRedLetterSummary.SetIsOwnCountryHoliday(Bool)
+  fullName: CRMScript.NetServer.NSRedLetterSummary.SetIsOwnCountryHoliday(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsOwnCountryHoliday(Bool isOwnCountryHoliday)
+    parameters:
+    - id: isOwnCountryHoliday
+      type: CRMScript.Global.Bool
+      description: "If true, this day is a holiday in the country of the given associate."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRedLetterSummary thing;\nBool isOwnCountryHoliday;\nthing.SetIsOwnCountryHoliday(isOwnCountryHoliday);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSRedLetterSummary
+  commentId: T:CRMScript.NetServer.NSRedLetterSummary
+  isExternal: true
+  name: NSRedLetterSummary
+  nameWithType: NSRedLetterSummary
+  fullName: CRMScript.NetServer.NSRedLetterSummary
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

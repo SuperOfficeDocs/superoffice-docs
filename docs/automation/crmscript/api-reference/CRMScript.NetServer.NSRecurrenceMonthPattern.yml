@@ -1,0 +1,254 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSRecurrenceMonthPattern
+  commentId: T:CRMScript.NetServer.NSRecurrenceMonthPattern
+  id: NSRecurrenceMonthPattern
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSRecurrenceMonthPattern.#ctor
+  - CRMScript.NetServer.NSRecurrenceMonthPattern.GetCycle()
+  - CRMScript.NetServer.NSRecurrenceMonthPattern.GetDay()
+  - CRMScript.NetServer.NSRecurrenceMonthPattern.GetPattern()
+  - CRMScript.NetServer.NSRecurrenceMonthPattern.GetWeekday()
+  - CRMScript.NetServer.NSRecurrenceMonthPattern.GetWeekOfMonth()
+  - CRMScript.NetServer.NSRecurrenceMonthPattern.SetCycle(Integer)
+  - CRMScript.NetServer.NSRecurrenceMonthPattern.SetDay(Integer)
+  - CRMScript.NetServer.NSRecurrenceMonthPattern.SetPattern(Integer)
+  - CRMScript.NetServer.NSRecurrenceMonthPattern.SetWeekday(Integer)
+  - CRMScript.NetServer.NSRecurrenceMonthPattern.SetWeekOfMonth(Integer)
+  name: NSRecurrenceMonthPattern
+  nameWithType: NSRecurrenceMonthPattern
+  fullName: CRMScript.NetServer.NSRecurrenceMonthPattern
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceMonthPattern.#ctor
+  commentId: M:CRMScript.NetServer.NSRecurrenceMonthPattern.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSRecurrenceMonthPattern
+  langs:
+  - crmscript
+  name: NSRecurrenceMonthPattern()
+  nameWithType: NSRecurrenceMonthPattern.#ctor
+  fullName: CRMScript.NetServer.NSRecurrenceMonthPattern.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSRecurrenceMonthPattern class.\n"
+  remarks: 
+  syntax: 
+    content: NSRecurrenceMonthPattern
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceMonthPattern.GetCycle()
+  commentId: M:CRMScript.NetServer.NSRecurrenceMonthPattern.GetCycle()
+  id: 'GetCycle()'
+  so.intellisense: NSRecurrenceMonthPattern.GetCycle
+  langs:
+  - crmscript
+  name: 'GetCycle()'
+  nameWithType: NSRecurrenceMonthPattern.GetCycle()
+  fullName: CRMScript.NetServer.NSRecurrenceMonthPattern.GetCycle()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCycle()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceMonthPattern.GetDay()
+  commentId: M:CRMScript.NetServer.NSRecurrenceMonthPattern.GetDay()
+  id: 'GetDay()'
+  so.intellisense: NSRecurrenceMonthPattern.GetDay
+  langs:
+  - crmscript
+  name: 'GetDay()'
+  nameWithType: NSRecurrenceMonthPattern.GetDay()
+  fullName: CRMScript.NetServer.NSRecurrenceMonthPattern.GetDay()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDay()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceMonthPattern.GetPattern()
+  commentId: M:CRMScript.NetServer.NSRecurrenceMonthPattern.GetPattern()
+  id: 'GetPattern()'
+  so.intellisense: NSRecurrenceMonthPattern.GetPattern
+  langs:
+  - crmscript
+  name: 'GetPattern()'
+  nameWithType: NSRecurrenceMonthPattern.GetPattern()
+  fullName: CRMScript.NetServer.NSRecurrenceMonthPattern.GetPattern()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPattern()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceMonthPattern.GetWeekday()
+  commentId: M:CRMScript.NetServer.NSRecurrenceMonthPattern.GetWeekday()
+  id: 'GetWeekday()'
+  so.intellisense: NSRecurrenceMonthPattern.GetWeekday
+  langs:
+  - crmscript
+  name: 'GetWeekday()'
+  nameWithType: NSRecurrenceMonthPattern.GetWeekday()
+  fullName: CRMScript.NetServer.NSRecurrenceMonthPattern.GetWeekday()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetWeekday()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceMonthPattern.GetWeekOfMonth()
+  commentId: M:CRMScript.NetServer.NSRecurrenceMonthPattern.GetWeekOfMonth()
+  id: 'GetWeekOfMonth()'
+  so.intellisense: NSRecurrenceMonthPattern.GetWeekOfMonth
+  langs:
+  - crmscript
+  name: 'GetWeekOfMonth()'
+  nameWithType: NSRecurrenceMonthPattern.GetWeekOfMonth()
+  fullName: CRMScript.NetServer.NSRecurrenceMonthPattern.GetWeekOfMonth()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetWeekOfMonth()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceMonthPattern.SetCycle(Integer)
+  commentId: M:CRMScript.NetServer.NSRecurrenceMonthPattern.SetCycle(Integer)
+  id: 'SetCycle(Integer)'
+  so.intellisense: NSRecurrenceMonthPattern.SetCycle
+  langs:
+  - crmscript
+  name: 'SetCycle(Integer)'
+  nameWithType: NSRecurrenceMonthPattern.SetCycle(Integer)
+  fullName: CRMScript.NetServer.NSRecurrenceMonthPattern.SetCycle(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCycle(Integer cycle)
+    parameters:
+    - id: cycle
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceMonthPattern.SetDay(Integer)
+  commentId: M:CRMScript.NetServer.NSRecurrenceMonthPattern.SetDay(Integer)
+  id: 'SetDay(Integer)'
+  so.intellisense: NSRecurrenceMonthPattern.SetDay
+  langs:
+  - crmscript
+  name: 'SetDay(Integer)'
+  nameWithType: NSRecurrenceMonthPattern.SetDay(Integer)
+  fullName: CRMScript.NetServer.NSRecurrenceMonthPattern.SetDay(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDay(Integer day)
+    parameters:
+    - id: day
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceMonthPattern.SetPattern(Integer)
+  commentId: M:CRMScript.NetServer.NSRecurrenceMonthPattern.SetPattern(Integer)
+  id: 'SetPattern(Integer)'
+  so.intellisense: NSRecurrenceMonthPattern.SetPattern
+  langs:
+  - crmscript
+  name: 'SetPattern(Integer)'
+  nameWithType: NSRecurrenceMonthPattern.SetPattern(Integer)
+  fullName: CRMScript.NetServer.NSRecurrenceMonthPattern.SetPattern(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPattern(Integer pattern)
+    parameters:
+    - id: pattern
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceMonthPattern.SetWeekday(Integer)
+  commentId: M:CRMScript.NetServer.NSRecurrenceMonthPattern.SetWeekday(Integer)
+  id: 'SetWeekday(Integer)'
+  so.intellisense: NSRecurrenceMonthPattern.SetWeekday
+  langs:
+  - crmscript
+  name: 'SetWeekday(Integer)'
+  nameWithType: NSRecurrenceMonthPattern.SetWeekday(Integer)
+  fullName: CRMScript.NetServer.NSRecurrenceMonthPattern.SetWeekday(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWeekday(Integer weekday)
+    parameters:
+    - id: weekday
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSRecurrenceMonthPattern.SetWeekOfMonth(Integer)
+  commentId: M:CRMScript.NetServer.NSRecurrenceMonthPattern.SetWeekOfMonth(Integer)
+  id: 'SetWeekOfMonth(Integer)'
+  so.intellisense: NSRecurrenceMonthPattern.SetWeekOfMonth
+  langs:
+  - crmscript
+  name: 'SetWeekOfMonth(Integer)'
+  nameWithType: NSRecurrenceMonthPattern.SetWeekOfMonth(Integer)
+  fullName: CRMScript.NetServer.NSRecurrenceMonthPattern.SetWeekOfMonth(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetWeekOfMonth(Integer week)
+    parameters:
+    - id: week
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSRecurrenceMonthPattern
+  commentId: T:CRMScript.NetServer.NSRecurrenceMonthPattern
+  isExternal: true
+  name: NSRecurrenceMonthPattern
+  nameWithType: NSRecurrenceMonthPattern
+  fullName: CRMScript.NetServer.NSRecurrenceMonthPattern
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

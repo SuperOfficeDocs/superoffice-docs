@@ -1,0 +1,3125 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSAppointmentAgent
+  commentId: T:CRMScript.NetServer.NSAppointmentAgent
+  id: NSAppointmentAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSAppointmentAgent.#ctor
+  - CRMScript.NetServer.NSAppointmentAgent.Accept(Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.AcceptRejected(Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.AcceptWithEmailConfirmation(Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.AcceptWithSmtpEmailConfirmation(Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.AssignTo(Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.CalculateDays()
+  - CRMScript.NetServer.NSAppointmentAgent.CanAssignToProjectMember(Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.CleanUpBookingDeleted(Integer[])
+  - CRMScript.NetServer.NSAppointmentAgent.CleanUpRecurringBookingDeleted()
+  - CRMScript.NetServer.NSAppointmentAgent.CreateAndAccept(Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.CreateAndAcceptWithEmailConfirmation(Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.CreateAppointmentForUID(String)
+  - CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntity()
+  - CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntityByType(Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntityByTypeAndAssociate(Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntityFromProjectSuggestion(Integer,Integer,Bool,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntityFromSaleSuggestion(Integer,Integer,Bool,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.CreateDefaultRecurrence()
+  - CRMScript.NetServer.NSAppointmentAgent.CreateDefaultRecurrenceByDate()
+  - CRMScript.NetServer.NSAppointmentAgent.CreateDefaultReOpenAppointment(Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.CreateDefaultSuggestedAppointmentEntity()
+  - CRMScript.NetServer.NSAppointmentAgent.CreateDefaultTaskListItem()
+  - CRMScript.NetServer.NSAppointmentAgent.DeclineInvitationFromEmailItem(Integer,String)
+  - CRMScript.NetServer.NSAppointmentAgent.Delete(Integer,Integer,Bool)
+  - CRMScript.NetServer.NSAppointmentAgent.DeleteAppointmentEntity(Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GenerateLead(Integer,String,String,Integer,String,String,String,String,String,String,String,String)
+  - CRMScript.NetServer.NSAppointmentAgent.GetActivityInformationListByDatesAndAssociate(Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetAlarms(Bool,Bool,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetAppointment(Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetAppointmentEntity(Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetAppointmentFromUID(String)
+  - CRMScript.NetServer.NSAppointmentAgent.GetAppointmentHaveParticipantsWithEmail(Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetAppointmentList(Integer[])
+  - CRMScript.NetServer.NSAppointmentAgent.GetAppointmentRecords(Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetAppointmentsByTaskHeading(Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetAssociateDiary(Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetAssociatesDiary(Integer[])
+  - CRMScript.NetServer.NSAppointmentAgent.GetCanInsertForAssociates(Integer[])
+  - CRMScript.NetServer.NSAppointmentAgent.GetContactAppointments(Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetContactAppointmentsByTask(Integer,Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetContactAppointmentsByTaskHeading(Integer,Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetContactAppointmentsByTasks(Integer,Integer,Integer[])
+  - CRMScript.NetServer.NSAppointmentAgent.GetContactAppointmentsByType(Integer,Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetDayInformationListByDatesAndAssociate(Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetDiaryByGroup(Integer,Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetMyAppointments(Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetMyDiary(Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetMyPublishedAppointments()
+  - CRMScript.NetServer.NSAppointmentAgent.GetMySyncAppointments()
+  - CRMScript.NetServer.NSAppointmentAgent.GetMyTasks(Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetNextSuggestedAppointmentBySale(Integer,Integer,Bool)
+  - CRMScript.NetServer.NSAppointmentAgent.GetOrganizerName(Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetPersonAppointments(Integer,Bool,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetPersonAppointmentsByTask(Integer,Bool,Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetPersonAppointmentsByTaskHeading(Integer,Bool,Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetPersonAppointmentsByTasks(Integer,Bool,Integer,Integer[])
+  - CRMScript.NetServer.NSAppointmentAgent.GetPersonAppointmentsByType(Integer,Bool,Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetPersonDiary(Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetPersonTasks(Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetProjectAppointments(Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetProjectAppointmentsByTask(Integer,Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetProjectAppointmentsByTaskHeading(Integer,Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetProjectAppointmentsByTasks(Integer,Integer,Integer[])
+  - CRMScript.NetServer.NSAppointmentAgent.GetProjectAppointmentsByType(Integer,Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetProjectMemberAppointments(Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetProjectMemberAppointmentsByTask(Integer,Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetProjectMemberAppointmentsByTaskHeading(Integer,Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetProjectMemberAppointmentsByTasks(Integer,Integer,Integer[])
+  - CRMScript.NetServer.NSAppointmentAgent.GetProjectMemberAppointmentsByType(Integer,Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetPublishedAppointment(Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetPublishedAppointments(Integer[])
+  - CRMScript.NetServer.NSAppointmentAgent.GetPublishedProjectAppointments(Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetRedLetterInformationListByDatesAndAssociate(Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetSuggestedAppointment(Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetSuggestedAppointmentEntity(Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetTaskListItem(Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.GetTaskListItems(Bool)
+  - CRMScript.NetServer.NSAppointmentAgent.GetUIDFromAppointmentId(Integer,Bool)
+  - CRMScript.NetServer.NSAppointmentAgent.Move(Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.Reject(Integer,String,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.RejectWithEmailConfirmation(Integer,String,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.RejectWithSmtpEmailConfirmation(Integer,String,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.RequestForInfo(Integer,String,String,String,String,String,String,String)
+  - CRMScript.NetServer.NSAppointmentAgent.Save(Integer,Bool)
+  - CRMScript.NetServer.NSAppointmentAgent.SaveAppointmentEntity(NSAppointmentEntity)
+  - CRMScript.NetServer.NSAppointmentAgent.SaveSuggestedAppointmentEntity(NSSuggestedAppointmentEntity)
+  - CRMScript.NetServer.NSAppointmentAgent.SaveTaskListItem(NSTaskListItem)
+  - CRMScript.NetServer.NSAppointmentAgent.SetActivityStatus(String[],Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.SetSeen(Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.ToggleActivities(String[])
+  - CRMScript.NetServer.NSAppointmentAgent.ToggleActivity(String)
+  - CRMScript.NetServer.NSAppointmentAgent.ToggleAndSetActivities(String[])
+  - CRMScript.NetServer.NSAppointmentAgent.ToggleAppointmentStatus(Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.UpdateAppointment(Integer,Integer,Integer,Integer)
+  - CRMScript.NetServer.NSAppointmentAgent.UpdateAppointmentFromIcsResponse(String)
+  - CRMScript.NetServer.NSAppointmentAgent.ValidateAppointmentEntity()
+  - CRMScript.NetServer.NSAppointmentAgent.ValidateDays()
+  - CRMScript.NetServer.NSAppointmentAgent.WillSendEmail()
+  name: NSAppointmentAgent
+  nameWithType: NSAppointmentAgent
+  fullName: CRMScript.NetServer.NSAppointmentAgent
+  type: Class
+  summary: "\nCollection of all services that works with Appointment data.\n"
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSAppointmentAgent
+  langs:
+  - crmscript
+  name: NSAppointmentAgent()
+  nameWithType: NSAppointmentAgent.#ctor
+  fullName: CRMScript.NetServer.NSAppointmentAgent.#ctor
+  type: Constructor
+  summary: "\nCollection of all services that works with Appointment data.\n"
+  remarks: 
+  syntax: 
+    content: NSAppointmentAgent
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.Accept(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.Accept(Integer,Integer)
+  id: 'Accept(Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.Accept
+  langs:
+  - crmscript
+  name: 'Accept(Integer,Integer)'
+  nameWithType: NSAppointmentAgent.Accept(Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.Accept(Integer,Integer)
+  type: Method
+  summary: "\nAccepts an appointment invitation.\n"
+  remarks:
+  syntax: 
+    content: Void Accept(Integer appointmentId, Integer updateMode)
+    parameters:
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: updateMode
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.RecurrenceUpdateMode\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger appointmentId;\nInteger updateMode;\nagent.Accept(appointmentId, updateMode);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.AcceptRejected(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.AcceptRejected(Integer,Integer)
+  id: 'AcceptRejected(Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.AcceptRejected
+  langs:
+  - crmscript
+  name: 'AcceptRejected(Integer,Integer)'
+  nameWithType: NSAppointmentAgent.AcceptRejected(Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.AcceptRejected(Integer,Integer)
+  type: Method
+  summary: "\nAccepts that an invited participant has rejected your invitation or assignment.\n"
+  remarks:
+  syntax: 
+    content: NSAppointmentEntity AcceptRejected(Integer appointmentId, Integer updateMode)
+    parameters:
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: updateMode
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.RecurrenceUpdateMode\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSAppointmentEntity
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger appointmentId;\nInteger updateMode;\nNSAppointmentEntity res = agent.AcceptRejected(appointmentId, updateMode);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.AcceptWithEmailConfirmation(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.AcceptWithEmailConfirmation(Integer,Integer)
+  id: 'AcceptWithEmailConfirmation(Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.AcceptWithEmailConfirmation
+  langs:
+  - crmscript
+  name: 'AcceptWithEmailConfirmation(Integer,Integer)'
+  nameWithType: NSAppointmentAgent.AcceptWithEmailConfirmation(Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.AcceptWithEmailConfirmation(Integer,Integer)
+  type: Method
+  summary: "\nAccepts an appointment invitation and sends an email confirmation to the meeting organizer.\n"
+  remarks:
+  syntax: 
+    content: Void AcceptWithEmailConfirmation(Integer appointmentId, Integer updateMode)
+    parameters:
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: updateMode
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.RecurrenceUpdateMode\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger appointmentId;\nInteger updateMode;\nagent.AcceptWithEmailConfirmation(appointmentId, updateMode);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.AcceptWithSmtpEmailConfirmation(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.AcceptWithSmtpEmailConfirmation(Integer,Integer)
+  id: 'AcceptWithSmtpEmailConfirmation(Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.AcceptWithSmtpEmailConfirmation
+  langs:
+  - crmscript
+  name: 'AcceptWithSmtpEmailConfirmation(Integer,Integer)'
+  nameWithType: NSAppointmentAgent.AcceptWithSmtpEmailConfirmation(Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.AcceptWithSmtpEmailConfirmation(Integer,Integer)
+  type: Method
+  summary: "\nAccepts an appointment invitation and sends an email confirmation to the meeting organizer.\n"
+  remarks:
+  syntax: 
+    content: Void AcceptWithSmtpEmailConfirmation(Integer appointmentId, Integer updateMode, NSEMailConnectionInfo smtpEMailConnectionInfo)
+    parameters:
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: updateMode
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.RecurrenceUpdateMode\" data-throw-if-not-resolved=\"false\"></xref>"
+    - id: smtpEMailConnectionInfo
+      type: CRMScript.NetServer.NSEMailConnectionInfo 
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger appointmentId;\nInteger updateMode;\nNSEMailConnectionInfo smtpEMailConnectionInfo;\nagent.AcceptWithSmtpEmailConfirmation(appointmentId, updateMode, smtpEMailConnectionInfo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.AssignTo(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.AssignTo(Integer,Integer)
+  id: 'AssignTo(Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.AssignTo
+  langs:
+  - crmscript
+  name: 'AssignTo(Integer,Integer)'
+  nameWithType: NSAppointmentAgent.AssignTo(Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.AssignTo(Integer,Integer)
+  type: Method
+  summary: "\nAssigns an appointment to another person."
+  remarks:
+  syntax: 
+    content: NSAppointmentEntity AssignTo(Integer appointmentId, ParticipantInfo participant, Integer updateMode)
+    parameters:
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: participant
+      type: CRMScript.NetServer.ParticipantInfo 
+      description:
+    - id: updateMode
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.RecurrenceUpdateMode\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSAppointmentEntity
+      description: "Updated NSAppointmentEntity."
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger appointmentId;\nParticipantInfo participant;\nInteger updateMode;\nNSAppointmentEntity res = agent.AssignTo(appointmentId, participant, updateMode);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.CalculateDays()
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.CalculateDays()
+  id: 'CalculateDays()'
+  so.intellisense: NSAppointmentAgent.CalculateDays
+  langs:
+  - crmscript
+  name: 'CalculateDays()'
+  nameWithType: NSAppointmentAgent.CalculateDays()
+  fullName: CRMScript.NetServer.NSAppointmentAgent.CalculateDays()
+  type: Method
+  summary: "\nCalculates the set of dates that represents a recurrence pattern. Adds conflict information to each date.\n"
+  remarks: 
+  syntax: 
+    content: NSRecurrenceInfo CalculateDays(NSAppointmentEntity appointmentEntity)
+    parameters:
+    - id: appointmentEntity
+      type: CRMScript.NetServer.NSAppointmentEntity 
+      description:
+    return:
+      type: CRMScript.NetServer.NSRecurrenceInfo
+  example: 
+- uid: CRMScript.NetServer.NSAppointmentAgent.CanAssignToProjectMember(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.CanAssignToProjectMember(Integer,Integer)
+  id: 'CanAssignToProjectMember(Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.CanAssignToProjectMember
+  langs:
+  - crmscript
+  name: 'CanAssignToProjectMember(Integer,Integer)'
+  nameWithType: NSAppointmentAgent.CanAssignToProjectMember(Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.CanAssignToProjectMember(Integer,Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool CanAssignToProjectMember(Integer projectId, Integer suggestedAppointmentId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: suggestedAppointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSAppointmentAgent.CleanUpBookingDeleted(Integer[])
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.CleanUpBookingDeleted(Integer[])
+  id: 'CleanUpBookingDeleted(Integer[])'
+  so.intellisense: NSAppointmentAgent.CleanUpBookingDeleted
+  langs:
+  - crmscript
+  name: 'CleanUpBookingDeleted(Integer[])'
+  nameWithType: NSAppointmentAgent.CleanUpBookingDeleted(Integer[])
+  fullName: CRMScript.NetServer.NSAppointmentAgent.CleanUpBookingDeleted(Integer[])
+  type: Method
+  summary: "\nDeletes all appointments(within the appointmentIds array) with status BookingDeleted.\n"
+  remarks: 
+  syntax: 
+    content: Integer CleanUpBookingDeleted(Integer[] appointmentIds)
+    parameters:
+    - id: appointmentIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSAppointmentAgent.CleanUpRecurringBookingDeleted()
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.CleanUpRecurringBookingDeleted()
+  id: 'CleanUpRecurringBookingDeleted()'
+  so.intellisense: NSAppointmentAgent.CleanUpRecurringBookingDeleted
+  langs:
+  - crmscript
+  name: 'CleanUpRecurringBookingDeleted()'
+  nameWithType: NSAppointmentAgent.CleanUpRecurringBookingDeleted()
+  fullName: CRMScript.NetServer.NSAppointmentAgent.CleanUpRecurringBookingDeleted()
+  type: Method
+  summary: "\nDeletes all appointments with status BookingDeleted and for logged-in user.\n"
+  remarks: 
+  syntax: 
+    content: Integer CleanUpRecurringBookingDeleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSAppointmentAgent.CreateAndAccept(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.CreateAndAccept(Integer,Integer)
+  id: 'CreateAndAccept(Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.CreateAndAccept
+  langs:
+  - crmscript
+  name: 'CreateAndAccept(Integer,Integer)'
+  nameWithType: NSAppointmentAgent.CreateAndAccept(Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.CreateAndAccept(Integer,Integer)
+  type: Method
+  summary: "\nCreates an appointment from an emailItem invitation and accepting it.\n"
+  remarks:
+  syntax: 
+    content: Void CreateAndAccept(Integer emailItemId, Integer updateMode)
+    parameters:
+    - id: emailItemId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: updateMode
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.RecurrenceUpdateMode\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSAppointmentAgent.CreateAndAcceptWithEmailConfirmation(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.CreateAndAcceptWithEmailConfirmation(Integer,Integer)
+  id: 'CreateAndAcceptWithEmailConfirmation(Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.CreateAndAcceptWithEmailConfirmation
+  langs:
+  - crmscript
+  name: 'CreateAndAcceptWithEmailConfirmation(Integer,Integer)'
+  nameWithType: NSAppointmentAgent.CreateAndAcceptWithEmailConfirmation(Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.CreateAndAcceptWithEmailConfirmation(Integer,Integer)
+  type: Method
+  summary: "\nCreates an appointment from an emailItem invitation and accepting it with email confirmation to the meeting organizer.\n"
+  remarks:
+  syntax: 
+    content: Void CreateAndAcceptWithEmailConfirmation(Integer emailItemId, Integer updateMode)
+    parameters:
+    - id: emailItemId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: updateMode
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.RecurrenceUpdateMode\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSAppointmentAgent.CreateAppointmentForUID(String)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.CreateAppointmentForUID(String)
+  id: 'CreateAppointmentForUID(String)'
+  so.intellisense: NSAppointmentAgent.CreateAppointmentForUID
+  langs:
+  - crmscript
+  name: 'CreateAppointmentForUID(String)'
+  nameWithType: NSAppointmentAgent.CreateAppointmentForUID(String)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.CreateAppointmentForUID(String)
+  type: Method
+  summary: "\nCreates an invitation record and an appointment with a given UID to reserve it if the UID is unused, otherwise null.\n"
+  remarks: 
+  syntax: 
+    content: NSAppointmentEntity CreateAppointmentForUID(NSAppointmentEntity appointmentEntity, String uID)
+    parameters:
+    - id: appointmentEntity
+      type: CRMScript.NetServer.NSAppointmentEntity
+      description:
+    - id: uID
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointmentEntity
+      description: "The newly created NSAppointmentEntity or null if the UID is in the DB already."
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nNSAppointmentEntity appointmentEntity;\nString uID;\nNSAppointmentEntity res = agent.CreateAppointmentForUID(appointmentEntity, uID);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntity()
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntity()
+  id: 'CreateDefaultAppointmentEntity()'
+  so.intellisense: NSAppointmentAgent.CreateDefaultAppointmentEntity
+  langs:
+  - crmscript
+  name: 'CreateDefaultAppointmentEntity()'
+  nameWithType: NSAppointmentAgent.CreateDefaultAppointmentEntity()
+  fullName: CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntity()
+  type: Method
+  summary: "\nSets default values into a new NSAppointmentEntity.\n"
+  remarks: "NetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance."
+  syntax: 
+    content: NSAppointmentEntity CreateDefaultAppointmentEntity()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAppointmentEntity
+      description: "A new NSAppointmentEntity with default values."
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nNSAppointmentEntity thing = agent.CreateDefaultAppointmentEntity();\nthing = agent.SaveAppointmentEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntityByType(Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntityByType(Integer)
+  id: 'CreateDefaultAppointmentEntityByType(Integer)'
+  so.intellisense: NSAppointmentAgent.CreateDefaultAppointmentEntityByType
+  langs:
+  - crmscript
+  name: 'CreateDefaultAppointmentEntityByType(Integer)'
+  nameWithType: NSAppointmentAgent.CreateDefaultAppointmentEntityByType(Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntityByType(Integer)
+  type: Method
+  summary: "\nCreates an NSAppointmentEntity populated with the default values for the specific type.\n"
+  remarks:
+  syntax: 
+    content: NSAppointmentEntity CreateDefaultAppointmentEntityByType(Integer type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.TaskType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSAppointmentEntity
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger type;\nNSAppointmentEntity res = agent.CreateDefaultAppointmentEntityByType(type);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntityByTypeAndAssociate(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntityByTypeAndAssociate(Integer,Integer)
+  id: 'CreateDefaultAppointmentEntityByTypeAndAssociate(Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.CreateDefaultAppointmentEntityByTypeAndAssociate
+  langs:
+  - crmscript
+  name: 'CreateDefaultAppointmentEntityByTypeAndAssociate(Integer,Integer)'
+  nameWithType: NSAppointmentAgent.CreateDefaultAppointmentEntityByTypeAndAssociate(Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntityByTypeAndAssociate(Integer,Integer)
+  type: Method
+  summary: "\nCreates an NSAppointmentEntity populated with the default values for the specific type and owner.\n"
+  remarks:
+  syntax: 
+    content: NSAppointmentEntity CreateDefaultAppointmentEntityByTypeAndAssociate(Integer type, Integer associateId)
+    parameters:
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.TaskType\" data-throw-if-not-resolved=\"false\"></xref>"
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointmentEntity
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger type;\nInteger associateId;\nNSAppointmentEntity res = agent.CreateDefaultAppointmentEntityByTypeAndAssociate(type, associateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntityFromProjectSuggestion(Integer,Integer,Bool,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntityFromProjectSuggestion(Integer,Integer,Bool,Integer)
+  id: 'CreateDefaultAppointmentEntityFromProjectSuggestion(Integer,Integer,Bool,Integer)'
+  so.intellisense: NSAppointmentAgent.CreateDefaultAppointmentEntityFromProjectSuggestion
+  langs:
+  - crmscript
+  name: 'CreateDefaultAppointmentEntityFromProjectSuggestion(Integer,Integer,Bool,Integer)'
+  nameWithType: NSAppointmentAgent.CreateDefaultAppointmentEntityFromProjectSuggestion(Integer,Integer,Bool,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntityFromProjectSuggestion(Integer,Integer,Bool,Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAppointmentEntity CreateDefaultAppointmentEntityFromProjectSuggestion(Integer suggestedAppointmentId, Integer projectId, Bool createNow, Integer ownerId)
+    parameters:
+    - id: suggestedAppointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: createNow
+      type: CRMScript.Global.Bool
+      description: 
+    - id: ownerId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointmentEntity
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntityFromSaleSuggestion(Integer,Integer,Bool,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntityFromSaleSuggestion(Integer,Integer,Bool,Integer)
+  id: 'CreateDefaultAppointmentEntityFromSaleSuggestion(Integer,Integer,Bool,Integer)'
+  so.intellisense: NSAppointmentAgent.CreateDefaultAppointmentEntityFromSaleSuggestion
+  langs:
+  - crmscript
+  name: 'CreateDefaultAppointmentEntityFromSaleSuggestion(Integer,Integer,Bool,Integer)'
+  nameWithType: NSAppointmentAgent.CreateDefaultAppointmentEntityFromSaleSuggestion(Integer,Integer,Bool,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.CreateDefaultAppointmentEntityFromSaleSuggestion(Integer,Integer,Bool,Integer)
+  type: Method
+  summary: "\nCreates an appointment based on a suggested appointment.\n"
+  remarks: 
+  syntax: 
+    content: NSAppointmentEntity CreateDefaultAppointmentEntityFromSaleSuggestion(Integer suggestedAppointmentId, Integer saleId, Bool createNow, Integer ownerId)
+    parameters:
+    - id: suggestedAppointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: saleId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: createNow
+      type: CRMScript.Global.Bool
+      description: 
+    - id: ownerId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointmentEntity
+      description: "The newly created appointment."
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger suggestedAppointmentId;\nInteger saleId;\nBool createNow;\nInteger ownerId;\nNSAppointmentEntity res = agent.CreateDefaultAppointmentEntityFromSaleSuggestion(suggestedAppointmentId, saleId, createNow, ownerId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.CreateDefaultRecurrence()
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.CreateDefaultRecurrence()
+  id: 'CreateDefaultRecurrence()'
+  so.intellisense: NSAppointmentAgent.CreateDefaultRecurrence
+  langs:
+  - crmscript
+  name: 'CreateDefaultRecurrence()'
+  nameWithType: NSAppointmentAgent.CreateDefaultRecurrence()
+  fullName: CRMScript.NetServer.NSAppointmentAgent.CreateDefaultRecurrence()
+  type: Method
+  summary: "\nCreates an NSRecurrenceInfo object populated with the default values for the specific type."
+  remarks: 
+  syntax: 
+    content: NSRecurrenceInfo CreateDefaultRecurrence()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSRecurrenceInfo
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nNSRecurrenceInfo res = agent.CreateDefaultRecurrence();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.CreateDefaultRecurrenceByDate()
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.CreateDefaultRecurrenceByDate()
+  id: 'CreateDefaultRecurrenceByDate()'
+  so.intellisense: NSAppointmentAgent.CreateDefaultRecurrenceByDate
+  langs:
+  - crmscript
+  name: 'CreateDefaultRecurrenceByDate()'
+  nameWithType: NSAppointmentAgent.CreateDefaultRecurrenceByDate()
+  fullName: CRMScript.NetServer.NSAppointmentAgent.CreateDefaultRecurrenceByDate()
+  type: Method
+  summary: "\nCreates an NSRecurrenceInfo object populated with the default values for the specific type.\n"
+  remarks: 
+  syntax: 
+    content: NSRecurrenceInfo CreateDefaultRecurrenceByDate(DateTime startDate)
+    parameters:
+    - id: startDate
+      type: CRMScript.Global.DateTime
+      description: "The start date for the recurrence pattern."
+    return:
+      type: CRMScript.NetServer.NSRecurrenceInfo
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSAppointmentAgent.CreateDefaultReOpenAppointment(Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.CreateDefaultReOpenAppointment(Integer)
+  id: 'CreateDefaultReOpenAppointment(Integer)'
+  so.intellisense: NSAppointmentAgent.CreateDefaultReOpenAppointment
+  langs:
+  - crmscript
+  name: 'CreateDefaultReOpenAppointment(Integer)'
+  nameWithType: NSAppointmentAgent.CreateDefaultReOpenAppointment(Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.CreateDefaultReOpenAppointment(Integer)
+  type: Method
+  summary: "\nA re-open appointment should be created as a reminder to re-open the sale at a certain date with information regarding the stalled sale.\n"
+  remarks: 
+  syntax: 
+    content: NSAppointmentEntity CreateDefaultReOpenAppointment(Integer saleId)
+    parameters:
+    - id: saleId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointmentEntity
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger saleId;\nNSAppointmentEntity res = agent.CreateDefaultReOpenAppointment(saleId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.CreateDefaultSuggestedAppointmentEntity()
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.CreateDefaultSuggestedAppointmentEntity()
+  id: 'CreateDefaultSuggestedAppointmentEntity()'
+  so.intellisense: NSAppointmentAgent.CreateDefaultSuggestedAppointmentEntity
+  langs:
+  - crmscript
+  name: 'CreateDefaultSuggestedAppointmentEntity()'
+  nameWithType: NSAppointmentAgent.CreateDefaultSuggestedAppointmentEntity()
+  fullName: CRMScript.NetServer.NSAppointmentAgent.CreateDefaultSuggestedAppointmentEntity()
+  type: Method
+  summary: "\nSets default values into a new NSSuggestedAppointmentEntity.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance.\n"
+  syntax: 
+    content: NSSuggestedAppointmentEntity CreateDefaultSuggestedAppointmentEntity()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSSuggestedAppointmentEntity
+      description: "A new NSSuggestedAppointmentEntity with default values."
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nNSSuggestedAppointmentEntity thing = agent.CreateDefaultSuggestedAppointmentEntity();\nthing = agent.SaveSuggestedAppointmentEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.CreateDefaultTaskListItem()
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.CreateDefaultTaskListItem()
+  id: 'CreateDefaultTaskListItem()'
+  so.intellisense: NSAppointmentAgent.CreateDefaultTaskListItem
+  langs:
+  - crmscript
+  name: 'CreateDefaultTaskListItem()'
+  nameWithType: NSAppointmentAgent.CreateDefaultTaskListItem()
+  fullName: CRMScript.NetServer.NSAppointmentAgent.CreateDefaultTaskListItem()
+  type: Method
+  summary: "\nSets default values into a new NSTaskListItem.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance.\n"
+  syntax: 
+    content: NSTaskListItem CreateDefaultTaskListItem()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSTaskListItem
+      description: "A new NSTaskListItem with default values."
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nNSTaskListItem thing = agent.CreateDefaultTaskListItem();\nthing = agent.SaveTaskListItem(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.DeclineInvitationFromEmailItem(Integer,String)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.DeclineInvitationFromEmailItem(Integer,String)
+  id: 'DeclineInvitationFromEmailItem(Integer,String)'
+  so.intellisense: NSAppointmentAgent.DeclineInvitationFromEmailItem
+  langs:
+  - crmscript
+  name: 'DeclineInvitationFromEmailItem(Integer,String)'
+  nameWithType: NSAppointmentAgent.DeclineInvitationFromEmailItem(Integer,String)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.DeclineInvitationFromEmailItem(Integer,String)
+  type: Method
+  summary: "\nDeclining an appointment invitation where no tentative appointments have been created.\n"
+  remarks: 
+  syntax: 
+    content: Void DeclineInvitationFromEmailItem(Integer emailItemId, String rejectReason)
+    parameters:
+    - id: emailItemId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: rejectReason
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSAppointmentAgent.Delete(Integer,Integer,Bool)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.Delete(Integer,Integer,Bool)
+  id: 'Delete(Integer,Integer,Bool)'
+  so.intellisense: NSAppointmentAgent.Delete
+  langs:
+  - crmscript
+  name: 'Delete(Integer,Integer,Bool)'
+  nameWithType: NSAppointmentAgent.Delete(Integer,Integer,Bool)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.Delete(Integer,Integer,Bool)
+  type: Method
+  summary: "\nDeletes a booking\n"
+  remarks:
+  syntax: 
+    content: Void Delete(Integer appointmentId, Integer updateMode, Bool sendEmailToParticipants, NSEMailConnectionInfo smtpEMailConnectionInfo, NSEMailConnectionInfo imapEMailConnectionInfo)
+    parameters:
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: updateMode
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.RecurrenceUpdateMode\" data-throw-if-not-resolved=\"false\"></xref>"
+    - id: sendEmailToParticipants
+      type: CRMScript.Global.Bool
+      description: 
+    - id: smtpEMailConnectionInfo
+      type: CRMScript.NetServer.NSEMailConnectionInfo
+      description:
+    - id: imapEMailConnectionInfo
+      type: CRMScript.NetServer.NSEMailConnectionInfo
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSAppointmentAgent.DeleteAppointmentEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.DeleteAppointmentEntity(Integer)
+  id: 'DeleteAppointmentEntity(Integer)'
+  so.intellisense: NSAppointmentAgent.DeleteAppointmentEntity
+  langs:
+  - crmscript
+  name: 'DeleteAppointmentEntity(Integer)'
+  nameWithType: NSAppointmentAgent.DeleteAppointmentEntity(Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.DeleteAppointmentEntity(Integer)
+  type: Method
+  summary: "\nDeletes the NSAppointmentEntity.\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteAppointmentEntity(Integer appointmentEntity)
+    parameters:
+    - id: appointmentEntity
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nagent.DeleteAppointmentEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GenerateLead(Integer,String,String,Integer,String,String,String,String,String,String,String,String)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GenerateLead(Integer,String,String,Integer,String,String,String,String,String,String,String,String)
+  id: 'GenerateLead(Integer,String,String,Integer,String,String,String,String,String,String,String,String)'
+  so.intellisense: NSAppointmentAgent.GenerateLead
+  langs:
+  - crmscript
+  name: 'GenerateLead(Integer,String,String,Integer,String,String,String,String,String,String,String,String)'
+  nameWithType: NSAppointmentAgent.GenerateLead(Integer,String,String,Integer,String,String,String,String,String,String,String,String)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GenerateLead(Integer,String,String,Integer,String,String,String,String,String,String,String,String)
+  type: Method
+  summary: "\nAdds a sales lead (task) to a contact in SuperOffice. If the contact or person is known, the sales lead is added to the current contact. If not, a new contact is created, with the associate with ownerIdForNewContact as responsible (Our Contact). A relation is created between the contact and the person submitting the lead. Based on wether the person the request is made for is found or not, the following happens: If the person is found, the person, person's contact and sales representative is returned. If neither the person nor the contact is found a new person and contact is created (if sufficient data is supplied), and the person, person's contact and sales representative is returned. If the contact and not the person is found a new person is created on this contact, and the contact, salesrep, and person is returned (if there was enough data to return the person).\n"
+  remarks: "\nIf more than one contact is found a list of contacts is returned.\n"
+  syntax: 
+    content: NSSalesActivity GenerateLead(Integer associateIdForNewContact, String leadDescription, String relation, Integer relationId, String leadContact, String leadPersonFirstname, String leadPersonLastname, String leadPersonEmail, String leadPhoneNumber, String creatorsContact, String creatorsFirstname, String creatorsLastname)
+    parameters:
+    - id: associateIdForNewContact
+      type: CRMScript.Global.Integer
+      description: 
+    - id: leadDescription
+      type: CRMScript.Global.String
+      description: 
+    - id: relation
+      type: CRMScript.Global.String
+      description: 
+    - id: relationId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: leadContact
+      type: CRMScript.Global.String
+      description: 
+    - id: leadPersonFirstname
+      type: CRMScript.Global.String
+      description: 
+    - id: leadPersonLastname
+      type: CRMScript.Global.String
+      description: 
+    - id: leadPersonEmail
+      type: CRMScript.Global.String
+      description: 
+    - id: leadPhoneNumber
+      type: CRMScript.Global.String
+      description: 
+    - id: creatorsContact
+      type: CRMScript.Global.String
+      description: 
+    - id: creatorsFirstname
+      type: CRMScript.Global.String
+      description: 
+    - id: creatorsLastname
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSSalesActivity
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger associateIdForNewContact;\nString leadDescription;\nString relation;\nInteger relationId;\nString leadContact;\nString leadPersonFirstname;\nString leadPersonLastname;\nString leadPersonEmail;\nString leadPhoneNumber;\nString creatorsContact;\nString creatorsFirstname;\nString creatorsLastname;\nNSSalesActivity res = agent.GenerateLead(associateIdForNewContact, leadDescription, relation, relationId, leadContact, leadPersonFirstname, leadPersonLastname, leadPersonEmail, leadPhoneNumber, creatorsContact, creatorsFirstname, creatorsLastname);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetActivityInformationListByDatesAndAssociate(Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetActivityInformationListByDatesAndAssociate(Integer)
+  id: 'GetActivityInformationListByDatesAndAssociate(Integer)'
+  so.intellisense: NSAppointmentAgent.GetActivityInformationListByDatesAndAssociate
+  langs:
+  - crmscript
+  name: 'GetActivityInformationListByDatesAndAssociate(Integer)'
+  nameWithType: NSAppointmentAgent.GetActivityInformationListByDatesAndAssociate(Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetActivityInformationListByDatesAndAssociate(Integer)
+  type: Method
+  summary: "\nGets activity information for one or more days according to the given date interval.\n"
+  remarks: "\nThe time portion of the dates is ignored. Private appointments are counted, but may not be visible through tooltips or other more detailed services.\n"
+  syntax: 
+    content: NSActivityInformationListItem[] GetActivityInformationListByDatesAndAssociate(DateTime startDate, DateTime endDate, Integer associateId)
+    parameters:
+    - id: startDate
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endDate
+      type: CRMScript.Global.DateTime
+      description:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSActivityInformationListItem[]
+      description: 
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nDateTime startDate;\nDateTime endDate;\nInteger associateId;\nNSActivityInformationListItem[] res = agent.GetActivityInformationListByDatesAndAssociate(startDate, endDate, associateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetAlarms(Bool,Bool,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetAlarms(Bool,Bool,Integer)
+  id: 'GetAlarms(Bool,Bool,Integer)'
+  so.intellisense: NSAppointmentAgent.GetAlarms
+  langs:
+  - crmscript
+  name: 'GetAlarms(Bool,Bool,Integer)'
+  nameWithType: NSAppointmentAgent.GetAlarms(Bool,Bool,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetAlarms(Bool,Bool,Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSMultiAlarmData GetAlarms(Bool includeInvitations, Bool includeAllAppointments, Integer defaultAlarmLeadTimeInMinutes)
+    parameters:
+    - id: includeInvitations
+      type: CRMScript.Global.Bool
+      description: 
+    - id: includeAllAppointments
+      type: CRMScript.Global.Bool
+      description: 
+    - id: defaultAlarmLeadTimeInMinutes
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSMultiAlarmData
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetAppointment(Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetAppointment(Integer)
+  id: 'GetAppointment(Integer)'
+  so.intellisense: NSAppointmentAgent.GetAppointment
+  langs:
+  - crmscript
+  name: 'GetAppointment(Integer)'
+  nameWithType: NSAppointmentAgent.GetAppointment(Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetAppointment(Integer)
+  type: Method
+  summary: "\nGets an NSAppointment object.\n"
+  remarks: 
+  syntax: 
+    content: NSAppointment GetAppointment(Integer appointmentId)
+    parameters:
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointment
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nNSAppointment thing = agent.GetAppointment(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetAppointmentEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetAppointmentEntity(Integer)
+  id: 'GetAppointmentEntity(Integer)'
+  so.intellisense: NSAppointmentAgent.GetAppointmentEntity
+  langs:
+  - crmscript
+  name: 'GetAppointmentEntity(Integer)'
+  nameWithType: NSAppointmentAgent.GetAppointmentEntity(Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetAppointmentEntity(Integer)
+  type: Method
+  summary: "\nGets an NSAppointmentEntity object.\n"
+  remarks: 
+  syntax: 
+    content: NSAppointmentEntity GetAppointmentEntity(Integer appointmentEntityId)
+    parameters:
+    - id: appointmentEntityId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointmentEntity
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nNSAppointmentEntity thing = agent.GetAppointmentEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetAppointmentFromUID(String)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetAppointmentFromUID(String)
+  id: 'GetAppointmentFromUID(String)'
+  so.intellisense: NSAppointmentAgent.GetAppointmentFromUID
+  langs:
+  - crmscript
+  name: 'GetAppointmentFromUID(String)'
+  nameWithType: NSAppointmentAgent.GetAppointmentFromUID(String)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetAppointmentFromUID(String)
+  type: Method
+  summary: "\nGets the appointment that corresponds to the given UID.\n"
+  remarks: 
+  syntax: 
+    content: NSAppointmentEntity GetAppointmentFromUID(String uID)
+    parameters:
+    - id: uID
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointmentEntity
+      description: "Appointment corresponding to uId."
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nString uID;\nNSAppointmentEntity res = agent.GetAppointmentFromUID(uID);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetAppointmentHaveParticipantsWithEmail(Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetAppointmentHaveParticipantsWithEmail(Integer)
+  id: 'GetAppointmentHaveParticipantsWithEmail(Integer)'
+  so.intellisense: NSAppointmentAgent.GetAppointmentHaveParticipantsWithEmail
+  langs:
+  - crmscript
+  name: 'GetAppointmentHaveParticipantsWithEmail(Integer)'
+  nameWithType: NSAppointmentAgent.GetAppointmentHaveParticipantsWithEmail(Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetAppointmentHaveParticipantsWithEmail(Integer)
+  type: Method
+  summary: "\nChecks if any of the participants is marked to receive emails on this appointment.\n"
+  remarks: 
+  syntax: 
+    content: Bool GetAppointmentHaveParticipantsWithEmail(Integer appointmentId)
+    parameters:
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Bool
+      description: "False if no participants are defined."
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger appointmentId;\nBool res = agent.GetAppointmentHaveParticipantsWithEmail(appointmentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetAppointmentList(Integer[])
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetAppointmentList(Integer[])
+  id: 'GetAppointmentList(Integer[])'
+  so.intellisense: NSAppointmentAgent.GetAppointmentList
+  langs:
+  - crmscript
+  name: 'GetAppointmentList(Integer[])'
+  nameWithType: NSAppointmentAgent.GetAppointmentList(Integer[])
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetAppointmentList(Integer[])
+  type: Method
+  summary: "\nRetrieves an array of NSAppointment objects.\n"
+  remarks: 
+  syntax: 
+    content: NSAppointment[] GetAppointmentList()
+    parameters:
+    - id: appointmentIds
+      type: CRMScript.Global.Integer[]
+      description: "The identifiers of the appointments."
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>Integer[] ids;\nNSAppointmentAgent agent;\nagent.GetAppointmentList(ids);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetAppointmentRecords(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetAppointmentRecords(Integer,Integer)
+  id: 'GetAppointmentRecords(Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.GetAppointmentRecords
+  langs:
+  - crmscript
+  name: 'GetAppointmentRecords(Integer,Integer)'
+  nameWithType: NSAppointmentAgent.GetAppointmentRecords(Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetAppointmentRecords(Integer,Integer)
+  type: Method
+  summary: "\nGets all records involved in a booking and/or recurring appointments.\n"
+  remarks: 
+  syntax: 
+    content: NSAppointment[] GetAppointmentRecords(Integer motherId, Integer recurrenceRuleId)
+    parameters:
+    - id: motherId
+      type: CRMScript.Global.Integer
+      description: "can be zero for repeating appointments or bookings"
+    - id: recurrenceRuleId
+      type: CRMScript.Global.Integer
+      description: "can be zero for bookings that are not repeating."
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+  example: 
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetAppointmentsByTaskHeading(Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetAppointmentsByTaskHeading(Integer)
+  id: 'GetAppointmentsByTaskHeading(Integer)'
+  so.intellisense: NSAppointmentAgent.GetAppointmentsByTaskHeading
+  langs:
+  - crmscript
+  name: 'GetAppointmentsByTaskHeading(Integer)'
+  nameWithType: NSAppointmentAgent.GetAppointmentsByTaskHeading(Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetAppointmentsByTaskHeading(Integer)
+  type: Method
+  summary: "\nReturns appointments of a specific appointment task heading.\n"
+  remarks: "\nTask represents the different types of activities, such as Phone call or Meeting.\n"
+  syntax: 
+    content: NSAppointment[] GetAppointmentsByTaskHeading(Integer taskHeadingId)
+    parameters:
+    - id: taskHeadingId
+      type: CRMScript.Global.Integer
+      description: "The heading represents a grouping or filtering of tasks."
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger taskHeadingId;\nNSAppointment[] res = agent.GetAppointmentsByTaskHeading(taskHeadingId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetAssociateDiary(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetAssociateDiary(Integer,Integer)
+  id: 'GetAssociateDiary(Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.GetAssociateDiary
+  langs:
+  - crmscript
+  name: 'GetAssociateDiary(Integer,Integer)'
+  nameWithType: NSAppointmentAgent.GetAssociateDiary(Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetAssociateDiary(Integer,Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAppointment[] GetAssociateDiary(Integer associateId, DateTime startTime, DateTime endTime, Integer count)
+    parameters:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetAssociatesDiary(Integer[])
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetAssociatesDiary(Integer[])
+  id: 'GetAssociatesDiary(Integer[])'
+  so.intellisense: NSAppointmentAgent.GetAssociatesDiary
+  langs:
+  - crmscript
+  name: 'GetAssociatesDiary(Integer[])'
+  nameWithType: NSAppointmentAgent.GetAssociatesDiary(Integer[])
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetAssociatesDiary(Integer[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAppointment[] GetAssociatesDiary(Integer[] associateIds, DateTime startTime, DateTime endTime)
+    parameters:
+    - id: associateIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetCanInsertForAssociates(Integer[])
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetCanInsertForAssociates(Integer[])
+  id: 'GetCanInsertForAssociates(Integer[])'
+  so.intellisense: NSAppointmentAgent.GetCanInsertForAssociates
+  langs:
+  - crmscript
+  name: 'GetCanInsertForAssociates(Integer[])'
+  nameWithType: NSAppointmentAgent.GetCanInsertForAssociates(Integer[])
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetCanInsertForAssociates(Integer[])
+  type: Method
+  summary: "\nChecks if the current associate can create appointments in the diary of other associates.\n"
+  remarks: 
+  syntax: 
+    content: Bool[] GetCanInsertForAssociates(Integer[] associateIds)
+    parameters:
+    - id: associateIds
+      type: CRMScript.Global.Integer[]
+      description: "Array of associate IDs to check for."
+    return:
+      type: CRMScript.Global.Bool[]
+      description: "An array of Bool corresponding to the associate array input parameter."
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger[] associateIds;\nBool[] res = agent.GetCanInsertForAssociates(associateIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetContactAppointments(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetContactAppointments(Integer,Integer)
+  id: 'GetContactAppointments(Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.GetContactAppointments
+  langs:
+  - crmscript
+  name: 'GetContactAppointments(Integer,Integer)'
+  nameWithType: NSAppointmentAgent.GetContactAppointments(Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetContactAppointments(Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of appointments within a time range. The appointments belong to the contact specified.\n"
+  remarks: "\nIf the logged-in user is not allowed to view this persons appointments an exception is thrown.\n"
+  syntax: 
+    content: NSAppointment[] GetContactAppointments(Integer contactId, DateTime startTime, DateTime endTime, Integer count)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger contactId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nNSAppointment[] res = agent.GetContactAppointments(contactId, startTime, endTime, count);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetContactAppointmentsByTask(Integer,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetContactAppointmentsByTask(Integer,Integer,Integer)
+  id: 'GetContactAppointmentsByTask(Integer,Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.GetContactAppointmentsByTask
+  langs:
+  - crmscript
+  name: 'GetContactAppointmentsByTask(Integer,Integer,Integer)'
+  nameWithType: NSAppointmentAgent.GetContactAppointmentsByTask(Integer,Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetContactAppointmentsByTask(Integer,Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of appointments of a specific appointment task type within a time range. The appointments belong to the contact specified.\n"
+  remarks: "\nTask represents the different types of activities, such as Phone call or Meeting.\n"
+  syntax: 
+    content: NSAppointment[] GetContactAppointmentsByTask(Integer contactId, DateTime startTime, DateTime endTime, Integer count, Integer taskId)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: taskId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger contactId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger taskId;\nNSAppointment[] res = agent.GetContactAppointmentsByTask(contactId, startTime, endTime, count, taskId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetContactAppointmentsByTaskHeading(Integer,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetContactAppointmentsByTaskHeading(Integer,Integer,Integer)
+  id: 'GetContactAppointmentsByTaskHeading(Integer,Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.GetContactAppointmentsByTaskHeading
+  langs:
+  - crmscript
+  name: 'GetContactAppointmentsByTaskHeading(Integer,Integer,Integer)'
+  nameWithType: NSAppointmentAgent.GetContactAppointmentsByTaskHeading(Integer,Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetContactAppointmentsByTaskHeading(Integer,Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of appointments of a specific appointment task heading within a time range. The appointments belong to the contact specified.\n"
+  remarks: "\nTask represents the different types of activities, such as Phone call or Meeting.\n"
+  syntax: 
+    content: NSAppointment[] GetContactAppointmentsByTaskHeading(Integer contactId, DateTime startTime, DateTime endTime, Integer count, Integer taskHeadingId)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: taskHeadingId
+      type: CRMScript.Global.Integer
+      description: "The heading represents a grouping or filtering of tasks."
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger contactId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger taskHeadingId;\nNSAppointment[] res = agent.GetContactAppointmentsByTaskHeading(contactId, startTime, endTime, count, taskHeadingId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetContactAppointmentsByTasks(Integer,Integer,Integer[])
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetContactAppointmentsByTasks(Integer,Integer,Integer[])
+  id: 'GetContactAppointmentsByTasks(Integer,Integer,Integer[])'
+  so.intellisense: NSAppointmentAgent.GetContactAppointmentsByTasks
+  langs:
+  - crmscript
+  name: 'GetContactAppointmentsByTasks(Integer,Integer,Integer[])'
+  nameWithType: NSAppointmentAgent.GetContactAppointmentsByTasks(Integer,Integer,Integer[])
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetContactAppointmentsByTasks(Integer,Integer,Integer[])
+  type: Method
+  summary: "\nReturns a specified number of appointments belonging to an array of appointment task types within a time range. The appointments belong to the contact specified.\n"
+  remarks: "\nTask represents the different types of activities, such as Phone call or Meeting.\n"
+  syntax: 
+    content: NSAppointment[] GetContactAppointmentsByTasks(Integer contactId, DateTime startTime, DateTime endTime, Integer count, Integer[] taskIds)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: taskIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger contactId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger[] taskIds;\nNSAppointment[] res = agent.GetContactAppointmentsByTasks(contactId, startTime, endTime, count, taskIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetContactAppointmentsByType(Integer,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetContactAppointmentsByType(Integer,Integer,Integer)
+  id: 'GetContactAppointmentsByType(Integer,Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.GetContactAppointmentsByType
+  langs:
+  - crmscript
+  name: 'GetContactAppointmentsByType(Integer,Integer,Integer)'
+  nameWithType: NSAppointmentAgent.GetContactAppointmentsByType(Integer,Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetContactAppointmentsByType(Integer,Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of appointments of a specific appointment type within a time range. The appointments belong to the contact specified.\n"
+  remarks: "\nIf the logged-in user is not allowed to view this contacts appointments an exception is thrown.\n"
+  syntax: 
+    content: NSAppointment[] GetContactAppointmentsByType(Integer contactId, DateTime startTime, DateTime endTime, Integer count, Integer appointmentType)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: appointmentType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.AppointmentType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger contactId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger appointmentType;\nNSAppointment[] res = agent.GetContactAppointmentsByType(contactId, startTime, endTime, count, appointmentType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetDayInformationListByDatesAndAssociate(Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetDayInformationListByDatesAndAssociate(Integer)
+  id: 'GetDayInformationListByDatesAndAssociate(Integer)'
+  so.intellisense: NSAppointmentAgent.GetDayInformationListByDatesAndAssociate
+  langs:
+  - crmscript
+  name: 'GetDayInformationListByDatesAndAssociate(Integer)'
+  nameWithType: NSAppointmentAgent.GetDayInformationListByDatesAndAssociate(Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetDayInformationListByDatesAndAssociate(Integer)
+  type: Method
+  summary: "\nGets combined day information (activity + red-letter summary) for one or more days according to the given date interval.\n"
+  remarks: "\nThe time portion of the dates is ignored. Private appointments are counted, but may not be visible through tooltips or other more detailed services.\n"
+  syntax: 
+    content: NSDayInformationListItem[] GetDayInformationListByDatesAndAssociate(DateTime startDate, DateTime endDate, Integer associateId)
+    parameters:
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSDayInformationListItem[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nDateTime startDate;\nDateTime endDate;\nInteger associateId;\nNSDayInformationListItem[] res = agent.GetDayInformationListByDatesAndAssociate(startDate, endDate, associateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetDiaryByGroup(Integer,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetDiaryByGroup(Integer,Integer,Integer)
+  id: 'GetDiaryByGroup(Integer,Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.GetDiaryByGroup
+  langs:
+  - crmscript
+  name: 'GetDiaryByGroup(Integer,Integer,Integer)'
+  nameWithType: NSAppointmentAgent.GetDiaryByGroup(Integer,Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetDiaryByGroup(Integer,Integer,Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSAppointment[] GetDiaryByGroup(Integer groupId, Integer groupType, DateTime startTime, DateTime endTime, Integer count)
+    parameters:
+    - id: groupId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: groupType
+      type: CRMScript.Global.Integer
+      description: 
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetMyAppointments(Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetMyAppointments(Integer)
+  id: 'GetMyAppointments(Integer)'
+  so.intellisense: NSAppointmentAgent.GetMyAppointments
+  langs:
+  - crmscript
+  name: 'GetMyAppointments(Integer)'
+  nameWithType: NSAppointmentAgent.GetMyAppointments(Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetMyAppointments(Integer)
+  type: Method
+  summary: "\nReturns a specified number of appointments within a time range. The appointments belong to the currently logged-on user.\n"
+  remarks: 
+  syntax: 
+    content: NSAppointment[] GetMyAppointments(DateTime startTime, DateTime endTime, Integer count)
+    parameters:
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nNSAppointment[] res = agent.GetMyAppointments(startTime, endTime, count);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetMyDiary(Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetMyDiary(Integer)
+  id: 'GetMyDiary(Integer)'
+  so.intellisense: NSAppointmentAgent.GetMyDiary
+  langs:
+  - crmscript
+  name: 'GetMyDiary(Integer)'
+  nameWithType: NSAppointmentAgent.GetMyDiary(Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetMyDiary(Integer)
+  type: Method
+  summary: "\nReturns a specified number of appointments within a time range. The appointments belong to the currently logged-on user.\n"
+  remarks: "\nIt returns only appointments that would be displayed in the user's diary.\n"
+  syntax: 
+    content: NSAppointment[] GetMyDiary(DateTime startTime, DateTime endTime, Integer count)
+    parameters:
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nNSAppointment[] res = agent.GetMyDiary(startTime, endTime, count);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetMyPublishedAppointments()
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetMyPublishedAppointments()
+  id: 'GetMyPublishedAppointments()'
+  so.intellisense: NSAppointmentAgent.GetMyPublishedAppointments
+  langs:
+  - crmscript
+  name: 'GetMyPublishedAppointments()'
+  nameWithType: NSAppointmentAgent.GetMyPublishedAppointments()
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetMyPublishedAppointments()
+  type: Method
+  summary: "\nGets published appointments from the logged in user.\n"
+  remarks: 
+  syntax: 
+    content: NSAppointment[] GetMyPublishedAppointments()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nNSAppointment[] res = agent.GetMyPublishedAppointments();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetMySyncAppointments()
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetMySyncAppointments()
+  id: 'GetMySyncAppointments()'
+  so.intellisense: NSAppointmentAgent.GetMySyncAppointments
+  langs:
+  - crmscript
+  name: 'GetMySyncAppointments()'
+  nameWithType: NSAppointmentAgent.GetMySyncAppointments()
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetMySyncAppointments()
+  type: Method
+  summary: "\nReturns a specified number of appointments within a time range. The appointments belong to the currently logged-on user.\n"
+  remarks: 
+  syntax: 
+    content: NSAppointmentSyncData[] GetMySyncAppointments(DateTime startTime, DateTime endTime)
+    parameters:
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    return:
+      type: CRMScript.NetServer.NSAppointmentSyncData[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nDateTime startTime;\nDateTime endTime;\nNSAppointmentSyncData[] res = agent.GetMySyncAppointments(startTime, endTime);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetMyTasks(Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetMyTasks(Integer)
+  id: 'GetMyTasks(Integer)'
+  so.intellisense: NSAppointmentAgent.GetMyTasks
+  langs:
+  - crmscript
+  name: 'GetMyTasks(Integer)'
+  nameWithType: NSAppointmentAgent.GetMyTasks(Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetMyTasks(Integer)
+  type: Method
+  summary: "\nReturns a specified number of appointments within a time range. The appointments belong to the currently logged-on user.\n"
+  remarks: "\nIt returns only appointments that would be displayed in the user's task list.\n"
+  syntax: 
+    content: NSAppointment[] GetMyTasks(Integer count)
+    parameters:
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger count;\nNSAppointment[] res = agent.GetMyTasks(count);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetNextSuggestedAppointmentBySale(Integer,Integer,Bool)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetNextSuggestedAppointmentBySale(Integer,Integer,Bool)
+  id: 'GetNextSuggestedAppointmentBySale(Integer,Integer,Bool)'
+  so.intellisense: NSAppointmentAgent.GetNextSuggestedAppointmentBySale
+  langs:
+  - crmscript
+  name: 'GetNextSuggestedAppointmentBySale(Integer,Integer,Bool)'
+  nameWithType: NSAppointmentAgent.GetNextSuggestedAppointmentBySale(Integer,Integer,Bool)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetNextSuggestedAppointmentBySale(Integer,Integer,Bool)
+  type: Method
+  summary: "\nGets the next suggested appointment for a given sale (or rather a given sales guide).\n"
+  remarks: 
+  syntax: 
+    content: NSSuggestedAppointment GetNextSuggestedAppointmentBySale(Integer saleId, Integer currentAppointmentId, Bool skipCompleteCheck)
+    parameters:
+    - id: saleId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: currentAppointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: skipCompleteCheck
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.NetServer.NSSuggestedAppointment
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger saleId;\nInteger currentAppointmentId;\nBool skipCompleteCheck;\nNSSuggestedAppointment res = agent.GetNextSuggestedAppointmentBySale(saleId, currentAppointmentId, skipCompleteCheck);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetOrganizerName(Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetOrganizerName(Integer)
+  id: 'GetOrganizerName(Integer)'
+  so.intellisense: NSAppointmentAgent.GetOrganizerName
+  langs:
+  - crmscript
+  name: 'GetOrganizerName(Integer)'
+  nameWithType: NSAppointmentAgent.GetOrganizerName(Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetOrganizerName(Integer)
+  type: Method
+  summary: "\nLooks up the name / email of an event-organizer\n"
+  remarks: 
+  syntax: 
+    content: String GetOrganizerName(Integer motherAppointmentId)
+    parameters:
+    - id: motherAppointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger motherAppointmentId;\nString res = agent.GetOrganizerName(motherAppointmentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetPersonAppointments(Integer,Bool,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetPersonAppointments(Integer,Bool,Integer)
+  id: 'GetPersonAppointments(Integer,Bool,Integer)'
+  so.intellisense: NSAppointmentAgent.GetPersonAppointments
+  langs:
+  - crmscript
+  name: 'GetPersonAppointments(Integer,Bool,Integer)'
+  nameWithType: NSAppointmentAgent.GetPersonAppointments(Integer,Bool,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetPersonAppointments(Integer,Bool,Integer)
+  type: Method
+  summary: "\nReturns a specified number of appointments within a time range. The appointments belong to the person specified.\n"
+  remarks: "\n If the person not is a SuperOffice user (associate) or the logged-on user is not allowed to view this persons appointments an exception is thrown.\n"
+  syntax: 
+    content: NSAppointment[] GetPersonAppointments(Integer personId, Bool includeProjectAppointments, DateTime startTime, DateTime endTime, Integer count)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: includeProjectAppointments
+      type: CRMScript.Global.Bool
+      description: 
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger personId;\nBool includeProjectAppointments;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nNSAppointment[] res = agent.GetPersonAppointments(personId, includeProjectAppointments, startTime, endTime, count);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetPersonAppointmentsByTask(Integer,Bool,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetPersonAppointmentsByTask(Integer,Bool,Integer,Integer)
+  id: 'GetPersonAppointmentsByTask(Integer,Bool,Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.GetPersonAppointmentsByTask
+  langs:
+  - crmscript
+  name: 'GetPersonAppointmentsByTask(Integer,Bool,Integer,Integer)'
+  nameWithType: NSAppointmentAgent.GetPersonAppointmentsByTask(Integer,Bool,Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetPersonAppointmentsByTask(Integer,Bool,Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of appointments of a specific appointment task type within a time range. The appointments belong to the person specified.\n"
+  remarks: "\nTask represents the different types of activities, such as Phone call or Meeting.\n"
+  syntax: 
+    content: NSAppointment[] GetPersonAppointmentsByTask(Integer personId, Bool includeProjectAppointments, DateTime startTime, DateTime endTime, Integer count, Integer taskId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: includeProjectAppointments
+      type: CRMScript.Global.Bool
+      description: 
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: taskId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger personId;\nBool includeProjectAppointments;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger taskId;\nNSAppointment[] res = agent.GetPersonAppointmentsByTask(personId, includeProjectAppointments, startTime, endTime, count, taskId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetPersonAppointmentsByTaskHeading(Integer,Bool,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetPersonAppointmentsByTaskHeading(Integer,Bool,Integer,Integer)
+  id: 'GetPersonAppointmentsByTaskHeading(Integer,Bool,Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.GetPersonAppointmentsByTaskHeading
+  langs:
+  - crmscript
+  name: 'GetPersonAppointmentsByTaskHeading(Integer,Bool,Integer,Integer)'
+  nameWithType: NSAppointmentAgent.GetPersonAppointmentsByTaskHeading(Integer,Bool,Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetPersonAppointmentsByTaskHeading(Integer,Bool,Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of appointments of a specific appointment task heading within a time range. The appointments belong to the person specified.\n"
+  remarks: "\nTask represents the different types of activities, such as Phone call or Meeting.\n"
+  syntax: 
+    content: NSAppointment[] GetPersonAppointmentsByTaskHeading(Integer personId, Bool includeProjectAppointments, DateTime startTime, DateTime endTime, Integer count, Integer taskHeadingId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: includeProjectAppointments
+      type: CRMScript.Global.Bool
+      description: 
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: taskHeadingId
+      type: CRMScript.Global.Integer
+      description: "The heading represents a grouping or filtering of tasks."
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger personId;\nBool includeProjectAppointments;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger taskHeadingId;\nNSAppointment[] res = agent.GetPersonAppointmentsByTaskHeading(personId, includeProjectAppointments, startTime, endTime, count, taskHeadingId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetPersonAppointmentsByTasks(Integer,Bool,Integer,Integer[])
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetPersonAppointmentsByTasks(Integer,Bool,Integer,Integer[])
+  id: 'GetPersonAppointmentsByTasks(Integer,Bool,Integer,Integer[])'
+  so.intellisense: NSAppointmentAgent.GetPersonAppointmentsByTasks
+  langs:
+  - crmscript
+  name: 'GetPersonAppointmentsByTasks(Integer,Bool,Integer,Integer[])'
+  nameWithType: NSAppointmentAgent.GetPersonAppointmentsByTasks(Integer,Bool,Integer,Integer[])
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetPersonAppointmentsByTasks(Integer,Bool,Integer,Integer[])
+  type: Method
+  summary: "\nReturns a specified number of appointments from a list of appointment task types within a time range. The appointments belong to the person specified.\n"
+  remarks: "\nTask represents the different types of activities, such as Phone call or Meeting.\n"
+  syntax: 
+    content: NSAppointment[] GetPersonAppointmentsByTasks(Integer personId, Bool includeProjectAppointments, DateTime startTime, DateTime endTime, Integer count, Integer[] taskIds)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: includeProjectAppointments
+      type: CRMScript.Global.Bool
+      description: 
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: taskIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger personId;\nBool includeProjectAppointments;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger[] taskIds;\nNSAppointment[] res = agent.GetPersonAppointmentsByTasks(personId, includeProjectAppointments, startTime, endTime, count, taskIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetPersonAppointmentsByType(Integer,Bool,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetPersonAppointmentsByType(Integer,Bool,Integer,Integer)
+  id: 'GetPersonAppointmentsByType(Integer,Bool,Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.GetPersonAppointmentsByType
+  langs:
+  - crmscript
+  name: 'GetPersonAppointmentsByType(Integer,Bool,Integer,Integer)'
+  nameWithType: NSAppointmentAgent.GetPersonAppointmentsByType(Integer,Bool,Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetPersonAppointmentsByType(Integer,Bool,Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of appointments of a specific appointment type within a time range. The appointments belong to the person specified.\n"
+  remarks:
+  syntax: 
+    content: NSAppointment[] GetPersonAppointmentsByType(Integer personId, Bool includeProjectAppointments, DateTime startTime, DateTime endTime, Integer count, Integer appointmentType)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: includeProjectAppointments
+      type: CRMScript.Global.Bool
+      description: 
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: appointmentType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.AppointmentType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger personId;\nBool includeProjectAppointments;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger appointmentType;\nNSAppointment[] res = agent.GetPersonAppointmentsByType(personId, includeProjectAppointments, startTime, endTime, count, appointmentType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetPersonDiary(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetPersonDiary(Integer,Integer)
+  id: 'GetPersonDiary(Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.GetPersonDiary
+  langs:
+  - crmscript
+  name: 'GetPersonDiary(Integer,Integer)'
+  nameWithType: NSAppointmentAgent.GetPersonDiary(Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetPersonDiary(Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of appointments within a time range.\n"
+  remarks: "\nIt only returns appointments that would be displayed in the user's diary. The appointments belong to the person specified. If the person not is a SuperOffice user (associate) or the logged-on user is not allowed to view this persons appointments an exception is thrown.\n"
+  syntax: 
+    content: NSAppointment[] GetPersonDiary(Integer personId, DateTime startTime, DateTime endTime, Integer count)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger personId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nNSAppointment[] res = agent.GetPersonDiary(personId, startTime, endTime, count);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetPersonTasks(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetPersonTasks(Integer,Integer)
+  id: 'GetPersonTasks(Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.GetPersonTasks
+  langs:
+  - crmscript
+  name: 'GetPersonTasks(Integer,Integer)'
+  nameWithType: NSAppointmentAgent.GetPersonTasks(Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetPersonTasks(Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of appointments within a time range.\n"
+  remarks: "\n It only returns appointments that would be displayed in the user's task list. The appointments belong to the person specified. If the person not is a SuperOffice user (associate) or the logged-on user is not allowed to view this persons appointments an exception is thrown.\n"
+  syntax: 
+    content: NSAppointment[] GetPersonTasks(Integer personId, Integer count)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger personId;\nInteger count;\nNSAppointment[] res = agent.GetPersonTasks(personId, count);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetProjectAppointments(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetProjectAppointments(Integer,Integer)
+  id: 'GetProjectAppointments(Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.GetProjectAppointments
+  langs:
+  - crmscript
+  name: 'GetProjectAppointments(Integer,Integer)'
+  nameWithType: NSAppointmentAgent.GetProjectAppointments(Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetProjectAppointments(Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of appointments within a time range. The appointments belong to the project specified.\n"
+  remarks: "\nIf the logged-on user is not allowed to view this projects appointments an exception is thrown.\n"
+  syntax: 
+    content: NSAppointment[] GetProjectAppointments(Integer projectId, DateTime startTime, DateTime endTime, Integer count)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger projectId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nNSAppointment[] res = agent.GetProjectAppointments(projectId, startTime, endTime, count);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetProjectAppointmentsByTask(Integer,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetProjectAppointmentsByTask(Integer,Integer,Integer)
+  id: 'GetProjectAppointmentsByTask(Integer,Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.GetProjectAppointmentsByTask
+  langs:
+  - crmscript
+  name: 'GetProjectAppointmentsByTask(Integer,Integer,Integer)'
+  nameWithType: NSAppointmentAgent.GetProjectAppointmentsByTask(Integer,Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetProjectAppointmentsByTask(Integer,Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of appointments of a specific appointment task type within a time range. The appointments belong to the project specified. \n"
+  remarks: 
+  syntax: 
+    content: NSAppointment[] GetProjectAppointmentsByTask(Integer projectId, DateTime startTime, DateTime endTime, Integer count, Integer taskId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: taskId
+      type: CRMScript.Global.Integer
+      description: "The different types of activities, such as Phone call or Meeting."
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger projectId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger taskId;\nNSAppointment[] res = agent.GetProjectAppointmentsByTask(projectId, startTime, endTime, count, taskId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetProjectAppointmentsByTaskHeading(Integer,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetProjectAppointmentsByTaskHeading(Integer,Integer,Integer)
+  id: 'GetProjectAppointmentsByTaskHeading(Integer,Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.GetProjectAppointmentsByTaskHeading
+  langs:
+  - crmscript
+  name: 'GetProjectAppointmentsByTaskHeading(Integer,Integer,Integer)'
+  nameWithType: NSAppointmentAgent.GetProjectAppointmentsByTaskHeading(Integer,Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetProjectAppointmentsByTaskHeading(Integer,Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of appointments of a specific appointment task heading within a time range. The appointments belong to the project specified.\n"
+  remarks: 
+  syntax: 
+    content: NSAppointment[] GetProjectAppointmentsByTaskHeading(Integer projectId, DateTime startTime, DateTime endTime, Integer count, Integer taskHeadingId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: taskHeadingId
+      type: CRMScript.Global.Integer
+      description: "The heading represents a grouping or filtering of tasks."
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger projectId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger taskHeadingId;\nNSAppointment[] res = agent.GetProjectAppointmentsByTaskHeading(projectId, startTime, endTime, count, taskHeadingId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetProjectAppointmentsByTasks(Integer,Integer,Integer[])
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetProjectAppointmentsByTasks(Integer,Integer,Integer[])
+  id: 'GetProjectAppointmentsByTasks(Integer,Integer,Integer[])'
+  so.intellisense: NSAppointmentAgent.GetProjectAppointmentsByTasks
+  langs:
+  - crmscript
+  name: 'GetProjectAppointmentsByTasks(Integer,Integer,Integer[])'
+  nameWithType: NSAppointmentAgent.GetProjectAppointmentsByTasks(Integer,Integer,Integer[])
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetProjectAppointmentsByTasks(Integer,Integer,Integer[])
+  type: Method
+  summary: "\nReturns a specified number of appointments matching the list of appointment task types within a time range. The appointments belong to the project specified.\n"
+  remarks: 
+  syntax: 
+    content: NSAppointment[] GetProjectAppointmentsByTasks(Integer projectId, DateTime startTime, DateTime endTime, Integer count, Integer[] taskIds)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: taskIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger projectId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger[] taskIds;\nNSAppointment[] res = agent.GetProjectAppointmentsByTasks(projectId, startTime, endTime, count, taskIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetProjectAppointmentsByType(Integer,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetProjectAppointmentsByType(Integer,Integer,Integer)
+  id: 'GetProjectAppointmentsByType(Integer,Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.GetProjectAppointmentsByType
+  langs:
+  - crmscript
+  name: 'GetProjectAppointmentsByType(Integer,Integer,Integer)'
+  nameWithType: NSAppointmentAgent.GetProjectAppointmentsByType(Integer,Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetProjectAppointmentsByType(Integer,Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of appointments of a specific appointment type within a time range. The appointments belong to the project specified.\n"
+  remarks:
+  syntax: 
+    content: NSAppointment[] GetProjectAppointmentsByType(Integer projectId, DateTime startTime, DateTime endTime, Integer count, Integer appointmentType)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: appointmentType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.AppointmentType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger projectId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger appointmentType;\nNSAppointment[] res = agent.GetProjectAppointmentsByType(projectId, startTime, endTime, count, appointmentType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetProjectMemberAppointments(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetProjectMemberAppointments(Integer,Integer)
+  id: 'GetProjectMemberAppointments(Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.GetProjectMemberAppointments
+  langs:
+  - crmscript
+  name: 'GetProjectMemberAppointments(Integer,Integer)'
+  nameWithType: NSAppointmentAgent.GetProjectMemberAppointments(Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetProjectMemberAppointments(Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of appointments within a time range. The appointments belong to the projects where the person specified is member.\n"
+  remarks: 
+  syntax: 
+    content: NSAppointment[] GetProjectMemberAppointments(Integer personId, DateTime startTime, DateTime endTime, Integer count)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger personId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nNSAppointment[] res = agent.GetProjectMemberAppointments(personId, startTime, endTime, count);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetProjectMemberAppointmentsByTask(Integer,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetProjectMemberAppointmentsByTask(Integer,Integer,Integer)
+  id: 'GetProjectMemberAppointmentsByTask(Integer,Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.GetProjectMemberAppointmentsByTask
+  langs:
+  - crmscript
+  name: 'GetProjectMemberAppointmentsByTask(Integer,Integer,Integer)'
+  nameWithType: NSAppointmentAgent.GetProjectMemberAppointmentsByTask(Integer,Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetProjectMemberAppointmentsByTask(Integer,Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of appointments of a specific appointment task type within a time range. The appointments belong to the projects where the person specified is member.\n"
+  remarks: 
+  syntax: 
+    content: NSAppointment[] GetProjectMemberAppointmentsByTask(Integer personId, DateTime startTime, DateTime endTime, Integer count, Integer taskId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: taskId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger personId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger taskId;\nNSAppointment[] res = agent.GetProjectMemberAppointmentsByTask(personId, startTime, endTime, count, taskId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetProjectMemberAppointmentsByTaskHeading(Integer,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetProjectMemberAppointmentsByTaskHeading(Integer,Integer,Integer)
+  id: 'GetProjectMemberAppointmentsByTaskHeading(Integer,Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.GetProjectMemberAppointmentsByTaskHeading
+  langs:
+  - crmscript
+  name: 'GetProjectMemberAppointmentsByTaskHeading(Integer,Integer,Integer)'
+  nameWithType: NSAppointmentAgent.GetProjectMemberAppointmentsByTaskHeading(Integer,Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetProjectMemberAppointmentsByTaskHeading(Integer,Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of appointments of a specific appointment task heading within a time range. The appointments belong to the projects where the person specified is member.\n"
+  remarks: 
+  syntax: 
+    content: NSAppointment[] GetProjectMemberAppointmentsByTaskHeading(Integer personId, DateTime startTime, DateTime endTime, Integer count, Integer taskHeadingId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: taskHeadingId
+      type: CRMScript.Global.Integer
+      description: "The heading represents a grouping or filtering of tasks."
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger personId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger taskHeadingId;\nNSAppointment[] res = agent.GetProjectMemberAppointmentsByTaskHeading(personId, startTime, endTime, count, taskHeadingId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetProjectMemberAppointmentsByTasks(Integer,Integer,Integer[])
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetProjectMemberAppointmentsByTasks(Integer,Integer,Integer[])
+  id: 'GetProjectMemberAppointmentsByTasks(Integer,Integer,Integer[])'
+  so.intellisense: NSAppointmentAgent.GetProjectMemberAppointmentsByTasks
+  langs:
+  - crmscript
+  name: 'GetProjectMemberAppointmentsByTasks(Integer,Integer,Integer[])'
+  nameWithType: NSAppointmentAgent.GetProjectMemberAppointmentsByTasks(Integer,Integer,Integer[])
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetProjectMemberAppointmentsByTasks(Integer,Integer,Integer[])
+  type: Method
+  summary: "\nReturns a specified number of appointments matching a set of appointment task types within a time range. The appointments belong to the projects where the person specified is member.\n"
+  remarks: 
+  syntax: 
+    content: NSAppointment[] GetProjectMemberAppointmentsByTasks(Integer personId, DateTime startTime, DateTime endTime, Integer count, Integer[] taskIds)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: taskIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger personId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger[] taskIds;\nNSAppointment[] res = agent.GetProjectMemberAppointmentsByTasks(personId, startTime, endTime, count, taskIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetProjectMemberAppointmentsByType(Integer,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetProjectMemberAppointmentsByType(Integer,Integer,Integer)
+  id: 'GetProjectMemberAppointmentsByType(Integer,Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.GetProjectMemberAppointmentsByType
+  langs:
+  - crmscript
+  name: 'GetProjectMemberAppointmentsByType(Integer,Integer,Integer)'
+  nameWithType: NSAppointmentAgent.GetProjectMemberAppointmentsByType(Integer,Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetProjectMemberAppointmentsByType(Integer,Integer,Integer)
+  type: Method
+  summary: "\nReturns a specified number of appointments of a specific appointment type within a time range. The appointments belong to the projects where the person specified is member.\n"
+  remarks:
+  syntax: 
+    content: NSAppointment[] GetProjectMemberAppointmentsByType(Integer personId, DateTime startTime, DateTime endTime, Integer count, Integer appointmentType)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: count
+      type: CRMScript.Global.Integer
+      description: 
+    - id: appointmentType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.AppointmentType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger personId;\nDateTime startTime;\nDateTime endTime;\nInteger count;\nInteger appointmentType;\nNSAppointment[] res = agent.GetProjectMemberAppointmentsByType(personId, startTime, endTime, count, appointmentType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetPublishedAppointment(Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetPublishedAppointment(Integer)
+  id: 'GetPublishedAppointment(Integer)'
+  so.intellisense: NSAppointmentAgent.GetPublishedAppointment
+  langs:
+  - crmscript
+  name: 'GetPublishedAppointment(Integer)'
+  nameWithType: NSAppointmentAgent.GetPublishedAppointment(Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetPublishedAppointment(Integer)
+  type: Method
+  summary: "\nGets published appointment by appointment ID.\n"
+  remarks: 
+  syntax: 
+    content: NSAppointment GetPublishedAppointment(Integer appointmentId)
+    parameters:
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointment
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger appointmentId;\nNSAppointment res = agent.GetPublishedAppointment(appointmentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetPublishedAppointments(Integer[])
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetPublishedAppointments(Integer[])
+  id: 'GetPublishedAppointments(Integer[])'
+  so.intellisense: NSAppointmentAgent.GetPublishedAppointments
+  langs:
+  - crmscript
+  name: 'GetPublishedAppointments(Integer[])'
+  nameWithType: NSAppointmentAgent.GetPublishedAppointments(Integer[])
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetPublishedAppointments(Integer[])
+  type: Method
+  summary: "\nGets published appointments by appointment IDs.\n"
+  remarks: 
+  syntax: 
+    content: NSAppointment[] GetPublishedAppointments(Integer[] appointmentIds)
+    parameters:
+    - id: appointmentIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger[] appointmentIds;\nNSAppointment[] res = agent.GetPublishedAppointments(appointmentIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetPublishedProjectAppointments(Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetPublishedProjectAppointments(Integer)
+  id: 'GetPublishedProjectAppointments(Integer)'
+  so.intellisense: NSAppointmentAgent.GetPublishedProjectAppointments
+  langs:
+  - crmscript
+  name: 'GetPublishedProjectAppointments(Integer)'
+  nameWithType: NSAppointmentAgent.GetPublishedProjectAppointments(Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetPublishedProjectAppointments(Integer)
+  type: Method
+  summary: "\nGets published appointments by project ID.\n"
+  remarks: 
+  syntax: 
+    content: NSAppointment[] GetPublishedProjectAppointments(Integer projectId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointment[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger projectId;\nNSAppointment[] res = agent.GetPublishedProjectAppointments(projectId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetRedLetterInformationListByDatesAndAssociate(Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetRedLetterInformationListByDatesAndAssociate(Integer)
+  id: 'GetRedLetterInformationListByDatesAndAssociate(Integer)'
+  so.intellisense: NSAppointmentAgent.GetRedLetterInformationListByDatesAndAssociate
+  langs:
+  - crmscript
+  name: 'GetRedLetterInformationListByDatesAndAssociate(Integer)'
+  nameWithType: NSAppointmentAgent.GetRedLetterInformationListByDatesAndAssociate(Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetRedLetterInformationListByDatesAndAssociate(Integer)
+  type: Method
+  summary: "\nGets detailed red-letter day information (red-letter summary + individual day texts) for one or more days according to the given date interval.\n"
+  remarks: "\n The time portion of the dates is ignored.\n"
+  syntax: 
+    content: NSRedLetterInformationListItem[] GetRedLetterInformationListByDatesAndAssociate(DateTime startDate, DateTime endDate, Integer associateId)
+    parameters:
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSRedLetterInformationListItem[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nDateTime startDate;\nDateTime endDate;\nInteger associateId;\nNSRedLetterInformationListItem[] res = agent.GetRedLetterInformationListByDatesAndAssociate(startDate, endDate, associateId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetSuggestedAppointment(Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetSuggestedAppointment(Integer)
+  id: 'GetSuggestedAppointment(Integer)'
+  so.intellisense: NSAppointmentAgent.GetSuggestedAppointment
+  langs:
+  - crmscript
+  name: 'GetSuggestedAppointment(Integer)'
+  nameWithType: NSAppointmentAgent.GetSuggestedAppointment(Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetSuggestedAppointment(Integer)
+  type: Method
+  summary: "\nGets an NSSuggestedAppointment object.\n"
+  remarks: 
+  syntax: 
+    content: NSSuggestedAppointment GetSuggestedAppointment(Integer suggestedAppointmentId)
+    parameters:
+    - id: suggestedAppointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSSuggestedAppointment
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nNSSuggestedAppointment thing = agent.GetSuggestedAppointment(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetSuggestedAppointmentEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetSuggestedAppointmentEntity(Integer)
+  id: 'GetSuggestedAppointmentEntity(Integer)'
+  so.intellisense: NSAppointmentAgent.GetSuggestedAppointmentEntity
+  langs:
+  - crmscript
+  name: 'GetSuggestedAppointmentEntity(Integer)'
+  nameWithType: NSAppointmentAgent.GetSuggestedAppointmentEntity(Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetSuggestedAppointmentEntity(Integer)
+  type: Method
+  summary: "\nGets an NSSuggestedAppointmentEntity object.\n"
+  remarks: 
+  syntax: 
+    content: NSSuggestedAppointmentEntity GetSuggestedAppointmentEntity(Integer suggestedAppointmentEntityId)
+    parameters:
+    - id: suggestedAppointmentEntityId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSSuggestedAppointmentEntity
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nNSSuggestedAppointmentEntity thing = agent.GetSuggestedAppointmentEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetTaskListItem(Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetTaskListItem(Integer)
+  id: 'GetTaskListItem(Integer)'
+  so.intellisense: NSAppointmentAgent.GetTaskListItem
+  langs:
+  - crmscript
+  name: 'GetTaskListItem(Integer)'
+  nameWithType: NSAppointmentAgent.GetTaskListItem(Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetTaskListItem(Integer)
+  type: Method
+  summary: "\nGets an NSTaskListItem object.\n"
+  remarks: 
+  syntax: 
+    content: NSTaskListItem GetTaskListItem(Integer taskListItemId)
+    parameters:
+    - id: taskListItemId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSTaskListItem
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nNSTaskListItem thing = agent.GetTaskListItem(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetTaskListItems(Bool)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetTaskListItems(Bool)
+  id: 'GetTaskListItems(Bool)'
+  so.intellisense: NSAppointmentAgent.GetTaskListItems
+  langs:
+  - crmscript
+  name: 'GetTaskListItems(Bool)'
+  nameWithType: NSAppointmentAgent.GetTaskListItems(Bool)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetTaskListItems(Bool)
+  type: Method
+  summary: "\nGets all takslist items\n"
+  remarks: 
+  syntax: 
+    content: NSTaskListItem[] GetTaskListItems(Bool includeDeleted)
+    parameters:
+    - id: includeDeleted
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.NetServer.NSTaskListItem[]
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nBool includeDeleted;\nNSTaskListItem[] res = agent.GetTaskListItems(includeDeleted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.GetUIDFromAppointmentId(Integer,Bool)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.GetUIDFromAppointmentId(Integer,Bool)
+  id: 'GetUIDFromAppointmentId(Integer,Bool)'
+  so.intellisense: NSAppointmentAgent.GetUIDFromAppointmentId
+  langs:
+  - crmscript
+  name: 'GetUIDFromAppointmentId(Integer,Bool)'
+  nameWithType: NSAppointmentAgent.GetUIDFromAppointmentId(Integer,Bool)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.GetUIDFromAppointmentId(Integer,Bool)
+  type: Method
+  summary: "\nGets the UID associated with the appointment id in the Invitation table.\n"
+  remarks: 
+  syntax: 
+    content: String GetUIDFromAppointmentId(Integer appointmentId, Bool useMotherId)
+    parameters:
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: useMotherId
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.String
+      description: "The associated UID, or null if none exist."
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger appointmentId;\nBool useMotherId;\nString res = agent.GetUIDFromAppointmentId(appointmentId, useMotherId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.Move(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.Move(Integer,Integer)
+  id: 'Move(Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.Move
+  langs:
+  - crmscript
+  name: 'Move(Integer,Integer)'
+  nameWithType: NSAppointmentAgent.Move(Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.Move(Integer,Integer)
+  type: Method
+  summary: "\nMoving a booking to another start time.\n"
+  remarks: "\nSee <xref href=\"CRMScript.NetServer.RecurrenceUpdateMode\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax: 
+    content: NSAppointmentEntity Move(Integer appointmentId, DateTime newStartTime, Integer updateMode)
+    parameters:
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: updateMode
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointmentEntity
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger appointmentId;\nDateTime newStartTime;\nInteger updateMode;\nNSAppointmentEntity res = agent.Move(appointmentId, newStartTime, updateMode);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.Reject(Integer,String,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.Reject(Integer,String,Integer)
+  id: 'Reject(Integer,String,Integer)'
+  so.intellisense: NSAppointmentAgent.Reject
+  langs:
+  - crmscript
+  name: 'Reject(Integer,String,Integer)'
+  nameWithType: NSAppointmentAgent.Reject(Integer,String,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.Reject(Integer,String,Integer)
+  type: Method
+  summary: "\nRejecting an appointment invitation\n"
+  remarks: "\nSee <xref href=\"CRMScript.NetServer.RecurrenceUpdateMode\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax: 
+    content: Void Reject(Integer appointmentId, String rejectReason, Integer updateMode)
+    parameters:
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: rejectReason
+      type: CRMScript.Global.String
+      description: 
+    - id: updateMode
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger appointmentId;\nString rejectReason;\nInteger updateMode;\nagent.Reject(appointmentId, rejectReason, updateMode);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.RejectWithEmailConfirmation(Integer,String,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.RejectWithEmailConfirmation(Integer,String,Integer)
+  id: 'RejectWithEmailConfirmation(Integer,String,Integer)'
+  so.intellisense: NSAppointmentAgent.RejectWithEmailConfirmation
+  langs:
+  - crmscript
+  name: 'RejectWithEmailConfirmation(Integer,String,Integer)'
+  nameWithType: NSAppointmentAgent.RejectWithEmailConfirmation(Integer,String,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.RejectWithEmailConfirmation(Integer,String,Integer)
+  type: Method
+  summary: "\nRejecting an appointment invitation and send an email confirmation to the meeting organizer.\n"
+  remarks: "\nSee <xref href=\"CRMScript.NetServer.RecurrenceUpdateMode\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax: 
+    content: Void RejectWithEmailConfirmation(Integer appointmentId, String rejectReason, Integer updateMode)
+    parameters:
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: rejectReason
+      type: CRMScript.Global.String
+      description: 
+    - id: updateMode
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger appointmentId;\nString rejectReason;\nInteger updateMode;\nagent.RejectWithEmailConfirmation(appointmentId, rejectReason, updateMode);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.RejectWithSmtpEmailConfirmation(Integer,String,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.RejectWithSmtpEmailConfirmation(Integer,String,Integer)
+  id: 'RejectWithSmtpEmailConfirmation(Integer,String,Integer)'
+  so.intellisense: NSAppointmentAgent.RejectWithSmtpEmailConfirmation
+  langs:
+  - crmscript
+  name: 'RejectWithSmtpEmailConfirmation(Integer,String,Integer)'
+  nameWithType: NSAppointmentAgent.RejectWithSmtpEmailConfirmation(Integer,String,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.RejectWithSmtpEmailConfirmation(Integer,String,Integer)
+  type: Method
+  summary: "\nRejecting an appointment invitation and send an email confirmation to the meeting organizer.\n"
+  remarks: "\nSee <xref href=\"CRMScript.NetServer.RecurrenceUpdateMode\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax: 
+    content: Void RejectWithSmtpEmailConfirmation(Integer appointmentId, String rejectReason, Integer updateMode, NSEMailConnectionInfo smtpEMailConnectionInfo)
+    parameters:
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: rejectReason
+      type: CRMScript.Global.String
+      description: 
+    - id: updateMode
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger appointmentId;\nString rejectReason;\nInteger updateMode;\nNSEMailConnectionInfo smtpEMailConnectionInfo;\nagent.RejectWithSmtpEmailConfirmation(appointmentId, rejectReason, updateMode, smtpEMailConnectionInfo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.RequestForInfo(Integer,String,String,String,String,String,String,String)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.RequestForInfo(Integer,String,String,String,String,String,String,String)
+  id: 'RequestForInfo(Integer,String,String,String,String,String,String,String)'
+  so.intellisense: NSAppointmentAgent.RequestForInfo
+  langs:
+  - crmscript
+  name: 'RequestForInfo(Integer,String,String,String,String,String,String,String)'
+  nameWithType: NSAppointmentAgent.RequestForInfo(Integer,String,String,String,String,String,String,String)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.RequestForInfo(Integer,String,String,String,String,String,String,String)
+  type: Method
+  summary: "\nSubmits a request for information. The request is added to the task list of the user that is responsible for this contact. Based on wether the person the request is made for is found or not, the following happens: If the person is found, the person, person's contact and sales representative is returned. If neither the person nor the contact is found a new person and contact is created (if sufficient data is supplied), and the person, person's contact and sales representative is returned. If the contact and not the person is found a new person is created on this contact, and the contact, salesrep, and person is returned (if there was enough data to return the person). If more than one contact is found a list of contacts is returned.\n"
+  remarks: 
+  syntax: 
+    content: NSSalesActivity RequestForInfo(Integer associateIdForNewContact, String channel, String regarding, String contactName, String personFirstname, String personLastname, String emailAddress, String phoneNumber)
+    parameters:
+    - id: associateIdForNewContact
+      type: CRMScript.Global.Integer
+      description: 
+    - id: channel
+      type: CRMScript.Global.String
+      description: 
+    - id: regarding
+      type: CRMScript.Global.String
+      description: 
+    - id: contactName
+      type: CRMScript.Global.String
+      description: 
+    - id: personFirstname
+      type: CRMScript.Global.String
+      description: 
+    - id: personLastname
+      type: CRMScript.Global.String
+      description: 
+    - id: emailAddress
+      type: CRMScript.Global.String
+      description: 
+    - id: phoneNumber
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSSalesActivity
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger associateIdForNewContact;\nString channel;\nString regarding;\nString contactName;\nString personFirstname;\nString personLastname;\nString emailAddress;\nString phoneNumber;\nNSSalesActivity res = agent.RequestForInfo(associateIdForNewContact, channel, regarding, contactName, personFirstname, personLastname, emailAddress, phoneNumber);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.Save(Integer,Bool)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.Save(Integer,Bool)
+  id: 'Save(Integer,Bool)'
+  so.intellisense: NSAppointmentAgent.Save
+  langs:
+  - crmscript
+  name: 'Save(Integer,Bool)'
+  nameWithType: NSAppointmentAgent.Save(Integer,Bool)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.Save(Integer,Bool)
+  type: Method
+  summary: "\nSaving a booking.\n"
+  remarks: 
+  syntax: 
+    content: NSAppointmentEntity Save(NSAppointmentEntity appointmentEntity, Integer updateMode, Bool sendEmailToParticipants, NSEMailConnectionInfo smtpEMailConnectionInfo, NSEMailConnectionInfo imapEMailConnectionInfo)
+    parameters:
+    - id: updateMode
+      type: CRMScript.Global.Integer
+      description: 
+    - id: sendEmailToParticipants
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointmentEntity
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nNSAppointmentEntity appointmentEntity;\nInteger updateMode;\nBool sendEmailToParticipants;\nNSEMailConnectionInfo smtpEMailConnectionInfo;\nNSEMailConnectionInfo imapEMailConnectionInfo;\nNSAppointmentEntity res = agent.Save(appointmentEntity, updateMode, sendEmailToParticipants, smtpEMailConnectionInfo, imapEMailConnectionInfo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.SaveAppointmentEntity(NSAppointmentEntity)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.SaveAppointmentEntity(NSAppointmentEntity)
+  id: 'SaveAppointmentEntity(NSAppointmentEntity)'
+  so.intellisense: NSAppointmentAgent.SaveAppointmentEntity
+  langs:
+  - crmscript
+  name: 'SaveAppointmentEntity(NSAppointmentEntity)'
+  nameWithType: NSAppointmentAgent.SaveAppointmentEntity(NSAppointmentEntity)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.SaveAppointmentEntity(NSAppointmentEntity)
+  type: Method
+  summary: "\nSaves an appointmentUpdates the existing NSAppointmentEntity or creates a new NSAppointmentEntity if the ID parameter is 0.\n"
+  remarks: 
+  syntax: 
+    content: NSAppointmentEntity SaveAppointmentEntity(NSAppointmentEntity appointmentEntity)
+    parameters:
+    - id: appointmentEntity
+      type: CRMScript.NetServer.NSAppointmentEntity
+      description:
+    return:
+      type: CRMScript.NetServer.NSAppointmentEntity
+      description: "The new or updated NSAppointmentEntity."
+  example: 
+  - "\n<pre><code>NSAppointment  agent;\nNSAppointmentEntity thing = agent.CreateDefaultAppointmentEntity();\nthing = agent.SaveAppointmentEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.SaveSuggestedAppointmentEntity(NSSuggestedAppointmentEntity)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.SaveSuggestedAppointmentEntity(NSSuggestedAppointmentEntity)
+  id: 'SaveSuggestedAppointmentEntity(NSSuggestedAppointmentEntity)'
+  so.intellisense: NSAppointmentAgent.SaveSuggestedAppointmentEntity
+  langs:
+  - crmscript
+  name: 'SaveSuggestedAppointmentEntity(NSSuggestedAppointmentEntity)'
+  nameWithType: NSAppointmentAgent.SaveSuggestedAppointmentEntity(NSSuggestedAppointmentEntity)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.SaveSuggestedAppointmentEntity(NSSuggestedAppointmentEntity)
+  type: Method
+  summary: "\nUpdates the existing NSSuggestedAppointmentEntity or creates a new NSSuggestedAppointmentEntity if the id parameter is 0\n"
+  remarks: 
+  syntax: 
+    content: NSSuggestedAppointmentEntity SaveSuggestedAppointmentEntity(NSSuggestedAppointmentEntity suggestedAppointmentEntity)
+    parameters:
+    - id: suggestedAppointmentEntity
+      type: CRMScript.NetServer.NSSuggestedAppointmentEntity
+      description: "The NSSuggestedAppointmentEntity to save."
+    return:
+      type: CRMScript.NetServer.NSSuggestedAppointmentEntity
+      description: "New or updated NSSuggestedAppointmentEntity."
+  example: 
+  - "\n<pre><code>NSAppointment  agent;\nNSSuggestedAppointmentEntity thing = agent.CreateDefaultSuggestedAppointmentEntity();\nthing = agent.SaveSuggestedAppointmentEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.SaveTaskListItem(NSTaskListItem)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.SaveTaskListItem(NSTaskListItem)
+  id: 'SaveTaskListItem(NSTaskListItem)'
+  so.intellisense: NSAppointmentAgent.SaveTaskListItem
+  langs:
+  - crmscript
+  name: 'SaveTaskListItem(NSTaskListItem)'
+  nameWithType: NSAppointmentAgent.SaveTaskListItem(NSTaskListItem)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.SaveTaskListItem(NSTaskListItem)
+  type: Method
+  summary: "\nUpdates the existing NSTaskListItem or creates a new NSTaskListItem if the ID parameter is 0.\n"
+  remarks: 
+  syntax: 
+    content: NSTaskListItem SaveTaskListItem(NSTaskListItem taskListItem)
+    parameters:
+    - id: taskListItem
+      type: CRMScript.NetServer.NSTaskListItem
+      description: "The item to save."
+    return:
+      type: CRMScript.NetServer.NSTaskListItem
+      description:
+  example: 
+  - "\n<pre><code>NSAppointment  agent;\nNSTaskListItem thing = agent.CreateDefaultTaskListItem();\nthing = agent.SaveTaskListItem(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.SetActivityStatus(String[],Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.SetActivityStatus(String[],Integer)
+  id: 'SetActivityStatus(String[],Integer)'
+  so.intellisense: NSAppointmentAgent.SetActivityStatus
+  langs:
+  - crmscript
+  name: 'SetActivityStatus(String[],Integer)'
+  nameWithType: NSAppointmentAgent.SetActivityStatus(String[],Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.SetActivityStatus(String[],Integer)
+  type: Method
+  summary: "\nSets the completed status for an array of activities. The changes are saved immediately.\n"
+  remarks: "\nIf an invalid ID is passed in (nonexistent record), no changes will be made. If there is no write access to the record being changed, a Sentry exception will be thrown in the usual manner.\n"
+  syntax: 
+    content: Void SetActivityStatus(String[] activityIdentifier, Integer activityStatus)
+    parameters:
+    - id: activityIdentifier
+      type: CRMScript.Global.String[]
+      description: "May contain a mix of appointment_id, sale_id, document_id, and todo_id."
+    - id: activityStatus
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.ActivityStatus\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSAppointmentAgent.SetSeen(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.SetSeen(Integer,Integer)
+  id: 'SetSeen(Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.SetSeen
+  langs:
+  - crmscript
+  name: 'SetSeen(Integer,Integer)'
+  nameWithType: NSAppointmentAgent.SetSeen(Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.SetSeen(Integer,Integer)
+  type: Method
+  summary: "\nSets an appointment invitation to seen.\n"
+  remarks:
+  syntax: 
+    content: Void SetSeen(Integer appointmentId, Integer updateMode)
+    parameters:
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: updateMode
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.RecurrenceUpdateMode\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSAppointmentAgent.ToggleActivities(String[])
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.ToggleActivities(String[])
+  id: 'ToggleActivities(String[])'
+  so.intellisense: NSAppointmentAgent.ToggleActivities
+  langs:
+  - crmscript
+  name: 'ToggleActivities(String[])'
+  nameWithType: NSAppointmentAgent.ToggleActivities(String[])
+  fullName: CRMScript.NetServer.NSAppointmentAgent.ToggleActivities(String[])
+  type: Method
+  summary: "\nToggles the completed status for an array of activities.\n"
+  remarks: 
+  syntax: 
+    content: Integer ToggleActivities(String[] activityIdentifier)
+    parameters:
+    - id: activityIdentifier
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nString[] activityIdentifier;\nInteger res = agent.ToggleActivities(activityIdentifier);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.ToggleActivity(String)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.ToggleActivity(String)
+  id: 'ToggleActivity(String)'
+  so.intellisense: NSAppointmentAgent.ToggleActivity
+  langs:
+  - crmscript
+  name: 'ToggleActivity(String)'
+  nameWithType: NSAppointmentAgent.ToggleActivity(String)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.ToggleActivity(String)
+  type: Method
+  summary: "\nToggles the completed status for an activity. The changes are saved immediately.\n"
+  remarks: 
+  syntax: 
+    content: Integer ToggleActivity(String activityIdentifier)
+    parameters:
+    - id: activityIdentifier
+      type: CRMScript.Global.String
+      description: "sale, document, or appointment."
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nString activityIdentifier;\nInteger res = agent.ToggleActivity(activityIdentifier);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.ToggleAndSetActivities(String[])
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.ToggleAndSetActivities(String[])
+  id: 'ToggleAndSetActivities(String[])'
+  so.intellisense: NSAppointmentAgent.ToggleAndSetActivities
+  langs:
+  - crmscript
+  name: 'ToggleAndSetActivities(String[])'
+  nameWithType: NSAppointmentAgent.ToggleAndSetActivities(String[])
+  fullName: CRMScript.NetServer.NSAppointmentAgent.ToggleAndSetActivities(String[])
+  type: Method
+  summary: "\nToggles the first activity and sets the rest of the activities to the result of the first toggle.\n"
+  remarks: "\nThere are some special rules for appointments that trigger a suggested appointment when they are completed. If more than one appointment in the set of identifiers triggers a suggestion, we will not toggle those appointments. This rule is only active when changing the status of an appointment to complete. There must be more than one appointment that triggers such an event for this rule to take effect.\n"
+  syntax: 
+    content: String[] ToggleAndSetActivities(String[] activityIdentifiers)
+    parameters:
+    - id: activityIdentifiers
+      type: CRMScript.Global.String[]
+      description: 
+    return:
+      type: CRMScript.Global.String[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nString[] activityIdentifiers;\nString[] res = agent.ToggleAndSetActivities(activityIdentifiers);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.ToggleAppointmentStatus(Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.ToggleAppointmentStatus(Integer)
+  id: 'ToggleAppointmentStatus(Integer)'
+  so.intellisense: NSAppointmentAgent.ToggleAppointmentStatus
+  langs:
+  - crmscript
+  name: 'ToggleAppointmentStatus(Integer)'
+  nameWithType: NSAppointmentAgent.ToggleAppointmentStatus(Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.ToggleAppointmentStatus(Integer)
+  type: Method
+  summary: "\nSets an appointment's status to Completed if the appointment had a different status, or sets the status to started if already set to completed.\n"
+  remarks: 
+  syntax: 
+    content: Integer ToggleAppointmentStatus(Integer appointmentId)
+    parameters:
+    - id: appointmentId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nInteger appointmentId;\nInteger res = agent.ToggleAppointmentStatus(appointmentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.UpdateAppointment(Integer,Integer,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.UpdateAppointment(Integer,Integer,Integer,Integer)
+  id: 'UpdateAppointment(Integer,Integer,Integer,Integer)'
+  so.intellisense: NSAppointmentAgent.UpdateAppointment
+  langs:
+  - crmscript
+  name: 'UpdateAppointment(Integer,Integer,Integer,Integer)'
+  nameWithType: NSAppointmentAgent.UpdateAppointment(Integer,Integer,Integer,Integer)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.UpdateAppointment(Integer,Integer,Integer,Integer)
+  type: Method
+  summary: "\nUpdates an appointment record.\n"
+  remarks: 
+  syntax: 
+    content: NSAppointment UpdateAppointment(Integer id, DateTime startTime, DateTime endTime, Integer status, Integer type, Integer associateId)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    - id: startTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: endTime
+      type: CRMScript.Global.DateTime
+      description:
+    - id: status
+      type: CRMScript.Global.Integer
+      description: 
+    - id: type
+      type: CRMScript.Global.Integer
+      description: 
+    - id: associateId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSAppointment
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSAppointmentAgent.UpdateAppointmentFromIcsResponse(String)
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.UpdateAppointmentFromIcsResponse(String)
+  id: 'UpdateAppointmentFromIcsResponse(String)'
+  so.intellisense: NSAppointmentAgent.UpdateAppointmentFromIcsResponse
+  langs:
+  - crmscript
+  name: 'UpdateAppointmentFromIcsResponse(String)'
+  nameWithType: NSAppointmentAgent.UpdateAppointmentFromIcsResponse(String)
+  fullName: CRMScript.NetServer.NSAppointmentAgent.UpdateAppointmentFromIcsResponse(String)
+  type: Method
+  summary: "\nUpdates the attendance to an appointment based on incoming ICS RSVPs.\n"
+  remarks: 
+  syntax: 
+    content: Bool UpdateAppointmentFromIcsResponse(String emailAddress, NSStream icsData)
+    parameters:
+    - id: emailAddress
+      type: CRMScript.Global.String
+      description: 
+    - id: icsData
+      type: CRMScript.NetServer.NSStream
+      description:
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nString emailAddress;\nNSStream icsData;\nBool res = agent.UpdateAppointmentFromIcsResponse(emailAddress, icsData);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.ValidateAppointmentEntity()
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.ValidateAppointmentEntity()
+  id: 'ValidateAppointmentEntity()'
+  so.intellisense: NSAppointmentAgent.ValidateAppointmentEntity
+  langs:
+  - crmscript
+  name: 'ValidateAppointmentEntity()'
+  nameWithType: NSAppointmentAgent.ValidateAppointmentEntity()
+  fullName: CRMScript.NetServer.NSAppointmentAgent.ValidateAppointmentEntity()
+  type: Method
+  summary: "\nChecks that entity is ready for saving.\n"
+  remarks: 
+  syntax: 
+    content: Map ValidateAppointmentEntity(NSAppointmentEntity appointmentEntity)
+    parameters:
+    - id: appointmentEntity
+      type: CRMScript.NetServer.NSAppointmentEntity
+      description:
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nNSAppointmentEntity appointmentEntity;\nMap res = agent.ValidateAppointmentEntity(appointmentEntity);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.ValidateDays()
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.ValidateDays()
+  id: 'ValidateDays()'
+  so.intellisense: NSAppointmentAgent.ValidateDays
+  langs:
+  - crmscript
+  name: 'ValidateDays()'
+  nameWithType: NSAppointmentAgent.ValidateDays()
+  fullName: CRMScript.NetServer.NSAppointmentAgent.ValidateDays()
+  type: Method
+  summary: "\nValidates the set of dates to calculate any conflicts.\n"
+  remarks: 
+  syntax: 
+    content: NSRecurrenceDate[] ValidateDays(NSAppointmentEntity appointmentEntity, DateTime[] dates)
+    parameters:
+    - id: appointmentEntity
+      type: CRMScript.NetServer.NSAppointmentEntity
+      description:
+    - id: dates
+      type: CRMScript.Global.DateTime[]
+      description:
+    return:
+      type: CRMScript.NetServer.NSRecurrenceDate[]
+      description:
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nNSAppointmentEntity appointmentEntity;\nDateTime[] dates;\nNSRecurrenceDate[] res = agent.ValidateDays(appointmentEntity, dates);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentAgent.WillSendEmail()
+  commentId: M:CRMScript.NetServer.NSAppointmentAgent.WillSendEmail()
+  id: 'WillSendEmail()'
+  so.intellisense: NSAppointmentAgent.WillSendEmail
+  langs:
+  - crmscript
+  name: 'WillSendEmail()'
+  nameWithType: NSAppointmentAgent.WillSendEmail()
+  fullName: CRMScript.NetServer.NSAppointmentAgent.WillSendEmail()
+  type: Method
+  summary: "\nReturns true if the changes will trigger email sending on Save, so you can inform the user.\n"
+  remarks: 
+  syntax: 
+    content: Bool WillSendEmail(NSAppointmentEntity appointment)
+    parameters:
+    - id: appointment
+      type: CRMScript.NetServer.NSAppointmentEntity
+      description:
+    return:
+      type: CRMScript.Global.Bool
+      description: "true if the changes will trigger email sending on Save."
+  example: 
+  - "\n<pre><code>NSAppointmentAgent agent;\nNSAppointmentEntity appointment;\nBool res = agent.WillSendEmail(appointment);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSAppointmentAgent
+  commentId: T:CRMScript.NetServer.NSAppointmentAgent
+  isExternal: true
+  name: NSAppointmentAgent
+  nameWithType: NSAppointmentAgent
+  fullName: CRMScript.NetServer.NSAppointmentAgent
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSAppointmentEntity
+  commentId: T:CRMScript.NetServer.NSAppointmentEntity
+  isExternal: true
+  name: NSAppointmentEntity
+  nameWithType: NSAppointmentEntity
+  fullName: CRMScript.NetServer.NSAppointmentEntity
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSRecurrenceInfo
+  commentId: T:CRMScript.NetServer.NSRecurrenceInfo
+  isExternal: true
+  name: NSRecurrenceInfo
+  nameWithType: NSRecurrenceInfo
+  fullName: CRMScript.NetServer.NSRecurrenceInfo
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Bool[]
+  isExternal: true
+  name: Bool[]
+  nameWithType: Bool[]
+  fullName: CRMScript.Global.Bool[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Bool
+    isExternal: true
+    name: Bool
+    nameWithType: Bool
+    fullName: CRMScript.Global.Bool
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    isExternal: true
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSSuggestedAppointmentEntity
+  commentId: T:CRMScript.NetServer.NSSuggestedAppointmentEntity
+  isExternal: true
+  name: NSSuggestedAppointmentEntity
+  nameWithType: NSSuggestedAppointmentEntity
+  fullName: CRMScript.NetServer.NSSuggestedAppointmentEntity
+- uid: CRMScript.NetServer.NSSalesActivity
+  commentId: T:CRMScript.NetServer.NSSalesActivity
+  isExternal: true
+  name: NSSalesActivity
+  nameWithType: NSSalesActivity
+  fullName: CRMScript.NetServer.NSSalesActivity
+- uid: CRMScript.NetServer.NSActivityInformationListItem[]
+  isExternal: true
+  name: NSActivityInformationListItem[]
+  nameWithType: NSActivityInformationListItem[]
+  fullName: CRMScript.NetServer.NSActivityInformationListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSActivityInformationListItem
+    isExternal: true
+    name: NSActivityInformationListItem
+    nameWithType: NSActivityInformationListItem
+    fullName: CRMScript.NetServer.NSActivityInformationListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSActivityInformationListItem
+  commentId: T:CRMScript.NetServer.NSActivityInformationListItem
+  isExternal: true
+  name: NSActivityInformationListItem
+  nameWithType: NSActivityInformationListItem
+  fullName: CRMScript.NetServer.NSActivityInformationListItem
+- uid: CRMScript.NetServer.NSMultiAlarmData
+  commentId: T:CRMScript.NetServer.NSMultiAlarmData
+  isExternal: true
+  name: NSMultiAlarmData
+  nameWithType: NSMultiAlarmData
+  fullName: CRMScript.NetServer.NSMultiAlarmData
+- uid: CRMScript.NetServer.NSAppointment
+  commentId: T:CRMScript.NetServer.NSAppointment
+  isExternal: true
+  name: NSAppointment
+  nameWithType: NSAppointment
+  fullName: CRMScript.NetServer.NSAppointment
+- uid: CRMScript.NetServer.NSAppointment[]
+  isExternal: true
+  name: NSAppointment[]
+  nameWithType: NSAppointment[]
+  fullName: CRMScript.NetServer.NSAppointment[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSAppointment
+    isExternal: true
+    name: NSAppointment
+    nameWithType: NSAppointment
+    fullName: CRMScript.NetServer.NSAppointment
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSAppointment
+  commentId: T:CRMScript.NetServer.NSAppointment
+  isExternal: true
+  name: NSAppointment
+  nameWithType: NSAppointment
+  fullName: CRMScript.NetServer.NSAppointment
+- uid: CRMScript.NetServer.NSDayInformationListItem[]
+  isExternal: true
+  name: NSDayInformationListItem[]
+  nameWithType: NSDayInformationListItem[]
+  fullName: CRMScript.NetServer.NSDayInformationListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSDayInformationListItem
+    isExternal: true
+    name: NSDayInformationListItem
+    nameWithType: NSDayInformationListItem
+    fullName: CRMScript.NetServer.NSDayInformationListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSDayInformationListItem
+  commentId: T:CRMScript.NetServer.NSDayInformationListItem
+  isExternal: true
+  name: NSDayInformationListItem
+  nameWithType: NSDayInformationListItem
+  fullName: CRMScript.NetServer.NSDayInformationListItem
+- uid: CRMScript.NetServer.NSAppointmentSyncData[]
+  isExternal: true
+  name: NSAppointmentSyncData[]
+  nameWithType: NSAppointmentSyncData[]
+  fullName: CRMScript.NetServer.NSAppointmentSyncData[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSAppointmentSyncData
+    isExternal: true
+    name: NSAppointmentSyncData
+    nameWithType: NSAppointmentSyncData
+    fullName: CRMScript.NetServer.NSAppointmentSyncData
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSAppointmentSyncData
+  commentId: T:CRMScript.NetServer.NSAppointmentSyncData
+  isExternal: true
+  name: NSAppointmentSyncData
+  nameWithType: NSAppointmentSyncData
+  fullName: CRMScript.NetServer.NSAppointmentSyncData
+- uid: CRMScript.NetServer.NSRedLetterInformationListItem[]
+  isExternal: true
+  name: NSRedLetterInformationListItem[]
+  nameWithType: NSRedLetterInformationListItem[]
+  fullName: CRMScript.NetServer.NSRedLetterInformationListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSRedLetterInformationListItem
+    isExternal: true
+    name: NSRedLetterInformationListItem
+    nameWithType: NSRedLetterInformationListItem
+    fullName: CRMScript.NetServer.NSRedLetterInformationListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSRedLetterInformationListItem
+  commentId: T:CRMScript.NetServer.NSRedLetterInformationListItem
+  isExternal: true
+  name: NSRedLetterInformationListItem
+  nameWithType: NSRedLetterInformationListItem
+  fullName: CRMScript.NetServer.NSRedLetterInformationListItem
+- uid: CRMScript.NetServer.NSSuggestedAppointment
+  commentId: T:CRMScript.NetServer.NSSuggestedAppointment
+  isExternal: true
+  name: NSSuggestedAppointment
+  nameWithType: NSSuggestedAppointment
+  fullName: CRMScript.NetServer.NSSuggestedAppointment
+- uid: CRMScript.NetServer.NSTaskListItem[]
+  isExternal: true
+  name: NSTaskListItem[]
+  nameWithType: NSTaskListItem[]
+  fullName: CRMScript.NetServer.NSTaskListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSTaskListItem
+    isExternal: true
+    name: NSTaskListItem
+    nameWithType: NSTaskListItem
+    fullName: CRMScript.NetServer.NSTaskListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSTaskListItem
+  commentId: T:CRMScript.NetServer.NSTaskListItem
+  isExternal: true
+  name: NSTaskListItem
+  nameWithType: NSTaskListItem
+  fullName: CRMScript.NetServer.NSTaskListItem
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    isExternal: true
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Native.Map
+  commentId: T:CRMScript.Native.Map
+  isExternal: true
+  name: Map
+  nameWithType: Map
+  fullName: CRMScript.Native.Map
+- uid: CRMScript.NetServer.NSRecurrenceDate[]
+  isExternal: true
+  name: NSRecurrenceDate[]
+  nameWithType: NSRecurrenceDate[]
+  fullName: CRMScript.NetServer.NSRecurrenceDate[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSRecurrenceDate
+    isExternal: true
+    name: NSRecurrenceDate
+    nameWithType: NSRecurrenceDate
+    fullName: CRMScript.NetServer.NSRecurrenceDate
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSRecurrenceDate
+  commentId: T:CRMScript.NetServer.NSRecurrenceDate
+  isExternal: true
+  name: NSRecurrenceDate
+  nameWithType: NSRecurrenceDate
+  fullName: CRMScript.NetServer.NSRecurrenceDate
+- uid: CRMScript.NetServer.AppointmentType
+  commentId: T:CRMScript.NetServer.AppointmentType
+  isExternal: true
+  name: AppointmentType
+  nameWithType: AppointmentType
+  fullName: CRMScript.NetServer.AppointmentType
+- uid: CRMScript.NetServer.ActivityStatus
+  commentId: T:CRMScript.NetServer.ActivityStatus
+  isExternal: true
+  name: ActivityStatus
+  nameWithType: ActivityStatus
+  fullName: CRMScript.NetServer.ActivityStatus
+- uid: CRMScript.NetServer.RecurrenceUpdateMode
+  commentId: T:CRMScript.NetServer.RecurrenceUpdateMode
+  isExternal: true
+  name: RecurrenceUpdateMode
+  nameWithType: RecurrenceUpdateMode
+  fullName: CRMScript.NetServer.RecurrenceUpdateMode
+- uid: CRMScript.NetServer.TaskType
+  commentId: T:CRMScript.NetServer.TaskType
+  isExternal: true
+  name: TaskType
+  nameWithType: TaskType
+  fullName: CRMScript.NetServer.TaskType
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

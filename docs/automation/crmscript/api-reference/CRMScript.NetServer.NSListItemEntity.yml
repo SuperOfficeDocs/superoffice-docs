@@ -1,0 +1,325 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSListItemEntity
+  commentId: T:CRMScript.NetServer.NSListItemEntity
+  id: NSListItemEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSListItemEntity.#ctor
+  - CRMScript.NetServer.NSListItemEntity.GetDeleted()
+  - CRMScript.NetServer.NSListItemEntity.GetId()
+  - CRMScript.NetServer.NSListItemEntity.GetName()
+  - CRMScript.NetServer.NSListItemEntity.GetRank()
+  - CRMScript.NetServer.NSListItemEntity.GetTooltip()
+  - CRMScript.NetServer.NSListItemEntity.GetUdListDefinitionId()
+  - CRMScript.NetServer.NSListItemEntity.SetDeleted(Bool)
+  - CRMScript.NetServer.NSListItemEntity.SetId(Integer)
+  - CRMScript.NetServer.NSListItemEntity.SetName(String)
+  - CRMScript.NetServer.NSListItemEntity.SetRank(Integer)
+  - CRMScript.NetServer.NSListItemEntity.SetTooltip(String)
+  - CRMScript.NetServer.NSListItemEntity.SetUdListDefinitionId(Integer)
+  name: NSListItemEntity
+  nameWithType: NSListItemEntity
+  fullName: CRMScript.NetServer.NSListItemEntity
+  type: Class
+  summary: "\nThe list item entity contains generic list item information.\n"
+  example: 
+- uid: CRMScript.NetServer.NSListItemEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSListItemEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSListItemEntity
+  langs:
+  - crmscript
+  name: NSListItemEntity()
+  nameWithType: NSListItemEntity.#ctor
+  fullName: CRMScript.NetServer.NSListItemEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSListItemEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSListItemEntity
+  example: 
+- uid: CRMScript.NetServer.NSListItemEntity.GetDeleted()
+  commentId: M:CRMScript.NetServer.NSListItemEntity.GetDeleted()
+  id: 'GetDeleted()'
+  so.intellisense: NSListItemEntity.GetDeleted
+  langs:
+  - crmscript
+  name: 'GetDeleted()'
+  nameWithType: NSListItemEntity.GetDeleted()
+  fullName: CRMScript.NetServer.NSListItemEntity.GetDeleted()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetDeleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the list item is marked as deleted."
+  example: 
+  - "\n<pre><code>NSListItemEntity thing;\nBool deleted = thing.GetDeleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSListItemEntity.GetId()
+  commentId: M:CRMScript.NetServer.NSListItemEntity.GetId()
+  id: 'GetId()'
+  so.intellisense: NSListItemEntity.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSListItemEntity.GetId()
+  fullName: CRMScript.NetServer.NSListItemEntity.GetId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The identity of the list item."
+  example: 
+  - "\n<pre><code>NSListItemEntity thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSListItemEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSListItemEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSListItemEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSListItemEntity.GetName()
+  fullName: CRMScript.NetServer.NSListItemEntity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the list item."
+  example: 
+  - "\n<pre><code>NSListItemEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSListItemEntity.GetRank()
+  commentId: M:CRMScript.NetServer.NSListItemEntity.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSListItemEntity.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSListItemEntity.GetRank()
+  fullName: CRMScript.NetServer.NSListItemEntity.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The rank of the list item."
+  example: 
+  - "\n<pre><code>NSListItemEntity thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSListItemEntity.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSListItemEntity.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSListItemEntity.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSListItemEntity.GetTooltip()
+  fullName: CRMScript.NetServer.NSListItemEntity.GetTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The tooltip of the list item."
+  example: 
+  - "\n<pre><code>NSListItemEntity thing;\nString tooltip = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSListItemEntity.GetUdListDefinitionId()
+  commentId: M:CRMScript.NetServer.NSListItemEntity.GetUdListDefinitionId()
+  id: 'GetUdListDefinitionId()'
+  so.intellisense: NSListItemEntity.GetUdListDefinitionId
+  langs:
+  - crmscript
+  name: 'GetUdListDefinitionId()'
+  nameWithType: NSListItemEntity.GetUdListDefinitionId()
+  fullName: CRMScript.NetServer.NSListItemEntity.GetUdListDefinitionId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetUdListDefinitionId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the list which this list item belongs to."
+  example: 
+  - "\n<pre><code>NSListItemEntity thing;\nInteger udListDefinitionId = thing.GetUdListDefinitionId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSListItemEntity.SetDeleted(Bool)
+  commentId: M:CRMScript.NetServer.NSListItemEntity.SetDeleted(Bool)
+  id: 'SetDeleted(Bool)'
+  so.intellisense: NSListItemEntity.SetDeleted
+  langs:
+  - crmscript
+  name: 'SetDeleted(Bool)'
+  nameWithType: NSListItemEntity.SetDeleted(Bool)
+  fullName: CRMScript.NetServer.NSListItemEntity.SetDeleted(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeleted(Bool deleted)
+    parameters:
+    - id: deleted
+      type: CRMScript.Global.Bool
+      description: "True if the list item is marked as deleted."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSListItemEntity thing;\nBool deleted;\nthing.SetDeleted(deleted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSListItemEntity.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSListItemEntity.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSListItemEntity.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSListItemEntity.SetId(Integer)
+  fullName: CRMScript.NetServer.NSListItemEntity.SetId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "The identity of the list item."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSListItemEntity thing;\nInteger id;\nthing.SetId(id);</code></pre>\n"
+- uid: CRMScript.NetServer.NSListItemEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSListItemEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSListItemEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSListItemEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSListItemEntity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of the list item."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSListItemEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSListItemEntity.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSListItemEntity.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSListItemEntity.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSListItemEntity.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSListItemEntity.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "The rank of the list item."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSListItemEntity thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSListItemEntity.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSListItemEntity.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSListItemEntity.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSListItemEntity.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSListItemEntity.SetTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: "The tooltip of the list item."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSListItemEntity thing;\nString tooltip;\nthing.SetTooltip(tooltip);</code></pre>\n"
+- uid: CRMScript.NetServer.NSListItemEntity.SetUdListDefinitionId(Integer)
+  commentId: M:CRMScript.NetServer.NSListItemEntity.SetUdListDefinitionId(Integer)
+  id: 'SetUdListDefinitionId(Integer)'
+  so.intellisense: NSListItemEntity.SetUdListDefinitionId
+  langs:
+  - crmscript
+  name: 'SetUdListDefinitionId(Integer)'
+  nameWithType: NSListItemEntity.SetUdListDefinitionId(Integer)
+  fullName: CRMScript.NetServer.NSListItemEntity.SetUdListDefinitionId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUdListDefinitionId(Integer udListDefinitionId)
+    parameters:
+    - id: udListDefinitionId
+      type: CRMScript.Global.Integer
+      description: "The ID of the list which this list item belongs to."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSListItemEntity thing;\nInteger udListDefinitionId;\nthing.SetUdListDefinitionId(udListDefinitionId);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSListItemEntity
+  commentId: T:CRMScript.NetServer.NSListItemEntity
+  isExternal: true
+  name: NSListItemEntity
+  nameWithType: NSListItemEntity
+  fullName: CRMScript.NetServer.NSListItemEntity
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

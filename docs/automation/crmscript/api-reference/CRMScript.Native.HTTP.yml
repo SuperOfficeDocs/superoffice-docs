@@ -1,0 +1,649 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.HTTP
+  commentId: T:CRMScript.Native.HTTP
+  id: HTTP
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.HTTP.#ctor
+  - CRMScript.Native.HTTP.addAttachmentData(Integer)
+  - CRMScript.Native.HTTP.addBinaryData(Byte[])
+  - CRMScript.Native.HTTP.addDocumentData(Integer)
+  - CRMScript.Native.HTTP.addHeader(String,String)
+  - CRMScript.Native.HTTP.delete(String)
+  - CRMScript.Native.HTTP.deleteAsStream(String)
+  - CRMScript.Native.HTTP.get(String)
+  - CRMScript.Native.HTTP.getAsStream(String)
+  - CRMScript.Native.HTTP.getDebug()
+  - CRMScript.Native.HTTP.getErrorMessage()
+  - CRMScript.Native.HTTP.getResponseHeader(String)
+  - CRMScript.Native.HTTP.getResponseHeaders()
+  - CRMScript.Native.HTTP.getValue(String)
+  - CRMScript.Native.HTTP.hasError()
+  - CRMScript.Native.HTTP.open(String)
+  - CRMScript.Native.HTTP.openAsStream(String)
+  - CRMScript.Native.HTTP.patch(String)
+  - CRMScript.Native.HTTP.patchAsStream(String)
+  - CRMScript.Native.HTTP.post(String)
+  - CRMScript.Native.HTTP.postAsStream(String)
+  - CRMScript.Native.HTTP.putAsStream(String)
+  - CRMScript.Native.HTTP.setDebugMode()
+  - CRMScript.Native.HTTP.setOption(String,Bool)
+  - CRMScript.Native.HTTP.setValue(String,String)
+  name: HTTP
+  nameWithType: HTTP
+  fullName: CRMScript.Native.HTTP
+  type: Class
+  summary: "\nUsed to retrieve the result of a URL.\n"
+  example: 
+  - "\n<pre><code>HTTP h;\n\nByte[] b = h.open(&quot;https://httpbin.org/&quot;);\nprintLine(h.getValue(&quot;statusCode&quot;));\n\nif (h.hasError())\n  print(h.getErrorMessage());\nelse</code></pre>\n"
+- uid: CRMScript.Native.HTTP.#ctor
+  commentId: M:CRMScript.Native.HTTP.#ctor
+  id: '#ctor'
+  so.intellisense: Void.HTTP
+  langs:
+  - crmscript
+  name: HTTP()
+  nameWithType: HTTP.#ctor
+  fullName: CRMScript.Native.HTTP.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the HTTP class.\n"
+  remarks: 
+  syntax: 
+    content: HTTP
+  example: 
+  - "\n<pre><code>HTTP h;\n\nByte[] b = h.open(&quot;https://httpbin.org/&quot;);\nprintLine(h.getValue(&quot;statusCode&quot;));\n\nif (h.hasError())\n  print(h.getErrorMessage());\nelse</code></pre>\n"
+- uid: CRMScript.Native.HTTP.addAttachmentData(Integer)
+  commentId: M:CRMScript.Native.HTTP.addAttachmentData(Integer)
+  id: 'addAttachmentData(Integer)'
+  so.intellisense: HTTP.addAttachmentData
+  langs:
+  - crmscript
+  name: 'addAttachmentData(Integer)'
+  nameWithType: HTTP.addAttachmentData(Integer)
+  fullName: CRMScript.Native.HTTP.addAttachmentData(Integer)
+  type: Method
+  summary: "\nAdds the binary data in the Service attachment specified to the body of the request.\n"
+  remarks: "\nMust be used together with POST, PUT or PATCH.<p></p>\nMany REST endpoints expect the content to be uploaded as binary data when adding files. You can use this method for doing that. automatically set the Content-Type header based on the content type recorded in the database for the attachment. If you want to override the Content-Type, be sure to set a Content-Type header <strong>after</strong> doing the addAttachmentData call.\n"
+  syntax: 
+    content: Bool addAttachmentData(Integer attachmentId)
+    parameters:
+    - id: attachmentId
+      type: CRMScript.Global.Integer
+      description: "The ID of the Service attachment you want to upload."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the attachment was found; otherwise, false."
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\n\nHTTP http;\n\nif(http.addAttachmentData(24))\n{\n  Byte[] res = http.post(&quot;https://httpbin.org/post&quot;);\n  if (!http.hasError())\n    print(String(res));\n  else\n    print(http.getErrorMessage());</code></pre>\n"
+- uid: CRMScript.Native.HTTP.addBinaryData(Byte[])
+  commentId: M:CRMScript.Native.HTTP.addBinaryData(Byte[])
+  id: 'addBinaryData(Byte[])'
+  so.intellisense: HTTP.addBinaryData
+  langs:
+  - crmscript
+  name: 'addBinaryData(Byte[])'
+  nameWithType: HTTP.addBinaryData(Byte[])
+  fullName: CRMScript.Native.HTTP.addBinaryData(Byte[])
+  type: Method
+  summary: "\nAdds the binary data to the body of the request.\n"
+  remarks: "\nMust be used together with POST, PUT or PATCH.<p></p>\nMany REST endpoints expect the content to be uploaded as binary data when adding files. You can use this method for doing that. Normally, you also want to add a Content-Type header, indicating what kind of files this is.\n"
+  syntax: 
+    content: Void addBinaryData(Byte[] binaryData)
+    parameters:
+    - id: binaryData
+      type: CRMScript.Global.Byte[]
+      description: "An array of Bytes containing the binary data you want to apply to the request body."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\n\nHTTP http;\nByte[] image = http.get(&quot;https://httpbin.org/image/png&quot;);\nif (!http.hasError())\n{\n  http.addBinaryData(image);\n  http.addHeader(&quot;Content-Type&quot;, &quot;image/png&quot;);\n  Byte[] res = http.post(&quot;https://httpbin.org/post&quot;);\n  print(String(res));\n}\nelse\n{\n  print(http.getErrorMessage());\n}</code></pre>\n"
+- uid: CRMScript.Native.HTTP.addDocumentData(Integer)
+  commentId: M:CRMScript.Native.HTTP.addDocumentData(Integer)
+  id: 'addDocumentData(Integer)'
+  so.intellisense: HTTP.addDocumentData
+  langs:
+  - crmscript
+  name: 'addDocumentData(Integer)'
+  nameWithType: HTTP.addDocumentData(Integer)
+  fullName: CRMScript.Native.HTTP.addDocumentData(Integer)
+  type: Method
+  summary: "\nAdd the binary data in the document specified to the body of the request.\n"
+  remarks: "\nMust be used together with POST, PUT or PATCH.<p></p>\nMany REST endpoints expect the content to be uploaded as binary data when adding files. You can use this method for doing that. automatically set the Content-Type header based on the extension of the document being added. If you want to override the Content-Type, be sure to set a Content-Type header <strong>after</strong> doing the addDocumentData call.\n"
+  syntax: 
+    content: Bool addDocumentData(Integer documentId)
+    parameters:
+    - id: documentId
+      type: CRMScript.Global.Integer
+      description: "The ID of the document you want to upload."
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the document was found; otherwise, false."
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\n\nHTTP http;\n\nif(http.addDocumentData(24))\n{\n  Byte[] res = http.post(&quot;https://httpbin.org/post&quot;);\n  if (!http.hasError())\n    print(String(res));\n  else\n    print(http.getErrorMessage());\n}</code></pre>\n"
+- uid: CRMScript.Native.HTTP.addHeader(String,String)
+  commentId: M:CRMScript.Native.HTTP.addHeader(String,String)
+  id: 'addHeader(String,String)'
+  so.intellisense: HTTP.addHeader
+  langs:
+  - crmscript
+  name: 'addHeader(String,String)'
+  nameWithType: HTTP.addHeader(String,String)
+  fullName: CRMScript.Native.HTTP.addHeader(String,String)
+  type: Method
+  summary: "\nAdds a new header. The new header will be placed after other existing headers.\n"
+  remarks: 
+  syntax: 
+    content: Void addHeader(String name, String value)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "Name of header"
+    - id: value
+      type: CRMScript.Global.String
+      description: "Value of header."
+    return:
+      type: CRMScript.Global.Void 
+  example: 
+  - "\n<pre><code>HTTP h;\n\nh.addHeader(&quot;header&quot;, &quot;test&quot;);\n\nByte[] b = h.post(&quot;https://httpbin.org/post&quot;);\n\nif (h.hasError())\nprint(h.getErrorMessage());\nelse\nprint(String(b));</code></pre>\n"
+- uid: CRMScript.Native.HTTP.delete(String)
+  commentId: M:CRMScript.Native.HTTP.delete(String)
+  id: 'delete(String)'
+  so.intellisense: HTTP.delete
+  langs:
+  - crmscript
+  name: 'delete(String)'
+  nameWithType: HTTP.delete(String)
+  fullName: CRMScript.Native.HTTP.delete(String)
+  type: Method
+  summary: "\nSupports both HTTP and HTTPS.\n"
+  remarks: 
+  syntax: 
+    content: Byte[] delete(String url)
+    parameters:
+    - id: url
+      type: CRMScript.Global.String
+      description: "What to delete."
+    return:
+      type: CRMScript.Global.Byte[]
+      description: "The result in a byte array."
+  example: 
+  - "\n<pre><code>HTTP h;\n\nByte[] b = h.delete(&quot;https://httpbin.org/delete&quot;);\nif (h.hasError())\n  print(h.getErrorMessage());\nelse</code></pre>\n"
+- uid: CRMScript.Native.HTTP.deleteAsStream(String)
+  commentId: M:CRMScript.Native.HTTP.deleteAsStream(String)
+  id: 'deleteAsStream(String)'
+  so.intellisense: HTTP.deleteAsStream
+  langs:
+  - crmscript
+  name: 'deleteAsStream(String)'
+  nameWithType: HTTP.deleteAsStream(String)
+  fullName: CRMScript.Native.HTTP.deleteAsStream(String)
+  type: Method
+  summary: "\nSupports both HTTP and HTTPS.\n"
+  remarks: 
+  syntax: 
+    content: NSStream deleteAsStream(String url)
+    parameters:
+    - id: url
+      type: CRMScript.Global.String
+      description: "What to delete."
+    return:
+      type: CRMScript.NetServer.NSStream."
+  example: 
+  - "\n<pre><code>HTTP h;\n\nNSStream b = h.deleteAsStream(&quot;https://httpbin.org/delete&quot;);\nif (h.hasError())\n  print(h.getErrorMessage());\nelse</code></pre>\n"
+- uid: CRMScript.Native.HTTP.get(String)
+  commentId: M:CRMScript.Native.HTTP.get(String)
+  id: 'get(String)'
+  so.intellisense: HTTP.get
+  langs:
+  - crmscript
+  name: 'get(String)'
+  nameWithType: HTTP.get(String)
+  fullName: CRMScript.Native.HTTP.get(String)
+  type: Method
+  summary: "\nSupports both HTTP and HTTPS.\n"
+  remarks: 
+  syntax: 
+    content: Byte[] get(String url)
+    parameters:
+    - id: url
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Byte[]
+      description: "The result in a byte array."
+  example: 
+  - "\n<pre><code>HTTP h;\n\nh.addHeader(&quot;header&quot;, &quot;test&quot;);\nh.setValue(&quot;key&quot;, &quot;value&quot;);\nh.setValue(&quot;key2&quot;, &quot;value2&quot;);\nh.setOption(&quot;followLocation&quot;, &quot;true&quot;);\nByte[] b = h.get(&quot;https://httpbin.org/get&quot;);\nif (h.hasError())\n  print(h.getErrorMessage());\nelse</code></pre>\n"
+- uid: CRMScript.Native.HTTP.getAsStream(String)
+  commentId: M:CRMScript.Native.HTTP.getAsStream(String)
+  id: 'getAsStream(String)'
+  so.intellisense: HTTP.getAsStream
+  langs:
+  - crmscript
+  name: 'getAsStream(String)'
+  nameWithType: HTTP.getAsStream(String)
+  fullName: CRMScript.Native.HTTP.getAsStream(String)
+  type: Method
+  summary: "\nSupports both HTTP and HTTPS.\n"
+  remarks: 
+  syntax: 
+    content: NSStream getAsStream(String url)
+    parameters:
+    - id: url
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSStream
+      description: "The result."
+  example: 
+  - "\n<pre><code>HTTP h;\n\nh.addHeader(&quot;header&quot;, &quot;test&quot;);\nh.setValue(&quot;key&quot;, &quot;value&quot;);\nh.setValue(&quot;key2&quot;, &quot;value2&quot;);\nh.setOption(&quot;followLocation&quot;, &quot;true&quot;);\nNSStream b = h.getAsStream(&quot;https://httpbin.org/get&quot;);\nif (h.hasError())\n  print(h.getErrorMessage());\nelse</code></pre>\n"
+- uid: CRMScript.Native.HTTP.getDebug()
+  commentId: M:CRMScript.Native.HTTP.getDebug()
+  id: 'getDebug()'
+  so.intellisense: HTTP.getDebug
+  langs:
+  - crmscript
+  name: 'getDebug()'
+  nameWithType: HTTP.getDebug()
+  fullName: CRMScript.Native.HTTP.getDebug()
+  type: Method
+  summary: "\nRetrieves debug output.\n"
+  remarks: "\nTurn on debug mode by calling setDebugMode(true) before you use getDebug().\n"
+  syntax: 
+    content: String getDebug()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The debug output."
+  example: 
+- uid: CRMScript.Native.HTTP.getErrorMessage()
+  commentId: M:CRMScript.Native.HTTP.getErrorMessage()
+  id: 'getErrorMessage()'
+  so.intellisense: HTTP.getErrorMessage
+  langs:
+  - crmscript
+  name: 'getErrorMessage()'
+  nameWithType: HTTP.getErrorMessage()
+  fullName: CRMScript.Native.HTTP.getErrorMessage()
+  type: Method
+  summary: "\nReturns the last error message.\n"
+  remarks: 
+  syntax: 
+    content: String getErrorMessage()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The last error message."
+  example: 
+  - "\n<pre><code>HTTP h;\n\nh.addHeader(&quot;header&quot;, &quot;test&quot;);\nh.setValue(&quot;key&quot;, &quot;value&quot;);\nh.setValue(&quot;key2&quot;, &quot;value2&quot;);\nh.setOption(&quot;followLocation&quot;, &quot;true&quot;);\nByte[] b = h.put(&quot;https://httpbin.org/put&quot;);\n\nif (h.hasError())\n  print(h.getErrorMessage());\nelse</code></pre>\n"
+- uid: CRMScript.Native.HTTP.getResponseHeader(String)
+  commentId: M:CRMScript.Native.HTTP.getResponseHeader(String)
+  id: 'getResponseHeader(String)'
+  so.intellisense: HTTP.getResponseHeader
+  langs:
+  - crmscript
+  name: 'getResponseHeader(String)'
+  nameWithType: HTTP.getResponseHeader(String)
+  fullName: CRMScript.Native.HTTP.getResponseHeader(String)
+  type: Method
+  summary: "\nGets a named HTTP header from the response of the HTTP request.\n"
+  remarks: "\nCase insensitive.\n"
+  syntax: 
+    content: String getResponseHeader(String header)
+    parameters:
+    - id: header
+      type: CRMScript.Global.String
+      description: "The header to get."
+    return:
+      type: CRMScript.Global.String
+      description: "The header."
+  example: 
+- uid: CRMScript.Native.HTTP.getResponseHeaders()
+  commentId: M:CRMScript.Native.HTTP.getResponseHeaders()
+  id: 'getResponseHeaders()'
+  so.intellisense: HTTP.getResponseHeaders
+  langs:
+  - crmscript
+  name: 'getResponseHeaders()'
+  nameWithType: HTTP.getResponseHeaders()
+  fullName: CRMScript.Native.HTTP.getResponseHeaders()
+  type: Method
+  summary: "\nGets a map of all the headers from the HTTP response headers after making a HTTP call.\n"
+  remarks: "\nThe key is in lower case regardless of what was returned by the response. The value will keep the case.\n"
+  syntax: 
+    content: Map getResponseHeaders()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description: "A map of all the headers from the HTTP response headers after making a HTTP call."
+  example: 
+- uid: CRMScript.Native.HTTP.getValue(String)
+  commentId: M:CRMScript.Native.HTTP.getValue(String)
+  id: 'getValue(String)'
+  so.intellisense: HTTP.getValue
+  langs:
+  - crmscript
+  name: 'getValue(String)'
+  nameWithType: HTTP.getValue(String)
+  fullName: CRMScript.Native.HTTP.getValue(String)
+  type: Method
+  summary: "\nGeneral function which returns various values from the instance.\n"
+  remarks: "\nstatusCode: Will return the status code from the HTTP request (such as 404, 200). Supported from v8.0sr3.\n"
+  syntax: 
+    content: String getValue(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "What to get (statusCode)."
+    return:
+      type: CRMScript.Global.String
+      description: "Values from the instance."
+  example: 
+- uid: CRMScript.Native.HTTP.hasError()
+  commentId: M:CRMScript.Native.HTTP.hasError()
+  id: 'hasError()'
+  so.intellisense: HTTP.hasError
+  langs:
+  - crmscript
+  name: 'hasError()'
+  nameWithType: HTTP.hasError()
+  fullName: CRMScript.Native.HTTP.hasError()
+  type: Method
+  summary: "\nChecks if there was an error in the environment.\n"
+  remarks:
+  syntax: 
+    content: Bool hasError()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if there was an error in the environment; otherwise, false."
+  example: 
+- uid: CRMScript.Native.HTTP.open(String)
+  commentId: M:CRMScript.Native.HTTP.open(String)
+  id: 'open(String)'
+  so.intellisense: HTTP.open
+  langs:
+  - crmscript
+  name: 'open(String)'
+  nameWithType: HTTP.open(String)
+  fullName: CRMScript.Native.HTTP.open(String)
+  type: Method
+  summary: "\nOpens a URL and returns the result as a Byte array.\n"
+  remarks: 
+  syntax: 
+    content: Byte[] open(String url)
+    parameters:
+    - id: url
+      type: CRMScript.Global.String
+      description: "The URL to open. http://..."
+    return:
+      type: CRMScript.Global.Byte[]
+      description: "Result as a Byte array."
+  example: 
+  - "\n<pre><code>HTTP h;\n\nByte[] b = h.open(&quot;https://httpbin.org/&quot;);\n\nif (h.hasError())\n  print(h.getErrorMessage());\nelse</code></pre>\n"
+- uid: CRMScript.Native.HTTP.openAsStream(String)
+  commentId: M:CRMScript.Native.HTTP.openAsStream(String)
+  id: 'openAsStream(String)'
+  so.intellisense: HTTP.openAsStream
+  langs:
+  - crmscript
+  name: 'openAsStream(String)'
+  nameWithType: HTTP.openAsStream(String)
+  fullName: CRMScript.Native.HTTP.openAsStream(String)
+  type: Method
+  summary: "\nOpens a URL and returns the result as an NSStream.\n"
+  remarks: 
+  syntax: 
+    content: NSStream openAsStream(String url)
+    parameters:
+    - id: url
+      type: CRMScript.Global.String
+      description: "The URL to open. http://..."
+    return:
+      type: CRMScript.NetServer.NSStream."
+  example: 
+  - "\n<pre><code>HTTP h;\n\nNSStream b = h.openAsStream(&quot;https://httpbin.org/&quot;);\n\nif (h.hasError())\n  print(h.getErrorMessage());\nelse</code></pre>\n"
+- uid: CRMScript.Native.HTTP.patch(String)
+  commentId: M:CRMScript.Native.HTTP.patch(String)
+  id: 'patch(String)'
+  so.intellisense: HTTP.patch
+  langs:
+  - crmscript
+  name: 'patch(String)'
+  nameWithType: HTTP.patch(String)
+  fullName: CRMScript.Native.HTTP.patch(String)
+  type: Method
+  summary: "\nSupports both HTTP and HTTPS.\n"
+  remarks: 
+  syntax: 
+    content: Byte[] patch(String url)
+    parameters:
+    - id: url
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Byte[]
+      description: "The result as a byte array."
+  example: 
+  - "\n<pre><code>HTTP h;\n\nh.addHeader(&quot;header&quot;, &quot;test&quot;);\nh.setValue(&quot;key&quot;, &quot;value&quot;);\nh.setValue(&quot;key2&quot;, &quot;value2&quot;);\nh.setOption(&quot;followLocation&quot;, &quot;true&quot;);\nByte[] b = h.patch(&quot;https://httpbin.org/patch&quot;);\nif (h.hasError())\n  print(h.getErrorMessage());\nelse</code></pre>\n"
+- uid: CRMScript.Native.HTTP.patchAsStream(String)
+  commentId: M:CRMScript.Native.HTTP.patchAsStream(String)
+  id: 'patchAsStream(String)'
+  so.intellisense: HTTP.patchAsStream
+  langs:
+  - crmscript
+  name: 'patchAsStream(String)'
+  nameWithType: HTTP.patchAsStream(String)
+  fullName: CRMScript.Native.HTTP.patchAsStream(String)
+  type: Method
+  summary: "\nSupports both HTTP and HTTPS.\n"
+  remarks: 
+  syntax: 
+    content: NSStream patchAsStream(String url)
+    parameters:
+    - id: url
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSStream
+      description: "The result."
+  example: 
+  - "\n<pre><code>HTTP h;\n\nh.addHeader(&quot;header&quot;, &quot;test&quot;);\nh.setValue(&quot;key&quot;, &quot;value&quot;);\nh.setValue(&quot;key2&quot;, &quot;value2&quot;);\nh.setOption(&quot;followLocation&quot;, &quot;true&quot;);\nNSStream b = h.patchAsStream(&quot;https://httpbin.org/patch&quot;);\nif (h.hasError())\n  print(h.getErrorMessage());\nelse</code></pre>\n"
+- uid: CRMScript.Native.HTTP.post(String)
+  commentId: M:CRMScript.Native.HTTP.post(String)
+  id: 'post(String)'
+  so.intellisense: HTTP.post
+  langs:
+  - crmscript
+  name: 'post(String)'
+  nameWithType: HTTP.post(String)
+  fullName: CRMScript.Native.HTTP.post(String)
+  type: Method
+  summary: "\nSupports both HTTP and HTTPS.\n"
+  remarks: 
+  syntax: 
+    content: Byte[] post(String url)
+    parameters:
+    - id: url
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Byte[]
+      description: "The result as a byte array."
+  example: 
+  - "\n<pre><code>HTTP h;\n\nh.addHeader(&quot;header&quot;, &quot;test&quot;);\nh.setValue(&quot;key&quot;, &quot;value&quot;);\nh.setValue(&quot;key2&quot;, &quot;value2&quot;);\nh.setOption(&quot;followLocation&quot;, &quot;true&quot;);\nByte[] b = h.post(&quot;https://httpbin.org/post&quot;);\nif (h.hasError())\n  print(h.getErrorMessage());\nelse</code></pre>\n"
+- uid: CRMScript.Native.HTTP.postAsStream(String)
+  commentId: M:CRMScript.Native.HTTP.postAsStream(String)
+  id: 'postAsStream(String)'
+  so.intellisense: HTTP.postAsStream
+  langs:
+  - crmscript
+  name: 'postAsStream(String)'
+  nameWithType: HTTP.postAsStream(String)
+  fullName: CRMScript.Native.HTTP.postAsStream(String)
+  type: Method
+  summary: "\nSupports both HTTP and HTTPS.\n"
+  remarks: 
+  syntax: 
+    content: NSStream postAsStream(String url)
+    parameters:
+    - id: url
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSStream
+      description: "The result."
+  example: 
+  - "\n<pre><code>HTTP h;\n\nh.addHeader(&quot;header&quot;, &quot;test&quot;);\nh.setValue(&quot;key&quot;, &quot;value&quot;);\nh.setValue(&quot;key2&quot;, &quot;value2&quot;);\nh.setOption(&quot;followLocation&quot;, &quot;true&quot;);\nNSStream b = h.postAsStream(&quot;https://httpbin.org/post&quot;);\nif (h.hasError())\n  print(h.getErrorMessage());\nelse</code></pre>\n"
+- uid: CRMScript.Native.HTTP.putAsStream(String)
+  commentId: M:CRMScript.Native.HTTP.putAsStream(String)
+  id: 'putAsStream(String)'
+  so.intellisense: HTTP.putAsStream
+  langs:
+  - crmscript
+  name: 'putAsStream(String)'
+  nameWithType: HTTP.putAsStream(String)
+  fullName: CRMScript.Native.HTTP.putAsStream(String)
+  type: Method
+  summary: "\nSupports both HTTP and HTTPS.\n"
+  remarks: 
+  syntax: 
+    content: NSStream putAsStream(String url)
+    parameters:
+    - id: url
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSStream
+      description: "The result."
+  example: 
+  - "\n<pre><code>HTTP h;\n\nh.addHeader(&quot;header&quot;, &quot;test&quot;);\nh.setValue(&quot;key&quot;, &quot;value&quot;);\nh.setValue(&quot;key2&quot;, &quot;value2&quot;);\nh.setOption(&quot;followLocation&quot;, &quot;true&quot;);\nNSStream b = h.putAsStream(&quot;https://httpbin.org/put&quot;);\nif (h.hasError())\n  print(h.getErrorMessage());\nelse</code></pre>\n"
+- uid: CRMScript.Native.HTTP.setDebugMode()
+  commentId: M:CRMScript.Native.HTTP.setDebugMode()
+  id: 'setDebugMode()'
+  so.intellisense: HTTP.setDebugMode
+  langs:
+  - crmscript
+  name: 'setDebugMode()'
+  nameWithType: HTTP.setDebugMode()
+  fullName: CRMScript.Native.HTTP.setDebugMode()
+  type: Method
+  summary: "\nTurns debug mode on/off to record debug output.\n"
+  remarks: 
+  syntax: 
+    content: Void setDebugMode(Bool debug)
+    parameters:
+    - id: debug
+      type: CRMScript.Global.Bool
+      description: "True to turn debug on, false to turn it off."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.HTTP.setOption(String,Bool)
+  commentId: M:CRMScript.Native.HTTP.setOption(String,Bool)
+  id: 'setOption(String,Bool)'
+  so.intellisense: HTTP.setOption
+  langs:
+  - crmscript
+  name: 'setOption(String,Bool)'
+  nameWithType: HTTP.setOption(String,Bool)
+  fullName: CRMScript.Native.HTTP.setOption(String,Bool)
+  type: Method
+  summary: "\nOption function.\n"
+  remarks: "\n<table><thead><tr><th>Value</th><th>Description</th></tr></thead><body><tr><td>verifyPeer</td>><td>verify the peer's SSL certificate</td></tr><tr><td>verifyHost</td>><td>verify the certificate's name against the host</td></tr><tr><td>timeout</td>><td>set maximum time the request is allowed to take</td></tr><tr><td>followLocation</td>><td>follow HTTP 3xx redirects if set to 1, default is 0</td></tr><tr><td>username</td>><td>username used in authentication</td></tr><tr><td>password</td>><td>password used in authentication</td></tr><tr><td>parameters</td>><td>The complete parameters to post. This will replace whatever you have added using .setValue(), but allows you to specify the whole parameter to post. Useful when posting e.g. JSON structs instead of name=value pairs. NOTE  you need to prefix whatever you want to send with a dummy character (which will be removed) due to complexities in this class. See the example below.</td></tr><tr><td>authenticationMethod</td>><td>which authentication method to use  basic (default), digest, gssnegotiate, ntlm, digest_ie, ntlm_wb, none</td></tr><tr><td>parametersUTF8</td>><td>From version 8.2R3. This option makes the parameters be encoded as UTF-8. Normally this is what you want, but to not break any old uses, this is an optional option.</td></tr></body></table>\n"
+  syntax: 
+    content: Void setOption(String name, String value)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: 
+    - id: value
+      type: CRMScript.Global.String
+      description: "See table."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>HTTP h;\n\nh.addHeader(&quot;header&quot;, &quot;test&quot;);\nh.setValue(&quot;key&quot;, &quot;value&quot;);\nh.setValue(&quot;key2&quot;, &quot;value2&quot;);\nh.setOption(&quot;followLocation&quot;, &quot;true&quot;);\n\nByte[] b = h.post(&quot;https://httpbin.org/post&quot;);\n\nif (h.hasError())\n  print(h.getErrorMessage());\nelse\n  print(String(b));\n\n//Here is an example for creating an issue in JIRA, hosted by Atlassian\n\nHTTP h2;\nString json = &quot; {\n  &quot;fields&quot;: {\n    &quot;project&quot;: {\n      &quot;key&quot;: &quot;SUP&quot;\n    },\n&quot;summary&quot;: &quot;I have a problem!.&quot;,\n&quot;description&quot;: &quot;Thats awesome&quot;,\n    &quot;issuetype&quot;: {\n      &quot;name&quot;: &quot;Bug&quot;\n    }\n  }\n}&quot;;\n\nHTTP h;\nh.setOption(&quot;username&quot;, &quot;theUsername&quot;);\nh.setOption(&quot;password&quot;, &quot;thePassword&quot;);\nh.addHeader(&quot;Content-Type&quot;, &quot;application/json&quot;);\nh.setOption(&quot;parameters&quot;, json);\nprint(String(h.post(&quot;https://theInstance.atlassian.net/rest/api/2/issue/&quot;)));</code></pre>\n"
+- uid: CRMScript.Native.HTTP.setValue(String,String)
+  commentId: M:CRMScript.Native.HTTP.setValue(String,String)
+  id: 'setValue(String,String)'
+  so.intellisense: HTTP.setValue
+  langs:
+  - crmscript
+  name: 'setValue(String,String)'
+  nameWithType: HTTP.setValue(String,String)
+  fullName: CRMScript.Native.HTTP.setValue(String,String)
+  type: Method
+  summary: "\nAdds a CGI variable and its according value to the HTTP request.\n"
+  remarks: 
+  syntax: 
+    content: Void setValue(String cgiVariable, String value)
+    parameters:
+    - id: cgiVariable
+      type: CRMScript.Global.String
+      description: "The variable to set"
+    - id: value
+      type: CRMScript.Global.String
+      description: "The value."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>HTTP h;\n\nh.addHeader(&quot;header&quot;, &quot;test&quot;);\nh.setValue(&quot;key&quot;, &quot;value&quot;);\nh.setValue(&quot;key2&quot;, &quot;value2&quot;);\nh.setOption(&quot;followLocation&quot;, &quot;true&quot;);\nByte[] b = h.put(&quot;https://httpbin.org/put&quot;);\nif (h.hasError())\n  print(h.getErrorMessage());\nelse</code></pre>\n"
+references:
+- uid: CRMScript.Native.HTTP
+  commentId: T:CRMScript.Native.HTTP
+  isExternal: true
+  name: HTTP
+  nameWithType: HTTP
+  fullName: CRMScript.Native.HTTP
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: CRMScript.Global.Byte[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Byte
+    isExternal: true
+    name: Byte
+    nameWithType: Byte
+    fullName: CRMScript.Global.Byte
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Byte
+  commentId: T:CRMScript.Global.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: CRMScript.Global.Byte
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSStream
+  commentId: T:CRMScript.NetServer.NSStream
+  isExternal: true
+  name: NSStream
+  nameWithType: NSStream
+  fullName: CRMScript.NetServer.NSStream

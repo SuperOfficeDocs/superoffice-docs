@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSDeliveryTerm
+  commentId: T:CRMScript.NetServer.NSDeliveryTerm
+  id: NSDeliveryTerm
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSDeliveryTerm.#ctor
+  - CRMScript.NetServer.NSDeliveryTerm.GetId()
+  - CRMScript.NetServer.NSDeliveryTerm.GetTooltip()
+  - CRMScript.NetServer.NSDeliveryTerm.GetValue()
+  - CRMScript.NetServer.NSDeliveryTerm.SetId(Integer)
+  - CRMScript.NetServer.NSDeliveryTerm.SetTooltip(String)
+  - CRMScript.NetServer.NSDeliveryTerm.SetValue(String)
+  name: NSDeliveryTerm
+  nameWithType: NSDeliveryTerm
+  fullName: CRMScript.NetServer.NSDeliveryTerm
+  type: Class
+  summary: "\nThe built-in delivery terms list. Used by the SuperOffice Quote Connector in quote versions.\n"
+  example: 
+- uid: CRMScript.NetServer.NSDeliveryTerm.#ctor
+  commentId: M:CRMScript.NetServer.NSDeliveryTerm.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSDeliveryTerm
+  langs:
+  - crmscript
+  name: NSDeliveryTerm()
+  nameWithType: NSDeliveryTerm.#ctor
+  fullName: CRMScript.NetServer.NSDeliveryTerm.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSDeliveryTerm class.\n"
+  remarks: 
+  syntax: 
+    content: NSDeliveryTerm
+  example: 
+- uid: CRMScript.NetServer.NSDeliveryTerm.GetId()
+  commentId: M:CRMScript.NetServer.NSDeliveryTerm.GetId()
+  id: 'GetId()'
+  so.intellisense: NSDeliveryTerm.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSDeliveryTerm.GetId()
+  fullName: CRMScript.NetServer.NSDeliveryTerm.GetId()
+  type: Method
+  summary: "\nGets the primary key (ID) for the NSDeliveryTerm\n"
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSDeliveryTerm thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDeliveryTerm.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSDeliveryTerm.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSDeliveryTerm.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSDeliveryTerm.GetTooltip()
+  fullName: CRMScript.NetServer.NSDeliveryTerm.GetTooltip()
+  type: Method
+  summary: "\nGets the tooltip description for the NSDeliveryTerm list item.\n"
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSDeliveryTerm thing;\nString descr = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDeliveryTerm.GetValue()
+  commentId: M:CRMScript.NetServer.NSDeliveryTerm.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSDeliveryTerm.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSDeliveryTerm.GetValue()
+  fullName: CRMScript.NetServer.NSDeliveryTerm.GetValue()
+  type: Method
+  summary: "\nGets the name of the NSDeliveryTerm.\n"
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSDeliveryTerm thing;\nString name = thing.GetValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSDeliveryTerm.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSDeliveryTerm.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSDeliveryTerm.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSDeliveryTerm.SetId(Integer)
+  fullName: CRMScript.NetServer.NSDeliveryTerm.SetId(Integer)
+  type: Method
+  summary: "\nSets the primary key (ID) for the NSDeliveryTerm\n"
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDeliveryTerm thing;\nthing.SetId(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDeliveryTerm.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSDeliveryTerm.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSDeliveryTerm.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSDeliveryTerm.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSDeliveryTerm.SetTooltip(String)
+  type: Method
+  summary: "\nSets the tooltip description for the NSDeliveryTerm list item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDeliveryTerm thing;\nString descr = &quot;something new&quot;;\nthing.SetTooltip(descr);</code></pre>\n"
+- uid: CRMScript.NetServer.NSDeliveryTerm.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSDeliveryTerm.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSDeliveryTerm.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSDeliveryTerm.SetValue(String)
+  fullName: CRMScript.NetServer.NSDeliveryTerm.SetValue(String)
+  type: Method
+  summary: "\nSets the name of the NSDeliveryTerm item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSDeliveryTerm thing;\nthing.SetValue(&quot;frotz&quot;);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSDeliveryTerm
+  commentId: T:CRMScript.NetServer.NSDeliveryTerm
+  isExternal: true
+  name: NSDeliveryTerm
+  nameWithType: NSDeliveryTerm
+  fullName: CRMScript.NetServer.NSDeliveryTerm
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

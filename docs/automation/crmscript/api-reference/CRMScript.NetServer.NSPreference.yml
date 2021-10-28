@@ -1,0 +1,562 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSPreference
+  commentId: T:CRMScript.NetServer.NSPreference
+  id: NSPreference
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSPreference.#ctor
+  - CRMScript.NetServer.NSPreference.GetDisplayTooltip()
+  - CRMScript.NetServer.NSPreference.GetDisplayType()
+  - CRMScript.NetServer.NSPreference.GetDisplayValue()
+  - CRMScript.NetServer.NSPreference.GetLevel()
+  - CRMScript.NetServer.NSPreference.GetPrefDescId()
+  - CRMScript.NetServer.NSPreference.GetRawValue()
+  - CRMScript.NetServer.NSPreference.GetSpecification()
+  - CRMScript.NetServer.NSPreference.GetTableName()
+  - CRMScript.NetServer.NSPreference.GetTabOrder()
+  - CRMScript.NetServer.NSPreference.GetTargetId()
+  - CRMScript.NetServer.NSPreference.GetUserPreferenceId()
+  - CRMScript.NetServer.NSPreference.SetDisplayTooltip(String)
+  - CRMScript.NetServer.NSPreference.SetDisplayType(Integer)
+  - CRMScript.NetServer.NSPreference.SetDisplayValue(String)
+  - CRMScript.NetServer.NSPreference.SetLevel(Integer)
+  - CRMScript.NetServer.NSPreference.SetPrefDescId(Integer)
+  - CRMScript.NetServer.NSPreference.SetRawValue(String)
+  - CRMScript.NetServer.NSPreference.SetSpecification(NSPreferenceSpec)
+  - CRMScript.NetServer.NSPreference.SetTableName(String)
+  - CRMScript.NetServer.NSPreference.SetTabOrder(NSTabOrder)
+  - CRMScript.NetServer.NSPreference.SetTargetId(Integer)
+  - CRMScript.NetServer.NSPreference.SetUserPreferenceId(Integer)
+  name: NSPreference
+  nameWithType: NSPreference
+  fullName: CRMScript.NetServer.NSPreference
+  type: Class
+  summary: "\nOne preference item, which contains a specification (section/key), the raw string value, and the level at which this value was found.\n"
+  example: 
+- uid: CRMScript.NetServer.NSPreference.#ctor
+  commentId: M:CRMScript.NetServer.NSPreference.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSPreference
+  langs:
+  - crmscript
+  name: NSPreference()
+  nameWithType: NSPreference.#ctor
+  fullName: CRMScript.NetServer.NSPreference.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSPreference class.\n"
+  remarks: 
+  syntax: 
+    content: NSPreference
+  example: 
+- uid: CRMScript.NetServer.NSPreference.GetDisplayTooltip()
+  commentId: M:CRMScript.NetServer.NSPreference.GetDisplayTooltip()
+  id: 'GetDisplayTooltip()'
+  so.intellisense: NSPreference.GetDisplayTooltip
+  langs:
+  - crmscript
+  name: 'GetDisplayTooltip()'
+  nameWithType: NSPreference.GetDisplayTooltip()
+  fullName: CRMScript.NetServer.NSPreference.GetDisplayTooltip()
+  type: Method
+  summary: # TODO
+  remarks: "\nSuitable for binding display-datasource in lists, etc.\n"
+  syntax: 
+    content: String GetDisplayTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Display tooltip, populated when asked for. Formatted using CultureDataFormatter."
+  example: 
+  - "\n<pre><code>NSPreference thing;\nString displayTooltip = thing.GetDisplayTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreference.GetDisplayType()
+  commentId: M:CRMScript.NetServer.NSPreference.GetDisplayType()
+  id: 'GetDisplayType()'
+  so.intellisense: NSPreference.GetDisplayType
+  langs:
+  - crmscript
+  name: 'GetDisplayType()'
+  nameWithType: NSPreference.GetDisplayType()
+  fullName: CRMScript.NetServer.NSPreference.GetDisplayType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDisplayType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Display type, populated when asked for. See <xref href=\"CRMScript.NetServer.PrefDescValueType\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSPreference thing;\nInteger displayType = thing.GetDisplayType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreference.GetDisplayValue()
+  commentId: M:CRMScript.NetServer.NSPreference.GetDisplayValue()
+  id: 'GetDisplayValue()'
+  so.intellisense: NSPreference.GetDisplayValue
+  langs:
+  - crmscript
+  name: 'GetDisplayValue()'
+  nameWithType: NSPreference.GetDisplayValue()
+  fullName: CRMScript.NetServer.NSPreference.GetDisplayValue()
+  type: Method
+  summary: # TODO
+  remarks: "\nSuitable for binding display-datasource in lists, etc.\n"
+  syntax: 
+    content: String GetDisplayValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Display value, populated when asked for. Formatted using CultureDataFormatter."
+  example: 
+  - "\n<pre><code>NSPreference thing;\nString displayValue = thing.GetDisplayValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreference.GetLevel()
+  commentId: M:CRMScript.NetServer.NSPreference.GetLevel()
+  id: 'GetLevel()'
+  so.intellisense: NSPreference.GetLevel
+  langs:
+  - crmscript
+  name: 'GetLevel()'
+  nameWithType: NSPreference.GetLevel()
+  fullName: CRMScript.NetServer.NSPreference.GetLevel()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetLevel()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.PreferenceLevel\" data-throw-if-not-resolved=\"false\"></xref>. Undefined is returned for preferences that do not have a current setting."
+  example: 
+  - "\n<pre><code>NSPreference thing;\nInteger level = thing.GetLevel();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreference.GetPrefDescId()
+  commentId: M:CRMScript.NetServer.NSPreference.GetPrefDescId()
+  id: 'GetPrefDescId()'
+  so.intellisense: NSPreference.GetPrefDescId
+  langs:
+  - crmscript
+  name: 'GetPrefDescId()'
+  nameWithType: NSPreference.GetPrefDescId()
+  fullName: CRMScript.NetServer.NSPreference.GetPrefDescId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPrefDescId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the prefdesc this preference is connected to."
+  example: 
+  - "\n<pre><code>NSPreference thing;\nInteger prefDescId = thing.GetPrefDescId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreference.GetRawValue()
+  commentId: M:CRMScript.NetServer.NSPreference.GetRawValue()
+  id: 'GetRawValue()'
+  so.intellisense: NSPreference.GetRawValue
+  langs:
+  - crmscript
+  name: 'GetRawValue()'
+  nameWithType: NSPreference.GetRawValue()
+  fullName: CRMScript.NetServer.NSPreference.GetRawValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetRawValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "NSPreference value."
+  example: 
+  - "\n<pre><code>NSPreference thing;\nString rawValue = thing.GetRawValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreference.GetSpecification()
+  commentId: M:CRMScript.NetServer.NSPreference.GetSpecification()
+  id: 'GetSpecification()'
+  so.intellisense: NSPreference.GetSpecification
+  langs:
+  - crmscript
+  name: 'GetSpecification()'
+  nameWithType: NSPreference.GetSpecification()
+  fullName: CRMScript.NetServer.NSPreference.GetSpecification()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSPreferenceSpec GetSpecification()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSPreferenceSpec
+      description: "Preference specification, consisting of the section name and key name."
+  example: 
+  - "\n<pre><code>NSPreference thing;\nNSPreferenceSpec specification = thing.GetSpecification();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreference.GetTableName()
+  commentId: M:CRMScript.NetServer.NSPreference.GetTableName()
+  id: 'GetTableName()'
+  so.intellisense: NSPreference.GetTableName
+  langs:
+  - crmscript
+  name: 'GetTableName()'
+  nameWithType: NSPreference.GetTableName()
+  fullName: CRMScript.NetServer.NSPreference.GetTableName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTableName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "For DisplayType=PrefDescValueType.ListTableRef, TableName will contain the name of the table which the value reference to."
+  example: 
+  - "\n<pre><code>NSPreference thing;\nString tableName = thing.GetTableName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreference.GetTabOrder()
+  commentId: M:CRMScript.NetServer.NSPreference.GetTabOrder()
+  id: 'GetTabOrder()'
+  so.intellisense: NSPreference.GetTabOrder
+  langs:
+  - crmscript
+  name: 'GetTabOrder()'
+  nameWithType: NSPreference.GetTabOrder()
+  fullName: CRMScript.NetServer.NSPreference.GetTabOrder()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSTabOrder GetTabOrder()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSTabOrder
+  example: 
+  - "\n<pre><code>NSPreference thing;\nNSTabOrder tabOrder = thing.GetTabOrder();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreference.GetTargetId()
+  commentId: M:CRMScript.NetServer.NSPreference.GetTargetId()
+  id: 'GetTargetId()'
+  so.intellisense: NSPreference.GetTargetId
+  langs:
+  - crmscript
+  name: 'GetTargetId()'
+  nameWithType: NSPreference.GetTargetId()
+  fullName: CRMScript.NetServer.NSPreference.GetTargetId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTargetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the target row. The table it points at is specified by the preference type."
+  example: 
+  - "\n<pre><code>NSPreference thing;\nInteger targetId = thing.GetTargetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreference.GetUserPreferenceId()
+  commentId: M:CRMScript.NetServer.NSPreference.GetUserPreferenceId()
+  id: 'GetUserPreferenceId()'
+  so.intellisense: NSPreference.GetUserPreferenceId
+  langs:
+  - crmscript
+  name: 'GetUserPreferenceId()'
+  nameWithType: NSPreference.GetUserPreferenceId()
+  fullName: CRMScript.NetServer.NSPreference.GetUserPreferenceId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetUserPreferenceId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the user preference."
+  example: 
+  - "\n<pre><code>NSPreference thing;\nInteger userPreferenceId = thing.GetUserPreferenceId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreference.SetDisplayTooltip(String)
+  commentId: M:CRMScript.NetServer.NSPreference.SetDisplayTooltip(String)
+  id: 'SetDisplayTooltip(String)'
+  so.intellisense: NSPreference.SetDisplayTooltip
+  langs:
+  - crmscript
+  name: 'SetDisplayTooltip(String)'
+  nameWithType: NSPreference.SetDisplayTooltip(String)
+  fullName: CRMScript.NetServer.NSPreference.SetDisplayTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nSuitable for binding display-datasource in lists, etc.\n"
+  syntax: 
+    content: Void SetDisplayTooltip(String displayTooltip)
+    parameters:
+    - id: displayTooltip
+      type: CRMScript.Global.String
+      description: "Display tooltip, populated when asked for. Formatted using CultureDataFormatter."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreference thing;\nString displayTooltip;\nthing.SetDisplayTooltip(displayTooltip);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreference.SetDisplayType(Integer)
+  commentId: M:CRMScript.NetServer.NSPreference.SetDisplayType(Integer)
+  id: 'SetDisplayType(Integer)'
+  so.intellisense: NSPreference.SetDisplayType
+  langs:
+  - crmscript
+  name: 'SetDisplayType(Integer)'
+  nameWithType: NSPreference.SetDisplayType(Integer)
+  fullName: CRMScript.NetServer.NSPreference.SetDisplayType(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetDisplayType(Integer displayType)
+    parameters:
+    - id: displayType
+      type: CRMScript.Global.Integer
+      description: "Display type, populated when asked for. See <xref href=\"CRMScript.NetServer.PrefDescValueType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreference thing;\nInteger displayType;\nthing.SetDisplayType(displayType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreference.SetDisplayValue(String)
+  commentId: M:CRMScript.NetServer.NSPreference.SetDisplayValue(String)
+  id: 'SetDisplayValue(String)'
+  so.intellisense: NSPreference.SetDisplayValue
+  langs:
+  - crmscript
+  name: 'SetDisplayValue(String)'
+  nameWithType: NSPreference.SetDisplayValue(String)
+  fullName: CRMScript.NetServer.NSPreference.SetDisplayValue(String)
+  type: Method
+  summary: # TODO
+  remarks: "\nSuitable for binding display-datasource in lists, etc.\n"
+  syntax: 
+    content: Void SetDisplayValue(String displayValue)
+    parameters:
+    - id: displayValue
+      type: CRMScript.Global.String
+      description: "Display value, populated when asked for. Formatted using CultureDataFormatter."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreference thing;\nString displayValue;\nthing.SetDisplayValue(displayValue);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreference.SetLevel(Integer)
+  commentId: M:CRMScript.NetServer.NSPreference.SetLevel(Integer)
+  id: 'SetLevel(Integer)'
+  so.intellisense: NSPreference.SetLevel
+  langs:
+  - crmscript
+  name: 'SetLevel(Integer)'
+  nameWithType: NSPreference.SetLevel(Integer)
+  fullName: CRMScript.NetServer.NSPreference.SetLevel(Integer)
+  type: Method
+  summary: # TODO
+  remarks: "\nUndefined is returned for preferences that do not have a current setting.\n"
+  syntax: 
+    content: Void SetLevel(Integer level)
+    parameters:
+    - id: level
+      type: CRMScript.Global.Integer
+      description: "Preference level. See <xref href=\"CRMScript.NetServer.PreferenceLevel\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreference thing;\nInteger level;\nthing.SetLevel(level);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreference.SetPrefDescId(Integer)
+  commentId: M:CRMScript.NetServer.NSPreference.SetPrefDescId(Integer)
+  id: 'SetPrefDescId(Integer)'
+  so.intellisense: NSPreference.SetPrefDescId
+  langs:
+  - crmscript
+  name: 'SetPrefDescId(Integer)'
+  nameWithType: NSPreference.SetPrefDescId(Integer)
+  fullName: CRMScript.NetServer.NSPreference.SetPrefDescId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPrefDescId(Integer prefDescId)
+    parameters:
+    - id: prefDescId
+      type: CRMScript.Global.Integer
+      description: "The ID of the prefdesc this preference is connected to."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreference thing;\nInteger prefDescId;\nthing.SetPrefDescId(prefDescId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreference.SetRawValue(String)
+  commentId: M:CRMScript.NetServer.NSPreference.SetRawValue(String)
+  id: 'SetRawValue(String)'
+  so.intellisense: NSPreference.SetRawValue
+  langs:
+  - crmscript
+  name: 'SetRawValue(String)'
+  nameWithType: NSPreference.SetRawValue(String)
+  fullName: CRMScript.NetServer.NSPreference.SetRawValue(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRawValue(String rawValue)
+    parameters:
+    - id: rawValue
+      type: CRMScript.Global.String
+      description: "Preference value."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreference thing;\nString rawValue;\nthing.SetRawValue(rawValue);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreference.SetSpecification(NSPreferenceSpec)
+  commentId: M:CRMScript.NetServer.NSPreference.SetSpecification(NSPreferenceSpec)
+  id: 'SetSpecification(NSPreferenceSpec)'
+  so.intellisense: NSPreference.SetSpecification
+  langs:
+  - crmscript
+  name: 'SetSpecification(NSPreferenceSpec)'
+  nameWithType: NSPreference.SetSpecification(NSPreferenceSpec)
+  fullName: CRMScript.NetServer.NSPreference.SetSpecification(NSPreferenceSpec)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSpecification(NSPreferenceSpec specification)
+    parameters:
+    - id: specification
+      type: CRMScript.NetServer.NSPreferenceSpec
+      description: "Preference specification, consisting of the section name and key name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreference thing;\nNSPreferenceSpec specification;\nthing.SetSpecification(specification);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreference.SetTableName(String)
+  commentId: M:CRMScript.NetServer.NSPreference.SetTableName(String)
+  id: 'SetTableName(String)'
+  so.intellisense: NSPreference.SetTableName
+  langs:
+  - crmscript
+  name: 'SetTableName(String)'
+  nameWithType: NSPreference.SetTableName(String)
+  fullName: CRMScript.NetServer.NSPreference.SetTableName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTableName(String tableName)
+    parameters:
+    - id: tableName
+      type: CRMScript.Global.String
+      description: "For DisplayType=PrefDescValueType.ListTableRef, TableName will contain the name of the table which the value reference to."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreference thing;\nString tableName;\nthing.SetTableName(tableName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreference.SetTabOrder(NSTabOrder)
+  commentId: M:CRMScript.NetServer.NSPreference.SetTabOrder(NSTabOrder)
+  id: 'SetTabOrder(NSTabOrder)'
+  so.intellisense: NSPreference.SetTabOrder
+  langs:
+  - crmscript
+  name: 'SetTabOrder(NSTabOrder)'
+  nameWithType: NSPreference.SetTabOrder(NSTabOrder)
+  fullName: CRMScript.NetServer.NSPreference.SetTabOrder(NSTabOrder)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTabOrder(NSTabOrder tabOrder)
+    parameters:
+    - id: tabOrder
+      type: CRMScript.NetServer.NSTabOrder
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreference thing;\nNSTabOrder tabOrder;\nthing.SetTabOrder(tabOrder);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreference.SetTargetId(Integer)
+  commentId: M:CRMScript.NetServer.NSPreference.SetTargetId(Integer)
+  id: 'SetTargetId(Integer)'
+  so.intellisense: NSPreference.SetTargetId
+  langs:
+  - crmscript
+  name: 'SetTargetId(Integer)'
+  nameWithType: NSPreference.SetTargetId(Integer)
+  fullName: CRMScript.NetServer.NSPreference.SetTargetId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTargetId(Integer targetId)
+    parameters:
+    - id: targetId
+      type: CRMScript.Global.Integer
+      description: "The ID of the target row. The table it points at is specified by the preference type."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreference thing;\nInteger targetId;\nthing.SetTargetId(targetId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPreference.SetUserPreferenceId(Integer)
+  commentId: M:CRMScript.NetServer.NSPreference.SetUserPreferenceId(Integer)
+  id: 'SetUserPreferenceId(Integer)'
+  so.intellisense: NSPreference.SetUserPreferenceId
+  langs:
+  - crmscript
+  name: 'SetUserPreferenceId(Integer)'
+  nameWithType: NSPreference.SetUserPreferenceId(Integer)
+  fullName: CRMScript.NetServer.NSPreference.SetUserPreferenceId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUserPreferenceId(Integer userPreferenceId)
+    parameters:
+    - id: userPreferenceId
+      type: CRMScript.Global.Integer
+      description: "The ID of the user preference."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPreference thing;\nInteger userPreferenceId;\nthing.SetUserPreferenceId(userPreferenceId);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSPreference
+  commentId: T:CRMScript.NetServer.NSPreference
+  isExternal: true
+  name: NSPreference
+  nameWithType: NSPreference
+  fullName: CRMScript.NetServer.NSPreference
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSPreferenceSpec
+  commentId: T:CRMScript.NetServer.NSPreferenceSpec
+  isExternal: true
+  name: NSPreferenceSpec
+  nameWithType: NSPreferenceSpec
+  fullName: CRMScript.NetServer.NSPreferenceSpec
+- uid: CRMScript.NetServer.NSTabOrder
+  commentId: T:CRMScript.NetServer.NSTabOrder
+  isExternal: true
+  name: NSTabOrder
+  nameWithType: NSTabOrder
+  fullName: CRMScript.NetServer.NSTabOrder
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.PrefDescValueType
+  commentId: T:CRMScript.NetServer.PrefDescValueType
+  isExternal: true
+  name: PrefDescValueType
+  nameWithType: PrefDescValueType
+  fullName: CRMScript.NetServer.PrefDescValueType
+- uid: CRMScript.NetServer.PreferenceLevel
+  commentId: T:CRMScript.NetServer.PreferenceLevel
+  isExternal: true
+  name: PreferenceLevel
+  nameWithType: PreferenceLevel
+  fullName: CRMScript.NetServer.PreferenceLevel

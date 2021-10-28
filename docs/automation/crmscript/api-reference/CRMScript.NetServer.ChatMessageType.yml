@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.ChatMessageType
+  # Same as SuperOffice.Data.ChatMessageType
+  commentId: T:CRMScript.NetServer.ChatMessageType
+  id: ChatMessageType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.ChatMessageType.Invalid
+  - CRMScript.NetServer.ChatMessageType.ToCustomer
+  - CRMScript.NetServer.ChatMessageType.ToUser
+  - CRMScript.NetServer.ChatMessageType.Special
+  name: ChatMessageType
+  nameWithType: ChatMessageType
+  fullName: CRMScript.NetServer.ChatMessageType
+  type: Enum
+  summary: "\nChat Message type\n"
+- uid: CRMScript.NetServer.ChatMessageType.Invalid
+  commentId: F:CRMScript.NetServer.ChatMessageType.Invalid
+  id: ChatMessageType.Invalid
+  langs:
+  - crmscript
+  name: ChatMessageType.Invalid
+  nameWithType: ChatMessageType.Invalid
+  fullName: CRMScript.NetServer.ChatMessageType.Invalid
+  type: Field
+  summary: "\n0: Invalid\n"
+  syntax: 
+    content: Invalid = 0
+    type: CRMScript.NetServer.ChatMessageType
+- uid: CRMScript.NetServer.ChatMessageType.ToCustomer
+  commentId: F:CRMScript.NetServer.ChatMessageType.ToCustomer
+  id: ChatMessageType.ToCustomer
+  langs:
+  - crmscript
+  name: ChatMessageType.ToCustomer
+  nameWithType: ChatMessageType.ToCustomer
+  fullName: CRMScript.NetServer.ChatMessageType.ToCustomer
+  type: Field
+  summary: "\n1: Message is from user agent to customer\n"
+  syntax: 
+    content: ToCustomer = 1
+    type: CRMScript.NetServer.ChatMessageType
+- uid: CRMScript.NetServer.ChatMessageType.ToUser
+  commentId: F:CRMScript.NetServer.ChatMessageType.ToUser
+  id: ChatMessageType.ToUser
+  langs:
+  - crmscript
+  name: ChatMessageType.ToUser
+  nameWithType: ChatMessageType.ToUser
+  fullName: CRMScript.NetServer.ChatMessageType.ToUser
+  type: Field
+  summary: "\n2: Message is from customer to user agent\n"
+  syntax: 
+    content: ToUser = 2
+    type: CRMScript.NetServer.ChatMessageType
+- uid: CRMScript.NetServer.ChatMessageType.Special
+  commentId: F:CRMScript.NetServer.ChatMessageType.Special
+  id: ChatMessageType.Special
+  langs:
+  - crmscript
+  name: ChatMessageType.Special
+  nameWithType: ChatMessageType.Special
+  fullName: CRMScript.NetServer.ChatMessageType.Special
+  type: Field
+  summary: "\n3: Special message - see SpecialType field for details\n"
+  syntax: 
+    content: Special = 3
+    type: CRMScript.NetServer.ChatMessageType
+references:
+- uid: CRMScript.NetServer.ChatMessageType
+  commentId: T:CRMScript.NetServer.ChatMessageType
+  isExternal: true
+  name: type
+  nameWithType: type
+  fullName: CRMScript.NetServer.ChatMessageType

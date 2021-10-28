@@ -1,0 +1,342 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSProjectTypeStatusLink
+  commentId: T:CRMScript.NetServer.NSProjectTypeStatusLink
+  id: NSProjectTypeStatusLink
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSProjectTypeStatusLink.#ctor
+  - CRMScript.NetServer.NSProjectTypeStatusLink.GetProjectTypeStatusLinkId()
+  - CRMScript.NetServer.NSProjectTypeStatusLink.GetProjStatusId()
+  - CRMScript.NetServer.NSProjectTypeStatusLink.GetProjStatusName()
+  - CRMScript.NetServer.NSProjectTypeStatusLink.GetProjStatusTooltip()
+  - CRMScript.NetServer.NSProjectTypeStatusLink.GetProjTypeId()
+  - CRMScript.NetServer.NSProjectTypeStatusLink.GetProjTypeName()
+  - CRMScript.NetServer.NSProjectTypeStatusLink.GetProjTypeTooltip()
+  - CRMScript.NetServer.NSProjectTypeStatusLink.SetProjectTypeStatusLinkId(Integer)
+  - CRMScript.NetServer.NSProjectTypeStatusLink.SetProjStatusId(Integer)
+  - CRMScript.NetServer.NSProjectTypeStatusLink.SetProjStatusName(String)
+  - CRMScript.NetServer.NSProjectTypeStatusLink.SetProjStatusTooltip(String)
+  - CRMScript.NetServer.NSProjectTypeStatusLink.SetProjTypeId(Integer)
+  - CRMScript.NetServer.NSProjectTypeStatusLink.SetProjTypeName(String)
+  - CRMScript.NetServer.NSProjectTypeStatusLink.SetProjTypeTooltip(String)
+  name: NSProjectTypeStatusLink
+  nameWithType: NSProjectTypeStatusLink
+  fullName: CRMScript.NetServer.NSProjectTypeStatusLink
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSProjectTypeStatusLink.#ctor
+  commentId: M:CRMScript.NetServer.NSProjectTypeStatusLink.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSProjectTypeStatusLink
+  langs:
+  - crmscript
+  name: NSProjectTypeStatusLink()
+  nameWithType: NSProjectTypeStatusLink.#ctor
+  fullName: CRMScript.NetServer.NSProjectTypeStatusLink.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSProjectTypeStatusLink class.\n"
+  remarks: 
+  syntax: 
+    content: NSProjectTypeStatusLink
+  example: 
+- uid: CRMScript.NetServer.NSProjectTypeStatusLink.GetProjectTypeStatusLinkId()
+  commentId: M:CRMScript.NetServer.NSProjectTypeStatusLink.GetProjectTypeStatusLinkId()
+  id: 'GetProjectTypeStatusLinkId()'
+  so.intellisense: NSProjectTypeStatusLink.GetProjectTypeStatusLinkId
+  langs:
+  - crmscript
+  name: 'GetProjectTypeStatusLinkId()'
+  nameWithType: NSProjectTypeStatusLink.GetProjectTypeStatusLinkId()
+  fullName: CRMScript.NetServer.NSProjectTypeStatusLink.GetProjectTypeStatusLinkId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetProjectTypeStatusLinkId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSProjectTypeStatusLink.GetProjStatusId()
+  commentId: M:CRMScript.NetServer.NSProjectTypeStatusLink.GetProjStatusId()
+  id: 'GetProjStatusId()'
+  so.intellisense: NSProjectTypeStatusLink.GetProjStatusId
+  langs:
+  - crmscript
+  name: 'GetProjStatusId()'
+  nameWithType: NSProjectTypeStatusLink.GetProjStatusId()
+  fullName: CRMScript.NetServer.NSProjectTypeStatusLink.GetProjStatusId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetProjStatusId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSProjectTypeStatusLink.GetProjStatusName()
+  commentId: M:CRMScript.NetServer.NSProjectTypeStatusLink.GetProjStatusName()
+  id: 'GetProjStatusName()'
+  so.intellisense: NSProjectTypeStatusLink.GetProjStatusName
+  langs:
+  - crmscript
+  name: 'GetProjStatusName()'
+  nameWithType: NSProjectTypeStatusLink.GetProjStatusName()
+  fullName: CRMScript.NetServer.NSProjectTypeStatusLink.GetProjStatusName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetProjStatusName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSProjectTypeStatusLink.GetProjStatusTooltip()
+  commentId: M:CRMScript.NetServer.NSProjectTypeStatusLink.GetProjStatusTooltip()
+  id: 'GetProjStatusTooltip()'
+  so.intellisense: NSProjectTypeStatusLink.GetProjStatusTooltip
+  langs:
+  - crmscript
+  name: 'GetProjStatusTooltip()'
+  nameWithType: NSProjectTypeStatusLink.GetProjStatusTooltip()
+  fullName: CRMScript.NetServer.NSProjectTypeStatusLink.GetProjStatusTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetProjStatusTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSProjectTypeStatusLink.GetProjTypeId()
+  commentId: M:CRMScript.NetServer.NSProjectTypeStatusLink.GetProjTypeId()
+  id: 'GetProjTypeId()'
+  so.intellisense: NSProjectTypeStatusLink.GetProjTypeId
+  langs:
+  - crmscript
+  name: 'GetProjTypeId()'
+  nameWithType: NSProjectTypeStatusLink.GetProjTypeId()
+  fullName: CRMScript.NetServer.NSProjectTypeStatusLink.GetProjTypeId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetProjTypeId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSProjectTypeStatusLink.GetProjTypeName()
+  commentId: M:CRMScript.NetServer.NSProjectTypeStatusLink.GetProjTypeName()
+  id: 'GetProjTypeName()'
+  so.intellisense: NSProjectTypeStatusLink.GetProjTypeName
+  langs:
+  - crmscript
+  name: 'GetProjTypeName()'
+  nameWithType: NSProjectTypeStatusLink.GetProjTypeName()
+  fullName: CRMScript.NetServer.NSProjectTypeStatusLink.GetProjTypeName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetProjTypeName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSProjectTypeStatusLink.GetProjTypeTooltip()
+  commentId: M:CRMScript.NetServer.NSProjectTypeStatusLink.GetProjTypeTooltip()
+  id: 'GetProjTypeTooltip()'
+  so.intellisense: NSProjectTypeStatusLink.GetProjTypeTooltip
+  langs:
+  - crmscript
+  name: 'GetProjTypeTooltip()'
+  nameWithType: NSProjectTypeStatusLink.GetProjTypeTooltip()
+  fullName: CRMScript.NetServer.NSProjectTypeStatusLink.GetProjTypeTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetProjTypeTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSProjectTypeStatusLink.SetProjectTypeStatusLinkId(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectTypeStatusLink.SetProjectTypeStatusLinkId(Integer)
+  id: 'SetProjectTypeStatusLinkId(Integer)'
+  so.intellisense: NSProjectTypeStatusLink.SetProjectTypeStatusLinkId
+  langs:
+  - crmscript
+  name: 'SetProjectTypeStatusLinkId(Integer)'
+  nameWithType: NSProjectTypeStatusLink.SetProjectTypeStatusLinkId(Integer)
+  fullName: CRMScript.NetServer.NSProjectTypeStatusLink.SetProjectTypeStatusLinkId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjectTypeStatusLinkId(Integer linkId)
+    parameters:
+    - id: linkId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSProjectTypeStatusLink.SetProjStatusId(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectTypeStatusLink.SetProjStatusId(Integer)
+  id: 'SetProjStatusId(Integer)'
+  so.intellisense: NSProjectTypeStatusLink.SetProjStatusId
+  langs:
+  - crmscript
+  name: 'SetProjStatusId(Integer)'
+  nameWithType: NSProjectTypeStatusLink.SetProjStatusId(Integer)
+  fullName: CRMScript.NetServer.NSProjectTypeStatusLink.SetProjStatusId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjStatusId(Integer statusId)
+    parameters:
+    - id: statusId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSProjectTypeStatusLink.SetProjStatusName(String)
+  commentId: M:CRMScript.NetServer.NSProjectTypeStatusLink.SetProjStatusName(String)
+  id: 'SetProjStatusName(String)'
+  so.intellisense: NSProjectTypeStatusLink.SetProjStatusName
+  langs:
+  - crmscript
+  name: 'SetProjStatusName(String)'
+  nameWithType: NSProjectTypeStatusLink.SetProjStatusName(String)
+  fullName: CRMScript.NetServer.NSProjectTypeStatusLink.SetProjStatusName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjStatusName(String statusName)
+    parameters:
+    - id: statusName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSProjectTypeStatusLink.SetProjStatusTooltip(String)
+  commentId: M:CRMScript.NetServer.NSProjectTypeStatusLink.SetProjStatusTooltip(String)
+  id: 'SetProjStatusTooltip(String)'
+  so.intellisense: NSProjectTypeStatusLink.SetProjStatusTooltip
+  langs:
+  - crmscript
+  name: 'SetProjStatusTooltip(String)'
+  nameWithType: NSProjectTypeStatusLink.SetProjStatusTooltip(String)
+  fullName: CRMScript.NetServer.NSProjectTypeStatusLink.SetProjStatusTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjStatusTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSProjectTypeStatusLink.SetProjTypeId(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectTypeStatusLink.SetProjTypeId(Integer)
+  id: 'SetProjTypeId(Integer)'
+  so.intellisense: NSProjectTypeStatusLink.SetProjTypeId
+  langs:
+  - crmscript
+  name: 'SetProjTypeId(Integer)'
+  nameWithType: NSProjectTypeStatusLink.SetProjTypeId(Integer)
+  fullName: CRMScript.NetServer.NSProjectTypeStatusLink.SetProjTypeId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjTypeId(Integer typeId)
+    parameters:
+    - id: typeId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSProjectTypeStatusLink.SetProjTypeName(String)
+  commentId: M:CRMScript.NetServer.NSProjectTypeStatusLink.SetProjTypeName(String)
+  id: 'SetProjTypeName(String)'
+  so.intellisense: NSProjectTypeStatusLink.SetProjTypeName
+  langs:
+  - crmscript
+  name: 'SetProjTypeName(String)'
+  nameWithType: NSProjectTypeStatusLink.SetProjTypeName(String)
+  fullName: CRMScript.NetServer.NSProjectTypeStatusLink.SetProjTypeName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjTypeName(String typeName)
+    parameters:
+    - id: typeName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSProjectTypeStatusLink.SetProjTypeTooltip(String)
+  commentId: M:CRMScript.NetServer.NSProjectTypeStatusLink.SetProjTypeTooltip(String)
+  id: 'SetProjTypeTooltip(String)'
+  so.intellisense: NSProjectTypeStatusLink.SetProjTypeTooltip
+  langs:
+  - crmscript
+  name: 'SetProjTypeTooltip(String)'
+  nameWithType: NSProjectTypeStatusLink.SetProjTypeTooltip(String)
+  fullName: CRMScript.NetServer.NSProjectTypeStatusLink.SetProjTypeTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetProjTypeTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSProjectTypeStatusLink
+  commentId: T:CRMScript.NetServer.NSProjectTypeStatusLink
+  isExternal: true
+  name: NSProjectTypeStatusLink
+  nameWithType: NSProjectTypeStatusLink
+  fullName: CRMScript.NetServer.NSProjectTypeStatusLink
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

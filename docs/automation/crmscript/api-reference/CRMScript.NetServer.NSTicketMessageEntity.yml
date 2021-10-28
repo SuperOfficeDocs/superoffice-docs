@@ -1,0 +1,1036 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSTicketMessageEntity
+  commentId: T:CRMScript.NetServer.NSTicketMessageEntity
+  id: NSTicketMessageEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSTicketMessageEntity.GetAuthor()
+  - CRMScript.NetServer.NSTicketMessageEntity.GetBody()
+  - CRMScript.NetServer.NSTicketMessageEntity.GetCreatedAt()
+  - CRMScript.NetServer.NSTicketMessageEntity.GetCreatedBy()
+  - CRMScript.NetServer.NSTicketMessageEntity.GetCustomFields()
+  - CRMScript.NetServer.NSTicketMessageEntity.GetDebugInfo()
+  - CRMScript.NetServer.NSTicketMessageEntity.GetEjMessageId()
+  - CRMScript.NetServer.NSTicketMessageEntity.GetEmailHeader()
+  - CRMScript.NetServer.NSTicketMessageEntity.GetExtraFields()
+  - CRMScript.NetServer.NSTicketMessageEntity.GetHtmlBody()
+  - CRMScript.NetServer.NSTicketMessageEntity.GetImportant()
+  - CRMScript.NetServer.NSTicketMessageEntity.GetMailSorter()
+  - CRMScript.NetServer.NSTicketMessageEntity.GetMessageCategory()
+  - CRMScript.NetServer.NSTicketMessageEntity.GetMessageHeaders()
+  - CRMScript.NetServer.NSTicketMessageEntity.GetMessageId()
+  - CRMScript.NetServer.NSTicketMessageEntity.GetPerson()
+  - CRMScript.NetServer.NSTicketMessageEntity.GetSearchTitle()
+  - CRMScript.NetServer.NSTicketMessageEntity.GetSlevel()
+  - CRMScript.NetServer.NSTicketMessageEntity.GetTicket()
+  - CRMScript.NetServer.NSTicketMessageEntity.GetTimeSpent()
+  - CRMScript.NetServer.NSTicketMessageEntity.GetType()
+  - CRMScript.NetServer.NSTicketMessageEntity.#ctor
+  - CRMScript.NetServer.NSTicketMessageEntity.SetAuthor(String)
+  - CRMScript.NetServer.NSTicketMessageEntity.SetBody(String)
+  - CRMScript.NetServer.NSTicketMessageEntity.SetCreatedAt(DateTime)
+  - CRMScript.NetServer.NSTicketMessageEntity.SetCreatedBy(NSAssociate)
+  - CRMScript.NetServer.NSTicketMessageEntity.SetCustomFields(Map)
+  - CRMScript.NetServer.NSTicketMessageEntity.SetDebugInfo(String)
+  - CRMScript.NetServer.NSTicketMessageEntity.SetEjMessageId(Integer)
+  - CRMScript.NetServer.NSTicketMessageEntity.SetEmailHeader(String)
+  - CRMScript.NetServer.NSTicketMessageEntity.SetExtraFields(Map)
+  - CRMScript.NetServer.NSTicketMessageEntity.SetHtmlBody(String)
+  - CRMScript.NetServer.NSTicketMessageEntity.SetImportant(Bool)
+  - CRMScript.NetServer.NSTicketMessageEntity.SetMailSorter(String)
+  - CRMScript.NetServer.NSTicketMessageEntity.SetMessageCategory(Integer)
+  - CRMScript.NetServer.NSTicketMessageEntity.SetMessageHeaders(NSTicketMessageHeader[])
+  - CRMScript.NetServer.NSTicketMessageEntity.SetMessageId(String)
+  - CRMScript.NetServer.NSTicketMessageEntity.SetPerson(NSPerson)
+  - CRMScript.NetServer.NSTicketMessageEntity.SetSearchTitle(String)
+  - CRMScript.NetServer.NSTicketMessageEntity.SetSlevel(Integer)
+  - CRMScript.NetServer.NSTicketMessageEntity.SetTicket(NSTicket)
+  - CRMScript.NetServer.NSTicketMessageEntity.SetTimeSpent(Integer)
+  - CRMScript.NetServer.NSTicketMessageEntity.SetType(Integer)
+  name: NSTicketMessageEntity
+  nameWithType: NSTicketMessageEntity
+  fullName: CRMScript.NetServer.NSTicketMessageEntity
+  type: Class
+  summary: "\nThe ticket messages are e-mails, SMS or other messages attached to a ticket (aka request).\n"
+  example: 
+- uid: CRMScript.NetServer.NSTicketMessageEntity.GetAuthor()
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetAuthor()
+  id: 'GetAuthor()'
+  so.intellisense: NSTicketMessageEntity.GetAuthor
+  langs:
+  - crmscript
+  name: 'GetAuthor()'
+  nameWithType: NSTicketMessageEntity.GetAuthor()
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.GetAuthor()
+  type: Method
+  summary: "\nA string representing the author of the message. Could be a user's name, or a persons email address.\n"
+  remarks: 
+  syntax: 
+    content: String GetAuthor()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nString author = thing.GetAuthor();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.GetBody()
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetBody()
+  id: 'GetBody()'
+  so.intellisense: NSTicketMessageEntity.GetBody
+  langs:
+  - crmscript
+  name: 'GetBody()'
+  nameWithType: NSTicketMessageEntity.GetBody()
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.GetBody()
+  type: Method
+  summary: "\nThe textbody for the message.\n"
+  remarks: 
+  syntax: 
+    content: String GetBody()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nString body = thing.GetBody();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.GetCreatedAt()
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetCreatedAt()
+  id: 'GetCreatedAt()'
+  so.intellisense: NSTicketMessageEntity.GetCreatedAt
+  langs:
+  - crmscript
+  name: 'GetCreatedAt()'
+  nameWithType: NSTicketMessageEntity.GetCreatedAt()
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.GetCreatedAt()
+  type: Method
+  summary: "\nWhen the message was posted.\n"
+  remarks: 
+  syntax: 
+    content: DateTime GetCreatedAt()
+    parameters: []
+    return:
+      type: CRMScript.Global.DateTime
+      description:
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nDateTime createdAt = thing.GetCreatedAt();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.GetCreatedBy()
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetCreatedBy()
+  id: 'GetCreatedBy()'
+  so.intellisense: NSTicketMessageEntity.GetCreatedBy
+  langs:
+  - crmscript
+  name: 'GetCreatedBy()'
+  nameWithType: NSTicketMessageEntity.GetCreatedBy()
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.GetCreatedBy()
+  type: Method
+  summary: "\nThe associate who created this ticket message\n"
+  remarks: 
+  syntax: 
+    content: NSAssociate GetCreatedBy()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSAssociate
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nNSAssociate createdBy = thing.GetCreatedBy();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.GetCustomFields()
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetCustomFields()
+  id: 'GetCustomFields()'
+  so.intellisense: NSTicketMessageEntity.GetCustomFields
+  langs:
+  - crmscript
+  name: 'GetCustomFields()'
+  nameWithType: NSTicketMessageEntity.GetCustomFields()
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.GetCustomFields()
+  type: Method
+  summary: "\nGets the user-defined + extra fields on a TicketMessageEntity as a map.\n"
+  remarks: 
+  syntax: 
+    content: Map GetCustomFields()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nMap udefs = thing.GetCustomFields();\nlog( udefs[&quot;SuperOffice:1&quot;] ); // &quot;[I:123]&quot;* integer or list item id\nlog( udefs[&quot;SuperOffice:1:DisplayText&quot;] ); // &quot;bla bla&quot;* list item value\nlog( udefs[&quot;custom.progid&quot;] ); // &quot;foobar&quot;* string value\nlog( udefs[&quot;x_bar&quot;] ); // &quot;[I:123]&quot;* list item id\nlog( udefs[&quot;x_bar:DisplayText&quot;] ); // &quot;foobar&quot;* list item name value</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.GetDebugInfo()
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetDebugInfo()
+  id: 'GetDebugInfo()'
+  so.intellisense: NSTicketMessageEntity.GetDebugInfo
+  langs:
+  - crmscript
+  name: 'GetDebugInfo()'
+  nameWithType: NSTicketMessageEntity.GetDebugInfo()
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.GetDebugInfo()
+  type: Method
+  summary: "\nThe debug info for the message.\n"
+  remarks: 
+  syntax: 
+    content: String GetDebugInfo()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nString debugInfo = thing.GetDebugInfo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.GetEjMessageId()
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetEjMessageId()
+  id: 'GetEjMessageId()'
+  so.intellisense: NSTicketMessageEntity.GetEjMessageId
+  langs:
+  - crmscript
+  name: 'GetEjMessageId()'
+  nameWithType: NSTicketMessageEntity.GetEjMessageId()
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.GetEjMessageId()
+  type: Method
+  summary: "\nThe primary key (auto-incremented)\n"
+  remarks: 
+  syntax: 
+    content: Integer GetEjMessageId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nInteger ejMessageId = thing.GetEjMessageId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.GetEmailHeader()
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetEmailHeader()
+  id: 'GetEmailHeader()'
+  so.intellisense: NSTicketMessageEntity.GetEmailHeader
+  langs:
+  - crmscript
+  name: 'GetEmailHeader()'
+  nameWithType: NSTicketMessageEntity.GetEmailHeader()
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.GetEmailHeader()
+  type: Method
+  summary: "\nThe email header is saved in this field as raw text\n"
+  remarks: 
+  syntax: 
+    content: String GetEmailHeader()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nString emailHeader = thing.GetEmailHeader();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.GetExtraFields()
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetExtraFields()
+  id: 'GetExtraFields()'
+  so.intellisense: NSTicketMessageEntity.GetExtraFields
+  langs:
+  - crmscript
+  name: 'GetExtraFields()'
+  nameWithType: NSTicketMessageEntity.GetExtraFields()
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.GetExtraFields()
+  type: Method
+  summary: "\nGets the extra fields on TicketMessageEntity as a map.\n"
+  remarks: 
+  syntax: 
+    content: Map GetExtraFields()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nMap extras = thing.GetExtraFields();\nlog( extras[&quot;x_abc&quot;] ); // &quot;[I:123]&quot;* integer or list item id\nlog( extras[&quot;x_abc:DisplayText&quot;] ); // &quot;bla bla&quot;* list item value\nlog( extras[&quot;x_bla&quot;] ); // &quot;foobar&quot;* string value</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.GetHtmlBody()
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetHtmlBody()
+  id: 'GetHtmlBody()'
+  so.intellisense: NSTicketMessageEntity.GetHtmlBody
+  langs:
+  - crmscript
+  name: 'GetHtmlBody()'
+  nameWithType: NSTicketMessageEntity.GetHtmlBody()
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.GetHtmlBody()
+  type: Method
+  summary: "\nThe HTML body for the message (if any).\n"
+  remarks: 
+  syntax: 
+    content: String GetHtmlBody()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nString htmlBody = thing.GetHtmlBody();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.GetImportant()
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetImportant()
+  id: 'GetImportant()'
+  so.intellisense: NSTicketMessageEntity.GetImportant
+  langs:
+  - crmscript
+  name: 'GetImportant()'
+  nameWithType: NSTicketMessageEntity.GetImportant()
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.GetImportant()
+  type: Method
+  summary: "\nIf this message is important or not.\n"
+  remarks: 
+  syntax: 
+    content: Bool GetImportant()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nBool important = thing.GetImportant();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.GetMailSorter()
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetMailSorter()
+  id: 'GetMailSorter()'
+  so.intellisense: NSTicketMessageEntity.GetMailSorter
+  langs:
+  - crmscript
+  name: 'GetMailSorter()'
+  nameWithType: NSTicketMessageEntity.GetMailSorter()
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.GetMailSorter()
+  type: Method
+  summary: "\nThe name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id's change every time one changes the mail sorter. :-0\n"
+  remarks: 
+  syntax: 
+    content: String GetMailSorter()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nString mailSorter = thing.GetMailSorter();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.GetMessageCategory()
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetMessageCategory()
+  id: 'GetMessageCategory()'
+  so.intellisense: NSTicketMessageEntity.GetMessageCategory
+  langs:
+  - crmscript
+  name: 'GetMessageCategory()'
+  nameWithType: NSTicketMessageEntity.GetMessageCategory()
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.GetMessageCategory()
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Integer GetMessageCategory()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Defines what kind of message this is. See <xref href=\"CRMScript.NetServer.TicketMessageCategory\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nInteger messageCategory = thing.GetMessageCategory();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.GetMessageHeaders()
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetMessageHeaders()
+  id: 'GetMessageHeaders()'
+  so.intellisense: NSTicketMessageEntity.GetMessageHeaders
+  langs:
+  - crmscript
+  name: 'GetMessageHeaders()'
+  nameWithType: NSTicketMessageEntity.GetMessageHeaders()
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.GetMessageHeaders()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSTicketMessageHeader[] GetMessageHeaders()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSTicketMessageHeader[]
+      description: "Contains the message headers, like To, Cc, Bcc information, or custom headers."
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nTicketMessageHeader[] messageHeaders = thing.GetMessageHeaders();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.GetMessageId()
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetMessageId()
+  id: 'GetMessageId()'
+  so.intellisense: NSTicketMessageEntity.GetMessageId
+  langs:
+  - crmscript
+  name: 'GetMessageId()'
+  nameWithType: NSTicketMessageEntity.GetMessageId()
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.GetMessageId()
+  type: Method
+  summary: "\nThe X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets.\n"
+  remarks: 
+  syntax: 
+    content: String GetMessageId()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nString messageId = thing.GetMessageId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.GetPerson()
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetPerson()
+  id: 'GetPerson()'
+  so.intellisense: NSTicketMessageEntity.GetPerson
+  langs:
+  - crmscript
+  name: 'GetPerson()'
+  nameWithType: NSTicketMessageEntity.GetPerson()
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.GetPerson()
+  type: Method
+  summary: "\nIf this is an incoming message, this will contain the person\n"
+  remarks: 
+  syntax: 
+    content: NSPerson GetPerson()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSPerson
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nNSPerson person = thing.GetPerson();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.GetSearchTitle()
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetSearchTitle()
+  id: 'GetSearchTitle()'
+  so.intellisense: NSTicketMessageEntity.GetSearchTitle
+  langs:
+  - crmscript
+  name: 'GetSearchTitle()'
+  nameWithType: NSTicketMessageEntity.GetSearchTitle()
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.GetSearchTitle()
+  type: Method
+  summary: "\nA copy of the title of the ticket, for search optimization and simpler reporting.\n"
+  remarks: 
+  syntax: 
+    content: String GetSearchTitle()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nString searchTitle = thing.GetSearchTitle();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.GetSlevel()
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetSlevel()
+  id: 'GetSlevel()'
+  so.intellisense: NSTicketMessageEntity.GetSlevel
+  langs:
+  - crmscript
+  name: 'GetSlevel()'
+  nameWithType: NSTicketMessageEntity.GetSlevel()
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.GetSlevel()
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Integer GetSlevel()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The security level of the message. See <xref href=\"CRMScript.NetServer.TicketSecurityLevel\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nInteger slevel = thing.GetSlevel();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.GetTicket()
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetTicket()
+  id: 'GetTicket()'
+  so.intellisense: NSTicketMessageEntity.GetTicket
+  langs:
+  - crmscript
+  name: 'GetTicket()'
+  nameWithType: NSTicketMessageEntity.GetTicket()
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.GetTicket()
+  type: Method
+  summary: "\nThe connected ticket\n"
+  remarks: 
+  syntax: 
+    content: NSTicket GetTicket()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSTicket
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nNSTicket ticket = thing.GetTicket();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.GetTimeSpent()
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetTimeSpent()
+  id: 'GetTimeSpent()'
+  so.intellisense: NSTicketMessageEntity.GetTimeSpent
+  langs:
+  - crmscript
+  name: 'GetTimeSpent()'
+  nameWithType: NSTicketMessageEntity.GetTimeSpent()
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.GetTimeSpent()
+  type: Method
+  summary: "\nThe time spent (minutes) for this message.\n"
+  remarks: 
+  syntax: 
+    content: Integer GetTimeSpent()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nInteger timeSpent = thing.GetTimeSpent();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.GetType()
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.GetType()
+  id: 'GetType()'
+  so.intellisense: NSTicketMessageEntity.GetType
+  langs:
+  - crmscript
+  name: 'GetType()'
+  nameWithType: NSTicketMessageEntity.GetType()
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.GetType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetType()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The type of the message (plaintext/html). See <xref href=\"CRMScript.NetServer.TicketMessageType\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nInteger type = thing.GetType();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSTicketMessageEntity
+  langs:
+  - crmscript
+  name: NSTicketMessageEntity()
+  nameWithType: NSTicketMessageEntity.#ctor
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSTicketMessageEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSTicketMessageEntity
+  example: 
+- uid: CRMScript.NetServer.NSTicketMessageEntity.SetAuthor(String)
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetAuthor(String)
+  id: 'SetAuthor(String)'
+  so.intellisense: NSTicketMessageEntity.SetAuthor
+  langs:
+  - crmscript
+  name: 'SetAuthor(String)'
+  nameWithType: NSTicketMessageEntity.SetAuthor(String)
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.SetAuthor(String)
+  type: Method
+  summary: "\nA string representing the author of the message. Could be a user's name, or a persons email address.\n"
+  remarks: 
+  syntax: 
+    content: Void SetAuthor(String author)
+    parameters:
+    - id: author
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nString author;\nthing.SetAuthor(author);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.SetBody(String)
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetBody(String)
+  id: 'SetBody(String)'
+  so.intellisense: NSTicketMessageEntity.SetBody
+  langs:
+  - crmscript
+  name: 'SetBody(String)'
+  nameWithType: NSTicketMessageEntity.SetBody(String)
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.SetBody(String)
+  type: Method
+  summary: "\nThe textbody for the message.\n"
+  remarks: 
+  syntax: 
+    content: Void SetBody(String body)
+    parameters:
+    - id: body
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nString body;\nthing.SetBody(body);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.SetCreatedAt(DateTime)
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetCreatedAt(DateTime)
+  id: 'SetCreatedAt(DateTime)'
+  so.intellisense: NSTicketMessageEntity.SetCreatedAt
+  langs:
+  - crmscript
+  name: 'SetCreatedAt(DateTime)'
+  nameWithType: NSTicketMessageEntity.SetCreatedAt(DateTime)
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.SetCreatedAt(DateTime)
+  type: Method
+  summary: "\nWhen the message was posted.\n"
+  remarks: 
+  syntax: 
+    content: Void SetCreatedAt(DateTime createdAt)
+    parameters:
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nDateTime createdAt;\nthing.SetCreatedAt(createdAt);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.SetCreatedBy(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetCreatedBy(NSAssociate)
+  id: 'SetCreatedBy(NSAssociate)'
+  so.intellisense: NSTicketMessageEntity.SetCreatedBy
+  langs:
+  - crmscript
+  name: 'SetCreatedBy(NSAssociate)'
+  nameWithType: NSTicketMessageEntity.SetCreatedBy(NSAssociate)
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.SetCreatedBy(NSAssociate)
+  type: Method
+  summary: "\nThe associate who created this ticket message\n"
+  remarks: 
+  syntax: 
+    content: Void SetCreatedBy(NSAssociate createdBy)
+    parameters:
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nNSAssociate createdBy;\nthing.SetCreatedBy(createdBy);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.SetCustomFields(Map)
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetCustomFields(Map)
+  id: 'SetCustomFields(Map)'
+  so.intellisense: NSTicketMessageEntity.SetCustomFields
+  langs:
+  - crmscript
+  name: 'SetCustomFields(Map)'
+  nameWithType: NSTicketMessageEntity.SetCustomFields(Map)
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.SetCustomFields(Map)
+  type: Method
+  summary: "\nSets the user-defined and extra fields on a TicketMessageEntity with a map.\n"
+  remarks: 
+  syntax: 
+    content: Void SetCustomFields(Map udefs)
+    parameters:
+    - id: udefs
+      type: CRMScript.Native.Map
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nMap udefs;\nudefs[&quot;SuperOffice:1&quot;] = &quot;[I:123]&quot;;\nudefs[&quot;SuperOffice:1&quot;] = &quot;123&quot;; // this will also work, but beware of decimal point variations in different languages\nudefs[&quot;custom.progid&quot;] = &quot;foobar&quot;;\nudefs[&quot;x_foo&quot;] = &quot;foobar&quot;;\nudefs[&quot;x_bar&quot;] = &quot;456&quot;; // List item id\nthing.SetCustomFields(udefs);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.SetDebugInfo(String)
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetDebugInfo(String)
+  id: 'SetDebugInfo(String)'
+  so.intellisense: NSTicketMessageEntity.SetDebugInfo
+  langs:
+  - crmscript
+  name: 'SetDebugInfo(String)'
+  nameWithType: NSTicketMessageEntity.SetDebugInfo(String)
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.SetDebugInfo(String)
+  type: Method
+  summary: "\nThe debug info for the message.\n"
+  remarks: 
+  syntax: 
+    content: Void SetDebugInfo(String debugInfo)
+    parameters:
+    - id: debugInfo
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nString debugInfo;\nthing.SetDebugInfo(debugInfo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.SetEjMessageId(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetEjMessageId(Integer)
+  id: 'SetEjMessageId(Integer)'
+  so.intellisense: NSTicketMessageEntity.SetEjMessageId
+  langs:
+  - crmscript
+  name: 'SetEjMessageId(Integer)'
+  nameWithType: NSTicketMessageEntity.SetEjMessageId(Integer)
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.SetEjMessageId(Integer)
+  type: Method
+  summary: "\nThe primary key (auto-incremented)\n"
+  remarks: 
+  syntax: 
+    content: Void SetEjMessageId(Integer ejMessageId)
+    parameters:
+    - id: ejMessageId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nInteger ejMessageId;\nthing.SetEjMessageId(ejMessageId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.SetEmailHeader(String)
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetEmailHeader(String)
+  id: 'SetEmailHeader(String)'
+  so.intellisense: NSTicketMessageEntity.SetEmailHeader
+  langs:
+  - crmscript
+  name: 'SetEmailHeader(String)'
+  nameWithType: NSTicketMessageEntity.SetEmailHeader(String)
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.SetEmailHeader(String)
+  type: Method
+  summary: "\nThe email header is saved in this field as raw text\n"
+  remarks: 
+  syntax: 
+    content: Void SetEmailHeader(String emailHeader)
+    parameters:
+    - id: emailHeader
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nString emailHeader;\nthing.SetEmailHeader(emailHeader);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.SetExtraFields(Map)
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetExtraFields(Map)
+  id: 'SetExtraFields(Map)'
+  so.intellisense: NSTicketMessageEntity.SetExtraFields
+  langs:
+  - crmscript
+  name: 'SetExtraFields(Map)'
+  nameWithType: NSTicketMessageEntity.SetExtraFields(Map)
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.SetExtraFields(Map)
+  type: Method
+  summary: "\nSets the extra field values on TicketMessageEntity with a map.\n"
+  remarks: 
+  syntax: 
+    content: Void SetExtraFields(Map extras)
+    parameters:
+    - id: extras
+      type: CRMScript.Native.Map
+      description:
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nMap extras;\nextras[&quot;SuperOffice:1&quot;] = &quot;[I:123]&quot;;\nextras[&quot;SuperOffice:1&quot;] = &quot;123&quot;; // this will also work, but beware of decimal point variations in different languages\nextras[&quot;custom.progid&quot;] = &quot;foobar&quot;;\nthing.SetExtraFields(extras);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.SetHtmlBody(String)
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetHtmlBody(String)
+  id: 'SetHtmlBody(String)'
+  so.intellisense: NSTicketMessageEntity.SetHtmlBody
+  langs:
+  - crmscript
+  name: 'SetHtmlBody(String)'
+  nameWithType: NSTicketMessageEntity.SetHtmlBody(String)
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.SetHtmlBody(String)
+  type: Method
+  summary: "\nThe HTML body for the message (if any).\n"
+  remarks: 
+  syntax: 
+    content: Void SetHtmlBody(String htmlBody)
+    parameters:
+    - id: htmlBody
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nString htmlBody;\nthing.SetHtmlBody(htmlBody);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.SetImportant(Bool)
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetImportant(Bool)
+  id: 'SetImportant(Bool)'
+  so.intellisense: NSTicketMessageEntity.SetImportant
+  langs:
+  - crmscript
+  name: 'SetImportant(Bool)'
+  nameWithType: NSTicketMessageEntity.SetImportant(Bool)
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.SetImportant(Bool)
+  type: Method
+  summary: "\nIf this message is important or not.\n"
+  remarks: 
+  syntax: 
+    content: Void SetImportant(Bool important)
+    parameters:
+    - id: important
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nBool important;\nthing.SetImportant(important);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.SetMailSorter(String)
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetMailSorter(String)
+  id: 'SetMailSorter(String)'
+  so.intellisense: NSTicketMessageEntity.SetMailSorter
+  langs:
+  - crmscript
+  name: 'SetMailSorter(String)'
+  nameWithType: NSTicketMessageEntity.SetMailSorter(String)
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.SetMailSorter(String)
+  type: Method
+  summary: "\nThe name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id's change every time one changes the mail sorter. :-0\n"
+  remarks: 
+  syntax: 
+    content: Void SetMailSorter(String mailSorter)
+    parameters:
+    - id: mailSorter
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nString mailSorter;\nthing.SetMailSorter(mailSorter);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.SetMessageCategory(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetMessageCategory(Integer)
+  id: 'SetMessageCategory(Integer)'
+  so.intellisense: NSTicketMessageEntity.SetMessageCategory
+  langs:
+  - crmscript
+  name: 'SetMessageCategory(Integer)'
+  nameWithType: NSTicketMessageEntity.SetMessageCategory(Integer)
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.SetMessageCategory(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetMessageCategory(Integer messageCategory)
+    parameters:
+    - id: messageCategory
+      type: CRMScript.Global.Integer
+      description: "Defines what kind of message this is. See <xref href=\"CRMScript.NetServer.TicketMessageCategory\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nInteger messageCategory;\nthing.SetMessageCategory(messageCategory);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.SetMessageHeaders(NSTicketMessageHeader[])
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetMessageHeaders(NSTicketMessageHeader[])
+  id: 'SetMessageHeaders(NSTicketMessageHeader[])'
+  so.intellisense: NSTicketMessageEntity.SetMessageHeaders
+  langs:
+  - crmscript
+  name: 'SetMessageHeaders(NSTicketMessageHeader[])'
+  nameWithType: NSTicketMessageEntity.SetMessageHeaders(NSTicketMessageHeader[])
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.SetMessageHeaders(NSTicketMessageHeader[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMessageHeaders(NSTicketMessageHeader[] messageHeaders)
+    parameters:
+    - id: messageHeaders
+      type: CRMScript.NetServer.NSTicketMessageHeader[]
+      description: "Contains the message headers, like To, Cc, Bcc information, or custom headers."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nNSTicketMessageHeader[] messageHeaders;\nthing.SetMessageHeaders(messageHeaders);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.SetMessageId(String)
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetMessageId(String)
+  id: 'SetMessageId(String)'
+  so.intellisense: NSTicketMessageEntity.SetMessageId
+  langs:
+  - crmscript
+  name: 'SetMessageId(String)'
+  nameWithType: NSTicketMessageEntity.SetMessageId(String)
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.SetMessageId(String)
+  type: Method
+  summary: "\nThe X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets.\n"
+  remarks: 
+  syntax: 
+    content: Void SetMessageId(String messageId)
+    parameters:
+    - id: messageId
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nString messageId;\nthing.SetMessageId(messageId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.SetPerson(NSPerson)
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetPerson(NSPerson)
+  id: 'SetPerson(NSPerson)'
+  so.intellisense: NSTicketMessageEntity.SetPerson
+  langs:
+  - crmscript
+  name: 'SetPerson(NSPerson)'
+  nameWithType: NSTicketMessageEntity.SetPerson(NSPerson)
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.SetPerson(NSPerson)
+  type: Method
+  summary: "\nIf this is an incoming message, this will contain the person\n"
+  remarks: 
+  syntax: 
+    content: Void SetPerson(NSPerson person)
+    parameters:
+    - id: person
+      type: CRMScript.NetServer.NSPerson
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nNSPerson person;\nthing.SetPerson(person);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.SetSearchTitle(String)
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetSearchTitle(String)
+  id: 'SetSearchTitle(String)'
+  so.intellisense: NSTicketMessageEntity.SetSearchTitle
+  langs:
+  - crmscript
+  name: 'SetSearchTitle(String)'
+  nameWithType: NSTicketMessageEntity.SetSearchTitle(String)
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.SetSearchTitle(String)
+  type: Method
+  summary: "\nA copy of the title of the ticket, for search optimisation and simpler reporting.\n"
+  remarks: 
+  syntax: 
+    content: Void SetSearchTitle(String searchTitle)
+    parameters:
+    - id: searchTitle
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nString searchTitle;\nthing.SetSearchTitle(searchTitle);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.SetSlevel(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetSlevel(Integer)
+  id: 'SetSlevel(Integer)'
+  so.intellisense: NSTicketMessageEntity.SetSlevel
+  langs:
+  - crmscript
+  name: 'SetSlevel(Integer)'
+  nameWithType: NSTicketMessageEntity.SetSlevel(Integer)
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.SetSlevel(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetSlevel(Integer slevel)
+    parameters:
+    - id: slevel
+      type: CRMScript.Global.Integer
+      description: "The security level of the message. See <xref href=\"CRMScript.NetServer.TicketSecurityLevel\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nInteger slevel;\nthing.SetSlevel(slevel);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.SetTicket(NSTicket)
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetTicket(NSTicket)
+  id: 'SetTicket(NSTicket)'
+  so.intellisense: NSTicketMessageEntity.SetTicket
+  langs:
+  - crmscript
+  name: 'SetTicket(NSTicket)'
+  nameWithType: NSTicketMessageEntity.SetTicket(NSTicket)
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.SetTicket(NSTicket)
+  type: Method
+  summary: "\nThe connected ticket\n"
+  remarks: 
+  syntax: 
+    content: Void SetTicket(NSTicket ticket)
+    parameters:
+    - id: ticket
+      type: CRMScript.NetServer.NSTicket
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nNSTicket ticket;\nthing.SetTicket(ticket);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.SetTimeSpent(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetTimeSpent(Integer)
+  id: 'SetTimeSpent(Integer)'
+  so.intellisense: NSTicketMessageEntity.SetTimeSpent
+  langs:
+  - crmscript
+  name: 'SetTimeSpent(Integer)'
+  nameWithType: NSTicketMessageEntity.SetTimeSpent(Integer)
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.SetTimeSpent(Integer)
+  type: Method
+  summary: "\nThe time spent (minutes) for this message.\n"
+  remarks: 
+  syntax: 
+    content: Void SetTimeSpent(Integer timeSpent)
+    parameters:
+    - id: timeSpent
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nInteger timeSpent;\nthing.SetTimeSpent(timeSpent);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketMessageEntity.SetType(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketMessageEntity.SetType(Integer)
+  id: 'SetType(Integer)'
+  so.intellisense: NSTicketMessageEntity.SetType
+  langs:
+  - crmscript
+  name: 'SetType(Integer)'
+  nameWithType: NSTicketMessageEntity.SetType(Integer)
+  fullName: CRMScript.NetServer.NSTicketMessageEntity.SetType(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetType(Integer type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "The type of the message (plaintext/html). See <xref href=\"CRMScript.NetServer.TicketMessageType\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSTicketMessageEntity thing;\nInteger type;\nthing.SetType(type);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSTicketMessageEntity
+  commentId: T:CRMScript.NetServer.NSTicketMessageEntity
+  isExternal: true
+  name: NSTicketMessageEntity
+  nameWithType: NSTicketMessageEntity
+  fullName: CRMScript.NetServer.NSTicketMessageEntity
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.NetServer.NSAssociate
+  commentId: T:CRMScript.NetServer.NSAssociate
+  isExternal: true
+  name: NSAssociate
+  nameWithType: NSAssociate
+  fullName: CRMScript.NetServer.NSAssociate
+- uid: CRMScript.Native.Map
+  commentId: T:CRMScript.Native.Map
+  isExternal: true
+  name: Map
+  nameWithType: Map
+  fullName: CRMScript.Native.Map
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.NetServer.NSTicketMessageHeader[]
+  isExternal: true
+  name: NSTicketMessageHeader[]
+  nameWithType: NSTicketMessageHeader[]
+  fullName: CRMScript.NetServer.NSTicketMessageHeader[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSTicketMessageHeader
+    isExternal: true
+    name: NSTicketMessageHeader
+    nameWithType: NSTicketMessageHeader
+    fullName: CRMScript.NetServer.NSTicketMessageHeader
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSTicketMessageHeader
+  commentId: T:CRMScript.NetServer.NSTicketMessageHeader
+  isExternal: true
+  name: NSTicketMessageHeader
+  nameWithType: NSTicketMessageHeader
+  fullName: CRMScript.NetServer.NSTicketMessageHeader
+- uid: CRMScript.NetServer.NSPerson
+  commentId: T:CRMScript.NetServer.NSPerson
+  isExternal: true
+  name: NSPerson
+  nameWithType: NSPerson
+  fullName: CRMScript.NetServer.NSPerson
+- uid: CRMScript.NetServer.NSTicket
+  commentId: T:CRMScript.NetServer.NSTicket
+  isExternal: true
+  name: NSTicket
+  nameWithType: NSTicket
+  fullName: CRMScript.NetServer.NSTicket
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.TicketSecurityLevel
+  commentId: T:CRMScript.NetServer.TicketSecurityLevel
+  isExternal: true
+  name: TicketSecurityLevel
+  nameWithType: TicketSecurityLevel
+  fullName: CRMScript.NetServer.TicketSecurityLevel
+- uid: CRMScript.NetServer.TicketMessageCategory
+  commentId: T:CRMScript.NetServer.TicketMessageCategory
+  isExternal: true
+  name: TicketMessageCategory
+  nameWithType: TicketMessageCategory
+  fullName: CRMScript.NetServer.TicketMessageCategory
+- uid: CRMScript.NetServer.TicketMessageType
+  commentId: T:CRMScript.NetServer.TicketMessageType
+  isExternal: true
+  name: TicketMessageType
+  nameWithType: TicketMessageType
+  fullName: CRMScript.NetServer.TicketMessageType

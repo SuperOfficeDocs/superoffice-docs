@@ -1,0 +1,49 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.ChatSessionFlags
+  # Same as SuperOffice.Data.ChatSessionFlags
+  commentId: T:CRMScript.NetServer.ChatSessionFlags
+  id: ChatSessionFlags
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.ChatSessionFlags.CustomerIsTyping
+  - CRMScript.NetServer.ChatSessionFlags.UserIsTyping
+  name: ChatSessionFlags
+  nameWithType: ChatSessionFlags
+  fullName: CRMScript.NetServer.ChatSessionFlags
+  type: Enum
+  summary: "\nValue for field flags in table chat_session\n"
+- uid: CRMScript.NetServer.ChatSessionFlags.CustomerIsTyping
+  commentId: F:CRMScript.NetServer.ChatSessionFlags.CustomerIsTyping
+  id: ChatSessionFlags.CustomerIsTyping
+  langs:
+  - crmscript
+  name: ChatSessionFlags.CustomerIsTyping
+  nameWithType: ChatSessionFlags.CustomerIsTyping
+  fullName: CRMScript.NetServer.ChatSessionFlags.CustomerIsTyping
+  type: Field
+  summary: "\n0: Set if the customer is currently typing a chat message\n"
+  syntax: 
+    content: CustomerIsTyping = 0
+    type: CRMScript.NetServer.ChatSessionFlags
+- uid: CRMScript.NetServer.ChatSessionFlags.UserIsTyping
+  commentId: F:CRMScript.NetServer.ChatSessionFlags.UserIsTyping
+  id: ChatSessionFlags.UserIsTyping
+  langs:
+  - crmscript
+  name: ChatSessionFlags.UserIsTyping
+  nameWithType: ChatSessionFlags.UserIsTyping
+  fullName: CRMScript.NetServer.ChatSessionFlags.UserIsTyping
+  type: Field
+  summary: "\n1: Set if the agent is currently typing a chat message\n"
+  syntax: 
+    content: UserIsTyping = 1
+    type: CRMScript.NetServer.ChatSessionFlags
+references:
+- uid: CRMScript.NetServer.ChatSessionFlags
+  commentId: T:CRMScript.NetServer.ChatSessionFlags
+  isExternal: true
+  name: ChatSessionFlags
+  nameWithType: ChatSessionFlags
+  fullName: CRMScript.NetServer.ChatSessionFlags

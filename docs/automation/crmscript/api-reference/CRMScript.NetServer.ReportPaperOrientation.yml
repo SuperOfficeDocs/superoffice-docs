@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.ReportPaperOrientation
+  # Same as SuperOffice.Data.ReportPaperOrientation
+  commentId: T:CRMScript.NetServer.ReportPaperOrientation
+  id: ReportPaperOrientation
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.ReportPaperOrientation.None
+  - CRMScript.NetServer.ReportPaperOrientation.Portrait
+  - CRMScript.NetServer.ReportPaperOrientation.Landscape
+  name: ReportPaperOrientation
+  nameWithType: ReportPaperOrientation
+  fullName: CRMScript.NetServer.ReportPaperOrientation
+  type: Enum
+  summary: "\nThe ReportPaperOrientation of the paper when printing a report. The report layout must be Label.\n"
+- uid: CRMScript.NetServer.ReportPaperOrientation.None
+  commentId: F:CRMScript.NetServer.ReportPaperOrientation.None
+  id: ReportPaperOrientation.None
+  langs:
+  - crmscript
+  name: ReportPaperOrientation.None
+  nameWithType: ReportPaperOrientation.None
+  fullName: CRMScript.NetServer.ReportPaperOrientation.None
+  type: Field
+  summary: "\n0: None\n"
+  syntax: 
+    content: None = 0
+    type: CRMScript.NetServer.ReportPaperOrientation
+- uid: CRMScript.NetServer.ReportPaperOrientation.Portrait
+  commentId: F:CRMScript.NetServer.ReportPaperOrientation.Portrait
+  id: ReportPaperOrientation.Portrait
+  langs:
+  - crmscript
+  name: ReportPaperOrientation.Portrait
+  nameWithType: ReportPaperOrientation.Portrait
+  fullName: CRMScript.NetServer.ReportPaperOrientation.Portrait
+  type: Field
+  summary: "\n1: Portrait\n"
+  syntax: 
+    content: Portrait = 1
+    type: CRMScript.NetServer.ReportPaperOrientation
+- uid: CRMScript.NetServer.ReportPaperOrientation.Landscape
+  commentId: F:CRMScript.NetServer.ReportPaperOrientation.Landscape
+  id: ReportPaperOrientation.Landscape
+  langs:
+  - crmscript
+  name: ReportPaperOrientation.Landscape
+  nameWithType: ReportPaperOrientation.Landscape
+  fullName: CRMScript.NetServer.ReportPaperOrientation.Landscape
+  type: Field
+  summary: "\n2: Landscape\n"
+  syntax: 
+    content: Landscape = 2
+    type: CRMScript.NetServer.ReportPaperOrientation
+references:
+- uid: CRMScript.NetServer.ReportPaperOrientation
+  commentId: T:CRMScript.NetServer.ReportPaperOrientation
+  isExternal: true
+  name: ReportPaperOrientation
+  nameWithType: ReportPaperOrientation
+  fullName: CRMScript.NetServer.ReportPaperOrientation

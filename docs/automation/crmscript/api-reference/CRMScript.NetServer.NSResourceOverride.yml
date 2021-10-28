@@ -1,0 +1,231 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSResourceOverride
+  commentId: T:CRMScript.NetServer.NSResourceOverride
+  id: NSResourceOverride
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSResourceOverride.#ctor
+  - CRMScript.NetServer.NSResourceOverride.GetCulture()
+  - CRMScript.NetServer.NSResourceOverride.GetIsActive()
+  - CRMScript.NetServer.NSResourceOverride.GetResourceName()
+  - CRMScript.NetServer.NSResourceOverride.GetResourceValue()
+  - CRMScript.NetServer.NSResourceOverride.SetCulture(String)
+  - CRMScript.NetServer.NSResourceOverride.SetIsActive(Bool)
+  - CRMScript.NetServer.NSResourceOverride.SetResourceName(String)
+  - CRMScript.NetServer.NSResourceOverride.SetResourceValue(String)
+  name: NSResourceOverride
+  nameWithType: NSResourceOverride
+  fullName: CRMScript.NetServer.NSResourceOverride
+  type: Class
+  summary: "\nThe resource entity contains resource information.\n"
+  example: 
+- uid: CRMScript.NetServer.NSResourceOverride.#ctor
+  commentId: M:CRMScript.NetServer.NSResourceOverride.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSResourceOverride
+  langs:
+  - crmscript
+  name: NSResourceOverride()
+  nameWithType: NSResourceOverride.#ctor
+  fullName: CRMScript.NetServer.NSResourceOverride.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSResourceOverride class.\n"
+  remarks: 
+  syntax: 
+    content: NSResourceOverride
+  example: 
+- uid: CRMScript.NetServer.NSResourceOverride.GetCulture()
+  commentId: M:CRMScript.NetServer.NSResourceOverride.GetCulture()
+  id: 'GetCulture()'
+  so.intellisense: NSResourceOverride.GetCulture
+  langs:
+  - crmscript
+  name: 'GetCulture()'
+  nameWithType: NSResourceOverride.GetCulture()
+  fullName: CRMScript.NetServer.NSResourceOverride.GetCulture()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetCulture()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: ".NET-style culture code, such as NB-NO or EN-Uk."
+  example: 
+  - "\n<pre><code>NSResourceOverride thing;\nString culture = thing.GetCulture();</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceOverride.GetIsActive()
+  commentId: M:CRMScript.NetServer.NSResourceOverride.GetIsActive()
+  id: 'GetIsActive()'
+  so.intellisense: NSResourceOverride.GetIsActive
+  langs:
+  - crmscript
+  name: 'GetIsActive()'
+  nameWithType: NSResourceOverride.GetIsActive()
+  fullName: CRMScript.NetServer.NSResourceOverride.GetIsActive()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsActive()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Is this override active."
+  example: 
+  - "\n<pre><code>NSResourceOverride thing;\nBool isActive = thing.GetIsActive();</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceOverride.GetResourceName()
+  commentId: M:CRMScript.NetServer.NSResourceOverride.GetResourceName()
+  id: 'GetResourceName()'
+  so.intellisense: NSResourceOverride.GetResourceName
+  langs:
+  - crmscript
+  name: 'GetResourceName()'
+  nameWithType: NSResourceOverride.GetResourceName()
+  fullName: CRMScript.NetServer.NSResourceOverride.GetResourceName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetResourceName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the resource, without any brackets or braces. For example, SR_CONTACt."
+  example: 
+  - "\n<pre><code>NSResourceOverride thing;\nString resourceName = thing.GetResourceName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceOverride.GetResourceValue()
+  commentId: M:CRMScript.NetServer.NSResourceOverride.GetResourceValue()
+  id: 'GetResourceValue()'
+  so.intellisense: NSResourceOverride.GetResourceValue
+  langs:
+  - crmscript
+  name: 'GetResourceValue()'
+  nameWithType: NSResourceOverride.GetResourceValue()
+  fullName: CRMScript.NetServer.NSResourceOverride.GetResourceValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetResourceValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The value of the resource in the given culture."
+  example: 
+  - "\n<pre><code>NSResourceOverride thing;\nString resourceValue = thing.GetResourceValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceOverride.SetCulture(String)
+  commentId: M:CRMScript.NetServer.NSResourceOverride.SetCulture(String)
+  id: 'SetCulture(String)'
+  so.intellisense: NSResourceOverride.SetCulture
+  langs:
+  - crmscript
+  name: 'SetCulture(String)'
+  nameWithType: NSResourceOverride.SetCulture(String)
+  fullName: CRMScript.NetServer.NSResourceOverride.SetCulture(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCulture(String culture)
+    parameters:
+    - id: culture
+      type: CRMScript.Global.String
+      description: ".NET-style culture code, such as NB-NO or EN-Uk."
+    return: 
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSResourceOverride thing;\nString culture;\nthing.SetCulture(culture);</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceOverride.SetIsActive(Bool)
+  commentId: M:CRMScript.NetServer.NSResourceOverride.SetIsActive(Bool)
+  id: 'SetIsActive(Bool)'
+  so.intellisense: NSResourceOverride.SetIsActive
+  langs:
+  - crmscript
+  name: 'SetIsActive(Bool)'
+  nameWithType: NSResourceOverride.SetIsActive(Bool)
+  fullName: CRMScript.NetServer.NSResourceOverride.SetIsActive(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsActive(Bool isActive)
+    parameters:
+    - id: isActive
+      type: CRMScript.Global.Bool
+      description: "Is this override active."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSResourceOverride thing;\nBool isActive;\nthing.SetIsActive(isActive);</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceOverride.SetResourceName(String)
+  commentId: M:CRMScript.NetServer.NSResourceOverride.SetResourceName(String)
+  id: 'SetResourceName(String)'
+  so.intellisense: NSResourceOverride.SetResourceName
+  langs:
+  - crmscript
+  name: 'SetResourceName(String)'
+  nameWithType: NSResourceOverride.SetResourceName(String)
+  fullName: CRMScript.NetServer.NSResourceOverride.SetResourceName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetResourceName(String resourceName)
+    parameters:
+    - id: resourceName
+      type: CRMScript.Global.String
+      description: "The name of the resource, without any brackets or braces. For example, SR_CONTACt."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSResourceOverride thing;\nString resourceName;\nthing.SetResourceName(resourceName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSResourceOverride.SetResourceValue(String)
+  commentId: M:CRMScript.NetServer.NSResourceOverride.SetResourceValue(String)
+  id: 'SetResourceValue(String)'
+  so.intellisense: NSResourceOverride.SetResourceValue
+  langs:
+  - crmscript
+  name: 'SetResourceValue(String)'
+  nameWithType: NSResourceOverride.SetResourceValue(String)
+  fullName: CRMScript.NetServer.NSResourceOverride.SetResourceValue(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetResourceValue(String resourceValue)
+    parameters:
+    - id: resourceValue
+      type: CRMScript.Global.String
+      description: "The value of the resource in the given culture."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSResourceOverride thing;\nString resourceValue;\nthing.SetResourceValue(resourceValue);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSResourceOverride
+  commentId: T:CRMScript.NetServer.NSResourceOverride
+  isExternal: true
+  name: NSResourceOverride
+  nameWithType: NSResourceOverride
+  fullName: CRMScript.NetServer.NSResourceOverride
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

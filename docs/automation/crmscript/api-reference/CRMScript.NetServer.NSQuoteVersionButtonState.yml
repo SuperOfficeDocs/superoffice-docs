@@ -1,0 +1,287 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSQuoteVersionButtonState
+  commentId: T:CRMScript.NetServer.NSQuoteVersionButtonState
+  id: NSQuoteVersionButtonState
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSQuoteVersionButtonState.#ctor
+  - CRMScript.NetServer.NSQuoteVersionButtonState.GetAction()
+  - CRMScript.NetServer.NSQuoteVersionButtonState.GetDisplayText()
+  - CRMScript.NetServer.NSQuoteVersionButtonState.GetEnabled()
+  - CRMScript.NetServer.NSQuoteVersionButtonState.GetImageHint()
+  - CRMScript.NetServer.NSQuoteVersionButtonState.GetTooltipText()
+  - CRMScript.NetServer.NSQuoteVersionButtonState.SetAction(Integer)
+  - CRMScript.NetServer.NSQuoteVersionButtonState.SetDisplayText(String)
+  - CRMScript.NetServer.NSQuoteVersionButtonState.SetEnabled(Bool)
+  - CRMScript.NetServer.NSQuoteVersionButtonState.SetImageHint(String)
+  - CRMScript.NetServer.NSQuoteVersionButtonState.SetTooltipText(String)
+  name: NSQuoteVersionButtonState
+  nameWithType: NSQuoteVersionButtonState
+  fullName: CRMScript.NetServer.NSQuoteVersionButtonState
+  type: Class
+  summary: "\nInformation about possible button actions for the quote version dialog.\n"
+  example: 
+- uid: CRMScript.NetServer.NSQuoteVersionButtonState.#ctor
+  commentId: M:CRMScript.NetServer.NSQuoteVersionButtonState.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSQuoteVersionButtonState
+  langs:
+  - crmscript
+  name: NSQuoteVersionButtonState()
+  nameWithType: NSQuoteVersionButtonState.#ctor
+  fullName: CRMScript.NetServer.NSQuoteVersionButtonState.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSQuoteVersionButtonState class.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteVersionButtonState
+  example: 
+- uid: CRMScript.NetServer.NSQuoteVersionButtonState.GetAction()
+  commentId: M:CRMScript.NetServer.NSQuoteVersionButtonState.GetAction()
+  id: 'GetAction()'
+  so.intellisense: NSQuoteVersionButtonState.GetAction
+  langs:
+  - crmscript
+  name: 'GetAction()'
+  nameWithType: NSQuoteVersionButtonState.GetAction()
+  fullName: CRMScript.NetServer.NSQuoteVersionButtonState.GetAction()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAction()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Action for the button. See <xref href=\"CRMScript.NetServer.QuoteVersionButtonAction\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSQuoteVersionButtonState thing;\nInteger action = thing.GetAction();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionButtonState.GetDisplayText()
+  commentId: M:CRMScript.NetServer.NSQuoteVersionButtonState.GetDisplayText()
+  id: 'GetDisplayText()'
+  so.intellisense: NSQuoteVersionButtonState.GetDisplayText
+  langs:
+  - crmscript
+  name: 'GetDisplayText()'
+  nameWithType: NSQuoteVersionButtonState.GetDisplayText()
+  fullName: CRMScript.NetServer.NSQuoteVersionButtonState.GetDisplayText()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDisplayText()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Text to be displayed on the button."
+  example: 
+  - "\n<pre><code>NSQuoteVersionButtonState thing;\nString displayText = thing.GetDisplayText();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionButtonState.GetEnabled()
+  commentId: M:CRMScript.NetServer.NSQuoteVersionButtonState.GetEnabled()
+  id: 'GetEnabled()'
+  so.intellisense: NSQuoteVersionButtonState.GetEnabled
+  langs:
+  - crmscript
+  name: 'GetEnabled()'
+  nameWithType: NSQuoteVersionButtonState.GetEnabled()
+  fullName: CRMScript.NetServer.NSQuoteVersionButtonState.GetEnabled()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetEnabled()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Indicate if the button should be enabled or disabled."
+  example: 
+  - "\n<pre><code>NSQuoteVersionButtonState thing;\nBool enabled = thing.GetEnabled();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionButtonState.GetImageHint()
+  commentId: M:CRMScript.NetServer.NSQuoteVersionButtonState.GetImageHint()
+  id: 'GetImageHint()'
+  so.intellisense: NSQuoteVersionButtonState.GetImageHint
+  langs:
+  - crmscript
+  name: 'GetImageHint()'
+  nameWithType: NSQuoteVersionButtonState.GetImageHint()
+  fullName: CRMScript.NetServer.NSQuoteVersionButtonState.GetImageHint()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetImageHint()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Image to be shown."
+  example: 
+  - "\n<pre><code>NSQuoteVersionButtonState thing;\nString imageHint = thing.GetImageHint();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionButtonState.GetTooltipText()
+  commentId: M:CRMScript.NetServer.NSQuoteVersionButtonState.GetTooltipText()
+  id: 'GetTooltipText()'
+  so.intellisense: NSQuoteVersionButtonState.GetTooltipText
+  langs:
+  - crmscript
+  name: 'GetTooltipText()'
+  nameWithType: NSQuoteVersionButtonState.GetTooltipText()
+  fullName: CRMScript.NetServer.NSQuoteVersionButtonState.GetTooltipText()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltipText()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The tooltip for the button."
+  example: 
+  - "\n<pre><code>NSQuoteVersionButtonState thing;\nString tooltipText = thing.GetTooltipText();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionButtonState.SetAction(Integer)
+  commentId: M:CRMScript.NetServer.NSQuoteVersionButtonState.SetAction(Integer)
+  id: 'SetAction(Integer)'
+  so.intellisense: NSQuoteVersionButtonState.SetAction
+  langs:
+  - crmscript
+  name: 'SetAction(Integer)'
+  nameWithType: NSQuoteVersionButtonState.SetAction(Integer)
+  fullName: CRMScript.NetServer.NSQuoteVersionButtonState.SetAction(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetAction(Integer action)
+    parameters:
+    - id: action
+      type: CRMScript.Global.Integer
+      description: "Action for the button See <xref href=\"CRMScript.NetServer.QuoteVersionButtonAction\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersionButtonState thing;\nInteger action;\nthing.SetAction(action);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionButtonState.SetDisplayText(String)
+  commentId: M:CRMScript.NetServer.NSQuoteVersionButtonState.SetDisplayText(String)
+  id: 'SetDisplayText(String)'
+  so.intellisense: NSQuoteVersionButtonState.SetDisplayText
+  langs:
+  - crmscript
+  name: 'SetDisplayText(String)'
+  nameWithType: NSQuoteVersionButtonState.SetDisplayText(String)
+  fullName: CRMScript.NetServer.NSQuoteVersionButtonState.SetDisplayText(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDisplayText(String displayText)
+    parameters:
+    - id: displayText
+      type: CRMScript.Global.String
+      description: "Text to be displayed on the button."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersionButtonState thing;\nString displayText;\nthing.SetDisplayText(displayText);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionButtonState.SetEnabled(Bool)
+  commentId: M:CRMScript.NetServer.NSQuoteVersionButtonState.SetEnabled(Bool)
+  id: 'SetEnabled(Bool)'
+  so.intellisense: NSQuoteVersionButtonState.SetEnabled
+  langs:
+  - crmscript
+  name: 'SetEnabled(Bool)'
+  nameWithType: NSQuoteVersionButtonState.SetEnabled(Bool)
+  fullName: CRMScript.NetServer.NSQuoteVersionButtonState.SetEnabled(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEnabled(Bool enabled)
+    parameters:
+    - id: enabled
+      type: CRMScript.Global.Bool
+      description: "Indicate if the button should be enabled or disabled."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersionButtonState thing;\nBool enabled;\nthing.SetEnabled(enabled);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionButtonState.SetImageHint(String)
+  commentId: M:CRMScript.NetServer.NSQuoteVersionButtonState.SetImageHint(String)
+  id: 'SetImageHint(String)'
+  so.intellisense: NSQuoteVersionButtonState.SetImageHint
+  langs:
+  - crmscript
+  name: 'SetImageHint(String)'
+  nameWithType: NSQuoteVersionButtonState.SetImageHint(String)
+  fullName: CRMScript.NetServer.NSQuoteVersionButtonState.SetImageHint(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetImageHint(String imageHint)
+    parameters:
+    - id: imageHint
+      type: CRMScript.Global.String
+      description: "Image to be shown."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersionButtonState thing;\nString imageHint;\nthing.SetImageHint(imageHint);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteVersionButtonState.SetTooltipText(String)
+  commentId: M:CRMScript.NetServer.NSQuoteVersionButtonState.SetTooltipText(String)
+  id: 'SetTooltipText(String)'
+  so.intellisense: NSQuoteVersionButtonState.SetTooltipText
+  langs:
+  - crmscript
+  name: 'SetTooltipText(String)'
+  nameWithType: NSQuoteVersionButtonState.SetTooltipText(String)
+  fullName: CRMScript.NetServer.NSQuoteVersionButtonState.SetTooltipText(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltipText(String tooltipText)
+    parameters:
+    - id: tooltipText
+      type: CRMScript.Global.String
+      description: "The tooltip for the button."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteVersionButtonState thing;\nString tooltipText;\nthing.SetTooltipText(tooltipText);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSQuoteVersionButtonState
+  commentId: T:CRMScript.NetServer.NSQuoteVersionButtonState
+  isExternal: true
+  name: NSQuoteVersionButtonState
+  nameWithType: NSQuoteVersionButtonState
+  fullName: CRMScript.NetServer.NSQuoteVersionButtonState
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.QuoteVersionButtonAction
+  commentId: T:CRMScript.NetServer.QuoteVersionButtonAction
+  isExternal: true
+  name: QuoteVersionButtonAction
+  nameWithType: QuoteVersionButtonAction
+  fullName: CRMScript.NetServer.QuoteVersionButtonAction

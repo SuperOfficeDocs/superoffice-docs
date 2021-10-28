@@ -1,0 +1,981 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSBLOBAgent
+  commentId: T:CRMScript.NetServer.NSBLOBAgent
+  id: NSBLOBAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSBLOBAgent.#ctor
+  - CRMScript.NetServer.NSBLOBAgent.ChangeContactImage(Integer,Integer)
+  - CRMScript.NetServer.NSBLOBAgent.ChangePersonImage(Integer,Integer)
+  - CRMScript.NetServer.NSBLOBAgent.ChangeProductImage(Integer,Integer)
+  - CRMScript.NetServer.NSBLOBAgent.ChangeProjectImage(Integer,Integer)
+  - CRMScript.NetServer.NSBLOBAgent.CleanupBatchTask(Integer)
+  - CRMScript.NetServer.NSBLOBAgent.CreateDefaultBlobEntity()
+  - CRMScript.NetServer.NSBLOBAgent.DeleteBlobEntity(Integer)
+  - CRMScript.NetServer.NSBLOBAgent.GetAppData(String)
+  - CRMScript.NetServer.NSBLOBAgent.GetBlobEntity(Integer)
+  - CRMScript.NetServer.NSBLOBAgent.GetBlobEntityOnContact(Integer)
+  - CRMScript.NetServer.NSBLOBAgent.GetBlobEntityOnCountry(Integer)
+  - CRMScript.NetServer.NSBLOBAgent.GetBlobEntityOnPerson(Integer)
+  - CRMScript.NetServer.NSBLOBAgent.GetBlobEntityOnProduct(Integer)
+  - CRMScript.NetServer.NSBLOBAgent.GetBlobEntityOnProject(Integer)
+  - CRMScript.NetServer.NSBLOBAgent.GetBlobStream(Integer)
+  - CRMScript.NetServer.NSBLOBAgent.GetChatImageWithSize(Integer,Integer,Integer)
+  - CRMScript.NetServer.NSBLOBAgent.GetContactImage(Integer)
+  - CRMScript.NetServer.NSBLOBAgent.GetContactImageWithSize(Integer,Integer,Integer)
+  - CRMScript.NetServer.NSBLOBAgent.GetOutputFromBatch(Integer)
+  - CRMScript.NetServer.NSBLOBAgent.GetPersonImage(Integer)
+  - CRMScript.NetServer.NSBLOBAgent.GetPersonImageWithSize(Integer,Integer,Integer)
+  - CRMScript.NetServer.NSBLOBAgent.GetProductImage(Integer)
+  - CRMScript.NetServer.NSBLOBAgent.GetProductThumbnail(Integer)
+  - CRMScript.NetServer.NSBLOBAgent.GetProjectImage(Integer)
+  - CRMScript.NetServer.NSBLOBAgent.GetProjectImageWithSize(Integer,Integer,Integer)
+  - CRMScript.NetServer.NSBLOBAgent.GetQuoteLineImage(Integer)
+  - CRMScript.NetServer.NSBLOBAgent.SaveBlobEntity(NSBlobEntity)
+  - CRMScript.NetServer.NSBLOBAgent.SaveImageStream(Integer,NSImage,String)
+  - CRMScript.NetServer.NSBLOBAgent.SaveProjectImage(String,NSImage)
+  - CRMScript.NetServer.NSBLOBAgent.SetAppData(String,String)
+  - CRMScript.NetServer.NSBLOBAgent.SetBlobStream(Integer,NSStream)
+  - CRMScript.NetServer.NSBLOBAgent.SetContactImage(Integer,NSImage)
+  - CRMScript.NetServer.NSBLOBAgent.SetPersonImage(Integer,NSImage)
+  - CRMScript.NetServer.NSBLOBAgent.SetProductImage(Integer,NSImage)
+  - CRMScript.NetServer.NSBLOBAgent.SetProductThumbnail(Integer,NSImage)
+  - CRMScript.NetServer.NSBLOBAgent.SetProjectImage(Integer)
+  name: NSBLOBAgent
+  nameWithType: NSBLOBAgent
+  fullName: CRMScript.NetServer.NSBLOBAgent
+  type: Class
+  summary: "\nCollection of all services that work with binary objects (BLOBS). For example, images and documents.\n"
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSBLOBAgent
+  langs:
+  - crmscript
+  name: NSBLOBAgent()
+  nameWithType: NSBLOBAgent.#ctor
+  fullName: CRMScript.NetServer.NSBLOBAgent.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSBLOBAgent class.\n"
+  remarks: 
+  syntax: 
+    content: NSBLOBAgent
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.ChangeContactImage(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.ChangeContactImage(Integer,Integer)
+  id: 'ChangeContactImage(Integer,Integer)'
+  so.intellisense: NSBLOBAgent.ChangeContactImage
+  langs:
+  - crmscript
+  name: 'ChangeContactImage(Integer,Integer)'
+  nameWithType: NSBLOBAgent.ChangeContactImage(Integer,Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.ChangeContactImage(Integer,Integer)
+  type: Method
+  summary: "\nChanges the contact image link.\n"
+  remarks: "\nIf the Binary object ID is 0, any image link is removed from the contact.\n"
+  syntax: 
+    content: Void ChangeContactImage(Integer contactId, Integer blobId)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: "The contact the image is linked to"
+    - id: blobId
+      type: CRMScript.Global.Integer
+      description: "The Binary object ID."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSBLOBAgent.ChangePersonImage(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.ChangePersonImage(Integer,Integer)
+  id: 'ChangePersonImage(Integer,Integer)'
+  so.intellisense: NSBLOBAgent.ChangePersonImage
+  langs:
+  - crmscript
+  name: 'ChangePersonImage(Integer,Integer)'
+  nameWithType: NSBLOBAgent.ChangePersonImage(Integer,Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.ChangePersonImage(Integer,Integer)
+  type: Method
+  summary: # TODO
+  remarks: "\nIf the Binary object ID is 0, any image link is removed from the person.\n"
+  syntax: 
+    content: Void ChangePersonImage(Integer personId, Integer blobId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: "The person the image is linked to"
+    - id: blobId
+      type: CRMScript.Global.Integer
+      description: "The Binary object ID."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSBLOBAgent.ChangeProductImage(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.ChangeProductImage(Integer,Integer)
+  id: 'ChangeProductImage(Integer,Integer)'
+  so.intellisense: NSBLOBAgent.ChangeProductImage
+  langs:
+  - crmscript
+  name: 'ChangeProductImage(Integer,Integer)'
+  nameWithType: NSBLOBAgent.ChangeProductImage(Integer,Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.ChangeProductImage(Integer,Integer)
+  type: Method
+  summary: "\nChanges the project image link.\n"
+  remarks: "\nIf the Binary object ID is 0, any image link is removed from the project.\n"
+  syntax: 
+    content: Void ChangeProductImage(Integer productId, Integer blobId)
+    parameters:
+    - id: productId
+      type: CRMScript.Global.Integer
+      description: "The project the image is linked to"
+    - id: blobId
+      type: CRMScript.Global.Integer
+      description: "The Binary object Id."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSBLOBAgent.ChangeProjectImage(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.ChangeProjectImage(Integer,Integer)
+  id: 'ChangeProjectImage(Integer,Integer)'
+  so.intellisense: NSBLOBAgent.ChangeProjectImage
+  langs:
+  - crmscript
+  name: 'ChangeProjectImage(Integer,Integer)'
+  nameWithType: NSBLOBAgent.ChangeProjectImage(Integer,Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.ChangeProjectImage(Integer,Integer)
+  type: Method
+  summary: "\nChanges the project image link.\n"
+  remarks: "\nIf the Binary object ID is 0, any image link is removed from the project.\n"
+  syntax: 
+    content: Void ChangeProjectImage(Integer projectId, Integer blobId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: blobId
+      type: CRMScript.Global.Integer
+      description: "The Binary object Id."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSBLOBAgent.CleanupBatchTask(Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.CleanupBatchTask(Integer)
+  id: 'CleanupBatchTask(Integer)'
+  so.intellisense: NSBLOBAgent.CleanupBatchTask
+  langs:
+  - crmscript
+  name: 'CleanupBatchTask(Integer)'
+  nameWithType: NSBLOBAgent.CleanupBatchTask(Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.CleanupBatchTask(Integer)
+  type: Method
+  summary: "\nRemoves the binary objects linked to the batch task, the links themselves and the batch task.\n"
+  remarks: 
+  syntax: 
+    content: Void CleanupBatchTask(Integer batchTaskId)
+    parameters:
+    - id: batchTaskId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSBLOBAgent.CreateDefaultBlobEntity()
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.CreateDefaultBlobEntity()
+  id: 'CreateDefaultBlobEntity()'
+  so.intellisense: NSBLOBAgent.CreateDefaultBlobEntity
+  langs:
+  - crmscript
+  name: 'CreateDefaultBlobEntity()'
+  nameWithType: NSBLOBAgent.CreateDefaultBlobEntity()
+  fullName: CRMScript.NetServer.NSBLOBAgent.CreateDefaultBlobEntity()
+  type: Method
+  summary: "\nSets default values into a new NSBlobEntity.\n"
+  remarks: "\nNetServer calculates default values (for example Country) on the entity, which is required when creating/storing a new instance.\n"
+  syntax: 
+    content: NSBlobEntity CreateDefaultBlobEntity()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSBlobEntity
+      description: "New BlobEntity with default values."
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nNSBlobEntity thing = agent.CreateDefaultBlobEntity();\nthing = agent.SaveBlobEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.DeleteBlobEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.DeleteBlobEntity(Integer)
+  id: 'DeleteBlobEntity(Integer)'
+  so.intellisense: NSBLOBAgent.DeleteBlobEntity
+  langs:
+  - crmscript
+  name: 'DeleteBlobEntity(Integer)'
+  nameWithType: NSBLOBAgent.DeleteBlobEntity(Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.DeleteBlobEntity(Integer)
+  type: Method
+  summary: "\nDeletes the NSBlobEntity\n"
+  remarks: 
+  syntax: 
+    content: Void DeleteBlobEntity(Integer blobEntity)
+    parameters:
+    - id: blobEntity
+      type: CRMScript.Global.Integer
+      description: "The identity of the BlobEntity."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nagent.DeleteBlobEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.GetAppData(String)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.GetAppData(String)
+  id: 'GetAppData(String)'
+  so.intellisense: NSBLOBAgent.GetAppData
+  langs:
+  - crmscript
+  name: 'GetAppData(String)'
+  nameWithType: NSBLOBAgent.GetAppData(String)
+  fullName: CRMScript.NetServer.NSBLOBAgent.GetAppData(String)
+  type: Method
+  summary: "\nGets a CLOB (limited to a reasonable size by the mechanics of Web Services) according to a string key; ALSO limits to the current ApplicationToken if any\n"
+  remarks: 
+  syntax: 
+    content: String GetAppData(String key)
+    parameters:
+    - id: key
+      type: CRMScript.Global.String
+      description: "The key string, less than 200 characters. Must be unique within each application."
+    return:
+      type: CRMScript.Global.String
+      description: "The applications value, suggested to be a JSON, XML or other readable structure."
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nString key;\nString res = agent.GetAppData(key);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.GetBlobEntity(Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.GetBlobEntity(Integer)
+  id: 'GetBlobEntity(Integer)'
+  so.intellisense: NSBLOBAgent.GetBlobEntity
+  langs:
+  - crmscript
+  name: 'GetBlobEntity(Integer)'
+  nameWithType: NSBLOBAgent.GetBlobEntity(Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.GetBlobEntity(Integer)
+  type: Method
+  summary: "\nGets an NSBlobEntity object.\n"
+  remarks: 
+  syntax: 
+    content: NSBlobEntity GetBlobEntity(Integer blobEntityId)
+    parameters:
+    - id: blobEntityId
+      type: CRMScript.Global.Integer
+      description: "The identifier of the BlobEntity object."
+    return:
+      type: CRMScript.NetServer.NSBlobEntity
+      description: "BlobEntity object."
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nNSBlobEntity thing = agent.GetBlobEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.GetBlobEntityOnContact(Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.GetBlobEntityOnContact(Integer)
+  id: 'GetBlobEntityOnContact(Integer)'
+  so.intellisense: NSBLOBAgent.GetBlobEntityOnContact
+  langs:
+  - crmscript
+  name: 'GetBlobEntityOnContact(Integer)'
+  nameWithType: NSBLOBAgent.GetBlobEntityOnContact(Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.GetBlobEntityOnContact(Integer)
+  type: Method
+  summary: "\nGets the blob entity that represents the contact image binary object.\n"
+  remarks: 
+  syntax: 
+    content: NSBlobEntity GetBlobEntityOnContact(Integer contactId)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: "The contact Id."
+    return:
+      type: CRMScript.NetServer.NSBlobEntity
+      description: "BlobEntity object."
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nInteger contactId;\nNSBlobEntity res = agent.GetBlobEntityOnContact(contactId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.GetBlobEntityOnCountry(Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.GetBlobEntityOnCountry(Integer)
+  id: 'GetBlobEntityOnCountry(Integer)'
+  so.intellisense: NSBLOBAgent.GetBlobEntityOnCountry
+  langs:
+  - crmscript
+  name: 'GetBlobEntityOnCountry(Integer)'
+  nameWithType: NSBLOBAgent.GetBlobEntityOnCountry(Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.GetBlobEntityOnCountry(Integer)
+  type: Method
+  summary: "\nGets the blob entity that represents the country flag binary object.\n"
+  remarks: 
+  syntax: 
+    content: NSBlobEntity GetBlobEntityOnCountry(Integer countryId)
+    parameters:
+    - id: countryId
+      type: CRMScript.Global.Integer
+      description: "The country Id."
+    return:
+      type: CRMScript.NetServer.NSBlobEntity
+      description: "BlobEntity object."
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nInteger countryId;\nNSBlobEntity res = agent.GetBlobEntityOnCountry(countryId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.GetBlobEntityOnPerson(Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.GetBlobEntityOnPerson(Integer)
+  id: 'GetBlobEntityOnPerson(Integer)'
+  so.intellisense: NSBLOBAgent.GetBlobEntityOnPerson
+  langs:
+  - crmscript
+  name: 'GetBlobEntityOnPerson(Integer)'
+  nameWithType: NSBLOBAgent.GetBlobEntityOnPerson(Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.GetBlobEntityOnPerson(Integer)
+  type: Method
+  summary: "\nGets the blob entity that represents the person image binary object.\n"
+  remarks: 
+  syntax: 
+    content: NSBlobEntity GetBlobEntityOnPerson(Integer personId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: "The person Id."
+    return:
+      type: CRMScript.NetServer.NSBlobEntity
+      description: "BlobEntity object."
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nInteger personId;\nNSBlobEntity res = agent.GetBlobEntityOnPerson(personId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.GetBlobEntityOnProduct(Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.GetBlobEntityOnProduct(Integer)
+  id: 'GetBlobEntityOnProduct(Integer)'
+  so.intellisense: NSBLOBAgent.GetBlobEntityOnProduct
+  langs:
+  - crmscript
+  name: 'GetBlobEntityOnProduct(Integer)'
+  nameWithType: NSBLOBAgent.GetBlobEntityOnProduct(Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.GetBlobEntityOnProduct(Integer)
+  type: Method
+  summary: "\nGets the blob entity that represents the product image binary object.\n"
+  remarks: 
+  syntax: 
+    content: NSBlobEntity GetBlobEntityOnProduct(Integer productId)
+    parameters:
+    - id: productId
+      type: CRMScript.Global.Integer
+      description: "The product Id."
+    return:
+      type: CRMScript.NetServer.NSBlobEntity
+      description: "BlobEntity object."
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nInteger productId;\nNSBlobEntity res = agent.GetBlobEntityOnProduct(productId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.GetBlobEntityOnProject(Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.GetBlobEntityOnProject(Integer)
+  id: 'GetBlobEntityOnProject(Integer)'
+  so.intellisense: NSBLOBAgent.GetBlobEntityOnProject
+  langs:
+  - crmscript
+  name: 'GetBlobEntityOnProject(Integer)'
+  nameWithType: NSBLOBAgent.GetBlobEntityOnProject(Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.GetBlobEntityOnProject(Integer)
+  type: Method
+  summary: "\nGets the blob entity that represents the project image binary object.\n"
+  remarks: 
+  syntax: 
+    content: NSBlobEntity GetBlobEntityOnProject(Integer projectId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: "The project Id."
+    return:
+      type: CRMScript.NetServer.NSBlobEntity
+      description: "BlobEntity object."
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nInteger projectId;\nNSBlobEntity res = agent.GetBlobEntityOnProject(projectId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.GetBlobStream(Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.GetBlobStream(Integer)
+  id: 'GetBlobStream(Integer)'
+  so.intellisense: NSBLOBAgent.GetBlobStream
+  langs:
+  - crmscript
+  name: 'GetBlobStream(Integer)'
+  nameWithType: NSBLOBAgent.GetBlobStream(Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.GetBlobStream(Integer)
+  type: Method
+  summary: "\nGets the binary object as a stream\n"
+  remarks: 
+  syntax: 
+    content: NSStream GetBlobStream(Integer blobEntityId)
+    parameters:
+    - id: blobEntityId
+      type: CRMScript.Global.Integer
+      description: "The ID of the BLOB entity object that refers to the binary data."
+    return:
+      type: CRMScript.NetServer.NSStream
+      description: "The binary object as a Stream."
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nInteger blobEntityId;\nNSStream res = agent.GetBlobStream(blobEntityId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.GetChatImageWithSize(Integer,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.GetChatImageWithSize(Integer,Integer,Integer)
+  id: 'GetChatImageWithSize(Integer,Integer,Integer)'
+  so.intellisense: NSBLOBAgent.GetChatImageWithSize
+  langs:
+  - crmscript
+  name: 'GetChatImageWithSize(Integer,Integer,Integer)'
+  nameWithType: NSBLOBAgent.GetChatImageWithSize(Integer,Integer,Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.GetChatImageWithSize(Integer,Integer,Integer)
+  type: Method
+  summary: "\nReturns the chat image that is displayed in chat with a specified maximum size.\n"
+  remarks: 
+  syntax: 
+    content: NSImage GetChatImageWithSize(Integer chatTopicId, Integer width, Integer height)
+    parameters:
+    - id: chatTopicId
+      type: CRMScript.Global.Integer
+      description: "The project ID of the project the image belongs to"
+    - id: width
+      type: CRMScript.Global.Integer
+      description: "The maximum with of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image"
+    - id: height
+      type: CRMScript.Global.Integer
+      description: "The maximum height of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image."
+    return:
+      type: CRMScript.NetServer.NSImage
+      description: "The image as a System.Drawing.Image. (If the the image is returned over web services, the stream is returned as a jpeg/base64 encoded string.)."
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nInteger chatTopicId;\nInteger width;\nInteger height;\nNSImage res = agent.GetChatImageWithSize(chatTopicId, width, height);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.GetContactImage(Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.GetContactImage(Integer)
+  id: 'GetContactImage(Integer)'
+  so.intellisense: NSBLOBAgent.GetContactImage
+  langs:
+  - crmscript
+  name: 'GetContactImage(Integer)'
+  nameWithType: NSBLOBAgent.GetContactImage(Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.GetContactImage(Integer)
+  type: Method
+  summary: "\nReturns the contact image that is displayed in the CRM application.\n"
+  remarks: 
+  syntax: 
+    content: NSImage GetContactImage(Integer contactId)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: "The contact ID of the person the image belongs to."
+    return:
+      type: CRMScript.NetServer.NSImage
+      description: "The image as a System.Drawing.Image. (If the the image is returned over web services, the stream is returned as a Base64 encoded string.)."
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nInteger contactId;\nNSImage res = agent.GetContactImage(contactId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.GetContactImageWithSize(Integer,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.GetContactImageWithSize(Integer,Integer,Integer)
+  id: 'GetContactImageWithSize(Integer,Integer,Integer)'
+  so.intellisense: NSBLOBAgent.GetContactImageWithSize
+  langs:
+  - crmscript
+  name: 'GetContactImageWithSize(Integer,Integer,Integer)'
+  nameWithType: NSBLOBAgent.GetContactImageWithSize(Integer,Integer,Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.GetContactImageWithSize(Integer,Integer,Integer)
+  type: Method
+  summary: "\nReturns the contact image that is displayed in the CRM application with a specified maximum size.\n"
+  remarks: 
+  syntax: 
+    content: NSImage GetContactImageWithSize(Integer contactId, Integer width, Integer height)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: "The contact of the person the image belongs to."
+    - id: width
+      type: CRMScript.Global.Integer
+      description: "The maximum with of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image."
+    - id: height
+      type: CRMScript.Global.Integer
+      description: "The maximum height of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image."
+    return:
+      type: CRMScript.NetServer.NSImage
+      description: "The image as a System.Drawing.Image. (If the the image is returned over web services, the stream is returned as a Base64 encoded string.)."
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nInteger contactId;\nInteger width;\nInteger height;\nNSImage res = agent.GetContactImageWithSize(contactId, width, height);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.GetOutputFromBatch(Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.GetOutputFromBatch(Integer)
+  id: 'GetOutputFromBatch(Integer)'
+  so.intellisense: NSBLOBAgent.GetOutputFromBatch
+  langs:
+  - crmscript
+  name: 'GetOutputFromBatch(Integer)'
+  nameWithType: NSBLOBAgent.GetOutputFromBatch(Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.GetOutputFromBatch(Integer)
+  type: Method
+  summary: "\nGets the output of a batchtask as a stream\n"
+  remarks: 
+  syntax: 
+    content: NSStream GetOutputFromBatch(Integer batchTaskId)
+    parameters:
+    - id: batchTaskId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSStream
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nInteger batchTaskId;\nNSStream res = agent.GetOutputFromBatch(batchTaskId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.GetPersonImage(Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.GetPersonImage(Integer)
+  id: 'GetPersonImage(Integer)'
+  so.intellisense: NSBLOBAgent.GetPersonImage
+  langs:
+  - crmscript
+  name: 'GetPersonImage(Integer)'
+  nameWithType: NSBLOBAgent.GetPersonImage(Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.GetPersonImage(Integer)
+  type: Method
+  summary: "\nReturns the person image that is displayed in the CRM application.\n"
+  remarks: 
+  syntax: 
+    content: NSImage GetPersonImage(Integer personId)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: "The person ID of the person the image belongs to."
+    return:
+      type: CRMScript.NetServer.NSImage
+      description: "The image as a System.Drawing.Image. (If the the image is returned over web services, the stream is returned as a Base64 encoded string.)."
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nInteger personId;\nNSImage res = agent.GetPersonImage(personId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.GetPersonImageWithSize(Integer,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.GetPersonImageWithSize(Integer,Integer,Integer)
+  id: 'GetPersonImageWithSize(Integer,Integer,Integer)'
+  so.intellisense: NSBLOBAgent.GetPersonImageWithSize
+  langs:
+  - crmscript
+  name: 'GetPersonImageWithSize(Integer,Integer,Integer)'
+  nameWithType: NSBLOBAgent.GetPersonImageWithSize(Integer,Integer,Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.GetPersonImageWithSize(Integer,Integer,Integer)
+  type: Method
+  summary: "\nReturns the person image that is displayed in the CRM application with a specified maximum size.\n"
+  remarks: 
+  syntax: 
+    content: NSImage GetPersonImageWithSize(Integer personId, Integer width, Integer height)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: "The person ID of the person the image belongs to."
+    - id: width
+      type: CRMScript.Global.Integer
+      description: "The maximum with of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image"
+    - id: height
+      type: CRMScript.Global.Integer
+      description: "The maximum height of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image"
+    return:
+      type: CRMScript.NetServer.NSImage
+      description: "The image as a System.Drawing.Image. (If the the image is returned over web services, the stream is returned as a Base64 encoded string.)."
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nInteger personId;\nInteger width;\nInteger height;\nNSImage res = agent.GetPersonImageWithSize(personId, width, height);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.GetProductImage(Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.GetProductImage(Integer)
+  id: 'GetProductImage(Integer)'
+  so.intellisense: NSBLOBAgent.GetProductImage
+  langs:
+  - crmscript
+  name: 'GetProductImage(Integer)'
+  nameWithType: NSBLOBAgent.GetProductImage(Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.GetProductImage(Integer)
+  type: Method
+  summary: "\nReturns the product image (rank=1) that is displayed in the CRM application.\n"
+  remarks: 
+  syntax: 
+    content: NSImage GetProductImage(Integer productId)
+    parameters:
+    - id: productId
+      type: CRMScript.Global.Integer
+      description: "The product ID of the product the image belongs to."
+    return:
+      type: CRMScript.NetServer.NSImage
+      description: "The image as a System.Drawing.Image. (If the the image is returned over web services, the stream is returned as a Base64 encoded string.)."
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nInteger productId;\nNSImage res = agent.GetProductImage(productId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.GetProductThumbnail(Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.GetProductThumbnail(Integer)
+  id: 'GetProductThumbnail(Integer)'
+  so.intellisense: NSBLOBAgent.GetProductThumbnail
+  langs:
+  - crmscript
+  name: 'GetProductThumbnail(Integer)'
+  nameWithType: NSBLOBAgent.GetProductThumbnail(Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.GetProductThumbnail(Integer)
+  type: Method
+  summary: "\nReturns the product thumbnail that is displayed in the CRM application.\n"
+  remarks: 
+  syntax: 
+    content: NSImage GetProductThumbnail(Integer productId)
+    parameters:
+    - id: productId
+      type: CRMScript.Global.Integer
+      description: "The product ID of the product the thumbnail belongs to."
+    return:
+      type: CRMScript.NetServer.NSImage
+      description: "The image as a System.Drawing.Image. (If the the image is returned over web services, the stream is returned as a Base64 encoded string.)."
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nInteger productId;\nNSImage res = agent.GetProductThumbnail(productId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.GetProjectImage(Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.GetProjectImage(Integer)
+  id: 'GetProjectImage(Integer)'
+  so.intellisense: NSBLOBAgent.GetProjectImage
+  langs:
+  - crmscript
+  name: 'GetProjectImage(Integer)'
+  nameWithType: NSBLOBAgent.GetProjectImage(Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.GetProjectImage(Integer)
+  type: Method
+  summary: "\nReturns the project image that is displayed in the CRM application.\n"
+  remarks: 
+  syntax: 
+    content: NSImage GetProjectImage(Integer projectId)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: "The project ID of the project the image belongs to."
+    return:
+      type: CRMScript.NetServer.NSImage
+      description: "The image as a System.Drawing.Image. (If the the image is returned over web services, the stream is returned as a Base64 encoded string.)."
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nInteger projectId;\nNSImage res = agent.GetProjectImage(projectId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.GetProjectImageWithSize(Integer,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.GetProjectImageWithSize(Integer,Integer,Integer)
+  id: 'GetProjectImageWithSize(Integer,Integer,Integer)'
+  so.intellisense: NSBLOBAgent.GetProjectImageWithSize
+  langs:
+  - crmscript
+  name: 'GetProjectImageWithSize(Integer,Integer,Integer)'
+  nameWithType: NSBLOBAgent.GetProjectImageWithSize(Integer,Integer,Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.GetProjectImageWithSize(Integer,Integer,Integer)
+  type: Method
+  summary: "\nReturns the project image that is displayed in the CRM application with a specified maximum size.\n"
+  remarks: 
+  syntax: 
+    content: NSImage GetProjectImageWithSize(Integer projectId, Integer width, Integer height)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: "The project ID of the project the image belongs to."
+    - id: width
+      type: CRMScript.Global.Integer
+      description: "The maximum with of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image"
+    - id: height
+      type: CRMScript.Global.Integer
+      description: "The maximum height of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image."
+    return:
+      type: CRMScript.NetServer.NSImage
+      description: "The image as a System.Drawing.Image. (If the the image is returned over web services, the stream is returned as a Base64 encoded string.)."
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nInteger projectId;\nInteger width;\nInteger height;\nNSImage res = agent.GetProjectImageWithSize(projectId, width, height);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.GetQuoteLineImage(Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.GetQuoteLineImage(Integer)
+  id: 'GetQuoteLineImage(Integer)'
+  so.intellisense: NSBLOBAgent.GetQuoteLineImage
+  langs:
+  - crmscript
+  name: 'GetQuoteLineImage(Integer)'
+  nameWithType: NSBLOBAgent.GetQuoteLineImage(Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.GetQuoteLineImage(Integer)
+  type: Method
+  summary: "\nReturns the quoteline image (rank=1) that is displayed in the CRM application.\n"
+  remarks: 
+  syntax: 
+    content: NSImage GetQuoteLineImage(Integer quoteLineId)
+    parameters:
+    - id: quoteLineId
+      type: CRMScript.Global.Integer
+      description: "The product ID of the quoteline the image belongs to."
+    return:
+      type: CRMScript.NetServer.NSImage
+      description: "The image as a System.Drawing.Image. (If the the image is returned over web services, the stream is returned as a Base64 encoded string.)."
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nInteger quoteLineId;\nNSImage res = agent.GetQuoteLineImage(quoteLineId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.SaveBlobEntity(NSBlobEntity)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.SaveBlobEntity(NSBlobEntity)
+  id: 'SaveBlobEntity(NSBlobEntity)'
+  so.intellisense: NSBLOBAgent.SaveBlobEntity
+  langs:
+  - crmscript
+  name: 'SaveBlobEntity(NSBlobEntity)'
+  nameWithType: NSBLOBAgent.SaveBlobEntity(NSBlobEntity)
+  fullName: CRMScript.NetServer.NSBLOBAgent.SaveBlobEntity(NSBlobEntity)
+  type: Method
+  summary: "\nUpdates the existing NSBlobEntity or creates a new NSBlobEntity if the ID parameter is 0.\n"
+  remarks: 
+  syntax: 
+    content: NSBlobEntity SaveBlobEntity(NSBlobEntity blobEntity)
+    parameters:
+    - id: blobEntity
+      type: CRMScript.NetServer.NSBlobEntity
+      description: "The entity to save."
+    return:
+      type: CRMScript.NetServer.NSBlobEntity
+      description: "New or updated BlobEntity."
+  example: 
+  - "\n<pre><code>NSBLOB agent;\nNSBlobEntity thing = agent.CreateDefaultBlobEntity();\nthing = agent.SaveBlobEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.SaveImageStream(Integer,NSImage,String)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.SaveImageStream(Integer,NSImage,String)
+  id: 'SaveImageStream(Integer,NSImage,String)'
+  so.intellisense: NSBLOBAgent.SaveImageStream
+  langs:
+  - crmscript
+  name: 'SaveImageStream(Integer,NSImage,String)'
+  nameWithType: NSBLOBAgent.SaveImageStream(Integer,NSImage,String)
+  fullName: CRMScript.NetServer.NSBLOBAgent.SaveImageStream(Integer,NSImage,String)
+  type: Method
+  summary: "\nStores an image in the database without linking it to a project or a person.\n"
+  remarks: "\nIt is possible to ChangePersonImage or ChangeProjectImage to attach image later.\n"
+  syntax: 
+    content: Integer SaveImageStream(Integer type, NSImage image, String description)
+    parameters:
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "The type of the image."
+    - id: image
+      type: CRMScript.NetServer.NSImage
+      description: "Image to store"
+    - id: description
+      type: CRMScript.Global.String
+      description: "Image description."
+    return:
+      type: CRMScript.Global.Integer
+      description: "The blob Id."
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nInteger type;\nNSImage image;\nString description;\nInteger res = agent.SaveImageStream(type, image, description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.SaveProjectImage(String,NSImage)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.SaveProjectImage(String,NSImage)
+  id: 'SaveProjectImage(String,NSImage)'
+  so.intellisense: NSBLOBAgent.SaveProjectImage
+  langs:
+  - crmscript
+  name: 'SaveProjectImage(String,NSImage)'
+  nameWithType: NSBLOBAgent.SaveProjectImage(String,NSImage)
+  fullName: CRMScript.NetServer.NSBLOBAgent.SaveProjectImage(String,NSImage)
+  type: Method
+  summary: "\nSaves a project image that is displayed in the CRM application's project image selection dialog to the database.\n"
+  remarks: 
+  syntax: 
+    content: Void SaveProjectImage(String description, NSImage image)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: 
+    - id: image
+      type: CRMScript.NetServer.NSImage
+      description: "The project image (System.Drawing.Image)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSBLOBAgent.SetAppData(String,String)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.SetAppData(String,String)
+  id: 'SetAppData(String,String)'
+  so.intellisense: NSBLOBAgent.SetAppData
+  langs:
+  - crmscript
+  name: 'SetAppData(String,String)'
+  nameWithType: NSBLOBAgent.SetAppData(String,String)
+  fullName: CRMScript.NetServer.NSBLOBAgent.SetAppData(String,String)
+  type: Method
+  summary: "\nSets a CLOB (limited to a reasonable size by the mechanics of Web Services) according to a string key; ALSO limits to the current ApplicationToken if any.\n"
+  remarks: "\nExisting data, if any, will be overwritten. Overwrite with a blank value to delete.\n"
+  syntax: 
+    content: Void SetAppData(String key, String data)
+    parameters:
+    - id: key
+      type: CRMScript.Global.String
+      description: "The key string, less than 200 characters. Must be unique within each application."
+    - id: data
+      type: CRMScript.Global.String
+      description: "The applications value, suggested to be a JSON, XML or other readable structure."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSBLOBAgent agent;\nString key;\nString data;\nagent.SetAppData(key, data);</code></pre>\n"
+- uid: CRMScript.NetServer.NSBLOBAgent.SetBlobStream(Integer,NSStream)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.SetBlobStream(Integer,NSStream)
+  id: 'SetBlobStream(Integer,NSStream)'
+  so.intellisense: NSBLOBAgent.SetBlobStream
+  langs:
+  - crmscript
+  name: 'SetBlobStream(Integer,NSStream)'
+  nameWithType: NSBLOBAgent.SetBlobStream(Integer,NSStream)
+  fullName: CRMScript.NetServer.NSBLOBAgent.SetBlobStream(Integer,NSStream)
+  type: Method
+  summary: "\nStores a binary object from its stream\n"
+  remarks: 
+  syntax: 
+    content: Void SetBlobStream(Integer blobEntityId, NSStream stream)
+    parameters:
+    - id: blobEntityId
+      type: CRMScript.Global.Integer
+      description: "ID of the BLOB entity object that the binary data should be stored to."
+    - id: stream
+      type: CRMScript.NetServer.NSStream
+      description: "The binary object as a Stream."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSBLOBAgent.SetContactImage(Integer,NSImage)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.SetContactImage(Integer,NSImage)
+  id: 'SetContactImage(Integer,NSImage)'
+  so.intellisense: NSBLOBAgent.SetContactImage
+  langs:
+  - crmscript
+  name: 'SetContactImage(Integer,NSImage)'
+  nameWithType: NSBLOBAgent.SetContactImage(Integer,NSImage)
+  fullName: CRMScript.NetServer.NSBLOBAgent.SetContactImage(Integer,NSImage)
+  type: Method
+  summary: "\nStores the contact image that is displayed in the CRM application.\n"
+  remarks: 
+  syntax: 
+    content: Void SetContactImage(Integer contactId, NSImage image)
+    parameters:
+    - id: contactId
+      type: CRMScript.Global.Integer
+      description: "The ID of the contact the image belongs to."
+    - id: image
+      type: CRMScript.NetServer.NSImage
+      description: "The project image (System.Drawing.Image)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSBLOBAgent.SetPersonImage(Integer,NSImage)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.SetPersonImage(Integer,NSImage)
+  id: 'SetPersonImage(Integer,NSImage)'
+  so.intellisense: NSBLOBAgent.SetPersonImage
+  langs:
+  - crmscript
+  name: 'SetPersonImage(Integer,NSImage)'
+  nameWithType: NSBLOBAgent.SetPersonImage(Integer,NSImage)
+  fullName: CRMScript.NetServer.NSBLOBAgent.SetPersonImage(Integer,NSImage)
+  type: Method
+  summary: "\nStores the person image that is displayed in the CRM application.\n"
+  remarks: 
+  syntax: 
+    content: Void SetPersonImage(Integer personId, NSImage image)
+    parameters:
+    - id: personId
+      type: CRMScript.Global.Integer
+      description: "The person ID of the person the image belongs to."
+    - id: image
+      type: CRMScript.NetServer.NSImage
+      description: "The project image (System.Drawing.Image)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSBLOBAgent.SetProductImage(Integer,NSImage)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.SetProductImage(Integer,NSImage)
+  id: 'SetProductImage(Integer,NSImage)'
+  so.intellisense: NSBLOBAgent.SetProductImage
+  langs:
+  - crmscript
+  name: 'SetProductImage(Integer,NSImage)'
+  nameWithType: NSBLOBAgent.SetProductImage(Integer,NSImage)
+  fullName: CRMScript.NetServer.NSBLOBAgent.SetProductImage(Integer,NSImage)
+  type: Method
+  summary: "\nStores the product image that is displayed in the CRM application. The image is scaled down to max 1000x1000. This method operates only the main (rank=1) image; future extensions may support multiple images. A thumbnail of size 75x75 is also automatically set.\n"
+  remarks: 
+  syntax: 
+    content: Void SetProductImage(Integer productId, NSImage image)
+    parameters:
+    - id: productId
+      type: CRMScript.Global.Integer
+      description: "The project ID of the product the image belongs to. "
+    - id: image
+      type: CRMScript.NetServer.NSImage
+      description: "The project image (System.Drawing.Image), scaled down to no more than 1000x1000."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSBLOBAgent.SetProductThumbnail(Integer,NSImage)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.SetProductThumbnail(Integer,NSImage)
+  id: 'SetProductThumbnail(Integer,NSImage)'
+  so.intellisense: NSBLOBAgent.SetProductThumbnail
+  langs:
+  - crmscript
+  name: 'SetProductThumbnail(Integer,NSImage)'
+  nameWithType: NSBLOBAgent.SetProductThumbnail(Integer,NSImage)
+  fullName: CRMScript.NetServer.NSBLOBAgent.SetProductThumbnail(Integer,NSImage)
+  type: Method
+  summary: "\nStores the product thumbnail that is displayed in the CRM application. The image is scaled down to max 200x200 pixels.\n"
+  remarks: 
+  syntax: 
+    content: Void SetProductThumbnail(Integer productId, NSImage image)
+    parameters:
+    - id: productId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: image
+      type: CRMScript.NetServer.NSImage
+      description: "The project image (System.Drawing.Image)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSBLOBAgent.SetProjectImage(Integer)
+  commentId: M:CRMScript.NetServer.NSBLOBAgent.SetProjectImage(Integer)
+  id: 'SetProjectImage(Integer)'
+  so.intellisense: NSBLOBAgent.SetProjectImage
+  langs:
+  - crmscript
+  name: 'SetProjectImage(Integer)'
+  nameWithType: NSBLOBAgent.SetProjectImage(Integer)
+  fullName: CRMScript.NetServer.NSBLOBAgent.SetProjectImage(Integer)
+  type: Method
+  summary: "\nStores the project image that is displayed in the CRM application.\n"
+  remarks: 
+  syntax: 
+    content: Void SetProjectImage(Integer projectId, NSImage image)
+    parameters:
+    - id: projectId
+      type: CRMScript.Global.Integer
+      description: "The project ID of the project the image belongs to."
+    - id: image
+      type: CRMScript.NetServer.NSImage
+      description: "The project image (System.Drawing.Image)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSBLOBAgent
+  commentId: T:CRMScript.NetServer.NSBLOBAgent
+  isExternal: true
+  name: NSBLOBAgent
+  nameWithType: NSBLOBAgent
+  fullName: CRMScript.NetServer.NSBLOBAgent
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSBlobEntity
+  commentId: T:CRMScript.NetServer.NSBlobEntity
+  isExternal: true
+  name: NSBlobEntity
+  nameWithType: NSBlobEntity
+  fullName: CRMScript.NetServer.NSBlobEntity
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSStream
+  commentId: T:CRMScript.NetServer.NSStream
+  isExternal: true
+  name: NSStream
+  nameWithType: NSStream
+  fullName: CRMScript.NetServer.NSStream
+- uid: CRMScript.NetServer.NSImage
+  commentId: T:CRMScript.NetServer.NSImage
+  isExternal: true
+  name: NSImage
+  nameWithType: NSImage
+  fullName: CRMScript.NetServer.NSImage
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

@@ -1,0 +1,43 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSPreviews
+  commentId: T:CRMScript.NetServer.NSPreviews
+  id: NSPreviews
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSPreviews.#ctor
+  name: NSPreviews
+  nameWithType: NSPreviews
+  fullName: CRMScript.NetServer.NSPreviews
+  type: Class
+  summary: "\nThis service provides Previews. It is based on 'Preview hints', strings that may either be a Preview text (if provided by someone else), or a set of key/value pairs or other specifications.\n"
+  example: 
+- uid: CRMScript.NetServer.NSPreviews.#ctor
+  commentId: M:CRMScript.NetServer.NSPreviews.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSPreviews
+  langs:
+  - crmscript
+  name: NSPreviews()
+  nameWithType: NSPreviews.#ctor
+  fullName: CRMScript.NetServer.NSPreviews.#ctor
+  type: Constructor
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSPreviews
+  example: 
+references:
+- uid: CRMScript.NetServer.NSPreviews
+  commentId: T:CRMScript.NetServer.NSPreviews
+  isExternal: true
+  name: NSPreviews
+  nameWithType: NSPreviews
+  fullName: CRMScript.NetServer.NSPreviews
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

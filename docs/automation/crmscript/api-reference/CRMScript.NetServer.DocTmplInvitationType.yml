@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.DocTmplInvitationType
+  # Same as SuperOffice.Data.DocTmplInvitationType
+  commentId: T:CRMScript.NetServer.DocTmplInvitationType
+  id: DocTmplInvitationType
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.DocTmplInvitationType.None
+  - CRMScript.NetServer.DocTmplInvitationType.New
+  - CRMScript.NetServer.DocTmplInvitationType.Changed
+  - CRMScript.NetServer.DocTmplInvitationType.Cancelled
+  name: DocTmplInvitationType
+  nameWithType: DocTmplInvitationType
+  fullName: CRMScript.NetServer.DocTmplInvitationType
+  type: Enum
+  summary: "\nIs this document template some kind of appointment document, and if so what.\n"
+- uid: CRMScript.NetServer.DocTmplInvitationType.None
+  commentId: F:CRMScript.NetServer.DocTmplInvitationType.None
+  id: DocTmplInvitationType.None
+  langs:
+  - crmscript
+  name: DocTmplInvitationType.None
+  nameWithType: DocTmplInvitationType.None
+  fullName: CRMScript.NetServer.DocTmplInvitationType.None
+  type: Field
+  summary: "\n0: Not an appointment type\n"
+  syntax: 
+    content: None = 0
+    type: CRMScript.NetServer.DocTmplInvitationType
+- uid: CRMScript.NetServer.DocTmplInvitationType.New
+  commentId: F:CRMScript.NetServer.DocTmplInvitationType.New
+  id: DocTmplInvitationType.New
+  langs:
+  - crmscript
+  name: DocTmplInvitationType.New
+  nameWithType: DocTmplInvitationType.New
+  fullName: CRMScript.NetServer.DocTmplInvitationType.New
+  type: Field
+  summary: "\n1: New appointment\n"
+  syntax: 
+    content: New = 1
+    type: CRMScript.NetServer.DocTmplInvitationType
+- uid: CRMScript.NetServer.DocTmplInvitationType.Changed
+  commentId: F:CRMScript.NetServer.DocTmplInvitationType.Changed
+  id: DocTmplInvitationType.Changed
+  langs:
+  - crmscript
+  name: DocTmplInvitationType.Changed
+  nameWithType: DocTmplInvitationType.Changed
+  fullName: CRMScript.NetServer.DocTmplInvitationType.Changed
+  type: Field
+  summary: "\n2: Changed appointment\n"
+  syntax: 
+    content: Changed = 2
+    type: CRMScript.NetServer.DocTmplInvitationType
+- uid: CRMScript.NetServer.DocTmplInvitationType.Cancelled
+  commentId: F:CRMScript.NetServer.DocTmplInvitationType.Cancelled
+  id: DocTmplInvitationType.Cancelled
+  langs:
+  - crmscript
+  name: DocTmplInvitationType.Cancelled
+  nameWithType: DocTmplInvitationType.Cancelled
+  fullName: CRMScript.NetServer.DocTmplInvitationType.Cancelled
+  type: Field
+  summary: "\n3: Cancelled appointment\n"
+  syntax: 
+    content: Cancelled = 3
+    type: CRMScript.NetServer.DocTmplInvitationType
+references:
+- uid: CRMScript.NetServer.DocTmplInvitationType
+  commentId: T:CRMScript.NetServer.DocTmplInvitationType
+  isExternal: true
+  name: DocTmplInvitationType
+  nameWithType: DocTmplInvitationType
+  fullName: CRMScript.NetServer.DocTmplInvitationType

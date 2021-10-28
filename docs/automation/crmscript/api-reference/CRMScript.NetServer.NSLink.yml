@@ -1,0 +1,275 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSLink
+  commentId: T:CRMScript.NetServer.NSLink
+  id: NSLink
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSLink.#ctor
+  - CRMScript.NetServer.NSLink.GetDescription()
+  - CRMScript.NetServer.NSLink.GetEntityName()
+  - CRMScript.NetServer.NSLink.GetExtraInfo()
+  - CRMScript.NetServer.NSLink.GetId()
+  - CRMScript.NetServer.NSLink.GetLinkId()
+  - CRMScript.NetServer.NSLink.SetDescription(String)
+  - CRMScript.NetServer.NSLink.SetEntityName(String)
+  - CRMScript.NetServer.NSLink.SetExtraInfo(String)
+  - CRMScript.NetServer.NSLink.SetId(Integer)
+  - CRMScript.NetServer.NSLink.SetLinkId(Integer)
+  name: NSLink
+  nameWithType: NSLink
+  fullName: CRMScript.NetServer.NSLink
+  type: Class
+  summary: "\nLinks two entities (contacts/projects/sales/URLs) together.\n"
+  example: 
+- uid: CRMScript.NetServer.NSLink.#ctor
+  commentId: M:CRMScript.NetServer.NSLink.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSLink
+  langs:
+  - crmscript
+  name: NSLink()
+  nameWithType: NSLink.#ctor
+  fullName: CRMScript.NetServer.NSLink.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSLink class.\n"
+  remarks: 
+  syntax: 
+    content: NSLink
+  example: 
+- uid: CRMScript.NetServer.NSLink.GetDescription()
+  commentId: M:CRMScript.NetServer.NSLink.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSLink.GetDescription
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSLink.GetDescription()
+  fullName: CRMScript.NetServer.NSLink.GetDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Link description."
+  example: 
+  - "\n<pre><code>NSLink thing;\nString description = thing.GetDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLink.GetEntityName()
+  commentId: M:CRMScript.NetServer.NSLink.GetEntityName()
+  id: 'GetEntityName()'
+  so.intellisense: NSLink.GetEntityName
+  langs:
+  - crmscript
+  name: 'GetEntityName()'
+  nameWithType: NSLink.GetEntityName()
+  fullName: CRMScript.NetServer.NSLink.GetEntityName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetEntityName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of the entity the link points to (The destination/target entity)."
+  example: 
+  - "\n<pre><code>NSLink thing;\nString entityName = thing.GetEntityName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLink.GetExtraInfo()
+  commentId: M:CRMScript.NetServer.NSLink.GetExtraInfo()
+  id: 'GetExtraInfo()'
+  so.intellisense: NSLink.GetExtraInfo
+  langs:
+  - crmscript
+  name: 'GetExtraInfo()'
+  nameWithType: NSLink.GetExtraInfo()
+  fullName: CRMScript.NetServer.NSLink.GetExtraInfo()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExtraInfo()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Extrainfo for link. Use for information that does not have a primary key."
+  example: 
+  - "\n<pre><code>NSLink thing;\nString extraInfo = thing.GetExtraInfo();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLink.GetId()
+  commentId: M:CRMScript.NetServer.NSLink.GetId()
+  id: 'GetId()'
+  so.intellisense: NSLink.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSLink.GetId()
+  fullName: CRMScript.NetServer.NSLink.GetId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "ID of the entity the link points to (The destination/target entity primary key)."
+  example: 
+  - "\n<pre><code>NSLink thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLink.GetLinkId()
+  commentId: M:CRMScript.NetServer.NSLink.GetLinkId()
+  id: 'GetLinkId()'
+  so.intellisense: NSLink.GetLinkId
+  langs:
+  - crmscript
+  name: 'GetLinkId()'
+  nameWithType: NSLink.GetLinkId()
+  fullName: CRMScript.NetServer.NSLink.GetLinkId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetLinkId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSLink thing;\nInteger linkId = thing.GetLinkId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSLink.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSLink.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSLink.SetDescription
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSLink.SetDescription(String)
+  fullName: CRMScript.NetServer.NSLink.SetDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "Link description."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLink thing;\nString description;\nthing.SetDescription(description);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLink.SetEntityName(String)
+  commentId: M:CRMScript.NetServer.NSLink.SetEntityName(String)
+  id: 'SetEntityName(String)'
+  so.intellisense: NSLink.SetEntityName
+  langs:
+  - crmscript
+  name: 'SetEntityName(String)'
+  nameWithType: NSLink.SetEntityName(String)
+  fullName: CRMScript.NetServer.NSLink.SetEntityName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetEntityName(String entityName)
+    parameters:
+    - id: entityName
+      type: CRMScript.Global.String
+      description: "Name of the entity the link points to (The destination/target entity)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLink thing;\nString entityName;\nthing.SetEntityName(entityName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLink.SetExtraInfo(String)
+  commentId: M:CRMScript.NetServer.NSLink.SetExtraInfo(String)
+  id: 'SetExtraInfo(String)'
+  so.intellisense: NSLink.SetExtraInfo
+  langs:
+  - crmscript
+  name: 'SetExtraInfo(String)'
+  nameWithType: NSLink.SetExtraInfo(String)
+  fullName: CRMScript.NetServer.NSLink.SetExtraInfo(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExtraInfo(String extraInfo)
+    parameters:
+    - id: extraInfo
+      type: CRMScript.Global.String
+      description: "Extrainfo for link. Use for information that does not have a primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLink thing;\nString extraInfo;\nthing.SetExtraInfo(extraInfo);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLink.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSLink.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSLink.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSLink.SetId(Integer)
+  fullName: CRMScript.NetServer.NSLink.SetId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "ID of the entity the link points to (The destination/target entity primary key)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLink thing;\nInteger id;\nthing.SetId(id);</code></pre>\n"
+- uid: CRMScript.NetServer.NSLink.SetLinkId(Integer)
+  commentId: M:CRMScript.NetServer.NSLink.SetLinkId(Integer)
+  id: 'SetLinkId(Integer)'
+  so.intellisense: NSLink.SetLinkId
+  langs:
+  - crmscript
+  name: 'SetLinkId(Integer)'
+  nameWithType: NSLink.SetLinkId(Integer)
+  fullName: CRMScript.NetServer.NSLink.SetLinkId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLinkId(Integer linkId)
+    parameters:
+    - id: linkId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSLink thing;\nInteger linkId;\nthing.SetLinkId(linkId);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSLink
+  commentId: T:CRMScript.NetServer.NSLink
+  isExternal: true
+  name: NSLink
+  nameWithType: NSLink
+  fullName: CRMScript.NetServer.NSLink
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

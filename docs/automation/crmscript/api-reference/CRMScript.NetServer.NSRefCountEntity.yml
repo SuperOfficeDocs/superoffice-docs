@@ -1,0 +1,565 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSRefCountEntity
+  commentId: T:CRMScript.NetServer.NSRefCountEntity
+  id: NSRefCountEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSRefCountEntity.#ctor
+  - CRMScript.NetServer.NSRefCountEntity.GetAllocate()
+  - CRMScript.NetServer.NSRefCountEntity.GetAllowBlank()
+  - CRMScript.NetServer.NSRefCountEntity.GetCurrentValue()
+  - CRMScript.NetServer.NSRefCountEntity.GetField()
+  - CRMScript.NetServer.NSRefCountEntity.GetReadOnly()
+  - CRMScript.NetServer.NSRefCountEntity.GetRecordId()
+  - CRMScript.NetServer.NSRefCountEntity.GetRefCountsId()
+  - CRMScript.NetServer.NSRefCountEntity.GetSatPrefix()
+  - CRMScript.NetServer.NSRefCountEntity.GetSuggestedRecords()
+  - CRMScript.NetServer.NSRefCountEntity.GetTravelPrefix()
+  - CRMScript.NetServer.NSRefCountEntity.GetUnique()
+  - CRMScript.NetServer.NSRefCountEntity.SetAllocate(Bool)
+  - CRMScript.NetServer.NSRefCountEntity.SetAllowBlank(Bool)
+  - CRMScript.NetServer.NSRefCountEntity.SetCurrentValue(Integer)
+  - CRMScript.NetServer.NSRefCountEntity.SetField(String)
+  - CRMScript.NetServer.NSRefCountEntity.SetReadOnly(Bool)
+  - CRMScript.NetServer.NSRefCountEntity.SetRecordId(Integer)
+  - CRMScript.NetServer.NSRefCountEntity.SetRefCountsId(Integer)
+  - CRMScript.NetServer.NSRefCountEntity.SetSatPrefix(Integer)
+  - CRMScript.NetServer.NSRefCountEntity.SetSuggestedRecords(NSMDOListItem[])
+  - CRMScript.NetServer.NSRefCountEntity.SetTravelPrefix(Integer)
+  - CRMScript.NetServer.NSRefCountEntity.SetUnique(Bool)
+  name: NSRefCountEntity
+  nameWithType: NSRefCountEntity
+  fullName: CRMScript.NetServer.NSRefCountEntity
+  type: Class
+  summary: "\nA refcount entity for a number allocation.\n"
+  example: 
+- uid: CRMScript.NetServer.NSRefCountEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSRefCountEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSRefCountEntity
+  langs:
+  - crmscript
+  name: NSRefCountEntity()
+  nameWithType: NSRefCountEntity.#ctor
+  fullName: CRMScript.NetServer.NSRefCountEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSRefCountEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSRefCountEntity
+  example: 
+- uid: CRMScript.NetServer.NSRefCountEntity.GetAllocate()
+  commentId: M:CRMScript.NetServer.NSRefCountEntity.GetAllocate()
+  id: 'GetAllocate()'
+  so.intellisense: NSRefCountEntity.GetAllocate
+  langs:
+  - crmscript
+  name: 'GetAllocate()'
+  nameWithType: NSRefCountEntity.GetAllocate()
+  fullName: CRMScript.NetServer.NSRefCountEntity.GetAllocate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetAllocate()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Allocate numbers automatically."
+  example: 
+  - "\n<pre><code>NSRefCountEntity thing;\nBool allocate = thing.GetAllocate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRefCountEntity.GetAllowBlank()
+  commentId: M:CRMScript.NetServer.NSRefCountEntity.GetAllowBlank()
+  id: 'GetAllowBlank()'
+  so.intellisense: NSRefCountEntity.GetAllowBlank
+  langs:
+  - crmscript
+  name: 'GetAllowBlank()'
+  nameWithType: NSRefCountEntity.GetAllowBlank()
+  fullName: CRMScript.NetServer.NSRefCountEntity.GetAllowBlank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetAllowBlank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Allow blank  as a valid value."
+  example: 
+  - "\n<pre><code>NSRefCountEntity thing;\nBool allowBlank = thing.GetAllowBlank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRefCountEntity.GetCurrentValue()
+  commentId: M:CRMScript.NetServer.NSRefCountEntity.GetCurrentValue()
+  id: 'GetCurrentValue()'
+  so.intellisense: NSRefCountEntity.GetCurrentValue
+  langs:
+  - crmscript
+  name: 'GetCurrentValue()'
+  nameWithType: NSRefCountEntity.GetCurrentValue()
+  fullName: CRMScript.NetServer.NSRefCountEntity.GetCurrentValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCurrentValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Current value of counter."
+  example: 
+  - "\n<pre><code>NSRefCountEntity thing;\nInteger currentValue = thing.GetCurrentValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRefCountEntity.GetField()
+  commentId: M:CRMScript.NetServer.NSRefCountEntity.GetField()
+  id: 'GetField()'
+  so.intellisense: NSRefCountEntity.GetField
+  langs:
+  - crmscript
+  name: 'GetField()'
+  nameWithType: NSRefCountEntity.GetField()
+  fullName: CRMScript.NetServer.NSRefCountEntity.GetField()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetField()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Field identifier in string format table.field."
+  example: 
+  - "\n<pre><code>NSRefCountEntity thing;\nString field = thing.GetField();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRefCountEntity.GetReadOnly()
+  commentId: M:CRMScript.NetServer.NSRefCountEntity.GetReadOnly()
+  id: 'GetReadOnly()'
+  so.intellisense: NSRefCountEntity.GetReadOnly
+  langs:
+  - crmscript
+  name: 'GetReadOnly()'
+  nameWithType: NSRefCountEntity.GetReadOnly()
+  fullName: CRMScript.NetServer.NSRefCountEntity.GetReadOnly()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetReadOnly()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Target field is read only in GUi."
+  example: 
+  - "\n<pre><code>NSRefCountEntity thing;\nBool readOnly = thing.GetReadOnly();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRefCountEntity.GetRecordId()
+  commentId: M:CRMScript.NetServer.NSRefCountEntity.GetRecordId()
+  id: 'GetRecordId()'
+  so.intellisense: NSRefCountEntity.GetRecordId
+  langs:
+  - crmscript
+  name: 'GetRecordId()'
+  nameWithType: NSRefCountEntity.GetRecordId()
+  fullName: CRMScript.NetServer.NSRefCountEntity.GetRecordId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRecordId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Record ID in target table, used when there are separate counters for each target record."
+  example: 
+  - "\n<pre><code>NSRefCountEntity thing;\nInteger recordId = thing.GetRecordId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRefCountEntity.GetRefCountsId()
+  commentId: M:CRMScript.NetServer.NSRefCountEntity.GetRefCountsId()
+  id: 'GetRefCountsId()'
+  so.intellisense: NSRefCountEntity.GetRefCountsId
+  langs:
+  - crmscript
+  name: 'GetRefCountsId()'
+  nameWithType: NSRefCountEntity.GetRefCountsId()
+  fullName: CRMScript.NetServer.NSRefCountEntity.GetRefCountsId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRefCountsId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSRefCountEntity thing;\nInteger refCountsId = thing.GetRefCountsId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRefCountEntity.GetSatPrefix()
+  commentId: M:CRMScript.NetServer.NSRefCountEntity.GetSatPrefix()
+  id: 'GetSatPrefix()'
+  so.intellisense: NSRefCountEntity.GetSatPrefix
+  langs:
+  - crmscript
+  name: 'GetSatPrefix()'
+  nameWithType: NSRefCountEntity.GetSatPrefix()
+  fullName: CRMScript.NetServer.NSRefCountEntity.GetSatPrefix()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetSatPrefix()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "size of prefix for Satellite use of this counter."
+  example: 
+  - "\n<pre><code>NSRefCountEntity thing;\nInteger satPrefix = thing.GetSatPrefix();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRefCountEntity.GetSuggestedRecords()
+  commentId: M:CRMScript.NetServer.NSRefCountEntity.GetSuggestedRecords()
+  id: 'GetSuggestedRecords()'
+  so.intellisense: NSRefCountEntity.GetSuggestedRecords
+  langs:
+  - crmscript
+  name: 'GetSuggestedRecords()'
+  nameWithType: NSRefCountEntity.GetSuggestedRecords()
+  fullName: CRMScript.NetServer.NSRefCountEntity.GetSuggestedRecords()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSMDOListItem[] GetSuggestedRecords()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSMDOListItem[]
+      description: "List of valid entities, the associated record is selected in the list, used records are filtered out."
+  example: 
+  - "\n<pre><code>NSRefCountEntity thing;\nNSMDOListItem[] suggestedRecords = thing.GetSuggestedRecords();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRefCountEntity.GetTravelPrefix()
+  commentId: M:CRMScript.NetServer.NSRefCountEntity.GetTravelPrefix()
+  id: 'GetTravelPrefix()'
+  so.intellisense: NSRefCountEntity.GetTravelPrefix
+  langs:
+  - crmscript
+  name: 'GetTravelPrefix()'
+  nameWithType: NSRefCountEntity.GetTravelPrefix()
+  fullName: CRMScript.NetServer.NSRefCountEntity.GetTravelPrefix()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTravelPrefix()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "size of prefix for Travel use of ths counter."
+  example: 
+  - "\n<pre><code>NSRefCountEntity thing;\nInteger travelPrefix = thing.GetTravelPrefix();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRefCountEntity.GetUnique()
+  commentId: M:CRMScript.NetServer.NSRefCountEntity.GetUnique()
+  id: 'GetUnique()'
+  so.intellisense: NSRefCountEntity.GetUnique
+  langs:
+  - crmscript
+  name: 'GetUnique()'
+  nameWithType: NSRefCountEntity.GetUnique()
+  fullName: CRMScript.NetServer.NSRefCountEntity.GetUnique()
+  type: Method
+  summary: "\nChecks that entered value is unique\n"
+  remarks: 
+  syntax: 
+    content: Bool GetUnique()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSRefCountEntity thing;\nBool unique = thing.GetUnique();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRefCountEntity.SetAllocate(Bool)
+  commentId: M:CRMScript.NetServer.NSRefCountEntity.SetAllocate(Bool)
+  id: 'SetAllocate(Bool)'
+  so.intellisense: NSRefCountEntity.SetAllocate
+  langs:
+  - crmscript
+  name: 'SetAllocate(Bool)'
+  nameWithType: NSRefCountEntity.SetAllocate(Bool)
+  fullName: CRMScript.NetServer.NSRefCountEntity.SetAllocate(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAllocate(Bool allocate)
+    parameters:
+    - id: allocate
+      type: CRMScript.Global.Bool
+      description: "Allocate numbers automatically."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRefCountEntity thing;\nBool allocate;\nthing.SetAllocate(allocate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRefCountEntity.SetAllowBlank(Bool)
+  commentId: M:CRMScript.NetServer.NSRefCountEntity.SetAllowBlank(Bool)
+  id: 'SetAllowBlank(Bool)'
+  so.intellisense: NSRefCountEntity.SetAllowBlank
+  langs:
+  - crmscript
+  name: 'SetAllowBlank(Bool)'
+  nameWithType: NSRefCountEntity.SetAllowBlank(Bool)
+  fullName: CRMScript.NetServer.NSRefCountEntity.SetAllowBlank(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAllowBlank(Bool allowBlank)
+    parameters:
+    - id: allowBlank
+      type: CRMScript.Global.Bool
+      description: "Allow blank  as a valid value."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRefCountEntity thing;\nBool allowBlank;\nthing.SetAllowBlank(allowBlank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRefCountEntity.SetCurrentValue(Integer)
+  commentId: M:CRMScript.NetServer.NSRefCountEntity.SetCurrentValue(Integer)
+  id: 'SetCurrentValue(Integer)'
+  so.intellisense: NSRefCountEntity.SetCurrentValue
+  langs:
+  - crmscript
+  name: 'SetCurrentValue(Integer)'
+  nameWithType: NSRefCountEntity.SetCurrentValue(Integer)
+  fullName: CRMScript.NetServer.NSRefCountEntity.SetCurrentValue(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCurrentValue(Integer currentValue)
+    parameters:
+    - id: currentValue
+      type: CRMScript.Global.Integer
+      description: "Current value of counter."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRefCountEntity thing;\nInteger currentValue;\nthing.SetCurrentValue(currentValue);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRefCountEntity.SetField(String)
+  commentId: M:CRMScript.NetServer.NSRefCountEntity.SetField(String)
+  id: 'SetField(String)'
+  so.intellisense: NSRefCountEntity.SetField
+  langs:
+  - crmscript
+  name: 'SetField(String)'
+  nameWithType: NSRefCountEntity.SetField(String)
+  fullName: CRMScript.NetServer.NSRefCountEntity.SetField(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetField(String field)
+    parameters:
+    - id: field
+      type: CRMScript.Global.String
+      description: "Field identifier in string format table.field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRefCountEntity thing;\nString field;\nthing.SetField(field);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRefCountEntity.SetReadOnly(Bool)
+  commentId: M:CRMScript.NetServer.NSRefCountEntity.SetReadOnly(Bool)
+  id: 'SetReadOnly(Bool)'
+  so.intellisense: NSRefCountEntity.SetReadOnly
+  langs:
+  - crmscript
+  name: 'SetReadOnly(Bool)'
+  nameWithType: NSRefCountEntity.SetReadOnly(Bool)
+  fullName: CRMScript.NetServer.NSRefCountEntity.SetReadOnly(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetReadOnly(Bool readOnly)
+    parameters:
+    - id: readOnly
+      type: CRMScript.Global.Bool
+      description: "Target field is read only in GUi."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRefCountEntity thing;\nBool readOnly;\nthing.SetReadOnly(readOnly);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRefCountEntity.SetRecordId(Integer)
+  commentId: M:CRMScript.NetServer.NSRefCountEntity.SetRecordId(Integer)
+  id: 'SetRecordId(Integer)'
+  so.intellisense: NSRefCountEntity.SetRecordId
+  langs:
+  - crmscript
+  name: 'SetRecordId(Integer)'
+  nameWithType: NSRefCountEntity.SetRecordId(Integer)
+  fullName: CRMScript.NetServer.NSRefCountEntity.SetRecordId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRecordId(Integer recordId)
+    parameters:
+    - id: recordId
+      type: CRMScript.Global.Integer
+      description: "Record ID in target table, used when there are separate counters for each target record."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRefCountEntity thing;\nInteger recordId;\nthing.SetRecordId(recordId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRefCountEntity.SetRefCountsId(Integer)
+  commentId: M:CRMScript.NetServer.NSRefCountEntity.SetRefCountsId(Integer)
+  id: 'SetRefCountsId(Integer)'
+  so.intellisense: NSRefCountEntity.SetRefCountsId
+  langs:
+  - crmscript
+  name: 'SetRefCountsId(Integer)'
+  nameWithType: NSRefCountEntity.SetRefCountsId(Integer)
+  fullName: CRMScript.NetServer.NSRefCountEntity.SetRefCountsId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRefCountsId(Integer refCountsId)
+    parameters:
+    - id: refCountsId
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRefCountEntity thing;\nInteger refCountsId;\nthing.SetRefCountsId(refCountsId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRefCountEntity.SetSatPrefix(Integer)
+  commentId: M:CRMScript.NetServer.NSRefCountEntity.SetSatPrefix(Integer)
+  id: 'SetSatPrefix(Integer)'
+  so.intellisense: NSRefCountEntity.SetSatPrefix
+  langs:
+  - crmscript
+  name: 'SetSatPrefix(Integer)'
+  nameWithType: NSRefCountEntity.SetSatPrefix(Integer)
+  fullName: CRMScript.NetServer.NSRefCountEntity.SetSatPrefix(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSatPrefix(Integer satPrefix)
+    parameters:
+    - id: satPrefix
+      type: CRMScript.Global.Integer
+      description: "size of prefix for Satellite use of this counter."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRefCountEntity thing;\nInteger satPrefix;\nthing.SetSatPrefix(satPrefix);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRefCountEntity.SetSuggestedRecords(NSMDOListItem[])
+  commentId: M:CRMScript.NetServer.NSRefCountEntity.SetSuggestedRecords(NSMDOListItem[])
+  id: 'SetSuggestedRecords(NSMDOListItem[])'
+  so.intellisense: NSRefCountEntity.SetSuggestedRecords
+  langs:
+  - crmscript
+  name: 'SetSuggestedRecords(NSMDOListItem[])'
+  nameWithType: NSRefCountEntity.SetSuggestedRecords(NSMDOListItem[])
+  fullName: CRMScript.NetServer.NSRefCountEntity.SetSuggestedRecords(NSMDOListItem[])
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetSuggestedRecords(NSMDOListItem[] suggestedRecords)
+    parameters:
+    - id: suggestedRecords
+      type: CRMScript.NetServer.NSMDOListItem[]
+      description: "List of valid entities, the associated record is selected in the list, used records are filtered out."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRefCountEntity thing;\nNSMDOListItem[] suggestedRecords;\nthing.SetSuggestedRecords(suggestedRecords);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRefCountEntity.SetTravelPrefix(Integer)
+  commentId: M:CRMScript.NetServer.NSRefCountEntity.SetTravelPrefix(Integer)
+  id: 'SetTravelPrefix(Integer)'
+  so.intellisense: NSRefCountEntity.SetTravelPrefix
+  langs:
+  - crmscript
+  name: 'SetTravelPrefix(Integer)'
+  nameWithType: NSRefCountEntity.SetTravelPrefix(Integer)
+  fullName: CRMScript.NetServer.NSRefCountEntity.SetTravelPrefix(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTravelPrefix(Integer travelPrefix)
+    parameters:
+    - id: travelPrefix
+      type: CRMScript.Global.Integer
+      description: "size of prefix for Travel use of ths counter."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRefCountEntity thing;\nInteger travelPrefix;\nthing.SetTravelPrefix(travelPrefix);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRefCountEntity.SetUnique(Bool)
+  commentId: M:CRMScript.NetServer.NSRefCountEntity.SetUnique(Bool)
+  id: 'SetUnique(Bool)'
+  so.intellisense: NSRefCountEntity.SetUnique
+  langs:
+  - crmscript
+  name: 'SetUnique(Bool)'
+  nameWithType: NSRefCountEntity.SetUnique(Bool)
+  fullName: CRMScript.NetServer.NSRefCountEntity.SetUnique(Bool)
+  type: Method
+  summary: "\nChecks that entered value is unique\n"
+  remarks: 
+  syntax: 
+    content: Void SetUnique(Bool unique)
+    parameters:
+    - id: unique
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRefCountEntity thing;\nBool unique;\nthing.SetUnique(unique);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSRefCountEntity
+  commentId: T:CRMScript.NetServer.NSRefCountEntity
+  isExternal: true
+  name: NSRefCountEntity
+  nameWithType: NSRefCountEntity
+  fullName: CRMScript.NetServer.NSRefCountEntity
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSMDOListItem[]
+  isExternal: true
+  name: NSMDOListItem[]
+  nameWithType: NSMDOListItem[]
+  fullName: CRMScript.NetServer.NSMDOListItem[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSMDOListItem
+    isExternal: true
+    name: NSMDOListItem
+    nameWithType: NSMDOListItem
+    fullName: CRMScript.NetServer.NSMDOListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSMDOListItem
+  commentId: T:CRMScript.NetServer.NSMDOListItem
+  isExternal: true
+  name: NSMDOListItem
+  nameWithType: NSMDOListItem
+  fullName: CRMScript.NetServer.NSMDOListItem
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

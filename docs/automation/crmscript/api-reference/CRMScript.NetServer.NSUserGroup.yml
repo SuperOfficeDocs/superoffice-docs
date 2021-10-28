@@ -1,0 +1,281 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSUserGroup
+  commentId: T:CRMScript.NetServer.NSUserGroup
+  id: NSUserGroup
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSUserGroup.#ctor
+  - CRMScript.NetServer.NSUserGroup.GetDeleted()
+  - CRMScript.NetServer.NSUserGroup.GetId()
+  - CRMScript.NetServer.NSUserGroup.GetRank()
+  - CRMScript.NetServer.NSUserGroup.GetTooltip()
+  - CRMScript.NetServer.NSUserGroup.GetValue()
+  - CRMScript.NetServer.NSUserGroup.SetDeleted(Bool)
+  - CRMScript.NetServer.NSUserGroup.SetId(Integer)
+  - CRMScript.NetServer.NSUserGroup.SetRank(Integer)
+  - CRMScript.NetServer.NSUserGroup.SetTooltip(String)
+  - CRMScript.NetServer.NSUserGroup.SetValue(String)
+  name: NSUserGroup
+  nameWithType: NSUserGroup
+  fullName: CRMScript.NetServer.NSUserGroup
+  type: Class
+  summary: "\nThe main user group that this user belongs to.\n"
+  example: 
+- uid: CRMScript.NetServer.NSUserGroup.#ctor
+  commentId: M:CRMScript.NetServer.NSUserGroup.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSUserGroup
+  langs:
+  - crmscript
+  name: NSUserGroup()
+  nameWithType: NSUserGroup.#ctor
+  fullName: CRMScript.NetServer.NSUserGroup.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSUserGroup class.\n"
+  remarks: 
+  syntax: 
+    content: NSUserGroup
+  example: 
+- uid: CRMScript.NetServer.NSUserGroup.GetDeleted()
+  commentId: M:CRMScript.NetServer.NSUserGroup.GetDeleted()
+  id: 'GetDeleted()'
+  so.intellisense: NSUserGroup.GetDeleted
+  langs:
+  - crmscript
+  name: 'GetDeleted()'
+  nameWithType: NSUserGroup.GetDeleted()
+  fullName: CRMScript.NetServer.NSUserGroup.GetDeleted()
+  type: Method
+  summary: # TODO
+  remarks: "\nIt is not permitted to delete a UserGroup.\n"
+  syntax: 
+    content: Bool GetDeleted()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "true means that this is a user group that no longer can be selected by the user."
+  example: 
+  - "\n<pre><code>NSUserGroup thing;\nBool deleted = thing.GetDeleted();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserGroup.GetId()
+  commentId: M:CRMScript.NetServer.NSUserGroup.GetId()
+  id: 'GetId()'
+  so.intellisense: NSUserGroup.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSUserGroup.GetId()
+  fullName: CRMScript.NetServer.NSUserGroup.GetId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+  example: 
+  - "\n<pre><code>NSUserGroup thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserGroup.GetRank()
+  commentId: M:CRMScript.NetServer.NSUserGroup.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSUserGroup.GetRank
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSUserGroup.GetRank()
+  fullName: CRMScript.NetServer.NSUserGroup.GetRank()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetRank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Rank order."
+  example: 
+  - "\n<pre><code>NSUserGroup thing;\nInteger rank = thing.GetRank();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserGroup.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSUserGroup.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSUserGroup.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSUserGroup.GetTooltip()
+  fullName: CRMScript.NetServer.NSUserGroup.GetTooltip()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Tooltip or other description."
+  example: 
+  - "\n<pre><code>NSUserGroup thing;\nString tooltip = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserGroup.GetValue()
+  commentId: M:CRMScript.NetServer.NSUserGroup.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSUserGroup.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSUserGroup.GetValue()
+  fullName: CRMScript.NetServer.NSUserGroup.GetValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "UserGroup name."
+  example: 
+  - "\n<pre><code>NSUserGroup thing;\nString value = thing.GetValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserGroup.SetDeleted(Bool)
+  commentId: M:CRMScript.NetServer.NSUserGroup.SetDeleted(Bool)
+  id: 'SetDeleted(Bool)'
+  so.intellisense: NSUserGroup.SetDeleted
+  langs:
+  - crmscript
+  name: 'SetDeleted(Bool)'
+  nameWithType: NSUserGroup.SetDeleted(Bool)
+  fullName: CRMScript.NetServer.NSUserGroup.SetDeleted(Bool)
+  type: Method
+  summary: "\nMarks a user group.\n"
+  remarks: "\nIt is not permitted to delete a UserGroup.\n"
+  syntax: 
+    content: Void SetDeleted(Bool deleted)
+    parameters:
+    - id: deleted
+      type: CRMScript.Global.Bool
+      description: "true means that this is a user group that no longer can be selected by the user."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserGroup thing;\nBool deleted;\nthing.SetDeleted(deleted);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserGroup.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSUserGroup.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSUserGroup.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSUserGroup.SetId(Integer)
+  fullName: CRMScript.NetServer.NSUserGroup.SetId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: "Primary key."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserGroup thing;\nInteger id;\nthing.SetId(id);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserGroup.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSUserGroup.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSUserGroup.SetRank
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSUserGroup.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSUserGroup.SetRank(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "Rank order."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserGroup thing;\nInteger rank;\nthing.SetRank(rank);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserGroup.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSUserGroup.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSUserGroup.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSUserGroup.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSUserGroup.SetTooltip(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: "Tooltip or other description."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserGroup thing;\nString tooltip;\nthing.SetTooltip(tooltip);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserGroup.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSUserGroup.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSUserGroup.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSUserGroup.SetValue(String)
+  fullName: CRMScript.NetServer.NSUserGroup.SetValue(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: "UserGroup name."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserGroup thing;\nString value;\nthing.SetValue(value);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSUserGroup
+  commentId: T:CRMScript.NetServer.NSUserGroup
+  isExternal: true
+  name: NSUserGroup
+  nameWithType: NSUserGroup
+  fullName: CRMScript.NetServer.NSUserGroup
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

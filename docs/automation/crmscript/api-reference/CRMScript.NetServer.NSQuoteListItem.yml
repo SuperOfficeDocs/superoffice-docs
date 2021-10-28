@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSQuoteListItem
+  commentId: T:CRMScript.NetServer.NSQuoteListItem
+  id: NSQuoteListItem
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSQuoteListItem.#ctor
+  - CRMScript.NetServer.NSQuoteListItem.GetDisplayDescription()
+  - CRMScript.NetServer.NSQuoteListItem.GetDisplayValue()
+  - CRMScript.NetServer.NSQuoteListItem.GetERPQuoteListItemKey()
+  - CRMScript.NetServer.NSQuoteListItem.SetDisplayDescription(String)
+  - CRMScript.NetServer.NSQuoteListItem.SetDisplayValue(String)
+  - CRMScript.NetServer.NSQuoteListItem.SetERPQuoteListItemKey(String)
+  name: NSQuoteListItem
+  nameWithType: NSQuoteListItem
+  fullName: CRMScript.NetServer.NSQuoteListItem
+  type: Class
+  summary: "\nOne line in a list.\n"
+  example: 
+- uid: CRMScript.NetServer.NSQuoteListItem.#ctor
+  commentId: M:CRMScript.NetServer.NSQuoteListItem.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSQuoteListItem
+  langs:
+  - crmscript
+  name: NSQuoteListItem()
+  nameWithType: NSQuoteListItem.#ctor
+  fullName: CRMScript.NetServer.NSQuoteListItem.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSQuoteListItem class.\n"
+  remarks: 
+  syntax: 
+    content: NSQuoteListItem
+  example: 
+- uid: CRMScript.NetServer.NSQuoteListItem.GetDisplayDescription()
+  commentId: M:CRMScript.NetServer.NSQuoteListItem.GetDisplayDescription()
+  id: 'GetDisplayDescription()'
+  so.intellisense: NSQuoteListItem.GetDisplayDescription
+  langs:
+  - crmscript
+  name: 'GetDisplayDescription()'
+  nameWithType: NSQuoteListItem.GetDisplayDescription()
+  fullName: CRMScript.NetServer.NSQuoteListItem.GetDisplayDescription()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDisplayDescription()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Typically used in a tooltip."
+  example: 
+  - "\n<pre><code>NSQuoteListItem thing;\nString displayDescription = thing.GetDisplayDescription();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteListItem.GetDisplayValue()
+  commentId: M:CRMScript.NetServer.NSQuoteListItem.GetDisplayValue()
+  id: 'GetDisplayValue()'
+  so.intellisense: NSQuoteListItem.GetDisplayValue
+  langs:
+  - crmscript
+  name: 'GetDisplayValue()'
+  nameWithType: NSQuoteListItem.GetDisplayValue()
+  fullName: CRMScript.NetServer.NSQuoteListItem.GetDisplayValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDisplayValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "List item text to display."
+  example: 
+  - "\n<pre><code>NSQuoteListItem thing;\nString displayValue = thing.GetDisplayValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteListItem.GetERPQuoteListItemKey()
+  commentId: M:CRMScript.NetServer.NSQuoteListItem.GetERPQuoteListItemKey()
+  id: 'GetERPQuoteListItemKey()'
+  so.intellisense: NSQuoteListItem.GetERPQuoteListItemKey
+  langs:
+  - crmscript
+  name: 'GetERPQuoteListItemKey()'
+  nameWithType: NSQuoteListItem.GetERPQuoteListItemKey()
+  fullName: CRMScript.NetServer.NSQuoteListItem.GetERPQuoteListItemKey()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetERPQuoteListItemKey()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Primary key for the item."
+  example: 
+  - "\n<pre><code>NSQuoteListItem thing;\nString eRPQuoteListItemKey = thing.GetERPQuoteListItemKey();</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteListItem.SetDisplayDescription(String)
+  commentId: M:CRMScript.NetServer.NSQuoteListItem.SetDisplayDescription(String)
+  id: 'SetDisplayDescription(String)'
+  so.intellisense: NSQuoteListItem.SetDisplayDescription
+  langs:
+  - crmscript
+  name: 'SetDisplayDescription(String)'
+  nameWithType: NSQuoteListItem.SetDisplayDescription(String)
+  fullName: CRMScript.NetServer.NSQuoteListItem.SetDisplayDescription(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDisplayDescription(String displayDescription)
+    parameters:
+    - id: displayDescription
+      type: CRMScript.Global.String
+      description: "Typically used in a tooltip."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteListItem thing;\nString displayDescription;\nthing.SetDisplayDescription(displayDescription);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteListItem.SetDisplayValue(String)
+  commentId: M:CRMScript.NetServer.NSQuoteListItem.SetDisplayValue(String)
+  id: 'SetDisplayValue(String)'
+  so.intellisense: NSQuoteListItem.SetDisplayValue
+  langs:
+  - crmscript
+  name: 'SetDisplayValue(String)'
+  nameWithType: NSQuoteListItem.SetDisplayValue(String)
+  fullName: CRMScript.NetServer.NSQuoteListItem.SetDisplayValue(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDisplayValue(String displayValue)
+    parameters:
+    - id: displayValue
+      type: CRMScript.Global.String
+      description: "List item text to display."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteListItem thing;\nString displayValue;\nthing.SetDisplayValue(displayValue);</code></pre>\n"
+- uid: CRMScript.NetServer.NSQuoteListItem.SetERPQuoteListItemKey(String)
+  commentId: M:CRMScript.NetServer.NSQuoteListItem.SetERPQuoteListItemKey(String)
+  id: 'SetERPQuoteListItemKey(String)'
+  so.intellisense: NSQuoteListItem.SetERPQuoteListItemKey
+  langs:
+  - crmscript
+  name: 'SetERPQuoteListItemKey(String)'
+  nameWithType: NSQuoteListItem.SetERPQuoteListItemKey(String)
+  fullName: CRMScript.NetServer.NSQuoteListItem.SetERPQuoteListItemKey(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetERPQuoteListItemKey(String eRPQuoteListItemKey)
+    parameters:
+    - id: eRPQuoteListItemKey
+      type: CRMScript.Global.String
+      description: "Primary key for the item."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSQuoteListItem thing;\nString eRPQuoteListItemKey;\nthing.SetERPQuoteListItemKey(eRPQuoteListItemKey);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSQuoteListItem
+  commentId: T:CRMScript.NetServer.NSQuoteListItem
+  isExternal: true
+  name: NSQuoteListItem
+  nameWithType: NSQuoteListItem
+  fullName: CRMScript.NetServer.NSQuoteListItem
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSRelationToOwner
+  commentId: T:CRMScript.NetServer.NSRelationToOwner
+  id: NSRelationToOwner
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSRelationToOwner.#ctor
+  - CRMScript.NetServer.NSRelationToOwner.GetId()
+  - CRMScript.NetServer.NSRelationToOwner.GetTooltip()
+  - CRMScript.NetServer.NSRelationToOwner.GetValue()
+  - CRMScript.NetServer.NSRelationToOwner.SetId(Integer)
+  - CRMScript.NetServer.NSRelationToOwner.SetTooltip(String)
+  - CRMScript.NetServer.NSRelationToOwner.SetValue(String)
+  name: NSRelationToOwner
+  nameWithType: NSRelationToOwner
+  fullName: CRMScript.NetServer.NSRelationToOwner
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSRelationToOwner.#ctor
+  commentId: M:CRMScript.NetServer.NSRelationToOwner.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSRelationToOwner
+  langs:
+  - crmscript
+  name: NSRelationToOwner()
+  nameWithType: NSRelationToOwner.#ctor
+  fullName: CRMScript.NetServer.NSRelationToOwner.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSRelationToOwner class.\n"
+  remarks: 
+  syntax: 
+    content: NSRelationToOwner
+  example: 
+- uid: CRMScript.NetServer.NSRelationToOwner.GetId()
+  commentId: M:CRMScript.NetServer.NSRelationToOwner.GetId()
+  id: 'GetId()'
+  so.intellisense: NSRelationToOwner.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSRelationToOwner.GetId()
+  fullName: CRMScript.NetServer.NSRelationToOwner.GetId()
+  type: Method
+  summary: "\nGets the primary key (ID) for the NSRelationToOwner\n"
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSRelationToOwner thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRelationToOwner.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSRelationToOwner.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSRelationToOwner.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSRelationToOwner.GetTooltip()
+  fullName: CRMScript.NetServer.NSRelationToOwner.GetTooltip()
+  type: Method
+  summary: "\nGets the tooltip description for the NSRelationToOwner list item.\n"
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSRelationToOwner thing;\nString descr = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRelationToOwner.GetValue()
+  commentId: M:CRMScript.NetServer.NSRelationToOwner.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSRelationToOwner.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSRelationToOwner.GetValue()
+  fullName: CRMScript.NetServer.NSRelationToOwner.GetValue()
+  type: Method
+  summary: "\nGets the name of the NSRelationToOwner.\n"
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>NSRelationToOwner thing;\nString name = thing.GetValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSRelationToOwner.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSRelationToOwner.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSRelationToOwner.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSRelationToOwner.SetId(Integer)
+  fullName: CRMScript.NetServer.NSRelationToOwner.SetId(Integer)
+  type: Method
+  summary: "\nSets the primary key (ID) for the NSRelationToOwner\n"
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRelationToOwner thing;\nthing.SetId(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRelationToOwner.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSRelationToOwner.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSRelationToOwner.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSRelationToOwner.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSRelationToOwner.SetTooltip(String)
+  type: Method
+  summary: "\nSets the tooltip description for the NSRelationToOwner list item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRelationToOwner thing;\nString descr = &quot;something new&quot;;\nthing.SetTooltip(descr);</code></pre>\n"
+- uid: CRMScript.NetServer.NSRelationToOwner.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSRelationToOwner.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSRelationToOwner.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSRelationToOwner.SetValue(String)
+  fullName: CRMScript.NetServer.NSRelationToOwner.SetValue(String)
+  type: Method
+  summary: "\nSets the name of the NSRelationToOwner item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSRelationToOwner thing;\nthing.SetValue(&quot;frotz&quot;);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSRelationToOwner
+  commentId: T:CRMScript.NetServer.NSRelationToOwner
+  isExternal: true
+  name: NSRelationToOwner
+  nameWithType: NSRelationToOwner
+  fullName: CRMScript.NetServer.NSRelationToOwner
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

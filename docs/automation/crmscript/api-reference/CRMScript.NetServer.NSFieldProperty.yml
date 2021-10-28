@@ -1,0 +1,269 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSFieldProperty
+  commentId: T:CRMScript.NetServer.NSFieldProperty
+  id: NSFieldProperty
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSFieldProperty.#ctor
+  - CRMScript.NetServer.NSFieldProperty.GetFieldLength()
+  - CRMScript.NetServer.NSFieldProperty.GetFieldRight()
+  - CRMScript.NetServer.NSFieldProperty.GetFieldType()
+  - CRMScript.NetServer.NSFieldProperty.GetLength()
+  - CRMScript.NetServer.NSFieldProperty.GetType()
+  - CRMScript.NetServer.NSFieldProperty.SetFieldLength(Integer)
+  - CRMScript.NetServer.NSFieldProperty.SetFieldRight(NSFieldRight)
+  - CRMScript.NetServer.NSFieldProperty.SetFieldType(String)
+  - CRMScript.NetServer.NSFieldProperty.SetLength(Integer)
+  - CRMScript.NetServer.NSFieldProperty.SetType(String)
+  name: NSFieldProperty
+  nameWithType: NSFieldProperty
+  fullName: CRMScript.NetServer.NSFieldProperty
+  type: Class
+  summary: # TODO
+  example: 
+- uid: CRMScript.NetServer.NSFieldProperty.#ctor
+  commentId: M:CRMScript.NetServer.NSFieldProperty.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSFieldProperty
+  langs:
+  - crmscript
+  name: NSFieldProperty()
+  nameWithType: NSFieldProperty.#ctor
+  fullName: CRMScript.NetServer.NSFieldProperty.#ctor
+  type: Constructor
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSFieldProperty
+  example: 
+- uid: CRMScript.NetServer.NSFieldProperty.GetFieldLength()
+  commentId: M:CRMScript.NetServer.NSFieldProperty.GetFieldLength()
+  id: 'GetFieldLength()'
+  so.intellisense: NSFieldProperty.GetFieldLength
+  langs:
+  - crmscript
+  name: 'GetFieldLength()'
+  nameWithType: NSFieldProperty.GetFieldLength()
+  fullName: CRMScript.NetServer.NSFieldProperty.GetFieldLength()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetFieldLength()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: 
+  example: 
+- uid: CRMScript.NetServer.NSFieldProperty.GetFieldRight()
+  commentId: M:CRMScript.NetServer.NSFieldProperty.GetFieldRight()
+  id: 'GetFieldRight()'
+  so.intellisense: NSFieldProperty.GetFieldRight
+  langs:
+  - crmscript
+  name: 'GetFieldRight()'
+  nameWithType: NSFieldProperty.GetFieldRight()
+  fullName: CRMScript.NetServer.NSFieldProperty.GetFieldRight()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSFieldRight GetFieldRight()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSFieldRight
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSFieldProperty.GetFieldType()
+  commentId: M:CRMScript.NetServer.NSFieldProperty.GetFieldType()
+  id: 'GetFieldType()'
+  so.intellisense: NSFieldProperty.GetFieldType
+  langs:
+  - crmscript
+  name: 'GetFieldType()'
+  nameWithType: NSFieldProperty.GetFieldType()
+  fullName: CRMScript.NetServer.NSFieldProperty.GetFieldType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFieldType()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+  example: 
+- uid: CRMScript.NetServer.NSFieldProperty.GetLength()
+  commentId: M:CRMScript.NetServer.NSFieldProperty.GetLength()
+  id: 'GetLength()'
+  so.intellisense: NSFieldProperty.GetLength
+  langs:
+  - crmscript
+  name: 'GetLength()'
+  nameWithType: NSFieldProperty.GetLength()
+  fullName: CRMScript.NetServer.NSFieldProperty.GetLength()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetLength()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+  example: 
+- uid: CRMScript.NetServer.NSFieldProperty.GetType()
+  commentId: M:CRMScript.NetServer.NSFieldProperty.GetType()
+  id: 'GetType()'
+  so.intellisense: NSFieldProperty.GetType
+  langs:
+  - crmscript
+  name: 'GetType()'
+  nameWithType: NSFieldProperty.GetType()
+  fullName: CRMScript.NetServer.NSFieldProperty.GetType()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetType()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSFieldProperty.SetFieldLength(Integer)
+  commentId: M:CRMScript.NetServer.NSFieldProperty.SetFieldLength(Integer)
+  id: 'SetFieldLength(Integer)'
+  so.intellisense: NSFieldProperty.SetFieldLength
+  langs:
+  - crmscript
+  name: 'SetFieldLength(Integer)'
+  nameWithType: NSFieldProperty.SetFieldLength(Integer)
+  fullName: CRMScript.NetServer.NSFieldProperty.SetFieldLength(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFieldLength(Integer length)
+    parameters:
+    - id: length
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSFieldProperty.SetFieldRight(NSFieldRight)
+  commentId: M:CRMScript.NetServer.NSFieldProperty.SetFieldRight(NSFieldRight)
+  id: 'SetFieldRight(NSFieldRight)'
+  so.intellisense: NSFieldProperty.SetFieldRight
+  langs:
+  - crmscript
+  name: 'SetFieldRight(NSFieldRight)'
+  nameWithType: NSFieldProperty.SetFieldRight(NSFieldRight)
+  fullName: CRMScript.NetServer.NSFieldProperty.SetFieldRight(NSFieldRight)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFieldRight(NSFieldRight fieldRight)
+    parameters:
+    - id: fieldRight
+      type: CRMScript.NetServer.NSFieldRight
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSFieldProperty.SetFieldType(String)
+  commentId: M:CRMScript.NetServer.NSFieldProperty.SetFieldType(String)
+  id: 'SetFieldType(String)'
+  so.intellisense: NSFieldProperty.SetFieldType
+  langs:
+  - crmscript
+  name: 'SetFieldType(String)'
+  nameWithType: NSFieldProperty.SetFieldType(String)
+  fullName: CRMScript.NetServer.NSFieldProperty.SetFieldType(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFieldType(String type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSFieldProperty.SetLength(Integer)
+  commentId: M:CRMScript.NetServer.NSFieldProperty.SetLength(Integer)
+  id: 'SetLength(Integer)'
+  so.intellisense: NSFieldProperty.SetLength
+  langs:
+  - crmscript
+  name: 'SetLength(Integer)'
+  nameWithType: NSFieldProperty.SetLength(Integer)
+  fullName: CRMScript.NetServer.NSFieldProperty.SetLength(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLength(Integer length)
+    parameters:
+    - id: length
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSFieldProperty.SetType(String)
+  commentId: M:CRMScript.NetServer.NSFieldProperty.SetType(String)
+  id: 'SetType(String)'
+  so.intellisense: NSFieldProperty.SetType
+  langs:
+  - crmscript
+  name: 'SetType(String)'
+  nameWithType: NSFieldProperty.SetType(String)
+  fullName: CRMScript.NetServer.NSFieldProperty.SetType(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetType(String type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSFieldProperty
+  commentId: T:CRMScript.NetServer.NSFieldProperty
+  isExternal: true
+  name: NSFieldProperty
+  nameWithType: NSFieldProperty
+  fullName: CRMScript.NetServer.NSFieldProperty
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSFieldRight
+  commentId: T:CRMScript.NetServer.NSFieldRight
+  isExternal: true
+  name: NSFieldRight
+  nameWithType: NSFieldRight
+  fullName: CRMScript.NetServer.NSFieldRight
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

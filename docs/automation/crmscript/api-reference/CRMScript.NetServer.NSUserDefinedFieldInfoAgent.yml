@@ -1,0 +1,963 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent
+  commentId: T:CRMScript.NetServer.NSUserDefinedFieldInfoAgent
+  id: NSUserDefinedFieldInfoAgent
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.#ctor
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.ChangeFieldType(NSUserDefinedFieldInfo,Integer,Bool)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo()
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo(Integer,Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.DetectColumnIdChanges(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.DetectUnpublishedChanges(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId(NSUserDefinedFieldInfo)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetChangedPageOneFields(Integer,Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetCustomFieldInfo(String,String)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetCustomFieldInfoList(String,Bool)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel(String,Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId(String,Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields(Integer,Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel(String,Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds(Integer[])
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId(String,Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds(String[],Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldList(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields(Integer,Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.IsAnyPublishEventActive()
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.IsPublishEventActive(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.Publish(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.Revert(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos(NSUserDefinedFieldInfo[])
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId(NSUserDefinedFieldInfo,Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetPageOneFieldGrouping(Integer,Bool)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetPublishStartSystemEvent(Integer)
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetRankOnFields(Integer,Integer[])
+  - CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetUserDefinedPageOneField(Integer,Integer,Integer,Integer)
+  name: NSUserDefinedFieldInfoAgent
+  nameWithType: NSUserDefinedFieldInfoAgent
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent
+  type: Class
+  summary: "\nReturns information about user-defined fields, like field type, field size, field label text, default value. Does not return the actual values in the user-defined fields. The values are returned on the entity objects.\n"
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfoAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSUserDefinedFieldInfoAgent
+  langs:
+  - crmscript
+  name: NSUserDefinedFieldInfoAgent()
+  nameWithType: NSUserDefinedFieldInfoAgent.#ctor
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.#ctor
+  type: Constructor
+  summary: "\nReturns information about user-defined fields, like field type, field size, field label text, default value. Does not return the actual values in the user-defined fields. The values are returned on the entity objects.\n"
+  remarks: 
+  syntax: 
+    content: NSUserDefinedFieldInfoAgent
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfoAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.ChangeFieldType(NSUserDefinedFieldInfo,Integer,Bool)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.ChangeFieldType(NSUserDefinedFieldInfo,Integer,Bool)
+  id: 'ChangeFieldType(NSUserDefinedFieldInfo,Integer,Bool)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.ChangeFieldType
+  langs:
+  - crmscript
+  name: 'ChangeFieldType(NSUserDefinedFieldInfo,Integer,Bool)'
+  nameWithType: NSUserDefinedFieldInfoAgent.ChangeFieldType(NSUserDefinedFieldInfo,Integer,Bool)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.ChangeFieldType(NSUserDefinedFieldInfo,Integer,Bool)
+  type: Method
+  summary: "\nCreates a UserDefinedFieldInfo based on a owner-entity ID\n"
+  remarks: 
+  syntax: 
+    content: NSUserDefinedFieldInfo ChangeFieldType(NSUserDefinedFieldInfo info, Integer fieldType, Bool isIndexed)
+    parameters:
+    - id: info
+      type: CRMScript.NetServer.NSUserDefinedFieldInfo
+      description: 
+    - id: fieldType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UDefFieldType\" data-throw-if-not-resolved=\"false\"></xref>"
+    - id: isIndexed
+      type: CRMScript.Global.Bool
+      description: "true if yes; false if no."
+    return:
+      type: CRMScript.NetServer.NSUserDefinedFieldInfo
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfoAgent agent;\nNSUserDefinedFieldInfo info;\nInteger fieldType;\nBool isIndexed;\nNSUserDefinedFieldInfo res = agent.ChangeFieldType(info, fieldType, isIndexed);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo()
+  id: 'CreateDefaultUserDefinedFieldInfo()'
+  so.intellisense: NSUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo
+  langs:
+  - crmscript
+  name: 'CreateDefaultUserDefinedFieldInfo()'
+  nameWithType: NSUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo()
+  type: Method
+  summary: "\nSets default values into a new NSUserDefinedFieldInfo.\n"
+  remarks: "\nNetServer calculates default values (for example, Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSUserDefinedFieldInfo CreateDefaultUserDefinedFieldInfo()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSUserDefinedFieldInfo
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfoAgent agent;\nNSUserDefinedFieldInfo thing = agent.CreateDefaultUserDefinedFieldInfo();\nthing = agent.SaveUserDefinedFieldInfo(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo(Integer,Integer)
+  id: 'CreateUserDefinedFieldInfo(Integer,Integer)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo
+  langs:
+  - crmscript
+  name: 'CreateUserDefinedFieldInfo(Integer,Integer)'
+  nameWithType: NSUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo(Integer,Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo(Integer,Integer)
+  type: Method
+  summary: "\nCreates a UserDefinedFieldInfo based on a owner-entity ID\n"
+  remarks: 
+  syntax: 
+    content: NSUserDefinedFieldInfo CreateUserDefinedFieldInfo(Integer ownerType, Integer fieldType)
+    parameters:
+    - id: ownerType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UDefType\" data-throw-if-not-resolved=\"false\"></xref>"
+    - id: fieldType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UDefFieldType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSUserDefinedFieldInfo
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfoAgent agent;\nInteger ownerType;\nInteger fieldType;\nNSUserDefinedFieldInfo res = agent.CreateUserDefinedFieldInfo(ownerType, fieldType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo(Integer)
+  id: 'DeleteUserDefinedFieldInfo(Integer)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo
+  langs:
+  - crmscript
+  name: 'DeleteUserDefinedFieldInfo(Integer)'
+  nameWithType: NSUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo(Integer)
+  type: Method
+  summary: "\nDeletes the NSUserDefinedFieldInfo\n"
+  remarks: 
+  syntax: 
+    content: DeleteUserDefinedFieldInfo(Integer userDefinedFieldInfo)
+    parameters:
+    - id: userDefinedFieldInfo
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfoAgent agent;\nagent.DeleteUserDefinedFieldInfo(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.DetectColumnIdChanges(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.DetectColumnIdChanges(Integer)
+  id: 'DetectColumnIdChanges(Integer)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.DetectColumnIdChanges
+  langs:
+  - crmscript
+  name: 'DetectColumnIdChanges(Integer)'
+  nameWithType: NSUserDefinedFieldInfoAgent.DetectColumnIdChanges(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.DetectColumnIdChanges(Integer)
+  type: Method
+  summary: "\nDetects columnid changes to the admin version (for determining publish warning)\n"
+  remarks: 
+  syntax: 
+    content: Bool DetectColumnIdChanges(Integer ownerType)
+    parameters:
+    - id: ownerType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UDefType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfoAgent agent;\nInteger ownerType;\nBool res = agent.DetectColumnIdChanges(ownerType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.DetectUnpublishedChanges(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.DetectUnpublishedChanges(Integer)
+  id: 'DetectUnpublishedChanges(Integer)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.DetectUnpublishedChanges
+  langs:
+  - crmscript
+  name: 'DetectUnpublishedChanges(Integer)'
+  nameWithType: NSUserDefinedFieldInfoAgent.DetectUnpublishedChanges(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.DetectUnpublishedChanges(Integer)
+  type: Method
+  summary: "\nDetects changes to the admin version (unpublished)\n"
+  remarks: 
+  syntax: 
+    content: Bool DetectUnpublishedChanges(Integer ownerType)
+    parameters:
+    - id: ownerType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UDefType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfoAgent agent;\nInteger ownerType;\nBool res = agent.DetectUnpublishedChanges(ownerType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId(NSUserDefinedFieldInfo)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId(NSUserDefinedFieldInfo)
+  id: 'FigureOutListIdFromListTableIdAndUDListDefinitionId(NSUserDefinedFieldInfo)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId
+  langs:
+  - crmscript
+  name: 'FigureOutListIdFromListTableIdAndUDListDefinitionId(NSUserDefinedFieldInfo)'
+  nameWithType: NSUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId(NSUserDefinedFieldInfo)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId(NSUserDefinedFieldInfo)
+  type: Method
+  summary: "\nKind of the reverse of SetListTableIdAndUDListDefinitionIdFromSelectedListId\n"
+  remarks: 
+  syntax: 
+    content: Integer FigureOutListIdFromListTableIdAndUDListDefinitionId(NSUserDefinedFieldInfo info)
+    parameters:
+    - id: info
+      type: CRMScript.NetServer.NSUserDefinedFieldInfo
+      description: 
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetChangedPageOneFields(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetChangedPageOneFields(Integer,Integer)
+  id: 'GetChangedPageOneFields(Integer,Integer)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.GetChangedPageOneFields
+  langs:
+  - crmscript
+  name: 'GetChangedPageOneFields(Integer,Integer)'
+  nameWithType: NSUserDefinedFieldInfoAgent.GetChangedPageOneFields(Integer,Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetChangedPageOneFields(Integer,Integer)
+  type: Method
+  summary: "\nGets which page-one fields have changed from the current version\n"
+  remarks: 
+  syntax: 
+    content: Bool[] GetChangedPageOneFields(Integer ownerType, Integer userGroupId)
+    parameters:
+    - id: ownerType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UDefType\" data-throw-if-not-resolved=\"false\"></xref>"
+    - id: userGroupId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Bool[]
+  example: 
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetCustomFieldInfo(String,String)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetCustomFieldInfo(String,String)
+  id: 'GetCustomFieldInfo(String,String)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.GetCustomFieldInfo
+  langs:
+  - crmscript
+  name: 'GetCustomFieldInfo(String,String)'
+  nameWithType: NSUserDefinedFieldInfoAgent.GetCustomFieldInfo(String,String)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetCustomFieldInfo(String,String)
+  type: Method
+  summary: "\nReturns information about a particular custom field (user-defined + extra) on a particular table\n"
+  remarks: 
+  syntax: 
+    content: NSFieldInfoBase GetCustomFieldInfo(String tableName, String fieldName)
+    parameters:
+    - id: tableName
+      type: CRMScript.Global.String
+      description: 
+    - id: fieldName
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.NetServer.NSFieldInfoBase
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfoAgent agent;\nString tableName;\nString fieldName;\nNSFieldInfoBase res = agent.GetCustomFieldInfo(tableName, fieldName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetCustomFieldInfoList(String,Bool)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetCustomFieldInfoList(String,Bool)
+  id: 'GetCustomFieldInfoList(String,Bool)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.GetCustomFieldInfoList
+  langs:
+  - crmscript
+  name: 'GetCustomFieldInfoList(String,Bool)'
+  nameWithType: NSUserDefinedFieldInfoAgent.GetCustomFieldInfoList(String,Bool)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetCustomFieldInfoList(String,Bool)
+  type: Method
+  summary: "\nReturns information about all the custom fields (user-defined + extra) on a particular table\n"
+  remarks: 
+  syntax: 
+    content: NSFieldInfoBase[] GetCustomFieldInfoList(String tableName, Bool includeStandard)
+    parameters:
+    - id: tableName
+      type: CRMScript.Global.String
+      description: 
+    - id: includeStandard
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.NetServer.NSFieldInfoBase[]
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfoAgent agent;\nString tableName;\nBool includeStandard;\nNSFieldInfoBase[] res = agent.GetCustomFieldInfoList(tableName, includeStandard);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel(String,Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel(String,Integer)
+  id: 'GetPublishedUserDefinedFieldFromFieldLabel(String,Integer)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel
+  langs:
+  - crmscript
+  name: 'GetPublishedUserDefinedFieldFromFieldLabel(String,Integer)'
+  nameWithType: NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel(String,Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel(String,Integer)
+  type: Method
+  summary: "\nReturns information about the given user defined field identified by the owner and the field label.\n"
+  remarks: "\nField labels are fuzzy. Leading and trailing spaces and punctuation are ignored.\n"
+  syntax: 
+    content: NSUserDefinedFieldInfo GetPublishedUserDefinedFieldFromFieldLabel(String fieldLabel, Integer ownerType)
+    parameters:
+    - id: fieldLabel
+      type: CRMScript.Global.String
+      description: 
+    - id: ownerType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UDefType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSUserDefinedFieldInfo
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfoAgent agent;\nString fieldLabel;\nInteger ownerType;\nNSUserDefinedFieldInfo res = agent.GetPublishedUserDefinedFieldFromFieldLabel(fieldLabel, ownerType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId(String,Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId(String,Integer)
+  id: 'GetPublishedUserDefinedFieldFromProgId(String,Integer)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId
+  langs:
+  - crmscript
+  name: 'GetPublishedUserDefinedFieldFromProgId(String,Integer)'
+  nameWithType: NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId(String,Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId(String,Integer)
+  type: Method
+  summary: "\nReturn information about the given user defined field identified by the owner and the prog-id.\n"
+  remarks: "\nThe prog-id is used as the key in the entity carriers.\n"
+  syntax: 
+    content: NSUserDefinedFieldInfo GetPublishedUserDefinedFieldFromProgId(String progId, Integer ownerType)
+    parameters:
+    - id: progId
+      type: CRMScript.Global.String
+      description: 
+    - id: ownerType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UDefType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSUserDefinedFieldInfo
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfoAgent agent;\nString progId;\nInteger ownerType;\nNSUserDefinedFieldInfo res = agent.GetPublishedUserDefinedFieldFromProgId(progId, ownerType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList(Integer)
+  id: 'GetPublishedUserDefinedFieldList(Integer)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList
+  langs:
+  - crmscript
+  name: 'GetPublishedUserDefinedFieldList(Integer)'
+  nameWithType: NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList(Integer)
+  type: Method
+  summary: "\nReturn information about all the user defined fields on a particular owner type (project, contact, person, etc).\n"
+  remarks: 
+  syntax: 
+    content: NSUserDefinedFieldInfo[] GetPublishedUserDefinedFieldList(Integer ownerType)
+    parameters:
+    - id: ownerType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UDefType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSUserDefinedFieldInfo[]
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfoAgent agent;\nInteger ownerType;\nNSUserDefinedFieldInfo[] res = agent.GetPublishedUserDefinedFieldList(ownerType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields(Integer,Integer)
+  id: 'GetPublishedUserDefinedPageOneFields(Integer,Integer)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields
+  langs:
+  - crmscript
+  name: 'GetPublishedUserDefinedPageOneFields(Integer,Integer)'
+  nameWithType: NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields(Integer,Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields(Integer,Integer)
+  type: Method
+  summary: "\nGets a list of page one fields for given Udef type and current user group\n"
+  remarks: 
+  syntax: 
+    content: NSUserDefinedFieldInfo[] GetPublishedUserDefinedPageOneFields(Integer ownerType, Integer userGroupId)
+    parameters:
+    - id: ownerType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UDefType\" data-throw-if-not-resolved=\"false\"></xref>"
+    - id: userGroupId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSUserDefinedFieldInfo[]
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfoAgent agent;\nInteger ownerType;\nInteger userGroupId;\nNSUserDefinedFieldInfo[] res = agent.GetPublishedUserDefinedPageOneFields(ownerType, userGroupId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel(String,Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel(String,Integer)
+  id: 'GetUserDefinedFieldFromFieldLabel(String,Integer)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel
+  langs:
+  - crmscript
+  name: 'GetUserDefinedFieldFromFieldLabel(String,Integer)'
+  nameWithType: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel(String,Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel(String,Integer)
+  type: Method
+  summary: "\nReturn information about the given user defined field identified by the owner and the field label.\n"
+  remarks: "\nField labels are fuzzy. Leading and trailing spaces and punctuation are ignored.<p></p>\nThis may be different than the currently published fields.\n"
+  syntax: 
+    content: NSUserDefinedFieldInfo GetUserDefinedFieldFromFieldLabel(String fieldLabel, Integer ownerType)
+    parameters:
+    - id: fieldLabel
+      type: CRMScript.Global.String
+      description: 
+    - id: ownerType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UDefType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSUserDefinedFieldInfo
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfoAgent agent;\nString fieldLabel;\nInteger ownerType;\nNSUserDefinedFieldInfo res = agent.GetUserDefinedFieldFromFieldLabel(fieldLabel, ownerType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds(Integer[])
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds(Integer[])
+  id: 'GetUserDefinedFieldFromIds(Integer[])'
+  so.intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds
+  langs:
+  - crmscript
+  name: 'GetUserDefinedFieldFromIds(Integer[])'
+  nameWithType: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds(Integer[])
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds(Integer[])
+  type: Method
+  summary: "\nReturns an given array of user defined field identified by the IDs.\n"
+  remarks: 
+  syntax: 
+    content: NSUserDefinedFieldInfo[] GetUserDefinedFieldFromIds(Integer[] ids)
+    parameters:
+    - id: ids
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.NetServer.NSUserDefinedFieldInfo[]
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfoAgent agent;\nInteger[] ids;\nNSUserDefinedFieldInfo[] res = agent.GetUserDefinedFieldFromIds(ids);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId(String,Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId(String,Integer)
+  id: 'GetUserDefinedFieldFromProgId(String,Integer)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId
+  langs:
+  - crmscript
+  name: 'GetUserDefinedFieldFromProgId(String,Integer)'
+  nameWithType: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId(String,Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId(String,Integer)
+  type: Method
+  summary: "\nReturns information about the given user defined field identified by the owner and the prog-id.\n"
+  remarks: "\nThe prog-id is used as the key in the entity carriers. Note this may be different than the currently published fields.\n"
+  syntax: 
+    content: NSUserDefinedFieldInfo GetUserDefinedFieldFromProgId(String progId, Integer ownerType)
+    parameters:
+    - id: progId
+      type: CRMScript.Global.String
+      description: 
+    - id: ownerType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UDefType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSUserDefinedFieldInfo
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfoAgent agent;\nString progId;\nInteger ownerType;\nNSUserDefinedFieldInfo res = agent.GetUserDefinedFieldFromProgId(progId, ownerType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds(String[],Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds(String[],Integer)
+  id: 'GetUserDefinedFieldFromProgIds(String[],Integer)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds
+  langs:
+  - crmscript
+  name: 'GetUserDefinedFieldFromProgIds(String[],Integer)'
+  nameWithType: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds(String[],Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds(String[],Integer)
+  type: Method
+  summary: "\nReturn an given array user defined field identified by the owner and the prog-ids.\n"
+  remarks: "\nThe prog-id is used as the key in the entity carriers. Note this may be different than the currently published field layout.\n"
+  syntax: 
+    content: NSUserDefinedFieldInfo[] GetUserDefinedFieldFromProgIds(String[] progIds, Integer ownerType)
+    parameters:
+    - id: progIds
+      type: CRMScript.Global.String[]
+      description: 
+    - id: ownerType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UDefType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSUserDefinedFieldInfo[]
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfoAgent agent;\nString[] progIds;\nInteger ownerType;\nNSUserDefinedFieldInfo[] res = agent.GetUserDefinedFieldFromProgIds(progIds, ownerType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo(Integer)
+  id: 'GetUserDefinedFieldInfo(Integer)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo
+  langs:
+  - crmscript
+  name: 'GetUserDefinedFieldInfo(Integer)'
+  nameWithType: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo(Integer)
+  type: Method
+  summary: "\nGets an NSUserDefinedFieldInfo object.\n"
+  remarks: 
+  syntax: 
+    content: NSUserDefinedFieldInfo GetUserDefinedFieldInfo(Integer userDefinedFieldInfoId)
+    parameters:
+    - id: userDefinedFieldInfoId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSUserDefinedFieldInfo
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfoAgent agent;\nNSUserDefinedFieldInfo thing = agent.GetUserDefinedFieldInfo(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldList(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldList(Integer)
+  id: 'GetUserDefinedFieldList(Integer)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldList
+  langs:
+  - crmscript
+  name: 'GetUserDefinedFieldList(Integer)'
+  nameWithType: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldList(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedFieldList(Integer)
+  type: Method
+  summary: "\nReturn information about all the user defined fields on a particular owner type (project, contact, person, etc).\n"
+  remarks: "\nNote this may be different than the currently published fields.\n"
+  syntax: 
+    content: NSUserDefinedFieldInfo[] GetUserDefinedFieldList(Integer ownerType)
+    parameters:
+    - id: ownerType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UDefType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.NetServer.NSUserDefinedFieldInfo[]
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfoAgent agent;\nInteger ownerType;\nNSUserDefinedFieldInfo[] res = agent.GetUserDefinedFieldList(ownerType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields(Integer,Integer)
+  id: 'GetUserDefinedPageOneFields(Integer,Integer)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields
+  langs:
+  - crmscript
+  name: 'GetUserDefinedPageOneFields(Integer,Integer)'
+  nameWithType: NSUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields(Integer,Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields(Integer,Integer)
+  type: Method
+  summary: "\nGets a list of page one fields for given Udef type and current user group\n"
+  remarks: 
+  syntax: 
+    content: NSUserDefinedFieldInfo[] GetUserDefinedPageOneFields(Integer ownerType, Integer userGroupId)
+    parameters:
+    - id: ownerType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UDefType\" data-throw-if-not-resolved=\"false\"></xref>"
+    - id: userGroupId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSUserDefinedFieldInfo[]
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfoAgent agent;\nInteger ownerType;\nInteger userGroupId;\nNSUserDefinedFieldInfo[] res = agent.GetUserDefinedPageOneFields(ownerType, userGroupId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.IsAnyPublishEventActive()
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.IsAnyPublishEventActive()
+  id: 'IsAnyPublishEventActive()'
+  so.intellisense: NSUserDefinedFieldInfoAgent.IsAnyPublishEventActive
+  langs:
+  - crmscript
+  name: 'IsAnyPublishEventActive()'
+  nameWithType: NSUserDefinedFieldInfoAgent.IsAnyPublishEventActive()
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.IsAnyPublishEventActive()
+  type: Method
+  summary: "\nChecks if any publish events are active\n"
+  remarks: 
+  syntax: 
+    content: Bool IsAnyPublishEventActive()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.IsPublishEventActive(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.IsPublishEventActive(Integer)
+  id: 'IsPublishEventActive(Integer)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.IsPublishEventActive
+  langs:
+  - crmscript
+  name: 'IsPublishEventActive(Integer)'
+  nameWithType: NSUserDefinedFieldInfoAgent.IsPublishEventActive(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.IsPublishEventActive(Integer)
+  type: Method
+  summary: "\nChecks if the publish event is active for the given type.\n"
+  remarks: 
+  syntax: 
+    content: Bool IsPublishEventActive(Integer type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UDefType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.Publish(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.Publish(Integer)
+  id: 'Publish(Integer)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.Publish
+  langs:
+  - crmscript
+  name: 'Publish(Integer)'
+  nameWithType: NSUserDefinedFieldInfoAgent.Publish(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.Publish(Integer)
+  type: Method
+  summary: "\nPublish changed Udef fields for the given owner type\n"
+  remarks: 
+  syntax: 
+    content: Integer Publish(Integer ownerType)
+    parameters:
+    - id: ownerType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UDefType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Integer
+      description:
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfoAgent agent;\nInteger ownerType;\nInteger res = agent.Publish(ownerType);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.Revert(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.Revert(Integer)
+  id: 'Revert(Integer)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.Revert
+  langs:
+  - crmscript
+  name: 'Revert(Integer)'
+  nameWithType: NSUserDefinedFieldInfoAgent.Revert(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.Revert(Integer)
+  type: Method
+  summary: "\nRevert changed Udef fields for the given owner type. All unpublished changes will be lost\n"
+  remarks: 
+  syntax: 
+    content: Void Revert(Integer ownerType)
+    parameters:
+    - id: ownerType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UDefType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo)
+  id: 'SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo
+  langs:
+  - crmscript
+  name: 'SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo)'
+  nameWithType: NSUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo)
+  type: Method
+  summary: "\nUpdates the existing NSUserDefinedFieldInfo or creates a new NSUserDefinedFieldInfo if the id parameter is 0\n"
+  remarks: 
+  syntax: 
+    content: NSUserDefinedFieldInfo SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo userDefinedFieldInfo)
+    parameters:
+    - id: userDefinedFieldInfo
+      type: CRMScript.NetServer.NSUserDefinedFieldInfo
+      description: "The NSUserDefinedFieldInfo to save."
+    return:
+      type: CRMScript.NetServer.NSUserDefinedFieldInfo
+  example: 
+  - "\n<pre><code>NSUserDefinedFieldInfo  agent;\nNSUserDefinedFieldInfo thing = agent.CreateDefaultUserDefinedFieldInfo();\nthing = agent.SaveUserDefinedFieldInfo(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos(NSUserDefinedFieldInfo[])
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos(NSUserDefinedFieldInfo[])
+  id: 'SaveUserDefinedFieldInfos(NSUserDefinedFieldInfo[])'
+  so.intellisense: NSUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos
+  langs:
+  - crmscript
+  name: 'SaveUserDefinedFieldInfos(NSUserDefinedFieldInfo[])'
+  nameWithType: NSUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos(NSUserDefinedFieldInfo[])
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos(NSUserDefinedFieldInfo[])
+  type: Method
+  summary: "\nSaves an array of user defined fields. This will update the unpublished layout.\n"
+  remarks: 
+  syntax: 
+    content: Void SaveUserDefinedFieldInfos(NSUserDefinedFieldInfo[] infos)
+    parameters:
+    - id: infos
+      type: CRMScript.NetServer.NSUserDefinedFieldInfo[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId(NSUserDefinedFieldInfo,Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId(NSUserDefinedFieldInfo,Integer)
+  id: 'SetListTableIdAndUDListDefinitionIdFromSelectedListId(NSUserDefinedFieldInfo,Integer)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId
+  langs:
+  - crmscript
+  name: 'SetListTableIdAndUDListDefinitionIdFromSelectedListId(NSUserDefinedFieldInfo,Integer)'
+  nameWithType: NSUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId(NSUserDefinedFieldInfo,Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId(NSUserDefinedFieldInfo,Integer)
+  type: Method
+  summary: "\nMakes stuff similar to what happens in the win client\n"
+  remarks: 
+  syntax: 
+    content: NSUserDefinedFieldInfo SetListTableIdAndUDListDefinitionIdFromSelectedListId(NSUserDefinedFieldInfo info, Integer selectedListId)
+    parameters:
+    - id: info
+      type: CRMScript.NetServer.NSUserDefinedFieldInfo
+      description: 
+    - id: selectedListId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSUserDefinedFieldInfo
+  example: 
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetPageOneFieldGrouping(Integer,Bool)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetPageOneFieldGrouping(Integer,Bool)
+  id: 'SetPageOneFieldGrouping(Integer,Bool)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.SetPageOneFieldGrouping
+  langs:
+  - crmscript
+  name: 'SetPageOneFieldGrouping(Integer,Bool)'
+  nameWithType: NSUserDefinedFieldInfoAgent.SetPageOneFieldGrouping(Integer,Bool)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetPageOneFieldGrouping(Integer,Bool)
+  type: Method
+  summary: "\nSets the Page One Field grouping for a specific entity\n"
+  remarks: 
+  syntax: 
+    content: Void SetPageOneFieldGrouping(Integer ownerType, Bool active)
+    parameters:
+    - id: ownerType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UDefType\" data-throw-if-not-resolved=\"false\"></xref>"
+    - id: active
+      type: CRMScript.Global.Bool
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetPublishStartSystemEvent(Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetPublishStartSystemEvent(Integer)
+  id: 'SetPublishStartSystemEvent(Integer)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.SetPublishStartSystemEvent
+  langs:
+  - crmscript
+  name: 'SetPublishStartSystemEvent(Integer)'
+  nameWithType: NSUserDefinedFieldInfoAgent.SetPublishStartSystemEvent(Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetPublishStartSystemEvent(Integer)
+  type: Method
+  summary: "\nSets the start flag for udef publishing. Must be called before PUBLISH, or PUBLISH will fail.\n"
+  remarks: "\nStart flag is removed when publish process completes.\n"
+  syntax: 
+    content: Void SetPublishStartSystemEvent(Integer ownerType)
+    parameters:
+    - id: ownerType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UDefType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetRankOnFields(Integer,Integer[])
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetRankOnFields(Integer,Integer[])
+  id: 'SetRankOnFields(Integer,Integer[])'
+  so.intellisense: NSUserDefinedFieldInfoAgent.SetRankOnFields
+  langs:
+  - crmscript
+  name: 'SetRankOnFields(Integer,Integer[])'
+  nameWithType: NSUserDefinedFieldInfoAgent.SetRankOnFields(Integer,Integer[])
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetRankOnFields(Integer,Integer[])
+  type: Method
+  summary: "\nChanges rank of user defined fields\n"
+  remarks: 
+  syntax: 
+    content: Void SetRankOnFields(Integer ownerType, Integer[] rankedFieldsIds)
+    parameters:
+    - id: ownerType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UDefType\" data-throw-if-not-resolved=\"false\"></xref>"
+    - id: rankedFieldsIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetUserDefinedPageOneField(Integer,Integer,Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetUserDefinedPageOneField(Integer,Integer,Integer,Integer)
+  id: 'SetUserDefinedPageOneField(Integer,Integer,Integer,Integer)'
+  so.intellisense: NSUserDefinedFieldInfoAgent.SetUserDefinedPageOneField
+  langs:
+  - crmscript
+  name: 'SetUserDefinedPageOneField(Integer,Integer,Integer,Integer)'
+  nameWithType: NSUserDefinedFieldInfoAgent.SetUserDefinedPageOneField(Integer,Integer,Integer,Integer)
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent.SetUserDefinedPageOneField(Integer,Integer,Integer,Integer)
+  type: Method
+  summary: "\nSets a user defined field as page one field.\n"
+  remarks: 
+  syntax: 
+    content: Void SetUserDefinedPageOneField(Integer ownerType, Integer udefFieldId, Integer userGroupId, Integer fieldLineNo)
+    parameters:
+    - id: ownerType
+      type: CRMScript.Global.Integer
+      description: "See <xref href=\"CRMScript.NetServer.UDefType\" data-throw-if-not-resolved=\"false\"></xref>"
+    - id: udefFieldId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: userGroupId
+      type: CRMScript.Global.Integer
+      description: 
+    - id: fieldLineNo
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfoAgent
+  commentId: T:CRMScript.NetServer.NSUserDefinedFieldInfoAgent
+  isExternal: true
+  name: NSUserDefinedFieldInfoAgent
+  nameWithType: NSUserDefinedFieldInfoAgent
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfoAgent
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo
+  commentId: T:CRMScript.NetServer.NSUserDefinedFieldInfo
+  isExternal: true
+  name: NSUserDefinedFieldInfo
+  nameWithType: NSUserDefinedFieldInfo
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Bool[]
+  isExternal: true
+  name: Bool[]
+  nameWithType: Bool[]
+  fullName: CRMScript.Global.Bool[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Bool
+    isExternal: true
+    name: Bool
+    nameWithType: Bool
+    fullName: CRMScript.Global.Bool
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.NSFieldInfoBase
+  commentId: T:CRMScript.NetServer.NSFieldInfoBase
+  isExternal: true
+  name: NSFieldInfoBase
+  nameWithType: NSFieldInfoBase
+  fullName: CRMScript.NetServer.NSFieldInfoBase
+- uid: CRMScript.NetServer.NSFieldInfoBase[]
+  isExternal: true
+  name: NSFieldInfoBase[]
+  nameWithType: NSFieldInfoBase[]
+  fullName: CRMScript.NetServer.NSFieldInfoBase[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSFieldInfoBase
+    isExternal: true
+    name: NSFieldInfoBase
+    nameWithType: NSFieldInfoBase
+    fullName: CRMScript.NetServer.NSFieldInfoBase
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSFieldInfoBase
+  commentId: T:CRMScript.NetServer.NSFieldInfoBase
+  isExternal: true
+  name: NSFieldInfoBase
+  nameWithType: NSFieldInfoBase
+  fullName: CRMScript.NetServer.NSFieldInfoBase
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo[]
+  isExternal: true
+  name: NSUserDefinedFieldInfo[]
+  nameWithType: NSUserDefinedFieldInfo[]
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSUserDefinedFieldInfo
+    isExternal: true
+    name: NSUserDefinedFieldInfo
+    nameWithType: NSUserDefinedFieldInfo
+    fullName: CRMScript.NetServer.NSUserDefinedFieldInfo
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.NetServer.NSUserDefinedFieldInfo
+  commentId: T:CRMScript.NetServer.NSUserDefinedFieldInfo
+  isExternal: true
+  name: NSUserDefinedFieldInfo
+  nameWithType: NSUserDefinedFieldInfo
+  fullName: CRMScript.NetServer.NSUserDefinedFieldInfo
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    isExternal: true
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
+  spec.crmscript:
+  - uid: CRMScript.Global.String
+    isExternal: true
+    name: String
+    nameWithType: String
+    fullName: CRMScript.Global.String
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.UDefType
+  commentId: T:CRMScript.NetServer.UDefType
+  isExternal: true
+  name: UDefType
+  nameWithType: UDefType
+  fullName: CRMScript.NetServer.UDefType

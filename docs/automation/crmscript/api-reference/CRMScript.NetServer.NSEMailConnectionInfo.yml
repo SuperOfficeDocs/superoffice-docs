@@ -1,0 +1,276 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSEMailConnectionInfo
+  commentId: T:CRMScript.NetServer.NSEMailConnectionInfo
+  id: NSEMailConnectionInfo
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSEMailConnectionInfo.#ctor
+  - CRMScript.NetServer.NSEMailConnectionInfo.GetFolder()
+  - CRMScript.NetServer.NSEMailConnectionInfo.GetPassword()
+  - CRMScript.NetServer.NSEMailConnectionInfo.GetServerName()
+  - CRMScript.NetServer.NSEMailConnectionInfo.GetUserName()
+  - CRMScript.NetServer.NSEMailConnectionInfo.GetUseSSL()
+  - CRMScript.NetServer.NSEMailConnectionInfo.SetFolder(String)
+  - CRMScript.NetServer.NSEMailConnectionInfo.SetPassword(String)
+  - CRMScript.NetServer.NSEMailConnectionInfo.SetServerName(String)
+  - CRMScript.NetServer.NSEMailConnectionInfo.SetUserName(String)
+  - CRMScript.NetServer.NSEMailConnectionInfo.SetUseSSL(Bool)
+  name: NSEMailConnectionInfo
+  nameWithType: NSEMailConnectionInfo
+  fullName: CRMScript.NetServer.NSEMailConnectionInfo
+  type: Class
+  summary: "\nAll information needed to connect to a mail server.\n"
+  example: 
+- uid: CRMScript.NetServer.NSEMailConnectionInfo.#ctor
+  commentId: M:CRMScript.NetServer.NSEMailConnectionInfo.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSEMailConnectionInfo
+  langs:
+  - crmscript
+  name: NSEMailConnectionInfo()
+  nameWithType: NSEMailConnectionInfo.#ctor
+  fullName: CRMScript.NetServer.NSEMailConnectionInfo.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSEMailConnectionInfo class.\n"
+  remarks: 
+  syntax: 
+    content: NSEMailConnectionInfo
+  example: 
+- uid: CRMScript.NetServer.NSEMailConnectionInfo.GetFolder()
+  commentId: M:CRMScript.NetServer.NSEMailConnectionInfo.GetFolder()
+  id: 'GetFolder()'
+  so.intellisense: NSEMailConnectionInfo.GetFolder
+  langs:
+  - crmscript
+  name: 'GetFolder()'
+  nameWithType: NSEMailConnectionInfo.GetFolder()
+  fullName: CRMScript.NetServer.NSEMailConnectionInfo.GetFolder()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFolder()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Optional folder to set as current after logging in."
+  example: 
+  - "\n<pre><code>NSEMailConnectionInfo thing;\nString folder = thing.GetFolder();</code></pre>\n"
+- uid: CRMScript.NetServer.NSEMailConnectionInfo.GetPassword()
+  commentId: M:CRMScript.NetServer.NSEMailConnectionInfo.GetPassword()
+  id: 'GetPassword()'
+  so.intellisense: NSEMailConnectionInfo.GetPassword
+  langs:
+  - crmscript
+  name: 'GetPassword()'
+  nameWithType: NSEMailConnectionInfo.GetPassword()
+  fullName: CRMScript.NetServer.NSEMailConnectionInfo.GetPassword()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPassword()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Password for the username."
+  example: 
+  - "\n<pre><code>NSEMailConnectionInfo thing;\nString password = thing.GetPassword();</code></pre>\n"
+- uid: CRMScript.NetServer.NSEMailConnectionInfo.GetServerName()
+  commentId: M:CRMScript.NetServer.NSEMailConnectionInfo.GetServerName()
+  id: 'GetServerName()'
+  so.intellisense: NSEMailConnectionInfo.GetServerName
+  langs:
+  - crmscript
+  name: 'GetServerName()'
+  nameWithType: NSEMailConnectionInfo.GetServerName()
+  fullName: CRMScript.NetServer.NSEMailConnectionInfo.GetServerName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetServerName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: Hostname or IP to server to connect to. Custom ports may be specified by adding ':' and the port number after the name/ip. For example, '127.0.0.1:6543'
+  example: 
+  - "\n<pre><code>NSEMailConnectionInfo thing;\nString serverName = thing.GetServerName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSEMailConnectionInfo.GetUserName()
+  commentId: M:CRMScript.NetServer.NSEMailConnectionInfo.GetUserName()
+  id: 'GetUserName()'
+  so.intellisense: NSEMailConnectionInfo.GetUserName
+  langs:
+  - crmscript
+  name: 'GetUserName()'
+  nameWithType: NSEMailConnectionInfo.GetUserName()
+  fullName: CRMScript.NetServer.NSEMailConnectionInfo.GetUserName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetUserName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Name of user to log in with."
+  example: 
+  - "\n<pre><code>NSEMailConnectionInfo thing;\nString userName = thing.GetUserName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSEMailConnectionInfo.GetUseSSL()
+  commentId: M:CRMScript.NetServer.NSEMailConnectionInfo.GetUseSSL()
+  id: 'GetUseSSL()'
+  so.intellisense: NSEMailConnectionInfo.GetUseSSL
+  langs:
+  - crmscript
+  name: 'GetUseSSL()'
+  nameWithType: NSEMailConnectionInfo.GetUseSSL()
+  fullName: CRMScript.NetServer.NSEMailConnectionInfo.GetUseSSL()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetUseSSL()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Use a secure connection with the server."
+  example: 
+  - "\n<pre><code>NSEMailConnectionInfo thing;\nBool useSSL = thing.GetUseSSL();</code></pre>\n"
+- uid: CRMScript.NetServer.NSEMailConnectionInfo.SetFolder(String)
+  commentId: M:CRMScript.NetServer.NSEMailConnectionInfo.SetFolder(String)
+  id: 'SetFolder(String)'
+  so.intellisense: NSEMailConnectionInfo.SetFolder
+  langs:
+  - crmscript
+  name: 'SetFolder(String)'
+  nameWithType: NSEMailConnectionInfo.SetFolder(String)
+  fullName: CRMScript.NetServer.NSEMailConnectionInfo.SetFolder(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFolder(String folder)
+    parameters:
+    - id: folder
+      type: CRMScript.Global.String
+      description: "Optional folder to set as current after logging in."
+    return:
+      type: CRMScript.Global.Void
+      description: 
+  example: 
+  - "\n<pre><code>NSEMailConnectionInfo thing;\nString folder;\nthing.SetFolder(folder);</code></pre>\n"
+- uid: CRMScript.NetServer.NSEMailConnectionInfo.SetPassword(String)
+  commentId: M:CRMScript.NetServer.NSEMailConnectionInfo.SetPassword(String)
+  id: 'SetPassword(String)'
+  so.intellisense: NSEMailConnectionInfo.SetPassword
+  langs:
+  - crmscript
+  name: 'SetPassword(String)'
+  nameWithType: NSEMailConnectionInfo.SetPassword(String)
+  fullName: CRMScript.NetServer.NSEMailConnectionInfo.SetPassword(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPassword(String password)
+    parameters:
+    - id: password
+      type: CRMScript.Global.String
+      description: "Password for the username."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSEMailConnectionInfo thing;\nString password;\nthing.SetPassword(password);</code></pre>\n"
+- uid: CRMScript.NetServer.NSEMailConnectionInfo.SetServerName(String)
+  commentId: M:CRMScript.NetServer.NSEMailConnectionInfo.SetServerName(String)
+  id: 'SetServerName(String)'
+  so.intellisense: NSEMailConnectionInfo.SetServerName
+  langs:
+  - crmscript
+  name: 'SetServerName(String)'
+  nameWithType: NSEMailConnectionInfo.SetServerName(String)
+  fullName: CRMScript.NetServer.NSEMailConnectionInfo.SetServerName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetServerName(String serverName)
+    parameters:
+    - id: serverName
+      type: CRMScript.Global.String
+      description: Hostname or IP to server to connect to. Custom ports may be specified by adding ':' and the port number after the name/ip. For example, '127.0.0.1:6543'
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSEMailConnectionInfo thing;\nString serverName;\nthing.SetServerName(serverName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSEMailConnectionInfo.SetUserName(String)
+  commentId: M:CRMScript.NetServer.NSEMailConnectionInfo.SetUserName(String)
+  id: 'SetUserName(String)'
+  so.intellisense: NSEMailConnectionInfo.SetUserName
+  langs:
+  - crmscript
+  name: 'SetUserName(String)'
+  nameWithType: NSEMailConnectionInfo.SetUserName(String)
+  fullName: CRMScript.NetServer.NSEMailConnectionInfo.SetUserName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUserName(String userName)
+    parameters:
+    - id: userName
+      type: CRMScript.Global.String
+      description: "Name of user to log in with."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSEMailConnectionInfo thing;\nString userName;\nthing.SetUserName(userName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSEMailConnectionInfo.SetUseSSL(Bool)
+  commentId: M:CRMScript.NetServer.NSEMailConnectionInfo.SetUseSSL(Bool)
+  id: 'SetUseSSL(Bool)'
+  so.intellisense: NSEMailConnectionInfo.SetUseSSL
+  langs:
+  - crmscript
+  name: 'SetUseSSL(Bool)'
+  nameWithType: NSEMailConnectionInfo.SetUseSSL(Bool)
+  fullName: CRMScript.NetServer.NSEMailConnectionInfo.SetUseSSL(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUseSSL(Bool useSSL)
+    parameters:
+    - id: useSSL
+      type: CRMScript.Global.Bool
+      description: Use a secure connection with the server?
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSEMailConnectionInfo thing;\nBool useSSL;\nthing.SetUseSSL(useSSL);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSEMailConnectionInfo
+  commentId: T:CRMScript.NetServer.NSEMailConnectionInfo
+  isExternal: true
+  name: NSEMailConnectionInfo
+  nameWithType: NSEMailConnectionInfo
+  fullName: CRMScript.NetServer.NSEMailConnectionInfo
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

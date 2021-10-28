@@ -1,0 +1,232 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Global.Float
+  commentId: T:CRMScript.Global.Float
+  id: Float
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Global.Float.#ctor
+  - CRMScript.Global.Float.#ctor(Float)
+  - CRMScript.Global.Float.#ctor(Integer)
+  - CRMScript.Global.Float.#ctor(String)
+  - CRMScript.Global.Float.toString(Integer)
+  - CRMScript.Global.Float.abs()
+  - CRMScript.Global.Float.floor()
+  - CRMScript.Global.Float.round()
+  - CRMScript.Global.Float.isNull()
+  name: Float
+  nameWithType: Float
+  fullName: CRMScript.Global.Float
+  type: Class
+  summary: "\nA class for representing floating point numbers as objects. Floats are approximations of real numbers written with decimals. If you don't need to work with decimals, use the Integer data type.\n"
+  example:
+  - "\n<pre><code>Integer i = 42;\nFloat f = 3.14;</code></pre>\n"
+- uid: CRMScript.Global.Float.#ctor
+  commentId: M:CRMScript.Global.Float.#ctor
+  id: '#ctor'
+  so.intellisense: Void.Float
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Float
+  name: Float()
+  nameWithType: Float.Float()
+  fullName: CRMScript.Global.Float.Float()
+  type: Constructor
+  summary: "\nDefault constructor.\n"
+  example:
+  syntax:
+    content: Float Float()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+- uid: CRMScript.Global.Float.#ctor(Float)
+  commentId: M:CRMScript.Global.Float.#ctor(Float)
+  id: '#ctor(Float)'
+  so.intellisense: Void.Float
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Float
+  name: Float(Float)
+  nameWithType: Float.Float(Float)
+  fullName: CRMScript.Global.Float.Float(Float)
+  type: Constructor
+  summary: "\nPass a value to copy into a new object.\n"
+  example:
+  - "\n<pre><code>Float m = 3.14;\nFloat pi = Float(m);\nFloat e = Float(2.71);</code></pre>\n"
+  syntax:
+    content: Float Float(Float value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.Float
+      description: "Float object."
+    return:
+      type: CRMScript.Global.Float
+- uid: CRMScript.Global.Float.#ctor(Integer)
+  commentId: M:CRMScript.Global.Float.#ctor(Integer)
+  id: '#ctor(Integer)'
+  so.intellisense: Void.Float
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Integer
+  name: Float(Integer)
+  nameWithType: Float.Float(Integer)
+  fullName: CRMScript.Global.Float.Float(Integer)
+  type: Constructor
+  summary: "\nPass an Integer and have it converted to a Float object.\n"
+  example:
+  - "\n<pre><code>Integer n = 10;\nFloat discount = Float(n);\nFloat vat = Float(25);\nprintLine(discount.toString(1) + &quot;, &quot; + vat.toString(2));</code></pre>\n"
+  syntax:
+    content: Float Float(Integer value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.Integer
+      description: "Integer object."
+    return:
+      type: CRMScript.Global.Float
+- uid: CRMScript.Global.Float.#ctor(String)
+  commentId: M:CRMScript.Global.Float.#ctor(String)
+  id: '#ctor(String)'
+  so.intellisense: Void.Float
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Float
+  name: Float(String)
+  nameWithType: Float.Float(String)
+  fullName: CRMScript.Global.Float.Float(String)
+  type: Constructor
+  summary: "\nPass a String containing a number. The constructor will parse the text and create a Float object.\n"
+  example:
+  - "\n<pre><code>String o = &quot;1.618&quot;;\nFloat phi = Float(o);\nFloat twoSquared = Float(&quot;1.4142&quot;);</code></pre>\n"
+  syntax:
+    content: Float Float(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: "A String containing a number. For example &quot;3.14&quot;."
+    return:
+      type: CRMScript.Global.Float
+- uid: CRMScript.Global.Float.toString(Integer)
+  commentId: M:CRMScript.Global.Float.toString(Integer)
+  id: toString(Integer)
+  so.intellisense: Float.toString
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Float
+  name: toString(Integer)
+  nameWithType: Float.toString(Integer)
+  fullName: CRMScript.Global.Float.toString(Integer)
+  type: Method
+  summary: "\nConverts a float value to its string representation.<p></p>\nOne of the most frequently used methods, typically when you are going to output something.\n"
+  remarks: "\nYou must always specify how many decimal digits you want.\n"
+  example:
+  - "\n<pre><code>Float pi = 3.14159;\nfor(Integer i = 0; i &lt; 6; i++) {\n\tprintLine(pi.toString(i));\n}</code></pre>\n"
+  syntax:
+    content: String toString(Integer decimals)
+    parameters:
+    - id: decimals
+      type: CRMScript.Global.Integer
+      description: "Number of decimal digits."
+    return:
+      type: CRMScript.Global.String
+- uid: CRMScript.Global.Float.abs()
+  commentId: M:CRMScript.Global.Float.abs()
+  id: abs()
+  so.intellisense: Float.abs
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Float
+  name: abs()
+  nameWithType: Float.abs()
+  fullName: CRMScript.Global.Float.abs()
+  type: Method
+  summary: "\nConverts a float value to its absolute value (the non-negative value of the number without regarding the sign).\n"
+  example:
+  - "\n<pre><code>Float i = -7.14;\nprint(i.abs().toString(2));</code></pre>\n"
+  syntax:
+    content: Float abs()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+- uid: CRMScript.Global.Float.floor()
+  commentId: M:CRMScript.Global.Float.floor()
+  id: floor()
+  so.intellisense: Float.floor
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Float
+  name: floor()
+  nameWithType: Float.floor()
+  fullName: CRMScript.Global.Float.floor()
+  type: Method
+  summary: "\nReturns the Integer preceding the decimal separator. The floor of a Float is calculated by rounding downward to the nearest Integer.\n"
+  example:
+  - "\n<pre><code>Float f = 13.456;\nprint(f.floor().toString())</code></pre>\n"
+  syntax:
+    content: Integer floor()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+- uid: CRMScript.Global.Float.round()
+  commentId: M:CRMScript.Global.Float.round()
+  id: round()
+  so.intellisense: Float.round
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Float
+  name: round()
+  nameWithType: Float.round()
+  fullName: CRMScript.Global.Float.round()
+  type: Method
+  summary: "\nReturns the Integer approximation of the Float without any decimals. It is calculated by rounding to the nearest Integer.\n"
+  example:
+  - "\n<pre><code>Float f = 13.79;\nprint(f.round().toString());</code></pre>\n"
+  syntax:
+    content: Integer round()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+- uid: CRMScript.Global.Float.isNull()
+  commentId: M:CRMScript.Global.Float.isNull()
+  id: isNull()
+  so.intellisense: Float.isNull
+  langs:
+  - crmscript
+  parent: CRMScript.Global.Float
+  name: isNull()
+  nameWithType: Float.isNull()
+  fullName: CRMScript.Global.Float.isNull()
+  type: Method
+  summary: "\nReturns true if it has no value and false if it does.\n"
+  remarks: "\nA NULL/NUL/NIL Float is different from zero, in that it is conceptually without a value. However, when a null Float is used naively, CRMScript is usually forgiving and interprets it as zero.`n"
+  syntax:
+    content: Bool isNull()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+references:
+- uid: CRMScript.Global.Float
+  commentId: T:CRMScript.Global.Float
+  isExternal: true
+  name: Float
+  nameWithType: Float
+  fullName: CRMScript.Global.Float
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool

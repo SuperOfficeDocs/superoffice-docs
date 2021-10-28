@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSFieldInfoBool
+  commentId: T:CRMScript.NetServer.NSFieldInfoBool
+  id: NSFieldInfoBool
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSFieldInfoBool.GetDefaultValue()
+  - CRMScript.NetServer.NSFieldInfoBool.SetDefaultValue(Bool)
+  - CRMScript.NetServer.NSFieldInfoBool.#ctor
+  name: NSFieldInfoBool
+  nameWithType: NSFieldInfoBool
+  fullName: CRMScript.NetServer.NSFieldInfoBool
+  type: Class
+  summary: "\nBoolean custom database field. Typically rendered as a checkbox.\n"
+  example: 
+- uid: CRMScript.NetServer.NSFieldInfoBool.#ctor
+  commentId: M:CRMScript.NetServer.NSFieldInfoBool.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSFieldInfoBool
+  langs:
+  - crmscript
+  name: NSFieldInfoBool()
+  nameWithType: NSFieldInfoBool.#ctor
+  fullName: CRMScript.NetServer.NSFieldInfoBool.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSFieldInfoBool class.\n"
+  remarks: 
+  syntax: 
+    content: NSFieldInfoBool
+  example: 
+- uid: CRMScript.NetServer.NSFieldInfoBool.GetDefaultValue()
+  commentId: M:CRMScript.NetServer.NSFieldInfoBool.GetDefaultValue()
+  id: 'GetDefaultValue()'
+  so.intellisense: NSFieldInfoBool.GetDefaultValue
+  langs:
+  - crmscript
+  name: 'GetDefaultValue()'
+  nameWithType: NSFieldInfoBool.GetDefaultValue()
+  fullName: CRMScript.NetServer.NSFieldInfoBool.GetDefaultValue()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetDefaultValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Default boolean value."
+  example: 
+  - "\n<pre><code>NSFieldInfoBool thing;\nBool defaultValue = thing.GetDefaultValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSFieldInfoBool.SetDefaultValue(Bool)
+  commentId: M:CRMScript.NetServer.NSFieldInfoBool.SetDefaultValue(Bool)
+  id: 'SetDefaultValue(Bool)'
+  so.intellisense: NSFieldInfoBool.SetDefaultValue
+  langs:
+  - crmscript
+  name: 'SetDefaultValue(Bool)'
+  nameWithType: NSFieldInfoBool.SetDefaultValue(Bool)
+  fullName: CRMScript.NetServer.NSFieldInfoBool.SetDefaultValue(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDefaultValue(Bool defaultValue)
+    parameters:
+    - id: defaultValue
+      type: CRMScript.Global.Bool
+      description: "Default boolean value."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSFieldInfoBool thing;\nBool defaultValue;\nthing.SetDefaultValue(defaultValue);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSFieldInfoBool
+  commentId: T:CRMScript.NetServer.NSFieldInfoBool
+  isExternal: true
+  name: NSFieldInfoBool
+  nameWithType: NSFieldInfoBool
+  fullName: CRMScript.NetServer.NSFieldInfoBool
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

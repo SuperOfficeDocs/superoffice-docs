@@ -1,0 +1,325 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSPluginUrlResponse
+  commentId: T:CRMScript.NetServer.NSPluginUrlResponse
+  id: NSPluginUrlResponse
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSPluginUrlResponse.#ctor
+  - CRMScript.NetServer.NSPluginUrlResponse.GetChanges()
+  - CRMScript.NetServer.NSPluginUrlResponse.GetErrorCode()
+  - CRMScript.NetServer.NSPluginUrlResponse.GetIsOk()
+  - CRMScript.NetServer.NSPluginUrlResponse.GetTechExplanation()
+  - CRMScript.NetServer.NSPluginUrlResponse.GetUrl()
+  - CRMScript.NetServer.NSPluginUrlResponse.GetUserExplanation()
+  - CRMScript.NetServer.NSPluginUrlResponse.SetChanges(NSChangedData)
+  - CRMScript.NetServer.NSPluginUrlResponse.SetErrorCode(String)
+  - CRMScript.NetServer.NSPluginUrlResponse.SetIsOk(Bool)
+  - CRMScript.NetServer.NSPluginUrlResponse.SetTechExplanation(String)
+  - CRMScript.NetServer.NSPluginUrlResponse.SetUrl(String)
+  - CRMScript.NetServer.NSPluginUrlResponse.SetUserExplanation(String)
+  name: NSPluginUrlResponse
+  nameWithType: NSPluginUrlResponse
+  fullName: CRMScript.NetServer.NSPluginUrlResponse
+  type: Class
+  summary: "\nTo be able to respond with more than just a true/false, but also an explanation. Such an explanation can be displayed on for instance a disabled “Place Order” button. In addition, an URL can be returned, which the GUI should navigate to/display if it is non-blank. The URL can be an SoProtocol or HTTP or HTTPS.\n"
+  example: 
+- uid: CRMScript.NetServer.NSPluginUrlResponse.#ctor
+  commentId: M:CRMScript.NetServer.NSPluginUrlResponse.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSPluginUrlResponse
+  langs:
+  - crmscript
+  name: NSPluginUrlResponse()
+  nameWithType: NSPluginUrlResponse.#ctor
+  fullName: CRMScript.NetServer.NSPluginUrlResponse.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSPluginUrlResponse class.\n"
+  remarks: 
+  syntax: 
+    content: NSPluginUrlResponse
+  example: 
+- uid: CRMScript.NetServer.NSPluginUrlResponse.GetChanges()
+  commentId: M:CRMScript.NetServer.NSPluginUrlResponse.GetChanges()
+  id: 'GetChanges()'
+  so.intellisense: NSPluginUrlResponse.GetChanges
+  langs:
+  - crmscript
+  name: 'GetChanges()'
+  nameWithType: NSPluginUrlResponse.GetChanges()
+  fullName: CRMScript.NetServer.NSPluginUrlResponse.GetChanges()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: NSChangedData GetChanges()
+    parameters: []
+    return:
+      type: CRMScript.NetServer.NSChangedData
+      description: "Table name/record ID of data changed by this method, that the client may need to reload."
+  example: 
+  - "\n<pre><code>NSPluginUrlResponse thing;\nNSChangedData changes = thing.GetChanges();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPluginUrlResponse.GetErrorCode()
+  commentId: M:CRMScript.NetServer.NSPluginUrlResponse.GetErrorCode()
+  id: 'GetErrorCode()'
+  so.intellisense: NSPluginUrlResponse.GetErrorCode
+  langs:
+  - crmscript
+  name: 'GetErrorCode()'
+  nameWithType: NSPluginUrlResponse.GetErrorCode()
+  fullName: CRMScript.NetServer.NSPluginUrlResponse.GetErrorCode()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetErrorCode()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "An error code, if available."
+  example: 
+  - "\n<pre><code>NSPluginUrlResponse thing;\nString errorCode = thing.GetErrorCode();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPluginUrlResponse.GetIsOk()
+  commentId: M:CRMScript.NetServer.NSPluginUrlResponse.GetIsOk()
+  id: 'GetIsOk()'
+  so.intellisense: NSPluginUrlResponse.GetIsOk
+  langs:
+  - crmscript
+  name: 'GetIsOk()'
+  nameWithType: NSPluginUrlResponse.GetIsOk()
+  fullName: CRMScript.NetServer.NSPluginUrlResponse.GetIsOk()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Bool GetIsOk()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description: "Answer to the question / An indication if the operation went well."
+  example: 
+  - "\n<pre><code>NSPluginUrlResponse thing;\nBool isOk = thing.GetIsOk();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPluginUrlResponse.GetTechExplanation()
+  commentId: M:CRMScript.NetServer.NSPluginUrlResponse.GetTechExplanation()
+  id: 'GetTechExplanation()'
+  so.intellisense: NSPluginUrlResponse.GetTechExplanation
+  langs:
+  - crmscript
+  name: 'GetTechExplanation()'
+  nameWithType: NSPluginUrlResponse.GetTechExplanation()
+  fullName: CRMScript.NetServer.NSPluginUrlResponse.GetTechExplanation()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTechExplanation()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Always in English."
+  example: 
+  - "\n<pre><code>NSPluginUrlResponse thing;\nString techExplanation = thing.GetTechExplanation();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPluginUrlResponse.GetUrl()
+  commentId: M:CRMScript.NetServer.NSPluginUrlResponse.GetUrl()
+  id: 'GetUrl()'
+  so.intellisense: NSPluginUrlResponse.GetUrl
+  langs:
+  - crmscript
+  name: 'GetUrl()'
+  nameWithType: NSPluginUrlResponse.GetUrl()
+  fullName: CRMScript.NetServer.NSPluginUrlResponse.GetUrl()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetUrl()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "URL that the GUI should navigate to/open, if non-blank. The GUI cannot enforce any rules subsequent to opening the requested URL."
+  example: 
+  - "\n<pre><code>NSPluginUrlResponse thing;\nString url = thing.GetUrl();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPluginUrlResponse.GetUserExplanation()
+  commentId: M:CRMScript.NetServer.NSPluginUrlResponse.GetUserExplanation()
+  id: 'GetUserExplanation()'
+  so.intellisense: NSPluginUrlResponse.GetUserExplanation
+  langs:
+  - crmscript
+  name: 'GetUserExplanation()'
+  nameWithType: NSPluginUrlResponse.GetUserExplanation()
+  fullName: CRMScript.NetServer.NSPluginUrlResponse.GetUserExplanation()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetUserExplanation()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A localized explanation to the answer."
+  example: 
+  - "\n<pre><code>NSPluginUrlResponse thing;\nString userExplanation = thing.GetUserExplanation();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPluginUrlResponse.SetChanges(NSChangedData)
+  commentId: M:CRMScript.NetServer.NSPluginUrlResponse.SetChanges(NSChangedData)
+  id: 'SetChanges(NSChangedData)'
+  so.intellisense: NSPluginUrlResponse.SetChanges
+  langs:
+  - crmscript
+  name: 'SetChanges(NSChangedData)'
+  nameWithType: NSPluginUrlResponse.SetChanges(NSChangedData)
+  fullName: CRMScript.NetServer.NSPluginUrlResponse.SetChanges(NSChangedData)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetChanges(NSChangedData changes)
+    parameters:
+    - id: changes
+      type: CRMScript.NetServer.NSChangedData
+      description: "Table name/record ID of data changed by this method, that the client may need to reload."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPluginUrlResponse thing;\nNSChangedData changes;\nthing.SetChanges(changes);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPluginUrlResponse.SetErrorCode(String)
+  commentId: M:CRMScript.NetServer.NSPluginUrlResponse.SetErrorCode(String)
+  id: 'SetErrorCode(String)'
+  so.intellisense: NSPluginUrlResponse.SetErrorCode
+  langs:
+  - crmscript
+  name: 'SetErrorCode(String)'
+  nameWithType: NSPluginUrlResponse.SetErrorCode(String)
+  fullName: CRMScript.NetServer.NSPluginUrlResponse.SetErrorCode(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetErrorCode(String errorCode)
+    parameters:
+    - id: errorCode
+      type: CRMScript.Global.String
+      description: "An error code, if available."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPluginUrlResponse thing;\nString errorCode;\nthing.SetErrorCode(errorCode);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPluginUrlResponse.SetIsOk(Bool)
+  commentId: M:CRMScript.NetServer.NSPluginUrlResponse.SetIsOk(Bool)
+  id: 'SetIsOk(Bool)'
+  so.intellisense: NSPluginUrlResponse.SetIsOk
+  langs:
+  - crmscript
+  name: 'SetIsOk(Bool)'
+  nameWithType: NSPluginUrlResponse.SetIsOk(Bool)
+  fullName: CRMScript.NetServer.NSPluginUrlResponse.SetIsOk(Bool)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetIsOk(Bool isOk)
+    parameters:
+    - id: isOk
+      type: CRMScript.Global.Bool
+      description: "Answer to the question / An indication if the operation went well."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPluginUrlResponse thing;\nBool isOk;\nthing.SetIsOk(isOk);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPluginUrlResponse.SetTechExplanation(String)
+  commentId: M:CRMScript.NetServer.NSPluginUrlResponse.SetTechExplanation(String)
+  id: 'SetTechExplanation(String)'
+  so.intellisense: NSPluginUrlResponse.SetTechExplanation
+  langs:
+  - crmscript
+  name: 'SetTechExplanation(String)'
+  nameWithType: NSPluginUrlResponse.SetTechExplanation(String)
+  fullName: CRMScript.NetServer.NSPluginUrlResponse.SetTechExplanation(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTechExplanation(String techExplanation)
+    parameters:
+    - id: techExplanation
+      type: CRMScript.Global.String
+      description: "Always in English."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPluginUrlResponse thing;\nString techExplanation;\nthing.SetTechExplanation(techExplanation);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPluginUrlResponse.SetUrl(String)
+  commentId: M:CRMScript.NetServer.NSPluginUrlResponse.SetUrl(String)
+  id: 'SetUrl(String)'
+  so.intellisense: NSPluginUrlResponse.SetUrl
+  langs:
+  - crmscript
+  name: 'SetUrl(String)'
+  nameWithType: NSPluginUrlResponse.SetUrl(String)
+  fullName: CRMScript.NetServer.NSPluginUrlResponse.SetUrl(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUrl(String url)
+    parameters:
+    - id: url
+      type: CRMScript.Global.String
+      description: "URL that the GUI should navigate to/open, if non-blank. The GUI cannot enforce any rules subsequent to opening the requested URL."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPluginUrlResponse thing;\nString url;\nthing.SetUrl(url);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPluginUrlResponse.SetUserExplanation(String)
+  commentId: M:CRMScript.NetServer.NSPluginUrlResponse.SetUserExplanation(String)
+  id: 'SetUserExplanation(String)'
+  so.intellisense: NSPluginUrlResponse.SetUserExplanation
+  langs:
+  - crmscript
+  name: 'SetUserExplanation(String)'
+  nameWithType: NSPluginUrlResponse.SetUserExplanation(String)
+  fullName: CRMScript.NetServer.NSPluginUrlResponse.SetUserExplanation(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetUserExplanation(String userExplanation)
+    parameters:
+    - id: userExplanation
+      type: CRMScript.Global.String
+      description: "A localized explanation to the answer."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPluginUrlResponse thing;\nString userExplanation;\nthing.SetUserExplanation(userExplanation);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSPluginUrlResponse
+  commentId: T:CRMScript.NetServer.NSPluginUrlResponse
+  isExternal: true
+  name: NSPluginUrlResponse
+  nameWithType: NSPluginUrlResponse
+  fullName: CRMScript.NetServer.NSPluginUrlResponse
+- uid: CRMScript.NetServer.NSChangedData
+  commentId: T:CRMScript.NetServer.NSChangedData
+  isExternal: true
+  name: NSChangedData
+  nameWithType: NSChangedData
+  fullName: CRMScript.NetServer.NSChangedData
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

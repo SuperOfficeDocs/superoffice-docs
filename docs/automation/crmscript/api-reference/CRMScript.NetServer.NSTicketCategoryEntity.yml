@@ -1,0 +1,741 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSTicketCategoryEntity
+  commentId: T:CRMScript.NetServer.NSTicketCategoryEntity
+  id: NSTicketCategoryEntity
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSTicketCategoryEntity.#ctor
+  - CRMScript.NetServer.NSTicketCategoryEntity.GetAssignmentLag()
+  - CRMScript.NetServer.NSTicketCategoryEntity.GetCategoryMaster()
+  - CRMScript.NetServer.NSTicketCategoryEntity.GetClosingStatus()
+  - CRMScript.NetServer.NSTicketCategoryEntity.GetCustomFields()
+  - CRMScript.NetServer.NSTicketCategoryEntity.GetDelegateMethod()
+  - CRMScript.NetServer.NSTicketCategoryEntity.GetExternalName()
+  - CRMScript.NetServer.NSTicketCategoryEntity.GetExtraFields()
+  - CRMScript.NetServer.NSTicketCategoryEntity.GetFlags()
+  - CRMScript.NetServer.NSTicketCategoryEntity.GetFullname()
+  - CRMScript.NetServer.NSTicketCategoryEntity.GetMsgClosingStatus()
+  - CRMScript.NetServer.NSTicketCategoryEntity.GetName()
+  - CRMScript.NetServer.NSTicketCategoryEntity.GetNotificationEmail()
+  - CRMScript.NetServer.NSTicketCategoryEntity.GetParentId()
+  - CRMScript.NetServer.NSTicketCategoryEntity.GetReplyTemplate()
+  - CRMScript.NetServer.NSTicketCategoryEntity.GetTicketCategoryId()
+  - CRMScript.NetServer.NSTicketCategoryEntity.SetAssignmentLag(Integer)
+  - CRMScript.NetServer.NSTicketCategoryEntity.SetCategoryMaster(Integer)
+  - CRMScript.NetServer.NSTicketCategoryEntity.SetClosingStatus(Integer)
+  - CRMScript.NetServer.NSTicketCategoryEntity.SetCustomFields(Map)
+  - CRMScript.NetServer.NSTicketCategoryEntity.SetDelegateMethod(Integer)
+  - CRMScript.NetServer.NSTicketCategoryEntity.SetExternalName(String)
+  - CRMScript.NetServer.NSTicketCategoryEntity.SetExtraFields(Map)
+  - CRMScript.NetServer.NSTicketCategoryEntity.SetFlags(Integer)
+  - CRMScript.NetServer.NSTicketCategoryEntity.SetFullname(String)
+  - CRMScript.NetServer.NSTicketCategoryEntity.SetMsgClosingStatus(Integer)
+  - CRMScript.NetServer.NSTicketCategoryEntity.SetName(String)
+  - CRMScript.NetServer.NSTicketCategoryEntity.SetNotificationEmail(String)
+  - CRMScript.NetServer.NSTicketCategoryEntity.SetParentId(Integer)
+  - CRMScript.NetServer.NSTicketCategoryEntity.SetReplyTemplate(Integer)
+  - CRMScript.NetServer.NSTicketCategoryEntity.SetTicketCategoryId(Integer)
+  name: NSTicketCategoryEntity
+  nameWithType: NSTicketCategoryEntity
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity
+  type: Class
+  summary: "\nDescribes the meta data for a ticket category, and provides special operations on it.\n"
+  example: 
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.#ctor
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSTicketCategoryEntity
+  langs:
+  - crmscript
+  name: NSTicketCategoryEntity()
+  nameWithType: NSTicketCategoryEntity.#ctor
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSTicketCategoryEntity class.\n"
+  remarks: 
+  syntax: 
+    content: NSTicketCategoryEntity
+  example: 
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.GetAssignmentLag()
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetAssignmentLag()
+  id: 'GetAssignmentLag()'
+  so.intellisense: NSTicketCategoryEntity.GetAssignmentLag
+  langs:
+  - crmscript
+  name: 'GetAssignmentLag()'
+  nameWithType: NSTicketCategoryEntity.GetAssignmentLag()
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.GetAssignmentLag()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetAssignmentLag()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Number of minutes we shall override the assignment if a customer sends consecutive messages to this category."
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nInteger assignmentLag = thing.GetAssignmentLag();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.GetCategoryMaster()
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetCategoryMaster()
+  id: 'GetCategoryMaster()'
+  so.intellisense: NSTicketCategoryEntity.GetCategoryMaster
+  langs:
+  - crmscript
+  name: 'GetCategoryMaster()'
+  nameWithType: NSTicketCategoryEntity.GetCategoryMaster()
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.GetCategoryMaster()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetCategoryMaster()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The user associated with this category."
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nInteger categoryMaster = thing.GetCategoryMaster();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.GetClosingStatus()
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetClosingStatus()
+  id: 'GetClosingStatus()'
+  so.intellisense: NSTicketCategoryEntity.GetClosingStatus
+  langs:
+  - crmscript
+  name: 'GetClosingStatus()'
+  nameWithType: NSTicketCategoryEntity.GetClosingStatus()
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.GetClosingStatus()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetClosingStatus()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Should new requests have the 'close request' in this category checked as default, or should the users preferences be selected? See <xref href=\"CRMScript.NetServer.TicketCategoryClosingStatus\" data-throw-if-not-resolved=\"false\"></xref>"
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nInteger closingStatus = thing.GetClosingStatus();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.GetCustomFields()
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetCustomFields()
+  id: 'GetCustomFields()'
+  so.intellisense: NSTicketCategoryEntity.GetCustomFields
+  langs:
+  - crmscript
+  name: 'GetCustomFields()'
+  nameWithType: NSTicketCategoryEntity.GetCustomFields()
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.GetCustomFields()
+  type: Method
+  summary: "\nGets the user-defined + extra fields on an NSTicketCategoryEntity as a map.\n"
+  remarks: 
+  syntax: 
+    content: Map GetCustomFields()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nMap udefs = thing.GetCustomFields();\nlog( udefs[&quot;SuperOffice:1&quot;] ); // &quot;[I:123]&quot;* integer or list item id\nlog( udefs[&quot;SuperOffice:1:DisplayText&quot;] ); // &quot;bla bla&quot;* list item value\nlog( udefs[&quot;custom.progid&quot;] ); // &quot;foobar&quot;* string value\nlog( udefs[&quot;x_bar&quot;] ); // &quot;[I:123]&quot;* list item id\nlog( udefs[&quot;x_bar:DisplayText&quot;] ); // &quot;foobar&quot;* list item name value</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.GetDelegateMethod()
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetDelegateMethod()
+  id: 'GetDelegateMethod()'
+  so.intellisense: NSTicketCategoryEntity.GetDelegateMethod
+  langs:
+  - crmscript
+  name: 'GetDelegateMethod()'
+  nameWithType: NSTicketCategoryEntity.GetDelegateMethod()
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.GetDelegateMethod()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetDelegateMethod()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "An integer indicating the delegation method for this category. See <xref href=\"CRMScript.NetServer.TicketCategoryDelegateMethod\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nInteger delegateMethod = thing.GetDelegateMethod();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.GetExternalName()
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetExternalName()
+  id: 'GetExternalName()'
+  so.intellisense: NSTicketCategoryEntity.GetExternalName
+  langs:
+  - crmscript
+  name: 'GetExternalName()'
+  nameWithType: NSTicketCategoryEntity.GetExternalName()
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.GetExternalName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetExternalName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The external name for this category, used for the customer frontend."
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nString externalName = thing.GetExternalName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.GetExtraFields()
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetExtraFields()
+  id: 'GetExtraFields()'
+  so.intellisense: NSTicketCategoryEntity.GetExtraFields
+  langs:
+  - crmscript
+  name: 'GetExtraFields()'
+  nameWithType: NSTicketCategoryEntity.GetExtraFields()
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.GetExtraFields()
+  type: Method
+  summary: "\nGets the extra fields on NSTicketCategoryEntity as a map.\n"
+  remarks: 
+  syntax: 
+    content: Map GetExtraFields()
+    parameters: []
+    return:
+      type: CRMScript.Native.Map
+      description: "Map containing extra field values by field name."
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nMap extras = thing.GetExtraFields();\nlog( extras[&quot;x_abc&quot;] ); // &quot;[I:123]&quot;* integer or list item id\nlog( extras[&quot;x_abc:DisplayText&quot;] ); // &quot;bla bla&quot;* list item value\nlog( extras[&quot;x_bla&quot;] ); // &quot;foobar&quot;* string value</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.GetFlags()
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetFlags()
+  id: 'GetFlags()'
+  so.intellisense: NSTicketCategoryEntity.GetFlags
+  langs:
+  - crmscript
+  name: 'GetFlags()'
+  nameWithType: NSTicketCategoryEntity.GetFlags()
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.GetFlags()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetFlags()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "A bitmask representing flags for this category. See <xref href=\"CRMScript.NetServer.TicketCategoryFlags\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nInteger flags = thing.GetFlags();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.GetFullname()
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetFullname()
+  id: 'GetFullname()'
+  so.intellisense: NSTicketCategoryEntity.GetFullname
+  langs:
+  - crmscript
+  name: 'GetFullname()'
+  nameWithType: NSTicketCategoryEntity.GetFullname()
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.GetFullname()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetFullname()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The fullname (compiled from parents' names) for this category. E.g. 'norway/product A/support'."
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nString fullname = thing.GetFullname();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.GetMsgClosingStatus()
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetMsgClosingStatus()
+  id: 'GetMsgClosingStatus()'
+  so.intellisense: NSTicketCategoryEntity.GetMsgClosingStatus
+  langs:
+  - crmscript
+  name: 'GetMsgClosingStatus()'
+  nameWithType: NSTicketCategoryEntity.GetMsgClosingStatus()
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.GetMsgClosingStatus()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetMsgClosingStatus()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Should new messages have the 'close request' in this category checked as default, or should the users preferences be selected? See <xref href=\"CRMScript.NetServer.TicketCategoryClosingStatus\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nInteger msgClosingStatus = thing.GetMsgClosingStatus();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.GetName()
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetName()
+  id: 'GetName()'
+  so.intellisense: NSTicketCategoryEntity.GetName
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSTicketCategoryEntity.GetName()
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.GetName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The (short) name of this category. E.g. 'support'."
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nString name = thing.GetName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.GetNotificationEmail()
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetNotificationEmail()
+  id: 'GetNotificationEmail()'
+  so.intellisense: NSTicketCategoryEntity.GetNotificationEmail
+  langs:
+  - crmscript
+  name: 'GetNotificationEmail()'
+  nameWithType: NSTicketCategoryEntity.GetNotificationEmail()
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.GetNotificationEmail()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetNotificationEmail()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Comma-separated list of addresses to notify when requests are re-delegated to (unassigned) in this category."
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nString notificationEmail = thing.GetNotificationEmail();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.GetParentId()
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetParentId()
+  id: 'GetParentId()'
+  so.intellisense: NSTicketCategoryEntity.GetParentId
+  langs:
+  - crmscript
+  name: 'GetParentId()'
+  nameWithType: NSTicketCategoryEntity.GetParentId()
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.GetParentId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetParentId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The parent category for this category. -1 if this is a top-level category."
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nInteger parentId = thing.GetParentId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.GetReplyTemplate()
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetReplyTemplate()
+  id: 'GetReplyTemplate()'
+  so.intellisense: NSTicketCategoryEntity.GetReplyTemplate
+  langs:
+  - crmscript
+  name: 'GetReplyTemplate()'
+  nameWithType: NSTicketCategoryEntity.GetReplyTemplate()
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.GetReplyTemplate()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetReplyTemplate()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "Reply template to merge with messages posted in this category."
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nInteger replyTemplate = thing.GetReplyTemplate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.GetTicketCategoryId()
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.GetTicketCategoryId()
+  id: 'GetTicketCategoryId()'
+  so.intellisense: NSTicketCategoryEntity.GetTicketCategoryId
+  langs:
+  - crmscript
+  name: 'GetTicketCategoryId()'
+  nameWithType: NSTicketCategoryEntity.GetTicketCategoryId()
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.GetTicketCategoryId()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetTicketCategoryId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the ticket category. (primary key)."
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nInteger ticketCategoryId = thing.GetTicketCategoryId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.SetAssignmentLag(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetAssignmentLag(Integer)
+  id: 'SetAssignmentLag(Integer)'
+  so.intellisense: NSTicketCategoryEntity.SetAssignmentLag
+  langs:
+  - crmscript
+  name: 'SetAssignmentLag(Integer)'
+  nameWithType: NSTicketCategoryEntity.SetAssignmentLag(Integer)
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.SetAssignmentLag(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetAssignmentLag(Integer assignmentLag)
+    parameters:
+    - id: assignmentLag
+      type: CRMScript.Global.Integer
+      description: "Number of minutes we shall override the assignment if a customer sends consecutive messages to this category."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nInteger assignmentLag;\nthing.SetAssignmentLag(assignmentLag);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.SetCategoryMaster(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetCategoryMaster(Integer)
+  id: 'SetCategoryMaster(Integer)'
+  so.intellisense: NSTicketCategoryEntity.SetCategoryMaster
+  langs:
+  - crmscript
+  name: 'SetCategoryMaster(Integer)'
+  nameWithType: NSTicketCategoryEntity.SetCategoryMaster(Integer)
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.SetCategoryMaster(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetCategoryMaster(Integer categoryMaster)
+    parameters:
+    - id: categoryMaster
+      type: CRMScript.Global.Integer
+      description: "The user associated with this category."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nInteger categoryMaster;\nthing.SetCategoryMaster(categoryMaster);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.SetClosingStatus(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetClosingStatus(Integer)
+  id: 'SetClosingStatus(Integer)'
+  so.intellisense: NSTicketCategoryEntity.SetClosingStatus
+  langs:
+  - crmscript
+  name: 'SetClosingStatus(Integer)'
+  nameWithType: NSTicketCategoryEntity.SetClosingStatus(Integer)
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.SetClosingStatus(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetClosingStatus(Integer closingStatus)
+    parameters:
+    - id: closingStatus
+      type: CRMScript.Global.Integer
+      description: "Should new requests have the 'close request' in this category checked as default, or should the users preferences be selected. See <xref href=\"CRMScript.NetServer.TicketCategoryClosingStatus\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nInteger closingStatus;\nthing.SetClosingStatus(closingStatus);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.SetCustomFields(Map)
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetCustomFields(Map)
+  id: 'SetCustomFields(Map)'
+  so.intellisense: NSTicketCategoryEntity.SetCustomFields
+  langs:
+  - crmscript
+  name: 'SetCustomFields(Map)'
+  nameWithType: NSTicketCategoryEntity.SetCustomFields(Map)
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.SetCustomFields(Map)
+  type: Method
+  summary: "\nSets the user-defined and extra fields on an NSTicketCategoryEntity with a map.\n"
+  remarks: 
+  syntax: 
+    content: Void SetCustomFields(Map udefs)
+    parameters:
+    - id: udefs
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nMap udefs;\nudefs[&quot;SuperOffice:1&quot;] = &quot;[I:123]&quot;;\nudefs[&quot;SuperOffice:1&quot;] = &quot;123&quot;; // this will also work, but beware of decimal point variations in different languages\nudefs[&quot;custom.progid&quot;] = &quot;foobar&quot;;\nudefs[&quot;x_foo&quot;] = &quot;foobar&quot;;\nudefs[&quot;x_bar&quot;] = &quot;456&quot;; // List item id\nthing.SetCustomFields(udefs);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.SetDelegateMethod(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetDelegateMethod(Integer)
+  id: 'SetDelegateMethod(Integer)'
+  so.intellisense: NSTicketCategoryEntity.SetDelegateMethod
+  langs:
+  - crmscript
+  name: 'SetDelegateMethod(Integer)'
+  nameWithType: NSTicketCategoryEntity.SetDelegateMethod(Integer)
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.SetDelegateMethod(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDelegateMethod(Integer delegateMethod)
+    parameters:
+    - id: delegateMethod
+      type: CRMScript.Global.Integer
+      description: "An integer indicating the delegation method for this category. See <xref href=\"CRMScript.NetServer.TicketCategoryDelegateMethod\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nInteger delegateMethod;\nthing.SetDelegateMethod(delegateMethod);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.SetExternalName(String)
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetExternalName(String)
+  id: 'SetExternalName(String)'
+  so.intellisense: NSTicketCategoryEntity.SetExternalName
+  langs:
+  - crmscript
+  name: 'SetExternalName(String)'
+  nameWithType: NSTicketCategoryEntity.SetExternalName(String)
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.SetExternalName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetExternalName(String externalName)
+    parameters:
+    - id: externalName
+      type: CRMScript.Global.String
+      description: "The external name for this category, used for the customer frontend."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nString externalName;\nthing.SetExternalName(externalName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.SetExtraFields(Map)
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetExtraFields(Map)
+  id: 'SetExtraFields(Map)'
+  so.intellisense: NSTicketCategoryEntity.SetExtraFields
+  langs:
+  - crmscript
+  name: 'SetExtraFields(Map)'
+  nameWithType: NSTicketCategoryEntity.SetExtraFields(Map)
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.SetExtraFields(Map)
+  type: Method
+  summary: "\nSets the extra field values on NSTicketCategoryEntity with a map.\n"
+  remarks: 
+  syntax: 
+    content: Void SetExtraFields(Map extras)
+    parameters:
+    - id: extras
+      type: CRMScript.Native.Map
+      description:
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nMap extras;\nextras[&quot;SuperOffice:1&quot;] = &quot;[I:123]&quot;;\nextras[&quot;SuperOffice:1&quot;] = &quot;123&quot;; // this will also work, but beware of decimal point variations in different languages\nextras[&quot;custom.progid&quot;] = &quot;foobar&quot;;\nthing.SetExtraFields(extras);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.SetFlags(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetFlags(Integer)
+  id: 'SetFlags(Integer)'
+  so.intellisense: NSTicketCategoryEntity.SetFlags
+  langs:
+  - crmscript
+  name: 'SetFlags(Integer)'
+  nameWithType: NSTicketCategoryEntity.SetFlags(Integer)
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.SetFlags(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFlags(Integer flags)
+    parameters:
+    - id: flags
+      type: CRMScript.Global.Integer
+      description: "A bitmask representing flags for this category. See <xref href=\"CRMScript.NetServer.TicketCategoryFlags\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nInteger flags;\nthing.SetFlags(flags);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.SetFullname(String)
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetFullname(String)
+  id: 'SetFullname(String)'
+  so.intellisense: NSTicketCategoryEntity.SetFullname
+  langs:
+  - crmscript
+  name: 'SetFullname(String)'
+  nameWithType: NSTicketCategoryEntity.SetFullname(String)
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.SetFullname(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetFullname(String fullname)
+    parameters:
+    - id: fullname
+      type: CRMScript.Global.String
+      description: "The fullname (compiled from parents' names) for this category. E.g. 'norway/product A/support'."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nString fullname;\nthing.SetFullname(fullname);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.SetMsgClosingStatus(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetMsgClosingStatus(Integer)
+  id: 'SetMsgClosingStatus(Integer)'
+  so.intellisense: NSTicketCategoryEntity.SetMsgClosingStatus
+  langs:
+  - crmscript
+  name: 'SetMsgClosingStatus(Integer)'
+  nameWithType: NSTicketCategoryEntity.SetMsgClosingStatus(Integer)
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.SetMsgClosingStatus(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetMsgClosingStatus(Integer msgClosingStatus)
+    parameters:
+    - id: msgClosingStatus
+      type: CRMScript.Global.Integer
+      description: "Should new messages have the 'close request' in this category checked as default, or should the users preferences be selected? See <xref href=\"CRMScript.NetServer.TicketCategoryClosingStatus\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nInteger msgClosingStatus;\nthing.SetMsgClosingStatus(msgClosingStatus);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.SetName(String)
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSTicketCategoryEntity.SetName
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSTicketCategoryEntity.SetName(String)
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.SetName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The (short) name of this category. E.g. 'support'."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nString name;\nthing.SetName(name);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.SetNotificationEmail(String)
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetNotificationEmail(String)
+  id: 'SetNotificationEmail(String)'
+  so.intellisense: NSTicketCategoryEntity.SetNotificationEmail
+  langs:
+  - crmscript
+  name: 'SetNotificationEmail(String)'
+  nameWithType: NSTicketCategoryEntity.SetNotificationEmail(String)
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.SetNotificationEmail(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetNotificationEmail(String notificationEmail)
+    parameters:
+    - id: notificationEmail
+      type: CRMScript.Global.String
+      description: "Comma-separated list of addresses to notify when requests are re-delegated to (unassigned) in this category."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nString notificationEmail;\nthing.SetNotificationEmail(notificationEmail);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.SetParentId(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetParentId(Integer)
+  id: 'SetParentId(Integer)'
+  so.intellisense: NSTicketCategoryEntity.SetParentId
+  langs:
+  - crmscript
+  name: 'SetParentId(Integer)'
+  nameWithType: NSTicketCategoryEntity.SetParentId(Integer)
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.SetParentId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetParentId(Integer parentId)
+    parameters:
+    - id: parentId
+      type: CRMScript.Global.Integer
+      description: "The parent category for this category. -1 if this is a top-level category."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nInteger parentId;\nthing.SetParentId(parentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.SetReplyTemplate(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetReplyTemplate(Integer)
+  id: 'SetReplyTemplate(Integer)'
+  so.intellisense: NSTicketCategoryEntity.SetReplyTemplate
+  langs:
+  - crmscript
+  name: 'SetReplyTemplate(Integer)'
+  nameWithType: NSTicketCategoryEntity.SetReplyTemplate(Integer)
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.SetReplyTemplate(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetReplyTemplate(Integer replyTemplate)
+    parameters:
+    - id: replyTemplate
+      type: CRMScript.Global.Integer
+      description: "Reply template to merge with messages posted in this category."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nInteger replyTemplate;\nthing.SetReplyTemplate(replyTemplate);</code></pre>\n"
+- uid: CRMScript.NetServer.NSTicketCategoryEntity.SetTicketCategoryId(Integer)
+  commentId: M:CRMScript.NetServer.NSTicketCategoryEntity.SetTicketCategoryId(Integer)
+  id: 'SetTicketCategoryId(Integer)'
+  so.intellisense: NSTicketCategoryEntity.SetTicketCategoryId
+  langs:
+  - crmscript
+  name: 'SetTicketCategoryId(Integer)'
+  nameWithType: NSTicketCategoryEntity.SetTicketCategoryId(Integer)
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity.SetTicketCategoryId(Integer)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetTicketCategoryId(Integer ticketCategoryId)
+    parameters:
+    - id: ticketCategoryId
+      type: CRMScript.Global.Integer
+      description: "The ID of the ticket category. (primary key)."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSTicketCategoryEntity thing;\nInteger ticketCategoryId;\nthing.SetTicketCategoryId(ticketCategoryId);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSTicketCategoryEntity
+  commentId: T:CRMScript.NetServer.NSTicketCategoryEntity
+  isExternal: true
+  name: NSTicketCategoryEntity
+  nameWithType: NSTicketCategoryEntity
+  fullName: CRMScript.NetServer.NSTicketCategoryEntity
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Native.Map
+  commentId: T:CRMScript.Native.Map
+  isExternal: true
+  name: Map
+  nameWithType: Map
+  fullName: CRMScript.Native.Map
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.NetServer.ChatSessionFlags
+  commentId: T:CRMScript.NetServer.ChatSessionFlags
+  isExternal: true
+  name: ChatSessionFlags
+  nameWithType: ChatSessionFlags
+  fullName: CRMScript.NetServer.ChatSessionFlags
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.TicketCategoryClosingStatus
+  commentId: T:CRMScript.NetServer.TicketCategoryClosingStatus
+  isExternal: true
+  name: TicketCategoryClosingStatus
+  nameWithType: TicketCategoryClosingStatus
+  fullName: CRMScript.NetServer.TicketCategoryClosingStatus
+- uid: CRMScript.NetServer.TicketCategoryDelegateMethod
+  commentId: T:CRMScript.NetServer.TicketCategoryDelegateMethod
+  isExternal: true
+  name: TicketCategoryDelegateMethod
+  nameWithType: TicketCategoryDelegateMethod
+  fullName: CRMScript.NetServer.TicketCategoryDelegateMethod
+- uid: CRMScript.NetServer.TicketCategoryFlags
+  commentId: T:SuperOffice.Data.TicketCategoryFlags
+  isExternal: true
+  name: TicketCategoryFlags
+  nameWithType: TicketCategoryFlags
+  fullName: CRMScript.NetServer.TicketCategoryFlags

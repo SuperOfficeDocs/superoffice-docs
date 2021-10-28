@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSProjectStatus
+  commentId: T:CRMScript.NetServer.NSProjectStatus
+  id: NSProjectStatus
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSProjectStatus.#ctor
+  - CRMScript.NetServer.NSProjectStatus.GetId()
+  - CRMScript.NetServer.NSProjectStatus.GetTooltip()
+  - CRMScript.NetServer.NSProjectStatus.GetValue()
+  - CRMScript.NetServer.NSProjectStatus.SetId(Integer)
+  - CRMScript.NetServer.NSProjectStatus.SetTooltip(String)
+  - CRMScript.NetServer.NSProjectStatus.SetValue(String)
+  name: NSProjectStatus
+  nameWithType: NSProjectStatus
+  fullName: CRMScript.NetServer.NSProjectStatus
+  type: Class
+  summary: "\nCarrier object for ProjectStatus.\n"
+  example: 
+- uid: CRMScript.NetServer.NSProjectStatus.#ctor
+  commentId: M:CRMScript.NetServer.NSProjectStatus.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSProjectStatus
+  langs:
+  - crmscript
+  name: NSProjectStatus()
+  nameWithType: NSProjectStatus.#ctor
+  fullName: CRMScript.NetServer.NSProjectStatus.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSProjectStatus class.\n"
+  remarks: 
+  syntax: 
+    content: NSProjectStatus
+  example: 
+- uid: CRMScript.NetServer.NSProjectStatus.GetId()
+  commentId: M:CRMScript.NetServer.NSProjectStatus.GetId()
+  id: 'GetId()'
+  so.intellisense: NSProjectStatus.GetId
+  langs:
+  - crmscript
+  name: 'GetId()'
+  nameWithType: NSProjectStatus.GetId()
+  fullName: CRMScript.NetServer.NSProjectStatus.GetId()
+  type: Method
+  summary: "\nGets the primary key (ID) for the NSProjectStatus.\n"
+  remarks: 
+  syntax: 
+    content: Integer GetId()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "NSProjectStatus Id."
+  example: 
+  - "\n<pre><code>NSProjectStatus thing;\nInteger id = thing.GetId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectStatus.GetTooltip()
+  commentId: M:CRMScript.NetServer.NSProjectStatus.GetTooltip()
+  id: 'GetTooltip()'
+  so.intellisense: NSProjectStatus.GetTooltip
+  langs:
+  - crmscript
+  name: 'GetTooltip()'
+  nameWithType: NSProjectStatus.GetTooltip()
+  fullName: CRMScript.NetServer.NSProjectStatus.GetTooltip()
+  type: Method
+  summary: "\nGets the tooltip description for the NSProjectStatus list item.\n"
+  remarks: 
+  syntax: 
+    content: String GetTooltip()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "NSProjectStatus tooltip description."
+  example: 
+  - "\n<pre><code>NSProjectStatus thing;\nString descr = thing.GetTooltip();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectStatus.GetValue()
+  commentId: M:CRMScript.NetServer.NSProjectStatus.GetValue()
+  id: 'GetValue()'
+  so.intellisense: NSProjectStatus.GetValue
+  langs:
+  - crmscript
+  name: 'GetValue()'
+  nameWithType: NSProjectStatus.GetValue()
+  fullName: CRMScript.NetServer.NSProjectStatus.GetValue()
+  type: Method
+  summary: "\nGets the name of the NSProjectStatus.\n"
+  remarks: 
+  syntax: 
+    content: String GetValue()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "NSProjectStatus name."
+  example: 
+  - "\n<pre><code>NSProjectStatus thing;\nString name = thing.GetValue();</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectStatus.SetId(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectStatus.SetId(Integer)
+  id: 'SetId(Integer)'
+  so.intellisense: NSProjectStatus.SetId
+  langs:
+  - crmscript
+  name: 'SetId(Integer)'
+  nameWithType: NSProjectStatus.SetId(Integer)
+  fullName: CRMScript.NetServer.NSProjectStatus.SetId(Integer)
+  type: Method
+  summary: "\nSets the primary key (ID) for the NSProjectStatus\n"
+  remarks: 
+  syntax: 
+    content: Void SetId(Integer id)
+    parameters:
+    - id: id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectStatus thing;\nthing.SetId(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectStatus.SetTooltip(String)
+  commentId: M:CRMScript.NetServer.NSProjectStatus.SetTooltip(String)
+  id: 'SetTooltip(String)'
+  so.intellisense: NSProjectStatus.SetTooltip
+  langs:
+  - crmscript
+  name: 'SetTooltip(String)'
+  nameWithType: NSProjectStatus.SetTooltip(String)
+  fullName: CRMScript.NetServer.NSProjectStatus.SetTooltip(String)
+  type: Method
+  summary: "\nSets the tooltip description for the NSProjectStatus list item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetTooltip(String tooltip)
+    parameters:
+    - id: tooltip
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectStatus thing;\nString descr = &quot;something new&quot;;\nthing.SetTooltip(descr);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectStatus.SetValue(String)
+  commentId: M:CRMScript.NetServer.NSProjectStatus.SetValue(String)
+  id: 'SetValue(String)'
+  so.intellisense: NSProjectStatus.SetValue
+  langs:
+  - crmscript
+  name: 'SetValue(String)'
+  nameWithType: NSProjectStatus.SetValue(String)
+  fullName: CRMScript.NetServer.NSProjectStatus.SetValue(String)
+  type: Method
+  summary: "\nSets the name of the NSProjectStatus item.\n"
+  remarks: 
+  syntax: 
+    content: Void SetValue(String value)
+    parameters:
+    - id: value
+      type: CRMScript.Global.String
+      description: 
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSProjectStatus thing;\nthing.SetValue(&quot;frotz&quot;);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSProjectStatus
+  commentId: T:CRMScript.NetServer.NSProjectStatus
+  isExternal: true
+  name: NSProjectStatus
+  nameWithType: NSProjectStatus
+  fullName: CRMScript.NetServer.NSProjectStatus
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

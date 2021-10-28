@@ -1,0 +1,369 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSPocketDeviceInfo
+  commentId: T:CRMScript.NetServer.NSPocketDeviceInfo
+  id: NSPocketDeviceInfo
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSPocketDeviceInfo.#ctor
+  - CRMScript.NetServer.NSPocketDeviceInfo.GetDeviceIdentifier()
+  - CRMScript.NetServer.NSPocketDeviceInfo.GetDeviceName()
+  - CRMScript.NetServer.NSPocketDeviceInfo.GetLanguage()
+  - CRMScript.NetServer.NSPocketDeviceInfo.GetOSVersion()
+  - CRMScript.NetServer.NSPocketDeviceInfo.GetPlatform()
+  - CRMScript.NetServer.NSPocketDeviceInfo.GetPNSHandle()
+  - CRMScript.NetServer.NSPocketDeviceInfo.GetPocketVersion()
+  - CRMScript.NetServer.NSPocketDeviceInfo.SetDeviceIdentifier(String)
+  - CRMScript.NetServer.NSPocketDeviceInfo.SetDeviceName(String)
+  - CRMScript.NetServer.NSPocketDeviceInfo.SetLanguage(String)
+  - CRMScript.NetServer.NSPocketDeviceInfo.SetOSVersion(String)
+  - CRMScript.NetServer.NSPocketDeviceInfo.SetPlatform(Integer)
+  - CRMScript.NetServer.NSPocketDeviceInfo.SetPNSHandle(String)
+  - CRMScript.NetServer.NSPocketDeviceInfo.SetPocketVersion(String)
+  name: NSPocketDeviceInfo
+  nameWithType: NSPocketDeviceInfo
+  fullName: CRMScript.NetServer.NSPocketDeviceInfo
+  type: Class
+  summary: "\nDescribes a device running Pocket CRM.\n"
+  example: 
+- uid: CRMScript.NetServer.NSPocketDeviceInfo.#ctor
+  commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSPocketDeviceInfo
+  langs:
+  - crmscript
+  name: NSPocketDeviceInfo()
+  nameWithType: NSPocketDeviceInfo.#ctor
+  fullName: CRMScript.NetServer.NSPocketDeviceInfo.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSPocketDeviceInfo class.\n"
+  remarks: 
+  syntax: 
+    content: NSPocketDeviceInfo
+  example: 
+- uid: CRMScript.NetServer.NSPocketDeviceInfo.GetDeviceIdentifier()
+  commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.GetDeviceIdentifier()
+  id: 'GetDeviceIdentifier()'
+  so.intellisense: NSPocketDeviceInfo.GetDeviceIdentifier
+  langs:
+  - crmscript
+  name: 'GetDeviceIdentifier()'
+  nameWithType: NSPocketDeviceInfo.GetDeviceIdentifier()
+  fullName: CRMScript.NetServer.NSPocketDeviceInfo.GetDeviceIdentifier()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDeviceIdentifier()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A unique identifier of this device. This value should always be the same for the same device."
+  example: 
+  - "\n<pre><code>NSPocketDeviceInfo thing;\nString deviceIdentifier = thing.GetDeviceIdentifier();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketDeviceInfo.GetDeviceName()
+  commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.GetDeviceName()
+  id: 'GetDeviceName()'
+  so.intellisense: NSPocketDeviceInfo.GetDeviceName
+  langs:
+  - crmscript
+  name: 'GetDeviceName()'
+  nameWithType: NSPocketDeviceInfo.GetDeviceName()
+  fullName: CRMScript.NetServer.NSPocketDeviceInfo.GetDeviceName()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetDeviceName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "A friendly display name for the device. For example, 'Bobbys iPhone 5S'."
+  example: 
+  - "\n<pre><code>NSPocketDeviceInfo thing;\nString deviceName = thing.GetDeviceName();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketDeviceInfo.GetLanguage()
+  commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.GetLanguage()
+  id: 'GetLanguage()'
+  so.intellisense: NSPocketDeviceInfo.GetLanguage
+  langs:
+  - crmscript
+  name: 'GetLanguage()'
+  nameWithType: NSPocketDeviceInfo.GetLanguage()
+  fullName: CRMScript.NetServer.NSPocketDeviceInfo.GetLanguage()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetLanguage()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The language which this device will receive notifications translated in."
+  example: 
+  - "\n<pre><code>NSPocketDeviceInfo thing;\nString language = thing.GetLanguage();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketDeviceInfo.GetOSVersion()
+  commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.GetOSVersion()
+  id: 'GetOSVersion()'
+  so.intellisense: NSPocketDeviceInfo.GetOSVersion
+  langs:
+  - crmscript
+  name: 'GetOSVersion()'
+  nameWithType: NSPocketDeviceInfo.GetOSVersion()
+  fullName: CRMScript.NetServer.NSPocketDeviceInfo.GetOSVersion()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetOSVersion()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The operating system version. For example, 'iOS v10.2."
+  example: 
+  - "\n<pre><code>NSPocketDeviceInfo thing;\nString oSVersion = thing.GetOSVersion();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketDeviceInfo.GetPlatform()
+  commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.GetPlatform()
+  id: 'GetPlatform()'
+  so.intellisense: NSPocketDeviceInfo.GetPlatform
+  langs:
+  - crmscript
+  name: 'GetPlatform()'
+  nameWithType: NSPocketDeviceInfo.GetPlatform()
+  fullName: CRMScript.NetServer.NSPocketDeviceInfo.GetPlatform()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Integer GetPlatform()
+    parameters: []
+    return:
+      type: CRMScript.Global.Integer
+      description: "What platform does this device belong to. See <xref href=\"CRMScript.NetServer.NotificationPlatform\" data-throw-if-not-resolved=\"false\"></xref>."
+  example: 
+  - "\n<pre><code>NSPocketDeviceInfo thing;\nInteger platform = thing.GetPlatform();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketDeviceInfo.GetPNSHandle()
+  commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.GetPNSHandle()
+  id: 'GetPNSHandle()'
+  so.intellisense: NSPocketDeviceInfo.GetPNSHandle
+  langs:
+  - crmscript
+  name: 'GetPNSHandle()'
+  nameWithType: NSPocketDeviceInfo.GetPNSHandle()
+  fullName: CRMScript.NetServer.NSPocketDeviceInfo.GetPNSHandle()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPNSHandle()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "The identifier associated with the device that will be used when talking with vendors push services."
+  example: 
+  - "\n<pre><code>NSPocketDeviceInfo thing;\nString pNSHandle = thing.GetPNSHandle();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketDeviceInfo.GetPocketVersion()
+  commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.GetPocketVersion()
+  id: 'GetPocketVersion()'
+  so.intellisense: NSPocketDeviceInfo.GetPocketVersion
+  langs:
+  - crmscript
+  name: 'GetPocketVersion()'
+  nameWithType: NSPocketDeviceInfo.GetPocketVersion()
+  fullName: CRMScript.NetServer.NSPocketDeviceInfo.GetPocketVersion()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetPocketVersion()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: What version of Pocket CRM this device is running. For example, '8.0.37'
+  example: 
+  - "\n<pre><code>NSPocketDeviceInfo thing;\nString pocketVersion = thing.GetPocketVersion();</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketDeviceInfo.SetDeviceIdentifier(String)
+  commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.SetDeviceIdentifier(String)
+  id: 'SetDeviceIdentifier(String)'
+  so.intellisense: NSPocketDeviceInfo.SetDeviceIdentifier
+  langs:
+  - crmscript
+  name: 'SetDeviceIdentifier(String)'
+  nameWithType: NSPocketDeviceInfo.SetDeviceIdentifier(String)
+  fullName: CRMScript.NetServer.NSPocketDeviceInfo.SetDeviceIdentifier(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeviceIdentifier(String deviceIdentifier)
+    parameters:
+    - id: deviceIdentifier
+      type: CRMScript.Global.String
+      description: "A unique identifier of this device. This value should always be the same for the same device."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPocketDeviceInfo thing;\nString deviceIdentifier;\nthing.SetDeviceIdentifier(deviceIdentifier);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketDeviceInfo.SetDeviceName(String)
+  commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.SetDeviceName(String)
+  id: 'SetDeviceName(String)'
+  so.intellisense: NSPocketDeviceInfo.SetDeviceName
+  langs:
+  - crmscript
+  name: 'SetDeviceName(String)'
+  nameWithType: NSPocketDeviceInfo.SetDeviceName(String)
+  fullName: CRMScript.NetServer.NSPocketDeviceInfo.SetDeviceName(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetDeviceName(String deviceName)
+    parameters:
+    - id: deviceName
+      type: CRMScript.Global.String
+      description: "A friendly display name for the device. For example, 'Bobbys iPhone 5S'."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPocketDeviceInfo thing;\nString deviceName;\nthing.SetDeviceName(deviceName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketDeviceInfo.SetLanguage(String)
+  commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.SetLanguage(String)
+  id: 'SetLanguage(String)'
+  so.intellisense: NSPocketDeviceInfo.SetLanguage
+  langs:
+  - crmscript
+  name: 'SetLanguage(String)'
+  nameWithType: NSPocketDeviceInfo.SetLanguage(String)
+  fullName: CRMScript.NetServer.NSPocketDeviceInfo.SetLanguage(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetLanguage(String language)
+    parameters:
+    - id: language
+      type: CRMScript.Global.String
+      description: "The language which this device will receive notifications translated in."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPocketDeviceInfo thing;\nString language;\nthing.SetLanguage(language);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketDeviceInfo.SetOSVersion(String)
+  commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.SetOSVersion(String)
+  id: 'SetOSVersion(String)'
+  so.intellisense: NSPocketDeviceInfo.SetOSVersion
+  langs:
+  - crmscript
+  name: 'SetOSVersion(String)'
+  nameWithType: NSPocketDeviceInfo.SetOSVersion(String)
+  fullName: CRMScript.NetServer.NSPocketDeviceInfo.SetOSVersion(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetOSVersion(String oSVersion)
+    parameters:
+    - id: oSVersion
+      type: CRMScript.Global.String
+      description: "The operating system version. For example, 'iOS v10.2'."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPocketDeviceInfo thing;\nString oSVersion;\nthing.SetOSVersion(oSVersion);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketDeviceInfo.SetPlatform(Integer)
+  commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.SetPlatform(Integer)
+  id: 'SetPlatform(Integer)'
+  so.intellisense: NSPocketDeviceInfo.SetPlatform
+  langs:
+  - crmscript
+  name: 'SetPlatform(Integer)'
+  nameWithType: NSPocketDeviceInfo.SetPlatform(Integer)
+  fullName: CRMScript.NetServer.NSPocketDeviceInfo.SetPlatform(Integer)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetPlatform(Integer platform)
+    parameters:
+    - id: platform
+      type: CRMScript.Global.Integer
+      description: "What platform does this device belong to. See <xref href=\"CRMScript.NetServer.NotificationPlatform\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPocketDeviceInfo thing;\nInteger platform;\nthing.SetPlatform(platform);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketDeviceInfo.SetPNSHandle(String)
+  commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.SetPNSHandle(String)
+  id: 'SetPNSHandle(String)'
+  so.intellisense: NSPocketDeviceInfo.SetPNSHandle
+  langs:
+  - crmscript
+  name: 'SetPNSHandle(String)'
+  nameWithType: NSPocketDeviceInfo.SetPNSHandle(String)
+  fullName: CRMScript.NetServer.NSPocketDeviceInfo.SetPNSHandle(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPNSHandle(String pNSHandle)
+    parameters:
+    - id: pNSHandle
+      type: CRMScript.Global.String
+      description: "The identifier associated with the device that will be used when talking with vendors push services."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPocketDeviceInfo thing;\nString pNSHandle;\nthing.SetPNSHandle(pNSHandle);</code></pre>\n"
+- uid: CRMScript.NetServer.NSPocketDeviceInfo.SetPocketVersion(String)
+  commentId: M:CRMScript.NetServer.NSPocketDeviceInfo.SetPocketVersion(String)
+  id: 'SetPocketVersion(String)'
+  so.intellisense: NSPocketDeviceInfo.SetPocketVersion
+  langs:
+  - crmscript
+  name: 'SetPocketVersion(String)'
+  nameWithType: NSPocketDeviceInfo.SetPocketVersion(String)
+  fullName: CRMScript.NetServer.NSPocketDeviceInfo.SetPocketVersion(String)
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: Void SetPocketVersion(String pocketVersion)
+    parameters:
+    - id: pocketVersion
+      type: CRMScript.Global.String
+      description: What version of Pocket CRM this device is running. For example, '8.0.37'
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSPocketDeviceInfo thing;\nString pocketVersion;\nthing.SetPocketVersion(pocketVersion);</code></pre>\n"
+references:
+- uid: CRMScript.NetServer.NSPocketDeviceInfo
+  commentId: T:CRMScript.NetServer.NSPocketDeviceInfo
+  isExternal: true
+  name: NSPocketDeviceInfo
+  nameWithType: NSPocketDeviceInfo
+  fullName: CRMScript.NetServer.NSPocketDeviceInfo
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NotificationPlatform
+  commentId: T:CRMScript.NetServer.NotificationPlatform
+  isExternal: true
+  name: NotificationPlatform
+  nameWithType: NotificationPlatform
+  fullName: CRMScript.NetServer.NotificationPlatform

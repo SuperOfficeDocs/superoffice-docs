@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.ShowState
+  # Same as SuperOffice.Data.ShowState
+  commentId: T:CRMScript.NetServer.ShowState
+  id: ShowState
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.ShowState.Minimized
+  - CRMScript.NetServer.ShowState.Maximized
+  - CRMScript.NetServer.ShowState.Default
+  - CRMScript.NetServer.ShowState.ToolBar
+  - CRMScript.NetServer.ShowState.AddressBar
+  - CRMScript.NetServer.ShowState.StatusBar
+  - CRMScript.NetServer.ShowState.MenuBar
+  name: ShowState
+  nameWithType: ShowState
+  fullName: CRMScript.NetServer.ShowState
+  type: Enum
+  summary: "\nValue for the ShowState field in table externalapplication\n"
+- uid: CRMScript.NetServer.ShowState.Minimized
+  commentId: F:CRMScript.NetServer.ShowState.Minimized
+  id: ShowState.Minimized
+  langs:
+  - crmscript
+  name: ShowState.Minimized
+  nameWithType: ShowState.Minimized
+  fullName: CRMScript.NetServer.ShowState.Minimized
+  type: Field
+  summary: "\n0: Start application in minimized state\n"
+  syntax: 
+    content: Minimized = 0
+    type: CRMScript.NetServer.ShowState
+- uid: CRMScript.NetServer.ShowState.Maximized
+  commentId: F:CRMScript.NetServer.ShowState.Maximized
+  id: ShowState.Maximized
+  langs:
+  - crmscript
+  name: ShowState.Maximized
+  nameWithType: ShowState.Maximized
+  fullName: CRMScript.NetServer.ShowState.Maximized
+  type: Field
+  summary: "\n1: Start application in maximized state\n"
+  syntax: 
+    content: Maximized = 1
+    type: CRMScript.NetServer.ShowState
+- uid: CRMScript.NetServer.ShowState.Default
+  commentId: F:CRMScript.NetServer.ShowState.Default
+  id: ShowState.Default
+  langs:
+  - crmscript
+  name: ShowState.Default
+  nameWithType: ShowState.Default
+  fullName: CRMScript.NetServer.ShowState.Default
+  type: Field
+  summary: "\n2: Start application with default window size and position\n"
+  syntax: 
+    content: Default = 2
+    type: CRMScript.NetServer.ShowState
+- uid: CRMScript.NetServer.ShowState.ToolBar
+  commentId: F:CRMScript.NetServer.ShowState.ToolBar
+  id: ShowState.ToolBar
+  langs:
+  - crmscript
+  name: ShowState.ToolBar
+  nameWithType: ShowState.ToolBar
+  fullName: CRMScript.NetServer.ShowState.ToolBar
+  type: Field
+  summary: "\n256: Show the Browser toolbar\n"
+  syntax: 
+    content: ToolBar = 256
+    type: CRMScript.NetServer.ShowState
+- uid: CRMScript.NetServer.ShowState.AddressBar
+  commentId: F:CRMScript.NetServer.ShowState.AddressBar
+  id: ShowState.AddressBar
+  langs:
+  - crmscript
+  name: ShowState.AddressBar
+  nameWithType: ShowState.AddressBar
+  fullName: CRMScript.NetServer.ShowState.AddressBar
+  type: Field
+  summary: "\n512: Show the Browser addressbar (where the user can type URL&apos;s and stuff)\n"
+  syntax: 
+    content: AddressBar = 512
+    type: CRMScript.NetServer.ShowState
+- uid: CRMScript.NetServer.ShowState.StatusBar
+  commentId: F:CRMScript.NetServer.ShowState.StatusBar
+  id: ShowState.StatusBar
+  langs:
+  - crmscript
+  name: ShowState.StatusBar
+  nameWithType: ShowState.StatusBar
+  fullName: CRMScript.NetServer.ShowState.StatusBar
+  type: Field
+  summary: "\n1024: Show the Browser statusbar\n"
+  syntax: 
+    content: StatusBar = 1024
+    type: CRMScript.NetServer.ShowState
+- uid: CRMScript.NetServer.ShowState.MenuBar
+  commentId: F:CRMScript.NetServer.ShowState.MenuBar
+  id: ShowState.MenuBar
+  langs:
+  - crmscript
+  name: ShowState.MenuBar
+  nameWithType: ShowState.MenuBar
+  fullName: CRMScript.NetServer.ShowState.MenuBar
+  type: Field
+  summary: "\n2048: MenuBar\n"
+  syntax: 
+    content: MenuBar = 2048
+    type: CRMScript.NetServer.ShowState
+references:
+- uid: CRMScript.NetServer.ShowState
+  commentId: T:CRMScript.NetServer.ShowState
+  isExternal: true
+  name: ShowState
+  nameWithType: ShowState
+  fullName: CRMScript.NetServer.ShowState

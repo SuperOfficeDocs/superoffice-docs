@@ -1,0 +1,784 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.WeekSchedule
+  commentId: T:CRMScript.Native.WeekSchedule
+  id: WeekSchedule
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.WeekSchedule.#ctor
+  - CRMScript.Native.WeekSchedule.addTimeSpan(DateTime,TimeSpan)
+  - CRMScript.Native.WeekSchedule.getDifference(DateTime,DateTime)
+  - CRMScript.Native.WeekSchedule.getFriStart()
+  - CRMScript.Native.WeekSchedule.getFriStop()
+  - CRMScript.Native.WeekSchedule.getMonStart()
+  - CRMScript.Native.WeekSchedule.getMonStop()
+  - CRMScript.Native.WeekSchedule.getNonDates()
+  - CRMScript.Native.WeekSchedule.getSatStart()
+  - CRMScript.Native.WeekSchedule.getSatStop()
+  - CRMScript.Native.WeekSchedule.getSunStart()
+  - CRMScript.Native.WeekSchedule.getSunStop()
+  - CRMScript.Native.WeekSchedule.getThuStart()
+  - CRMScript.Native.WeekSchedule.getThuStop()
+  - CRMScript.Native.WeekSchedule.getTueStart()
+  - CRMScript.Native.WeekSchedule.getTueStop()
+  - CRMScript.Native.WeekSchedule.getWedStart()
+  - CRMScript.Native.WeekSchedule.getWedStop()
+  - CRMScript.Native.WeekSchedule.loadFromPriority(Integer)
+  - CRMScript.Native.WeekSchedule.setFriStart(Time)
+  - CRMScript.Native.WeekSchedule.setFriStop(Time)
+  - CRMScript.Native.WeekSchedule.setMonStart(Time)
+  - CRMScript.Native.WeekSchedule.setMonStop(Time)
+  - CRMScript.Native.WeekSchedule.setNonDates(String)
+  - CRMScript.Native.WeekSchedule.setSatStart(Time)
+  - CRMScript.Native.WeekSchedule.setSatStop(Time)
+  - CRMScript.Native.WeekSchedule.setSunStart(Time)
+  - CRMScript.Native.WeekSchedule.setSunStop(Time)
+  - CRMScript.Native.WeekSchedule.setThuStart(Time)
+  - CRMScript.Native.WeekSchedule.setThuStop(Time)
+  - CRMScript.Native.WeekSchedule.setTueStart(Time)
+  - CRMScript.Native.WeekSchedule.setTueStop(Time)
+  - CRMScript.Native.WeekSchedule.setWedStart(Time)
+  - CRMScript.Native.WeekSchedule.setWedStop(Time)
+  name: WeekSchedule
+  nameWithType: WeekSchedule
+  fullName: CRMScript.Native.WeekSchedule
+  type: Class
+  summary: "\nThis class is used to represent a week schedule - what hours a day are &quot;active&quot; for each day, etc.\n"
+  example: 
+- uid: CRMScript.Native.WeekSchedule.#ctor
+  commentId: M:CRMScript.Native.WeekSchedule.#ctor
+  id: '#ctor'
+  so.intellisense: Void.WeekSchedule
+  langs:
+  - crmscript
+  name: WeekSchedule()
+  nameWithType: WeekSchedule.#ctor
+  fullName: CRMScript.Native.WeekSchedule.#ctor
+  type: Constructor
+  summary: "\nThis class is used to represent a week schedule - what hours a day are &quot;active&quot; for each day, etc.\n"
+  remarks: 
+  syntax: 
+    content: WeekSchedule
+  example: 
+- uid: CRMScript.Native.WeekSchedule.addTimeSpan(DateTime,TimeSpan)
+  commentId: M:CRMScript.Native.WeekSchedule.addTimeSpan(DateTime,TimeSpan)
+  id: 'addTimeSpan(DateTime,TimeSpan)'
+  so.intellisense: WeekSchedule.addTimeSpan
+  langs:
+  - crmscript
+  name: 'addTimeSpan(DateTime,TimeSpan)'
+  nameWithType: WeekSchedule.addTimeSpan(DateTime,TimeSpan)
+  fullName: CRMScript.Native.WeekSchedule.addTimeSpan(DateTime,TimeSpan)
+  type: Method
+  summary: "\nAdds a time span to the schedule.\n"
+  remarks: 
+  syntax: 
+    content: DateTime addTimeSpan(DateTime start, TimeSpan add)
+    parameters:
+    - id: start
+      type: CRMScript.Global.DateTime
+      description: "Start time for calculation"
+    - id: add
+      type: CRMScript.Native.TimeSpan
+      description: "The time span to add (2 days, 1 hours, 5 minutes, 30 seconds...)."
+    return:
+      type: CRMScript.Native.DateTime
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.getDifference(DateTime,DateTime)
+  commentId: M:CRMScript.Native.WeekSchedule.getDifference(DateTime,DateTime)
+  id: 'getDifference(DateTime,DateTime)'
+  so.intellisense: WeekSchedule.getDifference
+  langs:
+  - crmscript
+  name: 'getDifference(DateTime,DateTime)'
+  nameWithType: WeekSchedule.getDifference(DateTime,DateTime)
+  fullName: CRMScript.Native.WeekSchedule.getDifference(DateTime,DateTime)
+  type: Method
+  summary: "\nReturns difference between two DateTime as a TimeSpan.\n"
+  remarks: 
+  syntax: 
+    content: TimeSpan getDifference(DateTime start, DateTime stop)
+    parameters:
+    - id: start
+      type: CRMScript.Global.DateTime
+      description: "Start time for calculation"
+    - id: stop
+      type: CRMScript.Global.DateTime
+      description: "Stop time for calculation."
+    return:
+      type: CRMScript.Native.TimeSpan
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.getFriStart()
+  commentId: M:CRMScript.Native.WeekSchedule.getFriStart()
+  id: 'getFriStart()'
+  so.intellisense: WeekSchedule.getFriStart
+  langs:
+  - crmscript
+  name: 'getFriStart()'
+  nameWithType: WeekSchedule.getFriStart()
+  fullName: CRMScript.Native.WeekSchedule.getFriStart()
+  type: Method
+  summary: "\nThis function returns the start time (object) of &quot;active&quot; mode for Friday.\n"
+  remarks: 
+  syntax: 
+    content: Time getFriStart()
+    parameters: []
+    return:
+      type: CRMScript.Global.Time
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.getFriStop()
+  commentId: M:CRMScript.Native.WeekSchedule.getFriStop()
+  id: 'getFriStop()'
+  so.intellisense: WeekSchedule.getFriStop
+  langs:
+  - crmscript
+  name: 'getFriStop()'
+  nameWithType: WeekSchedule.getFriStop()
+  fullName: CRMScript.Native.WeekSchedule.getFriStop()
+  type: Method
+  summary: "\nThis function returns the end time (object) of &quot;active&quot; mode for Friday.\n"
+  remarks: 
+  syntax: 
+    content: Time getFriStop()
+    parameters: []
+    return:
+      type: CRMScript.Global.Time
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.getMonStart()
+  commentId: M:CRMScript.Native.WeekSchedule.getMonStart()
+  id: 'getMonStart()'
+  so.intellisense: WeekSchedule.getMonStart
+  langs:
+  - crmscript
+  name: 'getMonStart()'
+  nameWithType: WeekSchedule.getMonStart()
+  fullName: CRMScript.Native.WeekSchedule.getMonStart()
+  type: Method
+  summary: "\nThis function returns the start time (object) of &quot;active&quot; mode for Monday.\n"
+  remarks: 
+  syntax: 
+    content: Time getMonStart()
+    parameters: []
+    return:
+      type: CRMScript.Global.Time
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.getMonStop()
+  commentId: M:CRMScript.Native.WeekSchedule.getMonStop()
+  id: 'getMonStop()'
+  so.intellisense: WeekSchedule.getMonStop
+  langs:
+  - crmscript
+  name: 'getMonStop()'
+  nameWithType: WeekSchedule.getMonStop()
+  fullName: CRMScript.Native.WeekSchedule.getMonStop()
+  type: Method
+  summary: "\nThis function returns the end time (object) of &quot;active&quot; mode for Monday.\n"
+  remarks: 
+  syntax: 
+    content: Time getMonStop()
+    parameters: []
+    return:
+      type: CRMScript.Global.Time
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.getNonDates()
+  commentId: M:CRMScript.Native.WeekSchedule.getNonDates()
+  id: 'getNonDates()'
+  so.intellisense: WeekSchedule.getNonDates
+  langs:
+  - crmscript
+  name: 'getNonDates()'
+  nameWithType: WeekSchedule.getNonDates()
+  fullName: CRMScript.Native.WeekSchedule.getNonDates()
+  type: Method
+  summary: "\nThis function returns the dates that are closed, comma separated.\n"
+  remarks: 
+  syntax: 
+    content: String getNonDates()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.getSatStart()
+  commentId: M:CRMScript.Native.WeekSchedule.getSatStart()
+  id: 'getSatStart()'
+  so.intellisense: WeekSchedule.getSatStart
+  langs:
+  - crmscript
+  name: 'getSatStart()'
+  nameWithType: WeekSchedule.getSatStart()
+  fullName: CRMScript.Native.WeekSchedule.getSatStart()
+  type: Method
+  summary: "\nThis function returns the start time (object) of &quot;active&quot; mode for Saturday.\n"
+  remarks: 
+  syntax: 
+    content: Time getSatStart()
+    parameters: []
+    return:
+      type: CRMScript.Global.Time
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.getSatStop()
+  commentId: M:CRMScript.Native.WeekSchedule.getSatStop()
+  id: 'getSatStop()'
+  so.intellisense: WeekSchedule.getSatStop
+  langs:
+  - crmscript
+  name: 'getSatStop()'
+  nameWithType: WeekSchedule.getSatStop()
+  fullName: CRMScript.Native.WeekSchedule.getSatStop()
+  type: Method
+  summary: "\nThis function returns the end time (object) of &quot;active&quot; mode for Saturday.\n"
+  remarks: 
+  syntax: 
+    content: Time getSatStop()
+    parameters: []
+    return:
+      type: CRMScript.Global.Time
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.getSunStart()
+  commentId: M:CRMScript.Native.WeekSchedule.getSunStart()
+  id: 'getSunStart()'
+  so.intellisense: WeekSchedule.getSunStart
+  langs:
+  - crmscript
+  name: 'getSunStart()'
+  nameWithType: WeekSchedule.getSunStart()
+  fullName: CRMScript.Native.WeekSchedule.getSunStart()
+  type: Method
+  summary: "\nThis function returns the start time (object) of &quot;active&quot; mode for Sunday.\n"
+  remarks: 
+  syntax: 
+    content: Time getSunStart()
+    parameters: []
+    return:
+      type: CRMScript.Global.Time
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.getSunStop()
+  commentId: M:CRMScript.Native.WeekSchedule.getSunStop()
+  id: 'getSunStop()'
+  so.intellisense: WeekSchedule.getSunStop
+  langs:
+  - crmscript
+  name: 'getSunStop()'
+  nameWithType: WeekSchedule.getSunStop()
+  fullName: CRMScript.Native.WeekSchedule.getSunStop()
+  type: Method
+  summary: "\nThis function returns the end time (object) of &quot;active&quot; mode for Sunday.\n"
+  remarks: 
+  syntax: 
+    content: Time getSunStop()
+    parameters: []
+    return:
+      type: CRMScript.Global.Time
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.getThuStart()
+  commentId: M:CRMScript.Native.WeekSchedule.getThuStart()
+  id: 'getThuStart()'
+  so.intellisense: WeekSchedule.getThuStart
+  langs:
+  - crmscript
+  name: 'getThuStart()'
+  nameWithType: WeekSchedule.getThuStart()
+  fullName: CRMScript.Native.WeekSchedule.getThuStart()
+  type: Method
+  summary: "\nThis function returns the start time (object) of &quot;active&quot; mode for Thursday.\n"
+  remarks: 
+  syntax: 
+    content: Time getThuStart()
+    parameters: []
+    return:
+      type: CRMScript.Global.Time
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.getThuStop()
+  commentId: M:CRMScript.Native.WeekSchedule.getThuStop()
+  id: 'getThuStop()'
+  so.intellisense: WeekSchedule.getThuStop
+  langs:
+  - crmscript
+  name: 'getThuStop()'
+  nameWithType: WeekSchedule.getThuStop()
+  fullName: CRMScript.Native.WeekSchedule.getThuStop()
+  type: Method
+  summary: "\nThis function returns the end time (object) of &quot;active&quot; mode for Thursday.\n"
+  remarks: 
+  syntax: 
+    content: Time getThuStop()
+    parameters: []
+    return:
+      type: CRMScript.Global.Time
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.getTueStart()
+  commentId: M:CRMScript.Native.WeekSchedule.getTueStart()
+  id: 'getTueStart()'
+  so.intellisense: WeekSchedule.getTueStart
+  langs:
+  - crmscript
+  name: 'getTueStart()'
+  nameWithType: WeekSchedule.getTueStart()
+  fullName: CRMScript.Native.WeekSchedule.getTueStart()
+  type: Method
+  summary: "\nThis function returns the start time (object) of &quot;active&quot; mode for Tuesday.\n"
+  remarks: 
+  syntax: 
+    content: Time getTueStart()
+    parameters: []
+    return:
+      type: CRMScript.Global.Time
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.getTueStop()
+  commentId: M:CRMScript.Native.WeekSchedule.getTueStop()
+  id: 'getTueStop()'
+  so.intellisense: WeekSchedule.getTueStop
+  langs:
+  - crmscript
+  name: 'getTueStop()'
+  nameWithType: WeekSchedule.getTueStop()
+  fullName: CRMScript.Native.WeekSchedule.getTueStop()
+  type: Method
+  summary: "\nThis function returns the end time (object) of &quot;active&quot; mode for Tuesday.\n"
+  remarks: 
+  syntax: 
+    content: Time getTueStop()
+    parameters: []
+    return:
+      type: CRMScript.Global.Time
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.getWedStart()
+  commentId: M:CRMScript.Native.WeekSchedule.getWedStart()
+  id: 'getWedStart()'
+  so.intellisense: WeekSchedule.getWedStart
+  langs:
+  - crmscript
+  name: 'getWedStart()'
+  nameWithType: WeekSchedule.getWedStart()
+  fullName: CRMScript.Native.WeekSchedule.getWedStart()
+  type: Method
+  summary: "\nThis function returns the start time (object) of &quot;active&quot; mode for Wednesday.\n"
+  remarks: 
+  syntax: 
+    content: Time getWedStart()
+    parameters: []
+    return:
+      type: CRMScript.Global.Time
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.getWedStop()
+  commentId: M:CRMScript.Native.WeekSchedule.getWedStop()
+  id: 'getWedStop()'
+  so.intellisense: WeekSchedule.getWedStop
+  langs:
+  - crmscript
+  name: 'getWedStop()'
+  nameWithType: WeekSchedule.getWedStop()
+  fullName: CRMScript.Native.WeekSchedule.getWedStop()
+  type: Method
+  summary: "\nThis function returns the end time (object) of &quot;active&quot; mode for Wednesday.\n"
+  remarks: 
+  syntax: 
+    content: Time getWedStop()
+    parameters: []
+    return:
+      type: CRMScript.Global.Time
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.loadFromPriority(Integer)
+  commentId: M:CRMScript.Native.WeekSchedule.loadFromPriority(Integer)
+  id: 'loadFromPriority(Integer)'
+  so.intellisense: WeekSchedule.loadFromPriority
+  langs:
+  - crmscript
+  name: 'loadFromPriority(Integer)'
+  nameWithType: WeekSchedule.loadFromPriority(Integer)
+  fullName: CRMScript.Native.WeekSchedule.loadFromPriority(Integer)
+  type: Method
+  summary: "\nload a WeekSchedule object using the given priority's week schedule. Be aware that this method will clear all settings you may have on the WeekSchedule object.\n"
+  remarks: 
+  syntax: 
+    content: Void loadFromPriority(Integer p_id)
+    parameters:
+    - id: p_id
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.setFriStart(Time)
+  commentId: M:CRMScript.Native.WeekSchedule.setFriStart(Time)
+  id: 'setFriStart(Time)'
+  so.intellisense: WeekSchedule.setFriStart
+  langs:
+  - crmscript
+  name: 'setFriStart(Time)'
+  nameWithType: WeekSchedule.setFriStart(Time)
+  fullName: CRMScript.Native.WeekSchedule.setFriStart(Time)
+  type: Method
+  summary: "\nThis function sets the start time (object) of &quot;active&quot; mode for Friday.\n"
+  remarks: 
+  syntax: 
+    content: Void setFriStart(Time t)
+    parameters:
+    - id: t
+      type: CRMScript.Global.Time
+      description: "A time object set to desired start time."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.setFriStop(Time)
+  commentId: M:CRMScript.Native.WeekSchedule.setFriStop(Time)
+  id: 'setFriStop(Time)'
+  so.intellisense: WeekSchedule.setFriStop
+  langs:
+  - crmscript
+  name: 'setFriStop(Time)'
+  nameWithType: WeekSchedule.setFriStop(Time)
+  fullName: CRMScript.Native.WeekSchedule.setFriStop(Time)
+  type: Method
+  summary: "\nThis function sets the end time (object) of &quot;active&quot; mode for Friday.\n"
+  remarks: 
+  syntax: 
+    content: Void setFriStop(Time t)
+    parameters:
+    - id: t
+      type: CRMScript.Global.Time
+      description: "A time object set to desired stop time."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.setMonStart(Time)
+  commentId: M:CRMScript.Native.WeekSchedule.setMonStart(Time)
+  id: 'setMonStart(Time)'
+  so.intellisense: WeekSchedule.setMonStart
+  langs:
+  - crmscript
+  name: 'setMonStart(Time)'
+  nameWithType: WeekSchedule.setMonStart(Time)
+  fullName: CRMScript.Native.WeekSchedule.setMonStart(Time)
+  type: Method
+  summary: "\nThis function sets the start time (object) of &quot;active&quot; mode for Monday.\n"
+  remarks: 
+  syntax: 
+    content: Void setMonStart(Time t)
+    parameters:
+    - id: t
+      type: CRMScript.Global.Time
+      description: "A time object set to desired start time."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.setMonStop(Time)
+  commentId: M:CRMScript.Native.WeekSchedule.setMonStop(Time)
+  id: 'setMonStop(Time)'
+  so.intellisense: WeekSchedule.setMonStop
+  langs:
+  - crmscript
+  name: 'setMonStop(Time)'
+  nameWithType: WeekSchedule.setMonStop(Time)
+  fullName: CRMScript.Native.WeekSchedule.setMonStop(Time)
+  type: Method
+  summary: "\nThis function sets the end time (object) of &quot;active&quot; mode for Monday.\n"
+  remarks: 
+  syntax: 
+    content: Void setMonStop(Time t)
+    parameters:
+    - id: t
+      type: CRMScript.Global.Time
+      description: "A time object set to desired stop time."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.setNonDates(String)
+  commentId: M:CRMScript.Native.WeekSchedule.setNonDates(String)
+  id: 'setNonDates(String)'
+  so.intellisense: WeekSchedule.setNonDates
+  langs:
+  - crmscript
+  name: 'setNonDates(String)'
+  nameWithType: WeekSchedule.setNonDates(String)
+  fullName: CRMScript.Native.WeekSchedule.setNonDates(String)
+  type: Method
+  summary: "\nThis function sets the dates that are inactive.<p></p>\nExample date string: &quot;1/10/2004,24/12&quot;. If the year is not specified, the date is inactive every year.\n"
+  remarks: 
+  syntax: 
+    content: Void setNonDates(String dates)
+    parameters:
+    - id: dates
+      type: CRMScript.Global.String
+      description: "A comma separated sting of dates that are not &quot;active&quot;."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.WeekSchedule.setSatStart(Time)
+  commentId: M:CRMScript.Native.WeekSchedule.setSatStart(Time)
+  id: 'setSatStart(Time)'
+  so.intellisense: WeekSchedule.setSatStart
+  langs:
+  - crmscript
+  name: 'setSatStart(Time)'
+  nameWithType: WeekSchedule.setSatStart(Time)
+  fullName: CRMScript.Native.WeekSchedule.setSatStart(Time)
+  type: Method
+  summary: "\nThis function sets the start time (object) of &quot;active&quot; mode for Saturday.\n"
+  remarks: 
+  syntax: 
+    content: Void setSatStart(Time p_0)
+    parameters:
+    - id: p_0
+      type: CRMScript.Global.Time
+      description: "A time object set to desired start time."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.setSatStop(Time)
+  commentId: M:CRMScript.Native.WeekSchedule.setSatStop(Time)
+  id: 'setSatStop(Time)'
+  so.intellisense: WeekSchedule.setSatStop
+  langs:
+  - crmscript
+  name: 'setSatStop(Time)'
+  nameWithType: WeekSchedule.setSatStop(Time)
+  fullName: CRMScript.Native.WeekSchedule.setSatStop(Time)
+  type: Method
+  summary: "\nThis function sets the end time (object) of &quot;active&quot; mode for Saturday.\n"
+  remarks: 
+  syntax: 
+    content: Void setSatStop(Time t)
+    parameters:
+    - id: t
+      type: CRMScript.Global.Time
+      description: "A time object set to desired stop time."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.setSunStart(Time)
+  commentId: M:CRMScript.Native.WeekSchedule.setSunStart(Time)
+  id: 'setSunStart(Time)'
+  so.intellisense: WeekSchedule.setSunStart
+  langs:
+  - crmscript
+  name: 'setSunStart(Time)'
+  nameWithType: WeekSchedule.setSunStart(Time)
+  fullName: CRMScript.Native.WeekSchedule.setSunStart(Time)
+  type: Method
+  summary: "\nThis function sets the start time (object) of &quot;active&quot; mode for Sunday.\n"
+  remarks: 
+  syntax: 
+    content: Void setSunStart(Time t)
+    parameters:
+    - id: t
+      type: CRMScript.Global.Time
+      description: "A time object set to desired start time."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.setSunStop(Time)
+  commentId: M:CRMScript.Native.WeekSchedule.setSunStop(Time)
+  id: 'setSunStop(Time)'
+  so.intellisense: WeekSchedule.setSunStop
+  langs:
+  - crmscript
+  name: 'setSunStop(Time)'
+  nameWithType: WeekSchedule.setSunStop(Time)
+  fullName: CRMScript.Native.WeekSchedule.setSunStop(Time)
+  type: Method
+  summary: "\nThis function sets the end time (object) of &quot;active&quot; mode for Sunday.\n"
+  remarks: 
+  syntax: 
+    content: Void setSunStop(Time t)
+    parameters:
+    - id: t
+      type: CRMScript.Global.Time
+      description: "A time object set to desired stop time."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.setThuStart(Time)
+  commentId: M:CRMScript.Native.WeekSchedule.setThuStart(Time)
+  id: 'setThuStart(Time)'
+  so.intellisense: WeekSchedule.setThuStart
+  langs:
+  - crmscript
+  name: 'setThuStart(Time)'
+  nameWithType: WeekSchedule.setThuStart(Time)
+  fullName: CRMScript.Native.WeekSchedule.setThuStart(Time)
+  type: Method
+  summary: "\nThis function sets the start time (object) of &quot;active&quot; mode for Thursday.\n"
+  remarks: 
+  syntax: 
+    content: Void setThuStart(Time t)
+    parameters:
+    - id: t
+      type: CRMScript.Global.Time
+      description: "A time object set to desired start time."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.setThuStop(Time)
+  commentId: M:CRMScript.Native.WeekSchedule.setThuStop(Time)
+  id: 'setThuStop(Time)'
+  so.intellisense: WeekSchedule.setThuStop
+  langs:
+  - crmscript
+  name: 'setThuStop(Time)'
+  nameWithType: WeekSchedule.setThuStop(Time)
+  fullName: CRMScript.Native.WeekSchedule.setThuStop(Time)
+  type: Method
+  summary: "\nThis function sets the end time (object) of &quot;active&quot; mode for Thursday.\n"
+  remarks: 
+  syntax: 
+    content: Void setThuStop(Time t)
+    parameters:
+    - id: t
+      type: CRMScript.Global.Time
+      description: "A time object set to desired stop time."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.WeekSchedule.setTueStart(Time)
+  commentId: M:CRMScript.Native.WeekSchedule.setTueStart(Time)
+  id: 'setTueStart(Time)'
+  so.intellisense: WeekSchedule.setTueStart
+  langs:
+  - crmscript
+  name: 'setTueStart(Time)'
+  nameWithType: WeekSchedule.setTueStart(Time)
+  fullName: CRMScript.Native.WeekSchedule.setTueStart(Time)
+  type: Method
+  summary: "\nThis function sets the start time (object) of &quot;active&quot; mode for Tuesday.\n"
+  remarks: 
+  syntax: 
+    content: Void setTueStart(Time p_0)
+    parameters:
+    - id: p_0
+      type: CRMScript.Global.Time
+      description: "A time object set to desired start time."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.setTueStop(Time)
+  commentId: M:CRMScript.Native.WeekSchedule.setTueStop(Time)
+  id: 'setTueStop(Time)'
+  so.intellisense: WeekSchedule.setTueStop
+  langs:
+  - crmscript
+  name: 'setTueStop(Time)'
+  nameWithType: WeekSchedule.setTueStop(Time)
+  fullName: CRMScript.Native.WeekSchedule.setTueStop(Time)
+  type: Method
+  summary: "\nThis function sets the end time (object) of &quot;active&quot; mode for Tuesday.\n"
+  remarks: 
+  syntax: 
+    content: Void setTueStop(Time t)
+    parameters:
+    - id: t
+      type: CRMScript.Global.Time
+      description: "A time object set to desired stop time."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.setWedStart(Time)
+  commentId: M:CRMScript.Native.WeekSchedule.setWedStart(Time)
+  id: 'setWedStart(Time)'
+  so.intellisense: WeekSchedule.setWedStart
+  langs:
+  - crmscript
+  name: 'setWedStart(Time)'
+  nameWithType: WeekSchedule.setWedStart(Time)
+  fullName: CRMScript.Native.WeekSchedule.setWedStart(Time)
+  type: Method
+  summary: "\nThis function sets the start time (object) of &quot;active&quot; mode for Wednesday.\n"
+  remarks: 
+  syntax: 
+    content: Void setWedStart(Time t)
+    parameters:
+    - id: t
+      type: CRMScript.Global.Time
+      description: "A time object set to desired start time."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+- uid: CRMScript.Native.WeekSchedule.setWedStop(Time)
+  commentId: M:CRMScript.Native.WeekSchedule.setWedStop(Time)
+  id: 'setWedStop(Time)'
+  so.intellisense: WeekSchedule.setWedStop
+  langs:
+  - crmscript
+  name: 'setWedStop(Time)'
+  nameWithType: WeekSchedule.setWedStop(Time)
+  fullName: CRMScript.Native.WeekSchedule.setWedStop(Time)
+  type: Method
+  summary: "\nThis function sets the end time (object) of &quot;active&quot; mode for Wednesday.\n"
+  remarks: 
+  syntax: 
+    content: Void setWedStop(Time t)
+    parameters:
+    - id: t
+      type: CRMScript.Global.Time
+      description: "A time object set to desired stop time."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+references:
+- uid: CRMScript.Native.WeekSchedule
+  commentId: T:CRMScript.Native.WeekSchedule
+  isExternal: true
+  name: WeekSchedule
+  nameWithType: WeekSchedule
+  fullName: CRMScript.Native.WeekSchedule
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Time
+  commentId: T:CRMScript.Global.Time
+  isExternal: true
+  name: Time
+  nameWithType: Time
+  fullName: CRMScript.Global.Time
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.Native.TimeSpan
+  commentId: T:CRMScript.Native.TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: CRMScript.Native.TimeSpan
