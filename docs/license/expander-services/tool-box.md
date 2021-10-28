@@ -48,7 +48,7 @@ If you need access to the SuperOffice APIs or any of the advanced extensibility 
 
 You *don't* need to buy Developer Tools to use the standard customization tools available in the **Settings and maintenance** module. You are free to customize your solution using, for example, your definition of lists, privacy settings, templates, sales and project guides, and user-defined fields.
 
-Furthermore, you *don't* need an Developer Tools license if your company runs SuperOffice CRM in the cloud and you want to use any of the [standard applications][6] available in [the SuperOffice App Store][7].
+Furthermore, you *don't* need a Developer Tools license if your company runs SuperOffice CRM in the cloud and you want to use any of the [standard applications][6] available in [the SuperOffice App Store][7].
 
 However, if you are running SuperOffice CRM on your premises, you *always* need to have Developer Tools to add integrations or customizations to your solution, whether these are customized for you or standard add-ons.
 

@@ -35,8 +35,7 @@ There are two ways to find your way to the fun that is CRMScript:
 * In Sales, click the burger menu in the top right corner and click **Settings and maintenance**. Then in the left menu, you can find CRMScript.
 * In Service, click the cogwheel in the top right corner, click **System design** and then **CRMScript**.
 
-> [!NOTE]
-> Creating scripts and macros will require the Developer Tools license (formerly Expander Services). This is an additional cost per site.
+[!include[License requirement](../../includes/req-dev-tools.md)]
 
 ## What kind of triggers can I create?
 
