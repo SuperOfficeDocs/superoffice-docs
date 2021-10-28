@@ -1,10 +1,10 @@
 ---
 uid: crmscript_quotes
 title: Quotes
-author:
-so.date:
-keywords:
-so.topic:
+author: Bergfrid Dias
+so.date: 10.27.2021
+keywords: sale, quote, quoteconnection
+so.topic: concept
 ---
 
 # Quotes
@@ -15,6 +15,8 @@ For you as a CRMScript developer, working with quotes means that:
 
 * you won't have to worry about miscalculating
 * the sales details can be automatically updated
+
+[!include[License requirement](../includes/req-sales-prem.md)]
 
 ## ERP
 

@@ -1,17 +1,19 @@
 ---
 uid: crmscript_sale-guide
 title: Guides
-author:
-so.date:
-keywords:
-so.topic:
+author: Bergfrid Dias
+so.date: 10.27.2021
+keywords: sale, sales guide
+so.topic: concept
 ---
 
 # Guides
 
-Some sale types have an associated sales guide. For those types, it's important to understand stages and working with suggested activities.
+Some sale types have an associated sales guide. For those types, it's important to understand stages and how to work with suggested activities.
 
-## Check if sale is connected to a guide
+[!include[License requirement](../includes/req-sales-prem.md)]
+
+## Check if a sale is connected to a guide
 
 ```crmscript!
 NSListAgent listAgent;
@@ -167,6 +169,6 @@ myBlueprint = appointmentAgent.SaveSuggestedAppointmentEntity(myBlueprint);
 For a complete list of fields, see the [database reference][3].
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-SaleTypeStageLink.htm
+[1]: ../../../database/docs/tables/saletypestagelink.md
 [2]: ../documents/doc-properties.md
-[3]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-SuggestedAppointment.htm
+[3]: ../../../database/docs/tables/suggestedappointment.md

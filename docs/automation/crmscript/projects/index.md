@@ -1,15 +1,18 @@
 ---
 uid: crmscript_projects
 title: Projects
-author:
-so.date:
-keywords:
-so.topic:
+author: Bergfrid Dias
+so.date: 10.27.2021
+keywords: project, project management, CRMSCript
+so.topic: concept
 ---
 
 # Projects
 
 A project typically consists of different stages. For each stage, you have certain activities and perhaps documents that need to be completed. With every activity and every stage completed, you will get closer to completing the project.
+
+> [!NOTE]
+> Project management requires either a Sales Premium, Service Premium, or Marketing license. For details, see the [list of user plans][7].
 
 ## Key info
 
@@ -110,3 +113,4 @@ When working with projects, data will often intersect with the following entitie
 [4]: ../persons-and-organizations/company.md
 [5]: ../persons-and-organizations/customer.md
 [6]: ../sales/index.md
+[7]: ../../../superoffice-docs/docs/license/user-plans.md

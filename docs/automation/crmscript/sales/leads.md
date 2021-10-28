@@ -1,10 +1,10 @@
 ---
 uid: crmscript_sale-leads
 title: Leads
-author:
-so.date:
-keywords:
-so.topic:
+author: Bergfrid Dias
+so.date: 10.27.2021
+keywords: sale
+so.topic: concept
 ---
 
 # Leads
@@ -138,4 +138,4 @@ For a complete list of fields, see the [database reference][3].
 <!-- Referenced links -->
 [1]: ../requests/tickets.md
 [2]: ../follow-ups/index.md
-[3]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-sale.htm
+[3]: ../../../database/docs/tables/sale.md

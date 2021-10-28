@@ -1,15 +1,17 @@
 ---
 uid: crmscript_sale-stakeholders
 title: Stakeholders
-author:
-so.date:
-keywords:
-so.topic:
+author: Bergfrid Dias
+so.date: 10.27.2021
+keywords: sale, stakeholder
+so.topic: concept
 ---
 
 # Stakeholders
 
 A sale has a main contact, but partners and subcontractors may also be involved in the sale. These are referred to as **stakeholders** and can be either individuals, organizations, or a mix.
+
+[!include[License requirement](../includes/req-sales-prem.md)]
 
 ## Organizations as stakeholders
 
@@ -142,4 +144,4 @@ For a complete list of fields, see the [database reference][3].
 <!-- Referenced links -->
 [1]: ../persons-and-organizations/company.md
 [2]: ../persons-and-organizations/customer.md
-[3]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-SaleStakeholder.htm
+[3]: ../../../database/docs/tables/salestakeholder.md

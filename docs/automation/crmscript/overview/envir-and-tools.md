@@ -1,15 +1,15 @@
 ---
 uid: crmscript_howto
 title: How do I create and run CRMScripts?
-author:
-so.date:
+author: Bergfrid Dias
+so.date: 10.27.2021
 keywords:
 so.topic: howto
 ---
 
 # How do I create and run CRMScripts?
 
-To use CRMScripts in your SuperOffice environment, you need a subscription to Expander Services.
+To use CRMScripts in your SuperOffice environment, you need a subscription to Developer Tools (previously Expander Services).
 
 ## Creating CRMScripts
 
@@ -27,7 +27,7 @@ However, we recommend using the built-in editor in the SuperOffice admin client.
 **Pre-requisites:**
 
 * An administrator account for the tenant or installation
-* An Expander Services license
+* A Developer Tools (previously Expander Services) license
 
 ### Where does CRMScript run?
 
@@ -64,15 +64,13 @@ You need to [!include[register as a developer](includes/link-register-dev.md)] a
 
 This signs you up for a developer user account and creates a test tenant in the SuperOffice Online Development (SOD) environment.
 
-## Expander Services
+## Developer Tools
 
-Expander Services is our name for a set of tools that allow you to customize your CRM solution and to integrate other applications with SuperOffice. These tools extend beyond the standard configuration options offered to you out-of-the-box in the **Settings and maintenance** module.
+**Expander Services** is our name for a set of development tools and development products that allow you to customize your CRM solution and to integrate other applications with SuperOffice. These tools extend beyond the standard configuration options offered to you out-of-the-box in the **Settings and maintenance** module.
 
-Expander Services is a **subscription-based** license available to all customers. It doesn’t matter if you run SuperOffice CRM in the cloud or have it installed on your premises.
+Developer Tools is a **subscription-based** license part of Expander Services and is available to all customers. It doesn’t matter if you run SuperOffice CRM in the cloud or have it installed on your premises.
 
-When you subscribe to Expander Services, you get access to the following tools:
+[Read more][1]
 
-* CRMScript
-* Extra tables: Add new tables to the database and increase your flexibility
-* Custom screens: Create new screens in Service to support your specific processes
-* SuperOffice APIs: Create customizations by using developers' tools
+<!-- Referenced links -->
+[1]: ../../../superoffice-docs/docs/license/expander-services/tool-box.md

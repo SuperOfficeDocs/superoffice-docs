@@ -51,11 +51,11 @@ Because of security restrictions and performance considerations, there are some 
 
 The following data types are unsupported in CRMScript.
 
-1. NSAudienceAgent
-2. NSBulkUpdateAgent
-3. NSCRMScriptAgent
-4. NSDashboardAgent
-5. NSDatabaseAgent
-6. NSDatabaseTableAgent
-7. NSErpSyncAgent
-8. NSTrayAppAgent
+* NSAudienceAgent
+* NSBulkUpdateAgent
+* NSCRMScriptAgent
+* NSDashboardAgent
+* NSDatabaseAgent
+* NSDatabaseTableAgent
+* NSErpSyncAgent
+* NSTrayAppAgent

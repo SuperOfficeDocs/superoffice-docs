@@ -1,10 +1,10 @@
 ---
 uid: crmscript_requests
 title: Requests
-author:
-so.date:
-keywords:
-so.topic:
+author: Bergfrid Dias
+so.date: 10.27.2021
+keywords: Service, ticket, request
+so.topic: concept
 ---
 
 # Requests
@@ -15,6 +15,8 @@ so.topic:
 * create internal and external requests
 * respond to incoming inquiries
 * obtain an overview of the statuses of all requests in the system
+
+[!include[License requirement](../includes/req-service-essentials.md)]
 
 ## Request handling
 
@@ -62,6 +64,8 @@ The escalation chain has multiple levels. Each level has its own settings, such 
 * if and who the ticket should be delegated to on escalation
 * the ID of a **CRMScript** to run when the ticket alert goes off
 
+[!include[License requirement](../includes/req-service-prem.md)]
+
 ## Priority
 
 Priority is tied to:
@@ -83,4 +87,4 @@ All other calculations are happening in the background. We use `time_counter` to
 1. autolist
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-ticket_priority.htm
+[1]: ../../../database/docs/tables/ticket-priority.md

@@ -1,8 +1,8 @@
 ---
 uid: crmscript_custom_db
 title: Database customizations
-author:
-so.date:
+author: Bergfrid Dias
+so.date: 10.27.2021
 keywords:
 so.topic: concept
 ---
@@ -16,6 +16,8 @@ There are 3 ways to customize the database schema:
 * [user-defined fields][1] in Sales
 * [extra fields][2] on SuperOffice entities in Service
 * [extra tables][3] (aka 3rd party tables) in Service
+
+[!include[License requirement](../includes/req-dev-tools.md)]
 
 ## User-defined fields vs. extra fields
 

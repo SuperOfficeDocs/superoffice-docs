@@ -1,15 +1,19 @@
 ---
 uid: crmscript_sales
 title: Sales
-author:
-so.date:
-keywords:
-so.topic:
+author: Bergfrid Dias
+so.date: 10.27.2021
+keywords: sale
+so.topic: concept
 ---
 
 # Sales
 
 A sale process typically consists of different stages. For each stage, you have certain activities and perhaps documents that need to be completed. With every activity and every stage completed, you will get closer to [closing the sale][1].
+
+[!include[License requirement](../includes/req-sales-essentials.md)]
+
+(Some features need premium.)
 
 ## Key info
 

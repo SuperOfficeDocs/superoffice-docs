@@ -1,10 +1,10 @@
 ---
 uid: crmscript_currency
 title: Currency
-author:
-so.date:
-keywords:
-so.topic:
+author: Bergfrid Dias
+so.date: 10.27.2021
+keywords: sale, currency
+so.topic: concept
 ---
 
 # Currency
@@ -105,7 +105,7 @@ printLine(amount.toString(1) + " in " + listAgent.GetBaseCurrency().GetName() + 
 
 ## Convert between any 2 currencies
 
-You can either do a 2-step conversion via the base currency **or** calculate the relative rate between those 2 currencies and apply that directly. The latter is more efficient if you'll be doing multiple conversions
+You can either do a two-step conversion via the base currency **or** calculate the relative rate between those 2 currencies and apply that directly. The latter is more efficient if you'll be doing multiple conversions
 
 In this example, we assume we know the ID of the start and target currency and also the amount to be converted. Thus, we don't go via the sale object.
 
@@ -127,10 +127,9 @@ printLine("Relative exchange rate: " + conversionRate.toString(2));
 ```
 
 > [!TIP]
-> This works even if 1 of the IDs represent the base currency! Thus you could wrap it up in a reusable function:
+> This works even if one of the IDs represents the base currency! Thus you could wrap it up in a reusable function:
 
 ```crmscript!
-
 Float convertCurrency(Float amount, Integer startCurrencyId, Integer targetCurrencyId) {
   NSListAgent listAgent;
   NSCurrencyEntity currencyA = listAgent.GetCurrencyEntity(startCurrencyId);
