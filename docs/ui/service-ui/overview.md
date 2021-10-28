@@ -80,6 +80,6 @@ With scripts, you can:
 [11]: url-parameters.md
 [12]: ../web-panels/index.md
 [13]: ../soprotocol/index.md
-[14]: ../../../crmscript/docs/api-reference/classes/eventdata/index.md
-[15]: ../../../crmscript/docs/api-reference/classes/htmlelement/index.md
-[16]: ../../../crmscript/docs/api-reference/classes/mainmenu/index.md
+[14]: <xref:CRMScript.Native.EventData>
+[15]: <xref:CRMScript.Native.HtmlElement>
+[16]: <xref:CRMScript.Native.MainMenu>

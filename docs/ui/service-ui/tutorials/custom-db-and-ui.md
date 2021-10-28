@@ -246,7 +246,7 @@ url = ticket.exe?action=listTicket&ticketId=
 
 <!-- Referenced links -->
 [1]: ../../../../crmscript/docs/custom-database/extra-tables.md
-[2]: ../../../../crmscript/docs/api-reference/classes/mainmenu/index.md
+[2]: <xref:CRMScript.Native.MainMenu>
 [3]: ../screen-choosers.md
 [4]: ../custom-screens/index.md
 [5]: ../custom-screens/add-screen-element.md
