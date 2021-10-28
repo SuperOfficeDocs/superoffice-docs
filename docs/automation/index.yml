@@ -30,7 +30,7 @@ highlightedContent:
     # Card
     - title: "Trigger script reference"
       itemType: reference
-      url: ../../../crmscript/docs/api-reference/trigger-scripts/index.md
+      url: ../../../crmscript/docs/api-reference/CRMScript.Event.Trigger.yml
       # FYI we're linking to a specific file rather than index because the folder doesn't have an index.md
 
 # conceptualContent section (optional)

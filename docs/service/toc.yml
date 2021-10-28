@@ -51,7 +51,7 @@ items:
     - name: upgrade
       href: automated-tasks/upgrade.md
   - name: Config
-    href: index.md
+    href: config/index.md
     items:
     - name: FAQ
       href: ../customer-center/faq/configure.md
