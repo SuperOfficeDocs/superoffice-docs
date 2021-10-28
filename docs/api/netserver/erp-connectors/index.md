@@ -15,6 +15,8 @@ SuperOffice’s ERP Integration server is designed to allow integration with any
 
 A SuperOffice installation can be connected to any number of external ERP systems, either several instances accessed through a single connector or different systems through different connectors. Partners will be relied on to create and distribute all Sync Connectors, and SuperOffice will not host connectors on its Cloud infrastructure. On-premise customers may host connectors as they please.
 
+[!include[License requirement](../../includes/req-sales-prem.md)]
+
 ## Quick facts
 
 * A SuperOffice installation can connect to any number of Sync Connectors, and communicate with any number of Sync Connections through each connector. Many companies have several ERP clients/companies (the exact terminology may vary), and many larger companies may also have several different ERP systems (e.g. different systems in different countries).

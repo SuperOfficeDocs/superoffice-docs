@@ -3,11 +3,14 @@ title: Custom fields
 uid: custom_fields
 description: Custom fields
 author: {github-id}
+so.date: 10.27.2021
 keywords: udef
 so.topic: concept
 ---
 
 # Custom fields
+
+[!include[License requirement](../includes/req-dev-tools.md)]
 
 ## What are Udef fields?
 
@@ -126,7 +129,7 @@ Given this information, we can determine that the column identity values for the
 
 **Contact table: ID = 5 (first 3 columns):**
 
-| contact\_id | name | kananame |
+| contact_id | name | kananame |
 |---|---|---|
 |1280<br>(column ID = table ID \* 256 + offset) | 1281 | 1282 |
 

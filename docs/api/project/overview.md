@@ -2,8 +2,9 @@
 title: Add project
 uid: add_project
 description: Adding a project
-author: {github-id}
-keywords:
+author: Bergfrid Dias
+so.date: 10.27.2021
+keywords: project, project management
 so.topic: howto
 # so.envir:
 # so.client:
@@ -13,7 +14,10 @@ so.topic: howto
 
 When you register a project in SuperOffice, quite a bit happens behind the scenes.
 
-Create a new project called *Client SDK Work* and save it. (Click on the **New** button and fill in the name, then click **OK**.).
+> [!NOTE]
+> Project management requires either a Sales Premium, Service Premium, or Marketing license. For details, see the [list of user plans][7].
+
+Create a new project called *Client SDK Work* and save it. (Click on the **New** button and fill in the name, then click **OK**.)
 
 You may be required to fill in several required fields, depending on the database you are using.
 
@@ -61,6 +65,7 @@ The tables are described in more detail here:
 [2]: project-guide.md
 [3]: project-type-and-url.md
 [4]: text-table.md
+[7]: ../../../superoffice-docs/docs/license/user-plans.md
 
 <!-- Referenced images -->
 

@@ -2,7 +2,8 @@
 title: Stakeholders
 uid: sale_stakeholders
 description: Sale stakeholders
-author: {github-id}
+author: Bergfrid Dias
+so.date: 10.27.2021
 keywords: database
 so.topic: concept
 # so.envir:
@@ -12,6 +13,8 @@ so.topic: concept
 # Sale stakeholders
 
 New from 7.1: A sale may now have one or more stakeholders, a contact or person with an extra interest or role in the sale. This may be turned off using the preference in **SOAdmin - Preferences - Sale - Enable Stakeholders (default yes)**
+
+[!include[License requirement](../includes/req-sales-prem.md)]
 
 With this preference turned on a new archive is presented for sales of type.
 

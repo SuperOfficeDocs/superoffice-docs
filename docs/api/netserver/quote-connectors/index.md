@@ -19,6 +19,8 @@ The SuperOffice Quote Management system is based on an architecture that allows 
 
 ![quote database][img2]
 
+[!include[License requirement](../../includes/req-sales-prem.md)]
+
 ## Architecture
 
 The *\<SpesificERP>QuoteConnector.DLL* is loaded into the SuperOffice client when the SuperOffice client starts. The information needed to connect to the ERP system is set up and stored in the SuperOffice database first.
