@@ -18,7 +18,7 @@ We believe there are many scenarios where this capability will be extremely bene
 
 ## Database mirror options
 
-Data Mirroring Service is a copy of your data stored at a location of your choice outside the SuperOffice CRM Online environment. This requires [the database mirroring subscription][7]. 
+Data Mirroring Service is a copy of your data stored at a location of your choice outside the SuperOffice CRM Online environment. This requires [the database mirroring subscription][7].
 
 * [Order Database Mirroring][7] as a standalone application
 
@@ -28,18 +28,25 @@ Data Mirroring Service is a copy of your data stored at a location of your choic
 
 ## Where to begin
 
-With application details registered, the consumer has provided a URL where a web service implements the IMirrorClientService and IMirrorAdmin interfaces.
+With application details registered, it's time to create a web service that implements the IMirrorClientService and IMirrorAdmin interfaces. There are three options:
 
-Because each synchronization cycle begins with an authentication phase, certificates are used to ensure a trusted connection, and partners must ensure they have either:
+* Implement the service from <a href="../../assets/downloads/dbmirroring-wsdl.zip" download>WSDL files</a>.
+* Add a [.NET nuget package][4] to a WCF Service application project.
+* Clone or download the [database mirror service repository from GitHub][11].
+  * This is a 'ready-to-go' .NET solution that only needs to be compiled and deployed.
 
-* [installed the public SuperOffice certificates][2]
-* [overridden the certificate resolver][10]
+Once the mirroring endpoint is ready and the application has been activated, each synchronization cycle begins with an authentication phase. The authentication phase requires certificates to ensure a trusted connection.
 
-Partners must also have a private certificate to sign authentication responses sent back to SuperOffice. Finally, SuperOffice must have the public side of the partner's certificate to successfully validate those responses.
+SuperOffice generates a certificate for each application. The public side of the certificate is stored inside SuperOffice, while the private side of the certificate is sent to the application owner. The private side of the certificate is used by the service to sign authentication request responses.
 
-With an application successfully registered in OC, and certificates set up correctly, the rest is pretty straightforward using our NuGet package. As you will discover in the next section, .NET and SQL Server partners can have an implementation up and running in about 10 minutes or less.
+The authentication flow begins with SuperOffice issuing a signed authentication request that the mirroring service must both validate and issue a signed response.
 
-Partners who prefer to implement the `IMirrorClientService` interfaces using another technology can download the <a href="../../assets/downloads/dbmirroring-wsdl.zip" download>WSDL files</a>, or download and install the [nuget package][4]. We do not provide support for any other technologies than those discussed here in this article, i.e. SQL Server.
+The mirroring service must use one of the following certificate strategies to validate the authentication request.
+
+* [install the SuperOffice public certificates][2] in the server certificate store.
+* [overridden the certificate resolver][10] and load the certificate on demand.
+
+In return, the mirroring service must use its' private certificate to sign the response sent back to SuperOffice.SuperOffice uses the applications stored public certificate to verify the authentication response. Once successfully validated, the SuperOffice Database Mirroring service begin sending data to the application endpoint.
 
 ## Testing in SuperOffice Online Development Environment (SOD)
 
@@ -71,3 +78,4 @@ If you believe you have a great case for an application, navigate to the [applic
 [8]: https://community.superoffice.com/change-application/
 [9]: https://community.superoffice.com/application-registration/
 [10]: ../../../../data-access/docs/authentication/online/certificates/override-resolver.md
+[11]: https://github.com/SuperOffice/devnet-database-mirroring

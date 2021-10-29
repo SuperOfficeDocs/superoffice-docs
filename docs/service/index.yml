@@ -35,6 +35,18 @@ highlightedContent:
     - title: "Customer center"
       itemType: overview
       url: ../customer-center/index.yml
+    # Card
+    - title: "CRMScript Overview"
+      itemType: overview
+      url: ../../../crmscript/docs/index.yml
+    # Card
+    - title: "Trigger script reference"
+      itemType: reference
+      url: ../../../crmscript/docs/api-reference/CRMScript.Event.Trigger.yml
+    # Card
+    - title: "Macros and scripts"
+      itemType: reference
+      url: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/index.htm#t=Service%2Ftopics_script%2Fblogic.listScripts.html
 
 # conceptualContent section (optional)
 conceptualContent:
