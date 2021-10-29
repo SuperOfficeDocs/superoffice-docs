@@ -16,15 +16,30 @@ Database Mirroring presents a new API capability for partners building online in
 
 We believe there are many scenarios where this capability will be extremely beneficial to partner applications and those customers who consume them. We also realize that this capability poses a potential problem where partners will try to create solutions that don't fit any of the ideal scenarios. In most of these cases, they will be filtered and vetted through the certification process, so perhaps in the future, there will be more best-case scenario guidance for application vendors to follow.
 
+## Database mirror options
+
+Data Mirroring Service is a copy of your data stored at a location of your choice outside the SuperOffice CRM Online environment. This requires [the database mirroring subscription][7]. 
+
+* [Order Database Mirroring][7] as a standalone application
+
+* Get Database Mirror capability on an existing or new app
+  * [Register a new application][9]
+  * [Update existing application][8]
+
 ## Where to begin
 
-Whether the sole purpose of an application is database processing or a myriad of services, partners must first [register an application][1] and specify Database Mirroring should be enabled. In addition to the application details, a partner must provide a URL where the web service implementing IMirrorClientService and IMirrorAdmin is located.
+With application details registered, the consumer has provided a URL where a web service implements the IMirrorClientService and IMirrorAdmin interfaces.
 
-Because each synchronization cycle begins with an authentication phase, certificates are used to ensure a trusted connection, and partners must ensure their servers have [installed the public SuperOffice certificates][2] to successfully validate security tokens sent from SuperOffice. Partners must also have a private certificate with which to sign authentication responses sent back to SuperOffice. Finally, SuperOffice must have the public side of the partner's certificate to successfully validate those responses. There is a great deal more information about certificates in the [Security and Authentication][3] section of this topic.
+Because each synchronization cycle begins with an authentication phase, certificates are used to ensure a trusted connection, and partners must ensure they have either:
+
+* [installed the public SuperOffice certificates][2]
+* [overridden the certificate resolver][10]
+
+Partners must also have a private certificate to sign authentication responses sent back to SuperOffice. Finally, SuperOffice must have the public side of the partner's certificate to successfully validate those responses.
 
 With an application successfully registered in OC, and certificates set up correctly, the rest is pretty straightforward using our NuGet package. As you will discover in the next section, .NET and SQL Server partners can have an implementation up and running in about 10 minutes or less.
 
-Partners who prefer to implement the `IMirrorClientServce` interfaces using another technology can download the [WSDL files here][4]. We do not provide support for any other technologies than those discussed here in this article, i.e. SQL Server.
+Partners who prefer to implement the `IMirrorClientService` interfaces using another technology can download the <a href="../../assets/downloads/dbmirroring-wsdl.zip" download>WSDL files</a>, or download and install the [nuget package][4]. We do not provide support for any other technologies than those discussed here in this article, i.e. SQL Server.
 
 ## Testing in SuperOffice Online Development Environment (SOD)
 
@@ -48,7 +63,11 @@ If you believe you have a great case for an application, navigate to the [applic
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/application-registration
-[2]: ../../../../data-access/docs/authentication/online/certificates/configure.md
+[2]: ../../../../data-access/docs/authentication/online/certificates/index.md
 [3]: ../../../../data-access/docs/authentication/online/index.md
 [4]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Mirroring
 [6]: https://community.superoffice.com/register-as-developer
+[7]: https://community.superoffice.com/activate-database-mirror/
+[8]: https://community.superoffice.com/change-application/
+[9]: https://community.superoffice.com/application-registration/
+[10]: ../../../../data-access/docs/authentication/online/certificates/override-resolver.md
