@@ -1,11 +1,11 @@
 
 ### LabelLayout/LabelLayout2
 
-In SuperOffice 6, we replaced the ExtraFlags formatting of labellayout with the two fields LabelLayout and LabelLayout2. We use some special characters to separate the template variables
+In SuperOffice 6, we replaced the ExtraFlags formatting of labellayout with the two fields LabelLayout and LabelLayout2. We use some special characters to separate the template variables:
 
-\[ \] is to add a space between the template variables
+\[ \] is to add a space between the template variables.
 
-\[\\n\] - is to add a new line
+\[\\n\] - is to add a new line.
 
 \|x\| - Sometimes only the address part is needed, so a special delimiter will be used in the template string to tell where the name/title/… ends and the
 address begins.
@@ -16,17 +16,17 @@ You would in some cases like that the Street address is automatically copied to 
 
 This example will automatically copy of street address for the Netherlands, which uses a German address format (check this in the admin client – lists – country).
 
-This is the queries that change this:
+The queries that change this:
 
-Open ISQL, HakonClient or another tool like it.
+Open ISQL, HakonClient, or another tool like it.
 
 ```SQL
-Select * FROM addressformat WHERE name LIKE ‘Ger%’
+Select * FROM addressformat WHERE name LIKE 'Ger%'
 ```
 
-![address format][img1]
+![address format -screenshot][img1]
 
-To copy street address to postal address, and reverse is done by updating the following in table `addressformat`.
+To copy street address to postal address, and the reverse is done by updating the following in table `AddressFormat`:
 
 ```SQL
 UPDATE addressformat SET address1_zip =1024 WHERE addressformat_id=9
@@ -39,7 +39,7 @@ UPDATE addressformat SET zip_zip =1026 WHERE addressformat_id=9
 UPDATE addressformat SET zip_zip =2050 WHERE addressformat_id=10
 ```
 
-To get it to look up the City or Zipcode information from the table `ZipToCity`:
+To get it to look up the city or zip code information from the table `ziptocity`:
 
 ```SQL
 UPDATE addressformat SET address1_zip = 0 WHERE addressformat_id=9
@@ -55,7 +55,7 @@ UPDATE addressformat SET city_zip = 513 WHERE addressformat_id=10
 > [!NOTE]
 > `addressformat_id = 9`  have the Street address information (`atype_idx = 2`), and `addressformat_id=10` have the postal address information (`atype_idx=1`). To make them copy between the text entered (only when adding a new customer) you update the `xxx_zip` value. If you take the number 1024 as HEX, it’s 400, 2048 in HEX is 800, and this tells the CRM client to copy between these lines.
 
-The database manual give a description on each field in `Addressformat`, but you need to know some of our internal resources (lead text to the address lines)
+The docs describe each field in table `AddressFormat`, but you need to know some of our internal resources (lead text to the address lines).
 
 | Resource ID | English name |
 |---|---|
@@ -76,4 +76,4 @@ The database manual give a description on each field in `Addressformat`, but you
 | 14014 | Postcode: |
 
 <!-- Referenced images -->
-[img 1]: media/addressformat.jpg
+[img1]: media/addressformat.png
