@@ -53,5 +53,5 @@ NetServer web service accepts the user's credentials and tries to authenticate t
 Pocket CRM receives the result of the process and proceeds past the login screen with the authenticated user's principal and credentials ticket intact.
 
 <!--Referenced links-->
-[1]: https://community.superoffice.com/en/customer/inspiration/articlestandard-crm/pocket-crm-app-end-of-life-for-the-microsoft-windows-10-mobile-phone/
+[1]: https://community.superoffice.com/en/customer/inspiration/articles/standard-crm/pocket-crm-app-end-of-life-for-the-microsoft-windows-10-mobile-phone/
 [2]: ../../onsite/requirements/web-client.md
